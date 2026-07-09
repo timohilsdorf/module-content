@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "id": "industrialisierung-schweiz",
+  "title": "Die Industrialisierung der Schweiz",
+  "description": "Vom Spinnrad in der Bauernstube zur Fabrik, von der Spanisch-Brötli-Bahn zum Gotthardtunnel: Du erfährst, warum die Schweiz so früh industrialisiert wurde, wie sich das Leben der Menschen veränderte – und wie das Fabrikgesetz von 1877 auf Kinderarbeit und die soziale Frage antwortete.",
+  "subject": "RZG",
+  "subjectName": "Räume, Zeiten, Gesellschaften",
+  "cycle": 3,
+  "grades": "7.–9. Klasse (Sek I)",
+  "language": "de",
+  "competencies": [
+    {
+      "code": "RZG.5.2.a",
+      "description": "Die Schülerinnen und Schüler können die Entwicklung der Erwerbssektoren am Beispiel der Schweiz aufzeigen und erläutern (Wandel von der Agrar- zur Industrie- und zur Dienstleistungsgesellschaft)."
+    },
+    {
+      "code": "RZG.6.2.b",
+      "description": "Die Schülerinnen und Schüler können zu einem Aspekt der Industrialisierung verschiedene Informationen finden und miteinander vergleichen (z. B. ein Bild, eine Textquelle, ein Erlebnisbericht; Industrialisierung, Soziale Frage, Kinderarbeit)."
+    },
+    {
+      "code": "RZG.5.2.c",
+      "description": "Die Schülerinnen und Schüler können Auswirkungen von wirtschaftlichen Veränderungen auf einzelne Menschen erklären (z. B. Technisierung)."
+    }
+  ],
+  "learningObjectives": [
+    "Ich kann erklären, warum die Industrialisierung in der Schweiz früher einsetzte als in den meisten Ländern Kontinentaleuropas (Wasserkraft, Handelskapital, keine Zünfte auf dem Land).",
+    "Ich kann den Übergang von der Heimarbeit zur Fabrikarbeit in der Textilindustrie beschreiben und die Folgen für einzelne Menschen erläutern.",
+    "Ich kann die Bedeutung des Eisenbahnbaus – von der Spanisch-Brötli-Bahn 1847 bis zur Gotthardbahn 1882 – für die wirtschaftliche Entwicklung der Schweiz aufzeigen.",
+    "Ich kann erklären, wie die soziale Frage zum eidgenössischen Fabrikgesetz von 1877 und zur Entstehung der Arbeiterbewegung führte."
+  ],
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Industrialisierung",
+    "Schweiz",
+    "Textilindustrie",
+    "Heimarbeit",
+    "Verlagssystem",
+    "Fabrik",
+    "Spanisch-Brötli-Bahn",
+    "Gotthardtunnel",
+    "Eisenbahn",
+    "Kinderarbeit",
+    "Fabrikgesetz 1877",
+    "soziale Frage",
+    "Urbanisierung",
+    "Arbeiterbewegung"
+  ],
+  "authors": [
+    "EveryCate"
+  ],
+  "sources": [
+    {
+      "title": "Historisches Lexikon der Schweiz (HLS): Industrialisierung",
+      "url": "https://hls-dhs-dss.ch/de/articles/013824/"
+    },
+    {
+      "title": "Historisches Lexikon der Schweiz (HLS): Fabrikgesetze",
+      "url": "https://hls-dhs-dss.ch/de/articles/013804/"
+    },
+    {
+      "title": "Historisches Lexikon der Schweiz (HLS): Textilindustrie",
+      "url": "https://hls-dhs-dss.ch/de/articles/013957/"
+    },
+    {
+      "title": "Historisches Lexikon der Schweiz (HLS): Spinnerei im Hard",
+      "url": "https://hls-dhs-dss.ch/de/articles/048184/"
+    },
+    {
+      "title": "Geschichte der Sozialen Sicherheit: Das Fabrikgesetz von 1877",
+      "url": "https://www.geschichtedersozialensicherheit.ch/synthese/1877"
+    },
+    {
+      "title": "Wikipedia: Schweizerische Nordbahn (Spanisch-Brötli-Bahn)",
+      "url": "https://de.wikipedia.org/wiki/Schweizerische_Nordbahn"
+    },
+    {
+      "title": "Blog des Schweizerischen Nationalmuseums: Durchbruch am Gotthard",
+      "url": "https://blog.nationalmuseum.ch/2019/10/durchbruch-am-gotthard/"
+    },
+    {
+      "title": "Video: Philipp Löpfe – Industrialisierung 5: Industrialisierung der Schweiz bis 1850",
+      "url": "https://www.youtube.com/watch?v=CReniWNvjxM"
+    },
+    {
+      "title": "Video: MrWissen2go Geschichte – Wie verlief die Industrielle Revolution?",
+      "url": "https://www.youtube.com/watch?v=QRjH3bxsRao"
+    },
+    {
+      "title": "Bild: Seidenstoff-Weberei Winterthur um 1880, Foto: Johann Linck (Winterthurer Bibliotheken), Wikimedia Commons, CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Winterthurer_Bibliotheken_041405_Johann_Linck_1831-1900_Seidenstoff-Weberei_um_1880.tif"
+    },
+    {
+      "title": "Bild: Bahnhof Baden um 1850 (Graphische Sammlung Zentralbibliothek Zürich), Wikimedia Commons, Public Domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bahnhof_Baden_ca_1850.jpg"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "requires": [],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Ein Land verändert sich – radikal",
+      "body": "Schau dich kurz um: Dein T-Shirt haben Maschinen gewoben, dein Zug fährt (fast) auf die Minute genau, dein Znüni kommt aus dem Supermarkt. Vor rund 200 Jahren war nichts davon selbstverständlich. Die meisten Familien in der Schweiz lebten vom eigenen Stück Land – und verdienten sich etwas dazu, indem sie zu Hause in der Stube Baumwolle spannen und webten.\n\nDann, innerhalb weniger Jahrzehnte, veränderte sich fast alles: Fabriken mit rauchenden Kaminen wuchsen mitten im Ackerland, die erste Eisenbahn dampfte von Zürich nach Baden, und Kinder standen zwölf Stunden am Tag an lärmenden Maschinen. Ausgerechnet die kleine Schweiz – ohne Kohlevorkommen und ohne Zugang zum Meer – gehörte nach Grossbritannien zu den am frühesten industrialisierten Ländern Europas.\n\nIn diesem Modul findest du heraus:\n\n- **Warum** die Industrialisierung in der Schweiz so früh einsetzte\n- **Wie** aus Heimarbeit Fabrikarbeit wurde\n- **Was** die Eisenbahn mit dem wirtschaftlichen Aufstieg der Schweiz zu tun hat\n- **Welchen Preis** Arbeiterinnen, Arbeiter und Kinder dafür zahlten – und wie sich das Land mit dem Fabrikgesetz von 1877 zu ändern begann"
+    },
+    {
+      "type": "video",
+      "title": "Video: Warum die Schweiz so früh industrialisiert wurde",
+      "provider": "youtube",
+      "videoId": "CReniWNvjxM",
+      "description": "Achte beim Schauen auf drei Dinge: Welche Rolle spielten die Wasserkraft der Flüsse und Bäche, das Kapital der Handelsfamilien und die fehlenden Zunftregeln auf dem Land? Und überlege dir: Was bedeutete der Wechsel vom Spinnrad in der Stube zur Maschine in der Fabrik für eine Bauernfamilie?",
+      "transcript": "Der Schweizer Wirtschaftsjournalist Philipp Löpfe erklärt in rund sieben Minuten, warum die Schweiz nach Grossbritannien zu den am frühesten industrialisierten Ländern Kontinentaleuropas gehörte. Im Zentrum steht die Textilindustrie: der Übergang vom Spinnen und Weben in ländlicher Heimarbeit zur mechanisierten Fabrikproduktion. Das Video zeigt die wichtigsten Standortvorteile der Schweiz: die Wasserkraft der vielen Flüsse und Bäche, das verfügbare Handelskapital sowie das Fehlen einschränkender Zunftordnungen auf dem Land."
+    },
+    {
+      "type": "text",
+      "title": "Von der Bauernstube in die Fabrik",
+      "body": "Bevor es Fabriken gab, funktionierte die Textilproduktion im sogenannten **Verlagssystem**: Ein Kaufmann – der «Verleger» – brachte Rohbaumwolle zu Bauernfamilien aufs Land. Dort spannen und webten Frauen, Männer und Kinder in der Stube, neben der Arbeit auf dem Hof. Der Verleger holte Garn und Tuch wieder ab und verkaufte sie weiter. Diese **Heimarbeit** war etwa im Zürcher Oberland und in der Ostschweiz weit verbreitet.\n\nUm 1800 kam die grosse Wende: In England waren Spinnmaschinen erfunden worden, die viel schneller und billiger arbeiteten als jedes Spinnrad. 1801 wurden in St. Gallen die ersten Spinnmaschinen englischer Bauart aufgestellt, und 1802 nahm die **Spinnerei Hard** an der Töss bei Winterthur den Betrieb auf – eine der ersten mechanischen Spinnereien auf dem europäischen Kontinent. Für viele Heimspinnerinnen und Heimspinner hiess das: Ihre Handarbeit lohnte sich nicht mehr. Viele suchten schliesslich Arbeit in genau jenen Fabriken, die sie konkurrenziert hatten.\n\n**Warum ausgerechnet die Schweiz?** Drei Standortvorteile waren entscheidend:\n\n1. **Wasserkraft:** Die Schweiz hat keine Kohle, aber unzählige Flüsse und Bäche. Wasserräder und später Turbinen trieben die Maschinen an – darum stehen viele alte Fabriken direkt am Wasser.\n2. **Kapital:** Schweizer Handels- und Kaufmannsfamilien hatten mit dem Textilhandel Vermögen aufgebaut und konnten in teure Maschinen und Fabrikgebäude investieren.\n3. **Keine Zünfte auf dem Land:** In den Städten kontrollierten die Zünfte das Handwerk streng. Auf dem Land galten diese Regeln nicht – dort durfte man Fabriken bauen und frei produzieren. Dazu kamen viele Menschen, die aus der Heimarbeit bereits Erfahrung mit Textilproduktion mitbrachten.\n\nSo wurde die Textilindustrie im 19. Jahrhundert zur mit Abstand wichtigsten Exportbranche der Schweiz."
+    },
+    {
+      "type": "image",
+      "title": "Fabrik mitten im Ackerland",
+      "src": "/content/industrialisierung-schweiz/weberei-winterthur-1880.jpg",
+      "alt": "Historische Schwarz-Weiss-Fotografie der Seidenstoff-Weberei in Winterthur um 1880: langgezogene Fabrikgebäude mit Sheddächern und ein hoher rauchender Fabrikkamin, davor Felder und ein einzelner Mann auf einem Feldweg.",
+      "caption": "Die Seidenstoff-Weberei («Sidi») in Winterthur um 1880 – Fabrikhallen und rauchender Kamin mitten im Ackerland zeigen den Übergang von der Heimarbeit zur Fabrikproduktion.",
+      "credit": "Foto: Johann Linck (Winterthurer Bibliotheken), Wikimedia Commons, CC BY 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Die Eisenbahn bringt den zweiten Schub",
+      "body": "Am 9. August 1847 war es so weit: Die erste ganz auf Schweizer Boden verlaufende Eisenbahnlinie nahm den Betrieb auf. Sie führte über rund 23 Kilometer von Zürich nach Baden – Fahrzeit: etwa 45 Minuten statt mehrerer Stunden zu Fuss oder mit der Kutsche. Der Legende nach erhielt sie ihren Namen, weil Zürcher Herrschaften die «Spanisch Brötli» – ein beliebtes Blätterteiggebäck aus Baden – frisch mit der Bahn liefern liessen: die **Spanisch-Brötli-Bahn**. (Bereits 1844 hatte übrigens eine französische Bahnlinie aus dem Elsass Basel erreicht.)\n\nAb den 1850er-Jahren folgte ein regelrechter **Bahnboom**, der die Wirtschaft grundlegend veränderte:\n\n- Für Schienen, Brücken und Lokomotiven entstand eine leistungsfähige **Maschinen- und Metallindustrie**.\n- Um die teuren Bahnprojekte zu finanzieren, gründete der Zürcher Politiker und Unternehmer Alfred Escher 1856 die Schweizerische Kreditanstalt – **Banken und Versicherungen** wuchsen mit der Bahn mit.\n- Waren, Menschen und Nachrichten waren so schnell unterwegs wie nie zuvor.\n\nDas ehrgeizigste Projekt war der **Gotthardtunnel**: Ab 1872 trieben Tausende Arbeiter – die meisten aus Italien – den rund 15 Kilometer langen Tunnel durch den Berg. Die Bedingungen waren brutal: Hitze, Staub, Wassereinbrüche und Unfälle kosteten rund 200 Arbeiter das Leben. Als Mineure 1875 in Göschenen für bessere Bedingungen streikten, wurde der Streik gewaltsam niedergeschlagen – vier Arbeiter starben im Kugelhagel. Auch der Bauunternehmer Louis Favre erlebte die Vollendung seines Werks nicht: Er starb 1879 bei einer Inspektion im Tunnel. 1882 wurde die Gotthardbahn eröffnet. Der Tunnel war damals der längste der Welt und machte die Schweiz zu einem wichtigen Transitland zwischen Nord- und Südeuropa."
+    },
+    {
+      "type": "image",
+      "title": "Endstation Baden",
+      "src": "/content/industrialisierung-schweiz/bahnhof-baden-1850.jpg",
+      "alt": "Historischer Stich des Bahnhofs Baden um 1850: Dampflokomotive mit Wagen der Spanisch-Brötli-Bahn vor Stationsgebäuden und Lokremise, im Hintergrund die Ruine Stein.",
+      "caption": "Der Bahnhof Baden um 1850 – Endstation der Spanisch-Brötli-Bahn, der 1847 eröffneten ersten Eisenbahnlinie der Schweiz zwischen Zürich und Baden.",
+      "credit": "Bild: Unbekannter Künstler (Graphische Sammlung Zentralbibliothek Zürich), Wikimedia Commons, Public Domain"
+    },
+    {
+      "type": "video",
+      "title": "Video: Fabrikarbeit, Kinderarbeit und die soziale Frage",
+      "provider": "youtube",
+      "videoId": "QRjH3bxsRao",
+      "description": "Dieses Video zeigt die Industrielle Revolution im europäischen Überblick. Achte darauf: Unter welchen Bedingungen arbeiteten die Menschen in den Fabriken? Warum wuchsen die Städte so schnell – und was versteht man unter der «sozialen Frage»? Überlege beim Schauen, was davon auch auf die Schweiz zutrifft.",
+      "transcript": "Mirko Drotschmann (MrWissen2go Geschichte) erklärt in knapp sieben Minuten, wie die Industrielle Revolution von England aus auf den europäischen Kontinent übergriff und Wirtschaft, Gesellschaft und Lebensumstände umwälzte. Thematisiert werden die Fabrikarbeit mit harten Arbeitsbedingungen und Kinderarbeit, das rasante Wachstum der Städte (Urbanisierung) sowie die daraus entstehende soziale Frage und die Anfänge der Arbeiterbewegung. Das Video liefert den europäischen Rahmen, in den sich die Schweizer Entwicklungen wie das Fabrikgesetz von 1877 einordnen lassen."
+    },
+    {
+      "type": "text",
+      "title": "Die soziale Frage – und die Antwort der Schweiz",
+      "body": "Der Fortschritt hatte eine Schattenseite. In den Fabriken waren Arbeitstage von zwölf und mehr Stunden üblich – sechs Tage die Woche, bei Lärm, Staub und gefährlichen Maschinen. Auch **Kinder** arbeiteten in Spinnereien und Webereien, oft auf Kosten der Schule: Sie waren billige Arbeitskräfte. Gleichzeitig zogen immer mehr Familien vom Land in die wachsenden Industriestädte (**Urbanisierung**), wo sie häufig in engen, ungesunden Wohnungen lebten. Wie soll die Gesellschaft mit dieser neuen Armut und Unsicherheit umgehen? Diese Debatte nannte man die **soziale Frage**.\n\nDie Schweiz reagierte früher als die meisten Länder:\n\n- **1864** beschloss die Landsgemeinde des Kantons Glarus ein Fabrikgesetz, das als erstes in Europa die Arbeitszeit auch für erwachsene Arbeiter begrenzte (Zwölfstundentag). Schon 1856 hatte Glarus die Fabrikarbeit für Kinder unter zwölf Jahren verboten.\n- **1877** nahm das Schweizer Stimmvolk das **eidgenössische Fabrikgesetz** knapp an. Es begrenzte die Arbeit in den Fabriken auf elf Stunden pro Werktag, verbot die Fabrikarbeit für Kinder unter 14 Jahren, schützte Wöchnerinnen und machte die Fabrikbesitzer für Unfälle haftbar. Staatliche **Fabrikinspektoren** kontrollierten die Einhaltung. Damit gehörte die Schweiz beim Arbeiterschutz international zu den Pionieren.\n\nGleichzeitig begannen sich Arbeiterinnen und Arbeiter selbst zu organisieren: **1880** wurde der Schweizerische Gewerkschaftsbund gegründet, **1888** die Sozialdemokratische Partei der Schweiz. Und die Erwerbswelt kippte: Aus dem Agrarland Schweiz war innerhalb weniger Generationen eine Industriegesellschaft geworden – immer mehr Menschen verdienten ihr Geld nicht mehr auf dem Bauernhof, sondern in Fabrik, Werkstatt und Büro."
+    },
+    {
+      "type": "tasks",
+      "title": "Aufgaben",
+      "intro": "Jetzt bist du dran! Bearbeite die Aufgaben in dein Heft oder Dokument. Die Tipps helfen dir auf die Sprünge, die Lösungen zeigen dir einen möglichen Weg.",
+      "tasks": [
+        {
+          "id": "heimarbeit-vs-fabrik",
+          "prompt": "Vergleiche die **Heimarbeit im Verlagssystem** mit der **Arbeit in der Fabrik**. Erstelle eine Tabelle mit mindestens je zwei Vorteilen und zwei Nachteilen – aus der Sicht einer Arbeiterfamilie um 1850.",
+          "hint": "Denke an: Arbeitszeit und Arbeitstempo (wer bestimmt sie?), Höhe und Sicherheit des Verdienstes, Vereinbarkeit mit Hof und Familie, Gefahren bei der Arbeit.",
+          "solution": "Mögliche Antworten – **Heimarbeit:** + freie Zeiteinteilung, + Arbeit und Familienleben am selben Ort; − sehr tiefer, unsicherer Verdienst, − Abhängigkeit vom Verleger und von den Marktpreisen. **Fabrik:** + regelmässiger Lohn; − starre, sehr lange Arbeitszeiten (zwölf und mehr Stunden), − strenge Fabrikordnung, Lärm und gefährliche Maschinen, − langer Arbeitsweg oder Umzug in die Stadt."
+        },
+        {
+          "id": "bildquelle-weberei",
+          "prompt": "Betrachte das Foto der Weberei in Winterthur um 1880 genau. Notiere **zwei Beobachtungen**, die etwas über den Wandel der Schweiz verraten, und **zwei Fragen**, die dir das Bild allein nicht beantworten kann.",
+          "hint": "Beschreibe zuerst nur, was du siehst: Gebäude, Kamin, Felder, Menschen. Überlege dann: Was bedeutet es, dass diese Fabrik mitten im Ackerland steht?",
+          "solution": "Mögliche Beobachtungen: Die Fabrik mit Sheddächern und rauchendem Kamin steht mitten in Feldern – Landwirtschaft und Industrie existierten direkt nebeneinander; die Grösse der Hallen deutet auf Massenproduktion mit vielen Beschäftigten hin. Offene Fragen: Wie waren die Arbeitsbedingungen im Innern? Wer arbeitete dort – auch Frauen und Kinder? Wie lange und für welchen Lohn? Genau darum vergleicht man in der Geschichtswissenschaft immer mehrere Quellen (Bilder, Texte, Berichte) miteinander."
+        },
+        {
+          "id": "perspektive-fabrikkind",
+          "prompt": "Versetze dich in ein 12-jähriges Kind, das im Jahr **1877** in einer Spinnerei arbeitet. Schreibe einen kurzen **Tagebucheintrag** (ca. 10 Sätze) über einen Arbeitstag – und danach einen zweiten Eintrag aus dem Jahr **1878**, nachdem das eidgenössische Fabrikgesetz in Kraft getreten ist.",
+          "hint": "Erster Eintrag: früher Arbeitsbeginn, Lärm, Staub, Müdigkeit, kaum Zeit für die Schule. Zweiter Eintrag: Du bist jetzt 13 – was ändert das Verbot der Fabrikarbeit für unter 14-Jährige ganz konkret für dich, und vielleicht auch für das Einkommen deiner Familie?",
+          "solution": "Im ersten Eintrag sollten sehr lange Arbeitszeiten, gefährliche Maschinen, Erschöpfung und fehlende Schulzeit vorkommen. Im zweiten Eintrag: Das Kind ist 1878 dreizehn Jahre alt – das Fabrikgesetz von 1877 verbietet die Fabrikarbeit für Kinder unter 14 Jahren, es darf also nicht mehr in der Fabrik arbeiten und kann zur Schule gehen. Möglich ist auch ein kritischer Gedanke: Der Familie fehlt nun der Verdienst des Kindes, und nicht alle Fabrikanten hielten sich sofort an das Gesetz – dafür gab es die Fabrikinspektoren."
+        },
+        {
+          "id": "peer-quizfrage",
+          "prompt": "**Lernen durch Lehren:** Erstelle selbst eine Quizfrage zu diesem Modul mit drei Antwortmöglichkeiten (eine richtig, zwei falsch) und stelle sie einer Kollegin oder einem Kollegen. Erkläre anschliessend in eigenen Worten, warum die richtige Antwort stimmt.",
+          "hint": "Gute Distraktoren (falsche Antworten) sind fast richtig – zum Beispiel eine Jahreszahl, die nur wenig daneben liegt, oder ein Ereignis, das es wirklich gab, aber nicht zur Frage passt.",
+          "solution": "Beispiel: «In welchem Jahr nahm das Schweizer Stimmvolk das eidgenössische Fabrikgesetz an? a) 1847, b) 1877, c) 1902.» Richtig ist b) 1877. Erklärung: 1847 fuhr die Spanisch-Brötli-Bahn zum ersten Mal – die Jahreszahl passt also zur Eisenbahn, nicht zum Arbeiterschutz. Wichtig ist, dass du die Erklärung frei formulieren kannst, ohne nachzulesen."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Teste dein Wissen zur Industrialisierung der Schweiz",
+    "passingScorePercent": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "prompt": "Welche Strecke verband die 1847 eröffnete Spanisch-Brötli-Bahn, die erste ganz auf Schweizer Boden verlaufende Eisenbahnlinie?",
+        "options": [
+          {
+            "text": "Zürich–Baden",
+            "correct": true
+          },
+          {
+            "text": "Zürich–Bern"
+          },
+          {
+            "text": "Basel–Genf"
+          },
+          {
+            "text": "Luzern–Göschenen"
+          }
+        ],
+        "explanation": "Die Spanisch-Brötli-Bahn fuhr ab dem 9. August 1847 über rund 23 Kilometer von Zürich nach Baden – in etwa 45 Minuten. Der Legende nach geht ihr Name auf die «Spanisch Brötli» zurück, ein Blätterteiggebäck aus Baden, das mit der Bahn frisch nach Zürich gelangte."
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "prompt": "Warum setzte die Industrialisierung in der Schweiz so früh ein? Welche Standortvorteile treffen zu?",
+        "options": [
+          {
+            "text": "Wasserkraft aus vielen Flüssen und Bächen trieb die Maschinen an.",
+            "correct": true
+          },
+          {
+            "text": "Handelsfamilien besassen Kapital, um in Maschinen und Fabriken zu investieren.",
+            "correct": true
+          },
+          {
+            "text": "Auf dem Land gab es keine Zunftregeln, die die Produktion einschränkten.",
+            "correct": true
+          },
+          {
+            "text": "Die Schweiz besass grosse Kohlevorkommen."
+          },
+          {
+            "text": "Die Schweiz hatte eigene Seehäfen mit direktem Zugang zum Meer."
+          }
+        ],
+        "explanation": "Die Schweiz hatte weder Kohle noch einen Meerzugang. Ihre Trümpfe waren die Wasserkraft, das Handelskapital, die fehlenden Zunftschranken auf dem Land – und viele Menschen mit Erfahrung aus der textilen Heimarbeit.",
+        "points": 2
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "prompt": "Was legte das eidgenössische Fabrikgesetz von 1877 unter anderem fest?",
+        "options": [
+          {
+            "text": "Höchstens elf Stunden Arbeit pro Werktag und ein Verbot der Fabrikarbeit für Kinder unter 14 Jahren.",
+            "correct": true
+          },
+          {
+            "text": "Den Achtstundentag und bezahlte Ferien für alle Angestellten."
+          },
+          {
+            "text": "Ein vollständiges Verbot der Frauenarbeit in Fabriken."
+          },
+          {
+            "text": "Die Verstaatlichung aller Spinnereien und Webereien."
+          }
+        ],
+        "explanation": "Das Fabrikgesetz von 1877 brachte den Elfstundentag, verbot die Fabrikarbeit für Kinder unter 14 Jahren und führte staatliche Fabrikinspektoren ein. Der Achtstundentag beziehungsweise die 48-Stunden-Woche kam in der Schweiz erst nach dem Ersten Weltkrieg."
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "Der Gotthardtunnel war bei der Eröffnung der Gotthardbahn 1882 der längste Tunnel der Welt.",
+        "answer": true,
+        "explanation": "Der rund 15 Kilometer lange Tunnel war damals der längste der Welt. Der Bau ab 1872 forderte rund 200 Todesopfer unter den Arbeitern – auch Bauunternehmer Louis Favre starb 1879, noch vor der Vollendung, bei einer Inspektion im Tunnel."
+      },
+      {
+        "id": "q5",
+        "type": "multiple_choice",
+        "prompt": "Welche Aussagen zu den sozialen Folgen der Industrialisierung in der Schweiz stimmen?",
+        "options": [
+          {
+            "text": "Viele Menschen zogen vom Land in die wachsenden Industriestädte (Urbanisierung).",
+            "correct": true
+          },
+          {
+            "text": "Arbeiterinnen und Arbeiter organisierten sich: 1880 entstand der Schweizerische Gewerkschaftsbund, 1888 die Sozialdemokratische Partei der Schweiz.",
+            "correct": true
+          },
+          {
+            "text": "Der Kanton Glarus beschloss 1864 ein Fabrikgesetz, das als erstes in Europa die Arbeitszeit auch für Erwachsene begrenzte.",
+            "correct": true
+          },
+          {
+            "text": "Die Fabrikarbeit machte alle Arbeiterfamilien innert weniger Jahre wohlhabend."
+          }
+        ],
+        "explanation": "Die Industrialisierung brachte Wachstum, aber auch Armut, lange Arbeitstage und enge Wohnverhältnisse – die «soziale Frage». Als Antworten entstanden früher Arbeiterschutz (Glarus 1864 mit der europaweit ersten Arbeitszeitbegrenzung auch für Erwachsene, Bund 1877) und die organisierte Arbeiterbewegung (Gewerkschaftsbund 1880, SP 1888).",
+        "points": 2
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Die ersten Schweizer Spinnereien wurden vor allem mit Dampfmaschinen betrieben, die Kohle verbrannten.",
+        "answer": false,
+        "explanation": "Die Schweiz hatte kaum Kohle. Die frühen Fabriken – wie die Spinnerei Hard bei Winterthur (1802) – standen deshalb an Flüssen wie der Töss und nutzten Wasserkraft, um ihre Maschinen anzutreiben."
+      }
+    ]
+  }
+}

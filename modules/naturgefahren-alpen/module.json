@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "id": "naturgefahren-alpen",
+  "title": "Naturgefahren in den Alpen",
+  "description": "Lawinen, Hochwasser, Murgänge und Bergstürze: Du lernst an echten Schweizer Fallbeispielen wie dem Lawinenwinter 1999, Bondo 2017 und Brienz 2023, wie alpine Naturgefahren entstehen, wie sich die Schweiz davor schützt und warum der Klimawandel die Gefahren verschärft.",
+  "subject": "RZG",
+  "subjectName": "Räume, Zeiten, Gesellschaften",
+  "cycle": 3,
+  "grades": "7.–9. Klasse (Sek I)",
+  "language": "de",
+  "competencies": [
+    {
+      "code": "RZG.1.3.b",
+      "description": "Die Schülerinnen und Schüler können sich über aktuelle Naturereignisse informieren und deren Ursachen erklären."
+    },
+    {
+      "code": "RZG.1.3.c",
+      "description": "Die Schülerinnen und Schüler können die Auswirkungen von Naturereignissen auf Lebenssituationen von Menschen und auf die Umwelt benennen und einschätzen."
+    },
+    {
+      "code": "RZG.1.2.c",
+      "description": "Die Schülerinnen und Schüler können sich über den Klimawandel informieren, Ursachen erläutern und Auswirkungen des Klimawandels auf verschiedene Regionen der Welt, insbesondere die Schweiz, einschätzen."
+    }
+  ],
+  "learningObjectives": [
+    "Ich kann erklären, wie Lawinen, Hochwasser, Murgänge und Bergstürze entstehen.",
+    "Ich kann an Schweizer Fallbeispielen (Lawinenwinter 1999, Bondo 2017, Brienz 2023) beschreiben, wie sich Naturereignisse auf Menschen und Umwelt auswirken.",
+    "Ich kann Schutzmassnahmen wie Verbauungen, Schutzwald, Warnsysteme und Gefahrenkarten unterscheiden und ihren Nutzen einschätzen.",
+    "Ich kann begründen, warum der Klimawandel Naturgefahren in den Alpen verstärkt."
+  ],
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Naturgefahren",
+    "Alpen",
+    "Lawine",
+    "Hochwasser",
+    "Murgang",
+    "Bergsturz",
+    "Felssturz",
+    "Permafrost",
+    "Klimawandel",
+    "Gefahrenkarte",
+    "Schutzwald",
+    "Bondo",
+    "Brienz",
+    "Lawinenwinter 1999",
+    "Schweiz"
+  ],
+  "authors": [
+    "EveryCate"
+  ],
+  "sources": [
+    {
+      "title": "SLF (WSL-Institut für Schnee- und Lawinenforschung): Lehren aus dem Lawinenwinter 1999",
+      "url": "https://www.slf.ch/de/lawinen/unfaelle-und-lawinen/analyse-von-lawinenereignissen/lehren-aus-lawinenwinter-1999/"
+    },
+    {
+      "title": "BAFU: Instabiler Permafrost führt zu häufigeren Bergstürzen",
+      "url": "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/dossiers/klimaerwarmung-und-bergstuerzen.html"
+    },
+    {
+      "title": "BAFU: Eine Flut, die Rekorde brach – das Hochwasser vom August 2005",
+      "url": "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/dossiers/zehn-jahr-hochwasser/eine-flut--die-rekorde-brach.html"
+    },
+    {
+      "title": "BAFU: Schutzwald – biologische Massnahmen gegen Naturgefahren",
+      "url": "https://www.bafu.admin.ch/de/schutzwald"
+    },
+    {
+      "title": "NZZ: Bondo fünf Jahre nach dem Bergsturz (2022)",
+      "url": "https://www.nzz.ch/schweiz/bondo-fuenf-jahre-nach-dem-bergsturz-ld.1699242"
+    },
+    {
+      "title": "Spektrum der Wissenschaft: Felssturz bei Brienz – Schweizer Dorf muss erneut evakuiert werden",
+      "url": "https://www.spektrum.de/news/felssturz-bei-brienz-schweizer-dorf-muss-erneut-evakuiert-werden/2241920"
+    },
+    {
+      "title": "Video: SRF Kids «Clip und klar!» – Lawinen: Wie schützt man sich davor?",
+      "url": "https://www.youtube.com/watch?v=Zp4O8n87JPE"
+    },
+    {
+      "title": "Video: SRF Kids News – Was bedeutet der Bergsturz in Brienz für die Bewohner:innen?",
+      "url": "https://www.youtube.com/watch?v=mf1o-v2I7Zs"
+    },
+    {
+      "title": "Bild: Bergsturz Brienz/Brinzauls – Clemenspool, Wikimedia Commons, CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:BergsturzBrienz.jpg"
+    },
+    {
+      "title": "Bild: Lawinenverbauungen oberhalb von Zermatt – Tiia Monto, Wikimedia Commons, CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Zermatt_-_Avalanche_barriers.jpg"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "requires": [],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Wenn der Berg sich bewegt",
+      "body": "Stell dir vor, die Behörden klopfen an eure Tür: **«Ihr müsst euer Dorf verlassen – der Berg über euch könnte abstürzen.»** Genau das passierte im Mai 2023 den rund 90 Bewohnerinnen und Bewohnern von Brienz/Brinzauls in Graubünden. Rund fünf Wochen später, in der Nacht auf den 16. Juni 2023, donnerten tatsächlich rund 1,2 Millionen Kubikmeter Fels und Schutt zu Tal – und kamen erst wenige Meter vor dem Dorf zum Stillstand.\n\nWer in den Alpen lebt, lebt mit Naturgefahren. Die wichtigsten sind:\n\n- **Lawinen** – Schneemassen, die sich vom Hang lösen\n- **Hochwasser und Murgänge** – Wasser, Schlamm und Geröll, die Täler überfluten\n- **Felsstürze und Bergstürze** – Gestein, das aus Wänden bricht\n\nIn diesem Modul findest du heraus, wie diese Gefahren entstehen, wie sich die Schweiz mit Verbauungen, Schutzwald, Warnsystemen und Gefahrenkarten schützt – und warum der Klimawandel das Ganze verschärft."
+    },
+    {
+      "type": "video",
+      "title": "Video: Wie schützt man sich vor Lawinen?",
+      "provider": "youtube",
+      "videoId": "Zp4O8n87JPE",
+      "description": "Schau dir das Erklärvideo von SRF Kids (ca. 4 Minuten) an. Achte besonders darauf: Welche **drei Schutzmassnahmen** gegen Lawinen werden gezeigt? Und wo am Hang setzen sie jeweils an?",
+      "transcript": "Das Erklärvideo aus der SRF-Reihe «Clip und klar!» zeigt, warum Lawinen in den Schweizer Alpen eine grosse Gefahr sind und wie sich die Menschen davor schützen. Vorgestellt werden drei zentrale Schutzmassnahmen: **Lawinenverbauungen** am Hang, die den Schnee festhalten, der **Schutzwald**, der als natürliche Barriere wirkt, sowie die **Raumplanung mit Gefahrenzonen**, in denen nicht gebaut werden darf. Das Video nutzt Beispiele aus der Schweiz und ist auf den Lehrplan 21 abgestimmt."
+    },
+    {
+      "type": "text",
+      "title": "Lawinen: die weisse Gefahr",
+      "body": "Die meisten gefährlichen Lawinen sind **Schneebrettlawinen**: Eine ganze Schneeschicht löst sich auf einmal und rast zu Tal. Sie entstehen vor allem an Hängen, die **steiler als etwa 30 Grad** sind – besonders nach starken Schneefällen oder bei Wind, der den Schnee verfrachtet.\n\n**Fallbeispiel Lawinenwinter 1999:** Im Februar 1999 fielen in den Hochlagen der Schweizer Alpen innert weniger Wochen mehrere Meter Schnee. Rund **1200 Schadenlawinen** gingen nieder und forderten in Gebäuden und auf Verkehrswegen **17 Todesopfer**. Am schlimmsten traf es **Evolène im Wallis**: Dort starben am 21. Februar 1999 zwölf Menschen. Insgesamt entstanden Schäden von rund **600 Millionen Franken**.\n\nSo schützt sich die Schweiz heute:\n\n- **Warnsysteme:** Das WSL-Institut für Schnee- und Lawinenforschung SLF in Davos veröffentlicht im Winter ein- bis zweimal täglich das Lawinenbulletin (um 17 Uhr, bei Bedarf aktualisiert um 8 Uhr). Es nutzt die europäische Gefahrenskala mit **fünf Stufen** – von Stufe 1 (gering) bis Stufe 5 (sehr gross).\n- **Verbauungen:** Stützwerke aus Stahl im Anrissgebiet halten den Schnee am Hang fest, bevor sich überhaupt eine Lawine lösen kann.\n- **Schutzwald:** Bäume stabilisieren die Schneedecke. Rund **42 Prozent der Schweizer Waldfläche** wirken als Schutzwald gegen Naturgefahren – die günstigste «Verbauung» überhaupt.\n- **Raumplanung:** In stark gefährdeten Zonen darf gar nicht erst gebaut werden.\n- **Sofortmassnahmen:** Bei akuter Gefahr werden Strassen und Skigebiete gesperrt oder Lawinen kontrolliert gesprengt."
+    },
+    {
+      "type": "image",
+      "title": "Schutz beginnt am Hang",
+      "src": "/content/naturgefahren-alpen/lawinenverbauung-zermatt.jpg",
+      "alt": "Reihen von Stahl-Lawinenverbauungen an einem steilen Grashang oberhalb von Zermatt, im Vordergrund weiden Walliser Schwarznasenschafe.",
+      "caption": "Lawinenverbauungen oberhalb von Zermatt (VS): Stützwerke im Anrissgebiet verhindern, dass sich grosse Lawinen überhaupt lösen können.",
+      "credit": "Foto: Tiia Monto, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+      "type": "text",
+      "title": "Wenn Wasser und Geröll zu Tal donnern",
+      "body": "**Hochwasser** entsteht, wenn Starkregen, lange Regenperioden oder Schneeschmelze mehr Wasser liefern, als Flüsse und Böden aufnehmen können. Begradigte Flüsse und verbaute Auen verschärfen das Problem, weil das Wasser nirgends ausweichen kann. Das **Hochwasser vom August 2005** war das bisher teuerste einzelne Naturereignis der Schweiz: Sechs Menschen starben, die Schäden betrugen rund **3 Milliarden Franken**. Deshalb setzt der Hochwasserschutz heute nicht nur auf Dämme, sondern auch auf **Renaturierungen**, die den Flüssen wieder mehr Raum geben.\n\nIn steilen Bergbächen entsteht eine besonders gefährliche Variante: der **Murgang** – ein schnell fliessendes Gemisch aus Wasser, Schlamm und Geröll, das wie flüssiger Beton durch das Bachbett zu Tal schiesst.\n\n**Fallbeispiel Bondo (GR), 23. August 2017:** Am **Piz Cengalo** (3369 m ü. M.) brachen rund **3 Millionen Kubikmeter Fels** ab. Der Bergsturz stürzte auf einen Gletscher, riss Eis und Wasser mit und löste gewaltige Murgänge aus, die durch das Val Bondasca bis ins Dorf Bondo flossen. **Acht Wanderer**, die im Tal unterwegs waren, kamen ums Leben. Im Dorf selbst gab es keine Todesopfer: Ein **automatisches Alarmsystem** warnte rechtzeitig, die Bevölkerung wurde evakuiert, und ein Auffangbecken hielt einen Teil des Materials zurück. Trotzdem wurden Häuser zerstört und Strassen verschüttet – Bondo zeigt, dass Warnsysteme Leben retten, Schäden aber nicht immer verhindern können."
+    },
+    {
+      "type": "image",
+      "title": "Haarscharf am Dorf vorbei",
+      "src": "/content/naturgefahren-alpen/bergsturz-brienz-2023.jpg",
+      "alt": "Luftaufnahme des Dorfes Brienz/Brinzauls in Graubünden: Eine breite graue Schutt- und Felszunge des Bergsturzes von 2023 reicht den Hang hinunter und endet unmittelbar vor den ersten Häusern des Dorfes.",
+      "caption": "Brienz/Brinzauls (GR): Die Schuttmasse des Bergsturzes vom Juni 2023 kam nur wenige Meter vor dem zuvor evakuierten Dorf zum Stillstand.",
+      "credit": "Foto: Clemenspool, Wikimedia Commons, CC0"
+    },
+    {
+      "type": "video",
+      "title": "Video: Leben mit dem Bergsturz – das Beispiel Brienz",
+      "provider": "youtube",
+      "videoId": "mf1o-v2I7Zs",
+      "description": "Diese Folge der SRF Kids News (ca. 11 Minuten) behandelt als Hauptthema den Bergsturz von Brienz. Achte darauf: Wie wird der Hang **überwacht**? Und was bedeuten Evakuierungen für den Alltag der Bewohnerinnen und Bewohner?",
+      "transcript": "Die Kids-News-Folge behandelt als Hauptthema den Bergsturz von Brienz (GR): Nach dem grossen Bergsturz von 2023 ist erneut ein Felsstück abgebrochen. Das Video erklärt, wie es überhaupt zu einem Bergsturz kommt, und zeigt, was die andauernde Gefahr, die ständige Überwachung des Hangs und die Evakuierungen für die Bewohnerinnen und Bewohner des Bündner Dorfes bedeuten. Ein zweiter, kürzerer Beitrag am Ende der Folge behandelt ein anderes Alltagsthema (Geschenkeeinkauf)."
+    },
+    {
+      "type": "text",
+      "title": "Klimawandel: der Verstärker – und was die Schweiz dagegen tut",
+      "body": "**Brienz** steht auf einem Hang, der schon seit Jahrhunderten langsam talwärts rutscht. Nach der Rückkehr im Sommer 2023 musste das Dorf im **November 2024 erneut evakuiert** werden – seine Zukunft ist ungewiss. Mit einem Entwässerungsstollen tief im Berg versucht man, den Hang zu entwässern und so zu bremsen.\n\nDer Klimawandel verschärft viele alpine Naturgefahren:\n\n- **Permafrost taut auf:** Permafrost ist dauerhaft gefrorener Untergrund. Er kommt in der Schweiz vor allem **oberhalb von rund 2500 m ü. M.** vor und bedeckt etwa **5 Prozent der Landesfläche**. Das Eis in Felsspalten wirkt wie Kitt, der den Fels zusammenhält. Taut es, werden Felswände instabil – beim Bergsturz von Bondo spielte auftauender Permafrost eine Rolle.\n- **Mehr Starkniederschläge:** Wärmere Luft kann mehr Feuchtigkeit aufnehmen. Heftige Regenfälle – und damit Hochwasser und Murgänge – werden wahrscheinlicher.\n- **Gletscher schmelzen:** Sie geben lockeres Geröll frei und destabilisieren Hänge, die vorher vom Eis gestützt wurden.\n\nVerhindern kann die Schweiz solche Ereignisse nicht – aber sie kann die **Risiken** senken. Ein zentrales Werkzeug sind **Gefahrenkarten**: Fachleute kartieren für jede Gemeinde, wo Lawinen, Hochwasser oder Rutschungen drohen.\n\n| Zone | Gefährdung | Bedeutung |\n|---|---|---|\n| **Rot** | erheblich | Neue Wohnhäuser dürfen nicht gebaut werden |\n| **Blau** | mittel | Bauen nur mit Auflagen, z. B. verstärkten Mauern |\n| **Gelb** | gering | Hinweis auf mögliche Gefährdung |\n\nDazu kommen Überwachung (Sensoren, Radar), Warnsysteme, Verbauungen und der Schutzwald. Und manchmal bleibt als letzte Massnahme nur: rechtzeitig evakuieren – wie in Bondo und Brienz."
+    },
+    {
+      "type": "tasks",
+      "title": "Aufgaben",
+      "intro": "Bearbeite die Aufgaben in dein Heft oder in ein Dokument. Nutze die Tipps, wenn du nicht weiterkommst, und vergleiche erst am Schluss mit der Musterlösung.",
+      "tasks": [
+        {
+          "id": "gefahrenkarte-wohnort",
+          "prompt": "Suche im Internet die **Gefahrenkarte deiner Gemeinde** (z. B. über das Geoportal deines Kantons oder map.geo.admin.ch). Welche Naturgefahren sind bei dir kartiert? Gibt es rote, blaue oder gelbe Zonen in der Nähe deines Schulwegs oder Wohnorts?",
+          "hint": "Suche nach «Gefahrenkarte» plus dem Namen deines Kantons. Im Mittelland findest du vor allem Hochwasserzonen, in Berggebieten auch Lawinen- und Rutschungszonen.",
+          "solution": "Individuelle Lösung. Beispiel: «In meiner Gemeinde ist entlang des Baches eine blaue Zone (mittlere Hochwassergefährdung) eingezeichnet. Dort darf nur mit Auflagen gebaut werden. Rote Zonen gibt es bei uns keine. Lawinenzonen fehlen, weil wir im Flachland wohnen.»"
+        },
+        {
+          "id": "vergleichstabelle",
+          "prompt": "Erstelle eine **Vergleichstabelle** zu den drei Naturgefahren Lawine, Murgang und Bergsturz mit den Spalten: *Was passiert?*, *Typischer Auslöser*, *Schweizer Fallbeispiel*, *Eine passende Schutzmassnahme*.",
+          "hint": "Die Fallbeispiele findest du in den Textblöcken: Lawinenwinter 1999 (Evolène), Bondo 2017, Brienz 2023.",
+          "solution": "Beispiel: **Lawine** – Schneemasse löst sich am Steilhang; Auslöser: viel Neuschnee, Wind; Fallbeispiel: Lawinenwinter 1999/Evolène; Schutz: Stützverbauungen im Anrissgebiet. **Murgang** – Gemisch aus Wasser, Schlamm und Geröll schiesst durchs Bachbett; Auslöser: Starkregen, Bergsturz auf Gletscher; Fallbeispiel: Bondo 2017; Schutz: Alarmsystem und Auffangbecken. **Bergsturz** – grosse Felsmassen brechen aus der Wand; Auslöser: instabiler Hang, auftauender Permafrost; Fallbeispiel: Brienz 2023; Schutz: Überwachung und Evakuierung."
+        },
+        {
+          "id": "debatte-brienz",
+          "prompt": "**Diskutiere:** Brienz wurde mehrfach evakuiert, und teure Massnahmen wie der Entwässerungsstollen sollen das Dorf retten. Soll man ein so gefährdetes Dorf mit viel Geld schützen – oder wäre es besser, es aufzugeben und die Menschen umzusiedeln? Notiere je zwei Argumente für beide Seiten und dann deine eigene begründete Meinung.",
+          "hint": "Denke an: Kosten für die Allgemeinheit, Sicherheit von Menschenleben, Heimat und Emotionen der Bevölkerung, Zukunftsaussichten bei fortschreitendem Klimawandel.",
+          "solution": "Mögliche Argumente – Schützen: Das Dorf ist die Heimat der Menschen, Gebäude und Kulturland haben grossen Wert; Schutzmassnahmen können funktionieren (wie das Alarmsystem in Bondo Leben rettete). Aufgeben: Die Massnahmen kosten Millionen ohne Erfolgsgarantie; der Hang bleibt langfristig in Bewegung, und Menschenleben dürfen nicht dauerhaft riskiert werden. Wichtig ist eine begründete eigene Position – es gibt kein eindeutiges Richtig oder Falsch."
+        },
+        {
+          "id": "peer-quizfrage",
+          "prompt": "**Lernen durch Lehren:** Erstelle selbst eine Quizfrage zu einem der drei Fallbeispiele (Lawinenwinter 1999, Bondo 2017 oder Brienz 2023) – mit drei Antwortmöglichkeiten, von denen genau eine stimmt. Stelle die Frage einer Kollegin oder einem Kollegen und erkläre danach, warum die richtige Antwort stimmt.",
+          "hint": "Gute Distraktoren (falsche Antworten) sind fast richtig: z. B. eine ähnliche Jahreszahl oder eine Massnahme, die zu einer anderen Naturgefahr gehört.",
+          "solution": "Beispiel: «Warum gab es beim Bergsturz von Bondo 2017 im Dorf selbst keine Todesopfer? A) Der Bergsturz war zu klein, um das Dorf zu erreichen. B) Ein Alarmsystem warnte die Bevölkerung rechtzeitig, und das Dorf wurde evakuiert. C) Der Schutzwald stoppte die Murgänge vollständig.» Richtig ist B – das automatische Alarmsystem löste aus, die Menschen brachten sich in Sicherheit."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Teste dein Wissen zu Naturgefahren in den Alpen",
+    "passingScorePercent": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "prompt": "Was ist ein **Murgang**?",
+        "options": [
+          {
+            "text": "Ein schnell fliessendes Gemisch aus Wasser, Schlamm und Geröll, das durch ein Bachbett zu Tal schiesst",
+            "correct": true
+          },
+          {
+            "text": "Eine langsame, über Jahre kaum sichtbare Bewegung eines ganzen Hangs"
+          },
+          {
+            "text": "Eine Schneemasse, die sich an einem Steilhang löst"
+          },
+          {
+            "text": "Ein unterirdischer Wasserlauf, der den Fels aushöhlt"
+          }
+        ],
+        "explanation": "Ein Murgang ist wie flüssiger Beton: Wasser, Schlamm und Geröll schiessen mit hoher Geschwindigkeit durch steile Bachbette zu Tal. In Bondo lösten 2017 die Felsmassen vom Piz Cengalo solche Murgänge aus, die bis ins Dorf flossen."
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "prompt": "Welche Massnahmen schützen vor **Lawinen**? (Mehrere Antworten sind richtig.)",
+        "options": [
+          {
+            "text": "Stützverbauungen aus Stahl im Anrissgebiet",
+            "correct": true
+          },
+          {
+            "text": "Den Schutzwald erhalten und pflegen",
+            "correct": true
+          },
+          {
+            "text": "Gefahrenkarten und Bauverbote in stark gefährdeten Zonen",
+            "correct": true
+          },
+          {
+            "text": "Die Hänge oberhalb von Dörfern grossflächig abholzen"
+          }
+        ],
+        "explanation": "Verbauungen halten den Schnee im Anrissgebiet fest, der Schutzwald stabilisiert die Schneedecke, und die Raumplanung sorgt dafür, dass in Gefahrenzonen gar nicht erst gebaut wird. Abholzen wäre das Gegenteil von Schutz: Ohne Wald lösen sich Lawinen viel leichter.",
+        "points": 2
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Beim Bergsturz von Bondo 2017 kam im Dorf selbst niemand ums Leben, weil ein automatisches Alarmsystem die Bevölkerung rechtzeitig warnte.",
+        "answer": true,
+        "explanation": "Das Alarmsystem löste aus, das Dorf wurde evakuiert – deshalb gab es in Bondo selbst keine Todesopfer. Tragisch war es dennoch: Acht Wanderer, die im Val Bondasca unterwegs waren, verloren ihr Leben."
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "prompt": "Warum führt **auftauender Permafrost** zu mehr Felsstürzen?",
+        "options": [
+          {
+            "text": "Das Eis in den Felsspalten wirkt wie Kitt – taut es auf, verliert der Fels seinen Halt.",
+            "correct": true
+          },
+          {
+            "text": "Der aufgetaute Boden zieht Wasser an, das den Berg von innen aushöhlt."
+          },
+          {
+            "text": "Ohne Permafrost wachsen keine Pflanzen mehr, deren Wurzeln den Fels festhalten."
+          },
+          {
+            "text": "Das Auftauen löst kleine Erdbeben aus, die den Fels erschüttern."
+          }
+        ],
+        "explanation": "Permafrost ist dauerhaft gefrorener Untergrund, in der Schweiz vor allem oberhalb von rund 2500 m ü. M. Das Eis in Klüften und Spalten hält den Fels wie Kitt zusammen. Mit der Klimaerwärmung taut dieser «Kitt» auf – Felswände werden instabil, wie beim Bergsturz von Bondo."
+      },
+      {
+        "id": "q5",
+        "type": "multiple_choice",
+        "prompt": "Welche Aussagen zum Thema **Hochwasser** stimmen? (Mehrere Antworten sind richtig.)",
+        "options": [
+          {
+            "text": "Das Hochwasser vom August 2005 verursachte in der Schweiz Schäden von rund 3 Milliarden Franken.",
+            "correct": true
+          },
+          {
+            "text": "Begradigte Flüsse und verbaute Auen erhöhen das Hochwasserrisiko.",
+            "correct": true
+          },
+          {
+            "text": "Renaturierungen, die Flüssen mehr Raum geben, sind eine moderne Schutzmassnahme.",
+            "correct": true
+          },
+          {
+            "text": "Hochwasser entsteht in den Alpen ausschliesslich durch die Schneeschmelze."
+          }
+        ],
+        "explanation": "Das Hochwasser vom August 2005 war mit rund 3 Milliarden Franken Schaden und sechs Todesopfern das bisher teuerste einzelne Naturereignis der Schweiz. Hochwasser entsteht durch Starkregen, lange Regenperioden **oder** Schneeschmelze – oft kombiniert. Wo Flüsse begradigt und Auen verbaut sind, kann das Wasser nicht ausweichen; Renaturierungen schaffen wieder Raum.",
+        "points": 2
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "In der **roten Zone** einer Gefahrenkarte dürfen neue Wohnhäuser gebaut werden, sofern sie besonders verstärkte Mauern haben.",
+        "answer": false,
+        "explanation": "In der roten Zone (erhebliche Gefährdung) gilt für neue Wohnhäuser ein Bauverbot. Bauen mit Auflagen – etwa verstärkten Mauern oder erhöhten Eingängen – ist die Regel für die **blaue** Zone mit mittlerer Gefährdung."
+      }
+    ]
+  }
+}

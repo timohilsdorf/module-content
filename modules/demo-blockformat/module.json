@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "demo-blockformat",
+  "title": "So funktioniert ein EveryCate-Modul",
+  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Aufgaben, einen Zukunfts-Block und ein Quiz mit Auswertung.",
+  "subject": "DEMO",
+  "subjectName": "Demo & Dokumentation",
+  "cycle": 3,
+  "grades": "Für Autorinnen, Autoren und KIs",
+  "language": "de",
+  "competencies": [],
+  "learningObjectives": [
+    "Ich kann die Blocktypen des EveryCate-Content-Formats benennen.",
+    "Ich kann ein eigenes Modul als module.json anlegen und validieren."
+  ],
+  "durationMinutes": 10,
+  "difficulty": "leicht",
+  "keywords": [
+    "demo",
+    "schema",
+    "content-format"
+  ],
+  "authors": [
+    "EveryCate"
+  ],
+  "sources": [
+    {
+      "title": "Schema-Dokumentation: CONTENT-SCHEMA.md (in diesem Repository)"
+    }
+  ],
+  "license": "CC0",
+  "requires": [],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Willkommen",
+      "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Video, Aufgaben\n3. **einem Quiz** mit automatischer Auswertung\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
+    },
+    {
+      "type": "image",
+      "title": "Der Bild-Block",
+      "src": "/content/demo-blockformat/everycate-logo.png",
+      "alt": "EveryCate-Logo: ein grünes aufgeschlagenes Buch mit grauem Play-Button",
+      "caption": "Ein Bild-Block braucht zwingend einen Alternativtext (alt). Die Bilddatei liegt direkt im Modulordner; referenziert wird sie hier als /content/demo-blockformat/everycate-logo.png.",
+      "credit": "Logo: EveryCate, 2016"
+    },
+    {
+      "type": "video",
+      "title": "Der Video-Block",
+      "provider": "youtube",
+      "videoId": "jNQXAC9IVRw",
+      "description": "Videos werden erst nach einem Klick geladen (Datenschutz). Dieses Platzhalter-Video ist das älteste Video auf YouTube – in echten Modulen steht hier ein kuratiertes Erklärvideo.",
+      "transcript": "Ein Mann steht vor dem Elefantengehege eines Zoos und erklärt, dass Elefanten beeindruckend lange Rüssel haben. Das Feld `transcript` liefert eine **Textalternative** zum Video – wichtig für Barrierefreiheit und wenn das Video nicht verfügbar ist."
+    },
+    {
+      "type": "tasks",
+      "title": "Der Aufgaben-Block",
+      "intro": "Offene Aufgaben haben keine automatische Auswertung – dafür optionale Tipps und Musterlösungen zum Aufklappen.",
+      "tasks": [
+        {
+          "prompt": "Öffne `CONTENT-SCHEMA.md` in diesem Repository und finde heraus, welche drei Quiz-Fragetypen es gibt.",
+          "hint": "Der Abschnitt heisst «Quiz».",
+          "solution": "`single_choice`, `multiple_choice` und `true_false`."
+        },
+        {
+          "prompt": "Überlege dir ein Thema für ein eigenes Modul und formuliere zwei Lernziele als «Ich kann …»-Sätze."
+        }
+      ]
+    },
+    {
+      "type": "simulation",
+      "title": "Ein Blick in die Zukunft",
+      "engine": "demo",
+      "note": "Dieser Block hat den (noch) unbekannten Typ «simulation» – das Schema erlaubt ihn, der Player zeigt einen Platzhalter. So bleibt das Format erweiterbar."
+    }
+  ],
+  "quiz": {
+    "title": "Teste dein Wissen zum Content-Format",
+    "passingScorePercent": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "prompt": "In welcher Datei liegt ein EveryCate-Lernmodul?",
+        "options": [
+          {
+            "text": "modules/meine-modul-id/module.json",
+            "correct": true
+          },
+          {
+            "text": "src/app/module.json"
+          },
+          {
+            "text": "In einer Datenbank"
+          }
+        ],
+        "explanation": "Module sind reine Dateien – ein Ordner pro Modul unter `modules/`, die Plattform braucht keine Datenbank."
+      },
+      {
+        "id": "q2",
+        "type": "multiple_choice",
+        "prompt": "Welche Blocktypen kann der Player heute schon darstellen?",
+        "options": [
+          {
+            "text": "text",
+            "correct": true
+          },
+          {
+            "text": "video",
+            "correct": true
+          },
+          {
+            "text": "simulation"
+          },
+          {
+            "text": "tasks",
+            "correct": true
+          }
+        ],
+        "explanation": "`text`, `image`, `video` und `tasks` sind implementiert. `simulation` ist ein gültiger, aber noch nicht unterstützter Zukunfts-Block.",
+        "points": 2
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Ein Modul mit einem unbekannten Blocktyp bricht den Build ab.",
+        "answer": false,
+        "explanation": "Unbekannte Blocktypen sind gültig und werden als Platzhalter angezeigt – das macht das Schema erweiterbar."
+      }
+    ]
+  }
+}
