@@ -40,6 +40,7 @@ const whitelistSchema = z.strictObject({
   videoUrlHosts: z.array(z.string().min(1)),
   imageHosts: z.array(z.string().min(1)),
   imageExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
+  maxImageSizeKB: z.number().int().positive(),
   futureBlockTypes: z.array(z.string().min(1)),
 });
 
@@ -260,6 +261,15 @@ function checkModule(
 
   // --- Ordnerhygiene: nur module.json + Bilder -----------------------------
   for (const entry of fs.readdirSync(modDir, { withFileTypes: true })) {
+    // Symlinks strikt ablehnen: Sie könnten auf Dateien ausserhalb des
+    // Repos zeigen (z. B. .git/config in der CI) und würden beim Lesen/
+    // Kopieren stillschweigend deren Inhalt übernehmen.
+    if (entry.isSymbolicLink()) {
+      errors.push(
+        `"${entry.name}" ist ein Symlink – in Modulordnern sind nur echte Dateien erlaubt.`,
+      );
+      continue;
+    }
     if (entry.name.startsWith(".")) {
       hints.push(`Versteckte Datei "${entry.name}" im Modulordner – bitte nicht committen.`);
       continue;
@@ -276,7 +286,15 @@ function checkModule(
       errors.push(
         `Datei "${entry.name}" gehört nicht ins Modul – erlaubt sind module.json und Bilder (${whitelist.imageExtensions.join(", ")}).`,
       );
-    } else if (!referencedImages.has(entry.name)) {
+      continue;
+    }
+    const sizeKB = fs.statSync(path.join(modDir, entry.name)).size / 1024;
+    if (sizeKB > whitelist.maxImageSizeKB) {
+      errors.push(
+        `Bild "${entry.name}" ist ${Math.round(sizeKB)} KB gross – erlaubt sind maximal ${whitelist.maxImageSizeKB} KB (Bild verkleinern/komprimieren).`,
+      );
+    }
+    if (!referencedImages.has(entry.name)) {
       hints.push(`Bild "${entry.name}" wird von keinem Block referenziert.`);
     }
   }
@@ -354,6 +372,14 @@ for (const slug of slugs) {
 
   if (!fs.existsSync(file)) {
     console.error(`✗ ${slug}\n  - modules/${slug}/module.json existiert nicht.`);
+    failed++;
+    continue;
+  }
+
+  // Vor dem Lesen prüfen – eine versymlinkte module.json könnte sonst
+  // fremde Dateiinhalte in Fehlermeldungen (CI-Logs) ziehen.
+  if (fs.lstatSync(file).isSymbolicLink()) {
+    console.error(`✗ ${slug}\n  - module.json ist ein Symlink – nur echte Dateien sind erlaubt.`);
     failed++;
     continue;
   }

@@ -4,5 +4,6 @@
   "videoUrlHosts": [],
   "imageHosts": ["upload.wikimedia.org"],
   "imageExtensions": [".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif"],
+  "maxImageSizeKB": 4096,
   "futureBlockTypes": ["simulation", "chat"]
 }

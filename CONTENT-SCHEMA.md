@@ -122,8 +122,9 @@ Validierung weist es zurück.
 
 - Die Bilddatei liegt **im Modulordner** (`modules/mein-modul/karte.jpg`),
   referenziert wird sie als `/content/mein-modul/karte.jpg`.
-- Erlaubte Endungen: siehe [`schema/whitelist.json`](schema/whitelist.json)
-  (`imageExtensions`, z. B. `.jpg`, `.png`, `.webp`).
+- Erlaubte Endungen und maximale Dateigrösse: siehe
+  [`schema/whitelist.json`](schema/whitelist.json) (`imageExtensions`,
+  `maxImageSizeKB` – Bilder vor dem Hochladen auf Webgrösse verkleinern).
 - Alternativ ist eine `https://`-URL möglich – aber nur von Hosts, die in
   der Whitelist (`imageHosts`) freigegeben sind. Im Zweifel: Bild (mit
   geklärter Lizenz!) herunterladen und in den Modulordner legen.
