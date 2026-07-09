@@ -16,6 +16,13 @@ GitHub-Webseite hoch und reichst sie als «Pull Request» ein – das ist ein
 unten beschrieben den Weg über den Pull Request wählst, geht **nichts
 direkt live** – du kannst also nichts kaputt machen.
 
+*(Hinweis für den Repository-Betreiber: Sobald das Repository öffentlich
+ist, Branch-Schutz für `main` aktivieren – Settings → Branches bzw.
+Rules → «Require a pull request before merging» –, damit das auch
+technisch garantiert ist. Auf dem GitHub-Free-Plan ist das bei privaten
+Repositories nicht verfügbar; bis dahin keine Schreibrechte an
+Mitwirkende vergeben, sondern PRs aus Forks arbeiten lassen.)*
+
 ---
 
 ## Schritt 1: Modul mit der KI entwerfen
