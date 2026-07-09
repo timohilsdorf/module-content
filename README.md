@@ -87,7 +87,14 @@ README der Plattform.
 
 ## Lizenz
 
-Die Lizenz für die Inhalte dieses Repositories wird derzeit festgelegt.
-Einzelne Module deklarieren ihre Lizenz bereits im Feld `license`;
-Bildnachweise stehen bei jedem Bild im Feld `credit` und gelten unabhängig
-von der Repositoriums-Lizenz.
+Die Inhalte dieses Repositories stehen unter
+[**CC BY-SA 4.0**](LICENSE) (Namensnennung – Weitergabe unter gleichen
+Bedingungen): Sie dürfen geteilt, bearbeitet und auch kommerziell genutzt
+werden, solange die Urheber genannt werden und Ableitungen unter derselben
+Lizenz bleiben. Das hält die Module dauerhaft offen und ist kompatibel mit
+Material aus Wikipedia/Wikimedia Commons.
+
+Mit dem Einreichen eines Pull Requests stellst du deinen Beitrag unter
+diese Lizenz. Einzelne Module können im Feld `license` eine (grosszügigere)
+Lizenz deklarieren; **Bilder behalten ihre eigene Lizenz** – der Nachweis
+steht je Bild im Feld `credit` und ist zwingend.

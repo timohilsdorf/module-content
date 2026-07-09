@@ -1,0 +1,53 @@
+name: Module prüfen & Deployment
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  # Sicherheitsnetz: läuft bei jedem Pull Request und markiert ihn bei
+  # Verstössen als fehlgeschlagen. Geprüft wird alles aus schema/validate.ts
+  # (Schema, erlaubte Blocktypen, Video-/Bild-Whitelist, kein Roh-HTML,
+  # Bild-Existenz/-Grösse, IDs, Ordnerhygiene).
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Keine Git-Credentials im Arbeitsverzeichnis zurücklassen –
+          # der validierte Inhalt stammt aus dem PR und ist fremder Code.
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Module validieren
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          npm run validate 2>&1 | tee -a "$GITHUB_STEP_SUMMARY" && status=0 || status=$?
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          exit "${status:-0}"
+
+  # Nach einem Merge auf main: Vercel-Build der Plattform anstossen –
+  # ein neues Modul geht live, ohne dass sich am Plattform-Repo etwas
+  # ändert. Läuft bewusst erst NACH grüner Validierung, damit kaputter
+  # Content gar nie ein Deployment auslöst. (Schlägt der Plattform-Build
+  # dennoch fehl, bleibt auf Vercel die letzte funktionierende Version
+  # live.)
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vercel Deploy Hook aufrufen
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::Secret VERCEL_DEPLOY_HOOK fehlt – in Settings → Secrets and variables → Actions hinterlegen (URL aus Vercel: Settings → Git → Deploy Hooks)."
+            exit 1
+          fi
+          curl -fsS -X POST "$HOOK" > /dev/null
+          echo "Deploy Hook ausgelöst – Vercel baut die Plattform mit dem neuen Content." >> "$GITHUB_STEP_SUMMARY"
