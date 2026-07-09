@@ -50,8 +50,9 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >   "license": "CC BY-SA 4.0", "authors".
 > - Blocktypen für "blocks":
 >   1. {"type":"text","title":"…","body":"… Markdown erlaubt, KEIN HTML …"}
->   2. {"type":"video","provider":"youtube","videoId":"NUR die 11-Zeichen-ID,
->      nicht die URL","title":"…","description":"Worauf achten?",
+>   2. {"type":"video","provider":"youtube","videoId":"NUR die Video-ID
+>      (bei YouTube die ca. 11 Zeichen nach watch?v=), nicht die
+>      URL","title":"…","description":"Worauf achten?",
 >      "transcript":"kurze Textzusammenfassung des Videos"}
 >      (nur YouTube oder Vimeo – andere Videoquellen werden abgelehnt)
 >   3. {"type":"image","src":"/content/<id>/bild.jpg","alt":"Pflicht:
@@ -117,8 +118,10 @@ lass dir die Datei neu ausgeben.
 5. Füge den JSON-Inhalt aus dem KI-Chat in das grosse Textfeld ein.
 6. Klicke **Commit changes…** Im Dialog:
    - Beschreibung z. B. «Neues Modul: Der Wasserkreislauf (NT, Zyklus 3)».
-   - Wähle **«Create a new branch for this commit and start a pull
-     request»** — nicht direkt auf `main` committen.
+   - **Achtung:** Die oberste Option «Commit directly to the `main`
+     branch» ist vorausgewählt — wähle stattdessen bewusst
+     **«Create a new branch for this commit and start a pull request»**,
+     sonst landet deine Änderung ungeprüft auf `main`.
    - **Propose changes** → auf der nächsten Seite **Create pull request**.
 7. Fertig! Dein Vorschlag wird nun automatisch geprüft (jeder Pull
    Request durchläuft die Validierung; Fehler werden dir direkt im Pull
@@ -128,14 +131,16 @@ lass dir die Datei neu ausgeben.
    der Website – du musst nichts weiter tun.
 
 **Falls dein Modul eigene Bilder hat:** Die Bilder gehören in denselben
-Ordner wie deine `module.json` – und diesen Ordner hast du in Schritt 4
-bereits erzeugt. So lädst du die Bilder im selben Pull Request hoch:
+Ordner wie deine `module.json` – und diesen Ordner hast du in Punkt 4
+oben bereits erzeugt. So lädst du die Bilder im selben Pull Request hoch:
 
-1. Wechsle oben links über das Branch-Menü in deinen neuen Branch
-   (er heisst z. B. `timo-patch-1`).
-2. Navigiere in deinen Ordner `modules/DEINE-MODUL-ID/` → **Add file →
+1. Gehe zurück zur Startseite des Repositories (Tab **«Code»** oben links).
+2. Wechsle dort über das Branch-Menü (steht auf «main») in deinen neuen
+   Branch (er heisst z. B. `timo-patch-1`).
+3. Navigiere in deinen Ordner `modules/DEINE-MODUL-ID/` → **Add file →
    Upload files** → Bilder hineinziehen → wieder in deinen Branch
-   committen («Commit directly to …»).
+   committen («Commit directly to …» – hier ist das richtig, weil dein
+   Branch ja erst per Pull Request geprüft wird).
 
 Die Pfade im JSON müssen dazu passen:
 `/content/DEINE-MODUL-ID/bildname.jpg` *(der Pfad beginnt mit
@@ -147,7 +152,7 @@ Pfad liefert die Plattform die Bilder aus)*.
 | Problem | Lösung |
 |---|---|
 | «module.json entspricht nicht dem Schema» im Pull Request | Fehlermeldung kopieren und der KI geben: «Korrigiere das». |
-| Video-ID wird abgelehnt | Nur die 11 Zeichen nach `watch?v=` eintragen, nicht die ganze URL. |
+| Video-ID wird abgelehnt | YouTube: nur die Zeichen nach `watch?v=` (üblich 11); Vimeo: nur die Zahl aus der URL. Nie die ganze URL eintragen. |
 | «Video-Provider … ist nicht freigegeben» | Nur YouTube oder Vimeo verwenden (siehe `schema/whitelist.json`). |
 | «Roh-HTML in …» | HTML-Tags (z. B. `<b>`, `<br>`) entfernen lassen — Formatierung geht mit Markdown (`**fett**`, Absätze durch Leerzeile). |
 | Umlaute sehen kaputt aus | Datei muss UTF-8 sein — beim Kopieren aus dem Chat normalerweise automatisch der Fall. |

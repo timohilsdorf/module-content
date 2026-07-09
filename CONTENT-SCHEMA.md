@@ -32,10 +32,14 @@ Regeln:
 - **Validierung:** `npm run validate` prüft alle Module; dieselbe Prüfung
   läuft bei jedem Pull Request und markiert ihn bei Verstössen als
   fehlgeschlagen. Geprüft werden auch: erlaubte Blocktypen, Video-Provider
-  und Bild-Hosts laut [`schema/whitelist.json`](schema/whitelist.json),
-  kein Roh-HTML in Textfeldern, Existenz und Endung der Bilddateien,
-  Eindeutigkeit von IDs, Pflicht-`id` bei Quizfragen, `requires`-Verweise
-  und saubere Modulordner (nur `module.json` + Bilder).
+  und Bild-Hosts laut [`schema/whitelist.json`](schema/whitelist.json)
+  (auch für Markdown-Bilder in Textfeldern), kein Roh-HTML in Textfeldern,
+  Existenz/Endung/Grösse der Bilddateien, maximale Grösse der
+  `module.json` (`maxModuleJsonKB`), Eindeutigkeit von IDs, Pflicht-`id`
+  bei Quizfragen und saubere Modulordner (nur `module.json` + Bilder,
+  keine Symlinks). `requires`-Verweise auf (noch) nicht existierende
+  Module ergeben nur einen Hinweis, keinen Fehler – Slug trotzdem auf
+  Tippfehler prüfen.
 
 ## Aufbau eines Moduls
 
@@ -100,7 +104,12 @@ Jeder Block hat ein `type`-Feld sowie optional `id` (stabile Referenz) und
 `title` (Zwischenüberschrift). In allen als *Markdown* markierten Feldern ist
 GitHub Flavored Markdown erlaubt (Absätze, Listen, Tabellen, Links, `**fett**`).
 **Roh-HTML ist nicht erlaubt** – der Player rendert es nicht, und die
-Validierung weist es zurück.
+Validierung weist es zurück. *(Ausnahmen: Tags als Beispiel in
+`Code`-Spans/-Blöcken sowie Autolinks wie `<https://…>` sind erlaubt – so
+lassen sich z. B. HTML-Inhalte unterrichten.)* Markdown-Bilder
+(`![Beschreibung](/content/mein-modul/bild.jpg)`) sind möglich und
+unterliegen denselben Regeln wie `image`-Blöcke; Referenz-Stil
+(`![alt][ref]`) ist nicht erlaubt.
 
 ### `text` – Fliesstext
 
@@ -150,8 +159,8 @@ Validierung weist es zurück.
   Direkte Video-Datei-URLs (`provider: "url"`) sind nur zulässig, wenn der
   Host dort unter `videoUrlHosts` freigegeben ist (derzeit keiner).
 - Bei `youtube`/`vimeo` nur die **Video-ID**, nicht die ganze URL
-  (YouTube: 6–20 Zeichen aus `A–Z a–z 0–9 _ -`; Vimeo: nur Ziffern).
-  Die Validierung weist ganze URLs zurück.
+  (YouTube: 6–20 Zeichen aus `A–Z a–z 0–9 _ -`, üblich sind 11;
+  Vimeo: 6–12 Ziffern). Die Validierung weist ganze URLs zurück.
 - `transcript` (empfohlen): kurze Textalternative fürs Video – wichtig für
   Barrierefreiheit und falls das Video offline oder gesperrt ist.
 - Der Player lädt Embeds erst nach Klick (Datenschutz); YouTube läuft über
@@ -215,7 +224,8 @@ Drei Fragetypen; alle haben eine **stabile `id` (Pflicht** – die
 Validierung erzwingt sie; der Lernstand speichert Statistiken pro Frage,
 und ohne id würden sie bei Umsortierungen vermischt), `prompt` (Markdown),
 optional `explanation` (wird nach dem Beantworten angezeigt – bitte immer
-angeben, das ist der Lernmoment!) und `points` (Standard 1):
+angeben, das ist der Lernmoment!) und `points` (ganzzahlig, 1–100;
+Standard 1):
 
 ```json
 {

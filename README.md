@@ -18,7 +18,7 @@ am Plattform-Code muss dafür nichts geändert werden.
 durch den Weg – KI schreibt die Datei, du liest kritisch gegen, reichst
 sie als Pull Request ein.
 
-**Mit Git:**
+**Mit Git** (Voraussetzung: [Node.js](https://nodejs.org) ≥ 20.9):
 
 ```bash
 git clone https://github.com/timohilsdorf/module-content.git

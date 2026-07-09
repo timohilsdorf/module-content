@@ -6,19 +6,18 @@ import { z } from "zod";
  * ⚠️ SYNCHRON HALTEN: Diese Datei ist eine Kopie von
  * `src/lib/content/schema.ts` aus dem Plattform-Repository (everycate).
  * Format-Änderungen müssen in BEIDEN Dateien landen – zuerst in der
- * Plattform (dort erzwingt der Build das Schema), dann hier. Bei
- * Widersprüchen gilt die Plattform-Version.
+ * Plattform (dort erzwingt der Build das Schema), dann hier. Ab dem
+ * SYNC-BEGINN-Marker müssen beide Dateien byteidentisch sein; die CI
+ * des Plattform-Repos schlägt sonst fehl.
  *
  * Dateibasiertes Format für Lernmodule: ein Ordner pro Modul unter
  * `modules/<slug>/module.json`. Die menschenlesbare Dokumentation
- * (auch für KI-Autoren) liegt in `CONTENT-SCHEMA.md`.
- *
- * Erweiterbarkeit: Unbekannte Blocktypen (z. B. künftige "simulation"- oder
- * "chat"-Blöcke) sind schematisch gültig, werden im Player aber mit einem
- * Platzhalter gerendert. In diesem Repository lässt die Validierung
- * (schema/validate.ts) nur Zukunftstypen zu, die in schema/whitelist.json
- * gelistet sind.
+ * (auch für KI-Autoren) liegt in `CONTENT-SCHEMA.md`; die
+ * Validierungsregeln dieses Repos in `schema/validate.ts` +
+ * `schema/whitelist.json`.
  */
+
+// ---- SYNC-BEGINN: ab hier Plattform- und Content-Repo-Kopie byteidentisch halten (CI prüft) ----
 
 export const SCHEMA_VERSION = 1;
 
@@ -42,7 +41,14 @@ export const competencySchema = z.strictObject({
 
 export const sourceSchema = z.strictObject({
   title: z.string().min(1),
-  url: z.string().url().optional(),
+  /** Nur http(s)/mailto – andere Schemata (javascript:, data:) landen sonst in <a href>. */
+  url: z
+    .string()
+    .url()
+    .refine((u) => ["http:", "https:", "mailto:"].includes(new URL(u).protocol), {
+      message: "Nur http(s)- oder mailto-Links sind erlaubt.",
+    })
+    .optional(),
 });
 
 // ---------------------------------------------------------------------------
@@ -66,7 +72,7 @@ export const textBlockSchema = z.strictObject({
 export const imageBlockSchema = z.strictObject({
   ...blockBase,
   type: z.literal("image"),
-  /** Pfad "/content/<modul-id>/<datei>" (Datei liegt im Modulordner) oder https-URL. */
+  /** Pfad "/content/<modul-id>/<datei>" (Datei liegt im Modulordner des Content-Repos) oder https-URL. */
   src: z.string().min(1),
   /** Alternativtext für Screenreader – Pflicht. */
   alt: z.string().min(1),
@@ -177,8 +183,8 @@ const questionBase = {
   prompt: markdown,
   /** Erklärung, die nach dem Beantworten angezeigt wird. */
   explanation: markdown.optional(),
-  /** Punkte für die richtige Antwort (Standard: 1). */
-  points: z.number().positive().default(1),
+  /** Punkte für die richtige Antwort (ganzzahlig, 1–100; Standard 1). */
+  points: z.number().int().positive().max(100).default(1),
 };
 
 export const choiceOptionSchema = z.strictObject({

@@ -41,6 +41,7 @@ const whitelistSchema = z.strictObject({
   imageHosts: z.array(z.string().min(1)),
   imageExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
   maxImageSizeKB: z.number().int().positive(),
+  maxModuleJsonKB: z.number().int().positive(),
   futureBlockTypes: z.array(z.string().min(1)),
 });
 
@@ -128,6 +129,11 @@ function editDistance(a: string, b: string): number {
 // Einzelprüfungen
 // ---------------------------------------------------------------------------
 
+/** Code-Spans und Code-Blöcke entfernen – dort rendert Markdown nur Text. */
+function stripCode(value: string): string {
+  return value.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
+}
+
 /**
  * Findet Roh-HTML in einem String. Erlaubt bleiben Markdown-Autolinks
  * (`<https://…>`, `<mailto:…>`) sowie Tag-Beispiele in Code-Spans und
@@ -137,11 +143,29 @@ function editDistance(a: string, b: string): number {
  * verschluckt.
  */
 function findHtmlTags(value: string): string[] {
-  const withoutCode = value
-    .replace(/```[\s\S]*?```/g, "")
-    .replace(/`[^`\n]*`/g, "");
-  const matches = withoutCode.match(/<\/?[a-zA-Z][^>]*>/g) ?? [];
+  const matches = stripCode(value).match(/<\/?[a-zA-Z][^>]*>/g) ?? [];
   return matches.filter((m) => !/^<(https?:\/\/|mailto:)/i.test(m));
+}
+
+/**
+ * Bilder in Markdown-Text (`![alt](url)`): unterliegen denselben Regeln wie
+ * image-Blöcke – sonst liesse sich die Bild-Host-Whitelist per Textfeld
+ * umgehen (automatischer Request an Drittserver = Tracking-Risiko).
+ * Referenz-Stil (`![alt][ref]`) ist nicht erlaubt, damit die URL immer
+ * direkt an der Bildstelle prüfbar ist.
+ */
+function findMarkdownImages(value: string): { urls: string[]; malformed: number } {
+  const text = stripCode(value);
+  const inline = /!\[[^\]]*\]\(\s*<?([^\s)>]+)[^)]*\)/g;
+  const urls: string[] = [];
+  let match: RegExpExecArray | null;
+  let wellFormed = 0;
+  while ((match = inline.exec(text)) !== null) {
+    urls.push(match[1]);
+    wellFormed++;
+  }
+  const total = (text.match(/!\[/g) ?? []).length;
+  return { urls, malformed: total - wellFormed };
 }
 
 /** Alle String-Werte eines JSON-Baums mit Pfadangabe besuchen. */
@@ -220,28 +244,27 @@ function checkModule(
   }
 
   // --- Bilder: Ablage im Modulordner, Endung, Remote-Hosts -----------------
+  // Gilt für image-Blöcke UND Markdown-Bilder in Textfeldern (siehe unten).
   const referencedImages = new Set<string>();
-  for (const block of mod.blocks) {
-    if (!isKnownBlock(block) || block.type !== "image") continue;
-    const src = block.src;
+  const checkBildUrl = (src: string, kontext: string) => {
     if (src.startsWith("/")) {
       const match = src.match(/^\/content\/([a-z0-9-]+)\/([^/]+)$/);
       if (!match || match[1] !== mod.id) {
         errors.push(
-          `Bild-src "${src}": lokale Bilder liegen im Modulordner und werden als "/content/${mod.id}/<datei>" referenziert.`,
+          `${kontext}: "${src}" – lokale Bilder liegen im Modulordner und werden als "/content/${mod.id}/<datei>" referenziert.`,
         );
-        continue;
+        return;
       }
       const fileName = match[2];
       const ext = path.extname(fileName).toLowerCase();
       if (!whitelist.imageExtensions.includes(ext)) {
         errors.push(
-          `Bild "${fileName}": Endung "${ext || "(keine)"}" ist nicht erlaubt. Erlaubt: ${whitelist.imageExtensions.join(", ")}.`,
+          `${kontext}: Endung "${ext || "(keine)"}" von "${fileName}" ist nicht erlaubt. Erlaubt: ${whitelist.imageExtensions.join(", ")}.`,
         );
       }
       if (!fs.existsSync(path.join(modDir, fileName))) {
         errors.push(
-          `Bild nicht gefunden: "${fileName}" fehlt im Ordner modules/${slug}/.`,
+          `${kontext}: Bild nicht gefunden – "${fileName}" fehlt im Ordner modules/${slug}/.`,
         );
       }
       referencedImages.add(fileName);
@@ -249,14 +272,18 @@ function checkModule(
       const host = hostOf(src);
       if (!host || !whitelist.imageHosts.includes(host)) {
         errors.push(
-          `Bild-Host "${host ?? src}" ist nicht freigegeben. Erlaubte Hosts (schema/whitelist.json → imageHosts): ${whitelist.imageHosts.join(", ") || "derzeit keine"} – oder das Bild herunterladen und in den Modulordner legen.`,
+          `${kontext}: Bild-Host "${host ?? src}" ist nicht freigegeben. Erlaubte Hosts (schema/whitelist.json → imageHosts): ${whitelist.imageHosts.join(", ") || "derzeit keine"} – oder das Bild herunterladen und in den Modulordner legen.`,
         );
       }
     } else {
       errors.push(
-        `Bild-src "${src}" muss mit "/content/${mod.id}/" (Datei im Modulordner) oder "https://" beginnen.`,
+        `${kontext}: "${src}" muss mit "/content/${mod.id}/" (Datei im Modulordner) oder "https://" beginnen.`,
       );
     }
+  };
+  for (const block of mod.blocks) {
+    if (!isKnownBlock(block) || block.type !== "image") continue;
+    checkBildUrl(block.src, "Bild-src");
   }
 
   // --- Ordnerhygiene: nur module.json + Bilder -----------------------------
@@ -299,12 +326,21 @@ function checkModule(
     }
   }
 
-  // --- Kein Roh-HTML in Textfeldern ----------------------------------------
+  // --- Kein Roh-HTML; Markdown-Bilder unterliegen der Bild-Whitelist -------
   walkStrings(raw, [], (pathStr, s) => {
     const tags = findHtmlTags(s);
     if (tags.length > 0) {
       errors.push(
         `Roh-HTML in "${pathStr}": ${[...new Set(tags)].join(" ")} – bitte Markdown verwenden (der Player rendert kein HTML, die Tags würden als Text erscheinen).`,
+      );
+    }
+    const { urls, malformed } = findMarkdownImages(s);
+    for (const url of urls) {
+      checkBildUrl(url, `Markdown-Bild in "${pathStr}"`);
+    }
+    if (malformed > 0) {
+      errors.push(
+        `Markdown-Bild in "${pathStr}": Referenz-Stil (![alt][ref]) oder unvollständige Bild-Syntax ist nicht erlaubt – bitte direkt ![Beschreibung](/content/${mod.id}/datei.jpg) schreiben.`,
       );
     }
   });
@@ -380,6 +416,16 @@ for (const slug of slugs) {
   // fremde Dateiinhalte in Fehlermeldungen (CI-Logs) ziehen.
   if (fs.lstatSync(file).isSymbolicLink()) {
     console.error(`✗ ${slug}\n  - module.json ist ein Symlink – nur echte Dateien sind erlaubt.`);
+    failed++;
+    continue;
+  }
+
+  // Grössen-Guard: schützt Build und Deployment vor absurd grossen Dateien.
+  const sizeKB = fs.statSync(file).size / 1024;
+  if (sizeKB > whitelist.maxModuleJsonKB) {
+    console.error(
+      `✗ ${slug}\n  - module.json ist ${Math.round(sizeKB)} KB gross – erlaubt sind maximal ${whitelist.maxModuleJsonKB} KB.`,
+    );
     failed++;
     continue;
   }
