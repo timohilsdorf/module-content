@@ -26,9 +26,13 @@
   "sources": [
     {
       "title": "Schema-Dokumentation: CONTENT-SCHEMA.md (in diesem Repository)"
+    },
+    {
+      "title": "Bild «Oeschinensee 0437» von Martin Thurnherr, CC BY-SA 4.0, Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Oeschinensee_0437.jpg"
     }
   ],
-  "license": "CC0",
+  "license": "CC BY-SA 4.0",
   "requires": [],
   "blocks": [
     {
@@ -39,10 +43,10 @@
     {
       "type": "image",
       "title": "Der Bild-Block",
-      "src": "/content/demo-blockformat/everycate-logo.png",
-      "alt": "EveryCate-Logo: ein grünes aufgeschlagenes Buch mit grauem Play-Button",
-      "caption": "Ein Bild-Block braucht zwingend einen Alternativtext (alt). Die Bilddatei liegt direkt im Modulordner; referenziert wird sie hier als /content/demo-blockformat/everycate-logo.png.",
-      "credit": "Logo: EveryCate, 2016 – Wort-/Bildmarke, nicht Teil der CC-Lizenz (siehe README)"
+      "src": "/content/demo-blockformat/oeschinensee-martin-thurnherr.jpg",
+      "alt": "Der türkisblaue Oeschinensee oberhalb von Kandersteg, umrahmt von steilen Felswänden mit Schneeresten.",
+      "caption": "Ein Bild-Block braucht zwingend einen Alternativtext (alt). Quelle und Lizenz des Bildes gehören ins Feld credit – genau so, wie hier vorgeführt.",
+      "credit": "Foto: Martin Thurnherr, CC BY-SA 4.0, via Wikimedia Commons"
     },
     {
       "type": "video",
