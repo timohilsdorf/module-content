@@ -244,6 +244,18 @@ export const lueckentextBlockSchema = z
     ablenker: z.array(z.string().trim().min(1)).default([]),
   })
   .superRefine((block, ctx) => {
+    // Stabile id ist Pflicht (wie bei Quizfragen): Lernstand und Coin-Vergabe
+    // speichern Ergebnisse pro Block – ohne id würden sie bei Umsortierungen
+    // vermischt bzw. mehrfach vergeben.
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Lückentext: Der Block braucht eine stabile "id" (z. B. "lt1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    }
+
     const marker = zerlegeLueckentext(block.text).filter(
       (s) => s.art === "luecke",
     );

@@ -73,6 +73,7 @@
     },
     {
       "type": "lueckentext",
+      "id": "lt-wortbank",
       "title": "Der Lückentext-Block (Wortbank)",
       "intro": "Lückentexte werden **automatisch geprüft**. Im Modus `wortbank` tippst du zuerst ein Wort in der Auswahl an und dann die Lücke, in die es gehört – das funktioniert auch auf dem Handy.",
       "modus": "wortbank",
@@ -86,6 +87,7 @@
     },
     {
       "type": "lueckentext",
+      "id": "lt-eingabe",
       "title": "Der Lückentext-Block (Eingabe)",
       "intro": "Im Modus `eingabe` tippst du die Lösung frei ein. Leerraum am Rand und Gross-/Kleinschreibung spielen standardmässig keine Rolle – nur wenn eine Lücke `caseSensitive` verlangt, zählt die exakte Schreibung.",
       "modus": "eingabe",

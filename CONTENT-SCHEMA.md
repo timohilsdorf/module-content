@@ -204,6 +204,7 @@ zum Antippen (`wortbank`) oder mit freien Textfeldern (`eingabe`):
 ```json
 {
   "type": "lueckentext",
+  "id": "lt1",
   "title": "Setze die richtigen Begriffe ein",
   "intro": "Optional: Arbeitsanweisung (Markdown).",
   "modus": "wortbank",
@@ -219,6 +220,9 @@ zum Antippen (`wortbank`) oder mit freien Textfeldern (`eingabe`):
 
 Regeln:
 
+- **`id`** (Pflicht, wie bei Quizfragen): Der Lernstand speichert
+  Ergebnisse und Punkte pro Block – ohne stabile `id` würden sie bei
+  Content-Änderungen vermischt.
 - **`text`** ist **reiner Text, kein Markdown** – Zeilenumbrüche (`\n`)
   bleiben erhalten. Die Lücken werden exakt als `{{1}}`, `{{2}}`, …
   geschrieben (doppelte geschweifte Klammern, fortlaufende Zahl, keine
@@ -228,21 +232,24 @@ Regeln:
   Antworten, mind. 1 – Synonyme und gängige Schreibvarianten hier
   eintragen) und optional `caseSensitive` (Standard `false`).
 - **`modus`** (Pflicht): `"wortbank"` bietet die Lösungswörter als
-  antippbare Auswahl an (erst Wort antippen, dann Lücke – auch auf
-  Smartphones ohne Drag-and-Drop bedienbar); angezeigt wird pro Lücke die
-  **erste** Antwort aus `antworten`, alphabetisch gemischt mit den
-  `ablenker`-Wörtern. `"eingabe"` zeigt stattdessen ein Textfeld pro
-  Lücke, inline im Textfluss.
+  Auswahl an – auf grossen Bildschirmen und Tablets per Drag-and-Drop,
+  auf Smartphones per Antippen (erst Wort, dann Lücke); angezeigt wird
+  pro Lücke die **erste** Antwort aus `antworten`, alphabetisch gemischt
+  mit den `ablenker`-Wörtern. `"eingabe"` zeigt stattdessen ein Textfeld
+  pro Lücke, inline im Textfluss.
 - **`ablenker`** (nur `wortbank`): zusätzliche falsche Wörter in der
   Auswahl. Sie dürfen mit keiner akzeptierten Antwort übereinstimmen.
-- **Auswertung** (im Player, es wird nichts gespeichert): Eingabe und
-  akzeptierte Antworten durchlaufen dieselbe Normalisierung –
-  Unicode-NFC (Umlaute von jeder Tastatur/Diktierfunktion zählen gleich),
-  Leerraum am Rand wird immer ignoriert, ohne `caseSensitive` auch die
-  Gross-/Kleinschreibung. Eine Lücke ist richtig, wenn die Eingabe so
-  einer der akzeptierten Antworten entspricht. Nach dem Prüfen markiert
-  der Player jede Lücke einzeln (✓/✗) und bietet Lösung und neuen
-  Versuch an.
+- **Auswertung** (im Player): Eingabe und akzeptierte Antworten
+  durchlaufen dieselbe Normalisierung – Unicode-NFC (Umlaute von jeder
+  Tastatur/Diktierfunktion zählen gleich), Leerraum am Rand wird immer
+  ignoriert, ohne `caseSensitive` auch die Gross-/Kleinschreibung. Eine
+  Lücke ist richtig, wenn die Eingabe so einer der akzeptierten
+  Antworten entspricht. Nach dem Prüfen markiert der Player jede Lücke
+  einzeln (✓/✗) und bietet Lösung und Wiederholen an.
+- **Punkte und Coins** wie beim Quiz: Jeder Durchlauf zählt eine richtige
+  Lücke als einen Punkt; bestanden ist der Block, wenn **alle** Lücken
+  richtig sind – beim ersten Bestehen gibt es Coins über denselben
+  Mechanismus wie beim Quiz.
 - Der Blocktyp ist eine **additive Erweiterung von Schema-Version 1**
   (Juli 2026, siehe [Versionsgeschichte](#versionsgeschichte)) – ältere
   Player-Versionen zeigen dafür einen Platzhalter.
