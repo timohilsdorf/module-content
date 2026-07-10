@@ -507,11 +507,15 @@ export function isKnownBlock(block: Block): block is KnownBlock {
  * Konzept «prüfender Block» (ergänzt Juli 2026, additive Erweiterung von
  * Schema-Version 1): Inhaltsblöcke mit automatischer Auswertung. Prüfende
  * Blöcke und das Abschlussquiz zählen gleichwertig – ein Modul gilt als
- * abgeschlossen, wenn ALLE prüfenden Elemente bestanden sind. Ein Modul
- * braucht damit kein Quiz mehr; ohne jedes prüfende Element gilt es nach
- * dem Durchsehen der Inhalte als abgeschlossen (reines Lesemodul).
- * Künftige auto-geprüfte Aufgabentypen werden hier eingetragen und zählen
- * dann automatisch in Abschluss, Punkte und Lernrate.
+ * BESTANDEN, wenn ALLE prüfenden Elemente 100 % erreicht haben (beliebig
+ * viele Wiederholungen; das Quiz-eigene passingScorePercent betrifft nur
+ * das Feedback im Quiz selbst). Beim ersten Bestehen gibt es die
+ * Modul-Coins. Ein Modul braucht kein Quiz mehr; ohne jedes prüfende
+ * Element gilt es nach dem Durchsehen der Inhalte als abgeschlossen
+ * (reines Lesemodul, bewusst ohne Coins). Punkte gibt es unabhängig davon
+ * für jeden Aufgabenblock einzeln. Künftige auto-geprüfte Aufgabentypen
+ * werden hier eingetragen und zählen dann automatisch in Abschluss,
+ * Punkte und Lernrate.
  */
 export const PRUEFENDE_BLOCK_TYPES = ["lueckentext"] as const;
 
