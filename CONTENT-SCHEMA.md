@@ -247,10 +247,13 @@ Regeln:
   Lücke ist richtig, wenn die Eingabe so einer der akzeptierten
   Antworten entspricht. Nach dem Prüfen markiert der Player jede Lücke
   einzeln (✓/✗) und bietet Lösung und Wiederholen an.
-- **Punkte und Coins** wie beim Quiz: Jeder Durchlauf zählt eine richtige
-  Lücke als einen Punkt; bestanden ist der Block, wenn **alle** Lücken
-  richtig sind – beim ersten Bestehen gibt es Coins über denselben
-  Mechanismus wie beim Quiz.
+- **Punkte** wie beim Quiz: Jeder Durchlauf zählt eine richtige Lücke
+  als einen Punkt; der Lernstand hält alle Durchläufe pro Block fest,
+  angezeigt werden der beste Versuch und die Versuchszahl. Bestanden ist
+  der Block, wenn **alle** Lücken richtig sind. Coins gibt es fürs
+  erstmals **bestandene Modul** (alle prüfenden Blöcke 100 %), nicht pro
+  Einzelblock – siehe
+  [Prüfende Blöcke und Modulabschluss](#prüfende-blöcke-und-modulabschluss).
 - Der Blocktyp ist eine **additive Erweiterung von Schema-Version 1**
   (Juli 2026, siehe [Versionsgeschichte](#versionsgeschichte)) – ältere
   Player-Versionen zeigen dafür einen Platzhalter.
@@ -263,17 +266,23 @@ Typen prüfend sind, steht versioniert im Schema
 – aktuell `lueckentext`); künftige auto-geprüfte Aufgabentypen werden dort
 eingetragen und zählen dann automatisch.
 
-- Ein Modul gilt als **abgeschlossen**, wenn **alle prüfenden Elemente**
-  bestanden sind: jedes prüfende Blocks-Element (z. B. jeder Lückentext:
-  alle Lücken richtig) und – falls vorhanden – das Abschlussquiz
-  (`passingScorePercent` erreicht). Quiz und prüfende Blöcke zählen
-  **gleichwertig** in Abschluss, Punkte und Lernrate.
+- Ein Modul gilt als **bestanden**, wenn **alle prüfenden Elemente
+  100 % erreicht** haben – jeder Lückentext (alle Lücken richtig) und,
+  falls vorhanden, das Abschlussquiz (alle Punkte; das Quiz-eigene
+  `passingScorePercent` betrifft nur das Feedback im Quiz selbst).
+  Wiederholen ist unbegrenzt möglich; es zählt der beste je erreichte
+  Versuch. **Beim ersten Bestehen des Moduls gibt es Coins** (genau
+  einmal). Quiz und prüfende Blöcke zählen **gleichwertig** in
+  Abschluss, Punkte und Lernrate.
+- **Punkte gibt es unabhängig davon** für jeden Aufgabenblock einzeln
+  (ein Punkt pro richtiger Frage bzw. Lücke, gespeichert wird der beste
+  Versuch) – auch wenn das Modul noch nicht vollständig bestanden ist.
 - Ein Modul braucht **kein Quiz mehr**: Ein Modul, das mit einem
   Lückentext endet oder nur aus Lückentexten besteht (z. B. ein
   Vokabeltest), ist genauso abschliessbar.
 - Enthält ein Modul **gar kein prüfendes Element** (reines Lesemodul),
   gilt es als abgeschlossen, sobald die Inhalte bis zum Ende durchgesehen
-  wurden.
+  wurden – bewusst ohne Coins (Coins belohnen nachgewiesenes Beherrschen).
 - Der Schlüssel `"quiz"` ist für das Abschlussquiz reserviert – prüfende
   Blöcke dürfen ihn nicht als `id` tragen (die Validierung lehnt das ab).
 
