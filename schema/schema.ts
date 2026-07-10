@@ -191,14 +191,19 @@ export function zerlegeLueckentext(text: string): LueckentextSegment[] {
 }
 
 /**
- * Normalisiert eine Antwort für den Vergleich: Leerraum am Rand wird immer
- * ignoriert; ohne caseSensitive zusätzlich die Gross-/Kleinschreibung.
+ * Normalisiert eine Antwort für den Vergleich – Eingabe und akzeptierte
+ * Antworten durchlaufen exakt dieselbe Normalisierung:
+ * - Unicode-NFC: Umlaute kommen je nach Tastatur/Diktat als ein Zeichen
+ *   (NFC) oder als Buchstabe + Kombinationszeichen (NFD) an – ohne
+ *   Angleichung würde eine korrekt getippte Antwort als falsch gewertet.
+ * - Leerraum am Rand wird immer ignoriert.
+ * - Ohne caseSensitive zusätzlich die Gross-/Kleinschreibung.
  */
 export function normalisiereLueckenAntwort(
   wert: string,
   caseSensitive: boolean,
 ): string {
-  const getrimmt = wert.trim();
+  const getrimmt = wert.normalize("NFC").trim();
   return caseSensitive ? getrimmt : getrimmt.toLowerCase();
 }
 

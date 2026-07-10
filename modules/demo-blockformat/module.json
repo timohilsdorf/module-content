@@ -87,11 +87,11 @@
     {
       "type": "lueckentext",
       "title": "Der Lückentext-Block (Eingabe)",
-      "intro": "Im Modus `eingabe` tippst du die Lösung frei ein. Leerraum am Rand wird ignoriert; Gross-/Kleinschreibung zählt nur, wenn die Lücke `caseSensitive` verlangt – wie hier.",
+      "intro": "Im Modus `eingabe` tippst du die Lösung frei ein. Leerraum am Rand und Gross-/Kleinschreibung spielen standardmässig keine Rolle – nur wenn eine Lücke `caseSensitive` verlangt, zählt die exakte Schreibung.",
       "modus": "eingabe",
-      "text": "Der Blocktyp für offene Aufgaben ohne automatische Auswertung heisst {{1}} (klein geschrieben, genau wie im Schema).",
+      "text": "Der Modus mit freien Textfeldern pro Lücke heisst {{1}} – ob du das gross, klein oder mit Leerzeichen am Rand tippst, ist egal.",
       "luecken": [
-        { "antworten": ["tasks"], "caseSensitive": true }
+        { "antworten": ["Eingabe"] }
       ]
     },
     {

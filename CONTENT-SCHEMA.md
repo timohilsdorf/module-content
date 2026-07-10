@@ -235,8 +235,10 @@ Regeln:
   Lücke, inline im Textfluss.
 - **`ablenker`** (nur `wortbank`): zusätzliche falsche Wörter in der
   Auswahl. Sie dürfen mit keiner akzeptierten Antwort übereinstimmen.
-- **Auswertung** (im Player, es wird nichts gespeichert): Leerraum am
-  Rand der Eingabe wird immer ignoriert; ohne `caseSensitive` auch die
+- **Auswertung** (im Player, es wird nichts gespeichert): Eingabe und
+  akzeptierte Antworten durchlaufen dieselbe Normalisierung –
+  Unicode-NFC (Umlaute von jeder Tastatur/Diktierfunktion zählen gleich),
+  Leerraum am Rand wird immer ignoriert, ohne `caseSensitive` auch die
   Gross-/Kleinschreibung. Eine Lücke ist richtig, wenn die Eingabe so
   einer der akzeptierten Antworten entspricht. Nach dem Prüfen markiert
   der Player jede Lücke einzeln (✓/✗) und bietet Lösung und neuen
