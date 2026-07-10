@@ -5,6 +5,12 @@ on:
   push:
     branches: [main]
 
+# Der Workflow braucht nur Lesezugriff – explizit festgeschrieben, damit
+# eine spätere Änderung der Repo-Standardrechte nichts aufweicht (die
+# PR-Validierung führt Code aus dem PR-Stand aus).
+permissions:
+  contents: read
+
 jobs:
   # Sicherheitsnetz: läuft bei jedem Pull Request und markiert ihn bei
   # Verstössen als fehlgeschlagen. Geprüft wird alles aus schema/validate.ts
