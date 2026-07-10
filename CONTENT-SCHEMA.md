@@ -93,7 +93,7 @@ Regeln:
 | `keywords` | – | string[] | Schlagwörter (Suche, spätere Video-Vorschläge). |
 | `authors` | – | string[] | Autorinnen/Autoren. |
 | `sources` | – | Liste | Verwendete Quellen (`title`, optional `url`); wird im Modul angezeigt. |
-| `license` | – | string | Lizenz der Inhalte, z. B. `"CC BY-SA 4.0"`. |
+| `license` | – | enum | Lizenz der Inhalte – eine bekannte Schreibweise: `"CC BY-SA 4.0"`, `"CC BY 4.0"`, `"CC BY-SA 3.0"`, `"CC0"` oder `"CC0 1.0"`. Standard für dieses Repo ist `"CC BY-SA 4.0"`. |
 | `requires` | – | string[] | Slugs vorausgesetzter Module (für spätere Lernpfade). |
 | `blocks` | ✅ | Block[] | Inhaltsblöcke in Anzeigereihenfolge, mind. 1. |
 | `quiz` | – | Quiz | Abschlussquiz mit automatischer Auswertung. |

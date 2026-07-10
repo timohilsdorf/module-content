@@ -271,7 +271,16 @@ export const moduleSchema = z.strictObject({
   authors: z.array(z.string().min(1)).default([]),
   /** Verwendete Quellen/Materialien (werden im Modul ausgewiesen). */
   sources: z.array(sourceSchema).default([]),
-  license: z.string().optional(),
+  /**
+   * Lizenz der Modulinhalte – nur die bekannten Schreibweisen, damit die
+   * Modul-Fusszeile immer auf den Lizenztext verlinken kann und sich
+   * keine Schreibvarianten («CC-BY-SA», «ccbysa4.0») einschleichen.
+   * Neue Lizenz nötig? Enum hier UND licenseUrl() in content/links.ts
+   * ergänzen.
+   */
+  license: z
+    .enum(["CC BY-SA 4.0", "CC BY 4.0", "CC BY-SA 3.0", "CC0", "CC0 1.0"])
+    .optional(),
   /** Slugs von Modulen, die inhaltlich vorausgesetzt werden. */
   requires: z.array(z.string()).default([]),
   /** Inhaltsblöcke in Anzeigereihenfolge. */
