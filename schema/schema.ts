@@ -150,14 +150,176 @@ export const tasksBlockSchema = z.strictObject({
   tasks: z.array(taskSchema).min(1),
 });
 
+// --- Lückentext (Cloze), automatisch geprüft --------------------------------
+
+export const lueckeSchema = z.strictObject({
+  /**
+   * Akzeptierte Antworten (mind. 1). Der erste Eintrag ist die Anzeigeform:
+   * Im Modus "wortbank" erscheint er als antippbares Auswahlwort, und die
+   * Lösungsanzeige im Player zeigt ihn als Musterantwort.
+   */
+  antworten: z.array(z.string().trim().min(1)).min(1),
+  /** Gross-/Kleinschreibung beim Vergleich beachten? Standard: nein. */
+  caseSensitive: z.boolean().default(false),
+});
+
+export type LueckentextSegment =
+  | { art: "text"; text: string }
+  | { art: "luecke"; index: number };
+
+/**
+ * Zerlegt einen Lückentext an den Markern {{1}}, {{2}}, … in Segmente
+ * (`index` ist 0-basiert in `luecken`). Einzige massgebliche Definition
+ * der Marker-Syntax – Validierung und Player nutzen dieselbe Funktion.
+ */
+export function zerlegeLueckentext(text: string): LueckentextSegment[] {
+  const segmente: LueckentextSegment[] = [];
+  const regex = /\{\{(\d+)\}\}/g;
+  let letztesEnde = 0;
+  let match: RegExpExecArray | null;
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > letztesEnde) {
+      segmente.push({ art: "text", text: text.slice(letztesEnde, match.index) });
+    }
+    segmente.push({ art: "luecke", index: Number(match[1]) - 1 });
+    letztesEnde = match.index + match[0].length;
+  }
+  if (letztesEnde < text.length) {
+    segmente.push({ art: "text", text: text.slice(letztesEnde) });
+  }
+  return segmente;
+}
+
+/**
+ * Normalisiert eine Antwort für den Vergleich: Leerraum am Rand wird immer
+ * ignoriert; ohne caseSensitive zusätzlich die Gross-/Kleinschreibung.
+ */
+export function normalisiereLueckenAntwort(
+  wert: string,
+  caseSensitive: boolean,
+): string {
+  const getrimmt = wert.trim();
+  return caseSensitive ? getrimmt : getrimmt.toLowerCase();
+}
+
+/** Eine Lücke gilt als richtig, wenn die Eingabe einer akzeptierten Antwort entspricht. */
+export function istLueckeRichtig(
+  eingabe: string,
+  luecke: z.infer<typeof lueckeSchema>,
+): boolean {
+  return luecke.antworten.some(
+    (antwort) =>
+      normalisiereLueckenAntwort(antwort, luecke.caseSensitive) ===
+      normalisiereLueckenAntwort(eingabe, luecke.caseSensitive),
+  );
+}
+
+export const lueckentextBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("lueckentext"),
+    /** Optionale Arbeitsanweisung über dem Text, Markdown erlaubt. */
+    intro: markdown.optional(),
+    /**
+     * "wortbank": Lösungswörter (plus Ablenker) als antippbare Auswahl –
+     * erst Wort antippen, dann Lücke. "eingabe": freies Textfeld pro Lücke.
+     */
+    modus: z.enum(["wortbank", "eingabe"]),
+    /**
+     * Der Lückentext als reiner Text (KEIN Markdown; Zeilenumbrüche mit \n
+     * bleiben erhalten). {{1}}, {{2}}, … markieren die Lücken und verweisen
+     * 1-basiert auf `luecken`; jede Lücke kommt genau einmal vor.
+     */
+    text: z.string().min(1),
+    luecken: z.array(lueckeSchema).min(1),
+    /**
+     * Nur Modus "wortbank": zusätzliche falsche Wörter in der Auswahl.
+     * Dürfen mit keiner akzeptierten Antwort übereinstimmen.
+     */
+    ablenker: z.array(z.string().trim().min(1)).default([]),
+  })
+  .superRefine((block, ctx) => {
+    const marker = zerlegeLueckentext(block.text).filter(
+      (s) => s.art === "luecke",
+    );
+
+    // Wohlgeformtheit: Jedes "{{" bzw. "}}" muss zu einem vollständigen
+    // {{n}}-Marker gehören – fängt {{eins}}, {{1} und verirrte Klammern.
+    const offene = (block.text.match(/\{\{/g) ?? []).length;
+    const schliessende = (block.text.match(/\}\}/g) ?? []).length;
+    if (offene !== marker.length || schliessende !== marker.length) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["text"],
+        message:
+          "Lückentext: unvollständiger Lücken-Marker. Lücken werden exakt als {{1}}, {{2}}, … geschrieben (fortlaufende Zahl in doppelten geschweiften Klammern, ohne Leerzeichen); {{ und }} sind dafür reserviert.",
+      });
+    }
+
+    const verwendungen = new Map<number, number>();
+    for (const seg of marker) {
+      verwendungen.set(seg.index, (verwendungen.get(seg.index) ?? 0) + 1);
+    }
+    for (const [index] of verwendungen) {
+      if (index < 0 || index >= block.luecken.length) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["text"],
+          message: `Lückentext: Marker {{${index + 1}}} verweist auf eine Lücke, die es nicht gibt – definiert sind ${block.luecken.length} Lücken ({{1}} bis {{${block.luecken.length}}}).`,
+        });
+      }
+    }
+    block.luecken.forEach((_, index) => {
+      const anzahl = verwendungen.get(index) ?? 0;
+      if (anzahl === 0) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["luecken", index],
+          message: `Lückentext: Lücke ${index + 1} hat keinen Marker {{${index + 1}}} im Text.`,
+        });
+      } else if (anzahl > 1) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["text"],
+          message: `Lückentext: Marker {{${index + 1}}} kommt ${anzahl}-mal vor – jede Lücke wird genau einmal verwendet.`,
+        });
+      }
+    });
+
+    if (block.modus === "eingabe" && block.ablenker.length > 0) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["ablenker"],
+        message:
+          'Lückentext: "ablenker" ist nur im Modus "wortbank" erlaubt (im Modus "eingabe" gibt es keine Wortauswahl).',
+      });
+    }
+    block.ablenker.forEach((wort, index) => {
+      if (block.luecken.some((luecke) => istLueckeRichtig(wort, luecke))) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["ablenker", index],
+          message: `Lückentext: Ablenker "${wort}" ist zugleich eine akzeptierte Antwort einer Lücke – er wäre kein Ablenker.`,
+        });
+      }
+    });
+  });
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
   videoBlockSchema,
   tasksBlockSchema,
+  lueckentextBlockSchema,
 ]);
 
-export const KNOWN_BLOCK_TYPES = ["text", "image", "video", "tasks"] as const;
+export const KNOWN_BLOCK_TYPES = [
+  "text",
+  "image",
+  "video",
+  "tasks",
+  "lueckentext",
+] as const;
 
 /**
  * Zukunfts-Blöcke ("simulation", "chat", …): jedes Objekt mit einem `type`,
@@ -299,6 +461,8 @@ export type ImageBlock = z.infer<typeof imageBlockSchema>;
 export type VideoBlock = z.infer<typeof videoBlockSchema>;
 export type Task = z.infer<typeof taskSchema>;
 export type TasksBlock = z.infer<typeof tasksBlockSchema>;
+export type Luecke = z.infer<typeof lueckeSchema>;
+export type LueckentextBlock = z.infer<typeof lueckentextBlockSchema>;
 export type KnownBlock = z.infer<typeof knownBlockSchema>;
 export type UnknownBlock = z.infer<typeof unknownBlockSchema>;
 export type Block = z.infer<typeof blockSchema>;
