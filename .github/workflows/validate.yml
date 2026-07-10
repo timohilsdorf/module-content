@@ -31,6 +31,10 @@ jobs:
       - run: npm ci
       - name: Module validieren
         run: |
+          # GitHubs Standard-Shell für run: ist `bash -e` OHNE pipefail –
+          # ohne die nächste Zeile würde der Exit-Code des Validators vom
+          # tee verschluckt und der Check wäre trotz Fehlern grün.
+          set -o pipefail
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           npm run validate 2>&1 | tee -a "$GITHUB_STEP_SUMMARY" && status=0 || status=$?
           echo '```' >> "$GITHUB_STEP_SUMMARY"
