@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "test-kaputtes-modul",
+  "title": "Absichtlich schema-widrig",
+  "beschreibung": "Falscher Feldname statt description",
+  "subject": "TEST",
+  "cycle": 5,
+  "learningObjectives": [],
+  "blocks": [
+    { "type": "karussell", "slides": [] },
+    { "type": "text", "body": "Mit <script>alert('böse')</script> Roh-HTML." }
+  ],
+  "quiz": { "questions": [ { "type": "true_false", "prompt": "Frage ohne id.", "answer": true } ] }
+}
