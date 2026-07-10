@@ -13,6 +13,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 |---|---|---|
 | 1 | initial | Grundformat: Blöcke `text`, `image`, `video`, `tasks`; Quiz mit drei Fragetypen. |
 | 1 | Juli 2026 | Additiv: neuer, automatisch geprüfter Blocktyp [`lueckentext`](#lueckentext--lückentext-automatisch-geprüft) (Cloze). `schemaVersion` bleibt `1` – bestehende Module sind unverändert gültig; ältere Player-Versionen zeigen für den neuen Block einen Platzhalter. |
+| 1 | Juli 2026 | Additiv: Konzept [«prüfender Block»](#prüfende-blöcke-und-modulabschluss) – Quiz und prüfende Blocktypen (`PRUEFENDE_BLOCK_TYPES` in `schema/schema.ts`, aktuell `lueckentext`) zählen gleichwertig für Modulabschluss, Punkte und Lernrate. Ein Modul braucht kein Quiz mehr; ohne prüfende Elemente gilt es nach dem Durchsehen als abgeschlossen. |
 
 ## Ablage
 
@@ -204,6 +205,7 @@ zum Antippen (`wortbank`) oder mit freien Textfeldern (`eingabe`):
 ```json
 {
   "type": "lueckentext",
+  "id": "lt1",
   "title": "Setze die richtigen Begriffe ein",
   "intro": "Optional: Arbeitsanweisung (Markdown).",
   "modus": "wortbank",
@@ -219,6 +221,9 @@ zum Antippen (`wortbank`) oder mit freien Textfeldern (`eingabe`):
 
 Regeln:
 
+- **`id`** (Pflicht, wie bei Quizfragen): Der Lernstand speichert
+  Ergebnisse und Punkte pro Block – ohne stabile `id` würden sie bei
+  Content-Änderungen vermischt.
 - **`text`** ist **reiner Text, kein Markdown** – Zeilenumbrüche (`\n`)
   bleiben erhalten. Die Lücken werden exakt als `{{1}}`, `{{2}}`, …
   geschrieben (doppelte geschweifte Klammern, fortlaufende Zahl, keine
@@ -228,22 +233,49 @@ Regeln:
   Antworten, mind. 1 – Synonyme und gängige Schreibvarianten hier
   eintragen) und optional `caseSensitive` (Standard `false`).
 - **`modus`** (Pflicht): `"wortbank"` bietet die Lösungswörter als
-  antippbare Auswahl an (erst Wort antippen, dann Lücke – auch auf
-  Smartphones ohne Drag-and-Drop bedienbar); angezeigt wird pro Lücke die
-  **erste** Antwort aus `antworten`, alphabetisch gemischt mit den
-  `ablenker`-Wörtern. `"eingabe"` zeigt stattdessen ein Textfeld pro
-  Lücke, inline im Textfluss.
+  Auswahl an – auf grossen Bildschirmen und Tablets per Drag-and-Drop,
+  auf Smartphones per Antippen (erst Wort, dann Lücke); angezeigt wird
+  pro Lücke die **erste** Antwort aus `antworten`, alphabetisch gemischt
+  mit den `ablenker`-Wörtern. `"eingabe"` zeigt stattdessen ein Textfeld
+  pro Lücke, inline im Textfluss.
 - **`ablenker`** (nur `wortbank`): zusätzliche falsche Wörter in der
   Auswahl. Sie dürfen mit keiner akzeptierten Antwort übereinstimmen.
-- **Auswertung** (im Player, es wird nichts gespeichert): Leerraum am
-  Rand der Eingabe wird immer ignoriert; ohne `caseSensitive` auch die
-  Gross-/Kleinschreibung. Eine Lücke ist richtig, wenn die Eingabe so
-  einer der akzeptierten Antworten entspricht. Nach dem Prüfen markiert
-  der Player jede Lücke einzeln (✓/✗) und bietet Lösung und neuen
-  Versuch an.
+- **Auswertung** (im Player): Eingabe und akzeptierte Antworten
+  durchlaufen dieselbe Normalisierung – Unicode-NFC (Umlaute von jeder
+  Tastatur/Diktierfunktion zählen gleich), Leerraum am Rand wird immer
+  ignoriert, ohne `caseSensitive` auch die Gross-/Kleinschreibung. Eine
+  Lücke ist richtig, wenn die Eingabe so einer der akzeptierten
+  Antworten entspricht. Nach dem Prüfen markiert der Player jede Lücke
+  einzeln (✓/✗) und bietet Lösung und Wiederholen an.
+- **Punkte und Coins** wie beim Quiz: Jeder Durchlauf zählt eine richtige
+  Lücke als einen Punkt; bestanden ist der Block, wenn **alle** Lücken
+  richtig sind – beim ersten Bestehen gibt es Coins über denselben
+  Mechanismus wie beim Quiz.
 - Der Blocktyp ist eine **additive Erweiterung von Schema-Version 1**
   (Juli 2026, siehe [Versionsgeschichte](#versionsgeschichte)) – ältere
   Player-Versionen zeigen dafür einen Platzhalter.
+
+## Prüfende Blöcke und Modulabschluss
+
+Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
+Typen prüfend sind, steht versioniert im Schema
+([`schema/schema.ts`](schema/schema.ts), Konstante `PRUEFENDE_BLOCK_TYPES`
+– aktuell `lueckentext`); künftige auto-geprüfte Aufgabentypen werden dort
+eingetragen und zählen dann automatisch.
+
+- Ein Modul gilt als **abgeschlossen**, wenn **alle prüfenden Elemente**
+  bestanden sind: jedes prüfende Blocks-Element (z. B. jeder Lückentext:
+  alle Lücken richtig) und – falls vorhanden – das Abschlussquiz
+  (`passingScorePercent` erreicht). Quiz und prüfende Blöcke zählen
+  **gleichwertig** in Abschluss, Punkte und Lernrate.
+- Ein Modul braucht **kein Quiz mehr**: Ein Modul, das mit einem
+  Lückentext endet oder nur aus Lückentexten besteht (z. B. ein
+  Vokabeltest), ist genauso abschliessbar.
+- Enthält ein Modul **gar kein prüfendes Element** (reines Lesemodul),
+  gilt es als abgeschlossen, sobald die Inhalte bis zum Ende durchgesehen
+  wurden.
+- Der Schlüssel `"quiz"` ist für das Abschlussquiz reserviert – prüfende
+  Blöcke dürfen ihn nicht als `id` tragen (die Validierung lehnt das ab).
 
 ### Zukünftige Blocktypen (`simulation`, `chat`, …)
 

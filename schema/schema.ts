@@ -191,14 +191,19 @@ export function zerlegeLueckentext(text: string): LueckentextSegment[] {
 }
 
 /**
- * Normalisiert eine Antwort für den Vergleich: Leerraum am Rand wird immer
- * ignoriert; ohne caseSensitive zusätzlich die Gross-/Kleinschreibung.
+ * Normalisiert eine Antwort für den Vergleich – Eingabe und akzeptierte
+ * Antworten durchlaufen exakt dieselbe Normalisierung:
+ * - Unicode-NFC: Umlaute kommen je nach Tastatur/Diktat als ein Zeichen
+ *   (NFC) oder als Buchstabe + Kombinationszeichen (NFD) an – ohne
+ *   Angleichung würde eine korrekt getippte Antwort als falsch gewertet.
+ * - Leerraum am Rand wird immer ignoriert.
+ * - Ohne caseSensitive zusätzlich die Gross-/Kleinschreibung.
  */
 export function normalisiereLueckenAntwort(
   wert: string,
   caseSensitive: boolean,
 ): string {
-  const getrimmt = wert.trim();
+  const getrimmt = wert.normalize("NFC").trim();
   return caseSensitive ? getrimmt : getrimmt.toLowerCase();
 }
 
@@ -239,6 +244,25 @@ export const lueckentextBlockSchema = z
     ablenker: z.array(z.string().trim().min(1)).default([]),
   })
   .superRefine((block, ctx) => {
+    // Stabile id ist Pflicht (wie bei Quizfragen): Lernstand und Coin-Vergabe
+    // speichern Ergebnisse pro Block – ohne id würden sie bei Umsortierungen
+    // vermischt bzw. mehrfach vergeben.
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Lückentext: Der Block braucht eine stabile "id" (z. B. "lt1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Lückentext: Die id "quiz" ist für das Abschlussquiz reserviert – bitte eine andere id wählen.',
+      });
+    }
+
     const marker = zerlegeLueckentext(block.text).filter(
       (s) => s.art === "luecke",
     );
@@ -473,6 +497,44 @@ export type LearningModule = z.infer<typeof moduleSchema>;
 
 export function isKnownBlock(block: Block): block is KnownBlock {
   return (KNOWN_BLOCK_TYPES as readonly string[]).includes(block.type);
+}
+
+// ---------------------------------------------------------------------------
+// Prüfende Blöcke und Modulabschluss
+// ---------------------------------------------------------------------------
+
+/**
+ * Konzept «prüfender Block» (ergänzt Juli 2026, additive Erweiterung von
+ * Schema-Version 1): Inhaltsblöcke mit automatischer Auswertung. Prüfende
+ * Blöcke und das Abschlussquiz zählen gleichwertig – ein Modul gilt als
+ * abgeschlossen, wenn ALLE prüfenden Elemente bestanden sind. Ein Modul
+ * braucht damit kein Quiz mehr; ohne jedes prüfende Element gilt es nach
+ * dem Durchsehen der Inhalte als abgeschlossen (reines Lesemodul).
+ * Künftige auto-geprüfte Aufgabentypen werden hier eingetragen und zählen
+ * dann automatisch in Abschluss, Punkte und Lernrate.
+ */
+export const PRUEFENDE_BLOCK_TYPES = ["lueckentext"] as const;
+
+export function istPruefenderBlock(block: Block): boolean {
+  return (PRUEFENDE_BLOCK_TYPES as readonly string[]).includes(block.type);
+}
+
+/**
+ * Schlüssel aller prüfenden Elemente eines Moduls: die ids der prüfenden
+ * Blöcke plus der reservierte Schlüssel "quiz" für das Abschlussquiz
+ * (deshalb darf kein prüfender Block die id "quiz" tragen – die
+ * Validierung lehnt das ab). Der Lernstand hält den Bestehens-Stand je
+ * Schlüssel und leitet daraus den Modulabschluss ab.
+ */
+export function pruefSchluessel(module: LearningModule): string[] {
+  const keys = module.blocks
+    .filter(istPruefenderBlock)
+    .map((block) =>
+      "id" in block && typeof block.id === "string" ? block.id : null,
+    )
+    .filter((id): id is string => id !== null);
+  if (module.quiz) keys.push("quiz");
+  return keys;
 }
 
 /** Anzeigenamen bekannter Lehrpläne (Fallback: Rohwert). */
