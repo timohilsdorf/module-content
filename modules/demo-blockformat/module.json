@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "demo-blockformat",
   "title": "So funktioniert ein EveryCate-Modul",
-  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Aufgaben, einen Zukunfts-Block und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
+  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Aufgaben, Lückentexte, einen Zukunfts-Block und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
   "subject": "DEMO",
   "subjectName": "Demo & Dokumentation",
   "cycle": 3,
@@ -72,6 +72,29 @@
       ]
     },
     {
+      "type": "lueckentext",
+      "title": "Der Lückentext-Block (Wortbank)",
+      "intro": "Lückentexte werden **automatisch geprüft**. Im Modus `wortbank` tippst du zuerst ein Wort in der Auswahl an und dann die Lücke, in die es gehört – das funktioniert auch auf dem Handy.",
+      "modus": "wortbank",
+      "text": "Ein Modul ist eine einzige Datei namens {{1}}. Neue Module reichst du als {{2}} ein, und Bilder liegen im selben {{3}} wie das Modul.",
+      "luecken": [
+        { "antworten": ["module.json"] },
+        { "antworten": ["Pull Request", "Pull-Request"] },
+        { "antworten": ["Ordner", "Modulordner"] }
+      ],
+      "ablenker": ["Datenbank", "E-Mail"]
+    },
+    {
+      "type": "lueckentext",
+      "title": "Der Lückentext-Block (Eingabe)",
+      "intro": "Im Modus `eingabe` tippst du die Lösung frei ein. Leerraum am Rand wird ignoriert; Gross-/Kleinschreibung zählt nur, wenn die Lücke `caseSensitive` verlangt – wie hier.",
+      "modus": "eingabe",
+      "text": "Der Blocktyp für offene Aufgaben ohne automatische Auswertung heisst {{1}} (klein geschrieben, genau wie im Schema).",
+      "luecken": [
+        { "antworten": ["tasks"], "caseSensitive": true }
+      ]
+    },
+    {
       "type": "simulation",
       "title": "Ein Blick in die Zukunft",
       "engine": "demo",
@@ -121,7 +144,7 @@
             "correct": true
           }
         ],
-        "explanation": "`text`, `image`, `video` und `tasks` sind implementiert. `simulation` ist ein gültiger, aber noch nicht unterstützter Zukunfts-Block.",
+        "explanation": "`text`, `image`, `video`, `tasks` und `lueckentext` sind implementiert. `simulation` ist ein gültiger, aber noch nicht unterstützter Zukunfts-Block.",
         "points": 2
       },
       {

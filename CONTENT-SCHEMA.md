@@ -7,6 +7,13 @@ Module erstellen können. Die maschinenlesbare Referenz (Zod-Schema) liegt in
 Zod-Schema. *(Das Schema ist eine synchron gehaltene Kopie aus dem
 Plattform-Repository, wo es beim Build erzwungen wird.)*
 
+## Versionsgeschichte
+
+| `schemaVersion` | Stand | Änderung |
+|---|---|---|
+| 1 | initial | Grundformat: Blöcke `text`, `image`, `video`, `tasks`; Quiz mit drei Fragetypen. |
+| 1 | Juli 2026 | Additiv: neuer, automatisch geprüfter Blocktyp [`lueckentext`](#lueckentext--lückentext-automatisch-geprüft) (Cloze). `schemaVersion` bleibt `1` – bestehende Module sind unverändert gültig; ältere Player-Versionen zeigen für den neuen Block einen Platzhalter. |
+
 ## Ablage
 
 Ein Modul = ein Ordner unter `modules/` – die `module.json` und alle
@@ -189,6 +196,55 @@ unterliegen denselben Regeln wie `image`-Blöcke; Referenz-Stil
 Didaktischer Tipp: Als letzte Aufgabe eignet sich oft «Erkläre es jemandem»
 oder «Erstelle selbst eine Quizfrage zu diesem Thema» (Lernen durch Lehren).
 
+### `lueckentext` – Lückentext (automatisch geprüft)
+
+Ein Text mit Lücken, die der Player direkt auswertet – als Wortauswahl
+zum Antippen (`wortbank`) oder mit freien Textfeldern (`eingabe`):
+
+```json
+{
+  "type": "lueckentext",
+  "title": "Setze die richtigen Begriffe ein",
+  "intro": "Optional: Arbeitsanweisung (Markdown).",
+  "modus": "wortbank",
+  "text": "Wasser verdunstet durch die {{1}} und bildet {{2}}.\nFällt es zu Boden, nennt man das {{3}}.",
+  "luecken": [
+    { "antworten": ["Sonnenwärme", "Sonne"] },
+    { "antworten": ["Wolken"] },
+    { "antworten": ["Niederschlag"], "caseSensitive": true }
+  ],
+  "ablenker": ["Blitze", "Nebel"]
+}
+```
+
+Regeln:
+
+- **`text`** ist **reiner Text, kein Markdown** – Zeilenumbrüche (`\n`)
+  bleiben erhalten. Die Lücken werden exakt als `{{1}}`, `{{2}}`, …
+  geschrieben (doppelte geschweifte Klammern, fortlaufende Zahl, keine
+  Leerzeichen) und verweisen 1-basiert auf die Liste `luecken`. **Jede
+  Lücke kommt genau einmal vor**; die Validierung prüft das.
+- **`luecken`**: pro Lücke ein Objekt mit `antworten` (Liste akzeptierter
+  Antworten, mind. 1 – Synonyme und gängige Schreibvarianten hier
+  eintragen) und optional `caseSensitive` (Standard `false`).
+- **`modus`** (Pflicht): `"wortbank"` bietet die Lösungswörter als
+  antippbare Auswahl an (erst Wort antippen, dann Lücke – auch auf
+  Smartphones ohne Drag-and-Drop bedienbar); angezeigt wird pro Lücke die
+  **erste** Antwort aus `antworten`, alphabetisch gemischt mit den
+  `ablenker`-Wörtern. `"eingabe"` zeigt stattdessen ein Textfeld pro
+  Lücke, inline im Textfluss.
+- **`ablenker`** (nur `wortbank`): zusätzliche falsche Wörter in der
+  Auswahl. Sie dürfen mit keiner akzeptierten Antwort übereinstimmen.
+- **Auswertung** (im Player, es wird nichts gespeichert): Leerraum am
+  Rand der Eingabe wird immer ignoriert; ohne `caseSensitive` auch die
+  Gross-/Kleinschreibung. Eine Lücke ist richtig, wenn die Eingabe so
+  einer der akzeptierten Antworten entspricht. Nach dem Prüfen markiert
+  der Player jede Lücke einzeln (✓/✗) und bietet Lösung und neuen
+  Versuch an.
+- Der Blocktyp ist eine **additive Erweiterung von Schema-Version 1**
+  (Juli 2026, siehe [Versionsgeschichte](#versionsgeschichte)) – ältere
+  Player-Versionen zeigen dafür einen Platzhalter.
+
 ### Zukünftige Blocktypen (`simulation`, `chat`, …)
 
 Das Format ist offen für kommende Player-Funktionen: Ein Block mit noch
@@ -280,7 +336,7 @@ Regeln:
    (Codes im Format `FACH.x.y.z`, z. B. `RZG.4.2.c`).
 3. Lernziele als «Ich kann …»-Sätze.
 4. Blöcke abwechslungsreich sequenzieren: kurzer Einstiegstext → Video oder
-   Bild → vertiefender Text → Aufgaben → Quiz.
+   Bild → vertiefender Text → Lückentext und/oder Aufgaben → Quiz.
 5. Nur lizenzrechtlich unbedenkliche Bilder/Videos einbetten und Quellen in
    `sources`/`credit` ausweisen; Video-Provider und Bild-Hosts müssen der
    Whitelist entsprechen.

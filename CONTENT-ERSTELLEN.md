@@ -66,6 +66,16 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      Bildbeschreibung","caption":"…","credit":"Quelle & Lizenz"}
 >   4. {"type":"tasks","title":"Aufgaben","tasks":[{"prompt":"…",
 >      "hint":"…","solution":"…"}]}
+>   5. {"type":"lueckentext","modus":"wortbank","title":"…",
+>      "text":"Satz mit {{1}} und {{2}} als Lücken.",
+>      "luecken":[{"antworten":["Lösung 1","Synonym"]},
+>      {"antworten":["Lösung 2"]}],"ablenker":["falsches Wort"]}
+>      – automatisch geprüfter Lückentext. "text" ist reiner Text (kein
+>      Markdown); {{1}}, {{2}}, … markieren die Lücken, jede genau einmal.
+>      "antworten" = akzeptierte Lösungen inkl. Synonyme (Gross-/
+>      Kleinschreibung ist standardmässig egal). Modus "wortbank" bietet
+>      die Wörter zum Antippen an ("ablenker" = zusätzliche falsche
+>      Wörter); Modus "eingabe" zeigt Freitextfelder (dann kein "ablenker").
 > - Am Ende ein "quiz": {"title":"…","passingScorePercent":60,
 >   "questions":[…]} mit 4–8 Fragen. Fragetypen:
 >   - {"id":"q1","type":"single_choice","prompt":"…","options":[{"text":"…",
@@ -79,7 +89,8 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 > Inhaltliche Vorgaben:
 > - Deutsch, Anrede «du», Schweizer Schreibweise (ss statt ß).
 > - Aufbau: packender Einstieg mit Alltagsbezug → Video → vertiefender
->   Text → Aufgaben (mit Tipp und Musterlösung) → Quiz. 6–9 Blöcke.
+>   Text → Lückentext → Aufgaben (mit Tipp und Musterlösung) → Quiz.
+>   6–9 Blöcke.
 > - Nur YouTube-Videos vorschlagen, die wirklich existieren und seriös
 >   sind (Bildungskanäle) — gib mir Titel und Kanal an, damit ich sie
 >   prüfen kann.
