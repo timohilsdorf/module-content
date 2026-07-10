@@ -254,6 +254,13 @@ export const lueckentextBlockSchema = z
         message:
           'Lückentext: Der Block braucht eine stabile "id" (z. B. "lt1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
       });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Lückentext: Die id "quiz" ist für das Abschlussquiz reserviert – bitte eine andere id wählen.',
+      });
     }
 
     const marker = zerlegeLueckentext(block.text).filter(
@@ -490,6 +497,44 @@ export type LearningModule = z.infer<typeof moduleSchema>;
 
 export function isKnownBlock(block: Block): block is KnownBlock {
   return (KNOWN_BLOCK_TYPES as readonly string[]).includes(block.type);
+}
+
+// ---------------------------------------------------------------------------
+// Prüfende Blöcke und Modulabschluss
+// ---------------------------------------------------------------------------
+
+/**
+ * Konzept «prüfender Block» (ergänzt Juli 2026, additive Erweiterung von
+ * Schema-Version 1): Inhaltsblöcke mit automatischer Auswertung. Prüfende
+ * Blöcke und das Abschlussquiz zählen gleichwertig – ein Modul gilt als
+ * abgeschlossen, wenn ALLE prüfenden Elemente bestanden sind. Ein Modul
+ * braucht damit kein Quiz mehr; ohne jedes prüfende Element gilt es nach
+ * dem Durchsehen der Inhalte als abgeschlossen (reines Lesemodul).
+ * Künftige auto-geprüfte Aufgabentypen werden hier eingetragen und zählen
+ * dann automatisch in Abschluss, Punkte und Lernrate.
+ */
+export const PRUEFENDE_BLOCK_TYPES = ["lueckentext"] as const;
+
+export function istPruefenderBlock(block: Block): boolean {
+  return (PRUEFENDE_BLOCK_TYPES as readonly string[]).includes(block.type);
+}
+
+/**
+ * Schlüssel aller prüfenden Elemente eines Moduls: die ids der prüfenden
+ * Blöcke plus der reservierte Schlüssel "quiz" für das Abschlussquiz
+ * (deshalb darf kein prüfender Block die id "quiz" tragen – die
+ * Validierung lehnt das ab). Der Lernstand hält den Bestehens-Stand je
+ * Schlüssel und leitet daraus den Modulabschluss ab.
+ */
+export function pruefSchluessel(module: LearningModule): string[] {
+  const keys = module.blocks
+    .filter(istPruefenderBlock)
+    .map((block) =>
+      "id" in block && typeof block.id === "string" ? block.id : null,
+    )
+    .filter((id): id is string => id !== null);
+  if (module.quiz) keys.push("quiz");
+  return keys;
 }
 
 /** Anzeigenamen bekannter Lehrpläne (Fallback: Rohwert). */

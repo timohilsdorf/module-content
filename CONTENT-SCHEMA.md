@@ -13,6 +13,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 |---|---|---|
 | 1 | initial | Grundformat: Blöcke `text`, `image`, `video`, `tasks`; Quiz mit drei Fragetypen. |
 | 1 | Juli 2026 | Additiv: neuer, automatisch geprüfter Blocktyp [`lueckentext`](#lueckentext--lückentext-automatisch-geprüft) (Cloze). `schemaVersion` bleibt `1` – bestehende Module sind unverändert gültig; ältere Player-Versionen zeigen für den neuen Block einen Platzhalter. |
+| 1 | Juli 2026 | Additiv: Konzept [«prüfender Block»](#prüfende-blöcke-und-modulabschluss) – Quiz und prüfende Blocktypen (`PRUEFENDE_BLOCK_TYPES` in `schema/schema.ts`, aktuell `lueckentext`) zählen gleichwertig für Modulabschluss, Punkte und Lernrate. Ein Modul braucht kein Quiz mehr; ohne prüfende Elemente gilt es nach dem Durchsehen als abgeschlossen. |
 
 ## Ablage
 
@@ -253,6 +254,28 @@ Regeln:
 - Der Blocktyp ist eine **additive Erweiterung von Schema-Version 1**
   (Juli 2026, siehe [Versionsgeschichte](#versionsgeschichte)) – ältere
   Player-Versionen zeigen dafür einen Platzhalter.
+
+## Prüfende Blöcke und Modulabschluss
+
+Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
+Typen prüfend sind, steht versioniert im Schema
+([`schema/schema.ts`](schema/schema.ts), Konstante `PRUEFENDE_BLOCK_TYPES`
+– aktuell `lueckentext`); künftige auto-geprüfte Aufgabentypen werden dort
+eingetragen und zählen dann automatisch.
+
+- Ein Modul gilt als **abgeschlossen**, wenn **alle prüfenden Elemente**
+  bestanden sind: jedes prüfende Blocks-Element (z. B. jeder Lückentext:
+  alle Lücken richtig) und – falls vorhanden – das Abschlussquiz
+  (`passingScorePercent` erreicht). Quiz und prüfende Blöcke zählen
+  **gleichwertig** in Abschluss, Punkte und Lernrate.
+- Ein Modul braucht **kein Quiz mehr**: Ein Modul, das mit einem
+  Lückentext endet oder nur aus Lückentexten besteht (z. B. ein
+  Vokabeltest), ist genauso abschliessbar.
+- Enthält ein Modul **gar kein prüfendes Element** (reines Lesemodul),
+  gilt es als abgeschlossen, sobald die Inhalte bis zum Ende durchgesehen
+  wurden.
+- Der Schlüssel `"quiz"` ist für das Abschlussquiz reserviert – prüfende
+  Blöcke dürfen ihn nicht als `id` tragen (die Validierung lehnt das ab).
 
 ### Zukünftige Blocktypen (`simulation`, `chat`, …)
 
