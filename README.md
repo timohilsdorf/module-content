@@ -94,7 +94,19 @@ werden, solange die Urheber genannt werden und Ableitungen unter derselben
 Lizenz bleiben. Das hält die Module dauerhaft offen und ist kompatibel mit
 Material aus Wikipedia/Wikimedia Commons.
 
-Mit dem Einreichen eines Pull Requests stellst du deinen Beitrag unter
-diese Lizenz. Einzelne Module können im Feld `license` eine (grosszügigere)
-Lizenz deklarieren; **Bilder behalten ihre eigene Lizenz** – der Nachweis
-steht je Bild im Feld `credit` und ist zwingend.
+**Beiträge (inbound = outbound):** Mit dem Einreichen eines Pull
+Requests erklärst du dich einverstanden, dass dein Beitrag unter
+derselben Lizenz wie dieses Repository (CC BY-SA 4.0) veröffentlicht
+wird – ohne zusätzliche Bedingungen –, und bestätigst, dass du die
+dafür nötigen Rechte an deinem Beitrag hältst.
+
+Einzelne Module können im Feld `license` eine (grosszügigere) Lizenz
+deklarieren; **Bilder behalten ihre eigene Lizenz** – der Nachweis steht
+je Bild im Feld `credit` und ist zwingend.
+
+**Marken und Branding:** Der Name «EveryCate», das EveryCate-Logo
+(z. B. `modules/demo-blockformat/everycate-logo.png`) und das übrige
+Branding sind **nicht** Teil der CC-BY-SA-Lizenz. Sie dürfen nicht ohne
+Zustimmung des Betreibers verwendet werden, insbesondere nicht in einer
+Weise, die eine Herkunft oder Unterstützung durch EveryCate suggeriert –
+unabhängig davon, was die Lizenzfelder einzelner Module sagen.
