@@ -413,7 +413,12 @@ export const questionSchema = z.discriminatedUnion("type", [
 
 export const quizSchema = z.strictObject({
   title: z.string().optional(),
-  /** Ab wie viel Prozent der Punkte gilt das Quiz als bestanden (Standard 60). */
+  /**
+   * VERALTET (Juli 2026): Der Player wertet dieses Feld nicht mehr aus –
+   * bestanden ist ein Aufgabenblock einheitlich erst bei 100 % (alle
+   * Punkte), wie beim Lückentext und beim Modulabschluss. Das Feld bleibt
+   * im Schema, damit bestehende Module gültig bleiben.
+   */
   passingScorePercent: z.number().min(0).max(100).default(60),
   questions: z.array(questionSchema).min(1),
 });

@@ -268,8 +268,9 @@ eingetragen und zählen dann automatisch.
 
 - Ein Modul gilt als **bestanden**, wenn **alle prüfenden Elemente
   100 % erreicht** haben – jeder Lückentext (alle Lücken richtig) und,
-  falls vorhanden, das Abschlussquiz (alle Punkte; das Quiz-eigene
-  `passingScorePercent` betrifft nur das Feedback im Quiz selbst).
+  falls vorhanden, das Abschlussquiz (alle Punkte). Auch das Quiz selbst
+  meldet «bestanden» erst bei 100 %; darunter zeigt es neutral
+  «X % – noch nicht bestanden» mit Wiederholen-Möglichkeit.
   Wiederholen ist unbegrenzt möglich; es zählt der beste je erreichte
   Versuch. **Beim ersten Bestehen des Moduls gibt es Coins** (genau
   einmal). Quiz und prüfende Blöcke zählen **gleichwertig** in
@@ -312,10 +313,13 @@ ergänzen.
 ```json
 {
   "title": "Teste dein Wissen",
-  "passingScorePercent": 60,
   "questions": [ … ]
 }
 ```
+
+*(Das frühere Feld `passingScorePercent` ist **veraltet**: Der Player
+wertet es seit Juli 2026 nicht mehr aus – bestanden ist ein Aufgabenblock
+einheitlich erst bei 100 %. Module mit dem Feld bleiben gültig.)*
 
 Drei Fragetypen; alle haben eine **stabile `id` (Pflicht** – die
 Validierung erzwingt sie; der Lernstand speichert Statistiken pro Frage,
