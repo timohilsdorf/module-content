@@ -85,6 +85,63 @@
       "type": "text",
       "title": "Das ökonomische Prinzip: Klug mit Knappheit umgehen",
       "body": "Weil unsere Mittel knapp sind, versuchen Menschen, sie möglichst **vernünftig** einzusetzen. Diese Grundregel heisst das **ökonomische Prinzip**. Es hat zwei Varianten – je nachdem, was feststeht:\n\n- **Maximalprinzip:** Die Mittel stehen fest, und du willst damit **möglichst viel** erreichen. Beispiel: Du hast 10 Franken Znüni-Geld für die ganze Woche und willst damit so gut wie möglich durchkommen. Oder: Du hast heute eine Stunde Lernzeit und willst möglichst viel vom Stoff verstehen.\n- **Minimalprinzip:** Das Ziel steht fest, und du willst es mit **möglichst wenig** Mitteln erreichen. Beispiel: Du willst unbedingt das Konzertticket – und suchst dafür den günstigsten Vorverkauf. Oder: Du willst genau die 30 Wörter für den Französischtest können – mit möglichst wenig Lernaufwand.\n\nWichtig: Es gilt immer **entweder – oder**. «Mit möglichst wenig Mitteln möglichst viel erreichen» tönt zwar schlau, funktioniert aber nicht: Eine Seite – Mittel oder Ziel – muss feststehen, sonst kannst du gar nicht entscheiden.\n\nDas ökonomische Prinzip begegnet dir überall: beim Einkaufen, beim Lernen, beim Gamen (mit einem einzigen Leben möglichst weit kommen) – und später im Beruf. Wer es kennt, trifft bewusstere Entscheidungen mit Geld und Zeit."
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-beduerfnisse-und-gueter",
+      "title": "Bedürfnisse und Güter: Setze die Begriffe ein",
+      "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Alle Menschen haben Wünsche – die Wirtschaft nennt sie {{1}}. Essen, Trinken, Schlaf und ein Dach über dem Kopf sind {{2}}: Ohne sie können wir nicht überleben. Wünsche, die in unserer Gesellschaft zum normalen Alltag gehören – etwa ein Handy oder ein Kinobesuch –, heissen Grund- oder {{3}}. Was weit darüber hinausgeht, zum Beispiel eine Designeruhr, ist ein {{4}}.\nBetrifft ein Bedürfnis nur dich allein, ist es ein {{5}} Bedürfnis. Brauchen viele Menschen etwas gemeinsam – wie Schulen oder sichere Strassen –, spricht man von einem {{6}} Bedürfnis.\nErfüllt werden Bedürfnisse durch Güter. Güter wie Luft und Sonnenlicht sind unbegrenzt vorhanden und kosten nichts: Man nennt sie {{7}} Güter. Die meisten Güter sind aber begrenzt und haben einen Preis: Sie heissen {{8}} Güter oder Wirtschaftsgüter. Dinge zum Anfassen wie ein Velo sind {{9}}, Tätigkeiten wie ein Haarschnitt sind {{10}}.",
+      "luecken": [
+        { "antworten": ["Bedürfnisse"] },
+        { "antworten": ["Existenzbedürfnisse"] },
+        { "antworten": ["Kulturbedürfnisse"] },
+        { "antworten": ["Luxusbedürfnis"] },
+        { "antworten": ["individuelles"] },
+        { "antworten": ["kollektiven"] },
+        { "antworten": ["freie"] },
+        { "antworten": ["knappe"] },
+        { "antworten": ["Sachgüter"] },
+        { "antworten": ["Dienstleistungen"] }
+      ],
+      "ablenker": ["Träume", "teure", "Luxusgüter"]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-oekonomisches-prinzip",
+      "title": "Knappheit und das ökonomische Prinzip: Tippe die Begriffe ein",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Unsere Bedürfnisse sind praktisch unbegrenzt, unsere Mittel wie Geld und Zeit sind {{1}}. Deshalb müssen wir ständig auswählen und einteilen – genau das nennt man {{2}}.\nWer mit fest vorgegebenen Mitteln möglichst {{3}} erreichen will, handelt nach dem Maximalprinzip. Wer ein festes Ziel mit möglichst {{4}} Mitteln erreichen will, handelt nach dem Minimalprinzip. Beide Varianten zusammen nennt man das {{5}} Prinzip.",
+      "luecken": [
+        { "antworten": ["knapp", "begrenzt", "beschränkt", "beschraenkt", "rar"] },
+        { "antworten": ["wirtschaften", "haushalten", "Wirtschaften"] },
+        { "antworten": ["viel", "vieles", "am meisten"] },
+        { "antworten": ["wenig", "wenigen", "geringen", "kleinen"] },
+        { "antworten": ["ökonomische", "oekonomische", "wirtschaftliche"] }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-alltagsbeispiele",
+      "title": "Zuordnen: Alltagsbeispiele und ihre Kategorien",
+      "intro": "Ordne jedem Beispiel die passende Kategorie zu – bei den Bedürfnissen: Existenz-, Kultur- oder Luxusbedürfnis, bei den Gütern: freies Gut, Sachgut oder Dienstleistung. Jede Kategorie kommt mehrmals in der Auswahl vor. **Ein Begriff passt nirgends.**",
+      "modus": "wortbank",
+      "text": "Welche Bedürfnisart ist das?\nGenug zu essen und zu trinken haben: {{1}}\nAm Wochenende ein Kinobesuch mit Freundinnen und Freunden: {{2}}\nEine Designer-Sonnenbrille für 900 Franken: {{3}}\nIm Winter eine warme Wohnung haben: {{4}}\nMusik hören und ein Instrument spielen: {{5}}\n\nWelche Güterart ist das?\nDie Luft zum Atmen: {{6}}\nDein Velo: {{7}}\nDer Haarschnitt beim Coiffeur: {{8}}\nDas Sonnenlicht im Sommer: {{9}}\nDie Busfahrt zur Schule: {{10}}",
+      "luecken": [
+        { "antworten": ["Existenzbedürfnis"] },
+        { "antworten": ["Kulturbedürfnis"] },
+        { "antworten": ["Luxusbedürfnis"] },
+        { "antworten": ["Existenzbedürfnis"] },
+        { "antworten": ["Kulturbedürfnis"] },
+        { "antworten": ["freies Gut"] },
+        { "antworten": ["Sachgut"] },
+        { "antworten": ["Dienstleistung"] },
+        { "antworten": ["freies Gut"] },
+        { "antworten": ["Dienstleistung"] }
+      ],
+      "ablenker": ["kollektives Bedürfnis"]
     }
   ]
 }
