@@ -143,5 +143,157 @@
       ],
       "ablenker": ["kollektives Bedürfnis"]
     }
-  ]
+  ],
+  "quiz": {
+    "title": "Quiz: Bedürfnisse, Güter und das ökonomische Prinzip",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "prompt": "Warum müssen Menschen überhaupt wirtschaften?",
+        "options": [
+          {
+            "text": "Weil die Bedürfnisse praktisch unbegrenzt sind, die Mittel aber knapp – wir müssen also auswählen.",
+            "correct": true
+          },
+          {
+            "text": "Weil die meisten Menschen zu wenig verdienen – wer reich ist, muss nicht wirtschaften."
+          },
+          {
+            "text": "Weil der Staat vorschreibt, wie viel jede Person ausgeben darf."
+          },
+          {
+            "text": "Weil Geld allein nicht glücklich macht und man deshalb bescheiden leben sollte."
+          }
+        ],
+        "explanation": "Knappheit betrifft alle Menschen – auch sehr reiche: Spätestens ihre Zeit ist begrenzt, und sie müssen wählen, wofür sie sie einsetzen. Wirtschaften heisst, knappe Mittel überlegt einzusetzen, weil nie alles für alle Wünsche reicht. Mit staatlichen Vorschriften oder Bescheidenheit als Lebenshaltung hat der Begriff nichts zu tun."
+      },
+      {
+        "id": "q2",
+        "type": "single_choice",
+        "prompt": "Essen, Trinken und ein Dach über dem Kopf gehören zu den …",
+        "options": [
+          {
+            "text": "Existenzbedürfnissen",
+            "correct": true
+          },
+          {
+            "text": "Kulturbedürfnissen"
+          },
+          {
+            "text": "Luxusbedürfnissen"
+          },
+          {
+            "text": "kollektiven Bedürfnissen"
+          }
+        ],
+        "explanation": "Existenzbedürfnisse sind überlebensnotwendig – ohne Essen, Trinken und Schutz geht es nicht. Kultur- und Luxusbedürfnisse bauen darauf auf. Und «kollektiv» beschreibt nicht, wie dringend ein Bedürfnis ist, sondern dass viele Menschen es nur gemeinsam erfüllen können – das ist eine andere Einteilung."
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "prompt": "Was macht ein Bedürfnis zu einem Luxusbedürfnis?",
+        "options": [
+          {
+            "text": "Es geht weit über das hinaus, was in einer Gesellschaft üblich ist – und hängt damit von Situation, Ort und Zeit ab.",
+            "correct": true
+          },
+          {
+            "text": "Es kostet mehr als 1000 Franken."
+          },
+          {
+            "text": "Es ist für alle Menschen auf der Welt und zu jeder Zeit dasselbe."
+          },
+          {
+            "text": "Es ist jedes Bedürfnis, das man sich nicht sofort leisten kann."
+          }
+        ],
+        "explanation": "Luxus ist keine feste Preisgrenze und auch nicht einfach «zu teuer für mich». Massstab ist, was in einer Gesellschaft üblich ist – und das verändert sich: Die warme Dusche war vor 150 Jahren Luxus und ist heute normal; das eigene Auto ist bei uns verbreitet, in ärmeren Ländern Luxus."
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "prompt": "Welches der folgenden Beispiele ist ein kollektives Bedürfnis?",
+        "options": [
+          {
+            "text": "Sichere Strassen und Schulen für alle",
+            "correct": true
+          },
+          {
+            "text": "Dein Wunsch nach einem eigenen Zimmer"
+          },
+          {
+            "text": "Dein Znüni in der grossen Pause"
+          },
+          {
+            "text": "Das neue Handy, das du dir wünschst"
+          }
+        ],
+        "explanation": "Kollektive Bedürfnisse haben viele Menschen gemeinsam, und niemand kann sie allein erfüllen – deshalb kümmern sich meist Staat und Gemeinden darum. Eigenes Zimmer, Znüni und Handy betreffen dagegen dich allein: Das sind individuelle Bedürfnisse."
+      },
+      {
+        "id": "q5",
+        "type": "single_choice",
+        "prompt": "Warum ist die Luft zum Atmen ein freies Gut, Trinkwasser in der Wüste aber ein knappes Gut?",
+        "options": [
+          {
+            "text": "Luft ist (fast) unbegrenzt vorhanden; Trinkwasser ist in der Wüste im Verhältnis zum Bedarf sehr begrenzt – ob ein Gut frei oder knapp ist, hängt von der Situation ab.",
+            "correct": true
+          },
+          {
+            "text": "Weil Wasser für den Menschen wichtiger ist als Luft."
+          },
+          {
+            "text": "Weil niemand das Recht hat, Luft zu verkaufen."
+          },
+          {
+            "text": "Weil Wasser in der Wüste besonders aufwendig hergestellt werden muss."
+          }
+        ],
+        "explanation": "Ob ein Gut frei oder knapp ist, entscheidet die verfügbare Menge im Verhältnis zum Bedarf – nicht die Wichtigkeit: Luft ist lebenswichtig UND trotzdem frei, weil (fast) unbegrenzt vorhanden. In der Wüste ist Wasser schlicht kaum verfügbar; mit Verkaufsrechten oder Herstellungskosten hat die Einteilung nichts zu tun."
+      },
+      {
+        "id": "q6",
+        "type": "single_choice",
+        "prompt": "Du bezahlst jeden Monat für ein Streaming-Abo. Was kaufst du dabei?",
+        "options": [
+          {
+            "text": "Eine Dienstleistung – du bezahlst für den Dienst, Filme und Serien ansehen zu dürfen.",
+            "correct": true
+          },
+          {
+            "text": "Ein Sachgut – schliesslich kannst du das Handy anfassen, auf dem du schaust."
+          },
+          {
+            "text": "Ein freies Gut – im Probemonat ist es ja gratis."
+          },
+          {
+            "text": "Ein kollektives Bedürfnis – weil Millionen Menschen dasselbe Abo haben."
+          }
+        ],
+        "explanation": "Beim Streaming kaufst du kein Ding, sondern eine Tätigkeit bzw. einen Dienst – eine Dienstleistung. Das Handy ist ein separates Sachgut. «Gratis im Probemonat» macht daraus kein freies Gut: Das Angebot ist begrenzt und wird normalerweise bezahlt. Und ein Bedürfnis ist etwas anderes als das Gut, das es erfüllt."
+      },
+      {
+        "id": "q7",
+        "type": "single_choice",
+        "prompt": "Du hast genau 10 Franken Znüni-Geld für diese Woche und willst damit möglichst gut durch die Woche kommen. Nach welchem Prinzip handelst du?",
+        "options": [
+          {
+            "text": "Nach dem Maximalprinzip: Die Mittel stehen fest, und du willst damit möglichst viel erreichen.",
+            "correct": true
+          },
+          {
+            "text": "Nach dem Minimalprinzip: Es geht ja darum, möglichst wenig Geld auszugeben."
+          },
+          {
+            "text": "Nach beiden gleichzeitig: möglichst viel erreichen mit möglichst wenig Mitteln."
+          },
+          {
+            "text": "Nach gar keinem Prinzip: Bei so kleinen Beträgen kann man nicht wirtschaften."
+          }
+        ],
+        "explanation": "Die Mittel (10 Franken) stehen fest, und du willst das Beste herausholen – das ist das Maximalprinzip. Das Minimalprinzip wäre umgekehrt: ein festes Ziel (z. B. jeden Tag ein Sandwich) mit möglichst wenig Geld erreichen. «Beides gleichzeitig» funktioniert nicht – eine Seite muss feststehen. Und wirtschaften kann man mit jedem Betrag, egal wie klein."
+      }
+    ]
+  }
 }
