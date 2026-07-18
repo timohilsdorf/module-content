@@ -8,6 +8,7 @@
   "cycle": 3,
   "grades": "8.–9. Klasse (Sek I)",
   "language": "de",
+  "curriculum": "LiLe",
   "durationMinutes": 90,
   "difficulty": "mittel",
   "keywords": [
@@ -91,6 +92,21 @@
       "body": "Historikerinnen und Historiker fragen nicht nur «Was ist passiert?», sondern vor allem «**Warum** ist es passiert – und **was folgte daraus**?». Ein starkes Werkzeug dafür ist die **Ursache-Wirkungs-Kette**: Du schreibst ein Ereignis auf, fragst «Was folgt daraus?» und zeichnest einen Pfeil zur Folge. Diese Folge ist selbst wieder eine Ursache – also wieder ein Pfeil. So entsteht Glied für Glied eine Kette.\n\n**Beispiel 1 – die Inflations-Kette:**\n\n```\nVersailler Vertrag (1919)\n   → Deutschland muss hohe Reparationen zahlen\n   → der Staat druckt immer mehr Geld\n   → Hyperinflation 1923: das Geld wird wertlos\n   → Ersparnisse sind vernichtet\n   → viele verlieren das Vertrauen in die Demokratie\n```\n\nLies die Kette laut und prüfe bei jedem Pfeil: Ergibt der Schritt Sinn? Könnte man ihn jemandem erklären, der nichts über die Zeit weiss? Genau das ist der Test für eine gute Kette.\n\n**Beispiel 2 – der Kreislauf:** Manchmal beisst sich die Kette in den eigenen Schwanz – dann sprechen wir von einem **Teufelskreis**. So bei der Sparpolitik von Reichskanzler Brüning ab 1930:\n\n```\nStaat spart (kürzt Löhne, Renten, Ausgaben)\n   → die Menschen haben weniger Geld zum Ausgeben (weniger Kaufkraft)\n   → Firmen verkaufen weniger und entlassen Personal (mehr Arbeitslose)\n   → der Staat nimmt weniger Steuern ein\n   → der Staat spart noch mehr … und der Kreis beginnt von vorn\n```\n\nEin Kreislauf hört nicht von selbst auf – er verstärkt sich mit jeder Runde. Deshalb wurde die Krise ab 1930 immer schlimmer, obwohl (oder gerade weil) die Regierung «vernünftig» sparte."
     },
     {
+      "type": "lueckentext",
+      "id": "lt-l1-inflationskette",
+      "title": "Level 1 – Mini-Übung: Die Inflations-Kette",
+      "intro": "Übe direkt am erklärten Beispiel: Ziehe die Begriffe an die richtige Stelle der Kette (am Handy: erst Wort antippen, dann Lücke). Zwei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Versailler Vertrag (1919)\n→ Deutschland muss hohe {{1}} zahlen\n→ der Staat druckt immer mehr {{2}}\n→ {{3}} 1923: das Geld wird wertlos\n→ Ersparnisse sind vernichtet\n→ viele verlieren das Vertrauen in die {{4}}",
+      "luecken": [
+        { "antworten": ["Reparationen"] },
+        { "antworten": ["Geld"] },
+        { "antworten": ["Hyperinflation"] },
+        { "antworten": ["Demokratie"] }
+      ],
+      "ablenker": ["Zölle", "Aktien"]
+    },
+    {
       "type": "tasks",
       "title": "Level 1 – Aufgaben: Ketten nachvollziehen",
       "tasks": [
@@ -112,29 +128,47 @@
       ]
     },
     {
-      "type": "tasks",
-      "title": "Level 2 – Aufgaben: Elemente richtig zuordnen",
-      "tasks": [
-        {
-          "prompt": "Was gehört an die Stelle «???» in dieser Kette?\n\nBörsencrash in New York (Oktober 1929) → ??? → deutsche Banken und Firmen gehen bankrott → Massenarbeitslosigkeit\n\na) Hyperinflation: das Geld wird wertlos\nb) Die amerikanischen Banken ziehen ihre Kredite aus Deutschland ab\nc) Der Staat führt die Rentenmark ein",
-          "hint": "Der deutsche Aufschwung der «Goldenen Zwanziger» war auf Pump gebaut. Woher kam das geliehene Geld – und was passiert, wenn der Geldgeber es plötzlich zurückverlangt?",
-          "solution": "Richtig ist b). Die amerikanischen Banken brauchten nach dem Crash ihr Geld zurück und zogen die kurzfristigen Kredite aus Deutschland ab. Ohne dieses Geld konnten viele deutsche Banken und Firmen ihre Rechnungen nicht mehr bezahlen und gingen bankrott. (a ist falsch: Die Hyperinflation war 1923, sechs Jahre vor dem Crash. c ist falsch: Die Rentenmark beendete 1923 die Inflation, sie ist keine Folge des Crashs.)"
-        },
-        {
-          "prompt": "Was gehört an die Stelle «???» in dieser Kette?\n\nVersailler Vertrag → hohe Reparationen → ??? → Hyperinflation 1923\n\na) Der Staat druckt immer mehr Geld\nb) Börsencrash in New York\nc) Liechtenstein schliesst den Zollvertrag mit der Schweiz",
-          "hint": "Wie versuchte der deutsche Staat, an das Geld für die Reparationen zu kommen, obwohl die Staatskasse leer war?",
-          "solution": "Richtig ist a). Um Reparationen und Schulden zu bezahlen, liess der Staat immer mehr Geld drucken – dadurch verlor das Geld rasend schnell an Wert. (b passt zeitlich nicht: Der Crash war 1929. c betrifft Liechtenstein und ist eine Folge der Kronen-Inflation, kein Glied dieser deutschen Kette.)"
-        },
-        {
-          "prompt": "Bringe diese vier Ereignisse in die richtige Reihenfolge einer Ursache-Wirkungs-Kette:\n\nA) Wahlerfolge der NSDAP\nB) Börsencrash in New York\nC) Ernennung Hitlers zum Reichskanzler\nD) Massenarbeitslosigkeit in Deutschland",
-          "hint": "Hänge an jedes Ereignis eine Jahreszahl: Crash 1929, über sechs Millionen Arbeitslose Anfang 1932, NSDAP-Wahlerfolge 1930–1932, Hitler Reichskanzler am 30. Januar 1933.",
-          "solution": "Richtige Reihenfolge: B → D → A → C. Also: Börsencrash (1929) → Massenarbeitslosigkeit (bis 1932 über sechs Millionen) → Wahlerfolge der NSDAP (1930: 18,3 %; Juli 1932: 37,3 %) → Ernennung Hitlers zum Reichskanzler (30. Januar 1933)."
-        },
-        {
-          "prompt": "Setze die drei Begriffe an die richtigen Stellen im Teufelskreis Brünings:\n\nStaat spart → ??? (1) → ??? (2) → ??? (3) → Staat spart noch mehr\n\nBegriffe: mehr Arbeitslose / weniger Steuereinnahmen / weniger Kaufkraft",
-          "hint": "Frage dich bei jedem Schritt: Was folgt unmittelbar daraus? Wenn der Staat Löhne und Renten kürzt – was haben die Menschen dann zuerst weniger?",
-          "solution": "(1) weniger Kaufkraft, (2) mehr Arbeitslose, (3) weniger Steuereinnahmen. Vollständig: Staat spart → weniger Kaufkraft (die Menschen können weniger kaufen) → mehr Arbeitslose (Firmen verkaufen weniger und entlassen) → weniger Steuereinnahmen (Arbeitslose zahlen kaum Steuern) → Staat spart noch mehr."
-        }
+      "type": "lueckentext",
+      "id": "lt-l2-krisenkette",
+      "title": "Level 2 – Zuordnen: Die Krisen-Kette 1929–1933",
+      "intro": "Jetzt ohne Erklärtext daneben: Ziehe die fehlenden Kettenglieder an die richtige Stelle. **Achtung:** Zwei Elemente in der Auswahl gehören gar nicht in diese Kette – sie stammen aus einer anderen Zeit. Die Jahreszahlen helfen dir.",
+      "modus": "wortbank",
+      "text": "Börsencrash in New York (Oktober 1929)\n→ {{1}}\n→ deutsche Banken und Firmen gehen bankrott\n→ {{2}} (Anfang 1932 über sechs Millionen)\n→ Not, Angst und Wut: viele radikalisieren sich\n→ {{3}} (1930: 18,3 %, Juli 1932: 37,3 %)\n→ Ernennung Hitlers zum Reichskanzler (30. Januar 1933)",
+      "luecken": [
+        { "antworten": ["Die USA ziehen ihre Kredite aus Deutschland ab"] },
+        { "antworten": ["Massenarbeitslosigkeit"] },
+        { "antworten": ["Wahlerfolge der NSDAP"] }
+      ],
+      "ablenker": ["Hyperinflation: das Geld wird wertlos", "Einführung der Rentenmark"]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-l2-teufelskreis",
+      "title": "Level 2 – Zuordnen: Der Teufelskreis Brünings",
+      "intro": "Setze die drei Stationen an die richtige Stelle im Kreislauf. Frage dich bei jedem Schritt: Was folgt **unmittelbar** daraus? Auch hier passen zwei Wörter in der Auswahl nirgends.",
+      "modus": "wortbank",
+      "text": "Staat spart (kürzt Löhne, Renten, Ausgaben)\n→ {{1}}\n→ {{2}}\n→ {{3}}\n→ der Staat spart noch mehr … und der Kreis beginnt von vorn",
+      "luecken": [
+        { "antworten": ["weniger Kaufkraft"] },
+        { "antworten": ["mehr Arbeitslose"] },
+        { "antworten": ["weniger Steuereinnahmen"] }
+      ],
+      "ablenker": ["höhere Löhne", "mehr Steuereinnahmen"]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-l3-kettenglieder",
+      "title": "Level 3 – Zwischenschritt: Formuliere die Kettenglieder selbst",
+      "intro": "Bevor du gleich eine eigene Skizze zeichnest: Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle. Tipp: Beginne beim Auslöser und frage bei jedem Pfeil: Was folgt daraus?",
+      "modus": "eingabe",
+      "text": "Börsencrash in New York (Oktober 1929)\n→ die USA ziehen ihre {{1}} aus Deutschland ab\n→ deutsche Banken und Firmen gehen {{2}}\n→ über sechs Millionen Menschen sind {{3}}\n→ Not, Angst und Wut: viele Menschen {{4}} sich\n→ Wahlerfolge der {{5}}\n→ Ernennung Hitlers zum {{6}} (30. Januar 1933)",
+      "luecken": [
+        { "antworten": ["Kredite", "Darlehen", "Gelder"] },
+        { "antworten": ["bankrott", "pleite", "in Konkurs", "Konkurs"] },
+        { "antworten": ["arbeitslos", "ohne Arbeit", "erwerbslos"] },
+        { "antworten": ["radikalisieren"] },
+        { "antworten": ["NSDAP", "Nationalsozialisten"] },
+        { "antworten": ["Reichskanzler", "Kanzler"] }
       ]
     },
     {
@@ -161,29 +195,7 @@
   ],
   "quiz": {
     "title": "Quiz: Hast du die Ketten im Griff?",
-    "passingScorePercent": 60,
     "questions": [
-      {
-        "id": "q1",
-        "type": "single_choice",
-        "prompt": "Was gehört an die Stelle «???» in dieser Kette: Börsencrash 1929 → ??? → deutsche Firmen gehen bankrott → Massenarbeitslosigkeit?",
-        "options": [
-          {
-            "text": "Die amerikanischen Banken ziehen ihre Kredite aus Deutschland ab",
-            "correct": true
-          },
-          {
-            "text": "Der Staat druckt immer mehr Geld"
-          },
-          {
-            "text": "Die Rentenmark wird eingeführt"
-          },
-          {
-            "text": "Der Versailler Vertrag wird unterzeichnet"
-          }
-        ],
-        "explanation": "Der deutsche Aufschwung der «Goldenen Zwanziger» war mit kurzfristigen US-Krediten finanziert. Nach dem Crash zogen die amerikanischen Banken dieses Geld ab – deutschen Banken und Firmen fehlte es sofort. Das Gelddrucken gehört zur Inflations-Kette von 1923, nicht hierher."
-      },
       {
         "id": "q2",
         "type": "single_choice",
@@ -263,27 +275,6 @@
         "prompt": "Liechtenstein führte 1924 den Schweizer Franken ein, nachdem die österreichische Krone durch die Inflation nach dem Ersten Weltkrieg massiv entwertet worden war.",
         "answer": true,
         "explanation": "Richtig – und das ist eine eigene kleine Ursache-Wirkungs-Kette: Kronen-Inflation → Ersparnisse in Liechtenstein entwertet → Abwendung von Österreich → Zollvertrag mit der Schweiz (1923) → offizielle Einführung des Schweizer Frankens (1924). Die stabile Währung wurde zu einem Grundstein für Liechtensteins spätere Entwicklung."
-      },
-      {
-        "id": "q7",
-        "type": "single_choice",
-        "prompt": "Welche Reihenfolge dieser Ereignisse ist die richtige Ursache-Wirkungs-Kette?",
-        "options": [
-          {
-            "text": "Börsencrash → Massenarbeitslosigkeit → Wahlerfolge der NSDAP → Ernennung Hitlers zum Reichskanzler",
-            "correct": true
-          },
-          {
-            "text": "Massenarbeitslosigkeit → Börsencrash → Ernennung Hitlers zum Reichskanzler → Wahlerfolge der NSDAP"
-          },
-          {
-            "text": "Wahlerfolge der NSDAP → Börsencrash → Massenarbeitslosigkeit → Ernennung Hitlers zum Reichskanzler"
-          },
-          {
-            "text": "Börsencrash → Wahlerfolge der NSDAP → Massenarbeitslosigkeit → Ernennung Hitlers zum Reichskanzler"
-          }
-        ],
-        "explanation": "Die Jahreszahlen geben die Richtung vor: Börsencrash (Oktober 1929) → Massenarbeitslosigkeit (über sechs Millionen Anfang 1932) → Wahlerfolge der NSDAP (18,3 % im Jahr 1930, 37,3 % im Juli 1932) → Ernennung Hitlers zum Reichskanzler (30. Januar 1933). Arbeitslosigkeit und NSDAP-Erfolge wuchsen dabei parallel – die Not trieb die Radikalisierung an."
       }
     ]
   }
