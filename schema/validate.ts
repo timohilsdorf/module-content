@@ -22,7 +22,7 @@ import {
   isKnownBlock,
   KNOWN_BLOCK_TYPES,
   knownBlockSchema,
-  moduleSchema,
+  parseModulDatei,
   type LearningModule,
 } from "./schema";
 
@@ -351,7 +351,9 @@ function checkModule(
     ...mod.blocks.flatMap((b) =>
       isKnownBlock(b) && b.type === "tasks" ? b.tasks.map((t) => t.id ?? null) : [],
     ),
-    ...(mod.quiz?.questions.map((q) => q.id ?? null) ?? []),
+    ...mod.blocks.flatMap((b) =>
+      isKnownBlock(b) && b.type === "quiz" ? b.questions.map((q) => q.id ?? null) : [],
+    ),
   ].filter((id): id is string => id !== null);
   const duplicates = ids.filter((id, i) => ids.indexOf(id) !== i);
   for (const dup of [...new Set(duplicates)]) {
@@ -361,12 +363,15 @@ function checkModule(
   // --- Quizfragen brauchen stabile ids -------------------------------------
   // Der Lernstand speichert Statistiken pro Frage – ohne id würde bei
   // Umsortierungen die Statistik verschiedener Fragen vermischt.
-  mod.quiz?.questions.forEach((q, i) => {
-    if (!q.id) {
-      errors.push(
-        `Quizfrage ${i + 1} hat keine "id". Stabile ids sind Pflicht (z. B. "q${i + 1}"), damit Lernstatistiken bei Content-Änderungen korrekt bleiben.`,
-      );
-    }
+  mod.blocks.forEach((b, i) => {
+    if (!isKnownBlock(b) || b.type !== "quiz") return;
+    b.questions.forEach((q, j) => {
+      if (!q.id) {
+        errors.push(
+          `blocks.${i} (Quiz): Frage ${j + 1} hat keine "id". Stabile ids sind Pflicht (z. B. "q${j + 1}"), damit Lernstatistiken bei Content-Änderungen korrekt bleiben.`,
+        );
+      }
+    });
   });
 
   // --- requires soll auf existierende Module zeigen (Warnung) --------------
@@ -441,7 +446,9 @@ for (const slug of slugs) {
     continue;
   }
 
-  const parsed = moduleSchema.safeParse(raw);
+  // Versioniertes Einlesen: Version-1-Dateien (Quiz als Sonderfeld)
+  // bleiben gültig und werden verlustfrei migriert (parseModulDatei).
+  const parsed = parseModulDatei(raw);
   if (!parsed.success) {
     console.error(`✗ ${slug}\n${describeIssues(raw, parsed.error).join("\n")}`);
     failed++;
@@ -461,9 +468,12 @@ for (const slug of slugs) {
     console.error(`✗ ${slug}`);
     for (const e of errors) console.error(`  - ${e}`);
   } else {
-    const quizInfo = parsed.data.quiz
-      ? `${parsed.data.quiz.questions.length} Quizfragen`
-      : "kein Quiz";
+    const fragen = parsed.data.blocks.reduce(
+      (summe, b) =>
+        summe + (isKnownBlock(b) && b.type === "quiz" ? b.questions.length : 0),
+      0,
+    );
+    const quizInfo = fragen > 0 ? `${fragen} Quizfragen` : "kein Quiz";
     console.log(`✓ ${slug} – ${parsed.data.blocks.length} Blöcke, ${quizInfo}`);
   }
   for (const h of hints) console.log(`  ℹ ${h}`);
