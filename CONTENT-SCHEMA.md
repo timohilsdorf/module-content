@@ -1,4 +1,4 @@
-# EveryCate Content-Schema (Version 1)
+# EveryCate Content-Schema (Version 2)
 
 Dieses Dokument beschreibt das dateibasierte Format für Lernmodule –
 vollständig genug, dass **Menschen und KIs** damit eigenständig gültige
@@ -14,6 +14,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 1 | initial | Grundformat: Blöcke `text`, `image`, `video`, `tasks`; Quiz mit drei Fragetypen. |
 | 1 | Juli 2026 | Additiv: neuer, automatisch geprüfter Blocktyp [`lueckentext`](#lueckentext--lückentext-automatisch-geprüft) (Cloze). `schemaVersion` bleibt `1` – bestehende Module sind unverändert gültig; ältere Player-Versionen zeigen für den neuen Block einen Platzhalter. |
 | 1 | Juli 2026 | Additiv: Konzept [«prüfender Block»](#prüfende-blöcke-und-modulabschluss) – Quiz und prüfende Blocktypen (`PRUEFENDE_BLOCK_TYPES` in `schema/schema.ts`, aktuell `lueckentext`) zählen gleichwertig für Modulabschluss, Punkte und Lernrate. Ein Modul braucht kein Quiz mehr; ohne prüfende Elemente gilt es nach dem Durchsehen als abgeschlossen. |
+| 2 | Juli 2026 | **Quiz ist ein regulärer Block** (`type: "quiz"`, Pflicht-`id`): beliebig viele Quizze pro Modul, an beliebiger Position, jedes wird einzeln ausgewertet (Prozent, Punkte, Versuche) und zählt als prüfender Block. Das frühere Sonderfeld `quiz` auf Modulebene entfällt in Version 2. **Version-1-Dateien bleiben gültig** und werden beim Einlesen verlustfrei migriert: Das Sonderfeld wird zum letzten Block mit der `id` `"quiz"` – derselbe Lernstand-Schlüssel, Fortschritt und Reports bleiben kompatibel. Coins gibt es weiterhin einmal pro bestandenem Modul, nicht pro Quiz. |
 
 ## Ablage
 
@@ -53,7 +54,7 @@ Regeln:
 
 ```json
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "mein-modul",
   "title": "Titel des Moduls",
   "description": "1–3 Sätze für den Katalog.",
@@ -75,8 +76,7 @@ Regeln:
   "sources": [{ "title": "…", "url": "https://…" }],
   "license": "CC BY-SA 4.0",
   "requires": [],
-  "blocks": [ … ],
-  "quiz": { … }
+  "blocks": [ …, { "type": "quiz", "id": "quiz", "questions": [ … ] } ]
 }
 ```
 
@@ -84,7 +84,7 @@ Regeln:
 
 | Feld | Pflicht | Typ | Bedeutung |
 |---|---|---|---|
-| `schemaVersion` | ✅ | `1` | Version dieses Formats. Aktuell immer `1`. |
+| `schemaVersion` | ✅ | `2` | Version dieses Formats. Aktuell `2`; Version-1-Dateien bleiben gültig (automatische Migration, siehe Versionsgeschichte). |
 | `id` | ✅ | string | Slug, identisch mit dem Ordnernamen. |
 | `title` | ✅ | string | Modultitel. |
 | `description` | ✅ | string | Kurzbeschreibung für den Katalog (1–3 Sätze). |
@@ -103,8 +103,7 @@ Regeln:
 | `sources` | – | Liste | Verwendete Quellen (`title`, optional `url`); wird im Modul angezeigt. |
 | `license` | – | enum | Lizenz der Inhalte – eine bekannte Schreibweise: `"CC BY-SA 4.0"`, `"CC BY 4.0"`, `"CC BY-SA 3.0"`, `"CC0"` oder `"CC0 1.0"`. Standard für dieses Repo ist `"CC BY-SA 4.0"`. |
 | `requires` | – | string[] | Slugs vorausgesetzter Module (für spätere Lernpfade). |
-| `blocks` | ✅ | Block[] | Inhaltsblöcke in Anzeigereihenfolge, mind. 1. |
-| `quiz` | – | Quiz | Abschlussquiz mit automatischer Auswertung. |
+| `blocks` | ✅ | Block[] | Inhaltsblöcke in Anzeigereihenfolge, mind. 1 (Quiz: als Block vom Typ `quiz`). |
 
 ## Inhaltsblöcke (`blocks`)
 
@@ -263,12 +262,12 @@ Regeln:
 Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
 Typen prüfend sind, steht versioniert im Schema
 ([`schema/schema.ts`](schema/schema.ts), Konstante `PRUEFENDE_BLOCK_TYPES`
-– aktuell `lueckentext`); künftige auto-geprüfte Aufgabentypen werden dort
-eingetragen und zählen dann automatisch.
+– aktuell `lueckentext` und `quiz`); künftige auto-geprüfte Aufgabentypen
+werden dort eingetragen und zählen dann automatisch.
 
-- Ein Modul gilt als **bestanden**, wenn **alle prüfenden Elemente
-  100 % erreicht** haben – jeder Lückentext (alle Lücken richtig) und,
-  falls vorhanden, das Abschlussquiz (alle Punkte). Auch das Quiz selbst
+- Ein Modul gilt als **bestanden**, wenn **alle prüfenden Blöcke
+  100 % erreicht** haben – jeder Lückentext (alle Lücken richtig) und
+  jeder Quizblock (alle Punkte). Auch das Quiz selbst
   meldet «bestanden» erst bei 100 %; darunter zeigt es neutral
   «X % – noch nicht bestanden» mit Wiederholen-Möglichkeit.
   Wiederholen ist unbegrenzt möglich; es zählt der beste je erreichte
@@ -284,8 +283,10 @@ eingetragen und zählen dann automatisch.
 - Enthält ein Modul **gar kein prüfendes Element** (reines Lesemodul),
   gilt es als abgeschlossen, sobald die Inhalte bis zum Ende durchgesehen
   wurden – bewusst ohne Coins (Coins belohnen nachgewiesenes Beherrschen).
-- Der Schlüssel `"quiz"` ist für das Abschlussquiz reserviert – prüfende
-  Blöcke dürfen ihn nicht als `id` tragen (die Validierung lehnt das ab).
+- Die `id` `"quiz"` ist für **Quizblöcke** reserviert (Lernstand-Schlüssel
+  des früheren Abschlussquiz; migrierte Module behalten so ihren
+  Fortschritt) – andere prüfende Blöcke dürfen sie nicht tragen (die
+  Validierung lehnt das ab).
 
 ### Zukünftige Blocktypen (`simulation`, `chat`, …)
 
@@ -308,18 +309,28 @@ freigegeben ist (aktuell `simulation` und `chat`), z. B.:
 registrieren, (4) hier `schema/schema.ts` nachziehen und diese Doku
 ergänzen.
 
-## Quiz (`quiz`)
+## Quiz (`type: "quiz"`)
+
+Seit Schema-Version 2 ein regulärer Inhaltsblock: Er darf **beliebig oft
+und an beliebiger Position** in `blocks` stehen (z. B. ein kurzes Quiz
+nach jedem Kapitel) und wird pro Block einzeln ausgewertet (Prozent,
+Punkte, Versuche). Jeder Quizblock braucht eine eigene stabile `id`.
 
 ```json
 {
+  "type": "quiz",
+  "id": "quiz-kapitel-1",
   "title": "Teste dein Wissen",
+  "intro": "Optionale Einleitung (Markdown).",
   "questions": [ … ]
 }
 ```
 
-*(Das frühere Feld `passingScorePercent` ist **veraltet**: Der Player
-wertet es seit Juli 2026 nicht mehr aus – bestanden ist ein Aufgabenblock
-einheitlich erst bei 100 %. Module mit dem Feld bleiben gültig.)*
+*(Version 1 kannte stattdessen das Sonderfeld `quiz` auf Modulebene –
+solche Dateien bleiben gültig und werden beim Einlesen migriert. Das
+dortige Feld `passingScorePercent` ist **veraltet**: Der Player wertet es
+seit Juli 2026 nicht mehr aus – bestanden ist ein Aufgabenblock
+einheitlich erst bei 100 %.)*
 
 Drei Fragetypen; alle haben eine **stabile `id` (Pflicht** – die
 Validierung erzwingt sie; der Lernstand speichert Statistiken pro Frage,
@@ -376,16 +387,18 @@ Regeln:
 
 ## Checkliste für KI-Autoren
 
-1. Gültiges JSON, `schemaVersion: 1`, `id` = Ordnername.
+1. Gültiges JSON, `schemaVersion: 2`, `id` = Ordnername.
 2. Fach, Zyklus und Kompetenzcodes am **Lehrplan 21** ausrichten
    (Codes im Format `FACH.x.y.z`, z. B. `RZG.4.2.c`).
 3. Lernziele als «Ich kann …»-Sätze.
 4. Blöcke abwechslungsreich sequenzieren: kurzer Einstiegstext → Video oder
-   Bild → vertiefender Text → Lückentext und/oder Aufgaben → Quiz.
+   Bild → vertiefender Text → Lückentext und/oder Aufgaben → Quiz; gern
+   auch mehrere kleine Quizze zwischen den Kapiteln statt eines grossen.
 5. Nur lizenzrechtlich unbedenkliche Bilder/Videos einbetten und Quellen in
    `sources`/`credit` ausweisen; Video-Provider und Bild-Hosts müssen der
    Whitelist entsprechen.
-6. Jede Quizfrage mit eindeutiger `id` und `explanation` versehen.
+6. Jeden Quizblock und jede Quizfrage mit eindeutiger `id` versehen und
+   Fragen mit `explanation` ergänzen.
 7. Zum Schluss `npm run validate` laufen lassen (oder das Modul gegen
    `schema/schema.ts` prüfen).
 

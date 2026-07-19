@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 /**
- * EveryCate Content-Schema (Version 1) – maschinenlesbare Referenz.
+ * EveryCate Content-Schema (Version 2) – maschinenlesbare Referenz.
  *
  * ⚠️ SYNCHRON HALTEN: Diese Datei ist eine Kopie von
  * `src/lib/content/schema.ts` aus dem Plattform-Repository (everycate).
@@ -19,7 +19,18 @@ import { z } from "zod";
 
 // ---- SYNC-BEGINN: ab hier Plattform- und Content-Repo-Kopie byteidentisch halten (CI prüft) ----
 
-export const SCHEMA_VERSION = 1;
+/**
+ * Versionsgeschichte:
+ * - 1 (Juli 2026): Grundformat; Quiz als optionales Sonderfeld `quiz`
+ *   auf Modulebene (genau eines, immer am Schluss gerendert).
+ * - 2 (Juli 2026): Quiz ist ein regulärer Inhaltsblock `type: "quiz"`
+ *   (beliebig oft, beliebige Position, prüfender Block wie der
+ *   Lückentext). Version-1-Dateien bleiben gültig und werden beim
+ *   Parsen VERLUSTFREI migriert (parseModulDatei): Das Sonderfeld wird
+ *   zum letzten Block mit der id "quiz" – derselbe Lernstand-Schlüssel
+ *   wie bisher, Fortschritt/Reports/Coins bleiben kompatibel.
+ */
+export const SCHEMA_VERSION = 2;
 
 /** String, in dem Markdown erlaubt ist (GitHub Flavored Markdown). */
 const markdown = z.string().min(1);
@@ -259,7 +270,7 @@ export const lueckentextBlockSchema = z
         code: "custom",
         path: ["id"],
         message:
-          'Lückentext: Die id "quiz" ist für das Abschlussquiz reserviert – bitte eine andere id wählen.',
+          'Lückentext: Die id "quiz" ist für Quizblöcke reserviert (Lernstand-Schlüssel des früheren Abschlussquiz) – bitte eine andere id wählen.',
       });
     }
 
@@ -329,39 +340,7 @@ export const lueckentextBlockSchema = z
     });
   });
 
-export const knownBlockSchema = z.discriminatedUnion("type", [
-  textBlockSchema,
-  imageBlockSchema,
-  videoBlockSchema,
-  tasksBlockSchema,
-  lueckentextBlockSchema,
-]);
-
-export const KNOWN_BLOCK_TYPES = [
-  "text",
-  "image",
-  "video",
-  "tasks",
-  "lueckentext",
-] as const;
-
-/**
- * Zukunfts-Blöcke ("simulation", "chat", …): jedes Objekt mit einem `type`,
- * der (noch) nicht implementiert ist. Wird vom Player als Platzhalter
- * angezeigt statt den Build zu brechen.
- */
-export const unknownBlockSchema = z
-  .looseObject({ type: z.string().min(1) })
-  .refine(
-    (b) => !(KNOWN_BLOCK_TYPES as readonly string[]).includes(b.type),
-    { message: "Bekannter Blocktyp hat die Detail-Validierung nicht bestanden." },
-  );
-
-export const blockSchema = z.union([knownBlockSchema, unknownBlockSchema]);
-
-// ---------------------------------------------------------------------------
-// Quiz
-// ---------------------------------------------------------------------------
+// --- Quiz (Fragen + Quizblock), automatisch geprüft ------------------------
 
 const questionBase = {
   id: z.string().optional(),
@@ -411,6 +390,12 @@ export const questionSchema = z.discriminatedUnion("type", [
   trueFalseQuestionSchema,
 ]);
 
+/**
+ * NUR NOCH SCHEMA-VERSION 1 (siehe moduleV1Schema): das frühere
+ * Quiz-Sonderfeld auf Modulebene. Seit Version 2 ist das Quiz ein
+ * regulärer Block (quizBlockSchema); parseModulDatei migriert alte
+ * Dateien verlustfrei.
+ */
 export const quizSchema = z.strictObject({
   title: z.string().optional(),
   /**
@@ -423,13 +408,76 @@ export const quizSchema = z.strictObject({
   questions: z.array(questionSchema).min(1),
 });
 
+/**
+ * Quiz als regulärer Inhaltsblock (Schema-Version 2): darf beliebig oft
+ * und an beliebiger Position vorkommen und wird pro Block einzeln
+ * ausgewertet (Prozent, Punkte, Versuche). Jeder Quizblock ist ein
+ * PRÜFENDER Block – das Modul gilt erst als bestanden, wenn alle
+ * prüfenden Blöcke 100 % erreicht haben; die Coins gibt es weiterhin
+ * einmal pro bestandenem Modul, nicht pro Quiz.
+ */
+export const quizBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("quiz"),
+    /** Optionale Einleitung über den Fragen, Markdown erlaubt. */
+    intro: markdown.optional(),
+    questions: z.array(questionSchema).min(1),
+  })
+  .superRefine((block, ctx) => {
+    // Stabile id ist Pflicht (wie beim Lückentext): Lernstand und
+    // Coin-Vergabe speichern Ergebnisse pro Block. Die id "quiz" ist
+    // hier ERLAUBT – sie ist der historische Schlüssel des früheren
+    // Abschlussquiz (migrierte Module behalten so ihren Lernstand).
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Quiz: Der Block braucht eine stabile "id" (z. B. "quiz1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    }
+  });
+
+export const knownBlockSchema = z.discriminatedUnion("type", [
+  textBlockSchema,
+  imageBlockSchema,
+  videoBlockSchema,
+  tasksBlockSchema,
+  lueckentextBlockSchema,
+  quizBlockSchema,
+]);
+
+export const KNOWN_BLOCK_TYPES = [
+  "text",
+  "image",
+  "video",
+  "tasks",
+  "lueckentext",
+  "quiz",
+] as const;
+
+/**
+ * Zukunfts-Blöcke ("simulation", "chat", …): jedes Objekt mit einem `type`,
+ * der (noch) nicht implementiert ist. Wird vom Player als Platzhalter
+ * angezeigt statt den Build zu brechen.
+ */
+export const unknownBlockSchema = z
+  .looseObject({ type: z.string().min(1) })
+  .refine(
+    (b) => !(KNOWN_BLOCK_TYPES as readonly string[]).includes(b.type),
+    { message: "Bekannter Blocktyp hat die Detail-Validierung nicht bestanden." },
+  );
+
+export const blockSchema = z.union([knownBlockSchema, unknownBlockSchema]);
+
 // ---------------------------------------------------------------------------
 // Modul
 // ---------------------------------------------------------------------------
 
-export const moduleSchema = z.strictObject({
-  /** Muss SCHEMA_VERSION entsprechen; erlaubt spätere Migrationen. */
-  schemaVersion: z.literal(SCHEMA_VERSION),
+/** Alle Modulfelder ausser schemaVersion (und dem V1-Sonderfeld quiz) –
+ *  gemeinsame Basis für moduleSchema (aktuell) und moduleV1Schema. */
+const modulBasis = {
   /** Eindeutig, nur Kleinbuchstaben/Ziffern/Bindestriche. Muss dem Ordnernamen entsprechen. */
   id: z.string().regex(/^[a-z0-9][a-z0-9-]*$/),
   title: z.string().min(1),
@@ -474,9 +522,35 @@ export const moduleSchema = z.strictObject({
     .optional(),
   /** Slugs von Modulen, die inhaltlich vorausgesetzt werden. */
   requires: z.array(z.string()).default([]),
-  /** Inhaltsblöcke in Anzeigereihenfolge. */
+  /** Inhaltsblöcke in Anzeigereihenfolge (Quiz: als Block, siehe quizBlockSchema). */
   blocks: z.array(blockSchema).min(1),
-  /** Optionales Abschlussquiz mit automatischer Auswertung. */
+};
+
+export const moduleSchema = z.strictObject({
+  /** Muss SCHEMA_VERSION entsprechen; ältere Dateien liest parseModulDatei. */
+  schemaVersion: z.literal(SCHEMA_VERSION),
+  ...modulBasis,
+});
+
+/**
+ * Version 1 kannte den Blocktyp "quiz" nicht – ein Block mit diesem type
+ * war dort ein gültiger ZUKUNFTS-Block (Platzhalter im Player). Damit
+ * solche Dateien gültig bleiben, akzeptiert der V1-Zweig ihn weiterhin
+ * lose; die Migration macht daraus einen echten Quizblock (wenn die
+ * Form passt) oder erhält das Platzhalter-Verhalten (Typ "quiz-v1").
+ */
+const quizArtigerV1Block = z.looseObject({ type: z.literal("quiz") });
+
+/**
+ * Schema-Version 1 (bis Juli 2026): identisch bis auf das
+ * Quiz-Sonderfeld auf Modulebene. Bestehende Dateien bleiben gültig –
+ * parseModulDatei migriert sie beim Einlesen verlustfrei auf Version 2.
+ */
+export const moduleV1Schema = z.strictObject({
+  schemaVersion: z.literal(1),
+  ...modulBasis,
+  blocks: z.array(z.union([blockSchema, quizArtigerV1Block])).min(1),
+  /** Optionales Abschlussquiz mit automatischer Auswertung (nur Version 1). */
   quiz: quizSchema.optional(),
 });
 
@@ -498,10 +572,92 @@ export type Block = z.infer<typeof blockSchema>;
 export type ChoiceOption = z.infer<typeof choiceOptionSchema>;
 export type Question = z.infer<typeof questionSchema>;
 export type Quiz = z.infer<typeof quizSchema>;
+export type QuizBlock = z.infer<typeof quizBlockSchema>;
 export type LearningModule = z.infer<typeof moduleSchema>;
+export type LearningModuleV1 = z.infer<typeof moduleV1Schema>;
 
 export function isKnownBlock(block: Block): block is KnownBlock {
   return (KNOWN_BLOCK_TYPES as readonly string[]).includes(block.type);
+}
+
+// ---------------------------------------------------------------------------
+// Versioniertes Einlesen (v1 → v2 verlustfrei)
+// ---------------------------------------------------------------------------
+
+/**
+ * Version-1-Modul verlustfrei auf Version 2 heben: Das Quiz-Sonderfeld
+ * wird zum LETZTEN Block mit der id "quiz" – exakt die Position, an der
+ * der Player es bisher gerendert hat, und exakt der Schlüssel, unter dem
+ * der Lernstand die Ergebnisse führt (pruefSchluessel v1). Fortschritt,
+ * Reports und Coin-Vergabe bleiben dadurch unverändert gültig; das
+ * veraltete passingScorePercent entfällt ersatzlos (seit Juli 2026 ohne
+ * Wirkung).
+ */
+export function migriereModulV1(alt: LearningModuleV1): LearningModule {
+  const { quiz, ...rest } = alt;
+  const bloecke: Block[] = rest.blocks.map((block) => {
+    // V1-Blöcke mit type "quiz" waren Zukunfts-Platzhalter: Passt die
+    // Form zufällig zum echten Quizblock, wird er einer – sonst bleibt
+    // das Platzhalter-Verhalten erhalten (Typ "quiz-v1" ist unbekannt).
+    if (block.type === "quiz" && !quizBlockSchema.safeParse(block).success) {
+      return { ...block, type: "quiz-v1" };
+    }
+    // Die id "quiz" ist der reservierte Lernstand-Schlüssel des
+    // migrierten Abschlussquiz – V1 erlaubte sie als blossen Anker auf
+    // anderen Blöcken/Aufgaben; solche Anker werden entfernt (sie waren
+    // nie Lernstand-Schlüssel), sonst kollidierte die ID-Eindeutigkeit.
+    if (quiz && block.type !== "quiz") {
+      const kopie = { ...(block as Block & { id?: string }) };
+      if (kopie.id === "quiz") delete kopie.id;
+      if (kopie.type === "tasks") {
+        const tb = kopie as TasksBlock;
+        tb.tasks = tb.tasks.map((aufgabe) => {
+          if (aufgabe.id !== "quiz") return aufgabe;
+          const ohne = { ...aufgabe };
+          delete ohne.id;
+          return ohne;
+        });
+      }
+      return kopie as Block;
+    }
+    return block as Block;
+  });
+  const blocks = quiz
+    ? [
+        ...bloecke,
+        {
+          type: "quiz" as const,
+          id: "quiz",
+          ...(quiz.title !== undefined ? { title: quiz.title } : {}),
+          questions: quiz.questions,
+        },
+      ]
+    : bloecke;
+  return { ...rest, schemaVersion: SCHEMA_VERSION, blocks };
+}
+
+/**
+ * EINZIGER Einstiegspunkt zum Einlesen einer Moduldatei: versteht die
+ * aktuelle Version UND Version 1 (automatisch migriert) und liefert
+ * immer die aktuelle Form. Loader (Build), Laufzeit-Import lokaler
+ * Module und die Content-Repo-Validierung nutzen alle diese Funktion.
+ */
+export function parseModulDatei(
+  raw: unknown,
+):
+  | { success: true; data: LearningModule }
+  | { success: false; error: z.ZodError } {
+  const version = (raw as { schemaVersion?: unknown } | null)?.schemaVersion;
+  if (version === 1) {
+    const alt = moduleV1Schema.safeParse(raw);
+    return alt.success
+      ? { success: true, data: migriereModulV1(alt.data) }
+      : { success: false, error: alt.error };
+  }
+  const neu = moduleSchema.safeParse(raw);
+  return neu.success
+    ? { success: true, data: neu.data }
+    : { success: false, error: neu.error };
 }
 
 // ---------------------------------------------------------------------------
@@ -509,41 +665,40 @@ export function isKnownBlock(block: Block): block is KnownBlock {
 // ---------------------------------------------------------------------------
 
 /**
- * Konzept «prüfender Block» (ergänzt Juli 2026, additive Erweiterung von
- * Schema-Version 1): Inhaltsblöcke mit automatischer Auswertung. Prüfende
- * Blöcke und das Abschlussquiz zählen gleichwertig – ein Modul gilt als
- * BESTANDEN, wenn ALLE prüfenden Elemente 100 % erreicht haben (beliebig
- * viele Wiederholungen; das Quiz-eigene passingScorePercent betrifft nur
- * das Feedback im Quiz selbst). Beim ersten Bestehen gibt es die
- * Modul-Coins. Ein Modul braucht kein Quiz mehr; ohne jedes prüfende
- * Element gilt es nach dem Durchsehen der Inhalte als abgeschlossen
- * (reines Lesemodul, bewusst ohne Coins). Punkte gibt es unabhängig davon
- * für jeden Aufgabenblock einzeln. Künftige auto-geprüfte Aufgabentypen
- * werden hier eingetragen und zählen dann automatisch in Abschluss,
- * Punkte und Lernrate.
+ * Konzept «prüfender Block» (ergänzt Juli 2026): Inhaltsblöcke mit
+ * automatischer Auswertung. Seit Schema-Version 2 gehört auch das Quiz
+ * dazu (regulärer Block, beliebig oft) – ein Modul gilt als BESTANDEN,
+ * wenn ALLE prüfenden Blöcke 100 % erreicht haben (beliebig viele
+ * Wiederholungen). Beim ersten Bestehen gibt es die Modul-Coins –
+ * einmal PRO MODUL, nicht pro Quiz. Ein Modul braucht kein Quiz; ohne
+ * jedes prüfende Element gilt es nach dem Durchsehen der Inhalte als
+ * abgeschlossen (reines Lesemodul, bewusst ohne Coins). Punkte gibt es
+ * unabhängig davon für jeden Aufgabenblock einzeln. Künftige
+ * auto-geprüfte Aufgabentypen werden hier eingetragen und zählen dann
+ * automatisch in Abschluss, Punkte und Lernrate.
  */
-export const PRUEFENDE_BLOCK_TYPES = ["lueckentext"] as const;
+export const PRUEFENDE_BLOCK_TYPES = ["lueckentext", "quiz"] as const;
 
 export function istPruefenderBlock(block: Block): boolean {
   return (PRUEFENDE_BLOCK_TYPES as readonly string[]).includes(block.type);
 }
 
 /**
- * Schlüssel aller prüfenden Elemente eines Moduls: die ids der prüfenden
- * Blöcke plus der reservierte Schlüssel "quiz" für das Abschlussquiz
- * (deshalb darf kein prüfender Block die id "quiz" tragen – die
- * Validierung lehnt das ab). Der Lernstand hält den Bestehens-Stand je
- * Schlüssel und leitet daraus den Modulabschluss ab.
+ * Schlüssel aller prüfenden Elemente eines Moduls: die ids der
+ * prüfenden Blöcke (Lückentexte und Quizblöcke). Die id "quiz" ist der
+ * historische Schlüssel des früheren Abschlussquiz und bleibt für
+ * QUIZBLÖCKE erlaubt (migrierte Module behalten so ihren Lernstand);
+ * andere prüfende Blöcke dürfen sie nicht tragen. Der Lernstand hält
+ * den Bestehens-Stand je Schlüssel und leitet daraus den Modulabschluss
+ * ab.
  */
 export function pruefSchluessel(module: LearningModule): string[] {
-  const keys = module.blocks
+  return module.blocks
     .filter(istPruefenderBlock)
     .map((block) =>
       "id" in block && typeof block.id === "string" ? block.id : null,
     )
     .filter((id): id is string => id !== null);
-  if (module.quiz) keys.push("quiz");
-  return keys;
 }
 
 /** Anzeigenamen bekannter Lehrpläne (Fallback: Rohwert). */
