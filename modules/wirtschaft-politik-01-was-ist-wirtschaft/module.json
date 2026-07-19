@@ -113,14 +113,14 @@
           "prompt": "Warum müssen Menschen überhaupt wirtschaften?",
           "options": [
             {
-              "text": "Weil die Bedürfnisse praktisch unbegrenzt sind, die Mittel aber knapp – wir müssen also auswählen.",
-              "correct": true
-            },
-            {
               "text": "Weil die meisten Menschen zu wenig verdienen – wer reich ist, muss nicht wirtschaften."
             },
             {
               "text": "Weil der Staat vorschreibt, wie viel jede Person ausgeben darf."
+            },
+            {
+              "text": "Weil die Bedürfnisse praktisch unbegrenzt sind, die Mittel aber knapp – wir müssen also auswählen.",
+              "correct": true
             },
             {
               "text": "Weil Geld allein nicht glücklich macht und man deshalb bescheiden leben sollte."
@@ -134,11 +134,11 @@
           "prompt": "Essen, Trinken und ein Dach über dem Kopf gehören zu den …",
           "options": [
             {
-              "text": "Existenzbedürfnissen",
-              "correct": true
+              "text": "Kulturbedürfnissen"
             },
             {
-              "text": "Kulturbedürfnissen"
+              "text": "Existenzbedürfnissen",
+              "correct": true
             },
             {
               "text": "Luxusbedürfnissen"
@@ -155,10 +155,6 @@
           "prompt": "Was macht ein Bedürfnis zu einem Luxusbedürfnis?",
           "options": [
             {
-              "text": "Es geht weit über das hinaus, was in einer Gesellschaft üblich ist – und hängt damit von Situation, Ort und Zeit ab.",
-              "correct": true
-            },
-            {
               "text": "Es kostet mehr als 1000 Franken."
             },
             {
@@ -166,6 +162,10 @@
             },
             {
               "text": "Es ist jedes Bedürfnis, das man sich nicht sofort leisten kann."
+            },
+            {
+              "text": "Es geht weit über das hinaus, was in einer Gesellschaft üblich ist – und hängt damit von Situation, Ort und Zeit ab.",
+              "correct": true
             }
           ],
           "explanation": "Luxus ist keine feste Preisgrenze und auch nicht einfach «zu teuer für mich». Massstab ist, was in einer Gesellschaft üblich ist – und das verändert sich: Die warme Dusche war vor 150 Jahren Luxus und ist heute normal; das eigene Auto ist bei uns verbreitet, in ärmeren Ländern Luxus."
@@ -197,10 +197,6 @@
           "prompt": "Warum ist die Luft zum Atmen ein freies Gut, Trinkwasser in der Wüste aber ein knappes Gut?",
           "options": [
             {
-              "text": "Luft ist (fast) unbegrenzt vorhanden; Trinkwasser ist in der Wüste im Verhältnis zum Bedarf sehr begrenzt – ob ein Gut frei oder knapp ist, hängt von der Situation ab.",
-              "correct": true
-            },
-            {
               "text": "Weil Wasser für den Menschen wichtiger ist als Luft."
             },
             {
@@ -208,6 +204,10 @@
             },
             {
               "text": "Weil Wasser in der Wüste besonders aufwendig hergestellt werden muss."
+            },
+            {
+              "text": "Luft ist (fast) unbegrenzt vorhanden; Trinkwasser ist in der Wüste im Verhältnis zum Bedarf sehr begrenzt – ob ein Gut frei oder knapp ist, hängt von der Situation ab.",
+              "correct": true
             }
           ],
           "explanation": "Ob ein Gut frei oder knapp ist, entscheidet die verfügbare Menge im Verhältnis zum Bedarf – nicht die Wichtigkeit: Luft ist lebenswichtig UND trotzdem frei, weil (fast) unbegrenzt vorhanden. In der Wüste ist Wasser schlicht kaum verfügbar; mit Verkaufsrechten oder Herstellungskosten hat die Einteilung nichts zu tun."
@@ -218,11 +218,11 @@
           "prompt": "Du bezahlst jeden Monat für ein Streaming-Abo. Was kaufst du dabei?",
           "options": [
             {
-              "text": "Eine Dienstleistung – du bezahlst für den Dienst, Filme und Serien ansehen zu dürfen.",
-              "correct": true
+              "text": "Ein Sachgut – schliesslich kannst du das Handy anfassen, auf dem du schaust."
             },
             {
-              "text": "Ein Sachgut – schliesslich kannst du das Handy anfassen, auf dem du schaust."
+              "text": "Eine Dienstleistung – du bezahlst für den Dienst, Filme und Serien ansehen zu dürfen.",
+              "correct": true
             },
             {
               "text": "Ein freies Gut – im Probemonat ist es ja gratis."
@@ -239,14 +239,14 @@
           "prompt": "Du hast genau 10 Franken Znüni-Geld für diese Woche und willst damit möglichst gut durch die Woche kommen. Nach welchem Prinzip handelst du?",
           "options": [
             {
-              "text": "Nach dem Maximalprinzip: Die Mittel stehen fest, und du willst damit möglichst viel erreichen.",
-              "correct": true
-            },
-            {
               "text": "Nach dem Minimalprinzip: Es geht ja darum, möglichst wenig Geld auszugeben."
             },
             {
               "text": "Nach beiden gleichzeitig: möglichst viel erreichen mit möglichst wenig Mitteln."
+            },
+            {
+              "text": "Nach dem Maximalprinzip: Die Mittel stehen fest, und du willst damit möglichst viel erreichen.",
+              "correct": true
             },
             {
               "text": "Nach gar keinem Prinzip: Bei so kleinen Beträgen kann man nicht wirtschaften."
@@ -281,10 +281,6 @@
           "prompt": "Vor 20 Jahren war ein Smartphone Luxus – heute gehört es bei uns für die meisten zum normalen Alltag. Was zeigt dieses Beispiel über die Bedürfnispyramide?",
           "options": [
             {
-              "text": "Die Einordnung in die Stufen hängt von Situation und Gesellschaft ab und kann sich mit der Zeit verändern.",
-              "correct": true
-            },
-            {
               "text": "Das Smartphone ist zum Existenzbedürfnis geworden, weil heute niemand mehr ohne leben kann."
             },
             {
@@ -292,6 +288,10 @@
             },
             {
               "text": "Ein Bedürfnis bleibt immer in derselben Stufe – nur sein Preis verändert sich."
+            },
+            {
+              "text": "Die Einordnung in die Stufen hängt von Situation und Gesellschaft ab und kann sich mit der Zeit verändern.",
+              "correct": true
             }
           ],
           "explanation": "Die Pyramide ist ein vereinfachendes Modell, keine Naturgesetzmässigkeit: Was in welche Stufe gehört, entscheidet sich je nach Situation und Gesellschaft – und kann wandern, wie das Smartphone vom Luxus- zum Kulturbedürfnis. Ein Existenzbedürfnis ist es trotzdem nicht: Überleben kannst du auch ohne. Luxusbedürfnisse gibt es weiterhin – sie sind nur andere als vor 20 Jahren."
