@@ -64,7 +64,6 @@
   "authors": [
     "Anna Rinderer"
   ],
-  "requires": [],
   "blocks": [
     {
       "type": "text",
@@ -79,7 +78,7 @@
     {
       "type": "text",
       "title": "Güter: Womit wir Bedürfnisse erfüllen",
-      "body": "Alles, was Bedürfnisse befriedigen kann, nennt die Wirtschaft ein **Gut**. Auch hier gibt es wichtige Unterschiede.\n\n**Freie Güter** sind (fast) unbegrenzt vorhanden – niemand muss dafür bezahlen: die Luft zum Atmen, Sonnenlicht oder Wind. Weil sie nicht knapp sind, muss niemand über ihren Einsatz entscheiden – die Wirtschaft kümmert sich nicht um sie.\n\n**Knappe Güter** – man sagt auch **Wirtschaftsgüter** – sind dagegen nur begrenzt vorhanden. Sie müssen hergestellt werden, und sie haben ihren **Preis**: dein Handy, die Pizza, der Haarschnitt.\n\nOb ein Gut frei oder knapp ist, hängt von der Situation ab: Bei uns fliesst Trinkwasser fast gratis aus dem Hahn. **In der Wüste** ist dasselbe Trinkwasser überlebenswichtig und extrem **knapp** – wer dort Wasser verkauft, kann fast jeden Preis verlangen. Gleiche Sache, anderer Ort: Aus dem (fast) freien Gut wird ein knappes Gut.\n\nKnappe Güter teilt man nochmals in zwei Gruppen:\n\n- **Sachgüter** kannst du anfassen: Handy, Velo, Turnschuhe, Pizza.\n- **Dienstleistungen** sind Tätigkeiten, die jemand für dich erledigt: der Haarschnitt beim Coiffeur, die Busfahrt zur Schule, die Nachhilfestunde – oder dein Streaming-Abo. Dort kaufst du kein Ding, sondern den Dienst, Filme und Serien ansehen zu dürfen."
+      "body": "Alles, was Bedürfnisse befriedigen kann, nennt die Wirtschaft ein **Gut**. Auch hier gibt es wichtige Unterschiede.\n\n**Freie Güter** sind (fast) unbegrenzt vorhanden – niemand muss dafür bezahlen: die Luft zum Atmen, Sonnenlicht oder Wind. Weil sie nicht knapp sind, muss niemand über ihren Einsatz entscheiden – die Wirtschaft kümmert sich nicht um sie.\n\n**Knappe Güter** – man sagt auch **Wirtschaftsgüter** – sind dagegen im Verhältnis zum Bedarf nur begrenzt vorhanden und haben deshalb ihren **Preis**: dein Handy, die Pizza, der Haarschnitt.\n\nOb ein Gut frei oder knapp ist, hängt von der Situation ab: An einem Bergbach bei uns ist Wasser (fast) ein freies Gut – du kannst einfach trinken, niemand verlangt etwas dafür. **In der Wüste** ist dasselbe Trinkwasser überlebenswichtig und extrem **knapp** – wer dort Wasser verkauft, kann fast jeden Preis verlangen. Gleiche Sache, anderer Ort: Aus dem (fast) freien Gut wird ein knappes Gut.\n\nKnappe Güter teilt man nochmals in zwei Gruppen:\n\n- **Sachgüter** kannst du anfassen: Handy, Velo, Turnschuhe, Pizza.\n- **Dienstleistungen** sind Tätigkeiten, die jemand für dich erledigt: der Haarschnitt beim Coiffeur, die Busfahrt zur Schule, die Nachhilfestunde – oder dein Streaming-Abo. Dort kaufst du kein Ding, sondern den Dienst, Filme und Serien ansehen zu dürfen."
     },
     {
       "type": "text",
@@ -116,8 +115,8 @@
       "text": "Unsere Bedürfnisse sind praktisch unbegrenzt, unsere Mittel wie Geld und Zeit sind {{1}}. Deshalb müssen wir ständig auswählen und einteilen – genau das nennt man {{2}}.\nWer mit fest vorgegebenen Mitteln möglichst {{3}} erreichen will, handelt nach dem Maximalprinzip. Wer ein festes Ziel mit möglichst {{4}} Mitteln erreichen will, handelt nach dem Minimalprinzip. Beide Varianten zusammen nennt man das {{5}} Prinzip.",
       "luecken": [
         { "antworten": ["knapp", "begrenzt", "beschränkt", "beschraenkt", "rar"] },
-        { "antworten": ["wirtschaften", "haushalten", "Wirtschaften"] },
-        { "antworten": ["viel", "vieles", "am meisten"] },
+        { "antworten": ["wirtschaften", "haushalten", "Wirtschaft"] },
+        { "antworten": ["viel", "vieles"] },
         { "antworten": ["wenig", "wenigen", "geringen", "kleinen"] },
         { "antworten": ["ökonomische", "oekonomische", "wirtschaftliche"] }
       ]
@@ -126,7 +125,7 @@
       "type": "lueckentext",
       "id": "lt-zuordnen-alltagsbeispiele",
       "title": "Zuordnen: Alltagsbeispiele und ihre Kategorien",
-      "intro": "Ordne jedem Beispiel die passende Kategorie zu – bei den Bedürfnissen: Existenz-, Kultur- oder Luxusbedürfnis, bei den Gütern: freies Gut, Sachgut oder Dienstleistung. Jede Kategorie kommt mehrmals in der Auswahl vor. **Ein Begriff passt nirgends.**",
+      "intro": "Ordne jedem Beispiel die passende Kategorie zu – bei den Bedürfnissen: Existenz-, Kultur- oder Luxusbedürfnis, bei den Gütern: freies Gut, Sachgut oder Dienstleistung. Kategorien können mehrmals vorkommen. **Ein Begriff in der Auswahl passt nirgends.**",
       "modus": "wortbank",
       "text": "Welche Bedürfnisart ist das?\nGenug zu essen und zu trinken haben: {{1}}\nAm Wochenende ein Kinobesuch mit Freundinnen und Freunden: {{2}}\nEine Designer-Sonnenbrille für 900 Franken: {{3}}\nIm Winter eine warme Wohnung haben: {{4}}\nMusik hören und ein Instrument spielen: {{5}}\n\nWelche Güterart ist das?\nDie Luft zum Atmen: {{6}}\nDein Velo: {{7}}\nDer Haarschnitt beim Coiffeur: {{8}}\nDas Sonnenlicht im Sommer: {{9}}\nDie Busfahrt zur Schule: {{10}}",
       "luecken": [
@@ -142,6 +141,22 @@
         { "antworten": ["Dienstleistung"] }
       ],
       "ablenker": ["kollektives Bedürfnis"]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Wende die Begriffe an",
+      "tasks": [
+        {
+          "prompt": "Suche in deinem eigenen Alltag je ein neues Beispiel (keines aus diesem Modul!) für: ein Existenzbedürfnis, ein Kulturbedürfnis, ein Luxusbedürfnis, ein Sachgut, eine Dienstleistung und ein freies Gut. Notiere die sechs Beispiele.",
+          "hint": "Geh im Kopf einen normalen Tag durch: aufstehen, Zmorge, Schulweg, Freizeit, Abend. Wo begegnen dir Dinge, Tätigkeiten anderer Menschen – und was nutzt du, ohne dafür zu bezahlen?",
+          "solution": "Mögliche Lösung: Existenzbedürfnis – schlafen; Kulturbedürfnis – mit Kolleginnen und Kollegen Fussball spielen; Luxusbedürfnis – ein E-Bike der teuersten Klasse; Sachgut – deine Zahnbürste; Dienstleistung – der Coiffeurtermin oder die Zugfahrt; freies Gut – der Wind, der beim Velofahren kühlt. Richtig ist jedes Beispiel, das zur Definition der Kategorie passt."
+        },
+        {
+          "prompt": "Erkläre einer anderen Person (Mitschüler, Schwester, Grosi …) in eigenen Worten, warum auch Millionärinnen und Millionäre wirtschaften müssen. ODER: Erstelle selbst eine Quizfrage im Stil des Abschlussquiz – mit einer richtigen Antwort und drei falschen Antworten, die auf typische Denkfehler hereinlegen.",
+          "hint": "Beim Erklären hilft der Begriff «knappe Mittel»: Geld ist nur eines davon – woran mangelt es auch reichen Menschen? Bei der Quizfrage: Gute falsche Antworten klingen vernünftig, verwechseln aber zwei Begriffe (z. B. «teuer» und «knapp»).",
+          "solution": "Kernidee fürs Erklären: Auch wer sehr viel Geld hat, hat nur 24 Stunden pro Tag – Zeit und Aufmerksamkeit bleiben knapp, also muss auch diese Person wählen und damit wirtschaften. Beispiel für eine Quizfrage: «Dein Nachbar bezahlt für die Rasenpflege einen Gärtner. Was kauft er? a) eine Dienstleistung (richtig), b) ein Sachgut, c) ein freies Gut, d) ein Existenzbedürfnis.»"
+        }
+      ]
     }
   ],
   "quiz": {
