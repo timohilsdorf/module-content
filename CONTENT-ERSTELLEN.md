@@ -45,7 +45,7 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 > Das Modul ist eine einzige JSON-Datei nach folgendem Format. Halte dich
 > exakt daran:
 >
-> - Pflichtfelder: "schemaVersion": 1, "id" (nur Kleinbuchstaben, Ziffern,
+> - Pflichtfelder: "schemaVersion": 2, "id" (nur Kleinbuchstaben, Ziffern,
 >   Bindestriche), "title", "description" (1–3 Sätze), "subject",
 >   "cycle", "learningObjectives" (Liste von «Ich kann …»-Sätzen),
 >   "blocks" (Liste der Inhaltsblöcke).
@@ -77,8 +77,11 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      Kleinschreibung ist standardmässig egal). Modus "wortbank" bietet
 >      die Wörter als Auswahl an ("ablenker" = zusätzliche falsche
 >      Wörter); Modus "eingabe" zeigt Freitextfelder (dann kein "ablenker").
-> - Am Ende ein "quiz": {"title":"…","passingScorePercent":60,
->   "questions":[…]} mit 4–8 Fragen. Fragetypen:
+> - Quizze sind normale Blöcke in "blocks": {"type":"quiz","id":"quiz1",
+>   "title":"…","questions":[…]} – beliebig oft und an beliebiger
+>   Position (z. B. ein kurzes Quiz nach jedem Kapitel oder eines am
+>   Ende), jeder Quizblock braucht eine eigene "id" und wird einzeln
+>   ausgewertet. 4–8 Fragen pro Quiz sind ein guter Richtwert. Fragetypen:
 >   - {"id":"q1","type":"single_choice","prompt":"…","options":[{"text":"…",
 >     "correct":true},{"text":"…"}],"explanation":"…"} (genau EINE Option correct)
 >   - {"id":"q2","type":"multiple_choice", …, "points":2} (mehrere correct erlaubt)

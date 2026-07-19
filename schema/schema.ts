@@ -533,6 +533,15 @@ export const moduleSchema = z.strictObject({
 });
 
 /**
+ * Version 1 kannte den Blocktyp "quiz" nicht – ein Block mit diesem type
+ * war dort ein gültiger ZUKUNFTS-Block (Platzhalter im Player). Damit
+ * solche Dateien gültig bleiben, akzeptiert der V1-Zweig ihn weiterhin
+ * lose; die Migration macht daraus einen echten Quizblock (wenn die
+ * Form passt) oder erhält das Platzhalter-Verhalten (Typ "quiz-v1").
+ */
+const quizArtigerV1Block = z.looseObject({ type: z.literal("quiz") });
+
+/**
  * Schema-Version 1 (bis Juli 2026): identisch bis auf das
  * Quiz-Sonderfeld auf Modulebene. Bestehende Dateien bleiben gültig –
  * parseModulDatei migriert sie beim Einlesen verlustfrei auf Version 2.
@@ -540,6 +549,7 @@ export const moduleSchema = z.strictObject({
 export const moduleV1Schema = z.strictObject({
   schemaVersion: z.literal(1),
   ...modulBasis,
+  blocks: z.array(z.union([blockSchema, quizArtigerV1Block])).min(1),
   /** Optionales Abschlussquiz mit automatischer Auswertung (nur Version 1). */
   quiz: quizSchema.optional(),
 });
@@ -585,9 +595,36 @@ export function isKnownBlock(block: Block): block is KnownBlock {
  */
 export function migriereModulV1(alt: LearningModuleV1): LearningModule {
   const { quiz, ...rest } = alt;
+  const bloecke: Block[] = rest.blocks.map((block) => {
+    // V1-Blöcke mit type "quiz" waren Zukunfts-Platzhalter: Passt die
+    // Form zufällig zum echten Quizblock, wird er einer – sonst bleibt
+    // das Platzhalter-Verhalten erhalten (Typ "quiz-v1" ist unbekannt).
+    if (block.type === "quiz" && !quizBlockSchema.safeParse(block).success) {
+      return { ...block, type: "quiz-v1" };
+    }
+    // Die id "quiz" ist der reservierte Lernstand-Schlüssel des
+    // migrierten Abschlussquiz – V1 erlaubte sie als blossen Anker auf
+    // anderen Blöcken/Aufgaben; solche Anker werden entfernt (sie waren
+    // nie Lernstand-Schlüssel), sonst kollidierte die ID-Eindeutigkeit.
+    if (quiz && block.type !== "quiz") {
+      const kopie = { ...(block as Block & { id?: string }) };
+      if (kopie.id === "quiz") delete kopie.id;
+      if (kopie.type === "tasks") {
+        const tb = kopie as TasksBlock;
+        tb.tasks = tb.tasks.map((aufgabe) => {
+          if (aufgabe.id !== "quiz") return aufgabe;
+          const ohne = { ...aufgabe };
+          delete ohne.id;
+          return ohne;
+        });
+      }
+      return kopie as Block;
+    }
+    return block as Block;
+  });
   const blocks = quiz
     ? [
-        ...rest.blocks,
+        ...bloecke,
         {
           type: "quiz" as const,
           id: "quiz",
@@ -595,7 +632,7 @@ export function migriereModulV1(alt: LearningModuleV1): LearningModule {
           questions: quiz.questions,
         },
       ]
-    : rest.blocks;
+    : bloecke;
   return { ...rest, schemaVersion: SCHEMA_VERSION, blocks };
 }
 
