@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-02-haushalte-unternehmen-staat",
+  "title": "Wirtschaftliches Handeln: Haushalte, Unternehmen, Staat",
+  "description": "Ferienjob, Einkauf, Schulweg: Hinter jedem Alltagsmoment stecken drei Wirtschaftsakteure. Im zweiten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du Haushalte, Unternehmen und Staat kennen, beschreibst ihre Rollen und erkennst einfache Austauschbeziehungen wie Arbeit gegen Lohn.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "leicht",
+  "keywords": [
+    "Wirtschaftsakteure",
+    "Haushalte",
+    "Unternehmen",
+    "Staat",
+    "Arbeitskraft",
+    "Lohn",
+    "Konsum",
+    "Produktion",
+    "Steuern",
+    "öffentliche Leistungen",
+    "Austauschbeziehung",
+    "Doppelrolle"
+  ],
+  "learningObjectives": [
+    "Ich kann die drei Wirtschaftsakteure – Haushalte, Unternehmen und Staat – nennen und ihre Rollen beschreiben.",
+    "Ich kann einfache Austauschbeziehungen beschreiben: Arbeit gegen Lohn, Ware gegen Geld, Steuern gegen öffentliche Leistungen.",
+    "Ich kann Alltagsbeispiele dem richtigen Akteur zuordnen – und erkenne Doppelrollen: Dieselbe Person kann als Angestellte zu einem Unternehmen und privat zu einem Haushalt gehören."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+      "url": "https://www.iconomix.ch"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-01-was-ist-wirtschaft"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Wer wirtschaftet hier eigentlich?",
+      "body": "Erinnerst du dich an den Ferienjob aus Modul 1? Schauen wir genauer hin: Du stehst in den Sommerferien in der **Bäckerei im Dorf**, räumst Gestelle ein und bedienst Kundinnen und Kunden. Am Ende des Monats bekommst du deinen **Lohn**. Auf dem Heimweg kaufst du dir ein Sandwich – und läufst dabei über eine Strasse, die niemand von euch beiden gebaut hat.\n\nIn dieser kleinen Szene stecken schon alle drei **Wirtschaftsakteure** – so nennt man die Handelnden in der Wirtschaft:\n\n- **Haushalte** – zum Beispiel du und deine Familie: Ihr konsumiert Güter und bietet Arbeitskraft an.\n- **Unternehmen** – zum Beispiel die Bäckerei: Sie produziert Güter und Dienstleistungen und zahlt Löhne.\n- **Staat** – Land und Gemeinden: Er setzt Regeln, erhebt Steuern und stellt öffentliche Leistungen bereit, etwa Schulen und Strassen.\n\nIn Modul 1 hast du gelernt, **warum** Menschen wirtschaften: Unbegrenzte Bedürfnisse treffen auf knappe Mittel. In diesem Modul geht es um die Frage, **wer** da eigentlich handelt – und was diese drei Akteure miteinander tauschen."
+    },
+    {
+      "type": "text",
+      "title": "Haushalte: konsumieren und Arbeitskraft anbieten",
+      "body": "Ein **Haushalt** besteht aus allen Personen, die zusammen wohnen und gemeinsam wirtschaften – die Familie mit Kindern genauso wie das Paar ohne Kinder, die Wohngemeinschaft oder die Person, die allein lebt. **Jeder Mensch gehört zu einem Haushalt.** Mit einem «Haus» hat das Wort übrigens nichts zu tun: Auch wer in einer Mietwohnung lebt, bildet einen Haushalt.\n\nHaushalte haben in der Wirtschaft zwei Rollen:\n\n- **Sie konsumieren**: Haushalte kaufen Güter und Dienstleistungen, um ihre Bedürfnisse zu erfüllen – das Brot beim Beck, die Winterjacke, das Streaming-Abo, den Coiffeurtermin. Konsumieren heisst: Güter kaufen und verbrauchen oder gebrauchen.\n- **Sie bieten Arbeitskraft an**: Erwachsene (und du im Ferienjob!) stellen Unternehmen oder dem Staat ihre Zeit, ihr Können und ihre Energie zur Verfügung – ihre **Arbeitskraft**. Dafür erhalten sie **Lohn**.\n\nDiese beiden Rollen hängen zusammen: Mit dem Lohn aus der Arbeit bezahlen Haushalte ihren Konsum. Was übrig bleibt, können sie sparen – auch das ist eine wirtschaftliche Entscheidung, wie du sie aus Modul 1 kennst: Die Mittel sind knapp, also muss der Haushalt wählen, wofür er sein Geld einsetzt."
+    },
+    {
+      "type": "text",
+      "title": "Unternehmen: produzieren und Löhne zahlen",
+      "body": "**Unternehmen** sind die Produzenten der Wirtschaft: Sie stellen **Sachgüter** her (die Bäckerei backt Brot, die Möbelfabrik baut Tische) oder erbringen **Dienstleistungen** (der Coiffeursalon schneidet Haare, das Busunternehmen fährt dich zur Schule). Unternehmen gibt es in jeder Grösse – vom Ein-Personen-Betrieb bis zum Industriebetrieb mit Tausenden von Angestellten.\n\nAuch Unternehmen haben zwei zentrale Rollen:\n\n- **Sie produzieren Güter und Dienstleistungen** und verkaufen sie – an Haushalte, an andere Unternehmen oder an den Staat. Mit dem Verkauf wollen sie mehr einnehmen, als die Produktion kostet: Sie wollen **Gewinn** erzielen. Der Gewinn ist für Unternehmen das, was für dich der Lohn ist – ohne ihn könnten sie nicht überleben.\n- **Sie zahlen Löhne**: Um produzieren zu können, brauchen Unternehmen die Arbeitskraft der Haushalte. Die Bäckerei braucht Bäckerinnen und Verkäufer, die Möbelfabrik Schreinerinnen und Lastwagenfahrer. Für diese Arbeit zahlen die Unternehmen Lohn.\n\nUnternehmen und Haushalte sind also aufeinander angewiesen: Ohne Arbeitskräfte kein Brot im Regal – und ohne Lohn kein Geld, um das Brot zu kaufen."
+    },
+    {
+      "type": "text",
+      "title": "Der Staat: Regeln, Steuern, öffentliche Leistungen",
+      "body": "Der dritte Akteur ist der **Staat** – bei uns sind das das Land und die Gemeinden mit allem, was dazugehört: Regierung, Landtag, Verwaltung, Schulen, Polizei. Der Staat spielt in der Wirtschaft eine besondere Rolle, denn anders als Unternehmen will er **keinen Gewinn** erzielen. Seine Aufgaben:\n\n- **Er setzt Regeln**: Gesetze legen fest, was in der Wirtschaft erlaubt ist – zum Beispiel, wie viele Stunden Jugendliche im Ferienjob arbeiten dürfen, dass Lebensmittel kontrolliert werden oder dass Werbung nicht lügen darf. Ohne solche Regeln wäre Tauschen und Handeln unsicher.\n- **Er erhebt Steuern**: Haushalte und Unternehmen geben einen Teil ihres Einkommens bzw. Gewinns an den Staat ab. Steuern sind keine Strafe und keine freiwillige Spende – sie sind der **Beitrag aller** an die gemeinsamen Aufgaben.\n- **Er stellt öffentliche Leistungen bereit**: Mit den Steuereinnahmen finanziert der Staat, was allen dient und was kaum jemand allein bezahlen könnte – Schulen, Strassen, Polizei, Spitäler, Busverbindungen. Erinnerst du dich an die **kollektiven Bedürfnisse** aus Modul 1? Genau darum kümmert sich der Staat.\n\n**Achtung, häufiger Denkfehler:** «Der Staat ist doch auch ein Unternehmen – er zahlt ja den Lehrpersonen Lohn.» Stimmt nicht: Löhne zahlen macht noch kein Unternehmen aus. Entscheidend ist das **Ziel**: Unternehmen produzieren, um Gewinn zu erzielen. Der Staat stellt seine Leistungen bereit, damit das Zusammenleben funktioniert – deine Schule soll keinen Gewinn abwerfen, sondern dir Bildung ermöglichen. Und gratis ist sie trotzdem nicht: Bezahlt wird sie von allen gemeinsam – über die Steuern."
+    },
+    {
+      "type": "image",
+      "title": "Die drei Wirtschaftsakteure im Überblick",
+      "src": "/content/wirtschaft-politik-02-haushalte-unternehmen-staat/wirtschaftsakteure.png",
+      "alt": "Übersichtsgrafik mit drei beschrifteten Kästen. Oben der Staat mit den Stichworten: setzt Regeln, erhebt Steuern, stellt öffentliche Leistungen bereit, in Klammern Schulen, Strassen, Polizei. Unten links die Haushalte mit den Stichworten: konsumieren Güter, bieten Arbeitskraft an. Unten rechts die Unternehmen mit den Stichworten: produzieren Güter und Dienstleistungen, zahlen Löhne. Zwischen Haushalten und Unternehmen zeigen zwei Pfeile den Austausch: Ein Pfeil von den Haushalten zu den Unternehmen ist mit Arbeitskraft beschriftet, ein Pfeil von den Unternehmen zu den Haushalten mit Lohn. Eine Fusszeile ergänzt: Dieselbe Person kann mehrere Rollen haben – am Morgen Angestellte in einem Unternehmen, am Abend privat Teil eines Haushalts.",
+      "caption": "Die drei Wirtschaftsakteure mit ihren Rollen. Zwischen Haushalten und Unternehmen siehst du bereits eine Austauschbeziehung: Arbeitskraft gegen Lohn.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Tauschen: Was gibst du – was bekommst du?",
+      "body": "Die drei Akteure leben nicht nebeneinanderher – sie **tauschen** ständig miteinander. Drei einfache Austauschbeziehungen begegnen dir immer wieder:\n\n- **Arbeit gegen Lohn**: Ein Haushalt gibt einem Unternehmen Arbeitskraft – das Unternehmen zahlt dafür Lohn. Genau das passiert in deinem Ferienjob: Du gibst Zeit und Einsatz, die Bäckerei gibt dir am Monatsende Geld.\n- **Ware gegen Geld**: Ein Haushalt gibt einem Unternehmen Geld – das Unternehmen gibt dafür ein Gut oder eine Dienstleistung. Sandwich gegen Franken, Haarschnitt gegen Franken.\n- **Steuern gegen öffentliche Leistungen**: Haushalte und Unternehmen zahlen Steuern an den Staat – der Staat stellt dafür Leistungen bereit, die allen offenstehen: die Schule, die geteerte Strasse, den Polizeieinsatz. Dieser Tausch funktioniert nicht Stück für Stück wie an der Ladenkasse – niemand bekommt für 100 Franken Steuern genau 100 Franken Strasse. Aber als Gesamtpaket gilt: Alle zahlen ein, alle können die Leistungen nutzen.\n\n**Eine Person, mehrere Rollen:** Die Akteure sind Rollen, keine festen Gruppen von Menschen. Die Verkäuferin in der Bäckerei gehört während der Arbeit zum **Unternehmen** – kauft sie nach Feierabend selbst ein, handelt sie als Konsumentin für ihren **Haushalt**. Der Lehrer arbeitet für den **Staat** – privat ist er Teil eines Haushalts und zahlt selbst Steuern. Frage dich bei jedem Beispiel: **In welcher Rolle handelt diese Person gerade?**\n\nÜbrigens: Wenn du alle diese Tauschbeziehungen zusammenhängst, entsteht ein Netz, in dem Geld und Güter zirkulieren. Wie dieses Netz als Ganzes funktioniert – der sogenannte Wirtschaftskreislauf –, schaust du dir im nächsten Modul genauer an."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Die drei Wirtschaftsakteure",
+      "intro": "Zeig, was du über Haushalte, Unternehmen und Staat weisst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Welche drei Wirtschaftsakteure hast du in diesem Modul kennengelernt?",
+          "options": [
+            {
+              "text": "Banken, Börsen und Konzerne"
+            },
+            {
+              "text": "Haushalte, Unternehmen und Staat",
+              "correct": true
+            },
+            {
+              "text": "Käuferinnen, Verkäufer und Banken"
+            },
+            {
+              "text": "Arbeitgeber, Arbeitnehmerinnen und Gewerkschaften"
+            }
+          ],
+          "explanation": "Die drei Grundakteure sind Haushalte (konsumieren, bieten Arbeitskraft an), Unternehmen (produzieren, zahlen Löhne) und der Staat (Regeln, Steuern, öffentliche Leistungen). Banken und Konzerne sind selbst Unternehmen; Käufer, Verkäuferinnen, Arbeitgeber und Arbeitnehmerinnen sind Rollen, die Haushalte und Unternehmen in Tauschbeziehungen einnehmen."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was macht ein Haushalt in der Wirtschaft?",
+          "options": [
+            {
+              "text": "Er produziert Güter und verkauft sie mit Gewinn."
+            },
+            {
+              "text": "Nur Familien mit Kindern zählen als Haushalt – sie kümmern sich um die Kinder."
+            },
+            {
+              "text": "Er setzt Regeln für die Unternehmen und kontrolliert sie."
+            },
+            {
+              "text": "Er konsumiert Güter und Dienstleistungen und bietet Arbeitskraft an.",
+              "correct": true
+            }
+          ],
+          "explanation": "Haushalte haben zwei Rollen: Sie konsumieren (kaufen Güter und Dienstleistungen für ihre Bedürfnisse) und bieten Arbeitskraft an. Ein Haushalt sind alle Personen, die zusammen wohnen und wirtschaften – auch Einzelpersonen und Wohngemeinschaften, nicht nur Familien. Produzieren ist die Rolle der Unternehmen, Regeln setzen die des Staates."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Die Bäckerei in deinem Dorf ist ein Unternehmen. Woran erkennst du das?",
+          "options": [
+            {
+              "text": "Sie produziert Güter (Brot) und eine Dienstleistung (Bedienung), zahlt ihren Angestellten Lohn und will Gewinn erzielen.",
+              "correct": true
+            },
+            {
+              "text": "Daran, dass die Bäckersfamilie über dem Laden wohnt – wo gewohnt wird, ist ein Unternehmen."
+            },
+            {
+              "text": "Daran, dass sie sich an die Hygieneregeln des Staates halten muss – sie gehört also zum Staat."
+            },
+            {
+              "text": "Daran, dass sie Mehl und Strom einkauft – wer einkauft, ist ein Unternehmen."
+            }
+          ],
+          "explanation": "Unternehmen erkennst du an ihrer Rolle: Sie produzieren Güter oder Dienstleistungen, zahlen Löhne und wollen Gewinn erzielen. Wohnen macht die Familie zum Haushalt, nicht den Betrieb zum Unternehmen. Dass die Bäckerei staatliche Regeln befolgen muss, macht sie nicht zum Teil des Staates – Regeln gelten für alle. Und einkaufen tun auch Haushalte."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Der Staat zahlt den Lehrpersonen an deiner Schule den Lohn. Heisst das, der Staat ist auch ein Unternehmen?",
+          "options": [
+            {
+              "text": "Ja – wer Löhne zahlt, ist automatisch ein Unternehmen."
+            },
+            {
+              "text": "Ja – der Staat ist sogar das grösste Unternehmen des Landes."
+            },
+            {
+              "text": "Nein – der Staat hat eine eigene Rolle: Er will keinen Gewinn erzielen, sondern setzt Regeln, erhebt Steuern und stellt öffentliche Leistungen bereit.",
+              "correct": true
+            },
+            {
+              "text": "Nein – denn der Staat darf gar niemanden anstellen."
+            }
+          ],
+          "explanation": "Löhne zahlen allein macht kein Unternehmen aus – entscheidend ist das Ziel. Unternehmen produzieren, um Gewinn zu erzielen; der Staat stellt seine Leistungen bereit, damit das Zusammenleben funktioniert. Anstellen darf und muss der Staat sehr wohl: Lehrpersonen, Polizistinnen und viele mehr arbeiten für ihn – trotzdem bleibt er ein eigener Akteur mit eigener Aufgabe."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Wozu erhebt der Staat Steuern?",
+          "options": [
+            {
+              "text": "Um öffentliche Leistungen zu finanzieren, die allen dienen – etwa Schulen, Strassen und Polizei.",
+              "correct": true
+            },
+            {
+              "text": "Steuern sind eine Strafe für Menschen und Firmen, die zu viel verdienen."
+            },
+            {
+              "text": "Steuern sind freiwillige Spenden – wer nicht will, muss nicht zahlen."
+            },
+            {
+              "text": "Der Staat legt alle Steuern auf ein Sparkonto, falls er später einmal Geld braucht."
+            }
+          ],
+          "explanation": "Steuern sind der Beitrag aller an die gemeinsamen Aufgaben: Mit ihnen bezahlt der Staat öffentliche Leistungen wie Schulen, Strassen, Polizei und Spitäler. Sie sind weder eine Strafe noch freiwillig – sie sind gesetzlich geregelt und für alle verpflichtend. Und der Staat hortet sie nicht: Er setzt sie laufend für seine Aufgaben ein."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Du arbeitest im Ferienjob in der Bäckerei. Welche Beschreibung der Austauschbeziehung «Arbeit gegen Lohn» stimmt?",
+          "options": [
+            {
+              "text": "Die Bäckerei gibt dir ihre Arbeitskraft, und du zahlst ihr dafür einen Lohn."
+            },
+            {
+              "text": "Der Staat zahlt deinen Lohn, weil er alle Löhne im Land bezahlt."
+            },
+            {
+              "text": "Du zahlst der Bäckerei etwas, damit du bei ihr arbeiten und etwas lernen darfst."
+            },
+            {
+              "text": "Du gibst der Bäckerei deine Arbeitskraft, und die Bäckerei zahlt dir dafür einen Lohn.",
+              "correct": true
+            }
+          ],
+          "explanation": "Beim Tausch «Arbeit gegen Lohn» gibt der Haushalt (du) die Arbeitskraft, und das Unternehmen (die Bäckerei) zahlt dafür den Lohn – nicht umgekehrt, und bezahlen musst du fürs Arbeiten auch nichts. Der Staat zahlt nur die Löhne seiner eigenen Angestellten, etwa der Lehrpersonen – nicht die Löhne in Unternehmen."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Für den Unterricht an deiner Schule bezahlst du kein Schulgeld. Ist die Schule deshalb ein freies Gut wie die Luft?",
+          "options": [
+            {
+              "text": "Ja – alles, was nichts kostet, ist ein freies Gut."
+            },
+            {
+              "text": "Nein – die Schule ist eine öffentliche Leistung: Der Staat bezahlt sie mit den Steuern, die alle gemeinsam aufbringen.",
+              "correct": true
+            },
+            {
+              "text": "Nein – die Schule ist ein Unternehmen, das absichtlich Verlust macht."
+            },
+            {
+              "text": "Ja – denn Lehrpersonen und Hauswarte arbeiten unbezahlt."
+            }
+          ],
+          "explanation": "Die Schule wirkt für dich gratis, ist aber teuer: Schulhaus, Strom, Material und die Löhne der Lehrpersonen kosten viel Geld. Bezahlt wird das aus Steuern – die Schule ist eine öffentliche Leistung des Staates, kein freies Gut. Freie Güter wie Luft oder Sonnenlicht sind (fast) unbegrenzt vorhanden und kosten niemanden etwas – das hast du in Modul 1 gelernt."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Frau Beck arbeitet tagsüber als Verkäuferin in einem Sportgeschäft. Nach Feierabend kauft sie im Supermarkt ein. Zu welchem Akteur gehört sie?",
+          "options": [
+            {
+              "text": "Nur zum Unternehmen – wer irgendwo angestellt ist, bleibt das rund um die Uhr."
+            },
+            {
+              "text": "Nur zum Haushalt – als Privatperson kann sie nie Teil eines Unternehmens sein."
+            },
+            {
+              "text": "Zu beiden, je nach Rolle: Bei der Arbeit gehört sie zum Unternehmen, beim privaten Einkauf handelt sie als Teil ihres Haushalts.",
+              "correct": true
+            },
+            {
+              "text": "Zum Staat – denn sie zahlt ja Steuern auf ihren Lohn."
+            }
+          ],
+          "explanation": "Die Akteure sind Rollen, keine festen Gruppen von Menschen: Während der Arbeit handelt Frau Beck für das Unternehmen, privat als Konsumentin für ihren Haushalt. Entscheidend ist immer, in welcher Rolle jemand gerade handelt. Steuern zahlen macht sie nicht zum Staat – das tun Haushalte und Unternehmen gerade als Gegenüber des Staates."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-akteure-und-rollen",
+      "title": "Akteure und Rollen: Setze die Begriffe ein",
+      "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "In der Wirtschaft handeln drei Akteure. Die {{1}} konsumieren Güter und Dienstleistungen – dazu gehören alle Menschen, ob sie allein wohnen oder als Familie. Ausserdem bieten sie den Unternehmen ihre {{2}} an. Die {{3}} produzieren Güter und Dienstleistungen und zahlen dafür {{4}}. Ihr Ziel ist es, einen {{5}} zu erzielen.\nDer {{6}} handelt aus einem anderen Grund: Er setzt {{7}} für das Wirtschaften, erhebt von Haushalten und Unternehmen {{8}} und stellt damit öffentliche {{9}} bereit – zum Beispiel Schulen, Polizei und {{10}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Haushalte"
+          ]
+        },
+        {
+          "antworten": [
+            "Arbeitskraft"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmen"
+          ]
+        },
+        {
+          "antworten": [
+            "Löhne"
+          ]
+        },
+        {
+          "antworten": [
+            "Gewinn"
+          ]
+        },
+        {
+          "antworten": [
+            "Staat"
+          ]
+        },
+        {
+          "antworten": [
+            "Regeln"
+          ]
+        },
+        {
+          "antworten": [
+            "Steuern"
+          ]
+        },
+        {
+          "antworten": [
+            "Leistungen"
+          ]
+        },
+        {
+          "antworten": [
+            "Strassen"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Banken",
+        "Mieten",
+        "Spenden"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-austauschbeziehungen",
+      "title": "Austauschbeziehungen: Tippe die Begriffe ein",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Wirtschaften heisst tauschen. Wer in einem Unternehmen arbeitet, gibt seine Arbeitskraft und erhält dafür einen {{1}}. Wer in der Bäckerei ein Brot kauft, gibt {{2}} und erhält dafür eine Ware. Haushalte und Unternehmen zahlen ausserdem {{3}} an den Staat. Im Gegenzug stellt der Staat öffentliche {{4}} bereit, etwa Schulen und Strassen. Dieser Tausch funktioniert nicht Stück für Stück wie an der Ladenkasse, sondern als Gesamtpaket: Alle zahlen ein, alle können die Angebote {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Lohn",
+            "Gehalt",
+            "Arbeitslohn"
+          ]
+        },
+        {
+          "antworten": [
+            "Geld",
+            "Franken"
+          ]
+        },
+        {
+          "antworten": [
+            "Steuern",
+            "Abgaben",
+            "Steuern und Abgaben"
+          ]
+        },
+        {
+          "antworten": [
+            "Leistungen",
+            "Dienstleistungen",
+            "Angebote",
+            "Güter und Dienstleistungen"
+          ]
+        },
+        {
+          "antworten": [
+            "nutzen",
+            "benutzen",
+            "gebrauchen",
+            "verwenden",
+            "brauchen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-akteure",
+      "title": "Zuordnen: Wer handelt hier – Haushalt, Unternehmen oder Staat?",
+      "intro": "Ordne jedem Beispiel den Akteur zu, der hier handelt: **Haushalt**, **Unternehmen** oder **Staat**. Jeder Akteur kommt mehrmals vor – und aufgepasst: Dieselbe Person kann je nach Situation in verschiedenen Rollen auftreten. **Ein Begriff in der Auswahl passt nirgends.**",
+      "modus": "wortbank",
+      "text": "Familie Öhri kocht am Abend Znacht und schaut danach gemeinsam einen Film: {{1}}\nDie Bäckerei in Triesen backt Brot und verkauft es im Laden: {{2}}\nDer Landtag beschliesst ein neues Gesetz zum Jugendschutz: {{3}}\nHerr Matt steht am Vormittag als Bäcker in der Backstube und backt Zopf: {{4}}\nAm Abend kauft Herr Matt für seine Familie im Supermarkt ein: {{5}}\nDie Gemeinde lässt die Strasse vor dem Schulhaus neu teeren: {{6}}\nEine Schülerin verdient im Ferienjob ihren ersten Lohn: {{7}}\nEin Möbelhaus zahlt seinen Angestellten den Monatslohn: {{8}}\nFrau Banzer unterrichtet an der öffentlichen Schule – ihren Lohn zahlt das Land aus Steuergeldern: {{9}}\nNach der Schule bezahlt Frau Banzer an der Kasse ihre Einkäufe: {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Haushalt"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmen"
+          ]
+        },
+        {
+          "antworten": [
+            "Staat"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmen"
+          ]
+        },
+        {
+          "antworten": [
+            "Haushalt"
+          ]
+        },
+        {
+          "antworten": [
+            "Staat"
+          ]
+        },
+        {
+          "antworten": [
+            "Haushalt"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmen"
+          ]
+        },
+        {
+          "antworten": [
+            "Staat"
+          ]
+        },
+        {
+          "antworten": [
+            "Haushalt"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Bank"
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Wende die Begriffe an",
+      "tasks": [
+        {
+          "prompt": "Geh im Kopf deinen gestrigen Tag durch. Notiere drei Situationen, in denen du (oder dein Haushalt) mit einem anderen Wirtschaftsakteur zu tun hattest – mindestens einmal mit einem Unternehmen und einmal mit dem Staat. Schreibe zu jeder Situation auf: Wer handelt? Was wird gegeben, was wird empfangen?",
+          "hint": "Denk an Kaufen (Ware gegen Geld), an Arbeit (Arbeitskraft gegen Lohn – vielleicht bei deinen Eltern oder in deinem Ferienjob) und an alles, was der Staat bereitstellt: Schulweg, Unterricht, Busfahrt auf öffentlichen Strassen.",
+          "solution": "Mögliche Lösung: (1) Ich habe im Volg ein Getränk gekauft – ich gebe Geld an ein Unternehmen und erhalte eine Ware. (2) Meine Mutter war arbeiten – sie gibt ihre Arbeitskraft an ein Unternehmen und erhält dafür Lohn. (3) Ich hatte Unterricht – der Staat stellt die Schule als öffentliche Leistung bereit, finanziert aus den Steuern, die mein Haushalt und die Unternehmen zahlen. Richtig ist jedes Beispiel, in dem Akteur und Tausch korrekt benannt sind."
+        },
+        {
+          "prompt": "Erkläre einer anderen Person (Mitschüler, Schwester, Grosi …) in eigenen Worten, wieso dieselbe Person gleichzeitig zu einem Haushalt UND zu einem Unternehmen gehören kann – am besten mit einem Beispiel aus eurem Dorf. ODER: Erstelle selbst eine Quizfrage im Stil des Quiz aus diesem Modul – mit einer richtigen Antwort und drei falschen Antworten, die auf typische Denkfehler hereinlegen.",
+          "hint": "Beim Erklären hilft das Wort «Rolle»: Frag dich, was die Person gerade tut – arbeitet sie für einen Betrieb, oder kauft sie privat ein? Bei der Quizfrage: Gute falsche Antworten klingen vernünftig, verwechseln aber zwei Dinge (z. B. «zahlt Löhne» mit «ist ein Unternehmen»).",
+          "solution": "Kernidee fürs Erklären: Die Akteure sind Rollen, keine festen Gruppen. Die Coiffeuse gehört während der Arbeit zum Unternehmen (sie erbringt die Dienstleistung); nach Feierabend, beim Einkaufen oder zu Hause, handelt sie als Teil ihres Haushalts. Beispiel für eine Quizfrage: «Die Gemeinde stellt einen Hauswart für das Schulhaus an. Wer handelt hier als Arbeitgeber? a) der Staat (richtig), b) ein Unternehmen, denn wer anstellt, ist ein Unternehmen, c) der Haushalt des Hauswarts, d) niemand – Hauswarte arbeiten freiwillig.»"
+        }
+      ]
+    }
+  ]
+}
