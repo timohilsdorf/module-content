@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-03-einfacher-wirtschaftskreislauf",
+  "title": "Der einfache Wirtschaftskreislauf",
+  "description": "Arbeitskraft gegen Lohn, Güter gegen Geld: Im dritten Modul des Vertiefungsfachs «Wirtschaft & Politik» setzt du Haushalte und Unternehmen zum einfachen Wirtschaftskreislauf zusammen. Du unterscheidest Realstrom und Geldstrom und entdeckst, warum jede Ausgabe des einen eine Einnahme des anderen ist.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "leicht",
+  "keywords": [
+    "Wirtschaftskreislauf",
+    "einfacher Wirtschaftskreislauf",
+    "Haushalte",
+    "Unternehmen",
+    "Realstrom",
+    "Güterstrom",
+    "Geldstrom",
+    "Arbeitskraft",
+    "Lohn",
+    "Konsumausgaben",
+    "Modell",
+    "Kreislaufgedanke"
+  ],
+  "learningObjectives": [
+    "Ich kann den einfachen Wirtschaftskreislauf zwischen Haushalten und Unternehmen beschreiben: Haushalte liefern Arbeitskraft und erhalten dafür Lohn; Unternehmen liefern Güter und Dienstleistungen und erhalten dafür Konsumausgaben.",
+    "Ich kann den Realstrom (Arbeitskraft, Güter und Dienstleistungen) vom Geldstrom (Lohn und Konsumausgaben) unterscheiden und erkenne, dass die beiden Ströme gegenläufig fliessen.",
+    "Ich kann den Kreislaufgedanken erklären: Die Ströme fliessen ständig weiter – jede Ausgabe des einen ist eine Einnahme des anderen."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+      "url": "https://www.iconomix.ch"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-02-haushalte-unternehmen-staat"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Zwei Akteure, vier Ströme",
+      "body": "Aus Modul 2 kennst du die drei Wirtschaftsakteure: Haushalte, Unternehmen und Staat. Jetzt schauen wir genauer hin, wie die ersten beiden zusammenspielen. Dafür arbeiten Ökonominnen und Ökonomen mit einem **Modell**: Sie lassen alles weg, was für den Moment nicht wichtig ist. Der **Staat bleibt darum bewusst draussen** – er kommt in einem späteren Modul wieder dazu. Übrig bleiben **Haushalte** und **Unternehmen**, und zwischen ihnen fliesst ständig etwas hin und her.\n\nNimm wieder deinen Ferienjob in der Bäckerei: Einen Monat lang gibst du der Bäckerei deine **Arbeitskraft** – du räumst Gestelle ein und bedienst die Kundschaft. Ende Monat überweist dir die Bäckerei deinen **Lohn**. Am nächsten Tag kaufst du dir dort ein Sandwich: Die Bäckerei gibt dir eine Ware, und du bezahlst dafür an der Kasse.\n\nVier Dinge sind geflossen: deine Arbeitskraft, dein Lohn, das Sandwich und dein Geld. Zwei davon sind etwas «Echtes», zwei sind Geld – und sie fliessen nie in dieselbe, sondern immer in entgegengesetzte Richtungen. Genau diese vier Ströme bilden den **einfachen Wirtschaftskreislauf**."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "KoTrLcNVaQA",
+      "title": "Video: Der einfache Wirtschaftskreislauf",
+      "description": "Das Erklärvideo (3:42) zeigt den einfachen Wirtschaftskreislauf als Modell. Achte beim Schauen auf zwei Leitfragen: (1) Was geben die Haushalte den Unternehmen – und was bekommen sie dafür zurück? (2) Welche zwei Ströme fliessen im Kreislauf gegenläufig? Kleiner Hinweis: Im Video hörst du, dass Haushalte den Unternehmen neben der Arbeitskraft auch «Boden und Kapital» zur Verfügung stellen – merk dir einfach: Alles, was die Haushalte den Unternehmen fürs Produzieren geben, fliesst im selben Strom wie die Arbeitskraft.",
+      "transcript": "Das Erklärvideo des Lernkanals «Die Merkhilfe Wirtschaft» (3:42 Minuten) stellt den einfachen Wirtschaftskreislauf als Modell mit zwei Akteuren dar: Haushalte und Unternehmen. Die Haushalte stellen den Unternehmen ihre Arbeitskraft zur Verfügung (im Video ergänzt um Boden und Kapital); die Unternehmen zahlen dafür Lohn. Umgekehrt liefern die Unternehmen den Haushalten Konsumgüter und Dienstleistungen, und die Haushalte bezahlen dafür mit ihren Konsumausgaben. Das Video fasst diese Beziehungen in zwei gegenläufigen Strömen zusammen – dem Güterstrom und dem Geldstrom – und zeigt, dass sie ständig weiterfliessen."
+    },
+    {
+      "type": "text",
+      "title": "Arbeit gegen Lohn, Güter gegen Geld",
+      "body": "Der einfache Wirtschaftskreislauf besteht aus zwei Tauschgeschäften, die du schon aus Modul 2 kennst. Neu ist der Blick darauf: Wir zeichnen sie als **Ströme**, die zwischen Haushalten und Unternehmen fliessen.\n\n**Tausch 1: Arbeit gegen Lohn**\n\n- Die **Haushalte liefern den Unternehmen Arbeitskraft**: Menschen arbeiten in der Backstube, im Laden, im Büro.\n- Die **Unternehmen zahlen den Haushalten dafür Lohn**: Das Geld fliesst in die Gegenrichtung – vom Unternehmen zum Haushalt.\n\n**Tausch 2: Güter gegen Geld**\n\n- Die **Unternehmen liefern den Haushalten Güter und Dienstleistungen**: das Brot, das Sandwich, den Haarschnitt, die Busfahrt.\n- Die **Haushalte bezahlen dafür**: Ihre **Konsumausgaben** fliessen zum Unternehmen – wieder in der Gegenrichtung.\n\nMerkst du das Muster? **Jeder Tausch besteht aus zwei Strömen in entgegengesetzter Richtung**: In die eine Richtung fliesst etwas «Echtes», in die andere Richtung fliesst Geld. Zusammen ergeben die vier Ströme ein geschlossenes Bild – schau es dir in der Grafik an."
+    },
+    {
+      "type": "image",
+      "title": "Der einfache Wirtschaftskreislauf im Überblick",
+      "src": "/content/wirtschaft-politik-03-einfacher-wirtschaftskreislauf/wirtschaftskreislauf.png",
+      "alt": "Kreislaufdiagramm mit zwei beschrifteten Kästen: links die Haushalte (konsumieren Güter, bieten Arbeitskraft an), rechts die Unternehmen (produzieren Güter und Dienstleistungen, zahlen Löhne). Vier Pfeile verbinden die Kästen. Zwei grüne, durchgezogene Pfeile bilden den Realstrom: Die Arbeitskraft fliesst von den Haushalten zu den Unternehmen, Güter und Dienstleistungen fliessen von den Unternehmen zu den Haushalten. Zwei orange, gestrichelte Pfeile bilden den Geldstrom: Der Lohn fliesst von den Unternehmen zu den Haushalten, die Konsumausgaben fliessen von den Haushalten zu den Unternehmen. Eine Legende erklärt die beiden Stromarten. Darunter steht: Die Ströme fliessen gegenläufig und ständig weiter – jede Ausgabe des einen ist eine Einnahme des anderen.",
+      "caption": "Der einfache Wirtschaftskreislauf: Der Realstrom (grün, durchgezogen) und der Geldstrom (orange, gestrichelt) fliessen gegenläufig zwischen Haushalten und Unternehmen.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Realstrom und Geldstrom",
+      "body": "Schau dir die vier Pfeile in der Grafik genau an. Zwei davon transportieren etwas «Echtes», zwei transportieren Geld:\n\n- **Realstrom** (auch Güter- oder Leistungsstrom genannt): die **Arbeitskraft** der Haushalte sowie die **Güter und Dienstleistungen** der Unternehmen. Hier fliesst alles, was direkt einen Nutzen stiftet – Arbeit, Brot, ein Haarschnitt.\n- **Geldstrom**: der **Lohn** der Unternehmen und die **Konsumausgaben** der Haushalte. Hier fliesst das Geld, mit dem die Leistungen des Realstroms bezahlt werden.\n\nDas Wichtigste dabei: **Die beiden Ströme fliessen gegenläufig.** Zu jedem Pfeil des Realstroms gehört ein Geldpfeil in der Gegenrichtung. Prüfe es am Beispiel: Das Sandwich wandert von der Bäckerei zu dir (Realstrom) – dein Geld wandert von dir zur Bäckerei (Geldstrom). Deine Arbeitskraft wandert von dir zur Bäckerei (Realstrom) – der Lohn wandert von der Bäckerei zu dir (Geldstrom).\n\n**Achtung, häufiger Denkfehler:** «Der Lohn gehört zum Realstrom, weil er die Belohnung für echte Arbeit ist.» Stimmt nicht: Entscheidend ist, **was fliesst** – nicht wofür. Der Lohn ist Geld, also gehört er zum Geldstrom. Zum Realstrom gehört die Arbeitskraft, für die er bezahlt wird. Und aufgepasst: Auch Dienstleistungen gehören zum Realstrom, obwohl man sie nicht anfassen kann – ein Haarschnitt ist eine echte Leistung, kein Geld."
+    },
+    {
+      "type": "text",
+      "title": "Warum ein Kreislauf?",
+      "body": "Warum zeichnet man das Ganze als **Kreislauf** und nicht als Liste von Tauschgeschäften? Weil die Ströme **nie stillstehen** – und weil dasselbe Geld immer wieder die Hand wechselt.\n\nVerfolge dein Lohngeld einen Schritt weiter: Die Bäckerei überweist dir den Lohn – für sie ist das eine **Ausgabe**, für dich eine **Einnahme**. Du kaufst dir davon ein Sandwich – jetzt ist es umgekehrt: Für dich ist der Kauf eine Ausgabe, für die Bäckerei eine Einnahme. Mit diesen Einnahmen zahlt die Bäckerei wieder Löhne – vielleicht sogar deinen. Das Geld ist nicht verschwunden und nicht verbraucht: Es **zirkuliert**.\n\nDeshalb gilt im Kreislauf der Kernsatz: **Jede Ausgabe des einen ist eine Einnahme des anderen.** Es gibt keinen Anfang und kein Ende – jeder Strom stösst den nächsten an. Genau das macht Haushalte und Unternehmen so eng voneinander abhängig: Kaufen die Haushalte weniger ein, nehmen die Unternehmen weniger ein – und können weniger Löhne zahlen, womit die Haushalte wieder weniger ausgeben könnten.\n\nZum Schluss ein ehrlicher Hinweis: Unser Kreislauf ist ein **vereinfachtes Modell**. Was passiert, wenn auch der Staat wieder mitspielt, schaust du dir im nächsten Modul an."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Der einfache Wirtschaftskreislauf",
+      "intro": "Zeig, was du über den einfachen Wirtschaftskreislauf weisst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Welche zwei Akteure stehen sich im einfachen Wirtschaftskreislauf gegenüber?",
+          "options": [
+            {
+              "text": "Haushalte und Staat"
+            },
+            {
+              "text": "Haushalte und Unternehmen",
+              "correct": true
+            },
+            {
+              "text": "Unternehmen und Staat"
+            },
+            {
+              "text": "Käuferinnen und Verkäufer"
+            }
+          ],
+          "explanation": "Der einfache Wirtschaftskreislauf ist ein Modell mit genau zwei Akteuren: Haushalte und Unternehmen. Der Staat wird bewusst weggelassen, damit das Grundmuster gut sichtbar wird – er kommt in einem späteren Modul dazu. «Käufer» und «Verkäuferin» sind keine Akteure, sondern Rollen, die Haushalte und Unternehmen beim Tauschen einnehmen."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was gehört alles zum Realstrom?",
+          "options": [
+            {
+              "text": "Lohn und Konsumausgaben"
+            },
+            {
+              "text": "Arbeitskraft und Lohn – sie gehören zum selben Tausch"
+            },
+            {
+              "text": "Nur Dinge, die man anfassen kann – Dienstleistungen zählen nicht"
+            },
+            {
+              "text": "Arbeitskraft sowie Güter und Dienstleistungen",
+              "correct": true
+            }
+          ],
+          "explanation": "Zum Realstrom gehört alles, was direkt einen Nutzen stiftet: die Arbeitskraft der Haushalte und die Güter und Dienstleistungen der Unternehmen – auch nicht anfassbare Leistungen wie ein Haarschnitt. Lohn und Konsumausgaben sind dagegen Geld und bilden den Geldstrom. Arbeitskraft und Lohn gehören zwar zum selben Tausch, aber zu verschiedenen Strömen."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Zu welchem Strom gehört der Lohn?",
+          "options": [
+            {
+              "text": "Zum Geldstrom – der Lohn ist Geld, das vom Unternehmen zum Haushalt fliesst.",
+              "correct": true
+            },
+            {
+              "text": "Zum Realstrom – der Lohn ist die Gegenleistung für echte Arbeit."
+            },
+            {
+              "text": "Zu beiden Strömen gleichzeitig – je nachdem, wofür man ihn ausgibt."
+            },
+            {
+              "text": "Zu keinem – der Lohn steht ausserhalb des Kreislaufs."
+            }
+          ],
+          "explanation": "Entscheidend ist, was fliesst – nicht wofür: Der Lohn ist Geld und gehört darum zum Geldstrom, auch wenn er die Gegenleistung für echte Arbeit ist. Die Arbeitskraft, für die er bezahlt wird, gehört zum Realstrom. Jeder Strom hat eine klare Richtung: Der Lohn fliesst vom Unternehmen zum Haushalt."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "In welche Richtung fliessen die Konsumausgaben?",
+          "options": [
+            {
+              "text": "Von den Unternehmen zu den Haushalten."
+            },
+            {
+              "text": "Vom Staat zu den Haushalten."
+            },
+            {
+              "text": "Von den Haushalten zu den Unternehmen.",
+              "correct": true
+            },
+            {
+              "text": "Sie fliessen in beide Richtungen gleichzeitig."
+            }
+          ],
+          "explanation": "Konsumausgaben sind das Geld, das Haushalte für Güter und Dienstleistungen bezahlen – es fliesst also von den Haushalten zu den Unternehmen. In die Gegenrichtung, von den Unternehmen zu den Haushalten, fliessen die Güter und Dienstleistungen selbst. Der Staat kommt im einfachen Kreislauf gar nicht vor."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Wie verlaufen Realstrom und Geldstrom zueinander?",
+          "options": [
+            {
+              "text": "Parallel – beide fliessen in dieselbe Richtung."
+            },
+            {
+              "text": "Abwechselnd – mal fliesst nur Geld, mal fliessen nur Güter."
+            },
+            {
+              "text": "Unabhängig voneinander – die beiden Ströme haben nichts miteinander zu tun."
+            },
+            {
+              "text": "Gegenläufig – wo etwas Reales in die eine Richtung fliesst, fliesst Geld in die Gegenrichtung.",
+              "correct": true
+            }
+          ],
+          "explanation": "Real- und Geldstrom sind zwei Seiten desselben Tauschs und fliessen darum gegenläufig: Die Arbeitskraft fliesst zum Unternehmen, der Lohn zurück zum Haushalt; die Güter fliessen zum Haushalt, die Konsumausgaben zurück zum Unternehmen. Sie fliessen gleichzeitig, nicht abwechselnd – und ohne einander gäbe es den Tausch nicht."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Du kaufst dir nach der Arbeit in der Bäckerei ein Sandwich. Welche Aussage beschreibt diesen Kauf im Kreislauf richtig?",
+          "options": [
+            {
+              "text": "Sandwich und Geld gehören beide zum Geldstrom, weil der Kauf an der Kasse stattfindet."
+            },
+            {
+              "text": "Das Sandwich fliesst als Teil des Realstroms zu dir, dein Geld fliesst als Teil des Geldstroms zur Bäckerei.",
+              "correct": true
+            },
+            {
+              "text": "Dein Geld gehört zum Realstrom, weil du es ganz real aus dem Portemonnaie nimmst."
+            },
+            {
+              "text": "Der Kauf gehört nicht in den Kreislauf, weil er privat ist."
+            }
+          ],
+          "explanation": "Jeder Kauf besteht aus zwei gegenläufigen Strömen: Die Ware (das Sandwich) fliesst im Realstrom vom Unternehmen zum Haushalt, das Geld (deine Konsumausgabe) im Geldstrom vom Haushalt zum Unternehmen. «Real» meint dabei nicht Bargeld zum Anfassen, sondern Güter und Leistungen – Geld gehört immer zum Geldstrom. Und genau solche privaten Alltagskäufe sind der Stoff, aus dem der Kreislauf besteht."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Warum spricht man von einem Kreis-LAUF?",
+          "options": [
+            {
+              "text": "Weil am Ende des Jahres alle Konten wieder auf null gestellt werden."
+            },
+            {
+              "text": "Weil jeder Haushalt sein Geld immer im selben Laden ausgibt."
+            },
+            {
+              "text": "Weil die Ströme ständig weiterfliessen: Jede Ausgabe des einen ist eine Einnahme des anderen, und das Geld zirkuliert immer weiter.",
+              "correct": true
+            },
+            {
+              "text": "Weil Güter nach dem Gebrauch wieder an die Unternehmen zurückgegeben werden."
+            }
+          ],
+          "explanation": "Der Kreislauf hat keinen Anfang und kein Ende: Der Lohn wird zu Konsumausgaben, die Konsumausgaben werden zu Einnahmen der Unternehmen, und daraus werden wieder Löhne. Das Geld wird dabei nicht verbraucht, sondern wechselt nur die Hand. Es muss dafür weder im selben Laden ausgegeben werden, noch werden Konten zurückgesetzt oder Güter zurückgegeben."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Die Bäckerei überweist dir deinen Ferienjob-Lohn. Was bedeutet diese eine Zahlung für die beiden Beteiligten?",
+          "options": [
+            {
+              "text": "Für die Bäckerei ist sie eine Ausgabe, für dich beziehungsweise deinen Haushalt eine Einnahme.",
+              "correct": true
+            },
+            {
+              "text": "Für beide ist sie eine Ausgabe – schliesslich hast du dafür gearbeitet."
+            },
+            {
+              "text": "Für die Bäckerei ist sie eine Einnahme, für dich eine Ausgabe."
+            },
+            {
+              "text": "Sie ist weder Ausgabe noch Einnahme – der Lohn gehört einfach zum Tausch dazu."
+            }
+          ],
+          "explanation": "Ein und dieselbe Zahlung hat immer zwei Seiten: Beim Absender ist sie eine Ausgabe, beim Empfänger eine Einnahme. Die Lohnüberweisung ist also eine Ausgabe der Bäckerei und eine Einnahme deines Haushalts – genau das meint der Kernsatz «Jede Ausgabe des einen ist eine Einnahme des anderen». Deine Arbeit ist keine Ausgabe von Geld, sondern deine Leistung im Realstrom."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-vier-stroeme",
+      "title": "Die vier Ströme: Setze die Begriffe ein",
+      "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Im einfachen Wirtschaftskreislauf bleiben von den drei Akteuren aus Modul 2 nur zwei übrig: Die {{1}} bieten Arbeitskraft an und konsumieren, die {{2}} produzieren und zahlen Löhne.\nFür den Ferienjob liefern die Haushalte den Unternehmen ihre {{3}}. Als Gegenleistung fliesst der {{4}} in die andere Richtung. Beim Einkaufen liefern die Unternehmen den Haushalten {{5}} und Dienstleistungen; die Haushalte bezahlen dafür mit ihren {{6}}.\nArbeitskraft, Güter und Dienstleistungen bilden zusammen den {{7}}, Lohn und Konsumausgaben den {{8}}. Die beiden Ströme fliessen {{9}}: Wo etwas Reales in die eine Richtung fliesst, fliesst {{10}} in die Gegenrichtung.",
+      "luecken": [
+        {
+          "antworten": [
+            "Haushalte"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmen"
+          ]
+        },
+        {
+          "antworten": [
+            "Arbeitskraft"
+          ]
+        },
+        {
+          "antworten": [
+            "Lohn"
+          ]
+        },
+        {
+          "antworten": [
+            "Güter"
+          ]
+        },
+        {
+          "antworten": [
+            "Konsumausgaben"
+          ]
+        },
+        {
+          "antworten": [
+            "Realstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Geldstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "gegenläufig"
+          ]
+        },
+        {
+          "antworten": [
+            "Geld"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Staat",
+        "Steuern",
+        "Gewinn"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-kreislaufgedanke",
+      "title": "Der Kreislaufgedanke: Tippe die Begriffe ein",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Der Kreislauf hat keinen Anfang und kein Ende. Deine Arbeit in der Bäckerei bringt dir Ende Monat den Lohn: Für die Bäckerei ist diese Zahlung eine Ausgabe, für dich ist sie eine {{1}}. Kaufst du dir dort ein Sandwich, ist es umgekehrt: Deine {{2}} wird zur Einnahme der Bäckerei. Mit diesen Einnahmen kann die Bäckerei wieder Mehl einkaufen und {{3}} zahlen – und alles beginnt von vorn. Es gilt also: Jede Ausgabe des einen ist eine {{4}} des anderen. Das Geld wird dabei nicht verbraucht – es wechselt nur die Hand und bleibt im {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Einnahme"
+          ]
+        },
+        {
+          "antworten": [
+            "Ausgabe",
+            "Konsumausgabe",
+            "Zahlung"
+          ]
+        },
+        {
+          "antworten": [
+            "Löhne",
+            "Lohn"
+          ]
+        },
+        {
+          "antworten": [
+            "Einnahme"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreislauf",
+            "Wirtschaftskreislauf",
+            "Umlauf"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-stroeme",
+      "title": "Zuordnen: Realstrom oder Geldstrom?",
+      "intro": "Ordne jedem Beispiel den richtigen Strom zu: **Realstrom** oder **Geldstrom**. Frag dich jeweils: Fliesst hier Geld – oder etwas «Echtes» wie Arbeit, eine Ware oder eine Dienstleistung? Zwei Fälle sind besonders knifflig.",
+      "modus": "wortbank",
+      "text": "Du räumst im Ferienjob Gestelle ein und bedienst die Kundschaft: {{1}}\nDie Bäckerei überweist dir Ende Monat 450 Franken Lohn: {{2}}\nEine Kundin bekommt zwei Gipfeli über die Theke gereicht: {{3}}\nDie Kundin bezahlt die Gipfeli an der Kasse: {{4}}\nDer Coiffeursalon schneidet einem Kunden die Haare: {{5}}\nDer Kunde bezahlt den Haarschnitt mit der Karte: {{6}}\nEin zufriedener Gast lässt der Servicefachfrau im Café Trinkgeld da: {{7}}\nAls Teil deines Lohns darfst du am Abend übrig gebliebene Brote gratis mitnehmen (Naturallohn): {{8}}\nEine Familie bekommt das bestellte Sofa nach Hause geliefert: {{9}}\nDie Familie überweist dem Möbelhaus den Rechnungsbetrag: {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Realstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Geldstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Realstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Geldstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Realstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Geldstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Geldstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Realstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Realstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Geldstrom"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Wende den Kreislauf an",
+      "tasks": [
+        {
+          "prompt": "Zeichne den einfachen Wirtschaftskreislauf aus dem Gedächtnis auf ein Blatt: zwei Kästen für die Akteure und vier beschriftete Pfeile. Verwende zwei Farben – eine für den Realstrom, eine für den Geldstrom. Vergleiche deine Zeichnung erst am Schluss mit der Grafik im Modul: Stimmen alle vier Richtungen?",
+          "hint": "Beginne mit den beiden Kästen «Haushalte» und «Unternehmen». Frag dich dann für jeden Pfeil: Was fliesst hier – etwas Echtes oder Geld? Und von wem zu wem? Denk daran: Zu jedem realen Pfeil gehört ein Geldpfeil in der Gegenrichtung.",
+          "solution": "Deine Zeichnung sollte zeigen: Haushalte und Unternehmen als zwei Kästen; von den Haushalten zu den Unternehmen fliessen die Arbeitskraft (Realstrom) und die Konsumausgaben (Geldstrom); von den Unternehmen zu den Haushalten fliessen der Lohn (Geldstrom) sowie Güter und Dienstleistungen (Realstrom). Realstrom und Geldstrom sind farblich unterschieden, und die beiden Ströme jedes Tauschpaars zeigen in entgegengesetzte Richtungen."
+        },
+        {
+          "prompt": "Erkläre einer anderen Person (Mitschülerin, Bruder, Grosi …) in eigenen Worten den Satz «Jede Ausgabe des einen ist eine Einnahme des anderen» – mit einem eigenen Beispiel, das nicht aus der Bäckerei stammt. ODER: Erstelle selbst eine Quizfrage im Stil dieses Moduls – mit einer richtigen Antwort und drei falschen Antworten, die auf typische Denkfehler hereinlegen.",
+          "hint": "Beim Erklären hilft es, eine konkrete Zahlung zu verfolgen: Wer gibt das Geld aus – und bei wem kommt genau derselbe Betrag als Einnahme an? Bei der Quizfrage: Gute falsche Antworten verwechseln zum Beispiel die Richtung eines Stroms oder ordnen den Lohn dem Realstrom zu.",
+          "solution": "Kernidee fürs Erklären: Jede Zahlung hat zwei Seiten – was beim Absender als Ausgabe verbucht wird, kommt beim Empfänger als Einnahme an. Beispiel: Deine Familie bezahlt den Coiffeurtermin – für euren Haushalt eine Ausgabe, für den Salon eine Einnahme; damit zahlt der Salon den Lohn der Coiffeuse – für den Salon eine Ausgabe, für ihren Haushalt eine Einnahme. Beispiel für eine Quizfrage: «In welche Richtung fliesst die Arbeitskraft im einfachen Wirtschaftskreislauf? a) Vom Haushalt zum Unternehmen (richtig), b) vom Unternehmen zum Haushalt, c) sie fliesst gar nicht, weil sie kein Gut ist, d) in beide Richtungen gleichzeitig.»"
+        }
+      ]
+    }
+  ]
+}
