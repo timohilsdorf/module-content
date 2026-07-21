@@ -121,9 +121,9 @@
           "solution": "Die Demokratie war neu und viele Menschen waren ihr gegenüber ohnehin skeptisch. Als unter dieser neuen Staatsform die Ersparnisse vernichtet wurden, verbanden viele ihr persönliches Unglück direkt mit der Republik: «Unter dem Kaiser war das Geld noch etwas wert.» Radikale Parteien nutzten diese Stimmung später gezielt aus."
         },
         {
-          "prompt": "Zeichne die Brüning-Kette aus Level 1 als Kreis ab (auf Papier oder digital): Schreibe die Stationen im Kreis auf und verbinde sie mit Pfeilen. Markiere die Stelle, an der der Kreis sich schliesst.",
+          "prompt": "Stelle die Brüning-Kette aus Level 1 als Kreislauf dar: Tippe die Stationen in der richtigen Reihenfolge ein und verbinde sie mit Pfeilen (→). Beschreibe am Schluss in einem Satz, an welcher Stelle sich der Kreis schliesst. Wenn du magst, zeichne den Kreis zusätzlich auf Papier.",
           "hint": "Beginne oben mit «Staat spart» und gehe im Uhrzeigersinn. Der letzte Pfeil muss wieder bei «Staat spart» ankommen – genau das macht den Teufelskreis aus.",
-          "solution": "Musterskizze (als Kreis gezeichnet): Staat spart → weniger Kaufkraft → mehr Arbeitslose → weniger Steuereinnahmen → Staat spart noch mehr → (Pfeil zurück zu «Staat spart»). Der Kreis schliesst sich beim letzten Pfeil: Das Sparen erzeugt genau die Geldnot, gegen die es helfen sollte."
+          "solution": "Staat spart → weniger Kaufkraft → mehr Arbeitslose → weniger Steuereinnahmen → Staat spart noch mehr → zurück zu «Staat spart». Der Kreis schliesst sich beim letzten Pfeil: Das Sparen erzeugt genau die Geldnot, gegen die es helfen sollte."
         }
       ]
     },
@@ -173,20 +173,20 @@
     },
     {
       "type": "tasks",
-      "title": "Level 3 – Aufgaben: Eine eigene Ursache-Wirkungs-Skizze erstellen",
+      "title": "Level 3 – Aufgaben: Eine eigene Ursache-Wirkungs-Kette erstellen",
       "tasks": [
         {
-          "prompt": "Lies dieses Material und erstelle daraus eine eigene Ursache-Wirkungs-Skizze mit mindestens fünf Gliedern (auf Papier oder digital):\n\n**Material – Deutschland 1928 bis 1933 in Zahlen:**\n- Arbeitslose: 1928 rund 1,4 Millionen | Anfang 1932 über 6 Millionen\n- Stimmenanteil der NSDAP bei Reichstagswahlen: 1928: 2,6 % | 1930: 18,3 % | Juli 1932: 37,3 %\n- Oktober 1929: Börsencrash in New York; die USA ziehen in den Folgejahren ihre Kredite aus Deutschland ab\n- 30. Januar 1933: Hitler wird zum Reichskanzler ernannt\n\nDeine Skizze soll zeigen, wie diese Zahlen und Ereignisse zusammenhängen.",
+          "prompt": "Lies dieses Material und erstelle daraus eine eigene Ursache-Wirkungs-Kette mit mindestens fünf Gliedern: Tippe die Glieder untereinander ein und verbinde sie mit Pfeilen (→).\n\n**Material – Deutschland 1928 bis 1933 in Zahlen:**\n- Arbeitslose: 1928 rund 1,4 Millionen | Anfang 1932 über 6 Millionen\n- Stimmenanteil der NSDAP bei Reichstagswahlen: 1928: 2,6 % | 1930: 18,3 % | Juli 1932: 37,3 %\n- Oktober 1929: Börsencrash in New York; die USA ziehen in den Folgejahren ihre Kredite aus Deutschland ab\n- 30. Januar 1933: Hitler wird zum Reichskanzler ernannt\n\nDeine Kette soll zeigen, wie diese Zahlen und Ereignisse zusammenhängen. Wenn du magst, zeichne sie zusätzlich als Skizze auf Papier.",
           "hint": "Beginne beim Auslöser (Börsencrash) und frage bei jedem Schritt: Was folgt daraus? Die Zahlenreihen zeigen dir, welche Entwicklungen parallel laufen – Arbeitslosigkeit und NSDAP-Stimmen steigen gemeinsam. Das ist kein Zufall, sondern ein Kettenglied.",
-          "solution": "Musterskizze:\n\nBörsencrash in New York (Okt. 1929)\n   → USA ziehen Kredite aus Deutschland ab\n   → deutsche Banken und Firmen gehen bankrott\n   → Massenarbeitslosigkeit (von 1,4 Mio. 1928 auf über 6 Mio. Anfang 1932)\n   → Not, Angst und Wut: viele Menschen radikalisieren sich\n   → Wahlerfolge der NSDAP (2,6 % → 18,3 % → 37,3 %)\n   → Ernennung Hitlers zum Reichskanzler (30. Januar 1933)\n\nAndere Skizzen sind richtig, wenn jeder Pfeil einen nachvollziehbaren «Daraus folgt»-Schritt zeigt und die zeitliche Reihenfolge stimmt."
+          "solution": "Musterlösung:\n\nBörsencrash in New York (Okt. 1929)\n   → USA ziehen Kredite aus Deutschland ab\n   → deutsche Banken und Firmen gehen bankrott\n   → Massenarbeitslosigkeit (von 1,4 Mio. 1928 auf über 6 Mio. Anfang 1932)\n   → Not, Angst und Wut: viele Menschen radikalisieren sich\n   → Wahlerfolge der NSDAP (2,6 % → 18,3 % → 37,3 %)\n   → Ernennung Hitlers zum Reichskanzler (30. Januar 1933)\n\nAndere Ketten sind richtig, wenn jeder Pfeil einen nachvollziehbaren «Daraus folgt»-Schritt zeigt und die zeitliche Reihenfolge stimmt."
         },
         {
-          "prompt": "Erweitere deine Skizze um eine regionale Verzweigung: Baue an passender Stelle einen Ast ein, der zeigt, wie die Weltwirtschaftskrise auch Liechtenstein und das Rheintal traf.",
+          "prompt": "Erweitere deine Kette aus Aufgabe 1 um eine regionale Verzweigung: Benenne die Stelle, an der dein Ast abzweigt, und tippe dessen Glieder mit Pfeilen (→) ein – der Ast soll zeigen, wie die Weltwirtschaftskrise auch Liechtenstein und das Rheintal traf.",
           "hint": "Liechtensteins Textilindustrie lebte vom Export. Was passiert mit Exportfirmen, wenn die Kunden im Ausland kein Geld mehr haben?",
           "solution": "Möglicher Ast, abzweigend bei der weltweiten Krise: Weltwirtschaftskrise → Kunden im Ausland kaufen weniger → Absatzkrise der exportabhängigen Textilindustrie im Rheintal → Entlassungen und Kurzarbeit → viele Menschen aus der Region müssen sich Arbeit im Ausland suchen."
         },
         {
-          "prompt": "Zum Abschluss: Erkläre deine Skizze aus Aufgabe 1 einer anderen Person (Mitschülerin, Bruder, Grosi …) in eigenen Worten – ohne abzulesen. ODER: Erstelle selbst eine Quizfrage im Stil von Level 2 («Was gehört an die Stelle ???») zu einer Ursache-Wirkungs-Kette aus diesem Modul, inklusive drei Antwortmöglichkeiten und Lösung.",
+          "prompt": "Zum Abschluss: Erkläre deine Kette aus Aufgabe 1 in eigenen Worten als zusammenhängenden Text – so, dass ihn auch eine Person ohne Vorwissen (Mitschülerin, Bruder, Grosi …) verstehen würde. ODER: Erstelle selbst eine Quizfrage im Stil von Level 2 («Was gehört an die Stelle ???») zu einer Ursache-Wirkungs-Kette aus diesem Modul, inklusive drei Antwortmöglichkeiten und Lösung.",
           "hint": "Beim Erklären gilt: Wenn dein Gegenüber bei einem Pfeil «Warum?» fragt und du es beantworten kannst, hast du die Kette wirklich verstanden. Bei der Quizfrage: Gute falsche Antworten stammen aus der richtigen Epoche, stehen aber an der falschen Stelle der Kette.",
           "solution": "Beispiel für eine selbst erstellte Quizfrage: «Was gehört an die Stelle ???: Hyperinflation 1923 → ??? → Beruhigung der Wirtschaft → Goldene Zwanziger. a) Einführung der Rentenmark und Dawes-Plan, b) Börsencrash in New York, c) Machtübernahme Hitlers.» Lösung: a). Beim Erklären zählt: Reihenfolge korrekt, jeder Pfeil begründet."
         }

@@ -359,6 +359,21 @@ function checkModule(
   for (const dup of [...new Set(duplicates)]) {
     errors.push(`ID "${dup}" ist mehrfach vergeben (Blöcke/Aufgaben/Fragen brauchen eindeutige IDs).`);
   }
+  // Plattform-Regeln (gespiegelt aus everycate-app, idRegelFehler in
+  // src/lib/content/meta.ts – bei Änderungen dort mitziehen): ids wandern
+  // als Lernstand-/Report-Schlüssel in die Plattform. "~" ist der
+  // reservierte Namensraum der automatischen Fallback-Schlüssel, ":"
+  // trennt Block- und Aufgabenteil, und lange ids sprengen das
+  // fail-closed geprüfte Report-Limit.
+  for (const id of new Set(ids)) {
+    if (id.startsWith("~")) {
+      errors.push(`id "${id}" darf nicht mit "~" beginnen (reserviert für automatische Schlüssel).`);
+    } else if (id.includes(":")) {
+      errors.push(`id "${id}" darf keinen Doppelpunkt enthalten (":" trennt Block- und Aufgabenteil im Lernstand-Schlüssel).`);
+    } else if (id.length > 64) {
+      errors.push(`id "${id.slice(0, 24)}…" ist länger als 64 Zeichen – bitte kürzen (Schlüssel wandern in Lernstand und Report).`);
+    }
+  }
 
   // --- Quizfragen brauchen stabile ids -------------------------------------
   // Der Lernstand speichert Statistiken pro Frage – ohne id würde bei

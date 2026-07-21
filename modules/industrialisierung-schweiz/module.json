@@ -153,13 +153,13 @@
     {
       "type": "tasks",
       "title": "Aufgaben",
-      "intro": "Jetzt bist du dran! Bearbeite die Aufgaben in dein Heft oder Dokument. Die Tipps helfen dir auf die Sprünge, die Lösungen zeigen dir einen möglichen Weg.",
+      "intro": "Jetzt bist du dran! Tippe deine Antworten direkt in die Textfelder – sie werden an deine Lehrperson übermittelt. Die aufklappbaren Tipps helfen dir auf die Sprünge.",
       "tasks": [
         {
           "id": "heimarbeit-vs-fabrik",
-          "prompt": "Vergleiche die **Heimarbeit im Verlagssystem** mit der **Arbeit in der Fabrik**. Erstelle eine Tabelle mit mindestens je zwei Vorteilen und zwei Nachteilen – aus der Sicht einer Arbeiterfamilie um 1850.",
+          "prompt": "Vergleiche die **Heimarbeit im Verlagssystem** mit der **Arbeit in der Fabrik**. Nenne für beide Arbeitsformen mindestens je zwei Vorteile und zwei Nachteile – aus der Sicht einer Arbeiterfamilie um 1850.",
           "hint": "Denke an: Arbeitszeit und Arbeitstempo (wer bestimmt sie?), Höhe und Sicherheit des Verdienstes, Vereinbarkeit mit Hof und Familie, Gefahren bei der Arbeit.",
-          "solution": "Mögliche Antworten – **Heimarbeit:** + freie Zeiteinteilung, + Arbeit und Familienleben am selben Ort; − sehr tiefer, unsicherer Verdienst, − Abhängigkeit vom Verleger und von den Marktpreisen. **Fabrik:** + regelmässiger Lohn; − starre, sehr lange Arbeitszeiten (zwölf und mehr Stunden), − strenge Fabrikordnung, Lärm und gefährliche Maschinen, − langer Arbeitsweg oder Umzug in die Stadt."
+          "solution": "Mögliche Antworten – **Heimarbeit:** + freie Zeiteinteilung, + Arbeit und Familienleben am selben Ort; − sehr tiefer, unsicherer Verdienst, − Abhängigkeit vom Verleger und von den Marktpreisen. **Fabrik:** + regelmässiger Lohn, + oft höherer Gesamtverdienst, da mehrere Familienmitglieder bezahlte Arbeit finden; − starre, sehr lange Arbeitszeiten (zwölf und mehr Stunden), − strenge Fabrikordnung, Lärm und gefährliche Maschinen, − langer Arbeitsweg oder Umzug in die Stadt."
         },
         {
           "id": "bildquelle-weberei",
@@ -175,7 +175,7 @@
         },
         {
           "id": "peer-quizfrage",
-          "prompt": "**Lernen durch Lehren:** Erstelle selbst eine Quizfrage zu diesem Modul mit drei Antwortmöglichkeiten (eine richtig, zwei falsch) und stelle sie einer Kollegin oder einem Kollegen. Erkläre anschliessend in eigenen Worten, warum die richtige Antwort stimmt.",
+          "prompt": "**Lernen durch Lehren:** Erstelle selbst eine Quizfrage zu diesem Modul mit drei Antwortmöglichkeiten (eine richtig, zwei falsch). Schreibe die Frage samt Antworten auf und erkläre in eigenen Worten, warum die richtige Antwort stimmt. Wenn du magst, stelle die Frage danach einer Kollegin oder einem Kollegen.",
           "hint": "Gute Distraktoren (falsche Antworten) sind fast richtig – zum Beispiel eine Jahreszahl, die nur wenig daneben liegt, oder ein Ereignis, das es wirklich gab, aber nicht zur Frage passt.",
           "solution": "Beispiel: «In welchem Jahr nahm das Schweizer Stimmvolk das eidgenössische Fabrikgesetz an? a) 1847, b) 1877, c) 1902.» Richtig ist b) 1877. Erklärung: 1847 fuhr die Spanisch-Brötli-Bahn zum ersten Mal – die Jahreszahl passt also zur Eisenbahn, nicht zum Arbeiterschutz. Wichtig ist, dass du die Erklärung frei formulieren kannst, ohne nachzulesen."
         }
