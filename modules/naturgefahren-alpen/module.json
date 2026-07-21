@@ -150,7 +150,7 @@
     {
       "type": "tasks",
       "title": "Aufgaben",
-      "intro": "Bearbeite die Aufgaben in dein Heft oder in ein Dokument. Nutze die Tipps, wenn du nicht weiterkommst, und vergleiche erst am Schluss mit der Musterlösung.",
+      "intro": "Tippe deine Antwort zu jeder Aufgabe direkt in das Textfeld – sie wird Teil deines Reports, den du mit deiner Lehrperson teilen kannst. Nutze die Tipps, wenn du nicht weiterkommst.",
       "tasks": [
         {
           "id": "gefahrenkarte-wohnort",
@@ -160,7 +160,7 @@
         },
         {
           "id": "vergleichstabelle",
-          "prompt": "Erstelle eine **Vergleichstabelle** zu den drei Naturgefahren Lawine, Murgang und Bergsturz mit den Spalten: *Was passiert?*, *Typischer Auslöser*, *Schweizer Fallbeispiel*, *Eine passende Schutzmassnahme*.",
+          "prompt": "Vergleiche die drei Naturgefahren **Lawine, Murgang und Bergsturz**: Schreibe zu jeder einen kurzen Abschnitt zu den Punkten *Was passiert?*, *Typischer Auslöser*, *Schweizer Fallbeispiel*, *Eine passende Schutzmassnahme*.",
           "hint": "Die Fallbeispiele findest du in den Textblöcken: Lawinenwinter 1999 (Evolène), Bondo 2017, Brienz 2023.",
           "solution": "Beispiel: **Lawine** – Schneemasse löst sich am Steilhang; Auslöser: viel Neuschnee, Wind; Fallbeispiel: Lawinenwinter 1999/Evolène; Schutz: Stützverbauungen im Anrissgebiet. **Murgang** – Gemisch aus Wasser, Schlamm und Geröll schiesst durchs Bachbett; Auslöser: Starkregen, Bergsturz auf Gletscher; Fallbeispiel: Bondo 2017; Schutz: Alarmsystem und Auffangbecken. **Bergsturz** – grosse Felsmassen brechen aus der Wand; Auslöser: instabiler Hang, auftauender Permafrost; Fallbeispiel: Brienz 2023; Schutz: Überwachung und Evakuierung."
         },
@@ -172,7 +172,7 @@
         },
         {
           "id": "peer-quizfrage",
-          "prompt": "**Lernen durch Lehren:** Erstelle selbst eine Quizfrage zu einem der drei Fallbeispiele (Lawinenwinter 1999, Bondo 2017 oder Brienz 2023) – mit drei Antwortmöglichkeiten, von denen genau eine stimmt. Stelle die Frage einer Kollegin oder einem Kollegen und erkläre danach, warum die richtige Antwort stimmt.",
+          "prompt": "**Lernen durch Lehren:** Erstelle selbst eine Quizfrage zu einem der drei Fallbeispiele (Lawinenwinter 1999, Bondo 2017 oder Brienz 2023) – mit drei Antwortmöglichkeiten, von denen genau eine stimmt. Schreibe die Frage mit den drei Antwortmöglichkeiten auf und erkläre danach, warum die richtige Antwort stimmt.",
           "hint": "Gute Distraktoren (falsche Antworten) sind fast richtig: z. B. eine ähnliche Jahreszahl oder eine Massnahme, die zu einer anderen Naturgefahr gehört.",
           "solution": "Beispiel: «Warum gab es beim Bergsturz von Bondo 2017 im Dorf selbst keine Todesopfer? A) Der Bergsturz war zu klein, um das Dorf zu erreichen. B) Ein Alarmsystem warnte die Bevölkerung rechtzeitig, und das Dorf wurde evakuiert. C) Der Schutzwald stoppte die Murgänge vollständig.» Richtig ist B – das automatische Alarmsystem löste aus, die Menschen brachten sich in Sicherheit."
         }
