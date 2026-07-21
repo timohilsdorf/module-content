@@ -55,6 +55,11 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >   {"code", "description"}), "curriculum" (Lehrplan-Referenzrahmen,
 >   Standard "lehrplan21"), "sources" (Liste von {"title", "url"}),
 >   "license": "CC BY-SA 4.0", "authors".
+> - Gehört das Modul zu einer Reihe: "sequenz" (Lernreihenfolge innerhalb
+>   von Fach/Einheit, ganze Zahl, 1 = zuerst – der Katalog sortiert
+>   danach, nicht nach Dateinamen) und "einheit" (Name der Themengruppe,
+>   z. B. "Themenblock A: Grundbegriffe und Wirtschaftskreislauf" –
+>   Module mit gleichem Wert erscheinen im Katalog als ein Lernpfad).
 > - Blocktypen für "blocks":
 >   1. {"type":"text","title":"…","body":"… Markdown erlaubt, KEIN HTML …"}
 >   2. {"type":"video","provider":"youtube","videoId":"NUR die Video-ID

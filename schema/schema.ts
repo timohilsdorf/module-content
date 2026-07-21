@@ -29,6 +29,12 @@ import { z } from "zod";
  *   Parsen VERLUSTFREI migriert (parseModulDatei): Das Sonderfeld wird
  *   zum letzten Block mit der id "quiz" – derselbe Lernstand-Schlüssel
  *   wie bisher, Fortschritt/Reports/Coins bleiben kompatibel.
+ * - 2, additive Ergänzung (21.7.2026, KEIN Versionswechsel – bestehende
+ *   Dateien bleiben unverändert gültig): optionale Metadaten `sequenz`
+ *   (Lernreihenfolge innerhalb von Fach/Einheit, 1 = zuerst; der Katalog
+ *   sortiert danach statt nach Dateinamen) und `einheit` (Themengruppe,
+ *   wenn mehrere Module eine Reihe bilden; der Katalog fasst Module mit
+ *   identischem Wert sichtbar zusammen).
  */
 export const SCHEMA_VERSION = 2;
 
@@ -491,6 +497,19 @@ const modulBasis = {
   cycle: z.union([z.literal(1), z.literal(2), z.literal(3)]),
   /** Freitext-Angabe der Stufe, z. B. "7.–9. Klasse (Sek I)". */
   grades: z.string().optional(),
+  /**
+   * Lernreihenfolge innerhalb des Fachs bzw. der Einheit (1 = zuerst).
+   * Der Katalog sortiert Module einer Gruppe aufsteigend danach – die
+   * didaktische Reihenfolge hängt so an den Metadaten, nicht am
+   * Dateinamen. Module ohne Wert folgen alphabetisch nach Titel.
+   */
+  sequenz: z.number().int().positive().optional(),
+  /**
+   * Themengruppe/Einheit, wenn mehrere Module eine Reihe bilden (z. B.
+   * "Themenblock A: Grundbegriffe und Wirtschaftskreislauf"). Module mit
+   * identischem Wert fasst der Katalog sichtbar als Lernpfad zusammen.
+   */
+  einheit: z.string().trim().min(1).max(120).optional(),
   /** Sprache des Moduls als BCP-47-Code. */
   language: z.string().default("de"),
   /**
