@@ -396,6 +396,15 @@ function checkModule(
     }
   }
 
+  // --- Einheit ohne Lernreihenfolge (Warnung) ------------------------------
+  // Der Katalog zeigt dann bewusst keine Lernpfad-Nummern – vermutlich ist
+  // das Vergessen der sequenz aber ein Versehen.
+  if (mod.einheit && mod.sequenz === undefined) {
+    hints.push(
+      `einheit "${mod.einheit}" ist gesetzt, aber ohne "sequenz" – der Katalog zeigt für dieses Modul keine Lernpfad-Nummer.`,
+    );
+  }
+
   return { errors, hints };
 }
 
