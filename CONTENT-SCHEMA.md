@@ -14,6 +14,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 1 | initial | Grundformat: Blöcke `text`, `image`, `video`, `tasks`; Quiz mit drei Fragetypen. |
 | 1 | Juli 2026 | Additiv: neuer, automatisch geprüfter Blocktyp [`lueckentext`](#lueckentext--lückentext-automatisch-geprüft) (Cloze). `schemaVersion` bleibt `1` – bestehende Module sind unverändert gültig; ältere Player-Versionen zeigen für den neuen Block einen Platzhalter. |
 | 1 | Juli 2026 | Additiv: Konzept [«prüfender Block»](#prüfende-blöcke-und-modulabschluss) – Quiz und prüfende Blocktypen (`PRUEFENDE_BLOCK_TYPES` in `schema/schema.ts`, aktuell `lueckentext`) zählen gleichwertig für Modulabschluss, Punkte und Lernrate. Ein Modul braucht kein Quiz mehr; ohne prüfende Elemente gilt es nach dem Durchsehen als abgeschlossen. |
+| 2 | 21. Juli 2026 | Additiv (kein Versionswechsel): optionale Katalog-Metadaten [`sequenz`](#aufbau-eines-moduls) (Lernreihenfolge innerhalb von Fach/Einheit, `1` = zuerst – der Katalog sortiert danach statt nach Dateinamen) und [`einheit`](#aufbau-eines-moduls) (Themengruppe, wenn mehrere Module eine Reihe bilden; der Katalog fasst Module mit identischem Wert sichtbar als Lernpfad zusammen). Bestehende Dateien bleiben unverändert gültig. |
 | 2 | Juli 2026 | **Quiz ist ein regulärer Block** (`type: "quiz"`, Pflicht-`id`): beliebig viele Quizze pro Modul, an beliebiger Position, jedes wird einzeln ausgewertet (Prozent, Punkte, Versuche) und zählt als prüfender Block. Das frühere Sonderfeld `quiz` auf Modulebene entfällt in Version 2. **Version-1-Dateien bleiben gültig** und werden beim Einlesen verlustfrei migriert: Das Sonderfeld wird zum letzten Block mit der `id` `"quiz"` – derselbe Lernstand-Schlüssel, Fortschritt und Reports bleiben kompatibel. Coins gibt es weiterhin einmal pro bestandenem Modul, nicht pro Quiz. |
 
 ## Ablage
@@ -92,6 +93,8 @@ Regeln:
 | `subjectName` | – | string | Ausgeschriebener Fachname (Gruppierung im Katalog). |
 | `cycle` | ✅ | `1 \| 2 \| 3` | Lehrplan-21-Zyklus. `3` = Sekundarstufe I. |
 | `grades` | – | string | Freitext-Stufe, z. B. `"7.–9. Klasse (Sek I)"`. |
+| `sequenz` | – | int > 0 | Lernreihenfolge innerhalb des Fachs bzw. der Einheit (`1` = zuerst). Der Katalog sortiert danach – unabhängig vom Dateinamen; Module ohne Wert folgen alphabetisch nach Titel. |
+| `einheit` | – | string (≤ 120) | Themengruppe/Einheit, wenn mehrere Module eine Reihe bilden (z. B. `"Themenblock A: Grundbegriffe und Wirtschaftskreislauf"`). Module mit identischem Wert fasst der Katalog sichtbar als Lernpfad zusammen. |
 | `language` | – | string | BCP-47-Code, Standard `"de"`. |
 | `curriculum` | – | string | Lehrplan-Referenzrahmen für `cycle`/`competencies`, Standard `"lehrplan21"`. Wird beim Modul als Badge angezeigt; die Plattform selbst ist lehrplanneutral. |
 | `competencies` | – | Liste | Lehrplan-21-Kompetenzcodes (`code` im Format `FACH.x.y.z`, z. B. `RZG.4.2.c`; optional `description`). |
