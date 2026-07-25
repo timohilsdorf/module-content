@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-06-angebot-und-nachfrage",
+  "title": "Angebot und Nachfrage",
+  "description": "Warum zahlen Fans für ausverkaufte Konzerttickets plötzlich das Doppelte – und warum kosten Erdbeeren im Winter mehr als im Sommer? Im sechsten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die zwei Kräfte des Marktes kennen: die Nachfrage der Käuferinnen und Käufer und das Angebot der Anbieter. Du erfährst, wie beide Seiten auf den Preis reagieren – und welche Einflüsse jenseits des Preises sie verändern.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 6,
+  "einheit": "Themenblock B: Markt und Preise",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "leicht",
+  "keywords": [
+    "Markt",
+    "Angebot",
+    "Nachfrage",
+    "Preis",
+    "Nachfrager",
+    "Anbieter",
+    "Nachfragekurve",
+    "Angebotskurve",
+    "Trends",
+    "Einkommen",
+    "Jahreszeit",
+    "Konzerttickets",
+    "Sneaker"
+  ],
+  "learningObjectives": [
+    "Ich kann das Nachfrageverhalten beschreiben: Bei steigendem Preis wird in der Regel weniger nachgefragt – und bei sinkendem Preis mehr.",
+    "Ich kann das Angebotsverhalten beschreiben: Bei steigendem Preis wird mehr angeboten, weil sich Herstellung und Verkauf dann stärker lohnen.",
+    "Ich kann Einflussfaktoren jenseits des Preises nennen – Trends, Einkommen, Jahreszeit und die Anzahl der Anbieter – und an Alltagsbeispielen erklären, wie sie Nachfrage oder Angebot verändern."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
+    },
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "AWS – Arbeitsgemeinschaft Wirtschaft und Schule (ibw)",
+      "url": "https://aws.ibw.at"
+    },
+    {
+      "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+      "url": "https://www.iconomix.ch"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-02-haushalte-unternehmen-staat"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Das Ticket-Rätsel",
+      "body": "Deine Lieblingsband kündigt ein Konzert in Zürich an. Die Tickets kosten 80 Franken – und sind nach zwanzig Minuten ausverkauft. Zwei Tage später werden dieselben Tickets im Internet für 200 Franken weiterverkauft. Und es gibt Leute, die das bezahlen.\n\nÄhnliches passiert bei **limitierten Sneakers**: Ein Hersteller bringt nur wenige tausend Paar eines Modells heraus, und schon am ersten Tag werden sie zu Fantasiepreisen weitergehandelt. Umgekehrt gibt es Produkte, die kaum jemand will – die liegen wie Blei im Regal und landen irgendwann mit Rabattkleber im Ausverkauf.\n\nWer entscheidet eigentlich, was etwas kostet? Die überraschende Antwort: In einer Marktwirtschaft meist **keine einzelne Person**. Hinter den Preisen stecken zwei Kräfte, die ständig wirken – die **Nachfrage** der Käuferinnen und Käufer und das **Angebot** der Verkäuferinnen und Verkäufer. In diesem Modul lernst du beide Kräfte einzeln kennen. Wie sie zusammen einen Preis entstehen lassen, ist dann Thema des nächsten Moduls.\n\n**Reflexionsfrage für dieses Modul:** Wo bist du diese Woche selbst als Nachfragerin oder Nachfrager aufgetreten – und wer stand dabei auf der Anbieterseite? Behalte die Frage im Kopf, am Ende des Moduls fällt dir die Antwort leicht."
+    },
+    {
+      "type": "text",
+      "title": "Die Nachfrage: die Seite der Käuferinnen und Käufer",
+      "body": "Aus Modul 1 kennst du **Bedürfnisse** – vom Existenzbedürfnis Essen bis zum Wunsch nach dem neuen Handy. Auf dem Markt wird daraus **Nachfrage**: der Wunsch nach einem Gut **plus** das Geld und die Bereitschaft, dafür zu bezahlen. Nur wünschen reicht also nicht – wer 5000 Franken für ein E-Bike weder hat noch ausgeben will, fragt es nicht nach.\n\nDie **nachgefragte Menge** hängt stark vom Preis ab. Stell dir den Glacestand im Freibad vor: Kostet die Kugel 2 Franken, gönnen sich viele gleich zwei davon. Kostet sie plötzlich 6 Franken, überlegen sich das die meisten zweimal – einige verzichten ganz, andere weichen aus und kaufen ihre Glace im Supermarkt nebenan.\n\nDaraus ergibt sich die wichtigste Regel der Nachfrageseite:\n\n- **Steigt der Preis, sinkt die nachgefragte Menge.**\n- **Sinkt der Preis, steigt die nachgefragte Menge.**\n\nÖkonominnen und Ökonomen zeichnen das als **fallende Kurve**: oben links (hoher Preis) kaufen nur wenige, unten rechts (tiefer Preis) kaufen viele. Du findest sie in der Grafik weiter unten in Blau.\n\nZurück zum Ticket-Rätsel: Bei 80 Franken wollten viel mehr Fans ein Ticket, als es Plätze gab. Selbst bei 200 Franken sind noch genug Fans bereit zu zahlen – die Nachfrage nach diesem Konzert ist riesig."
+    },
+    {
+      "type": "text",
+      "title": "Das Angebot: die Seite der Verkäuferinnen und Verkäufer",
+      "body": "Auf der anderen Marktseite stehen die **Anbieter** – meist Unternehmen, wie du sie aus Modul 2 kennst: die Bäckerei, der Sneaker-Hersteller, die Konzertveranstalterin. Das **Angebot** ist die Menge eines Gutes, die sie zu einem bestimmten Preis herstellen und verkaufen wollen.\n\nAuch die Anbieter reagieren auf den Preis – aber **genau umgekehrt** wie die Käuferinnen und Käufer. Warum? Wer verkauft, will mit dem Erlös seine Kosten decken und einen **Gewinn** erzielen. Je höher der Preis, desto mehr bleibt pro verkauftem Stück übrig – und desto eher lohnt es sich, zusätzliche Mengen herzustellen oder überhaupt erst mitzumachen.\n\nEin Beispiel: Wenn ein Kilo Himbeeren 15 Franken bringt, lohnt es sich für einen Hof, zusätzliche Reihen anzupflanzen, Erntehelferinnen zu bezahlen und auch die hintersten Stauden abzuernten. Sinkt der Preis auf 3 Franken, lassen manche Betriebe die Beeren lieber hängen – die Ernte würde mehr kosten, als sie einbringt. Und beim Flohmarkt gilt dasselbe im Kleinen: Für 50 Rappen trennst du dich kaum von deinen alten Games – für 30 Franken pro Stück würdest du wohl die halbe Sammlung anbieten.\n\nDie Regel der Angebotsseite lautet also:\n\n- **Steigt der Preis, steigt die angebotene Menge.**\n- **Sinkt der Preis, sinkt die angebotene Menge.**\n\nGezeichnet ergibt das eine **steigende Kurve** – in der Grafik unten in Grün."
+    },
+    {
+      "type": "image",
+      "title": "Nachfrage und Angebot als Kurven",
+      "src": "/content/wirtschaft-politik-06-angebot-und-nachfrage/angebot-nachfrage-kurven.png",
+      "alt": "Zwei getrennte, stilisierte Diagramme nebeneinander. Beide haben eine senkrechte Achse mit der Beschriftung Preis und eine waagrechte Achse mit der Beschriftung Menge. Links das Diagramm der Nachfrage in Blau: Die Kurve fällt von oben links nach unten rechts. Bei hohem Preis kaufen nur wenige, bei tiefem Preis kaufen viele. Rechts das Diagramm des Angebots in Grün: Die Kurve steigt von unten links nach oben rechts. Bei tiefem Preis bieten nur wenige an, bei hohem Preis bieten viele an. Unter den Diagrammen stehen zwei Merksätze: Nachfrage – je höher der Preis, desto weniger wird gekauft. Angebot – je höher der Preis, desto mehr wird angeboten. Ein Hinweis vermerkt, dass die Kurven den Trend zeigen und keine exakten Zahlen.",
+      "caption": "Zwei Kräfte, zwei Kurven: Die Nachfrage (blau) fällt mit steigendem Preis, das Angebot (grün) steigt mit ihm. Noch stehen die beiden Diagramme getrennt nebeneinander – was passiert, wenn man sie übereinanderlegt, siehst du im nächsten Modul.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Nicht nur der Preis: vier weitere Einflussfaktoren",
+      "body": "Nachfrage und Angebot reagieren nicht nur auf den Preis. Vier Einflussfaktoren solltest du kennen:\n\n- **Trends und Vorlieben:** Ein Social-Media-Hype kann die Nachfrage explodieren lassen, ohne dass sich am Preis etwas geändert hat – plötzlich wollen alle dieselbe Trinkflasche oder dieselben Sneaker. Flaut der Trend ab, bleibt die Ware liegen.\n- **Einkommen:** Wer mehr Geld zur Verfügung hat, fragt mehr nach – nach dem Ferienjob liegt das Konzertticket eher drin als vorher. Sinkt das Einkommen, wird zuerst bei Wünschen gespart, die nicht dringend sind.\n- **Jahreszeit:** Im Juli gibt es Erdbeeren aus der ganzen Region – das Angebot ist gross. Im Januar wächst hier keine einzige, importierte Früchte sind aufwendig und selten – das Angebot ist klein. Auch die Nachfrage kennt Jahreszeiten: Glace im Hitzesommer, Skier im Winter, Mandarinen vor Weihnachten.\n- **Anzahl der Anbieter:** Eröffnen in der Stadt zwei neue Pizzakuriere, ist das Gesamtangebot an gelieferten Pizzas grösser als vorher. Gibt ein Anbieter auf oder stoppt ein Hersteller die Produktion, schrumpft das Angebot.\n\nMerke dir: **Der Preis bewegt Nachfrage und Angebot – aber Trends, Einkommen, Jahreszeit und die Zahl der Anbieter verschieben sie zusätzlich.** Wenn du eine Preisänderung im Alltag beobachtest, lohnt sich darum immer die Frage: Was ist hier gerade auf der Nachfrageseite passiert – und was auf der Angebotsseite?"
+    },
+    {
+      "type": "text",
+      "title": "Wer ist hier wer? Haushalte und Unternehmen auf dem Markt",
+      "body": "Verbinden wir das mit dem Wirtschaftskreislauf aus den Modulen 2 und 3: Auf den **Gütermärkten** – also überall dort, wo Waren und Dienstleistungen gehandelt werden – sind die **Haushalte** meist die Nachfrager und die **Unternehmen** die Anbieter. Du fragst eine Glace nach, der Kiosk bietet sie an.\n\nEs gibt aber einen Markt, auf dem die Rollen vertauscht sind: den **Arbeitsmarkt**. Dort **bieten** die Haushalte ihre Arbeitskraft **an** – und die Unternehmen fragen sie nach. Wer eine Lehrstelle sucht, ist also Anbieterin ihrer Arbeitskraft; der Betrieb, der Lernende sucht, ist Nachfrager. Ob jemand Anbieter oder Nachfrager ist, hängt also nicht an der Person, sondern an der **Rolle auf dem jeweiligen Markt**.\n\nDamit kennst du beide Kräfte des Marktes: die fallende Nachfrage und das steigende Angebot. Im nächsten Modul lässt du sie aufeinandertreffen – und findest heraus, wie daraus ein Preis entsteht."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Angebot und Nachfrage",
+      "intro": "Zeig, was du über die zwei Kräfte des Marktes weisst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Was versteht man in der Wirtschaft unter «Nachfrage»?",
+          "options": [
+            {
+              "text": "Alle Produkte, die in den Läden zum Verkauf bereitliegen."
+            },
+            {
+              "text": "Jeden Wunsch nach einem Produkt – auch ohne Geld dafür."
+            },
+            {
+              "text": "Den Wunsch nach einem Gut, verbunden mit dem Geld und der Bereitschaft, dafür zu bezahlen.",
+              "correct": true
+            },
+            {
+              "text": "Die Anzahl der Anbieter auf einem Markt."
+            }
+          ],
+          "explanation": "Nachfrage ist mehr als ein Wunsch: Sie besteht aus dem Wunsch nach einem Gut PLUS dem Geld und der Bereitschaft, es auszugeben. Wer sich ein E-Bike nur erträumt, fragt es nicht nach. Die Produkte in den Läden gehören zur Angebotsseite, und die Anzahl der Anbieter beschreibt das Angebot, nicht die Nachfrage."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Der Preis für eine Kugel Glace steigt von 2 auf 6 Franken. Was passiert typischerweise mit der nachgefragten Menge?",
+          "options": [
+            {
+              "text": "Sie sinkt – einige verzichten, andere weichen auf günstigere Alternativen aus.",
+              "correct": true
+            },
+            {
+              "text": "Sie steigt – ein höherer Preis macht die Glace begehrter."
+            },
+            {
+              "text": "Sie bleibt genau gleich, weil Glace ein Existenzbedürfnis ist."
+            },
+            {
+              "text": "Sie hängt gar nicht vom Preis ab, sondern nur vom Wetter."
+            }
+          ],
+          "explanation": "Steigt der Preis, sinkt in der Regel die nachgefragte Menge: Einige verzichten ganz, andere kaufen ihre Glace dort, wo sie günstiger ist. Ein höherer Preis macht ein Produkt für die meisten nicht begehrter, sondern weniger attraktiv. Glace ist zudem kein Existenzbedürfnis – und das Wetter ist zwar ein echter Einflussfaktor, ersetzt aber die Preiswirkung nicht."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Der Preis für Himbeeren steigt stark. Wie reagieren die Anbieter typischerweise?",
+          "options": [
+            {
+              "text": "Sie bieten weniger an, um die Himbeeren für später aufzusparen."
+            },
+            {
+              "text": "Sie verhalten sich wie die Käufer und ziehen sich vom Markt zurück."
+            },
+            {
+              "text": "Sie ändern nichts, denn das Angebot reagiert nicht auf den Preis."
+            },
+            {
+              "text": "Sie bieten mehr an, weil sich Anbau und Ernte jetzt stärker lohnen.",
+              "correct": true
+            }
+          ],
+          "explanation": "Für die Anbieter gilt das Umgekehrte wie für die Käufer: Je höher der Preis, desto mehr bleibt pro verkauftem Kilo übrig – zusätzliche Reihen anzupflanzen und auch die hintersten Stauden abzuernten lohnt sich jetzt. Das Angebot steigt also mit dem Preis; Zurückhalten oder Rückzug wäre genau das Gegenteil des typischen Angebotsverhaltens."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Warum bieten Verkäuferinnen und Verkäufer bei hohen Preisen mehr an?",
+          "options": [
+            {
+              "text": "Weil der Staat ihnen bei hohen Preisen vorschreibt, mehr zu produzieren."
+            },
+            {
+              "text": "Weil pro verkauftem Stück mehr übrig bleibt und sich die Herstellung zusätzlicher Mengen eher lohnt.",
+              "correct": true
+            },
+            {
+              "text": "Weil die Herstellung automatisch billiger wird, sobald der Preis steigt."
+            },
+            {
+              "text": "Weil sie den Käuferinnen und Käufern bei hohen Preisen einen Gefallen tun wollen."
+            }
+          ],
+          "explanation": "Anbieter wollen ihre Kosten decken und einen Gewinn erzielen. Bei einem höheren Preis bleibt pro Stück mehr übrig – darum lohnt es sich, mehr herzustellen oder überhaupt erst auf den Markt zu gehen. Der Staat schreibt in einer Marktwirtschaft keine Produktionsmengen vor, die Herstellungskosten sinken durch einen höheren Preis nicht automatisch, und mit Gefälligkeit hat das Angebotsverhalten nichts zu tun."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Ein Konzert ist ausverkauft, und im Internet werden Tickets für ein Mehrfaches des ursprünglichen Preises gehandelt. Was zeigt diese Situation?",
+          "options": [
+            {
+              "text": "Die Nachfrage nach dem Konzert ist sehr klein geworden."
+            },
+            {
+              "text": "Sehr viele wollen eines der wenigen Tickets – die grosse Nachfrage trifft auf ein begrenztes Angebot.",
+              "correct": true
+            },
+            {
+              "text": "Die Konzertveranstalterin hat das Angebot an Plätzen heimlich vergrössert."
+            },
+            {
+              "text": "Die Ticketpreise haben nichts mit Angebot und Nachfrage zu tun."
+            }
+          ],
+          "explanation": "Die Plätze in der Halle sind begrenzt – das Angebot kann nicht mitwachsen. Wollen viel mehr Fans ein Ticket, als es Plätze gibt, sind manche bereit, deutlich mehr zu bezahlen. Genau das zeigt der hohe Weiterverkaufspreis: grosse Nachfrage, kleines Angebot. Von einer geschrumpften Nachfrage oder zusätzlichen Plätzen ist nichts zu sehen – und dass Preise nichts mit Angebot und Nachfrage zu tun hätten, widerlegt dieses Beispiel gerade."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Welches Ereignis verändert die NACHFRAGE nach einem Produkt, ohne dass sich sein Preis ändert?",
+          "options": [
+            {
+              "text": "Eine besonders grosse Erdbeerernte in der Region."
+            },
+            {
+              "text": "Zwei zusätzliche Anbieter drängen auf den Markt."
+            },
+            {
+              "text": "Ein Social-Media-Trend macht das Produkt plötzlich bei allen begehrt.",
+              "correct": true
+            },
+            {
+              "text": "Die Produktionskosten des Herstellers sinken."
+            }
+          ],
+          "explanation": "Trends und Vorlieben wirken direkt auf die Nachfrageseite: Plötzlich wollen viel mehr Leute das Produkt – ganz ohne Preisänderung. Die grosse Ernte, zusätzliche Anbieter und tiefere Produktionskosten verändern dagegen alle das Angebot, nicht die Nachfrage."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Erdbeeren kosten im Januar deutlich mehr als im Juli. Was ist die beste Erklärung dafür?",
+          "options": [
+            {
+              "text": "Im Winter ist das Angebot klein: Hier reift nichts, und importierte Erdbeeren sind aufwendig und selten.",
+              "correct": true
+            },
+            {
+              "text": "Im Winter ist die Nachfrage nach Erdbeeren am allergrössten."
+            },
+            {
+              "text": "Der Staat legt für den Winter höhere Erdbeerpreise fest."
+            },
+            {
+              "text": "Die Händler verlangen im Winter aus reiner Willkür mehr."
+            }
+          ],
+          "explanation": "Im Januar wächst in unserer Region keine einzige Erdbeere – was im Laden liegt, wurde aufwendig importiert. Das Angebot ist also klein, und genau das macht die Früchte teuer. Die Nachfrage nach Erdbeeren ist im Winter eher kleiner als im Sommer, der Staat legt keine Erdbeerpreise fest, und «Willkür» erklärt nicht, warum die Preise ausgerechnet jeden Winter steigen und jeden Sommer fallen."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "In einer Stadt eröffnen zwei zusätzliche Pizzakuriere. Was passiert mit dem gesamten Angebot an gelieferten Pizzas?",
+          "options": [
+            {
+              "text": "Es wird kleiner, weil sich die Kuriere die Kundschaft teilen müssen."
+            },
+            {
+              "text": "Es bleibt gleich, weil jeder Kurier einfach weniger verkauft."
+            },
+            {
+              "text": "Es verschwindet, weil zu viele Anbieter den Markt zerstören."
+            },
+            {
+              "text": "Es wird grösser – mit mehr Anbietern steht insgesamt mehr Ware und Lieferkapazität bereit.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die Anzahl der Anbieter ist einer der vier Einflussfaktoren: Mehr Anbieter bedeuten ein grösseres Gesamtangebot – es können schlicht mehr Pizzas gleichzeitig gebacken und ausgeliefert werden. Wie sich die Kundschaft verteilt, ist eine andere Frage; das Gesamtangebot schrumpft dadurch nicht, und ein Markt «verschwindet» durch zusätzliche Anbieter nicht."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-marktkraefte",
+      "title": "Angebot und Nachfrage: Setze die Begriffe ein",
+      "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Auf jedem Markt treffen zwei Seiten aufeinander. Die Menge, die Käuferinnen und Käufer zu einem bestimmten Preis kaufen wollen, heisst {{1}}. Die Menge, die Verkäuferinnen und Verkäufer zu einem bestimmten Preis verkaufen wollen, heisst {{2}}. Beide Seiten reagieren auf den {{3}} – aber genau entgegengesetzt: Wird ein Produkt teurer, kaufen die Leute in der Regel {{4}} davon. Für die Anbieter gilt das Umgekehrte: Bei steigenden Preisen bieten sie mehr an, denn pro verkauftem Stück winkt mehr {{5}}.\nDie Nachfrage verändert sich aber auch ohne Preisänderung: {{6}} machen ein Produkt plötzlich bei allen begehrt, ein höheres {{7}} lässt die Leute mehr kaufen, und die {{8}} entscheidet zum Beispiel darüber, wann Glace oder Skier gefragt sind. Auf der Angebotsseite zählt zusätzlich die Zahl der {{9}}: Je mehr Verkäufer auf dem Markt sind, desto grösser ist die insgesamt angebotene {{10}} an Waren.",
+      "luecken": [
+        {
+          "antworten": [
+            "Nachfrage"
+          ]
+        },
+        {
+          "antworten": [
+            "Angebot"
+          ]
+        },
+        {
+          "antworten": [
+            "Preis"
+          ]
+        },
+        {
+          "antworten": [
+            "weniger"
+          ]
+        },
+        {
+          "antworten": [
+            "Gewinn"
+          ]
+        },
+        {
+          "antworten": [
+            "Trends"
+          ]
+        },
+        {
+          "antworten": [
+            "Einkommen"
+          ]
+        },
+        {
+          "antworten": [
+            "Jahreszeit"
+          ]
+        },
+        {
+          "antworten": [
+            "Anbieter"
+          ]
+        },
+        {
+          "antworten": [
+            "Menge"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Steuern",
+        "Produktivität",
+        "Sektor"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-preisreaktion",
+      "title": "Preisreaktionen: Tippe die Begriffe ein",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Ein Beispiel vom Pausenkiosk: Kostet das Sandwich plötzlich doppelt so viel, kaufen die meisten deutlich {{1}} Sandwiches – die Nachfrage {{2}}. Senkt der Kiosk den Preis wieder, greifen mehr Leute zu – die Nachfrage {{3}}. Die Anbieter verhalten sich spiegelverkehrt: Je höher der Preis, desto {{4}} wird angeboten. Auf den Gütermärkten treten die Haushalte meist als {{5}} auf – und die Unternehmen als {{6}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "weniger"
+          ]
+        },
+        {
+          "antworten": [
+            "sinkt",
+            "fällt",
+            "nimmt ab",
+            "geht zurück"
+          ]
+        },
+        {
+          "antworten": [
+            "steigt",
+            "wächst",
+            "nimmt zu"
+          ]
+        },
+        {
+          "antworten": [
+            "mehr",
+            "grösser"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrager",
+            "Käufer",
+            "Konsumenten",
+            "Nachfragerinnen",
+            "Käuferinnen",
+            "Konsumentinnen",
+            "Kundinnen",
+            "Kunden"
+          ]
+        },
+        {
+          "antworten": [
+            "Anbieter",
+            "Verkäufer",
+            "Produzenten",
+            "Anbieterinnen",
+            "Verkäuferinnen",
+            "Produzentinnen",
+            "Händler",
+            "Händlerinnen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-marktkraefte",
+      "title": "Zuordnen: Was passiert hier mit Nachfrage oder Angebot?",
+      "intro": "Ordne jeder Situation die richtige Wirkung zu: **Nachfrage steigt**, **Nachfrage sinkt**, **Angebot steigt** oder **Angebot sinkt**. Frag dich jeweils: Verändert sich hier das Verhalten der Käuferinnen und Käufer – oder das der Anbieter?",
+      "modus": "wortbank",
+      "text": "Ein Influencer macht eine bestimmte Trinkflasche zum Trend: {{1}}\nIm Juli reifen überall in der Region Erdbeeren, die Höfe liefern grosse Mengen: {{2}}\nEin kalter, verregneter Sommer – kaum jemand hat Lust auf Glace: {{3}}\nZwei neue Pizzakuriere eröffnen in der Stadt: {{4}}\nNach dem Ferienjob haben viele Jugendliche mehr Geld für Konzerte übrig: {{5}}\nDer Hype um ein Handyspiel flaut ab, kaum jemand kauft noch Zubehör dazu: {{6}}\nEine Missernte vernichtet einen grossen Teil der Kartoffelernte: {{7}}\nEin Hersteller stoppt die Produktion einer beliebten Schokolade: {{8}}\nVor Weihnachten wollen alle Mandarinen und Nüsse kaufen: {{9}}\nEin Hof stellt neu auf Beerenanbau um und erntet zum ersten Mal mit: {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Nachfrage steigt"
+          ]
+        },
+        {
+          "antworten": [
+            "Angebot steigt"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrage sinkt"
+          ]
+        },
+        {
+          "antworten": [
+            "Angebot steigt"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrage steigt"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrage sinkt"
+          ]
+        },
+        {
+          "antworten": [
+            "Angebot sinkt"
+          ]
+        },
+        {
+          "antworten": [
+            "Angebot sinkt"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrage steigt"
+          ]
+        },
+        {
+          "antworten": [
+            "Angebot steigt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Marktkräfte in deinem Alltag",
+      "tasks": [
+        {
+          "prompt": "Preis-Detektivin, Preis-Detektiv: Such dir ein Produkt aus deinem Alltag, dessen Preis sich spürbar verändert hat oder je nach Zeitpunkt unterschiedlich hoch ist – zum Beispiel Konzerttickets, limitierte Sneaker, Skitageskarten oder Früchte im Winter und im Sommer. Beschreibe: (1) Wie hat sich der Preis verändert? (2) Was ist auf der Nachfrageseite passiert, was auf der Angebotsseite? (3) Welcher Einflussfaktor aus dem Modul steckt dahinter – Trend, Einkommen, Jahreszeit oder die Zahl der Anbieter?",
+          "hint": "Frag dich immer zuerst: Wollen plötzlich mehr oder weniger Leute das Produkt (Nachfrageseite)? Oder gibt es plötzlich mehr oder weniger davon zu kaufen (Angebotsseite)? Oft verändern sich beide Seiten gleichzeitig – dann beschreibe beide.",
+          "solution": "Beispiel Skitageskarte: In den Sportferien wollen sehr viele Leute Ski fahren – die Nachfrage ist gross, während die Zahl der Pisten und Bahnen gleich bleibt. Die Bergbahnen verlangen dann die höchsten Preise. Im März sinkt die Nachfrage, und viele Bahnen locken mit günstigeren Tickets. Einflussfaktor: die Jahreszeit, die hier vor allem die Nachfrageseite bewegt. Wichtig ist, dass du Nachfrage- und Angebotsseite getrennt benennst und den Einflussfaktor klar zuordnest."
+        },
+        {
+          "prompt": "Erkläre in eigenen Worten – so, dass es auch jemand verstehen würde, der dieses Modul nicht kennt –, warum Käuferinnen und Käufer bei steigendem Preis weniger kaufen, die Anbieter aber gleichzeitig mehr verkaufen wollen. Verwende ein eigenes Beispiel, das nicht im Modul vorkommt. ODER: Erfinde drei eigene Situationen im Stil der Zuordnungsaufgabe und gib jeweils mit kurzer Begründung an, ob die Nachfrage oder das Angebot steigt oder sinkt – eine Situation darf besonders knifflig sein.",
+          "hint": "Für die Erklärung hilft der Blick auf die Motive der beiden Seiten: Käufer wollen mit ihrem Geld möglichst gut auskommen, Anbieter wollen ihre Kosten decken und Gewinn erzielen. Für die kniffligen Situationen eignen sich Fälle, in denen sich beide Seiten gleichzeitig verändern – etwa ein Hitzesommer, der die Glace-Nachfrage erhöht UND die Erdbeerernte verdorren lässt.",
+          "solution": "Kernidee: Für Käuferinnen und Käufer wird ein Produkt mit steigendem Preis unattraktiver – sie verzichten oder weichen aus, weil ihr Geld begrenzt ist. Für Anbieter wird dasselbe Produkt mit steigendem Preis attraktiver, weil pro Stück mehr Gewinn übrig bleibt – es lohnt sich, mehr herzustellen. Beide reagieren also auf denselben Preis, aber aus entgegengesetzten Motiven. Beispiel für eine knifflige Zuordnungs-Situation: «Ein Rockstar trägt im Musikvideo eine Secondhand-Jacke einer alten Marke – und gleichzeitig findet die grösste Kleiderbörse des Jahres statt.» Hier steigt die Nachfrage (Trend) UND das Angebot (viele zusätzliche Anbieterinnen an der Börse)."
+        }
+      ]
+    }
+  ]
+}
