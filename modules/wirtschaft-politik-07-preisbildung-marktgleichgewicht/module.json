@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
+  "title": "Preisbildung und Marktgleichgewicht",
+  "description": "Auf dem Flohmarkt feilschst du um jeden Franken, im Laden steht der Preis fest angeschrieben – aber wer legt ihn eigentlich fest? Im siebten Modul des Vertiefungsfachs «Wirtschaft & Politik» erfährst du, wie aus Angebot und Nachfrage ein Marktpreis entsteht und was der Gleichgewichtspreis ist. Du lernst, woran man erkennt, dass ein Preis zu hoch oder zu tief liegt – und wertest euer Marktspiel aus dem Unterricht aus.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 7,
+  "einheit": "Themenblock B: Markt und Preise",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Preisbildung",
+    "Marktpreis",
+    "Gleichgewichtspreis",
+    "Gleichgewichtsmenge",
+    "Marktgleichgewicht",
+    "Überschuss",
+    "Knappheit",
+    "Ladenhüter",
+    "Ausverkauf",
+    "Marktspiel",
+    "Angebot",
+    "Nachfrage"
+  ],
+  "learningObjectives": [
+    "Ich kann erklären, wie aus Angebot und Nachfrage ein Marktpreis entsteht: Zu hohe Preise lassen Ware liegen, zu tiefe Preise leeren die Regale – der Preis pendelt sich dazwischen ein.",
+    "Ich kann den Gleichgewichtspreis als den Preis erklären, bei dem angebotene und nachgefragte Menge übereinstimmen – der Markt ist dann geräumt.",
+    "Ich kann die Folgen eines zu hohen Preises (Überschuss, Ladenhüter) und eines zu tiefen Preises (Knappheit, Schlangen) beschreiben und an Alltagsbeispielen erkennen."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
+    },
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "SRF school: Angebot und Nachfrage – Wie entstehen Preise? (Clip und klar!)",
+      "url": "https://www.srf.ch/sendungen/school/wirtschaft-politik/wirtschaft-politik-angebot-und-nachfrage-wie-entstehen-preise"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+      "url": "https://www.iconomix.ch"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-06-angebot-und-nachfrage"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Wer hat den Preis gemacht?",
+      "body": "Am Flohmarktstand fragst du: «Was kostet das Skateboard?» – «30 Franken.» – «Ich gebe dir 15.» – «25.» – «20?» – «Einverstanden.» In einer Minute habt ihr zwei etwas geschafft, das ziemlich erstaunlich ist: Ihr habt einen Preis **ausgehandelt**, mit dem beide leben können.\n\nIm Supermarkt wird nicht gefeilscht – da steht der Preis fest angeschrieben. Und trotzdem entsteht auch er nicht anders: Auch hinter dem Ladenpreis stecken die zwei Kräfte aus Modul 6, **Angebot** und **Nachfrage**. Nur verhandeln hier nicht zwei Personen, sondern viele Anbieter und sehr viele Käuferinnen und Käufer – Tag für Tag, über die ganze Wirtschaft verteilt.\n\n**Dieses Modul begleitet euer Marktspiel aus dem Unterricht.** Du kennst das Handeln also schon aus eigener Erfahrung: Vielleicht warst du Verkäuferin und bist deine Ware nicht losgeworden, vielleicht warst du Käufer und musstest mehr bieten als geplant. Behalte deine Beobachtungen aus dem Spiel im Kopf – **Was habt ihr im Spiel beobachtet?** ist die Reflexionsfrage, die uns durch das ganze Modul begleitet. Am Ende kannst du erklären, warum sich die Preise in eurem Spiel so entwickelt haben, wie sie es getan haben."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "Edcm17as1mY",
+      "title": "Video: Wie entstehen Preise?",
+      "description": "Das Erklärvideo (4:49) aus der SRF-Reihe «Clip und klar!» zeigt, wer über Preise entscheidet – und warum Produkte teurer oder billiger werden. Achte beim Schauen auf zwei Leitfragen: (1) Wer bestimmt im Video den Preis eines Produkts – die Herstellerfirma allein oder jemand anderes? (2) Verfolge das Beispiel des Fidget Spinners: Wie verändert sich sein Preis, als er zum Trend wird – und als der Hype abflaut? Notiere dir, was dabei jeweils mit dem Angebot und mit der Nachfrage passiert.",
+      "transcript": "Das Erklärvideo von SRF Kids (Reihe «Clip und klar!», 4:49 Minuten) erklärt, wie Preise entstehen: Nicht die Herstellerfirma allein bestimmt, was ein Produkt kostet – der Preis bildet sich auf dem Markt aus Angebot und Nachfrage. Moderator Raphi zeigt das am Beispiel des Fidget Spinners: Als das Spielzeug zum weltweiten Trend wurde, wollten sehr viele Leute gleichzeitig eines haben – die grosse Nachfrage traf auf ein noch kleines Angebot, und die Preise waren hoch. Dann produzierten immer mehr Firmen Spinner, und der Hype flaute ab: Ein grosses Angebot traf auf eine kleine Nachfrage – die Preise fielen stark. An weiteren Beispielen wie Handys, Kameras und Turnschuhen zeigt das Video die Grundregel der Preisbildung: Ist ein Gut knapp und begehrt, steigt sein Preis; gibt es viel davon und wollen es nur wenige, sinkt er."
+    },
+    {
+      "type": "text",
+      "title": "Vom Feilschen zum Marktpreis",
+      "body": "Wie findet ein Markt «seinen» Preis? Stell dir einen Wochenmarkt mit vielen Ständen vor, die alle Aprikosen verkaufen.\n\n**Versuch 1: Ein Stand verlangt 12 Franken pro Kilo.** Die meisten Kundinnen schauen, staunen – und gehen weiter zum nächsten Stand. Am Abend sind die Kisten noch voll. Wer seine Ware nicht wegwerfen will, muss reagieren: **Der Preis sinkt.**\n\n**Versuch 2: Ein Stand verlangt nur 2 Franken.** Innert einer Stunde ist alles weg, und die Schlange war lang – viele gingen leer aus. Etliche hätten problemlos mehr bezahlt. Der Standbetreiber merkt: Zu diesem Preis rennen sie mir den Stand ein – **der Preis kann steigen.** Und wer mehr verdienen kann, bietet nächste Woche auch grössere Mengen an.\n\nSo tasten sich beide Seiten aufeinander zu – wie beim Feilschen auf dem Flohmarkt, nur mit vielen Beteiligten gleichzeitig. Irgendwo dazwischen liegt ein Preis, bei dem es weder volle Restkisten noch lange Schlangen gibt: Die angebotene Menge und die nachgefragte Menge stimmen überein. Diesen Preis nennt man den **Gleichgewichtspreis** – und einen Markt, der ihn gefunden hat, nennt man **im Gleichgewicht**.\n\nWichtig: Niemand hat diesen Preis berechnet oder angeordnet. Er entsteht **von selbst** aus unzähligen einzelnen Entscheidungen – jede Kundin, die weitergeht, und jeder Anbieter, der seinen Preis anpasst, «stimmt» sozusagen mit."
+    },
+    {
+      "type": "text",
+      "title": "Das Marktgleichgewicht im Diagramm",
+      "body": "Jetzt kannst du die beiden Kurven aus Modul 6 **übereinanderlegen** – genau das zeigt die Grafik unten:\n\n- Die **blaue Nachfragekurve** fällt: Je tiefer der Preis, desto mehr wollen kaufen.\n- Die **grüne Angebotskurve** steigt: Je höher der Preis, desto mehr wird angeboten.\n- Im **Schnittpunkt** treffen sich die beiden Kräfte: Dort ist die angebotene Menge gleich der nachgefragten Menge. Der Preis an diesem Punkt ist der **Gleichgewichtspreis**, die Menge heisst **Gleichgewichtsmenge**.\n\nBeim Gleichgewichtspreis sagt man auch: **Der Markt ist geräumt.** Das heisst: Alle Anbieter, die zu diesem Preis verkaufen wollen, werden ihre Ware los – und alle Käuferinnen und Käufer, die zu diesem Preis kaufen wollen, kommen zum Zug. Es bleibt nichts Unverkauftes liegen, und niemand steht vergeblich an.\n\nAchtung, häufiges Missverständnis: «Geräumt» bedeutet nicht, dass **alle** Menschen das Gut bekommen. Wem der Gleichgewichtspreis zu hoch ist, der kauft nicht – er gehört dann schlicht nicht zur nachgefragten Menge. Das Gleichgewicht ist kein Wunschzustand für alle, sondern der Punkt, an dem sich Angebots- und Nachfrageseite **ohne Rest** treffen."
+    },
+    {
+      "type": "image",
+      "title": "Angebot und Nachfrage in einem Diagramm",
+      "src": "/content/wirtschaft-politik-07-preisbildung-marktgleichgewicht/marktgleichgewicht.png",
+      "alt": "Ein stilisiertes Diagramm mit einer senkrechten Preis-Achse und einer waagrechten Mengen-Achse. Die blaue Nachfragekurve fällt von oben links nach unten rechts, die grüne Angebotskurve steigt von unten links nach oben rechts. Im Schnittpunkt der beiden Kurven liegt der orange markierte Gleichgewichtspunkt, an dem Angebot und Nachfrage übereinstimmen. Gestrichelte orange Linien zeigen den zugehörigen Gleichgewichtspreis auf der Preis-Achse und die Gleichgewichtsmenge auf der Mengen-Achse. Oberhalb des Gleichgewichts, auf der Höhe eines zu hohen Preises, liegt eine grau schraffierte Zone zwischen den Kurven mit der Beschriftung: Überschuss – es bleibt Ware liegen, Ladenhüter. Unterhalb des Gleichgewichts, auf der Höhe eines zu tiefen Preises, liegt eine orange schraffierte Zone mit der Beschriftung: Knappheit – nicht alle bekommen etwas, Schlangen. Ein Hinweis vermerkt, dass die Kurven den Trend zeigen und keine exakten Zahlen.",
+      "caption": "Die beiden Kurven aus Modul 6, jetzt in einem Diagramm: Im orangen Gleichgewichtspunkt stimmen angebotene und nachgefragte Menge überein. Liegt der Preis darüber, entsteht ein Überschuss (graue Zone) – liegt er darunter, entsteht Knappheit (orange Zone).",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Wenn der Preis nicht passt: Überschuss und Knappheit",
+      "body": "Was passiert, wenn der Preis **nicht** beim Gleichgewicht liegt? Beide Fälle kennst du aus dem Alltag – und wahrscheinlich aus eurem Marktspiel:\n\n**Preis zu hoch → Überschuss.** Zum hohen Preis wollen die Anbieter viel verkaufen, aber nur wenige wollen kaufen. Die Differenz bleibt liegen: **Ladenhüter**. Typisches Beispiel: Wintermäntel im März. Beim alten Preis will sie kaum noch jemand – darum locken die Geschäfte im Ausverkauf mit Rabatten. Der Rabatt ist nichts anderes als der Weg des Preises zurück Richtung Gleichgewicht.\n\n**Preis zu tief → Knappheit.** Zum tiefen Preis wollen sehr viele kaufen, aber das Anbieten lohnt sich kaum – die nachgefragte Menge übersteigt die angebotene deutlich. Die Folgen: **Schlangen**, leere Regale, «ausverkauft». Erinnerst du dich an das Ticket-Rätsel aus Modul 6? Die Konzerttickets für 80 Franken waren in zwanzig Minuten weg, und im Weiterverkauf kosteten sie ein Mehrfaches. Jetzt kannst du das Rätsel lösen: **Der offizielle Preis lag unter dem Gleichgewichtspreis.** Viel mehr Fans wollten ein Ticket, als es Plätze gab – die Knappheit trieb den Weiterverkaufspreis nach oben.\n\n**Zurück zu eurem Marktspiel – Reflexionsfragen:**\n\n- In welcher Runde hast du einen **Überschuss** beobachtet – wer wurde seine Ware nicht los, und was hat er dann mit dem Preis gemacht?\n- Wo gab es **Knappheit** – was war schnell weg, und wie haben die Käuferinnen und Käufer reagiert?\n- Haben sich die Preise über die Runden hinweg irgendwo **eingependelt**? Vergleiche diesen Spiel-Preis mit dem Gleichgewichtspunkt in der Grafik."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Preisbildung und Gleichgewicht",
+      "intro": "Zeig, was du über Marktpreise, Überschuss und Knappheit weisst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Was ist der Gleichgewichtspreis?",
+          "options": [
+            {
+              "text": "Der Preis, den die Anbieter am liebsten verlangen würden."
+            },
+            {
+              "text": "Der Preis, bei dem die angebotene und die nachgefragte Menge übereinstimmen.",
+              "correct": true
+            },
+            {
+              "text": "Der Preis, den der Staat für einen Markt festlegt."
+            },
+            {
+              "text": "Der tiefste Preis, zu dem ein Anbieter gerade noch verkaufen kann."
+            }
+          ],
+          "explanation": "Der Gleichgewichtspreis ist der Preis im Schnittpunkt von Angebots- und Nachfragekurve: Genau dort wird so viel angeboten, wie nachgefragt wird – der Markt ist geräumt. Die Anbieter hätten gern mehr, die Käufer gern weniger; auf einem freien Markt legt der Staat den Preis nicht fest, und der tiefstmögliche Verkaufspreis eines einzelnen Anbieters ist etwas anderes als der Preis, bei dem beide Marktseiten übereinstimmen."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Auf dem Wochenmarkt bleiben am Mittag viele Aprikosen übrig. Die Standbetreiberin senkt den Preis. Warum ist das aus Marktsicht sinnvoll?",
+          "options": [
+            {
+              "text": "Aus Mitleid mit den Kundinnen und Kunden, die bisher zu viel bezahlt haben."
+            },
+            {
+              "text": "Weil Aprikosen bei tieferem Preis automatisch besser schmecken."
+            },
+            {
+              "text": "Weil sie damit die anderen Stände vom Markt verdrängen will – Preise haben mit den Restmengen nichts zu tun."
+            },
+            {
+              "text": "Beim bisherigen Preis war die angebotene Menge grösser als die nachgefragte – mit dem tieferen Preis findet die restliche Ware noch Käufer.",
+              "correct": true
+            }
+          ],
+          "explanation": "Volle Kisten am Mittag sind ein Zeichen für einen Überschuss: Zum verlangten Preis wollte kaum jemand so viele Aprikosen kaufen. Senkt die Betreiberin den Preis, steigt die nachgefragte Menge (das kennst du aus Modul 6) – die Ware wird noch verkauft, statt am Abend im Abfall zu landen. Mit Mitleid oder Geschmack hat das nichts zu tun, und der Preisschritt reagiert direkt auf die liegengebliebene Menge."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Was passiert typischerweise bei einem Preis UNTER dem Gleichgewichtspreis?",
+          "options": [
+            {
+              "text": "Die nachgefragte Menge übersteigt die angebotene – es entsteht Knappheit mit Schlangen und leeren Regalen.",
+              "correct": true
+            },
+            {
+              "text": "Es bleibt viel Ware liegen, weil niemand so billig kaufen will."
+            },
+            {
+              "text": "Der Markt ist automatisch geräumt, weil der Preis ja tief ist."
+            },
+            {
+              "text": "Die Nachfrage sinkt auf null, weil die Leute dem tiefen Preis misstrauen."
+            }
+          ],
+          "explanation": "Ein zu tiefer Preis lockt sehr viele Käuferinnen und Käufer an, während sich das Anbieten kaum lohnt: Die nachgefragte Menge ist grösser als die angebotene – das ist Knappheit. Liegenbleibende Ware wäre das Gegenteil (Überschuss bei zu hohem Preis). Geräumt ist der Markt nur beim Gleichgewichtspreis, und dass Kundschaft tiefen Preisen grundsätzlich misstraut, ist kein Marktgesetz."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Konzerttickets für 80 Franken sind in zwanzig Minuten ausverkauft und werden danach für ein Mehrfaches weiterverkauft. Was heisst das für den offiziellen Ticketpreis?",
+          "options": [
+            {
+              "text": "Er lag über dem Gleichgewichtspreis – darum wollten so viele ein Ticket."
+            },
+            {
+              "text": "Er lag genau im Gleichgewicht, denn alle Tickets wurden ja verkauft."
+            },
+            {
+              "text": "Er lag unter dem Gleichgewichtspreis – die Nachfrage überstieg das Angebot deutlich.",
+              "correct": true
+            },
+            {
+              "text": "Bei Konzerten ist die Preisbildung durch Angebot und Nachfrage ausser Kraft gesetzt."
+            }
+          ],
+          "explanation": "Blitz-Ausverkauf plus teurer Weiterverkauf sind das klassische Zeichen von Knappheit: Zum offiziellen Preis wollten viel mehr Fans ein Ticket, als es Plätze gab – der Preis lag also unter dem Gleichgewicht. «Alle Tickets verkauft» heisst nicht Gleichgewicht: Geräumt wäre der Markt erst, wenn auch alle Kaufwilligen zum Zug gekommen wären. Und dass auf dem Weiterverkaufsmarkt sofort höhere Preise entstehen, zeigt gerade, dass Angebot und Nachfrage sehr wohl wirken."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Was bedeutet die Aussage «Der Markt ist geräumt»?",
+          "options": [
+            {
+              "text": "Zum Gleichgewichtspreis werden alle angebotenen Güter verkauft, und alle, die zu diesem Preis kaufen wollen, kommen zum Zug.",
+              "correct": true
+            },
+            {
+              "text": "Die Regale sind leer, weil eine grosse Knappheit herrscht."
+            },
+            {
+              "text": "Alle Anbieter haben den Markt verlassen."
+            },
+            {
+              "text": "Jeder Mensch hat das Gut bekommen, egal ob er dafür bezahlen wollte."
+            }
+          ],
+          "explanation": "«Geräumt» heisst: kein Rest auf beiden Seiten – nichts bleibt unverkauft liegen, niemand, der zum Gleichgewichtspreis kaufen will, geht leer aus. Leere Regale mit Warteschlangen wären dagegen Knappheit (Preis zu tief). Und wem der Preis zu hoch ist, der gehört nicht zur nachgefragten Menge – «geräumt» bedeutet also nicht, dass alle Menschen versorgt sind."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Ein Modegeschäft verkauft im März die restlichen Wintermäntel mit 50 Prozent Rabatt. Wie erklärt sich das mit dem Marktmodell?",
+          "options": [
+            {
+              "text": "Die Mäntel sind über den Winter schlechter geworden, darum sind sie weniger wert."
+            },
+            {
+              "text": "Die Nachfrage nach Wintermänteln steigt im Frühling stark an."
+            },
+            {
+              "text": "Der Staat schreibt den Geschäften die Ausverkaufspreise vor."
+            },
+            {
+              "text": "Beim alten Preis entstünde ein Überschuss, weil die Nachfrage gesunken ist – der Rabatt führt den Preis Richtung neues Gleichgewicht.",
+              "correct": true
+            }
+          ],
+          "explanation": "Im Frühling will kaum noch jemand einen Wintermantel – die Nachfrage ist eingebrochen. Beim alten Preis blieben die Mäntel als Ladenhüter liegen (Überschuss). Der Rabatt senkt den Preis so weit, dass die Restware doch noch Käuferinnen und Käufer findet. An der Qualität der Mäntel hat sich nichts geändert, und Ausverkaufspreise legt das Geschäft selbst fest, nicht der Staat."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Wodurch entsteht der Marktpreis in einer Marktwirtschaft?",
+          "options": [
+            {
+              "text": "Er richtet sich allein nach den Herstellungskosten eines Produkts."
+            },
+            {
+              "text": "Durch das Zusammenspiel vieler Anbieter und Nachfrager – niemand legt ihn allein fest.",
+              "correct": true
+            },
+            {
+              "text": "Der Staat berechnet ihn und teilt ihn den Geschäften mit."
+            },
+            {
+              "text": "Die Käuferinnen und Käufer allein bestimmen, was etwas kosten darf."
+            }
+          ],
+          "explanation": "Der Marktpreis entsteht aus unzähligen einzelnen Entscheidungen von Anbietern und Nachfragern – wie beim Feilschen, nur mit vielen Beteiligten. Herstellungskosten spielen für die Anbieter zwar eine Rolle (unter den Kosten verkauft niemand lange), aber sie allein bestimmen den Preis nicht: Ohne Nachfrage nützt die teuerste Herstellung nichts. Marktpreise entstehen nicht durch staatliche Berechnung, sondern aus Angebot und Nachfrage – und auch die Käuferseite allein kann keinen Preis diktieren, es braucht immer beide Seiten."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Im Marktspiel verlangte eine Verkäuferin einen sehr hohen Preis – und blieb bis zum Schluss auf ihrer Ware sitzen. Wie erklärst du das?",
+          "options": [
+            {
+              "text": "Ihr Preis lag unter dem Gleichgewichtspreis, darum wollte niemand kaufen."
+            },
+            {
+              "text": "Der Markt war bei ihrem Preis genau im Gleichgewicht."
+            },
+            {
+              "text": "Ihr Preis lag über dem Gleichgewichtspreis – die Käuferinnen und Käufer wichen auf günstigere Anbieter aus.",
+              "correct": true
+            },
+            {
+              "text": "Reiner Zufall – im Marktspiel spielen Preise keine Rolle."
+            }
+          ],
+          "explanation": "Wer deutlich mehr verlangt als die anderen, erlebt die Überschuss-Seite des Marktes: Die Nachfrage weicht auf günstigere Anbieter aus, die eigene Ware bleibt liegen. Ein Preis UNTER dem Gleichgewicht hätte das Gegenteil bewirkt (schnell ausverkauft), und im Gleichgewicht wäre die Ware genau weggegangen. Dass Preise im Spiel «keine Rolle spielen», widerlegt die sitzengebliebene Ware gerade."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-preisbildung",
+      "title": "Preisbildung: Setze die Begriffe ein",
+      "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Auf einem freien Markt legt niemand den Preis allein fest – er entsteht aus dem Zusammenspiel zwischen dem {{1}} der Verkäuferinnen und Verkäufer und der {{2}} der Käuferinnen und Käufer. Verlangen die Anbieter zu viel, bleibt ein Teil der Ware liegen – solche unverkauften Waren sind die sprichwörtlichen {{3}}: Es herrscht ein {{4}}, und die Anbieter müssen den Preis {{5}}. Ist der Preis dagegen zu tief, wollen mehr Leute kaufen, als Ware da ist: Es herrscht {{6}}, es bilden sich Schlangen, und der Preis {{7}} wieder. So pendelt sich der Markt beim {{8}} ein – dem Preis, bei dem angebotene und nachgefragte Menge übereinstimmen. Man sagt dann: Der Markt ist {{9}}. Die Menge, die zu diesem Preis verkauft wird, heisst {{10}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Angebot"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrage"
+          ]
+        },
+        {
+          "antworten": [
+            "Ladenhüter"
+          ]
+        },
+        {
+          "antworten": [
+            "Überschuss"
+          ]
+        },
+        {
+          "antworten": [
+            "senken"
+          ]
+        },
+        {
+          "antworten": [
+            "Knappheit"
+          ]
+        },
+        {
+          "antworten": [
+            "steigt"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichgewichtspreis"
+          ]
+        },
+        {
+          "antworten": [
+            "geräumt"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichgewichtsmenge"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Steuern",
+        "Gewinn",
+        "Produktivität"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-marktreaktionen",
+      "title": "Marktreaktionen: Tippe die Begriffe ein",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Bleibt zum verlangten Preis viel Ware liegen, spricht man von einem {{1}}. Die Anbieter reagieren darauf, indem sie den Preis {{2}}. Ist ein Gut dagegen sofort ausverkauft und stehen die Leute Schlange, herrscht {{3}} – der Preis {{4}} dann meist wieder. Beim Gleichgewichtspreis stimmen die angebotene und die nachgefragte {{5}} überein.",
+      "luecken": [
+        {
+          "antworten": [
+            "Überschuss",
+            "Angebotsüberschuss",
+            "Überangebot"
+          ]
+        },
+        {
+          "antworten": [
+            "senken",
+            "reduzieren",
+            "herabsetzen"
+          ]
+        },
+        {
+          "antworten": [
+            "Knappheit",
+            "Mangel",
+            "ein Mangel"
+          ]
+        },
+        {
+          "antworten": [
+            "steigt",
+            "erhöht sich",
+            "nimmt zu",
+            "wächst"
+          ]
+        },
+        {
+          "antworten": [
+            "Menge"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-marktlagen",
+      "title": "Zuordnen: Überschuss, Knappheit oder Gleichgewicht?",
+      "intro": "Ordne jeder Situation die passende Marktlage zu: **Überschuss**, **Knappheit** oder **Gleichgewicht**. Frag dich jeweils: Bleibt hier etwas liegen, gehen Leute leer aus – oder geht die Rechnung auf beiden Seiten auf?",
+      "modus": "wortbank",
+      "text": "Am Kuchenstand des Schulfests bleiben zum verlangten Preis 40 Stücke übrig: {{1}}\nVor dem Laden campieren Fans für ein neues Sneaker-Modell, nach einer Stunde ist alles weg: {{2}}\nDer Pausenkiosk verkauft Tag für Tag fast genau so viele Sandwiches, wie er bereitmacht – ohne Rest und ohne Schlange: {{3}}\nKonzerttickets sind in zwanzig Minuten ausverkauft, viele Fans gehen leer aus: {{4}}\nWintermäntel lassen sich im März nur noch mit hohem Rabatt verkaufen: {{5}}\nEin Kiosk bestellt 200 Fussball-Sammelhefte – nach dem Turnierfinal will sie kaum noch jemand: {{6}}\nAm Gemüsestand ist am Samstagabend alles verkauft, und niemand musste vergeblich anstehen: {{7}}\nIn den Sportferien sind die Leihskier in Malbun schon am frühen Morgen alle weg, spätere Gäste bekommen keine mehr: {{8}}\nDer Flohmarktstand verkauft im Lauf des Tages praktisch alle Spiele zum angeschriebenen Preis: {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Überschuss"
+          ]
+        },
+        {
+          "antworten": [
+            "Knappheit"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichgewicht"
+          ]
+        },
+        {
+          "antworten": [
+            "Knappheit"
+          ]
+        },
+        {
+          "antworten": [
+            "Überschuss"
+          ]
+        },
+        {
+          "antworten": [
+            "Überschuss"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichgewicht"
+          ]
+        },
+        {
+          "antworten": [
+            "Knappheit"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichgewicht"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Euer Marktspiel und der Gleichgewichtspreis",
+      "tasks": [
+        {
+          "prompt": "Werte euer Marktspiel aus dem Unterricht aus (falls es noch bevorsteht: Nimm stattdessen eine Szene von einem Wochen- oder Flohmarkt). Beschreibe eine Runde oder Szene, in der ein Preis zu hoch oder zu tief war: Woran hat man das gemerkt? Wie haben die Anbieter und die Käuferinnen und Käufer reagiert – und in welche Richtung hat sich der Preis danach bewegt? Verwende dabei die Begriffe Überschuss, Knappheit und Gleichgewichtspreis.",
+          "hint": "Zeichen für einen zu hohen Preis: Ware bleibt liegen, Verkäufer werben oder senken den Preis. Zeichen für einen zu tiefen Preis: schnell ausverkauft, Schlangen, enttäuschte Käufer – und Anbieter, die beim nächsten Mal mehr verlangen. Beschreibe beide Marktseiten, nicht nur eine.",
+          "solution": "Eine Musterlösung hängt von eurem Spiel ab. Typischer Verlauf: In den ersten Runden verlangen manche Verkäufer Fantasiepreise und bleiben sitzen (Überschuss) – sie senken die Preise. Andere verkaufen zu billig und sind sofort leer (Knappheit) – sie erhöhen. Nach einigen Runden nähern sich die Abschlüsse einem mittleren Preis an, bei dem fast alle Ware den Besitzer wechselt: Das ist der Gleichgewichtspreis eures Spielmarkts. Wichtig ist, dass du das Verhalten beider Seiten beschreibst und die Preisbewegung als Reaktion darauf erklärst."
+        },
+        {
+          "prompt": "Erkläre in eigenen Worten – so, dass es auch jemand ohne dieses Modul verstehen würde –, warum ein Markt bei einem zu hohen Preis «von selbst» zurück Richtung Gleichgewicht findet, und warum das bei einem zu tiefen Preis genauso passiert. ODER: Erstelle eine eigene Quizfrage zu Überschuss oder Knappheit im Stil dieses Moduls – mit einer Alltagssituation, einer richtigen Antwort und drei falschen Antworten, die auf typische Denkfehler hereinlegen.",
+          "hint": "Für die Erklärung hilft die Kette: Preis zu hoch → Ware bleibt liegen → Anbieter senken → nachgefragte Menge steigt. Und umgekehrt: Preis zu tief → ausverkauft/Schlangen → Anbieter erhöhen und bieten mehr an. Für die Quizfrage eignen sich Situationen mit einem klaren Signal: volle Restkisten, Rabattaktionen, Warteschlangen, «ausverkauft».",
+          "solution": "Kernidee: Bei einem zu hohen Preis bestrafen die Käuferinnen und Käufer den Markt mit Zurückhaltung – der Überschuss zwingt die Anbieter, den Preis zu senken. Bei einem zu tiefen Preis passiert das Spiegelbild: Die Knappheit zeigt den Anbietern, dass mehr drinliegt – Preise und angebotene Mengen steigen. In beiden Fällen korrigiert der Markt den Preis ohne zentrale Anweisung, allein durch das Verhalten der beiden Seiten. Beispiel-Quizfrage: «Im Schulhaus-Kiosk sind die neuen Energieriegel jeden Tag um 10 Uhr ausverkauft, viele gehen leer aus. Was stimmt? a) Der Preis liegt unter dem Gleichgewichtspreis (richtig), b) Der Preis ist zu hoch, c) Der Markt ist geräumt, d) Die Nachfrage ist zu klein.»"
+        }
+      ]
+    }
+  ]
+}
