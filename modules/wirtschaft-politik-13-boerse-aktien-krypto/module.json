@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-13-boerse-aktien-krypto",
+  "title": "Börse, Aktien und Krypto: Risiko und Rendite",
+  "description": "Was besitzt du eigentlich, wenn du eine Aktie hast – und was, wenn du einen Bitcoin hast? Im dreizehnten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die Aktie als Anteil an einem realen Unternehmen kennen, die Börse als Marktplatz, auf dem Angebot und Nachfrage den Kurs bestimmen, und den Grundsatz «höhere Renditechance bedeutet höheres Risiko». Die Gegenüberstellung von Aktie und Bitcoin zeigt dir die Unterschiede – sachlich und ohne Anlageempfehlung.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 13,
+  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Börse",
+    "Aktie",
+    "Aktiengesellschaft",
+    "Dividende",
+    "Kurs",
+    "Kursgewinn",
+    "Rendite",
+    "Risiko",
+    "Kryptowährung",
+    "Bitcoin",
+    "Anlagebetrug"
+  ],
+  "learningObjectives": [
+    "Ich kann erklären, was eine Aktie ist: ein Anteil an einem realen Unternehmen – mit Mitbestimmung, möglicher Dividende und möglichem Kursgewinn oder -verlust.",
+    "Ich kann die Börse als Marktplatz beschreiben, auf dem Angebot und Nachfrage den Kurs bestimmen.",
+    "Ich kann den Grundsatz «höhere Renditechance bedeutet höheres Risiko» auf Sparkonto, Aktien und Kryptowährungen anwenden.",
+    "Ich kann den Unterschied zwischen einer Aktie und einer Kryptowährung wie Bitcoin erklären und typische Warnsignale von Anlagebetrug nennen."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.2.3",
+      "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+      "url": "https://www.iconomix.ch"
+    },
+    {
+      "title": "Schweizerische Kriminalprävention – Anlagebetrug",
+      "url": "https://www.skppsc.ch"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
+    "wirtschaft-politik-10-geld-funktionen-geschichte"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Ein Stück Unternehmen kaufen",
+      "body": "Stell dir eine Bergbahn-AG in den Alpen vor: Sessellifte, Restaurant, Schneekanonen – alles zusammen Millionen wert. Kein Mensch könnte das allein bezahlen. Deshalb ist das Unternehmen eine **Aktiengesellschaft (AG)**: Sein Kapital ist in viele kleine Anteile zerlegt – die **Aktien**. Wer eine kauft, besitzt einen kleinen Teil des Unternehmens.\n\nMit diesem Anteil sind drei Dinge verbunden:\n\n1. **Mitbestimmung:** Aktionärinnen und Aktionäre dürfen an der **Generalversammlung** teilnehmen und mitentscheiden – etwa über die Führung des Unternehmens. Vereinfacht gilt: je mehr Aktien, desto mehr Stimmen.\n2. **Dividende:** Macht das Unternehmen Gewinn, kann es einen Teil davon an die Aktionäre ausschütten. Dieser Gewinnanteil heisst **Dividende**. Sie ist nicht garantiert – in schlechten Jahren fällt sie kleiner aus oder ganz weg.\n3. **Kursgewinn oder Kursverlust:** Aktien können weiterverkauft werden. Ist der Verkaufspreis höher als der Kaufpreis, entsteht ein **Kursgewinn** – ist er tiefer, ein **Kursverlust**.\n\nWichtig für alles, was folgt: Hinter einer Aktie steht immer **etwas Reales** – Sessellifte, Backöfen, Fabriken, Mitarbeitende, Kundschaft. Der Wert der Aktie hängt davon ab, wie erfolgreich dieses reale Unternehmen wirtschaftet – heute und in Zukunft."
+    },
+    {
+      "type": "text",
+      "title": "Die Börse: ein Marktplatz wie in Modul 7 – nur schneller",
+      "body": "Wo kauft und verkauft man Aktien? An der **Börse** – einem Marktplatz, heute fast vollständig digital. Und dieser Marktplatz funktioniert genau nach den Regeln, die du aus den Modulen 6 und 7 kennst: **Angebot und Nachfrage bestimmen den Preis.** Der Preis einer Aktie heisst **Kurs**.\n\n- Wollen **mehr Leute eine Aktie kaufen, als Aktien angeboten werden**, steigt der Kurs – wie beim knappen Konzertticket.\n- Wollen **mehr Leute verkaufen, als kaufen möchten**, sinkt der Kurs.\n\nWas bewegt Angebot und Nachfrage? Vor allem **Erwartungen an die Zukunft**: Meldet die Bergbahn-AG einen schneereichen Winter mit Rekordumsatz, erwarten viele höhere Gewinne – mehr wollen kaufen, der Kurs steigt. Bleibt der Schnee drei Winter in Folge aus, erwarten viele Verluste – mehr wollen verkaufen, der Kurs sinkt. Weil laufend neue Nachrichten eintreffen, ändern sich Kurse ständig – im Sekundentakt.\n\nDaran siehst du auch: **Niemand legt den Kurs fest** – nicht das Unternehmen, nicht die Bank, nicht der Staat. Er entsteht aus Tausenden von Kauf- und Verkaufsentscheidungen, genau wie der Gleichgewichtspreis auf dem Wochenmarkt aus Modul 7."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "R2ZFgLROtTY",
+      "title": "Video: Aktien einfach erklärt",
+      "description": "Das Erklärvideo (4:22) von explainity zeigt am Beispiel einer Limonadenfabrik, wie ein Unternehmen zur Aktiengesellschaft wird und Aktien ausgibt. Achte beim Schauen auf zwei Leitfragen: (1) Warum gibt das Unternehmen im Video überhaupt Aktien aus – was bringt ihm der Börsengang? (2) Was bekommen die Käuferinnen und Käufer der Aktien im Gegenzug? Vergleiche mit den drei Punkten Mitbestimmung, Dividende und Kursgewinn aus diesem Modul.",
+      "transcript": "Das Erklärvideo von explainity (4:22 Minuten) erklärt im Legetrick-Stil, was eine Aktie ist: Ein Unternehmer möchte seine Limonadenfabrik vergrössern und braucht dafür mehr Kapital, als ein Bankkredit liefern kann. Er wandelt das Unternehmen in eine Aktiengesellschaft um und gibt beim Börsengang Aktien aus. Wer Aktien kauft, wird Miteigentümer des Unternehmens, stellt ihm Kapital zur Verfügung und profitiert im Gegenzug über mögliche Dividenden und Kursgewinne. Die Börse wird als Marktplatz gezeigt, auf dem diese Unternehmensanteile gehandelt werden. Das Video bleibt sachlich und gibt keine Anlageempfehlung."
+    },
+    {
+      "type": "text",
+      "title": "Der Grundsatz: höhere Renditechance, höheres Risiko",
+      "body": "Zwei Begriffe, damit alle vom Gleichen sprechen:\n\n- **Rendite** ist der Ertrag einer Geldanlage, meist in Prozent pro Jahr gerechnet. Beim Sparkonto ist das der Zins; bei der Aktie sind es Dividende plus Kursgewinn (oder eben minus Kursverlust).\n- **Risiko** meint hier: Wie stark kann der Wert schwanken – und wie viel kann im schlechten Fall verloren gehen?\n\nZwischen beiden besteht ein Zusammenhang, der zu den wichtigsten Regeln des Finanzwissens gehört: **Eine höhere Renditechance geht mit einem höheren Risiko einher.** Warum? Niemand trägt freiwillig ein grosses Risiko, ohne dafür eine grössere Chance zu bekommen – sonst würden alle die sichere Variante wählen.\n\nAuf der Risiko-Rendite-Achse (siehe Grafik) ordnen sich die drei Anlageformen dieses Moduls so ein:\n\n- **Sparkonto:** kleines Risiko, kleine Rendite. Der Zins ist bescheiden, aber das Guthaben schwankt nicht. Einzig die Teuerung kann an der Kaufkraft nagen.\n- **Aktien:** mittleres bis hohes Risiko, höhere Renditechance. Kurse schwanken täglich; einzelne Unternehmen können auch scheitern.\n- **Kryptowährungen:** sehr hohes Risiko, sehr hohe Schwankungen – dazu gleich mehr.\n\nUnd eine Umkehrung dieses Grundsatzes solltest du dir merken: **Verspricht jemand eine hohe Rendite ganz ohne Risiko, widerspricht das dieser Grundregel** – ein solches Versprechen ist ein Warnsignal, kein Angebot."
+    },
+    {
+      "type": "image",
+      "title": "Die Risiko-Rendite-Achse",
+      "src": "/content/wirtschaft-politik-13-boerse-aktien-krypto/risiko-rendite-achse.png",
+      "alt": "Diagramm mit zwei Achsen: Nach oben die Renditechance, nach rechts das Risiko. Eine gestrichelte Diagonale von unten links nach oben rechts trägt die Beschriftung: Grundsatz – höhere Renditechance bedeutet höheres Risiko. Auf der Diagonale liegen drei Kästen. Unten links das Sparkonto: Zins klein, aber planbar; das Guthaben schwankt nicht, nur die Teuerung kann an der Kaufkraft nagen. In der Mitte die Aktien: Anteil an einem realen Unternehmen, Dividende und Kursgewinn möglich, Kurse schwanken, Verluste bis zum Totalverlust (Konkurs) sind möglich. Oben rechts die Kryptowährungen: kein Anteil an etwas Realem, der Preis entsteht rein aus Angebot und Nachfrage, extreme Schwankungen, Totalverlust möglich. Eine Fussnote erklärt: Vereinfachtes Modell, Einordnung nach typischen Eigenschaften, keine Anlageberatung; einzelne Produkte können stark abweichen, und auch beim Sparkonto ist die Rendite nicht garantiert höher als die Teuerung.",
+      "caption": "Sparkonto, Aktien und Kryptowährungen auf der Risiko-Rendite-Achse: je höher die Renditechance, desto höher das Risiko – ein vereinfachtes Modell, keine Anlageberatung.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Aktie gegen Bitcoin: der entscheidende Unterschied",
+      "body": "**Kryptowährungen** wie Bitcoin kennst du als letzte Station des Geld-Zeitstrahls aus Modul 10: rein digitales Geld, das ohne Staat, Zentralbank und Banken auskommt. Verwaltet wird es von einem Computernetzwerk, dem viele Menschen gemeinsam vertrauen.\n\nDer wichtigste Unterschied zur Aktie: **Hinter einem Bitcoin steht kein reales Unternehmen.** Es gibt keine Sessellifte, keine Fabrik, keine Mitarbeitenden, keinen Gewinn – und darum auch keine Dividende und keine Generalversammlung. Sein Preis entsteht **ausschliesslich aus Angebot und Nachfrage**: Er ist genau so hoch, wie andere gerade dafür zu zahlen bereit sind. Ändert sich die Stimmung, ändert sich der Preis – und das oft **extrem**: Schwankungen von mehreren zehn Prozent innert Wochen sind vorgekommen, nach oben wie nach unten. Ein **Totalverlust** ist möglich.\n\n| | **Aktie** | **Bitcoin** |\n|---|---|---|\n| Was besitzt du? | Anteil an einem realen Unternehmen | Einen digitalen Eintrag – keinen Anteil an etwas Realem |\n| Laufender Ertrag? | Dividende möglich (nicht garantiert) | Keiner |\n| Mitbestimmung? | Ja, an der Generalversammlung | Nein |\n| Wovon hängt der Preis ab? | Geschäftserfolg und Erwartungen – gehandelt über Angebot und Nachfrage | Rein von Angebot und Nachfrage |\n| Schwankungen | Teils stark – bei Konkurs des Unternehmens ist ein Totalverlust möglich | Oft extrem – Totalverlust möglich |\n\nOb jemand Aktien oder Kryptowährungen kauft, ist ein persönlicher Entscheid – **dieses Modul gibt keine Empfehlung, weder dafür noch dagegen.** Es gibt dir das Wissen, um Angebote einzuordnen.\n\n**Ein Warnhinweis gehört aber dazu:** In sozialen Medien werben Unbekannte immer wieder mit Krypto-Versprechen wie «garantiert 20 % Gewinn pro Woche» – oft mit gefälschten Promi-Auftritten, Zeitdruck («nur heute!») und der Bitte, auf unbekannte Plattformen einzuzahlen. Solche Angebote sind **Betrugsmaschen**: Garantierte hohe Rendite ohne Risiko gibt es nicht – das eingezahlte Geld ist in solchen Fällen meist verloren."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Börse, Aktien und Krypto",
+      "intro": "Zeig, dass du Aktien, Börse und Kryptowährungen einordnen kannst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Was besitzt du, wenn du eine Aktie kaufst?",
+          "options": [
+            {
+              "text": "Einen Anteil an einem realen Unternehmen – du wirst Miteigentümerin oder Miteigentümer.",
+              "correct": true
+            },
+            {
+              "text": "Einen Kredit: Das Unternehmen muss dir den Betrag mit festem Zins zurückzahlen."
+            },
+            {
+              "text": "Eine staatliche Sparform mit garantiertem Zins."
+            },
+            {
+              "text": "Einen Gutschein für Produkte des Unternehmens."
+            }
+          ],
+          "explanation": "Eine Aktie ist ein Eigentumsanteil: Dir gehört ein kleines Stück des Unternehmens – mit Mitbestimmung, möglicher Dividende und möglichem Kursgewinn oder -verlust. Ein Kredit mit Rückzahlungspflicht und festem Zins wäre eine Anleihe (Obligation) – eine häufige Verwechslung. Mit dem Staat hat die Aktie nichts zu tun, garantiert ist an ihr gar nichts. Und einkaufen kannst du mit ihr auch nicht – sie ist Besitz, kein Gutschein."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was ist eine Dividende?",
+          "options": [
+            {
+              "text": "Der garantierte Jahreszins, den jede Aktie abwirft."
+            },
+            {
+              "text": "Die Gebühr, die beim Kauf einer Aktie anfällt."
+            },
+            {
+              "text": "Der Anteil am Gewinn, den die Aktiengesellschaft an ihre Aktionärinnen und Aktionäre ausschütten kann.",
+              "correct": true
+            },
+            {
+              "text": "Die Rückzahlung des Kaufpreises nach zehn Jahren."
+            }
+          ],
+          "explanation": "Die Dividende ist ein Gewinnanteil: Läuft das Geschäft gut, schüttet die AG einen Teil des Gewinns aus. Garantiert ist sie gerade nicht – in schlechten Jahren fällt sie kleiner aus oder ganz weg; das unterscheidet sie vom festen Zins. Kaufgebühren heissen Courtage oder Kommission, und eine automatische Rückzahlung des Kaufpreises gibt es bei Aktien nicht – verkaufen kannst du nur zum aktuellen Kurs."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Wann steigt der Kurs einer Aktie?",
+          "options": [
+            {
+              "text": "Wenn die Geschäftsleitung des Unternehmens einen höheren Kurs beschliesst."
+            },
+            {
+              "text": "Wenn mehr Anleger die Aktie kaufen wollen, als andere verkaufen möchten – die Nachfrage übersteigt das Angebot.",
+              "correct": true
+            },
+            {
+              "text": "Wenn die Hausbank den Kurs nach oben anpasst."
+            },
+            {
+              "text": "Kurse ändern sich nur einmal jährlich, an der Generalversammlung."
+            }
+          ],
+          "explanation": "Der Kurs entsteht wie jeder Marktpreis aus Angebot und Nachfrage (Modul 7): Wollen mehr kaufen als verkaufen, steigt er – umgekehrt fällt er. Weder die Geschäftsleitung noch eine Bank legt ihn fest – das ist eine der häufigsten falschen Vorstellungen. Und weil ständig neue Nachrichten die Erwartungen verändern, bewegen sich Kurse im Sekundentakt, nicht einmal pro Jahr."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Welche Aussage gibt den Grundsatz von Risiko und Rendite richtig wieder?",
+          "options": [
+            {
+              "text": "Je höher die Renditechance, desto kleiner das Risiko."
+            },
+            {
+              "text": "Risiko und Rendite haben nichts miteinander zu tun."
+            },
+            {
+              "text": "Profis finden Anlagen mit hoher Rendite und ganz ohne Risiko."
+            },
+            {
+              "text": "Eine höhere Renditechance geht mit einem höheren Risiko einher.",
+              "correct": true
+            }
+          ],
+          "explanation": "Chance und Risiko sind gekoppelt: Niemand trägt freiwillig ein hohes Risiko ohne höhere Gewinnchance – sonst würden alle die sichere Variante wählen. Deshalb ist die Umkehrung falsch, und «nichts miteinander zu tun» stimmt erst recht nicht. Auch Profis hebeln den Grundsatz nicht aus: Wer hohe Rendite ganz ohne Risiko verspricht, verspricht etwas, das es nicht gibt – ein typisches Warnsignal für Betrug."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Worin unterscheidet sich Bitcoin grundlegend von einer Aktie?",
+          "options": [
+            {
+              "text": "Bitcoin ist die Aktie der Bitcoin AG."
+            },
+            {
+              "text": "Bitcoin-Kurse schwanken viel weniger als Aktienkurse."
+            },
+            {
+              "text": "Hinter Bitcoin steht kein reales Unternehmen – es gibt keinen Gewinnanteil, der Preis entsteht rein aus Angebot und Nachfrage.",
+              "correct": true
+            },
+            {
+              "text": "Bitcoin wird von der Schweizerischen Nationalbank herausgegeben."
+            }
+          ],
+          "explanation": "Das ist der Kernunterschied: Die Aktie ist ein Anteil an etwas Realem (Fabrik, Mitarbeitende, Gewinn) – Bitcoin nicht. Es gibt keine «Bitcoin AG», keine Dividende und keine Generalversammlung. Die Schwankungen sind nicht kleiner, sondern oft extremer als bei Aktien. Und herausgegeben wird Bitcoin von niemandem – gerade das Fehlen von Staat und Zentralbank ist sein Kennzeichen; die Nationalbank gibt den Franken heraus."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Wo liegt das Sparkonto auf der Risiko-Rendite-Achse?",
+          "options": [
+            {
+              "text": "Kleines Risiko, kleine Rendite: Der Zins ist bescheiden, dafür schwankt das Guthaben nicht.",
+              "correct": true
+            },
+            {
+              "text": "Hohes Risiko, hohe Rendite – Sparkonten schwanken stark im Wert."
+            },
+            {
+              "text": "Kleines Risiko, sehr hohe Rendite – deshalb sparen alle."
+            },
+            {
+              "text": "Sparkonten lassen sich auf der Achse nicht einordnen."
+            }
+          ],
+          "explanation": "Das Sparkonto steht unten links: wenig Risiko, wenig Rendite. Das Guthaben schwankt nicht – nur die Teuerung kann an der Kaufkraft nagen. Stark schwankende Sparkonten gibt es nicht, und «kleines Risiko mit sehr hoher Rendite» würde dem Grundsatz widersprechen – genau solche Kombinationen existieren nicht. Einordnen lässt sich das Sparkonto sehr wohl; die Grafik im Modul zeigt es als Startpunkt der Diagonale."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "In einem Social-Media-Video verspricht ein Unbekannter «garantiert 20 % Gewinn pro Woche mit unserem Krypto-Programm». Woran erkennst du, dass höchste Vorsicht gilt?",
+          "options": [
+            {
+              "text": "An nichts – solche Angebote sind seriös, wenn ein Promi sie bewirbt."
+            },
+            {
+              "text": "20 % pro Woche sind bei Banken üblich, nur die Plattform ist entscheidend."
+            },
+            {
+              "text": "Vorsicht ist nur bei Beträgen über CHF 10 000 nötig."
+            },
+            {
+              "text": "Garantierte hohe Rendite ohne Risiko widerspricht dem Grundsatz «höhere Renditechance bedeutet höheres Risiko» – ein typisches Merkmal von Anlagebetrug.",
+              "correct": true
+            }
+          ],
+          "explanation": "«Garantiert» und «20 % pro Woche» zusammen sind das klassische Warnsignal: Hohe Rendite ohne Risiko gibt es nicht. Promi-Auftritte in solchen Videos sind häufig gefälscht und machen ein Angebot nicht seriös. Banken zahlen auf Sparguthaben Zinsen im tiefen einstelligen Prozentbereich pro Jahr – nicht pro Woche. Und Betrug lohnt sich für Täter auch mit vielen kleinen Beträgen: Vorsicht gilt ab dem ersten Franken."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Was bedeutet die Warnung «Totalverlust möglich»?",
+          "options": [
+            {
+              "text": "Man kann höchstens die Hälfte des eingesetzten Geldes verlieren."
+            },
+            {
+              "text": "Der gesamte eingesetzte Betrag kann verloren gehen.",
+              "correct": true
+            },
+            {
+              "text": "Verluste werden am Jahresende von der Bank zurückerstattet."
+            },
+            {
+              "text": "Die Warnung betrifft nur Geld, das man sich geliehen hat."
+            }
+          ],
+          "explanation": "Totalverlust heisst: Vom eingesetzten Geld bleibt im schlechtesten Fall nichts übrig – zum Beispiel, wenn eine Kryptowährung wertlos wird oder ein einzelnes Unternehmen Konkurs geht. Eine automatische Begrenzung auf die Hälfte gibt es nicht, und niemand erstattet Anlageverluste zurück – sie gehören zum Risiko, das man selbst trägt. Die Warnung gilt für eigenes Geld genauso; mit geliehenem Geld wäre die Lage sogar noch ernster, weil die Schuld bleibt."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-boerse-grundlagen",
+      "title": "Setze die Begriffe ein: Aktien und Börse",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Eine {{1}} ist ein Anteil an einem realen Unternehmen. Wer sie besitzt, darf an der Generalversammlung {{2}} und kann bei Gewinn eine {{3}} erhalten. Gehandelt werden die Anteile an der {{4}} – einem Marktplatz, auf dem {{5}} und Nachfrage den Kurs bestimmen. Steigt der Kurs über den Kaufpreis, entsteht beim Verkauf ein {{6}}; fällt er, entsteht ein Verlust.\nGrundsätzlich gilt: Je höher die {{7}}, desto höher das {{8}}. Hinter Kryptowährungen wie {{9}} steht kein reales Unternehmen – ihr Preis entsteht rein aus Angebot und Nachfrage, und die Schwankungen sind oft {{10}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Aktie"
+          ]
+        },
+        {
+          "antworten": [
+            "mitbestimmen"
+          ]
+        },
+        {
+          "antworten": [
+            "Dividende"
+          ]
+        },
+        {
+          "antworten": [
+            "Börse"
+          ]
+        },
+        {
+          "antworten": [
+            "Angebot"
+          ]
+        },
+        {
+          "antworten": [
+            "Kursgewinn"
+          ]
+        },
+        {
+          "antworten": [
+            "Renditechance"
+          ]
+        },
+        {
+          "antworten": [
+            "Risiko"
+          ]
+        },
+        {
+          "antworten": [
+            "Bitcoin"
+          ]
+        },
+        {
+          "antworten": [
+            "extrem"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Prämie",
+        "Sparzins",
+        "Filiale"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-kurs-und-rendite",
+      "title": "Tippe die Begriffe ein: Kurs, Rendite, Risiko",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Der Preis, zu dem eine Aktie an der Börse gehandelt wird, heisst {{1}}. Der Gewinnanteil, den eine Aktiengesellschaft an ihre Aktionärinnen und Aktionäre ausschütten kann, ist die {{2}}. Den Ertrag einer Geldanlage, meist in Prozent pro Jahr, nennt man {{3}}. Wollen mehr Leute eine Aktie kaufen als verkaufen, {{4}} ihr Kurs. Und verspricht ein Angebot im Internet «hohe Rendite ganz ohne {{5}}», ist grösste Vorsicht angebracht.",
+      "luecken": [
+        {
+          "antworten": [
+            "Kurs",
+            "Aktienkurs",
+            "Börsenkurs"
+          ]
+        },
+        {
+          "antworten": [
+            "Dividende"
+          ]
+        },
+        {
+          "antworten": [
+            "Rendite"
+          ]
+        },
+        {
+          "antworten": [
+            "steigt",
+            "erhöht sich",
+            "wächst"
+          ]
+        },
+        {
+          "antworten": [
+            "Risiko",
+            "Verlustrisiko"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-aktie-bitcoin",
+      "title": "Zuordnen: Aktie, Bitcoin – oder beide?",
+      "intro": "Ordne jede Aussage richtig zu: Gilt sie für die **Aktie**, für **Bitcoin** – oder für **beide**? Jede Antwort kommt mehrmals vor.",
+      "modus": "wortbank",
+      "text": "Du wirst Miteigentümerin oder Miteigentümer eines realen Unternehmens. {{1}}\nHinter ihm steht kein reales Unternehmen mit Fabriken, Mitarbeitenden und Gewinn. {{2}}\nBei Gewinn kann eine Dividende ausgeschüttet werden. {{3}}\nDer Preis entsteht auf einem Marktplatz aus Angebot und Nachfrage. {{4}}\nDie Schwankungen sind oft extrem – der Preis kann innert Wochen um mehrere zehn Prozent springen. {{5}}\nDer Wert kann sinken – ein Verlust ist möglich. {{6}}\nAn der Generalversammlung darfst du mitbestimmen. {{7}}\nEs ist rein digitales Geld, das ohne Staat, Zentralbank und Banken auskommt. {{8}}\nIm Extremfall ist ein Totalverlust möglich. {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Aktie"
+          ]
+        },
+        {
+          "antworten": [
+            "Bitcoin"
+          ]
+        },
+        {
+          "antworten": [
+            "Aktie"
+          ]
+        },
+        {
+          "antworten": [
+            "beide"
+          ]
+        },
+        {
+          "antworten": [
+            "Bitcoin"
+          ]
+        },
+        {
+          "antworten": [
+            "beide"
+          ]
+        },
+        {
+          "antworten": [
+            "Aktie"
+          ]
+        },
+        {
+          "antworten": [
+            "Bitcoin"
+          ]
+        },
+        {
+          "antworten": [
+            "beide"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Kurse, Risiken und Warnsignale",
+      "tasks": [
+        {
+          "prompt": "Wende das Marktmodell aus Modul 7 auf die Börse an: (a) Die Bergbahn-AG meldet einen Rekordwinter mit vollen Pisten – was passiert tendenziell mit ihrem Aktienkurs, und warum? (b) Ein Sportartikelhersteller muss eine grosse Rückrufaktion starten – was passiert tendenziell mit seinem Kurs, und warum? Argumentiere jeweils mit Angebot, Nachfrage und Erwartungen.",
+          "hint": "Frage dich bei beiden Fällen: Wie verändert die Nachricht die Erwartungen an künftige Gewinne? Wollen danach mehr Leute die Aktie kaufen – oder mehr verkaufen?",
+          "solution": "(a) Der Rekordwinter lässt höhere Gewinne erwarten – die Dividende und der Unternehmenswert könnten steigen. Mehr Anleger wollen kaufen, weniger wollen verkaufen: Die Nachfrage übersteigt das Angebot, der Kurs steigt tendenziell. (b) Die Rückrufaktion kostet Geld und schadet dem Ruf – viele erwarten tiefere Gewinne. Mehr wollen verkaufen, weniger kaufen: Das Angebot übersteigt die Nachfrage, der Kurs sinkt tendenziell. Wichtig ist das Wort «tendenziell»: Kurse reagieren auf Erwartungen, und die können sich auch anders entwickeln als gedacht."
+        },
+        {
+          "prompt": "Du erhältst auf Social Media diese Direktnachricht von einem unbekannten Account: «Hey! Ich habe mit dem Krypto-Bot von XYZ aus CHF 100 in einem Monat CHF 500 gemacht – garantiert! Nur noch heute anmelden, schreib mir privat!» Nenne mindestens drei Warnsignale in dieser Nachricht und formuliere, wie du reagieren würdest.",
+          "hint": "Vergleiche das Versprechen mit dem Grundsatz von Risiko und Rendite. Achte auch auf: Wer schreibt dir da – und warum wohl? Wozu der Zeitdruck? Was fällt dir an «garantiert» auf?",
+          "solution": "Warnsignale: (1) «Garantiert» plus extreme Rendite (400 % in einem Monat) – das widerspricht dem Grundsatz «höhere Renditechance bedeutet höheres Risiko»; garantierte hohe Gewinne gibt es nicht. (2) Unbekannter Absender, der aktiv wirbt – seriöse Anbieter verschicken keine Gewinnversprechen per Direktnachricht. (3) Zeitdruck («nur noch heute») – ein klassischer Trick, damit man nicht nachdenkt oder nachfragt. (4) Der Wechsel ins Private («schreib mir privat») entzieht das Gespräch der Öffentlichkeit. Angemessene Reaktion: nicht antworten, nichts einzahlen, den Account melden und blockieren – und im Zweifel mit einer erwachsenen Vertrauensperson darüber sprechen."
+        },
+        {
+          "prompt": "Erkläre einer Kollegin oder einem Kollegen in höchstens fünf Sätzen den Unterschied zwischen einer Aktie und einem Bitcoin – so, dass beide Begriffe und der Grundsatz von Risiko und Rendite darin vorkommen.",
+          "hint": "Baue die Erklärung entlang der Frage auf: «Was besitzt du jeweils?» Nutze die Tabelle aus dem Modul als Gedankenstütze – und bleib neutral: erklären, nicht empfehlen.",
+          "solution": "Eine mögliche Erklärung: «Mit einer Aktie besitzt du einen kleinen Anteil an einem echten Unternehmen – du darfst mitbestimmen, bekommst bei Gewinn vielleicht eine Dividende, und der Kurs hängt davon ab, wie gut das Unternehmen wirtschaftet. Ein Bitcoin ist dagegen kein Anteil an irgendetwas Realem: Sein Preis entsteht nur daraus, was andere gerade dafür zahlen wollen. Beide werden über Angebot und Nachfrage gehandelt, und bei beiden sind Verluste möglich. Bei Bitcoin sind die Schwankungen aber oft extrem – bis hin zum Totalverlust. Es gilt der Grundsatz: höhere Renditechance, höheres Risiko – und wer dir hohe Gewinne ohne Risiko verspricht, will dich täuschen.»"
+        }
+      ]
+    }
+  ]
+}

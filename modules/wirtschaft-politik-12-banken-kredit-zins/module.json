@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-12-banken-kredit-zins",
+  "title": "Banken: Aufgaben, Kredit und Zins",
+  "description": "Was macht die Bank eigentlich mit deinem Ersparten? Im zwölften Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die drei Kernaufgaben der Banken kennen, verstehst den Zins aus zwei Blickwinkeln – als Belohnung fürs Sparen und als Preis fürs Ausleihen – und rechnest selbst nach, wie die Bank an der Zinsdifferenz verdient. Zum Schluss wirfst du einen Blick auf den Finanzplatz Liechtenstein, einen der wichtigsten Wirtschaftszweige des Landes.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 12,
+  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Bank",
+    "Einlagen",
+    "Kredit",
+    "Zins",
+    "Sparzins",
+    "Kreditzins",
+    "Zinsdifferenz",
+    "Kreditwürdigkeit",
+    "Zahlungsverkehr",
+    "Finanzplatz Liechtenstein"
+  ],
+  "learningObjectives": [
+    "Ich kann die drei Kernaufgaben der Banken nennen: Einlagen entgegennehmen, Kredite vergeben und den Zahlungsverkehr abwickeln.",
+    "Ich kann den Zins aus zwei Blickwinkeln erklären – als Belohnung fürs Sparen und als Preis fürs Ausleihen – und die Zinsdifferenz als Geschäftsmodell der Bank beschreiben.",
+    "Ich kann erklären, warum die Bank vor einem Kredit die Kreditwürdigkeit prüft.",
+    "Ich kann den Finanzplatz Liechtenstein als wichtigen Wirtschaftszweig des Landes einordnen."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.3",
+      "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+      "code": "WAH.5.2",
+      "description": "Die Schülerinnen und Schüler können soziale, rechtliche und ökonomische Aspekte im Alltag und im Zusammenleben recherchieren."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Liechtensteinischer Bankenverband",
+      "url": "https://www.bankenverband.li"
+    },
+    {
+      "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+      "url": "https://www.iconomix.ch"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-04-erweiterter-wirtschaftskreislauf",
+    "wirtschaft-politik-10-geld-funktionen-geschichte"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Was macht die Bank mit deinem Geld?",
+      "body": "Dein Ferienjob-Lohn liegt auf dem Jugendkonto. Aber liegt er dort wirklich – so wie ein Velo im Keller? Nein: Die Bank arbeitet mit diesem Geld. In Modul 4 hast du die Banken als Akteur im Wirtschaftskreislauf kennengelernt – und dort wurde dir ein Versprechen gemacht: Wie die Bank verdient und was ein Kredit kostet, schaust du dir «später im Modul über Banken» an. Genau da bist du jetzt.\n\nBanken haben **drei Kernaufgaben**:\n\n1. **Einlagen entgegennehmen:** Sie sammeln das Geld der Sparenden ein – deinen Ferienjob-Lohn, das Ersparte deiner Grosseltern, die Festkasse des Vereins. Dieses Geld heisst **Einlage**.\n2. **Kredite vergeben:** Sie leihen das gesammelte Geld an jene weiter, die gerade mehr brauchen, als sie haben – der Bäckerei für den neuen Backofen, einer Familie für das Haus, einer Firma für Maschinen. Das geliehene Geld heisst **Kredit**.\n3. **Zahlungsverkehr abwickeln:** Sie bewegen Buchgeld von Konto zu Konto – der Lohn kommt herein, die Handyrechnung geht hinaus, die Kartenzahlung im Laden wird deinem Konto belastet. Ohne diese dritte Aufgabe würdest du heute kaum noch etwas bezahlen können.\n\nDie Bank ist also eine **Drehscheibe**: Auf der einen Seite fliesst das Sparen hinein, auf der anderen Seite fliessen Kredite hinaus. So verbindet sie Menschen, die Geld übrig haben, mit Menschen, die Geld brauchen – und dein Erspartes steckt vielleicht indirekt im Backofen deiner Bäckerei."
+    },
+    {
+      "type": "text",
+      "title": "Der Zins: Belohnung und Preis zugleich",
+      "body": "Warum bringen die Sparenden ihr Geld überhaupt zur Bank – und warum gibt die Bank es nicht gratis weiter? Die Antwort heisst **Zins**. Er hat zwei Gesichter, je nachdem, auf welcher Seite du stehst:\n\n- **Für Sparende ist der Zins eine Belohnung:** Wer der Bank Geld überlässt, bekommt dafür jedes Jahr einen kleinen Prozentsatz gutgeschrieben – den **Sparzins**.\n- **Für Kreditnehmende ist der Zins ein Preis:** Wer sich Geld leiht, zahlt dafür jedes Jahr einen Prozentsatz – den **Kreditzins**. Geld ausleihen kostet etwas, genau wie das Mieten einer Wohnung.\n\n**Rechnen wir das durch – mit einfachem Jahreszins auf CHF 1000:**\n\n- Du legst **CHF 1000** aufs Sparkonto, Sparzins **1 %**: Nach einem Jahr erhältst du 1 % von 1000 = **CHF 10** Zins.\n- Die Bäckerei leiht sich **CHF 1000**, Kreditzins **4 %**: Sie zahlt der Bank pro Jahr 4 % von 1000 = **CHF 40** Zins.\n\nDie Formel dahinter ist simpel: **Zins = Betrag × Zinssatz**. (Die Zinssätze hier sind Beispielzahlen – die tatsächlichen Sätze ändern sich laufend.)\n\nUnd jetzt siehst du das **Geschäftsmodell der Bank**: Sie zahlt den Sparenden 1 % und verlangt von den Kreditnehmenden 4 %. Die **Zinsdifferenz** von 3 Prozentpunkten bleibt bei der Bank – daraus bezahlt sie ihre Löhne, Filialen und Computer, und was übrig bleibt, ist ihr Gewinn. Der Kreditzins ist übrigens auch deshalb höher, weil die Bank ein **Risiko** trägt: Nicht jeder Kredit wird vollständig zurückbezahlt."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "2TbNWTe1Q5A",
+      "title": "Video: Wie funktioniert das Bankgeschäft?",
+      "description": "Das Erklärvideo (3:17) der Dualen Hochschule Baden-Württemberg (DHBW) Stuttgart zeigt das Bankgeschäft im Überblick. Achte beim Schauen auf zwei Leitfragen: (1) Welche zwei Seiten des Bankgeschäfts werden gezeigt – wer bringt Geld zur Bank, und wer leiht es sich aus? (2) Wie verdient die Bank ihr Geld? Vergleiche die Antwort mit der Zinsdifferenz aus diesem Modul.",
+      "transcript": "Das Erklärvideo der DHBW Stuttgart (3:17 Minuten, ein Studienprojekt des Studiengangs BWL-Bank) erklärt die Kernfunktionen des Bankgeschäfts an einfachen Beispielen: Kundinnen und Kunden bringen ihr Geld als Einlagen zur Bank (Passivgeschäft), die Bank verleiht dieses Geld als Kredite weiter (Aktivgeschäft). Aus dem Zusammenspiel beider Seiten wird verständlich, wie Zinsen entstehen – und dass die Bank an der Differenz zwischen dem höheren Kreditzins und dem tieferen Sparzins verdient (Zinsdifferenzgeschäft). Das Video ist sachlich gehalten und enthält keine Finanzberatung."
+    },
+    {
+      "type": "image",
+      "title": "Die Bank als Drehscheibe im Überblick",
+      "src": "/content/wirtschaft-politik-12-banken-kredit-zins/bank-drehscheibe.png",
+      "alt": "Schema mit drei Kästen und orangen, gestrichelten Geldstrom-Pfeilen wie im Wirtschaftskreislauf der Module 3 und 4. Links der blaue Kasten Sparende – sie bringen Geld zur Bank: du mit dem Ferienjob-Lohn, Grosseltern mit Erspartem, der Verein mit der Festkasse. In der Mitte der graublaue Kasten Bank, die Drehscheibe, mit den drei Kernaufgaben Einlagen entgegennehmen, Kredite vergeben, Zahlungsverkehr abwickeln – und dem Hinweis, dass sie vor jedem Kredit die Kreditwürdigkeit prüft. Rechts der hellblaue Kasten Kreditnehmende – sie leihen Geld von der Bank: die Bäckerei für den Backofen, eine Familie für das Haus, eine Firma für neue Maschinen. Obere Pfeile zeigen den Geldfluss nach rechts: Einlagen von den Sparenden zur Bank, Kredite von der Bank zu den Kreditnehmenden. Untere Pfeile zeigen die Zinsen zurück: Sparzins von zum Beispiel 1 Prozent von der Bank an die Sparenden (CHF 10 pro CHF 1000 und Jahr), Kreditzins von zum Beispiel 4 Prozent von den Kreditnehmenden an die Bank (CHF 40 pro CHF 1000 und Jahr). Darunter ein orange umrandeter Kasten mit dem Geschäftsmodell: Kreditzins 4 Prozent minus Sparzins 1 Prozent ergibt die Zinsdifferenz von 3 Prozentpunkten, aus der die Bank Löhne, Filialen und Computer bezahlt – und ihren Gewinn; die Zinssätze sind Beispielzahlen. Zuunterst ein Kasten zur dritten Kernaufgabe Zahlungsverkehr: Die Bank bewegt Buchgeld von Konto zu Konto – der Lohn kommt herein, die Handyrechnung geht hinaus, die Kartenzahlung wird belastet.",
+      "caption": "Die Bank als Drehscheibe: Einlagen fliessen hinein, Kredite hinaus – und an der Differenz zwischen Kreditzins und Sparzins verdient die Bank. Gleiche Farben und Pfeile wie im erweiterten Wirtschaftskreislauf (Modul 4).",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Kreditwürdigkeit: Wem leiht die Bank Geld?",
+      "body": "Die Bank verleiht nicht ihr eigenes Geld – sie verleiht vor allem das Geld, das ihr **die Sparenden anvertraut haben**. Auch deinen Ferienjob-Lohn. Deshalb darf sie nicht leichtsinnig sein: Bevor sie einen Kredit vergibt, prüft sie die **Kreditwürdigkeit** (auch **Bonität** genannt) – die Frage: *Kann und wird diese Person oder Firma das Geld samt Zins zurückzahlen?*\n\nDafür schaut die Bank zum Beispiel auf:\n\n- das **Einkommen**: Reicht der Lohn oder der Geschäftsgewinn, um die Raten zu stemmen?\n- **bestehende Schulden**: Wer schon viele Kredite laufen hat, trägt ein höheres Risiko.\n- das **bisherige Zahlungsverhalten**: Wurden frühere Rechnungen und Kredite zuverlässig bezahlt?\n- bei Firmen: den **Geschäftsplan** – lohnt sich der neue Backofen überhaupt?\n\nFällt die Prüfung schlecht aus, hat das Folgen: Die Bank **lehnt den Kredit ab** – oder sie verlangt einen **höheren Zins**, weil sie ein grösseres Risiko trägt. Das wirkt streng, schützt aber beide Seiten: die Sparenden davor, dass ihr Geld verloren geht, und die Kreditnehmenden davor, sich Schulden aufzuladen, die sie nicht tragen können. Was passiert, wenn Schulden trotzdem aus dem Ruder laufen, schaust du dir in Modul 15 an."
+    },
+    {
+      "type": "text",
+      "title": "Der Finanzplatz Liechtenstein",
+      "body": "Für Liechtenstein sind Banken weit mehr als praktische Dienstleister – sie sind ein **zentraler Wirtschaftszweig**. Ein paar Grössenordnungen:\n\n- In Liechtenstein gibt es **11 Banken** – für ein Land mit gut 40 000 Einwohnerinnen und Einwohnern bemerkenswert viele.\n- Der Finanzsektor (Banken, Versicherungen, Treuhand) erwirtschaftet **gut einen Fünftel** der gesamten Wirtschaftsleistung des Landes – nur die Industrie trägt noch mehr bei.\n- Die liechtensteinischen Banken verwalten Kundenvermögen von **über 500 Milliarden Franken** – ein Vielfaches dessen, was das kleine Land selbst erwirtschaftet. Viele Kundinnen und Kunden kommen aus dem Ausland.\n\nWarum ausgerechnet Liechtenstein? Dazu gehören die **stabile Währung** (der Schweizer Franken aus Modul 10), die politische Stabilität, die Mitgliedschaft im Europäischen Wirtschaftsraum (EWR) – und viel aufgebautes **Vertrauen**: Bei Geld zählt Verlässlichkeit mehr als alles andere.\n\nFür dich heisst das ganz praktisch: Der Finanzplatz bietet viele **Arbeitsplätze und Lehrstellen** – zum Beispiel die KV-Lehre bei einer Bank. Detailwissen über Bankprodukte brauchst du dafür jetzt noch nicht; wichtig ist das Bild: Banken sind für Liechtenstein das, was für andere Regionen eine grosse Fabrik ist – ein Pfeiler der Wirtschaft."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Banken, Kredit und Zins",
+      "intro": "Zeig, dass du das Bankgeschäft durchschaust. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Welches sind die drei Kernaufgaben einer Bank?",
+          "options": [
+            {
+              "text": "Geld drucken, Steuern einziehen und Löhne festlegen."
+            },
+            {
+              "text": "Aktien empfehlen, Gold lagern und Bargeld wechseln."
+            },
+            {
+              "text": "Sparen verbieten, Preise kontrollieren und Münzen prägen."
+            },
+            {
+              "text": "Einlagen entgegennehmen, Kredite vergeben und den Zahlungsverkehr abwickeln.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die drei Kernaufgaben sind: Einlagen entgegennehmen (das Geld der Sparenden), Kredite vergeben (Geld ausleihen) und den Zahlungsverkehr abwickeln (Buchgeld von Konto zu Konto bewegen). Banknoten herausgeben darf nur die Nationalbank, Münzen prägt der Staat, und Steuern zieht ebenfalls der Staat ein – beliebte Verwechslungen. Und Aktienempfehlungen oder Goldlagerung sind höchstens Zusatzgeschäfte, nicht der Kern."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was bedeutet der Zins – je nachdem, auf welcher Seite du stehst?",
+          "options": [
+            {
+              "text": "Für Sparende ist er die Belohnung dafür, dass sie der Bank Geld überlassen – für Kreditnehmende der Preis dafür, dass sie sich Geld ausleihen.",
+              "correct": true
+            },
+            {
+              "text": "Für alle Beteiligten ist er eine Gebühr, die der Staat auf Bankgeschäfte erhebt."
+            },
+            {
+              "text": "Er ist das Entgelt, das man der Bank für die Kontoeröffnung bezahlt."
+            },
+            {
+              "text": "Er ist der Betrag, den die Bank jedem Kunden jährlich schenkt."
+            }
+          ],
+          "explanation": "Der Zins hat zwei Gesichter: Belohnung fürs Sparen (Sparzins) und Preis fürs Ausleihen (Kreditzins). Mit dem Staat hat er nichts zu tun – Zinsen legt nicht das Steueramt fest. Eine Kontoeröffnungsgebühr ist er ebenso wenig. Und ein Geschenk ist er schon gar nicht: Den Sparzins bekommst du nur, weil die Bank mit deinem Geld arbeiten kann – und den Kreditzins bezahlst du ihr."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Du legst CHF 1000 zu einem Jahreszins von 2 % an. Wie viel Zins erhältst du nach einem Jahr?",
+          "options": [
+            {
+              "text": "CHF 2."
+            },
+            {
+              "text": "CHF 200."
+            },
+            {
+              "text": "CHF 20.",
+              "correct": true
+            },
+            {
+              "text": "CHF 1020."
+            }
+          ],
+          "explanation": "Zins = Betrag × Zinssatz: 1000 × 2 % = 1000 × 0.02 = CHF 20. Wer CHF 2 rechnet, hat 2 % mit «2 Franken» verwechselt; wer auf CHF 200 kommt, hat mit 20 % statt 2 % gerechnet – ein klassischer Kommafehler. Und CHF 1020 ist dein neuer Kontostand (Betrag plus Zins), nicht der Zins selbst – die Frage war nach dem Zins."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Die Bank zahlt 1 % Sparzins und verlangt 4 % Kreditzins. Warum ist diese Differenz für die Bank so wichtig?",
+          "options": [
+            {
+              "text": "Sie ist ein Versehen – eigentlich müssten beide Zinssätze gleich hoch sein."
+            },
+            {
+              "text": "Die Zinsdifferenz ist das Geschäftsmodell der Bank: Daraus bezahlt sie ihre Kosten und erzielt ihren Gewinn.",
+              "correct": true
+            },
+            {
+              "text": "Die Differenz muss die Bank vollständig als Steuer an den Staat abliefern."
+            },
+            {
+              "text": "Die Differenz wird am Jahresende gleichmässig an alle Sparenden verteilt."
+            }
+          ],
+          "explanation": "Genau von dieser Differenz lebt die Bank: Sie nimmt 4 % ein, zahlt 1 % weiter – aus den restlichen 3 Prozentpunkten finanziert sie Löhne, Filialen und IT, und was übrig bleibt, ist Gewinn. Ein Versehen ist das also nicht, sondern Absicht – wären beide Sätze gleich, könnte die Bank nicht existieren. Weder fliesst die Differenz als Steuer an den Staat, noch wird sie an die Sparenden verteilt."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Warum prüft die Bank die Kreditwürdigkeit, bevor sie einen Kredit vergibt?",
+          "options": [
+            {
+              "text": "Weil sie vor allem das Geld der Sparenden verleiht und deshalb prüfen muss, ob es samt Zins zurückkommt.",
+              "correct": true
+            },
+            {
+              "text": "Weil sie Kredite grundsätzlich nur an Reiche vergeben will."
+            },
+            {
+              "text": "Weil das Gesetz jede Kreditvergabe eigentlich verbietet."
+            },
+            {
+              "text": "Aus reiner Neugier – die Angaben haben keinen Einfluss auf den Entscheid."
+            }
+          ],
+          "explanation": "Die Bank verleiht anvertrautes Geld – auch dein Erspartes. Deshalb muss sie prüfen, ob Einkommen, bestehende Schulden und Zahlungsverhalten dafür sprechen, dass der Kredit zurückbezahlt wird. Mit «nur für Reiche» hat das nichts zu tun: Entscheidend ist die Tragbarkeit, nicht das Vermögen. Verboten ist die Kreditvergabe selbstverständlich nicht – sie ist eine Kernaufgabe. Und Neugier ist es auch nicht: Von der Prüfung hängen Entscheid und Zinssatz direkt ab."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Die Prüfung ergibt: Eine Person ist wenig kreditwürdig. Was passiert typischerweise?",
+          "options": [
+            {
+              "text": "Die Bank vergibt den Kredit trotzdem zu einem besonders tiefen Zins."
+            },
+            {
+              "text": "Die Person darf nie mehr ein Bankkonto eröffnen."
+            },
+            {
+              "text": "Der Staat übernimmt den Kredit automatisch."
+            },
+            {
+              "text": "Die Bank lehnt den Kredit ab – oder verlangt wegen des höheren Risikos einen höheren Zins.",
+              "correct": true
+            }
+          ],
+          "explanation": "Geringe Kreditwürdigkeit heisst höheres Risiko für die Bank – sie sagt dann Nein oder lässt sich das Risiko mit einem höheren Zins bezahlen. Ein besonders tiefer Zins wäre das Gegenteil dessen, was Banken tun. Ein Kontoverbot folgt daraus nicht – ein Konto führen und einen Kredit erhalten sind zwei Paar Schuhe. Und der Staat springt bei privaten Krediten nicht automatisch ein."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Welches ist ein Beispiel für die Kernaufgabe «Zahlungsverkehr abwickeln»?",
+          "options": [
+            {
+              "text": "Die Bank vergibt der Bäckerei einen Kredit für den neuen Backofen."
+            },
+            {
+              "text": "Die Bank führt deine Überweisung für die Handyrechnung aus.",
+              "correct": true
+            },
+            {
+              "text": "Die Bank druckt neue Banknoten, wenn das Bargeld knapp wird."
+            },
+            {
+              "text": "Die Bank legt fest, wie viel Lohn dir dein Lehrbetrieb zahlen muss."
+            }
+          ],
+          "explanation": "Zahlungsverkehr heisst: Buchgeld von Konto zu Konto bewegen – deine Überweisung ist das klassische Beispiel. Der Backofen-Kredit gehört zur Kernaufgabe «Kredite vergeben», nicht zum Zahlungsverkehr. Banknoten drucken darf nur die Nationalbank – eine der häufigsten Verwechslungen überhaupt. Und deinen Lohn verhandelst du mit dem Lehrbetrieb; die Bank überweist ihn nur."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Welche Aussage über den Finanzplatz Liechtenstein stimmt?",
+          "options": [
+            {
+              "text": "In Liechtenstein gibt es keine eigenen Banken – alle Konten laufen über die Schweiz."
+            },
+            {
+              "text": "Der Finanzsektor ist der einzige Wirtschaftszweig des Landes."
+            },
+            {
+              "text": "Der Finanzsektor erwirtschaftet gut einen Fünftel der Wirtschaftsleistung und ist damit einer der wichtigsten Wirtschaftszweige Liechtensteins.",
+              "correct": true
+            },
+            {
+              "text": "Liechtensteins Banken dürfen nur Bargeld wechseln, aber keine Kredite vergeben."
+            }
+          ],
+          "explanation": "Der Finanzsektor trägt gut einen Fünftel zur Wirtschaftsleistung bei – sehr viel für ein so kleines Land, mit 11 Banken und über 500 Milliarden Franken verwalteten Kundenvermögen. Eigene Banken gibt es also sehr wohl. Der einzige Wirtschaftszweig ist er aber nicht: Die Industrie trägt sogar noch mehr bei – Liechtenstein ist beides, Industrie- und Finanzstandort. Und selbstverständlich vergeben die Banken auch Kredite – das ist eine ihrer Kernaufgaben."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-bank-grundlagen",
+      "title": "Setze die Begriffe ein: Das Bankgeschäft",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Banken haben drei Kernaufgaben: Sie nehmen {{1}} entgegen, vergeben {{2}} und wickeln den {{3}} ab. Die Bank ist damit eine {{4}} zwischen Sparenden und Kreditnehmenden.\nWer spart, erhält den {{5}} – die Belohnung dafür, dass er der Bank Geld überlässt. Wer sich Geld leiht, bezahlt den höheren {{6}} – den Preis fürs Ausleihen. Die Differenz dazwischen ist das {{7}} der Bank: Daraus bezahlt sie ihre Kosten – was übrig bleibt, ist ihr Gewinn.\nBevor die Bank Geld verleiht, prüft sie die {{8}}: Kann diese Person das Geld samt Zins {{9}}? Das ist wichtig, denn die Bank verleiht vor allem das Geld, das ihr die {{10}} anvertraut haben.",
+      "luecken": [
+        {
+          "antworten": [
+            "Einlagen"
+          ]
+        },
+        {
+          "antworten": [
+            "Kredite"
+          ]
+        },
+        {
+          "antworten": [
+            "Zahlungsverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Drehscheibe"
+          ]
+        },
+        {
+          "antworten": [
+            "Sparzins"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreditzins"
+          ]
+        },
+        {
+          "antworten": [
+            "Geschäftsmodell"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreditwürdigkeit"
+          ]
+        },
+        {
+          "antworten": [
+            "zurückzahlen"
+          ]
+        },
+        {
+          "antworten": [
+            "Sparenden"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Steuern",
+        "Dividende",
+        "Wechselkurs"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zins-rechnen",
+      "title": "Tippe die Antworten ein: Zinsen rechnen",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Zahlen und Begriffe selbst ein**. Bei den Zahlen genügt die Zahl ohne «CHF». Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Du bringst CHF 1000 auf die Bank; der Sparzins beträgt 1 Prozent. Nach einem Jahr bekommst du CHF {{1}} Zins gutgeschrieben. Gleichzeitig leiht die Bank der Bäckerei CHF 1000 zu 4 Prozent Kreditzins – die Bäckerei zahlt ihr also CHF {{2}} Zins pro Jahr. Aus der {{3}} zwischen Kredit- und Sparzins bezahlt die Bank ihre Kosten – und was übrig bleibt, ist ihr Gewinn. Ob jemand überhaupt einen Kredit erhält, hängt von seiner {{4}} ab. Und dass die Banken in Liechtenstein gut einen Fünftel der Wirtschaftsleistung miterwirtschaften, zeigt: Der {{5}} ist einer der wichtigsten Wirtschaftszweige des Landes.",
+      "luecken": [
+        {
+          "antworten": [
+            "10"
+          ]
+        },
+        {
+          "antworten": [
+            "40"
+          ]
+        },
+        {
+          "antworten": [
+            "Differenz",
+            "Zinsdifferenz"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreditwürdigkeit",
+            "Bonität"
+          ]
+        },
+        {
+          "antworten": [
+            "Finanzplatz",
+            "Finanzsektor",
+            "Bankensektor",
+            "Bankenplatz"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-kernaufgaben",
+      "title": "Zuordnen: Welche Kernaufgabe der Bank steckt dahinter?",
+      "intro": "Ordne jeder Situation die passende Kernaufgabe zu: **Einlagen** (entgegennehmen), **Kredit** (vergeben) oder **Zahlungsverkehr** (abwickeln). Jede Aufgabe kommt mehrmals vor.",
+      "modus": "wortbank",
+      "text": "Du zahlst dein Ferienjob-Geld aufs Jugendkonto ein. {{1}}\nDie Bäckerei finanziert den neuen Backofen über die Bank. {{2}}\nDein Lehrbetrieb überweist dir den Lohn aufs Konto. {{3}}\nDeine Grossmutter legt ihr Erspartes auf ein Sparkonto. {{4}}\nEin Ehepaar leiht sich bei der Bank Geld für den Hauskauf. {{5}}\nDu bezahlst die Handyrechnung per E-Banking. {{6}}\nDer Sportverein legt die Einnahmen vom Fest aufs Vereinskonto. {{7}}\nEine Schreinerei nimmt bei der Bank Geld für eine neue Maschine auf. {{8}}\nDeine Kartenzahlung im Laden wird deinem Konto belastet. {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Einlagen"
+          ]
+        },
+        {
+          "antworten": [
+            "Kredit"
+          ]
+        },
+        {
+          "antworten": [
+            "Zahlungsverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Einlagen"
+          ]
+        },
+        {
+          "antworten": [
+            "Kredit"
+          ]
+        },
+        {
+          "antworten": [
+            "Zahlungsverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Einlagen"
+          ]
+        },
+        {
+          "antworten": [
+            "Kredit"
+          ]
+        },
+        {
+          "antworten": [
+            "Zahlungsverkehr"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Du und deine Bank",
+      "tasks": [
+        {
+          "prompt": "Rechne selbst: (a) Du legst CHF 600 Ferienjob-Lohn zu 1 % Jahreszins an – wie viel Zins bekommst du nach einem Jahr? (b) Deine Nachbarin leiht sich CHF 3000 für ein E-Bike zu 6 % Jahreszins – wie viel Zins zahlt sie im ersten Jahr? (c) Erkläre in einem Satz, warum der Kreditzins praktisch immer höher ist als der Sparzins.",
+          "hint": "Die Formel: Zins = Betrag × Zinssatz. Rechne den Prozentsatz als Dezimalzahl (1 % = 0.01, 6 % = 0.06). Für (c): Wovon lebt die Bank – und welches Risiko trägt sie bei jedem Kredit?",
+          "solution": "(a) 600 × 0.01 = CHF 6 Zins. (b) 3000 × 0.06 = CHF 180 Zins im ersten Jahr. (c) Der Kreditzins muss höher sein als der Sparzins, weil die Bank von der Zinsdifferenz lebt – daraus bezahlt sie ihre Kosten und ihren Gewinn – und weil sie beim Verleihen ein Risiko trägt: Nicht jeder Kredit wird vollständig zurückbezahlt."
+        },
+        {
+          "prompt": "Überlege und begründe: Warum ist es auch für dich als Sparerin oder Sparer wichtig, dass die Bank Kredite sorgfältig prüft und nicht jedem Geld leiht?",
+          "hint": "Wessen Geld verleiht die Bank eigentlich? Und was würde passieren, wenn viele Kredite nicht zurückbezahlt würden?",
+          "solution": "Die Bank verleiht vor allem das Geld der Sparenden – also auch deines. Würden reihenweise Kredite ausfallen, weil die Bank leichtsinnig verliehen hat, geriete die Bank selbst in Schwierigkeiten – und damit das anvertraute Geld ihrer Kundschaft. Die sorgfältige Prüfung der Kreditwürdigkeit schützt also nicht nur die Bank, sondern das ganze Kollektiv der Sparenden. (Zusätzlich schützt sie Kreditnehmende davor, Schulden aufzunehmen, die sie nicht tragen können.)"
+        },
+        {
+          "prompt": "Mini-Recherche Finanzplatz: Finde heraus, welche Banken es in Liechtenstein gibt (drei genügen) und ob sie Lehrstellen anbieten – zum Beispiel die KV-Lehre. Notiere, was dich an einem Beruf bei der Bank reizen würde – oder eben nicht, mit Begründung.",
+          "hint": "Startpunkte: die Website des Liechtensteinischen Bankenverbands (bankenverband.li) oder die Lehrstellen-Seiten der Banken selbst. Die drei grössten Banken des Landes findest du in wenigen Minuten.",
+          "solution": "Beispiele für Banken in Liechtenstein: LGT, Liechtensteinische Landesbank (LLB) und VP Bank – daneben gibt es weitere, insgesamt 11 Banken. Die grossen Banken bilden regelmässig Lernende aus, typischerweise in der KV-Lehre (Kauffrau/Kaufmann EFZ, Branche Bank), teils auch in der Informatik. Ob dich das reizt, ist deine Sache – eine gute Begründung nennt konkrete Aspekte wie Kundenkontakt, Zahlen und Genauigkeit, Digitalisierung oder eben den Wunsch nach etwas ganz anderem."
+        }
+      ]
+    }
+  ]
+}
