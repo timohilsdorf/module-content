@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-15-schuldenfallen-digitales-bezahlen",
+  "title": "Persönliche Finanzen II: Schuldenfallen und digitales Bezahlen",
+  "description": "«Kauf jetzt, zahl später» – klingt harmlos, ist aber die aktuellste Schuldenfalle für Jugendliche. Im fünfzehnten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die digitalen Bezahlformen zu unterscheiden (Debitkarte, Kreditkarte, Bezahl-Apps, Buy-now-pay-later), verstehst, warum digitales Bezahlen die Ausgabenkontrolle erschwert, erkennst typische Schuldenfallen – und weisst, welche Warnsignale es gibt und wo du Hilfe findest.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 15,
+  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Schulden",
+    "Schuldenfalle",
+    "Buy now pay later",
+    "BNPL",
+    "Debitkarte",
+    "Kreditkarte",
+    "Twint",
+    "Abo-Falle",
+    "In-App-Käufe",
+    "Kleinkredit",
+    "Inkasso",
+    "Schuldenberatung"
+  ],
+  "learningObjectives": [
+    "Ich kann digitale Bezahlformen unterscheiden: Debitkarte (sofort vom Konto), Kreditkarte (später bezahlen), Bezahl-Apps und Buy-now-pay-later.",
+    "Ich kann erklären, warum digitales Bezahlen die Ausgabenkontrolle erschwert: Der «Schmerz des Bezahlens» entfällt.",
+    "Ich kann typische Schuldenfallen erkennen: BNPL-Raten, Abo-Fallen, In-App-Käufe und Kleinkredite.",
+    "Ich kenne Warnsignale für Geldprobleme und weiss, was erste Auswege sind – und wo es in Liechtenstein kostenlose Hilfe gibt."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.3",
+      "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "aha – Tipps & Infos für junge Leute (Liechtenstein)",
+      "url": "https://www.aha.li"
+    },
+    {
+      "title": "Beratung + Hilfe 147 (Pro Juventute, auch für Liechtenstein)",
+      "url": "https://www.147.ch"
+    },
+    {
+      "title": "Caritas Liechtenstein – Budget- und Schuldenberatung im Auftrag des Landes"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-14-budget-sparen-lohnabrechnung"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Der verschwundene Schmerz des Bezahlens",
+      "body": "Erinnerst du dich, wie es sich anfühlt, eine Fünfzigernote über den Ladentisch zu schieben? Genau dieses leichte Ziehen im Bauch nennt die Forschung den **«Schmerz des Bezahlens»**: Beim Barzahlen **siehst und spürst** du, wie das Geld weggeht – und überlegst automatisch, ob es dir der Kauf wert ist.\n\nBeim digitalen Bezahlen entfällt dieser Schmerz fast vollständig: Karte hinhalten, Handy zücken, «Jetzt kaufen» tippen – kein Geld wechselt sichtbar die Hand. Das ist bequem, hat aber eine Nebenwirkung: **Wer den Schmerz nicht spürt, gibt leichter und schneller Geld aus.** Deshalb lohnt es sich zu wissen, **wann** dein Geld bei welcher Bezahlform wirklich fliesst:\n\n- **Debitkarte:** direkt mit deinem Konto verbunden – die Belastung erfolgt **sofort**, und ohne Guthaben gibt es keine Zahlung. Deine Jugendkonto-Karte ist eine Debitkarte.\n- **Bezahl-Apps:** funktionieren wie eine Debitkarte ohne Karte – Belastung **sofort** vom Konto oder von einem aufgeladenen Guthaben. In der Schweiz ist **Twint** weit verbreitet; mit Konten liechtensteinischer Banken funktioniert Twint bisher allerdings nicht – die Liechtensteinische Landesbank bietet mit **LiPay** eine eigene Bezahl-App an.\n- **Kreditkarte:** Die Bank streckt dir das Geld vor. Alle Einkäufe des Monats kommen **gesammelt auf eine Rechnung** – bezahlt wird erst Ende Monat. Wer die Rechnung dann nicht vollständig begleicht, zahlt happige Zinsen.\n- **Buy now, pay later (BNPL):** «Kauf jetzt, zahl später» – die Bezahlung erfolgt erst nach 30 Tagen oder **in Raten** über Wochen bis Monate. Dazu gleich mehr, denn hier lauert die aktuellste Falle.\n\nMerke dir das Muster der Grafik: **Je später und unsichtbarer die Belastung, desto schwerer fällt die Kontrolle.**"
+    },
+    {
+      "type": "image",
+      "title": "Vier Bezahlformen im Vergleich",
+      "src": "/content/wirtschaft-politik-15-schuldenfallen-digitales-bezahlen/bezahlformen-vergleich.png",
+      "alt": "Vergleichsschema mit vier Karten und einer Zeitachse für den Zeitpunkt der Belastung. Erste Karte, dunkelblau: Debitkarte – direkt mit dem Konto verbunden, ohne Guthaben keine Zahlung, der Kontostand zeigt jede Ausgabe sofort; typisch die Jugendkonto-Karte; Belastung sofort. Zweite Karte, dunkelblau: Bezahl-App – Bezahlen mit dem Handy, verbunden mit Konto oder Guthaben, wie eine Debitkarte ohne Karte; typisch Twint in der Schweiz und LiPay in Liechtenstein; Belastung sofort. Dritte Karte, mittelblau: Kreditkarte – die Bank streckt das Geld vor, alle Einkäufe des Monats kommen gesammelt auf eine Rechnung; Achtung, wer die Rechnung nicht voll bezahlt, zahlt hohe Zinsen; Belastung Ende Monat. Vierte Karte, orange: Buy now, pay later – Kauf jetzt, zahl später, Bezahlung in 30 Tagen oder in Raten; viele kleine Raten summieren sich leicht unbemerkt; Achtung, verpasste Raten führen zu Mahngebühren und Inkasso; Belastung Wochen bis Monate später. Darunter eine Zeitachse von sofort bis viel später mit vier Punkten in den Kartenfarben. Zuunterst ein Farbbalken von blau nach orange zur Frage, wie leicht man die Kontrolle über die Ausgaben behält: einfach, wenn man das Geld sofort gehen sieht – schwierig, wenn der Schmerz des Bezahlens entfällt. Eine Fussnote erklärt: In Liechtenstein funktioniert Twint mit Konten der hiesigen Banken bisher nicht, die Liechtensteinische Landesbank bietet mit LiPay eine eigene Bezahl-App an; vereinfachtes Schema.",
+      "caption": "Vier Bezahlformen, ein Muster: Je später und unsichtbarer die Belastung, desto schwieriger wird die Ausgabenkontrolle.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Die vier häufigsten Schuldenfallen",
+      "body": "Schulden entstehen selten durch eine grosse Dummheit – meist durch **viele kleine Selbstverständlichkeiten**. Vier Fallen solltest du kennen:\n\n1. **Buy-now-pay-later-Raten – die aktuellste Falle:** Beim Online-Shopping ist «in Raten zahlen» oft nur einen Klick entfernt und fühlt sich gratis an. Aber: Drei Bestellungen mit je drei kleinen Raten sind schon neun Zahlungstermine – wer da den Überblick verliert oder eine Rate verpasst, kassiert **Mahngebühren**, und irgendwann meldet sich das **Inkassobüro**. Umfragen aus Deutschland zeigen, dass bereits ein beträchtlicher Teil der jungen Erwachsenen Post von Inkassounternehmen erhalten hat. Und aus Modul 12 weisst du: Wer Rechnungen schleifen lässt, beschädigt seine **Kreditwürdigkeit** – das kann später beim Handy-Abo oder der Wohnungssuche zum Problem werden.\n2. **Abo-Fallen:** Der Gratismonat beim Streaming- oder Fitness-Abo verlängert sich **automatisch kostenpflichtig**, wenn du nicht rechtzeitig kündigst. Einzeln wirken CHF 12.90 harmlos – vier vergessene Abos sind über CHF 600 im Jahr.\n3. **In-App-Käufe:** Games verkaufen Fortschritt in Kleinstbeträgen – CHF 2 hier, CHF 5 da. Weil jeder Betrag winzig ist, fehlt der Schmerz des Bezahlens komplett; die Summe siehst du erst auf der Abrechnung.\n4. **Kleinkredite:** «Sofort CHF 5000 aufs Konto!» – Konsumkredite sind schnelles Geld zu hohen Zinsen. Aus Modul 12 kennst du die Logik: Je unsicherer die Rückzahlung, desto höher der Zins. Wer einen Kredit braucht, um alte Rechnungen zu bezahlen, ist bereits in der **Schuldenspirale**.\n\nÜbrigens: Viele Shops und Apps nutzen zusätzlich psychologische Tricks – sogenannte **Dark Patterns** –, damit du schneller kaufst und schwerer kündigst. Die schaust du dir in Modul 17 genauer an; hier reicht der Hinweis: Wenn sich etwas besonders leicht anfühlt, hat das meistens einen Grund."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "L-ygoqSzavk",
+      "title": "Video: Schuldenfalle «Kauf jetzt, zahl später»",
+      "description": "Der Beitrag (5:49) des öffentlich-rechtlichen Kanals BR24 zeigt am echten Fall des 25-jährigen Fabian, wie Buy-now-pay-later in die Verschuldung führen kann. Der Beitrag stammt aus Deutschland – die Beträge sind in Euro, das Muster ist bei uns dasselbe. Achte beim Schauen auf zwei Leitfragen: (1) Wie sind aus vielen kleinen Zahlungsaufschüben bei Fabian über 30 000 Euro Schulden geworden – welche Rolle spielte die Leichtigkeit des Bestellens? (2) Welche Warnsignale hätte Fabian früher ernst nehmen können?",
+      "transcript": "Der journalistische Beitrag von BR24 (Bayerischer Rundfunk, 5:49 Minuten) begleitet den 25-jährigen Fabian, der mit «Kauf jetzt, zahl später»-Angeboten beim Online-Shopping rund 32 000 Euro Schulden angehäuft hat. Der Beitrag erklärt, wie Buy-now-pay-later-Dienste mit scheinbarer Leichtigkeit zum Spontankauf verleiten und wie sich viele kleine Zahlungsaufschübe zu einem Strudel aus Schulden und Scham summieren. Als Einordnung nennt der Beitrag Umfragen, wonach bereits jede vierte Person der Generation Z von einem Inkassounternehmen kontaktiert wurde. Der Beitrag ist sachlich aufbereitet und zeigt auch den Weg aus der Situation – mit Überblick, Ehrlichkeit und professioneller Beratung.",
+      "startSeconds": 0
+    },
+    {
+      "type": "text",
+      "title": "Warnsignale erkennen – und Auswege kennen",
+      "body": "Geldprobleme kommen schleichend. Diese **Warnsignale** solltest du ernst nehmen – bei dir selbst und bei Kolleginnen und Kollegen:\n\n- Du schaust den **Kontostand absichtlich nicht mehr an**.\n- Rechnungen und Mahnungen bleiben **ungeöffnet** liegen.\n- Du bezahlst **alte Rechnungen mit neuem Geld** – etwa mit der nächsten BNPL-Bestellung oder einem Kredit.\n- Du **verheimlichst** Käufe oder leihst dir immer wieder kleine Beträge aus.\n\nWenn dir das bekannt vorkommt, gilt: **Je früher du reagierst, desto einfacher ist der Weg zurück.** Die ersten Schritte kannst du selbst tun:\n\n1. **Überblick verschaffen:** Alle offenen Rechnungen, Raten und Abos auf eine Liste – das Budget aus Modul 14 ist dafür das Werkzeug. Der Moment ist unangenehm, aber er ist der Wendepunkt.\n2. **Abos kündigen und Ausgaben stoppen:** Alles Nicht-Nötige pausieren; Karten- und App-Zahlungen bewusst durch Bargeld ersetzen, bis der Schmerz des Bezahlens zurück ist.\n3. **Reden statt schämen:** Mit den Eltern, der Berufsbildnerin oder einer anderen Vertrauensperson sprechen. Schulden sind kein Charakterfehler – aber ein Problem, das allein selten kleiner wird.\n4. **Professionelle Hilfe holen – sie ist kostenlos:** In Liechtenstein führt die **Caritas Liechtenstein** im Auftrag des Landes die **Budget- und Schuldenberatung** durch. Für Jugendliche bietet **aha – Tipps & Infos für junge Leute** (aha.li) niederschwellige Infos rund ums Geld, und unter der Nummer **147** (Telefon, SMS oder Chat auf 147.ch) ist die Beratung von Pro Juventute rund um die Uhr erreichbar – auch aus Liechtenstein."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Bezahlformen und Schuldenfallen",
+      "intro": "Zeig, dass du Bezahlformen und Schuldenfallen durchschaust. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Wann wird dein Konto bei einer Zahlung mit der Debitkarte belastet?",
+          "options": [
+            {
+              "text": "Erst am Ende des Monats, gesammelt mit allen anderen Einkäufen."
+            },
+            {
+              "text": "Sofort beim Bezahlen – und ohne Guthaben funktioniert die Zahlung in der Regel nicht.",
+              "correct": true
+            },
+            {
+              "text": "Erst, wenn du die Zahlung in der Banking-App manuell bestätigst."
+            },
+            {
+              "text": "Nach 30 Tagen, wie bei Buy-now-pay-later."
+            }
+          ],
+          "explanation": "Die Debitkarte ist direkt mit deinem Konto verbunden: Das Geld geht sofort weg, und du kannst grundsätzlich nur ausgeben, was vorhanden ist – deshalb ist sie die übersichtlichste digitale Bezahlform. Die gesammelte Monatsrechnung gehört zur Kreditkarte, die 30-Tage-Frist zu BNPL. Und eine manuelle Bestätigung jeder Zahlung gibt es nicht – belastet wird automatisch."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was ist das Besondere an der Kreditkarte?",
+          "options": [
+            {
+              "text": "Sie funktioniert nur, wenn genug Guthaben auf dem Konto liegt."
+            },
+            {
+              "text": "Sie ist dasselbe wie eine Debitkarte, nur in einer anderen Farbe."
+            },
+            {
+              "text": "Mit ihr bezahlt man immer weniger, weil die Bank Rabatt gibt."
+            },
+            {
+              "text": "Die Bank streckt das Geld vor – alle Einkäufe des Monats kommen gesammelt auf eine Rechnung.",
+              "correct": true
+            }
+          ],
+          "explanation": "«Kredit» steckt im Namen: Die Bank bezahlt für dich und stellt dir Ende Monat die Rechnung. Genau darum braucht es beim Einkauf kein Guthaben – und genau darum ist die Kreditkarte weniger übersichtlich als die Debitkarte, die eben nicht dasselbe ist. Rabatt gibt es keinen; im Gegenteil: Wer die Monatsrechnung nicht vollständig bezahlt, zahlt hohe Zinsen auf den offenen Betrag."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Warum erschwert digitales Bezahlen die Kontrolle über die eigenen Ausgaben?",
+          "options": [
+            {
+              "text": "Weil digitale Zahlungen grundsätzlich teurer sind als Barzahlungen."
+            },
+            {
+              "text": "Weil man digital nur grosse Beträge bezahlen kann."
+            },
+            {
+              "text": "Weil der «Schmerz des Bezahlens» entfällt: Man sieht und spürt das Geld nicht weggehen.",
+              "correct": true
+            },
+            {
+              "text": "Weil Banken digitale Ausgaben vor der Kundschaft geheim halten."
+            }
+          ],
+          "explanation": "Beim Barzahlen spürst du den Abschied vom Geld – dieses Bremsgefühl heisst «Schmerz des Bezahlens». Digital entfällt es: Ein Tipp aufs Handy fühlt sich nach nichts an, also sitzt das Geld lockerer. Teurer ist die digitale Zahlung selbst normalerweise nicht, und kleine Beträge gehen digital besonders leicht – gerade das ist Teil des Problems. Geheim ist auch nichts: Alle Ausgaben stehen im Konto- oder Kartenauszug – man muss nur hinschauen."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Worin liegt die typische Gefahr von Buy-now-pay-later?",
+          "options": [
+            {
+              "text": "Viele kleine Raten aus verschiedenen Bestellungen summieren sich unbemerkt – und verpasste Raten führen zu Mahngebühren und Inkasso.",
+              "correct": true
+            },
+            {
+              "text": "Die Ware wird erst geliefert, wenn alles vollständig bezahlt ist."
+            },
+            {
+              "text": "BNPL ist in Liechtenstein und der Schweiz gesetzlich verboten."
+            },
+            {
+              "text": "Es gibt keine Gefahr – BNPL ist einfach ein Gratis-Zahlungsaufschub."
+            }
+          ],
+          "explanation": "Genau das macht BNPL zur aktuellsten Falle: Jede Rate wirkt harmlos, aber drei Bestellungen ergeben schnell neun Zahlungstermine – und wer eine Rate verpasst, zahlt Mahngebühren, bis hin zum Inkassoverfahren und beschädigter Kreditwürdigkeit. Die Ware kommt übrigens sofort, bezahlt wird später – das ist ja der Reiz. Verboten ist BNPL nicht, und «gratis» ist der Aufschub nur, solange wirklich alles pünktlich bezahlt wird."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Wie funktioniert eine typische Abo-Falle?",
+          "options": [
+            {
+              "text": "Das Abo endet automatisch nach dem Gratismonat – kündigen unnötig."
+            },
+            {
+              "text": "Der Anbieter schenkt dir das Abo, wenn du es weiterempfiehlst."
+            },
+            {
+              "text": "Abos können grundsätzlich nur schriftlich per Brief gekündigt werden."
+            },
+            {
+              "text": "Der Gratismonat verlängert sich automatisch in ein kostenpflichtiges Abo, wenn du nicht rechtzeitig kündigst.",
+              "correct": true
+            }
+          ],
+          "explanation": "Das Geschäftsmodell rechnet mit deiner Vergesslichkeit: Der Gratismonat läuft aus, und ohne Kündigung wird automatisch abgebucht – Monat für Monat. Von selbst endet da nichts; genau das ist die Falle. Geschenkt wird auch nichts, und die Brief-Pflicht ist ein Mythos: Meist geht die Kündigung in der App oder online – am sichersten gleich nach dem Abschluss des Gratismonats eine Erinnerung im Handy setzen."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "«Sofort CHF 5000 aufs Konto – ganz einfach!» Was solltest du über solche Kleinkredite wissen?",
+          "options": [
+            {
+              "text": "Sie sind ein günstiger Weg, um Wünsche sofort zu erfüllen."
+            },
+            {
+              "text": "Sie sind schnelles Geld zu hohen Zinsen – wer damit alte Rechnungen bezahlt, steckt bereits in der Schuldenspirale.",
+              "correct": true
+            },
+            {
+              "text": "Die Zinsen dafür sind gesetzlich auf 1 Prozent begrenzt."
+            },
+            {
+              "text": "Solche Kredite muss man nicht zurückzahlen, wenn man minderjährig ist."
+            }
+          ],
+          "explanation": "Konsum-Kleinkredite gehören zu den teuersten Kreditformen – die Zinsen sind hoch, weil das Ausfallrisiko hoch ist (die Logik aus Modul 12). Günstig sind sie also gerade nicht, und eine 1-Prozent-Grenze gibt es nicht. Besonders gefährlich wird es, wenn neues geliehenes Geld alte Löcher stopft – das ist die Schuldenspirale. Und Verträge «verschwinden» auch bei Minderjährigen nicht einfach – im Normalfall sind solche Kredite für Minderjährige gar nicht zugänglich, Schulden aus anderen Quellen bleiben trotzdem bestehen."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Welches Verhalten ist ein typisches Warnsignal für beginnende Geldprobleme?",
+          "options": [
+            {
+              "text": "Rechnungen und Mahnungen bleiben ungeöffnet liegen, und der Kontostand wird absichtlich nicht mehr angeschaut.",
+              "correct": true
+            },
+            {
+              "text": "Jemand führt ein Budget und kontrolliert es monatlich."
+            },
+            {
+              "text": "Jemand legt jeden Monat zuerst einen Sparbetrag zur Seite."
+            },
+            {
+              "text": "Jemand vergleicht vor einem grossen Kauf mehrere Angebote."
+            }
+          ],
+          "explanation": "Wegschauen ist das klassische Frühwarnzeichen: Wer Briefe nicht mehr öffnet und den Kontostand meidet, ahnt meist schon, dass etwas nicht stimmt – und genau dann zählt schnelles Reagieren, denn früh ist der Weg zurück noch kurz. Die anderen drei Verhaltensweisen sind das Gegenteil von Warnsignalen: Budget führen, zuerst sparen und Angebote vergleichen sind genau die Werkzeuge aus Modul 14, die vor Geldproblemen schützen."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Du merkst, dass dir die Schulden über den Kopf wachsen. Was ist der sinnvollste erste Weg?",
+          "options": [
+            {
+              "text": "Einen Kleinkredit aufnehmen, um alle offenen Rechnungen sofort zu bezahlen."
+            },
+            {
+              "text": "Abwarten – kleine Schulden verschwinden mit der Zeit von selbst."
+            },
+            {
+              "text": "Überblick verschaffen, mit einer Vertrauensperson reden – und kostenlose Hilfe holen, etwa bei der Budget- und Schuldenberatung der Caritas Liechtenstein oder via 147.",
+              "correct": true
+            },
+            {
+              "text": "Ein neues Konto bei einer anderen Bank eröffnen und von vorne beginnen."
+            }
+          ],
+          "explanation": "Der Wendepunkt heisst Überblick: alles auflisten, ehrlich hinschauen, reden – und professionelle Hilfe nutzen, die nichts kostet: in Liechtenstein die Budget- und Schuldenberatung der Caritas (im Auftrag des Landes), für Jugendliche auch aha.li und die Beratung unter 147. Ein neuer Kredit für alte Rechnungen füttert dagegen die Schuldenspirale. Von selbst verschwinden Schulden nie – Mahngebühren lassen sie wachsen. Und ein neues Konto löscht keine Schulden; die Gläubiger bleiben."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-bezahlformen-schulden",
+      "title": "Setze die Begriffe ein: Bezahlen und Schuldenfallen",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Mit der {{1}} wird dein Konto sofort belastet – du siehst den neuen Kontostand direkt. Die {{2}} sammelt die Einkäufe und belastet sie erst später, meist Ende Monat. Bei Buy-now-pay-later bezahlst du erst nach 30 Tagen oder in {{3}}.\nBeim Bezahlen mit Bargeld spürst du den {{4}} des Bezahlens – digital entfällt er, und die {{5}} über die Ausgaben wird schwieriger. Typische Schuldenfallen sind {{6}}, die sich nach dem Gratismonat automatisch verlängern, kleine {{7}} in Games sowie {{8}} mit hohen Zinsen. Wer Raten verpasst, riskiert {{9}} und ein Inkassoverfahren. Der erste Schritt aus der Falle ist immer derselbe: sich einen {{10}} verschaffen.",
+      "luecken": [
+        {
+          "antworten": [
+            "Debitkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreditkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Raten"
+          ]
+        },
+        {
+          "antworten": [
+            "Schmerz"
+          ]
+        },
+        {
+          "antworten": [
+            "Kontrolle"
+          ]
+        },
+        {
+          "antworten": [
+            "Abos"
+          ]
+        },
+        {
+          "antworten": [
+            "In-App-Käufe"
+          ]
+        },
+        {
+          "antworten": [
+            "Kleinkredite"
+          ]
+        },
+        {
+          "antworten": [
+            "Mahngebühren"
+          ]
+        },
+        {
+          "antworten": [
+            "Überblick"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Sparzins",
+        "Dividende",
+        "Prämie"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-bezahlen-eingabe",
+      "title": "Tippe die Begriffe ein: Wann fliesst das Geld?",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Bei der Debitkarte geht das Geld {{1}} vom Konto. Die Kreditkartenrechnung kommt meist am Ende des {{2}}. «Kauf jetzt, zahl später» heisst auf Englisch «Buy now, pay {{3}}». Wer Rechnungen und Raten liegen lässt, dem drohen {{4}} und schliesslich das Inkasso. Kostenlose Hilfe bei Geldproblemen bietet in Liechtenstein die Budget- und Schuldenberatung der {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "sofort",
+            "direkt",
+            "unmittelbar"
+          ]
+        },
+        {
+          "antworten": [
+            "Monats",
+            "Monat"
+          ]
+        },
+        {
+          "antworten": [
+            "later"
+          ]
+        },
+        {
+          "antworten": [
+            "Mahngebühren",
+            "Mahnungen",
+            "Mahnspesen",
+            "Mahngebuehren"
+          ]
+        },
+        {
+          "antworten": [
+            "Caritas",
+            "Caritas Liechtenstein"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-bezahlformen",
+      "title": "Zuordnen: Debitkarte, Kreditkarte oder Buy-now-pay-later?",
+      "intro": "Ordne jede Aussage der passenden Bezahlform zu: **Debitkarte**, **Kreditkarte** oder **Buy-now-pay-later**. Jede Form kommt mehrmals vor.",
+      "modus": "wortbank",
+      "text": "Das Geld geht im Moment des Einkaufs vom Konto. {{1}}\nAlle Einkäufe des Monats kommen gesammelt auf eine Rechnung. {{2}}\nDu bezahlst den Kaufbetrag in mehreren Teilbeträgen über Wochen oder Monate. {{3}}\nOhne Guthaben auf dem Konto funktioniert die Zahlung in der Regel nicht. {{4}}\nDie Bank streckt das Geld vor – abgerechnet wird später. {{5}}\nBeliebt in Onlineshops: «Bestell jetzt, bezahle in 30 Tagen oder in Raten.» {{6}}\nDer Kontostand zeigt deine Ausgabe sofort an. {{7}}\nWer die Monatsrechnung nicht vollständig bezahlt, zahlt hohe Zinsen. {{8}}\nViele kleine Raten aus verschiedenen Bestellungen summieren sich leicht unbemerkt. {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Debitkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreditkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Buy-now-pay-later"
+          ]
+        },
+        {
+          "antworten": [
+            "Debitkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreditkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Buy-now-pay-later"
+          ]
+        },
+        {
+          "antworten": [
+            "Debitkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Kreditkarte"
+          ]
+        },
+        {
+          "antworten": [
+            "Buy-now-pay-later"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Deine Ausgaben, deine Kontrolle",
+      "tasks": [
+        {
+          "prompt": "Mach den Abo-Check: Liste alle Abos und regelmässigen Dienste auf, die du (oder deine Familie für dich) bezahlst – Streaming, Musik, Games, Cloud-Speicher, Fitness, Handy. Notiere zu jedem den Monatsbetrag und rechne die Jahreskosten aus. Welche Abos nutzt du wirklich – und welches würdest du nach diesem Check kündigen?",
+          "hint": "Suche an drei Orten: in den Abo-Einstellungen deines Handys (App-Store-Abonnemente), in den E-Mails nach «Abo bestätigt» oder «Rechnung» – und im Kontoauszug beziehungsweise bei den Kartenzahlungen. Jahreskosten = Monatsbetrag × 12; kleine Beträge summieren sich erstaunlich schnell.",
+          "solution": "Eine Musterlösung gibt es nicht – typisch ist aber dieses Ergebnis: Es kommen mehr Abos zusammen als gedacht (der Durchschnittshaushalt unterschätzt seine Abo-Kosten deutlich), und mindestens eines davon wurde seit Monaten kaum genutzt. Beispielrechnung: Streaming CHF 13, Musik CHF 11, ein Game-Abo CHF 8 und Cloud-Speicher CHF 3 ergeben CHF 35 pro Monat – CHF 420 pro Jahr. Wer ein ungenutztes Abo kündigt, hat auf einen Schlag mehr gespart, als viele in einem Monat auf die Seite legen."
+        },
+        {
+          "prompt": "Deine Kollegin bestellt regelmässig Kleider online und wählt immer «in 3 Raten zahlen» – «weil es dann gar nicht weh tut». Gerade laufen Bestellungen über CHF 90, CHF 120 und CHF 60. (a) Wie viele Zahlungstermine muss sie sich merken, und wie hoch ist ihre gesamte offene Summe? (b) Erkläre ihr mit dem «Schmerz des Bezahlens», warum sich das so leicht anfühlt – und was daran gefährlich ist. (c) Welche Alternative würdest du ihr vorschlagen?",
+          "hint": "Für (a): 3 Bestellungen × 3 Raten. Für (b): Was spürt sie beim Klick auf «in Raten zahlen» – und wann kommt die Rechnung in echt? Für (c): Denk an die Debitkarte und an die Budgetregel aus Modul 14.",
+          "solution": "(a) 3 × 3 = 9 Zahlungstermine; offene Summe: 90 + 120 + 60 = CHF 270. (b) Beim Klick spürt sie nichts – kein Geld geht sichtbar weg, der Schmerz des Bezahlens entfällt komplett. Gefährlich ist genau das: Die CHF 270 sind bereits ausgegeben, fühlen sich aber nicht so an; verpasst sie eine der neun Raten, kommen Mahngebühren dazu, und die Kreditwürdigkeit leidet. (c) Alternativen: mit Debitkarte sofort bezahlen (dann zeigt der Kontostand die Wahrheit), nur bestellen, was das Budget diesen Monat hergibt – oder auf den Kauf sparen, statt ihn in Raten nachzuzahlen."
+        },
+        {
+          "prompt": "Erstelle einen kleinen «Notfallplan Geldprobleme» für dich oder eine erfundene Person: Nenne drei Warnsignale, auf die man achten sollte, die ersten zwei Schritte, die man selbst tun kann, und zwei Anlaufstellen in Liechtenstein mit dem, was sie bieten.",
+          "hint": "Warnsignale findest du im Abschnitt «Warnsignale erkennen». Für die Anlaufstellen: Wer führt in Liechtenstein die kostenlose Budget- und Schuldenberatung durch? Was bietet aha.li – und wen erreichst du unter 147?",
+          "solution": "Beispiel-Notfallplan: Warnsignale – (1) Kontostand wird gemieden, (2) Mahnungen bleiben ungeöffnet, (3) neue Schulden bezahlen alte Rechnungen. Erste Schritte – (1) Überblick verschaffen: alle offenen Beträge, Raten und Abos auflisten (Budget aus Modul 14), (2) unnötige Abos kündigen und auf Barzahlung oder Debitkarte umstellen, dazu mit einer Vertrauensperson reden. Anlaufstellen – Budget- und Schuldenberatung der Caritas Liechtenstein (kostenlos, im Auftrag des Landes, hilft beim Ordnen und Verhandeln), aha – Tipps & Infos für junge Leute (aha.li, niederschwellige Infos rund ums Geld) und die Beratung + Hilfe 147 von Pro Juventute (Telefon, SMS, Chat – rund um die Uhr, auch aus Liechtenstein)."
+        }
+      ]
+    }
+  ]
+}
