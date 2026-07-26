@@ -78,7 +78,7 @@
       "type": "image",
       "title": "Linas Lohnabrechnung im Überblick",
       "src": "/content/wirtschaft-politik-14-budget-sparen-lohnabrechnung/lohnabrechnung-schema.png",
-      "alt": "Beschriftetes Schaubild einer beispielhaften Lohnabrechnung. Oben die Kette: Bruttolohn minus Abzüge ergibt Nettolohn. Links ein Lohnzettel der Lohnabrechnung August für Lina Muster, Lernende im 3. Lehrjahr bei der Muster AG in Vaduz: Bruttolohn CHF 1100.00; darunter in Orange die Abzüge – AHV/IV (Alters- und Invalidenversicherung) minus CHF 52.00, Nichtberufsunfall-Versicherung NBU minus CHF 11.00, Krankengeldversicherung minus CHF 11.00, Total Abzüge minus CHF 74.00; zuunterst grün hervorgehoben der Nettolohn (Auszahlung aufs Konto) von CHF 1026.00. Rechts erklären drei Kästen mit Pfeilen die Positionen: Der Bruttolohn ist der im Lehrvertrag vereinbarte Lohn vor allen Abzügen. Die Sozialabzüge sind kleine Anteile des Lohns für Versicherungen – AHV/IV finanziert die heutigen Renten (Generationenvertrag) und sichert bei Invalidität ab, die NBU deckt Unfälle in der Freizeit, die Krankengeldversicherung ersetzt Lohn bei längerer Krankheit. Der Nettolohn ist Brutto minus Abzüge – das Geld, das tatsächlich aufs Konto kommt und mit dem das Budget geplant wird. Eine Fussnote erklärt: Beispielzahlen, gerundet; AHV/IV-Beiträge werden erst ab dem 1. Januar des Jahres abgezogen, in dem man 18 wird, und die Prämie der Krankenkassen-Grundversicherung wird separat per Rechnung bezahlt.",
+      "alt": "Beschriftetes Schaubild einer beispielhaften Lohnabrechnung. Oben die Kette: Bruttolohn minus Abzüge ergibt Nettolohn. Links ein Lohnzettel der Lohnabrechnung August für Lina Muster, Lernende im 3. Lehrjahr bei der Muster AG in Vaduz: Bruttolohn CHF 1100.00; darunter in Orange die Abzüge – AHV/IV (Alters- und Hinterlassenen- / Invalidenversicherung) minus CHF 52.00, Nichtberufsunfall-Versicherung NBU minus CHF 11.00, Krankengeldversicherung minus CHF 11.00, Total Abzüge minus CHF 74.00; zuunterst grün hervorgehoben der Nettolohn (Auszahlung aufs Konto) von CHF 1026.00. Rechts erklären drei Kästen mit Pfeilen die Positionen: Der Bruttolohn ist der im Lehrvertrag vereinbarte Lohn vor allen Abzügen. Die Sozialabzüge sind kleine Anteile des Lohns für Versicherungen – AHV/IV finanziert die heutigen Renten (Generationenvertrag) und sichert bei Invalidität ab, die NBU deckt Unfälle in der Freizeit, die Krankengeldversicherung ersetzt Lohn bei längerer Krankheit. Der Nettolohn ist Brutto minus Abzüge – das Geld, das tatsächlich aufs Konto kommt und mit dem das Budget geplant wird. Eine Fussnote erklärt: Beispielzahlen, gerundet; AHV/IV-Beiträge werden erst ab dem 1. Januar des Jahres abgezogen, in dem man 18 wird, und die Prämie der Krankenkassen-Grundversicherung wird separat per Rechnung bezahlt.",
       "caption": "Von Brutto zu Netto: Die Abzüge gehen an Sozialversicherungen – geplant wird mit dem Nettolohn. Beispielzahlen, gerundet.",
       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
     },
@@ -158,7 +158,7 @@
               "text": "Für die Prämie deiner privaten Handyversicherung."
             },
             {
-              "text": "Für die Alters- und Invalidenversicherung: Sie finanziert die heutigen Renten (Generationenvertrag) und sichert bei Invalidität ab.",
+              "text": "Für die Alters- und Hinterlassenenversicherung (AHV) und die Invalidenversicherung (IV): Sie finanzieren die heutigen Renten (Generationenvertrag) und sichern bei Invalidität ab.",
               "correct": true
             }
           ],
@@ -361,7 +361,9 @@
         },
         {
           "antworten": [
-            "1200"
+            "1200",
+            "1'200",
+            "1’200"
           ]
         },
         {
@@ -377,7 +379,7 @@
       "title": "Zuordnen: fix, variabel – oder Sparen?",
       "intro": "Ordne jeden Budgetposten der richtigen Kategorie zu: **fix** (jeden Monat gleich), **variabel** (schwankt von Monat zu Monat) oder **Sparen**. Jede Kategorie kommt mehrmals vor.",
       "modus": "wortbank",
-      "text": "Handy-Abo. {{1}}\nAusgang am Wochenende. {{2}}\nFester Betrag, den du dir gleich nach dem Lohneingang zur Seite legst. {{3}}\nÖV-Abo. {{4}}\nKleider. {{5}}\nNotgroschen für unerwartete Rechnungen. {{6}}\nBeitrag an Kost und Logis zuhause. {{7}}\nGames und In-App-Käufe. {{8}}\nRücklage für das Töffli. {{9}}",
+      "text": "Handy-Abo. {{1}}\nAusgang am Wochenende. {{2}}\nBetrag für dein Sparziel, den du dir gleich nach dem Lohneingang zur Seite legst. {{3}}\nÖV-Abo. {{4}}\nKleider. {{5}}\nNotgroschen für unerwartete Rechnungen. {{6}}\nBeitrag an Kost und Logis zuhause. {{7}}\nGames und In-App-Käufe. {{8}}\nRücklage für das Töffli. {{9}}",
       "luecken": [
         {
           "antworten": [

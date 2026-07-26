@@ -95,7 +95,7 @@
       "type": "quiz",
       "id": "quiz1",
       "title": "Das grosse Repetitionsquiz: quer durch die Module 1–15",
-      "intro": "Dreizehn Fragen durch den ganzen Stoff – sie beginnen leicht und werden gegen hinten anspruchsvoller. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "intro": "Fünfzehn Fragen durch den ganzen Stoff – sie beginnen leicht und werden gegen hinten anspruchsvoller. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
       "questions": [
         {
           "id": "q1",
@@ -116,7 +116,7 @@
               "text": "Weil alle Güter im Überfluss vorhanden sind."
             }
           ],
-          "explanation": "Das Grundproblem der Wirtschaft heisst Knappheit: Unsere Wünsche sind unbegrenzt, die Mittel (Zeit, Geld, Rohstoffe) nicht – also müssen wir wählen und haushälterisch umgehen (Modul 1). Ein Gesetz zwingt niemanden zum Wirtschaften, und Geld ist nur das Hilfsmittel, nicht der Grund. Wären alle Güter im Überfluss da, gäbe es das Problem gar nicht – dann müsste niemand wirtschaften."
+          "explanation": "Das Grundproblem der Wirtschaft heisst Knappheit: Unsere Wünsche sind unbegrenzt, die Mittel (Zeit, Geld, Rohstoffe) nicht – also müssen wir wählen und mit den knappen Mitteln haushälterisch umgehen (Modul 1). Ein Gesetz zwingt niemanden zum Wirtschaften, und Geld ist nur das Hilfsmittel, nicht der Grund. Wären alle Güter im Überfluss da, gäbe es das Problem gar nicht – dann müsste niemand wirtschaften."
         },
         {
           "id": "q2",
@@ -159,6 +159,27 @@
             }
           ],
           "explanation": "Der Lohn ist Geld – er gehört zum (orange gestrichelten) Geldstrom und ist die Gegenleistung für die Arbeitskraft, die als Realstrom von den Haushalten zu den Unternehmen fliesst (Modul 3). Die Arbeit selbst ist real, ihre Bezahlung aber nicht – genau diese Paarbildung ist der Kern des Kreislaufs: Jeder Realstrom hat einen Geldstrom als Gegenstück. Mit Exporten und Importen hat der Lohn nichts zu tun."
+        },
+        {
+          "id": "q14",
+          "type": "single_choice",
+          "prompt": "Im erweiterten Wirtschaftskreislauf: Welche zwei Ströme verbinden Haushalte und Unternehmen mit dem Staat?",
+          "options": [
+            {
+              "text": "Der Staat zahlt allen Haushalten den Lohn – dafür arbeiten alle beim Staat."
+            },
+            {
+              "text": "Exporte fliessen zum Staat, Importe kommen von ihm zurück."
+            },
+            {
+              "text": "Steuern fliessen an den Staat – öffentliche Leistungen wie Schulen und Strassen fliessen zurück.",
+              "correct": true
+            },
+            {
+              "text": "Sparen fliesst zum Staat, Kredite kommen von ihm zurück."
+            }
+          ],
+          "explanation": "Der Staat erhebt von Haushalten und Unternehmen Steuern und stellt dafür öffentliche Leistungen bereit – Schulen, Strassen, Sicherheit (Modul 4). Löhne zahlt der Staat nur seinen eigenen Angestellten, längst nicht allen. Exporte und Importe verbinden die Unternehmen mit dem Ausland, und Sparen und Kredite laufen über die Banken – beides sind andere Akteure des erweiterten Kreislaufs."
         },
         {
           "id": "q4",
@@ -243,6 +264,27 @@
             }
           ],
           "explanation": "Im Gleichgewicht treffen sich Angebot und Nachfrage: Zum Gleichgewichtspreis wird genau so viel angeboten, wie gekauft werden will – kein Überschuss, keine Knappheit (Modul 7). Der Staat legt diesen Preis nicht fest; er entsteht auf dem Markt. Mit dem tiefstmöglichen Überlebenspreis eines Anbieters oder einem Jahresdurchschnitt hat er nichts zu tun – er kann sich sogar täglich verschieben, wenn sich Angebot oder Nachfrage ändern."
+        },
+        {
+          "id": "q15",
+          "type": "single_choice",
+          "prompt": "Deine Kollegin überlegt, ihr neues Handy zu versichern. Was sagt Faustregel 1 aus dem Versicherungsmodul dazu?",
+          "options": [
+            {
+              "text": "Je mehr Versicherungen, desto besser – versichere alles, was dir wichtig ist."
+            },
+            {
+              "text": "Versichere existenzbedrohende Risiken – einen kleinen, tragbaren Schaden wie ein kaputtes Handy trägst du besser selbst.",
+              "correct": true
+            },
+            {
+              "text": "Versichern lohnt sich grundsätzlich nie – auch die Privathaftpflicht ist überflüssig."
+            },
+            {
+              "text": "Versichere nur Gegenstände, die mehr als CHF 1000 kosten."
+            }
+          ],
+          "explanation": "Faustregel 1 (Modul 11) fragt: Könnte mich der Schaden finanziell aus der Bahn werfen? Ein Handyschaden ist ärgerlich, aber tragbar – dafür lohnen sich die laufenden Prämien meist nicht. «Alles versichern» führt dagegen zu teuren, unnötigen Policen. Das Gegenteil stimmt aber auch nicht: Gegen existenzbedrohende Risiken – etwa Millionenschäden aus der Haftpflicht – ist Versichern genau richtig; die Privathaftpflicht gilt darum als sehr sinnvoll. Und eine starre Preisgrenze gibt es nicht: Entscheidend ist die Tragbarkeit des Schadens, nicht der Kaufpreis."
         },
         {
           "id": "q8",
@@ -378,7 +420,7 @@
       "title": "Zuordnen: Zwölf Begriffe, zwölf Definitionen",
       "intro": "Ordne jeder Definition den passenden Begriff zu – die Begriffe stammen aus allen drei Themenblöcken. Jeder Begriff wird genau einmal gebraucht.",
       "modus": "wortbank",
-      "text": "Wünsche sind unbegrenzt, die Mittel begrenzt – das Grundproblem der Wirtschaft: {{1}}\nWirtschaftsakteur, der konsumiert und den Unternehmen Arbeitskraft anbietet: {{2}}\nDer Strom aus Lohn und Konsumausgaben im Wirtschaftskreislauf: {{3}}\nGüter, die Unternehmen ins Ausland verkaufen: {{4}}\nDie langfristige Verschiebung der Beschäftigung vom 1. über den 2. in den 3. Sektor: {{5}}\nDie Menge eines Gutes, die Käuferinnen und Käufer zu einem bestimmten Preis kaufen wollen: {{6}}\nDer Preis, bei dem angebotene und nachgefragte Menge übereinstimmen: {{7}}\nMarktform mit nur einem einzigen Anbieter: {{8}}\nGeldfunktion, die Preise vergleichbar macht: {{9}}\nDer regelmässige Preis für den Versicherungsschutz: {{10}}\nDer Unterschied zwischen Kredit- und Sparzins – das klassische Geschäftsmodell der Bank: {{11}}\nDer Lohn nach allen Abzügen – der Betrag, der aufs Konto kommt: {{12}}",
+      "text": "Wünsche sind unbegrenzt, die Mittel begrenzt – das Grundproblem der Wirtschaft: {{1}}\nWirtschaftsakteure, die konsumieren und den Unternehmen Arbeitskraft anbieten: {{2}}\nDer Strom aus Lohn und Konsumausgaben im Wirtschaftskreislauf: {{3}}\nGüter, die Unternehmen ins Ausland verkaufen: {{4}}\nDie langfristige Verschiebung der Beschäftigung vom 1. über den 2. in den 3. Sektor: {{5}}\nDie Menge eines Gutes, die Käuferinnen und Käufer zu einem bestimmten Preis kaufen wollen: {{6}}\nDer Preis, bei dem angebotene und nachgefragte Menge übereinstimmen: {{7}}\nMarktform mit nur einem einzigen Anbieter: {{8}}\nGeldfunktion, die Preise vergleichbar macht: {{9}}\nDer regelmässige Preis für den Versicherungsschutz: {{10}}\nDer Unterschied zwischen Kredit- und Sparzins – das klassische Geschäftsmodell der Bank: {{11}}\nDer Lohn nach allen Abzügen – der Betrag, der aufs Konto kommt: {{12}}",
       "luecken": [
         {
           "antworten": [
@@ -522,12 +564,17 @@
         },
         {
           "antworten": [
-            "Monopol"
+            "Monopol",
+            "Monopolist",
+            "Monopolistin"
           ]
         },
         {
           "antworten": [
-            "10"
+            "10",
+            "10.00",
+            "10.-",
+            "10.–"
           ]
         },
         {
@@ -535,14 +582,20 @@
             "Betrug",
             "Anlagebetrug",
             "eine Betrugsmasche",
-            "Betrugsmasche"
+            "Betrugsmasche",
+            "einen Betrug",
+            "Scam",
+            "einen Scam",
+            "Abzocke"
           ]
         },
         {
           "antworten": [
             "Abzüge",
             "Sozialabzüge",
-            "Lohnabzüge"
+            "Lohnabzüge",
+            "Sozialversicherungsbeiträge",
+            "Sozialversicherungsabzüge"
           ]
         }
       ]
