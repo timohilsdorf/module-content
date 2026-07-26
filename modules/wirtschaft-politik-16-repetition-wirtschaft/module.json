@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-16-repetition-wirtschaft",
+  "title": "Repetition: Wirtschaft im Überblick",
+  "description": "Vor der schriftlichen Lernkontrolle kommt die Repetitionswoche – und dieses Modul begleitet sie. Es fasst die Kernbegriffe aller drei Themenblöcke kompakt zusammen (Grundbegriffe und Wirtschaftskreislauf, Markt und Preise, Geld, Banken und Finanzwissen) und lässt dich danach vor allem üben: mit einem grossen gemischten Quiz quer durch die Module 1 bis 15, einer Begriffs-Zuordnung, einem Repetitions-Lückentext und Transferaufgaben. Kein neuer Stoff – dafür alles Wichtige an einem Ort.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 16,
+  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 60,
+  "difficulty": "mittel",
+  "keywords": [
+    "Repetition",
+    "Prüfungsvorbereitung",
+    "Wirtschaftskreislauf",
+    "Knappheit",
+    "Wirtschaftsakteure",
+    "Angebot und Nachfrage",
+    "Gleichgewichtspreis",
+    "Monopol",
+    "Geldfunktionen",
+    "Banken",
+    "Zins",
+    "Budget",
+    "Schulden"
+  ],
+  "learningObjectives": [
+    "Ich kann die Kernbegriffe aus den Modulen 1 bis 15 erklären und den drei Themenblöcken zuordnen.",
+    "Ich kann Wissen aus verschiedenen Modulen verknüpfen und auf neue Alltagssituationen übertragen.",
+    "Ich weiss, wo meine Lücken liegen, und kann meine Vorbereitung auf die Lernkontrolle gezielt planen."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.2.3",
+      "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+      "url": "https://www.iconomix.ch"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-05-wirtschaftssektoren-strukturwandel",
+    "wirtschaft-politik-09-argumentieren-preisregulierung",
+    "wirtschaft-politik-15-schuldenfallen-digitales-bezahlen"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Alles auf einen Blick – dein Fahrplan für die Repetitionswoche",
+      "body": "Fünfzehn Module liegen hinter dir – von der Frage «Warum kannst du nicht alles haben?» bis zur Schuldenfalle im Onlineshop. Vor der schriftlichen Lernkontrolle bringt dieses Modul alles zusammen: **kein neuer Stoff**, sondern das Wichtigste aus allen drei Themenblöcken, kompakt zum Nachlesen – und danach vor allem: **üben, üben, üben**.\n\nSo nutzt du das Modul am besten:\n\n1. Lies die drei Block-Zusammenfassungen und markiere dir Begriffe, die sich nicht mehr «selbstverständlich» anfühlen.\n2. Löse das grosse Quiz – es beginnt leicht und wird gegen hinten anspruchsvoller.\n3. Nimm dir die Zuordnung und die Lückentexte vor. Alles, was dort hakt, schaust du im entsprechenden Modul noch einmal nach.\n4. Plane mit der Schlussaufgabe gezielt, was du vor der Lernkontrolle noch vertiefst.\n\nDu kannst alle Aufgaben beliebig oft wiederholen – gezählt wird dein bestes Ergebnis. Genau richtig für eine Repetitionswoche."
+    },
+    {
+      "type": "text",
+      "title": "Block A – Grundbegriffe und Wirtschaftskreislauf (Module 1–5)",
+      "body": "Wirtschaft entsteht, weil **unbegrenzte Bedürfnisse auf knappe Mittel** treffen – mit dieser **Knappheit** klug umzugehen, ist das **ökonomische Prinzip** (mit gegebenen Mitteln möglichst viel erreichen – oder ein Ziel mit möglichst wenig Mitteln). Bedürfnisse reichen von **Existenz-** über **Kultur-** bis zu **Luxusbedürfnissen**, erfüllt werden sie durch **Güter**: Sachgüter und Dienstleistungen, freie und knappe Güter. Die drei **Wirtschaftsakteure** sind die **Haushalte** (konsumieren, bieten Arbeitskraft an), die **Unternehmen** (produzieren, zahlen Löhne) und der **Staat** (setzt Regeln, erhebt Steuern, stellt öffentliche Leistungen bereit). Ihre Austauschbeziehungen zeigt der **Wirtschaftskreislauf**: Der grüne **Realstrom** (Arbeitskraft, Güter) und der orange **Geldstrom** (Lohn, Konsumausgaben) fliessen gegeneinander; im erweiterten Modell kommen Staat, **Banken** (Sparen und Kredite) und **Ausland** (Exporte und Importe) dazu. Gearbeitet wird in drei **Sektoren** – Landwirtschaft, Industrie und Dienstleistungen –, und der **Strukturwandel** hat die Beschäftigung über die Zeit vom ersten über den zweiten in den dritten Sektor verschoben; Liechtenstein ist dabei ein Sonderfall mit ungewöhnlich starker Industrie **und** starken Dienstleistungen."
+    },
+    {
+      "type": "text",
+      "title": "Block B – Markt und Preise (Module 6–9)",
+      "body": "Auf einem **Markt** treffen **Angebot** und **Nachfrage** aufeinander. Es gilt: Je höher der Preis, desto weniger wird nachgefragt – und desto mehr wird angeboten; sinkt der Preis, ist es umgekehrt. Wo sich beide Seiten treffen, liegt der **Gleichgewichtspreis**: Angebotene und nachgefragte Menge stimmen überein, der Markt ist «geräumt». Preise sind darum das wichtigste **Signal** des Marktes – sie zeigen Knappheit an, locken neue Anbieter an und bremsen die Nachfrage. Damit das funktioniert, braucht es **Wettbewerb**: Konkurrenz drückt auf Preise und treibt die Qualität. In einem **Monopol** dagegen gibt es nur einen Anbieter, die Kundschaft kann nicht ausweichen – deshalb schauen Behörden dort genauer hin. Ob der Staat in Preise eingreifen soll (Mietpreisbremse, Preisdeckel), ist eine politische Streitfrage: Ein Deckel **unter** dem Gleichgewichtspreis schützt kurzfristig die Betroffenen, erzeugt aber **Knappheit** – und ein gutes **Argument** dazu besteht immer aus Behauptung, Begründung und Beispiel."
+    },
+    {
+      "type": "text",
+      "title": "Block C – Geld, Banken, Finanzwissen (Module 10–15)",
+      "body": "**Geld** erfüllt drei Funktionen – **Tauschmittel**, **Wertaufbewahrung** und **Recheneinheit** – und hat sich vom Tauschhandel über Warengeld, Münzen und Papiergeld zum **Buchgeld** und digitalen Bezahlen entwickelt; Liechtenstein nutzt seit 1924 den stabilen **Schweizer Franken** (Währungsvertrag mit der Schweiz von 1980). **Versicherungen** beruhen darauf, dass das **Kollektiv** das Risiko des Einzelnen trägt – die **Prämie** ist der Preis dafür, und die Faustregeln lauten: existenzbedrohende Risiken versichern, kleine Schäden selbst tragen, Versichern und Sparen nicht vermischen. **Banken** nehmen Einlagen entgegen, vergeben **Kredite** und wickeln den Zahlungsverkehr ab; sie leben von der **Zinsdifferenz** zwischen Kredit- und Sparzins und prüfen vor jedem Kredit die **Kreditwürdigkeit**. An der **Börse** bestimmen Angebot und Nachfrage die Kurse: Die **Aktie** ist ein Anteil an einem realen Unternehmen, hinter **Bitcoin** steht nichts Reales – und generell gilt: **höhere Renditechance, höheres Risiko**. Fürs eigene Portemonnaie zählt das Handwerk: **Brutto minus Abzüge ergibt Netto**, budgetiert wird mit dem Nettolohn nach der Regel **«zuerst sparen, dann ausgeben»** – und wer Schuldenfallen wie Buy-now-pay-later, Abo-Fallen und Kleinkredite kennt, erkennt Warnsignale früh und weiss, wo es Hilfe gibt."
+    },
+    {
+      "type": "image",
+      "title": "Zur Erinnerung: der erweiterte Wirtschaftskreislauf",
+      "src": "/content/wirtschaft-politik-16-repetition-wirtschaft/wirtschaftskreislauf-erweitert.png",
+      "alt": "Kreislaufdiagramm, das den einfachen Wirtschaftskreislauf aus Modul 3 erweitert. In der Mitte unverändert der Kern: links der Kasten Haushalte, rechts der Kasten Unternehmen, dazwischen vier Pfeile – Arbeitskraft und Güter und Dienstleistungen als grüne, durchgezogene Pfeile (Realstrom), Lohn und Konsumausgaben als orange, gestrichelte Pfeile (Geldstrom). Neu kommen drei Akteure dazu: Oben der Staat mit zwei Strömen – Steuern fliessen als oranger, gestrichelter Pfeil von Haushalten und Unternehmen zum Staat hinauf, öffentliche Leistungen fliessen als grüner Pfeil zurück. Unten die Banken mit zwei orangen, gestrichelten Geldpfeilen – Sparen (Einlagen) fliesst zu den Banken hinunter, Kredite fliessen zurück in den Kreislauf. Rechts das Ausland (z. B. Schweiz und Österreich) mit zwei grünen Güterpfeilen – Exporte fliessen von den Unternehmen zum Ausland, Importe vom Ausland zu den Unternehmen. Eine Legende erklärt Realstrom (grün, durchgezogen) und Geldstrom (orange, gestrichelt). Darunter steht: Mit jedem Akteur wird das Modell realistischer – und bleibt doch eine Vereinfachung der Wirklichkeit.",
+      "caption": "Der erweiterte Wirtschaftskreislauf aus Modul 4 – das Schaubild, in dem fast alle Begriffe der Repetition zusammenlaufen: Akteure, Real- und Geldstrom, Staat, Banken und Ausland.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0 (übernommen aus Modul 4)"
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Das grosse Repetitionsquiz: quer durch die Module 1–15",
+      "intro": "Dreizehn Fragen durch den ganzen Stoff – sie beginnen leicht und werden gegen hinten anspruchsvoller. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Warum müssen Menschen überhaupt wirtschaften?",
+          "options": [
+            {
+              "text": "Weil unbegrenzte Bedürfnisse auf knappe Mittel treffen.",
+              "correct": true
+            },
+            {
+              "text": "Weil das Gesetz alle dazu verpflichtet."
+            },
+            {
+              "text": "Weil es sonst kein Geld gäbe."
+            },
+            {
+              "text": "Weil alle Güter im Überfluss vorhanden sind."
+            }
+          ],
+          "explanation": "Das Grundproblem der Wirtschaft heisst Knappheit: Unsere Wünsche sind unbegrenzt, die Mittel (Zeit, Geld, Rohstoffe) nicht – also müssen wir wählen und haushälterisch umgehen (Modul 1). Ein Gesetz zwingt niemanden zum Wirtschaften, und Geld ist nur das Hilfsmittel, nicht der Grund. Wären alle Güter im Überfluss da, gäbe es das Problem gar nicht – dann müsste niemand wirtschaften."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Welche drei Wirtschaftsakteure hast du im einfachen Modell kennengelernt?",
+          "options": [
+            {
+              "text": "Bauern, Fabriken und Läden."
+            },
+            {
+              "text": "Käufer, Verkäufer und Banken."
+            },
+            {
+              "text": "Haushalte, Unternehmen und Staat.",
+              "correct": true
+            },
+            {
+              "text": "Schweiz, Liechtenstein und Österreich."
+            }
+          ],
+          "explanation": "Die drei Akteure sind Haushalte (konsumieren, bieten Arbeitskraft an), Unternehmen (produzieren, zahlen Löhne) und der Staat (Regeln, Steuern, öffentliche Leistungen) – Modul 2. Bauern, Fabriken und Läden sind alles Unternehmen, also nur ein Akteur. «Käufer und Verkäufer» sind Rollen auf dem Markt, keine Akteure des Modells – und die Banken kamen erst im erweiterten Kreislauf dazu. Länder schliesslich sind Volkswirtschaften, nicht die Akteure darin."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Zu welchem Strom im Wirtschaftskreislauf gehört der Lohn?",
+          "options": [
+            {
+              "text": "Zum Realstrom, weil Arbeit real geleistet wird."
+            },
+            {
+              "text": "Zum Geldstrom – er fliesst als Bezahlung für die Arbeitskraft von den Unternehmen zu den Haushalten.",
+              "correct": true
+            },
+            {
+              "text": "Zu keinem der beiden Ströme."
+            },
+            {
+              "text": "Zum Warenstrom zwischen In- und Ausland."
+            }
+          ],
+          "explanation": "Der Lohn ist Geld – er gehört zum (orange gestrichelten) Geldstrom und ist die Gegenleistung für die Arbeitskraft, die als Realstrom von den Haushalten zu den Unternehmen fliesst (Modul 3). Die Arbeit selbst ist real, ihre Bezahlung aber nicht – genau diese Paarbildung ist der Kern des Kreislaufs: Jeder Realstrom hat einen Geldstrom als Gegenstück. Mit Exporten und Importen hat der Lohn nichts zu tun."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Welche drei Funktionen erfüllt Geld?",
+          "options": [
+            {
+              "text": "Sparen, Leihen und Vererben."
+            },
+            {
+              "text": "Münzen, Scheine und Karten."
+            },
+            {
+              "text": "Kaufen, Verkaufen und Tauschen."
+            },
+            {
+              "text": "Tauschmittel, Wertaufbewahrung und Recheneinheit.",
+              "correct": true
+            }
+          ],
+          "explanation": "Geld ist Tauschmittel (alle akzeptieren es), Wertaufbewahrung (es trägt Wert in die Zukunft) und Recheneinheit (es macht Preise vergleichbar) – Modul 10. Münzen, Scheine und Karten sind Formen beziehungsweise Zugänge zum Geld, nicht seine Funktionen. Kaufen, Verkaufen, Sparen und Leihen sind Tätigkeiten, die Geld möglich macht – auch das ist etwas anderes als eine Funktion."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Zu welchem Wirtschaftssektor gehört ein Coiffeursalon?",
+          "options": [
+            {
+              "text": "Zum 1. Sektor (Landwirtschaft und Rohstoffe)."
+            },
+            {
+              "text": "Zum 3. Sektor – er erbringt eine Dienstleistung.",
+              "correct": true
+            },
+            {
+              "text": "Zum 2. Sektor (Industrie und Handwerk)."
+            },
+            {
+              "text": "Zu keinem Sektor – Coiffeure sind Privatpersonen."
+            }
+          ],
+          "explanation": "Haareschneiden ist eine klassische Dienstleistung – 3. Sektor (Modul 5). Mit Landwirtschaft (1. Sektor) hat der Salon nichts zu tun, und obwohl Coiffeure handwerklich arbeiten, zählt ihr Betrieb nicht zum 2. Sektor: Dort werden Sachgüter hergestellt oder verbaut – beim Coiffeur entsteht kein Produkt, das man mitnehmen kann, sondern eine Leistung am Menschen. Und ein Salon ist selbstverständlich ein Unternehmen, keine Privatperson."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Der Preis für Kinotickets steigt deutlich. Wie reagiert die Nachfrage in der Regel?",
+          "options": [
+            {
+              "text": "Die nachgefragte Menge sinkt – weniger Leute wollen zu diesem Preis ins Kino.",
+              "correct": true
+            },
+            {
+              "text": "Die nachgefragte Menge steigt – teuer wirkt attraktiver."
+            },
+            {
+              "text": "Die Nachfrage bleibt immer genau gleich."
+            },
+            {
+              "text": "Die Nachfrage verschwindet vollständig, niemand geht mehr ins Kino."
+            }
+          ],
+          "explanation": "Die Grundregel der Nachfrage (Modul 6): Je höher der Preis, desto weniger wird nachgefragt – einige weichen aus (Streaming, anderes Kino), andere verzichten. Dass Teures generell attraktiver wirkt, ist die Ausnahme, nicht die Regel. Völlig unverändert bleibt die Nachfrage praktisch nie – und auf null fällt sie auch nicht: Wem das Kino wichtig ist, der zahlt auch den höheren Preis."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Was ist der Gleichgewichtspreis?",
+          "options": [
+            {
+              "text": "Der tiefste Preis, den ein Anbieter gerade noch überlebt."
+            },
+            {
+              "text": "Der Preis, den der Staat als fair festlegt."
+            },
+            {
+              "text": "Der Durchschnitt aller Preise eines Jahres."
+            },
+            {
+              "text": "Der Preis, bei dem angebotene und nachgefragte Menge übereinstimmen.",
+              "correct": true
+            }
+          ],
+          "explanation": "Im Gleichgewicht treffen sich Angebot und Nachfrage: Zum Gleichgewichtspreis wird genau so viel angeboten, wie gekauft werden will – kein Überschuss, keine Knappheit (Modul 7). Der Staat legt diesen Preis nicht fest; er entsteht auf dem Markt. Mit dem tiefstmöglichen Überlebenspreis eines Anbieters oder einem Jahresdurchschnitt hat er nichts zu tun – er kann sich sogar täglich verschieben, wenn sich Angebot oder Nachfrage ändern."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Wie verdient eine Bank im klassischen Zinsgeschäft ihr Geld?",
+          "options": [
+            {
+              "text": "Sie druckt bei Bedarf neues Geld."
+            },
+            {
+              "text": "Der Staat bezahlt sie für das Aufbewahren der Ersparnisse."
+            },
+            {
+              "text": "An der Zinsdifferenz: Der Kreditzins, den sie einnimmt, ist höher als der Sparzins, den sie auszahlt.",
+              "correct": true
+            },
+            {
+              "text": "Sie behält einen Teil jeder Einlage für sich."
+            }
+          ],
+          "explanation": "Die Bank zahlt den Sparenden einen tiefen Sparzins und verlangt von Kreditnehmenden einen höheren Kreditzins – von der Differenz bezahlt sie ihre Kosten und ihren Gewinn (Modul 12). Geld drucken darf nur die Nationalbank – die wohl hartnäckigste Verwechslung. Der Staat bezahlt Banken nicht fürs Aufbewahren, und deine Einlage gehört weiterhin dir – die Bank arbeitet damit, behält sie aber nicht ein."
+        },
+        {
+          "id": "q9",
+          "type": "single_choice",
+          "prompt": "Im Lehrvertrag steht ein höherer Lohn, als am Monatsende auf dein Konto kommt. Was ist die häufigste korrekte Erklärung?",
+          "options": [
+            {
+              "text": "Die Bank verlangt eine Gebühr für jede Lohnüberweisung."
+            },
+            {
+              "text": "Der Betrieb kürzt den Lohn nach Belieben."
+            },
+            {
+              "text": "Im Vertrag steht der Nettolohn, ausbezahlt wird der Bruttolohn."
+            },
+            {
+              "text": "Im Vertrag steht der Bruttolohn – abgezogen werden Beiträge an Sozialversicherungen, ausbezahlt wird der Nettolohn.",
+              "correct": true
+            }
+          ],
+          "explanation": "Verträge nennen den Bruttolohn; davon gehen Sozialabzüge weg (etwa AHV/IV, Nichtberufsunfall, Krankengeld), und aufs Konto kommt der Nettolohn (Modul 14). Die Richtung ist also genau umgekehrt zur dritten Option – Brutto steht im Vertrag, Netto wird ausbezahlt. Überweisungsgebühren für den Lohn gibt es nicht, und nach Belieben kürzen darf ein Betrieb selbstverständlich nicht – die Abzüge sind gesetzlich geregelt und stehen auf der Lohnabrechnung."
+        },
+        {
+          "id": "q10",
+          "type": "single_choice",
+          "prompt": "Im Dorf gibt es genau einen Skilift-Betreiber. Warum schauen Behörden bei solchen Monopolen genauer auf die Preise?",
+          "options": [
+            {
+              "text": "Weil Skifahren ein Grundrecht ist."
+            },
+            {
+              "text": "Weil ohne Konkurrenz der Preisdruck des Wettbewerbs fehlt – die Kundschaft kann nicht zu einem anderen Anbieter ausweichen.",
+              "correct": true
+            },
+            {
+              "text": "Weil Monopole immer zu tiefe Preise verlangen."
+            },
+            {
+              "text": "Weil der Staat grundsätzlich alle Preise im Land festlegt."
+            }
+          ],
+          "explanation": "Im Wettbewerb kontrollieren sich Anbieter gegenseitig: Wer zu viel verlangt, verliert Kundschaft an die Konkurrenz. Beim Monopol fällt diese Kontrolle weg – der einzige Anbieter könnte kräftig aufschlagen (Modul 8), deshalb schauen Behörden genauer hin. Das Problem sind mögliche zu hohe, nicht zu tiefe Preise. Ein Grundrecht auf Skifahren gibt es nicht, und der Staat legt in der Marktwirtschaft gerade nicht alle Preise fest – er greift nur dort ein, wo der Markt versagt."
+        },
+        {
+          "id": "q11",
+          "type": "single_choice",
+          "prompt": "Ein Land deckelt den Milchpreis deutlich unter dem Gleichgewichtspreis. Welche Folge sagt das Marktmodell voraus?",
+          "options": [
+            {
+              "text": "Ein Überschuss: Die Läden bleiben auf der Milch sitzen."
+            },
+            {
+              "text": "Nichts ändert sich – Preisdeckel wirken nicht auf Mengen."
+            },
+            {
+              "text": "Knappheit: Zum tiefen Preis wird mehr nachgefragt, aber weniger angeboten – leere Regale drohen.",
+              "correct": true
+            },
+            {
+              "text": "Die Qualität der Milch steigt automatisch."
+            }
+          ],
+          "explanation": "Ein Preis unter dem Gleichgewicht löst das Knappheitsmuster aus (Module 7 und 9): Die nachgefragte Menge steigt, das Anbieten lohnt sich weniger – es fehlt Ware, oft folgen Abgabebeschränkungen. Ein Überschuss entstünde beim umgekehrten Eingriff, einem Mindestpreis über dem Gleichgewicht. «Nichts ändert sich» widerspricht dem Modell gerade – Preise steuern Mengen. Und die Qualität steigt sicher nicht automatisch; eher wird beim gedeckelten Produkt gespart."
+        },
+        {
+          "id": "q12",
+          "type": "single_choice",
+          "prompt": "Was ist der grundlegende Unterschied zwischen einer Aktie und einem Bitcoin?",
+          "options": [
+            {
+              "text": "Die Aktie ist ein Anteil an einem realen Unternehmen – hinter Bitcoin steht kein Unternehmen, sein Preis entsteht rein aus Angebot und Nachfrage.",
+              "correct": true
+            },
+            {
+              "text": "Aktien können nie an Wert verlieren, Bitcoin schon."
+            },
+            {
+              "text": "Bitcoin wird von Banken herausgegeben, Aktien vom Staat."
+            },
+            {
+              "text": "Es gibt keinen Unterschied – beides sind digitale Währungen."
+            }
+          ],
+          "explanation": "Der Kernunterschied (Modul 13): Mit der Aktie besitzt du ein Stück eines echten Unternehmens – mit Mitbestimmung und möglicher Dividende. Hinter Bitcoin steht nichts Reales; sein Preis ist reine Angebots-Nachfrage-Sache mit oft extremen Schwankungen. Verlieren können übrigens beide an Wert – bei Aktien bis zum Konkurs des Unternehmens. Herausgegeben wird Bitcoin von niemandem, Aktien stammen von Unternehmen, nicht vom Staat – und eine Währung ist die Aktie ohnehin nicht."
+        },
+        {
+          "id": "q13",
+          "type": "single_choice",
+          "prompt": "Jemand verpasst mehrere Buy-now-pay-later-Raten. Welche Kette von Folgen ist realistisch?",
+          "options": [
+            {
+              "text": "Nichts passiert – BNPL-Raten verfallen nach 30 Tagen automatisch."
+            },
+            {
+              "text": "Der Onlineshop übernimmt die Raten aus Kulanz."
+            },
+            {
+              "text": "Die Bank erhöht zum Ausgleich den Sparzins."
+            },
+            {
+              "text": "Mahngebühren kommen dazu, ein Inkassoverfahren droht – und die beschädigte Kreditwürdigkeit erschwert später Kredite und Verträge.",
+              "correct": true
+            }
+          ],
+          "explanation": "Das ist die Verbindung der Module 12 und 15: Verpasste Raten lösen Mahngebühren aus, dann folgt das Inkasso – und wer als unzuverlässiger Zahler registriert ist, gilt als weniger kreditwürdig. Das kann Jahre später noch Kredite, Handy-Abos oder die Wohnungssuche erschweren. Schulden verfallen nicht von selbst, Shops verschenken nichts aus Kulanz – und der Sparzins hat mit alldem nichts zu tun."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-begriffe",
+      "title": "Zuordnen: Zwölf Begriffe, zwölf Definitionen",
+      "intro": "Ordne jeder Definition den passenden Begriff zu – die Begriffe stammen aus allen drei Themenblöcken. Jeder Begriff wird genau einmal gebraucht.",
+      "modus": "wortbank",
+      "text": "Wünsche sind unbegrenzt, die Mittel begrenzt – das Grundproblem der Wirtschaft: {{1}}\nWirtschaftsakteur, der konsumiert und den Unternehmen Arbeitskraft anbietet: {{2}}\nDer Strom aus Lohn und Konsumausgaben im Wirtschaftskreislauf: {{3}}\nGüter, die Unternehmen ins Ausland verkaufen: {{4}}\nDie langfristige Verschiebung der Beschäftigung vom 1. über den 2. in den 3. Sektor: {{5}}\nDie Menge eines Gutes, die Käuferinnen und Käufer zu einem bestimmten Preis kaufen wollen: {{6}}\nDer Preis, bei dem angebotene und nachgefragte Menge übereinstimmen: {{7}}\nMarktform mit nur einem einzigen Anbieter: {{8}}\nGeldfunktion, die Preise vergleichbar macht: {{9}}\nDer regelmässige Preis für den Versicherungsschutz: {{10}}\nDer Unterschied zwischen Kredit- und Sparzins – das klassische Geschäftsmodell der Bank: {{11}}\nDer Lohn nach allen Abzügen – der Betrag, der aufs Konto kommt: {{12}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Knappheit"
+          ]
+        },
+        {
+          "antworten": [
+            "Haushalte"
+          ]
+        },
+        {
+          "antworten": [
+            "Geldstrom"
+          ]
+        },
+        {
+          "antworten": [
+            "Exporte"
+          ]
+        },
+        {
+          "antworten": [
+            "Strukturwandel"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrage"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichgewichtspreis"
+          ]
+        },
+        {
+          "antworten": [
+            "Monopol"
+          ]
+        },
+        {
+          "antworten": [
+            "Recheneinheit"
+          ]
+        },
+        {
+          "antworten": [
+            "Prämie"
+          ]
+        },
+        {
+          "antworten": [
+            "Zinsdifferenz"
+          ]
+        },
+        {
+          "antworten": [
+            "Nettolohn"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-repetition-kreislauf",
+      "title": "Der grosse Repetitionstext: Der Wirtschaftskreislauf – mit allem, was dazugehört",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). Der Text spannt den Bogen durch mehrere Module. **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Im Zentrum der Wirtschaft steht der Kreislauf: Die Haushalte stellen den Unternehmen ihre {{1}} zur Verfügung und erhalten dafür {{2}}. Damit kaufen sie bei den Unternehmen Sachgüter und {{3}} – Realstrom und Geldstrom fliessen in entgegengesetzter Richtung. Der {{4}} erhebt Steuern und stellt dafür öffentliche Leistungen bereit.\nDie Banken wirken als {{5}} des Kreislaufs: Sie sammeln die {{6}} der Sparenden und vergeben daraus {{7}} an jene, die investieren wollen. Über die Landesgrenze fliessen Exporte und {{8}} – für das kleine Liechtenstein besonders wichtig. Bezahlt wird im ganzen Kreislauf mit dem Schweizer {{9}}. Und wo immer gekauft und verkauft wird, bestimmen Angebot und {{10}} die Preise.",
+      "luecken": [
+        {
+          "antworten": [
+            "Arbeitskraft"
+          ]
+        },
+        {
+          "antworten": [
+            "Lohn"
+          ]
+        },
+        {
+          "antworten": [
+            "Dienstleistungen"
+          ]
+        },
+        {
+          "antworten": [
+            "Staat"
+          ]
+        },
+        {
+          "antworten": [
+            "Drehscheibe"
+          ]
+        },
+        {
+          "antworten": [
+            "Einlagen"
+          ]
+        },
+        {
+          "antworten": [
+            "Kredite"
+          ]
+        },
+        {
+          "antworten": [
+            "Importe"
+          ]
+        },
+        {
+          "antworten": [
+            "Franken"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachfrage"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Dividende",
+        "Mahngebühren",
+        "Prämie"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-transfer-eingabe",
+      "title": "Transfer: Wende dein Wissen auf neue Situationen an",
+      "intro": "Fünf neue Situationen, kein Wortangebot – **tippe den passenden Begriff oder die Zahl selbst ein**. Gross-/Kleinschreibung spielt keine Rolle; bei der Zahl genügt die Zahl ohne «CHF».",
+      "modus": "eingabe",
+      "text": "Ein Freibad senkt an einem Regentag den Eintrittspreis – es reagiert damit auf die gesunkene {{1}}. Im Bergdorf gibt es nur eine einzige Bäckerei; für das Dorf ist sie ein {{2}}. Du legst CHF 500 zu 2 Prozent Jahreszins an – nach einem Jahr erhältst du CHF {{3}} Zins. Ein Social-Media-Angebot verspricht «hohe Rendite, null Risiko» – nach dem Grundsatz aus Modul 13 handelt es sich sehr wahrscheinlich um {{4}}. Und wenn im Lehrvertrag CHF 900 stehen, aufs Konto aber CHF 860 kommen, dann erklärt sich die Differenz durch die {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Nachfrage"
+          ]
+        },
+        {
+          "antworten": [
+            "Monopol"
+          ]
+        },
+        {
+          "antworten": [
+            "10"
+          ]
+        },
+        {
+          "antworten": [
+            "Betrug",
+            "Anlagebetrug",
+            "eine Betrugsmasche",
+            "Betrugsmasche"
+          ]
+        },
+        {
+          "antworten": [
+            "Abzüge",
+            "Sozialabzüge",
+            "Lohnabzüge"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Dein Weg zur Lernkontrolle",
+      "tasks": [
+        {
+          "prompt": "Lernen durch Lehren: Erstelle selbst drei Prüfungsfragen quer durch den Stoff – eine leichte, eine mittlere und eine anspruchsvolle. Jede Frage braucht vier Antwortmöglichkeiten, von denen genau eine stimmt – und die falschen sollen typische Denkfehler sein, keine Fantasieantworten. Tauscht die Fragen in der Klasse aus und löst sie gegenseitig.",
+          "hint": "Gute Distraktoren findest du, indem du an häufige Verwechslungen denkst: Brutto/Netto, Realstrom/Geldstrom, Prämie/Leistung, «die Bank druckt Geld», «Bitcoin ist eine Aktie». Anspruchsvoll wird eine Frage, wenn sie eine neue Situation beschreibt, statt nur eine Definition abzufragen.",
+          "solution": "Eine Musterlösung gibt es nicht – prüfe deine Fragen mit dieser Checkliste: (1) Ist genau eine Antwort eindeutig richtig? (2) Sind die falschen Antworten plausibel – würde jemand mit einer typischen Verwechslung tatsächlich darauf hereinfallen? (3) Deckt deine anspruchsvolle Frage eine Anwendung ab (neue Situation, Rechnung oder Verknüpfung zweier Module) statt reines Auswendigwissen? Wenn deine Mitschülerinnen und Mitschüler bei einer Frage diskutieren, war es eine gute Frage – und wer Fragen stellen kann, hat den Stoff meist schon verstanden."
+        },
+        {
+          "prompt": "Mach den Ampel-Check für deine Vorbereitung: Geh die Themen der Module 1–15 durch (Bedürfnisse und Knappheit, Akteure, einfacher und erweiterter Kreislauf, Sektoren, Angebot und Nachfrage, Preisbildung, Wettbewerb und Monopol, Argumentieren, Geld, Versicherungen, Banken und Zins, Börse und Krypto, Budget und Lohn, Schuldenfallen). Markiere jedes Thema mit Grün (sicher), Gelb (unsicher) oder Rot (muss ich nochmals anschauen) – und plane für jedes rote Thema einen konkreten Lernschritt vor der Lernkontrolle.",
+          "hint": "Sei ehrlich statt optimistisch: «Ich habs mal gewusst» ist Gelb, nicht Grün. Ein konkreter Lernschritt nennt Modul und Aufgabe – zum Beispiel «Modul 7: Quiz wiederholen, bis 100 %» oder «Modul 12: Zinsrechnung nochmals von Hand rechnen» – nicht nur «nochmals anschauen».",
+          "solution": "Eine Musterlösung gibt es nicht – dein Ergebnis ist ein persönlicher Lernplan. Bewährt hat sich: Rote Themen zuerst und einzeln angehen (Modul öffnen, Zusammenfassung lesen, Quiz und Lückentexte bis 100 % wiederholen), gelbe Themen mit den Aufgaben dieses Repetitionsmoduls testen – wird aus Gelb dabei Grün, abhaken. Für Grün reicht das grosse Quiz hier als Schlusskontrolle. Und plane die Reihenfolge nach Gewicht: Kreislauf, Preisbildung und die Geldthemen tragen den meisten Stoff der Lernkontrolle."
+        }
+      ]
+    }
+  ]
+}
