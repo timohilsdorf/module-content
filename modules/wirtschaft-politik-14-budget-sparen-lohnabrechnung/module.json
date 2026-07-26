@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-14-budget-sparen-lohnabrechnung",
+  "title": "Persönliche Finanzen I: Budget, Sparen, Lohnabrechnung",
+  "description": "Der erste Lehrlingslohn ist da – und am 25. des Monats ist das Konto leer? Im vierzehnten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du, eine Lohnabrechnung zu lesen (Brutto, Abzüge, Netto), ein einfaches Monatsbudget aufzustellen und die Grundregel «zuerst sparen, dann ausgeben» anzuwenden – alles am durchgängigen Beispiel des ersten Lehrlingslohns.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 14,
+  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Budget",
+    "Monatsbudget",
+    "Sparen",
+    "Lohnabrechnung",
+    "Bruttolohn",
+    "Nettolohn",
+    "Abzüge",
+    "AHV",
+    "fixe Kosten",
+    "variable Kosten",
+    "Lehrlingslohn"
+  ],
+  "learningObjectives": [
+    "Ich kann ein einfaches Monatsbudget aufstellen: Einnahmen, fixe und variable Ausgaben und den Sparbetrag.",
+    "Ich kann die Grundregel «zuerst sparen, dann ausgeben» erklären und anwenden.",
+    "Ich kann eine Lohnabrechnung lesen: Bruttolohn, typische Abzüge und Nettolohn – und weiss, dass ich mit dem Nettolohn mein Budget plane."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.3",
+      "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+      "code": "WAH.3.3",
+      "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Dachverband Budgetberatung Schweiz",
+      "url": "https://www.budgetberatung.ch"
+    },
+    {
+      "title": "AHV-IV-FAK Liechtenstein",
+      "url": "https://www.ahv.li"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-11-versicherungen",
+    "wirtschaft-politik-12-banken-kredit-zins"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Der erste eigene Lohn",
+      "body": "Endlich: Der erste Lehrlingslohn ist auf dem Konto. Je nach Beruf sind das im ersten Lehrjahr meist zwischen rund CHF 600 und 1000 pro Monat – eigenes Geld, das du dir selbst verdient hast. Und genau jetzt entscheidet sich, wer das Sagen hat: **du über dein Geld – oder dein Geld über dich**.\n\nKennst du das «Monatsende-Loch»? Am Anfang des Monats fühlt sich das Konto voll an, es läuft Ausgang, Shopping, Essen unterwegs – und am 25. ist nichts mehr da, obwohl du gar nicht das Gefühl hattest, viel ausgegeben zu haben. Das passiert nicht, weil jemand schlecht rechnen kann. Es passiert, weil **ohne Plan viele kleine Ausgaben unsichtbar bleiben**.\n\nDas Gegenmittel heisst **Budget**: ein einfacher Plan, der vor dem Monat festlegt, wohin dein Geld fliessen soll. Ein Budget ist keine Strafe und kein Verbot – es ist das Gegenteil: Es sorgt dafür, dass genug Geld für das da ist, **was dir wichtig ist**. In diesem Modul baust du eines auf – Schritt für Schritt, am Beispiel von **Lina**, Lernende im 3. Lehrjahr. Vorher schaust du dir aber an, was auf ihrem Lohnzettel eigentlich steht – denn geplant wird nicht mit dem Lohn, der im Vertrag steht, sondern mit dem, der wirklich ankommt."
+    },
+    {
+      "type": "text",
+      "title": "Brutto ist nicht Netto: die Lohnabrechnung",
+      "body": "Linas Lehrvertrag verspricht **CHF 1100** pro Monat. Auf ihrem Konto landen aber **CHF 1026**. Ein Fehler? Nein – ein Fall fürs Kleingedruckte, die **Lohnabrechnung**:\n\n- **Bruttolohn:** der vereinbarte Lohn vor allen Abzügen – bei Lina CHF 1100. Mit dieser Zahl wird gerechnet, aufs Konto kommt sie nie.\n- **Abzüge:** kleine Anteile des Lohns, die direkt an Sozialversicherungen gehen. Bei Lina sind das:\n  - **AHV/IV:** Die Alters- und Hinterlassenenversicherung zahlt die Renten der heutigen Rentnerinnen und Rentner – man nennt das den **Generationenvertrag**: Die Arbeitenden von heute finanzieren die Renten von heute, und später zahlt die nächste Generation für dich. Die IV sichert Menschen ab, die wegen Unfall oder Krankheit nicht mehr arbeiten können.\n  - **Nichtberufsunfall-Versicherung (NBU):** dein Unfallschutz auch in der Freizeit – den obligatorischen Unfallschutz über den Arbeitgeber kennst du aus Modul 11; die NBU-Prämie trägst du selbst, darum steht sie als Abzug auf der Abrechnung.\n  - **Krankengeldversicherung:** ersetzt einen Teil des Lohns, wenn du länger krank bist.\n- **Nettolohn:** Brutto minus Abzüge – bei Lina CHF 1026. **Das ist die Zahl, mit der du dein Budget planst.**\n\nZwei Dinge solltest du wissen, damit dich deine erste echte Abrechnung nicht verwirrt: Erstens beginnen die **AHV/IV-Beiträge** erst am 1. Januar des Jahres, in dem du 18 wirst – in den ersten Lehrjahren fehlt dieser Abzug deshalb oft, und der Lohnzettel ist entsprechend kürzer. Zweitens steht die **Prämie der Krankenkassen-Grundversicherung nicht** auf der Lohnabrechnung: Sie kommt separat per Rechnung. Die genauen Beträge und Prozentsätze unterscheiden sich je nach Betrieb und Beruf – wichtig ist das Prinzip: **Brutto → Abzüge → Netto.**"
+    },
+    {
+      "type": "image",
+      "title": "Linas Lohnabrechnung im Überblick",
+      "src": "/content/wirtschaft-politik-14-budget-sparen-lohnabrechnung/lohnabrechnung-schema.png",
+      "alt": "Beschriftetes Schaubild einer beispielhaften Lohnabrechnung. Oben die Kette: Bruttolohn minus Abzüge ergibt Nettolohn. Links ein Lohnzettel der Lohnabrechnung August für Lina Muster, Lernende im 3. Lehrjahr bei der Muster AG in Vaduz: Bruttolohn CHF 1100.00; darunter in Orange die Abzüge – AHV/IV (Alters- und Invalidenversicherung) minus CHF 52.00, Nichtberufsunfall-Versicherung NBU minus CHF 11.00, Krankengeldversicherung minus CHF 11.00, Total Abzüge minus CHF 74.00; zuunterst grün hervorgehoben der Nettolohn (Auszahlung aufs Konto) von CHF 1026.00. Rechts erklären drei Kästen mit Pfeilen die Positionen: Der Bruttolohn ist der im Lehrvertrag vereinbarte Lohn vor allen Abzügen. Die Sozialabzüge sind kleine Anteile des Lohns für Versicherungen – AHV/IV finanziert die heutigen Renten (Generationenvertrag) und sichert bei Invalidität ab, die NBU deckt Unfälle in der Freizeit, die Krankengeldversicherung ersetzt Lohn bei längerer Krankheit. Der Nettolohn ist Brutto minus Abzüge – das Geld, das tatsächlich aufs Konto kommt und mit dem das Budget geplant wird. Eine Fussnote erklärt: Beispielzahlen, gerundet; AHV/IV-Beiträge werden erst ab dem 1. Januar des Jahres abgezogen, in dem man 18 wird, und die Prämie der Krankenkassen-Grundversicherung wird separat per Rechnung bezahlt.",
+      "caption": "Von Brutto zu Netto: Die Abzüge gehen an Sozialversicherungen – geplant wird mit dem Nettolohn. Beispielzahlen, gerundet.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "XmFnEjHx7VU",
+      "title": "Video: Mein erstes Budget",
+      "description": "Das Erklärvideo (4:17) des Dachverbands Budgetberatung Schweiz richtet sich genau an Menschen in deiner Situation: erster Lohn, erste eigene Ausgaben. Achte beim Schauen auf zwei Leitfragen: (1) Welche festen Verpflichtungen nennt das Video – und welche davon würden auch in deinem Budget stehen? (2) Wie plant das Video unregelmässige Rechnungen und Sparziele ein? Vergleiche das nachher mit der Grundregel «zuerst sparen, dann ausgeben».",
+      "transcript": "Das Erklärvideo des Dachverbands Budgetberatung Schweiz (4:17 Minuten) zeigt, warum ein persönliches Budget Sicherheit gibt – gerade beim ersten Lohn, beim Auszug von zuhause oder bei einem grösseren Wunsch wie einem Auto. Schritt für Schritt wird erklärt, wie man Einnahmen und Ausgaben einander gegenüberstellt: feste Verpflichtungen wie Handy, öffentlicher Verkehr oder ein Beitrag an Kost und Logis werden von den veränderlichen Ausgaben unterschieden, und für unregelmässige Rechnungen sowie Sparziele werden Reserven eingeplant. Die Beispiele rechnen in Schweizer Franken und passen damit direkt zur Lebenswelt von Lernenden in Liechtenstein und der Schweiz."
+    },
+    {
+      "type": "text",
+      "title": "Das Monatsbudget: zuerst sparen, dann ausgeben",
+      "body": "Ein Budget besteht aus vier Bausteinen:\n\n1. **Einnahmen:** alles, was hereinkommt – Nettolohn, eventuell Sackgeld oder der Zustupf von Verwandten.\n2. **Sparbetrag:** der Betrag, den du **zuerst** zur Seite legst – dazu gleich mehr.\n3. **Fixe Ausgaben:** kommen jeden Monat in gleicher Höhe – Handy-Abo, ÖV-Abo, ein Beitrag an Kost und Logis zuhause. Sie sind planbar, aber kurzfristig kaum veränderbar.\n4. **Variable Ausgaben:** schwanken von Monat zu Monat – Ausgang, Kleider, Essen unterwegs, Games. Hier hast du den grössten Spielraum.\n\nDie wichtigste Regel dabei lautet: **zuerst sparen, dann ausgeben.** Das heisst: Der Sparbetrag wird gleich nach dem Lohneingang beiseitegelegt – wie eine Rechnung, die du an dich selbst bezahlst, am besten per Dauerauftrag auf ein separates Sparkonto. Wer es umgekehrt macht und spart, «was am Ende übrig bleibt», spart erfahrungsgemäss: nichts. Das Monatsende-Loch frisst den Rest zuverlässig auf.\n\n**Linas Budget** sieht so aus:\n\n| Position | Betrag |\n|---|---|\n| Einnahmen: Nettolohn | CHF 1026 |\n| Sparbetrag (zuerst!) | − CHF 100 |\n| Fix: Handy-Abo | − CHF 30 |\n| Fix: ÖV-Abo | − CHF 60 |\n| Fix: Beitrag an Kost und Logis | − CHF 150 |\n| **Bleibt für variable Ausgaben** | **CHF 686** |\n\nMit den CHF 100 pro Monat hat Lina nach einem Jahr CHF 1200 auf der Seite – ihr Töffli-Ziel (CHF 2400) erreicht sie so in zwei Jahren. Läuft ein Monat günstig, wandert der Rest zusätzlich aufs Sparkonto. Und wenn eine unerwartete Rechnung kommt – Zahnarzt, kaputtes Velo –, rettet sie die Reserve, statt dass Schulden entstehen. Genau davon handelt das nächste Modul."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Budget und Lohnabrechnung",
+      "intro": "Zeig, dass du Lohnabrechnung und Budget im Griff hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Was ist der Bruttolohn?",
+          "options": [
+            {
+              "text": "Der Lohn, der nach allen Abzügen aufs Konto überwiesen wird."
+            },
+            {
+              "text": "Die Summe aller Abzüge auf der Lohnabrechnung."
+            },
+            {
+              "text": "Der im Vertrag vereinbarte Lohn vor allen Abzügen.",
+              "correct": true
+            },
+            {
+              "text": "Der Lohn nach Abzug der Sozialversicherungen, aber vor dem Handy-Abo."
+            }
+          ],
+          "explanation": "Brutto ist der Ausgangspunkt: der Lohn, wie er im (Lehr-)Vertrag steht – vor allen Abzügen. Was nach den Abzügen aufs Konto kommt, ist der Nettolohn; die beiden zu verwechseln ist der Klassiker schlechthin. Die Summe der Abzüge ist wieder etwas anderes (bei Lina CHF 74). Und private Ausgaben wie das Handy-Abo haben auf der Lohnabrechnung gar nichts verloren – sie gehören ins Budget."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was ist der Nettolohn – und warum ist er für dein Budget die entscheidende Zahl?",
+          "options": [
+            {
+              "text": "Brutto minus Abzüge – der Betrag, der wirklich aufs Konto kommt und den du verplanen kannst.",
+              "correct": true
+            },
+            {
+              "text": "Der Lohn plus alle Zulagen – die höchste Zahl auf der Abrechnung."
+            },
+            {
+              "text": "Der Betrag, den der Arbeitgeber an die AHV überweist."
+            },
+            {
+              "text": "Der Lohn, den man im Internet für seinen Beruf findet."
+            }
+          ],
+          "explanation": "Netto = Brutto minus Abzüge – das Geld, das tatsächlich ankommt. Nur damit kannst du planen: Wer sein Budget auf dem Bruttolohn aufbaut, verplant Geld, das nie aufs Konto kommt. Die höchste Zahl auf der Abrechnung ist gerade der Bruttolohn, nicht der Netto. Die AHV-Überweisung ist ein Abzug, kein Lohn – und Internet-Lohnangaben sind Durchschnittswerte, nicht deine Abrechnung."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Wofür steht der Abzug «AHV/IV» auf der Lohnabrechnung?",
+          "options": [
+            {
+              "text": "Für ein persönliches Sparkonto bei der Bank, das nur dir gehört."
+            },
+            {
+              "text": "Für eine Gebühr, die der Arbeitgeber für die Lohnüberweisung verlangt."
+            },
+            {
+              "text": "Für die Prämie deiner privaten Handyversicherung."
+            },
+            {
+              "text": "Für die Alters- und Invalidenversicherung: Sie finanziert die heutigen Renten (Generationenvertrag) und sichert bei Invalidität ab.",
+              "correct": true
+            }
+          ],
+          "explanation": "AHV/IV sind Sozialversicherungen: Deine Beiträge zahlen die Renten der heutigen Rentnerinnen und Rentner – später finanziert die nächste Generation deine Rente. Das ist der Generationenvertrag. Ein persönliches Sparkonto ist die AHV also gerade nicht – dein Geld wird nicht für dich «angespart», sondern sofort weitergegeben. Eine Überweisungsgebühr des Arbeitgebers wäre unzulässig, und private Versicherungen wie eine Handyversicherung tauchen auf der Lohnabrechnung nicht auf."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Warum fehlt bei vielen Lernenden im 1. Lehrjahr der AHV/IV-Abzug auf der Lohnabrechnung?",
+          "options": [
+            {
+              "text": "Weil Lernende grundsätzlich nie AHV-Beiträge zahlen."
+            },
+            {
+              "text": "Weil die Beitragspflicht erst am 1. Januar des Jahres beginnt, in dem man 18 wird.",
+              "correct": true
+            },
+            {
+              "text": "Weil der Betrieb den Abzug in den ersten Monaten häufig vergisst."
+            },
+            {
+              "text": "Weil AHV-Beiträge erst ab einem Lohn von CHF 2000 fällig sind."
+            }
+          ],
+          "explanation": "Die AHV/IV-Beitragspflicht für Erwerbstätige beginnt am 1. Januar des Jahres, in dem man 18 wird. Wer mit 15 oder 16 die Lehre beginnt, sieht den Abzug deshalb erst später auftauchen – dann wird der Nettolohn etwas kleiner, ganz ohne dass jemand etwas falsch gemacht hat. «Nie» stimmt also nicht, vergessen wird hier nichts, und eine Lohngrenze von CHF 2000 gibt es dafür nicht."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Was bedeutet die Grundregel «zuerst sparen, dann ausgeben»?",
+          "options": [
+            {
+              "text": "Sparen lohnt sich erst, wenn man mehr als CHF 10 000 auf dem Konto hat."
+            },
+            {
+              "text": "Man darf erst dann etwas ausgeben, wenn das Sparkonto voll ist."
+            },
+            {
+              "text": "Die Reihenfolge spielt keine Rolle – Hauptsache, am Ende bleibt etwas übrig."
+            },
+            {
+              "text": "Der Sparbetrag wird gleich nach dem Lohneingang beiseitegelegt – wie eine Rechnung an dich selbst.",
+              "correct": true
+            }
+          ],
+          "explanation": "Der Trick liegt in der Reihenfolge: Wer den Sparbetrag sofort nach Lohneingang wegräumt – am besten per Dauerauftrag aufs Sparkonto –, kann ihn nicht mehr «aus Versehen» ausgeben. Genau deshalb spielt die Reihenfolge eben doch eine Rolle: Wer spart, «was übrig bleibt», spart meist nichts, weil das Monatsende-Loch alles frisst. Eine Mindestsumme fürs Sparen gibt es nicht – auch CHF 20 zählen. Und ein Ausgabeverbot ist die Regel auch nicht: Der Rest des Geldes ist zum Ausgeben da."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Welche dieser Ausgaben ist eine fixe Ausgabe?",
+          "options": [
+            {
+              "text": "Die Kinobesuche am Wochenende."
+            },
+            {
+              "text": "Die neuen Kleider im Ausverkauf."
+            },
+            {
+              "text": "Das Handy-Abo.",
+              "correct": true
+            },
+            {
+              "text": "Die Glacés im Sommer."
+            }
+          ],
+          "explanation": "Fixe Ausgaben kommen regelmässig und in gleicher Höhe – das Handy-Abo bucht jeden Monat denselben Betrag ab, egal was du tust. Kino, Kleider und Glacé sind variable Ausgaben: Sie schwanken von Monat zu Monat, und du entscheidest jedes Mal neu. Genau deshalb ist bei den variablen Ausgaben dein grösster Spielraum – und im Budget lohnt es sich, beide Sorten getrennt aufzuführen."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Wie wird die Prämie der Krankenkassen-Grundversicherung normalerweise bezahlt?",
+          "options": [
+            {
+              "text": "Separat per Rechnung an die Krankenkasse – sie steht nicht auf der Lohnabrechnung.",
+              "correct": true
+            },
+            {
+              "text": "Sie wird immer direkt vom Bruttolohn abgezogen."
+            },
+            {
+              "text": "Der Staat übernimmt sie für alle vollständig."
+            },
+            {
+              "text": "Sie ist bereits in der AHV enthalten."
+            }
+          ],
+          "explanation": "Die Grundversicherungs-Prämie kommt als eigene Rechnung ins Haus – bei Lernenden zahlen sie oft noch die Eltern, später gehört sie als fixer Posten in dein eigenes Budget. Auf der Lohnabrechnung steht sie nicht (dort findest du höchstens die Krankengeldversicherung – das ist etwas anderes: Lohnersatz bei Krankheit). Vollständig übernimmt der Staat die Prämie nicht, und in der AHV ist sie auch nicht enthalten – AHV ist die Rentenversicherung."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Linas Nettolohn beträgt CHF 1026. Sie legt zuerst CHF 100 als Sparbetrag weg; ihre fixen Ausgaben betragen CHF 240. Wie viel bleibt für variable Ausgaben?",
+          "options": [
+            {
+              "text": "CHF 786."
+            },
+            {
+              "text": "CHF 686.",
+              "correct": true
+            },
+            {
+              "text": "CHF 926."
+            },
+            {
+              "text": "CHF 586."
+            }
+          ],
+          "explanation": "Gerechnet wird vom Nettolohn: 1026 − 100 (Sparbetrag zuerst!) − 240 (fixe Ausgaben) = CHF 686. Wer auf CHF 786 kommt, hat den Sparbetrag vergessen – genau das passiert auch im echten Leben, wenn man ihn nicht zuerst wegräumt. CHF 926 berücksichtigt nur den Sparbetrag, aber nicht die Fixkosten. Und CHF 586 zieht CHF 100 zu viel ab – nachrechnen lohnt sich."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-budget-grundlagen",
+      "title": "Setze die Begriffe ein: Lohn und Budget",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Auf der Lohnabrechnung steht zuoberst der {{1}} – der vereinbarte Lohn vor den Abzügen. Danach folgen die {{2}}, zum Beispiel für die AHV/IV und die {{3}}, die dich auch in der Freizeit gegen Unfälle schützt. Was übrig bleibt, ist der {{4}} – der Betrag, der aufs Konto kommt und mit dem du planst.\nIm Budget unterscheidest du {{5}} Ausgaben wie das Handy-Abo, die jeden Monat gleich hoch sind, von {{6}} Ausgaben wie dem Ausgang. Die Grundregel lautet: zuerst {{7}}, dann ausgeben – lege den {{8}} gleich nach dem Lohneingang beiseite. Wer zudem unregelmässige Rechnungen im Voraus einplant, bildet {{9}}. So behältst du die {{10}} über dein Geld.",
+      "luecken": [
+        {
+          "antworten": [
+            "Bruttolohn"
+          ]
+        },
+        {
+          "antworten": [
+            "Abzüge"
+          ]
+        },
+        {
+          "antworten": [
+            "Unfallversicherung"
+          ]
+        },
+        {
+          "antworten": [
+            "Nettolohn"
+          ]
+        },
+        {
+          "antworten": [
+            "fixe"
+          ]
+        },
+        {
+          "antworten": [
+            "variablen"
+          ]
+        },
+        {
+          "antworten": [
+            "sparen"
+          ]
+        },
+        {
+          "antworten": [
+            "Sparbetrag"
+          ]
+        },
+        {
+          "antworten": [
+            "Reserven"
+          ]
+        },
+        {
+          "antworten": [
+            "Kontrolle"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Dividende",
+        "Kreditzins",
+        "Trinkgeld"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-budget-rechnen",
+      "title": "Rechne und tippe ein: Linas Budget",
+      "intro": "Jetzt wird gerechnet: **Vervollständige Linas Budget und tippe die Zahlen ein** – nur die Zahl, ohne «CHF». Nimm einen Taschenrechner, wenn du magst.",
+      "modus": "eingabe",
+      "text": "Linas Nettolohn beträgt CHF 1026. Als Erstes legt sie ihren Sparbetrag von CHF 100 beiseite. Ihre fixen Ausgaben: CHF 30 Handy-Abo, CHF 60 ÖV-Abo und CHF 150 Beitrag an Kost und Logis – zusammen CHF {{1}}. Für variable Ausgaben bleiben ihr damit CHF {{2}}. Im Juli gibt sie davon nur CHF 500 aus – sie kann also zusätzlich CHF {{3}} auf die Seite legen. Allein mit dem festen Sparbetrag hat sie nach zwölf Monaten CHF {{4}} gespart. Ihr Sparziel, ein Töffli für CHF 2400, erreicht sie mit dem festen Sparbetrag allein nach {{5}} Monaten.",
+      "luecken": [
+        {
+          "antworten": [
+            "240"
+          ]
+        },
+        {
+          "antworten": [
+            "686"
+          ]
+        },
+        {
+          "antworten": [
+            "186"
+          ]
+        },
+        {
+          "antworten": [
+            "1200"
+          ]
+        },
+        {
+          "antworten": [
+            "24"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-budgetposten",
+      "title": "Zuordnen: fix, variabel – oder Sparen?",
+      "intro": "Ordne jeden Budgetposten der richtigen Kategorie zu: **fix** (jeden Monat gleich), **variabel** (schwankt von Monat zu Monat) oder **Sparen**. Jede Kategorie kommt mehrmals vor.",
+      "modus": "wortbank",
+      "text": "Handy-Abo. {{1}}\nAusgang am Wochenende. {{2}}\nFester Betrag, den du dir gleich nach dem Lohneingang zur Seite legst. {{3}}\nÖV-Abo. {{4}}\nKleider. {{5}}\nNotgroschen für unerwartete Rechnungen. {{6}}\nBeitrag an Kost und Logis zuhause. {{7}}\nGames und In-App-Käufe. {{8}}\nRücklage für das Töffli. {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "fix"
+          ]
+        },
+        {
+          "antworten": [
+            "variabel"
+          ]
+        },
+        {
+          "antworten": [
+            "Sparen"
+          ]
+        },
+        {
+          "antworten": [
+            "fix"
+          ]
+        },
+        {
+          "antworten": [
+            "variabel"
+          ]
+        },
+        {
+          "antworten": [
+            "Sparen"
+          ]
+        },
+        {
+          "antworten": [
+            "fix"
+          ]
+        },
+        {
+          "antworten": [
+            "variabel"
+          ]
+        },
+        {
+          "antworten": [
+            "Sparen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Dein eigenes Budget",
+      "tasks": [
+        {
+          "prompt": "Erstelle dein persönliches Monatsbudget nach Linas Vorlage: (1) Notiere deine Einnahmen (Sackgeld, Ferienjob, Zustupf). (2) Lege einen Sparbetrag fest, den du dir zuerst zur Seite legst – und ein konkretes Sparziel dazu. (3) Liste deine fixen Ausgaben auf. (4) Rechne aus, was für variable Ausgaben übrig bleibt.",
+          "hint": "Kein Lohn? Kein Problem – die Vorlage funktioniert auch mit CHF 50 Sackgeld. Wichtig ist die Struktur: Einnahmen − Sparbetrag − fixe Ausgaben = Spielraum für Variables. Als Sparbetrag ist ein Zehntel der Einnahmen ein bewährter Startwert. Und das Sparziel motiviert mehr, wenn es konkret ist: «Konzertticket im März» statt «irgendwann mal etwas».",
+          "solution": "Eine Musterlösung gibt es nicht – prüfe dein Budget mit diesen Fragen: Hast du alle regelmässigen Einnahmen erfasst? Steht der Sparbetrag ganz oben, direkt nach den Einnahmen – nicht als Rest am Schluss? Sind wirklich alle Fixkosten drin (auch kleine Abos zählen – Streaming, Cloud-Speicher, Games)? Geht die Rechnung auf, ohne dass ein Minus entsteht? Falls doch ein Minus entsteht: Zuerst bei den variablen Ausgaben kürzen, dann bei den Abos – der Sparbetrag fällt als Letztes."
+        },
+        {
+          "prompt": "Dein Kollege ist jeden Monat ab dem 25. pleite und sagt: «Sparen bringt bei meinem kleinen Lohn nichts – ich spare dann halt, was am Ende übrig bleibt.» Antworte ihm in drei bis vier Sätzen: Erkläre die Grundregel «zuerst sparen, dann ausgeben» und mach ihm einen konkreten, umsetzbaren Vorschlag.",
+          "hint": "Warum bleibt bei «am Ende sparen» meistens nichts übrig? Denk an das Monatsende-Loch – und an den Dauerauftrag. Der Vorschlag wirkt stärker, wenn er klein und konkret ist: lieber CHF 30 sicher als CHF 100 nie.",
+          "solution": "Eine mögliche Antwort: «Genau andersrum funktioniert es: Wenn du sparst, was übrig bleibt, bleibt eben nichts übrig – das Monatsende-Loch frisst alles. Leg den Sparbetrag gleich am Zahltag zur Seite, wie eine Rechnung an dich selbst. Richte dir einen Dauerauftrag ein, der am 1. des Monats automatisch CHF 30 auf ein separates Sparkonto schiebt – das merkst du im Alltag kaum. Nach einem Jahr hast du CHF 360, statt zwölfmal nichts.»"
+        },
+        {
+          "prompt": "Bereite dich auf deine erste echte Lohnabrechnung vor: Formuliere drei Fragen, die du deiner Berufsbildnerin oder deinem Berufsbildner (oder deinen Eltern) zur Abrechnung stellen würdest – und überlege dir zu jeder Frage, welche Antwort du aufgrund dieses Moduls erwartest.",
+          "hint": "Gute Fragen setzen dort an, wo Abrechnungen überraschen: Warum ist Netto kleiner als Brutto? Welche Abzüge stehen bei mir drauf – und welche (noch) nicht? Wie ist das mit dem 13. Monatslohn in meinem Beruf? Wer bezahlt meine Krankenkassenprämie?",
+          "solution": "Beispiele für gute Fragen mit erwartbaren Antworten: (1) «Warum fehlt bei mir der AHV-Abzug?» – Weil die Beitragspflicht erst am 1. Januar des Jahres beginnt, in dem ich 18 werde; ab dann wird mein Netto etwas kleiner. (2) «Was ist der NBU-Abzug?» – Die Prämie für die Nichtberufsunfall-Versicherung, die mich auch in der Freizeit schützt (Modul 11). (3) «Warum steht die Krankenkasse nicht auf der Abrechnung?» – Die Grundversicherungs-Prämie kommt separat per Rechnung; auf der Abrechnung steht höchstens die Krankengeldversicherung. Gut möglich, dass die Antworten im Detail je nach Betrieb abweichen – genau deshalb lohnt sich das Nachfragen."
+        }
+      ]
+    }
+  ]
+}
