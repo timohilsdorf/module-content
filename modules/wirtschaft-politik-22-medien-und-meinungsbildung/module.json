@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-22-medien-und-meinungsbildung",
+  "title": "Medien und Meinungsbildung",
+  "description": "Zwischen einem Ereignis und deinem Feed liegen viele Entscheidungen – und an jeder kann Verzerrung entstehen. Im zweiundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» verfolgst du den Weg einer Nachricht vom Ereignis bis zur Darstellung, unterscheidest Qualitätsjournalismus von Boulevard und ungeprüften Social-Media-Inhalten, erkennst Framing – und wendest drei praktische Fake-News-Checks an.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 22,
+  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Medien",
+    "Nachricht",
+    "Redaktion",
+    "Quelle",
+    "Qualitätsjournalismus",
+    "Boulevard",
+    "Social Media",
+    "Framing",
+    "Fake News",
+    "Bild-Rückwärtssuche",
+    "Meinungsbildung",
+    "Medienkompetenz"
+  ],
+  "learningObjectives": [
+    "Ich kann nachvollziehen, wie eine Nachricht entsteht: Ereignis, Quelle, Auswahl durch die Redaktion, Darstellung.",
+    "Ich kann Qualitätsjournalismus von Boulevard und ungeprüften Social-Media-Inhalten unterscheiden – mit den Kriterien Quellenangabe, Trennung von Nachricht und Meinung sowie Korrekturkultur.",
+    "Ich kann Framing erkennen: Dieselbe Tatsache kann durch Auswahl und Wortwahl unterschiedlich gerahmt werden.",
+    "Ich kann drei praktische Fake-News-Checks anwenden: Quelle prüfen, Bild-Rückwärtssuche, Zweitquelle suchen."
+  ],
+  "competencies": [
+    {
+      "code": "MI.1.2",
+      "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    },
+    {
+      "code": "MI.1.1",
+      "description": "Die Schülerinnen und Schüler können sich in der physischen Umwelt sowie in medialen und virtuellen Lebensräumen orientieren und sich darin entsprechend den Gesetzen, Regeln und Wertesystemen verhalten."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "so geht MEDIEN – Medienkompetenz-Angebot von ARD, ZDF und Deutschlandradio",
+      "url": "https://www.sogehtmedien.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-21-autoritaere-systeme-heute"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Woher weisst du, was in der Welt passiert?",
+      "body": "Fast alles, was du über die Welt ausserhalb deines Alltags weisst, weisst du aus **Medien** – aus Nachrichten-Apps, Videos, Feeds und Storys. In Modul 21 hast du gesehen, was passiert, wenn ein Staat dieses Fenster zur Welt kontrolliert: Die Menschen sehen nur noch die gefilterte Version. Freie Medien sind das Gegenmodell – aber auch sie zeigen nie einfach «die Wirklichkeit». Zwischen einem Ereignis und deinem Bildschirm liegen Entscheidungen, und die solltest du kennen.\n\nDer **Weg einer Nachricht** hat vier Stationen:\n\n1. **Ereignis:** Irgendwo passiert etwas – ein Unwetter, ein Sportresultat, ein Gemeindebeschluss.\n2. **Quelle:** Jemand berichtet davon: Augenzeugen, Beteiligte, Behörden, Nachrichtenagenturen. Schon hier entscheidet sich viel – wer erzählt, sieht das Ereignis aus seiner Perspektive, und nicht jede Quelle ist zuverlässig.\n3. **Auswahl durch die Redaktion:** Jeden Tag passieren tausende Ereignisse – in die Sendung oder auf die Startseite schaffen es wenige. Redaktionen wählen aus, was sie für wichtig und interessant halten. Diese Auswahl ist nötig – aber sie bedeutet auch: Was nicht ausgewählt wird, bleibt für das Publikum unsichtbar.\n4. **Darstellung:** Jetzt wird entschieden, **wie** berichtet wird: Welcher Titel? Welches Bild? Welche Wörter? Wie viel Platz? Dieselbe Meldung kann nüchtern oder dramatisch daherkommen.\n\nMerke: **An jeder Station können Fehler und Verzerrungen entstehen** – bei der Quelle (Irrtum, Übertreibung, Interesse), bei der Auswahl (was fehlt?) und bei der Darstellung (wie wird gerahmt?). Medienkompetenz heisst nicht, allen Medien zu misstrauen – sondern zu wissen, wo man genau hinschauen muss."
+    },
+    {
+      "type": "image",
+      "title": "Der Weg einer Nachricht",
+      "src": "/content/wirtschaft-politik-22-medien-und-meinungsbildung/weg-einer-nachricht.png",
+      "alt": "Stationenschema mit vier durch Pfeile verbundenen Stationen von links nach rechts. Station 1, dunkelblau: Ereignis – irgendwo passiert etwas, zum Beispiel ein Unwetter oder ein Gemeindebeschluss. Station 2, blau: Quelle – Augenzeugen, Beteiligte, Behörden oder Agenturen berichten; darunter ein oranger Hinweis: Verzerrung möglich – Irrtum, Übertreibung oder eigenes Interesse der Quelle. Station 3, blau: Auswahl durch die Redaktion – aus tausenden Ereignissen werden wenige ausgewählt; darunter ein oranger Hinweis: Verzerrung möglich – was nicht ausgewählt wird, bleibt unsichtbar. Station 4, blau: Darstellung – Titel, Bild, Wortwahl und Platzierung werden festgelegt; darunter ein oranger Hinweis: Verzerrung möglich – Framing durch Zuspitzung, Bildwahl und wertende Wörter. Ganz rechts, grün: die Nachricht erreicht das Publikum. Unter dem Schema steht der Merksatz: Wer die Stationen kennt, weiss, wo er genau hinschauen muss.",
+      "caption": "Vom Ereignis zur Nachricht: An den markierten Stationen – Quelle, Auswahl, Darstellung – kann Verzerrung entstehen.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Qualität erkennen: Journalismus, Boulevard, Social Media",
+      "body": "Nicht alle Absender arbeiten gleich sorgfältig. Drei Typen solltest du unterscheiden können:\n\n**Qualitätsjournalismus** erkennst du an drei Kriterien:\n\n- **Quellenangabe:** Es steht dabei, woher die Information stammt («laut Polizeimeldung», «wie die Gemeinde mitteilt», «zwei unabhängige Quellen bestätigen»). Du kannst nachvollziehen, worauf sich die Aussage stützt.\n- **Trennung von Nachricht und Meinung:** Der Bericht sagt, **was passiert ist** – der Kommentar sagt, **was die Autorin davon hält**, und ist als Meinung gekennzeichnet. Beides hat seinen Platz, aber es wird nicht vermischt.\n- **Korrekturkultur:** Fehler passieren überall – seriöse Redaktionen berichtigen sie sichtbar, statt sie zu vertuschen. Eine veröffentlichte Korrektur ist kein Zeichen von Schwäche, sondern von Sorgfalt.\n\n**Boulevard** (Klatsch- und Sensationsmedien) lebt von Aufmerksamkeit: grosse Schlagzeilen, starke Emotionen, Zuspitzung, Prominente, Dramatik. Boulevard-Meldungen sind nicht automatisch falsch – aber Emotion und Verkaufslogik färben Auswahl und Darstellung stark. Hier ist besondere Vorsicht bei Übertreibungen angebracht.\n\n**Ungeprüfte Social-Media-Inhalte** sind die dritte Kategorie: Jede und jeder kann posten – ohne Redaktion, ohne Quellenpflicht, ohne Korrekturkultur. Manches stimmt, manches ist Irrtum, manches gezielte Falschmeldung. Dazu kommt: Plattform-Algorithmen zeigen bevorzugt, was Reaktionen auslöst – und Empörung löst besonders viele aus. Ein Beitrag kann also riesige Reichweite haben und trotzdem falsch sein. **Reichweite ist kein Wahrheitsbeweis.**\n\nWichtig: Auch seriöse Medien sind auf Social Media aktiv – entscheidend ist nicht die Plattform, sondern **wer** hinter dem Beitrag steht und **wie** er arbeitet."
+    },
+    {
+      "type": "text",
+      "title": "Framing: dieselbe Tatsache, zwei Rahmen",
+      "body": "Jetzt zur subtilsten Verzerrungsstelle – der **Darstellung**. Ein Gedankenexperiment mit einer frei erfundenen Gemeinde:\n\nDie Gemeinde Musterberg beschliesst, die Steuern zu senken. Zwei Schlagzeilen am nächsten Tag:\n\n> «**Steuersenkung entlastet Familien**»\n\n> «**Steuersenkung reisst Loch in die Gemeindekasse**»\n\nBeide Schlagzeilen können **wahr** sein: Die Familien zahlen wirklich weniger – und der Gemeinde fehlen die Einnahmen wirklich. Trotzdem entsteht bei den Leserinnen und Lesern ein völlig unterschiedlicher Eindruck. Das ist **Framing** (englisch *frame* = Rahmen): Dieselbe Tatsache wird in einen unterschiedlichen Rahmen gestellt – durch **Auswahl** (welcher Aspekt kommt in den Titel?), **Wortwahl** («entlastet» klingt gut, «reisst ein Loch» klingt bedrohlich) und **Bildwahl** (lachende Familie oder leere Kasse?).\n\nFraming ist nicht dasselbe wie Lügen – oft framen Medien unbewusst, und ganz ohne Rahmen geht es gar nicht: Irgendeinen Titel muss jede Meldung haben. Aber wer Framing erkennt, lässt sich weniger steuern. Drei Fragen helfen:\n\n1. **Was wird betont** – und wäre auch ein anderer Aspekt berichtenswert gewesen?\n2. **Was wird weggelassen** – fehlt die andere Seite der Geschichte?\n3. **Welche Wörter werten** – würde die Meldung mit neutralen Wörtern anders wirken?\n\nProbier es aus: Nimm irgendeine Schlagzeile und formuliere sie einmal positiv, einmal negativ – ohne die Tatsache zu verändern. Wenn dir das gelingt, hast du Framing verstanden."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "O6RS2M8N5uk",
+      "title": "Video: Fake News einfach erklärt",
+      "description": "Das Erklärvideo (3:58) des Kanals explainity zeigt, warum Falschmeldungen verbreitet werden und wie du sie erkennst. Achte beim Schauen auf zwei Leitfragen: (1) Welche Gründe nennt das Video, warum Menschen Fake News in die Welt setzen – und welche Rolle spielt Geld dabei? (2) Welche der Prüf-Tipps aus dem Video entsprechen den drei Checks dieses Moduls: Quelle prüfen, Bild-Rückwärtssuche, Zweitquelle suchen?",
+      "transcript": "Das Erklärvideo «Fake News einfach erklärt» (explainity, 3:58 Minuten) erklärt, was Fake News sind: bewusst verbreitete Falschmeldungen, die echten Nachrichten zum Verwechseln ähnlich sehen. Als Motive nennt das Video unter anderem politische Beeinflussung und Geld – reisserische Falschmeldungen bringen Klicks und damit Werbeeinnahmen. Das Video zeigt, wie sich Falschmeldungen über soziale Netzwerke rasant verbreiten, und gibt Tipps zum Erkennen: die Quelle und das Impressum prüfen, den Absender hinterfragen, Bilder per Rückwärtssuche kontrollieren und die Meldung mit Berichten anderer, verlässlicher Medien vergleichen.",
+      "startSeconds": 0
+    },
+    {
+      "type": "text",
+      "title": "Drei Checks gegen Fake News",
+      "body": "Gezielte Falschmeldungen – **Fake News** – nutzen alles aus, was du in diesem Modul gelernt hast: Sie sehen aus wie Nachrichten, setzen auf Empörung und verbreiten sich über Feeds schneller als jede Korrektur. Drei Checks, die du in wenigen Minuten schaffst:\n\n1. **Quelle prüfen:** Wer steht hinter der Meldung? Gibt es ein Impressum mit echten Namen und Adresse? Ist der Absender eine bekannte Redaktion – oder eine Seite, die nur für diese eine Meldung zu existieren scheint? Vorsicht bei Namen, die seriöse Medien imitieren, und bei Seiten ohne Impressum.\n2. **Bild-Rückwärtssuche:** Bilder wirken wie Beweise – sind aber oft älter als das Ereignis oder stammen aus einem ganz anderen Zusammenhang. Lade das Bild in eine Rückwärtssuche (zum Beispiel über die Bildersuche einer Suchmaschine) und prüfe: Wo und wann ist dieses Bild zum ersten Mal aufgetaucht?\n3. **Zweitquelle suchen:** Berichten auch andere, unabhängige und seriöse Medien dasselbe? Eine echte grosse Neuigkeit steht nie nur auf einer einzigen unbekannten Seite. Findest du die Meldung nirgendwo sonst – oder nur auf Seiten, die voneinander abschreiben –, ist Skepsis angebracht.\n\nDazu eine Faustregel für den Alltag: **Je stärker ein Beitrag deine Gefühle anspricht – Wut, Angst, Empörung –, desto eher lohnt sich das Prüfen, bevor du ihn teilst.** Genau auf diese Gefühle sind Falschmeldungen gebaut, denn empörte Menschen teilen schneller. Wer erst prüft und dann teilt, ist schon medienkompetenter als die meisten.\n\nIm nächsten Modul schaust du dir die Extremform an: Erzählungen, die gleich ein ganzes Weltbild aus Falschinformationen bauen – Verschwörungstheorien."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Nachrichten, Qualität und Framing",
+      "intro": "Zeig, dass du den Weg einer Nachricht und die Prüf-Werkzeuge beherrschst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "In welcher Reihenfolge entsteht eine Nachricht?",
+          "options": [
+            {
+              "text": "Darstellung – Auswahl – Quelle – Ereignis."
+            },
+            {
+              "text": "Ereignis – Quelle – Auswahl durch die Redaktion – Darstellung.",
+              "correct": true
+            },
+            {
+              "text": "Quelle – Ereignis – Darstellung – Auswahl."
+            },
+            {
+              "text": "Ereignis – Darstellung – Quelle – Auswahl."
+            }
+          ],
+          "explanation": "Zuerst passiert etwas (Ereignis), dann berichtet jemand davon (Quelle), dann entscheidet die Redaktion, ob die Meldung ausgewählt wird (Auswahl) – und schliesslich, wie sie präsentiert wird (Darstellung). Die Reihenfolge zu kennen lohnt sich, weil an den Stationen Quelle, Auswahl und Darstellung jeweils eigene Verzerrungen entstehen können."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Warum wählen Redaktionen überhaupt aus – und was folgt daraus?",
+          "options": [
+            {
+              "text": "Redaktionen wählen nur aus, wenn sie etwas verbergen wollen."
+            },
+            {
+              "text": "Die Auswahl ist Zufall – niemand entscheidet bewusst darüber."
+            },
+            {
+              "text": "Redaktionen zeigen grundsätzlich alles, was passiert – ausgewählt wird nicht."
+            },
+            {
+              "text": "Täglich passieren tausende Ereignisse, Platz und Zeit sind begrenzt – die Auswahl ist nötig, aber was nicht gewählt wird, bleibt unsichtbar.",
+              "correct": true
+            }
+          ],
+          "explanation": "Auswahl ist unvermeidlich: Kein Medium kann tausende Ereignisse pro Tag abbilden, also entscheiden Redaktionen nach Wichtigkeit und Interesse. Das ist keine Verschwörung und kein Zufall – aber es hat eine Nebenwirkung: Was nicht ausgewählt wird, existiert für das Publikum praktisch nicht. Deshalb ist die Auswahl eine der Stationen, an denen Verzerrung entstehen kann – und ein Grund, mehrere Medien zu nutzen."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Woran erkennst du Qualitätsjournalismus?",
+          "options": [
+            {
+              "text": "An Quellenangaben, der Trennung von Nachricht und Meinung und einer sichtbaren Korrekturkultur.",
+              "correct": true
+            },
+            {
+              "text": "An möglichst grossen Schlagzeilen und emotionalen Bildern."
+            },
+            {
+              "text": "Daran, dass niemals Fehler passieren."
+            },
+            {
+              "text": "Daran, dass die Beiträge besonders oft geteilt werden."
+            }
+          ],
+          "explanation": "Die drei Kriterien sind: Quellenangabe (du siehst, worauf sich eine Aussage stützt), Trennung von Nachricht und Meinung (Bericht und Kommentar sind klar unterschieden) und Korrekturkultur (Fehler werden sichtbar berichtigt). Grosse Schlagzeilen und Emotion sind eher Boulevard-Merkmale. Fehlerlosigkeit gibt es nirgends – entscheidend ist der Umgang mit Fehlern. Und wie oft etwas geteilt wird, sagt nichts über die Qualität: Reichweite ist kein Wahrheitsbeweis."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Was bedeutet «Trennung von Nachricht und Meinung»?",
+          "options": [
+            {
+              "text": "Journalistinnen und Journalisten dürfen keine eigene Meinung haben."
+            },
+            {
+              "text": "Meinungen dürfen nur in sozialen Netzwerken geäussert werden."
+            },
+            {
+              "text": "Der Bericht sagt, was passiert ist – der Kommentar sagt, was jemand davon hält, und ist als Meinung gekennzeichnet.",
+              "correct": true
+            },
+            {
+              "text": "Nachrichten und Meinungen erscheinen an verschiedenen Wochentagen."
+            }
+          ],
+          "explanation": "Beides darf es geben – aber sauber getrennt und gekennzeichnet: Der Bericht informiert über Fakten, der Kommentar ordnet ein und bewertet, und du sollst jederzeit erkennen können, was gerade vor dir liegt. Eine Meinung zu haben ist Journalisten selbstverständlich erlaubt – sie gehört nur nicht unmarkiert in den Bericht. Mit Plattformen oder Wochentagen hat das Kriterium nichts zu tun."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "«Steuersenkung entlastet Familien» vs. «Steuersenkung reisst Loch in die Gemeindekasse» – was zeigt dieses fiktive Beispiel?",
+          "options": [
+            {
+              "text": "Eine der beiden Schlagzeilen muss zwingend gelogen sein."
+            },
+            {
+              "text": "Steuersenkungen sind immer schlecht für die Gemeinde."
+            },
+            {
+              "text": "Schlagzeilen sollten nie über Steuern berichten."
+            },
+            {
+              "text": "Beide können wahr sein – dieselbe Tatsache wird durch Auswahl und Wortwahl unterschiedlich gerahmt: Framing.",
+              "correct": true
+            }
+          ],
+          "explanation": "Das ist der Kern von Framing: Die Tatsache ist identisch (die Steuern sinken), aber Titel eins betont die Entlastung, Titel zwei die fehlenden Einnahmen – und die Wortwahl («entlastet» vs. «reisst ein Loch») verstärkt den Eindruck. Gelogen wird dabei nicht, und über Steuern zu berichten ist völlig legitim. Ob die Senkung gut oder schlecht ist, entscheidet das Beispiel gerade nicht – es zeigt nur, wie stark der Rahmen deine Wahrnehmung lenkt."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Was ist typisch für Boulevard-Medien?",
+          "options": [
+            {
+              "text": "Sie veröffentlichen grundsätzlich nur Falschmeldungen."
+            },
+            {
+              "text": "Grosse Schlagzeilen, starke Emotionen und Zuspitzung – die Verkaufslogik färbt Auswahl und Darstellung.",
+              "correct": true
+            },
+            {
+              "text": "Besonders ausführliche Quellenangaben und zurückhaltende Titel."
+            },
+            {
+              "text": "Sie verzichten vollständig auf Bilder."
+            }
+          ],
+          "explanation": "Boulevard lebt vom Verkauf der Aufmerksamkeit: gross, laut, emotional, zugespitzt. Das heisst nicht, dass alles falsch wäre – der Kern einer Boulevard-Meldung kann durchaus stimmen. Aber die Verkaufslogik prägt, was ausgewählt und wie es dargestellt wird; deshalb ist bei Übertreibungen Vorsicht angebracht. Ausführliche Quellenarbeit und nüchterne Titel sind eher Merkmale des Qualitätsjournalismus – und Bilder setzt der Boulevard besonders gross ein, nicht gar nicht."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Wozu dient die Bild-Rückwärtssuche?",
+          "options": [
+            {
+              "text": "Sie verbessert die Bildqualität von unscharfen Fotos."
+            },
+            {
+              "text": "Sie zeigt, wer auf einem Foto abgebildet ist."
+            },
+            {
+              "text": "Sie zeigt, wo und wann ein Bild schon früher aufgetaucht ist – so erkennst du alte oder aus dem Zusammenhang gerissene Bilder.",
+              "correct": true
+            },
+            {
+              "text": "Sie löscht gefälschte Bilder automatisch aus dem Internet."
+            }
+          ],
+          "explanation": "Bilder wirken wie Beweise – aber ein echtes Foto kann trotzdem täuschen, wenn es älter ist als das behauptete Ereignis oder aus einem anderen Zusammenhang stammt. Die Rückwärtssuche findet frühere Verwendungen desselben Bildes: Taucht das «aktuelle Unwetterfoto» schon vor Jahren in einem anderen Land auf, ist die Meldung entlarvt. Bildqualität verbessern, Personen erkennen oder gar löschen kann die Rückwärtssuche nicht."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Ein Beitrag in deinem Feed macht dich richtig wütend und du willst ihn sofort teilen. Was ist der medienkompetente Umgang?",
+          "options": [
+            {
+              "text": "Erst prüfen, dann teilen: Gerade starke Gefühle sind ein Signal, die drei Checks anzuwenden.",
+              "correct": true
+            },
+            {
+              "text": "Sofort teilen – wenn es viele teilen, wird es schon stimmen."
+            },
+            {
+              "text": "Beiträge, die Gefühle auslösen, sind grundsätzlich verboten."
+            },
+            {
+              "text": "Wut beweist, dass die Meldung wahr ist – sonst würde sie dich nicht aufregen."
+            }
+          ],
+          "explanation": "Falschmeldungen sind gezielt auf Empörung gebaut, weil empörte Menschen schneller teilen – deine Wut ist also genau der Moment, in dem die drei Checks (Quelle, Bild-Rückwärtssuche, Zweitquelle) am wichtigsten sind. Dass viele etwas teilen, beweist nichts: Reichweite ist kein Wahrheitsbeweis. Verboten sind emotionale Beiträge natürlich nicht – und ein Gefühl ist niemals ein Beleg für eine Tatsache."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-weg-der-nachricht",
+      "title": "Setze die Begriffe ein: Vom Ereignis zum Feed",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Am Anfang jeder Nachricht steht ein {{1}} – irgendwo passiert etwas. Davon berichtet eine {{2}}, zum Beispiel Augenzeugen oder eine Nachrichtenagentur. Dann entscheidet die {{3}}, ob die Meldung überhaupt gebracht wird – denn Platz und Zeit sind begrenzt. Zuletzt wird die {{4}} festgelegt: Titel, Bild und Wortwahl.\nQualitätsjournalismus erkennst du an der {{5}} («laut Polizeimeldung»), an der Trennung von Nachricht und {{6}} – und an einer sichtbaren {{7}}, wenn Fehler passiert sind. Wird dieselbe Tatsache durch Wortwahl und Auswahl unterschiedlich gerahmt, nennt man das {{8}}. Ob ein Foto wirklich vom behaupteten Ereignis stammt, prüfst du mit der {{9}}. Und bevor du eine empörende Meldung teilst, suchst du eine unabhängige {{10}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Ereignis"
+          ]
+        },
+        {
+          "antworten": [
+            "Quelle"
+          ]
+        },
+        {
+          "antworten": [
+            "Redaktion"
+          ]
+        },
+        {
+          "antworten": [
+            "Darstellung"
+          ]
+        },
+        {
+          "antworten": [
+            "Quellenangabe"
+          ]
+        },
+        {
+          "antworten": [
+            "Meinung"
+          ]
+        },
+        {
+          "antworten": [
+            "Korrekturkultur"
+          ]
+        },
+        {
+          "antworten": [
+            "Framing"
+          ]
+        },
+        {
+          "antworten": [
+            "Bild-Rückwärtssuche"
+          ]
+        },
+        {
+          "antworten": [
+            "Zweitquelle"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Eintrittskarte",
+        "Dividende",
+        "Bergbahn"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-medien-eingabe",
+      "title": "Tippe die Begriffe ein: Die Checks sitzen",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Bevor du einer Meldung glaubst, prüfst du zuerst die {{1}}: Wer steht dahinter, gibt es ein Impressum? Ob ein Bild schon früher im Netz war, zeigt die Bild-{{2}}. Ob andere seriöse Medien dasselbe berichten, klärt die Suche nach einer {{3}}. Wird dieselbe Tatsache je nach Wortwahl positiv oder negativ gerahmt, heisst das {{4}}. Und wie oft ein Beitrag geteilt wird, ist kein Beweis – Reichweite ist kein {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Quelle",
+            "Absenderin",
+            "Absender"
+          ]
+        },
+        {
+          "antworten": [
+            "Rückwärtssuche",
+            "Rueckwaertssuche"
+          ]
+        },
+        {
+          "antworten": [
+            "Zweitquelle",
+            "zweiten Quelle"
+          ]
+        },
+        {
+          "antworten": [
+            "Framing"
+          ]
+        },
+        {
+          "antworten": [
+            "Wahrheitsbeweis",
+            "Beweis",
+            "Wahrheitsbeleg"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-absender",
+      "title": "Zuordnen: Qualitätsjournalismus, Boulevard oder ungeprüfter Post?",
+      "intro": "Ordne jede Beschreibung dem passenden Absender-Typ zu: **Qualitätsjournalismus**, **Boulevard** oder **ungeprüfter Social-Media-Post**. Jeder Typ kommt genau dreimal vor.",
+      "modus": "wortbank",
+      "text": "Im Artikel steht bei jeder Zahl, woher sie stammt – etwa «laut Mitteilung der Gemeinde». {{1}}\nRiesige Schlagzeile, dramatisches Prominenten-Foto, viele Ausrufezeichen – Hauptsache Aufmerksamkeit. {{2}}\nEin anonymes Konto verbreitet eine Schockmeldung – ohne Impressum, ohne Quelle, niemand prüft vor dem Absenden. {{3}}\nDer Kommentar ist deutlich als Meinung gekennzeichnet und vom Bericht getrennt. {{4}}\nDie Redaktion veröffentlicht sichtbar eine Korrektur, nachdem ihr ein Fehler unterlaufen ist. {{5}}\nDie Geschichte ist stark zugespitzt und emotional erzählt – der Kern stimmt, aber alles klingt dramatischer, als es war. {{6}}\nDer Beitrag hat hunderttausende Shares, aber niemand kann sagen, wer ihn ursprünglich verfasst hat. {{7}}\n«Sie werden nicht glauben, was dann geschah!» – die Neugier-Schlagzeile soll vor allem Klicks bringen. {{8}}\nEin privates Konto teilt ein altes Unwetterfoto als angeblich aktuelle Aufnahme – niemand hat es geprüft. {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Qualitätsjournalismus"
+          ]
+        },
+        {
+          "antworten": [
+            "Boulevard"
+          ]
+        },
+        {
+          "antworten": [
+            "ungeprüfter Social-Media-Post"
+          ]
+        },
+        {
+          "antworten": [
+            "Qualitätsjournalismus"
+          ]
+        },
+        {
+          "antworten": [
+            "Qualitätsjournalismus"
+          ]
+        },
+        {
+          "antworten": [
+            "Boulevard"
+          ]
+        },
+        {
+          "antworten": [
+            "ungeprüfter Social-Media-Post"
+          ]
+        },
+        {
+          "antworten": [
+            "Boulevard"
+          ]
+        },
+        {
+          "antworten": [
+            "ungeprüfter Social-Media-Post"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Werde zur Medien-Detektivin, zum Medien-Detektiv",
+      "tasks": [
+        {
+          "prompt": "Framing-Werkstatt: Erfinde ein neutrales Ereignis aus dem Schulleben (z. B. «Die Schule verlängert die Mittagspause um 15 Minuten»). Schreibe dazu zwei Schlagzeilen: eine, die das Ereignis positiv rahmt, und eine, die es negativ rahmt – beide müssen wahr bleiben. Markiere anschliessend die Wörter, die den Unterschied machen.",
+          "hint": "Frag dich: Wer profitiert, wer verliert – und welcher Aspekt kommt in den Titel? Wertende Wörter sind der Hebel: «gewinnt», «endlich», «verliert», «kürzt», «auf Kosten von». Die Tatsache selbst darfst du nicht verändern.",
+          "solution": "Beispiel zum Ereignis «längere Mittagspause»: Positiv gerahmt: «Endlich durchatmen: Schule schenkt allen 15 Minuten mehr Pause.» Negativ gerahmt: «Später zu Hause: Unterricht dauert neu bis 16.15 Uhr.» Beide Schlagzeilen sind wahr – die erste betont den Gewinn an Erholung («endlich», «schenkt»), die zweite den Preis dafür («später», «dauert»). Wer beide nebeneinanderlegt, sieht: Nicht die Tatsache, sondern Auswahl und Wortwahl steuern den Eindruck. Genau das ist Framing."
+        },
+        {
+          "prompt": "Wende die drei Checks an einem echten Beitrag an: Wähle einen aktuellen Beitrag aus deinem Feed oder einer Nachrichten-App (kein privates Thema). Prüfe ihn mit Check 1 (Quelle: Wer steht dahinter? Impressum?), Check 2 (falls ein Bild dabei ist: Rückwärtssuche) und Check 3 (Zweitquelle: Berichten andere seriöse Medien dasselbe?). Notiere zu jedem Check dein Ergebnis in ein, zwei Sätzen und dein Fazit: vertrauenswürdig, unsicher oder unglaubwürdig?",
+          "hint": "Nimm bewusst auch einen Beitrag, der dich emotional anspricht – da ist das Prüfen am lehrreichsten. Für die Rückwärtssuche kannst du das Bild in der Bildersuche einer Suchmaschine hochladen oder die Bild-URL einfügen.",
+          "solution": "Eine Musterlösung gibt es nicht – ein vollständiges Ergebnis enthält: (1) den Absender mit Einschätzung (bekannte Redaktion mit Impressum / unbekannte Seite / anonymes Konto), (2) das Resultat der Bildprüfung (Bild passt zum Ereignis / Bild ist älter oder aus anderem Kontext / kein Bild), (3) mindestens eine unabhängige Zweitquelle oder die Feststellung, dass keine existiert, und (4) ein begründetes Fazit. Wichtig ist die Erfahrung: Die drei Checks dauern nur wenige Minuten – und schon ein einziger fehlgeschlagener Check ist Grund genug, den Beitrag nicht weiterzuverbreiten."
+        },
+        {
+          "prompt": "Vergleiche die Berichterstattung: Suche dir ein aktuelles, unpolitisches Ereignis (Sport, Wetter, Wissenschaft) und schau dir an, wie zwei verschiedene Medien darüber berichten – zum Beispiel ein öffentlich-rechtliches Angebot und ein Boulevard-Portal. Vergleiche: Titel, Bildwahl, Länge, Quellenangaben, Ton. Was fällt dir auf – und bei welchem Beitrag weisst du nachher mehr?",
+          "hint": "Achte besonders auf die Unterschiede in der Darstellung desselben Kerns: Welche Wörter werten? Wie gross sind die Emotionen? Steht dabei, woher die Informationen stammen?",
+          "solution": "Typisches Ergebnis: Beide berichten denselben Kern, aber der Boulevard-Beitrag hat den lauteren Titel, das emotionalere Bild und weniger Quellenangaben; der Qualitätsbeitrag ist nüchterner, nennt Quellen und liefert mehr Einordnung – nach seiner Lektüre kann man das Ereignis meist besser erklären. Wichtigste Erkenntnis: Der Unterschied liegt selten im «Was», fast immer im «Wie» – und wer beide Darstellungen kennt, erkennt die Rahmung jeder einzelnen viel leichter."
+        }
+      ]
+    }
+  ]
+}
