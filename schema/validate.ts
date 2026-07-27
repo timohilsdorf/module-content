@@ -23,6 +23,7 @@ import {
   KNOWN_BLOCK_TYPES,
   knownBlockSchema,
   parseModulDatei,
+  VIDEO_DATEI_MUSTER,
   type LearningModule,
 } from "./schema";
 
@@ -38,6 +39,8 @@ const whitelistSchema = z.strictObject({
   _hinweis: z.string().optional(),
   videoProviders: z.array(z.string().min(1)),
   videoUrlHosts: z.array(z.string().min(1)),
+  maxVideoSizeKB: z.number().int().positive(),
+  videoExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
   imageHosts: z.array(z.string().min(1)),
   imageExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
   maxImageSizeKB: z.number().int().positive(),
@@ -226,10 +229,34 @@ function checkModule(
   for (const block of mod.blocks) {
     if (!isKnownBlock(block) || block.type !== "video") continue;
     if (block.provider === "url") {
+      const url = block.url ?? "";
       const host = block.url ? hostOf(block.url) : null;
-      if (whitelist.videoUrlHosts.length === 0) {
+      if (VIDEO_DATEI_MUSTER.test(url)) {
+        // Moduleigenes Video: gehört in DIESEN Modulordner, muss dort
+        // liegen, die erlaubte Endung tragen und darf nicht riesig sein.
+        const erwartet = `/content/${mod.id}/`;
+        if (!url.startsWith(erwartet)) {
+          errors.push(
+            `Video "${url}" – moduleigene Videos gehören in den eigenen Modulordner und heissen "${erwartet}<datei>.mp4".`,
+          );
+        } else {
+          const datei = path.join(ROOT, "modules", mod.id, url.slice(erwartet.length));
+          if (!fs.existsSync(datei)) {
+            errors.push(
+              `Video "${url}" nicht gefunden – die Datei gehört neben die module.json in modules/${mod.id}/.`,
+            );
+          } else {
+            const kb = Math.round(fs.statSync(datei).size / 1024);
+            if (kb > whitelist.maxVideoSizeKB) {
+              errors.push(
+                `Video "${url}" ist ${kb} KB gross – erlaubt sind höchstens ${whitelist.maxVideoSizeKB} KB (schema/whitelist.json → maxVideoSizeKB).`,
+              );
+            }
+          }
+        }
+      } else if (whitelist.videoUrlHosts.length === 0) {
         errors.push(
-          'Direkte Video-Datei-URLs (provider "url") sind derzeit nicht freigegeben – bitte YouTube/Vimeo verwenden oder den Host per PR in schema/whitelist.json (videoUrlHosts) vorschlagen.',
+          'Direkte Video-Datei-URLs von fremden Servern (provider "url") sind derzeit nicht freigegeben – nutze YouTube/Vimeo, lege das Video als "/content/<modul>/<datei>.mp4" in den Modulordner oder schlage den Host per PR in schema/whitelist.json (videoUrlHosts) vor.',
         );
       } else if (!host || !whitelist.videoUrlHosts.includes(host)) {
         errors.push(
@@ -309,9 +336,12 @@ function checkModule(
     }
     if (entry.name === "module.json") continue;
     const ext = path.extname(entry.name).toLowerCase();
+    // Videodateien prüft der Video-Abschnitt oben (Grösse + Referenz);
+    // hier zählt nur, dass die Endung überhaupt ins Modul gehört.
+    if (whitelist.videoExtensions.includes(ext)) continue;
     if (!whitelist.imageExtensions.includes(ext)) {
       errors.push(
-        `Datei "${entry.name}" gehört nicht ins Modul – erlaubt sind module.json und Bilder (${whitelist.imageExtensions.join(", ")}).`,
+        `Datei "${entry.name}" gehört nicht ins Modul – erlaubt sind module.json, Bilder (${whitelist.imageExtensions.join(", ")}) und Videos (${whitelist.videoExtensions.join(", ")}).`,
       );
       continue;
     }

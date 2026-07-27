@@ -66,7 +66,9 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      (bei YouTube die ca. 11 Zeichen nach watch?v=), nicht die
 >      URL","title":"…","description":"Worauf achten?",
 >      "transcript":"kurze Textzusammenfassung des Videos"}
->      (nur YouTube oder Vimeo – andere Videoquellen werden abgelehnt)
+>      (nur YouTube oder Vimeo – fremde Videoquellen werden abgelehnt;
+>      ein eigenes Video im Modulordner geht mit
+>      {"type":"video","provider":"url","url":"/content/<id>/film.mp4"})
 >   3. {"type":"image","src":"/content/<id>/bild.jpg","alt":"Pflicht:
 >      Bildbeschreibung","caption":"…","credit":"Quelle & Lizenz"}
 >   4. {"type":"tasks","title":"Aufgaben","tasks":[{"prompt":"…",
