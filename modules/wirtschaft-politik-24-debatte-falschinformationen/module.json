@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-24-debatte-falschinformationen",
+  "title": "Debattenvorbereitung: Soll der Staat Falschinformationen löschen dürfen?",
+  "description": "Meinungsfreiheit oder Schutz vor Desinformation – was wiegt schwerer? Im vierundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» bereitest du dich auf die Debatte der Woche 24 vor: Du wiederholst den Argument-Bauplan aus Modul 9, verstehst das Dilemma zwischen Meinungsfreiheit und Schaden durch gezielte Falschinformationen und lernst je drei ausgearbeitete Pro- und Contra-Argumente sowie die Zwischenlösungen kennen. Das Modul bezieht keine Position – die Bewertung nimmst du in der Debatte vor.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 24,
+  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Debatte",
+    "Argumentieren",
+    "Meinungsfreiheit",
+    "Falschinformation",
+    "Desinformation",
+    "Zensur",
+    "Streisand-Effekt",
+    "Faktencheck",
+    "Kennzeichnung",
+    "Plattformregeln",
+    "Pro und Contra",
+    "politische Bildung"
+  ],
+  "learningObjectives": [
+    "Ich kann den Argument-Bauplan aus Modul 9 anwenden: Behauptung – Begründung – Beispiel.",
+    "Ich verstehe das Dilemma: Meinungsfreiheit ist ein Grundpfeiler der Demokratie – gezielte Desinformation kann aber realen Schaden anrichten.",
+    "Ich kann je drei ausgearbeitete Pro- und Contra-Argumente zur Streitfrage in eigenen Worten wiedergeben.",
+    "Ich kenne Zwischenlösungen: Kennzeichnen statt Löschen, Faktenchecks und den Unterschied zwischen Plattformregeln und staatlichem Verbot."
+  ],
+  "competencies": [
+    {
+      "code": "RZG.8.2",
+      "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    },
+    {
+      "code": "MI.1.2",
+      "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-09-argumentieren-preisregulierung",
+    "wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Deine Debatte – dein Werkzeug",
+      "body": "In **Woche 24 debattiert ihr im Unterricht** eine Frage, an der sich weltweit Fachleute die Zähne ausbeissen: **Soll der Staat Falschinformationen löschen dürfen?** Dieses Modul ist deine Vorbereitung – wie schon Modul 9 ist es bewusst **kein reines Wissensmodul**: Du bekommst das Handwerkszeug und das Material für beide Seiten. **Position bezieht dieses Modul keine** – die Bewertung nimmst du in der Debatte vor.\n\nZuerst das Werkzeug, du kennst es aus Modul 9 – der **Argument-Bauplan**:\n\n1. **Behauptung** – *Was willst du sagen?* Ein klarer Satz, der Stellung bezieht.\n2. **Begründung** – *Warum stimmt das?* Der Grund, eingeleitet mit **«weil»** oder **«denn»**.\n3. **Beispiel** – *Woran sieht man das?* Ein konkreter Fall oder eine Zahl als überprüfbarer Beleg.\n\nFehlen Begründung und Beispiel, bleibt eine **blosse Behauptung** – und die überzeugt niemanden, der nicht schon deiner Meinung ist. In dieser Debatte brauchst du den Bauplan doppelt: für deine eigenen Argumente und um bei der Gegenseite zu erkennen, ob sie wirklich argumentiert – oder nur behauptet.\n\nUnd du bringst mehr Vorwissen mit, als du denkst: Aus Modul 20 kennst du Grundrechte und Minderheitenschutz, aus Modul 21 die Zensur autoritärer Systeme, aus Modul 22 Fake News und ihre Verbreitung, aus Modul 23 die Mechanik der Verschwörungserzählungen. Genau dieses Wissen wird gleich zu Argumenten."
+    },
+    {
+      "type": "text",
+      "title": "Das Dilemma: Freiheit gegen Schutz",
+      "body": "Warum ist die Frage so schwierig? Weil hier zwei berechtigte Anliegen kollidieren – ein echtes **Dilemma**:\n\n**Auf der einen Seite: die Meinungsfreiheit.** Sie ist ein Menschenrecht und ein Grundpfeiler der Demokratie (Modul 20): Ohne die Freiheit, auch unbequeme, umstrittene oder falsche Dinge sagen zu dürfen, gibt es kein offenes Aushandeln – und keine Kontrolle der Mächtigen. Wichtig: Die Meinungsfreiheit schützt gerade auch **Irrtümer**. Wer nur noch sagen dürfte, was amtlich als wahr gilt, wäre nicht mehr frei.\n\n**Auf der anderen Seite: der Schaden durch gezielte Desinformation.** Ein fiktives, aber realistisches Szenario: In der erfundenen Gemeinde Musterberg verbreitet sich an einem Samstagabend die Falschmeldung, das **Trinkwasser sei mit Chemikalien verunreinigt** – angeblich «von offizieller Stelle bestätigt». Innert Stunden: besorgte Familien, leergekaufte Wasserregale, ein überlastetes Gemeindetelefon, Menschen, die aus Angst Medikamente einnehmen. Das Dementi der Gemeinde erreicht am Sonntag nur einen Bruchteil derer, die die Falschmeldung gesehen haben. Der Schaden ist real – obwohl kein Wort der Meldung stimmte.\n\nDazwischen liegt die Streitfrage: Darf der Staat solche Inhalte **löschen lassen** – also aktiv aus dem Netz entfernen? Zwei Unterscheidungen, die in der Debatte Gold wert sind:\n\n- **Irrtum oder gezielte Desinformation?** Wer sich ehrlich irrt, ist kein Desinformant. Gezielte Desinformation wird **wider besseres Wissen** gestreut, um zu täuschen. Klingt klar – ist im Einzelfall aber schwer zu beweisen.\n- **Meinung oder Tatsachenbehauptung?** «Ich finde das Hallenbad hässlich» ist eine Meinung – sie kann nicht «falsch» sein. «Das Trinkwasser ist verunreinigt» ist eine Tatsachenbehauptung – sie ist wahr oder falsch. Die Debatte dreht sich um falsche Tatsachenbehauptungen, nicht um Meinungen."
+    },
+    {
+      "type": "image",
+      "title": "Die Abwägung im Überblick",
+      "src": "/content/wirtschaft-politik-24-debatte-falschinformationen/abwaegungswaage.png",
+      "alt": "Schaubild einer Balkenwaage im Gleichgewicht. Über der Waage die Streitfrage: Soll der Staat Falschinformationen löschen dürfen? In der linken, blauen Waagschale die drei Pro-Argumente: Schutz der Meinungsbildung vor gezielter Manipulation; Schutz vor Panik und realem Schaden, wie beim erfundenen Trinkwasser-Alarm; Schutz Einzelner vor Rufschädigung, weil die Richtigstellung nie alle erreicht. In der rechten, orangen Waagschale die drei Contra-Argumente: Wer entscheidet, was falsch ist – eine staatliche Wahrheitsstelle ist heikel; Missbrauchsgefahr, denn in autoritären Systemen wird Kritik oft zu Falschinformation erklärt; Streisand-Effekt, denn Löschen verschafft Inhalten oft erst recht Aufmerksamkeit. Die Waage steht bewusst waagrecht, denn das Modul bezieht keine Position. Unter der Waage ein grüner Balken mit den Zwischenlösungen: Kennzeichnen statt Löschen, unabhängige Faktenchecks, Plattformregeln statt staatlichem Verbot. Darunter der Hinweis: Die Bewertung nimmst du in der Debatte vor.",
+      "caption": "Beide Waagschalen sind gefüllt, die Waage steht absichtlich im Gleichgewicht: Die Abwägung – und damit die Bewertung – findet in eurer Debatte statt.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Die Argumente für die Debatte: Pro und Contra",
+      "body": "Hier sind je drei ausgearbeitete Argumente – jedes nach dem Bauplan **Behauptung – Begründung – Beispiel**. Alle Beispiele sind fiktiv oder historisch-allgemein gehalten; echte aktuelle Löschfälle brauchst du für die Debatte nicht.\n\n**PRO: Der Staat soll gezielte Falschinformationen löschen dürfen**\n\n1. **Behauptung:** Löschen schützt die demokratische Meinungsbildung. **Begründung:** Demokratie lebt davon, dass sich die Betroffenen auf Grundlage echter Informationen eine Meinung bilden (Modul 20 und 22) – gezielte Desinformation verzerrt diese Grundlage. **Beispiel:** Kursiert vor einem fiktiven Gemeindeentscheid massenhaft eine erfundene Meldung über angebliche Geheimpläne, stimmen viele Menschen über eine Fälschung ab statt über die Sachfrage.\n2. **Behauptung:** Löschen verhindert Panik und realen Schaden. **Begründung:** Falschmeldungen über Gefahren verbreiten sich schneller als jedes Dementi – und Menschen handeln auf ihrer Grundlage. **Beispiel:** Der erfundene Trinkwasser-Alarm von Musterberg: leergekaufte Regale, überlastete Notfallnummern, verängstigte Familien – der Schaden war real, obwohl kein Wort stimmte.\n3. **Behauptung:** Löschen schützt Einzelne vor Rufschädigung. **Begründung:** Erfundene Tatsachenbehauptungen können Existenzen zerstören, und die Richtigstellung erreicht nie alle, die die Falschmeldung gesehen haben (Modul 22). **Beispiel:** Einem fiktiven Restaurant wird angedichtet, es serviere verdorbenes Fleisch – die Gäste bleiben aus, noch Monate nach dem Dementi.\n\n**CONTRA: Der Staat soll nicht löschen dürfen**\n\n1. **Behauptung:** Wer entscheidet, was falsch ist? **Begründung:** Ob eine Behauptung stimmt, ist oft erst später klar – Wissen entwickelt sich, und auch Behörden irren. Eine staatliche Stelle, die verbindlich «wahr» und «falsch» stempelt, ist mit der Meinungsfreiheit schwer vereinbar. **Beispiel:** Eine vorschnell gelöschte Meldung kann sich Monate später als teilweise zutreffend erweisen – der Fehler lässt sich dann kaum wiedergutmachen, und das Vertrauen ist doppelt beschädigt.\n2. **Behauptung:** Eine Löschbefugnis lädt zum Missbrauch ein. **Begründung:** Werkzeuge der Macht bleiben selten auf ihren ursprünglichen Zweck beschränkt – wer bestimmen darf, was gelöscht wird, kann damit auch Kritik zum Verstummen bringen. **Beispiel:** Aus Modul 21 kennst du das Muster: Autoritäre Systeme begründen ihre Zensur regelmässig mit dem «Kampf gegen Falschinformationen» – gelöscht wird dann vor allem, was der Führung nicht passt.\n3. **Behauptung:** Löschen kann das Gegenteil bewirken. **Begründung:** Verbotene Inhalte wirken erst recht interessant – und das Löschen selbst füttert die Erzählung vom «unterdrückten Wissen», die du aus Modul 23 kennst. **Beispiel:** Der **Streisand-Effekt** hat seinen Namen von einem Fall aus dem Jahr 2003: Der Versuch, ein einzelnes Foto aus dem Internet entfernen zu lassen, verschaffte genau diesem Foto weltweite Aufmerksamkeit.\n\n**Halte fest:** Beide Seiten argumentieren sauber nach dem Bauplan – und beide stützen sich auf Wissen aus diesem Themenblock. Welche Gewichte schwerer wiegen, entscheidet ihr in der Debatte."
+    },
+    {
+      "type": "text",
+      "title": "Zwischenlösungen: zwischen Laufenlassen und Löschen",
+      "body": "In der Debatte wirkt es schnell so, als gäbe es nur zwei Möglichkeiten: alles stehen lassen oder alles löschen. Tatsächlich liegt dazwischen ein ganzer Werkzeugkasten – wer ihn kennt, kann differenzierter argumentieren:\n\n- **Kennzeichnen statt Löschen:** Der Inhalt bleibt online, bekommt aber einen sichtbaren Hinweis («umstritten», «von Faktencheckern geprüft») und einen Link zu verlässlichen Informationen. Die Meldung bleibt lesbar – aber niemand stolpert mehr ahnungslos hinein.\n- **Unabhängige Faktenchecks:** Spezialisierte Redaktionen prüfen virale Behauptungen und veröffentlichen nachvollziehbare Prüfberichte – Korrektur durch **mehr** Rede statt durch Verbot. Das knüpft an die Korrekturkultur aus Modul 22 an.\n- **Sichtbarkeit reduzieren:** Plattformen können Falschmeldungen seltener empfehlen und weiterverbreiten, ohne sie zu entfernen – die Meldung bleibt auffindbar, wird aber nicht mehr vom Algorithmus verstärkt.\n- **Plattformregeln oder staatliches Verbot?** Ein wichtiger Unterschied: **Plattformregeln** sind Hausregeln privater Unternehmen – wer sie verletzt, fliegt vom Dienst, so wie man aus einem Verein ausgeschlossen werden kann. Ein **staatliches Verbot** dagegen gilt für alle, wird mit Staatsgewalt durchgesetzt und gehört vor Gerichte. Für die Debatte heisst das: Man kann staatliches Löschen ablehnen und trotzdem finden, dass Plattformen aufräumen sollen – oder umgekehrt.\n- **Medienkompetenz als Gegengift:** Je mehr Menschen die drei Checks aus Modul 22 und die Prüffragen aus Modul 23 beherrschen, desto weniger Schaden richten Falschmeldungen an – ganz ohne Eingriff.\n\nDamit hast du alles: den Bauplan, das Dilemma, je drei Argumente und die Zwischenlösungen. **Dieses Modul hat keine Position bezogen – jetzt bist du dran: Die Abwägung findet in eurer Debatte statt.**"
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Dilemma, Argumente und Zwischenlösungen",
+      "intro": "Zeig, dass du das Rüstzeug für die Debatte beisammen hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Aus welchen drei Bausteinen besteht ein vollständiges Argument nach dem Bauplan aus Modul 9?",
+          "options": [
+            {
+              "text": "Einleitung, Hauptteil und Schluss."
+            },
+            {
+              "text": "These, Beweis und Gegenbeweis."
+            },
+            {
+              "text": "Meinung, Gefühl und Lautstärke."
+            },
+            {
+              "text": "Behauptung, Begründung und Beispiel.",
+              "correct": true
+            }
+          ],
+          "explanation": "Der Bauplan lautet: Behauptung (Was willst du sagen?), Begründung mit «weil» oder «denn» (Warum stimmt das?) und Beispiel (Woran sieht man das?). «Einleitung – Hauptteil – Schluss» beschreibt einen Aufsatz, nicht ein einzelnes Argument. Und Meinung, Gefühl oder Lautstärke überzeugen niemanden, der anderer Ansicht ist – genau davor soll dich der Bauplan in der Debatte bewahren."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Warum gilt die Meinungsfreiheit als Grundpfeiler der Demokratie?",
+          "options": [
+            {
+              "text": "Weil sie garantiert, dass alle Meinungen richtig sind."
+            },
+            {
+              "text": "Weil ohne die Freiheit, auch Unbequemes und sogar Falsches zu sagen, kein offenes Aushandeln und keine Kontrolle der Mächtigen möglich wäre.",
+              "correct": true
+            },
+            {
+              "text": "Weil sie nur für Politikerinnen und Politiker gilt."
+            },
+            {
+              "text": "Weil sie erlaubt, andere zu beleidigen."
+            }
+          ],
+          "explanation": "Demokratie ist Aushandeln (Modul 19 und 20) – und Aushandeln braucht freie Rede, auch wenn sie unbequem, umstritten oder irrtümlich ist. Wer nur amtlich Bestätigtes sagen dürfte, könnte die Mächtigen nicht mehr kritisieren. Richtigkeit garantiert die Meinungsfreiheit gerade nicht – sie schützt auch Irrtümer. Sie gilt für alle, nicht nur für Politiker, und Grenzen kennt sie trotzdem: Beleidigung und üble Nachrede sind kein geschütztes Gut."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Was zeigt das fiktive Trinkwasser-Szenario von Musterberg?",
+          "options": [
+            {
+              "text": "Dass Falschmeldungen harmlos sind, solange sie schnell dementiert werden."
+            },
+            {
+              "text": "Dass man Leitungswasser grundsätzlich abkochen sollte."
+            },
+            {
+              "text": "Dass gezielte Falschmeldungen realen Schaden anrichten können – Panik, Hamsterkäufe, überlastete Behörden –, obwohl kein Wort stimmt.",
+              "correct": true
+            },
+            {
+              "text": "Dass Gemeinden keine Dementis veröffentlichen sollten."
+            }
+          ],
+          "explanation": "Das Szenario führt die Pro-Seite des Dilemmas vor: Der Schaden entsteht, bevor die Korrektur wirkt – Menschen kaufen Regale leer und geraten in Angst, während das Dementi nur einen Bruchteil erreicht. Harmlos ist so eine Meldung also gerade nicht, obwohl sie frei erfunden ist. Mit echter Trinkwasserqualität hat das Beispiel nichts zu tun – es ist bewusst fiktiv. Und Dementis bleiben natürlich richtig und wichtig; sie sind nur langsamer als die Falschmeldung."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Welcher Kern steckt im Pro-Argument «Löschen schützt die demokratische Meinungsbildung»?",
+          "options": [
+            {
+              "text": "Demokratische Entscheide brauchen echte Informationen – wer über Fälschungen abstimmt, entscheidet nicht wirklich über die Sachfrage.",
+              "correct": true
+            },
+            {
+              "text": "Der Staat soll den Menschen vorschreiben, welche Meinung sie haben."
+            },
+            {
+              "text": "Abstimmungen sollen abgeschafft werden, wenn Falschmeldungen kursieren."
+            },
+            {
+              "text": "Nur Fachleute sollen über wichtige Fragen abstimmen dürfen."
+            }
+          ],
+          "explanation": "Das Argument zielt auf die Grundlage der Demokratie: Die Betroffenen entscheiden selbst (Modul 20) – aber ein Entscheid auf Basis gezielter Fälschungen ist kein echter Sachentscheid mehr. Es geht also um den Schutz der Informationsgrundlage, nicht um vorgeschriebene Meinungen, abgeschaffte Abstimmungen oder Expertenherrschaft – das wären Zerrbilder, mit denen sich das Argument leicht (aber unfair) angreifen liesse."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Worauf zielt das Contra-Argument «Wer entscheidet, was falsch ist?»",
+          "options": [
+            {
+              "text": "Es behauptet, dass es Wahrheit grundsätzlich nicht gibt."
+            },
+            {
+              "text": "Ob eine Behauptung stimmt, ist oft erst später klar – eine staatliche Stelle, die verbindlich «wahr» und «falsch» stempelt, ist heikel und kann irren.",
+              "correct": true
+            },
+            {
+              "text": "Es fordert, dass Falschmeldungen belohnt werden."
+            },
+            {
+              "text": "Es bestreitet, dass der Trinkwasser-Alarm Schaden angerichtet hat."
+            }
+          ],
+          "explanation": "Das Argument bestreitet nicht die Wahrheit an sich – es bezweifelt, dass eine Behörde sie im Moment der Löschung zuverlässig feststellen kann: Wissen entwickelt sich, Behörden irren, und ein vorschnell gelöschter Inhalt kann sich später als (teilweise) zutreffend erweisen. Den Schaden von Falschmeldungen bestreitet die Contra-Seite ebenfalls nicht – sie bezweifelt, dass staatliches Löschen das richtige Gegenmittel ist. Von «Belohnung» redet ohnehin niemand."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Wie stützt Modul 21 das Contra-Argument der Missbrauchsgefahr?",
+          "options": [
+            {
+              "text": "Es zeigt, dass autoritäre Systeme gar keine Inhalte löschen."
+            },
+            {
+              "text": "Es zeigt, dass Falschinformationen nur in autoritären Systemen vorkommen."
+            },
+            {
+              "text": "Es zeigt, dass Zensur immer mit Ehrlichkeit begründet wird."
+            },
+            {
+              "text": "Es zeigt das Muster: Autoritäre Systeme begründen Zensur regelmässig mit dem «Kampf gegen Falschinformationen» – gelöscht wird dann vor allem Kritik.",
+              "correct": true
+            }
+          ],
+          "explanation": "Aus Modul 21 kennst du die Internetzensur autoritärer Systeme – und ihre Rechtfertigung: Offiziell werden «Falschinformationen» und «Gerüchte» bekämpft, faktisch verschwindet, was der Führung nicht passt. Das Contra-Argument warnt deshalb: Eine Löschbefugnis ist ein Machtwerkzeug, das seinen Zweck wechseln kann. Autoritäre Systeme löschen also sehr wohl – und Falschmeldungen gibt es überall; genau deshalb ist die Frage, wer das Löschwerkzeug führt, so heikel."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Was beschreibt der Streisand-Effekt?",
+          "options": [
+            {
+              "text": "Der Versuch, einen Inhalt zu entfernen, verschafft ihm erst recht Aufmerksamkeit – wie 2003, als die Klage gegen ein einzelnes Foto genau dieses Foto weltberühmt machte.",
+              "correct": true
+            },
+            {
+              "text": "Gelöschte Inhalte verschwinden für immer aus dem Internet."
+            },
+            {
+              "text": "Faktenchecks machen Falschmeldungen automatisch populärer."
+            },
+            {
+              "text": "Menschen vergessen Falschmeldungen sofort, wenn sie gelöscht werden."
+            }
+          ],
+          "explanation": "Benannt ist der Effekt nach einem Fall von 2003: Der Versuch, ein einzelnes Küstenfoto entfernen zu lassen, machte es erst weltbekannt. Für die Debatte heisst das: Löschen kann nach hinten losgehen – «Was die verbieten, muss ja brisant sein» – und füttert die Erzählung vom unterdrückten Wissen (Modul 23). Dass Gelöschtes für immer verschwindet oder sofort vergessen wird, stimmt gerade nicht – Kopien kursieren weiter. Und Faktenchecks sind kein Löschen; sie antworten mit mehr Rede, nicht mit weniger."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Was ist der Unterschied zwischen Plattformregeln und einem staatlichen Verbot?",
+          "options": [
+            {
+              "text": "Es gibt keinen – beides ist dasselbe."
+            },
+            {
+              "text": "Plattformregeln gelten für alle Menschen, staatliche Verbote nur für Angemeldete."
+            },
+            {
+              "text": "Plattformregeln sind Hausregeln privater Unternehmen für ihren Dienst – ein staatliches Verbot gilt für alle, wird mit Staatsgewalt durchgesetzt und gehört vor Gerichte.",
+              "correct": true
+            },
+            {
+              "text": "Staatliche Verbote sind unverbindliche Empfehlungen an die Plattformen."
+            }
+          ],
+          "explanation": "Der Unterschied ist zentral für die Debatte: Plattformregeln funktionieren wie Vereinsregeln – ein privates Unternehmen bestimmt, was auf seinem Dienst gilt, und wer dagegen verstösst, fliegt raus. Ein staatliches Verbot dagegen bindet alle, wird notfalls mit Staatsgewalt durchgesetzt und muss gerichtlich überprüfbar sein. Deshalb kann man in der Debatte differenzieren: staatliches Löschen ablehnen, Plattform-Aufräumen aber befürworten – oder umgekehrt. Gleichsetzen sollte man die beiden jedenfalls nicht."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-argumente",
+      "title": "Zuordnen: Pro, Contra – oder blosse Behauptung?",
+      "intro": "Ordne jede Aussage der richtigen Kategorie zu: **Pro-Argument** (für staatliches Löschen, mit Begründung), **Contra-Argument** (gegen staatliches Löschen, mit Begründung) oder **blosse Behauptung** (egal welche Seite – ohne Begründung und Beleg). Achtung: Es zählt der **Bau** der Aussage, nicht ob du inhaltlich zustimmst.",
+      "modus": "wortbank",
+      "text": "«Der Staat soll gezielte Falschmeldungen löschen dürfen, weil sie Panik und realen Schaden auslösen – wie der erfundene Trinkwasser-Alarm, der zu Hamsterkäufen und überlasteten Notfallnummern führte.» {{1}}\n«Löschen ist einfach richtig, das weiss doch jeder.» {{2}}\n«Der Staat soll nicht löschen dürfen, weil oft erst später klar ist, was stimmt – eine vorschnell gelöschte Meldung kann sich als teilweise wahr erweisen.» {{3}}\n«Wer gegen das Löschen ist, dem ist die Wahrheit egal.» {{4}}\n«Eine staatliche Löschbefugnis ist gefährlich, weil sie gegen Kritiker gewendet werden kann – autoritäre Systeme begründen ihre Zensur regelmässig mit dem Kampf gegen Falschinformationen.» {{5}}\n«Im Internet sollte endlich einmal richtig aufgeräumt werden.» {{6}}\n«Löschen schützt die Meinungsbildung, weil Abstimmende sonst über Fälschungen statt über die Sachfrage entscheiden – etwa wenn vor einem Gemeindeentscheid eine erfundene Meldung über Geheimpläne kursiert.» {{7}}\n«Löschen kann das Gegenteil bewirken, weil entfernte Inhalte erst recht Aufmerksamkeit bekommen – der Streisand-Effekt zeigt das seit 2003.» {{8}}\n«Der Staat soll löschen dürfen, weil erfundene Behauptungen Existenzen zerstören und die Richtigstellung nie alle erreicht – wie beim fiktiven Restaurant, dem verdorbenes Fleisch angedichtet wurde.» {{9}}\n«Meinungsfreiheit ist sowieso wichtiger, fertig.» {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Pro-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Contra-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Contra-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Pro-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "Contra-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "Pro-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-argument-zusammensetzen",
+      "title": "Bau das Argument wieder zusammen",
+      "intro": "Ein Contra-Argument wurde in seine Bausteine zerlegt. Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Zwei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "{{1}}: «Der Staat sollte Falschinformationen nicht einfach löschen dürfen.»\n{{2}}: «…, {{3}} eine solche Befugnis missbraucht werden kann – wer bestimmt, was falsch ist, kann auch unbequeme Kritik zu Falschinformation erklären.»\n{{4}}: «{{5}} begründen autoritäre Systeme ihre Zensur regelmässig mit dem Kampf gegen Falschinformationen – gelöscht wird dann vor allem, was der Führung nicht passt.»\nOhne die {{6}} und das Beispiel bliebe nur eine blosse {{7}} übrig. Erst alle drei Bausteine ergeben den vollständigen {{8}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Begründung"
+          ]
+        },
+        {
+          "antworten": [
+            "weil"
+          ]
+        },
+        {
+          "antworten": [
+            "Beispiel"
+          ]
+        },
+        {
+          "antworten": [
+            "Zum Beispiel"
+          ]
+        },
+        {
+          "antworten": [
+            "Begründung"
+          ]
+        },
+        {
+          "antworten": [
+            "Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Bauplan"
+          ]
+        }
+      ],
+      "ablenker": [
+        "denn",
+        "Schlagzeile"
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Dein Auftritt in der Debatte",
+      "tasks": [
+        {
+          "prompt": "Formuliere ein eigenes Kurzargument zur Streitfrage «Soll der Staat Falschinformationen löschen dürfen?» – exakt nach dem Bauplan: (1) eine klare Behauptung (Pro ODER Contra – gern auch die Seite, die nicht deiner Meinung entspricht), (2) eine Begründung mit «weil» oder «denn», (3) ein Beispiel als Beleg. Wichtig: Erfinde ein eigenes fiktives Szenario oder nutze Wissen aus den Modulen 20 bis 23 – verwende keine realen aktuellen Löschfälle.",
+          "hint": "Nimm den Bauplan als Checkliste: Bezieht dein erster Satz klar Stellung? Nennt dein zweiter Satz einen Grund, der auch die Gegenseite ins Nachdenken bringt (keine Scheinbegründung wie «weil das jeder weiss»)? Ist dein Beispiel konkret und nachvollziehbar? Ideen für fiktive Szenarien: erfundene Warnung vor einem Produkt, gefälschtes Zitat einer erfundenen Person, falscher Unfallbericht.",
+          "solution": "Eine Musterlösung gibt es nicht – prüfe dein Argument mit diesen Kriterien: (1) Die Behauptung ist ein vollständiger Aussagesatz mit klarer Position zur Streitfrage. (2) Die Begründung nennt einen echten Grund und hängt logisch an der Behauptung – Test: Ergibt «Behauptung, weil Begründung» einen sinnvollen Satz? (3) Das Beispiel ist konkret, fiktiv oder historisch-allgemein, und belegt genau die Begründung. Beispielhafte Struktur (Contra): «Der Staat sollte Falschmeldungen kennzeichnen lassen statt löschen dürfen, weil eine Löschbehörde irren kann und Fehler beim Löschen kaum wiedergutzumachen sind – wenn sich eine entfernte Warnung später als berechtigt herausstellt, ist das Vertrauen doppelt beschädigt.»"
+        },
+        {
+          "prompt": "Bereite dich konkret auf die Debatte in Woche 24 vor: Wähle das für dich stärkste Pro-Argument UND das stärkste Contra-Argument aus dem Modul. Notiere zu beiden je einen möglichen Einwand der Gegenseite – und wie du auf diesen Einwand antworten würdest. Beziehe mindestens einmal eine Zwischenlösung (Kennzeichnen, Faktencheck, Plattformregeln) in deine Antwort ein.",
+          "hint": "Ein Einwand greift meist die Begründung an («Stimmt der Grund wirklich?») oder das Beispiel («Ist der Fall typisch?»). Die Zwischenlösungen sind in der Debatte oft der stärkste Zug: Sie zeigen, dass zwischen Laufenlassen und Löschen viel Spielraum liegt.",
+          "solution": "Beispiel für das Muster: Pro-Argument «Löschen verhindert Panik» – möglicher Einwand: «Bis eine Behörde geprüft und gelöscht hat, ist die Panik längst da – Löschen ist zu langsam.» Mögliche Antwort: «Stimmt teilweise – gerade deshalb wäre eine Kombination sinnvoll: Plattformen kennzeichnen sofort und drosseln die Verbreitung, während die Prüfung läuft; gelöscht wird erst nach Prüfung.» Contra-Argument «Missbrauchsgefahr» – möglicher Einwand: «Bei uns gibt es ja unabhängige Gerichte, die Missbrauch stoppen würden.» Mögliche Antwort: «Gerichte helfen – aber sie urteilen erst im Nachhinein, und das Werkzeug bleibt für jede künftige Regierung im Schrank; Kennzeichnen statt Löschen erreicht viel vom Schutz, ohne dieses Werkzeug zu schaffen.» Wichtig ist, dass Einwand und Antwort an Begründung oder Beispiel ansetzen – nicht an der Person."
+        },
+        {
+          "prompt": "Ordne die Zwischenlösungen: Erkläre in je ein, zwei Sätzen den Unterschied zwischen (a) Kennzeichnen statt Löschen, (b) unabhängigen Faktenchecks, (c) reduzierter Sichtbarkeit und (d) Plattformregeln vs. staatlichem Verbot. Notiere anschliessend, welche der vier Zwischenlösungen dir für das Trinkwasser-Szenario am wirksamsten erscheint – mit Begründung nach dem Bauplan.",
+          "hint": "Frag dich beim Trinkwasser-Szenario vor allem: Was hilft SCHNELL – bevor die Panik da ist? Und was davon braucht den Staat, was können Plattformen selbst?",
+          "solution": "(a) Kennzeichnen: Der Inhalt bleibt online, trägt aber einen Warnhinweis mit Link zu verlässlichen Quellen. (b) Faktencheck: Eine unabhängige Redaktion prüft die Behauptung und veröffentlicht das Ergebnis – Korrektur durch mehr Rede. (c) Reduzierte Sichtbarkeit: Der Algorithmus empfiehlt den Inhalt nicht mehr weiter, ohne ihn zu entfernen. (d) Plattformregeln sind private Hausregeln eines Dienstes, ein staatliches Verbot gilt für alle und wird mit Staatsgewalt durchgesetzt. Beispielantwort zum Szenario: «Am wirksamsten erscheint mir die Kombination aus Kennzeichnung und reduzierter Sichtbarkeit, weil sie innert Minuten wirkt und keine staatliche Wahrheitsprüfung voraussetzt – zum Beispiel hätte ein sofortiger Warnhinweis auf der Musterberg-Meldung viele Hamsterkäufe verhindert, noch bevor das Dementi der Gemeinde fertig formuliert war.» Auch andere Antworten sind richtig, wenn die Begründung trägt."
+        }
+      ]
+    }
+  ]
+}
