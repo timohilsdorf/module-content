@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren",
+  "title": "Verschwörungstheorien dekonstruieren",
+  "description": "«Das ist doch kein Zufall!» – Verschwörungserzählungen bieten einfache Erklärungen für eine komplizierte Welt. Im dreiundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» zerlegst du ihre Bauart – geheimer Plan, nichts ist Zufall, Widerlegung gilt als Beweis –, verstehst, warum sie attraktiv sind, und wendest drei Prüffragen an. Als Beispiele dienen bewusst nur historische, eindeutig widerlegte Erzählungen: die flache Erde und die angeblich inszenierte Mondlandung.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 23,
+  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Verschwörungstheorie",
+    "Verschwörungserzählung",
+    "flache Erde",
+    "Mondlandung",
+    "Immunisierung",
+    "Prüffragen",
+    "kritisches Denken",
+    "Filterblase",
+    "Medienkompetenz",
+    "Falschinformation"
+  ],
+  "learningObjectives": [
+    "Ich kann die Bauart von Verschwörungserzählungen erkennen: geheimer Plan mächtiger Gruppen, nichts ist Zufall, Widerlegung gilt als Beweis (Immunisierung gegen Kritik).",
+    "Ich kann erklären, warum Verschwörungserzählungen attraktiv sind: einfache Erklärung für eine komplexe Welt, Gefühl von Durchblick und Zugehörigkeit.",
+    "Ich kann drei Prüffragen anwenden: Wer müsste alles schweigen? Was würde die These widerlegen können? Wem nützt die Erzählung?",
+    "Ich kann den Bezug zu Modul 22 herstellen: Die Quellen-Checks gegen Fake News wirken auch gegen Verschwörungserzählungen."
+  ],
+  "competencies": [
+    {
+      "code": "MI.1.2",
+      "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    },
+    {
+      "code": "LBO.5.4",
+      "description": "Die Schülerinnen und Schüler können Gemeinschaft aktiv mitgestalten."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "Quarks (WDR) – Wissenschaftsformat des öffentlich-rechtlichen Rundfunks",
+      "url": "https://www.quarks.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-22-medien-und-meinungsbildung"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Eine Erzählung, die alles erklärt",
+      "body": "Es gibt Menschen, die überzeugt sind, die Erde sei eine Scheibe. Alle Fotos aus dem All? Gefälscht. Die Physik dahinter? Erfunden. Piloten, Astronominnen, Wissenschaftler weltweit? Eingeweiht und zum Schweigen verpflichtet. So absurd das klingt – an diesem historischen, längst widerlegten Beispiel kannst du wie unter dem Mikroskop studieren, wie **Verschwörungserzählungen** gebaut sind.\n\nDrei Bauteile findest du in praktisch jeder solchen Erzählung:\n\n1. **Der geheime Plan:** Eine kleine, mächtige Gruppe steuert angeblich im Verborgenen das Geschehen – und täuscht den Rest der Welt gezielt. Bei der flachen Erde: Raumfahrtbehörden und «die Wissenschaft», die angeblich seit Jahrzehnten Beweise fälschen.\n2. **Nichts ist Zufall:** Alles wird als Teil des Plans gedeutet. Jeder Widerspruch, jede Ungereimtheit im Alltag wird zum «Beweis» umgedeutet – Zufälle, Fehler oder schlicht komplizierte Zusammenhänge kommen in der Erzählung nicht vor.\n3. **Widerlegung gilt als Beweis (Immunisierung):** Das raffinierteste Bauteil. Zeigst du einer Anhängerin Satellitenbilder, sagt sie: «Gefälscht – das beweist ja gerade, wie mächtig die Fälscher sind.» Die Erzählung ist so gebaut, dass **kein Gegenbeweis sie je erschüttern kann**: Jede Widerlegung wird zur Bestätigung umgedeutet. Man nennt das Immunisierung gegen Kritik.\n\nGenau am dritten Bauteil erkennst du den Unterschied zur **wissenschaftlichen Theorie**: Eine echte Theorie sagt, welche Beobachtung sie widerlegen würde – und stellt sich dieser Prüfung. Die Verschwörungserzählung dagegen hat auf alles eine Antwort und lässt sich durch nichts erschüttern. Was sich durch nichts widerlegen lässt, ist keine starke Erklärung – es ist gar keine prüfbare Erklärung mehr.\n\nÜbrigens: **Echte Verschwörungen gibt es** – etwa geheime Preisabsprachen zwischen Firmen (das Kartell aus Modul 8) oder Vertuschungen im Sport. Aber echte Verschwörungen sind klein, konkret – und sie fliegen auf: durch Journalismus, Gerichte, Aussteiger. Verschwörungserzählungen behaupten dagegen riesige, jahrzehntelange Pläne mit Millionen Beteiligten, von denen nie jemand glaubwürdig auspackt."
+    },
+    {
+      "type": "image",
+      "title": "Anatomie einer Verschwörungserzählung",
+      "src": "/content/wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren/anatomie-verschwoerungserzaehlung.png",
+      "alt": "Beschriftetes Schema mit drei Bauteilen einer Verschwörungserzählung am historischen Beispiel der flachen Erde. In der Mitte ein dunkelblauer Kasten: die Erzählung «Die Erde ist eine Scheibe – und die Mächtigen verheimlichen es». Darum herum drei nummerierte Bauteile. Bauteil 1, blau: der geheime Plan – eine kleine, mächtige Gruppe steuert angeblich alles im Verborgenen; im Beispiel fälschen Raumfahrtbehörden angeblich seit Jahrzehnten alle Fotos. Bauteil 2, blau: nichts ist Zufall – alles wird als Teil des Plans gedeutet, Zufälle und Fehler kommen in der Erzählung nicht vor; im Beispiel gilt jede Ungereimtheit als Absicht. Bauteil 3, orange hervorgehoben: Widerlegung gilt als Beweis, die Immunisierung – jeder Gegenbeweis wird zur Bestätigung umgedeutet; im Beispiel heisst es zu Satellitenbildern: «Gefälscht – das zeigt nur, wie mächtig die Fälscher sind.» Unten ein grüner Kasten mit dem Kontrast: Eine prüfbare Theorie sagt, was sie widerlegen würde – die Verschwörungserzählung lässt sich durch nichts erschüttern. Merksatz darunter: Wer die Bauteile kennt, erkennt das Muster – egal, worum es geht.",
+      "caption": "Drei Bauteile, ein Muster: geheimer Plan, nichts ist Zufall, Immunisierung gegen Kritik – gezeigt am historischen Beispiel der flachen Erde.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Warum solche Erzählungen attraktiv sind",
+      "body": "Wenn Verschwörungserzählungen so leicht zu durchschauen sind – warum glauben ihnen dann Menschen? Nicht, weil diese Menschen dumm wären. Sondern weil die Erzählungen drei echte Bedürfnisse bedienen:\n\n1. **Einfache Erklärung für eine komplexe Welt:** Die Wirklichkeit ist oft kompliziert, widersprüchlich und voller Zufälle. Das ist anstrengend – und manchmal beängstigend. Eine Erzählung, in der alles einen geheimen Sinn hat und Schuldige benennt, wirkt da wie ein Sofa fürs Gehirn: bequem und übersichtlich.\n2. **Das Gefühl von Durchblick:** «Ich sehe, was die anderen nicht sehen – ich habe die Wahrheit erkannt.» Dieses Gefühl schmeichelt. Wer «aufgewacht» ist, fühlt sich klüger als die «schlafende» Mehrheit – dabei ist es die Erzählung, die dieses Gefühl gezielt verkauft.\n3. **Zugehörigkeit:** Wer an die Erzählung glaubt, gehört zu einer Gemeinschaft von «Wissenden», die zusammenhält und sich gegenseitig bestätigt. Das fühlt sich gut an – und macht den Ausstieg schwer: Wer zu zweifeln beginnt, riskiert nicht nur eine Überzeugung, sondern seine Gruppe.\n\nDazu kommt die Technik: Aus Modul 22 kennst du die Logik der Feeds – **Algorithmen zeigen bevorzugt, was starke Reaktionen auslöst**, und in der Filterblase sieht man vor allem, was das eigene Weltbild bestätigt. Genau davon handelt das Video: Wie ständige Wiederholung im Feed einer Erzählung den Anschein von Wahrheit verleiht – nach dem Motto: «Wenn ich es so oft sehe, muss ja etwas dran sein.»"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "K8mvkBeib6w",
+      "title": "Video: Filterblase und Verschwörungserzählungen",
+      "description": "Das Video (5:10) des öffentlich-rechtlichen Wissenschaftsformats Quarks (WDR) zeigt, wie Filterblasen anfällig für Verschwörungserzählungen machen. Achte beim Schauen auf zwei Leitfragen: (1) Wie sorgt die Filterblase dafür, dass eine Erzählung immer glaubwürdiger wirkt, obwohl keine neuen Belege dazukommen? (2) Welches der drei Bedürfnisse aus dem Modul – einfache Erklärung, Durchblick, Zugehörigkeit – wird durch die ständige Bestätigung im Feed besonders bedient?",
+      "transcript": "Das Video «So macht dich deine Filterblase anfällig für Verschwörungen» (Quarks, WDR, 5:10 Minuten) erklärt, warum sich Verschwörungserzählungen in sozialen Netzwerken so leicht verbreiten: Algorithmen zeigen Nutzerinnen und Nutzern bevorzugt Inhalte, die zu ihren bisherigen Interessen passen – so entsteht eine Filterblase, in der das eigene Weltbild ständig bestätigt wird. Durch die dauernde Wiederholung erhalten auch unbelegte Erzählungen einen Anschein von Wahrheit. Das Video zeigt die psychologischen Mechanismen dahinter und macht deutlich: Wer versteht, wie Feed und Filterblase funktionieren, kann bewusster damit umgehen – etwa indem er gezielt andere Quellen und Gegenpositionen sucht.",
+      "startSeconds": 0
+    },
+    {
+      "type": "text",
+      "title": "Drei Prüffragen – und ein kühler Kopf",
+      "body": "Gegen Verschwörungserzählungen brauchst du kein Spezialwissen – drei Prüffragen reichen erstaunlich weit. Wir wenden sie auf das zweite historische Beispiel an: die Behauptung, die Mondlandung von 1969 sei in einem Filmstudio inszeniert worden.\n\n1. **Wer müsste alles schweigen?** An den Apollo-Programmen arbeiteten rund 400 000 Menschen – Ingenieurinnen, Techniker, Zulieferer. Dazu verfolgte die Sowjetunion, der grosse Rivale im Wettlauf zum Mond, jede Funkübertragung mit eigenen Antennen. Hätte es die Fälschung gegeben, hätte ausgerechnet die Konkurrenz sie am lautesten enthüllt – nichts wäre für sie wertvoller gewesen. Je grösser die behauptete Verschwörung, desto unwahrscheinlicher wird das kollektive Schweigen über Jahrzehnte.\n2. **Was würde die These widerlegen können?** Frag das eine Anhängerin oder einen Anhänger direkt. Bei einer prüfbaren Aussage gibt es eine Antwort («Wenn X gemessen würde, wäre meine These falsch»). Bei der Verschwörungserzählung lautet die Antwort auf jeden Gegenbeweis: «gefälscht», «gekauft», «Teil des Plans». Wenn nichts – gar nichts – die These je widerlegen könnte, hast du es mit einer immunisierten Erzählung zu tun, nicht mit einer Erklärung.\n3. **Wem nützt die Erzählung?** Verschwörungsinhalte sind auch ein Geschäft: Kanäle leben von Klicks und Werbung, verkauft werden Bücher, Vorträge, Produkte. Und innerhalb der Gruppe bringt die Erzählung Status: Wer am «tiefsten blickt», steht am höchsten. Diese Frage entlarvt nicht jede Erzählung – aber sie erklärt, warum jemand ein Interesse daran haben kann, sie am Leben zu halten.\n\nDazu wirken die **drei Checks aus Modul 22** unverändert: Quelle prüfen, Bilder rückwärtssuchen, Zweitquellen suchen – eine Erzählung, die nur in einer abgeschotteten Blase kursiert, hat den wichtigsten Test schon nicht bestanden.\n\nZum Schluss das Wichtigste für den Alltag: Wenn jemand aus deinem Umfeld an so etwas glaubt, hilft **Spott am wenigsten** – er bestätigt das Gefühl, von «denen da» ausgelacht zu werden, und schweisst die Gruppe enger zusammen. Wirksamer sind ruhige, echte Fragen: die drei Prüffragen, gestellt ohne Triumph. Nicht jede Diskussion wird gewonnen – aber eine respektvolle Frage bleibt länger im Kopf als jede Belehrung."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Bauart und Prüffragen",
+      "intro": "Zeig, dass du die Bauteile und die Prüffragen beherrschst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Aus welchen drei Bauteilen besteht eine typische Verschwörungserzählung?",
+          "options": [
+            {
+              "text": "Behauptung, Begründung und Beispiel."
+            },
+            {
+              "text": "Quelle, Auswahl und Darstellung."
+            },
+            {
+              "text": "Geheimer Plan mächtiger Gruppen, nichts ist Zufall, Widerlegung gilt als Beweis.",
+              "correct": true
+            },
+            {
+              "text": "Ereignis, Konflikt und Kompromiss."
+            }
+          ],
+          "explanation": "Die drei Bauteile: Eine kleine mächtige Gruppe steuert angeblich alles im Verborgenen (geheimer Plan), jede Ungereimtheit wird als Absicht gedeutet (nichts ist Zufall), und jeder Gegenbeweis wird zur Bestätigung umgedeutet (Immunisierung). «Behauptung – Begründung – Beispiel» ist der Argument-Bauplan aus Modul 9, «Quelle – Auswahl – Darstellung» stammt aus dem Weg der Nachricht in Modul 22 – beides beschreibt etwas anderes."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "«Dass es keine Beweise gibt, zeigt doch nur, wie perfekt sie alles vertuschen!» – Welches Bauteil ist das?",
+          "options": [
+            {
+              "text": "Die Immunisierung: Selbst das Fehlen von Belegen wird zur Bestätigung umgedeutet – nichts kann die Erzählung mehr erschüttern.",
+              "correct": true
+            },
+            {
+              "text": "Eine ehrliche wissenschaftliche Schlussfolgerung."
+            },
+            {
+              "text": "Ein Beispiel für Framing aus Modul 22."
+            },
+            {
+              "text": "Der Beweis, dass die Vertuschung tatsächlich funktioniert."
+            }
+          ],
+          "explanation": "Das ist Immunisierung in Reinform: Sogar fehlende Beweise werden ins Weltbild eingebaut – als Beleg für die Macht der Verschwörer. Wissenschaftlich wäre das Gegenteil: Wer keine Belege findet, muss die These anzweifeln. Mit Framing (der Rahmung wahrer Tatsachen) hat das nichts zu tun – und als «Beweis» taugt die Abwesenheit von Beweisen schon gar nicht: Sie ist schlicht die Abwesenheit von Beweisen."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Woran erkennst du den Unterschied zwischen einer prüfbaren Theorie und einer Verschwörungserzählung?",
+          "options": [
+            {
+              "text": "Eine Theorie stammt immer von Fachleuten, eine Verschwörungserzählung nie."
+            },
+            {
+              "text": "Eine Theorie ist immer kompliziert, eine Verschwörungserzählung immer einfach."
+            },
+            {
+              "text": "Eine Theorie klingt langweilig, eine Verschwörungserzählung spannend."
+            },
+            {
+              "text": "Eine prüfbare Theorie sagt, welche Beobachtung sie widerlegen würde – die Verschwörungserzählung lässt sich durch nichts erschüttern.",
+              "correct": true
+            }
+          ],
+          "explanation": "Der Lackmustest ist die Widerlegbarkeit: Eine wissenschaftliche Theorie benennt, woran sie scheitern würde, und stellt sich der Prüfung. Die Verschwörungserzählung hat auf alles eine Antwort – genau das macht sie wertlos als Erklärung. Herkunft, Kompliziertheit oder Spannung sind dagegen keine verlässlichen Merkmale: Auch Fachleute können irren, gute Theorien können einfach sein, und die Wahrheit darf durchaus spannend klingen."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Warum wirken Verschwörungserzählungen auf viele Menschen anziehend?",
+          "options": [
+            {
+              "text": "Weil nur ungebildete Menschen auf sie hereinfallen."
+            },
+            {
+              "text": "Weil sie einfache Erklärungen, ein Gefühl von Durchblick und Zugehörigkeit zu einer Gruppe bieten.",
+              "correct": true
+            },
+            {
+              "text": "Weil sie in der Regel besser belegt sind als offizielle Erklärungen."
+            },
+            {
+              "text": "Weil Menschen sich grundsätzlich gerne fürchten."
+            }
+          ],
+          "explanation": "Die Erzählungen bedienen drei echte Bedürfnisse: Sie machen die komplizierte Welt scheinbar übersichtlich, sie schmeicheln mit dem Gefühl, mehr zu sehen als die anderen – und sie bieten eine Gemeinschaft von «Wissenden». Mit Bildung hat die Anfälligkeit wenig zu tun; kluge Menschen können ebenso hineingeraten, gerade weil die Mechanik psychologisch geschickt gebaut ist. Belegt sind die Erzählungen gerade nicht – und Angstlust erklärt höchstens einen kleinen Teil ihrer Anziehungskraft."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Wende die Prüffrage «Wer müsste alles schweigen?» auf die angeblich inszenierte Mondlandung an. Was ergibt sich?",
+          "options": [
+            {
+              "text": "Rund 400 000 Beteiligte und dazu die Sowjetunion als Rivale, der eine Fälschung liebend gern enthüllt hätte – ein solches Schweigen über Jahrzehnte ist extrem unglaubwürdig.",
+              "correct": true
+            },
+            {
+              "text": "Nur eine Handvoll Astronauten wusste Bescheid – Schweigen wäre leicht gewesen."
+            },
+            {
+              "text": "Die Frage lässt sich bei der Mondlandung nicht anwenden."
+            },
+            {
+              "text": "Das Schweigen beweist, dass alle Beteiligten bezahlt wurden."
+            }
+          ],
+          "explanation": "Genau das ist die Stärke der Prüffrage: An Apollo arbeiteten rund 400 000 Menschen, und die Sowjetunion verfolgte als Konkurrent im Wettlauf zum Mond jede Übertragung mit eigener Technik – nichts wäre für sie wertvoller gewesen als ein Fälschungsbeweis. Dass niemand je glaubwürdig auspackte und ausgerechnet der Rivale schwieg, macht die Inszenierungs-These extrem unglaubwürdig. Die Antwort «alle wurden bezahlt» wäre übrigens wieder das Bauteil Immunisierung."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Wozu dient die Prüffrage «Was würde die These widerlegen können?»",
+          "options": [
+            {
+              "text": "Sie soll das Gegenüber blossstellen und die Diskussion beenden."
+            },
+            {
+              "text": "Sie beweist, dass die These auf jeden Fall falsch ist."
+            },
+            {
+              "text": "Sie hilft, eine bessere Verschwörungserzählung zu bauen."
+            },
+            {
+              "text": "Sie testet, ob die Aussage überhaupt prüfbar ist: Wenn nichts sie je widerlegen könnte, ist sie immunisiert – keine Erklärung, sondern ein geschlossenes Weltbild.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die Frage prüft nicht den Inhalt, sondern die Bauart: Prüfbare Aussagen benennen, woran sie scheitern würden. Kommt als Antwort auf jeden denkbaren Gegenbeweis nur «gefälscht» oder «Teil des Plans», liegt Immunisierung vor – und damit keine Erklärung mehr. Falsch beweist die Frage nichts automatisch, und ein Werkzeug zum Blossstellen soll sie gerade nicht sein: Ruhig gestellt, regt sie zum Nachdenken an, statt die Fronten zu verhärten."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Was kann die Prüffrage «Wem nützt die Erzählung?» ans Licht bringen?",
+          "options": [
+            {
+              "text": "Dass alle, die Geld verdienen, automatisch lügen."
+            },
+            {
+              "text": "Dass hinter manchen Erzählungen handfeste Interessen stehen: Klicks, Verkäufe von Büchern und Produkten – und Status in der Gruppe der «Wissenden».",
+              "correct": true
+            },
+            {
+              "text": "Dass Erzählungen, mit denen niemand Geld verdient, immer wahr sind."
+            },
+            {
+              "text": "Wer der wahre geheime Drahtzieher hinter dem Weltgeschehen ist."
+            }
+          ],
+          "explanation": "Verschwörungsinhalte sind auch ein Geschäftsmodell: Kanäle leben von Klicks und Werbung, verkauft werden Bücher, Vorträge und Produkte – und wer in der Gruppe am «tiefsten blickt», gewinnt Ansehen. Das entlarvt nicht jede Erzählung, erklärt aber, warum manche sie eifrig am Leben halten. Umgekehrt gilt weder «Geld verdienen = lügen» noch «kostenlos = wahr». Und nach «wahren Drahtziehern» sucht die Frage gerade nicht – das wäre selbst Verschwörungsdenken."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Deine Kollegin glaubt neuerdings an eine Verschwörungserzählung. Was ist der wirksamste Umgang?",
+          "options": [
+            {
+              "text": "Sie vor der ganzen Klasse auslachen, bis sie es einsieht."
+            },
+            {
+              "text": "Ihr sofort den Kontakt entziehen – wer so etwas glaubt, ist verloren."
+            },
+            {
+              "text": "Ruhig und respektvoll echte Fragen stellen – etwa die drei Prüffragen – statt zu spotten oder zu belehren.",
+              "correct": true
+            },
+            {
+              "text": "So tun, als würdest du ihr glauben, damit kein Streit entsteht."
+            }
+          ],
+          "explanation": "Spott bestätigt genau das Drehbuch der Erzählung – «die anderen lachen uns aus» – und treibt tiefer in die Gruppe hinein. Kontaktabbruch nimmt der Person die wichtigste Brücke zurück, und geheucheltes Zustimmen bestärkt die Erzählung. Am meisten bewirken ruhige, ehrliche Fragen ohne Triumph: Wer müsste alles schweigen? Was könnte deine These widerlegen? Wem nützt sie? Nicht jede Diskussion wird gewonnen – aber eine respektvolle Frage arbeitet im Kopf weiter."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-bauteile",
+      "title": "Setze die Begriffe ein: Bauart und Prüffragen",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Eine Verschwörungserzählung behauptet einen geheimen {{1}} einer kleinen, mächtigen Gruppe. In der Erzählung ist nichts {{2}} – alles gilt als Absicht. Und jede {{3}} wird zur Bestätigung umgedeutet: Diese Abwehr von Kritik heisst {{4}}. Eine prüfbare {{5}} dagegen sagt selbst, welche Beobachtung sie widerlegen würde.\nAttraktiv sind die Erzählungen, weil sie eine {{6}} Erklärung für die komplizierte Welt bieten, das Gefühl von Durchblick schmeicheln lässt und die Gruppe {{7}} stiftet. Im Feed verstärkt die {{8}} den Effekt: Ständige Wiederholung verleiht den Anschein von Wahrheit.\nDagegen helfen die Prüffragen: Wer müsste alles {{9}}? Was könnte die These widerlegen? Wem {{10}} die Erzählung?",
+      "luecken": [
+        {
+          "antworten": [
+            "Plan"
+          ]
+        },
+        {
+          "antworten": [
+            "Zufall"
+          ]
+        },
+        {
+          "antworten": [
+            "Widerlegung"
+          ]
+        },
+        {
+          "antworten": [
+            "Immunisierung"
+          ]
+        },
+        {
+          "antworten": [
+            "Theorie"
+          ]
+        },
+        {
+          "antworten": [
+            "einfache"
+          ]
+        },
+        {
+          "antworten": [
+            "Zugehörigkeit"
+          ]
+        },
+        {
+          "antworten": [
+            "Filterblase"
+          ]
+        },
+        {
+          "antworten": [
+            "schweigen"
+          ]
+        },
+        {
+          "antworten": [
+            "nützt"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Dividende",
+        "Sonnencreme",
+        "Bushaltestelle"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-verschwoerung-eingabe",
+      "title": "Tippe die Begriffe ein: Die Prüffragen sitzen",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Wird jeder Gegenbeweis zur Bestätigung umgedeutet, nennt man das {{1}} gegen Kritik. An den Apollo-Programmen arbeiteten rund 400 000 Menschen – die Prüffrage dazu lautet: Wer müsste alles {{2}}? Eine prüfbare Theorie benennt, was sie {{3}} könnte. Verschwörungsinhalte sind oft auch ein Geschäft – die dritte Prüffrage lautet: Wem {{4}} die Erzählung? Und die Quellen-Checks aus Modul 22 wirken auch hier: Quelle prüfen, Bild-Rückwärtssuche, {{5}} suchen.",
+      "luecken": [
+        {
+          "antworten": [
+            "Immunisierung"
+          ]
+        },
+        {
+          "antworten": [
+            "schweigen"
+          ]
+        },
+        {
+          "antworten": [
+            "widerlegen"
+          ]
+        },
+        {
+          "antworten": [
+            "nützt",
+            "nuetzt"
+          ]
+        },
+        {
+          "antworten": [
+            "Zweitquelle",
+            "Zweitquellen",
+            "eine zweite Quelle"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-bauteile",
+      "title": "Zuordnen: Welches Bauteil steckt dahinter?",
+      "intro": "Alle Aussagen stammen aus den beiden historischen, widerlegten Beispielen (flache Erde, inszenierte Mondlandung). Ordne jede Aussage dem passenden Bauteil zu: **geheimer Plan**, **nichts ist Zufall** oder **Immunisierung**. Jedes Bauteil kommt genau dreimal vor.",
+      "modus": "wortbank",
+      "text": "«Die Raumfahrtbehörden fälschen seit Jahrzehnten alle Fotos aus dem All – gesteuert von ganz oben.» {{1}}\n«Dass auf einem Mondfoto die Flagge zu wehen scheint, kann kein Versehen sein – das wurde absichtlich so inszeniert.» {{2}}\n«Satellitenbilder als Gegenbeweis? Gefälscht – das zeigt nur, wie mächtig die Fälscher sind.» {{3}}\n«Eine kleine Elite hat sich weltweit abgesprochen, um die wahre Form der Erde zu verheimlichen.» {{4}}\n«Ausgerechnet in dem Jahr, in dem die Rakete startete, gab es Filmstudio-Fortschritte – so etwas passiert doch nicht einfach so.» {{5}}\n«Je weniger Beweise wir finden, desto klarer wird, wie professionell alles vertuscht ist.» {{6}}\n«Alle Piloten und Astronominnen der Welt sind eingeweiht und zum Schweigen verpflichtet.» {{7}}\n«Dass Experten unsere These widerlegen, beweist erst recht, dass sie dazugehören.» {{8}}\n«Zwei Länder waren im Wettlauf zum Mond Rivalen? Kein Zufall – das war von langer Hand geplant, um alle abzulenken.» {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "geheimer Plan"
+          ]
+        },
+        {
+          "antworten": [
+            "nichts ist Zufall"
+          ]
+        },
+        {
+          "antworten": [
+            "Immunisierung"
+          ]
+        },
+        {
+          "antworten": [
+            "geheimer Plan"
+          ]
+        },
+        {
+          "antworten": [
+            "nichts ist Zufall"
+          ]
+        },
+        {
+          "antworten": [
+            "Immunisierung"
+          ]
+        },
+        {
+          "antworten": [
+            "geheimer Plan"
+          ]
+        },
+        {
+          "antworten": [
+            "Immunisierung"
+          ]
+        },
+        {
+          "antworten": [
+            "nichts ist Zufall"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Das Muster erkennen – ohne die Inhalte zu füttern",
+      "tasks": [
+        {
+          "prompt": "Arbeite das Beispiel «inszenierte Mondlandung» vollständig durch: Wende alle drei Prüffragen an (Wer müsste alles schweigen? Was würde die These widerlegen können – und wie reagieren Anhänger typischerweise auf Gegenbeweise? Wem nützt die Erzählung?). Schreibe zu jeder Frage zwei, drei Sätze.",
+          "hint": "Die Fakten aus dem Modul reichen: 400 000 Beteiligte, die Sowjetunion als Rivale mit eigener Überwachungstechnik, die typische «Alles gefälscht»-Antwort – und das Geschäft mit Büchern, Filmen und Kanälen.",
+          "solution": "Beispiel: (1) Schweigen müssten rund 400 000 Beteiligte über mehr als 50 Jahre – und die Sowjetunion, die den Funkverkehr selbst mitverfolgte und einen Fälschungsbeweis im Wettlauf zum Mond sofort triumphierend veröffentlicht hätte. Dass ausgerechnet der Rivale nie etwas fand, wiegt schwer. (2) Widerlegen könnten die These etwa die von mehreren Ländern unabhängig vermessenen Rückstrahler auf dem Mond oder das von der Konkurrenz bestätigte Funksignal – doch Anhänger deuten jeden dieser Belege als Teil der Fälschung um: die typische Immunisierung. (3) Nützen kann die Erzählung denen, die mit Büchern, Filmen und Kanälen Geld verdienen – und allen, denen sie in ihrer Gruppe den Status des «Durchblickers» verschafft."
+        },
+        {
+          "prompt": "Bau-Werkstatt: Erfinde eine absichtlich absurde, harmlose Mini-Verschwörungserzählung aus dem Schulalltag (zum Beispiel: «Die Pausenglocke läutet absichtlich zu früh – gesteuert von einer geheimen Gruppe») und baue alle drei Bauteile ein: geheimer Plan, nichts ist Zufall, Immunisierung. Zerlege deine Erzählung danach selbst: Markiere die Bauteile und erkläre, warum deine Erzählung durch nichts zu widerlegen wäre – und warum genau das sie wertlos macht.",
+          "hint": "Wichtig: Dein Beispiel muss erkennbar absurd und harmlos sein – keine echten Personen, keine echten Gruppen, nichts Aktuelles. Der Lerneffekt entsteht beim Einbauen der Immunisierung: Überlege dir, wie deine Erzählung JEDEN Gegenbeweis wegerklärt.",
+          "solution": "Beispiel: «Die Pausenglocke läutet absichtlich 30 Sekunden zu früh – eine geheime Gruppe im Lehrerzimmer stiehlt uns so pro Jahr Stunden an Pause (geheimer Plan). Dass die Uhr im Gang anders geht als die Handy-Uhr? Kein Zufall – Ablenkung! (nichts ist Zufall). Und wenn der Hauswart die Glocke prüft und nichts findet, beweist das nur, dass er dazugehört (Immunisierung).» Die Zerlegung zeigt: Jede Prüfung – Uhrenvergleich, Messung, Aussage des Hauswarts – wird von der Erzählung selbst zum Beweis umgedeutet. Es gibt keine Beobachtung, die sie widerlegen könnte. Genau daran erkennt man: Das ist keine Erklärung, sondern ein geschlossenes Denksystem – bei der Pausenglocke zum Lachen, nach demselben Bauplan aber auch bei ernsten Themen im Umlauf."
+        },
+        {
+          "prompt": "Erkläre einer Person aus deinem Umfeld in zwei Minuten, warum die Erzählung von der flachen Erde durch nichts zu widerlegen ist – und warum genau das ihr grösster Schwachpunkt ist. Verwende die Begriffe «Immunisierung» und «prüfbare Theorie». Notiere anschliessend, welche Rückfrage kam und wie du geantwortet hast.",
+          "hint": "Der Kern in einem Satz: Eine Erklärung, die auf alles eine Antwort hat, erklärt in Wahrheit nichts – weil sie sich jeder Prüfung entzieht.",
+          "solution": "Möglicher Kurzvortrag: «Wer an die flache Erde glaubt, hat auf jeden Gegenbeweis eine Antwort: Fotos gefälscht, Physik erfunden, alle eingeweiht. Das nennt man Immunisierung – die Erzählung ist so gebaut, dass nichts sie je erschüttern kann. Eine prüfbare Theorie macht das Gegenteil: Sie sagt selbst, welche Beobachtung sie widerlegen würde, und stellt sich dieser Prüfung. Klingt eine Erzählung also unbesiegbar, ist das kein Zeichen von Stärke, sondern ihr grösster Schwachpunkt: Sie hat sich aus dem Bereich der prüfbaren Aussagen verabschiedet.» Typische Rückfrage: «Aber könnte nicht trotzdem etwas dran sein?» – Mögliche Antwort: «Möglich ist vieles – aber eine Aussage, die sich grundsätzlich nicht prüfen lässt, gibt uns keinen Grund, sie zu glauben. Und bei der Erdform gibt es zehntausende unabhängige, prüfbare Belege – vom Schiffsmast am Horizont bis zur Zeitverschiebung.»"
+        }
+      ]
+    }
+  ]
+}
