@@ -51,10 +51,10 @@
     {
       "type": "video",
       "title": "Der Video-Block",
-      "provider": "youtube",
-      "videoId": "jNQXAC9IVRw",
-      "description": "Videos werden erst nach einem Klick geladen (Datenschutz). Dieses Platzhalter-Video ist das älteste Video auf YouTube – in echten Modulen steht hier ein kuratiertes Erklärvideo.",
-      "transcript": "Ein Mann steht vor dem Elefantengehege eines Zoos und erklärt, dass Elefanten beeindruckend lange Rüssel haben. Das Feld `transcript` liefert eine **Textalternative** zum Video – wichtig für Barrierefreiheit und wenn das Video nicht verfügbar ist."
+      "provider": "url",
+      "url": "/content/demo-blockformat/video-block-demo.mp4",
+      "description": "Videos liegen entweder bei EveryCate selbst (wie dieses hier – die Datei steht im Modulordner) oder kommen von YouTube bzw. Vimeo; Fremdvideos werden erst nach einem Klick geladen (Datenschutz).",
+      "transcript": "Ein kurzes Standbild-Video zeigt den Schriftzug «EveryCate – Der Video-Block» mit dem Hinweis, dass das Video bei EveryCate selbst liegt; ein Balken läuft als Fortschrittsanzeige durch. Das Feld `transcript` liefert eine **Textalternative** zum Video – wichtig für Barrierefreiheit und wenn das Video nicht verfügbar ist."
     },
     {
       "type": "tasks",
@@ -79,11 +79,28 @@
       "modus": "wortbank",
       "text": "Ein Modul ist eine einzige Datei namens {{1}}. Neue Module reichst du als {{2}} ein, und Bilder liegen im selben {{3}} wie das Modul.",
       "luecken": [
-        { "antworten": ["module.json"] },
-        { "antworten": ["Pull Request", "Pull-Request"] },
-        { "antworten": ["Ordner", "Modulordner"] }
+        {
+          "antworten": [
+            "module.json"
+          ]
+        },
+        {
+          "antworten": [
+            "Pull Request",
+            "Pull-Request"
+          ]
+        },
+        {
+          "antworten": [
+            "Ordner",
+            "Modulordner"
+          ]
+        }
       ],
-      "ablenker": ["Datenbank", "E-Mail"]
+      "ablenker": [
+        "Datenbank",
+        "E-Mail"
+      ]
     },
     {
       "type": "lueckentext",
@@ -93,7 +110,11 @@
       "modus": "eingabe",
       "text": "Der Modus mit freien Textfeldern pro Lücke heisst {{1}} – ob du das gross, klein oder mit Leerzeichen am Rand tippst, ist egal.",
       "luecken": [
-        { "antworten": ["Eingabe"] }
+        {
+          "antworten": [
+            "Eingabe"
+          ]
+        }
       ]
     },
     {

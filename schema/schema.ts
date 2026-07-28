@@ -35,11 +35,35 @@ import { z } from "zod";
  *   sortiert danach statt nach Dateinamen) und `einheit` (Themengruppe,
  *   wenn mehrere Module eine Reihe bilden; der Katalog fasst Module mit
  *   identischem Wert sichtbar zusammen).
+ * - 2, additive Ergänzung (28.7.2026, KEIN Versionswechsel): Video-Blöcke
+ *   mit `provider: "url"` dürfen statt einer absoluten Adresse auch eine
+ *   Datei aus dem eigenen Modulordner nennen
+ *   ("/content/<modul>/<datei>.mp4"). Bisher gültige Dateien bleiben
+ *   unverändert gültig; ob die Plattform diese Quelle freigibt,
+ *   entscheidet weiterhin ihre Medien-Whitelist.
  */
 export const SCHEMA_VERSION = 2;
 
 /** String, in dem Markdown erlaubt ist (GitHub Flavored Markdown). */
 const markdown = z.string().min(1);
+
+/**
+ * Moduleigene Video-Datei: derselbe Ort wie die Bilder eines Moduls
+ * ("/content/<modul>/<datei>"), Endung .mp4 oder .webm. Bewusst ohne
+ * "..", ohne Query und ohne Fragment – der Pfad soll genau auf eine
+ * Datei im Modulordner zeigen.
+ */
+export const VIDEO_DATEI_MUSTER =
+  /^\/content\/[a-z0-9][a-z0-9-]*\/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:mp4|webm)$/;
+
+/** Absolute https-Adresse (fremde Quelle – Freigabe entscheidet die App). */
+function istHttpsUrl(wert: string): boolean {
+  try {
+    return new URL(wert).protocol === "https:";
+  } catch {
+    return false;
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Metadaten
@@ -105,8 +129,14 @@ export const videoBlockSchema = z
     provider: z.enum(["youtube", "vimeo", "url"]).default("youtube"),
     /** Für youtube/vimeo: die Video-ID (nicht die ganze URL). */
     videoId: z.string().optional(),
-    /** Für provider "url": direkte Video-Datei-URL (mp4/webm). */
-    url: z.string().url().optional(),
+    /**
+     * Für provider "url": die Video-Datei. Zwei Formen sind zulässig –
+     * eine absolute https-URL ODER ein moduleigener Pfad
+     * "/content/<modul>/<datei>.mp4|webm" (Datei liegt im Modulordner,
+     * wie die Bilder). WELCHE davon tatsächlich erlaubt ist, entscheidet
+     * die Plattform (Medien-Whitelist); dieses Schema prüft nur die Form.
+     */
+    url: z.string().optional(),
     description: z.string().optional(),
     /** Startzeitpunkt in Sekunden. */
     startSeconds: z.number().int().nonnegative().optional(),
@@ -123,7 +153,18 @@ export const videoBlockSchema = z
         ctx.addIssue({
           code: "custom",
           path: ["url"],
-          message: 'Video-Block: provider "url" braucht eine Video-Datei-URL in "url".',
+          message: 'Video-Block: provider "url" braucht eine Video-Datei in "url".',
+        });
+        return;
+      }
+      if (!VIDEO_DATEI_MUSTER.test(v.url) && !istHttpsUrl(v.url)) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["url"],
+          message:
+            'Video-Block: "url" muss eine https-Adresse sein oder ein ' +
+            'moduleigener Pfad der Form "/content/<modul>/<datei>.mp4" ' +
+            "(auch .webm).",
         });
       }
       return;

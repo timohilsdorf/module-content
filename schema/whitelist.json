@@ -2,6 +2,8 @@
   "_hinweis": "Whitelist für die Content-Validierung (schema/validate.ts). Pull Requests dürfen nur verwenden, was hier gelistet ist. Erweiterungen laufen bewusst als eigener, reviewter PR an dieser Datei.",
   "videoProviders": ["youtube", "vimeo"],
   "videoUrlHosts": [],
+  "videoExtensions": [".mp4", ".webm"],
+  "maxVideoSizeKB": 8192,
   "imageHosts": ["upload.wikimedia.org"],
   "imageExtensions": [".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif"],
   "maxImageSizeKB": 4096,

@@ -166,8 +166,15 @@ unterliegen denselben Regeln wie `image`-Blöcke; Referenz-Stil
 
 - `provider`: `"youtube"` (Standard) oder `"vimeo"` – die erlaubten
   Provider stehen in [`schema/whitelist.json`](schema/whitelist.json).
-  Direkte Video-Datei-URLs (`provider: "url"`) sind nur zulässig, wenn der
-  Host dort unter `videoUrlHosts` freigegeben ist (derzeit keiner).
+- **Eigenes Video im Modulordner** (seit 28.7.2026): `provider: "url"`
+  zusammen mit `"url": "/content/<modul-id>/<datei>.mp4"` – die Datei
+  liegt dann neben der `module.json`, genau wie die Bilder (erlaubt sind
+  `.mp4` und `.webm`, höchstens 8 MB, siehe `videoExtensions` und
+  `maxVideoSizeKB` in der Whitelist). Der Player spielt sie ohne
+  Fremdanbieter direkt ab – kein Klick-zum-Laden nötig, weil keine
+  Verbindung nach aussen entsteht. `videoId` entfällt dabei.
+  Video-Dateien von FREMDEN Servern bleiben gesperrt (`videoUrlHosts`
+  ist leer).
 - Bei `youtube`/`vimeo` nur die **Video-ID**, nicht die ganze URL
   (YouTube: 6–20 Zeichen aus `A–Z a–z 0–9 _ -`, üblich sind 11;
   Vimeo: 6–12 Ziffern). Die Validierung weist ganze URLs zurück.
