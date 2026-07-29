@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-21-autoritaere-systeme-heute",
+  "title": "Autoritäre Systeme heute",
+  "description": "Was passiert, wenn das Aushandeln abgeschafft wird? Im einundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die Merkmale autoritärer Herrschaft kennen – keine freien Wahlen, keine unabhängigen Gerichte und Medien, unterdrückte Opposition – und erfährst, wie digitale Instrumente wie Überwachung, Internetzensur und Sozialkreditsysteme diese Kontrolle verstärken. Am dokumentierten Fallbeispiel China siehst du, wie das konkret aussieht – sachlich und faktenbasiert.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 21,
+  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "autoritäres System",
+    "Diktatur",
+    "freie Wahlen",
+    "unabhängige Gerichte",
+    "Pressefreiheit",
+    "Opposition",
+    "Überwachung",
+    "Internetzensur",
+    "Sozialkreditsystem",
+    "Propaganda",
+    "China",
+    "Menschenrechte"
+  ],
+  "learningObjectives": [
+    "Ich kann Merkmale autoritärer Herrschaft benennen: keine freien Wahlen, keine unabhängigen Gerichte und Medien, Unterdrückung der Opposition.",
+    "Ich kann digitale Kontrollinstrumente beschreiben: flächendeckende Überwachung, Internetzensur, Sozialkreditsysteme und staatliche Propaganda.",
+    "Ich kann das dokumentierte Fallbeispiel China beschreiben: Sozialkredit-Pilotprojekte und Internetkontrolle – sachlich und faktenbasiert.",
+    "Ich kann den Kontrast zu Modul 20 ziehen und erkenne im Alltag der Menschen, was Demokratie von autoritärer Herrschaft unterscheidet."
+  ],
+  "competencies": [
+    {
+      "code": "RZG.8.1",
+      "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+      "code": "RZG.8.2",
+      "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "tagesschau (ARD) – China: Überwachungsstaat oder Zukunftslabor?",
+      "url": "https://www.tagesschau.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-20-demokratie-als-prinzip"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Wenn das Aushandeln abgeschafft wird",
+      "body": "In Modul 20 hast du die drei Bausteine der Demokratie kennengelernt: Die Betroffenen entscheiden selbst, Herrschaft gilt auf Zeit, die Macht wechselt ohne Gewalt. Jetzt drehen wir das Bild um: Was, wenn eine Regierung genau das verhindert?\n\nEin **autoritäres System** ist eine Herrschaftsform, in der eine Person oder eine kleine Gruppe die Macht besitzt – und sie nicht mehr hergeben will. Damit das funktioniert, werden die demokratischen Kontrollen der Reihe nach ausgeschaltet. Vier Merkmale kehren dabei immer wieder:\n\n1. **Keine freien Wahlen.** Wahlen finden oft trotzdem statt – aber als Fassade: Gegenkandidaten werden nicht zugelassen, Ergebnisse stehen faktisch im Voraus fest, unabhängige Wahlbeobachtung fehlt. «Herrschaft auf Zeit» gibt es nicht; die Führung bleibt, solange sie will.\n2. **Keine unabhängigen Gerichte.** Richterinnen und Richter entscheiden nicht mehr frei nach dem Gesetz, sondern nach den Wünschen der Führung. Wer angeklagt wird, hat kaum eine faire Chance – und gegen den Staat gewinnt vor Gericht praktisch niemand.\n3. **Keine unabhängigen Medien.** Zeitungen, Sender und grosse Online-Plattformen werden kontrolliert, kritische Redaktionen geschlossen oder übernommen. Was die Bevölkerung erfährt, bestimmt die Führung.\n4. **Unterdrückung der Opposition.** Wer sich organisiert, um die Regierung auf legalem Weg abzulösen, riskiert Verbote, Verhaftung oder Schlimmeres. Kritik wird eingeschüchtert statt ausgehalten.\n\nDu erkennst das Muster: Jedes dieser Merkmale schaltet genau eine der Kontrollen aus, die in Modul 20 den Kern der Demokratie ausmachten. Die Grafik stellt beide Systeme entlang von fünf Kriterien einander gegenüber."
+    },
+    {
+      "type": "image",
+      "title": "Demokratie und autoritäres System im Vergleich",
+      "src": "/content/wirtschaft-politik-21-autoritaere-systeme-heute/demokratie-autoritaer-vergleich.png",
+      "alt": "Vergleichstabelle als Schaubild mit fünf Kriterien in Zeilen und zwei Spalten. Spalte links, blau: Demokratie. Spalte rechts, orange: autoritäres System. Kriterium Wahlen: In der Demokratie frei und fair, Herrschaft auf Zeit, Machtwechsel möglich; im autoritären System ohne echte Auswahl, das Ergebnis steht faktisch fest, die Führung bleibt. Kriterium Gerichte: In der Demokratie unabhängig, sie entscheiden auch gegen die Regierung; im autoritären System weisungsgebunden, gegen den Staat gewinnt praktisch niemand. Kriterium Medien: In der Demokratie vielfältig und frei, sie decken Skandale auf; im autoritären System gelenkt und zensiert, Kritik wird gelöscht. Kriterium Opposition: In der Demokratie erlaubt und geschützt, sie kann die nächste Wahl gewinnen; im autoritären System behindert, verboten oder verfolgt. Kriterium Überwachung: In der Demokratie begrenzt durch Grundrechte und Gerichte; im autoritären System flächendeckend als Mittel der Kontrolle, etwa mit Kameras, Gesichtserkennung und Internetzensur. Unter der Tabelle steht der Merksatz: Der Unterschied zeigt sich im Alltag – wer kritisieren darf, ohne Angst zu haben, lebt in einer Demokratie.",
+      "caption": "Fünf Kriterien, zwei Systeme: Wahlen, Gerichte, Medien, Opposition und Überwachung zeigen den Unterschied zwischen Demokratie und autoritärer Herrschaft.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Kontrolle im digitalen Zeitalter",
+      "body": "Autoritäre Herrschaft ist alt – neu sind die digitalen Werkzeuge, die sie wirksamer machen als je zuvor. Vier Instrumente solltest du kennen:\n\n- **Flächendeckende Überwachung:** Kameras mit Gesichtserkennung an Strassen, Bahnhöfen und Plätzen können erfassen, wer sich wo aufhält und mit wem. Dazu kommen ausgewertete Handy- und Bezahldaten. Überwachung gibt es in jedem Staat – der Unterschied liegt im Mass und in der Kontrolle: In Demokratien begrenzen Grundrechte und Gerichte, was der Staat darf; in autoritären Systemen fehlt diese Bremse.\n- **Internetzensur:** Der Zugang zum Internet wird gefiltert – ausländische Nachrichtenseiten und Plattformen werden gesperrt, Suchergebnisse bereinigt, kritische Beiträge gelöscht, teils innert Minuten. Wer nur die gefilterte Version sieht, hält sie irgendwann für das ganze Bild.\n- **Sozialkreditsysteme:** Punktesysteme, die das Verhalten von Menschen oder Firmen bewerten – wer sich «richtig» verhält, bekommt Vorteile (etwa Vergünstigungen oder schnellere Bewilligungen), wer negativ auffällt, wird eingeschränkt (etwa beim Kauf von Flug- oder Zugtickets). So wird erwünschtes Verhalten belohnt und unerwünschtes bestraft – die Kontrolle wandert in den Alltag.\n- **Staatliche Propaganda:** Gelenkte Nachrichten, allgegenwärtige Erfolgsmeldungen und bezahlte Kommentar-Schreiber, die Diskussionen in sozialen Netzwerken fluten. Ziel ist nicht nur, Kritik zu unterdrücken – sondern das Bild zu prägen, das die Menschen von ihrem Land und der Welt haben.\n\nWichtig: Keines dieser Werkzeuge ist für sich allein der Beweis für ein autoritäres System – auch Demokratien überwachen Kriminalität oder löschen strafbare Inhalte. Entscheidend ist die **Kombination**: Überwachung ohne unabhängige Gerichte, Zensur ohne freie Medien, Bewertung ohne Widerspruchsmöglichkeit."
+    },
+    {
+      "type": "text",
+      "title": "Fallbeispiel China: dokumentiert und beschreibend",
+      "body": "Wie das konkret aussieht, zeigt das dokumentierte Beispiel der Volksrepublik China – des bevölkerungsreichsten autoritären Staates der Gegenwart. Regiert wird das Land von einer einzigen Partei; freie landesweite Wahlen, unabhängige Gerichte und freie Medien gibt es nicht.\n\n**Internetkontrolle:** Chinas Internet ist durch ein aufwendiges Filtersystem vom Rest der Welt getrennt – oft «Grosse Firewall» genannt. Viele internationale Plattformen und Nachrichtenseiten sind gesperrt; einheimische Dienste übernehmen ihre Funktionen, sind aber zur Zusammenarbeit mit den Behörden verpflichtet. Suchbegriffe zu heiklen Themen werden gefiltert, kritische Beiträge gelöscht, die Verfasser teils zur «Teerunde» bei der Polizei vorgeladen.\n\n**Sozialkredit-Pilotprojekte:** Seit 2014 baut China an einem «Sozialkreditsystem». Ein einheitliches Punktesystem für alle Bürgerinnen und Bürger existiert bisher nicht – dokumentiert sind aber **Pilotprojekte einzelner Städte** (bekannt wurde etwa Rongcheng), in denen Punkte für erwünschtes Verhalten vergeben und für unerwünschtes abgezogen wurden, sowie landesweite **schwarze Listen**: Wer etwa Schulden trotz Gerichtsurteil nicht bezahlt, kann keine Flugtickets und keine Schnellzug-Billette mehr kaufen. Millionen solcher Ticketsperren sind belegt.\n\n**Überwachung:** China gehört zu den Ländern mit den meisten Überwachungskameras der Welt; Gesichtserkennung ist im Alltag verbreitet – vom Bezahlen bis zur Einlasskontrolle. In der Region Xinjiang dokumentieren Berichte internationaler Organisationen eine besonders engmaschige Überwachung der uigurischen Minderheit.\n\n**Und die Menschen?** Hier ist Sorgfalt gefragt: Viele Chinesinnen und Chinesen leben ihren Alltag wie Menschen überall – sie arbeiten, gründen Familien, nutzen begeistert digitale Dienste. Umfragen zeigen sogar, dass manche die Bewertungssysteme positiv sehen, etwa weil sie sich mehr Sicherheit oder ehrlicheres Geschäftsverhalten erhoffen. Es geht in diesem Modul also **nicht um «die Chinesen»** – es geht um die Merkmale eines **Systems**, das seiner Bevölkerung Kontrollmöglichkeiten vorenthält, die du in Modul 20 als Kern der Demokratie kennengelernt hast."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "2bKnozolklo",
+      "title": "Video: Social Scoring – Chinas Bewertungssystem",
+      "description": "Der Ausschnitt (4:53) aus der ARD-Dokumentation «China: Überwachungsstaat oder Zukunftslabor?» (tagesschau) zeigt, wie Bewertungssysteme in China konkret funktionieren. Achte beim Schauen auf zwei Leitfragen: (1) Welche Belohnungen und welche Einschränkungen werden im Beitrag konkret gezeigt – und über welche Technik läuft die Überwachung? (2) Der Beitrag erwähnt, dass viele Befragte das System positiv sehen: Wie passt das zu dem, was du über fehlende freie Medien und Zensur gelernt hast?",
+      "transcript": "Der Beitrag des öffentlich-rechtlichen Kanals tagesschau (ARD, 4:53 Minuten) stammt aus der Dokumentation «China: Überwachungsstaat oder Zukunftslabor?» und beschreibt Chinas Social-Scoring-Ansätze: In Pilotprojekten erhalten Bürgerinnen und Bürger Punkte für regelkonformes Verhalten und profitieren von Vorteilen wie Vergünstigungen; wer negativ auffällt, muss mit Einschränkungen rechnen. Gezeigt wird, wie Algorithmen Menschen per Gesichts-, Sprach- und Gangerkennung identifizieren und Verhalten auswerten. Der Beitrag lässt auch Stimmen aus China zu Wort kommen: Laut Umfragen bewerten viele Befragte die Systeme positiv, etwa aus Hoffnung auf mehr Sicherheit und Ehrlichkeit. Der Beitrag ordnet dies kritisch ein: Die Bewertung erfolgt nach Massstäben des Staates, ohne unabhängige Kontrolle.",
+      "startSeconds": 0
+    },
+    {
+      "type": "text",
+      "title": "Der Kontrast im Alltag: vier Testfragen",
+      "body": "Verfassungen und Gesetzestexte können täuschen – fast jedes autoritäre System nennt sich selbst demokratisch. Zuverlässiger ist der Blick auf den **Alltag der Menschen**. Vier Testfragen machen den Unterschied sichtbar:\n\n1. **Kann ich die Regierung öffentlich kritisieren – ohne Angst vor Nachteilen?** In einer Demokratie ist Kritik ein geschütztes Recht, auch wenn sie unbequem ist. Im autoritären System kann ein kritischer Beitrag den Job, die Reisefreiheit oder die Freiheit kosten.\n2. **Können Medien Skandale aufdecken – auch über die Mächtigen?** Demokratien halten es aus, wenn Recherchen eine Regierung in Bedrängnis bringen. In autoritären Systemen erscheinen solche Geschichten gar nicht erst – oder die Redaktion verschwindet.\n3. **Kann ein Gericht gegen den Staat entscheiden – und passiert das auch?** In Demokratien verlieren Regierungen regelmässig Prozesse und halten sich an die Urteile. In autoritären Systemen sind Gerichte ein Werkzeug der Führung.\n4. **Kann die Opposition die nächste Wahl gewinnen – und würde die Macht dann friedlich übergeben?** Das ist der härteste Test: der Machtwechsel ohne Gewalt aus Modul 20. Wo er unvorstellbar ist, ist die Demokratie nur Fassade.\n\nZwei ehrliche Ergänzungen gehören dazu: **Erstens** sind die Übergänge fliessend – auch in Demokratien geraten Grundrechte immer wieder unter Druck und müssen verteidigt werden; wachsam bleiben gehört zur Demokratie dazu. **Zweitens** sagt das System nichts über die Menschen aus: Der Wunsch nach Sicherheit, Wohlstand und einem guten Leben ist überall derselbe. Der Unterschied liegt darin, welche Mittel die Menschen haben, wenn sie mit ihrer Regierung nicht einverstanden sind."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Autoritäre Systeme erkennen",
+      "intro": "Zeig, dass du die Merkmale autoritärer Herrschaft und das Fallbeispiel verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Welche vier Merkmale kennzeichnen ein autoritäres System?",
+          "options": [
+            {
+              "text": "Keine freien Wahlen, keine unabhängigen Gerichte, keine unabhängigen Medien, Unterdrückung der Opposition.",
+              "correct": true
+            },
+            {
+              "text": "Hohe Steuern, viele Gesetze, strenge Schulen, teure Mieten."
+            },
+            {
+              "text": "Ein Parlament, eine Regierung, Gerichte und Medien."
+            },
+            {
+              "text": "Wahlen alle vier Jahre, mehrere Parteien, freie Presse, unabhängige Richter."
+            }
+          ],
+          "explanation": "Autoritäre Herrschaft schaltet die demokratischen Kontrollen aus: Wahlen ohne echte Auswahl, Gerichte nach Weisung, gelenkte Medien und eine verfolgte Opposition. Parlament, Regierung, Gerichte und Medien existieren zwar in fast jedem Staat – entscheidend ist, ob sie unabhängig sind. Die letzte Option beschreibt gerade die Demokratie, und Steuern, Gesetze, Schulen oder Mieten sagen über die Herrschaftsform nichts aus."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "In autoritären Systemen finden oft trotzdem Wahlen statt. Warum gelten sie nicht als frei?",
+          "options": [
+            {
+              "text": "Weil zu wenige Menschen teilnehmen."
+            },
+            {
+              "text": "Weil Wahlen grundsätzlich nur in kleinen Ländern funktionieren."
+            },
+            {
+              "text": "Weil echte Gegenkandidaten fehlen, das Ergebnis faktisch feststeht und unabhängige Beobachtung fehlt – die Wahl ist eine Fassade.",
+              "correct": true
+            },
+            {
+              "text": "Weil das Abstimmen dort zu kompliziert ist."
+            }
+          ],
+          "explanation": "Die Wahl-Fassade ist typisch: Es wird gewählt, aber ohne echte Auswahl – Gegenkandidaten werden nicht zugelassen oder ausgeschaltet, das Ergebnis steht praktisch fest, niemand darf unabhängig kontrollieren. Mit der Teilnehmerzahl, der Landesgrösse oder der Kompliziertheit hat das nichts zu tun: Frei ist eine Wahl erst, wenn die Macht dadurch tatsächlich wechseln kann."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Was bedeutet es, wenn Gerichte nicht unabhängig sind?",
+          "options": [
+            {
+              "text": "Die Gerichte sind schlecht organisiert und arbeiten langsam."
+            },
+            {
+              "text": "Es gibt gar keine Gerichte und keine Prozesse mehr."
+            },
+            {
+              "text": "Die Richterinnen und Richter werden schlecht bezahlt."
+            },
+            {
+              "text": "Richterinnen und Richter entscheiden nach den Wünschen der Führung statt frei nach dem Gesetz – gegen den Staat gewinnt praktisch niemand.",
+              "correct": true
+            }
+          ],
+          "explanation": "Abhängige Gerichte existieren und verhandeln durchaus – aber das Urteil richtet sich nach dem Willen der Mächtigen, nicht nach dem Gesetz. Der Alltagstest aus dem Modul: Kann ein Gericht gegen den Staat entscheiden – und passiert das auch? In Demokratien verlieren Regierungen regelmässig Prozesse und akzeptieren das. Mit Tempo, Organisation oder Besoldung hat Unabhängigkeit nichts zu tun."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Was ist ein Sozialkreditsystem?",
+          "options": [
+            {
+              "text": "Ein Bankkredit für Menschen mit kleinem Einkommen."
+            },
+            {
+              "text": "Ein Punktesystem, das Verhalten bewertet: Erwünschtes wird belohnt, Unerwünschtes mit Einschränkungen bestraft.",
+              "correct": true
+            },
+            {
+              "text": "Ein Bonusprogramm von Onlineshops für treue Kundschaft."
+            },
+            {
+              "text": "Eine Versicherung, die soziale Härtefälle absichert."
+            }
+          ],
+          "explanation": "Ein Sozialkreditsystem bewertet das Verhalten von Menschen oder Firmen mit Punkten: Wer sich aus Sicht des Staates «richtig» verhält, erhält Vorteile – wer negativ auffällt, wird eingeschränkt, etwa beim Ticketkauf. So wandert die Kontrolle in den Alltag. Mit einem Bankkredit (Modul 12) oder einer Versicherung (Modul 11) hat das trotz des Namens nichts zu tun – und anders als beim freiwilligen Bonusprogramm kann man sich staatlicher Bewertung nicht entziehen."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Welche Aussage zum dokumentierten Stand des chinesischen Sozialkreditsystems ist korrekt?",
+          "options": [
+            {
+              "text": "Jede Bürgerin und jeder Bürger Chinas hat seit 2014 einen einheitlichen, landesweiten Punktestand."
+            },
+            {
+              "text": "Das System wurde nach Protesten vollständig abgeschafft."
+            },
+            {
+              "text": "Es gab Pilotprojekte einzelner Städte und landesweite schwarze Listen – etwa Ticketsperren für Menschen, die Schulden trotz Gerichtsurteil nicht bezahlen.",
+              "correct": true
+            },
+            {
+              "text": "Das System existiert nur als Gerücht westlicher Medien."
+            }
+          ],
+          "explanation": "Genau hinschauen lohnt sich: Ein einheitlicher Punktestand für alle existiert bisher nicht – das wird oft ungenau berichtet. Dokumentiert sind Pilotprojekte einzelner Städte (etwa Rongcheng) und landesweite schwarze Listen mit Millionen belegter Flug- und Zugticket-Sperren für säumige Schuldner. Abgeschafft ist das Vorhaben nicht, und ein blosses Gerücht ist es auch nicht – die Belege stammen aus offiziellen chinesischen Dokumenten und internationalen Recherchen."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Was beschreibt der Begriff «Grosse Firewall»?",
+          "options": [
+            {
+              "text": "Chinas Filtersystem, das den Zugang zum Internet kontrolliert: Ausländische Plattformen werden gesperrt, Suchbegriffe gefiltert, kritische Beiträge gelöscht.",
+              "correct": true
+            },
+            {
+              "text": "Eine Brandschutzmauer um chinesische Regierungsgebäude."
+            },
+            {
+              "text": "Ein Antivirenprogramm, das private Computer vor Hackern schützt."
+            },
+            {
+              "text": "Die Verschlüsselung von Bezahl-Apps beim Online-Einkauf."
+            }
+          ],
+          "explanation": "Die «Grosse Firewall» – der Name spielt auf die Grosse Mauer an – trennt Chinas Internet vom Rest der Welt: Viele internationale Plattformen und Nachrichtenseiten sind unerreichbar, einheimische Dienste sind zur Zusammenarbeit mit den Behörden verpflichtet, heikle Suchbegriffe und Beiträge werden gefiltert und gelöscht. Mit Brandschutz, Antivirensoftware oder Bezahl-Verschlüsselung hat der Begriff nichts zu tun – es geht um Informationskontrolle."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "«Es geht um Systeme, nicht um Menschen.» Welcher Schluss ist richtig?",
+          "options": [
+            {
+              "text": "Die Bevölkerung autoritärer Staaten ist selbst schuld an ihrer Regierung."
+            },
+            {
+              "text": "Menschen in autoritären Staaten leben ihren Alltag wie Menschen überall – beurteilt werden die Merkmale des Systems, nicht die Bevölkerung.",
+              "correct": true
+            },
+            {
+              "text": "Wer in einem autoritären Staat lebt, kann kein glückliches Leben führen."
+            },
+            {
+              "text": "Über autoritäre Staaten darf man keine kritischen Fakten berichten."
+            }
+          ],
+          "explanation": "Der Massstab dieses Moduls richtet sich auf das System: fehlende freie Wahlen, abhängige Gerichte, gelenkte Medien, verfolgte Opposition. Die Menschen dort arbeiten, gründen Familien und wünschen sich Sicherheit und Wohlstand – wie überall; manche sehen einzelne Massnahmen sogar positiv. «Selbst schuld» ist darum ebenso falsch wie die Behauptung, dort sei kein gutes Leben möglich. Und kritische Fakten zu berichten ist kein Widerspruch dazu – sachlich beschreiben heisst nicht schweigen."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Mit welcher Alltagsfrage prüfst du am zuverlässigsten, ob ein Staat demokratisch ist?",
+          "options": [
+            {
+              "text": "Steht das Wort «demokratisch» im Namen oder in der Verfassung des Landes?"
+            },
+            {
+              "text": "Gibt es in dem Land Wahlen?"
+            },
+            {
+              "text": "Ist das Land wirtschaftlich erfolgreich und technisch modern?"
+            },
+            {
+              "text": "Kann die Opposition die nächste Wahl gewinnen – und würde die Macht dann friedlich übergeben?",
+              "correct": true
+            }
+          ],
+          "explanation": "Der härteste Test ist der Machtwechsel: Wo die Opposition realistisch gewinnen kann und die Macht dann friedlich übergeben würde, funktioniert Demokratie. Der Name täuscht oft – gerade autoritäre Staaten schmücken sich gern mit dem Wort «demokratisch». Wahlen allein beweisen nichts, solange sie Fassade sind. Und Wohlstand oder Technik sagen nichts über die Herrschaftsform: Auch autoritäre Staaten können wirtschaftlich erfolgreich sein – das Fallbeispiel China zeigt es."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-autoritaer-merkmale",
+      "title": "Setze die Begriffe ein: Merkmale und Werkzeuge",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "In einem autoritären System besitzt eine Person oder kleine Gruppe die {{1}} – und gibt sie freiwillig nicht mehr her. Wahlen sind oft nur eine {{2}}: Das Ergebnis steht faktisch fest. Die Gerichte entscheiden nicht unabhängig, sondern nach den Wünschen der {{3}}, und die Medien werden gelenkt und {{4}}. Wer sich organisiert, um die Regierung abzulösen, gehört zur {{5}} – und riskiert Verbote oder Verhaftung.\nDigitale Werkzeuge verstärken die Kontrolle: Kameras mit {{6}} erfassen, wer sich wo aufhält. Die Internetzensur sperrt Plattformen und löscht kritische {{7}}. Sozialkreditsysteme vergeben {{8}} für erwünschtes Verhalten – in China belegt durch Pilotprojekte einzelner Städte und schwarze {{9}} mit Ticketsperren. Staatliche {{10}} soll schliesslich das Bild prägen, das die Menschen von ihrem Land haben.",
+      "luecken": [
+        {
+          "antworten": [
+            "Macht"
+          ]
+        },
+        {
+          "antworten": [
+            "Fassade"
+          ]
+        },
+        {
+          "antworten": [
+            "Führung"
+          ]
+        },
+        {
+          "antworten": [
+            "zensiert"
+          ]
+        },
+        {
+          "antworten": [
+            "Opposition"
+          ]
+        },
+        {
+          "antworten": [
+            "Gesichtserkennung"
+          ]
+        },
+        {
+          "antworten": [
+            "Beiträge"
+          ]
+        },
+        {
+          "antworten": [
+            "Punkte"
+          ]
+        },
+        {
+          "antworten": [
+            "Listen"
+          ]
+        },
+        {
+          "antworten": [
+            "Propaganda"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Dividende",
+        "Landkarte",
+        "Sonnenbrille"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-autoritaer-eingabe",
+      "title": "Tippe die Begriffe ein: Der Kontrast sitzt",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "In einer Demokratie gilt Herrschaft auf {{1}} – in autoritären Systemen bleibt die Führung, solange sie will. Das Filtersystem, das Chinas Internet vom Rest der Welt trennt, wird «Grosse {{2}}» genannt. Wer die Regierung ablösen will, bildet die {{3}} – in autoritären Systemen wird sie unterdrückt. Gelenkte Nachrichten und Erfolgsmeldungen des Staates nennt man {{4}}. Der zuverlässigste Demokratie-Test ist die Frage, ob die Macht ohne {{5}} wechseln kann.",
+      "luecken": [
+        {
+          "antworten": [
+            "Zeit"
+          ]
+        },
+        {
+          "antworten": [
+            "Firewall"
+          ]
+        },
+        {
+          "antworten": [
+            "Opposition",
+            "Gegenpartei"
+          ]
+        },
+        {
+          "antworten": [
+            "Propaganda",
+            "Staatspropaganda"
+          ]
+        },
+        {
+          "antworten": [
+            "Gewalt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-systeme",
+      "title": "Zuordnen: Demokratie oder autoritäres System?",
+      "intro": "Ordne jede Beschreibung dem passenden System zu: **Demokratie** oder **autoritäres System**. Jedes System kommt genau viermal vor.",
+      "modus": "wortbank",
+      "text": "Eine Zeitung deckt einen Skandal in der Regierung auf – und erscheint am nächsten Tag trotzdem. {{1}}\nDie Führung bleibt im Amt, solange sie will – Wahlen ändern daran faktisch nichts. {{2}}\nEin Gericht stoppt ein Vorhaben der Regierung, und die Regierung hält sich an das Urteil. {{3}}\nKritische Beiträge im Internet werden gelöscht, ausländische Nachrichtenseiten sind gesperrt. {{4}}\nDie Opposition organisiert sich offen und kann die nächste Wahl gewinnen. {{5}}\nWer die Regierung öffentlich kritisiert, riskiert Verhaftung oder den Verlust der Arbeitsstelle. {{6}}\nNach der verlorenen Wahl übergibt die Regierung die Macht friedlich an die Siegerseite. {{7}}\nEin Punktesystem bewertet das Verhalten der Menschen – wer negativ auffällt, darf keine Zugtickets mehr kaufen. {{8}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Demokratie"
+          ]
+        },
+        {
+          "antworten": [
+            "autoritäres System"
+          ]
+        },
+        {
+          "antworten": [
+            "Demokratie"
+          ]
+        },
+        {
+          "antworten": [
+            "autoritäres System"
+          ]
+        },
+        {
+          "antworten": [
+            "Demokratie"
+          ]
+        },
+        {
+          "antworten": [
+            "autoritäres System"
+          ]
+        },
+        {
+          "antworten": [
+            "Demokratie"
+          ]
+        },
+        {
+          "antworten": [
+            "autoritäres System"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Systeme vergleichen – sachlich bleiben",
+      "tasks": [
+        {
+          "prompt": "Wende die vier Alltagstest-Fragen aus dem Modul auf das Fallbeispiel China an: Beantworte jede der vier Fragen (Kritik ohne Angst? Medien decken auf? Gerichte gegen den Staat? Machtwechsel möglich?) mit den Fakten aus dem Modul – in je einem, zwei Sätzen, sachlich und ohne Übertreibung.",
+          "hint": "Bleib bei dem, was im Modul belegt ist: Ein-Parteien-Herrschaft, Grosse Firewall, gelenkte Medien, Pilotprojekte und schwarze Listen. Sachlich heisst: beschreiben, was dokumentiert ist – nicht dramatisieren und nicht verharmlosen.",
+          "solution": "Beispielantwort: (1) Kritik ohne Angst? Nein – kritische Beiträge werden gelöscht, Verfasser können vorgeladen werden. (2) Medien decken auf? Nein – Medien und Plattformen sind zur Zusammenarbeit mit den Behörden verpflichtet; Recherchen gegen die Führung erscheinen nicht. (3) Gerichte gegen den Staat? Praktisch nicht – die Gerichte sind nicht unabhängig von der Partei. (4) Machtwechsel möglich? Nein – es regiert eine einzige Partei, freie landesweite Wahlen gibt es nicht. Wichtig ist der sachliche Ton: Alle vier Antworten beschreiben dokumentierte Systemmerkmale, keine Behauptungen über die Menschen."
+        },
+        {
+          "prompt": "Ein Kollege sagt: «Dieses Punktesystem klingt eigentlich praktisch – wer sich anständig verhält, hat ja nichts zu befürchten.» Schreibe eine Antwort in vier, fünf Sätzen. Nimm den Gedanken ernst (nenne einen nachvollziehbaren Vorteil, den auch Umfragen in China zeigen) – und erkläre dann mit dem Begriff der fehlenden Kontrolle, wo das Problem liegt.",
+          "hint": "Denk an den Schluss des Textes «Kontrolle im digitalen Zeitalter»: Entscheidend ist die Kombination – Bewertung ohne unabhängige Gerichte und ohne Widerspruchsmöglichkeit. Wer legt fest, was «anständig» ist – und was passiert, wenn sich diese Definition ändert?",
+          "solution": "Beispielantwort: «Ich verstehe den Gedanken – mehr Sicherheit und ehrlicheres Verhalten wünschen sich viele, und Umfragen zeigen, dass manche Menschen in China die Systeme genau deshalb positiv sehen. Das Problem liegt woanders: Die Massstäbe legt allein der Staat fest, und es gibt keine unabhängigen Gerichte, bei denen du dich gegen eine falsche oder unfaire Bewertung wehren könntest. Was heute als anständig gilt, kann morgen politisch definiert werden – etwa Kritik an der Regierung als Fehlverhalten. Ohne unabhängige Kontrolle wird aus einem Anreizsystem ein Machtinstrument. In einer Demokratie dürfte ein solches System nicht ohne Grundrechtsschutz, Gerichte und Widerspruchsmöglichkeiten existieren.»"
+        },
+        {
+          "prompt": "Erstelle selbst eine Quizfrage zu diesem Modul (mit vier Antwortmöglichkeiten, einer richtigen und einer kurzen Erklärung) – und achte darauf, dass deine Distraktoren typische Denkfehler aufgreifen, zum Beispiel: «Wahlen = Demokratie» oder «modern und erfolgreich = demokratisch».",
+          "hint": "Gute Distraktoren sind Aussagen, die auf den ersten Blick plausibel klingen. Die beiden genannten Denkfehler aus dem Modul sind ein guter Start – ein dritter wäre: «Die Menschen dort sind eben anders als wir.»",
+          "solution": "Beispiel: Frage: «Ein Land hat Wahlen, Hochhäuser und schnelles Internet. Was fehlt noch für eine Demokratie?» – (a) Nichts, Wahlen genügen. (b) Mehr Wohlstand. (c) Dass die Wahlen echte Auswahl bieten, Gerichte und Medien unabhängig sind und die Opposition gewinnen könnte. [richtig] (d) Ein moderneres Punktesystem für gutes Verhalten. Erklärung: Wahlen allein können Fassade sein, Wohlstand und Technik sagen nichts über die Herrschaftsform – und ein staatliches Bewertungssystem ist eher ein Kontrollinstrument als ein Zeichen von Demokratie. Beim Erstellen merkt man schnell: Die Distraktoren schreiben sich fast von selbst, wenn man die typischen Denkfehler kennt."
+        }
+      ]
+    }
+  ]
+}
