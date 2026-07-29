@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-26-wirtschaftspolitik-standort",
+  "title": "Wirtschaftspolitik und Standort",
+  "description": "Warum hat ein Land mit gut 41'000 Einwohnerinnen und Einwohnern über 46'000 Arbeitsplätze? Im sechsundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die vier Ziele und drei Werkzeuge der Wirtschaftspolitik kennen, prüfst mit den Standortfaktoren, warum sich Unternehmen dort ansiedeln, wo sie sind, liest das Fallbeispiel Liechtenstein – und denkst einen echten Zielkonflikt zwischen Konsumentenschutz und Standortattraktivität durch.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 26,
+  "einheit": "Themenblock E: Politik & Wirtschaft",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Wirtschaftspolitik",
+    "Wohlstand",
+    "Arbeitsplätze",
+    "fairer Wettbewerb",
+    "Kartellverbot",
+    "Konsumentenschutz",
+    "Förderung",
+    "Infrastruktur",
+    "Standortfaktoren",
+    "Fachkräfte",
+    "Marktzugang",
+    "EWR",
+    "Liechtenstein",
+    "Zielkonflikt"
+  ],
+  "learningObjectives": [
+    "Ich kann die vier grossen Ziele der Wirtschaftspolitik nennen: Wohlstand, Arbeitsplätze, Stabilität und fairer Wettbewerb.",
+    "Ich kann die drei Werkzeuge der Wirtschaftspolitik an Beispielen unterscheiden: Regeln setzen, fördern und bereitstellen.",
+    "Ich kann mit den Standortfaktoren erklären, warum sich ein Unternehmen an einem bestimmten Ort ansiedelt – von Fachkräften über Steuern bis zum Marktzugang.",
+    "Ich kann am Fallbeispiel Liechtenstein sachlich beschreiben, warum ein Kleinstland mehr Arbeitsplätze als Einwohnerinnen und Einwohner hat.",
+    "Ich kann einen Zielkonflikt der Wirtschaftspolitik durchdenken: Mehr Schutz durch Regeln kann Standortattraktivität kosten – und umgekehrt."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Statistikportal Liechtenstein – Beschäftigung",
+      "url": "https://www.statistikportal.li/de/themen/arbeit-und-erwerb/beschaeftigung"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-05-wirtschaftssektoren-strukturwandel",
+    "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
+    "wirtschaft-politik-25-staat-steuern-sozialstaat"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Was will Wirtschaftspolitik?",
+      "body": "«Die Regierung will den Werkplatz stärken.» – «Das Parlament debattiert über ein Förderprogramm.» Sätze wie diese hörst du in jeder Nachrichtensendung. Dahinter steckt **Wirtschaftspolitik**: alle Massnahmen, mit denen der Staat die Wirtschaft gestaltet und beeinflusst.\n\nAus Modul 25 kennst du die drei Grundaufgaben des Staates – bereitstellen, Regeln setzen, absichern. Die Wirtschaftspolitik beantwortet die Anschlussfrage: **Wofür setzt der Staat diese Möglichkeiten ein?** Vier grosse Ziele tauchen dabei immer wieder auf:\n\n1. **Wohlstand:** Möglichst viele Menschen sollen gut leben können – mit genügend Einkommen für mehr als das Nötigste.\n2. **Arbeitsplätze:** Wer arbeiten will, soll Arbeit finden. Aus Modul 5 weisst du, dass der Strukturwandel laufend Stellen verschwinden und neue entstehen lässt – Wirtschaftspolitik will diesen Wandel begleiten statt erleiden.\n3. **Stabilität:** Haushalte und Firmen sollen planen können. Verlässliche Regeln und möglichst sanft abgefederte Krisen gehören dazu.\n4. **Fairer Wettbewerb:** Aus Modul 8 kennst du die Gefahr von Absprachen und übermächtigen Monopolen – Wettbewerb funktioniert nur mit Spielregeln.\n\nKlingt alles selbstverständlich? Der Streit beginnt beim **Wie**: Wie viel soll der Staat eingreifen, wie viel dem Markt überlassen? Genau darüber wird in der Politik gerungen – und dafür braucht sie Werkzeuge."
+    },
+    {
+      "type": "text",
+      "title": "Drei Werkzeuge: regeln, fördern, bereitstellen",
+      "body": "Egal welches Ziel – am Ende greift die Wirtschaftspolitik in einen Werkzeugkasten mit drei Fächern:\n\n- **Regeln setzen:** Der Staat schreibt vor, was erlaubt ist und was nicht. Beispiele: das **Kartellverbot** (Firmen dürfen keine Preise absprechen – Modul 8), der **Konsumentenschutz** (Preise müssen angeschrieben sein, gefährliche Produkte werden vom Markt genommen) oder der Jugendarbeitsschutz (wer unter 18 ist, darf nicht beliebig lange arbeiten). Regeln kosten den Staat wenig Geld – dafür die Unternehmen Aufwand.\n- **Fördern:** Der Staat gibt gezielt Geld oder Vergünstigungen, damit mehr von etwas Erwünschtem entsteht. Beispiele: **Bildung** (kostenlose Schulen, Berufslehre, Stipendien), **Forschung** (Beiträge an Labore und Projekte) oder Starthilfen für junge Firmen.\n- **Bereitstellen:** Der Staat baut und betreibt, was alle brauchen – die **Infrastruktur**: Strassen, Stromnetz, Wasserleitungen, schnelles Internet. Ohne sie läuft kein Betrieb.\n\nFördern und Bereitstellen kosten Geld – und damit sind wir wieder beim **Staatsbudget aus Modul 25**: Hinter jedem Förderprogramm und jeder Strasse steht ein Budgetposten, über den politisch entschieden wird.\n\nMerk dir: Die Werkzeuge sind kein Selbstzweck. Hinter jedem Einsatz steckt eines der vier Ziele – und oft die Hoffnung, dass der eigene Ort für Unternehmen attraktiv bleibt. Womit wir bei der Frage wären, die das nächste Video stellt: **Warum ist ein Unternehmen eigentlich genau dort, wo es ist?**"
+    },
+    {
+      "type": "video",
+      "title": "Video: Standortfaktoren einfach erklärt",
+      "provider": "youtube",
+      "videoId": "vxcqepay9pw",
+      "description": "Das Erklärvideo (4:05) des Wirtschaftskunde-Kanals wirtconomy erklärt und veranschaulicht Standortfaktoren mit Beispielen. Achte beim Schauen auf zwei Leitfragen: (1) Welche Standortfaktoren aus dem Video findest du in der Grafik dieses Moduls wieder – und welche nennt das Video zusätzlich? (2) Das Video unterscheidet harte und weiche Standortfaktoren: Worin liegt der Unterschied, und je ein Beispiel?",
+      "startSeconds": 0,
+      "transcript": "Das Erklärvideo «Standortfaktoren einfach erklärt» (wirtconomy, 4:05 Minuten) erklärt, was Standortfaktoren sind: Eigenschaften eines Ortes, die für ein Unternehmen bei der Wahl seines Standorts eine Rolle spielen. Das Video unterscheidet harte Standortfaktoren, die sich messen und in Zahlen fassen lassen – etwa Verkehrsanbindung, Steuern und Abgaben, Lohnkosten, Energie- und Rohstoffversorgung, verfügbare Fachkräfte oder die Nähe zu Absatzmärkten –, von weichen Standortfaktoren, die sich kaum messen lassen, aber trotzdem mitentscheiden: das Image einer Region, die Lebensqualität, Kultur- und Freizeitangebote für die Mitarbeitenden. Anhand von Beispielen zeigt das Video, dass verschiedene Unternehmen dieselben Faktoren unterschiedlich gewichten – je nachdem, was sie herstellen und wen sie beliefern."
+    },
+    {
+      "type": "image",
+      "title": "Sechs Fragen der Standortwahl",
+      "src": "/content/wirtschaft-politik-26-wirtschaftspolitik-standort/standort-schema.png",
+      "alt": "Schaubild mit einem stilisierten Unternehmen in der Mitte, dargestellt als blauer Kasten mit Fabrikdach und Kamin und der Beschriftung: Unternehmen sucht den Standort, an dem alles zusammenpasst. Rundherum zeigen sechs dunkelblaue Kästen mit Pfeilen zum Unternehmen die Standortfaktoren, jeweils als Frage formuliert: Fachkräfte – Finden wir gut ausgebildete Leute? Steuern und Abgaben – Wie viel bleibt vom Gewinn übrig? Infrastruktur – Strassen, Strom, schnelles Internet? Marktzugang – Erreichen wir Kundschaft im Ausland? Politische Stabilität – Gelten Regeln verlässlich und lange? Behörden und Verfahren – Kommen Bewilligungen rasch und klar? Unten stehen zwei Merksätze: Harte Faktoren lassen sich messen, zum Beispiel Steuern und Infrastruktur, weiche kaum, zum Beispiel Image und Lebensqualität. Und: Kein Standort bietet alles – die Wahl ist immer eine Abwägung.",
+      "caption": "Sechs Standortfaktoren als Fragen an einen möglichen Standort – kein Ort beantwortet alle perfekt, darum ist jede Standortwahl eine Abwägung.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Die Standortwahl: eine Abwägung",
+      "body": "Spielen wir es durch – mit der erfundenen **Alpentec AG**, die Messgeräte herstellt und ein neues Werk mit 40 Arbeitsplätzen plant. Die Geschäftsleitung geht die sechs Fragen aus der Grafik durch:\n\n- **Fachkräfte:** Gibt es am Ort Elektronikerinnen, Polymechaniker, Ingenieurinnen – oder eine Schule, die sie ausbildet?\n- **Steuern und Abgaben:** Wie viel vom Gewinn bleibt übrig, um neue Maschinen zu kaufen?\n- **Infrastruktur:** Kommen Lastwagen gut zum Werk? Ist das Stromnetz stabil, das Internet schnell?\n- **Marktzugang:** Alpentec verkauft vor allem ins Ausland – kommen die Produkte ohne grosse Hürden zur Kundschaft?\n- **Politische Stabilität:** Kann sich Alpentec darauf verlassen, dass Regeln und Verhältnisse in zehn Jahren noch ähnlich sind?\n- **Behörden und Verfahren:** Wie lange dauert die Baubewilligung – Monate oder Jahre?\n\nAus dem Video kennst du zusätzlich die Unterscheidung: **Harte Faktoren** wie Steuern oder Verkehrsanbindung lassen sich messen und vergleichen. **Weiche Faktoren** wie das Image einer Region oder die Lebensqualität kaum – und trotzdem entscheiden sie mit, denn auch die Familien der Mitarbeitenden wollen gerne dort leben.\n\nDie Pointe: **Kein Standort bietet alles.** Ein Ort hat die Fachhochschule, der andere die tieferen Steuern, der dritte den Autobahnanschluss. Je nach Branche zählt anderes – eine Softwarefirma braucht vor allem Fachkräfte und Internet, eine Spedition Strassen und Lagerflächen. Standortwahl heisst gewichten und abwägen. Und genau deshalb betreiben Staaten Wirtschaftspolitik: Sie versuchen, bei möglichst vielen dieser Fragen eine gute Antwort zu bieten."
+    },
+    {
+      "type": "text",
+      "title": "Fallbeispiel Liechtenstein: mehr Arbeitsplätze als Einwohner",
+      "body": "Wie stark Standortfaktoren wirken, zeigt ein Blick auf Liechtenstein – **rein beschreibend**, als Erklärstück:\n\nEnde 2024 zählte das Land rund **41'400 Einwohnerinnen und Einwohner** – aber rund **46'400 Arbeitsplätze** (Voll- und Teilzeitstellen zusammengezählt). Es gibt also **mehr Stellen als Menschen im Land**. Möglich ist das, weil deutlich mehr als die Hälfte der Beschäftigten täglich zur Arbeit einpendelt, vor allem aus der Schweiz und aus Österreich. Für ein Land dieser Grösse ist das eine aussergewöhnliche Dichte an Unternehmen und Jobs – von Weltkonzernen der Industrie bis zu vielen kleinen Betrieben (den starken Industriesektor kennst du aus Modul 5).\n\nMit den Standortfaktoren aus diesem Modul lässt sich das nüchtern erklären:\n\n- **Politische Stabilität:** Die Verhältnisse sind seit Jahrzehnten ruhig und berechenbar, Regeln ändern nicht sprunghaft.\n- **Steuern:** Unternehmen zahlen im internationalen Vergleich moderate Steuern auf ihren Gewinn.\n- **Marktzugang:** Seit 1995 ist Liechtenstein Mitglied des **EWR** (Europäischer Wirtschaftsraum) – Firmen erreichen damit die Kundschaft im europäischen Binnenmarkt. Merk dir den EWR vorerst einfach als Stichwort für Marktzugang; wie Europa wirtschaftlich zusammenarbeitet, schaust du dir in einem späteren Modul dieses Themenblocks genauer an.\n- **Kurze Behördenwege:** In einem kleinen Land sind Ämter nah und Ansprechpersonen schnell gefunden – Verfahren dauern oft weniger lang als anderswo.\n\nZur nüchternen Beschreibung gehört auch die **Kehrseite der Kleinheit**: Das Land ist stark auf das Ausland angewiesen – auf die einpendelnden Fachkräfte ebenso wie auf offene Grenzen und die Kauflaune der Kundschaft in anderen Ländern. Läuft die Wirtschaft der Nachbarschaft schlecht, spürt Liechtenstein das sofort. Ein Standort-Vorteil ist keine Garantie, sondern eine Momentaufnahme im Wettbewerb der Standorte."
+    },
+    {
+      "type": "text",
+      "title": "Der Zielkonflikt: Schutz oder Standortattraktivität?",
+      "body": "Zum Schluss ein Denkwerkzeug, das du in jeder wirtschaftspolitischen Debatte brauchst: der **Zielkonflikt**. Gemeint ist: Zwei Ziele sind beide berechtigt – aber wer das eine stärker verfolgt, schwächt das andere.\n\nEin fiktives Beispiel: Das erfundene Land **Bergland** diskutiert eine strenge Prüfpflicht für alle Elektrogeräte, bevor sie verkauft werden dürfen.\n\n- **Dafür spricht:** Weniger defekte Geräte, weniger Unfälle – der Konsumentenschutz wird gestärkt. Das Ziel «Schutz der Schwächeren» aus Modul 25 lässt grüssen.\n- **Dagegen spricht:** Jede Prüfung kostet die Hersteller Zeit und Geld. Kleine Firmen trifft das härter als grosse. Einige Betriebe rechnen nach, ob ein Standort mit weniger Auflagen günstiger wäre – die **Standortattraktivität** sinkt, und mit ihr stehen Arbeitsplätze auf dem Spiel.\n\nWichtig: Der Konflikt funktioniert **in beide Richtungen**. Wer alle Regeln streicht, macht den Standort kurzfristig attraktiv – aber dann zahlen Konsumentinnen und Konsumenten den Preis über unsichere Produkte, und das Vertrauen in den Markt leidet. Zu wenig Schutz kann einen Standort langfristig genauso schwächen wie zu viel Bürokratie.\n\nZwischen «alles verbieten» und «alles erlauben» liegt deshalb der eigentliche politische Streit: **Wo genau setzen wir die Grenze?** Es gibt auch Zwischenwege – Übergangsfristen, einfachere Verfahren für Kleinstfirmen oder international einheitliche Normen, damit nicht jedes Land eigene Prüfungen verlangt. Wie man eine solche Abwägung fair debattiert, weisst du aus den Modulen 9 und 24: mit Argumenten nach dem Bauplan – nicht mit Schlagworten."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Wirtschaftspolitik und Standortfaktoren",
+      "intro": "Ziele, Werkzeuge, Standortfaktoren und der Zielkonflikt – zeig, was sitzt. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Welche vier grossen Ziele verfolgt die Wirtschaftspolitik?",
+          "options": [
+            {
+              "text": "Hohe Steuern, viele Vorschriften, grosse Ämter und volle Staatskassen."
+            },
+            {
+              "text": "Wohlstand, Arbeitsplätze, Stabilität und fairer Wettbewerb.",
+              "correct": true
+            },
+            {
+              "text": "Möglichst hohe Gewinne für die grössten Unternehmen des Landes."
+            },
+            {
+              "text": "Möglichst tiefe Preise, egal mit welchen Folgen für Löhne und Qualität."
+            }
+          ],
+          "explanation": "Die vier Ziele lauten Wohlstand, Arbeitsplätze, Stabilität und fairer Wettbewerb. Steuern, Vorschriften und Ämter sind keine Ziele, sondern höchstens Mittel – und volle Staatskassen sind Folge guter Wirtschaftslage, nicht ihr Zweck. Gewinne einzelner Grossfirmen zu maximieren ist ebenfalls kein Staatsziel; es ginge sogar gegen den fairen Wettbewerb. Und Tiefstpreise um jeden Preis widersprechen dem Ziel Wohlstand, wenn dafür Löhne und Qualität einbrechen."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Das erfundene Land Bergland zahlt Beiträge an ein Forschungslabor für neue Batterietechnik. Welches Werkzeug der Wirtschaftspolitik ist das?",
+          "options": [
+            {
+              "text": "Regeln setzen – das Labor muss sich an Vorschriften halten."
+            },
+            {
+              "text": "Bereitstellen – Forschung ist Infrastruktur wie eine Strasse."
+            },
+            {
+              "text": "Absichern – die Beiträge sind eine Versicherung für Forschende."
+            },
+            {
+              "text": "Fördern – der Staat gibt gezielt Geld, damit mehr Forschung entsteht.",
+              "correct": true
+            }
+          ],
+          "explanation": "Gezielte Geldbeiträge, damit mehr von etwas Erwünschtem entsteht, sind Förderung. Regeln setzen wäre es, wenn der Staat der Forschung etwas vorschreiben oder verbieten würde. Bereitstellen meint Infrastruktur, die der Staat selbst baut und betreibt – hier forscht aber das Labor, der Staat zahlt nur mit. Und mit der Absicherung gegen Lebensrisiken (Sozialstaat, Modul 25) haben Forschungsbeiträge nichts zu tun."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Das Kartellverbot – Firmen dürfen keine Preisabsprachen treffen – gehört zu welchem Werkzeug?",
+          "options": [
+            {
+              "text": "Regeln setzen: Der Staat schreibt vor, was im Wettbewerb erlaubt ist.",
+              "correct": true
+            },
+            {
+              "text": "Fördern: Der Staat belohnt Firmen, die keine Absprachen treffen."
+            },
+            {
+              "text": "Bereitstellen: Der Staat betreibt die Preisvergleichs-Plattformen selbst."
+            },
+            {
+              "text": "Keines – Preisabsprachen sind Privatsache der Unternehmen."
+            }
+          ],
+          "explanation": "Ein Verbot ist eine Regel: Der Staat legt fest, was erlaubt ist, und setzt das notfalls mit Bussen durch. Gefördert (mit Geld belohnt) wird dabei niemand, und bereitgestellt wird auch nichts. «Privatsache» ist die typische Fehlvorstellung: Gerade weil Absprachen den fairen Wettbewerb aushebeln und am Ende alle zu viel bezahlen (Modul 8), greift der Staat hier mit Regeln ein."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Was ist ein Standortfaktor?",
+          "options": [
+            {
+              "text": "Eine Steuer, die Unternehmen für ihren Standort bezahlen müssen."
+            },
+            {
+              "text": "Die Anzahl der Filialen, die ein Unternehmen betreibt."
+            },
+            {
+              "text": "Eine Eigenschaft eines Ortes, die für oder gegen die Ansiedlung eines Unternehmens spricht – etwa Fachkräfte, Steuern oder Verkehrsanbindung.",
+              "correct": true
+            },
+            {
+              "text": "Ein Gütesiegel, das der Staat besonders schönen Gemeinden verleiht."
+            }
+          ],
+          "explanation": "Standortfaktoren sind Eigenschaften eines Ortes aus Sicht eines Unternehmens: Findet es Fachkräfte? Wie hoch sind Steuern und Abgaben? Stimmen Infrastruktur, Marktzugang, Stabilität, Behördenwege? Eine einzelne Steuer ist höchstens einer dieser Faktoren, die Filialzahl beschreibt das Unternehmen statt den Ort – und ein Gütesiegel für schöne Gemeinden gibt es in dieser Form nicht."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Liechtenstein hat mehr Arbeitsplätze als Einwohnerinnen und Einwohner. Wie ist das möglich?",
+          "options": [
+            {
+              "text": "Weil dort auch Kinder und Pensionierte arbeiten müssen."
+            },
+            {
+              "text": "Weil die Statistik auch Arbeitsplätze liechtensteinischer Firmen im Ausland mitzählt."
+            },
+            {
+              "text": "Weil das ein Schätzfehler ist – mehr Arbeitsplätze als Einwohner sind unmöglich."
+            },
+            {
+              "text": "Weil deutlich mehr als die Hälfte der Beschäftigten täglich aus dem Ausland einpendelt, vor allem aus der Schweiz und aus Österreich.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die Stellen im Land werden zu einem grossen Teil von Menschen besetzt, die gar nicht dort wohnen: Sie pendeln jeden Tag über die Grenze zur Arbeit ein. So kann es mehr Arbeitsplätze als Einwohner geben – kein Rechenfehler, sondern gelebter Alltag in der Grenzregion. Kinder und Pensionierte arbeiten selbstverständlich nicht, und gezählt werden die Stellen im Land selbst, nicht Auslandsfilialen."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Im Fallbeispiel taucht der EWR auf. Wofür steht er in diesem Modul?",
+          "options": [
+            {
+              "text": "Für Marktzugang: Liechtensteiner Firmen erreichen darüber die Kundschaft im europäischen Binnenmarkt.",
+              "correct": true
+            },
+            {
+              "text": "Für die gemeinsame Währung, die Liechtenstein mit der EU teilt."
+            },
+            {
+              "text": "Dafür, dass Liechtenstein Mitglied der EU ist."
+            },
+            {
+              "text": "Für ein Abkommen, das Zupendlern die Einreise verbietet."
+            }
+          ],
+          "explanation": "Der EWR steht hier als Stichwort für den Standortfaktor Marktzugang: Produkte aus Liechtenstein erreichen die Kundschaft im europäischen Binnenmarkt. EU-Mitglied ist Liechtenstein nicht, und eine gemeinsame Währung mit der EU gibt es nicht – bezahlt wird mit dem Franken (Modul 10). Mit Einreiseverboten hat der EWR erst recht nichts zu tun – er steht für offene Märkte. Wie die wirtschaftliche Zusammenarbeit in Europa genau funktioniert, vertiefst du in einem späteren Modul dieses Themenblocks."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Was unterscheidet harte von weichen Standortfaktoren?",
+          "options": [
+            {
+              "text": "Harte Faktoren betreffen die Industrie, weiche nur Banken."
+            },
+            {
+              "text": "Harte Faktoren sind wichtig, weiche Faktoren spielen keine Rolle."
+            },
+            {
+              "text": "Harte Faktoren lassen sich messen und vergleichen (z. B. Steuern, Verkehrsanbindung), weiche kaum (z. B. Image, Lebensqualität).",
+              "correct": true
+            },
+            {
+              "text": "Harte Faktoren gelten im Winter, weiche im Sommer."
+            }
+          ],
+          "explanation": "Der Unterschied liegt in der Messbarkeit: Steuersätze, Fahrzeiten oder Lohnkosten lassen sich in Zahlen fassen und vergleichen – das sind harte Faktoren. Image, Lebensqualität oder Freizeitangebot lassen sich kaum messen, beeinflussen die Wahl aber trotzdem, weil Mitarbeitende und ihre Familien gerne am Ort leben wollen. Mit Branchen oder gar Jahreszeiten hat die Unterscheidung nichts zu tun – und «weich» heisst eben nicht «unwichtig»."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Bergland führt eine strenge Prüfpflicht für Elektrogeräte ein. Konsumentenschützer begrüssen das, einzelne Hersteller prüfen den Wegzug. Was zeigt dieses Beispiel?",
+          "options": [
+            {
+              "text": "Dass Regeln grundsätzlich falsch sind und abgeschafft gehören."
+            },
+            {
+              "text": "Einen Zielkonflikt: Mehr Schutz durch Regeln kann Standortattraktivität kosten – die Politik muss abwägen, wo die Grenze liegt.",
+              "correct": true
+            },
+            {
+              "text": "Dass Unternehmen sich grundsätzlich nicht für Sicherheit interessieren."
+            },
+            {
+              "text": "Dass Konsumentenschutz gratis zu haben ist, wenn man ihn nur beschliesst."
+            }
+          ],
+          "explanation": "Beide Anliegen sind berechtigt: Schutz vor gefährlichen Geräten – und ein Standort, an dem Firmen bleiben und Arbeitsplätze sichern. Wer das eine stärkt, belastet das andere: ein klassischer Zielkonflikt, den die Politik abwägen muss. Daraus folgt weder, dass Regeln grundsätzlich falsch sind (zu wenig Schutz schadet dem Standort langfristig auch), noch dass Firmen Sicherheit egal wäre – und gratis ist Konsumentenschutz eben nicht: Irgendwer trägt die Prüfkosten."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-wirtschaftspolitik",
+      "title": "Setze die Begriffe ein: Ziele, Werkzeuge, Standort",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Wirtschaftspolitik verfolgt vier grosse Ziele: {{1}} für möglichst viele, sichere {{2}}, stabile Verhältnisse und fairen {{3}}. Dafür hat der Staat drei Werkzeuge: Er setzt {{4}} wie das Kartellverbot, er {{5}} Bildung und Forschung mit gezielten Beiträgen, und er stellt {{6}} wie Strassen und schnelles Internet bereit. Wo sich ein Unternehmen ansiedelt, entscheiden die {{7}}: zum Beispiel verfügbare {{8}}, die Höhe der Steuern und der Zugang zum europäischen {{9}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Wohlstand"
+          ]
+        },
+        {
+          "antworten": [
+            "Arbeitsplätze"
+          ]
+        },
+        {
+          "antworten": [
+            "Wettbewerb"
+          ]
+        },
+        {
+          "antworten": [
+            "Regeln"
+          ]
+        },
+        {
+          "antworten": [
+            "fördert"
+          ]
+        },
+        {
+          "antworten": [
+            "Infrastruktur"
+          ]
+        },
+        {
+          "antworten": [
+            "Standortfaktoren"
+          ]
+        },
+        {
+          "antworten": [
+            "Fachkräfte"
+          ]
+        },
+        {
+          "antworten": [
+            "Binnenmarkt"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Monopol",
+        "verbietet",
+        "Schulden"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-standort-eingabe",
+      "title": "Tippe die Begriffe ein: Die Standort-Begriffe sitzen",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Eigenschaften eines Ortes, die für oder gegen eine Ansiedlung sprechen, heissen {{1}}. Gut ausgebildete Arbeitskräfte nennt man kurz {{2}}. Strassen, Stromnetz und Internetleitungen fasst man unter dem Begriff {{3}} zusammen. Stehen sich zwei berechtigte Ziele der Politik gegenseitig im Weg, spricht man von einem {{4}}. Der europäische Wirtschaftsraum, über den Liechtensteiner Firmen ihre Kundschaft in Europa erreichen, heisst abgekürzt {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Standortfaktoren",
+            "Standortfaktor"
+          ]
+        },
+        {
+          "antworten": [
+            "Fachkräfte",
+            "Fachkraefte"
+          ]
+        },
+        {
+          "antworten": [
+            "Infrastruktur"
+          ]
+        },
+        {
+          "antworten": [
+            "Zielkonflikt",
+            "Zielkonflikte"
+          ]
+        },
+        {
+          "antworten": [
+            "EWR"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-werkzeug",
+      "title": "Zuordnen: Welches Werkzeug ist das?",
+      "intro": "Ordne jede Massnahme dem passenden Werkzeug der Wirtschaftspolitik zu: **Regeln setzen**, **Fördern** oder **Bereitstellen**. Jedes Werkzeug kommt genau dreimal vor.",
+      "modus": "wortbank",
+      "text": "Das Parlament verbietet Preisabsprachen zwischen Bauunternehmen. {{1}}\nDas Land zahlt Beiträge an ein Forschungslabor für neue Batterietechnik. {{2}}\nDie Gemeinde verlegt Glasfaserleitungen bis in jedes Dorf. {{3}}\nDer Staat übernimmt einen Teil der Ausbildungskosten von Lehrbetrieben. {{4}}\nEin neues Gesetz verlangt klare Preisangaben in Onlineshops. {{5}}\nDas Land baut eine neue Brücke über den Fluss. {{6}}\nJunge Firmen erhalten in den ersten zwei Jahren Startgeld aus einem Innovationsfonds. {{7}}\nDer Staat betreibt das Stromnetz und hält es in Schuss. {{8}}\nElektrogeräte dürfen nur verkauft werden, wenn ihre Sicherheit geprüft wurde. {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Regeln setzen"
+          ]
+        },
+        {
+          "antworten": [
+            "Fördern"
+          ]
+        },
+        {
+          "antworten": [
+            "Bereitstellen"
+          ]
+        },
+        {
+          "antworten": [
+            "Fördern"
+          ]
+        },
+        {
+          "antworten": [
+            "Regeln setzen"
+          ]
+        },
+        {
+          "antworten": [
+            "Bereitstellen"
+          ]
+        },
+        {
+          "antworten": [
+            "Fördern"
+          ]
+        },
+        {
+          "antworten": [
+            "Bereitstellen"
+          ]
+        },
+        {
+          "antworten": [
+            "Regeln setzen"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Standort-Detektiv und Abwägen",
+      "tasks": [
+        {
+          "prompt": "Standort-Detektiv: Wähle einen Betrieb aus deiner Region – eine Bäckerei, eine Werkstatt, einen Industriebetrieb (ohne ihn zu bewerten). Gehe drei Standortfaktoren aus der Grafik durch und überlege für jeden: Wie gut ist er an diesem Ort erfüllt – und woran machst du das fest?",
+          "hint": "Nimm die Fragen aus der Grafik wörtlich: Findet der Betrieb hier Fachkräfte (gibt es passende Lehrberufe in der Nähe)? Wie gut ist er erreichbar (Strasse, Bus, Parkplätze)? Wer ist seine Kundschaft – das Dorf oder das Ausland?",
+          "solution": "Beispielantwort für eine Bäckerei: (1) Fachkräfte – sie bildet selbst Lernende aus und findet Personal in der Umgebung; (2) Infrastruktur – sie liegt an der Durchgangsstrasse, Lieferwagen und Kundschaft kommen gut hin; (3) Marktzugang – ihre Kundschaft wohnt fast ganz im Dorf, der Zugang zu ausländischen Märkten spielt für sie kaum eine Rolle. Wichtig ist, dass du jeden Faktor am konkreten Ort begründest – und merkst, dass verschiedene Betriebe verschiedene Faktoren brauchen."
+        },
+        {
+          "prompt": "Alpentec entscheidet: Die erfundene Alpentec AG (Messgeräte, 40 Arbeitsplätze) vergleicht zwei erfundene Standorte. Tal A: viele Fachkräfte dank Fachhochschule, guter Autobahnanschluss, mittlere Steuern, Bewilligungen dauern oft über ein Jahr. Ort B: tiefere Steuern, schnelle Behörden, aber kaum Fachkräfte vor Ort und keine Bahnanbindung. Empfiehl der Geschäftsleitung einen Standort: Begründe mit mindestens drei Standortfaktoren – und nenne einen Punkt, den dein gewählter Ort verbessern müsste.",
+          "hint": "Es gibt kein «richtig» – es gibt gut begründet. Überlege zuerst, welche Faktoren für einen Messgeräte-Hersteller am schwersten wiegen: Wer baut die Geräte (Fachkräfte)? Wie kommen sie zur Kundschaft (Verkehr)? Was bleibt vom Gewinn (Steuern)?",
+          "solution": "Beide Empfehlungen sind vertretbar, wenn die Gewichtung begründet ist. Beispiel für Tal A: Für einen Hersteller sind Fachkräfte der Engpass – ohne Elektronikerinnen und Ingenieure keine Produktion; der Autobahnanschluss sichert die Lieferwege, die mittleren Steuern sind verkraftbar. Verbessern müsste Tal A die langsamen Bewilligungsverfahren. Beispiel für Ort B: Tiefe Steuern und schnelle Behörden sparen Geld und Zeit; dann muss Alpentec aber Fachkräfte von auswärts holen (Pendlerwege, Lohnkosten) und den Warentransport über die Strasse organisieren. Gelungen ist die Antwort, wenn mindestens drei Faktoren ausdrücklich abgewogen werden."
+        },
+        {
+          "prompt": "Zielkonflikt durchdenken: Bergland diskutiert die Regel, dass Onlineshops jede Bestellung 30 Tage lang gratis zurücknehmen müssen. Formuliere nach dem Argument-Bauplan aus Modul 9 (Behauptung – Begründung – Beispiel) je ein Argument dafür und eines dagegen. Schreibe zum Schluss zwei, drei Sätze eigene Abwägung: Wo würdest du die Grenze ziehen – und gibt es einen Zwischenweg?",
+          "hint": "Dafür-Argumente findest du beim Konsumentenschutz (Fehlkäufe, Druck aus dem Netz), Dagegen-Argumente bei den Kosten (Rücksendungen, kleine Shops, Standortattraktivität). Zwischenwege könnten sein: kürzere Frist, Ausnahmen für verderbliche Ware, Gebühr ab der zweiten Rücksendung.",
+          "solution": "Beispiel dafür: «Die Regel schützt Konsumentinnen und Konsumenten, weil man online Produkte nicht anfassen kann und Fehlkäufe sonst am Käufer hängen bleiben – zum Beispiel Schuhe, die nicht passen.» Beispiel dagegen: «Die Regel belastet kleine Shops, weil jede Gratis-Rücksendung Porto, Kontrolle und Neuverpacken kostet – ein kleiner Sportshop mit knapper Marge kann das schlechter tragen als ein Weltkonzern und überlegt sich den Standort zweimal.» Deine Abwägung ist gelungen, wenn sie beide Seiten ernst nimmt und einen begründeten Schnitt oder Zwischenweg nennt – etwa: 14 Tage Rückgaberecht, verderbliche Ware ausgenommen."
+        }
+      ]
+    }
+  ]
+}

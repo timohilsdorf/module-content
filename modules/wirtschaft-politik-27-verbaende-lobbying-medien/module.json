@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-27-verbaende-lobbying-medien",
+  "title": "Interessenvertretung: Verbände, Lobbying, Medien",
+  "description": "Wer steckt hinter einer Kampagne – und was hätte er davon? Im siebenundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du, wie Verbände Interessen bündeln, wägst Nutzen und Risiken des Lobbyings ausgewogen ab, erkennst die Doppelrolle der Medien als Verstärker und Kontrolleure – und wendest die wichtigste Prüffrage der politischen Bildung auf frei erfundene Kampagnen an: Wer ist der Absender?",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 27,
+  "einheit": "Themenblock E: Politik & Wirtschaft",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Interessen",
+    "Verbände",
+    "Arbeitgeberverband",
+    "Gewerkschaft",
+    "Umweltverband",
+    "Konsumentenschutz",
+    "Lobbying",
+    "Kampagnen",
+    "Studien",
+    "Medien",
+    "Kontrollinstanz",
+    "Absender",
+    "Transparenz"
+  ],
+  "learningObjectives": [
+    "Ich kann erklären, wie Einzelinteressen gebündelt werden: über Arbeitgeberverbände, Gewerkschaften sowie Umwelt- und Konsumentenorganisationen.",
+    "Ich kann Lobbying ausgewogen einordnen: Ich kenne die legitime Funktion – Fachwissen einbringen, Betroffene zu Wort bringen – und die Risiken – ungleiche Geldmittel und Einfluss im Verborgenen.",
+    "Ich kann die Doppelrolle der Medien beschreiben: Sie verstärken Kampagnen und kontrollieren zugleich, wer dahintersteckt.",
+    "Ich kann die Prüffrage «Wer ist der Absender?» auf Kampagnen und Studien anwenden – und erkläre, warum ein interessierter Absender nicht automatisch Unwahrheit bedeutet."
+  ],
+  "competencies": [
+    {
+      "code": "MI.1.2",
+      "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    },
+    {
+      "code": "LBO.5.6",
+      "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-19-was-ist-politik",
+    "wirtschaft-politik-22-medien-und-meinungsbildung",
+    "wirtschaft-politik-26-wirtschaftspolitik-standort"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Vom einzelnen Wunsch zur starken Stimme",
+      "body": "Stell dir vor, du findest: Der Jugendtreff braucht längere Öffnungszeiten. Allein erreichst du wenig – ein einzelner Brief geht unter. Schliessen sich aber fünfzig Jugendliche zusammen, sammeln Unterschriften und schicken zwei Vertreterinnen ins Gemeindehaus, sieht die Sache anders aus. **Gebündelte Interessen haben mehr Gewicht als einzelne Stimmen.**\n\nGenau nach diesem Prinzip funktioniert Interessenvertretung in Wirtschaft und Politik. Organisationen, die viele Einzelinteressen bündeln und gemeinsam vertreten, heissen **Verbände**. Vier Typen solltest du kennen – hier bewusst ohne echte Namen, denn es geht um das Muster:\n\n- **Arbeitgeberverbände** vertreten die Interessen von Betrieben: gute Standortbedingungen (Modul 26), wenig Bürokratie, tiefe Abgaben.\n- **Gewerkschaften** vertreten die Angestellten: faire Löhne, geregelte Arbeitszeiten, Sicherheit am Arbeitsplatz.\n- **Umweltorganisationen** setzen sich für Natur und Klima ein – für Interessen also, die selbst nicht mitreden können.\n- **Konsumentenorganisationen** vertreten dich als Käuferin oder Käufer: sichere Produkte, verständliche Verträge, faire Preise.\n\nWichtig: **Interessen zu vertreten ist legitim.** Aus Modul 19 weisst du, dass Politik genau das ist – unterschiedliche Interessen sichtbar machen und verbindliche Lösungen aushandeln. Verbände gehören zu einer offenen Gesellschaft wie das Aushandeln selbst. Spannend wird die Frage, **wie** dieser Einfluss ausgeübt wird – und wer ihn sieht."
+    },
+    {
+      "type": "image",
+      "title": "Das Akteursschema im Überblick",
+      "src": "/content/wirtschaft-politik-27-verbaende-lobbying-medien/akteure-schema.png",
+      "alt": "Schaubild in drei Spalten mit einem zusätzlichen Medien-Kasten. Links unter dem Titel Interessen vier blaue Kästen: Angestellte, Betriebe, Umwelt und Klima sowie Konsumentinnen und Konsumenten. Pfeile führen zur mittleren Spalte Verbände bündeln mit vier hellblauen Kästen: Gewerkschaft, Arbeitgeberverband, Umweltverband und Konsumentenorganisation. Von den Verbänden führen vier gebogene Pfeile mit der Beschriftung Lobbying: Gespräche, Stellungnahmen, Kampagnen zum dunkelblauen Kasten Politik, die Regeln aushandelt und entscheidet. Unten steht ein oranger Kasten Medien, die das Ganze beobachten. Von ihm gehen zwei gestrichelte orange Pfeile aus: einer zu den Lobbying-Pfeilen mit der Beschriftung verstärken – machen Kampagnen gross, einer zur Politik mit der Beschriftung kontrollieren – fragen, wer dahintersteckt. Ganz unten steht die Merkzeile: Prüffrage bei jeder Kampagne und Studie: Wer ist der Absender – und was hätte er davon?",
+      "caption": "Interessen werden von Verbänden gebündelt und über Lobbying in die Politik getragen – die Medien verstärken Kampagnen und kontrollieren zugleich, wer dahintersteckt.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Lobbying: Fachwissen einbringen – oder Einfluss im Verborgenen?",
+      "body": "Wie tragen Verbände ihre Anliegen in die Politik? Das Stichwort heisst **Lobbying**: die gezielte Einflussnahme organisierter Interessen auf politische Entscheide – durch Gespräche mit Politikerinnen und Politikern, offizielle Stellungnahmen, Kampagnen oder in Auftrag gegebene Studien. Ist das gut oder schlecht? Die ehrliche Antwort: **beides ist möglich** – es kommt auf das Wie an.\n\n**Die legitime Seite.** Wer über ein neues Gesetz entscheidet, kann unmöglich Fachperson für alles sein. Angenommen, das erfundene Land Bergland überarbeitet sein Lehrlingsgesetz: Der Arbeitgeberverband weiss aus der Praxis, was Betriebe leisten können – die Gewerkschaft weiss, wo Lernende Schutz brauchen. Hört die Politik beide an, wird das Gesetz besser. Deshalb ist das Anhören der Betroffenen bei uns sogar fest eingebaut: Bevor wichtige Gesetze beschlossen werden, dürfen Verbände und weitere Betroffene offiziell Stellung nehmen (man nennt das **Vernehmlassung**). Lobbying bringt so **Fachwissen** in die Politik und verschafft **Betroffenen Gehör** – beides braucht eine Demokratie.\n\n**Die riskante Seite.** Zwei Dinge können das Bild kippen:\n\n- **Ungleiche Mittel:** Ein finanzstarker Verband bezahlt Kampagnen, Fachleute und Studien – eine kleine Gruppe organisiert sich abends am Küchentisch. Beide haben vielleicht gleich gute Argumente, aber sehr verschieden laute Stimmen. Und manche Interessen haben gar keine eigene Lobby – zum Beispiel künftige Generationen.\n- **Einfluss im Verborgenen:** Findet Einflussnahme nur in vertraulichen Gesprächen statt, sieht niemand, wer wo mitgeredet hat – und wessen Formulierung am Ende im Gesetz steht.\n\n**Was hilft?** Vor allem **Transparenz**: offenlegen, wer mit wem spricht und wer Kampagnen und Studien bezahlt – etwa über öffentliche Anhörungen oder Register, in die sich Interessenvertreter eintragen. Und: wache Medien. Dazu gleich mehr. Merk dir bis dahin: **Lobbying pauschal zu verteufeln wäre so falsch, wie es zu verharmlosen.**"
+    },
+    {
+      "type": "video",
+      "title": "Video: Lobbyismus einfach erklärt",
+      "provider": "youtube",
+      "videoId": "7xV0E38SMm0",
+      "description": "Das Erklärvideo (3:38) des Kanals explainity fragt, was es bedeutet, wenn eine politische Entscheidung «durch die Macht der Lobbyisten» beeinflusst wurde – Beratung oder Manipulation? Achte beim Schauen auf zwei Leitfragen: (1) Welche Tätigkeiten von Lobbyistinnen und Lobbyisten zeigt das Video – und welche davon würdest du nach diesem Modul als legitim einordnen? (2) Wo sieht das Video Risiken – und decken sie sich mit den zwei Risiken aus diesem Modul (ungleiche Mittel, Einfluss im Verborgenen)?",
+      "startSeconds": 0,
+      "transcript": "Das Erklärvideo «Lobbyismus einfach erklärt» (explainity, 3:38 Minuten) erklärt, was Lobbyismus bedeutet: Interessengruppen versuchen, politische Entscheidungen in ihrem Sinn zu beeinflussen. Das Video zeigt, wie Lobbyistinnen und Lobbyisten arbeiten – sie pflegen Kontakte zu Entscheidungsträgern, liefern Informationen und Fachwissen aus ihrer Branche und bringen die Anliegen ihrer Auftraggeber in Gespräche und Anhörungen ein. Es stellt die Doppelnatur dieser Arbeit dar: Einerseits kann sie als Beratung Politik mit Praxiswissen versorgen, andererseits besteht die Gefahr der Manipulation, wenn Einfluss einseitig, verdeckt oder mit grossem finanziellem Übergewicht ausgeübt wird. Das Video ordnet ein, dass Lobbyismus in Demokratien grundsätzlich erlaubt ist, und wirft die Frage auf, wo die Grenze zwischen legitimer Interessenvertretung und problematischer Einflussnahme verläuft."
+    },
+    {
+      "type": "text",
+      "title": "Die Doppelrolle der Medien: gross machen und aufdecken",
+      "body": "Zurück nach Bergland. Die Regierung plant eine neue Abgabe auf Getränke. Kurz darauf hängen überall Plakate: **«Rettet das Feierabendbier – nein zur Getränkeabgabe!»** Dazu kursieren Videos und eine «Studie zur Bergländer Getränkekultur». Absender, im Kleingedruckten: der erfundene **Verband Bergländer Getränkehersteller**.\n\nJetzt kommen die Medien ins Spiel – und zwar in **zwei Rollen zugleich**, die du aus Modul 22 kennst:\n\n- **Als Verstärker:** Ein Portal übernimmt die Schlagzeile ungeprüft – «Politik will das Feierabendbier verbieten!». Die Empörung bringt Klicks, die Kampagne erreicht ein Vielfaches ihres Publikums, gratis. Genau darauf sind Kampagnen gebaut: Sie liefern zugespitzte Bilder und Slogans, die sich leicht weiterverbreiten lassen (die Aufmerksamkeitslogik aus Modul 22).\n- **Als Kontrollinstanz:** Eine Redaktion recherchiert nach: Wer steht hinter der Kampagne? Wer hat die «Studie» bezahlt? Sie berichtet: Absender ist der Branchenverband – also genau jene Betriebe, welche die Abgabe zahlen müssten. Die Kampagne wird dadurch nicht verboten, aber **eingeordnet**: Das Publikum weiss jetzt, wer spricht.\n\nBeachte zweierlei: Erstens ist am Verhalten des Verbands nichts Verwerfliches – **Interessen laut zu vertreten ist seine Aufgabe.** Zweitens schliessen sich die beiden Medienrollen nicht aus: Dasselbe Medium kann heute verstärken und morgen aufdecken. Für dich heisst das: Verlass dich nicht darauf, dass jemand anders die Einordnung übernimmt. Die wichtigste Prüfung kannst du selbst durchführen – mit einer einzigen Frage."
+    },
+    {
+      "type": "text",
+      "title": "Die Prüffrage: Wer ist der Absender?",
+      "body": "Ob Plakat, Video, Petition oder «neue Studie» – bevor du dich überzeugen lässt, stell die **Absender-Prüffrage** in drei Schritten:\n\n1. **Wer steht dahinter?** Such nach dem Absender: Impressum, Logo, Vereinsname, Finanzierung. Fehlt jede Angabe, ist das für sich schon ein Warnsignal (Modul 22).\n2. **Was hätte der Absender davon?** Frag dich: Wenn ich dieser Botschaft zustimme – wer profitiert? Je direkter der Nutzen für den Absender, desto genauer hinschauen.\n3. **Wer kommt nicht vor?** Jede Kampagne erzählt die halbe Geschichte. Wessen Sicht fehlt – und wie würde sie klingen?\n\nWende das auf zwei erfundene Beispiele an:\n\n- Die Studie **«Limonade macht glücklich»**, finanziert vom Getränkeverband «Süss & Spritzig»: Der Absender verdient an jedem verkauften Getränk – die Studie kann trotzdem sauber gearbeitet sein, aber du liest sie mit anderen Augen und suchst eine unabhängige Zweitquelle (Modul 22).\n- Der Bericht **«Überstunden machen krank»** der Gewerkschaft «Werkbund»: Auch hier hat der Absender ein Interesse – kürzere Arbeitszeiten für seine Mitglieder. Auch dieser Befund kann stimmen; auch ihn prüfst du gegen.\n\nDie wichtigste Einsicht: **Ein interessierter Absender macht eine Aussage nicht automatisch falsch – aber er verändert, wie du sie liest.** Einordnen statt abstempeln: Das unterscheidet kritisches Denken (Module 22 und 23) von pauschalem Misstrauen. Wer bei jeder Kampagne fragt «Wer ist der Absender – und was hätte er davon?», ist keine Zielscheibe mehr, sondern Prüferin."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Verbände, Lobbying und Medien",
+      "intro": "Interessen, Einfluss und die Absender-Prüffrage – zeig, was du mitgenommen hast. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Warum schliessen sich Menschen und Betriebe zu Verbänden zusammen?",
+          "options": [
+            {
+              "text": "Weil das Gesetz allen eine Mitgliedschaft vorschreibt."
+            },
+            {
+              "text": "Weil Einzelpersonen sich nicht an die Politik wenden dürfen."
+            },
+            {
+              "text": "Weil Verbandsmitglieder weniger Steuern zahlen müssen."
+            },
+            {
+              "text": "Weil eine gebündelte Stimme mehr Gehör findet als viele einzelne – der Verband vertritt die gemeinsamen Interessen seiner Mitglieder.",
+              "correct": true
+            }
+          ],
+          "explanation": "Verbände bündeln Einzelinteressen zu einer starken Stimme – fünfzig organisierte Jugendliche erreichen mehr als fünfzig einzelne Briefe. Eine Pflicht zur Mitgliedschaft gibt es nicht, und selbstverständlich darf sich auch jede Einzelperson an Behörden und Politik wenden – es ist nur oft weniger wirksam. Mit Steuerrabatten hat die Verbandsmitgliedschaft nichts zu tun."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was ist Lobbying?",
+          "options": [
+            {
+              "text": "Ein anderes Wort für Wahlkampf vor Abstimmungen."
+            },
+            {
+              "text": "Die gezielte Einflussnahme organisierter Interessen auf politische Entscheide – etwa durch Gespräche, Stellungnahmen und Kampagnen.",
+              "correct": true
+            },
+            {
+              "text": "Die Bestechung von Politikerinnen und Politikern – Lobbying ist grundsätzlich illegal."
+            },
+            {
+              "text": "Werbung von Firmen für ihre Produkte."
+            }
+          ],
+          "explanation": "Lobbying heisst: Organisierte Interessen – Verbände, Organisationen, Unternehmen – versuchen, politische Entscheide in ihrem Sinn zu beeinflussen. Das läuft über Gespräche, offizielle Stellungnahmen, Kampagnen oder in Auftrag gegebene Studien und ist in Demokratien grundsätzlich erlaubt. Bestechung dagegen ist ein Verbrechen und gerade nicht Lobbying – dieser Gleichsetzung begegnest du oft, sie stimmt aber nicht. Mit Produktwerbung oder Wahlkampf ist Lobbying ebenfalls nicht zu verwechseln: Es zielt auf politische Entscheide, nicht auf Kundschaft oder Wählerstimmen."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Welche legitime Funktion erfüllt Lobbying in einer Demokratie?",
+          "options": [
+            {
+              "text": "Verbände bringen Fachwissen aus der Praxis ein und verschaffen Betroffenen Gehör, bevor Regeln beschlossen werden.",
+              "correct": true
+            },
+            {
+              "text": "Es sorgt dafür, dass immer die zahlungskräftigste Gruppe gewinnt."
+            },
+            {
+              "text": "Es ersetzt Parlamente und Abstimmungen."
+            },
+            {
+              "text": "Es hält unbequemes Fachwissen aus der Politik heraus."
+            }
+          ],
+          "explanation": "Politikerinnen und Politiker können nicht Fachleute für alles sein: Beim Lehrlingsgesetz von Bergland machen die Hinweise von Arbeitgeberverband und Gewerkschaft das Gesetz besser – beide wissen aus der Praxis, was funktioniert und wo Schutz nötig ist. Genau dafür gibt es Anhörungen wie die Vernehmlassung. Dass die zahlungskräftigste Gruppe gewinnen soll, ist keine Funktion, sondern das Risiko des Lobbyings – und entschieden wird weiterhin in Parlament und Abstimmung, nicht am Sitzungstisch eines Verbands."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Welches Risiko des Lobbyings beschreibt dieses Modul?",
+          "options": [
+            {
+              "text": "Lobbying führt automatisch zu besseren Gesetzen."
+            },
+            {
+              "text": "Verbände dürfen keine eigenen Studien veröffentlichen."
+            },
+            {
+              "text": "Finanzstarke Interessen können mehr Kampagnen, Studien und Kontakte bezahlen – und Einfluss findet teils im Verborgenen statt.",
+              "correct": true
+            },
+            {
+              "text": "Alle Interessen haben automatisch gleich viel Einfluss."
+            }
+          ],
+          "explanation": "Die zwei Risiken heissen: ungleiche Mittel und Einfluss im Verborgenen. Wer viel Geld hat, kann laut auftreten – wer wenig hat, bleibt mit gleich guten Argumenten leiser, und manche Interessen (etwa künftige Generationen) haben gar keine Lobby. Vertrauliche Einflussnahme sieht zudem niemand. Genau deshalb stimmt auch das Gegenteil nicht, dass alle automatisch gleich viel Einfluss hätten. Studien veröffentlichen dürfen Verbände selbstverständlich – wichtig ist, dass erkennbar bleibt, wer sie bezahlt hat."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Worin besteht die Doppelrolle der Medien bei Kampagnen?",
+          "options": [
+            {
+              "text": "Sie dürfen über Kampagnen von Verbänden gar nicht berichten."
+            },
+            {
+              "text": "Sie können Kampagnen als Verstärker gross machen – und zugleich als Kontrollinstanz aufdecken, wer dahintersteckt.",
+              "correct": true
+            },
+            {
+              "text": "Sie entscheiden am Ende selbst, welche Gesetze gelten."
+            },
+            {
+              "text": "Sie verstärken Botschaften immer, prüfen sie aber nie."
+            }
+          ],
+          "explanation": "Beides ist wahr, oft beim selben Medium: Übernimmt eine Redaktion die zugespitzte Schlagzeile ungeprüft, verschafft sie der Kampagne gratis Reichweite (Verstärker, Aufmerksamkeitslogik aus Modul 22). Recherchiert sie nach, wer die Kampagne und die «Studie» bezahlt hat, ordnet sie das Ganze ein (Kontrollinstanz). «Nie prüfen» stimmt also ebenso wenig wie ein Berichtsverbot – und Gesetze beschliessen Medien selbstverständlich nicht, das bleibt Sache der Politik."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Auf Plakaten steht: «Rettet das Feierabendbier – nein zur Getränkeabgabe!» Was ist nach diesem Modul dein erster Prüfschritt?",
+          "options": [
+            {
+              "text": "Der Kampagne glauben – so viele Plakate können nicht irren."
+            },
+            {
+              "text": "Die Kampagne ignorieren, denn Plakate lügen grundsätzlich."
+            },
+            {
+              "text": "Prüfen, wie professionell die Plakate gestaltet sind."
+            },
+            {
+              "text": "Nach dem Absender fragen: Wer hat die Kampagne bezahlt – und was hätte er davon, wenn ich zustimme?",
+              "correct": true
+            }
+          ],
+          "explanation": "Der erste Schritt ist immer die Absender-Prüffrage: Hinter «Rettet das Feierabendbier» steht der erfundene Getränkehersteller-Verband – also genau jene Betriebe, welche die Abgabe zahlen müssten. Das macht die Kampagne nicht verboten und ihre Argumente nicht automatisch falsch, aber du liest sie mit diesem Wissen anders. Reichweite und schöne Gestaltung sagen nichts über die Sache – und pauschales Ignorieren ist so unkritisch wie pauschales Glauben."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Ein Verband veröffentlicht eine Studie, die er selbst bezahlt hat. Wie gehst du damit um?",
+          "options": [
+            {
+              "text": "Ich übernehme die Zahlen ungeprüft – Studien sind immer neutral."
+            },
+            {
+              "text": "Ich verwerfe alles – bezahlte Studien sind immer gelogen."
+            },
+            {
+              "text": "Die Studie ist nicht automatisch falsch – aber ich lese sie mit Blick auf den Auftraggeber und suche eine unabhängige Zweitquelle.",
+              "correct": true
+            },
+            {
+              "text": "Ich prüfe vor allem, ob die Studie fehlerfrei geschrieben ist."
+            }
+          ],
+          "explanation": "Einordnen statt abstempeln: Ein interessierter Auftraggeber verändert, wie du eine Studie liest – er macht sie aber nicht automatisch falsch, so wenig wie eine «neutrale» Verpackung sie automatisch richtig macht. Der Weg dazwischen führt über die Prüffragen und die Zweitquelle aus Modul 22: Bestätigen unabhängige Quellen den Befund? Blindes Übernehmen und pauschales Verwerfen sind beide unkritisch – und die Rechtschreibung sagt über die Interessen hinter einer Studie gar nichts."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Wessen Interessen vertritt eine Gewerkschaft?",
+          "options": [
+            {
+              "text": "Die der Angestellten – etwa bei Löhnen, Arbeitszeiten und Sicherheit am Arbeitsplatz.",
+              "correct": true
+            },
+            {
+              "text": "Die der Besitzerinnen und Besitzer der Firmen."
+            },
+            {
+              "text": "Die der Konsumentinnen und Konsumenten beim Einkaufen."
+            },
+            {
+              "text": "Die der Regierung gegenüber der Bevölkerung."
+            }
+          ],
+          "explanation": "Gewerkschaften sind der Zusammenschluss der Arbeitnehmenden: Sie verhandeln über Löhne, Arbeitszeiten und Schutz am Arbeitsplatz. Die Betriebe und ihre Besitzer werden vom Arbeitgeberverband vertreten, die Käuferinnen und Käufer von Konsumentenorganisationen – und die Regierung vertritt sich in der Debatte selbst. Die vier Absendertypen auseinanderzuhalten ist die halbe Miete für die Zuordnungsaufgabe weiter unten."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-interessen-wortbank",
+      "title": "Setze die Begriffe ein: Verbände, Lobbying, Medien",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Wer allein wenig Gehör findet, schliesst sich zusammen: Organisationen, die viele Einzelinteressen bündeln, heissen {{1}}. Die Interessen der Angestellten vertreten die {{2}}, jene der Betriebe die {{3}}. Die gezielte Einflussnahme organisierter Interessen auf politische Entscheide nennt man {{4}}. Sie hat eine legitime Seite: Verbände bringen {{5}} aus der Praxis ein, und Betroffene kommen zu Wort. Riskant wird es, wenn die Geldmittel sehr {{6}} verteilt sind oder Einfluss im {{7}} stattfindet. Die Medien spielen eine Doppelrolle: Sie {{8}} Kampagnen zu grosser Reichweite – und sie {{9}} zugleich, wer dahintersteckt.",
+      "luecken": [
+        {
+          "antworten": [
+            "Verbände"
+          ]
+        },
+        {
+          "antworten": [
+            "Gewerkschaften"
+          ]
+        },
+        {
+          "antworten": [
+            "Arbeitgeberverbände"
+          ]
+        },
+        {
+          "antworten": [
+            "Lobbying"
+          ]
+        },
+        {
+          "antworten": [
+            "Fachwissen"
+          ]
+        },
+        {
+          "antworten": [
+            "ungleich"
+          ]
+        },
+        {
+          "antworten": [
+            "Verborgenen"
+          ]
+        },
+        {
+          "antworten": [
+            "verstärken"
+          ]
+        },
+        {
+          "antworten": [
+            "kontrollieren"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Werbung",
+        "verbieten",
+        "geheim"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-interessen-eingabe",
+      "title": "Tippe die Begriffe ein: Die Prüffrage sitzt",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Die Organisation, welche die Interessen der Angestellten vertritt, ist die {{1}}. Die gezielte Einflussnahme organisierter Interessen auf die Politik heisst {{2}}. Wer eine Kampagne prüft, fragt zuerst nach dem {{3}}: Wer steht dahinter, und was hätte er davon? Medien verstärken Kampagnen – und wirken zugleich als {{4}}, wenn sie aufdecken, wer dahintersteckt. Eine bezahlte Studie liest man mit Blick auf ihren {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Gewerkschaft"
+          ]
+        },
+        {
+          "antworten": [
+            "Lobbying",
+            "Lobbyismus"
+          ]
+        },
+        {
+          "antworten": [
+            "Absender",
+            "Auftraggeber"
+          ]
+        },
+        {
+          "antworten": [
+            "Kontrollinstanz",
+            "Kontrolle"
+          ]
+        },
+        {
+          "antworten": [
+            "Auftraggeber",
+            "Absender",
+            "Geldgeber"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-absendertyp",
+      "title": "Zuordnen: Wer ist der wahrscheinliche Absender?",
+      "intro": "Ordne jede Aussage oder Kampagne dem **wahrscheinlichsten Absendertyp** zu: **Arbeitgeberverband**, **Gewerkschaft**, **Umweltverband** oder **Konsumentenschutz**. Arbeitgeberverband und Gewerkschaft kommen je dreimal vor, Umweltverband und Konsumentenschutz je zweimal. Alle Namen und Kampagnen sind frei erfunden.",
+      "modus": "wortbank",
+      "text": "«Höhere Mindestlöhne jetzt – wer hundert Prozent arbeitet, muss davon leben können!» {{1}}\n«Weniger Formulare, mehr Werkbänke: Entlastet unsere Betriebe endlich von unnötiger Bürokratie!» {{2}}\n«Neue Studie: Längere Ladenöffnungszeiten gehen auf die Gesundheit des Verkaufspersonals.» {{3}}\n«Rettet das Feierabendbier – nein zur geplanten Getränkeabgabe!», lanciert vom Verband der Getränkehersteller. {{4}}\n«Jede vierte getestete Spielzeug-Drohne fällt beim Sicherheitstest durch – wir fordern eine Prüfpflicht.» {{5}}\n«Das geplante Gewerbegebiet bedroht das letzte Feuchtgebiet der Region – stoppt die Überbauung!» {{6}}\n«Abo-Fallen bei Fitness-Apps: Wir verlangen verständliche Verträge und ein einfaches Kündigungsrecht.» {{7}}\n«Tiefere Energieabgaben für unsere Industrie – sonst wandern Arbeitsplätze ab.» {{8}}\n«Mehr Nachtzüge statt Kurzstreckenflüge: Unterschreibe für klimafreundliches Reisen!» {{9}}\n«Vier zusätzliche Ferientage für alle Angestellten – Erholung ist ein Recht, keine Belohnung.» {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Gewerkschaft"
+          ]
+        },
+        {
+          "antworten": [
+            "Arbeitgeberverband"
+          ]
+        },
+        {
+          "antworten": [
+            "Gewerkschaft"
+          ]
+        },
+        {
+          "antworten": [
+            "Arbeitgeberverband"
+          ]
+        },
+        {
+          "antworten": [
+            "Konsumentenschutz"
+          ]
+        },
+        {
+          "antworten": [
+            "Umweltverband"
+          ]
+        },
+        {
+          "antworten": [
+            "Konsumentenschutz"
+          ]
+        },
+        {
+          "antworten": [
+            "Arbeitgeberverband"
+          ]
+        },
+        {
+          "antworten": [
+            "Umweltverband"
+          ]
+        },
+        {
+          "antworten": [
+            "Gewerkschaft"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Baue und knacke Kampagnen",
+      "tasks": [
+        {
+          "prompt": "Erfinde deine eigene Kampagne: Denk dir einen fiktiven Verband aus (Name und Interesse, z. B. «Verband der Bergländer Turnschuhhändler») und entwirf für ihn eine Kampagne mit Slogan und einer passenden «Studien»-Schlagzeile. Notiere darunter ehrlich: Welches Interesse steckt dahinter – und mit welcher Prüffrage würde man deiner Kampagne auf die Schliche kommen? Verwende keine echten Firmen, Verbände oder Personen.",
+          "hint": "Gute Kampagnen-Slogans reden nie vom eigenen Gewinn, sondern von etwas, das allen gehört: Freiheit, Tradition, Gesundheit, Heimat. Überleg dir also: Hinter welchem sympathischen Wert könnte dein Verband sein Interesse verstecken?",
+          "solution": "Beispiel: Der erfundene «Verband der Bergländer Turnschuhhändler» lanciert «Freiheit für deine Füsse – nein zur Schuh-Recyclinggebühr!» samt Schlagzeile «Studie: Turnschuhe sind das beliebteste Kleidungsstück der Jugend». Dahinter steckt das Interesse, die geplante Gebühr abzuwenden, die den Verkauf verteuern würde. Die Prüffrage entlarvt das Muster: Absender ist der Händlerverband, die «Studie» hat er selbst bezahlt, und die Sicht der Gegenseite (wer bezahlt sonst die Entsorgung?) kommt nicht vor. Deine Lösung ist gelungen, wenn Slogan, verstecktes Interesse und Prüffrage klar zueinander passen."
+        },
+        {
+          "prompt": "Absender-Check: Nimm die beiden fiktiven Beispiele aus dem Modul – die Studie «Limonade macht glücklich» (finanziert vom Getränkeverband «Süss & Spritzig») und den Bericht «Überstunden machen krank» (herausgegeben von der Gewerkschaft «Werkbund»). Beantworte für beide die drei Prüfschritte: (1) Wer ist der Absender? (2) Was hätte er davon, wenn du zustimmst? (3) Wessen Sicht fehlt? Schreibe zum Schluss zwei Sätze: Wie gehst du mit den beiden Veröffentlichungen um – wegwerfen, glauben oder etwas dazwischen?",
+          "hint": "Achtung, Falle: Die Prüffragen sollen bei BEIDEN Beispielen kritisch ausfallen – auch beim Bericht, dessen Anliegen dir vielleicht sympathischer ist. Kritisches Lesen gilt für alle Absender gleich.",
+          "solution": "Beispielantwort: (1) Absender sind ein Getränkeverband bzw. eine Gewerkschaft – beides organisierte Interessen. (2) Der Verband verkauft mehr Limonade, wenn sie als Glücksbringer gilt; die Gewerkschaft stärkt ihre Forderung nach kürzeren Arbeitszeiten, wenn Überstunden als krankmachend gelten. (3) Beim Limonade-Beispiel fehlt die Sicht von Zahnärztinnen oder Ernährungsfachleuten, beim Überstunden-Bericht etwa die Sicht von Betrieben mit saisonalen Spitzen. Umgang: Beide Veröffentlichungen weder blind glauben noch wegwerfen – einordnen, mit unabhängigen Zweitquellen vergleichen und erst dann urteilen."
+        },
+        {
+          "prompt": "Erkläre es jemandem: Erkläre einer Person aus deinem Umfeld in höchstens fünf Sätzen, warum Lobbying weder «nur gut» noch «nur schlecht» ist – verwende dabei die Wörter Fachwissen, Betroffene, Geldmittel und Transparenz. Formuliere anschliessend nach dem Argument-Bauplan aus Modul 9 (Behauptung – Begründung – Beispiel) einen Vorschlag für eine Transparenz-Regel, die du einführen würdest.",
+          "hint": "Für die Transparenz-Regel kannst du bei den Gegenmitteln aus dem Modul stöbern: offenlegen, wer Kampagnen finanziert; ein Register für Interessenvertreter; öffentliche Anhörungen. Wähl eine Massnahme und begründe sie mit einem fiktiven Beispiel.",
+          "solution": "Beispielerklärung: «Lobbying bringt der Politik Fachwissen aus der Praxis, und Betroffene kommen zu Wort, bevor Regeln beschlossen werden – das ist nützlich. Gefährlich wird es, wenn Geldmittel sehr ungleich verteilt sind und Einfluss versteckt stattfindet. Deshalb kommt es auf Transparenz an: Man muss sehen können, wer mitredet und wer bezahlt.» Beispielargument: «Kampagnen sollten ihren Geldgeber gut sichtbar angeben müssen (Behauptung), weil das Publikum eine Botschaft nur einordnen kann, wenn es den Absender kennt (Begründung) – beim Plakat ‹Rettet das Feierabendbier› würde sofort klar, dass der Getränkeverband spricht und nicht eine Bürgerbewegung (Beispiel).» Deine Regel ist gelungen, wenn sie konkret ist und das Beispiel zur Begründung passt."
+        }
+      ]
+    }
+  ]
+}

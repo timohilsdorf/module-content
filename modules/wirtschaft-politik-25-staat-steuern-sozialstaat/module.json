@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-25-staat-steuern-sozialstaat",
+  "title": "Der Staat in der Wirtschaft: Steuern, Budget, Sozialstaat",
+  "description": "Steuern zahlen alle – aber wofür eigentlich? Im fünfundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» eröffnest du den Themenblock E «Politik & Wirtschaft»: Du lernst, warum der Staat in der Wirtschaft mitspielt, welche drei Steuer-Grundtypen seine Kasse füllen, wie du ein Staatsbudget mit Überschuss, Defizit und Staatsschulden liest – und warum der Sozialstaat im Kern eine grosse Versicherung ist.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 25,
+  "einheit": "Themenblock E: Politik & Wirtschaft",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Staat",
+    "Steuern",
+    "Einkommenssteuer",
+    "Mehrwertsteuer",
+    "Unternehmenssteuer",
+    "Staatsbudget",
+    "Überschuss",
+    "Defizit",
+    "Staatsschulden",
+    "Sozialstaat",
+    "AHV",
+    "öffentliche Leistungen"
+  ],
+  "learningObjectives": [
+    "Ich kann begründen, warum der Staat in der Wirtschaft mitspielt: Er stellt Leistungen bereit, die der Markt nicht liefert, er setzt Regeln für das Wirtschaftsleben, und er sichert Schwächere ab.",
+    "Ich kann die drei Grundtypen von Steuern unterscheiden – Einkommenssteuer, Mehrwertsteuer und Unternehmenssteuer – und an Alltagsbeispielen erklären, wer sie worauf zahlt.",
+    "Ich kann ein Staatsbudget in einfachen Worten lesen: Einnahmen und Ausgaben vergleichen und Überschuss, Defizit und Staatsschulden auseinanderhalten.",
+    "Ich kann die Grundidee des Sozialstaats als grosse Versicherungslogik erklären und den Bogen zu AHV und IV aus Modul 14 schlagen."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.2.3",
+      "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+      "code": "WAH.5.2",
+      "description": "Die Schülerinnen und Schüler können soziale, rechtliche und ökonomische Aspekte im Alltag und im Zusammenleben recherchieren."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "Statistikportal Liechtenstein – Öffentliche Finanzen",
+      "url": "https://www.statistikportal.li/de/themen/staat-und-politik/oeffentliche-finanzen"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-04-erweiterter-wirtschaftskreislauf",
+    "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
+    "wirtschaft-politik-11-versicherungen",
+    "wirtschaft-politik-14-budget-sparen-lohnabrechnung"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Warum baut niemand freiwillig eine Strasse?",
+      "body": "Denk an deinen Schulweg heute Morgen: die Strasse, das Trottoir, die Strassenbeleuchtung, vielleicht der Bus – und am Ziel ein Schulhaus mit Lehrpersonen. Nichts davon hast du heute bezahlt. Und auf dem Markt, wie du ihn aus den Modulen 6 bis 8 kennst, würde das meiste davon gar nicht entstehen.\n\nWarum nicht? Nimm die **Strassenbeleuchtung**: Würde eine private Firma Lampen aufstellen und Geld verlangen – wer würde zahlen? Das Licht leuchtet für alle, **niemand kann vom Nutzen ausgeschlossen werden**. Also warten alle darauf, dass jemand anderes zahlt – und am Ende bleibt es dunkel, obwohl alle das Licht wollen. Bei solchen **öffentlichen Leistungen** versagt der Markt: Strassen, Schulen, Polizei, Feuerwehr oder Hochwasserschutz gäbe es ohne gemeinsame Finanzierung nicht oder nur für wenige.\n\nDeshalb spielt der **Staat** in der Wirtschaft mit – du kennst ihn als Akteur bereits aus dem Wirtschaftskreislauf (Module 2 und 4). Seine drei grossen Aufgaben:\n\n1. **Bereitstellen**, was der Markt nicht liefert: Strassen, Schulen, Sicherheit.\n2. **Regeln setzen**: Damit Wettbewerb fair bleibt, braucht es Spielregeln – etwa gegen Absprachen und Monopolmissbrauch (Modul 8). Und aus Modul 19 weisst du: Genau das ist Politik – gemeinsame, verbindliche Regeln aushandeln.\n3. **Schwächere absichern**: Wer alt, krank oder invalid ist, soll nicht ins Leere fallen – dazu später mehr beim Sozialstaat.\n\nBleibt die entscheidende Frage: **Woher nimmt der Staat das Geld dafür?**"
+    },
+    {
+      "type": "text",
+      "title": "Steuern: die wichtigste Einnahme des Staates",
+      "body": "Die Antwort steht auf jedem Kassenzettel und auf jeder Lohnabrechnung: **Steuern**. Eine Steuer ist eine **Pflichtabgabe an den Staat, der keine direkte Gegenleistung gegenübersteht**. «Keine direkte Gegenleistung» heisst: Du bekommst für deine Steuern keine Quittung über eine bestimmte Leistung – sie fliessen in den grossen gemeinsamen Topf, aus dem Strassen, Schulen und alles andere bezahlt werden.\n\nDrei **Grundtypen** solltest du unterscheiden können:\n\n- **Einkommenssteuer:** Wer arbeitet und Geld verdient, gibt dem Staat einen Teil seines Einkommens ab – einmal im Jahr mit der Steuererklärung. Je mehr jemand verdient, desto mehr zahlt er.\n- **Mehrwertsteuer:** Sie steckt **im Preis** fast aller Einkäufe – vom Sandwich bis zum Handy. Du zahlst sie mit, ohne es zu merken; das Geschäft leitet sie an den Staat weiter. Weil sie beim Konsum anfällt und nicht direkt bei dir erhoben wird, nennt man sie eine **indirekte Steuer** – die Einkommenssteuer ist dagegen eine **direkte Steuer**.\n- **Unternehmenssteuer:** Firmen zahlen Steuern auf ihren **Gewinn** – also auf das, was nach Abzug aller Kosten übrig bleibt. Macht ein Unternehmen keinen Gewinn, fällt auch keine Gewinnsteuer an.\n\nWichtig sind zwei Abgrenzungen: **Gebühren** sind keine Steuern – bei ihnen bekommst du eine direkte Gegenleistung, etwa einen neuen Pass oder einen Parkplatz. Und die **AHV- und IV-Abzüge** auf der Lohnabrechnung (Modul 14) sind ebenfalls keine Steuern, sondern **Versicherungsbeiträge** – wofür sie da sind, schauen wir uns gleich noch genauer an.\n\nÜber die **Höhe** von Steuern wird in der Politik ständig gerungen – hier geht es nur um das Prinzip: Ohne Steuern kein Staat, der bereitstellt, regelt und absichert."
+    },
+    {
+      "type": "video",
+      "title": "Video: Steuern einfach erklärt",
+      "provider": "youtube",
+      "videoId": "ghJhy40yCfM",
+      "description": "Das Erklärvideo (3:21) des Kanals explainity zeigt am Beispiel Deutschlands, warum der Staat Steuern erhebt und wofür er sie verwendet – das Prinzip gilt bei uns genauso, auch wenn einzelne Namen und Zahlen anders sind. Achte beim Schauen auf zwei Leitfragen: (1) Wofür gibt der Staat die Steuereinnahmen im Video aus – und welche dieser Bereiche findest du nachher in der Budget-Grafik dieses Moduls wieder? (2) Das Video unterscheidet direkte und indirekte Steuern: Zu welchem der beiden Typen gehören Einkommenssteuer und Mehrwertsteuer?",
+      "startSeconds": 0,
+      "transcript": "Das Erklärvideo «Steuern in Deutschland einfach erklärt» (explainity, 3:21 Minuten) erklärt, warum der Staat Steuern erhebt: Er finanziert damit gemeinsame Aufgaben wie Strassen, Schulen, Polizei und Soziales. Steuern sind Pflichtabgaben, denen keine direkte Gegenleistung gegenübersteht. Das Video unterscheidet direkte Steuern, die auf Einkommen oder Vermögen erhoben werden (etwa die Einkommenssteuer), von indirekten Steuern, die im Preis von Waren und Dienstleistungen stecken (etwa die Mehrwertsteuer). Dazu erklärt es das Begriffspaar Steuerschuldner und Steuerträger: Bei der Mehrwertsteuer führt das Geschäft die Steuer an den Staat ab, getragen wird sie aber von den Kundinnen und Kunden, die sie im Preis mitbezahlen. Die Beispiele und Zahlen des Videos stammen aus Deutschland – die Grundidee gilt in Liechtenstein und der Schweiz genauso."
+    },
+    {
+      "type": "image",
+      "title": "Das Staatsbudget im Überblick",
+      "src": "/content/wirtschaft-politik-25-staat-steuern-sozialstaat/budget-schema.png",
+      "alt": "Schaubild eines vereinfachten Staatsbudgets in drei Spalten. Links unter dem Titel Einnahmen vier blaue Kästen: Einkommenssteuer auf Lohn und Einkommen, Mehrwertsteuer auf Einkäufe, die im Preis steckt, Unternehmenssteuer auf den Gewinn von Firmen sowie Gebühren und Weiteres, zum Beispiel Ausweis- oder Parkgebühren. Von allen vier führen orange gestrichelte Geldpfeile zum dunkelblauen Kasten Staat in der Mitte, der im Budget plant, was er einnimmt und ausgibt. Vom Staat führen orange gestrichelte Pfeile nach rechts zu fünf Ausgabenbereichen: Bildung mit Schulen und Lehrpersonen, Strassen und Verkehr mit Bau, Unterhalt und Busbetrieb, Sicherheit mit Polizei, Feuerwehr und Gerichten, Gesundheit mit Spitälern und Vorsorge sowie Soziales mit Beiträgen an AHV und IV und Nothilfe. Unten fasst ein Merkkasten zusammen: Sind die Einnahmen grösser als die Ausgaben, entsteht ein Überschuss und das Polster, die Reserven, wächst. Sind die Ausgaben grösser als die Einnahmen, entsteht ein Defizit und der Staat muss Geld leihen. Defizite über viele Jahre führen zu Staatsschulden, also geliehenem Geld plus Zinsen.",
+      "caption": "Vereinfachtes Budget-Schema: Steuern und Gebühren fliessen zum Staat, der sie auf die grossen Aufgabenbereiche verteilt – unten die drei Grundbegriffe Überschuss, Defizit und Staatsschulden.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Das Budget lesen: Überschuss, Defizit, Staatsschulden",
+      "body": "In Modul 14 hast du dein **persönliches Budget** aufgestellt: Einnahmen und Ausgaben gegenüberstellen, damit am Monatsende kein Loch entsteht. Ein **Staatsbudget** funktioniert nach genau demselben Prinzip – nur mit sehr viel grösseren Zahlen und mit einem wichtigen Unterschied: Über das Budget des Staates wird **politisch entschieden**, denn es legt fest, wofür das gemeinsame Geld eingesetzt wird.\n\nDrei Begriffe brauchst du, um jede Budget-Schlagzeile zu verstehen:\n\n- **Überschuss:** Die Einnahmen sind grösser als die Ausgaben. Der Staat kann das Polster – seine **Reserven** – vergrössern oder Schulden abbauen.\n- **Defizit:** Die Ausgaben sind grösser als die Einnahmen. Die Lücke muss der Staat stopfen – meist, indem er sich Geld leiht.\n- **Staatsschulden:** Leiht sich ein Staat über viele Jahre immer wieder Geld, wachsen seine Schulden. Wie bei jedem Kredit (Modul 12) gilt: Geliehenes Geld muss samt **Zinsen** zurückgezahlt werden – diese Zinsen verkleinern den Spielraum künftiger Budgets.\n\nEin Blick in die Nachbarschaft, rein beschreibend: **Liechtenstein** schliesst sein Staatsbudget seit Jahren mit Überschüssen ab, hat Reserven angelegt und ist praktisch schuldenfrei – das ist international selten. Viele andere Staaten tragen dagegen hohe Schulden.\n\nHeisst das, Schulden sind immer schlecht? So einfach ist es nicht: Leiht sich ein Staat Geld, um etwa ein Schulhaus zu bauen, nützt das auch den Generationen, die es später mitbezahlen. Dauerhafte Defizite für laufende Ausgaben engen dagegen den Spielraum immer weiter ein. **Wie viel Schulden sinnvoll sind, ist darum eine echte politische Streitfrage** – mit guten Argumenten auf beiden Seiten."
+    },
+    {
+      "type": "text",
+      "title": "Der Sozialstaat: die grösste Versicherung des Landes",
+      "body": "Bleibt die dritte Staatsaufgabe: **Schwächere absichern**. Die Grundidee dahinter kennst du schon – es ist die **Versicherungslogik aus Modul 11**: Viele zahlen regelmässig einen kleinen Beitrag in einen gemeinsamen Topf, und wer vom Schaden getroffen wird, erhält daraus Hilfe.\n\nDer **Sozialstaat** wendet diese Logik auf die grossen Lebensrisiken an, die jede und jeden treffen können: **Alter** (irgendwann kannst du nicht mehr arbeiten), **Invalidität** (Unfall oder Krankheit machen Arbeit unmöglich), **Krankheit** und **Arbeitslosigkeit**. Gegen diese Risiken organisiert der Staat grosse Pflichtversicherungen – in Liechtenstein wie in der Schweiz zum Beispiel die **AHV** (Alters- und Hinterlassenenversicherung) und die **IV** (Invalidenversicherung), deren Abzüge du von der Lohnabrechnung aus Modul 14 kennst. Beitragspflichtig wirst du übrigens früh: ab dem 1. Januar des Jahres, in dem du 18 wirst, sobald du erwerbstätig bist.\n\nZwei Besonderheiten unterscheiden den Sozialstaat von einer privaten Versicherung:\n\n- **Alle machen mit – Pflicht statt Wahl.** Dürfte jeder selbst entscheiden, würden viele Gesunde und Junge nicht einzahlen, und die Rechnung ginge nicht mehr auf. Am Ende stünden genau jene ohne Schutz da, die ihn am nötigsten hätten.\n- **Heute für heute.** Die AHV funktioniert im Kern als **Umlage**: Die Beiträge der Erwerbstätigen von heute finanzieren die Renten der Pensionierten von heute – dein Geld wird also nicht auf einem persönlichen Konto angespart. Wenn du später pensioniert bist, zahlen die Erwerbstätigen von dann deine Rente.\n\nUnd wo bleibt das Budget? Der Staat stützt den Sozialstaat zusätzlich mit **Steuergeld** – in der Budget-Grafik ist das der Ausgabenbereich «Soziales». Damit schliesst sich der Kreis dieses Moduls: Steuern füllen die Kasse, das Budget verteilt sie, und der Sozialstaat sichert ab, was der Markt allein nicht absichert."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Staat, Steuern und Budget",
+      "intro": "Zeig, was du über die Rolle des Staates, die drei Steuertypen und das Budget gelernt hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Warum stellt der Staat die Strassenbeleuchtung bereit, statt sie dem Markt zu überlassen?",
+          "options": [
+            {
+              "text": "Weil Strassenlampen für private Firmen technisch zu kompliziert sind."
+            },
+            {
+              "text": "Weil der Staat grundsätzlich alles besitzen will, was auf öffentlichem Boden steht."
+            },
+            {
+              "text": "Weil niemand vom Licht ausgeschlossen werden kann – freiwillig würde kaum jemand zahlen, also wird die Leistung gemeinsam über Steuern finanziert.",
+              "correct": true
+            },
+            {
+              "text": "Weil es Privaten verboten ist, Lampen zu verkaufen."
+            }
+          ],
+          "explanation": "Strassenbeleuchtung ist eine öffentliche Leistung: Sie leuchtet für alle, ob sie zahlen oder nicht. Eine private Firma fände deshalb kaum zahlende Kundschaft – alle würden darauf warten, dass jemand anderes zahlt. Solche Leistungen liefert der Markt nicht, obwohl alle sie wollen; darum finanziert sie die Gemeinschaft über Steuern. Mit Technik oder Verboten hat das nichts zu tun, und der Staat handelt hier nicht aus Besitzdenken, sondern weil der Markt an dieser Stelle versagt."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was ist eine Steuer?",
+          "options": [
+            {
+              "text": "Eine Pflichtabgabe an den Staat, der keine direkte Gegenleistung gegenübersteht.",
+              "correct": true
+            },
+            {
+              "text": "Ein freiwilliger Beitrag, mit dem man den Staat unterstützen kann."
+            },
+            {
+              "text": "Eine Abgabe, für die man eine bestimmte Leistung erhält – etwa einen neuen Pass."
+            },
+            {
+              "text": "Eine Strafe, die nur zahlt, wer Regeln verletzt hat."
+            }
+          ],
+          "explanation": "Steuern sind Pflicht – freiwillig sind höchstens Spenden. Und sie fliessen in den grossen gemeinsamen Topf, ohne dass du dafür eine bestimmte Einzelleistung bekommst. Genau das unterscheidet sie von der Gebühr (dort zahlst du für eine konkrete Gegenleistung, etwa den Pass) und von der Busse (die ist eine Strafe für einen Regelverstoss, keine Finanzierungsquelle des Alltags)."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Du kaufst im Laden ein Getränk für CHF 2.50. Welche Steuer steckt in diesem Preis?",
+          "options": [
+            {
+              "text": "Die Einkommenssteuer der Verkäuferin."
+            },
+            {
+              "text": "Gar keine – Steuern zahlt man nur einmal im Jahr mit der Steuerrechnung."
+            },
+            {
+              "text": "Die Unternehmenssteuer, die der Laden auf jedes verkaufte Getränk zahlt."
+            },
+            {
+              "text": "Die Mehrwertsteuer – sie ist im Verkaufspreis enthalten, und der Laden führt sie an den Staat ab.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die Mehrwertsteuer ist eine indirekte Steuer: Du trägst sie beim Einkauf im Preis mit, das Geschäft leitet sie an den Staat weiter. Nur die direkte Einkommenssteuer läuft über die jährliche Steuerrechnung – beim Konsum zahlst du dagegen bei fast jedem Einkauf Steuern mit. Die Unternehmenssteuer fällt nicht pro verkauftem Getränk an, sondern auf den Gewinn, der am Ende des Jahres übrig bleibt, und die Einkommenssteuer der Verkäuferin hat mit deinem Getränkepreis nichts zu tun."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Worauf zahlt ein Unternehmen die Unternehmenssteuer?",
+          "options": [
+            {
+              "text": "Auf jeden einzelnen Verkauf, den es macht."
+            },
+            {
+              "text": "Auf seinen Gewinn – also auf das, was nach Abzug aller Kosten übrig bleibt.",
+              "correct": true
+            },
+            {
+              "text": "Auf die Löhne, die es seinen Angestellten zahlt."
+            },
+            {
+              "text": "Auf das Geld, das es bei der Bank auf dem Konto hat."
+            }
+          ],
+          "explanation": "Besteuert wird der Gewinn: Einnahmen minus alle Kosten (Löhne, Material, Miete …). Deshalb gilt auch: kein Gewinn, keine Gewinnsteuer. Eine Abgabe pro Verkauf wäre die Logik der Mehrwertsteuer, nicht der Unternehmenssteuer. Die Löhne sind für das Unternehmen Kosten – versteuert werden sie von den Angestellten selbst als Einkommen, nicht vom Betrieb."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Ein Staat nimmt in einem Jahr 950 Millionen CHF ein und gibt 1000 Millionen CHF aus. Was trifft zu?",
+          "options": [
+            {
+              "text": "Er hat ein Defizit von 50 Millionen CHF – er gab mehr aus, als er einnahm.",
+              "correct": true
+            },
+            {
+              "text": "Er hat einen Überschuss von 50 Millionen CHF."
+            },
+            {
+              "text": "Er hat damit automatisch Staatsschulden von 1000 Millionen CHF."
+            },
+            {
+              "text": "Sein Budget ist ausgeglichen, weil sich die Beträge ungefähr entsprechen."
+            }
+          ],
+          "explanation": "Ausgaben (1000) minus Einnahmen (950) ergibt ein Loch von 50 Millionen CHF – ein Defizit. Ein Überschuss wäre es genau umgekehrt. Die Staatsschulden sind nicht dasselbe wie das Defizit eines einzelnen Jahres: Sie entstehen, wenn solche Löcher über Jahre mit geliehenem Geld gestopft werden – wie hoch sie hier sind, verrät die Aufgabe gar nicht. Und «ungefähr gleich» zählt beim Budget nicht: 50 Millionen CHF Unterschied sind ein echtes Defizit."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Was sind Staatsschulden?",
+          "options": [
+            {
+              "text": "Das Geld, das die Bürgerinnen und Bürger dem Staat noch an Steuern schulden."
+            },
+            {
+              "text": "Die gesamten Ausgaben eines Staates in einem Jahr."
+            },
+            {
+              "text": "Dasselbe wie ein Defizit – nur ein anderes Wort."
+            },
+            {
+              "text": "Geld, das sich der Staat – oft über viele Jahre mit Defiziten – geliehen hat und samt Zinsen zurückzahlen muss.",
+              "correct": true
+            }
+          ],
+          "explanation": "Staatsschulden sind aufgelaufenes geliehenes Geld: Jedes Defizit, das mit einem Kredit gestopft wird, lässt den Schuldenberg wachsen – und wie bei jedem Kredit (Modul 12) kommen Zinsen dazu, die künftige Budgets belasten. Das Defizit beschreibt dagegen nur das Loch eines einzelnen Jahres, und mit ausstehenden Steuerrechnungen der Bürgerinnen und Bürger oder den Jahresausgaben haben die Staatsschulden nichts zu tun."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Warum ist das Mitmachen beim Sozialstaat – etwa bei der AHV – Pflicht und nicht freiwillig?",
+          "options": [
+            {
+              "text": "Weil der Staat so möglichst viel zusätzliches Steuergeld einnimmt."
+            },
+            {
+              "text": "Weil die Versicherungslogik nur aufgeht, wenn alle einzahlen – sonst stünden am Ende genau jene ohne Schutz da, die ihn am nötigsten hätten.",
+              "correct": true
+            },
+            {
+              "text": "Weil private Versicherungen bei uns verboten sind."
+            },
+            {
+              "text": "Weil junge Menschen sonst ihr ganzes Geld sparen würden."
+            }
+          ],
+          "explanation": "Eine Versicherung lebt davon, dass viele einzahlen (Modul 11). Wäre der Sozialstaat freiwillig, würden sich viele Junge und Gesunde die Beiträge sparen – der gemeinsame Topf bliebe leer, und wer das Pech eines grossen Lebensrisikos hat, stünde ohne Absicherung da. AHV-Beiträge sind übrigens keine Steuern, sondern Versicherungsbeiträge, private Versicherungen gibt es daneben selbstverständlich weiterhin – und um das Sparverhalten der Jungen geht es bei der Pflicht nicht."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Was geschieht mit den AHV-Beiträgen, die Erwerbstätige heute einzahlen?",
+          "options": [
+            {
+              "text": "Sie werden für jede Person einzeln auf einem persönlichen Konto angespart, bis sie alt ist."
+            },
+            {
+              "text": "Sie gehören dem Staat, und er darf sie frei für Strassen oder Schulen ausgeben."
+            },
+            {
+              "text": "Sie finanzieren vor allem die Renten der Menschen, die heute pensioniert sind.",
+              "correct": true
+            },
+            {
+              "text": "Sie verfallen, wenn man sie nicht bis zur Pensionierung abholt."
+            }
+          ],
+          "explanation": "Die AHV funktioniert im Kern als Umlage: Was heute einbezahlt wird, fliesst im Wesentlichen direkt an die heutigen Rentnerinnen und Rentner. Ein persönliches Sparkonto ist sie gerade nicht – das ist einer der häufigsten Irrtümer. Zweckentfremden darf der Staat die Beiträge nicht: Sie sind für die Versicherung reserviert und landen nicht im allgemeinen Topf für Strassen oder Schulen. Und verfallen können deine Ansprüche auch nicht – wer einzahlt, erwirbt damit den Anspruch auf die spätere Rente."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-staat-budget",
+      "title": "Setze die Begriffe ein: Staat, Steuern und Budget",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Der Markt liefert vieles – aber nicht alles: Strassen, Schulen und Sicherheit stellt der {{1}} bereit. Er setzt ausserdem {{2}} für das Wirtschaftsleben und sichert Schwächere ab. Bezahlt wird das vor allem über {{3}}. Auf Lohn und Verdienst zahlst du die {{4}}. Bei fast jedem Einkauf steckt die {{5}} bereits im Preis. Firmen zahlen auf ihren Gewinn die {{6}}. Nimmt der Staat mehr ein, als er ausgibt, entsteht ein {{7}}. Gibt er mehr aus, als er einnimmt, entsteht ein {{8}}. Leiht er sich dafür über Jahre immer wieder Geld, wachsen die {{9}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Staat"
+          ]
+        },
+        {
+          "antworten": [
+            "Regeln"
+          ]
+        },
+        {
+          "antworten": [
+            "Steuern"
+          ]
+        },
+        {
+          "antworten": [
+            "Einkommenssteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Mehrwertsteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmenssteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Überschuss"
+          ]
+        },
+        {
+          "antworten": [
+            "Defizit"
+          ]
+        },
+        {
+          "antworten": [
+            "Staatsschulden"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Spenden",
+        "Miete",
+        "Taschengeld"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-budget-eingabe",
+      "title": "Tippe die Begriffe ein: Die Grundbegriffe sitzen",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Der Sozialstaat funktioniert wie eine grosse {{1}}: Viele zahlen ein, und wer von einem Lebensrisiko getroffen wird, erhält Leistungen. Die staatliche Altersrente heisst bei uns kurz {{2}}. Nimmt ein Staat mehr ein, als er ausgibt, spricht man von einem {{3}}. Im umgekehrten Fall entsteht ein {{4}}. Die Steuer, die bei fast jedem Einkauf im Preis steckt, ist die {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Versicherung"
+          ]
+        },
+        {
+          "antworten": [
+            "AHV"
+          ]
+        },
+        {
+          "antworten": [
+            "Überschuss",
+            "Ueberschuss"
+          ]
+        },
+        {
+          "antworten": [
+            "Defizit",
+            "Fehlbetrag"
+          ]
+        },
+        {
+          "antworten": [
+            "Mehrwertsteuer",
+            "MWST"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-steuerart",
+      "title": "Zuordnen: Welche Steuer ist das?",
+      "intro": "Ordne jede Situation der passenden Steuerart zu: **Einkommenssteuer**, **Mehrwertsteuer** oder **Unternehmenssteuer**. Jede Steuerart kommt genau dreimal vor.",
+      "modus": "wortbank",
+      "text": "Lena kauft am Kiosk ein Sandwich – ein Teil des Preises geht als Steuer an den Staat. {{1}}\nHerr Brunner gibt in seiner jährlichen Steuererklärung seinen Lohn an und erhält danach die Steuerrechnung. {{2}}\nEin Möbelhersteller hat nach Abzug aller Kosten zwei Millionen CHF verdient und zahlt darauf Steuern. {{3}}\nAuf der Handy-Quittung ist eine Steuer aufgeführt, die im Verkaufspreis bereits enthalten war. {{4}}\nEine Ärztin zahlt auf ihr Jahreseinkommen Steuern. {{5}}\nEin Start-up schreibt zum ersten Mal Gewinn – nun wird darauf eine Steuer fällig. {{6}}\nBeim Kinoticket zahlst du die Steuer mit, ohne es zu merken – sie steckt im Preis. {{7}}\nFrau Meier bekommt eine Lohnerhöhung – ihre jährliche Steuerrechnung wird dadurch höher. {{8}}\nDie Bäckerei Sonnenblick zahlt Steuern auf ihren Jahresgewinn. {{9}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Mehrwertsteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Einkommenssteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmenssteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Mehrwertsteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Einkommenssteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmenssteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Mehrwertsteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Einkommenssteuer"
+          ]
+        },
+        {
+          "antworten": [
+            "Unternehmenssteuer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Der Staat in deinem Alltag",
+      "tasks": [
+        {
+          "prompt": "Staats-Spurensuche: Geh deinen heutigen Tag von Aufstehen bis jetzt durch und notiere **fünf Dinge, die der Staat bereitstellt oder mitfinanziert** hat. Ordne jedes davon einem Ausgabenbereich aus der Budget-Grafik zu (Bildung, Strassen und Verkehr, Sicherheit, Gesundheit, Soziales).",
+          "hint": "Denk nicht nur an Gebäude: Auch Menschen (Lehrpersonen, Polizei), Leitungen unter der Strasse (Wasser, Abwasser) und Regeln (geprüfte Lebensmittel, sichere Elektrogeräte) gehören dazu.",
+          "solution": "Beispielantwort: (1) Trinkwasser aus dem Hahn – Strassen und Verkehr/Infrastruktur, (2) Schulweg auf Strasse und Trottoir – Strassen und Verkehr, (3) Unterricht mit Lehrperson – Bildung, (4) Streifenwagen der Landespolizei – Sicherheit, (5) Impftermin im Gesundheitsamt – Gesundheit. Wichtig ist, dass deine fünf Beispiele wirklich (mit)staatlich finanziert sind und die Zuordnung zum Ausgabenbereich nachvollziehbar begründet ist."
+        },
+        {
+          "prompt": "Mini-Budget: Die erfundene Gemeinde Musterberg rechnet für nächstes Jahr mit Einnahmen von 10 Millionen CHF (8 Mio. aus Steuern, 2 Mio. aus Gebühren). Geplante Ausgaben: Schule 4 Mio., Strassen 2,5 Mio., Sicherheit 1 Mio., Verwaltung 1,5 Mio. – zusätzlich wünscht sich der Jugendrat einen neuen Jugendtreff für 1,5 Mio. CHF. Rechne: Geht das Budget mit Jugendtreff auf – Überschuss oder Defizit, und wie gross? Nenne danach drei verschiedene Möglichkeiten, wie Musterberg mit dem Ergebnis umgehen könnte, und je eine Folge jeder Möglichkeit.",
+          "hint": "Zähle zuerst alle Ausgaben inklusive Jugendtreff zusammen und vergleiche mit den Einnahmen. Für die Möglichkeiten hilft das Modul: sparen (aber wo?), Einnahmen erhöhen (aber wer zahlt?), Geld leihen (aber was kommt später dazu?).",
+          "solution": "Ausgaben mit Jugendtreff: 4 + 2,5 + 1 + 1,5 + 1,5 = 10,5 Mio. CHF bei 10 Mio. CHF Einnahmen – ein Defizit von 0,5 Mio. CHF. Drei mögliche Wege: (1) Sparen, z. B. den Jugendtreff kleiner planen oder den Strassenunterhalt strecken – Folge: Jemand verzichtet, das gibt politischen Streit. (2) Einnahmen erhöhen, z. B. höhere Steuern oder Gebühren – Folge: Haushalte und Firmen haben weniger im Portemonnaie. (3) Die 0,5 Mio. CHF leihen – Folge: Musterberg macht Schulden, die samt Zinsen künftige Budgets belasten; für ein Gebäude, das lange genutzt wird, kann das trotzdem vertretbar sein. Es gibt kein einzig richtiges Ergebnis – wichtig ist, dass Rechnung und Folgen stimmen."
+        },
+        {
+          "prompt": "Erkläre es jemandem: Erkläre einer Person aus deinem Umfeld in höchstens fünf Sätzen, warum der Sozialstaat «eine grosse Versicherung» ist – verwende dabei die Wörter Risiko, einzahlen, Leistung und Pflicht. Erstelle anschliessend eine eigene Quizfrage im Stil dieses Moduls (mit vier Antworten, genau eine richtig) zu einem Steuer- oder Budget-Begriff, die einen typischen Denkfehler als falsche Antwort einbaut.",
+          "hint": "Für die Quizfrage: Die besten falschen Antworten sind Sätze, die man oft hört, die aber nicht stimmen – etwa «Die AHV spart mein Geld auf meinem eigenen Konto an» oder «Defizit und Schulden sind dasselbe».",
+          "solution": "Beispielerklärung: «Es gibt Risiken, die jeden treffen können – alt werden, krank werden, den Job verlieren. Gegen diese Risiken zahlen alle, die arbeiten, Pflichtbeiträge ein. Wer dann wirklich betroffen ist, bekommt eine Leistung, zum Beispiel eine Rente. Weil alle mitmachen müssen, ist der Topf gross genug – genau wie bei einer Versicherung, nur für das ganze Land.» Deine Quizfrage ist gelungen, wenn genau eine Antwort korrekt ist, die falschen Antworten echte Denkfehler enthalten (nicht offensichtlich absurd sind) und die Erklärung dazu den Fehler auflöst."
+        }
+      ]
+    }
+  ]
+}
