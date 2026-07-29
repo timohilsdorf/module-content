@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-17-dark-patterns",
+  "title": "Dark Patterns: Wie uns Apps und Shops manipulieren",
+  "description": "«Nur noch 2 Stück verfügbar!», «Angebot endet in 09:58» – solche Anzeigen sind selten Zufall und oft Absicht. Im siebzehnten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du Dark Patterns kennen: absichtlich manipulative Gestaltung von Apps, Games und Onlineshops. Du erkennst die wichtigsten Muster, verstehst, warum sie bei allen Menschen wirken, diskutierst, ob der Staat sie verbieten soll – und nimmst Strategien mit, mit denen du dich schwerer manipulieren lässt.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 17,
+  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Dark Patterns",
+    "Manipulation",
+    "Onlineshopping",
+    "Künstliche Verknappung",
+    "Countdown-Timer",
+    "Versteckte Kosten",
+    "Abo-Falle",
+    "Confirmshaming",
+    "Lootbox",
+    "In-App-Käufe",
+    "Streak",
+    "Konsumentenschutz"
+  ],
+  "learningObjectives": [
+    "Ich kann erklären, was Dark Patterns sind – absichtlich manipulative Gestaltung von Apps, Games und Onlineshops – und die wichtigsten Muster an Beispielen erkennen: künstliche Verknappung, Countdown-Timer, versteckte Kosten, Abo-Falle, voreingestellte Häkchen und Confirmshaming.",
+    "Ich kann Spielmechaniken wie Lootboxen, In-App-Käufe, künstliche Wartezeiten und Tages-Streaks als Konsum-Manipulation einordnen.",
+    "Ich kann erklären, warum diese Muster wirken: Zeitdruck schaltet das Nachdenken aus, Verlustangst und sozialer Druck lenken die Entscheidung.",
+    "Ich kann zur Frage, ob der Staat solche Praktiken verbieten soll, mit Argumenten Position beziehen – und ich weiss, dass Verbraucherschutzregeln in der EU bestimmte Praktiken bereits verbieten und das Thema politisch umkämpft bleibt.",
+    "Ich kenne Handlungsstrategien gegen Dark Patterns: warten statt sofort klicken, den Endpreis prüfen, den Kündigungsweg vor dem Abschluss anschauen und Ausgabenlimits für In-App-Käufe setzen."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    },
+    {
+      "code": "WAH.3.3",
+      "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    },
+    {
+      "code": "MI.1.2",
+      "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Verbraucherzentrale – Dark Patterns: So wollen Websites und Apps Sie manipulieren",
+      "url": "https://www.verbraucherzentrale.de/wissen/digitale-welt/onlinedienste/dark-patterns-so-wollen-websites-und-apps-sie-manipulieren-58082"
+    },
+    {
+      "title": "Stiftung für Konsumentenschutz (Schweiz) – Was sind Dark Patterns und wie erkennen Sie sie?",
+      "url": "https://www.konsumentenschutz.ch/online-ratgeber/was-sind-dark-patterns-und-wie-erkennen-sie-sie/"
+    },
+    {
+      "title": "klicksafe – Manipulieren Mobile Games unsere Kinder? (Podcast-Folge zu Dark Patterns in Games)",
+      "url": "https://www.klicksafe.de/materialien/folge-5-manipulieren-mobile-games-unsere-kinder"
+    },
+    {
+      "title": "deceptive.design – Sammlung manipulativer Design-Muster, begründet von Harry Brignull (englisch)",
+      "url": "https://www.deceptive.design/"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
+    "wirtschaft-politik-09-argumentieren-preisregulierung",
+    "wirtschaft-politik-15-schuldenfallen-digitales-bezahlen"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "«Nur noch 2 Stück verfügbar!»",
+      "body": "Du kennst die Szene: In der App eines Sneaker-Shops leuchtet neben deinem Wunschmodell «Nur noch 2 Stück verfügbar!», darüber zählt ein Timer rückwärts. Auf einer Flugbuchungs-Seite steht «Noch 3 Plätze zu diesem Preis», und ein bekanntes Handygame erinnert dich: «Spiele heute, sonst verlierst du deine Serie!» Drei verschiedene Apps – und dreimal dasselbe Ziel: Du sollst **jetzt** handeln, nicht nachdenken.\n\nSolche Elemente heissen **Dark Patterns** (englisch für «dunkle Muster»): Bedienoberflächen, die **absichtlich so gestaltet sind, dass du Dinge tust, die vor allem dem Anbieter nützen** – schneller kaufen, mehr zustimmen, länger bleiben, später kündigen. Der britische Designer Harry Brignull sammelt solche Tricks seit 2010 und hat ihnen den Namen gegeben.\n\nZwei Dinge vorweg, damit das Modul nüchtern bleibt:\n\n- Dark Patterns sind **kein Geheimplan finsterer Mächte**, sondern das Ergebnis ganz normaler Arbeit: Shops und Apps testen laufend verschiedene Gestaltungen gegeneinander – und was mehr Umsatz bringt, bleibt. Manipulation kann sich so Schritt für Schritt einschleichen, ohne dass je jemand «Manipulation» gesagt hat.\n- **Nicht jede Werbung ist ein Dark Pattern.** Werbung sagt offen: «Kauf mich!» Ein Dark Pattern dagegen lenkt dich verdeckt – es baut die Entscheidungssituation so um, dass der Weg des Anbieters der leichteste ist.\n\nEs geht hier also nicht darum, dir das Shoppen oder Gamen zu vermiesen. Es geht darum, die Muster zu **erkennen** – denn wer sie erkennt, entscheidet wieder selbst."
+    },
+    {
+      "type": "text",
+      "title": "Sechs Muster, die du überall wiederfindest",
+      "body": "Diese sechs Tricks begegnen dir in Onlineshops, Buchungs-Seiten und Apps am häufigsten – die Nummern findest du gleich im Suchbild wieder:\n\n1. **Countdown-Timer:** «Angebot endet in 09:58!» Eine rückwärtslaufende Uhr erzeugt Zeitdruck. Häufig ist die Frist Kulisse: Nach Ablauf gilt derselbe Preis weiter – oder der nächste Countdown beginnt.\n2. **Künstliche Verknappung:** «Nur noch 2 Stück verfügbar!», «Nur noch 1 Zimmer zu diesem Preis!» Ob das stimmt, kannst du von aussen nicht prüfen – die Angst, leer auszugehen, wirkt trotzdem.\n3. **Voreingestellte Häkchen:** Newsletter, Zusatzversicherung, Spende – das Kästchen ist schon angekreuzt, und wer nicht genau hinschaut, bestellt mit. Der Trick rechnet mit deiner Bequemlichkeit.\n4. **Abo-Falle (erschwertes Kündigen):** Der Abschluss geht in zwei Klicks, die Kündigung braucht Anruf, Brief oder eine Suche durch verschachtelte Menüs. Je mühsamer der Ausstieg, desto länger zahlst du.\n5. **Versteckte Kosten:** Der Artikel kostet CHF 89.90 – aber im letzten Bestellschritt kommen Versand und eine «Service-Gebühr» dazu. Genau dort, wo deine Kaufentscheidung innerlich schon gefallen ist.\n6. **Confirmshaming:** Der Ja-Knopf ist gross und bunt, die Ablehnung ist klein, grau – und beschämend formuliert: «Nein danke, ich zahle lieber zu viel.» Ablehnen soll sich dumm anfühlen.\n\nSchau dir nun das Suchbild an: ein einziger, erfundener Bestell-Screen – mit allen sechs Mustern auf einmal."
+    },
+    {
+      "type": "image",
+      "title": "Suchbild: Sechs Tricks in einem Bestell-Screen",
+      "src": "/content/wirtschaft-politik-17-dark-patterns/dark-patterns-suchbild.png",
+      "alt": "Nachgebauter Bestell-Screen eines erfundenen Onlineshops mit sechs orange nummerierten Markern und einer Legende rechts. Der Screen zeigt die Kasse, Schritt 3 von 3. Marker 1, Countdown-Timer: Ganz oben läuft ein oranges Banner mit Uhr-Symbol und dem Text «Blitz-Angebot endet in 09:58 – nur heute!». Marker 2, künstliche Verknappung: Beim Produkt Sneaker «Blitz 3», Grösse 42 für CHF 89.90 leuchtet eine orange Plakette «Nur noch 2 Stück verfügbar!». Marker 3, voreingestelltes Häkchen: Das Kästchen «Newsletter und Angebote unserer Partner erhalten» ist bereits angekreuzt. Marker 4, Abo-Falle: Auch das Kästchen «PLUS-Abo testen: 30 Tage gratis, danach CHF 9.90/Monat» ist vorangekreuzt, darunter steht klein und grau «Kündigung nur telefonisch zu Bürozeiten möglich». Marker 5, versteckte Kosten: In der Bestellübersicht stehen Zwischensumme CHF 89.90 und Versand CHF 12.90, dazu orange hervorgehoben eine Service-Gebühr von CHF 4.90 mit dem Vermerk «neu in diesem Schritt» – Total CHF 107.70. Marker 6, Confirmshaming: Ein Dialog fragt «Spar-Club beitreten und CHF 5 Rabatt sichern?» – der Ja-Knopf ist gross und grün («Ja, Rabatt sichern!»), die Ablehnung nur ein kleiner grauer Link mit dem Text «Nein danke, ich zahle lieber zu viel». Die Legende rechts benennt die sechs Tricks: 1 Countdown-Timer (Zeitdruck), 2 künstliche Verknappung (Verlustangst), 3 voreingestelltes Häkchen (Bequemlichkeit), 4 Abo-Falle (leicht hinein, schwer hinaus), 5 versteckte Kosten (der Preis wächst im letzten Schritt), 6 Confirmshaming (Ablehnen wird peinlich formuliert). Eine Fusszeile erklärt: Erfundener Shop, erfundene Marke – aber alle sechs Tricks sind aus echten Apps und Shops nachgebaut.",
+      "caption": "Ein erfundener Bestell-Screen, sechs echte Tricks: Die Marker 1–6 zeigen, wo dieser Shop dich lenkt. In Aufgabe 1 nimmst du jeden einzeln auseinander.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Wenn das Spiel zum Verkäufer wird",
+      "body": "Auch Games verkaufen – nur geschickter als jeder Laden. Viele Handygames sind gratis spielbar («free to play») und verdienen ihr Geld erst **im** Spiel. Vier Mechaniken solltest du kennen:\n\n- **Lootboxen:** Du kaufst für echtes Geld eine Kiste – was drin ist, entscheidet der Zufall. Meistens ist es wertloser Kleinkram, selten etwas Begehrtes. Genau dieses «Fast hätte ich gewonnen!» ist der Mechanismus von Glücksspielautomaten – darum gelten Lootboxen als **glücksspielähnlich**, obwohl sie in Games für alle Altersstufen stecken.\n- **In-App-Käufe:** CHF 2 für Kristalle hier, CHF 5 für einen Booster da. Jeder Betrag ist winzig, die Summe siehst du erst auf der Abrechnung – aus Modul 15 kennst du den Grund: Der «Schmerz des Bezahlens» fehlt, und im Spiel ist er besonders klein, weil du oft nicht einmal Franken, sondern zuvor gekaufte «Kristalle» ausgibst.\n- **Künstliche Wartezeiten:** «Deine Werkstatt ist in 7 Stunden fertig – oder sofort für 60 Rubine.» Die Wartezeit ist kein technisches Problem, sondern absichtlich eingebaut: Erst sie macht die Abkürzung zu Geld wert.\n- **Tages-Streaks:** «Deine Serie: 41 Tage!» Wer einen Tag aussetzt, verliert die Serie. Die Serie ist nichts Reales – aber sie zu verlieren, fühlt sich nach Verlust an. So holt dich das Spiel jeden Tag zurück, und wer täglich da ist, gibt eher Geld aus.\n\nNüchtern betrachtet ist das ein Geschäftsmodell: Solche Spiele sind oft so gebaut, dass wenige Vielzahlende einen Grossteil des Umsatzes bringen. Die Mechaniken sind darauf optimiert, aus Spielzeit Bindung und aus Bindung Käufe zu machen – bei Erwachsenen wie bei Vierzehnjährigen."
+    },
+    {
+      "type": "text",
+      "title": "Warum das bei allen wirkt – nicht nur bei «Naiven»",
+      "body": "Dark Patterns funktionieren nicht, weil Menschen dumm wären. Sie funktionieren, weil sie an ganz normalen Reaktionen ansetzen, die alle haben:\n\n- **Zeitdruck schaltet das Nachdenken aus.** Wer nur Sekunden hat, entscheidet aus dem Bauch – gründliches Abwägen braucht Zeit, und genau die nimmt dir der Countdown. Das ist der gemeinsame Kern von Timer und Verknappung: Eile erzeugen, wo keine nötig wäre.\n- **Verlustangst wiegt schwerer als Gewinnfreude.** Etwas zu **verpassen** oder zu **verlieren** fühlt sich schlimmer an, als etwas nicht zu bekommen. «Nur noch 2 Stück» droht mit Verpassen, der Streak droht mit Verlieren – beides drückt denselben Knopf.\n- **Sozialer Druck:** «23 andere schauen sich diesen Artikel gerade an.» Was viele tun, wirkt automatisch richtig und dringlich – auch wenn dich die 23 anderen gar nichts angehen.\n- **Bequemlichkeit:** Der vorgezeichnete Weg ist der leichteste. Voreingestellte Häkchen bleiben angekreuzt, der grosse bunte Knopf wird gedrückt – nicht aus Überzeugung, sondern weil alles andere Aufwand bedeutet.\n\nDazu kommt, was du aus Modul 15 kennst: Beim digitalen Bezahlen fehlt der **Schmerz des Bezahlens** – die Bremse ist also schon gelöst, bevor der erste Trick überhaupt ansetzt.\n\nWichtig ist der nüchterne Schluss daraus: Diese Reaktionen lassen sich nicht abtrainieren, und das muss auch nicht sein. Der Schutz liegt nicht darin, «stärker» zu sein als dein Bauchgefühl – sondern darin, die Situation zu **erkennen** und ihr die Eile zu nehmen."
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "Lm5mKigtHB4",
+      "title": "Video: So wollen Websites und Apps uns manipulieren",
+      "description": "Das Erklärvideo (4:07) der Verbraucherzentrale Rheinland-Pfalz fasst zusammen, was Dark Patterns sind, und zeigt weitere Beispiele aus Websites und Apps. Achte beim Schauen auf zwei Leitfragen: (1) Welche der sechs Muster aus diesem Modul erkennst du im Video wieder – und welche Tricks kommen vor, die du noch nicht kanntest? (2) Welche Schutztipps nennt der Experte? Merke sie dir und vergleiche sie mit den vier Strategien am Ende dieses Moduls.",
+      "startSeconds": 0,
+      "transcript": "Der Beitrag der Verbraucherzentrale Rheinland-Pfalz (4:07) erklärt, was Dark Patterns sind: manipulativ gestaltete Websites und Apps, die Nutzerinnen und Nutzer zu Handlungen drängen, die sie eigentlich nicht wollten – etwa zur Preisgabe persönlicher Daten oder zum unbemerkten Abschluss von Abos und Verträgen. Ein Experte des Fachbereichs Digitales erklärt, warum Anbieter solche Tricks einsetzen, und gibt konkrete Tipps zum Schutz: aufmerksam lesen statt schnell klicken – und im Zweifel den Vorgang abbrechen. Das Video verweist auf einen vertiefenden Beitrag auf der Website der Verbraucherzentrale."
+    },
+    {
+      "type": "text",
+      "title": "Verbieten oder hinnehmen? Die politische Frage",
+      "body": "Wenn Manipulation so verbreitet ist – warum gibt es sie dann noch? Aus Modul 8 kennst du die Antwort des Marktes: Wettbewerb diszipliniert Anbieter, **weil die Kundschaft ausweichen kann**. Genau hier setzen Dark Patterns an: Erschwertes Kündigen macht das Ausweichen mühsam, und wenn fast alle grossen Anbieter dieselben Tricks nutzen, gibt es kaum ein «Woandershin». Manipulation gedeiht dort, wo Wettbewerbs- und Regulierungsdruck fehlen – und damit wird sie zur **politischen Frage**: Soll der Staat solche Praktiken verbieten?\n\nDer Stand heute, ganz knapp: **In der EU verbieten Verbraucherschutzregeln bestimmte Praktiken bereits.** Der Gesamtpreis muss vor der Bestellung ersichtlich sein, ein Bestell-Knopf muss klar machen, dass Bezahlen folgt, voreingestellte Häkchen für Zusatzkosten sind unzulässig – und neuere EU-Regeln verbieten Online-Plattformen, ihre Nutzerinnen und Nutzer durch absichtlich irreführendes Design zu täuschen. Die klassischen Einkaufs-Regeln gelten über den EWR – den Europäischen Wirtschaftsraum, dem Liechtenstein seit 1995 angehört – auch bei uns; die neueren Plattform-Regeln sind für den EWR noch in Arbeit. **Einzelne Länder haben zudem Lootboxen eingeschränkt**, weil sie sie als Glücksspiel einstufen.\n\nErledigt ist die Sache damit nicht – das Thema ist **umkämpft und in Bewegung**:\n\n- **Für strengere Verbote** spricht: Die Muster nutzen normale menschliche Reaktionen gezielt aus, treffen Jugendliche besonders – und ein einzelner Nutzer kann sich gegen getestete Manipulation kaum wehren.\n- **Dagegen** spricht: Die Grenze ist schwer zu ziehen – wo endet geschicktes Verkaufen, wo beginnt Manipulation? Ein Schaufenster ist schliesslich auch kein neutraler Ort. Und Regeln, die zu grob geraten, treffen auch harmlose Gestaltung.\n- Sicher ist nur: Anbieter erfinden laufend neue Varianten, Regeln ziehen nach, und durchgesetzt werden sie nicht überall – manches, was du im Suchbild siehst, wäre heute schon unzulässig und begegnet dir trotzdem. Ein Wettlauf, der so schnell nicht endet.\n\nEine fertige Antwort gibt es hier nicht – in Aufgabe 2 baust du dir deine eigene."
+    },
+    {
+      "type": "text",
+      "title": "Vier Strategien, die dich schwer manipulierbar machen",
+      "body": "Gegen getestete Tricks hilft kein Vorsatz («Ich lasse mich nicht manipulieren!»), sondern Routine. Vier Strategien reichen für die meisten Fälle:\n\n1. **Warten statt klicken.** Läuft ein Countdown oder blinkt eine Verknappung: bewusst ignorieren und **einen Tag warten**. Was du morgen immer noch willst, kaufst du in Ruhe – und fast immer zum selben Preis. Echte Bedürfnisse überleben eine Nacht, künstliche Dringlichkeit nicht.\n2. **Endpreis prüfen.** Vor dem Kauf-Knopf einmal den Warenkorb lesen: Zwischensumme, Versand, Gebühren, angekreuzte Extras. Zählt der Endpreis nicht zusammen, was dir vorher versprochen wurde, ist das deine letzte und beste Ausstiegsstelle.\n3. **Kündigungsweg vor dem Abschluss anschauen.** Bevor du ein Abo startest – auch einen Gratismonat –, such den Weg hinaus: Wo kündigt man, wie schnell, mit wie vielen Klicks? Ist der Ausstieg versteckt oder nur telefonisch möglich, sagt dir das mehr über den Anbieter als jede Werbung. Und aus Modul 15 kennst du den Handgriff dazu: beim Abschluss gleich die Kündigungs-Erinnerung ins Handy.\n4. **Ausgabenlimit für In-App-Käufe.** In den Einstellungen von Handy oder Konto lässt sich ein Limit oder eine Kaufbestätigung einrichten – das holt den fehlenden «Schmerz des Bezahlens» als Hürde zurück. Das Budget aus Modul 14 liefert dir die passende Zahl dazu.\n\nUnd quer durch alles: **Benenn den Trick, wenn du ihn siehst.** «Aha, Confirmshaming.» Wer das Muster laut beim Namen nennt, hat den Autopiloten schon verlassen – und entscheidet wieder selbst."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Dark Patterns durchschauen",
+      "intro": "Acht Fragen zu Mustern, Mechanismen und der politischen Dimension. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Was sind Dark Patterns?",
+          "options": [
+            {
+              "text": "Illegale Schadprogramme, die Kriminelle in Onlineshops einschleusen."
+            },
+            {
+              "text": "Der dunkle Anzeigemodus, den viele Apps am Abend automatisch einschalten."
+            },
+            {
+              "text": "Absichtlich so gestaltete Bedienoberflächen, dass Nutzerinnen und Nutzer Dinge tun, die vor allem dem Anbieter nützen.",
+              "correct": true
+            },
+            {
+              "text": "Werbebanner, die Produkte zeigen, nach denen man vorher gesucht hat."
+            }
+          ],
+          "explanation": "Dark Patterns sind Design, keine Schadsoftware: ganz normale Knöpfe, Häkchen und Texte – nur eben so gebaut, dass der Weg des Anbieters der leichteste ist. Mit Kriminalität hat das meist nichts zu tun; vieles davon ist legal, und genau darüber wird politisch gestritten. Der dunkle Anzeigemodus («Dark Mode») teilt nur zufällig das Wort «dark» und ist eine harmlose Bildschirm-Einstellung. Und personalisierte Werbung zeigt offen, dass sie Werbung ist – ein Dark Pattern dagegen lenkt verdeckt."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Ein Shop zeigt: «Blitz-Angebot endet in 09:58». Was weisst du über solche Countdown-Timer?",
+          "options": [
+            {
+              "text": "Sie sollen Zeitdruck erzeugen – häufig ist die Frist Kulisse, und nach Ablauf gilt derselbe Preis weiter.",
+              "correct": true
+            },
+            {
+              "text": "Countdown-Timer zeigen den echten Lagerbestand des Shops an."
+            },
+            {
+              "text": "Nach Ablauf des Timers wird das Produkt automatisch teurer – deshalb lohnt sich schnelles Zugreifen."
+            },
+            {
+              "text": "Solche Timer sind in Europa längst überall verboten und kommen praktisch nicht mehr vor."
+            }
+          ],
+          "explanation": "Der Countdown hat einen einzigen Zweck: Eile. Wer nur Minuten zu haben glaubt, entscheidet aus dem Bauch statt mit dem Kopf. Ob nach Ablauf wirklich etwas passiert, kannst du von aussen nicht prüfen – oft läuft dasselbe Angebot weiter oder der nächste Timer startet. Mit dem Lagerbestand hat die Uhr nichts zu tun (das wäre die künstliche Verknappung, und auch deren Zahlen sind nicht überprüfbar). Automatisch teurer wird es nach Ablauf gerade nicht zwingend – das ist die Drohung, die der Timer nur behauptet. Und verboten sind Countdown-Timer nicht generell; irreführende Varianten sind es in der EU, aber begegnen wirst du ihnen trotzdem täglich."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "An welcher Stelle tauchen versteckte Kosten typischerweise auf – und warum genau dort?",
+          "options": [
+            {
+              "text": "Auf der Startseite des Shops, damit sie jeder sofort sieht."
+            },
+            {
+              "text": "Gar nicht im Shop – versteckte Kosten erscheinen erst Wochen später auf der Rechnung."
+            },
+            {
+              "text": "Im Werbeprospekt, noch bevor man den Shop überhaupt öffnet."
+            },
+            {
+              "text": "Im letzten Bestellschritt, kurz vor dem Kauf-Knopf – wenn die Kaufentscheidung innerlich schon gefallen ist.",
+              "correct": true
+            }
+          ],
+          "explanation": "Versteckte Kosten leben vom Zeitpunkt: Wer Grösse gewählt, Adresse eingetippt und die Karte gezückt hat, bricht wegen CHF 4.90 «Service-Gebühr» selten noch ab – «jetzt bin ich eh schon so weit». Genau deshalb erscheinen sie im letzten Schritt und nicht auf der Startseite oder im Prospekt, wo sie abschrecken würden. Auf der späteren Rechnung stehen sie zwar auch – aber aufgeschlagen werden sie dir sichtbar im Bestellabschluss; der Warenkorb-Check vor dem Kauf-Knopf ist darum deine beste Ausstiegsstelle."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Der Ablehnen-Link in einem Shop heisst: «Nein danke, ich zahle lieber zu viel». Welcher Trick ist das – und wie wirkt er?",
+          "options": [
+            {
+              "text": "Künstliche Verknappung – der Link deutet an, dass das Angebot bald ausverkauft ist."
+            },
+            {
+              "text": "Confirmshaming – die Ablehnung ist absichtlich so formuliert, dass man sich dabei dumm vorkommt.",
+              "correct": true
+            },
+            {
+              "text": "Versteckte Kosten – wer den Link anklickt, zahlt automatisch einen Aufpreis."
+            },
+            {
+              "text": "Gar kein Trick – solche Formulierungen sind zufällige Sprachspiele der Entwickler."
+            }
+          ],
+          "explanation": "Confirmshaming (englisch etwa «Beschämen beim Bestätigen») legt dir die Ablehnung als Eingeständnis der eigenen Dummheit in den Mund: Wer «Ich zahle lieber zu viel» anklicken muss, klickt lieber gar nicht ab. Mit Verknappung hat die Formulierung nichts zu tun – es fehlt jede Mengenangabe. Bezahlt wird durch den Klick auch nichts; der Link lehnt ja gerade ab. Und Zufall ist die Formulierung sicher nicht: Solche Texte werden bewusst geschrieben und getestet, weil sie messbar mehr Zustimmungen bringen."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Warum gelten Lootboxen als glücksspielähnlich?",
+          "options": [
+            {
+              "text": "Weil sie in allen Ländern erst ab 18 Jahren gekauft werden dürfen."
+            },
+            {
+              "text": "Weil ihr Inhalt grundsätzlich wertlos ist."
+            },
+            {
+              "text": "Weil man dabei gegen andere Spielerinnen und Spieler antritt."
+            },
+            {
+              "text": "Weil man echtes Geld für einen Zufallsinhalt zahlt – ob sich der Kauf «lohnt», entscheidet wie am Automaten der Zufall.",
+              "correct": true
+            }
+          ],
+          "explanation": "Der Kern ist die Mechanik: Geld hinein, Zufall heraus – und das seltene «Fast hätte ich das Begehrte gezogen!» treibt zum nächsten Kauf, genau wie am Glücksspielautomaten. Eine Altersgrenze ab 18 gibt es gerade nicht überall – Lootboxen stecken in Games für alle Altersstufen, und genau das ist der politische Streitpunkt; nur einzelne Länder haben sie als Glücksspiel eingestuft. Wertlos ist der Inhalt nicht grundsätzlich – gelegentliche begehrte Treffer gehören zum System, sonst würde niemand weiterkaufen. Und gegen andere anzutreten ist keine Bedingung: Die Lootbox öffnet man ganz allein."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Ein Handygame zeigt: «Deine Serie: 41 Tage! Spiele heute, sonst verlierst du sie.» Welchen Hebel nutzt dieser Tages-Streak?",
+          "options": [
+            {
+              "text": "Sozialen Druck – die Anzeige zeigt, dass alle anderen täglich spielen."
+            },
+            {
+              "text": "Verlustangst – die aufgebaute Serie soll auf keinen Fall verloren gehen, also kommt man täglich zurück.",
+              "correct": true
+            },
+            {
+              "text": "Versteckte Kosten – jeder Streak-Tag kostet einen kleinen Betrag."
+            },
+            {
+              "text": "Gar keinen – die Erinnerung ist reine Freundlichkeit des Spiels."
+            }
+          ],
+          "explanation": "Die 41 Tage sind nichts Reales – kein Guthaben, kein Gegenstand. Aber sie fühlen sich wie Besitz an, und Verluste wiegen schwerer als entgangene Gewinne: Genau darum kehrt man «nur wegen der Serie» täglich zurück. Das ist Bindungsmechanik, keine Freundlichkeit – wer täglich da ist, sieht täglich Angebote und gibt eher Geld aus. Sozialer Druck wäre es, wenn andere Menschen ins Spiel gebracht würden («deine Freunde sind weiter»); die Serie betrifft nur dich. Und Geld kostet der Streak-Tag selbst nichts – bezahlt wird höchstens später, freiwillig und genau deswegen."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Soll der Staat Dark Patterns verbieten? Was stimmt über den heutigen Stand dieser Debatte?",
+          "options": [
+            {
+              "text": "In der EU verbieten Verbraucherschutzregeln bestimmte Praktiken, einzelne Länder haben Lootboxen eingeschränkt – vieles bleibt aber umkämpft und in Bewegung.",
+              "correct": true
+            },
+            {
+              "text": "Dark Patterns sind weltweit vollständig verboten – wer sie einsetzt, macht sich überall strafbar."
+            },
+            {
+              "text": "Es gibt nirgends Regeln – Staaten interessieren sich nicht für Manipulation im Netz."
+            },
+            {
+              "text": "Die Frage ist seit Jahren abschliessend geklärt und politisch erledigt."
+            }
+          ],
+          "explanation": "Der Stand ist ein Dazwischen: Bestimmte Praktiken sind in der EU bereits verboten – etwa unklare Gesamtpreise, missverständliche Kauf-Knöpfe, voreingestellte Häkchen für Zusatzkosten oder irreführendes Design von Online-Plattformen –, und einzelne Länder stufen Lootboxen als Glücksspiel ein; über den EWR gilt vieles davon auch für Liechtenstein. «Weltweit vollständig verboten» ist deshalb genauso falsch wie «nirgends Regeln». Und erledigt ist nichts: Anbieter erfinden neue Varianten, Regeln ziehen nach – die Grenze zwischen geschicktem Verkaufen und Manipulation bleibt politisch umstritten."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Dein Kollege will ein Streaming-Abo mit Gratismonat abschliessen. Was sollte er laut diesem Modul VOR dem Abschluss prüfen?",
+          "options": [
+            {
+              "text": "Ob die App modern gestaltet ist – gutes Design bedeutet seriöse Anbieter."
+            },
+            {
+              "text": "Ob der Countdown auf der Angebotsseite wirklich abläuft."
+            },
+            {
+              "text": "Wie und wo man das Abo kündigen kann – ist der Weg versteckt oder mühsam, ist das ein Warnsignal.",
+              "correct": true
+            },
+            {
+              "text": "Nichts – bei einem Gratismonat kann man nichts falsch machen."
+            }
+          ],
+          "explanation": "Der Kündigungsweg ist der Ehrlichkeitstest des Anbieters: Wer den Ausstieg leicht macht, hat ihn nicht als Falle gebaut. Deshalb gilt – erst den Weg hinaus suchen, dann hineingehen, und beim Abschluss gleich die Kündigungs-Erinnerung ins Handy (Modul 15). Modernes Design sagt dagegen nichts über Seriosität; gerade gut gestaltete Apps setzen die getestetsten Tricks ein. Den Countdown zu beobachten, prüft nur die Kulisse eines anderen Musters. Und «beim Gratismonat kann nichts passieren» ist exakt die Fehleinschätzung, von der Abo-Fallen leben – aus dem Gratismonat wird automatisch das bezahlte Abo."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-muster",
+      "title": "Zuordnen: Zehn Beschreibungen, zehn Muster",
+      "intro": "So sehen die Tricks in echten Apps und Shops aus – ordne jeder Beschreibung das passende Muster zu. **Jeder Begriff wird genau einmal gebraucht.**",
+      "modus": "wortbank",
+      "text": "«Nur noch 1 Zimmer zu diesem Preis!» blinkt neben dem Hotelangebot: {{1}}\nOben im Shop zählt eine Uhr rückwärts – «Deal endet in 09:58»: {{2}}\nIm letzten Bestellschritt kommen plötzlich «Service-Gebühr» und Versand zum Preis dazu: {{3}}\nDer Gratismonat wird automatisch zum bezahlten Abo – und der Kündigen-Knopf ist tief im Menü versteckt: {{4}}\nIm Bestellformular ist «Ja, schickt mir Angebote per E-Mail» schon angekreuzt: {{5}}\nDer Ablehnen-Knopf trägt die Aufschrift «Nein danke, ich verzichte lieber auf Vorteile»: {{6}}\nFür CHF 4.90 kaufst du im Game eine Kiste – was drin ist, entscheidet der Zufall: {{7}}\nMitten im Spiel erscheint: «Hol dir 500 Kristalle für CHF 9.90»: {{8}}\n«Deine Werkstatt ist in 7 Stunden fertig – oder sofort für 60 Rubine»: {{9}}\n«Deine Serie: 41 Tage! Spiele heute, sonst verlierst du sie»: {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Künstliche Verknappung"
+          ]
+        },
+        {
+          "antworten": [
+            "Countdown-Timer"
+          ]
+        },
+        {
+          "antworten": [
+            "Versteckte Kosten"
+          ]
+        },
+        {
+          "antworten": [
+            "Abo-Falle"
+          ]
+        },
+        {
+          "antworten": [
+            "Voreingestelltes Häkchen"
+          ]
+        },
+        {
+          "antworten": [
+            "Confirmshaming"
+          ]
+        },
+        {
+          "antworten": [
+            "Lootbox"
+          ]
+        },
+        {
+          "antworten": [
+            "In-App-Kauf"
+          ]
+        },
+        {
+          "antworten": [
+            "Künstliche Wartezeit"
+          ]
+        },
+        {
+          "antworten": [
+            "Tages-Streak"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-muster-wirkung",
+      "title": "Setze die Begriffe ein: Warum die Tricks wirken",
+      "intro": "Der Text fasst zusammen, mit welchen Hebeln Dark Patterns arbeiten. Ziehe die Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Dark Patterns nützen dem {{1}}, nicht dir. Countdown und Verknappung erzeugen {{2}} – und wer sich beeilen muss, bei dem setzt das {{3}} aus, entschieden wird aus dem Bauch. Der Tages-Streak nutzt die {{4}}: Die aufgebaute Serie soll auf keinen Fall verloren gehen. «Noch 23 andere schauen sich das an» baut sozialen Druck auf – was viele tun, wirkt automatisch {{5}}. Voreingestellte {{6}} bleiben oft angekreuzt, weil der bequemste Weg der vorgezeichnete ist. Versteckte {{7}} wie Versand oder «Service-Gebühr» tauchen erst im letzten Bestellschritt auf, wenn die Kaufentscheidung innerlich schon gefallen ist. In Games lässt sich die künstliche {{8}} mit Geld verkürzen, und was in der Lootbox steckt, bestimmt der {{9}} – eine glücksspielähnliche Mechanik. Und weil beim digitalen Bezahlen der {{10}} des Bezahlens fehlt, ist die wichtigste Bremse schon gelöst, bevor der erste Trick ansetzt.",
+      "luecken": [
+        {
+          "antworten": [
+            "Anbieter"
+          ]
+        },
+        {
+          "antworten": [
+            "Zeitdruck"
+          ]
+        },
+        {
+          "antworten": [
+            "Nachdenken"
+          ]
+        },
+        {
+          "antworten": [
+            "Verlustangst"
+          ]
+        },
+        {
+          "antworten": [
+            "richtig"
+          ]
+        },
+        {
+          "antworten": [
+            "Häkchen"
+          ]
+        },
+        {
+          "antworten": [
+            "Kosten"
+          ]
+        },
+        {
+          "antworten": [
+            "Wartezeit"
+          ]
+        },
+        {
+          "antworten": [
+            "Zufall"
+          ]
+        },
+        {
+          "antworten": [
+            "Schmerz"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Rabatt",
+        "Vertrauen",
+        "Sparzins"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-strategien-eingabe",
+      "title": "Tippe die Begriffe ein: Deine Gegenstrategien",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Ein Countdown läuft? Ignoriere ihn und warte einen {{1}} – was du dann immer noch willst, kaufst du in Ruhe. Prüfe vor dem Kauf-Knopf den {{2}} im Warenkorb: mit Versand, Gebühren und allen angekreuzten Extras. Schau dir VOR dem Abschluss eines Abos den Weg zur {{3}} an – ist er versteckt oder mühsam, ist das ein Warnsignal. Richte für In-App-Käufe ein {{4}} ein, zum Beispiel in den Einstellungen deines Handys. Und wenn du einen Trick entdeckst: {{5}} ihn beim Namen – wer das Muster durchschaut, ist schwerer zu lenken.",
+      "luecken": [
+        {
+          "antworten": [
+            "Tag"
+          ]
+        },
+        {
+          "antworten": [
+            "Endpreis",
+            "Gesamtpreis",
+            "Totalpreis",
+            "Gesamtbetrag",
+            "Endbetrag",
+            "Total"
+          ]
+        },
+        {
+          "antworten": [
+            "Kündigung",
+            "Abmeldung",
+            "Kündigungsmöglichkeit"
+          ]
+        },
+        {
+          "antworten": [
+            "Ausgabenlimit",
+            "Limit",
+            "Ausgaben-Limit",
+            "Ausgabelimit",
+            "Kostenlimit",
+            "Budget"
+          ]
+        },
+        {
+          "antworten": [
+            "Nenne",
+            "Benenne",
+            "Nenn",
+            "Benenn"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Vom Erkennen zum Entscheiden",
+      "tasks": [
+        {
+          "prompt": "Nimm dir das Suchbild oben vor: ein erfundener Bestell-Screen, sechs markierte Tricks. Beschreibe zu jedem der sechs Marker in je einem Satz, (a) welches Gefühl der Trick auslösen soll und (b) was du konkret tun würdest, um ihm nicht auf den Leim zu gehen. Zum Schluss: Welche zwei der sechs wirken bei dir persönlich am stärksten – und woran merkst du das?",
+          "hint": "Frag dich bei jedem Marker: Soll hier Eile entstehen, Angst, etwas zu verpassen, Scham – oder rechnet der Trick einfach mit meiner Bequemlichkeit? Die Legende rechts im Bild nennt die Namen; die vier Strategien aus dem letzten Kapitel liefern die Gegenmittel.",
+          "solution": "Beispiel-Lösung: (1) Countdown-Timer – Eile; Gegenmittel: ignorieren und einen Tag warten, echte Bedürfnisse überleben eine Nacht. (2) Künstliche Verknappung – Angst, leer auszugehen; Gegenmittel: daran denken, dass die Zahl von aussen nicht prüfbar ist, und trotzdem warten. (3) Voreingestelltes Newsletter-Häkchen – Bequemlichkeit; Gegenmittel: vor dem Kauf-Knopf alle Häkchen kontrollieren und abwählen. (4) Vorangekreuztes PLUS-Abo mit Telefon-Kündigung – Bequemlichkeit plus Abo-Falle; Gegenmittel: Häkchen weg, und grundsätzlich kein Abo, dessen Kündigungsweg mühsamer ist als der Abschluss. (5) Service-Gebühr erst im letzten Schritt – die Kaufentscheidung ist innerlich schon gefallen; Gegenmittel: Endpreis-Check als feste Routine, bei Überraschungen abbrechen. (6) Confirmshaming-Link – Scham; Gegenmittel: den Trick beim Namen nennen und den «peinlichen» Link bewusst anklicken. Welche zwei bei dir am stärksten wirken, ist individuell – ehrliche Selbstbeobachtung (z. B. «bei Countdowns werde ich tatsächlich hektisch») ist hier wertvoller als die «richtige» Antwort."
+        },
+        {
+          "prompt": "«Soll der Staat Lootboxen für Minderjährige verbieten?» Baue mit dem Argument-Bauplan aus Modul 9 (Behauptung – Begründung – Beispiel) je ein Pro- und ein Contra-Argument. Formuliere danach in zwei, drei Sätzen deine eigene Position – sie darf auch zwischen den Lagern liegen.",
+          "hint": "Für die Pro-Seite findest du Material im Kapitel «Wenn das Spiel zum Verkäufer wird» (glücksspielähnliche Mechanik, wirkt auf Verlustangst, steckt in Games ohne Altersgrenze). Für die Contra-Seite hilft das Politik-Kapitel: Wo genau verläuft die Grenze, wer kontrolliert sie, und was träfe ein grobes Verbot alles mit? Ein Argument ist erst fertig, wenn das Beispiel konkret ist.",
+          "solution": "Beispiel Pro: Der Staat sollte Lootboxen für Minderjährige verbieten (Behauptung), denn sie übertragen den Mechanismus des Glücksspielautomaten – Geld gegen Zufall – in Spiele, die gezielt auch von Kindern gespielt werden (Begründung); einzelne Länder stufen bezahlte Lootboxen deshalb bereits als Glücksspiel ein (Beispiel). Beispiel Contra: Ein Verbot ist der falsche Weg (Behauptung), denn die Grenze zwischen Spielmechanik und Glücksspiel ist schwer zu ziehen, und ein grobes Verbot träfe auch harmlose Zufallselemente – etwa Sammelkarten (Begründung); statt eines Verbots könnten Alterskennzeichen, Ausgabenlimits und Transparenzpflichten gezielter schützen (Beispiel). Deine eigene Position ist frei – gut ist sie dann, wenn sie dem Bauplan folgt und die stärkste Gegenposition ernst nimmt, statt sie zu ignorieren."
+        },
+        {
+          "prompt": "Lernen durch Lehren: Such dir eine Person aus deinem Umfeld – Familie oder Kollegenkreis – und erkläre ihr an einer App oder einem Shop, den sie selbst nutzt, zwei Muster aus diesem Modul. Erstelle anschliessend eine eigene Quizfrage im Stil dieses Moduls: vier Antworten, genau eine richtig – und die drei falschen sollen typische Fehleinschätzungen sein, keine Fantasieantworten.",
+          "hint": "Wähle Muster, die in der App der Person wirklich vorkommen – bei Streaming die Abo-Falle, bei Games Streaks und Lootboxen, beim Shoppen Countdown und Verknappung. Gute falsche Antworten findest du bei den Fehleinschätzungen aus diesem Modul: «Countdown-Timer zeigen echte Fristen», «beim Gratismonat kann nichts passieren», «Lootboxen sind überall ab 18».",
+          "solution": "Eine Musterlösung gibt es nicht – prüfe dein Ergebnis mit dieser Checkliste: (1) Hat die Person die zwei Muster in ihrer eigenen App wiedererkannt (nicht nur verstanden, sondern gesehen)? (2) Ist bei deiner Quizfrage genau eine Antwort eindeutig richtig? (3) Würde jemand mit einer typischen Fehleinschätzung tatsächlich auf eine deiner falschen Antworten hereinfallen? Wenn die Person beim nächsten Öffnen der App einen Trick von selbst benennt, war deine Erklärung gut – und wer Tricks erklären kann, fällt selbst deutlich schwerer darauf herein."
+        }
+      ]
+    }
+  ]
+}
