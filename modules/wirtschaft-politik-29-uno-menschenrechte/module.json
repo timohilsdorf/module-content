@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-29-uno-menschenrechte",
+  "title": "Die UNO und die Menschenrechte",
+  "description": "Warum hat das kleine Liechtenstein in der UNO gleich viel Stimmrecht wie ein Milliardenland – und warum kann trotzdem ein einziges Land jeden Beschluss des Sicherheitsrats stoppen? Im neunundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die UNO als Forum fast aller Staaten kennen, verstehst Generalversammlung und Sicherheitsrat samt Vetoproblem, entdeckst die Allgemeine Erklärung der Menschenrechte von 1948 an Alltagsbeispielen – und ordnest ein, warum erklärte Rechte noch nicht durchgesetzte Rechte sind.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 29,
+  "einheit": "Themenblock F: Europa & internationale Politik",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "UNO",
+    "Vereinte Nationen",
+    "Generalversammlung",
+    "Sicherheitsrat",
+    "Vetorecht",
+    "Menschenrechte",
+    "Allgemeine Erklärung der Menschenrechte",
+    "1948",
+    "universell",
+    "Meinungsfreiheit",
+    "Recht auf Bildung",
+    "Frieden",
+    "Liechtenstein"
+  ],
+  "learningObjectives": [
+    "Ich kann Zweck und Grundidee der UNO erklären: ein Forum fast aller Staaten mit den Zielen Frieden, Menschenrechte und Entwicklung.",
+    "Ich kann den Aufbau grob beschreiben: Generalversammlung (jedes Land eine Stimme) und Sicherheitsrat (15 Mitglieder, 5 ständige mit Vetorecht) – und ich verstehe das Vetoproblem als eingebaute Schwäche.",
+    "Ich kenne die Allgemeine Erklärung der Menschenrechte von 1948 und kann erklären, was «universell» bedeutet – mit Alltagsbeispielen zu zentralen Rechten.",
+    "Ich kann einordnen, dass Menschenrechte erklärt, aber nicht überall durchgesetzt sind – die Spannung zwischen Anspruch und Wirklichkeit."
+  ],
+  "competencies": [
+    {
+      "code": "RZG.8.2",
+      "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    },
+    {
+      "code": "LBO.5.6",
+      "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "Vereinte Nationen – Regionales Informationszentrum für Westeuropa (UNRIC)",
+      "url": "https://unric.org/de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-20-demokratie-als-prinzip",
+    "wirtschaft-politik-21-autoritaere-systeme-heute"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Ein Forum für fast alle Staaten",
+      "body": "In Modul 28 hast du gesehen, wie Europa nach 1945 Frieden durch wirtschaftliche Verflechtung suchte. Im selben Jahr entstand – aus derselben Erfahrung zweier Weltkriege – ein zweites Projekt, diesmal für die ganze Welt: die **UNO**, die Organisation der **Vereinten Nationen** (englisch: United Nations, UN). Ihre Gründungsidee: Es braucht einen Ort, an dem **alle Staaten miteinander reden**, bevor sie aufeinander schiessen.\n\nHeute gehören der UNO **193 Staaten** an – fast jedes Land der Welt. Auch **Liechtenstein ist seit 1990 Mitglied** und sitzt dort gleichberechtigt neben Ländern, die zehntausendmal mehr Einwohnerinnen und Einwohner haben. Drei grosse Ziele stehen über allem:\n\n- **Frieden sichern:** Konflikte sollen am Verhandlungstisch gelöst werden, nicht auf dem Schlachtfeld.\n- **Menschenrechte schützen:** Jeder Mensch hat Rechte, die kein Staat wegnehmen darf – dazu gleich mehr.\n- **Entwicklung fördern:** Armut, Hunger und Krankheiten bekämpfen, Bildung ermöglichen.\n\nEin Missverständnis solltest du von Anfang an ausräumen: Die UNO ist **keine Weltregierung**. Sie kann den Staaten nicht einfach Befehle erteilen, und sie hat keine eigene grosse Armee. Sie ist ein **Forum**: ein Ort, an dem verhandelt, vermittelt, abgestimmt und – manchmal – gemeinsam gehandelt wird. Wie viel sie erreicht, hängt davon ab, ob ihre Mitglieder mitziehen. Genau das macht sie stark und schwach zugleich, wie du beim Sicherheitsrat sehen wirst."
+    },
+    {
+      "type": "image",
+      "title": "Die UNO im Überblick",
+      "src": "/content/wirtschaft-politik-29-uno-menschenrechte/uno-schema.png",
+      "alt": "Vereinfachtes Schema der UNO. Oben ein dunkelblauer Kasten: UNO – Vereinte Nationen, gegründet 1945, 193 Mitgliedstaaten, Sitz New York. Darunter drei blaue Chips mit den Zielen Frieden sichern, Menschenrechte schützen und Entwicklung fördern. Zwei Linien führen zu zwei grossen Kästen. Links die Generalversammlung: alle 193 Mitgliedstaaten, dargestellt als Raster aus vielen blauen Punkten, jeder Punkt ein Staat; ein orange gefärbter Punkt ist als Liechtenstein – Mitglied seit 1990 beschriftet; darunter steht: beschliesst meist Empfehlungen. Rechts der Sicherheitsrat: 15 Mitglieder, kann bindende Beschlüsse fassen; fünf grosse dunkelblaue Kreise mit orangem Ring stehen für die fünf ständigen Mitglieder mit Vetorecht USA, Russland, China, Frankreich und Grossbritannien; darunter zehn kleinere hellblaue Kreise für die zehn auf je zwei Jahre gewählten Mitglieder. Unter der Generalversammlung ein blauer Kasten: Ob Millionenland oder Kleinstaat – jedes Land hat genau eine Stimme. Unter dem Sicherheitsrat ein orange umrandeter Kasten: Vetorecht gleich eingebaute Schwäche – jede Vetomacht kann jeden Beschluss allein stoppen. Ganz unten die Merkzeile: Die UNO ist keine Weltregierung – sie ist das Forum, in dem fast alle Staaten miteinander verhandeln.",
+      "caption": "Generalversammlung und Sicherheitsrat im vereinfachten Schema: links eine Stimme pro Land, rechts 15 Mitglieder – fünf davon mit Vetorecht.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Generalversammlung und Sicherheitsrat – und das Veto",
+      "body": "Die UNO hat viele Organe und Unterorganisationen – für dieses Modul reichen dir die zwei wichtigsten aus der Grafik:\n\n**Die Generalversammlung** ist die Vollversammlung aller 193 Mitgliedstaaten. Hier gilt ein radikal einfaches Prinzip: **Jedes Land hat genau eine Stimme** – Liechtenstein genauso wie das bevölkerungsreichste Land der Erde. Die Generalversammlung debattiert über alles, was die Welt bewegt, und fasst Beschlüsse – die sind allerdings meist **Empfehlungen**: Sie zeigen, wie die Weltgemeinschaft denkt, zwingen aber niemanden. Für einen Kleinstaat ist dieses Forum trotzdem Gold wert: Nirgendwo sonst redet er gleichberechtigt mit allen mit.\n\n**Der Sicherheitsrat** ist das mächtigste Organ: Er ist für Frieden und Sicherheit zuständig und kann als einziges Gremium **bindende Beschlüsse** fassen – etwa Friedensmissionen entsenden oder Sanktionen verhängen. Er hat **15 Mitglieder**: **10** werden von der Generalversammlung für je zwei Jahre gewählt – und **5 sind ständige Mitglieder**: die **USA, Russland, China, Frankreich und Grossbritannien**, die Siegermächte des Zweiten Weltkriegs.\n\nDiese fünf besitzen das **Vetorecht**: Stimmt auch nur eine Vetomacht mit «Nein», ist ein Beschluss gescheitert – egal, wie alle anderen stimmen. Warum wurde das so eingerichtet? Es war der **Gründungskompromiss von 1945**: Ohne diese Zusicherung wären die Grossmächte gar nicht erst beigetreten – und eine UNO ohne die Mächtigsten wäre wirkungslos gewesen.\n\nDer Preis dafür ist die **eingebaute Schwäche** der UNO: Ist eine Vetomacht an einem Konflikt **selbst beteiligt** oder schützt sie einen Verbündeten, kann sie jeden Beschluss dazu blockieren. Der Sicherheitsrat ist dann handlungsunfähig – nicht, weil die Regeln verletzt würden, sondern **weil sie genau so funktionieren**. Merk dir diese Mechanik: In Modul 30 wirst du sie auf einen realen Konflikt anwenden."
+    },
+    {
+      "type": "video",
+      "title": "Video: Die UNO erklärt",
+      "provider": "youtube",
+      "videoId": "hyNcsaI-gCU",
+      "description": "Das Erklärvideo (4:51) des Schulbuchverlags STARK fasst Entstehung, Ziele und Aufbau der Vereinten Nationen zusammen. Achte beim Schauen auf zwei Leitfragen: (1) Welche Organe der UNO nennt das Video zusätzlich zu Generalversammlung und Sicherheitsrat? (2) Wo erwähnt das Video Stärken der UNO – und wo klingt die Schwäche an, die du aus diesem Modul als Vetoproblem kennst?",
+      "startSeconds": 0,
+      "transcript": "Das Erklärvideo «Die UNO | STARK erklärt» (STARK Verlag, 4:51 Minuten) behandelt die Vereinten Nationen: ihre Gründung 1945 als Lehre aus dem Zweiten Weltkrieg, ihre Ziele – Friedenssicherung, Schutz der Menschenrechte, internationale Zusammenarbeit und Entwicklung – sowie ihren Aufbau mit Generalversammlung, Sicherheitsrat und weiteren Organen und Unterorganisationen. Das Video erklärt die Rolle der fünf ständigen Sicherheitsratsmitglieder mit ihrem Vetorecht und zeigt, was die UNO leisten kann und wo ihre Grenzen liegen."
+    },
+    {
+      "type": "text",
+      "title": "1948: Die Allgemeine Erklärung der Menschenrechte",
+      "body": "Nach den Verbrechen des Zweiten Weltkriegs zog die junge UNO eine zweite Lehre: Es genügt nicht, Staaten voreinander zu schützen – auch **Menschen müssen vor Staaten geschützt werden**. Am **10. Dezember 1948** verabschiedete die Generalversammlung die **Allgemeine Erklärung der Menschenrechte**: 30 Artikel, die erstmals für die ganze Welt festhalten, welche Rechte **jedem Menschen** zustehen.\n\nDas wichtigste Wort dazu heisst **universell**: Die Menschenrechte gelten für **alle Menschen** – unabhängig von Herkunft, Hautfarbe, Religion, Geschlecht, Sprache oder Vermögen. Sie werden nicht vom Staat «verliehen» und können nicht aberkannt werden: **Du hast sie, weil du ein Mensch bist.** Fünf zentrale Rechte, an Alltagsbeispielen erklärt:\n\n- **Recht auf Leben:** Der Staat darf niemanden willkürlich töten und muss Leben schützen – Rettung und Polizei müssen für alle da sein, nicht nur für bestimmte Gruppen.\n- **Meinungsfreiheit:** Du darfst deine Meinung äussern und Mächtige kritisieren – etwa in einem Beitrag gegen ein Bauprojekt deiner Gemeinde –, ohne Verhaftung fürchten zu müssen (den Wert davon kennst du aus Modul 20).\n- **Recht auf Bildung:** Jedes Kind soll zur Schule gehen können – der Grundschulbesuch soll unentgeltlich sein und darf nicht vom Geldbeutel oder Geschlecht abhängen.\n- **Schutz vor Folter:** Niemand darf gefoltert oder erniedrigend behandelt werden – auch nicht im Verhör, auch nicht im Gefängnis, auch nicht «für ein Geständnis».\n- **Gleichheit vor dem Gesetz:** Dieselben Regeln gelten für alle – vor Gericht zählt, was geschehen ist, nicht, wer deine Eltern sind oder woher du kommst.\n\nVielleicht wirken diese Sätze auf dich selbstverständlich. Genau das ist der Punkt: **Für Milliarden Menschen sind sie es nicht.** Und damit sind wir bei der schwierigsten Frage dieses Moduls."
+    },
+    {
+      "type": "text",
+      "title": "Anspruch und Wirklichkeit",
+      "body": "Die Allgemeine Erklärung ist eine **Erklärung** – kein Weltgesetz mit Weltpolizei. Sie wurde zum Massstab, an dem sich Staaten messen lassen müssen, und ihre Rechte flossen später in viele Verfassungen und bindende Verträge ein. Aber: **Erklärt ist nicht durchgesetzt.**\n\nAus Modul 21 kennst du autoritäre Systeme – dort gehören Verletzungen der Menschenrechte zum Alltag: Kritikerinnen werden verhaftet (Meinungsfreiheit), Verfahren sind gelenkt (Gleichheit vor dem Gesetz), Geständnisse werden erzwungen (Schutz vor Folter). Wichtig ist die Blickrichtung: **Dass ein Staat Menschenrechte verletzt, heisst nicht, dass sie dort nicht gelten.** Sie gelten universell – verletzt werden sie trotzdem. Genau diese Lücke zwischen **Anspruch** und **Wirklichkeit** ist die Spannung, mit der internationale Politik seit 1948 umgehen muss.\n\nWas kann die Weltgemeinschaft tun, wenn Rechte verletzt werden? Sie kann Verletzungen **benennen und dokumentieren** – vor der UNO muss sich jeder Staat Fragen zu seiner Menschenrechtslage gefallen lassen, und niemand tritt gern als Rechtsbrecher auf. Sie kann **Druck aufbauen**, von Protestnoten bis zu Sanktionen. Und in schweren Fällen kann der **Sicherheitsrat** bindend handeln. Nur: Dort sitzt das Vetoproblem aus diesem Modul – ist eine Vetomacht beteiligt oder schützt sie den betroffenen Staat, ist der Weg blockiert.\n\nDas nüchterne Fazit: **Die Menschenrechte sind der weltweit anerkannte Massstab – ihre Durchsetzung bleibt Stückwerk.** Das ist kein Grund für Achselzucken: Dass es den Massstab gibt, verändert die Welt seit 1948 – langsam, mit Rückschlägen, aber messbar. Jede Regierung, die sich heute rechtfertigen muss, tut das, weil 1948 aufgeschrieben wurde, was jedem Menschen zusteht."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: UNO, Sicherheitsrat und Menschenrechte",
+      "intro": "Forum, Veto und universelle Rechte – zeig, was sitzt. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Was ist die UNO im Kern?",
+          "options": [
+            {
+              "text": "Eine Weltregierung, die allen Staaten Gesetze vorschreiben kann."
+            },
+            {
+              "text": "Ein Militärbündnis, in dem sich Staaten gegenseitig Beistand versprechen."
+            },
+            {
+              "text": "Ein Forum fast aller Staaten der Welt – mit den Zielen Frieden, Menschenrechte und Entwicklung.",
+              "correct": true
+            },
+            {
+              "text": "Eine Hilfsorganisation, die ausschliesslich Spenden sammelt und verteilt."
+            }
+          ],
+          "explanation": "Die UNO ist das Verhandlungsforum von 193 Staaten – gegründet 1945 als Lehre aus zwei Weltkriegen. Eine Weltregierung ist sie gerade nicht: Sie kann den Staaten keine Befehle erteilen, und wie viel sie erreicht, hängt von ihren Mitgliedern ab. Ein Militärbündnis mit Beistandspflicht ist etwas anderes (davon hörst du in Modul 30), und Hilfsprojekte sind nur ein Teil ihrer Arbeit – neben Friedenssicherung und Menschenrechten."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Wie wird in der UNO-Generalversammlung abgestimmt?",
+          "options": [
+            {
+              "text": "Jedes Mitgliedsland hat genau eine Stimme – ob Millionenland oder Kleinstaat; die Beschlüsse sind meist Empfehlungen.",
+              "correct": true
+            },
+            {
+              "text": "Jedes Land hat so viele Stimmen, wie es Einwohnerinnen und Einwohner hat."
+            },
+            {
+              "text": "Nur die fünf ständigen Mitglieder dürfen abstimmen."
+            },
+            {
+              "text": "Die reichsten Länder haben mehr Stimmen, weil sie mehr bezahlen."
+            }
+          ],
+          "explanation": "In der Generalversammlung gilt: ein Land, eine Stimme – Liechtenstein zählt gleich viel wie jedes Milliardenland. Das klingt selbstverständlich, wäre aber anders denkbar: Stimmgewicht nach Einwohnerzahl oder Beitragszahlungen gibt es hier gerade nicht. Die fünf Ständigen mit Sonderrechten sitzen im Sicherheitsrat, nicht in der Generalversammlung. Dafür sind die Beschlüsse der Generalversammlung meist Empfehlungen – sie zeigen die Weltmeinung, zwingen aber niemanden."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Wie ist der UNO-Sicherheitsrat zusammengesetzt?",
+          "options": [
+            {
+              "text": "Aus allen 193 Mitgliedstaaten der UNO."
+            },
+            {
+              "text": "Aus 15 Mitgliedern: 5 ständige mit Vetorecht und 10 für je zwei Jahre gewählte.",
+              "correct": true
+            },
+            {
+              "text": "Aus genau 5 Mitgliedern, die alle ein Vetorecht haben."
+            },
+            {
+              "text": "Aus 15 ständigen Mitgliedern, die nie wechseln."
+            }
+          ],
+          "explanation": "Der Sicherheitsrat hat 15 Sitze: Die USA, Russland, China, Frankreich und Grossbritannien sind ständige Mitglieder mit Vetorecht, die übrigen 10 werden von der Generalversammlung für je zwei Jahre gewählt und wechseln. Alle 193 Staaten sitzen in der Generalversammlung, nicht im Rat – und weder besteht der Rat nur aus den fünf Vetomächten, noch sind alle 15 Sitze ständig besetzt. Die Mischung ist Absicht: Grossmächte dauerhaft drin, der Rest der Welt rotierend vertreten."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Warum gilt das Vetorecht als «eingebaute Schwäche» der UNO?",
+          "options": [
+            {
+              "text": "Weil die Generalversammlung jedes Veto mit einfacher Mehrheit überstimmen kann."
+            },
+            {
+              "text": "Weil die Vetomächte ein Veto nur gemeinsam einlegen dürfen."
+            },
+            {
+              "text": "Weil das Vetorecht 1990 abgeschafft wurde und seither niemand blockieren kann."
+            },
+            {
+              "text": "Weil eine Vetomacht, die selbst an einem Konflikt beteiligt ist, jeden Beschluss dazu allein stoppen kann – der Rat ist dann blockiert.",
+              "correct": true
+            }
+          ],
+          "explanation": "Ein einziges «Nein» einer Vetomacht lässt jeden Beschluss des Sicherheitsrats scheitern – auch wenn alle anderen 14 Mitglieder zustimmen. Heikel wird das, wenn eine Vetomacht selbst Konfliktpartei ist oder einen Verbündeten schützt: Dann blockiert sie Beschlüsse in eigener Sache, und der Rat ist handlungsunfähig – ganz regelkonform. Überstimmen lässt sich ein Veto nicht, es wirkt allein, und abgeschafft wurde es nie. Es war der Preis dafür, dass die Grossmächte 1945 überhaupt mitmachten."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Was ist die Allgemeine Erklärung der Menschenrechte?",
+          "options": [
+            {
+              "text": "Ein Gesetz, das weltweit automatisch von einer UNO-Polizei durchgesetzt wird."
+            },
+            {
+              "text": "Das 1948 von der UNO-Generalversammlung verabschiedete Dokument, das erstmals weltweit festhält, welche Rechte jedem Menschen zustehen.",
+              "correct": true
+            },
+            {
+              "text": "Ein Vertrag, der nur für die fünf Vetomächte gilt."
+            },
+            {
+              "text": "Eine Hausordnung für die Mitarbeitenden der UNO in New York."
+            }
+          ],
+          "explanation": "Am 10. Dezember 1948 verabschiedete die Generalversammlung die Allgemeine Erklärung der Menschenrechte: 30 Artikel, die für alle Menschen gelten – unabhängig von Herkunft, Religion oder Geschlecht. Sie ist ein Massstab, kein automatisch durchgesetztes Weltgesetz: Eine Weltpolizei dafür gibt es nicht, genau daraus entsteht die Spannung zwischen Anspruch und Wirklichkeit. Mit einer internen Hausordnung hat sie nichts zu tun, und sie gilt erst recht nicht nur für einzelne Staaten."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Welches dieser Rechte steht in der Allgemeinen Erklärung der Menschenrechte?",
+          "options": [
+            {
+              "text": "Das Recht auf Bildung: Jedes Kind soll zur Schule gehen können, der Grundschulbesuch soll unentgeltlich sein.",
+              "correct": true
+            },
+            {
+              "text": "Das Recht auf ein eigenes Smartphone ab zwölf Jahren."
+            },
+            {
+              "text": "Das Recht, von niemandem kritisiert zu werden."
+            },
+            {
+              "text": "Das Recht auf Wohlstand und ein hohes Einkommen."
+            }
+          ],
+          "explanation": "Das Recht auf Bildung gehört zu den zentralen Rechten der Erklärung von 1948 – der Zugang zur Schule darf nicht vom Geldbeutel oder Geschlecht abhängen. Ein Smartphone-Recht gibt es nicht (die Erklärung nennt Grundlegendes, keine Geräte), ein Schutz vor Kritik widerspräche sogar der Meinungsfreiheit – sie schützt auch unbequeme Äusserungen –, und garantiert ist ein menschenwürdiges Leben, nicht Reichtum."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "«Menschenrechte sind erklärt, aber nicht überall durchgesetzt.» Was bedeutet dieser Satz?",
+          "options": [
+            {
+              "text": "Seit 1948 halten sich alle Staaten vollständig an die Menschenrechte."
+            },
+            {
+              "text": "Menschenrechte gelten nur in den Ländern, deren Regierungen sie freiwillig achten."
+            },
+            {
+              "text": "Wer Menschenrechte verletzt, wird automatisch von der UNO bestraft."
+            },
+            {
+              "text": "Die Rechte gelten universell als Massstab – aber es gibt keine Weltpolizei, die sie überall erzwingen kann; Verletzungen bleiben Realität.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die Erklärung von 1948 setzte den Massstab, an dem sich alle Staaten messen lassen müssen – durchgesetzt wird er aber nicht automatisch: Es gibt keine Weltpolizei, und im Sicherheitsrat sitzt das Vetoproblem. Wichtig ist die Blickrichtung: Verletzt ein Staat die Rechte, gelten sie dort trotzdem – sie gelten, weil man Mensch ist, nicht weil eine Regierung sie gewährt. Von automatischer Strafe oder gar weltweiter Einhaltung kann also keine Rede sein – genau diese Lücke heisst Anspruch und Wirklichkeit."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Welche Rolle spielt Liechtenstein in der UNO?",
+          "options": [
+            {
+              "text": "Liechtenstein ist zu klein und darf deshalb nicht Mitglied sein."
+            },
+            {
+              "text": "Liechtenstein ist ständiges Mitglied des Sicherheitsrats mit Vetorecht."
+            },
+            {
+              "text": "Liechtenstein ist seit 1990 Mitglied und hat in der Generalversammlung eine Stimme – wie jedes andere Mitgliedsland.",
+              "correct": true
+            },
+            {
+              "text": "Liechtenstein war 1945 eines der Gründungsmitglieder."
+            }
+          ],
+          "explanation": "Liechtenstein trat der UNO 1990 bei – nicht 1945 – und ist seither in der Generalversammlung mit genau einer Stimme vertreten, gleichberechtigt mit jedem anderen Land. Eine Mindestgrösse für die Mitgliedschaft gibt es nicht; gerade für Kleinstaaten ist das Forum wertvoll, weil sie dort gleichberechtigt mitreden. Ständige Sicherheitsratsmitglieder mit Vetorecht sind nur die USA, Russland, China, Frankreich und Grossbritannien."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-uno-wortbank",
+      "title": "Setze die Begriffe ein: UNO und Menschenrechte",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Die UNO wurde {{1}} gegründet – als Lehre aus zwei Weltkriegen. Heute gehören ihr {{2}} Staaten an, Liechtenstein seit {{3}}. In der {{4}} hat jedes Land genau eine Stimme. Bindende Beschlüsse kann nur der {{5}} fassen; seine fünf ständigen Mitglieder besitzen ein {{6}}. 1948 verabschiedete die UNO die Allgemeine Erklärung der {{7}}. Diese Rechte gelten {{8}}: für alle Menschen, unabhängig von Herkunft, Religion oder Geschlecht. Erklärt ist damit viel – aber nicht überall werden die Rechte auch {{9}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "1945"
+          ]
+        },
+        {
+          "antworten": [
+            "193"
+          ]
+        },
+        {
+          "antworten": [
+            "1990"
+          ]
+        },
+        {
+          "antworten": [
+            "Generalversammlung"
+          ]
+        },
+        {
+          "antworten": [
+            "Sicherheitsrat"
+          ]
+        },
+        {
+          "antworten": [
+            "Vetorecht"
+          ]
+        },
+        {
+          "antworten": [
+            "Menschenrechte"
+          ]
+        },
+        {
+          "antworten": [
+            "universell"
+          ]
+        },
+        {
+          "antworten": [
+            "durchgesetzt"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Weltregierung",
+        "1948",
+        "abgeschafft"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-uno-eingabe",
+      "title": "Tippe die Begriffe ein: Das Wichtigste sitzt",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Die Allgemeine Erklärung der Menschenrechte wurde im Jahr {{1}} verabschiedet. Die Menschenrechte gelten {{2}} – unabhängig von Herkunft, Religion und Geschlecht. Das UNO-Gremium, in dem jedes Land eine Stimme hat, heisst {{3}}. Das mächtigste Gremium mit 15 Mitgliedern heisst {{4}}. Das Recht der fünf ständigen Mitglieder, jeden Beschluss allein zu stoppen, nennt man {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "1948"
+          ]
+        },
+        {
+          "antworten": [
+            "universell",
+            "für alle",
+            "für alle Menschen",
+            "weltweit"
+          ]
+        },
+        {
+          "antworten": [
+            "Generalversammlung",
+            "UNO-Generalversammlung",
+            "UN-Generalversammlung"
+          ]
+        },
+        {
+          "antworten": [
+            "Sicherheitsrat",
+            "UNO-Sicherheitsrat",
+            "UN-Sicherheitsrat"
+          ]
+        },
+        {
+          "antworten": [
+            "Vetorecht",
+            "Veto"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-menschenrechte",
+      "title": "Zuordnen: Welches Menschenrecht wirkt hier?",
+      "intro": "Ordne jede Situation dem passenden Recht aus der Allgemeinen Erklärung zu: **Recht auf Leben**, **Meinungsfreiheit**, **Recht auf Bildung**, **Schutz vor Folter** oder **Gleichheit vor dem Gesetz**. Jedes Recht kommt **genau zweimal** vor. Alle Situationen sind frei erfunden.",
+      "modus": "wortbank",
+      "text": "Eine Schülerin kritisiert in einem Online-Beitrag das Bauprojekt ihrer Gemeinde – sie muss keine Verhaftung fürchten. {{1}}\nAlle Kinder eines Dorfes können kostenlos die Grundschule besuchen, egal, wie viel ihre Eltern verdienen. {{2}}\nEin Verdächtiger darf im Verhör nicht geschlagen werden – auch wenn die Polizei ein Geständnis will. {{3}}\nVor Gericht gelten für die Tochter des Bürgermeisters dieselben Regeln wie für alle anderen. {{4}}\nDer Staat darf niemanden willkürlich töten – Hinrichtungen ohne jedes Verfahren verstossen gegen dieses Recht. {{5}}\nEin Journalist veröffentlicht eine unbequeme Recherche über eine Behörde und wird dafür nicht bestraft. {{6}}\nAuch wer in einer armen Region lebt, soll lesen und schreiben lernen können. {{7}}\nNiemand darf im Gefängnis erniedrigend behandelt werden. {{8}}\nEin neues Gesetz gilt für arme und reiche Menschen gleich. {{9}}\nRettungsdienste müssen Menschen in Lebensgefahr helfen – egal, wer sie sind. {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Meinungsfreiheit"
+          ]
+        },
+        {
+          "antworten": [
+            "Recht auf Bildung"
+          ]
+        },
+        {
+          "antworten": [
+            "Schutz vor Folter"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichheit vor dem Gesetz"
+          ]
+        },
+        {
+          "antworten": [
+            "Recht auf Leben"
+          ]
+        },
+        {
+          "antworten": [
+            "Meinungsfreiheit"
+          ]
+        },
+        {
+          "antworten": [
+            "Recht auf Bildung"
+          ]
+        },
+        {
+          "antworten": [
+            "Schutz vor Folter"
+          ]
+        },
+        {
+          "antworten": [
+            "Gleichheit vor dem Gesetz"
+          ]
+        },
+        {
+          "antworten": [
+            "Recht auf Leben"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Rechte erkennen, Schwächen durchdenken",
+      "tasks": [
+        {
+          "prompt": "Rechte im Alltag: Wähle zwei der fünf Rechte aus diesem Modul und beschreibe zu jedem eine Situation aus deiner vergangenen Woche, in der das Recht gewirkt hat – vermutlich, ohne dass du es bemerkt hast. Schreibe zu jeder Situation einen Satz dazu, wie sie ohne dieses Recht aussehen könnte.",
+          "hint": "Menschenrechte fallen meist erst auf, wenn sie fehlen. Frag dich: Wo habe ich diese Woche frei meine Meinung gesagt, die Schule besucht, mich auf gleiche Regeln verlassen? Und wie sähe derselbe Moment in einem Staat aus Modul 21 aus?",
+          "solution": "Beispielantwort: (1) Recht auf Bildung – ich sass am Montag im Unterricht, ohne dass meine Eltern Schulgeld zahlen mussten; ohne dieses Recht könnten nur Kinder wohlhabender Familien zur Schule gehen. (2) Meinungsfreiheit – ich habe in einer Diskussion die Hausaufgabenregel kritisiert, ohne Folgen zu fürchten; ohne dieses Recht müsste ich mir jede Kritik an Autoritäten verkneifen. Deine Antwort ist gelungen, wenn Situation und Kontrast konkret sind."
+        },
+        {
+          "prompt": "Das Vetoproblem durchspielen: Im erfundenen Konflikt besetzt das Land Nordinsel – eine Vetomacht im Sicherheitsrat – eine Insel seines Nachbarlands Südinsel. Südinsel verlangt eine Verurteilung und Sanktionen durch den Sicherheitsrat. Beschreibe in vier bis fünf Sätzen, was im Rat passiert und warum. Erkläre danach in zwei Sätzen, warum das Vetorecht 1945 trotzdem eingeführt wurde.",
+          "hint": "Geh die Mechanik durch: Wer bringt den Beschluss ein, wie stimmen die 15 Mitglieder ab – und was bewirkt die eine Nein-Stimme von Nordinsel? Für den zweiten Teil hilft der Begriff «Gründungskompromiss».",
+          "solution": "Beispielantwort: «Südinsel bringt mit Unterstützung anderer Staaten einen Beschlussentwurf ein, der die Besetzung verurteilt und Sanktionen verlangt. Im Rat stimmen viele Mitglieder zu – doch Nordinsel legt als ständiges Mitglied sein Veto ein. Damit ist der Beschluss gescheitert, egal wie gross die Mehrheit war: Der Rat ist blockiert, weil eine Vetomacht in eigener Sache mitentscheidet. Genau das meint die eingebaute Schwäche.» Zum zweiten Teil: «Das Vetorecht war 1945 der Gründungskompromiss: Ohne diese Zusicherung wären die Grossmächte der UNO gar nicht beigetreten – und ein Weltforum ohne die Mächtigsten wäre von Anfang an wirkungslos gewesen.»"
+        },
+        {
+          "prompt": "Erkläre es jemandem: Erkläre einer Person aus deinem Umfeld in höchstens fünf Sätzen die Spannung zwischen Anspruch und Wirklichkeit bei den Menschenrechten. Verwende dabei die Begriffe universell, erklärt, durchgesetzt und Sicherheitsrat. Zusatzfrage: Warum verletzen gerade autoritäre Systeme (Modul 21) besonders oft Menschenrechte? Antworte in zwei Sätzen.",
+          "hint": "Baue die Erklärung wie das Modul auf: erst, was 1948 erklärt wurde und für wen es gilt – dann, warum die Durchsetzung schwierig ist. Für die Zusatzfrage: Denk daran, wessen Macht durch Meinungsfreiheit und unabhängige Gerichte begrenzt würde.",
+          "solution": "Beispielerklärung: «1948 hat die UNO die Menschenrechte erklärt – sie gelten universell, also für jeden Menschen, unabhängig von Herkunft, Religion oder Geschlecht. Erklärt heisst aber nicht durchgesetzt: Es gibt keine Weltpolizei, die sie überall erzwingen kann. Die Weltgemeinschaft kann Verletzungen benennen und Druck aufbauen, und in schweren Fällen könnte der Sicherheitsrat bindend handeln. Doch dort kann eine Vetomacht jeden Beschluss stoppen – besonders, wenn sie selbst betroffen ist. Deshalb bleibt zwischen dem Anspruch der Rechte und der Wirklichkeit eine Lücke.» Zusatzfrage: «Autoritäre Systeme sichern die Macht einer Person oder Gruppe – Meinungsfreiheit, gleiche Gerichte und Schutz vor Willkür würden genau diese Macht begrenzen. Darum werden diese Rechte dort gezielt eingeschränkt.»"
+        }
+      ]
+    }
+  ]
+}

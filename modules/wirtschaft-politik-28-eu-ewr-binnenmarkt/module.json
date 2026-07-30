@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-28-eu-ewr-binnenmarkt",
+  "title": "EU und EWR: Europa als gemeinsamer Markt",
+  "description": "Warum kommt deine Online-Bestellung aus Deutschland ohne Zollpapiere an – und warum bezahlt Liechtenstein mit Schweizer Franken, obwohl es zum europäischen Binnenmarkt gehört? Im achtundzwanzigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» lernst du die Grundidee der europäischen Einigung kennen – Frieden durch wirtschaftliche Verflechtung –, verstehst die vier Freiheiten des Binnenmarkts an Alltagsbeispielen, unterscheidest EU und EWR – und beschreibst Liechtensteins besondere Doppelrolle zwischen EWR und Schweizer Zollraum.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 28,
+  "einheit": "Themenblock F: Europa & internationale Politik",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Europa",
+    "Europäische Union",
+    "EU",
+    "EWR",
+    "Binnenmarkt",
+    "vier Freiheiten",
+    "Warenverkehr",
+    "Personenfreizügigkeit",
+    "Zollvertrag",
+    "Währungsvertrag",
+    "Schweizer Franken",
+    "Marktzugang",
+    "Frieden",
+    "Liechtenstein"
+  ],
+  "learningObjectives": [
+    "Ich kann die Grundidee der europäischen Einigung erklären: Nach 1945 sollte enge wirtschaftliche Verflechtung neue Kriege in Europa verhindern.",
+    "Ich kann die vier Freiheiten des Binnenmarkts nennen – freier Verkehr von Waren, Dienstleistungen, Personen und Kapital – und zu jeder ein Alltagsbeispiel geben.",
+    "Ich kann EU und EWR unterscheiden: Der EWR dehnt den Binnenmarkt auf Island, Liechtenstein und Norwegen aus – Liechtenstein ist EWR-Mitglied, aber nicht EU-Mitglied.",
+    "Ich kann Liechtensteins Doppelrolle beschreiben – EWR-Mitglied und zugleich gemeinsamer Zoll- und Währungsraum mit der Schweiz – und erklären, warum sie für den Standort ein Vorteil ist."
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.3.1",
+      "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "Historisches Lexikon des Fürstentums Liechtenstein (Zollvertrag, Währungsvertrag)",
+      "url": "https://historisches-lexikon.li"
+    },
+    {
+      "title": "Amt für Statistik Liechtenstein – Statistikportal",
+      "url": "https://www.statistikportal.li"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
+    "wirtschaft-politik-26-wirtschaftspolitik-standort"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Nie wieder Krieg – mit Wirtschaft als Werkzeug",
+      "body": "Du bestellst Turnschuhe in einem deutschen Online-Shop, deine Cousine studiert in Graz, und im Betrieb nebenan arbeiten Menschen, die jeden Morgen über die Grenze pendeln. Alles ganz normal – heute. Vor gut achtzig Jahren war genau das undenkbar: Zwischen 1914 und 1945 haben sich die Länder Europas in zwei Weltkriegen gegenseitig verwüstet.\n\nNach 1945 stellte sich darum eine grosse Frage: **Wie verhindern wir, dass Nachbarn je wieder aufeinander schiessen?** Die Antwort, die Europa fand, war ungewöhnlich: nicht nur Friedensverträge – sondern **wirtschaftliche Verflechtung**. Die Idee dahinter: Wenn Fabriken, Rohstoffe und Absatzmärkte über die Grenzen hinweg miteinander verbunden sind, schadet ein Krieg immer auch der eigenen Wirtschaft. Wer eng miteinander handelt, hat schlicht zu viel zu verlieren.\n\nDer erste Schritt war klug gewählt: 1952 legten sechs Staaten – darunter die früheren Kriegsgegner Frankreich und Deutschland – ihre **Kohle- und Stahlindustrie** zusammen. Ausgerechnet die Industrien, die man damals für Panzer und Kanonen brauchte! Wer gemeinsam produziert und sich gegenseitig in die Bücher schaut, kann nicht heimlich gegeneinander aufrüsten. Aus diesem Anfang wuchs über Jahrzehnte die heutige **Europäische Union (EU)** mit 27 Mitgliedstaaten. Gemeinsame Regeln beschliessen die Mitgliedstaaten dabei in gemeinsamen Organen wie dem Europäischen Parlament und der Europäischen Kommission – für dieses Modul reicht dir das als Stichwort.\n\nDie Bilanz der Grundidee lässt sich nüchtern festhalten: **Zwischen den Mitgliedstaaten dieses Zusammenschlusses hat es seit seiner Gründung keinen Krieg mehr gegeben.** Aus der Friedensidee ist dabei Schritt für Schritt etwas gewachsen, das deinen Alltag bis heute prägt: ein riesiger gemeinsamer Markt."
+    },
+    {
+      "type": "image",
+      "title": "Wer gehört wozu?",
+      "src": "/content/wirtschaft-politik-28-eu-ewr-binnenmarkt/eu-ewr-mengendiagramm.png",
+      "alt": "Mengendiagramm mit zwei überlappenden Flächen. Links eine grosse hellblaue Fläche mit der Beschriftung EWR – Europäischer Wirtschaftsraum, ein Binnenmarkt: freier Verkehr von Waren, Dienstleistungen, Personen, Kapital. Darin liegt ein blauer Kasten EU – Europäische Union, 27 Mitgliedstaaten – alle sind Teil des Binnenmarkts, mit Beispiel-Kästchen Deutschland, Österreich, Frankreich, Italien, Spanien und der Angabe und 22 weitere. Rechts davon, noch innerhalb der EWR-Fläche, unter der Überschrift Binnenmarkt ja, EU nein die zwei Kästchen Island und Norwegen. Von rechts überlappt eine grün umrandete Fläche Schweizer Zollraum, Zollvertrag seit 1924, Franken, mit dem Kästchen Schweiz und dem Hinweis nicht im EWR – eigene Verträge mit der EU. In der Schnittfläche der beiden Räume steht ein orange hervorgehobenes Kästchen Liechtenstein mit der Beschriftung in beiden Räumen: EWR-Mitglied seit 1995 plus Zollvertrag und Franken mit der Schweiz. Unten vier Kacheln zu den vier Freiheiten: Waren – bestellen ohne Zoll, Dienstleistungen – Aufträge über Grenzen, Personen – studieren und arbeiten, Kapital – Geld anlegen, investieren. Darunter die Merkzeile: Liechtenstein ist im EWR-Binnenmarkt und im Schweizer Zollraum – als einziges Land in beiden Wirtschaftsräumen.",
+      "caption": "EU, EWR und Schweizer Zollraum als Mengendiagramm: Liechtenstein liegt als einziges Land in der Schnittfläche – im europäischen Binnenmarkt und zugleich im Zollraum mit der Schweiz.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Der Binnenmarkt: vier Freiheiten für deinen Alltag",
+      "body": "Das Kernstück der wirtschaftlichen Einigung heisst **Binnenmarkt**. «Binnen» bedeutet «innen»: Die beteiligten Länder behandeln sich beim Wirtschaften so, als wären sie **ein einziges Land** – Handel über die Grenze soll sich anfühlen wie Handel im Inland. Damit das funktioniert, garantiert der Binnenmarkt **vier Freiheiten**:\n\n- **Freier Warenverkehr:** Produkte dürfen ohne Zölle und ohne Extra-Papierkram über die Grenzen. Deine Online-Bestellung für 89 CHF aus Deutschland kommt deshalb an wie eine Inlandsbestellung – ohne Zollrechnung obendrauf.\n- **Freier Dienstleistungsverkehr:** Auch Arbeit, die keine Ware ist, darf über Grenzen verkauft werden. Eine Grafikerin aus Vaduz gestaltet die Website eines Cafés in Wien, ein Malerbetrieb übernimmt Aufträge im Nachbarland.\n- **Freier Personenverkehr:** Menschen dürfen in einem anderen Mitgliedsland studieren, eine Lehrstelle antreten oder arbeiten – ohne besondere Genehmigungshürden. Ein Auslandssemester oder ein Praktikum in Berlin? Genau dafür.\n- **Freier Kapitalverkehr:** Geld darf über Grenzen fliessen. Eine Sparerin kauft Anteile einer norwegischen Firma, ein Unternehmen baut ein Werk in Portugal.\n\nEine **Merkhilfe** für zwei Freiheiten, die oft verwechselt werden: Zieht eine **Person** selbst los, um woanders zu arbeiten oder zu studieren, ist es Personenverkehr. Erbringt eine **Firma** eine Leistung über die Grenze hinweg, ist es Dienstleistungsverkehr.\n\nWarum ist dieser gemeinsame Markt wirtschaftlich so bedeutsam? Du kennst die Logik aus Modul 8: **Mehr Anbieter bedeuten mehr Wettbewerb** – mehr Auswahl und tendenziell bessere Preise für dich. Und für Unternehmen gilt das Spiegelbild: Statt nur ein kleines Inland erreichen sie eine Kundschaft von rund 450 Millionen Menschen. Gerade für Firmen aus einem Kleinstaat ist das der entscheidende Unterschied."
+    },
+    {
+      "type": "video",
+      "title": "Video: Der europäische Binnenmarkt und die vier Freiheiten",
+      "provider": "youtube",
+      "videoId": "1MQ1DTAXT_A",
+      "description": "Das Erklärvideo (4:48) des Lernkanals Die Merkhilfe fasst den europäischen Binnenmarkt und die vier Freiheiten zusammen. Achte beim Schauen auf zwei Leitfragen: (1) Welche Beispiele nennt das Video für die vier Freiheiten – und welche davon sind dir selbst schon begegnet? (2) Das Video erklärt den Binnenmarkt aus Sicht der EU: Überlege beim Schauen, was davon über den EWR auch für Liechtenstein gilt.",
+      "startSeconds": 0,
+      "transcript": "Das Erklärvideo «Europäischer Binnenmarkt – Wirtschaftsunion & 4 Freiheiten (Personen, Waren, Kapital & Dienste)» (Die Merkhilfe, 4:48 Minuten) erklärt den europäischen Binnenmarkt als gemeinsamen Markt der EU-Staaten: Waren, Dienstleistungen, Personen und Kapital können sich frei über die Grenzen der Mitgliedstaaten bewegen. Das Video veranschaulicht die vier Grundfreiheiten mit Beispielen – vom zollfreien Warenhandel über das Arbeiten und Studieren im Ausland bis zu grenzüberschreitenden Geldanlagen – und ordnet ein, warum der Binnenmarkt für Konsumentinnen und Konsumenten wie für Unternehmen Vorteile bringt. Über das EWR-Abkommen gelten diese Freiheiten auch für Island, Liechtenstein und Norwegen."
+    },
+    {
+      "type": "text",
+      "title": "EU und EWR: nicht dasselbe",
+      "body": "Jetzt zur Unterscheidung, die in diesem Modul sitzen muss. Die **Europäische Union** ist ein enger Zusammenschluss von 27 Staaten, der weit über die Wirtschaft hinausreicht. Aber nicht jedes Land, das am Binnenmarkt teilnimmt, ist EU-Mitglied – hier kommt der **EWR** ins Spiel:\n\nDer **Europäische Wirtschaftsraum (EWR)** dehnt den Binnenmarkt seit 1994 auf Staaten aus, die **nicht** in der EU sind: **Island, Liechtenstein und Norwegen**. Diese drei Länder übernehmen die Regeln des Binnenmarkts und machen bei den vier Freiheiten voll mit – ohne EU-Mitglieder zu sein. Liechtenstein trat dem EWR **1995** bei, nachdem die Stimmberechtigten dem Beitritt zugestimmt hatten.\n\nUnd die **Schweiz**? Sie ist weder EU- noch EWR-Mitglied: 1992 entschied sich die Schweizer Stimmbevölkerung in einer Volksabstimmung knapp gegen den EWR-Beitritt. Ihren Zugang zum europäischen Markt regelt die Schweiz seither über **eigene zweiseitige Verträge** mit der EU – einen ganzen Ordner voller einzelner Abkommen statt einer Gesamtmitgliedschaft.\n\nDamit hast du die Landkarte aus der Grafik im Kopf:\n\n- **EU-Mitglied** heisst automatisch: Teil des Binnenmarkts.\n- **EWR** = die EU-Staaten **plus** Island, Liechtenstein und Norwegen – ein gemeinsamer Binnenmarkt.\n- **Schweiz**: weder EU noch EWR – eigene Verträge mit der EU.\n\nWichtig für alles Weitere: **EWR-Mitglied zu sein heisst nicht, EU-Mitglied zu sein.** Wer das verwechselt, versteht Liechtensteins Lage nicht – denn die ist noch eine Stufe spezieller."
+    },
+    {
+      "type": "text",
+      "title": "Liechtensteins Doppelrolle: ein Land, zwei Wirtschaftsräume",
+      "body": "Liechtenstein steckt in einer Lage, die es **kein zweites Mal in Europa** gibt – rein beschreibend betrachtet ist sie ein Lehrstück über kluge Kleinstaats-Politik:\n\n**Partner Schweiz seit hundert Jahren.** Nach dem Ersten Weltkrieg suchte das wirtschaftlich angeschlagene Liechtenstein einen starken Partner: 1923 wurde der **Zollvertrag** mit der Schweiz unterzeichnet, seit 1924 bilden die beiden Länder einen **gemeinsamen Zollraum** – zwischen ihnen gibt es keine Warenkontrollen, zum Rest der Welt treten sie zollrechtlich gemeinsam auf. Bezahlt wird in Liechtenstein seit den 1920er-Jahren mit dem **Schweizer Franken**; formell geregelt ist das im **Währungsvertrag von 1980**.\n\n**Partner Europa seit 1995.** Mit dem EWR-Beitritt kam der zweite Anschluss dazu: der volle Zugang zum europäischen Binnenmarkt mit seinen vier Freiheiten.\n\nDas Besondere daran: **Die Schweiz selbst ist nicht im EWR.** Liechtenstein gehört damit als einziges Land **beiden Wirtschaftsräumen zugleich** an – dem Schweizer Zollraum und dem EWR-Binnenmarkt. Damit das im Alltag funktioniert, braucht es besondere Regeln: Es wird zum Beispiel überwacht, nach welchen Vorschriften Waren ins Land kommen und weiterverkauft werden. Auch beim Personenverkehr gilt eine Sonderregelung: Das kleine Land darf die Zuwanderung begrenzen – Liechtensteinerinnen und Liechtensteiner können ihrerseits überall im EWR arbeiten und studieren.\n\n**Warum dieser Aufwand?** Denk an die Standortfaktoren aus Modul 26 – allen voran den **Marktzugang**: Ein Betrieb in Liechtenstein verkauft seine Produkte ohne Zollhürden in die Schweiz **und** in den ganzen EWR. Für ein Land mit rund 41'400 Einwohnerinnen und Einwohnern, aber rund 46'400 Arbeitsplätzen ist dieser doppelte Marktzugang ein zentraler Standortvorteil: Der winzige Heimmarkt wäre für die vielen Industrie- und Dienstleistungsbetriebe viel zu klein.\n\nZur nüchternen Beschreibung gehört auch hier die **Kehrseite**: Zwei Wirtschaftsräume bedeuten zwei Regelwerke – das macht Verwaltung und Verträge aufwendig. Und die Doppelrolle lebt davon, dass die Beziehungen zu beiden Partnern gut bleiben. Ein Kleinstaat kann sich seine Sonderstellung nicht erzwingen – er muss sie pflegen."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: EU, EWR und die Doppelrolle",
+      "intro": "Grundidee, vier Freiheiten, EU oder EWR – zeig, was sitzt. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Welche Grundidee steckt hinter der europäischen Einigung nach 1945?",
+          "options": [
+            {
+              "text": "Alle Länder Europas sollten eine gemeinsame Sprache und Kultur bekommen."
+            },
+            {
+              "text": "Frieden sichern, indem die Länder wirtschaftlich so eng verflochten werden, dass sich ein Krieg für alle Seiten nicht mehr lohnt.",
+              "correct": true
+            },
+            {
+              "text": "Europa sollte eine gemeinsame Armee aufbauen, um andere Weltregionen abzuschrecken."
+            },
+            {
+              "text": "Die Regierungen wollten vor allem die Steuern in ganz Europa vereinheitlichen."
+            }
+          ],
+          "explanation": "Nach zwei Weltkriegen setzte Europa auf wirtschaftliche Verflechtung als Friedenswerkzeug: Wer Fabriken, Rohstoffe und Absatzmärkte teilt, schadet mit einem Krieg immer auch sich selbst. Der erste Schritt war 1952 die gemeinsame Kohle- und Stahlindustrie – ausgerechnet die Rüstungsgrundstoffe. Eine gemeinsame Armee war nicht der Kern der Idee, eine Einheitssprache oder einheitliche Steuern erst recht nicht – die Länder blieben eigenständig und verflochten «nur» ihre Wirtschaft."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Welche vier Freiheiten garantiert der europäische Binnenmarkt?",
+          "options": [
+            {
+              "text": "Meinungsfreiheit, Reisefreiheit, Religionsfreiheit und Pressefreiheit."
+            },
+            {
+              "text": "Freien Verkehr von Waren, Steuern, Löhnen und Preisen."
+            },
+            {
+              "text": "Freien Verkehr von Personen, Autos, Häusern und Paketen."
+            },
+            {
+              "text": "Freien Verkehr von Waren, Dienstleistungen, Personen und Kapital.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die vier Freiheiten des Binnenmarkts betreffen Waren, Dienstleistungen, Personen und Kapital – Produkte, Arbeit über Grenzen, Menschen und Geld. Meinungs-, Religions- und Pressefreiheit sind Grund- und Menschenrechte, keine Binnenmarkt-Freiheiten – diese Verwechslung ist der häufigste Fehler. Steuern, Löhne und Preise werden im Binnenmarkt gerade nicht «freigegeben» oder vereinheitlicht, und Autos oder Pakete sind schlicht Waren."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Du bestellst Turnschuhe für 89 CHF in einem deutschen Online-Shop, und das Paket kommt ohne Zollrechnung an. Welche Freiheit steckt dahinter?",
+          "options": [
+            {
+              "text": "Der freie Warenverkehr im Binnenmarkt, an dem Liechtenstein über den EWR teilnimmt.",
+              "correct": true
+            },
+            {
+              "text": "Der freie Personenverkehr, weil der Paketbote über die Grenze fährt."
+            },
+            {
+              "text": "Eine weltweite Regel: Pakete aus dem Ausland sind grundsätzlich immer zollfrei."
+            },
+            {
+              "text": "Der freie Kapitalverkehr, weil du mit deinem Geld bezahlt hast."
+            }
+          ],
+          "explanation": "Bestellte Turnschuhe sind eine Ware – ihr zollfreier Weg über die Grenze ist freier Warenverkehr, der dank EWR auch für Liechtenstein gilt. Dass der Bote über die Grenze fährt, macht daraus keinen Personenverkehr (dabei geht es ums Arbeiten und Leben im Ausland), und bezahlt wird bei jedem Kauf – das ist noch kein Kapitalverkehr im Sinn von Geldanlagen und Investitionen. Weltweit zollfrei sind Pakete gerade nicht: Bestellst du ausserhalb des EWR, können Zoll und Gebühren fällig werden."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Was ist der EWR?",
+          "options": [
+            {
+              "text": "Ein anderer Name für die Europäische Union."
+            },
+            {
+              "text": "Der Zusammenschluss aller Länder, die mit dem Euro bezahlen."
+            },
+            {
+              "text": "Der Europäische Wirtschaftsraum: Er dehnt den EU-Binnenmarkt auf Island, Liechtenstein und Norwegen aus – diese Länder machen mit, ohne EU-Mitglieder zu sein.",
+              "correct": true
+            },
+            {
+              "text": "Ein Verteidigungsbündnis europäischer Staaten."
+            }
+          ],
+          "explanation": "EWR steht für Europäischer Wirtschaftsraum: EU-Staaten plus Island, Liechtenstein und Norwegen bilden zusammen einen Binnenmarkt – die drei Nicht-EU-Länder übernehmen dafür die Binnenmarktregeln. EWR und EU gleichzusetzen ist der Klassiker unter den Fehlern – genau diese Unterscheidung macht Liechtensteins Lage verständlich. Mit der Währung hat der EWR nichts zu tun (Liechtenstein zahlt mit Franken), und ein Militärbündnis ist er erst recht nicht."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Ist Liechtenstein EU-Mitglied?",
+          "options": [
+            {
+              "text": "Nein – Liechtenstein ist nicht in der EU, nimmt aber über den EWR voll am europäischen Binnenmarkt teil.",
+              "correct": true
+            },
+            {
+              "text": "Ja – wer am Binnenmarkt teilnimmt, ist automatisch EU-Mitglied."
+            },
+            {
+              "text": "Ja – Liechtenstein ist der EU 1995 beigetreten."
+            },
+            {
+              "text": "Nein – Liechtenstein hat mit dem europäischen Markt nichts zu tun."
+            }
+          ],
+          "explanation": "Liechtenstein ist kein EU-Mitglied – 1995 trat es dem EWR bei, nicht der EU. Genau darum ist die Unterscheidung so wichtig: Die Teilnahme am Binnenmarkt macht ein Land nicht automatisch zum EU-Mitglied, das zeigen auch Island und Norwegen. Und «nichts zu tun» stimmt erst recht nicht: Über den EWR gelten die vier Freiheiten des Binnenmarkts vollständig auch für Liechtenstein."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Welche Aussage über die Schweiz stimmt?",
+          "options": [
+            {
+              "text": "Die Schweiz ist EU-Mitglied, aber nicht im EWR."
+            },
+            {
+              "text": "Die Schweiz ist Gründungsmitglied des EWR."
+            },
+            {
+              "text": "Die Schweiz hat keinerlei Verträge mit der EU."
+            },
+            {
+              "text": "Die Schweiz ist weder in der EU noch im EWR – ihren Zugang zum europäischen Markt regelt sie über eigene zweiseitige Verträge mit der EU.",
+              "correct": true
+            }
+          ],
+          "explanation": "Die Schweizer Stimmbevölkerung lehnte den EWR-Beitritt 1992 in einer Volksabstimmung knapp ab – seither geht die Schweiz ihren eigenen Weg: Sie ist weder EU- noch EWR-Mitglied, hat den Marktzugang aber über viele einzelne zweiseitige Abkommen mit der EU geregelt. «Keinerlei Verträge» stimmt also nicht – das Gegenteil ist der Fall. Und weil die Schweiz nicht im EWR ist, wird Liechtensteins Mitgliedschaft in beiden Räumen überhaupt erst zur Besonderheit."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Worin besteht Liechtensteins «Doppelrolle»?",
+          "options": [
+            {
+              "text": "Liechtenstein ist gleichzeitig Mitglied der EU und des EWR."
+            },
+            {
+              "text": "Liechtenstein wechselt je nach Wirtschaftslage zwischen EWR und Schweizer Zollraum hin und her."
+            },
+            {
+              "text": "Liechtenstein ist EWR-Mitglied und bildet zugleich mit der Schweiz einen gemeinsamen Zoll- und Währungsraum – als einziges Land gehört es beiden Wirtschaftsräumen an.",
+              "correct": true
+            },
+            {
+              "text": "Liechtenstein gehört keinem der beiden Räume an und handelt völlig ohne Verträge."
+            }
+          ],
+          "explanation": "Die Doppelrolle heisst: seit 1924 Zollraum und seit den 1920er-Jahren Franken-Währungsraum mit der Schweiz (Währungsvertrag 1980) – und seit 1995 zusätzlich EWR-Mitglied. Weil die Schweiz selbst nicht im EWR ist, ist Liechtenstein das einzige Land in beiden Räumen; ein Hin- und Herwechseln gibt es nicht, beides gilt dauerhaft nebeneinander. EU-Mitglied ist Liechtenstein dabei gerade nicht – und ganz ohne Verträge wäre die Lage des Kleinstaats undenkbar."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Warum ist die Doppelrolle für den Wirtschaftsstandort Liechtenstein ein Vorteil? Denk an die Standortfaktoren aus Modul 26.",
+          "options": [
+            {
+              "text": "Weil Liechtenstein dadurch gar keine Steuern mehr erheben muss."
+            },
+            {
+              "text": "Wegen des doppelten Marktzugangs: Betriebe verkaufen ohne Zollhürden in die Schweiz und zugleich in den ganzen EWR-Binnenmarkt.",
+              "correct": true
+            },
+            {
+              "text": "Weil die EU dafür die Staatsausgaben Liechtensteins übernimmt."
+            },
+            {
+              "text": "Weil Betriebe in Liechtenstein dadurch keine Konkurrenz mehr fürchten müssen."
+            }
+          ],
+          "explanation": "Der Standortfaktor heisst Marktzugang: Für Betriebe in einem Land mit rund 41'400 Einwohnerinnen und Einwohnern, aber rund 46'400 Arbeitsplätzen wäre der Heimmarkt viel zu klein – dank Doppelrolle erreichen sie zollfrei die Schweiz und den ganzen EWR. Mit Steuern hat das nichts zu tun (erhoben werden sie selbstverständlich weiter), Geld von der EU fliesst dafür nicht – und Konkurrenz nimmt im grossen Markt eher zu, nicht ab; das kennst du als Wettbewerb aus Modul 8."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-europa-wortbank",
+      "title": "Setze die Begriffe ein: Europa als gemeinsamer Markt",
+      "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "Nach 1945 suchte Europa einen Weg zu dauerhaftem {{1}}. Die Idee: Wer wirtschaftlich eng {{2}} ist, hat wenig Interesse an einem Krieg gegen seine Handelspartner. Aus diesem Gedanken entstand Schritt für Schritt die heutige {{3}}. Ihr Kernstück ist der {{4}}: der freie Verkehr von {{5}} (zum Beispiel eine Online-Bestellung ohne Zoll), von Dienstleistungen, von {{6}} (zum Beispiel ein Studium im Ausland) und von Kapital. Der {{7}} dehnt diesen gemeinsamen Markt auf Island, Liechtenstein und Norwegen aus. Liechtenstein ist zusätzlich seit über hundert Jahren durch den {{8}} mit der Schweiz verbunden und bezahlt mit dem Schweizer {{9}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Frieden"
+          ]
+        },
+        {
+          "antworten": [
+            "verflochten"
+          ]
+        },
+        {
+          "antworten": [
+            "Europäische Union"
+          ]
+        },
+        {
+          "antworten": [
+            "Binnenmarkt"
+          ]
+        },
+        {
+          "antworten": [
+            "Waren"
+          ]
+        },
+        {
+          "antworten": [
+            "Personen"
+          ]
+        },
+        {
+          "antworten": [
+            "EWR"
+          ]
+        },
+        {
+          "antworten": [
+            "Zollvertrag"
+          ]
+        },
+        {
+          "antworten": [
+            "Franken"
+          ]
+        }
+      ],
+      "ablenker": [
+        "Euro",
+        "Militärbündnis",
+        "Grenzkontrolle"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-europa-eingabe",
+      "title": "Tippe die Begriffe ein: EU, EWR und die Doppelrolle",
+      "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle.",
+      "modus": "eingabe",
+      "text": "Der gemeinsame Markt, in dem Waren, Dienstleistungen, Personen und Kapital frei über die Grenzen dürfen, heisst {{1}}. Island, Liechtenstein und Norwegen nehmen daran über den {{2}} teil, ohne EU-Mitglieder zu sein. Liechtenstein trat diesem Wirtschaftsraum im Jahr {{3}} bei. Mit der Schweiz bildet Liechtenstein seit 1924 einen gemeinsamen {{4}}. Bezahlt wird in Liechtenstein mit dem Schweizer {{5}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Binnenmarkt",
+            "Europäischer Binnenmarkt",
+            "EU-Binnenmarkt"
+          ]
+        },
+        {
+          "antworten": [
+            "EWR",
+            "Europäischen Wirtschaftsraum",
+            "Europäischer Wirtschaftsraum"
+          ]
+        },
+        {
+          "antworten": [
+            "1995"
+          ]
+        },
+        {
+          "antworten": [
+            "Zollraum",
+            "Zollgebiet"
+          ]
+        },
+        {
+          "antworten": [
+            "Franken",
+            "Schweizer Franken",
+            "CHF"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-freiheiten",
+      "title": "Zuordnen: Welche Freiheit ist gemeint?",
+      "intro": "Ordne jede Alltagssituation der passenden Binnenmarkt-Freiheit zu: **Warenverkehr**, **Dienstleistungsverkehr**, **Personenverkehr** oder **Kapitalverkehr**. Warenverkehr und Personenverkehr kommen je dreimal vor, Dienstleistungsverkehr und Kapitalverkehr je zweimal. Alle Situationen sind frei erfunden.",
+      "modus": "wortbank",
+      "text": "Du bestellst Turnschuhe in einem deutschen Online-Shop – das Paket kommt ohne Zollformulare an. {{1}}\nNach der Lehre nimmst du eine Stelle in Österreich an, ohne eine besondere Arbeitserlaubnis zu brauchen. {{2}}\nEine Grafikerin aus Vaduz gestaltet die Website eines Cafés in Wien. {{3}}\nEine Käserei liefert ihren Bergkäse ohne Zollabgaben an Läden in Italien. {{4}}\nEine Sparerin kauft Anteile einer norwegischen Firma. {{5}}\nDu schreibst dich nach der Matura an einer Universität in Innsbruck ein. {{6}}\nEin Malerbetrieb übernimmt einen Renovationsauftrag im Nachbarland und stellt dafür seine Rechnung. {{7}}\nEin Unternehmen baut mit eigenem Geld ein neues Werk in Portugal. {{8}}\nEin Möbelhaus verkauft seine Regale in mehrere EWR-Länder, ohne an jeder Grenze Abgaben zu zahlen. {{9}}\nDein Cousin macht ein bezahltes Praktikum in Berlin. {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Warenverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Personenverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Dienstleistungsverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Warenverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Kapitalverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Personenverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Dienstleistungsverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Kapitalverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Warenverkehr"
+          ]
+        },
+        {
+          "antworten": [
+            "Personenverkehr"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Europa in deinem Alltag",
+      "tasks": [
+        {
+          "prompt": "Europa-Spurensuche: Finde drei Situationen oder Gegenstände aus deinem Alltag, die mit dem Binnenmarkt zu tun haben – zum Beispiel ein Produkt aus einem EWR-Land, eine Person, die über die Grenze pendelt oder im Ausland studiert, oder ein Abo bei einer ausländischen Firma. Ordne jeder Situation die passende Freiheit zu (Waren, Dienstleistungen, Personen oder Kapital) und begründe deine Zuordnung in je einem Satz.",
+          "hint": "Schau auf Verpackungen («Hergestellt in …»), denk an Menschen in deinem Umfeld, die grenzüberschreitend arbeiten oder studieren – und daran, dass auch Musik- oder Video-Abos oft Dienstleistungen einer Firma aus dem Ausland sind.",
+          "solution": "Beispielantwort: (1) Meine Kopfhörer wurden über einen Online-Shop in Deutschland bestellt und kamen ohne Zollrechnung – freier Warenverkehr. (2) Meine Nachbarin arbeitet in Liechtenstein und wohnt in Österreich – Personenverkehr, denn sie darf hier ohne besondere Hürden arbeiten. (3) Mein Musik-Abo für 12 CHF im Monat kommt von einer Firma mit Sitz in einem EU-Land – Dienstleistungsverkehr, denn ich kaufe keine Ware, sondern eine laufende Leistung. Deine Antwort ist gelungen, wenn Situation, Freiheit und Begründung zusammenpassen."
+        },
+        {
+          "prompt": "Standort-Beratung: Die erfundene Alpentec AG aus Modul 26 stellt Messgeräte her und verkauft sie in die Schweiz und in mehrere EWR-Länder. Erkläre in vier bis fünf Sätzen, warum Liechtensteins Doppelrolle für Alpentec ein Standortvorteil ist. Verwende dabei die Begriffe Marktzugang, Zollraum, EWR und Binnenmarkt.",
+          "hint": "Stell dir die Alternative vor: Was würde sich für Alpentec ändern, wenn Liechtenstein nur im Schweizer Zollraum wäre – oder nur im EWR? Welche Kundschaft wäre dann schwieriger zu erreichen?",
+          "solution": "Beispielantwort: «Alpentec verkauft Messgeräte in zwei Richtungen – in die Schweiz und in den EWR. Dank Zollraum mit der Schweiz gelangen die Geräte ohne Zollkontrollen und Abgaben zur Schweizer Kundschaft, als wäre es ein Inlandsverkauf. Dank EWR-Mitgliedschaft gilt zugleich der freie Warenverkehr im ganzen europäischen Binnenmarkt – Alpentec erreicht damit eine Kundschaft von rund 450 Millionen Menschen. Dieser doppelte Marktzugang ist ein Standortfaktor, den kein anderes Land so bietet: Wäre Liechtenstein nur in einem der beiden Räume, würde auf der jeweils anderen Seite der Handel komplizierter und teurer. Für eine Exportfirma wie Alpentec ist das ein handfester Grund, am Standort zu bleiben.»"
+        },
+        {
+          "prompt": "Erkläre es jemandem: Erkläre einer Person aus deinem Umfeld in höchstens fünf Sätzen den Unterschied zwischen EU und EWR – und warum Liechtenstein eine Doppelrolle hat. Verwende die Begriffe Binnenmarkt, EWR, Zollvertrag und Franken. Prüfe danach mit der Grafik dieses Moduls, ob deine Erklärung stimmt.",
+          "hint": "Starte mit dem Binnenmarkt (was er ist), erkläre dann, wer mitmacht (EU-Staaten plus Island, Liechtenstein, Norwegen über den EWR) – und zum Schluss, was Liechtenstein zusätzlich mit der Schweiz verbindet.",
+          "solution": "Beispielerklärung: «Die EU-Staaten bilden einen Binnenmarkt, in dem Waren, Dienstleistungen, Personen und Kapital frei über die Grenzen dürfen. Der EWR dehnt diesen Binnenmarkt auf Island, Liechtenstein und Norwegen aus – diese Länder machen also mit, ohne EU-Mitglieder zu sein. Liechtenstein ist seit 1995 im EWR. Zusätzlich bildet es seit 1924 über den Zollvertrag einen gemeinsamen Zollraum mit der Schweiz und bezahlt mit dem Schweizer Franken. Weil die Schweiz selbst nicht im EWR ist, ist Liechtenstein das einzige Land, das zu beiden Wirtschaftsräumen gehört – das ist seine Doppelrolle.» Deine Erklärung ist gelungen, wenn alle vier Begriffe richtig eingebaut sind."
+        }
+      ]
+    }
+  ]
+}
