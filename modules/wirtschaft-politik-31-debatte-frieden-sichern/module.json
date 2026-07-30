@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-31-debatte-frieden-sichern",
+  "title": "Debattenvorbereitung: Frieden sichern – aber wie?",
+  "description": "Diplomatie, Sanktionen, Blauhelme – oder braucht es am Ende doch eine Armee? Im einunddreissigsten Modul des Vertiefungsfachs «Wirtschaft & Politik» bereitest du dich auf die Debatte der Woche 31 vor: Du lernst den Instrumentenkasten der Friedenssicherung kennen, verstehst Neutralität als Sonderweg – mit der Schweiz als bekanntestem Beispiel und Liechtenstein ohne Armee seit 1868 – und erhältst zu zwei Streitfragen je drei ausgearbeitete Pro- und Contra-Argumente nach dem Bauplan aus Modul 9. Das Modul bezieht keine Position – die Bewertung nimmst du in der Debatte vor.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 31,
+  "einheit": "Themenblock F: Europa & internationale Politik",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Debatte",
+    "Argumentieren",
+    "Friedenssicherung",
+    "Diplomatie",
+    "Sanktionen",
+    "Peacekeeping",
+    "Blauhelme",
+    "Internationaler Gerichtshof",
+    "Strafgerichtshof",
+    "Neutralität",
+    "Kleinstaat",
+    "Armee",
+    "Pro und Contra",
+    "politische Bildung"
+  ],
+  "learningObjectives": [
+    "Ich kenne den Instrumentenkasten der Friedenssicherung: Diplomatie und Vermittlung, Wirtschaftssanktionen, Peacekeeping mit Blauhelmen, internationale Gerichte – und den Militäreinsatz mit UNO-Mandat als härtestes Mittel.",
+    "Ich verstehe Neutralität als Sonderweg: die Schweiz als bekanntestes Beispiel – und Liechtenstein als Staat ohne Armee seit 1868.",
+    "Ich kann den Argument-Bauplan aus Modul 9 (Behauptung – Begründung – Beispiel) auf beide Debattenfragen anwenden.",
+    "Ich kann zu beiden Streitfragen je drei Pro- und Contra-Argumente in eigenen Worten wiedergeben – ohne dass mir das Modul eine Position vorgibt."
+  ],
+  "competencies": [
+    {
+      "code": "RZG.8.2",
+      "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    },
+    {
+      "code": "LBO.5.6",
+      "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Bundeszentrale für politische Bildung (bpb)",
+      "url": "https://www.bpb.de"
+    },
+    {
+      "title": "Vereinte Nationen – Regionales Informationszentrum für Westeuropa (UNRIC)",
+      "url": "https://unric.org/de"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "wirtschaft-politik-09-argumentieren-preisregulierung",
+    "wirtschaft-politik-29-uno-menschenrechte",
+    "wirtschaft-politik-30-konflikte-verstehen"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Deine Debatte – dein Werkzeug",
+      "body": "In **Woche 31 debattiert ihr im Unterricht** die grosse Anschlussfrage an Modul 30: **Frieden sichern – aber wie?** Wie schon die Module 9 und 24 ist dieses Modul bewusst **kein reines Wissensmodul**: Du bekommst das Handwerkszeug und das Material für beide Seiten. **Position bezieht dieses Modul keine** – die Bewertung nimmst du in der Debatte vor.\n\nZuerst das Werkzeug, du kennst es aus Modul 9 – der **Argument-Bauplan**:\n\n1. **Behauptung** – *Was willst du sagen?* Ein klarer Satz, der Stellung bezieht.\n2. **Begründung** – *Warum stimmt das?* Der Grund, eingeleitet mit **«weil»** oder **«denn»**.\n3. **Beispiel** – *Woran sieht man das?* Ein konkreter Fall als überprüfbarer Beleg.\n\nFehlen Begründung und Beispiel, bleibt eine **blosse Behauptung** – und die überzeugt niemanden, der nicht schon deiner Meinung ist.\n\nDebattiert werden **zwei Streitfragen**: erstens «**Sind Wirtschaftssanktionen ein wirksames Friedensinstrument?**», zweitens «**Braucht ein neutraler Kleinstaat eine Armee?**». Dein Vorwissen dafür ist beisammen: Aus Modul 28 kennst du die Friedensidee der wirtschaftlichen Verflechtung, aus Modul 29 die UNO mit Sicherheitsrat und Vetoproblem, aus Modul 30 die Eskalationstreppe und die Akteure. Jetzt fehlt nur noch der Werkzeugkasten – dann kann die Debatte kommen."
+    },
+    {
+      "type": "text",
+      "title": "Der Instrumentenkasten der Friedenssicherung",
+      "body": "Was kann die Staatengemeinschaft tun, um Frieden zu erhalten oder wiederherzustellen? Fünf Instrumente solltest du kennen – geordnet von **«weich»** nach **«hart»**:\n\n- **Diplomatie und Vermittlung:** Das älteste und weichste Instrument – reden, verhandeln, Kompromisse suchen. Wenn die Parteien nicht mehr direkt miteinander können, hilft ein **neutraler Vermittler**: ein unbeteiligter Staat oder eine Organisation wie die OSZE (Modul 30), die beide an einen Tisch bringt.\n- **Wirtschaftssanktionen:** Handel, Konten und Reisemöglichkeiten werden eingeschränkt, um **Druck ohne Waffen** aufzubauen. Die Logik kennst du aus Modul 28 – nur umgekehrt: Dieselbe Verflechtung, die Frieden fördert, wird zum Hebel, wenn ein Staat Regeln bricht.\n- **Peacekeeping (Blauhelme):** Die UNO entsendet Friedenstruppen – erkennbar an den blauen Helmen –, die **Waffenstillstände überwachen** und Konfliktparteien auseinanderhalten. Wichtig: Klassische Blauhelm-Missionen brauchen ein **Mandat des Sicherheitsrats** und die **Zustimmung der Konfliktparteien** – Blauhelme erzwingen keinen Frieden, sie sichern einen vereinbarten.\n- **Internationale Gerichte:** Der **Internationale Gerichtshof (IGH)** entscheidet Streitigkeiten **zwischen Staaten** – etwa über Grenzverläufe. Der **Internationale Strafgerichtshof** richtet über **einzelne Personen**, denen schwerste Verbrechen wie Kriegsverbrechen vorgeworfen werden.\n- **Militäreinsatz mit UNO-Mandat:** Das härteste, letzte Mittel: Der Sicherheitsrat kann als äusserste Massnahme militärisches Eingreifen erlauben.\n\nZwei Dinge gelten für den ganzen Kasten. Erstens: Für Blauhelme und Militäreinsätze braucht es den **Sicherheitsrat** – und dort sitzt das **Vetoproblem** aus Modul 29; die härteren Instrumente sind also genau dann blockiert, wenn eine Vetomacht beteiligt ist. Zweitens: Die Instrumente **schliessen sich nicht aus** – meist wird gleichzeitig verhandelt, sanktioniert und beobachtet."
+    },
+    {
+      "type": "image",
+      "title": "Der Instrumentenkasten im Überblick",
+      "src": "/content/wirtschaft-politik-31-debatte-frieden-sichern/instrumentenkasten.png",
+      "alt": "Schema mit fünf Kacheln, von links nach rechts geordnet von weich nach hart, darunter ein Farbverlaufspfeil von grün über blau nach dunkelblau mit den Beschriftungen weich und hart. Kachel 1, grün, mit Sprechblasen-Symbol: Diplomatie und Vermittlung – reden und verhandeln, notfalls mit neutralem Vermittler am Tisch. Kachel 2, hellblau, mit Verbotszeichen: Wirtschaftssanktionen – Handel, Konten und Reisen einschränken, Druck aufbauen ohne Waffen. Kachel 3, blau, mit Helm-Symbol: Peacekeeping, Blauhelme – UNO-Truppen überwachen Waffenstillstände, mit Zustimmung beider Seiten. Kachel 4, graublau, mit Waagen-Symbol: Internationale Gerichte – IGH für Streit zwischen Staaten, Strafgerichtshof richtet über Einzelpersonen. Kachel 5, dunkelblau, mit Schild-Symbol: Militäreinsatz mit UNO-Mandat – das härteste, letzte Mittel, nur mit Beschluss des UNO-Sicherheitsrats. Darunter ein Hinweiskasten: Blauhelme und Militäreinsätze brauchen ein Mandat des UNO-Sicherheitsrats, dort kann jede Vetomacht blockieren; meist werden mehrere Instrumente kombiniert. Ganz unten die Merkzeile: Welches Instrument wann wirkt – genau darüber führt ihr die Debatte.",
+      "caption": "Fünf Instrumente von «weich» bis «hart»: Die Reihenfolge sagt nichts über die Wirksamkeit – genau die steht in eurer Debatte zur Diskussion.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "text",
+      "title": "Neutralität als Sonderweg",
+      "body": "Neben dem Instrumentenkasten gibt es noch einen ganz anderen Umgang mit Krieg und Frieden: die **Neutralität**. Ein neutraler Staat **beteiligt sich nicht an Kriegen anderer Staaten** und tritt **keinem Militärbündnis** bei – er stellt sich also dauerhaft ausserhalb der Blöcke.\n\nDas bekannteste Beispiel ist die **Schweiz**: Ihre dauernde Neutralität ist seit über 200 Jahren international anerkannt. Wichtig für die Debatte: Neutral heisst **nicht meinungslos** und nicht tatenlos – die Schweiz vermittelt in Konflikten, stellt ihre guten Dienste zur Verfügung und ist Gaststaat für Verhandlungen; in Genf sitzen zahlreiche internationale Organisationen. Und: Die Schweiz ist neutral, unterhält aber **eine eigene Armee** zur Verteidigung – Neutralität und Streitkräfte schliessen sich nicht aus.\n\nUnd Liechtenstein? Hier wird es für deine zweite Debattenfrage spannend: **Liechtenstein hat seit 1868 keine eigene Armee** – sie wurde damals vor allem aus Kostengründen abgeschafft. Seither setzt der Kleinstaat auf andere Schutzschichten: auf das **Völkerrecht** mit seinem Gewaltverbot (Modul 30), auf enge **Verflechtung** und gute Beziehungen zu den Nachbarn (Modul 28) und auf die Mitgliedschaft in internationalen Organisationen wie der UNO (Modul 29).\n\nNimm dieses Faktum als **Denkanstoss, nicht als Antwort**: Ob ein neutraler Kleinstaat mit oder ohne Armee besser fährt, ist genau die Streitfrage, die ihr debattieren werdet – und für beide Seiten gibt es ernstzunehmende Argumente."
+    },
+    {
+      "type": "text",
+      "title": "Debattenfrage 1: Sind Wirtschaftssanktionen ein wirksames Friedensinstrument?",
+      "body": "Hier sind je drei Argumente – jedes nach dem Bauplan **Behauptung – Begründung – Beispiel**. Wichtig: Die Argumente sind **grundsätzlich** formuliert; ob Sanktionen in einem bestimmten laufenden Konflikt wirken, behauptet dieses Modul nicht – das lässt sich meist erst im Rückblick beurteilen. Alle Länderbeispiele sind frei erfunden.\n\n**PRO: Sanktionen sind ein wirksames Friedensinstrument**\n\n1. **Behauptung:** Sanktionen treffen die Wirtschaft eines Aggressors dort, wo Krieg bezahlt wird. **Begründung:** Krieg kostet enorme Summen – wer Exporteinnahmen und Zugang zu Technologie verliert, kann Aufrüstung schlechter finanzieren. **Beispiel:** Verliert das erfundene Rotland seine wichtigsten Abnehmer für Rohstoffe, fehlen dem Staatshaushalt Milliarden – jede Panzerfabrik konkurriert dann mit Löhnen und Renten ums Geld.\n2. **Behauptung:** Sanktionen sind ein deutliches Signal ganz ohne Waffen. **Begründung:** Sie zeigen sichtbar, dass Regelbruch einen Preis hat – ohne dass ein einziger Schuss fällt, und mit der Möglichkeit, sie bei Einlenken wieder aufzuheben. **Beispiel:** Auch Staaten ohne Armee können mitmachen – ein Kleinstaat kann Konten sperren und Handel einschränken und so Haltung zeigen, ohne zu kämpfen.\n3. **Behauptung:** Sanktionen stärken die internationale Geschlossenheit. **Begründung:** Wenn viele Staaten gemeinsam handeln, entsteht mehr Druck, als jeder allein erzeugen könnte – und der Aggressor sieht, dass er isoliert ist. **Beispiel:** Schliessen sich Dutzende Staaten einer Sanktionsrunde gegen Rotland an, findet dessen Führung kaum noch Banken und Häfen, die ihre Geschäfte abwickeln.\n\n**CONTRA: Sanktionen sind kein wirksames Friedensinstrument**\n\n1. **Behauptung:** Sanktionen treffen oft die Bevölkerung statt der Führung. **Begründung:** Steigende Preise und fehlende Waren belasten zuerst die Schwächsten – die Führungsschicht findet meist Wege, sich weiter zu versorgen. **Beispiel:** In Rotland werden Medikamente und Ersatzteile knapp und teuer, während die Regierung ihre Importe über Umwege organisiert.\n2. **Behauptung:** Sanktionen lassen sich über Drittstaaten umgehen. **Begründung:** Waren und Geld können über Länder fliessen, die bei den Sanktionen nicht mitmachen – je weniger Staaten mitziehen, desto grösser die Löcher. **Beispiel:** Das erfundene Gelbland macht nicht mit und wird zur Drehscheibe: Rotland kauft dieselbe Technik einfach dort – teurer, aber verfügbar.\n3. **Behauptung:** Sanktionen wirken zu langsam, um einen Krieg zu stoppen. **Begründung:** Staaten legen Vorräte an, bauen Produktion um und finden neue Handelspartner – bis der Druck wirkt, vergehen oft Jahre. **Beispiel:** Rotlands Lager und Ersatzlieferanten halten die Wirtschaft lange über Wasser – ein laufender Angriff wird durch Sanktionen allein nicht angehalten.\n\n**Halte fest:** Beide Seiten argumentieren sauber nach dem Bauplan. In der Debatte gewinnt nicht, wer lauter ist – sondern wer Begründung und Beispiel im Griff hat und auf Einwände antworten kann."
+    },
+    {
+      "type": "text",
+      "title": "Debattenfrage 2: Braucht ein neutraler Kleinstaat eine Armee?",
+      "body": "Die zweite Frage rückt näher an dein eigenes Land heran – und bleibt doch grundsätzlich: Es geht um **einen** neutralen Kleinstaat, nicht um eine Empfehlung für ein bestimmtes Land. Auch hier: je drei Argumente nach dem Bauplan.\n\n**PRO: Ein neutraler Kleinstaat braucht eine Armee**\n\n1. **Behauptung:** Selbstverteidigung gehört zum Kern der Souveränität. **Begründung:** Wer sein Gebiet nicht einmal symbolisch schützen kann, macht seine Eigenstaatlichkeit vollständig von anderen abhängig. **Beispiel:** Die neutrale Schweiz zeigt, dass beides zusammengeht: anerkannte Neutralität und eine eigene Armee zur Verteidigung.\n2. **Behauptung:** Schon eine kleine Armee erhöht die Abschreckung. **Begründung:** Sie macht einen Angriff teurer und riskanter – ein Angreifer muss mit Widerstand rechnen statt mit einem Spaziergang. **Beispiel:** Das erfundene Bergtal mit einer kleinen, gut ausgebildeten Miliz zwingt jeden Angreifer, Kräfte einzuplanen – das allein kann einen Überfall unattraktiv machen.\n3. **Behauptung:** Eine Armee macht bündnis- und hilfsfähig. **Begründung:** Wer eigene Fähigkeiten mitbringt – und sei es Sanität, Logistik oder Katastrophenschutz –, dem wird im Ernstfall eher geholfen, und er kann bei internationalen Einsätzen Verantwortung übernehmen. **Beispiel:** Bergtals Gebirgsspezialisten sind bei Übungen und Hilfseinsätzen gefragt – das schafft Partnerschaften, die im Ernstfall zählen.\n\n**CONTRA: Ein neutraler Kleinstaat braucht keine Armee**\n\n1. **Behauptung:** Ein Kleinstaat kann sich militärisch ohnehin nicht verteidigen. **Begründung:** Gegen die Streitkräfte eines grossen Angreifers ist eine Miniarmee chancenlos – sie bindet Geld, ohne echten Schutz zu bieten. **Beispiel:** Das erfundene Felsland mit wenigen zehntausend Einwohnerinnen und Einwohnern könnte selbst mit grösster Anstrengung nur Stunden Widerstand leisten – Schutz muss also sowieso woanders herkommen.\n2. **Behauptung:** Die Mittel sind in Diplomatie und Wirtschaft besser angelegt. **Begründung:** Ein Kleinstaat gewinnt Sicherheit durch Beziehungen, Vermittlung und wirtschaftliche Bedeutung – jeder Franken für Kasernen fehlt dort. **Beispiel:** Felsland investiert in Botschaften, internationale Organisationen und seinen Wirtschaftsstandort – und wird dadurch als Partner wertvoller, als es eine Kompanie Soldaten je machen würde.\n3. **Behauptung:** Völkerrecht und Verflechtung schützen wirksamer als eigene Waffen. **Begründung:** Das Gewaltverbot der UNO-Charta, die Mitgliedschaft in internationalen Organisationen und enge wirtschaftliche Verflechtung machen einen Angriff auf einen Kleinstaat politisch extrem kostspielig. **Beispiel:** Ein Angriff auf das eng verflochtene Felsland träfe sofort die Interessen aller seiner Partner – dieser Schutzschirm aus Beziehungen ist breiter, als eine kleine Armee je sein könnte.\n\n**Und Liechtenstein?** Seit 1868 lebt es ohne Armee – ob das Vorbild oder Sonderfall ist, entscheidet dieses Modul nicht. **Beide Argumentreihen stehen bereit: Die Abwägung findet in eurer Debatte statt.**"
+    },
+    {
+      "type": "quiz",
+      "id": "quiz1",
+      "title": "Quiz: Instrumente und Neutralität",
+      "intro": "Werkzeugkasten, Neutralität und Bauplan – zeig, dass du das Rüstzeug für die Debatte beisammen hast. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Welches ist das «weichste» Instrument der Friedenssicherung?",
+          "options": [
+            {
+              "text": "Wirtschaftssanktionen."
+            },
+            {
+              "text": "Peacekeeping mit Blauhelmen."
+            },
+            {
+              "text": "Der Militäreinsatz mit UNO-Mandat."
+            },
+            {
+              "text": "Diplomatie und Vermittlung.",
+              "correct": true
+            }
+          ],
+          "explanation": "Am weichen Ende des Kastens stehen Diplomatie und Vermittlung: reden, verhandeln, notfalls mit einem neutralen Vermittler am Tisch – ohne jeden Zwang. Sanktionen bauen bereits wirtschaftlichen Druck auf, Blauhelme stehen mit Truppen im Konfliktgebiet, und der Militäreinsatz mit UNO-Mandat ist das härteste, letzte Mittel. Merk dir die Ordnung von weich nach hart – sie strukturiert die halbe Debatte."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Was sind Wirtschaftssanktionen?",
+          "options": [
+            {
+              "text": "Ein anderes Wort für eine Kriegserklärung."
+            },
+            {
+              "text": "Einschränkungen von Handel, Konten oder Reisen, die ohne Waffen Druck auf einen Staat aufbauen sollen.",
+              "correct": true
+            },
+            {
+              "text": "Zahlungen an einen Aggressor, damit er den Angriff beendet."
+            },
+            {
+              "text": "Werbekampagnen der UNO für den Frieden."
+            }
+          ],
+          "explanation": "Sanktionen nutzen die wirtschaftliche Verflechtung als Hebel: Handel wird eingeschränkt, Konten werden gesperrt, Reisen verboten – Druck ohne Waffen, der bei Einlenken wieder aufgehoben werden kann. Eine Kriegserklärung sind sie gerade nicht – sie sollen den Waffengang ja ersetzen. Bezahlt wird ein Aggressor selbstverständlich nicht, und mit Werbekampagnen haben Sanktionen nichts zu tun."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Was kennzeichnet klassische Blauhelm-Missionen der UNO?",
+          "options": [
+            {
+              "text": "Sie erobern Gebiete zurück und erzwingen den Frieden mit Waffengewalt."
+            },
+            {
+              "text": "Sie bestehen aus privaten Sicherheitsfirmen im Auftrag einzelner Staaten."
+            },
+            {
+              "text": "Sie überwachen Waffenstillstände – mit Mandat des Sicherheitsrats und Zustimmung der Konfliktparteien.",
+              "correct": true
+            },
+            {
+              "text": "Sie sind die Armee des Landes, in dem sie stationiert sind, in blauer Uniform."
+            }
+          ],
+          "explanation": "Blauhelme sichern einen vereinbarten Frieden, sie erzwingen keinen: Klassische Missionen brauchen ein Mandat des UNO-Sicherheitsrats und die Zustimmung der Konfliktparteien – dann überwachen sie Waffenstillstände und halten die Seiten auseinander. Die Truppen stellen UNO-Mitgliedstaaten, keine privaten Firmen – und mit der Armee des Gastlandes sind sie gerade nicht identisch, ihre Stärke ist die Unparteilichkeit."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Worin unterscheiden sich der Internationale Gerichtshof (IGH) und der Internationale Strafgerichtshof?",
+          "options": [
+            {
+              "text": "Der IGH entscheidet Streitigkeiten zwischen Staaten – der Strafgerichtshof richtet über einzelne Personen.",
+              "correct": true
+            },
+            {
+              "text": "Der IGH richtet über Einzelpersonen – der Strafgerichtshof über Staaten."
+            },
+            {
+              "text": "Beide sind nur für Wirtschaftsstreitigkeiten zuständig."
+            },
+            {
+              "text": "Beide sind Organe der NATO."
+            }
+          ],
+          "explanation": "Merk dir die Arbeitsteilung: Der IGH klärt Streit zwischen Staaten – etwa über Grenzverläufe. Der Internationale Strafgerichtshof richtet über einzelne Menschen, denen schwerste Verbrechen wie Kriegsverbrechen vorgeworfen werden. Die umgekehrte Zuordnung ist der häufigste Fehler. Mit Wirtschaftsstreitigkeiten allein haben beide nichts zu tun, und zur NATO gehören sie nicht – sie sind Teil der internationalen Rechtsordnung."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Was bedeutet die Neutralität der Schweiz?",
+          "options": [
+            {
+              "text": "Die Schweiz darf zu Konflikten keine eigene Meinung äussern."
+            },
+            {
+              "text": "Sie nimmt nicht an Kriegen anderer Staaten teil und tritt keinem Militärbündnis bei – vermittelt aber und ist Gaststaat für Verhandlungen.",
+              "correct": true
+            },
+            {
+              "text": "Die Schweiz hat wegen ihrer Neutralität keine eigene Armee."
+            },
+            {
+              "text": "Neutralität heisst, keinerlei Verträge mit anderen Staaten zu schliessen."
+            }
+          ],
+          "explanation": "Neutral heisst: keine Teilnahme an fremden Kriegen, kein Beitritt zu Militärbündnissen. Meinungslos oder tatenlos ist die Schweiz deshalb nicht – sie vermittelt, leistet gute Dienste und beherbergt in Genf zahlreiche internationale Organisationen. Der häufigste Fehler steckt in der Armee-Antwort: Die neutrale Schweiz unterhält sehr wohl eine eigene Armee zur Verteidigung – Neutralität und Streitkräfte schliessen sich nicht aus. Und Verträge schliesst die Schweiz selbstverständlich, wie du aus Modul 28 weisst."
+        },
+        {
+          "id": "q6",
+          "type": "single_choice",
+          "prompt": "Seit wann hat Liechtenstein keine eigene Armee mehr?",
+          "options": [
+            {
+              "text": "Seit 1806."
+            },
+            {
+              "text": "Seit 1924 – mit dem Zollvertrag."
+            },
+            {
+              "text": "Seit 1990 – mit dem UNO-Beitritt."
+            },
+            {
+              "text": "Seit 1868 – die Armee wurde damals vor allem aus Kostengründen abgeschafft.",
+              "correct": true
+            }
+          ],
+          "explanation": "1868 schaffte Liechtenstein seine Armee ab – ausschlaggebend waren vor allem die Kosten. Die anderen Jahreszahlen gehören zu anderen Kapiteln der Landesgeschichte: 1924 trat der Zollvertrag mit der Schweiz in Kraft (Modul 28), 1990 wurde Liechtenstein UNO-Mitglied (Modul 29). Für die Debatte ist 1868 ein Denkanstoss, kein Urteil: Ob ein Kleinstaat ohne Armee gut fährt, ist genau die zweite Streitfrage."
+        },
+        {
+          "id": "q7",
+          "type": "single_choice",
+          "prompt": "Warum können die «harten» Instrumente – Blauhelme und Militäreinsatz – blockiert sein?",
+          "options": [
+            {
+              "text": "Sie brauchen ein Mandat des UNO-Sicherheitsrats – und dort kann jede Vetomacht das Mandat verhindern.",
+              "correct": true
+            },
+            {
+              "text": "Die Generalversammlung erteilt solche Mandate nur einstimmig."
+            },
+            {
+              "text": "Blauhelme dürfen grundsätzlich nur in Vetomächten eingesetzt werden."
+            },
+            {
+              "text": "Die NATO muss jedem UNO-Mandat zustimmen."
+            }
+          ],
+          "explanation": "Blauhelm-Missionen und Militäreinsätze brauchen einen Beschluss des Sicherheitsrats – und dort gilt das Vetorecht aus Modul 29: Eine einzige Vetomacht kann jedes Mandat stoppen, besonders wenn sie selbst beteiligt ist oder eine Konfliktpartei schützt. Die Generalversammlung erteilt solche Mandate gar nicht (ihre Beschlüsse sind Empfehlungen), ein Einsatzverbot ausserhalb von Vetomächten existiert nicht – und die NATO hat mit UNO-Mandaten nichts zu entscheiden."
+        },
+        {
+          "id": "q8",
+          "type": "single_choice",
+          "prompt": "Was unterscheidet ein vollständiges Argument von einer blossen Behauptung?",
+          "options": [
+            {
+              "text": "Ein Argument wird lauter und mit mehr Nachdruck vorgetragen."
+            },
+            {
+              "text": "Eine Behauptung ist immer falsch, ein Argument immer richtig."
+            },
+            {
+              "text": "Ein Argument stützt die Behauptung mit einer Begründung und einem Beispiel – eine blosse Behauptung steht ohne beides da.",
+              "correct": true
+            },
+            {
+              "text": "Ein Argument braucht mindestens fünf Sätze."
+            }
+          ],
+          "explanation": "Der Bauplan aus Modul 9 macht den Unterschied: Behauptung plus Begründung («weil»/«denn») plus überprüfbares Beispiel – erst alle drei Bausteine ergeben ein Argument. Lautstärke ersetzt keine Begründung, und die Länge ist kein Kriterium: Ein Dreizeiler kann ein sauberes Argument sein. Auch der Wahrheitsgehalt entscheidet nicht über die Form – eine Behauptung kann zufällig stimmen und bleibt doch unbegründet; genau darum prüfst du in der Zuordnungsaufgabe den Bau, nicht deine Zustimmung."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-zuordnen-sanktionen",
+      "title": "Zuordnen: Pro, Contra – oder blosse Behauptung?",
+      "intro": "Ordne jede Aussage zur Streitfrage «Sind Wirtschaftssanktionen ein wirksames Friedensinstrument?» der richtigen Kategorie zu: **Pro-Argument** (für die Wirksamkeit, mit Begründung), **Contra-Argument** (gegen die Wirksamkeit, mit Begründung) oder **blosse Behauptung** (egal welche Seite – ohne Begründung und Beleg). Pro- und Contra-Argument kommen je dreimal vor, die blosse Behauptung viermal. Es zählt der **Bau** der Aussage, nicht, ob du inhaltlich zustimmst. Alle Länder sind frei erfunden.",
+      "modus": "wortbank",
+      "text": "«Sanktionen treffen die Wirtschaft eines Aggressors, weil ihm ohne Exporteinnahmen das Geld für die Aufrüstung fehlt – Rotlands Staatshaushalt verliert Milliarden, wenn die Abnehmer seiner Rohstoffe wegfallen.» {{1}}\n«Sanktionen bringen sowieso nie etwas, das weiss doch jeder.» {{2}}\n«Sanktionen treffen oft die Bevölkerung statt der Führung, weil steigende Preise und fehlende Waren zuerst die Schwächsten belasten – in Rotland werden Medikamente knapp, während die Führung ihre Importe über Umwege organisiert.» {{3}}\n«Wer Sanktionen kritisiert, steht automatisch auf der Seite des Aggressors.» {{4}}\n«Sanktionen sind ein Signal ohne Waffen, weil ein Regelbruch damit sichtbar einen Preis bekommt – auch Staaten ohne Armee können Konten sperren und so Haltung zeigen.» {{5}}\n«Sanktionen wirken zu langsam, um einen Krieg zu stoppen, weil Staaten Vorräte anlegen und neue Handelspartner finden – Rotlands Lager halten die Wirtschaft über Jahre über Wasser.» {{6}}\n«Härte ist die einzige Sprache, die verstanden wird.» {{7}}\n«Sanktionen stärken die internationale Geschlossenheit, weil gemeinsamer Druck stärker wirkt als Einzelmassnahmen – schliessen sich Dutzende Staaten an, findet Rotlands Führung kaum noch Banken für ihre Geschäfte.» {{8}}\n«Sanktionen lassen sich über Drittstaaten umgehen, weil Waren über Länder fliessen können, die nicht mitmachen – das erfundene Gelbland wird zur Drehscheibe für Rotlands Einkäufe.» {{9}}\n«Am Ende regelt sich so etwas immer von selbst.» {{10}}",
+      "luecken": [
+        {
+          "antworten": [
+            "Pro-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Contra-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Pro-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "Contra-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Pro-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "Contra-Argument"
+          ]
+        },
+        {
+          "antworten": [
+            "blosse Behauptung"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-argument-zusammensetzen",
+      "title": "Bau das Argument wieder zusammen",
+      "intro": "Ein Pro-Argument zur Sanktionsfrage wurde in seine Bausteine zerlegt. Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). Es geht ums **Zusammensetzen nach dem Bauplan** – nicht darum, ob du dem Argument zustimmst. **Achtung:** Zwei Wörter in der Auswahl passen nirgends.",
+      "modus": "wortbank",
+      "text": "{{1}}: «Wirtschaftssanktionen sind ein deutliches Signal der Staatengemeinschaft.»\n{{2}}: «…, {{3}} ein Regelbruch damit für alle sichtbar einen Preis bekommt – ganz ohne den Einsatz von {{4}}.»\n{{5}}: «Zum Beispiel können sich auch Staaten ohne Armee anschliessen – ein {{6}} kann Konten sperren und Handel einschränken und so Haltung zeigen.»\nOhne die Begründung und das Beispiel bliebe nur eine blosse {{7}} übrig. Erst alle drei Bausteine ergeben den vollständigen {{8}}.",
+      "luecken": [
+        {
+          "antworten": [
+            "Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Begründung"
+          ]
+        },
+        {
+          "antworten": [
+            "weil"
+          ]
+        },
+        {
+          "antworten": [
+            "Waffen"
+          ]
+        },
+        {
+          "antworten": [
+            "Beispiel"
+          ]
+        },
+        {
+          "antworten": [
+            "Kleinstaat"
+          ]
+        },
+        {
+          "antworten": [
+            "Behauptung"
+          ]
+        },
+        {
+          "antworten": [
+            "Bauplan"
+          ]
+        }
+      ],
+      "ablenker": [
+        "denn",
+        "Schlagzeile"
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Dein Auftritt in der Debatte",
+      "tasks": [
+        {
+          "prompt": "Dein Kurzargument für die Debatte: Formuliere zur zweiten Streitfrage – «Braucht ein neutraler Kleinstaat eine Armee?» – ein eigenes Kurzargument exakt nach dem Bauplan: (1) eine klare Behauptung (Pro ODER Contra – gern auch die Seite, die nicht deiner Meinung entspricht), (2) eine Begründung mit «weil» oder «denn», (3) ein konkretes Beispiel. Nutze Wissen aus den Modulen 28 bis 30 – etwa Verflechtung, Völkerrecht, Bündnisse oder das Vetoproblem – oder erfinde ein passendes fiktives Szenario. Vermeide Behauptungen über den Verlauf oder Ausgang laufender Konflikte.",
+          "hint": "Nimm den Bauplan als Checkliste: Bezieht dein erster Satz klar Stellung zur Streitfrage? Nennt deine Begründung einen echten Grund – keinen Scheingrund wie «weil das jeder weiss»? Ist dein Beispiel konkret und überprüfbar? Ideen für die Pro-Seite: Souveränität, Abschreckung, Bündnisfähigkeit. Ideen für die Contra-Seite: Chancenlosigkeit einer Miniarmee, Mittel besser in Diplomatie und Wirtschaft, Schutz durch Völkerrecht und Verflechtung. Liechtenstein ohne Armee seit 1868 kannst du als Denkanstoss für beide Seiten nutzen.",
+          "solution": "Eine Musterlösung gibt es nicht – prüfe dein Argument mit diesen Kriterien: (1) Die Behauptung ist ein vollständiger Aussagesatz mit klarer Position. (2) Die Begründung hängt logisch an der Behauptung – Test: Ergibt «Behauptung, weil Begründung» einen sinnvollen Satz? (3) Das Beispiel belegt genau die Begründung und ist fiktiv, historisch oder ein dokumentiertes Faktum – keine Spekulation über laufende Konflikte. Beispielhafte Struktur für die Pro-Seite: «Auch ein neutraler Kleinstaat braucht eine Armee, weil schon geringe Verteidigungsfähigkeit einen Angriff teurer und riskanter macht – die neutrale Schweiz verbindet seit Jahrhunderten Neutralität mit einer eigenen Armee.» Beispielhafte Struktur für die Contra-Seite: «Ein neutraler Kleinstaat braucht keine Armee, weil sein Schutz ohnehin aus Völkerrecht und Verflechtung kommt und jede Miniarmee gegen einen grossen Angreifer chancenlos wäre – Liechtenstein lebt seit 1868 ohne Armee und setzt stattdessen auf internationale Organisationen und enge Partnerschaften.» Beide Beispiele sind gleichwertig – welche Seite du vertrittst, entscheidest du."
+        }
+      ]
+    }
+  ]
+}
