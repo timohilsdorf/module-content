@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 2,
+  "id": "englisch-01-catchy-tunes",
+  "title": "Catchy tunes: Talking about music",
+  "description": "«Catchy tunes» – der Auftakt zum Englisch-Lernpfad rund um Musik: Du lernst Grundwortschatz zu Genres, Instrumenten und beschreibenden Adjektiven, liest einen kurzen Text über Ohrwürmer, schaust ein TED-Ed-Video dazu und schreibst dein eigenes «music profile» auf Englisch. Niveau A2–B1, 4. Lernjahr Englisch (9. Schulstufe).",
+  "subject": "E",
+  "subjectName": "Englisch",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I), 4. Lernjahr Englisch",
+  "sequenz": 1,
+  "einheit": "Catchy tunes – über Musik sprechen",
+  "language": "en",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Englisch",
+    "Musik",
+    "music",
+    "genres",
+    "instruments",
+    "adjectives",
+    "earworm",
+    "catchy",
+    "vocabulary",
+    "reading",
+    "listening"
+  ],
+  "learningObjectives": [
+    "I can talk and write about music and my music taste in simple English. (Ich kann in einfachem Englisch über Musik und meinen Musikgeschmack sprechen und schreiben.)",
+    "I know basic words for music genres, instruments and concerts. (Ich kenne Grundwortschatz zu Musikrichtungen, Instrumenten und Konzerten.)",
+    "I can describe music with adjectives like catchy, relaxing or powerful. (Ich kann Musik mit Adjektiven wie catchy, relaxing oder powerful beschreiben.)",
+    "I can understand a short English text and a short English video about earworms. (Ich kann einen kurzen englischen Text und ein kurzes englisches Video über Ohrwürmer verstehen.)"
+  ],
+  "competencies": [
+    {
+      "code": "E.1.A.1",
+      "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+      "code": "E.2.A.1",
+      "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+      "code": "E.4.A.1",
+      "description": "FS1E.4.A.1 (LiLe – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+      "code": "E.5.B.1",
+      "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äussern."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "TED-Ed: Earworms: Those songs that get stuck in your head – Elizabeth Hellmuth Margulis (2015)",
+      "url": "https://ed.ted.com/lessons/earworms-those-songs-that-get-stuck-in-your-head-elizabeth-hellmuth-margulis"
+    },
+    {
+      "title": "ScienceDaily / University of Reading, Beaman et al. (2015): How to stop songs from getting stuck in our heads? Chew some gum!",
+      "url": "https://www.sciencedaily.com/releases/2015/04/150428082010.htm"
+    },
+    {
+      "title": "Scientific American: How Do You Solve a Problem Like an Earworm?",
+      "url": "https://www.scientificamerican.com/article/how-do-you-solve-a-problem-like-an-earworm/"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Welcome to «Catchy tunes»!",
+      "body": "Music is everywhere: in your headphones, in games, in shops – and sometimes it plays on and on in your head. This is the first module of the unit «Catchy tunes», and it is all about music.\n\nIn this module you will:\n\n- learn words for **genres, instruments and concerts**,\n- learn **adjectives** to describe music (catchy, cheerful, relaxing, powerful, annoying, unforgettable),\n- read a short text and watch a short video about **earworms** – songs that get stuck in your head,\n- write a few sentences about **your own music taste**.\n\nAll tasks are in English. Read slowly, use the picture and the word banks – and don't worry about small mistakes. Have fun!"
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-warmup",
+      "title": "Warm-up: Music trivia",
+      "intro": "Four easy questions about music before we start. Just try – this is a warm-up, not a test!",
+      "questions": [
+        {
+          "id": "wu-q1",
+          "type": "single_choice",
+          "prompt": "Which of these instruments is a string instrument?",
+          "options": [
+            {
+              "text": "The drums"
+            },
+            {
+              "text": "The violin",
+              "correct": true
+            },
+            {
+              "text": "The trumpet"
+            },
+            {
+              "text": "The flute"
+            }
+          ],
+          "explanation": "A violin has four strings, and you play it with a bow. The trumpet and the flute are wind instruments – you blow air into them. The drums are percussion instruments – you hit them with sticks."
+        },
+        {
+          "id": "wu-q2",
+          "type": "single_choice",
+          "prompt": "How many strings does a normal guitar have?",
+          "options": [
+            {
+              "text": "Four"
+            },
+            {
+              "text": "Five"
+            },
+            {
+              "text": "Eight"
+            },
+            {
+              "text": "Six",
+              "correct": true
+            }
+          ],
+          "explanation": "A normal guitar has six strings. A bass guitar usually has four – maybe that is why many people say four!"
+        },
+        {
+          "id": "wu-q3",
+          "type": "single_choice",
+          "prompt": "A person who writes music is called a …",
+          "options": [
+            {
+              "text": "composer.",
+              "correct": true
+            },
+            {
+              "text": "conductor."
+            },
+            {
+              "text": "drummer."
+            },
+            {
+              "text": "dancer."
+            }
+          ],
+          "explanation": "A composer writes music. A conductor stands in front of an orchestra and leads it with their hands. A drummer plays the drums."
+        },
+        {
+          "id": "wu-q4",
+          "type": "single_choice",
+          "prompt": "Ludwig van Beethoven, one of the most famous composers in history, had a big health problem. What was it?",
+          "options": [
+            {
+              "text": "He could not see."
+            },
+            {
+              "text": "He could not walk."
+            },
+            {
+              "text": "He could not hear well.",
+              "correct": true
+            },
+            {
+              "text": "He could not remember his own music."
+            }
+          ],
+          "explanation": "Beethoven slowly lost his hearing. He wrote some of his most famous music when he was almost deaf – about 200 years ago, and people still play it today."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Reading: Why do songs get stuck in your head?",
+      "body": "You hear a song in the morning. Hours later, in class, it is still playing in your head – again and again. English has a funny name for this: an **earworm**.\n\nEarworms are very common. Studies show that more than 90 per cent of people get an earworm at least once a week. Usually it is not the whole song that repeats, but only a small part of it – often the catchiest bit.\n\nWhy does this happen? Scientists are still not sure. But they know when songs get stuck: mostly when we have heard them often, and when our brain is not busy – for example, when we wait for the bus or tidy our room.\n\nCatchy songs have a lot in common. They are often fast, they have a simple melody that is easy to sing, and they repeat their main idea many times. Think of your favourite pop song: how often do you hear the chorus?\n\nAnd what can you do about an earworm? Research gives us three tips: listen to the whole song to the end, chew some gum, or give your brain a little job – for example, a puzzle."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-reading",
+      "title": "Check your reading",
+      "intro": "Five questions about the text. Read the text again if you are not sure – that is allowed!",
+      "questions": [
+        {
+          "id": "re-q1",
+          "type": "single_choice",
+          "prompt": "What is the text mainly about?",
+          "options": [
+            {
+              "text": "The history of pop music."
+            },
+            {
+              "text": "How to write your own song."
+            },
+            {
+              "text": "Songs that repeat in your head.",
+              "correct": true
+            },
+            {
+              "text": "The best music for doing homework."
+            }
+          ],
+          "explanation": "The text explains earworms: songs that get stuck in your head and play again and again. History, songwriting and homework music are not the topic."
+        },
+        {
+          "id": "re-q2",
+          "type": "single_choice",
+          "prompt": "How many people get an earworm at least once a week?",
+          "options": [
+            {
+              "text": "More than 90 per cent of people.",
+              "correct": true
+            },
+            {
+              "text": "About half of all people."
+            },
+            {
+              "text": "About 9 per cent of people."
+            },
+            {
+              "text": "The text does not say."
+            }
+          ],
+          "explanation": "The text says that more than 90 per cent of people get an earworm at least once a week – so almost everybody knows the problem."
+        },
+        {
+          "id": "re-q3",
+          "type": "single_choice",
+          "prompt": "When do songs get stuck in your head most often?",
+          "options": [
+            {
+              "text": "When you sing them very loudly."
+            },
+            {
+              "text": "When you hear them for the first time."
+            },
+            {
+              "text": "When your brain is very busy."
+            },
+            {
+              "text": "When your brain is not busy.",
+              "correct": true
+            }
+          ],
+          "explanation": "Songs get stuck mostly when we have heard them often and when our brain is not busy – for example, when we wait for the bus or tidy our room."
+        },
+        {
+          "id": "re-q4",
+          "type": "single_choice",
+          "prompt": "What do many catchy songs have in common?",
+          "options": [
+            {
+              "text": "They are slow and very quiet."
+            },
+            {
+              "text": "They have a simple melody and a lot of repetition.",
+              "correct": true
+            },
+            {
+              "text": "They have no chorus."
+            },
+            {
+              "text": "They are always very old songs."
+            }
+          ],
+          "explanation": "Catchy songs are often fast, they have a simple melody that is easy to sing, and they repeat their main idea many times – think of the chorus of your favourite song."
+        },
+        {
+          "id": "re-q5",
+          "type": "single_choice",
+          "prompt": "What is one tip from research to stop an earworm?",
+          "options": [
+            {
+              "text": "Play the song louder."
+            },
+            {
+              "text": "Sing the song many times."
+            },
+            {
+              "text": "Think very hard about the song."
+            },
+            {
+              "text": "Chew some gum.",
+              "correct": true
+            }
+          ],
+          "explanation": "The text names three tips from research: listen to the whole song to the end, chew some gum, or give your brain a little job, like a puzzle. More repetition usually makes an earworm stronger, not weaker."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-vocab-wortbank",
+      "title": "Vocabulary A: Genres, instruments and concert words",
+      "intro": "Drag the words into the gaps (on a phone: tap the word first, then the gap). **Every word is used exactly once.**",
+      "modus": "wortbank",
+      "text": "A {{1}} song is usually modern, short and easy to sing – perfect for the radio charts.\nMozart and Beethoven wrote {{2}} music more than 200 years ago.\nThe drummer hits the {{3}} with two sticks.\nA {{4}} looks like a piano, but it is electronic and you can carry it.\nTwenty singers sing together in our school {{5}}.\nThe band walks onto the {{6}}, and the concert begins.\nAfter the last song, the {{7}} claps and shouts «One more song!».\nEverybody dances to the beat, because the {{8}} of the song is strong and steady.\nYou can hum the {{9}} of a song without using any words.\nI read the {{10}} on my phone, because I want to understand what the singer says.",
+      "luecken": [
+        {
+          "antworten": [
+            "pop"
+          ]
+        },
+        {
+          "antworten": [
+            "classical"
+          ]
+        },
+        {
+          "antworten": [
+            "drums"
+          ]
+        },
+        {
+          "antworten": [
+            "keyboard"
+          ]
+        },
+        {
+          "antworten": [
+            "choir"
+          ]
+        },
+        {
+          "antworten": [
+            "stage"
+          ]
+        },
+        {
+          "antworten": [
+            "audience"
+          ]
+        },
+        {
+          "antworten": [
+            "rhythm"
+          ]
+        },
+        {
+          "antworten": [
+            "melody"
+          ]
+        },
+        {
+          "antworten": [
+            "lyrics"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-vocab-eingabe",
+      "title": "Vocabulary B: Words to describe music",
+      "intro": "All six missing words are adjectives from this module: **catchy, cheerful, relaxing, powerful, annoying, unforgettable**. Type the right adjective into each gap – the first letters in brackets help you. Capital or small letters – both are fine.",
+      "modus": "eingabe",
+      "text": "I heard this song only once, but I can't stop singing it – it is really {{1}} (c…).\nThis happy summer song makes everybody smile – it is bright and {{2}} (ch…).\nIn the evening I listen to quiet piano music, because it is so {{3}} (rel…).\nYou can feel the drums in your whole body – the sound of this rock band is {{4}} (p…).\nMy little brother plays the same three notes again and again – it is so {{5}} (ann…)!\nWe sang this song every day at our school camp. For me, it is {{6}} (u…) – I will remember it all my life.",
+      "luecken": [
+        {
+          "antworten": [
+            "catchy"
+          ]
+        },
+        {
+          "antworten": [
+            "cheerful"
+          ]
+        },
+        {
+          "antworten": [
+            "relaxing"
+          ]
+        },
+        {
+          "antworten": [
+            "powerful"
+          ]
+        },
+        {
+          "antworten": [
+            "annoying"
+          ]
+        },
+        {
+          "antworten": [
+            "unforgettable"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "title": "The language of music",
+      "src": "/content/englisch-01-catchy-tunes/language-of-music.png",
+      "alt": "Overview chart with the title «The language of music». Three panels show the vocabulary of this module. Panel 1, Genres: pop, rock, hip-hop, classical (klassische Musik), jazz, folk (Volksmusik). Panel 2, Instruments: drums (Schlagzeug), keyboard, guitar (Gitarre), violin (Geige), trumpet (Trompete). Panel 3, Words to describe music: catchy (bleibt sofort im Ohr), cheerful (fröhlich), relaxing (entspannend), powerful (kraftvoll), annoying (nervig), unforgettable (unvergesslich). A dark bar at the bottom adds concert words – stage (Bühne), audience (Publikum), choir (Chor) – and words for the parts of a song: melody (Melodie), rhythm (Rhythmus), lyrics (Songtext).",
+      "caption": "Your music words at a glance. Come back to this picture when you write your own music profile at the end of the module.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "videoId": "3NE_OoO-N54",
+      "title": "Video: Earworms – songs that get stuck in your head",
+      "description": "Watch this short animated video (4:45) by TED-Ed. It is in English – you can turn on English subtitles with the CC button, and you can pause as often as you like. Watch out for three things: How many people get earworms? Which songs get stuck? And why does your brain want to play a tune to the end once it has started?",
+      "transcript": "Short summary of the video: Over 90 per cent of people get an earworm at least once a week, and about a quarter of people have one several times a day. Earworms often start during tasks that do not need much attention, like waiting for a traffic light. An earworm is «involuntary»: the song fragment comes into your head without an invitation – like an unwanted house guest – usually as a melody (a tune), and it can repeat for minutes or hours. Songs get stuck mainly when we have heard them recently and repeatedly. But earworms are not a modern problem: in 1876, one year before the phonograph was invented, the writer Mark Twain wrote a story about a little rhyme that took over a whole town. One theory says that a tune works like a habit, like tying your shoe: when we know a song, we always «hear forward» and expect the next note, so the brain wants to play the tune to its natural stopping point. In the end, scientists still do not know exactly why earworms exist – but studying them could teach us a lot about the human brain."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-video",
+      "title": "Check your listening",
+      "intro": "Three questions about the video. You can watch it again before you answer.",
+      "questions": [
+        {
+          "id": "vi-q1",
+          "type": "single_choice",
+          "prompt": "What does the video say about how common earworms are?",
+          "options": [
+            {
+              "text": "Only about 10 per cent of people ever get one."
+            },
+            {
+              "text": "Over 90 per cent of people get one at least once a week.",
+              "correct": true
+            },
+            {
+              "text": "Everybody gets one every day."
+            },
+            {
+              "text": "There are no numbers about earworms."
+            }
+          ],
+          "explanation": "Over 90 per cent of people get an earworm at least once a week – and about a quarter of people even have one several times a day."
+        },
+        {
+          "id": "vi-q2",
+          "type": "single_choice",
+          "prompt": "The video says that earworms are «involuntary». What does that mean?",
+          "options": [
+            {
+              "text": "The song comes into your head, and you did not choose it.",
+              "correct": true
+            },
+            {
+              "text": "You pick your favourite song and repeat it in your head."
+            },
+            {
+              "text": "The song in your head is always very quiet."
+            },
+            {
+              "text": "You can only hear the song with headphones."
+            }
+          ],
+          "explanation": "Involuntary means: you do not choose it. The video compares an earworm to an unwanted house guest – it comes in without an invitation and stays."
+        },
+        {
+          "id": "vi-q3",
+          "type": "single_choice",
+          "prompt": "Why does the video tell a story about the writer Mark Twain from 1876?",
+          "options": [
+            {
+              "text": "Because Mark Twain invented the phonograph."
+            },
+            {
+              "text": "Because Mark Twain wrote the first pop song."
+            },
+            {
+              "text": "Because it shows that earworms are older than modern music technology.",
+              "correct": true
+            },
+            {
+              "text": "Because Mark Twain never had an earworm."
+            }
+          ],
+          "explanation": "Mark Twain wrote his story about a rhyme that took over a whole town in 1876 – one year before the phonograph was invented. So earworms existed long before records, CDs and streaming."
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Focus: My music profile",
+      "intro": "Now it is your turn! In this last task you write about your own music taste.",
+      "tasks": [
+        {
+          "id": "task-music-profile",
+          "prompt": "Write your **music profile**: 3–4 sentences in English about you and your music. Answer these questions in your text:\n\n- What is your favourite genre or band?\n- When and where do you listen to music?\n- Which song do you love at the moment – and why?\n\nWhen you are done, check your text with this list:\n\n- [ ] I named my favourite genre.\n- [ ] I used at least two adjectives from this module (catchy, cheerful, relaxing, powerful, annoying, unforgettable …).\n- [ ] I wrote when and where I listen to music.\n- [ ] I named one song and said why I love it.\n- [ ] I wrote 3–4 complete sentences.",
+          "hint": "You can start like this: «My favourite genre is …, because it is …» – «I usually listen to music when …» – «At the moment I love the song … because …». The picture «The language of music» above has all the words you need.",
+          "solution": "There is no single right answer – your own profile is the goal. An example: «My favourite genre is pop, because the songs are catchy and cheerful. I usually listen to music on the bus and in my room in the evening. At the moment I love the song ‹Yesterday› by The Beatles. The melody is relaxing, but the lyrics are sad – for me it is unforgettable.» Now compare: this example names a genre, uses four adjectives from the module, says when and where, and names a song with a reason."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-final",
+      "title": "Final quiz: Show what you know",
+      "intro": "Five questions about the whole module: the text, the words and the video. Good luck!",
+      "questions": [
+        {
+          "id": "fi-q1",
+          "type": "single_choice",
+          "prompt": "The words of a song are called the …",
+          "options": [
+            {
+              "text": "melody."
+            },
+            {
+              "text": "rhythm."
+            },
+            {
+              "text": "lyrics.",
+              "correct": true
+            },
+            {
+              "text": "audience."
+            }
+          ],
+          "explanation": "The lyrics are the words of a song. The melody is the tune that you can hum, the rhythm is the beat that you dance to, and the audience is the group of people who listen to a concert."
+        },
+        {
+          "id": "fi-q2",
+          "type": "single_choice",
+          "prompt": "Which sentence about earworms is true?",
+          "options": [
+            {
+              "text": "More than 90 per cent of people get an earworm at least once a week.",
+              "correct": true
+            },
+            {
+              "text": "Earworms started with CDs and streaming."
+            },
+            {
+              "text": "Usually the whole song repeats in your head."
+            },
+            {
+              "text": "Only musicians get earworms."
+            }
+          ],
+          "explanation": "The 90-per-cent number is in the text and in the video. Earworms are much older than CDs and streaming – remember Mark Twain in 1876. And usually only a small part of a song repeats, not the whole song."
+        },
+        {
+          "id": "fi-q3",
+          "type": "single_choice",
+          "prompt": "Music that helps you to become calm and quiet is …",
+          "options": [
+            {
+              "text": "annoying."
+            },
+            {
+              "text": "powerful."
+            },
+            {
+              "text": "catchy."
+            },
+            {
+              "text": "relaxing.",
+              "correct": true
+            }
+          ],
+          "explanation": "Relaxing music makes you calm – for example quiet piano music in the evening. Powerful music is strong and loud, catchy music stays in your head, and annoying music makes you angry."
+        },
+        {
+          "id": "fi-q4",
+          "type": "single_choice",
+          "prompt": "In the video, a tune is compared to a habit, like tying your shoe. Why?",
+          "options": [
+            {
+              "text": "Because you learn both when you are a small child and never forget them again."
+            },
+            {
+              "text": "Because your brain plays a started tune on to its natural stopping point.",
+              "correct": true
+            },
+            {
+              "text": "Because you need your hands for both."
+            },
+            {
+              "text": "Because most people sing while they tie their shoes."
+            }
+          ],
+          "explanation": "When you start tying your shoe, you finish it automatically – and when a tune starts in your head, your brain plays it on to a natural stopping point. That is one theory why earworms repeat and repeat. It is not about learning things as a child – it is about what happens automatically after the start."
+        },
+        {
+          "id": "fi-q5",
+          "type": "single_choice",
+          "prompt": "Which word is a music genre?",
+          "options": [
+            {
+              "text": "Classical",
+              "correct": true
+            },
+            {
+              "text": "Keyboard"
+            },
+            {
+              "text": "Stage"
+            },
+            {
+              "text": "Choir"
+            }
+          ],
+          "explanation": "Classical is a genre – a style of music, like pop or jazz. The keyboard is an instrument, the stage is the place where the band plays, and a choir is a group of singers."
+        }
+      ]
+    }
+  ]
+}
