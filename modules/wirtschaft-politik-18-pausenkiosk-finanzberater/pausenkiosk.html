@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dein Pausenkiosk</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: #f6f8f4; color: #2d3230; padding: 12px;
+    font-size: 15px; line-height: 1.45;
+  }
+  .app { max-width: 560px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+  h1 { font-size: 1.15rem; }
+  h2 { font-size: 1.02rem; margin-bottom: 6px; }
+  .kopf {
+    display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline;
+    background: #fff; border: 1px solid #dde3d8; border-radius: 12px; padding: 10px 14px;
+  }
+  .kopf .runde { font-weight: 700; }
+  .kopf .kapital { font-weight: 700; color: #5b7036; }
+  .kopf .kapital.minus { color: #a33; }
+  .kopf .schuld { color: #a33; font-weight: 600; }
+  .karte { background: #fff; border: 1px solid #dde3d8; border-radius: 12px; padding: 14px 16px; }
+  .ereignis {
+    border-left: 4px solid #e0a53a; background: #fdf6e7; border-radius: 8px;
+    padding: 10px 12px; margin-bottom: 10px; font-size: .93rem;
+  }
+  .ereignis strong { display: block; }
+  label { font-weight: 600; display: block; margin-bottom: 4px; }
+  .zeile { margin-bottom: 14px; }
+  .mengenwahl { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .mengenwahl input[type="number"] {
+    font: inherit; width: 74px; padding: 8px; text-align: center;
+    border: 1px solid #b9c9a4; border-radius: 8px;
+  }
+  button {
+    font: inherit; border: 1px solid #b9c9a4; background: #fff;
+    border-radius: 999px; padding: 8px 14px; cursor: pointer; min-height: 40px;
+  }
+  button:hover { background: #eef4e6; }
+  button:disabled { opacity: .45; cursor: default; }
+  button.haupt {
+    background: #98c257; border-color: #7ba53c; color: #fff;
+    font-weight: 700; padding: 10px 22px; width: 100%;
+  }
+  button.haupt:hover { background: #88b447; }
+  input[type="range"] { width: 100%; accent-color: #98c257; }
+  .preisanzeige { font-weight: 700; font-size: 1.05rem; }
+  .hinweis { font-size: .88rem; color: #5a615c; margin-top: 4px; }
+  .hinweis.kredit { color: #a33; font-weight: 600; }
+  .versicherung { display: flex; gap: 10px; align-items: flex-start; }
+  .versicherung input { width: 20px; height: 20px; margin-top: 2px; accent-color: #98c257; }
+  .versicherung span { font-weight: 400; }
+  ul.abrechnung { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 10px 0; }
+  ul.abrechnung li {
+    display: flex; justify-content: space-between; gap: 10px;
+    border-bottom: 1px dashed #e3e8de; padding-bottom: 5px; font-size: .93rem;
+  }
+  ul.abrechnung li .betrag { white-space: nowrap; font-weight: 600; }
+  .plus { color: #5b7036; } .minus { color: #a33; }
+  .summe { font-weight: 700; font-size: 1rem; border-top: 2px solid #b9c9a4; padding-top: 8px;
+    display: flex; justify-content: space-between; }
+  .tabellenrahmen { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+  th, td { border: 1px solid #dde3d8; padding: 5px 7px; text-align: right; white-space: nowrap; }
+  th { background: #eef4e6; }
+  td:first-child, th:first-child { text-align: center; }
+  .erklaerung { margin-top: 12px; }
+  .erklaerung h2 { color: #5b7036; }
+  .erklaerung p { font-size: .93rem; }
+  .endkapital { font-size: 1.3rem; font-weight: 800; }
+  .endkapital.minus { color: #a33; }
+  .versuche { font-size: .9rem; color: #5a615c; }
+  .verborgen { display: none; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="kopf" id="kopf">
+    <span class="runde" id="kopf-runde"></span>
+    <span class="kapital" id="kopf-kapital"></span>
+    <span class="schuld" id="kopf-schuld"></span>
+  </div>
+
+  <!-- Entscheidungsphase -->
+  <div class="karte" id="phase-entscheidung">
+    <h1 id="entscheidung-titel"></h1>
+    <div id="ereignisse"></div>
+    <div class="zeile">
+      <label for="menge">Einkauf: Wie viele Snacks bestellst du?</label>
+      <div class="mengenwahl">
+        <button type="button" data-schritt="-10">−10</button>
+        <button type="button" data-schritt="-1">−1</button>
+        <input type="number" id="menge" inputmode="numeric" min="0" step="1" value="0" aria-describedby="einkauf-info">
+        <button type="button" data-schritt="1">+1</button>
+        <button type="button" data-schritt="10">+10</button>
+      </div>
+      <p class="hinweis" id="einkauf-info"></p>
+      <p class="hinweis kredit" id="kredit-info"></p>
+    </div>
+    <div class="zeile">
+      <label for="preis">Verkaufspreis pro Snack: <span class="preisanzeige" id="preis-anzeige"></span></label>
+      <input type="range" id="preis" min="150" max="400" step="10" value="250">
+      <p class="hinweis">CHF 1.50 bis CHF 4.00, in 10-Rappen-Schritten. Beobachte, wie deine Kundschaft reagiert!</p>
+    </div>
+    <div class="zeile verborgen" id="versicherung-zeile">
+      <label class="versicherung">
+        <input type="checkbox" id="versicherung">
+        <span><strong>Kühlschrank-Versicherung</strong> (CHF 10.00 pro Runde, jederzeit kündbar):
+        Geht der Kühlschrank kaputt, übernimmt sie den ganzen Schaden von CHF 60.00.</span>
+      </label>
+    </div>
+    <button type="button" class="haupt" id="tag-starten">Kiosk öffnen und verkaufen</button>
+  </div>
+
+  <!-- Ergebnisphase -->
+  <div class="karte verborgen" id="phase-ergebnis" aria-live="polite">
+    <h1 id="ergebnis-titel"></h1>
+    <ul class="abrechnung" id="abrechnung"></ul>
+    <p class="summe"><span>Kapital neu:</span><span id="ergebnis-kapital"></span></p>
+    <button type="button" class="haupt" id="weiter">Weiter</button>
+  </div>
+
+  <!-- Auswertung -->
+  <div class="karte verborgen" id="phase-auswertung">
+    <h1>Auswertung: 8 Runden Pausenkiosk</h1>
+    <p style="margin-bottom:8px">Gestartet mit CHF 100.00 – dein Endkapital:</p>
+    <p class="endkapital" id="endkapital"></p>
+    <p class="hinweis" id="endkapital-detail"></p>
+    <div class="tabellenrahmen" style="margin-top:12px">
+      <table>
+        <thead>
+          <tr><th>Runde</th><th>Eingekauft</th><th>Preis</th><th>Verkauft</th><th>Ereignis</th><th>+/−</th><th>Kapital</th></tr>
+        </thead>
+        <tbody id="verlauf"></tbody>
+      </table>
+    </div>
+    <div class="erklaerung" id="erklaerung-nachfrage"></div>
+    <div class="erklaerung" id="erklaerung-konkurrenz"></div>
+    <div class="erklaerung" id="erklaerung-sicherheit"></div>
+    <p class="versuche" id="versuche" style="margin-top:12px"></p>
+    <button type="button" class="haupt" id="nochmal" style="margin-top:10px">Nochmals spielen (andere Strategie testen)</button>
+  </div>
+</div>
+
+<script>
+"use strict";
+/* Alle Geldbeträge intern in Rappen (ganze Zahlen). */
+var START_KAPITAL = 10000;
+var EINKAUF_NORMAL = 100;
+var EINKAUF_TEUER = 130;      /* ab Runde 7 */
+var RUNDEN_TOTAL = 8;
+var KREDIT_LIMIT = 5000;
+var ZINS_SATZ = 0.10;
+var PRAEMIE = 1000;
+var SCHADEN = 6000;
+var DEFEKT_CHANCE = 0.25;     /* ab Runde 5 */
+var KONKURRENZ_AB = 3;
+var VERSICHERUNG_AB = 4;
+var DEFEKT_AB = 5;
+
+var s = null;                 /* Spielzustand, nur im Arbeitsspeicher */
+var versuche = [];            /* Endkapital bisheriger Durchgänge (diese Sitzung) */
+
+function chf(rp) {
+  var neg = rp < 0;
+  var v = Math.abs(rp);
+  var fr = Math.floor(v / 100);
+  var rest = String(v % 100);
+  if (rest.length < 2) { rest = "0" + rest; }
+  return (neg ? "−CHF " : "CHF ") + fr + "." + rest;
+}
+
+function einkaufspreis() { return s.runde >= 7 ? EINKAUF_TEUER : EINKAUF_NORMAL; }
+
+function kreditFrei() { return Math.max(0, KREDIT_LIMIT - s.schuld); }
+
+function maxMenge() {
+  var budget = s.kapital + kreditFrei();
+  return budget <= 0 ? 0 : Math.floor(budget / einkaufspreis());
+}
+
+function neuesSpiel() {
+  s = { runde: 1, kapital: START_KAPITAL, schuld: 0, versichert: false,
+        konkurrenzPreis: null, verlauf: [] };
+  el("versicherung").checked = false;
+  el("menge").value = "0";
+  el("preis").value = "250";
+  zeigeEntscheidung();
+}
+
+function el(id) { return document.getElementById(id); }
+
+function zeigeKopf() {
+  el("kopf-runde").textContent = "Runde " + s.runde + " von " + RUNDEN_TOTAL;
+  var k = el("kopf-kapital");
+  k.textContent = "Kapital: " + chf(s.kapital);
+  k.className = "kapital" + (s.kapital < 0 ? " minus" : "");
+  el("kopf-schuld").textContent = s.schuld > 0 ? "Kredit: " + chf(s.schuld) : "";
+}
+
+function wuerfleKonkurrenz() {
+  /* CHF 1.80 bis 2.50 in 10-Rappen-Schritten */
+  return 180 + 10 * Math.floor(Math.random() * 8);
+}
+
+function zeigeEntscheidung() {
+  el("phase-ergebnis").className = "karte verborgen";
+  el("phase-auswertung").className = "karte verborgen";
+  el("phase-entscheidung").className = "karte";
+  el("entscheidung-titel").textContent =
+    s.runde === 1 ? "Dein Kiosk öffnet zum ersten Mal!" : "Neue Runde, neues Glück";
+
+  s.konkurrenzPreis = s.runde >= KONKURRENZ_AB ? wuerfleKonkurrenz() : null;
+
+  var meldungen = [];
+  if (s.runde === KONKURRENZ_AB) {
+    meldungen.push("<strong>Neu: Konkurrenz!</strong> Gegenüber hat ein zweiter Kiosk eröffnet. " +
+      "Heute verkauft er Snacks für <strong>" + chf(s.konkurrenzPreis) + "</strong>.");
+  } else if (s.konkurrenzPreis !== null) {
+    meldungen.push("<strong>Konkurrenzkiosk:</strong> verkauft heute für <strong>" +
+      chf(s.konkurrenzPreis) + "</strong>.");
+  }
+  if (s.runde === VERSICHERUNG_AB) {
+    meldungen.push("<strong>Angebot:</strong> Eine Versicherungsvertreterin bietet dir eine " +
+      "Kühlschrank-Versicherung an – ab nächster Runde kann dein Kühlschrank ausfallen " +
+      "(Schaden: CHF 60.00). Erfahrungswert: Es erwischt etwa jede vierte Runde einen Kiosk.");
+  }
+  if (s.runde === DEFEKT_AB) {
+    meldungen.push("<strong>Achtung:</strong> Ab jetzt kann der Kühlschrank jederzeit ausfallen.");
+  }
+  if (s.runde === 7) {
+    meldungen.push("<strong>Lieferant:</strong> «Alles ist teurer geworden!» Der Einkaufspreis " +
+      "steigt von CHF 1.00 auf <strong>CHF 1.30</strong> pro Snack.");
+  }
+  el("ereignisse").innerHTML = meldungen.length
+    ? meldungen.map(function (m) { return '<div class="ereignis">' + m + "</div>"; }).join("")
+    : "";
+
+  el("versicherung-zeile").className = s.runde >= VERSICHERUNG_AB ? "zeile" : "zeile verborgen";
+
+  var m = parseInt(el("menge").value, 10);
+  if (isNaN(m) || m < 0) { m = 0; }
+  el("menge").value = String(Math.min(m, maxMenge()));
+  el("menge").max = String(maxMenge());
+  zeigeKopf();
+  zeigeEinkaufInfo();
+  zeigePreis();
+}
+
+function gewaehlteMenge() {
+  var m = parseInt(el("menge").value, 10);
+  if (isNaN(m) || m < 0) { m = 0; }
+  return Math.min(m, maxMenge());
+}
+
+function zeigeEinkaufInfo() {
+  var m = gewaehlteMenge();
+  var kosten = m * einkaufspreis();
+  el("einkauf-info").textContent = m + " Stück × " + chf(einkaufspreis()) + " = " + chf(kosten) +
+    " (möglich: bis " + maxMenge() + " Stück)";
+  var fehlt = kosten - s.kapital;
+  var info = "";
+  if (m > 0 && fehlt > 0) {
+    info = "Dein Kapital reicht nicht – du nimmst dafür " + chf(fehlt) +
+      " Kredit auf (10 % Zins pro Runde, Limite CHF 50.00).";
+  } else if (s.kapital < 0 && kreditFrei() === 0) {
+    info = "Deine Kreditlimite von CHF 50.00 ist ausgeschöpft – neuer Einkauf ist erst " +
+      "wieder möglich, wenn Überschüsse deine Schulden abgebaut haben.";
+  }
+  el("kredit-info").textContent = info;
+}
+
+function zeigePreis() {
+  el("preis-anzeige").textContent = chf(parseInt(el("preis").value, 10));
+}
+
+function tagStarten() {
+  var menge = gewaehlteMenge();
+  var preis = parseInt(el("preis").value, 10);
+  var ep = einkaufspreis();
+  s.versichert = s.runde >= VERSICHERUNG_AB ? el("versicherung").checked : false;
+
+  var kapitalVorher = s.kapital - s.schuld;
+  var zeilen = [];
+
+  /* 1. Einkauf (bei Bedarf automatisch Kredit aufnehmen) */
+  var kosten = menge * ep;
+  var aufnahme = 0;
+  if (kosten > s.kapital) {
+    aufnahme = Math.min(kosten - s.kapital, kreditFrei());
+    s.schuld += aufnahme;
+    s.kapital += aufnahme;
+  }
+  s.kapital -= kosten;
+  zeilen.push(["Einkauf: " + menge + " Snacks × " + chf(ep) +
+    (aufnahme > 0 ? " (davon " + chf(aufnahme) + " auf Kredit)" : ""), -kosten]);
+
+  /* 2. Verkauf: Die Kundschaft reagiert auf deinen Preis. */
+  var basisNachfrage = Math.max(0, Math.round(80 - preis / 5));
+  var nachfrage = basisNachfrage;
+  var abgewandert = false;
+  if (s.konkurrenzPreis !== null && preis > s.konkurrenzPreis) {
+    nachfrage = Math.round(nachfrage * 0.6);
+    /* Nur melden, wenn die Konkurrenz den Absatz wirklich gedrückt hat. */
+    abgewandert = Math.min(nachfrage, menge) < Math.min(basisNachfrage, menge);
+  }
+  var verkauft = Math.min(nachfrage, menge);
+  var umsatz = verkauft * preis;
+  s.kapital += umsatz;
+  zeilen.push(["Verkauft: " + verkauft + " von " + menge + " Snacks zu " + chf(preis), umsatz]);
+  if (abgewandert) {
+    zeilen.push(["Dein Preis lag über der Konkurrenz (" + chf(s.konkurrenzPreis) +
+      ") – ein Teil der Kundschaft ist abgewandert.", null]);
+  }
+
+  /* 3. Unverkauftes verdirbt zur Hälfte: nur der halbe Einkaufspreis kommt zurück. */
+  var unverkauft = menge - verkauft;
+  var resterloes = Math.round(unverkauft * ep / 2);
+  var verdorben = unverkauft * ep - resterloes;
+  if (unverkauft > 0) {
+    s.kapital += resterloes;
+    zeilen.push(["Übrig: " + unverkauft + " Snacks, zur Hälfte verdorben – Notverkauf bringt nur noch " +
+      chf(resterloes) + " (Verlust: " + chf(verdorben) + ")", resterloes]);
+  }
+
+  /* 4. Versicherungsprämie */
+  if (s.versichert) {
+    s.kapital -= PRAEMIE;
+    zeilen.push(["Kühlschrank-Versicherung", -PRAEMIE]);
+  }
+
+  /* 5. Kühlschrankdefekt? */
+  var defekt = s.runde >= DEFEKT_AB && Math.random() < DEFEKT_CHANCE;
+  if (defekt) {
+    if (s.versichert) {
+      zeilen.push(["Kühlschrankdefekt! Schaden " + chf(SCHADEN) +
+        " – deine Versicherung übernimmt alles.", 0]);
+    } else {
+      s.kapital -= SCHADEN;
+      zeilen.push(["Kühlschrankdefekt! Reparatur auf eigene Kosten", -SCHADEN]);
+      if (s.kapital < 0 && kreditFrei() > 0) {
+        var not = Math.min(-s.kapital, kreditFrei());
+        s.schuld += not;
+        s.kapital += not;
+        aufnahme += not;
+        zeilen.push(["Notkredit für die Reparatur", not]);
+      }
+    }
+  }
+
+  /* 6. Zins auf die Restschuld */
+  var zins = Math.round(s.schuld * ZINS_SATZ);
+  if (zins > 0) {
+    s.kapital -= zins;
+    zeilen.push(["Kreditzins (10 % auf " + chf(s.schuld) + ")", -zins]);
+  }
+
+  /* 7. Automatische Rückzahlung aus dem Überschuss */
+  var tilgung = 0;
+  if (s.schuld > 0 && s.kapital > 0) {
+    tilgung = Math.min(s.kapital, s.schuld);
+    s.kapital -= tilgung;
+    s.schuld -= tilgung;
+    zeilen.push(["Kredit zurückgezahlt" +
+      (s.schuld > 0 ? " (Restschuld: " + chf(s.schuld) + ")" : " – schuldenfrei!"), -tilgung]);
+  }
+
+  var gewinn = (s.kapital - s.schuld) - kapitalVorher;
+  s.verlauf.push({
+    runde: s.runde, menge: menge, preis: preis, verkauft: verkauft,
+    konkurrenzPreis: s.konkurrenzPreis, abgewandert: abgewandert,
+    versichert: s.versichert, defekt: defekt, zins: zins, aufnahme: aufnahme,
+    gewinn: gewinn, kapital: s.kapital, schuld: s.schuld
+  });
+
+  zeigeErgebnis(zeilen, gewinn);
+}
+
+function zeigeErgebnis(zeilen, gewinn) {
+  el("phase-entscheidung").className = "karte verborgen";
+  el("phase-ergebnis").className = "karte";
+  el("ergebnis-titel").textContent = "Abrechnung Runde " + s.runde + ": " +
+    (gewinn >= 0 ? "+" + chf(gewinn) : chf(gewinn));
+  var liste = el("abrechnung");
+  liste.innerHTML = "";
+  zeilen.forEach(function (z) {
+    var li = document.createElement("li");
+    var text = document.createElement("span");
+    text.textContent = z[0];
+    li.appendChild(text);
+    if (z[1] !== null) {
+      var betrag = document.createElement("span");
+      betrag.className = "betrag " + (z[1] > 0 ? "plus" : z[1] < 0 ? "minus" : "");
+      betrag.textContent = (z[1] > 0 ? "+" : "") + chf(z[1]);
+      li.appendChild(betrag);
+    }
+    liste.appendChild(li);
+  });
+  el("ergebnis-kapital").textContent = chf(s.kapital) +
+    (s.schuld > 0 ? " (Kredit: " + chf(s.schuld) + ")" : "");
+  el("weiter").textContent = s.runde >= RUNDEN_TOTAL ? "Zur Auswertung" : "Weiter zu Runde " + (s.runde + 1);
+  zeigeKopf();
+}
+
+function weiter() {
+  if (s.runde >= RUNDEN_TOTAL) { zeigeAuswertung(); return; }
+  s.runde += 1;
+  zeigeEntscheidung();
+}
+
+function zeigeAuswertung() {
+  el("phase-ergebnis").className = "karte verborgen";
+  el("phase-auswertung").className = "karte";
+  el("kopf-runde").textContent = "Spiel beendet";
+
+  var endkapital = s.kapital - s.schuld;
+  versuche.push(endkapital);
+  var ek = el("endkapital");
+  ek.textContent = chf(endkapital);
+  ek.className = "endkapital" + (endkapital < 0 ? " minus" : "");
+  el("endkapital-detail").textContent = s.schuld > 0
+    ? "Kasse " + chf(s.kapital) + " minus offener Kredit " + chf(s.schuld) + "."
+    : (endkapital >= START_KAPITAL
+      ? "Das sind " + chf(endkapital - START_KAPITAL) + " mehr, als du am Anfang hattest."
+      : "Das sind " + chf(START_KAPITAL - endkapital) + " weniger, als du am Anfang hattest.");
+
+  var tbody = el("verlauf");
+  tbody.innerHTML = "";
+  s.verlauf.forEach(function (r) {
+    var ereignisse = [];
+    if (r.abgewandert) { ereignisse.push("Kundschaft zur Konkurrenz"); }
+    if (r.defekt) { ereignisse.push(r.versichert ? "Defekt (versichert)" : "Defekt: −CHF 60"); }
+    if (r.versichert && !r.defekt) { ereignisse.push("versichert"); }
+    if (r.aufnahme > 0) { ereignisse.push("Kredit +" + chf(r.aufnahme).replace("CHF ", "")); }
+    var tr = document.createElement("tr");
+    [String(r.runde), r.menge + " St.", chf(r.preis), r.verkauft + " St.",
+      ereignisse.join(", ") || "–",
+      (r.gewinn >= 0 ? "+" : "") + chf(r.gewinn),
+      chf(r.kapital - r.schuld)
+    ].forEach(function (wert) {
+      var td = document.createElement("td");
+      td.textContent = wert;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+
+  schreibeErklaerungen();
+
+  el("versuche").textContent = versuche.length > 1
+    ? "Deine Durchgänge bisher: " + versuche.map(function (v, i) {
+        return (i + 1) + ". " + chf(v);
+      }).join("  ·  ")
+    : "Tipp: Spiel gleich nochmals mit einer anderen Strategie – anderer Preis, mehr oder " +
+      "weniger Einkauf, mit oder ohne Versicherung – und vergleiche dein Endkapital.";
+}
+
+function schreibeErklaerungen() {
+  /* 1. Nachfrage reagiert auf den Preis (Module 6 und 7) */
+  var teuerste = null, guenstigste = null;
+  s.verlauf.forEach(function (r) {
+    if (teuerste === null || r.preis > teuerste.preis) { teuerste = r; }
+    if (guenstigste === null || r.preis < guenstigste.preis) { guenstigste = r; }
+  });
+  var satzNachfrage;
+  if (teuerste.preis !== guenstigste.preis) {
+    satzNachfrage = "Bei dir konkret: Zu " + chf(guenstigste.preis) + " wollten " +
+      (guenstigste.verkauft >= guenstigste.menge ? "mindestens " : "") + guenstigste.verkauft +
+      " Personen kaufen, zu " + chf(teuerste.preis) + " nur noch " + teuerste.verkauft + ".";
+  } else {
+    satzNachfrage = "Du hast in allen Runden denselben Preis verlangt – probiere im nächsten " +
+      "Durchgang bewusst einen höheren und einen tieferen Preis aus und vergleiche die Verkaufszahlen.";
+  }
+  el("erklaerung-nachfrage").innerHTML =
+    "<h2>1. Die Nachfrage reagiert auf deinen Preis (Module 6 und 7)</h2><p>" +
+    "Je höher dein Preis, desto weniger Leute kaufen – genau die Nachfragekurve aus Modul 6. " +
+    satzNachfrage + " Den besten Gewinn bringt darum weder der höchste noch der tiefste Preis, " +
+    "sondern der Punkt dazwischen, an dem nach Abzug von Einkaufs- und Verderbkosten am meisten " +
+    "übrig bleibt – die Preisbildung aus Modul 7 hast du hier durch Ausprobieren selbst betrieben.</p>";
+
+  /* 2. Konkurrenz drückt die Preise (Modul 8) */
+  var abwanderungen = s.verlauf.filter(function (r) { return r.abgewandert; }).length;
+  var satzKonkurrenz;
+  if (abwanderungen > 0) {
+    satzKonkurrenz = "Bei dir ist es " + (abwanderungen === 1 ? "einmal" : abwanderungen + "-mal") +
+      " passiert: Dein Preis lag über dem Konkurrenzkiosk, und ein Teil der Kundschaft ist zum " +
+      "günstigeren Angebot gewechselt.";
+  } else {
+    satzKonkurrenz = "Du bist nie über den Preis der Konkurrenz gegangen – und hast damit gespürt, " +
+      "was Konkurrenz bewirkt: Sie hat deinen Spielraum nach oben begrenzt, ohne dass jemand es " +
+      "dir verboten hätte.";
+  }
+  el("erklaerung-konkurrenz").innerHTML =
+    "<h2>2. Konkurrenz begrenzt deinen Preis (Modul 8)</h2><p>" +
+    "Solange dein Kiosk allein war, konntest du den Preis frei setzen – ein kleines Monopol. " +
+    "Ab Runde 3 galt: Wer deutlich teurer ist als der Kiosk gegenüber, verliert Kundschaft. " +
+    satzKonkurrenz + " Genau so diszipliniert Wettbewerb die Anbieter – zugunsten der Kundschaft.</p>";
+
+  /* 3. Versicherung und Kredit (Module 11 und 12) – beide Ausgänge fair erklären */
+  var praemien = 0, schaeden = 0, uebernommen = 0, zinsen = 0, kreditGenutzt = false;
+  s.verlauf.forEach(function (r) {
+    if (r.versichert) { praemien += PRAEMIE; }
+    if (r.defekt && !r.versichert) { schaeden += SCHADEN; }
+    if (r.defekt && r.versichert) { uebernommen += SCHADEN; }
+    zinsen += r.zins;
+    if (r.aufnahme > 0) { kreditGenutzt = true; }
+  });
+  var satzVersicherung;
+  if (uebernommen > 0) {
+    satzVersicherung = "Bei dir hat sich der Schutz direkt gezeigt: Die Versicherung hat " +
+      chf(uebernommen) + " Schaden übernommen, du hast " + chf(praemien) + " Prämien bezahlt.";
+  } else if (schaeden > 0) {
+    satzVersicherung = "Dich hat es ohne Versicherung getroffen: " + chf(schaeden) +
+      " Schaden aus der eigenen Kasse – genau das Risiko, das eine Versicherung abgenommen hätte.";
+  } else if (praemien > 0) {
+    satzVersicherung = "Bei dir blieb der Kühlschrank heil, bezahlt hast du " + chf(praemien) +
+      " Prämien. Verloren hast du deswegen nichts: Du hast Sicherheit gekauft und in jeder " +
+      "versicherten Runde ruhig planen können – dass der Schaden ausblieb, weisst du erst jetzt.";
+  } else {
+    satzVersicherung = "Du warst nie versichert, und der Kühlschrank hielt durch. Beachte aber: " +
+      "Das war Glück, keine Strategie – du hast das Risiko von CHF 60.00 pro Runde selbst getragen, " +
+      "es hat sich nur zufällig nicht gezeigt.";
+  }
+  var satzKredit = kreditGenutzt
+    ? " Dein Kredit hat dir Einkäufe ermöglicht, die sonst nicht drin gewesen wären – aber er hatte " +
+      "seinen Preis: " + chf(zinsen) + " Zins insgesamt. Geliehenes Geld kostet, jede Runde aufs Neue (Modul 12)."
+    : " Den Kredit hast du nie gebraucht – gut zu wissen, dass es ihn gab: Er hätte dir Einkäufe " +
+      "ermöglicht, aber mit 10 % Zins pro Runde seinen Preis gehabt (Modul 12).";
+  el("erklaerung-sicherheit").innerHTML =
+    "<h2>3. Versicherung und Kredit: Sicherheit hat einen Preis (Module 11 und 12)</h2><p>" +
+    "Eine Versicherung ist keine Wette, die man «gewinnt» oder «verliert»: Sie tauscht ein grosses, " +
+    "unplanbares Risiko gegen einen kleinen, planbaren Betrag (Modul 11). " + satzVersicherung +
+    " Wer ohne Versicherung Glück hatte, hat also Risiko getragen – nicht klüger gehandelt. Und wer " +
+    "versichert war und keinen Schaden hatte, hat nichts falsch gemacht – die Sicherheit war echt." +
+    satzKredit + "</p>";
+}
+
+el("tag-starten").addEventListener("click", tagStarten);
+el("weiter").addEventListener("click", weiter);
+el("nochmal").addEventListener("click", neuesSpiel);
+el("preis").addEventListener("input", zeigePreis);
+el("menge").addEventListener("input", zeigeEinkaufInfo);
+el("menge").addEventListener("change", function () {
+  el("menge").value = String(gewaehlteMenge());
+  zeigeEinkaufInfo();
+});
+document.querySelectorAll(".mengenwahl button").forEach(function (knopf) {
+  knopf.addEventListener("click", function () {
+    var schritt = parseInt(knopf.getAttribute("data-schritt"), 10);
+    var m = gewaehlteMenge() + schritt;
+    el("menge").value = String(Math.max(0, Math.min(m, maxMenge())));
+    zeigeEinkaufInfo();
+  });
+});
+
+neuesSpiel();
+</script>
+</body>
+</html>

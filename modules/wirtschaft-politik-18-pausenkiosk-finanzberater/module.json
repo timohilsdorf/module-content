@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 2,
+  "id": "wirtschaft-politik-18-pausenkiosk-finanzberater",
+  "title": "Wirtschaft ausprobieren: Dein Pausenkiosk und der Finanzberater",
+  "description": "Acht Runden lang führst du deinen eigenen Pausenkiosk: Du kaufst ein, setzt Preise, erlebst Konkurrenz, Versicherung und Kredit – und siehst am Ende, was aus deinen CHF 100 geworden ist. Danach sitzt du einem Finanzberater gegenüber, der dir einen Konsumkredit und eine Restschuldversicherung verkaufen will. Das achtzehnte Modul des Vertiefungsfachs «Wirtschaft & Politik» ist ein freiwilliges Vertiefungsmodul: kein neuer Stoff, sondern die Konzepte aus den Modulen 6–15 zum Anfassen – im Planspiel und im Rollenspiel.",
+  "subject": "WP",
+  "subjectName": "Wirtschaft & Politik",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 18,
+  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
+  "language": "de",
+  "curriculum": "LiLe",
+  "durationMinutes": 60,
+  "difficulty": "mittel",
+  "keywords": [
+    "Planspiel",
+    "Angebot und Nachfrage",
+    "Preisbildung",
+    "Konkurrenz",
+    "Versicherung",
+    "Kredit",
+    "Zins",
+    "Konsum",
+    "Investition",
+    "Restschuldversicherung",
+    "Verkaufstechniken",
+    "Finanzberatung"
+  ],
+  "learningObjectives": [
+    "Ich kann im Planspiel beobachten, wie die Nachfrage auf meinen Verkaufspreis reagiert, und daraus einen Preis ableiten, der Preis und Absatzmenge klug abwägt.",
+    "Ich kann am eigenen Kiosk erklären, wie Konkurrenz meinen Preisspielraum begrenzt und warum Wettbewerb der Kundschaft nützt.",
+    "Ich kann eine Versicherungsentscheidung als Tausch «grosses unplanbares Risiko gegen einen kleinen planbaren Betrag» beurteilen – auch im Nachhinein fair: Glück ohne Versicherung ist kein Beweis für eine kluge Entscheidung.",
+    "Ich kann erklären, warum ein Kredit Einkäufe ermöglicht und trotzdem Geld kostet, und die Wirkung des Zinses auf die Restschuld beschreiben.",
+    "Ich kann den Unterschied zwischen Konsum und Investition an Beispielen erklären und erkenne, wenn Verkaufsgespräche Begriffe beschönigend verwenden («in ein Auto investieren»).",
+    "Ich kann Verkaufstechniken wie Dringlichkeit, sozialen Vergleich und das Familienargument erkennen und stelle bei Finanzprodukten die Frage: Wem nützt dieses Produkt zuerst?"
+  ],
+  "competencies": [
+    {
+      "code": "WAH.2.1",
+      "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+      "code": "WAH.2.3",
+      "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+      "code": "WAH.3.3",
+      "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    },
+    {
+      "title": "Planspiel «Dein Pausenkiosk» und Rollenspiel «Beim Finanzberater»: Eigenentwicklung EveryCate; alle Zahlen, Personen und Anbieter sind fiktiv."
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "EveryCate"
+  ],
+  "requires": [
+    "wirtschaft-politik-06-angebot-und-nachfrage",
+    "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
+    "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
+    "wirtschaft-politik-11-versicherungen",
+    "wirtschaft-politik-12-banken-kredit-zins"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Ein Modul zum Ausprobieren",
+      "body": "Dieses Modul ist **freiwillig** – und es ist anders als die bisherigen: Es erklärt dir fast nichts Neues. Stattdessen wirfst du alles, was du in den Modulen 6 bis 15 gelernt hast, in zwei Situationen, die es ernst meinen:\n\n1. **Dein Pausenkiosk** – ein Planspiel. Du führst acht Runden lang einen Kiosk, triffst jede Runde echte Entscheidungen und lebst mit den Folgen.\n2. **Beim Finanzberater** – ein Rollenspiel. Dir gegenüber sitzt ein freundlicher Verkäufer, der genau weiss, was er tut. Du hoffentlich auch.\n\nEs gibt kein «richtig durchspielen». Verlieren ist hier ausdrücklich erlaubt – ein Kiosk, der pleitegeht, lehrt dich mehr als ein Modul, das du nur liest."
+    },
+    {
+      "type": "text",
+      "title": "Teil 1 – Dein Pausenkiosk: Worum es geht",
+      "body": "**Dein Ziel:** Mach aus deinem Startkapital von CHF 100 in acht Runden möglichst viel – oder finde heraus, warum es weniger wird.\n\n**Die Regeln in fünf Sätzen:**\n\n1. Du startest mit CHF 100 und führst deinen Kiosk über acht Runden.\n2. Jede Runde entscheidest du zwei Dinge: wie viele Snacks du einkaufst (CHF 1.00 pro Stück) und zu welchem Preis du sie verkaufst (CHF 1.50 bis CHF 4.00).\n3. Was du nicht verkaufst, verdirbt zur Hälfte – ein Notverkauf bringt dir nur den halben Einkaufspreis zurück.\n4. Unterwegs verändert sich die Lage: Konkurrenz eröffnet, dir wird eine Versicherung angeboten, dein Lieferant erhöht die Preise – und wenn dein Geld nicht reicht, kannst du bis CHF 50 Kredit aufnehmen, mit 10 % Zins pro Runde.\n5. Nach Runde 8 zeigt dir die Auswertung deinen Verlauf und dein Endkapital.\n\n**Ein Tipp statt einer Lösung:** Wie deine Kundschaft auf Preise reagiert, verrät dir das Spiel nicht – finde es heraus. Spiel das Planspiel **mehrmals** durch und vergleiche Strategien: hoher Preis oder tiefer Preis, viel oder wenig Einkauf, mit oder ohne Versicherung. Das Spiel merkt sich deine Durchgänge, solange die Seite offen ist."
+    },
+    {
+      "type": "planspiel",
+      "id": "spiel-pausenkiosk",
+      "title": "Planspiel: Dein Pausenkiosk",
+      "intro": "Acht Runden, zwei Entscheidungen pro Runde – der Rest ergibt sich. Viel Erfolg!",
+      "datei": "/content/wirtschaft-politik-18-pausenkiosk-finanzberater/pausenkiosk.html",
+      "hoehe": 640
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-pausenkiosk",
+      "title": "Reflexions-Quiz: Was ist in deinem Kiosk passiert?",
+      "intro": "Fünf Fragen zu den Mechanismen hinter dem Spiel. Wenn du bei einer Frage unsicher bist: Spiel noch eine Runde und schau genau hin.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "Du verlangst statt CHF 2.00 neu CHF 3.50 pro Snack – und verkaufst deutlich weniger. Warum?",
+          "options": [
+            {
+              "text": "Das Spiel bestraft hohe Preise zufällig – manchmal klappt CHF 3.50 genauso gut."
+            },
+            {
+              "text": "Bei höheren Preisen verdirbt die Ware schneller, darum kommt weniger bei der Kundschaft an."
+            },
+            {
+              "text": "Je höher der Preis, desto weniger Leute sind bereit zu kaufen – die nachgefragte Menge sinkt.",
+              "correct": true
+            },
+            {
+              "text": "Der Lieferant liefert bei hohen Verkaufspreisen weniger Snacks."
+            }
+          ],
+          "explanation": "Das ist die Nachfragekurve aus Modul 6 in Aktion: Der Preis ist für die Kundschaft das wichtigste Signal, und mit jedem Aufschlag winken ein paar Käuferinnen und Käufer mehr ab – zuverlässig, nicht zufällig. Mit dem Verderb hat das nichts zu tun (der trifft nur, was du zu viel eingekauft hast), und der Lieferant liefert dir jede bestellte Menge – er schaut nicht auf deinen Verkaufspreis."
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "prompt": "Ab Runde 3 steht ein Konkurrenzkiosk gegenüber. Was hast du beobachtet, wenn dein Preis über seinem lag?",
+          "options": [
+            {
+              "text": "Ein Teil der Kundschaft ist zum günstigeren Kiosk abgewandert – ich habe zusätzlich Absatz verloren.",
+              "correct": true
+            },
+            {
+              "text": "Nichts – die Konkurrenz betrifft nur die Einkaufspreise beim Lieferanten."
+            },
+            {
+              "text": "Der Konkurrenzkiosk hat dann seinen Preis sofort an meinen angepasst."
+            },
+            {
+              "text": "Meine Snacks sind schneller verdorben, weil sie länger im Regal lagen."
+            }
+          ],
+          "explanation": "Sobald die Kundschaft ausweichen kann, kostet Teurer-Sein doppelt: Zur normalen Preisreaktion kommt die Abwanderung zum günstigeren Anbieter. Genau so diszipliniert Wettbewerb die Preise (Modul 8) – niemand verbietet dir CHF 4.00, aber der Markt macht sie unattraktiv. Der Konkurrenzpreis wurde übrigens unabhängig von deinem gesetzt, und mit Lieferant oder Verderb hat die Konkurrenz nichts zu tun – der Verderb hängt allein an deiner unverkauften Menge."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "prompt": "Du hast 60 Snacks eingekauft, aber nur 40 verkauft. Was geschah mit den restlichen 20?",
+          "options": [
+            {
+              "text": "Sie wurden automatisch in die nächste Runde übernommen und dort zuerst verkauft."
+            },
+            {
+              "text": "Sie gingen komplett verloren – der ganze Einkaufswert war weg."
+            },
+            {
+              "text": "Der Lieferant nahm sie zum vollen Einkaufspreis zurück."
+            },
+            {
+              "text": "Sie verdarben zur Hälfte: Der Notverkauf brachte nur noch den halben Einkaufspreis zurück.",
+              "correct": true
+            }
+          ],
+          "explanation": "Übrig gebliebene Ware verdirbt zur Hälfte: Von CHF 20.00 Einkaufswert kamen nur CHF 10.00 zurück – CHF 10.00 waren verloren. Deshalb war zu viel Einkaufen genauso teuer wie zu wenig: Einkauf auf Vorrat ist bei verderblicher Ware keine Reserve, sondern ein Risiko. Ein Übertrag in die nächste Runde oder eine Rücknahme durch den Lieferanten gab es nicht – und ein Totalverlust war es zum Glück auch nicht."
+        },
+        {
+          "id": "q4",
+          "type": "single_choice",
+          "prompt": "Ab Runde 5 konnte der Kühlschrank ausfallen (Schaden CHF 60). Wann war die Versicherung für CHF 10 pro Runde eine gute Entscheidung?",
+          "options": [
+            {
+              "text": "Nur wenn der Kühlschrank tatsächlich kaputtging – sonst war die Prämie verlorenes Geld."
+            },
+            {
+              "text": "Wenn man das grosse, unplanbare Risiko nicht selbst tragen wollte – ob der Schaden dann eintraf, konnte niemand vorher wissen.",
+              "correct": true
+            },
+            {
+              "text": "Nie – CHF 10 pro Runde sind übers Spiel gerechnet immer mehr als der mögliche Schaden."
+            },
+            {
+              "text": "Immer – wer die Versicherung ablehnte, hat in jedem Fall einen Fehler gemacht."
+            }
+          ],
+          "explanation": "Eine Versicherung beurteilt man vor dem Zufall, nicht danach (Modul 11): Sie tauscht einen grossen, unplanbaren Schaden gegen eine kleine, planbare Prämie. Wer ohne Versicherung Glück hatte, hat Risiko getragen – nicht klüger gehandelt; und wer versichert war und keinen Schaden hatte, hat nichts falsch gemacht – die Sicherheit war echt. Darum sind «nur wenn es kaputtging» und «immer»/«nie» alle drei dieselbe Denkfalle: Sie bewerten die Entscheidung nach dem Würfelergebnis statt nach dem Risiko."
+        },
+        {
+          "id": "q5",
+          "type": "single_choice",
+          "prompt": "Dein Kapital reichte nicht für den Einkauf, also nahmst du CHF 50 Kredit auf. Was bedeutete der Zins von 10 % pro Runde?",
+          "options": [
+            {
+              "text": "Einmalig CHF 5 bei der Aufnahme – danach war der Kredit gratis."
+            },
+            {
+              "text": "Der Zins wurde vom Startkapital abgezogen, nicht von den Rundengewinnen."
+            },
+            {
+              "text": "10 % Strafgebühr fielen nur an, wenn man den Kredit gar nie zurückzahlte."
+            },
+            {
+              "text": "Solange Restschuld offen war, kostete sie jede Runde 10 % – je länger die Rückzahlung dauerte, desto teurer wurde der Kredit.",
+              "correct": true
+            }
+          ],
+          "explanation": "Zins ist die Miete für geliehenes Geld – und Miete zahlt man pro Zeitraum (Modul 12): 10 % auf die offene Restschuld, in jeder Runde aufs Neue. Bei CHF 50 Schuld waren das CHF 5 pro Runde; wer schnell zurückzahlen konnte, zahlte wenig, wer die Schuld mitschleppte, zahlte immer wieder. Einmalgebühr, Abzug vom Startkapital oder Strafgebühr am Ende beschreiben alle denselben Irrtum: dass Schulden nur einmal kosten. Sie kosten, solange sie bestehen."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Teil 2 – Seitenwechsel: Jetzt will dir jemand etwas verkaufen",
+      "body": "Im Kiosk warst du die Anbieterin oder der Anbieter – du hast Preise gesetzt, Risiken abgewogen und vielleicht einen Kredit gebraucht. Jetzt wechselst du die Seite: Im folgenden Rollenspiel bist du die Kundschaft, und dir gegenüber sitzt ein Profi.\n\nStell dir vor, du bist ein paar Jahre älter, verdienst deinen ersten eigenen Lohn und schaust dich nach einem Auto um. Im Autocenter wirst du direkt an den Finanzierungsberater weitergereicht: Herr Vogt, freundlich, schnell, überzeugend.\n\nDrei Dinge lohnt sich im Hinterkopf zu behalten:\n\n- **Begriffe:** Eine **Investition** setzt heute Geld ein, damit später Ertrag oder Wert entsteht. **Konsum** verbraucht Geld für Dinge, die man nutzt und die dabei an Wert verlieren. Achte darauf, wie Herr Vogt diese Wörter verwendet.\n- **Techniken:** Dringlichkeit («nur noch diese Woche»), sozialer Vergleich («Ihr Nachbar hat auch …») und Zahlen, die klein wirken («nur 250 im Monat») kennst du aus Modul 17 – hier begegnen sie dir im Gespräch statt im Onlineshop.\n- **Die wichtigste Frage** bei jedem Finanzprodukt: **Wem nützt es zuerst?**\n\nDu kannst das Gespräch mehrmals führen und bewusst verschiedene Wege ausprobieren – auch den, bei dem du alles unterschreibst. Schlimmer als ein Fehler im Rollenspiel ist nur derselbe Fehler später im Autohaus."
+    },
+    {
+      "type": "simulation",
+      "id": "sim-finanzberater",
+      "title": "Rollenspiel: Beim Finanzberater",
+      "intro": "Du sitzt im Autocenter. Das Wunschauto steht draussen, der Kaffee ist serviert, und Herr Vogt schlägt die Mappe auf. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen.",
+      "figur": {
+        "name": "Herr Vogt",
+        "rolle": "Finanzierungs- und Versicherungsberater im Autocenter",
+        "rollenPrompt": "Du bist Herr Vogt, Finanzierungs- und Versicherungsberater in einem Autocenter. Du bist freundlich, redegewandt und willst verkaufen: ein Leasing über 48 Monate plus einen Konsumkredit für die Anzahlung, danach eine Restschuldversicherung. Du nutzt typische Verkaufstechniken: Dringlichkeit («Sonderzins nur bis Freitag»), sozialen Vergleich («Ihr Nachbar hat auch eines gekauft»), kleinrechnen («nur 250 im Monat») – und du nennst Konsumkäufe beschönigend «Investitionen». Du bist aber kein Betrüger: Auf konkrete, hartnäckige Fragen antwortest du wahrheitsgemäss – 250 Franken pro Monat sind Leasing- und Kreditrate zusammen, Gesamtkosten über die Laufzeit rund 13'400 Franken für ein Auto, das 11'000 kostet (48 Raten à 250 plus Gebühren), am Laufzeitende gehört das Auto nicht dem Kunden (Rückgabe oder Kauf zum Restwert), die Restschuldversicherung (30 Franken pro Monat) zahlt im Ernstfall direkt an die Bank und tilgt die Restschuld, die Familie profitiert nur indirekt, und du bekommst dafür eine Provision. Ausweichen ja, lügen nie. Du bleibst immer höflich, machst nie Angstmacherei mit konkreten Krankheiten und gibst keine echte Finanz- oder Anlageberatung; bei Fragen ausserhalb des Autokaufs empfiehlst du eine unabhängige Beratungsstelle. Antworte kurz (2–4 Sätze) und bleib in der Rolle des Verkäufers in genau diesem Gespräch."
+      },
+      "start": "start",
+      "knoten": [
+        {
+          "id": "start",
+          "text": "So, da wären wir! Sie haben ein gutes Auge – genau dieses Modell fährt im Moment jeder. Ihr Nachbar, Herr Marxer, hat letzte Woche übrigens auch in ein neues Auto **investiert**. Und das Schöne: Mit unserem Leasing plus einem kleinen Konsumkredit für die Anzahlung fahren Sie es schon morgen. Sollen wir das gleich festmachen?",
+          "antworten": [
+            { "text": "Moment – ein Auto ist doch keine Investition, oder?", "weiter": "begriff-ausweichen" },
+            { "text": "Was würde mich das denn im Monat kosten?", "weiter": "monatsrate" },
+            { "text": "Klingt gut – wo muss ich unterschreiben?", "weiter": "abschluss-schnell" }
+          ]
+        },
+        {
+          "id": "begriff-ausweichen",
+          "text": "Ach, das sind doch Wortklaubereien! Alles, was Sie weiterbringt, ist eine Investition – in Ihre Mobilität, in Ihre Unabhängigkeit, in Ihr Auftreten. Aber ich merke schon, Sie sind ein kritischer Kopf, das schätze ich. Nur damit Sie es wissen: Der Sonderzins gilt noch bis Freitag, danach kann ich Ihnen diese Konditionen nicht mehr garantieren.",
+          "antworten": [
+            { "text": "Eine Investition bringt später Ertrag. Ein Privatauto verliert nur an Wert – das ist Konsum.", "weiter": "begriff-geklaert" },
+            { "text": "Hm, stimmt auch wieder … was kostet es denn im Monat?", "weiter": "monatsrate" }
+          ]
+        },
+        {
+          "id": "begriff-geklaert",
+          "text": "Na schön – streng genommen haben Sie recht: Ein privat genutztes Auto ist ein Konsumkauf, das sage ich so natürlich nicht jedem Kunden. Aber deshalb ist es doch nicht verboten, sich etwas zu gönnen! Und bei nur 250 Franken im Monat spüren Sie das kaum.",
+          "antworten": [
+            { "text": "Was kostet mich das insgesamt – über die ganze Laufzeit, mit allen Zinsen und Gebühren?", "weiter": "gesamtkosten" },
+            { "text": "Ich überlege es mir in Ruhe und vergleiche zuerst andere Angebote.", "weiter": "ende-bedenkzeit" }
+          ]
+        },
+        {
+          "id": "monatsrate",
+          "text": "Nur 250 Franken im Monat – Leasingrate und Kreditrate für die Anzahlung schon zusammengerechnet! Das ist weniger als Handy-Abo und zweimal Pizza essen zusammen. Läuft bequem über 48 Monate, das spüren Sie im Alltag gar nicht. Ehrlich gesagt: Bei dem Betrag überlegen die meisten gar nicht lange.",
+          "antworten": [
+            { "text": "Und was macht das insgesamt – alle Raten, Zinsen und Gebühren zusammengezählt?", "weiter": "gesamtkosten" },
+            { "text": "Das klingt machbar. Einverstanden!", "weiter": "abschluss-schnell" }
+          ]
+        },
+        {
+          "id": "gesamtkosten",
+          "text": "Sie rechnen gern, wie? Also gut: 48 Raten à 250 Franken sind 12'000, dazu Abschlussgebühr und Bearbeitungskosten – insgesamt landen Sie bei rund **13'400 Franken** für ein Auto, das heute 11'000 kostet. Und ja: Am Laufzeitende gehört es Ihnen nicht – Sie geben es zurück oder kaufen es dann zum Restwert. Aber dafür fahren Sie es ab morgen! Und unter uns: Wer rechnet schon so? Hauptsache, die Rate passt ins Budget.",
+          "antworten": [
+            { "text": "Über 2'000 Franken Aufpreis … das will ich zuerst überschlafen.", "weiter": "ende-bedenkzeit" },
+            { "text": "Okay – sofort fahren ist mir diesen Aufpreis wert. Ich nehme es.", "weiter": "abschluss-informiert" }
+          ]
+        },
+        {
+          "id": "abschluss-schnell",
+          "text": "Ausgezeichnet! Unterschrift hier und hier – herzliche Gratulation, ab morgen sind Sie mobil! … So, und jetzt, wo der Kredit läuft, noch etwas ganz Wichtiges, das ich jedem Kunden ans Herz lege: Stellen Sie sich vor, Ihnen passiert etwas – Unfall, Krankheit, Stellenverlust. Wollen Sie Ihrer Familie wirklich Schulden hinterlassen? Unsere **Restschuldversicherung** schützt Ihre Liebsten. Nur 30 Franken im Monat.",
+          "antworten": [
+            { "text": "Wem nützt diese Versicherung im Ernstfall eigentlich zuerst – meiner Familie oder der Bank?", "weiter": "rsv-klartext" },
+            { "text": "Das klingt vernünftig – Sicherheit für die Familie nehme ich dazu.", "weiter": "ende-alles-unterschrieben" },
+            { "text": "Nein danke, die brauche ich nicht.", "weiter": "rsv-druck" }
+          ]
+        },
+        {
+          "id": "abschluss-informiert",
+          "text": "Gern – Sie wissen ja, worauf Sie sich einlassen, das habe ich nicht oft! Unterschrift hier, und morgen fahren Sie los. … Eine Sache noch: Zum Kredit empfehle ich Ihnen unsere **Restschuldversicherung**, 30 Franken im Monat. Denken Sie an Ihre Familie – wenn Ihnen etwas zustösst, bleiben die Raten sonst an Ihren Liebsten hängen.",
+          "antworten": [
+            { "text": "Wem nützt diese Versicherung im Ernstfall eigentlich zuerst – meiner Familie oder der Bank?", "weiter": "rsv-klartext" },
+            { "text": "Nein danke – mein Budget ist mit der Rate ausgereizt, ich trage das Risiko selbst.", "weiter": "ende-kredit-ohne-rsv" }
+          ]
+        },
+        {
+          "id": "rsv-klartext",
+          "text": "Gut aufgepasst – das fragt kaum jemand. Also, ganz offen: Im Ernstfall zahlt die Versicherung direkt an die **Bank** und tilgt Ihre Restschuld. Ihre Familie profitiert indirekt – sie erbt keine Schulden –, aber abgesichert wird zuerst der Kreditgeber. Und ja, ich bekomme für den Abschluss eine Provision. Unseriös ist das Produkt deswegen nicht. Aber die 30 Franken kommen zu Ihrer Rate von 250 dazu: macht dann 280 im Monat.",
+          "antworten": [
+            { "text": "Danke für die Ehrlichkeit – ich verzichte darauf.", "weiter": "ende-kredit-ohne-rsv" },
+            { "text": "Verstanden. Ich nehme sie trotzdem – ohne Absicherung wäre mir das Risiko zu gross.", "weiter": "ende-rsv-informiert" }
+          ]
+        },
+        {
+          "id": "rsv-druck",
+          "text": "Hm. Das sagen viele – bis etwas passiert. Erst letzten Monat sass hier ein junger Mann, keine drei Jahre älter als Sie … na ja, lassen wir das. Es ist Ihr Risiko: Ohne Versicherung müssten im schlimmsten Fall Ihre Angehörigen die Raten stemmen. Sind Sie wirklich sicher, dass Sie das verantworten wollen?",
+          "antworten": [
+            { "text": "Moment – wer bekommt denn im Ernstfall das Geld aus dieser Versicherung?", "weiter": "rsv-klartext" },
+            { "text": "Ich bleibe dabei: nein.", "weiter": "ende-kredit-ohne-rsv" },
+            { "text": "Also gut … dann nehmen wir sie halt dazu.", "weiter": "ende-umgestimmt" }
+          ]
+        },
+        {
+          "id": "ende-bedenkzeit",
+          "text": "Schade – aber gut, überschlafen Sie es. Nur dass Sie es wissen: Diese Konditionen kann ich Ihnen höchstens bis Freitag halten. Sie wissen ja, wo Sie mich finden. Und grüssen Sie Herrn Marxer!",
+          "auswertung": "**Kein Abschluss – du hast dir Bedenkzeit genommen.** Nüchtern betrachtet ist das die stärkste Position im ganzen Gespräch: Bei grossen Ausgaben ist Vergleichen und Überschlafen immer legitim, und ein seriöses Angebot übersteht eine Nacht. Rückblick auf die Techniken, die Herr Vogt eingesetzt hat: **sozialer Vergleich** («Ihr Nachbar hat auch …»), **Dringlichkeit** («nur bis Freitag») und der beschönigende Begriff **«investieren»** für einen Konsumkauf. Wichtig für die Einordnung: Damit ist weder gesagt, dass Autokredite immer falsch sind, noch dass Beratung Betrug ist – vielleicht kommst du nach dem Vergleichen sogar hierher zurück. Der Unterschied: Dann entscheidest du informiert und ohne Druck."
+        },
+        {
+          "id": "ende-alles-unterschrieben",
+          "text": "Wunderbar, dann machen wir das Paket komplett! Kredit, Leasing, Restschuldversicherung – Sie sind rundum versorgt. 280 Franken im Monat, und morgen holen Sie den Schlüssel. War mir ein Vergnügen!",
+          "auswertung": "**Abgeschlossen: Kredit und Restschuldversicherung – beides ohne Blick auf die Zahlen.** Was jetzt gilt: 280 Franken pro Monat über 48 Monate, Gesamtkosten deutlich über dem Barpreis des Autos – die genaue Summe hast du im Gespräch nie erfahren, und genau das ist der Punkt. Auch dass das geleaste Auto am Laufzeitende gar nicht dir gehört (Rückgabe oder Kauf zum Restwert), kam nie zur Sprache. Die Versicherung hat dir Herr Vogt über die **Familie** verkauft; tatsächlich zahlt sie im Ernstfall zuerst der **Bank** die Restschuld zurück – deine Familie profitiert nur indirekt. Kein moralisches Urteil: Vielleicht wärst du nach reiflicher Prüfung sogar beim selben Paket gelandet, und eine Restschuldversicherung ist nicht per se unseriös. Der Unterschied liegt im Weg dorthin: Du wüsstest dann, **was es kostet und wem es zuerst nützt** – die beiden Fragen, die in diesem Gespräch unbeantwortet geblieben sind."
+        },
+        {
+          "id": "ende-kredit-ohne-rsv",
+          "text": "In Ordnung, dann bleibt es beim Kredit – Sie wissen ja jetzt, was Sie tun. Die Unterlagen bekommen Sie per Post, das Auto steht ab morgen für Sie bereit. Gute Fahrt!",
+          "auswertung": "**Abgeschlossen: Konsumkredit ja, Restschuldversicherung nein.** Zwei Dinge zum Festhalten. Erstens die Finanzierung: Du bezahlst ein Konsumgut, das an Wert verliert, mit geliehenem Geld – das ist die teuerste Art, zu einem Auto zu kommen, und sie will ins Budget passen (Raten, Zins, Gebühren). Zweitens die abgelehnte Versicherung: Das kann eine vernünftige Entscheidung sein – etwa wenn Rücklagen da sind oder andere Absicherungen bestehen –, aber sie hat eine ehrliche Bedingung: Das Risiko trägst jetzt du. Fällt dein Einkommen aus, laufen die Raten weiter. Wer das Risiko kennt und bewusst trägt, entscheidet solide; wer nur die 30 Franken sparen wollte, hat die eigentliche Frage – **was passiert im Ernstfall?** – noch vor sich."
+        },
+        {
+          "id": "ende-rsv-informiert",
+          "text": "Sehen Sie, so machen das kluge Leute: erst fragen, dann entscheiden. Kredit plus Versicherung, 280 im Monat – alles klar dokumentiert. Kommen Sie gut heim!",
+          "auswertung": "**Abgeschlossen: Kredit und Restschuldversicherung – nach deiner Nachfrage.** Das ist der informierte Weg zum selben Produkt: Du weisst jetzt, dass die Versicherung im Ernstfall zuerst die **Bank** absichert und deine Familie nur indirekt entlastet, du kennst die echten Kosten (280 statt 250 pro Monat), und du hast dich trotzdem dafür entschieden – weil dir die Absicherung das wert ist. Genau so funktioniert eine Versicherungsentscheidung (Modul 11): grosses, unplanbares Risiko gegen kleinen, planbaren Betrag – **nachdem** man geklärt hat, wem das Produkt zuerst nützt und was es kostet. Ob sich die Police je «auszahlt», entscheidet der Zufall; dass du sie verstanden hast, stand heute schon fest."
+        },
+        {
+          "id": "ende-umgestimmt",
+          "text": "Sehr vernünftig! Man weiss ja nie, was kommt. Kredit plus Versicherung, macht 280 im Monat – ich bereite alles vor. Sie haben heute an Ihre Zukunft gedacht!",
+          "auswertung": "**Abgeschlossen: Kredit und Restschuldversicherung – nach der zweiten Anfrage.** Schau dir in Ruhe an, was zwischen deinem «Nein» und deinem «Ja» passiert ist: eine angedeutete Schicksalsgeschichte («erst letzten Monat …»), ein Appell an dein Verantwortungsgefühl und die Frage, ob du das «verantworten» willst – **Druck und Emotion, keine neue Information**. Die Versicherung selbst ist dadurch weder besser noch schlechter geworden; vielleicht passt sie sogar zu deiner Situation. Aber entschieden hast du auf der Grundlage eines Gefühls, das der Verkäufer erzeugt hat – die Fragen «Wem nützt sie zuerst?» und «Was kostet sie insgesamt?» blieben offen. Merksatz für das nächste echte Gespräch: Wenn eine Anekdote statt einer Antwort kommt, ist genau das der Moment zum Nachfragen – oder zum Überschlafen."
+        }
+      ],
+      "abschlussfrage": {
+        "id": "sim-finanzberater-frage",
+        "type": "single_choice",
+        "prompt": "Herr Vogt sagte, dein Nachbar habe «in ein neues Auto investiert». Warum ist diese Wortwahl irreführend?",
+        "options": [
+          {
+            "text": "Weil Autos zu billig sind, um als Investition zu zählen – erst ab einem gewissen Betrag wird ein Kauf zur Investition."
+          },
+          {
+            "text": "Ein privat genutztes Auto verliert an Wert und bringt keinen Ertrag – es ist Konsum. «Investieren» lässt den Kauf nur vernünftiger klingen.",
+            "correct": true
+          },
+          {
+            "text": "Sie ist gar nicht irreführend – jeder grössere Kauf ist im Grunde eine Investition in die eigene Lebensqualität."
+          },
+          {
+            "text": "Weil man nur an der Börse investieren kann – alles andere ist automatisch Konsum."
+          }
+        ],
+        "explanation": "Eine Investition setzt heute Geld ein, damit später Ertrag oder Wert entsteht – eine Maschine, eine Ausbildung, ein vermietetes Haus. Ein privat genutztes Auto verliert vom ersten Tag an Wert und erwirtschaftet nichts: Konsum. Am Preis liegt das nicht (auch ein teurer Kauf kann Konsum sein), und an der Börse auch nicht (Investitionen gibt es weit darüber hinaus – und die Grenze kann verlaufen: Ein Lieferwagen, den ein Betrieb zum Geldverdienen braucht, ist eine Investition). «Jeder Kauf ist eine Investition in Lebensqualität» ist genau die Umdeutung, mit der Herr Vogt gearbeitet hat: Sie macht das Wort bedeutungslos – und den Kauf leichter."
+      }
+    },
+    {
+      "type": "tasks",
+      "title": "Vertiefung: Erkläre es in eigenen Worten",
+      "intro": "Drei offene Aufgaben zum Gespräch bei Herrn Vogt. Schreib deine Antworten ins Textfeld – Cate gibt dir Rückmeldung, und deine Lehrperson sieht die Antworten im Report.",
+      "tasks": [
+        {
+          "prompt": "Ist ein privat geleastes Auto eine Investition? Begründe deine Antwort in drei bis fünf Sätzen – und nenne ein Beispiel, bei dem ein Auto tatsächlich eine Investition sein kann.",
+          "hint": "Prüffrage aus dem Modul: Setzt der Kauf heute Geld ein, damit **später Ertrag oder Wert entsteht** – oder wird etwas genutzt und verliert dabei an Wert? Für das Gegenbeispiel: Wer braucht ein Fahrzeug, um damit Geld zu verdienen?",
+          "solution": "Nein – ein privat geleastes Auto ist Konsum. Es verliert vom ersten Tag an Wert, erwirtschaftet keinen Ertrag, und beim Leasing gehört es einem nicht einmal: Man bezahlt für die Nutzung und gibt es am Ende zurück oder kauft es zum Restwert. Eine Investition dagegen setzt heute Geld ein, damit später Ertrag oder Wert entsteht. Ein Auto kann genau dann eine Investition sein, wenn es zum Geldverdienen dient – etwa der Lieferwagen einer Schreinerei oder das Fahrzeug eines Fahrdienstes: Dort hilft das Fahrzeug, Einnahmen zu erzielen, die seine Kosten übersteigen sollen. Entscheidend ist also nicht der Gegenstand, sondern der Zweck."
+        },
+        {
+          "prompt": "Herr Vogt hat die Restschuldversicherung mit dem Schutz deiner Familie begründet. Was war die eigentliche Funktion dieses Produkts – und warum ist es trotzdem zu einfach, die Versicherung deshalb als «Abzocke» abzutun? Antworte in vier bis sechs Sätzen.",
+          "hint": "Denk an die Auskunft aus dem Gesprächsweg mit der Nachfrage «Wem nützt diese Versicherung zuerst?»: Wer bekommt im Ernstfall das Geld? Und aus Modul 11: Wann ist eine Versicherung grundsätzlich sinnvoll?",
+          "solution": "Die Restschuldversicherung zahlt im Ernstfall (etwa bei Tod oder Arbeitsunfähigkeit) direkt an die Bank und tilgt die offene Restschuld – sie sichert also zuerst den Kreditgeber ab. Die Familie profitiert nur indirekt, weil sie keine Schulden erbt; verkauft wurde die Police aber mit dem Bild der Familienabsicherung, und die Kosten (30 Franken zusätzlich pro Monat) wurden erst auf Nachfrage in die Rate eingerechnet – genannter Grund und tatsächlicher Zweck fielen auseinander, und der Berater verdiente eine Provision daran. «Abzocke» ist trotzdem zu einfach: Das Produkt tut, was im Vertrag steht, und wer einen grossen Kredit trägt und im Ernstfall niemanden mit Raten belasten will, kann sich bewusst dafür entscheiden. Unseriös war nicht die Police, sondern die Verkaufsart. Der Massstab bleibt: erst klären, wem das Produkt zuerst nützt und was es insgesamt kostet – dann entscheiden."
+        },
+        {
+          "prompt": "Woran hättest du im Gespräch merken können, dass Begriffe falsch oder beschönigend verwendet werden? Formuliere zwei bis drei konkrete Warnsignale – und zu jedem eine Prüffrage, die du im echten Gespräch stellen könntest.",
+          "hint": "Geh das Gespräch nochmals durch: Wo wurde «investieren» benutzt – und wofür? Wo kamen grosse Wörter («Sicherheit», «Ihre Liebsten») statt konkreter Zahlen? Wo wurde mit der Monatsrate statt mit den Gesamtkosten argumentiert?",
+          "solution": "Mögliche Warnsignale mit Prüffragen: (1) Ein Konsumkauf wird «Investition» genannt – Prüffrage: «Bringt mir dieser Kauf später Ertrag oder Wert, oder verliert er an Wert?» Wenn Letzteres, ist es Konsum, egal wie es heisst. (2) Emotionale Grossbegriffe ersetzen Zahlen («Schutz für Ihre Liebsten», «Sicherheit») – Prüffrage: «Wem wird im Ernstfall konkret wie viel ausbezahlt?» Wer schützt, kann das beantworten. (3) Es wird nur die Monatsrate genannt, nie die Summe – Prüffrage: «Was kostet das insgesamt über die ganze Laufzeit, mit allen Zinsen und Gebühren?» (4) Druckmittel statt Argumente: Fristen («nur bis Freitag»), sozialer Vergleich («Ihr Nachbar auch») oder Anekdoten statt Antworten – Prüffrage an sich selbst: «Würde ich ohne diesen Druck genauso entscheiden?» Zwei bis drei solcher Signale mit passender Prüffrage genügen; entscheidend ist, dass die Prüffrage nach überprüfbaren Fakten verlangt, nicht nach Beruhigung."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Zum Schluss: Zwei Rollen, eine Erkenntnis",
+      "body": "Du hast in diesem Modul beide Seiten des Marktes gespielt: Als Kioskbetreiberin oder Kioskbetreiber hast du erlebt, dass hinter jedem Preis ein Abwägen steckt – Nachfrage, Konkurrenz, Risiko, Kreditkosten. Beim Finanzberater hast du erlebt, wie sich dieselben Konzepte anfühlen, wenn sie **an dir** angewendet werden.\n\nDie eine Erkenntnis, die beide Teile verbindet: **Wer die Mechanik kennt, entscheidet besser.** Der Kiosk hat dir gezeigt, warum Anbieter so handeln, wie sie handeln. Das Rollenspiel hat dir gezeigt, wie du als Kundschaft davon profitierst, genau das zu wissen.\n\nWenn du magst: Spiel den Kiosk noch einmal mit deiner besten Strategie – oder führe das Beratungsgespräch auf einem Weg, den du noch nicht kennst. Freiwillig, versteht sich. Wie dieses ganze Modul."
+    }
+  ]
+}
