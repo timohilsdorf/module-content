@@ -8,5 +8,6 @@
   "imageExtensions": [".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif"],
   "maxImageSizeKB": 4096,
   "maxModuleJsonKB": 1024,
-  "futureBlockTypes": ["simulation", "chat"]
+  "maxPlanspielSizeKB": 512,
+  "futureBlockTypes": ["chat"]
 }

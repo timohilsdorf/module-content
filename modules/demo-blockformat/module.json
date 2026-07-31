@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "demo-blockformat",
   "title": "So funktioniert ein EveryCate-Modul",
-  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Aufgaben, Lückentexte, einen Zukunfts-Block und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
+  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Aufgaben, Lückentexte, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
   "subject": "DEMO",
   "subjectName": "Demo & Dokumentation",
   "cycle": 3,
@@ -38,7 +38,7 @@
     {
       "type": "text",
       "title": "Willkommen",
-      "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Video, Aufgaben\n3. **einem Quiz** mit automatischer Auswertung\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
+      "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Video, Aufgaben, Lückentexte, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
     },
     {
       "type": "image",
@@ -119,64 +119,129 @@
     },
     {
       "type": "simulation",
-      "title": "Ein Blick in die Zukunft",
-      "engine": "demo",
-      "note": "Dieser Block hat den (noch) unbekannten Typ «simulation» – das Schema erlaubt ihn, der Player zeigt einen Platzhalter. So bleibt das Format erweiterbar."
-    }
-  ],
-  "quiz": {
-    "title": "Teste dein Wissen zum Content-Format",
-    "passingScorePercent": 60,
-    "questions": [
-      {
-        "id": "q1",
+      "id": "sim-redaktion",
+      "title": "Der Simulations-Block: Gespräch mit der Redaktion",
+      "intro": "Simulationen sind **verzweigte Gespräche**: Die Figur spricht, du wählst aus 2–4 Antworten, und je nach Wahl geht es anders weiter. Probier es aus – hier erklärt dir Vera, wie ein Modul zu EveryCate kommt.",
+      "figur": {
+        "name": "Vera",
+        "rolle": "Redaktorin bei EveryCate, prüft eingereichte Lernmodule",
+        "rollenPrompt": "Du bist Vera, eine erfahrene, herzliche Redaktorin bei EveryCate. Du prüfst eingereichte Lernmodule und hilfst Autorinnen und Autoren beim Content-Format (module.json, Blocktypen, Pull-Request-Weg über GitHub, Validierung). Du erklärst geduldig und praxisnah, verweist bei Detailfragen auf die Datei CONTENT-SCHEMA.md im Repository und erfindest keine Regeln, die es nicht gibt."
+      },
+      "start": "start",
+      "knoten": [
+        {
+          "id": "start",
+          "text": "Schön, dass du ein eigenes Lernmodul beisteuern willst! Wie möchtest du vorgehen?",
+          "antworten": [
+            { "text": "Ich schreibe die module.json selbst.", "weiter": "selbst" },
+            { "text": "Ich lasse mir von einer KI einen Entwurf machen.", "weiter": "ki" }
+          ]
+        },
+        {
+          "id": "selbst",
+          "text": "Respekt! Halte dich eng an CONTENT-SCHEMA.md – jedes Feld ist dort beschrieben. Und keine Sorge: Kaputt machen kannst du nichts, dein Vorschlag wird vor der Veröffentlichung geprüft.",
+          "antworten": [
+            { "text": "Was prüft ihr denn genau?", "weiter": "pruefung" },
+            { "text": "Alles klar – wie geht mein Modul live?", "weiter": "ende" }
+          ]
+        },
+        {
+          "id": "ki",
+          "text": "Gute Idee – die KI ist deine Assistenz, aber du bleibst die Fachperson: Lies jeden Fakt, jede Jahreszahl und jede Quizantwort kritisch gegen, bevor du einreichst.",
+          "antworten": [
+            { "text": "Was prüft ihr denn genau?", "weiter": "pruefung" },
+            { "text": "Alles klar – wie geht mein Modul live?", "weiter": "ende" }
+          ]
+        },
+        {
+          "id": "pruefung",
+          "text": "Zuerst prüft die automatische Validierung dein Modul: Schema, Blocktypen, Bild- und Video-Regeln, eindeutige ids. Danach liest ein Mensch drüber. Fehler siehst du direkt im Pull Request – die Meldungen kannst du sogar der KI zum Korrigieren geben.",
+          "antworten": [
+            { "text": "Verstanden – und wie geht es dann live?", "weiter": "ende" },
+            { "text": "Nochmals von vorn, bitte.", "weiter": "start" }
+          ]
+        },
+        {
+          "id": "ende",
+          "text": "Du reichst dein Modul als Pull Request ein. Sobald die Validierung grün ist und jemand aus dem Team es freigegeben und gemerged hat, erscheint es automatisch auf der Website – du musst nichts weiter tun.",
+          "auswertung": "Du kennst jetzt den Weg eines Moduls: **Entwurf → kritisch gegenlesen → Pull Request → Validierung + Review → automatisch live.** Geh zurück und probiere ruhig auch die anderen Antwortwege aus."
+        }
+      ],
+      "abschlussfrage": {
+        "id": "sim-redaktion-frage",
         "type": "single_choice",
-        "prompt": "In welcher Datei liegt ein EveryCate-Lernmodul?",
+        "prompt": "Wann erscheint ein neues Modul auf der EveryCate-Website?",
         "options": [
-          {
-            "text": "modules/meine-modul-id/module.json",
-            "correct": true
-          },
-          {
-            "text": "src/app/module.json"
-          },
-          {
-            "text": "In einer Datenbank"
-          }
+          { "text": "Sobald der Pull Request validiert, freigegeben und gemerged ist.", "correct": true },
+          { "text": "Sofort beim Hochladen der module.json." },
+          { "text": "Erst wenn die Plattform von Hand neu gebaut wird." }
         ],
-        "explanation": "Module sind reine Dateien – ein Ordner pro Modul unter `modules/`, die Plattform braucht keine Datenbank."
-      },
-      {
-        "id": "q2",
-        "type": "multiple_choice",
-        "prompt": "Welche Blocktypen kann der Player heute schon darstellen?",
-        "options": [
-          {
-            "text": "text",
-            "correct": true
-          },
-          {
-            "text": "video",
-            "correct": true
-          },
-          {
-            "text": "simulation"
-          },
-          {
-            "text": "tasks",
-            "correct": true
-          }
-        ],
-        "explanation": "`text`, `image`, `video`, `tasks` und `lueckentext` sind implementiert. `simulation` ist ein gültiger, aber noch nicht unterstützter Zukunfts-Block.",
-        "points": 2
-      },
-      {
-        "id": "q3",
-        "type": "true_false",
-        "prompt": "Ein Modul mit einem unbekannten Blocktyp bricht den Build ab.",
-        "answer": false,
-        "explanation": "Unbekannte Blocktypen sind gültig und werden als Platzhalter angezeigt – das macht das Schema erweiterbar."
+        "explanation": "Der Merge auf den Hauptzweig löst die Veröffentlichung automatisch aus – vorher schützen Validierung und Review vor Fehlern. Diese Abschlussfrage macht den Simulations-Block übrigens zu einem prüfenden Block."
       }
-    ]
-  }
+    },
+    {
+      "type": "planspiel",
+      "id": "spiel-blocktypen",
+      "title": "Der Planspiel-Block",
+      "intro": "Planspiele sind **eingebettete Lernspiele**: eine eigenständige HTML-Datei im Modulordner, die abgeschottet in einem Rahmen läuft (ohne Internet, ohne Zugriff auf die Plattform). Sie geben keine Punkte – die Auswertung übernimmt das Quiz danach. *Dieser Blocktyp steht nur dem EveryCate-Kernteam offen.*",
+      "datei": "/content/demo-blockformat/planspiel-blocktypen.html",
+      "hoehe": 460
+    },
+    {
+      "type": "quiz",
+      "id": "quiz",
+      "title": "Teste dein Wissen zum Content-Format",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "prompt": "In welcher Datei liegt ein EveryCate-Lernmodul?",
+          "options": [
+            {
+              "text": "modules/meine-modul-id/module.json",
+              "correct": true
+            },
+            {
+              "text": "src/app/module.json"
+            },
+            {
+              "text": "In einer Datenbank"
+            }
+          ],
+          "explanation": "Module sind reine Dateien – ein Ordner pro Modul unter `modules/`, die Plattform braucht keine Datenbank."
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "prompt": "Welche Blocktypen kann der Player heute schon darstellen?",
+          "options": [
+            {
+              "text": "text",
+              "correct": true
+            },
+            {
+              "text": "video",
+              "correct": true
+            },
+            {
+              "text": "chat"
+            },
+            {
+              "text": "tasks",
+              "correct": true
+            }
+          ],
+          "explanation": "`text`, `image`, `video`, `tasks`, `lueckentext`, `quiz`, `simulation` und `planspiel` sind implementiert. `chat` ist ein gültiger, aber noch nicht unterstützter Zukunfts-Block.",
+          "points": 2
+        },
+        {
+          "id": "q3",
+          "type": "true_false",
+          "prompt": "Ein Modul mit einem unbekannten Blocktyp bricht den Build ab.",
+          "answer": false,
+          "explanation": "Unbekannte Blocktypen sind gültig und werden als Platzhalter angezeigt – das macht das Schema erweiterbar."
+        }
+      ]
+    }
+  ]
 }

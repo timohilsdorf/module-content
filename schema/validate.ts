@@ -11,7 +11,13 @@
  *   Tags würden als sichtbarer Text erscheinen
  * - Bilder: Datei liegt im Modulordner, erlaubte Endung, src-Konvention
  *   "/content/<modul-id>/<datei>"; Remote-Bilder nur von erlaubten Hosts
- * - Ordnerhygiene: im Modulordner nur module.json und Bilder
+ * - Planspiele: Datei existiert im eigenen Modulordner, beginnt mit
+ *   "<!doctype html><html><head>", hält das Grössenlimit
+ *   (maxPlanspielSizeKB) ein und enthält keine externen Verweise
+ *   (PLANSPIEL_VERBOTENE_MUSTER in schema.ts); .html-Dateien ohne
+ *   referenzierenden planspiel-Block sind ein Fehler
+ * - Ordnerhygiene: im Modulordner nur module.json, Bilder, Videos und
+ *   referenzierte Planspiel-Dateien
  * - eindeutige IDs, Pflicht-IDs für Quizfragen, requires-Verweise
  */
 import fs from "node:fs";
@@ -23,6 +29,8 @@ import {
   KNOWN_BLOCK_TYPES,
   knownBlockSchema,
   parseModulDatei,
+  PLANSPIEL_DOKUMENT_PRAEFIX,
+  PLANSPIEL_VERBOTENE_MUSTER,
   VIDEO_DATEI_MUSTER,
   type LearningModule,
 } from "./schema";
@@ -45,6 +53,7 @@ const whitelistSchema = z.strictObject({
   imageExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
   maxImageSizeKB: z.number().int().positive(),
   maxModuleJsonKB: z.number().int().positive(),
+  maxPlanspielSizeKB: z.number().int().positive(),
   futureBlockTypes: z.array(z.string().min(1)),
 });
 
@@ -313,6 +322,57 @@ function checkModule(
     checkBildUrl(block.src, "Bild-src");
   }
 
+  // --- Planspiele: eigene Datei, Dokumentanfang, Grösse, keine externen ----
+  // Verweise. Die Textmuster-Prüfung ist bewusst streng (läuft auch über
+  // Kommentare/Strings); die harte Laufzeit-Grenze bleibt die CSP im
+  // sandbox-iframe des Players.
+  const referenziertePlanspiele = new Set<string>();
+  for (const block of mod.blocks) {
+    if (!isKnownBlock(block) || block.type !== "planspiel") continue;
+    const erwartet = `/content/${mod.id}/`;
+    if (!block.datei.startsWith(erwartet)) {
+      errors.push(
+        `Planspiel "${block.datei}" – die Datei gehört in den eigenen Modulordner und heisst "${erwartet}<datei>.html".`,
+      );
+      continue;
+    }
+    const fileName = block.datei.slice(erwartet.length);
+    referenziertePlanspiele.add(fileName);
+    const datei = path.join(modDir, fileName);
+    if (!fs.existsSync(datei)) {
+      errors.push(
+        `Planspiel "${block.datei}" nicht gefunden – die Datei gehört neben die module.json in modules/${mod.id}/.`,
+      );
+      continue;
+    }
+    // Vor dem Lesen prüfen – eine versymlinkte Datei könnte sonst fremde
+    // Inhalte in Fehlermeldungen (CI-Logs) ziehen.
+    if (fs.lstatSync(datei).isSymbolicLink()) {
+      errors.push(`Planspiel "${fileName}" ist ein Symlink – nur echte Dateien sind erlaubt.`);
+      continue;
+    }
+    const kb = Math.round(fs.statSync(datei).size / 1024);
+    if (kb > whitelist.maxPlanspielSizeKB) {
+      errors.push(
+        `Planspiel "${fileName}" ist ${kb} KB gross – erlaubt sind höchstens ${whitelist.maxPlanspielSizeKB} KB (schema/whitelist.json → maxPlanspielSizeKB).`,
+      );
+      continue;
+    }
+    const text = fs.readFileSync(datei, "utf8");
+    if (!PLANSPIEL_DOKUMENT_PRAEFIX.test(text)) {
+      errors.push(
+        `Planspiel "${fileName}": Die Datei muss mit "<!doctype html><html><head>" beginnen – der Player injiziert dort seine Sicherheitsrichtlinie und führt andere Dokumente nicht aus.`,
+      );
+    }
+    for (const { muster, grund } of PLANSPIEL_VERBOTENE_MUSTER) {
+      if (muster.test(text)) {
+        errors.push(
+          `Planspiel "${fileName}": ${grund} ist nicht erlaubt – Planspiele sind vollständig eigenständig (keine externen Ressourcen, kein Netzzugriff).`,
+        );
+      }
+    }
+  }
+
   // --- Ordnerhygiene: nur module.json + Bilder -----------------------------
   for (const entry of fs.readdirSync(modDir, { withFileTypes: true })) {
     // Symlinks strikt ablehnen: Sie könnten auf Dateien ausserhalb des
@@ -339,9 +399,20 @@ function checkModule(
     // Videodateien prüft der Video-Abschnitt oben (Grösse + Referenz);
     // hier zählt nur, dass die Endung überhaupt ins Modul gehört.
     if (whitelist.videoExtensions.includes(ext)) continue;
+    // Planspiel-Dateien prüft der Planspiel-Abschnitt oben (Format +
+    // Grösse + verbotene Muster); unreferenziertes HTML hat im Modul
+    // nichts verloren – die Plattform veröffentlicht es ohnehin nie.
+    if (ext === ".html") {
+      if (!referenziertePlanspiele.has(entry.name)) {
+        errors.push(
+          `Datei "${entry.name}" gehört nicht ins Modul – .html-Dateien sind nur als Planspiel erlaubt und müssen von einem planspiel-Block referenziert werden.`,
+        );
+      }
+      continue;
+    }
     if (!whitelist.imageExtensions.includes(ext)) {
       errors.push(
-        `Datei "${entry.name}" gehört nicht ins Modul – erlaubt sind module.json, Bilder (${whitelist.imageExtensions.join(", ")}) und Videos (${whitelist.videoExtensions.join(", ")}).`,
+        `Datei "${entry.name}" gehört nicht ins Modul – erlaubt sind module.json, Bilder (${whitelist.imageExtensions.join(", ")}), Videos (${whitelist.videoExtensions.join(", ")}) und referenzierte Planspiel-Dateien (.html).`,
       );
       continue;
     }
@@ -383,6 +454,11 @@ function checkModule(
     ),
     ...mod.blocks.flatMap((b) =>
       isKnownBlock(b) && b.type === "quiz" ? b.questions.map((q) => q.id ?? null) : [],
+    ),
+    ...mod.blocks.flatMap((b) =>
+      isKnownBlock(b) && b.type === "simulation"
+        ? [b.abschlussfrage?.id ?? null]
+        : [],
     ),
   ].filter((id): id is string => id !== null);
   const duplicates = ids.filter((id, i) => ids.indexOf(id) !== i);

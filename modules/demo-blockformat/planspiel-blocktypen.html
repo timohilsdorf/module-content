@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blocktypen-Spiel</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: #f6f8f4; color: #2d3230; padding: 16px;
+    display: flex; flex-direction: column; gap: 14px; min-height: 100vh;
+  }
+  h1 { font-size: 1.1rem; }
+  p { font-size: .92rem; line-height: 1.45; }
+  .karte {
+    background: #fff; border: 1px solid #dde3d8; border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .frage { font-weight: 600; }
+  .antworten { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  button {
+    font: inherit; border: 1px solid #b9c9a4; background: #fff;
+    border-radius: 999px; padding: 8px 16px; cursor: pointer;
+  }
+  button:hover { background: #eef4e6; }
+  button.richtig { background: #98c257; border-color: #7ba53c; color: #fff; }
+  button.falsch { background: #f4d7d7; border-color: #d99; }
+  button:disabled { cursor: default; }
+  .fazit { font-weight: 600; }
+  .punkte { color: #5b7036; font-weight: 600; }
+</style>
+</head>
+<body>
+  <h1>Mini-Spiel: Welcher Blocktyp passt?</h1>
+  <p>
+    Dieses kleine Spiel ist selbst ein <strong>Planspiel-Block</strong>:
+    eine einzelne HTML-Datei im Modulordner, die abgeschottet in einem
+    Rahmen läuft – ohne Internet, ohne Zugriff auf die Plattform.
+    Errate zu jeder Beschreibung den passenden Blocktyp!
+  </p>
+  <div class="karte">
+    <p class="frage" id="frage"></p>
+    <div class="antworten" id="antworten"></div>
+    <p id="feedback" style="margin-top:10px" aria-live="polite"></p>
+  </div>
+  <p class="punkte" id="stand"></p>
+<script>
+  "use strict";
+  const RUNDEN = [
+    { text: "Fliesstext mit Markdown – Listen, Tabellen, Betonung.", typ: "text" },
+    { text: "Automatisch geprüfter Text mit Lücken zum Ausfüllen.", typ: "lueckentext" },
+    { text: "Offene Aufgaben mit Tipp – deine Antwort geht in den Report.", typ: "tasks" },
+    { text: "Verzweigter Dialog mit einer Spielfigur.", typ: "simulation" },
+    { text: "Fragen mit Auswertung, bestanden erst bei 100 Prozent.", typ: "quiz" }
+  ];
+  const TYPEN = ["text", "lueckentext", "tasks", "simulation", "quiz"];
+  let runde = 0;
+  let punkte = 0;
+
+  const frageEl = document.getElementById("frage");
+  const antwortenEl = document.getElementById("antworten");
+  const feedbackEl = document.getElementById("feedback");
+  const standEl = document.getElementById("stand");
+
+  function zeigeRunde() {
+    if (runde >= RUNDEN.length) {
+      frageEl.textContent = "Geschafft!";
+      antwortenEl.replaceChildren();
+      const nochmal = document.createElement("button");
+      nochmal.textContent = "Nochmals spielen";
+      nochmal.addEventListener("click", () => {
+        runde = 0; punkte = 0; feedbackEl.textContent = ""; zeigeRunde();
+      });
+      antwortenEl.append(nochmal);
+      feedbackEl.className = "fazit";
+      feedbackEl.textContent =
+        punkte + " von " + RUNDEN.length + " Beschreibungen richtig zugeordnet.";
+      standEl.textContent = "";
+      return;
+    }
+    const aktuelle = RUNDEN[runde];
+    frageEl.textContent = aktuelle.text;
+    feedbackEl.textContent = "";
+    feedbackEl.className = "";
+    standEl.textContent = "Runde " + (runde + 1) + " von " + RUNDEN.length +
+      " – " + punkte + " Punkte";
+    antwortenEl.replaceChildren();
+    for (const typ of TYPEN) {
+      const knopf = document.createElement("button");
+      knopf.textContent = typ;
+      knopf.addEventListener("click", () => pruefe(knopf, typ, aktuelle.typ));
+      antwortenEl.append(knopf);
+    }
+  }
+
+  function pruefe(knopf, gewaehlt, richtig) {
+    for (const b of antwortenEl.querySelectorAll("button")) b.disabled = true;
+    if (gewaehlt === richtig) {
+      punkte++;
+      knopf.className = "richtig";
+      feedbackEl.textContent = "Richtig!";
+    } else {
+      knopf.className = "falsch";
+      feedbackEl.textContent = "Knapp daneben – es war «" + richtig + "».";
+    }
+    runde++;
+    setTimeout(zeigeRunde, 1100);
+  }
+
+  zeigeRunde();
+</script>
+</body>
+</html>
