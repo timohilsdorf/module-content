@@ -41,6 +41,16 @@ import { z } from "zod";
  *   ("/content/<modul>/<datei>.mp4"). Bisher gültige Dateien bleiben
  *   unverändert gültig; ob die Plattform diese Quelle freigibt,
  *   entscheidet weiterhin ihre Medien-Whitelist.
+ * - 2, additive Ergänzung (31.7.2026, KEIN Versionswechsel): zwei neue
+ *   Blocktypen. `simulation` (verzweigter Rollenspiel-Dialog, vollständig
+ *   skriptiert, optional mit prüfender Abschlussfrage – vorher ein
+ *   freigegebener Zukunftstyp) und `planspiel` (eingebettetes
+ *   interaktives Lernspiel als HTML-Datei im Modulordner; läuft NUR in
+ *   Modulen aus dem geprüften Content-Repo, streng gekapselt im
+ *   sandbox-iframe). Ältere Player zeigen für beide einen Platzhalter.
+ *   Frühere Version-1-Dateien mit einem andersförmigen
+ *   simulation/planspiel-Zukunftsblock bleiben gültig (Migration benennt
+ *   ihn in einen unbekannten Typ um, Platzhalter-Verhalten bleibt).
  */
 export const SCHEMA_VERSION = 2;
 
@@ -486,6 +496,303 @@ export const quizBlockSchema = z
     }
   });
 
+// --- Planspiel (eingebettetes Lernspiel, nur geprüfte Module) ---------------
+
+/**
+ * Moduleigene Planspiel-Datei: ein eigenständiges HTML-Dokument im
+ * Modulordner, referenziert wie Bilder und Videos
+ * ("/content/<modul>/<datei>.html"). Bewusst ohne "..", ohne Query und
+ * ohne Fragment – der Pfad zeigt genau auf eine Datei im Modulordner.
+ */
+export const PLANSPIEL_DATEI_MUSTER =
+  /^\/content\/[a-z0-9][a-z0-9-]*\/[A-Za-z0-9][A-Za-z0-9._-]*\.html$/;
+
+/**
+ * Pflicht-Anfang eines Planspiel-Dokuments: `<!doctype html><html><head>`
+ * (Attribute und Leerraum erlaubt, optional ein BOM). Der Player fügt
+ * seine Content-Security-Policy als allererstes Element in den <head> ein
+ * – stünde vor dem <head> ausführbarer Inhalt, liefe er UNGESCHÜTZT.
+ * Deshalb erzwingen beide Validierer UND der Player exakt dieses Muster;
+ * Dokumente ohne diesen Anfang werden nicht gerendert.
+ */
+export const PLANSPIEL_DOKUMENT_PRAEFIX =
+  /^\uFEFF?\s*<!doctype\s+html\s*>\s*<html(?:\s[^>]*)?>\s*<head(?:\s[^>]*)?>/i;
+
+/**
+ * Textmuster, die in Planspiel-HTML nicht vorkommen dürfen – Planspiele
+ * sind vollständig eigenständig (keine externen Skripte, Frames oder
+ * Netzwerkzugriffe). Die Prüfung läuft über den ROHEN Dateitext, also
+ * bewusst auch über Kommentare und Strings (streng statt schlau); die
+ * harte Grenze zur Laufzeit bleibt unabhängig davon die per CSP und
+ * sandbox-Attribut gekapselte Ausführung im Player.
+ */
+export const PLANSPIEL_VERBOTENE_MUSTER: ReadonlyArray<{
+  muster: RegExp;
+  grund: string;
+}> = [
+  { muster: /<script[^>]*\ssrc\s*=/i, grund: "externes Skript (<script src=…>)" },
+  { muster: /<link[\s/>]/i, grund: "<link>-Element (externe Stylesheets/Ressourcen)" },
+  { muster: /<i?frame/i, grund: "eingebettete Frames" },
+  { muster: /<object[\s/>]|<embed[\s/>]|<applet[\s/>]/i, grund: "<object>/<embed>/<applet>" },
+  { muster: /<base[\s/>]/i, grund: "<base>-Element (verbiegt relative Pfade)" },
+  { muster: /<meta[^>]*http-equiv/i, grund: "eigene http-equiv-Meta-Angabe (z. B. Refresh/CSP)" },
+  { muster: /\bfetch\s*\(/i, grund: "fetch()-Netzwerkzugriff" },
+  { muster: /XMLHttpRequest/i, grund: "XMLHttpRequest-Netzwerkzugriff" },
+  { muster: /WebSocket/i, grund: "WebSocket-Verbindung" },
+  { muster: /EventSource/i, grund: "EventSource-Verbindung" },
+  { muster: /sendBeacon/i, grund: "sendBeacon-Netzwerkzugriff" },
+  { muster: /\bimport\s*\(/i, grund: "dynamischer import()" },
+  {
+    // Statischer ES-Import einer externen Quelle: "import x from '//…'",
+    // "import '//…'". Bewusst nur mit externer URL im String – sonst
+    // träfe die Regel auch Prosa wie "Daten aus einer Datei importieren".
+    muster: /\bimport\b[^;\n]{0,200}["'`](?:https?:)?\/\//i,
+    grund: "statischer ES-Import einer externen Quelle",
+  },
+  { muster: /@import/i, grund: "@import in CSS" },
+  { muster: /\burl\(\s*["']?\s*(?:https?:)?\/\//i, grund: "externe url(…)-Ressource in CSS" },
+  {
+    muster: /\b(?:src|href|action|poster|srcset|formaction)\s*=\s*["']?\s*(?:https?:)?\/\//i,
+    grund: "externer Verweis (http(s):// bzw. //…)",
+  },
+  { muster: /location\s*\.\s*(?:href|assign|replace)/i, grund: "Navigation per location" },
+  { muster: /window\s*\.\s*open\s*\(/i, grund: "window.open()" },
+];
+
+/**
+ * Eingebettetes Lernspiel (interaktives HTML/JS), NEU seit 31.7.2026.
+ * Die Spiel-Datei liegt als eigenständiges HTML-Dokument im Modulordner
+ * (nicht als Roh-HTML im JSON – das bleibt verboten). Der Player führt
+ * sie ausschliesslich in einem strikt gekapselten sandbox-iframe aus
+ * (allow-scripts OHNE allow-same-origin, CSP ohne jeden Netzzugriff)
+ * und NUR in Modulen aus dem geprüften Content-Repo – in lokal
+ * eingeladenen oder per module-share empfangenen Modulen lehnt der
+ * Player den Block ab (das Modul selbst bleibt gültig und spielbar).
+ * Kein prüfender Block, keine Punkte: Das Planspiel zählt als
+ * bearbeitet, sobald es geöffnet wurde; die inhaltliche Auswertung
+ * übernimmt ein nachgelagertes Quiz im selben Modul.
+ */
+export const planspielBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("planspiel"),
+    /**
+     * Die Spiel-Datei: "/content/<modul>/<datei>.html" – dieselbe
+     * Ablage-Konvention wie Bilder und moduleigene Videos. Die
+     * Validierer prüfen zusätzlich Modulzugehörigkeit, Existenz,
+     * Grösse, Dokumentanfang und die verbotenen Muster (oben).
+     */
+    datei: z.string().regex(PLANSPIEL_DATEI_MUSTER, {
+      message:
+        'Planspiel: "datei" muss ein moduleigener Pfad der Form ' +
+        '"/content/<modul>/<datei>.html" sein.',
+    }),
+    /** Optionale Einleitung/Spielanleitung über dem Spiel, Markdown erlaubt. */
+    intro: markdown.optional(),
+    /** Höhe des Spielbereichs in CSS-Pixeln (Standard 480). */
+    hoehe: z.number().int().min(240).max(1200).default(480),
+  })
+  .superRefine((block, ctx) => {
+    // Stabile id ist Pflicht (wie bei Lückentext/Quiz): Der Lernstand
+    // merkt sich pro Block, dass das Spiel geöffnet wurde.
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Planspiel: Der Block braucht eine stabile "id" (z. B. "spiel1"), damit der Bearbeitet-Stand bei Content-Änderungen korrekt bleibt.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Planspiel: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+  });
+
+// --- Simulation (verzweigter Rollenspiel-Dialog) ----------------------------
+
+/** Eine Antwortoption der Lernenden in einem Dialogknoten. */
+export const simulationAntwortSchema = z.strictObject({
+  /** Antwort-Text, den die Lernenden wählen (reiner Text). */
+  text: z.string().min(1),
+  /** id des Knotens, zu dem diese Antwort führt. */
+  weiter: z.string().min(1),
+});
+
+/**
+ * Ein Dialogknoten: Die Figur spricht (`text`), die Lernenden wählen aus
+ * 2–4 Antworten. Ein Knoten OHNE `antworten` ist ein Endpunkt; nur dort
+ * darf eine `auswertung` stehen (Rückblick auf den gewählten Weg).
+ */
+export const simulationKnotenSchema = z.strictObject({
+  /** Knoten-id, Ziel der `weiter`-Verweise (nur innerhalb des Blocks). */
+  id: z.string().min(1),
+  /** Was die Figur an dieser Stelle sagt, Markdown erlaubt. */
+  text: markdown,
+  /** 2–4 Antwortoptionen; fehlt das Feld, ist der Knoten ein Endpunkt. */
+  antworten: z.array(simulationAntwortSchema).min(2).max(4).optional(),
+  /** Nur Endknoten: Auswertung, die beim Erreichen angezeigt wird (Markdown). */
+  auswertung: markdown.optional(),
+});
+
+/**
+ * Verzweigter Rollenspiel-Dialog, NEU seit 31.7.2026 (löst den früheren
+ * Zukunftstyp "simulation" ab). Vollständig als Skript definiert – der
+ * Block funktioniert komplett ohne KI und ohne Netz; ist auf einem Gerät
+ * der Assistent (Cate) aktiviert, darf die Figur ZUSÄTZLICH freie
+ * Rückfragen beantworten, streng im Rahmen von `figur.rollenPrompt` und
+ * ohne den skriptierten Pfad zu verändern. Zentrale Aussagen bleiben
+ * immer skriptiert.
+ *
+ * Prüfend ist der Block NUR mit `abschlussfrage` (auswertbare Frage nach
+ * dem Erreichen eines Endpunkts – zählt dann wie ein Quiz in Abschluss,
+ * Punkte und Lernrate); ohne Abschlussfrage zählt er als bearbeitet,
+ * sobald ein Endpunkt erreicht wurde.
+ */
+export const simulationBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("simulation"),
+    /** Optionale Einleitung (Szenario, Auftrag), Markdown erlaubt. */
+    intro: markdown.optional(),
+    figur: z.strictObject({
+      /** Name der Figur, z. B. "Frau Keller, Gemeindepräsidentin". */
+      name: z.string().min(1).max(80),
+      /** Kurzbeschreibung der Rolle – wird den Lernenden angezeigt. */
+      rolle: z.string().min(1).max(200).optional(),
+      /**
+       * Rollenanweisung NUR für die optionale KI-Anreicherung (wird nie
+       * angezeigt): Wer ist die Figur, was weiss sie, wie spricht sie,
+       * was verrät sie nicht? Ohne aktivierten Assistenten ohne Wirkung.
+       */
+      rollenPrompt: z.string().min(1).max(2000).optional(),
+    }),
+    /** id des Startknotens. */
+    start: z.string().min(1),
+    knoten: z.array(simulationKnotenSchema).min(1).max(200),
+    /**
+     * Optionale auswertbare Abschlussfrage (gleiche Fragetypen wie im
+     * Quiz, id Pflicht): erscheint nach dem Erreichen eines Endpunkts
+     * und macht den Block PRÜFEND (istPruefenderBlock).
+     */
+    abschlussfrage: questionSchema.optional(),
+  })
+  .superRefine((block, ctx) => {
+    // Stabile id ist Pflicht (wie bei Lückentext/Quiz): Lernstand und
+    // Punktevergabe speichern Ergebnisse pro Block.
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Simulation: Der Block braucht eine stabile "id" (z. B. "sim1"), damit Lernstand und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Simulation: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+
+    // Knoten-ids müssen eindeutig sein – sonst sind Verweise mehrdeutig.
+    const knotenIds = new Set<string>();
+    let verweisFehler = false;
+    block.knoten.forEach((k, i) => {
+      if (knotenIds.has(k.id)) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["knoten", i, "id"],
+          message: `Simulation: Knoten-id "${k.id}" ist mehrfach vergeben.`,
+        });
+        verweisFehler = true;
+      }
+      knotenIds.add(k.id);
+    });
+
+    if (!knotenIds.has(block.start)) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["start"],
+        message: `Simulation: Startknoten "${block.start}" existiert nicht in "knoten".`,
+      });
+      verweisFehler = true;
+    }
+
+    block.knoten.forEach((k, i) => {
+      k.antworten?.forEach((antwort, j) => {
+        if (!knotenIds.has(antwort.weiter)) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["knoten", i, "antworten", j, "weiter"],
+            message: `Simulation: Antwort verweist auf unbekannten Knoten "${antwort.weiter}".`,
+          });
+          verweisFehler = true;
+        }
+      });
+      if (k.auswertung !== undefined && k.antworten !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["knoten", i, "auswertung"],
+          message:
+            'Simulation: "auswertung" ist nur auf Endknoten erlaubt (Knoten ohne "antworten").',
+        });
+      }
+    });
+
+    // Erreichbarkeit nur prüfen, wenn die Verweise in sich stimmen –
+    // sonst gäbe es verwirrende Folgefehler zum selben Grundproblem.
+    if (!verweisFehler) {
+      const erreicht = new Set<string>([block.start]);
+      const offen = [block.start];
+      const proId = new Map(block.knoten.map((k) => [k.id, k]));
+      while (offen.length > 0) {
+        const aktuell = proId.get(offen.pop()!);
+        for (const antwort of aktuell?.antworten ?? []) {
+          if (!erreicht.has(antwort.weiter)) {
+            erreicht.add(antwort.weiter);
+            offen.push(antwort.weiter);
+          }
+        }
+      }
+      block.knoten.forEach((k, i) => {
+        if (!erreicht.has(k.id)) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["knoten", i],
+            message: `Simulation: Knoten "${k.id}" ist vom Start aus nicht erreichbar.`,
+          });
+        }
+      });
+      const endErreichbar = block.knoten.some(
+        (k) => erreicht.has(k.id) && k.antworten === undefined,
+      );
+      if (!endErreichbar) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["knoten"],
+          message:
+            "Simulation: Vom Start aus ist kein Endpunkt (Knoten ohne \"antworten\") erreichbar – das Gespräch könnte nie enden.",
+        });
+      }
+    }
+
+    // Die Abschlussfrage braucht eine id (Statistik pro Frage) – wie
+    // Quizfragen, dort erzwingen es die Validierer.
+    if (block.abschlussfrage && !block.abschlussfrage.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["abschlussfrage", "id"],
+        message:
+          'Simulation: Die Abschlussfrage braucht eine stabile "id" (z. B. "sim1-frage").',
+      });
+    }
+  });
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
@@ -493,6 +800,8 @@ export const knownBlockSchema = z.discriminatedUnion("type", [
   tasksBlockSchema,
   lueckentextBlockSchema,
   quizBlockSchema,
+  planspielBlockSchema,
+  simulationBlockSchema,
 ]);
 
 export const KNOWN_BLOCK_TYPES = [
@@ -502,10 +811,12 @@ export const KNOWN_BLOCK_TYPES = [
   "tasks",
   "lueckentext",
   "quiz",
+  "planspiel",
+  "simulation",
 ] as const;
 
 /**
- * Zukunfts-Blöcke ("simulation", "chat", …): jedes Objekt mit einem `type`,
+ * Zukunfts-Blöcke ("chat", …): jedes Objekt mit einem `type`,
  * der (noch) nicht implementiert ist. Wird vom Player als Platzhalter
  * angezeigt statt den Build zu brechen.
  */
@@ -602,6 +913,18 @@ export const moduleSchema = z.strictObject({
 const quizArtigerV1Block = z.looseObject({ type: z.literal("quiz") });
 
 /**
+ * Gleiches Prinzip für die am 31.7.2026 implementierten Typen
+ * "simulation" und "planspiel": In Version-1-Dateien waren Blöcke mit
+ * diesen Typen gültige ZUKUNFTS-Blöcke beliebiger Form (Platzhalter im
+ * Player). Damit solche Dateien gültig bleiben, akzeptiert der V1-Zweig
+ * sie weiterhin lose; die Migration erhält das Platzhalter-Verhalten
+ * (Umbenennung in "…-v1"), wenn die Form nicht zum echten Block passt.
+ */
+const zukunftsArtigerV1Block = z.looseObject({
+  type: z.enum(["simulation", "planspiel"]),
+});
+
+/**
  * Schema-Version 1 (bis Juli 2026): identisch bis auf das
  * Quiz-Sonderfeld auf Modulebene. Bestehende Dateien bleiben gültig –
  * parseModulDatei migriert sie beim Einlesen verlustfrei auf Version 2.
@@ -609,7 +932,9 @@ const quizArtigerV1Block = z.looseObject({ type: z.literal("quiz") });
 export const moduleV1Schema = z.strictObject({
   schemaVersion: z.literal(1),
   ...modulBasis,
-  blocks: z.array(z.union([blockSchema, quizArtigerV1Block])).min(1),
+  blocks: z
+    .array(z.union([blockSchema, quizArtigerV1Block, zukunftsArtigerV1Block]))
+    .min(1),
   /** Optionales Abschlussquiz mit automatischer Auswertung (nur Version 1). */
   quiz: quizSchema.optional(),
 });
@@ -626,6 +951,10 @@ export type Task = z.infer<typeof taskSchema>;
 export type TasksBlock = z.infer<typeof tasksBlockSchema>;
 export type Luecke = z.infer<typeof lueckeSchema>;
 export type LueckentextBlock = z.infer<typeof lueckentextBlockSchema>;
+export type PlanspielBlock = z.infer<typeof planspielBlockSchema>;
+export type SimulationAntwort = z.infer<typeof simulationAntwortSchema>;
+export type SimulationKnoten = z.infer<typeof simulationKnotenSchema>;
+export type SimulationBlock = z.infer<typeof simulationBlockSchema>;
 export type KnownBlock = z.infer<typeof knownBlockSchema>;
 export type UnknownBlock = z.infer<typeof unknownBlockSchema>;
 export type Block = z.infer<typeof blockSchema>;
@@ -661,6 +990,15 @@ export function migriereModulV1(alt: LearningModuleV1): LearningModule {
     // das Platzhalter-Verhalten erhalten (Typ "quiz-v1" ist unbekannt).
     if (block.type === "quiz" && !quizBlockSchema.safeParse(block).success) {
       return { ...block, type: "quiz-v1" };
+    }
+    // Dasselbe für die früheren Zukunftstypen "simulation"/"planspiel"
+    // (seit 31.7.2026 echte Blöcke): Andersförmige V1-Blöcke behalten
+    // ihr Platzhalter-Verhalten unter dem unbekannten Typ "…-v1".
+    if (
+      (block.type === "simulation" || block.type === "planspiel") &&
+      !knownBlockSchema.safeParse(block).success
+    ) {
+      return { ...block, type: `${block.type}-v1` };
     }
     // Die id "quiz" ist der reservierte Lernstand-Schlüssel des
     // migrierten Abschlussquiz – V1 erlaubte sie als blossen Anker auf
@@ -736,16 +1074,26 @@ export function parseModulDatei(
  * unabhängig davon für jeden Aufgabenblock einzeln. Künftige
  * auto-geprüfte Aufgabentypen werden hier eingetragen und zählen dann
  * automatisch in Abschluss, Punkte und Lernrate.
+ *
+ * Seit 31.7.2026 entscheidet bei EINEM Typ der Inhalt: Ein
+ * simulation-Block ist genau dann prüfend, wenn er eine auswertbare
+ * `abschlussfrage` trägt – ohne sie zählt er (wie das Planspiel) nur
+ * als bearbeitet. istPruefenderBlock ist deshalb die einzige
+ * massgebliche Abfrage; die Typliste allein genügt nicht mehr.
  */
 export const PRUEFENDE_BLOCK_TYPES = ["lueckentext", "quiz"] as const;
 
 export function istPruefenderBlock(block: Block): boolean {
+  if (isKnownBlock(block) && block.type === "simulation") {
+    return block.abschlussfrage !== undefined;
+  }
   return (PRUEFENDE_BLOCK_TYPES as readonly string[]).includes(block.type);
 }
 
 /**
  * Schlüssel aller prüfenden Elemente eines Moduls: die ids der
- * prüfenden Blöcke (Lückentexte und Quizblöcke). Die id "quiz" ist der
+ * prüfenden Blöcke (Lückentexte, Quizblöcke und Simulationen mit
+ * Abschlussfrage). Die id "quiz" ist der
  * historische Schlüssel des früheren Abschlussquiz und bleibt für
  * QUIZBLÖCKE erlaubt (migrierte Module behalten so ihren Lernstand);
  * andere prüfende Blöcke dürfen sie nicht tragen. Der Lernstand hält

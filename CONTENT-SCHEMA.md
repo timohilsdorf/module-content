@@ -16,6 +16,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 1 | Juli 2026 | Additiv: Konzept [«prüfender Block»](#prüfende-blöcke-und-modulabschluss) – Quiz und prüfende Blocktypen (`PRUEFENDE_BLOCK_TYPES` in `schema/schema.ts`, aktuell `lueckentext`) zählen gleichwertig für Modulabschluss, Punkte und Lernrate. Ein Modul braucht kein Quiz mehr; ohne prüfende Elemente gilt es nach dem Durchsehen als abgeschlossen. |
 | 2 | 21. Juli 2026 | Additiv (kein Versionswechsel): optionale Katalog-Metadaten [`sequenz`](#aufbau-eines-moduls) (Lernreihenfolge innerhalb von Fach/Einheit, `1` = zuerst – der Katalog sortiert danach statt nach Dateinamen) und [`einheit`](#aufbau-eines-moduls) (Themengruppe, wenn mehrere Module eine Reihe bilden; der Katalog fasst Module mit identischem Wert sichtbar als Lernpfad zusammen). Bestehende Dateien bleiben unverändert gültig. |
 | 2 | Juli 2026 | **Quiz ist ein regulärer Block** (`type: "quiz"`, Pflicht-`id`): beliebig viele Quizze pro Modul, an beliebiger Position, jedes wird einzeln ausgewertet (Prozent, Punkte, Versuche) und zählt als prüfender Block. Das frühere Sonderfeld `quiz` auf Modulebene entfällt in Version 2. **Version-1-Dateien bleiben gültig** und werden beim Einlesen verlustfrei migriert: Das Sonderfeld wird zum letzten Block mit der `id` `"quiz"` – derselbe Lernstand-Schlüssel, Fortschritt und Reports bleiben kompatibel. Coins gibt es weiterhin einmal pro bestandenem Modul, nicht pro Quiz. |
+| 2 | 31. Juli 2026 | Additiv (kein Versionswechsel): zwei neue Blocktypen. [`simulation`](#simulation--verzweigter-rollenspiel-dialog) (verzweigter Rollenspiel-Dialog, vollständig skriptiert; mit optionaler `abschlussfrage` ein prüfender Block – löst den bisherigen gleichnamigen Zukunftstyp ab) und [`planspiel`](#planspiel--eingebettetes-lernspiel-nur-everycate-kernteam) (eingebettetes Lernspiel als HTML-Datei im Modulordner, streng gekapselt; **nur für das EveryCate-Kernteam**). Bestehende Dateien bleiben gültig; ältere Player zeigen für beide einen Platzhalter. Version-1-Dateien mit einem andersförmigen `simulation`-Zukunftsblock bleiben ebenfalls gültig (Platzhalter-Verhalten bleibt erhalten). |
 
 ## Ablage
 
@@ -45,9 +46,11 @@ Regeln:
   und Bild-Hosts laut [`schema/whitelist.json`](schema/whitelist.json)
   (auch für Markdown-Bilder in Textfeldern), kein Roh-HTML in Textfeldern,
   Existenz/Endung/Grösse der Bilddateien, maximale Grösse der
-  `module.json` (`maxModuleJsonKB`), Eindeutigkeit von IDs, Pflicht-`id`
-  bei Quizfragen und saubere Modulordner (nur `module.json` + Bilder,
-  keine Symlinks). `requires`-Verweise auf (noch) nicht existierende
+  `module.json` (`maxModuleJsonKB`), Planspiel-Dateien (Dokumentanfang,
+  Grössenlimit, keine externen Verweise), Eindeutigkeit von IDs,
+  Pflicht-`id` bei Quizfragen und saubere Modulordner (nur `module.json`,
+  Bilder, Videos und referenzierte Planspiel-Dateien, keine Symlinks).
+  `requires`-Verweise auf (noch) nicht existierende
   Module ergeben nur einen Hinweis, keinen Fehler – Slug trotzdem auf
   Tippfehler prüfen.
 
@@ -267,13 +270,136 @@ Regeln:
   (Juli 2026, siehe [Versionsgeschichte](#versionsgeschichte)) – ältere
   Player-Versionen zeigen dafür einen Platzhalter.
 
+### `simulation` – verzweigter Rollenspiel-Dialog
+
+Ein skriptiertes Gespräch mit einer Figur: Sie spricht Knoten für Knoten,
+die Lernenden wählen aus 2–4 Antworten, und je nach Wahl verzweigt der
+Dialog – bis zu einem Endpunkt. Der Block funktioniert **vollständig ohne
+KI und ohne Internet** (alles steht im Skript); ist auf einem Gerät der
+KI-Lernpartner Cate aktiviert, darf die Figur zusätzlich freie Rückfragen
+beantworten – streng im Rahmen von `figur.rollenPrompt`, ohne den
+skriptierten Pfad zu verändern.
+
+```json
+{
+  "type": "simulation",
+  "id": "sim1",
+  "title": "Gespräch mit der Gemeindepräsidentin",
+  "intro": "Optional: Szenario und Auftrag (Markdown).",
+  "figur": {
+    "name": "Frau Keller",
+    "rolle": "Gemeindepräsidentin von Brienz",
+    "rollenPrompt": "Optional, wird nie angezeigt: Wer ist die Figur, was weiss sie, wie spricht sie? Nur für freie KI-Rückfragen."
+  },
+  "start": "begruessung",
+  "knoten": [
+    {
+      "id": "begruessung",
+      "text": "Schön, dass du da bist! Was möchtest du wissen?",
+      "antworten": [
+        { "text": "Wie schützt ihr das Dorf vor Murgängen?", "weiter": "schutz" },
+        { "text": "Warum zieht ihr nicht einfach weg?", "weiter": "wegzug" }
+      ]
+    },
+    { "id": "schutz", "text": "…", "antworten": [ { "text": "…", "weiter": "ende" }, { "text": "…", "weiter": "wegzug" } ] },
+    { "id": "wegzug", "text": "…", "antworten": [ { "text": "…", "weiter": "ende" }, { "text": "…", "weiter": "schutz" } ] },
+    {
+      "id": "ende",
+      "text": "Danke für das Gespräch!",
+      "auswertung": "Optional, nur auf Endknoten: Rückblick auf den gewählten Weg (Markdown)."
+    }
+  ],
+  "abschlussfrage": {
+    "id": "sim1-frage",
+    "type": "single_choice",
+    "prompt": "…",
+    "options": [ { "text": "…", "correct": true }, { "text": "…" } ],
+    "explanation": "…"
+  }
+}
+```
+
+Regeln:
+
+- **`id`** (Pflicht, wie bei Lückentext/Quiz): Lernstand und Punkte
+  hängen am Block.
+- **`figur`**: `name` (Pflicht, wird angezeigt), optional `rolle`
+  (angezeigte Kurzbeschreibung) und `rollenPrompt` (nie angezeigt; nur
+  für die optionale KI-Anreicherung – ohne aktivierten Assistenten ohne
+  Wirkung).
+- **`knoten`**: Jeder Knoten hat eine blockinterne `id`, den Figurentext
+  (`text`, Markdown) und entweder 2–4 `antworten` (je `text` +
+  `weiter` = Ziel-Knoten-id) ODER keine – dann ist er ein **Endpunkt**
+  und darf eine `auswertung` (Markdown) tragen. `start` nennt den
+  Anfangsknoten. Die Validierung prüft: alle Verweise existieren, jeder
+  Knoten ist vom Start aus erreichbar, mindestens ein Endpunkt ist
+  erreichbar. Schleifen (zurück zu einem früheren Knoten) sind erlaubt.
+- **`abschlussfrage`** (optional): eine einzelne Quiz-Frage (gleiche
+  Fragetypen und Regeln wie im [Quiz](#quiz-type-quiz), Pflicht-`id`).
+  Sie erscheint nach dem Erreichen eines Endpunkts und macht den Block
+  zu einem [prüfenden Block](#prüfende-blöcke-und-modulabschluss)
+  (Punkte, 100-%-Regel, Modulabschluss). **Ohne** Abschlussfrage ist der
+  Block nicht prüfend – er zählt als bearbeitet, sobald ein Endpunkt
+  erreicht wurde.
+- Der Blocktyp ist eine **additive Ergänzung von Schema-Version 2**
+  (31. Juli 2026) – ältere Player zeigen einen Platzhalter.
+
+### `planspiel` – eingebettetes Lernspiel (nur EveryCate-Kernteam)
+
+Ein eigenständiges interaktives Lernspiel (HTML/JS in einer einzigen
+Datei im Modulordner), das der Player streng gekapselt in einem
+sandbox-iframe ausführt – ohne Netzzugriff und ohne jeden Zugriff auf die
+Plattform. **Dieser Blocktyp steht Lehrpersonen und externen Autorinnen
+und Autoren NICHT offen:** Eingebetteter Code braucht eine technische
+Sicherheitsprüfung, die nur das EveryCate-Kernteam im Review leisten
+kann; entsprechende PRs werden abgelehnt. Er läuft ausserdem NUR in
+Modulen aus diesem geprüften Repository – in lokal eingeladenen oder
+geteilten Modulen zeigt der Player statt des Spiels einen Hinweis.
+
+```json
+{
+  "type": "planspiel",
+  "id": "spiel1",
+  "title": "Handelssimulation",
+  "intro": "Optional: Spielanleitung (Markdown).",
+  "datei": "/content/mein-modul/spiel.html",
+  "hoehe": 480
+}
+```
+
+Regeln (erzwingt die Validierung):
+
+- **`id`** (Pflicht): Der Lernstand merkt sich, dass das Spiel geöffnet
+  wurde.
+- **`datei`**: HTML-Datei im **eigenen** Modulordner, referenziert wie
+  Bilder (`/content/<modul-id>/<datei>.html`). Höchstens
+  `maxPlanspielSizeKB` (Whitelist; die Plattform setzt zusätzlich ein
+  eigenes, nicht per Content-PR änderbares Hartlimit – eine Erhöhung des
+  Whitelist-Werts darüber hinaus lässt den Plattform-Build bewusst
+  scheitern), muss mit
+  `<!doctype html><html><head>` beginnen (dort injiziert der Player
+  seine Content-Security-Policy) und darf **keine externen Verweise**
+  enthalten – kein `<script src>`, `<link>`, `<iframe>`, kein
+  `fetch`/`XMLHttpRequest`/`WebSocket`, keine `http(s)://`-Ressourcen.
+  Alles (Skripte, Styles, Grafiken als Daten-URIs) steckt in der einen
+  Datei. `.html`-Dateien ohne referenzierenden Block sind ein Fehler.
+- **`hoehe`** (optional): Höhe des Spielbereichs in Pixeln (240–1200,
+  Standard 480).
+- **Kein prüfender Block, keine Punkte:** Das Spiel zählt als
+  bearbeitet, sobald es geöffnet wurde. Die inhaltliche Auswertung
+  übernimmt ein nachgelagertes Quiz im selben Modul.
+- Der Blocktyp ist eine **additive Ergänzung von Schema-Version 2**
+  (31. Juli 2026) – ältere Player zeigen einen Platzhalter.
+
 ## Prüfende Blöcke und Modulabschluss
 
 Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
-Typen prüfend sind, steht versioniert im Schema
-([`schema/schema.ts`](schema/schema.ts), Konstante `PRUEFENDE_BLOCK_TYPES`
-– aktuell `lueckentext` und `quiz`); künftige auto-geprüfte Aufgabentypen
-werden dort eingetragen und zählen dann automatisch.
+Blöcke prüfend sind, steht versioniert im Schema
+([`schema/schema.ts`](schema/schema.ts), Funktion `istPruefenderBlock`):
+`lueckentext` und `quiz` immer, `simulation` genau dann, wenn der Block
+eine [`abschlussfrage`](#simulation--verzweigter-rollenspiel-dialog)
+trägt. Künftige auto-geprüfte Aufgabentypen werden dort eingetragen und
+zählen dann automatisch.
 
 - Ein Modul gilt als **bestanden**, wenn **alle prüfenden Blöcke
   100 % erreicht** haben – jeder Lückentext (alle Lücken richtig) und
@@ -298,19 +424,23 @@ werden dort eingetragen und zählen dann automatisch.
   Fortschritt) – andere prüfende Blöcke dürfen sie nicht tragen (die
   Validierung lehnt das ab).
 
-### Zukünftige Blocktypen (`simulation`, `chat`, …)
+### Zukünftige Blocktypen (`chat`, …)
 
 Das Format ist offen für kommende Player-Funktionen: Ein Block mit noch
 nicht implementiertem `type` wird vom Player als Platzhalter («wird noch
 nicht unterstützt») angezeigt. In diesem Repository akzeptiert die
 Validierung solche Blöcke nur, wenn der Typ in
 [`schema/whitelist.json`](schema/whitelist.json) unter `futureBlockTypes`
-freigegeben ist (aktuell `simulation` und `chat`), z. B.:
+freigegeben ist (aktuell `chat`), z. B.:
 
 ```json
-{ "type": "simulation", "engine": "physik-federpendel", "params": { "masse": 2 } }
 { "type": "chat", "persona": "tutor", "systemPrompt": "Du hilfst bei …" }
 ```
+
+*(`simulation` war bis Juli 2026 ein solcher Zukunftstyp und ist seit dem
+31. Juli 2026 ein
+[echter Blocktyp](#simulation--verzweigter-rollenspiel-dialog) mit
+eigener Detail-Validierung.)*
 
 **Neuen Blocktyp implementieren** (passiert im Plattform-Repository
 `everycate`): (1) Schema in `src/lib/content/schema.ts` ergänzen

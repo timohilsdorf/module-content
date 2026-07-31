@@ -84,6 +84,21 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      Kleinschreibung ist standardmässig egal). Modus "wortbank" bietet
 >      die Wörter als Auswahl an ("ablenker" = zusätzliche falsche
 >      Wörter); Modus "eingabe" zeigt Freitextfelder (dann kein "ablenker").
+>   6. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
+>      "figur":{"name":"Frau Keller","rolle":"Gemeindepräsidentin"},
+>      "start":"k1","knoten":[
+>      {"id":"k1","text":"Was die Figur sagt …","antworten":[
+>      {"text":"Antwort A","weiter":"k2"},{"text":"Antwort B","weiter":"k3"}]},
+>      {"id":"k2","text":"…","antworten":[{"text":"…","weiter":"k9"},
+>      {"text":"…","weiter":"k3"}]},
+>      {"id":"k9","text":"Schluss …","auswertung":"Rückblick …"}]}
+>      – verzweigtes Rollenspiel-Gespräch: Die Figur spricht, die
+>      Lernenden wählen aus 2–4 "antworten"; "weiter" nennt die id des
+>      nächsten Knotens. Ein Knoten OHNE "antworten" ist ein Endpunkt
+>      (optional mit "auswertung" als Rückblick). Jeder Knoten muss vom
+>      Start aus erreichbar sein. Optional macht eine "abschlussfrage"
+>      (eine einzelne Quizfrage mit eigener id, gleiche Form wie im
+>      Quiz) den Block zu einem automatisch ausgewerteten Block.
 > - Quizze sind normale Blöcke in "blocks": {"type":"quiz","id":"quiz1",
 >   "title":"…","questions":[…]} – beliebig oft und an beliebiger
 >   Position (z. B. ein kurzes Quiz nach jedem Kapitel oder eines am
@@ -115,6 +130,14 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 Das vollständige, technisch präzise Format steht in
 [`CONTENT-SCHEMA.md`](CONTENT-SCHEMA.md) – bei Unklarheiten kannst du der
 KI auch den Inhalt dieser Datei mitgeben.
+
+> **Hinweis:** Den Blocktyp `planspiel` (eingebettete HTML-Lernspiele)
+> gibt es zwar auch – er steht Lehrpersonen aber **nicht** offen, weil
+> eingebetteter Programmcode eine technische Sicherheitsprüfung braucht,
+> die nur das EveryCate-Kernteam leisten kann. Bitte keine `planspiel`-
+> Blöcke oder HTML-Dateien einreichen; solche Pull Requests werden
+> abgelehnt. Interaktive Elemente für dein Modul erreichst du mit
+> Lückentexten, Quizzen und dem Simulations-Gespräch (Punkt 6).
 
 ## Schritt 2: Kritisch gegenlesen (wichtig!)
 
@@ -184,5 +207,7 @@ Pfad liefert die Plattform die Bilder aus)*.
 | Video-ID wird abgelehnt | YouTube: nur die Zeichen nach `watch?v=` (üblich 11); Vimeo: nur die Zahl aus der URL. Nie die ganze URL eintragen. |
 | «Video-Provider … ist nicht freigegeben» | Nur YouTube oder Vimeo verwenden (siehe `schema/whitelist.json`). |
 | «Roh-HTML in …» | HTML-Tags (z. B. `<b>`, `<br>`) entfernen lassen — Formatierung geht mit Markdown (`**fett**`, Absätze durch Leerzeile). |
+| «Simulation: … nicht erreichbar» oder «verweist auf unbekannten Knoten» | Jede `weiter`-Angabe muss auf eine existierende Knoten-`id` zeigen, und jeder Knoten muss vom `start` aus erreichbar sein — Fehlermeldung der KI geben: «Korrigiere die Verzweigungen». |
+| Blocktyp `planspiel` wird abgelehnt | Dieser Typ steht nur dem EveryCate-Kernteam offen (eingebetteter Code braucht eine Sicherheitsprüfung). Nutze Lückentext, Quiz oder Simulation. |
 | Umlaute sehen kaputt aus | Datei muss UTF-8 sein — beim Kopieren aus dem Chat normalerweise automatisch der Fall. |
 | «ß» im Text | Schweizer Schreibweise: durch «ss» ersetzen (lassen). |
