@@ -4,6 +4,8 @@
   "videoUrlHosts": [],
   "videoExtensions": [".mp4", ".webm"],
   "maxVideoSizeKB": 8192,
+  "audioExtensions": [".mp3", ".m4a"],
+  "maxAudioSizeKB": 8192,
   "imageHosts": ["upload.wikimedia.org"],
   "imageExtensions": [".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif"],
   "maxImageSizeKB": 4096,

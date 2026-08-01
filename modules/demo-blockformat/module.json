@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "demo-blockformat",
   "title": "So funktioniert ein EveryCate-Modul",
-  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Aufgaben, Lückentexte, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
+  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Audio, Aufgaben, Lückentexte (inkl. Satzbau), Zuordnung, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
   "subject": "DEMO",
   "subjectName": "Demo & Dokumentation",
   "cycle": 3,
@@ -38,7 +38,7 @@
     {
       "type": "text",
       "title": "Willkommen",
-      "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Video, Aufgaben, Lückentexte, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
+      "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Video, Audio, Aufgaben, Lückentexte, Zuordnung, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
     },
     {
       "type": "image",
@@ -116,6 +116,57 @@
           ]
         }
       ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-satzbau",
+      "title": "Der Lückentext-Block (Satzbau)",
+      "intro": "Im Modus `satzbau` bringst du vorgegebene **Bausteine in die richtige Reihenfolge** – per Ziehen oder Antippen. Es kann mehrere richtige Lösungen geben (hier darf «jedes Modul» auch direkt nach «prüft» stehen).",
+      "modus": "satzbau",
+      "bausteine": [
+        "Die Validierung",
+        "prüft",
+        "vor dem Merge",
+        "jedes Modul"
+      ],
+      "alternativen": [
+        [1, 2, 4, 3]
+      ],
+      "ablenker": [
+        "per E-Mail"
+      ]
+    },
+    {
+      "type": "zuordnung",
+      "id": "zu-blocktypen",
+      "title": "Der Zuordnungs-Block",
+      "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Achtung: Ein Element in der Auswahl ist ein Ablenker und passt zu keinem Paar.",
+      "paare": [
+        {
+          "links": { "text": "module.json" },
+          "rechts": { "text": "Die eine Datei, in der ein ganzes Modul steckt." }
+        },
+        {
+          "links": { "text": "Pull Request" },
+          "rechts": { "text": "Der geprüfte Weg, wie ein Modul live geht." }
+        },
+        {
+          "links": { "text": "Ordner unter modules/" },
+          "rechts": { "text": "Hier liegen module.json, Bilder und Hördateien zusammen." }
+        }
+      ],
+      "ablenker": [
+        { "text": "Eine Datenbank, die es bei EveryCate nicht gibt." }
+      ]
+    },
+    {
+      "type": "audio",
+      "id": "audio-hoerprobe",
+      "title": "Der Audio-Block",
+      "src": "/content/demo-blockformat/hoerprobe-blockformat.m4a",
+      "description": "Hör dir die kurze Aufnahme an – sie erklärt selbst, wie der Audio-Block funktioniert. Mit 🐢 0.75× hörst du sie langsamer.",
+      "transcript": "«Willkommen beim Audio-Block von EveryCate. Hördateien liegen wie Bilder direkt im Modulordner. Zum Hörverstehen gehört immer ein Transkript – und die Auswertung übernimmt eine Aufgabe nach dem Hören. Du kannst mich übrigens auch langsamer abspielen.»",
+      "credit": "Eigenaufnahme EveryCate (synthetische Stimme), CC BY-SA 4.0"
     },
     {
       "type": "simulation",
@@ -231,7 +282,7 @@
               "correct": true
             }
           ],
-          "explanation": "`text`, `image`, `video`, `tasks`, `lueckentext`, `quiz`, `simulation` und `planspiel` sind implementiert. `chat` ist ein gültiger, aber noch nicht unterstützter Zukunfts-Block.",
+          "explanation": "`text`, `image`, `video`, `audio`, `tasks`, `lueckentext`, `quiz`, `zuordnung`, `simulation` und `planspiel` sind implementiert. `chat` ist ein gültiger, aber noch nicht unterstützter Zukunfts-Block.",
           "points": 2
         },
         {
