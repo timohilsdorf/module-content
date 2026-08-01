@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "id": "englisch-01-catchy-tunes",
-  "title": "Catchy tunes: Talking about music",
-  "description": "«Catchy tunes» – der Auftakt zum Englisch-Lernpfad rund um Musik: Du lernst Grundwortschatz zu Genres, Instrumenten und beschreibenden Adjektiven, liest einen kurzen Text über Ohrwürmer, schaust ein TED-Ed-Video dazu und schreibst dein eigenes «music profile» auf Englisch. Niveau A2–B1, 4. Lernjahr Englisch (9. Schulstufe).",
+  "id": "englisch-01-cates-sound-lab",
+  "title": "Cate's Sound Lab: Talking about music",
+  "description": "«Cate's Sound Lab» – der Auftakt zum Englisch-Lernpfad rund um Musik: Du lernst Grundwortschatz zu Genres, Instrumenten und beschreibenden Adjektiven, liest einen kurzen Text über Ohrwürmer, schaust ein TED-Ed-Video dazu und schreibst dein eigenes «music profile» auf Englisch. Niveau A2–B1 (9. Schulstufe).",
   "subject": "E",
   "subjectName": "Englisch",
   "cycle": 3,
-  "grades": "9. Klasse (Sek I), 4. Lernjahr Englisch",
+  "grades": "9. Klasse (Sek I)",
   "sequenz": 1,
-  "einheit": "Catchy tunes – über Musik sprechen",
+  "einheit": "Cate's Sound Lab – über Musik sprechen",
   "language": "en",
   "curriculum": "LiLe",
   "durationMinutes": 45,
@@ -76,8 +76,8 @@
   "blocks": [
     {
       "type": "text",
-      "title": "Welcome to «Catchy tunes»!",
-      "body": "Music is everywhere: in your headphones, in games, in shops – and sometimes it plays on and on in your head. This is the first module of the unit «Catchy tunes», and it is all about music.\n\nIn this module you will:\n\n- learn words for **genres, instruments and concerts**,\n- learn **adjectives** to describe music (catchy, cheerful, relaxing, powerful, annoying, unforgettable),\n- read a short text and watch a short video about **earworms** – songs that get stuck in your head,\n- write a few sentences about **your own music taste**.\n\nAll tasks are in English. Read slowly, use the picture and the word banks – and don't worry about small mistakes. Have fun!"
+      "title": "Welcome to «Cate's Sound Lab»!",
+      "body": "Music is everywhere: in your headphones, in games, in shops – and sometimes it plays on and on in your head. This is the first module of the unit «Cate's Sound Lab», and it is all about music.\n\nIn this module you will:\n\n- learn words for **genres, instruments and concerts**,\n- learn **adjectives** to describe music (catchy, cheerful, relaxing, powerful, annoying, unforgettable),\n- read a short text and watch a short video about **earworms** – songs that get stuck in your head,\n- write a few sentences about **your own music taste**.\n\nAll tasks are in English. Read slowly, use the picture and the word banks – and don't worry about small mistakes. Have fun!"
     },
     {
       "type": "quiz",
@@ -353,10 +353,21 @@
       "type": "lueckentext",
       "id": "lt-vocab-eingabe",
       "title": "Vocabulary B: Words to describe music",
-      "intro": "All six missing words are adjectives from this module: **catchy, cheerful, relaxing, powerful, annoying, unforgettable**. Type the right adjective into each gap – the first letters in brackets help you. Capital or small letters – both are fine.",
+      "intro": "Type the missing adjective into each gap. The only help is the first letter of the word, given in brackets. Capital or small letters – both are fine.",
       "modus": "eingabe",
-      "text": "I heard this song only once, but I can't stop singing it – it is really {{1}} (c…).\nThis happy summer song makes everybody smile – it is bright and {{2}} (ch…).\nIn the evening I listen to quiet piano music, because it is so {{3}} (rel…).\nYou can feel the drums in your whole body – the sound of this rock band is {{4}} (p…).\nMy little brother plays the same three notes again and again – it is so {{5}} (ann…)!\nWe sang this song every day at our school camp. For me, it is {{6}} (u…) – I will remember it all my life.",
+      "text": "We sang this song every day at our school camp. For me, it is {{1}} (u…) – I will remember it all my life.\nIn the evening I listen to quiet piano music, because it is so {{2}} (r…) – it makes me calm.\nI heard this song only once, but it is so {{3}} (c…) that I can't stop humming the melody.\nMy little brother plays the same three notes again and again – it is so {{4}} (a…)!\nYou can feel the drums in your whole body – the sound of this rock band is really {{5}} (p…).\nThis song is not sad at all – it is bright and {{6}} (c…) like a sunny day.",
       "luecken": [
+        {
+          "antworten": [
+            "unforgettable"
+          ]
+        },
+        {
+          "antworten": [
+            "relaxing",
+            "restful"
+          ]
+        },
         {
           "antworten": [
             "catchy"
@@ -364,12 +375,8 @@
         },
         {
           "antworten": [
-            "cheerful"
-          ]
-        },
-        {
-          "antworten": [
-            "relaxing"
+            "annoying",
+            "awful"
           ]
         },
         {
@@ -379,12 +386,7 @@
         },
         {
           "antworten": [
-            "annoying"
-          ]
-        },
-        {
-          "antworten": [
-            "unforgettable"
+            "cheerful"
           ]
         }
       ]
@@ -392,7 +394,7 @@
     {
       "type": "image",
       "title": "The language of music",
-      "src": "/content/englisch-01-catchy-tunes/language-of-music.png",
+      "src": "/content/englisch-01-cates-sound-lab/language-of-music.png",
       "alt": "Overview chart with the title «The language of music». Three panels show the vocabulary of this module. Panel 1, Genres: pop, rock, hip-hop, classical (klassische Musik), jazz, folk (Volksmusik). Panel 2, Instruments: drums (Schlagzeug), keyboard, guitar (Gitarre), violin (Geige), trumpet (Trompete). Panel 3, Words to describe music: catchy (bleibt sofort im Ohr), cheerful (fröhlich), relaxing (entspannend), powerful (kraftvoll), annoying (nervig), unforgettable (unvergesslich). A dark bar at the bottom adds concert words – stage (Bühne), audience (Publikum), choir (Chor) – and words for the parts of a song: melody (Melodie), rhythm (Rhythmus), lyrics (Songtext).",
       "caption": "Your music words at a glance. Come back to this picture when you write your own music profile at the end of the module.",
       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
