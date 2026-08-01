@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 2,
+  "id": "englisch-02-listen-or-hear",
+  "title": "Listen or hear?",
+  "description": "«Listen or hear?» – Modul 2 im Englisch-Lernpfad «Cate's Sound Lab»: Du lernst den Unterschied zwischen listen (to) und hear, übst die richtige Form in Sätzen aus der Welt von Songs und Radio – und erzählst mit past simple und past perfect, was an einem Konzertabend zuerst passierte. Niveau A2–B1 (9. Schulstufe).",
+  "subject": "E",
+  "subjectName": "Englisch",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 2,
+  "einheit": "Cate's Sound Lab – über Musik sprechen",
+  "language": "en",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Englisch",
+    "Musik",
+    "listen",
+    "hear",
+    "Grammatik",
+    "past perfect",
+    "past simple",
+    "unregelmässige Verben",
+    "Wortschatz",
+    "Konzert"
+  ],
+  "learningObjectives": [
+    "I can use listen (to) and hear correctly. (Ich kann listen (to) und hear richtig verwenden.)",
+    "I can form and use the past perfect for the earlier of two past actions. (Ich kann das past perfect bilden und für die frühere von zwei vergangenen Handlungen verwenden.)",
+    "I can decide which of two past actions happened first and choose the right tense. (Ich kann entscheiden, welche von zwei vergangenen Handlungen zuerst passierte, und die passende Zeitform wählen.)"
+  ],
+  "competencies": [
+    {
+      "code": "E.5.B.1",
+      "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äussern."
+    },
+    {
+      "code": "E.5.D.1",
+      "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "englisch-01-cates-sound-lab"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Welcome back to «Cate's Sound Lab»!",
+      "body": "In Module 1 you talked about your music taste. In this second module you will practise two things that English learners often mix up:\n\n- **Part 1 – two verbs for your ears:** When do you use *listen (to)*, and when do you use *hear*?\n- **Part 2 – two past tenses:** How do you show that one thing in the past happened **before** another thing? This is the job of the *past perfect*.\n\nAll examples come from the world of songs, concerts and radio. Read the two short explanations carefully – then the exercises will feel much easier."
+    },
+    {
+      "type": "text",
+      "title": "Part 1: listen or hear – what is the difference?",
+      "body": "**listen = active.** You decide to do it, and you give the music your attention.\n\n- Cate puts on her headphones and **listens to** her new playlist.\n- Please **listen** carefully – the melody changes after the chorus.\n\n**hear = passive.** It just happens. The sound comes to your ears, and you did not plan it.\n\n- On my way to school I sometimes **hear** music from an open window.\n- Did you **hear** that? Somebody is playing the drums!\n\n**The little word *to*:** Before an object, *listen* always needs **to**: you listen **to** music, you listen **to** the radio. *Hear* never takes *to*: you simply hear a sound. And when there is no object at all, *listen* stands alone: «Quiet, please – now listen!»\n\nLook at the picture: the girl has chosen her music and gives it her attention. The boy did not choose anything – the song simply reaches his ears."
+    },
+    {
+      "type": "image",
+      "title": "Listen or hear?",
+      "src": "/content/englisch-02-listen-or-hear/listen-vs-hear.png",
+      "alt": "Chart with two halves. Left half, blue, titled «LISTEN (+ to)»: a girl with big headphones and closed eyes enjoys music; notes float around her head. Below: «active – you decide to do it», with the example «She listens TO her playlist.» and the reminder «with an object you always need to». Right half, orange, titled «HEAR»: a boy walks past a house; music notes come out of an open window and reach his ears. Below: «passive – it just happens», with the example «He hears music from a window.» and the reminder «never with to». A dark bar at the bottom sums it up: listen to music – correct; listen music – wrong; hear a sound – no to.",
+      "caption": "Left: you choose the music and give it your attention. Right: the sound just comes to your ears – you did not plan it.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-uebung1",
+      "title": "Exercise 1: listen, listen to or hear?",
+      "intro": "Choose the correct word or words for each gap. Think: active or passive? And do you need *to*?",
+      "questions": [
+        {
+          "id": "u1-q1",
+          "type": "single_choice",
+          "prompt": "Every morning I turn on the radio and ___ my favourite programme while I eat breakfast.",
+          "options": [
+            {
+              "text": "listen"
+            },
+            {
+              "text": "hear"
+            },
+            {
+              "text": "hear to"
+            },
+            {
+              "text": "listen to",
+              "correct": true
+            }
+          ],
+          "explanation": "You turn on the radio yourself and choose the programme – that is active, so you need *listen*. And because *my favourite programme* is an object, *to* must come before it: «I listen to my favourite programme.» *Listen* without *to* is wrong here, and *hear to* does not exist."
+        },
+        {
+          "id": "u1-q2",
+          "type": "single_choice",
+          "prompt": "Our walls are very thin. I often ___ my neighbour's music, even when my door is closed.",
+          "options": [
+            {
+              "text": "listen"
+            },
+            {
+              "text": "hear",
+              "correct": true
+            },
+            {
+              "text": "listen to"
+            },
+            {
+              "text": "hears"
+            }
+          ],
+          "explanation": "The music comes through the wall – you did not choose it, it just happens. That is passive: *hear*. *Listen (to)* would mean you give the neighbour's music your full attention on purpose. And after *I*, the verb has no -s, so *hears* is wrong."
+        },
+        {
+          "id": "u1-q3",
+          "type": "single_choice",
+          "prompt": "Stop talking and ___ carefully – I will play the song only once.",
+          "options": [
+            {
+              "text": "listen",
+              "correct": true
+            },
+            {
+              "text": "hear"
+            },
+            {
+              "text": "listen to"
+            },
+            {
+              "text": "hearing"
+            }
+          ],
+          "explanation": "This is active – you should give the song your full attention. There is no object after the gap, only the adverb *carefully*, so *listen* stands alone without *to*. *Hear carefully* is not used in English, because you cannot control hearing."
+        },
+        {
+          "id": "u1-q4",
+          "type": "single_choice",
+          "prompt": "My brother ___ his favourite band every day – always with his big headphones on.",
+          "options": [
+            {
+              "text": "listens"
+            },
+            {
+              "text": "hears"
+            },
+            {
+              "text": "listens to",
+              "correct": true
+            },
+            {
+              "text": "listen to"
+            }
+          ],
+          "explanation": "Headphones on, every day, his choice – that is active. With an object (*his favourite band*) you need *to*: «He listens to his favourite band.» *Listens* without *to* is the classic trap, and after *my brother* the verb needs its -s, so *listen to* is wrong too."
+        },
+        {
+          "id": "u1-q5",
+          "type": "single_choice",
+          "prompt": "Did you ___ that? I think someone just shouted your name near the stage!",
+          "options": [
+            {
+              "text": "listen"
+            },
+            {
+              "text": "hear",
+              "correct": true
+            },
+            {
+              "text": "listen to"
+            },
+            {
+              "text": "listening"
+            }
+          ],
+          "explanation": "The shout came suddenly – nobody planned to give it attention. That is passive: *hear*. And after *did you …?* the verb must be in its base form, so *listening* does not work."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-uebung2",
+      "title": "Exercise 2: Type the correct form",
+      "intro": "Type the correct form of *listen (to)* or *hear* into each gap. Pay attention to the time in each sentence – some are about the past. And don't forget *to* where it is needed.",
+      "modus": "eingabe",
+      "text": "Every evening I {{1}} my favourite playlist before I go to sleep.\nOur neighbours are loud. Even with my door closed, I {{2}} their music through the wall.\nYesterday, while I was doing my homework, I suddenly {{3}} a great new song on the radio.\nLast night we sat down and {{4}} the whole album from start to finish.\nMy grandad turns on the radio and {{5}} his favourite station every morning.\nThe music in this café is very quiet – can you {{6}} it at all?",
+      "luecken": [
+        {
+          "antworten": [
+            "listen to"
+          ]
+        },
+        {
+          "antworten": [
+            "hear",
+            "can hear"
+          ]
+        },
+        {
+          "antworten": [
+            "heard",
+            "could hear"
+          ]
+        },
+        {
+          "antworten": [
+            "listened to"
+          ]
+        },
+        {
+          "antworten": [
+            "listens to"
+          ]
+        },
+        {
+          "antworten": [
+            "hear"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Part 2: past simple or past perfect – which happened first?",
+      "body": "Read this sentence from a concert evening:\n\n> When we **arrived**, the band **had** already **started**.\n\nTwo things happened in the past – but not at the same time. First the band started, then we arrived. English shows this order with two tenses:\n\n- **past perfect** for the **earlier** action: *the band **had started***\n- **past simple** for the **later** action: *we **arrived***\n\n**The form is easy:** **had + past participle** – and it stays the same for I, you, he, she, it, we and they. *I had heard – she had heard – they had heard.*\n\n**Signal words** that often appear in these sentences: *before, after, already, by the time, when*.\n\n**Six past participles you will need – learn them by heart:**\n\n| verb | past simple | past participle |\n|---|---|---|\n| go | went | gone |\n| see | saw | seen |\n| hear | heard | heard |\n| sing | sang | sung |\n| buy | bought | bought |\n| begin | began | begun |\n\nThe timeline picture shows the concert example: both actions lie in the past, but one of them lies further back."
+    },
+    {
+      "type": "image",
+      "title": "The timeline: past perfect and past simple",
+      "src": "/content/englisch-02-listen-or-hear/past-perfect-timeline.png",
+      "alt": "Timeline chart. A long arrow runs from left to right and ends at a dark marker labelled «NOW». Two dots sit on the timeline in the past. The earlier dot, on the left, is blue and labelled «1st – earlier action: past perfect», with the example «The band had started.» The later dot, further right, is orange and labelled «2nd – later action: past simple», with the example «We arrived.» A curved arrow points from the later dot back to the earlier dot. Below the timeline, the full example sentence reads «When we arrived, the band had already started.» A dark bar at the bottom shows the rule: past perfect = had + past participle, the same for all persons.",
+      "caption": "Both actions are in the past – the past perfect marks the one that happened first.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-uebung3",
+      "title": "Exercise 3: Which action came first?",
+      "intro": "Five questions in two formats: sometimes you decide which action happened first, sometimes you choose the correct form for a gap.",
+      "questions": [
+        {
+          "id": "u3-q1",
+          "type": "single_choice",
+          "prompt": "«When Lena arrived at the hall, the concert had already begun.» – What happened first?",
+          "options": [
+            {
+              "text": "The concert began.",
+              "correct": true
+            },
+            {
+              "text": "Lena arrived at the hall."
+            },
+            {
+              "text": "Both happened at the same time."
+            },
+            {
+              "text": "The sentence does not tell us."
+            }
+          ],
+          "explanation": "*Had begun* is past perfect – the tense for the earlier of two past actions. So the concert began first, and Lena arrived later. The word *already* is an extra signal for «before that»."
+        },
+        {
+          "id": "u3-q2",
+          "type": "single_choice",
+          "prompt": "«By the time we reached the hall, the first song ___.»",
+          "options": [
+            {
+              "text": "finished"
+            },
+            {
+              "text": "has finished"
+            },
+            {
+              "text": "had finished",
+              "correct": true
+            },
+            {
+              "text": "finishes"
+            }
+          ],
+          "explanation": "*By the time* tells you: one past action was already complete when the other happened. The earlier, completed action takes the past perfect: *had finished*. *Has finished* is the present perfect and does not fit a story about the past, and *finishes* is present tense."
+        },
+        {
+          "id": "u3-q3",
+          "type": "single_choice",
+          "prompt": "«The DJ played a song that I had heard on the radio many times before.» – What happened first?",
+          "options": [
+            {
+              "text": "The DJ played the song."
+            },
+            {
+              "text": "I heard the song on the radio.",
+              "correct": true
+            },
+            {
+              "text": "Both happened at the same time."
+            },
+            {
+              "text": "The sentence does not tell us."
+            }
+          ],
+          "explanation": "*Had heard* is past perfect, so the hearing on the radio came first – many times, in fact. Then, later, the DJ played the song. *Before* is the signal word here."
+        },
+        {
+          "id": "u3-q4",
+          "type": "single_choice",
+          "prompt": "«When we ___ the hall, the band had already played three songs.»",
+          "options": [
+            {
+              "text": "had entered"
+            },
+            {
+              "text": "have entered"
+            },
+            {
+              "text": "enter"
+            },
+            {
+              "text": "entered",
+              "correct": true
+            }
+          ],
+          "explanation": "The three songs came first – that is why they are in the past perfect. Our arrival is the later action, and the later action takes the past simple: *entered*. Two past perfects in one sentence would not show which action was first."
+        },
+        {
+          "id": "u3-q5",
+          "type": "single_choice",
+          "prompt": "«The singer was not nervous, because she ___ the song hundreds of times before that evening.»",
+          "options": [
+            {
+              "text": "has sung"
+            },
+            {
+              "text": "had sang"
+            },
+            {
+              "text": "had sung",
+              "correct": true
+            },
+            {
+              "text": "sings"
+            }
+          ],
+          "explanation": "The singing happened before that evening – the earlier action takes the past perfect: *had + past participle*. The participle of *sing* is *sung*, so *had sang* is a trap. *Has sung* is present perfect, and *sings* is present tense."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-uebung4",
+      "title": "Exercise 4: A concert evening",
+      "intro": "Drag the verb forms into the story (on a phone: tap the form first, then the gap). **Watch out: three forms in the list are wrong forms – they fit nowhere.**",
+      "modus": "wortbank",
+      "text": "Last Friday evening, Mia and I {{1}} to a rock concert in Vaduz.\nMia {{2}} the tickets two months before, so we had great seats.\nWhen we {{3}} at the hall, the support band {{4}} – we could hear the last song through the doors.\nBy the time we found our seats, the support band {{5}} its show, and the stage was empty.\nAfter the first songs of the main band, I {{6}} that I knew every melody:\nI {{7}} the album so many times at home! It was a fantastic night.",
+      "luecken": [
+        {
+          "antworten": [
+            "went"
+          ]
+        },
+        {
+          "antworten": [
+            "had bought"
+          ]
+        },
+        {
+          "antworten": [
+            "arrived"
+          ]
+        },
+        {
+          "antworten": [
+            "had already begun"
+          ]
+        },
+        {
+          "antworten": [
+            "had finished"
+          ]
+        },
+        {
+          "antworten": [
+            "noticed"
+          ]
+        },
+        {
+          "antworten": [
+            "had listened to"
+          ]
+        }
+      ],
+      "ablenker": [
+        "had went",
+        "buyed",
+        "had sang"
+      ]
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-final",
+      "title": "Final quiz: listen, hear and the past perfect",
+      "intro": "Five questions from both parts of the module. You can go back and read the explanations again at any time.",
+      "questions": [
+        {
+          "id": "fi-q1",
+          "type": "single_choice",
+          "prompt": "You are on the bus. Someone's phone plays loud music – you don't want it, but you ___ it anyway.",
+          "options": [
+            {
+              "text": "listen"
+            },
+            {
+              "text": "hear",
+              "correct": true
+            },
+            {
+              "text": "listen to"
+            },
+            {
+              "text": "hear to"
+            }
+          ],
+          "explanation": "You did not choose this music – it simply reaches your ears. That is passive: *hear*. *Listen (to)* would mean you give it your attention on purpose, and *hear to* does not exist."
+        },
+        {
+          "id": "fi-q2",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            {
+              "text": "I often listen music in my room."
+            },
+            {
+              "text": "I often listen at music in my room."
+            },
+            {
+              "text": "I often hear to music in my room."
+            },
+            {
+              "text": "I often listen to music in my room.",
+              "correct": true
+            }
+          ],
+          "explanation": "Before an object, *listen* always needs *to*: «listen to music». *Listen music* and *listen at music* are wrong, and *hear* never takes *to*."
+        },
+        {
+          "id": "fi-q3",
+          "type": "single_choice",
+          "prompt": "How do you form the past perfect?",
+          "options": [
+            {
+              "text": "have/has + past participle"
+            },
+            {
+              "text": "was/were + verb + -ing"
+            },
+            {
+              "text": "had + past participle",
+              "correct": true
+            },
+            {
+              "text": "did + infinitive"
+            }
+          ],
+          "explanation": "The past perfect is *had + past participle*, and it stays the same for all persons: I had heard, she had heard, they had heard. *Have/has + past participle* is the present perfect – a different tense."
+        },
+        {
+          "id": "fi-q4",
+          "type": "single_choice",
+          "prompt": "«When the radio show ended, I had already ordered the band's new album.» – What happened first?",
+          "options": [
+            {
+              "text": "I ordered the album.",
+              "correct": true
+            },
+            {
+              "text": "The radio show ended."
+            },
+            {
+              "text": "Both happened at the same time."
+            },
+            {
+              "text": "We don't know."
+            }
+          ],
+          "explanation": "*Had ordered* is past perfect – the earlier action. So the album was already ordered while the show was still running; the show ended later."
+        },
+        {
+          "id": "fi-q5",
+          "type": "single_choice",
+          "prompt": "What is the past participle of «sing» – the form you need after «had»?",
+          "options": [
+            {
+              "text": "singed"
+            },
+            {
+              "text": "sang"
+            },
+            {
+              "text": "sing"
+            },
+            {
+              "text": "sung",
+              "correct": true
+            }
+          ],
+          "explanation": "The three forms are sing – sang – sung. After *had* you always need the past participle: «She had sung the song many times before.» *Sang* is the past simple, and *singed* is not a form of *sing*."
+        }
+      ]
+    }
+  ]
+}
