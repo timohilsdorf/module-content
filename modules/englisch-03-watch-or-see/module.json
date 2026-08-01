@@ -212,9 +212,9 @@
       "type": "lueckentext",
       "id": "lt-uebung2",
       "title": "Exercise 2: The right verb in the right tense",
-      "intro": "Type the correct verb into each gap: *watch*, *see* or *look at* – in the tense that fits the sentence.",
-      "modus": "eingabe",
-      "text": "Every Sunday I {{1}} old concert films on my laptop for hours.\nI {{2}} my old schoolmate in the crowd yesterday, but a second later she was gone.\n{{3}} the stage design in this photo – isn't it amazing?\nBefore last night, I {{4}} the band live only once, at a tiny festival.\nBy the time the interview started, half a million people {{5}} the new video.\nDuring the guitar solo, everyone {{6}} the guitarist's hands – nobody wanted to miss a single move.\nAfter the concert, we {{7}} all the photos on Lea's phone, one by one.",
+      "intro": "Drag the correct form into each gap (on a phone: tap the form first, then the gap): *watch*, *see* or *look at* – in the tense that fits the sentence. **Careful: three forms in the list are wrong forms – they fit nowhere.**",
+      "modus": "wortbank",
+      "text": "Every Sunday I {{1}} old concert films on my laptop for hours.\nI {{2}} my old schoolmate in the crowd yesterday, but a second later she was gone.\nPlease {{3}} the stage design in this photo – isn't it amazing?\nBefore last night, I {{4}} the band live only once, at a tiny festival.\nBy the time the interview started, half a million people {{5}} the new video.\nDuring the guitar solo, everyone {{6}} the guitarist's hands – nobody wanted to miss a single move.\nAfter the concert, we {{7}} all the photos on Lea's phone, one by one.",
       "luecken": [
         {
           "antworten": [
@@ -233,7 +233,8 @@
         },
         {
           "antworten": [
-            "had seen"
+            "had seen",
+            "had watched"
           ]
         },
         {
@@ -252,6 +253,11 @@
             "looked at"
           ]
         }
+      ],
+      "ablenker": [
+        "seen",
+        "watch at",
+        "looks at"
       ]
     },
     {
@@ -378,71 +384,73 @@
       ]
     },
     {
-      "type": "quiz",
-      "id": "quiz-uebung5",
-      "title": "Exercise 5: Find the correct sentence",
-      "intro": "One of the two sentences is correct, the other one has a typical mistake. Choose the correct sentence – and read the explanation to see what the mistake was.",
-      "questions": [
-        {
-          "id": "u5-q1",
-          "type": "single_choice",
-          "prompt": "Which sentence is correct?",
-          "options": [
-            {
-              "text": "When we arrived, the concert already started."
-            },
-            {
-              "text": "When we arrived, the concert had already started.",
-              "correct": true
-            }
-          ],
-          "explanation": "The concert started before we arrived – the earlier action needs the past perfect: *had already started*. Without *had*, both actions are in the past simple and the time order gets lost."
-        },
-        {
-          "id": "u5-q2",
-          "type": "single_choice",
-          "prompt": "Which sentence is correct?",
-          "options": [
-            {
-              "text": "After the show had finished, we took the last bus home.",
-              "correct": true
-            },
-            {
-              "text": "After the show has finished, we took the last bus home."
-            }
-          ],
-          "explanation": "The story is in the past, so *has finished* (present perfect) does not fit. After the earlier action (*the show had finished*) comes the later one in the past simple (*we took the last bus*)."
-        },
-        {
-          "id": "u5-q3",
-          "type": "single_choice",
-          "prompt": "Which sentence is correct? (A look back at Module 2!)",
-          "options": [
-            {
-              "text": "I love listening to music on the school bus.",
-              "correct": true
-            },
-            {
-              "text": "I love hearing to music on the school bus."
-            }
-          ],
-          "explanation": "Choosing your music on the bus is active: *listen* – and before an object it always needs *to*: «listening to music». *Hear* never takes *to*, so «hearing to music» is doubly wrong."
-        },
-        {
-          "id": "u5-q4",
-          "type": "single_choice",
-          "prompt": "Which sentence is correct?",
-          "options": [
-            {
-              "text": "Have you watched at the new video yet?"
-            },
-            {
-              "text": "Have you seen the new video yet?",
-              "correct": true
-            }
-          ],
-          "explanation": "*Watch* never takes *at* – «watched at» mixes *watch* and *look at*. «Have you seen the new video yet?» is the natural question; «Have you watched the new video yet?» (without *at*) would also be correct English."
-        }
+      "type": "lueckentext",
+      "id": "sb-uebung5a",
+      "title": "Exercise 5.1: Build the sentence",
+      "intro": "New task type! Put the pieces in the right order and build a correct sentence – drag them into the row, or tap them one after the other. **Careful: one piece is wrong and stays out.**",
+      "modus": "satzbau",
+      "bausteine": [
+        "When we arrived,",
+        "the concert",
+        "had",
+        "already",
+        "started."
+      ],
+      "alternativen": [
+        [1, 2, 4, 3, 5]
+      ],
+      "ablenker": [
+        "has"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "sb-uebung5b",
+      "title": "Exercise 5.2: Build the sentence",
+      "intro": "Build the next sentence. **One piece is wrong and stays out** – watch the tense.",
+      "modus": "satzbau",
+      "bausteine": [
+        "After the show",
+        "had finished,",
+        "we took",
+        "the last bus",
+        "home."
+      ],
+      "ablenker": [
+        "has finished,"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "sb-uebung5c",
+      "title": "Exercise 5.3: Build the sentence – a look back at Module 2",
+      "intro": "Build the sentence. **One piece is wrong and stays out** – think of the two verbs for your ears.",
+      "modus": "satzbau",
+      "bausteine": [
+        "I love",
+        "listening to",
+        "music",
+        "on the school bus."
+      ],
+      "ablenker": [
+        "hearing to"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "sb-uebung5d",
+      "title": "Exercise 5.4: Build the question",
+      "intro": "And one question to finish. **Two pieces are wrong and stay out this time.**",
+      "modus": "satzbau",
+      "bausteine": [
+        "Have you",
+        "seen",
+        "the new video",
+        "yet?"
+      ],
+      "ablenker": [
+        "watched at",
+        "saw"
       ]
     },
     {
