@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 2,
+  "id": "englisch-03-watch-or-see",
+  "title": "Watch or see? (extended)",
+  "description": "«Watch or see?» – Erweiterungsmodul (Niveau B1) im Englisch-Lernpfad «Cate's Sound Lab», gedacht für den erweiterten Zug und für alle anderen als freiwillige Vertiefung: Du lernst den Unterschied zwischen watch, see und look at – von Musikvideos bis Live-Konzerten – und wendest past simple und past perfect in eigenen Formulierungen und einem längeren Text sicher an. (9. Schulstufe)",
+  "subject": "E",
+  "subjectName": "Englisch",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 3,
+  "einheit": "Cate's Sound Lab – über Musik sprechen",
+  "language": "en",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "anspruchsvoll",
+  "keywords": [
+    "Englisch",
+    "Musik",
+    "erweitert",
+    "extended",
+    "watch",
+    "see",
+    "look at",
+    "past perfect",
+    "past simple",
+    "Grammatik",
+    "Wortschatz"
+  ],
+  "learningObjectives": [
+    "I can use watch, see and look at correctly. (Ich kann watch, see und look at richtig verwenden.)",
+    "I can build past simple and past perfect forms in my own sentences. (Ich kann past simple und past perfect in eigenen Sätzen sicher bilden.)",
+    "I can complete a longer story and decide from the context which past event happened first. (Ich kann einen längeren Text vervollständigen und aus dem Kontext entscheiden, welches vergangene Ereignis zuerst passierte.)"
+  ],
+  "competencies": [
+    {
+      "code": "E.5.B.1",
+      "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äussern."
+    },
+    {
+      "code": "E.5.D.1",
+      "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "englisch-01-cates-sound-lab",
+    "englisch-02-listen-or-hear"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Welcome to the extended module «Watch or see?»",
+      "body": "This is the **extended module** of the unit «Cate's Sound Lab». It is made for learners who want a bigger challenge – if you are in the extended track, this module is for you; everybody else can use it as extra practice.\n\nYou will:\n\n- learn when to use *watch*, *see* and *look at* – three verbs for your **eyes**, just like *listen* and *hear* were for your ears,\n- build **past simple** and **past perfect** forms yourself, without answer options,\n- complete a longer story about an unforgettable concert.\n\nTake your time, and go back to Module 2 whenever you need the grammar rules again."
+    },
+    {
+      "type": "text",
+      "title": "Part 1: watch, see or look at?",
+      "body": "All three verbs are about your eyes – but they do different jobs.\n\n**watch** = follow something that **moves**, for a longer time, with attention.\n\n- We **watched** the band's new music video three times in a row.\n- Thousands of fans **watched** the drummer's solo on the big screens.\n\n**see** = something comes to your eyes (you don't plan it) – or you **attend** an event: you see a film at the cinema, a concert, a band live.\n\n- I **saw** your sister in the crowd, but she didn't **see** me.\n- Next summer we're going to **see** our favourite band live in Zurich.\n\n**look at** = turn your eyes to something **static** – a photo, a poster, a setlist – usually for a short moment.\n\n- **Look at** this old tour poster – it's from 1998!\n- She **looked at** the setlist and smiled.\n\n**In short:** moving + longer → *watch* · it just comes to your eyes, or you are in the audience → *see* · static + you turn your eyes to it → *look at*.\n\nOne warning for music fans: you usually **watch** a music video, but you **see** a band live or **see** a concert (= you are there). The picture below shows all three."
+    },
+    {
+      "type": "image",
+      "title": "Three verbs for your eyes",
+      "src": "/content/englisch-03-watch-or-see/watch-see-lookat.png",
+      "alt": "Chart with three panels. Panel 1, blue, titled «WATCH»: a person sits on a sofa and follows a music video on a screen with a play symbol and music notes. Below: «follow something that moves – for a longer time», example «watch a music video», and the extra line «also: watch TV, watch a film at home». Panel 2, orange, titled «SEE»: a small concert scene with a stage, a singer and an audience. Below: «it comes to your eyes – or you are there», example «see a band live», and the extra line «also: see a concert, see a film at the cinema». Panel 3, green, titled «LOOK AT»: a person turns their eyes to a poster on a wall; a dotted line runs from their eyes to the poster. Below: «turn your eyes to something static», example «look at a poster», and the extra line «also: look at a photo, look at the setlist». A dark bar at the bottom repeats the three collocations – watch a music video · see a band live · look at a poster – and adds the quick test: moving? watch · you are there or it just happens? see · static? look at.",
+      "caption": "Three verbs, three jobs: watch follows movement, see happens or means being there, look at aims your eyes at something static.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-uebung1",
+      "title": "Exercise 1: watch, see or look at?",
+      "intro": "Choose the correct option for each gap. Think about the three jobs: moving, coming to your eyes / being there, or static.",
+      "questions": [
+        {
+          "id": "u1-q1",
+          "type": "single_choice",
+          "prompt": "Quiet, please! We are ___ the new music video right now.",
+          "options": [
+            {
+              "text": "seeing"
+            },
+            {
+              "text": "watching",
+              "correct": true
+            },
+            {
+              "text": "looking"
+            },
+            {
+              "text": "watching at"
+            }
+          ],
+          "explanation": "A music video moves, and you follow it with attention – that is *watch*. *See* is not normally used in the -ing form for this («we are seeing» sounds wrong here), *looking* would need *at* plus a static object, and *watching at* does not exist – *watch* never takes *at*."
+        },
+        {
+          "id": "u1-q2",
+          "type": "single_choice",
+          "prompt": "I ___ your sister at the concert yesterday, but there were too many people to say hello.",
+          "options": [
+            {
+              "text": "watched"
+            },
+            {
+              "text": "seen"
+            },
+            {
+              "text": "watched at"
+            },
+            {
+              "text": "saw",
+              "correct": true
+            }
+          ],
+          "explanation": "She simply came into your view for a moment – you did not plan it and you did not follow her for a long time. That is *see* → *saw*. *Watched* would mean you observed her with attention for a while, *seen* would need *have* or *had* before it, and *watched at* does not exist."
+        },
+        {
+          "id": "u1-q3",
+          "type": "single_choice",
+          "prompt": "___ this old tour poster – my mum was at this show in 1998!",
+          "options": [
+            {
+              "text": "Look at",
+              "correct": true
+            },
+            {
+              "text": "Watch at"
+            },
+            {
+              "text": "See"
+            },
+            {
+              "text": "Look"
+            }
+          ],
+          "explanation": "A poster is static – it does not move. So you turn your eyes to it: *look at*. *Watch at* does not exist (and *watch* is for moving things anyway), *see* is not used as a command like this, and *look* alone is not enough when an object follows."
+        },
+        {
+          "id": "u1-q4",
+          "type": "single_choice",
+          "prompt": "Have you ever ___ a concert in a big stadium?",
+          "options": [
+            {
+              "text": "looked at"
+            },
+            {
+              "text": "watch"
+            },
+            {
+              "text": "seen",
+              "correct": true
+            },
+            {
+              "text": "saw"
+            }
+          ],
+          "explanation": "You *see* a concert – you are there and you experience it (but you *watch* a video at home). After *have you ever …?* you need the past participle, so *seen* is right and *saw* is the wrong form. *Watch* is the wrong form too, and *look at* does not work for a concert."
+        },
+        {
+          "id": "u1-q5",
+          "type": "single_choice",
+          "prompt": "Dad ___ the whole three-hour concert film on TV without a single break.",
+          "options": [
+            {
+              "text": "watched",
+              "correct": true
+            },
+            {
+              "text": "looked at"
+            },
+            {
+              "text": "saw at"
+            },
+            {
+              "text": "see"
+            }
+          ],
+          "explanation": "Three hours of moving pictures, followed with attention from start to finish – that is *watch*. *Look at* is for static things, *saw at* does not exist, and *see* is the wrong form for a finished action in the past."
+        },
+        {
+          "id": "u1-q6",
+          "type": "single_choice",
+          "prompt": "The singer stopped and ___ the crowd for a moment before the last song.",
+          "options": [
+            {
+              "text": "was watching"
+            },
+            {
+              "text": "saw"
+            },
+            {
+              "text": "looked at",
+              "correct": true
+            },
+            {
+              "text": "looked"
+            }
+          ],
+          "explanation": "*For a moment* tells you it was short: she turned her eyes to the crowd – *looked at*. *Was watching* would mean following them for a longer time (and does not fit after «stopped and …»), *saw* does not fit a deliberate short glance, and *looked* alone is missing *at*."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-uebung2",
+      "title": "Exercise 2: The right verb in the right tense",
+      "intro": "Type the correct verb into each gap: *watch*, *see* or *look at* – in the tense that fits the sentence.",
+      "modus": "eingabe",
+      "text": "Every Sunday I {{1}} old concert films on my laptop for hours.\nI {{2}} my old schoolmate in the crowd yesterday, but a second later she was gone.\n{{3}} the stage design in this photo – isn't it amazing?\nBefore last night, I {{4}} the band live only once, at a tiny festival.\nBy the time the interview started, half a million people {{5}} the new video.\nDuring the guitar solo, everyone {{6}} the guitarist's hands – nobody wanted to miss a single move.\nAfter the concert, we {{7}} all the photos on Lea's phone, one by one.",
+      "luecken": [
+        {
+          "antworten": [
+            "watch"
+          ]
+        },
+        {
+          "antworten": [
+            "saw"
+          ]
+        },
+        {
+          "antworten": [
+            "look at"
+          ]
+        },
+        {
+          "antworten": [
+            "had seen"
+          ]
+        },
+        {
+          "antworten": [
+            "had watched",
+            "had seen"
+          ]
+        },
+        {
+          "antworten": [
+            "watched"
+          ]
+        },
+        {
+          "antworten": [
+            "looked at"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Part 2: Quick reminder – past simple and past perfect",
+      "body": "You know this from Module 2: with **two past actions**, the **past perfect** (*had* + past participle) marks the one that happened **first**; the later action takes the **past simple**. Signal words: *before, after, already, by the time, when*.\n\n> When we arrived, the band **had** already **started**.\n\nIf you want the full explanation and the big timeline, go back to Module 2 «Listen or hear?». From here on, you build the forms yourself – no answer options any more."
+    },
+    {
+      "type": "image",
+      "title": "The timeline in one line",
+      "src": "/content/englisch-03-watch-or-see/timeline-mini.png",
+      "alt": "Small timeline strip. An arrow runs from left to right to a dark marker labelled «NOW». A blue dot on the left is labelled «earlier action – past perfect» with the example «the band had started»; an orange dot further right is labelled «later action – past simple» with the example «we arrived». A box under the line shows the rule: past perfect = had + past participle, the same for all persons: I had – she had – we had – they had.",
+      "caption": "The short version of the Module 2 timeline – for a quick look while you work.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-uebung3",
+      "title": "Exercise 3: Build the form",
+      "intro": "Complete each sentence with the verb in brackets. Use the past simple or the past perfect – decide which action came first. Careful: sometimes the gap is the later action!",
+      "modus": "eingabe",
+      "text": "By the time we reached the stadium, the show {{1}} (begin).\nWhen we met at six, Mia {{2}} (buy) our tickets already, so we walked straight in.\nWe {{3}} (go) home by bus after the final song.\nI recognised the melody at once, because I {{4}} (hear) it many times before.\nBy the time the encore {{5}} (begin), some fans had already left the hall.\nThe band {{6}} (see) the fans' banners and smiled.\nBefore the doors {{7}} (open), fans had waited in the rain for hours.\nIt was the best show I {{8}} (see) in my whole life.",
+      "luecken": [
+        {
+          "antworten": [
+            "had begun"
+          ]
+        },
+        {
+          "antworten": [
+            "had bought"
+          ]
+        },
+        {
+          "antworten": [
+            "went"
+          ]
+        },
+        {
+          "antworten": [
+            "had heard"
+          ]
+        },
+        {
+          "antworten": [
+            "began"
+          ]
+        },
+        {
+          "antworten": [
+            "saw"
+          ]
+        },
+        {
+          "antworten": [
+            "opened"
+          ]
+        },
+        {
+          "antworten": [
+            "had seen",
+            "had ever seen",
+            "saw",
+            "ever saw"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-uebung4",
+      "title": "Exercise 4: The concert I will never forget",
+      "intro": "Read the whole story first. Then complete it: put each verb in brackets into the past simple or the past perfect. The context tells you which event happened earlier.",
+      "modus": "eingabe",
+      "text": "Two years ago, my favourite band finally {{1}} (come) to Switzerland.\nI {{2}} (want) to see them live for years, so my aunt bought us tickets as a birthday surprise.\nWhen we arrived at the stadium, hundreds of fans {{3}} (take) their places already.\nThe band {{4}} (play) in our country twice before, but I {{5}} (miss) both shows because I was too young.\nAt nine o'clock, the lights {{6}} (go) out, and the crowd screamed.\nThe singer {{7}} (begin) with a quiet song that she {{8}} (write) as a teenager.\nBy the end of the night, I {{9}} (sing) so loudly that I could hardly speak – but I was the happiest person in the stadium.",
+      "luecken": [
+        {
+          "antworten": [
+            "came"
+          ]
+        },
+        {
+          "antworten": [
+            "had wanted",
+            "wanted"
+          ]
+        },
+        {
+          "antworten": [
+            "had taken"
+          ]
+        },
+        {
+          "antworten": [
+            "had played"
+          ]
+        },
+        {
+          "antworten": [
+            "had missed"
+          ]
+        },
+        {
+          "antworten": [
+            "went"
+          ]
+        },
+        {
+          "antworten": [
+            "began"
+          ]
+        },
+        {
+          "antworten": [
+            "had written",
+            "wrote"
+          ]
+        },
+        {
+          "antworten": [
+            "had sung"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-uebung5",
+      "title": "Exercise 5: Find the correct sentence",
+      "intro": "One of the two sentences is correct, the other one has a typical mistake. Choose the correct sentence – and read the explanation to see what the mistake was.",
+      "questions": [
+        {
+          "id": "u5-q1",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            {
+              "text": "When we arrived, the concert already started."
+            },
+            {
+              "text": "When we arrived, the concert had already started.",
+              "correct": true
+            }
+          ],
+          "explanation": "The concert started before we arrived – the earlier action needs the past perfect: *had already started*. Without *had*, both actions are in the past simple and the time order gets lost."
+        },
+        {
+          "id": "u5-q2",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            {
+              "text": "After the show had finished, we took the last bus home.",
+              "correct": true
+            },
+            {
+              "text": "After the show has finished, we took the last bus home."
+            }
+          ],
+          "explanation": "The story is in the past, so *has finished* (present perfect) does not fit. After the earlier action (*the show had finished*) comes the later one in the past simple (*we took the last bus*)."
+        },
+        {
+          "id": "u5-q3",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct? (A look back at Module 2!)",
+          "options": [
+            {
+              "text": "I love listening to music on the school bus.",
+              "correct": true
+            },
+            {
+              "text": "I love hearing to music on the school bus."
+            }
+          ],
+          "explanation": "Choosing your music on the bus is active: *listen* – and before an object it always needs *to*: «listening to music». *Hear* never takes *to*, so «hearing to music» is doubly wrong."
+        },
+        {
+          "id": "u5-q4",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            {
+              "text": "Have you watched at the new video yet?"
+            },
+            {
+              "text": "Have you seen the new video yet?",
+              "correct": true
+            }
+          ],
+          "explanation": "*Watch* never takes *at* – «watched at» mixes *watch* and *look at*. «Have you seen the new video yet?» is the natural question; «Have you watched the new video yet?» (without *at*) would also be correct English."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-final",
+      "title": "Final quiz: eyes, ears and two past tenses",
+      "intro": "Six questions from the whole module – vocabulary, grammar, and one look back at Module 2.",
+      "questions": [
+        {
+          "id": "fi-q1",
+          "type": "single_choice",
+          "prompt": "You were at a big show last Saturday and want to tell everyone: «I ___ my favourite band live!»",
+          "options": [
+            {
+              "text": "looked at"
+            },
+            {
+              "text": "watched at"
+            },
+            {
+              "text": "saw",
+              "correct": true
+            },
+            {
+              "text": "see"
+            }
+          ],
+          "explanation": "Being at a show is *seeing* a band live: «I saw my favourite band live!» Last Saturday is finished, so you need the past form *saw* – *see* is the present form. *Look at* is for static things, and *watched at* does not exist."
+        },
+        {
+          "id": "fi-q2",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            {
+              "text": "Look at this photo of the stage!",
+              "correct": true
+            },
+            {
+              "text": "Watch this photo of the stage!"
+            },
+            {
+              "text": "See at this photo of the stage!"
+            },
+            {
+              "text": "Look this photo of the stage!"
+            }
+          ],
+          "explanation": "A photo is static, so you *look at* it. *Watch* is for moving things, *see* never takes *at*, and *look* without *at* cannot take an object."
+        },
+        {
+          "id": "fi-q3",
+          "type": "single_choice",
+          "prompt": "«By midnight, the DJ ___ for six hours.» Which form fills the gap?",
+          "options": [
+            {
+              "text": "plays"
+            },
+            {
+              "text": "has played"
+            },
+            {
+              "text": "play"
+            },
+            {
+              "text": "had played",
+              "correct": true
+            }
+          ],
+          "explanation": "*By midnight* looks back from a point in the past – the playing happened before that point, so you need the past perfect: *had played*. *Has played* is the present perfect, and *plays/play* are present forms."
+        },
+        {
+          "id": "fi-q4",
+          "type": "single_choice",
+          "prompt": "«The fans knew every word, because the album had come out months earlier.» – What happened first?",
+          "options": [
+            {
+              "text": "The fans knew every word."
+            },
+            {
+              "text": "The album came out.",
+              "correct": true
+            },
+            {
+              "text": "Both happened at the same time."
+            },
+            {
+              "text": "The sentence does not tell us."
+            }
+          ],
+          "explanation": "*Had come out* is past perfect – the earlier event. First the album came out, months later the fans were at the concert and knew every word."
+        },
+        {
+          "id": "fi-q5",
+          "type": "single_choice",
+          "prompt": "A look back at Module 2: «Turn the volume up – I can't ___ the lyrics!»",
+          "options": [
+            {
+              "text": "hear",
+              "correct": true
+            },
+            {
+              "text": "listen"
+            },
+            {
+              "text": "listen to"
+            },
+            {
+              "text": "see"
+            }
+          ],
+          "explanation": "This is about what reaches your ears: with *can/can't* you talk about ability – *I can't hear the lyrics*. *Listen (to)* is the active verb and does not fit after *can't* here, and *see* is for your eyes."
+        },
+        {
+          "id": "fi-q6",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            {
+              "text": "We had saw the band before."
+            },
+            {
+              "text": "We had see the band before."
+            },
+            {
+              "text": "We have seen the band before yesterday."
+            },
+            {
+              "text": "We had seen the band before.",
+              "correct": true
+            }
+          ],
+          "explanation": "The past perfect is *had + past participle*, and the participle of *see* is *seen*: «We had seen the band before.» *Had saw* and *had see* use the wrong form, and the present perfect (*have seen*) cannot be combined with a finished past time like *yesterday*."
+        }
+      ]
+    }
+  ]
+}
