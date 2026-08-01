@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "wirtschaft-politik-18-pausenkiosk-finanzberater",
   "title": "Wirtschaft ausprobieren: Dein Pausenkiosk und der Finanzberater",
-  "description": "Acht Runden lang führst du deinen eigenen Pausenkiosk: Du kaufst ein, setzt Preise, erlebst Konkurrenz, Versicherung und Kredit – und siehst am Ende, was aus deinen CHF 100 geworden ist. Danach sitzt du einem Finanzberater gegenüber, der dir einen Konsumkredit und eine Restschuldversicherung verkaufen will. Das achtzehnte Modul des Vertiefungsfachs «Wirtschaft & Politik» ist ein freiwilliges Vertiefungsmodul: kein neuer Stoff, sondern die Konzepte aus den Modulen 6–15 zum Anfassen – im Planspiel und im Rollenspiel.",
+  "description": "Acht Runden lang führst du deinen eigenen Pausenkiosk: Du kaufst ein, setzt Preise, erlebst Konkurrenz, Versicherung und Kredit – und siehst am Ende, was aus deinen CHF 100 geworden ist. Danach sitzt du einem Finanzberater gegenüber, der dir einen Konsumkredit und eine Restschuldversicherung verkaufen will. Und zum Schluss lebst du fünfzehn Jahre in einer Viertelstunde: vom ersten Lehrlingslohn mit 16 bis zu deinem dreissigsten Geburtstag, mit Fixkosten, Konsumfallen, Sparkonto, Depot und vielleicht einer eigenen Wohnung. Das achtzehnte Modul des Vertiefungsfachs «Wirtschaft & Politik» ist ein freiwilliges Vertiefungsmodul: kein neuer Stoff, sondern die Konzepte aus den Modulen 6–17 zum Anfassen – in zwei Planspielen und einem Rollenspiel.",
   "subject": "WP",
   "subjectName": "Wirtschaft & Politik",
   "cycle": 3,
@@ -11,7 +11,7 @@
   "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
   "language": "de",
   "curriculum": "LiLe",
-  "durationMinutes": 60,
+  "durationMinutes": 100,
   "difficulty": "mittel",
   "keywords": [
     "Planspiel",
@@ -25,7 +25,15 @@
     "Investition",
     "Restschuldversicherung",
     "Verkaufstechniken",
-    "Finanzberatung"
+    "Finanzberatung",
+    "Lebenssimulation",
+    "Budget",
+    "Zinseszins",
+    "Sparen und Anlegen",
+    "Risikostreuung",
+    "Hypothek",
+    "Wohneigentum",
+    "Notgroschen"
   ],
   "learningObjectives": [
     "Ich kann im Planspiel beobachten, wie die Nachfrage auf meinen Verkaufspreis reagiert, und daraus einen Preis ableiten, der Preis und Absatzmenge klug abwägt.",
@@ -33,7 +41,11 @@
     "Ich kann eine Versicherungsentscheidung als Tausch «grosses unplanbares Risiko gegen einen kleinen planbaren Betrag» beurteilen – auch im Nachhinein fair: Glück ohne Versicherung ist kein Beweis für eine kluge Entscheidung.",
     "Ich kann erklären, warum ein Kredit Einkäufe ermöglicht und trotzdem Geld kostet, und die Wirkung des Zinses auf die Restschuld beschreiben.",
     "Ich kann den Unterschied zwischen Konsum und Investition an Beispielen erklären und erkenne, wenn Verkaufsgespräche Begriffe beschönigend verwenden («in ein Auto investieren»).",
-    "Ich kann Verkaufstechniken wie Dringlichkeit, sozialen Vergleich und das Familienargument erkennen und stelle bei Finanzprodukten die Frage: Wem nützt dieses Produkt zuerst?"
+    "Ich kann Verkaufstechniken wie Dringlichkeit, sozialen Vergleich und das Familienargument erkennen und stelle bei Finanzprodukten die Frage: Wem nützt dieses Produkt zuerst?",
+    "Ich kann ein monatliches Budget aus Nettolohn, Fixkosten und Lebenshaltung aufstellen und erklären, warum ein Notgroschen von rund drei Monatsausgaben griffbereit bleiben sollte.",
+    "Ich kann den Zinseszinseffekt an einem Beispiel erklären und begründen, warum ein früher Beginn stärker wirkt als ein höherer Sparbetrag.",
+    "Ich kann Sparkonto und breit gestreutes Wertschriftendepot gegenüberstellen, die Rolle der Streuung erklären und begründen, warum ein gutes Ergebnis am Kapitalmarkt kein Beweis für eine kluge Entscheidung ist.",
+    "Ich kann die Hebelwirkung beim Wohneigentum erklären: warum ein Preisrückgang von 15 Prozent einen weit grösseren Teil des eingesetzten Eigenkapitals vernichtet und die Hypothek dabei unverändert bestehen bleibt."
   ],
   "competencies": [
     {
@@ -67,13 +79,17 @@
     "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
     "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
     "wirtschaft-politik-11-versicherungen",
-    "wirtschaft-politik-12-banken-kredit-zins"
+    "wirtschaft-politik-12-banken-kredit-zins",
+    "wirtschaft-politik-13-boerse-aktien-krypto",
+    "wirtschaft-politik-14-budget-sparen-lohnabrechnung",
+    "wirtschaft-politik-15-schuldenfallen-digitales-bezahlen",
+    "wirtschaft-politik-17-dark-patterns"
   ],
   "blocks": [
     {
       "type": "text",
       "title": "Ein Modul zum Ausprobieren",
-      "body": "Dieses Modul ist **freiwillig** – und es ist anders als die bisherigen: Es erklärt dir fast nichts Neues. Stattdessen wirfst du alles, was du in den Modulen 6 bis 15 gelernt hast, in zwei Situationen, die es ernst meinen:\n\n1. **Dein Pausenkiosk** – ein Planspiel. Du führst acht Runden lang einen Kiosk, triffst jede Runde echte Entscheidungen und lebst mit den Folgen.\n2. **Beim Finanzberater** – ein Rollenspiel. Dir gegenüber sitzt ein freundlicher Verkäufer, der genau weiss, was er tut. Du hoffentlich auch.\n\nEs gibt kein «richtig durchspielen». Verlieren ist hier ausdrücklich erlaubt – ein Kiosk, der pleitegeht, lehrt dich mehr als ein Modul, das du nur liest."
+      "body": "Dieses Modul ist **freiwillig** – und es ist anders als die bisherigen: Es erklärt dir fast nichts Neues. Stattdessen wirfst du alles, was du in den Modulen 6 bis 17 gelernt hast, in drei Situationen, die es ernst meinen:\n\n1. **Dein Pausenkiosk** – ein Planspiel. Du führst acht Runden lang einen Kiosk, triffst jede Runde echte Entscheidungen und lebst mit den Folgen.\n2. **Beim Finanzberater** – ein Rollenspiel. Dir gegenüber sitzt ein freundlicher Verkäufer, der genau weiss, was er tut. Du hoffentlich auch.\n3. **Dein Geld im Leben** – ein Lebenssimulator. Fünfzehn Jahre vom ersten Lehrlingslohn mit 16 bis zu deinem dreissigsten Geburtstag, mit allem, was dazwischen passiert.\n\nDu musst nicht alle drei Teile am Stück machen – jeder funktioniert für sich. Und es gibt kein «richtig durchspielen»: Verlieren ist hier ausdrücklich erlaubt. Ein Kiosk, der pleitegeht, lehrt dich mehr als ein Modul, das du nur liest."
     },
     {
       "type": "text",
@@ -365,8 +381,134 @@
     },
     {
       "type": "text",
-      "title": "Zum Schluss: Zwei Rollen, eine Erkenntnis",
-      "body": "Du hast in diesem Modul beide Seiten des Marktes gespielt: Als Kioskbetreiberin oder Kioskbetreiber hast du erlebt, dass hinter jedem Preis ein Abwägen steckt – Nachfrage, Konkurrenz, Risiko, Kreditkosten. Beim Finanzberater hast du erlebt, wie sich dieselben Konzepte anfühlen, wenn sie **an dir** angewendet werden.\n\nDie eine Erkenntnis, die beide Teile verbindet: **Wer die Mechanik kennt, entscheidet besser.** Der Kiosk hat dir gezeigt, warum Anbieter so handeln, wie sie handeln. Das Rollenspiel hat dir gezeigt, wie du als Kundschaft davon profitierst, genau das zu wissen.\n\nWenn du magst: Spiel den Kiosk noch einmal mit deiner besten Strategie – oder führe das Beratungsgespräch auf einem Weg, den du noch nicht kennst. Freiwillig, versteht sich. Wie dieses ganze Modul."
+      "title": "Teil 3 – Dein Geld im Leben: fünfzehn Jahre in einer Viertelstunde",
+      "body": "Im Kiosk warst du Anbieter, beim Finanzberater Kundschaft. Im letzten Teil bist du schlicht du selbst – nur ein paar Jahre weiter.\n\nDu startest mit **16 Jahren und deinem ersten Lehrlingslohn** und lebst fünfzehn Jahre lang Jahr für Jahr weiter, bis du dreissig bist. Jedes Jahr entscheidest du zwei Dinge: **wie du lebst** (sparsam, normal oder grosszügig) und **was mit dem Übriggebliebenen geschieht** (Sparkonto, Depot oder beides). Dazwischen passiert das Leben: Das Handy geht kaputt, ein Abo lockt mit einem Countdown, eine Kollegin fragt nach Geld, die Ferien wollen bezahlt werden – und irgendwann steht vielleicht eine eigene Wohnung zur Diskussion.\n\nDrei Dinge, die du wissen solltest, bevor du anfängst:\n\n- **Nichts ist garantiert.** Das Depot im Spiel schwankt, so wie die Börse in Wirklichkeit schwankt. In jedem Durchlauf kommt mindestens ein richtig schlechtes Jahr vor – wann es kommt und wie hart es ausfällt, ist jedes Mal anders. Ein Durchlauf kann auch schlecht enden.\n- **Neben dem Geld läuft eine zweite Anzeige mit: die finanzielle Anspannung.** Sie misst, wie sehr dich deine Lage beschäftigt. Ein hoher Kontostand bei dauerhaft hoher Anspannung ist nicht dasselbe wie ein mittlerer Kontostand in Ruhe.\n- **Am Ende wird gerechnet, nicht geurteilt.** Die Auswertung zeigt dir, was aus deinem Geld bis zur Pensionierung werden könnte – in drei Szenarien, weil niemand das eine kennt.\n\nEin Hinweis zum Schluss: Dieses Spiel ist **keine Finanzberatung**. Es kommen keine echten Anbieter, Produkte oder Marken vor, und alle Zahlen sind vereinfachte Modellwerte für Liechtenstein und die Ostschweiz."
+    },
+    {
+      "type": "planspiel",
+      "id": "spiel-lebenssimulator",
+      "title": "Planspiel: Dein Geld im Leben",
+      "intro": "Fünfzehn Jahre, zwei Entscheidungen pro Jahr – und ein Leben, das dazwischenfunkt. Spiel es ruhig mehrmals: Der Zufall würfelt jedes Mal neu, deine Strategie nicht.",
+      "datei": "/content/wirtschaft-politik-18-pausenkiosk-finanzberater/dein-geld-im-leben.html",
+      "hoehe": 700
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-lebenssimulator",
+      "title": "Reflexions-Quiz: Was hat dein Geld gemacht?",
+      "intro": "Fünf Fragen zu den Mechanismen hinter dem Lebenssimulator. Wenn du bei einer unsicher bist: Spiel den Simulator nochmals und achte gezielt darauf.",
+      "questions": [
+        {
+          "id": "lq1",
+          "type": "single_choice",
+          "prompt": "Zwei Personen legen genau gleich viel zurück – CHF 200 im Monat während zwölf Jahren. A beginnt mit 19, B mit 41. Warum hat A mit 65 mehr als das Doppelte?",
+          "options": [
+            {
+              "text": "Weil A insgesamt mehr eingezahlt hat als B."
+            },
+            {
+              "text": "Weil As Geld über zwanzig Jahre länger arbeiten konnte – und die Erträge selbst wieder Erträge bringen.",
+              "correct": true
+            },
+            {
+              "text": "Weil Banken jungen Leuten grundsätzlich höhere Zinsen zahlen."
+            },
+            {
+              "text": "Weil A in eine risikoreichere Anlage investiert hat als B."
+            }
+          ],
+          "explanation": "Beide zahlen exakt CHF 28'800 ein, beide zwölf Jahre lang, beide zum selben Zinssatz – der einzige Unterschied ist die Zeit. Bei A wächst das Angesparte danach noch 34 Jahre weiter, bei B nur 12. Weil auch die Erträge wieder Erträge abwerfen, wächst der Unterschied nicht gleichmässig, sondern immer schneller: Das ist der Zinseszinseffekt. Mit dem Alter, dem Risiko oder besonderen Konditionen für Junge hat das nichts zu tun – die Rechnung geht mit denselben Zahlen für alle auf."
+        },
+        {
+          "id": "lq2",
+          "type": "single_choice",
+          "prompt": "Dein Depot ist im Spiel in einem Jahr um über 20 % eingebrochen und hat sich danach wieder erholt. Was ist die richtige Schlussfolgerung?",
+          "options": [
+            {
+              "text": "Solche Einbrüche sind ein Fehler im Spiel – an einer echten Börse geht es stetig aufwärts."
+            },
+            {
+              "text": "Wer nach einem Einbruch lange genug wartet, bekommt sein Geld garantiert zurück."
+            },
+            {
+              "text": "Man hätte vor dem Einbruch verkaufen und danach wieder einsteigen sollen."
+            },
+            {
+              "text": "Solche Jahre gehören dazu: Wer langfristig anlegt, muss sie aushalten können – und braucht deshalb daneben Geld, an das er jederzeit herankommt.",
+              "correct": true
+            }
+          ],
+          "explanation": "Starke Rückschläge sind keine Ausnahme, sondern der Preis für die höhere Renditeerwartung – deshalb kommen sie in jedem Durchlauf dieses Spiels vor. Eine Garantie auf Erholung gibt es aber nicht: Meistens erholen sich breit gestreute Anlagen über lange Zeiträume, «meistens» ist jedoch nicht «immer». Und rechtzeitig aussteigen und wieder einsteigen klingt einleuchtend, funktioniert aber nur, wenn man den Zeitpunkt vorher kennt – niemand kennt ihn. Praktisch folgt daraus: Angelegtes Geld ist kein Notgroschen, der Notgroschen liegt griffbereit auf dem Konto."
+        },
+        {
+          "id": "lq3",
+          "type": "single_choice",
+          "prompt": "Im Spiel kostet der Konsumkredit 10 % pro Jahr, die Hypothek 1,7 %. Warum ist die Hypothek so viel günstiger?",
+          "options": [
+            {
+              "text": "Weil hinter der Hypothek ein Wert steht, den die Bank im Notfall verwerten kann – ihr Risiko ist kleiner.",
+              "correct": true
+            },
+            {
+              "text": "Weil Hypotheken vom Staat bezahlt werden."
+            },
+            {
+              "text": "Weil Hypotheken über kürzere Zeiträume laufen als Konsumkredite."
+            },
+            {
+              "text": "Weil die Bank bei Hypotheken auf ihren Gewinn verzichtet."
+            }
+          ],
+          "explanation": "Der Zins ist der Preis für das Risiko der Bank. Bei einer Hypothek steht eine Wohnung als Sicherheit dahinter, die es auch dann noch gibt, wenn nicht bezahlt wird – bei einem Konsumkredit für Ferien oder ein Handy steht nichts dahinter, was sich verwerten liesse. Deshalb ist die eine Schuld beherrschbar und die andere teuer. Der Staat bezahlt weder das eine noch das andere, Hypotheken laufen typischerweise viel **länger** als Konsumkredite, und verzichten tut die Bank auf nichts – sie verdient nur mit weniger Risiko weniger."
+        },
+        {
+          "id": "lq4",
+          "type": "single_choice",
+          "prompt": "Du hast eine Wohnung für CHF 420'000 gekauft: CHF 84'000 eigenes Geld, CHF 336'000 Hypothek. Die Preise fallen um 15 %. Was passiert mit deinem eingesetzten Eigenkapital?",
+          "options": [
+            {
+              "text": "Es verliert ebenfalls 15 %, also rund CHF 12'600."
+            },
+            {
+              "text": "Es bleibt unverändert – Preisschwankungen betreffen nur die Hypothek."
+            },
+            {
+              "text": "Rund drei Viertel davon sind weg: Der Wertverlust von CHF 63'000 trifft allein dein Eigenkapital, die Hypothek bleibt gleich hoch.",
+              "correct": true
+            },
+            {
+              "text": "Es verdoppelt sich, weil die Wohnung günstiger geworden ist."
+            }
+          ],
+          "explanation": "Das ist die Hebelwirkung: 15 % von CHF 420'000 sind CHF 63'000 – und dieser ganze Verlust trifft deinen Anteil, denn die Schuld von CHF 336'000 schrumpft nicht mit. Von deinen CHF 84'000 bleiben also rund CHF 21'000. Genau deshalb verlangen Banken mindestens 20 % Eigenkapital. Der Hebel wirkt übrigens in beide Richtungen: Steigen die Preise um 15 %, wächst dein Anteil ebenso überproportional – nur ist er dann auch nicht «verdient», sondern schlicht gestiegen."
+        },
+        {
+          "id": "lq5",
+          "type": "single_choice",
+          "prompt": "Das Handy im Laden: CHF 250 sofort oder 24 Raten à CHF 13. Was steckt hinter dem zweiten Angebot?",
+          "options": [
+            {
+              "text": "Nichts Besonderes – 24 kleine Beträge sind dasselbe wie ein grosser."
+            },
+            {
+              "text": "Ein Rabatt: Wer in Raten zahlt, bekommt das Gerät günstiger."
+            },
+            {
+              "text": "Eine Versicherung gegen einen weiteren Handyschaden."
+            },
+            {
+              "text": "Ein Kredit: Du zahlst CHF 312 statt CHF 250 – auf ein Jahr gerechnet über 22 % Zins, ohne dass das Wort Zins fällt.",
+              "correct": true
+            }
+          ],
+          "explanation": "24 × CHF 13 sind CHF 312 – also CHF 62 mehr für dasselbe Gerät. Diese CHF 62 sind der Preis dafür, jetzt nicht zu bezahlen: nichts anderes als Zins, und mit über 22 % pro Jahr teurer als jeder Konsumkredit. Genannt wird er nicht, weil «nur 13 Franken im Monat» harmloser klingt als «22 Prozent» – dasselbe Muster wie die Monatsrate beim Finanzberater in Teil 2. Ein Rabatt ist es also gerade nicht, versichert ist auch nichts, und «dasselbe wie ein grosser Betrag» wäre es nur, wenn die Summe gleich bliebe."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Zum Schluss: Drei Rollen, eine Erkenntnis",
+      "body": "Du hast in diesem Modul alle Seiten gespielt. Als Kioskbetreiberin oder Kioskbetreiber hast du erlebt, dass hinter jedem Preis ein Abwägen steckt – Nachfrage, Konkurrenz, Risiko, Kreditkosten. Beim Finanzberater hast du erlebt, wie sich dieselben Konzepte anfühlen, wenn sie **an dir** angewendet werden. Und im Lebenssimulator hast du gesehen, was daraus über fünfzehn Jahre wird: dass kleine monatliche Beträge sich zu grossen Summen addieren – die geliehenen genauso wie die zurückgelegten.\n\nDie Erkenntnis, die alle drei Teile verbindet: **Wer die Mechanik kennt, entscheidet besser.** Nicht immer richtig – dafür spielt der Zufall zu stark mit, im Spiel wie im Leben. Aber besser.\n\nUnd noch etwas, das der Lebenssimulator deutlicher zeigt als die anderen Teile: Ein gutes Ergebnis ist nicht immer verdient, und ein schlechtes nicht immer selbst verschuldet. Wer eine gute Börsenphase erwischt, Unterstützung aus der Familie bekommt oder nie krank wird, hat Glück gehabt – nicht unbedingt klug gehandelt. Was man beeinflussen kann, ist trotzdem nicht wenig: **wann man anfängt, wie viel man zurücklegt, welche Schulden man eingeht und ob man sich Angebote genau anschaut.**\n\nWenn du magst: Spiel eines der drei Spiele nochmals mit einer anderen Strategie. Freiwillig, versteht sich. Wie dieses ganze Modul."
     }
   ]
 }

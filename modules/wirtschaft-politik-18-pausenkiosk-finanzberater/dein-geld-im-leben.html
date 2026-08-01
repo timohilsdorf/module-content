@@ -1,0 +1,1278 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dein Geld im Leben</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: #f6f8f4; color: #2d3230; padding: 12px;
+    font-size: 15px; line-height: 1.45;
+  }
+  .app { max-width: 580px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+  h1 { font-size: 1.12rem; }
+  h2 { font-size: 1rem; margin-bottom: 6px; color: #5b7036; }
+  h3 { font-size: .95rem; margin-bottom: 4px; }
+  p { font-size: .93rem; }
+  .kopf {
+    background: #fff; border: 1px solid #dde3d8; border-radius: 12px; padding: 10px 14px;
+    display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline;
+  }
+  .kopf b { font-size: 1rem; }
+  .kopf .geld { color: #5b7036; font-weight: 700; }
+  .kopf .geld.minus { color: #a33; }
+  .kopf .stress { font-weight: 600; }
+  .karte { background: #fff; border: 1px solid #dde3d8; border-radius: 12px; padding: 14px 16px; }
+  .monat { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: #8a9285; font-weight: 700; }
+  .ereignis-text { margin: 8px 0 12px; }
+  .wahl { display: flex; flex-direction: column; gap: 8px; }
+  button {
+    font: inherit; border: 1px solid #b9c9a4; background: #fff; color: inherit;
+    border-radius: 10px; padding: 10px 14px; cursor: pointer; text-align: left; min-height: 44px;
+  }
+  button:hover { background: #eef4e6; }
+  button.haupt {
+    background: #98c257; border-color: #7ba53c; color: #fff;
+    font-weight: 700; text-align: center; border-radius: 999px; width: 100%;
+  }
+  button.haupt:hover { background: #88b447; }
+  button.aktiv { background: #98c257; border-color: #7ba53c; color: #fff; font-weight: 600; }
+  .knopfreihe { display: flex; flex-wrap: wrap; gap: 8px; }
+  .knopfreihe button { flex: 1 1 30%; text-align: center; min-width: 96px; }
+  .zeile { margin-bottom: 14px; }
+  label { font-weight: 600; display: block; margin-bottom: 6px; }
+  .hinweis { font-size: .86rem; color: #5a615c; margin-top: 6px; }
+  .warnung { border-left: 4px solid #e0a53a; background: #fdf6e7; border-radius: 8px; padding: 10px 12px; font-size: .9rem; }
+  .info { border-left: 4px solid #98c257; background: #f2f7ec; border-radius: 8px; padding: 10px 12px; font-size: .9rem; }
+  ul.liste { list-style: none; display: flex; flex-direction: column; gap: 5px; margin: 10px 0; }
+  ul.liste li {
+    display: flex; justify-content: space-between; gap: 10px; font-size: .9rem;
+    border-bottom: 1px dashed #e3e8de; padding-bottom: 4px;
+  }
+  ul.liste li span:last-child { white-space: nowrap; font-weight: 600; }
+  .plus { color: #5b7036; } .minus { color: #a33; }
+  .summe { display: flex; justify-content: space-between; font-weight: 700; border-top: 2px solid #b9c9a4; padding-top: 8px; margin-top: 4px; }
+  .tabellenrahmen { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; font-size: .82rem; }
+  th, td { border: 1px solid #dde3d8; padding: 4px 6px; text-align: right; white-space: nowrap; }
+  th { background: #eef4e6; }
+  td:first-child, th:first-child { text-align: center; }
+  svg { width: 100%; height: auto; display: block; }
+  .legende { font-size: .8rem; color: #5a615c; display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 4px; }
+  .gross { font-size: 1.3rem; font-weight: 800; }
+  .gross.minus { color: #a33; }
+  .verborgen { display: none; }
+  .balken { height: 10px; background: #e3e8de; border-radius: 999px; overflow: hidden; margin-top: 4px; }
+  .balken div { height: 100%; background: #98c257; }
+  .balken div.hoch { background: #e0a53a; }
+  .balken div.sehrhoch { background: #cc6666; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="kopf" id="kopf"></div>
+
+  <!-- Sonderangebot (Wohnung / Familie) -->
+  <div class="karte verborgen" id="phase-angebot">
+    <h1 id="angebot-titel"></h1>
+    <div id="angebot-text" class="ereignis-text"></div>
+    <div class="wahl" id="angebot-wahl"></div>
+  </div>
+
+  <!-- Planung -->
+  <div class="karte verborgen" id="phase-planung">
+    <h1 id="planung-titel"></h1>
+    <div id="planung-lage"></div>
+    <div class="zeile" style="margin-top:14px">
+      <label>Wie lebst du dieses Jahr?</label>
+      <div class="knopfreihe" id="stil-knoepfe"></div>
+      <p class="hinweis" id="stil-hinweis"></p>
+    </div>
+    <div class="zeile">
+      <label>Was passiert mit dem, was übrig bleibt?</label>
+      <div class="knopfreihe" id="anlage-knoepfe"></div>
+      <p class="hinweis" id="anlage-hinweis"></p>
+    </div>
+    <div id="planung-laufend" class="zeile"></div>
+    <div id="planung-rest"></div>
+    <button type="button" class="haupt" id="jahr-starten">Jahr durchleben</button>
+  </div>
+
+  <!-- Ereignis -->
+  <div class="karte verborgen" id="phase-ereignis">
+    <p class="monat" id="ereignis-monat"></p>
+    <h1 id="ereignis-titel"></h1>
+    <div id="ereignis-text" class="ereignis-text"></div>
+    <div class="wahl" id="ereignis-wahl"></div>
+  </div>
+
+  <!-- Jahresabschluss -->
+  <div class="karte verborgen" id="phase-abschluss" aria-live="polite">
+    <h1 id="abschluss-titel"></h1>
+    <ul class="liste" id="abschluss-liste"></ul>
+    <div id="abschluss-extra"></div>
+    <button type="button" class="haupt" id="weiter">Weiter</button>
+  </div>
+
+  <!-- Auswertung -->
+  <div class="karte verborgen" id="phase-auswertung">
+    <h1>Auswertung: 15 Jahre, Alter 16 bis 30</h1>
+    <div id="auswertung-inhalt"></div>
+    <button type="button" class="haupt" id="nochmal" style="margin-top:14px">Nochmals spielen (andere Strategie)</button>
+  </div>
+
+</div>
+
+<script>
+"use strict";
+/* ---------------------------------------------------------------------------
+   «Dein Geld im Leben» – alle Geldbeträge intern in RAPPEN (ganze Zahlen).
+   Kein Speicher ausserhalb dieser Seite: Alles lebt im Arbeitsspeicher.
+   --------------------------------------------------------------------------- */
+
+var JAHRE = 15;
+var STARTALTER = 16;
+
+/* Bruttomonatslohn je Spieljahr (Lehrjahre 1-3 nach Lohnempfehlung des
+   Kaufmännischen Verbands 2026; danach kalibriert auf die Medianlöhne
+   der Altersgruppen). 13 Auszahlungen pro Jahr. */
+var LOHN = [83500, 105000, 152000, 420000, 445000, 470000, 498000, 526000,
+            554000, 580000, 605000, 628000, 650000, 675000, 700000];
+
+var SPARZINS = 0.0025;
+var KONSUMZINS = 0.10;
+var HYPOZINS = 0.017;
+var KALK_ZINS = 0.045;
+var DEPOTKOSTEN = 0.004;
+
+var KAUFPREIS = 42000000;          /* CHF 420'000 */
+var EK_QUOTE = 0.20;
+var NEBENKOSTEN_QUOTE = 0.015;
+var UNTERHALT_QUOTE = 0.01;
+var AMORT_JAHRE = 15;
+
+/* Depot: Jahresrenditen als Ziehung. Arithmetisches Mittel 7.79 %, Streuung 14.3 %. */
+var DEPOT_NORMAL = [[0.06,-0.25],[0.09,-0.12],[0.11,-0.04],[0.14,0.04],[0.18,0.09],
+                    [0.16,0.14],[0.13,0.20],[0.09,0.27],[0.04,0.34]];
+var DEPOT_KRISE  = [[0.40,-0.22],[0.35,-0.32],[0.25,-0.42]];
+var IMMO_NORMAL  = [[0.10,-0.03],[0.20,0.00],[0.25,0.02],[0.25,0.04],[0.15,0.06],[0.05,0.09]];
+var IMMO_KRISE   = [[0.40,-0.08],[0.35,-0.12],[0.25,-0.15]];
+
+var LEBENSSTIL = {
+  sparsam:     { name: "sparsam",     eltern: 20000, eigen: 125000 },
+  normal:      { name: "normal",      eltern: 35000, eigen: 175000 },
+  grosszuegig: { name: "grosszügig",  eltern: 55000, eigen: 240000 }
+};
+
+var MONATE = ["Januar","Februar","März","April","Mai","Juni",
+              "Juli","August","September","Oktober","November","Dezember"];
+
+var S = null;
+var versuche = [];
+
+/* --- Hilfsfunktionen ---------------------------------------------------- */
+
+function el(id) { return document.getElementById(id); }
+
+function chf(rp) {
+  var neg = rp < 0, v = Math.abs(Math.round(rp));
+  var ganz = String(Math.floor(v / 100)).replace(/\B(?=(\d{3})+(?!\d))/g, "'");
+  var rest = String(v % 100);
+  if (rest.length < 2) rest = "0" + rest;
+  return (neg ? "−CHF " : "CHF ") + ganz + "." + rest;
+}
+
+function chfKurz(rp) {
+  var neg = rp < 0, v = Math.abs(Math.round(rp / 100));
+  return (neg ? "−" : "") + String(v).replace(/\B(?=(\d{3})+(?!\d))/g, "'");
+}
+
+function zieh(tabelle) {
+  var r = Math.random(), k = 0;
+  for (var i = 0; i < tabelle.length; i++) {
+    k += tabelle[i][0];
+    if (r <= k) return tabelle[i][1];
+  }
+  return tabelle[tabelle.length - 1][1];
+}
+
+/* Effektiver Jahreszins einer Ratenzahlung: Welcher Zinssatz macht die
+   Summe der abgezinsten Raten gleich dem Barpreis? Per Intervallhalbierung. */
+function effektivZins(preis, rate, monate) {
+  var lo = 0, hi = 5;
+  for (var k = 0; k < 60; k++) {
+    var mid = (lo + hi) / 2, i = mid / 12;
+    var barwert = i === 0 ? rate * monate : rate * (1 - Math.pow(1 + i, -monate)) / i;
+    if (barwert < preis) hi = mid; else lo = mid;
+  }
+  return (lo + hi) / 2;
+}
+
+/* Notgroschen: rund drei Monatsausgaben griffbereit – eine einzige
+   Definition, damit Spielmechanik und Lerntext dasselbe meinen. */
+function notgroschenSchwelle() { return (fixTotal() + lebenshaltung()) * 3; }
+
+function sozialsatz(jahr) {
+  if (jahr <= 3) return 0.05;   /* Lehre */
+  if (jahr <= 9) return 0.06;   /* vor 25: noch kein Alterssparen der Pensionskasse */
+  return 0.10;                  /* ab 25 kommt das Alterssparen dazu */
+}
+
+/* Progressive Steuer: NUR der Anteil in der jeweiligen Stufe wird
+   mit deren Satz besteuert – kein Sprung an der Stufengrenze. */
+var STEUERSTUFEN = [[2000000, 0.00], [4000000, 0.05], [6500000, 0.09],
+                    [10000000, 0.13], [Infinity, 0.16]];
+
+function steuer(jahresbrutto) {
+  var rest = jahresbrutto, letzte = 0, total = 0;
+  for (var i = 0; i < STEUERSTUFEN.length; i++) {
+    var teil = Math.min(rest, STEUERSTUFEN[i][0] - letzte);
+    if (teil <= 0) break;
+    total += teil * STEUERSTUFEN[i][1];
+    rest -= teil;
+    letzte = STEUERSTUFEN[i][0];
+  }
+  return Math.round(total);
+}
+
+function bruttoMonat() { return LOHN[S.jahr - 1] + S.lohnBonus; }
+function nettoMonat() { return Math.round(bruttoMonat() * (1 - sozialsatz(S.jahr))); }
+function bruttoJahr() { return bruttoMonat() * 13; }
+
+function wohntDaheim() { return S.jahr <= 3; }
+
+/* Fixkosten pro Monat (ohne Lebenshaltung, ohne Wohnkosten bei Eigentum) */
+function fixkosten() {
+  var f = [];
+  if (wohntDaheim()) {
+    f.push(["Kostgeld an die Eltern", S.jahr === 3 ? 15000 : 10000]);
+    f.push(["Krankenkasse (Jugendprämie)", 19500]);
+    f.push(["Handy-Abo", 3000]);
+    f.push(["Bus (Bildungsabo gratis)", 0]);
+  } else {
+    if (S.immoWert > 0) {
+      f.push(["Hypothekarzins", Math.round(S.hypothek * HYPOZINS / 12)]);
+      if (S.hypothek2 > 0) f.push(["Amortisation 2. Hypothek", Math.min(S.amortRate, S.hypothek2)]);
+      f.push(["Unterhalt und Nebenkosten", Math.round(KAUFPREIS * UNTERHALT_QUOTE / 12)]);
+    } else {
+      f.push(["Miete", S.jahr <= 5 ? 60000 : 105000]);
+    }
+    f.push(["Krankenkasse", S.jahr === 4 ? 19500 : 38600]);
+    f.push(["Handy-Abo", 3500]);
+    f.push(["Bus-Abo", S.jahr <= 9 ? 2300 : 3100]);
+  }
+  if (S.autoAktiv) f.push(["Auto (alles inklusive)", 38000]);
+  if (S.aboMonateRest > 0) f.push([S.aboTeuer ? "Streaming-Abo (nach Aktion)" : "Streaming-Abo (Aktionspreis)", S.aboTeuer ? 3990 : 1990]);
+  if (S.handyRateRest > 0) f.push(["Handy-Ratenzahlung", S.handyRate]);
+  if (S.familienRateRest > 0) f.push(["Rückzahlung Familiendarlehen", 25000]);
+  return f;
+}
+
+function fixTotal() {
+  var f = fixkosten(), t = 0;
+  for (var i = 0; i < f.length; i++) t += f[i][1];
+  return t;
+}
+
+function lebenshaltung() {
+  var b = LEBENSSTIL[S.lebensstil];
+  if (wohntDaheim()) return b.eltern;
+  /* Ab Jahr 6 kriecht der Lebensstandard mit 1.5 % pro Jahr nach oben. */
+  return Math.round(b.eigen * Math.pow(1.015, Math.max(0, S.jahr - 5)));
+}
+
+function finanzvermoegen() { return S.konto + S.sparkonto + S.depot; }
+function schulden() { return S.konsumkredit + S.familienSchuld + S.hypothek; }
+function nettovermoegen() { return finanzvermoegen() + S.immoWert - schulden(); }
+
+/* Freies Eigenkapital für einen Wohnungskauf (Vorsorgegelder kennt das Spiel nicht). */
+function hartesEigenkapital() { return S.konto + S.sparkonto + S.depot; }
+
+/* --- Spielaufbau -------------------------------------------------------- */
+
+function depotPfad() {
+  var r = [], i;
+  for (i = 0; i < JAHRE; i++) r.push(zieh(DEPOT_NORMAL));
+  var hatKrise = false;
+  for (i = 0; i < JAHRE; i++) if (r[i] <= -0.20) hatKrise = true;
+  if (!hatKrise) r[3 + Math.floor(Math.random() * 10)] = zieh(DEPOT_KRISE);
+  for (i = 0; i < JAHRE; i++) r[i] = r[i] - DEPOTKOSTEN;
+  return r;
+}
+
+function immoPfad(abJahr) {
+  var n = JAHRE - abJahr + 1, r = [], i;
+  for (i = 0; i < n; i++) r.push(zieh(IMMO_NORMAL));
+  var fenster = Math.min(n, 8), hat = false;
+  for (i = 0; i < fenster; i++) if (r[i] <= -0.08) hat = true;
+  if (!hat && fenster > 0) r[Math.floor(Math.random() * fenster)] = zieh(IMMO_KRISE);
+  return r;
+}
+
+function neuesSpiel() {
+  S = {
+    jahr: 1, konto: 0, sparkonto: 0, depot: 0, depotEinzahlung: 0,
+    konsumkredit: 0, familienSchuld: 0, familienRateRest: 0,
+    hypothek: 0, hypothek2: 0, amortRate: 0, immoWert: 0, immoIndex: 1,
+    immoPfad: null, immoKaufJahr: 0,
+    stress: 20, lebensstil: "normal", anlage: "sparkonto",
+    aboMonateRest: 0, aboTeuer: false, aboBezahlt: 0, handyRateRest: 0, handyRate: 0,
+    autoAktiv: false, lohnBonus: 0, darlehenKollegin: 0, familienGeklaert: false,
+    jobverlustJahr: 0, familienAngebotJahr: 0, familienVariante: "",
+    wohnungAbgelehnt: 0, letzterSparbetrag: 0,
+    depotPfad: depotPfad(), verlauf: [], notizen: []
+  };
+  /* Zufällige Lebensereignisse einplanen */
+  if (Math.random() < 0.50) {
+    S.familienAngebotJahr = 6 + Math.floor(Math.random() * 5);   /* Jahr 6–10 */
+    S.familienVariante = Math.random() < 0.5 ? "erbvorbezug" : "darlehen";
+  }
+  if (Math.random() < 0.35) S.jobverlustJahr = 9 + Math.floor(Math.random() * 5); /* Jahr 9–13 */
+  versteckeAlles();
+  naechsteEntscheidung();
+}
+
+function versteckeAlles() {
+  ["phase-angebot", "phase-planung", "phase-ereignis", "phase-abschluss", "phase-auswertung"]
+    .forEach(function (id) { el(id).className = "karte verborgen"; });
+}
+
+function zeigeKopf() {
+  var stressWort = S.stress < 25 ? "gelassen" : S.stress < 50 ? "angespannt"
+                 : S.stress < 75 ? "unter Druck" : "am Anschlag";
+  var klasse = S.stress < 50 ? "" : S.stress < 75 ? "hoch" : "sehrhoch";
+  el("kopf").innerHTML =
+    '<b>Jahr ' + S.jahr + ' von ' + JAHRE + '</b>' +
+    '<span>Alter ' + (STARTALTER + S.jahr - 1) + '</span>' +
+    '<span class="geld' + (nettovermoegen() < 0 ? " minus" : "") + '">Vermögen: ' + chf(nettovermoegen()) + '</span>' +
+    (S.immoWert > 0 ? '<span>Wohnung: ' + chf(S.immoWert) + '</span>' : '') +
+    (S.konsumkredit > 0 ? '<span class="geld minus">Konsumkredit: ' + chf(S.konsumkredit) + '</span>' : '') +
+    '<span class="stress" style="flex-basis:100%">Anspannung: ' + Math.round(S.stress) + ' von 100 – ' + stressWort +
+    '<span class="balken"><div class="' + klasse + '" style="width:' + Math.min(100, S.stress) + '%"></div></span></span>';
+}
+
+/* --- Ablauf: Angebote, Planung, Ereignisse, Abschluss ------------------- */
+
+function naechsteEntscheidung() {
+  versteckeAlles();
+  zeigeKopf();
+  if (S.familienAngebotJahr === S.jahr && !S.familienGeklaert) { zeigeFamilienangebot(); return; }
+  if (wohnungMoeglich()) { zeigeWohnungsangebot(); return; }
+  zeigePlanung();
+}
+
+function wohnungMoeglich() {
+  if (S.immoWert > 0) return false;
+  if (S.jahr < 6) return false;
+  var noetig = Math.round(KAUFPREIS * (EK_QUOTE + NEBENKOSTEN_QUOTE));
+  var kalk = KAUFPREIS * (1 - EK_QUOTE) * KALK_ZINS
+           + (KAUFPREIS * 0.80 - KAUFPREIS * 2 / 3) / AMORT_JAHRE
+           + KAUFPREIS * UNTERHALT_QUOTE;
+  return hartesEigenkapital() >= noetig && bruttoJahr() >= kalk * 3;
+}
+
+function zeigeFamilienangebot() {
+  S.familienGeklaert = true;
+  el("phase-angebot").className = "karte";
+  var erb = S.familienVariante === "erbvorbezug";
+  el("angebot-titel").textContent = erb ? "Deine Grosseltern wollen dir etwas geben"
+                                        : "Deine Eltern bieten dir ein Darlehen an";
+  el("angebot-text").innerHTML = erb
+    ? '<p>Am Familienessen nimmt dich deine Grossmutter zur Seite: «Wir möchten dir <strong>CHF 25\'000</strong> ' +
+      'als Erbvorbezug geben – jetzt, wo es dir etwas nützt, statt erst in dreissig Jahren. Was du damit machst, ' +
+      'ist deine Sache.» Ein Erbvorbezug ist ein Teil des Erbes, den du vorzeitig erhältst; später wird er ' +
+      'angerechnet. Zurückzahlen musst du nichts.</p>' +
+      '<div class="warnung" style="margin-top:10px">Solche Hilfe gibt es nicht in jeder Familie – und genau das ' +
+      'ist ein Grund, warum Wohneigentum für manche erreichbar ist und für andere nicht. Am Ende des Spiels ' +
+      'kommen wir darauf zurück.</div>'
+    : '<p>Deine Eltern haben mitbekommen, dass du sparst: «Wir können dir <strong>CHF 30\'000</strong> leihen – ' +
+      '<strong>zinslos</strong>. Du zahlst uns CHF 250 im Monat zurück, zehn Jahre lang. Aber es bleibt ein ' +
+      'Darlehen, kein Geschenk.»</p>' +
+      '<div class="warnung" style="margin-top:10px">Zinslos ist günstiger als jede Bank. Trotzdem ist es eine ' +
+      'Verpflichtung: CHF 250 im Monat sind zehn Jahre lang weg – und Geld zwischen Verwandten belastet ' +
+      'im Streitfall mehr als eine Bankbeziehung.</div>';
+
+  var wahl = el("angebot-wahl");
+  wahl.innerHTML = "";
+  knopf(wahl, erb ? "Danke – ich nehme den Erbvorbezug an." : "Ich nehme das Darlehen an.", function () {
+    if (erb) {
+      S.sparkonto += 2500000;
+      S.stress = Math.max(0, S.stress - 6);
+      S.notizen.push("Jahr " + S.jahr + ": Erbvorbezug von CHF 25'000 erhalten.");
+    } else {
+      S.sparkonto += 3000000;
+      S.familienSchuld = 3000000;
+      S.familienRateRest = 120;
+      S.stress += 4;
+      S.notizen.push("Jahr " + S.jahr + ": Familiendarlehen von CHF 30'000 aufgenommen (zinslos).");
+    }
+    naechsteEntscheidung();
+  });
+  knopf(wahl, "Nein danke – ich mache das selbst.", function () {
+    S.notizen.push("Jahr " + S.jahr + ": Hilfe aus der Familie abgelehnt.");
+    naechsteEntscheidung();
+  });
+}
+
+function zeigeWohnungsangebot() {
+  el("phase-angebot").className = "karte";
+  var ek = Math.round(KAUFPREIS * EK_QUOTE);
+  var nk = Math.round(KAUFPREIS * NEBENKOSTEN_QUOTE);
+  var hyp = KAUFPREIS - ek;
+  var zins = Math.round(hyp * HYPOZINS / 12);
+  var amort = Math.round((KAUFPREIS * 0.80 - KAUFPREIS * 2 / 3) / AMORT_JAHRE / 12);
+  var unterhalt = Math.round(KAUFPREIS * UNTERHALT_QUOTE / 12);
+  var miete = 105000;
+  el("angebot-titel").textContent = "Du könntest eine Wohnung kaufen";
+  el("angebot-text").innerHTML =
+    '<p>Im Rheintal, ein paar Kilometer über die Grenze, steht eine 2.5-Zimmer-Eigentumswohnung zum Verkauf: ' +
+    '<strong>' + chf(KAUFPREIS) + '</strong>. Die Bank rechnet dir vor, dass es reicht – dein Erspartes deckt ' +
+    'das nötige Eigenkapital, und dein Lohn trägt die Belastung.</p>' +
+    '<ul class="liste">' +
+    '<li><span>Eigenkapital (20 %), wird sofort fällig</span><span class="minus">' + chf(ek) + '</span></li>' +
+    '<li><span>Kaufnebenkosten (Handänderung, Notariat, Grundbuch)</span><span class="minus">' + chf(nk) + '</span></li>' +
+    '<li><span>Hypothek</span><span>' + chf(hyp) + '</span></li>' +
+    '</ul>' +
+    '<h3>Was sich monatlich ändert</h3>' +
+    '<ul class="liste">' +
+    '<li><span>Hypothekarzins (1,7 %)</span><span>' + chf(zins) + '</span></li>' +
+    '<li><span>Amortisation – baut dein Eigentum auf</span><span>' + chf(amort) + '</span></li>' +
+    '<li><span>Unterhalt und Nebenkosten (1 % pro Jahr)</span><span>' + chf(unterhalt) + '</span></li>' +
+    '<li><span><strong>Neu total</strong></span><span>' + chf(zins + amort + unterhalt) + '</span></li>' +
+    '<li><span>Bisherige Miete</span><span>' + chf(miete) + '</span></li>' +
+    '</ul>' +
+    '<div class="warnung">Fast gleich viel wie die Miete? Nicht ganz. Die ' + chf(ek) + ' Eigenkapital sind ' +
+    'ab jetzt <strong>gebunden</strong> – sie können keine Rendite mehr erwirtschaften. Rechnet man das mit, ' +
+    'kostet dich das Wohnen rund ' + chf(zins + amort + unterhalt + Math.round(ek * KALK_ZINS / 12)) +
+    ' im Monat. Dafür gehört ein wachsender Teil der Wohnung dir.</div>';
+
+  var wahl = el("angebot-wahl");
+  wahl.innerHTML = "";
+  knopf(wahl, "Ich kaufe die Wohnung.", function () {
+    abheben(ek + nk);
+    S.immoWert = KAUFPREIS;
+    S.immoKaufJahr = S.jahr;
+    S.immoIndex = 1;
+    S.immoPfad = immoPfad(S.jahr);
+    S.hypothek = hyp;
+    S.hypothek2 = Math.round(KAUFPREIS * 0.80 - KAUFPREIS * 2 / 3);
+    S.amortRate = Math.round(S.hypothek2 / AMORT_JAHRE / 12);
+    S.stress += 8;
+    S.notizen.push("Jahr " + S.jahr + ": Wohnung gekauft für " + chf(KAUFPREIS) + ".");
+    naechsteEntscheidung();
+  });
+  knopf(wahl, "Noch nicht – ich bleibe zur Miete.", function () {
+    S.wohnungAbgelehnt++;
+    zeigePlanung();
+  });
+}
+
+function knopf(behaelter, text, aktion) {
+  var b = document.createElement("button");
+  b.type = "button";
+  b.innerHTML = text;
+  b.addEventListener("click", aktion);
+  behaelter.appendChild(b);
+  return b;
+}
+
+/* --- Planungsphase ------------------------------------------------------ */
+
+function zeigePlanung() {
+  versteckeAlles();
+  zeigeKopf();
+  el("phase-planung").className = "karte";
+  el("planung-titel").textContent = "Jahr " + S.jahr + ": Wie planst du?";
+
+  var lage = "";
+  if (S.jahr === 1) lage = '<div class="info">Du beginnst deine Lehre. Zum ersten Mal verdienst du eigenes Geld – ' +
+    'und zum ersten Mal musst du entscheiden, was damit geschieht.</div>';
+  if (S.jahr === 4) lage = '<div class="info">Lehre bestanden! Dein Lohn vervielfacht sich – und du ziehst in ein ' +
+    'WG-Zimmer. Ab jetzt zahlst du Miete, Krankenkasse und alles Übrige selbst.</div>';
+  if (S.jahr === 5) lage = '<div class="warnung">Du wirst 20. In Liechtenstein endet damit die Jugendprämie: ' +
+    'Deine Krankenkasse kostet ab jetzt <strong>' + chf(38600) + '</strong> statt ' + chf(19500) + ' – ohne dass ' +
+    'sich an deiner Gesundheit etwas geändert hätte.</div>';
+  if (S.jahr === 6) lage = '<div class="info">Du ziehst aus der WG in eine eigene 1.5-Zimmer-Wohnung. Mehr Ruhe, ' +
+    'höhere Miete.</div>';
+  if (S.jahr === 10) lage = '<div class="warnung">Du wirst 25. Ab jetzt spart deine Pensionskasse fürs Alter mit – ' +
+    'darum steigt dein Bruttolohn, dein Nettolohn aber kaum. Das Geld ist nicht weg, es liegt nur bis zur ' +
+    'Pensionierung fest.</div>';
+  if (S.jobverlustJahr === S.jahr) lage += '<div class="warnung">Schlechte Nachricht: Deine Firma verliert einen ' +
+    'Grossauftrag, deine Stelle fällt weg. Drei Monate lang lebst du von der Arbeitslosenversicherung – sie zahlt ' +
+    '<strong>80 % deines Lohns</strong>. Danach hast du etwas Neues gefunden.</div>';
+  el("planung-lage").innerHTML = lage;
+
+  /* Lebensstil */
+  var sk = el("stil-knoepfe"); sk.innerHTML = "";
+  ["sparsam", "normal", "grosszuegig"].forEach(function (stil) {
+    var b = knopf(sk, LEBENSSTIL[stil].name, function () { S.lebensstil = stil; zeigePlanung(); });
+    if (S.lebensstil === stil) b.className = "aktiv";
+  });
+  var altStil = S.lebensstil;
+  S.lebensstil = "sparsam"; var kostenSparsam = lebenshaltung();
+  S.lebensstil = "grosszuegig"; var kostenGross = lebenshaltung();
+  S.lebensstil = altStil;
+  el("stil-hinweis").textContent = "Essen, Kleider, Ausgehen, Hobbys: " + chf(lebenshaltung()) +
+    " im Monat (sparsam " + chf(kostenSparsam) + ", grosszügig " + chf(kostenGross) + ").";
+
+  /* Anlage */
+  var ak = el("anlage-knoepfe"); ak.innerHTML = "";
+  [["sparkonto", "Sparkonto"], ["gemischt", "je zur Hälfte"], ["depot", "Depot"]].forEach(function (paar) {
+    var b = knopf(ak, paar[1], function () { S.anlage = paar[0]; zeigePlanung(); });
+    if (S.anlage === paar[0]) b.className = "aktiv";
+  });
+  el("anlage-hinweis").innerHTML = S.anlage === "sparkonto"
+    ? "Sparkonto: 0,25 % Zins. Sicher, aber kaum mehr als die Teuerung."
+    : S.anlage === "depot"
+    ? "Breit gestreutes Wertschriftendepot: langfristig mehr Ertrag zu erwarten – aber der Wert schwankt, auch nach unten."
+    : "Die Hälfte sicher aufs Sparkonto, die Hälfte ins schwankende Depot.";
+
+  /* Laufende Abos: kündigen ist jederzeit möglich – man muss nur daran denken. */
+  var laufend = el("planung-laufend");
+  laufend.innerHTML = "";
+  if (S.aboMonateRest > 0) {
+    var box = document.createElement("div");
+    box.className = S.aboTeuer ? "warnung" : "info";
+    box.innerHTML = "<strong>Dein Streaming-Abo läuft</strong> – aktuell " +
+      chf(S.aboTeuer ? 3990 : 1990) + " pro Monat" +
+      (S.aboTeuer ? " (der Aktionspreis ist längst abgelaufen)." : ", ab dem vierten Monat CHF 39.90.") +
+      " Bisher bezahlt: " + chf(S.aboBezahlt) + ".";
+    laufend.appendChild(box);
+    knopf(laufend, "Streaming-Abo kündigen", function () {
+      S.aboMonateRest = 0;
+      S.notizen.push("Jahr " + S.jahr + ": Streaming-Abo gekündigt (bis dahin " + chf(S.aboBezahlt) + " bezahlt).");
+      zeigePlanung();
+    }).style.marginTop = "8px";
+  }
+
+  /* Budgetübersicht */
+  var netto = nettoMonat();
+  var f = fixkosten();
+  var zeilen = "";
+  for (var i = 0; i < f.length; i++) {
+    zeilen += '<li><span>' + f[i][0] + '</span><span class="minus">' +
+      (f[i][1] > 0 ? chf(-f[i][1]) : chf(0)) + '</span></li>';
+  }
+  var rest = netto - fixTotal() - lebenshaltung();
+  el("planung-rest").innerHTML =
+    '<h3>Dein Monat</h3><ul class="liste">' +
+    '<li><span>Bruttolohn</span><span>' + chf(bruttoMonat()) + '</span></li>' +
+    '<li><span>Sozialabzüge (' + Math.round(sozialsatz(S.jahr) * 100) + ' %)</span><span class="minus">' +
+      chf(-(bruttoMonat() - netto)) + '</span></li>' +
+    '<li><span><strong>Nettolohn</strong></span><span>' + chf(netto) + '</span></li>' +
+    zeilen +
+    '<li><span>Lebenshaltung (' + LEBENSSTIL[S.lebensstil].name + ')</span><span class="minus">' +
+      chf(-lebenshaltung()) + '</span></li>' +
+    '</ul><p class="summe"><span>Bleibt übrig pro Monat:</span><span class="' +
+      (rest < 0 ? "minus" : "plus") + '">' + chf(rest) + '</span></p>' +
+    (rest < 0 ? '<div class="warnung" style="margin-top:8px">Das geht nicht auf. Ohne Änderung wächst dein ' +
+      'Minus – und die Bank verlangt dafür Zinsen.</div>' : '');
+}
+
+/* --- Ereignisse --------------------------------------------------------- */
+
+function ereignisseFuerJahr() {
+  var e = [];
+  switch (S.jahr) {
+    case 2: e.push(ereignisHandy(25000, 1300, 24)); break;
+    case 3: e.push(ereignisAbo()); break;
+    case 4: e.push(ereignisSneaker()); break;
+    case 5: e.push(ereignisKollegin()); break;
+    case 6: e.push(ereignisFerien(89000, "Juli")); break;
+    case 7: e.push(ereignisZahnarzt()); break;
+    case 8: e.push(ereignisWeiterbildung()); break;
+    case 11: e.push(ereignisAuto()); break;
+    case 12: e.push(ereignisKreditkarte()); break;
+    case 13: e.push(ereignisHandy(38000, 1900, 24)); break;
+    case 14: e.push(ereignisFerien(180000, "August")); break;
+  }
+  if (S.darlehenKollegin > 0) e.push(ereignisRueckzahlung());
+  return e;
+}
+
+function ereignisHandy(preis, rate, monate) {
+  return {
+    monat: "März",
+    titel: "Dein Handy ist hin",
+    text: '<p>Es rutscht dir aus der Hand und der Bildschirm ist zersprungen. Ohne Handy geht es nicht – ' +
+      'du brauchst Ersatz. Im Laden bekommst du zwei Angebote für dasselbe Gerät.</p>',
+    optionen: [
+      { text: "<strong>" + chf(preis) + " sofort bezahlen</strong>",
+        wirkung: function () { belasten(preis); S.stress += 5; },
+        folge: "Bezahlt und erledigt – dein Konto ist um " + chf(preis) + " leichter." },
+      { text: "<strong>" + monate + " × " + chf(rate) + "</strong> – «ohne grosse Belastung», sagt der Verkäufer",
+        wirkung: function () { S.handyRate = rate; S.handyRateRest = monate; S.stress += 10; },
+        folge: "Du zahlst insgesamt " + chf(rate * monate) + " statt " + chf(preis) + ". Die Mehrkosten von " +
+          chf(rate * monate - preis) + " sind der Preis dafür, jetzt nichts zu bezahlen – gerechnet auf ein Jahr " +
+          "entspricht das einem Zinssatz von rund " + Math.round(effektivZins(preis, rate, monate) * 100) +
+          " %. Mehr als jeder Konsumkredit, und niemand nennt es Zins." }
+    ]
+  };
+}
+
+function ereignisAbo() {
+  return {
+    monat: "Oktober",
+    titel: "«Nur noch 1:59:47 – Aktion endet gleich!»",
+    text: '<p>Eine Streaming-Plattform wirbt: die ersten drei Monate für <strong>CHF 19.90</strong>, ' +
+      'daneben zählt eine Uhr rückwärts. Das Kleingedruckte steht weiter unten: ' +
+      '<em>«Danach CHF 39.90 monatlich. Jederzeit kündbar.»</em></p>',
+    optionen: [
+      { text: "Abo abschliessen – der Preis ist ja gut.",
+        wirkung: function () { S.aboMonateRest = 999; S.aboTeuer = false; S.stress += 3; },
+        folge: "Abgeschlossen. Nach drei Monaten steigt der Preis automatisch auf CHF 39.90 – kündigen musst " +
+          "du selbst, daran denken auch." },
+      { text: "Den Countdown ignorieren und morgen nochmals schauen.",
+        wirkung: function () { S.stress += 2; },
+        folge: "Am nächsten Tag läuft dieselbe Aktion mit einem neuen Countdown. Die Frist war Kulisse – " +
+          "genau das Muster aus Modul 17." }
+    ]
+  };
+}
+
+function ereignisSneaker() {
+  return {
+    monat: "Mai",
+    titel: "Sneaker – «kauf jetzt, zahl in 30 Tagen»",
+    text: '<p>Die Schuhe kosten <strong>CHF 220</strong>. An der Kasse im Onlineshop ist ein Zahlungsweg schon ' +
+      'vorausgewählt: <em>«Zahl später – 0 % Zinsen, erst in 30 Tagen fällig.»</em> Klingt nach geschenktem Geld.</p>',
+    optionen: [
+      { text: "Sofort bezahlen.",
+        wirkung: function () { belasten(22000); },
+        folge: "Bezahlt, erledigt, keine offene Rechnung." },
+      { text: "«Zahl später» wählen – und in 30 Tagen daran denken.",
+        wirkung: function () { belasten(22000); S.stress += 3; },
+        folge: "Du hast daran gedacht und pünktlich bezahlt: keine Kosten. Das ist der Normalfall – aber nur, " +
+          "solange nichts dazwischenkommt." },
+      { text: "«Zahl später» wählen – und die Sneaker gleich zweimal (auch für die Ferien).",
+        wirkung: function () {
+          belasten(44000);
+          if (Math.random() < 0.5) {
+            belasten(6500); S.stress += 15;
+            S.notizen.push("Jahr " + S.jahr + ": Zahlungsfrist verpasst – Mahn- und Inkassokosten von CHF 65.");
+          } else { S.stress += 6; }
+        },
+        folge: "Zwei Paar auf Rechnung: CHF 440. Ob du die Frist einhältst, entscheidet sich, wenn die Rechnung " +
+          "kommt – und da ist das Geld oft schon anderweitig verplant." }
+    ]
+  };
+}
+
+function ereignisKollegin() {
+  return {
+    monat: "September",
+    titel: "Deine Kollegin fragt nach Geld",
+    text: '<p>Nadia braucht <strong>CHF 200</strong> – die Autoreparatur kam unerwartet, ihr Lohn kommt erst in ' +
+      'zwei Wochen. «Ich gebe es dir nächsten Monat zurück, ganz sicher.»</p>',
+    optionen: [
+      { text: "Klar, ich leihe ihr das Geld.",
+        wirkung: function () { belasten(20000); S.darlehenKollegin = 20000; S.stress += 3; },
+        folge: "Geliehen. Ob und wann du es zurückbekommst, zeigt sich." },
+      { text: "Ich sage nein – so viel habe ich nicht übrig.",
+        wirkung: function () { S.stress += 5; },
+        folge: "Nein sagen ist unangenehm, aber ehrlich. Geld unter Freundinnen belastet die Beziehung, " +
+          "wenn die Rückzahlung stockt." }
+    ]
+  };
+}
+
+function ereignisRueckzahlung() {
+  var betrag = S.darlehenKollegin;
+  var zahlt = Math.random() < 0.70;
+  return {
+    monat: "Februar",
+    titel: zahlt ? "Nadia zahlt zurück" : "Von Nadia kommt nichts",
+    text: zahlt
+      ? '<p>Nadia überweist dir die <strong>' + chf(betrag) + '</strong> zurück, wie versprochen – ' +
+        'mit einer Tafel Schokolade obendrauf.</p>'
+      : '<p>Zwei Monate sind vergangen. Nadia weicht dem Thema aus, und dir ist es unangenehm, nachzufragen. ' +
+        'Die <strong>' + chf(betrag) + '</strong> siehst du vorerst nicht wieder.</p>',
+    optionen: [
+      { text: "Zur Kenntnis nehmen.",
+        wirkung: function () {
+          if (zahlt) { gutschreiben(betrag); S.stress = Math.max(0, S.stress - 3); }
+          else { S.stress += 8; S.notizen.push("Jahr " + S.jahr + ": Geliehene " + chf(betrag) + " nicht zurückerhalten."); }
+          S.darlehenKollegin = 0;
+        },
+        folge: zahlt ? "Gut ausgegangen." : "Rund jedes dritte private Darlehen endet so. Wer Geld verleiht, " +
+          "sollte damit rechnen – und nur verleihen, was er notfalls entbehren kann." }
+    ]
+  };
+}
+
+function ereignisFerien(preis, monat) {
+  return {
+    monat: monat,
+    titel: "Ferien mit deinen Freundinnen und Freunden",
+    text: '<p>Die Gruppe plant zwei Wochen ans Meer. Dein Anteil: <strong>' + chf(preis) + '</strong>. ' +
+      'Alle anderen sind dabei.</p>',
+    optionen: [
+      { text: "Mitfahren und bar bezahlen.",
+        wirkung: function () { belasten(preis); S.stress = Math.max(0, S.stress - 10); },
+        folge: "Erholung ist kein Luxus – sie senkt deine Anspannung spürbar. Bezahlt aus dem, was da war." },
+      { text: "Mitfahren und über einen Konsumkredit finanzieren.",
+        wirkung: function () {
+          S.konsumkredit += preis; S.stress = Math.max(0, S.stress - 10); S.stress += 5;
+          S.notizen.push("Jahr " + S.jahr + ": Ferien für " + chf(preis) + " auf Kredit.");
+        },
+        folge: "Die Ferien sind nach zwei Wochen vorbei, der Kredit läuft weiter – zu 10 % Zins, dem " +
+          "gesetzlichen Höchstsatz der Schweiz. In Liechtenstein gibt es übrigens gar keine gesetzliche Obergrenze." },
+      { text: "Diesmal nicht mitfahren.",
+        wirkung: function () { S.stress += 5; },
+        folge: "Gespart – aber nicht gratis: Nicht dabei zu sein, kostet auch etwas." }
+    ]
+  };
+}
+
+function ereignisZahnarzt() {
+  return {
+    monat: "November",
+    titel: "Zahnarztrechnung",
+    text: '<p>Zwei Löcher und eine Wurzelbehandlung: <strong>CHF 800</strong>. Zahnbehandlungen zahlt die ' +
+      'Krankenkasse nicht – das trifft dich unangekündigt.</p>',
+    optionen: [
+      { text: "Aus dem Ersparten bezahlen.",
+        wirkung: function () {
+          belasten(80000);
+          if (finanzvermoegen() < notgroschenSchwelle()) S.stress += 10; else S.stress += 3;
+        },
+        folge: "Genau dafür ist ein Notgroschen da: drei Monatsausgaben griffbereit, damit ein solcher Betrag " +
+          "kein Loch reisst." }
+    ]
+  };
+}
+
+function ereignisWeiterbildung() {
+  return {
+    monat: "Januar",
+    titel: "Weiterbildung – eine echte Investition",
+    text: '<p>Dein Betrieb bietet dir einen berufsbegleitenden Fachkurs an. Er kostet dich <strong>CHF 4\'000</strong> ' +
+      'und ein Jahr Abendunterricht. Danach steigt dein Lohn dauerhaft um rund 8 %.</p>' +
+      '<div class="info">Aufgepasst: <strong>Das hier ist eine Investition</strong> – im Gegensatz zum Auto ' +
+      'oder zu den Sneakern. Du gibst heute Geld aus, damit später mehr zurückkommt.</div>',
+    optionen: [
+      { text: "Kurs machen.",
+        wirkung: function () {
+          belasten(400000); S.lohnBonus += Math.round(LOHN[S.jahr - 1] * 0.08); S.stress += 12;
+          S.notizen.push("Jahr " + S.jahr + ": Weiterbildung gemacht – Lohn dauerhaft rund 8 % höher.");
+        },
+        folge: "CHF 4'000 weg, dafür bringt dir der höhere Lohn über die restlichen Spieljahre ein Mehrfaches " +
+          "davon ein. Genau so sieht eine Investition aus." },
+      { text: "Kein Kurs – die Abende gehören mir.",
+        wirkung: function () { S.stress = Math.max(0, S.stress - 3); },
+        folge: "Auch eine gültige Entscheidung: Zeit und Erholung sind ebenfalls etwas wert." }
+    ]
+  };
+}
+
+function ereignisAuto() {
+  return {
+    monat: "April",
+    titel: "Ein eigenes Auto?",
+    text: '<p>Ein gebrauchter Kleinwagen für CHF 9\'000. Mit Versicherung, Steuern, Benzin, Service und ' +
+      'Wertverlust kostet er dich rund <strong>CHF 380 im Monat</strong> – dauerhaft.</p>',
+    optionen: [
+      { text: "Kaufen – ich will unabhängig sein.",
+        wirkung: function () { belasten(900000); S.autoAktiv = true; S.stress = Math.max(0, S.stress - 4); },
+        folge: "Das Auto kostet dich ab jetzt jeden Monat CHF 380 zusätzlich. Ein Auto ist ein Konsumgut: " +
+          "Es verliert an Wert, statt welchen zu schaffen – ausser man verdient damit Geld." },
+      { text: "Kein Auto – Bus und Velo reichen mir.",
+        wirkung: function () { S.stress += 3; },
+        folge: "CHF 380 im Monat sind über zehn Jahre rund CHF 45'600 – ohne Zinsen gerechnet." }
+    ]
+  };
+}
+
+function ereignisKreditkarte() {
+  return {
+    monat: "Juni",
+    titel: "«Ihre Bank hat gute Nachrichten»",
+    text: '<p>Deine Bank bietet dir eine Kreditkarte mit einem Limit von CHF 5\'000 an. ' +
+      '<em>«Bequem in Raten zurückzahlen – Sie bestimmen das Tempo.»</em> Im Kleingedruckten: ' +
+      '<strong>12 % Zins</strong> auf den offenen Betrag.</p>',
+    optionen: [
+      { text: "Annehmen – als Reserve für den Notfall.",
+        wirkung: function () { S.stress += 4; },
+        folge: "Eine Kreditkarte ist kein Notgroschen, sondern eine teure Schuld auf Abruf. Ein echter " +
+          "Notgroschen liegt auf deinem eigenen Konto." },
+      { text: "Ablehnen.",
+        wirkung: function () {},
+        folge: "«In Raten zurückzahlen» heisst: verzinste Schulden. Wer das Limit nie hat, kommt auch nie " +
+          "in Versuchung." }
+    ]
+  };
+}
+
+var ereignisListe = [], ereignisIndex = 0;
+
+function starteJahr() {
+  ereignisListe = ereignisseFuerJahr();
+  ereignisIndex = 0;
+  zeigeEreignis();
+}
+
+function zeigeEreignis() {
+  if (ereignisIndex >= ereignisListe.length) { rechneJahr(); return; }
+  versteckeAlles();
+  zeigeKopf();
+  el("phase-ereignis").className = "karte";
+  var e = ereignisListe[ereignisIndex];
+  el("ereignis-monat").textContent = e.monat + ", du bist " + (STARTALTER + S.jahr - 1);
+  el("ereignis-titel").textContent = e.titel;
+  el("ereignis-text").innerHTML = e.text;
+  var wahl = el("ereignis-wahl");
+  wahl.innerHTML = "";
+  e.optionen.forEach(function (opt) {
+    knopf(wahl, opt.text, function () {
+      opt.wirkung();
+      wahl.innerHTML = "";
+      el("ereignis-text").innerHTML += '<div class="info" style="margin-top:10px">' + opt.folge + '</div>';
+      knopf(wahl, "Weiter", function () { ereignisIndex++; zeigeEreignis(); }).className = "haupt";
+    });
+  });
+}
+
+/* --- Geldbewegungen ----------------------------------------------------- */
+
+function gutschreiben(betrag) { S.konto += betrag; }
+
+/* Zahlt zuerst vom Konto, dann vom Sparkonto, dann aus dem Depot; reicht
+   das nicht, entsteht ein Konsumkredit. */
+function belasten(betrag) {
+  var offen = betrag;
+  var vomKonto = Math.min(S.konto, offen);
+  S.konto -= vomKonto; offen -= vomKonto;
+  if (offen > 0) { var v = Math.min(S.sparkonto, offen); S.sparkonto -= v; offen -= v; }
+  if (offen > 0) { var d = Math.min(S.depot, offen); S.depot -= d; S.depotEinzahlung = Math.max(0, S.depotEinzahlung - d); offen -= d; }
+  if (offen > 0) { S.konsumkredit += offen; }
+}
+
+function abheben(betrag) { belasten(betrag); }
+
+/* --- Jahresabrechnung --------------------------------------------------- */
+
+function rechneJahr() {
+  var netto = nettoMonat();
+  var rendite = S.depotPfad[S.jahr - 1];
+  var monatsRendite = Math.pow(1 + rendite, 1 / 12) - 1;
+  var immoRendite = 0;
+  if (S.immoWert > 0 && S.immoPfad) immoRendite = S.immoPfad[S.jahr - S.immoKaufJahr] || 0;
+
+  var einnahmen = 0, ausgaben = 0, zinsKonsum = 0, zinsSpar = 0, angelegt = 0, amortisiert = 0;
+  var lohnausfall = 0;
+
+  for (var m = 0; m < 12; m++) {
+    /* Lohn – bei Stellenverlust drei Monate lang 80 %. In der Abrechnung
+       erscheint der volle Lohn und die Kürzung als eigene Abzugszeile,
+       damit sich die Aufstellung von Hand nachrechnen lässt. */
+    var lohn = netto;
+    if (S.jobverlustJahr === S.jahr && m >= 3 && m < 6) {
+      lohn = Math.round(netto * 0.80);
+      lohnausfall += netto - lohn;
+    }
+    if (m === 11) { lohn += netto; }          /* 13. Monatslohn im Dezember */
+    einnahmen += netto + (m === 11 ? netto : 0);
+    S.konto += lohn;
+
+    /* Feste Ausgaben */
+    var f = fixTotal() + lebenshaltung();
+    S.konto -= f; ausgaben += f;
+
+    /* Abo: bezahlten Betrag mitzählen, danach der Preissprung nach drei Monaten */
+    if (S.aboMonateRest > 0) {
+      S.aboBezahlt += S.aboTeuer ? 3990 : 1990;
+      S.aboMonateRest--;
+      if (!S.aboTeuer && S.aboMonateRest <= 996) S.aboTeuer = true;
+    }
+    if (S.handyRateRest > 0) S.handyRateRest--;
+    if (S.familienRateRest > 0) {
+      S.familienRateRest--;
+      S.familienSchuld = Math.max(0, S.familienSchuld - 25000);
+    }
+
+    /* Hypothek amortisieren */
+    if (S.immoWert > 0 && S.hypothek2 > 0) {
+      var a = Math.min(S.amortRate, S.hypothek2);
+      S.hypothek -= a; S.hypothek2 -= a; amortisiert += a;
+    }
+
+    /* Konsumkredit: Zins, dann Tilgung aus dem Überschuss */
+    if (S.konsumkredit > 0) {
+      var z = Math.round(S.konsumkredit * KONSUMZINS / 12);
+      S.konsumkredit += z; zinsKonsum += z;
+      if (S.konto > 0) {
+        var t = Math.min(S.konto, S.konsumkredit);
+        S.konto -= t; S.konsumkredit -= t;
+      }
+    }
+
+    /* Negatives Konto wird zum Konsumkredit */
+    if (S.konto < 0) { S.konsumkredit += -S.konto; S.konto = 0; }
+
+    /* Anlegen: alles über dem Notgroschen von drei Monatsausgaben */
+    var puffer = notgroschenSchwelle();
+    if (S.konsumkredit === 0 && S.konto > puffer) {
+      var frei = S.konto - puffer;
+      S.konto -= frei; angelegt += frei;
+      if (S.anlage === "sparkonto") S.sparkonto += frei;
+      else if (S.anlage === "depot") { S.depot += frei; S.depotEinzahlung += frei; }
+      else {
+        var h = Math.round(frei / 2);
+        S.sparkonto += h; S.depot += frei - h; S.depotEinzahlung += frei - h;
+      }
+    }
+
+    /* Verzinsung */
+    var zs = Math.round(S.sparkonto * SPARZINS / 12);
+    S.sparkonto += zs; zinsSpar += zs;
+    S.depot = Math.round(S.depot * (1 + monatsRendite));
+  }
+
+  /* Steuerrechnung am Jahresende */
+  var st = steuer(bruttoJahr());
+  belasten(st);
+
+  /* Immobilienwert */
+  if (S.immoWert > 0) {
+    S.immoIndex = S.immoIndex * (1 + immoRendite);
+    S.immoWert = Math.round(KAUFPREIS * S.immoIndex);
+  }
+
+  /* Anspannung: Gewöhnung baut ab, offene Schulden und ein dünner
+     Notgroschen bauen auf. Ganz auf null geht sie nie – Geld bleibt ein Thema. */
+  S.stress -= 3;
+  if (S.konsumkredit > 0) S.stress += 6;
+  if (finanzvermoegen() < notgroschenSchwelle()) S.stress += 5;
+  if (S.lebensstil === "sparsam") S.stress += 2;
+  if (S.familienSchuld > 0) S.stress += 1;
+  /* Buchverluste tun weh, auch wenn nichts verkauft wurde – genau darum
+     verkaufen viele Menschen ausgerechnet im Tief. */
+  if (S.depot > 0 && rendite <= -0.15) S.stress += 7;
+  if (S.immoWert > 0 && immoRendite <= -0.08) S.stress += 6;
+  if (lohnausfall > 0) S.stress += 10;
+  S.stress = Math.max(5, Math.min(100, S.stress));
+
+  S.verlauf.push({
+    jahr: S.jahr, alter: STARTALTER + S.jahr - 1, brutto: bruttoMonat(), netto: netto,
+    fix: fixTotal(), leben: lebenshaltung(), angelegt: angelegt, steuer: st,
+    depotRendite: rendite, immoRendite: immoRendite, konto: S.konto, sparkonto: S.sparkonto,
+    depot: S.depot, immo: S.immoWert, konsumkredit: S.konsumkredit, hypothek: S.hypothek,
+    vermoegen: nettovermoegen(), stress: S.stress, stil: S.lebensstil, anlage: S.anlage
+  });
+  S.letzterSparbetrag = Math.round(angelegt / 12);
+
+  zeigeAbschluss(einnahmen, ausgaben, angelegt, st, zinsKonsum, zinsSpar, rendite, immoRendite, amortisiert, lohnausfall);
+}
+
+function zeigeAbschluss(einnahmen, ausgaben, angelegt, st, zinsKonsum, zinsSpar, rendite, immoRendite, amortisiert, lohnausfall) {
+  versteckeAlles();
+  zeigeKopf();
+  el("phase-abschluss").className = "karte";
+  el("abschluss-titel").textContent = "Jahresabschluss – du bist " + (STARTALTER + S.jahr - 1);
+
+  var z = "";
+  z += '<li><span>Lohn (13 Auszahlungen)</span><span class="plus">' + chf(einnahmen) + '</span></li>';
+  if (lohnausfall > 0) z += '<li><span>Lohnausfall wegen Stellenverlust (Arbeitslosengeld deckt 80 %)</span><span class="minus">' + chf(-lohnausfall) + '</span></li>';
+  z += '<li><span>Feste Kosten und Lebenshaltung</span><span class="minus">' + chf(-ausgaben) + '</span></li>';
+  z += '<li><span>Steuerrechnung</span><span class="minus">' + chf(-st) + '</span></li>';
+  if (amortisiert > 0) z += '<li><span>Amortisation – Schuld getilgt, Eigentum aufgebaut</span><span>' + chf(amortisiert) + '</span></li>';
+  if (zinsKonsum > 0) z += '<li><span>Zins auf deinen Konsumkredit (10 %)</span><span class="minus">' + chf(-zinsKonsum) + '</span></li>';
+  if (angelegt > 0) z += '<li><span>Zurückgelegt</span><span>' + chf(angelegt) + '</span></li>';
+  if (zinsSpar > 0) z += '<li><span>Zins auf dem Sparkonto</span><span class="plus">' + chf(zinsSpar) + '</span></li>';
+  if (S.depot > 0 || rendite !== 0) {
+    z += '<li><span>Depot dieses Jahr: ' + (rendite >= 0 ? "+" : "") + (rendite * 100).toFixed(1) +
+         ' %</span><span class="' + (rendite >= 0 ? "plus" : "minus") + '">' + chf(S.depot) + '</span></li>';
+  }
+  if (S.immoWert > 0) {
+    z += '<li><span>Wohnung: ' + (immoRendite >= 0 ? "+" : "") + (immoRendite * 100).toFixed(1) +
+         ' %</span><span>' + chf(S.immoWert) + '</span></li>';
+  }
+  el("abschluss-liste").innerHTML = z +
+    '<li><span><strong>Nettovermögen</strong></span><span class="' +
+    (nettovermoegen() < 0 ? "minus" : "plus") + '"><strong>' + chf(nettovermoegen()) + '</strong></span></li>';
+
+  var extra = "";
+  if (rendite <= -0.20) {
+    extra += '<div class="warnung">Ein schlechtes Börsenjahr: dein Depot hat ' + (rendite * 100).toFixed(0) +
+      ' % verloren. Solche Jahre gehören dazu – wer jetzt verkauft, macht den Verlust endgültig. ' +
+      'Verkaufen kannst du in diesem Spiel ohnehin nicht: Du entscheidest nur, wohin neues Geld fliesst.</div>';
+  }
+  if (immoRendite <= -0.08 && S.immoWert > 0) {
+    var eingesetzt = Math.round(KAUFPREIS * EK_QUOTE);
+    var verlust = Math.round(KAUFPREIS * S.immoIndex / (1 + immoRendite) * -immoRendite);
+    extra += '<div class="warnung">Die Immobilienpreise fallen um ' + (immoRendite * 100).toFixed(0) +
+      ' %. Deine Wohnung verliert rund ' + chf(verlust) + ' an Wert. Achtung, das ist der Hebel: ' +
+      'Eingesetzt hattest du ' + chf(eingesetzt) + ' Eigenkapital – der Wertverlust frisst davon rund ' +
+      Math.round(100 * verlust / eingesetzt) + ' %. Die Hypothek dagegen bleibt, wie sie war. ' +
+      'Schulden schrumpfen nicht mit.</div>';
+  }
+  if (S.konsumkredit > 0) {
+    extra += '<div class="warnung">Du schleppst einen Konsumkredit von ' + chf(S.konsumkredit) + ' mit. ' +
+      'Er kostet dich 10 % pro Jahr – jedes Jahr aufs Neue, solange er offen ist.</div>';
+  }
+  if (S.aboTeuer && S.aboMonateRest > 0) {
+    extra += '<div class="warnung">Dein Streaming-Abo kostet seit dem vierten Monat CHF 39.90 statt CHF 19.90. ' +
+      'Gekündigt hast du nicht – das rechnet der Anbieter genau so ein.</div>';
+  }
+  el("abschluss-extra").innerHTML = extra;
+  el("weiter").textContent = S.jahr >= JAHRE ? "Zur Auswertung" : "Weiter ins nächste Jahr";
+}
+
+function weiter() {
+  if (S.jahr >= JAHRE) { zeigeAuswertung(); return; }
+  S.jahr++;
+  naechsteEntscheidung();
+}
+
+/* --- Grafik ------------------------------------------------------------- */
+
+function linie(werte, farbe, hoehe, nullLinie) {
+  var b = 320, h = hoehe, pad = 4;
+  var max = Math.max.apply(null, werte), min = Math.min.apply(null, werte);
+  if (nullLinie) { max = Math.max(max, 0); min = Math.min(min, 0); }
+  if (max === min) { max = min + 1; }
+  var sx = function (i) { return pad + i * (b - 2 * pad) / Math.max(1, werte.length - 1); };
+  var sy = function (v) { return h - pad - (v - min) * (h - 2 * pad) / (max - min); };
+  var punkte = werte.map(function (v, i) { return sx(i).toFixed(1) + "," + sy(v).toFixed(1); }).join(" ");
+  var null_ = (nullLinie && min < 0)
+    ? '<line x1="' + pad + '" y1="' + sy(0).toFixed(1) + '" x2="' + (b - pad) + '" y2="' + sy(0).toFixed(1) +
+      '" stroke="#c9d2c2" stroke-width="1" stroke-dasharray="3 3"></line>' : "";
+  var flaeche = '<polygon points="' + sx(0).toFixed(1) + "," + sy(nullLinie ? Math.max(min, 0) : min).toFixed(1) +
+    " " + punkte + " " + sx(werte.length - 1).toFixed(1) + "," + sy(nullLinie ? Math.max(min, 0) : min).toFixed(1) +
+    '" fill="' + farbe + '" opacity="0.13"></polygon>';
+  return '<svg viewBox="0 0 ' + b + ' ' + h + '" role="img">' + null_ + flaeche +
+    '<polyline points="' + punkte + '" fill="none" stroke="' + farbe +
+    '" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"></polyline></svg>';
+}
+
+/* --- Auswertung --------------------------------------------------------- */
+
+function hochrechnen(start, monatlich, jahre, zins) {
+  var k = start;
+  for (var m = 0; m < jahre * 12; m++) k = k * (1 + zins / 12) + monatlich;
+  return Math.round(k);
+}
+
+function zeigeAuswertung() {
+  versteckeAlles();
+  el("phase-auswertung").className = "karte";
+  el("kopf").innerHTML = '<b>Spiel beendet – Alter 30</b>';
+
+  var end = nettovermoegen();
+  var finanz = finanzvermoegen() - S.konsumkredit - S.familienSchuld;
+  versuche.push(end);
+
+  var vermoegen = S.verlauf.map(function (r) { return r.vermoegen / 100; });
+  var stressWerte = S.verlauf.map(function (r) { return r.stress; });
+  var h = "";
+
+  /* 1. Endstand */
+  h += '<p>Mit 16 hast du bei null angefangen. Mit 30 stehst du hier:</p>';
+  h += '<p class="gross' + (end < 0 ? " minus" : "") + '">' + chf(end) + '</p>';
+  h += '<ul class="liste">';
+  h += '<li><span>Konto und Sparkonto</span><span>' + chf(S.konto + S.sparkonto) + '</span></li>';
+  h += '<li><span>Depot' + (S.depotEinzahlung > 0 ? " (eingezahlt " + chf(S.depotEinzahlung) + ")" : "") +
+       '</span><span>' + chf(S.depot) + '</span></li>';
+  if (S.immoWert > 0) h += '<li><span>Wohnung</span><span>' + chf(S.immoWert) + '</span></li>';
+  if (S.hypothek > 0) h += '<li><span>Hypothek</span><span class="minus">' + chf(-S.hypothek) + '</span></li>';
+  if (S.konsumkredit > 0) h += '<li><span>Konsumkredit</span><span class="minus">' + chf(-S.konsumkredit) + '</span></li>';
+  if (S.familienSchuld > 0) h += '<li><span>Familiendarlehen</span><span class="minus">' + chf(-S.familienSchuld) + '</span></li>';
+  h += '</ul>';
+
+  /* 2. Grafiken */
+  h += '<h2 style="margin-top:16px">Dein Vermögen über 15 Jahre</h2>';
+  h += linie(vermoegen, "#5b7036", 110, true);
+  h += '<p class="legende"><span>Alter 16</span><span style="margin-left:auto">Alter 30</span></p>';
+  h += '<h2 style="margin-top:14px">Deine finanzielle Anspannung</h2>';
+  h += linie(stressWerte, "#cc8844", 80, false);
+  h += '<p class="legende">Höchststand ' + Math.max.apply(null, stressWerte) + ', am Ende ' +
+       Math.round(S.stress) + ' von 100. Geld und Ruhe sind zwei verschiedene Ergebnisse – ' +
+       'ein hoher Kontostand nützt wenig, wenn er dich dauernd wachhält.</p>';
+
+  /* 3. Tabelle */
+  var prozent = function (v) {
+    return (v >= 0 ? "+" : "−") + Math.abs(v * 100).toFixed(0) + " %";
+  };
+  h += '<h2 style="margin-top:16px">Jahr für Jahr</h2><div class="tabellenrahmen"><table><thead><tr>' +
+       '<th>Alter</th><th>Lohn</th><th>Zurückgelegt</th><th>Depot</th><th>Wohnung</th>' +
+       '<th>Vermögen</th><th>Anspannung</th></tr></thead><tbody>';
+  S.verlauf.forEach(function (r) {
+    h += '<tr><td>' + r.alter + '</td><td>' + chfKurz(r.brutto) + '</td><td>' + chfKurz(r.angelegt) +
+         '</td><td>' + prozent(r.depotRendite) + '</td><td>' +
+         (r.immo > 0 ? prozent(r.immoRendite) : "–") + '</td><td>' +
+         chfKurz(r.vermoegen) + '</td><td>' + Math.round(r.stress) + '</td></tr>';
+  });
+  h += '</tbody></table></div><p class="legende">Beträge in CHF, gerundet.</p>';
+
+  /* 4. Hochrechnung */
+  var basis = Math.max(0, finanz);
+  var weiterSparen = Math.max(0, S.letzterSparbetrag);
+  h += '<h2 style="margin-top:18px">Und jetzt kommt der eigentliche Punkt</h2>';
+  h += '<p>Du hast 15 Jahre gespielt. Bis zur Pensionierung mit 65 sind es weitere <strong>34 Jahre</strong> – ' +
+       'die musst du nicht spielen, aber du solltest sehen, was sie ausmachen. Dein Finanzvermögen von ' +
+       chf(basis) + ' würde bis dahin so wachsen:</p>';
+  h += '<div class="tabellenrahmen"><table><thead><tr><th>Mit 65</th><th>bei 2 %</th><th>bei 4 %</th><th>bei 6 %</th></tr></thead><tbody>';
+  h += '<tr><td>einfach liegen lassen</td>' +
+       '<td>' + chfKurz(hochrechnen(basis, 0, 34, 0.02)) + '</td>' +
+       '<td>' + chfKurz(hochrechnen(basis, 0, 34, 0.04)) + '</td>' +
+       '<td>' + chfKurz(hochrechnen(basis, 0, 34, 0.06)) + '</td></tr>';
+  if (weiterSparen > 0) {
+    h += '<tr><td>und weiter ' + chfKurz(weiterSparen) + '/Monat sparen</td>' +
+         '<td>' + chfKurz(hochrechnen(basis, weiterSparen, 34, 0.02)) + '</td>' +
+         '<td>' + chfKurz(hochrechnen(basis, weiterSparen, 34, 0.04)) + '</td>' +
+         '<td>' + chfKurz(hochrechnen(basis, weiterSparen, 34, 0.06)) + '</td></tr>';
+  }
+  h += '</tbody></table></div>';
+  h += '<div class="warnung">Drei Spalten statt einer Zahl – und das mit Absicht. Niemand kann dir sagen, ' +
+       'welche davon eintrifft. Diese Hochrechnung tut zudem so, als liefe jedes Jahr gleich ab und als ' +
+       'bliebe dein Leben unverändert – dein eigener Verlauf oben zeigt, dass beides nie stimmt. Kinder, ' +
+       'Teilzeit, Krankheit oder ein Stellenwechsel verändern die Sparrate oft für Jahre. Was die Tabelle ' +
+       'trotzdem richtig zeigt, ist die <strong>Richtung</strong>: Zeit wirkt stärker als der Betrag.</div>';
+
+  /* A spart mit 19–31 und lässt das Geld dann 34 Jahre liegen, B spart mit
+     41–53 und lässt es 12 Jahre liegen – gleiche Einzahlung, gleiche Dauer. */
+  var angespart = hochrechnen(0, 20000, 12, 0.04);
+  var a = Math.round(angespart * Math.pow(1.04, 34));
+  var b = Math.round(angespart * Math.pow(1.04, 12));
+  h += '<h2 style="margin-top:16px">Früh anfangen schlägt viel einzahlen</h2>';
+  h += '<p>Zwei Personen legen <strong>genau gleich viel</strong> zur Seite: CHF 200 im Monat, zwölf Jahre lang, ' +
+       'zusammen CHF 28\'800. Nur der Zeitpunkt unterscheidet sich. Beide rechnen mit 4 % pro Jahr:</p>';
+  h += '<ul class="liste">' +
+       '<li><span><strong>A</strong> spart von 19 bis 31, dann liegt das Geld einfach</span><span>' + chf(a) + '</span></li>' +
+       '<li><span><strong>B</strong> spart von 41 bis 53, dann liegt das Geld einfach</span><span>' + chf(b) + '</span></li>' +
+       '</ul>';
+  h += '<p>Gleiche Einzahlung, gleiche Dauer, gleiche Rendite – und A hat mit 65 rund das <strong>' +
+       (a / b).toFixed(1).replace(".", ",") + '-Fache</strong>. Der einzige Unterschied ist die Zeit, die das ' +
+       'Geld arbeiten konnte. Das ist der Zinseszinseffekt, und er ist der Grund, warum dieses Spiel mit 16 ' +
+       'beginnt und nicht mit 40.</p>';
+
+  /* 5. Erklärtexte */
+  h += erklaerungen();
+
+  /* 6. Durchgänge */
+  h += '<p class="legende" style="margin-top:14px">' + (versuche.length > 1
+    ? "Deine Durchgänge: " + versuche.map(function (v, i) { return (i + 1) + ". " + chf(v); }).join("  ·  ")
+    : "Spiel es ruhig nochmals – mit anderem Lebensstil, anderer Anlage, anderen Entscheidungen. " +
+      "Der Zufall würfelt neu, deine Strategie nicht.") + '</p>';
+
+  el("auswertung-inhalt").innerHTML = h;
+}
+
+function erklaerungen() {
+  var h = "";
+  var depotJahre = S.verlauf.map(function (r) { return r.depotRendite; });
+  var schlechtestes = Math.min.apply(null, depotJahre);
+  var schlechtestesJahr = depotJahre.indexOf(schlechtestes) + 1;
+  var hatDepot = S.depotEinzahlung > 0;
+  var gewinn = S.depot - S.depotEinzahlung;
+
+  /* Sparen und Anlegen */
+  h += '<h2 style="margin-top:18px">1. Sparkonto, Depot und das Wort «garantiert» (Modul 13)</h2><p>';
+  if (hatDepot) {
+    h += 'Du hast ' + chf(S.depotEinzahlung) + ' ins Depot eingezahlt, am Ende stehen ' + chf(S.depot) + ' – ' +
+         (gewinn >= 0 ? 'ein Plus von ' + chf(gewinn) + '.' : 'ein Minus von ' + chf(-gewinn) + '.') + ' ';
+    h += 'Im Jahr ' + schlechtestesJahr + ' verlor dein Depot ' + Math.abs(schlechtestes * 100).toFixed(0) +
+         ' % seines Werts – solche Jahre gibt es in jedem Durchlauf dieses Spiels, weil es sie in der ' +
+         'Wirklichkeit auch gibt. ';
+    h += gewinn >= 0
+      ? 'Dass es bei dir gut ausging, ist <strong>kein Beweis dafür, dass du klug gehandelt hast</strong> – ' +
+        'du hast ein Risiko getragen, und diesmal hat es sich ausgezahlt. Bei gleichem Verhalten hätte es ' +
+        'auch anders enden können.'
+      : 'Dass es bei dir schlecht ausging, heisst <strong>nicht, dass die Entscheidung falsch war</strong> – ' +
+        'über längere Zeiträume gleichen sich solche Jahre meist wieder aus. Nur garantiert ist das nie, und ' +
+        'genau darum gehört angelegtes Geld nicht zum Notgroschen.';
+  } else {
+    h += 'Du bist beim Sparkonto geblieben – mit 0,25 % Zins. Das ist sicher und jederzeit verfügbar, aber es ' +
+         'wächst kaum: Über 15 Jahre macht der Zins auf CHF 10\'000 gerade rund CHF 380 aus. ' +
+         'Ein breit gestreutes Depot hätte im Schnitt mehr gebracht – zum Preis von Jahren wie dem ' +
+         'Jahr ' + schlechtestesJahr + ', in dem es ' + (schlechtestes * 100).toFixed(0) + ' % verloren hätte. ' +
+         'Beides ist vertretbar; entscheidend ist, dass du weisst, wofür du dich entscheidest.';
+  }
+  h += ' <strong>Streuung</strong> ist dabei das Einzige, was Risiko senkt, ohne Ertrag zu kosten: Wer sein Geld ' +
+       'auf viele hundert Unternehmen verteilt, übersteht den Zusammenbruch eines einzelnen. Wer alles auf eine ' +
+       'Aktie oder eine Kryptowährung setzt, hat diesen Schutz nicht.</p>';
+
+  /* Kredite */
+  var kreditNotiz = S.verlauf.some(function (r) { return r.konsumkredit > 0; });
+  h += '<h2>2. Konsumkredit und Hypothek sind nicht dasselbe (Modul 12)</h2><p>';
+  h += 'Beides ist geliehenes Geld – der Unterschied liegt im Preis und im Zweck. Der Konsumkredit in diesem ' +
+       'Spiel kostet <strong>10 %</strong> pro Jahr und finanziert etwas, das beim Benutzen an Wert verliert: ' +
+       'Ferien, ein Handy, Sneaker. Die Hypothek kostet <strong>1,7 %</strong> und steht einer Wohnung gegenüber, ' +
+       'die es weiterhin gibt. Darum ist die eine Schuld beherrschbar und die andere gefährlich. ';
+  h += kreditNotiz
+    ? 'Du hattest zwischendurch selbst einen Konsumkredit laufen und hast gemerkt, wie zäh er sich abbauen lässt.'
+    : 'Du bist ohne Konsumkredit durchgekommen – der unauffälligste Erfolg in diesem Spiel und einer der wertvollsten.';
+  h += ' Übrigens: Die 10 % sind der <strong>gesetzliche Höchstzins der Schweiz</strong>. Liechtenstein kennt ' +
+       'keine solche Obergrenze.</p>';
+
+  /* Versicherung/Notgroschen und Wohneigentum */
+  h += '<h2>3. Wohneigentum: Der Hebel wirkt in beide Richtungen (Module 11 und 12)</h2><p>';
+  if (S.immoWert > 0) {
+    var wertAenderung = S.immoWert - KAUFPREIS;
+    var ekEinsatz = Math.round(KAUFPREIS * EK_QUOTE);
+    h += 'Du hast im Jahr ' + S.immoKaufJahr + ' gekauft. Die Wohnung ist heute ' +
+         (wertAenderung >= 0 ? chf(wertAenderung) + ' mehr wert' : chf(-wertAenderung) + ' weniger wert') +
+         ' als beim Kauf. Weil du nur ' + chf(ekEinsatz) + ' eigenes Geld eingesetzt hast, wirkt jede ' +
+         'Preisbewegung auf dein Eigenkapital rund fünffach: ' +
+         (wertAenderung >= 0
+           ? 'Das hat diesmal für dich gearbeitet.'
+           : 'Das hat diesmal gegen dich gearbeitet – die Hypothek blieb gleich hoch, geschrumpft ist nur dein Anteil.') +
+         ' Dazu kommt, was man leicht übersieht: Dein Eigenkapital ist in der Wohnung <strong>gebunden</strong> ' +
+         'und kann anderswo nichts mehr erwirtschaften. Eigentum ist darum kein Gratis-Vermögensaufbau, sondern ' +
+         'eine Entscheidung mit Preis.';
+  } else {
+    h += 'Du hast keine Wohnung gekauft – entweder weil das Eigenkapital oder das Einkommen nicht reichte, oder ' +
+         'weil du dich dagegen entschieden hast. Das ist keine verpasste Chance: Zur Miete zu wohnen ist ' +
+         'flexibler, und das Geld bleibt frei verfügbar. Wichtig ist nur zu wissen, warum die Bank bei einem ' +
+         'Kauf 20 % Eigenkapital verlangt: Fallen die Preise um 15 %, ist bei einer Wohnung zu CHF 420\'000 ' +
+         'schon der grösste Teil dieses Eigenkapitals weg – die Hypothek dagegen bleibt in voller Höhe stehen.';
+  }
+  h += '</p>';
+
+  /* Familienhilfe / Fairness */
+  var hilfe = S.notizen.some(function (n) { return n.indexOf("Erbvorbezug") >= 0 || n.indexOf("Familiendarlehen") >= 0; });
+  h += '<h2>4. Nicht alles im Spiel hängt von dir ab</h2><p>';
+  h += hilfe
+    ? 'Du hast Unterstützung aus deiner Familie bekommen – und die hat deinen Verlauf spürbar verändert. '
+    : 'In diesem Durchlauf gab es keine Unterstützung aus der Familie. ';
+  h += 'Ob jemand einen Erbvorbezug oder ein zinsloses Darlehen angeboten bekommt, ist keine Leistung, sondern ' +
+       'Herkunft. In der Wirklichkeit ist genau das einer der Gründe, warum Wohneigentum für die einen erreichbar ' +
+       'ist und für die anderen nicht – bei gleichem Lohn und gleichem Sparwillen. Dieselbe Frage stellt sich bei ' +
+       'Stellenverlust, Krankheit und Zufall an der Börse: <strong>Ein gutes Ergebnis ist nicht immer verdient, ' +
+       'und ein schlechtes nicht immer selbst verschuldet.</strong> Was du beeinflussen kannst, ist trotzdem ' +
+       'nicht wenig – wann du anfängst, wie viel du zurücklegst, welche Schulden du eingehst und ob du dir ' +
+       'Angebote genau anschaust.</p>';
+
+  /* Dark Patterns */
+  h += '<h2>5. Die kleinen Beträge (Module 15 und 17)</h2><p>' +
+       'Der Countdown beim Streaming-Abo, die vorausgewählte Ratenzahlung beim Handy, das ' +
+       '«kauf jetzt, zahl später» im Onlineshop: Keines dieser Angebote war ein Betrug, und jedes war so gebaut, ' +
+       'dass der bequemste Weg der teuerste ist. ';
+  if (S.aboBezahlt > 0) {
+    h += 'Dein Streaming-Abo hat dich in diesem Spiel <strong>' + chf(S.aboBezahlt) + '</strong> gekostet' +
+         (S.aboMonateRest > 0 ? ' – und es läuft immer noch. ' : ', bis du es gekündigt hast. ') +
+         'Aufgefallen ist es dir vermutlich nie, weil es monatlich abging. ';
+  } else {
+    h += 'Das Abo hast du gar nicht erst abgeschlossen – über zehn Jahre hätte es rund CHF 4\'800 gekostet. ';
+  }
+  h += 'Der Handykauf auf Raten entspricht, auf ein Jahr gerechnet, über 22 % Zins – mehr als jeder ' +
+       'Konsumkredit, und niemand nennt es Zins. Solche Beträge tun nie weh, wenn sie anfallen. ' +
+       'Sie tun weh, wenn man sie zusammenzählt.</p>';
+
+  return h;
+}
+
+/* --- Verdrahtung -------------------------------------------------------- */
+
+el("jahr-starten").addEventListener("click", starteJahr);
+el("weiter").addEventListener("click", weiter);
+el("nochmal").addEventListener("click", neuesSpiel);
+
+neuesSpiel();
+</script>
+</body>
+</html>
