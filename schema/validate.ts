@@ -49,6 +49,8 @@ const whitelistSchema = z.strictObject({
   videoUrlHosts: z.array(z.string().min(1)),
   maxVideoSizeKB: z.number().int().positive(),
   videoExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
+  audioExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
+  maxAudioSizeKB: z.number().int().positive(),
   imageHosts: z.array(z.string().min(1)),
   imageExtensions: z.array(z.string().regex(/^\.[a-z0-9]+$/)),
   maxImageSizeKB: z.number().int().positive(),
@@ -279,6 +281,34 @@ function checkModule(
     }
   }
 
+  // --- Audio: nur moduleigene Dateien, Existenz + Grösse -------------------
+  const referenzierteAudios = new Set<string>();
+  for (const block of mod.blocks) {
+    if (!isKnownBlock(block) || block.type !== "audio") continue;
+    const erwartet = `/content/${mod.id}/`;
+    if (!block.src.startsWith(erwartet)) {
+      errors.push(
+        `Audio "${block.src}" – Hördateien gehören in den eigenen Modulordner und heissen "${erwartet}<datei>.mp3" (auch .m4a).`,
+      );
+      continue;
+    }
+    const fileName = block.src.slice(erwartet.length);
+    referenzierteAudios.add(fileName);
+    const datei = path.join(modDir, fileName);
+    if (!fs.existsSync(datei)) {
+      errors.push(
+        `Audio "${block.src}" nicht gefunden – die Datei gehört neben die module.json in modules/${mod.id}/.`,
+      );
+      continue;
+    }
+    const kb = Math.round(fs.statSync(datei).size / 1024);
+    if (kb > whitelist.maxAudioSizeKB) {
+      errors.push(
+        `Audio "${fileName}" ist ${kb} KB gross – erlaubt sind höchstens ${whitelist.maxAudioSizeKB} KB (schema/whitelist.json → maxAudioSizeKB).`,
+      );
+    }
+  }
+
   // --- Bilder: Ablage im Modulordner, Endung, Remote-Hosts -----------------
   // Gilt für image-Blöcke UND Markdown-Bilder in Textfeldern (siehe unten).
   const referencedImages = new Set<string>();
@@ -318,8 +348,18 @@ function checkModule(
     }
   };
   for (const block of mod.blocks) {
-    if (!isKnownBlock(block) || block.type !== "image") continue;
-    checkBildUrl(block.src, "Bild-src");
+    if (isKnownBlock(block) && block.type === "image") {
+      checkBildUrl(block.src, "Bild-src");
+    }
+    // Zuordnungs-Bilder unterliegen denselben Regeln wie image-Blöcke.
+    if (isKnownBlock(block) && block.type === "zuordnung") {
+      [
+        ...block.paare.flatMap((p) => [p.links, p.rechts]),
+        ...block.ablenker,
+      ].forEach((element, i) => {
+        if (element.bild) checkBildUrl(element.bild.src, `Zuordnungs-Bild ${i + 1}`);
+      });
+    }
   }
 
   // --- Planspiele: eigene Datei, Dokumentanfang, Grösse, keine externen ----
@@ -396,9 +436,15 @@ function checkModule(
     }
     if (entry.name === "module.json") continue;
     const ext = path.extname(entry.name).toLowerCase();
-    // Videodateien prüft der Video-Abschnitt oben (Grösse + Referenz);
+    // Video-/Audiodateien prüfen die Abschnitte oben (Grösse + Referenz);
     // hier zählt nur, dass die Endung überhaupt ins Modul gehört.
     if (whitelist.videoExtensions.includes(ext)) continue;
+    if (whitelist.audioExtensions.includes(ext)) {
+      if (!referenzierteAudios.has(entry.name)) {
+        hints.push(`Audio "${entry.name}" wird von keinem Block referenziert.`);
+      }
+      continue;
+    }
     // Planspiel-Dateien prüft der Planspiel-Abschnitt oben (Format +
     // Grösse + verbotene Muster); unreferenziertes HTML hat im Modul
     // nichts verloren – die Plattform veröffentlicht es ohnehin nie.

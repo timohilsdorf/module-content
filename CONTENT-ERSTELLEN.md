@@ -84,7 +84,34 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      Kleinschreibung ist standardmässig egal). Modus "wortbank" bietet
 >      die Wörter als Auswahl an ("ablenker" = zusätzliche falsche
 >      Wörter); Modus "eingabe" zeigt Freitextfelder (dann kein "ablenker").
->   6. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
+>   6. {"type":"lueckentext","id":"sb1","modus":"satzbau","title":"…",
+>      "bausteine":["Die Validierung","prüft","vor dem Merge","jedes Modul"],
+>      "alternativen":[[1,2,4,3]],"ablenker":["per E-Mail"]}
+>      – Satzbau: Die Lernenden bringen die "bausteine" in die richtige
+>      Reihenfolge (angezeigt werden sie gemischt). "bausteine" stehen im
+>      JSON in der KORREKTEN Reihenfolge; "alternativen" (optional) sind
+>      weitere gültige Reihenfolgen als 1-basierte Indizes (z. B. für
+>      verschiebbare Satzglieder – JEDE gelistete Reihenfolge muss ein
+>      korrekter Satz sein); "ablenker" gehören nicht in die Lösung.
+>      Kein "text"/"luecken" in diesem Modus.
+>   7. {"type":"zuordnung","id":"zu1","title":"…","paare":[
+>      {"links":{"text":"Begriff"},"rechts":{"text":"Definition"}},
+>      {"links":{"text":"Begriff 2"},"rechts":{"bild":{"src":
+>      "/content/<id>/bild.jpg","alt":"Pflicht-Beschreibung",
+>      "credit":"Quelle & Lizenz (Pflicht)"}}}],
+>      "ablenker":[{"text":"passt zu keinem Paar"}]}
+>      – Zuordnung: 2–12 Paare, jedes Element entweder "text" ODER "bild"
+>      (Bilder mit alt und credit als Pflicht, gleiche Bildregeln wie
+>      beim image-Block). Rechte Elemente müssen unterscheidbar sein.
+>   8. {"type":"audio","id":"hoeren1","title":"Pflicht-Titel",
+>      "src":"/content/<id>/aufnahme.mp3","description":"Höraufgabe …",
+>      "transcript":"Pflicht: vollständiges Transkript.",
+>      "credit":"Pflicht: Quelle & Lizenz"}
+>      – Hörverstehen: Die .mp3/.m4a-Datei liegt im Modulordner (wie
+>      Bilder hochladen); danach folgt idealerweise ein Lückentext, eine
+>      Zuordnung oder ein Quiz zum Gehörten. Nur Aufnahmen mit geklärter
+>      Lizenz.
+>   9. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
 >      "figur":{"name":"Frau Keller","rolle":"Gemeindepräsidentin"},
 >      "start":"k1","knoten":[
 >      {"id":"k1","text":"Was die Figur sagt …","antworten":[
@@ -182,9 +209,15 @@ lass dir die Datei neu ausgeben.
    Modul frei. Nach dem Freischalten erscheint das Modul automatisch auf
    der Website – du musst nichts weiter tun.
 
-**Falls dein Modul eigene Bilder hat:** Die Bilder gehören in denselben
-Ordner wie deine `module.json` – und diesen Ordner hast du in Punkt 4
-oben bereits erzeugt. So lädst du die Bilder im selben Pull Request hoch:
+**Falls dein Modul eigene Bilder oder Hördateien hat:** Beide gehören in
+denselben Ordner wie deine `module.json` – und diesen Ordner hast du in
+Punkt 4 oben bereits erzeugt. Für Hördateien gilt: Format `.mp3` oder
+`.m4a` (mono, 64–96 kbit/s genügen für Sprache – so bleibt eine Minute
+unter 1 MB, Obergrenze siehe `maxAudioSizeKB` in der Whitelist), nur
+Aufnahmen mit geklärter Lizenz (Nachweis ins Pflichtfeld `credit`), bei
+eigenen Aufnahmen mit erkennbaren Stimmen die Einwilligung der
+Sprechenden einholen. So lädst du die Dateien im selben Pull Request
+hoch:
 
 1. Gehe zurück zur Startseite des Repositories (Tab **«Code»** oben links).
 2. Wechsle dort über das Branch-Menü (steht auf «main») in deinen neuen

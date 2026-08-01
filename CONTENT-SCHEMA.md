@@ -17,6 +17,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 21. Juli 2026 | Additiv (kein Versionswechsel): optionale Katalog-Metadaten [`sequenz`](#aufbau-eines-moduls) (Lernreihenfolge innerhalb von Fach/Einheit, `1` = zuerst – der Katalog sortiert danach statt nach Dateinamen) und [`einheit`](#aufbau-eines-moduls) (Themengruppe, wenn mehrere Module eine Reihe bilden; der Katalog fasst Module mit identischem Wert sichtbar als Lernpfad zusammen). Bestehende Dateien bleiben unverändert gültig. |
 | 2 | Juli 2026 | **Quiz ist ein regulärer Block** (`type: "quiz"`, Pflicht-`id`): beliebig viele Quizze pro Modul, an beliebiger Position, jedes wird einzeln ausgewertet (Prozent, Punkte, Versuche) und zählt als prüfender Block. Das frühere Sonderfeld `quiz` auf Modulebene entfällt in Version 2. **Version-1-Dateien bleiben gültig** und werden beim Einlesen verlustfrei migriert: Das Sonderfeld wird zum letzten Block mit der `id` `"quiz"` – derselbe Lernstand-Schlüssel, Fortschritt und Reports bleiben kompatibel. Coins gibt es weiterhin einmal pro bestandenem Modul, nicht pro Quiz. |
 | 2 | 31. Juli 2026 | Additiv (kein Versionswechsel): zwei neue Blocktypen. [`simulation`](#simulation--verzweigter-rollenspiel-dialog) (verzweigter Rollenspiel-Dialog, vollständig skriptiert; mit optionaler `abschlussfrage` ein prüfender Block – löst den bisherigen gleichnamigen Zukunftstyp ab) und [`planspiel`](#planspiel--eingebettetes-lernspiel-nur-everycate-kernteam) (eingebettetes Lernspiel als HTML-Datei im Modulordner, streng gekapselt; **nur für das EveryCate-Kernteam**). Bestehende Dateien bleiben gültig; ältere Player zeigen für beide einen Platzhalter. Version-1-Dateien mit einem andersförmigen `simulation`-Zukunftsblock bleiben ebenfalls gültig (Platzhalter-Verhalten bleibt erhalten). |
+| 2 | 1. August 2026 | Additiv (kein Versionswechsel): dritter Lückentext-Modus [`satzbau`](#lueckentext--lückentext-automatisch-geprüft) (Bausteine in die richtige Reihenfolge bringen; nutzt `bausteine`/`alternativen` statt `text`/`luecken` – **Achtung:** ältere Player lehnen satzbau-Blöcke ab, solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen), neuer prüfender Blocktyp [`zuordnung`](#zuordnung--paare-zuordnen-automatisch-geprüft) (Paare zuordnen, Elemente Text oder Bild) und neuer Blocktyp [`audio`](#audio--hörverstehen) (moduleigene Hördatei mit Pflicht-Transkript, nicht prüfend). Ausserdem festgehalten: `language` ist die **Zielsprache** des Moduls – bei Fremdsprachenmodulen (z. B. `"en"`) antwortet der KI-Lernpartner Cate in dieser Sprache. |
 
 ## Ablage
 
@@ -44,12 +45,13 @@ Regeln:
   läuft bei jedem Pull Request und markiert ihn bei Verstössen als
   fehlgeschlagen. Geprüft werden auch: erlaubte Blocktypen, Video-Provider
   und Bild-Hosts laut [`schema/whitelist.json`](schema/whitelist.json)
-  (auch für Markdown-Bilder in Textfeldern), kein Roh-HTML in Textfeldern,
-  Existenz/Endung/Grösse der Bilddateien, maximale Grösse der
-  `module.json` (`maxModuleJsonKB`), Planspiel-Dateien (Dokumentanfang,
-  Grössenlimit, keine externen Verweise), Eindeutigkeit von IDs,
-  Pflicht-`id` bei Quizfragen und saubere Modulordner (nur `module.json`,
-  Bilder, Videos und referenzierte Planspiel-Dateien, keine Symlinks).
+  (auch für Markdown-Bilder in Textfeldern und Zuordnungs-Bilder), kein
+  Roh-HTML in Textfeldern, Existenz/Endung/Grösse der Bild-, Video- und
+  Audiodateien, maximale Grösse der `module.json` (`maxModuleJsonKB`),
+  Planspiel-Dateien (Dokumentanfang, Grössenlimit, keine externen
+  Verweise), Eindeutigkeit von IDs, Pflicht-`id` bei Quizfragen und
+  saubere Modulordner (nur `module.json`, Bilder, Videos, Hördateien und
+  referenzierte Planspiel-Dateien, keine Symlinks).
   `requires`-Verweise auf (noch) nicht existierende
   Module ergeben nur einen Hinweis, keinen Fehler – Slug trotzdem auf
   Tippfehler prüfen.
@@ -98,7 +100,7 @@ Regeln:
 | `grades` | – | string | Freitext-Stufe, z. B. `"7.–9. Klasse (Sek I)"`. |
 | `sequenz` | – | int > 0 | Lernreihenfolge innerhalb des Fachs bzw. der Einheit (`1` = zuerst). Der Katalog sortiert danach – unabhängig vom Dateinamen; Module ohne Wert folgen alphabetisch nach Titel. |
 | `einheit` | – | string (≤ 120) | Themengruppe/Einheit, wenn mehrere Module eine Reihe bilden (z. B. `"Themenblock A: Grundbegriffe und Wirtschaftskreislauf"`). Module mit identischem Wert fasst der Katalog sichtbar als Lernpfad zusammen. |
-| `language` | – | string | BCP-47-Code, Standard `"de"`. |
+| `language` | – | string | BCP-47-Code, Standard `"de"`. **Zielsprache des Moduls:** Bei Fremdsprachenmodulen (z. B. `"en"` für Englisch) stehen die Inhalte in dieser Sprache, und der KI-Lernpartner Cate antwortet bei Aufgaben-Rückmeldungen und Rückfragen ebenfalls darin (einfach, dem Sprachniveau der Stufe angemessen). |
 | `curriculum` | – | string | Lehrplan-Referenzrahmen für `cycle`/`competencies`, Standard `"lehrplan21"`. Wird beim Modul als Badge angezeigt; die Plattform selbst ist lehrplanneutral. |
 | `competencies` | – | Liste | Lehrplan-21-Kompetenzcodes (`code` im Format `FACH.x.y.z`, z. B. `RZG.4.2.c`; optional `description`). |
 | `learningObjectives` | ✅ | string[] | Lernziele aus Schülersicht («Ich kann …»), mind. 1. |
@@ -270,6 +272,118 @@ Regeln:
   (Juli 2026, siehe [Versionsgeschichte](#versionsgeschichte)) – ältere
   Player-Versionen zeigen dafür einen Platzhalter.
 
+**Modus `satzbau`** (seit 1. August 2026): Statt Lücken zu füllen, bringen
+die Lernenden vorgegebene Wörter oder Satzteile in die richtige
+Reihenfolge – per Drag-and-Drop in eine Zielreihe oder per Antippen;
+platzierte Bausteine lassen sich umsortieren und zurücklegen.
+
+```json
+{
+  "type": "lueckentext",
+  "id": "sb1",
+  "title": "Bilde den Satz",
+  "modus": "satzbau",
+  "bausteine": ["Die Validierung", "prüft", "vor dem Merge", "jedes Modul"],
+  "alternativen": [[1, 2, 4, 3]],
+  "ablenker": ["per E-Mail"]
+}
+```
+
+- **`bausteine`** (Pflicht in diesem Modus, 2–40): die Bausteine in der
+  KORREKTEN Reihenfolge. Angezeigt werden sie gemischt. `text` und
+  `luecken` entfallen in diesem Modus (die Validierung lehnt sie ab).
+- **`alternativen`** (optional): weitere gültige Reihenfolgen – z. B. für
+  verschiebbare Adverbien – als 1-basierte Indizes auf `bausteine`. Jede
+  Alternative stellt ALLE Bausteine um (vollständige Permutation).
+- **`ablenker`** (optional): zusätzliche Bausteine, die nicht in die
+  Lösung gehören (dürfen keinem Baustein gleichen).
+- **Punkte**: ein Punkt pro richtig platziertem Baustein, gewertet gegen
+  die wohlwollendste gültige Reihenfolge; bestanden bei komplett
+  richtiger Reihenfolge. Ergebnisanzeige und «Wiederholen» wie in den
+  anderen Modi.
+- **Achtung Rollout:** Ältere Player-Versionen lehnen Module mit
+  satzbau-Blöcken ab (kein Platzhalter – der Modus steckt im bestehenden
+  Blocktyp). Solche Module erst einreichen, wenn die Plattform den Modus
+  ausliefert.
+
+### `zuordnung` – Paare zuordnen (automatisch geprüft)
+
+Paare werden einander zugeordnet: Wort–Definition, Wort–Bild,
+Begriff–Beispiel. Die linke Spalte steht fest, die rechten Elemente
+(plus Ablenker) erscheinen gemischt; zugeordnet wird per Drag-and-Drop
+oder Antippen (erst der Platz, dann das Element).
+
+```json
+{
+  "type": "zuordnung",
+  "id": "zu1",
+  "title": "Ordne die Begriffe zu",
+  "intro": "Optional: Arbeitsanweisung (Markdown).",
+  "paare": [
+    { "links": { "text": "Fotosynthese" }, "rechts": { "text": "Pflanzen erzeugen Zucker aus Licht, Wasser und CO₂." } },
+    {
+      "links": { "text": "Chloroplast" },
+      "rechts": { "bild": { "src": "/content/mein-modul/chloroplast.jpg", "alt": "Mikroskopaufnahme eines Chloroplasten", "credit": "Foto: …, CC BY-SA 4.0" } }
+    }
+  ],
+  "ablenker": [{ "text": "Passt zu keinem Paar." }]
+}
+```
+
+- **`id`** (Pflicht): Lernstand und Punkte hängen am Block.
+- **`paare`** (2–12): Jedes Element hat entweder `text` ODER `bild`
+  (genau eines). Bilder brauchen `src` (Modulordner oder freigegebener
+  Host, gleiche Regeln wie der [Bild-Block](#image--bild)), `alt` und
+  `credit` – Quelle/Lizenz sind hier PFLICHT und erscheinen gesammelt
+  unter dem Block.
+- **`ablenker`** (optional, max. 6): zusätzliche RECHTE Elemente ohne
+  Partner. Alle rechten Elemente (inkl. Ablenker) müssen unterscheidbar
+  sein (die Validierung lehnt doppelte Anzeigetexte ab).
+- **Punkte**: ein Punkt pro korrektem Paar; Prozent-/Punkteanzeige und
+  «Wiederholen» wie bei Quiz und Lückentext. PRÜFENDER Block (zählt zum
+  Modulabschluss).
+- Additive Ergänzung von Schema-Version 2 (1. August 2026) – ältere
+  Player zeigen einen Platzhalter.
+
+### `audio` – Hörverstehen
+
+Eine im Modulordner hinterlegte Hördatei (kein Text-to-Speech zur
+Laufzeit) mit Abspielsteuerung: Start/Pause, Fortschrittsleiste, «von
+vorn» und verlangsamte Wiedergabe (0.75× – wichtig für Fremdsprachen).
+
+```json
+{
+  "type": "audio",
+  "id": "hoeren-1",
+  "title": "Interview: Leben am Vulkan",
+  "src": "/content/mein-modul/interview.mp3",
+  "description": "Hör zu und achte darauf, welche zwei Gründe genannt werden.",
+  "transcript": "Pflicht (Markdown): das vollständige Transkript der Aufnahme.",
+  "credit": "Aufnahme: …, CC BY-SA 4.0"
+}
+```
+
+- **`title`, `transcript`, `credit` sind PFLICHT**: Überschrift, das
+  vollständige Transkript (barrierefrei und zum Nachlesen) sowie Quelle
+  und Lizenz der Aufnahme.
+- **`src`**: Datei im **eigenen** Modulordner
+  (`/content/<modul-id>/<datei>.mp3`, auch `.m4a`) – fremde Audio-Hosts
+  gibt es nicht. Erlaubte Endungen und Maximalgrösse: siehe
+  [`schema/whitelist.json`](schema/whitelist.json) (`audioExtensions`,
+  `maxAudioSizeKB`).
+- **Eigene Aufnahmen beisteuern**: Format `.mp3` oder `.m4a` (mono,
+  64–96 kbit/s genügen für Sprache – so bleibt eine Minute unter 1 MB),
+  Datei im selben Pull Request in den Modulordner hochladen (wie
+  Bilder). Nur Aufnahmen mit geklärter Lizenz verwenden und den Nachweis
+  in `credit` angeben; bei eigenen Aufnahmen mit erkennbaren Stimmen die
+  Einwilligung der Sprechenden einholen.
+- **Kein prüfender Block**: Die Auswertung übernehmen nachfolgende
+  Aufgabenblöcke im selben Modul – ein Hörverstehen besteht typisch aus
+  einem `audio`-Block plus Lückentext, Quiz oder Zuordnung direkt
+  danach.
+- Additive Ergänzung von Schema-Version 2 (1. August 2026) – ältere
+  Player zeigen einen Platzhalter.
+
 ### `simulation` – verzweigter Rollenspiel-Dialog
 
 Ein skriptiertes Gespräch mit einer Figur: Sie spricht Knoten für Knoten,
@@ -396,8 +510,9 @@ Regeln (erzwingt die Validierung):
 Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
 Blöcke prüfend sind, steht versioniert im Schema
 ([`schema/schema.ts`](schema/schema.ts), Funktion `istPruefenderBlock`):
-`lueckentext` und `quiz` immer, `simulation` genau dann, wenn der Block
-eine [`abschlussfrage`](#simulation--verzweigter-rollenspiel-dialog)
+`lueckentext` (alle Modi inkl. `satzbau`), `quiz` und `zuordnung` immer,
+`simulation` genau dann, wenn der Block eine
+[`abschlussfrage`](#simulation--verzweigter-rollenspiel-dialog)
 trägt. Künftige auto-geprüfte Aufgabentypen werden dort eingetragen und
 zählen dann automatisch.
 

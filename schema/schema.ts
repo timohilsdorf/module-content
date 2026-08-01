@@ -51,6 +51,18 @@ import { z } from "zod";
  *   Frühere Version-1-Dateien mit einem andersförmigen
  *   simulation/planspiel-Zukunftsblock bleiben gültig (Migration benennt
  *   ihn in einen unbekannten Typ um, Platzhalter-Verhalten bleibt).
+ * - 2, additive Ergänzung (1.8.2026, KEIN Versionswechsel): dritter
+ *   Lückentext-Modus `satzbau` (vorgegebene Bausteine in die richtige
+ *   Reihenfolge bringen; nutzt `bausteine`/`alternativen` statt
+ *   `text`/`luecken` – ACHTUNG: ältere Player lehnen satzbau-Blöcke ab,
+ *   solche Module erst nach dem Plattform-Deploy einreichen), neuer
+ *   prüfender Blocktyp `zuordnung` (Paare zuordnen, Elemente Text oder
+ *   Bild) und neuer Blocktyp `audio` (moduleigene Hördatei mit
+ *   Pflicht-Transkript, nicht prüfend). Ausserdem festgehalten:
+ *   `language` ist die ZIELSPRACHE des Moduls – bei Fremdsprachenmodulen
+ *   (z. B. "en") antwortet der KI-Lernpartner in dieser Sprache.
+ *   Bestehende Dateien bleiben unverändert gültig; für die neuen
+ *   BLOCKTYPEN zeigen ältere Player Platzhalter.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -296,18 +308,40 @@ export const lueckentextBlockSchema = z
     /**
      * "wortbank": Lösungswörter (plus Ablenker) als antippbare Auswahl –
      * erst Wort antippen, dann Lücke. "eingabe": freies Textfeld pro Lücke.
+     * "satzbau" (seit 1.8.2026): vorgegebene Bausteine in die richtige
+     * Reihenfolge bringen – nutzt `bausteine`/`alternativen` statt
+     * `text`/`luecken`.
      */
-    modus: z.enum(["wortbank", "eingabe"]),
+    modus: z.enum(["wortbank", "eingabe", "satzbau"]),
     /**
-     * Der Lückentext als reiner Text (KEIN Markdown; Zeilenumbrüche mit \n
-     * bleiben erhalten). {{1}}, {{2}}, … markieren die Lücken und verweisen
-     * 1-basiert auf `luecken`; jede Lücke kommt genau einmal vor.
+     * NUR wortbank/eingabe (dort Pflicht): Der Lückentext als reiner Text
+     * (KEIN Markdown; Zeilenumbrüche mit \n bleiben erhalten). {{1}},
+     * {{2}}, … markieren die Lücken und verweisen 1-basiert auf
+     * `luecken`; jede Lücke kommt genau einmal vor.
      */
-    text: z.string().min(1),
-    luecken: z.array(lueckeSchema).min(1),
+    text: z.string().min(1).optional(),
+    /** NUR wortbank/eingabe (dort Pflicht): die Lücken zu `text`. */
+    luecken: z.array(lueckeSchema).min(1).optional(),
     /**
-     * Nur Modus "wortbank": zusätzliche falsche Wörter in der Auswahl.
-     * Dürfen mit keiner akzeptierten Antwort übereinstimmen.
+     * NUR satzbau (dort Pflicht): die Bausteine (Wörter oder Satzteile)
+     * in der KORREKTEN Reihenfolge, 2–40 Stück. Angezeigt werden sie
+     * gemischt (alphabetisch, zusammen mit den Ablenkern).
+     */
+    bausteine: z.array(z.string().trim().min(1)).min(2).max(40).optional(),
+    /**
+     * NUR satzbau: weitere gültige Reihenfolgen (z. B. verschiebbare
+     * Adverbien) als 1-basierte Indizes auf `bausteine`. Jede Alternative
+     * stellt ALLE Bausteine um (vollständige Permutation).
+     */
+    alternativen: z
+      .array(z.array(z.number().int().positive()))
+      .max(20)
+      .default([]),
+    /**
+     * wortbank: zusätzliche falsche Wörter in der Auswahl (dürfen mit
+     * keiner akzeptierten Antwort übereinstimmen). satzbau: zusätzliche
+     * Bausteine, die nicht in die Lösung gehören. Modus "eingabe": nicht
+     * erlaubt.
      */
     ablenker: z.array(z.string().trim().min(1)).default([]),
   })
@@ -331,14 +365,77 @@ export const lueckentextBlockSchema = z
       });
     }
 
-    const marker = zerlegeLueckentext(block.text).filter(
-      (s) => s.art === "luecke",
-    );
+    // --- Modus "satzbau": eigener Feldsatz --------------------------------
+    if (block.modus === "satzbau") {
+      if (block.text !== undefined || block.luecken !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: [block.text !== undefined ? "text" : "luecken"],
+          message:
+            'Lückentext: "text"/"luecken" gehören zu den Modi "wortbank"/"eingabe" – der Modus "satzbau" nutzt "bausteine" (und optional "alternativen").',
+        });
+      }
+      const bausteine = block.bausteine;
+      if (!bausteine) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["bausteine"],
+          message:
+            'Lückentext: Der Modus "satzbau" braucht "bausteine" – die Wörter oder Satzteile in der korrekten Reihenfolge.',
+        });
+        return;
+      }
+      block.alternativen.forEach((indizes, a) => {
+        const gueltig =
+          indizes.length === bausteine.length &&
+          new Set(indizes).size === indizes.length &&
+          indizes.every((i) => i >= 1 && i <= bausteine.length);
+        if (!gueltig) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["alternativen", a],
+            message: `Lückentext: Alternative ${a + 1} muss ALLE ${bausteine.length} Bausteine genau einmal umstellen (1-basierte Indizes 1–${bausteine.length}).`,
+          });
+        }
+      });
+      block.ablenker.forEach((wort, index) => {
+        if (bausteine.includes(wort)) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["ablenker", index],
+            message: `Lückentext: Ablenker "${wort}" ist zugleich ein Baustein der Lösung – er wäre kein Ablenker.`,
+          });
+        }
+      });
+      return;
+    }
+
+    // --- Modi "wortbank"/"eingabe": Text + Lücken sind Pflicht -------------
+    if (block.bausteine !== undefined || block.alternativen.length > 0) {
+      ctx.addIssue({
+        code: "custom",
+        path: [block.bausteine !== undefined ? "bausteine" : "alternativen"],
+        message:
+          'Lückentext: "bausteine"/"alternativen" gehören zum Modus "satzbau".',
+      });
+    }
+    if (!block.text || !block.luecken) {
+      ctx.addIssue({
+        code: "custom",
+        path: [!block.text ? "text" : "luecken"],
+        message: `Lückentext: Der Modus "${block.modus}" braucht "text" (mit {{1}}-Markern) und "luecken".`,
+      });
+      return;
+    }
+
+    const text = block.text;
+    const luecken = block.luecken;
+    const marker = zerlegeLueckentext(text).filter((s) => s.art === "luecke");
 
     // Wohlgeformtheit: Jedes "{{" bzw. "}}" muss zu einem vollständigen
     // {{n}}-Marker gehören – fängt {{eins}}, {{1} und verirrte Klammern.
-    const offene = (block.text.match(/\{\{/g) ?? []).length;
-    const schliessende = (block.text.match(/\}\}/g) ?? []).length;
+    const offene = (text.match(/\{\{/g) ?? []).length;
+    const schliessende = (text.match(/\}\}/g) ?? []).length;
     if (offene !== marker.length || schliessende !== marker.length) {
       ctx.addIssue({
         code: "custom",
@@ -353,15 +450,15 @@ export const lueckentextBlockSchema = z
       verwendungen.set(seg.index, (verwendungen.get(seg.index) ?? 0) + 1);
     }
     for (const [index] of verwendungen) {
-      if (index < 0 || index >= block.luecken.length) {
+      if (index < 0 || index >= luecken.length) {
         ctx.addIssue({
           code: "custom",
           path: ["text"],
-          message: `Lückentext: Marker {{${index + 1}}} verweist auf eine Lücke, die es nicht gibt – definiert sind ${block.luecken.length} Lücken ({{1}} bis {{${block.luecken.length}}}).`,
+          message: `Lückentext: Marker {{${index + 1}}} verweist auf eine Lücke, die es nicht gibt – definiert sind ${luecken.length} Lücken ({{1}} bis {{${luecken.length}}}).`,
         });
       }
     }
-    block.luecken.forEach((_, index) => {
+    luecken.forEach((_, index) => {
       const anzahl = verwendungen.get(index) ?? 0;
       if (anzahl === 0) {
         ctx.addIssue({
@@ -383,11 +480,11 @@ export const lueckentextBlockSchema = z
         code: "custom",
         path: ["ablenker"],
         message:
-          'Lückentext: "ablenker" ist nur im Modus "wortbank" erlaubt (im Modus "eingabe" gibt es keine Wortauswahl).',
+          'Lückentext: "ablenker" ist nur in den Modi "wortbank" und "satzbau" erlaubt (im Modus "eingabe" gibt es keine Auswahl).',
       });
     }
     block.ablenker.forEach((wort, index) => {
-      if (block.luecken.some((luecke) => istLueckeRichtig(wort, luecke))) {
+      if (luecken.some((luecke) => istLueckeRichtig(wort, luecke))) {
         ctx.addIssue({
           code: "custom",
           path: ["ablenker", index],
@@ -396,6 +493,44 @@ export const lueckentextBlockSchema = z
       }
     });
   });
+
+/**
+ * Alle gültigen Reihenfolgen eines satzbau-Blocks als Textfolgen: die
+ * Hauptreihenfolge (`bausteine` selbst) plus die `alternativen`.
+ */
+export function satzbauReihenfolgen(
+  block: z.infer<typeof lueckentextBlockSchema>,
+): string[][] {
+  const bausteine = block.bausteine ?? [];
+  return [
+    [...bausteine],
+    ...block.alternativen.map((indizes) => indizes.map((i) => bausteine[i - 1])),
+  ];
+}
+
+/**
+ * Positions-Treffer einer gelegten Baustein-Reihenfolge (verglichen als
+ * TEXTE – identische Bausteine sind austauschbar): Gewertet wird gegen
+ * die gültige Reihenfolge mit den MEISTEN Übereinstimmungen; bei
+ * mehreren erlaubten Lösungen zählt also die wohlwollendste. Einzige
+ * massgebliche Auswertung – Player und Anzeige nutzen dieselbe Funktion.
+ */
+export function satzbauPositionsTreffer(
+  gelegt: readonly string[],
+  block: z.infer<typeof lueckentextBlockSchema>,
+): boolean[] {
+  let beste: boolean[] = (block.bausteine ?? []).map(() => false);
+  let besteAnzahl = -1;
+  for (const reihenfolge of satzbauReihenfolgen(block)) {
+    const treffer = reihenfolge.map((textStueck, i) => gelegt[i] === textStueck);
+    const anzahl = treffer.filter(Boolean).length;
+    if (anzahl > besteAnzahl) {
+      besteAnzahl = anzahl;
+      beste = treffer;
+    }
+  }
+  return beste;
+}
 
 // --- Quiz (Fragen + Quizblock), automatisch geprüft ------------------------
 
@@ -793,13 +928,163 @@ export const simulationBlockSchema = z
     }
   });
 
+// --- Zuordnung (Paare zuordnen), automatisch geprüft ------------------------
+
+/**
+ * Ein Element einer Zuordnung: entweder reiner Text ODER ein Bild. Bilder
+ * tragen dieselben Angaben wie der Bild-Block; `credit` (Quelle/Lizenz)
+ * ist hier PFLICHT, weil es sonst nirgends erschiene (die Nachweise
+ * stehen gesammelt unter dem Block).
+ */
+export const zuordnungElementSchema = z
+  .strictObject({
+    text: z.string().min(1).max(200).optional(),
+    bild: z
+      .strictObject({
+        /** Pfad "/content/<modul-id>/<datei>" oder freigegebene https-URL. */
+        src: z.string().min(1),
+        /** Alternativtext für Screenreader – Pflicht. */
+        alt: z.string().min(1),
+        /** Bildnachweis/Lizenz – Pflicht. */
+        credit: z.string().min(1),
+      })
+      .optional(),
+  })
+  .refine((e) => (e.text !== undefined) !== (e.bild !== undefined), {
+    message:
+      'Zuordnung: Ein Element hat entweder "text" ODER "bild" (genau eines von beiden).',
+  });
+
+export const zuordnungPaarSchema = z.strictObject({
+  links: zuordnungElementSchema,
+  rechts: zuordnungElementSchema,
+});
+
+/** Anzeige-/Vergleichstext eines Zuordnungs-Elements (Bild: Alt-Text). */
+export function zuordnungElementText(
+  element: z.infer<typeof zuordnungElementSchema>,
+): string {
+  return element.text ?? element.bild?.alt ?? "";
+}
+
+/**
+ * Zuordnungsaufgabe, NEU seit 1.8.2026: Paare werden einander zugeordnet
+ * (Wort–Definition, Wort–Bild, Begriff–Beispiel). Die linke Spalte steht
+ * fest, die rechten Elemente (plus Ablenker) erscheinen gemischt.
+ * PRÜFENDER Block: ein Punkt pro korrektem Paar, bestanden bei 100 %.
+ */
+export const zuordnungBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("zuordnung"),
+    /** Optionale Arbeitsanweisung, Markdown erlaubt. */
+    intro: markdown.optional(),
+    paare: z.array(zuordnungPaarSchema).min(2).max(12),
+    /** Zusätzliche RECHTE Elemente, die zu keinem Paar gehören. */
+    ablenker: z.array(zuordnungElementSchema).max(6).default([]),
+  })
+  .superRefine((block, ctx) => {
+    // Stabile id ist Pflicht (wie bei Lückentext/Quiz).
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Zuordnung: Der Block braucht eine stabile "id" (z. B. "zu1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Zuordnung: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+    // Rechte Elemente (inkl. Ablenker) müssen unterscheidbar sein – zwei
+    // gleich aussehende Ziele machten die Zuordnung zum Ratespiel.
+    // Bild-Elemente vergleichen über die BILD-Identität (src): dasselbe
+    // Foto mit zwei verschiedenen Alt-Texten sieht identisch aus.
+    const gesehen = new Map<string, number>();
+    [...block.paare.map((p) => p.rechts), ...block.ablenker].forEach(
+      (element, i) => {
+        const schluessel = element.bild
+          ? `bild:${element.bild.src}`
+          : `text:${element.text}`;
+        const vorher = gesehen.get(schluessel);
+        if (vorher !== undefined) {
+          ctx.addIssue({
+            code: "custom",
+            path:
+              i < block.paare.length
+                ? ["paare", i, "rechts"]
+                : ["ablenker", i - block.paare.length],
+            message: `Zuordnung: Das rechte Element "${zuordnungElementText(element)}" kommt mehrfach vor (auch Ablenker zählen; Bilder zählen über die Bilddatei) – rechte Elemente müssen unterscheidbar sein.`,
+          });
+        }
+        gesehen.set(schluessel, i);
+      },
+    );
+  });
+
+// --- Audio (Hörverstehen) ---------------------------------------------------
+
+/**
+ * Moduleigene Audio-Datei: derselbe Ort wie Bilder und Videos
+ * ("/content/<modul>/<datei>"), Endung .mp3 oder .m4a. Bewusst ohne
+ * "..", ohne Query und ohne Fragment. Fremde Audio-Hosts gibt es nicht –
+ * Hördateien liegen IMMER im Modulordner (kein dynamisches Text-to-Speech).
+ */
+export const AUDIO_DATEI_MUSTER =
+  /^\/content\/[a-z0-9][a-z0-9-]*\/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:mp3|m4a)$/;
+
+/**
+ * Hörverstehens-Audio, NEU seit 1.8.2026 (analog zum Video-Block, aber
+ * ausschliesslich moduleigene Dateien): Abspielsteuerung mit Start/Pause,
+ * Fortschrittsleiste, erneut abspielen und verlangsamter Wiedergabe.
+ * KEIN prüfender Block – die Auswertung übernehmen nachfolgende
+ * Aufgabenblöcke im selben Modul (Lückentext, Quiz, Zuordnung).
+ */
+export const audioBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("audio"),
+    /** Die Hördatei: "/content/<modul>/<datei>.mp3|m4a" (im Modulordner). */
+    src: z.string().regex(AUDIO_DATEI_MUSTER, {
+      message:
+        'Audio: "src" muss ein moduleigener Pfad der Form "/content/<modul>/<datei>.mp3" (auch .m4a) sein.',
+    }),
+    /** Worum geht es bzw. Höraufgabe («Hör zu und achte auf …»). */
+    description: z.string().optional(),
+    /**
+     * Transkript – PFLICHT: Textalternative (Markdown), barrierefrei und
+     * zum Nachlesen/Kontrollieren nach dem Hören.
+     */
+    transcript: markdown,
+    /** Quelle und Lizenz der Aufnahme – PFLICHT. */
+    credit: z.string().min(1),
+  })
+  .superRefine((block, ctx) => {
+    // Titel ist hier Pflicht (in blockBase optional): Ohne Überschrift
+    // stünde nur ein nackter Player auf der Seite.
+    if (!block.title) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["title"],
+        message:
+          'Audio: "title" ist Pflicht – die Überschrift benennt, was zu hören ist.',
+      });
+    }
+  });
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
   videoBlockSchema,
+  audioBlockSchema,
   tasksBlockSchema,
   lueckentextBlockSchema,
   quizBlockSchema,
+  zuordnungBlockSchema,
   planspielBlockSchema,
   simulationBlockSchema,
 ]);
@@ -808,9 +1093,11 @@ export const KNOWN_BLOCK_TYPES = [
   "text",
   "image",
   "video",
+  "audio",
   "tasks",
   "lueckentext",
   "quiz",
+  "zuordnung",
   "planspiel",
   "simulation",
 ] as const;
@@ -951,6 +1238,10 @@ export type Task = z.infer<typeof taskSchema>;
 export type TasksBlock = z.infer<typeof tasksBlockSchema>;
 export type Luecke = z.infer<typeof lueckeSchema>;
 export type LueckentextBlock = z.infer<typeof lueckentextBlockSchema>;
+export type ZuordnungElement = z.infer<typeof zuordnungElementSchema>;
+export type ZuordnungPaar = z.infer<typeof zuordnungPaarSchema>;
+export type ZuordnungBlock = z.infer<typeof zuordnungBlockSchema>;
+export type AudioBlock = z.infer<typeof audioBlockSchema>;
 export type PlanspielBlock = z.infer<typeof planspielBlockSchema>;
 export type SimulationAntwort = z.infer<typeof simulationAntwortSchema>;
 export type SimulationKnoten = z.infer<typeof simulationKnotenSchema>;
@@ -1081,7 +1372,7 @@ export function parseModulDatei(
  * als bearbeitet. istPruefenderBlock ist deshalb die einzige
  * massgebliche Abfrage; die Typliste allein genügt nicht mehr.
  */
-export const PRUEFENDE_BLOCK_TYPES = ["lueckentext", "quiz"] as const;
+export const PRUEFENDE_BLOCK_TYPES = ["lueckentext", "quiz", "zuordnung"] as const;
 
 export function istPruefenderBlock(block: Block): boolean {
   if (isKnownBlock(block) && block.type === "simulation") {
