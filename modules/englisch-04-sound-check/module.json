@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 2,
+  "id": "englisch-04-sound-check",
+  "title": "Sound check",
+  "description": "«Sound check» – das erste Modul der Woche 2 im Englisch-Lernpfad «Cate's Sound Lab», für beide Züge: Zum ersten Mal wird gehört! Du verstehst kurze vorgelesene Sätze und einen kleinen Konzertbericht, ordnest Instrumente ihren Bildern und Adjektive ihren Übersetzungen zu, lernst den Unterschied zwischen so und such – und festigst das past perfect aus Woche 1. Niveau A2–B1 (9. Schulstufe).",
+  "subject": "E",
+  "subjectName": "Englisch",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 4,
+  "einheit": "Cate's Sound Lab – über Musik sprechen",
+  "language": "en",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Englisch",
+    "Musik",
+    "Hörverstehen",
+    "listening",
+    "so",
+    "such",
+    "Zuordnung",
+    "Instrumente",
+    "past perfect",
+    "Wortschatz"
+  ],
+  "learningObjectives": [
+    "I can understand short spoken sentences and a short spoken text about music. (Ich kann kurze gesprochene Sätze und einen kurzen gesprochenen Text über Musik verstehen.)",
+    "I can use so and such correctly. (Ich kann so und such richtig verwenden.)",
+    "I can use the music words from Module 1 and the past perfect from Week 1 again. (Ich kann den Wortschatz aus Modul 1 und das past perfect aus Woche 1 wieder anwenden.)"
+  ],
+  "competencies": [
+    {
+      "code": "E.1.A.1",
+      "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+      "code": "E.5.B.1",
+      "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äussern."
+    },
+    {
+      "code": "E.5.D.1",
+      "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "englisch-01-cates-sound-lab",
+    "englisch-02-listen-or-hear"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Welcome to «Sound check»!",
+      "body": "Put your headphones on – this is a sound check! In the first three modules you read, wrote and built sentences. In this module, for the first time, you **listen**: your device reads short English sentences and a little story to you.\n\nIn this module you will:\n\n- listen to short sentences and show what you heard,\n- match instruments to pictures and adjectives to their German translations,\n- learn the difference between the two small words **so** and **such**,\n- listen to a short story about a festival evening – and use your past-tense knowledge from Week 1.\n\nA tip before you start: you can play each audio clip as often as you like. If your device has no English voice, the text appears on the screen instead – then simply read it."
+    },
+    {
+      "type": "audio",
+      "id": "audio-warmup-1",
+      "title": "Warm-up sentence 1",
+      "vorleseText": "The audience claps and sings along to the catchy chorus.",
+      "vorleseSprache": "en-GB",
+      "transkriptAnzeigen": false,
+      "description": "Press play and listen carefully. You can listen more than once. Then answer the question below."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-warmup-1",
+      "title": "What did you hear?",
+      "questions": [
+        {
+          "id": "wu1-q1",
+          "type": "single_choice",
+          "prompt": "Choose the sentence you heard.",
+          "options": [
+            {
+              "text": "The audience laughs and sings along to the catchy chorus."
+            },
+            {
+              "text": "The audience claps and sings along to the catchy chorus.",
+              "correct": true
+            },
+            {
+              "text": "The audience claps and dances along to the catchy chorus."
+            }
+          ],
+          "explanation": "The sentence was: «The audience claps and sings along to the catchy chorus.» The audience claps (not laughs) and sings (not dances) – small differences, big listening practice!"
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "id": "audio-warmup-2",
+      "title": "Warm-up sentence 2",
+      "vorleseText": "The drummer plays a powerful rhythm on the drums.",
+      "vorleseSprache": "en-GB",
+      "transkriptAnzeigen": false,
+      "description": "Listen again – this time there is a question about the meaning."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-warmup-2",
+      "title": "Check your listening",
+      "questions": [
+        {
+          "id": "wu2-q1",
+          "type": "single_choice",
+          "prompt": "Which instrument did you hear about?",
+          "options": [
+            {
+              "text": "The drums",
+              "correct": true
+            },
+            {
+              "text": "The keyboard"
+            },
+            {
+              "text": "The guitar"
+            },
+            {
+              "text": "The microphone"
+            }
+          ],
+          "explanation": "The sentence was: «The drummer plays a powerful rhythm on the drums.» A drummer plays the drums – and *powerful* is one of your adjectives from Module 1."
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "id": "audio-warmup-3",
+      "title": "Warm-up sentence 3",
+      "vorleseText": "Our school choir sings a relaxing melody in the hall.",
+      "vorleseSprache": "en-GB",
+      "transkriptAnzeigen": false,
+      "description": "Listen carefully – three very similar sentences will follow."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-warmup-3",
+      "title": "What did you hear?",
+      "questions": [
+        {
+          "id": "wu3-q1",
+          "type": "single_choice",
+          "prompt": "Choose the sentence you heard.",
+          "options": [
+            {
+              "text": "Our school choir sings a cheerful melody in the hall."
+            },
+            {
+              "text": "Our school band plays a relaxing melody in the hall."
+            },
+            {
+              "text": "Our school choir sings a relaxing melody in the hall.",
+              "correct": true
+            }
+          ],
+          "explanation": "The sentence was: «Our school choir sings a relaxing melody in the hall.» It was the choir (a group of singers), and the melody was relaxing, not cheerful."
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "id": "audio-warmup-4",
+      "title": "Warm-up sentence 4",
+      "vorleseText": "The singer walks on stage and the lights go out.",
+      "vorleseSprache": "en-GB",
+      "transkriptAnzeigen": false,
+      "description": "One more sentence – then a question about what happens."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-warmup-4",
+      "title": "Check your listening",
+      "questions": [
+        {
+          "id": "wu4-q1",
+          "type": "single_choice",
+          "prompt": "What does the singer do?",
+          "options": [
+            {
+              "text": "The singer leaves the stage."
+            },
+            {
+              "text": "The singer walks on stage.",
+              "correct": true
+            },
+            {
+              "text": "The singer looks at the audience."
+            },
+            {
+              "text": "The singer starts to sing."
+            }
+          ],
+          "explanation": "The sentence was: «The singer walks on stage and the lights go out.» The singer walks ON stage – the show is about to begin. Singing is not mentioned yet!"
+        }
+      ]
+    },
+    {
+      "type": "zuordnung",
+      "id": "zu-instrumente",
+      "title": "Match A: Words and pictures",
+      "intro": "Six words from Module 1, six pictures. Tap a word, then tap its picture – the pair gets the same number. You can undo a pair by tapping it again.",
+      "paare": [
+        {
+          "links": {
+            "text": "drums"
+          },
+          "rechts": {
+            "bild": {
+              "src": "/content/englisch-04-sound-check/icon-drums.png",
+              "alt": "Icon of a bass drum with two crossed drumsticks on top",
+              "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+            }
+          }
+        },
+        {
+          "links": {
+            "text": "keyboard"
+          },
+          "rechts": {
+            "bild": {
+              "src": "/content/englisch-04-sound-check/icon-keyboard.png",
+              "alt": "Icon of an electronic keyboard with black and white keys",
+              "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+            }
+          }
+        },
+        {
+          "links": {
+            "text": "microphone"
+          },
+          "rechts": {
+            "bild": {
+              "src": "/content/englisch-04-sound-check/icon-microphone.png",
+              "alt": "Icon of a stage microphone with a round head on a stand",
+              "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+            }
+          }
+        },
+        {
+          "links": {
+            "text": "guitar"
+          },
+          "rechts": {
+            "bild": {
+              "src": "/content/englisch-04-sound-check/icon-guitar.png",
+              "alt": "Icon of an acoustic guitar with strings and a round sound hole",
+              "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+            }
+          }
+        },
+        {
+          "links": {
+            "text": "headphones"
+          },
+          "rechts": {
+            "bild": {
+              "src": "/content/englisch-04-sound-check/icon-headphones.png",
+              "alt": "Icon of a pair of headphones with a headband and two ear pads",
+              "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+            }
+          }
+        },
+        {
+          "links": {
+            "text": "stage"
+          },
+          "rechts": {
+            "bild": {
+              "src": "/content/englisch-04-sound-check/icon-stage.png",
+              "alt": "Icon of a stage platform with a curtain and two spotlights",
+              "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "zuordnung",
+      "id": "zu-adjektive",
+      "title": "Match B: Adjectives and their German translations",
+      "intro": "Do you remember the describing words from Module 1? Match each English adjective to its German translation.",
+      "paare": [
+        {
+          "links": {
+            "text": "catchy"
+          },
+          "rechts": {
+            "text": "bleibt sofort im Ohr"
+          }
+        },
+        {
+          "links": {
+            "text": "cheerful"
+          },
+          "rechts": {
+            "text": "fröhlich"
+          }
+        },
+        {
+          "links": {
+            "text": "relaxing"
+          },
+          "rechts": {
+            "text": "entspannend"
+          }
+        },
+        {
+          "links": {
+            "text": "powerful"
+          },
+          "rechts": {
+            "text": "kraftvoll"
+          }
+        },
+        {
+          "links": {
+            "text": "annoying"
+          },
+          "rechts": {
+            "text": "nervig"
+          }
+        },
+        {
+          "links": {
+            "text": "unforgettable"
+          },
+          "rechts": {
+            "text": "unvergesslich"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Language focus: so or such?",
+      "body": "Both words make things stronger – but they have different partners.\n\n**so + adjective (or adverb)** – no noun after it:\n\n- The melody is **so** catchy!\n- The band played **so** loudly that the walls shook.\n\n**such (+ a/an) + noun** – there is always a noun at the end, often with an adjective before it:\n\n- It was **such a** great concert.\n- They are **such** good musicians. *(plural – no a/an)*\n\n**so many / so much** – before nouns you can or cannot count:\n\n- There were **so many** fans in front of the arena. *(fans – you can count them)*\n- The neighbours complained about **so much** noise. *(noise – you cannot count it)*\n\n**Remember:** adjective alone → *so* · noun at the end → *such (a/an)* · plural you can count → *so many* · things you cannot count → *so much*. The picture below shows it in two columns."
+    },
+    {
+      "type": "image",
+      "title": "so or such – the quick rule",
+      "src": "/content/englisch-04-sound-check/so-vs-such.png",
+      "alt": "Memory chart with two columns. Left column, blue, titled «so»: so + adjective or adverb, with the examples «so catchy» and «so loudly». Right column, orange, titled «such»: such (+ a/an) + noun, with the examples «such a great concert» and «such good musicians». A dark bar at the bottom adds: so many + things you can count (so many fans) · so much + things you cannot count (so much noise).",
+      "caption": "Adjective alone? Use so. A noun at the end? Use such.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-so-such-wortbank",
+      "title": "Exercise: so, such and friends",
+      "intro": "Drag the right words into the gaps (on a phone: tap first the word, then the gap). **Careful: two forms in the list are wrong forms – they fit nowhere.**",
+      "modus": "wortbank",
+      "text": "The concert was {{1}} loud that my ears hurt the next day.\nI had never heard {{2}} beautiful melody before.\nThere were {{3}} people in front of the stage that we could not see the band.\nThe crew has {{4}} to do before the show that nobody takes a break.\nIt was {{5}} unforgettable evening that we still talk about it.\nThey are {{6}} good musicians that every hall is full.",
+      "luecken": [
+        {
+          "antworten": [
+            "so"
+          ]
+        },
+        {
+          "antworten": [
+            "such a"
+          ]
+        },
+        {
+          "antworten": [
+            "so many"
+          ]
+        },
+        {
+          "antworten": [
+            "so much"
+          ]
+        },
+        {
+          "antworten": [
+            "such an"
+          ]
+        },
+        {
+          "antworten": [
+            "such"
+          ]
+        }
+      ],
+      "ablenker": [
+        "so a",
+        "such much"
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-so-such-eingabe",
+      "title": "Exercise: Type so or such (a)",
+      "intro": "Now without a word list: type **so**, **such** or **such a** into each gap. Look at what comes after the gap – an adjective alone, or a noun at the end?",
+      "modus": "eingabe",
+      "text": "This song is {{1}} catchy that I hum it all day.\nI had never been to {{2}} big concert before.\nThe tickets were {{3}} expensive that we stayed at home.\nShe is {{4}} talented singer that everyone wants a photo with her.\nWhy are you {{5}} nervous? It is only a sound check!",
+      "luecken": [
+        {
+          "antworten": [
+            "so"
+          ]
+        },
+        {
+          "antworten": [
+            "such a"
+          ]
+        },
+        {
+          "antworten": [
+            "so"
+          ]
+        },
+        {
+          "antworten": [
+            "such a"
+          ]
+        },
+        {
+          "antworten": [
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "id": "audio-story",
+      "title": "Listening: My first festival",
+      "vorleseText": "Last Saturday, my brother took me to my first festival. When we arrived at the field, the first band had already played its last song. I was sad, because I had waited weeks for that band. But then the next group started – and it was such a powerful show that I forgot everything else.",
+      "vorleseSprache": "en-GB",
+      "transkriptAnzeigen": false,
+      "description": "Now a whole story! Listen as often as you like, then answer the three questions below. Tip: listen once for the whole story, and a second time for the details."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-story",
+      "title": "Check your listening: the festival story",
+      "intro": "Three questions about the story you just heard. You can go back and listen again before you answer.",
+      "questions": [
+        {
+          "id": "st-q1",
+          "type": "single_choice",
+          "prompt": "What happened first?",
+          "options": [
+            {
+              "text": "The speaker arrived at the field."
+            },
+            {
+              "text": "The first band played its last song.",
+              "correct": true
+            },
+            {
+              "text": "Both happened at the same time."
+            },
+            {
+              "text": "The story does not say."
+            }
+          ],
+          "explanation": "You heard: «When we arrived at the field, the first band had already played its last song.» *Had played* is the past perfect from Week 1 – the tense for the earlier action. So the band finished first, and the speaker arrived too late."
+        },
+        {
+          "id": "st-q2",
+          "type": "single_choice",
+          "prompt": "Why was the speaker sad at first?",
+          "options": [
+            {
+              "text": "The tickets for the festival had been much too expensive for the speaker."
+            },
+            {
+              "text": "The speaker's brother wanted to go home early because he was tired."
+            },
+            {
+              "text": "The speaker had waited weeks for the first band – and missed it.",
+              "correct": true
+            },
+            {
+              "text": "The next group played so badly that everybody left the field."
+            }
+          ],
+          "explanation": "You heard: «I was sad, because I had waited weeks for that band.» The speaker had waited a long time for exactly that band – and arrived after its last song. The story says nothing about ticket prices, and the next group was great."
+        },
+        {
+          "id": "st-q3",
+          "type": "single_choice",
+          "prompt": "How does the story end?",
+          "options": [
+            {
+              "text": "The next group played such a powerful show that the speaker forgot everything else.",
+              "correct": true
+            },
+            {
+              "text": "The speaker was so sad that they went home before the next group started."
+            },
+            {
+              "text": "The show of the next group was so quiet and boring that almost everybody left."
+            },
+            {
+              "text": "The story does not tell us anything about how the festival evening ended."
+            }
+          ],
+          "explanation": "You heard: «It was such a powerful show that I forgot everything else.» A happy ending – with *such a* + adjective + noun, exactly the pattern from this module."
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-past-perfect",
+      "title": "Quick repeat: past simple or past perfect?",
+      "intro": "One last look back at Week 1: put the verb in brackets into the past simple or the past perfect.",
+      "modus": "eingabe",
+      "text": "By the time the singer arrived, the fans {{1}} (wait) for three hours.\nEverybody knew the lyrics, because the song {{2}} (be) number one for weeks before.\nWe {{3}} (buy) our tickets months before, so we walked straight in.\nAfter the encore, we {{4}} (take) the bus home.",
+      "luecken": [
+        {
+          "antworten": [
+            "had waited"
+          ]
+        },
+        {
+          "antworten": [
+            "had been"
+          ]
+        },
+        {
+          "antworten": [
+            "had bought"
+          ]
+        },
+        {
+          "antworten": [
+            "took"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "id": "audio-final",
+      "title": "Final listening sentence",
+      "vorleseText": "We had never seen such an amazing light show before.",
+      "vorleseSprache": "en-GB",
+      "transkriptAnzeigen": false,
+      "description": "One last sentence for your ears – the first question of the final quiz is about it."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-final",
+      "title": "Final quiz: ears, words and tenses",
+      "intro": "Five questions from the whole module. For the first one, use the audio sentence above – you can play it again.",
+      "questions": [
+        {
+          "id": "fi-q1",
+          "type": "single_choice",
+          "prompt": "Choose the sentence you heard.",
+          "options": [
+            {
+              "text": "We had never seen such an amazing light show before.",
+              "correct": true
+            },
+            {
+              "text": "We had never heard such an amazing light show before."
+            },
+            {
+              "text": "We have never seen such an amazing light show before."
+            }
+          ],
+          "explanation": "The sentence was: «We had never seen such an amazing light show before.» You *see* a light show (eyes, not ears!), and *had never seen* is the past perfect – the sentence looks back from a moment in the past."
+        },
+        {
+          "id": "fi-q2",
+          "type": "single_choice",
+          "prompt": "Which word means «Publikum»?",
+          "options": [
+            {
+              "text": "stage"
+            },
+            {
+              "text": "choir"
+            },
+            {
+              "text": "lyrics"
+            },
+            {
+              "text": "audience",
+              "correct": true
+            }
+          ],
+          "explanation": "The audience is the group of people who watch and listen to a show – das Publikum. The stage is the Bühne, a choir is a Chor, and the lyrics are the Songtext."
+        },
+        {
+          "id": "fi-q3",
+          "type": "single_choice",
+          "prompt": "«I have never heard ___ boring song!» – What fits into the gap?",
+          "options": [
+            {
+              "text": "so"
+            },
+            {
+              "text": "such a",
+              "correct": true
+            },
+            {
+              "text": "so much"
+            },
+            {
+              "text": "such"
+            }
+          ],
+          "explanation": "At the end there is a noun (*song*) with an adjective before it – so you need *such a*: «such a boring song». *So* would need the adjective alone, *so much* only works with things you cannot count, and *such* without *a* only fits plurals or uncountable nouns – *song* is a single countable noun."
+        },
+        {
+          "id": "fi-q4",
+          "type": "single_choice",
+          "prompt": "«When the show ended, most fans ___ their voices from singing along.» – Which form fills the gap?",
+          "options": [
+            {
+              "text": "had lost",
+              "correct": true
+            },
+            {
+              "text": "have lost"
+            },
+            {
+              "text": "had lose"
+            },
+            {
+              "text": "lose"
+            }
+          ],
+          "explanation": "The singing (and the losing of voices) happened before the end of the show – the earlier action takes the past perfect: *had lost*. *Had lose* is the wrong form, and *have lost / lose* do not fit a story about the past."
+        },
+        {
+          "id": "fi-q5",
+          "type": "single_choice",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            {
+              "text": "It was so long sound check."
+            },
+            {
+              "text": "It was such long sound check."
+            },
+            {
+              "text": "It was such a long sound check.",
+              "correct": true
+            },
+            {
+              "text": "It was so a long sound check."
+            }
+          ],
+          "explanation": "*Sound check* is a singular noun, so you need *such a*: «such a long sound check». *So* never takes a noun, and *such* without *a* only works with plurals or things you cannot count."
+        }
+      ]
+    }
+  ]
+}
