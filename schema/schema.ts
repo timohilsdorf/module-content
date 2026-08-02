@@ -63,6 +63,18 @@ import { z } from "zod";
  *   (z. B. "en") antwortet der KI-Lernpartner in dieser Sprache.
  *   Bestehende Dateien bleiben unverändert gültig; für die neuen
  *   BLOCKTYPEN zeigen ältere Player Platzhalter.
+ * - 2, additive Ergänzung (2.8.2026, KEIN Versionswechsel): Zuordnung
+ *   wird rein per Antippen bedient (beide Seiten in beliebiger
+ *   Reihenfolge, Paare sichtbar verbunden und auflösbar) und darf
+ *   zusätzlich LINKE Ablenker tragen (`ablenkerLinks`). Audio:
+ *   `transcript` ist optional (für Höraufgaben, bei denen das Gehörte
+ *   selbst eingetippt wird; `transkriptAnzeigen` steuert die Anzeige,
+ *   Standard true) und als Alternative zur Datei gibt es die
+ *   Vorlese-Variante `vorleseText` + `vorleseSprache` (Browser-Stimme,
+ *   nur lokale Stimmen; die Datei bleibt der bevorzugte Weg). ACHTUNG:
+ *   ältere Player lehnen Module mit den neuen Feldern bzw. ohne
+ *   `transcript` ab – solche Module erst nach dem Plattform-Deploy
+ *   einreichen.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -969,9 +981,12 @@ export function zuordnungElementText(
 
 /**
  * Zuordnungsaufgabe, NEU seit 1.8.2026: Paare werden einander zugeordnet
- * (Wort–Definition, Wort–Bild, Begriff–Beispiel). Die linke Spalte steht
- * fest, die rechten Elemente (plus Ablenker) erscheinen gemischt.
- * PRÜFENDER Block: ein Punkt pro korrektem Paar, bestanden bei 100 %.
+ * (Wort–Definition, Wort–Bild, Begriff–Beispiel). Beide Spalten
+ * erscheinen gemischt nebeneinander; bedient wird rein per ANTIPPEN
+ * (seit 2.8.2026): ein Element links und eines rechts antippen bildet
+ * ein Paar – in beliebiger Reihenfolge; Paare sind sichtbar verbunden
+ * und wieder auflösbar. PRÜFENDER Block: ein Punkt pro korrektem Paar,
+ * bestanden bei 100 %.
  */
 export const zuordnungBlockSchema = z
   .strictObject({
@@ -982,6 +997,8 @@ export const zuordnungBlockSchema = z
     paare: z.array(zuordnungPaarSchema).min(2).max(12),
     /** Zusätzliche RECHTE Elemente, die zu keinem Paar gehören. */
     ablenker: z.array(zuordnungElementSchema).max(6).default([]),
+    /** Zusätzliche LINKE Elemente, die zu keinem Paar gehören (seit 2.8.2026). */
+    ablenkerLinks: z.array(zuordnungElementSchema).max(6).default([]),
   })
   .superRefine((block, ctx) => {
     // Stabile id ist Pflicht (wie bei Lückentext/Quiz).
@@ -1000,13 +1017,17 @@ export const zuordnungBlockSchema = z
           'Zuordnung: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
       });
     }
-    // Rechte Elemente (inkl. Ablenker) müssen unterscheidbar sein – zwei
-    // gleich aussehende Ziele machten die Zuordnung zum Ratespiel.
-    // Bild-Elemente vergleichen über die BILD-Identität (src): dasselbe
-    // Foto mit zwei verschiedenen Alt-Texten sieht identisch aus.
-    const gesehen = new Map<string, number>();
-    [...block.paare.map((p) => p.rechts), ...block.ablenker].forEach(
-      (element, i) => {
+    // Die Elemente JEDER Spalte (inkl. Ablenker) müssen unterscheidbar
+    // sein – zwei gleich aussehende Einträge machten die Zuordnung zum
+    // Ratespiel. Bild-Elemente vergleichen über die BILD-Identität
+    // (src): dasselbe Foto mit zwei Alt-Texten sieht identisch aus.
+    const pruefeSpalte = (
+      seite: "links" | "rechts",
+      elemente: Array<z.infer<typeof zuordnungElementSchema>>,
+      ablenkerFeld: "ablenker" | "ablenkerLinks",
+    ) => {
+      const gesehen = new Map<string, number>();
+      elemente.forEach((element, i) => {
         const schluessel = element.bild
           ? `bild:${element.bild.src}`
           : `text:${element.text}`;
@@ -1016,13 +1037,23 @@ export const zuordnungBlockSchema = z
             code: "custom",
             path:
               i < block.paare.length
-                ? ["paare", i, "rechts"]
-                : ["ablenker", i - block.paare.length],
-            message: `Zuordnung: Das rechte Element "${zuordnungElementText(element)}" kommt mehrfach vor (auch Ablenker zählen; Bilder zählen über die Bilddatei) – rechte Elemente müssen unterscheidbar sein.`,
+                ? ["paare", i, seite]
+                : [ablenkerFeld, i - block.paare.length],
+            message: `Zuordnung: Das ${seite === "links" ? "linke" : "rechte"} Element "${zuordnungElementText(element)}" kommt mehrfach vor (auch Ablenker zählen; Bilder zählen über die Bilddatei) – die Elemente einer Spalte müssen unterscheidbar sein.`,
           });
         }
         gesehen.set(schluessel, i);
-      },
+      });
+    };
+    pruefeSpalte(
+      "rechts",
+      [...block.paare.map((p) => p.rechts), ...block.ablenker],
+      "ablenker",
+    );
+    pruefeSpalte(
+      "links",
+      [...block.paare.map((p) => p.links), ...block.ablenkerLinks],
+      "ablenkerLinks",
     );
   });
 
@@ -1043,25 +1074,58 @@ export const AUDIO_DATEI_MUSTER =
  * Fortschrittsleiste, erneut abspielen und verlangsamter Wiedergabe.
  * KEIN prüfender Block – die Auswertung übernehmen nachfolgende
  * Aufgabenblöcke im selben Modul (Lückentext, Quiz, Zuordnung).
+ *
+ * Zwei Varianten (seit 2.8.2026, genau EINE pro Block):
+ * - `src`: hinterlegte Hördatei – der BEVORZUGTE Weg (bessere
+ *   Aussprache, offline zuverlässig). `credit` ist dann Pflicht.
+ * - `vorleseText` + `vorleseSprache`: der Browser liest den Text mit
+ *   einer LOKALEN Stimme der angegebenen Sprache vor (schneller Behelf;
+ *   ohne passende lokale Stimme zeigt der Player einen Hinweis).
  */
 export const audioBlockSchema = z
   .strictObject({
     ...blockBase,
     type: z.literal("audio"),
-    /** Die Hördatei: "/content/<modul>/<datei>.mp3|m4a" (im Modulordner). */
-    src: z.string().regex(AUDIO_DATEI_MUSTER, {
-      message:
-        'Audio: "src" muss ein moduleigener Pfad der Form "/content/<modul>/<datei>.mp3" (auch .m4a) sein.',
-    }),
+    /** Variante Datei: "/content/<modul>/<datei>.mp3|m4a" (im Modulordner). */
+    src: z
+      .string()
+      .regex(AUDIO_DATEI_MUSTER, {
+        message:
+          'Audio: "src" muss ein moduleigener Pfad der Form "/content/<modul>/<datei>.mp3" (auch .m4a) sein.',
+      })
+      .optional(),
     /** Worum geht es bzw. Höraufgabe («Hör zu und achte auf …»). */
     description: z.string().optional(),
     /**
-     * Transkript – PFLICHT: Textalternative (Markdown), barrierefrei und
-     * zum Nachlesen/Kontrollieren nach dem Hören.
+     * Transkript (Markdown): Textalternative zum Nachlesen. Seit
+     * 2.8.2026 optional – weglassen nur bei Höraufgaben, bei denen die
+     * Lernenden das Gehörte selbst eintippen sollen (Barrierefreiheit
+     * bedenken!). In der Vorlese-Variante entfällt es: `vorleseText`
+     * IST dort der Text.
      */
-    transcript: markdown,
-    /** Quelle und Lizenz der Aufnahme – PFLICHT. */
-    credit: z.string().min(1),
+    transcript: markdown.optional(),
+    /**
+     * Transkript (bzw. Vorlesetext) anzeigen? Standard true
+     * (Barrierefreiheit). false NUR für Höraufgaben, bei denen das
+     * Gehörte selbst eingetippt werden soll – dann übernimmt der
+     * nachfolgende Aufgabenblock die Kontrolle.
+     */
+    transkriptAnzeigen: z.boolean().default(true),
+    /** Quelle und Lizenz der Aufnahme (Pflicht in der Datei-Variante). */
+    credit: z.string().min(1).optional(),
+    /**
+     * Variante Vorlesen: dieser Text wird über die Browser-
+     * Vorlesefunktion ausgegeben (reiner Text, kein Markdown).
+     */
+    vorleseText: z.string().min(1).max(4000).optional(),
+    /** Sprache des Vorlesetexts als BCP-47-Code, z. B. "en-GB". */
+    vorleseSprache: z
+      .string()
+      .regex(/^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,8})*$/, {
+        message:
+          'Audio: "vorleseSprache" muss ein BCP-47-Code sein, z. B. "en-GB" oder "fr".',
+      })
+      .optional(),
   })
   .superRefine((block, ctx) => {
     // Titel ist hier Pflicht (in blockBase optional): Ohne Überschrift
@@ -1072,6 +1136,48 @@ export const audioBlockSchema = z
         path: ["title"],
         message:
           'Audio: "title" ist Pflicht – die Überschrift benennt, was zu hören ist.',
+      });
+    }
+    // Genau EINE Quelle: Datei ODER Vorlesetext.
+    if ((block.src !== undefined) === (block.vorleseText !== undefined)) {
+      ctx.addIssue({
+        code: "custom",
+        path: [block.src !== undefined ? "vorleseText" : "src"],
+        message:
+          'Audio: Der Block braucht entweder "src" (Hördatei, bevorzugt) ODER "vorleseText" + "vorleseSprache" (Browser-Vorlesen) – genau eines von beiden.',
+      });
+      return;
+    }
+    if (block.src !== undefined && !block.credit) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["credit"],
+        message:
+          'Audio: Bei einer hinterlegten Aufnahme ist "credit" (Quelle und Lizenz) Pflicht.',
+      });
+    }
+    if (block.vorleseText !== undefined) {
+      if (!block.vorleseSprache) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["vorleseSprache"],
+          message:
+            'Audio: Die Vorlese-Variante braucht "vorleseSprache" (BCP-47, z. B. "en-GB"), damit eine passende Stimme gewählt wird.',
+        });
+      }
+      if (block.transcript !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["transcript"],
+          message:
+            'Audio: In der Vorlese-Variante entfällt "transcript" – der "vorleseText" ist bereits der Text (Anzeige über "transkriptAnzeigen").',
+        });
+      }
+    } else if (block.vorleseSprache !== undefined) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["vorleseSprache"],
+        message: 'Audio: "vorleseSprache" gehört zur Vorlese-Variante ("vorleseText").',
       });
     }
   });
