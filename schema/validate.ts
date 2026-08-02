@@ -285,6 +285,8 @@ function checkModule(
   const referenzierteAudios = new Set<string>();
   for (const block of mod.blocks) {
     if (!isKnownBlock(block) || block.type !== "audio") continue;
+    // Vorlese-Variante (vorleseText): keine Datei, nichts zu prüfen.
+    if (!block.src) continue;
     const erwartet = `/content/${mod.id}/`;
     if (!block.src.startsWith(erwartet)) {
       errors.push(
@@ -356,6 +358,7 @@ function checkModule(
       [
         ...block.paare.flatMap((p) => [p.links, p.rechts]),
         ...block.ablenker,
+        ...block.ablenkerLinks,
       ].forEach((element, i) => {
         if (element.bild) checkBildUrl(element.bild.src, `Zuordnungs-Bild ${i + 1}`);
       });

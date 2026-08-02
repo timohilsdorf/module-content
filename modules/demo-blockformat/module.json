@@ -140,7 +140,7 @@
       "type": "zuordnung",
       "id": "zu-blocktypen",
       "title": "Der Zuordnungs-Block",
-      "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Achtung: Ein Element in der Auswahl ist ein Ablenker und passt zu keinem Paar.",
+      "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Tippe je ein Element links und rechts an, egal in welcher Reihenfolge. Achtung: Auf **beiden** Seiten steckt je ein Ablenker, der zu nichts passt.",
       "paare": [
         {
           "links": { "text": "module.json" },
@@ -157,6 +157,9 @@
       ],
       "ablenker": [
         { "text": "Eine Datenbank, die es bei EveryCate nicht gibt." }
+      ],
+      "ablenkerLinks": [
+        { "text": "config.yaml" }
       ]
     },
     {
@@ -167,6 +170,14 @@
       "description": "Hör dir die kurze Aufnahme an – sie erklärt selbst, wie der Audio-Block funktioniert. Mit 🐢 0.75× hörst du sie langsamer.",
       "transcript": "«Willkommen beim Audio-Block von EveryCate. Hördateien liegen wie Bilder direkt im Modulordner. Zum Hörverstehen gehört immer ein Transkript – und die Auswertung übernimmt eine Aufgabe nach dem Hören. Du kannst mich übrigens auch langsamer abspielen.»",
       "credit": "Eigenaufnahme EveryCate (synthetische Stimme), CC BY-SA 4.0"
+    },
+    {
+      "type": "audio",
+      "id": "audio-vorlesen",
+      "title": "Der Audio-Block (Vorlese-Variante)",
+      "vorleseText": "This sentence is read aloud by a voice that lives on your device – no audio file needed. A recorded file usually sounds better, but this is the quick way, and it is great for language practice.",
+      "vorleseSprache": "en-GB",
+      "description": "Ohne Audiodatei: Der Browser liest den Text mit einer lokalen Stimme vor – hier auf Englisch. Hinterlegte Aufnahmen bleiben der bevorzugte Weg (bessere Aussprache, offline zuverlässig)."
     },
     {
       "type": "simulation",

@@ -18,6 +18,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | Juli 2026 | **Quiz ist ein regulärer Block** (`type: "quiz"`, Pflicht-`id`): beliebig viele Quizze pro Modul, an beliebiger Position, jedes wird einzeln ausgewertet (Prozent, Punkte, Versuche) und zählt als prüfender Block. Das frühere Sonderfeld `quiz` auf Modulebene entfällt in Version 2. **Version-1-Dateien bleiben gültig** und werden beim Einlesen verlustfrei migriert: Das Sonderfeld wird zum letzten Block mit der `id` `"quiz"` – derselbe Lernstand-Schlüssel, Fortschritt und Reports bleiben kompatibel. Coins gibt es weiterhin einmal pro bestandenem Modul, nicht pro Quiz. |
 | 2 | 31. Juli 2026 | Additiv (kein Versionswechsel): zwei neue Blocktypen. [`simulation`](#simulation--verzweigter-rollenspiel-dialog) (verzweigter Rollenspiel-Dialog, vollständig skriptiert; mit optionaler `abschlussfrage` ein prüfender Block – löst den bisherigen gleichnamigen Zukunftstyp ab) und [`planspiel`](#planspiel--eingebettetes-lernspiel-nur-everycate-kernteam) (eingebettetes Lernspiel als HTML-Datei im Modulordner, streng gekapselt; **nur für das EveryCate-Kernteam**). Bestehende Dateien bleiben gültig; ältere Player zeigen für beide einen Platzhalter. Version-1-Dateien mit einem andersförmigen `simulation`-Zukunftsblock bleiben ebenfalls gültig (Platzhalter-Verhalten bleibt erhalten). |
 | 2 | 1. August 2026 | Additiv (kein Versionswechsel): dritter Lückentext-Modus [`satzbau`](#lueckentext--lückentext-automatisch-geprüft) (Bausteine in die richtige Reihenfolge bringen; nutzt `bausteine`/`alternativen` statt `text`/`luecken` – **Achtung:** ältere Player lehnen satzbau-Blöcke ab, solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen), neuer prüfender Blocktyp [`zuordnung`](#zuordnung--paare-zuordnen-automatisch-geprüft) (Paare zuordnen, Elemente Text oder Bild) und neuer Blocktyp [`audio`](#audio--hörverstehen) (moduleigene Hördatei mit Pflicht-Transkript, nicht prüfend). Ausserdem festgehalten: `language` ist die **Zielsprache** des Moduls – bei Fremdsprachenmodulen (z. B. `"en"`) antwortet der KI-Lernpartner Cate in dieser Sprache. |
+| 2 | 2. August 2026 | Additiv (kein Versionswechsel): Zuordnung wird **rein per Antippen** bedient (beide Spalten gemischt nebeneinander, Paare in beliebiger Reihenfolge bilden, sichtbar verbunden und auflösbar – kein Drag-and-Drop mehr) und darf zusätzlich **linke Ablenker** tragen (`ablenkerLinks`). Audio: `transcript` ist **optional** (nur weglassen, wenn das Gehörte selbst eingetippt werden soll; `transkriptAnzeigen` steuert die Anzeige, Standard `true`) und als Alternative zur Datei gibt es die **Vorlese-Variante** `vorleseText` + `vorleseSprache` (Browser-Stimme, nur lokale Stimmen – die Datei bleibt der bevorzugte Weg). **Achtung:** ältere Player lehnen Module mit den neuen Feldern bzw. ohne `transcript` ab – erst nach dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -309,9 +310,12 @@ platzierte Bausteine lassen sich umsortieren und zurücklegen.
 ### `zuordnung` – Paare zuordnen (automatisch geprüft)
 
 Paare werden einander zugeordnet: Wort–Definition, Wort–Bild,
-Begriff–Beispiel. Die linke Spalte steht fest, die rechten Elemente
-(plus Ablenker) erscheinen gemischt; zugeordnet wird per Drag-and-Drop
-oder Antippen (erst der Platz, dann das Element).
+Begriff–Beispiel. Beide Spalten stehen gemischt nebeneinander (auch auf
+dem Handy); bedient wird **rein per Antippen**: ein Element links und
+eines rechts antippen bildet ein Paar – mit welcher Seite man beginnt,
+ist egal. Ein angetipptes Element ist markiert und durch erneutes
+Antippen abwählbar; gebildete Paare sind über gleiche Nummern sichtbar
+verbunden und durch Antippen eines Partners wieder auflösbar.
 
 ```json
 {
@@ -337,8 +341,15 @@ oder Antippen (erst der Platz, dann das Element).
   `credit` – Quelle/Lizenz sind hier PFLICHT und erscheinen gesammelt
   unter dem Block.
 - **`ablenker`** (optional, max. 6): zusätzliche RECHTE Elemente ohne
-  Partner. Alle rechten Elemente (inkl. Ablenker) müssen unterscheidbar
-  sein (die Validierung lehnt doppelte Anzeigetexte ab).
+  Partner. **`ablenkerLinks`** (optional, max. 6, seit 2. August 2026):
+  dasselbe für die LINKE Spalte – es dürfen also auf einer oder beiden
+  Seiten mehr Elemente stehen, als Paare existieren. Die Elemente jeder
+  Spalte (inkl. Ablenker) müssen unterscheidbar sein (die Validierung
+  lehnt Doppelte ab; Bilder zählen über die Bilddatei).
+- **Achtung Rollout:** Ältere Player-Versionen lehnen Module mit
+  `ablenkerLinks` ab (kein Platzhalter – das Feld steckt im bestehenden
+  Blocktyp). Solche Module erst einreichen, wenn die Plattform das Feld
+  ausliefert.
 - **Punkte**: ein Punkt pro korrektem Paar; Prozent-/Punkteanzeige und
   «Wiederholen» wie bei Quiz und Lückentext. PRÜFENDER Block (zählt zum
   Modulabschluss).
@@ -347,9 +358,18 @@ oder Antippen (erst der Platz, dann das Element).
 
 ### `audio` – Hörverstehen
 
-Eine im Modulordner hinterlegte Hördatei (kein Text-to-Speech zur
-Laufzeit) mit Abspielsteuerung: Start/Pause, Fortschrittsleiste, «von
-vorn» und verlangsamte Wiedergabe (0.75× – wichtig für Fremdsprachen).
+Zwei Varianten (genau EINE pro Block):
+
+1. **Hinterlegte Hördatei** (`src`) – der bevorzugte Weg (bessere
+   Aussprache, offline zuverlässig). Abspielsteuerung: Start/Pause,
+   Fortschrittsleiste, «von vorn» und verlangsamte Wiedergabe (0.75× –
+   wichtig für Fremdsprachen).
+2. **Vorlese-Variante** (`vorleseText` + `vorleseSprache`, seit
+   2. August 2026) – der schnelle Behelf ohne Datei: Der Browser liest
+   den Text mit einer **lokalen** Stimme der angegebenen Sprache vor
+   (BCP-47, z. B. `"en-GB"`). Gibt es auf einem Gerät keine passende
+   lokale Stimme, zeigt der Player einen ehrlichen Hinweis; der Text
+   bleibt lesbar.
 
 ```json
 {
@@ -358,14 +378,20 @@ vorn» und verlangsamte Wiedergabe (0.75× – wichtig für Fremdsprachen).
   "title": "Interview: Leben am Vulkan",
   "src": "/content/mein-modul/interview.mp3",
   "description": "Hör zu und achte darauf, welche zwei Gründe genannt werden.",
-  "transcript": "Pflicht (Markdown): das vollständige Transkript der Aufnahme.",
+  "transcript": "Vollständiges Transkript der Aufnahme (Markdown; dringend empfohlen, optional nur bei Selbst-Eintippen-Höraufgaben).",
   "credit": "Aufnahme: …, CC BY-SA 4.0"
 }
 ```
 
-- **`title`, `transcript`, `credit` sind PFLICHT**: Überschrift, das
-  vollständige Transkript (barrierefrei und zum Nachlesen) sowie Quelle
-  und Lizenz der Aufnahme.
+- **`title` ist PFLICHT**; in der Datei-Variante zusätzlich **`credit`**
+  (Quelle und Lizenz der Aufnahme).
+- **`transcript`** (Datei-Variante, Markdown): das vollständige
+  Transkript – dringend empfohlen (Barrierefreiheit!). Seit 2. August
+  2026 optional: Weglassen NUR bei Höraufgaben, bei denen die Lernenden
+  das Gehörte selbst eintippen sollen. **`transkriptAnzeigen`**
+  (Standard `true`) blendet das Transkript bzw. den Vorlesetext bei
+  Bedarf aus, ohne ihn zu löschen. In der Vorlese-Variante entfällt
+  `transcript` – der `vorleseText` ist bereits der Text.
 - **`src`**: Datei im **eigenen** Modulordner
   (`/content/<modul-id>/<datei>.mp3`, auch `.m4a`) – fremde Audio-Hosts
   gibt es nicht. Erlaubte Endungen und Maximalgrösse: siehe
@@ -381,6 +407,11 @@ vorn» und verlangsamte Wiedergabe (0.75× – wichtig für Fremdsprachen).
   Aufgabenblöcke im selben Modul – ein Hörverstehen besteht typisch aus
   einem `audio`-Block plus Lückentext, Quiz oder Zuordnung direkt
   danach.
+- **Achtung Rollout:** Ältere Player-Versionen lehnen Module mit den
+  Feldern vom 2. August 2026 (`vorleseText`, `vorleseSprache`,
+  `transkriptAnzeigen`) oder ohne `transcript` ab (kein Platzhalter –
+  die Felder stecken im bestehenden Blocktyp). Solche Module erst
+  einreichen, wenn die Plattform sie ausliefert.
 - Additive Ergänzung von Schema-Version 2 (1. August 2026) – ältere
   Player zeigen einen Platzhalter.
 
