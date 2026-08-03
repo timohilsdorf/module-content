@@ -19,6 +19,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 31. Juli 2026 | Additiv (kein Versionswechsel): zwei neue Blocktypen. [`simulation`](#simulation--verzweigter-rollenspiel-dialog) (verzweigter Rollenspiel-Dialog, vollständig skriptiert; mit optionaler `abschlussfrage` ein prüfender Block – löst den bisherigen gleichnamigen Zukunftstyp ab) und [`planspiel`](#planspiel--eingebettetes-lernspiel-nur-everycate-kernteam) (eingebettetes Lernspiel als HTML-Datei im Modulordner, streng gekapselt; **nur für das EveryCate-Kernteam**). Bestehende Dateien bleiben gültig; ältere Player zeigen für beide einen Platzhalter. Version-1-Dateien mit einem andersförmigen `simulation`-Zukunftsblock bleiben ebenfalls gültig (Platzhalter-Verhalten bleibt erhalten). |
 | 2 | 1. August 2026 | Additiv (kein Versionswechsel): dritter Lückentext-Modus [`satzbau`](#lueckentext--lückentext-automatisch-geprüft) (Bausteine in die richtige Reihenfolge bringen; nutzt `bausteine`/`alternativen` statt `text`/`luecken` – **Achtung:** ältere Player lehnen satzbau-Blöcke ab, solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen), neuer prüfender Blocktyp [`zuordnung`](#zuordnung--paare-zuordnen-automatisch-geprüft) (Paare zuordnen, Elemente Text oder Bild) und neuer Blocktyp [`audio`](#audio--hörverstehen) (moduleigene Hördatei mit Pflicht-Transkript, nicht prüfend). Ausserdem festgehalten: `language` ist die **Zielsprache** des Moduls – bei Fremdsprachenmodulen (z. B. `"en"`) antwortet der KI-Lernpartner Cate in dieser Sprache. |
 | 2 | 2. August 2026 | Additiv (kein Versionswechsel): Zuordnung wird **rein per Antippen** bedient (beide Spalten gemischt nebeneinander, Paare in beliebiger Reihenfolge bilden, sichtbar verbunden und auflösbar – kein Drag-and-Drop mehr) und darf zusätzlich **linke Ablenker** tragen (`ablenkerLinks`). Audio: `transcript` ist **optional** (nur weglassen, wenn das Gehörte selbst eingetippt werden soll; `transkriptAnzeigen` steuert die Anzeige, Standard `true`) und als Alternative zur Datei gibt es die **Vorlese-Variante** `vorleseText` + `vorleseSprache` (Browser-Stimme, nur lokale Stimmen – die Datei bleibt der bevorzugte Weg). **Achtung:** ältere Player lehnen Module mit den neuen Feldern bzw. ohne `transcript` ab – erst nach dem zugehörigen Plattform-Deploy einreichen. |
+| 2 | 3. August 2026 | Additiv (kein Versionswechsel, reine Lockerung): Audio-Blöcke dürfen `src` **und** `vorleseText` gleichzeitig tragen – die **Datei hat Vorrang**, der Vorlesetext ist das Backup, solange (noch) keine Datei hinterlegt ist. Mit `src` bleibt `transcript` erlaubt; nur ohne `src` ist es weiterhin verboten (der `vorleseText` ist dort bereits der Text). Bestehende Module bleiben unverändert gültig. |
 
 ## Ablage
 
@@ -358,18 +359,22 @@ verbunden und durch Antippen eines Partners wieder auflösbar.
 
 ### `audio` – Hörverstehen
 
-Zwei Varianten (genau EINE pro Block):
+Zwei Quellen, seit 3. August 2026 **kombinierbar** (mindestens eine
+pro Block; die Datei hat Vorrang):
 
-1. **Hinterlegte Hördatei** (`src`) – der bevorzugte Weg (bessere
-   Aussprache, offline zuverlässig). Abspielsteuerung: Start/Pause,
-   Fortschrittsleiste, «von vorn» und verlangsamte Wiedergabe (0.75× –
-   wichtig für Fremdsprachen).
+1. **Hinterlegte Hördatei** (`src`) – wenn vorhanden, wird SIE gespielt
+   (bessere Aussprache, offline zuverlässig). Abspielsteuerung:
+   Start/Pause, Fortschrittsleiste, «von vorn» und verlangsamte
+   Wiedergabe (0.75× – wichtig für Fremdsprachen).
 2. **Vorlese-Variante** (`vorleseText` + `vorleseSprache`, seit
-   2. August 2026) – der schnelle Behelf ohne Datei: Der Browser liest
-   den Text mit einer **lokalen** Stimme der angegebenen Sprache vor
-   (BCP-47, z. B. `"en-GB"`). Gibt es auf einem Gerät keine passende
-   lokale Stimme, zeigt der Player einen ehrlichen Hinweis; der Text
-   bleibt lesbar.
+   2. August 2026) – als einzige Quelle ODER als Backup, solange (noch)
+   keine Datei hinterlegt ist: Der Browser liest den Text mit einer
+   **lokalen** Stimme der angegebenen Sprache vor (BCP-47, z. B.
+   `"en-GB"`). So lässt sich ein Modul zuerst mit Browser-Vorlesen
+   ausliefern und die Aufnahme später ergänzen, ohne die Aufgaben zu
+   ändern. Gibt es auf einem Gerät keine passende Stimme, zeigt der
+   Player den Text – bzw. bei Höraufgaben (`transkriptAnzeigen: false`)
+   einen ehrlichen Hinweis mit dem Weg zu den Stimmen-Einstellungen.
 
 ```json
 {
@@ -390,8 +395,10 @@ Zwei Varianten (genau EINE pro Block):
   2026 optional: Weglassen NUR bei Höraufgaben, bei denen die Lernenden
   das Gehörte selbst eintippen sollen. **`transkriptAnzeigen`**
   (Standard `true`) blendet das Transkript bzw. den Vorlesetext bei
-  Bedarf aus, ohne ihn zu löschen. In der Vorlese-Variante entfällt
-  `transcript` – der `vorleseText` ist bereits der Text.
+  Bedarf aus, ohne ihn zu löschen. Ohne `src` entfällt
+  `transcript` – der `vorleseText` ist dort bereits der Text (mit
+  `src` ist `transcript` weiter erlaubt, auch in Kombination mit
+  einem `vorleseText`-Backup).
 - **`src`**: Datei im **eigenen** Modulordner
   (`/content/<modul-id>/<datei>.mp3`, auch `.m4a`) – fremde Audio-Hosts
   gibt es nicht. Erlaubte Endungen und Maximalgrösse: siehe
