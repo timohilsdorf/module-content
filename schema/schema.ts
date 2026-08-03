@@ -83,6 +83,16 @@ import { z } from "zod";
  *   später ergänzen, ohne die Aufgaben zu ändern. Mit `src` bleibt
  *   `transcript` erlaubt; NUR ohne `src` ist es weiterhin verboten
  *   (der `vorleseText` ist dort bereits der Text).
+ * - 2, Klarstellung (3.8.2026, KEIN Versionswechsel – reine
+ *   ABSPIEL-Reihenfolge im Player, die Validierung bleibt unverändert):
+ *   Der Vorrang der Lockerung vom selben Tag dreht sich um. Bei
+ *   Audio-Blöcken mit `vorleseText` ist das Browser-Vorlesen der
+ *   BEVORZUGTE Weg, sobald eine passende Stimme der Zielsprache da ist
+ *   – Lernende wählen unter «Cates Stimmen» zwischen Stimmen und
+ *   Aussprachevarianten. Die hinterlegte Datei (`src`) ist die
+ *   RÜCKFALLEBENE (keine passende Stimme, oder die Vorlese-Ausgabe
+ *   schlägt fehl); zuletzt greift wie bisher der Text bzw. bei
+ *   verborgenem Transkript der Hinweis auf «Cates Stimmen».
  */
 export const SCHEMA_VERSION = 2;
 
@@ -1084,21 +1094,24 @@ export const AUDIO_DATEI_MUSTER =
  * Aufgabenblöcke im selben Modul (Lückentext, Quiz, Zuordnung).
  *
  * Zwei Quellen, seit 3.8.2026 KOMBINIERBAR (mindestens eine pro
- * Block, Datei hat Vorrang):
- * - `src`: hinterlegte Hördatei – wenn vorhanden, wird SIE gespielt
- *   (bessere Aussprache, offline zuverlässig). `credit` ist dann
- *   Pflicht.
+ * Block; Abspiel-Reihenfolge: Vorlesen bevorzugt → Datei →
+ * Text/Hinweis):
  * - `vorleseText` + `vorleseSprache`: der Browser liest den Text mit
- *   einer LOKALEN Stimme der angegebenen Sprache vor – als einzige
- *   Quelle ODER als Ausweich, solange (noch) keine Datei hinterlegt
- *   ist. Ohne passende Stimme zeigt der Player den Text bzw. bei
+ *   einer Stimme der angegebenen Sprache vor (die Automatik wählt nur
+ *   LOKALE Stimmen) – der BEVORZUGTE Weg, sobald eine passende Stimme
+ *   da ist: Lernende wählen unter «Cates Stimmen» zwischen Stimmen
+ *   und Aussprachevarianten.
+ * - `src`: hinterlegte Hördatei als RÜCKFALLEBENE – gespielt, wenn
+ *   keine passende Stimme da ist oder die Vorlese-Ausgabe fehlschlägt
+ *   (offline zuverlässig, feste Aussprache). `credit` ist dann
+ *   Pflicht. Ohne beides zeigt der Player den Text bzw. bei
  *   Höraufgaben (transkriptAnzeigen=false) einen Hinweis.
  */
 export const audioBlockSchema = z
   .strictObject({
     ...blockBase,
     type: z.literal("audio"),
-    /** Variante Datei: "/content/<modul>/<datei>.mp3|m4a" (im Modulordner). */
+    /** Variante Datei (Rückfallebene): "/content/<modul>/<datei>.mp3|m4a". */
     src: z
       .string()
       .regex(AUDIO_DATEI_MUSTER, {
@@ -1126,8 +1139,8 @@ export const audioBlockSchema = z
     /** Quelle und Lizenz der Aufnahme (Pflicht in der Datei-Variante). */
     credit: z.string().min(1).optional(),
     /**
-     * Variante Vorlesen: dieser Text wird über die Browser-
-     * Vorlesefunktion ausgegeben (reiner Text, kein Markdown).
+     * Variante Vorlesen (bevorzugt): dieser Text wird über die
+     * Browser-Vorlesefunktion ausgegeben (reiner Text, kein Markdown).
      */
     vorleseText: z.string().min(1).max(4000).optional(),
     /** Sprache des Vorlesetexts als BCP-47-Code, z. B. "en-GB". */
@@ -1150,15 +1163,16 @@ export const audioBlockSchema = z
           'Audio: "title" ist Pflicht – die Überschrift benennt, was zu hören ist.',
       });
     }
-    // Mindestens EINE Quelle: Datei und/oder Vorlesetext (seit
-    // 3.8.2026 kombinierbar – die Datei hat beim Abspielen Vorrang,
-    // der Vorlesetext ist das Backup, solange keine Datei da ist).
+    // Mindestens EINE Quelle: Vorlesetext und/oder Datei (seit
+    // 3.8.2026 kombinierbar – das Vorlesen ist beim Abspielen
+    // bevorzugt, die Datei ist die Rückfallebene ohne passende Stimme
+    // oder bei einem Ausgabefehler).
     if (block.src === undefined && block.vorleseText === undefined) {
       ctx.addIssue({
         code: "custom",
         path: ["src"],
         message:
-          'Audio: Der Block braucht "src" (Hördatei, bevorzugt) und/oder "vorleseText" + "vorleseSprache" (Browser-Vorlesen als Backup).',
+          'Audio: Der Block braucht "vorleseText" + "vorleseSprache" (Browser-Vorlesen, bevorzugt) und/oder "src" (Hördatei als Rückfallebene).',
       });
       return;
     }

@@ -108,19 +108,22 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      sind zusätzliche Elemente rechts bzw. links, die zu keinem Paar
 >      gehören. Die Elemente jeder Spalte müssen unterscheidbar sein.
 >   8. {"type":"audio","id":"hoeren1","title":"Pflicht-Titel",
->      "src":"/content/<id>/aufnahme.mp3","description":"Höraufgabe …",
->      "transcript":"vollständiges Transkript (dringend empfohlen)",
->      "credit":"Pflicht: Quelle & Lizenz"}
->      – Hörverstehen: Die .mp3/.m4a-Datei liegt im Modulordner (wie
->      Bilder hochladen); danach folgt idealerweise ein Lückentext, eine
+>      "vorleseText":"Text, den der Browser vorliest (bevorzugter Weg)",
+>      "vorleseSprache":"en-GB","description":"Höraufgabe …",
+>      "src":"/content/<id>/aufnahme.mp3",
+>      "credit":"mit src Pflicht: Quelle & Lizenz"}
+>      – Hörverstehen: Der Browser liest "vorleseText" mit einer Stimme
+>      der angegebenen Sprache vor (bevorzugt – die Lernenden können die
+>      Stimme wählen); die .mp3/.m4a-Datei im Modulordner (wie Bilder
+>      hochladen) ist die Rückfallebene ohne passende Stimme. Beides
+>      zusammen ist ideal und muss dann WORTGLEICH sein; jede Quelle geht
+>      auch allein. Danach folgt idealerweise ein Lückentext, eine
 >      Zuordnung oder ein Quiz zum Gehörten. Nur Aufnahmen mit geklärter
->      Lizenz. "transcript" darf NUR entfallen, wenn die Lernenden das
->      Gehörte selbst eintippen sollen; "transkriptAnzeigen": false
->      blendet es dafür aus, ohne es zu löschen. ALTERNATIVE ohne Datei:
->      {"type":"audio","id":"hoeren2","title":"…","vorleseText":"Text,
->      den der Browser vorliest","vorleseSprache":"en-GB"} – lokale
->      Browser-Stimme als schneller Behelf (die Datei bleibt der
->      bevorzugte Weg, bessere Aussprache und offline zuverlässig).
+>      Lizenz. Ohne "src" entfällt "transcript" (der "vorleseText" ist
+>      der Text); mit "src" allein ist "transcript" dringend empfohlen.
+>      Es darf NUR entfallen, wenn die Lernenden das Gehörte selbst
+>      eintippen sollen; "transkriptAnzeigen": false blendet Transkript
+>      bzw. Vorlesetext dafür aus, ohne sie zu löschen.
 >   9. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
 >      "figur":{"name":"Frau Keller","rolle":"Gemeindepräsidentin"},
 >      "start":"k1","knoten":[
