@@ -8,13 +8,12 @@ import { z } from "zod";
  * Format-Änderungen müssen in BEIDEN Dateien landen – zuerst in der
  * Plattform (dort erzwingt der Build das Schema), dann hier. Ab dem
  * SYNC-BEGINN-Marker müssen beide Dateien byteidentisch sein; die CI
- * des Plattform-Repos schlägt sonst fehl.
+ * schlägt sonst fehl.
  *
- * Dateibasiertes Format für Lernmodule: ein Ordner pro Modul unter
- * `modules/<slug>/module.json`. Die menschenlesbare Dokumentation
- * (auch für KI-Autoren) liegt in `CONTENT-SCHEMA.md`; die
- * Validierungsregeln dieses Repos in `schema/validate.ts` +
- * `schema/whitelist.json`.
+ * Erweiterbarkeit: Unbekannte Blocktypen (z. B. künftige "chat"-Blöcke)
+ * sind gültig, werden aber im Player mit einem Platzhalter gerendert. So
+ * können Inhalte schon heute Blöcke für künftige Player-Versionen
+ * enthalten.
  */
 
 // ---- SYNC-BEGINN: ab hier Plattform- und Content-Repo-Kopie byteidentisch halten (CI prüft) ----
@@ -75,6 +74,15 @@ import { z } from "zod";
  *   ältere Player lehnen Module mit den neuen Feldern bzw. ohne
  *   `transcript` ab – solche Module erst nach dem Plattform-Deploy
  *   einreichen.
+ * - 2, additive Ergänzung (3.8.2026, KEIN Versionswechsel – reine
+ *   LOCKERUNG, bestehende Dateien bleiben gültig): Audio-Blöcke dürfen
+ *   `src` UND `vorleseText` gleichzeitig tragen. Der Player spielt
+ *   dann die Datei (Vorrang); der `vorleseText` ist das Backup,
+ *   solange (noch) keine Datei hinterlegt ist – so lässt sich ein
+ *   Modul zuerst mit Browser-Vorlesen ausliefern und die Aufnahme
+ *   später ergänzen, ohne die Aufgaben zu ändern. Mit `src` bleibt
+ *   `transcript` erlaubt; NUR ohne `src` ist es weiterhin verboten
+ *   (der `vorleseText` ist dort bereits der Text).
  */
 export const SCHEMA_VERSION = 2;
 
@@ -1075,12 +1083,16 @@ export const AUDIO_DATEI_MUSTER =
  * KEIN prüfender Block – die Auswertung übernehmen nachfolgende
  * Aufgabenblöcke im selben Modul (Lückentext, Quiz, Zuordnung).
  *
- * Zwei Varianten (seit 2.8.2026, genau EINE pro Block):
- * - `src`: hinterlegte Hördatei – der BEVORZUGTE Weg (bessere
- *   Aussprache, offline zuverlässig). `credit` ist dann Pflicht.
+ * Zwei Quellen, seit 3.8.2026 KOMBINIERBAR (mindestens eine pro
+ * Block, Datei hat Vorrang):
+ * - `src`: hinterlegte Hördatei – wenn vorhanden, wird SIE gespielt
+ *   (bessere Aussprache, offline zuverlässig). `credit` ist dann
+ *   Pflicht.
  * - `vorleseText` + `vorleseSprache`: der Browser liest den Text mit
- *   einer LOKALEN Stimme der angegebenen Sprache vor (schneller Behelf;
- *   ohne passende lokale Stimme zeigt der Player einen Hinweis).
+ *   einer LOKALEN Stimme der angegebenen Sprache vor – als einzige
+ *   Quelle ODER als Ausweich, solange (noch) keine Datei hinterlegt
+ *   ist. Ohne passende Stimme zeigt der Player den Text bzw. bei
+ *   Höraufgaben (transkriptAnzeigen=false) einen Hinweis.
  */
 export const audioBlockSchema = z
   .strictObject({
@@ -1138,13 +1150,15 @@ export const audioBlockSchema = z
           'Audio: "title" ist Pflicht – die Überschrift benennt, was zu hören ist.',
       });
     }
-    // Genau EINE Quelle: Datei ODER Vorlesetext.
-    if ((block.src !== undefined) === (block.vorleseText !== undefined)) {
+    // Mindestens EINE Quelle: Datei und/oder Vorlesetext (seit
+    // 3.8.2026 kombinierbar – die Datei hat beim Abspielen Vorrang,
+    // der Vorlesetext ist das Backup, solange keine Datei da ist).
+    if (block.src === undefined && block.vorleseText === undefined) {
       ctx.addIssue({
         code: "custom",
-        path: [block.src !== undefined ? "vorleseText" : "src"],
+        path: ["src"],
         message:
-          'Audio: Der Block braucht entweder "src" (Hördatei, bevorzugt) ODER "vorleseText" + "vorleseSprache" (Browser-Vorlesen) – genau eines von beiden.',
+          'Audio: Der Block braucht "src" (Hördatei, bevorzugt) und/oder "vorleseText" + "vorleseSprache" (Browser-Vorlesen als Backup).',
       });
       return;
     }
@@ -1165,12 +1179,14 @@ export const audioBlockSchema = z
             'Audio: Die Vorlese-Variante braucht "vorleseSprache" (BCP-47, z. B. "en-GB"), damit eine passende Stimme gewählt wird.',
         });
       }
-      if (block.transcript !== undefined) {
+      if (block.transcript !== undefined && block.src === undefined) {
+        // Mit Datei ist transcript weiter erlaubt (Datei-Regeln gelten);
+        // als REINE Vorlese-Variante ist der vorleseText bereits der Text.
         ctx.addIssue({
           code: "custom",
           path: ["transcript"],
           message:
-            'Audio: In der Vorlese-Variante entfällt "transcript" – der "vorleseText" ist bereits der Text (Anzeige über "transkriptAnzeigen").',
+            'Audio: Ohne "src" entfällt "transcript" – der "vorleseText" ist bereits der Text (Anzeige über "transkriptAnzeigen").',
         });
       }
     } else if (block.vorleseSprache !== undefined) {
