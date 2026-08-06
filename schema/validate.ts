@@ -355,11 +355,7 @@ function checkModule(
     }
     // Zuordnungs-Bilder unterliegen denselben Regeln wie image-Blöcke.
     if (isKnownBlock(block) && block.type === "zuordnung") {
-      [
-        ...block.paare.flatMap((p) => [p.links, p.rechts]),
-        ...block.ablenker,
-        ...block.ablenkerLinks,
-      ].forEach((element, i) => {
+      block.paare.flatMap((p) => [p.links, p.rechts]).forEach((element, i) => {
         if (element.bild) checkBildUrl(element.bild.src, `Zuordnungs-Bild ${i + 1}`);
       });
     }

@@ -93,6 +93,17 @@ import { z } from "zod";
  *   RÜCKFALLEBENE (keine passende Stimme, oder die Vorlese-Ausgabe
  *   schlägt fehl); zuletzt greift wie bisher der Text bzw. bei
  *   verborgenem Transkript der Hinweis auf «Cates Stimmen».
+ * - 2, Vereinfachung (5.8.2026, KEIN Versionswechsel, aber VERENGUNG):
+ *   Zuordnung OHNE Ablenker – die Felder `ablenker` und `ablenkerLinks`
+ *   sind ENTFERNT (strictObject lehnt sie ab). Begründung: Geprüft
+ *   werden kann erst, wenn ALLES verbunden ist – Ablenker liessen sich
+ *   so gar nicht «unbenutzt» lassen und erzwangen falsche Paare. Jedes
+ *   linke Element hat genau ein rechtes Gegenstück, beide Spalten sind
+ *   gleich lang. ACHTUNG Rollout: Bestehende Module mit Ablenkern
+ *   ZUERST bereinigen und im Content-Repo mergen, DANN die Plattform
+ *   deployen (umgekehrt scheitert der Plattform-Build am alten
+ *   Content); ältere Player zeigen bereinigte Module weiter an – die
+ *   Felder waren dort optional.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -1004,7 +1015,9 @@ export function zuordnungElementText(
  * (seit 2.8.2026): ein Element links und eines rechts antippen bildet
  * ein Paar – in beliebiger Reihenfolge; Paare sind sichtbar verbunden
  * und wieder auflösbar. PRÜFENDER Block: ein Punkt pro korrektem Paar,
- * bestanden bei 100 %.
+ * bestanden bei 100 %. Seit 5.8.2026 OHNE Ablenker (Felder entfernt,
+ * siehe Versionsgeschichte): Jedes linke Element hat genau ein rechtes
+ * Gegenstück, beide Spalten sind gleich lang.
  */
 export const zuordnungBlockSchema = z
   .strictObject({
@@ -1013,10 +1026,6 @@ export const zuordnungBlockSchema = z
     /** Optionale Arbeitsanweisung, Markdown erlaubt. */
     intro: markdown.optional(),
     paare: z.array(zuordnungPaarSchema).min(2).max(12),
-    /** Zusätzliche RECHTE Elemente, die zu keinem Paar gehören. */
-    ablenker: z.array(zuordnungElementSchema).max(6).default([]),
-    /** Zusätzliche LINKE Elemente, die zu keinem Paar gehören (seit 2.8.2026). */
-    ablenkerLinks: z.array(zuordnungElementSchema).max(6).default([]),
   })
   .superRefine((block, ctx) => {
     // Stabile id ist Pflicht (wie bei Lückentext/Quiz).
@@ -1035,14 +1044,13 @@ export const zuordnungBlockSchema = z
           'Zuordnung: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
       });
     }
-    // Die Elemente JEDER Spalte (inkl. Ablenker) müssen unterscheidbar
-    // sein – zwei gleich aussehende Einträge machten die Zuordnung zum
-    // Ratespiel. Bild-Elemente vergleichen über die BILD-Identität
-    // (src): dasselbe Foto mit zwei Alt-Texten sieht identisch aus.
+    // Die Elemente JEDER Spalte müssen unterscheidbar sein – zwei
+    // gleich aussehende Einträge machten die Zuordnung zum Ratespiel.
+    // Bild-Elemente vergleichen über die BILD-Identität (src):
+    // dasselbe Foto mit zwei Alt-Texten sieht identisch aus.
     const pruefeSpalte = (
       seite: "links" | "rechts",
       elemente: Array<z.infer<typeof zuordnungElementSchema>>,
-      ablenkerFeld: "ablenker" | "ablenkerLinks",
     ) => {
       const gesehen = new Map<string, number>();
       elemente.forEach((element, i) => {
@@ -1053,11 +1061,8 @@ export const zuordnungBlockSchema = z
         if (vorher !== undefined) {
           ctx.addIssue({
             code: "custom",
-            path:
-              i < block.paare.length
-                ? ["paare", i, seite]
-                : [ablenkerFeld, i - block.paare.length],
-            message: `Zuordnung: Das ${seite === "links" ? "linke" : "rechte"} Element "${zuordnungElementText(element)}" kommt mehrfach vor (auch Ablenker zählen; Bilder zählen über die Bilddatei) – die Elemente einer Spalte müssen unterscheidbar sein.`,
+            path: ["paare", i, seite],
+            message: `Zuordnung: Das ${seite === "links" ? "linke" : "rechte"} Element "${zuordnungElementText(element)}" kommt mehrfach vor (Bilder zählen über die Bilddatei) – die Elemente einer Spalte müssen unterscheidbar sein.`,
           });
         }
         gesehen.set(schluessel, i);
@@ -1065,13 +1070,11 @@ export const zuordnungBlockSchema = z
     };
     pruefeSpalte(
       "rechts",
-      [...block.paare.map((p) => p.rechts), ...block.ablenker],
-      "ablenker",
+      block.paare.map((p) => p.rechts),
     );
     pruefeSpalte(
       "links",
-      [...block.paare.map((p) => p.links), ...block.ablenkerLinks],
-      "ablenkerLinks",
+      block.paare.map((p) => p.links),
     );
   });
 

@@ -98,15 +98,14 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      {"links":{"text":"Begriff"},"rechts":{"text":"Definition"}},
 >      {"links":{"text":"Begriff 2"},"rechts":{"bild":{"src":
 >      "/content/<id>/bild.jpg","alt":"Pflicht-Beschreibung",
->      "credit":"Quelle & Lizenz (Pflicht)"}}}],
->      "ablenker":[{"text":"passt zu keinem Paar"}],
->      "ablenkerLinks":[{"text":"passt auch zu keinem Paar"}]}
+>      "credit":"Quelle & Lizenz (Pflicht)"}}}]}
 >      – Zuordnung: 2–12 Paare, jedes Element entweder "text" ODER "bild"
 >      (Bilder mit alt und credit als Pflicht, gleiche Bildregeln wie
 >      beim image-Block). Bedient wird rein per Antippen (links und
->      rechts in beliebiger Reihenfolge); "ablenker"/"ablenkerLinks"
->      sind zusätzliche Elemente rechts bzw. links, die zu keinem Paar
->      gehören. Die Elemente jeder Spalte müssen unterscheidbar sein.
+>      rechts in beliebiger Reihenfolge). KEINE Ablenker (seit 5.8.2026):
+>      Jedes linke Element hat genau ein rechtes Gegenstück – die
+>      früheren Felder "ablenker"/"ablenkerLinks" lehnt die Validierung
+>      ab. Die Elemente jeder Spalte müssen unterscheidbar sein.
 >   8. {"type":"audio","id":"hoeren1","title":"Pflicht-Titel",
 >      "vorleseText":"Text, den der Browser vorliest (bevorzugter Weg)",
 >      "vorleseSprache":"en-GB","description":"Höraufgabe …",

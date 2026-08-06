@@ -21,6 +21,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 2. August 2026 | Additiv (kein Versionswechsel): Zuordnung wird **rein per Antippen** bedient (beide Spalten gemischt nebeneinander, Paare in beliebiger Reihenfolge bilden, sichtbar verbunden und auflösbar – kein Drag-and-Drop mehr) und darf zusätzlich **linke Ablenker** tragen (`ablenkerLinks`). Audio: `transcript` ist **optional** (nur weglassen, wenn das Gehörte selbst eingetippt werden soll; `transkriptAnzeigen` steuert die Anzeige, Standard `true`) und als Alternative zur Datei gibt es die **Vorlese-Variante** `vorleseText` + `vorleseSprache` (Browser-Stimme, nur lokale Stimmen – die Datei bleibt der bevorzugte Weg). **Achtung:** ältere Player lehnen Module mit den neuen Feldern bzw. ohne `transcript` ab – erst nach dem zugehörigen Plattform-Deploy einreichen. |
 | 2 | 3. August 2026 | Additiv (kein Versionswechsel, reine Lockerung): Audio-Blöcke dürfen `src` **und** `vorleseText` gleichzeitig tragen – die **Datei hat Vorrang**, der Vorlesetext ist das Backup, solange (noch) keine Datei hinterlegt ist. Mit `src` bleibt `transcript` erlaubt; nur ohne `src` ist es weiterhin verboten (der `vorleseText` ist dort bereits der Text). Bestehende Module bleiben unverändert gültig. |
 | 2 | 3. August 2026 | Klarstellung (kein Versionswechsel, reine **Abspiel-Reihenfolge** im Player – die Validierung bleibt unverändert): Der Vorrang aus der Zeile darüber dreht sich um. Das **Browser-Vorlesen ist der bevorzugte Weg**, sobald eine passende Stimme der Zielsprache da ist (Lernende wählen unter «Cates Stimmen» zwischen Stimmen und Aussprachevarianten); die **hinterlegte Datei ist die Rückfallebene** (keine passende Stimme, oder die Vorlese-Ausgabe schlägt fehl); zuletzt greift wie bisher der Text bzw. bei verborgenem Transkript der Hinweis auf «Cates Stimmen». Für Autorinnen und Autoren heisst das: `vorleseText` **und** `src` gemeinsam eintragen ist der Idealzustand – Wahlfreiheit bei den Stimmen plus ein zuverlässiges Backup. |
+| 2 | 5. August 2026 | **Verengung** (kein Versionswechsel): [Zuordnung](#zuordnung--paare-zuordnen-automatisch-geprüft) **ohne Ablenker** – die Felder `ablenker` und `ablenkerLinks` sind **entfernt** und werden von der Validierung abgelehnt. Begründung: Geprüft werden kann erst, wenn ALLE Elemente verbunden sind – Ablenker liessen sich so gar nicht «unbenutzt» lassen und erzwangen falsch bewertete Paare. Jedes linke Element hat genau ein rechtes Gegenstück, beide Spalten sind gleich lang. **Achtung Rollout (umgekehrt zu den additiven Fällen):** Module mit Ablenkern ZUERST bereinigen und mergen, DANN deployt die Plattform das strengere Schema – ältere Player zeigen bereinigte Module unverändert an (die Felder waren dort optional). |
 
 ## Ablage
 
@@ -331,8 +332,7 @@ verbunden und durch Antippen eines Partners wieder auflösbar.
       "links": { "text": "Chloroplast" },
       "rechts": { "bild": { "src": "/content/mein-modul/chloroplast.jpg", "alt": "Mikroskopaufnahme eines Chloroplasten", "credit": "Foto: …, CC BY-SA 4.0" } }
     }
-  ],
-  "ablenker": [{ "text": "Passt zu keinem Paar." }]
+  ]
 }
 ```
 
@@ -342,16 +342,12 @@ verbunden und durch Antippen eines Partners wieder auflösbar.
   Host, gleiche Regeln wie der [Bild-Block](#image--bild)), `alt` und
   `credit` – Quelle/Lizenz sind hier PFLICHT und erscheinen gesammelt
   unter dem Block.
-- **`ablenker`** (optional, max. 6): zusätzliche RECHTE Elemente ohne
-  Partner. **`ablenkerLinks`** (optional, max. 6, seit 2. August 2026):
-  dasselbe für die LINKE Spalte – es dürfen also auf einer oder beiden
-  Seiten mehr Elemente stehen, als Paare existieren. Die Elemente jeder
-  Spalte (inkl. Ablenker) müssen unterscheidbar sein (die Validierung
+- **Keine Ablenker** (seit 5. August 2026): Jedes linke Element hat
+  genau ein passendes rechtes Gegenstück, beide Spalten sind gleich
+  lang – die früheren Felder `ablenker`/`ablenkerLinks` werden von der
+  Validierung abgelehnt (Begründung in der Versionsgeschichte). Die
+  Elemente jeder Spalte müssen unterscheidbar sein (die Validierung
   lehnt Doppelte ab; Bilder zählen über die Bilddatei).
-- **Achtung Rollout:** Ältere Player-Versionen lehnen Module mit
-  `ablenkerLinks` ab (kein Platzhalter – das Feld steckt im bestehenden
-  Blocktyp). Solche Module erst einreichen, wenn die Plattform das Feld
-  ausliefert.
 - **Punkte**: ein Punkt pro korrektem Paar; Prozent-/Punkteanzeige und
   «Wiederholen» wie bei Quiz und Lückentext. PRÜFENDER Block (zählt zum
   Modulabschluss).

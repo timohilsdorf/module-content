@@ -140,7 +140,7 @@
       "type": "zuordnung",
       "id": "zu-blocktypen",
       "title": "Der Zuordnungs-Block",
-      "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Tippe je ein Element links und rechts an, egal in welcher Reihenfolge. Achtung: Auf **beiden** Seiten steckt je ein Ablenker, der zu nichts passt.",
+      "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Tippe je ein Element links und rechts an, egal in welcher Reihenfolge. Jedes Element hat genau ein passendes Gegenstück.",
       "paare": [
         {
           "links": { "text": "module.json" },
@@ -154,12 +154,6 @@
           "links": { "text": "Ordner unter modules/" },
           "rechts": { "text": "Hier liegen module.json, Bilder und Hördateien zusammen." }
         }
-      ],
-      "ablenker": [
-        { "text": "Eine Datenbank, die es bei EveryCate nicht gibt." }
-      ],
-      "ablenkerLinks": [
-        { "text": "config.yaml" }
       ]
     },
     {
