@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 2,
+  "id": "englisch-05-write-a-review",
+  "title": "Write a review",
+  "description": "«Write a review» – Modul 5 im Englisch-Lernpfad «Cate's Sound Lab» (Woche 2): Vom Lesen zum Schreiben. Du analysierst ein Beispiel-Review, lernst die vier Bausteine eines Reviews und typische Redemittel kennen – und schreibst am Ende dein eigenes Review über einen Song oder eine Band (80–120 Wörter) mit Meinung und Begründung. Niveau A2–B1 (9. Schulstufe).",
+  "subject": "E",
+  "subjectName": "Englisch",
+  "cycle": 3,
+  "grades": "9. Klasse (Sek I)",
+  "sequenz": 5,
+  "einheit": "Cate's Sound Lab – über Musik sprechen",
+  "language": "en",
+  "curriculum": "LiLe",
+  "durationMinutes": 45,
+  "difficulty": "mittel",
+  "keywords": [
+    "Englisch",
+    "Musik",
+    "Schreiben",
+    "writing",
+    "review",
+    "Rezension",
+    "Meinung",
+    "Redemittel",
+    "opinion",
+    "Textstruktur"
+  ],
+  "learningObjectives": [
+    "I can write a short, structured review of a song or a band (80–120 words). (Ich kann ein kurzes, strukturiertes Review über einen Song oder eine Band schreiben, 80–120 Wörter.)",
+    "I can give my opinion and support it with reasons. (Ich kann meine Meinung äussern und begründen.)",
+    "I know the four building blocks of a review and typical review phrases. (Ich kenne die vier Bausteine eines Reviews und typische Review-Redemittel.)"
+  ],
+  "competencies": [
+    {
+      "code": "E.4.A.1",
+      "description": "FS1E.4.A.1 (LiLe, Englisch 1. Fremdsprache – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+      "code": "E.2.A.1",
+      "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+      "code": "E.5.B.1",
+      "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äussern."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LiLe – Liechtensteiner Lehrplan",
+      "url": "https://www.lile.li"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Anna Rinderer"
+  ],
+  "requires": [
+    "englisch-01-cates-sound-lab",
+    "englisch-04-sound-check"
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Welcome to «Write a review»!",
+      "body": "Reviews are everywhere: under every song in your streaming app, in the comments under music videos, in magazines and blogs. People read them to decide: is this worth my time?\n\nIn this module you learn how to write one yourself. You will:\n\n- read and analyse a short example review,\n- learn the **four building blocks** of a good review,\n- collect **useful phrases** for each building block,\n- and then: **at the end, you will write your own review** of a song or a band you like.\n\nEverything you learned in this unit comes together here – your music words, your describing adjectives, and the two small words *so* and *such*."
+    },
+    {
+      "type": "text",
+      "title": "Read: An example review",
+      "body": "Read this review of a song. The band and the song are invented – but the review works exactly like a real one.\n\n> **«Paper Planets» by The Cardboard Comets**\n>\n> «Paper Planets» is the new single by The Cardboard Comets, a young indie band from Bristol.\n>\n> The song mixes soft keyboard sounds with a powerful chorus. The track starts slowly, almost like a lullaby, but then the drums come in and give it real energy. The melody is so catchy that I hummed it all day after the first listen.\n>\n> In my opinion, the best part is the singer's warm voice, because it makes the sad lyrics feel hopeful. The only weak point is the long intro.\n>\n> I would recommend «Paper Planets» to everyone who likes relaxing songs with a little surprise – perfect for a rainy evening."
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-reading",
+      "title": "Check your reading",
+      "intro": "Four questions about the example review – two about the content, two about how it is written.",
+      "questions": [
+        {
+          "id": "re-q1",
+          "type": "single_choice",
+          "prompt": "What is «Paper Planets»?",
+          "options": [
+            {
+              "text": "A new single by The Cardboard Comets.",
+              "correct": true
+            },
+            {
+              "text": "The name of the indie band from Bristol."
+            },
+            {
+              "text": "The first album by The Cardboard Comets."
+            },
+            {
+              "text": "A radio programme about new music."
+            }
+          ],
+          "explanation": "The first sentence gives the basic facts: «Paper Planets» is the new single (one song), and The Cardboard Comets are the band that plays it."
+        },
+        {
+          "id": "re-q2",
+          "type": "single_choice",
+          "prompt": "How does the song develop?",
+          "options": [
+            {
+              "text": "It starts loudly and gets quieter towards the end."
+            },
+            {
+              "text": "It sounds exactly the same from the start to the end."
+            },
+            {
+              "text": "The drums stop playing after the long intro."
+            },
+            {
+              "text": "It starts slowly, and then the drums give it energy.",
+              "correct": true
+            }
+          ],
+          "explanation": "The review says: the track starts slowly, almost like a lullaby, but then the drums come in and give it real energy – so it grows, it does not get quieter."
+        },
+        {
+          "id": "re-q3",
+          "type": "single_choice",
+          "prompt": "Which sentence gives the writer's opinion?",
+          "options": [
+            {
+              "text": "«Paper Planets» is the new single by The Cardboard Comets."
+            },
+            {
+              "text": "The song mixes soft keyboard sounds with a powerful chorus."
+            },
+            {
+              "text": "In my opinion, the best part is the singer's warm voice.",
+              "correct": true
+            },
+            {
+              "text": "The band comes from Bristol."
+            }
+          ],
+          "explanation": "«In my opinion …» is a clear opinion signal: the writer tells us what they think. The other three sentences are facts or description – they inform, but they do not judge."
+        },
+        {
+          "id": "re-q4",
+          "type": "single_choice",
+          "prompt": "What does the writer do in the last part of the review?",
+          "options": [
+            {
+              "text": "Give the basic facts about the band."
+            },
+            {
+              "text": "Recommend the song to a group of listeners.",
+              "correct": true
+            },
+            {
+              "text": "Describe the sound of the song in detail."
+            },
+            {
+              "text": "Tell the whole story of how the band started in Bristol."
+            }
+          ],
+          "explanation": "The last sentence says who should listen to the song («everyone who likes relaxing songs …») and when («perfect for a rainy evening») – that is a recommendation, the classic ending of a review."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "The four building blocks of a review",
+      "body": "A good review is not a random collection of sentences – it walks through four building blocks, usually in this order:\n\n1. **Basic facts** – Who made it? What is it (a song, an album, a band)? Which genre?\n2. **Description** – What does it sound like? Instruments, tempo, voice, mood.\n3. **Opinion + reasons** – What do you think about it? And most important: **why**? An opinion without a reason is weak.\n4. **Recommendation** – Who is it for? When should people listen to it?\n\nLook back at the example review: its four paragraphs follow exactly these four blocks. The picture below is your map for the rest of the module – and for your own review at the end."
+    },
+    {
+      "type": "image",
+      "title": "Your review map",
+      "src": "/content/englisch-05-write-a-review/review-bausteine.png",
+      "alt": "Chart titled «The four building blocks of a review» with four numbered boxes connected by downward arrows. Box 1, blue, «Basic facts»: Who made it? What is it? Which genre? Box 2, green, «Description»: What does it sound like – instruments, tempo, voice, mood? Box 3, orange, «Opinion + reasons»: What do you think about it – and why? Box 4, dark blue, «Recommendation»: Who is it for? When should people listen to it?",
+      "caption": "From facts to recommendation: a good review walks through the four blocks in this order.",
+      "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+    },
+    {
+      "type": "zuordnung",
+      "id": "zu-bausteine-1",
+      "title": "Sort the sentences (round 1)",
+      "intro": "Four sentences from different reviews, four building blocks. Match each sentence to its block – tap the sentence, then tap the block.",
+      "paare": [
+        {
+          "links": {
+            "text": "«Silver Rain» is the second album by the Danish pop trio Neon Harbour."
+          },
+          "rechts": {
+            "text": "1 – Basic facts"
+          }
+        },
+        {
+          "links": {
+            "text": "The guitars sound warm, and the beat is slow and heavy."
+          },
+          "rechts": {
+            "text": "2 – Description"
+          }
+        },
+        {
+          "links": {
+            "text": "I think the last song is the best one, because the whole band sings together."
+          },
+          "rechts": {
+            "text": "3 – Opinion + reasons"
+          }
+        },
+        {
+          "links": {
+            "text": "If you like quiet music for studying, this album is for you."
+          },
+          "rechts": {
+            "text": "4 – Recommendation"
+          }
+        }
+      ]
+    },
+    {
+      "type": "zuordnung",
+      "id": "zu-bausteine-2",
+      "title": "Sort the sentences (round 2)",
+      "intro": "Four more sentences – same four blocks. Careful: this time one opinion is negative, but it is still an opinion!",
+      "paare": [
+        {
+          "links": {
+            "text": "The singer of the band is nineteen and comes from a small village in Austria."
+          },
+          "rechts": {
+            "text": "1 – Basic facts"
+          }
+        },
+        {
+          "links": {
+            "text": "In the chorus, a loud electric guitar joins the soft piano."
+          },
+          "rechts": {
+            "text": "2 – Description"
+          }
+        },
+        {
+          "links": {
+            "text": "In my opinion, the lyrics are boring, because they repeat the same three lines."
+          },
+          "rechts": {
+            "text": "3 – Opinion + reasons"
+          }
+        },
+        {
+          "links": {
+            "text": "Fans of loud rock concerts should buy a ticket for the summer tour."
+          },
+          "rechts": {
+            "text": "4 – Recommendation"
+          }
+        }
+      ]
+    },
+    {
+      "type": "lueckentext",
+      "id": "lt-phrases",
+      "title": "Useful phrases: Build the review",
+      "intro": "Here is a short review of «Yellow Windows» by the invented band Lemon Sky – but the useful phrases are missing. Drag them into the gaps (on a phone: tap the phrase first, then the gap). Tip: phrases with a capital letter start a sentence.",
+      "modus": "wortbank",
+      "text": "«Yellow Windows» {{1}} the new band Lemon Sky.\n{{2}} a long night drive through the city – that is the story in the lyrics.\nThe first part {{3}} an old film, quiet and grey.\n{{4}} the drum solo in the middle, because it wakes the whole song up.\n{{5}}, the singer sounds a little tired, {{6}} her voice is so quiet in the last chorus.\n{{7}} everyone who loves calm evenings – it is {{8}} a walk in the rain.",
+      "luecken": [
+        {
+          "antworten": [
+            "is the first single by"
+          ]
+        },
+        {
+          "antworten": [
+            "The song is about"
+          ]
+        },
+        {
+          "antworten": [
+            "sounds like"
+          ]
+        },
+        {
+          "antworten": [
+            "What I like most is"
+          ]
+        },
+        {
+          "antworten": [
+            "In my opinion"
+          ]
+        },
+        {
+          "antworten": [
+            "because"
+          ]
+        },
+        {
+          "antworten": [
+            "I would recommend it to"
+          ]
+        },
+        {
+          "antworten": [
+            "perfect for"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tasks",
+      "title": "Your turn: Write a review",
+      "intro": "This is what the whole unit was building up to – your first real piece of writing in English. Take your time.",
+      "tasks": [
+        {
+          "id": "task-review",
+          "prompt": "**Write a review of a song or a band you like** – 80 to 120 words, in English.\n\nYour review must:\n\n- use **all four building blocks**, in order: basic facts → description → opinion + reasons → recommendation,\n- use **at least two adjectives** from this unit (catchy, cheerful, relaxing, powerful, annoying, unforgettable …),\n- use **so or such** at least once.\n\nWhen you are done, check your text:\n\n- [ ] Basic facts: I say who made it and what it is.\n- [ ] Description: I describe what it sounds like.\n- [ ] Opinion + reasons: I give my opinion and at least one reason.\n- [ ] Recommendation: I say who should listen to it.\n- [ ] I used at least two adjectives from this unit.\n- [ ] I used *so* or *such* at least once.",
+          "hint": "Start with the phrases from the last exercise: «… is the first single by …», «The song is about …», «What I like most is …», «In my opinion …», «I would recommend it to …». The review map above shows you the order, and if you need adjectives, look back at the picture «The language of music» in Module 1.",
+          "solution": "There is no single right answer – your own review is the goal. Here is an example about an invented band, so you can compare the structure: «‹Tuesday Sun› is the first single by The Attic Cats, a small band from my town. The song starts with a cheerful keyboard melody, and later a warm guitar and some quiet drums join in. In my opinion, the chorus is the best part, because it is so catchy that you sing along after one listen. The only boring moment is the slow ending. I would recommend ‹Tuesday Sun› to everyone who needs a happy song for the way to school, especially on grey Monday mornings.» – Check: four blocks in order, two adjectives (cheerful, catchy), one *so*. Now compare your own text with the checklist."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "id": "quiz-final",
+      "title": "Final check: the review toolbox",
+      "intro": "Three short questions – then your review is the real finish line of this module.",
+      "questions": [
+        {
+          "id": "fi-q1",
+          "type": "single_choice",
+          "prompt": "Which is the best order for a review?",
+          "options": [
+            {
+              "text": "Opinion + reasons → recommendation → basic facts → description"
+            },
+            {
+              "text": "Basic facts → description → opinion + reasons → recommendation",
+              "correct": true
+            },
+            {
+              "text": "Recommendation → description → basic facts → opinion + reasons"
+            },
+            {
+              "text": "Description → recommendation → opinion + reasons → basic facts"
+            }
+          ],
+          "explanation": "First the facts, then the sound, then your opinion with reasons, and the recommendation at the end – that is the order of the review map, and the order of the example review."
+        },
+        {
+          "id": "fi-q2",
+          "type": "single_choice",
+          "prompt": "Which sentence belongs to the building block «Opinion + reasons»?",
+          "options": [
+            {
+              "text": "The band was founded about two years ago in a small studio in Vienna."
+            },
+            {
+              "text": "The song starts with a quiet piano, a slow beat and a very soft voice."
+            },
+            {
+              "text": "Everyone who likes dancing at parties should listen to this new album."
+            },
+            {
+              "text": "In my opinion, the chorus is the best part, because everyone can sing along.",
+              "correct": true
+            }
+          ],
+          "explanation": "An opinion sentence judges («the best part») and gives a reason («because everyone can sing along»). The first sentence is basic facts, the second is description, and the third is a recommendation."
+        },
+        {
+          "id": "fi-q3",
+          "type": "single_choice",
+          "prompt": "You write: «I like this song.» What is missing to make it a strong review sentence?",
+          "options": [
+            {
+              "text": "A reason – why do you like it?",
+              "correct": true
+            },
+            {
+              "text": "The price of the song in the download shop."
+            },
+            {
+              "text": "A list of all the band members' names."
+            },
+            {
+              "text": "More exclamation marks."
+            }
+          ],
+          "explanation": "Opinion + reasons: an opinion without a reason is weak. «I like this song, because the rhythm makes me want to dance» tells the reader much more – prices, name lists and exclamation marks do not make an opinion stronger."
+        }
+      ]
+    }
+  ]
+}
