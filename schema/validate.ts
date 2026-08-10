@@ -24,6 +24,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
+import { create, unitDependencies } from "mathjs";
+
+// Schlanke mathjs-Instanz nur fürs Einheiten-Parsen (kein evaluate) –
+// dieselbe Konstruktion wie in der Plattform (src/lib/content/einheiten.ts).
+const mathEinheiten = create(unitDependencies, {});
+function istBekannteEinheit(einheit: string): boolean {
+  try {
+    mathEinheiten.unit(1, einheit);
+    return true;
+  } catch {
+    return false;
+  }
+}
 import {
   isKnownBlock,
   KNOWN_BLOCK_TYPES,
@@ -357,6 +370,19 @@ function checkModule(
     if (isKnownBlock(block) && block.type === "zuordnung") {
       block.paare.flatMap((p) => [p.links, p.rechts]).forEach((element, i) => {
         if (element.bild) checkBildUrl(element.bild.src, `Zuordnungs-Bild ${i + 1}`);
+      });
+    }
+    // Numerisch: Einheiten müssen mathjs-bekannt sein (die Plattform
+    // rechnet Eingaben mit mathjs um – eine hier unbekannte Einheit
+    // machte die Aufgabe unlösbar). mathjs ist devDependency dieses
+    // Repos; die Prüfung lebt bewusst AUSSERHALB der SYNC-Region.
+    if (isKnownBlock(block) && block.type === "numerisch") {
+      block.aufgaben.forEach((aufgabe, i) => {
+        if (aufgabe.einheit !== undefined && !istBekannteEinheit(aufgabe.einheit)) {
+          errors.push(
+            `Numerisch-Aufgabe ${i + 1}: Die Einheit "${aufgabe.einheit}" kennt mathjs nicht (ASCII-Schreibweise nutzen, z. B. "degC" statt "°C", "m^2" statt "m²").`,
+          );
+        }
       });
     }
   }

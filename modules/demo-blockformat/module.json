@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "demo-blockformat",
   "title": "So funktioniert ein EveryCate-Modul",
-  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Audio, Aufgaben, Lückentexte (inkl. Satzbau), Zuordnung, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
+  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Audio, Aufgaben, Lückentexte (inkl. Satzbau), Zuordnung, Zahlenaufgaben, Achsen-Aufgaben, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
   "subject": "DEMO",
   "subjectName": "Demo & Dokumentation",
   "cycle": 3,
@@ -38,7 +38,7 @@
     {
       "type": "text",
       "title": "Willkommen",
-      "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Video, Audio, Aufgaben, Lückentexte, Zuordnung, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
+      "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Video, Audio, Aufgaben, Lückentexte, Zuordnung, Zahlenaufgaben, Achsen-Aufgaben, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
     },
     {
       "type": "image",
@@ -154,6 +154,40 @@
           "links": { "text": "Ordner unter modules/" },
           "rechts": { "text": "Hier liegen module.json, Bilder und Hördateien zusammen." }
         }
+      ]
+    },
+    {
+      "type": "numerisch",
+      "id": "num-blocktypen",
+      "title": "Der Numerisch-Block",
+      "intro": "Zahlenaufgaben werden **automatisch geprüft** – gleichwertige Schreibweisen zählen gleich (0,5 = 0.5 = 1/2 = 50 %), und wo eine Einheit gefragt ist, werden gleichwertige Einheiten umgerechnet (42 cm = 0,42 m). Mathe-Notation funktioniert in allen Texten mit Doppel-Dollar: $$\\tfrac{1}{2} + \\tfrac{1}{4} = \\tfrac{3}{4}$$",
+      "aufgaben": [
+        {
+          "prompt": "Wie viele **Meter** sind 4,2 km? Antworte mit Einheit.",
+          "antworten": ["4200"],
+          "einheit": "m"
+        },
+        {
+          "prompt": "Welchen Wert ergibt $$\\tfrac{1}{2} + \\tfrac{1}{4}$$? (Bruch, Dezimalzahl oder Prozent – alles zählt.)",
+          "antworten": ["0.75"]
+        },
+        {
+          "prompt": "Gib die Kreiszahl $$\\pi$$ auf mindestens zwei Nachkommastellen genau an (Toleranz ± 0,005).",
+          "antworten": ["3.14159265"],
+          "toleranz": { "art": "absolut", "wert": 0.005 }
+        }
+      ]
+    },
+    {
+      "type": "achse",
+      "id": "achse-blocktypen",
+      "title": "Der Achsen-Block",
+      "intro": "Achsen-Aufgaben decken **Zahlenstrahl, Zeitstrahl und Koordinatensystem** ab. Platziere die drei Zahlen an der richtigen Stelle: Karte antippen, dann die Stelle auf dem Strahl antippen – oder die Karte direkt hinziehen.",
+      "x": { "min": 0, "max": 2, "schritt": 0.25, "teilstriche": 0.5, "beschriftung": "Zahlenstrahl" },
+      "elemente": [
+        { "text": "0,75", "x": 0.75 },
+        { "text": "5/4", "x": 1.25 },
+        { "text": "1,5", "x": 1.5 }
       ]
     },
     {
