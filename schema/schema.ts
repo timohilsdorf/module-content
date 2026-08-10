@@ -104,6 +104,21 @@ import { z } from "zod";
  *   deployen (umgekehrt scheitert der Plattform-Build am alten
  *   Content); ältere Player zeigen bereinigte Module weiter an – die
  *   Felder waren dort optional.
+ * - 2, additive Ergänzung (9.8.2026, KEIN Versionswechsel): zwei neue
+ *   PRÜFENDE Blocktypen. `numerisch` = Zahleneingabe mit Toleranz
+ *   (absolut oder prozentual), gleichwertigen Schreibweisen
+ *   (Dezimalpunkt/-komma, Bruch, Prozent – parseZahlwert in dieser
+ *   Datei ist die EINE Format-Logik), optionaler EINHEIT mit
+ *   Umrechnung gleichwertiger Einheiten (mathjs, lebt in der
+ *   Plattform) und mehreren akzeptierten Antworten. `achse` =
+ *   Elemente (Zahlen, Jahreszahlen, Textkarten) auf einer oder zwei
+ *   Achsen platzieren – Zahlenstrahl, Zeitstrahl, Koordinatensystem;
+ *   Achsen numerisch oder mit Textkategorien; Wertung nach Position
+ *   (Toleranz), Reihenfolge oder Kategorie (achseErgebnisse in dieser
+ *   Datei); Darstellung über JSXGraph (Plattform). Zusätzlich ist
+ *   Mathe-Notation ($…$, KaTeX) in allen Markdown-Feldern
+ *   darstellbar. Bestehende Dateien bleiben gültig; ältere Player
+ *   zeigen für beide neuen Typen einen Platzhalter.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -1215,6 +1230,509 @@ export const audioBlockSchema = z
     }
   });
 
+// --- Numerische Eingabe -----------------------------------------------------
+
+/**
+ * Zahlwert aus einer Schreibweise, NEU seit 9.8.2026 – die EINE
+ * Format-Logik für Autoren-Antworten (Validierung) und Lernenden-
+ * Eingaben (Player). Gleichwertig sind: Dezimalpunkt und -komma
+ * («0.5» = «0,5» – das Komma zählt NUR als Dezimaltrennzeichen, nie
+ * als Tausendergruppierung), Brüche («1/2») und – sofern die Aufgabe
+ * es zulässt – die Prozent-Schreibweise («50 %» = 0,5).
+ * Einheiten gehören NICHT hierher (der Player trennt sie vorher ab
+ * und rechnet sie mit mathjs um). Liefert null für alles Unlesbare.
+ */
+export function parseZahlwert(
+  roh: string,
+  { prozentErlaubt = true }: { prozentErlaubt?: boolean } = {},
+): number | null {
+  let text = roh.trim();
+  if (text === "") return null;
+  // Prozent-Schreibweise: mathematisch ist «50 %» der Bruchteil 0,5.
+  let faktor = 1;
+  if (text.endsWith("%")) {
+    if (!prozentErlaubt) return null;
+    faktor = 1 / 100;
+    text = text.slice(0, -1).trim();
+  }
+  // Dezimalkomma: Ohne Punkt werden ALLE Kommas zu Punkten («1,5/2,5»);
+  // Komma UND Punkt zusammen (Tausendergruppen) sind bewusst unlesbar.
+  if (text.includes(",")) {
+    if (text.includes(".")) return null;
+    text = text.replaceAll(",", ".");
+  }
+  const DEZIMAL = "(?:\\d+(?:\\.\\d+)?|\\.\\d+)";
+  // Bruch a/b (b ≠ 0) – nach der Komma-Ersetzung, «1,5/2» geht also.
+  const bruch = text.match(
+    new RegExp(`^([+-]?${DEZIMAL})\\s*/\\s*(${DEZIMAL})$`),
+  );
+  if (bruch) {
+    const nenner = Number(bruch[2]);
+    if (nenner === 0) return null;
+    return (Number(bruch[1]) / nenner) * faktor;
+  }
+  if (!new RegExp(`^[+-]?${DEZIMAL}(?:[eE][+-]?\\d+)?$`).test(text)) {
+    return null;
+  }
+  const wert = Number(text);
+  return Number.isFinite(wert) ? wert * faktor : null;
+}
+
+/**
+ * Trifft die Eingabe eine der akzeptierten Antworten? Ohne Toleranz
+ * gilt Wertgleichheit mit winzigem Epsilon (Binär-Rundung von 0,1+0,2
+ * & Co.); «absolut» ist eine Spanne in der Zieleinheit, «prozent»
+ * relativ zum Zielwert. Ein zusätzliches Mini-Epsilon verhindert,
+ * dass exakt AUF der Toleranzgrenze liegende Eingaben an der
+ * Gleitkomma-Darstellung scheitern.
+ */
+export function numerischKorrekt(
+  eingabe: number,
+  ziele: number[],
+  toleranz?: { art: "absolut" | "prozent"; wert: number },
+): boolean {
+  return ziele.some((ziel) => {
+    const spanne =
+      toleranz === undefined
+        ? Math.max(1e-9, Math.abs(ziel) * 1e-9)
+        : toleranz.art === "absolut"
+          ? toleranz.wert
+          : Math.abs(ziel) * (toleranz.wert / 100);
+    return Math.abs(eingabe - ziel) <= spanne + spanne * 1e-12 + 1e-12;
+  });
+}
+
+export const numerischToleranzSchema = z.strictObject({
+  /** "absolut" = Spanne in der Zieleinheit, "prozent" = relativ zum Zielwert. */
+  art: z.enum(["absolut", "prozent"]),
+  wert: z.number().positive(),
+});
+
+export const numerischAufgabeSchema = z.strictObject({
+  /** Aufgabenstellung, Markdown und Mathe-Notation ($…$, KaTeX) erlaubt. */
+  prompt: markdown,
+  /**
+   * Akzeptierte Antworten als Schreibweisen OHNE Einheit («0.5»,
+   * «1/2», «50 %») – der Wert gilt in der Einheit aus `einheit`,
+   * falls gesetzt. Gleichwertige Schreibweisen desselben Werts muss
+   * niemand doppelt listen (die Äquivalenz rechnet der Player);
+   * mehrere Einträge sind für WIRKLICH verschiedene akzeptierte
+   * Werte da.
+   */
+  antworten: z.array(z.string().trim().min(1)).min(1).max(8),
+  toleranz: numerischToleranzSchema.optional(),
+  /**
+   * Erwartete Einheit (mathjs-Schreibweise, z. B. "m", "km/h", "kg",
+   * "degC"). Wenn gesetzt, MUSS die Eingabe eine Einheit tragen;
+   * gleichwertige Einheiten werden umgerechnet (42 cm = 0.42 m).
+   * Ohne dieses Feld sind Eingaben mit Einheit falsch.
+   */
+  einheit: z.string().trim().min(1).max(24).optional(),
+  /** «50 %» als Bruchteil 0,5 werten (Standard true). */
+  prozentErlaubt: z.boolean().default(true),
+});
+
+/**
+ * Numerische Eingabe, NEU seit 9.8.2026: eine oder mehrere
+ * Teilaufgaben, je ein Zahlen-Eingabefeld mit optionaler Einheit.
+ * PRÜFENDER Block – ein Punkt pro Teilaufgabe, bestanden bei 100 %,
+ * Auswertung/Wiederholen wie Lückentext und Zuordnung (pruefung.tsx).
+ */
+export const numerischBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("numerisch"),
+    /** Optionale Arbeitsanweisung, Markdown/Mathe erlaubt. */
+    intro: markdown.optional(),
+    aufgaben: z.array(numerischAufgabeSchema).min(1).max(12),
+  })
+  .superRefine((block, ctx) => {
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Numerisch: Der Block braucht eine stabile "id" (z. B. "num1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Numerisch: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+    block.aufgaben.forEach((aufgabe, i) => {
+      aufgabe.antworten.forEach((antwort, j) => {
+        if (
+          parseZahlwert(antwort, { prozentErlaubt: aufgabe.prozentErlaubt }) ===
+          null
+        ) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["aufgaben", i, "antworten", j],
+            message: `Numerisch: Die Antwort "${antwort}" ist keine lesbare Zahl (erlaubt: Dezimalzahl mit Punkt oder Komma, Bruch "a/b"${aufgabe.prozentErlaubt ? ', Prozent "50 %"' : ""} – OHNE Einheit, die steht im Feld "einheit").`,
+          });
+        }
+      });
+      // Autoren-Falle: x % von 0 sind 0 – eine Prozent-Toleranz um den
+      // Zielwert 0 wirkte nie, die Aufgabe wäre praktisch unlösbar
+      // streng. Früh ablehnen statt still exakt prüfen.
+      if (
+        aufgabe.toleranz?.art === "prozent" &&
+        aufgabe.antworten.some(
+          (antwort) =>
+            parseZahlwert(antwort, {
+              prozentErlaubt: aufgabe.prozentErlaubt,
+            }) === 0,
+        )
+      ) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["aufgaben", i, "toleranz"],
+          message:
+            'Numerisch: Bei einer akzeptierten Antwort mit dem Wert 0 wirkt eine PROZENT-Toleranz nicht (x % von 0 sind 0) – nutze { "art": "absolut", "wert": … }.',
+        });
+      }
+      // Ob eine Einheit mathjs-bekannt ist, prüfen die Validierer mit
+      // mathjs (die Bibliothek gehört bewusst nicht in diese Datei) –
+      // hier nur die Grundform gegen Tippfehler wie Leerzeichen.
+      if (aufgabe.einheit !== undefined && /\s/.test(aufgabe.einheit)) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["aufgaben", i, "einheit"],
+          message: `Numerisch: Die Einheit "${aufgabe.einheit}" darf keine Leerzeichen enthalten (mathjs-Schreibweise, z. B. "m", "km/h", "degC").`,
+        });
+      }
+    });
+  });
+
+// --- Achse (Zahlenstrahl, Zeitstrahl, Koordinatensystem) --------------------
+
+export const achseSkalaSchema = z.strictObject({
+  /** Numerische Achse: Bereichsanfang (Pflicht ohne `kategorien`). */
+  min: z.number().optional(),
+  /** Numerische Achse: Bereichsende (Pflicht ohne `kategorien`). */
+  max: z.number().optional(),
+  /** Raster, auf dem platzierte Elemente einrasten (z. B. 1 oder 0.5). */
+  schritt: z.number().positive().optional(),
+  /** Abstand der beschrifteten Achsen-Teilstriche (Standard: automatisch). */
+  teilstriche: z.number().positive().optional(),
+  /** Achsentitel, z. B. "Jahr" oder "x". */
+  beschriftung: z.string().trim().min(1).max(60).optional(),
+  /**
+   * Kategorien-Achse statt Zahlen: benannte Abschnitte (z. B. Epochen).
+   * Elemente werden dann einem Abschnitt zugeordnet; `min`/`max`/
+   * `schritt`/`teilstriche` entfallen.
+   */
+  kategorien: z.array(z.string().trim().min(1).max(40)).min(2).max(12).optional(),
+});
+
+export const achseElementSchema = z.strictObject({
+  /** Karten-Beschriftung: Zahl, Jahreszahl oder Begriff/Ereignisname. */
+  text: z.string().trim().min(1).max(80),
+  /** Zielposition auf der X-Achse (numerische Achse). */
+  x: z.number().optional(),
+  /** Ziel-Kategorie (Kategorien-Achse). */
+  xKategorie: z.string().trim().min(1).optional(),
+  /** Zielposition auf der Y-Achse (nur mit zweiter Achse). */
+  y: z.number().optional(),
+  /** Eigene Toleranz in Achseneinheiten (überschreibt die des Blocks). */
+  toleranz: z.number().nonnegative().optional(),
+});
+
+type AchseSkala = z.infer<typeof achseSkalaSchema>;
+type AchseElement = z.infer<typeof achseElementSchema>;
+
+/**
+ * Standard-Toleranz einer numerischen Achse: halber Rasterschritt,
+ * sonst 1/40 des Bereichs – grosszügig genug fürs Treffen per Finger,
+ * streng genug, dass Nachbarpositionen unterscheidbar bleiben.
+ */
+export function achseStandardToleranz(skala: AchseSkala): number {
+  if (skala.schritt !== undefined) return skala.schritt / 2;
+  if (skala.min !== undefined && skala.max !== undefined) {
+    return (skala.max - skala.min) / 40;
+  }
+  return 0;
+}
+
+/** Vom Player gemeldete Position eines platzierten Elements –
+ *  bei einer Kategorien-Achse ist `x` der KATEGORIEN-INDEX. */
+export interface AchsePosition {
+  x: number;
+  y?: number;
+}
+
+/**
+ * Auswertung des Achsen-Blocks – die EINE Rechenstelle für Player und
+ * Tests. `positionen[i]` gehört zu `elemente[i]`; nicht platzierte
+ * Elemente (null) sind falsch (der Player lässt Prüfen erst zu, wenn
+ * alles platziert ist – wie bei der Zuordnung).
+ *
+ * Wertung: Kategorien-Achse → richtige Kategorie; `wertung:
+ * "reihenfolge"` → das Element steht zu JEDEM anderen Element in der
+ * richtigen Ordnung (die exakte Position ist egal – Zeitstrahl-Fall);
+ * sonst Position mit Toleranz (je Element, sonst Block, sonst
+ * Standard) – bei zwei Achsen auf beiden.
+ */
+export function achseErgebnisse(
+  block: {
+    x: AchseSkala;
+    y?: AchseSkala;
+    wertung: "position" | "reihenfolge";
+    toleranz?: number;
+    elemente: AchseElement[];
+  },
+  positionen: (AchsePosition | null)[],
+): boolean[] {
+  const { elemente } = block;
+  if (block.x.kategorien) {
+    return elemente.map((element, i) => {
+      const pos = positionen[i];
+      if (!pos) return false;
+      return block.x.kategorien!.indexOf(element.xKategorie ?? "") === pos.x;
+    });
+  }
+  if (block.wertung === "reihenfolge") {
+    return elemente.map((element, i) => {
+      const pos = positionen[i];
+      if (!pos) return false;
+      return elemente.every((anderes, j) => {
+        if (j === i) return true;
+        const andererPos = positionen[j];
+        if (!andererPos) return true; // fehlende Nachbarn zählen gegen SIE
+        return (
+          Math.sign(pos.x - andererPos.x) ===
+          Math.sign((element.x ?? 0) - (anderes.x ?? 0))
+        );
+      });
+    });
+  }
+  return elemente.map((element, i) => {
+    const pos = positionen[i];
+    if (!pos) return false;
+    const tolX = element.toleranz ?? block.toleranz ?? achseStandardToleranz(block.x);
+    if (Math.abs(pos.x - (element.x ?? 0)) > tolX + tolX * 1e-12 + 1e-12) {
+      return false;
+    }
+    if (block.y) {
+      const tolY =
+        element.toleranz ?? block.toleranz ?? achseStandardToleranz(block.y);
+      if (
+        Math.abs((pos.y ?? 0) - (element.y ?? 0)) >
+        tolY + tolY * 1e-12 + 1e-12
+      ) {
+        return false;
+      }
+    }
+    return true;
+  });
+}
+
+/**
+ * Achsen-Aufgabe, NEU seit 9.8.2026: Elemente (Zahlen, Jahreszahlen
+ * oder Textkarten) an Positionen auf EINER Achse (Zahlenstrahl,
+ * Zeitstrahl) oder – mit zweiter Achse – in einem Koordinatensystem
+ * platzieren. Bedienung wie die Zuordnung: Ziehen mit feiner
+ * Zeigereingabe, Antippen (erst Karte, dann Position) auf Touch.
+ * PRÜFENDER Block – ein Punkt pro Element, bestanden bei 100 %.
+ */
+export const achseBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("achse"),
+    /** Optionale Arbeitsanweisung, Markdown/Mathe erlaubt. */
+    intro: markdown.optional(),
+    x: achseSkalaSchema,
+    /** Zweite Achse: macht aus dem Strahl ein Koordinatensystem (nur numerisch). */
+    y: achseSkalaSchema.optional(),
+    /**
+     * "position" (Standard): Zielposition mit Toleranz. "reihenfolge":
+     * nur die Ordnung der Elemente entlang der Achse zählt (Zeitstrahl:
+     * Ereignisse richtig einordnen, ohne das exakte Jahr zu treffen).
+     */
+    wertung: z.enum(["position", "reihenfolge"]).default("position"),
+    /** Toleranz in Achseneinheiten für alle Elemente (Standard: siehe achseStandardToleranz). */
+    toleranz: z.number().nonnegative().optional(),
+    elemente: z.array(achseElementSchema).min(1).max(12),
+  })
+  .superRefine((block, ctx) => {
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Achse: Der Block braucht eine stabile "id" (z. B. "achse1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Achse: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+    const istKategorien = block.x.kategorien !== undefined;
+    if (istKategorien) {
+      if (block.x.min !== undefined || block.x.max !== undefined || block.x.schritt !== undefined || block.x.teilstriche !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["x"],
+          message:
+            'Achse: Eine Kategorien-Achse hat keine "min"/"max"/"schritt"/"teilstriche" – die Abschnitte kommen aus "kategorien".',
+        });
+      }
+      if (block.y) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["y"],
+          message:
+            "Achse: Eine Kategorien-Achse kann keine zweite Achse tragen (Koordinatensysteme sind rein numerisch).",
+        });
+      }
+      if (block.wertung === "reihenfolge") {
+        ctx.addIssue({
+          code: "custom",
+          path: ["wertung"],
+          message:
+            'Achse: Bei einer Kategorien-Achse zählt automatisch die richtige Kategorie – "reihenfolge" gibt es nur auf numerischen Achsen.',
+        });
+      }
+    } else if (
+      block.x.min === undefined ||
+      block.x.max === undefined ||
+      block.x.min >= block.x.max
+    ) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["x"],
+        message:
+          'Achse: Eine numerische Achse braucht "min" und "max" mit min < max (oder "kategorien" für benannte Abschnitte).',
+      });
+    }
+    if (block.y) {
+      if (block.y.kategorien !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["y", "kategorien"],
+          message: "Achse: Die zweite Achse ist immer numerisch.",
+        });
+      } else if (
+        block.y.min === undefined ||
+        block.y.max === undefined ||
+        block.y.min >= block.y.max
+      ) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["y"],
+          message: 'Achse: Die zweite Achse braucht "min" und "max" mit min < max.',
+        });
+      }
+      if (block.wertung === "reihenfolge") {
+        ctx.addIssue({
+          code: "custom",
+          path: ["wertung"],
+          message:
+            'Achse: "reihenfolge" gibt es nur auf einer einzelnen Achse (1D).',
+        });
+      }
+    }
+    if (block.wertung === "reihenfolge" && block.elemente.length < 2) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["elemente"],
+        message: "Achse: Eine Reihenfolge braucht mindestens zwei Elemente.",
+      });
+    }
+    const texte = new Map<string, number>();
+    const zielXs = new Map<number, number>();
+    block.elemente.forEach((element, i) => {
+      const vorher = texte.get(element.text);
+      if (vorher !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["elemente", i, "text"],
+          message: `Achse: Das Element "${element.text}" kommt mehrfach vor – die Karten müssen unterscheidbar sein.`,
+        });
+      }
+      texte.set(element.text, i);
+      if (istKategorien) {
+        if (element.x !== undefined || element.y !== undefined) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i],
+            message:
+              'Achse: Auf einer Kategorien-Achse haben Elemente eine "xKategorie", keine Zahlen-Ziele.',
+          });
+        }
+        if (
+          element.xKategorie === undefined ||
+          !block.x.kategorien!.includes(element.xKategorie)
+        ) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i, "xKategorie"],
+            message: `Achse: "${element.xKategorie ?? "(fehlt)"}" ist keine der Kategorien der Achse.`,
+          });
+        }
+        return;
+      }
+      if (element.xKategorie !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["elemente", i, "xKategorie"],
+          message:
+            'Achse: "xKategorie" gehört zur Kategorien-Achse – auf einer numerischen Achse trägt das Element ein Zahlen-Ziel "x".',
+        });
+      }
+      if (
+        element.x === undefined ||
+        (block.x.min !== undefined && element.x < block.x.min) ||
+        (block.x.max !== undefined && element.x > block.x.max)
+      ) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["elemente", i, "x"],
+          message:
+            'Achse: Jedes Element braucht eine Zielposition "x" innerhalb des Achsenbereichs.',
+        });
+      }
+      if (block.wertung === "reihenfolge" && element.x !== undefined) {
+        const gleich = zielXs.get(element.x);
+        if (gleich !== undefined) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i, "x"],
+            message:
+              "Achse: Für die Reihenfolge-Wertung müssen alle Zielpositionen verschieden sein (sonst ist die Ordnung mehrdeutig).",
+          });
+        }
+        zielXs.set(element.x, i);
+      }
+      if (block.y) {
+        if (
+          element.y === undefined ||
+          (block.y.min !== undefined && element.y < block.y.min) ||
+          (block.y.max !== undefined && element.y > block.y.max)
+        ) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i, "y"],
+            message:
+              'Achse: Mit zweiter Achse braucht jedes Element eine Zielposition "y" innerhalb des Bereichs.',
+          });
+        }
+      } else if (element.y !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["elemente", i, "y"],
+          message: 'Achse: "y" gibt es nur mit einer zweiten Achse.',
+        });
+      }
+    });
+  });
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
@@ -1224,6 +1742,8 @@ export const knownBlockSchema = z.discriminatedUnion("type", [
   lueckentextBlockSchema,
   quizBlockSchema,
   zuordnungBlockSchema,
+  numerischBlockSchema,
+  achseBlockSchema,
   planspielBlockSchema,
   simulationBlockSchema,
 ]);
@@ -1237,6 +1757,8 @@ export const KNOWN_BLOCK_TYPES = [
   "lueckentext",
   "quiz",
   "zuordnung",
+  "numerisch",
+  "achse",
   "planspiel",
   "simulation",
 ] as const;
@@ -1380,6 +1902,11 @@ export type LueckentextBlock = z.infer<typeof lueckentextBlockSchema>;
 export type ZuordnungElement = z.infer<typeof zuordnungElementSchema>;
 export type ZuordnungPaar = z.infer<typeof zuordnungPaarSchema>;
 export type ZuordnungBlock = z.infer<typeof zuordnungBlockSchema>;
+export type NumerischBlock = z.infer<typeof numerischBlockSchema>;
+export type NumerischAufgabe = z.infer<typeof numerischAufgabeSchema>;
+export type AchseBlock = z.infer<typeof achseBlockSchema>;
+export type AchseSkalaDef = z.infer<typeof achseSkalaSchema>;
+export type AchseElementDef = z.infer<typeof achseElementSchema>;
 export type AudioBlock = z.infer<typeof audioBlockSchema>;
 export type PlanspielBlock = z.infer<typeof planspielBlockSchema>;
 export type SimulationAntwort = z.infer<typeof simulationAntwortSchema>;
@@ -1511,7 +2038,13 @@ export function parseModulDatei(
  * als bearbeitet. istPruefenderBlock ist deshalb die einzige
  * massgebliche Abfrage; die Typliste allein genügt nicht mehr.
  */
-export const PRUEFENDE_BLOCK_TYPES = ["lueckentext", "quiz", "zuordnung"] as const;
+export const PRUEFENDE_BLOCK_TYPES = [
+  "lueckentext",
+  "quiz",
+  "zuordnung",
+  "numerisch",
+  "achse",
+] as const;
 
 export function istPruefenderBlock(block: Block): boolean {
   if (isKnownBlock(block) && block.type === "simulation") {

@@ -106,7 +106,44 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      Jedes linke Element hat genau ein rechtes Gegenstück – die
 >      früheren Felder "ablenker"/"ablenkerLinks" lehnt die Validierung
 >      ab. Die Elemente jeder Spalte müssen unterscheidbar sein.
->   8. {"type":"audio","id":"hoeren1","title":"Pflicht-Titel",
+>   8. {"type":"numerisch","id":"num1","title":"…","aufgaben":[
+>      {"prompt":"Wie viele Meter sind 4,2 km? Antworte mit Einheit.",
+>      "antworten":["4200"],"einheit":"m",
+>      "toleranz":{"art":"absolut","wert":10}},
+>      {"prompt":"Welchen Wert ergibt $$\\tfrac{1}{2}+\\tfrac{1}{4}$$?",
+>      "antworten":["0.75"]}]}
+>      – Zahleneingabe (automatisch geprüft): 1–12 Teilaufgaben.
+>      "antworten" sind Zahlwerte OHNE Einheit; gleichwertige
+>      Schreibweisen (0,5 = 0.5 = 1/2 = 50 %) rechnet der Player selbst,
+>      mehrere Einträge nur für WIRKLICH verschiedene akzeptierte Werte.
+>      "einheit" (optional, ASCII wie "m", "km/h", "degC" – nie "°C")
+>      verlangt eine Einheit in der Eingabe und rechnet gleichwertige um
+>      (42 cm = 0,42 m). "toleranz" optional absolut oder
+>      {"art":"prozent","wert":5}; "prozentErlaubt":false verbietet
+>      %-Eingaben. Mathe-Notation geht in ALLEN Texten mit $$…$$
+>      (einzelne $-Zeichen bleiben Text).
+>   9. {"type":"achse","id":"achse1","title":"Brüche auf dem Zahlenstrahl",
+>      "x":{"min":0,"max":2,"schritt":0.25,"teilstriche":0.5},
+>      "elemente":[{"text":"0,75","x":0.75},{"text":"5/4","x":1.25},
+>      {"text":"1,5","x":1.5}]}
+>      – Achsen-Aufgabe (automatisch geprüft): Elemente auf dem
+>      Zahlenstrahl platzieren (Mathematik-Beispiel). Für einen
+>      ZEITSTRAHL (Geschichte) dieselbe Struktur mit Jahren und
+>      Reihenfolge-Wertung:
+>      {"type":"achse","id":"zeit1","title":"Ordne die Ereignisse",
+>      "x":{"min":1200,"max":1600,"teilstriche":100,"beschriftung":"Jahr"},
+>      "wertung":"reihenfolge","elemente":[
+>      {"text":"Bundesbrief der Eidgenossen","x":1291},
+>      {"text":"Schlacht bei Sempach","x":1386},
+>      {"text":"Buchdruck mit beweglichen Lettern","x":1450}]}
+>      – bei "wertung":"reihenfolge" zählt nur die richtige Ordnung,
+>      nicht das exakte Jahr; ohne diese Zeile zählt die Position mit
+>      "toleranz" (Achseneinheiten). Kategorien-Achse:
+>      "x":{"kategorien":["Antike","Mittelalter","Neuzeit"]} mit
+>      "xKategorie" je Element; zweite Achse "y":{"min":…,"max":…}
+>      macht ein Koordinatensystem (Elemente brauchen dann auch "y").
+>      1–12 Elemente (Zahlen, Jahreszahlen oder Begriffe).
+>   10. {"type":"audio","id":"hoeren1","title":"Pflicht-Titel",
 >      "vorleseText":"Text, den der Browser vorliest (bevorzugter Weg)",
 >      "vorleseSprache":"en-GB","description":"Höraufgabe …",
 >      "src":"/content/<id>/aufnahme.mp3",
@@ -123,7 +160,7 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      Es darf NUR entfallen, wenn die Lernenden das Gehörte selbst
 >      eintippen sollen; "transkriptAnzeigen": false blendet Transkript
 >      bzw. Vorlesetext dafür aus, ohne sie zu löschen.
->   9. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
+>   11. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
 >      "figur":{"name":"Frau Keller","rolle":"Gemeindepräsidentin"},
 >      "start":"k1","knoten":[
 >      {"id":"k1","text":"Was die Figur sagt …","antworten":[

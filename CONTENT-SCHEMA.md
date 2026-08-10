@@ -22,6 +22,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 3. August 2026 | Additiv (kein Versionswechsel, reine Lockerung): Audio-Blöcke dürfen `src` **und** `vorleseText` gleichzeitig tragen – die **Datei hat Vorrang**, der Vorlesetext ist das Backup, solange (noch) keine Datei hinterlegt ist. Mit `src` bleibt `transcript` erlaubt; nur ohne `src` ist es weiterhin verboten (der `vorleseText` ist dort bereits der Text). Bestehende Module bleiben unverändert gültig. |
 | 2 | 3. August 2026 | Klarstellung (kein Versionswechsel, reine **Abspiel-Reihenfolge** im Player – die Validierung bleibt unverändert): Der Vorrang aus der Zeile darüber dreht sich um. Das **Browser-Vorlesen ist der bevorzugte Weg**, sobald eine passende Stimme der Zielsprache da ist (Lernende wählen unter «Cates Stimmen» zwischen Stimmen und Aussprachevarianten); die **hinterlegte Datei ist die Rückfallebene** (keine passende Stimme, oder die Vorlese-Ausgabe schlägt fehl); zuletzt greift wie bisher der Text bzw. bei verborgenem Transkript der Hinweis auf «Cates Stimmen». Für Autorinnen und Autoren heisst das: `vorleseText` **und** `src` gemeinsam eintragen ist der Idealzustand – Wahlfreiheit bei den Stimmen plus ein zuverlässiges Backup. |
 | 2 | 5. August 2026 | **Verengung** (kein Versionswechsel): [Zuordnung](#zuordnung--paare-zuordnen-automatisch-geprüft) **ohne Ablenker** – die Felder `ablenker` und `ablenkerLinks` sind **entfernt** und werden von der Validierung abgelehnt. Begründung: Geprüft werden kann erst, wenn ALLE Elemente verbunden sind – Ablenker liessen sich so gar nicht «unbenutzt» lassen und erzwangen falsch bewertete Paare. Jedes linke Element hat genau ein rechtes Gegenstück, beide Spalten sind gleich lang. **Achtung Rollout (umgekehrt zu den additiven Fällen):** Module mit Ablenkern ZUERST bereinigen und mergen, DANN deployt die Plattform das strengere Schema – ältere Player zeigen bereinigte Module unverändert an (die Felder waren dort optional). |
+| 2 | 9. August 2026 | Additiv (kein Versionswechsel): zwei neue **prüfende** Blocktypen. [`numerisch`](#numerisch--zahleneingabe-automatisch-geprüft) – Zahleneingabe mit Toleranz (absolut/prozentual), gleichwertigen Schreibweisen (`0,5` = `0.5` = `1/2` = `50 %`), optionaler **Einheit** mit Umrechnung gleichwertiger Einheiten (`42 cm` = `0,42 m`, mathjs) und mehreren akzeptierten Antworten. [`achse`](#achse--elemente-auf-achsen-platzieren-automatisch-geprüft) – Elemente (Zahlen, Jahreszahlen, Textkarten) auf einer oder zwei Achsen platzieren: Zahlenstrahl, Zeitstrahl, Koordinatensystem; Achsen numerisch oder mit Textkategorien; Wertung nach Position (Toleranz), Reihenfolge oder Kategorie (Darstellung: JSXGraph, dual MIT/LGPL). Zusätzlich rendert `$$…$$` in allen Markdown-Feldern **Mathe-Notation** (KaTeX; einzelne \$-Zeichen bleiben Text). Bestehende Dateien bleiben gültig; ältere Player zeigen für die neuen Typen einen Platzhalter. |
 
 ## Ablage
 
@@ -135,6 +136,11 @@ unterliegen denselben Regeln wie `image`-Blöcke; Referenz-Stil
 ```json
 { "type": "text", "title": "Optionale Überschrift", "body": "Markdown-Text …" }
 ```
+
+**Mathe-Notation** (seit 9. August 2026, in ALLEN Markdown-Feldern):
+`$$…$$` rendert eine Formel (KaTeX) – inline im Satz oder als eigener
+Absatz. Einzelne \$-Zeichen bleiben bewusst normaler Text (Geldbeträge
+wie «$5»). Beispiel: `Berechne $$\tfrac{3}{4} + \tfrac{1}{8}$$.`
 
 ### `image` – Bild
 
@@ -354,6 +360,100 @@ verbunden und durch Antippen eines Partners wieder auflösbar.
 - Additive Ergänzung von Schema-Version 2 (1. August 2026) – ältere
   Player zeigen einen Platzhalter.
 
+### `numerisch` – Zahleneingabe (automatisch geprüft)
+
+Eine oder mehrere Teilaufgaben, je ein Zahlen-Eingabefeld. Gleichwertige
+Schreibweisen zählen automatisch gleich: Dezimalpunkt und -komma
+(`0.5` = `0,5`), Brüche (`1/2`) und die Prozent-Schreibweise (`50 %`,
+abschaltbar). Mit `einheit` muss die Eingabe eine Einheit tragen –
+gleichwertige Einheiten werden umgerechnet (`42 cm` = `0,42 m`).
+
+```json
+{
+  "type": "numerisch",
+  "id": "num1",
+  "title": "Rechne um",
+  "aufgaben": [
+    {
+      "prompt": "Wie viele **Meter** sind 4,2 km? Antworte mit Einheit.",
+      "antworten": ["4200"],
+      "einheit": "m",
+      "toleranz": { "art": "absolut", "wert": 10 }
+    },
+    {
+      "prompt": "Welchen Wert ergibt $$\\tfrac{1}{2} + \\tfrac{1}{4}$$?",
+      "antworten": ["0.75"]
+    }
+  ]
+}
+```
+
+- **`id`** (Pflicht): Lernstand und Punkte hängen am Block.
+- **`aufgaben`** (1–12): je `prompt` (Markdown, Mathe-Notation mit
+  `$$…$$` erlaubt) und `antworten` (1–8 akzeptierte Werte als
+  Schreibweisen OHNE Einheit; gleichwertige Schreibweisen desselben
+  Werts muss niemand doppelt listen – mehrere Einträge sind für
+  WIRKLICH verschiedene akzeptierte Werte).
+- **`toleranz`** (optional): `{ "art": "absolut", "wert": 10 }` =
+  Spanne in der Zieleinheit; `{ "art": "prozent", "wert": 5 }` =
+  relativ zum Zielwert. Ohne Toleranz zählt Wertgleichheit.
+- **`einheit`** (optional): erwartete Einheit in mathjs-ASCII-Schreibweise
+  (`m`, `km/h`, `kg`, `m^2`, `degC` – NICHT `°C`/`m²`; die Validierung
+  prüft die Einheit gegen mathjs). Wenn gesetzt, MUSS die Eingabe eine
+  Einheit tragen; ohne das Feld sind Eingaben mit Einheit falsch.
+- **`prozentErlaubt`** (optional, Standard `true`): `false` lehnt
+  %-Eingaben ab (z. B. wenn `5000 %` als Antwort auf «10 · 5» absurd
+  richtig wäre).
+- **Punkte**: ein Punkt pro Teilaufgabe; Auswertung/«Wiederholen» wie
+  bei Lückentext und Zuordnung. PRÜFENDER Block.
+- Additive Ergänzung von Schema-Version 2 (9. August 2026) – ältere
+  Player zeigen einen Platzhalter.
+
+### `achse` – Elemente auf Achsen platzieren (automatisch geprüft)
+
+EIN Blocktyp für Zahlenstrahl (Mathematik), Zeitstrahl
+(Geschichte/RZG) und Koordinatensystem: Elemente – Zahlen, Jahreszahlen
+oder Textkarten – werden an Positionen auf einer oder zwei Achsen
+platziert. Bedienung wie die Zuordnung: Karte antippen, dann die Stelle
+antippen; mit feiner Zeigereingabe lassen sich Karten auch direkt
+ziehen, gesetzte Punkte sind immer nachziehbar.
+
+```json
+{
+  "type": "achse",
+  "id": "achse1",
+  "title": "Ordne die Brüche auf dem Zahlenstrahl",
+  "x": { "min": 0, "max": 2, "schritt": 0.25, "teilstriche": 0.5 },
+  "elemente": [
+    { "text": "0,75", "x": 0.75 },
+    { "text": "5/4", "x": 1.25 }
+  ]
+}
+```
+
+- **`id`** (Pflicht): Lernstand und Punkte hängen am Block.
+- **`x`** (Pflicht): numerische Achse mit `min`/`max` (dazu optional
+  `schritt` = Einrast-Raster, `teilstriche` = Abstand beschrifteter
+  Striche, `beschriftung`) ODER Kategorien-Achse mit
+  `kategorien: ["Antike", "Mittelalter", …]` (2–12 benannte
+  Abschnitte; Elemente tragen dann `xKategorie` statt `x`).
+- **`y`** (optional): zweite, immer numerische Achse – macht aus dem
+  Strahl ein Koordinatensystem; Elemente brauchen dann auch `y`.
+- **`elemente`** (1–12): je `text` (Karten-Beschriftung) und das Ziel
+  (`x`, `xKategorie` bzw. `x`+`y`); optional eigene `toleranz`.
+- **`wertung`** (optional, Standard `"position"`): `"position"` =
+  Zielposition mit Toleranz (Element-Toleranz vor Block-`toleranz`
+  vor Standard: halber `schritt` bzw. 1/40 des Bereichs);
+  `"reihenfolge"` = nur die Ordnung der Elemente entlang der Achse
+  zählt (Zeitstrahl: Ereignisse richtig einordnen, ohne das exakte
+  Jahr zu treffen – nur 1D, Zielpositionen müssen verschieden sein).
+  Auf einer Kategorien-Achse zählt automatisch die richtige Kategorie.
+- **Punkte**: ein Punkt pro Element; Auswertung/«Wiederholen» wie bei
+  den übrigen prüfenden Blöcken. PRÜFENDER Block. Dargestellt mit
+  JSXGraph (dual MIT/LGPL-lizenziert).
+- Additive Ergänzung von Schema-Version 2 (9. August 2026) – ältere
+  Player zeigen einen Platzhalter.
+
 ### `audio` – Hörverstehen
 
 Zwei Quellen, seit 3. August 2026 **kombinierbar** (mindestens eine
@@ -558,9 +658,9 @@ Regeln (erzwingt die Validierung):
 Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
 Blöcke prüfend sind, steht versioniert im Schema
 ([`schema/schema.ts`](schema/schema.ts), Funktion `istPruefenderBlock`):
-`lueckentext` (alle Modi inkl. `satzbau`), `quiz` und `zuordnung` immer,
-`simulation` genau dann, wenn der Block eine
-[`abschlussfrage`](#simulation--verzweigter-rollenspiel-dialog)
+`lueckentext` (alle Modi inkl. `satzbau`), `quiz`, `zuordnung`,
+`numerisch` und `achse` immer, `simulation` genau dann, wenn der Block
+eine [`abschlussfrage`](#simulation--verzweigter-rollenspiel-dialog)
 trägt. Künftige auto-geprüfte Aufgabentypen werden dort eingetragen und
 zählen dann automatisch.
 
