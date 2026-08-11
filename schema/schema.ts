@@ -134,6 +134,22 @@ import { z } from "zod";
  *   falsch gewertet, sondern blockieren das Prüfen mit einer
  *   Korrektur-Aufforderung. Bestehende Dateien bleiben gültig;
  *   ältere Player zeigen einen Platzhalter.
+ * - 2, additive Ergänzung (11.8.2026, KEIN Versionswechsel):
+ *   AUFGABEN-VARIANTEN für die Blocktypen lueckentext, zuordnung,
+ *   numerisch und term. Ein Block darf neben seinem normalen Inhalt
+ *   (= Variante A) eine Liste `varianten` mit weiteren, vollständig
+ *   ausformulierten Fassungen tragen (B, C, … – ab der 27. AA, AB, …);
+ *   der Player zieht beim Öffnen zufällig eine, «Wiederholen» zieht
+ *   eine andere. Alle Fassungen stehen fertig in der Moduldatei
+ *   (reine Daten, keine Formeln, kein Code); jede muss dieselbe
+ *   Punktzahl ergeben wie der Hauptinhalt (der Lernstand bleibt pro
+ *   BLOCK, die gezogene Fassung wird weder gespeichert noch
+ *   übermittelt). BEWUSST ohne Varianten: tasks, quiz, simulation,
+ *   planspiel (strictObject lehnt das Feld dort ab). ACHTUNG Rollout:
+ *   Ältere Player lehnen Module MIT `varianten` hart ab (strictObject,
+ *   kein Platzhalter) – solche Module erst NACH dem zugehörigen
+ *   Plattform-Deploy einreichen; bestehende Dateien ohne Varianten
+ *   bleiben unverändert gültig.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -301,6 +317,58 @@ export const tasksBlockSchema = z.strictObject({
   tasks: z.array(taskSchema).min(1),
 });
 
+// --- Aufgaben-Varianten (mehrere Fassungen eines Aufgabenblocks) ------------
+
+/**
+ * Aufgaben-Varianten (seit 11.8.2026): Ein Aufgabenblock der Typen
+ * lueckentext, zuordnung, numerisch und term darf neben seinem
+ * normalen Inhalt (= Variante A) eine Liste `varianten` mit WEITEREN,
+ * vollständig ausformulierten Fassungen tragen (B, C, …). Der Player
+ * zieht beim Öffnen zufällig eine Fassung; «Wiederholen» zieht eine
+ * ANDERE. Alle Fassungen stehen fertig in der Moduldatei – nichts wird
+ * zur Laufzeit berechnet oder generiert (Moduldateien bleiben reine
+ * Daten). Der Lernstand bleibt PRO BLOCK (die gezogene Fassung wird
+ * weder gespeichert noch übermittelt); damit Punkte vergleichbar
+ * bleiben, MUSS jede Fassung dieselbe Punktzahl ergeben (gleich viele
+ * Lücken/Bausteine/Paare/Aufgaben – die Validierung erzwingt das).
+ * BEWUSST OHNE Varianten: tasks (die Antworten gehen an die
+ * Lehrperson – unterschiedliche Fragen machten das Dashboard
+ * unbrauchbar), quiz (inhaltlicher Modulabschluss – alle beantworten
+ * dieselben Kernfragen), simulation und planspiel; deren strictObject
+ * lehnt ein varianten-Feld ab.
+ *
+ * BEWUSSTE GRENZE: Die Detail-Statistik questionStats schlüsselt pro
+ * POSITION («blockId:1»), nicht pro Fassung – bei Varianten-Blöcken
+ * vermischen sich dort die (inhaltlich verschiedenen) Aufgaben der
+ * Fassungen. Das ist die direkte Folge der Vorgabe, die gezogene
+ * Fassung NIRGENDS zu speichern; eine künftige questionStats-UI muss
+ * Varianten-Blöcke entsprechend zurückhaltend auswerten.
+ */
+export const VARIANTEN_MAX_ZUSAETZLICH = 49;
+
+/**
+ * Anzeige-Bezeichnung einer Fassung: 0 → "A", 25 → "Z", 26 → "AA", …
+ * (bijektive Basis 26, wie Tabellenspalten). Lehrpersonen ordnen so
+ * bei Rückfragen zu, welche Fassung ein Gerät zeigt.
+ */
+export function variantenBezeichnung(index: number): string {
+  let n = index + 1;
+  let name = "";
+  while (n > 0) {
+    n -= 1;
+    name = String.fromCharCode(65 + (n % 26)) + name;
+    n = Math.floor(n / 26);
+  }
+  return name;
+}
+
+/** Gesamtzahl der Fassungen eines Blocks (Hauptinhalt + varianten). */
+export function variantenAnzahl(block: {
+  varianten?: readonly unknown[];
+}): number {
+  return 1 + (block.varianten?.length ?? 0);
+}
+
 // --- Lückentext (Cloze), automatisch geprüft --------------------------------
 
 export const lueckeSchema = z.strictObject({
@@ -370,10 +438,8 @@ export function istLueckeRichtig(
   );
 }
 
-export const lueckentextBlockSchema = z
-  .strictObject({
-    ...blockBase,
-    type: z.literal("lueckentext"),
+/** Inhaltsfelder EINER Lückentext-Fassung (Hauptinhalt wie Variante). */
+const lueckentextInhaltFelder = {
     /** Optionale Arbeitsanweisung über dem Text, Markdown erlaubt. */
     intro: markdown.optional(),
     /**
@@ -415,6 +481,171 @@ export const lueckentextBlockSchema = z
      * erlaubt.
      */
     ablenker: z.array(z.string().trim().min(1)).default([]),
+};
+
+export const lueckentextVarianteSchema = z.strictObject(lueckentextInhaltFelder);
+export type LueckentextInhalt = z.infer<typeof lueckentextVarianteSchema>;
+
+/** Punktzahl einer Lückentext-Fassung (satzbau: Bausteine, sonst Lücken). */
+function lueckentextPunkte(inhalt: LueckentextInhalt): number {
+  return inhalt.modus === "satzbau"
+    ? (inhalt.bausteine?.length ?? 0)
+    : (inhalt.luecken?.length ?? 0);
+}
+
+/**
+ * Prüft EINE Fassung (Hauptinhalt oder Variante) – `pfad` ist das
+ * Präfix für Fehlermeldungen (bei Varianten ["varianten", i]).
+ */
+function pruefeLueckentextInhalt(
+  inhalt: LueckentextInhalt,
+  ctx: z.RefinementCtx,
+  pfad: (string | number)[],
+): void {
+    // --- Modus "satzbau": eigener Feldsatz --------------------------------
+    if (inhalt.modus === "satzbau") {
+      if (inhalt.text !== undefined || inhalt.luecken !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: [...pfad, inhalt.text !== undefined ? "text" : "luecken"],
+          message:
+            'Lückentext: "text"/"luecken" gehören zu den Modi "wortbank"/"eingabe" – der Modus "satzbau" nutzt "bausteine" (und optional "alternativen").',
+        });
+      }
+      const bausteine = inhalt.bausteine;
+      if (!bausteine) {
+        ctx.addIssue({
+          code: "custom",
+          path: [...pfad, "bausteine"],
+          message:
+            'Lückentext: Der Modus "satzbau" braucht "bausteine" – die Wörter oder Satzteile in der korrekten Reihenfolge.',
+        });
+        return;
+      }
+      inhalt.alternativen.forEach((indizes, a) => {
+        const gueltig =
+          indizes.length === bausteine.length &&
+          new Set(indizes).size === indizes.length &&
+          indizes.every((i) => i >= 1 && i <= bausteine.length);
+        if (!gueltig) {
+          ctx.addIssue({
+            code: "custom",
+            path: [...pfad, "alternativen", a],
+            message: `Lückentext: Alternative ${a + 1} muss ALLE ${bausteine.length} Bausteine genau einmal umstellen (1-basierte Indizes 1–${bausteine.length}).`,
+          });
+        }
+      });
+      inhalt.ablenker.forEach((wort, index) => {
+        if (bausteine.includes(wort)) {
+          ctx.addIssue({
+            code: "custom",
+            path: [...pfad, "ablenker", index],
+            message: `Lückentext: Ablenker "${wort}" ist zugleich ein Baustein der Lösung – er wäre kein Ablenker.`,
+          });
+        }
+      });
+      return;
+    }
+
+    // --- Modi "wortbank"/"eingabe": Text + Lücken sind Pflicht -------------
+    if (inhalt.bausteine !== undefined || inhalt.alternativen.length > 0) {
+      ctx.addIssue({
+        code: "custom",
+        path: [...pfad, inhalt.bausteine !== undefined ? "bausteine" : "alternativen"],
+        message:
+          'Lückentext: "bausteine"/"alternativen" gehören zum Modus "satzbau".',
+      });
+    }
+    if (!inhalt.text || !inhalt.luecken) {
+      ctx.addIssue({
+        code: "custom",
+        path: [...pfad, !inhalt.text ? "text" : "luecken"],
+        message: `Lückentext: Der Modus "${inhalt.modus}" braucht "text" (mit {{1}}-Markern) und "luecken".`,
+      });
+      return;
+    }
+
+    const text = inhalt.text;
+    const luecken = inhalt.luecken;
+    const marker = zerlegeLueckentext(text).filter((s) => s.art === "luecke");
+
+    // Wohlgeformtheit: Jedes "{{" bzw. "}}" muss zu einem vollständigen
+    // {{n}}-Marker gehören – fängt {{eins}}, {{1} und verirrte Klammern.
+    const offene = (text.match(/\{\{/g) ?? []).length;
+    const schliessende = (text.match(/\}\}/g) ?? []).length;
+    if (offene !== marker.length || schliessende !== marker.length) {
+      ctx.addIssue({
+        code: "custom",
+        path: [...pfad, "text"],
+        message:
+          "Lückentext: unvollständiger Lücken-Marker. Lücken werden exakt als {{1}}, {{2}}, … geschrieben (fortlaufende Zahl in doppelten geschweiften Klammern, ohne Leerzeichen); {{ und }} sind dafür reserviert.",
+      });
+    }
+
+    const verwendungen = new Map<number, number>();
+    for (const seg of marker) {
+      verwendungen.set(seg.index, (verwendungen.get(seg.index) ?? 0) + 1);
+    }
+    for (const [index] of verwendungen) {
+      if (index < 0 || index >= luecken.length) {
+        ctx.addIssue({
+          code: "custom",
+          path: [...pfad, "text"],
+          message: `Lückentext: Marker {{${index + 1}}} verweist auf eine Lücke, die es nicht gibt – definiert sind ${luecken.length} Lücken ({{1}} bis {{${luecken.length}}}).`,
+        });
+      }
+    }
+    luecken.forEach((_, index) => {
+      const anzahl = verwendungen.get(index) ?? 0;
+      if (anzahl === 0) {
+        ctx.addIssue({
+          code: "custom",
+          path: [...pfad, "luecken", index],
+          message: `Lückentext: Lücke ${index + 1} hat keinen Marker {{${index + 1}}} im Text.`,
+        });
+      } else if (anzahl > 1) {
+        ctx.addIssue({
+          code: "custom",
+          path: [...pfad, "text"],
+          message: `Lückentext: Marker {{${index + 1}}} kommt ${anzahl}-mal vor – jede Lücke wird genau einmal verwendet.`,
+        });
+      }
+    });
+
+    if (inhalt.modus === "eingabe" && inhalt.ablenker.length > 0) {
+      ctx.addIssue({
+        code: "custom",
+        path: [...pfad, "ablenker"],
+        message:
+          'Lückentext: "ablenker" ist nur in den Modi "wortbank" und "satzbau" erlaubt (im Modus "eingabe" gibt es keine Auswahl).',
+      });
+    }
+    inhalt.ablenker.forEach((wort, index) => {
+      if (luecken.some((luecke) => istLueckeRichtig(wort, luecke))) {
+        ctx.addIssue({
+          code: "custom",
+          path: [...pfad, "ablenker", index],
+          message: `Lückentext: Ablenker "${wort}" ist zugleich eine akzeptierte Antwort einer Lücke – er wäre kein Ablenker.`,
+        });
+      }
+    });
+}
+
+export const lueckentextBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("lueckentext"),
+    ...lueckentextInhaltFelder,
+    /**
+     * Optionale WEITERE Fassungen (Variante B, C, …) – jede vollständig
+     * ausformuliert und mit derselben Punktzahl wie der Hauptinhalt
+     * (= Variante A). Details im Varianten-Abschnitt weiter oben.
+     */
+    varianten: z
+      .array(lueckentextVarianteSchema)
+      .min(1)
+      .max(VARIANTEN_MAX_ZUSAETZLICH)
+      .optional(),
   })
   .superRefine((block, ctx) => {
     // Stabile id ist Pflicht (wie bei Quizfragen): Lernstand und Coin-Vergabe
@@ -435,131 +666,20 @@ export const lueckentextBlockSchema = z
           'Lückentext: Die id "quiz" ist für Quizblöcke reserviert (Lernstand-Schlüssel des früheren Abschlussquiz) – bitte eine andere id wählen.',
       });
     }
-
-    // --- Modus "satzbau": eigener Feldsatz --------------------------------
-    if (block.modus === "satzbau") {
-      if (block.text !== undefined || block.luecken !== undefined) {
+    pruefeLueckentextInhalt(block, ctx, []);
+    const punkteHaupt = lueckentextPunkte(block);
+    block.varianten?.forEach((variante, i) => {
+      pruefeLueckentextInhalt(variante, ctx, ["varianten", i]);
+      const punkte = lueckentextPunkte(variante);
+      // Vergleich nur, wenn die Variante ihr eigenes Minimum erfüllt –
+      // darunter meldet Zod bereits too_small, eine zusätzliche
+      // Mismatch-Meldung wäre irreführend (Review 11.8.2026).
+      const minimum = variante.modus === "satzbau" ? 2 : 1;
+      if (punkte >= minimum && punkteHaupt > 0 && punkte !== punkteHaupt) {
         ctx.addIssue({
           code: "custom",
-          path: [block.text !== undefined ? "text" : "luecken"],
-          message:
-            'Lückentext: "text"/"luecken" gehören zu den Modi "wortbank"/"eingabe" – der Modus "satzbau" nutzt "bausteine" (und optional "alternativen").',
-        });
-      }
-      const bausteine = block.bausteine;
-      if (!bausteine) {
-        ctx.addIssue({
-          code: "custom",
-          path: ["bausteine"],
-          message:
-            'Lückentext: Der Modus "satzbau" braucht "bausteine" – die Wörter oder Satzteile in der korrekten Reihenfolge.',
-        });
-        return;
-      }
-      block.alternativen.forEach((indizes, a) => {
-        const gueltig =
-          indizes.length === bausteine.length &&
-          new Set(indizes).size === indizes.length &&
-          indizes.every((i) => i >= 1 && i <= bausteine.length);
-        if (!gueltig) {
-          ctx.addIssue({
-            code: "custom",
-            path: ["alternativen", a],
-            message: `Lückentext: Alternative ${a + 1} muss ALLE ${bausteine.length} Bausteine genau einmal umstellen (1-basierte Indizes 1–${bausteine.length}).`,
-          });
-        }
-      });
-      block.ablenker.forEach((wort, index) => {
-        if (bausteine.includes(wort)) {
-          ctx.addIssue({
-            code: "custom",
-            path: ["ablenker", index],
-            message: `Lückentext: Ablenker "${wort}" ist zugleich ein Baustein der Lösung – er wäre kein Ablenker.`,
-          });
-        }
-      });
-      return;
-    }
-
-    // --- Modi "wortbank"/"eingabe": Text + Lücken sind Pflicht -------------
-    if (block.bausteine !== undefined || block.alternativen.length > 0) {
-      ctx.addIssue({
-        code: "custom",
-        path: [block.bausteine !== undefined ? "bausteine" : "alternativen"],
-        message:
-          'Lückentext: "bausteine"/"alternativen" gehören zum Modus "satzbau".',
-      });
-    }
-    if (!block.text || !block.luecken) {
-      ctx.addIssue({
-        code: "custom",
-        path: [!block.text ? "text" : "luecken"],
-        message: `Lückentext: Der Modus "${block.modus}" braucht "text" (mit {{1}}-Markern) und "luecken".`,
-      });
-      return;
-    }
-
-    const text = block.text;
-    const luecken = block.luecken;
-    const marker = zerlegeLueckentext(text).filter((s) => s.art === "luecke");
-
-    // Wohlgeformtheit: Jedes "{{" bzw. "}}" muss zu einem vollständigen
-    // {{n}}-Marker gehören – fängt {{eins}}, {{1} und verirrte Klammern.
-    const offene = (text.match(/\{\{/g) ?? []).length;
-    const schliessende = (text.match(/\}\}/g) ?? []).length;
-    if (offene !== marker.length || schliessende !== marker.length) {
-      ctx.addIssue({
-        code: "custom",
-        path: ["text"],
-        message:
-          "Lückentext: unvollständiger Lücken-Marker. Lücken werden exakt als {{1}}, {{2}}, … geschrieben (fortlaufende Zahl in doppelten geschweiften Klammern, ohne Leerzeichen); {{ und }} sind dafür reserviert.",
-      });
-    }
-
-    const verwendungen = new Map<number, number>();
-    for (const seg of marker) {
-      verwendungen.set(seg.index, (verwendungen.get(seg.index) ?? 0) + 1);
-    }
-    for (const [index] of verwendungen) {
-      if (index < 0 || index >= luecken.length) {
-        ctx.addIssue({
-          code: "custom",
-          path: ["text"],
-          message: `Lückentext: Marker {{${index + 1}}} verweist auf eine Lücke, die es nicht gibt – definiert sind ${luecken.length} Lücken ({{1}} bis {{${luecken.length}}}).`,
-        });
-      }
-    }
-    luecken.forEach((_, index) => {
-      const anzahl = verwendungen.get(index) ?? 0;
-      if (anzahl === 0) {
-        ctx.addIssue({
-          code: "custom",
-          path: ["luecken", index],
-          message: `Lückentext: Lücke ${index + 1} hat keinen Marker {{${index + 1}}} im Text.`,
-        });
-      } else if (anzahl > 1) {
-        ctx.addIssue({
-          code: "custom",
-          path: ["text"],
-          message: `Lückentext: Marker {{${index + 1}}} kommt ${anzahl}-mal vor – jede Lücke wird genau einmal verwendet.`,
-        });
-      }
-    });
-
-    if (block.modus === "eingabe" && block.ablenker.length > 0) {
-      ctx.addIssue({
-        code: "custom",
-        path: ["ablenker"],
-        message:
-          'Lückentext: "ablenker" ist nur in den Modi "wortbank" und "satzbau" erlaubt (im Modus "eingabe" gibt es keine Auswahl).',
-      });
-    }
-    block.ablenker.forEach((wort, index) => {
-      if (luecken.some((luecke) => istLueckeRichtig(wort, luecke))) {
-        ctx.addIssue({
-          code: "custom",
-          path: ["ablenker", index],
-          message: `Lückentext: Ablenker "${wort}" ist zugleich eine akzeptierte Antwort einer Lücke – er wäre kein Ablenker.`,
+          path: ["varianten", i],
+          message: `Lückentext: Variante ${variantenBezeichnung(i + 1)} ergibt ${punkte} Punkte, der Hauptinhalt (Variante A) ${punkteHaupt} – alle Fassungen eines Blocks müssen dieselbe Punktzahl haben (der Lernstand zählt pro BLOCK).`,
         });
       }
     });
@@ -569,13 +689,13 @@ export const lueckentextBlockSchema = z
  * Alle gültigen Reihenfolgen eines satzbau-Blocks als Textfolgen: die
  * Hauptreihenfolge (`bausteine` selbst) plus die `alternativen`.
  */
-export function satzbauReihenfolgen(
-  block: z.infer<typeof lueckentextBlockSchema>,
-): string[][] {
-  const bausteine = block.bausteine ?? [];
+export function satzbauReihenfolgen(inhalt: LueckentextInhalt): string[][] {
+  const bausteine = inhalt.bausteine ?? [];
   return [
     [...bausteine],
-    ...block.alternativen.map((indizes) => indizes.map((i) => bausteine[i - 1])),
+    ...inhalt.alternativen.map((indizes) =>
+      indizes.map((i) => bausteine[i - 1]),
+    ),
   ];
 }
 
@@ -588,11 +708,11 @@ export function satzbauReihenfolgen(
  */
 export function satzbauPositionsTreffer(
   gelegt: readonly string[],
-  block: z.infer<typeof lueckentextBlockSchema>,
+  inhalt: LueckentextInhalt,
 ): boolean[] {
-  let beste: boolean[] = (block.bausteine ?? []).map(() => false);
+  let beste: boolean[] = (inhalt.bausteine ?? []).map(() => false);
   let besteAnzahl = -1;
-  for (const reihenfolge of satzbauReihenfolgen(block)) {
+  for (const reihenfolge of satzbauReihenfolgen(inhalt)) {
     const treffer = reihenfolge.map((textStueck, i) => gelegt[i] === textStueck);
     const anzahl = treffer.filter(Boolean).length;
     if (anzahl > besteAnzahl) {
@@ -1049,13 +1169,67 @@ export function zuordnungElementText(
  * siehe Versionsgeschichte): Jedes linke Element hat genau ein rechtes
  * Gegenstück, beide Spalten sind gleich lang.
  */
+/** Inhaltsfelder EINER Zuordnungs-Fassung (Hauptinhalt wie Variante). */
+const zuordnungInhaltFelder = {
+  /** Optionale Arbeitsanweisung, Markdown erlaubt. */
+  intro: markdown.optional(),
+  paare: z.array(zuordnungPaarSchema).min(2).max(12),
+};
+
+export const zuordnungVarianteSchema = z.strictObject(zuordnungInhaltFelder);
+export type ZuordnungInhalt = z.infer<typeof zuordnungVarianteSchema>;
+
+/** Prüft EINE Fassung; `pfad` prefixt die Fehlermeldungen (Varianten). */
+function pruefeZuordnungInhalt(
+  inhalt: ZuordnungInhalt,
+  ctx: z.RefinementCtx,
+  pfad: (string | number)[],
+): void {
+    // Die Elemente JEDER Spalte müssen unterscheidbar sein – zwei
+    // gleich aussehende Einträge machten die Zuordnung zum Ratespiel.
+    // Bild-Elemente vergleichen über die BILD-Identität (src):
+    // dasselbe Foto mit zwei Alt-Texten sieht identisch aus.
+    const pruefeSpalte = (
+      seite: "links" | "rechts",
+      elemente: Array<z.infer<typeof zuordnungElementSchema>>,
+    ) => {
+      const gesehen = new Map<string, number>();
+      elemente.forEach((element, i) => {
+        const schluessel = element.bild
+          ? `bild:${element.bild.src}`
+          : `text:${element.text}`;
+        const vorher = gesehen.get(schluessel);
+        if (vorher !== undefined) {
+          ctx.addIssue({
+            code: "custom",
+            path: [...pfad, "paare", i, seite],
+            message: `Zuordnung: Das ${seite === "links" ? "linke" : "rechte"} Element "${zuordnungElementText(element)}" kommt mehrfach vor (Bilder zählen über die Bilddatei) – die Elemente einer Spalte müssen unterscheidbar sein.`,
+          });
+        }
+        gesehen.set(schluessel, i);
+      });
+    };
+    pruefeSpalte(
+      "rechts",
+      inhalt.paare.map((p) => p.rechts),
+    );
+    pruefeSpalte(
+      "links",
+      inhalt.paare.map((p) => p.links),
+    );
+}
+
 export const zuordnungBlockSchema = z
   .strictObject({
     ...blockBase,
     type: z.literal("zuordnung"),
-    /** Optionale Arbeitsanweisung, Markdown erlaubt. */
-    intro: markdown.optional(),
-    paare: z.array(zuordnungPaarSchema).min(2).max(12),
+    ...zuordnungInhaltFelder,
+    /** Optionale WEITERE Fassungen (Variante B, C, …) – siehe Varianten-Abschnitt. */
+    varianten: z
+      .array(zuordnungVarianteSchema)
+      .min(1)
+      .max(VARIANTEN_MAX_ZUSAETZLICH)
+      .optional(),
   })
   .superRefine((block, ctx) => {
     // Stabile id ist Pflicht (wie bei Lückentext/Quiz).
@@ -1074,38 +1248,18 @@ export const zuordnungBlockSchema = z
           'Zuordnung: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
       });
     }
-    // Die Elemente JEDER Spalte müssen unterscheidbar sein – zwei
-    // gleich aussehende Einträge machten die Zuordnung zum Ratespiel.
-    // Bild-Elemente vergleichen über die BILD-Identität (src):
-    // dasselbe Foto mit zwei Alt-Texten sieht identisch aus.
-    const pruefeSpalte = (
-      seite: "links" | "rechts",
-      elemente: Array<z.infer<typeof zuordnungElementSchema>>,
-    ) => {
-      const gesehen = new Map<string, number>();
-      elemente.forEach((element, i) => {
-        const schluessel = element.bild
-          ? `bild:${element.bild.src}`
-          : `text:${element.text}`;
-        const vorher = gesehen.get(schluessel);
-        if (vorher !== undefined) {
-          ctx.addIssue({
-            code: "custom",
-            path: ["paare", i, seite],
-            message: `Zuordnung: Das ${seite === "links" ? "linke" : "rechte"} Element "${zuordnungElementText(element)}" kommt mehrfach vor (Bilder zählen über die Bilddatei) – die Elemente einer Spalte müssen unterscheidbar sein.`,
-          });
-        }
-        gesehen.set(schluessel, i);
-      });
-    };
-    pruefeSpalte(
-      "rechts",
-      block.paare.map((p) => p.rechts),
-    );
-    pruefeSpalte(
-      "links",
-      block.paare.map((p) => p.links),
-    );
+    pruefeZuordnungInhalt(block, ctx, []);
+    block.varianten?.forEach((variante, i) => {
+      pruefeZuordnungInhalt(variante, ctx, ["varianten", i]);
+      // >= 2: darunter meldet Zod bereits too_small (Review 11.8.2026).
+      if (variante.paare.length >= 2 && variante.paare.length !== block.paare.length) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["varianten", i, "paare"],
+          message: `Zuordnung: Variante ${variantenBezeichnung(i + 1)} hat ${variante.paare.length} Paare, der Hauptinhalt (Variante A) ${block.paare.length} – alle Fassungen eines Blocks müssen dieselbe Punktzahl haben (der Lernstand zählt pro BLOCK).`,
+        });
+      }
+    });
   });
 
 // --- Audio (Hörverstehen) ---------------------------------------------------
@@ -1353,31 +1507,23 @@ export const numerischAufgabeSchema = z.strictObject({
  * PRÜFENDER Block – ein Punkt pro Teilaufgabe, bestanden bei 100 %,
  * Auswertung/Wiederholen wie Lückentext und Zuordnung (pruefung.tsx).
  */
-export const numerischBlockSchema = z
-  .strictObject({
-    ...blockBase,
-    type: z.literal("numerisch"),
-    /** Optionale Arbeitsanweisung, Markdown/Mathe erlaubt. */
-    intro: markdown.optional(),
-    aufgaben: z.array(numerischAufgabeSchema).min(1).max(12),
-  })
-  .superRefine((block, ctx) => {
-    if (!block.id) {
-      ctx.addIssue({
-        code: "custom",
-        path: ["id"],
-        message:
-          'Numerisch: Der Block braucht eine stabile "id" (z. B. "num1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
-      });
-    } else if (block.id === "quiz") {
-      ctx.addIssue({
-        code: "custom",
-        path: ["id"],
-        message:
-          'Numerisch: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
-      });
-    }
-    block.aufgaben.forEach((aufgabe, i) => {
+/** Inhaltsfelder EINER Zahlenaufgaben-Fassung (Hauptinhalt wie Variante). */
+const numerischInhaltFelder = {
+  /** Optionale Arbeitsanweisung, Markdown/Mathe erlaubt. */
+  intro: markdown.optional(),
+  aufgaben: z.array(numerischAufgabeSchema).min(1).max(12),
+};
+
+export const numerischVarianteSchema = z.strictObject(numerischInhaltFelder);
+export type NumerischInhalt = z.infer<typeof numerischVarianteSchema>;
+
+/** Prüft EINE Fassung; `pfad` prefixt die Fehlermeldungen (Varianten). */
+function pruefeNumerischInhalt(
+  inhalt: NumerischInhalt,
+  ctx: z.RefinementCtx,
+  pfad: (string | number)[],
+): void {
+    inhalt.aufgaben.forEach((aufgabe, i) => {
       aufgabe.antworten.forEach((antwort, j) => {
         if (
           parseZahlwert(antwort, { prozentErlaubt: aufgabe.prozentErlaubt }) ===
@@ -1385,7 +1531,7 @@ export const numerischBlockSchema = z
         ) {
           ctx.addIssue({
             code: "custom",
-            path: ["aufgaben", i, "antworten", j],
+            path: [...pfad, "aufgaben", i, "antworten", j],
             message: `Numerisch: Die Antwort "${antwort}" ist keine lesbare Zahl (erlaubt: Dezimalzahl mit Punkt oder Komma, Bruch "a/b"${aufgabe.prozentErlaubt ? ', Prozent "50 %"' : ""} – OHNE Einheit, die steht im Feld "einheit").`,
           });
         }
@@ -1404,7 +1550,7 @@ export const numerischBlockSchema = z
       ) {
         ctx.addIssue({
           code: "custom",
-          path: ["aufgaben", i, "toleranz"],
+          path: [...pfad, "aufgaben", i, "toleranz"],
           message:
             'Numerisch: Bei einer akzeptierten Antwort mit dem Wert 0 wirkt eine PROZENT-Toleranz nicht (x % von 0 sind 0) – nutze { "art": "absolut", "wert": … }.',
         });
@@ -1415,8 +1561,50 @@ export const numerischBlockSchema = z
       if (aufgabe.einheit !== undefined && /\s/.test(aufgabe.einheit)) {
         ctx.addIssue({
           code: "custom",
-          path: ["aufgaben", i, "einheit"],
+          path: [...pfad, "aufgaben", i, "einheit"],
           message: `Numerisch: Die Einheit "${aufgabe.einheit}" darf keine Leerzeichen enthalten (mathjs-Schreibweise, z. B. "m", "km/h", "degC").`,
+        });
+      }
+    });
+}
+
+export const numerischBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("numerisch"),
+    ...numerischInhaltFelder,
+    /** Optionale WEITERE Fassungen (Variante B, C, …) – siehe Varianten-Abschnitt. */
+    varianten: z
+      .array(numerischVarianteSchema)
+      .min(1)
+      .max(VARIANTEN_MAX_ZUSAETZLICH)
+      .optional(),
+  })
+  .superRefine((block, ctx) => {
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Numerisch: Der Block braucht eine stabile "id" (z. B. "num1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Numerisch: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+    pruefeNumerischInhalt(block, ctx, []);
+    block.varianten?.forEach((variante, i) => {
+      pruefeNumerischInhalt(variante, ctx, ["varianten", i]);
+      // >= 1: bei leerem Array meldet Zod bereits too_small (Review 11.8.2026).
+      if (variante.aufgaben.length >= 1 && variante.aufgaben.length !== block.aufgaben.length) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["varianten", i, "aufgaben"],
+          message: `Numerisch: Variante ${variantenBezeichnung(i + 1)} hat ${variante.aufgaben.length} Teilaufgaben, der Hauptinhalt (Variante A) ${block.aufgaben.length} – alle Fassungen eines Blocks müssen dieselbe Punktzahl haben (der Lernstand zählt pro BLOCK).`,
         });
       }
     });
@@ -2013,13 +2201,52 @@ export const termAufgabeSchema = z.strictObject({
  * Wiederholen wie Lückentext, Zuordnung und Zahlenaufgabe
  * (pruefung.tsx).
  */
+/** Inhaltsfelder EINER Term-Fassung (Hauptinhalt wie Variante). */
+const termInhaltFelder = {
+  /** Optionale Arbeitsanweisung, Markdown/Mathe erlaubt. */
+  intro: markdown.optional(),
+  aufgaben: z.array(termAufgabeSchema).min(1).max(12),
+};
+
+export const termVarianteSchema = z.strictObject(termInhaltFelder);
+export type TermInhalt = z.infer<typeof termVarianteSchema>;
+
+/** Prüft EINE Fassung; `pfad` prefixt die Fehlermeldungen (Varianten). */
+function pruefeTermInhalt(
+  inhalt: TermInhalt,
+  ctx: z.RefinementCtx,
+  pfad: (string | number)[],
+): void {
+    inhalt.aufgaben.forEach((aufgabe, i) => {
+      aufgabe.antworten.forEach((antwort, j) => {
+        if (antwort.includes("=")) {
+          ctx.addIssue({
+            code: "custom",
+            path: [...pfad, "aufgaben", i, "antworten", j],
+            message: `Term: Die Antwort "${antwort}" enthält ein Gleichheitszeichen – Musterlösungen sind TERME, keine Gleichungen (statt "y = 2x+6" nur "2x+6" eintragen).`,
+          });
+        } else if (!TERM_ANTWORT_MUSTER.test(antwort)) {
+          ctx.addIssue({
+            code: "custom",
+            path: [...pfad, "aufgaben", i, "antworten", j],
+            message: `Term: Die Antwort "${antwort}" enthält unerlaubte Zeichen – erlaubt ist die mathjs-ASCII-Schreibweise (Ziffern, Buchstaben, + - * / ^ Klammern, Dezimal-PUNKT; "sqrt(x)" statt "√x", "pi" statt "π"). Ob die Antwort parsebar ist, prüft die Validierung beim Einreichen.`,
+          });
+        }
+      });
+    });
+}
+
 export const termBlockSchema = z
   .strictObject({
     ...blockBase,
     type: z.literal("term"),
-    /** Optionale Arbeitsanweisung, Markdown/Mathe erlaubt. */
-    intro: markdown.optional(),
-    aufgaben: z.array(termAufgabeSchema).min(1).max(12),
+    ...termInhaltFelder,
+    /** Optionale WEITERE Fassungen (Variante B, C, …) – siehe Varianten-Abschnitt. */
+    varianten: z
+      .array(termVarianteSchema)
+      .min(1)
+      .max(VARIANTEN_MAX_ZUSAETZLICH)
+      .optional(),
   })
   .superRefine((block, ctx) => {
     if (!block.id) {
@@ -2037,22 +2264,17 @@ export const termBlockSchema = z
           'Term: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
       });
     }
-    block.aufgaben.forEach((aufgabe, i) => {
-      aufgabe.antworten.forEach((antwort, j) => {
-        if (antwort.includes("=")) {
-          ctx.addIssue({
-            code: "custom",
-            path: ["aufgaben", i, "antworten", j],
-            message: `Term: Die Antwort "${antwort}" enthält ein Gleichheitszeichen – Musterlösungen sind TERME, keine Gleichungen (statt "y = 2x+6" nur "2x+6" eintragen).`,
-          });
-        } else if (!TERM_ANTWORT_MUSTER.test(antwort)) {
-          ctx.addIssue({
-            code: "custom",
-            path: ["aufgaben", i, "antworten", j],
-            message: `Term: Die Antwort "${antwort}" enthält unerlaubte Zeichen – erlaubt ist die mathjs-ASCII-Schreibweise (Ziffern, Buchstaben, + - * / ^ Klammern, Dezimal-PUNKT; "sqrt(x)" statt "√x", "pi" statt "π"). Ob die Antwort parsebar ist, prüft die Validierung beim Einreichen.`,
-          });
-        }
-      });
+    pruefeTermInhalt(block, ctx, []);
+    block.varianten?.forEach((variante, i) => {
+      pruefeTermInhalt(variante, ctx, ["varianten", i]);
+      // >= 1: bei leerem Array meldet Zod bereits too_small (Review 11.8.2026).
+      if (variante.aufgaben.length >= 1 && variante.aufgaben.length !== block.aufgaben.length) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["varianten", i, "aufgaben"],
+          message: `Term: Variante ${variantenBezeichnung(i + 1)} hat ${variante.aufgaben.length} Teilaufgaben, der Hauptinhalt (Variante A) ${block.aufgaben.length} – alle Fassungen eines Blocks müssen dieselbe Punktzahl haben (der Lernstand zählt pro BLOCK).`,
+        });
+      }
     });
   });
 

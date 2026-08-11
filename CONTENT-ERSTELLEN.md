@@ -205,6 +205,24 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >     "explanation":"…"}
 >   Jede Frage braucht eine eindeutige "id" ("q1", "q2", …) und eine
 >   "explanation" (das ist der Lernmoment!).
+> - AUFGABEN-VARIANTEN (optional, nur für lueckentext, zuordnung,
+>   numerisch und term): Ein Übungsblock darf neben seinem normalen
+>   Inhalt (= Variante A) eine Liste "varianten" mit weiteren, fertig
+>   ausformulierten Fassungen tragen – der Player zieht beim Öffnen
+>   zufällig eine, beim Wiederholen eine andere. Beispiel:
+>   {"type":"numerisch","id":"num1","title":"Rechne um",
+>   "aufgaben":[{"prompt":"Wie viele Meter sind 4,2 km?",
+>   "antworten":["4200"],"einheit":"m"}],
+>   "varianten":[{"aufgaben":[{"prompt":"Wie viele Meter sind 7,5 km?",
+>   "antworten":["7500"],"einheit":"m"}]}]}
+>   Jede Fassung ist KOMPLETT (samt Lösungen, Tipps, intro – nichts
+>   wird vererbt oder berechnet) und muss dieselbe Punktzahl ergeben
+>   (gleich viele Lücken/Paare/Teilaufgaben). Varianten lohnen sich bei
+>   ÜBUNGSAUFGABEN, in denen das Verfahren zählt (umrechnen, Vokabeln,
+>   Begriffe, Ereignisse ordnen) – NICHT bei inhaltlichen Fragen, bei
+>   denen die Frage selbst der Lerninhalt ist und alle Lernenden
+>   dieselbe beantworten sollen. KEINE Varianten bei tasks, quiz,
+>   simulation und planspiel (die Validierung lehnt sie dort ab).
 >
 > Inhaltliche Vorgaben:
 > - Deutsch, Anrede «du», Schweizer Schreibweise (ss statt ß).
@@ -234,6 +252,14 @@ KI auch den Inhalt dieser Datei mitgeben.
 > Lückentexten, Quizzen und dem Simulations-Gespräch (Punkt 12).
 
 ## Schritt 2: Kritisch gegenlesen (wichtig!)
+
+> **Aufgaben-Varianten durchsehen:** Wenn du Varianten von einer KI
+> erzeugen lässt, lies **jede einzelne Fassung** vor dem Einreichen
+> durch. KI-generierte Varianten enthalten sonst leicht triviale oder
+> widersinnige Fassungen («Was ist 1 im Quadrat?», dieselbe Aufgabe mit
+> anderem Wortlaut, unlösbare Zahlenwerte). Jede Variante muss für sich
+> eine vollwertige, sinnvolle Aufgabe sein – die Validierung prüft die
+> Form, nicht den didaktischen Gehalt.
 
 Die KI ist deine Assistenz, **du bist die Fachperson**. Prüfe vor dem
 Einreichen:

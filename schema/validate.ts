@@ -45,6 +45,7 @@ import {
   PLANSPIEL_DOKUMENT_PRAEFIX,
   PLANSPIEL_VERBOTENE_MUSTER,
   termBaumFehler,
+  variantenBezeichnung,
   VIDEO_DATEI_MUSTER,
   type LearningModule,
   type TermKnoten,
@@ -403,8 +404,15 @@ function checkModule(
     }
     // Zuordnungs-Bilder unterliegen denselben Regeln wie image-Blöcke.
     if (isKnownBlock(block) && block.type === "zuordnung") {
-      block.paare.flatMap((p) => [p.links, p.rechts]).forEach((element, i) => {
-        if (element.bild) checkBildUrl(element.bild.src, `Zuordnungs-Bild ${i + 1}`);
+      // Aufgaben-Varianten: Bild-Regeln gelten für JEDE Fassung.
+      [block, ...(block.varianten ?? [])].forEach((fassung, f) => {
+        fassung.paare.flatMap((p) => [p.links, p.rechts]).forEach((element, i) => {
+          if (element.bild)
+            checkBildUrl(
+              element.bild.src,
+              `Zuordnungs-Bild ${i + 1}${f > 0 ? ` (Variante ${variantenBezeichnung(f)})` : ""}`,
+            );
+        });
       });
     }
     // Numerisch: Einheiten müssen mathjs-bekannt sein (die Plattform
@@ -412,26 +420,30 @@ function checkModule(
     // machte die Aufgabe unlösbar). mathjs ist devDependency dieses
     // Repos; die Prüfung lebt bewusst AUSSERHALB der SYNC-Region.
     if (isKnownBlock(block) && block.type === "numerisch") {
-      block.aufgaben.forEach((aufgabe, i) => {
-        if (aufgabe.einheit !== undefined && !istBekannteEinheit(aufgabe.einheit)) {
-          errors.push(
-            `Numerisch-Aufgabe ${i + 1}: Die Einheit "${aufgabe.einheit}" kennt mathjs nicht (ASCII-Schreibweise nutzen, z. B. "degC" statt "°C", "m^2" statt "m²").`,
-          );
-        }
+      [block, ...(block.varianten ?? [])].forEach((fassung, f) => {
+        fassung.aufgaben.forEach((aufgabe, i) => {
+          if (aufgabe.einheit !== undefined && !istBekannteEinheit(aufgabe.einheit)) {
+            errors.push(
+              `Numerisch-Aufgabe ${i + 1}${f > 0 ? ` (Variante ${variantenBezeichnung(f)})` : ""}: Die Einheit "${aufgabe.einheit}" kennt mathjs nicht (ASCII-Schreibweise nutzen, z. B. "degC" statt "°C", "m^2" statt "m²").`,
+            );
+          }
+        });
       });
     }
     // Term: Musterlösungen müssen parsebar sein und den Baum-Filter der
     // SYNC-Region bestehen (der Player sortiert unparsebare Antworten
     // aus und meldet die Aufgabe als defekt – hier fällt das früher auf).
     if (isKnownBlock(block) && block.type === "term") {
-      block.aufgaben.forEach((aufgabe, i) => {
-        aufgabe.antworten.forEach((antwort, j) => {
-          const fehler = termAntwortFehler(antwort);
-          if (fehler !== null) {
-            errors.push(
-              `Term-Aufgabe ${i + 1}, Antwort ${j + 1} ("${antwort}"): ${fehler} – erlaubt sind Zahlen, + - * / ^, Klammern, sqrt/abs/sin/cos/tan/log/exp und pi/e in mathjs-Schreibweise.`,
-            );
-          }
+      [block, ...(block.varianten ?? [])].forEach((fassung, f) => {
+        fassung.aufgaben.forEach((aufgabe, i) => {
+          aufgabe.antworten.forEach((antwort, j) => {
+            const fehler = termAntwortFehler(antwort);
+            if (fehler !== null) {
+              errors.push(
+                `Term-Aufgabe ${i + 1}${f > 0 ? ` (Variante ${variantenBezeichnung(f)})` : ""}, Antwort ${j + 1} ("${antwort}"): ${fehler} – erlaubt sind Zahlen, + - * / ^, Klammern, sqrt/abs/sin/cos/tan/log/exp und pi/e in mathjs-Schreibweise.`,
+              );
+            }
+          });
         });
       });
     }
