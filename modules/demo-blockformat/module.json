@@ -145,7 +145,7 @@
    "type": "zuordnung",
    "id": "zu-blocktypen",
    "title": "Der Zuordnungs-Block",
-   "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Tippe je ein Element links und rechts an, egal in welcher Reihenfolge. Jedes Element hat genau ein passendes Gegenstück.",
+   "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Tippe je ein Element links und rechts an, egal in welcher Reihenfolge. Jedes Element hat genau ein passendes Gegenstück. Auch dieser Block zeigt die **Aufgaben-Varianten**: Beim Wiederholen bekommst du eine andere Fassung.",
    "paare": [
     {
      "links": {
@@ -171,13 +171,44 @@
       "text": "Hier liegen module.json, Bilder und Hördateien zusammen."
      }
     }
+   ],
+   "varianten": [
+    {
+     "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Tippe je ein Element links und rechts an, egal in welcher Reihenfolge. Jedes Element hat genau ein passendes Gegenstück. Auch dieser Block zeigt die **Aufgaben-Varianten**: Beim Wiederholen bekommst du eine andere Fassung.",
+     "paare": [
+      {
+       "links": {
+        "text": "Lückentext"
+       },
+       "rechts": {
+        "text": "Fehlende Wörter einsetzen oder antippen."
+       }
+      },
+      {
+       "links": {
+        "text": "Zuordnung"
+       },
+       "rechts": {
+        "text": "Paare zusammenbringen – links und rechts antippen."
+       }
+      },
+      {
+       "links": {
+        "text": "Quiz"
+       },
+       "rechts": {
+        "text": "Fragen mit Auswahl-Antworten und Auswertung."
+       }
+      }
+     ]
+    }
    ]
   },
   {
    "type": "numerisch",
    "id": "num-blocktypen",
    "title": "Der Numerisch-Block",
-   "intro": "Zahlenaufgaben werden **automatisch geprüft** – gleichwertige Schreibweisen zählen gleich (0,5 = 0.5 = 1/2 = 50 %), und wo eine Einheit gefragt ist, werden gleichwertige Einheiten umgerechnet (42 cm = 0,42 m). Mathe-Notation funktioniert in allen Texten mit Doppel-Dollar: $$\\tfrac{1}{2} + \\tfrac{1}{4} = \\tfrac{3}{4}$$",
+   "intro": "Zahlenaufgaben werden **automatisch geprüft** – gleichwertige Schreibweisen zählen gleich (0,5 = 0.5 = 1/2 = 50 %), und wo eine Einheit gefragt ist, werden gleichwertige Einheiten umgerechnet (42 cm = 0,42 m). Mathe-Notation funktioniert in allen Texten mit Doppel-Dollar: $$\\tfrac{1}{2} + \\tfrac{1}{4} = \\tfrac{3}{4}$$\n\nDieser Block hat übrigens **zwei Varianten** (oben rechts steht die Bezeichnung): Beim Öffnen wird zufällig eine gezogen, beim Wiederholen kommt die andere – so bleibt die Übung wiederholbar, ohne dass immer dieselben Zahlen erscheinen.",
    "aufgaben": [
     {
      "prompt": "Wie viele **Meter** sind 4,2 km? Antworte mit Einheit.",
@@ -201,6 +232,36 @@
       "art": "absolut",
       "wert": 0.005
      }
+    }
+   ],
+   "varianten": [
+    {
+     "intro": "Zahlenaufgaben werden **automatisch geprüft** – gleichwertige Schreibweisen zählen gleich (0,5 = 0.5 = 1/2 = 50 %), und wo eine Einheit gefragt ist, werden gleichwertige Einheiten umgerechnet (42 cm = 0,42 m). Mathe-Notation funktioniert in allen Texten mit Doppel-Dollar: $$\\tfrac{1}{2} + \\tfrac{1}{4} = \\tfrac{3}{4}$$\n\nDieser Block hat übrigens **zwei Varianten** (oben rechts steht die Bezeichnung): Beim Öffnen wird zufällig eine gezogen, beim Wiederholen kommt die andere – so bleibt die Übung wiederholbar, ohne dass immer dieselben Zahlen erscheinen.",
+     "aufgaben": [
+      {
+       "prompt": "Wie viele **Meter** sind 7,5 km? Antworte mit Einheit.",
+       "antworten": [
+        "7500"
+       ],
+       "einheit": "m"
+      },
+      {
+       "prompt": "Welchen Wert ergibt $$\\tfrac{1}{4} + \\tfrac{1}{8}$$? (Bruch, Dezimalzahl oder Prozent – alles zählt.)",
+       "antworten": [
+        "0.375"
+       ]
+      },
+      {
+       "prompt": "Gib $$\\sqrt{2}$$ auf mindestens zwei Nachkommastellen genau an (Toleranz ± 0,005).",
+       "antworten": [
+        "1.41421356"
+       ],
+       "toleranz": {
+        "art": "absolut",
+        "wert": 0.005
+       }
+      }
+     ]
     }
    ]
   },

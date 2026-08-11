@@ -24,6 +24,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 5. August 2026 | **Verengung** (kein Versionswechsel): [Zuordnung](#zuordnung--paare-zuordnen-automatisch-geprüft) **ohne Ablenker** – die Felder `ablenker` und `ablenkerLinks` sind **entfernt** und werden von der Validierung abgelehnt. Begründung: Geprüft werden kann erst, wenn ALLE Elemente verbunden sind – Ablenker liessen sich so gar nicht «unbenutzt» lassen und erzwangen falsch bewertete Paare. Jedes linke Element hat genau ein rechtes Gegenstück, beide Spalten sind gleich lang. **Achtung Rollout (umgekehrt zu den additiven Fällen):** Module mit Ablenkern ZUERST bereinigen und mergen, DANN deployt die Plattform das strengere Schema – ältere Player zeigen bereinigte Module unverändert an (die Felder waren dort optional). |
 | 2 | 9. August 2026 | Additiv (kein Versionswechsel): zwei neue **prüfende** Blocktypen. [`numerisch`](#numerisch--zahleneingabe-automatisch-geprüft) – Zahleneingabe mit Toleranz (absolut/prozentual), gleichwertigen Schreibweisen (`0,5` = `0.5` = `1/2` = `50 %`), optionaler **Einheit** mit Umrechnung gleichwertiger Einheiten (`42 cm` = `0,42 m`, mathjs) und mehreren akzeptierten Antworten. [`achse`](#achse--elemente-auf-achsen-platzieren-automatisch-geprüft) – Elemente (Zahlen, Jahreszahlen, Textkarten) auf einer oder zwei Achsen platzieren: Zahlenstrahl, Zeitstrahl, Koordinatensystem; Achsen numerisch oder mit Textkategorien; Wertung nach Position (Toleranz), Reihenfolge oder Kategorie (Darstellung: JSXGraph, dual MIT/LGPL). Zusätzlich rendert `$$…$$` in allen Markdown-Feldern **Mathe-Notation** (KaTeX; einzelne \$-Zeichen bleiben Text). Bestehende Dateien bleiben gültig; ältere Player zeigen für die neuen Typen einen Platzhalter. |
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): neuer **prüfender** Blocktyp [`term`](#term--mathematischen-term-eingeben-automatisch-geprüft) – Eingabe eines mathematischen Terms, bei dem jede **äquivalente Umformung** als richtig gilt (`2*(x+3)` = `2x+6`). Geprüft wird mit mathjs: symbolische Vereinfachung der Differenz, ergänzt durch deterministische numerische Stichproben, wo die Vereinfachung nicht eindeutig entscheidet. Syntaktisch ungültige Eingaben werden nie als falsch gewertet, sondern mit einer Korrektur-Aufforderung abgefangen. Bestehende Dateien bleiben gültig; ältere Player zeigen einen Platzhalter. |
+| 2 | 11. August 2026 | Additiv (kein Versionswechsel): [**Aufgaben-Varianten**](#aufgaben-varianten) für `lueckentext`, `zuordnung`, `numerisch` und `term`. Ein Block darf neben seinem normalen Inhalt (= Variante A) eine Liste `varianten` mit weiteren, vollständig ausformulierten Fassungen tragen; der Player zieht beim Öffnen zufällig eine, «Wiederholen» zieht eine andere. Jede Fassung muss dieselbe Punktzahl ergeben; der Lernstand bleibt pro Block, die gezogene Fassung wird weder gespeichert noch übermittelt. **Bewusst ohne Varianten:** `tasks`, `quiz`, `simulation`, `planspiel` (die Validierung lehnt das Feld dort ab). **Achtung Rollout:** Ältere Player lehnen Module MIT `varianten` hart ab (kein Platzhalter) – erst nach dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -727,6 +728,78 @@ Regeln (erzwingt die Validierung):
   übernimmt ein nachgelagertes Quiz im selben Modul.
 - Der Blocktyp ist eine **additive Ergänzung von Schema-Version 2**
   (31. Juli 2026) – ältere Player zeigen einen Platzhalter.
+
+## Aufgaben-Varianten
+
+Die Blocktypen [`lueckentext`](#lueckentext--lückentext-automatisch-geprüft),
+[`zuordnung`](#zuordnung--paare-zuordnen-automatisch-geprüft),
+[`numerisch`](#numerisch--zahleneingabe-automatisch-geprüft) und
+[`term`](#term--mathematischen-term-eingeben-automatisch-geprüft) dürfen
+neben ihrem normalen Inhalt (= **Variante A**) eine Liste `varianten`
+mit weiteren, **vollständig ausformulierten** Fassungen tragen (B, C, …;
+ab der 27. zweistellig AA, AB, …). Der Player zieht beim Öffnen des
+Blocks zufällig eine Fassung und kennzeichnet sie dezent oben rechts
+(«Variante B»); **«Wiederholen» zieht eine andere** – so bleibt die
+Übung wiederholbar, ohne dass direkt dieselbe Aufgabe erscheint.
+
+```json
+{
+  "type": "numerisch",
+  "id": "num1",
+  "title": "Rechne um",
+  "aufgaben": [
+    { "prompt": "Wie viele Meter sind 4,2 km?", "antworten": ["4200"], "einheit": "m" }
+  ],
+  "varianten": [
+    {
+      "aufgaben": [
+        { "prompt": "Wie viele Meter sind 7,5 km?", "antworten": ["7500"], "einheit": "m" }
+      ]
+    }
+  ]
+}
+```
+
+Regeln:
+
+- Jede Variante enthält den **kompletten Aufgabeninhalt** des Blocktyps
+  (bei `numerisch`/`term`: `aufgaben` und optional `intro`; bei
+  `zuordnung`: `paare`; bei `lueckentext`: `modus` samt zugehörigen
+  Feldern) – **fertig ausformuliert in der Moduldatei**. Es wird nichts
+  zur Laufzeit berechnet oder generiert: keine Formelausdrücke, kein
+  Code – Moduldateien bleiben reine Daten.
+- **Gleiche Punktzahl in jeder Fassung** (gleich viele Lücken/Bausteine/
+  Paare/Teilaufgaben) – die Validierung lehnt Abweichungen ab, denn der
+  Lernstand zählt pro **Block**: Ergebnis, Punkte und Versuche werden
+  wie bisher gespeichert; **welche Variante gezogen wurde, wird weder
+  gespeichert noch an die Lehrperson übermittelt.**
+- Ein `intro` gehört in JEDE Fassung, die es zeigen soll (Varianten
+  erben nichts vom Hauptinhalt).
+- Höchstens 49 zusätzliche Fassungen (50 gesamt).
+- **Lehrer-Ansicht:** Die aufklappbare Musterlösung (nur mit gültiger
+  Lehrer-Lizenz) zeigt ALLE Varianten mit Bezeichnung und Lösung – so
+  lässt sich bei einer Schülerfrage zuordnen, welche Fassung vorliegt.
+- **Bewusst ohne Varianten:** `tasks` (die Antworten gehen an die
+  Lehrperson – unterschiedliche Fragen machten das Dashboard
+  unbrauchbar), `quiz` (meist inhaltlicher Modulabschluss – alle
+  beantworten dieselben Kernfragen), `simulation` und `planspiel`.
+  Die Validierung lehnt ein `varianten`-Feld bei diesen Typen ab.
+- Jede Variante wird von der PR-Validierung **einzeln** gegen alle
+  Regeln des Blocktyps geprüft (parsebare Antworten, bekannte
+  Einheiten, Bild-Regeln, Modus-Regeln …).
+
+**Wann sind Varianten sinnvoll?** Bei Übungsaufgaben, in denen das
+VERFAHREN zählt (umrechnen, ausmultiplizieren, Vokabeln und Begriffe
+festigen, Ereignisse ordnen) – die Fassungen üben dasselbe mit anderem
+Material. **Wann nicht?** Bei inhaltlichen Fragen, bei denen die Frage
+selbst der Lerninhalt ist und alle Lernenden dieselbe beantworten
+sollen – dort bleibt es bei einer Fassung (oder beim Quiz, das bewusst
+keine Varianten kennt).
+
+**Achtung Rollout:** Ältere Player lehnen Module MIT `varianten` hart
+ab (kein Platzhalter) – solche Module erst NACH dem zugehörigen
+Plattform-Deploy einreichen. Bestehende Module ohne Varianten bleiben
+unverändert gültig.
 
 ## Prüfende Blöcke und Modulabschluss
 
