@@ -763,9 +763,10 @@ Blocks zufällig eine Fassung und kennzeichnet sie dezent oben rechts
 Regeln:
 
 - Jede Variante enthält den **kompletten Aufgabeninhalt** des Blocktyps
-  (bei `numerisch`/`term`: `aufgaben` und optional `intro`; bei
-  `zuordnung`: `paare`; bei `lueckentext`: `modus` samt zugehörigen
-  Feldern) – **fertig ausformuliert in der Moduldatei**. Es wird nichts
+  (bei `numerisch`/`term`: `aufgaben`; bei `zuordnung`: `paare`; bei
+  `lueckentext`: `modus` samt zugehörigen Feldern – und bei ALLEN vier
+  Typen optional ein `intro`) – **fertig ausformuliert in der
+  Moduldatei**. Es wird nichts
   zur Laufzeit berechnet oder generiert: keine Formelausdrücke, kein
   Code – Moduldateien bleiben reine Daten.
 - **Gleiche Punktzahl in jeder Fassung** (gleich viele Lücken/Bausteine/

@@ -336,6 +336,13 @@ export const tasksBlockSchema = z.strictObject({
  * unbrauchbar), quiz (inhaltlicher Modulabschluss – alle beantworten
  * dieselben Kernfragen), simulation und planspiel; deren strictObject
  * lehnt ein varianten-Feld ab.
+ *
+ * BEWUSSTE GRENZE: Die Detail-Statistik questionStats schlüsselt pro
+ * POSITION («blockId:1»), nicht pro Fassung – bei Varianten-Blöcken
+ * vermischen sich dort die (inhaltlich verschiedenen) Aufgaben der
+ * Fassungen. Das ist die direkte Folge der Vorgabe, die gezogene
+ * Fassung NIRGENDS zu speichern; eine künftige questionStats-UI muss
+ * Varianten-Blöcke entsprechend zurückhaltend auswerten.
  */
 export const VARIANTEN_MAX_ZUSAETZLICH = 49;
 
@@ -664,7 +671,11 @@ export const lueckentextBlockSchema = z
     block.varianten?.forEach((variante, i) => {
       pruefeLueckentextInhalt(variante, ctx, ["varianten", i]);
       const punkte = lueckentextPunkte(variante);
-      if (punkte > 0 && punkteHaupt > 0 && punkte !== punkteHaupt) {
+      // Vergleich nur, wenn die Variante ihr eigenes Minimum erfüllt –
+      // darunter meldet Zod bereits too_small, eine zusätzliche
+      // Mismatch-Meldung wäre irreführend (Review 11.8.2026).
+      const minimum = variante.modus === "satzbau" ? 2 : 1;
+      if (punkte >= minimum && punkteHaupt > 0 && punkte !== punkteHaupt) {
         ctx.addIssue({
           code: "custom",
           path: ["varianten", i],
@@ -1240,7 +1251,8 @@ export const zuordnungBlockSchema = z
     pruefeZuordnungInhalt(block, ctx, []);
     block.varianten?.forEach((variante, i) => {
       pruefeZuordnungInhalt(variante, ctx, ["varianten", i]);
-      if (variante.paare.length !== block.paare.length) {
+      // >= 2: darunter meldet Zod bereits too_small (Review 11.8.2026).
+      if (variante.paare.length >= 2 && variante.paare.length !== block.paare.length) {
         ctx.addIssue({
           code: "custom",
           path: ["varianten", i, "paare"],
@@ -1587,7 +1599,8 @@ export const numerischBlockSchema = z
     pruefeNumerischInhalt(block, ctx, []);
     block.varianten?.forEach((variante, i) => {
       pruefeNumerischInhalt(variante, ctx, ["varianten", i]);
-      if (variante.aufgaben.length !== block.aufgaben.length) {
+      // >= 1: bei leerem Array meldet Zod bereits too_small (Review 11.8.2026).
+      if (variante.aufgaben.length >= 1 && variante.aufgaben.length !== block.aufgaben.length) {
         ctx.addIssue({
           code: "custom",
           path: ["varianten", i, "aufgaben"],
@@ -2254,7 +2267,8 @@ export const termBlockSchema = z
     pruefeTermInhalt(block, ctx, []);
     block.varianten?.forEach((variante, i) => {
       pruefeTermInhalt(variante, ctx, ["varianten", i]);
-      if (variante.aufgaben.length !== block.aufgaben.length) {
+      // >= 1: bei leerem Array meldet Zod bereits too_small (Review 11.8.2026).
+      if (variante.aufgaben.length >= 1 && variante.aufgaben.length !== block.aufgaben.length) {
         ctx.addIssue({
           code: "custom",
           path: ["varianten", i, "aufgaben"],
