@@ -23,6 +23,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 3. August 2026 | Klarstellung (kein Versionswechsel, reine **Abspiel-Reihenfolge** im Player – die Validierung bleibt unverändert): Der Vorrang aus der Zeile darüber dreht sich um. Das **Browser-Vorlesen ist der bevorzugte Weg**, sobald eine passende Stimme der Zielsprache da ist (Lernende wählen unter «Cates Stimmen» zwischen Stimmen und Aussprachevarianten); die **hinterlegte Datei ist die Rückfallebene** (keine passende Stimme, oder die Vorlese-Ausgabe schlägt fehl); zuletzt greift wie bisher der Text bzw. bei verborgenem Transkript der Hinweis auf «Cates Stimmen». Für Autorinnen und Autoren heisst das: `vorleseText` **und** `src` gemeinsam eintragen ist der Idealzustand – Wahlfreiheit bei den Stimmen plus ein zuverlässiges Backup. |
 | 2 | 5. August 2026 | **Verengung** (kein Versionswechsel): [Zuordnung](#zuordnung--paare-zuordnen-automatisch-geprüft) **ohne Ablenker** – die Felder `ablenker` und `ablenkerLinks` sind **entfernt** und werden von der Validierung abgelehnt. Begründung: Geprüft werden kann erst, wenn ALLE Elemente verbunden sind – Ablenker liessen sich so gar nicht «unbenutzt» lassen und erzwangen falsch bewertete Paare. Jedes linke Element hat genau ein rechtes Gegenstück, beide Spalten sind gleich lang. **Achtung Rollout (umgekehrt zu den additiven Fällen):** Module mit Ablenkern ZUERST bereinigen und mergen, DANN deployt die Plattform das strengere Schema – ältere Player zeigen bereinigte Module unverändert an (die Felder waren dort optional). |
 | 2 | 9. August 2026 | Additiv (kein Versionswechsel): zwei neue **prüfende** Blocktypen. [`numerisch`](#numerisch--zahleneingabe-automatisch-geprüft) – Zahleneingabe mit Toleranz (absolut/prozentual), gleichwertigen Schreibweisen (`0,5` = `0.5` = `1/2` = `50 %`), optionaler **Einheit** mit Umrechnung gleichwertiger Einheiten (`42 cm` = `0,42 m`, mathjs) und mehreren akzeptierten Antworten. [`achse`](#achse--elemente-auf-achsen-platzieren-automatisch-geprüft) – Elemente (Zahlen, Jahreszahlen, Textkarten) auf einer oder zwei Achsen platzieren: Zahlenstrahl, Zeitstrahl, Koordinatensystem; Achsen numerisch oder mit Textkategorien; Wertung nach Position (Toleranz), Reihenfolge oder Kategorie (Darstellung: JSXGraph, dual MIT/LGPL). Zusätzlich rendert `$$…$$` in allen Markdown-Feldern **Mathe-Notation** (KaTeX; einzelne \$-Zeichen bleiben Text). Bestehende Dateien bleiben gültig; ältere Player zeigen für die neuen Typen einen Platzhalter. |
+| 2 | 11. August 2026 | Additiv (kein Versionswechsel): neuer **prüfender** Blocktyp [`term`](#term--mathematischen-term-eingeben-automatisch-geprüft) – Eingabe eines mathematischen Terms, bei dem jede **äquivalente Umformung** als richtig gilt (`2*(x+3)` = `2x+6`). Geprüft wird mit mathjs: symbolische Vereinfachung der Differenz, ergänzt durch deterministische numerische Stichproben, wo die Vereinfachung nicht eindeutig entscheidet. Syntaktisch ungültige Eingaben werden nie als falsch gewertet, sondern mit einer Korrektur-Aufforderung abgefangen. Bestehende Dateien bleiben gültig; ältere Player zeigen einen Platzhalter. |
 
 ## Ablage
 
@@ -454,6 +455,80 @@ ziehen, gesetzte Punkte sind immer nachziehbar.
 - Additive Ergänzung von Schema-Version 2 (9. August 2026) – ältere
   Player zeigen einen Platzhalter.
 
+### `term` – mathematischen Term eingeben (automatisch geprüft)
+
+Eine oder mehrere Teilaufgaben, je ein Eingabefeld für einen
+mathematischen Term. Geprüft wird **Äquivalenz**, nicht die Form: Jede
+gleichwertige Umformung der Musterlösung zählt als richtig (`2*(x+3)`
+ist so richtig wie `2x+6`, `0,5x` so richtig wie `x/2`). Eine
+KaTeX-Live-Vorschau zeigt den Lernenden, wie ihre Eingabe gelesen wird;
+eine Symbol-Leiste hilft bei `√`, `·`, `²`, `^` und `π`.
+
+```json
+{
+  "type": "term",
+  "id": "term1",
+  "title": "Terme umformen",
+  "aufgaben": [
+    {
+      "prompt": "Multipliziere aus: $$2\\cdot(x+3)$$",
+      "antworten": ["2x+6"]
+    },
+    {
+      "prompt": "Gib einen Term für den Flächeninhalt eines Kreises mit Radius $$r$$ an.",
+      "antworten": ["pi*r^2"]
+    }
+  ]
+}
+```
+
+- **`id`** (Pflicht): Lernstand und Punkte hängen am Block.
+- **`aufgaben`** (1–12): je `prompt` (Markdown, Mathe-Notation mit
+  `$$…$$` erlaubt) und `antworten` (1–8 akzeptierte Musterlösungen).
+  Äquivalente Umformungen muss niemand listen – mehrere Einträge sind
+  für WIRKLICH verschiedene akzeptierte Terme.
+- **Schreibweise der `antworten`** (mathjs-ASCII, die Validierung prüft
+  sie): Zahlen mit Dezimal-**Punkt**, Operatoren `+ - * / ^`, Klammern,
+  die Funktionen `sqrt` `abs` `sin` `cos` `tan` `log` (natürlicher
+  Logarithmus, `ln(…)` geht auch) `exp` sowie `pi` und `e`. **Kein
+  Gleichheitszeichen** – Musterlösungen sind Terme, keine Gleichungen
+  (statt `A = pi*r^2` nur `pi*r^2`; die Aufgabenstellung nennt die
+  gesuchte Grösse). Implizite Multiplikation ist erlaubt (`2x`), aber
+  **zusammengeschriebene Variablen sind EINE Variable**: `ab` ist die
+  Variable «ab», ein Produkt heisst `a*b`. Zwei technische Grenzen
+  (Schutz vor sekundenlangen Prüf-Blockaden, die Validierung lehnt
+  Verstösse ab): höchstens **16 Verschachtelungs-Ebenen** und
+  konstante Potenz-Exponenten bis Betrag **10 000** (`2^64` geht,
+  `9^9^9` nicht; Variablen-Exponenten wie `x^n` sind frei).
+- **Die Variablen der Aufgabe** ergeben sich aus den Musterlösungen:
+  Eingaben mit anderen Variablen bekommen einen ehrlichen Hinweis
+  («Die Variable ‹y› kommt in dieser Aufgabe nicht vor») und werden
+  nicht gewertet.
+- **Lernende dürfen natürlich schreiben**: `×`, `·`, `÷`, `:`,
+  Dezimal-Komma, `²`/`³`, `√(…)`, `π` und `ln(…)` werden vor der
+  Prüfung automatisch in die mathjs-Schreibweise übersetzt; die
+  implizite Multiplikation (`2x`) versteht der Parser direkt.
+- **Syntaktisch ungültige Eingaben werden NIE als falsch gewertet**:
+  Sie blockieren das Prüfen und zeigen eine Korrektur-Aufforderung
+  («Das ist noch kein lesbarer Term …», «Nach ‹sqrt› gehören
+  Klammern») – gewertet wird erst, wenn alle Felder lesbar sind.
+- **Wie geprüft wird**: symbolische Vereinfachung der Differenz
+  (mathjs `simplify`; eine konstante Differenz entscheidet exakt),
+  ergänzt durch deterministische numerische Stichproben an bis zu 80
+  Pseudozufallspunkten, wo die Vereinfachung nicht eindeutig
+  entscheidet. Äquivalenz gilt dabei **bis auf einzelne
+  Definitionslücken** (CAS-Standard: `(x^2-1)/(x-1)` = `x+1` zählt
+  als richtig).
+- **Bewusste Grenze**: Geprüft wird Äquivalenz, nicht die Form – eine
+  «Vereinfache …»-Aufgabe gilt auch als gelöst, wenn die unvereinfachte
+  (äquivalente) Form eingegeben wird. Wer das vermeiden will,
+  formuliert die Aufgabe so, dass der Zielterm hergeleitet werden muss
+  (z. B. «Gib einen Term für … an») statt ihn abzudrucken.
+- **Punkte**: ein Punkt pro Teilaufgabe; Auswertung/«Wiederholen» wie
+  bei den übrigen prüfenden Blöcken. PRÜFENDER Block.
+- Additive Ergänzung von Schema-Version 2 (11. August 2026) – ältere
+  Player zeigen einen Platzhalter.
+
 ### `audio` – Hörverstehen
 
 Zwei Quellen, seit 3. August 2026 **kombinierbar** (mindestens eine
@@ -659,7 +734,7 @@ Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
 Blöcke prüfend sind, steht versioniert im Schema
 ([`schema/schema.ts`](schema/schema.ts), Funktion `istPruefenderBlock`):
 `lueckentext` (alle Modi inkl. `satzbau`), `quiz`, `zuordnung`,
-`numerisch` und `achse` immer, `simulation` genau dann, wenn der Block
+`numerisch`, `achse` und `term` immer, `simulation` genau dann, wenn der Block
 eine [`abschlussfrage`](#simulation--verzweigter-rollenspiel-dialog)
 trägt. Künftige auto-geprüfte Aufgabentypen werden dort eingetragen und
 zählen dann automatisch.

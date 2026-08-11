@@ -143,7 +143,25 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      "xKategorie" je Element; zweite Achse "y":{"min":…,"max":…}
 >      macht ein Koordinatensystem (Elemente brauchen dann auch "y").
 >      1–12 Elemente (Zahlen, Jahreszahlen oder Begriffe).
->   10. {"type":"audio","id":"hoeren1","title":"Pflicht-Titel",
+>   10. {"type":"term","id":"term1","title":"Terme umformen","aufgaben":[
+>      {"prompt":"Multipliziere aus: $$2\\cdot(x+3)$$","antworten":["2x+6"]},
+>      {"prompt":"Gib einen Term für den Flächeninhalt eines Kreises mit
+>      Radius $$r$$ an.","antworten":["pi*r^2"]}]}
+>      – Term-Eingabe (automatisch geprüft): 1–12 Teilaufgaben, je ein
+>      Eingabefeld für einen mathematischen Term. Geprüft wird
+>      ÄQUIVALENZ: Jede gleichwertige Umformung der Musterlösung zählt
+>      (2*(x+3) ist so richtig wie 2x+6) – äquivalente Formen muss
+>      niemand listen, mehrere "antworten" nur für WIRKLICH
+>      verschiedene akzeptierte Terme. Schreibweise der "antworten":
+>      mathjs-ASCII mit Dezimal-PUNKT, Operatoren + - * / ^, Klammern,
+>      Funktionen sqrt/abs/sin/cos/tan/log/exp (ln geht auch) sowie pi
+>      und e; KEIN Gleichheitszeichen (Terme, keine Gleichungen) und
+>      Produkte als a*b ("ab" wäre EINE Variable). Die Variablen der
+>      Aufgabe ergeben sich aus den Musterlösungen. Achtung: Weil
+>      Äquivalenz zählt, gilt eine «Vereinfache …»-Aufgabe auch mit der
+>      unvereinfachten Form als gelöst – Aufgaben möglichst so stellen,
+>      dass der Zielterm hergeleitet werden muss.
+>   11. {"type":"audio","id":"hoeren1","title":"Pflicht-Titel",
 >      "vorleseText":"Text, den der Browser vorliest (bevorzugter Weg)",
 >      "vorleseSprache":"en-GB","description":"Höraufgabe …",
 >      "src":"/content/<id>/aufnahme.mp3",
@@ -160,7 +178,7 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >      Es darf NUR entfallen, wenn die Lernenden das Gehörte selbst
 >      eintippen sollen; "transkriptAnzeigen": false blendet Transkript
 >      bzw. Vorlesetext dafür aus, ohne sie zu löschen.
->   11. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
+>   12. {"type":"simulation","id":"sim1","title":"…","intro":"Szenario …",
 >      "figur":{"name":"Frau Keller","rolle":"Gemeindepräsidentin"},
 >      "start":"k1","knoten":[
 >      {"id":"k1","text":"Was die Figur sagt …","antworten":[
@@ -213,7 +231,7 @@ KI auch den Inhalt dieser Datei mitgeben.
 > die nur das EveryCate-Kernteam leisten kann. Bitte keine `planspiel`-
 > Blöcke oder HTML-Dateien einreichen; solche Pull Requests werden
 > abgelehnt. Interaktive Elemente für dein Modul erreichst du mit
-> Lückentexten, Quizzen und dem Simulations-Gespräch (Punkt 6).
+> Lückentexten, Quizzen und dem Simulations-Gespräch (Punkt 12).
 
 ## Schritt 2: Kritisch gegenlesen (wichtig!)
 
