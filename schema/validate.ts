@@ -24,7 +24,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
-import { create, unitDependencies } from "mathjs";
+import { create, unitDependencies, parseDependencies } from "mathjs";
 
 // Schlanke mathjs-Instanz nur fürs Einheiten-Parsen (kein evaluate) –
 // dieselbe Konstruktion wie in der Plattform (src/lib/content/einheiten.ts).
@@ -44,9 +44,44 @@ import {
   parseModulDatei,
   PLANSPIEL_DOKUMENT_PRAEFIX,
   PLANSPIEL_VERBOTENE_MUSTER,
+  termBaumFehler,
   VIDEO_DATEI_MUSTER,
   type LearningModule,
+  type TermKnoten,
 } from "./schema";
+
+// Schlanke Parse-Instanz für term-Musterlösungen (nur parse, kein
+// evaluate). Der Baum-Filter termBaumFehler lebt in der SYNC-Region –
+// Whitelist hier und im Plattform-Player sind damit IMMER identisch.
+const mathTerm = create(parseDependencies, {});
+function termAntwortFehler(antwort: string): string | null {
+  // Dieselbe ln→log-Abbildung wie die Plattform (mathjs kennt kein ln);
+  // die übrigen Normalisierungen betreffen nur Lernenden-Eingaben, die
+  // Zeichen-Whitelist des Schemas lässt sie bei Autoren gar nicht zu.
+  const quelltext = antwort.replace(/\bln\s*\(/g, "log(").trim();
+  let node: unknown;
+  try {
+    node = mathTerm.parse(quelltext);
+  } catch (e) {
+    return e instanceof Error ? e.message : "kein parsebarer Term";
+  }
+  const fehler = termBaumFehler(node as TermKnoten, undefined);
+  if (fehler === null) return null;
+  switch (fehler.art) {
+    case "funktion":
+      return `unbekannte Funktion "${fehler.name}"`;
+    case "funktionOhneKlammern":
+      return `"${fehler.name}" braucht Klammern: ${fehler.name}(…)`;
+    case "variable":
+      return `unerlaubtes Symbol "${fehler.name}"`;
+    case "zuTief":
+      return "zu stark verschachtelt (höchstens 16 Ebenen)";
+    case "potenz":
+      return "Potenz-Exponent zu gross (höchstens 10000)";
+    default:
+      return `unerlaubtes Element (${fehler.typ})`;
+  }
+}
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MODULES_DIR = path.join(ROOT, "modules");
@@ -383,6 +418,21 @@ function checkModule(
             `Numerisch-Aufgabe ${i + 1}: Die Einheit "${aufgabe.einheit}" kennt mathjs nicht (ASCII-Schreibweise nutzen, z. B. "degC" statt "°C", "m^2" statt "m²").`,
           );
         }
+      });
+    }
+    // Term: Musterlösungen müssen parsebar sein und den Baum-Filter der
+    // SYNC-Region bestehen (der Player sortiert unparsebare Antworten
+    // aus und meldet die Aufgabe als defekt – hier fällt das früher auf).
+    if (isKnownBlock(block) && block.type === "term") {
+      block.aufgaben.forEach((aufgabe, i) => {
+        aufgabe.antworten.forEach((antwort, j) => {
+          const fehler = termAntwortFehler(antwort);
+          if (fehler !== null) {
+            errors.push(
+              `Term-Aufgabe ${i + 1}, Antwort ${j + 1} ("${antwort}"): ${fehler} – erlaubt sind Zahlen, + - * / ^, Klammern, sqrt/abs/sin/cos/tan/log/exp und pi/e in mathjs-Schreibweise.`,
+            );
+          }
+        });
       });
     }
   }

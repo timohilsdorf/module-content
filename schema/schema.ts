@@ -119,6 +119,21 @@ import { z } from "zod";
  *   Mathe-Notation ($…$, KaTeX) in allen Markdown-Feldern
  *   darstellbar. Bestehende Dateien bleiben gültig; ältere Player
  *   zeigen für beide neuen Typen einen Platzhalter.
+ * - 2, additive Ergänzung (11.8.2026, KEIN Versionswechsel): neuer
+ *   PRÜFENDER Blocktyp `term` – Eingabe eines mathematischen Terms,
+ *   bei dem jede ÄQUIVALENTE UMFORMUNG als richtig gilt (2*(x+3) und
+ *   2x+6 zählen gleich). Die Musterlösungen (`antworten`) stehen in
+ *   mathjs-Schreibweise; die Äquivalenz prüft der Player mit mathjs
+ *   (symbolische Vereinfachung der Differenz, ergänzt durch
+ *   numerische Stichproben an festen Pseudozufallspunkten, wo die
+ *   Vereinfachung nicht eindeutig entscheidet – Logik in der
+ *   Plattform, src/lib/content/term.ts). Erlaubt sind Zahlen, die
+ *   Operatoren + - * / ^, Klammern, die Funktionen aus
+ *   TERM_ERLAUBTE_FUNKTIONEN und pi/e (Baum-Filter termBaumFehler in
+ *   dieser Datei); syntaktisch ungültige EINGABEN werden nie als
+ *   falsch gewertet, sondern blockieren das Prüfen mit einer
+ *   Korrektur-Aufforderung. Bestehende Dateien bleiben gültig;
+ *   ältere Player zeigen einen Platzhalter.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -1733,6 +1748,314 @@ export const achseBlockSchema = z
     });
   });
 
+// --- Term (mathematischer Term/Formel eingeben), automatisch geprüft --------
+
+/**
+ * Funktions-Whitelist des term-Blocks – die EINZIGEN Funktionsnamen,
+ * die in Musterlösungen und Eingaben vorkommen dürfen (alle
+ * EINargumentig; mathjs-Namen: "log" ist dort der NATÜRLICHE
+ * Logarithmus, die Eingabe-Normalisierung des Players bildet "ln("
+ * darauf ab). Player und beide Node-Validierer prüfen über
+ * termBaumFehler gegen DIESELBE Liste.
+ */
+export const TERM_ERLAUBTE_FUNKTIONEN = [
+  "sqrt",
+  "abs",
+  "sin",
+  "cos",
+  "tan",
+  "log",
+  "exp",
+] as const;
+
+/** Neben den Variablen der Aufgabe immer erlaubte Symbole (Konstanten). */
+export const TERM_ERLAUBTE_KONSTANTEN = ["pi", "e"] as const;
+
+/**
+ * Minimales STRUKTURELLES Interface eines geparsten mathjs-Knotens –
+ * diese Datei bleibt bewusst mathjs-frei (sie steckt im Schema-Bundle
+ * jeder Seite); Player und Node-Validierer reichen echte mathjs-Nodes
+ * herein, die dieses Interface erfüllen.
+ */
+export interface TermKnoten {
+  type: string;
+  /** SymbolNode: Variablen-/Konstantenname; FunctionNode: Funktionsname. */
+  name?: string;
+  /** OperatorNode: mathjs-Funktionsname ("add", "multiply", "unaryMinus" …). */
+  fn?: unknown;
+  /** ConstantNode: der Wert (nur Zahlen sind erlaubt – parse('"text"') liefert Strings). */
+  value?: unknown;
+  /** Operator-/Funktions-Argumente. */
+  args?: TermKnoten[];
+  /** ParenthesisNode: der eingeklammerte Ausdruck. */
+  content?: TermKnoten;
+  traverse(
+    besucher: (
+      knoten: TermKnoten,
+      pfad: string | null,
+      eltern: TermKnoten | null,
+    ) => void,
+  ): void;
+}
+
+export type TermBaumFehler =
+  | { art: "funktion"; name: string }
+  | { art: "funktionOhneKlammern"; name: string }
+  | { art: "variable"; name: string }
+  | { art: "zuTief" }
+  | { art: "potenz" }
+  | { art: "knoten"; typ: string };
+
+/** Operator-Whitelist: die mathjs-fn-Namen von + - * / ^ und Vorzeichen. */
+const TERM_ERLAUBTE_OPERATOREN = new Set([
+  "add",
+  "subtract",
+  "multiply",
+  "divide",
+  "pow",
+  "unaryMinus",
+  "unaryPlus",
+]);
+
+/**
+ * Maximale Verschachtelungstiefe eines Term-Baums. Schulterme liegen
+ * unter 10 Ebenen; ab ~Tiefe 20 explodiert die LaTeX-Erzeugung von
+ * mathjs exponentiell (23-fach verschachtelte Funktionsaufrufe: >1,5 s
+ * pro toTex-Aufruf – gemessen, Review 11.8.2026). Die Grenze schützt
+ * Live-Vorschau, Prüf-Klick und die Validierungsläufe der CI.
+ */
+export const TERM_MAX_TIEFE = 16;
+
+/**
+ * Grösster erlaubter Betrag eines KONSTANTEN Potenz-Exponenten.
+ * mathjs-simplify wertet ganzzahlige Potenzen exakt aus – «9^9^9»
+ * (Exponentwert 387 Millionen) blockierte den Haupt-Thread ~8 s PRO
+ * Vergleich (gemessen, Review 11.8.2026). 10 000 lässt jede sinnvolle
+ * Schul-Potenz zu (auch 2^64-Reiskorn-Aufgaben) und hält die exakte
+ * Arithmetik im Millisekunden-Bereich.
+ */
+export const TERM_MAX_EXPONENT = 10000;
+
+/** Verschachtelungstiefe eines Term-Baums (Klammern zählen mit). */
+function termTiefe(knoten: TermKnoten): number {
+  const kinder =
+    knoten.args ?? (knoten.content !== undefined ? [knoten.content] : []);
+  let tiefste = 0;
+  for (const kind of kinder) {
+    const t = termTiefe(kind);
+    if (t > tiefste) tiefste = t;
+  }
+  return 1 + tiefste;
+}
+
+/**
+ * Mini-Konstantenfaltung OHNE mathjs (diese Datei bleibt mathjs-frei):
+ * wertet einen variablen- und funktionsfreien Teilbaum aus den
+ * erlaubten Operatoren aus. null = nicht konstant faltbar (Variablen,
+ * Funktionen, Unbekanntes) – dann greift die Exponenten-Grenze nicht
+ * (sqrt(2) oder x im Exponenten sind harmlos, die simplify-Falle
+ * betrifft nur exakt auswertbare Zahl-Potenzen).
+ */
+function termKonstante(knoten: TermKnoten): number | null {
+  switch (knoten.type) {
+    case "ConstantNode":
+      return typeof knoten.value === "number" ? knoten.value : null;
+    case "ParenthesisNode":
+      return knoten.content ? termKonstante(knoten.content) : null;
+    case "OperatorNode": {
+      const op = typeof knoten.fn === "string" ? knoten.fn : "";
+      const argWerte = (knoten.args ?? []).map(termKonstante);
+      if (argWerte.some((wert) => wert === null)) return null;
+      const [a, b] = argWerte as number[];
+      switch (op) {
+        case "add":
+          return a + b;
+        case "subtract":
+          return a - b;
+        case "multiply":
+          return a * b;
+        case "divide":
+          return a / b;
+        case "pow":
+          return Math.pow(a, b);
+        case "unaryMinus":
+          return -a;
+        case "unaryPlus":
+          return a;
+        default:
+          return null;
+      }
+    }
+    default:
+      return null;
+  }
+}
+
+/**
+ * Prüft einen geparsten Term-Baum gegen die Whitelists: erlaubt sind
+ * Zahlen, + - * / ^, Klammern, die Funktionen aus
+ * TERM_ERLAUBTE_FUNKTIONEN (einargumentig) und Symbole aus
+ * `erlaubteVariablen` plus pi/e. Alles andere – Zuweisungen,
+ * Eigenschaftszugriffe, Strings, Matrizen, fremde Funktionen – wird
+ * abgelehnt: Der mathjs-Parser kann weit mehr, als ein Schulterm
+ * braucht, und NUR diese Filterung macht das Auswerten von
+ * Nutzer-Eingaben sicher. Liefert null, wenn alles in Ordnung ist,
+ * sonst den ERSTEN Fehler (für eine ehrliche Meldung).
+ * `erlaubteVariablen` undefined = beliebige Variablennamen (die
+ * Musterlösungen der AUTOREN definieren die Variablen einer Aufgabe;
+ * für Eingaben der LERNENDEN wird deren Menge hereingereicht).
+ */
+export function termBaumFehler(
+  wurzel: TermKnoten,
+  erlaubteVariablen?: ReadonlySet<string>,
+): TermBaumFehler | null {
+  const funktionen = new Set<string>(TERM_ERLAUBTE_FUNKTIONEN);
+  const konstanten = new Set<string>(TERM_ERLAUBTE_KONSTANTEN);
+  if (termTiefe(wurzel) > TERM_MAX_TIEFE) return { art: "zuTief" };
+  let fehler: TermBaumFehler | null = null;
+  wurzel.traverse((knoten, pfad, eltern) => {
+    if (fehler) return;
+    switch (knoten.type) {
+      case "ConstantNode":
+        // parse('"text"') liefert einen String-, `true` einen
+        // boolean-ConstantNode – nur Zahlen sind ein Term.
+        if (typeof knoten.value !== "number") {
+          fehler = { art: "knoten", typ: knoten.type };
+        }
+        return;
+      case "ParenthesisNode":
+        return;
+      case "OperatorNode": {
+        // Bei OperatorNodes ist fn der Funktionsname als String –
+        // die Whitelist sperrt auch !, ', mod, ==, and, % …
+        const op = typeof knoten.fn === "string" ? knoten.fn : "";
+        if (!TERM_ERLAUBTE_OPERATOREN.has(op)) {
+          fehler = { art: "knoten", typ: `Operator:${op}` };
+          return;
+        }
+        // Konstante Riesen-Exponenten («9^9^9» = 9^387420489) blockieren
+        // mathjs-simplify sekundenlang (exakte Ganzzahl-Arithmetik) –
+        // früh ablehnen; NaN/Infinity als Exponentwert ist ebenso sinnlos.
+        if (op === "pow") {
+          const exponent = knoten.args?.[1]
+            ? termKonstante(knoten.args[1])
+            : null;
+          if (
+            exponent !== null &&
+            !(Math.abs(exponent) <= TERM_MAX_EXPONENT)
+          ) {
+            fehler = { art: "potenz" };
+          }
+        }
+        return;
+      }
+      case "SymbolNode": {
+        // traverse besucht auch den FUNKTIONSNAMEN eines
+        // FunctionNode als SymbolNode-Kind (pfad "fn") – der ist
+        // bereits über FunctionNode.name geprüft.
+        if (pfad === "fn" && eltern?.type === "FunctionNode") return;
+        const name = knoten.name ?? "";
+        if (konstanten.has(name)) return;
+        // Nacktes «sqrt» (ohne Klammern) wäre sonst eine gültige
+        // «Variable» – und evaluierte zum Funktionsobjekt.
+        if (funktionen.has(name)) {
+          fehler = { art: "funktionOhneKlammern", name };
+          return;
+        }
+        if (erlaubteVariablen === undefined || erlaubteVariablen.has(name)) {
+          return;
+        }
+        fehler = { art: "variable", name };
+        return;
+      }
+      case "FunctionNode": {
+        const name = knoten.name ?? "";
+        if (!funktionen.has(name)) {
+          fehler = { art: "funktion", name };
+        }
+        return;
+      }
+      default:
+        fehler = { art: "knoten", typ: knoten.type };
+    }
+  });
+  return fehler;
+}
+
+/**
+ * Grobe Zeichen-Prüfung der AUTOREN-Musterlösungen – läuft ohne
+ * mathjs im Schema (die echte Parse-Prüfung übernehmen die
+ * Node-Validierer und der Player). ASCII-mathjs-Schreibweise:
+ * Ziffern, Buchstaben, + - * / ^ ( ) Dezimal-PUNKT und Leerzeichen
+ * (BEWUSST ohne Komma – das ist in mathjs ein Argument-Trenner).
+ */
+export const TERM_ANTWORT_MUSTER = /^[0-9A-Za-z+\-*/^(). ]+$/;
+
+export const termAufgabeSchema = z.strictObject({
+  /** Aufgabenstellung, Markdown und Mathe-Notation ($$…$$, KaTeX) erlaubt. */
+  prompt: markdown,
+  /**
+   * Akzeptierte Musterlösungen in mathjs-Schreibweise («2x+6»,
+   * «2*(x+3)», «pi*r^2» – Dezimalzahlen mit PUNKT, Potenz «^»,
+   * Funktionen aus TERM_ERLAUBTE_FUNKTIONEN). Äquivalente
+   * UMFORMUNGEN muss niemand listen (die erkennt der Player);
+   * mehrere Einträge sind für WIRKLICH verschiedene akzeptierte
+   * Terme da.
+   */
+  antworten: z.array(z.string().trim().min(1).max(120)).min(1).max(8),
+});
+
+/**
+ * Term-Eingabe, NEU seit 11.8.2026: eine oder mehrere Teilaufgaben,
+ * je ein Eingabefeld für einen mathematischen Term. Jede äquivalente
+ * Umformung der Musterlösung zählt als richtig. PRÜFENDER Block –
+ * ein Punkt pro Teilaufgabe, bestanden bei 100 %, Auswertung/
+ * Wiederholen wie Lückentext, Zuordnung und Zahlenaufgabe
+ * (pruefung.tsx).
+ */
+export const termBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("term"),
+    /** Optionale Arbeitsanweisung, Markdown/Mathe erlaubt. */
+    intro: markdown.optional(),
+    aufgaben: z.array(termAufgabeSchema).min(1).max(12),
+  })
+  .superRefine((block, ctx) => {
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Term: Der Block braucht eine stabile "id" (z. B. "term1"), damit Lernstatistik und Punktevergabe bei Content-Änderungen korrekt bleiben.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Term: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+    block.aufgaben.forEach((aufgabe, i) => {
+      aufgabe.antworten.forEach((antwort, j) => {
+        if (antwort.includes("=")) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["aufgaben", i, "antworten", j],
+            message: `Term: Die Antwort "${antwort}" enthält ein Gleichheitszeichen – Musterlösungen sind TERME, keine Gleichungen (statt "y = 2x+6" nur "2x+6" eintragen).`,
+          });
+        } else if (!TERM_ANTWORT_MUSTER.test(antwort)) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["aufgaben", i, "antworten", j],
+            message: `Term: Die Antwort "${antwort}" enthält unerlaubte Zeichen – erlaubt ist die mathjs-ASCII-Schreibweise (Ziffern, Buchstaben, + - * / ^ Klammern, Dezimal-PUNKT; "sqrt(x)" statt "√x", "pi" statt "π"). Ob die Antwort parsebar ist, prüft die Validierung beim Einreichen.`,
+          });
+        }
+      });
+    });
+  });
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
@@ -1744,6 +2067,7 @@ export const knownBlockSchema = z.discriminatedUnion("type", [
   zuordnungBlockSchema,
   numerischBlockSchema,
   achseBlockSchema,
+  termBlockSchema,
   planspielBlockSchema,
   simulationBlockSchema,
 ]);
@@ -1759,6 +2083,7 @@ export const KNOWN_BLOCK_TYPES = [
   "zuordnung",
   "numerisch",
   "achse",
+  "term",
   "planspiel",
   "simulation",
 ] as const;
@@ -1904,6 +2229,8 @@ export type ZuordnungPaar = z.infer<typeof zuordnungPaarSchema>;
 export type ZuordnungBlock = z.infer<typeof zuordnungBlockSchema>;
 export type NumerischBlock = z.infer<typeof numerischBlockSchema>;
 export type NumerischAufgabe = z.infer<typeof numerischAufgabeSchema>;
+export type TermBlock = z.infer<typeof termBlockSchema>;
+export type TermAufgabe = z.infer<typeof termAufgabeSchema>;
 export type AchseBlock = z.infer<typeof achseBlockSchema>;
 export type AchseSkalaDef = z.infer<typeof achseSkalaSchema>;
 export type AchseElementDef = z.infer<typeof achseElementSchema>;
@@ -2044,6 +2371,7 @@ export const PRUEFENDE_BLOCK_TYPES = [
   "zuordnung",
   "numerisch",
   "achse",
+  "term",
 ] as const;
 
 export function istPruefenderBlock(block: Block): boolean {
