@@ -9,6 +9,36 @@
  "grades": "Für Autorinnen, Autoren und KIs",
  "language": "de",
  "competencies": [],
+ "lehrplaene": {
+  "li": {
+   "fach": "DEMO",
+   "fachName": "Demo und Format",
+   "zyklus": 3
+  },
+  "ch": {
+   "fach": "DEMO",
+   "fachName": "Demo und Format",
+   "zyklus": 3
+  },
+  "de": {
+   "fach": "DEMO",
+   "fachName": "Demo und Format",
+   "klassen": [
+    7,
+    8,
+    9
+   ]
+  },
+  "at": {
+   "fach": "DEMO",
+   "fachName": "Demo und Format",
+   "klassen": [
+    7,
+    8,
+    9
+   ]
+  }
+ },
  "learningObjectives": [
   "Ich kann die Blocktypen des EveryCate-Content-Formats benennen.",
   "Ich kann ein eigenes Modul als module.json anlegen und validieren."

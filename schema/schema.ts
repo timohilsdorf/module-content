@@ -150,6 +150,24 @@ import { z } from "zod";
  *   kein Platzhalter) – solche Module erst NACH dem zugehörigen
  *   Plattform-Deploy einreichen; bestehende Dateien ohne Varianten
  *   bleiben unverändert gültig.
+ * - 2, additive Ergänzung (11.8.2026, KEIN Versionswechsel): optionale
+ *   Zuordnungstabelle `lehrplaene` auf Modulebene – pro
+ *   Lehrplan-Kennung ("ch", "li", "de", "de-he" …, Format
+ *   LEHRPLAN_KENNUNG_MUSTER, wählbar nur registrierte Kennungen aus
+ *   LEHRPLAENE) das dort geltende Fach, die Stufe im Modell des
+ *   Lehrplans (Zyklus 1–3 ODER Klassenstufen) und optionale
+ *   Kompetenzverweise. DASSELBE Modul liegt so ohne Duplikat in
+ *   mehreren Lehrplänen; fehlt ein Eintrag, erscheint das Modul bei
+ *   dieser Lehrplan-Auswahl nicht. Die bisherigen Felder
+ *   subject/cycle/curriculum/competencies bleiben Pflicht bzw.
+ *   unverändert und wirken als Hauptzuordnung des Legacy-`curriculum`
+ *   (lehrplanZuordnungen in dieser Datei migriert sie verlustfrei als
+ *   impliziten Eintrag: "LiLe" → li [Regelfall im Repo], "lehrplan21"
+ *   → ch; eine explizite Tabelle ersetzt die Migration vollständig). ACHTUNG Rollout wie beim satzbau: Das
+ *   Modul-Schema ist strict – ÄLTERE Player lehnen Module MIT
+ *   `lehrplaene` ab. Solche Module erst NACH dem zugehörigen
+ *   Plattform-Deploy einreichen; Module ohne das Feld bleiben überall
+ *   gültig.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -188,6 +206,159 @@ export const competencySchema = z.strictObject({
     ),
   description: z.string().optional(),
 });
+
+// --- Lehrpläne (Mehrfach-Zuordnung eines Moduls, seit 11.8.2026) ------------
+
+/**
+ * Kennungs-Format der Lehrpläne: Länderkürzel, optional mit
+ * Untergliederung(en) – "ch", "li", "de", "de-he" (Hessen), "ch-zh"
+ * (Zürich). Das FORMAT erlaubt künftige Untergliederungen ohne Umbau;
+ * WÄHLBAR ist eine Kennung erst, wenn sie in LEHRPLAENE registriert
+ * ist (die Registry ist die eine Quelle für Validierer UND Plattform –
+ * ein neuer Lehrplan ist eine neue Registry-Zeile plus Ländername im
+ * i18n-Wörterbuch, kein Umbau).
+ */
+export const LEHRPLAN_KENNUNG_MUSTER = /^[a-z]{2}(-[a-z0-9]{2,8})*$/;
+
+/**
+ * Registrierte Lehrpläne. `lehrplanName` ist ein EIGENNAME
+ * (sprachunabhängig, wie «Lehrplan 21»); der Ländername kommt aus dem
+ * i18n-Wörterbuch der Plattform. `stufenmodell` bestimmt, welches
+ * Stufenfeld ein Modul-Eintrag tragen muss: "zyklus" (Lehrplan-21-
+ * Zyklen 1–3) oder "klasse" (Klassenstufen 1–13). Die `flagge` hilft
+ * jüngeren Kindern, die noch nicht sicher lesen.
+ */
+export const LEHRPLAENE = [
+  {
+    kennung: "li",
+    flagge: "🇱🇮",
+    lehrplanName: "Liechtensteiner Lehrplan (LiLe)",
+    stufenmodell: "zyklus",
+  },
+  {
+    kennung: "ch",
+    flagge: "🇨🇭",
+    lehrplanName: "Lehrplan 21",
+    stufenmodell: "zyklus",
+  },
+  {
+    kennung: "de",
+    flagge: "🇩🇪",
+    lehrplanName: "Lehrplan Deutschland",
+    stufenmodell: "klasse",
+  },
+  {
+    kennung: "at",
+    flagge: "🇦🇹",
+    lehrplanName: "Lehrplan Österreich",
+    stufenmodell: "klasse",
+  },
+] as const;
+
+export type LehrplanDefinition = (typeof LEHRPLAENE)[number];
+
+/**
+ * Standard-Lehrplan: Liechtenstein – 37 der 40 Repo-Module tragen
+ * curriculum "LiLe" (die Plattform ist dort beheimatet); Erstbesucher
+ * sehen so weiterhin den gewohnten Katalog. Die Registry-Reihenfolge
+ * oben ist zugleich die Dropdown-Reihenfolge.
+ */
+export const LEHRPLAN_STANDARD = "li";
+
+export function lehrplanDefinition(
+  kennung: string,
+): LehrplanDefinition | undefined {
+  return LEHRPLAENE.find((plan) => plan.kennung === kennung);
+}
+
+/**
+ * Kompetenzverweis eines Lehrplan-Eintrags – bewusst OHNE das
+ * Lehrplan-21-Code-Format (andere Lehrpläne nummerieren anders);
+ * das Legacy-Feld `competencies` behält seine strenge LP21-Regex.
+ */
+export const lehrplanKompetenzSchema = z.strictObject({
+  code: z.string().trim().min(1).max(60),
+  description: z.string().optional(),
+});
+
+/**
+ * Zuordnung eines Moduls zu EINEM Lehrplan: das dort geltende Fach,
+ * die Stufe im Modell des Lehrplans (zyklus ODER klassen – erzwungen
+ * über pruefeLehrplaene) und optionale Kompetenzverweise.
+ */
+export const lehrplanEintragSchema = z.strictObject({
+  /** Fachkürzel im Ziel-Lehrplan, z. B. "RZG" oder "Geschichte". */
+  fach: z.string().trim().min(1).max(60),
+  /** Ausgeschriebener Fachname, wenn `fach` ein Kürzel ist. */
+  fachName: z.string().trim().min(1).max(120).optional(),
+  /** Stufenmodell "zyklus": Lehrplan-21-Zyklus 1–3. */
+  zyklus: z.union([z.literal(1), z.literal(2), z.literal(3)]).optional(),
+  /** Stufenmodell "klasse": Klassenstufen, z. B. [9] oder [8, 9]. */
+  klassen: z.array(z.number().int().min(1).max(13)).min(1).max(13).optional(),
+  /** Freitext-Stufe für die Anzeige, z. B. "7.–9. Klasse (Sek I)". */
+  stufeText: z.string().trim().min(1).max(80).optional(),
+  kompetenzen: z.array(lehrplanKompetenzSchema).default([]),
+});
+
+export type LehrplanEintrag = z.infer<typeof lehrplanEintragSchema>;
+
+/** Regeln der Zuordnungstabelle – geteilt von moduleSchema und moduleV1Schema. */
+function pruefeLehrplaene(
+  lehrplaene: Record<string, LehrplanEintrag> | undefined,
+  ctx: z.RefinementCtx,
+): void {
+  if (!lehrplaene) return;
+  for (const [kennung, eintrag] of Object.entries(lehrplaene)) {
+    if (!LEHRPLAN_KENNUNG_MUSTER.test(kennung)) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["lehrplaene", kennung],
+        message: `Lehrplan-Kennung "${kennung}" hat nicht das Format Länderkürzel[-Untergliederung], z. B. "ch", "de" oder "de-he".`,
+      });
+      continue;
+    }
+    const plan = lehrplanDefinition(kennung);
+    if (!plan) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["lehrplaene", kennung],
+        message: `Lehrplan "${kennung}" ist (noch) nicht registriert – bekannte Kennungen: ${LEHRPLAENE.map((p) => p.kennung).join(", ")}. Neue Lehrpläne brauchen einen Registry-Eintrag (LEHRPLAENE in schema.ts).`,
+      });
+      continue;
+    }
+    if (plan.stufenmodell === "zyklus") {
+      if (eintrag.zyklus === undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["lehrplaene", kennung, "zyklus"],
+          message: `Lehrplan "${kennung}" arbeitet mit Zyklen – der Eintrag braucht "zyklus": 1, 2 oder 3.`,
+        });
+      }
+      if (eintrag.klassen !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["lehrplaene", kennung, "klassen"],
+          message: `Lehrplan "${kennung}" arbeitet mit Zyklen – "klassen" gehört nur zu Lehrplänen mit Klassenstufen.`,
+        });
+      }
+    } else {
+      if (eintrag.klassen === undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["lehrplaene", kennung, "klassen"],
+          message: `Lehrplan "${kennung}" arbeitet mit Klassenstufen – der Eintrag braucht "klassen": [9] oder [8, 9].`,
+        });
+      }
+      if (eintrag.zyklus !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["lehrplaene", kennung, "zyklus"],
+          message: `Lehrplan "${kennung}" arbeitet mit Klassenstufen – "zyklus" gehört nur zu Lehrplänen mit Zyklen.`,
+        });
+      }
+    }
+  }
+}
 
 export const sourceSchema = z.strictObject({
   title: z.string().min(1),
@@ -2368,6 +2539,18 @@ const modulBasis = {
   curriculum: z.string().min(1).default("lehrplan21"),
   /** Lehrplan-21-Kompetenzen, auf die das Modul einzahlt. */
   competencies: z.array(competencySchema).default([]),
+  /**
+   * Zuordnungstabelle je Lehrplan (seit 11.8.2026, optional): pro
+   * Kennung ("ch", "li", "de", "de-he" …) das dort geltende Fach, die
+   * Stufe und optionale Kompetenzverweise – DASSELBE Modul liegt so
+   * ohne Duplikat in mehreren Lehrplänen. Fehlt ein Lehrplan, erscheint
+   * das Modul bei dieser Auswahl nicht. Die Felder subject/cycle/
+   * curriculum/competencies bleiben Pflicht (Rückwärtskompatibilität,
+   * altersText); OHNE dieses Feld bilden sie die implizite Zuordnung,
+   * MIT diesem Feld ist die Tabelle vollständig und ersetzt sie
+   * (lehrplanZuordnungen unten ist die einzige Ableitung).
+   */
+  lehrplaene: z.record(z.string(), lehrplanEintragSchema).optional(),
   /** Lernziele aus Sicht der Lernenden ("Ich kann …"). */
   learningObjectives: z.array(z.string().min(1)).min(1),
   durationMinutes: z.number().int().positive().optional(),
@@ -2392,11 +2575,13 @@ const modulBasis = {
   blocks: z.array(blockSchema).min(1),
 };
 
-export const moduleSchema = z.strictObject({
-  /** Muss SCHEMA_VERSION entsprechen; ältere Dateien liest parseModulDatei. */
-  schemaVersion: z.literal(SCHEMA_VERSION),
-  ...modulBasis,
-});
+export const moduleSchema = z
+  .strictObject({
+    /** Muss SCHEMA_VERSION entsprechen; ältere Dateien liest parseModulDatei. */
+    schemaVersion: z.literal(SCHEMA_VERSION),
+    ...modulBasis,
+  })
+  .superRefine((mod, ctx) => pruefeLehrplaene(mod.lehrplaene, ctx));
 
 /**
  * Version 1 kannte den Blocktyp "quiz" nicht – ein Block mit diesem type
@@ -2432,7 +2617,7 @@ export const moduleV1Schema = z.strictObject({
     .min(1),
   /** Optionales Abschlussquiz mit automatischer Auswertung (nur Version 1). */
   quiz: quizSchema.optional(),
-});
+}).superRefine((mod, ctx) => pruefeLehrplaene(mod.lehrplaene, ctx));
 
 // ---------------------------------------------------------------------------
 // Abgeleitete TypeScript-Typen
@@ -2629,4 +2814,56 @@ const CURRICULUM_LABELS: Record<string, string> = {
 
 export function curriculumLabel(curriculum: string): string {
   return CURRICULUM_LABELS[curriculum] ?? curriculum;
+}
+
+/**
+ * DIE eine Ableitung der Lehrplan-Zuordnungen eines Moduls (Katalog,
+ * Modulseiten, Validierer). OHNE `lehrplaene` gilt die verlustfreie
+ * Migration: ein impliziter Eintrag aus subject/subjectName/cycle/
+ * grades/competencies unter der Kennung des LEGACY-`curriculum`-Werts
+ * (lehrplan21 → "ch", LiLe → "li" – der REGELFALL im Repo ist li!);
+ * bestehende Module erscheinen so unverändert unter ihrem
+ * Heimat-Lehrplan, unbekannte curricula werden keinem Lehrplan
+ * zugeschlagen. MIT `lehrplaene` ist die Tabelle VOLLSTÄNDIG – wer den
+ * Heimat-Lehrplan behalten will, trägt ihn explizit ein.
+ */
+/**
+ * Bekannte Werte des LEGACY-Felds `curriculum` → Lehrplan-Kennung für
+ * die implizite Migration ("LiLe" trägt das Weimar-Modul aus einem
+ * externen Liechtensteiner PR). Unbekannte curricula bekommen KEINEN
+ * impliziten Eintrag – solche Module brauchen explizite `lehrplaene`.
+ */
+const CURRICULUM_ZU_KENNUNG: Record<string, string> = {
+  lehrplan21: "ch",
+  LiLe: "li",
+  lile: "li",
+};
+
+export function lehrplanZuordnungen(mod: {
+  subject: string;
+  subjectName?: string;
+  cycle: 1 | 2 | 3;
+  grades?: string;
+  curriculum: string;
+  competencies: { code: string; description?: string }[];
+  lehrplaene?: Record<string, LehrplanEintrag>;
+}): Record<string, LehrplanEintrag> {
+  // Eine EXPLIZITE Tabelle ist vollständig – sie ersetzt die implizite
+  // Migration komplett (Review 11.8.2026: sonst erschien ein Modul mit
+  // lehrplaene {li: …} zusätzlich unter seinem Legacy-curriculum, und
+  // «nur li» wäre gar nicht ausdrückbar; die Doku verspricht «fehlt
+  // ein Eintrag, erscheint das Modul dort nicht»).
+  if (mod.lehrplaene !== undefined) return { ...mod.lehrplaene };
+  const zuordnungen: Record<string, LehrplanEintrag> = {};
+  const implizit = CURRICULUM_ZU_KENNUNG[mod.curriculum];
+  if (implizit !== undefined) {
+    zuordnungen[implizit] = {
+      fach: mod.subject,
+      fachName: mod.subjectName,
+      zyklus: mod.cycle,
+      stufeText: mod.grades,
+      kompetenzen: mod.competencies,
+    };
+  }
+  return zuordnungen;
 }

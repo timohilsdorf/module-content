@@ -55,6 +55,15 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >   {"code", "description"}), "curriculum" (Lehrplan-Referenzrahmen,
 >   Standard "lehrplan21"), "sources" (Liste von {"title", "url"}),
 >   "license": "CC BY-SA 4.0", "authors".
+> - Optional "lehrplaene": Zuordnung zu MEHREREN Lehrplänen ohne
+>   Modul-Duplikat, z. B. {"ch": {"fach": "RZG", "fachName": "Räume,
+>   Zeiten, Gesellschaften", "zyklus": 3}, "de": {"fach": "Geschichte",
+>   "klassen": [9]}} – Kennungen li/ch/de/at; li und ch brauchen
+>   "zyklus" (1–3), de und at "klassen" (z. B. [9] oder [8, 9]);
+>   optionale "kompetenzen" je Eintrag ({"code", "description"}).
+>   Fehlt ein Lehrplan, erscheint das Modul bei dieser Auswahl nicht;
+>   ohne das Feld gilt die Zuordnung aus subject/cycle/curriculum, MIT
+>   dem Feld gilt NUR die Tabelle (Heimat-Lehrplan mit eintragen).
 > - Gehört das Modul zu einer Reihe: "sequenz" (Lernreihenfolge innerhalb
 >   von Fach/Einheit, ganze Zahl, 1 = zuerst – der Katalog sortiert
 >   danach, nicht nach Dateinamen) und "einheit" (Name der Themengruppe,
@@ -250,6 +259,47 @@ KI auch den Inhalt dieser Datei mitgeben.
 > Blöcke oder HTML-Dateien einreichen; solche Pull Requests werden
 > abgelehnt. Interaktive Elemente für dein Modul erreichst du mit
 > Lückentexten, Quizzen und dem Simulations-Gespräch (Punkt 12).
+
+## Ein Modul mehreren Lehrplänen zuordnen
+
+Seit dem 11.8.2026 kann ein Modul **ohne Duplikat** in mehreren
+Lehrplänen liegen: Die Startseite hat eine Lehrplan-Auswahl (Flagge +
+Land), und ein Modul erscheint unter jeder Auswahl, für die es einen
+Eintrag in `lehrplaene` trägt – mit dem **dort** geltenden Fach und der
+dortigen Stufe. Beispiel: Das Modul zur Weimarer Republik liegt unter
+dem Lehrplan 21 im Fach RZG (Zyklus 3) und unter dem deutschen
+Lehrplan im Fach Geschichte (Klasse 9):
+
+```json
+"lehrplaene": {
+  "ch": {
+    "fach": "RZG",
+    "fachName": "Räume, Zeiten, Gesellschaften",
+    "zyklus": 3,
+    "stufeText": "7.–9. Klasse (Sek I)"
+  },
+  "de": {
+    "fach": "Geschichte",
+    "klassen": [9]
+  }
+}
+```
+
+Wichtig zu wissen:
+
+- **Fehlt ein Lehrplan in der Tabelle, erscheint das Modul bei dieser
+  Auswahl nicht** – dann gibt es das Fach dort schlicht nicht. Es
+  reicht also, genau die Lehrpläne einzutragen, für die das Modul
+  wirklich passt.
+- Bestehende Module ohne `lehrplaene` funktionieren unverändert: Ihre
+  Zuordnung kommt weiter aus `subject`/`cycle`/`curriculum`. **Sobald
+  du `lehrplaene` einträgst, gilt NUR noch diese Tabelle** – trage den
+  Heimat-Lehrplan (meist `li`) also mit ein.
+- `li` und `ch` arbeiten mit Zyklen, `de` und `at` mit Klassenstufen –
+  die Validierung erzwingt das passende Feld und lehnt unbekannte
+  Kennungen ab.
+- Details und alle Felder: [CONTENT-SCHEMA.md](CONTENT-SCHEMA.md),
+  Abschnitt «Mehrere Lehrpläne».
 
 ## Schritt 2: Kritisch gegenlesen (wichtig!)
 
