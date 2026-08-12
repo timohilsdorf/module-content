@@ -25,6 +25,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 9. August 2026 | Additiv (kein Versionswechsel): zwei neue **prüfende** Blocktypen. [`numerisch`](#numerisch--zahleneingabe-automatisch-geprüft) – Zahleneingabe mit Toleranz (absolut/prozentual), gleichwertigen Schreibweisen (`0,5` = `0.5` = `1/2` = `50 %`), optionaler **Einheit** mit Umrechnung gleichwertiger Einheiten (`42 cm` = `0,42 m`, mathjs) und mehreren akzeptierten Antworten. [`achse`](#achse--elemente-auf-achsen-platzieren-automatisch-geprüft) – Elemente (Zahlen, Jahreszahlen, Textkarten) auf einer oder zwei Achsen platzieren: Zahlenstrahl, Zeitstrahl, Koordinatensystem; Achsen numerisch oder mit Textkategorien; Wertung nach Position (Toleranz), Reihenfolge oder Kategorie (Darstellung: JSXGraph, dual MIT/LGPL). Zusätzlich rendert `$$…$$` in allen Markdown-Feldern **Mathe-Notation** (KaTeX; einzelne \$-Zeichen bleiben Text). Bestehende Dateien bleiben gültig; ältere Player zeigen für die neuen Typen einen Platzhalter. |
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): neuer **prüfender** Blocktyp [`term`](#term--mathematischen-term-eingeben-automatisch-geprüft) – Eingabe eines mathematischen Terms, bei dem jede **äquivalente Umformung** als richtig gilt (`2*(x+3)` = `2x+6`). Geprüft wird mit mathjs: symbolische Vereinfachung der Differenz, ergänzt durch deterministische numerische Stichproben, wo die Vereinfachung nicht eindeutig entscheidet. Syntaktisch ungültige Eingaben werden nie als falsch gewertet, sondern mit einer Korrektur-Aufforderung abgefangen. Bestehende Dateien bleiben gültig; ältere Player zeigen einen Platzhalter. |
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): [**Aufgaben-Varianten**](#aufgaben-varianten) für `lueckentext`, `zuordnung`, `numerisch` und `term`. Ein Block darf neben seinem normalen Inhalt (= Variante A) eine Liste `varianten` mit weiteren, vollständig ausformulierten Fassungen tragen; der Player zieht beim Öffnen zufällig eine, «Wiederholen» zieht eine andere. Jede Fassung muss dieselbe Punktzahl ergeben; der Lernstand bleibt pro Block, die gezogene Fassung wird weder gespeichert noch übermittelt. **Bewusst ohne Varianten:** `tasks`, `quiz`, `simulation`, `planspiel` (die Validierung lehnt das Feld dort ab). **Achtung Rollout:** Ältere Player lehnen Module MIT `varianten` hart ab (kein Platzhalter) – erst nach dem zugehörigen Plattform-Deploy einreichen. |
+| 2 | 11. August 2026 | Additiv (kein Versionswechsel): optionale **Zuordnungstabelle [`lehrplaene`](#mehrere-lehrpläne)** auf Modulebene – dasselbe Modul liegt ohne Duplikat in mehreren Lehrplänen (pro Kennung Fach, Stufe im Modell des Lehrplans und optionale Kompetenzverweise); die Startseite bekommt dazu eine Lehrplan-Auswahl mit Flagge. Bestehende Module funktionieren unverändert (implizite Migration aus `subject`/`cycle`/`curriculum`). **Achtung Rollout wie beim satzbau:** Ältere Player lehnen Module MIT `lehrplaene` ab (striktes Schema) – solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -110,6 +111,7 @@ Regeln:
 | `language` | – | string | BCP-47-Code, Standard `"de"`. **Zielsprache des Moduls:** Bei Fremdsprachenmodulen (z. B. `"en"` für Englisch) stehen die Inhalte in dieser Sprache, und der KI-Lernpartner Cate antwortet bei Aufgaben-Rückmeldungen und Rückfragen ebenfalls darin (einfach, dem Sprachniveau der Stufe angemessen). |
 | `curriculum` | – | string | Lehrplan-Referenzrahmen für `cycle`/`competencies`, Standard `"lehrplan21"`. Wird beim Modul als Badge angezeigt; die Plattform selbst ist lehrplanneutral. |
 | `competencies` | – | Liste | Lehrplan-21-Kompetenzcodes (`code` im Format `FACH.x.y.z`, z. B. `RZG.4.2.c`; optional `description`). |
+| `lehrplaene` | – | Objekt | **Zuordnung je Lehrplan** (seit 11.8.2026): pro Kennung (`li`, `ch`, `de`, `at`; künftig auch Untergliederungen wie `de-he`) ein Eintrag mit `fach` (Kürzel oder Name im Ziel-Lehrplan), optional `fachName`, der Stufe im Modell des Lehrplans (`zyklus: 1 \| 2 \| 3` bei `li`/`ch`, `klassen: [9]` bzw. `[8, 9]` bei `de`/`at`), optional `stufeText` und `kompetenzen` (`code` frei, optional `description`). **Fehlt ein Lehrplan, erscheint das Modul bei dieser Auswahl nicht.** Ohne das Feld gilt die Zuordnung aus `subject`/`cycle`/`curriculum` (implizit unter `li` bei `"LiLe"` bzw. `ch` bei `"lehrplan21"`). Siehe [Mehrere Lehrpläne](#mehrere-lehrpläne). |
 | `learningObjectives` | ✅ | string[] | Lernziele aus Schülersicht («Ich kann …»), mind. 1. |
 | `durationMinutes` | – | int > 0 | Geschätzte Bearbeitungszeit. |
 | `difficulty` | – | enum | `"leicht"`, `"mittel"` oder `"anspruchsvoll"`. |
@@ -801,6 +803,46 @@ keine Varianten kennt).
 ab (kein Platzhalter) – solche Module erst NACH dem zugehörigen
 Plattform-Deploy einreichen. Bestehende Module ohne Varianten bleiben
 unverändert gültig.
+
+## Mehrere Lehrpläne
+
+Ein Modul kann sich mehreren Lehrplänen zuordnen, ohne dupliziert zu
+werden – die Startseite zeigt es dann unter jeder gewählten
+Lehrplan-Auswahl mit dem DORT geltenden Fach und der dortigen Stufe:
+
+```json
+"lehrplaene": {
+  "ch": {
+    "fach": "RZG",
+    "fachName": "Räume, Zeiten, Gesellschaften",
+    "zyklus": 3,
+    "stufeText": "7.–9. Klasse (Sek I)"
+  },
+  "de": {
+    "fach": "Geschichte",
+    "klassen": [9]
+  }
+}
+```
+
+- Registrierte Kennungen: `li` (Liechtenstein, LiLe), `ch` (Schweiz,
+  Lehrplan 21), `de` (Deutschland), `at` (Österreich) – das
+  Kennungs-Format erlaubt künftige Untergliederungen (`de-he`,
+  `ch-zh`) ohne Formatänderung; neue Kennungen brauchen einen
+  Registry-Eintrag (`LEHRPLAENE` in `schema/schema.ts`).
+- `li`/`ch` arbeiten mit **Zyklen** (`zyklus: 1|2|3`), `de`/`at` mit
+  **Klassenstufen** (`klassen: [9]` oder `[8, 9]`) – die Validierung
+  erzwingt das jeweils passende Feld.
+- **Fehlt ein Lehrplan in der Tabelle, erscheint das Modul bei dieser
+  Auswahl nicht** – dann gibt es das Fach dort schlicht nicht.
+- Ohne `lehrplaene` gilt die bisherige Zuordnung aus
+  `subject`/`cycle`/`curriculum` weiter (implizit unter `li` bei
+  `"LiLe"` bzw. `ch` bei `"lehrplan21"`). **Mit `lehrplaene` ist die
+  Tabelle vollständig** – sie ersetzt die implizite Zuordnung komplett;
+  wer den Heimat-Lehrplan behalten will, trägt ihn explizit ein.
+- `kompetenzen` je Eintrag sind frei formatiert (`code` + optional
+  `description`) – andere Lehrpläne nummerieren anders als der
+  Lehrplan 21.
 
 ## Prüfende Blöcke und Modulabschluss
 
