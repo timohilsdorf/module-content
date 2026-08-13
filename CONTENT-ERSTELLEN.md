@@ -234,7 +234,10 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >   simulation und planspiel (die Validierung lehnt sie dort ab).
 >
 > Inhaltliche Vorgaben:
-> - Deutsch, Anrede «du», Schweizer Schreibweise (ss statt ß).
+> - Deutsch, Anrede «du», deutsche Rechtschreibung MIT ß («Straße»,
+>   «groß», «heißt») – die Plattform zeigt bei Schweizer/Liechtensteiner
+>   Lehrplan-Auswahl automatisch ss an; die Gegenrichtung ist nicht
+>   regelbasiert möglich, darum immer ß schreiben.
 > - Aufbau: packender Einstieg mit Alltagsbezug → Video → vertiefender
 >   Text → Lückentext → Aufgaben (mit Tipp und Musterlösung) → Quiz.
 >   6–9 Blöcke.
@@ -300,6 +303,19 @@ Wichtig zu wissen:
   Kennungen ab.
 - Details und alle Felder: [CONTENT-SCHEMA.md](CONTENT-SCHEMA.md),
   Abschnitt «Mehrere Lehrpläne».
+
+## Orthografie: ß schreiben, ss wird angezeigt
+
+Module werden in **deutscher Rechtschreibung mit ß** verfasst –
+«Straße», «groß», «schließlich». Die Plattform ersetzt bei gewähltem
+Schweizer oder Liechtensteiner Lehrplan **jedes ß in der Anzeige
+automatisch durch ss** (ohne Ausnahme, auch in Eigennamen – das
+entspricht der amtlichen Schweizer Schreibpraxis). Die Gegenrichtung
+ss→ß ist nicht regelbasiert möglich; wer ss schreibt, nimmt dem Modul
+also die Verwendbarkeit unter deutschen Lehrplänen. Bei den
+Antworten von Lückentexten musst du nur EINE Schreibweise hinterlegen –
+die Prüfung behandelt ß und ss als gleichwertig, Lernende können mit
+jeder Tastatur antworten.
 
 ## Schritt 2: Kritisch gegenlesen (wichtig!)
 
