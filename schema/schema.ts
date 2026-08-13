@@ -168,6 +168,16 @@ import { z } from "zod";
  *   `lehrplaene` ab. Solche Module erst NACH dem zugehörigen
  *   Plattform-Deploy einreichen; Module ohne das Feld bleiben überall
  *   gültig.
+ * - 2, Orthografie-Klarstellung (12.8.2026, KEIN Versionswechsel –
+ *   Autoren-Konvention + Anzeige, die Validierung bleibt unverändert):
+ *   Modulinhalte werden einheitlich in deutscher Rechtschreibung MIT ß
+ *   verfasst («Straße», «groß»), damit dieselben Module auch unter
+ *   deutschen/österreichischen Lehrplänen liegen können. Bei
+ *   Lehrplänen mit ss-Orthografie (li, ch – Feld `orthografie` in
+ *   LEHRPLAENE) ersetzt der Player in der ANZEIGE jedes ß durch ss,
+ *   bewusst ohne Eigennamen-Ausnahme (amtliche Schweizer Praxis).
+ *   Antwortvergleiche (istLueckeRichtig) falten ß/ss beidseitig –
+ *   Lernende antworten mit jeder Tastatur in beiden Schreibweisen.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -226,29 +236,41 @@ export const LEHRPLAN_KENNUNG_MUSTER = /^[a-z]{2}(-[a-z0-9]{2,8})*$/;
  * i18n-Wörterbuch der Plattform. `stufenmodell` bestimmt, welches
  * Stufenfeld ein Modul-Eintrag tragen muss: "zyklus" (Lehrplan-21-
  * Zyklen 1–3) oder "klasse" (Klassenstufen 1–13). Die `flagge` hilft
- * jüngeren Kindern, die noch nicht sicher lesen.
+ * jüngeren Kindern, die noch nicht sicher lesen. `orthografie` steuert
+ * die ANZEIGE der Modulinhalte (seit 12.8.2026): Inhalte werden
+ * einheitlich in deutscher Rechtschreibung MIT ß verfasst; bei
+ * Lehrplänen mit "ss" (Schweiz/Liechtenstein) ersetzt der Player jedes
+ * ß in der Anzeige durch ss – BEWUSST ohne Eigennamen-Ausnahme
+ * (amtliche Schweizer Schreibpraxis ersetzt durchgehend). Die
+ * umgekehrte Richtung ist nicht regelbasiert möglich und wird nie
+ * versucht; hinterlegte Antworten vergleicht istLueckeRichtig
+ * ß/ss-tolerant.
  */
 export const LEHRPLAENE = [
   {
     kennung: "li",
+    orthografie: "ss",
     flagge: "🇱🇮",
     lehrplanName: "Liechtensteiner Lehrplan (LiLe)",
     stufenmodell: "zyklus",
   },
   {
     kennung: "ch",
+    orthografie: "ss",
     flagge: "🇨🇭",
     lehrplanName: "Lehrplan 21",
     stufenmodell: "zyklus",
   },
   {
     kennung: "de",
+    orthografie: "ß",
     flagge: "🇩🇪",
     lehrplanName: "Lehrplan Deutschland",
     stufenmodell: "klasse",
   },
   {
     kennung: "at",
+    orthografie: "ß",
     flagge: "🇦🇹",
     lehrplanName: "Lehrplan Österreich",
     stufenmodell: "klasse",
@@ -593,7 +615,16 @@ export function normalisiereLueckenAntwort(
   wert: string,
   caseSensitive: boolean,
 ): string {
-  const getrimmt = wert.normalize("NFC").trim();
+  // ß/ss gelten als GLEICHWERTIG (seit 12.8.2026): Inhalte sind mit ß
+  // verfasst, die Anzeige ersetzt bei ss-Lehrplänen – Lernende dürfen
+  // mit jeder Tastatur in beiden Schreibweisen antworten. Beide Seiten
+  // laufen durch dieselbe Faltung, Anzeige und Lösung passen also
+  // unabhängig von der Lehrplan-Wahl zusammen (ẞ = Grossbuchstabe).
+  const getrimmt = wert
+    .normalize("NFC")
+    .replaceAll("ß", "ss")
+    .replaceAll("ẞ", "SS")
+    .trim();
   return caseSensitive ? getrimmt : getrimmt.toLowerCase();
 }
 
