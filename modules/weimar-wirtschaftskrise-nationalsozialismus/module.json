@@ -109,7 +109,7 @@
   {
    "type": "text",
    "title": "Level 1 – Ursache-Wirkungs-Ketten verstehen",
-   "body": "Historikerinnen und Historiker fragen nicht nur «Was ist passiert?», sondern vor allem «**Warum** ist es passiert – und **was folgte daraus**?». Ein starkes Werkzeug dafür ist die **Ursache-Wirkungs-Kette**: Du schreibst ein Ereignis auf, fragst «Was folgt daraus?» und zeichnest einen Pfeil zur Folge. Diese Folge ist selbst wieder eine Ursache – also wieder ein Pfeil. So entsteht Glied für Glied eine Kette.\n\n**Beispiel 1 – die Inflations-Kette:**\n\n```\nVersailler Vertrag (1919)\n   → Deutschland muss hohe Reparationen zahlen\n   → der Staat druckt immer mehr Geld\n   → Hyperinflation 1923: das Geld wird wertlos\n   → Ersparnisse sind vernichtet\n   → viele verlieren das Vertrauen in die Demokratie\n```\n\nLies die Kette laut und prüfe bei jedem Pfeil: Ergibt der Schritt Sinn? Könnte man ihn jemandem erklären, der nichts über die Zeit weiss? Genau das ist der Test für eine gute Kette.\n\n**Beispiel 2 – der Kreislauf:** Manchmal beisst sich die Kette in den eigenen Schwanz – dann sprechen wir von einem **Teufelskreis**. So bei der Sparpolitik von Reichskanzler Brüning ab 1930:\n\n```\nStaat spart (kürzt Löhne, Renten, Ausgaben)\n   → die Menschen haben weniger Geld zum Ausgeben (weniger Kaufkraft)\n   → Firmen verkaufen weniger und entlassen Personal (mehr Arbeitslose)\n   → der Staat nimmt weniger Steuern ein\n   → der Staat spart noch mehr … und der Kreis beginnt von vorn\n```\n\nEin Kreislauf hört nicht von selbst auf – er verstärkt sich mit jeder Runde. Deshalb wurde die Krise ab 1930 immer schlimmer, obwohl (oder gerade weil) die Regierung «vernünftig» sparte."
+   "body": "Historikerinnen und Historiker fragen nicht nur «Was ist passiert?», sondern vor allem «**Warum** ist es passiert – und **was folgte daraus**?». Ein starkes Werkzeug dafür ist die **Ursache-Wirkungs-Kette**: Du schreibst ein Ereignis auf, fragst «Was folgt daraus?» und zeichnest einen Pfeil zur Folge. Diese Folge ist selbst wieder eine Ursache – also wieder ein Pfeil. So entsteht Glied für Glied eine Kette.\n\n**Beispiel 1 – die Inflations-Kette:**\n\n```\nVersailler Vertrag (1919)\n   → Deutschland muss hohe Reparationen zahlen\n   → der Staat druckt immer mehr Geld\n   → Hyperinflation 1923: das Geld wird wertlos\n   → Ersparnisse sind vernichtet\n   → viele verlieren das Vertrauen in die Demokratie\n```\n\nLies die Kette laut und prüfe bei jedem Pfeil: Ergibt der Schritt Sinn? Könnte man ihn jemandem erklären, der nichts über die Zeit weiß? Genau das ist der Test für eine gute Kette.\n\n**Beispiel 2 – der Kreislauf:** Manchmal beißt sich die Kette in den eigenen Schwanz – dann sprechen wir von einem **Teufelskreis**. So bei der Sparpolitik von Reichskanzler Brüning ab 1930:\n\n```\nStaat spart (kürzt Löhne, Renten, Ausgaben)\n   → die Menschen haben weniger Geld zum Ausgeben (weniger Kaufkraft)\n   → Firmen verkaufen weniger und entlassen Personal (mehr Arbeitslose)\n   → der Staat nimmt weniger Steuern ein\n   → der Staat spart noch mehr … und der Kreis beginnt von vorn\n```\n\nEin Kreislauf hört nicht von selbst auf – er verstärkt sich mit jeder Runde. Deshalb wurde die Krise ab 1930 immer schlimmer, obwohl (oder gerade weil) die Regierung «vernünftig» sparte."
   },
   {
    "type": "lueckentext",
@@ -160,9 +160,9 @@
      "solution": "Die Demokratie war neu und viele Menschen waren ihr gegenüber ohnehin skeptisch. Als unter dieser neuen Staatsform die Ersparnisse vernichtet wurden, verbanden viele ihr persönliches Unglück direkt mit der Republik: «Unter dem Kaiser war das Geld noch etwas wert.» Radikale Parteien nutzten diese Stimmung später gezielt aus."
     },
     {
-     "prompt": "Stelle die Brüning-Kette aus Level 1 als Kreislauf dar: Tippe die Stationen in der richtigen Reihenfolge ein und verbinde sie mit Pfeilen (→). Beschreibe am Schluss in einem Satz, an welcher Stelle sich der Kreis schliesst. Wenn du magst, zeichne den Kreis zusätzlich auf Papier.",
+     "prompt": "Stelle die Brüning-Kette aus Level 1 als Kreislauf dar: Tippe die Stationen in der richtigen Reihenfolge ein und verbinde sie mit Pfeilen (→). Beschreibe am Schluss in einem Satz, an welcher Stelle sich der Kreis schließt. Wenn du magst, zeichne den Kreis zusätzlich auf Papier.",
      "hint": "Beginne oben mit «Staat spart» und gehe im Uhrzeigersinn. Der letzte Pfeil muss wieder bei «Staat spart» ankommen – genau das macht den Teufelskreis aus.",
-     "solution": "Staat spart → weniger Kaufkraft → mehr Arbeitslose → weniger Steuereinnahmen → Staat spart noch mehr → zurück zu «Staat spart». Der Kreis schliesst sich beim letzten Pfeil: Das Sparen erzeugt genau die Geldnot, gegen die es helfen sollte."
+     "solution": "Staat spart → weniger Kaufkraft → mehr Arbeitslose → weniger Steuereinnahmen → Staat spart noch mehr → zurück zu «Staat spart». Der Kreis schließt sich beim letzten Pfeil: Das Sparen erzeugt genau die Geldnot, gegen die es helfen sollte."
     }
    ]
   },
@@ -228,7 +228,7 @@
    "type": "lueckentext",
    "id": "lt-l3-kettenglieder",
    "title": "Level 3 – Zwischenschritt: Formuliere die Kettenglieder selbst",
-   "intro": "Bevor du gleich eine eigene Skizze zeichnest: Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Gross-/Kleinschreibung spielt keine Rolle. Tipp: Beginne beim Auslöser und frage bei jedem Pfeil: Was folgt daraus?",
+   "intro": "Bevor du gleich eine eigene Skizze zeichnest: Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle. Tipp: Beginne beim Auslöser und frage bei jedem Pfeil: Was folgt daraus?",
    "modus": "eingabe",
    "text": "Börsencrash in New York (Oktober 1929)\n→ die USA ziehen ihre {{1}} aus Deutschland ab\n→ deutsche Banken und Firmen gehen {{2}}\n→ über sechs Millionen Menschen sind {{3}}\n→ Not, Angst und Wut: viele Menschen {{4}} sich\n→ Wahlerfolge der {{5}}\n→ Ernennung Hitlers zum {{6}} (30. Januar 1933)",
    "luecken": [
@@ -369,7 +369,7 @@
       "text": "Die Sparpolitik betraf nur Liechtenstein, nicht Deutschland"
      }
     ],
-    "explanation": "Brünings Kürzungen von Löhnen, Renten und Staatsausgaben entzogen der Wirtschaft Kaufkraft. Firmen verkauften weniger, entliessen Personal, der Staat nahm weniger Steuern ein – und sparte deshalb noch mehr. Der Kreislauf verstärkte sich mit jeder Runde selbst: ein klassischer Teufelskreis."
+    "explanation": "Brünings Kürzungen von Löhnen, Renten und Staatsausgaben entzogen der Wirtschaft Kaufkraft. Firmen verkauften weniger, entließen Personal, der Staat nahm weniger Steuern ein – und sparte deshalb noch mehr. Der Kreislauf verstärkte sich mit jeder Runde selbst: ein klassischer Teufelskreis."
    },
    {
     "id": "q6",
