@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-04-erweiterter-wirtschaftskreislauf",
  "title": "Der erweiterte Wirtschaftskreislauf: Staat, Banken, Ausland",
  "description": "Der einfache Wirtschaftskreislauf bekommt Zuwachs: Du erweiterst das Modell Schritt für Schritt um Staat, Banken und Ausland. Am Beispiel Liechtensteins siehst du, wie eng ein kleines Land mit seinen Nachbarn verflochten ist – und warum der Kreislauf trotzdem ein vereinfachtes Modell bleibt.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
  "sequenz": 4,
  "einheit": "Themenblock A: Grundbegriffe und Wirtschaftskreislauf",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 50,
  "difficulty": "mittel",
  "keywords": [
@@ -36,16 +51,6 @@
   "Ich kann die Rolle der Banken als Drehscheibe beschreiben: Sie sammeln die Spareinlagen von Haushalten und Unternehmen und vergeben daraus Kredite – so verbinden sie Sparen und Investieren.",
   "Ich kann das Ausland in den Kreislauf einbeziehen: Güter werden exportiert und importiert, und am Beispiel Liechtensteins erkenne ich, dass Arbeitskraft aus dem Ausland hereinfließt und Löhne hinausfließen.",
   "Ich kann erklären, warum der Wirtschaftskreislauf ein Modell ist: Mit jedem zusätzlichen Akteur wird er realistischer, aber er bleibt eine Vereinfachung der Wirklichkeit."
- ],
- "competencies": [
-  {
-   "code": "WAH.2.1",
-   "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
-  },
-  {
-   "code": "WAH.3.1",
-   "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
-  }
  ],
  "sources": [
   {

@@ -1,34 +1,19 @@
 {
- "schemaVersion": 1,
+ "schemaVersion": 3,
  "id": "industrialisierung-schweiz",
  "title": "Die Industrialisierung der Schweiz",
  "description": "Vom Spinnrad in der Bauernstube zur Fabrik, von der Spanisch-Brötli-Bahn zum Gotthardtunnel: Du erfährst, warum die Schweiz so früh industrialisiert wurde, wie sich das Leben der Menschen veränderte – und wie das Fabrikgesetz von 1877 auf Kinderarbeit und die soziale Frage antwortete.",
- "subject": "RZG",
- "subjectName": "Räume, Zeiten, Gesellschaften",
- "cycle": 3,
- "grades": "7.–9. Klasse (Sek I)",
- "language": "de",
- "competencies": [
+ "curricula": [
   {
-   "code": "RZG.5.2.a",
-   "description": "Die Schülerinnen und Schüler können die Entwicklung der Erwerbssektoren am Beispiel der Schweiz aufzeigen und erläutern (Wandel von der Agrar- zur Industrie- und zur Dienstleistungsgesellschaft)."
-  },
-  {
-   "code": "RZG.6.2.b",
-   "description": "Die Schülerinnen und Schüler können zu einem Aspekt der Industrialisierung verschiedene Informationen finden und miteinander vergleichen (z. B. ein Bild, eine Textquelle, ein Erlebnisbericht; Industrialisierung, Soziale Frage, Kinderarbeit)."
-  },
-  {
-   "code": "RZG.5.2.c",
-   "description": "Die Schülerinnen und Schüler können Auswirkungen von wirtschaftlichen Veränderungen auf einzelne Menschen erklären (z. B. Technisierung)."
-  }
- ],
- "lehrplaene": {
-  "ch": {
-   "fach": "RZG",
-   "fachName": "Räume, Zeiten, Gesellschaften",
-   "zyklus": 3,
-   "stufeText": "7.–9. Klasse (Sek I)",
-   "kompetenzen": [
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
     {
      "code": "RZG.5.2.a",
      "description": "Die Schülerinnen und Schüler können die Entwicklung der Erwerbssektoren am Beispiel der Schweiz aufzeigen und erläutern (Wandel von der Agrar- zur Industrie- und zur Dienstleistungsgesellschaft)."
@@ -43,7 +28,8 @@
     }
    ]
   }
- },
+ ],
+ "language": "de",
  "learningObjectives": [
   "Ich kann erklären, warum die Industrialisierung in der Schweiz früher einsetzte als in den meisten Ländern Kontinentaleuropas (Wasserkraft, Handelskapital, keine Zünfte auf dem Land).",
   "Ich kann den Übergang von der Heimarbeit zur Fabrikarbeit in der Textilindustrie beschreiben und die Folgen für einzelne Menschen erläutern.",
@@ -202,119 +188,120 @@
      "solution": "Beispiel: «In welchem Jahr nahm das Schweizer Stimmvolk das eidgenössische Fabrikgesetz an? a) 1847, b) 1877, c) 1902.» Richtig ist b) 1877. Erklärung: 1847 fuhr die Spanisch-Brötli-Bahn zum ersten Mal – die Jahreszahl passt also zur Eisenbahn, nicht zum Arbeiterschutz. Wichtig ist, dass du die Erklärung frei formulieren kannst, ohne nachzulesen."
     }
    ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz",
+   "title": "Teste dein Wissen zur Industrialisierung der Schweiz",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Welche Strecke verband die 1847 eröffnete Spanisch-Brötli-Bahn, die erste ganz auf Schweizer Boden verlaufende Eisenbahnlinie?",
+     "options": [
+      {
+       "text": "Zürich–Baden",
+       "correct": true
+      },
+      {
+       "text": "Zürich–Bern"
+      },
+      {
+       "text": "Basel–Genf"
+      },
+      {
+       "text": "Luzern–Göschenen"
+      }
+     ],
+     "explanation": "Die Spanisch-Brötli-Bahn fuhr ab dem 9. August 1847 über rund 23 Kilometer von Zürich nach Baden – in etwa 45 Minuten. Der Legende nach geht ihr Name auf die «Spanisch Brötli» zurück, ein Blätterteiggebäck aus Baden, das mit der Bahn frisch nach Zürich gelangte."
+    },
+    {
+     "id": "q2",
+     "type": "multiple_choice",
+     "prompt": "Warum setzte die Industrialisierung in der Schweiz so früh ein? Welche Standortvorteile treffen zu?",
+     "options": [
+      {
+       "text": "Wasserkraft aus vielen Flüssen und Bächen trieb die Maschinen an.",
+       "correct": true
+      },
+      {
+       "text": "Handelsfamilien besaßen Kapital, um in Maschinen und Fabriken zu investieren.",
+       "correct": true
+      },
+      {
+       "text": "Auf dem Land gab es keine Zunftregeln, die die Produktion einschränkten.",
+       "correct": true
+      },
+      {
+       "text": "Die Schweiz besaß große Kohlevorkommen."
+      },
+      {
+       "text": "Die Schweiz hatte eigene Seehäfen mit direktem Zugang zum Meer."
+      }
+     ],
+     "explanation": "Die Schweiz hatte weder Kohle noch einen Meerzugang. Ihre Trümpfe waren die Wasserkraft, das Handelskapital, die fehlenden Zunftschranken auf dem Land – und viele Menschen mit Erfahrung aus der textilen Heimarbeit.",
+     "points": 2
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Was legte das eidgenössische Fabrikgesetz von 1877 unter anderem fest?",
+     "options": [
+      {
+       "text": "Höchstens elf Stunden Arbeit pro Werktag und ein Verbot der Fabrikarbeit für Kinder unter 14 Jahren.",
+       "correct": true
+      },
+      {
+       "text": "Den Achtstundentag und bezahlte Ferien für alle Angestellten."
+      },
+      {
+       "text": "Ein vollständiges Verbot der Frauenarbeit in Fabriken."
+      },
+      {
+       "text": "Die Verstaatlichung aller Spinnereien und Webereien."
+      }
+     ],
+     "explanation": "Das Fabrikgesetz von 1877 brachte den Elfstundentag, verbot die Fabrikarbeit für Kinder unter 14 Jahren und führte staatliche Fabrikinspektoren ein. Der Achtstundentag beziehungsweise die 48-Stunden-Woche kam in der Schweiz erst nach dem Ersten Weltkrieg."
+    },
+    {
+     "id": "q4",
+     "type": "true_false",
+     "prompt": "Der Gotthardtunnel war bei der Eröffnung der Gotthardbahn 1882 der längste Tunnel der Welt.",
+     "answer": true,
+     "explanation": "Der rund 15 Kilometer lange Tunnel war damals der längste der Welt. Der Bau ab 1872 forderte rund 200 Todesopfer unter den Arbeitern – auch Bauunternehmer Louis Favre starb 1879, noch vor der Vollendung, bei einer Inspektion im Tunnel."
+    },
+    {
+     "id": "q5",
+     "type": "multiple_choice",
+     "prompt": "Welche Aussagen zu den sozialen Folgen der Industrialisierung in der Schweiz stimmen?",
+     "options": [
+      {
+       "text": "Viele Menschen zogen vom Land in die wachsenden Industriestädte (Urbanisierung).",
+       "correct": true
+      },
+      {
+       "text": "Arbeiterinnen und Arbeiter organisierten sich: 1880 entstand der Schweizerische Gewerkschaftsbund, 1888 die Sozialdemokratische Partei der Schweiz.",
+       "correct": true
+      },
+      {
+       "text": "Der Kanton Glarus beschloss 1864 ein Fabrikgesetz, das als erstes in Europa die Arbeitszeit auch für Erwachsene begrenzte.",
+       "correct": true
+      },
+      {
+       "text": "Die Fabrikarbeit machte alle Arbeiterfamilien innert weniger Jahre wohlhabend."
+      }
+     ],
+     "explanation": "Die Industrialisierung brachte Wachstum, aber auch Armut, lange Arbeitstage und enge Wohnverhältnisse – die «soziale Frage». Als Antworten entstanden früher Arbeiterschutz (Glarus 1864 mit der europaweit ersten Arbeitszeitbegrenzung auch für Erwachsene, Bund 1877) und die organisierte Arbeiterbewegung (Gewerkschaftsbund 1880, SP 1888).",
+     "points": 2
+    },
+    {
+     "id": "q6",
+     "type": "true_false",
+     "prompt": "Die ersten Schweizer Spinnereien wurden vor allem mit Dampfmaschinen betrieben, die Kohle verbrannten.",
+     "answer": false,
+     "explanation": "Die Schweiz hatte kaum Kohle. Die frühen Fabriken – wie die Spinnerei Hard bei Winterthur (1802) – standen deshalb an Flüssen wie der Töss und nutzten Wasserkraft, um ihre Maschinen anzutreiben."
+    }
+   ]
   }
- ],
- "quiz": {
-  "title": "Teste dein Wissen zur Industrialisierung der Schweiz",
-  "passingScorePercent": 60,
-  "questions": [
-   {
-    "id": "q1",
-    "type": "single_choice",
-    "prompt": "Welche Strecke verband die 1847 eröffnete Spanisch-Brötli-Bahn, die erste ganz auf Schweizer Boden verlaufende Eisenbahnlinie?",
-    "options": [
-     {
-      "text": "Zürich–Baden",
-      "correct": true
-     },
-     {
-      "text": "Zürich–Bern"
-     },
-     {
-      "text": "Basel–Genf"
-     },
-     {
-      "text": "Luzern–Göschenen"
-     }
-    ],
-    "explanation": "Die Spanisch-Brötli-Bahn fuhr ab dem 9. August 1847 über rund 23 Kilometer von Zürich nach Baden – in etwa 45 Minuten. Der Legende nach geht ihr Name auf die «Spanisch Brötli» zurück, ein Blätterteiggebäck aus Baden, das mit der Bahn frisch nach Zürich gelangte."
-   },
-   {
-    "id": "q2",
-    "type": "multiple_choice",
-    "prompt": "Warum setzte die Industrialisierung in der Schweiz so früh ein? Welche Standortvorteile treffen zu?",
-    "options": [
-     {
-      "text": "Wasserkraft aus vielen Flüssen und Bächen trieb die Maschinen an.",
-      "correct": true
-     },
-     {
-      "text": "Handelsfamilien besaßen Kapital, um in Maschinen und Fabriken zu investieren.",
-      "correct": true
-     },
-     {
-      "text": "Auf dem Land gab es keine Zunftregeln, die die Produktion einschränkten.",
-      "correct": true
-     },
-     {
-      "text": "Die Schweiz besaß große Kohlevorkommen."
-     },
-     {
-      "text": "Die Schweiz hatte eigene Seehäfen mit direktem Zugang zum Meer."
-     }
-    ],
-    "explanation": "Die Schweiz hatte weder Kohle noch einen Meerzugang. Ihre Trümpfe waren die Wasserkraft, das Handelskapital, die fehlenden Zunftschranken auf dem Land – und viele Menschen mit Erfahrung aus der textilen Heimarbeit.",
-    "points": 2
-   },
-   {
-    "id": "q3",
-    "type": "single_choice",
-    "prompt": "Was legte das eidgenössische Fabrikgesetz von 1877 unter anderem fest?",
-    "options": [
-     {
-      "text": "Höchstens elf Stunden Arbeit pro Werktag und ein Verbot der Fabrikarbeit für Kinder unter 14 Jahren.",
-      "correct": true
-     },
-     {
-      "text": "Den Achtstundentag und bezahlte Ferien für alle Angestellten."
-     },
-     {
-      "text": "Ein vollständiges Verbot der Frauenarbeit in Fabriken."
-     },
-     {
-      "text": "Die Verstaatlichung aller Spinnereien und Webereien."
-     }
-    ],
-    "explanation": "Das Fabrikgesetz von 1877 brachte den Elfstundentag, verbot die Fabrikarbeit für Kinder unter 14 Jahren und führte staatliche Fabrikinspektoren ein. Der Achtstundentag beziehungsweise die 48-Stunden-Woche kam in der Schweiz erst nach dem Ersten Weltkrieg."
-   },
-   {
-    "id": "q4",
-    "type": "true_false",
-    "prompt": "Der Gotthardtunnel war bei der Eröffnung der Gotthardbahn 1882 der längste Tunnel der Welt.",
-    "answer": true,
-    "explanation": "Der rund 15 Kilometer lange Tunnel war damals der längste der Welt. Der Bau ab 1872 forderte rund 200 Todesopfer unter den Arbeitern – auch Bauunternehmer Louis Favre starb 1879, noch vor der Vollendung, bei einer Inspektion im Tunnel."
-   },
-   {
-    "id": "q5",
-    "type": "multiple_choice",
-    "prompt": "Welche Aussagen zu den sozialen Folgen der Industrialisierung in der Schweiz stimmen?",
-    "options": [
-     {
-      "text": "Viele Menschen zogen vom Land in die wachsenden Industriestädte (Urbanisierung).",
-      "correct": true
-     },
-     {
-      "text": "Arbeiterinnen und Arbeiter organisierten sich: 1880 entstand der Schweizerische Gewerkschaftsbund, 1888 die Sozialdemokratische Partei der Schweiz.",
-      "correct": true
-     },
-     {
-      "text": "Der Kanton Glarus beschloss 1864 ein Fabrikgesetz, das als erstes in Europa die Arbeitszeit auch für Erwachsene begrenzte.",
-      "correct": true
-     },
-     {
-      "text": "Die Fabrikarbeit machte alle Arbeiterfamilien innert weniger Jahre wohlhabend."
-     }
-    ],
-    "explanation": "Die Industrialisierung brachte Wachstum, aber auch Armut, lange Arbeitstage und enge Wohnverhältnisse – die «soziale Frage». Als Antworten entstanden früher Arbeiterschutz (Glarus 1864 mit der europaweit ersten Arbeitszeitbegrenzung auch für Erwachsene, Bund 1877) und die organisierte Arbeiterbewegung (Gewerkschaftsbund 1880, SP 1888).",
-    "points": 2
-   },
-   {
-    "id": "q6",
-    "type": "true_false",
-    "prompt": "Die ersten Schweizer Spinnereien wurden vor allem mit Dampfmaschinen betrieben, die Kohle verbrannten.",
-    "answer": false,
-    "explanation": "Die Schweiz hatte kaum Kohle. Die frühen Fabriken – wie die Spinnerei Hard bei Winterthur (1802) – standen deshalb an Flüssen wie der Töss und nutzten Wasserkraft, um ihre Maschinen anzutreiben."
-   }
-  ]
- }
+ ]
 }

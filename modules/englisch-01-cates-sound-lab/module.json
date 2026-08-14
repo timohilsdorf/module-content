@@ -1,16 +1,39 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "englisch-01-cates-sound-lab",
  "title": "Cate's Sound Lab: Talking about music",
  "description": "«Cate's Sound Lab» – the start of your English learning path all about music: You learn basic vocabulary for genres and instruments, pick up adjectives for describing music, read a short text about earworms, watch a TED-Ed video about them – and write your own «music profile» in English. Level A2–B1.",
- "subject": "E",
- "subjectName": "Englisch",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "E",
+   "subjectName": "Englisch",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "E.1.A.1",
+     "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+     "code": "E.2.A.1",
+     "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+     "code": "E.4.A.1",
+     "description": "FS1E.4.A.1 (LiLe – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+     "code": "E.5.B.1",
+     "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+    }
+   ]
+  }
+ ],
  "sequenz": 1,
  "einheit": "Cate's Sound Lab – über Musik sprechen",
  "language": "en",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -31,24 +54,6 @@
   "I know basic words for music genres, instruments and concerts. (Ich kenne Grundwortschatz zu Musikrichtungen, Instrumenten und Konzerten.)",
   "I can describe music with adjectives like catchy, relaxing or powerful. (Ich kann Musik mit Adjektiven wie catchy, relaxing oder powerful beschreiben.)",
   "I can understand a short English text and a short English video about earworms. (Ich kann einen kurzen englischen Text und ein kurzes englisches Video über Ohrwürmer verstehen.)"
- ],
- "competencies": [
-  {
-   "code": "E.1.A.1",
-   "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
-  },
-  {
-   "code": "E.2.A.1",
-   "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
-  },
-  {
-   "code": "E.4.A.1",
-   "description": "FS1E.4.A.1 (LiLe – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
-  },
-  {
-   "code": "E.5.B.1",
-   "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
-  }
  ],
  "sources": [
   {

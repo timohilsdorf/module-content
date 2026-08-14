@@ -1,16 +1,35 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-18-pausenkiosk-finanzberater",
  "title": "Wirtschaft ausprobieren: Dein Pausenkiosk und der Finanzberater",
  "description": "Acht Runden lang führst du deinen eigenen Pausenkiosk: Du kaufst ein, setzt Preise, erlebst Konkurrenz, Versicherung und Kredit – und siehst am Ende, was aus deinen CHF 100 geworden ist. Danach sitzt du einem Finanzberater gegenüber, der dir einen Konsumkredit und eine Restschuldversicherung verkaufen will. Und zum Schluss lebst du fünfzehn Jahre in einer Viertelstunde: vom ersten Lehrlingslohn mit 16 bis zu deinem dreißigsten Geburtstag, mit Fixkosten, Konsumfallen, Sparkonto, Depot und vielleicht einer eigenen Wohnung. Dieses Modul ist ein freiwilliges Vertiefungsmodul: kein neuer Stoff, sondern die Konzepte aus dem bisherigen Kurs zum Anfassen – in zwei Planspielen und einem Rollenspiel.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.2.3",
+     "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+     "code": "WAH.3.3",
+     "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    }
+   ]
+  }
+ ],
  "sequenz": 18,
  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 100,
  "difficulty": "mittel",
  "keywords": [
@@ -46,20 +65,6 @@
   "Ich kann den Zinseszinseffekt an einem Beispiel erklären und begründen, warum ein früher Beginn stärker wirkt als ein höherer Sparbetrag.",
   "Ich kann Sparkonto und breit gestreutes Wertschriftendepot gegenüberstellen, die Rolle der Streuung erklären und begründen, warum ein gutes Ergebnis am Kapitalmarkt kein Beweis für eine kluge Entscheidung ist.",
   "Ich kann die Hebelwirkung beim Wohneigentum erklären: warum ein Preisrückgang von 15 Prozent einen weit größeren Teil des eingesetzten Eigenkapitals vernichtet und die Hypothek dabei unverändert bestehen bleibt."
- ],
- "competencies": [
-  {
-   "code": "WAH.2.1",
-   "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
-  },
-  {
-   "code": "WAH.2.3",
-   "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
-  },
-  {
-   "code": "WAH.3.3",
-   "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
-  }
  ],
  "sources": [
   {

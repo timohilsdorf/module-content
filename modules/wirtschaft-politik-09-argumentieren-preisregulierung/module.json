@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-09-argumentieren-preisregulierung",
  "title": "Argumentieren lernen: Soll der Staat Preise regulieren?",
  "description": "In der Debatte zählt nicht, wer am lautesten ist – sondern wer am besten begründet. Hier lernst du den Argument-Bauplan «Behauptung – Begründung – Beispiel» kennen und wendest ihn auf eine echte Streitfrage an: Soll der Staat Preise regulieren? Mit zwei Fallbeispielen und je drei Pro- und Contra-Argumenten bereitest du dich auf die Debatte im Unterricht vor – die Bewertung nimmst du dort selbst vor.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können sich an politischen Diskussionen beteiligen und eigene Positionen begründet vertreten."
+    }
+   ]
+  }
+ ],
  "sequenz": 9,
  "einheit": "Themenblock B: Markt und Preise",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -31,16 +46,6 @@
   "Ich kenne den Aufbau eines guten Arguments – Behauptung, Begründung, Beispiel – und kann die drei Bausteine in Aussagen erkennen und selbst anwenden.",
   "Ich kann je drei Pro- und Contra-Argumente zur staatlichen Preisregulierung in eigenen Worten wiedergeben.",
   "Ich kann zwischen einem vollständigen Argument und einer bloßen Behauptung ohne Begründung unterscheiden."
- ],
- "competencies": [
-  {
-   "code": "WAH.2.1",
-   "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
-  },
-  {
-   "code": "RZG.8.2",
-   "description": "Die Schülerinnen und Schüler können sich an politischen Diskussionen beteiligen und eigene Positionen begründet vertreten."
-  }
  ],
  "sources": [
   {

@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-24-debatte-falschinformationen",
  "title": "Debattenvorbereitung: Soll der Staat Falschinformationen löschen dürfen?",
  "description": "Meinungsfreiheit oder Schutz vor Desinformation – was wiegt schwerer? Hier bereitest du dich auf die Debatte im Unterricht vor: Du wiederholst den bekannten Argument-Bauplan, verstehst das Dilemma zwischen Meinungsfreiheit und Schaden durch gezielte Falschinformationen und lernst je drei ausgearbeitete Pro- und Contra-Argumente sowie die Zwischenlösungen kennen. Das Modul bezieht keine Position – die Bewertung nimmst du in der Debatte vor.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    },
+    {
+     "code": "MI.1.2",
+     "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    }
+   ]
+  }
+ ],
  "sequenz": 24,
  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -32,16 +47,6 @@
   "Ich verstehe das Dilemma: Meinungsfreiheit ist ein Grundpfeiler der Demokratie – gezielte Desinformation kann aber realen Schaden anrichten.",
   "Ich kann je drei ausgearbeitete Pro- und Contra-Argumente zur Streitfrage in eigenen Worten wiedergeben.",
   "Ich kenne Zwischenlösungen: Kennzeichnen statt Löschen, Faktenchecks und den Unterschied zwischen Plattformregeln und staatlichem Verbot."
- ],
- "competencies": [
-  {
-   "code": "RZG.8.2",
-   "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
-  },
-  {
-   "code": "MI.1.2",
-   "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
-  }
  ],
  "sources": [
   {

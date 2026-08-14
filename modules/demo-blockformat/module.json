@@ -1,36 +1,35 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "demo-blockformat",
  "title": "So funktioniert ein EveryCate-Modul",
  "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Video, Audio, Aufgaben, Lückentexte (inkl. Satzbau), Zuordnung, Zahlenaufgaben, Term-Aufgaben, Achsen-Aufgaben, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
- "subject": "DEMO",
- "subjectName": "Demo & Dokumentation",
- "cycle": 3,
- "grades": "Für Autorinnen, Autoren und KIs",
- "language": "de",
- "competencies": [],
- "lehrplaene": {
-  "li": {
-   "fach": "DEMO",
-   "fachName": "Demo und Format",
-   "selbststudium": true
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "DEMO",
+   "subjectName": "Demo und Format",
+   "gradesText": "Erwachsene"
   },
-  "ch": {
-   "fach": "DEMO",
-   "fachName": "Demo und Format",
-   "selbststudium": true
+  {
+   "curriculum": "ch",
+   "subject": "DEMO",
+   "subjectName": "Demo und Format",
+   "gradesText": "Erwachsene"
   },
-  "de": {
-   "fach": "DEMO",
-   "fachName": "Demo und Format",
-   "selbststudium": true
+  {
+   "curriculum": "de",
+   "subject": "DEMO",
+   "subjectName": "Demo und Format",
+   "gradesText": "Erwachsene"
   },
-  "at": {
-   "fach": "DEMO",
-   "fachName": "Demo und Format",
-   "selbststudium": true
+  {
+   "curriculum": "at",
+   "subject": "DEMO",
+   "subjectName": "Demo und Format",
+   "gradesText": "Erwachsene"
   }
- },
+ ],
+ "language": "de",
  "learningObjectives": [
   "Ich kann die Blocktypen des EveryCate-Content-Formats benennen.",
   "Ich kann ein eigenes Modul als module.json anlegen und validieren."

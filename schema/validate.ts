@@ -658,6 +658,46 @@ if (slugs.length === 0) {
   process.exit(1);
 }
 
+/**
+ * Repo-Policy (seit Schema-Version 3, 14.8.2026): Das Content-Repo
+ * nimmt nur noch Version-3-Dateien an – die Legacy-Metadaten
+ * (subject/…/competencies + lehrplaene) sind durch `curricula`
+ * ersetzt. Geprüft werden NUR die Top-Level-Schlüssel des ROH-JSON
+ * (die curricula-EINTRAGSFELDER heissen absichtlich gleich wie die
+ * alten Top-Level-Felder – eine rekursive Suche fände sie in jedem
+ * gültigen Modul), und zwar VOR parseModulDatei: Die Klartext-Meldung
+ * muss erscheinen, BEVOR generische Zod-Fehler in die Irre führen
+ * (eine «schemaVersion 2 + curricula»-Mischdatei bekäme sonst den
+ * gegenteiligen Rat, `curricula` zu entfernen).
+ */
+const LEGACY_TOP_LEVEL_FELDER = [
+  "subject",
+  "subjectName",
+  "cycle",
+  "grades",
+  "curriculum",
+  "competencies",
+  "lehrplaene",
+] as const;
+
+function repoPolicyFehler(raw: unknown): string[] {
+  if (raw === null || typeof raw !== "object" || Array.isArray(raw)) return [];
+  const obj = raw as Record<string, unknown>;
+  const meldungen: string[] = [];
+  if (obj.schemaVersion !== 3) {
+    meldungen.push(
+      `Das Content-Repo nimmt nur noch "schemaVersion": 3 an (curricula-Struktur) – diese Datei trägt ${JSON.stringify(obj.schemaVersion)}. Migration alt→neu: siehe CONTENT-SCHEMA.md.`,
+    );
+  }
+  const legacy = LEGACY_TOP_LEVEL_FELDER.filter((key) => key in obj);
+  if (legacy.length > 0) {
+    meldungen.push(
+      `Alte Doppelstruktur erkannt (Top-Level ${legacy.map((k) => `"${k}"`).join(", ")}) – Fach, Stufe und Kompetenzen leben seit Version 3 NUR im Feld "curricula". Mapping alt→neu: siehe CONTENT-SCHEMA.md.`,
+    );
+  }
+  return meldungen;
+}
+
 let failed = 0;
 
 for (const slug of slugs) {
@@ -700,8 +740,18 @@ for (const slug of slugs) {
     continue;
   }
 
-  // Versioniertes Einlesen: Version-1-Dateien (Quiz als Sonderfeld)
-  // bleiben gültig und werden verlustfrei migriert (parseModulDatei).
+  // Repo-Policy VOR dem Schema-Parse (siehe repoPolicyFehler oben).
+  const policy = repoPolicyFehler(raw);
+  if (policy.length > 0) {
+    console.error(`✗ ${slug}`);
+    for (const meldung of policy) console.error(`  - ${meldung}`);
+    failed++;
+    continue;
+  }
+
+  // Schema-Parse: parseModulDatei versteht auch die Versionen 1/2
+  // (Plattform-Migration für lokale Module) – ins REPO dürfen sie
+  // dank der Policy oben aber nicht mehr.
   const parsed = parseModulDatei(raw);
   if (!parsed.success) {
     console.error(`✗ ${slug}\n${describeIssues(raw, parsed.error).join("\n")}`);
@@ -711,6 +761,15 @@ for (const slug of slugs) {
 
   if (parsed.data.id !== slug) {
     errors.push(`"id" (${parsed.data.id}) muss dem Ordnernamen (${slug}) entsprechen.`);
+  }
+
+  // Repo-Module brauchen mindestens eine Lehrplan-Zuordnung – ohne
+  // curricula erschiene das Modul in keinem Katalog-Filter (das Schema
+  // lässt das Feld für LOKALE Module bewusst optional).
+  if (parsed.data.curricula === undefined || parsed.data.curricula.length === 0) {
+    errors.push(
+      `"curricula" braucht mindestens einen Lehrplan-Eintrag (z. B. {"curriculum": "li", "subject": "…", "grades": [9]}).`,
+    );
   }
 
   const result = checkModule(slug, raw, parsed.data, slugs);

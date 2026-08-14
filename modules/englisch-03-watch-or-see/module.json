@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "englisch-03-watch-or-see",
  "title": "Watch or see? (extended)",
  "description": "«Watch or see?» – an extension module (Level B1) in the English learning path «Cate's Sound Lab», an optional extra for everyone who wants to go deeper: You learn the difference between watch, see and look at – from music videos to live concerts – and use the past simple and past perfect confidently in your own sentences and in a longer text.",
- "subject": "E",
- "subjectName": "Englisch",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "E",
+   "subjectName": "Englisch",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "E.5.B.1",
+     "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+    },
+    {
+     "code": "E.5.D.1",
+     "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+    }
+   ]
+  }
+ ],
  "sequenz": 3,
  "einheit": "Cate's Sound Lab – über Musik sprechen",
  "language": "en",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "anspruchsvoll",
  "keywords": [
@@ -30,16 +45,6 @@
   "I can use watch, see and look at correctly. (Ich kann watch, see und look at richtig verwenden.)",
   "I can build past simple and past perfect forms in my own sentences. (Ich kann past simple und past perfect in eigenen Sätzen sicher bilden.)",
   "I can complete a longer story and decide from the context which past event happened first. (Ich kann einen längeren Text vervollständigen und aus dem Kontext entscheiden, welches vergangene Ereignis zuerst passierte.)"
- ],
- "competencies": [
-  {
-   "code": "E.5.B.1",
-   "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
-  },
-  {
-   "code": "E.5.D.1",
-   "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
-  }
  ],
  "sources": [
   {

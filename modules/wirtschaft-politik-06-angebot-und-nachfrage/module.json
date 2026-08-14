@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-06-angebot-und-nachfrage",
  "title": "Angebot und Nachfrage",
  "description": "Warum zahlen Fans für ausverkaufte Konzerttickets plötzlich das Doppelte – und warum kosten Erdbeeren im Winter mehr als im Sommer? Hier lernst du die zwei Kräfte des Marktes kennen: die Nachfrage der Käuferinnen und Käufer und das Angebot der Anbieter. Du erfährst, wie beide Seiten auf den Preis reagieren – und welche Einflüsse jenseits des Preises sie verändern.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
+    }
+   ]
+  }
+ ],
  "sequenz": 6,
  "einheit": "Themenblock B: Markt und Preise",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "leicht",
  "keywords": [
@@ -32,16 +47,6 @@
   "Ich kann das Nachfrageverhalten beschreiben: Bei steigendem Preis wird in der Regel weniger nachgefragt – und bei sinkendem Preis mehr.",
   "Ich kann das Angebotsverhalten beschreiben: Bei steigendem Preis wird mehr angeboten, weil sich Herstellung und Verkauf dann stärker lohnen.",
   "Ich kann Einflussfaktoren jenseits des Preises nennen – Trends, Einkommen, Jahreszeit und die Anzahl der Anbieter – und an Alltagsbeispielen erklären, wie sie Nachfrage oder Angebot verändern."
- ],
- "competencies": [
-  {
-   "code": "WAH.2.1",
-   "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
-  },
-  {
-   "code": "WAH.3.1",
-   "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
-  }
  ],
  "sources": [
   {

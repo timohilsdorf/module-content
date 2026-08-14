@@ -1,16 +1,35 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-17-dark-patterns",
  "title": "Dark Patterns: Wie uns Apps und Shops manipulieren",
  "description": "«Nur noch 2 Stück verfügbar!», «Angebot endet in 09:58» – solche Anzeigen sind selten Zufall und oft Absicht. Hier lernst du Dark Patterns kennen: absichtlich manipulative Gestaltung von Apps, Games und Onlineshops. Du erkennst die wichtigsten Muster, verstehst, warum sie bei allen Menschen wirken, diskutierst, ob der Staat sie verbieten soll – und nimmst Strategien mit, mit denen du dich schwerer manipulieren lässt.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    },
+    {
+     "code": "WAH.3.3",
+     "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    },
+    {
+     "code": "MI.1.2",
+     "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    }
+   ]
+  }
+ ],
  "sequenz": 17,
  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -33,20 +52,6 @@
   "Ich kann erklären, warum diese Muster wirken: Zeitdruck schaltet das Nachdenken aus, Verlustangst und sozialer Druck lenken die Entscheidung.",
   "Ich kann zur Frage, ob der Staat solche Praktiken verbieten soll, mit Argumenten Position beziehen – und ich weiß, dass Verbraucherschutzregeln in der EU bestimmte Praktiken bereits verbieten und das Thema politisch umkämpft bleibt.",
   "Ich kenne Handlungsstrategien gegen Dark Patterns: warten statt sofort klicken, den Endpreis prüfen, den Kündigungsweg vor dem Abschluss anschauen und Ausgabenlimits für In-App-Käufe setzen."
- ],
- "competencies": [
-  {
-   "code": "WAH.3.1",
-   "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
-  },
-  {
-   "code": "WAH.3.3",
-   "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
-  },
-  {
-   "code": "MI.1.2",
-   "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
-  }
  ],
  "sources": [
   {

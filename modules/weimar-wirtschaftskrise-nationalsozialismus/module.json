@@ -1,14 +1,65 @@
 {
- "schemaVersion": 1,
+ "schemaVersion": 3,
  "id": "weimar-wirtschaftskrise-nationalsozialismus",
  "title": "Weimarer Republik, Weltwirtschaftskrise und der Aufstieg des Nationalsozialismus",
  "description": "Wie konnte aus einem Börsencrash in New York die Machtübernahme Hitlers in Berlin werden? In diesem Modul lernst du, historische Ereignisse als Ursache-Wirkungs-Ketten und -Kreisläufe zu verstehen und selbst zu skizzieren – vom Versailler Vertrag über die Hyperinflation 1923 und die Weltwirtschaftskrise 1929 bis zum 30. Januar 1933.",
- "subject": "RZG",
- "subjectName": "Räume, Zeiten, Gesellschaften",
- "cycle": 3,
- "grades": "8.–9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.2",
+     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
+    },
+    {
+     "code": "RZG.7.1",
+     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.2",
+     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
+    },
+    {
+     "code": "RZG.7.1",
+     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 90,
  "difficulty": "mittel",
  "keywords": [
@@ -31,68 +82,6 @@
   "Ich kann den Teufelskreis der Sparpolitik Brünings als Kreislauf darstellen.",
   "Ich kann Auswirkungen dieser Zeit auf Liechtenstein nennen, zum Beispiel den Zollvertrag mit der Schweiz von 1923 und die Einführung des Schweizer Frankens 1924."
  ],
- "competencies": [
-  {
-   "code": "RZG.6.2",
-   "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
-  },
-  {
-   "code": "RZG.7.1",
-   "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
-  },
-  {
-   "code": "RZG.8.1",
-   "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
-  }
- ],
- "lehrplaene": {
-  "li": {
-   "fach": "RZG",
-   "fachName": "Räume, Zeiten, Gesellschaften",
-   "zyklus": 3,
-   "stufeText": "8.–9. Klasse (Sek I)",
-   "kompetenzen": [
-    {
-     "code": "RZG.6.2",
-     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
-    },
-    {
-     "code": "RZG.7.1",
-     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
-    },
-    {
-     "code": "RZG.8.1",
-     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
-    }
-   ]
-  },
-  "ch": {
-   "fach": "RZG",
-   "fachName": "Räume, Zeiten, Gesellschaften",
-   "zyklus": 3,
-   "stufeText": "7.–9. Klasse (Sek I)",
-   "kompetenzen": [
-    {
-     "code": "RZG.6.2",
-     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
-    },
-    {
-     "code": "RZG.7.1",
-     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
-    },
-    {
-     "code": "RZG.8.1",
-     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
-    }
-   ]
-  },
-  "de": {
-   "fach": "Geschichte",
-   "klassen": [
-    9
-   ]
-  }
- },
  "sources": [
   {
    "title": "LiLe – Liechtensteiner Lehrplan",
@@ -321,91 +310,93 @@
      "solution": "Beispiel für eine selbst erstellte Quizfrage: «Was gehört an die Stelle ???: Hyperinflation 1923 → ??? → Beruhigung der Wirtschaft → Goldene Zwanziger. a) Einführung der Rentenmark und Dawes-Plan, b) Börsencrash in New York, c) Machtübernahme Hitlers.» Lösung: a). Beim Erklären zählt: Reihenfolge korrekt, jeder Pfeil begründet."
     }
    ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz",
+   "title": "Quiz: Hast du die Ketten im Griff?",
+   "questions": [
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "In welchem Jahr erreichte die Hyperinflation in Deutschland ihren Höhepunkt – als ein Brot zeitweise über 100 Milliarden Mark kostete?",
+     "options": [
+      {
+       "text": "1923",
+       "correct": true
+      },
+      {
+       "text": "1929"
+      },
+      {
+       "text": "1919"
+      },
+      {
+       "text": "1933"
+      }
+     ],
+     "explanation": "Die Hyperinflation eskalierte 1923 und wurde Ende 1923 durch die Einführung der Rentenmark gestoppt. 1919 wurde der Versailler Vertrag unterzeichnet, 1929 war der Börsencrash, 1933 die Machtübernahme – vier Jahreszahlen, vier verschiedene Kettenglieder."
+    },
+    {
+     "id": "q3",
+     "type": "multiple_choice",
+     "prompt": "Welche Elemente gehören in die Kette vom Börsencrash 1929 zur Machtübernahme 1933? (Mehrere Antworten sind richtig.)",
+     "points": 2,
+     "options": [
+      {
+       "text": "Massenarbeitslosigkeit von über sechs Millionen Menschen",
+       "correct": true
+      },
+      {
+       "text": "Wahlerfolge der NSDAP",
+       "correct": true
+      },
+      {
+       "text": "Hyperinflation mit Milliardenpreisen für ein Brot"
+      },
+      {
+       "text": "Abzug der amerikanischen Kredite aus Deutschland",
+       "correct": true
+      }
+     ],
+     "explanation": "Die Kette lautet: Börsencrash → Abzug der US-Kredite → Firmenpleiten → Massenarbeitslosigkeit → Radikalisierung → Wahlerfolge der NSDAP → Machtübernahme. Die Hyperinflation gehört NICHT in diese Kette – sie war 1923, sechs Jahre vor dem Crash, und hat ihre eigene Kette (Versailles → Reparationen → Gelddrucken → Inflation)."
+    },
+    {
+     "id": "q4",
+     "type": "true_false",
+     "prompt": "Die Hyperinflation von 1923 war eine direkte Folge des Börsencrashs von 1929.",
+     "answer": false,
+     "explanation": "Das kann zeitlich nicht stimmen: Eine Ursache muss vor ihrer Wirkung liegen. Die Hyperinflation (1923) war sechs Jahre VOR dem Börsencrash (1929). Ihre Ursachen waren der Versailler Vertrag, die Reparationen und das Gelddrucken des Staates – prüfe bei jeder Kette immer zuerst die Jahreszahlen!"
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Warum verschlimmerte die Sparpolitik von Reichskanzler Brüning die Wirtschaftskrise, statt sie zu lösen?",
+     "options": [
+      {
+       "text": "Sparen nahm den Menschen Kaufkraft, dadurch stiegen Arbeitslosigkeit weiter und Steuereinnahmen sanken – ein Teufelskreis",
+       "correct": true
+      },
+      {
+       "text": "Der Staat gab durch das Sparen zu viel Geld aus und löste damit eine neue Inflation aus"
+      },
+      {
+       "text": "Das Sparen führte dazu, dass die USA sofort alle Kredite zurückzahlten"
+      },
+      {
+       "text": "Die Sparpolitik betraf nur Liechtenstein, nicht Deutschland"
+      }
+     ],
+     "explanation": "Brünings Kürzungen von Löhnen, Renten und Staatsausgaben entzogen der Wirtschaft Kaufkraft. Firmen verkauften weniger, entließen Personal, der Staat nahm weniger Steuern ein – und sparte deshalb noch mehr. Der Kreislauf verstärkte sich mit jeder Runde selbst: ein klassischer Teufelskreis."
+    },
+    {
+     "id": "q6",
+     "type": "true_false",
+     "prompt": "Liechtenstein führte 1924 den Schweizer Franken ein, nachdem die österreichische Krone durch die Inflation nach dem Ersten Weltkrieg massiv entwertet worden war.",
+     "answer": true,
+     "explanation": "Richtig – und das ist eine eigene kleine Ursache-Wirkungs-Kette: Kronen-Inflation → Ersparnisse in Liechtenstein entwertet → Abwendung von Österreich → Zollvertrag mit der Schweiz (1923) → offizielle Einführung des Schweizer Frankens (1924). Die stabile Währung wurde zu einem Grundstein für Liechtensteins spätere Entwicklung."
+    }
+   ]
   }
- ],
- "quiz": {
-  "title": "Quiz: Hast du die Ketten im Griff?",
-  "questions": [
-   {
-    "id": "q2",
-    "type": "single_choice",
-    "prompt": "In welchem Jahr erreichte die Hyperinflation in Deutschland ihren Höhepunkt – als ein Brot zeitweise über 100 Milliarden Mark kostete?",
-    "options": [
-     {
-      "text": "1923",
-      "correct": true
-     },
-     {
-      "text": "1929"
-     },
-     {
-      "text": "1919"
-     },
-     {
-      "text": "1933"
-     }
-    ],
-    "explanation": "Die Hyperinflation eskalierte 1923 und wurde Ende 1923 durch die Einführung der Rentenmark gestoppt. 1919 wurde der Versailler Vertrag unterzeichnet, 1929 war der Börsencrash, 1933 die Machtübernahme – vier Jahreszahlen, vier verschiedene Kettenglieder."
-   },
-   {
-    "id": "q3",
-    "type": "multiple_choice",
-    "prompt": "Welche Elemente gehören in die Kette vom Börsencrash 1929 zur Machtübernahme 1933? (Mehrere Antworten sind richtig.)",
-    "points": 2,
-    "options": [
-     {
-      "text": "Massenarbeitslosigkeit von über sechs Millionen Menschen",
-      "correct": true
-     },
-     {
-      "text": "Wahlerfolge der NSDAP",
-      "correct": true
-     },
-     {
-      "text": "Hyperinflation mit Milliardenpreisen für ein Brot"
-     },
-     {
-      "text": "Abzug der amerikanischen Kredite aus Deutschland",
-      "correct": true
-     }
-    ],
-    "explanation": "Die Kette lautet: Börsencrash → Abzug der US-Kredite → Firmenpleiten → Massenarbeitslosigkeit → Radikalisierung → Wahlerfolge der NSDAP → Machtübernahme. Die Hyperinflation gehört NICHT in diese Kette – sie war 1923, sechs Jahre vor dem Crash, und hat ihre eigene Kette (Versailles → Reparationen → Gelddrucken → Inflation)."
-   },
-   {
-    "id": "q4",
-    "type": "true_false",
-    "prompt": "Die Hyperinflation von 1923 war eine direkte Folge des Börsencrashs von 1929.",
-    "answer": false,
-    "explanation": "Das kann zeitlich nicht stimmen: Eine Ursache muss vor ihrer Wirkung liegen. Die Hyperinflation (1923) war sechs Jahre VOR dem Börsencrash (1929). Ihre Ursachen waren der Versailler Vertrag, die Reparationen und das Gelddrucken des Staates – prüfe bei jeder Kette immer zuerst die Jahreszahlen!"
-   },
-   {
-    "id": "q5",
-    "type": "single_choice",
-    "prompt": "Warum verschlimmerte die Sparpolitik von Reichskanzler Brüning die Wirtschaftskrise, statt sie zu lösen?",
-    "options": [
-     {
-      "text": "Sparen nahm den Menschen Kaufkraft, dadurch stiegen Arbeitslosigkeit weiter und Steuereinnahmen sanken – ein Teufelskreis",
-      "correct": true
-     },
-     {
-      "text": "Der Staat gab durch das Sparen zu viel Geld aus und löste damit eine neue Inflation aus"
-     },
-     {
-      "text": "Das Sparen führte dazu, dass die USA sofort alle Kredite zurückzahlten"
-     },
-     {
-      "text": "Die Sparpolitik betraf nur Liechtenstein, nicht Deutschland"
-     }
-    ],
-    "explanation": "Brünings Kürzungen von Löhnen, Renten und Staatsausgaben entzogen der Wirtschaft Kaufkraft. Firmen verkauften weniger, entließen Personal, der Staat nahm weniger Steuern ein – und sparte deshalb noch mehr. Der Kreislauf verstärkte sich mit jeder Runde selbst: ein klassischer Teufelskreis."
-   },
-   {
-    "id": "q6",
-    "type": "true_false",
-    "prompt": "Liechtenstein führte 1924 den Schweizer Franken ein, nachdem die österreichische Krone durch die Inflation nach dem Ersten Weltkrieg massiv entwertet worden war.",
-    "answer": true,
-    "explanation": "Richtig – und das ist eine eigene kleine Ursache-Wirkungs-Kette: Kronen-Inflation → Ersparnisse in Liechtenstein entwertet → Abwendung von Österreich → Zollvertrag mit der Schweiz (1923) → offizielle Einführung des Schweizer Frankens (1924). Die stabile Währung wurde zu einem Grundstein für Liechtensteins spätere Entwicklung."
-   }
-  ]
- }
+ ]
 }

@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-05-wirtschaftssektoren-strukturwandel",
  "title": "Wirtschaftssektoren und Strukturwandel",
  "description": "Vom Bauernhof über die Fabrik zur Bank: Du lernst die drei Wirtschaftssektoren kennen und ordnest Berufe aus deinem Umfeld ein. Du entdeckst, warum die Beschäftigung im Lauf der Zeit vom 1. über den 2. in den 3. Sektor gewandert ist – und warum Liechtenstein dabei einen besonderen Weg geht.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.1.2",
+     "description": "Die Schülerinnen und Schüler können Veränderungen in der Arbeitswelt und deren Folgen untersuchen."
+    },
+    {
+     "code": "WAH.1.3",
+     "description": "Die Schülerinnen und Schüler können die Produktion von Gütern und Dienstleistungen erkunden und vergleichen."
+    }
+   ]
+  }
+ ],
  "sequenz": 5,
  "einheit": "Themenblock A: Grundbegriffe und Wirtschaftskreislauf",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "leicht",
  "keywords": [
@@ -33,16 +48,6 @@
   "Ich kann die drei Wirtschaftssektoren unterscheiden – 1. Sektor (Landwirtschaft und Rohstoffgewinnung), 2. Sektor (Industrie, Handwerk und Bau), 3. Sektor (Dienstleistungen) – und jedem Sektor typische Berufe und Betriebe zuordnen.",
   "Ich kann den Strukturwandel beschreiben: Die Beschäftigung hat sich im Lauf der Zeit vom 1. über den 2. zum 3. Sektor verschoben – und ich kann die wichtigsten Gründe dafür in einfachen Worten erklären (Maschinen und Technologie, gestiegene Produktivität, veränderte Nachfrage).",
   "Ich kann Liechtenstein einordnen: Für ein so kleines Land hat es einen ungewöhnlich starken Industriesektor und zugleich einen starken Dienstleistungssektor – der Strukturwandel verläuft also nicht überall gleich."
- ],
- "competencies": [
-  {
-   "code": "WAH.1.2",
-   "description": "Die Schülerinnen und Schüler können Veränderungen in der Arbeitswelt und deren Folgen untersuchen."
-  },
-  {
-   "code": "WAH.1.3",
-   "description": "Die Schülerinnen und Schüler können die Produktion von Gütern und Dienstleistungen erkunden und vergleichen."
-  }
  ],
  "sources": [
   {

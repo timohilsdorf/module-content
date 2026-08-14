@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-31-debatte-frieden-sichern",
  "title": "Debattenvorbereitung: Frieden sichern – aber wie?",
  "description": "Diplomatie, Sanktionen, Blauhelme – oder braucht es am Ende doch eine Armee? Hier bereitest du dich auf die Debatte im Unterricht vor: Du lernst den Instrumentenkasten der Friedenssicherung kennen, verstehst Neutralität als Sonderweg – mit der Schweiz als bekanntestem Beispiel und Liechtenstein ohne Armee seit 1868 – und erhältst zu zwei Streitfragen je drei ausgearbeitete Pro- und Contra-Argumente nach dem bekannten Bauplan. Das Modul bezieht keine Position – die Bewertung nimmst du in der Debatte vor.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    },
+    {
+     "code": "LBO.5.6",
+     "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    }
+   ]
+  }
+ ],
  "sequenz": 31,
  "einheit": "Themenblock F: Europa & internationale Politik",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -34,16 +49,6 @@
   "Ich verstehe Neutralität als Sonderweg: die Schweiz als bekanntestes Beispiel – und Liechtenstein als Staat ohne Armee seit 1868.",
   "Ich kann den Argument-Bauplan aus Modul 9 (Behauptung – Begründung – Beispiel) auf beide Debattenfragen anwenden.",
   "Ich kann zu beiden Streitfragen je drei Pro- und Contra-Argumente in eigenen Worten wiedergeben – ohne dass mir das Modul eine Position vorgibt."
- ],
- "competencies": [
-  {
-   "code": "RZG.8.2",
-   "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
-  },
-  {
-   "code": "LBO.5.6",
-   "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
-  }
  ],
  "sources": [
   {
