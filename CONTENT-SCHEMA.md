@@ -26,6 +26,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): neuer **prüfender** Blocktyp [`term`](#term--mathematischen-term-eingeben-automatisch-geprüft) – Eingabe eines mathematischen Terms, bei dem jede **äquivalente Umformung** als richtig gilt (`2*(x+3)` = `2x+6`). Geprüft wird mit mathjs: symbolische Vereinfachung der Differenz, ergänzt durch deterministische numerische Stichproben, wo die Vereinfachung nicht eindeutig entscheidet. Syntaktisch ungültige Eingaben werden nie als falsch gewertet, sondern mit einer Korrektur-Aufforderung abgefangen. Bestehende Dateien bleiben gültig; ältere Player zeigen einen Platzhalter. |
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): [**Aufgaben-Varianten**](#aufgaben-varianten) für `lueckentext`, `zuordnung`, `numerisch` und `term`. Ein Block darf neben seinem normalen Inhalt (= Variante A) eine Liste `varianten` mit weiteren, vollständig ausformulierten Fassungen tragen; der Player zieht beim Öffnen zufällig eine, «Wiederholen» zieht eine andere. Jede Fassung muss dieselbe Punktzahl ergeben; der Lernstand bleibt pro Block, die gezogene Fassung wird weder gespeichert noch übermittelt. **Bewusst ohne Varianten:** `tasks`, `quiz`, `simulation`, `planspiel` (die Validierung lehnt das Feld dort ab). **Achtung Rollout:** Ältere Player lehnen Module MIT `varianten` hart ab (kein Platzhalter) – erst nach dem zugehörigen Plattform-Deploy einreichen. |
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): optionale **Zuordnungstabelle [`lehrplaene`](#mehrere-lehrpläne)** auf Modulebene – dasselbe Modul liegt ohne Duplikat in mehreren Lehrplänen (pro Kennung Fach, Stufe im Modell des Lehrplans und optionale Kompetenzverweise); die Startseite bekommt dazu eine Lehrplan-Auswahl mit Flagge. Bestehende Module funktionieren unverändert (implizite Migration aus `subject`/`cycle`/`curriculum`). **Achtung Rollout wie beim satzbau:** Ältere Player lehnen Module MIT `lehrplaene` ab (striktes Schema) – solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
+| 2 | 13. August 2026 | Additiv (kein Versionswechsel): Lehrplan-Einträge dürfen statt einer Schulstufe die Stufe **[`selbststudium: true`](#mehrere-lehrpläne)** tragen – für Module oberhalb der Schulzeit (z. B. das technische Demo-Modul); der Katalog führt sie unter der eigenen Stufe «Selbststudium» NACH der höchsten Klassenstufe. Zugleich zeigt die Modulseite die **Kompetenzverweise je Lehrplan**: Bei gewähltem Lehrplan erscheinen die `kompetenzen` des passenden `lehrplaene`-Eintrags (bzw. der impliziten Migration aus `competencies`); **fehlen sie für die Wahl, entfällt die Kompetenz-Zeile** – wer sie behalten will, pflegt `kompetenzen` in jedem Eintrag. **Achtung Rollout wie bei `lehrplaene`:** Module MIT `selbststudium` erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -833,6 +834,12 @@ Lehrplan-Auswahl mit dem DORT geltenden Fach und der dortigen Stufe:
 - `li`/`ch` arbeiten mit **Zyklen** (`zyklus: 1|2|3`), `de`/`at` mit
   **Klassenstufen** (`klassen: [9]` oder `[8, 9]`) – die Validierung
   erzwingt das jeweils passende Feld.
+- **`selbststudium: true`** (seit 13.8.2026) ersetzt die Schulstufe im
+  jeweiligen Eintrag: Das Modul richtet sich ans freie Selbststudium
+  oberhalb der Schulzeit (z. B. das technische Demo-Modul) und
+  erscheint im Katalog unter der eigenen Stufe «Selbststudium» NACH
+  der höchsten Klassenstufe. Ein Eintrag trägt ENTWEDER
+  `zyklus`/`klassen` ODER `selbststudium` – nie beides.
 - **Fehlt ein Lehrplan in der Tabelle, erscheint das Modul bei dieser
   Auswahl nicht** – dann gibt es das Fach dort schlicht nicht.
 - Ohne `lehrplaene` gilt die bisherige Zuordnung aus
@@ -842,7 +849,12 @@ Lehrplan-Auswahl mit dem DORT geltenden Fach und der dortigen Stufe:
   wer den Heimat-Lehrplan behalten will, trägt ihn explizit ein.
 - `kompetenzen` je Eintrag sind frei formatiert (`code` + optional
   `description`) – andere Lehrpläne nummerieren anders als der
-  Lehrplan 21.
+  Lehrplan 21. Die Modulseite zeigt unter den Lernzielen die
+  Kompetenzen des GEWÄHLTEN Lehrplans (seit 13.8.2026): Fehlen sie im
+  Eintrag der Wahl, entfällt die Zeile dort – Kompetenzen also in
+  JEDEM Eintrag pflegen, in dem sie erscheinen sollen (bei Modulen
+  ohne `lehrplaene` übernimmt die implizite Migration weiterhin das
+  Legacy-Feld `competencies`).
 
 ## Prüfende Blöcke und Modulabschluss
 

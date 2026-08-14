@@ -23,17 +23,25 @@
   }
  ],
  "lehrplaene": {
-  "li": {
-   "fach": "RZG",
-   "fachName": "Räume, Zeiten, Gesellschaften",
-   "zyklus": 3,
-   "stufeText": "7.–9. Klasse (Sek I)"
-  },
   "ch": {
    "fach": "RZG",
    "fachName": "Räume, Zeiten, Gesellschaften",
    "zyklus": 3,
-   "stufeText": "7.–9. Klasse (Sek I)"
+   "stufeText": "7.–9. Klasse (Sek I)",
+   "kompetenzen": [
+    {
+     "code": "RZG.1.3.b",
+     "description": "Die Schülerinnen und Schüler können sich über aktuelle Naturereignisse informieren und deren Ursachen erklären."
+    },
+    {
+     "code": "RZG.1.3.c",
+     "description": "Die Schülerinnen und Schüler können die Auswirkungen von Naturereignissen auf Lebenssituationen von Menschen und auf die Umwelt benennen und einschätzen."
+    },
+    {
+     "code": "RZG.1.2.c",
+     "description": "Die Schülerinnen und Schüler können sich über den Klimawandel informieren, Ursachen erläutern und Auswirkungen des Klimawandels auf verschiedene Regionen der Welt, insbesondere die Schweiz, einschätzen."
+    }
+   ]
   }
  },
  "learningObjectives": [

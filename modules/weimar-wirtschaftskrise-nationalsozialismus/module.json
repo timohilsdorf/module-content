@@ -50,13 +50,41 @@
    "fach": "RZG",
    "fachName": "Räume, Zeiten, Gesellschaften",
    "zyklus": 3,
-   "stufeText": "8.–9. Klasse (Sek I)"
+   "stufeText": "8.–9. Klasse (Sek I)",
+   "kompetenzen": [
+    {
+     "code": "RZG.6.2",
+     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
+    },
+    {
+     "code": "RZG.7.1",
+     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
+    }
+   ]
   },
   "ch": {
    "fach": "RZG",
    "fachName": "Räume, Zeiten, Gesellschaften",
    "zyklus": 3,
-   "stufeText": "7.–9. Klasse (Sek I)"
+   "stufeText": "7.–9. Klasse (Sek I)",
+   "kompetenzen": [
+    {
+     "code": "RZG.6.2",
+     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
+    },
+    {
+     "code": "RZG.7.1",
+     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
+    }
+   ]
   },
   "de": {
    "fach": "Geschichte",
