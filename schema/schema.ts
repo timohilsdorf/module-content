@@ -178,6 +178,17 @@ import { z } from "zod";
  *   bewusst ohne Eigennamen-Ausnahme (amtliche Schweizer Praxis).
  *   Antwortvergleiche (istLueckeRichtig) falten ß/ss beidseitig –
  *   Lernende antworten mit jeder Tastatur in beiden Schreibweisen.
+ * - 2, additive Ergänzung (13.8.2026, KEIN Versionswechsel):
+ *   Lehrplan-Einträge dürfen statt einer Schulstufe die Stufe
+ *   `selbststudium: true` tragen – für Module oberhalb der Schulzeit
+ *   (z. B. das technische Demo-Modul). Der Katalog zeigt sie unter der
+ *   eigenen Stufe «Selbststudium» NACH der höchsten Klassenstufe.
+ *   Zugleich zeigt die Modulseite die Kompetenzverweise seither JE
+ *   LEHRPLAN: Bei gewähltem Lehrplan erscheinen die `kompetenzen` des
+ *   passenden lehrplaene-Eintrags (bzw. der impliziten Migration);
+ *   fehlen sie für die Wahl, entfällt die Kompetenz-Zeile. ACHTUNG
+ *   Rollout wie bei `lehrplaene`: strictObject – Module MIT
+ *   `selbststudium` erst NACH dem Plattform-Deploy einreichen.
  */
 export const SCHEMA_VERSION = 2;
 
@@ -305,8 +316,9 @@ export const lehrplanKompetenzSchema = z.strictObject({
 
 /**
  * Zuordnung eines Moduls zu EINEM Lehrplan: das dort geltende Fach,
- * die Stufe im Modell des Lehrplans (zyklus ODER klassen – erzwungen
- * über pruefeLehrplaene) und optionale Kompetenzverweise.
+ * die Stufe im Modell des Lehrplans (zyklus ODER klassen ODER
+ * selbststudium – erzwungen über pruefeLehrplaene) und optionale
+ * Kompetenzverweise.
  */
 export const lehrplanEintragSchema = z.strictObject({
   /** Fachkürzel im Ziel-Lehrplan, z. B. "RZG" oder "Geschichte". */
@@ -317,6 +329,14 @@ export const lehrplanEintragSchema = z.strictObject({
   zyklus: z.union([z.literal(1), z.literal(2), z.literal(3)]).optional(),
   /** Stufenmodell "klasse": Klassenstufen, z. B. [9] oder [8, 9]. */
   klassen: z.array(z.number().int().min(1).max(13)).min(1).max(13).optional(),
+  /**
+   * Stufe OBERHALB der Schulzeit (seit 13.8.2026): Das Modul richtet
+   * sich ans freie Selbststudium statt an eine Klassenstufe (z. B. das
+   * technische Demo-Modul). Ersetzt zyklus/klassen im jeweiligen
+   * Eintrag; im Katalog erscheint es unter der eigenen Stufe
+   * «Selbststudium» NACH der höchsten Klassenstufe.
+   */
+  selbststudium: z.literal(true).optional(),
   /** Freitext-Stufe für die Anzeige, z. B. "7.–9. Klasse (Sek I)". */
   stufeText: z.string().trim().min(1).max(80).optional(),
   kompetenzen: z.array(lehrplanKompetenzSchema).default([]),
@@ -348,12 +368,24 @@ function pruefeLehrplaene(
       });
       continue;
     }
+    // Selbststudium ersetzt die Schulstufe komplett – ein Eintrag darf
+    // nie beides tragen (die Facette wäre widersprüchlich).
+    if (eintrag.selbststudium === true) {
+      if (eintrag.zyklus !== undefined || eintrag.klassen !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["lehrplaene", kennung, "selbststudium"],
+          message: `Lehrplan "${kennung}": "selbststudium" ersetzt die Schulstufe – "zyklus"/"klassen" im selben Eintrag entfernen.`,
+        });
+      }
+      continue;
+    }
     if (plan.stufenmodell === "zyklus") {
       if (eintrag.zyklus === undefined) {
         ctx.addIssue({
           code: "custom",
           path: ["lehrplaene", kennung, "zyklus"],
-          message: `Lehrplan "${kennung}" arbeitet mit Zyklen – der Eintrag braucht "zyklus": 1, 2 oder 3.`,
+          message: `Lehrplan "${kennung}" arbeitet mit Zyklen – der Eintrag braucht "zyklus": 1, 2 oder 3 (oder "selbststudium": true).`,
         });
       }
       if (eintrag.klassen !== undefined) {
@@ -368,7 +400,7 @@ function pruefeLehrplaene(
         ctx.addIssue({
           code: "custom",
           path: ["lehrplaene", kennung, "klassen"],
-          message: `Lehrplan "${kennung}" arbeitet mit Klassenstufen – der Eintrag braucht "klassen": [9] oder [8, 9].`,
+          message: `Lehrplan "${kennung}" arbeitet mit Klassenstufen – der Eintrag braucht "klassen": [9] oder [8, 9] (oder "selbststudium": true).`,
         });
       }
       if (eintrag.zyklus !== undefined) {

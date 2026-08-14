@@ -23,17 +23,25 @@
   }
  ],
  "lehrplaene": {
-  "li": {
-   "fach": "RZG",
-   "fachName": "Räume, Zeiten, Gesellschaften",
-   "zyklus": 3,
-   "stufeText": "7.–9. Klasse (Sek I)"
-  },
   "ch": {
    "fach": "RZG",
    "fachName": "Räume, Zeiten, Gesellschaften",
    "zyklus": 3,
-   "stufeText": "7.–9. Klasse (Sek I)"
+   "stufeText": "7.–9. Klasse (Sek I)",
+   "kompetenzen": [
+    {
+     "code": "RZG.5.2.a",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung der Erwerbssektoren am Beispiel der Schweiz aufzeigen und erläutern (Wandel von der Agrar- zur Industrie- und zur Dienstleistungsgesellschaft)."
+    },
+    {
+     "code": "RZG.6.2.b",
+     "description": "Die Schülerinnen und Schüler können zu einem Aspekt der Industrialisierung verschiedene Informationen finden und miteinander vergleichen (z. B. ein Bild, eine Textquelle, ein Erlebnisbericht; Industrialisierung, Soziale Frage, Kinderarbeit)."
+    },
+    {
+     "code": "RZG.5.2.c",
+     "description": "Die Schülerinnen und Schüler können Auswirkungen von wirtschaftlichen Veränderungen auf einzelne Menschen erklären (z. B. Technisierung)."
+    }
+   ]
   }
  },
  "learningObjectives": [

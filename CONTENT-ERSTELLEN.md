@@ -49,6 +49,11 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >   Bindestriche), "title", "description" (1–3 Sätze), "subject",
 >   "cycle", "learningObjectives" (Liste von «Ich kann …»-Sätzen),
 >   "blocks" (Liste der Inhaltsblöcke).
+> - Die "description" beschreibt NUR den Inhalt («Worum geht es?») –
+>   KEINE Modulnummern, Schulwochen, Schulstufen oder Zug-Angaben
+>   (die liegen strukturiert in den Metadaten und können je Lehrplan
+>   verschieden sein). Bei Zielsprache Englisch ("language": "en")
+>   ist auch die "description" auf Englisch verfasst.
 > - Empfohlen: "subjectName" (ausgeschriebener Fachname), "grades",
 >   "durationMinutes", "difficulty" («leicht», «mittel» oder
 >   «anspruchsvoll»), "keywords", "competencies" (Liste von
@@ -60,7 +65,11 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 >   Zeiten, Gesellschaften", "zyklus": 3}, "de": {"fach": "Geschichte",
 >   "klassen": [9]}} – Kennungen li/ch/de/at; li und ch brauchen
 >   "zyklus" (1–3), de und at "klassen" (z. B. [9] oder [8, 9]);
->   optionale "kompetenzen" je Eintrag ({"code", "description"}).
+>   Module oberhalb der Schulzeit tragen stattdessen
+>   "selbststudium": true (eigene Katalog-Stufe «Selbststudium»);
+>   optionale "kompetenzen" je Eintrag ({"code", "description"}) –
+>   die Modulseite zeigt die Kompetenzen des GEWÄHLTEN Lehrplans,
+>   ohne Eintrag entfällt die Zeile dort.
 >   Fehlt ein Lehrplan, erscheint das Modul bei dieser Auswahl nicht;
 >   ohne das Feld gilt die Zuordnung aus subject/cycle/curriculum, MIT
 >   dem Feld gilt NUR die Tabelle (Heimat-Lehrplan mit eintragen).
