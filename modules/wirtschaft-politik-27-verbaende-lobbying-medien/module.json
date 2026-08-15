@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-27-verbaende-lobbying-medien",
  "title": "Interessenvertretung: Verbände, Lobbying, Medien",
  "description": "Wer steckt hinter einer Kampagne – und was hätte er davon? Hier lernst du, wie Verbände Interessen bündeln, wägst Nutzen und Risiken des Lobbyings ausgewogen ab, erkennst die Doppelrolle der Medien als Verstärker und Kontrolleure – und wendest die wichtigste Prüffrage der politischen Bildung auf frei erfundene Kampagnen an: Wer ist der Absender?",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "MI.1.2",
+     "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    },
+    {
+     "code": "LBO.5.6",
+     "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    }
+   ]
+  }
+ ],
  "sequenz": 27,
  "einheit": "Themenblock E: Politik & Wirtschaft",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -33,16 +48,6 @@
   "Ich kann Lobbying ausgewogen einordnen: Ich kenne die legitime Funktion – Fachwissen einbringen, Betroffene zu Wort bringen – und die Risiken – ungleiche Geldmittel und Einfluss im Verborgenen.",
   "Ich kann die Doppelrolle der Medien beschreiben: Sie verstärken Kampagnen und kontrollieren zugleich, wer dahintersteckt.",
   "Ich kann die Prüffrage «Wer ist der Absender?» auf Kampagnen und Studien anwenden – und erkläre, warum ein interessierter Absender nicht automatisch Unwahrheit bedeutet."
- ],
- "competencies": [
-  {
-   "code": "MI.1.2",
-   "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
-  },
-  {
-   "code": "LBO.5.6",
-   "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
-  }
  ],
  "sources": [
   {

@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
  "title": "Preisbildung und Marktgleichgewicht",
  "description": "Auf dem Flohmarkt feilschst du um jeden Franken, im Laden steht der Preis fest angeschrieben – aber wer legt ihn eigentlich fest? Hier erfährst du, wie aus Angebot und Nachfrage ein Marktpreis entsteht und was der Gleichgewichtspreis ist. Du lernst, woran man erkennt, dass ein Preis zu hoch oder zu tief liegt – und wertest euer Marktspiel aus dem Unterricht aus.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
+    }
+   ]
+  }
+ ],
  "sequenz": 7,
  "einheit": "Themenblock B: Markt und Preise",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -31,16 +46,6 @@
   "Ich kann erklären, wie aus Angebot und Nachfrage ein Marktpreis entsteht: Zu hohe Preise lassen Ware liegen, zu tiefe Preise leeren die Regale – der Preis pendelt sich dazwischen ein.",
   "Ich kann den Gleichgewichtspreis als den Preis erklären, bei dem angebotene und nachgefragte Menge übereinstimmen – der Markt ist dann geräumt.",
   "Ich kann die Folgen eines zu hohen Preises (Überschuss, Ladenhüter) und eines zu tiefen Preises (Knappheit, Schlangen) beschreiben und an Alltagsbeispielen erkennen."
- ],
- "competencies": [
-  {
-   "code": "WAH.2.1",
-   "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
-  },
-  {
-   "code": "WAH.3.1",
-   "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
-  }
  ],
  "sources": [
   {

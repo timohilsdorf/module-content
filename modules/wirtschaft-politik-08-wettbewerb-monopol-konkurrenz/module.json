@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
  "title": "Wettbewerb: Monopol und Konkurrenz",
  "description": "Warum ist die Tageskarte beim einzigen Skilift im Tal so teuer – und die Lieferpizza in der Stadt so günstig? Hier lernst du, wozu Wettbewerb gut ist, unterscheidest Monopol, Oligopol und Konkurrenz und erfährst, warum Preisabsprachen (Kartelle) verboten sind.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
+    }
+   ]
+  }
+ ],
  "sequenz": 8,
  "einheit": "Themenblock B: Markt und Preise",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -31,16 +46,6 @@
   "Ich kann erklären, wozu Wettbewerb gut ist: Er drückt die Preise, verbessert die Qualität und spornt zu neuen Ideen (Innovation) an.",
   "Ich kann Monopol und Konkurrenz als Gegenpole unterscheiden und das Oligopol als Zwischenform einordnen – jeweils mit einem Alltagsbeispiel.",
   "Ich kann erklären, warum Preisabsprachen (Kartelle) verboten sind: Sie schalten den Wettbewerb aus und schaden der Kundschaft."
- ],
- "competencies": [
-  {
-   "code": "WAH.2.1",
-   "description": "Die Schülerinnen und Schüler können Einblicke in Märkte und Handel gewinnen und Marktsituationen untersuchen."
-  },
-  {
-   "code": "WAH.3.1",
-   "description": "Die Schülerinnen und Schüler können Einflüsse auf Konsumentscheidungen erkennen und reflektieren."
-  }
  ],
  "sources": [
   {

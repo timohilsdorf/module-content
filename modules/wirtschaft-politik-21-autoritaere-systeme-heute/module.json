@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-21-autoritaere-systeme-heute",
  "title": "Autoritäre Systeme heute",
  "description": "Was passiert, wenn das Aushandeln abgeschafft wird? Du lernst die Merkmale autoritärer Herrschaft kennen – keine freien Wahlen, keine unabhängigen Gerichte und Medien, unterdrückte Opposition – und erfährst, wie digitale Instrumente wie Überwachung, Internetzensur und Sozialkreditsysteme diese Kontrolle verstärken. Am dokumentierten Fallbeispiel China siehst du, wie das konkret aussieht – sachlich und faktenbasiert.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  }
+ ],
  "sequenz": 21,
  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -32,16 +47,6 @@
   "Ich kann digitale Kontrollinstrumente beschreiben: flächendeckende Überwachung, Internetzensur, Sozialkreditsysteme und staatliche Propaganda.",
   "Ich kann das dokumentierte Fallbeispiel China beschreiben: Sozialkredit-Pilotprojekte und Internetkontrolle – sachlich und faktenbasiert.",
   "Ich kann den Kontrast zu Modul 20 ziehen und erkenne im Alltag der Menschen, was Demokratie von autoritärer Herrschaft unterscheidet."
- ],
- "competencies": [
-  {
-   "code": "RZG.8.1",
-   "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
-  },
-  {
-   "code": "RZG.8.2",
-   "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
-  }
  ],
  "sources": [
   {

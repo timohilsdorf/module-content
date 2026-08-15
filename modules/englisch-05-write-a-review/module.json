@@ -1,16 +1,35 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "englisch-05-write-a-review",
  "title": "Write a review",
  "description": "«Write a review» – part of the English learning path «Cate's Sound Lab»: From reading to writing. You analyse an example review, get to know the four building blocks of a review and typical useful phrases – and at the end you write your own review of a song or a band (80–120 words), with your opinion and your reasons. Level A2–B1.",
- "subject": "E",
- "subjectName": "Englisch",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "E",
+   "subjectName": "Englisch",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "E.4.A.1",
+     "description": "FS1E.4.A.1 (LiLe, Englisch 1. Fremdsprache – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+     "code": "E.2.A.1",
+     "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+     "code": "E.5.B.1",
+     "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+    }
+   ]
+  }
+ ],
  "sequenz": 5,
  "einheit": "Cate's Sound Lab – über Musik sprechen",
  "language": "en",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -29,20 +48,6 @@
   "I can write a short, structured review of a song or a band (80–120 words). (Ich kann ein kurzes, strukturiertes Review über einen Song oder eine Band schreiben, 80–120 Wörter.)",
   "I can give my opinion and support it with reasons. (Ich kann meine Meinung äußern und begründen.)",
   "I know the four building blocks of a review and typical review phrases. (Ich kenne die vier Bausteine eines Reviews und typische Review-Redemittel.)"
- ],
- "competencies": [
-  {
-   "code": "E.4.A.1",
-   "description": "FS1E.4.A.1 (LiLe, Englisch 1. Fremdsprache – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
-  },
-  {
-   "code": "E.2.A.1",
-   "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
-  },
-  {
-   "code": "E.5.B.1",
-   "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
-  }
  ],
  "sources": [
   {

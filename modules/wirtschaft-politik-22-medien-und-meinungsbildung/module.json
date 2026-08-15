@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-22-medien-und-meinungsbildung",
  "title": "Medien und Meinungsbildung",
  "description": "Zwischen einem Ereignis und deinem Feed liegen viele Entscheidungen – und an jeder kann Verzerrung entstehen. Hier verfolgst du den Weg einer Nachricht vom Ereignis bis zur Darstellung, unterscheidest Qualitätsjournalismus von Boulevard und ungeprüften Social-Media-Inhalten, erkennst Framing – und wendest drei praktische Fake-News-Checks an.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "MI.1.2",
+     "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    },
+    {
+     "code": "MI.1.1",
+     "description": "Die Schülerinnen und Schüler können sich in der physischen Umwelt sowie in medialen und virtuellen Lebensräumen orientieren und sich darin entsprechend den Gesetzen, Regeln und Wertesystemen verhalten."
+    }
+   ]
+  }
+ ],
  "sequenz": 22,
  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -32,16 +47,6 @@
   "Ich kann Qualitätsjournalismus von Boulevard und ungeprüften Social-Media-Inhalten unterscheiden – mit den Kriterien Quellenangabe, Trennung von Nachricht und Meinung sowie Korrekturkultur.",
   "Ich kann Framing erkennen: Dieselbe Tatsache kann durch Auswahl und Wortwahl unterschiedlich gerahmt werden.",
   "Ich kann drei praktische Fake-News-Checks anwenden: Quelle prüfen, Bild-Rückwärtssuche, Zweitquelle suchen."
- ],
- "competencies": [
-  {
-   "code": "MI.1.2",
-   "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
-  },
-  {
-   "code": "MI.1.1",
-   "description": "Die Schülerinnen und Schüler können sich in der physischen Umwelt sowie in medialen und virtuellen Lebensräumen orientieren und sich darin entsprechend den Gesetzen, Regeln und Wertesystemen verhalten."
-  }
  ],
  "sources": [
   {

@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "englisch-02-listen-or-hear",
  "title": "Listen or hear?",
  "description": "«Listen or hear?» – part of the English learning path «Cate's Sound Lab»: You learn the difference between listen (to) and hear, practise the right form in sentences from the world of songs and radio – and use the past simple and past perfect to tell what happened first on a concert night. Level A2–B1.",
- "subject": "E",
- "subjectName": "Englisch",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "E",
+   "subjectName": "Englisch",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "E.5.B.1",
+     "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+    },
+    {
+     "code": "E.5.D.1",
+     "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+    }
+   ]
+  }
+ ],
  "sequenz": 2,
  "einheit": "Cate's Sound Lab – über Musik sprechen",
  "language": "en",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -29,16 +44,6 @@
   "I can use listen (to) and hear correctly. (Ich kann listen (to) und hear richtig verwenden.)",
   "I can form and use the past perfect for the earlier of two past actions. (Ich kann das past perfect bilden und für die frühere von zwei vergangenen Handlungen verwenden.)",
   "I can decide which of two past actions happened first and choose the right tense. (Ich kann entscheiden, welche von zwei vergangenen Handlungen zuerst passierte, und die passende Zeitform wählen.)"
- ],
- "competencies": [
-  {
-   "code": "E.5.B.1",
-   "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
-  },
-  {
-   "code": "E.5.D.1",
-   "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
-  }
  ],
  "sources": [
   {

@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-11-versicherungen",
  "title": "Versicherungen: sinnvoll oder unnötig?",
  "description": "Handyversicherung: ja oder nein? Hier lernst du das Grundprinzip jeder Versicherung kennen – das Kollektiv trägt das Risiko des Einzelnen – und wendest zwei Faustregeln an, mit denen du sinnvolle von unnötigen Angeboten unterscheidest. Zum Schluss sortierst du zehn Versicherungsprodukte in fünf Kategorien von «obligatorisch» bis «kritisch prüfen».",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.5.2",
+     "description": "Die Schülerinnen und Schüler können soziale, rechtliche und ökonomische Aspekte im Alltag und im Zusammenleben recherchieren."
+    },
+    {
+     "code": "WAH.3.3",
+     "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    }
+   ]
+  }
+ ],
  "sequenz": 11,
  "einheit": "Themenblock C: Geld, Banken, Finanzwissen",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -30,16 +45,6 @@
   "Ich kann das Grundprinzip einer Versicherung erklären: Das Kollektiv trägt das Risiko des Einzelnen, die Prämie ist der Preis dafür.",
   "Ich kann die zwei Faustregeln anwenden: existenzbedrohende Risiken versichern, kleine Schäden selbst tragen – und Versichern nicht mit Sparen vermischen.",
   "Ich kann Versicherungen in die Kategorien obligatorisch, sehr sinnvoll, situativ, meist unnötig und kritisch prüfen einordnen."
- ],
- "competencies": [
-  {
-   "code": "WAH.5.2",
-   "description": "Die Schülerinnen und Schüler können soziale, rechtliche und ökonomische Aspekte im Alltag und im Zusammenleben recherchieren."
-  },
-  {
-   "code": "WAH.3.3",
-   "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
-  }
  ],
  "sources": [
   {

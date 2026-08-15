@@ -28,9 +28,10 @@ Mitwirkende vergeben, sondern PRs aus Forks arbeiten lassen.)*
 ## Schritt 1: Modul mit der KI entwerfen
 
 Öffne deinen KI-Chat und kopiere die folgende Vorlage hinein. Ersetze nur
-die vier Angaben in den ersten Zeilen (Thema, Fach, Zyklus, Kompetenzen —
-Kompetenzcodes findest du auf [lehrplan21.ch](https://www.lehrplan21.ch)
-oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
+die vier Angaben in den ersten Zeilen (Thema, Lehrplan, Fach,
+Stufe/Klasse — Kompetenzcodes findest du z. B. auf
+[lehrplan21.ch](https://www.lehrplan21.ch) oder du lässt die KI
+Vorschläge machen und prüfst sie dort nach).
 
 > **Prompt-Vorlage (kopieren und ausfüllen):**
 >
@@ -38,41 +39,41 @@ oder du lässt die KI Vorschläge machen und prüfst sie dort nach).
 > Erstelle mir ein Lernmodul für die Lernplattform EveryCate.
 >
 > Thema: [DEIN THEMA, z. B. «Der Wasserkreislauf»]
-> Fach (Lehrplan-21-Kürzel): [z. B. NT, RZG, D, MA, NMG]
-> Zyklus: [1, 2 oder 3 — Zyklus 3 = Sekundarstufe I]
-> Lehrplan-21-Kompetenzen: [z. B. NT.3.2 — oder: «schlage passende vor»]
+> Lehrplan: [li (Liechtenstein), ch (Lehrplan 21), de oder at]
+> Fach: [Kürzel oder Name im Ziel-Lehrplan, z. B. NT, RZG, Geschichte]
+> Stufe/Klasse: [Klassenzahlen, z. B. 9 oder 7–9]
+> Kompetenzen: [z. B. NT.3.2 — oder: «schlage passende vor»]
 >
 > Das Modul ist eine einzige JSON-Datei nach folgendem Format. Halte dich
 > exakt daran:
 >
-> - Pflichtfelder: "schemaVersion": 2, "id" (nur Kleinbuchstaben, Ziffern,
->   Bindestriche), "title", "description" (1–3 Sätze), "subject",
->   "cycle", "learningObjectives" (Liste von «Ich kann …»-Sätzen),
->   "blocks" (Liste der Inhaltsblöcke).
+> - Pflichtfelder: "schemaVersion": 3, "id" (nur Kleinbuchstaben, Ziffern,
+>   Bindestriche), "title", "description" (1–3 Sätze), "curricula"
+>   (Lehrplan-Zuordnungen, siehe unten), "learningObjectives" (Liste
+>   von «Ich kann …»-Sätzen), "blocks" (Liste der Inhaltsblöcke).
 > - Die "description" beschreibt NUR den Inhalt («Worum geht es?») –
 >   KEINE Modulnummern, Schulwochen, Schulstufen oder Zug-Angaben
 >   (die liegen strukturiert in den Metadaten und können je Lehrplan
 >   verschieden sein). Bei Zielsprache Englisch ("language": "en")
 >   ist auch die "description" auf Englisch verfasst.
-> - Empfohlen: "subjectName" (ausgeschriebener Fachname), "grades",
->   "durationMinutes", "difficulty" («leicht», «mittel» oder
->   «anspruchsvoll»), "keywords", "competencies" (Liste von
->   {"code", "description"}), "curriculum" (Lehrplan-Referenzrahmen,
->   Standard "lehrplan21"), "sources" (Liste von {"title", "url"}),
->   "license": "CC BY-SA 4.0", "authors".
-> - Optional "lehrplaene": Zuordnung zu MEHREREN Lehrplänen ohne
->   Modul-Duplikat, z. B. {"ch": {"fach": "RZG", "fachName": "Räume,
->   Zeiten, Gesellschaften", "zyklus": 3}, "de": {"fach": "Geschichte",
->   "klassen": [9]}} – Kennungen li/ch/de/at; li und ch brauchen
->   "zyklus" (1–3), de und at "klassen" (z. B. [9] oder [8, 9]);
->   Module oberhalb der Schulzeit tragen stattdessen
->   "selbststudium": true (eigene Katalog-Stufe «Selbststudium»);
->   optionale "kompetenzen" je Eintrag ({"code", "description"}) –
->   die Modulseite zeigt die Kompetenzen des GEWÄHLTEN Lehrplans,
->   ohne Eintrag entfällt die Zeile dort.
->   Fehlt ein Lehrplan, erscheint das Modul bei dieser Auswahl nicht;
->   ohne das Feld gilt die Zuordnung aus subject/cycle/curriculum, MIT
->   dem Feld gilt NUR die Tabelle (Heimat-Lehrplan mit eintragen).
+> - "curricula": Liste der Lehrplan-Zuordnungen – Fach, Stufe und
+>   Kompetenzen leben NUR hier. Ein Eintrag je Lehrplan, z. B.
+>   [{"curriculum": "li", "subject": "RZG", "subjectName": "Räume,
+>   Zeiten, Gesellschaften", "grades": [7, 8, 9], "competencies":
+>   [{"code": "RZG.4.2.c", "description": "…"}]}, {"curriculum": "de",
+>   "subject": "Geschichte", "grades": [9]}] – Kennungen li/ch/de/at;
+>   "grades" sind die Klassenstufen als ZAHLEN (das Wort davor –
+>   «Stufe» bei li/ch, «Klasse» bei de/at – ergänzt die Plattform);
+>   Module ohne Klassenstufe tragen statt "grades" nur
+>   "gradesText": "Erwachsene" (eigene Katalog-Stufe nach den
+>   Klassenzahlen). "competencies" je Eintrag ({"code",
+>   "description"}, Format frei) – die Modulseite zeigt die
+>   Kompetenzen des Eintrags zur Lehrplan-Wahl; ohne Angaben entfällt
+>   die Zeile. Fehlt ein Lehrplan in der Liste, erscheint das Modul
+>   bei dieser Auswahl nicht (Heimat-Lehrplan immer mit eintragen).
+> - Empfohlen: "durationMinutes", "difficulty" («leicht», «mittel» oder
+>   «anspruchsvoll»), "keywords", "sources" (Liste von {"title",
+>   "url"}), "license": "CC BY-SA 4.0", "authors".
 > - Gehört das Modul zu einer Reihe: "sequenz" (Lernreihenfolge innerhalb
 >   von Fach/Einheit, ganze Zahl, 1 = zuerst – der Katalog sortiert
 >   danach, nicht nach Dateinamen) und "einheit" (Name der Themengruppe,
@@ -274,44 +275,46 @@ KI auch den Inhalt dieser Datei mitgeben.
 
 ## Ein Modul mehreren Lehrplänen zuordnen
 
-Seit dem 11.8.2026 kann ein Modul **ohne Duplikat** in mehreren
-Lehrplänen liegen: Die Startseite hat eine Lehrplan-Auswahl (Flagge +
-Land), und ein Modul erscheint unter jeder Auswahl, für die es einen
-Eintrag in `lehrplaene` trägt – mit dem **dort** geltenden Fach und der
-dortigen Stufe. Beispiel: Das Modul zur Weimarer Republik liegt unter
-dem Lehrplan 21 im Fach RZG (Zyklus 3) und unter dem deutschen
-Lehrplan im Fach Geschichte (Klasse 9):
+Ein Modul liegt **ohne Duplikat** in mehreren Lehrplänen: Die
+Startseite hat eine Lehrplan-Auswahl (Flagge + Land), und ein Modul
+erscheint unter jeder Auswahl, für die es einen Eintrag in `curricula`
+trägt – mit dem **dort** geltenden Fach und der dortigen Stufe (auch
+der Modulkopf folgt der Auswahl). Beispiel: Das Modul zur Weimarer
+Republik liegt unter dem Lehrplan 21 im Fach RZG (Stufe 7–9) und unter
+dem deutschen Lehrplan im Fach Geschichte (Klasse 9):
 
 ```json
-"lehrplaene": {
-  "ch": {
-    "fach": "RZG",
-    "fachName": "Räume, Zeiten, Gesellschaften",
-    "zyklus": 3,
-    "stufeText": "7.–9. Klasse (Sek I)"
+"curricula": [
+  {
+    "curriculum": "ch",
+    "subject": "RZG",
+    "subjectName": "Räume, Zeiten, Gesellschaften",
+    "grades": [7, 8, 9]
   },
-  "de": {
-    "fach": "Geschichte",
-    "klassen": [9]
+  {
+    "curriculum": "de",
+    "subject": "Geschichte",
+    "grades": [9]
   }
-}
+]
 ```
 
 Wichtig zu wissen:
 
-- **Fehlt ein Lehrplan in der Tabelle, erscheint das Modul bei dieser
-  Auswahl nicht** – dann gibt es das Fach dort schlicht nicht. Es
-  reicht also, genau die Lehrpläne einzutragen, für die das Modul
-  wirklich passt.
-- Bestehende Module ohne `lehrplaene` funktionieren unverändert: Ihre
-  Zuordnung kommt weiter aus `subject`/`cycle`/`curriculum`. **Sobald
-  du `lehrplaene` einträgst, gilt NUR noch diese Tabelle** – trage den
-  Heimat-Lehrplan (meist `li`) also mit ein.
-- `li` und `ch` arbeiten mit Zyklen, `de` und `at` mit Klassenstufen –
-  die Validierung erzwingt das passende Feld und lehnt unbekannte
-  Kennungen ab.
+- **Fehlt ein Lehrplan in der Liste, erscheint das Modul bei dieser
+  Auswahl nicht** – dann gibt es das Fach dort schlicht nicht. Trage
+  genau die Lehrpläne ein, für die das Modul wirklich passt – den
+  Heimat-Lehrplan (meist `li`) immer.
+- `grades` sind die Klassenstufen als **Zahlen** (für ALLE Lehrpläne
+  gleich); das Wort davor – «Stufe» bei `li`/`ch`, «Klasse» bei
+  `de`/`at` – ergänzt die Plattform in der Anzeige selbst. Module
+  ohne Klassenstufe (Material für Erwachsene, das Demo-Modul) tragen
+  statt `grades` nur `"gradesText": "Erwachsene"`.
+- Kompetenzverweise gehören als `competencies` in JEDEN Eintrag, in
+  dem sie auf der Modulseite erscheinen sollen (Format frei – andere
+  Lehrpläne nummerieren anders als der Lehrplan 21).
 - Details und alle Felder: [CONTENT-SCHEMA.md](CONTENT-SCHEMA.md),
-  Abschnitt «Mehrere Lehrpläne».
+  Abschnitt «Mehrere Lehrpläne (curricula)».
 
 ## Orthografie: ß schreiben, ss wird angezeigt
 

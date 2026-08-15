@@ -1,4 +1,4 @@
-# EveryCate Content-Schema (Version 2)
+# EveryCate Content-Schema (Version 3)
 
 Dieses Dokument beschreibt das dateibasierte Format für Lernmodule –
 vollständig genug, dass **Menschen und KIs** damit eigenständig gültige
@@ -26,7 +26,8 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): neuer **prüfender** Blocktyp [`term`](#term--mathematischen-term-eingeben-automatisch-geprüft) – Eingabe eines mathematischen Terms, bei dem jede **äquivalente Umformung** als richtig gilt (`2*(x+3)` = `2x+6`). Geprüft wird mit mathjs: symbolische Vereinfachung der Differenz, ergänzt durch deterministische numerische Stichproben, wo die Vereinfachung nicht eindeutig entscheidet. Syntaktisch ungültige Eingaben werden nie als falsch gewertet, sondern mit einer Korrektur-Aufforderung abgefangen. Bestehende Dateien bleiben gültig; ältere Player zeigen einen Platzhalter. |
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): [**Aufgaben-Varianten**](#aufgaben-varianten) für `lueckentext`, `zuordnung`, `numerisch` und `term`. Ein Block darf neben seinem normalen Inhalt (= Variante A) eine Liste `varianten` mit weiteren, vollständig ausformulierten Fassungen tragen; der Player zieht beim Öffnen zufällig eine, «Wiederholen» zieht eine andere. Jede Fassung muss dieselbe Punktzahl ergeben; der Lernstand bleibt pro Block, die gezogene Fassung wird weder gespeichert noch übermittelt. **Bewusst ohne Varianten:** `tasks`, `quiz`, `simulation`, `planspiel` (die Validierung lehnt das Feld dort ab). **Achtung Rollout:** Ältere Player lehnen Module MIT `varianten` hart ab (kein Platzhalter) – erst nach dem zugehörigen Plattform-Deploy einreichen. |
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): optionale **Zuordnungstabelle [`lehrplaene`](#mehrere-lehrpläne)** auf Modulebene – dasselbe Modul liegt ohne Duplikat in mehreren Lehrplänen (pro Kennung Fach, Stufe im Modell des Lehrplans und optionale Kompetenzverweise); die Startseite bekommt dazu eine Lehrplan-Auswahl mit Flagge. Bestehende Module funktionieren unverändert (implizite Migration aus `subject`/`cycle`/`curriculum`). **Achtung Rollout wie beim satzbau:** Ältere Player lehnen Module MIT `lehrplaene` ab (striktes Schema) – solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
-| 2 | 13. August 2026 | Additiv (kein Versionswechsel): Lehrplan-Einträge dürfen statt einer Schulstufe die Stufe **[`selbststudium: true`](#mehrere-lehrpläne)** tragen – für Module oberhalb der Schulzeit (z. B. das technische Demo-Modul); der Katalog führt sie unter der eigenen Stufe «Selbststudium» NACH der höchsten Klassenstufe. Zugleich zeigt die Modulseite die **Kompetenzverweise je Lehrplan**: Bei gewähltem Lehrplan erscheinen die `kompetenzen` des passenden `lehrplaene`-Eintrags (bzw. der impliziten Migration aus `competencies`); **fehlen sie für die Wahl, entfällt die Kompetenz-Zeile** – wer sie behalten will, pflegt `kompetenzen` in jedem Eintrag. **Achtung Rollout wie bei `lehrplaene`:** Module MIT `selbststudium` erst NACH dem zugehörigen Plattform-Deploy einreichen. |
+| 2 | 13. August 2026 | Additiv (kein Versionswechsel): Lehrplan-Einträge dürfen statt einer Schulstufe die Stufe **`selbststudium: true`** tragen – für Module oberhalb der Schulzeit (z. B. das technische Demo-Modul); der Katalog führt sie unter der eigenen Stufe «Selbststudium» NACH der höchsten Klassenstufe. Zugleich zeigt die Modulseite die **Kompetenzverweise je Lehrplan**: Bei gewähltem Lehrplan erscheinen die `kompetenzen` des passenden `lehrplaene`-Eintrags (bzw. der impliziten Migration aus `competencies`); **fehlen sie für die Wahl, entfällt die Kompetenz-Zeile** – wer sie behalten will, pflegt `kompetenzen` in jedem Eintrag. **Achtung Rollout wie bei `lehrplaene`:** Module MIT `selbststudium` erst NACH dem zugehörigen Plattform-Deploy einreichen. |
+| **3** | 14. August 2026 | **Vereinheitlichte Lehrplan-Metadaten.** Die sechs Top-Level-Felder `subject`/`subjectName`/`cycle`/`grades`/`curriculum`/`competencies` **und** die Zuordnungstabelle `lehrplaene` sind ersetzt durch **ein** Feld [`curricula`](#mehrere-lehrpläne-curricula): eine **Liste** von Zuordnungen, je Eintrag `curriculum` (Kennung `li`/`ch`/`de`/`at`), `subject`/`subjectName`, Stufe und `competencies` (Code-Format frei). Die **Stufe** ist vereinheitlicht: Klassenstufen-**Zahlen** in `grades` (`[9]`, `[7, 8, 9]` – der Zyklus-Begriff entfällt, auch `li`/`ch` tragen Zahlen), davor ein **Bezeichner** («Stufe» bei `li`/`ch`, «Klasse» bei `de`/`at` – Standard-Wort aus der Lehrplan-Registry, per `gradesText` übersteuerbar; Anzeige «Stufe 7–9», «Klasse 9»). Module **ohne** Klassenstufe tragen nur `gradesText` (z. B. `"Erwachsene"` – ersetzt `selbststudium`, erscheint im Stufen-Filter nach allen Klassenstufen). Version-1/2-Dateien liest die **Plattform** weiterhin (verlustfreie Migration, wichtig für lokal eingeladene Module) – **dieses Repo nimmt nur noch Version 3 an** (Validator-Policy lehnt `schemaVersion` < 3 und die alten Top-Level-Felder mit Klartext-Meldung ab). Migrations-Mapping: siehe [Mehrere Lehrpläne](#mehrere-lehrpläne-curricula). **Achtung Rollout:** Ältere Player lehnen Version-3-Dateien hart ab – Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -69,18 +70,22 @@ Regeln:
 
 ```json
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "id": "mein-modul",
   "title": "Titel des Moduls",
   "description": "1–3 Sätze für den Katalog.",
-  "subject": "RZG",
-  "subjectName": "Räume, Zeiten, Gesellschaften",
-  "cycle": 3,
-  "grades": "7.–9. Klasse (Sek I)",
-  "language": "de",
-  "competencies": [
-    { "code": "RZG.4.2.c", "description": "…" }
+  "curricula": [
+    {
+      "curriculum": "li",
+      "subject": "RZG",
+      "subjectName": "Räume, Zeiten, Gesellschaften",
+      "grades": [7, 8, 9],
+      "competencies": [
+        { "code": "RZG.4.2.c", "description": "…" }
+      ]
+    }
   ],
+  "language": "de",
   "learningObjectives": [
     "Ich kann …"
   ],
@@ -99,20 +104,14 @@ Regeln:
 
 | Feld | Pflicht | Typ | Bedeutung |
 |---|---|---|---|
-| `schemaVersion` | ✅ | `2` | Version dieses Formats. Aktuell `2`; Version-1-Dateien bleiben gültig (automatische Migration, siehe Versionsgeschichte). |
+| `schemaVersion` | ✅ | `3` | Version dieses Formats. Dieses Repo nimmt nur noch `3` an; ältere Dateien liest die Plattform weiterhin (automatische Migration, siehe Versionsgeschichte). |
 | `id` | ✅ | string | Slug, identisch mit dem Ordnernamen. |
 | `title` | ✅ | string | Modultitel. |
 | `description` | ✅ | string | Kurzbeschreibung für den Katalog (1–3 Sätze). |
-| `subject` | ✅ | string | Fachkürzel nach Lehrplan 21, z. B. `RZG`, `NT`, `D`, `MA`, `NMG`. |
-| `subjectName` | – | string | Ausgeschriebener Fachname (Gruppierung im Katalog). |
-| `cycle` | ✅ | `1 \| 2 \| 3` | Lehrplan-21-Zyklus. `3` = Sekundarstufe I. |
-| `grades` | – | string | Freitext-Stufe, z. B. `"7.–9. Klasse (Sek I)"`. |
+| `curricula` | ✅* | Liste | **Lehrplan-Zuordnungen** (seit Version 3 die einzige Quelle für Fach, Stufe und Kompetenzen): je Eintrag ein Lehrplan, Felder siehe Tabelle unten. Die Reihenfolge der Liste ist die Anzeige-Reihenfolge der «alle Lehrpläne»-Zeile. **Fehlt ein Lehrplan, erscheint das Modul bei dieser Auswahl nicht.** *Für Repo-Module verlangt der Validator mindestens einen Eintrag. Siehe [Mehrere Lehrpläne](#mehrere-lehrpläne-curricula). |
 | `sequenz` | – | int > 0 | Lernreihenfolge innerhalb des Fachs bzw. der Einheit (`1` = zuerst). Der Katalog sortiert danach – unabhängig vom Dateinamen; Module ohne Wert folgen alphabetisch nach Titel. |
 | `einheit` | – | string (≤ 120) | Themengruppe/Einheit, wenn mehrere Module eine Reihe bilden (z. B. `"Themenblock A: Grundbegriffe und Wirtschaftskreislauf"`). Module mit identischem Wert fasst der Katalog sichtbar als Lernpfad zusammen. |
 | `language` | – | string | BCP-47-Code, Standard `"de"`. **Zielsprache des Moduls:** Bei Fremdsprachenmodulen (z. B. `"en"` für Englisch) stehen die Inhalte in dieser Sprache, und der KI-Lernpartner Cate antwortet bei Aufgaben-Rückmeldungen und Rückfragen ebenfalls darin (einfach, dem Sprachniveau der Stufe angemessen). |
-| `curriculum` | – | string | Lehrplan-Referenzrahmen für `cycle`/`competencies`, Standard `"lehrplan21"`. Wird beim Modul als Badge angezeigt; die Plattform selbst ist lehrplanneutral. |
-| `competencies` | – | Liste | Lehrplan-21-Kompetenzcodes (`code` im Format `FACH.x.y.z`, z. B. `RZG.4.2.c`; optional `description`). |
-| `lehrplaene` | – | Objekt | **Zuordnung je Lehrplan** (seit 11.8.2026): pro Kennung (`li`, `ch`, `de`, `at`; künftig auch Untergliederungen wie `de-he`) ein Eintrag mit `fach` (Kürzel oder Name im Ziel-Lehrplan), optional `fachName`, der Stufe im Modell des Lehrplans (`zyklus: 1 \| 2 \| 3` bei `li`/`ch`, `klassen: [9]` bzw. `[8, 9]` bei `de`/`at`), optional `stufeText` und `kompetenzen` (`code` frei, optional `description`). **Fehlt ein Lehrplan, erscheint das Modul bei dieser Auswahl nicht.** Ohne das Feld gilt die Zuordnung aus `subject`/`cycle`/`curriculum` (implizit unter `li` bei `"LiLe"` bzw. `ch` bei `"lehrplan21"`). Siehe [Mehrere Lehrpläne](#mehrere-lehrpläne). |
 | `learningObjectives` | ✅ | string[] | Lernziele aus Schülersicht («Ich kann …»), mind. 1. |
 | `durationMinutes` | – | int > 0 | Geschätzte Bearbeitungszeit. |
 | `difficulty` | – | enum | `"leicht"`, `"mittel"` oder `"anspruchsvoll"`. |
@@ -805,56 +804,64 @@ ab (kein Platzhalter) – solche Module erst NACH dem zugehörigen
 Plattform-Deploy einreichen. Bestehende Module ohne Varianten bleiben
 unverändert gültig.
 
-## Mehrere Lehrpläne
+## Mehrere Lehrpläne (`curricula`)
 
-Ein Modul kann sich mehreren Lehrplänen zuordnen, ohne dupliziert zu
-werden – die Startseite zeigt es dann unter jeder gewählten
-Lehrplan-Auswahl mit dem DORT geltenden Fach und der dortigen Stufe:
+`curricula` ist seit Version 3 die EINZIGE Quelle für Fach, Stufe und
+Kompetenzen. Ein Modul kann sich mehreren Lehrplänen zuordnen, ohne
+dupliziert zu werden – die Startseite zeigt es unter jeder gewählten
+Lehrplan-Auswahl mit dem DORT geltenden Fach und der dortigen Stufe,
+und auch der Modulkopf folgt der Auswahl:
 
 ```json
-"lehrplaene": {
-  "ch": {
-    "fach": "RZG",
-    "fachName": "Räume, Zeiten, Gesellschaften",
-    "zyklus": 3,
-    "stufeText": "7.–9. Klasse (Sek I)"
+"curricula": [
+  {
+    "curriculum": "ch",
+    "subject": "RZG",
+    "subjectName": "Räume, Zeiten, Gesellschaften",
+    "grades": [7, 8, 9],
+    "competencies": [
+      { "code": "RZG.4.2.c", "description": "…" }
+    ]
   },
-  "de": {
-    "fach": "Geschichte",
-    "klassen": [9]
+  {
+    "curriculum": "de",
+    "subject": "Geschichte",
+    "grades": [9]
   }
-}
+]
 ```
 
-- Registrierte Kennungen: `li` (Liechtenstein, LiLe), `ch` (Schweiz,
-  Lehrplan 21), `de` (Deutschland), `at` (Österreich) – das
-  Kennungs-Format erlaubt künftige Untergliederungen (`de-he`,
-  `ch-zh`) ohne Formatänderung; neue Kennungen brauchen einen
-  Registry-Eintrag (`LEHRPLAENE` in `schema/schema.ts`).
-- `li`/`ch` arbeiten mit **Zyklen** (`zyklus: 1|2|3`), `de`/`at` mit
-  **Klassenstufen** (`klassen: [9]` oder `[8, 9]`) – die Validierung
-  erzwingt das jeweils passende Feld.
-- **`selbststudium: true`** (seit 13.8.2026) ersetzt die Schulstufe im
-  jeweiligen Eintrag: Das Modul richtet sich ans freie Selbststudium
-  oberhalb der Schulzeit (z. B. das technische Demo-Modul) und
-  erscheint im Katalog unter der eigenen Stufe «Selbststudium» NACH
-  der höchsten Klassenstufe. Ein Eintrag trägt ENTWEDER
-  `zyklus`/`klassen` ODER `selbststudium` – nie beides.
-- **Fehlt ein Lehrplan in der Tabelle, erscheint das Modul bei dieser
-  Auswahl nicht** – dann gibt es das Fach dort schlicht nicht.
-- Ohne `lehrplaene` gilt die bisherige Zuordnung aus
-  `subject`/`cycle`/`curriculum` weiter (implizit unter `li` bei
-  `"LiLe"` bzw. `ch` bei `"lehrplan21"`). **Mit `lehrplaene` ist die
-  Tabelle vollständig** – sie ersetzt die implizite Zuordnung komplett;
-  wer den Heimat-Lehrplan behalten will, trägt ihn explizit ein.
-- `kompetenzen` je Eintrag sind frei formatiert (`code` + optional
-  `description`) – andere Lehrpläne nummerieren anders als der
-  Lehrplan 21. Die Modulseite zeigt unter den Lernzielen die
-  Kompetenzen des GEWÄHLTEN Lehrplans (seit 13.8.2026): Fehlen sie im
-  Eintrag der Wahl, entfällt die Zeile dort – Kompetenzen also in
-  JEDEM Eintrag pflegen, in dem sie erscheinen sollen (bei Modulen
-  ohne `lehrplaene` übernimmt die implizite Migration weiterhin das
-  Legacy-Feld `competencies`).
+### Felder eines `curricula`-Eintrags
+
+| Feld | Pflicht | Typ | Bedeutung |
+|---|---|---|---|
+| `curriculum` | ✅ | string | Lehrplan-Kennung: `li` (Liechtenstein, LiLe), `ch` (Schweiz, Lehrplan 21), `de` (Deutschland), `at` (Österreich). Das Format erlaubt künftige Untergliederungen (`de-he`, `ch-zh`); neue Kennungen brauchen einen Registry-Eintrag (`LEHRPLAENE` in `schema/schema.ts`). Je Lehrplan ist genau EIN Eintrag erlaubt. |
+| `subject` | ✅ | string | Fachkürzel oder Fachname im Ziel-Lehrplan, z. B. `RZG`, `WP`, `Geschichte`. |
+| `subjectName` | – | string | Ausgeschriebener Fachname, wenn `subject` ein Kürzel ist (Gruppierung im Katalog). |
+| `grades` | (✅) | int[] (1–13) | **Klassenstufen als Zahlen**, z. B. `[9]` oder `[7, 8, 9]` – einheitlich für ALLE Lehrpläne (der frühere Zyklus-Begriff ist entfallen). Kein Freitext: `"7.–9. Klasse"` gehört NICHT hierhin. |
+| `gradesText` | (✅) | string | **Stufen-Bezeichner.** Mit `grades`: das Wort vor der Zahl – nur setzen, wenn es vom Standard-Wort des Lehrplans abweichen soll («Stufe» bei `li`/`ch`, «Klasse» bei `de`/`at`; die Anzeige komponiert «Stufe 7–9», «Klasse 9»). Ohne `grades`: die alleinstehende Stufe für Module ohne Klassenstufe, z. B. `"Erwachsene"` – erscheint im Stufen-Filter als eigener Chip NACH allen Klassenstufen. Jeder Eintrag braucht `grades` und/oder `gradesText`. |
+| `competencies` | – | Liste | Kompetenzverweise DIESES Lehrplans (`code` frei formatiert – andere Lehrpläne nummerieren anders als der Lehrplan 21 –, optional `description`). Die Modulseite zeigt unter den Lernzielen die Kompetenzen des Eintrags, der zur Lehrplan-Wahl gehört (ohne passenden Eintrag: die des ERSTEN, ehrlich mit dessen Lehrplan-Namen beschriftet); leere `competencies` lassen die Zeile entfallen – also in JEDEM Eintrag pflegen, in dem sie erscheinen sollen. |
+
+Weitere Regeln:
+
+- **Fehlt ein Lehrplan in der Liste, erscheint das Modul bei dieser
+  Auswahl nicht** – dann gibt es das Fach dort schlicht nicht. Der
+  Heimat-Lehrplan gehört also immer mit in die Liste.
+- Die **Reihenfolge** der Liste ist die Anzeige-Reihenfolge der
+  «alle Lehrpläne»-Zeile auf der Modulseite; Konvention:
+  Registry-Reihenfolge `li`, `ch`, `de`, `at`.
+
+### Von Version 1/2 nach 3 (Mapping)
+
+| Alt (Top-Level bzw. `lehrplaene`-Eintrag) | Neu (`curricula`-Eintrag) |
+|---|---|
+| `curriculum: "LiLe"` bzw. `"lehrplan21"` / Kennungs-Schlüssel | `curriculum: "li"` bzw. `"ch"` / Kennung als Feld |
+| `subject`/`subjectName` bzw. `fach`/`fachName` | `subject`/`subjectName` |
+| `cycle`/`zyklus` (1–3) | `grades` mit den echten Klassenzahlen (Zyklus 3 → `[7, 8, 9]`; wenn der alte Freitext genauer war – «9. Klasse» –, dessen Zahlen: `[9]`) |
+| `klassen: [9]` | `grades: [9]` |
+| `grades`-Freitext / `stufeText` («7.–9. Klasse (Sek I)») | entfällt – die Zahlen stehen in `grades`, das Wort kommt vom Lehrplan (Zusätze wie «(Sek I)» entfallen) |
+| `selbststudium: true` | `gradesText: "Erwachsene"` (ohne `grades`) |
+| `competencies`/`kompetenzen` | `competencies` (unverändert; leere Listen weglassen) |
 
 ## Prüfende Blöcke und Modulabschluss
 
@@ -993,9 +1000,11 @@ Regeln:
 
 ## Checkliste für KI-Autoren
 
-1. Gültiges JSON, `schemaVersion: 2`, `id` = Ordnername.
-2. Fach, Zyklus und Kompetenzcodes am **Lehrplan 21** ausrichten
-   (Codes im Format `FACH.x.y.z`, z. B. `RZG.4.2.c`).
+1. Gültiges JSON, `schemaVersion: 3`, `id` = Ordnername.
+2. `curricula` mit mindestens einem Eintrag: Lehrplan-Kennung, Fach,
+   Klassenstufen als **Zahlen** in `grades` (Module ohne Klassenstufe:
+   nur `gradesText`, z. B. `"Erwachsene"`) und die Kompetenzverweise
+   des jeweiligen Lehrplans in `competencies`.
 3. Lernziele als «Ich kann …»-Sätze.
 4. Blöcke abwechslungsreich sequenzieren: kurzer Einstiegstext → Video oder
    Bild → vertiefender Text → Lückentext und/oder Aufgaben → Quiz; gern

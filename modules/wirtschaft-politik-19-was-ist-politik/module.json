@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-19-was-ist-politik",
  "title": "Was ist Politik?",
  "description": "Skatepark oder Ruhe im Quartier? Wenn Interessen aufeinanderprallen und am Ende eine Regel für alle gilt, ist das Politik. Zum Auftakt des Themenblocks «Grundbegriffe, Demokratie & politisches Denken» lernst du Politik als Aushandeln verbindlicher Regeln kennen und erkennst die Grundbegriffe Macht, Interessen, Konflikt und Kompromiss in deinem Alltag wieder – vom Klassenzimmer bis zum Gemeindeentscheid.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "LBO.5.6",
+     "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    },
+    {
+     "code": "LBO.5.4",
+     "description": "Die Schülerinnen und Schüler können Gemeinschaft aktiv mitgestalten."
+    }
+   ]
+  }
+ ],
  "sequenz": 19,
  "einheit": "Themenblock D: Grundbegriffe, Demokratie & politisches Denken",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "mittel",
  "keywords": [
@@ -29,16 +44,6 @@
   "Ich kann Politik als das Aushandeln verbindlicher Regeln für das Zusammenleben definieren.",
   "Ich kann die Grundbegriffe Macht, Interessen, Konflikt und Kompromiss an Alltagssituationen erkennen – von den Klassenregeln über den Pausenplatz bis zum Gemeindeentscheid über einen Skatepark.",
   "Ich verstehe: Wo Interessen kollidieren und eine Entscheidung alle bindet, ist Politik – sie beginnt nicht erst in Parlamenten."
- ],
- "competencies": [
-  {
-   "code": "LBO.5.6",
-   "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
-  },
-  {
-   "code": "LBO.5.4",
-   "description": "Die Schülerinnen und Schüler können Gemeinschaft aktiv mitgestalten."
-  }
  ],
  "sources": [
   {

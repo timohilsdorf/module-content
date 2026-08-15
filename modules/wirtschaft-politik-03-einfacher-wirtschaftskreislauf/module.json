@@ -1,16 +1,31 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "id": "wirtschaft-politik-03-einfacher-wirtschaftskreislauf",
  "title": "Der einfache Wirtschaftskreislauf",
  "description": "Arbeitskraft gegen Lohn, Güter gegen Geld: Hier setzt du Haushalte und Unternehmen zum einfachen Wirtschaftskreislauf zusammen. Du unterscheidest Realstrom und Geldstrom und entdeckst, warum jede Ausgabe des einen eine Einnahme des anderen ist.",
- "subject": "WP",
- "subjectName": "Wirtschaft & Politik",
- "cycle": 3,
- "grades": "9. Klasse (Sek I)",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Wirtschaft & Politik",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
  "sequenz": 3,
  "einheit": "Themenblock A: Grundbegriffe und Wirtschaftskreislauf",
  "language": "de",
- "curriculum": "LiLe",
  "durationMinutes": 45,
  "difficulty": "leicht",
  "keywords": [
@@ -31,16 +46,6 @@
   "Ich kann den einfachen Wirtschaftskreislauf zwischen Haushalten und Unternehmen beschreiben: Haushalte liefern Arbeitskraft und erhalten dafür Lohn; Unternehmen liefern Güter und Dienstleistungen und erhalten dafür Konsumausgaben.",
   "Ich kann den Realstrom (Arbeitskraft, Güter und Dienstleistungen) vom Geldstrom (Lohn und Konsumausgaben) unterscheiden und erkenne, dass die beiden Ströme gegenläufig fließen.",
   "Ich kann den Kreislaufgedanken erklären: Die Ströme fließen ständig weiter – jede Ausgabe des einen ist eine Einnahme des anderen."
- ],
- "competencies": [
-  {
-   "code": "WAH.2.1",
-   "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
-  },
-  {
-   "code": "WAH.3.1",
-   "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
-  }
  ],
  "sources": [
   {
