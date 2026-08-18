@@ -38,7 +38,13 @@ jobs:
         env:
           # PR-Basis für die Änderungslisten-Regel der Sprachfassungen
           # (uebersetzung/pruefung.ts); bei push auf main leer.
-          UEBERSETZUNG_BASIS: ${{ github.event.pull_request.base.sha || '' }}
+          # origin/<base_ref> statt event.pull_request.base.sha: Die
+          # Event-Payload veraltet, sobald andere PRs mergen, und würde
+          # fremde, bereits gemergte Fassungen als «im PR geändert»
+          # melden (Review-Fund 18.8.2026); origin/<base> ist beim
+          # fetch-depth-0-Checkout frisch, und git diff base...HEAD auf
+          # dem Merge-Commit liefert exakt die PR-Änderungen.
+          UEBERSETZUNG_BASIS: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || '' }}
         run: |
           # GitHubs Standard-Shell für run: ist `bash -e` OHNE pipefail –
           # ohne die nächste Zeile würde der Exit-Code des Validators vom

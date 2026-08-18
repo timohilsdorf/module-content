@@ -142,6 +142,13 @@ export function pruefeFassungen(
       melde(`kein gültiges JSON (${(err as Error).message}).`);
       continue;
     }
+    // Typ-Guard: eine zerschossene Datei (null, Array, primitives
+    // derivedFrom) bekommt die klare Meldung – nie einen Stacktrace,
+    // der den Gesamtlauf abreisst (Review-Fund 18.8.2026).
+    if (roh === null || typeof roh !== "object" || Array.isArray(roh)) {
+      melde("ist kein Modul-Objekt – Fassungen entstehen mit: npm run uebersetze");
+      continue;
+    }
 
     // Kanonform + selfHash VOR allem anderen: Eine Handänderung soll
     // die EINE klare Meldung bekommen, nicht zwanzig Folgefehler.
@@ -149,7 +156,12 @@ export function pruefeFassungen(
     const derivedFrom = obj.derivedFrom as
       | { masterHash?: string; hintsHash?: string | null; selfHash?: string }
       | undefined;
-    if (!derivedFrom || typeof obj._hinweis !== "string") {
+    if (
+      !derivedFrom ||
+      typeof derivedFrom !== "object" ||
+      Array.isArray(derivedFrom) ||
+      typeof obj._hinweis !== "string"
+    ) {
       melde(
         'Sprachfassungen brauchen "_hinweis" und "derivedFrom" – diese Datei wurde nicht vom Übersetzungswerkzeug erzeugt. Fassungen entstehen mit: npm run uebersetze',
       );
@@ -227,6 +239,9 @@ export function pruefeFassungen(
       }
     };
     besuche(ohneMeta, []);
+    // Auch die Metafelder laufen durch die Textprüfungen (Konzept
+    // Abschnitt 2) – der _hinweis ist deshalb bewusst spitzklammerfrei.
+    besuche({ _hinweis: obj._hinweis, derivedFrom: obj.derivedFrom }, []);
 
     // Veraltet vs. «gegen alten Master erzeugt».
     const veraltetMaster = derivedFrom.masterHash !== aktuellerMasterHash;

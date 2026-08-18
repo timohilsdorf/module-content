@@ -1,24 +1,24 @@
 {
- "name": "everycate-module-content",
- "version": "1.0.0",
- "private": true,
- "engines": {
-  "node": ">=20.9"
- },
- "type": "module",
- "description": "Lernmodule für die EveryCate-Lernplattform – dateibasiert, Schema-validiert, per Pull Request erweiterbar.",
- "scripts": {
-  "validate": "tsx schema/validate.ts",
-  "uebersetze": "tsx uebersetzung/uebersetze.ts",
-  "uebersetzungs-status": "tsx uebersetzung/status.ts"
- },
- "dependencies": {
-  "zod": "^4.4.3"
- },
- "devDependencies": {
-  "@types/node": "^20",
-  "mathjs": "^15.2.0",
-  "tsx": "^4.23.0",
-  "typescript": "^5"
- }
+  "name": "everycate-module-content",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9"
+  },
+  "type": "module",
+  "description": "Lernmodule für die EveryCate-Lernplattform – dateibasiert, Schema-validiert, per Pull Request erweiterbar.",
+  "scripts": {
+    "validate": "tsx schema/validate.ts",
+    "uebersetze": "tsx uebersetzung/uebersetze.ts",
+    "uebersetzungs-status": "tsx uebersetzung/status.ts"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "mathjs": "^15.2.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5"
+  }
 }

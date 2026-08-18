@@ -32,7 +32,13 @@ mitcommittet) übersetzt bei Nachführungen nur geänderte Stücke neu – eine
 Ein-Wort-Änderung am Master ergibt einen Ein-Segment-Diff.
 
 **API-Weg (Standard):** `ANTHROPIC_API_KEY` in der eigenen Umgebung
-exportieren; das Modell steht in `uebersetzung/konfig.json`.
+exportieren; das Modell steht in `uebersetzung/konfig.json`. Bewusste
+v1-Grenze: Das Werkzeug schickt EIN Auftrag je Modul (keine
+automatische Stückelung, kein automatischer Zweitversuch) – bei einer
+abgeschnittenen Antwort (`max_tokens`) oder fehlenden Stücken bricht
+es mit klarer Meldung ab, ohne je eine Datei zu schreiben; dann
+`maxAusgabeTokens` erhöhen oder erneut laufen lassen. Alle heutigen
+Module passen in einen Auftrag.
 **Datei-Weg (ohne Schlüssel/für Tests):** erst
 `--auftrag-datei auftrag.json` (schreibt Prompt + offene Stücke), die
 Übersetzungen extern erzeugen, dann mit `--antworten-datei` einspielen.

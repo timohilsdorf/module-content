@@ -100,13 +100,21 @@ export interface Konfig {
   modell: string;
   /** Obergrenze der Antwort-Tokens je API-Aufruf. */
   maxAusgabeTokens: number;
+  /** Anzeigenamen der Sprachen (für Prompt und Ausgaben). */
+  sprachNamen: Record<string, string>;
   /** vorleseSprache je Zielsprache (BCP-47) für audio.vorleseText. */
   vorleseSprachen: Record<string, string>;
 }
 
 export function ladeKonfig(): Konfig {
   const datei = path.join(UEBERSETZUNG_DIR, "konfig.json");
-  return JSON.parse(fs.readFileSync(datei, "utf8")) as Konfig;
+  const konfig = JSON.parse(fs.readFileSync(datei, "utf8")) as Konfig;
+  for (const feld of ["modell", "maxAusgabeTokens", "sprachNamen", "vorleseSprachen"] as const) {
+    if (konfig[feld] === undefined) {
+      throw new Error(`uebersetzung/konfig.json: Feld "${feld}" fehlt.`);
+    }
+  }
+  return konfig;
 }
 
 /** Segment-Gedächtnis: übersetzte Textstücke je Quelltext-Prüfsumme. */
@@ -129,5 +137,21 @@ export interface Speicher {
 export function ladeSpeicher(slug: string, sprache: string): Speicher | null {
   const pfad = speicherPfad(slug, sprache);
   if (!fs.existsSync(pfad)) return null;
-  return JSON.parse(fs.readFileSync(pfad, "utf8")) as Speicher;
+  // Form-Guard: Ein defekter/fremder Speicher wird wie «kein Speicher»
+  // behandelt (Voll-Neuübersetzung) statt später zu crashen.
+  try {
+    const roh = JSON.parse(fs.readFileSync(pfad, "utf8")) as Speicher;
+    if (
+      roh?.version !== 1 ||
+      typeof roh.segmente !== "object" ||
+      roh.segmente === null ||
+      typeof roh.pakete !== "object" ||
+      roh.pakete === null
+    ) {
+      return null;
+    }
+    return roh;
+  } catch {
+    return null;
+  }
 }

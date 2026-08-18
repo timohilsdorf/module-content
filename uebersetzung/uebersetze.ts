@@ -56,6 +56,7 @@ import {
 import { vergleicheStruktur, vergleichePunkte } from "./struktur";
 import { findHtmlTags, findMarkdownImages } from "./text-pruefung";
 import { parseModulDatei, type LearningModule } from "../schema/schema";
+import { describeIssues } from "./fehler";
 import { execFileSync } from "node:child_process";
 
 // ---------------------------------------------------------------------------
@@ -88,6 +89,12 @@ function leseArgumente(): Optionen {
   if (!opt.sprache) abbruch("--sprache <lang> ist Pflicht (z. B. --sprache en).");
   if (!opt.modul && !opt.nurVeraltet && !opt.alleFehlenden) {
     abbruch("Entweder --modul <slug> oder --nur-veraltet / --alle-fehlenden angeben.");
+  }
+  if ((opt.nurVeraltet || opt.alleFehlenden) && (opt.auftragDatei || opt.antwortenDatei)) {
+    abbruch(
+      "--auftrag-datei/--antworten-datei gelten für EIN Modul (--modul) – im Batch überschriebe " +
+        "jedes Modul dieselbe Datei. Bitte Module einzeln über den Datei-Weg abarbeiten.",
+    );
   }
   return opt;
 }
@@ -195,8 +202,7 @@ interface Antworten {
 }
 
 function sprachName(code: string): string {
-  const namen = ladeKonfig() as unknown as { sprachNamen?: Record<string, string> };
-  return namen.sprachNamen?.[code] ?? code;
+  return ladeKonfig().sprachNamen[code] ?? code;
 }
 
 function bauePrompt(
@@ -233,16 +239,26 @@ function bauePrompt(
         )}\n‹ENDE ${p.schluessel}›`,
     )
     .join("\n\n");
-  return vorlage
-    .replaceAll("{{QUELLSPRACHE}}", sprachName(quellSprache))
-    .replaceAll("{{ZIELSPRACHE}}", sprachName(zielSprache))
-    .replaceAll("{{MODUL_TITEL}}", masterMod.title)
-    .replaceAll("{{MODUL_BESCHREIBUNG}}", masterMod.description)
-    .replaceAll("{{STUFE}}", String(stufe))
-    .replaceAll("{{GLOSSAR}}", glossar)
-    .replaceAll("{{HINWEISE}}", hinweise || "(keine)")
-    .replaceAll("{{SEGMENTE}}", segmentText || "(keine)")
-    .replaceAll("{{PAKETE}}", paketText || "(keine)");
+  // EIN Durchlauf mit Funktions-Replacement (Review-Fund 18.8.2026):
+  // Ersetzungs-STRINGS würden $-Sequenzen interpretieren ($$…$$-KaTeX
+  // käme verstümmelt an) und früh eingesetzte Inhalte (Hinweise!)
+  // würden von späteren Durchläufen erneut gescannt – Funktions-
+  // Rückgaben und der Einmal-Durchlauf schliessen beides konstruktiv aus.
+  const werte: Record<string, string> = {
+    QUELLSPRACHE: sprachName(quellSprache),
+    ZIELSPRACHE: sprachName(zielSprache),
+    MODUL_TITEL: masterMod.title,
+    MODUL_BESCHREIBUNG: masterMod.description,
+    STUFE: String(stufe),
+    GLOSSAR: glossar,
+    HINWEISE: hinweise || "(keine)",
+    SEGMENTE: segmentText || "(keine)",
+    PAKETE: paketText || "(keine)",
+  };
+  return vorlage.replace(
+    /\{\{(QUELLSPRACHE|ZIELSPRACHE|MODUL_TITEL|MODUL_BESCHREIBUNG|STUFE|GLOSSAR|HINWEISE|SEGMENTE|PAKETE)\}\}/g,
+    (_, name: string) => werte[name],
+  );
 }
 
 async function uebersetzeViaApi(
@@ -275,13 +291,46 @@ async function uebersetzeViaApi(
   }
   const daten = (await antwort.json()) as {
     content: { type: string; text?: string }[];
+    stop_reason?: string;
   };
+  if (daten.stop_reason === "max_tokens") {
+    abbruch(
+      `Die KI-Antwort wurde bei ${konfig.maxAusgabeTokens} Tokens abgeschnitten (stop_reason max_tokens) – ` +
+        "maxAusgabeTokens in uebersetzung/konfig.json erhöhen oder das Modul stückeln (v1 stückelt nicht automatisch, siehe UEBERSETZUNG.md).",
+    );
+  }
   const text = daten.content.find((c) => c.type === "text")?.text ?? "";
   const json = text.replace(/^```(json)?\s*/i, "").replace(/```\s*$/, "");
   try {
     return JSON.parse(json) as Antworten;
   } catch {
     abbruch("Die KI-Antwort ist kein gültiges JSON – bitte erneut ausführen.");
+  }
+}
+
+/** Form-Guard für KI-/Datei-Antworten (Review-Fund: Formfehler crashten roh). */
+function pruefeAntwortForm(neu: Antworten): void {
+  if (neu === null || typeof neu !== "object") abbruch("Antwort ist kein Objekt.");
+  for (const [k, v] of Object.entries(neu.segmente ?? {})) {
+    if (typeof v !== "string") abbruch(`Antwort-Segment "${k}" ist kein String.`);
+  }
+  for (const [k, v] of Object.entries(neu.pakete ?? {})) {
+    const paket = v as Partial<PaketInhalt> | null;
+    if (
+      !paket ||
+      typeof paket.text !== "string" ||
+      !Array.isArray(paket.luecken) ||
+      !paket.luecken.every(
+        (l) => Array.isArray(l) && l.length > 0 && l.every((a) => typeof a === "string"),
+      ) ||
+      (paket.ablenker !== undefined &&
+        (!Array.isArray(paket.ablenker) ||
+          !paket.ablenker.every((a) => typeof a === "string")))
+    ) {
+      abbruch(
+        `Antwort-Paket "${k}" hat nicht die Form {text, luecken: string[][], ablenker?: string[]}.`,
+      );
+    }
   }
 }
 
@@ -356,11 +405,27 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
   const speicher = ladeSpeicher(slug, zielSprache);
   const speicherNutzbar =
     speicher !== null && speicher.hintsHash === aktuellerHintsHash;
+  // Inhalts-Index als Fallback (Review-Fund): Nach einer Block-
+  // EINFÜGUNG verschieben sich alle Pfad-Indizes – identischer
+  // Quelltext behält seine Übersetzung trotzdem, positionsunabhängig.
+  const segmentNachQuelle = new Map<string, string>();
+  const paketNachQuelle = new Map<string, PaketInhalt>();
+  if (speicherNutzbar) {
+    for (const eintrag of Object.values(speicher!.segmente)) {
+      segmentNachQuelle.set(eintrag.quelle, eintrag.text);
+    }
+    for (const eintrag of Object.values(speicher!.pakete)) {
+      paketNachQuelle.set(eintrag.quelle, eintrag.inhalt);
+    }
+  }
   const antworten: Antworten = { segmente: {}, pakete: {} };
   const offeneSegmente = segmente.filter((s) => {
+    const quelle = sha256(s.text);
     const alt = speicherNutzbar ? speicher!.segmente[s.schluessel] : undefined;
-    if (alt && alt.quelle === sha256(s.text)) {
-      antworten.segmente[s.schluessel] = alt.text;
+    const text =
+      alt && alt.quelle === quelle ? alt.text : segmentNachQuelle.get(quelle);
+    if (text !== undefined) {
+      antworten.segmente[s.schluessel] = text;
       return false;
     }
     return true;
@@ -370,8 +435,10 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
       kanonisch({ text: p.text, luecken: p.luecken, ablenker: p.ablenker }),
     );
     const alt = speicherNutzbar ? speicher!.pakete[p.schluessel] : undefined;
-    if (alt && alt.quelle === quelle) {
-      antworten.pakete[p.schluessel] = alt.inhalt;
+    const inhalt =
+      alt && alt.quelle === quelle ? alt.inhalt : paketNachQuelle.get(quelle);
+    if (inhalt !== undefined) {
+      antworten.pakete[p.schluessel] = inhalt;
       return false;
     }
     return true;
@@ -380,6 +447,36 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
   console.log(
     `${slug} → ${zielSprache}: ${segmente.length} Segmente (${offeneSegmente.length} neu), ${pakete.length} Lückentext-Pakete (${offenePakete.length} neu).`,
   );
+
+  // Nichts-zu-tun-Kurzschluss (Review-Fund: Re-Läufe stempelten sonst
+  // masterCommit/generatedAt/model neu und erzeugten Diff-Rauschen):
+  // Ist nichts neu zu übersetzen und die bestehende Fassung passt zum
+  // aktuellen Master- und Hinweis-Stand, bleibt die Datei unangetastet.
+  const fassungsPfadFrueh = path.join(
+    MODULES_DIR,
+    slug,
+    `module.${zielSprache}.json`,
+  );
+  if (
+    offeneSegmente.length === 0 &&
+    offenePakete.length === 0 &&
+    fs.existsSync(fassungsPfadFrueh)
+  ) {
+    try {
+      const bestehend = JSON.parse(
+        fs.readFileSync(fassungsPfadFrueh, "utf8"),
+      ) as { derivedFrom?: { masterHash?: string; hintsHash?: string | null } };
+      if (
+        bestehend.derivedFrom?.masterHash === sha256(masterBytes) &&
+        (bestehend.derivedFrom?.hintsHash ?? null) === aktuellerHintsHash
+      ) {
+        console.log("✓ Fassung ist aktuell – nichts zu tun.");
+        return;
+      }
+    } catch {
+      // defekte Datei: normal neu erzeugen
+    }
+  }
 
   if (offeneSegmente.length > 0 || offenePakete.length > 0) {
     const prompt = bauePrompt(
@@ -414,6 +511,7 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
     } else {
       neu = await uebersetzeViaApi(prompt, modell);
     }
+    pruefeAntwortForm(neu);
     for (const s of offeneSegmente) {
       const text = neu.segmente?.[s.schluessel];
       if (typeof text === "string" && text.trim() !== "") {
@@ -496,6 +594,13 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
       const neueKategorien = (block.x as Record<string, unknown>)
         ?.kategorien as string[] | undefined;
       if (masterKategorien && neueKategorien) {
+        // Zwei Master-Kategorien auf denselben Zielstring zu übersetzen
+        // machte die indexOf-Wertung des Players willkürlich (Review-Fund).
+        if (new Set(neueKategorien).size !== neueKategorien.length) {
+          abbruch(
+            "Achse: Zwei Kategorien wurden auf denselben Begriff übersetzt – bitte per Korrekturhinweis unterscheidbare Begriffe vorgeben.",
+          );
+        }
         for (const element of block.elemente as Record<string, unknown>[]) {
           if (typeof element.xKategorie === "string") {
             const index = masterKategorien.indexOf(element.xKategorie);
@@ -517,7 +622,18 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
       hintsHash: aktuellerHintsHash,
       generatedAt: heute,
       generator: "uebersetze.ts v1",
-      model: opt.antwortenDatei ? `datei:${path.basename(opt.antwortenDatei)}` : modell,
+      // Ehrliche Provenienz: woher die NEU übersetzten Stücke stammen,
+      // plus "+ speicher", wenn Bestand wiederverwendet wurde.
+      model:
+        (offeneSegmente.length + offenePakete.length === 0
+          ? "speicher"
+          : opt.antwortenDatei
+            ? `datei:${path.basename(opt.antwortenDatei)}`
+            : modell) +
+        (offeneSegmente.length + offenePakete.length > 0 &&
+        offeneSegmente.length + offenePakete.length < segmente.length + pakete.length
+          ? " + speicher"
+          : ""),
       selfHash: "",
     },
     ...inhalt,
@@ -529,9 +645,8 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
   const fassungParsed = parseModulDatei(fassung);
   if (!fassungParsed.success) {
     abbruch(
-      `Erzeugte Fassung ist schema-ungültig:\n${fassungParsed.error.issues
-        .slice(0, 5)
-        .map((i) => `  ${i.path.join(".")}: ${i.message}`)
+      `Erzeugte Fassung ist schema-ungültig:\n${describeIssues(fassung, fassungParsed.error)
+        .slice(0, 8)
         .join("\n")}`,
     );
   }
@@ -560,6 +675,15 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
       }
     }
   });
+  besucheStrings(
+    { _hinweis: fassung._hinweis, derivedFrom: fassung.derivedFrom },
+    [],
+    (pfad, text) => {
+      if (findHtmlTags(text).length > 0) {
+        textFehler.push(`Roh-HTML in ${pfadSchluessel(pfad)}`);
+      }
+    },
+  );
   if (textFehler.length > 0) {
     abbruch(`Übersetzte Texte verletzen Regeln:\n${textFehler.slice(0, 5).map((f) => `  ${f}`).join("\n")}`);
   }

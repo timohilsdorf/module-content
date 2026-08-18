@@ -41,9 +41,21 @@ export function vergleicheStruktur(
     const stelle = pfadSchluessel(teile) || "(Wurzel)";
 
     if (istFreierUnterbaum(norm)) {
-      // Paket-Unterbaum: Existenz + grobe Form, Inhalt frei.
+      // Paket-Unterbaum: Existenz + grobe Form, Inhalt frei. Bei den
+      // ABLENKERN bleibt zusätzlich die ANZAHL Master-gleich (dieselbe
+      // Regel, die das Werkzeug erzwingt – nur die Antwort-LISTEN je
+      // Lücke dürfen zielsprachlich breiter werden).
       if (Array.isArray(m) !== Array.isArray(f)) {
         fehler.push(`${stelle}: Form weicht vom Master ab.`);
+      } else if (
+        norm.endsWith("ablenker") &&
+        Array.isArray(m) &&
+        Array.isArray(f) &&
+        m.length !== f.length
+      ) {
+        fehler.push(
+          `${stelle}: ${f.length} statt ${m.length} Ablenker – die Anzahl muss dem Master entsprechen.`,
+        );
       }
       return;
     }

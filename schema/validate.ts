@@ -35,6 +35,7 @@ import {
   pruefeFassungen,
 } from "../uebersetzung/pruefung";
 import { findHtmlTags, findMarkdownImages } from "../uebersetzung/text-pruefung";
+import { describeIssues } from "../uebersetzung/fehler";
 
 // Schlanke mathjs-Instanz nur fürs Einheiten-Parsen (kein evaluate) –
 // dieselbe Konstruktion wie in der Plattform (src/lib/content/einheiten.ts).
@@ -126,61 +127,8 @@ const whitelist = whitelistSchema.parse(
 // Hilfen: lesbare Zod-Fehler (übernommen aus dem Plattform-Loader)
 // ---------------------------------------------------------------------------
 
-function valueAtPath(value: unknown, pathParts: PropertyKey[]): unknown {
-  return pathParts.reduce<unknown>(
-    (acc, key) =>
-      acc == null ? undefined : (acc as Record<PropertyKey, unknown>)[key],
-    value,
-  );
-}
-
-/**
- * Macht Zod-Fehler für Content-Autoren (Mensch wie KI) lesbar. Zods
- * Union-Heuristik verwirft bei `blocks` die präzisen Issues des bekannten
- * Block-Zweigs – deshalb wird ein Block mit bekanntem `type` gezielt
- * nachvalidiert.
- */
-function describeIssues(raw: unknown, error: z.ZodError): string[] {
-  const lines: string[] = [];
-
-  const walk = (issues: z.core.$ZodIssue[], basePath: PropertyKey[]) => {
-    for (const issue of issues) {
-      const fullPath = [...basePath, ...issue.path];
-      const pathStr = fullPath.join(".") || "(root)";
-
-      const value = valueAtPath(raw, fullPath);
-      const type =
-        value && typeof value === "object"
-          ? (value as { type?: unknown }).type
-          : undefined;
-      if (
-        typeof type === "string" &&
-        (KNOWN_BLOCK_TYPES as readonly string[]).includes(type) &&
-        (issue.code === "invalid_union" ||
-          issue.message.includes("Bekannter Blocktyp"))
-      ) {
-        const sub = knownBlockSchema.safeParse(value);
-        if (!sub.success) {
-          walk(sub.error.issues, fullPath);
-          continue;
-        }
-      }
-
-      if (issue.code === "invalid_union") {
-        const branches = (issue as { errors?: z.core.$ZodIssue[][] }).errors;
-        if (branches?.length) {
-          for (const branch of branches) walk(branch, fullPath);
-          continue;
-        }
-      }
-
-      lines.push(`  - ${pathStr}: ${issue.message}`);
-    }
-  };
-
-  walk(error.issues, []);
-  return [...new Set(lines)];
-}
+// valueAtPath/describeIssues leben in uebersetzung/fehler.ts (geteilt
+// mit dem Übersetzungswerkzeug).
 
 /** Einfache Edit-Distanz, um Tippfehler in Blocktypen zu erkennen. */
 function editDistance(a: string, b: string): number {
@@ -755,17 +703,24 @@ for (const slug of slugs) {
   errors.push(...result.errors);
   hints.push(...result.hints);
 
-  // Sprachfassungen (module.<lang>.json) desselben Ordners.
-  const fassungen = pruefeFassungen(slug, raw, parsed.data, {
-    parse: (fassungRaw) => {
-      const ergebnis = parseModulDatei(fassungRaw);
-      return ergebnis.success
-        ? { success: true, data: ergebnis.data }
-        : { success: false, beschreibung: describeIssues(fassungRaw, ergebnis.error) };
-    },
-  });
-  errors.push(...fassungen.errors);
-  hints.push(...fassungen.hints);
+  // Sprachfassungen (module.<lang>.json) desselben Ordners. Der
+  // try/catch ist das letzte Netz: Ein Prüf-Fehler in einer Fassung
+  // darf nie den Gesamtlauf (und damit die Meldungen aller anderen
+  // Module) abreissen.
+  try {
+    const fassungen = pruefeFassungen(slug, raw, parsed.data, {
+      parse: (fassungRaw) => {
+        const ergebnis = parseModulDatei(fassungRaw);
+        return ergebnis.success
+          ? { success: true, data: ergebnis.data }
+          : { success: false, beschreibung: describeIssues(fassungRaw, ergebnis.error) };
+      },
+    });
+    errors.push(...fassungen.errors);
+    hints.push(...fassungen.hints);
+  } catch (err) {
+    errors.push(`Sprachfassungs-Prüfung fehlgeschlagen: ${(err as Error).message}`);
+  }
 
   if (errors.length > 0) {
     failed++;
