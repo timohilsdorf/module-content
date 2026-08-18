@@ -215,6 +215,23 @@ import { z } from "zod";
  *   Version 3 an. ACHTUNG Rollout: ÄLTERE Player lehnen
  *   Version-3-Dateien hart ab – Module erst NACH dem zugehörigen
  *   Plattform-Deploy einreichen.
+ * - 3, additive Ergänzung (18.8.2026, KEIN Versionswechsel):
+ *   ÜBERSETZUNGS-Felder. Am MASTER kennzeichnet `languageLearning: true`
+ *   Sprachlernmodule (die Sprache ist dort Lerngegenstand – solche
+ *   Module werden nie übersetzt). SPRACHFASSUNGEN sind eigene Dateien
+ *   `module.<lang>.json` im selben Modulordner: vollgültige Module mit
+ *   identischer Struktur (gleiche Block-/Frage-ids, gleiche Punkte –
+ *   Lernstand, Reports und Coins bleiben EIN Modul), übersetzten
+ *   Textfeldern und den Pflicht-Metafeldern `_hinweis` (sichtbare
+ *   Warnung: automatisch erzeugt, nicht von Hand bearbeiten) und
+ *   `derivedFrom` (Master-Sprache, Prüfsummen von Master/Hinweisen/
+ *   sich selbst, Erzeugungs-Stempel). Die Kopplung Dateiname ↔
+ *   Metafelder und die Strukturgleichheit erzwingt der Validator des
+ *   Content-Repos; die Plattform liest Fassungen erst mit dem
+ *   Anzeige-Paket. Bestehende Dateien bleiben unverändert gültig.
+ *   ACHTUNG Rollout: ÄLTERE Plattform-Stände lehnen Master mit
+ *   `languageLearning` ab (strictObject) – dieses Schema ZUERST
+ *   deployen, erst danach den Content-PR mergen, der das Feld setzt.
  */
 export const SCHEMA_VERSION = 3;
 
@@ -2723,10 +2740,63 @@ const legacyMetadatenV2 = {
   lehrplaene: z.record(z.string(), lehrplanEintragSchema).optional(),
 };
 
+/**
+ * Herkunfts-Stempel einer SPRACHFASSUNG (`module.<lang>.json`, seit
+ * 18.8.2026): verbindet die Fassung mit ihrem Master und macht
+ * Veraltung und Handänderungen maschinell erkennbar. Die Prüfsummen
+ * sind SHA-256 über Datei-Bytes («sha256:<hex>»); `selfHash` wird über
+ * die kanonische Serialisierung der Fassung selbst gerechnet, wobei
+ * das Feld währenddessen den Platzhalter "" trägt (deshalb ist der
+ * leere String hier gültig). Ob die Werte STIMMEN, prüft der Validator
+ * des Content-Repos – das Schema prüft nur die Form.
+ */
+const derivedFromSchema = z.strictObject({
+  /** Sprache des Masters (BCP-47, wie das language-Feld). */
+  language: z.string().min(1),
+  /** Prüfsumme der Master-Datei, deren Stand übersetzt wurde. */
+  masterHash: z.string().regex(/^sha256:[0-9a-f]{64}$/),
+  /** Git-Commit des Master-Stands – rein informativ, für Menschen. */
+  masterCommit: z.string().optional(),
+  /** Prüfsumme der Korrekturhinweis-Datei (null = keine Hinweise). */
+  hintsHash: z
+    .string()
+    .regex(/^sha256:[0-9a-f]{64}$/)
+    .nullable(),
+  /** Erzeugungsdatum (JJJJ-MM-TT). */
+  generatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** Erzeugendes Werkzeug samt Version. */
+  generator: z.string().min(1),
+  /** Verwendetes Übersetzungs-Modell. */
+  model: z.string().min(1),
+  /** Prüfsumme der Fassung selbst ("" nur während der Berechnung). */
+  selfHash: z.string().regex(/^(sha256:[0-9a-f]{64})?$/),
+});
+
+export type DerivedFrom = z.infer<typeof derivedFromSchema>;
+
 export const moduleSchema = z
   .strictObject({
     /** Muss SCHEMA_VERSION entsprechen; ältere Dateien liest parseModulDatei. */
     schemaVersion: z.literal(SCHEMA_VERSION),
+    /**
+     * Sichtbare Warnung in SPRACHFASSUNGEN (module.<lang>.json), als
+     * erstes Feld der Datei: automatisch erzeugt, nicht von Hand
+     * bearbeiten. Der Validator des Content-Repos erzwingt das Feld
+     * dort und verbietet es in Master-Dateien (module.json).
+     */
+    _hinweis: z.string().min(1).optional(),
+    /** Herkunfts-Stempel einer Sprachfassung (nur module.<lang>.json). */
+    derivedFrom: derivedFromSchema.optional(),
+    /**
+     * true = Sprachlernmodul (z. B. die Englischmodule): Die Sprache
+     * ist Lerngegenstand, zielsprachliche Inhalte (Hörtexte,
+     * Lücken-Antworten) sind der Stoff selbst. Solche Module werden
+     * NIE in andere Sprachen übersetzt – der Content-Validator lehnt
+     * Sprachfassungen dafür ab, das Übersetzungswerkzeug verweigert
+     * sie. Die Plattform darf das Feld zusätzlich nutzen (z. B. für
+     * den Fremdsprachen-Banner).
+     */
+    languageLearning: z.boolean().optional(),
     ...modulBasis,
     /**
      * Lehrplan-Zuordnungen des Moduls (seit Version 3 die EINZIGE
@@ -3163,3 +3233,43 @@ export function pruefSchluessel(module: LearningModule): string[] {
     .filter((id): id is string => id !== null);
 }
 
+
+/**
+ * Erreichbare Punkte eines prüfenden Blocks – spiegelt EXAKT die
+ * maxPoints-Berechnung der Player beim Prüfen: Quiz = Summe der
+ * Fragenpunkte (Quiz.tsx), Lückentext = Anzahl Lücken bzw. im
+ * satzbau-Modus Anzahl Bausteine (LueckentextBlockView), Zuordnung =
+ * Anzahl Paare (pruefung.tsx zählt die ergebnisse), numerisch/term =
+ * Anzahl Aufgaben, achse = Anzahl Elemente, Simulation mit
+ * Abschlussfrage = Punkte dieser einen Frage. Unbekannte künftige
+ * prüfende Typen liefern undefined (Fallback beim Aufrufer). Lebt seit
+ * 18.8.2026 in der SYNC-Region, damit dieselbe Rechenstelle das
+ * Katalog-DTO der Plattform (meta.ts maxPunkteVonBlock delegiert
+ * hierher), die Strukturgleichheits-Prüfung von Sprachfassungen im
+ * Content-Repo und das Übersetzungswerkzeug speist.
+ */
+export function punkteVonBlock(block: Block): number | undefined {
+  // Der Guard verengt die Block-Union auf die bekannten Typen –
+  // Zukunftsblöcke (unbekannter type) liefern undefined (Fallback).
+  if (!isKnownBlock(block)) return undefined;
+  switch (block.type) {
+    case "quiz":
+      return block.questions.reduce((sum, q) => sum + q.points, 0);
+    case "lueckentext":
+      return block.modus === "satzbau"
+        ? block.bausteine?.length
+        : block.luecken?.length;
+    case "zuordnung":
+      return block.paare.length;
+    case "numerisch":
+      return block.aufgaben.length;
+    case "term":
+      return block.aufgaben.length;
+    case "achse":
+      return block.elemente.length;
+    case "simulation":
+      return block.abschlussfrage ? block.abschlussfrage.points : undefined;
+    default:
+      return undefined;
+  }
+}

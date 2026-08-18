@@ -16,15 +16,25 @@
  *   (maxPlanspielSizeKB) ein und enthält keine externen Verweise
  *   (PLANSPIEL_VERBOTENE_MUSTER in schema.ts); .html-Dateien ohne
  *   referenzierenden planspiel-Block sind ein Fehler
- * - Ordnerhygiene: im Modulordner nur module.json, Bilder, Videos und
- *   referenzierte Planspiel-Dateien
+ * - Ordnerhygiene: im Modulordner nur module.json, Sprachfassungen
+ *   (module.<lang>.json), Bilder, Videos und referenzierte
+ *   Planspiel-Dateien
  * - eindeutige IDs, Pflicht-IDs für Quizfragen, requires-Verweise
+ * - Sprachfassungen (module.<lang>.json): Kanonform, selfHash,
+ *   Strukturgleichheit zum Master, Punktzahl-Parität, kein Roh-HTML in
+ *   Übersetzungen (uebersetzung/pruefung.ts)
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import { create, unitDependencies, parseDependencies } from "mathjs";
+import { FASSUNG_MUSTER } from "../uebersetzung/kern";
+import {
+  masterMetafeldFehler,
+  pruefeFassungen,
+} from "../uebersetzung/pruefung";
+import { findHtmlTags, findMarkdownImages } from "../uebersetzung/text-pruefung";
 
 // Schlanke mathjs-Instanz nur fürs Einheiten-Parsen (kein evaluate) –
 // dieselbe Konstruktion wie in der Plattform (src/lib/content/einheiten.ts).
@@ -193,43 +203,9 @@ function editDistance(a: string, b: string): number {
 // ---------------------------------------------------------------------------
 
 /** Code-Spans und Code-Blöcke entfernen – dort rendert Markdown nur Text. */
-function stripCode(value: string): string {
-  return value.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
-}
-
-/**
- * Findet Roh-HTML in einem String. Erlaubt bleiben Markdown-Autolinks
- * (`<https://…>`, `<mailto:…>`) sowie Tag-Beispiele in Code-Spans und
- * Code-Blöcken (dort rendert Markdown sie als Text, z. B. wenn ein Modul
- * HTML erklärt). Alles andere, das wie ein Tag aussieht, wird gemeldet –
- * der Player rendert kein HTML, in Markdown-Feldern würde es sogar
- * verschluckt.
- */
-function findHtmlTags(value: string): string[] {
-  const matches = stripCode(value).match(/<\/?[a-zA-Z][^>]*>/g) ?? [];
-  return matches.filter((m) => !/^<(https?:\/\/|mailto:)/i.test(m));
-}
-
-/**
- * Bilder in Markdown-Text (`![alt](url)`): unterliegen denselben Regeln wie
- * image-Blöcke – sonst liesse sich die Bild-Host-Whitelist per Textfeld
- * umgehen (automatischer Request an Drittserver = Tracking-Risiko).
- * Referenz-Stil (`![alt][ref]`) ist nicht erlaubt, damit die URL immer
- * direkt an der Bildstelle prüfbar ist.
- */
-function findMarkdownImages(value: string): { urls: string[]; malformed: number } {
-  const text = stripCode(value);
-  const inline = /!\[[^\]]*\]\(\s*<?([^\s)>]+)[^)]*\)/g;
-  const urls: string[] = [];
-  let match: RegExpExecArray | null;
-  let wellFormed = 0;
-  while ((match = inline.exec(text)) !== null) {
-    urls.push(match[1]);
-    wellFormed++;
-  }
-  const total = (text.match(/!\[/g) ?? []).length;
-  return { urls, malformed: total - wellFormed };
-}
+// stripCode/findHtmlTags/findMarkdownImages leben in
+// uebersetzung/text-pruefung.ts (geteilt mit Fassungs-Prüfung und
+// Übersetzungswerkzeug).
 
 /** Alle String-Werte eines JSON-Baums mit Pfadangabe besuchen. */
 function walkStrings(
@@ -522,6 +498,9 @@ function checkModule(
       continue;
     }
     if (entry.name === "module.json") continue;
+    // Sprachfassungen prüft pruefeFassungen (Kanonform, selfHash,
+    // Strukturgleichheit) – hier zählt nur, dass der Name ins Muster passt.
+    if (FASSUNG_MUSTER.test(entry.name)) continue;
     const ext = path.extname(entry.name).toLowerCase();
     // Video-/Audiodateien prüfen die Abschnitte oben (Grösse + Referenz);
     // hier zählt nur, dass die Endung überhaupt ins Modul gehört.
@@ -741,7 +720,7 @@ for (const slug of slugs) {
   }
 
   // Repo-Policy VOR dem Schema-Parse (siehe repoPolicyFehler oben).
-  const policy = repoPolicyFehler(raw);
+  const policy = [...repoPolicyFehler(raw), ...masterMetafeldFehler(raw)];
   if (policy.length > 0) {
     console.error(`✗ ${slug}`);
     for (const meldung of policy) console.error(`  - ${meldung}`);
@@ -775,6 +754,18 @@ for (const slug of slugs) {
   const result = checkModule(slug, raw, parsed.data, slugs);
   errors.push(...result.errors);
   hints.push(...result.hints);
+
+  // Sprachfassungen (module.<lang>.json) desselben Ordners.
+  const fassungen = pruefeFassungen(slug, raw, parsed.data, {
+    parse: (fassungRaw) => {
+      const ergebnis = parseModulDatei(fassungRaw);
+      return ergebnis.success
+        ? { success: true, data: ergebnis.data }
+        : { success: false, beschreibung: describeIssues(fassungRaw, ergebnis.error) };
+    },
+  });
+  errors.push(...fassungen.errors);
+  hints.push(...fassungen.hints);
 
   if (errors.length > 0) {
     failed++;

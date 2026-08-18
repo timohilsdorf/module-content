@@ -24,12 +24,21 @@ jobs:
           # Keine Git-Credentials im Arbeitsverzeichnis zurücklassen –
           # der validierte Inhalt stammt aus dem PR und ist fremder Code.
           persist-credentials: false
+          # Volle Historie: Die Fassungs-Prüfung vergleicht bei PRs
+          # gegen die Basis (UEBERSETZUNG_BASIS), um «Fassung gegen
+          # veralteten Master erzeugt» von normaler Veraltung zu
+          # unterscheiden.
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
       - name: Module validieren
+        env:
+          # PR-Basis für die Änderungslisten-Regel der Sprachfassungen
+          # (uebersetzung/pruefung.ts); bei push auf main leer.
+          UEBERSETZUNG_BASIS: ${{ github.event.pull_request.base.sha || '' }}
         run: |
           # GitHubs Standard-Shell für run: ist `bash -e` OHNE pipefail –
           # ohne die nächste Zeile würde der Exit-Code des Validators vom
@@ -39,6 +48,10 @@ jobs:
           npm run validate 2>&1 | tee -a "$GITHUB_STEP_SUMMARY" && status=0 || status=$?
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           exit "${status:-0}"
+      - name: Übersetzungs-Status
+        # Nachführungsliste (Matrix Modul × Sprache) in die
+        # Zusammenfassung – informativ, macht den Lauf nie rot.
+        run: npm run uebersetzungs-status || true
 
   # Nach einem Merge auf main: Vercel-Build der Plattform anstossen –
   # ein neues Modul geht live, ohne dass sich am Plattform-Repo etwas

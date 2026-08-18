@@ -998,6 +998,25 @@ Regeln:
 - 4–8 Fragen pro Modul sind ein guter Richtwert; Distraktoren (falsche
   Optionen) plausibel formulieren.
 
+## Übersetzungen: Master und Sprachfassungen (seit 18.8.2026)
+
+Jedes Modul hat genau **einen inhaltlichen Master** (`module.json`).
+Sprachfassungen liegen als `module.<lang>.json` im selben Ordner und
+werden **automatisch erzeugt** – nie von Hand schreiben oder ändern
+(die Validierung lehnt das ab). Drei Felder gehören dazu:
+
+- `languageLearning: true` am **Master** kennzeichnet Sprachlernmodule
+  (z. B. die Englischmodule): Die Sprache ist Lerngegenstand, solche
+  Module werden nie übersetzt.
+- `_hinweis` und `derivedFrom` stehen **nur in Sprachfassungen**
+  (sichtbare Warnung + Herkunfts-Stempel mit Prüfsummen) – das
+  Übersetzungswerkzeug setzt sie selbst.
+
+Sprachfassungen müssen dem Master strukturell exakt entsprechen
+(gleiche Blöcke, ids und Punktzahlen – Lernstand und Reports bleiben
+EIN Modul); übersetzt werden nur Textfelder. Ablauf, Befehle und
+Korrektur-Weg: [`UEBERSETZUNG.md`](UEBERSETZUNG.md).
+
 ## Checkliste für KI-Autoren
 
 1. Gültiges JSON, `schemaVersion: 3`, `id` = Ordnername.
