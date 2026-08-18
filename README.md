@@ -1,7 +1,7 @@
 # EveryCate – Lernmodule
 
 Die offene Modulsammlung der Lernplattform
-[EveryCate](https://everycate.vercel.app): **ein Modul = ein Ordner** mit
+[EveryCate](https://www.everycate.com): **ein Modul = ein Ordner** mit
 einer `module.json` (Text, Bilder, Videos, Aufgaben, Quiz) und den
 zugehörigen Bilddateien. Keine Datenbank, kein CMS – Inhalte sind reine
 Dateien, versionierbar und per Pull Request erweiterbar.
@@ -38,6 +38,19 @@ allen Blocktypen liegt in
 Änderungen gehen **ausschliesslich über Pull Requests** auf `main` und
 werden vor dem Merge geprüft – inhaltlich von einem Menschen, technisch
 von der automatischen Validierung.
+
+## Was passiert nach dem Merge?
+
+Kein weiterer Schritt nötig: Nach dem Merge auf `main` prüft die CI
+alle Module noch einmal und stösst dann automatisch einen Neubau der
+Website an. Wenige Minuten später ist das Modul auf
+https://www.everycate.com live. Schlägt der Neubau wider Erwarten
+fehl, bleibt einfach die letzte funktionierende Version online – es
+kann nichts kaputtgehen.
+
+Schon **vor dem Merge** kann der Betreiber eine Vorschau erzeugen, die
+das neue Modul so zeigt, wie es live aussehen wird – einfach im Pull
+Request danach fragen.
 
 ## Ablage
 
