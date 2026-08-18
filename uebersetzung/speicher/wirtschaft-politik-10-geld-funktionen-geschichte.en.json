@@ -1,0 +1,570 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:60e3dc48e4f458258c0d8ee8fcf4788ccf225b416e2a66bcc3e37de7d5e3a65b",
+   "text": "Money: Functions and History"
+  },
+  "description": {
+   "quelle": "sha256:d263c1dd1cedf31029c3811e2bdcf36711c96d208511a1638fe31b9b752aa1af",
+   "text": "Why do you get a whole lunch for a piece of printed paper? To kick off the topic block “Money, Banks, Financial Literacy”, you'll get to know the three functions of money, travel through the history of money from barter to digital payment, and find out why Liechtenstein pays with the Swiss franc."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:0c4950a7de0cd0fbae76b0776a74695ca1c18cb114d08c5f022349f1743a4330",
+   "text": "Topic Block C: Money, Banks, Financial Literacy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:d818da3685a11a51c585f4d2ec2e6ddd24cd09521cd61e1024cbfaaff90a3888",
+   "text": "Money"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:0bb9d46690a3f31f1f3215736b8c3b6dcc37e55f8c65ca278221473cba074607",
+   "text": "Functions of money"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:8a0964efeefcbccd5701ae0c28428292293dd11d5bdbbc639b8b04950ed7cbad",
+   "text": "Medium of exchange"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:515f1894aaa2773d39f23be81ac8962dd4ece9fff92df31c9aa5bf926f775a6d",
+   "text": "Store of value"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:6a7e538d7ee9c2a1db1f7ff4326c7b1f68ded215d37e9d5984a1f01df44b87c0",
+   "text": "Unit of account"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:72ad4e3be9b38d6606669c876cfafabccd8628451cc526a9179ed0cd37802792",
+   "text": "Barter"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:2860c3275a757bd00e0b978c4e10ce9409a7ee27597caffb610fb1f6518d4dcf",
+   "text": "Commodity money"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:84152dfe0da7810867819acc32427c01d7c1486dbbe77783b4f9640074720470",
+   "text": "Coins"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:1370c21520ac5157e25260b21de2998299ea31420c69f946d9d7207885cd7b3d",
+   "text": "Paper money"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:d7e19b27fd26e8eb7e229736239e4aec4a39af45ab065acd29155ac181abe6bd",
+   "text": "Deposit money"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:646dd18b4ec410c021f49cae035ddf16bcdd400a8b72d318fb50e80a7cd3726f",
+   "text": "Swiss franc"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:373965f04ab02b6c47d4b0b20a375e743225e8c87c898bd72be6aa658c6ccb8e",
+   "text": "Currency treaty"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:6ff080c07894909d194898c8b63acf6e17ea76ca064d151f9cf15d4999f149ce",
+   "text": "Liechtenstein"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:55cb074eb5fac8318f9ec2c4aa70e2c95015414b2b4125c78b648616e23bac1b",
+   "text": "I can explain the three functions of money – medium of exchange, store of value and unit of account – and recognise them in everyday situations."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:7230c77214d306de84f0e1ae0a0fee9a4b2204e2a6524d4d456fcb1b56e9dc18",
+   "text": "I can outline the development of money from barter through commodity money, coins and paper money to deposit money and digital money."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:cc5556320689b1081db0eefb77c6635d854e925c8f53a83e25b223fcc22134ee",
+   "text": "I can explain why Liechtenstein uses the Swiss franc as its currency."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:98e8654af842b77c66459bd5af2a77ce4d06c4eae0fbddc6f2858daa428fd55d",
+   "text": "A world without money"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:128cb8942a3d1fc04fb7935355e17620b55b6a21f7277d4c01ad46a47c66446a",
+   "text": "Imagine there were no money. At break time, you want your classmate's chocolate bar – and offer her your cheese sandwich in return. But she doesn't like cheese sandwiches. So first you have to find someone who will swap your cheese sandwich for something she does want. Good luck.\n\nThat is exactly the problem with pure **barter**: a swap only works if both sides offer **exactly** what the other person wants right now. Experts call this the **double coincidence of wants** – and it is rare. A carpenter who needs bread would have to find a baker who happens to want a table at that very moment.\n\n**Money** solves the problem: the carpenter sells her table to anyone at all – and uses the money to buy bread, from any baker. Money is the tool that breaks a swap down into two simple steps: selling and buying.\n\nIn this module you're starting **Topic Block C “Money, Banks, Financial Literacy”**. From Module 3 you already know the flow of money that circulates in the economic cycle – now you'll take a look at money itself: what it does, where it comes from, and why of all currencies it's the **Swiss franc (CHF)** that sits in wallets in Liechtenstein."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:f66a1d74215e4ff279fe777c884dd9ad203a463b620e8d630c8cf3400eacba2c",
+   "text": "The three functions of money"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:2f3d6d3103fa9b8ba97739bdf643fc3468348d9a6f43941836ceebbd48bfbdf4",
+   "text": "Money is more than “something to pay with”. It fulfils **three functions** – and only all three together make it so useful:\n\n1. **Medium of exchange:** Money is accepted by everyone. You can spend your pocket money at the kiosk, in an online shop or at the swimming pool – nobody asks whether you have a cheese sandwich to offer instead. This works because everyone trusts that they, too, will be able to spend the money again.\n2. **Store of value:** Money carries value into the future. You can put your wages from your summer holiday job into your account and buy a moped with them next year. A basket of strawberries would have gone off by then – money doesn't. This function, however, stands or falls with the money staying **stable**: if it loses value quickly, it's no longer any good for storing value. More on that in a moment.\n3. **Unit of account (also: measure of value):** Money makes values comparable. If one bike costs CHF 600 and the other CHF 300, you can see straight away: the first one is twice as expensive. Without a common measure you would have to calculate like at a barter market: how many cheese sandwiches is a bike worth – and how many chocolate bars a cheese sandwich?\n\nMemory aid: money is a **payment helper, piggy bank and yardstick** all in one."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:1a1fc54afeb7dfc2c91644089be5f426ac2583e28fae0072183114ad512b6782",
+   "text": "A short journey through the history of money"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:e92cb9283ebd74a0f10214ff3af623748b5be2fee6866a796b42eef6ba2e7b83",
+   "text": "Money wasn't invented in a single day – it developed over thousands of years. Each new form solved a problem of the old one:\n\n- **Barter:** Goods for goods – cumbersome, as you've seen.\n- **Commodity money:** Sought-after goods such as **salt, shells or cattle** became a generally accepted means of payment: everyone took them because they were valuable to everyone. In ancient Rome, the word for money – “pecunia” – comes from the word for cattle. But: cattle are hard to transport, salt gets wet, shells break.\n- **Coins:** Around 2700 years ago, rulers in the kingdom of **Lydia** (in modern-day Turkey) had coins minted from precious metal for the first time: durable, countable, worth the same everywhere. The idea spread quickly all around the Mediterranean.\n- **Paper money:** In **China**, people were paying with notes as early as around 1000 years ago; in Europe from the 17th century. The trick: the value is no longer in the material. A note is just printed paper – it becomes valuable through the **trust** that everyone will accept it.\n- **Deposit money:** With modern banks came money that exists only as **numbers in accounts**. When your wages are “transferred”, no banknote goes anywhere – only numbers change. Today, the largest part of all money exists in this form.\n- **Digital payment:** Card, phone, app – deposit money on the go. The most recent arrivals are **cryptocurrencies** such as Bitcoin; you'll take a closer look at what's behind them in Module 13.\n\nThe common thread of this journey: money kept becoming **lighter, more practical and more abstract** – and with that, the **trust** that holds it all together kept becoming more important."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:ee3514ee03b74483cecfa7062b5b8f121fbd2efb2ad7b520c902c5806b4df4c3",
+   "text": "The timeline of money"
+  },
+  "blocks[3].alt": {
+   "quelle": "sha256:e51a1a2c72ee046fa3d8cd3d172699e8782def4b2bd3d769ee0f348736d776fc",
+   "text": "Timeline with six numbered stations in two rows, connected by arrows. Station 1, barter, before the invention of money: goods for goods – only works if both sides want exactly what the other is offering; the double coincidence is rare. Station 2, commodity money, for thousands of years: sought-after goods such as salt, shells or cattle serve as means of payment – everyone accepts them because they are valuable to everyone. Station 3, coins, around 2700 years ago: minted precious metal, durable, countable, worth the same everywhere – first in the kingdom of Lydia, soon all around the Mediterranean. Station 4, paper money, in China around 1000 years ago, in Europe from the 17th century: light notes instead of heavy coins – their value lies not in the paper but in the trust that everyone will accept them. Station 5, deposit money, with the arrival of modern banks: money as numbers in accounts, without notes or coins – today the largest part of all money exists only in this form. Station 6, digital payment, today: card, phone, app – deposit money on the go. Below it, a note with an orange border: the most recent station is cryptocurrencies such as Bitcoin, purely digital money without a state or central bank – more on this in Module 13."
+  },
+  "blocks[3].caption": {
+   "quelle": "sha256:394ab974cba306e7778df4ca7c221bd11f29f24dbb89040065f25380f7b9bfd8",
+   "text": "The timeline of money: from barter to digital payment – each new form of money solved a problem of the old one."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:bde9495dcf686ebbd08b83042421c6999c595f5a6908594ee857a5e4132eb15d",
+   "text": "Video: Money – how did it come about?"
+  },
+  "blocks[4].description": {
+   "quelle": "sha256:59a22147c88886dc9424c00f87167446f04afa25c034f04b99a02e9793f776f9",
+   "text": "The explainer video (5:32) from the series “SRF Kids – Clip und klar!” tells the story of how money came about. As you watch, pay attention to two guiding questions: (1) Which problem of barter led people to invent money? (2) Which stations of the timeline from this module do you recognise in the video – and in what order? Also note down one example of commodity money that appears in the video."
+  },
+  "blocks[4].transcript": {
+   "quelle": "sha256:3982fb96900d87287d96aa2c0e88aac84ecff242ad141c625762484b429610a8",
+   "text": "The explainer video by SRF Kids (series “Clip und klar!”, 5:32 minutes) explains how money came about: in the beginning there was barter – goods for goods. Because trading partners often didn't have the right thing to offer, a medium of exchange was needed that everyone accepts. The video traces the development: from early forms of commodity money through the first coins to banknotes and today's cashless, digital payment. Presenter Reena shows along the way why money only works if everyone trusts it."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:dd87efb944d017341d306c1be1295e55fe1c8d6f085f442e4bb2c6606973b412",
+   "text": "Why does Liechtenstein pay with the Swiss franc?"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:8269accc11e0542a42d71b32e8c12f459175a34d95f0018bc8372688e10aec5d",
+   "text": "Liechtenstein has no currency of its own – it's the **Swiss franc** that sits in people's wallets. There is a solid piece of history behind this:\n\nUntil the 1920s, people in Liechtenstein paid with the **Austrian krone**. After the First World War, the krone lost value dramatically because of the enormous **inflation** in Austria – savings melted away. Here you can see a function of money put to the test: money that constantly loses value is no longer any good as a **store of value** – and soon nobody wants to accept it as a **medium of exchange** either. In **1924**, Liechtenstein therefore introduced the stable Swiss franc. In **1980**, Liechtenstein and Switzerland officially sealed their cooperation in the **Currency Treaty** (in force since 1981): since then, the franc has also legally been Liechtenstein's currency, and the country belongs to the Swiss currency area.\n\nWhy would a country do that? For a **small economic area** with a good 40 000 inhabitants, a currency of its own would be expensive and risky: it would fluctuate strongly, and the effort of running its own central bank would be enormous. Joining a **large, stable currency**, on the other hand, brings trust – for the people who save, and for the companies that trade with other countries. Since Liechtenstein and Switzerland are closely intertwined economically anyway (a customs treaty has also existed since 1923), the franc is the logical choice.\n\nBy the way: the **stability** of the franc is looked after by the **Swiss National Bank (SNB)** – it conducts monetary policy for the entire franc area, and that includes Liechtenstein."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:291236f4e1edf57bce069a63103f2880974f78e91475f6f8b8055f69580af6bc",
+   "text": "Quiz: functions and history of money"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:94d386fab5e5a35e1a69186308a87e0dc849adc58ea6da47741bb344aa4a367f",
+   "text": "Show what you know about the functions and history of money. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:997c827c23995900d0bcb212077ba8ee450bb9dea955a87cfb17b0b42b38a8f5",
+   "text": "Which three functions does money fulfil?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:3cf96d2e1c2153a6d8eea8b23af235b0296452a982a85c2ccd3589b8d797d349",
+   "text": "Medium of exchange, lending and tax collection."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:05c51192980ca52edaadb6d5c570ca1e1523344fdbaaf37bdd616d75989d427f",
+   "text": "Saving, spending and giving away."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:adf2970003f02f7b467e1e07f88c02a7c4a21515c2c8aa29a3af59347da06de0",
+   "text": "Medium of exchange, store of value and unit of account."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:d3b8b99565219fdb39dfbdb2aeabb58ee2a5defa1ffe6389662d861fa459b6d8",
+   "text": "Coins, paper money and deposit money."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:db8ffc4ea6039d73cb7198d75d924836cc49de8ec849f9f7d23de78aad37fe19",
+   "text": "The three functions are medium of exchange (everyone accepts it), store of value (it carries value into the future) and unit of account (it makes prices comparable). Lending and collecting taxes are jobs for banks and the state, not functions of money itself. Saving, spending and giving away are things you do with money – not functions. And coins, paper money and deposit money are forms of money, not its functions – a popular mix-up."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:a8559489856d55b7bee27e9cf1561bb420b6848a72ab85175147e3b00b967d87",
+   "text": "Why is pure barter so cumbersome in everyday life?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:12f609cc88645f4646c9acc9f26d6a09b2d5205407b65af7367b5e10c03ca6a3",
+   "text": "A swap only works if both sides offer exactly what the other wants – this double coincidence of wants is rare."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:1e43dfdd7928bd6b9c63892d2c6ea0b7c08992d7a84b3869d60d67bcbcc02045",
+   "text": "Because bartering without money is forbidden by law."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:4710c1191cd74c649d2e2ec775107087e39e201364198cc7c9141313c7f954d7",
+   "text": "Because in the past there were no marketplaces where people could meet."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:483054802665401440475a29f9504f3eb1a63d80b6f4ae081de2f070b0d076b6",
+   "text": "Because people in the past had nothing valuable to trade."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:f6fa9775635dfc2b9877737ef84d28aae74e114c52e8b77ed0a2e963d9deb76b",
+   "text": "The core problem is called the double coincidence of wants: the carpenter who wants bread has to find a baker who happens to need a table. Bartering, by the way, is not forbidden even today – you're free to swap your cheese sandwich for a chocolate bar any time. Marketplaces already existed in antiquity, and people certainly had valuable goods – all that was missing was the generally accepted go-between for swapping: money."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:4106df932c50c96ae84f87d92ba45bf2f5c75b280f52bd43ae5157e15072dc0d",
+   "text": "You put your wages from your holiday job into your account so you can buy a moped next summer. Which function of money are you mainly using?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:77cc83424df47ba49935b3f5fd788b352fd966803b665560fe3ebf68407abd7f",
+   "text": "Medium of exchange – after all, you're exchanging money for the moped."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:5c5d293f64eb8a125215955b310d1db29039579faaf7238e49a03d5ff65b8e70",
+   "text": "Unit of account – you work out how much the moped costs."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:5fc43ccb74f259cb9918f8b103776edaf99bb59030f5275b46807e1723911d56",
+   "text": "None – money in an account is no longer real money."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:db1115007001d2085339c10c26a947981455617443eb19abd2da6f5928e08b7a",
+   "text": "Store of value – the money carries the value of your summer work into next year."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:40c43ebdf47a73346ca1faef6832c93b06f44016c3afbf7798840a1353008d04",
+   "text": "When you save, the store of value is what matters most: your wages from the summer keep their value until the purchase next year. Money only acts as a medium of exchange at the moment of buying, and the unit of account helps you compare prices – neither is the point here. And money in an account is of course “real” money: it's called deposit money and today it actually makes up the largest part of all money."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:6397222198e14f74d09742cac29df5ea8076f48fca7cb187dda7135db3a24122",
+   "text": "In the shop you compare two bikes: one costs CHF 600, the other CHF 300. Which function of money makes this comparison possible?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:abb6b7b284677c856bfad6bf7f613fc21dcb0f9d5796dec69efccc34ea7b37de",
+   "text": "The store of value – the bike keeps its value."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:f79384427a33e07126af59f0eabba01344d9ee0d004e90fa9d934f6c1c4b0228",
+   "text": "The unit of account – money is the common measure that makes values comparable."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:df67e24b5ed71013cef06349886117a010d0a7cb739cccc4229ce0bea1e20374",
+   "text": "The medium of exchange – you can pay with money."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:09f0fd9a16353e179898bdce5e4d6364e5fb2d7b4ba06e963ac97d854bb20678",
+   "text": "No function of money – prices are set by the banks."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:4520cfc8c7b1e4febcc909a3a39565726c17ed9412a84b683c32a439f60f807e",
+   "text": "Prices in francs are a common measure: CHF 600 versus CHF 300 – the first bike is twice as expensive, and you can see that at a glance. That is exactly what the unit of account (the measure of value) does. The store of value is about saving over time, and the medium of exchange is about the act of paying itself. And prices are not set by the banks – they emerge on the market from supply and demand, as you know from Module 7."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:6c50114027f4d69f73840160e3cbf7e7012f61c5db24d8cc5deafc49fbf035e6",
+   "text": "Which order correctly describes the development of money?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:39be59b8cce6a4efe19cae9fd3eef57e7c14d7a717e60b85f226dbfcb7958907",
+   "text": "Barter → commodity money → coins → paper money → deposit money and digital money."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:30a9c9df426121120b5b073e002f34b7c890f3b921da1fea26d1bf66bee15b34",
+   "text": "Coins → barter → commodity money → paper money → deposit money."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:c9cff604ae0aa0d28fc83d83df95b701163d08ba6d32611cc1d96b4083b8950b",
+   "text": "Commodity money → barter → paper money → coins → digital money."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:6469f8f97e7108c589a87a1f24f040e993f07094b868c64996b85ab75d1fbaaa",
+   "text": "Barter → paper money → commodity money → deposit money → coins."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:60816562b73c29d5ac31ee3c465ccec36b295452375f1bf407aaa25a52cb3240",
+   "text": "In the beginning there was barter (goods for goods). Then sought-after goods such as salt or shells became commodity money; around 2700 years ago minted coins were added, around 1000 years ago paper money appeared in China – and with modern banks finally came deposit money in accounts, which we move around digitally today. The other orders muddle this development up – remember the common thread: money kept becoming lighter, more practical and more abstract."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:cd427e925cc6de21760ebe9c47fba04f4d29a17ba4114b2aa48889f5d750e99f",
+   "text": "What is meant by “commodity money”?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:b72a9425bb7145a48cace6ef583056334e4df821133f01903b035d98732702d9",
+   "text": "Money that can only be used to pay for goods, not for services."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:30d5014ac748184d2574e6fb08b0fdffae26c8defd5a2e9c0ef21bcb34f1bb36",
+   "text": "Vouchers that a shop issues for its own goods."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:6b27b6137bdeb36afba0de1c2ed424eac3f55d20412c3a970ff40c448142f8d8",
+   "text": "Sought-after goods such as salt, shells or cattle that served as a generally accepted means of payment."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:37e6bd04b017ae0b6352fa1ef84edb080b76907184c450da1d3581dbc40c1a00",
+   "text": "The change you get back when paying at the till."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:8a52a000d33d84bcd23a938eb29a3e79a8827bb88b25db7b91d1c407d9fe7458",
+   "text": "Commodity money is called that because the money itself was a commodity: salt, shells or cattle were accepted because they had a value of their own for everyone. So the name doesn't describe what you can buy with it – you could pay for all sorts of things with it. Vouchers are only valid in one shop and are precisely not a generally accepted means of payment, and change is simply the money you get back at the till."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:ad466304993dc46aedb7c7139d013aa24fda741ed30f4c8f8296a96af2d35f87",
+   "text": "Why does Liechtenstein pay with the Swiss franc?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:66111ac2532b60e617bd99e0f1bc8007fd01a2697f239cfc91fc267317ad3eb1",
+   "text": "Because Liechtenstein is part of Switzerland."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:5fec5ccaeae4883fb7adef5722506e6d9a69c3194ddd8e418f957ff5e22ecf8a",
+   "text": "Because a currency of its own isn't worthwhile for the small economic area – the Currency Treaty with Switzerland secures Liechtenstein a large, stable currency."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:7cfc3c113ece420bb3f41b631f1d19e57805aa8e677b1b211fac78f2316814e9",
+   "text": "Because the EU forbade Liechtenstein from introducing the euro."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:20b7df765a9fbe6e4d2c8fb02b7ccf1975e44dea83cb42d6b3bfea36e099a292",
+   "text": "Because Liechtenstein has never had any other currency."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:77ac01d06b2f17a447d13fdc51bd005f6e998f7bdb0c1e56d0bbf42db27f0bea",
+   "text": "Liechtenstein is an independent state – not part of Switzerland. But for a good 40 000 inhabitants, a currency of its own would be expensive and prone to fluctuation; the franc brings stability and trust, regulated in the Currency Treaty of 1980. It has nothing to do with the EU. And there certainly was another currency: until 1924, people paid with the Austrian krone – until inflation destroyed its value."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:eeb1b3be558852d31ce4f6b1ee42ea51435b5fae54e9143b1f87dbd695bdebc1",
+   "text": "The largest part of today's money exists only as numbers in accounts. What is this form of money called?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:aaed152f14f4d6794f858b2f8405b9fc4df5d4f2d1beea9f72fd7134ccb79098",
+   "text": "Cash."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:51fd57c4354226ddb10b9fc8f4c6754c41893b54aeb253525fbf3129ed85b125",
+   "text": "Cryptocurrency."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:ea7befd9f7a4e690868ac8e5396342bbe1d319f8b40d7f5a541de71f22e174dd",
+   "text": "Commodity money."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:cc30fb428722505e6358785d7908b07ce20234e59e95d888471a2ee46c8f6a91",
+   "text": "Deposit money."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:e2be5f482994ab44a9c7dc39c083b9a81b86d1f2d0bb1c486809d7576f835d21",
+   "text": "Money in accounts is called deposit money – it exists only “in the books” of the banks and is merely rebooked with every transfer. Cash, by contrast, is the physical notes and coins. Cryptocurrencies are digital too, but something completely different: they run without banks or a central bank (more on this in Module 13). And commodity money belongs to the early history of money – salt and shells instead of an account balance."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:788e3fbeefd829988edc12abc1aacfaf8c4908e94a8659417341b2c92771eb89",
+   "text": "Fill in the terms: from barter to trust"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the right terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three words in the selection don't fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:c2292329b66f059bb01984659e93cdaae635d38533db22c4ea1e74d275978803",
+   "text": "Type in the terms: Liechtenstein and the franc"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There's no word selection this time – **type in the missing terms yourself**. Capitalisation doesn't matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:fef84b4cc4aa42b85654dc7cf5bc1ac25b75d55d03951576834f9d03958b3c00",
+   "text": "Match them up: which function of money is at work?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:bb978696ae72886d8f9757cf63b059d63017d1afdcb10dff9ef915a372d0e2c9",
+   "text": "Match each everyday situation with the function of money that is front and centre in it: **medium of exchange**, **store of value** or **unit of account**. Each function appears more than once."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:33beb4cc241900514fca16323af6997914a8b96c2da6e8e663d10d024dd65d8d",
+   "text": "Going deeper: money in your everyday life"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:0184340910e336384546dda92f7b9831bd31a1e7a3979ff8514405182156d306",
+   "text": "In some school playgrounds, trading cards get swapped – and rare cards are hot property. Put it to the test: could trading cards work as money? Go through all three functions of money (medium of exchange, store of value, unit of account) and decide for each one whether trading cards fulfil it."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:a706e9a4d764d36cf0df92f5bab176c191cb8c96471b3527ed008f1fcf9e6e86",
+   "text": "For each function, ask yourself concretely: does really every person accept trading cards as payment – even the kiosk? Does a card keep its value once the trend is over? And: nobody quotes prices “in trading cards” – why not, actually?"
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:a8e80c7d178ddd51ea423120f1f2d0dd95a984b8a01d1c847dd591f26b7543a0",
+   "text": "Trading cards fulfil the functions of money at best partially. Medium of exchange: only in the playground – the kiosk and the swimming pool don't accept cards; the general acceptance is missing. Store of value: uncertain – once the trend is over, even the rarest card is almost worthless (much like the Austrian krone after the First World War). Unit of account: hardly – nobody quotes the price of a sandwich “in cards”; there is no common measure. This is exactly what reveals what real money is made of: general acceptance, stable value and a common measure."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:3fdc3698fd4ca26f6d16210bbe9f4f4f8c59558279b2a9a8fba0fa98cf15e7b7",
+   "text": "Ask an older person around you (grandparents, parents, neighbours): how did you pay and save when you were a teenager? Were there already cards or apps? Note down two differences from today and match them to the stations on the timeline."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:21131f9a0d671cd78ed5e46966501aafadb0ed9becdc23309ae6b9f377ee5500",
+   "text": "Possible questions: how did the wages arrive – in an envelope or into an account? How did people pay in the shop? Where did people save – in a savings book, in a money box, at the bank? Since when have there been cards, and since when has it been possible to pay with a phone?"
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:e09387e981a96db78a64f3ad27d569fd9b403b511d1c668a45b8444df2bb44b7",
+   "text": "Typical answers: wages used to come in cash in an envelope (cash), today they come by bank transfer (deposit money). In the shop, people paid in cash; today it's often by card or phone (digital payment). Savings went into a savings book or money box, today into an account. The differences show the last stations of the timeline: from cash to deposit money and digital payment – money kept becoming more abstract, and the trust it relies on kept becoming more important."
+  },
+  "blocks[10].tasks[2].prompt": {
+   "quelle": "sha256:0b10677b2e04f95aece9c510c8cfc952979c7083a00021b075b4c79bef4d73d4",
+   "text": "Explain to a younger child in three to four sentences: why is a 20-franc note worth something, even though the paper itself costs almost nothing?"
+  },
+  "blocks[10].tasks[2].hint": {
+   "quelle": "sha256:edaf97efe649ade76a56317d84ea55471b716eec994bedd54926c0195f9e8191",
+   "text": "Think of the “paper money” station on the timeline: where does the value lie, if not in the material? And who makes sure the franc stays stable?"
+  },
+  "blocks[10].tasks[2].solution": {
+   "quelle": "sha256:283b2c8e82e15bd4b39bdadd370137ad14f5b3b00cff5cd9098de961040714f0",
+   "text": "One possible explanation: “The note is valuable because everyone accepts it – the kiosk, the swimming pool, simply everyone. Everyone trusts that they will be able to spend the note again themselves. To keep that trust alive, the National Bank makes sure the franc stays stable and that endless amounts of notes aren't simply printed. If that trust disappeared, the note really would be nothing but printed paper – that's what happened to the Austrian krone 100 years ago.”"
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:49b7d01cc385b184de57a2e6a58cce71806b4891a394dfdd02d5cbe0c8584569",
+   "inhalt": {
+    "text": "In pure {{1}}, both sides have to offer exactly what the other wants – experts speak of the double {{2}} of wants. To solve this problem, sought-after goods such as salt or shells first served as a means of payment – this form of money is called {{3}}. Later, rulers minted the first {{4}} from precious metal, and around 1000 years ago the first {{5}} appeared in China. Today, the largest part of all money exists as {{6}} in accounts.\nMoney fulfils three functions: as a {{7}} it is accepted by everyone when paying, as a {{8}} it carries value into the future, and as a {{9}} it makes prices comparable. All of this only works as long as everyone has {{10}} in money.",
+    "luecken": [
+     [
+      "barter",
+      "bartering",
+      "barter trade"
+     ],
+     [
+      "coincidence"
+     ],
+     [
+      "commodity money"
+     ],
+     [
+      "coins",
+      "coinage"
+     ],
+     [
+      "paper money",
+      "banknotes",
+      "bank notes",
+      "paper currency"
+     ],
+     [
+      "deposit money",
+      "bank money",
+      "book money",
+      "scriptural money"
+     ],
+     [
+      "medium of exchange",
+      "means of exchange",
+      "exchange medium",
+      "a medium of exchange",
+      "a means of exchange"
+     ],
+     [
+      "store of value",
+      "store of wealth",
+      "means of storing value",
+      "way of storing value",
+      "a store of value"
+     ],
+     [
+      "unit of account",
+      "measure of value",
+      "standard of value",
+      "a unit of account",
+      "a measure of value"
+     ],
+     [
+      "trust",
+      "confidence",
+      "faith"
+     ]
+    ],
+    "ablenker": [
+     "small change",
+     "exchange rate",
+     "reward"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:24f4edb215dadf916faa26653622b627801e959efb12162ad75fe54431ee130d",
+   "inhalt": {
+    "text": "Until 1924, people in Liechtenstein paid with the Austrian krone. After the First World War it lost value rapidly because of {{1}} – it was no longer any good as a {{2}}. Liechtenstein therefore switched to the Swiss {{3}}. In 1980, the two countries also signed a {{4}} that officially regulates their cooperation. For the small economic area, a currency of its own isn't worthwhile – what matters more is that everyone has {{5}} in a stable currency.",
+    "luecken": [
+     [
+      "inflation",
+      "hyperinflation",
+      "the inflation",
+      "the hyperinflation",
+      "devaluation",
+      "currency devaluation",
+      "rising prices"
+     ],
+     [
+      "store of value",
+      "store of wealth",
+      "means of storing value",
+      "way of storing value",
+      "way to store value",
+      "value store"
+     ],
+     [
+      "franc"
+     ],
+     [
+      "currency treaty",
+      "currency agreement",
+      "monetary treaty",
+      "monetary agreement",
+      "treaty",
+      "agreement"
+     ],
+     [
+      "trust",
+      "confidence",
+      "faith"
+     ]
+    ],
+    "ablenker": []
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:67e60519886e2267e98a5562ef18a109e7c81095a32915707ee203df2ebf8bc3",
+   "inhalt": {
+    "text": "You pay for your lunch at the kiosk with your card. {{1}}\nYou save CHF 20 every month for a new snowboard. {{2}}\nYou work out that the concert ticket costs as much as three trips to the cinema. {{3}}\nThe bakery pays its employee her wages at the end of the month. {{4}}\nYour grandparents have put money aside for your education. {{5}}\nIn the shop, you compare the prices of two phones. {{6}}\nYou buy a train ticket from the ticket machine. {{7}}\nThe club sets aside the takings from the cake sale for next year's camp. {{8}}\nThe newspaper says a second-hand car is “worth CHF 8000”. {{9}}",
+    "luecken": [
+     [
+      "medium of exchange",
+      "means of exchange",
+      "exchange medium"
+     ],
+     [
+      "store of value",
+      "store of wealth",
+      "storing value"
+     ],
+     [
+      "unit of account",
+      "measure of value",
+      "standard of value"
+     ],
+     [
+      "medium of exchange",
+      "means of exchange",
+      "exchange medium"
+     ],
+     [
+      "store of value",
+      "store of wealth",
+      "storing value"
+     ],
+     [
+      "unit of account",
+      "measure of value",
+      "standard of value"
+     ],
+     [
+      "medium of exchange",
+      "means of exchange",
+      "exchange medium"
+     ],
+     [
+      "store of value",
+      "store of wealth",
+      "storing value"
+     ],
+     [
+      "unit of account",
+      "measure of value",
+      "standard of value"
+     ]
+    ],
+    "ablenker": []
+   }
+  }
+ }
+}

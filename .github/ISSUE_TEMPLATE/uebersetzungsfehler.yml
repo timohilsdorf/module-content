@@ -1,0 +1,40 @@
+name: Übersetzungsfehler melden
+description: Fehler in einer Sprachfassung (module.<lang>.json) melden – die Korrektur fliesst dauerhaft in künftige Übersetzungen ein.
+title: "Übersetzung: <Modul> (<Sprache>)"
+labels: ["uebersetzung"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke! Sprachfassungen werden automatisch aus dem deutschen Master
+        erzeugt und dürfen nicht direkt bearbeitet werden. Deine Meldung
+        wird als Korrekturhinweis hinterlegt und die Fassung neu erzeugt –
+        die Korrektur bleibt damit auch bei künftigen Nachführungen erhalten.
+  - type: input
+    id: modul
+    attributes:
+      label: Modul
+      description: Ordnername unter modules/, z. B. wirtschaft-politik-10-geld-funktionen-geschichte
+    validations:
+      required: true
+  - type: input
+    id: sprache
+    attributes:
+      label: Sprache der Fassung
+      placeholder: en
+    validations:
+      required: true
+  - type: textarea
+    id: stelle
+    attributes:
+      label: Stelle und Zitat
+      description: Wo steht der Fehler (Abschnitt/Aufgabe) und wie lautet die fehlerhafte Formulierung wörtlich?
+    validations:
+      required: true
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Korrekturvorschlag
+      description: Wie sollte es stattdessen heissen – und gilt das nur hier oder für den Begriff generell?
+    validations:
+      required: true

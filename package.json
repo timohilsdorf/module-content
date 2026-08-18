@@ -8,7 +8,9 @@
   "type": "module",
   "description": "Lernmodule für die EveryCate-Lernplattform – dateibasiert, Schema-validiert, per Pull Request erweiterbar.",
   "scripts": {
-    "validate": "tsx schema/validate.ts"
+    "validate": "tsx schema/validate.ts",
+    "uebersetze": "tsx uebersetzung/uebersetze.ts",
+    "uebersetzungs-status": "tsx uebersetzung/status.ts"
   },
   "dependencies": {
     "zod": "^4.4.3"

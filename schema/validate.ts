@@ -16,15 +16,26 @@
  *   (maxPlanspielSizeKB) ein und enthält keine externen Verweise
  *   (PLANSPIEL_VERBOTENE_MUSTER in schema.ts); .html-Dateien ohne
  *   referenzierenden planspiel-Block sind ein Fehler
- * - Ordnerhygiene: im Modulordner nur module.json, Bilder, Videos und
- *   referenzierte Planspiel-Dateien
+ * - Ordnerhygiene: im Modulordner nur module.json, Sprachfassungen
+ *   (module.<lang>.json), Bilder, Videos und referenzierte
+ *   Planspiel-Dateien
  * - eindeutige IDs, Pflicht-IDs für Quizfragen, requires-Verweise
+ * - Sprachfassungen (module.<lang>.json): Kanonform, selfHash,
+ *   Strukturgleichheit zum Master, Punktzahl-Parität, kein Roh-HTML in
+ *   Übersetzungen (uebersetzung/pruefung.ts)
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import { create, unitDependencies, parseDependencies } from "mathjs";
+import { FASSUNG_MUSTER } from "../uebersetzung/kern";
+import {
+  masterMetafeldFehler,
+  pruefeFassungen,
+} from "../uebersetzung/pruefung";
+import { findHtmlTags, findMarkdownImages } from "../uebersetzung/text-pruefung";
+import { describeIssues } from "../uebersetzung/fehler";
 
 // Schlanke mathjs-Instanz nur fürs Einheiten-Parsen (kein evaluate) –
 // dieselbe Konstruktion wie in der Plattform (src/lib/content/einheiten.ts).
@@ -116,61 +127,8 @@ const whitelist = whitelistSchema.parse(
 // Hilfen: lesbare Zod-Fehler (übernommen aus dem Plattform-Loader)
 // ---------------------------------------------------------------------------
 
-function valueAtPath(value: unknown, pathParts: PropertyKey[]): unknown {
-  return pathParts.reduce<unknown>(
-    (acc, key) =>
-      acc == null ? undefined : (acc as Record<PropertyKey, unknown>)[key],
-    value,
-  );
-}
-
-/**
- * Macht Zod-Fehler für Content-Autoren (Mensch wie KI) lesbar. Zods
- * Union-Heuristik verwirft bei `blocks` die präzisen Issues des bekannten
- * Block-Zweigs – deshalb wird ein Block mit bekanntem `type` gezielt
- * nachvalidiert.
- */
-function describeIssues(raw: unknown, error: z.ZodError): string[] {
-  const lines: string[] = [];
-
-  const walk = (issues: z.core.$ZodIssue[], basePath: PropertyKey[]) => {
-    for (const issue of issues) {
-      const fullPath = [...basePath, ...issue.path];
-      const pathStr = fullPath.join(".") || "(root)";
-
-      const value = valueAtPath(raw, fullPath);
-      const type =
-        value && typeof value === "object"
-          ? (value as { type?: unknown }).type
-          : undefined;
-      if (
-        typeof type === "string" &&
-        (KNOWN_BLOCK_TYPES as readonly string[]).includes(type) &&
-        (issue.code === "invalid_union" ||
-          issue.message.includes("Bekannter Blocktyp"))
-      ) {
-        const sub = knownBlockSchema.safeParse(value);
-        if (!sub.success) {
-          walk(sub.error.issues, fullPath);
-          continue;
-        }
-      }
-
-      if (issue.code === "invalid_union") {
-        const branches = (issue as { errors?: z.core.$ZodIssue[][] }).errors;
-        if (branches?.length) {
-          for (const branch of branches) walk(branch, fullPath);
-          continue;
-        }
-      }
-
-      lines.push(`  - ${pathStr}: ${issue.message}`);
-    }
-  };
-
-  walk(error.issues, []);
-  return [...new Set(lines)];
-}
+// valueAtPath/describeIssues leben in uebersetzung/fehler.ts (geteilt
+// mit dem Übersetzungswerkzeug).
 
 /** Einfache Edit-Distanz, um Tippfehler in Blocktypen zu erkennen. */
 function editDistance(a: string, b: string): number {
@@ -193,43 +151,9 @@ function editDistance(a: string, b: string): number {
 // ---------------------------------------------------------------------------
 
 /** Code-Spans und Code-Blöcke entfernen – dort rendert Markdown nur Text. */
-function stripCode(value: string): string {
-  return value.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
-}
-
-/**
- * Findet Roh-HTML in einem String. Erlaubt bleiben Markdown-Autolinks
- * (`<https://…>`, `<mailto:…>`) sowie Tag-Beispiele in Code-Spans und
- * Code-Blöcken (dort rendert Markdown sie als Text, z. B. wenn ein Modul
- * HTML erklärt). Alles andere, das wie ein Tag aussieht, wird gemeldet –
- * der Player rendert kein HTML, in Markdown-Feldern würde es sogar
- * verschluckt.
- */
-function findHtmlTags(value: string): string[] {
-  const matches = stripCode(value).match(/<\/?[a-zA-Z][^>]*>/g) ?? [];
-  return matches.filter((m) => !/^<(https?:\/\/|mailto:)/i.test(m));
-}
-
-/**
- * Bilder in Markdown-Text (`![alt](url)`): unterliegen denselben Regeln wie
- * image-Blöcke – sonst liesse sich die Bild-Host-Whitelist per Textfeld
- * umgehen (automatischer Request an Drittserver = Tracking-Risiko).
- * Referenz-Stil (`![alt][ref]`) ist nicht erlaubt, damit die URL immer
- * direkt an der Bildstelle prüfbar ist.
- */
-function findMarkdownImages(value: string): { urls: string[]; malformed: number } {
-  const text = stripCode(value);
-  const inline = /!\[[^\]]*\]\(\s*<?([^\s)>]+)[^)]*\)/g;
-  const urls: string[] = [];
-  let match: RegExpExecArray | null;
-  let wellFormed = 0;
-  while ((match = inline.exec(text)) !== null) {
-    urls.push(match[1]);
-    wellFormed++;
-  }
-  const total = (text.match(/!\[/g) ?? []).length;
-  return { urls, malformed: total - wellFormed };
-}
+// stripCode/findHtmlTags/findMarkdownImages leben in
+// uebersetzung/text-pruefung.ts (geteilt mit Fassungs-Prüfung und
+// Übersetzungswerkzeug).
 
 /** Alle String-Werte eines JSON-Baums mit Pfadangabe besuchen. */
 function walkStrings(
@@ -522,6 +446,9 @@ function checkModule(
       continue;
     }
     if (entry.name === "module.json") continue;
+    // Sprachfassungen prüft pruefeFassungen (Kanonform, selfHash,
+    // Strukturgleichheit) – hier zählt nur, dass der Name ins Muster passt.
+    if (FASSUNG_MUSTER.test(entry.name)) continue;
     const ext = path.extname(entry.name).toLowerCase();
     // Video-/Audiodateien prüfen die Abschnitte oben (Grösse + Referenz);
     // hier zählt nur, dass die Endung überhaupt ins Modul gehört.
@@ -741,7 +668,7 @@ for (const slug of slugs) {
   }
 
   // Repo-Policy VOR dem Schema-Parse (siehe repoPolicyFehler oben).
-  const policy = repoPolicyFehler(raw);
+  const policy = [...repoPolicyFehler(raw), ...masterMetafeldFehler(raw)];
   if (policy.length > 0) {
     console.error(`✗ ${slug}`);
     for (const meldung of policy) console.error(`  - ${meldung}`);
@@ -775,6 +702,25 @@ for (const slug of slugs) {
   const result = checkModule(slug, raw, parsed.data, slugs);
   errors.push(...result.errors);
   hints.push(...result.hints);
+
+  // Sprachfassungen (module.<lang>.json) desselben Ordners. Der
+  // try/catch ist das letzte Netz: Ein Prüf-Fehler in einer Fassung
+  // darf nie den Gesamtlauf (und damit die Meldungen aller anderen
+  // Module) abreissen.
+  try {
+    const fassungen = pruefeFassungen(slug, raw, parsed.data, {
+      parse: (fassungRaw) => {
+        const ergebnis = parseModulDatei(fassungRaw);
+        return ergebnis.success
+          ? { success: true, data: ergebnis.data }
+          : { success: false, beschreibung: describeIssues(fassungRaw, ergebnis.error) };
+      },
+    });
+    errors.push(...fassungen.errors);
+    hints.push(...fassungen.hints);
+  } catch (err) {
+    errors.push(`Sprachfassungs-Prüfung fehlgeschlagen: ${(err as Error).message}`);
+  }
 
   if (errors.length > 0) {
     failed++;

@@ -28,6 +28,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 11. August 2026 | Additiv (kein Versionswechsel): optionale **Zuordnungstabelle [`lehrplaene`](#mehrere-lehrpläne)** auf Modulebene – dasselbe Modul liegt ohne Duplikat in mehreren Lehrplänen (pro Kennung Fach, Stufe im Modell des Lehrplans und optionale Kompetenzverweise); die Startseite bekommt dazu eine Lehrplan-Auswahl mit Flagge. Bestehende Module funktionieren unverändert (implizite Migration aus `subject`/`cycle`/`curriculum`). **Achtung Rollout wie beim satzbau:** Ältere Player lehnen Module MIT `lehrplaene` ab (striktes Schema) – solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | 2 | 13. August 2026 | Additiv (kein Versionswechsel): Lehrplan-Einträge dürfen statt einer Schulstufe die Stufe **`selbststudium: true`** tragen – für Module oberhalb der Schulzeit (z. B. das technische Demo-Modul); der Katalog führt sie unter der eigenen Stufe «Selbststudium» NACH der höchsten Klassenstufe. Zugleich zeigt die Modulseite die **Kompetenzverweise je Lehrplan**: Bei gewähltem Lehrplan erscheinen die `kompetenzen` des passenden `lehrplaene`-Eintrags (bzw. der impliziten Migration aus `competencies`); **fehlen sie für die Wahl, entfällt die Kompetenz-Zeile** – wer sie behalten will, pflegt `kompetenzen` in jedem Eintrag. **Achtung Rollout wie bei `lehrplaene`:** Module MIT `selbststudium` erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** | 14. August 2026 | **Vereinheitlichte Lehrplan-Metadaten.** Die sechs Top-Level-Felder `subject`/`subjectName`/`cycle`/`grades`/`curriculum`/`competencies` **und** die Zuordnungstabelle `lehrplaene` sind ersetzt durch **ein** Feld [`curricula`](#mehrere-lehrpläne-curricula): eine **Liste** von Zuordnungen, je Eintrag `curriculum` (Kennung `li`/`ch`/`de`/`at`), `subject`/`subjectName`, Stufe und `competencies` (Code-Format frei). Die **Stufe** ist vereinheitlicht: Klassenstufen-**Zahlen** in `grades` (`[9]`, `[7, 8, 9]` – der Zyklus-Begriff entfällt, auch `li`/`ch` tragen Zahlen), davor ein **Bezeichner** («Stufe» bei `li`/`ch`, «Klasse» bei `de`/`at` – Standard-Wort aus der Lehrplan-Registry, per `gradesText` übersteuerbar; Anzeige «Stufe 7–9», «Klasse 9»). Module **ohne** Klassenstufe tragen nur `gradesText` (z. B. `"Erwachsene"` – ersetzt `selbststudium`, erscheint im Stufen-Filter nach allen Klassenstufen). Version-1/2-Dateien liest die **Plattform** weiterhin (verlustfreie Migration, wichtig für lokal eingeladene Module) – **dieses Repo nimmt nur noch Version 3 an** (Validator-Policy lehnt `schemaVersion` < 3 und die alten Top-Level-Felder mit Klartext-Meldung ab). Migrations-Mapping: siehe [Mehrere Lehrpläne](#mehrere-lehrpläne-curricula). **Achtung Rollout:** Ältere Player lehnen Version-3-Dateien hart ab – Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
+| **3** (additiv) | 18. August 2026 | KEIN Versionswechsel: `languageLearning` am Master (Sprachlernmodule, werden nie übersetzt), `_hinweis` + `derivedFrom` in Sprachfassungen (`module.<lang>.json`). ACHTUNG Rollout: Plattform-Schema ZUERST deployen, erst danach Module/Fassungen mit den neuen Feldern mergen – ältere Plattform-Stände lehnen sie strikt ab. |
 
 ## Ablage
 
@@ -997,6 +998,25 @@ Regeln:
   bei exakt richtiger Auswahl.
 - 4–8 Fragen pro Modul sind ein guter Richtwert; Distraktoren (falsche
   Optionen) plausibel formulieren.
+
+## Übersetzungen: Master und Sprachfassungen (seit 18.8.2026)
+
+Jedes Modul hat genau **einen inhaltlichen Master** (`module.json`).
+Sprachfassungen liegen als `module.<lang>.json` im selben Ordner und
+werden **automatisch erzeugt** – nie von Hand schreiben oder ändern
+(die Validierung lehnt das ab). Drei Felder gehören dazu:
+
+- `languageLearning: true` am **Master** kennzeichnet Sprachlernmodule
+  (z. B. die Englischmodule): Die Sprache ist Lerngegenstand, solche
+  Module werden nie übersetzt.
+- `_hinweis` und `derivedFrom` stehen **nur in Sprachfassungen**
+  (sichtbare Warnung + Herkunfts-Stempel mit Prüfsummen) – das
+  Übersetzungswerkzeug setzt sie selbst.
+
+Sprachfassungen müssen dem Master strukturell exakt entsprechen
+(gleiche Blöcke, ids und Punktzahlen – Lernstand und Reports bleiben
+EIN Modul); übersetzt werden nur Textfelder. Ablauf, Befehle und
+Korrektur-Weg: [`UEBERSETZUNG.md`](UEBERSETZUNG.md).
 
 ## Checkliste für KI-Autoren
 

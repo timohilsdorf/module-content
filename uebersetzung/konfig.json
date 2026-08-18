@@ -1,0 +1,12 @@
+{
+ "modell": "claude-sonnet-5",
+ "maxAusgabeTokens": 32000,
+ "sprachNamen": {
+  "de": "Deutsch",
+  "en": "Englisch"
+ },
+ "vorleseSprachen": {
+  "de": "de-DE",
+  "en": "en-GB"
+ }
+}

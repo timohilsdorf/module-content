@@ -83,6 +83,18 @@ Pull Request als fehlgeschlagen:
   freigegebenen Hosts
 - eindeutige IDs, Pflicht-IDs für Quizfragen, saubere Modulordner
 
+## Übersetzungen
+
+Jedes Modul hat genau **einen inhaltlichen Master** (`module.json`);
+Sprachfassungen (`module.en.json`, …) werden **automatisch daraus
+erzeugt** und dürfen nicht von Hand bearbeitet werden – die Validierung
+lehnt das ab. Inhaltliche Änderungen gehören immer in den Master;
+Übersetzungsfehler meldest du über das Issue-Template
+«Übersetzungsfehler melden». Sprachlernmodule (z. B. die Englischmodule)
+werden nicht übersetzt – die Sprache ist dort der Lerngegenstand.
+Alles Weitere (Befehle, Ablauf, Korrektur-Weg):
+[`UEBERSETZUNG.md`](UEBERSETZUNG.md).
+
 ## Lokale Entwicklung mit der Plattform
 
 Wer an der Plattform selbst arbeitet, klont beide Repositories
