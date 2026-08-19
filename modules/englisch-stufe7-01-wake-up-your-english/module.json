@@ -1,0 +1,428 @@
+{
+ "schemaVersion": 3,
+ "id": "englisch-stufe7-01-wake-up-your-english",
+ "title": "Cate's Base Camp: Wake up your English",
+ "description": "«Cate's Base Camp» – the start of a new English learning path: You wake up the English you already know – school things, family words, numbers, colours and hobbies. You train am, is and are with the right pronouns, listen to a short dialogue and find out what you can already do. Level A1.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "E",
+   "subjectName": "Englisch",
+   "grades": [7],
+   "competencies": [
+    {
+     "code": "FS1E.1.A.1",
+     "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
+    },
+    {
+     "code": "FS1E.5.B.1",
+     "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+    },
+    {
+     "code": "FS1E.5.D.1",
+     "description": "FS1E.5.D.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+    },
+    {
+     "code": "FS1E.4.A.1",
+     "description": "FS1E.4.A.1 (LiLe, Englisch 1. Fremdsprache – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+    }
+   ]
+  }
+ ],
+ "sequenz": 1,
+ "einheit": "Cate's Base Camp – dein Englisch-Neustart",
+ "language": "en",
+ "languageLearning": true,
+ "learningObjectives": [
+  "I can introduce myself and say my name, my age and my hobby.",
+  "I can name school things, family words, numbers and colours in English.",
+  "I can use am, is and are with the right pronoun.",
+  "I can understand a short, simple dialogue when I listen."
+ ],
+ "durationMinutes": 45,
+ "difficulty": "leicht",
+ "keywords": [
+  "Englisch",
+  "vocabulary",
+  "to be",
+  "pronouns",
+  "introduce yourself",
+  "listening",
+  "revision",
+  "Wiedereinstieg",
+  "beginners"
+ ],
+ "authors": ["Anna Rinderer"],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "requires": [],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Willkommen im Base Camp!",
+   "body": "Schön, dass du da bist! Ein Base Camp ist das Lager, in dem sich Bergsteigerinnen und Bergsteiger vor einer großen Tour sammeln – und genau das machen wir hier mit deinem Englisch. Du hast in der Primarschule schon viel Englisch gehört, gesungen und gesprochen. Das meiste davon ist noch da, versprochen – wir wecken es nur wieder auf.\n\nIn diesem Modul wirst du:\n\n- **Wörter auffrischen**, die du schon kennst: Schulsachen, Familie, Zahlen, Farben und Hobbys,\n- **am, is und are** mit den richtigen Pronomen üben,\n- einen kurzen **Dialog anhören** und zeigen, was du verstehst,\n- dich in ein paar Sätzen **selbst auf Englisch vorstellen**,\n- am Ende beim **«Where do I stand?»-Check** herausfinden, was schon gut klappt.\n\nWichtig: Hier muss niemand perfekt sein. Ob du in der Primarschule viel oder wenig Englisch hattest – das Base Camp ist für alle der gleiche Startpunkt. Fehler sind erlaubt, Wiederholen ist erlaubt. Los geht's – have fun!"
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-schulsachen",
+   "title": "Match A: School things",
+   "intro": "Six school things, six pictures. Tap a word, then tap its picture – the pair gets the same number. Wrong pair? Tap it again.",
+   "paare": [
+    {
+     "links": { "text": "book" },
+     "rechts": {
+      "bild": {
+       "src": "/content/englisch-stufe7-01-wake-up-your-english/icon-book.png",
+       "alt": "Icon of an open book with a blue cover and white pages",
+       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+      }
+     }
+    },
+    {
+     "links": { "text": "pen" },
+     "rechts": {
+      "bild": {
+       "src": "/content/englisch-stufe7-01-wake-up-your-english/icon-pen.png",
+       "alt": "Icon of a pen with an orange body and a dark tip, drawing a short line",
+       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+      }
+     }
+    },
+    {
+     "links": { "text": "ruler" },
+     "rechts": {
+      "bild": {
+       "src": "/content/englisch-stufe7-01-wake-up-your-english/icon-ruler.png",
+       "alt": "Icon of a yellow ruler with black measuring marks",
+       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+      }
+     }
+    },
+    {
+     "links": { "text": "school bag" },
+     "rechts": {
+      "bild": {
+       "src": "/content/englisch-stufe7-01-wake-up-your-english/icon-schoolbag.png",
+       "alt": "Icon of a green school bag with a dark carrying handle and a light front pocket",
+       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+      }
+     }
+    },
+    {
+     "links": { "text": "chair" },
+     "rechts": {
+      "bild": {
+       "src": "/content/englisch-stufe7-01-wake-up-your-english/icon-chair.png",
+       "alt": "Icon of a simple wooden chair with four legs and a backrest",
+       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+      }
+     }
+    },
+    {
+     "links": { "text": "board" },
+     "rechts": {
+      "bild": {
+       "src": "/content/englisch-stufe7-01-wake-up-your-english/icon-board.png",
+       "alt": "Icon of a dark green classroom board on a stand, with two chalk lines on it and a piece of chalk in the tray",
+       "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-familie",
+   "title": "Match B: Family words",
+   "intro": "Do you remember the family words? Match each English word to its German translation.",
+   "paare": [
+    { "links": { "text": "sister" }, "rechts": { "text": "Schwester" } },
+    { "links": { "text": "brother" }, "rechts": { "text": "Bruder" } },
+    { "links": { "text": "grandmother" }, "rechts": { "text": "Großmutter" } },
+    { "links": { "text": "grandfather" }, "rechts": { "text": "Großvater" } },
+    { "links": { "text": "aunt" }, "rechts": { "text": "Tante" } },
+    { "links": { "text": "uncle" }, "rechts": { "text": "Onkel" } }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zahlen-farben",
+   "title": "Exercise: Numbers and colours",
+   "intro": "Drag the right word into each gap (on a phone: tap the word first, then the gap). **Careful: two words in the list fit nowhere.**",
+   "modus": "wortbank",
+   "text": "Grass is {{1}}.\nOne plus one is {{2}}.\nSnow is {{3}}.\nEleven plus one is {{4}}.\nA strawberry is {{5}}.\nOne week has {{6}} days.",
+   "luecken": [
+    { "antworten": ["green"] },
+    { "antworten": ["two"] },
+    { "antworten": ["white"] },
+    { "antworten": ["twelve"] },
+    { "antworten": ["red"] },
+    { "antworten": ["seven"] }
+   ],
+   "ablenker": ["ten", "black"]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-ueber-mich",
+   "title": "Exercise: Alina introduces herself",
+   "intro": "Alina is telling you about herself. Drag the right word into each gap. **Careful: two words in the list fit nowhere.**",
+   "modus": "wortbank",
+   "text": "Hi! I am Alina and this is my {{1}}: my mum, my dad and my little brother Nino.\nI am {{2}} years old.\nMy favourite {{3}} is blue.\nMy favourite sport is {{4}} – I play it every Saturday.\nI also like {{5}} – look at my pictures!\nAt school my favourite subject is {{6}} – I love the language!",
+   "luecken": [
+    { "antworten": ["family"] },
+    { "antworten": ["eleven"] },
+    { "antworten": ["colour"] },
+    { "antworten": ["football"] },
+    { "antworten": ["drawing"] },
+    { "antworten": ["English"] }
+   ],
+   "ablenker": ["sister", "Monday"]
+  },
+  {
+   "type": "text",
+   "title": "Grammar check: am, is, are",
+   "body": "**to be** means **sein** in German – and it is the most important verb in English. You only need three forms: **am**, **is** and **are**. The right form depends on the **pronoun** – the word for the person or thing:\n\n| pronoun | form | example |\n| --- | --- | --- |\n| I (ich) | **am** | I **am** happy. |\n| you (du) | **are** | You **are** my friend. |\n| he / she / it (er / sie / es) | **is** | She **is** my sister. |\n| we (wir) | **are** | We **are** in the classroom. |\n| you (ihr) | **are** | You **are** funny. |\n| they (sie, Mehrzahl) | **are** | They **are** at home. |\n\n**In short:** am goes with *I* – is goes with *he*, *she* and *it* – are goes with *you*, *we* and *they*.\n\nWhen people speak, they often use short forms: *I'm* = I am, *she's* = she is, *we're* = we are. In the exercises here we write the long forms. The picture below shows you the rule."
+  },
+  {
+   "type": "image",
+   "title": "am, is or are?",
+   "src": "/content/englisch-stufe7-01-wake-up-your-english/to-be-chart.png",
+   "alt": "Chart with three panels titled «to be». Blue panel «AM»: the pronoun I, with the example sentence «I am happy.» Green panel «IS»: the pronouns he, she, it, with the example sentence «She is my sister.» Orange panel «ARE»: the pronouns you, we, they, with the example sentence «We are friends.» Dark footer bar: «to be = sein · I am · he/she/it is · you/we/they are».",
+   "caption": "Three forms, one rule: am goes with I, is goes with he, she and it, are goes with you, we and they.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-pronomen",
+   "title": "Exercise: Which pronoun?",
+   "intro": "Drag the right pronoun into each gap (on a phone: tap the word first, then the gap). Every pronoun is used exactly once.",
+   "modus": "wortbank",
+   "text": "This is my brother. {{1}} is nine years old.\nThis is my sister. {{2}} is at school.\nLook at the cat! {{3}} is on the chair.\nMy dad and I like football. {{4}} play on Saturday.\nMy grandparents are nice. {{5}} live near us.\n{{6}} are my best friend, Anna.",
+   "luecken": [
+    { "antworten": ["He"] },
+    { "antworten": ["She"] },
+    { "antworten": ["It"] },
+    { "antworten": ["We"] },
+    { "antworten": ["They"] },
+    { "antworten": ["You"] }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-tobe-eingabe",
+   "title": "Exercise: Type am, is or are",
+   "intro": "Now type the right form of to be into each gap. Write the full form (am, is or are), not the short form.",
+   "modus": "eingabe",
+   "text": "I {{1}} eleven years old.\nMy best friend {{2}} in my class.\nWe {{3}} at school.\nMy parents {{4}} at work.\nThe school bag {{5}} green.\nYou {{6}} very funny.",
+   "luecken": [
+    { "antworten": ["am"] },
+    { "antworten": ["is"] },
+    { "antworten": ["are"] },
+    { "antworten": ["are"] },
+    { "antworten": ["is"] },
+    { "antworten": ["are"] }
+   ]
+  },
+  {
+   "type": "audio",
+   "id": "audio-dialog",
+   "title": "Listening: Emma and Leo",
+   "vorleseText": "Emma: Hi! I'm Emma. What's your name? Leo: Hello! My name is Leo. Nice to meet you! Emma: Nice to meet you too. How old are you, Leo? Leo: I am twelve. And you? Emma: I am eleven. Do you have brothers or sisters? Leo: Yes, I have two sisters. They are little – four and six. And you? Emma: I have one big brother. He is fourteen. Leo: What is your hobby? Emma: My hobby is swimming. I go to the pool every Friday. And your hobby? Leo: I like football and drawing. Emma: Cool! Oh, there is my bus. See you, Leo! Leo: Bye, Emma! See you!",
+   "vorleseSprache": "en-GB",
+   "transkriptAnzeigen": false,
+   "description": "Press play and listen carefully. Emma and Leo meet and talk. You can listen more than once. Then answer the questions below."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-dialog",
+   "title": "What did you hear?",
+   "intro": "Four questions about Emma and Leo. You can go back and listen again before you answer.",
+   "questions": [
+    {
+     "id": "di-q1",
+     "type": "single_choice",
+     "prompt": "How old is Leo?",
+     "options": [
+      { "text": "He is eleven." },
+      { "text": "He is twelve.", "correct": true },
+      { "text": "He is fourteen." }
+     ],
+     "explanation": "Leo says: «I am twelve.» Emma is eleven, and Emma's big brother is fourteen."
+    },
+    {
+     "id": "di-q2",
+     "type": "single_choice",
+     "prompt": "What is Emma's hobby?",
+     "options": [
+      { "text": "football" },
+      { "text": "drawing" },
+      { "text": "swimming", "correct": true }
+     ],
+     "explanation": "Emma says: «My hobby is swimming. I go to the pool every Friday.» Football and drawing are Leo's hobbies."
+    },
+    {
+     "id": "di-q3",
+     "type": "single_choice",
+     "prompt": "How many sisters does Leo have?",
+     "options": [
+      { "text": "two", "correct": true },
+      { "text": "one" },
+      { "text": "three" }
+     ],
+     "explanation": "Leo says: «I have two sisters.» They are four and six years old."
+    },
+    {
+     "id": "di-q4",
+     "type": "single_choice",
+     "prompt": "Where are Emma and Leo?",
+     "options": [
+      { "text": "at the swimming pool" },
+      { "text": "at school" },
+      { "text": "at the bus stop", "correct": true }
+     ],
+     "explanation": "At the end Emma says: «Oh, there is my bus.» The two children are talking at the bus stop."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Now you: introduce yourself",
+   "intro": "Now it is your turn – like Alina, Emma and Leo.",
+   "tasks": [
+    {
+     "id": "task-vorstellen",
+     "prompt": "Write **three or four sentences about yourself**: your name, your age, your family or your hobby. Use **am, is** and **are**.\n\nWhen you are done, check your text with this list:\n\n- [ ] I wrote my name and my age.\n- [ ] I wrote one sentence about my family or my hobby.\n- [ ] I used am, is or are in every sentence.\n- [ ] Every sentence starts with a capital letter.",
+     "hint": "You can start like this: «Hi! I am …» – «I am … years old.» – «My hobby is …» – «This is my …»",
+     "solution": "There is no single right answer – your text is about you! An example: «Hi! I am Lena. I am twelve years old. This is my family: my mum, my dad and my brother. My hobby is football.» Now compare: this example says the name and the age, one sentence is about the family, one is about a hobby, and every sentence uses am or is."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-final",
+   "title": "Where do I stand?",
+   "intro": "This check is only for you. It is not a test. It shows you: What do I know? What can I practise again? Nobody sees your result – only you. Eight questions from the whole module – take your time!",
+   "questions": [
+    {
+     "id": "fi-q1",
+     "type": "single_choice",
+     "prompt": "Which word means «Lineal»?",
+     "options": [
+      { "text": "pen" },
+      { "text": "chair" },
+      { "text": "ruler", "correct": true },
+      { "text": "book" }
+     ],
+     "explanation": "A ruler is a «Lineal». A pen writes, a chair is for sitting, and a book is for reading."
+    },
+    {
+     "id": "fi-q2",
+     "type": "single_choice",
+     "prompt": "Your mother's mother is your …",
+     "options": [
+      { "text": "grandmother.", "correct": true },
+      { "text": "aunt." },
+      { "text": "grandfather." },
+      { "text": "uncle." }
+     ],
+     "explanation": "Your mother's mother is your grandmother – your grandfather is your mother's father. Your aunt and uncle are the sister and brother of your mum or dad."
+    },
+    {
+     "id": "fi-q3",
+     "type": "single_choice",
+     "prompt": "Five plus seven is …",
+     "options": [
+      { "text": "ten." },
+      { "text": "eleven." },
+      { "text": "thirteen." },
+      { "text": "twelve.", "correct": true }
+     ],
+     "explanation": "Five plus seven is twelve – the same number as 5 + 7 = 12."
+    },
+    {
+     "id": "fi-q4",
+     "type": "single_choice",
+     "prompt": "The opposite of black is …",
+     "options": [
+      { "text": "green." },
+      { "text": "white.", "correct": true },
+      { "text": "red." },
+      { "text": "blue." }
+     ],
+     "explanation": "Black and white are opposites – like a chessboard."
+    },
+    {
+     "id": "fi-q5",
+     "type": "single_choice",
+     "prompt": "Choose the right form: «My brother … ten years old.»",
+     "options": [
+      { "text": "am" },
+      { "text": "is", "correct": true },
+      { "text": "be" },
+      { "text": "are" }
+     ],
+     "explanation": "My brother = he, and he goes with is: «My brother is ten years old.» Am only goes with I, and are goes with you, we and they."
+    },
+    {
+     "id": "fi-q6",
+     "type": "single_choice",
+     "prompt": "Choose the right sentence.",
+     "options": [
+      { "text": "They are my friends.", "correct": true },
+      { "text": "They is my friends." },
+      { "text": "They am my friends." },
+      { "text": "They be my friends." }
+     ],
+     "explanation": "They goes with are: «They are my friends.» Is goes with he, she and it, and am only goes with I."
+    },
+    {
+     "id": "fi-q7",
+     "type": "single_choice",
+     "prompt": "Somebody asks you: «What's your name?» What do you say?",
+     "options": [
+      { "text": "I am eleven." },
+      { "text": "Good morning." },
+      { "text": "I like football." },
+      { "text": "My name is Sam.", "correct": true }
+     ],
+     "explanation": "«What's your name?» asks for your name, so you answer with it: «My name is Sam.» – «I am eleven» answers «How old are you?»"
+    },
+    {
+     "id": "fi-q8",
+     "type": "single_choice",
+     "prompt": "Which word is a hobby?",
+     "options": [
+      { "text": "grandmother" },
+      { "text": "chair" },
+      { "text": "swimming", "correct": true },
+      { "text": "white" }
+     ],
+     "explanation": "Swimming is a hobby – it is Emma's hobby in the dialogue. Your grandmother is a family word, a chair is a school thing, and white is a colour."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Extra challenge: have got",
+   "body": "Finished already? Then this extra part is for you – you do not need it to finish the module.\n\n**have got** means **haben**. Maybe you remember the forms:\n\n- I / you / we / they **have got** … → *I **have got** a blue school bag.*\n- he / she / it **has got** … → *My aunt **has got** two cats.*\n\nTo make a **question**, you simply move *have* or *has* to the front:\n\n- **Have** you **got** a pet? – Yes, I **have**. / No, I **haven't**.\n- **Has** your brother **got** a bike? – Yes, he **has**. / No, he **hasn't**.\n\nMaybe you noticed: In the dialogue, Emma asks «Do you have brothers or sisters?» – that is also correct English. Here you practise the second way: the question with **have got**.\n\nNow it's your turn: a small writing task is waiting below."
+  },
+  {
+   "type": "tasks",
+   "title": "Challenge: Three questions with have got",
+   "intro": "A little writing challenge for fast climbers – optional, but fun!",
+   "tasks": [
+    {
+     "id": "task-have-got",
+     "prompt": "Write **three questions with have got** – about family, pets or school things. Then write a **short answer** for each question (Yes, … / No, …).\n\nWhen you are done, check your text with this list:\n\n- [ ] I wrote three questions with have got or has got.\n- [ ] Every question starts with Have or Has and ends with a question mark.\n- [ ] Every question has a short answer (Yes, … / No, …).\n- [ ] Every sentence starts with a capital letter.",
+     "hint": "You can start like this: «Have you got …?» – «Has your sister got …?» – «Has your teacher got …?» Useful words: a pet, a bike, a red pen, a big family, a little brother.",
+     "solution": "There is no single right answer – your own questions are the goal. An example: «Have you got a pet? – No, I haven't. Has your brother got a bike? – Yes, he has. Has your teacher got a red pen? – Yes, she has.» Now compare: this example has three questions with have got or has got, every question starts with Have or Has and ends with a question mark, and every question has a short answer."
+    }
+   ]
+  }
+ ]
+}
