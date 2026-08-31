@@ -1,0 +1,65 @@
+name: Modul für den Katalog vorschlagen
+description: Ein selbst erstelltes Modul zur Aufnahme in den öffentlichen EveryCate-Katalog vorschlagen.
+title: "Modulvorschlag: <Titel>"
+labels: ["modul-vorschlag"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du ein Modul beisteuern möchtest! So läuft es ab: Du
+        hängst unten deine Moduldatei an, der Betreiber liest sie kritisch
+        gegen und übernimmt sie bei Eignung als Pull Request ins
+        Repository. Veröffentlicht wird – wie bei allen Inhalten hier –
+        erst nach menschlicher Prüfung und automatischer Validierung.
+        Fehlt noch etwas (z. B. die Lehrplan-Einordnung), melden wir uns
+        einfach hier im Issue.
+  - type: input
+    id: modultitel
+    attributes:
+      label: Modultitel
+      description: Titel des Moduls, wie er im Katalog erscheinen soll.
+    validations:
+      required: true
+  - type: input
+    id: fach
+    attributes:
+      label: Fach
+      description: z. B. Wirtschaft & Politik, Englisch, Mathematik.
+    validations:
+      required: true
+  - type: input
+    id: stufe
+    attributes:
+      label: Stufe
+      description: z. B. Stufe 7–9, Klasse 5, Erwachsene.
+    validations:
+      required: true
+  - type: textarea
+    id: moduldatei
+    attributes:
+      label: Moduldatei
+      description: >-
+        In der App auf «Für den Katalog vorschlagen» → «Moduldatei
+        herunterladen» klicken – das lädt dein Modul als .txt-Datei
+        herunter. Ziehe diese Datei einfach per Drag & Drop in dieses
+        Feld (GitHub akzeptiert .txt-Anhänge). Alternativ: Datei in einem
+        Texteditor öffnen und den kompletten Inhalt hier als Codeblock
+        einfügen (drei Backticks davor und danach).
+      placeholder: "Datei hierhin ziehen – oder Inhalt als ```-Codeblock einfügen."
+    validations:
+      required: true
+  - type: textarea
+    id: anmerkungen
+    attributes:
+      label: Anmerkungen (optional)
+      description: Was sollte die prüfende Person wissen (Zielgruppe, Quellenlage, offene Punkte)?
+  - type: checkboxes
+    id: rechte
+    attributes:
+      label: Rechte und Lizenz
+      description: >-
+        Inhalte in diesem Repository stehen unter CC BY-SA 4.0
+        (siehe LICENSE und README, Abschnitt «Lizenz»).
+      options:
+        - label: Ich bestätige, dass ich die nötigen Rechte am eingereichten Inhalt halte, und bin einverstanden, dass der Beitrag unter CC BY-SA 4.0 veröffentlicht wird.
+          required: true
