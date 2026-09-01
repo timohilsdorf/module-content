@@ -104,6 +104,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Budget und Lohnabrechnung",
+   "teilkompetenzen": [
+    "wp.budget.lohnabrechnung-erklaeren",
+    "wp.budget.monatsbudget-berechnen"
+   ],
    "intro": "Zeig, dass du Lohnabrechnung und Budget im Griff hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -280,6 +284,10 @@
    "type": "lueckentext",
    "id": "lt-budget-grundlagen",
    "title": "Setze die Begriffe ein: Lohn und Budget",
+   "teilkompetenzen": [
+    "wp.budget.lohnabrechnung-erklaeren",
+    "wp.budget.monatsbudget-berechnen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Auf der Lohnabrechnung steht zuoberst der {{1}} – der vereinbarte Lohn vor den Abzügen. Danach folgen die {{2}}, zum Beispiel für die AHV/IV und die {{3}}, die dich auch in der Freizeit gegen Unfälle schützt. Was übrig bleibt, ist der {{4}} – der Betrag, der aufs Konto kommt und mit dem du planst.\nIm Budget unterscheidest du {{5}} Ausgaben wie das Handy-Abo, die jeden Monat gleich hoch sind, von {{6}} Ausgaben wie dem Ausgang. Die Grundregel lautet: zuerst {{7}}, dann ausgeben – lege den {{8}} gleich nach dem Lohneingang beiseite. Wer zudem unregelmäßige Rechnungen im Voraus einplant, bildet {{9}}. So behältst du die {{10}} über dein Geld.",
@@ -345,6 +353,9 @@
    "type": "lueckentext",
    "id": "lt-budget-rechnen",
    "title": "Rechne und tippe ein: Linas Budget",
+   "teilkompetenzen": [
+    "wp.budget.monatsbudget-berechnen"
+   ],
    "intro": "Jetzt wird gerechnet: **Vervollständige Linas Budget und tippe die Zahlen ein** – nur die Zahl, ohne «CHF». Nimm einen Taschenrechner, wenn du magst.",
    "modus": "eingabe",
    "text": "Linas Nettolohn beträgt CHF 1026. Als Erstes legt sie ihren Sparbetrag von CHF 100 beiseite. Ihre fixen Ausgaben: CHF 30 Handy-Abo, CHF 60 ÖV-Abo und CHF 150 Beitrag an Kost und Logis – zusammen CHF {{1}}. Für variable Ausgaben bleiben ihr damit CHF {{2}}. Im Juli gibt sie davon nur CHF 500 aus – sie kann also zusätzlich CHF {{3}} auf die Seite legen. Allein mit dem festen Sparbetrag hat sie nach zwölf Monaten CHF {{4}} gespart. Ihr Sparziel, ein Töffli für CHF 2400, erreicht sie mit dem festen Sparbetrag allein nach {{5}} Monaten.",
@@ -382,6 +393,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-budgetposten",
    "title": "Zuordnen: fix, variabel – oder Sparen?",
+   "teilkompetenzen": [
+    "wp.budget.monatsbudget-berechnen"
+   ],
    "intro": "Ordne jeden Budgetposten der richtigen Kategorie zu: **fix** (jeden Monat gleich), **variabel** (schwankt von Monat zu Monat) oder **Sparen**. Jede Kategorie kommt mehrmals vor.",
    "modus": "wortbank",
    "text": "Handy-Abo. {{1}}\nAusgang am Wochenende. {{2}}\nBetrag für dein Sparziel, den du dir gleich nach dem Lohneingang zur Seite legst. {{3}}\nÖV-Abo. {{4}}\nKleider. {{5}}\nNotgroschen für unerwartete Rechnungen. {{6}}\nBeitrag an Kost und Logis zuhause. {{7}}\nGames und In-App-Käufe. {{8}}\nRücklage für das Töffli. {{9}}",
@@ -436,6 +450,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Dein eigenes Budget",
+   "teilkompetenzen": [
+    "wp.budget.monatsbudget-berechnen",
+    "wp.budget.lohnabrechnung-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Erstelle dein persönliches Monatsbudget nach Linas Vorlage: (1) Notiere deine Einnahmen (Sackgeld, Ferienjob, Zustupf). (2) Lege einen Sparbetrag fest, den du dir zuerst zur Seite legst – und ein konkretes Sparziel dazu. (3) Liste deine fixen Ausgaben auf. (4) Rechne aus, was für variable Ausgaben übrig bleibt.",

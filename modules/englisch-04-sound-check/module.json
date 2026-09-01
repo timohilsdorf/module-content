@@ -13,16 +13,16 @@
    ],
    "competencies": [
     {
-     "code": "E.1.A.1",
-     "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
+     "code": "FS1E.1.A.1",
+     "description": "Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
     },
     {
-     "code": "E.5.B.1",
-     "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+     "code": "FS1E.5.B.1",
+     "description": "Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
     },
     {
-     "code": "E.5.D.1",
-     "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+     "code": "FS1E.5.D.1",
+     "description": "Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
     }
    ]
   }
@@ -85,6 +85,9 @@
    "type": "quiz",
    "id": "quiz-warmup-1",
    "title": "What did you hear?",
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2"
+   ],
    "questions": [
     {
      "id": "wu1-q1",
@@ -121,6 +124,9 @@
    "type": "quiz",
    "id": "quiz-warmup-2",
    "title": "Check your listening",
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2"
+   ],
    "questions": [
     {
      "id": "wu2-q1",
@@ -160,6 +166,9 @@
    "type": "quiz",
    "id": "quiz-warmup-3",
    "title": "What did you hear?",
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2"
+   ],
    "questions": [
     {
      "id": "wu3-q1",
@@ -196,6 +205,9 @@
    "type": "quiz",
    "id": "quiz-warmup-4",
    "title": "Check your listening",
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2"
+   ],
    "questions": [
     {
      "id": "wu4-q1",
@@ -224,6 +236,9 @@
    "type": "zuordnung",
    "id": "zu-instrumente",
    "title": "Match A: Words and pictures",
+   "teilkompetenzen": [
+    "en.wortschatz.themenwortschatz-anwenden-a2"
+   ],
    "intro": "Six words from Module 1, six pictures. Tap a word, then tap its picture – the pair gets the same number. You can undo a pair by tapping it again.",
    "paare": [
     {
@@ -304,6 +319,9 @@
    "type": "zuordnung",
    "id": "zu-adjektive",
    "title": "Match B: Adjectives and their German translations",
+   "teilkompetenzen": [
+    "en.wortschatz.themenwortschatz-anwenden-a2"
+   ],
    "intro": "Do you remember the describing words from Module 1? Match each English adjective to its German translation.",
    "paare": [
     {
@@ -373,6 +391,9 @@
    "type": "lueckentext",
    "id": "lt-so-such-wortbank",
    "title": "Exercise: so, such and friends",
+   "teilkompetenzen": [
+    "en.grammatik.satzstrukturen-anwenden-a2"
+   ],
    "intro": "Drag the right words into the gaps (on a phone: tap first the word, then the gap). **Careful: two forms in the list are wrong forms – they fit nowhere.**",
    "modus": "wortbank",
    "text": "The concert was {{1}} loud that my ears hurt the next day.\nI had never heard {{2}} beautiful melody before.\nThere were {{3}} people in front of the stage that we could not see the band.\nThe crew has {{4}} to do before the show that nobody takes a break.\nIt was {{5}} unforgettable evening that we still talk about it.\nThey are {{6}} good musicians that every hall is full.",
@@ -417,6 +438,9 @@
    "type": "lueckentext",
    "id": "lt-so-such-eingabe",
    "title": "Exercise: Type so or such (a)",
+   "teilkompetenzen": [
+    "en.grammatik.satzstrukturen-anwenden-a2"
+   ],
    "intro": "Now without a word list: type **so**, **such** or **such a** into each gap. Look at what comes after the gap – an adjective alone, or a noun at the end?",
    "modus": "eingabe",
    "text": "This song is {{1}} catchy that I hum it all day.\nI had never been to {{2}} big concert before.\nThe tickets were {{3}} expensive that we stayed at home.\nShe is {{4}} talented singer that everyone wants a photo with her.\nWhy are you {{5}} nervous? It is only a sound check!",
@@ -463,6 +487,9 @@
    "type": "quiz",
    "id": "quiz-story",
    "title": "Check your listening: the festival story",
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2"
+   ],
    "intro": "Three questions about the story you just heard. You can go back and listen again before you answer.",
    "questions": [
     {
@@ -534,6 +561,9 @@
    "type": "lueckentext",
    "id": "lt-past-perfect",
    "title": "Quick repeat: past simple or past perfect?",
+   "teilkompetenzen": [
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "One last look back at Week 1: put the verb in brackets into the past simple or the past perfect.",
    "modus": "eingabe",
    "text": "By the time the singer arrived, the fans {{1}} (wait) for three hours.\nEverybody knew the lyrics, because the song {{2}} (be) number one for weeks before.\nWe {{3}} (buy) our tickets months before, so we walked straight in.\nAfter the encore, we {{4}} (take) the bus home.",
@@ -575,6 +605,11 @@
    "type": "quiz",
    "id": "quiz-final",
    "title": "Final quiz: ears, words and tenses",
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2",
+    "en.grammatik.satzstrukturen-anwenden-a2",
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Five questions from the whole module. For the first one, use the audio sentence above – you can play it again.",
    "questions": [
     {

@@ -13,12 +13,12 @@
    ],
    "competencies": [
     {
-     "code": "E.5.B.1",
-     "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+     "code": "FS1E.5.B.1",
+     "description": "Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
     },
     {
-     "code": "E.5.D.1",
-     "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+     "code": "FS1E.5.D.1",
+     "description": "Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
     }
    ]
   }
@@ -84,6 +84,9 @@
    "type": "quiz",
    "id": "quiz-uebung1",
    "title": "Exercise 1: watch, see or look at?",
+   "teilkompetenzen": [
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2"
+   ],
    "intro": "Choose the correct option for each gap. Think about the three jobs: moving, coming to your eyes / being there, or static.",
    "questions": [
     {
@@ -218,6 +221,10 @@
    "type": "lueckentext",
    "id": "lt-uebung2",
    "title": "Exercise 2: The right verb in the right tense",
+   "teilkompetenzen": [
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2",
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Drag the correct form into each gap (on a phone: tap the form first, then the gap): *watch*, *see* or *look at* – in the tense that fits the sentence. **Careful: three forms in the list are wrong forms – they fit nowhere.**",
    "modus": "wortbank",
    "text": "Every Sunday I {{1}} old concert films on my laptop for hours.\nI {{2}} my old schoolmate in the crowd yesterday, but a second later she was gone.\nPlease {{3}} the stage design in this photo – isn't it amazing?\nBefore last night, I {{4}} the band live only once, at a tiny festival.\nBy the time the interview started, half a million people {{5}} the new video.\nDuring the guitar solo, everyone {{6}} the guitarist's hands – nobody wanted to miss a single move.\nAfter the concert, we {{7}} all the photos on Lea's phone, one by one.",
@@ -283,6 +290,9 @@
    "type": "lueckentext",
    "id": "lt-uebung3",
    "title": "Exercise 3: Build the form",
+   "teilkompetenzen": [
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Complete each sentence with the verb in brackets. Use the past simple or the past perfect – decide which action came first. Careful: sometimes the gap is the later action!",
    "modus": "eingabe",
    "text": "By the time we reached the stadium, the show {{1}} (begin).\nWhen we met at six, Mia {{2}} (buy) our tickets already, so we walked straight in.\nWe {{3}} (go) home by bus after the final song.\nI recognised the melody at once, because I {{4}} (hear) it many times before.\nBy the time the encore {{5}} (begin), some fans had already left the hall.\nThe band {{6}} (see) the fans' banners and smiled.\nBefore the doors {{7}} (open), fans had waited in the rain for hours.\nIt was the best show I {{8}} (see) in my whole life.",
@@ -336,6 +346,9 @@
    "type": "lueckentext",
    "id": "lt-uebung4",
    "title": "Exercise 4: The concert I will never forget",
+   "teilkompetenzen": [
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Read the whole story first. Then complete it: put each verb in brackets into the past simple or the past perfect. The context tells you which event happened earlier.",
    "modus": "eingabe",
    "text": "Two years ago, my favourite band finally {{1}} (come) to Switzerland.\nI {{2}} (want) to see them live for years, so my aunt bought us tickets as a birthday surprise.\nWhen we arrived at the stadium, hundreds of fans {{3}} (take) their places already.\nThe band {{4}} (play) in our country twice before, but I {{5}} (miss) both shows because I was too young.\nAt nine o'clock, the lights {{6}} (go) out, and the crowd screamed.\nThe singer {{7}} (begin) with a quiet song that she {{8}} (write) as a teenager.\nBy the end of the night, I {{9}} (sing) so loudly that I could hardly speak – but I was the happiest person in the stadium.",
@@ -393,6 +406,10 @@
    "type": "lueckentext",
    "id": "sb-uebung5a",
    "title": "Exercise 5.1: Build the sentence",
+   "teilkompetenzen": [
+    "en.grammatik.satzstrukturen-anwenden-a2",
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "New task type! Put the pieces in the right order and build a correct sentence – drag them into the row, or tap them one after the other. **Careful: one piece is wrong and stays out.**",
    "modus": "satzbau",
    "bausteine": [
@@ -419,6 +436,10 @@
    "type": "lueckentext",
    "id": "sb-uebung5b",
    "title": "Exercise 5.2: Build the sentence",
+   "teilkompetenzen": [
+    "en.grammatik.satzstrukturen-anwenden-a2",
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Build the next sentence. **One piece is wrong and stays out** – watch the tense.",
    "modus": "satzbau",
    "bausteine": [
@@ -436,6 +457,10 @@
    "type": "lueckentext",
    "id": "sb-uebung5c",
    "title": "Exercise 5.3: Build the sentence – a look back at Module 2",
+   "teilkompetenzen": [
+    "en.grammatik.satzstrukturen-anwenden-a2",
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2"
+   ],
    "intro": "Build the sentence. **One piece is wrong and stays out** – think of the two verbs for your ears.",
    "modus": "satzbau",
    "bausteine": [
@@ -452,6 +477,9 @@
    "type": "lueckentext",
    "id": "sb-uebung5d",
    "title": "Exercise 5.4: Build the question",
+   "teilkompetenzen": [
+    "en.grammatik.satzstrukturen-anwenden-a2"
+   ],
    "intro": "And one question to finish. **Two pieces are wrong and stay out this time.**",
    "modus": "satzbau",
    "bausteine": [
@@ -469,6 +497,10 @@
    "type": "quiz",
    "id": "quiz-final",
    "title": "Final quiz: eyes, ears and two past tenses",
+   "teilkompetenzen": [
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2",
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Six questions from the whole module – vocabulary, grammar, and one look back at Module 2.",
    "questions": [
     {

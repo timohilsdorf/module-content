@@ -113,6 +113,11 @@
    "type": "quiz",
    "id": "quiz-pausenkiosk",
    "title": "Reflexions-Quiz: Was ist in deinem Kiosk passiert?",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben",
+    "wp.markt.wettbewerb-beurteilen",
+    "wp.vorsorge.versicherungsprinzip-erklaeren"
+   ],
    "intro": "Fünf Fragen zu den Mechanismen hinter dem Spiel. Wenn du bei einer Frage unsicher bist: Spiel noch eine Runde und schau genau hin.",
    "questions": [
     {
@@ -231,6 +236,10 @@
    "type": "simulation",
    "id": "sim-finanzberater",
    "title": "Rollenspiel: Beim Finanzberater",
+   "teilkompetenzen": [
+    "wp.anlegen.risiko-rendite-beurteilen",
+    "wp.konsum.gegenstrategien-anwenden"
+   ],
    "intro": "Du sitzt im Autocenter. Das Wunschauto steht draußen, der Kaffee ist serviert, und Herr Vogt schlägt die Mappe auf. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen. Herr Vogt ist eine simulierte Gesprächsfigur, keine echte Person.",
    "figur": {
     "name": "Herr Vogt (KI-Figur)",
@@ -428,6 +437,11 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Erkläre es in eigenen Worten",
+   "teilkompetenzen": [
+    "wp.anlegen.risiko-rendite-beurteilen",
+    "wp.vorsorge.versicherungen-einordnen",
+    "wp.konsum.gegenstrategien-anwenden"
+   ],
    "intro": "Drei offene Aufgaben zum Gespräch bei Herrn Vogt. Schreib deine Antworten ins Textfeld – Cate gibt dir Rückmeldung, und deine Lehrperson sieht die Antworten im Report.",
    "tasks": [
     {
@@ -464,6 +478,11 @@
    "type": "quiz",
    "id": "quiz-lebenssimulator",
    "title": "Reflexions-Quiz: Was hat dein Geld gemacht?",
+   "teilkompetenzen": [
+    "wp.anlegen.risiko-rendite-beurteilen",
+    "wp.budget.monatsbudget-berechnen",
+    "wp.bezahlen.schuldenfallen-erkennen"
+   ],
    "intro": "Fünf Fragen zu den Mechanismen hinter dem Lebenssimulator. Wenn du bei einer unsicher bist: Spiel den Simulator nochmals und achte gezielt darauf.",
    "questions": [
     {

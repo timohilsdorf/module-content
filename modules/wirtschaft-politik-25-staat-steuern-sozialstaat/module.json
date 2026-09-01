@@ -118,6 +118,11 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Staat, Steuern und Budget",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.steuern-zuordnen",
+    "wp.staat.staatsbudget-erklaeren"
+   ],
    "intro": "Zeig, was du über die Rolle des Staates, die drei Steuertypen und das Budget gelernt hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -294,6 +299,11 @@
    "type": "lueckentext",
    "id": "lt-staat-budget",
    "title": "Setze die Begriffe ein: Staat, Steuern und Budget",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.steuern-zuordnen",
+    "wp.staat.staatsbudget-erklaeren"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Der Markt liefert vieles – aber nicht alles: Straßen, Schulen und Sicherheit stellt der {{1}} bereit. Er setzt außerdem {{2}} für das Wirtschaftsleben und sichert Schwächere ab. Bezahlt wird das vor allem über {{3}}. Auf Lohn und Verdienst zahlst du die {{4}}. Bei fast jedem Einkauf steckt die {{5}} bereits im Preis. Firmen zahlen auf ihren Gewinn die {{6}}. Nimmt der Staat mehr ein, als er ausgibt, entsteht ein {{7}}. Gibt er mehr aus, als er einnimmt, entsteht ein {{8}}. Leiht er sich dafür über Jahre immer wieder Geld, wachsen die {{9}}.",
@@ -354,6 +364,11 @@
    "type": "lueckentext",
    "id": "lt-budget-eingabe",
    "title": "Tippe die Begriffe ein: Die Grundbegriffe sitzen",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.staatsbudget-erklaeren",
+    "wp.staat.steuern-zuordnen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Der Sozialstaat funktioniert wie eine große {{1}}: Viele zahlen ein, und wer von einem Lebensrisiko getroffen wird, erhält Leistungen. Die staatliche Altersrente heißt bei uns kurz {{2}}. Nimmt ein Staat mehr ein, als er ausgibt, spricht man von einem {{3}}. Im umgekehrten Fall entsteht ein {{4}}. Die Steuer, die bei fast jedem Einkauf im Preis steckt, ist die {{5}}.",
@@ -392,6 +407,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-steuerart",
    "title": "Zuordnen: Welche Steuer ist das?",
+   "teilkompetenzen": [
+    "wp.staat.steuern-zuordnen"
+   ],
    "intro": "Ordne jede Situation der passenden Steuerart zu: **Einkommenssteuer**, **Mehrwertsteuer** oder **Unternehmenssteuer**. Jede Steuerart kommt genau dreimal vor.",
    "modus": "wortbank",
    "text": "Lena kauft am Kiosk ein Sandwich – ein Teil des Preises geht als Steuer an den Staat. {{1}}\nHerr Brunner gibt in seiner jährlichen Steuererklärung seinen Lohn an und erhält danach die Steuerrechnung. {{2}}\nEin Möbelhersteller hat nach Abzug aller Kosten zwei Millionen CHF verdient und zahlt darauf Steuern. {{3}}\nAuf der Handy-Quittung ist eine Steuer aufgeführt, die im Verkaufspreis bereits enthalten war. {{4}}\nEine Ärztin zahlt auf ihr Jahreseinkommen Steuern. {{5}}\nEin Start-up schreibt zum ersten Mal Gewinn – nun wird darauf eine Steuer fällig. {{6}}\nBeim Kinoticket zahlst du die Steuer mit, ohne es zu merken – sie steckt im Preis. {{7}}\nFrau Meier bekommt eine Lohnerhöhung – ihre jährliche Steuerrechnung wird dadurch höher. {{8}}\nDie Bäckerei Sonnenblick zahlt Steuern auf ihren Jahresgewinn. {{9}}",
@@ -446,6 +464,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Der Staat in deinem Alltag",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.staatsbudget-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Staats-Spurensuche: Geh deinen heutigen Tag von Aufstehen bis jetzt durch und notiere **fünf Dinge, die der Staat bereitstellt oder mitfinanziert** hat. Ordne jedes davon einem Ausgabenbereich aus der Budget-Grafik zu (Bildung, Straßen und Verkehr, Sicherheit, Gesundheit, Soziales).",

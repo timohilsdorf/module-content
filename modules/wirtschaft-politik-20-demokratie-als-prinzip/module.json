@@ -114,6 +114,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Demokratie als Prinzip",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
    "intro": "Zeig, dass du die Bausteine der Demokratie verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -290,6 +294,10 @@
    "type": "lueckentext",
    "id": "lt-demokratie-bausteine",
    "title": "Setze die Begriffe ein: Die Bausteine der Demokratie",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Demokratie heißt wörtlich Herrschaft des {{1}}: Die Betroffenen entscheiden selbst. Wer regiert, tut das auf {{2}} – nach der Amtszeit wird neu entschieden, und die Macht wechselt ohne {{3}}.\nStimmen alle Betroffenen selbst über eine Sachfrage ab, spricht man von {{4}} Demokratie. Wählen sie stattdessen Personen, die an ihrer Stelle entscheiden, heißt das {{5}} Demokratie – so wie beim {{6}}, in den die Klasse zwei Delegierte wählt.\nBei Abstimmungen entscheidet die {{7}} – doch die Überstimmten behalten ihre {{8}}, denn zur Demokratie gehört der {{9}}. Mitwirken geht auch ohne Stimmrecht, zum Beispiel mit einer {{10}}, für die man Unterschriften sammelt.",
@@ -355,6 +363,10 @@
    "type": "lueckentext",
    "id": "lt-demokratie-eingabe",
    "title": "Tippe die Begriffe ein: Der Kern sitzt",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "In einer Demokratie geht die Entscheidungsmacht von den {{1}} aus. Herrschaft gilt auf {{2}}, danach wird neu entschieden. Entscheiden alle selbst über eine Sachfrage, ist das direkte Demokratie; entscheidet eine gewählte {{3}}, ist das repräsentative Demokratie. Bei Abstimmungen gilt der Entscheid der {{4}} – die Rechte der {{5}} bleiben trotzdem geschützt.",
@@ -403,6 +415,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-entscheidungswege",
    "title": "Zuordnen: direkt, repräsentativ – oder Partizipation daneben?",
+   "teilkompetenzen": [
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
    "intro": "Ordne jede Situation der passenden Kategorie zu: **direkte Demokratie** (alle entscheiden selbst über die Sache), **repräsentative Demokratie** (gewählte Vertretung entscheidet) oder **Partizipation jenseits von Wahlen**. Jede Kategorie kommt genau dreimal vor.",
    "modus": "wortbank",
    "text": "Die Klasse stimmt selbst ab, ob das Klassenzimmer neu gestaltet wird. {{1}}\nDer gewählte Schülerrat entscheidet über das Motto des Schulfests. {{2}}\nJugendliche sammeln Unterschriften für einen Veloweg und reichen die Petition ein. {{3}}\nAlle Vereinsmitglieder stimmen an der Versammlung direkt über die neuen Statuten ab. {{4}}\nDie Klasse wählt zwei Delegierte, die ihre Anliegen im Schülerrat vertreten. {{5}}\nEine Gruppe demonstriert friedlich für mehr Jugendräume in der Gemeinde. {{6}}\nAlle Stimmberechtigten entscheiden an der Urne direkt über eine Sachvorlage. {{7}}\nDas gewählte Parlament berät und beschließt ein neues Gesetz. {{8}}\nIm Jugendparlament bringen Jugendliche ihre Anliegen bei der Gemeinde ein. {{9}}",
@@ -457,6 +472,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Demokratie durchdenken",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
    "tasks": [
     {
      "prompt": "Denkexperiment Klassenausflug: 18 stimmen für den Kletterpark, 6 für das Hallenbad. Entwirf drei Regeln, die den Mehrheitsentscheid gelten lassen UND die Minderheit fair behandeln. Begründe bei jeder Regel, warum sie wichtig ist – und nenne ein Beispiel für einen Zusatzbeschluss der Mehrheit, der NICHT zulässig sein dürfte.",

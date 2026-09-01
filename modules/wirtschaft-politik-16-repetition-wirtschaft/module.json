@@ -100,6 +100,11 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Das große Repetitionsquiz: quer durch die Module 1–15",
+   "teilkompetenzen": [
+    "wp.kreislauf.zusammenhaenge-erklaeren",
+    "wp.markt.preisbildung-erklaeren",
+    "wp.geld.funktionen-erklaeren"
+   ],
    "intro": "Fünfzehn Fragen durch den ganzen Stoff – sie beginnen leicht und werden gegen hinten anspruchsvoller. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -423,6 +428,11 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-begriffe",
    "title": "Zuordnen: Zwölf Begriffe, zwölf Definitionen",
+   "teilkompetenzen": [
+    "wp.grundlagen.oekonomisches-prinzip-anwenden",
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.markt.marktformen-unterscheiden"
+   ],
    "intro": "Ordne jeder Definition den passenden Begriff zu – die Begriffe stammen aus allen drei Themenblöcken. Jeder Begriff wird genau einmal gebraucht.",
    "modus": "wortbank",
    "text": "Wünsche sind unbegrenzt, die Mittel begrenzt – das Grundproblem der Wirtschaft: {{1}}\nWirtschaftsakteure, die konsumieren und den Unternehmen Arbeitskraft anbieten: {{2}}\nDer Strom aus Lohn und Konsumausgaben im Wirtschaftskreislauf: {{3}}\nGüter, die Unternehmen ins Ausland verkaufen: {{4}}\nDie langfristige Verschiebung der Beschäftigung vom 1. über den 2. in den 3. Sektor: {{5}}\nDie Menge eines Gutes, die Käuferinnen und Käufer zu einem bestimmten Preis kaufen wollen: {{6}}\nDer Preis, bei dem angebotene und nachgefragte Menge übereinstimmen: {{7}}\nMarktform mit nur einem einzigen Anbieter: {{8}}\nGeldfunktion, die Preise vergleichbar macht: {{9}}\nDer regelmäßige Preis für den Versicherungsschutz: {{10}}\nDer Unterschied zwischen Kredit- und Sparzins – das klassische Geschäftsmodell der Bank: {{11}}\nDer Lohn nach allen Abzügen – der Betrag, der aufs Konto kommt: {{12}}",
@@ -493,6 +503,11 @@
    "type": "lueckentext",
    "id": "lt-repetition-kreislauf",
    "title": "Der große Repetitionstext: Der Wirtschaftskreislauf – mit allem, was dazugehört",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen",
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.banken.kernaufgaben-zuordnen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). Der Text spannt den Bogen durch mehrere Module. **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Im Zentrum der Wirtschaft steht der Kreislauf: Die Haushalte stellen den Unternehmen ihre {{1}} zur Verfügung und erhalten dafür {{2}}. Damit kaufen sie bei den Unternehmen Sachgüter und {{3}} – Realstrom und Geldstrom fließen in entgegengesetzter Richtung. Der {{4}} erhebt Steuern und stellt dafür öffentliche Leistungen bereit.\nDie Banken wirken als {{5}} des Kreislaufs: Sie sammeln die {{6}} der Sparenden und vergeben daraus {{7}} an jene, die investieren wollen. Über die Landesgrenze fließen Exporte und {{8}} – für das kleine Liechtenstein besonders wichtig. Bezahlt wird im ganzen Kreislauf mit dem Schweizer {{9}}. Und wo immer gekauft und verkauft wird, bestimmen Angebot und {{10}} die Preise.",
@@ -558,6 +573,11 @@
    "type": "lueckentext",
    "id": "lt-transfer-eingabe",
    "title": "Transfer: Wende dein Wissen auf neue Situationen an",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben",
+    "wp.banken.zins-berechnen",
+    "wp.anlegen.risiko-rendite-beurteilen"
+   ],
    "intro": "Fünf neue Situationen, kein Wortangebot – **tippe den passenden Begriff oder die Zahl selbst ein**. Groß-/Kleinschreibung spielt keine Rolle; bei der Zahl genügt die Zahl ohne «CHF».",
    "modus": "eingabe",
    "text": "Ein Freibad senkt an einem Regentag den Eintrittspreis – es reagiert damit auf die gesunkene {{1}}. Im Bergdorf gibt es nur eine einzige Bäckerei; für das Dorf ist sie ein {{2}}. Du legst CHF 500 zu 2 Prozent Jahreszins an – nach einem Jahr erhältst du CHF {{3}} Zins. Ein Social-Media-Angebot verspricht «hohe Rendite, null Risiko» – nach dem Grundsatz aus Modul 13 handelt es sich sehr wahrscheinlich um {{4}}. Und wenn im Lehrvertrag CHF 900 stehen, aufs Konto aber CHF 860 kommen, dann erklärt sich die Differenz durch die {{5}}.",

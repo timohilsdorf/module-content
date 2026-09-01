@@ -118,6 +118,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: EU, EWR und die Doppelrolle",
+   "teilkompetenzen": [
+    "wp.europa.binnenmarkt-erklaeren",
+    "wp.europa.ewr-doppelrolle-erklaeren"
+   ],
    "intro": "Grundidee, vier Freiheiten, EU oder EWR – zeig, was sitzt. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -294,6 +298,10 @@
    "type": "lueckentext",
    "id": "lt-europa-wortbank",
    "title": "Setze die Begriffe ein: Europa als gemeinsamer Markt",
+   "teilkompetenzen": [
+    "wp.europa.binnenmarkt-erklaeren",
+    "wp.europa.ewr-doppelrolle-erklaeren"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Nach 1945 suchte Europa einen Weg zu dauerhaftem {{1}}. Die Idee: Wer wirtschaftlich eng {{2}} ist, hat wenig Interesse an einem Krieg gegen seine Handelspartner. Aus diesem Gedanken entstand Schritt für Schritt die heutige {{3}}. Ihr Kernstück ist der {{4}}: der freie Verkehr von {{5}} (zum Beispiel eine Online-Bestellung ohne Zoll), von Dienstleistungen, von {{6}} (zum Beispiel ein Studium im Ausland) und von Kapital. Der {{7}} dehnt diesen gemeinsamen Markt auf Island, Liechtenstein und Norwegen aus. Liechtenstein ist zusätzlich seit über hundert Jahren durch den {{8}} mit der Schweiz verbunden und bezahlt mit dem Schweizer {{9}}.",
@@ -354,6 +362,9 @@
    "type": "lueckentext",
    "id": "lt-europa-eingabe",
    "title": "Tippe die Begriffe ein: EU, EWR und die Doppelrolle",
+   "teilkompetenzen": [
+    "wp.europa.ewr-doppelrolle-erklaeren"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Der gemeinsame Markt, in dem Waren, Dienstleistungen, Personen und Kapital frei über die Grenzen dürfen, heißt {{1}}. Island, Liechtenstein und Norwegen nehmen daran über den {{2}} teil, ohne EU-Mitglieder zu sein. Liechtenstein trat diesem Wirtschaftsraum im Jahr {{3}} bei. Mit der Schweiz bildet Liechtenstein seit 1924 einen gemeinsamen {{4}}. Bezahlt wird in Liechtenstein mit dem Schweizer {{5}}.",
@@ -396,6 +407,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-freiheiten",
    "title": "Zuordnen: Welche Freiheit ist gemeint?",
+   "teilkompetenzen": [
+    "wp.europa.binnenmarkt-erklaeren"
+   ],
    "intro": "Ordne jede Alltagssituation der passenden Binnenmarkt-Freiheit zu: **Warenverkehr**, **Dienstleistungsverkehr**, **Personenverkehr** oder **Kapitalverkehr**. Warenverkehr und Personenverkehr kommen je dreimal vor, Dienstleistungsverkehr und Kapitalverkehr je zweimal. Alle Situationen sind frei erfunden.",
    "modus": "wortbank",
    "text": "Du bestellst Turnschuhe in einem deutschen Online-Shop – das Paket kommt ohne Zollformulare an. {{1}}\nNach der Lehre nimmst du eine Stelle in Österreich an, ohne eine besondere Arbeitserlaubnis zu brauchen. {{2}}\nEine Grafikerin aus Vaduz gestaltet die Website eines Cafés in Wien. {{3}}\nEine Käserei liefert ihren Bergkäse ohne Zollabgaben an Läden in Italien. {{4}}\nEine Sparerin kauft Anteile einer norwegischen Firma. {{5}}\nDu schreibst dich nach der Matura an einer Universität in Innsbruck ein. {{6}}\nEin Malerbetrieb übernimmt einen Renovationsauftrag im Nachbarland und stellt dafür seine Rechnung. {{7}}\nEin Unternehmen baut mit eigenem Geld ein neues Werk in Portugal. {{8}}\nEin Möbelhaus verkauft seine Regale in mehrere EWR-Länder, ohne an jeder Grenze Abgaben zu zahlen. {{9}}\nDein Cousin macht ein bezahltes Praktikum in Berlin. {{10}}",
@@ -455,6 +469,11 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Europa in deinem Alltag",
+   "teilkompetenzen": [
+    "wp.europa.binnenmarkt-erklaeren",
+    "wp.europa.ewr-doppelrolle-erklaeren",
+    "wp.standort.standortfaktoren-beurteilen"
+   ],
    "tasks": [
     {
      "prompt": "Europa-Spurensuche: Finde drei Situationen oder Gegenstände aus deinem Alltag, die mit dem Binnenmarkt zu tun haben – zum Beispiel ein Produkt aus einem EWR-Land, eine Person, die über die Grenze pendelt oder im Ausland studiert, oder ein Abo bei einer ausländischen Firma. Ordne jeder Situation die passende Freiheit zu (Waren, Dienstleistungen, Personen oder Kapital) und begründe deine Zuordnung in je einem Satz.",

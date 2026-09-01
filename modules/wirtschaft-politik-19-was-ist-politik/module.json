@@ -104,6 +104,9 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Politik und ihre Grundbegriffe",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
    "intro": "Zeig, dass du die Definition und die vier Grundbegriffe verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -280,6 +283,9 @@
    "type": "lueckentext",
    "id": "lt-grundbegriffe",
    "title": "Setze die Begriffe ein: Was ist Politik?",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Politik ist das {{1}} verbindlicher Regeln für das Zusammenleben. Die Wünsche und Anliegen von Personen oder Gruppen nennt man {{2}}. Lassen sich nicht alle Wünsche gleichzeitig erfüllen, entsteht ein {{3}}.\nBeim Skatepark wünschen sich die Jugendlichen Rampen, die Anwohner wollen {{4}} am Abend, und die Gemeinde muss aufs {{5}} achten. An der Versammlung wird verhandelt – dabei zeigt sich {{6}} in vielen Formen: gute Argumente, viele Unterschriften oder das letzte Wort des Gemeinderats. Am Ende steht oft ein {{7}}, bei dem beide Seiten nachgeben und beide etwas bekommen.\nDer Beschluss der Gemeinde ist {{8}} – er gilt auch für jene, die dagegen waren. Was du dagegen mit deinem Sackgeld machst, ist eine {{9}} Entscheidung: Sie bindet nur dich. Politik beginnt also nicht erst im {{10}} – sie beginnt, wo Menschen zusammenleben.",
@@ -345,6 +351,9 @@
    "type": "lueckentext",
    "id": "lt-politik-eingabe",
    "title": "Tippe die Begriffe ein: Die Definition sitzt",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Politik ist das Aushandeln {{1}} Regeln für das Zusammenleben. Wenn Interessen kollidieren, entsteht ein {{2}}. Eine Lösung, bei der beide Seiten nachgeben und beide etwas bekommen, heißt {{3}}. Die Möglichkeit, Entscheidungen zu beeinflussen oder durchzusetzen, nennt man {{4}}. Eine verbindliche Regel gilt für {{5}} Betroffenen – auch für die Überstimmten.",
@@ -385,6 +394,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-grundbegriffe",
    "title": "Zuordnen: Interesse, Konflikt, Macht oder Kompromiss?",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
    "intro": "Ordne jede Situation dem passenden Grundbegriff zu: **Interesse**, **Konflikt**, **Macht** oder **Kompromiss**. Jeder Begriff kommt genau zweimal vor.",
    "modus": "wortbank",
    "text": "Die Jugendlichen wünschen sich einen Skatepark mit richtigen Rampen. {{1}}\nFußballspielen und ruhiges Sitzen gehen auf derselben Pausenplatz-Fläche nicht gleichzeitig – die Wünsche kollidieren. {{2}}\nDie Klasse einigt sich: Musik in der großen Pause ja, aber nur mit Kopfhörern. {{3}}\nMit 300 gesammelten Unterschriften verschaffen sich die Jugendlichen Gehör beim Gemeinderat. {{4}}\nDie Anwohnerin wünscht sich vor allem eines: Ruhe am Abend. {{5}}\nDer Gemeinderat hat das letzte Wort und kann den Beschluss durchsetzen. {{6}}\nSkatepark ja – aber am Ortsrand und mit Ruhezeiten ab 20 Uhr: Beide Seiten geben nach. {{7}}\nZwei Gruppen beanspruchen am Mittwochnachmittag dieselbe Turnhalle – beides zugleich geht nicht. {{8}}",
@@ -434,6 +446,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Politik in deinem Alltag",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden",
+    "wp.politik.kompromisse-begruenden"
+   ],
    "tasks": [
     {
      "prompt": "Finde ein eigenes Beispiel für Politik aus deinem Alltag – aus der Klasse, dem Verein, der Familie oder der Gemeinde (nicht das Skatepark- und nicht das Handy-Beispiel). Zerlege es in die vier Schritte: Welche Interessen gab es? Worin bestand der Konflikt? Wie wurde ausgehandelt – und wer hatte dabei welche Macht? Wie lautete am Ende die verbindliche Regel?",

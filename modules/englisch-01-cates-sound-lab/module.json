@@ -13,20 +13,20 @@
    ],
    "competencies": [
     {
-     "code": "E.1.A.1",
-     "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
+     "code": "FS1E.1.A.1",
+     "description": "Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
     },
     {
-     "code": "E.2.A.1",
-     "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
+     "code": "FS1E.2.A.1",
+     "description": "Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
     },
     {
-     "code": "E.4.A.1",
-     "description": "FS1E.4.A.1 (LiLe – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+     "code": "FS1E.4.A.1",
+     "description": "Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
     },
     {
-     "code": "E.5.B.1",
-     "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+     "code": "FS1E.5.B.1",
+     "description": "Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
     }
    ]
   }
@@ -186,6 +186,9 @@
    "type": "quiz",
    "id": "quiz-reading",
    "title": "Check your reading",
+   "teilkompetenzen": [
+    "en.lesen.sachtexte-verstehen-a2"
+   ],
    "intro": "Five questions about the text. Read the text again if you are not sure – that is allowed!",
    "questions": [
     {
@@ -299,6 +302,9 @@
    "type": "lueckentext",
    "id": "lt-vocab-wortbank",
    "title": "Vocabulary A: Genres, instruments and concert words",
+   "teilkompetenzen": [
+    "en.wortschatz.themenwortschatz-anwenden-a2"
+   ],
    "intro": "Drag the words into the gaps (on a phone: tap the word first, then the gap). **Every word is used exactly once.**",
    "modus": "wortbank",
    "text": "A {{1}} song is usually modern, short and easy to sing – perfect for the radio charts.\nMozart and Beethoven wrote {{2}} music more than 200 years ago.\nThe drummer hits the {{3}} with two sticks.\nA {{4}} looks like a piano, but it is electronic and you can carry it.\nTwenty singers sing together in our school {{5}}.\nThe band walks onto the {{6}}, and the concert begins.\nAfter the last song, the {{7}} claps and shouts «One more song!».\nEverybody dances to the beat, because the {{8}} of the song is strong and steady.\nYou can hum the {{9}} of a song without using any words.\nI read the {{10}} on my phone, because I want to understand what the singer says.",
@@ -359,6 +365,9 @@
    "type": "lueckentext",
    "id": "lt-vocab-eingabe",
    "title": "Vocabulary B: Words to describe music",
+   "teilkompetenzen": [
+    "en.wortschatz.themenwortschatz-anwenden-a2"
+   ],
    "intro": "Type the missing adjective into each gap. The only help is the first letter of the word, given in brackets. Capital or small letters – both are fine.",
    "modus": "eingabe",
    "text": "We sang this song every day at our school camp. For me, it is {{1}} (u…) – I will remember it all my life.\nIn the evening I listen to quiet piano music, because it is so {{2}} (r…) – it makes me calm.\nI heard this song only once, but it is so {{3}} (c…) that I can't stop humming the melody.\nMy little brother plays the same three notes again and again – it is so {{4}} (a…)!\nYou can feel the drums in your whole body – the sound of this rock band is really {{5}} (p…).\nThis song is not sad at all – it is bright and {{6}} (c…) like a sunny day.",
@@ -417,6 +426,9 @@
    "type": "quiz",
    "id": "quiz-video",
    "title": "Check your listening",
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2"
+   ],
    "intro": "Three questions about the video. You can watch it again before you answer.",
    "questions": [
     {
@@ -487,6 +499,10 @@
   {
    "type": "tasks",
    "title": "Focus: My music profile",
+   "teilkompetenzen": [
+    "en.schreiben.texte-verfassen-a2",
+    "en.wortschatz.themenwortschatz-anwenden-a2"
+   ],
    "intro": "Now it is your turn! In this last task you write about your own music taste.",
    "tasks": [
     {
@@ -501,6 +517,11 @@
    "type": "quiz",
    "id": "quiz-final",
    "title": "Final quiz: Show what you know",
+   "teilkompetenzen": [
+    "en.wortschatz.themenwortschatz-anwenden-a2",
+    "en.hoeren.hoertexte-videos-verstehen-a2",
+    "en.lesen.sachtexte-verstehen-a2"
+   ],
    "intro": "Five questions about the whole module: the text, the words and the video. Good luck!",
    "questions": [
     {

@@ -14,16 +14,12 @@
    ],
    "competencies": [
     {
-     "code": "RZG.6.2",
-     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
-    },
-    {
-     "code": "RZG.7.1",
-     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
     },
     {
      "code": "RZG.8.1",
-     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
     }
    ]
   },
@@ -38,16 +34,12 @@
    ],
    "competencies": [
     {
-     "code": "RZG.6.2",
-     "description": "Die Schülerinnen und Schüler können Kontinuitäten und Umbrüche des 20. Jahrhunderts analysieren und erklären (u. a. Krise der Demokratie, Nationalsozialismus)."
-    },
-    {
-     "code": "RZG.7.1",
-     "description": "Die Schülerinnen und Schüler können aus Quellen und Darstellungen (Texte, Zahlenreihen, Statistiken) historische Informationen entnehmen und daraus Schlüsse ziehen."
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
     },
     {
      "code": "RZG.8.1",
-     "description": "Die Schülerinnen und Schüler können Entwicklung, Chancen und Gefährdungen der Demokratie an historischen Beispielen erklären."
+     "description": "Die Schülerinnen und Schüler können die Schweizer Demokratie erklären und mit anderen Systemen vergleichen."
     }
    ]
   },
@@ -132,6 +124,9 @@
    "type": "lueckentext",
    "id": "lt-l1-inflationskette",
    "title": "Level 1 – Mini-Übung: Die Inflations-Kette",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren"
+   ],
    "intro": "Übe direkt am erklärten Beispiel: Ziehe die Begriffe an die richtige Stelle der Kette (am Handy: erst Wort antippen, dann Lücke). Zwei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Versailler Vertrag (1919)\n→ Deutschland muss hohe {{1}} zahlen\n→ der Staat druckt immer mehr {{2}}\n→ {{3}} 1923: das Geld wird wertlos\n→ Ersparnisse sind vernichtet\n→ viele verlieren das Vertrauen in die {{4}}",
@@ -165,6 +160,10 @@
   {
    "type": "tasks",
    "title": "Level 1 – Aufgaben: Ketten nachvollziehen",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren",
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
    "tasks": [
     {
      "prompt": "Lies die Inflations-Kette in Level 1 noch einmal. Erkläre in zwei bis drei eigenen Sätzen, warum das Gelddrucken des Staates zur Hyperinflation führte.",
@@ -187,6 +186,9 @@
    "type": "lueckentext",
    "id": "lt-l2-krisenkette",
    "title": "Level 2 – Zuordnen: Die Krisen-Kette 1929–1933",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren"
+   ],
    "intro": "Jetzt ohne Erklärtext daneben: Ziehe die fehlenden Kettenglieder an die richtige Stelle. **Achtung:** Zwei Elemente in der Auswahl gehören gar nicht in diese Kette – sie stammen aus einer anderen Zeit. Die Jahreszahlen helfen dir.",
    "modus": "wortbank",
    "text": "Börsencrash in New York (Oktober 1929)\n→ {{1}}\n→ deutsche Banken und Firmen gehen bankrott\n→ {{2}} (Anfang 1932 über sechs Millionen)\n→ Not, Angst und Wut: viele radikalisieren sich\n→ {{3}} (1930: 18,3 %, Juli 1932: 37,3 %)\n→ Ernennung Hitlers zum Reichskanzler (30. Januar 1933)",
@@ -216,6 +218,9 @@
    "type": "lueckentext",
    "id": "lt-l2-teufelskreis",
    "title": "Level 2 – Zuordnen: Der Teufelskreis Brünings",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren"
+   ],
    "intro": "Setze die drei Stationen an die richtige Stelle im Kreislauf. Frage dich bei jedem Schritt: Was folgt **unmittelbar** daraus? Auch hier passen zwei Wörter in der Auswahl nirgends.",
    "modus": "wortbank",
    "text": "Staat spart (kürzt Löhne, Renten, Ausgaben)\n→ {{1}}\n→ {{2}}\n→ {{3}}\n→ der Staat spart noch mehr … und der Kreis beginnt von vorn",
@@ -245,6 +250,10 @@
    "type": "lueckentext",
    "id": "lt-l3-kettenglieder",
    "title": "Level 3 – Zwischenschritt: Formuliere die Kettenglieder selbst",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren",
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
    "intro": "Bevor du gleich eine eigene Skizze zeichnest: Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle. Tipp: Beginne beim Auslöser und frage bei jedem Pfeil: Was folgt daraus?",
    "modus": "eingabe",
    "text": "Börsencrash in New York (Oktober 1929)\n→ die USA ziehen ihre {{1}} aus Deutschland ab\n→ deutsche Banken und Firmen gehen {{2}}\n→ über sechs Millionen Menschen sind {{3}}\n→ Not, Angst und Wut: viele Menschen {{4}} sich\n→ Wahlerfolge der {{5}}\n→ Ernennung Hitlers zum {{6}} (30. Januar 1933)",
@@ -293,6 +302,9 @@
   {
    "type": "tasks",
    "title": "Level 3 – Aufgaben: Eine eigene Ursache-Wirkungs-Kette erstellen",
+   "teilkompetenzen": [
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
    "tasks": [
     {
      "prompt": "Lies dieses Material und erstelle daraus eine eigene Ursache-Wirkungs-Kette mit mindestens fünf Gliedern: Tippe die Glieder untereinander ein und verbinde sie mit Pfeilen (→).\n\n**Material – Deutschland 1928 bis 1933 in Zahlen:**\n- Arbeitslose: 1928 rund 1,4 Millionen | Anfang 1932 über 6 Millionen\n- Stimmenanteil der NSDAP bei Reichstagswahlen: 1928: 2,6 % | 1930: 18,3 % | Juli 1932: 37,3 %\n- Oktober 1929: Börsencrash in New York; die USA ziehen in den Folgejahren ihre Kredite aus Deutschland ab\n- 30. Januar 1933: Hitler wird zum Reichskanzler ernannt\n\nDeine Kette soll zeigen, wie diese Zahlen und Ereignisse zusammenhängen. Wenn du magst, zeichne sie zusätzlich als Skizze auf Papier.",
@@ -315,6 +327,10 @@
    "type": "quiz",
    "id": "quiz",
    "title": "Quiz: Hast du die Ketten im Griff?",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren",
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
    "questions": [
     {
      "id": "q2",

@@ -13,12 +13,12 @@
    ],
    "competencies": [
     {
-     "code": "E.5.B.1",
-     "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+     "code": "FS1E.5.B.1",
+     "description": "Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
     },
     {
-     "code": "E.5.D.1",
-     "description": "FS1E.5.D.1 (LiLe – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+     "code": "FS1E.5.D.1",
+     "description": "Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
     }
    ]
   }
@@ -82,6 +82,9 @@
    "type": "quiz",
    "id": "quiz-uebung1",
    "title": "Exercise 1: listen, listen to or hear?",
+   "teilkompetenzen": [
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2"
+   ],
    "intro": "Choose the correct word or words for each gap. Think: active or passive? And do you need *to*?",
    "questions": [
     {
@@ -195,6 +198,9 @@
    "type": "lueckentext",
    "id": "lt-uebung2",
    "title": "Exercise 2: Type the correct form",
+   "teilkompetenzen": [
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2"
+   ],
    "intro": "Type the correct form of *listen (to)* or *hear* into each gap. Pay attention to the time in each sentence – some are about the past. And don't forget *to* where it is needed.",
    "modus": "eingabe",
    "text": "Every evening I {{1}} my favourite playlist before I go to sleep.\nOur neighbours are loud. Even with my door closed, I {{2}} their music through the wall.\nYesterday, while I was doing my homework, I suddenly {{3}} a great new song on the radio.\nLast night we sat down and {{4}} the whole album from start to finish.\nMy grandad turns on the radio and {{5}} his favourite station every morning.\nThe music in this café is very quiet – can you {{6}} it at all?",
@@ -250,6 +256,9 @@
    "type": "quiz",
    "id": "quiz-uebung3",
    "title": "Exercise 3: Which action came first?",
+   "teilkompetenzen": [
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Five questions in two formats: sometimes you decide which action happened first, sometimes you choose the correct form for a gap.",
    "questions": [
     {
@@ -363,6 +372,9 @@
    "type": "lueckentext",
    "id": "lt-uebung4",
    "title": "Exercise 4: A concert evening",
+   "teilkompetenzen": [
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Drag the verb forms into the story (on a phone: tap the form first, then the gap). **Watch out: three forms in the list are wrong forms – they fit nowhere.**",
    "modus": "wortbank",
    "text": "Last Friday evening, Mia and I {{1}} to a rock concert in Vaduz.\nMia {{2}} the tickets two months before, so we had great seats.\nWhen we {{3}} at the hall, the support band {{4}} – we could hear the last song through the doors.\nBy the time we found our seats, the support band {{5}} its show, and the stage was empty.\nAfter the first songs of the main band, I {{6}} that I knew every melody:\nI {{7}} the album so many times at home! It was a fantastic night.",
@@ -413,6 +425,10 @@
    "type": "quiz",
    "id": "quiz-final",
    "title": "Final quiz: listen, hear and the past perfect",
+   "teilkompetenzen": [
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2",
+    "en.grammatik.vergangenheitsformen-anwenden-a2"
+   ],
    "intro": "Five questions from both parts of the module. You can go back and read the explanations again at any time.",
    "questions": [
     {

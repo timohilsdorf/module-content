@@ -111,6 +111,9 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Autoritäre Systeme erkennen",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
    "intro": "Zeig, dass du die Merkmale autoritärer Herrschaft und das Fallbeispiel verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -287,6 +290,9 @@
    "type": "lueckentext",
    "id": "lt-autoritaer-merkmale",
    "title": "Setze die Begriffe ein: Merkmale und Werkzeuge",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "In einem autoritären System besitzt eine Person oder kleine Gruppe die {{1}} – und gibt sie freiwillig nicht mehr her. Wahlen sind oft nur eine {{2}}: Das Ergebnis steht faktisch fest. Die Gerichte entscheiden nicht unabhängig, sondern nach den Wünschen der {{3}}, und die Medien werden gelenkt und {{4}}. Wer sich organisiert, um die Regierung abzulösen, gehört zur {{5}} – und riskiert Verbote oder Verhaftung.\nDigitale Werkzeuge verstärken die Kontrolle: Kameras mit {{6}} erfassen, wer sich wo aufhält. Die Internetzensur sperrt Plattformen und löscht kritische {{7}}. Sozialkreditsysteme vergeben {{8}} für erwünschtes Verhalten – in China belegt durch Pilotprojekte einzelner Städte und schwarze {{9}} mit Ticketsperren. Staatliche {{10}} soll schließlich das Bild prägen, das die Menschen von ihrem Land haben.",
@@ -352,6 +358,9 @@
    "type": "lueckentext",
    "id": "lt-autoritaer-eingabe",
    "title": "Tippe die Begriffe ein: Der Kontrast sitzt",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "In einer Demokratie gilt Herrschaft auf {{1}} – in autoritären Systemen bleibt die Führung, solange sie will. Das Filtersystem, das Chinas Internet vom Rest der Welt trennt, wird «Große {{2}}» genannt. Wer die Regierung ablösen will, bildet die {{3}} – in autoritären Systemen wird sie unterdrückt. Gelenkte Nachrichten und Erfolgsmeldungen des Staates nennt man {{4}}. Der zuverlässigste Demokratie-Test ist die Frage, ob die Macht ohne {{5}} wechseln kann.",
@@ -389,6 +398,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-systeme",
    "title": "Zuordnen: Demokratie oder autoritäres System?",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
    "intro": "Ordne jede Beschreibung dem passenden System zu: **Demokratie** oder **autoritäres System**. Jedes System kommt genau viermal vor.",
    "modus": "wortbank",
    "text": "Eine Zeitung deckt einen Skandal in der Regierung auf – und erscheint am nächsten Tag trotzdem. {{1}}\nDie Führung bleibt im Amt, solange sie will – Wahlen ändern daran faktisch nichts. {{2}}\nEin Gericht stoppt ein Vorhaben der Regierung, und die Regierung hält sich an das Urteil. {{3}}\nKritische Beiträge im Internet werden gelöscht, ausländische Nachrichtenseiten sind gesperrt. {{4}}\nDie Opposition organisiert sich offen und kann die nächste Wahl gewinnen. {{5}}\nWer die Regierung öffentlich kritisiert, riskiert Verhaftung oder den Verlust der Arbeitsstelle. {{6}}\nNach der verlorenen Wahl übergibt die Regierung die Macht friedlich an die Siegerseite. {{7}}\nEin Punktesystem bewertet das Verhalten der Menschen – wer negativ auffällt, darf keine Zugtickets mehr kaufen. {{8}}",
@@ -438,6 +450,9 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Systeme vergleichen – sachlich bleiben",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
    "tasks": [
     {
      "prompt": "Wende die vier Alltagstest-Fragen aus dem Modul auf das Fallbeispiel China an: Beantworte jede der vier Fragen (Kritik ohne Angst? Medien decken auf? Gerichte gegen den Staat? Machtwechsel möglich?) mit den Fakten aus dem Modul – in je einem, zwei Sätzen, sachlich und ohne Übertreibung.",

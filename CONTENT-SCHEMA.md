@@ -907,6 +907,50 @@ Regeln und Konventionen:
 - **Kennungen sind stabil wie Block-ids:** Umbenennen zerreisst die
   Zuordnung – lieber eine neue Kennung anlegen.
 
+### Systematik: So werden Teilkompetenzen zugeschnitten (verbindlich)
+
+- **Granularitäts-Anker sind die Lehrplankompetenzen, nicht
+  Modul-Quoten.** Es gibt keine feste Zahl Teilkompetenzen pro Modul.
+  Leitfrage je Aufgabenblock: *Welche Lehrplankompetenz(en) übt dieser
+  Block?* Teilkompetenzen dürfen dabei FEINER geschnitten sein als die
+  Lehrplan-Zuordnung – Zweck der Schicht ist das Re-Mapping bei neuen
+  Lehrplan-Versionen und anderen Ländern.
+- **Thema = Stoffgebiet über Modulgrenzen hinweg** (`wp.markt.…` deckt
+  die Module 6–8 ab, `wp.frieden.…` die Module 29–31). Kein
+  Modul-Präfix, keine Modulnummern in Kennungen.
+- **Merge bei gemeinsamer Prüfung:** Was dieselben Aufgaben gemeinsam
+  prüfen, bleibt EINE Teilkompetenz (Ursachen + Eskalationsstufen +
+  Akteure → `wp.frieden.konflikte-analysieren`).
+- **Fachbereichs-Kennungen:** `wp` (Wirtschaft & Politik), `en`
+  (Englisch als Sprache), `geschichte`, `geografie`, `informatik` –
+  RZG ist ein Lehrplan-Konstrukt und wird in der lehrplanunabhängigen
+  Schicht in Geschichte und Geografie getrennt.
+- **Operator-Verben** (drittes Segment, `<verb-objekt>`): bewährtes Set
+  ist unterscheiden, anwenden, beschreiben, vergleichen, zuordnen,
+  erklären, einordnen, erkennen, analysieren, bauen, abwägen,
+  beurteilen, verstehen, erstellen sowie – seit dem Voll-Ausbau
+  bestätigt – **berechnen** und **begründen**. Sparsam erweitern; bei
+  Sprach-Teilkompetenzen dürfen fertigkeitstypische Formulierungen das
+  Verb stellen (`verfassen`, `sich-vorstellen`).
+- **Niveau-Suffixe bei Sprachen:** Sprach-Teilkompetenzen tragen als
+  Suffix des dritten Segments das GER-Niveau (`-a1`, `-a2`, `-b1` …),
+  z. B. `en.hoeren.hoertexte-videos-verstehen-a2`. Das Niveau kommt aus
+  den offiziellen Kompetenzstufen (FS1E-Stufen tragen GER-Etiketten)
+  plus der Modul-Realität; gleiche Fertigkeit auf anderem Niveau =
+  eigene Kennung. Die Themen-Ebene ist bei Sprachen die FERTIGKEIT
+  (`hoeren`, `lesen`, `schreiben`, `wortschatz`, `grammatik`) – eine
+  Fertigkeit erscheint erst, wenn ein Block sie wirklich prüft.
+- **Landeskunde einfalten:** Länderspezifische Anteile (Finanzplatz
+  Liechtenstein, EWR-Doppelrolle, Franken-Einführung) bekommen keine
+  eigene Teilkompetenz, sondern gehören in die fachliche Teilkompetenz
+  des Blocks (`wp.banken.kernaufgaben-zuordnen` trägt den Finanzplatz
+  mit).
+- **Quermodul-Verweise sparsam:** Ein Block darf Teilkompetenzen
+  anderer Stoffgebiete tragen, wenn er sie ausdrücklich wieder übt
+  (Debatten-Module nutzen `wp.argumentieren.argumente-bauen` weiter,
+  ein Standort-Task den Argument-Bauplan). Repetitions- und
+  Anwendungsmodule verwenden ausschliesslich bestehende Kennungen.
+
 ### Die zwei Tabellen im Ordner `kompetenzen/`
 
 Bedeutung bekommen die Kennungen durch zwei Tabellen (Pflege per Pull
@@ -929,6 +973,16 @@ Register-Einträge ohne Verwendung oder ohne Mapping meldet
 `npm run validate` als Hinweis (ℹ), nicht als Fehler. Das vollständige
 Format samt Dashboard-Rechnung beschreibt `docs/KOMPETENZEN.md` im
 Plattform-Repo.
+
+**Mapping über die Modul-`curricula` hinaus (Ermessens-Ausnahme):** Das
+Mapping darf auf einen Lehrplan-Code zeigen, den die tragenden Module
+(noch) nicht in ihren `curricula` führen, wenn der offizielle Wortlaut
+die Teilkompetenz exakt trifft — Beispiel `li: RZG.8.3` für
+`wp.frieden.uno-erklaeren`/`wp.europa.ewr-doppelrolle-erklaeren` (die
+LiLe-Stufen nennen UNO, EWR und die «Position Liechtensteins»
+wörtlich). Solche Fälle bitte hier oder im Pull Request ausweisen; die
+Kompetenz-Ansicht der Plattform speist ihre Lehrplan-Zeilen aus dem
+Mapping, nicht aus den Modul-`curricula`.
 
 ## Prüfende Blöcke und Modulabschluss
 

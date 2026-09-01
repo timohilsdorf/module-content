@@ -111,6 +111,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Börse, Aktien und Krypto",
+   "teilkompetenzen": [
+    "wp.anlegen.aktien-boerse-erklaeren",
+    "wp.anlegen.risiko-rendite-beurteilen"
+   ],
    "intro": "Zeig, dass du Aktien, Börse und Kryptowährungen einordnen kannst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -287,6 +291,10 @@
    "type": "lueckentext",
    "id": "lt-boerse-grundlagen",
    "title": "Setze die Begriffe ein: Aktien und Börse",
+   "teilkompetenzen": [
+    "wp.anlegen.aktien-boerse-erklaeren",
+    "wp.anlegen.risiko-rendite-beurteilen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Eine {{1}} ist ein Anteil an einem realen Unternehmen. Wer sie besitzt, darf an der Generalversammlung {{2}} und kann bei Gewinn eine {{3}} erhalten. Gehandelt werden die Anteile an der {{4}} – einem Marktplatz, auf dem {{5}} und Nachfrage den Kurs bestimmen. Steigt der Kurs über den Kaufpreis, entsteht beim Verkauf ein {{6}}; fällt er, entsteht ein Verlust.\nGrundsätzlich gilt: Je höher die {{7}}, desto höher das {{8}}. Hinter Kryptowährungen wie {{9}} steht kein reales Unternehmen – ihr Preis entsteht rein aus Angebot und Nachfrage, und die Schwankungen sind oft {{10}}.",
@@ -352,6 +360,10 @@
    "type": "lueckentext",
    "id": "lt-kurs-und-rendite",
    "title": "Tippe die Begriffe ein: Kurs, Rendite, Risiko",
+   "teilkompetenzen": [
+    "wp.anlegen.aktien-boerse-erklaeren",
+    "wp.anlegen.risiko-rendite-beurteilen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Der Preis, zu dem eine Aktie an der Börse gehandelt wird, heißt {{1}}. Der Gewinnanteil, den eine Aktiengesellschaft an ihre Aktionärinnen und Aktionäre ausschütten kann, ist die {{2}}. Den Ertrag einer Geldanlage, meist in Prozent pro Jahr, nennt man {{3}}. Wollen mehr Leute eine Aktie kaufen als verkaufen, {{4}} ihr Kurs. Und verspricht ein Angebot im Internet «hohe Rendite ganz ohne {{5}}», ist größte Vorsicht angebracht.",
@@ -392,6 +404,10 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-aktie-bitcoin",
    "title": "Zuordnen: Aktie, Bitcoin – oder beide?",
+   "teilkompetenzen": [
+    "wp.anlegen.aktien-boerse-erklaeren",
+    "wp.anlegen.risiko-rendite-beurteilen"
+   ],
    "intro": "Ordne jede Aussage richtig zu: Gilt sie für die **Aktie**, für **Bitcoin** – oder für **beide**? Jede Antwort kommt mehrmals vor.",
    "modus": "wortbank",
    "text": "Du wirst Miteigentümerin oder Miteigentümer eines realen Unternehmens. {{1}}\nHinter ihm steht kein reales Unternehmen mit Fabriken, Mitarbeitenden und Gewinn. {{2}}\nBei Gewinn kann eine Dividende ausgeschüttet werden. {{3}}\nDer Preis entsteht auf einem Marktplatz aus Angebot und Nachfrage. {{4}}\nDie Schwankungen sind oft extrem – der Preis kann innert Wochen um mehrere zehn Prozent springen. {{5}}\nDer Wert kann sinken – ein Verlust ist möglich. {{6}}\nAn der Generalversammlung darfst du mitbestimmen. {{7}}\nEs ist rein digitales Geld, das ohne Staat, Zentralbank und Banken auskommt. {{8}}\nIm Extremfall ist ein Totalverlust möglich. {{9}}",
@@ -446,6 +462,11 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Kurse, Risiken und Warnsignale",
+   "teilkompetenzen": [
+    "wp.anlegen.aktien-boerse-erklaeren",
+    "wp.anlegen.risiko-rendite-beurteilen",
+    "wp.markt.marktkraefte-beschreiben"
+   ],
    "tasks": [
     {
      "prompt": "Wende das Marktmodell aus Modul 7 auf die Börse an: (a) Die Bergbahn-AG meldet einen Rekordwinter mit vollen Pisten – was passiert tendenziell mit ihrem Aktienkurs, und warum? (b) Ein Sportartikelhersteller muss eine große Rückrufaktion starten – was passiert tendenziell mit seinem Kurs, und warum? Argumentiere jeweils mit Angebot, Nachfrage und Erwartungen.",

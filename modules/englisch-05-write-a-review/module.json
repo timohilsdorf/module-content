@@ -13,16 +13,16 @@
    ],
    "competencies": [
     {
-     "code": "E.4.A.1",
-     "description": "FS1E.4.A.1 (LiLe, Englisch 1. Fremdsprache – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+     "code": "FS1E.4.A.1",
+     "description": "Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
     },
     {
-     "code": "E.2.A.1",
-     "description": "FS1E.2.A.1 (LiLe – Lesen): Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
+     "code": "FS1E.2.A.1",
+     "description": "Die Schülerinnen und Schüler können verschiedenartige Texte lesen und verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Texte im Kontakt mit Englisch sprechenden Personen)."
     },
     {
-     "code": "E.5.B.1",
-     "description": "FS1E.5.B.1 (LiLe – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+     "code": "FS1E.5.B.1",
+     "description": "Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
     }
    ]
   }
@@ -79,6 +79,9 @@
    "type": "quiz",
    "id": "quiz-reading",
    "title": "Check your reading",
+   "teilkompetenzen": [
+    "en.lesen.sachtexte-verstehen-a2"
+   ],
    "intro": "Four questions about the example review – two about the content, two about how it is written.",
    "questions": [
     {
@@ -184,6 +187,9 @@
    "type": "zuordnung",
    "id": "zu-bausteine-1",
    "title": "Sort the sentences (round 1)",
+   "teilkompetenzen": [
+    "en.schreiben.textbausteine-zuordnen-a2"
+   ],
    "intro": "Four sentences from different reviews, four building blocks. Match each sentence to its block – tap the sentence, then tap the block.",
    "paare": [
     {
@@ -224,6 +230,9 @@
    "type": "zuordnung",
    "id": "zu-bausteine-2",
    "title": "Sort the sentences (round 2)",
+   "teilkompetenzen": [
+    "en.schreiben.textbausteine-zuordnen-a2"
+   ],
    "intro": "Four more sentences – same four blocks. Careful: this time one opinion is negative, but it is still an opinion!",
    "paare": [
     {
@@ -264,6 +273,9 @@
    "type": "lueckentext",
    "id": "lt-phrases",
    "title": "Useful phrases: Build the review",
+   "teilkompetenzen": [
+    "en.schreiben.textbausteine-zuordnen-a2"
+   ],
    "intro": "Here is a short review of «Yellow Windows» by the invented band Lemon Sky – but the useful phrases are missing. Drag them into the gaps (on a phone: tap the phrase first, then the gap). Tip: phrases with a capital letter start a sentence.",
    "modus": "wortbank",
    "text": "«Yellow Windows» {{1}} the new band Lemon Sky.\n{{2}} a long night drive through the city – that is the story in the lyrics.\nThe first part {{3}} an old film, quiet and grey.\n{{4}} the drum solo in the middle, because it wakes the whole song up.\n{{5}}, the singer sounds a little tired, {{6}} her voice is so quiet in the last chorus.\n{{7}} everyone who loves calm evenings – it is {{8}} a walk in the rain.",
@@ -313,6 +325,10 @@
   {
    "type": "tasks",
    "title": "Your turn: Write a review",
+   "teilkompetenzen": [
+    "en.schreiben.texte-verfassen-a2",
+    "en.schreiben.textbausteine-zuordnen-a2"
+   ],
    "intro": "This is what the whole unit was building up to – your first real piece of writing in English. Take your time.",
    "tasks": [
     {
@@ -327,6 +343,10 @@
    "type": "quiz",
    "id": "quiz-final",
    "title": "Final check: the review toolbox",
+   "teilkompetenzen": [
+    "en.schreiben.textbausteine-zuordnen-a2",
+    "en.schreiben.texte-verfassen-a2"
+   ],
    "intro": "Three short questions – then your review is the real finish line of this module.",
    "questions": [
     {

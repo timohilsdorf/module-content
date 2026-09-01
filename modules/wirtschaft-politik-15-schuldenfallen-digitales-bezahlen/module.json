@@ -110,6 +110,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Bezahlformen und Schuldenfallen",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden",
+    "wp.bezahlen.schuldenfallen-erkennen"
+   ],
    "intro": "Zeig, dass du Bezahlformen und Schuldenfallen durchschaust. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -286,6 +290,10 @@
    "type": "lueckentext",
    "id": "lt-bezahlformen-schulden",
    "title": "Setze die Begriffe ein: Bezahlen und Schuldenfallen",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden",
+    "wp.bezahlen.schuldenfallen-erkennen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Mit der {{1}} wird dein Konto sofort belastet – du siehst den neuen Kontostand direkt. Die {{2}} sammelt die Einkäufe und belastet sie erst später, meist Ende Monat. Bei Buy-now-pay-later bezahlst du erst nach 30 Tagen oder in {{3}}.\nBeim Bezahlen mit Bargeld spürst du den {{4}} des Bezahlens – digital entfällt er, und die {{5}} über die Ausgaben wird schwieriger. Typische Schuldenfallen sind {{6}}, die sich nach dem Gratismonat automatisch verlängern, kleine einmalige {{7}} in Games – CHF 2 hier, CHF 5 da – sowie {{8}} mit hohen Zinsen. Wer Raten verpasst, riskiert {{9}} und ein Inkassoverfahren. Der erste Schritt aus der Falle ist immer derselbe: sich einen {{10}} verschaffen.",
@@ -351,6 +359,10 @@
    "type": "lueckentext",
    "id": "lt-bezahlen-eingabe",
    "title": "Tippe die Begriffe ein: Wann fließt das Geld?",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden",
+    "wp.bezahlen.schuldenfallen-erkennen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Bei der Debitkarte geht das Geld {{1}} vom Konto. Die Kreditkartenrechnung kommt meist am Ende des {{2}}. «Kauf jetzt, zahl später» heißt auf Englisch «Buy now, pay {{3}}». Wer Rechnungen und Raten liegen lässt, dem drohen {{4}} und schließlich das Inkasso. Kostenlose Hilfe bei Geldproblemen bietet in Liechtenstein die Budget- und Schuldenberatung der {{5}}.",
@@ -394,6 +406,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-bezahlformen",
    "title": "Zuordnen: Debitkarte, Kreditkarte oder Buy-now-pay-later?",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden"
+   ],
    "intro": "Ordne jede Aussage der passenden Bezahlform zu: **Debitkarte**, **Kreditkarte** oder **Buy-now-pay-later**. Jede Form kommt mehrmals vor.",
    "modus": "wortbank",
    "text": "Das Geld geht im Moment des Einkaufs vom Konto. {{1}}\nAlle Einkäufe des Monats kommen gesammelt auf eine Rechnung. {{2}}\nDu bezahlst den Kaufbetrag in mehreren Teilbeträgen über Wochen oder Monate. {{3}}\nOhne Guthaben auf dem Konto funktioniert die Zahlung in der Regel nicht. {{4}}\nDie Bank streckt das Geld vor – abgerechnet wird später. {{5}}\nBeliebt in Onlineshops: «Bestell jetzt, bezahle in 30 Tagen oder in Raten.» {{6}}\nDer Kontostand zeigt deine Ausgabe sofort an. {{7}}\nWer die Monatsrechnung nicht vollständig bezahlt, zahlt hohe Zinsen. {{8}}\nViele kleine Raten aus verschiedenen Bestellungen summieren sich leicht unbemerkt. {{9}}",
@@ -448,6 +463,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Deine Ausgaben, deine Kontrolle",
+   "teilkompetenzen": [
+    "wp.bezahlen.schuldenfallen-erkennen",
+    "wp.bezahlen.bezahlformen-unterscheiden"
+   ],
    "tasks": [
     {
      "prompt": "Mach den Abo-Check: Liste alle Abos und regelmäßigen Dienste auf, die du (oder deine Familie für dich) bezahlst – Streaming, Musik, Games, Cloud-Speicher, Fitness, Handy. Notiere zu jedem den Monatsbetrag und rechne die Jahreskosten aus. Welche Abos nutzt du wirklich – und welches würdest du nach diesem Check kündigen?",
