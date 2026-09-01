@@ -29,7 +29,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import { create, unitDependencies, parseDependencies } from "mathjs";
-import { FASSUNG_MUSTER } from "../uebersetzung/kern";
+import { FASSUNG_MUSTER, kanonisch } from "../uebersetzung/kern";
 import {
   masterMetafeldFehler,
   pruefeFassungen,
@@ -52,9 +52,12 @@ import {
   isKnownBlock,
   KNOWN_BLOCK_TYPES,
   knownBlockSchema,
+  LEHRPLAENE,
+  lehrplanDefinition,
   parseModulDatei,
   PLANSPIEL_DOKUMENT_PRAEFIX,
   PLANSPIEL_VERBOTENE_MUSTER,
+  TEILKOMPETENZ_ID_MUSTER,
   termBaumFehler,
   variantenBezeichnung,
   VIDEO_DATEI_MUSTER,
@@ -124,6 +127,206 @@ const whitelist = whitelistSchema.parse(
 );
 
 // ---------------------------------------------------------------------------
+// Kompetenz-Tabellen laden (kompetenzen/teilkompetenzen.json + mapping.json).
+// Die Register- und Mapping-Regeln SPIEGELN src/lib/content/kompetenzen.ts
+// des Plattform-Repos (Code-Duplikat wie beim ln→log-Präzedenzfall –
+// Content-CI und Plattform-Build scheitern so an denselben Stellen):
+// fehlender Ordner/fehlende Dateien sind tolerant leer (Rollout
+// Plattform-vor-Content), vorhandene, aber ungültige Dateien ein harter
+// Fehler; Mapping-Zeilen nur zu registrierten Kennungen und Lehrplänen.
+// Zusätzlich NUR hier: beide Dateien müssen in Kanonform stehen
+// (JSON.stringify(inhalt, null, 1) + "\n") – wie die Sprachfassungen,
+// damit Werkzeug-Läufe diff-stabil bleiben.
+// ---------------------------------------------------------------------------
+
+/** Zweisprachiges Label (die Oberfläche kennt de + en) – Spiegel der Plattform. */
+const sprachTextSchema = z.strictObject({
+  de: z.string().trim().min(1).max(160),
+  en: z.string().trim().min(1).max(160),
+});
+
+const teilkompetenzEintragSchema = z.strictObject({
+  name: sprachTextSchema,
+  beschreibung: z
+    .strictObject({
+      de: z.string().trim().min(1).max(400),
+      en: z.string().trim().min(1).max(400),
+    })
+    .optional(),
+  fachbereich: z.string().trim().min(1).max(60),
+});
+
+type KompetenzRegister = Record<string, z.infer<typeof teilkompetenzEintragSchema>>;
+type KompetenzMapping = Record<string, Partial<Record<string, string[]>>>;
+
+/** Code-Schema wie lehrplanKompetenzSchema.code (freies Format ≤ 60). */
+const kompetenzCodeSchema = z.string().trim().min(1).max(60);
+
+function kompetenzTabellenFehler(datei: string, meldungen: string[]): Error {
+  return new Error(
+    `Kompetenz-Tabelle ${datei} ist ungültig:\n${meldungen.map((m) => `  - ${m}`).join("\n")}`,
+  );
+}
+
+/** Nur echte JSON-Objekte sind Tabellen (kein Array, kein Skalar). */
+function kompetenzAlsObjekt(raw: unknown, datei: string): Record<string, unknown> {
+  if (raw === null || typeof raw !== "object" || Array.isArray(raw)) {
+    throw kompetenzTabellenFehler(datei, ["Die Datei muss ein JSON-Objekt sein."]);
+  }
+  return raw as Record<string, unknown>;
+}
+
+/** Register parsen – Regeln identisch zu parseKompetenzRegister der Plattform. */
+function parseKompetenzRegister(raw: unknown, datei: string): KompetenzRegister {
+  const objekt = kompetenzAlsObjekt(raw, datei);
+  const meldungen: string[] = [];
+  const register: KompetenzRegister = {};
+  for (const [kennung, wert] of Object.entries(objekt)) {
+    if (kennung === "_hinweis") continue;
+    if (kennung.length > 64 || !TEILKOMPETENZ_ID_MUSTER.test(kennung)) {
+      meldungen.push(
+        `Kennung "${kennung}": nicht im Format "<fachbereich>.<thema>.<verb-objekt>" (Kleinbuchstaben/Ziffern, Punkte als Trenner, max. 64 Zeichen).`,
+      );
+      continue;
+    }
+    const eintrag = teilkompetenzEintragSchema.safeParse(wert);
+    if (!eintrag.success) {
+      for (const issue of eintrag.error.issues) {
+        meldungen.push(`${kennung}.${issue.path.join(".")}: ${issue.message}`);
+      }
+      continue;
+    }
+    register[kennung] = eintrag.data;
+  }
+  if (meldungen.length > 0) throw kompetenzTabellenFehler(datei, meldungen);
+  return register;
+}
+
+/** Mapping parsen – Regeln identisch zu parseKompetenzMapping der Plattform. */
+function parseKompetenzMapping(
+  raw: unknown,
+  register: KompetenzRegister,
+  datei: string,
+): KompetenzMapping {
+  const objekt = kompetenzAlsObjekt(raw, datei);
+  const meldungen: string[] = [];
+  const mapping: KompetenzMapping = {};
+  for (const [kennung, wert] of Object.entries(objekt)) {
+    if (kennung === "_hinweis") continue;
+    if (register[kennung] === undefined) {
+      meldungen.push(
+        `Kennung "${kennung}": nicht im Register (teilkompetenzen.json) – Mapping-Einträge brauchen einen Register-Eintrag.`,
+      );
+      continue;
+    }
+    if (wert === null || typeof wert !== "object" || Array.isArray(wert)) {
+      meldungen.push(
+        `${kennung}: erwartet ein Objekt { "<lehrplan>": ["<code>", …] }.`,
+      );
+      continue;
+    }
+    const proLehrplan: Partial<Record<string, string[]>> = {};
+    for (const [lehrplan, codesRoh] of Object.entries(
+      wert as Record<string, unknown>,
+    )) {
+      if (lehrplanDefinition(lehrplan) === undefined) {
+        meldungen.push(
+          `${kennung}.${lehrplan}: Lehrplan ist nicht registriert – bekannte Kennungen: ${LEHRPLAENE.map((p) => p.kennung).join(", ")}.`,
+        );
+        continue;
+      }
+      const codes = z.array(kompetenzCodeSchema).min(1).max(8).safeParse(codesRoh);
+      if (!codes.success) {
+        meldungen.push(
+          `${kennung}.${lehrplan}: erwartet eine Liste von 1–8 Kompetenz-Codes (Strings, ≤ 60 Zeichen).`,
+        );
+        continue;
+      }
+      if (new Set(codes.data).size !== codes.data.length) {
+        meldungen.push(
+          `${kennung}.${lehrplan}: jeder Code höchstens einmal listen.`,
+        );
+        continue;
+      }
+      proLehrplan[lehrplan] = codes.data;
+    }
+    mapping[kennung] = proLehrplan;
+  }
+  if (meldungen.length > 0) throw kompetenzTabellenFehler(datei, meldungen);
+  return mapping;
+}
+
+/** Eine Tabelle lesen: fehlend → null (tolerant); JSON- und Kanonform-Fehler werfen. */
+function liesKompetenzTabelle(name: string): unknown | null {
+  const datei = path.join(ROOT, "kompetenzen", name);
+  if (!fs.existsSync(datei)) return null;
+  const roh = fs.readFileSync(datei, "utf8");
+  let wert: unknown;
+  try {
+    wert = JSON.parse(roh);
+  } catch (err) {
+    throw kompetenzTabellenFehler(name, [
+      `kein gültiges JSON (${(err as Error).message}).`,
+    ]);
+  }
+  if (kanonisch(wert) !== roh) {
+    throw kompetenzTabellenFehler(name, [
+      'nicht in Kanonform – bitte als JSON.stringify(inhalt, null, 1) + "\\n" speichern (Muster Sprachfassungen).',
+    ]);
+  }
+  return wert;
+}
+
+/** kompetenzen/ existiert – erst dann sind Modul-Referenzen prüfbar. */
+const kompetenzenAktiv = fs.existsSync(path.join(ROOT, "kompetenzen"));
+let kompetenzRegister: KompetenzRegister = {};
+let kompetenzMapping: KompetenzMapping = {};
+try {
+  if (kompetenzenAktiv) {
+    const registerRoh = liesKompetenzTabelle("teilkompetenzen.json");
+    if (registerRoh !== null) {
+      kompetenzRegister = parseKompetenzRegister(registerRoh, "teilkompetenzen.json");
+    }
+    const mappingRoh = liesKompetenzTabelle("mapping.json");
+    if (mappingRoh !== null) {
+      kompetenzMapping = parseKompetenzMapping(
+        mappingRoh,
+        kompetenzRegister,
+        "mapping.json",
+      );
+    }
+  }
+} catch (err) {
+  console.error(`✗ ${(err as Error).message}`);
+  process.exit(1);
+}
+
+/** Alle in Modulen referenzierten Kennungen (fürs Warn-Resümee am Ende). */
+const kompetenzVerwendet = new Set<string>();
+
+/**
+ * Teilkompetenz-Referenzen eines (Master- oder Fassungs-)Moduls: sammelt
+ * Verwendungen und meldet Kennungen ohne Register-Eintrag – geprüft nur,
+ * WENN der kompetenzen/-Ordner existiert (tolerant sonst, wie die
+ * Plattform: Rollout Plattform-vor-Content).
+ */
+function teilkompetenzReferenzFehler(mod: LearningModule): string[] {
+  const fehler: string[] = [];
+  mod.blocks.forEach((block, i) => {
+    if (!isKnownBlock(block)) return;
+    for (const kennung of block.teilkompetenzen ?? []) {
+      kompetenzVerwendet.add(kennung);
+      if (kompetenzenAktiv && kompetenzRegister[kennung] === undefined) {
+        fehler.push(
+          `blocks.${i}: Teilkompetenz "${kennung}" ist nicht im Register (kompetenzen/teilkompetenzen.json) – zuerst dort eintragen.`,
+        );
+      }
+    }
+  });
+  return fehler;
+}
+
+// ---------------------------------------------------------------------------
 // Hilfen: lesbare Zod-Fehler (übernommen aus dem Plattform-Loader)
 // ---------------------------------------------------------------------------
 
@@ -189,6 +392,10 @@ function checkModule(
   const errors: string[] = [];
   const hints: string[] = [];
   const modDir = path.join(MODULES_DIR, slug);
+
+  // --- Teilkompetenzen: jede referenzierte Kennung braucht einen ----------
+  // Register-Eintrag (Fassungen prüft der Hauptlauf mit derselben Funktion).
+  errors.push(...teilkompetenzReferenzFehler(mod));
 
   // --- Blocktypen: nur implementierte + freigegebene Zukunftstypen --------
   for (const block of mod.blocks) {
@@ -722,6 +929,31 @@ for (const slug of slugs) {
     errors.push(`Sprachfassungs-Prüfung fehlgeschlagen: ${(err as Error).message}`);
   }
 
+  // Teilkompetenz-Referenzen der Sprachfassungen (Master siehe
+  // checkModule): Die Kennungen sind zwar invariant und damit
+  // byteidentisch zum Master (Strukturgleichheit), die Register-Prüfung
+  // läuft aber bewusst auch über jede Fassung – wie im
+  // Plattform-Validierer, der Master UND Fassungen durch checkModule
+  // schickt. Unlesbare/ungültige Fassungen meldet pruefeFassungen.
+  for (const eintrag of fs.readdirSync(path.join(MODULES_DIR, slug))) {
+    if (!FASSUNG_MUSTER.test(eintrag)) continue;
+    try {
+      const fassungRaw = JSON.parse(
+        fs.readFileSync(path.join(MODULES_DIR, slug, eintrag), "utf8"),
+      ) as unknown;
+      const fassungParsed = parseModulDatei(fassungRaw);
+      if (fassungParsed.success) {
+        errors.push(
+          ...teilkompetenzReferenzFehler(fassungParsed.data).map(
+            (e) => `(${eintrag}) ${e}`,
+          ),
+        );
+      }
+    } catch {
+      // kein gültiges JSON: bereits von pruefeFassungen gemeldet
+    }
+  }
+
   if (errors.length > 0) {
     failed++;
     console.error(`✗ ${slug}`);
@@ -736,6 +968,24 @@ for (const slug of slugs) {
     console.log(`✓ ${slug} – ${parsed.data.blocks.length} Blöcke, ${quizInfo}`);
   }
   for (const h of hints) console.log(`  ℹ ${h}`);
+}
+
+// Warn-Resümee der Kompetenz-Tabellen (Hinweise, KEINE Fehler) – wie im
+// Plattform-Validierer: Register-Einträge ohne Verwendung in irgendeinem
+// Modul oder ohne Lehrplan-Mapping sind vermutlich Versehen – oder
+// bewusste Vorarbeit.
+for (const kennung of Object.keys(kompetenzRegister)) {
+  if (!kompetenzVerwendet.has(kennung)) {
+    console.log(
+      `  ℹ Kompetenzen: "${kennung}" steht im Register, wird aber von keinem Modul referenziert.`,
+    );
+  }
+  const zuordnungen = kompetenzMapping[kennung];
+  if (!zuordnungen || Object.keys(zuordnungen).length === 0) {
+    console.log(
+      `  ℹ Kompetenzen: "${kennung}" hat kein Lehrplan-Mapping (mapping.json) – erscheint im Dashboard unter «ohne Zuordnung».`,
+    );
+  }
 }
 
 if (failed > 0) {

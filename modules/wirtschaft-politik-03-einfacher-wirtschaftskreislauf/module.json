@@ -109,6 +109,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Der einfache Wirtschaftskreislauf",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.kreislauf.zusammenhaenge-erklaeren"
+   ],
    "intro": "Zeig, was du über den einfachen Wirtschaftskreislauf weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -285,6 +289,9 @@
    "type": "lueckentext",
    "id": "lt-vier-stroeme",
    "title": "Die vier Ströme: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Im einfachen Wirtschaftskreislauf bleiben von den drei Akteuren aus Modul 2 nur zwei übrig: Die {{1}} bieten Arbeitskraft an und konsumieren, die {{2}} produzieren und zahlen Löhne.\nFür den Ferienjob liefern die Haushalte den Unternehmen ihre {{3}}. Als Gegenleistung fließt der {{4}} in die andere Richtung. Beim Einkaufen liefern die Unternehmen den Haushalten {{5}} und Dienstleistungen; die Haushalte bezahlen dafür mit ihren {{6}}.\nArbeitskraft, Güter und Dienstleistungen bilden zusammen den {{7}}, Lohn und Konsumausgaben den {{8}}. Die beiden Ströme fließen {{9}}: Wo etwas Reales in die eine Richtung fließt, fließt {{10}} in die Gegenrichtung.",
@@ -350,6 +357,9 @@
    "type": "lueckentext",
    "id": "lt-kreislaufgedanke",
    "title": "Der Kreislaufgedanke: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.kreislauf.zusammenhaenge-erklaeren"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Der Kreislauf hat keinen Anfang und kein Ende. Deine Arbeit in der Bäckerei bringt dir Ende Monat den Lohn: Für die Bäckerei ist diese Zahlung eine Ausgabe, für dich ist sie eine {{1}}. Kaufst du dir dort ein Sandwich, ist es umgekehrt: Deine {{2}} wird zur Einnahme der Bäckerei. Mit diesen Einnahmen kann die Bäckerei wieder Mehl einkaufen und {{3}} zahlen – und alles beginnt von vorn. Es gilt also: Jede Ausgabe des einen ist eine {{4}} des anderen. Das Geld wird dabei nicht verbraucht – es wechselt nur die Hand und bleibt im {{5}}.",
@@ -390,6 +400,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-stroeme",
    "title": "Zuordnen: Realstrom oder Geldstrom?",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
    "intro": "Ordne jedem Beispiel den richtigen Strom zu: **Realstrom** oder **Geldstrom**. Frag dich jeweils: Fließt hier Geld – oder etwas «Echtes» wie Arbeit, eine Ware oder eine Dienstleistung? Zwei Fälle sind besonders knifflig.",
    "modus": "wortbank",
    "text": "Du räumst im Ferienjob Gestelle ein und bedienst die Kundschaft: {{1}}\nDie Bäckerei überweist dir Ende Monat 450 Franken Lohn: {{2}}\nEine Kundin bekommt zwei Gipfeli über die Theke gereicht: {{3}}\nDie Kundin bezahlt die Gipfeli an der Kasse: {{4}}\nDer Coiffeursalon schneidet einem Kunden die Haare: {{5}}\nDer Kunde bezahlt den Haarschnitt mit der Karte: {{6}}\nEin zufriedener Gast lässt der Servicefachfrau im Café Trinkgeld da: {{7}}\nAls Teil deines Lohns darfst du am Abend übrig gebliebene Brote gratis mitnehmen (Naturallohn): {{8}}\nEine Familie bekommt das bestellte Sofa nach Hause geliefert: {{9}}\nDie Familie überweist dem Möbelhaus den Rechnungsbetrag: {{10}}",
@@ -449,6 +462,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Wende den Kreislauf an",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.kreislauf.zusammenhaenge-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Wenn du magst, zeichne den einfachen Wirtschaftskreislauf zuerst aus dem Gedächtnis auf ein Blatt: zwei Kästen für die Akteure und vier beschriftete Pfeile, mit zwei Farben für Realstrom und Geldstrom. Beschreibe den Kreislauf anschließend im Textfeld: Welche zwei Akteure stehen sich gegenüber, was fließt über jeden der vier Pfeile und in welche Richtung – und welcher Pfeil gehört zum Realstrom, welcher zum Geldstrom? Vergleiche deine Beschreibung erst am Schluss mit der Grafik im Modul: Stimmen alle vier Richtungen?",

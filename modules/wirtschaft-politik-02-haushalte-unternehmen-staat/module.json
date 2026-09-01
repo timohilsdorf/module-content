@@ -106,6 +106,11 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Die drei Wirtschaftsakteure",
+   "teilkompetenzen": [
+    "wp.akteure.rollen-beschreiben",
+    "wp.akteure.austausch-beschreiben",
+    "wp.akteure.beispiele-zuordnen"
+   ],
    "intro": "Zeig, was du über Haushalte, Unternehmen und Staat weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -282,6 +287,9 @@
    "type": "lueckentext",
    "id": "lt-akteure-und-rollen",
    "title": "Akteure und Rollen: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.akteure.rollen-beschreiben"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "In der Wirtschaft handeln drei Akteure. Die {{1}} konsumieren Güter und Dienstleistungen – dazu gehören alle Menschen, ob sie allein wohnen oder als Familie. Außerdem bieten sie den Unternehmen ihre {{2}} an. Die {{3}} produzieren Güter und Dienstleistungen und zahlen dafür {{4}}. Ihr Ziel ist es, einen {{5}} zu erzielen.\nDer {{6}} handelt aus einem anderen Grund: Er setzt {{7}} für das Wirtschaften, erhebt von Haushalten und Unternehmen {{8}} und stellt damit öffentliche {{9}} bereit – zum Beispiel Schulen, Polizei und {{10}}.",
@@ -347,6 +355,9 @@
    "type": "lueckentext",
    "id": "lt-austauschbeziehungen",
    "title": "Austauschbeziehungen: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.akteure.austausch-beschreiben"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Wirtschaften heißt tauschen. Wer in einem Unternehmen arbeitet, gibt seine Arbeitskraft und erhält dafür einen {{1}}. Wer in der Bäckerei ein Brot kauft, gibt {{2}} und erhält dafür eine Ware. Haushalte und Unternehmen zahlen außerdem {{3}} an den Staat. Im Gegenzug stellt der Staat öffentliche {{4}} bereit, etwa Schulen und Straßen. Dieser Tausch funktioniert nicht Stück für Stück wie an der Ladenkasse, sondern als Gesamtpaket: Alle zahlen ein, alle können die Angebote {{5}}.",
@@ -394,6 +405,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-akteure",
    "title": "Zuordnen: Wer handelt hier – Haushalt, Unternehmen oder Staat?",
+   "teilkompetenzen": [
+    "wp.akteure.beispiele-zuordnen"
+   ],
    "intro": "Ordne jedem Beispiel den Akteur zu, der hier handelt: **Haushalt**, **Unternehmen** oder **Staat**. Jeder Akteur kommt mehrmals vor – und aufgepasst: Dieselbe Person kann je nach Situation in verschiedenen Rollen auftreten. **Ein Begriff in der Auswahl passt nirgends.**",
    "modus": "wortbank",
    "text": "Familie Öhri kocht am Abend Znacht und schaut danach gemeinsam einen Film: {{1}}\nDie Bäckerei in Triesen backt Brot und verkauft es im Laden: {{2}}\nDer Landtag beschließt ein neues Gesetz zum Jugendschutz: {{3}}\nHerr Matt steht am Vormittag als Bäcker in der Backstube und backt Zopf: {{4}}\nAm Abend kauft Herr Matt für seine Familie im Supermarkt ein: {{5}}\nDie Gemeinde lässt die Straße vor dem Schulhaus neu teeren: {{6}}\nEine Schülerin verdient im Ferienjob ihren ersten Lohn: {{7}}\nEin Möbelhaus zahlt seinen Angestellten den Monatslohn: {{8}}\nFrau Banzer unterrichtet an der öffentlichen Schule – ihren Lohn zahlt das Land aus Steuergeldern: {{9}}\nNach der Schule bezahlt Frau Banzer an der Kasse ihre Einkäufe: {{10}}",
@@ -456,6 +470,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Wende die Begriffe an",
+   "teilkompetenzen": [
+    "wp.akteure.beispiele-zuordnen",
+    "wp.akteure.rollen-beschreiben"
+   ],
    "tasks": [
     {
      "prompt": "Geh im Kopf deinen gestrigen Tag durch. Notiere drei Situationen, in denen du (oder dein Haushalt) mit einem anderen Wirtschaftsakteur zu tun hattest – mindestens einmal mit einem Unternehmen und einmal mit dem Staat. Schreibe zu jeder Situation auf: Wer handelt? Was wird gegeben, was wird empfangen?",

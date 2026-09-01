@@ -114,6 +114,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Der erweiterte Wirtschaftskreislauf",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen",
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
    "intro": "Zeig, was du über Staat, Banken und Ausland im Kreislauf weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -290,6 +294,9 @@
    "type": "lueckentext",
    "id": "lt-neue-akteure",
    "title": "Drei neue Akteure: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Im erweiterten Wirtschaftskreislauf kommen drei Akteure dazu. Haushalte und Unternehmen zahlen {{1}} an den {{2}}; er stellt dafür öffentliche {{3}} wie Schulen, Straßen und Sicherheit bereit.\nDie {{4}} sammeln das Ersparte von Haushalten und Unternehmen als {{5}} und vergeben daraus {{6}} – so verbinden sie Sparen und Investieren.\nVerkauft ein Liechtensteiner Unternehmen seine Waren in die Schweiz, ist das ein {{7}}; kauft die Bäckerei Mehl von einer Schweizer Mühle, ist das ein {{8}}. Aus dem {{9}} pendeln außerdem viele {{10}} zur Arbeit nach Liechtenstein herein.",
@@ -355,6 +362,9 @@
    "type": "lueckentext",
    "id": "lt-modell-grenzgaenger",
    "title": "Modell und Grenzgänger: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Der Wirtschaftskreislauf ist ein {{1}}: Er lässt bewusst vieles weg, damit das Wichtige sichtbar wird. Mit jedem zusätzlichen Akteur wird er {{2}} – aber er bleibt immer eine {{3}} der Wirklichkeit.\nWie eng ein Land mit seinen Nachbarn verflochten sein kann, zeigt Liechtenstein: Die Mehrheit der Beschäftigten pendelt als Grenzgängerinnen und Grenzgänger aus der Schweiz und aus {{4}} ein. Ihre {{5}} fließt nach Liechtenstein herein – ihre Löhne fließen ins Ausland hinaus.",
@@ -398,6 +408,10 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-akteure",
    "title": "Zuordnen: Wer oder was steckt dahinter?",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen",
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
    "intro": "Ordne jedem Beispiel den passenden Begriff zu: den beteiligten **Akteur**, die **Rolle** des Staates oder die **Stromart**. Frag dich jeweils: Wohin fließt hier etwas – und was fließt? **Achtung:** Drei Begriffe in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Die Bäckerei überweist die Steuer auf ihren Gewinn: Das Geld fließt an den {{1}}.\nEine Grenzgängerin aus Buchs bedient in Vaduz die Kundschaft: Ihre Arbeitskraft kommt aus dem {{2}}.\nEine Liechtensteiner Maschinenfabrik liefert eine Anlage nach Zürich: aus FL-Sicht ein {{3}}.\nDie Bäckerei kauft Mehl von einer Mühle in der Schweiz: aus FL-Sicht ein {{4}}.\nDu legst deinen Ferienjob-Lohn aufs Sparkonto: Deine Einlage geht an die {{5}}.\nDie Bäckerei bekommt von der Bank Geld für einen neuen Backofen: Sie erhält einen {{6}}.\nDie Gemeinde lässt das Schulhaus renovieren und bezahlt dafür eine Baufirma: Hier tritt der Staat als {{7}} auf.\nEine Lehrerin bekommt ihren Lohn vom Land: Hier tritt der Staat als {{8}} auf.\nDer Lohn der Grenzgängerin fließt auf ihr Konto in Buchs: Geld fließt ins {{9}} hinaus.\nDas Sandwich, das du dir in der Pause kaufst, wandert über die Theke zu dir: ein Beispiel für den {{10}}.",
@@ -463,6 +477,9 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Wende den erweiterten Kreislauf an",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen"
+   ],
    "tasks": [
     {
      "prompt": "Beschreibe den erweiterten Wirtschaftskreislauf aus dem Gedächtnis: fünf Akteure (Haushalte, Unternehmen, Staat, Banken, Ausland) und pro neuem Akteur die zwei wichtigsten Ströme. Gib zu jedem Strom an, von wem zu wem er fließt und ob er Realstrom oder Geldstrom ist. Wenn du magst, zeichne den Kreislauf zuerst auf ein Blatt und beschreibe dann deine Zeichnung. Vergleiche erst am Schluss mit der Grafik im Modul: Stimmen die Richtungen und die Stromarten?",

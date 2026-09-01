@@ -107,6 +107,11 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Argumentaufbau und Fallbeispiele",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.preisregulierung-abwaegen",
+    "wp.markt.preisbildung-erklaeren"
+   ],
    "intro": "Zeig, dass du den Argument-Bauplan und die beiden Fallbeispiele verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -283,6 +288,10 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-argumente",
    "title": "Zuordnen: Pro, Contra – oder bloße Behauptung?",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.preisregulierung-abwaegen"
+   ],
    "intro": "Ordne jede Aussage der richtigen Kategorie zu: **Pro-Argument** (für Preisregulierung, mit Begründung), **Contra-Argument** (gegen Preisregulierung, mit Begründung) oder **bloße Behauptung** (egal welche Seite – ohne Begründung und Beleg). Achtung: Es zählt der **Bau** der Aussage, nicht ob du inhaltlich zustimmst.",
    "modus": "wortbank",
    "text": "«Der Staat soll Mieten bremsen, weil Familien mit wenig Geld sonst aus ihren Quartieren verdrängt werden – wie die Familie, die beim Wohnungswechsel keine bezahlbare Wohnung mehr fand.» {{1}}\n«Preisdeckel sind einfach eine dumme Idee.» {{2}}\n«Ein Preisdeckel unter dem Gleichgewichtspreis führt zu Knappheit, weil mehr nachgefragt als angeboten wird – in mehreren Ländern blieben Regale bei gedeckelten Produkten leer.» {{3}}\n«Ohne Mietpreisbremse steigen die Mieten immer weiter.» {{4}}\n«Wenn eine Behörde die Stromnetz-Tarife prüft, schützt das die Kundschaft, weil es dort keinen Wettbewerb gibt – das Netz gehört einem einzigen Anbieter.» {{5}}\n«Jeder vernünftige Mensch ist gegen Preisdeckel.» {{6}}\n«Mietpreisbremsen können den Neubau bremsen, weil sich Bauen weniger lohnt – Kritiker verweisen auf Städte mit strengen Regeln und wenig Neubau.» {{7}}\n«Preisdeckel verhindern Wucher in Krisen, weil Verzweifelte sonst fast jeden Preis zahlen – etwa für Trinkwasser nach einer Katastrophe.» {{8}}\n«Hohe Preise regeln sich oft von selbst, weil sie neue Anbieter anlocken und die Nachfrage dämpfen – ein Deckel schaltet dieses Signal aus.» {{9}}\n«Die Politik sollte bei diesem Thema endlich vernünftig werden.» {{10}}",
@@ -343,6 +352,9 @@
    "type": "lueckentext",
    "id": "lt-argument-bauplan",
    "title": "Bau das Argument wieder zusammen",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen"
+   ],
    "intro": "Ein Argument wurde in seine Bausteine zerlegt. Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Zwei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "{{1}}: «Der Staat sollte bei stark steigenden Mieten eine Preisbremse einsetzen.»\n{{2}}: «…, {{3}} Wohnen ein Existenzbedürfnis ist, auf das niemand verzichten kann.»\n{{4}}: «{{5}} fand eine Familie beim Wohnungswechsel monatelang keine bezahlbare Wohnung – die neu ausgeschriebenen Mieten lagen weit über der Vergleichsmiete.»\nOhne die {{6}} bliebe nur eine bloße {{7}} übrig – und ohne das {{8}} fehlt der überprüfbare Beleg.",
@@ -396,6 +408,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Dein Argument für die Debatte",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.preisregulierung-abwaegen"
+   ],
    "tasks": [
     {
      "prompt": "Formuliere ein eigenes Kurzargument zur Streitfrage «Soll der Staat Preise regulieren?» – exakt nach dem Bauplan: (1) eine klare Behauptung (Pro ODER Contra – du darfst auch die Seite wählen, die nicht deiner Meinung entspricht), (2) eine Begründung mit «weil» oder «denn», (3) ein konkretes Beispiel als Beleg. Verwende ein Beispiel, das NICHT wörtlich im Modul steht – du darfst aber Wissen aus den Modulen 6 bis 8 einbauen.",

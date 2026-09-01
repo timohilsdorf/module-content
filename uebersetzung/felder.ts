@@ -57,6 +57,9 @@ const REGELN: ReadonlyArray<[RegExp, FeldKlasse]> = [
   // --- Alle Blöcke --------------------------------------------------------
   [/^blocks\[\]\.id$/, "invariant"],
   [/^blocks\[\]\.type$/, "invariant"],
+  // Teilkompetenz-Kennungen sind sprachunabhängige Schlüssel ins Register
+  // (kompetenzen/teilkompetenzen.json) – nie übersetzen.
+  [/^blocks\[\]\.teilkompetenzen\[\]$/, "invariant"],
   [/^blocks\[\]\.title$/, "uebersetzt"],
   [/^blocks\[\]\.intro$/, "uebersetzt"],
   // --- text ---------------------------------------------------------------

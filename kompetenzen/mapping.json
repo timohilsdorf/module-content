@@ -1,0 +1,159 @@
+{
+ "_hinweis": "Mapping Teilkompetenz -> Kompetenz-Codes je Lehrplan (li = LiLe, ch = Lehrplan 21; gleiche WAH-/RZG-Systematik, daher identische Codes). de/at bewusst noch ohne Zuordnung - solche Teilkompetenzen erscheinen dort im Dashboard unter 'ohne Zuordnung'. Pflege per Pull Request; Details docs/KOMPETENZEN.md im Plattform-Repo.",
+ "wp.grundlagen.beduerfnisse-gueter-unterscheiden": {
+  "li": [
+   "WAH.2.1",
+   "WAH.3.1"
+  ],
+  "ch": [
+   "WAH.2.1",
+   "WAH.3.1"
+  ]
+ },
+ "wp.grundlagen.oekonomisches-prinzip-anwenden": {
+  "li": [
+   "WAH.2.1",
+   "WAH.3.3"
+  ],
+  "ch": [
+   "WAH.2.1",
+   "WAH.3.3"
+  ]
+ },
+ "wp.akteure.rollen-beschreiben": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.akteure.beispiele-zuordnen": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.akteure.austausch-beschreiben": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.kreislauf.stroeme-unterscheiden": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.kreislauf.zusammenhaenge-erklaeren": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.kreislauf.erweiterung-einordnen": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.sektoren.beispiele-zuordnen": {
+  "li": [
+   "WAH.1.3"
+  ],
+  "ch": [
+   "WAH.1.3"
+  ]
+ },
+ "wp.sektoren.strukturwandel-erklaeren": {
+  "li": [
+   "WAH.1.2"
+  ],
+  "ch": [
+   "WAH.1.2"
+  ]
+ },
+ "wp.markt.marktkraefte-beschreiben": {
+  "li": [
+   "WAH.2.1",
+   "WAH.3.1"
+  ],
+  "ch": [
+   "WAH.2.1",
+   "WAH.3.1"
+  ]
+ },
+ "wp.markt.preisbildung-erklaeren": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.markt.marktformen-unterscheiden": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.markt.wettbewerb-beurteilen": {
+  "li": [
+   "WAH.2.1",
+   "WAH.3.1"
+  ],
+  "ch": [
+   "WAH.2.1",
+   "WAH.3.1"
+  ]
+ },
+ "wp.argumentieren.argumente-bauen": {
+  "li": [
+   "RZG.8.2"
+  ],
+  "ch": [
+   "RZG.8.2"
+  ]
+ },
+ "wp.argumentieren.preisregulierung-abwaegen": {
+  "li": [
+   "RZG.8.2",
+   "WAH.2.1"
+  ],
+  "ch": [
+   "RZG.8.2",
+   "WAH.2.1"
+  ]
+ },
+ "wp.geld.funktionen-erklaeren": {
+  "li": [
+   "WAH.2.3",
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.3",
+   "WAH.2.1"
+  ]
+ },
+ "wp.geld.entwicklung-beschreiben": {
+  "li": [
+   "WAH.2.1"
+  ],
+  "ch": [
+   "WAH.2.1"
+  ]
+ }
+}

@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-10-geld-funktionen-geschichte --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:32b0c0741fadbbc84fe542130fae74ef15e9c4db9f14b9df39395ddb58a56f2a",
-  "masterCommit": "278332a",
+  "masterHash": "sha256:4062db672b22a73411f577cc14b260f05cb5981cf1e5b63e059004508c7ad8cc",
+  "masterCommit": "c8d086e",
   "hintsHash": null,
-  "generatedAt": "2026-08-18",
+  "generatedAt": "2026-09-01",
   "generator": "uebersetze.ts v1",
-  "model": "datei:wp10-antworten.json",
-  "selfHash": "sha256:0327e86a6acb476329355fd8c2f366311b328f8d6ddfc8344b2a7a15a92e5dd0"
+  "model": "speicher",
+  "selfHash": "sha256:ac8598326f0737a464c4a5ac87cb0a68586c0231a244feb77e6ccd7821588907"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-10-geld-funktionen-geschichte",
@@ -125,6 +125,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: functions and history of money",
+   "teilkompetenzen": [
+    "wp.geld.funktionen-erklaeren",
+    "wp.geld.entwicklung-beschreiben"
+   ],
    "intro": "Show what you know about the functions and history of money. You can repeat the quiz as often as you like – your best result counts.",
    "questions": [
     {
@@ -301,6 +305,9 @@
    "type": "lueckentext",
    "id": "lt-geld-grundlagen",
    "title": "Fill in the terms: from barter to trust",
+   "teilkompetenzen": [
+    "wp.geld.entwicklung-beschreiben"
+   ],
    "intro": "Drag the right terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three words in the selection don't fit anywhere.",
    "modus": "wortbank",
    "text": "In pure {{1}}, both sides have to offer exactly what the other wants – experts speak of the double {{2}} of wants. To solve this problem, sought-after goods such as salt or shells first served as a means of payment – this form of money is called {{3}}. Later, rulers minted the first {{4}} from precious metal, and around 1000 years ago the first {{5}} appeared in China. Today, the largest part of all money exists as {{6}} in accounts.\nMoney fulfils three functions: as a {{7}} it is accepted by everyone when paying, as a {{8}} it carries value into the future, and as a {{9}} it makes prices comparable. All of this only works as long as everyone has {{10}} in money.",
@@ -389,6 +396,10 @@
    "type": "lueckentext",
    "id": "lt-franken-liechtenstein",
    "title": "Type in the terms: Liechtenstein and the franc",
+   "teilkompetenzen": [
+    "wp.geld.entwicklung-beschreiben",
+    "wp.geld.funktionen-erklaeren"
+   ],
    "intro": "There's no word selection this time – **type in the missing terms yourself**. Capitalisation doesn't matter.",
    "modus": "eingabe",
    "text": "Until 1924, people in Liechtenstein paid with the Austrian krone. After the First World War it lost value rapidly because of {{1}} – it was no longer any good as a {{2}}. Liechtenstein therefore switched to the Swiss {{3}}. In 1980, the two countries also signed a {{4}} that officially regulates their cooperation. For the small economic area, a currency of its own isn't worthwhile – what matters more is that everyone has {{5}} in a stable currency.",
@@ -442,6 +453,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-geldfunktionen",
    "title": "Match them up: which function of money is at work?",
+   "teilkompetenzen": [
+    "wp.geld.funktionen-erklaeren"
+   ],
    "intro": "Match each everyday situation with the function of money that is front and centre in it: **medium of exchange**, **store of value** or **unit of account**. Each function appears more than once.",
    "modus": "wortbank",
    "text": "You pay for your lunch at the kiosk with your card. {{1}}\nYou save CHF 20 every month for a new snowboard. {{2}}\nYou work out that the concert ticket costs as much as three trips to the cinema. {{3}}\nThe bakery pays its employee her wages at the end of the month. {{4}}\nYour grandparents have put money aside for your education. {{5}}\nIn the shop, you compare the prices of two phones. {{6}}\nYou buy a train ticket from the ticket machine. {{7}}\nThe club sets aside the takings from the cake sale for next year's camp. {{8}}\nThe newspaper says a second-hand car is “worth CHF 8000”. {{9}}",
@@ -514,6 +528,10 @@
   {
    "type": "tasks",
    "title": "Going deeper: money in your everyday life",
+   "teilkompetenzen": [
+    "wp.geld.funktionen-erklaeren",
+    "wp.geld.entwicklung-beschreiben"
+   ],
    "tasks": [
     {
      "prompt": "In some school playgrounds, trading cards get swapped – and rare cards are hot property. Put it to the test: could trading cards work as money? Go through all three functions of money (medium of exchange, store of value, unit of account) and decide for each one whether trading cards fulfil it.",

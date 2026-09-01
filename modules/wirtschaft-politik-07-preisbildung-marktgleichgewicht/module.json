@@ -113,6 +113,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Preisbildung und Gleichgewicht",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren",
+    "wp.markt.marktkraefte-beschreiben"
+   ],
    "intro": "Zeig, was du über Marktpreise, Überschuss und Knappheit weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -289,6 +293,9 @@
    "type": "lueckentext",
    "id": "lt-preisbildung",
    "title": "Preisbildung: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Auf einem freien Markt legt niemand den Preis allein fest – er entsteht aus dem Zusammenspiel zwischen dem {{1}} der Verkäuferinnen und Verkäufer und der {{2}} der Käuferinnen und Käufer. Verlangen die Anbieter zu viel, bleibt ein Teil der Ware liegen – solche unverkauften Waren sind die sprichwörtlichen {{3}}: Es herrscht ein {{4}}, und die Anbieter müssen den Preis {{5}}. Ist der Preis dagegen zu tief, wollen mehr Leute kaufen, als Ware da ist: Es herrscht {{6}}, es bilden sich Schlangen, und der Preis {{7}} wieder. So pendelt sich der Markt beim {{8}} ein – dem Preis, bei dem angebotene und nachgefragte Menge übereinstimmen. Man sagt dann: Der Markt ist {{9}}. Die Menge, die zu diesem Preis verkauft wird, heißt {{10}}.",
@@ -354,6 +361,9 @@
    "type": "lueckentext",
    "id": "lt-marktreaktionen",
    "title": "Marktreaktionen: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Bleibt zum verlangten Preis viel Ware liegen, spricht man von einem {{1}}. Die Anbieter reagieren darauf, indem sie den Preis {{2}}. Ist ein Gut dagegen sofort ausverkauft und stehen die Leute Schlange, herrscht {{3}} – der Preis {{4}} dann meist wieder. Beim Gleichgewichtspreis stimmen die angebotene und die nachgefragte {{5}} überein.",
@@ -398,6 +408,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-marktlagen",
    "title": "Zuordnen: Überschuss, Knappheit oder Gleichgewicht?",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
    "intro": "Ordne jeder Situation die passende Marktlage zu: **Überschuss**, **Knappheit** oder **Gleichgewicht**. Frag dich jeweils: Bleibt hier etwas liegen, gehen Leute leer aus – oder geht die Rechnung auf beiden Seiten auf?",
    "modus": "wortbank",
    "text": "Am Kuchenstand des Schulfests bleiben zum verlangten Preis 40 Stücke übrig: {{1}}\nVor dem Laden campieren Fans für ein neues Sneaker-Modell, nach einer Stunde ist alles weg: {{2}}\nDer Pausenkiosk verkauft Tag für Tag fast genau so viele Sandwiches, wie er bereitmacht – ohne Rest und ohne Schlange: {{3}}\nKonzerttickets sind in zwanzig Minuten ausverkauft, viele Fans gehen leer aus: {{4}}\nWintermäntel lassen sich im März nur noch mit hohem Rabatt verkaufen: {{5}}\nEin Kiosk bestellt 200 Fußball-Sammelhefte – nach dem Turnierfinal will sie kaum noch jemand: {{6}}\nAm Gemüsestand ist am Samstagabend alles verkauft, und niemand musste vergeblich anstehen: {{7}}\nIn den Sportferien sind die Leihskier in Malbun schon am frühen Morgen alle weg, spätere Gäste bekommen keine mehr: {{8}}\nDer Flohmarktstand verkauft im Lauf des Tages praktisch alle Spiele zum angeschriebenen Preis: {{9}}",
@@ -452,6 +465,9 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Euer Marktspiel und der Gleichgewichtspreis",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Werte euer Marktspiel aus dem Unterricht aus (falls es noch bevorsteht: Nimm stattdessen eine Szene von einem Wochen- oder Flohmarkt). Beschreibe eine Runde oder Szene, in der ein Preis zu hoch oder zu tief war: Woran hat man das gemerkt? Wie haben die Anbieter und die Käuferinnen und Käufer reagiert – und in welche Richtung hat sich der Preis danach bewegt? Verwende dabei die Begriffe Überschuss, Knappheit und Gleichgewichtspreis.",
