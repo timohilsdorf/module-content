@@ -1,5 +1,5 @@
 {
- "_hinweis": "Mapping Teilkompetenz -> Kompetenz-Codes je Lehrplan (li = LiLe, ch = Lehrplan 21; gleiche WAH-/RZG-Systematik, daher identische Codes). de/at bewusst noch ohne Zuordnung - solche Teilkompetenzen erscheinen dort im Dashboard unter 'ohne Zuordnung'. Pflege per Pull Request; Details docs/KOMPETENZEN.md im Plattform-Repo.",
+ "_hinweis": "Mapping Teilkompetenz -> Kompetenz-Codes je Lehrplan (li = LiLe, ch = Lehrplan 21). Achtung: LiLe uebernimmt viele LP21-Codes, weicht aber teils ab - WAH.1 (Produktions- und Arbeitswelten) liegt im LiLe unter LBO.6, und RZG.8.1/RZG.8.3 beziehen sich auf Liechtenstein statt auf die Schweiz. Codes darum je Lehrplan einzeln pruefen, nie blind spiegeln. de/at bewusst noch ohne Zuordnung - solche Teilkompetenzen erscheinen dort im Dashboard unter 'ohne Zuordnung'. Pflege per Pull Request; Details docs/KOMPETENZEN.md im Plattform-Repo.",
  "wp.grundlagen.beduerfnisse-gueter-unterscheiden": {
   "li": [
    "WAH.2.1",
@@ -70,7 +70,7 @@
  },
  "wp.sektoren.beispiele-zuordnen": {
   "li": [
-   "WAH.1.3"
+   "LBO.6.3"
   ],
   "ch": [
    "WAH.1.3"
@@ -78,7 +78,7 @@
  },
  "wp.sektoren.strukturwandel-erklaeren": {
   "li": [
-   "WAH.1.2"
+   "LBO.6.2"
   ],
   "ch": [
    "WAH.1.2"
@@ -122,19 +122,19 @@
  },
  "wp.argumentieren.argumente-bauen": {
   "li": [
-   "RZG.8.2"
+   "RZG.8.1"
   ],
   "ch": [
-   "RZG.8.2"
+   "RZG.8.1"
   ]
  },
  "wp.argumentieren.preisregulierung-abwaegen": {
   "li": [
-   "RZG.8.2",
+   "RZG.8.1",
    "WAH.2.1"
   ],
   "ch": [
-   "RZG.8.2",
+   "RZG.8.1",
    "WAH.2.1"
   ]
  },
@@ -154,6 +154,301 @@
   ],
   "ch": [
    "WAH.2.1"
+  ]
+ },
+ "wp.vorsorge.versicherungsprinzip-erklaeren": {
+  "li": [
+   "WAH.5.2"
+  ]
+ },
+ "wp.vorsorge.versicherungen-einordnen": {
+  "li": [
+   "WAH.3.3",
+   "WAH.5.2"
+  ]
+ },
+ "wp.banken.kernaufgaben-zuordnen": {
+  "li": [
+   "WAH.2.3",
+   "WAH.5.2"
+  ]
+ },
+ "wp.banken.kreditwuerdigkeit-erklaeren": {
+  "li": [
+   "WAH.2.3",
+   "WAH.5.2"
+  ]
+ },
+ "wp.banken.zins-berechnen": {
+  "li": [
+   "WAH.2.3"
+  ]
+ },
+ "wp.anlegen.aktien-boerse-erklaeren": {
+  "li": [
+   "WAH.2.1",
+   "WAH.2.3"
+  ]
+ },
+ "wp.anlegen.risiko-rendite-beurteilen": {
+  "li": [
+   "WAH.2.3"
+  ]
+ },
+ "wp.budget.lohnabrechnung-erklaeren": {
+  "li": [
+   "WAH.2.3"
+  ]
+ },
+ "wp.budget.monatsbudget-berechnen": {
+  "li": [
+   "WAH.2.3",
+   "WAH.3.3"
+  ]
+ },
+ "wp.bezahlen.bezahlformen-unterscheiden": {
+  "li": [
+   "WAH.2.3",
+   "WAH.3.1"
+  ]
+ },
+ "wp.bezahlen.schuldenfallen-erkennen": {
+  "li": [
+   "WAH.2.3",
+   "WAH.3.1"
+  ]
+ },
+ "wp.konsum.dark-patterns-erkennen": {
+  "li": [
+   "WAH.3.1",
+   "MI.1.2"
+  ]
+ },
+ "wp.konsum.gegenstrategien-anwenden": {
+  "li": [
+   "WAH.3.3",
+   "MI.1.2"
+  ]
+ },
+ "wp.politik.grundbegriffe-anwenden": {
+  "li": [
+   "LBO.5.6",
+   "LBO.5.4"
+  ]
+ },
+ "wp.politik.kompromisse-begruenden": {
+  "li": [
+   "LBO.5.6"
+  ]
+ },
+ "wp.politik.interessenvertretung-beurteilen": {
+  "li": [
+   "LBO.5.6",
+   "MI.1.2"
+  ]
+ },
+ "wp.demokratie.grundprinzipien-erklaeren": {
+  "li": [
+   "RZG.8.1"
+  ]
+ },
+ "wp.demokratie.entscheidungswege-unterscheiden": {
+  "li": [
+   "RZG.8.1",
+   "LBO.5.4"
+  ]
+ },
+ "wp.demokratie.systeme-vergleichen": {
+  "li": [
+   "RZG.8.1",
+   "RZG.8.2"
+  ]
+ },
+ "wp.medien.nachrichten-beurteilen": {
+  "li": [
+   "MI.1.2",
+   "MI.1.1"
+  ]
+ },
+ "wp.medien.faktenchecks-anwenden": {
+  "li": [
+   "MI.1.2"
+  ]
+ },
+ "wp.medien.verschwoerungserzaehlungen-erkennen": {
+  "li": [
+   "MI.1.2",
+   "LBO.5.4"
+  ]
+ },
+ "wp.argumentieren.falschinformationen-abwaegen": {
+  "li": [
+   "RZG.8.1",
+   "MI.1.2"
+  ]
+ },
+ "wp.argumentieren.friedenssicherung-abwaegen": {
+  "li": [
+   "RZG.8.1"
+  ]
+ },
+ "wp.staat.staatsaufgaben-begruenden": {
+  "li": [
+   "WAH.2.1",
+   "WAH.5.2"
+  ]
+ },
+ "wp.staat.steuern-zuordnen": {
+  "li": [
+   "WAH.2.3",
+   "WAH.5.2"
+  ]
+ },
+ "wp.staat.staatsbudget-erklaeren": {
+  "li": [
+   "WAH.5.2"
+  ]
+ },
+ "wp.staat.wirtschaftspolitik-zuordnen": {
+  "li": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.standort.standortfaktoren-beurteilen": {
+  "li": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.europa.binnenmarkt-erklaeren": {
+  "li": [
+   "WAH.2.1"
+  ]
+ },
+ "wp.europa.ewr-doppelrolle-erklaeren": {
+  "li": [
+   "WAH.2.1",
+   "RZG.8.3"
+  ]
+ },
+ "wp.frieden.uno-erklaeren": {
+  "li": [
+   "RZG.8.3"
+  ]
+ },
+ "wp.frieden.menschenrechte-zuordnen": {
+  "li": [
+   "RZG.8.2"
+  ]
+ },
+ "wp.frieden.konflikte-analysieren": {
+  "li": [
+   "LBO.5.6"
+  ]
+ },
+ "en.hoeren.hoertexte-videos-verstehen-a2": {
+  "li": [
+   "FS1E.1.A.1"
+  ]
+ },
+ "en.hoeren.gespraeche-verstehen-a1": {
+  "li": [
+   "FS1E.1.A.1"
+  ]
+ },
+ "en.lesen.sachtexte-verstehen-a2": {
+  "li": [
+   "FS1E.2.A.1"
+  ]
+ },
+ "en.schreiben.texte-verfassen-a2": {
+  "li": [
+   "FS1E.4.A.1"
+  ]
+ },
+ "en.schreiben.textbausteine-zuordnen-a2": {
+  "li": [
+   "FS1E.4.A.1"
+  ]
+ },
+ "en.schreiben.sich-vorstellen-a1": {
+  "li": [
+   "FS1E.4.A.1"
+  ]
+ },
+ "en.wortschatz.themenwortschatz-anwenden-a2": {
+  "li": [
+   "FS1E.5.B.1"
+  ]
+ },
+ "en.wortschatz.grundwortschatz-anwenden-a1": {
+  "li": [
+   "FS1E.5.B.1"
+  ]
+ },
+ "en.wortschatz.aehnliche-verben-unterscheiden-a2": {
+  "li": [
+   "FS1E.5.B.1"
+  ]
+ },
+ "en.grammatik.vergangenheitsformen-anwenden-a2": {
+  "li": [
+   "FS1E.5.D.1"
+  ]
+ },
+ "en.grammatik.satzstrukturen-anwenden-a2": {
+  "li": [
+   "FS1E.5.D.1"
+  ]
+ },
+ "en.grammatik.grundstrukturen-anwenden-a1": {
+  "li": [
+   "FS1E.5.D.1"
+  ]
+ },
+ "geschichte.zwischenkriegszeit.krisenketten-erklaeren": {
+  "li": [
+   "RZG.6.3"
+  ]
+ },
+ "geschichte.methoden.ursachenketten-bauen": {
+  "li": [
+   "RZG.6.3"
+  ]
+ },
+ "geschichte.industrialisierung.wandel-erklaeren": {
+  "ch": [
+   "RZG.5.2",
+   "RZG.6.2"
+  ]
+ },
+ "geschichte.industrialisierung.soziale-frage-beurteilen": {
+  "ch": [
+   "RZG.5.2"
+  ]
+ },
+ "geografie.naturgefahren.entstehung-erklaeren": {
+  "ch": [
+   "RZG.1.3"
+  ]
+ },
+ "geografie.naturgefahren.schutzmassnahmen-beurteilen": {
+  "ch": [
+   "RZG.1.3"
+  ]
+ },
+ "geografie.naturgefahren.klimawandel-einordnen": {
+  "ch": [
+   "RZG.1.2"
+  ]
+ },
+ "informatik.content.modulformat-verstehen": {
+  "li": [
+   "MI.2.1"
+  ]
+ },
+ "informatik.content.modul-erstellen": {
+  "li": [
+   "MI.1.3"
   ]
  }
 }

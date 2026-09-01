@@ -104,6 +104,9 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Bauart und Prüffragen",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
    "intro": "Zeig, dass du die Bauteile und die Prüffragen beherrschst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -280,6 +283,9 @@
    "type": "lueckentext",
    "id": "lt-bauteile",
    "title": "Setze die Begriffe ein: Bauart und Prüffragen",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Eine Verschwörungserzählung behauptet einen geheimen {{1}} einer kleinen, mächtigen Gruppe. In der Erzählung ist nichts {{2}} – alles gilt als Absicht. Und jede {{3}} wird zur Bestätigung umgedeutet: Diese Abwehr von Kritik heißt {{4}}. Eine prüfbare {{5}} dagegen sagt selbst, welche Beobachtung sie widerlegen würde.\nAttraktiv sind die Erzählungen, weil sie eine {{6}} Erklärung für die komplizierte Welt bieten, das Gefühl von Durchblick schmeicheln lässt und die Gruppe {{7}} stiftet. Im Feed verstärkt die {{8}} den Effekt: Ständige Wiederholung verleiht den Anschein von Wahrheit.\nDagegen helfen die Prüffragen: Wer müsste alles {{9}}? Was könnte die These widerlegen? Wem {{10}} die Erzählung?",
@@ -345,6 +351,10 @@
    "type": "lueckentext",
    "id": "lt-verschwoerung-eingabe",
    "title": "Tippe die Begriffe ein: Die Prüffragen sitzen",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Wird jeder Gegenbeweis zur Bestätigung umgedeutet, nennt man das {{1}} gegen Kritik. An den Apollo-Programmen arbeiteten rund 400 000 Menschen – die Prüffrage dazu lautet: Wer müsste alles {{2}}? Eine prüfbare Theorie benennt, was sie {{3}} könnte. Verschwörungsinhalte sind oft auch ein Geschäft – die dritte Prüffrage lautet: Wem {{4}} die Erzählung? Und die Quellen-Checks aus Modul 22 wirken auch hier: Quelle prüfen, Bild-Rückwärtssuche, {{5}} suchen.",
@@ -383,6 +393,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-bauteile",
    "title": "Zuordnen: Welches Bauteil steckt dahinter?",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
    "intro": "Alle Aussagen stammen aus den beiden historischen, widerlegten Beispielen (flache Erde, inszenierte Mondlandung). Ordne jede Aussage dem passenden Bauteil zu: **geheimer Plan**, **nichts ist Zufall** oder **Immunisierung**. Jedes Bauteil kommt genau dreimal vor.",
    "modus": "wortbank",
    "text": "«Die Raumfahrtbehörden fälschen seit Jahrzehnten alle Fotos aus dem All – gesteuert von ganz oben.» {{1}}\n«Dass auf einem Mondfoto die Flagge zu wehen scheint, kann kein Versehen sein – das wurde absichtlich so inszeniert.» {{2}}\n«Satellitenbilder als Gegenbeweis? Gefälscht – das zeigt nur, wie mächtig die Fälscher sind.» {{3}}\n«Die Raumfahrtbehörden mehrerer Länder haben sich abgesprochen, um die wahre Form der Erde zu verheimlichen.» {{4}}\n«Ausgerechnet in dem Jahr, in dem die Rakete startete, gab es Filmstudio-Fortschritte – so etwas passiert doch nicht einfach so.» {{5}}\n«Je weniger Beweise wir finden, desto klarer wird, wie professionell alles vertuscht ist.» {{6}}\n«Alle Piloten und Astronominnen der Welt sind eingeweiht und zum Schweigen verpflichtet.» {{7}}\n«Dass Experten unsere These widerlegen, beweist erst recht, dass sie dazugehören.» {{8}}\n«Zwei Länder waren im Wettlauf zum Mond Rivalen – ausgerechnet zur gleichen Zeit? Das kann kein Zufall sein.» {{9}}",
@@ -437,6 +450,9 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Das Muster erkennen – ohne die Inhalte zu füttern",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
    "tasks": [
     {
      "prompt": "Arbeite das Beispiel «inszenierte Mondlandung» vollständig durch: Wende alle drei Prüffragen an (Wer müsste alles schweigen? Was würde die These widerlegen können – und wie reagieren Anhänger typischerweise auf Gegenbeweise? Wem nützt die Erzählung?). Schreibe zu jeder Frage zwei, drei Sätze.",

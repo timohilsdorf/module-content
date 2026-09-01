@@ -13,8 +13,8 @@
    ],
    "competencies": [
     {
-     "code": "RZG.8.2",
-     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
     },
     {
      "code": "LBO.5.6",
@@ -111,6 +111,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Instrumente und Neutralität",
+   "teilkompetenzen": [
+    "wp.argumentieren.friedenssicherung-abwaegen",
+    "wp.frieden.uno-erklaeren"
+   ],
    "intro": "Werkzeugkasten, Neutralität und Bauplan – zeig, dass du das Rüstzeug für die Debatte beisammen hast. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -287,6 +291,10 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-sanktionen",
    "title": "Zuordnen: Pro, Contra – oder bloße Behauptung?",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.friedenssicherung-abwaegen"
+   ],
    "intro": "Ordne jede Aussage zur Streitfrage «Sind Wirtschaftssanktionen ein wirksames Friedensinstrument?» der richtigen Kategorie zu: **Pro-Argument** (für die Wirksamkeit, mit Begründung), **Contra-Argument** (gegen die Wirksamkeit, mit Begründung) oder **bloße Behauptung** (egal welche Seite – ohne Begründung und Beleg). Pro- und Contra-Argument kommen je dreimal vor, die bloße Behauptung viermal. Es zählt der **Bau** der Aussage, nicht, ob du inhaltlich zustimmst. Alle Länder sind frei erfunden.",
    "modus": "wortbank",
    "text": "«Sanktionen treffen die Wirtschaft eines Aggressors, weil ihm ohne Exporteinnahmen das Geld für die Aufrüstung fehlt – Rotlands Staatshaushalt verliert Milliarden, wenn die Abnehmer seiner Rohstoffe wegfallen.» {{1}}\n«Sanktionen bringen sowieso nie etwas, das weiß doch jeder.» {{2}}\n«Sanktionen treffen oft die Bevölkerung statt der Führung, weil steigende Preise und fehlende Waren zuerst die Schwächsten belasten – in Rotland werden Medikamente knapp, während die Führung ihre Importe über Umwege organisiert.» {{3}}\n«Wer Sanktionen kritisiert, steht automatisch auf der Seite des Aggressors.» {{4}}\n«Sanktionen sind ein Signal ohne Waffen, weil ein Regelbruch damit sichtbar einen Preis bekommt – auch Staaten ohne Armee können Konten sperren und so Haltung zeigen.» {{5}}\n«Sanktionen wirken zu langsam, um einen Krieg zu stoppen, weil Staaten Vorräte anlegen und neue Handelspartner finden – Rotlands Lager halten die Wirtschaft über Jahre über Wasser.» {{6}}\n«Härte ist die einzige Sprache, die verstanden wird.» {{7}}\n«Sanktionen stärken die internationale Geschlossenheit, weil gemeinsamer Druck stärker wirkt als Einzelmaßnahmen – schließen sich Dutzende Staaten an, findet Rotlands Führung kaum noch Banken für ihre Geschäfte.» {{8}}\n«Sanktionen lassen sich über Drittstaaten umgehen, weil Waren über Länder fließen können, die nicht mitmachen – das erfundene Gelbland wird zur Drehscheibe für Rotlands Einkäufe.» {{9}}\n«Am Ende regelt sich so etwas immer von selbst.» {{10}}",
@@ -347,6 +355,9 @@
    "type": "lueckentext",
    "id": "lt-argument-zusammensetzen",
    "title": "Bau das Argument wieder zusammen",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen"
+   ],
    "intro": "Ein Pro-Argument zur Sanktionsfrage wurde in seine Bausteine zerlegt. Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). Es geht ums **Zusammensetzen nach dem Bauplan** – nicht darum, ob du dem Argument zustimmst. **Achtung:** Zwei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "{{1}}: «Wirtschaftssanktionen sind ein deutliches Signal der Staatengemeinschaft.»\n{{2}}: «…, {{3}} ein Regelbruch damit für alle sichtbar einen Preis bekommt – ganz ohne den Einsatz von {{4}}.»\n{{5}}: «Zum Beispiel können sich auch Staaten ohne Armee anschließen – ein {{6}} kann Konten sperren und Handel einschränken und so Haltung zeigen.»\nOhne die Begründung und das Beispiel bliebe nur eine bloße {{7}} übrig. Erst alle drei Bausteine ergeben den vollständigen {{8}}.",
@@ -400,6 +411,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Dein Auftritt in der Debatte",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.friedenssicherung-abwaegen"
+   ],
    "tasks": [
     {
      "prompt": "Dein Kurzargument für die Debatte: Formuliere zur zweiten Streitfrage – «Braucht ein neutraler Kleinstaat eine Armee?» – ein eigenes Kurzargument exakt nach dem Bauplan: (1) eine klare Behauptung (Pro ODER Contra – gern auch die Seite, die nicht deiner Meinung entspricht), (2) eine Begründung mit «weil» oder «denn», (3) ein konkretes Beispiel. Nutze Wissen aus den Modulen 28 bis 30 – etwa Verflechtung, Völkerrecht, Bündnisse oder das Vetoproblem – oder erfinde ein passendes fiktives Szenario. Vermeide Behauptungen über den Verlauf oder Ausgang laufender Konflikte.",

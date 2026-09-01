@@ -158,6 +158,10 @@
   {
    "type": "tasks",
    "title": "Aufgaben",
+   "teilkompetenzen": [
+    "geografie.naturgefahren.entstehung-erklaeren",
+    "geografie.naturgefahren.schutzmassnahmen-beurteilen"
+   ],
    "intro": "Tippe deine Antwort zu jeder Aufgabe direkt in das Textfeld – sie wird Teil deines Reports, den du mit deiner Lehrperson teilen kannst. Nutze die Tipps, wenn du nicht weiterkommst.",
    "tasks": [
     {
@@ -190,6 +194,11 @@
    "type": "quiz",
    "id": "quiz",
    "title": "Teste dein Wissen zu Naturgefahren in den Alpen",
+   "teilkompetenzen": [
+    "geografie.naturgefahren.entstehung-erklaeren",
+    "geografie.naturgefahren.schutzmassnahmen-beurteilen",
+    "geografie.naturgefahren.klimawandel-einordnen"
+   ],
    "questions": [
     {
      "id": "q1",

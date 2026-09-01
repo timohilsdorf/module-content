@@ -12,19 +12,19 @@
    "competencies": [
     {
      "code": "FS1E.1.A.1",
-     "description": "FS1E.1.A.1 (LiLe, Englisch 1. Fremdsprache – Hören): Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
+     "description": "Die Schülerinnen und Schüler können verschiedenartige Hörtexte und Gespräche verstehen (Sachtexte, ästhetische Texte, Texte im Schulalltag, Gespräche im Kontakt mit Englisch sprechenden Personen)."
     },
     {
      "code": "FS1E.5.B.1",
-     "description": "FS1E.5.B.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Wortschatz): Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
+     "description": "Die Schülerinnen und Schüler verfügen über einen angemessenen Wortschatz, um sich mündlich und schriftlich zu äußern."
     },
     {
      "code": "FS1E.5.D.1",
-     "description": "FS1E.5.D.1 (LiLe, Englisch 1. Fremdsprache – Sprache(n) im Fokus, Grammatik): Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
+     "description": "Die Schülerinnen und Schüler können grammatische Strukturen in Texten erkennen und für das Verständnis nutzen sowie beim Sprechen und Schreiben anwenden."
     },
     {
      "code": "FS1E.4.A.1",
-     "description": "FS1E.4.A.1 (LiLe, Englisch 1. Fremdsprache – Schreiben): Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
+     "description": "Die Schülerinnen und Schüler können verschiedene Texte verfassen (Sachtexte, ästhetische Texte, Texte im Schulalltag, im schriftlichen Kontakt mit Englisch sprechenden Personen)."
     }
    ]
   }
@@ -71,6 +71,9 @@
    "type": "zuordnung",
    "id": "zu-schulsachen",
    "title": "Match A: School things",
+   "teilkompetenzen": [
+    "en.wortschatz.grundwortschatz-anwenden-a1"
+   ],
    "intro": "Six school things, six pictures. Tap a word, then tap its picture – the pair gets the same number. Wrong pair? Tap it again.",
    "paare": [
     {
@@ -139,6 +142,9 @@
    "type": "zuordnung",
    "id": "zu-familie",
    "title": "Match B: Family words",
+   "teilkompetenzen": [
+    "en.wortschatz.grundwortschatz-anwenden-a1"
+   ],
    "intro": "Do you remember the family words? Match each English word to its German translation.",
    "paare": [
     { "links": { "text": "sister" }, "rechts": { "text": "Schwester" } },
@@ -153,6 +159,9 @@
    "type": "lueckentext",
    "id": "lt-zahlen-farben",
    "title": "Exercise: Numbers and colours",
+   "teilkompetenzen": [
+    "en.wortschatz.grundwortschatz-anwenden-a1"
+   ],
    "intro": "Drag the right word into each gap (on a phone: tap the word first, then the gap). **Careful: two words in the list fit nowhere.**",
    "modus": "wortbank",
    "text": "Grass is {{1}}.\nOne plus one is {{2}}.\nSnow is {{3}}.\nEleven plus one is {{4}}.\nA strawberry is {{5}}.\nOne week has {{6}} days.",
@@ -170,6 +179,9 @@
    "type": "lueckentext",
    "id": "lt-ueber-mich",
    "title": "Exercise: Alina introduces herself",
+   "teilkompetenzen": [
+    "en.wortschatz.grundwortschatz-anwenden-a1"
+   ],
    "intro": "Alina is telling you about herself. Drag the right word into each gap. **Careful: two words in the list fit nowhere.**",
    "modus": "wortbank",
    "text": "Hi! I am Alina and this is my {{1}}: my mum, my dad and my little brother Nino.\nI am {{2}} years old.\nMy favourite {{3}} is blue.\nMy favourite sport is {{4}} – I play it every Saturday.\nI also like {{5}} – look at my pictures!\nAt school my favourite subject is {{6}} – I love the language!",
@@ -200,6 +212,9 @@
    "type": "lueckentext",
    "id": "lt-pronomen",
    "title": "Exercise: Which pronoun?",
+   "teilkompetenzen": [
+    "en.grammatik.grundstrukturen-anwenden-a1"
+   ],
    "intro": "Drag the right pronoun into each gap (on a phone: tap the word first, then the gap). Every pronoun is used exactly once.",
    "modus": "wortbank",
    "text": "This is my brother. {{1}} is nine years old.\nThis is my sister. {{2}} is at school.\nLook at the cat! {{3}} is on the chair.\nMy dad and I like football. {{4}} play on Saturday.\nMy grandparents are nice. {{5}} live near us.\n{{6}} are my best friend, Anna.",
@@ -216,6 +231,9 @@
    "type": "lueckentext",
    "id": "lt-tobe-eingabe",
    "title": "Exercise: Type am, is or are",
+   "teilkompetenzen": [
+    "en.grammatik.grundstrukturen-anwenden-a1"
+   ],
    "intro": "Now type the right form of to be into each gap. Write the full form (am, is or are), not the short form.",
    "modus": "eingabe",
    "text": "I {{1}} eleven years old.\nMy best friend {{2}} in my class.\nWe {{3}} at school.\nMy parents {{4}} at work.\nThe school bag {{5}} green.\nYou {{6}} very funny.",
@@ -241,6 +259,9 @@
    "type": "quiz",
    "id": "quiz-dialog",
    "title": "What did you hear?",
+   "teilkompetenzen": [
+    "en.hoeren.gespraeche-verstehen-a1"
+   ],
    "intro": "Four questions about Emma and Leo. You can go back and listen again before you answer.",
    "questions": [
     {
@@ -292,6 +313,10 @@
   {
    "type": "tasks",
    "title": "Now you: introduce yourself",
+   "teilkompetenzen": [
+    "en.schreiben.sich-vorstellen-a1",
+    "en.grammatik.grundstrukturen-anwenden-a1"
+   ],
    "intro": "Now it is your turn – like Alina, Emma and Leo.",
    "tasks": [
     {
@@ -306,6 +331,11 @@
    "type": "quiz",
    "id": "quiz-final",
    "title": "Where do I stand?",
+   "teilkompetenzen": [
+    "en.wortschatz.grundwortschatz-anwenden-a1",
+    "en.grammatik.grundstrukturen-anwenden-a1",
+    "en.schreiben.sich-vorstellen-a1"
+   ],
    "intro": "This check is only for you. It is not a test. It shows you: What do I know? What can I practise again? Nobody sees your result – only you. Eight questions from the whole module – take your time!",
    "questions": [
     {
@@ -414,6 +444,9 @@
   {
    "type": "tasks",
    "title": "Challenge: Three questions with have got",
+   "teilkompetenzen": [
+    "en.grammatik.grundstrukturen-anwenden-a1"
+   ],
    "intro": "A little writing challenge for fast climbers – optional, but fun!",
    "tasks": [
     {

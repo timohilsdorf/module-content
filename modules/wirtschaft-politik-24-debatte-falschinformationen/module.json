@@ -13,8 +13,8 @@
    ],
    "competencies": [
     {
-     "code": "RZG.8.2",
-     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
     },
     {
      "code": "MI.1.2",
@@ -99,6 +99,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Dilemma, Argumente und Zwischenlösungen",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.falschinformationen-abwaegen"
+   ],
    "intro": "Zeig, dass du das Rüstzeug für die Debatte beisammen hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -275,6 +279,10 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-argumente",
    "title": "Zuordnen: Pro, Contra – oder bloße Behauptung?",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.falschinformationen-abwaegen"
+   ],
    "intro": "Ordne jede Aussage der richtigen Kategorie zu: **Pro-Argument** (für staatliches Löschen, mit Begründung), **Contra-Argument** (gegen staatliches Löschen, mit Begründung) oder **bloße Behauptung** (egal welche Seite – ohne Begründung und Beleg). Achtung: Es zählt der **Bau** der Aussage, nicht ob du inhaltlich zustimmst.",
    "modus": "wortbank",
    "text": "«Der Staat soll gezielte Falschmeldungen löschen dürfen, weil sie Panik und realen Schaden auslösen – wie der erfundene Trinkwasser-Alarm, der zu Hamsterkäufen und überlasteten Notfallnummern führte.» {{1}}\n«Löschen ist einfach richtig, das weiß doch jeder.» {{2}}\n«Der Staat soll nicht löschen dürfen, weil oft erst später klar ist, was stimmt – eine vorschnell gelöschte Meldung kann sich als teilweise wahr erweisen.» {{3}}\n«Wer gegen das Löschen ist, dem ist die Wahrheit egal.» {{4}}\n«Eine staatliche Löschbefugnis ist gefährlich, weil sie gegen Kritiker gewendet werden kann – autoritäre Systeme begründen ihre Zensur regelmäßig mit dem Kampf gegen Falschinformationen.» {{5}}\n«Im Internet sollte endlich einmal richtig aufgeräumt werden.» {{6}}\n«Löschen schützt die Meinungsbildung, weil Abstimmende sonst über Fälschungen statt über die Sachfrage entscheiden – etwa wenn vor einem Gemeindeentscheid eine erfundene Meldung über Geheimpläne kursiert.» {{7}}\n«Löschen kann das Gegenteil bewirken, weil entfernte Inhalte erst recht Aufmerksamkeit bekommen – der Streisand-Effekt zeigt das seit 2003.» {{8}}\n«Der Staat soll löschen dürfen, weil erfundene Behauptungen Existenzen zerstören und die Richtigstellung nie alle erreicht – wie beim fiktiven Restaurant, dem verdorbenes Fleisch angedichtet wurde.» {{9}}\n«Meinungsfreiheit ist sowieso wichtiger, fertig.» {{10}}",
@@ -335,6 +343,9 @@
    "type": "lueckentext",
    "id": "lt-argument-zusammensetzen",
    "title": "Bau das Argument wieder zusammen",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen"
+   ],
    "intro": "Ein Contra-Argument wurde in seine Bausteine zerlegt. Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Zwei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "{{1}}: «Der Staat sollte Falschinformationen nicht einfach löschen dürfen.»\n{{2}}: «…, {{3}} eine solche Befugnis missbraucht werden kann – wer bestimmt, was falsch ist, kann auch unbequeme Kritik zu Falschinformation erklären.»\n{{4}}: «{{5}} begründen autoritäre Systeme ihre Zensur regelmäßig mit dem Kampf gegen Falschinformationen – gelöscht wird dann vor allem, was der Führung nicht passt.»\nOhne die {{6}} und das Beispiel bliebe nur eine bloße {{7}} übrig. Erst alle drei Bausteine ergeben den vollständigen {{8}}.",
@@ -388,6 +399,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Dein Auftritt in der Debatte",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.falschinformationen-abwaegen"
+   ],
    "tasks": [
     {
      "prompt": "Formuliere ein eigenes Kurzargument zur Streitfrage «Soll der Staat Falschinformationen löschen dürfen?» – exakt nach dem Bauplan: (1) eine klare Behauptung (Pro ODER Contra – gern auch die Seite, die nicht deiner Meinung entspricht), (2) eine Begründung mit «weil» oder «denn», (3) ein Beispiel als Beleg. Wichtig: Erfinde ein eigenes fiktives Szenario oder nutze Wissen aus den Modulen 20 bis 23 – verwende keine realen aktuellen Löschfälle.",

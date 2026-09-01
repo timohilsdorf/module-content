@@ -115,6 +115,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Nachrichten, Qualität und Framing",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
    "intro": "Zeig, dass du den Weg einer Nachricht und die Prüf-Werkzeuge beherrschst. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -291,6 +295,10 @@
    "type": "lueckentext",
    "id": "lt-weg-der-nachricht",
    "title": "Setze die Begriffe ein: Vom Ereignis zum Feed",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Am Anfang jeder Nachricht steht ein {{1}} – irgendwo passiert etwas. Davon berichtet eine {{2}}, zum Beispiel Augenzeugen oder eine Nachrichtenagentur. Dann entscheidet die {{3}}, ob die Meldung überhaupt gebracht wird – denn Platz und Zeit sind begrenzt. Zuletzt wird die {{4}} festgelegt: Titel, Bild und Wortwahl.\nQualitätsjournalismus erkennst du an der {{5}} («laut Polizeimeldung»), an der Trennung von Nachricht und {{6}} – und an einer sichtbaren {{7}}, wenn Fehler passiert sind. Wird dieselbe Tatsache durch Wortwahl und Auswahl unterschiedlich gerahmt, nennt man das {{8}}. Ob ein Foto wirklich vom behaupteten Ereignis stammt, prüfst du mit der {{9}}. Und bevor du eine empörende Meldung teilst, suchst du eine unabhängige {{10}}.",
@@ -356,6 +364,10 @@
    "type": "lueckentext",
    "id": "lt-medien-eingabe",
    "title": "Tippe die Begriffe ein: Die Checks sitzen",
+   "teilkompetenzen": [
+    "wp.medien.faktenchecks-anwenden",
+    "wp.medien.nachrichten-beurteilen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Bevor du einer Meldung glaubst, prüfst du zuerst die {{1}}: Wer steht dahinter, gibt es ein Impressum? Ob ein Bild schon früher im Netz war, zeigt die Bild-{{2}}. Ob andere seriöse Medien dasselbe berichten, klärt die Suche nach einer {{3}}. Wird dieselbe Tatsache je nach Wortwahl positiv oder negativ gerahmt, heißt das {{4}}. Und wie oft ein Beitrag geteilt wird, ist kein Beweis – Reichweite ist kein {{5}}.",
@@ -396,6 +408,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-absender",
    "title": "Zuordnen: Qualitätsjournalismus, Boulevard oder ungeprüfter Post?",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen"
+   ],
    "intro": "Ordne jede Beschreibung dem passenden Absender-Typ zu: **Qualitätsjournalismus**, **Boulevard** oder **ungeprüfter Social-Media-Post**. Jeder Typ kommt genau dreimal vor.",
    "modus": "wortbank",
    "text": "Im Artikel steht bei jeder Zahl, woher sie stammt – etwa «laut Mitteilung der Gemeinde». {{1}}\nRiesige Schlagzeile, dramatisches Prominenten-Foto, viele Ausrufezeichen – Hauptsache Aufmerksamkeit. {{2}}\nEin anonymes Konto verbreitet eine Schockmeldung – ohne Impressum, ohne Quelle, niemand prüft vor dem Absenden. {{3}}\nDer Kommentar ist deutlich als Meinung gekennzeichnet und vom Bericht getrennt. {{4}}\nDie Redaktion veröffentlicht sichtbar eine Korrektur, nachdem ihr ein Fehler unterlaufen ist. {{5}}\nDie Geschichte ist stark zugespitzt und emotional erzählt – der Kern stimmt, aber alles klingt dramatischer, als es war. {{6}}\nDer Beitrag hat hunderttausende Shares, aber niemand kann sagen, wer ihn ursprünglich verfasst hat. {{7}}\n«Sie werden nicht glauben, was dann geschah!» – die Neugier-Schlagzeile soll vor allem Klicks bringen. {{8}}\nEin privates Konto teilt ein altes Unwetterfoto als angeblich aktuelle Aufnahme – niemand hat es geprüft. {{9}}",
@@ -450,6 +465,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Werde zur Medien-Detektivin, zum Medien-Detektiv",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
    "tasks": [
     {
      "prompt": "Framing-Werkstatt: Erfinde ein neutrales Ereignis aus dem Schulleben (z. B. «Die Schule verlängert die Mittagspause um 15 Minuten»). Schreibe dazu zwei Schlagzeilen: eine, die das Ereignis positiv rahmt, und eine, die es negativ rahmt – beide müssen wahr bleiben. Markiere anschließend die Wörter, die den Unterschied machen.",

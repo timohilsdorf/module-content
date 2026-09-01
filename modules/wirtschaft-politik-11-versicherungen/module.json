@@ -103,6 +103,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Versicherungen verstehen",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungsprinzip-erklaeren",
+    "wp.vorsorge.versicherungen-einordnen"
+   ],
    "intro": "Zeig, dass du das Versicherungsprinzip und die Faustregeln verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -279,6 +283,9 @@
    "type": "lueckentext",
    "id": "lt-versicherungsprinzip",
    "title": "Setze die Begriffe ein: Das Versicherungsprinzip",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungsprinzip-erklaeren"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Eine Versicherung beruht auf einem einfachen Prinzip: Viele Menschen zahlen regelmäßig eine {{1}} in einen gemeinsamen Topf. Erleidet ein Mitglied einen {{2}}, wird dieser aus dem Topf bezahlt – das {{3}} trägt so das Risiko des Einzelnen.\nFaustregel 1 lautet: Versichere {{4}} Risiken – kleine Schäden trägst du besser {{5}}. Ein Paradebeispiel ist die {{6}}: Für eine kleine Prämie deckt sie Schäden, die in die {{7}} gehen können. Handy- und Geräteversicherungen sind dagegen meist {{8}}, denn ein kaputtes Display ist ärgerlich, aber tragbar.\nFaustregel 2 warnt: {{9}} und Sparen nicht vermischen – die gemischte {{10}} verletzt genau diese Regel.",
@@ -344,6 +351,10 @@
    "type": "lueckentext",
    "id": "lt-versicherungen-alltag",
    "title": "Tippe die Begriffe ein: Versichert im Alltag",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungsprinzip-erklaeren",
+    "wp.vorsorge.versicherungen-einordnen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Ab dem ersten Arbeitstag deiner Lehre bist du über den {{1}} obligatorisch gegen Unfälle versichert. Die Grundversicherung der {{2}} ist in Liechtenstein für alle Pflicht, die hier wohnen oder arbeiten. Wer ein Auto oder Töffli einlöst, braucht zwingend eine Motorfahrzeug-{{3}}. Den regelmäßigen Preis, den du für den Versicherungsschutz bezahlst, nennt man {{4}}. Und trägst du bei einem Schaden einen Teil selbst, heißt dieser Anteil {{5}}.",
@@ -387,6 +398,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-versicherungen",
    "title": "Zuordnen: Zehn Produkte, fünf Kategorien",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungen-einordnen"
+   ],
    "intro": "Ordne jedes Versicherungsprodukt der passenden Kategorie zu: **obligatorisch**, **sehr sinnvoll**, **situativ**, **meist unnötig** oder **kritisch prüfen**. Einige Kategorien kommen mehrmals vor. Überlege bei jedem Produkt: Was sagen die zwei Faustregeln?",
    "modus": "wortbank",
    "text": "Grundversicherung der Krankenkasse. {{1}}\nUnfallversicherung über den Lehrbetrieb. {{2}}\nMotorfahrzeug-Haftpflicht fürs Töffli. {{3}}\nPrivathaftpflicht. {{4}}\nHausratversicherung für die erste eigene Wohnung. {{5}}\nVollkasko für das brandneue Auto. {{6}}\nReiseversicherung für die gebuchte Fernreise. {{7}}\nDisplayversicherung fürs neue Handy. {{8}}\nGarantieverlängerung für die Spielkonsole. {{9}}\nGemischte Lebensversicherung (Schutz und Sparplan in einem). {{10}}",
@@ -446,6 +460,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Der Versicherungscheck",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungen-einordnen",
+    "wp.vorsorge.versicherungsprinzip-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Deine Kollegin hat sich ein Handy für CHF 900 gekauft. Die Verkäuferin bietet ihr eine Geräteversicherung an: CHF 8 pro Monat, bei einem Schaden trägt sie CHF 100 Selbstbehalt. Berate deine Kollegin: Rechne aus, was die Versicherung über die typische Nutzungsdauer von zwei bis drei Jahren kostet, und wende Faustregel 1 an.",

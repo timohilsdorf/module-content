@@ -80,6 +80,10 @@
   {
    "type": "tasks",
    "title": "Der Aufgaben-Block",
+   "teilkompetenzen": [
+    "informatik.content.modulformat-verstehen",
+    "informatik.content.modul-erstellen"
+   ],
    "intro": "Offene Aufgaben haben keine automatische Auswertung – deine Antwort tippst du ins Textfeld und sie wird Teil deines Reports an die Lehrperson; optionale Tipps gibt es zum Aufklappen.",
    "tasks": [
     {
@@ -96,6 +100,9 @@
    "type": "lueckentext",
    "id": "lt-wortbank",
    "title": "Der Lückentext-Block (Wortbank)",
+   "teilkompetenzen": [
+    "informatik.content.modul-erstellen"
+   ],
    "intro": "Lückentexte werden **automatisch geprüft**. Im Modus `wortbank` tippst du zuerst ein Wort in der Auswahl an und dann die Lücke, in die es gehört – das funktioniert auch auf dem Handy.",
    "modus": "wortbank",
    "text": "Ein Modul ist eine einzige Datei namens {{1}}. Neue Module reichst du als {{2}} ein, und Bilder liegen im selben {{3}} wie das Modul.",
@@ -127,6 +134,9 @@
    "type": "lueckentext",
    "id": "lt-eingabe",
    "title": "Der Lückentext-Block (Eingabe)",
+   "teilkompetenzen": [
+    "informatik.content.modulformat-verstehen"
+   ],
    "intro": "Im Modus `eingabe` tippst du die Lösung frei ein. Leerraum am Rand und Groß-/Kleinschreibung spielen standardmäßig keine Rolle – nur wenn eine Lücke `caseSensitive` verlangt, zählt die exakte Schreibung.",
    "modus": "eingabe",
    "text": "Der Modus mit freien Textfeldern pro Lücke heißt {{1}} – ob du das groß, klein oder mit Leerzeichen am Rand tippst, ist egal.",
@@ -142,6 +152,9 @@
    "type": "lueckentext",
    "id": "lt-satzbau",
    "title": "Der Lückentext-Block (Satzbau)",
+   "teilkompetenzen": [
+    "informatik.content.modul-erstellen"
+   ],
    "intro": "Im Modus `satzbau` bringst du vorgegebene **Bausteine in die richtige Reihenfolge** – per Ziehen oder Antippen. Es kann mehrere richtige Lösungen geben (hier darf «jedes Modul» auch direkt nach «prüft» stehen).",
    "modus": "satzbau",
    "bausteine": [
@@ -166,6 +179,10 @@
    "type": "zuordnung",
    "id": "zu-blocktypen",
    "title": "Der Zuordnungs-Block",
+   "teilkompetenzen": [
+    "informatik.content.modulformat-verstehen",
+    "informatik.content.modul-erstellen"
+   ],
    "intro": "Zuordnungsaufgaben verbinden **Paare** – Begriff und Beschreibung, Wort und Bild. Tippe je ein Element links und rechts an, egal in welcher Reihenfolge. Jedes Element hat genau ein passendes Gegenstück. Auch dieser Block zeigt die **Aufgaben-Varianten**: Beim Wiederholen bekommst du eine andere Fassung.",
    "paare": [
     {
@@ -461,6 +478,10 @@
    "type": "quiz",
    "id": "quiz",
    "title": "Teste dein Wissen zum Content-Format",
+   "teilkompetenzen": [
+    "informatik.content.modulformat-verstehen",
+    "informatik.content.modul-erstellen"
+   ],
    "questions": [
     {
      "id": "q1",

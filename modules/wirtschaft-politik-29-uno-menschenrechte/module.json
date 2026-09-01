@@ -113,6 +113,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: UNO, Sicherheitsrat und Menschenrechte",
+   "teilkompetenzen": [
+    "wp.frieden.uno-erklaeren",
+    "wp.frieden.menschenrechte-zuordnen"
+   ],
    "intro": "Forum, Veto und universelle Rechte – zeig, was sitzt. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -289,6 +293,10 @@
    "type": "lueckentext",
    "id": "lt-uno-wortbank",
    "title": "Setze die Begriffe ein: UNO und Menschenrechte",
+   "teilkompetenzen": [
+    "wp.frieden.uno-erklaeren",
+    "wp.frieden.menschenrechte-zuordnen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Die UNO wurde {{1}} gegründet – als Lehre aus zwei Weltkriegen. Heute gehören ihr {{2}} Staaten an, Liechtenstein seit {{3}}. In der {{4}} hat jedes Land genau eine Stimme. Bindende Beschlüsse kann nur der {{5}} fassen; seine fünf ständigen Mitglieder besitzen ein {{6}}. 1948 verabschiedete die UNO die Allgemeine Erklärung der {{7}}. Diese Rechte gelten {{8}}: für alle Menschen, unabhängig von Herkunft, Religion oder Geschlecht. Erklärt ist damit viel – aber nicht überall werden die Rechte auch {{9}}.",
@@ -349,6 +357,10 @@
    "type": "lueckentext",
    "id": "lt-uno-eingabe",
    "title": "Tippe die Begriffe ein: Das Wichtigste sitzt",
+   "teilkompetenzen": [
+    "wp.frieden.uno-erklaeren",
+    "wp.frieden.menschenrechte-zuordnen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Die Allgemeine Erklärung der Menschenrechte wurde im Jahr {{1}} verabschiedet. Die Menschenrechte gelten {{2}} – unabhängig von Herkunft, Religion und Geschlecht. Das UNO-Gremium, in dem jedes Land eine Stimme hat, heißt {{3}}. Das mächtigste Gremium mit 15 Mitgliedern heißt {{4}}. Das Recht der fünf ständigen Mitglieder, jeden Beschluss allein zu stoppen, nennt man {{5}}.",
@@ -392,6 +404,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-menschenrechte",
    "title": "Zuordnen: Welches Menschenrecht wirkt hier?",
+   "teilkompetenzen": [
+    "wp.frieden.menschenrechte-zuordnen"
+   ],
    "intro": "Ordne jede Situation dem passenden Recht aus der Allgemeinen Erklärung zu: **Recht auf Leben**, **Meinungsfreiheit**, **Recht auf Bildung**, **Schutz vor Folter** oder **Gleichheit vor dem Gesetz**. Jedes Recht kommt **genau zweimal** vor. Alle Situationen sind frei erfunden.",
    "modus": "wortbank",
    "text": "Eine Schülerin kritisiert in einem Online-Beitrag das Bauprojekt ihrer Gemeinde – sie muss keine Verhaftung fürchten. {{1}}\nAlle Kinder eines Dorfes können kostenlos die Grundschule besuchen, egal, wie viel ihre Eltern verdienen. {{2}}\nEin Verdächtiger darf im Verhör nicht geschlagen werden – auch wenn die Polizei ein Geständnis will. {{3}}\nVor Gericht gelten für die Tochter des Bürgermeisters dieselben Regeln wie für alle anderen. {{4}}\nDer Staat darf niemanden willkürlich töten – Hinrichtungen ohne jedes Verfahren verstoßen gegen dieses Recht. {{5}}\nEin Journalist veröffentlicht eine unbequeme Recherche über eine Behörde und wird dafür nicht bestraft. {{6}}\nAuch wer in einer armen Region lebt, soll lesen und schreiben lernen können. {{7}}\nNiemand darf im Gefängnis erniedrigend behandelt werden. {{8}}\nEin neues Gesetz gilt für arme und reiche Menschen gleich. {{9}}\nRettungsdienste müssen Menschen in Lebensgefahr helfen – egal, wer sie sind. {{10}}",
@@ -451,6 +466,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Rechte erkennen, Schwächen durchdenken",
+   "teilkompetenzen": [
+    "wp.frieden.menschenrechte-zuordnen",
+    "wp.frieden.uno-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Rechte im Alltag: Wähle zwei der fünf Rechte aus diesem Modul und beschreibe zu jedem eine Situation aus deiner vergangenen Woche, in der das Recht gewirkt hat – vermutlich, ohne dass du es bemerkt hast. Schreibe zu jeder Situation einen Satz dazu, wie sie ohne dieses Recht aussehen könnte.",

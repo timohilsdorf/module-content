@@ -136,6 +136,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Dark Patterns durchschauen",
+   "teilkompetenzen": [
+    "wp.konsum.dark-patterns-erkennen",
+    "wp.konsum.gegenstrategien-anwenden"
+   ],
    "intro": "Acht Fragen zu Mustern, Mechanismen und der politischen Dimension. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -312,6 +316,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-muster",
    "title": "Zuordnen: Zehn Beschreibungen, zehn Muster",
+   "teilkompetenzen": [
+    "wp.konsum.dark-patterns-erkennen"
+   ],
    "intro": "So sehen die Tricks in echten Apps und Shops aus – ordne jeder Beschreibung das passende Muster zu. **Jeder Begriff wird genau einmal gebraucht.**",
    "modus": "wortbank",
    "text": "«Nur noch 1 Zimmer zu diesem Preis!» blinkt neben dem Hotelangebot: {{1}}\nOben im Shop zählt eine Uhr rückwärts – «Deal endet in 09:58»: {{2}}\nIm letzten Bestellschritt kommen plötzlich «Service-Gebühr» und Versand zum Preis dazu: {{3}}\nDer Gratismonat wird automatisch zum bezahlten Abo – und der Kündigen-Knopf ist tief im Menü versteckt: {{4}}\nIm Bestellformular ist «Ja, schickt mir Angebote per E-Mail» schon angekreuzt: {{5}}\nDer Ablehnen-Knopf trägt die Aufschrift «Nein danke, ich verzichte lieber auf Vorteile»: {{6}}\nFür CHF 4.90 kaufst du im Game eine Kiste – was drin ist, entscheidet der Zufall: {{7}}\nMitten im Spiel erscheint: «Hol dir 500 Kristalle für CHF 9.90»: {{8}}\n«Deine Werkstatt ist in 7 Stunden fertig – oder sofort für 60 Rubine»: {{9}}\n«Deine Serie: 41 Tage! Spiele heute, sonst verlierst du sie»: {{10}}",
@@ -372,6 +379,10 @@
    "type": "lueckentext",
    "id": "lt-muster-wirkung",
    "title": "Setze die Begriffe ein: Warum die Tricks wirken",
+   "teilkompetenzen": [
+    "wp.konsum.dark-patterns-erkennen",
+    "wp.konsum.gegenstrategien-anwenden"
+   ],
    "intro": "Der Text fasst zusammen, mit welchen Hebeln Dark Patterns arbeiten. Ziehe die Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Dark Patterns nützen dem {{1}}, nicht dir. Countdown und Verknappung erzeugen {{2}} – und wer sich beeilen muss, bei dem setzt das {{3}} aus, entschieden wird aus dem Bauch. Der Tages-Streak nutzt die {{4}}: Die aufgebaute Serie soll auf keinen Fall verloren gehen. «Noch 23 andere schauen sich das an» baut sozialen Druck auf – was viele tun, wirkt automatisch {{5}}. Voreingestellte {{6}} bleiben oft angekreuzt, weil der bequemste Weg der vorgezeichnete ist. Versteckte {{7}} wie Versand oder «Service-Gebühr» tauchen erst im letzten Bestellschritt auf, wenn die Kaufentscheidung innerlich schon gefallen ist. In Games lässt sich die künstliche {{8}} mit Geld verkürzen, und was in der Lootbox steckt, bestimmt der {{9}} – eine glücksspielähnliche Mechanik. Und weil beim digitalen Bezahlen der {{10}} des Bezahlens fehlt, ist die wichtigste Bremse schon gelöst, bevor der erste Trick ansetzt.",
@@ -437,6 +448,9 @@
    "type": "lueckentext",
    "id": "lt-strategien-eingabe",
    "title": "Tippe die Begriffe ein: Deine Gegenstrategien",
+   "teilkompetenzen": [
+    "wp.konsum.gegenstrategien-anwenden"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Ein Countdown läuft? Ignoriere ihn und warte einen {{1}} – was du dann immer noch willst, kaufst du in Ruhe. Prüfe vor dem Kauf-Knopf den {{2}} im Warenkorb: mit Versand, Gebühren und allen angekreuzten Extras. Schau dir VOR dem Abschluss eines Abos den Weg zur {{3}} an – ist er versteckt oder mühsam, ist das ein Warnsignal. Richte für In-App-Käufe ein {{4}} ein, zum Beispiel in den Einstellungen deines Handys. Und wenn du einen Trick entdeckst: {{5}} ihn beim Namen – wer das Muster durchschaut, ist schwerer zu lenken.",
@@ -486,6 +500,11 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Vom Erkennen zum Entscheiden",
+   "teilkompetenzen": [
+    "wp.konsum.dark-patterns-erkennen",
+    "wp.konsum.gegenstrategien-anwenden",
+    "wp.argumentieren.argumente-bauen"
+   ],
    "tasks": [
     {
      "prompt": "Nimm dir das Suchbild oben vor: ein erfundener Bestell-Screen, sechs markierte Tricks. Beschreibe zu jedem der sechs Marker in je einem Satz, (a) welches Gefühl der Trick auslösen soll und (b) was du konkret tun würdest, um ihm nicht auf den Leim zu gehen. Zum Schluss: Welche zwei der sechs wirken bei dir persönlich am stärksten – und woran merkst du das?",

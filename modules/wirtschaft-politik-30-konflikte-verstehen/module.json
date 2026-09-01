@@ -123,6 +123,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Ursachen, Treppe und Akteure",
+   "teilkompetenzen": [
+    "wp.frieden.konflikte-analysieren",
+    "wp.frieden.uno-erklaeren"
+   ],
    "intro": "Vier Ursachen, vier Stufen, vier Akteurstypen – zeig, dass dein Analyseraster sitzt. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -299,6 +303,9 @@
    "type": "lueckentext",
    "id": "lt-konflikte-wortbank",
    "title": "Setze die Begriffe ein: Ursachen, Treppe, Akteure",
+   "teilkompetenzen": [
+    "wp.frieden.konflikte-analysieren"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Konflikte zwischen Staaten haben meist mehrere Ursachen zugleich: Streit um {{1}} wie ein Grenzgebiet, um {{2}} wie Wasser oder Öl, um Ideologie oder Religion – und um {{3}} und Einfluss. Die Eskalationstreppe beschreibt vier Stufen: Auf die {{4}} folgt die {{5}}, dann der bewaffnete Konflikt und zuletzt der {{6}}. Die NATO ist ein {{7}}: Ein Angriff auf ein Mitglied gilt als Angriff auf alle. Der UNO-Sicherheitsrat kann bindend handeln – ist aber blockiert, wenn eine beteiligte {{8}} ihr Nein einlegt. Die OSZE hilft mit Beobachtung und Gesprächen – sie ist die wichtigste {{9}} in Europa.",
@@ -359,6 +366,9 @@
    "type": "lueckentext",
    "id": "lt-konflikte-eingabe",
    "title": "Tippe die Begriffe ein: Das Raster sitzt",
+   "teilkompetenzen": [
+    "wp.frieden.konflikte-analysieren"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Die vier Stufen der Eskalationstreppe heißen: {{1}}, {{2}}, bewaffneter Konflikt und {{3}}. Das 1949 gegründete Verteidigungsbündnis von über 30 Staaten Europas und Nordamerikas heißt {{4}}. Die Organisation mit 57 Teilnehmerstaaten, die in Konflikten vermittelt und beobachtet, heißt {{5}}.",
@@ -396,6 +406,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-eskalationsstufen",
    "title": "Zuordnen: Auf welcher Stufe steht der Konflikt?",
+   "teilkompetenzen": [
+    "wp.frieden.konflikte-analysieren"
+   ],
    "intro": "Ordne jedes erfundene Szenario der passenden Stufe zu: **Spannung**, **Krise**, **bewaffneter Konflikt** oder **Krieg**. Spannung und Krise kommen je dreimal vor, bewaffneter Konflikt und Krieg je zweimal. Alle Länder und Ereignisse sind frei erfunden.",
    "modus": "wortbank",
    "text": "Die Regierungen von Nordinsel und Südinsel werfen einander in Reden Wortbruch vor – ihre Botschafter verhandeln aber weiter. {{1}}\nNordinsel zieht Truppen an der Grenze zusammen und droht offen mit einem Einmarsch; die Gespräche sind abgebrochen. {{2}}\nAn der Grenze zwischen Ostberg und Westberg kommt es seit Monaten immer wieder zu Schusswechseln um einen Gebirgspass. {{3}}\nDie Armeen von Rotland und Blauland kämpfen seit Wochen mit Panzern und Flugzeugen um mehrere Landesteile. {{4}}\nZwei Staaten streiten in Zeitungsinterviews scharf über die Wasserrechte an einem Grenzfluss – ein Vermittler lädt beide zu Gesprächen. {{5}}\nNach einem Zwischenfall auf See ruft Gelbland seinen Botschafter zurück und versetzt seine Flotte in Alarmbereitschaft. {{6}}\nIn einer Grenzregion liefern sich Milizen und Regierungstruppen wiederholt Gefechte – im Rest des Landes läuft der Alltag weiter. {{7}}\nGroßflächige Luftangriffe treffen Ziele im ganzen Land; beide Armeen stehen seit Monaten durchgehend im Kampf. {{8}}\nEin Staat verhängt einen Einreisestopp für Diplomaten des Nachbarlands und spricht eine «letzte Warnung» aus. {{9}}\nZwei Länder erheben Anspruch auf dieselbe unbewohnte Inselgruppe und tragen den Streit vor ein internationales Gericht. {{10}}",
@@ -455,6 +468,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Das Raster anwenden",
+   "teilkompetenzen": [
+    "wp.frieden.konflikte-analysieren",
+    "wp.frieden.uno-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Raster-Training am historischen Fall: Wende das Analyseraster auf den Kalten Krieg (etwa 1947–1991) an. Beantworte in Stichworten: (1) Welche Ursachen standen im Vordergrund? (2) Wer waren die Hauptakteure – und welche Bündnisse standen sich gegenüber? (3) Welche Stufe der Eskalationstreppe wurde zwischen den beiden Supermächten direkt erreicht – und welche nicht?",

@@ -16,15 +16,15 @@
    "competencies": [
     {
      "code": "RZG.5.2.a",
-     "description": "Die Schülerinnen und Schüler können die Entwicklung der Erwerbssektoren am Beispiel der Schweiz aufzeigen und erläutern (Wandel von der Agrar- zur Industrie- und zur Dienstleistungsgesellschaft)."
+     "description": "Die Schülerinnen und Schüler können die Entwicklung der Erwerbssektoren am Beispiel der Schweiz aufzeigen und erläutern (z.B. Veränderungen der Anzahl Bauernhöfe in der Schulgemeinde, Entwicklung der Anzahl Beschäftigten in den drei Erwerbssektoren im 19. und 20. Jahrhundert in der Schweiz)."
     },
     {
      "code": "RZG.6.2.b",
-     "description": "Die Schülerinnen und Schüler können zu einem Aspekt der Industrialisierung verschiedene Informationen finden und miteinander vergleichen (z. B. ein Bild, eine Textquelle, ein Erlebnisbericht; Industrialisierung, Soziale Frage, Kinderarbeit)."
+     "description": "Die Schülerinnen und Schüler können zu einem Aspekt der Industrialisierung verschiedene Informationen finden und miteinander vergleichen (z.B. ein Bild, eine Textquelle, ein Erlebnisbericht zur Dampfmaschine)."
     },
     {
      "code": "RZG.5.2.c",
-     "description": "Die Schülerinnen und Schüler können Auswirkungen von wirtschaftlichen Veränderungen auf einzelne Menschen erklären (z. B. Technisierung)."
+     "description": "Die Schülerinnen und Schüler können Auswirkungen von wirtschaftlichen Veränderungen auf einzelne Menschen erklären (z.B. Technisierung, Inflation, Hochkonjunktur, Energieknappheit)."
     }
    ]
   }
@@ -161,6 +161,10 @@
   {
    "type": "tasks",
    "title": "Aufgaben",
+   "teilkompetenzen": [
+    "geschichte.industrialisierung.wandel-erklaeren",
+    "geschichte.industrialisierung.soziale-frage-beurteilen"
+   ],
    "intro": "Jetzt bist du dran! Tippe deine Antworten direkt in die Textfelder – sie werden an deine Lehrperson übermittelt. Die aufklappbaren Tipps helfen dir auf die Sprünge.",
    "tasks": [
     {
@@ -193,6 +197,10 @@
    "type": "quiz",
    "id": "quiz",
    "title": "Teste dein Wissen zur Industrialisierung der Schweiz",
+   "teilkompetenzen": [
+    "geschichte.industrialisierung.wandel-erklaeren",
+    "geschichte.industrialisierung.soziale-frage-beurteilen"
+   ],
    "questions": [
     {
      "id": "q1",

@@ -121,6 +121,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Wirtschaftspolitik und Standortfaktoren",
+   "teilkompetenzen": [
+    "wp.staat.wirtschaftspolitik-zuordnen",
+    "wp.standort.standortfaktoren-beurteilen"
+   ],
    "intro": "Ziele, Werkzeuge, Standortfaktoren und der Zielkonflikt – zeig, was sitzt. Du kannst das Quiz beliebig oft wiederholen; es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -297,6 +301,10 @@
    "type": "lueckentext",
    "id": "lt-wirtschaftspolitik",
    "title": "Setze die Begriffe ein: Ziele, Werkzeuge, Standort",
+   "teilkompetenzen": [
+    "wp.staat.wirtschaftspolitik-zuordnen",
+    "wp.standort.standortfaktoren-beurteilen"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Wirtschaftspolitik verfolgt vier große Ziele: {{1}} für möglichst viele, sichere {{2}}, stabile Verhältnisse und fairen {{3}}. Dafür hat der Staat drei Werkzeuge: Er setzt {{4}} wie das Kartellverbot, er {{5}} Bildung und Forschung mit gezielten Beiträgen, und er stellt {{6}} wie Straßen und schnelles Internet bereit. Wo sich ein Unternehmen ansiedelt, entscheiden die {{7}}: zum Beispiel verfügbare {{8}}, die Höhe der Steuern und der Zugang zum europäischen {{9}}.",
@@ -357,6 +365,9 @@
    "type": "lueckentext",
    "id": "lt-standort-eingabe",
    "title": "Tippe die Begriffe ein: Die Standort-Begriffe sitzen",
+   "teilkompetenzen": [
+    "wp.standort.standortfaktoren-beurteilen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Eigenschaften eines Ortes, die für oder gegen eine Ansiedlung sprechen, heißen {{1}}. Gut ausgebildete Arbeitskräfte nennt man kurz {{2}}. Straßen, Stromnetz und Internetleitungen fasst man unter dem Begriff {{3}} zusammen. Stehen sich zwei berechtigte Ziele der Politik gegenseitig im Weg, spricht man von einem {{4}}. Der europäische Wirtschaftsraum, über den Liechtensteiner Firmen ihre Kundschaft in Europa erreichen, heißt abgekürzt {{5}}.",
@@ -395,6 +406,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-werkzeug",
    "title": "Zuordnen: Welches Werkzeug ist das?",
+   "teilkompetenzen": [
+    "wp.staat.wirtschaftspolitik-zuordnen"
+   ],
    "intro": "Ordne jede Maßnahme dem passenden Werkzeug der Wirtschaftspolitik zu: **Regeln setzen**, **Fördern** oder **Bereitstellen**. Jedes Werkzeug kommt genau dreimal vor.",
    "modus": "wortbank",
    "text": "Das Parlament verbietet Preisabsprachen zwischen Bauunternehmen. {{1}}\nDas Land zahlt Beiträge an ein Forschungslabor für neue Batterietechnik. {{2}}\nDie Gemeinde verlegt Glasfaserleitungen bis in jedes Dorf. {{3}}\nDer Staat übernimmt einen Teil der Ausbildungskosten von Lehrbetrieben. {{4}}\nEin neues Gesetz verlangt klare Preisangaben in Onlineshops. {{5}}\nDas Land baut eine neue Brücke über den Fluss. {{6}}\nJunge Firmen erhalten in den ersten zwei Jahren Startgeld aus einem Innovationsfonds. {{7}}\nDer Staat betreibt das Stromnetz und hält es in Schuss. {{8}}\nElektrogeräte dürfen nur verkauft werden, wenn ihre Sicherheit geprüft wurde. {{9}}",
@@ -449,6 +463,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Standort-Detektiv und Abwägen",
+   "teilkompetenzen": [
+    "wp.standort.standortfaktoren-beurteilen",
+    "wp.argumentieren.argumente-bauen"
+   ],
    "tasks": [
     {
      "prompt": "Standort-Detektiv: Wähle einen Betrieb aus deiner Region – eine Bäckerei, eine Werkstatt, einen Industriebetrieb (ohne ihn zu bewerten). Gehe drei Standortfaktoren aus der Grafik durch und überlege für jeden: Wie gut ist er an diesem Ort erfüllt – und woran machst du das fest?",
