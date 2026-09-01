@@ -63,6 +63,9 @@ schema/
   schema.ts                  ← maschinenlesbares Schema (Zod)
   whitelist.json             ← erlaubte Video-Provider/-Hosts, Bild-Hosts, …
   validate.ts                ← Validierung (läuft lokal und in der CI)
+kompetenzen/
+  teilkompetenzen.json       ← Register der Teilkompetenz-Kennungen (Namen de/en)
+  mapping.json               ← Kennung → Kompetenz-Codes je Lehrplan
 ```
 
 Bilder werden im JSON als `/content/<modul-id>/<datei>` referenziert –

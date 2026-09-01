@@ -112,6 +112,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Bedürfnisse, Güter und das ökonomische Prinzip",
+   "teilkompetenzen": [
+    "wp.grundlagen.beduerfnisse-gueter-unterscheiden",
+    "wp.grundlagen.oekonomisches-prinzip-anwenden"
+   ],
    "intro": "Zeig zuerst, was du aus dem Lerntext mitgenommen hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -309,6 +313,9 @@
    "type": "lueckentext",
    "id": "lt-beduerfnisse-und-gueter",
    "title": "Bedürfnisse und Güter: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.grundlagen.beduerfnisse-gueter-unterscheiden"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Alle Menschen haben Wünsche – die Wirtschaft nennt sie {{1}}. Essen, Trinken, Schlaf und ein Dach über dem Kopf sind {{2}}: Ohne sie können wir nicht überleben. Wünsche, die in unserer Gesellschaft zum normalen Alltag gehören – etwa ein Handy oder ein Kinobesuch –, heißen Grund- oder {{3}}. Was weit darüber hinausgeht, zum Beispiel eine Designeruhr, ist ein {{4}}.\nBetrifft ein Bedürfnis nur dich allein, ist es ein {{5}} Bedürfnis. Brauchen viele Menschen etwas gemeinsam – wie Schulen oder sichere Straßen –, spricht man von einem {{6}} Bedürfnis.\nErfüllt werden Bedürfnisse durch Güter. Güter wie Luft und Sonnenlicht sind unbegrenzt vorhanden und kosten nichts: Man nennt sie {{7}} Güter. Die meisten Güter sind aber begrenzt und haben einen Preis: Sie heißen {{8}} Güter oder Wirtschaftsgüter. Dinge zum Anfassen wie ein Velo sind {{9}}, Tätigkeiten wie ein Haarschnitt sind {{10}}.",
@@ -374,6 +381,9 @@
    "type": "lueckentext",
    "id": "lt-oekonomisches-prinzip",
    "title": "Knappheit und das ökonomische Prinzip: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.grundlagen.oekonomisches-prinzip-anwenden"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Unsere Bedürfnisse sind praktisch unbegrenzt, unsere Mittel wie Geld und Zeit sind {{1}}. Deshalb müssen wir ständig auswählen und einteilen – genau das nennt man {{2}}.\nWer mit fest vorgegebenen Mitteln möglichst {{3}} erreichen will, handelt nach dem Maximalprinzip. Wer ein festes Ziel mit möglichst {{4}} Mitteln erreichen will, handelt nach dem Minimalprinzip. Beide Varianten zusammen nennt man das {{5}} Prinzip.",
@@ -421,6 +431,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-alltagsbeispiele",
    "title": "Zuordnen: Alltagsbeispiele und ihre Kategorien",
+   "teilkompetenzen": [
+    "wp.grundlagen.beduerfnisse-gueter-unterscheiden"
+   ],
    "intro": "Ordne jedem Beispiel die passende Kategorie zu – bei den Bedürfnissen: Existenz-, Kultur- oder Luxusbedürfnis, bei den Gütern: freies Gut, Sachgut oder Dienstleistung. Kategorien können mehrmals vorkommen. **Ein Begriff in der Auswahl passt nirgends.**",
    "modus": "wortbank",
    "text": "Welche Bedürfnisart ist das?\nGenug zu essen und zu trinken haben: {{1}}\nAm Wochenende ein Kinobesuch mit Freundinnen und Freunden: {{2}}\nEine Designer-Sonnenbrille für 900 Franken: {{3}}\nIm Winter eine warme Wohnung haben: {{4}}\nMusik hören und ein Instrument spielen: {{5}}\n\nWelche Güterart ist das?\nDie Luft zum Atmen: {{6}}\nDein Velo: {{7}}\nDer Haarschnitt beim Coiffeur: {{8}}\nDas Sonnenlicht im Sommer: {{9}}\nDie Busfahrt zur Schule: {{10}}",
@@ -483,6 +496,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Wende die Begriffe an",
+   "teilkompetenzen": [
+    "wp.grundlagen.beduerfnisse-gueter-unterscheiden",
+    "wp.grundlagen.oekonomisches-prinzip-anwenden"
+   ],
    "tasks": [
     {
      "prompt": "Suche in deinem eigenen Alltag je ein neues Beispiel (keines aus diesem Modul!) für: ein Existenzbedürfnis, ein Kulturbedürfnis, ein Luxusbedürfnis, ein Sachgut, eine Dienstleistung und ein freies Gut. Notiere die sechs Beispiele.",

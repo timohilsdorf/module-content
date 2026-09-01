@@ -1,0 +1,149 @@
+{
+ "_hinweis": "Register der Teilkompetenzen (Kennung -> Name de/en). Format und Regeln: docs/KOMPETENZEN.md im Plattform-Repo. Kennungen sind stabil wie Block-ids - nie umbenennen, sondern neue Kennung anlegen; Pflege per Pull Request.",
+ "wp.grundlagen.beduerfnisse-gueter-unterscheiden": {
+  "name": {
+   "de": "Ich kann Bedürfnis- und Güterarten unterscheiden und Alltagsbeispiele richtig einordnen.",
+   "en": "I can distinguish types of needs and goods and classify everyday examples correctly."
+  },
+  "beschreibung": {
+   "de": "Existenz-, Kultur- und Luxusbedürfnisse, individuelle und kollektive Bedürfnisse sowie freie und knappe Güter, Sachgüter und Dienstleistungen.",
+   "en": "Basic, cultural and luxury needs, individual and collective needs, plus free and scarce goods, physical goods and services."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.grundlagen.oekonomisches-prinzip-anwenden": {
+  "name": {
+   "de": "Ich kann das ökonomische Prinzip erklären und in Alltagssituationen anwenden.",
+   "en": "I can explain the economic principle and apply it to everyday situations."
+  },
+  "beschreibung": {
+   "de": "Knappheit als Ausgangspunkt des Wirtschaftens; Maximalprinzip (mit gegebenen Mitteln möglichst viel erreichen) und Minimalprinzip (ein Ziel mit möglichst wenig Mitteln erreichen).",
+   "en": "Scarcity as the starting point of economic activity; maximum principle (achieve as much as possible with given means) and minimum principle (reach a goal with as few means as possible)."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.akteure.rollen-beschreiben": {
+  "name": {
+   "de": "Ich kann die Rollen von Haushalten, Unternehmen und Staat beschreiben.",
+   "en": "I can describe the roles of households, businesses and the state."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.akteure.beispiele-zuordnen": {
+  "name": {
+   "de": "Ich kann Alltagsbeispiele dem richtigen Wirtschaftsakteur zuordnen – auch bei Doppelrollen.",
+   "en": "I can match everyday examples to the right economic actor – even with dual roles."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.akteure.austausch-beschreiben": {
+  "name": {
+   "de": "Ich kann Austauschbeziehungen beschreiben: Arbeit gegen Lohn, Ware gegen Geld, Steuern gegen öffentliche Leistungen.",
+   "en": "I can describe exchange relationships: work for wages, goods for money, taxes for public services."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.kreislauf.stroeme-unterscheiden": {
+  "name": {
+   "de": "Ich kann im Wirtschaftskreislauf den Realstrom vom Geldstrom unterscheiden.",
+   "en": "I can distinguish the real flow from the money flow in the circular flow of the economy."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.kreislauf.zusammenhaenge-erklaeren": {
+  "name": {
+   "de": "Ich kann den Kreislaufgedanken erklären: Jede Ausgabe des einen ist eine Einnahme des anderen.",
+   "en": "I can explain the circular-flow idea: every expense of one is income for another."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.kreislauf.erweiterung-einordnen": {
+  "name": {
+   "de": "Ich kann Staat, Banken und Ausland in den erweiterten Wirtschaftskreislauf einordnen.",
+   "en": "I can place the state, banks and other countries in the extended circular flow."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.sektoren.beispiele-zuordnen": {
+  "name": {
+   "de": "Ich kann Berufe und Betriebe dem richtigen Wirtschaftssektor zuordnen.",
+   "en": "I can match jobs and businesses to the right economic sector."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.sektoren.strukturwandel-erklaeren": {
+  "name": {
+   "de": "Ich kann den Strukturwandel beschreiben und seine wichtigsten Gründe erklären.",
+   "en": "I can describe structural change and explain its main causes."
+  },
+  "beschreibung": {
+   "de": "Verschiebung der Beschäftigung vom 1. über den 2. zum 3. Sektor; Gründe: Maschinen und Technologie, gestiegene Produktivität, veränderte Nachfrage.",
+   "en": "Shift of employment from the primary via the secondary to the tertiary sector; causes: machines and technology, higher productivity, changing demand."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.markt.marktkraefte-beschreiben": {
+  "name": {
+   "de": "Ich kann beschreiben, wie Nachfrage und Angebot auf Preisänderungen und andere Einflüsse reagieren.",
+   "en": "I can describe how demand and supply react to price changes and other influences."
+  },
+  "beschreibung": {
+   "de": "Preisreaktionen beider Marktseiten sowie Einflussfaktoren jenseits des Preises: Trends, Einkommen, Jahreszeit, Anzahl der Anbieter.",
+   "en": "Price reactions of both market sides plus factors beyond the price: trends, income, season, number of suppliers."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.markt.preisbildung-erklaeren": {
+  "name": {
+   "de": "Ich kann erklären, wie ein Marktpreis entsteht, und Überschuss, Knappheit und Gleichgewicht erkennen.",
+   "en": "I can explain how a market price forms and recognise surplus, shortage and equilibrium."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.markt.marktformen-unterscheiden": {
+  "name": {
+   "de": "Ich kann Monopol, Oligopol und Konkurrenz unterscheiden und Beispiele zuordnen.",
+   "en": "I can distinguish monopoly, oligopoly and competition and classify examples."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.markt.wettbewerb-beurteilen": {
+  "name": {
+   "de": "Ich kann erklären, wozu Wettbewerb gut ist und warum Kartelle verboten sind.",
+   "en": "I can explain what competition is good for and why cartels are banned."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.argumentieren.argumente-bauen": {
+  "name": {
+   "de": "Ich kann vollständige Argumente von bloßen Behauptungen unterscheiden und nach dem Bauplan Behauptung – Begründung – Beispiel selbst formulieren.",
+   "en": "I can tell complete arguments from mere claims and build my own using the claim – reason – example structure."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.argumentieren.preisregulierung-abwaegen": {
+  "name": {
+   "de": "Ich kann Pro- und Contra-Argumente zur staatlichen Preisregulierung wiedergeben und abwägen.",
+   "en": "I can present and weigh pro and con arguments on state price regulation."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.geld.funktionen-erklaeren": {
+  "name": {
+   "de": "Ich kann die drei Geldfunktionen erklären und in Alltagssituationen erkennen.",
+   "en": "I can explain the three functions of money and recognise them in everyday situations."
+  },
+  "beschreibung": {
+   "de": "Tauschmittel, Wertaufbewahrung und Recheneinheit.",
+   "en": "Medium of exchange, store of value and unit of account."
+  },
+  "fachbereich": "wp"
+ },
+ "wp.geld.entwicklung-beschreiben": {
+  "name": {
+   "de": "Ich kann die Entwicklung des Geldes vom Tauschhandel bis zum digitalen Geld beschreiben.",
+   "en": "I can describe the development of money from barter to digital money."
+  },
+  "fachbereich": "wp"
+ }
+}

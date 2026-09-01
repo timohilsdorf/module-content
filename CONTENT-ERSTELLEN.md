@@ -316,6 +316,20 @@ Wichtig zu wissen:
 - Details und alle Felder: [CONTENT-SCHEMA.md](CONTENT-SCHEMA.md),
   Abschnitt «Mehrere Lehrpläne (curricula)».
 
+## Teilkompetenzen (optional)
+
+Aufgaben-Blöcke (Quiz, Lückentext, Zuordnung, offene Aufgaben …) dürfen
+zusätzlich das Feld `teilkompetenzen` tragen – 1–3 Kennungen aus dem
+Register [`kompetenzen/teilkompetenzen.json`](kompetenzen/teilkompetenzen.json),
+z. B. `"wp.geld.funktionen-erklaeren"`. Damit erscheint der Block in der
+Kompetenz-Übersicht des Lehrer-Dashboards. Das Feld ist **freiwillig**:
+Ein Modul ohne Teilkompetenzen ist vollkommen in Ordnung. Wenn du es
+nutzt, verwende **nur Kennungen aus dem Register** (frei erfundene lehnt
+die Validierung ab) und trage nur ein, was die Aufgaben des Blocks
+wirklich üben. Fehlt eine passende Kennung, schlage sie im selben Pull
+Request als Register-Eintrag vor. Details:
+[CONTENT-SCHEMA.md](CONTENT-SCHEMA.md), Abschnitt «Teilkompetenzen».
+
 ## Orthografie: ß schreiben, ss wird angezeigt
 
 Module werden in **deutscher Rechtschreibung mit ß** verfasst –

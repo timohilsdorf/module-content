@@ -114,6 +114,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Geldfunktionen und Geldgeschichte",
+   "teilkompetenzen": [
+    "wp.geld.funktionen-erklaeren",
+    "wp.geld.entwicklung-beschreiben"
+   ],
    "intro": "Zeig, was du über die Funktionen und die Geschichte des Geldes weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -290,6 +294,9 @@
    "type": "lueckentext",
    "id": "lt-geld-grundlagen",
    "title": "Setze die Begriffe ein: Vom Tausch zum Vertrauen",
+   "teilkompetenzen": [
+    "wp.geld.entwicklung-beschreiben"
+   ],
    "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Beim reinen {{1}} müssen beide Seiten genau das anbieten, was die andere will – Fachleute sprechen von der doppelten {{2}} der Wünsche. Um dieses Problem zu lösen, dienten zuerst begehrte Waren wie Salz oder Muscheln als Zahlungsmittel – diese Geldform heißt {{3}}. Später prägten Herrscher die ersten {{4}} aus Edelmetall, und vor rund 1000 Jahren entstand in China das erste {{5}}. Heute existiert der größte Teil des Geldes als {{6}} auf Konten.\nGeld erfüllt drei Funktionen: Als {{7}} wird es von allen beim Bezahlen akzeptiert, als Mittel der {{8}} trägt es Wert in die Zukunft, und als {{9}} macht es Preise vergleichbar. Das alles funktioniert nur, solange alle {{10}} in das Geld haben.",
@@ -355,6 +362,10 @@
    "type": "lueckentext",
    "id": "lt-franken-liechtenstein",
    "title": "Tippe die Begriffe ein: Liechtenstein und der Franken",
+   "teilkompetenzen": [
+    "wp.geld.entwicklung-beschreiben",
+    "wp.geld.funktionen-erklaeren"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Bis 1924 zahlte man in Liechtenstein mit der österreichischen Krone. Nach dem Ersten Weltkrieg verlor sie durch die {{1}} rasant an Wert – als Mittel der {{2}} taugte sie nicht mehr. Liechtenstein wechselte deshalb zum Schweizer {{3}}. 1980 unterzeichneten die beiden Länder zudem einen {{4}}, der die Zusammenarbeit offiziell regelt. Für den kleinen Wirtschaftsraum lohnt sich eine eigene Währung nicht – wichtiger ist, dass alle {{5}} in eine stabile Währung haben.",
@@ -395,6 +406,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-geldfunktionen",
    "title": "Zuordnen: Welche Geldfunktion steckt dahinter?",
+   "teilkompetenzen": [
+    "wp.geld.funktionen-erklaeren"
+   ],
    "intro": "Ordne jeder Alltagssituation die Geldfunktion zu, die dabei im Vordergrund steht: **Tauschmittel**, **Wertaufbewahrung** oder **Recheneinheit**. Jede Funktion kommt mehrmals vor.",
    "modus": "wortbank",
    "text": "Du bezahlst dein Zmittag am Kiosk mit der Karte. {{1}}\nDu sparst jeden Monat CHF 20 für ein neues Snowboard. {{2}}\nDu rechnest aus, dass das Konzertticket so viel kostet wie drei Kinobesuche. {{3}}\nDie Bäckerei zahlt ihrer Angestellten am Monatsende den Lohn aus. {{4}}\nDeine Großeltern haben Geld für deine Ausbildung zur Seite gelegt. {{5}}\nIm Laden vergleichst du die Preise von zwei Handys. {{6}}\nDu kaufst am Automaten ein Zugbillett. {{7}}\nDer Verein legt die Einnahmen vom Kuchenverkauf für das Lager im nächsten Jahr zurück. {{8}}\nIn der Zeitung steht, ein Occasionsauto sei «CHF 8000 wert». {{9}}",
@@ -449,6 +463,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Geld in deinem Alltag",
+   "teilkompetenzen": [
+    "wp.geld.funktionen-erklaeren",
+    "wp.geld.entwicklung-beschreiben"
+   ],
    "tasks": [
     {
      "prompt": "Auf manchen Pausenplätzen werden Sammelkarten getauscht – und seltene Karten sind heiß begehrt. Prüfe: Könnten Sammelkarten als Geld funktionieren? Gehe alle drei Geldfunktionen durch (Tauschmittel, Wertaufbewahrung, Recheneinheit) und entscheide bei jeder, ob Sammelkarten sie erfüllen.",

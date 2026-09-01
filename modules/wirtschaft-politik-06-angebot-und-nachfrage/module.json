@@ -111,6 +111,9 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Angebot und Nachfrage",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
    "intro": "Zeig, was du über die zwei Kräfte des Marktes weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -287,6 +290,9 @@
    "type": "lueckentext",
    "id": "lt-marktkraefte",
    "title": "Angebot und Nachfrage: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Auf jedem Markt treffen zwei Seiten aufeinander. Die Menge, die Käuferinnen und Käufer zu einem bestimmten Preis kaufen wollen, heißt {{1}}. Die Menge, die Verkäuferinnen und Verkäufer zu einem bestimmten Preis verkaufen wollen, heißt {{2}}. Beide Seiten reagieren auf den {{3}} – aber genau entgegengesetzt: Wird ein Produkt teurer, kaufen die Leute in der Regel {{4}} davon. Für die Anbieter gilt das Umgekehrte: Bei steigenden Preisen bieten sie mehr an, denn pro verkauftem Stück winkt mehr {{5}}.\nDie Nachfrage verändert sich aber auch ohne Preisänderung: {{6}} machen ein Produkt plötzlich bei allen begehrt, ein höheres {{7}} lässt die Leute mehr kaufen, und die {{8}} entscheidet zum Beispiel darüber, wann Glace oder Skier gefragt sind. Auf der Angebotsseite zählt zusätzlich die Zahl der {{9}}: Je mehr Verkäufer auf dem Markt sind, desto größer ist die insgesamt angebotene {{10}} an Waren.",
@@ -352,6 +358,10 @@
    "type": "lueckentext",
    "id": "lt-preisreaktion",
    "title": "Preisreaktionen: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben",
+    "wp.akteure.rollen-beschreiben"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Ein Beispiel vom Pausenkiosk: Kostet das Sandwich plötzlich doppelt so viel, kaufen die meisten deutlich {{1}} Sandwiches – die Nachfrage {{2}}. Senkt der Kiosk den Preis wieder, greifen mehr Leute zu – die Nachfrage {{3}}. Die Anbieter verhalten sich spiegelverkehrt: Je höher der Preis, desto {{4}} wird angeboten. Auf den Gütermärkten treten die Haushalte meist als {{5}} auf – und die Unternehmen als {{6}}.",
@@ -412,6 +422,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-marktkraefte",
    "title": "Zuordnen: Was passiert hier mit Nachfrage oder Angebot?",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
    "intro": "Ordne jeder Situation die richtige Wirkung zu: **Nachfrage steigt**, **Nachfrage sinkt**, **Angebot steigt** oder **Angebot sinkt**. Frag dich jeweils: Verändert sich hier das Verhalten der Käuferinnen und Käufer – oder das der Anbieter?",
    "modus": "wortbank",
    "text": "Ein Influencer macht eine bestimmte Trinkflasche zum Trend: {{1}}\nIm Juli reifen überall in der Region Erdbeeren, die Höfe liefern große Mengen: {{2}}\nEin kalter, verregneter Sommer – kaum jemand hat Lust auf Glace: {{3}}\nZwei neue Pizzakuriere eröffnen in der Stadt: {{4}}\nNach dem Ferienjob haben viele Jugendliche mehr Geld für Konzerte übrig: {{5}}\nDer Hype um ein Handyspiel flaut ab, kaum jemand kauft noch Zubehör dazu: {{6}}\nEine Missernte vernichtet einen großen Teil der Kartoffelernte: {{7}}\nEin Hersteller stoppt die Produktion einer beliebten Schokolade: {{8}}\nVor Weihnachten wollen alle Mandarinen und Nüsse kaufen: {{9}}\nEin Hof stellt neu auf Beerenanbau um und erntet zum ersten Mal mit: {{10}}",
@@ -471,6 +484,9 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Marktkräfte in deinem Alltag",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
    "tasks": [
     {
      "prompt": "Preis-Detektivin, Preis-Detektiv: Such dir ein Produkt aus deinem Alltag, dessen Preis sich spürbar verändert hat oder je nach Zeitpunkt unterschiedlich hoch ist – zum Beispiel Konzerttickets, limitierte Sneaker, Skitageskarten oder Früchte im Winter und im Sommer. Beschreibe: (1) Wie hat sich der Preis verändert? (2) Was ist auf der Nachfrageseite passiert, was auf der Angebotsseite? (3) Welcher Einflussfaktor aus dem Modul steckt dahinter – Trend, Einkommen, Jahreszeit oder die Zahl der Anbieter?",

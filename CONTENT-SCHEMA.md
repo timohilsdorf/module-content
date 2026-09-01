@@ -125,8 +125,10 @@ Regeln:
 
 ## Inhaltsblöcke (`blocks`)
 
-Jeder Block hat ein `type`-Feld sowie optional `id` (stabile Referenz) und
-`title` (Zwischenüberschrift). In allen als *Markdown* markierten Feldern ist
+Jeder Block hat ein `type`-Feld sowie optional `id` (stabile Referenz),
+`title` (Zwischenüberschrift) und `teilkompetenzen` (Kennungen aus dem
+Register `kompetenzen/teilkompetenzen.json`, sinnvoll nur an
+Aufgaben-Blöcken – siehe [Teilkompetenzen](#teilkompetenzen-teilkompetenzen--ordner-kompetenzen)). In allen als *Markdown* markierten Feldern ist
 GitHub Flavored Markdown erlaubt (Absätze, Listen, Tabellen, Links, `**fett**`).
 **Roh-HTML ist nicht erlaubt** – der Player rendert es nicht, und die
 Validierung weist es zurück. *(Ausnahmen: Tags als Beispiel in
@@ -863,6 +865,70 @@ Weitere Regeln:
 | `grades`-Freitext / `stufeText` («7.–9. Klasse (Sek I)») | entfällt – die Zahlen stehen in `grades`, das Wort kommt vom Lehrplan (Zusätze wie «(Sek I)» entfallen) |
 | `selbststudium: true` | `gradesText: "Erwachsene"` (ohne `grades`) |
 | `competencies`/`kompetenzen` | `competencies` (unverändert; leere Listen weglassen) |
+
+## Teilkompetenzen (`teilkompetenzen` + Ordner `kompetenzen/`)
+
+Jeder Block darf optional das Feld `teilkompetenzen` tragen: eine Liste
+von **höchstens 8 lehrplanunabhängigen Teilkompetenz-Kennungen** (je
+max. 64 Zeichen, keine Duplikate), auf die der Block einzahlt. Das
+Lehrer-Dashboard der Plattform leitet daraus je Schüler:in eine
+Kompetenz-Übersicht ab (Abdeckung + Sicherheit) – rein zur Diagnose,
+keine Bewertung.
+
+```json
+{
+ "type": "quiz",
+ "id": "quiz1",
+ "title": "Quiz: Geldfunktionen",
+ "teilkompetenzen": [
+  "wp.geld.funktionen-erklaeren"
+ ],
+ "questions": ["…"]
+}
+```
+
+Regeln und Konventionen:
+
+- **Format der Kennung:** `<fachbereich>.<thema>.<verb-objekt>`, nur
+  Kleinbuchstaben/Ziffern und Punkte als Trenner, Bindestriche ab dem
+  zweiten Segment (z. B. `wp.geld.funktionen-erklaeren`).
+- **Nur registrierte Kennungen:** Jede referenzierte Kennung muss im
+  Register [`kompetenzen/teilkompetenzen.json`](kompetenzen/teilkompetenzen.json)
+  stehen – sonst schlägt die Validierung fehl. Neue Kennung zuerst dort
+  eintragen (eigener, reviewter PR oder derselbe PR).
+- **Sinnvoll nur an Aufgaben-Blöcken:** Das Schema erlaubt das Feld auf
+  jedem Blocktyp, wirksam wird es aber nur dort, wo die Plattform eine
+  Bearbeitung nachweisen kann – an den prüfenden Blöcken (`quiz`,
+  `lueckentext`, `zuordnung`, `numerisch`, `achse`, `term`, `simulation`
+  mit Abschlussfrage) und an `tasks`-Blöcken. Auf `text`/`image`/
+  `video`/`audio` bleibt es wirkungslos – dort bitte weglassen.
+- **1–3 Kennungen je Block** haben sich bewährt: nur, was die Aufgaben
+  des Blocks wirklich üben.
+- **Kennungen sind stabil wie Block-ids:** Umbenennen zerreisst die
+  Zuordnung – lieber eine neue Kennung anlegen.
+
+### Die zwei Tabellen im Ordner `kompetenzen/`
+
+Bedeutung bekommen die Kennungen durch zwei Tabellen (Pflege per Pull
+Request; ein `_hinweis`-Feld auf oberster Ebene wird ignoriert; beide
+Dateien in Kanonform `JSON.stringify(inhalt, null, 1) + "\n"`):
+
+- [`kompetenzen/teilkompetenzen.json`](kompetenzen/teilkompetenzen.json)
+  – das **Register**: je Kennung ein Name als Kann-Formulierung (de/en),
+  optional eine Beschreibung und der `fachbereich` (erstes
+  Kennungs-Segment als Gruppierungswert).
+- [`kompetenzen/mapping.json`](kompetenzen/mapping.json) – das
+  **Mapping** auf die Kompetenz-Codes der einzelnen Lehrpläne (je
+  Kennung ein Objekt `{"li": ["WAH.2.1"], "ch": ["WAH.2.1"]}`; nur
+  registrierte Lehrpläne, 1–8 Codes je Liste). Eine Teilkompetenz darf
+  mehreren Codes zuliefern, ein Code mehrere Teilkompetenzen bündeln.
+  Lehrpläne ohne Eintrag zeigen die Teilkompetenz im Dashboard unter
+  «ohne Zuordnung».
+
+Register-Einträge ohne Verwendung oder ohne Mapping meldet
+`npm run validate` als Hinweis (ℹ), nicht als Fehler. Das vollständige
+Format samt Dashboard-Rechnung beschreibt `docs/KOMPETENZEN.md` im
+Plattform-Repo.
 
 ## Prüfende Blöcke und Modulabschluss
 

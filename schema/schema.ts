@@ -232,6 +232,24 @@ import { z } from "zod";
  *   ACHTUNG Rollout: ÄLTERE Plattform-Stände lehnen Master mit
  *   `languageLearning` ab (strictObject) – dieses Schema ZUERST
  *   deployen, erst danach den Content-PR mergen, der das Feld setzt.
+ * - 3, additive Ergänzung (1.9.2026, KEIN Versionswechsel):
+ *   TEILKOMPETENZEN. Jeder Inhaltsblock darf optional bis zu 8
+ *   lehrplanUNabhängige Teilkompetenz-Kennungen tragen
+ *   (`teilkompetenzen` in blockBase, Format TEILKOMPETENZ_ID_MUSTER:
+ *   `<fachbereich>.<thema>.<verb-objekt>`), die benennen, worauf der
+ *   Block einzahlt. Das Register der Kennungen (Namen de/en,
+ *   Fachbereich) und ihr Mapping auf Lehrplan-Kompetenz-Codes leben im
+ *   Content-Repo unter kompetenzen/ (teilkompetenzen.json +
+ *   mapping.json); die Plattform leitet daraus zur LAUFZEIT die
+ *   Kompetenz-Übersicht des Lehrer-Dashboards ab (Abdeckung +
+ *   Sicherheit – nie gespeichert, nie übermittelt). Das Feld ist auf
+ *   JEDEM Blocktyp gültig; auf Blöcken ohne Bearbeitet-Nachweis im
+ *   Report (text, image, video, audio, planspiel, simulation ohne
+ *   Abschlussfrage …) bleibt es (noch) wirkungslos – bewusst simpel,
+ *   statt Typregeln zu pflegen. ACHTUNG Rollout wie beim satzbau:
+ *   strictObject – ÄLTERE Player lehnen Module MIT dem Feld hart ab;
+ *   solche Module erst NACH dem zugehörigen Plattform-Deploy
+ *   einreichen. Bestehende Dateien bleiben unverändert gültig.
  */
 export const SCHEMA_VERSION = 3;
 
@@ -538,11 +556,55 @@ export const sourceSchema = z.strictObject({
 // Inhaltsblöcke
 // ---------------------------------------------------------------------------
 
+/**
+ * Format der Teilkompetenz-Kennungen (seit 1.9.2026): mindestens zwei
+ * durch Punkte getrennte Kleinbuchstaben/Ziffern-Segmente (ab dem
+ * zweiten Segment auch Bindestriche), Konvention
+ * `<fachbereich>.<thema>.<verb-objekt>` – z. B.
+ * "wirtschaft.geld.funktionen-nennen". Die Kennungen sind
+ * LEHRPLANUNABHÄNGIG; welche Kennungen es gibt (Register mit Namen
+ * de/en) und wie sie auf die Kompetenz-Codes der einzelnen Lehrpläne
+ * abbilden (Mapping), steht im Content-Repo unter kompetenzen/
+ * (teilkompetenzen.json + mapping.json – Schemas und Loader:
+ * src/lib/content/kompetenzen.ts der Plattform). Die Validierer prüfen
+ * dort zusätzlich, dass jede referenzierte Kennung im Register
+ * existiert.
+ */
+export const TEILKOMPETENZ_ID_MUSTER = /^[a-z0-9]+(\.[a-z0-9-]+)+$/;
+
 const blockBase = {
   /** Optionale stabile ID, z. B. für Deep-Links oder spätere Auswertungen. */
   id: z.string().optional(),
   /** Optionale Überschrift des Blocks. */
   title: z.string().optional(),
+  /**
+   * Teilkompetenz-Kennungen, auf die dieser Block einzahlt (seit
+   * 1.9.2026, optional, max. 8): lehrplanunabhängige Kennungen im
+   * Format TEILKOMPETENZ_ID_MUSTER; Register und Lehrplan-Mapping der
+   * Kennungen leben im Content-Repo unter kompetenzen/. Grundlage der
+   * Kompetenz-Übersicht im Lehrer-Dashboard (Abdeckung + Sicherheit,
+   * reine Laufzeit-Ableitung). Das Feld ist BEWUSST auf jedem Blocktyp
+   * erlaubt (einfacher als Typregeln); auf Blöcken ohne
+   * Bearbeitet-Nachweis im Report (text, image, video, audio,
+   * planspiel, simulation ohne Abschlussfrage …) bleibt es (noch)
+   * wirkungslos. ROLLOUT: Plattform VOR dem Content-Merge deployen –
+   * ältere Player lehnen Module mit dem Feld hart ab (strictObject).
+   */
+  teilkompetenzen: z
+    .array(
+      z
+        .string()
+        .max(64)
+        .regex(TEILKOMPETENZ_ID_MUSTER, {
+          message:
+            'Teilkompetenz-Kennungen haben das Format "<fachbereich>.<thema>.<verb-objekt>" (Kleinbuchstaben/Ziffern, Punkte als Trenner, Bindestriche ab dem zweiten Segment), z. B. "wirtschaft.geld.funktionen-nennen".',
+        }),
+    )
+    .max(8)
+    .refine((liste) => new Set(liste).size === liste.length, {
+      message: "teilkompetenzen: Jede Kennung höchstens einmal listen.",
+    })
+    .optional(),
 };
 
 export const textBlockSchema = z.strictObject({

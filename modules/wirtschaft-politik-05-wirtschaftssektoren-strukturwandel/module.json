@@ -115,6 +115,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Sektoren und Strukturwandel",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen",
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
    "intro": "Zeig, was du über die drei Sektoren und den Strukturwandel weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -291,6 +295,10 @@
    "type": "lueckentext",
    "id": "lt-sektoren-ueberblick",
    "title": "Sektoren und Strukturwandel: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen",
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Der 1. Sektor gewinnt {{1}} direkt aus der Natur – zum Beispiel in der {{2}}, in der Forstwirtschaft oder im Bergbau. Der 2. Sektor {{3}} diese Rohstoffe zu fertigen Waren: in der Industrie, im {{4}} und auf dem Bau. Der 3. Sektor stellt nichts her, sondern erbringt {{5}} – vom Coiffeursalon über den Buslinienverkehr bis zur Bank.\nDie langfristige Verschiebung der Beschäftigung vom 1. über den 2. zum 3. Sektor heißt {{6}}. Ein wichtiger Grund dafür sind {{7}}, die menschliche Arbeitskraft ersetzen – zuerst auf dem Feld, später in der Fabrik. Weil eine einzelne Arbeitskraft heute viel mehr herstellt als früher, sagt man: Ihre {{8}} ist gestiegen. Heute arbeiten bei uns die meisten Beschäftigten im {{9}} Sektor.",
@@ -351,6 +359,9 @@
    "type": "lueckentext",
    "id": "lt-gruende-wandel",
    "title": "Gründe des Strukturwandels: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Früher brauchte es zur Erntezeit viele Hände auf dem Feld – heute erledigt ein einziger {{1}} die Arbeit von Dutzenden Menschen. Neue {{2}} und Technologien ersetzen also menschliche Arbeitskraft. Gleichzeitig stellt jede einzelne Arbeitskraft heute viel mehr her als früher – ihre {{3}} ist gestiegen, sodass wenige Beschäftigte genug für alle produzieren. Und weil die Menschen wohlhabender geworden sind, geben sie mehr Geld für {{4}} aus, zum Beispiel für Reisen, Gesundheit oder Beratung. Die Beschäftigung verschiebt sich deshalb Schritt für Schritt in den {{5}} Sektor.",
@@ -394,6 +405,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-berufe",
    "title": "Zuordnen: Welcher Sektor ist am Werk?",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen"
+   ],
    "intro": "Ordne jedem Beruf oder Betrieb den richtigen Sektor zu: **1. Sektor**, **2. Sektor** oder **3. Sektor**. Frag dich jeweils: Wird hier etwas aus der Natur gewonnen, etwas hergestellt – oder eine Leistung für andere erbracht? Ein paar Fälle sind bewusst knifflig.",
    "modus": "wortbank",
    "text": "Ein Landwirt melkt seine Milchkühe in Balzers: {{1}}\nIn der Backstube der Bäckerei entsteht das Brot: {{2}}\nEine Lehrerin unterrichtet an deiner Schule: {{3}}\nEine Polymechanikerin baut in einer Maschinenfabrik in Schaan Geräte zusammen: {{4}}\nIn der Café-Ecke derselben Bäckerei werden Gipfeli und Kaffee serviert: {{5}}\nEine Winzerin pflegt ihre Reben am Hang über Vaduz: {{6}}\nEin Treuhandbüro in Vaduz verwaltet Firmen und Vermögen: {{7}}\nEin Maurer zieht auf einer Baustelle in Triesen eine Wand hoch: {{8}}\nDie Bergbahn bringt Wandergäste von Steg nach Malbun-Sareis: {{9}}\nEin Förster fällt im Wald oberhalb von Triesenberg Bäume: {{10}}\nEine Schreinerei fertigt Tische und Schränke aus Holz: {{11}}\nEin Pflegefachmann betreut Patientinnen im Spital: {{12}}",
@@ -463,6 +477,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Sektoren in deinem Umfeld",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen",
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
    "tasks": [
     {
      "prompt": "Zurück zur Frage vom Anfang: Notiere die Berufe von fünf Erwachsenen aus deinem Umfeld (Eltern, Verwandte, Nachbarinnen, Trainer …) und ordne jeden dem passenden Sektor zu. Zähle aus: Wie viele deiner fünf Personen arbeiten im 1., 2. und 3. Sektor? Vergleiche dein Ergebnis mit der Grafik im Modul – passt es zum Bild der heutigen Dienstleistungsgesellschaft, oder sieht dein Umfeld eher «liechtensteinisch-industriell» aus?",

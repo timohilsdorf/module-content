@@ -114,6 +114,10 @@
    "type": "quiz",
    "id": "quiz1",
    "title": "Quiz: Wettbewerb und Marktformen",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden",
+    "wp.markt.wettbewerb-beurteilen"
+   ],
    "intro": "Zeig, was du über Wettbewerb, Monopol, Oligopol und Kartelle weißt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
    "questions": [
     {
@@ -290,6 +294,10 @@
    "type": "lueckentext",
    "id": "lt-marktformen",
    "title": "Wettbewerb und Marktformen: Setze die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden",
+    "wp.markt.wettbewerb-beurteilen"
+   ],
    "intro": "Ziehe die richtigen Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
    "modus": "wortbank",
    "text": "Auf den meisten Märkten kämpfen mehrere Anbieter um die Kundschaft – diesen Wettstreit nennt man {{1}}. Er sorgt für tiefere {{2}}, bessere {{3}} und immer wieder neue Produkte und Ideen – sogenannte {{4}}. Gibt es auf einem Markt nur einen einzigen Anbieter, spricht man von einem {{5}}: Die Kundschaft kann nicht auf andere Anbieter {{6}}. Teilen sich wenige große Anbieter den Markt, heißt diese Zwischenform {{7}}. Stehen dagegen viele Anbieter im Wettstreit, spricht man von {{8}}. Sprechen Anbieter ihre Preise heimlich untereinander ab, bilden sie ein {{9}} – solche Absprachen schalten den Wettbewerb aus und sind deshalb {{10}}.",
@@ -357,6 +365,10 @@
    "type": "lueckentext",
    "id": "lt-marktmacht",
    "title": "Marktmacht: Tippe die Begriffe ein",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden",
+    "wp.markt.wettbewerb-beurteilen"
+   ],
    "intro": "Hier gibt es keine Wortauswahl mehr – **tippe die fehlenden Begriffe selbst ein**. Groß-/Kleinschreibung spielt keine Rolle.",
    "modus": "eingabe",
    "text": "Der einzige Skiliftbetreiber in einem Tal hat ein {{1}}. Weil die Gäste nicht zu einem anderen Lift {{2}} können, kann er vergleichsweise hohe {{3}} verlangen. Teilen sich wenige große Anbieter – wie die Streamingdienste – einen Markt, nennt man das ein {{4}}. Sprechen Anbieter ihre Preise heimlich ab, bilden sie ein verbotenes {{5}}.",
@@ -396,6 +408,9 @@
    "type": "lueckentext",
    "id": "lt-zuordnen-marktformen",
    "title": "Zuordnen: Monopol, Oligopol oder Konkurrenz?",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden"
+   ],
    "intro": "Ordne jeder Situation die passende Marktform zu: **Monopol**, **Oligopol** oder **Konkurrenz**. Frag dich jeweils: Wie viele Anbieter gibt es – einen, wenige große oder viele?",
    "modus": "wortbank",
    "text": "Der einzige Skiliftbetreiber in einem kleinen Wintersporttal: {{1}}\nViele Pizzakuriere liefern in derselben Stadt: {{2}}\nDrei große Streamingdienste decken fast den ganzen Markt für Serien ab: {{3}}\nDutzende Coiffeursalons buhlen in der Region um Kundschaft: {{4}}\nNur ein einziges Unternehmen betreibt das Stromnetz der Gemeinde: {{5}}\nEine kleine Zahl großer Mobilfunkanbieter teilt sich den Markt im Land: {{6}}\nViele Marktstände verkaufen am Samstag Gemüse auf demselben Platz: {{7}}\nDie einzige Buvette im Freibad verkauft Glace und Getränke: {{8}}\nEine Handvoll großer Sportartikel-Hersteller dominiert den Sneaker-Markt: {{9}}",
@@ -450,6 +465,10 @@
   {
    "type": "tasks",
    "title": "Vertiefung: Wettbewerb in deiner Region",
+   "teilkompetenzen": [
+    "wp.markt.wettbewerb-beurteilen",
+    "wp.markt.marktformen-unterscheiden"
+   ],
    "tasks": [
     {
      "prompt": "Marktformen-Check: Finde in deiner Gemeinde oder Region ein Beispiel für einen Markt mit viel Wettbewerb und eines mit wenig oder gar keinem Wettbewerb. Beschreibe zu beiden: (1) Wie viele Anbieter gibt es? (2) Wie wirkt sich das auf Preise, Qualität und Service aus – was beobachtest du konkret? (3) Was müsste passieren, damit auf dem Markt mit wenig Wettbewerb mehr Wettbewerb entsteht – und warum passiert das vielleicht nicht?",
