@@ -980,7 +980,9 @@ Mapping darf auf einen Lehrplan-Code zeigen, den die tragenden Module
 die Teilkompetenz exakt trifft — Beispiel `li: RZG.8.3` für
 `wp.frieden.uno-erklaeren`/`wp.europa.ewr-doppelrolle-erklaeren` (die
 LiLe-Stufen nennen UNO, EWR und die «Position Liechtensteins»
-wörtlich). Solche Fälle bitte hier oder im Pull Request ausweisen; die
+wörtlich — inzwischen per Betreiber-Entscheid zusätzlich in die
+curricula von wp-28/29 aufgenommen, die Ausnahme-Regel bleibt für
+künftige Fälle). Solche Fälle bitte hier oder im Pull Request ausweisen; die
 Kompetenz-Ansicht der Plattform speist ihre Lehrplan-Zeilen aus dem
 Mapping, nicht aus den Modul-`curricula`.
 
