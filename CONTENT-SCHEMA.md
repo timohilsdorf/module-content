@@ -974,6 +974,16 @@ Register-Einträge ohne Verwendung oder ohne Mapping meldet
 Format samt Dashboard-Rechnung beschreibt `docs/KOMPETENZEN.md` im
 Plattform-Repo.
 
+**Mapping über die Modul-`curricula` hinaus (Ermessens-Ausnahme):** Das
+Mapping darf auf einen Lehrplan-Code zeigen, den die tragenden Module
+(noch) nicht in ihren `curricula` führen, wenn der offizielle Wortlaut
+die Teilkompetenz exakt trifft — Beispiel `li: RZG.8.3` für
+`wp.frieden.uno-erklaeren`/`wp.europa.ewr-doppelrolle-erklaeren` (die
+LiLe-Stufen nennen UNO, EWR und die «Position Liechtensteins»
+wörtlich). Solche Fälle bitte hier oder im Pull Request ausweisen; die
+Kompetenz-Ansicht der Plattform speist ihre Lehrplan-Zeilen aus dem
+Mapping, nicht aus den Modul-`curricula`.
+
 ## Prüfende Blöcke und Modulabschluss
 
 Blöcke mit automatischer Auswertung heissen **prüfende Blöcke**. Welche
