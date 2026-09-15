@@ -532,6 +532,16 @@ function checkModule(
   for (const block of mod.blocks) {
     if (isKnownBlock(block) && block.type === "image") {
       checkBildUrl(block.src, "Bild-src");
+      // Bildnachweis ist für REPO-Module Pflicht (Betreiber-Entscheid
+      // 15.9.2026): Quelle UND Lizenz gehören zu jedem Bild – das
+      // Zod-Schema lässt `credit` bewusst optional (gespeicherte
+      // LOKALE Module dürfen beim Laden nie ungültig werden), die
+      // Pflicht erzwingt dieser Validator als PR-Gate.
+      if (!block.credit?.trim()) {
+        errors.push(
+          'Bild-Block ohne "credit": Quelle und Lizenz sind Pflicht (z. B. "Foto: NASA, Public Domain" oder "Wikimedia Commons, CC BY-SA 4.0, <Autor>").',
+        );
+      }
     }
     // Zuordnungs-Bilder unterliegen denselben Regeln wie image-Blöcke.
     if (isKnownBlock(block) && block.type === "zuordnung") {
@@ -762,11 +772,29 @@ function checkModule(
     });
   });
 
-  // --- requires soll auf existierende Module zeigen (Warnung) --------------
+  // --- requires muss auf existierende Module zeigen (FEHLER seit
+  // 15.9.2026 – ein fehlendes Ziel ist ein kaputter Lernpfad, kein
+  // Schönheitsfehler; vorher nur Warnung) und darf das Modul nicht
+  // selbst referenzieren. Zyklen über mehrere Module prüft der
+  // Repo-weite Lauf am Ende (pruefeRequiresZyklen).
   for (const req of mod.requires) {
-    if (!allSlugs.includes(req)) {
-      hints.push(`requires verweist auf "${req}" – dieses Modul existiert (noch) nicht.`);
+    if (req === mod.id) {
+      errors.push(`requires verweist auf das Modul selbst ("${req}").`);
+    } else if (!allSlugs.includes(req)) {
+      errors.push(
+        `requires verweist auf "${req}" – dieses Modul existiert nicht. Ziel-Modul im selben Pull Request mitliefern oder den Eintrag entfernen.`,
+      );
     }
+  }
+
+  // --- Lehrplanabhängige Angaben gehören NICHT in die dauerhafte ID
+  // (Lernstände/Reports hängen daran; die Stufe steht je Lehrplan in
+  // curricula und kann sich ändern). HINWEIS statt Fehler: Der Bestand
+  // trägt ein Alt-Modul mit Stufe in der ID (bewusst nicht umbenannt).
+  if (/(^|-)(stufe|klasse|zyklus)\d+(-|$)|(^|-)sek[12](-|$)/.test(mod.id)) {
+    hints.push(
+      `Die id "${mod.id}" enthält eine lehrplanabhängige Stufenangabe – für NEUE Module bitte ohne (CONTENT-ERSTELLEN.md, Abschnitt Pflichtfelder).`,
+    );
   }
 
   return { errors, hints };
@@ -833,6 +861,9 @@ function repoPolicyFehler(raw: unknown): string[] {
 }
 
 let failed = 0;
+
+/** requires je Modul – für den Repo-weiten Zyklen-Check am Ende. */
+const requiresJeModul = new Map<string, string[]>();
 
 for (const slug of slugs) {
   const file = path.join(MODULES_DIR, slug, "module.json");
@@ -905,6 +936,8 @@ for (const slug of slugs) {
       `"curricula" braucht mindestens einen Lehrplan-Eintrag (z. B. {"curriculum": "li", "subject": "…", "grades": [9]}).`,
     );
   }
+
+  requiresJeModul.set(slug, parsed.data.requires);
 
   const result = checkModule(slug, raw, parsed.data, slugs);
   errors.push(...result.errors);
@@ -985,6 +1018,39 @@ for (const kennung of Object.keys(kompetenzRegister)) {
     console.log(
       `  ℹ Kompetenzen: "${kennung}" hat kein Lehrplan-Mapping (mapping.json) – erscheint im Dashboard unter «ohne Zuordnung».`,
     );
+  }
+}
+
+// Repo-weiter requires-Zyklen-Check (15.9.2026): Ein Kreis aus
+// Voraussetzungen («A braucht B braucht A») wäre ein Lernpfad ohne
+// Einstieg – Fehler, nicht Warnung. Selbstbezüge meldet checkModule
+// bereits je Modul; hier geht es um Kreise über mehrere Module
+// (Tiefensuche mit Drei-Farben-Markierung, deterministische Ausgabe).
+{
+  const farbe = new Map<string, 1 | 2>();
+  const zyklen: string[][] = [];
+  const besuche = (slug: string, pfad: string[]): void => {
+    farbe.set(slug, 1);
+    for (const ziel of requiresJeModul.get(slug) ?? []) {
+      // Selbstbezug meldet checkModule bereits je Modul – hier nicht
+      // doppelt als «Zyklus» ausgeben.
+      if (ziel === slug) continue;
+      if (farbe.get(ziel) === 1) {
+        zyklen.push([...pfad.slice(pfad.indexOf(ziel)), ziel]);
+      } else if (!farbe.has(ziel) && requiresJeModul.has(ziel)) {
+        besuche(ziel, [...pfad, ziel]);
+      }
+    }
+    farbe.set(slug, 2);
+  };
+  for (const slug of [...requiresJeModul.keys()].sort()) {
+    if (!farbe.has(slug)) besuche(slug, [slug]);
+  }
+  for (const zyklus of zyklen) {
+    console.error(
+      `✗ requires-Zyklus: ${zyklus.join(" → ")} – Voraussetzungen dürfen keinen Kreis bilden.`,
+    );
+    failed++;
   }
 }
 

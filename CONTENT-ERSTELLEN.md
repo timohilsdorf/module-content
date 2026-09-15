@@ -51,6 +51,11 @@ Vorschläge machen und prüfst sie dort nach).
 >   Bindestriche), "title", "description" (1–3 Sätze), "curricula"
 >   (Lehrplan-Zuordnungen, siehe unten), "learningObjectives" (Liste
 >   von «Ich kann …»-Sätzen), "blocks" (Liste der Inhaltsblöcke).
+> - Die "id" ist ein DAUERHAFTER technischer Schlüssel (Lernstände und
+>   Reports hängen daran, eine spätere Umbenennung ist praktisch nicht
+>   möglich): KEINE lehrplanabhängigen Angaben wie Stufe, Klasse oder
+>   Zyklus hineinschreiben ("englisch-01-…", nie "englisch-stufe7-01-…")
+>   – die Stufe steht je Lehrplan in "curricula" und kann sich ändern.
 > - Die "description" beschreibt NUR den Inhalt («Worum geht es?») –
 >   KEINE Modulnummern, Schulwochen, Schulstufen oder Zug-Angaben
 >   (die liegen strukturiert in den Metadaten und können je Lehrplan
@@ -89,7 +94,7 @@ Vorschläge machen und prüfst sie dort nach).
 >      ein eigenes Video im Modulordner geht mit
 >      {"type":"video","provider":"url","url":"/content/<id>/film.mp4"})
 >   3. {"type":"image","src":"/content/<id>/bild.jpg","alt":"Pflicht:
->      Bildbeschreibung","caption":"…","credit":"Quelle & Lizenz"}
+>      Bildbeschreibung","caption":"…","credit":"Pflicht: Quelle & Lizenz"}
 >   4. {"type":"tasks","title":"Aufgaben","tasks":[{"prompt":"…",
 >      "hint":"…","solution":"…"}]}
 >   5. {"type":"lueckentext","id":"lt1","modus":"wortbank","title":"…",
@@ -428,4 +433,4 @@ Pfad liefert die Plattform die Bilder aus)*.
 | «Simulation: … nicht erreichbar» oder «verweist auf unbekannten Knoten» | Jede `weiter`-Angabe muss auf eine existierende Knoten-`id` zeigen, und jeder Knoten muss vom `start` aus erreichbar sein — Fehlermeldung der KI geben: «Korrigiere die Verzweigungen». |
 | Blocktyp `planspiel` wird abgelehnt | Dieser Typ steht nur dem EveryCate-Kernteam offen (eingebetteter Code braucht eine Sicherheitsprüfung). Nutze Lückentext, Quiz oder Simulation. |
 | Umlaute sehen kaputt aus | Datei muss UTF-8 sein — beim Kopieren aus dem Chat normalerweise automatisch der Fall. |
-| «ß» im Text | Schweizer Schreibweise: durch «ss» ersetzen (lassen). |
+| «ß» im Text | Kein Fehler: ß STEHEN LASSEN. Module werden in deutscher Rechtschreibung mit ß verfasst; die Plattform zeigt bei Schweizer/Liechtensteiner Lehrplan automatisch ss an (Abschnitt «Orthografie»). |

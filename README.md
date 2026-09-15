@@ -77,13 +77,17 @@ unter diesem Pfad liefert die Plattform sie später aus.
 Pull Request als fehlgeschlagen:
 
 - gültiges JSON, Schema-konform, nur bekannte Feldnamen (Tippfehler-Schutz)
-- nur erlaubte Blocktypen (`text`, `image`, `video`, `tasks` plus
-  freigegebene Zukunftstypen aus [`schema/whitelist.json`](schema/whitelist.json))
+- nur erlaubte Blocktypen (aktuell dreizehn: `text`, `image`, `video`,
+  `audio`, `quiz`, `lueckentext`, `zuordnung`, `numerisch`, `achse`,
+  `term`, `tasks`, `simulation`, `planspiel` – Letzterer nur fürs
+  Kernteam – plus freigegebene Zukunftstypen aus
+  [`schema/whitelist.json`](schema/whitelist.json))
 - Videos nur von erlaubten Providern (aktuell YouTube, Vimeo)
 - kein Roh-HTML in Textfeldern (Inhalte sind Markdown; der Player rendert
   HTML nicht)
 - Bilder liegen im Modulordner (erlaubte Endungen), Remote-Bilder nur von
-  freigegebenen Hosts
+  freigegebenen Hosts; jeder Bild-Block trägt einen Bildnachweis
+  (`credit` mit Quelle und Lizenz – Pflicht)
 - eindeutige IDs, Pflicht-IDs für Quizfragen, saubere Modulordner
 
 ## Übersetzungen

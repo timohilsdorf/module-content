@@ -34,6 +34,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # TypeScript-Typecheck über Validator/Übersetzungs-Werkzeug –
+      # fängt kaputte Änderungen an schema/ und uebersetzung/, BEVOR
+      # der Validator sie zur Laufzeit trifft. Der Byteidentitäts-
+      # Abgleich der Schema-KOPIEN läuft dagegen bewusst NICHT hier,
+      # sondern in der CI des (privaten) Plattform-Repos everycate
+      # («Schema-Drift prüfen» in dessen validate.yml) – dieses Repo
+      # hält keinen Zugriffs-Token auf die private Kopie.
+      - name: Typecheck
+        run: npx tsc --noEmit
       - name: Module validieren
         env:
           # PR-Basis für die Änderungslisten-Regel der Sprachfassungen

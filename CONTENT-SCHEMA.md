@@ -63,9 +63,12 @@ Regeln:
   Verweise), Eindeutigkeit von IDs, Pflicht-`id` bei Quizfragen und
   saubere Modulordner (nur `module.json`, Bilder, Videos, Hördateien und
   referenzierte Planspiel-Dateien, keine Symlinks).
-  `requires`-Verweise auf (noch) nicht existierende
-  Module ergeben nur einen Hinweis, keinen Fehler – Slug trotzdem auf
-  Tippfehler prüfen.
+  `requires`-Verweise müssen auf existierende Module zeigen (fehlende
+  Ziele, Selbstbezüge und Zyklen über mehrere Module sind seit
+  September 2026 FEHLER – ein kaputter Lernpfad soll den Pull Request
+  rot machen); ein neues Ziel-Modul im selben Pull Request mitliefern
+  zählt als existierend. Zudem trägt jeder Bild-Block einen
+  Bildnachweis (`credit` mit Quelle und Lizenz – Pflicht).
 
 ## Aufbau eines Moduls
 
@@ -157,7 +160,7 @@ wie «$5»). Beispiel: `Berechne $$\tfrac{3}{4} + \tfrac{1}{8}$$.`
   "src": "/content/mein-modul/karte.jpg",
   "alt": "Pflicht: Beschreibung für Screenreader",
   "caption": "Optionale Bildunterschrift",
-  "credit": "Optional: Quelle/Lizenz, z. B. «Foto: NASA, Public Domain»"
+  "credit": "PFLICHT: Quelle und Lizenz, z. B. «Foto: NASA, Public Domain»"
 }
 ```
 
