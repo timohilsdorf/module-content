@@ -1,0 +1,528 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-11-versicherungen --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:623b21a547ee7d82975ecafe018946b75e15ba467dcc5b7f967d81983b8f8ef8",
+  "masterCommit": "a2035e3",
+  "hintsHash": null,
+  "generatedAt": "2026-09-15",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:wp11-response.json",
+  "selfHash": "sha256:57e5e07cf734dfb3ef33ad0a0767e42c330a142549847508cfbb5a57a5958c2d"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-11-versicherungen",
+ "title": "Insurance: useful or unnecessary?",
+ "description": "Mobile phone insurance: yes or no? Here you will learn the basic principle behind every insurance policy – the group bears the individual's risk – and apply two rules of thumb that help you distinguish useful from unnecessary offers. Finally, you will sort ten insurance products into five categories ranging from ‘compulsory’ to ‘examine critically’.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.5.2",
+     "description": "Die Schülerinnen und Schüler können soziale, rechtliche und ökonomische Aspekte im Alltag und im Zusammenleben recherchieren."
+    },
+    {
+     "code": "WAH.3.3",
+     "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    }
+   ]
+  }
+ ],
+ "sequenz": 11,
+ "einheit": "Topic C: Money, banks and financial literacy",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "Insurance",
+  "Premium",
+  "Risk",
+  "Risk pool",
+  "Excess",
+  "Personal liability insurance",
+  "Health insurance",
+  "Accident insurance",
+  "Motor vehicle liability insurance",
+  "Life insurance",
+  "Rules of thumb"
+ ],
+ "learningObjectives": [
+  "I can explain the basic principle of insurance: the group bears the individual's risk, and the premium is the price paid for this.",
+  "I can apply the two rules of thumb: insure against risks that threaten your financial security and cover small losses yourself – and do not mix insurance with saving.",
+  "I can classify insurance into the categories compulsory, highly advisable, depends on the situation, usually unnecessary and examine critically."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Liechtensteinische Gesetzessammlung (KVG, UVersG, SVG)",
+   "url": "https://www.gesetze.li"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-10-geld-funktionen-geschichte"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "The ball, the window – and the big question",
+   "body": "While playing football in your neighbourhood, your ball lands in your neighbour's conservatory – broken window, damage: a few hundred francs. Annoying, but manageable. Now imagine that you hit a pedestrian while cycling, she has a bad fall and cannot work for months. Suddenly, you face **hundreds of thousands of francs** in compensation – money that neither you nor your family simply has.\n\nThis is exactly why **insurance** exists. Its basic principle is remarkably simple: **Lots of people regularly pay a contribution into a shared fund – and the few who suffer a loss receive compensation from it.** In other words, the **group** bears the individual's risk.\n\nHere is an example calculation: in one town, 1000 people each own a bicycle worth CHF 800. Experience shows that about 10 bicycles are stolen each year – a total loss of CHF 8000. If all 1000 people share this loss, each person pays CHF 8 per year. The insurer's costs and profit must be added, so the **premium** might be CHF 12. This is the **price you pay to transfer your risk**: you pay a small, predictable amount rather than a large amount that could threaten your financial security on the rare occasion that something happens.\n\nThis also shows you that insurance is **not a savings account**. Normally, over the years you pay in more than you receive – in return, you are protected if something happens to you. Whether this is worthwhile depends on the risk. There are two rules of thumb to help you decide."
+  },
+  {
+   "type": "text",
+   "title": "Two rules of thumb for navigating the insurance jungle",
+   "body": "**Rule of thumb 1: Insure against risks that threaten your financial security – cover small losses yourself.**\n\nA broken mobile phone screen will not ruin you: it is a **small, manageable loss**. By contrast, a liability claim worth millions could burden you and your family for the rest of your lives – a **risk that threatens your financial security**. Because every premium also includes the insurer's administrative costs and profit, the rule is: anyone who insures every little thing will lose money in the long run. Anyone who does not insure against the big risk is risking everything. So insure what you **cannot afford to cover yourself**.\n\n**Rule of thumb 2: Do not mix insurance with saving.**\n\nSome products – a typical example is **endowment life insurance** – combine insurance cover and a savings plan in one contract. That sounds convenient, but is usually **expensive and inflexible**: the costs are difficult to understand, and anyone who withdraws early often loses money. The rule of thumb keeps the two clearly separate: buy protection with pure insurance and save separately – that way you remain flexible and can see exactly what each one costs you.\n\nHere is another term you will encounter everywhere: the **excess** (also called the deductible). This is the share of a loss that you pay yourself before the insurer pays. It has a sensible purpose: people who contribute towards the cost remain careful and do not report every minor loss – this keeps premiums low for everyone."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "29KmBbo4_0M",
+   "title": "Video: How does insurance work?",
+   "description": "This educational video (4:48) by the Swiss education provider Eduty explains the basic principle of insurance. As you watch, focus on two key questions: (1) How does the video describe the shared fund – who pays into it, and who receives money from it? (2) What does ‘moral hazard’ mean – and how does an excess help to address this problem?",
+   "transcript": "Eduty's educational video (4:48 minutes) introduces the topic of insurance. It presents three types of insurance and explains how insurance basically works: many policyholders regularly pay a premium into a shared fund, which the insurer uses to cover an individual's loss – the group bears the individual's risk. The video then discusses the problem of ‘moral hazard’: people who are insured might behave more recklessly because they no longer bear the loss themselves. As a countermeasure, it explains the excess (deductible), under which policyholders cover part of the loss themselves – this encourages them to remain careful and keeps premiums lower."
+  },
+  {
+   "type": "text",
+   "title": "Five categories: from ‘compulsory’ to ‘examine critically’",
+   "body": "Using the two rules of thumb, you can place almost any insurance offer into one of **five categories**:\n\n1. **Compulsory** – you have no choice here because the law or your employment contract requires it: **health insurance** (basic insurance – compulsory for everyone who lives or works in Liechtenstein), **accident insurance through your employer** (you are automatically insured from the first day of your employment – important when you start your apprenticeship!) and **motor vehicle liability insurance** (no car or moped may be driven on the road without it). One special feature in Liechtenstein is that **sickness allowance insurance** is also compulsory for employees aged 15 and over – it replaces part of their wages during a longer illness.\n2. **Highly advisable** – **personal liability insurance**: for around a hundred francs a year, it covers losses that you cause to other people – and these can run into the millions. Rule of thumb 1 in its purest form: a small premium protects you against a risk that could threaten your financial security.\n3. **Depends on the situation** – useful depending on your circumstances: **household contents insurance** (worthwhile when you have your own home), **comprehensive car insurance** (for a new, expensive car – hardly worthwhile for an old second-hand one), **travel insurance** (perhaps for an expensive long-haul trip, but not for a weekend in Ticino).\n4. **Usually unnecessary** – **mobile phone and device insurance, extended warranties**: the potential loss is small and manageable, while the premium is high in comparison – policies (the name for insurance contracts) like these are very good business for providers, but rarely for you.\n5. **Examine critically** – **endowment life insurance**: it breaks rule of thumb 2 because it mixes insurance and saving. Always seek independent advice and compare alternatives before taking out a policy.\n\nImportant: categories 3 to 5 do not mean ‘always wrong’ – they mean: **think first, then sign**. You are about to practise precisely this classification."
+  },
+  {
+   "type": "image",
+   "title": "The tiered model of insurance categories",
+   "src": "/content/wirtschaft-politik-11-versicherungen/versicherungs-kategorien.png",
+   "alt": "Tiered model with five coloured bands arranged one below the other. Tier 1, dark blue, Compulsory – required, you have no choice: health insurance, accident insurance through your employer (from the start of employment), motor vehicle liability insurance; the law or apprenticeship contract requires them. Tier 2, green, Highly advisable – a small premium covers enormous losses: personal liability insurance; for around CHF 100 a year, you are covered if you damage someone else's property or injure someone – losses can run into the millions, rule of thumb 1 in its purest form. Tier 3, medium blue, Depends on the situation – consider according to your circumstances: household contents insurance, comprehensive car insurance, travel insurance; having your own home, a new expensive car or a major trip determines the choice. Tier 4, orange, Usually unnecessary – small loss, high margin: mobile phone and device insurance, extended warranties; a broken screen is annoying but manageable. Tier 5, white with an orange dashed border, Examine critically – mixes insurance and saving: endowment life insurance, breaks rule of thumb 2, seek advice before taking it out. Below are two key facts boxes: rule of thumb 1 – insure against risks that threaten your financial security, cover small losses yourself; rule of thumb 2 – do not mix insurance with saving.",
+   "caption": "Five categories in a tiered model: compulsory insurance at the top and, at the bottom, offers you should examine closely – the two rules of thumb are the benchmark.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Understanding insurance",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungsprinzip-erklaeren",
+    "wp.vorsorge.versicherungen-einordnen"
+   ],
+   "intro": "Show that you understand the principle of insurance and the rules of thumb. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What does the statement ‘The group bears the individual's risk’ mean?",
+     "options": [
+      {
+       "text": "The government pays for all losses – the insurer only manages the money."
+      },
+      {
+       "text": "Many people pay a premium into a shared fund, and the few who suffer a loss receive compensation from it.",
+       "correct": true
+      },
+      {
+       "text": "At the end of the year, all policyholders receive the same amount of money back from the fund."
+      },
+      {
+       "text": "The insurer ensures that losses never happen in the first place."
+      }
+     ],
+     "explanation": "This is at the heart of every insurance policy: lots of small, predictable contributions (premiums) cover the rare, large losses suffered by individuals. The government plays no part in this – insurers are usually private companies. Nor is any money repaid: anyone who does not suffer a loss has paid in ‘for nothing’ – but was protected the entire time. And an insurer cannot prevent losses; it only covers their financial consequences."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What is the premium?",
+     "options": [
+      {
+       "text": "The reward you receive from the insurer if you do not cause a loss."
+      },
+      {
+       "text": "The amount the insurer pays you if a loss occurs."
+      },
+      {
+       "text": "A one-off joining fee charged when you take out the contract."
+      },
+      {
+       "text": "The regular amount you pay for the insurer to take on your risk.",
+       "correct": true
+      }
+     ],
+     "explanation": "The premium is the price of security: you pay it regularly – whether something happens or not. It is not a reward at all. What the insurer pays when a loss occurs is called an insurance benefit. And a one-off fee is not enough – the premium is due month after month or year after year, which is why it is worth comparing offers."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Which of these risks should you definitely insure against according to rule of thumb 1?",
+     "options": [
+      {
+       "text": "While cycling, you accidentally injure someone so severely that you could face compensation worth millions.",
+       "correct": true
+      },
+      {
+       "text": "Your headphones might stop working after two years."
+      },
+      {
+       "text": "Your mobile phone screen might break if you drop it."
+      },
+      {
+       "text": "You might leave your umbrella on the bus."
+      }
+     ],
+     "explanation": "Rule of thumb 1 asks: could the loss knock you off course financially? A liability claim worth millions – yes, definitely insure against it (personal liability insurance provides this cover for a small premium). Headphones, a screen and an umbrella, by contrast, are small, manageable losses: annoying, but affordable – you are better off bearing such risks yourself instead of paying premiums with a high administrative component year after year."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Why are mobile phone insurance and extended warranties considered ‘usually unnecessary’?",
+     "options": [
+      {
+       "text": "Because modern mobile phones almost never break."
+      },
+      {
+       "text": "Because health insurance always covers damage to devices."
+      },
+      {
+       "text": "Because the potential loss is small and manageable, but the premiums are high in comparison – making them very good business for providers.",
+       "correct": true
+      },
+      {
+       "text": "Because the law prohibits this kind of insurance."
+      }
+     ],
+     "explanation": "Under rule of thumb 1, a broken device is a small, manageable loss – and premiums for such policies are expensive in relation to precisely this kind of loss, with high margins for providers. Unfortunately, it is not true that mobile phones never break – but the loss will not ruin you. Health insurance covers your health, not your screen. And these offers are not prohibited – they are simply rarely worthwhile for you."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "You start your apprenticeship in August. How are you insured against accidents?",
+     "options": [
+      {
+       "text": "You are not – accident cover is only available from the age of 18."
+      },
+      {
+       "text": "Only if your parents take out private accident insurance for you."
+      },
+      {
+       "text": "Only during your working hours at the company – you are never insured in your free time."
+      },
+      {
+       "text": "Through your employer: you have compulsory accident insurance from the day you start work.",
+       "correct": true
+      }
+     ],
+     "explanation": "From your first day at work, you are automatically covered by accident insurance through the company providing your apprenticeship – this is required by law, you do not need to be 18, and your parents do not have to take out any extra insurance. When working full-time, as you do during an apprenticeship, accidents during your free time are also covered (non-occupational accidents) – the premium is deducted from your wages. You will see this deduction again on the payslip in module 14."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Why does endowment life insurance belong in the ‘examine critically’ category?",
+     "options": [
+      {
+       "text": "Because it is prohibited in Liechtenstein."
+      },
+      {
+       "text": "Because it combines insurance and saving in one contract – this is usually expensive and inflexible and breaks rule of thumb 2.",
+       "correct": true
+      },
+      {
+       "text": "Because it insures several people at once, which often leads to disputes."
+      },
+      {
+       "text": "Because it only covers losses that occur abroad."
+      }
+     ],
+     "explanation": "Here, ‘endowment’ means that insurance cover and a savings plan are included in the same contract. This is exactly what rule of thumb 2 warns against – the costs are difficult to understand, and anyone who withdraws early often loses money. The product is not prohibited, and the name has nothing to do with several people or other countries. So do not reject it across the board, but seek independent advice before signing."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Why do many insurers require an excess?",
+     "options": [
+      {
+       "text": "So that the insurer does not have to pay anything when a loss occurs."
+      },
+      {
+       "text": "Because the law prohibits full compensation for a loss."
+      },
+      {
+       "text": "So that policyholders remain careful and do not report every minor loss – this keeps premiums low for everyone.",
+       "correct": true
+      },
+      {
+       "text": "So that only wealthy people can afford insurance."
+      }
+     ],
+     "explanation": "The excess helps to counter the ‘moral hazard’ problem from the video: people who bear part of the loss themselves continue to act carefully and do not report tiny losses – this saves administrative costs and keeps premiums low for the whole group. The insurer still pays the large remaining amount. There is no law against full compensation, and an excess is not intended to exclude anyone – on the contrary, it makes insurance more affordable for everyone."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "For whom is basic health insurance compulsory in Liechtenstein?",
+     "options": [
+      {
+       "text": "Everyone who lives or works in Liechtenstein.",
+       "correct": true
+      },
+      {
+       "text": "Only adults aged 18 and over."
+      },
+      {
+       "text": "Only people with dangerous hobbies."
+      },
+      {
+       "text": "Nobody – people who live healthily do not need health insurance."
+      }
+     ],
+     "explanation": "Basic healthcare insurance is required by law in Liechtenstein – for everyone, from babies to pensioners, regardless of how healthily or riskily they live. This is exactly what makes the group strong: because everyone participates, including healthy people, treatment remains affordable for those who are ill. If only people who were ill paid in, premiums would soar – which is why the law deliberately leaves no choice here."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-versicherungsprinzip",
+   "title": "Insert the terms: The principle of insurance",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungsprinzip-erklaeren"
+   ],
+   "intro": "Drag the appropriate terms into the gaps (on a mobile: tap the word first, then the gap). **Caution:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Insurance is based on a simple principle: lots of people regularly pay a {{1}} into a shared fund. If a member suffers a {{2}}, it is paid from the fund – the {{3}} therefore bears the individual's risk.\nRule of thumb 1 says: insure against risks that {{4}} your financial security – you are better off covering small losses {{5}}. A prime example is {{6}}: for a small premium, it covers losses that can run into the {{7}}. Mobile phone and device insurance, by contrast, is usually {{8}}, because a broken screen is annoying but manageable.\nRule of thumb 2 warns: do not mix {{9}} with saving – {{10}} life insurance breaks this very rule.",
+   "luecken": [
+    {
+     "antworten": [
+      "premium",
+      "insurance premium"
+     ]
+    },
+    {
+     "antworten": [
+      "loss",
+      "claim"
+     ]
+    },
+    {
+     "antworten": [
+      "group",
+      "risk pool",
+      "collective"
+     ]
+    },
+    {
+     "antworten": [
+      "threaten",
+      "could threaten"
+     ]
+    },
+    {
+     "antworten": [
+      "yourself",
+      "on your own"
+     ]
+    },
+    {
+     "antworten": [
+      "personal liability insurance",
+      "private liability insurance"
+     ]
+    },
+    {
+     "antworten": [
+      "millions"
+     ]
+    },
+    {
+     "antworten": [
+      "unnecessary",
+      "not necessary"
+     ]
+    },
+    {
+     "antworten": [
+      "insurance",
+      "insuring"
+     ]
+    },
+    {
+     "antworten": [
+      "endowment",
+      "combined"
+     ]
+    }
+   ],
+   "ablenker": [
+    "dividend",
+    "taxes",
+    "compulsory"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-versicherungen-alltag",
+   "title": "Type in the terms: Insured in everyday life",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungsprinzip-erklaeren",
+    "wp.vorsorge.versicherungen-einordnen"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "From the first day of your apprenticeship, you have compulsory accident insurance through your {{1}}. Basic {{2}} is compulsory in Liechtenstein for everyone who lives or works here. Anyone who registers a car or moped must have motor vehicle {{3}}. The regular price you pay for insurance cover is called the {{4}}. And if you cover part of a loss yourself, this share is called the {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "employer",
+      "apprenticeship employer",
+      "company",
+      "training company"
+     ]
+    },
+    {
+     "antworten": [
+      "health insurance",
+      "healthcare insurance",
+      "medical insurance"
+     ]
+    },
+    {
+     "antworten": [
+      "liability insurance",
+      "liability cover"
+     ]
+    },
+    {
+     "antworten": [
+      "premium",
+      "insurance premium"
+     ]
+    },
+    {
+     "antworten": [
+      "excess",
+      "deductible"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-versicherungen",
+   "title": "Match them: Ten products, five categories",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungen-einordnen"
+   ],
+   "intro": "Assign each insurance product to the appropriate category: **compulsory**, **highly advisable**, **depends on the situation**, **usually unnecessary** or **examine critically**. Some categories occur more than once. For each product, consider: what do the two rules of thumb say?",
+   "modus": "wortbank",
+   "text": "Basic health insurance. {{1}}\nAccident insurance through the company providing the apprenticeship. {{2}}\nMotor vehicle liability insurance for a moped. {{3}}\nPersonal liability insurance. {{4}}\nHousehold contents insurance for your first home of your own. {{5}}\nComprehensive insurance for a brand-new car. {{6}}\nTravel insurance for a booked long-haul trip. {{7}}\nScreen insurance for a new mobile phone. {{8}}\nAn extended warranty for a games console. {{9}}\nEndowment life insurance (protection and a savings plan in one). {{10}}",
+   "luecken": [
+    {
+     "antworten": [
+      "compulsory",
+      "mandatory",
+      "obligatory"
+     ]
+    },
+    {
+     "antworten": [
+      "compulsory",
+      "mandatory",
+      "obligatory"
+     ]
+    },
+    {
+     "antworten": [
+      "compulsory",
+      "mandatory",
+      "obligatory"
+     ]
+    },
+    {
+     "antworten": [
+      "highly advisable",
+      "very advisable",
+      "strongly recommended"
+     ]
+    },
+    {
+     "antworten": [
+      "depends on the situation",
+      "situational",
+      "situation-dependent"
+     ]
+    },
+    {
+     "antworten": [
+      "depends on the situation",
+      "situational",
+      "situation-dependent"
+     ]
+    },
+    {
+     "antworten": [
+      "depends on the situation",
+      "situational",
+      "situation-dependent"
+     ]
+    },
+    {
+     "antworten": [
+      "usually unnecessary",
+      "mostly unnecessary",
+      "generally unnecessary"
+     ]
+    },
+    {
+     "antworten": [
+      "usually unnecessary",
+      "mostly unnecessary",
+      "generally unnecessary"
+     ]
+    },
+    {
+     "antworten": [
+      "examine critically",
+      "review critically",
+      "scrutinise",
+      "scrutinize"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: The insurance check",
+   "teilkompetenzen": [
+    "wp.vorsorge.versicherungen-einordnen",
+    "wp.vorsorge.versicherungsprinzip-erklaeren"
+   ],
+   "tasks": [
+    {
+     "prompt": "Your friend has bought a mobile phone for CHF 900. The sales assistant offers her device insurance: CHF 8 per month, with a CHF 100 excess for any claim. Advise your friend: calculate what the insurance costs over the typical period of use of two to three years, and apply rule of thumb 1.",
+     "hint": "First add up the premiums: CHF 8 × 24 months and × 36 months. Compare this with the cost of a typical repair (replacing a screen often costs CHF 200 to 350) – and do not forget the excess. Then ask the key question from rule of thumb 1: would the loss threaten her financial security?",
+     "solution": "Over two years, the insurance costs CHF 192; over three years, CHF 288 – plus a CHF 100 excess if a claim is made. So if the screen breaks (a repair costs around CHF 200 to 350), your friend will hardly have saved anything by having insurance – and if the phone remains undamaged, the premiums are gone. Rule of thumb 1 is clear: damage to a mobile phone is annoying but manageable – it is not a risk that threatens her financial security. It would be better to set aside the CHF 8 herself each month; then the money remains hers, whatever happens. (Personal liability insurance is completely different – there, a small premium protects against losses worth millions.)"
+    },
+    {
+     "prompt": "Carry out the insurance check at home: ask your parents or another adult which insurance policies they have. Choose three and assign them to the five categories from this module. Is there an insurance policy that you would discuss together?",
+     "hint": "Typical candidates: health insurance, personal liability insurance, household contents insurance, car insurance (liability? partial cover? comprehensive cover?), travel insurance, legal expenses insurance and life insurance. Also ask: why was this insurance taken out – and when was it last reviewed?",
+     "solution": "There is no model solution – check your classification using the rules of thumb: compulsory insurance (health insurance, motor vehicle liability insurance) is fixed. Personal liability insurance belongs under ‘highly advisable’. Household contents, comprehensive car and travel insurance depend on the situation (the value of the household contents, the age of the car, the type of trip). Device insurance and extended warranties are usually unnecessary, while combined savings and insurance products need to be examined critically. Policies taken out years ago and never reviewed often make for an interesting discussion – circumstances change, and insurance should change with them."
+    },
+    {
+     "prompt": "Explain the principle of insurance to someone you know using the bicycle example from the module (1000 bicycles, 10 thefts per year) – and then answer their follow-up question: ‘And why is the premium higher than the CHF 8 that the calculation says would be needed?’",
+     "hint": "Build your explanation in three steps: the shared fund, who receives money from it, and why it is worthwhile for everyone. For the follow-up question: what else does an insurer have to pay for besides the losses – and what is its purpose as a business?",
+     "solution": "The core of the explanation: 1000 people each pay a small contribution into a fund; the 10 whose bicycles are stolen have their loss reimbursed – nobody risks bearing the total loss alone. In answer to the follow-up question: in addition to the losses themselves, the insurer must pay its administrative costs (staff, assessing claims, advertising) and aims to make a profit – that is why the premium is higher than the calculated share of the loss of CHF 8. This is precisely why insurance is most worthwhile where the potential loss is unaffordably large – and less worthwhile for small risks, where the additional charge represents a large proportion of the loss."
+    }
+   ]
+  }
+ ]
+}
