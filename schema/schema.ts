@@ -1,14 +1,18 @@
 import { z } from "zod";
 
 /**
- * EveryCate Content-Schema (Version 2) – maschinenlesbare Referenz.
+ * EveryCate Content-Schema (Version 3) – maschinenlesbare Referenz.
  *
  * ⚠️ SYNCHRON HALTEN: Diese Datei ist eine Kopie von
  * `src/lib/content/schema.ts` aus dem Plattform-Repository (everycate).
  * Format-Änderungen müssen in BEIDEN Dateien landen – zuerst in der
  * Plattform (dort erzwingt der Build das Schema), dann hier. Ab dem
- * SYNC-BEGINN-Marker müssen beide Dateien byteidentisch sein; die CI
- * schlägt sonst fehl.
+ * SYNC-BEGINN-Marker müssen beide Dateien byteidentisch sein. Geprüft
+ * wird das in der CI des PLATTFORM-Repos («Schema-Drift prüfen» in
+ * dessen validate.yml vergleicht seine Kopie bei jedem Push/PR gegen
+ * den main-Stand DIESES Repos); die CI hier kann das nicht – das
+ * Plattform-Repo ist privat und dieses Repo hält bewusst keinen
+ * Zugriffs-Token darauf.
  *
  * Erweiterbarkeit: Unbekannte Blocktypen (z. B. künftige "chat"-Blöcke)
  * sind gültig, werden aber im Player mit einem Platzhalter gerendert. So
