@@ -70,6 +70,14 @@ Fehler in einer Fassung werden **nie im JSON** korrigiert, sondern:
 - **Strukturgleichheit:** gleiche Blöcke/ids/Anzahlen wie der Master,
   byteidentische invariante Felder (u. a. `curricula[].subject`, credits,
   Medien-Pfade, Antworten von numerisch/term), gleiche Punktzahl je Block.
+  Bei `diagramm`-Blöcken zusätzlich: Die Mermaid-Definition muss nach
+  Entfernen der Beschriftungen byteidentisch zum Master sein – übersetzt
+  werden NUR die Beschriftungen (Einzelsegmente, bei flowchart/graph/
+  mindmap aus den Anführungszeichen, bei timeline zeilenbasiert), die
+  Syntax nie. Bei `video`-Blöcken mit `transkriptSegmente` werden nur die
+  Segment-TEXTE übersetzt; die Startzeiten bleiben byteidentisch.
+  Übersetzungen mit Anführungszeichen (bzw. Doppelpunkt in timeline)
+  weist das Werkzeug laut zurück – per Korrekturhinweis umformulieren.
 - **Übersetzte Texte:** kein Roh-HTML, keine neuen Markdown-Bild-URLs.
 - **Veraltung:** Weicht `masterHash`/`hintsHash` vom aktuellen Stand ab,
   ist die Fassung VERALTET – das ist auf `main` erlaubt (Arbeitsvorrat,

@@ -10,7 +10,8 @@
   "scripts": {
     "validate": "tsx schema/validate.ts",
     "uebersetze": "tsx uebersetzung/uebersetze.ts",
-    "uebersetzungs-status": "tsx uebersetzung/status.ts"
+    "uebersetzungs-status": "tsx uebersetzung/status.ts",
+    "test:uebersetzung": "tsx uebersetzung/test-diagramm.ts"
   },
   "dependencies": {
     "zod": "^4.4.3"

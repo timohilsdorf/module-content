@@ -92,7 +92,13 @@ Vorschläge machen und prüfst sie dort nach).
 >      "transcript":"kurze Textzusammenfassung des Videos"}
 >      (nur YouTube oder Vimeo – fremde Videoquellen werden abgelehnt;
 >      ein eigenes Video im Modulordner geht mit
->      {"type":"video","provider":"url","url":"/content/<id>/film.mp4"})
+>      {"type":"video","provider":"url","url":"/content/<id>/film.mp4"}).
+>      Optional zusätzlich "transkriptSegmente": zeitgestempelte
+>      Untertitel [{"start":0,"text":"Erster gesprochener Satz."},
+>      {"start":3.5,"text":"Nächster Satz."}] – "start" in Sekunden,
+>      streng aufsteigend; der Player blendet den Text der aktuellen
+>      Abspielposition unter dem Video ein und Sprachfassungen
+>      übersetzen ihn automatisch. Nicht bei provider "vimeo".
 >   3. {"type":"image","src":"/content/<id>/bild.jpg","alt":"Pflicht:
 >      Bildbeschreibung","caption":"…","credit":"Pflicht: Quelle & Lizenz"}
 >   4. {"type":"tasks","title":"Aufgaben","tasks":[{"prompt":"…",
@@ -217,6 +223,26 @@ Vorschläge machen und prüfst sie dort nach).
 >      Start aus erreichbar sein. Optional macht eine "abschlussfrage"
 >      (eine einzelne Quizfrage mit eigener id, gleiche Form wie im
 >      Quiz) den Block zu einem automatisch ausgewerteten Block.
+>   13. {"type":"diagramm","id":"schema1","title":"…",
+>      "definition":"flowchart TD\n  A[\"Erster Schritt\"] -->
+>      B[\"Zweiter Schritt\"]",
+>      "beschreibung":"Pflicht: Was sagt das Schaubild aus? (Text für
+>      Screenreader und Vorlesen, Ersatz bei Renderfehlern)"}
+>      – Schaubild als Mermaid-DATEN statt Bild. WICHTIG: Schaubilder,
+>      deren Inhalt aus Text und Struktur besteht (Kreisläufe,
+>      Ablaufdiagramme, Zeitleisten, Mindmaps, Pro/Contra-Übersichten),
+>      IMMER als diagramm-Block statt als gerendertes Bild – nur so
+>      skaliert der Text scharf und wird in Sprachfassungen übersetzt.
+>      Erlaubte Typen (erste Zeile): flowchart, graph, timeline,
+>      mindmap. Beschriftungen bei flowchart/graph/mindmap IMMER in
+>      doppelten Anführungszeichen (A["Text"], -->|"Kante"|,
+>      wurzel(("…")); mindmap-Knoten brauchen immer eine Form wie
+>      a["…"]); bei timeline KEINE Anführungszeichen und kein
+>      Doppelpunkt im Text (Trennzeichen). Jeder flowchart-Knoten
+>      braucht einmal eine Beschriftung, danach reicht die id
+>      (A --> B). Kein HTML/<br/>, keine click/style-Anweisungen –
+>      lehnt die Validierung ab. Fotos und Illustrationen bleiben
+>      image-Blöcke.
 > - Quizze sind normale Blöcke in "blocks": {"type":"quiz","id":"quiz1",
 >   "title":"…","questions":[…]} – beliebig oft und an beliebiger
 >   Position (z. B. ein kurzes Quiz nach jedem Kapitel oder eines am

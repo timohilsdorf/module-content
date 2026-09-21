@@ -30,6 +30,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   FASSUNG_MUSTER,
   MODULES_DIR,
@@ -55,7 +56,15 @@ import {
 } from "./felder";
 import { vergleicheStruktur, vergleichePunkte } from "./struktur";
 import { findHtmlTags, findMarkdownImages } from "./text-pruefung";
-import { parseModulDatei, type LearningModule } from "../schema/schema";
+import {
+  DIAGRAMM_LABEL_MAX_ZEICHEN,
+  diagrammDefinitionFehler,
+  diagrammTyp,
+  ersetzeDiagrammLabels,
+  extrahiereDiagrammLabels,
+  parseModulDatei,
+  type LearningModule,
+} from "../schema/schema";
 import { describeIssues } from "./fehler";
 import { execFileSync } from "node:child_process";
 
@@ -146,7 +155,7 @@ const LIMITS: ReadonlyArray<[RegExp, number]> = [
   [/^einheit$/, 120],
 ];
 
-function extrahiere(masterRaw: unknown): {
+export function extrahiere(masterRaw: unknown): {
   segmente: Segment[];
   pakete: PaketQuelle[];
 } {
@@ -154,6 +163,32 @@ function extrahiere(masterRaw: unknown): {
   besucheStrings(masterRaw, [], (pfad, text) => {
     const norm = normalisierePfad(pfad);
     const klasse = klassifizierePfad(norm); // Vollständigkeits-Netz
+    if (klasse === "diagramm") {
+      // Mermaid-Definition: NUR die Beschriftungen als Einzelsegmente
+      // (extrahiereDiagrammLabels, SYNC-Region – dieselbe Stelle, die
+      // auch Maskierung/Rückschreiben speist). Virtueller Pfad
+      // [...pfad, i]: das Rückschreiben fängt ihn gruppiert ab
+      // (ersetzeDiagrammLabels), setzeWert sieht ihn nie.
+      const labels = extrahiereDiagrammLabels(text);
+      if (typeof labels === "string") {
+        throw new Error(`${pfadSchluessel(pfad)}: ${labels}`);
+      }
+      const typ = diagrammTyp(text);
+      labels.forEach((label, i) => {
+        segmente.push({
+          schluessel: pfadSchluessel([...pfad, i]),
+          pfad: [...pfad, i],
+          text: label.text,
+          kontext:
+            `${norm} (Diagramm-Beschriftung: KEINE Anführungszeichen` +
+            // title/section-Zeilen (ganzzeilig) dürfen ":" enthalten.
+            (typ === "timeline" && !label.ganzzeilig ? ", KEIN Doppelpunkt" : "") +
+            ")",
+          limit: DIAGRAMM_LABEL_MAX_ZEICHEN,
+        });
+      });
+      return;
+    }
     if (klasse !== "uebersetzt") return;
     const limit = LIMITS.find(([m]) => m.test(norm))?.[1];
     segmente.push({
@@ -547,10 +582,53 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
     }
   }
 
-  // Fassung zusammensetzen.
+  // Fassung zusammensetzen. Diagramm-Beschriftungen tragen virtuelle
+  // Pfade [...definitionsPfad, labelIndex] und werden GRUPPIERT über
+  // ersetzeDiagrammLabels zurückgeschrieben (wirft laut bei
+  // Anführungszeichen/Zeilenumbruch bzw. timeline-Doppelpunkt in der
+  // Übersetzung); alle übrigen Segmente setzt setzeWert direkt.
   const inhalt = JSON.parse(masterBytes) as Record<string, unknown>;
+  const istDiagrammLabel = (s: Segment) =>
+    s.pfad.length >= 2 &&
+    typeof s.pfad[s.pfad.length - 1] === "number" &&
+    s.pfad[s.pfad.length - 2] === "definition";
   for (const s of segmente) {
+    if (istDiagrammLabel(s)) continue;
     setzeWert(inhalt, s.pfad, antworten.segmente[s.schluessel]);
+  }
+  const diagrammGruppen = new Map<string, Segment[]>();
+  for (const s of segmente) {
+    if (!istDiagrammLabel(s)) continue;
+    const defSchluessel = pfadSchluessel(s.pfad.slice(0, -1));
+    const gruppe = diagrammGruppen.get(defSchluessel) ?? [];
+    gruppe.push(s);
+    diagrammGruppen.set(defSchluessel, gruppe);
+  }
+  for (const [defSchluessel, gruppe] of diagrammGruppen) {
+    const defPfad = gruppe[0].pfad.slice(0, -1);
+    const original = holeWert(inhalt, defPfad);
+    if (typeof original !== "string") {
+      abbruch(`${defSchluessel}: Definition nicht gefunden.`);
+    }
+    // Extraktions-Reihenfolge = Dokumentfolge; die Gruppe entstand in
+    // derselben Reihenfolge, der Index-Sort ist der Sicherheitsgurt.
+    const texte = gruppe
+      .slice()
+      .sort((a, b) => (a.pfad.at(-1) as number) - (b.pfad.at(-1) as number))
+      .map((s) => antworten.segmente[s.schluessel]);
+    let neuDef: string;
+    try {
+      neuDef = ersetzeDiagrammLabels(original, texte);
+    } catch (e) {
+      abbruch(`${defSchluessel}: ${e instanceof Error ? e.message : String(e)}`);
+    }
+    const defFehler = diagrammDefinitionFehler(neuDef);
+    if (defFehler) {
+      abbruch(
+        `${defSchluessel}: übersetzte Definition ungültig – ${defFehler} (Korrekturhinweis setzen und neu erzeugen).`,
+      );
+    }
+    setzeWert(inhalt, defPfad, neuDef);
   }
   for (const p of pakete) {
     const neu = antworten.pakete[p.schluessel];
@@ -780,4 +858,11 @@ async function main(): Promise<void> {
   }
 }
 
-void main();
+// Nur als CLI ausführen – test-diagramm.ts importiert extrahiere() ohne
+// die Kommandozeilen-Seiteneffekte. Pfadbasiert und endungstolerant:
+// «tsx uebersetzung/uebersetze» (ohne .ts) lässt argv[1] endungslos –
+// ein blosser endsWith(".ts") machte den Aufruf zum stillen No-op
+// (Review-Fund).
+const argvPfad = path.resolve(process.argv[1] ?? "").replace(/\.m?[tj]s$/, "");
+const eigenerPfad = fileURLToPath(import.meta.url).replace(/\.m?[tj]s$/, "");
+if (argvPfad === eigenerPfad) void main();

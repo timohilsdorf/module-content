@@ -43,6 +43,10 @@ jobs:
       # hält keinen Zugriffs-Token auf die private Kopie.
       - name: Typecheck
         run: npx tsc --noEmit
+      # Unit-Nachweis der Übersetzungs-Verdrahtung (Diagramm-Labels,
+      # Untertitel-Texte, maskierter Struktur-Vergleich).
+      - name: Übersetzungs-Unit-Tests
+        run: npm run test:uebersetzung
       - name: Module validieren
         env:
           # PR-Basis für die Änderungslisten-Regel der Sprachfassungen

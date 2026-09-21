@@ -12,7 +12,12 @@ import {
   pfadSchluessel,
   PAKET_FREIE_UNTERBAEUME,
 } from "./felder";
-import { punkteVonBlock, type LearningModule } from "../schema/schema";
+import {
+  extrahiereDiagrammLabels,
+  maskiereDiagrammLabels,
+  punkteVonBlock,
+  type LearningModule,
+} from "../schema/schema";
 
 function istFreierUnterbaum(normalisiert: string): boolean {
   return PAKET_FREIE_UNTERBAEUME.some((muster) => muster.test(normalisiert));
@@ -113,6 +118,31 @@ export function vergleicheStruktur(
         fehler.push(
           `${stelle}: invariantes Feld weicht vom Master ab ("${kurz(f)}" statt "${kurz(m)}") – dieses Feld wird nicht übersetzt.`,
         );
+      }
+      // Diagramm-Definition: NUR die Beschriftungen dürfen abweichen –
+      // maskiert (Labels entfernt) müssen Master und Fassung
+      // byteidentisch sein (gleiche Knoten, Pfeile, Reihenfolge), und
+      // zusätzlich muss die Label-ANZAHL stimmen: Bei timeline hängen
+      // Labels an blossem Text zwischen Trennern – eine Fassung könnte
+      // Ereignistexte sonst streichen oder erfinden, ohne die Maske zu
+      // ändern (Review-Fund; "1900 : " maskiert identisch zu
+      // "1900 : Goldstandard").
+      if (klasse === "diagramm") {
+        const mLabels = extrahiereDiagrammLabels(m);
+        const fLabels = extrahiereDiagrammLabels(f);
+        if (
+          Array.isArray(mLabels) &&
+          Array.isArray(fLabels) &&
+          mLabels.length !== fLabels.length
+        ) {
+          fehler.push(
+            `${stelle}: ${fLabels.length} statt ${mLabels.length} Diagramm-Beschriftungen – Texte dürfen übersetzt, aber nie gestrichen oder ergänzt werden.`,
+          );
+        } else if (maskiereDiagrammLabels(m) !== maskiereDiagrammLabels(f)) {
+          fehler.push(
+            `${stelle}: Die Mermaid-Syntax weicht vom Master ab – übersetzt werden nur die Beschriftungen, Knoten/Pfeile/Struktur müssen identisch bleiben.`,
+          );
+        }
       }
       return;
     }

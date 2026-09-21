@@ -9,6 +9,11 @@
  *   - "paket":       Lückentext-Aufgaben, die als Ganzes übersetzt werden
  *                    (text + luecken + ablenker zusammenhängend; die
  *                    Antwortlisten dürfen zielsprachlich BREITER werden)
+ *   - "diagramm":    Mermaid-Definition des diagramm-Blocks – NUR die
+ *                    Beschriftungen werden übersetzt (Einzelsegmente über
+ *                    extrahiereDiagrammLabels aus der SYNC-Region), die
+ *                    Syntax ist invariant (Struktur-Vergleich über die
+ *                    maskierte Definition)
  *
  * VOLLSTÄNDIGKEITS-NETZ: klassifizierePfad wirft für unbekannte Pfade –
  * ein neuer Blocktyp oder ein neues Feld kann damit NIE still
@@ -21,7 +26,12 @@
  * keine Drift.
  */
 
-export type FeldKlasse = "uebersetzt" | "invariant" | "abgeleitet" | "paket";
+export type FeldKlasse =
+  | "uebersetzt"
+  | "invariant"
+  | "abgeleitet"
+  | "paket"
+  | "diagramm";
 
 /**
  * Regeln über NORMALISIERTE Pfade (Array-Indizes als "[]",
@@ -138,6 +148,13 @@ const REGELN: ReadonlyArray<[RegExp, FeldKlasse]> = [
   [/^blocks\[\]\.knoten\[\]\.auswertung$/, "uebersetzt"],
   // --- planspiel (Module damit sind in v1 von Fassungen ausgenommen) ------
   [/^blocks\[\]\.datei$/, "invariant"],
+  // --- video: zeitgestempelte Transkript-Segmente (21.9.2026) --------------
+  // start ist eine ZAHL (kein String-Pfad – der generische Blatt-Vergleich
+  // der Strukturprüfung erzwingt Byte-Gleichheit automatisch).
+  [/^blocks\[\]\.transkriptSegmente\[\]\.text$/, "uebersetzt"],
+  // --- diagramm (Schaubild als Mermaid-Daten, 21.9.2026) -------------------
+  [/^blocks\[\]\.definition$/, "diagramm"],
+  [/^blocks\[\]\.beschreibung$/, "uebersetzt"],
 ];
 
 /** Pfad-Array → normalisierter Pfad ("blocks[].questions[].prompt"). */
