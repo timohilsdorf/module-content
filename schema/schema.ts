@@ -3126,6 +3126,842 @@ export const diagrammBlockSchema = z
     }
   });
 
+// --- Schaubild (Excalidraw-Szene als Daten) ---------------------------------
+
+/**
+ * Blocktyp "schaubild" (NEU seit 21.9.2026): gestaltete Schaubilder im
+ * Handzeichnungs-Stil. Autorinnen zeichnen im kostenlosen
+ * Excalidraw-Editor und fügen die exportierte Szene als eingebettetes
+ * JSON direkt in den Block ein – keine separate Datei, kein
+ * Vorrendern; der Player zeichnet zur Laufzeit im Browser
+ * (@excalidraw/excalidraw, EXAKT 0.18.1 gepinnt, MIT; Handschrift
+ * Excalifont, OFL-1.1 – docs/DRITTANBIETER-LIZENZEN.md).
+ *
+ * SICHERHEIT (beide Validierer + lokaler Import über dieses Schema):
+ * Zulässig sind NUR Formen (rectangle/ellipse/diamond), Pfeile,
+ * Linien, Freihand und Text. Eingebettete Webinhalte (embeddable/
+ * iframe), Bilder (image + files), Frames und Element-Links werden
+ * LAUT abgelehnt – empirischer Befund 21.9.2026: exportToSvg rendert
+ * element.link als klickbaren <a>-Wrapper, und embeddable-URLs landen
+ * auch ohne renderEmbeddables-Flag im SVG.
+ *
+ * VERSCHLANKUNG: verschlankeSchaubildSzene projiziert den
+ * Editor-Export auf eine FESTE Feldliste (alle rendering-relevanten
+ * Felder EXPLIZIT – bewusst keine «nur bei Nicht-Default
+ * speichern»-Magie: die Restore-Defaults sind undokumentierte Empirie
+ * der gepinnten Version und dürfen das gespeicherte Bild nie still
+ * verändern), entfernt gelöschte Elemente, Versions-/Zeitstempel-
+ * Felder (version, versionNonce, updated, index), Bindungs-Caches
+ * (boundElements/startBinding/endBinding – der Player rekonstruiert
+ * Container-Bindungen über restoreElements repairBindings aus
+ * containerId, Pfeil-Geometrie ist in points eingefroren) und rundet
+ * Zahlen auf 2 Dezimalstellen (Excalidraws eigener
+ * SVG-Export-Standard; −72 % bei Freihand). `seed` BLEIBT: er macht
+ * das RoughJS-Zittern deterministisch – ohne ihn sähe das Schaubild
+ * bei jedem Render und zwischen Master und Fassung anders aus.
+ */
+export const SCHAUBILD_ERLAUBTE_TYPEN = [
+  "rectangle",
+  "ellipse",
+  "diamond",
+  "arrow",
+  "line",
+  "freedraw",
+  "text",
+] as const;
+export type SchaubildElementTyp = (typeof SCHAUBILD_ERLAUBTE_TYPEN)[number];
+
+/** Verbotene Excalidraw-Element-Typen (aktive/eingebettete Inhalte). */
+export const SCHAUBILD_VERBOTENE_TYPEN = [
+  "image",
+  "embeddable",
+  "iframe",
+  "frame",
+  "magicframe",
+] as const;
+
+/** Obergrenze des kanonischen Szenen-JSON (UTF-8) je Schaubild. */
+export const SCHAUBILD_SZENE_MAX_BYTES = 262144; // 256 KB ≈ 2× einer gemessenen schweren Freihand-Szene
+/** Warnschwelle des Content-Validators. */
+export const SCHAUBILD_SZENE_WARN_BYTES = 131072;
+export const SCHAUBILD_MAX_ELEMENTE = 300;
+export const SCHAUBILD_TEXT_MAX_ZEICHEN = 1000;
+export const SCHAUBILD_TEXT_GESAMT_MAX_ZEICHEN = 10000;
+
+const schaubildIdSchema = z.string().regex(/^[A-Za-z0-9_-]{1,40}$/, {
+  message:
+    "Schaubild: Element-ids bestehen aus 1-40 Zeichen A-Z, a-z, 0-9, _ oder -.",
+});
+const schaubildKoordinate = z.number().finite().min(-100000).max(100000);
+const schaubildMass = z.number().finite().min(0).max(100000);
+const schaubildFarbe = z.string().regex(
+  /^(#[0-9a-fA-F]{6}([0-9a-fA-F]{2})?|#[0-9a-fA-F]{3}|#[0-9a-fA-F]{4}|transparent)$/,
+  { message: 'Schaubild: Farben als Hex (#rrggbb, optional Alpha) oder "transparent".' },
+);
+const schaubildPunkt = z.tuple([schaubildKoordinate, schaubildKoordinate]);
+const schaubildPfeilspitze = z
+  .enum([
+    "arrow",
+    "bar",
+    "dot",
+    "circle",
+    "circle_outline",
+    "triangle",
+    "triangle_outline",
+    "diamond",
+    "diamond_outline",
+    "crowfoot_one",
+    "crowfoot_many",
+    "crowfoot_one_or_many",
+  ])
+  .nullable();
+
+/** Gemeinsame Felder aller Schaubild-Elemente (feste, explizite Liste). */
+const schaubildBasis = {
+  id: schaubildIdSchema,
+  x: schaubildKoordinate,
+  y: schaubildKoordinate,
+  width: schaubildMass,
+  height: schaubildMass,
+  angle: z.number().finite().min(-6.2832).max(6.2832),
+  strokeColor: schaubildFarbe,
+  backgroundColor: schaubildFarbe,
+  fillStyle: z.enum(["hachure", "cross-hatch", "solid", "zigzag"]),
+  strokeWidth: z.number().finite().min(0.5).max(8),
+  strokeStyle: z.enum(["solid", "dashed", "dotted"]),
+  roughness: z.number().finite().min(0).max(3),
+  opacity: z.number().finite().min(0).max(100),
+  roundness: z
+    .strictObject({
+      type: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+      value: z.number().finite().min(0).max(100).optional(),
+    })
+    .nullable(),
+  /** RoughJS-Zufalls-Saat – hält das Hand-Zittern deterministisch. */
+  seed: z.number().int(),
+};
+
+const schaubildRechteckSchema = z.strictObject({
+  ...schaubildBasis,
+  type: z.literal("rectangle"),
+});
+const schaubildEllipseSchema = z.strictObject({
+  ...schaubildBasis,
+  type: z.literal("ellipse"),
+});
+const schaubildRauteSchema = z.strictObject({
+  ...schaubildBasis,
+  type: z.literal("diamond"),
+});
+
+export const schaubildTextSchema = z.strictObject({
+  ...schaubildBasis,
+  type: z.literal("text"),
+  /**
+   * Der Beschriftungstext UNumbrochen (Editor-originalText): Der
+   * Player bricht ihn beim Rendern an der Container- bzw.
+   * Element-Breite neu um (restoreElements refreshDimensions) –
+   * darum überleben Übersetzungen ohne gespeicherte Umbrüche.
+   * Gewollte Absätze als \n.
+   */
+  text: z
+    .string()
+    .min(1)
+    .max(SCHAUBILD_TEXT_MAX_ZEICHEN)
+    .refine((t) => !/[ -	-]/.test(t), {
+      message:
+        "Schaubild: Steuerzeichen sind im Text nicht erlaubt (Zeilenumbruch als \\n ist ok).",
+    }),
+  fontSize: z.number().finite().min(8).max(96),
+  /**
+   * NUR die Excalidraw-Handschrift Excalifont (Code 5) – die einzige
+   * Familie, die die Plattform hostet (OFL-1.1). Virgil (1, die alte
+   * Handschrift) normalisiert der Verschlanker auf 5; andere Codes
+   * lehnt er mit klarer Meldung ab (unbekannte Codes fielen sonst
+   * still auf eine Emoji-Systemschrift zurück – empirischer Befund).
+   */
+  fontFamily: z.literal(5),
+  textAlign: z.enum(["left", "center", "right"]),
+  verticalAlign: z.enum(["top", "middle", "bottom"]),
+  /** id des Elements, in dem der Text gebunden lebt (Kasten-/Pfeil-Label). */
+  containerId: schaubildIdSchema.nullable(),
+  /** false = feste Breite (Text bricht daran um) – für Freitext empfohlen. */
+  autoResize: z.boolean(),
+  lineHeight: z.number().finite().min(0.8).max(3),
+});
+
+export const schaubildPfeilSchema = z.strictObject({
+  ...schaubildBasis,
+  type: z.literal("arrow"),
+  points: z.array(schaubildPunkt).min(2).max(64),
+  startArrowhead: schaubildPfeilspitze,
+  endArrowhead: schaubildPfeilspitze,
+  elbowed: z.boolean(),
+});
+
+export const schaubildLinieSchema = z.strictObject({
+  ...schaubildBasis,
+  type: z.literal("line"),
+  points: z.array(schaubildPunkt).min(2).max(512),
+  startArrowhead: schaubildPfeilspitze,
+  endArrowhead: schaubildPfeilspitze,
+});
+
+export const schaubildFreihandSchema = z.strictObject({
+  ...schaubildBasis,
+  type: z.literal("freedraw"),
+  points: z.array(schaubildPunkt).min(2).max(2000),
+  /** true = Druckverlauf simuliert (pressures entfallen dann). */
+  simulatePressure: z.boolean(),
+  /**
+   * Echte Stift-Druckwerte – NUR bei simulatePressure false (dann
+   * rendering-relevant, empirisch belegt) und dann genau eine je
+   * Punkt; bei simulatePressure true entfernt sie der Verschlanker.
+   */
+  pressures: z.array(z.number().min(0).max(1)).max(2000).optional(),
+});
+
+export const schaubildElementSchema = z.discriminatedUnion("type", [
+  schaubildRechteckSchema,
+  schaubildEllipseSchema,
+  schaubildRauteSchema,
+  schaubildPfeilSchema,
+  schaubildLinieSchema,
+  schaubildFreihandSchema,
+  schaubildTextSchema,
+]);
+export type SchaubildElement = z.infer<typeof schaubildElementSchema>;
+
+export const schaubildSzeneSchema = z
+  .strictObject({
+    /** Elemente in Zeichen-Reihenfolge (verschlanktes Format, s. o.). */
+    elemente: z.array(schaubildElementSchema).min(1).max(SCHAUBILD_MAX_ELEMENTE),
+    /** Hintergrundfarbe der Zeichenfläche (Standard: transparent). */
+    hintergrund: schaubildFarbe.optional(),
+  })
+  .superRefine((szene, ctx) => {
+    const ids = new Set<string>();
+    szene.elemente.forEach((el, i) => {
+      if (ids.has(el.id)) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["elemente", i, "id"],
+          message: `Schaubild: Element-id "${el.id}" ist doppelt - ids müssen szenenweit eindeutig sein.`,
+        });
+      }
+      ids.add(el.id);
+      if (el.type === "freedraw") {
+        if (el.simulatePressure && el.pressures) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i, "pressures"],
+            message:
+              "Schaubild: pressures nur bei simulatePressure false (sonst toter Ballast).",
+          });
+        }
+        if (
+          !el.simulatePressure &&
+          el.pressures &&
+          el.pressures.length !== el.points.length
+        ) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i, "pressures"],
+            message: `Schaubild: ${el.pressures.length} Druckwerte für ${el.points.length} Punkte - je Punkt genau einer.`,
+          });
+        }
+      }
+    });
+    let textGesamt = 0;
+    szene.elemente.forEach((el, i) => {
+      if (el.type !== "text") return;
+      textGesamt += el.text.length;
+      if (el.containerId !== null) {
+        const container = szene.elemente.find((k) => k.id === el.containerId);
+        if (!container) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i, "containerId"],
+            message: `Schaubild: containerId "${el.containerId}" verweist auf kein Element der Szene.`,
+          });
+        } else if (
+          !["rectangle", "ellipse", "diamond", "arrow"].includes(container.type)
+        ) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["elemente", i, "containerId"],
+            message: `Schaubild: Text kann nur in Formen oder an Pfeilen gebunden sein, nicht in "${container.type}".`,
+          });
+        }
+      }
+    });
+    if (textGesamt > SCHAUBILD_TEXT_GESAMT_MAX_ZEICHEN) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["elemente"],
+        message: `Schaubild: ${textGesamt} Zeichen Text gesamt - erlaubt sind ${SCHAUBILD_TEXT_GESAMT_MAX_ZEICHEN} (lange Texte gehören in die beschreibung oder einen Text-Block).`,
+      });
+    }
+    const bytes = new TextEncoder().encode(JSON.stringify(szene)).length;
+    if (bytes > SCHAUBILD_SZENE_MAX_BYTES) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["elemente"],
+        message: `Schaubild: Szene ist ${bytes} Bytes gross - erlaubt sind ${SCHAUBILD_SZENE_MAX_BYTES} (Freihand-Striche reduzieren oder das Schaubild aufteilen).`,
+      });
+    }
+  });
+export type SchaubildSzene = z.infer<typeof schaubildSzeneSchema>;
+
+const schaubildRund2 = (n: number): number => Math.round(n * 100) / 100;
+const schaubildRund3 = (n: number): number => Math.round(n * 1000) / 1000;
+
+/**
+ * Projiziert einen Excalidraw-Editor-Export (Envelope, elements-Array
+ * oder bereits verschlanktes Blockformat) auf das kanonische
+ * Schaubild-Format – DIE eine Verschlankungs-Stelle (Schema-transform,
+ * Content-Skript, Editor-Einfügen). Rückgabe {fehler} mit klarer
+ * Meldung statt stillem Wegwerfen; die Feinprüfung der Werte macht
+ * danach schaubildSzeneSchema. Bewusst OHNE Excalidraw-Abhängigkeit
+ * (reine Projektion – dieses Schema läuft auch in der Content-CI und
+ * beim lokalen Import, wo die Bibliothek nicht existiert); veraltete
+ * Editor-Formate (strokeSharpness) werden mit Neu-Export-Hinweis
+ * abgelehnt statt migriert.
+ */
+export function verschlankeSchaubildSzene(
+  roh: unknown,
+): { szene: Record<string, unknown> } | { fehler: string } {
+  let elementeRoh: unknown[];
+  let hintergrund: unknown;
+  if (Array.isArray(roh)) {
+    elementeRoh = roh;
+  } else if (roh && typeof roh === "object") {
+    const o = roh as Record<string, unknown>;
+    if (Array.isArray(o.elemente)) {
+      elementeRoh = o.elemente;
+      hintergrund = o.hintergrund;
+    } else if (Array.isArray(o.elements)) {
+      if (o.type !== undefined && o.type !== "excalidraw") {
+        return { fehler: `unbekanntes Szenen-Format (type "${String(o.type)}").` };
+      }
+      if (typeof o.version === "number" && o.version > 2) {
+        return {
+          fehler: `Szenen-Format-Version ${o.version} ist neuer als die unterstützte Version 2 - vermutlich braucht die Plattform ein Excalidraw-Update, bevor dieser Export nutzbar ist.`,
+        };
+      }
+      if (
+        o.files &&
+        typeof o.files === "object" &&
+        Object.keys(o.files as object).length > 0
+      ) {
+        return {
+          fehler:
+            "eingebettete Bilddateien (files) sind nicht erlaubt - Fotos/Illustrationen gehören in einen image-Block, Schaubilder bestehen aus Formen und Text.",
+        };
+      }
+      const appState = o.appState;
+      if (appState && typeof appState === "object") {
+        const vbg = (appState as Record<string, unknown>).viewBackgroundColor;
+        if (typeof vbg === "string" && vbg !== "#ffffff" && vbg !== "transparent") {
+          hintergrund = vbg;
+        }
+      }
+      elementeRoh = o.elements;
+    } else {
+      return {
+        fehler:
+          'keine Elemente gefunden - erwartet wird der Excalidraw-Export ({"type":"excalidraw",...,"elements":[...]}).',
+      };
+    }
+  } else {
+    return { fehler: "die Szene muss der als JSON eingefügte Excalidraw-Export sein." };
+  }
+
+  const elemente: Record<string, unknown>[] = [];
+  for (let i = 0; i < elementeRoh.length; i++) {
+    const el = elementeRoh[i];
+    if (!el || typeof el !== "object") {
+      return { fehler: `Element ${i} ist kein Objekt.` };
+    }
+    const e = el as Record<string, unknown>;
+    if (e.isDeleted === true) continue;
+    const typ = e.type;
+    if (typ === "selection") continue;
+    if ((SCHAUBILD_VERBOTENE_TYPEN as readonly string[]).includes(typ as string)) {
+      return {
+        fehler: `Element-Typ "${String(typ)}" ist nicht erlaubt - zulässig sind nur Formen, Pfeile, Linien, Freihand und Text (keine eingebetteten Webinhalte oder Bilder).`,
+      };
+    }
+    if (!(SCHAUBILD_ERLAUBTE_TYPEN as readonly string[]).includes(typ as string)) {
+      return { fehler: `unbekannter Element-Typ "${String(typ)}" (Element ${i}).` };
+    }
+    if (typeof e.link === "string" && e.link !== "") {
+      return {
+        fehler: `Element "${String(e.id ?? i)}" trägt einen Link - Links an Elementen sind nicht erlaubt (sie würden als klickbare Flächen im Schaubild landen).`,
+      };
+    }
+    if ("strokeSharpness" in e) {
+      return {
+        fehler:
+          "die Szene stammt aus einem veralteten Excalidraw-Format (strokeSharpness) - bitte auf excalidraw.com öffnen und neu exportieren.",
+      };
+    }
+    const zahl = (wert: unknown, fallback: number): number =>
+      typeof wert === "number" && Number.isFinite(wert) ? schaubildRund2(wert) : fallback;
+    const rundung = e.roundness as Record<string, unknown> | null | undefined;
+    const basis: Record<string, unknown> = {
+      id: typeof e.id === "string" ? e.id.slice(0, 40) : `el${i}`,
+      type: typ,
+      x: zahl(e.x, 0),
+      y: zahl(e.y, 0),
+      width: zahl(e.width, 0),
+      height: zahl(e.height, 0),
+      angle: zahl(e.angle, 0),
+      strokeColor: typeof e.strokeColor === "string" ? e.strokeColor : "#1e1e1e",
+      backgroundColor:
+        typeof e.backgroundColor === "string" ? e.backgroundColor : "transparent",
+      fillStyle: typeof e.fillStyle === "string" ? e.fillStyle : "solid",
+      strokeWidth: zahl(e.strokeWidth, 2),
+      strokeStyle: typeof e.strokeStyle === "string" ? e.strokeStyle : "solid",
+      roughness: zahl(e.roughness, 1),
+      opacity: zahl(e.opacity, 100),
+      roundness:
+        rundung && typeof rundung === "object"
+          ? {
+              type: rundung.type,
+              ...(typeof rundung.value === "number"
+                ? { value: schaubildRund2(rundung.value) }
+                : {}),
+            }
+          : null,
+      seed:
+        typeof e.seed === "number" && Number.isFinite(e.seed) ? Math.trunc(e.seed) : 1,
+    };
+    if (typ === "text") {
+      const originalText =
+        typeof e.originalText === "string" && e.originalText.length > 0
+          ? e.originalText
+          : typeof e.text === "string"
+            ? e.text
+            : "";
+      let fontFamily = e.fontFamily;
+      if (fontFamily === 1) fontFamily = 5; // Virgil (alte Handschrift) -> Excalifont
+      if (fontFamily !== undefined && fontFamily !== 5) {
+        return {
+          fehler: `Text-Element "${String(basis.id)}" nutzt die Schriftfamilie ${String(e.fontFamily)} - erlaubt ist nur die Excalidraw-Handschrift (im Editor die Schriftart «Hand-drawn» wählen).`,
+        };
+      }
+      elemente.push({
+        ...basis,
+        text: originalText,
+        fontSize: zahl(e.fontSize, 20),
+        fontFamily: 5,
+        textAlign: typeof e.textAlign === "string" ? e.textAlign : "left",
+        verticalAlign: typeof e.verticalAlign === "string" ? e.verticalAlign : "top",
+        containerId: typeof e.containerId === "string" ? e.containerId : null,
+        autoResize: e.autoResize !== false,
+        lineHeight:
+          typeof e.lineHeight === "number" && Number.isFinite(e.lineHeight)
+            ? schaubildRund2(e.lineHeight)
+            : 1.25,
+      });
+      continue;
+    }
+    if (typ === "arrow" || typ === "line" || typ === "freedraw") {
+      if (!Array.isArray(e.points)) {
+        return {
+          fehler: `Element "${String(basis.id)}" (${typ}) hat keine Punkteliste - Export unvollständig?`,
+        };
+      }
+      const points = (e.points as unknown[]).map((p) =>
+        Array.isArray(p) ? [zahl(p[0], 0), zahl(p[1], 0)] : [0, 0],
+      );
+      if (typ === "freedraw") {
+        const simulatePressure = e.simulatePressure !== false;
+        elemente.push({
+          ...basis,
+          points,
+          simulatePressure,
+          ...(!simulatePressure && Array.isArray(e.pressures)
+            ? {
+                pressures: (e.pressures as unknown[]).map((p) =>
+                  schaubildRund3(typeof p === "number" ? p : 0),
+                ),
+              }
+            : {}),
+        });
+        continue;
+      }
+      elemente.push({
+        ...basis,
+        points,
+        startArrowhead: typeof e.startArrowhead === "string" ? e.startArrowhead : null,
+        endArrowhead:
+          typeof e.endArrowhead === "string"
+            ? e.endArrowhead
+            : e.endArrowhead === null || typ === "line"
+              ? null
+              : "arrow",
+        ...(typ === "arrow" ? { elbowed: e.elbowed === true } : {}),
+      });
+      continue;
+    }
+    elemente.push(basis);
+  }
+  if (elemente.length === 0) {
+    return { fehler: "die Szene enthält kein einziges (nicht gelöschtes) Element." };
+  }
+  const szene: Record<string, unknown> = { elemente };
+  if (typeof hintergrund === "string") szene.hintergrund = hintergrund;
+  return { szene };
+}
+
+/**
+ * Glyphen-Vorschubbreiten der Handschrift Excalifont bei 20 px –
+ * EMPIRISCH per canvas.measureText erhoben (Chrome, 21.9.2026;
+ * Font-String «20px Excalifont, Xiaolai, Segoe UI Emoji»). Skalierung
+ * über Schriftgrössen ist exakt linear (gemessen 10-36 px, Faktor
+ * 1.0000), Kerning praktisch keins (Ganzstring- vs. Summen-Messung
+ * ±0,5 %). Grundlage der Überlauf-Prüfung der Übersetzungs-CI in
+ * Node OHNE Canvas; unbekannte Glyphen fallen auf die «m»-Breite
+ * zurück und werden als Hinweis gemeldet.
+ */
+export const SCHAUBILD_GLYPHBREITEN_20PX: Readonly<Record<string, number>> =
+  {
+  "0": 13.28, "1": 8.54, "2": 14, "3": 12.16, "4": 11.7, "5": 12.36,
+  "6": 12.8, "7": 11.16, "8": 12.72, "9": 12.58, " ": 8, "!": 6.28,
+  "\"": 7.42, "#": 15.66, "$": 14.42, "%": 18.56, "&": 14.36, "'": 4.36,
+  "(": 8.82, ")": 8.04, "*": 10.5, "+": 11, ",": 5.14, "-": 8.22,
+  ".": 5.48, "/": 11.22, ":": 5.28, ";": 5.96, "<": 11, "=": 11,
+  ">": 11, "?": 9.32, "@": 16.58, "A": 13.52, "B": 15.22, "C": 12.58,
+  "D": 15.6, "E": 14.14, "F": 13.22, "G": 15.6, "H": 11.46, "I": 10.9,
+  "J": 11.38, "K": 12.26, "L": 10.86, "M": 15.32, "N": 12.64, "O": 15.34,
+  "P": 13.96, "Q": 15.36, "R": 14.72, "S": 12.44, "T": 17.14, "U": 14.6,
+  "V": 11.84, "W": 15.72, "X": 12.56, "Y": 11.28, "Z": 16.64, "[": 9.44,
+  "\\": 11.78, "]": 9.94, "^": 10.2, "_": 13.4, "`": 12, "a": 11.52,
+  "b": 11.1, "c": 10.08, "d": 12.1, "e": 10.74, "f": 9.94, "g": 11.1,
+  "h": 11.34, "i": 4.88, "j": 6.56, "k": 10.66, "l": 4.5, "m": 13.26,
+  "n": 10.52, "o": 12, "p": 10.74, "q": 10.78, "r": 8.24, "s": 10.86,
+  "t": 11.06, "u": 10.96, "v": 10.5, "w": 13.86, "x": 11.82, "y": 10.6,
+  "z": 11.44, "{": 10.08, "|": 5.98, "}": 10.88, "~": 13.38, "Ä": 13.52,
+  "Ö": 15.34, "Ü": 14.6, "ä": 10.84, "ö": 11.22, "ü": 10.16, "ß": 11.46,
+  "á": 10.84, "à": 10.84, "â": 10.84, "ã": 10.84, "å": 10.84, "æ": 18.18,
+  "ç": 10.08, "é": 11.02, "è": 11.02, "ê": 11.02, "ë": 11.02, "í": 4.88,
+  "ì": 4.88, "î": 4.88, "ï": 4.88, "ñ": 10.52, "ó": 11.22, "ò": 11.22,
+  "ô": 11.22, "õ": 11.22, "ø": 12.34, "œ": 18.4, "Œ": 24.2, "ú": 10.16,
+  "ù": 10.16, "û": 10.16, "ý": 10.44, "ÿ": 10.44, "Á": 13.52, "À": 13.52,
+  "Â": 13.52, "Ã": 13.52, "Å": 13.52, "Æ": 20.56, "Ç": 12.58, "É": 14.14,
+  "È": 14.14, "Ê": 14.14, "Ë": 14.14, "Í": 10.9, "Ì": 10.9, "Î": 10.9,
+  "Ï": 10.9, "Ñ": 12.64, "Ó": 15.34, "Ò": 15.34, "Ô": 15.34, "Õ": 15.34,
+  "Ø": 15.44, "Ú": 14.6, "Ù": 14.6, "Û": 14.6, "Ý": 11.28, "«": 12.98,
+  "»": 13.36, "„": 8.56, "“": 8.24, "”": 8.56, "‚": 4.78, "‘": 5.34,
+  "’": 6.08, "–": 14.04, "—": 18.7, "…": 14.18, "·": 4, "°": 8.24,
+  "€": 14.26, "§": 10, "µ": 11.523,
+};
+
+/** Excalidraws Innenabstand für in Formen gebundenen Text (px). */
+export const SCHAUBILD_TEXT_INNENABSTAND = 5;
+
+/** Vorschubbreite eines Texts (eine Zeile) bei gegebener Schriftgrösse. */
+export function schaubildTextBreite(
+  text: string,
+  fontSize: number,
+): { breite: number; unbekannt: string[] } {
+  const unbekannt: string[] = [];
+  let breite = 0;
+  for (const zeichen of text) {
+    // Zeilenumbrüche sind Struktur, keine Glyphen – Breite 0, kein
+    // «unbekannt»-Hinweis (Aufrufer messen teils den ganzen Text).
+    if (zeichen === "\n") continue;
+    const b = SCHAUBILD_GLYPHBREITEN_20PX[zeichen];
+    if (b === undefined) {
+      if (!unbekannt.includes(zeichen)) unbekannt.push(zeichen);
+      breite += SCHAUBILD_GLYPHBREITEN_20PX.m;
+    } else {
+      breite += b;
+    }
+  }
+  return { breite: (breite * fontSize) / 20, unbekannt };
+}
+
+/**
+ * Zeilenumbruch-NACHBAU von Excalidraws wrapText (Greedy: Wörter +
+ * einzelne Leerzeichen als Tokens, Umbruchgelegenheit nach «-»,
+ * überlange Wörter zeichenweise hart) – gegen die echte Bibliothek
+ * empirisch ZEICHENGENAU verifiziert (drei Szenarien, 21.9.2026; der
+ * E2E-Test e2e-schaubild vergleicht Browser-Umbruch und diesen
+ * Nachbau weiter als Drift-Wächter für Excalidraw-Updates). Er speist
+ * die Überlauf-Prüfung der Übersetzungs-CI, die ohne Browser
+ * auskommen muss.
+ */
+export function schaubildWrap(text: string, maxWidth: number, fontSize: number): string {
+  const breiteVon = (s: string): number => schaubildTextBreite(s, fontSize).breite;
+  const zeilen: string[] = [];
+  for (const rohZeile of text.split("\n")) {
+    if (breiteVon(rohZeile) <= maxWidth) {
+      zeilen.push(rohZeile);
+      continue;
+    }
+    const tokens = rohZeile
+      .split(/(\s)/)
+      .filter(Boolean)
+      .flatMap((t) => (/\s/.test(t) ? [t] : t.split(/(?<=-)/)));
+    let aktuell = "";
+    let aktuellBreite = 0;
+    for (const token of tokens) {
+      const tokenBreite = breiteVon(token);
+      if (/^\s$/.test(token) || aktuellBreite + tokenBreite <= maxWidth) {
+        aktuell += token;
+        aktuellBreite += tokenBreite;
+        continue;
+      }
+      if (!aktuell) {
+        let stueck = "";
+        let stueckBreite = 0;
+        for (const zeichen of token) {
+          const zb = breiteVon(zeichen);
+          if (stueckBreite + zb > maxWidth && stueck) {
+            zeilen.push(stueck);
+            stueck = "";
+            stueckBreite = 0;
+          }
+          stueck += zeichen;
+          stueckBreite += zb;
+        }
+        aktuell = stueck;
+        aktuellBreite = stueckBreite;
+      } else {
+        zeilen.push(aktuell.trimEnd());
+        aktuell = token;
+        aktuellBreite = tokenBreite;
+      }
+    }
+    if (aktuell) zeilen.push(aktuell.trimEnd());
+  }
+  return zeilen.join("\n");
+}
+
+/** Nutzbare Textbreite in einem Container (Excalidraw-Formeln). */
+function schaubildContainerTextBreite(
+  container: SchaubildElement,
+  fontSize: number,
+): number {
+  const p2 = SCHAUBILD_TEXT_INNENABSTAND * 2;
+  switch (container.type) {
+    case "ellipse":
+      return container.width / Math.SQRT2 - p2;
+    case "diamond":
+      return container.width / 2 - p2;
+    case "arrow":
+      return Math.max(container.width * 0.7, fontSize * 11);
+    default:
+      return container.width - p2;
+  }
+}
+function schaubildContainerTextHoehe(container: SchaubildElement): number {
+  const p2 = SCHAUBILD_TEXT_INNENABSTAND * 2;
+  switch (container.type) {
+    case "ellipse":
+      return container.height / Math.SQRT2 - p2;
+    case "diamond":
+      return container.height / 2 - p2;
+    default:
+      return container.height - p2;
+  }
+}
+
+interface SchaubildBox {
+  id: string;
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+}
+
+/**
+ * Element-BBoxen einer Szene, wie sie NACH dem Player-Neuvermessen
+ * aussehen: Texte per schaubildWrap umbrochen, gebundene Container
+ * wachsen wie im Player-Post-Pass, Freitext wächst je nach autoResize
+ * in Breite bzw. Höhe. Rotation (angle) wird für die Hinweis-Rechnung
+ * bewusst ignoriert.
+ */
+function schaubildBoxenNachUmbruch(szene: SchaubildSzene): {
+  boxen: SchaubildBox[];
+  befunde: string[];
+} {
+  const befunde: string[] = [];
+  const masse = new Map<string, { width: number; height: number }>();
+  for (const el of szene.elemente) {
+    masse.set(el.id, { width: el.width, height: el.height });
+  }
+  for (const el of szene.elemente) {
+    if (el.type !== "text") continue;
+    const { unbekannt } = schaubildTextBreite(el.text, el.fontSize);
+    if (unbekannt.length > 0) {
+      befunde.push(
+        `Text "${schaubildKurzText(el.text)}": Zeichen ${unbekannt
+          .map((z) => `«${z}»`)
+          .join(", ")} fehlen in der Breiten-Tabelle - die Überlauf-Schätzung nutzt Ersatzbreiten (SCHAUBILD_GLYPHBREITEN_20PX erweitern).`,
+      );
+    }
+    const zeilenHoehe = el.fontSize * el.lineHeight;
+    if (el.containerId !== null) {
+      const container = szene.elemente.find((k) => k.id === el.containerId);
+      if (!container) continue; // meldet das Schema
+      // 2 % Sicherheitsmarge: Die Glyphtabelle misst auf ±0,5 % genau.
+      const maxBreite = schaubildContainerTextBreite(container, el.fontSize) * 0.98;
+      const umbrochen = schaubildWrap(el.text, maxBreite, el.fontSize);
+      const zeilen = umbrochen.split("\n");
+      const textHoehe = zeilen.length * zeilenHoehe;
+      const maxHoehe = schaubildContainerTextHoehe(container);
+      if (textHoehe > maxHoehe) {
+        befunde.push(
+          `${container.type} "${container.id}": Der gebundene Text "${schaubildKurzText(
+            el.text,
+          )}" braucht umbrochen ca. ${Math.ceil(textHoehe)} px Höhe, der Kasten bietet ${Math.floor(
+            Math.max(0, maxHoehe),
+          )} px - der Player lässt den Kasten wachsen; prüfen, ob das Layout das verträgt (sonst Übersetzung kürzen oder Kasten im Editor vergrössern).`,
+        );
+        const m = masse.get(container.id)!;
+        const wachstum =
+          textHoehe + SCHAUBILD_TEXT_INNENABSTAND * 2 - container.height;
+        masse.set(container.id, {
+          width: m.width,
+          height: m.height + Math.max(0, wachstum),
+        });
+      }
+      const breiteste = Math.max(
+        ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize).breite),
+      );
+      if (breiteste > maxBreite) {
+        befunde.push(
+          `${container.type} "${container.id}": Ein Wort in "${schaubildKurzText(
+            el.text,
+          )}" ist breiter als der Kasten (${Math.ceil(breiteste)} px > ${Math.floor(
+            maxBreite,
+          )} px) und ragt heraus - Übersetzung umformulieren oder Kasten verbreitern.`,
+        );
+      }
+      masse.set(el.id, {
+        width: Math.min(breiteste, maxBreite),
+        height: textHoehe,
+      });
+    } else {
+      const maxBreite = el.autoResize ? Infinity : el.width * 0.98;
+      const umbrochen = el.autoResize
+        ? el.text
+        : schaubildWrap(el.text, maxBreite, el.fontSize);
+      const zeilen = umbrochen.split("\n");
+      const breite = Math.max(
+        ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize).breite),
+      );
+      masse.set(el.id, {
+        width: el.autoResize ? breite : el.width,
+        height: zeilen.length * zeilenHoehe,
+      });
+    }
+  }
+  const boxen: SchaubildBox[] = szene.elemente
+    .filter((el) => !(el.type === "text" && el.containerId !== null))
+    .map((el) => {
+      const m = masse.get(el.id)!;
+      return { id: el.id, x1: el.x, y1: el.y, x2: el.x + m.width, y2: el.y + m.height };
+    });
+  return { boxen, befunde };
+}
+
+function schaubildKurzText(text: string): string {
+  const eineZeile = text.replace(/\n/g, " ");
+  return eineZeile.length > 30 ? eineZeile.slice(0, 30) + "…" : eineZeile;
+}
+
+/**
+ * Überlauf-Hinweise für eine ÜBERSETZTE Szene gegenüber ihrem Master:
+ * (a) gebundene Texte, die ihren Kasten sprengen (der Player lässt
+ * Kästen wachsen – gemeldet wird, DASS sie wachsen), (b) zu breite
+ * unbrechbare Wörter, (c) Element-Paare, die sich NACH dem Umbruch
+ * überlappen, im Master aber nicht (Pfeile passen sich nie an),
+ * (d) Glyphen ausserhalb der Breiten-Tabelle. Schätzung auf Basis der
+ * Glyphtabelle (±0,5 % Messfehler, 2 % Marge) – bewusst HINWEISE für
+ * das Gegenlesen, keine harten CI-Fehler.
+ */
+export function schaubildUeberlaufHinweise(
+  master: SchaubildSzene,
+  fassung: SchaubildSzene,
+): string[] {
+  const m = schaubildBoxenNachUmbruch(master);
+  const f = schaubildBoxenNachUmbruch(fassung);
+  const hinweise = [...f.befunde];
+  const ueberlappt = (a: SchaubildBox, b: SchaubildBox): boolean =>
+    a.x1 < b.x2 - 2 && b.x1 < a.x2 - 2 && a.y1 < b.y2 - 2 && b.y1 < a.y2 - 2;
+  const masterPaare = new Set<string>();
+  for (let i = 0; i < m.boxen.length; i++) {
+    for (let j = i + 1; j < m.boxen.length; j++) {
+      if (ueberlappt(m.boxen[i], m.boxen[j])) {
+        masterPaare.add(`${m.boxen[i].id}|${m.boxen[j].id}`);
+      }
+    }
+  }
+  for (let i = 0; i < f.boxen.length; i++) {
+    for (let j = i + 1; j < f.boxen.length; j++) {
+      const schluessel = `${f.boxen[i].id}|${f.boxen[j].id}`;
+      if (ueberlappt(f.boxen[i], f.boxen[j]) && !masterPaare.has(schluessel)) {
+        hinweise.push(
+          `Elemente "${f.boxen[i].id}" und "${f.boxen[j].id}" überlappen sich nach der Übersetzung (im Master nicht) - Layout prüfen, Übersetzung kürzen oder die Elemente im Editor auseinanderrücken.`,
+        );
+      }
+    }
+  }
+  return hinweise;
+}
+
+/**
+ * Schaubild als Daten (NEU seit 21.9.2026): gestaltetes Schaubild im
+ * Handzeichnungs-Stil als eingebettete Excalidraw-Szene – der Player
+ * rendert lokal (gepinnte Bibliothek + selbst gehostete Handschrift,
+ * kein CDN); die Übersetzungs-Ableitung übersetzt AUSSCHLIESSLICH die
+ * Textinhalte der Elemente (uebersetzung/felder.ts), Koordinaten,
+ * Grössen und Struktur sind invariant. Kein prüfender Block.
+ * ROLLOUT: Für ältere Player ist "schaubild" ein unbekannter Blocktyp
+ * (unknownBlockSchema-Platzhalter) – Module bleiben dort gültig.
+ */
+export const schaubildBlockSchema = z.strictObject({
+  ...blockBase,
+  type: z.literal("schaubild"),
+  /**
+   * Die Excalidraw-Szene: eingefügt wird der Editor-Export (das
+   * transform verschlankt automatisch auf das kanonische Format);
+   * gespeichert und verglichen wird IMMER die verschlankte Form – der
+   * Content-Validator verlangt sie zusätzlich byteweise in der Datei
+   * (Kanonizität, npm run schaubild-verschlanken im Content-Repo).
+   */
+  szene: z.unknown().transform((roh, ctx) => {
+    const erg = verschlankeSchaubildSzene(roh);
+    if ("fehler" in erg) {
+      ctx.addIssue({ code: "custom", message: `Schaubild: ${erg.fehler}` });
+      return z.NEVER;
+    }
+    const geprueft = schaubildSzeneSchema.safeParse(erg.szene);
+    if (!geprueft.success) {
+      for (const issue of geprueft.error.issues.slice(0, 8)) {
+        ctx.addIssue({
+          code: "custom",
+          path: issue.path as (string | number)[],
+          message: issue.message,
+        });
+      }
+      return z.NEVER;
+    }
+    return geprueft.data;
+  }),
+  /**
+   * Pflicht-Textbeschreibung des Schaubilds (reiner Text): Alt-Text
+   * für Screenreader, Vorlese-Quelle und ehrlicher Fallback, wenn das
+   * Rendern scheitert. Wird mitübersetzt.
+   */
+  beschreibung: z.string().trim().min(1).max(2000),
+});
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
@@ -3141,6 +3977,7 @@ export const knownBlockSchema = z.discriminatedUnion("type", [
   planspielBlockSchema,
   simulationBlockSchema,
   diagrammBlockSchema,
+  schaubildBlockSchema,
 ]);
 
 export const KNOWN_BLOCK_TYPES = [
@@ -3158,6 +3995,7 @@ export const KNOWN_BLOCK_TYPES = [
   "planspiel",
   "simulation",
   "diagramm",
+  "schaubild",
 ] as const;
 
 /**
@@ -3400,6 +4238,7 @@ export type SimulationAntwort = z.infer<typeof simulationAntwortSchema>;
 export type SimulationKnoten = z.infer<typeof simulationKnotenSchema>;
 export type SimulationBlock = z.infer<typeof simulationBlockSchema>;
 export type DiagrammBlock = z.infer<typeof diagrammBlockSchema>;
+export type SchaubildBlock = z.infer<typeof schaubildBlockSchema>;
 export type KnownBlock = z.infer<typeof knownBlockSchema>;
 export type UnknownBlock = z.infer<typeof unknownBlockSchema>;
 export type Block = z.infer<typeof blockSchema>;
