@@ -654,8 +654,53 @@ export const videoBlockSchema = z
      * oder gesperrt ist.
      */
     transcript: markdown.optional(),
+    /**
+     * Zeitgestempelte Transkript-Segmente (NEU seit 21.9.2026,
+     * optional): je Segment die Startzeit in Sekunden ab Videobeginn
+     * und der gesprochene Text. Der Player zeigt sie synchron zur
+     * Abspielposition als ein-/ausschaltbare Untertitel unter dem
+     * Video; die Übersetzungs-Ableitung übersetzt NUR die Texte, die
+     * Startzeiten sind invariant (uebersetzung/felder.ts im
+     * Content-Repo). Ergänzt das Fliesstext-`transcript`, ersetzt es
+     * nicht. Bei provider "vimeo" nicht erlaubt – der Player kann dort
+     * die Abspielposition nicht lesen, die Segmente wären tote Daten.
+     * ROLLOUT: Plattform VOR dem Content-Merge deployen – ältere
+     * Player lehnen Module mit dem Feld hart ab (strictObject).
+     */
+    transkriptSegmente: z
+      .array(
+        z.strictObject({
+          /** Startzeit in Sekunden ab Videobeginn (Dezimalwerte erlaubt). */
+          start: z.number().nonnegative(),
+          /** Gesprochener Text des Segments (reiner Text, kein Markdown). */
+          text: z.string().trim().min(1).max(500),
+        }),
+      )
+      .min(1)
+      .max(400)
+      .optional(),
   })
   .superRefine((v, ctx) => {
+    if (v.transkriptSegmente) {
+      if (v.provider === "vimeo") {
+        ctx.addIssue({
+          code: "custom",
+          path: ["transkriptSegmente"],
+          message:
+            'Video-Block: "transkriptSegmente" ist bei provider "vimeo" nicht unterstützt – der Player kann die Vimeo-Abspielposition nicht lesen (dokumentierte Grenze). Fliesstext-"transcript" bleibt möglich.',
+        });
+      }
+      for (let i = 1; i < v.transkriptSegmente.length; i++) {
+        if (v.transkriptSegmente[i].start <= v.transkriptSegmente[i - 1].start) {
+          ctx.addIssue({
+            code: "custom",
+            path: ["transkriptSegmente", i, "start"],
+            message:
+              "Video-Block: Die Startzeiten der Transkript-Segmente müssen streng aufsteigend sein.",
+          });
+        }
+      }
+    }
     if (v.provider === "url") {
       if (!v.url) {
         ctx.addIssue({
@@ -2686,6 +2731,385 @@ export const termBlockSchema = z
     });
   });
 
+// --- Diagramm (Mermaid-Schaubild als Daten) ---------------------------------
+
+/**
+ * Erlaubte Mermaid-Diagrammtypen (erste nicht-leere Zeile der
+ * Definition entscheidet). Bewusst klein gehalten: Flussdiagramme und
+ * Strukturbilder (flowchart/graph), Zeitleisten (timeline) und
+ * Mindmaps (mindmap) decken die Text-Schaubilder der Module ab. Jeder
+ * weitere Typ braucht eine eigene, EMPIRISCH geprüfte Beschriftungs-
+ * Konvention (s. extrahiereDiagrammLabels) und einen bewussten
+ * Entscheid – Chrome-Befund 21.9.2026: flowchart/graph/mindmap
+ * rendern gequotete Beschriftungen ohne sichtbare Anführungszeichen,
+ * timeline zeigt sie sichtbar an (darum dort zeilenbasiert).
+ */
+export const DIAGRAMM_ERLAUBTE_TYPEN = [
+  "flowchart",
+  "graph",
+  "timeline",
+  "mindmap",
+] as const;
+export type DiagrammTyp = (typeof DIAGRAMM_ERLAUBTE_TYPEN)[number];
+
+/** Diagrammtyp aus der ersten nicht-leeren Zeile, null = unbekannt. */
+export function diagrammTyp(definition: string): DiagrammTyp | null {
+  const kopf = definition
+    .split("\n")
+    .map((zeile) => zeile.trim())
+    .find((zeile) => zeile.length > 0);
+  if (!kopf) return null;
+  if (/^(?:flowchart|graph)(?:\s+(?:TB|TD|BT|RL|LR))?$/.test(kopf)) {
+    return kopf.startsWith("flowchart") ? "flowchart" : "graph";
+  }
+  if (kopf === "timeline") return "timeline";
+  if (kopf === "mindmap") return "mindmap";
+  return null;
+}
+
+/**
+ * Textmuster, die in der ROHEN Diagramm-Definition (inkl.
+ * Beschriftungen) nie vorkommen dürfen. Sicherheit in der Tiefe: Der
+ * Player rendert ohnehin ausschliesslich mit securityLevel "strict"
+ * (Mermaid escapt HTML), aber Moduldaten sollen solche Konstrukte gar
+ * nicht erst enthalten – auch nicht in lokal eingeladenen Modulen.
+ */
+export const DIAGRAMM_VERBOTENE_MUSTER: ReadonlyArray<{
+  muster: RegExp;
+  grund: string;
+}> = [
+  { muster: /</, grund: "HTML/`<`-Zeichen (auch <br/> – lange Texte auf mehrere Knoten aufteilen)" },
+  { muster: /`/, grund: "Backtick (Mermaid-Markdown-Strings)" },
+  { muster: /%%/, grund: "Kommentar bzw. Direktive (%%)" },
+  { muster: /#\w+;/, grund: "Mermaid-Entity (#…;)" },
+  { muster: /&[a-zA-Z]+;|&#/, grund: "HTML-Entity (&…; bzw. &#…)" },
+  { muster: /javascript:/i, grund: "javascript:-URL" },
+];
+
+/**
+ * Syntax-Konstrukte, die nur AUSSERHALB der Beschriftungen verboten
+ * sind – geprüft auf der MASKIERTEN Definition
+ * (maskiereDiagrammLabels), damit harmloser Beschriftungstext wie
+ * «click the button» keinen Fehlalarm auslöst.
+ */
+export const DIAGRAMM_VERBOTENE_SYNTAX: ReadonlyArray<{
+  muster: RegExp;
+  grund: string;
+}> = [
+  { muster: /\bclick\b/i, grund: "click-Interaktion" },
+  { muster: /\bcallback\b/i, grund: "callback-Aufruf" },
+  { muster: /\bhref\b/i, grund: "href-Link" },
+  { muster: /\bclassDef\b/i, grund: "classDef-Styling" },
+  { muster: /\blinkStyle\b/i, grund: "linkStyle-Styling" },
+  { muster: /^\s*style\s/im, grund: "style-Anweisung" },
+  { muster: /:::/, grund: "Klassen-Kurzform (:::)" },
+  { muster: /::icon/i, grund: "Icon-Anweisung (::icon)" },
+  { muster: /@\{/, grund: "Knoten-Metadaten (@{ … })" },
+];
+
+/** Eine übersetzbare Beschriftung in der Diagramm-Definition. */
+export interface DiagrammLabel {
+  /** Startindex des Beschriftungs-TEXTES (bei Quote-Typen ohne die Anführungszeichen). */
+  start: number;
+  /** Endindex (exklusiv). */
+  ende: number;
+  /** Der Beschriftungstext. */
+  text: string;
+}
+
+/**
+ * Quote-Konvention (flowchart/graph/mindmap): Beschriftungen stehen
+ * ausnahmslos in doppelten Anführungszeichen ("…") – alles zwischen
+ * Quote-Paaren ist Beschriftung, alles ausserhalb ist Syntax.
+ * Rückgabe string = Fehlermeldung.
+ */
+function quoteSpannen(definition: string): DiagrammLabel[] | string {
+  const spannen: DiagrammLabel[] = [];
+  let i = definition.indexOf('"');
+  while (i >= 0) {
+    const ende = definition.indexOf('"', i + 1);
+    if (ende < 0) return 'unpaarige Anführungszeichen (") in der Definition';
+    const text = definition.slice(i + 1, ende);
+    if (text.includes("\n")) return "Beschriftung über mehrere Zeilen (Quote-Paar prüfen)";
+    if (text.trim().length === 0) return 'leere Beschriftung ("")';
+    spannen.push({ start: i + 1, ende, text });
+    i = definition.indexOf('"', ende + 1);
+  }
+  return spannen;
+}
+
+/**
+ * Zeilen-Konvention (timeline): In einer Zeitleiste ist JEDER Text
+ * Beschriftung – title/section-Zeilen ab dem Schlüsselwort, Ereignis-
+ * Zeilen als ":"-getrennte Abschnitte. Anführungszeichen sind hier
+ * verboten (Mermaid rendert sie sichtbar – Chrome-Befund 21.9.2026),
+ * ein Doppelpunkt IN einem Text ist nicht darstellbar (Trennzeichen).
+ */
+function timelineSpannen(definition: string): DiagrammLabel[] | string {
+  if (definition.includes('"')) {
+    return 'timeline: Anführungszeichen (") werden sichtbar mitgerendert – «…» verwenden';
+  }
+  const spannen: DiagrammLabel[] = [];
+  let offset = 0;
+  let kopfGesehen = false;
+  for (const zeile of definition.split("\n")) {
+    const getrimmt = zeile.trim();
+    if (getrimmt.length === 0 || !kopfGesehen) {
+      if (getrimmt.length > 0) kopfGesehen = true;
+      offset += zeile.length + 1;
+      continue;
+    }
+    const anfang = offset + (zeile.length - zeile.trimStart().length);
+    const schluessel = /^(?:title|section)\s+/.exec(getrimmt);
+    if (schluessel) {
+      const start = anfang + schluessel[0].length;
+      const text = getrimmt.slice(schluessel[0].length);
+      spannen.push({ start, ende: start + text.length, text });
+    } else {
+      let pos = anfang;
+      for (const teil of getrimmt.split(":")) {
+        const links = teil.length - teil.trimStart().length;
+        const text = teil.trim();
+        if (text.length > 0) {
+          spannen.push({ start: pos + links, ende: pos + links + text.length, text });
+        }
+        pos += teil.length + 1;
+      }
+    }
+    offset += zeile.length + 1;
+  }
+  return spannen;
+}
+
+/**
+ * Alle übersetzbaren Beschriftungen der Definition in Dokumentfolge –
+ * die EINZIGE Extraktions-Stelle: Übersetzungs-Werkzeug (Segmente),
+ * Struktur-Vergleich (Maskierung) und Validierer (Vollständigkeit)
+ * bauen alle hierauf, damit sie nie auseinanderlaufen. Rückgabe
+ * string = Fehlermeldung.
+ */
+export function extrahiereDiagrammLabels(
+  definition: string,
+): DiagrammLabel[] | string {
+  const typ = diagrammTyp(definition);
+  if (!typ) {
+    return `unbekannter Diagrammtyp – die erste nicht-leere Zeile muss einer von ${DIAGRAMM_ERLAUBTE_TYPEN.join(
+      ", ",
+    )} sein (flowchart/graph optional mit Richtung TB/TD/BT/RL/LR)`;
+  }
+  return typ === "timeline" ? timelineSpannen(definition) : quoteSpannen(definition);
+}
+
+/**
+ * Definition mit ENTFERNTEN Beschriftungs-Texten (Quote-Typen: ""
+ * bleibt stehen, timeline: leere Abschnitte): Grundlage des
+ * Master↔Fassung-Struktur-Vergleichs (uebersetzung/struktur.ts) und
+ * der Syntax-Verbote. Ungültige Definitionen kommen unverändert
+ * zurück – die Validierung meldet sie separat.
+ */
+export function maskiereDiagrammLabels(definition: string): string {
+  const spannen = extrahiereDiagrammLabels(definition);
+  if (typeof spannen === "string") return definition;
+  let ergebnis = "";
+  let pos = 0;
+  for (const spanne of spannen) {
+    ergebnis += definition.slice(pos, spanne.start);
+    pos = spanne.ende;
+  }
+  return ergebnis + definition.slice(pos);
+}
+
+/**
+ * Schreibt übersetzte Beschriftungen positionsgetreu zurück (Werkzeug-
+ * Gegenstück zu extrahiereDiagrammLabels). Wirft bei Struktur-
+ * Verstössen LAUT (Anzahl, Zeilenumbruch, verbotene Zeichen je Typ) –
+ * der Übersetzungslauf soll scheitern statt still kaputte Diagramme
+ * zu erzeugen; der Aufrufer validiert das Ergebnis zusätzlich mit
+ * diagrammDefinitionFehler.
+ */
+export function ersetzeDiagrammLabels(
+  definition: string,
+  texte: readonly string[],
+): string {
+  const typ = diagrammTyp(definition);
+  const spannen = extrahiereDiagrammLabels(definition);
+  if (typeof spannen === "string") throw new Error(`Diagramm: ${spannen}`);
+  if (texte.length !== spannen.length) {
+    throw new Error(
+      `Diagramm: ${texte.length} Übersetzungen für ${spannen.length} Beschriftungen.`,
+    );
+  }
+  for (const text of texte) {
+    const getrimmt = text.trim();
+    if (getrimmt.length === 0) throw new Error("Diagramm: leere Übersetzung.");
+    if (/[\n"]/.test(getrimmt)) {
+      throw new Error(
+        `Diagramm: Übersetzung enthält Zeilenumbruch oder Anführungszeichen (") – nicht darstellbar: «${getrimmt.slice(0, 40)}»`,
+      );
+    }
+    if (typ === "timeline" && getrimmt.includes(":")) {
+      throw new Error(
+        `Diagramm: timeline-Übersetzung enthält einen Doppelpunkt (Trennzeichen) – umformulieren: «${getrimmt.slice(0, 40)}»`,
+      );
+    }
+  }
+  let ergebnis = "";
+  let pos = 0;
+  spannen.forEach((spanne, i) => {
+    ergebnis += definition.slice(pos, spanne.start) + texte[i].trim();
+    pos = spanne.ende;
+  });
+  return ergebnis + definition.slice(pos);
+}
+
+/** Höchstlänge einer einzelnen Diagramm-Beschriftung. */
+export const DIAGRAMM_LABEL_MAX_ZEICHEN = 200;
+
+/**
+ * Vollständige Prüfung einer Diagramm-Definition (Typ, verbotene
+ * Muster, Beschriftungs-Konvention) – EINZIGE Prüf-Stelle, läuft im
+ * Schema-superRefine und damit überall, wo Module geparst werden
+ * (Plattform-Build, Content-CI, lokaler Import). null = in Ordnung,
+ * sonst die Fehlermeldung. Bewusste Grenze: Die syntaktische
+ * Mermaid-GÜLTIGKEIT (Tippfehler in Pfeilen usw.) prüft erst der
+ * Player bzw. die Vorschau – der Renderer zeigt bei Fehlern ehrlich
+ * die Pflicht-Textbeschreibung statt des Diagramms.
+ */
+export function diagrammDefinitionFehler(definition: string): string | null {
+  const typ = diagrammTyp(definition);
+  if (!typ) {
+    return `Unbekannter Diagrammtyp – die erste nicht-leere Zeile muss einer von ${DIAGRAMM_ERLAUBTE_TYPEN.join(
+      ", ",
+    )} sein (flowchart/graph optional mit Richtung TB/TD/BT/RL/LR).`;
+  }
+  for (const { muster, grund } of DIAGRAMM_VERBOTENE_MUSTER) {
+    if (muster.test(definition)) return `Nicht erlaubt: ${grund}.`;
+  }
+  const spannen = extrahiereDiagrammLabels(definition);
+  if (typeof spannen === "string") return spannen;
+  if (spannen.length === 0) {
+    return typ === "timeline"
+      ? "Die Zeitleiste hat keinen einzigen Text."
+      : 'Das Diagramm hat keine einzige Beschriftung – Knotentexte in Anführungszeichen setzen (z. B. A["Text"]).';
+  }
+  for (const spanne of spannen) {
+    if (spanne.text.length > DIAGRAMM_LABEL_MAX_ZEICHEN) {
+      return `Beschriftung länger als ${DIAGRAMM_LABEL_MAX_ZEICHEN} Zeichen («${spanne.text.slice(0, 40)}…») – lange Texte gehören in die Textbeschreibung oder einen Text-Block.`;
+    }
+  }
+  const maskiert = maskiereDiagrammLabels(definition);
+  for (const { muster, grund } of DIAGRAMM_VERBOTENE_SYNTAX) {
+    if (muster.test(maskiert)) return `Nicht erlaubt: ${grund}.`;
+  }
+  if (typ === "mindmap") {
+    // Jeder Knoten braucht eine explizite Form MIT gequoteter
+    // Beschriftung – nackte Textzeilen rendert Mermaid zwar, aber eine
+    // spätere Quote-Setzung erschiene dort sichtbar, und unquotierter
+    // Text bliebe unübersetzt (Chrome-Befund 21.9.2026).
+    let kopfGesehen = false;
+    for (const zeile of maskiert.split("\n")) {
+      const getrimmt = zeile.trim();
+      if (getrimmt.length === 0) continue;
+      if (!kopfGesehen) {
+        kopfGesehen = true;
+        continue;
+      }
+      if (!/^[A-Za-z0-9_-]*(?:\(\(""\)\)|\[""\]|\(""\)|\{\{""\}\})$/.test(getrimmt)) {
+        return `mindmap: Jeder Knoten braucht eine Form mit Beschriftung in Anführungszeichen – z. B. wurzel(("…")), a["…"], b("…") oder c{{"…"}}; die Zeile «${getrimmt.slice(0, 40)}» nicht.`;
+      }
+    }
+  }
+  if (typ === "flowchart" || typ === "graph") {
+    // Vollständigkeits-Netz: Kein sichtbarer Text darf an der
+    // Übersetzung vorbeilaufen. Gequotete Kantenlabel-Paare |""|
+    // zuerst entfernen – die SCHLIESSENDE Pipe stünde sonst direkt vor
+    // dem Folgeknoten («|""| C») und fiele als Fehlalarm in die
+    // Klammer-Prüfung. (a) Text direkt in Form-Klammern,
+    const ohneKantenlabels = maskiert.replaceAll('|""|', " ");
+    if (/[\[({|][^"\])}|]*[\p{L}\p{N}]/u.test(ohneKantenlabels)) {
+      return 'flowchart: Beschriftungen gehören in Anführungszeichen – z. B. A["Text"], B{"Frage?"}, -->|"Beschriftung"|.';
+    }
+    if (/(?<=[A-Za-z0-9_])>[^"\]]*[\p{L}\p{N}]/u.test(ohneKantenlabels)) {
+      return 'flowchart: Beschriftungen gehören in Anführungszeichen – auch in der Fahnen-Form D>"Text"].';
+    }
+    // (b) unquotierte Inline-Kantenbeschriftungen (A -- Text --> B),
+    if (
+      /(?<!-)--[ \t]+[^">\s-]/.test(ohneKantenlabels) ||
+      /-\.[ \t]+[^".\s]/.test(ohneKantenlabels) ||
+      /(?<!=)==[ \t]+[^"=\s]/.test(ohneKantenlabels)
+    ) {
+      return 'flowchart: Kantenbeschriftungen gehören in Anführungszeichen – z. B. A -- "Beschriftung" --> B.';
+    }
+    // (c) Knoten ohne Beschriftung: Mermaid zeigt sonst die rohe id
+    // als sichtbaren (unübersetzbaren) Text an. Konvention: erst alle
+    // Knoten mit Beschriftung definieren, dann die Verbindungen.
+    const schluesselwoerter = new Set([
+      "flowchart",
+      "graph",
+      "subgraph",
+      "end",
+      "direction",
+      "TB",
+      "TD",
+      "BT",
+      "RL",
+      "LR",
+    ]);
+    const definierte = new Set<string>();
+    for (const treffer of maskiert.matchAll(
+      /([A-Za-z0-9_](?:[A-Za-z0-9_-]*[A-Za-z0-9_])?)(?=\[|\(|\{|>)/g,
+    )) {
+      definierte.add(treffer[1]);
+    }
+    for (const treffer of maskiert.matchAll(/[A-Za-z0-9_-]+/g)) {
+      const kennung = treffer[0].replace(/^-+|-+$/g, "");
+      if (kennung.length === 0 || !/[A-Za-z0-9]/.test(kennung)) continue;
+      if (schluesselwoerter.has(kennung) || definierte.has(kennung)) continue;
+      return `flowchart: Der Knoten «${kennung}» hat keine Beschriftung – jedem Knoten einmal eine Form mit Anführungszeichen geben (z. B. ${kennung}["…"]); danach reicht die nackte id in Verbindungen. (Trifft die Meldung einen Pfeil, ist dessen Form nicht unterstützt – nur -->, ---, -.-> und ==> verwenden.)`;
+    }
+  }
+  return null;
+}
+
+/**
+ * Schaubild als Daten (NEU seit 21.9.2026): Statt eines gerenderten
+ * Bilds mit eingebranntem Text trägt der Block eine Mermaid-Definition
+ * – der Player rendert sie lokal (gebündeltes Mermaid, KEIN CDN) mit
+ * securityLevel "strict"; Beschriftungen laufen durch die normale
+ * Übersetzungs-Ableitung (uebersetzung/felder.ts, Klasse "diagramm"),
+ * die Mermaid-Syntax selbst ist invariant. Kein prüfender Block.
+ * ROLLOUT: Für ältere Player ist "diagramm" ein unbekannter Blocktyp
+ * (unknownBlockSchema-Platzhalter) – Module bleiben dort gültig.
+ */
+export const diagrammBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("diagramm"),
+    /**
+     * Mermaid-Definition (Typen: DIAGRAMM_ERLAUBTE_TYPEN).
+     * Beschriftungs-Konvention je Typ erzwingt diagrammDefinitionFehler
+     * – flowchart/graph/mindmap: alle Texte in "…", timeline: Texte
+     * ohne Anführungszeichen (jeder Text ist dort Beschriftung).
+     */
+    definition: z.string().min(1).max(5000),
+    /**
+     * Pflicht-Textbeschreibung des Schaubilds (reiner Text): Alt-Text
+     * für Screenreader, Vorlese-Quelle und ehrlicher Fallback, wenn
+     * das Rendern scheitert. Wird mitübersetzt.
+     */
+    beschreibung: z.string().trim().min(1).max(2000),
+  })
+  .superRefine((block, ctx) => {
+    const fehler = diagrammDefinitionFehler(block.definition);
+    if (fehler) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["definition"],
+        message: `Diagramm: ${fehler}`,
+      });
+    }
+  });
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
@@ -2700,6 +3124,7 @@ export const knownBlockSchema = z.discriminatedUnion("type", [
   termBlockSchema,
   planspielBlockSchema,
   simulationBlockSchema,
+  diagrammBlockSchema,
 ]);
 
 export const KNOWN_BLOCK_TYPES = [
@@ -2716,6 +3141,7 @@ export const KNOWN_BLOCK_TYPES = [
   "term",
   "planspiel",
   "simulation",
+  "diagramm",
 ] as const;
 
 /**
@@ -2957,6 +3383,7 @@ export type PlanspielBlock = z.infer<typeof planspielBlockSchema>;
 export type SimulationAntwort = z.infer<typeof simulationAntwortSchema>;
 export type SimulationKnoten = z.infer<typeof simulationKnotenSchema>;
 export type SimulationBlock = z.infer<typeof simulationBlockSchema>;
+export type DiagrammBlock = z.infer<typeof diagrammBlockSchema>;
 export type KnownBlock = z.infer<typeof knownBlockSchema>;
 export type UnknownBlock = z.infer<typeof unknownBlockSchema>;
 export type Block = z.infer<typeof blockSchema>;
