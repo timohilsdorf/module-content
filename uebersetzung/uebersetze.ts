@@ -30,6 +30,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   FASSUNG_MUSTER,
   MODULES_DIR,
@@ -180,7 +181,8 @@ export function extrahiere(masterRaw: unknown): {
           text: label.text,
           kontext:
             `${norm} (Diagramm-Beschriftung: KEINE Anführungszeichen` +
-            (typ === "timeline" ? ", KEIN Doppelpunkt" : "") +
+            // title/section-Zeilen (ganzzeilig) dürfen ":" enthalten.
+            (typ === "timeline" && !label.ganzzeilig ? ", KEIN Doppelpunkt" : "") +
             ")",
           limit: DIAGRAMM_LABEL_MAX_ZEICHEN,
         });
@@ -857,5 +859,10 @@ async function main(): Promise<void> {
 }
 
 // Nur als CLI ausführen – test-diagramm.ts importiert extrahiere() ohne
-// die Kommandozeilen-Seiteneffekte.
-if (process.argv[1]?.endsWith("uebersetze.ts")) void main();
+// die Kommandozeilen-Seiteneffekte. Pfadbasiert und endungstolerant:
+// «tsx uebersetzung/uebersetze» (ohne .ts) lässt argv[1] endungslos –
+// ein blosser endsWith(".ts") machte den Aufruf zum stillen No-op
+// (Review-Fund).
+const argvPfad = path.resolve(process.argv[1] ?? "").replace(/\.m?[tj]s$/, "");
+const eigenerPfad = fileURLToPath(import.meta.url).replace(/\.m?[tj]s$/, "");
+if (argvPfad === eigenerPfad) void main();

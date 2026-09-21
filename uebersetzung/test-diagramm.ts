@@ -122,13 +122,45 @@ check(
   vergleicheStruktur(master, fassungOk).join(" | "),
 );
 
+// Zusätzlicher Knoten: Die Label-ANZAHL schlägt zuerst an (Review-Fix
+// 21.9.2026 – bei timeline wäre Streichen/Erfinden maskengleich).
+const fassungMehr = JSON.parse(JSON.stringify(fassungOk)) as typeof master;
+fassungMehr.blocks[0].definition = 'flowchart TD\n  A["Need"] --> B["Purchase"]\n  B --> C["Extra"]';
+const mehrFehler = vergleicheStruktur(master, fassungMehr);
+check(
+  "zusätzliche Beschriftung wird als Anzahl-Fehler gemeldet",
+  mehrFehler.some((f) => f.includes("statt 2 Diagramm-Beschriftungen")),
+  mehrFehler.join(" | "),
+);
+// Gleiche Label-Anzahl, andere Syntax (Pfeilform): maskierter Vergleich.
 const fassungSyntax = JSON.parse(JSON.stringify(fassungOk)) as typeof master;
-fassungSyntax.blocks[0].definition = 'flowchart TD\n  A["Need"] --> B["Purchase"]\n  B --> C["Extra"]';
+fassungSyntax.blocks[0].definition = 'flowchart TD\n  A["Need"] --- B["Purchase"]';
 const syntaxFehler = vergleicheStruktur(master, fassungSyntax);
 check(
   "veränderte Mermaid-Syntax wird als Struktur-Fehler gemeldet",
   syntaxFehler.some((f) => f.includes("Mermaid-Syntax")),
   syntaxFehler.join(" | "),
+);
+// timeline: gestrichener Ereignistext bleibt maskengleich, fällt aber
+// über die Label-Anzahl auf (Review-Fund, reproduzierter Angriff).
+const masterZeit = {
+  title: "T",
+  blocks: [
+    {
+      type: "diagramm",
+      id: "z1",
+      definition: "timeline\n  title Geldgeschichte\n  1900 : Goldstandard\n  2020 : Digitales Geld",
+      beschreibung: "Zeitleiste.",
+    },
+  ],
+};
+const zeitFassung = JSON.parse(JSON.stringify(masterZeit)) as typeof masterZeit;
+zeitFassung.blocks[0].definition = "timeline\n  title Geldgeschichte\n  1900 : \n  2020 : Digitales Geld";
+const zeitFehler = vergleicheStruktur(masterZeit, zeitFassung);
+check(
+  "timeline: gestrichener Ereignistext wird über die Label-Anzahl erkannt",
+  zeitFehler.some((f) => f.includes("Diagramm-Beschriftungen")),
+  zeitFehler.join(" | "),
 );
 
 const fassungStart = JSON.parse(JSON.stringify(fassungOk)) as typeof master;

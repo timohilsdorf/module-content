@@ -2801,7 +2801,10 @@ export const DIAGRAMM_VERBOTENE_SYNTAX: ReadonlyArray<{
   { muster: /\bhref\b/i, grund: "href-Link" },
   { muster: /\bclassDef\b/i, grund: "classDef-Styling" },
   { muster: /\blinkStyle\b/i, grund: "linkStyle-Styling" },
-  { muster: /^\s*style\s/im, grund: "style-Anweisung" },
+  // Wortgrenze statt Zeilenanfang: «A --> B; style A fill:#f00» wäre
+  // sonst durchgerutscht (Review-Fund); Fehlalarme drohen nicht, die
+  // Prüfung läuft auf der maskierten Definition ohne Beschriftungen.
+  { muster: /\bstyle\b/i, grund: "style-Anweisung" },
   { muster: /:::/, grund: "Klassen-Kurzform (:::)" },
   { muster: /::icon/i, grund: "Icon-Anweisung (::icon)" },
   { muster: /@\{/, grund: "Knoten-Metadaten (@{ … })" },
@@ -2815,6 +2818,15 @@ export interface DiagrammLabel {
   ende: number;
   /** Der Beschriftungstext. */
   text: string;
+  /**
+   * true = timeline-title/section-Rest (ganze Zeile ab Schlüsselwort):
+   * Dort ist ein Doppelpunkt IM Text erlaubt – die Zeile wird als EIN
+   * Label re-extrahiert, das Rückschreiben bleibt invertierbar. Nur
+   * die ":"-getrennten EREIGNIS-Abschnitte verbieten den Doppelpunkt
+   * (Review-Fund 21.9.2026: «title Projekt: Phasen» ist gültig und
+   * muss übersetzbar bleiben).
+   */
+  ganzzeilig?: boolean;
 }
 
 /**
@@ -2864,7 +2876,7 @@ function timelineSpannen(definition: string): DiagrammLabel[] | string {
     if (schluessel) {
       const start = anfang + schluessel[0].length;
       const text = getrimmt.slice(schluessel[0].length);
-      spannen.push({ start, ende: start + text.length, text });
+      spannen.push({ start, ende: start + text.length, text, ganzzeilig: true });
     } else {
       let pos = anfang;
       for (const teil of getrimmt.split(":")) {
@@ -2939,7 +2951,7 @@ export function ersetzeDiagrammLabels(
       `Diagramm: ${texte.length} Übersetzungen für ${spannen.length} Beschriftungen.`,
     );
   }
-  for (const text of texte) {
+  texte.forEach((text, i) => {
     const getrimmt = text.trim();
     if (getrimmt.length === 0) throw new Error("Diagramm: leere Übersetzung.");
     if (/[\n"]/.test(getrimmt)) {
@@ -2947,12 +2959,14 @@ export function ersetzeDiagrammLabels(
         `Diagramm: Übersetzung enthält Zeilenumbruch oder Anführungszeichen (") – nicht darstellbar: «${getrimmt.slice(0, 40)}»`,
       );
     }
-    if (typ === "timeline" && getrimmt.includes(":")) {
+    // Nur EREIGNIS-Abschnitte: In title/section-Zeilen (ganzzeilig) ist
+    // ":" erlaubt und invertierbar (s. DiagrammLabel.ganzzeilig).
+    if (typ === "timeline" && !spannen[i].ganzzeilig && getrimmt.includes(":")) {
       throw new Error(
         `Diagramm: timeline-Übersetzung enthält einen Doppelpunkt (Trennzeichen) – umformulieren: «${getrimmt.slice(0, 40)}»`,
       );
     }
-  }
+  });
   let ergebnis = "";
   let pos = 0;
   spannen.forEach((spanne, i) => {
@@ -3014,7 +3028,7 @@ export function diagrammDefinitionFehler(definition: string): string | null {
         kopfGesehen = true;
         continue;
       }
-      if (!/^[A-Za-z0-9_-]*(?:\(\(""\)\)|\[""\]|\(""\)|\{\{""\}\})$/.test(getrimmt)) {
+      if (!/^[\p{L}\p{N}_-]*(?:\(\(""\)\)|\[""\]|\(""\)|\{\{""\}\})$/u.test(getrimmt)) {
         return `mindmap: Jeder Knoten braucht eine Form mit Beschriftung in Anführungszeichen – z. B. wurzel(("…")), a["…"], b("…") oder c{{"…"}}; die Zeile «${getrimmt.slice(0, 40)}» nicht.`;
       }
     }
@@ -3025,7 +3039,7 @@ export function diagrammDefinitionFehler(definition: string): string | null {
     // zuerst entfernen – die SCHLIESSENDE Pipe stünde sonst direkt vor
     // dem Folgeknoten («|""| C») und fiele als Fehlalarm in die
     // Klammer-Prüfung. (a) Text direkt in Form-Klammern,
-    const ohneKantenlabels = maskiert.replaceAll('|""|', " ");
+    const ohneKantenlabels = maskiert.replace(/\|""[ \t]*\|/g, " ");
     if (/[\[({|][^"\])}|]*[\p{L}\p{N}]/u.test(ohneKantenlabels)) {
       return 'flowchart: Beschriftungen gehören in Anführungszeichen – z. B. A["Text"], B{"Frage?"}, -->|"Beschriftung"|.';
     }
@@ -3043,27 +3057,29 @@ export function diagrammDefinitionFehler(definition: string): string | null {
     // (c) Knoten ohne Beschriftung: Mermaid zeigt sonst die rohe id
     // als sichtbaren (unübersetzbaren) Text an. Konvention: erst alle
     // Knoten mit Beschriftung definieren, dann die Verbindungen.
-    const schluesselwoerter = new Set([
-      "flowchart",
-      "graph",
-      "subgraph",
-      "end",
-      "direction",
-      "TB",
-      "TD",
-      "BT",
-      "RL",
-      "LR",
-    ]);
+    // Kopf- und direction-Zeilen fliegen VOR dem Scan raus – die
+    // Richtungs-Wörter kontextlos zu erlauben liesse «A --> LR» durch
+    // (LR wäre ein sichtbarer, unübersetzbarer Knoten; Review-Fund).
+    // Beide Scans Unicode-fähig wie die Prüfungen (a)/(b): «Prüfung»
+    // zerfiel ASCII-only in Fragmente und erzeugte Fehlalarme.
+    const scanBasis = ohneKantenlabels
+      .split("\n")
+      .filter(
+        (zeile) =>
+          !/^\s*(?:flowchart|graph)(?:\s+(?:TB|TD|BT|RL|LR))?\s*$/.test(zeile) &&
+          !/^\s*direction\s+(?:TB|TD|BT|RL|LR)\s*$/.test(zeile),
+      )
+      .join("\n");
+    const schluesselwoerter = new Set(["subgraph", "end"]);
     const definierte = new Set<string>();
-    for (const treffer of maskiert.matchAll(
-      /([A-Za-z0-9_](?:[A-Za-z0-9_-]*[A-Za-z0-9_])?)(?=\[|\(|\{|>)/g,
+    for (const treffer of scanBasis.matchAll(
+      /([\p{L}\p{N}_](?:[\p{L}\p{N}_-]*[\p{L}\p{N}_])?)(?=\[|\(|\{|>)/gu,
     )) {
       definierte.add(treffer[1]);
     }
-    for (const treffer of maskiert.matchAll(/[A-Za-z0-9_-]+/g)) {
+    for (const treffer of scanBasis.matchAll(/[\p{L}\p{N}_-]+/gu)) {
       const kennung = treffer[0].replace(/^-+|-+$/g, "");
-      if (kennung.length === 0 || !/[A-Za-z0-9]/.test(kennung)) continue;
+      if (kennung.length === 0 || !/[\p{L}\p{N}]/u.test(kennung)) continue;
       if (schluesselwoerter.has(kennung) || definierte.has(kennung)) continue;
       return `flowchart: Der Knoten «${kennung}» hat keine Beschriftung – jedem Knoten einmal eine Form mit Anführungszeichen geben (z. B. ${kennung}["…"]); danach reicht die nackte id in Verbindungen. (Trifft die Meldung einen Pfeil, ist dessen Form nicht unterstützt – nur -->, ---, -.-> und ==> verwenden.)`;
     }

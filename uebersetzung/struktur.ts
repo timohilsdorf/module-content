@@ -13,6 +13,7 @@ import {
   PAKET_FREIE_UNTERBAEUME,
 } from "./felder";
 import {
+  extrahiereDiagrammLabels,
   maskiereDiagrammLabels,
   punkteVonBlock,
   type LearningModule,
@@ -120,14 +121,28 @@ export function vergleicheStruktur(
       }
       // Diagramm-Definition: NUR die Beschriftungen dürfen abweichen –
       // maskiert (Labels entfernt) müssen Master und Fassung
-      // byteidentisch sein (gleiche Knoten, Pfeile, Reihenfolge).
-      if (
-        klasse === "diagramm" &&
-        maskiereDiagrammLabels(m) !== maskiereDiagrammLabels(f)
-      ) {
-        fehler.push(
-          `${stelle}: Die Mermaid-Syntax weicht vom Master ab – übersetzt werden nur die Beschriftungen, Knoten/Pfeile/Struktur müssen identisch bleiben.`,
-        );
+      // byteidentisch sein (gleiche Knoten, Pfeile, Reihenfolge), und
+      // zusätzlich muss die Label-ANZAHL stimmen: Bei timeline hängen
+      // Labels an blossem Text zwischen Trennern – eine Fassung könnte
+      // Ereignistexte sonst streichen oder erfinden, ohne die Maske zu
+      // ändern (Review-Fund; "1900 : " maskiert identisch zu
+      // "1900 : Goldstandard").
+      if (klasse === "diagramm") {
+        const mLabels = extrahiereDiagrammLabels(m);
+        const fLabels = extrahiereDiagrammLabels(f);
+        if (
+          Array.isArray(mLabels) &&
+          Array.isArray(fLabels) &&
+          mLabels.length !== fLabels.length
+        ) {
+          fehler.push(
+            `${stelle}: ${fLabels.length} statt ${mLabels.length} Diagramm-Beschriftungen – Texte dürfen übersetzt, aber nie gestrichen oder ergänzt werden.`,
+          );
+        } else if (maskiereDiagrammLabels(m) !== maskiereDiagrammLabels(f)) {
+          fehler.push(
+            `${stelle}: Die Mermaid-Syntax weicht vom Master ab – übersetzt werden nur die Beschriftungen, Knoten/Pfeile/Struktur müssen identisch bleiben.`,
+          );
+        }
       }
       return;
     }
