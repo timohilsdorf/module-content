@@ -2,7 +2,7 @@
  "schemaVersion": 3,
  "id": "demo-blockformat",
  "title": "So funktioniert ein EveryCate-Modul",
- "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Schaubild (Diagramm), Video, Audio, Aufgaben, Lückentexte (inkl. Satzbau), Zuordnung, Zahlenaufgaben, Term-Aufgaben, Achsen-Aufgaben, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
+ "description": "Technisches Demo-Modul: zeigt alle Blocktypen des Content-Formats – Text, Bild, Schaubild (Diagramm und Handzeichnung), Video, Audio, Aufgaben, Lückentexte (inkl. Satzbau), Zuordnung, Zahlenaufgaben, Term-Aufgaben, Achsen-Aufgaben, Simulation, Planspiel und ein Quiz mit Auswertung. Lebt wie jedes Modul im offenen Content-Repository und wird per Pull Request gepflegt.",
  "curricula": [
   {
    "curriculum": "li",
@@ -59,7 +59,7 @@
   {
    "type": "text",
    "title": "Willkommen",
-   "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Schaubild (Diagramm), Video, Audio, Aufgaben, Lückentexte, Zuordnung, Zahlenaufgaben, Term-Aufgaben, Achsen-Aufgaben, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
+   "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Schaubild (Diagramm und Handzeichnung), Video, Audio, Aufgaben, Lückentexte, Zuordnung, Zahlenaufgaben, Term-Aufgaben, Achsen-Aufgaben, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
   },
   {
    "type": "image",
@@ -75,6 +75,477 @@
    "title": "Der Diagramm-Block (Schaubild als Daten)",
    "definition": "flowchart TD\n  A[\"Autorin schreibt module.json\"] --> B[\"Pull Request im Content-Repo\"]\n  B -->|\"validate prüft\"| C{\"Alles gültig?\"}\n  C -->|\"ja\"| D[\"Merge und Deployment\"]\n  C -->|\"nein\"| E[\"Korrektur im PR\"]\n  E --> B",
    "beschreibung": "Flussdiagramm des Veröffentlichungswegs: Eine Autorin schreibt die module.json und eröffnet einen Pull Request im Content-Repository. Die automatische Validierung prüft ihn. Ist alles gültig, folgen Merge und Deployment; sonst wird im Pull Request korrigiert und erneut geprüft."
+  },
+  {
+   "type": "schaubild",
+   "id": "schaubild-demo",
+   "title": "Der Schaubild-Block (Handzeichnung)",
+   "szene": {
+    "elemente": [
+     {
+      "id": "angebot",
+      "x": 0,
+      "y": 40,
+      "width": 220,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d3f4ee",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+       "type": 3
+      },
+      "seed": 834100416,
+      "type": "rectangle"
+     },
+     {
+      "id": "nachfrage",
+      "x": 0,
+      "y": 250,
+      "width": 220,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffe3e3",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+       "type": 3
+      },
+      "seed": 1837748032,
+      "type": "rectangle"
+     },
+     {
+      "id": "markt",
+      "x": 420,
+      "y": 140,
+      "width": 240,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1680721088,
+      "type": "ellipse"
+     },
+     {
+      "id": "pfeil-angebot",
+      "x": 225.5,
+      "y": 100.5,
+      "width": 189,
+      "height": 69,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 302901056,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        189,
+        69
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-nachfrage",
+      "x": 225.5,
+      "y": 279.5,
+      "width": 189,
+      "height": 69,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1268198592,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        189,
+        -69
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "merksatz",
+      "x": 0,
+      "y": 420,
+      "width": 388.81,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1045364544,
+      "type": "text",
+      "text": "Je knapper ein Gut, desto höher steigt sein Preis.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "xv4JpmLtyNhpdTqY2NRAg",
+      "x": 41.7,
+      "y": 60,
+      "width": 136.59,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 792382656,
+      "type": "text",
+      "text": "Angebot\n(Verkäuferinnen)",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "angebot",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "jaZFxnOVScHLQ0i_lFcB8",
+      "x": 53.36,
+      "y": 270,
+      "width": 113.27,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069757632,
+      "type": "text",
+      "text": "Nachfrage\n(Käuferinnen)",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "nachfrage",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "QHZH9Xa6ehlqgXiX6eQBl",
+      "x": 472.94,
+      "y": 170.11,
+      "width": 134.41,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1929288896,
+      "type": "text",
+      "text": "Markt: Der Preis entsteht",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "markt",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "uZO5YCTykJKzBi5oWbH1N",
+      "x": 292.68,
+      "y": 125,
+      "width": 54.64,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2056062144,
+      "type": "text",
+      "text": "bietet an",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-angebot",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "PqPacaflFtbWe-8KWZ3x6",
+      "x": 287.8,
+      "y": 235,
+      "width": 64.41,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1869233344,
+      "type": "text",
+      "text": "fragt nach",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-nachfrage",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "unterstrich",
+      "x": 0,
+      "y": 452,
+      "width": 440,
+      "height": 8,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 777,
+      "type": "freedraw",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        11,
+        0.98
+       ],
+       [
+        22,
+        1.86
+       ],
+       [
+        33,
+        2.52
+       ],
+       [
+        44,
+        2.92
+       ],
+       [
+        55,
+        2.99
+       ],
+       [
+        66,
+        2.73
+       ],
+       [
+        77,
+        2.17
+       ],
+       [
+        88,
+        1.37
+       ],
+       [
+        99,
+        0.42
+       ],
+       [
+        110,
+        -0.57
+       ],
+       [
+        121,
+        -1.5
+       ],
+       [
+        132,
+        -2.27
+       ],
+       [
+        143,
+        -2.79
+       ],
+       [
+        154,
+        -3
+       ],
+       [
+        165,
+        -2.88
+       ],
+       [
+        176,
+        -2.44
+       ],
+       [
+        187,
+        -1.73
+       ],
+       [
+        198,
+        -0.84
+       ],
+       [
+        209,
+        0.15
+       ],
+       [
+        220,
+        1.12
+       ],
+       [
+        231,
+        1.97
+       ],
+       [
+        242,
+        2.6
+       ],
+       [
+        253,
+        2.95
+       ],
+       [
+        264,
+        2.97
+       ],
+       [
+        275,
+        2.66
+       ],
+       [
+        286,
+        2.06
+       ],
+       [
+        297,
+        1.24
+       ],
+       [
+        308,
+        0.27
+       ],
+       [
+        319,
+        -0.72
+       ],
+       [
+        330,
+        -1.63
+       ],
+       [
+        341,
+        -2.37
+       ],
+       [
+        352,
+        -2.84
+       ],
+       [
+        363,
+        -3
+       ],
+       [
+        374,
+        -2.83
+       ],
+       [
+        385,
+        -2.35
+       ],
+       [
+        396,
+        -1.61
+       ],
+       [
+        407,
+        -0.69
+       ],
+       [
+        418,
+        0.3
+       ],
+       [
+        429,
+        1.26
+       ],
+       [
+        440,
+        2.08
+       ]
+      ],
+      "simulatePressure": true
+     }
+    ]
+   },
+   "beschreibung": "Handgezeichnetes Schaubild zur Preisbildung: Ein Kasten «Angebot (Verkäuferinnen)» und ein Kasten «Nachfrage (Käuferinnen)» zeigen mit beschrifteten Pfeilen («bietet an», «fragt nach») auf eine Ellipse «Markt: Der Preis entsteht». Darunter steht der unterstrichene Merksatz: Je knapper ein Gut, desto höher steigt sein Preis."
   },
   {
    "type": "video",

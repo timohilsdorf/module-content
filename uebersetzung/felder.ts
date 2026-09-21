@@ -155,6 +155,14 @@ const REGELN: ReadonlyArray<[RegExp, FeldKlasse]> = [
   // --- diagramm (Schaubild als Mermaid-Daten, 21.9.2026) -------------------
   [/^blocks\[\]\.definition$/, "diagramm"],
   [/^blocks\[\]\.beschreibung$/, "uebersetzt"],
+  // --- schaubild (Excalidraw-Szene, 21.9.2026) -----------------------------
+  // NUR die Textinhalte der Elemente werden übersetzt; alle übrigen
+  // String-Blätter der Szene sind invariante Struktur (Zahlen deckt
+  // der generische Blatt-Vergleich ab). beschreibung greift über die
+  // Regel oben (gleicher Feldname wie beim diagramm-Block).
+  [/^blocks\[\]\.szene\.elemente\[\]\.text$/, "uebersetzt"],
+  [/^blocks\[\]\.szene\.elemente\[\]\.(type|id|strokeColor|backgroundColor|fillStyle|strokeStyle|textAlign|verticalAlign|containerId|startArrowhead|endArrowhead)$/, "invariant"],
+  [/^blocks\[\]\.szene\.hintergrund$/, "invariant"],
 ];
 
 /** Pfad-Array → normalisierter Pfad ("blocks[].questions[].prompt"). */

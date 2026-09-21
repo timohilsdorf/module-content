@@ -243,6 +243,26 @@ Vorschläge machen und prüfst sie dort nach).
 >      (A --> B). Kein HTML/<br/>, keine click/style-Anweisungen –
 >      lehnt die Validierung ab. Fotos und Illustrationen bleiben
 >      image-Blöcke.
+>   14. {"type":"schaubild","id":"bild1","title":"…",
+>      "szene": <kompletter Excalidraw-Export als JSON>,
+>      "beschreibung":"Pflicht: Was zeigt das Schaubild? (Text für
+>      Screenreader und Vorlesen, Ersatz bei Renderfehlern)"}
+>      – GESTALTETES Schaubild im Handzeichnungs-Stil, wenn der
+>      diagramm-Block nicht reicht (Kurven, Mengendiagramme, freie
+>      Layouts, nachgebaute Oberflächen): Auf excalidraw.com zeichnen
+>      (nur Formen, Pfeile, Linien, Freihand und Text in der
+>      Handschrift «Hand-drawn»; Beschriftungen als GEBUNDENE Labels =
+>      Text direkt auf der Form tippen), dann Menü → Export → «Save to
+>      disk» und den Inhalt der .excalidraw-Datei als "szene"
+>      einfügen; danach npm run schaubild-verschlanken -- <modul-id>
+>      laufen lassen (schreibt die kanonische, schlanke Szene in die
+>      Datei – die Validierung verlangt sie). WICHTIG: Kästen
+>      GROSSZÜGIG anlegen, damit Übersetzungen Platz haben – längere
+>      Texte lassen Kästen wachsen, Pfeile und Nachbarn rücken aber
+>      nicht zur Seite. Keine Bilder, Links oder Einbettungen (werden
+>      abgelehnt). Schaubilder mit Text NIE als gerendertes Bild
+>      einchecken – Bilder bleiben Fotos und Illustrationen ohne
+>      wesentlichen Text vorbehalten.
 > - Quizze sind normale Blöcke in "blocks": {"type":"quiz","id":"quiz1",
 >   "title":"…","questions":[…]} – beliebig oft und an beliebiger
 >   Position (z. B. ein kurzes Quiz nach jedem Kapitel oder eines am

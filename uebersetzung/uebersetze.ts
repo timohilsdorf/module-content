@@ -58,6 +58,8 @@ import { vergleicheStruktur, vergleichePunkte } from "./struktur";
 import { findHtmlTags, findMarkdownImages } from "./text-pruefung";
 import {
   DIAGRAMM_LABEL_MAX_ZEICHEN,
+  schaubildSzeneSchema,
+  schaubildUeberlaufHinweise,
   diagrammDefinitionFehler,
   diagrammTyp,
   ersetzeDiagrammLabels,
@@ -142,6 +144,7 @@ interface PaketInhalt {
 }
 
 const LIMITS: ReadonlyArray<[RegExp, number]> = [
+  [/szene\.elemente\[\]\.text$/, 500],
   [/\.beschriftung$/, 60],
   [/\.kategorien\[\]$/, 40],
   [/elemente\[\]\.text$/, 80],
@@ -195,7 +198,13 @@ export function extrahiere(masterRaw: unknown): {
       schluessel: pfadSchluessel(pfad),
       pfad: [...pfad],
       text,
-      kontext: norm,
+      // Schaubild-Beschriftungen haben feste Zeichenflächen: Der
+      // Prompt bittet um ähnliche Länge; echte Überläufe meldet
+      // schaubildUeberlaufHinweise nach dem Zusammensetzen.
+      kontext:
+        norm === "blocks[].szene.elemente[].text"
+          ? `${norm} (Schaubild-Beschriftung: Platz ist begrenzt, ähnliche Länge anstreben)`
+          : norm,
       limit,
     });
   });
@@ -687,6 +696,27 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
         }
       }
     }
+  }
+
+  // Schaubild-Überlauf-HINWEISE (nicht blockierend): Excalidraw
+  // speichert feste Positionen/Grössen – längere Übersetzungen lassen
+  // Kästen wachsen oder überlappen Nachbarn. Die Schätzung nutzt den
+  // zeichengenau verifizierten Wrap-Nachbau aus der SYNC-Region;
+  // Befunde gehören ins Gegenlesen (Korrekturhinweis setzen), nicht
+  // in einen harten Abbruch.
+  {
+    const masterBloecke = masterRaw.blocks as Record<string, unknown>[];
+    const fassungsBloecke = inhalt.blocks as Record<string, unknown>[];
+    masterBloecke.forEach((block, i) => {
+      if (block.type !== "schaubild") return;
+      const mSzene = schaubildSzeneSchema.safeParse(block.szene);
+      const fSzene = schaubildSzeneSchema.safeParse(fassungsBloecke[i]?.szene);
+      if (!mSzene.success || !fSzene.success) return; // validate meldet
+      const hinweise = schaubildUeberlaufHinweise(mSzene.data, fSzene.data);
+      for (const hinweis of hinweise) {
+        console.warn(`⚠ blocks[${i}] (schaubild): ${hinweis}`);
+      }
+    });
   }
 
   // Metafelder + Prüfsummen.

@@ -63,6 +63,7 @@ import {
   VIDEO_DATEI_MUSTER,
   type LearningModule,
   type TermKnoten,
+  SCHAUBILD_SZENE_WARN_BYTES,
 } from "./schema";
 
 // Schlanke Parse-Instanz für term-Musterlösungen (nur parse, kein
@@ -396,6 +397,34 @@ function checkModule(
   // --- Teilkompetenzen: jede referenzierte Kennung braucht einen ----------
   // Register-Eintrag (Fassungen prüft der Hauptlauf mit derselben Funktion).
   errors.push(...teilkompetenzReferenzFehler(mod));
+
+  // --- schaubild: Szene muss KANONISCH (verschlankt) in der Datei ---------
+  // stehen. Das Schema verdaut auch rohe Editor-Exporte (transform
+  // verschlankt beim Parsen) – im Repo sollen aber nur die schlanken
+  // Szenen liegen (Modulgrösse; byte-stabile Übersetzungs-Vergleiche).
+  {
+    const rohBloecke =
+      raw && typeof raw === "object"
+        ? ((raw as Record<string, unknown>).blocks as unknown[] | undefined)
+        : undefined;
+    mod.blocks.forEach((block, i) => {
+      if (!isKnownBlock(block) || block.type !== "schaubild") return;
+      const rohSzene = (rohBloecke?.[i] as Record<string, unknown> | undefined)
+        ?.szene;
+      const kanonisch = JSON.stringify(block.szene);
+      if (JSON.stringify(rohSzene) !== kanonisch) {
+        errors.push(
+          `blocks[${i}] (schaubild): Die Szene ist noch nicht verschlankt – bitte npm run schaubild-verschlanken -- ${slug} ausführen (schreibt die kanonische Form in die Datei).`,
+        );
+      }
+      const bytes = Buffer.byteLength(kanonisch, "utf8");
+      if (bytes > SCHAUBILD_SZENE_WARN_BYTES) {
+        hints.push(
+          `blocks[${i}] (schaubild): Szene ist ${Math.round(bytes / 1024)} KB gross (Warnschwelle ${Math.round(SCHAUBILD_SZENE_WARN_BYTES / 1024)} KB, hartes Limit ${Math.round(262144 / 1024)} KB) – Freihand-Striche sparen oder aufteilen.`,
+        );
+      }
+    });
+  }
 
   // --- Blocktypen: nur implementierte + freigegebene Zukunftstypen --------
   for (const block of mod.blocks) {

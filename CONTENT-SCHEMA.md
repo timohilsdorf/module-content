@@ -30,6 +30,8 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** | 14. August 2026 | **Vereinheitlichte Lehrplan-Metadaten.** Die sechs Top-Level-Felder `subject`/`subjectName`/`cycle`/`grades`/`curriculum`/`competencies` **und** die Zuordnungstabelle `lehrplaene` sind ersetzt durch **ein** Feld [`curricula`](#mehrere-lehrpläne-curricula): eine **Liste** von Zuordnungen, je Eintrag `curriculum` (Kennung `li`/`ch`/`de`/`at`), `subject`/`subjectName`, Stufe und `competencies` (Code-Format frei). Die **Stufe** ist vereinheitlicht: Klassenstufen-**Zahlen** in `grades` (`[9]`, `[7, 8, 9]` – der Zyklus-Begriff entfällt, auch `li`/`ch` tragen Zahlen), davor ein **Bezeichner** («Stufe» bei `li`/`ch`, «Klasse» bei `de`/`at` – Standard-Wort aus der Lehrplan-Registry, per `gradesText` übersteuerbar; Anzeige «Stufe 7–9», «Klasse 9»). Module **ohne** Klassenstufe tragen nur `gradesText` (z. B. `"Erwachsene"` – ersetzt `selbststudium`, erscheint im Stufen-Filter nach allen Klassenstufen). Version-1/2-Dateien liest die **Plattform** weiterhin (verlustfreie Migration, wichtig für lokal eingeladene Module) – **dieses Repo nimmt nur noch Version 3 an** (Validator-Policy lehnt `schemaVersion` < 3 und die alten Top-Level-Felder mit Klartext-Meldung ab). Migrations-Mapping: siehe [Mehrere Lehrpläne](#mehrere-lehrpläne-curricula). **Achtung Rollout:** Ältere Player lehnen Version-3-Dateien hart ab – Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** (additiv) | 18. August 2026 | KEIN Versionswechsel: `languageLearning` am Master (Sprachlernmodule, werden nie übersetzt), `_hinweis` + `derivedFrom` in Sprachfassungen (`module.<lang>.json`). ACHTUNG Rollout: Plattform-Schema ZUERST deployen, erst danach Module/Fassungen mit den neuen Feldern mergen – ältere Plattform-Stände lehnen sie strikt ab. |
 | **3** (additiv) | 21. September 2026 | KEIN Versionswechsel, zwei Ergänzungen. (a) **Video-Untertitel:** optionales Feld [`transkriptSegmente`](#video--video-einbettung) am `video`-Block – zeitgestempelte Transkript-Segmente (Startzeit in Sekunden + Text), die der Player synchron zur Abspielposition als ein-/ausschaltbare Untertitel unter dem Video zeigt; die Übersetzung überträgt nur die Texte, die Startzeiten bleiben unverändert. Bei `provider: "vimeo"` nicht erlaubt (der Player kann die Abspielposition dort nicht lesen). **Achtung Rollout wie beim satzbau:** Ältere Player lehnen Module MIT dem Feld hart ab – erst NACH dem zugehörigen Plattform-Deploy einreichen. (b) Neuer Blocktyp [`diagramm`](#diagramm--schaubild-als-daten-mermaid) – Schaubilder als Mermaid-Definition statt gerendertem Bild (Typen `flowchart`/`graph`/`timeline`/`mindmap`), mit **Pflicht-Textbeschreibung** `beschreibung` (Barrierefreiheit, Vorlesen, Fallback); Beschriftungen laufen durch die normale Übersetzung, die Mermaid-Syntax ist unveränderlich. Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
+| **3** (additiv) | 21. September 2026 | KEIN Versionswechsel: neuer Blocktyp [`schaubild`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw) – **gestaltete Schaubilder im Handzeichnungs-Stil** als eingebettete Excalidraw-Szene (gezeichnet im kostenlosen Editor excalidraw.com, exportierte Szene als JSON direkt im Block; keine separate Datei, kein Vorrendern). Zulässig sind nur Formen, Pfeile, Linien, Freihand und Text (Handschrift Excalifont); eingebettete Webinhalte, Element-Links und Bilddateien (`files`) lehnt die Validierung ab. Pflicht-`beschreibung` (Barrierefreiheit); Szenen werden **verschlankt** gespeichert (`npm run schaubild-verschlanken`, Limit 256 KB); die Übersetzung überträgt **nur die Textinhalte der Elemente**, der Player vermisst Texte beim Rendern neu (Kästen wachsen mit) und die Übersetzungs-CI meldet Überläufe als Hinweise. Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
+
 
 ## Ablage
 
@@ -237,6 +239,75 @@ bliebe unübersetzt).
 - Ein Live-Beispiel steht im Demo-Modul
   ([`modules/demo-blockformat/module.json`](modules/demo-blockformat/module.json),
   Block `diagramm-demo`).
+
+### `schaubild` – gestaltetes Schaubild (Handzeichnung, Excalidraw)
+
+Seit 21.9.2026. Für **gestaltete** Schaubilder im Handzeichnungs-Stil,
+die mehr Freiheit brauchen als der [`diagramm`](#diagramm--schaubild-als-daten-mermaid)-Block:
+Kurvendiagramme, Mengendiagramme, Achsen-Layouts, nachgebaute
+Oberflächen, freie Anordnungen. Gezeichnet wird im kostenlosen Editor
+[excalidraw.com](https://excalidraw.com); die exportierte Szene steht
+als eingebettetes JSON **direkt im Block** – keine separate Datei,
+kein Vorrendern; der Player zeichnet zur Laufzeit (Bibliothek exakt
+gepinnt, Handschrift Excalifont/OFL-1.1 selbst gehostet). Mehrere
+Schaubilder in einem Modul sind mehrere Blöcke.
+
+```json
+{
+  "type": "schaubild",
+  "id": "preisbildung",
+  "title": "Vom Angebot zum Preis",
+  "szene": { "…": "hier den KOMPLETTEN Datei-Export (.excalidraw) einfügen" },
+  "beschreibung": "Pflicht: Was zeigt das Schaubild? (Screenreader, Vorlesen, Fallback)"
+}
+```
+
+**So entsteht ein Schaubild:**
+
+1. Auf excalidraw.com zeichnen – nur **Formen (Rechteck, Ellipse,
+   Raute), Pfeile, Linien, Freihand und Text**; als Schrift die
+   Handschrift («Hand-drawn», Excalifont). Beschriftungen als
+   **gebundene Labels** (Text direkt auf der Form tippen – er wandert
+   beim Übersetzen automatisch mit um).
+2. **Kästen grosszügig anlegen**: Übersetzungen sind oft länger; der
+   Player lässt Kästen in der Höhe mitwachsen, aber Pfeile und
+   Nachbarelemente rücken nicht zur Seite. Freistehender Text am
+   besten mit fester Breite (im Editor die Textbox aufziehen statt
+   nur klicken).
+3. Exportieren: Menü → «Export» → **«Save to disk»** (.excalidraw)
+   und den DATEI-INHALT als Wert von `"szene"` einfügen.
+4. `npm run schaubild-verschlanken -- <modul-id>` ausführen – das
+   Skript entfernt gelöschte Elemente, Versions-/Zeitstempel-Felder
+   und Rundungs-Rauschen und schreibt die **kanonische** Szene in die
+   Datei (die Validierung verlangt sie; typisch −60 bis −80 %
+   gegenüber dem Roh-Export). Grössenlimit: 256 KB pro Schaubild
+   (Warnung ab 128 KB).
+
+**Nicht erlaubt** (beide Validierer und der lokale Import lehnen ab):
+eingebettete Webinhalte (`embeddable`/`iframe`), Bilder (`image` +
+`files`), Frames, **Links an Elementen** (sie würden als klickbare
+Flächen im gerenderten Schaubild landen) sowie andere Schriftfamilien
+als die Handschrift (die alte Handschrift Virgil wird automatisch auf
+Excalifont umgestellt). `seed` bleibt gespeichert – er hält das
+Hand-Zittern der Striche deterministisch.
+
+**Übersetzung:** Die Ableitung übersetzt **ausschliesslich die
+Textinhalte** der Elemente; Koordinaten, Grössen und Struktur bleiben
+byteidentisch. Da Excalidraw feste Positionen speichert, meldet die
+Übersetzungs-CI als **Hinweise**, wo übersetzte Texte ihre Kästen
+sprengen (der Player lässt sie wachsen) oder Elemente sich neu
+überlappen – solche Stellen per Korrekturhinweis kürzen oder den
+Kasten im Editor vergrössern.
+
+**Abgrenzung:** Knoten-Kanten-Strukturen (Flussdiagramme, Zeitleisten,
+Mindmaps) gehören in den `diagramm`-Block (noch schlanker, rein
+textbasiert); **Fotos und Illustrationen ohne wesentlichen Text**
+bleiben `image`-Blöcke. Schaubilder mit Text sollen NICHT mehr als
+gerenderte Bilder eingecheckt werden.
+
+Ein Live-Beispiel steht im Demo-Modul
+([`modules/demo-blockformat/module.json`](modules/demo-blockformat/module.json),
+Block `schaubild-demo`).
 
 ### `video` – Video-Einbettung
 
@@ -1240,9 +1311,12 @@ Korrektur-Weg: [`UEBERSETZUNG.md`](UEBERSETZUNG.md).
 5. Nur lizenzrechtlich unbedenkliche Bilder/Videos einbetten und Quellen in
    `sources`/`credit` ausweisen; Video-Provider und Bild-Hosts müssen der
    Whitelist entsprechen.
-   Schaubilder mit Textinhalt (Kreisläufe, Ablaufdiagramme, Zeitleisten,
-   Mindmaps) bevorzugt als [`diagramm`](#diagramm--schaubild-als-daten-mermaid)-Block
-   statt als Bild – mit Pflicht-`beschreibung`.
+   Schaubilder mit Textinhalt gehören NICHT als gerenderte Bilder ins
+   Modul: Knoten-Kanten-Strukturen (Kreisläufe, Ablaufdiagramme,
+   Zeitleisten, Mindmaps) als [`diagramm`](#diagramm--schaubild-als-daten-mermaid)-Block,
+   gestaltete/freie Layouts (Kurven, Mengendiagramme, nachgebaute
+   Oberflächen) als [`schaubild`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw)-Block
+   – beide mit Pflicht-`beschreibung`.
 6. Jeden Quizblock und jede Quizfrage mit eindeutiger `id` versehen und
    Fragen mit `explanation` ergänzen.
 7. Zum Schluss `npm run validate` laufen lassen (oder das Modul gegen
