@@ -35,6 +35,10 @@ import {
 } from "./kern";
 import { uebersetzungsSperren } from "./felder";
 import { vergleicheStruktur, vergleichePunkte } from "./struktur";
+import {
+  schaubildSzeneSchema,
+  schaubildUeberlaufHinweise,
+} from "../schema/schema";
 import { findHtmlTags, findMarkdownImages } from "./text-pruefung";
 import type { LearningModule } from "../schema/schema";
 
@@ -211,6 +215,28 @@ export function pruefeFassungen(
     errors.push(
       ...vergleichePunkte(masterMod, fassung).map((f) => `${dateiName}: ${f}`),
     );
+
+    // Schaubild-Überläufe (HINWEISE, nicht blockierend): feste
+    // Excalidraw-Layouts vertragen längere Übersetzungen nur begrenzt
+    // – gemeldet wird, wo Kästen wachsen oder Elemente neu kollidieren
+    // (Wrap-Nachbau aus der SYNC-Region, zeichengenau verifiziert).
+    {
+      const masterBloecke = (masterRaw as Record<string, unknown>).blocks as
+        | Record<string, unknown>[]
+        | undefined;
+      const fassungsBloecke = (ohneMeta as Record<string, unknown>).blocks as
+        | Record<string, unknown>[]
+        | undefined;
+      masterBloecke?.forEach((block, i) => {
+        if (block.type !== "schaubild") return;
+        const mSzene = schaubildSzeneSchema.safeParse(block.szene);
+        const fSzene = schaubildSzeneSchema.safeParse(fassungsBloecke?.[i]?.szene);
+        if (!mSzene.success || !fSzene.success) return; // Schema meldet
+        for (const hinweis of schaubildUeberlaufHinweise(mSzene.data, fSzene.data)) {
+          hints.push(`${dateiName}: blocks[${i}] (schaubild): ${hinweis}`);
+        }
+      });
+    }
 
     // Übersetzte Texte: kein Roh-HTML, keine neuen Bild-URLs.
     let htmlGemeldet = 0;
