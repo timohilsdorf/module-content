@@ -29,6 +29,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | 2 | 13. August 2026 | Additiv (kein Versionswechsel): Lehrplan-Einträge dürfen statt einer Schulstufe die Stufe **`selbststudium: true`** tragen – für Module oberhalb der Schulzeit (z. B. das technische Demo-Modul); der Katalog führt sie unter der eigenen Stufe «Selbststudium» NACH der höchsten Klassenstufe. Zugleich zeigt die Modulseite die **Kompetenzverweise je Lehrplan**: Bei gewähltem Lehrplan erscheinen die `kompetenzen` des passenden `lehrplaene`-Eintrags (bzw. der impliziten Migration aus `competencies`); **fehlen sie für die Wahl, entfällt die Kompetenz-Zeile** – wer sie behalten will, pflegt `kompetenzen` in jedem Eintrag. **Achtung Rollout wie bei `lehrplaene`:** Module MIT `selbststudium` erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** | 14. August 2026 | **Vereinheitlichte Lehrplan-Metadaten.** Die sechs Top-Level-Felder `subject`/`subjectName`/`cycle`/`grades`/`curriculum`/`competencies` **und** die Zuordnungstabelle `lehrplaene` sind ersetzt durch **ein** Feld [`curricula`](#mehrere-lehrpläne-curricula): eine **Liste** von Zuordnungen, je Eintrag `curriculum` (Kennung `li`/`ch`/`de`/`at`), `subject`/`subjectName`, Stufe und `competencies` (Code-Format frei). Die **Stufe** ist vereinheitlicht: Klassenstufen-**Zahlen** in `grades` (`[9]`, `[7, 8, 9]` – der Zyklus-Begriff entfällt, auch `li`/`ch` tragen Zahlen), davor ein **Bezeichner** («Stufe» bei `li`/`ch`, «Klasse» bei `de`/`at` – Standard-Wort aus der Lehrplan-Registry, per `gradesText` übersteuerbar; Anzeige «Stufe 7–9», «Klasse 9»). Module **ohne** Klassenstufe tragen nur `gradesText` (z. B. `"Erwachsene"` – ersetzt `selbststudium`, erscheint im Stufen-Filter nach allen Klassenstufen). Version-1/2-Dateien liest die **Plattform** weiterhin (verlustfreie Migration, wichtig für lokal eingeladene Module) – **dieses Repo nimmt nur noch Version 3 an** (Validator-Policy lehnt `schemaVersion` < 3 und die alten Top-Level-Felder mit Klartext-Meldung ab). Migrations-Mapping: siehe [Mehrere Lehrpläne](#mehrere-lehrpläne-curricula). **Achtung Rollout:** Ältere Player lehnen Version-3-Dateien hart ab – Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** (additiv) | 18. August 2026 | KEIN Versionswechsel: `languageLearning` am Master (Sprachlernmodule, werden nie übersetzt), `_hinweis` + `derivedFrom` in Sprachfassungen (`module.<lang>.json`). ACHTUNG Rollout: Plattform-Schema ZUERST deployen, erst danach Module/Fassungen mit den neuen Feldern mergen – ältere Plattform-Stände lehnen sie strikt ab. |
+| **3** (additiv) | 21. September 2026 | KEIN Versionswechsel, zwei Ergänzungen. (a) **Video-Untertitel:** optionales Feld [`transkriptSegmente`](#video--video-einbettung) am `video`-Block – zeitgestempelte Transkript-Segmente (Startzeit in Sekunden + Text), die der Player synchron zur Abspielposition als ein-/ausschaltbare Untertitel unter dem Video zeigt; die Übersetzung überträgt nur die Texte, die Startzeiten bleiben unverändert. Bei `provider: "vimeo"` nicht erlaubt (der Player kann die Abspielposition dort nicht lesen). **Achtung Rollout wie beim satzbau:** Ältere Player lehnen Module MIT dem Feld hart ab – erst NACH dem zugehörigen Plattform-Deploy einreichen. (b) Neuer Blocktyp [`diagramm`](#diagramm--schaubild-als-daten-mermaid) – Schaubilder als Mermaid-Definition statt gerendertem Bild (Typen `flowchart`/`graph`/`timeline`/`mindmap`), mit **Pflicht-Textbeschreibung** `beschreibung` (Barrierefreiheit, Vorlesen, Fallback); Beschriftungen laufen durch die normale Übersetzung, die Mermaid-Syntax ist unveränderlich. Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
 
 ## Ablage
 
@@ -175,6 +176,68 @@ wie «$5»). Beispiel: `Berechne $$\tfrac{3}{4} + \tfrac{1}{8}$$.`
 - Nur Bilder mit geklärter Lizenz verwenden und den Nachweis in `credit`
   angeben.
 
+### `diagramm` – Schaubild als Daten (Mermaid)
+
+Seit 21.9.2026. Schaubilder, deren Inhalt aus **Text und Struktur**
+besteht (Flussdiagramme, Kreisläufe, Zeitleisten, Mindmaps, einfache
+Strukturbilder), gehören als Diagramm-**Daten** ins Modul statt als
+gerendertes Bild: Der Player zeichnet sie lokal (Mermaid, kein CDN),
+sie skalieren scharf, folgen hell/dunkel – und die Beschriftungen
+laufen durch die normale **Übersetzung** (in Bilder eingebrannter Text
+bliebe unübersetzt).
+
+```json
+{
+  "type": "diagramm",
+  "id": "kreislauf",
+  "title": "Der einfache Wirtschaftskreislauf",
+  "definition": "flowchart LR\n  H[\"Haushalte\"] -->|\"Arbeitskraft\"| U[\"Unternehmen\"]\n  U -->|\"Lohn\"| H",
+  "beschreibung": "Kreislaufdiagramm: Haushalte geben Arbeitskraft an Unternehmen, Unternehmen zahlen Lohn."
+}
+```
+
+- `definition` (Pflicht, höchstens 5000 Zeichen): die Mermaid-Definition.
+  Die **erste nicht-leere Zeile** bestimmt den Typ – erlaubt sind
+  `flowchart` (mit Richtung `TD`/`LR`/…), `graph`, `timeline` und
+  `mindmap`; andere Typen lehnt die Validierung ab.
+- `beschreibung` (**Pflicht**, höchstens 2000 Zeichen, reiner Text):
+  Textbeschreibung des Schaubilds – sie ist der Screenreader-Text, die
+  Quelle des Vorlese-Knopfs und der ehrliche Ersatz, falls das Rendern
+  scheitert. Beschreiben, WAS das Schaubild aussagt (nicht «ein
+  Diagramm mit Kästen»).
+- **Beschriftungs-Konvention** (die Validierung erzwingt sie – sie
+  macht die Übersetzung möglich):
+  - `flowchart`/`graph`: JEDE Beschriftung in doppelte
+    Anführungszeichen – Knoten `A["Text"]`, `B{"Frage?"}`,
+    `C(("Kreis"))`, Untergraphen `subgraph x["Titel"]`,
+    Kantenbeschriftungen `-->|"Text"|` oder `-- "Text" -->`. Jeder
+    Knoten braucht **einmal** eine Form mit Beschriftung (sonst zeigt
+    Mermaid die rohe id als Text); danach reicht in Verbindungen die
+    nackte id (`A --> B`).
+  - `mindmap`: jeder Knoten mit expliziter Form UND Anführungszeichen –
+    `wurzel(("…"))`, `a["…"]`, `b("…")`, `c{{"…"}}`; nackte Textzeilen
+    sind nicht erlaubt (Mermaid rendert Anführungszeichen dort sonst
+    sichtbar bzw. der Text bliebe unübersetzbar).
+  - `timeline`: KEINE Anführungszeichen (sie würden sichtbar
+    mitgerendert) – dort ist ohnehin jeder Text Beschriftung
+    (`title …`, `section …`, Ereigniszeilen mit `:` als Trenner). Ein
+    Doppelpunkt IM Text ist nicht darstellbar – umformulieren.
+  - Eine Beschriftung: höchstens 200 Zeichen, keine Zeilenumbrüche –
+    lange Texte gehören in die `beschreibung` oder einen Text-Block.
+- **Nicht erlaubt** (Validierung): HTML/`<` (auch `<br/>`), Backticks,
+  `%%`-Kommentare/-Direktiven, Entities (`#…;`, `&…;`),
+  Interaktionen/Styling (`click`, `href`, `callback`, `classDef`,
+  `linkStyle`, `style`, `:::`, `::icon`, `@{ … }`) – das Aussehen
+  bestimmt die Plattform einheitlich.
+- Kein prüfender Block, keine Punkte. Ältere Player zeigen einen
+  Platzhalter (Modul bleibt gültig). Die syntaktische
+  Mermaid-Gültigkeit im Detail prüft erst der Player – er zeigt bei
+  Fehlern ehrlich die `beschreibung`; Definition darum in der Vorschau
+  bzw. im Editor anschauen.
+- Ein Live-Beispiel steht im Demo-Modul
+  ([`modules/demo-blockformat/module.json`](modules/demo-blockformat/module.json),
+  Block `diagramm-demo`).
+
 ### `video` – Video-Einbettung
 
 ```json
@@ -205,6 +268,26 @@ wie «$5»). Beispiel: `Berechne $$\tfrac{3}{4} + \tfrac{1}{8}$$.`
   Vimeo: 6–12 Ziffern). Die Validierung weist ganze URLs zurück.
 - `transcript` (empfohlen): kurze Textalternative fürs Video – wichtig für
   Barrierefreiheit und falls das Video offline oder gesperrt ist.
+- `transkriptSegmente` (optional, seit 21.9.2026): zeitgestempelte
+  Transkript-Segmente als **Untertitel** –
+
+  ```json
+  "transkriptSegmente": [
+    { "start": 0, "text": "Hallo zusammen." },
+    { "start": 3.5, "text": "Heute geht es um Geld." }
+  ]
+  ```
+
+  `start` ist die Startzeit in Sekunden ab Videobeginn (Dezimalwerte
+  erlaubt, streng aufsteigend), `text` der gesprochene Text des
+  Segments (reiner Text, kein Markdown, höchstens 500 Zeichen; 1–400
+  Segmente). Der Player blendet das Segment der aktuellen
+  Abspielposition unter dem Video ein (ein-/ausschaltbar, Standard
+  ein) – in Sprachfassungen automatisch übersetzt (nur die Texte, die
+  Startzeiten bleiben byteidentisch). Ergänzt `transcript`, ersetzt es
+  nicht. **Nicht bei `provider: "vimeo"`** (der Player kann die
+  Vimeo-Abspielposition nicht lesen; die Validierung lehnt die
+  Kombination ab).
 - Der Player lädt Embeds erst nach Klick (Datenschutz); YouTube läuft über
   `youtube-nocookie.com`.
 - Kuratieren statt produzieren: existierende, gute freie Videos einbetten.
@@ -1157,6 +1240,9 @@ Korrektur-Weg: [`UEBERSETZUNG.md`](UEBERSETZUNG.md).
 5. Nur lizenzrechtlich unbedenkliche Bilder/Videos einbetten und Quellen in
    `sources`/`credit` ausweisen; Video-Provider und Bild-Hosts müssen der
    Whitelist entsprechen.
+   Schaubilder mit Textinhalt (Kreisläufe, Ablaufdiagramme, Zeitleisten,
+   Mindmaps) bevorzugt als [`diagramm`](#diagramm--schaubild-als-daten-mermaid)-Block
+   statt als Bild – mit Pflicht-`beschreibung`.
 6. Jeden Quizblock und jede Quizfrage mit eindeutiger `id` versehen und
    Fragen mit `explanation` ergänzen.
 7. Zum Schluss `npm run validate` laufen lassen (oder das Modul gegen
