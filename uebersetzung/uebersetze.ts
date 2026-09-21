@@ -58,6 +58,7 @@ import { vergleicheStruktur, vergleichePunkte } from "./struktur";
 import { findHtmlTags, findMarkdownImages } from "./text-pruefung";
 import {
   DIAGRAMM_LABEL_MAX_ZEICHEN,
+  SCHAUBILD_TEXT_MAX_ZEICHEN,
   schaubildSzeneSchema,
   schaubildUeberlaufHinweise,
   diagrammDefinitionFehler,
@@ -144,7 +145,11 @@ interface PaketInhalt {
 }
 
 const LIMITS: ReadonlyArray<[RegExp, number]> = [
-  [/szene\.elemente\[\]\.text$/, 500],
+  // An das Schema-Maximum gekoppelt (Review-Fund: ein hartes 500er-
+  // Limit machte schema-gültige Master mit 501-1000 Zeichen
+  // unübersetzbar); die eigentliche Platz-Wache sind die nicht
+  // blockierenden schaubildUeberlaufHinweise.
+  [/szene\.elemente\[\]\.text$/, SCHAUBILD_TEXT_MAX_ZEICHEN],
   [/\.beschriftung$/, 60],
   [/\.kategorien\[\]$/, 40],
   [/elemente\[\]\.text$/, 80],
@@ -413,6 +418,24 @@ function gitCommitKurz(): string {
   }
 }
 
+/** Schaubild-Überlauf-Hinweise Master↔Fassung auf die Konsole. */
+function gebeSchaubildHinweise(
+  masterRaw: Record<string, unknown>,
+  fassung: Record<string, unknown>,
+): void {
+  const masterBloecke = masterRaw.blocks as Record<string, unknown>[] | undefined;
+  const fassungsBloecke = fassung.blocks as Record<string, unknown>[] | undefined;
+  masterBloecke?.forEach((block, i) => {
+    if (block.type !== "schaubild") return;
+    const mSzene = schaubildSzeneSchema.safeParse(block.szene);
+    const fSzene = schaubildSzeneSchema.safeParse(fassungsBloecke?.[i]?.szene);
+    if (!mSzene.success || !fSzene.success) return; // validate meldet
+    for (const hinweis of schaubildUeberlaufHinweise(mSzene.data, fSzene.data)) {
+      console.warn(`⚠ blocks[${i}] (schaubild): ${hinweis}`);
+    }
+  });
+}
+
 async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
   const konfig = ladeKonfig();
   const modell = opt.modell ?? konfig.modell;
@@ -514,6 +537,13 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
         bestehend.derivedFrom?.masterHash === sha256(masterBytes) &&
         (bestehend.derivedFrom?.hintsHash ?? null) === aktuellerHintsHash
       ) {
+        // Schaubild-Überlauf-Hinweise auch im Kurzschluss zeigen –
+        // sie sind der Arbeitsvorrat fürs Gegenlesen und verschwänden
+        // sonst nach dem ersten Lauf (Review-Fund).
+        gebeSchaubildHinweise(
+          masterRaw,
+          bestehend as unknown as Record<string, unknown>,
+        );
         console.log("✓ Fassung ist aktuell – nichts zu tun.");
         return;
       }
@@ -704,20 +734,7 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
   // zeichengenau verifizierten Wrap-Nachbau aus der SYNC-Region;
   // Befunde gehören ins Gegenlesen (Korrekturhinweis setzen), nicht
   // in einen harten Abbruch.
-  {
-    const masterBloecke = masterRaw.blocks as Record<string, unknown>[];
-    const fassungsBloecke = inhalt.blocks as Record<string, unknown>[];
-    masterBloecke.forEach((block, i) => {
-      if (block.type !== "schaubild") return;
-      const mSzene = schaubildSzeneSchema.safeParse(block.szene);
-      const fSzene = schaubildSzeneSchema.safeParse(fassungsBloecke[i]?.szene);
-      if (!mSzene.success || !fSzene.success) return; // validate meldet
-      const hinweise = schaubildUeberlaufHinweise(mSzene.data, fSzene.data);
-      for (const hinweis of hinweise) {
-        console.warn(`⚠ blocks[${i}] (schaubild): ${hinweis}`);
-      }
-    });
-  }
+  gebeSchaubildHinweise(masterRaw, inhalt);
 
   // Metafelder + Prüfsummen.
   const heute = new Date().toISOString().slice(0, 10);

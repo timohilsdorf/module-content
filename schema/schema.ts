@@ -3765,6 +3765,11 @@ function schaubildContainerTextHoehe(container: SchaubildElement): number {
       return container.height / Math.SQRT2 - p2;
     case "diamond":
       return container.height / 2 - p2;
+    case "arrow":
+      // Pfeil-Labels liegen AUF dem Pfeil und «laufen» nie über –
+      // die Bibliothek wächst Pfeile nicht, und ein flacher Pfeil
+      // (height ~0) erzeugte sonst Dauer-Fehlalarme (Review-Fund).
+      return Infinity;
     default:
       return container.height - p2;
   }
@@ -3785,43 +3790,60 @@ interface SchaubildBox {
  * in Breite bzw. Höhe. Rotation (angle) wird für die Hinweis-Rechnung
  * bewusst ignoriert.
  */
+interface SchaubildBefund {
+  /** Dedupe-Schlüssel: Befund-Art + betroffenes Element/Zeichen. */
+  schluessel: string;
+  text: string;
+}
+
 function schaubildBoxenNachUmbruch(szene: SchaubildSzene): {
   boxen: SchaubildBox[];
-  befunde: string[];
+  befunde: SchaubildBefund[];
 } {
-  const befunde: string[] = [];
+  const befunde: SchaubildBefund[] = [];
   const masse = new Map<string, { width: number; height: number }>();
   for (const el of szene.elemente) {
     masse.set(el.id, { width: el.width, height: el.height });
   }
   for (const el of szene.elemente) {
     if (el.type !== "text") continue;
-    const { unbekannt } = schaubildTextBreite(el.text, el.fontSize);
+    // ANZEIGE-Worst-Case messen: Die Plattform zeigt je Lehrplan ß
+    // oder ss an (Standard li = ss), und ss ist stets die BREITERE
+    // Form – einseitiges Falten ist darum konservativ korrekt für
+    // beide Orthografien (Review-Fund: der Player misst den
+    // gewandelten Text, die CI mass vorher den ß-Master).
+    const messText = el.text.replaceAll("ß", "ss");
+    const { unbekannt } = schaubildTextBreite(messText, el.fontSize);
     if (unbekannt.length > 0) {
-      befunde.push(
-        `Text "${schaubildKurzText(el.text)}": Zeichen ${unbekannt
+      befunde.push({
+        schluessel: `glyphe|${unbekannt.join("")}`,
+        text: `Text "${schaubildKurzText(el.text)}": Zeichen ${unbekannt
           .map((z) => `«${z}»`)
           .join(", ")} fehlen in der Breiten-Tabelle - die Überlauf-Schätzung nutzt Ersatzbreiten (SCHAUBILD_GLYPHBREITEN_20PX erweitern).`,
-      );
+      });
     }
     const zeilenHoehe = el.fontSize * el.lineHeight;
     if (el.containerId !== null) {
       const container = szene.elemente.find((k) => k.id === el.containerId);
       if (!container) continue; // meldet das Schema
-      // 2 % Sicherheitsmarge: Die Glyphtabelle misst auf ±0,5 % genau.
-      const maxBreite = schaubildContainerTextBreite(container, el.fontSize) * 0.98;
-      const umbrochen = schaubildWrap(el.text, maxBreite, el.fontSize);
+      // UNGEMARGT umbrechen – exakt die Player-Formel (der Nachbau
+      // ist zeichengenau verifiziert); die ±0,5-%-Messunsicherheit
+      // fliesst nur in die MELDE-Schwelle unten ein, sonst erzeugte
+      // ein exakt passender Text Phantom-Umbrüche (Review-Fund).
+      const maxBreite = schaubildContainerTextBreite(container, el.fontSize);
+      const umbrochen = schaubildWrap(messText, maxBreite, el.fontSize);
       const zeilen = umbrochen.split("\n");
       const textHoehe = zeilen.length * zeilenHoehe;
       const maxHoehe = schaubildContainerTextHoehe(container);
       if (textHoehe > maxHoehe) {
-        befunde.push(
-          `${container.type} "${container.id}": Der gebundene Text "${schaubildKurzText(
+        befunde.push({
+          schluessel: `wachstum|${container.id}`,
+          text: `${container.type} "${container.id}": Der gebundene Text "${schaubildKurzText(
             el.text,
           )}" braucht umbrochen ca. ${Math.ceil(textHoehe)} px Höhe, der Kasten bietet ${Math.floor(
             Math.max(0, maxHoehe),
           )} px - der Player lässt den Kasten wachsen; prüfen, ob das Layout das verträgt (sonst Übersetzung kürzen oder Kasten im Editor vergrössern).`,
-        );
+        });
         const m = masse.get(container.id)!;
         const wachstum =
           textHoehe + SCHAUBILD_TEXT_INNENABSTAND * 2 - container.height;
@@ -3833,24 +3855,26 @@ function schaubildBoxenNachUmbruch(szene: SchaubildSzene): {
       const breiteste = Math.max(
         ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize).breite),
       );
-      if (breiteste > maxBreite) {
-        befunde.push(
-          `${container.type} "${container.id}": Ein Wort in "${schaubildKurzText(
+      // Melde-Schwelle 2 % über der Kastenbreite (Messfehler ±0,5 %).
+      if (breiteste > maxBreite * 1.02) {
+        befunde.push({
+          schluessel: `wort|${container.id}`,
+          text: `${container.type} "${container.id}": Ein Wort in "${schaubildKurzText(
             el.text,
           )}" ist breiter als der Kasten (${Math.ceil(breiteste)} px > ${Math.floor(
             maxBreite,
           )} px) und ragt heraus - Übersetzung umformulieren oder Kasten verbreitern.`,
-        );
+        });
       }
       masse.set(el.id, {
         width: Math.min(breiteste, maxBreite),
         height: textHoehe,
       });
     } else {
-      const maxBreite = el.autoResize ? Infinity : el.width * 0.98;
+      const maxBreite = el.autoResize ? Infinity : el.width;
       const umbrochen = el.autoResize
-        ? el.text
-        : schaubildWrap(el.text, maxBreite, el.fontSize);
+        ? messText
+        : schaubildWrap(messText, maxBreite, el.fontSize);
       const zeilen = umbrochen.split("\n");
       const breite = Math.max(
         ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize).breite),
@@ -3891,7 +3915,14 @@ export function schaubildUeberlaufHinweise(
 ): string[] {
   const m = schaubildBoxenNachUmbruch(master);
   const f = schaubildBoxenNachUmbruch(fassung);
-  const hinweise = [...f.befunde];
+  // Nur melden, was die ÜBERSETZUNG verursacht: Befunde, die der
+  // Master (gleiches Element, gleiche Art) schon selbst hat, sind
+  // Autoren-Layoutfragen und erschienen sonst in JEDER Fassung
+  // dauerhaft (Review-Fund).
+  const masterBefunde = new Set(m.befunde.map((b) => b.schluessel));
+  const hinweise = f.befunde
+    .filter((b) => !masterBefunde.has(b.schluessel))
+    .map((b) => b.text);
   const ueberlappt = (a: SchaubildBox, b: SchaubildBox): boolean =>
     a.x1 < b.x2 - 2 && b.x1 < a.x2 - 2 && a.y1 < b.y2 - 2 && b.y1 < a.y2 - 2;
   const masterPaare = new Set<string>();
