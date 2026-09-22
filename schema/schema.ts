@@ -3991,6 +3991,14 @@ export const schaubildBlockSchema = z.strictObject({
    * Rendern scheitert. Wird mitübersetzt.
    */
   beschreibung: z.string().trim().min(1).max(2000),
+  /**
+   * Quelle/Lizenz-Nachweis (optional, seit 22.9.2026): Pflicht, wenn
+   * das Schaubild ein ABGELEITETES Werk ist (Nachzeichnung einer
+   * fremden Vorlage – die Namensnennung der Vorlage wandert hierher,
+   * wie beim image-Block); bei eigenen Grafiken dient es der
+   * Provenienz. Wird NIE übersetzt (blocks[].credit ist invariant).
+   */
+  credit: z.string().trim().min(1).max(300).optional(),
 });
 
 export const knownBlockSchema = z.discriminatedUnion("type", [
