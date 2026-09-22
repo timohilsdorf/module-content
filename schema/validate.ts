@@ -49,11 +49,14 @@ function istBekannteEinheit(einheit: string): boolean {
   }
 }
 import {
+  extrahiereModulVerweise,
   isKnownBlock,
   KNOWN_BLOCK_TYPES,
   knownBlockSchema,
   LEHRPLAENE,
   lehrplanDefinition,
+  modulVerweisErlaubtInPfad,
+  modulVerweisSyntaxFehler,
   parseModulDatei,
   PLANSPIEL_DOKUMENT_PRAEFIX,
   PLANSPIEL_VERBOTENE_MUSTER,
@@ -732,6 +735,31 @@ function checkModule(
       hints.push(`Bild "${entry.name}" wird von keinem Block referenziert.`);
     }
   }
+
+  // --- Modul-Querverweise [[modul:<slug>]] (22.9.2026) ---------------------
+  // Tote Ziele, unvollständige Syntax und Verweise ausserhalb der
+  // Fliesstext-Whitelist sind FEHLER – rohe Syntax oder tote Links
+  // erreichen nie den Player. Läuft für Master UND Sprachfassungen
+  // (der Hauptlauf ruft checkModule für beide).
+  walkStrings(raw, [], (pathStr, s) => {
+    const klammerPfad = pathStr.replace(/\.(\d+)(?=\.|$)/g, "[$1]");
+    const syntax = modulVerweisSyntaxFehler(s);
+    if (syntax) errors.push(`"${pathStr}": ${syntax}`);
+    const verweise = extrahiereModulVerweise(s);
+    if (verweise.length === 0) return;
+    if (!modulVerweisErlaubtInPfad(klammerPfad)) {
+      errors.push(
+        `"${pathStr}": Modul-Verweise ([[modul:…]]) sind hier nicht erlaubt – nur in didaktischem Fliesstext (body, intro, Lückentext-text, prompts, hints, solutions, explanations, Options-Texten, Simulations-Knoten, learningObjectives, beschreibung/definition/Szene-Texten). Titel, Metadaten, captions und Antwort-Material bleiben verweisfrei.`,
+      );
+    }
+    for (const ziel of verweise) {
+      if (!allSlugs.includes(ziel)) {
+        errors.push(
+          `"${pathStr}": [[modul:${ziel}]] verweist auf ein Modul, das es nicht gibt – Verweise nutzen den Ordner-Slug des Zielmoduls.`,
+        );
+      }
+    }
+  });
 
   // --- Kein Roh-HTML; Markdown-Bilder unterliegen der Bild-Whitelist -------
   walkStrings(raw, [], (pathStr, s) => {
