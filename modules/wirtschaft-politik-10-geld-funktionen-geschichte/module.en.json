@@ -3,12 +3,12 @@
  "derivedFrom": {
   "language": "de",
   "masterHash": "sha256:07ce26f32fdce67ff916042f26c4a1d16736aba6957594b88c98436a368e9043",
-  "masterCommit": "8258b26",
+  "masterCommit": "cfcfe82",
   "hintsHash": null,
   "generatedAt": "2026-09-22",
   "generator": "uebersetze.ts v1",
-  "model": "datei:antworten-wp10.json + speicher",
-  "selfHash": "sha256:e096f358a8b223aee5e8d18419acef30cba618d5ad5ecdac410c175a9c29e4cf"
+  "model": "speicher",
+  "selfHash": "sha256:94fbef41af1d7ee60f6ac09283243fe6ad52d1e6db5e7b3fa0bacc100e2ea61d"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-10-geld-funktionen-geschichte",
@@ -697,7 +697,7 @@
       "roundness": null,
       "seed": 1700477613,
       "type": "text",
-      "text": "before money was invented\n\nGoods for goods. Only works if both sides want exactly what the other offers – this «double coincidence» is rare.",
+      "text": "before money was invented\n\nGoods for goods. Only works if both sides want exactly what the other offers – this “double coincidence” is rare.",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "center",
@@ -905,7 +905,7 @@
       "roundness": null,
       "seed": 2091122093,
       "type": "text",
-      "text": "with modern banking\n\nMoney as numbers in accounts – without notes or coins. Today most of all money exists only in this form.",
+      "text": "with modern banking\n\nMoney as numbers in accounts – without notes or coins. Today the largest part of all money exists only in this form.",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "center",
@@ -957,7 +957,7 @@
       "roundness": null,
       "seed": 559429229,
       "type": "text",
-      "text": "today\n\nCard, phone, app: bank money on the go – paid within seconds, without any cash in your pocket.",
+      "text": "today\n\nCard, phone, app: deposit money on the go – paid within seconds, without any cash in your pocket.",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "center",
@@ -1150,7 +1150,7 @@
      }
     ]
    },
-   "beschreibung": "The figure “From barter to digital money” shows the stations of money as a chain of six numbered stages connected by arrows – each new form of money solved a problem of the old one. Key points: 1. Barter (before money was invented): goods for goods only works if both sides want exactly what the other offers – the “double coincidence” is rare. 2. Commodity money (for thousands of years): sought-after goods such as salt, shells or cattle serve as means of payment because they are valuable to all. 3. Coins (around 2,700 years ago): minted precious metal is durable, countable and worth the same everywhere – first in the kingdom of Lydia, soon all around the Mediterranean. 4. Paper money (China: around 1,000 years ago, Europe: from the 17th century): light notes instead of heavy coins – their value is not in the paper but in the trust that everyone will accept them. 5. Bank money (with modern banking): money as numbers in accounts, without notes or coins – today most of all money exists only in this form. 6. Digital payment (today): card, phone, app – bank money on the go, paid within seconds without any cash. A closing note names cryptocurrencies such as Bitcoin as the newest station – purely digital money without a state or central bank.",
+   "beschreibung": "The figure “From barter to digital money” shows the stations of money as a chain of six numbered stages connected by arrows – each new form of money solved a problem of the old one. Key points: 1. Barter (before money was invented): goods for goods only works if both sides want exactly what the other offers – the “double coincidence” is rare. 2. Commodity money (for thousands of years): sought-after goods such as salt, shells or cattle serve as means of payment because they are valuable to all. 3. Coins (around 2,700 years ago): minted precious metal is durable, countable and worth the same everywhere – first in the kingdom of Lydia, soon all around the Mediterranean. 4. Paper money (China: around 1,000 years ago, Europe: from the 17th century): light notes instead of heavy coins – their value is not in the paper but in the trust that everyone will accept them. 5. Deposit money (with modern banking): money as numbers in accounts, without notes or coins – today the largest part of all money exists only in this form. 6. Digital payment (today): card, phone, app – deposit money on the go, paid within seconds without any cash. A closing note names cryptocurrencies such as Bitcoin as the newest station – purely digital money without a state or central bank.",
    "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
   },
   {
