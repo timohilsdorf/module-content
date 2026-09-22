@@ -246,7 +246,9 @@ Vorschläge machen und prüfst sie dort nach).
 >   14. {"type":"schaubild","id":"bild1","title":"…",
 >      "szene": <kompletter Excalidraw-Export als JSON>,
 >      "beschreibung":"Pflicht: Was zeigt das Schaubild? (Text für
->      Screenreader und Vorlesen, Ersatz bei Renderfehlern)"}
+>      Screenreader und Vorlesen, Ersatz bei Renderfehlern)",
+>      "credit":"optional: Quelle & Lizenz – Pflicht bei abgeleiteten
+>      Werken (nachgezeichnete fremde Vorlage), wie beim image-Block"}
 >      – GESTALTETES Schaubild im Handzeichnungs-Stil, wenn der
 >      diagramm-Block nicht reicht (Kurven, Mengendiagramme, freie
 >      Layouts, nachgebaute Oberflächen): Auf excalidraw.com zeichnen

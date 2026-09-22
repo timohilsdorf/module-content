@@ -32,6 +32,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** (additiv) | 21. September 2026 | KEIN Versionswechsel, zwei Ergänzungen. (a) **Video-Untertitel:** optionales Feld [`transkriptSegmente`](#video--video-einbettung) am `video`-Block – zeitgestempelte Transkript-Segmente (Startzeit in Sekunden + Text), die der Player synchron zur Abspielposition als ein-/ausschaltbare Untertitel unter dem Video zeigt; die Übersetzung überträgt nur die Texte, die Startzeiten bleiben unverändert. Bei `provider: "vimeo"` nicht erlaubt (der Player kann die Abspielposition dort nicht lesen). **Achtung Rollout wie beim satzbau:** Ältere Player lehnen Module MIT dem Feld hart ab – erst NACH dem zugehörigen Plattform-Deploy einreichen. (b) Neuer Blocktyp [`diagramm`](#diagramm--schaubild-als-daten-mermaid) – Schaubilder als Mermaid-Definition statt gerendertem Bild (Typen `flowchart`/`graph`/`timeline`/`mindmap`), mit **Pflicht-Textbeschreibung** `beschreibung` (Barrierefreiheit, Vorlesen, Fallback); Beschriftungen laufen durch die normale Übersetzung, die Mermaid-Syntax ist unveränderlich. Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
 | **3** (additiv) | 21. September 2026 | KEIN Versionswechsel: neuer Blocktyp [`schaubild`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw) – **gestaltete Schaubilder im Handzeichnungs-Stil** als eingebettete Excalidraw-Szene (gezeichnet im kostenlosen Editor excalidraw.com, exportierte Szene als JSON direkt im Block; keine separate Datei, kein Vorrendern). Zulässig sind nur Formen, Pfeile, Linien, Freihand und Text (Handschrift Excalifont); eingebettete Webinhalte, Element-Links und Bilddateien (`files`) lehnt die Validierung ab. Pflicht-`beschreibung` (Barrierefreiheit); Szenen werden **verschlankt** gespeichert (`npm run schaubild-verschlanken`, Limit 256 KB); die Übersetzung überträgt **nur die Textinhalte der Elemente**, der Player vermisst Texte beim Rendern neu (Kästen wachsen mit) und die Übersetzungs-CI meldet Überläufe als Hinweise. Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
 
+| **3** (additiv) | 22. September 2026 | KEIN Versionswechsel: optionales Feld [`credit`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw) am `schaubild`-Block – Quelle-/Lizenzangabe unter dem gerenderten Schaubild (max. 300 Zeichen, nie übersetzt); **Pflicht bei abgeleiteten Werken** (Nachzeichnung einer fremden Vorlage), wie die credit-Regel des `image`-Blocks. **Achtung Rollout wie beim satzbau** (Feld in bestehendem Blocktyp): Module MIT `credit` am Schaubild erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -258,7 +259,8 @@ Schaubilder in einem Modul sind mehrere Blöcke.
   "id": "preisbildung",
   "title": "Vom Angebot zum Preis",
   "szene": { "…": "hier den KOMPLETTEN Datei-Export (.excalidraw) einfügen" },
-  "beschreibung": "Pflicht: Was zeigt das Schaubild? (Screenreader, Vorlesen, Fallback)"
+  "beschreibung": "Pflicht: Was zeigt das Schaubild? (Screenreader, Vorlesen, Fallback)",
+  "credit": "optional: Quelle & Lizenz – Pflicht bei abgeleiteten Werken"
 }
 ```
 
@@ -290,6 +292,14 @@ Flächen im gerenderten Schaubild landen) sowie andere Schriftfamilien
 als die Handschrift (die alte Handschrift Virgil wird automatisch auf
 Excalifont umgestellt). `seed` bleibt gespeichert – er hält das
 Hand-Zittern der Striche deterministisch.
+
+**Namensnennung (`credit`, optional, seit 22.9.2026):** Quelle-/
+Lizenzangabe, die der Player dezent unter dem Schaubild zeigt – wie
+beim `image`-Block **Pflicht, wenn das Schaubild ein abgeleitetes Werk
+ist** (eine fremde Vorlage nachzeichnet: deren Namensnennung wandert
+hierher); bei eigenen Grafiken dient sie der Provenienz (z. B.
+`"Eigene Darstellung, EveryCate, CC BY-SA 4.0"`). Maximal 300 Zeichen,
+wird **nie übersetzt**.
 
 **Übersetzung:** Die Ableitung übersetzt **ausschliesslich die
 Textinhalte** der Elemente; Koordinaten, Grössen und Struktur bleiben
