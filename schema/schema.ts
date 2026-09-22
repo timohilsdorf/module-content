@@ -4025,7 +4025,13 @@ export const schaubildBlockSchema = z.strictObject({
  * melden Verweise auf nicht existierende Slugs als FEHLER.
  * ------------------------------------------------------------------------ */
 
-/** Ein Verweis: [[modul:<slug>]] – Slug wie der Modul-Ordnername. */
+/**
+ * Ein Verweis: [[modul:<slug>]] – Slug wie der Modul-Ordnername.
+ * BEWUSST minimal enger als die Modul-id-Regel (kein Bindestrich am
+ * Ende): Ein hypothetischer Slug «…-» wäre unreferenzierbar – kein
+ * realer Ordner endet so, und neue sollten es auch nicht (der
+ * Verweis liefe sonst ins Syntax-Fehler-Netz).
+ */
 export const MODUL_VERWEIS_MUSTER =
   /\[\[modul:([a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\]\]/g;
 
@@ -4074,11 +4080,14 @@ export function modulVerweisAnzeige(titel: string, sprache: string): string {
  * Validierer melden ihn, statt dass die Rohsyntax still im Player landet.
  */
 export function modulVerweisSyntaxFehler(text: string): string | null {
-  const roh = text.match(/\[\[modul:/gi)?.length ?? 0;
+  // Roh-Zähler bewusst breiter als das Muster: fängt auch Leerraum um
+  // «modul»/Doppelpunkt und den englischen Tippfehler «module» (die
+  // en-Fassungen tragen die Syntax zeichengleich, en-Autoren liefern zu).
+  const roh = text.match(/\[\[\s*module?\s*:/gi)?.length ?? 0;
   if (roh === 0) return null;
   const gueltig = extrahiereModulVerweise(text).length;
   if (roh === gueltig) return null;
-  return `enthält ${roh - gueltig}× unvollständige Verweis-Syntax („[[modul:…“) – erwartet wird exakt [[modul:<slug>]] (Kleinbuchstaben/Ziffern/Bindestriche, beide Doppelklammern).`;
+  return `enthält ${roh - gueltig}× unvollständige Verweis-Syntax („[[modul:…“) – erwartet wird exakt [[modul:<slug>]] (Kleinbuchstaben/Ziffern/Bindestriche, beide Doppelklammern, kein Leerraum, kein „module“).`;
 }
 
 /**
@@ -4097,6 +4106,10 @@ const MODUL_VERWEIS_ERLAUBTE_PFADE: ReadonlyArray<RegExp> = [
   /^blocks\[\]\.tasks\[\]\.(prompt|hint|solution)$/,
   /^blocks\[\]\.questions\[\]\.(prompt|explanation)$/,
   /^blocks\[\]\.questions\[\]\.options\[\]\.text$/,
+  // Simulations-Abschlussfrage: derselbe Feldbau wie questions[] und
+  // dieselbe Quiz-Komponente im Player – gleiche Rechte.
+  /^blocks\[\]\.abschlussfrage\.(prompt|explanation)$/,
+  /^blocks\[\]\.abschlussfrage\.options\[\]\.text$/,
   /^blocks\[\]\.knoten\[\]\.(text|auswertung)$/,
   /^blocks\[\]\.aufgaben\[\]\.prompt$/, // numerisch/term-Teilaufgaben
   /^blocks\[\]\.varianten\[\]\.text$/,

@@ -32,6 +32,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  loeseSzeneFuerMessung,
   FASSUNG_MUSTER,
   MODULES_DIR,
   UEBERSETZUNG_DIR,
@@ -57,8 +58,6 @@ import {
 import { vergleicheStruktur, vergleichePunkte } from "./struktur";
 import { findHtmlTags, findMarkdownImages } from "./text-pruefung";
 import {
-  ersetzeModulVerweise,
-  modulVerweisAnzeige,
   DIAGRAMM_LABEL_MAX_ZEICHEN,
   SCHAUBILD_TEXT_MAX_ZEICHEN,
   schaubildSzeneSchema,
@@ -421,37 +420,6 @@ function gitCommitKurz(): string {
 }
 
 /** Schaubild-Überlauf-Hinweise Master↔Fassung auf die Konsole. */
-/** Modul-Titel fürs Auflösen von [[modul:…]] in der Überlauf-Messung. */
-const titelCache = new Map<string, string | null>();
-function modulTitel(slug: string, sprache?: string): string | null {
-  const schluessel = `${slug}|${sprache ?? ""}`;
-  const bekannt = titelCache.get(schluessel);
-  if (bekannt !== undefined) return bekannt;
-  let titel: string | null = null;
-  try {
-    if (sprache) {
-      const fp = path.join(MODULES_DIR, slug, `module.${sprache}.json`);
-      if (fs.existsSync(fp)) {
-        titel =
-          (JSON.parse(fs.readFileSync(fp, "utf8")) as { title?: string })
-            .title ?? null;
-      }
-    }
-    if (titel === null) {
-      const mp = path.join(MODULES_DIR, slug, "module.json");
-      if (fs.existsSync(mp)) {
-        titel =
-          (JSON.parse(fs.readFileSync(mp, "utf8")) as { title?: string })
-            .title ?? null;
-      }
-    }
-  } catch {
-    titel = null;
-  }
-  titelCache.set(schluessel, titel);
-  return titel;
-}
-
 function gebeSchaubildHinweise(
   masterRaw: Record<string, unknown>,
   fassung: Record<string, unknown>,
@@ -459,39 +427,24 @@ function gebeSchaubildHinweise(
 ): void {
   const masterBloecke = masterRaw.blocks as Record<string, unknown>[] | undefined;
   const fassungsBloecke = fassung.blocks as Record<string, unknown>[] | undefined;
-  // Verweise wie der Player auflösen, BEVOR gemessen wird: Der Kasten
-  // muss den aufgelösten TITEL fassen, nicht die kurze Syntax (Master
-  // mit Master-Titeln, Fassung mit Titeln der Zielsprache, soweit
-  // vorhanden – exakt die Anzeige-Logik).
+  // Verweise wie der Player auflösen, BEVOR gemessen wird (geteilte
+  // Helfer in kern.ts – auch die Fassungs-CI misst so): Master-Seite
+  // in der Master-Sprache (inkl. Fassungs-Titel-Wahl des Players bei
+  // fremdsprachigen Mastern), Fassung in der Zielsprache.
   const masterSprache =
     typeof masterRaw.language === "string" ? masterRaw.language : "de";
-  const loeseSzene = (
-    szene: ReturnType<typeof schaubildSzeneSchema.parse>,
-    sprache?: string,
-  ) => ({
-    ...szene,
-    elemente: szene.elemente.map((el) =>
-      el.type === "text"
-        ? {
-            ...el,
-            text: ersetzeModulVerweise(el.text, (z) => {
-              const titel = modulTitel(z, sprache);
-              return titel
-                ? modulVerweisAnzeige(titel, sprache ?? masterSprache)
-                : null;
-            }),
-          }
-        : el,
-    ),
-  });
   masterBloecke?.forEach((block, i) => {
     if (block.type !== "schaubild") return;
     const mSzene = schaubildSzeneSchema.safeParse(block.szene);
     const fSzene = schaubildSzeneSchema.safeParse(fassungsBloecke?.[i]?.szene);
     if (!mSzene.success || !fSzene.success) return; // validate meldet
     for (const hinweis of schaubildUeberlaufHinweise(
-      loeseSzene(mSzene.data),
-      loeseSzene(fSzene.data, zielSprache),
+      loeseSzeneFuerMessung(mSzene.data, masterSprache, masterSprache),
+      loeseSzeneFuerMessung(
+        fSzene.data,
+        zielSprache ?? masterSprache,
+        zielSprache,
+      ),
     )) {
       console.warn(`⚠ blocks[${i}] (schaubild): ${hinweis}`);
     }

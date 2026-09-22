@@ -1351,9 +1351,22 @@ Syntax (`[[modul: x]]`, fehlende Klammern, Grossschreibung).
 übernehmen jeden Verweis zeichengleich, nur der umgebende Text wird
 übersetzt (die Übersetzungs-CI erzwingt die Erhaltung; die
 Überlauf-Prüfung der Schaubilder misst mit dem aufgelösten Titel der
-Zielsprache). Den Satz so formulieren, dass er mit einem eingesetzten
-Modultitel funktioniert: gut «Mehr dazu in [[modul:…]].», schlecht
-«Mehr dazu in Modul [[modul:…]].» (ergäbe «in Modul «Titel»»).
+Zielsprache). Hat das ZIEL keine Fassung in der Seitensprache, zeigt
+der Player ehrlich dessen Master-Titel – auf einer englischen Seite
+also ggf. einen deutschen Titel in “…”-Anführungszeichen; das ist der
+gewollte Rettungsanker, bis die Ziel-Fassung existiert.
+
+**Formulierungs-Regeln:** Den Satz so bauen, dass er mit einem
+eingesetzten Modultitel funktioniert: gut «Mehr dazu in
+[[modul:…]].», schlecht «Mehr dazu in Modul [[modul:…]].» (ergäbe «in
+Modul «Titel»»). Tautologien vermeiden – nennt der Satz den Begriff,
+der schon im Zieltitel steckt, umformulieren («In [[modul:…]] hast du
+das Grundmodell kennengelernt» statt «… den einfachen
+Wirtschaftskreislauf …», wenn der Titel genau so heisst). Und in
+**Lückentexten** aufpassen: Der aufgelöste Titel darf keine
+Lücken-Antworten verraten (ein Titel wie «…: Haushalte, Unternehmen,
+Staat» direkt vor Lücken mit genau diesen Antworten löst die Aufgabe
+vor).
 
 ## Checkliste für KI-Autoren
 

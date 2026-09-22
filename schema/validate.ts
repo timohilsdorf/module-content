@@ -387,6 +387,34 @@ function hostOf(url: string): string | null {
   }
 }
 
+/**
+ * Modul-Querverweis-Regeln über ein ROHES Modul-/Fassungs-Objekt:
+ * kaputte Syntax, Whitelist-Verstösse und tote Ziele (22.9.2026).
+ */
+function modulVerweisFehler(raw: unknown, allSlugs: string[]): string[] {
+  const fehler: string[] = [];
+  walkStrings(raw, [], (pathStr, s) => {
+    const klammerPfad = pathStr.replace(/\.(\d+)(?=\.|$)/g, "[$1]");
+    const syntax = modulVerweisSyntaxFehler(s);
+    if (syntax) fehler.push(`"${pathStr}": ${syntax}`);
+    const verweise = extrahiereModulVerweise(s);
+    if (verweise.length === 0) return;
+    if (!modulVerweisErlaubtInPfad(klammerPfad)) {
+      fehler.push(
+        `"${pathStr}": Modul-Verweise ([[modul:…]]) sind hier nicht erlaubt – nur in didaktischem Fliesstext (body, intro, Lückentext-text, prompts, hints, solutions, explanations, Options-Texten, Simulations-Knoten/Abschlussfrage, learningObjectives, beschreibung/definition/Szene-Texten). Titel, Metadaten, captions und Antwort-Material bleiben verweisfrei.`,
+      );
+    }
+    for (const ziel of verweise) {
+      if (!allSlugs.includes(ziel)) {
+        fehler.push(
+          `"${pathStr}": [[modul:${ziel}]] verweist auf ein Modul, das es nicht gibt – Verweise nutzen den Ordner-Slug des Zielmoduls.`,
+        );
+      }
+    }
+  });
+  return fehler;
+}
+
 function checkModule(
   slug: string,
   raw: unknown,
@@ -739,27 +767,20 @@ function checkModule(
   // --- Modul-Querverweise [[modul:<slug>]] (22.9.2026) ---------------------
   // Tote Ziele, unvollständige Syntax und Verweise ausserhalb der
   // Fliesstext-Whitelist sind FEHLER – rohe Syntax oder tote Links
-  // erreichen nie den Player. Läuft für Master UND Sprachfassungen
-  // (der Hauptlauf ruft checkModule für beide).
-  walkStrings(raw, [], (pathStr, s) => {
-    const klammerPfad = pathStr.replace(/\.(\d+)(?=\.|$)/g, "[$1]");
-    const syntax = modulVerweisSyntaxFehler(s);
-    if (syntax) errors.push(`"${pathStr}": ${syntax}`);
-    const verweise = extrahiereModulVerweise(s);
-    if (verweise.length === 0) return;
-    if (!modulVerweisErlaubtInPfad(klammerPfad)) {
-      errors.push(
-        `"${pathStr}": Modul-Verweise ([[modul:…]]) sind hier nicht erlaubt – nur in didaktischem Fliesstext (body, intro, Lückentext-text, prompts, hints, solutions, explanations, Options-Texten, Simulations-Knoten, learningObjectives, beschreibung/definition/Szene-Texten). Titel, Metadaten, captions und Antwort-Material bleiben verweisfrei.`,
-      );
-    }
-    for (const ziel of verweise) {
-      if (!allSlugs.includes(ziel)) {
-        errors.push(
-          `"${pathStr}": [[modul:${ziel}]] verweist auf ein Modul, das es nicht gibt – Verweise nutzen den Ordner-Slug des Zielmoduls.`,
-        );
-      }
-    }
-  });
+  // erreichen nie den Player. Der Hauptlauf ruft modulVerweisFehler
+  // zusätzlich für JEDE Sprachfassung auf (auch dort dürfen etwa
+  // verbreiterte Lücken-Antwortlisten keine Verweise tragen).
+  errors.push(...modulVerweisFehler(raw, allSlugs));
+
+  // Modultitel dürfen keine {{n}}-Marker tragen: Aufgelöste
+  // Modul-Verweise landen als Titel-Text in Lückentexten, deren
+  // Marker-Zerlegung NACH der Auflösung läuft – ein Marker im Titel
+  // injizierte eine Phantom-Lücke (Review-Fund 22.9.2026).
+  if (/\{\{\d+\}\}/.test(mod.title)) {
+    errors.push(
+      `"title": "${mod.title}" darf keine {{n}}-Marker enthalten (aufgelöste Modul-Verweise stehen in Lückentexten).`,
+    );
+  }
 
   // --- Kein Roh-HTML; Markdown-Bilder unterliegen der Bild-Whitelist -------
   walkStrings(raw, [], (pathStr, s) => {
@@ -1048,6 +1069,14 @@ for (const slug of slugs) {
           ),
         );
       }
+      // Modul-Querverweise auch je Fassung (Syntax/Whitelist/tote
+      // Ziele auf dem ROHEN Objekt): Der Multiset-Vergleich der
+      // Strukturprüfung deckt frei übersetzbare Unterbäume (z. B.
+      // verbreiterte Lücken-Antwortlisten) nicht ab (Review-Fund
+      // 22.9.2026).
+      errors.push(
+        ...modulVerweisFehler(fassungRaw, slugs).map((e) => `(${eintrag}) ${e}`),
+      );
     } catch {
       // kein gültiges JSON: bereits von pruefeFassungen gemeldet
     }

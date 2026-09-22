@@ -44,7 +44,7 @@
   "Schulden"
  ],
  "learningObjectives": [
-  "Ich kann die Kernbegriffe aus der ganzen Wirtschaftsreihe erklären und den drei Themenblöcken zuordnen.",
+  "Ich kann die Kernbegriffe aus den Themenblöcken A bis C erklären und dem passenden Block zuordnen.",
   "Ich kann Wissen aus verschiedenen Modulen verknüpfen und auf neue Alltagssituationen übertragen.",
   "Ich weiß, wo meine Lücken liegen, und kann meine Vorbereitung auf die Lernkontrolle gezielt planen."
  ],
@@ -1051,13 +1051,13 @@
      }
     ]
    },
-   "beschreibung": "Das Schaubild ist unverändert aus [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]] übernommen und zeigt den erweiterten Wirtschaftskreislauf: Um den Kern aus Haushalten und Unternehmen kommen drei weitere Akteure hinzu – der Staat, die Banken und das Ausland. Grüne, durchgezogene Pfeile stehen für den Realstrom (Arbeitskraft, Güter und Dienstleistungen), orange, gestrichelte Pfeile für den Geldstrom (Lohn, Konsum, Steuern, Sparen, Kredite). Kernaussagen: – Haushalte konsumieren Güter und bieten den Unternehmen ihre Arbeitskraft an; als Gegenleistung fließt Lohn von den Unternehmen zu den Haushalten. – Unternehmen produzieren Güter und Dienstleistungen und zahlen Löhne; die Haushalte bezahlen die Güter und Dienstleistungen mit ihren Konsumausgaben. – Der Staat (Schulen, Straßen, Sicherheit) erhält von Haushalten und Unternehmen Steuern und stellt dafür öffentliche Leistungen bereit. – Die Banken verbinden Sparen und Kredite: Ersparnisse der Haushalte fließen als Einlagen zu den Banken, Kredite fließen von den Banken zurück in den Kreislauf zu den Unternehmen. – Das Ausland (z. B. Schweiz und Österreich) ist über Exporte der Unternehmen ins Ausland und Importe aus dem Ausland mit dem Kreislauf verbunden. – Mit jedem zusätzlichen Akteur wird das Modell realistischer – und bleibt doch eine Vereinfachung der Wirklichkeit. In diesem Schaubild laufen fast alle Begriffe der Repetition zusammen: Akteure, Real- und Geldstrom, Staat, Banken und Ausland.",
+   "beschreibung": "Das Schaubild zeigt dasselbe Kreislaufmodell wie [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]], hier leicht angepasst nachgezeichnet: Um den Kern aus Haushalten und Unternehmen kommen drei weitere Akteure hinzu – der Staat, die Banken und das Ausland. Grüne, durchgezogene Pfeile stehen für den Realstrom (Arbeitskraft, Güter und Dienstleistungen), orange, gestrichelte Pfeile für den Geldstrom (Lohn, Konsum, Steuern, Sparen, Kredite). Kernaussagen: – Haushalte konsumieren Güter und bieten den Unternehmen ihre Arbeitskraft an; als Gegenleistung fließt Lohn von den Unternehmen zu den Haushalten. – Unternehmen produzieren Güter und Dienstleistungen und zahlen Löhne; die Haushalte bezahlen die Güter und Dienstleistungen mit ihren Konsumausgaben. – Der Staat (Schulen, Straßen, Sicherheit) erhält von Haushalten und Unternehmen Steuern und stellt dafür öffentliche Leistungen bereit. – Die Banken verbinden Sparen und Kredite: Ersparnisse der Haushalte fließen als Einlagen zu den Banken, Kredite fließen von den Banken zurück in den Kreislauf zu den Unternehmen. – Das Ausland (z. B. Schweiz und Österreich) ist über Exporte der Unternehmen ins Ausland und Importe aus dem Ausland mit dem Kreislauf verbunden. – Mit jedem zusätzlichen Akteur wird das Modell realistischer – und bleibt doch eine Vereinfachung der Wirklichkeit. In diesem Schaubild laufen fast alle Begriffe der Repetition zusammen: Akteure, Real- und Geldstrom, Staat, Banken und Ausland.",
    "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
   },
   {
    "type": "quiz",
    "id": "quiz1",
-   "title": "Das große Repetitionsquiz: quer durch die ganze Wirtschaftsreihe",
+   "title": "Das große Repetitionsquiz: quer durch die Themenblöcke A bis C",
    "teilkompetenzen": [
     "wp.kreislauf.zusammenhaenge-erklaeren",
     "wp.markt.preisbildung-erklaeren",
@@ -1593,7 +1593,7 @@
      "solution": "Eine Musterlösung gibt es nicht – prüfe deine Fragen mit dieser Checkliste: (1) Ist genau eine Antwort eindeutig richtig? (2) Sind die falschen Antworten plausibel – würde jemand mit einer typischen Verwechslung tatsächlich darauf hereinfallen? (3) Deckt deine anspruchsvolle Frage eine Anwendung ab (neue Situation, Rechnung oder Verknüpfung zweier Module) statt reines Auswendigwissen? Wenn deine Mitschülerinnen und Mitschüler bei einer Frage diskutieren, war es eine gute Frage – und wer Fragen stellen kann, hat den Stoff meist schon verstanden."
     },
     {
-     "prompt": "Mach den Ampel-Check für deine Vorbereitung: Geh die Themen der ganzen Wirtschaftsreihe durch (Bedürfnisse und Knappheit, Akteure, einfacher und erweiterter Kreislauf, Sektoren, Angebot und Nachfrage, Preisbildung, Wettbewerb und Monopol, Argumentieren, Geld, Versicherungen, Banken und Zins, Börse und Krypto, Budget und Lohn, Schuldenfallen). Markiere jedes Thema mit Grün (sicher), Gelb (unsicher) oder Rot (muss ich nochmals anschauen) – und plane für jedes rote Thema einen konkreten Lernschritt vor der Lernkontrolle.",
+     "prompt": "Mach den Ampel-Check für deine Vorbereitung: Geh die Themen der Blöcke A bis C durch (Bedürfnisse und Knappheit, Akteure, einfacher und erweiterter Kreislauf, Sektoren, Angebot und Nachfrage, Preisbildung, Wettbewerb und Monopol, Argumentieren, Geld, Versicherungen, Banken und Zins, Börse und Krypto, Budget und Lohn, Schuldenfallen). Markiere jedes Thema mit Grün (sicher), Gelb (unsicher) oder Rot (muss ich nochmals anschauen) – und plane für jedes rote Thema einen konkreten Lernschritt vor der Lernkontrolle.",
      "hint": "Sei ehrlich statt optimistisch: «Ich habs mal gewusst» ist Gelb, nicht Grün. Ein konkreter Lernschritt nennt Modul und Aufgabe – zum Beispiel das Quiz in [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] wiederholen, bis 100 %, oder die Zinsrechnung aus [[modul:wirtschaft-politik-12-banken-kredit-zins]] nochmals von Hand rechnen – nicht nur «nochmals anschauen».",
      "solution": "Eine Musterlösung gibt es nicht – dein Ergebnis ist ein persönlicher Lernplan. Bewährt hat sich: Rote Themen zuerst und einzeln angehen (Modul öffnen, Zusammenfassung lesen, Quiz und Lückentexte bis 100 % wiederholen), gelbe Themen mit den Aufgaben dieses Repetitionsmoduls testen – wird aus Gelb dabei Grün, abhaken. Für Grün reicht das große Quiz hier als Schlusskontrolle. Und plane die Reihenfolge nach Gewicht: Kreislauf, Preisbildung und die Geldthemen tragen den meisten Stoff der Lernkontrolle."
     }
