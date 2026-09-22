@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-10-geld-funktionen-geschichte --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:07ce26f32fdce67ff916042f26c4a1d16736aba6957594b88c98436a368e9043",
-  "masterCommit": "cfcfe82",
+  "masterHash": "sha256:9dd5279e0677336d10938b5d27374485fd1b1a810c4d256d887d0be43d25b092",
+  "masterCommit": "e471f3e",
   "hintsHash": null,
   "generatedAt": "2026-09-22",
   "generator": "uebersetze.ts v1",
   "model": "speicher",
-  "selfHash": "sha256:94fbef41af1d7ee60f6ac09283243fe6ad52d1e6db5e7b3fa0bacc100e2ea61d"
+  "selfHash": "sha256:9651df631271cc11851e5f9da12af9566eaaddf7357d9274a5a9760fac3cf164"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-10-geld-funktionen-geschichte",
@@ -88,7 +88,7 @@
   {
    "type": "text",
    "title": "A world without money",
-   "body": "Imagine there were no money. At break time, you want your classmate's chocolate bar – and offer her your cheese sandwich in return. But she doesn't like cheese sandwiches. So first you have to find someone who will swap your cheese sandwich for something she does want. Good luck.\n\nThat is exactly the problem with pure **barter**: a swap only works if both sides offer **exactly** what the other person wants right now. Experts call this the **double coincidence of wants** – and it is rare. A carpenter who needs bread would have to find a baker who happens to want a table at that very moment.\n\n**Money** solves the problem: the carpenter sells her table to anyone at all – and uses the money to buy bread, from any baker. Money is the tool that breaks a swap down into two simple steps: selling and buying.\n\nIn this module you're starting **Topic Block C “Money, Banks, Financial Literacy”**. From Module 3 you already know the flow of money that circulates in the economic cycle – now you'll take a look at money itself: what it does, where it comes from, and why of all currencies it's the **Swiss franc (CHF)** that sits in wallets in Liechtenstein."
+   "body": "Imagine there were no money. At break time, you want your classmate's chocolate bar – and offer her your cheese sandwich in return. But she doesn't like cheese sandwiches. So first you have to find someone who will swap your cheese sandwich for something she does want. Good luck.\n\nThat is exactly the problem with pure **barter**: a swap only works if both sides offer **exactly** what the other person wants right now. Experts call this the **double coincidence of wants** – and it is rare. A carpenter who needs bread would have to find a baker who happens to want a table at that very moment.\n\n**Money** solves the problem: the carpenter sells her table to anyone at all – and uses the money to buy bread, from any baker. Money is the tool that breaks a swap down into two simple steps: selling and buying.\n\nIn this module you're starting **Topic Block C “Money, Banks, Financial Literacy”**. From [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]] you already know the flow of money that circulates in the economic cycle – now you'll take a look at money itself: what it does, where it comes from, and why of all currencies it's the **Swiss franc (CHF)** that sits in wallets in Liechtenstein."
   },
   {
    "type": "text",
@@ -98,7 +98,7 @@
   {
    "type": "text",
    "title": "A short journey through the history of money",
-   "body": "Money wasn't invented in a single day – it developed over thousands of years. Each new form solved a problem of the old one:\n\n- **Barter:** Goods for goods – cumbersome, as you've seen.\n- **Commodity money:** Sought-after goods such as **salt, shells or cattle** became a generally accepted means of payment: everyone took them because they were valuable to everyone. In ancient Rome, the word for money – “pecunia” – comes from the word for cattle. But: cattle are hard to transport, salt gets wet, shells break.\n- **Coins:** Around 2700 years ago, rulers in the kingdom of **Lydia** (in modern-day Turkey) had coins minted from precious metal for the first time: durable, countable, worth the same everywhere. The idea spread quickly all around the Mediterranean.\n- **Paper money:** In **China**, people were paying with notes as early as around 1000 years ago; in Europe from the 17th century. The trick: the value is no longer in the material. A note is just printed paper – it becomes valuable through the **trust** that everyone will accept it.\n- **Deposit money:** With modern banks came money that exists only as **numbers in accounts**. When your wages are “transferred”, no banknote goes anywhere – only numbers change. Today, the largest part of all money exists in this form.\n- **Digital payment:** Card, phone, app – deposit money on the go. The most recent arrivals are **cryptocurrencies** such as Bitcoin; you'll take a closer look at what's behind them in Module 13.\n\nThe common thread of this journey: money kept becoming **lighter, more practical and more abstract** – and with that, the **trust** that holds it all together kept becoming more important."
+   "body": "Money wasn't invented in a single day – it developed over thousands of years. Each new form solved a problem of the old one:\n\n- **Barter:** Goods for goods – cumbersome, as you've seen.\n- **Commodity money:** Sought-after goods such as **salt, shells or cattle** became a generally accepted means of payment: everyone took them because they were valuable to everyone. In ancient Rome, the word for money – “pecunia” – comes from the word for cattle. But: cattle are hard to transport, salt gets wet, shells break.\n- **Coins:** Around 2700 years ago, rulers in the kingdom of **Lydia** (in modern-day Turkey) had coins minted from precious metal for the first time: durable, countable, worth the same everywhere. The idea spread quickly all around the Mediterranean.\n- **Paper money:** In **China**, people were paying with notes as early as around 1000 years ago; in Europe from the 17th century. The trick: the value is no longer in the material. A note is just printed paper – it becomes valuable through the **trust** that everyone will accept it.\n- **Deposit money:** With modern banks came money that exists only as **numbers in accounts**. When your wages are “transferred”, no banknote goes anywhere – only numbers change. Today, the largest part of all money exists in this form.\n- **Digital payment:** Card, phone, app – deposit money on the go. The most recent arrivals are **cryptocurrencies** such as Bitcoin; you'll take a closer look at what's behind them in [[modul:wirtschaft-politik-13-boerse-aktien-krypto]].\n\nThe common thread of this journey: money kept becoming **lighter, more practical and more abstract** – and with that, the **trust** that holds it all together kept becoming more important."
   },
   {
    "type": "schaubild",
@@ -1258,7 +1258,7 @@
        "text": "No function of money – prices are set by the banks."
       }
      ],
-     "explanation": "Prices in francs are a common measure: CHF 600 versus CHF 300 – the first bike is twice as expensive, and you can see that at a glance. That is exactly what the unit of account (the measure of value) does. The store of value is about saving over time, and the medium of exchange is about the act of paying itself. And prices are not set by the banks – they emerge on the market from supply and demand, as you know from Module 7."
+     "explanation": "Prices in francs are a common measure: CHF 600 versus CHF 300 – the first bike is twice as expensive, and you can see that at a glance. That is exactly what the unit of account (the measure of value) does. The store of value is about saving over time, and the medium of exchange is about the act of paying itself. And prices are not set by the banks – they emerge on the market from supply and demand, as you know from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]."
     },
     {
      "id": "q5",
@@ -1342,7 +1342,7 @@
        "correct": true
       }
      ],
-     "explanation": "Money in accounts is called deposit money – it exists only “in the books” of the banks and is merely rebooked with every transfer. Cash, by contrast, is the physical notes and coins. Cryptocurrencies are digital too, but something completely different: they run without banks or a central bank (more on this in Module 13). And commodity money belongs to the early history of money – salt and shells instead of an account balance."
+     "explanation": "Money in accounts is called deposit money – it exists only “in the books” of the banks and is merely rebooked with every transfer. Cash, by contrast, is the physical notes and coins. Cryptocurrencies are digital too, but something completely different: they run without banks or a central bank (more on this in [[modul:wirtschaft-politik-13-boerse-aktien-krypto]]). And commodity money belongs to the early history of money – salt and shells instead of an account balance."
     }
    ]
   },

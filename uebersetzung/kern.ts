@@ -14,6 +14,10 @@
 import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import {
+  ersetzeModulVerweise,
+  modulVerweisAnzeige,
+} from "../schema/schema";
 import { fileURLToPath } from "node:url";
 
 export const REPO_ROOT = path.resolve(
@@ -154,4 +158,70 @@ export function ladeSpeicher(slug: string, sprache: string): Speicher | null {
   } catch {
     return null;
   }
+}
+
+/**
+ * Modul-Titel fürs Auflösen von [[modul:…]] in der Überlauf-Messung:
+ * bevorzugt die Fassung der gewünschten Sprache (module.<lang>.json),
+ * sonst den Master-Titel – exakt die Titel-Wahl des Players.
+ */
+const titelCache = new Map<string, string | null>();
+export function modulTitelFuerMessung(
+  slug: string,
+  sprache?: string,
+): string | null {
+  const schluessel = `${slug}|${sprache ?? ""}`;
+  const bekannt = titelCache.get(schluessel);
+  if (bekannt !== undefined) return bekannt;
+  let titel: string | null = null;
+  try {
+    if (sprache) {
+      const fp = path.join(MODULES_DIR, slug, `module.${sprache}.json`);
+      if (fs.existsSync(fp)) {
+        titel =
+          (JSON.parse(fs.readFileSync(fp, "utf8")) as { title?: string })
+            .title ?? null;
+      }
+    }
+    if (titel === null) {
+      const mp = path.join(MODULES_DIR, slug, "module.json");
+      if (fs.existsSync(mp)) {
+        titel =
+          (JSON.parse(fs.readFileSync(mp, "utf8")) as { title?: string })
+            .title ?? null;
+      }
+    }
+  } catch {
+    titel = null;
+  }
+  titelCache.set(schluessel, titel);
+  return titel;
+}
+
+/**
+ * Szene mit aufgelösten Modul-Verweisen (fürs Messen): Element-Texte
+ * wie im Player – Verweis → Titel (Fassung der Anzeige-Sprache, sonst
+ * Master) in den Anführungszeichen der Anzeige-Sprache. Gemessen wird
+ * exakt die Anzeige, nie die kurze Syntax (Review-Fund 22.9.2026: die
+ * rohe Syntax ist schmaler als jeder Titel – Überläufe blieben unsichtbar).
+ */
+export function loeseSzeneFuerMessung<
+  T extends { elemente: ReadonlyArray<Record<string, unknown>> },
+>(szene: T, anzeigeSprache: string, fassungsSprache?: string): T {
+  return {
+    ...szene,
+    elemente: szene.elemente.map((el) =>
+      el.type === "text" && typeof el.text === "string"
+        ? {
+            ...el,
+            text: ersetzeModulVerweise(el.text, (z) => {
+              const titel = modulTitelFuerMessung(z, fassungsSprache);
+              return titel === null
+                ? null
+                : modulVerweisAnzeige(titel, anzeigeSprache);
+            }),
+          }
+        : el,
+    ),
+  };
 }

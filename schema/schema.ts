@@ -4001,6 +4001,127 @@ export const schaubildBlockSchema = z.strictObject({
   credit: z.string().trim().min(1).max(300).optional(),
 });
 
+/* ---------------------------------------------------------------------------
+ * Modul-Querverweise [[modul:<slug>]] (22.9.2026)
+ *
+ * Feste Modul-Verweise («siehe Modul 7», Titel-Nennungen) brechen, sobald
+ * ein Lehrplan anders nummeriert, ein Titel sich ändert oder eine
+ * Sprachfassung gezeigt wird. Die Verweis-Syntax nennt darum die STABILE
+ * Modul-Kennung (den Ordner-Slug); der Player löst sie beim Anzeigen auf:
+ * aktueller Titel in der Sprache der gezeigten Fassung, plus Link – nur
+ * wenn das Zielmodul im gewählten Lehrplan existiert (sonst reiner Text,
+ * nie ein toter Link). In Schaubild-/Diagramm-Texten (keine Links erlaubt)
+ * erscheint nur der aufgelöste Titel.
+ *
+ * ÜBERSETZUNG: Die Syntax ist invariant – Fassungen übernehmen jeden
+ * Verweis ZEICHENGLEICH (die Übersetzungs-CI prüft die Erhaltung), nur der
+ * umgebende Text wird übersetzt. Aufgelöst wird erst im Player.
+ *
+ * ERLAUBTE FELDER: nur didaktischer Fliesstext (Whitelist in
+ * modulVerweisErlaubtInPfad). In Titeln, Metadaten, captions und
+ * Antwort-Material (Lücken-Antworten, Bausteine, Zuordnungs-Elemente …)
+ * sind Verweise verboten – dort renderten viele Flächen die rohe Syntax
+ * bzw. zerbrächen Antwort-Vergleiche. Beide Validierer erzwingen das und
+ * melden Verweise auf nicht existierende Slugs als FEHLER.
+ * ------------------------------------------------------------------------ */
+
+/**
+ * Ein Verweis: [[modul:<slug>]] – Slug wie der Modul-Ordnername.
+ * BEWUSST minimal enger als die Modul-id-Regel (kein Bindestrich am
+ * Ende): Ein hypothetischer Slug «…-» wäre unreferenzierbar – kein
+ * realer Ordner endet so, und neue sollten es auch nicht (der
+ * Verweis liefe sonst ins Syntax-Fehler-Netz).
+ */
+export const MODUL_VERWEIS_MUSTER =
+  /\[\[modul:([a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\]\]/g;
+
+/** Alle referenzierten Slugs eines Texts (Reihenfolge erhalten, mit Duplikaten). */
+export function extrahiereModulVerweise(text: string): string[] {
+  const slugs: string[] = [];
+  for (const treffer of text.matchAll(MODUL_VERWEIS_MUSTER)) {
+    slugs.push(treffer[1]);
+  }
+  return slugs;
+}
+
+/**
+ * Ersetzt jeden Verweis durch den aufgelösten Titel (EIN Durchlauf,
+ * Funktions-Replacement – eingesetzte Titel werden nie erneut gescannt
+ * und $-Sequenzen nie interpretiert). Liefert der Auflöser null
+ * (unbekanntes Ziel, z. B. in lokal eingeladenen Modulen), bleibt als
+ * ehrlicher Fallback der nackte Slug stehen.
+ */
+export function ersetzeModulVerweise(
+  text: string,
+  aufloeser: (slug: string) => string | null,
+): string {
+  return text.replace(MODUL_VERWEIS_MUSTER, (_alles, slug: string) => {
+    return aufloeser(slug) ?? slug;
+  });
+}
+
+/**
+ * Anzeige-Form eines aufgelösten Verweises: Der Modultitel steht als
+ * Werktitel in den Anführungszeichen der ANZEIGE-Sprache («…» bei
+ * Deutsch, “…” sonst) – lange Titel mit Doppelpunkt blieben mitten im
+ * Satz sonst unlesbar. Player UND Überlauf-Messung der Übersetzungs-CI
+ * nutzen dieselbe Funktion (gemessen wird exakt die Anzeige).
+ */
+export function modulVerweisAnzeige(titel: string, sprache: string): string {
+  return sprache.split("-")[0].toLowerCase() === "de"
+    ? `«${titel}»`
+    : `\u201C${titel}\u201D`;
+}
+
+/**
+ * Unvollständige/verschriebene Verweis-Syntax («[[modul: slug]]»,
+ * Grossschreibung, vergessene Klammer): jedes «[[modul:»-Vorkommen, das
+ * nicht exakt dem Muster entspricht, ist ein Autorenfehler – beide
+ * Validierer melden ihn, statt dass die Rohsyntax still im Player landet.
+ */
+export function modulVerweisSyntaxFehler(text: string): string | null {
+  // Roh-Zähler bewusst breiter als das Muster: fängt auch Leerraum um
+  // «modul»/Doppelpunkt und den englischen Tippfehler «module» (die
+  // en-Fassungen tragen die Syntax zeichengleich, en-Autoren liefern zu).
+  const roh = text.match(/\[\[\s*module?\s*:/gi)?.length ?? 0;
+  if (roh === 0) return null;
+  const gueltig = extrahiereModulVerweise(text).length;
+  if (roh === gueltig) return null;
+  return `enthält ${roh - gueltig}× unvollständige Verweis-Syntax („[[modul:…“) – erwartet wird exakt [[modul:<slug>]] (Kleinbuchstaben/Ziffern/Bindestriche, beide Doppelklammern, kein Leerraum, kein „module“).`;
+}
+
+/**
+ * Whitelist der Felder, in denen [[modul:<slug>]] erlaubt ist – normierte
+ * Pfade wie in der Übersetzungs-Feldliste (Array-Indizes als []). Beide
+ * Validierer prüfen dagegen; alles andere lehnt die Prüfung ab.
+ */
+const MODUL_VERWEIS_ERLAUBTE_PFADE: ReadonlyArray<RegExp> = [
+  /^learningObjectives\[\]$/,
+  /^blocks\[\]\.body$/,
+  /^blocks\[\]\.intro$/,
+  /^blocks\[\]\.text$/, // Lückentext-Fliesstext (nie die Antworten)
+  /^blocks\[\]\.beschreibung$/, // schaubild/diagramm – nur Titel, kein Link
+  /^blocks\[\]\.definition$/, // diagramm-Labels – nur Titel, kein Link
+  /^blocks\[\]\.szene\.elemente\[\]\.text$/, // schaubild – nur Titel
+  /^blocks\[\]\.tasks\[\]\.(prompt|hint|solution)$/,
+  /^blocks\[\]\.questions\[\]\.(prompt|explanation)$/,
+  /^blocks\[\]\.questions\[\]\.options\[\]\.text$/,
+  // Simulations-Abschlussfrage: derselbe Feldbau wie questions[] und
+  // dieselbe Quiz-Komponente im Player – gleiche Rechte.
+  /^blocks\[\]\.abschlussfrage\.(prompt|explanation)$/,
+  /^blocks\[\]\.abschlussfrage\.options\[\]\.text$/,
+  /^blocks\[\]\.knoten\[\]\.(text|auswertung)$/,
+  /^blocks\[\]\.aufgaben\[\]\.prompt$/, // numerisch/term-Teilaufgaben
+  /^blocks\[\]\.varianten\[\]\.text$/,
+  /^blocks\[\]\.varianten\[\]\.intro$/,
+  /^blocks\[\]\.varianten\[\]\.aufgaben\[\]\.prompt$/,
+];
+
+export function modulVerweisErlaubtInPfad(pfad: string): boolean {
+  const normiert = pfad.replace(/\[\d+\]/g, "[]");
+  return MODUL_VERWEIS_ERLAUBTE_PFADE.some((m) => m.test(normiert));
+}
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,

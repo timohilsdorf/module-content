@@ -32,6 +32,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  loeseSzeneFuerMessung,
   FASSUNG_MUSTER,
   MODULES_DIR,
   UEBERSETZUNG_DIR,
@@ -422,15 +423,29 @@ function gitCommitKurz(): string {
 function gebeSchaubildHinweise(
   masterRaw: Record<string, unknown>,
   fassung: Record<string, unknown>,
+  zielSprache?: string,
 ): void {
   const masterBloecke = masterRaw.blocks as Record<string, unknown>[] | undefined;
   const fassungsBloecke = fassung.blocks as Record<string, unknown>[] | undefined;
+  // Verweise wie der Player auflösen, BEVOR gemessen wird (geteilte
+  // Helfer in kern.ts – auch die Fassungs-CI misst so): Master-Seite
+  // in der Master-Sprache (inkl. Fassungs-Titel-Wahl des Players bei
+  // fremdsprachigen Mastern), Fassung in der Zielsprache.
+  const masterSprache =
+    typeof masterRaw.language === "string" ? masterRaw.language : "de";
   masterBloecke?.forEach((block, i) => {
     if (block.type !== "schaubild") return;
     const mSzene = schaubildSzeneSchema.safeParse(block.szene);
     const fSzene = schaubildSzeneSchema.safeParse(fassungsBloecke?.[i]?.szene);
     if (!mSzene.success || !fSzene.success) return; // validate meldet
-    for (const hinweis of schaubildUeberlaufHinweise(mSzene.data, fSzene.data)) {
+    for (const hinweis of schaubildUeberlaufHinweise(
+      loeseSzeneFuerMessung(mSzene.data, masterSprache, masterSprache),
+      loeseSzeneFuerMessung(
+        fSzene.data,
+        zielSprache ?? masterSprache,
+        zielSprache,
+      ),
+    )) {
       console.warn(`⚠ blocks[${i}] (schaubild): ${hinweis}`);
     }
   });
@@ -543,6 +558,7 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
         gebeSchaubildHinweise(
           masterRaw,
           bestehend as unknown as Record<string, unknown>,
+          zielSprache,
         );
         console.log("✓ Fassung ist aktuell – nichts zu tun.");
         return;
@@ -734,7 +750,7 @@ async function uebersetzeModul(slug: string, opt: Optionen): Promise<void> {
   // zeichengenau verifizierten Wrap-Nachbau aus der SYNC-Region;
   // Befunde gehören ins Gegenlesen (Korrekturhinweis setzen), nicht
   // in einen harten Abbruch.
-  gebeSchaubildHinweise(masterRaw, inhalt);
+  gebeSchaubildHinweise(masterRaw, inhalt, zielSprache);
 
   // Metafelder + Prüfsummen.
   const heute = new Date().toISOString().slice(0, 10);

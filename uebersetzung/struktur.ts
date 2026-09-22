@@ -13,6 +13,7 @@ import {
   PAKET_FREIE_UNTERBAEUME,
 } from "./felder";
 import {
+  extrahiereModulVerweise,
   extrahiereDiagrammLabels,
   maskiereDiagrammLabels,
   punkteVonBlock,
@@ -141,6 +142,19 @@ export function vergleicheStruktur(
         } else if (maskiereDiagrammLabels(m) !== maskiereDiagrammLabels(f)) {
           fehler.push(
             `${stelle}: Die Mermaid-Syntax weicht vom Master ab – übersetzt werden nur die Beschriftungen, Knoten/Pfeile/Struktur müssen identisch bleiben.`,
+          );
+        }
+      }
+      // Modul-Querverweise [[modul:<slug>]] sind übersetzungs-INVARIANT:
+      // Die Fassung trägt exakt dieselben Verweise wie der Master (der
+      // Satzbau darf die Reihenfolge ändern, die Menge nie) – sonst
+      // zerbricht die Auflösung beim Anzeigen der Fassung.
+      {
+        const mV = [...extrahiereModulVerweise(m)].sort();
+        const fV = [...extrahiereModulVerweise(f)].sort();
+        if (JSON.stringify(mV) !== JSON.stringify(fV)) {
+          fehler.push(
+            `${stelle}: Modul-Verweise weichen vom Master ab (${fV.join(", ") || "keine"} statt ${mV.join(", ") || "keine"}) – [[modul:…]] wird unverändert übernommen, nur der umgebende Text übersetzt.`,
           );
         }
       }

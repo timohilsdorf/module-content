@@ -94,7 +94,7 @@
   {
    "type": "text",
    "title": "Ein Modul zum Ausprobieren",
-   "body": "Dieses Modul ist **freiwillig** – und es ist anders als die bisherigen: Es erklärt dir fast nichts Neues. Stattdessen wirfst du alles, was du in den Modulen 6 bis 17 gelernt hast, in drei Situationen, die es ernst meinen:\n\n1. **Dein Pausenkiosk** – ein Planspiel. Du führst acht Runden lang einen Kiosk, triffst jede Runde echte Entscheidungen und lebst mit den Folgen.\n2. **Beim Finanzberater** – ein Rollenspiel. Dir gegenüber sitzt ein freundlicher Verkäufer, der genau weiß, was er tut. Du hoffentlich auch.\n3. **Dein Geld im Leben** – ein Lebenssimulator. Fünfzehn Jahre vom ersten Lehrlingslohn mit 16 bis zu deinem dreißigsten Geburtstag, mit allem, was dazwischen passiert.\n\nDu musst nicht alle drei Teile am Stück machen – jeder funktioniert für sich. Und es gibt kein «richtig durchspielen»: Verlieren ist hier ausdrücklich erlaubt. Ein Kiosk, der pleitegeht, lehrt dich mehr als ein Modul, das du nur liest."
+   "body": "Dieses Modul ist **freiwillig** – und es ist anders als die bisherigen: Es erklärt dir fast nichts Neues. Stattdessen wirfst du alles, was du in den bisherigen Wirtschaftsmodulen gelernt hast, in drei Situationen, die es ernst meinen:\n\n1. **Dein Pausenkiosk** – ein Planspiel. Du führst acht Runden lang einen Kiosk, triffst jede Runde echte Entscheidungen und lebst mit den Folgen.\n2. **Beim Finanzberater** – ein Rollenspiel. Dir gegenüber sitzt ein freundlicher Verkäufer, der genau weiß, was er tut. Du hoffentlich auch.\n3. **Dein Geld im Leben** – ein Lebenssimulator. Fünfzehn Jahre vom ersten Lehrlingslohn mit 16 bis zu deinem dreißigsten Geburtstag, mit allem, was dazwischen passiert.\n\nDu musst nicht alle drei Teile am Stück machen – jeder funktioniert für sich. Und es gibt kein «richtig durchspielen»: Verlieren ist hier ausdrücklich erlaubt. Ein Kiosk, der pleitegeht, lehrt dich mehr als ein Modul, das du nur liest."
   },
   {
    "type": "text",
@@ -139,7 +139,7 @@
        "text": "Der Lieferant liefert bei hohen Verkaufspreisen weniger Snacks."
       }
      ],
-     "explanation": "Das ist die Nachfragekurve aus Modul 6 in Aktion: Der Preis ist für die Kundschaft das wichtigste Signal, und mit jedem Aufschlag winken ein paar Käuferinnen und Käufer mehr ab – zuverlässig, nicht zufällig. Mit dem Verderb hat das nichts zu tun (der trifft nur, was du zu viel eingekauft hast), und der Lieferant liefert dir jede bestellte Menge – er schaut nicht auf deinen Verkaufspreis."
+     "explanation": "Das ist die Nachfragekurve aus [[modul:wirtschaft-politik-06-angebot-und-nachfrage]] in Aktion: Der Preis ist für die Kundschaft das wichtigste Signal, und mit jedem Aufschlag winken ein paar Käuferinnen und Käufer mehr ab – zuverlässig, nicht zufällig. Mit dem Verderb hat das nichts zu tun (der trifft nur, was du zu viel eingekauft hast), und der Lieferant liefert dir jede bestellte Menge – er schaut nicht auf deinen Verkaufspreis."
     },
     {
      "id": "q2",
@@ -160,7 +160,7 @@
        "text": "Meine Snacks sind schneller verdorben, weil sie länger im Regal lagen."
       }
      ],
-     "explanation": "Sobald die Kundschaft ausweichen kann, kostet Teurer-Sein doppelt: Zur normalen Preisreaktion kommt die Abwanderung zum günstigeren Anbieter. Genau so diszipliniert Wettbewerb die Preise (Modul 8) – niemand verbietet dir CHF 4.00, aber der Markt macht sie unattraktiv. Der Konkurrenzpreis wurde übrigens unabhängig von deinem gesetzt, und mit Lieferant oder Verderb hat die Konkurrenz nichts zu tun – der Verderb hängt allein an deiner unverkauften Menge."
+     "explanation": "Sobald die Kundschaft ausweichen kann, kostet Teurer-Sein doppelt: Zur normalen Preisreaktion kommt die Abwanderung zum günstigeren Anbieter. Genau so diszipliniert Wettbewerb die Preise ([[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]) – niemand verbietet dir CHF 4.00, aber der Markt macht sie unattraktiv. Der Konkurrenzpreis wurde übrigens unabhängig von deinem gesetzt, und mit Lieferant oder Verderb hat die Konkurrenz nichts zu tun – der Verderb hängt allein an deiner unverkauften Menge."
     },
     {
      "id": "q3",
@@ -202,7 +202,7 @@
        "text": "Immer – wer die Versicherung ablehnte, hat in jedem Fall einen Fehler gemacht."
       }
      ],
-     "explanation": "Eine Versicherung beurteilt man vor dem Zufall, nicht danach (Modul 11): Sie tauscht einen großen, unplanbaren Schaden gegen eine kleine, planbare Prämie. Wer ohne Versicherung Glück hatte, hat Risiko getragen – nicht klüger gehandelt; und wer versichert war und keinen Schaden hatte, hat nichts falsch gemacht – die Sicherheit war echt. Darum sind «nur wenn es kaputtging» und «immer»/«nie» alle drei dieselbe Denkfalle: Sie bewerten die Entscheidung nach dem Würfelergebnis statt nach dem Risiko."
+     "explanation": "Eine Versicherung beurteilt man vor dem Zufall, nicht danach ([[modul:wirtschaft-politik-11-versicherungen]]): Sie tauscht einen großen, unplanbaren Schaden gegen eine kleine, planbare Prämie. Wer ohne Versicherung Glück hatte, hat Risiko getragen – nicht klüger gehandelt; und wer versichert war und keinen Schaden hatte, hat nichts falsch gemacht – die Sicherheit war echt. Darum sind «nur wenn es kaputtging» und «immer»/«nie» alle drei dieselbe Denkfalle: Sie bewerten die Entscheidung nach dem Würfelergebnis statt nach dem Risiko."
     },
     {
      "id": "q5",
@@ -223,14 +223,14 @@
        "correct": true
       }
      ],
-     "explanation": "Zins ist die Miete für geliehenes Geld – und Miete zahlt man pro Zeitraum (Modul 12): 10 % auf die offene Restschuld, in jeder Runde aufs Neue. Bei CHF 50 Schuld waren das CHF 5 pro Runde; wer schnell zurückzahlen konnte, zahlte wenig, wer die Schuld mitschleppte, zahlte immer wieder. Einmalgebühr, Abzug vom Startkapital oder Strafgebühr am Ende beschreiben alle denselben Irrtum: dass Schulden nur einmal kosten. Sie kosten, solange sie bestehen."
+     "explanation": "Zins ist die Miete für geliehenes Geld – und Miete zahlt man pro Zeitraum ([[modul:wirtschaft-politik-12-banken-kredit-zins]]): 10 % auf die offene Restschuld, in jeder Runde aufs Neue. Bei CHF 50 Schuld waren das CHF 5 pro Runde; wer schnell zurückzahlen konnte, zahlte wenig, wer die Schuld mitschleppte, zahlte immer wieder. Einmalgebühr, Abzug vom Startkapital oder Strafgebühr am Ende beschreiben alle denselben Irrtum: dass Schulden nur einmal kosten. Sie kosten, solange sie bestehen."
     }
    ]
   },
   {
    "type": "text",
    "title": "Teil 2 – Seitenwechsel: Jetzt will dir jemand etwas verkaufen",
-   "body": "Im Kiosk warst du die Anbieterin oder der Anbieter – du hast Preise gesetzt, Risiken abgewogen und vielleicht einen Kredit gebraucht. Jetzt wechselst du die Seite: Im folgenden Rollenspiel bist du die Kundschaft, und dir gegenüber sitzt ein Profi.\n\nStell dir vor, du bist ein paar Jahre älter, verdienst deinen ersten eigenen Lohn und schaust dich nach einem Auto um. Im Autocenter wirst du direkt an den Finanzierungsberater weitergereicht: Herr Vogt, freundlich, schnell, überzeugend.\n\nDrei Dinge lohnt sich im Hinterkopf zu behalten:\n\n- **Begriffe:** Eine **Investition** setzt heute Geld ein, damit später Ertrag oder Wert entsteht. **Konsum** verbraucht Geld für Dinge, die man nutzt und die dabei an Wert verlieren. Achte darauf, wie Herr Vogt diese Wörter verwendet.\n- **Techniken:** Dringlichkeit («nur noch diese Woche»), sozialer Vergleich («Ihr Nachbar hat auch …») und Zahlen, die klein wirken («nur 250 im Monat») kennst du aus Modul 17 – hier begegnen sie dir im Gespräch statt im Onlineshop.\n- **Die wichtigste Frage** bei jedem Finanzprodukt: **Wem nützt es zuerst?**\n\nDu kannst das Gespräch mehrmals führen und bewusst verschiedene Wege ausprobieren – auch den, bei dem du alles unterschreibst. Schlimmer als ein Fehler im Rollenspiel ist nur derselbe Fehler später im Autohaus."
+   "body": "Im Kiosk warst du die Anbieterin oder der Anbieter – du hast Preise gesetzt, Risiken abgewogen und vielleicht einen Kredit gebraucht. Jetzt wechselst du die Seite: Im folgenden Rollenspiel bist du die Kundschaft, und dir gegenüber sitzt ein Profi.\n\nStell dir vor, du bist ein paar Jahre älter, verdienst deinen ersten eigenen Lohn und schaust dich nach einem Auto um. Im Autocenter wirst du direkt an den Finanzierungsberater weitergereicht: Herr Vogt, freundlich, schnell, überzeugend.\n\nDrei Dinge lohnt sich im Hinterkopf zu behalten:\n\n- **Begriffe:** Eine **Investition** setzt heute Geld ein, damit später Ertrag oder Wert entsteht. **Konsum** verbraucht Geld für Dinge, die man nutzt und die dabei an Wert verlieren. Achte darauf, wie Herr Vogt diese Wörter verwendet.\n- **Techniken:** Dringlichkeit («nur noch diese Woche»), sozialer Vergleich («Ihr Nachbar hat auch …») und Zahlen, die klein wirken («nur 250 im Monat») kennst du aus [[modul:wirtschaft-politik-17-dark-patterns]] – hier begegnen sie dir im Gespräch statt im Onlineshop.\n- **Die wichtigste Frage** bei jedem Finanzprodukt: **Wem nützt es zuerst?**\n\nDu kannst das Gespräch mehrmals führen und bewusst verschiedene Wege ausprobieren – auch den, bei dem du alles unterschreibst. Schlimmer als ein Fehler im Rollenspiel ist nur derselbe Fehler später im Autohaus."
   },
   {
    "type": "simulation",
@@ -404,7 +404,7 @@
     {
      "id": "ende-rsv-informiert",
      "text": "Sehen Sie, so machen das kluge Leute: erst fragen, dann entscheiden. Kredit plus Versicherung, 280 im Monat – alles klar dokumentiert. Kommen Sie gut heim!",
-     "auswertung": "**Abgeschlossen: Kredit und Restschuldversicherung – nach deiner Nachfrage.** Das ist der informierte Weg zum selben Produkt: Du weißt jetzt, dass die Versicherung im Ernstfall zuerst die **Bank** absichert und deine Familie nur indirekt entlastet, du kennst die echten Kosten (280 statt 250 pro Monat), und du hast dich trotzdem dafür entschieden – weil dir die Absicherung das wert ist. Genau so funktioniert eine Versicherungsentscheidung (Modul 11): großes, unplanbares Risiko gegen kleinen, planbaren Betrag – **nachdem** man geklärt hat, wem das Produkt zuerst nützt und was es kostet. Ob sich die Police je «auszahlt», entscheidet der Zufall; dass du sie verstanden hast, stand heute schon fest."
+     "auswertung": "**Abgeschlossen: Kredit und Restschuldversicherung – nach deiner Nachfrage.** Das ist der informierte Weg zum selben Produkt: Du weißt jetzt, dass die Versicherung im Ernstfall zuerst die **Bank** absichert und deine Familie nur indirekt entlastet, du kennst die echten Kosten (280 statt 250 pro Monat), und du hast dich trotzdem dafür entschieden – weil dir die Absicherung das wert ist. Genau so funktioniert eine Versicherungsentscheidung ([[modul:wirtschaft-politik-11-versicherungen]]): großes, unplanbares Risiko gegen kleinen, planbaren Betrag – **nachdem** man geklärt hat, wem das Produkt zuerst nützt und was es kostet. Ob sich die Police je «auszahlt», entscheidet der Zufall; dass du sie verstanden hast, stand heute schon fest."
     },
     {
      "id": "ende-umgestimmt",
@@ -451,7 +451,7 @@
     },
     {
      "prompt": "Herr Vogt hat die Restschuldversicherung mit dem Schutz deiner Familie begründet. Was war die eigentliche Funktion dieses Produkts – und warum ist es trotzdem zu einfach, die Versicherung deshalb als «Abzocke» abzutun? Antworte in vier bis sechs Sätzen.",
-     "hint": "Denk an die Auskunft aus dem Gesprächsweg mit der Nachfrage «Wem nützt diese Versicherung zuerst?»: Wer bekommt im Ernstfall das Geld? Und aus Modul 11: Wann ist eine Versicherung grundsätzlich sinnvoll?",
+     "hint": "Denk an die Auskunft aus dem Gesprächsweg mit der Nachfrage «Wem nützt diese Versicherung zuerst?»: Wer bekommt im Ernstfall das Geld? Und aus [[modul:wirtschaft-politik-11-versicherungen]]: Wann ist eine Versicherung grundsätzlich sinnvoll?",
      "solution": "Die Restschuldversicherung zahlt im Ernstfall (etwa bei Tod oder Arbeitsunfähigkeit) direkt an die Bank und tilgt die offene Restschuld – sie sichert also zuerst den Kreditgeber ab. Die Familie profitiert nur indirekt, weil sie keine Schulden erbt; verkauft wurde die Police aber mit dem Bild der Familienabsicherung, und die Kosten (30 Franken zusätzlich pro Monat) wurden erst auf Nachfrage in die Rate eingerechnet – genannter Grund und tatsächlicher Zweck fielen auseinander, und der Berater verdiente eine Provision daran. «Abzocke» ist trotzdem zu einfach: Das Produkt tut, was im Vertrag steht, und wer einen großen Kredit trägt und im Ernstfall niemanden mit Raten belasten will, kann sich bewusst dafür entscheiden. Unseriös war nicht die Police, sondern die Verkaufsart. Der Maßstab bleibt: erst klären, wem das Produkt zuerst nützt und was es insgesamt kostet – dann entscheiden."
     },
     {

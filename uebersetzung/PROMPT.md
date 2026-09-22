@@ -17,6 +17,11 @@ Regeln:
 - Markdown-Auszeichnung (Überschriften, Listen, **fett**), KaTeX
   ($…$-Formeln), Platzhalter {{1}}…{{n}} sowie Zahlen, Einheiten und
   Beträge unverändert übernehmen.
+- Modul-Querverweise `[[modul:<slug>]]` ZEICHENGLEICH übernehmen (nie
+  übersetzen, nie umschreiben, keinen streichen oder ergänzen) — die
+  Plattform ersetzt sie beim Anzeigen durch den Modultitel in der
+  jeweiligen Sprache; formuliere den umgebenden Satz so, dass er mit
+  einem eingesetzten Modultitel grammatisch funktioniert.
 - Eigennamen, Ortsnamen und Quellenangaben nicht übersetzen; bei
   Personen-Rollen («Frau Keller, Gemeindepräsidentin») bleibt der Name,
   die Rolle wird übersetzt.

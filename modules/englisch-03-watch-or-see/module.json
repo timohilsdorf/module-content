@@ -65,7 +65,7 @@
   {
    "type": "text",
    "title": "Welcome to the extended module «Watch or see?»",
-   "body": "This is the **extended module** of the unit «Cate's Sound Lab». It is made for learners who want a bigger challenge – if you are in the extended track, this module is for you; everybody else can use it as extra practice.\n\nYou will:\n\n- learn when to use *watch*, *see* and *look at* – three verbs for your **eyes**, just like *listen* and *hear* were for your ears,\n- build **past simple** and **past perfect** forms yourself, without answer options,\n- complete a longer story about an unforgettable concert.\n\nTake your time, and go back to Module 2 whenever you need the grammar rules again."
+   "body": "This is the **extended module** of the unit «Cate's Sound Lab». It is made for learners who want a bigger challenge – if you are in the extended track, this module is for you; everybody else can use it as extra practice.\n\nYou will:\n\n- learn when to use *watch*, *see* and *look at* – three verbs for your **eyes**, just like *listen* and *hear* were for your ears,\n- build **past simple** and **past perfect** forms yourself, without answer options,\n- complete a longer story about an unforgettable concert.\n\nTake your time, and go back to [[modul:englisch-02-listen-or-hear]] whenever you need the grammar rules again."
   },
   {
    "type": "text",
@@ -276,14 +276,14 @@
   {
    "type": "text",
    "title": "Part 2: Quick reminder – past simple and past perfect",
-   "body": "You know this from Module 2: with **two past actions**, the **past perfect** (*had* + past participle) marks the one that happened **first**; the later action takes the **past simple**. Signal words: *before, after, already, by the time, when*.\n\n> When we arrived, the band **had** already **started**.\n\nIf you want the full explanation and the big timeline, go back to Module 2 «Listen or hear?». From here on, you build the forms yourself – no answer options any more."
+   "body": "You know this from [[modul:englisch-02-listen-or-hear]]: with **two past actions**, the **past perfect** (*had* + past participle) marks the one that happened **first**; the later action takes the **past simple**. Signal words: *before, after, already, by the time, when*.\n\n> When we arrived, the band **had** already **started**.\n\nIf you want the full explanation and the big timeline, go back to [[modul:englisch-02-listen-or-hear]]. From here on, you build the forms yourself – no answer options any more."
   },
   {
    "type": "image",
    "title": "The timeline in one line",
    "src": "/content/englisch-03-watch-or-see/timeline-mini.png",
    "alt": "Small timeline strip. An arrow runs from left to right to a dark marker labelled «NOW». A blue dot on the left is labelled «earlier action – past perfect» with the example «the band had started»; an orange dot further right is labelled «later action – past simple» with the example «we arrived». A box under the line shows the rule: past perfect = had + past participle, the same for all persons: I had – she had – we had – they had.",
-   "caption": "The short version of the Module 2 timeline – for a quick look while you work.",
+   "caption": "The short version of the timeline – for a quick look while you work.",
    "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
   },
   {
@@ -456,12 +456,12 @@
   {
    "type": "lueckentext",
    "id": "sb-uebung5c",
-   "title": "Exercise 5.3: Build the sentence – a look back at Module 2",
+   "title": "Exercise 5.3: Build the sentence – a look back",
    "teilkompetenzen": [
     "en.grammatik.satzstrukturen-anwenden-a2",
     "en.wortschatz.aehnliche-verben-unterscheiden-a2"
    ],
-   "intro": "Build the sentence. **One piece is wrong and stays out** – think of the two verbs for your ears.",
+   "intro": "Build the sentence. **One piece is wrong and stays out** – think of the two verbs for your ears from [[modul:englisch-02-listen-or-hear]].",
    "modus": "satzbau",
    "bausteine": [
     "I love",
@@ -501,7 +501,7 @@
     "en.wortschatz.aehnliche-verben-unterscheiden-a2",
     "en.grammatik.vergangenheitsformen-anwenden-a2"
    ],
-   "intro": "Six questions from the whole module – vocabulary, grammar, and one look back at Module 2.",
+   "intro": "Six questions from the whole module – vocabulary, grammar, and one look back at [[modul:englisch-02-listen-or-hear]].",
    "questions": [
     {
      "id": "fi-q1",
@@ -590,7 +590,7 @@
     {
      "id": "fi-q5",
      "type": "single_choice",
-     "prompt": "A look back at Module 2: «Turn the volume up – I can't ___ the lyrics!»",
+     "prompt": "A look back at [[modul:englisch-02-listen-or-hear]]: «Turn the volume up – I can't ___ the lyrics!»",
      "options": [
       {
        "text": "hear",

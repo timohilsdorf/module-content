@@ -33,6 +33,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** (additiv) | 21. September 2026 | KEIN Versionswechsel: neuer Blocktyp [`schaubild`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw) – **gestaltete Schaubilder im Handzeichnungs-Stil** als eingebettete Excalidraw-Szene (gezeichnet im kostenlosen Editor excalidraw.com, exportierte Szene als JSON direkt im Block; keine separate Datei, kein Vorrendern). Zulässig sind nur Formen, Pfeile, Linien, Freihand und Text (Handschrift Excalifont); eingebettete Webinhalte, Element-Links und Bilddateien (`files`) lehnt die Validierung ab. Pflicht-`beschreibung` (Barrierefreiheit); Szenen werden **verschlankt** gespeichert (`npm run schaubild-verschlanken`, Limit 256 KB); die Übersetzung überträgt **nur die Textinhalte der Elemente**, der Player vermisst Texte beim Rendern neu (Kästen wachsen mit) und die Übersetzungs-CI meldet Überläufe als Hinweise. Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
 
 | **3** (additiv) | 22. September 2026 | KEIN Versionswechsel: optionales Feld [`credit`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw) am `schaubild`-Block – Quelle-/Lizenzangabe unter dem gerenderten Schaubild (max. 300 Zeichen, nie übersetzt); **Pflicht bei abgeleiteten Werken** (Nachzeichnung einer fremden Vorlage), wie die credit-Regel des `image`-Blocks. **Achtung Rollout wie beim satzbau** (Feld in bestehendem Blocktyp): Module MIT `credit` am Schaubild erst NACH dem zugehörigen Plattform-Deploy einreichen. |
+| **3** (additiv) | 22. September 2026 | KEIN Versionswechsel: [**Modul-Querverweise**](#modul-querverweise-modulslug) `[[modul:<slug>]]` – Verweise auf andere Module nennen die **stabile Modul-Kennung** (Ordner-Slug) statt Nummer oder Titel; der Player löst sie beim Anzeigen auf (aktueller Titel in der Sprache der gezeigten Fassung, als Link nur, wenn das Ziel im gewählten Lehrplan liegt; in Schaubild-/Diagramm-Texten nur der Titel). Verweise auf nicht existierende Slugs, ausserhalb der Fliesstext-Whitelist oder mit kaputter Syntax sind **Validierungs-FEHLER**; Sprachfassungen übernehmen jeden Verweis zeichengleich (CI erzwingt die Erhaltung). Der Bestand ist umgestellt («siehe Modul 7» → Verweis-Syntax). Keine Schema-Feld-Änderung – ältere Player zeigten nur die rohe Syntax an, darum gilt: Module mit Verweisen erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -1306,6 +1307,66 @@ Sprachfassungen müssen dem Master strukturell exakt entsprechen
 (gleiche Blöcke, ids und Punktzahlen – Lernstand und Reports bleiben
 EIN Modul); übersetzt werden nur Textfelder. Ablauf, Befehle und
 Korrektur-Weg: [`UEBERSETZUNG.md`](UEBERSETZUNG.md).
+
+
+## Modul-Querverweise (`[[modul:<slug>]]`)
+
+Seit 22.9.2026. Feste Verweise wie «siehe Modul 7» oder ausgeschriebene
+Titel **brechen**, sobald ein Lehrplan anders nummeriert, ein Titel
+sich ändert oder eine Sprachfassung gezeigt wird. Darum nennen
+Querverweise die **stabile Modul-Kennung** – den Ordner-Slug des
+Zielmoduls:
+
+```markdown
+Den Argument-Bauplan kennst du aus
+[[modul:wirtschaft-politik-09-argumentieren-preisregulierung]].
+```
+
+**Auflösung im Player** (nie in der Datei): Der Verweis erscheint als
+**aktueller Titel des Zielmoduls** in Anführungszeichen der
+Anzeigesprache («…» auf deutschen, “…” auf englischen Seiten) – in der
+**Sprache der gezeigten Fassung**, soweit das Ziel eine solche Fassung
+hat. Er ist ein **Link** auf das Zielmodul, wenn das Ziel einen
+`curricula`-Eintrag des **gewählten Lehrplans** hat; sonst steht nur
+der Titel als Text (nie ein toter Link). In **Schaubild-Szenen,
+Diagramm-Definitionen und `beschreibung`-Feldern** erscheint immer nur
+der Titel (dort sind keine Links möglich) – wichtige Verweise gehören
+darum in den umgebenden Fliesstext.
+
+**Erlaubte Felder** (didaktischer Fliesstext): `body`, `intro`,
+Lückentext-`text`, `prompt`/`hint`/`solution` (Aufgaben),
+`prompt`/`explanation`/Options-Texte (Quiz), Simulations-Knoten
+(`text`/`auswertung`), `learningObjectives`, numerisch/term-`prompt`
+sowie `beschreibung`/`definition`/Szene-Texte der Schaubild-Blöcke.
+**Verboten** sind Verweise in Titeln, `description`, `keywords`,
+`caption`/`alt`/`credit`, Quellen und jedem **Antwort-Material**
+(Lücken-Antworten, Bausteine, Ablenker, Zuordnungs-Elemente,
+numerische Antworten) – die Validierung lehnt sie dort ab.
+
+**Validierung:** `[[modul:…]]` auf einen Slug, den es nicht gibt, ist
+ein **FEHLER** (Master und Sprachfassungen); ebenso unvollständige
+Syntax (`[[modul: x]]`, fehlende Klammern, Grossschreibung).
+
+**Übersetzung:** Die Syntax ist **invariant** – Sprachfassungen
+übernehmen jeden Verweis zeichengleich, nur der umgebende Text wird
+übersetzt (die Übersetzungs-CI erzwingt die Erhaltung; die
+Überlauf-Prüfung der Schaubilder misst mit dem aufgelösten Titel der
+Zielsprache). Hat das ZIEL keine Fassung in der Seitensprache, zeigt
+der Player ehrlich dessen Master-Titel – auf einer englischen Seite
+also ggf. einen deutschen Titel in “…”-Anführungszeichen; das ist der
+gewollte Rettungsanker, bis die Ziel-Fassung existiert.
+
+**Formulierungs-Regeln:** Den Satz so bauen, dass er mit einem
+eingesetzten Modultitel funktioniert: gut «Mehr dazu in
+[[modul:…]].», schlecht «Mehr dazu in Modul [[modul:…]].» (ergäbe «in
+Modul «Titel»»). Tautologien vermeiden – nennt der Satz den Begriff,
+der schon im Zieltitel steckt, umformulieren («In [[modul:…]] hast du
+das Grundmodell kennengelernt» statt «… den einfachen
+Wirtschaftskreislauf …», wenn der Titel genau so heisst). Und in
+**Lückentexten** aufpassen: Der aufgelöste Titel darf keine
+Lücken-Antworten verraten (ein Titel wie «…: Haushalte, Unternehmen,
+Staat» direkt vor Lücken mit genau diesen Antworten löst die Aufgabe
+vor).
 
 ## Checkliste für KI-Autoren
 

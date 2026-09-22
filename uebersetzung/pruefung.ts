@@ -24,6 +24,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import {
+  loeseSzeneFuerMessung,
   FASSUNG_MUSTER,
   MODULES_DIR,
   REPO_ROOT,
@@ -232,7 +233,14 @@ export function pruefeFassungen(
         const mSzene = schaubildSzeneSchema.safeParse(block.szene);
         const fSzene = schaubildSzeneSchema.safeParse(fassungsBloecke?.[i]?.szene);
         if (!mSzene.success || !fSzene.success) return; // Schema meldet
-        for (const hinweis of schaubildUeberlaufHinweise(mSzene.data, fSzene.data)) {
+        // Modul-Verweise VOR der Messung auflösen (geteilte Helfer in
+        // kern.ts, wie uebersetze.ts): Gemessen wird der aufgelöste
+        // Titel, nie die kurze Syntax (Review-Fund 22.9.2026 – die CI
+        // übersah sonst Überläufe, die die Anzeige hat).
+        for (const hinweis of schaubildUeberlaufHinweise(
+          loeseSzeneFuerMessung(mSzene.data, masterSprache, masterSprache),
+          loeseSzeneFuerMessung(fSzene.data, lang, lang),
+        )) {
           hints.push(`${dateiName}: blocks[${i}] (schaubild): ${hinweis}`);
         }
       });
