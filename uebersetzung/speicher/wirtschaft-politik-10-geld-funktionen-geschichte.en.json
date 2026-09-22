@@ -110,13 +110,93 @@
    "quelle": "sha256:ee3514ee03b74483cecfa7062b5b8f121fbd2efb2ad7b520c902c5806b4df4c3",
    "text": "The timeline of money"
   },
-  "blocks[3].alt": {
-   "quelle": "sha256:e51a1a2c72ee046fa3d8cd3d172699e8782def4b2bd3d769ee0f348736d776fc",
-   "text": "Timeline with six numbered stations in two rows, connected by arrows. Station 1, barter, before the invention of money: goods for goods – only works if both sides want exactly what the other is offering; the double coincidence is rare. Station 2, commodity money, for thousands of years: sought-after goods such as salt, shells or cattle serve as means of payment – everyone accepts them because they are valuable to everyone. Station 3, coins, around 2700 years ago: minted precious metal, durable, countable, worth the same everywhere – first in the kingdom of Lydia, soon all around the Mediterranean. Station 4, paper money, in China around 1000 years ago, in Europe from the 17th century: light notes instead of heavy coins – their value lies not in the paper but in the trust that everyone will accept them. Station 5, deposit money, with the arrival of modern banks: money as numbers in accounts, without notes or coins – today the largest part of all money exists only in this form. Station 6, digital payment, today: card, phone, app – deposit money on the go. Below it, a note with an orange border: the most recent station is cryptocurrencies such as Bitcoin, purely digital money without a state or central bank – more on this in Module 13."
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:41815d709862e98c5779a73244ab6a519b84724b2d904c7eb9b187a856eff9ae",
+   "text": "From barter to digital money"
   },
-  "blocks[3].caption": {
-   "quelle": "sha256:394ab974cba306e7778df4ca7c221bd11f29f24dbb89040065f25380f7b9bfd8",
-   "text": "The timeline of money: from barter to digital payment – each new form of money solved a problem of the old one."
+  "blocks[3].szene.elemente[1].text": {
+   "quelle": "sha256:ee1a6b858704e1574d155886dceef8e7de406ad2b46c7bf469b0ab6e5fb5100e",
+   "text": "The stations of money – each new form solved a problem of the old one"
+  },
+  "blocks[3].szene.elemente[26].text": {
+   "quelle": "sha256:72ad4e3be9b38d6606669c876cfafabccd8628451cc526a9179ed0cd37802792",
+   "text": "Barter"
+  },
+  "blocks[3].szene.elemente[27].text": {
+   "quelle": "sha256:8e614ac424961c0cee561692f983d63ec0da80d48108aea37f3865224ab3a8d3",
+   "text": "before money was invented\n\nGoods for goods. Only works if both sides want exactly what the other offers – this «double coincidence» is rare."
+  },
+  "blocks[3].szene.elemente[28].text": {
+   "quelle": "sha256:2860c3275a757bd00e0b978c4e10ce9409a7ee27597caffb610fb1f6518d4dcf",
+   "text": "Commodity money"
+  },
+  "blocks[3].szene.elemente[29].text": {
+   "quelle": "sha256:5593e7cb995fff788a31148f26110d9475791348cc35f592f8694ffa83f827e5",
+   "text": "for thousands of years\n\nSought-after goods such as salt, shells or cattle serve as means of payment – everyone accepts them because they are valuable to all."
+  },
+  "blocks[3].szene.elemente[30].text": {
+   "quelle": "sha256:84152dfe0da7810867819acc32427c01d7c1486dbbe77783b4f9640074720470",
+   "text": "Coins"
+  },
+  "blocks[3].szene.elemente[31].text": {
+   "quelle": "sha256:75ecafc1c5b334d3deac5a1c25b4be385617592e0288fb4f0a1494cee0c2936f",
+   "text": "around 2,700 years ago\n\nMinted precious metal: durable, countable, worth the same everywhere. First in the kingdom of Lydia – soon all around the Mediterranean."
+  },
+  "blocks[3].szene.elemente[32].text": {
+   "quelle": "sha256:1370c21520ac5157e25260b21de2998299ea31420c69f946d9d7207885cd7b3d",
+   "text": "Paper money"
+  },
+  "blocks[3].szene.elemente[33].text": {
+   "quelle": "sha256:ea09b31c326996b4a237c2cd43322a5996154d7cdcdc515680b407a618fcf7ed",
+   "text": "China: around 1,000 years ago\nEurope: from the 17th century\n\nLight notes instead of heavy coins. Their value is not in the paper – but in the trust that everyone will accept them."
+  },
+  "blocks[3].szene.elemente[34].text": {
+   "quelle": "sha256:d7e19b27fd26e8eb7e229736239e4aec4a39af45ab065acd29155ac181abe6bd",
+   "text": "Deposit money"
+  },
+  "blocks[3].szene.elemente[35].text": {
+   "quelle": "sha256:ffe5d27274f3c729f4af8bee60738bca6a7deb0231cae4d3c8598a8aed45adde",
+   "text": "with modern banking\n\nMoney as numbers in accounts – without notes or coins. Today most of all money exists only in this form."
+  },
+  "blocks[3].szene.elemente[36].text": {
+   "quelle": "sha256:f816ae1f313de0c79b713e563b3e1bc0cc979933a637283e07fb72ea42861f0f",
+   "text": "Digital payment"
+  },
+  "blocks[3].szene.elemente[37].text": {
+   "quelle": "sha256:5f230eddb3d8dbeef9f7545790662f63d2ddbd0ac96d1eefec529eb1f36bbc0a",
+   "text": "today\n\nCard, phone, app: bank money on the go – paid within seconds, without any cash in your pocket."
+  },
+  "blocks[3].szene.elemente[38].text": {
+   "quelle": "sha256:6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+   "text": "1"
+  },
+  "blocks[3].szene.elemente[39].text": {
+   "quelle": "sha256:d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+   "text": "2"
+  },
+  "blocks[3].szene.elemente[40].text": {
+   "quelle": "sha256:4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+   "text": "3"
+  },
+  "blocks[3].szene.elemente[41].text": {
+   "quelle": "sha256:4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+   "text": "4"
+  },
+  "blocks[3].szene.elemente[42].text": {
+   "quelle": "sha256:ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+   "text": "5"
+  },
+  "blocks[3].szene.elemente[43].text": {
+   "quelle": "sha256:e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+   "text": "6"
+  },
+  "blocks[3].szene.elemente[44].text": {
+   "quelle": "sha256:22fda53ccf6f06f7750af0217f22500b74a6637622394c890bad2d827d5df85e",
+   "text": "The newest station: cryptocurrencies such as Bitcoin – purely digital money without a state or central bank."
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:8ed31f9259c6b9cb037320505775ec1204c0a7d10933a1e26b7705d8f7bca060",
+   "text": "The figure “From barter to digital money” shows the stations of money as a chain of six numbered stages connected by arrows – each new form of money solved a problem of the old one. Key points: 1. Barter (before money was invented): goods for goods only works if both sides want exactly what the other offers – the “double coincidence” is rare. 2. Commodity money (for thousands of years): sought-after goods such as salt, shells or cattle serve as means of payment because they are valuable to all. 3. Coins (around 2,700 years ago): minted precious metal is durable, countable and worth the same everywhere – first in the kingdom of Lydia, soon all around the Mediterranean. 4. Paper money (China: around 1,000 years ago, Europe: from the 17th century): light notes instead of heavy coins – their value is not in the paper but in the trust that everyone will accept them. 5. Bank money (with modern banking): money as numbers in accounts, without notes or coins – today most of all money exists only in this form. 6. Digital payment (today): card, phone, app – bank money on the go, paid within seconds without any cash. A closing note names cryptocurrencies such as Bitcoin as the newest station – purely digital money without a state or central bank."
   },
   "blocks[4].title": {
    "quelle": "sha256:bde9495dcf686ebbd08b83042421c6999c595f5a6908594ee857a5e4132eb15d",

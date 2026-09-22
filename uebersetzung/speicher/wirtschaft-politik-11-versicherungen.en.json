@@ -114,13 +114,109 @@
    "quelle": "sha256:adf8f74911f00a150738e61b1c2c2430b37fc61f09203292edd170844505301f",
    "text": "The tiered model of insurance categories"
   },
-  "blocks[4].alt": {
-   "quelle": "sha256:e03a0ba5ec35049c4bf7b64a1562df29d7c57beb4cc63a801aba9f4d370d242c",
-   "text": "Tiered model with five coloured bands arranged one below the other. Tier 1, dark blue, Compulsory – required, you have no choice: health insurance, accident insurance through your employer (from the start of employment), motor vehicle liability insurance; the law or apprenticeship contract requires them. Tier 2, green, Highly advisable – a small premium covers enormous losses: personal liability insurance; for around CHF 100 a year, you are covered if you damage someone else's property or injure someone – losses can run into the millions, rule of thumb 1 in its purest form. Tier 3, medium blue, Depends on the situation – consider according to your circumstances: household contents insurance, comprehensive car insurance, travel insurance; having your own home, a new expensive car or a major trip determines the choice. Tier 4, orange, Usually unnecessary – small loss, high margin: mobile phone and device insurance, extended warranties; a broken screen is annoying but manageable. Tier 5, white with an orange dashed border, Examine critically – mixes insurance and saving: endowment life insurance, breaks rule of thumb 2, seek advice before taking it out. Below are two key facts boxes: rule of thumb 1 – insure against risks that threaten your financial security, cover small losses yourself; rule of thumb 2 – do not mix insurance with saving."
+  "blocks[4].szene.elemente[0].text": {
+   "quelle": "sha256:ccce2f63f6828ca4e484211cb63ff2f0ad191ea327414996f257eab9507aa3a5",
+   "text": "Insurance: which policies do you really need?"
   },
-  "blocks[4].caption": {
-   "quelle": "sha256:68ae7a0267c5783fb8d5904e45f8f575370d2d2f86c2e3f17d201be649f00744",
-   "text": "Five categories in a tiered model: compulsory insurance at the top and, at the bottom, offers you should examine closely – the two rules of thumb are the benchmark."
+  "blocks[4].szene.elemente[1].text": {
+   "quelle": "sha256:1cf058ca831dab6d099da5bddd9a16eca6b5ec6508e1991796d001b36d8af682",
+   "text": "Five categories – a tier scheme from «mandatory» to «check critically»"
+  },
+  "blocks[4].szene.elemente[7].text": {
+   "quelle": "sha256:913cc45ba9d15d8e8f307038dedea6a834927d47b7098b386a6c0f99a6c6de45",
+   "text": "The law or your apprenticeship contract regulates them – what matters is knowing what they protect you against."
+  },
+  "blocks[4].szene.elemente[11].text": {
+   "quelle": "sha256:b7943773e6b560e91311fc9b2ec24607bf994394298e54a153b6eb1948882500",
+   "text": "For around CHF 100 a year you are covered if you damage someone's property or injure\nsomeone – claims can run into millions. Rule of thumb 1 in its purest form."
+  },
+  "blocks[4].szene.elemente[17].text": {
+   "quelle": "sha256:9dc17f2167d197964b0423e51492ee6157f50db017b626c43a330cd301b5dd1c",
+   "text": "It depends: your own flat? A new, expensive car? A big trip booked? –\nLook at your situation first, then decide."
+  },
+  "blocks[4].szene.elemente[22].text": {
+   "quelle": "sha256:4d3f6b5a3b8245ec6c8b346718e9a24cfde664fd89f7c846f92d6417ea3ce1e0",
+   "text": "A broken display is annoying but bearable – such policies break rule of thumb 1\nand are a very good deal for the providers."
+  },
+  "blocks[4].szene.elemente[24].text": {
+   "quelle": "sha256:23306669b810ce80893450a9ef1e0f477879efc187241fa45ad49259f1c9898d",
+   "text": "5 · Check critically"
+  },
+  "blocks[4].szene.elemente[25].text": {
+   "quelle": "sha256:29388f074c2e1baed18f04ae526c52f7398883ce4462e5ebf9812d919f86e0b8",
+   "text": "mixes insuring and saving"
+  },
+  "blocks[4].szene.elemente[27].text": {
+   "quelle": "sha256:7bb760d8fb983b205b446425051326c752d8ad2e09328007917578e02eaf57f9",
+   "text": "Breaks rule of thumb 2: protection and saving in one package – expensive and inflexible.\nGet independent advice and compare alternatives before signing."
+  },
+  "blocks[4].szene.elemente[30].text": {
+   "quelle": "sha256:3b7a157197efa687bc05449005b814953334c364c66591038f5d3f3edf6ecb10",
+   "text": "1 · Mandatory\nrequired by law –\nyou have no choice"
+  },
+  "blocks[4].szene.elemente[31].text": {
+   "quelle": "sha256:500348e73c9e9e443c5048e458a429082176f2fc30363ef65a0849ce44d458a4",
+   "text": "Health insurance"
+  },
+  "blocks[4].szene.elemente[32].text": {
+   "quelle": "sha256:bc0bfe1e4643dd8b75bdb7d591ff0af5219e58ac827b430c7e0ee6f79478605b",
+   "text": "Accident insurance through your\nemployer (once employed)"
+  },
+  "blocks[4].szene.elemente[33].text": {
+   "quelle": "sha256:5f50cd5e76b8d2caf49a513ec55361f7765f1ecf6d4323395f0092fbf3d483a5",
+   "text": "Motor vehicle liability insurance"
+  },
+  "blocks[4].szene.elemente[34].text": {
+   "quelle": "sha256:c6ed7cace7c569478a6e16d271e02bea457c2a63d86c16fdf05cb4b7a0ef41ff",
+   "text": "2 · Very sensible\nsmall premium –\ncovers huge damage"
+  },
+  "blocks[4].szene.elemente[35].text": {
+   "quelle": "sha256:f2190096a8b6a2c57bb0c0fe16e8c8c21aa680a8b163f7035a0f14193a68ae42",
+   "text": "Personal liability insurance"
+  },
+  "blocks[4].szene.elemente[36].text": {
+   "quelle": "sha256:d415e82e08d2fcc289d10fdcd694fb9952c69618ae0a736334a81f61aca7eee0",
+   "text": "3 · Situational\ndepends on your life\n– check first"
+  },
+  "blocks[4].szene.elemente[37].text": {
+   "quelle": "sha256:6a611aa4f9fad90d2c350479cc23645f32d0a30d7de23288e166456987b73c00",
+   "text": "Household contents"
+  },
+  "blocks[4].szene.elemente[38].text": {
+   "quelle": "sha256:03dde2fa17fcc86b463998b04a476754fdf0e6a60c4ae8392c97bbb9aa6ff91c",
+   "text": "Fully comprehensive car cover"
+  },
+  "blocks[4].szene.elemente[39].text": {
+   "quelle": "sha256:458eb59c7004f54ba44dae9ac1e7e0c3977a5361053a5ca8a83f157782655296",
+   "text": "Travel insurance"
+  },
+  "blocks[4].szene.elemente[40].text": {
+   "quelle": "sha256:d3bae59650a0625ed8b2776c7d26e8526fd3c457dc8be96ed26fb363a30019fb",
+   "text": "4 · Mostly unnecessary\nsmall damage –\nhigh margin"
+  },
+  "blocks[4].szene.elemente[41].text": {
+   "quelle": "sha256:6b169288c91e4d879ea2050e40d5215106ef24f54dadb1bf780fa9b606a80d4c",
+   "text": "Phone and gadget insurance"
+  },
+  "blocks[4].szene.elemente[42].text": {
+   "quelle": "sha256:02179b1d92e70073940fb1fd9489ad7cc90230963a4210141f3570c8134b2198",
+   "text": "Extended warranty"
+  },
+  "blocks[4].szene.elemente[43].text": {
+   "quelle": "sha256:c6ee499a2ff9eeabefd33e2b84945b602469b9b9a7ff2dfdd342ecafa973d573",
+   "text": "Combined life insurance"
+  },
+  "blocks[4].szene.elemente[44].text": {
+   "quelle": "sha256:d8bb282652f817e685a5faa1d38c69eb49ddfb8bbceec112daae03bad3aceb97",
+   "text": "Rule of thumb 1:\nInsure risks that threaten your existence –\ncarry small losses yourself."
+  },
+  "blocks[4].szene.elemente[45].text": {
+   "quelle": "sha256:a3828bcf4243d09c930f77405996d6a5e7df161f858dcfe6d417f3661815daa8",
+   "text": "Rule of thumb 2:\nDo not mix insuring and saving."
+  },
+  "blocks[4].beschreibung": {
+   "quelle": "sha256:5c7a4a865f9057ef283aae2ce1bdf45746389f7bb2dac82b8ae1bf259272ca07",
+   "text": "The figure “Insurance: which policies do you really need?” sorts ten insurance products into a tier scheme of five categories – from “mandatory” to “check critically”. The further down a category sits, the more closely you should look before signing; the yardstick for the ranking are the two rules of thumb below the scheme.\n\nKey points:\n- Tier 1, Mandatory (required by law – you have no choice): health insurance, accident insurance through your employer (once employed) and motor vehicle liability. The law or your apprenticeship contract regulates them – what matters is knowing what they protect you against.\n- Tier 2, Very sensible (small premium – covers huge damage): for around CHF 100 a year, personal liability insurance covers damage if you break someone's property or injure someone – claims can run into millions; rule of thumb 1 in its purest form.\n- Tier 3, Situational (depends on your life – check first): household contents, fully comprehensive car cover and travel insurance. It depends: your own flat? A new, expensive car? A big trip booked? – Look at your situation first, then decide.\n- Tier 4, Mostly unnecessary (small damage – high margin): phone and gadget insurance and extended warranties. A broken display is annoying but bearable – such policies break rule of thumb 1 and are a very good deal for the providers.\n- Tier 5, Check critically (mixes insuring and saving): combined life insurance breaks rule of thumb 2 – protection and saving in one package is expensive and inflexible; get independent advice and compare alternatives before signing.\n- Rule of thumb 1: insure risks that threaten your existence – carry small losses yourself. Rule of thumb 2: do not mix insuring and saving."
   },
   "blocks[5].title": {
    "quelle": "sha256:a3b59374ed7ce30dc5d8316e76d5f4af6e9fff8f9c0344113be1cf1b2b30bb0c",
