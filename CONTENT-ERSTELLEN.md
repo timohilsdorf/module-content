@@ -61,6 +61,17 @@ Vorschläge machen und prüfst sie dort nach).
 >   (die liegen strukturiert in den Metadaten und können je Lehrplan
 >   verschieden sein). Bei Zielsprache Englisch ("language": "en")
 >   ist auch die "description" auf Englisch verfasst.
+> - QUERVERWEISE auf andere Module NIE als Nummer oder Titel schreiben
+>   («siehe Modul 7» bricht bei anderer Lehrplan-Nummerierung), sondern
+>   als [[modul:<slug>]] mit dem Ordner-Slug des Zielmoduls – die
+>   Plattform zeigt dafür den aktuellen Modultitel in der jeweiligen
+>   Sprache, verlinkt (bzw. als reinen Titel, wenn das Ziel im
+>   gewählten Lehrplan fehlt). Nur in didaktischem Fliesstext (body,
+>   intro, Aufgaben-/Quiz-Texte, learningObjectives, beschreibung);
+>   NIE in Titeln, "description" oder Antwort-Material. Den Satz so
+>   bauen, dass ein eingesetzter Titel passt: gut «Mehr dazu in
+>   [[modul:…]].», falsch «in Modul [[modul:…]]». Verweise auf
+>   Module, die es nicht gibt, lehnt die Validierung ab.
 > - "curricula": Liste der Lehrplan-Zuordnungen – Fach, Stufe und
 >   Kompetenzen leben NUR hier. Ein Eintrag je Lehrplan, z. B.
 >   [{"curriculum": "li", "subject": "RZG", "subjectName": "Räume,

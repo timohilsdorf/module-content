@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-11-versicherungen --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:33e30963b8731df95f4de6412227e04d9a0bda4859c5733cbe3ad8c0ff713d2b",
-  "masterCommit": "cfcfe82",
+  "masterHash": "sha256:617bdf3823cf5386793cfa39062ec271f12764280a74a4d9a7ffdeea70c0374d",
+  "masterCommit": "4ce84d3",
   "hintsHash": null,
   "generatedAt": "2026-09-22",
   "generator": "uebersetze.ts v1",
-  "model": "speicher",
-  "selfHash": "sha256:5b5c1ad3c8c82ea8b886f3e24394cb8978818c50240c0f747de2c3a614b84372"
+  "model": "datei:antworten-verweise-wp11.json + speicher",
+  "selfHash": "sha256:b9dd31febef4c86f5fd84e0f601887f167c00c080416a1b0916ef05ef0a7a5e3"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-11-versicherungen",
@@ -1253,7 +1253,7 @@
        "correct": true
       }
      ],
-     "explanation": "From your first day at work, you are automatically covered by accident insurance through the company providing your apprenticeship – this is required by law, you do not need to be 18, and your parents do not have to take out any extra insurance. When working full-time, as you do during an apprenticeship, accidents during your free time are also covered (non-occupational accidents) – the premium is deducted from your wages. You will see this deduction again on the payslip in module 14."
+     "explanation": "From your first day at work, you are automatically covered by accident insurance through the company providing your apprenticeship – this is required by law, you do not need to be 18, and your parents do not have to take out any extra insurance. When working full-time, as you do during an apprenticeship, accidents during your free time are also covered (non-occupational accidents) – the premium is deducted from your wages. You will see this deduction again on the payslip in [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]."
     },
     {
      "id": "q6",

@@ -58,6 +58,7 @@ import { vergleicheStruktur, vergleichePunkte } from "./struktur";
 import { findHtmlTags, findMarkdownImages } from "./text-pruefung";
 import {
   ersetzeModulVerweise,
+  modulVerweisAnzeige,
   DIAGRAMM_LABEL_MAX_ZEICHEN,
   SCHAUBILD_TEXT_MAX_ZEICHEN,
   schaubildSzeneSchema,
@@ -462,6 +463,8 @@ function gebeSchaubildHinweise(
   // muss den aufgelösten TITEL fassen, nicht die kurze Syntax (Master
   // mit Master-Titeln, Fassung mit Titeln der Zielsprache, soweit
   // vorhanden – exakt die Anzeige-Logik).
+  const masterSprache =
+    typeof masterRaw.language === "string" ? masterRaw.language : "de";
   const loeseSzene = (
     szene: ReturnType<typeof schaubildSzeneSchema.parse>,
     sprache?: string,
@@ -469,7 +472,15 @@ function gebeSchaubildHinweise(
     ...szene,
     elemente: szene.elemente.map((el) =>
       el.type === "text"
-        ? { ...el, text: ersetzeModulVerweise(el.text, (z) => modulTitel(z, sprache)) }
+        ? {
+            ...el,
+            text: ersetzeModulVerweise(el.text, (z) => {
+              const titel = modulTitel(z, sprache);
+              return titel
+                ? modulVerweisAnzeige(titel, sprache ?? masterSprache)
+                : null;
+            }),
+          }
         : el,
     ),
   });

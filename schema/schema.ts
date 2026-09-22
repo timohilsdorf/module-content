@@ -4055,6 +4055,19 @@ export function ersetzeModulVerweise(
 }
 
 /**
+ * Anzeige-Form eines aufgelösten Verweises: Der Modultitel steht als
+ * Werktitel in den Anführungszeichen der ANZEIGE-Sprache («…» bei
+ * Deutsch, “…” sonst) – lange Titel mit Doppelpunkt blieben mitten im
+ * Satz sonst unlesbar. Player UND Überlauf-Messung der Übersetzungs-CI
+ * nutzen dieselbe Funktion (gemessen wird exakt die Anzeige).
+ */
+export function modulVerweisAnzeige(titel: string, sprache: string): string {
+  return sprache.split("-")[0].toLowerCase() === "de"
+    ? `«${titel}»`
+    : `\u201C${titel}\u201D`;
+}
+
+/**
  * Unvollständige/verschriebene Verweis-Syntax («[[modul: slug]]»,
  * Grossschreibung, vergessene Klammer): jedes «[[modul:»-Vorkommen, das
  * nicht exakt dem Muster entspricht, ist ein Autorenfehler – beide
