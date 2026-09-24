@@ -35,6 +35,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** (additiv) | 22. September 2026 | KEIN Versionswechsel: optionales Feld [`credit`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw) am `schaubild`-Block – Quelle-/Lizenzangabe unter dem gerenderten Schaubild (max. 300 Zeichen, nie übersetzt); **Pflicht bei abgeleiteten Werken** (Nachzeichnung einer fremden Vorlage), wie die credit-Regel des `image`-Blocks. **Achtung Rollout wie beim satzbau** (Feld in bestehendem Blocktyp): Module MIT `credit` am Schaubild erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** (additiv) | 22. September 2026 | KEIN Versionswechsel: [**Modul-Querverweise**](#modul-querverweise-modulslug) `[[modul:<slug>]]` – Verweise auf andere Module nennen die **stabile Modul-Kennung** (Ordner-Slug) statt Nummer oder Titel; der Player löst sie beim Anzeigen auf (aktueller Titel in der Sprache der gezeigten Fassung, als Link nur, wenn das Ziel im gewählten Lehrplan liegt; in Schaubild-/Diagramm-Texten nur der Titel). Verweise auf nicht existierende Slugs, ausserhalb der Fliesstext-Whitelist oder mit kaputter Syntax sind **Validierungs-FEHLER**; Sprachfassungen übernehmen jeden Verweis zeichengleich (CI erzwingt die Erhaltung). Der Bestand ist umgestellt («siehe Modul 7» → Verweis-Syntax). Keine Schema-Feld-Änderung – ältere Player zeigten nur die rohe Syntax an, darum gilt: Module mit Verweisen erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** (additiv) | 24. September 2026 | KEIN Versionswechsel: [`schaubild`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw)-Texte dürfen neben der Handschrift die **serifenlose Normal-Schrift** des Editors tragen (`fontFamily` 6/Nunito; 2/Helvetica wird darauf normalisiert). Geschlossene **Linien-Polygone mit Füllung** (Pyramiden-/Trapezformen) sind ausdrücklich unterstützt. Erster Anwendungsfall: die überarbeitete Bedürfnispyramide in wp-01. **Achtung Rollout wie beim satzbau** (Wert-Erweiterung in bestehendem Blocktyp): Module mit `fontFamily` 6 erst NACH dem zugehörigen Plattform-Deploy einreichen. |
+| **3** (Regel) | 24. September 2026 | KEIN Versionswechsel, **Schaubild-Standard** (Betreiber-Freigabe, Schrift-Regel «weich»): (a) **Kontrast** – jedes Text-Hintergrund-Paar einer Schaubild-Szene braucht mindestens **4,5:1 (WCAG AA)**, geprüft im hellen UND im dunklen Modus (der Dark-Filter des Players ist exakt berechenbar); Verstösse sind **Validierungs-FEHLER**. (b) **Schrift** – Standard für Schaubild-Texte ist die **Normal-Schrift** (`fontFamily` 6/Nunito); die Handschrift (5) bleibt für bewusst skizzenhafte Akzente erlaubt und wird nur als **Hinweis** gemeldet. Der Bestand (30 Schaubilder) ist umgestellt: alle Texte Nunito, 207 Kontrast-Verstösse farbton-erhaltend korrigiert. |
 
 ## Ablage
 
@@ -271,7 +272,10 @@ Schaubilder in einem Modul sind mehrere Blöcke.
 
 1. Auf excalidraw.com zeichnen – nur **Formen (Rechteck, Ellipse,
    Raute), Pfeile, Linien, Freihand und Text**; als Schrift die
-   Handschrift («Hand-drawn») oder die Normal-Schrift («Normal»).
+   Normal-Schrift («Normal» – STANDARD; die Handschrift «Hand-drawn»
+   nur für bewusst skizzenhafte Akzente, sie wird als Hinweis
+   gemeldet). Auf Kontrast achten: jedes Text-Hintergrund-Paar
+   mindestens 4,5:1, sonst lehnt die Validierung ab.
    Beschriftungen als **gebundene Labels** (Text direkt auf der Form
    tippen – er wandert beim Übersetzen automatisch mit um); nur wo
    das nicht geht (schräge Formen wie Pyramiden-Stufen), freie,
@@ -292,13 +296,24 @@ Schaubilder in einem Modul sind mehrere Blöcke.
    gegenüber dem Roh-Export). Grössenlimit: 256 KB pro Schaubild
    (Warnung ab 128 KB).
 
-**Schriften (seit 24.9.2026 zwei):** Die Handschrift «Hand-drawn»
-(Excalifont, `fontFamily` 5) und die serifenlose Normal-Schrift
-«Normal» (Nunito, `fontFamily` 6 – besser lesbar, besonders für
-längere Beschriftungen und jüngere Lernende; die alten Editor-Codes
-Virgil/1 und Helvetica/2 werden automatisch darauf umgestellt).
-Formen und Linien behalten in beiden Fällen den handgezeichneten
-Look.
+**Schriften und Kontrast (STANDARD seit 24.9.2026):** Standard für
+Schaubild-Texte ist die serifenlose **Normal-Schrift** «Normal»
+(Nunito, `fontFamily` 6 – besser lesbar, besonders für längere
+Beschriftungen und jüngere Lernende); die Handschrift «Hand-drawn»
+(Excalifont, `fontFamily` 5) bleibt für bewusst skizzenhafte Akzente
+erlaubt und wird von der Validierung nur als **Hinweis** gemeldet
+(weiche Regel). Die alten Editor-Codes Virgil/1 und Helvetica/2
+werden automatisch normalisiert; Formen und Linien behalten in allen
+Fällen den handgezeichneten Look. **Kontrast ist Pflicht:** Jedes
+Text-Hintergrund-Paar braucht mindestens **4,5:1 (WCAG AA)** – helle
+Schrift auf dunkler Füllung, dunkle auf heller. Die Validierung
+rechnet beide Modi nach (der dunkle Modus entsteht aus einem exakt
+berechenbaren Filter) und meldet Verstösse als **FEHLER**; als
+Hintergrund zählt die deckende Füllung des Containers bzw. der
+obersten Form unter einem freien Text, sonst der Seitengrund.
+Nicht-deckende Füllungen (hachure/cross-hatch, Teil-Deckkraft) kann
+sie nicht prüfen und meldet sie als Hinweis – am besten deckende
+Füllungen («solid») verwenden.
 
 **Nicht erlaubt** (beide Validierer und der lokale Import lehnen ab):
 eingebettete Webinhalte (`embeddable`/`iframe`), Bilder (`image` +

@@ -4020,6 +4020,324 @@ export function schaubildUeberlaufHinweise(
   return hinweise;
 }
 
+/* ---------------------------------------------------------------------------
+ * Schaubild-Standard: Kontrast + Schriftwahl (24.9.2026, Betreiber-
+ * Freigabe «weich»)
+ *
+ * KONTRAST ist Pflicht (FEHLER in beiden Validierern): Jedes
+ * Text-Hintergrund-Paar einer Szene braucht mindestens 4,5:1
+ * (WCAG AA) – geprüft im HELLEN und im DUNKLEN Modus. Der dunkle
+ * Modus ist exakt vorhersagbar: exportWithDarkMode legt den
+ * CSS-Filter invert(93%) hue-rotate(180deg) über das SVG; die
+ * sRGB-Matrix dazu ist implementiert und wurde per Pixel-Probe am
+ * echten Render bestätigt (24.9.2026). Der SEITENGRUND (für freie
+ * Texte ohne gefüllte Form dahinter) ist NICHT Teil des SVGs und
+ * wird darum nicht mitgefiltert – er kommt als App-Theme-Konstante
+ * (hell bg-surface, dunkel gemessen; bei Theme-Änderungen hier
+ * nachziehen).
+ *
+ * SCHRIFT ist eine WEICHE Regel (HINWEIS, kein Fehler): Standard für
+ * Schaubild-Texte ist die Normal-Schrift (fontFamily 6/Nunito);
+ * die Handschrift (5) bleibt für bewusst skizzenhafte Akzente
+ * erlaubt und wird nur gemeldet.
+ * ------------------------------------------------------------------------ */
+
+/** Seitengrund der Modulseite (App-Theme bg-surface, hell). */
+export const SCHAUBILD_SEITENGRUND_HELL = "#f7f7f5";
+/** Seitengrund der Modulseite im dunklen Modus (am Render gemessen). */
+export const SCHAUBILD_SEITENGRUND_DUNKEL = "#191c19";
+/** WCAG-AA-Schwelle für normalen Text. */
+export const SCHAUBILD_KONTRAST_MINDEST = 4.5;
+
+function schaubildFarbwert(
+  wert: string,
+): { rgb: [number, number, number]; alpha: number } | null {
+  const m = /^#([0-9a-f]{3,4}|[0-9a-f]{6}|[0-9a-f]{8})$/i.exec(wert.trim());
+  if (!m) return null;
+  let h = m[1];
+  if (h.length <= 4) h = [...h].map((z) => z + z).join("");
+  const teil = (i: number): number => parseInt(h.slice(i, i + 2), 16);
+  return {
+    rgb: [teil(0), teil(2), teil(4)],
+    alpha: h.length === 8 ? teil(6) / 255 : 1,
+  };
+}
+
+function relativeLuminanz(rgb: [number, number, number]): number {
+  const f = (v: number): number => {
+    const c = v / 255;
+    return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  };
+  return 0.2126 * f(rgb[0]) + 0.7152 * f(rgb[1]) + 0.0722 * f(rgb[2]);
+}
+
+/** WCAG-Kontrastverhältnis zweier Hex-Farben (null bei Nicht-Hex). */
+export function schaubildKontrast(a: string, b: string): number | null {
+  const ra = schaubildFarbwert(a);
+  const rb = schaubildFarbwert(b);
+  if (!ra || !rb) return null;
+  const la = relativeLuminanz(ra.rgb);
+  const lb = relativeLuminanz(rb.rgb);
+  return (Math.max(la, lb) + 0.05) / (Math.min(la, lb) + 0.05);
+}
+
+/**
+ * Farbe unter dem Dark-Mode-Filter des Schaubild-Renderers
+ * (invert(93%) + hue-rotate(180deg) als sRGB-Matrix nach
+ * Filter-Effects-Spez, cos=−1/sin=0) – per Pixel-Probe am echten
+ * Render exakt bestätigt (24.9.2026).
+ */
+export function schaubildDunkelFarbe(hex: string): string | null {
+  const parsed = schaubildFarbwert(hex);
+  if (!parsed) return null;
+  const inv = parsed.rgb.map((c) => 0.93 * (255 - c) + 0.07 * c) as [
+    number,
+    number,
+    number,
+  ];
+  const m = [
+    [-0.574, 1.43, 0.144],
+    [0.426, 0.43, 0.144],
+    [0.426, 1.43, -0.856],
+  ];
+  const klemm = (v: number): number => Math.max(0, Math.min(255, Math.round(v)));
+  const [r, g, b] = [0, 1, 2].map((i) =>
+    klemm(m[i][0] * inv[0] + m[i][1] * inv[1] + m[i][2] * inv[2]),
+  );
+  return `#${[r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("")}`;
+}
+
+/**
+ * Excalidraws Schleifen-Kriterium: line/freedraw werden NUR gefüllt,
+ * wenn der Pfad geschlossen ist (Abstand Anfang↔Ende ≤ 8 px,
+ * LINE_CONFIRM_THRESHOLD – Chunk-Empirie 0.18.1; Review-Fund: offene
+ * Polylinien mit backgroundColor rendern UNGEFÜLLT).
+ */
+function schaubildPfadGeschlossen(
+  points: ReadonlyArray<readonly number[]>,
+): boolean {
+  if (points.length < 3) return false;
+  const a = points[0];
+  const z = points[points.length - 1];
+  return Math.hypot(a[0] - z[0], a[1] - z[1]) <= 8;
+}
+
+/** Liegt der Punkt in der (unrotierten) Form? line/freedraw nur als geschlossene Schleife. */
+function schaubildPunktInForm(
+  el: SchaubildElement,
+  px: number,
+  py: number,
+): boolean {
+  if (el.type === "rectangle") {
+    return px >= el.x && px <= el.x + el.width && py >= el.y && py <= el.y + el.height;
+  }
+  if (el.type === "ellipse") {
+    const dx = (px - (el.x + el.width / 2)) / (el.width / 2);
+    const dy = (py - (el.y + el.height / 2)) / (el.height / 2);
+    return dx * dx + dy * dy <= 1;
+  }
+  if (el.type === "diamond") {
+    const dx = Math.abs(px - (el.x + el.width / 2)) / (el.width / 2);
+    const dy = Math.abs(py - (el.y + el.height / 2)) / (el.height / 2);
+    return dx + dy <= 1;
+  }
+  if (
+    (el.type === "line" || el.type === "freedraw") &&
+    schaubildPfadGeschlossen(el.points)
+  ) {
+    let innen = false;
+    const pts = el.points;
+    for (let i = 0, j = pts.length - 1; i < pts.length; j = i++) {
+      const xi = el.x + pts[i][0];
+      const yi = el.y + pts[i][1];
+      const xj = el.x + pts[j][0];
+      const yj = el.y + pts[j][1];
+      if (yi > py !== yj > py && px < ((xj - xi) * (py - yi)) / (yj - yi) + xi) {
+        innen = !innen;
+      }
+    }
+    return innen;
+  }
+  return false;
+}
+
+type SchaubildGrund =
+  | { art: "farbe"; farbe: string; quelle: string }
+  | { art: "unpruefbar"; grund: string; quelle: string }
+  | { art: "seite" };
+
+/**
+ * Oberste relevante Form UNTER dem Punkt: nur Elemente VOR dem Text in
+ * der Z-Ordnung (Array-Reihenfolge – eine Form ÜBER dem Text ist nie
+ * sein Hintergrund, Review-Fund); der letzte Treffer gewinnt und
+ * ÜBERSCHREIBT auch einen früheren unpruefbar-Befund (Review-Fund:
+ * deckende Form über hachure). Gefüllte ROTIERTE Formen sind nicht
+ * zuverlässig prüfbar → unpruefbar statt still übersprungen.
+ */
+function schaubildGrundUnterPunkt(
+  elemente: ReadonlyArray<SchaubildElement>,
+  bisIndex: number,
+  px: number,
+  py: number,
+): SchaubildGrund {
+  let ergebnis: SchaubildGrund = { art: "seite" };
+  for (let i = 0; i < bisIndex; i++) {
+    const el = elemente[i];
+    if (el.type === "text" || el.type === "arrow") continue;
+    const fuellung = schaubildFarbwert(el.backgroundColor);
+    if (!fuellung) continue; // transparent: Grund darunter bleibt sichtbar
+    if (!schaubildPunktInForm(el, px, py)) continue;
+    const quelle = `Form "${el.id}"`;
+    if (el.angle !== 0) {
+      ergebnis = { art: "unpruefbar", grund: `rotiert (angle ${el.angle})`, quelle };
+    } else if (el.fillStyle !== "solid" || el.opacity !== 100 || fuellung.alpha < 1) {
+      ergebnis = {
+        art: "unpruefbar",
+        grund: `${el.fillStyle}/${el.opacity}${fuellung.alpha < 1 ? "/alpha" : ""}`,
+        quelle,
+      };
+    } else {
+      ergebnis = { art: "farbe", farbe: el.backgroundColor, quelle };
+    }
+  }
+  return ergebnis;
+}
+
+export interface SchaubildStandardBefunde {
+  fehler: string[];
+  hinweise: string[];
+}
+
+/**
+ * Standard-Prüfung einer Szene: Kontrast (FEHLER unter 4,5:1, in hell
+ * UND dunkel) + weiche Schrift-Regel (HINWEIS bei Handschrift).
+ * Hintergrund eines Texts: die deckende Voll-Füllung seines Containers;
+ * hat der Container keine (Pfeil-Label, transparenter Container) oder
+ * ist der Text frei, zählt die OBERSTE deckend gefüllte Form unter der
+ * Text-Mitte (nur Formen VOR dem Text in der Z-Ordnung; geschlossene
+ * line-/freedraw-Schleifen füllen wie Polygone) – sonst
+ * `szene.hintergrund` (rendert als SVG-Fläche und wird im Dunkelmodus
+ * MITGEFILTERT) bzw. der Seitengrund. Nicht zuverlässig prüfbar
+ * (→ HINWEIS statt Fehler): nicht-deckende Füllungen (hachure/
+ * cross-hatch, Teil-Deckkraft, Alpha), rotierte gefüllte Formen und
+ * Texte mit eigener Teil-Deckkraft.
+ */
+export function schaubildStandardBefunde(
+  szene: SchaubildSzene,
+): SchaubildStandardBefunde {
+  const fehler: string[] = [];
+  const hinweise: string[] = [];
+  const handschrift: string[] = [];
+  const hintergrund =
+    szene.hintergrund !== undefined && schaubildFarbwert(szene.hintergrund)
+      ? szene.hintergrund
+      : null;
+  szene.elemente.forEach((el, index) => {
+    if (el.type !== "text") return;
+    if (el.fontFamily === 5) handschrift.push(el.id);
+
+    const textFarbe = schaubildFarbwert(el.strokeColor);
+    if (!textFarbe) {
+      hinweise.push(
+        `Text "${el.id}": Farbe "${el.strokeColor}" ist kein Hex-Wert - Kontrast nicht prüfbar.`,
+      );
+      return;
+    }
+    if (el.opacity !== 100 || textFarbe.alpha < 1) {
+      hinweise.push(
+        `Text "${el.id}": Teil-Deckkraft (${el.opacity}${textFarbe.alpha < 1 ? "/alpha" : ""}) - der Text mischt sich mit dem Grund, Kontrast nicht zuverlässig prüfbar; volle Deckkraft verwenden.`,
+      );
+      return;
+    }
+
+    const cx = el.x + el.width / 2;
+    const cy = el.y + el.height / 2;
+    let grund: SchaubildGrund | null = null;
+    if (el.containerId !== null) {
+      const container = szene.elemente.find((k) => k.id === el.containerId);
+      if (!container) return; // meldet das Schema
+      const fuellung =
+        container.type === "arrow" ? null : schaubildFarbwert(container.backgroundColor);
+      if (fuellung) {
+        if (
+          container.fillStyle !== "solid" ||
+          container.opacity !== 100 ||
+          fuellung.alpha < 1
+        ) {
+          grund = {
+            art: "unpruefbar",
+            grund: `${container.fillStyle}/${container.opacity}${fuellung.alpha < 1 ? "/alpha" : ""}`,
+            quelle: `Container "${container.id}"`,
+          };
+        } else if (container.angle !== 0) {
+          grund = {
+            art: "unpruefbar",
+            grund: `rotiert (angle ${container.angle})`,
+            quelle: `Container "${container.id}"`,
+          };
+        } else {
+          grund = {
+            art: "farbe",
+            farbe: container.backgroundColor,
+            quelle: `Container "${container.id}"`,
+          };
+        }
+      }
+      // Pfeil-Label oder TRANSPARENTER Container: Der echte Grund liegt
+      // DARUNTER (Review-Fund - z. B. transparente Hilfsboxen auf
+      // gefüllten Karten in wp-19); grund bleibt null → Form-Suche.
+    }
+    if (grund === null) {
+      grund = schaubildGrundUnterPunkt(szene.elemente, index, cx, cy);
+    }
+
+    if (grund.art === "unpruefbar") {
+      hinweise.push(
+        `Text "${el.id}": Kontrast auf ${grund.quelle} nicht zuverlässig prüfbar (${grund.grund}) - deckende, unrotierte Voll-Füllung ("solid", Deckkraft 100) verwenden oder Farbe manuell prüfen.`,
+      );
+      return;
+    }
+
+    const hellGrund =
+      grund.art === "farbe"
+        ? grund.farbe
+        : (hintergrund ?? SCHAUBILD_SEITENGRUND_HELL);
+    const dunkelGrund =
+      grund.art === "farbe"
+        ? schaubildDunkelFarbe(grund.farbe)
+        : hintergrund
+          ? schaubildDunkelFarbe(hintergrund)
+          : SCHAUBILD_SEITENGRUND_DUNKEL;
+    const quelle =
+      grund.art === "farbe"
+        ? grund.quelle
+        : hintergrund
+          ? "Szenen-Hintergrund"
+          : "Seitengrund";
+    const dunkelText = schaubildDunkelFarbe(el.strokeColor);
+    const kHell = schaubildKontrast(el.strokeColor, hellGrund);
+    const kDunkel =
+      dunkelText !== null && dunkelGrund !== null
+        ? schaubildKontrast(dunkelText, dunkelGrund)
+        : null;
+    if (kHell === null || kDunkel === null) return; // Hex oben geprüft
+    // ABGERUNDET anzeigen (floor) - «4.50:1 unter mindestens 4,5»
+    // wäre widersinnig (Review-Fund bei 4,4981).
+    const rund = (v: number): string => (Math.floor(v * 100) / 100).toFixed(2);
+    if (kHell < SCHAUBILD_KONTRAST_MINDEST || kDunkel < SCHAUBILD_KONTRAST_MINDEST) {
+      fehler.push(
+        `Text "${el.id}" (${el.strokeColor} auf ${quelle} ${hellGrund}): Kontrast hell ${rund(kHell)}:1, dunkel ${rund(kDunkel)}:1 - mindestens ${SCHAUBILD_KONTRAST_MINDEST}:1 in BEIDEN Modi noetig (WCAG AA).`,
+      );
+    }
+  });
+  if (handschrift.length > 0) {
+    hinweise.push(
+      `Handschrift (fontFamily 5) bei: ${handschrift.join(", ")} - Standard fuer Schaubild-Texte ist die Normal-Schrift (6/Nunito); bewusst skizzenhafte Akzente duerfen bleiben.`,
+    );
+  }
+  return { fehler, hinweise };
+}
+
 /**
  * Schaubild als Daten (NEU seit 21.9.2026): gestaltetes Schaubild im
  * Handzeichnungs-Stil als eingebettete Excalidraw-Szene – der Player
