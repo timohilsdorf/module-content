@@ -264,8 +264,11 @@ Vorschläge machen und prüfst sie dort nach).
 >      diagramm-Block nicht reicht (Kurven, Mengendiagramme, freie
 >      Layouts, nachgebaute Oberflächen): Auf excalidraw.com zeichnen
 >      (nur Formen, Pfeile, Linien, Freihand und Text in der
->      Handschrift «Hand-drawn»; Beschriftungen als GEBUNDENE Labels =
->      Text direkt auf der Form tippen), dann Menü → Export → «Save to
+>      Handschrift «Hand-drawn» ODER der Normal-Schrift «Normal»;
+>      Beschriftungen als GEBUNDENE Labels =
+>      Text direkt auf der Form tippen, bei schrägen Formen wie
+>      Pyramiden-Stufen als freie, zentrierte Texte mit fester
+>      Breite), dann Menü → Export → «Save to
 >      disk» und den Inhalt der .excalidraw-Datei als "szene"
 >      einfügen; danach npm run schaubild-verschlanken -- <modul-id>
 >      laufen lassen (schreibt die kanonische, schlanke Szene in die

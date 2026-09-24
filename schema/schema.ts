@@ -3134,8 +3134,8 @@ export const diagrammBlockSchema = z
  * Excalidraw-Editor und fügen die exportierte Szene als eingebettetes
  * JSON direkt in den Block ein – keine separate Datei, kein
  * Vorrendern; der Player zeichnet zur Laufzeit im Browser
- * (@excalidraw/excalidraw, EXAKT 0.18.1 gepinnt, MIT; Handschrift
- * Excalifont, OFL-1.1 – docs/DRITTANBIETER-LIZENZEN.md).
+ * (@excalidraw/excalidraw, EXAKT 0.18.1 gepinnt, MIT; Schriften
+ * Excalifont + Nunito, beide OFL-1.1 – docs/DRITTANBIETER-LIZENZEN.md).
  *
  * SICHERHEIT (beide Validierer + lokaler Import über dieses Schema):
  * Zulässig sind NUR Formen (rectangle/ellipse/diamond), Pfeile,
@@ -3274,13 +3274,16 @@ export const schaubildTextSchema = z.strictObject({
     }),
   fontSize: z.number().finite().min(8).max(96),
   /**
-   * NUR die Excalidraw-Handschrift Excalifont (Code 5) – die einzige
-   * Familie, die die Plattform hostet (OFL-1.1). Virgil (1, die alte
-   * Handschrift) normalisiert der Verschlanker auf 5; andere Codes
-   * lehnt er mit klarer Meldung ab (unbekannte Codes fielen sonst
-   * still auf eine Emoji-Systemschrift zurück – empirischer Befund).
+   * Zwei Schriftfamilien, beide selbst gehostet (OFL-1.1, Kopie via
+   * kopiere-excalidraw-fonts.mjs): 5 = Handschrift Excalifont
+   * («Hand-drawn»), 6 = serifenlose Normal-Schrift Nunito («Normal»,
+   * seit 24.9.2026; das Paket registriert sie mit Gewicht 500). Die
+   * alten Editor-Codes werden normalisiert (1/Virgil→5,
+   * 2/Helvetica→6); alle übrigen Codes lehnt die Verschlankung LAUT
+   * ab – sie fielen beim Rendern sonst STILL auf eine
+   * Emoji-Systemschrift zurück (empirischer Befund).
    */
-  fontFamily: z.literal(5),
+  fontFamily: z.union([z.literal(5), z.literal(6)]),
   textAlign: z.enum(["left", "center", "right"]),
   verticalAlign: z.enum(["top", "middle", "bottom"]),
   /** id des Elements, in dem der Text gebunden lebt (Kasten-/Pfeil-Label). */
@@ -3546,16 +3549,17 @@ export function verschlankeSchaubildSzene(
             : "";
       let fontFamily = e.fontFamily;
       if (fontFamily === 1) fontFamily = 5; // Virgil (alte Handschrift) -> Excalifont
-      if (fontFamily !== undefined && fontFamily !== 5) {
+      if (fontFamily === 2) fontFamily = 6; // Helvetica (alter Normal-Code) -> Nunito
+      if (fontFamily !== undefined && fontFamily !== 5 && fontFamily !== 6) {
         return {
-          fehler: `Text-Element "${String(basis.id)}" nutzt die Schriftfamilie ${String(e.fontFamily)} - erlaubt ist nur die Excalidraw-Handschrift (im Editor die Schriftart «Hand-drawn» wählen).`,
+          fehler: `Text-Element "${String(basis.id)}" nutzt die Schriftfamilie ${String(e.fontFamily)} - erlaubt sind nur die Excalidraw-Handschrift («Hand-drawn», 5) und die Normal-Schrift («Normal»/Nunito, 6).`,
         };
       }
       elemente.push({
         ...basis,
         text: originalText,
         fontSize: zahl(e.fontSize, 20),
-        fontFamily: 5,
+        fontFamily: fontFamily === 6 ? 6 : 5,
         textAlign: typeof e.textAlign === "string" ? e.textAlign : "left",
         verticalAlign: typeof e.verticalAlign === "string" ? e.verticalAlign : "top",
         containerId: typeof e.containerId === "string" ? e.containerId : null,
@@ -3621,10 +3625,14 @@ export function verschlankeSchaubildSzene(
  * EMPIRISCH per canvas.measureText erhoben (Chrome, 21.9.2026;
  * Font-String «20px Excalifont, Xiaolai, Segoe UI Emoji»). Skalierung
  * über Schriftgrössen ist exakt linear (gemessen 10-36 px, Faktor
- * 1.0000), Kerning praktisch keins (Ganzstring- vs. Summen-Messung
- * ±0,5 %). Grundlage der Überlauf-Prüfung der Übersetzungs-CI in
- * Node OHNE Canvas; unbekannte Glyphen fallen auf die «m»-Breite
- * zurück und werden als Hinweis gemeldet.
+ * 1.0000). ACHTUNG Kerning: Die Tabelle summiert EINZELGLYPHEN – der
+ * Browser misst ganze Zeilen MIT Kerning und liegt dadurch je nach
+ * Text bis zu ~3 % SCHMALER (empirisch 24.9.2026; Beispiele −1,1 %
+ * bis −3,4 %). Der Nachbau schätzt also meist KONSERVATIV (eher
+ * Fehlalarm als übersehener Überlauf) – die Überlauf-Meldungen sind
+ * darum bewusst HINWEISE, keine Fehler. Grundlage der
+ * Übersetzungs-CI in Node OHNE Canvas; unbekannte Glyphen fallen auf
+ * die «m»-Breite zurück und werden als Hinweis gemeldet.
  */
 export const SCHAUBILD_GLYPHBREITEN_20PX: Readonly<Record<string, number>> =
   {
@@ -3662,21 +3670,81 @@ export const SCHAUBILD_GLYPHBREITEN_20PX: Readonly<Record<string, number>> =
 /** Excalidraws Innenabstand für in Formen gebundenen Text (px). */
 export const SCHAUBILD_TEXT_INNENABSTAND = 5;
 
+/**
+ * Glyphen-Vorschubbreiten der Normal-Schrift Nunito bei 20 px –
+ * EMPIRISCH per canvas.measureText erhoben (Chrome, 24.9.2026;
+ * Subsets des gepinnten Pakets mit Gewicht 500 registriert wie in
+ * der Bibliothek – deren Mess-Fallback für Nunito ist «Segoe UI
+ * Emoji» OHNE Xiaolai; für die 171 Tabellen-Glyphen liefert das
+ * LATIN-Subset alle Werte, der Fallback greift nie). Linearität über
+ * Schriftgrössen exakt (10/36 px Faktor 1.0000). ACHTUNG Kerning wie
+ * bei der Excalifont-Tabelle: Einzelglyphen-Summen liegen je nach
+ * Text bis zu ~3 % BREITER als die Browser-Zeilenmessung mit Kerning
+ * (empirisch −1,5 % bis −3,1 %, vereinzelt +0,3 %) – der Nachbau
+ * schätzt meist konservativ, Überlauf-Meldungen bleiben HINWEISE.
+ * Gleicher Glyphensatz wie die Excalifont-Tabelle; unbekannte
+ * Glyphen fallen auf die «m»-Breite zurück und werden als Hinweis
+ * gemeldet.
+ */
+export const SCHAUBILD_GLYPHBREITEN_NUNITO_20PX: Readonly<Record<string, number>> =
+  {
+  "0": 12, "1": 12, "2": 12, "3": 12, "4": 12, "5": 12,
+  "6": 12, "7": 12, "8": 12, "9": 12, " ": 5.22, "!": 4.66,
+  "\"": 8.1, "#": 12, "$": 12, "%": 18.66, "&": 14.02, "'": 4.52,
+  "(": 6.52, ")": 6.52, "*": 9.02, "+": 12, ",": 4.66, "-": 8.54,
+  ".": 4.66, "/": 5.8, ":": 4.66, ";": 4.66, "<": 12, "=": 12,
+  ">": 12, "?": 8.94, "@": 18.94, "A": 14.66, "B": 13.58, "C": 13.5,
+  "D": 14.94, "E": 11.72, "F": 11.02, "G": 14.58, "H": 15.28, "I": 5.24,
+  "J": 6.62, "K": 12.68, "L": 10.96, "M": 17.16, "N": 14.82, "O": 15.42,
+  "P": 12.74, "Q": 15.42, "R": 13.46, "S": 12.36, "T": 12.14, "U": 14.62,
+  "V": 13.88, "W": 22.08, "X": 13.1, "Y": 12.02, "Z": 11.86, "[": 6.48,
+  "\\": 5.8, "]": 6.48, "^": 12, "_": 10, "`": 7.22, "a": 10.66,
+  "b": 11.74, "c": 9.3, "d": 11.74, "e": 10.68, "f": 6.8, "g": 11.8,
+  "h": 11.44, "i": 4.74, "j": 4.82, "k": 10.16, "l": 6.02, "m": 17.22,
+  "n": 11.44, "o": 11.2, "p": 11.74, "q": 11.74, "r": 7.3, "s": 9.66,
+  "t": 7.16, "u": 11.3, "v": 10.36, "w": 16.88, "x": 10.6, "y": 10.34,
+  "z": 9.32, "{": 7.22, "|": 5.4, "}": 7.22, "~": 12, "Ä": 14.66,
+  "Ö": 15.42, "Ü": 14.62, "ä": 10.66, "ö": 11.2, "ü": 11.3, "ß": 12.48,
+  "á": 10.66, "à": 10.66, "â": 10.66, "ã": 10.66, "å": 10.66, "æ": 17.24,
+  "ç": 9.3, "é": 10.68, "è": 10.68, "ê": 10.68, "ë": 10.68, "í": 4.74,
+  "ì": 4.74, "î": 4.74, "ï": 4.74, "ñ": 11.44, "ó": 11.2, "ò": 11.2,
+  "ô": 11.2, "õ": 11.2, "ø": 11.2, "œ": 18.22, "Œ": 20.98, "ú": 11.3,
+  "ù": 11.3, "û": 11.3, "ý": 10.34, "ÿ": 10.34, "Á": 14.66, "À": 14.66,
+  "Â": 14.66, "Ã": 14.66, "Å": 14.66, "Æ": 19.68, "Ç": 13.5, "É": 11.72,
+  "È": 11.72, "Ê": 11.72, "Ë": 11.72, "Í": 5.24, "Ì": 5.24, "Î": 5.24,
+  "Ï": 5.24, "Ñ": 14.82, "Ó": 15.42, "Ò": 15.42, "Ô": 15.42, "Õ": 15.42,
+  "Ø": 15.42, "Ú": 14.62, "Ù": 14.62, "Û": 14.62, "Ý": 12.02, "«": 9.06,
+  "»": 9.06, "„": 8.1, "“": 8.1, "”": 8.1, "‚": 4.66, "‘": 4.66,
+  "’": 4.66, "–": 10, "—": 20, "…": 14, "·": 4.66, "°": 7.46,
+  "€": 12, "§": 11.02, "µ": 12
+};
+
+/** Glyphbreiten-Tabelle je Schriftfamilie (5 Excalifont, 6 Nunito). */
+export function schaubildGlyphbreiten(
+  fontFamily: number,
+): Readonly<Record<string, number>> {
+  return fontFamily === 6
+    ? SCHAUBILD_GLYPHBREITEN_NUNITO_20PX
+    : SCHAUBILD_GLYPHBREITEN_20PX;
+}
+
 /** Vorschubbreite eines Texts (eine Zeile) bei gegebener Schriftgrösse. */
 export function schaubildTextBreite(
   text: string,
   fontSize: number,
+  fontFamily = 5,
 ): { breite: number; unbekannt: string[] } {
+  const tabelle = schaubildGlyphbreiten(fontFamily);
   const unbekannt: string[] = [];
   let breite = 0;
   for (const zeichen of text) {
     // Zeilenumbrüche sind Struktur, keine Glyphen – Breite 0, kein
     // «unbekannt»-Hinweis (Aufrufer messen teils den ganzen Text).
     if (zeichen === "\n") continue;
-    const b = SCHAUBILD_GLYPHBREITEN_20PX[zeichen];
+    const b = tabelle[zeichen];
     if (b === undefined) {
       if (!unbekannt.includes(zeichen)) unbekannt.push(zeichen);
-      breite += SCHAUBILD_GLYPHBREITEN_20PX.m;
+      breite += tabelle.m;
     } else {
       breite += b;
     }
@@ -3694,8 +3762,14 @@ export function schaubildTextBreite(
  * die Überlauf-Prüfung der Übersetzungs-CI, die ohne Browser
  * auskommen muss.
  */
-export function schaubildWrap(text: string, maxWidth: number, fontSize: number): string {
-  const breiteVon = (s: string): number => schaubildTextBreite(s, fontSize).breite;
+export function schaubildWrap(
+  text: string,
+  maxWidth: number,
+  fontSize: number,
+  fontFamily = 5,
+): string {
+  const breiteVon = (s: string): number =>
+    schaubildTextBreite(s, fontSize, fontFamily).breite;
   const zeilen: string[] = [];
   for (const rohZeile of text.split("\n")) {
     if (breiteVon(rohZeile) <= maxWidth) {
@@ -3813,13 +3887,13 @@ function schaubildBoxenNachUmbruch(szene: SchaubildSzene): {
     // beide Orthografien (Review-Fund: der Player misst den
     // gewandelten Text, die CI mass vorher den ß-Master).
     const messText = el.text.replaceAll("ß", "ss");
-    const { unbekannt } = schaubildTextBreite(messText, el.fontSize);
+    const { unbekannt } = schaubildTextBreite(messText, el.fontSize, el.fontFamily);
     if (unbekannt.length > 0) {
       befunde.push({
         schluessel: `glyphe|${unbekannt.join("")}`,
         text: `Text "${schaubildKurzText(el.text)}": Zeichen ${unbekannt
           .map((z) => `«${z}»`)
-          .join(", ")} fehlen in der Breiten-Tabelle - die Überlauf-Schätzung nutzt Ersatzbreiten (SCHAUBILD_GLYPHBREITEN_20PX erweitern).`,
+          .join(", ")} fehlen in der Breiten-Tabelle - die Überlauf-Schätzung nutzt Ersatzbreiten (${el.fontFamily === 6 ? "SCHAUBILD_GLYPHBREITEN_NUNITO_20PX" : "SCHAUBILD_GLYPHBREITEN_20PX"} erweitern).`,
       });
     }
     const zeilenHoehe = el.fontSize * el.lineHeight;
@@ -3831,7 +3905,7 @@ function schaubildBoxenNachUmbruch(szene: SchaubildSzene): {
       // fliesst nur in die MELDE-Schwelle unten ein, sonst erzeugte
       // ein exakt passender Text Phantom-Umbrüche (Review-Fund).
       const maxBreite = schaubildContainerTextBreite(container, el.fontSize);
-      const umbrochen = schaubildWrap(messText, maxBreite, el.fontSize);
+      const umbrochen = schaubildWrap(messText, maxBreite, el.fontSize, el.fontFamily);
       const zeilen = umbrochen.split("\n");
       const textHoehe = zeilen.length * zeilenHoehe;
       const maxHoehe = schaubildContainerTextHoehe(container);
@@ -3853,7 +3927,7 @@ function schaubildBoxenNachUmbruch(szene: SchaubildSzene): {
         });
       }
       const breiteste = Math.max(
-        ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize).breite),
+        ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize, el.fontFamily).breite),
       );
       // Melde-Schwelle 2 % über der Kastenbreite (Messfehler ±0,5 %).
       if (breiteste > maxBreite * 1.02) {
@@ -3874,10 +3948,10 @@ function schaubildBoxenNachUmbruch(szene: SchaubildSzene): {
       const maxBreite = el.autoResize ? Infinity : el.width;
       const umbrochen = el.autoResize
         ? messText
-        : schaubildWrap(messText, maxBreite, el.fontSize);
+        : schaubildWrap(messText, maxBreite, el.fontSize, el.fontFamily);
       const zeilen = umbrochen.split("\n");
       const breite = Math.max(
-        ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize).breite),
+        ...zeilen.map((z) => schaubildTextBreite(z, el.fontSize, el.fontFamily).breite),
       );
       masse.set(el.id, {
         width: el.autoResize ? breite : el.width,
@@ -3949,7 +4023,7 @@ export function schaubildUeberlaufHinweise(
 /**
  * Schaubild als Daten (NEU seit 21.9.2026): gestaltetes Schaubild im
  * Handzeichnungs-Stil als eingebettete Excalidraw-Szene – der Player
- * rendert lokal (gepinnte Bibliothek + selbst gehostete Handschrift,
+ * rendert lokal (gepinnte Bibliothek + selbst gehostete Schriften,
  * kein CDN); die Übersetzungs-Ableitung übersetzt AUSSCHLIESSLICH die
  * Textinhalte der Elemente (uebersetzung/felder.ts), Koordinaten,
  * Grössen und Struktur sind invariant. Kein prüfender Block.
