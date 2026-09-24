@@ -35,6 +35,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** (additiv) | 22. September 2026 | KEIN Versionswechsel: optionales Feld [`credit`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw) am `schaubild`-Block – Quelle-/Lizenzangabe unter dem gerenderten Schaubild (max. 300 Zeichen, nie übersetzt); **Pflicht bei abgeleiteten Werken** (Nachzeichnung einer fremden Vorlage), wie die credit-Regel des `image`-Blocks. **Achtung Rollout wie beim satzbau** (Feld in bestehendem Blocktyp): Module MIT `credit` am Schaubild erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** (additiv) | 22. September 2026 | KEIN Versionswechsel: [**Modul-Querverweise**](#modul-querverweise-modulslug) `[[modul:<slug>]]` – Verweise auf andere Module nennen die **stabile Modul-Kennung** (Ordner-Slug) statt Nummer oder Titel; der Player löst sie beim Anzeigen auf (aktueller Titel in der Sprache der gezeigten Fassung, als Link nur, wenn das Ziel im gewählten Lehrplan liegt; in Schaubild-/Diagramm-Texten nur der Titel). Verweise auf nicht existierende Slugs, ausserhalb der Fliesstext-Whitelist oder mit kaputter Syntax sind **Validierungs-FEHLER**; Sprachfassungen übernehmen jeden Verweis zeichengleich (CI erzwingt die Erhaltung). Der Bestand ist umgestellt («siehe Modul 7» → Verweis-Syntax). Keine Schema-Feld-Änderung – ältere Player zeigten nur die rohe Syntax an, darum gilt: Module mit Verweisen erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** (additiv) | 24. September 2026 | KEIN Versionswechsel: [`schaubild`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw)-Texte dürfen neben der Handschrift die **serifenlose Normal-Schrift** des Editors tragen (`fontFamily` 6/Nunito; 2/Helvetica wird darauf normalisiert). Geschlossene **Linien-Polygone mit Füllung** (Pyramiden-/Trapezformen) sind ausdrücklich unterstützt. Erster Anwendungsfall: die überarbeitete Bedürfnispyramide in wp-01. **Achtung Rollout wie beim satzbau** (Wert-Erweiterung in bestehendem Blocktyp): Module mit `fontFamily` 6 erst NACH dem zugehörigen Plattform-Deploy einreichen. |
+| **3** (Regel) | 24. September 2026 | KEIN Versionswechsel: **GER-Niveau im Teilkompetenz-Namen** – die 12 Sprach-Teilkompetenzen tragen ihr Niveau jetzt als Präfix im Namen («A1: Ich kann …» / «A1: I can …», beide Sprachen). Die Plattform-Matrix gruppiert Sprachen seither nach EINER Oberkategorie je Fertigkeit («Wortschatz» statt «Wortschatz (A1)»/«(A2)»). Kennungen unverändert (Register-Regel). |
 | **3** (Regel) | 24. September 2026 | KEIN Versionswechsel, **Schaubild-Standard** (Betreiber-Freigabe, Schrift-Regel «weich»): (a) **Kontrast** – jedes Text-Hintergrund-Paar einer Schaubild-Szene braucht mindestens **4,5:1 (WCAG AA)**, geprüft im hellen UND im dunklen Modus (der Dark-Filter des Players ist exakt berechenbar); Verstösse sind **Validierungs-FEHLER**. (b) **Schrift** – Standard für Schaubild-Texte ist die **Normal-Schrift** (`fontFamily` 6/Nunito); die Handschrift (5) bleibt für bewusst skizzenhafte Akzente erlaubt und wird nur als **Hinweis** gemeldet. Der Bestand (30 Schaubilder) ist umgestellt: alle Texte Nunito, 207 Kontrast-Verstösse farbton-erhaltend korrigiert. |
 
 ## Ablage
@@ -1136,6 +1137,13 @@ Regeln und Konventionen:
   eigene Kennung. Die Themen-Ebene ist bei Sprachen die FERTIGKEIT
   (`hoeren`, `lesen`, `schreiben`, `wortschatz`, `grammatik`) – eine
   Fertigkeit erscheint erst, wenn ein Block sie wirklich prüft.
+  **Seit 24.9.2026 steht das Niveau zusätzlich als Präfix im NAMEN**
+  («A1: Ich kann …» / «A1: I can …», beide Sprachen): Die Plattform
+  gruppiert die Matrix seither nach EINER Oberkategorie je Fertigkeit
+  («Wortschatz» statt «Wortschatz (A1)»/«(A2)»), das Niveau lesen
+  Lehrpersonen direkt in der Teilkompetenz-Zeile. Neue Sprach-
+  Teilkompetenzen bekommen den Präfix von Anfang an; die Kennungen
+  bleiben wie immer unangetastet.
 - **Landeskunde einfalten:** Länderspezifische Anteile (Finanzplatz
   Liechtenstein, EWR-Doppelrolle, Franken-Einführung) bekommen keine
   eigene Teilkompetenz, sondern gehören in die fachliche Teilkompetenz
