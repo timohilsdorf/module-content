@@ -51,6 +51,7 @@ function istBekannteEinheit(einheit: string): boolean {
 import {
   extrahiereModulVerweise,
   isKnownBlock,
+  schaubildStandardBefunde,
   KNOWN_BLOCK_TYPES,
   knownBlockSchema,
   LEHRPLAENE,
@@ -763,6 +764,18 @@ function checkModule(
       hints.push(`Bild "${entry.name}" wird von keinem Block referenziert.`);
     }
   }
+
+  // --- Schaubild-Standard: Kontrast + Schriftwahl (24.9.2026) --------------
+  // Freigabe «weich»: Kontrast unter 4,5:1 (hell ODER dunkel) ist ein
+  // FEHLER, Handschrift (fontFamily 5) nur ein HINWEIS. Fassungen
+  // teilen die (farb-invarianten) Szenen des Masters – geprüft wird
+  // hier der Master.
+  mod.blocks.forEach((block, i) => {
+    if (!isKnownBlock(block) || block.type !== "schaubild") return;
+    const befunde = schaubildStandardBefunde(block.szene);
+    errors.push(...befunde.fehler.map((f) => `blocks[${i}] (schaubild): ${f}`));
+    hints.push(...befunde.hinweise.map((h) => `blocks[${i}] (schaubild): ${h}`));
+  });
 
   // --- Modul-Querverweise [[modul:<slug>]] (22.9.2026) ---------------------
   // Tote Ziele, unvollständige Syntax und Verweise ausserhalb der

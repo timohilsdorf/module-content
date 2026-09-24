@@ -264,7 +264,11 @@ Vorschläge machen und prüfst sie dort nach).
 >      diagramm-Block nicht reicht (Kurven, Mengendiagramme, freie
 >      Layouts, nachgebaute Oberflächen): Auf excalidraw.com zeichnen
 >      (nur Formen, Pfeile, Linien, Freihand und Text in der
->      Handschrift «Hand-drawn» ODER der Normal-Schrift «Normal»;
+>      Normal-Schrift «Normal» (STANDARD; die Handschrift «Hand-drawn»
+>      nur für bewusst skizzenhafte Akzente). KONTRAST ist Pflicht:
+>      jedes Text-Hintergrund-Paar mindestens 4,5:1 (helle Schrift auf
+>      dunkler Füllung, dunkle auf heller – die Validierung prüft
+>      beide Anzeige-Modi und lehnt Verstösse ab).
 >      Beschriftungen als GEBUNDENE Labels =
 >      Text direkt auf der Form tippen, bei schrägen Formen wie
 >      Pyramiden-Stufen als freie, zentrierte Texte mit fester
