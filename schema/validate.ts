@@ -26,6 +26,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import { create, unitDependencies, parseDependencies } from "mathjs";
@@ -159,6 +160,16 @@ const teilkompetenzEintragSchema = z.strictObject({
     })
     .optional(),
   fachbereich: z.string().trim().min(1).max(60),
+  // Kennungs-Schutz (Spinnennetz): ausgediente Kennungen werden als
+  // veraltet markiert statt gelöscht/umbenannt (s. kennungsSchutz unten).
+  veraltet: z
+    .strictObject({
+      nachfolger: z.string().trim().min(1).max(64).optional(),
+    })
+    .optional(),
+  // true = für den experimentellen KI-Interview-Block zugelassen (nur
+  // kognitive/lernbezogene Indikatoren, nie emotionale/persönlichkeitsnahe).
+  interview: z.literal(true).optional(),
 });
 
 type KompetenzRegister = Record<string, z.infer<typeof teilkompetenzEintragSchema>>;
@@ -304,6 +315,58 @@ try {
 } catch (err) {
   console.error(`✗ ${(err as Error).message}`);
   process.exit(1);
+}
+
+/**
+ * KENNUNGS-SCHUTZ (Spinnennetz, 26.9.2026): Registrierte Kennungen sind
+ * DAUERHAFT – an ihnen hängen Einschätzungs-Datenpunkte auf Schüler-
+ * und Lehrergeräten, die ein Umbenennen nie mitvollziehen könnten.
+ * Diese Prüfung vergleicht das Register gegen die PR-Basis (dieselbe
+ * Umgebungsvariable wie die Fassungs-Prüfung, UEBERSETZUNG_BASIS =
+ * origin/<base_ref> in der CI): Jede Kennung der Basis muss weiter
+ * existieren; ausgediente werden als `veraltet` markiert (optional mit
+ * `nachfolger`). Ohne Basis (lokaler Lauf) entfällt die Prüfung.
+ */
+function kennungsSchutzFehler(register: KompetenzRegister): string[] {
+  const basis = process.env.UEBERSETZUNG_BASIS;
+  if (!basis || !kompetenzenAktiv) return [];
+  let altRoh: string;
+  try {
+    altRoh = execFileSync(
+      "git",
+      ["show", `${basis}:kompetenzen/teilkompetenzen.json`],
+      { cwd: ROOT, encoding: "utf8" },
+    );
+  } catch {
+    // Datei existierte in der Basis noch nicht (Erst-Anlage) oder die
+    // Basis ist lokal nicht auflösbar – dann gibt es nichts zu schützen.
+    return [];
+  }
+  let alt: unknown;
+  try {
+    alt = JSON.parse(altRoh);
+  } catch {
+    return [];
+  }
+  if (typeof alt !== "object" || alt === null) return [];
+  const fehler: string[] = [];
+  for (const kennung of Object.keys(alt)) {
+    if (kennung === "_hinweis") continue;
+    if (!Object.hasOwn(register, kennung)) {
+      fehler.push(
+        `kompetenzen/teilkompetenzen.json: Registrierte Kennung "${kennung}" wurde entfernt oder umbenannt – Kennungen sind dauerhaft (Belegspur-Datenpunkte hängen daran). Stattdessen als veraltet markieren: "veraltet": { "nachfolger": "<neue-kennung>" }.`,
+      );
+    }
+  }
+  return fehler;
+}
+
+{
+  const schutz = kennungsSchutzFehler(kompetenzRegister);
+  if (schutz.length > 0) {
+    for (const f of schutz) console.error(`✗ ${f}`);
+    process.exit(1);
+  }
 }
 
 /** Alle in Modulen referenzierten Kennungen (fürs Warn-Resümee am Ende). */

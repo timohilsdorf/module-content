@@ -562,5 +562,238 @@
    "en": "I can create my own module as module.json and submit it as a pull request."
   },
   "fachbereich": "informatik"
+ },
+ "uef.selbststeuerung.entscheidungen-treffen": {
+  "name": {
+   "de": "Ich treffe Entscheidungen selbst und stehe dazu.",
+   "en": "I make decisions myself and stand by them."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.selbststeuerung.prioritaeten-setzen": {
+  "name": {
+   "de": "Ich setze Prioritäten und beginne mit dem Wichtigen.",
+   "en": "I set priorities and start with what matters most."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.selbststeuerung.ziele-verfolgen": {
+  "name": {
+   "de": "Ich verfolge meine Ziele, bis ich sie erreicht habe.",
+   "en": "I pursue my goals until I reach them."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.selbststeuerung.selbststaendig-arbeiten": {
+  "name": {
+   "de": "Ich führe Aufgaben selbstständig aus, ohne dass man mich erinnern muss.",
+   "en": "I carry out tasks independently without being reminded."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.reflexion.staerken-schwaechen-kennen": {
+  "name": {
+   "de": "Ich kenne meine Stärken und Schwächen.",
+   "en": "I know my strengths and weaknesses."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.reflexion.eigene-arbeit-einschaetzen": {
+  "name": {
+   "de": "Ich kann meine eigene Arbeit realistisch einschätzen.",
+   "en": "I can assess my own work realistically."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.reflexion.verhalten-anderer-einschaetzen": {
+  "name": {
+   "de": "Ich kann das Verhalten anderer einschätzen und fair beurteilen.",
+   "en": "I can read and fairly judge how others behave."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.reflexion.meinungen-vertreten": {
+  "name": {
+   "de": "Ich akzeptiere andere Meinungen und vertrete meine eigene.",
+   "en": "I accept other opinions and stand up for my own."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.herausforderungen.gefuehle-regulieren": {
+  "name": {
+   "de": "Ich kann meine Gefühle wahrnehmen und regulieren.",
+   "en": "I can notice and regulate my emotions."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.herausforderungen.frustration-aushalten": {
+  "name": {
+   "de": "Ich halte Frustration aus, ohne aufzugeben.",
+   "en": "I can tolerate frustration without giving up."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.herausforderungen.rueckschlaege-meistern": {
+  "name": {
+   "de": "Ich gehe mit Rückschlägen um und mache weiter.",
+   "en": "I cope with setbacks and keep going."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.herausforderungen.fehler-nutzen": {
+  "name": {
+   "de": "Ich sehe Fehler als Chance, etwas zu lernen.",
+   "en": "I see mistakes as a chance to learn."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.herausforderungen.ausdauer-zeigen": {
+  "name": {
+   "de": "Ich zeige Ausdauer, auch wenn es schwierig wird.",
+   "en": "I show perseverance, even when things get difficult."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.antrieb.interesse-zeigen": {
+  "name": {
+   "de": "Ich zeige Interesse an neuen Themen.",
+   "en": "I show interest in new topics."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.antrieb.motivation-finden": {
+  "name": {
+   "de": "Ich finde Motivation für meine Aufgaben.",
+   "en": "I find motivation for my tasks."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.antrieb.arbeitsbereitschaft-zeigen": {
+  "name": {
+   "de": "Ich bin bereit, mit der Arbeit zu beginnen.",
+   "en": "I am ready to start working."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.antrieb.anstrengung-zeigen": {
+  "name": {
+   "de": "Ich strenge mich auch bei schwierigen Aufgaben an.",
+   "en": "I make an effort even with difficult tasks."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.antrieb.lernbereitschaft-zeigen": {
+  "name": {
+   "de": "Ich bin offen und bereit, Neues zu lernen.",
+   "en": "I am open and ready to learn new things."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.zusammenarbeit.empathie-zeigen": {
+  "name": {
+   "de": "Ich versetze mich in andere hinein.",
+   "en": "I put myself in other people's shoes."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.zusammenarbeit.im-team-arbeiten": {
+  "name": {
+   "de": "Ich arbeite im Team mit und übernehme meinen Teil.",
+   "en": "I work in a team and do my share."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.zusammenarbeit.verstaendlich-kommunizieren": {
+  "name": {
+   "de": "Ich kommuniziere verständlich und höre zu.",
+   "en": "I communicate clearly and listen."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.zusammenarbeit.regeln-einhalten": {
+  "name": {
+   "de": "Ich halte vereinbarte Regeln ein.",
+   "en": "I keep to agreed rules."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.zusammenarbeit.konflikte-loesen": {
+  "name": {
+   "de": "Ich spreche Konflikte an und suche Lösungen.",
+   "en": "I address conflicts and look for solutions."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.zusammenarbeit.vielfalt-achten": {
+  "name": {
+   "de": "Ich achte Vielfalt und begegne allen mit Respekt.",
+   "en": "I value diversity and treat everyone with respect."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.lernen.informationen-verarbeiten": {
+  "name": {
+   "de": "Ich kann Informationen suchen, verstehen und verarbeiten.",
+   "en": "I can find, understand and process information."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.lernen.lernstrategien-nutzen": {
+  "name": {
+   "de": "Ich nutze passende Lernstrategien.",
+   "en": "I use suitable learning strategies."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.lernen.planen-organisieren": {
+  "name": {
+   "de": "Ich plane und organisiere meine Arbeit.",
+   "en": "I plan and organise my work."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.lernen.arbeit-evaluieren": {
+  "name": {
+   "de": "Ich überprüfe am Ende, wie gut meine Arbeit gelungen ist.",
+   "en": "I evaluate at the end how well my work turned out."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.lernen.konzentriert-arbeiten": {
+  "name": {
+   "de": "Ich kann konzentriert an einer Sache bleiben.",
+   "en": "I can stay focused on one thing."
+  },
+  "fachbereich": "uef"
+ },
+ "uef.lernen.probleme-loesen": {
+  "name": {
+   "de": "Ich finde Lösungswege für neue Probleme.",
+   "en": "I find ways to solve new problems."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.lernen.zeit-einteilen": {
+  "name": {
+   "de": "Ich teile mir meine Zeit gut ein.",
+   "en": "I manage my time well."
+  },
+  "fachbereich": "uef",
+  "interview": true
+ },
+ "uef.lernen.kritisch-denken": {
+  "name": {
+   "de": "Ich denke kritisch nach und hinterfrage Aussagen.",
+   "en": "I think critically and question claims."
+  },
+  "fachbereich": "uef",
+  "interview": true
  }
 }

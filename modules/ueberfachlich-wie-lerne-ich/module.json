@@ -1,0 +1,221 @@
+{
+ "schemaVersion": 3,
+ "id": "ueberfachlich-wie-lerne-ich",
+ "title": "Wie lerne ich? Selbsteinschätzung",
+ "description": "Schätze deine überfachlichen Kompetenzen ein: Wie steuerst du dein Lernen, wie gehst du mit Herausforderungen um, wie arbeitest du mit anderen zusammen? Sechs kurze Selbsteinschätzungen mit Reglern – deine Antworten werden mit Datum gespeichert, sodass du deine Entwicklung im Kompetenz-Spinnennetz verfolgen kannst.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbständigkeit",
+     "description": "Wie steure ich mein Handeln und Lernen?"
+    },
+    {
+     "code": "Reflexion",
+     "description": "Wer bin ich und wie beurteile ich?"
+    },
+    {
+     "code": "Resilienz",
+     "description": "Wie gehe ich mit Herausforderungen und Gefühlen um?"
+    },
+    {
+     "code": "Bereitschaft",
+     "description": "Was treibt mich an?"
+    },
+    {
+     "code": "Miteinander",
+     "description": "Wie verhalte ich mich in der Gemeinschaft?"
+    },
+    {
+     "code": "Lernkompetenz",
+     "description": "Informationsverarbeitung, Lernstrategien, Planen und Organisieren, Evaluieren, Konzentration, Probleme lösen, Zeitmanagement, Kritisches Denken."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    },
+    {
+     "code": "Eigenständigkeit",
+     "description": "Eigene Ziele und Werte reflektieren und verfolgen."
+    },
+    {
+     "code": "Dialog und Kooperation",
+     "description": "Sich mit Menschen austauschen, zusammenarbeiten."
+    },
+    {
+     "code": "Konfliktfähigkeit",
+     "description": "Konflikte benennen, Lösungsvorschläge suchen, Konflikte lösen."
+    },
+    {
+     "code": "Umgang mit Vielfalt",
+     "description": "Vielfalt als Bereicherung erfahren, Gleichberechtigung mittragen."
+    },
+    {
+     "code": "Sprachfähigkeit",
+     "description": "Ein breites Repertoire sprachlicher Ausdrucksformen entwickeln."
+    },
+    {
+     "code": "Informationen nutzen",
+     "description": "Informationen suchen, bewerten, aufbereiten und präsentieren."
+    },
+    {
+     "code": "Aufgaben und Probleme lösen",
+     "description": "Lern- und Arbeitsprozesse gestalten, Probleme erkennen und Lösungswege finden."
+    }
+   ]
+  }
+ ],
+ "einheit": "Überfachliche Kompetenzen",
+ "sequenz": 1,
+ "language": "de",
+ "durationMinutes": 25,
+ "difficulty": "leicht",
+ "keywords": [
+  "Überfachliche Kompetenzen",
+  "Selbsteinschätzung",
+  "Lernkompetenz",
+  "Selbständigkeit",
+  "Resilienz",
+  "Zusammenarbeit",
+  "Reflexion",
+  "Motivation",
+  "Kompetenz-Spinnennetz"
+ ],
+ "learningObjectives": [
+  "Ich kann erklären, was überfachliche Kompetenzen sind und warum sie in jedem Fach helfen.",
+  "Ich kann meine überfachlichen Kompetenzen ehrlich einschätzen und meine Einschätzung begründen.",
+  "Ich weiss, wo ich meine Entwicklung im Kompetenz-Spinnennetz verfolgen kann und wie ich die Einschätzung wiederhole."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "worum-es-geht",
+   "title": "Worum es hier geht",
+   "body": "In der Schule lernst du nicht nur Fächer wie Englisch oder Wirtschaft – du lernst auch, **wie** man lernt, arbeitet und zusammenlebt. Diese Fähigkeiten heissen **überfachliche Kompetenzen**: Sie helfen dir in jedem Fach und weit über die Schule hinaus.\n\nIn diesem Modul schätzt du dich selbst ein. Für jede Aussage schiebst du einen Regler auf die Stufe, die am ehesten stimmt: **nie · selten · manchmal · oft · fast immer · immer**.\n\nDrei Dinge sind dabei wichtig:\n\n1. **Sei ehrlich.** Es gibt hier keine Punkte und keine Noten. Eine ehrliche Einschätzung hilft dir mehr als eine geschönte.\n2. **Deine Einschätzung wird mit Datum gespeichert.** Wenn du sie später wiederholst (zum Beispiel am Ende des Semesters), siehst du deine Entwicklung im Kompetenz-Spinnennetz auf der Startseite.\n3. **Deine Lehrperson sieht deine Einschätzung**, wenn dein Lernstand geteilt wird – zum Beispiel über den Klassen-Ordner. Sie schätzt dich auch selbst ein: Der Vergleich der beiden Sichten ist der wertvollste Teil – dort gibt es oft die besten Gespräche.\n\nNimm dir Zeit. Es ist keine Prüfung – es ist ein Blick in den Spiegel."
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-selbststeuerung",
+   "title": "Wie ich mein Handeln und Lernen steure",
+   "intro": "Hier geht es darum, wie gut du selbst das Steuer in der Hand hast: Entscheidungen treffen, Wichtiges zuerst angehen, an deinen Zielen dranbleiben und Aufgaben ohne Erinnerung erledigen.",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.entscheidungen-treffen",
+    "uef.selbststeuerung.prioritaeten-setzen",
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.selbststeuerung.selbststaendig-arbeiten"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-reflexion",
+   "title": "Wie ich mich und andere einschätze",
+   "intro": "Wer sich selbst gut kennt, lernt leichter: Hier schätzt du ein, wie gut du deine Stärken und Schwächen kennst, deine Arbeit beurteilst und mit Meinungen umgehst.",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen",
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-herausforderungen",
+   "title": "Wie ich mit Herausforderungen umgehe",
+   "intro": "Schwierige Aufgaben, Fehler und Rückschläge gehören zum Lernen dazu. Hier schätzt du ein, wie du damit umgehst – ohne dich schlechtzumachen: Es geht um ehrliches Hinschauen.",
+   "teilkompetenzen": [
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.frustration-aushalten",
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.fehler-nutzen",
+    "uef.herausforderungen.ausdauer-zeigen"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-antrieb",
+   "title": "Was mich antreibt",
+   "intro": "Interesse und Motivation sind dein Motor. Hier schätzt du ein, wie bereit du bist, dich auf Neues und auf Anstrengung einzulassen.",
+   "teilkompetenzen": [
+    "uef.antrieb.interesse-zeigen",
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.arbeitsbereitschaft-zeigen",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-zusammenarbeit",
+   "title": "Wie ich mit anderen zusammenarbeite",
+   "intro": "Lernen passiert selten allein. Hier schätzt du ein, wie du dich in der Gruppe verhältst: zuhören, mitarbeiten, Regeln einhalten, Konflikte ansprechen und alle respektieren.",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.verstaendlich-kommunizieren",
+    "uef.zusammenarbeit.regeln-einhalten",
+    "uef.zusammenarbeit.konflikte-loesen",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-lernen",
+   "title": "Wie ich lerne und arbeite",
+   "intro": "Hier geht es um dein Handwerkszeug beim Lernen: Informationen verarbeiten, planen, dranbleiben, Probleme lösen, die Zeit einteilen und am Ende prüfen, wie gut es gelungen ist.",
+   "teilkompetenzen": [
+    "uef.lernen.informationen-verarbeiten",
+    "uef.lernen.lernstrategien-nutzen",
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.arbeit-evaluieren",
+    "uef.lernen.konzentriert-arbeiten",
+    "uef.lernen.probleme-loesen",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.kritisch-denken"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "Wie weiter?",
+   "body": "Geschafft! Deine Einschätzungen sind gespeichert.\n\n- Auf der **Startseite** findest du dein **Kompetenz-Spinnennetz**: Dort siehst du deine Einschätzungen als Netz – und später auch, was deine Lehrperson eingeschätzt hat.\n- **Wiederhole dieses Modul** etwa alle paar Monate. Erst durch mehrere Einschätzungen zu verschiedenen Zeitpunkten wird sichtbar, wie du dich entwickelst.\n- Sprich mit deiner Lehrperson darüber, wo eure Einschätzungen auseinanderliegen – genau dort lohnt sich das Gespräch am meisten."
+  }
+ ]
+}

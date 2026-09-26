@@ -1,0 +1,232 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-wie-lerne-ich --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:e5250f821f305a55dd2124fb0ed9cfc84f9b4ce1d8e84cf0ddcbe3b2e6bbd876",
+  "masterCommit": "1655c5c",
+  "hintsHash": null,
+  "generatedAt": "2026-09-26",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:uef-antworten.json",
+  "selfHash": "sha256:77c9849a98c0b9325ee5fe98f9f3f277222b721d8fd8b4b9c8399a223257e7df"
+ },
+ "schemaVersion": 3,
+ "id": "ueberfachlich-wie-lerne-ich",
+ "title": "How Do I Learn? Self-Assessment",
+ "description": "Assess your transversal competencies: how do you steer your learning, how do you deal with challenges, how do you work with others? Six short self-assessments with sliders – your answers are saved with a date, so you can follow your development in the competency spider web.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbständigkeit",
+     "description": "Wie steure ich mein Handeln und Lernen?"
+    },
+    {
+     "code": "Reflexion",
+     "description": "Wer bin ich und wie beurteile ich?"
+    },
+    {
+     "code": "Resilienz",
+     "description": "Wie gehe ich mit Herausforderungen und Gefühlen um?"
+    },
+    {
+     "code": "Bereitschaft",
+     "description": "Was treibt mich an?"
+    },
+    {
+     "code": "Miteinander",
+     "description": "Wie verhalte ich mich in der Gemeinschaft?"
+    },
+    {
+     "code": "Lernkompetenz",
+     "description": "Informationsverarbeitung, Lernstrategien, Planen und Organisieren, Evaluieren, Konzentration, Probleme lösen, Zeitmanagement, Kritisches Denken."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    },
+    {
+     "code": "Eigenständigkeit",
+     "description": "Eigene Ziele und Werte reflektieren und verfolgen."
+    },
+    {
+     "code": "Dialog und Kooperation",
+     "description": "Sich mit Menschen austauschen, zusammenarbeiten."
+    },
+    {
+     "code": "Konfliktfähigkeit",
+     "description": "Konflikte benennen, Lösungsvorschläge suchen, Konflikte lösen."
+    },
+    {
+     "code": "Umgang mit Vielfalt",
+     "description": "Vielfalt als Bereicherung erfahren, Gleichberechtigung mittragen."
+    },
+    {
+     "code": "Sprachfähigkeit",
+     "description": "Ein breites Repertoire sprachlicher Ausdrucksformen entwickeln."
+    },
+    {
+     "code": "Informationen nutzen",
+     "description": "Informationen suchen, bewerten, aufbereiten und präsentieren."
+    },
+    {
+     "code": "Aufgaben und Probleme lösen",
+     "description": "Lern- und Arbeitsprozesse gestalten, Probleme erkennen und Lösungswege finden."
+    }
+   ]
+  }
+ ],
+ "einheit": "Transversal competencies",
+ "sequenz": 1,
+ "language": "en",
+ "durationMinutes": 25,
+ "difficulty": "leicht",
+ "keywords": [
+  "Transversal competencies",
+  "Self-assessment",
+  "Learning competence",
+  "Independence",
+  "Resilience",
+  "Collaboration",
+  "Reflection",
+  "Motivation",
+  "Competency spider web"
+ ],
+ "learningObjectives": [
+  "I can explain what transversal competencies are and why they help in every subject.",
+  "I can assess my transversal competencies honestly and justify my assessment.",
+  "I know where I can follow my development in the competency spider web and how to repeat the assessment."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "worum-es-geht",
+   "title": "What this is about",
+   "body": "At school you don't just learn subjects like English or economics – you also learn **how** to learn, work and live together. These skills are called **transversal competencies**: they help you in every subject and far beyond school.\n\nIn this module you assess yourself. For each statement, move a slider to the level that fits best: **never · rarely · sometimes · often · almost always · always**.\n\nThree things matter here:\n\n1. **Be honest.** There are no points and no grades here. An honest assessment helps you more than a flattering one.\n2. **Your assessment is saved with a date.** If you repeat it later (for example at the end of the semester), you will see your development in the competency spider web on the home page.\n3. **Your teacher sees your assessment** when your learning progress is shared – for example via the class folder. They also assess you themselves: comparing the two views is the most valuable part – that's where the best conversations happen.\n\nTake your time. This is not a test – it's a look in the mirror."
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-selbststeuerung",
+   "title": "How I steer my actions and my learning",
+   "intro": "This is about how firmly you hold the steering wheel yourself: making decisions, tackling the important things first, sticking to your goals and completing tasks without being reminded.",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.entscheidungen-treffen",
+    "uef.selbststeuerung.prioritaeten-setzen",
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.selbststeuerung.selbststaendig-arbeiten"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-reflexion",
+   "title": "How I assess myself and others",
+   "intro": "Knowing yourself well makes learning easier: here you assess how well you know your strengths and weaknesses, judge your own work and deal with opinions.",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen",
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-herausforderungen",
+   "title": "How I deal with challenges",
+   "intro": "Difficult tasks, mistakes and setbacks are part of learning. Here you assess how you deal with them – without putting yourself down: this is about looking honestly.",
+   "teilkompetenzen": [
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.frustration-aushalten",
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.fehler-nutzen",
+    "uef.herausforderungen.ausdauer-zeigen"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-antrieb",
+   "title": "What drives me",
+   "intro": "Interest and motivation are your engine. Here you assess how ready you are to take on new things and real effort.",
+   "teilkompetenzen": [
+    "uef.antrieb.interesse-zeigen",
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.arbeitsbereitschaft-zeigen",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-zusammenarbeit",
+   "title": "How I work with others",
+   "intro": "Learning rarely happens alone. Here you assess how you behave in a group: listening, contributing, keeping to rules, addressing conflicts and respecting everyone.",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.verstaendlich-kommunizieren",
+    "uef.zusammenarbeit.regeln-einhalten",
+    "uef.zusammenarbeit.konflikte-loesen",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ]
+  },
+  {
+   "type": "einschaetzung",
+   "id": "selbst-lernen",
+   "title": "How I learn and work",
+   "intro": "This is about your toolkit for learning: processing information, planning, staying focused, solving problems, managing your time and checking at the end how well it turned out.",
+   "teilkompetenzen": [
+    "uef.lernen.informationen-verarbeiten",
+    "uef.lernen.lernstrategien-nutzen",
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.arbeit-evaluieren",
+    "uef.lernen.konzentriert-arbeiten",
+    "uef.lernen.probleme-loesen",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.kritisch-denken"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "What next?",
+   "body": "Done! Your assessments are saved.\n\n- On the **home page** you will find your **competency spider web**: there you can see your assessments as a web – and later also what your teacher has assessed.\n- **Repeat this module** every few months. Only several assessments at different points in time make your development visible.\n- Talk to your teacher about where your assessments differ – that's exactly where the conversation is most worthwhile."
+  }
+ ]
+}
