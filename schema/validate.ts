@@ -389,6 +389,19 @@ function teilkompetenzReferenzFehler(mod: LearningModule): string[] {
           `blocks.${i}: Teilkompetenz "${kennung}" ist nicht im Register (kompetenzen/teilkompetenzen.json) – zuerst dort eintragen.`,
         );
       }
+      // EXPERIMENTELLER interview-Block: nur Register-Einträge mit
+      // interview: true (kognitive/lernbezogene Indikatoren – nie
+      // emotionale oder persönlichkeitsnahe; Spiegel der Plattform).
+      if (
+        kompetenzenAktiv &&
+        block.type === "interview" &&
+        kompetenzRegister[kennung] !== undefined &&
+        kompetenzRegister[kennung].interview !== true
+      ) {
+        fehler.push(
+          `blocks.${i}: Teilkompetenz "${kennung}" ist nicht für KI-Interviews freigegeben (Register-Feld interview: true fehlt).`,
+        );
+      }
     }
   });
   return fehler;

@@ -4559,6 +4559,56 @@ export const einschaetzungBlockSchema = z
     }
   });
 
+/**
+ * EXPERIMENTELLER KI-Interview-Block (26.9.2026, additiv – Schema
+ * bleibt 3): Die lokale KI stellt gezielte Fragen zu den referenzierten
+ * Teilkompetenzen und erzeugt daraus Einschätzungs-Datenpunkte mit
+ * Quelle "ki" und Status "unbestaetigt" – samt GESPRÄCHSVERLAUF, damit
+ * die Lehrperson die Grundlage prüfen kann; nichts zählt, bevor sie
+ * übernimmt. Für Lernende ist der Block unmissverständlich als
+ * Einschätzungs-Aufgabe gekennzeichnet, deren Verlauf an die
+ * Lehrperson geht – klar getrennt von Cate als privatem Lernpartner
+ * (eigener Rollen-Prompt, KEIN Zugriff auf Cate-Gespräche). Zulässig
+ * sind NUR kognitive bzw. lernbezogene Indikatoren: Das Register
+ * kennzeichnet sie mit `interview: true`, die Build-Validierer beider
+ * Repos prüfen das (nicht dieses Schema – es kennt das Register nicht).
+ */
+export const interviewBlockSchema = z
+  .strictObject({
+    ...blockBase,
+    type: z.literal("interview"),
+    /** Erklärtext über dem Interview (Markdown, optional). */
+    intro: markdown.optional(),
+    /** Skriptiertes Gerüst: Leitfragen als Einstieg und Rückfallebene
+     *  der KI-Fragen (mindestens eine). */
+    leitfragen: z.array(z.string().trim().min(1).max(300)).min(1).max(8),
+  })
+  .superRefine((block, ctx) => {
+    if (!block.id) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Interview: Der Block braucht eine stabile "id" – daran hängen Bearbeitet-Merker und Datenpunkt-Bezüge.',
+      });
+    } else if (block.id === "quiz") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["id"],
+        message:
+          'Interview: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
+      });
+    }
+    if (!block.teilkompetenzen || block.teilkompetenzen.length === 0) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["teilkompetenzen"],
+        message:
+          "Interview: Der Block braucht mindestens eine Teilkompetenz-Kennung (im Register mit interview: true gekennzeichnet).",
+      });
+    }
+  });
+
 export const knownBlockSchema = z.discriminatedUnion("type", [
   textBlockSchema,
   imageBlockSchema,
@@ -4576,6 +4626,7 @@ export const knownBlockSchema = z.discriminatedUnion("type", [
   diagrammBlockSchema,
   schaubildBlockSchema,
   einschaetzungBlockSchema,
+  interviewBlockSchema,
 ]);
 
 export const KNOWN_BLOCK_TYPES = [
@@ -4595,6 +4646,7 @@ export const KNOWN_BLOCK_TYPES = [
   "diagramm",
   "schaubild",
   "einschaetzung",
+  "interview",
 ] as const;
 
 /**
@@ -4839,6 +4891,7 @@ export type SimulationBlock = z.infer<typeof simulationBlockSchema>;
 export type DiagrammBlock = z.infer<typeof diagrammBlockSchema>;
 export type SchaubildBlock = z.infer<typeof schaubildBlockSchema>;
 export type EinschaetzungBlock = z.infer<typeof einschaetzungBlockSchema>;
+export type InterviewBlock = z.infer<typeof interviewBlockSchema>;
 export type KnownBlock = z.infer<typeof knownBlockSchema>;
 export type UnknownBlock = z.infer<typeof unknownBlockSchema>;
 export type Block = z.infer<typeof blockSchema>;

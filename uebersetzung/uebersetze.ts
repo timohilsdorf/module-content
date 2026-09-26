@@ -146,6 +146,7 @@ interface PaketInhalt {
 }
 
 const LIMITS: ReadonlyArray<[RegExp, number]> = [
+  [/^blocks\[\]\.leitfragen\[\]$/, 300],
   // An das Schema-Maximum gekoppelt (Review-Fund: ein hartes 500er-
   // Limit machte schema-gültige Master mit 501-1000 Zeichen
   // unübersetzbar); die eigentliche Platz-Wache sind die nicht
