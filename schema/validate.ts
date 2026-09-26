@@ -329,7 +329,7 @@ try {
  */
 function kennungsSchutzFehler(register: KompetenzRegister): string[] {
   const basis = process.env.UEBERSETZUNG_BASIS;
-  if (!basis || !kompetenzenAktiv) return [];
+  if (!basis) return [];
   let altRoh: string;
   try {
     altRoh = execFileSync(
@@ -342,6 +342,12 @@ function kennungsSchutzFehler(register: KompetenzRegister): string[] {
     // Basis ist lokal nicht auflösbar – dann gibt es nichts zu schützen.
     return [];
   }
+  // BEWUSST kein kompetenzenAktiv-Gate: Trägt die BASIS Kennungen und
+  // fehlt der Ordner (bzw. die Datei) im PR-Stand, ist das genau der
+  // Fall, den der Schutz verhindern soll – ein gelöschtes/verschobenes
+  // kompetenzen/ liefe sonst still als «leeres Register» durch
+  // (Review-Fund 26.9.2026; das leere `register` meldet dann jede
+  // Basis-Kennung als entfernt).
   let alt: unknown;
   try {
     alt = JSON.parse(altRoh);
