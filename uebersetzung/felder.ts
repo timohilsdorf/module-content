@@ -136,6 +136,9 @@ const REGELN: ReadonlyArray<[RegExp, FeldKlasse]> = [
   // programmatisch auf die Übersetzung mit demselben Index.
   [/^blocks\[\]\.elemente\[\]\.xKategorie$/, "abgeleitet"],
   [/^blocks\[\]\.elemente\[\]\.text$/, "uebersetzt"],
+  // --- interview (experimentell, Spinnennetz) -----------------------------
+  [/^blocks\[\]\.leitfragen\[\]$/, "uebersetzt"],
+
   // --- simulation ---------------------------------------------------------
   [/^blocks\[\]\.figur\.name$/, "uebersetzt"],
   [/^blocks\[\]\.figur\.rolle$/, "uebersetzt"],

@@ -37,6 +37,8 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** (additiv) | 24. September 2026 | KEIN Versionswechsel: [`schaubild`](#schaubild--gestaltetes-schaubild-handzeichnung-excalidraw)-Texte dürfen neben der Handschrift die **serifenlose Normal-Schrift** des Editors tragen (`fontFamily` 6/Nunito; 2/Helvetica wird darauf normalisiert). Geschlossene **Linien-Polygone mit Füllung** (Pyramiden-/Trapezformen) sind ausdrücklich unterstützt. Erster Anwendungsfall: die überarbeitete Bedürfnispyramide in wp-01. **Achtung Rollout wie beim satzbau** (Wert-Erweiterung in bestehendem Blocktyp): Module mit `fontFamily` 6 erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 | **3** (Regel) | 24. September 2026 | KEIN Versionswechsel: **GER-Niveau im Teilkompetenz-Namen** – die 12 Sprach-Teilkompetenzen tragen ihr Niveau jetzt als Präfix im Namen («A1: Ich kann …» / «A1: I can …», beide Sprachen). Die Plattform-Matrix gruppiert Sprachen seither nach EINER Oberkategorie je Fertigkeit («Wortschatz» statt «Wortschatz (A1)»/«(A2)»). Kennungen unverändert (Register-Regel). |
 | **3** (Regel) | 24. September 2026 | KEIN Versionswechsel, **Schaubild-Standard** (Betreiber-Freigabe, Schrift-Regel «weich»): (a) **Kontrast** – jedes Text-Hintergrund-Paar einer Schaubild-Szene braucht mindestens **4,5:1 (WCAG AA)**, geprüft im hellen UND im dunklen Modus (der Dark-Filter des Players ist exakt berechenbar); Verstösse sind **Validierungs-FEHLER**. (b) **Schrift** – Standard für Schaubild-Texte ist die **Normal-Schrift** (`fontFamily` 6/Nunito); die Handschrift (5) bleibt für bewusst skizzenhafte Akzente erlaubt und wird nur als **Hinweis** gemeldet. Der Bestand (30 Schaubilder) ist umgestellt: alle Texte Nunito, 207 Kontrast-Verstösse farbton-erhaltend korrigiert. |
+| **3** (additiv) | 26. September 2026 | KEIN Versionswechsel: neuer Blocktyp [`einschaetzung`](#einschaetzung--selbsteinschätzung-kompetenz-spinnennetz) – Selbsteinschätzung je Teilkompetenz auf einer Sechs-Stufen-Skala (nie … immer), fürs **Kompetenz-Spinnennetz** (Belegspur, Doku `docs/SPINNENNETZ.md` im Plattform-Repo). Kein prüfender Block (keine Punkte, kein Abschluss-Zwang). Dazu das Fach **`uef` («Überfachliche Kompetenzen»)** im Register (32 lehrplanneutrale Indikatoren als Ich-Sätze; Lehrplan-Ebene über das normale Mapping: LeSiMa-Codes für `li`, LP21-überfachlich für `ch`) und zwei neue **Register-Felder**: `veraltet` (Kennungsschutz – Kennungen werden nie gelöscht/umbenannt, die CI erzwingt das gegen die Übersetzungs-Basis) und `interview` (Kennzeichnung kognitiver/lernbezogener Indikatoren, s. nächste Zeile). Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
+| **3** (additiv, experimentell) | 26. September 2026 | KEIN Versionswechsel: neuer **experimenteller** Blocktyp [`interview`](#interview--ki-interview-zur-selbsteinschätzung-experimentell) – die lokale KI führt ein kurzes Interview entlang skriptierter `leitfragen` und schlägt je Teilkompetenz eine Einschätzung vor (Quelle `ki`, IMMER unbestätigt; der komplette Gesprächsverlauf reist mit dem Report zur Lehrperson, nichts zählt vor ihrer Übernahme). NUR für Teilkompetenzen mit `interview: true` im Register (Validierungs-FEHLER sonst). Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
 
 ## Ablage
 
@@ -810,6 +812,81 @@ ergänzen, ohne die Aufgaben zu ändern.
 - Additive Ergänzung von Schema-Version 2 (1. August 2026) – ältere
   Player zeigen einen Platzhalter.
 
+### `einschaetzung` – Selbsteinschätzung (Kompetenz-Spinnennetz)
+
+Die Lernenden schätzen sich je referenzierter Teilkompetenz auf einer
+Sechs-Stufen-Skala ein (**nie · selten · manchmal · oft · fast immer ·
+immer**); gespeichert wird ein Einschätzungs-Datenpunkt 0–100 in der
+persönlichen Belegspur (Kompetenz-Spinnennetz – Doku
+`docs/SPINNENNETZ.md` im Plattform-Repo). **Kein prüfender Block:**
+keine Punkte, keine Coins, kein Abschluss-Zwang; der Block zählt wie
+`tasks` als «bearbeitet». Auf Lehrergeräten läuft derselbe Block im
+Lehrer-Modus mit Schülerwahl (Lehrpersonen-Einschätzung direkt in die
+Klassen-Übersicht); bei aktiver Ordner-Synchronisation zusätzlich als
+Peer-Einschätzung für Mitschüler:innen.
+
+```json
+{
+  "type": "einschaetzung",
+  "id": "selbst-lernen",
+  "title": "Wie schätzt du dich ein?",
+  "intro": "Optional: Erklärtext über den Reglern (Markdown).",
+  "teilkompetenzen": [
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.reflexion.eigene-arbeit-einschaetzen"
+  ]
+}
+```
+
+Regeln:
+
+- **Pflicht-`id`** (nicht `"quiz"`) – daran hängen Bearbeitet-Merker
+  und Datenpunkt-Bezüge; wie Block-ids nie ändern.
+- **Mindestens eine Teilkompetenz-Kennung aus dem Register** – die
+  Kennungen SIND der Inhalt: Die Regler-Beschriftung ist der
+  Register-Name (Ich-Satz), es gibt keine eigenen Fragetexte im Block.
+- Die überfachlichen Indikatoren liegen im Fach **`uef`**
+  (`uef.<thema>.<indikator>`); fachliche Einschätzungen nutzen die
+  normalen Fach-Kennungen.
+
+### `interview` – KI-Interview zur Selbsteinschätzung (EXPERIMENTELL)
+
+Wie `einschaetzung`, aber als Gespräch: Die **lokale KI** stellt entlang
+der skriptierten `leitfragen` gezielte, altersgerechte Fragen zum Lern-
+und Schulalltag und schlägt am Ende je Teilkompetenz eine Einschätzung
+vor. Die Vorschläge entstehen als Datenpunkte mit Quelle `ki` und
+Status **immer «unbestätigt»** – samt komplettem **Gesprächsverlauf**,
+der mit dem Report zur Lehrperson reist (den Lernenden VOR dem Start
+unmissverständlich angekündigt; der Block ist klar von Cate getrennt
+und hat keinen Zugriff auf Cate-Gespräche). Nichts zählt, bevor die
+Lehrperson übernimmt. Ohne aktivierte lokale KI zeigt der Block einen
+ehrlichen Hinweis statt einer Einschätzung.
+
+```json
+{
+  "type": "interview",
+  "id": "interview-lernen",
+  "title": "Kurzes Interview zu deinem Lernen",
+  "intro": "Optional: Erklärtext (Markdown).",
+  "leitfragen": [
+    "Wie planst du eine grössere Aufgabe?",
+    "Was machst du, wenn du etwas nicht verstehst?"
+  ],
+  "teilkompetenzen": ["uef.lernen.arbeit-planen"]
+}
+```
+
+Regeln:
+
+- **Pflicht-`id`** (nicht `"quiz"`), 1–8 `leitfragen` (je ≤ 300
+  Zeichen; Einstieg und Rückfallebene der KI-Fragen).
+- **Nur kognitive/lernbezogene Indikatoren:** jede referenzierte
+  Teilkompetenz muss im Register mit `interview: true` gekennzeichnet
+  sein – andere Kennungen sind ein Validierungs-FEHLER (bewusste
+  Leitplanke: keine KI-Befragung zu Gefühlen oder Sozialverhalten).
+- Der Blocktyp ist **experimentell**: sparsam einsetzen, Kennzeichnung
+  und Datenfluss (Verlauf → Lehrperson) sind Teil des Player-UIs.
+
 ### `simulation` – verzweigter Rollenspiel-Dialog
 
 Ein skriptiertes Gespräch mit einer Figur: Sie spricht Knoten für Knoten,
@@ -1164,7 +1241,16 @@ Dateien in Kanonform `JSON.stringify(inhalt, null, 1) + "\n"`):
 - [`kompetenzen/teilkompetenzen.json`](kompetenzen/teilkompetenzen.json)
   – das **Register**: je Kennung ein Name als Kann-Formulierung (de/en),
   optional eine Beschreibung und der `fachbereich` (erstes
-  Kennungs-Segment als Gruppierungswert).
+  Kennungs-Segment als Gruppierungswert). Seit 26.9.2026 zwei optionale
+  Felder: **`veraltet`** (`{}` oder `{ "nachfolger": "<kennung>" }`)
+  markiert eine nicht mehr empfohlene Kennung – **Kennungen werden nie
+  gelöscht oder umbenannt** (Belegspuren draussen im Feld referenzieren
+  sie dauerhaft), die CI erzwingt das: jede Kennung der
+  Übersetzungs-Basis muss weiterexistieren, sonst schlägt
+  `npm run validate` fehl. **`interview: true`** kennzeichnet
+  kognitive/lernbezogene Indikatoren, die der experimentelle
+  [`interview`](#interview--ki-interview-zur-selbsteinschätzung-experimentell)-Blocktyp
+  abfragen darf.
 - [`kompetenzen/mapping.json`](kompetenzen/mapping.json) – das
   **Mapping** auf die Kompetenz-Codes der einzelnen Lehrpläne (je
   Kennung ein Objekt `{"li": ["WAH.2.1"], "ch": ["WAH.2.1"]}`; nur
