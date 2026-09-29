@@ -1,0 +1,559 @@
+{
+ "_hinweis": "Vollständige Kompetenzbereichs-Struktur je Lehrplan und Fach (Achsen/Zeilen der Lehrplan-Sicht von Netzdiagramm und Heatmap; auch Bereiche ohne Teilkompetenzen). Codes/Bezeichnungen NUR aus offiziellen Quellen (quelle je Eintrag); ungeprueft = nicht sicher belegt. Details docs/KOMPETENZEN.md im Plattform-Repo.",
+ "li": {
+  "uef": [
+   {
+    "code": "Selbständigkeit",
+    "name": {
+     "de": "Selbständigkeit",
+     "en": "Independence"
+    },
+    "quelle": "Prototyp «EveryCate Kompetenzprofil, Lehreransicht» (LeSiMa-Modell, dekodiertes Template)"
+   },
+   {
+    "code": "Reflexion",
+    "name": {
+     "de": "Reflexion",
+     "en": "Reflection"
+    },
+    "quelle": "Prototyp «EveryCate Kompetenzprofil, Lehreransicht» (LeSiMa-Modell, dekodiertes Template)"
+   },
+   {
+    "code": "Resilienz",
+    "name": {
+     "de": "Resilienz",
+     "en": "Resilience"
+    },
+    "quelle": "Prototyp «EveryCate Kompetenzprofil, Lehreransicht» (LeSiMa-Modell, dekodiertes Template)"
+   },
+   {
+    "code": "Bereitschaft",
+    "name": {
+     "de": "Bereitschaft",
+     "en": "Readiness"
+    },
+    "quelle": "Prototyp «EveryCate Kompetenzprofil, Lehreransicht» (LeSiMa-Modell, dekodiertes Template)"
+   },
+   {
+    "code": "Miteinander",
+    "name": {
+     "de": "Miteinander",
+     "en": "Community"
+    },
+    "quelle": "Prototyp «EveryCate Kompetenzprofil, Lehreransicht» (LeSiMa-Modell, dekodiertes Template)"
+   },
+   {
+    "code": "Lernkompetenz",
+    "name": {
+     "de": "Lernkompetenz",
+     "en": "Learning competence"
+    },
+    "quelle": "Prototyp «EveryCate Kompetenzprofil, Lehreransicht» (LeSiMa-Modell, dekodiertes Template)"
+   }
+  ],
+  "wp": [
+   {
+    "code": "WAH.2",
+    "name": {
+     "de": "Märkte und Handel verstehen - über Geld nachdenken",
+     "en": "Understanding markets and trade - thinking about money"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C3%7C2%7C0%7C1"
+   },
+   {
+    "code": "WAH.3",
+    "name": {
+     "de": "Konsum gestalten",
+     "en": "Shaping consumption"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C3%7C3%7C0%7C1"
+   },
+   {
+    "code": "WAH.4",
+    "name": {
+     "de": "Ernährung und Gesundheit - Zusammenhänge verstehen und reflektiert handeln",
+     "en": "Nutrition and health - understanding connections and acting reflectively"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C3%7C4%7C0%7C1"
+   },
+   {
+    "code": "WAH.5",
+    "name": {
+     "de": "Haushalten und Zusammenleben gestalten",
+     "en": "Shaping housekeeping and living together"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C3%7C5%7C0%7C1"
+   },
+   {
+    "code": "LBO.1",
+    "name": {
+     "de": "Persönlichkeitsprofil",
+     "en": "Personality profile"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C7%7C1%7C0%7C1"
+   },
+   {
+    "code": "LBO.2",
+    "name": {
+     "de": "Bildungswege, Berufs- und Arbeitswelt",
+     "en": "Education paths, careers and the world of work"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C7%7C2%7C0%7C1"
+   },
+   {
+    "code": "LBO.3",
+    "name": {
+     "de": "Entscheidung und Umgang mit Schwierigkeiten",
+     "en": "Deciding and dealing with difficulties"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C7%7C3%7C0%7C1"
+   },
+   {
+    "code": "LBO.4",
+    "name": {
+     "de": "Planung, Umsetzung und Dokumentation",
+     "en": "Planning, implementation and documentation"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C7%7C4%7C0%7C1"
+   },
+   {
+    "code": "LBO.5",
+    "name": {
+     "de": "Ich und die Gemeinschaft - Leben und Zusammenleben gestalten",
+     "en": "Me and the community - shaping life together"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C7%7C5%7C0%7C1"
+   },
+   {
+    "code": "LBO.6",
+    "name": {
+     "de": "Produktions- und Arbeitswelten erkunden",
+     "en": "Exploring worlds of production and work"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C7%7C6%7C0%7C1"
+   },
+   {
+    "code": "RZG.8",
+    "name": {
+     "de": "Demokratie und Menschenrechte verstehen und sich dafür engagieren",
+     "en": "Understanding and standing up for democracy and human rights"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C8%7C0%7C1"
+   },
+   {
+    "code": "MI.1",
+    "name": {
+     "de": "Medien",
+     "en": "Media"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C10%7C0%7C1%7C0%7C1"
+   }
+  ],
+  "en": [
+   {
+    "code": "FS1E.1",
+    "name": {
+     "de": "Hören",
+     "en": "Listening"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C1%7C21%7C1%7C1%7C1"
+   },
+   {
+    "code": "FS1E.2",
+    "name": {
+     "de": "Lesen",
+     "en": "Reading"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C1%7C21%7C2%7C1%7C1"
+   },
+   {
+    "code": "FS1E.3",
+    "name": {
+     "de": "Sprechen",
+     "en": "Speaking"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C1%7C21%7C3%7C1%7C1"
+   },
+   {
+    "code": "FS1E.4",
+    "name": {
+     "de": "Schreiben",
+     "en": "Writing"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C1%7C21%7C4%7C1%7C1"
+   },
+   {
+    "code": "FS1E.5",
+    "name": {
+     "de": "Sprache(n) im Fokus",
+     "en": "Language(s) in focus"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C1%7C21%7C5%7C1%7C1"
+   },
+   {
+    "code": "FS1E.6",
+    "name": {
+     "de": "Kulturen im Fokus",
+     "en": "Cultures in focus"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C1%7C21%7C6%7C1%7C1"
+   }
+  ],
+  "geschichte": [
+   {
+    "code": "RZG.5",
+    "name": {
+     "de": "Liechtenstein in Tradition und Wandel verstehen",
+     "en": "Understanding Liechtenstein in tradition and change"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C5%7C0%7C1"
+   },
+   {
+    "code": "RZG.6",
+    "name": {
+     "de": "Weltgeschichtliche Kontinuitäten und Umbrüche erklären",
+     "en": "Explaining continuities and ruptures in world history"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C6%7C0%7C1"
+   },
+   {
+    "code": "RZG.7",
+    "name": {
+     "de": "Geschichtskultur analysieren und nutzen",
+     "en": "Analysing and using historical culture"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C7%7C0%7C1"
+   },
+   {
+    "code": "RZG.8",
+    "name": {
+     "de": "Demokratie und Menschenrechte verstehen und sich dafür engagieren",
+     "en": "Understanding and standing up for democracy and human rights"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C8%7C0%7C1"
+   }
+  ],
+  "geografie": [
+   {
+    "code": "RZG.1",
+    "name": {
+     "de": "Natürliche Grundlagen der Erde untersuchen",
+     "en": "Investigating the Earth's natural foundations"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C1%7C0%7C1"
+   },
+   {
+    "code": "RZG.2",
+    "name": {
+     "de": "Lebensweisen und Lebensräume charakterisieren",
+     "en": "Characterising ways of life and habitats"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C2%7C0%7C1"
+   },
+   {
+    "code": "RZG.3",
+    "name": {
+     "de": "Mensch-Umwelt-Beziehungen analysieren",
+     "en": "Analysing human-environment relationships"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C3%7C0%7C1"
+   },
+   {
+    "code": "RZG.4",
+    "name": {
+     "de": "Sich in Räumen orientieren",
+     "en": "Orienting oneself in spaces"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C6%7C4%7C4%7C0%7C1"
+   }
+  ],
+  "informatik": [
+   {
+    "code": "MI.1",
+    "name": {
+     "de": "Medien",
+     "en": "Media"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C10%7C0%7C1%7C0%7C1"
+   },
+   {
+    "code": "MI.2",
+    "name": {
+     "de": "Informatik",
+     "en": "Computer science"
+    },
+    "quelle": "https://fl.lehrplan.ch/index.php?code=a%7C10%7C0%7C2%7C0%7C1"
+   }
+  ]
+ },
+ "ch": {
+  "uef": [
+   {
+    "code": "Selbstreflexion",
+    "name": {
+     "de": "Selbstreflexion",
+     "en": "Self-reflection"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Selbstständigkeit",
+    "name": {
+     "de": "Selbstständigkeit",
+     "en": "Self-reliance"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Eigenständigkeit",
+    "name": {
+     "de": "Eigenständigkeit",
+     "en": "Independence of mind"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Dialog- und Kooperationsfähigkeit",
+    "name": {
+     "de": "Dialog- und Kooperationsfähigkeit",
+     "en": "Dialogue and cooperation"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Konfliktfähigkeit",
+    "name": {
+     "de": "Konfliktfähigkeit",
+     "en": "Conflict competence"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Umgang mit Vielfalt",
+    "name": {
+     "de": "Umgang mit Vielfalt",
+     "en": "Dealing with diversity"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Sprachfähigkeit",
+    "name": {
+     "de": "Sprachfähigkeit",
+     "en": "Language ability"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Informationen nutzen",
+    "name": {
+     "de": "Informationen nutzen",
+     "en": "Using information"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   },
+   {
+    "code": "Aufgaben/Probleme lösen",
+    "name": {
+     "de": "Aufgaben/Probleme lösen",
+     "en": "Solving tasks/problems"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=e|200|3 (LP21 Grundlagen, Überfachliche Kompetenzen)"
+   }
+  ],
+  "wp": [
+   {
+    "code": "WAH.1",
+    "name": {
+     "de": "Produktions- und Arbeitswelten erkunden",
+     "en": "Exploring worlds of production and work"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C3%7C1%7C0%7C1"
+   },
+   {
+    "code": "WAH.2",
+    "name": {
+     "de": "Märkte und Handel verstehen - über Geld nachdenken",
+     "en": "Understanding markets and trade - thinking about money"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C3%7C2%7C0%7C1"
+   },
+   {
+    "code": "WAH.3",
+    "name": {
+     "de": "Konsum gestalten",
+     "en": "Shaping consumption"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C3%7C3%7C0%7C1"
+   },
+   {
+    "code": "WAH.4",
+    "name": {
+     "de": "Ernährung und Gesundheit - Zusammenhänge verstehen und reflektiert handeln",
+     "en": "Nutrition and health - understanding connections and acting reflectively"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C3%7C4%7C0%7C1"
+   },
+   {
+    "code": "WAH.5",
+    "name": {
+     "de": "Haushalten und Zusammenleben gestalten",
+     "en": "Shaping housekeeping and living together"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C3%7C5%7C0%7C1"
+   },
+   {
+    "code": "RZG.8",
+    "name": {
+     "de": "Demokratie und Menschenrechte verstehen und sich dafür engagieren",
+     "en": "Understanding and standing up for democracy and human rights"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C8%7C0%7C1"
+   },
+   {
+    "code": "MI.1",
+    "name": {
+     "de": "Medien",
+     "en": "Media"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C10%7C0%7C1%7C0%7C1"
+   }
+  ],
+  "en": [
+   {
+    "code": "FS1E.1",
+    "name": {
+     "de": "Hören",
+     "en": "Listening"
+    },
+    "quelle": "https://v-ef.lehrplan.ch/index.php?code=a%7C1%7C21%7C1%7C1%7C1"
+   },
+   {
+    "code": "FS1E.2",
+    "name": {
+     "de": "Lesen",
+     "en": "Reading"
+    },
+    "quelle": "https://v-ef.lehrplan.ch/index.php?code=a%7C1%7C21%7C2%7C1%7C1"
+   },
+   {
+    "code": "FS1E.3",
+    "name": {
+     "de": "Sprechen",
+     "en": "Speaking"
+    },
+    "quelle": "https://v-ef.lehrplan.ch/index.php?code=a%7C1%7C21%7C3%7C1%7C1"
+   },
+   {
+    "code": "FS1E.4",
+    "name": {
+     "de": "Schreiben",
+     "en": "Writing"
+    },
+    "quelle": "https://v-ef.lehrplan.ch/index.php?code=a%7C1%7C21%7C4%7C1%7C1"
+   },
+   {
+    "code": "FS1E.5",
+    "name": {
+     "de": "Sprache(n) im Fokus",
+     "en": "Language(s) in focus"
+    },
+    "quelle": "https://v-ef.lehrplan.ch/index.php?code=a%7C1%7C21%7C5%7C1%7C1"
+   },
+   {
+    "code": "FS1E.6",
+    "name": {
+     "de": "Kulturen im Fokus",
+     "en": "Cultures in focus"
+    },
+    "quelle": "https://v-ef.lehrplan.ch/index.php?code=a%7C1%7C21%7C6%7C1%7C1"
+   }
+  ],
+  "geschichte": [
+   {
+    "code": "RZG.5",
+    "name": {
+     "de": "Schweiz in Tradition und Wandel verstehen",
+     "en": "Understanding Switzerland in tradition and change"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C5%7C0%7C1"
+   },
+   {
+    "code": "RZG.6",
+    "name": {
+     "de": "Weltgeschichtliche Kontinuitäten und Umbrüche erklären",
+     "en": "Explaining continuities and ruptures in world history"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C6%7C0%7C1"
+   },
+   {
+    "code": "RZG.7",
+    "name": {
+     "de": "Geschichtskultur analysieren und nutzen",
+     "en": "Analysing and using historical culture"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C7%7C0%7C1"
+   },
+   {
+    "code": "RZG.8",
+    "name": {
+     "de": "Demokratie und Menschenrechte verstehen und sich dafür engagieren",
+     "en": "Understanding and standing up for democracy and human rights"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C8%7C0%7C1"
+   }
+  ],
+  "geografie": [
+   {
+    "code": "RZG.1",
+    "name": {
+     "de": "Natürliche Grundlagen der Erde untersuchen",
+     "en": "Investigating the Earth's natural foundations"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C1%7C0%7C1"
+   },
+   {
+    "code": "RZG.2",
+    "name": {
+     "de": "Lebensweisen und Lebensräume charakterisieren",
+     "en": "Characterising ways of life and habitats"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C2%7C0%7C1"
+   },
+   {
+    "code": "RZG.3",
+    "name": {
+     "de": "Mensch-Umwelt-Beziehungen analysieren",
+     "en": "Analysing human-environment relationships"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C3%7C0%7C1"
+   },
+   {
+    "code": "RZG.4",
+    "name": {
+     "de": "Sich in Räumen orientieren",
+     "en": "Orienting oneself in spaces"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C6%7C4%7C4%7C0%7C1"
+   }
+  ],
+  "informatik": [
+   {
+    "code": "MI.1",
+    "name": {
+     "de": "Medien",
+     "en": "Media"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C10%7C0%7C1%7C0%7C1"
+   },
+   {
+    "code": "MI.2",
+    "name": {
+     "de": "Informatik",
+     "en": "Computer science"
+    },
+    "quelle": "https://v-fe.lehrplan.ch/index.php?code=a%7C10%7C0%7C2%7C0%7C1"
+   }
+  ]
+ }
+}

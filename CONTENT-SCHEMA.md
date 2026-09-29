@@ -39,6 +39,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** (Regel) | 24. September 2026 | KEIN Versionswechsel, **Schaubild-Standard** (Betreiber-Freigabe, Schrift-Regel «weich»): (a) **Kontrast** – jedes Text-Hintergrund-Paar einer Schaubild-Szene braucht mindestens **4,5:1 (WCAG AA)**, geprüft im hellen UND im dunklen Modus (der Dark-Filter des Players ist exakt berechenbar); Verstösse sind **Validierungs-FEHLER**. (b) **Schrift** – Standard für Schaubild-Texte ist die **Normal-Schrift** (`fontFamily` 6/Nunito); die Handschrift (5) bleibt für bewusst skizzenhafte Akzente erlaubt und wird nur als **Hinweis** gemeldet. Der Bestand (30 Schaubilder) ist umgestellt: alle Texte Nunito, 207 Kontrast-Verstösse farbton-erhaltend korrigiert. |
 | **3** (additiv) | 26. September 2026 | KEIN Versionswechsel: neuer Blocktyp [`einschaetzung`](#einschaetzung--selbsteinschätzung-kompetenz-spinnennetz) – Selbsteinschätzung je Teilkompetenz auf einer Sechs-Stufen-Skala (nie … immer), fürs **Kompetenz-Spinnennetz** (Belegspur, Doku `docs/SPINNENNETZ.md` im Plattform-Repo). Kein prüfender Block (keine Punkte, kein Abschluss-Zwang). Dazu das Fach **`uef` («Überfachliche Kompetenzen»)** im Register (32 lehrplanneutrale Indikatoren als Ich-Sätze; Lehrplan-Ebene über das normale Mapping: LeSiMa-Codes für `li`, LP21-überfachlich für `ch`) und zwei neue **Register-Felder**: `veraltet` (Kennungsschutz – Kennungen werden nie gelöscht/umbenannt, die CI erzwingt das gegen die Übersetzungs-Basis) und `interview` (Kennzeichnung kognitiver/lernbezogener Indikatoren, s. nächste Zeile). Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
 | **3** (additiv, experimentell) | 26. September 2026 | KEIN Versionswechsel: neuer **experimenteller** Blocktyp [`interview`](#interview--ki-interview-zur-selbsteinschätzung-experimentell) – die lokale KI führt ein kurzes Interview entlang skriptierter `leitfragen` und schlägt je Teilkompetenz eine Einschätzung vor (Quelle `ki`, IMMER unbestätigt; der komplette Gesprächsverlauf reist mit dem Report zur Lehrperson, nichts zählt vor ihrer Übernahme). NUR für Teilkompetenzen mit `interview: true` im Register (Validierungs-FEHLER sonst). Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
+| **3** (Tabellen) | 29. September 2026 | KEIN Versionswechsel, nur der Ordner `kompetenzen/`: zwei **neue Tabellen** [`lehrplan-struktur.json`](kompetenzen/lehrplan-struktur.json) (vollständige Bereichsgliederung je Lehrplan × Fachbereich, mit dokumentierter Quelle je Eintrag – Grundlage der Lehrplan-Sicht in Heatmap + **Kompetenz-Netzdiagramm**, das seither so heisst) und [`kategorien.json`](kompetenzen/kategorien.json) (eigene übergeordnete Kategorien je Fachbereich – Grundlage der Teilkompetenz-Sicht). Mapping-Codes dürfen **80 statt 60 Zeichen** lang sein; die `ch`-Codes der überfachlichen Einträge sind auf die offiziellen LP21-Wortlaute korrigiert («Dialog- und Kooperationsfähigkeit», «Aufgaben/Probleme lösen») und die Englisch-Einträge tragen zusätzlich `ch` (identische FS1E-Codes). Module unverändert gültig; die Plattform liest die Tabellen tolerant (fehlend = leer), darum ist die Merge-Reihenfolge frei – volle Wirkung erst mit dem zugehörigen Plattform-Deploy. |
 
 ## Ablage
 
@@ -1232,10 +1233,10 @@ Regeln und Konventionen:
   ein Standort-Task den Argument-Bauplan). Repetitions- und
   Anwendungsmodule verwenden ausschliesslich bestehende Kennungen.
 
-### Die zwei Tabellen im Ordner `kompetenzen/`
+### Die Tabellen im Ordner `kompetenzen/`
 
-Bedeutung bekommen die Kennungen durch zwei Tabellen (Pflege per Pull
-Request; ein `_hinweis`-Feld auf oberster Ebene wird ignoriert; beide
+Bedeutung bekommen die Kennungen durch vier Tabellen (Pflege per Pull
+Request; ein `_hinweis`-Feld auf oberster Ebene wird ignoriert; alle
 Dateien in Kanonform `JSON.stringify(inhalt, null, 1) + "\n"`):
 
 - [`kompetenzen/teilkompetenzen.json`](kompetenzen/teilkompetenzen.json)
@@ -1257,7 +1258,30 @@ Dateien in Kanonform `JSON.stringify(inhalt, null, 1) + "\n"`):
   registrierte Lehrpläne, 1–8 Codes je Liste). Eine Teilkompetenz darf
   mehreren Codes zuliefern, ein Code mehrere Teilkompetenzen bündeln.
   Lehrpläne ohne Eintrag zeigen die Teilkompetenz im Dashboard unter
-  «ohne Zuordnung».
+  «ohne Zuordnung». Codes sind freie Strings bis 80 Zeichen (seit
+  29.9.2026, vorher 60 – die LP21-überfachlichen Klartext-Codes
+  brauchen mehr).
+- [`kompetenzen/lehrplan-struktur.json`](kompetenzen/lehrplan-struktur.json)
+  – die **vollständige Bereichsgliederung** je Lehrplan × Fachbereich
+  (seit 29.9.2026): auch Bereiche OHNE zugeordnete Teilkompetenzen
+  stehen hier, damit die Lehrplan-Sicht der Plattform (Heatmap +
+  Netzdiagramm) die Lücken ehrlich als «keine Belege» zeigen kann. Je
+  Eintrag `code` (voller Lehrplan-Code, z. B. `FS1E.5`), `name`
+  (de/en) und **`quelle`** (offizielle URL – fl.lehrplan.ch für li,
+  v-ef/v-fe.lehrplan.ch für ch – bzw. Prototyp-Verweis bei den
+  LeSiMa-Kategorien); Codes stammen AUSSCHLIESSLICH aus offiziellen
+  Quellen, nicht sicher belegbare tragen `"ungeprueft": true`.
+  Teilkompetenzen werden per Code-Präfix zugeordnet (`FS1E.5.D.1`
+  liegt in `FS1E.5`).
+- [`kompetenzen/kategorien.json`](kompetenzen/kategorien.json) – die
+  **eigenen übergeordneten Kategorien** je Fachbereich (seit
+  29.9.2026; Quelle der Teilkompetenz-Sicht): je Kategorie `id`,
+  `name` (de/en) und die Liste `teilkompetenzen` (Register-Kennungen
+  desselben Fachbereichs, jede in höchstens EINER Kategorie – die
+  Validierung lehnt Doppel-Zuordnung ab). Die Datei-Reihenfolge ist
+  die Anzeige-Reihenfolge; Fachbereiche ohne Eintrag (und nicht
+  zugeordnete Kennungen) fallen in der Plattform auf die
+  Themen-Gruppen (2. Kennungs-Segment) zurück.
 
 Register-Einträge ohne Verwendung oder ohne Mapping meldet
 `npm run validate` als Hinweis (ℹ), nicht als Fehler. Das vollständige

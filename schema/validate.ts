@@ -176,7 +176,7 @@ type KompetenzRegister = Record<string, z.infer<typeof teilkompetenzEintragSchem
 type KompetenzMapping = Record<string, Partial<Record<string, string[]>>>;
 
 /** Code-Schema wie lehrplanKompetenzSchema.code (freies Format ≤ 60). */
-const kompetenzCodeSchema = z.string().trim().min(1).max(60);
+const kompetenzCodeSchema = z.string().trim().min(1).max(80);
 
 function kompetenzTabellenFehler(datei: string, meldungen: string[]): Error {
   return new Error(
@@ -254,7 +254,7 @@ function parseKompetenzMapping(
       const codes = z.array(kompetenzCodeSchema).min(1).max(8).safeParse(codesRoh);
       if (!codes.success) {
         meldungen.push(
-          `${kennung}.${lehrplan}: erwartet eine Liste von 1–8 Kompetenz-Codes (Strings, ≤ 60 Zeichen).`,
+          `${kennung}.${lehrplan}: erwartet eine Liste von 1–8 Kompetenz-Codes (Strings, ≤ 80 Zeichen).`,
         );
         continue;
       }
@@ -293,6 +293,127 @@ function liesKompetenzTabelle(name: string): unknown | null {
   return wert;
 }
 
+/** Lehrplan-Struktur prüfen (kompetenzen/lehrplan-struktur.json) –
+ *  Regeln identisch zu parseLehrplanStruktur der Plattform. */
+const strukturBereichSchema = z.strictObject({
+  code: kompetenzCodeSchema,
+  name: z.strictObject({
+    de: z.string().trim().min(1).max(160),
+    en: z.string().trim().min(1).max(160),
+  }),
+  quelle: z.string().trim().min(1).max(300),
+  ungeprueft: z.literal(true).optional(),
+});
+
+function pruefeLehrplanStruktur(raw: unknown, datei: string): void {
+  const objekt = kompetenzAlsObjekt(raw, datei);
+  const meldungen: string[] = [];
+  for (const [lehrplan, faecherRoh] of Object.entries(objekt)) {
+    if (lehrplan === "_hinweis") continue;
+    if (lehrplanDefinition(lehrplan) === undefined) {
+      meldungen.push(`"${lehrplan}": Lehrplan ist nicht registriert.`);
+      continue;
+    }
+    if (
+      faecherRoh === null ||
+      typeof faecherRoh !== "object" ||
+      Array.isArray(faecherRoh)
+    ) {
+      meldungen.push(`${lehrplan}: erwartet { "<fachbereich>": [Bereiche…] }.`);
+      continue;
+    }
+    for (const [fach, bereicheRoh] of Object.entries(
+      faecherRoh as Record<string, unknown>,
+    )) {
+      const bereiche = z
+        .array(strukturBereichSchema)
+        .min(1)
+        .max(40)
+        .safeParse(bereicheRoh);
+      if (!bereiche.success) {
+        for (const issue of bereiche.error.issues) {
+          meldungen.push(
+            `${lehrplan}.${fach}[${issue.path.join(".")}]: ${issue.message}`,
+          );
+        }
+        continue;
+      }
+      const codes = bereiche.data.map((b) => b.code);
+      if (new Set(codes).size !== codes.length) {
+        meldungen.push(`${lehrplan}.${fach}: jeder Bereichs-Code höchstens einmal.`);
+      }
+    }
+  }
+  if (meldungen.length > 0) throw kompetenzTabellenFehler(datei, meldungen);
+}
+
+/** Eigene Kategorien prüfen (kompetenzen/kategorien.json) – Regeln
+ *  identisch zu parseKompetenzKategorien der Plattform. */
+const kompetenzKategorieSchema = z.strictObject({
+  id: z
+    .string()
+    .trim()
+    .regex(/^[a-z0-9][a-z0-9-]{0,40}$/),
+  name: z.strictObject({
+    de: z.string().trim().min(1).max(160),
+    en: z.string().trim().min(1).max(160),
+  }),
+  teilkompetenzen: z.array(z.string().trim().min(1).max(64)).min(1).max(40),
+});
+
+function pruefeKompetenzKategorien(
+  raw: unknown,
+  register: KompetenzRegister,
+  datei: string,
+): void {
+  const objekt = kompetenzAlsObjekt(raw, datei);
+  const meldungen: string[] = [];
+  for (const [fach, listeRoh] of Object.entries(objekt)) {
+    if (fach === "_hinweis") continue;
+    const liste = z
+      .array(kompetenzKategorieSchema)
+      .min(1)
+      .max(12)
+      .safeParse(listeRoh);
+    if (!liste.success) {
+      for (const issue of liste.error.issues) {
+        meldungen.push(`${fach}[${issue.path.join(".")}]: ${issue.message}`);
+      }
+      continue;
+    }
+    const ids = liste.data.map((k) => k.id);
+    if (new Set(ids).size !== ids.length) {
+      meldungen.push(`${fach}: jede Kategorie-id höchstens einmal.`);
+    }
+    const gesehen = new Map<string, string>();
+    for (const kategorie of liste.data) {
+      for (const kennung of kategorie.teilkompetenzen) {
+        if (register[kennung] === undefined) {
+          meldungen.push(
+            `${fach}.${kategorie.id}: Kennung "${kennung}" ist nicht im Register.`,
+          );
+          continue;
+        }
+        if (!kennung.startsWith(`${fach}.`)) {
+          meldungen.push(
+            `${fach}.${kategorie.id}: Kennung "${kennung}" gehört nicht zum Fach "${fach}".`,
+          );
+          continue;
+        }
+        const schon = gesehen.get(kennung);
+        if (schon !== undefined) {
+          meldungen.push(
+            `${fach}: Kennung "${kennung}" ist zweimal zugeordnet (${schon} und ${kategorie.id}).`,
+          );
+          continue;
+        }
+        gesehen.set(kennung, kategorie.id);
+      }
+    }
+  }
+  if (meldungen.length > 0) throw kompetenzTabellenFehler(datei, meldungen);
+}
+
 /** kompetenzen/ existiert – erst dann sind Modul-Referenzen prüfbar. */
 const kompetenzenAktiv = fs.existsSync(path.join(ROOT, "kompetenzen"));
 let kompetenzRegister: KompetenzRegister = {};
@@ -309,6 +430,18 @@ try {
         mappingRoh,
         kompetenzRegister,
         "mapping.json",
+      );
+    }
+    const strukturRoh = liesKompetenzTabelle("lehrplan-struktur.json");
+    if (strukturRoh !== null) {
+      pruefeLehrplanStruktur(strukturRoh, "lehrplan-struktur.json");
+    }
+    const kategorienRoh = liesKompetenzTabelle("kategorien.json");
+    if (kategorienRoh !== null) {
+      pruefeKompetenzKategorien(
+        kategorienRoh,
+        kompetenzRegister,
+        "kategorien.json",
       );
     }
   }
