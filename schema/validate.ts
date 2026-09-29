@@ -418,6 +418,9 @@ function pruefeKompetenzKategorien(
 const kompetenzenAktiv = fs.existsSync(path.join(ROOT, "kompetenzen"));
 let kompetenzRegister: KompetenzRegister = {};
 let kompetenzMapping: KompetenzMapping = {};
+// Geprüfte Struktur-Tabelle für den Mapping-Abgleich weiter unten
+// (nach pruefeLehrplanStruktur ist die Form gesichert).
+let kompetenzStruktur: Record<string, Record<string, { code: string }[]>> = {};
 try {
   if (kompetenzenAktiv) {
     const registerRoh = liesKompetenzTabelle("teilkompetenzen.json");
@@ -435,6 +438,10 @@ try {
     const strukturRoh = liesKompetenzTabelle("lehrplan-struktur.json");
     if (strukturRoh !== null) {
       pruefeLehrplanStruktur(strukturRoh, "lehrplan-struktur.json");
+      kompetenzStruktur = strukturRoh as Record<
+        string,
+        Record<string, { code: string }[]>
+      >;
     }
     const kategorienRoh = liesKompetenzTabelle("kategorien.json");
     if (kategorienRoh !== null) {
@@ -1341,6 +1348,29 @@ for (const kennung of Object.keys(kompetenzRegister)) {
     console.log(
       `  ℹ Kompetenzen: "${kennung}" hat kein Lehrplan-Mapping (mapping.json) – erscheint im Dashboard unter «ohne Zuordnung».`,
     );
+  }
+}
+
+// Mapping↔Struktur-Abgleich (Hinweis, KEIN Fehler – Review-Fund
+// 29.9.2026, Spiegel des Plattform-Validierers): Ein Mapping-Code, der
+// in keinem Struktur-Bereich seines Lehrplans liegt, verschwindet in
+// der Lehrplan-Sicht des Netzdiagramms still. Geprüft nur, wo die
+// Struktur das Fach führt.
+for (const [kennung, zuordnungen] of Object.entries(kompetenzMapping)) {
+  const fach = kennung.split(".")[0];
+  for (const [lehrplan, codes] of Object.entries(zuordnungen)) {
+    const bereiche = kompetenzStruktur[lehrplan]?.[fach];
+    if (!Array.isArray(bereiche) || bereiche.length === 0 || !codes) continue;
+    for (const code of codes) {
+      const drin = bereiche.some(
+        (b) => code === b.code || code.startsWith(`${b.code}.`),
+      );
+      if (!drin) {
+        console.log(
+          `  ℹ Kompetenzen: "${kennung}" (${lehrplan}) – Code «${code}» liegt in keinem Bereich der lehrplan-struktur.json und fehlt darum in der Lehrplan-Sicht des Netzdiagramms.`,
+        );
+      }
+    }
   }
 }
 
