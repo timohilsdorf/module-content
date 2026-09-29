@@ -2,18 +2,18 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-wie-lerne-ich --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:e5250f821f305a55dd2124fb0ed9cfc84f9b4ce1d8e84cf0ddcbe3b2e6bbd876",
-  "masterCommit": "1655c5c",
+  "masterHash": "sha256:1d34f40a74bbb1e403d4ae6964902f8490fa2ecd2495c5e43212565040419013",
+  "masterCommit": "81610c4",
   "hintsHash": null,
-  "generatedAt": "2026-09-26",
+  "generatedAt": "2026-09-29",
   "generator": "uebersetze.ts v1",
-  "model": "datei:uef-antworten.json",
-  "selfHash": "sha256:77c9849a98c0b9325ee5fe98f9f3f277222b721d8fd8b4b9c8399a223257e7df"
+  "model": "datei:antworten.json + speicher",
+  "selfHash": "sha256:126115b4a5937d808c7a2e5b7a2b5fdbaa26c8cdca476d058424e425275f2516"
  },
  "schemaVersion": 3,
  "id": "ueberfachlich-wie-lerne-ich",
  "title": "How Do I Learn? Self-Assessment",
- "description": "Assess your transversal competencies: how do you steer your learning, how do you deal with challenges, how do you work with others? Six short self-assessments with sliders – your answers are saved with a date, so you can follow your development in the competency spider web.",
+ "description": "Assess your transversal competencies: how do you steer your learning, how do you deal with challenges, how do you work with others? Six short self-assessments with sliders – your answers are saved with a date, so you can follow your development in the competency web chart.",
  "curricula": [
   {
    "curriculum": "li",
@@ -114,12 +114,12 @@
   "Collaboration",
   "Reflection",
   "Motivation",
-  "Competency spider web"
+  "Competency web chart"
  ],
  "learningObjectives": [
   "I can explain what transversal competencies are and why they help in every subject.",
   "I can assess my transversal competencies honestly and justify my assessment.",
-  "I know where I can follow my development in the competency spider web and how to repeat the assessment."
+  "I know where I can follow my development in the competency web chart and how to repeat the assessment."
  ],
  "sources": [
   {
@@ -140,7 +140,7 @@
    "type": "text",
    "id": "worum-es-geht",
    "title": "What this is about",
-   "body": "At school you don't just learn subjects like English or economics – you also learn **how** to learn, work and live together. These skills are called **transversal competencies**: they help you in every subject and far beyond school.\n\nIn this module you assess yourself. For each statement, move a slider to the level that fits best: **never · rarely · sometimes · often · almost always · always**.\n\nThree things matter here:\n\n1. **Be honest.** There are no points and no grades here. An honest assessment helps you more than a flattering one.\n2. **Your assessment is saved with a date.** If you repeat it later (for example at the end of the semester), you will see your development in the competency spider web on the home page.\n3. **Your teacher sees your assessment** when your learning progress is shared – for example via the class folder. They also assess you themselves: comparing the two views is the most valuable part – that's where the best conversations happen.\n\nTake your time. This is not a test – it's a look in the mirror."
+   "body": "At school you don't just learn subjects like English or economics – you also learn **how** to learn, work and live together. These skills are called **transversal competencies**: they help you in every subject and far beyond school.\n\nIn this module you assess yourself. For each statement, move a slider to the level that fits best: **never · rarely · sometimes · often · almost always · always**.\n\nThree things matter here:\n\n1. **Be honest.** There are no points and no grades here. An honest assessment helps you more than a flattering one.\n2. **Your assessment is saved with a date.** If you repeat it later (for example at the end of the semester), you will see your development in the competency web chart on the home page.\n3. **Your teacher sees your assessment** when your learning progress is shared – for example via the class folder. They also assess you themselves: comparing the two views is the most valuable part – that's where the best conversations happen.\n\nTake your time. This is not a test – it's a look in the mirror."
   },
   {
    "type": "einschaetzung",
@@ -226,7 +226,7 @@
    "type": "text",
    "id": "wie-weiter",
    "title": "What next?",
-   "body": "Done! Your assessments are saved.\n\n- On the **home page** you will find your **competency spider web**: there you can see your assessments as a web – and later also what your teacher has assessed.\n- **Repeat this module** every few months. Only several assessments at different points in time make your development visible.\n- Talk to your teacher about where your assessments differ – that's exactly where the conversation is most worthwhile."
+   "body": "Done! Your assessments are saved.\n\n- On the **home page** you will find your **competency web chart**: there you can see your assessments as a web – and later also what your teacher has assessed.\n- **Repeat this module** every few months. Only several assessments at different points in time make your development visible.\n- Talk to your teacher about where your assessments differ – that's exactly where the conversation is most worthwhile."
   }
  ]
 }

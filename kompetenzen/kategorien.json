@@ -1,0 +1,258 @@
+{
+ "_hinweis": "Eigene übergeordnete Kategorien je Fach (Achsen der Teilkompetenz-Sicht; 5-8 pro Fach, jede Teilkompetenz genau einer Kategorie). Fächer ohne Eintrag fallen auf die Themen-Segmente zurück.",
+ "uef": [
+  {
+   "id": "selbststeuerung",
+   "name": {
+    "de": "Selbststeuerung",
+    "en": "Self-management"
+   },
+   "teilkompetenzen": [
+    "uef.selbststeuerung.entscheidungen-treffen",
+    "uef.selbststeuerung.prioritaeten-setzen",
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.selbststeuerung.selbststaendig-arbeiten"
+   ]
+  },
+  {
+   "id": "reflexion",
+   "name": {
+    "de": "Reflexion",
+    "en": "Reflection"
+   },
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen",
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ]
+  },
+  {
+   "id": "herausforderungen",
+   "name": {
+    "de": "Mit Herausforderungen umgehen",
+    "en": "Dealing with challenges"
+   },
+   "teilkompetenzen": [
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.frustration-aushalten",
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.fehler-nutzen",
+    "uef.herausforderungen.ausdauer-zeigen"
+   ]
+  },
+  {
+   "id": "antrieb",
+   "name": {
+    "de": "Antrieb & Motivation",
+    "en": "Drive & motivation"
+   },
+   "teilkompetenzen": [
+    "uef.antrieb.interesse-zeigen",
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.arbeitsbereitschaft-zeigen",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ]
+  },
+  {
+   "id": "zusammenarbeit",
+   "name": {
+    "de": "Zusammenarbeit",
+    "en": "Collaboration"
+   },
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.verstaendlich-kommunizieren",
+    "uef.zusammenarbeit.regeln-einhalten",
+    "uef.zusammenarbeit.konflikte-loesen",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ]
+  },
+  {
+   "id": "lernen",
+   "name": {
+    "de": "Lernen lernen",
+    "en": "Learning to learn"
+   },
+   "teilkompetenzen": [
+    "uef.lernen.informationen-verarbeiten",
+    "uef.lernen.lernstrategien-nutzen",
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.arbeit-evaluieren",
+    "uef.lernen.konzentriert-arbeiten",
+    "uef.lernen.probleme-loesen",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.kritisch-denken"
+   ]
+  }
+ ],
+ "en": [
+  {
+   "id": "hoeren",
+   "name": {
+    "de": "Hören",
+    "en": "Listening"
+   },
+   "teilkompetenzen": [
+    "en.hoeren.hoertexte-videos-verstehen-a2",
+    "en.hoeren.gespraeche-verstehen-a1"
+   ]
+  },
+  {
+   "id": "lesen",
+   "name": {
+    "de": "Lesen",
+    "en": "Reading"
+   },
+   "teilkompetenzen": [
+    "en.lesen.sachtexte-verstehen-a2"
+   ]
+  },
+  {
+   "id": "schreiben",
+   "name": {
+    "de": "Schreiben",
+    "en": "Writing"
+   },
+   "teilkompetenzen": [
+    "en.schreiben.texte-verfassen-a2",
+    "en.schreiben.textbausteine-zuordnen-a2",
+    "en.schreiben.sich-vorstellen-a1"
+   ]
+  },
+  {
+   "id": "wortschatz",
+   "name": {
+    "de": "Wortschatz",
+    "en": "Vocabulary"
+   },
+   "teilkompetenzen": [
+    "en.wortschatz.themenwortschatz-anwenden-a2",
+    "en.wortschatz.grundwortschatz-anwenden-a1",
+    "en.wortschatz.aehnliche-verben-unterscheiden-a2"
+   ]
+  },
+  {
+   "id": "grammatik",
+   "name": {
+    "de": "Grammatik",
+    "en": "Grammar"
+   },
+   "teilkompetenzen": [
+    "en.grammatik.vergangenheitsformen-anwenden-a2",
+    "en.grammatik.satzstrukturen-anwenden-a2",
+    "en.grammatik.grundstrukturen-anwenden-a1"
+   ]
+  }
+ ],
+ "wp": [
+  {
+   "id": "geld-und-zahlungsverkehr",
+   "name": {
+    "de": "Geld & Zahlungsverkehr",
+    "en": "Money & payments"
+   },
+   "teilkompetenzen": [
+    "wp.geld.funktionen-erklaeren",
+    "wp.geld.entwicklung-beschreiben",
+    "wp.bezahlen.bezahlformen-unterscheiden",
+    "wp.bezahlen.schuldenfallen-erkennen",
+    "wp.banken.kernaufgaben-zuordnen",
+    "wp.banken.kreditwuerdigkeit-erklaeren",
+    "wp.banken.zins-berechnen"
+   ]
+  },
+  {
+   "id": "konsum-und-vorsorge",
+   "name": {
+    "de": "Konsum, Budget & Vorsorge",
+    "en": "Consumption, budget & provision"
+   },
+   "teilkompetenzen": [
+    "wp.konsum.dark-patterns-erkennen",
+    "wp.konsum.gegenstrategien-anwenden",
+    "wp.budget.lohnabrechnung-erklaeren",
+    "wp.budget.monatsbudget-berechnen",
+    "wp.anlegen.aktien-boerse-erklaeren",
+    "wp.anlegen.risiko-rendite-beurteilen",
+    "wp.vorsorge.versicherungsprinzip-erklaeren",
+    "wp.vorsorge.versicherungen-einordnen"
+   ]
+  },
+  {
+   "id": "wirtschaft-verstehen",
+   "name": {
+    "de": "Wirtschaft verstehen",
+    "en": "Understanding the economy"
+   },
+   "teilkompetenzen": [
+    "wp.grundlagen.beduerfnisse-gueter-unterscheiden",
+    "wp.grundlagen.oekonomisches-prinzip-anwenden",
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.kreislauf.zusammenhaenge-erklaeren",
+    "wp.kreislauf.erweiterung-einordnen",
+    "wp.markt.marktkraefte-beschreiben",
+    "wp.markt.preisbildung-erklaeren",
+    "wp.markt.marktformen-unterscheiden",
+    "wp.markt.wettbewerb-beurteilen",
+    "wp.sektoren.beispiele-zuordnen",
+    "wp.sektoren.strukturwandel-erklaeren",
+    "wp.akteure.rollen-beschreiben",
+    "wp.akteure.beispiele-zuordnen",
+    "wp.akteure.austausch-beschreiben",
+    "wp.standort.standortfaktoren-beurteilen"
+   ]
+  },
+  {
+   "id": "staat-und-demokratie",
+   "name": {
+    "de": "Staat & Demokratie",
+    "en": "State & democracy"
+   },
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.steuern-zuordnen",
+    "wp.staat.staatsbudget-erklaeren",
+    "wp.staat.wirtschaftspolitik-zuordnen",
+    "wp.politik.grundbegriffe-anwenden",
+    "wp.politik.kompromisse-begruenden",
+    "wp.politik.interessenvertretung-beurteilen",
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden",
+    "wp.demokratie.systeme-vergleichen"
+   ]
+  },
+  {
+   "id": "europa-und-frieden",
+   "name": {
+    "de": "Europa & Frieden",
+    "en": "Europe & peace"
+   },
+   "teilkompetenzen": [
+    "wp.europa.binnenmarkt-erklaeren",
+    "wp.europa.ewr-doppelrolle-erklaeren",
+    "wp.frieden.uno-erklaeren",
+    "wp.frieden.menschenrechte-zuordnen",
+    "wp.frieden.konflikte-analysieren"
+   ]
+  },
+  {
+   "id": "medien-und-meinung",
+   "name": {
+    "de": "Medien & Meinungsbildung",
+    "en": "Media & opinion-forming"
+   },
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen",
+    "wp.medien.faktenchecks-anwenden",
+    "wp.medien.verschwoerungserzaehlungen-erkennen",
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.preisregulierung-abwaegen",
+    "wp.argumentieren.falschinformationen-abwaegen",
+    "wp.argumentieren.friedenssicherung-abwaegen"
+   ]
+  }
+ ]
+}

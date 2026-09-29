@@ -2,7 +2,7 @@
  "schemaVersion": 3,
  "id": "ueberfachlich-wie-lerne-ich",
  "title": "Wie lerne ich? Selbsteinschätzung",
- "description": "Schätze deine überfachlichen Kompetenzen ein: Wie steuerst du dein Lernen, wie gehst du mit Herausforderungen um, wie arbeitest du mit anderen zusammen? Sechs kurze Selbsteinschätzungen mit Reglern – deine Antworten werden mit Datum gespeichert, sodass du deine Entwicklung im Kompetenz-Spinnennetz verfolgen kannst.",
+ "description": "Schätze deine überfachlichen Kompetenzen ein: Wie steuerst du dein Lernen, wie gehst du mit Herausforderungen um, wie arbeitest du mit anderen zusammen? Sechs kurze Selbsteinschätzungen mit Reglern – deine Antworten werden mit Datum gespeichert, sodass du deine Entwicklung im Kompetenz-Netzdiagramm verfolgen kannst.",
  "curricula": [
   {
    "curriculum": "li",
@@ -103,12 +103,12 @@
   "Zusammenarbeit",
   "Reflexion",
   "Motivation",
-  "Kompetenz-Spinnennetz"
+  "Kompetenz-Netzdiagramm"
  ],
  "learningObjectives": [
   "Ich kann erklären, was überfachliche Kompetenzen sind und warum sie in jedem Fach helfen.",
   "Ich kann meine überfachlichen Kompetenzen ehrlich einschätzen und meine Einschätzung begründen.",
-  "Ich weiss, wo ich meine Entwicklung im Kompetenz-Spinnennetz verfolgen kann und wie ich die Einschätzung wiederhole."
+  "Ich weiss, wo ich meine Entwicklung im Kompetenz-Netzdiagramm verfolgen kann und wie ich die Einschätzung wiederhole."
  ],
  "sources": [
   {
@@ -129,7 +129,7 @@
    "type": "text",
    "id": "worum-es-geht",
    "title": "Worum es hier geht",
-   "body": "In der Schule lernst du nicht nur Fächer wie Englisch oder Wirtschaft – du lernst auch, **wie** man lernt, arbeitet und zusammenlebt. Diese Fähigkeiten heissen **überfachliche Kompetenzen**: Sie helfen dir in jedem Fach und weit über die Schule hinaus.\n\nIn diesem Modul schätzt du dich selbst ein. Für jede Aussage schiebst du einen Regler auf die Stufe, die am ehesten stimmt: **nie · selten · manchmal · oft · fast immer · immer**.\n\nDrei Dinge sind dabei wichtig:\n\n1. **Sei ehrlich.** Es gibt hier keine Punkte und keine Noten. Eine ehrliche Einschätzung hilft dir mehr als eine geschönte.\n2. **Deine Einschätzung wird mit Datum gespeichert.** Wenn du sie später wiederholst (zum Beispiel am Ende des Semesters), siehst du deine Entwicklung im Kompetenz-Spinnennetz auf der Startseite.\n3. **Deine Lehrperson sieht deine Einschätzung**, wenn dein Lernstand geteilt wird – zum Beispiel über den Klassen-Ordner. Sie schätzt dich auch selbst ein: Der Vergleich der beiden Sichten ist der wertvollste Teil – dort gibt es oft die besten Gespräche.\n\nNimm dir Zeit. Es ist keine Prüfung – es ist ein Blick in den Spiegel."
+   "body": "In der Schule lernst du nicht nur Fächer wie Englisch oder Wirtschaft – du lernst auch, **wie** man lernt, arbeitet und zusammenlebt. Diese Fähigkeiten heissen **überfachliche Kompetenzen**: Sie helfen dir in jedem Fach und weit über die Schule hinaus.\n\nIn diesem Modul schätzt du dich selbst ein. Für jede Aussage schiebst du einen Regler auf die Stufe, die am ehesten stimmt: **nie · selten · manchmal · oft · fast immer · immer**.\n\nDrei Dinge sind dabei wichtig:\n\n1. **Sei ehrlich.** Es gibt hier keine Punkte und keine Noten. Eine ehrliche Einschätzung hilft dir mehr als eine geschönte.\n2. **Deine Einschätzung wird mit Datum gespeichert.** Wenn du sie später wiederholst (zum Beispiel am Ende des Semesters), siehst du deine Entwicklung im Kompetenz-Netzdiagramm auf der Startseite.\n3. **Deine Lehrperson sieht deine Einschätzung**, wenn dein Lernstand geteilt wird – zum Beispiel über den Klassen-Ordner. Sie schätzt dich auch selbst ein: Der Vergleich der beiden Sichten ist der wertvollste Teil – dort gibt es oft die besten Gespräche.\n\nNimm dir Zeit. Es ist keine Prüfung – es ist ein Blick in den Spiegel."
   },
   {
    "type": "einschaetzung",
@@ -215,7 +215,7 @@
    "type": "text",
    "id": "wie-weiter",
    "title": "Wie weiter?",
-   "body": "Geschafft! Deine Einschätzungen sind gespeichert.\n\n- Auf der **Startseite** findest du dein **Kompetenz-Spinnennetz**: Dort siehst du deine Einschätzungen als Netz – und später auch, was deine Lehrperson eingeschätzt hat.\n- **Wiederhole dieses Modul** etwa alle paar Monate. Erst durch mehrere Einschätzungen zu verschiedenen Zeitpunkten wird sichtbar, wie du dich entwickelst.\n- Sprich mit deiner Lehrperson darüber, wo eure Einschätzungen auseinanderliegen – genau dort lohnt sich das Gespräch am meisten."
+   "body": "Geschafft! Deine Einschätzungen sind gespeichert.\n\n- Auf der **Startseite** findest du dein **Kompetenz-Netzdiagramm**: Dort siehst du deine Einschätzungen als Netz – und später auch, was deine Lehrperson eingeschätzt hat.\n- **Wiederhole dieses Modul** etwa alle paar Monate. Erst durch mehrere Einschätzungen zu verschiedenen Zeitpunkten wird sichtbar, wie du dich entwickelst.\n- Sprich mit deiner Lehrperson darüber, wo eure Einschätzungen auseinanderliegen – genau dort lohnt sich das Gespräch am meisten."
   }
  ]
 }
