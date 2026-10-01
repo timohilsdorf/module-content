@@ -1,0 +1,666 @@
+{
+ "version": 1,
+ "hintsHash": "sha256:3f97a88a9faa2a10a1b466ccf173eec39fc35fc2c7efc0f92a3c0bcb66318db6",
+ "segmente": {
+  "title": {
+   "quelle": "sha256:24bb6f68d71e75bd52730ead241aacda715d6a5fda4c627a0efa6b3fe923757d",
+   "text": "Banks: their roles, loans and interest"
+  },
+  "description": {
+   "quelle": "sha256:09ce6745a82c6fdb74ea6aaae698cea7899da7801ca14c79efebd57e31fafeb4",
+   "text": "What does the bank actually do with your savings? Here you will learn about the three core functions of banks, understand interest from two perspectives – as a reward for saving and as the price of borrowing – and calculate for yourself how the bank earns money from the interest rate spread. Finally, you will take a look at Liechtenstein's financial sector, one of the country's most important industries."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:0c4950a7de0cd0fbae76b0776a74695ca1c18cb114d08c5f022349f1743a4330",
+   "text": "Topic C: Money, banks and financial literacy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:676c471bc8dc3d1324133cf087c20aa0137fc02348811e4162c79e560298fb11",
+   "text": "Bank"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:bb271c3cf6f690ae85c4a7caa4a528c804ea2040127ad2817f298fe554b37030",
+   "text": "Deposits"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:a4457bef81066b5e370510663ce521824dd7b53bd21adbfc88cb4d3b2cd8e6f5",
+   "text": "Loan"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:7f5e73a64335062eadad6dfd227651e1c06f07f38cf3a3bfe2dc897729f2e1ea",
+   "text": "Interest"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:9ba4f962b8b640fcdd020e5e11c8499e644d9b5e4f6c3efcc57c7b5d84ac1796",
+   "text": "Savings interest"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:1cdae95e6a2780e0598a5981ab3b32ea6c6a80f209b187eb4979b09eaf0390a8",
+   "text": "Loan interest"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:c896fcf3cbda9716d8aee0f429de16298d2a6ff585c91dbb2eb499f1225a25e5",
+   "text": "Interest rate spread"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:61e84b12d67c3b35a29f43afd7d4c67bb7d49dbad59e51cbc771dae2b49dff72",
+   "text": "Creditworthiness"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:a21fb18ce4f5adadadd61ee91ac830c8ddd5e3aa1c7537eda2d161f7675459f0",
+   "text": "Payment processing"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:4166d00bd9f697e1ae1f0f2d2955312103662c253d54a4d558291ac70f5ad5f2",
+   "text": "Liechtenstein's financial sector"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:477d2a07b1bd7a185a76c85dfe91b4f37475a040786123bc218673cbcd311b58",
+   "text": "I can name the three core functions of banks: accepting deposits, granting loans and processing payments."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:f4d1b6f1e407a11d8dad48d163ea9f221a3b6e30a3055e7aac43ba1b753b2b92",
+   "text": "I can explain interest from two perspectives – as a reward for saving and as the price of borrowing – and describe the interest rate spread as the bank's business model."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:552304f59d9cddd8d9c2367593869508654a7e5e8270a3466b12178c3a2da1c7",
+   "text": "I can explain why the bank checks creditworthiness before granting a loan."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:7c820ff511fb5988cce2e5af93eac99124f918246a5b6917b1ede631c6de85a5",
+   "text": "I can identify Liechtenstein's financial sector as an important part of the country's economy."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:e4b3987e3811330e0b147aa41db1d1c0c6608a7dd63e14b4c90766ff5eac4e91",
+   "text": "What does the bank do with your money?"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:0a43d0565bc6e97c40451f4a9f6b617b30c21a569c7ea9d0322ae77e96404804",
+   "text": "Your earnings from your holiday job are in your youth bank account. But are they really sitting there – like a bicycle in the cellar? No: the bank puts this money to work. In [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]], you learnt about banks as participants in the circular flow of the economy – and you were promised that you would look at how banks earn money and what a loan costs ‘later, in the module on banks’. This is where you are now.\n\nBanks have **three core functions**:\n\n1. **Accepting deposits:** They collect savers' money – your earnings from your holiday job, your grandparents' savings, the club's money from its festival. This money is called a **deposit**.\n2. **Granting loans:** They lend the money they have collected to those who currently need more than they have – a bakery for a new oven, a family for a house, a company for machinery. The money borrowed is called a **loan**.\n3. **Processing payments:** They move deposit money from one account to another – your wages come in, your mobile phone bill goes out, and your card payment in a shop is debited from your account. Without this third function, you would hardly be able to pay for anything today.\n\nThe bank is therefore a **hub**: savings flow in on one side and loans flow out on the other. This connects people who have money to spare with people who need money – and your savings may indirectly be in your bakery's oven."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:0d0d2d9af3cdfdaf7d799a480189f4c9c4141831572b6b15676d0bf7c86b178e",
+   "text": "Interest: both a reward and a price"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:e78e7643577d221599b7bfdbbdc3623bc8b4af24eec99a19fae6f248183c6e94",
+   "text": "Why do savers bring their money to the bank in the first place – and why does the bank not lend it out for free? The answer is **interest**. It has two sides, depending on which side you are on:\n\n- **For savers, interest is a reward:** Anyone who lets the bank use their money receives a small percentage credited to their account each year – **savings interest**.\n- **For borrowers, interest is a price:** Anyone who borrows money pays a percentage each year – **loan interest**. Borrowing money costs something, just like renting a flat.\n\n**Let's work through this – with simple annual interest on CHF 1000:**\n\n- You put **CHF 1000** into a savings account at **1 %** savings interest: after one year, you receive 1 % of 1000 = **CHF 10** in interest.\n- The bakery borrows **CHF 1000** at **4 %** loan interest: it pays the bank 4 % of 1000 = **CHF 40** in interest per year.\n\nThe formula behind this is simple: **Interest = amount × interest rate**. (The interest rates here are examples – actual rates change all the time.)\n\nNow you can see the **bank's business model**: it pays savers 1 % and charges borrowers 4 %. The **interest rate spread** of 3 percentage points stays with the bank – it uses this to pay for staff, branches and computers, and what is left is its profit. Loan interest is also higher because the bank takes a **risk**: not every loan is repaid in full."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:5959122b6e65796dfc39f5b21d0b07f477d9d0a968e1c46e57210f1ff9892ad2",
+   "text": "Video: How does banking work?"
+  },
+  "blocks[2].description": {
+   "quelle": "sha256:73b3a383b5cfd33ce9a93495185243f484d7058ca33c31582aecd614ec291686",
+   "text": "The explanatory video (3:17) from Duale Hochschule Baden-Württemberg (DHBW) Stuttgart gives an overview of banking. As you watch, focus on two questions: (1) Which two sides of banking are shown – who brings money to the bank, and who borrows it? (2) How does the bank earn its money? Compare the answer with the interest rate spread explained in this module."
+  },
+  "blocks[2].transcript": {
+   "quelle": "sha256:1b165d8007da32b1fc1d4d83d609f1efed02c237862422d35ede1dc3236a76f8",
+   "text": "The explanatory video from DHBW Stuttgart (3:17 minutes, a student project from the BWL-Bank degree programme) explains the core functions of banking using simple examples: customers bring their money to the bank as deposits (the liabilities side), and the bank lends this money out as loans (the assets side). The interaction between the two sides shows how interest arises – and that the bank earns money from the difference between higher loan interest and lower savings interest (the interest rate spread). The video is factual and contains no financial advice."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:110b2ccc18c4b275c5f827c20994c462e9bba5eda823c54ba1414640485c23f0",
+   "text": "The bank as a hub: an overview"
+  },
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:18cf9bd4eea996a00cddb8c23c524ad456aea681ba1aa3bcb0c312b09179028c",
+   "text": "The bank as a hub"
+  },
+  "blocks[3].szene.elemente[1].text": {
+   "quelle": "sha256:9d33947d1b26a60ecf77bc8d6645843a024d98b9ffda55210dc29a91cd2bbcf8",
+   "text": "It connects savers and borrowers – and earns from the interest rate spread"
+  },
+  "blocks[3].szene.elemente[9].text": {
+   "quelle": "sha256:056ff733ffd633a3736520960374f16e22a2348988306241bd08a112da07bd06",
+   "text": "CHF 10 per CHF 1000 per year"
+  },
+  "blocks[3].szene.elemente[10].text": {
+   "quelle": "sha256:2d2d97ebf3c3ff9998e264216a2518202f190bc8e8a2c7829da670b038bf6052",
+   "text": "CHF 40 per CHF 1000 per year"
+  },
+  "blocks[3].szene.elemente[12].text": {
+   "quelle": "sha256:c61e630bd87a6ff9280210f3a26387a05baf250253dcacb1adc536daf0b8fb58",
+   "text": "The bank's business model: the interest rate spread"
+  },
+  "blocks[3].szene.elemente[14].text": {
+   "quelle": "sha256:afba2418d6aec23dc4b24c079b26350d3715faa050fa131943ad0b6962f4255a",
+   "text": "−"
+  },
+  "blocks[3].szene.elemente[16].text": {
+   "quelle": "sha256:380918b946a526640a40df5dced6516794f3d97bbd9e6bb553d037c4439f31c3",
+   "text": "="
+  },
+  "blocks[3].szene.elemente[18].text": {
+   "quelle": "sha256:1ad9eb916f0b63628ee6dd9cac87aa9862004d0cc9dd50e341cbc97f026ffbc1",
+   "text": "This pays for the bank's staff, branches and computers – and its profit. (Example figures)"
+  },
+  "blocks[3].szene.elemente[21].text": {
+   "quelle": "sha256:2307d50533bc78e12c348094ebf8ae2dafa0a7a6d1dca49b93eb0097fee1fb6e",
+   "text": "Orange dashed arrows = money flows. Simplified model."
+  },
+  "blocks[3].szene.elemente[22].text": {
+   "quelle": "sha256:a15ed9e0cb4686fa8f8cde21de2d3ba8df9a7639b1e6f2d6669aa2c85e958848",
+   "text": "Savers\nbring money to the bank\n\n• you with your holiday job pay\n• grandparents with savings\n• the club with its festival funds"
+  },
+  "blocks[3].szene.elemente[23].text": {
+   "quelle": "sha256:3cc01b3a099529c5fbbc6d7c0102860d1e7dacaacd742df86d0e557d76e3f0da",
+   "text": "Bank\nthe hub\n\n• accepting deposits\n• granting loans\n• processing payments\n\nchecks creditworthiness\nbefore every loan"
+  },
+  "blocks[3].szene.elemente[24].text": {
+   "quelle": "sha256:505f61285e07dc54fe901d4c8a7b3b48c768589adf6ef4ea9c15bdcbf2c42406",
+   "text": "Borrowers\nborrow money from the bank\n\n• the bakery for an oven\n• a family for a house\n• a company for new machinery"
+  },
+  "blocks[3].szene.elemente[25].text": {
+   "quelle": "sha256:53c4f28f62a75c58f4595f04c23d42e9c2d85097619f323a0c5cf2efdd5bddc5",
+   "text": "Deposits (savings)"
+  },
+  "blocks[3].szene.elemente[26].text": {
+   "quelle": "sha256:5e36f03d90ea23c0fc160e768947dbc3bf45d754915b25b373470ab3e6ca1379",
+   "text": "Loans"
+  },
+  "blocks[3].szene.elemente[27].text": {
+   "quelle": "sha256:274c5d7e1271d26038891442901caa56344be2d077889fbc4c90987c7c34eaeb",
+   "text": "Savings rate e.g. 1 %"
+  },
+  "blocks[3].szene.elemente[28].text": {
+   "quelle": "sha256:a6effc4246939ebcfc04a9c508856be33893e6f5f5fd6db028cfc1dbc7dfcaae",
+   "text": "Loan interest e.g. 4 %"
+  },
+  "blocks[3].szene.elemente[29].text": {
+   "quelle": "sha256:46bdc936401659ed88fa01a46a2a8d7034250e2bbe1d71baa857eb0e59ee64fa",
+   "text": "Loan interest 4 %"
+  },
+  "blocks[3].szene.elemente[30].text": {
+   "quelle": "sha256:23853ca7dacfbb8c6194c95c7a509c168f5cf9a0330ef81b07e29e1eb5765649",
+   "text": "Savings interest 1 %"
+  },
+  "blocks[3].szene.elemente[31].text": {
+   "quelle": "sha256:804f927a6adfc1c0cd5f5d42810620fa2da57cd303054897ab2bb8177df81e1f",
+   "text": "Interest rate spread 3 percentage points"
+  },
+  "blocks[3].szene.elemente[32].text": {
+   "quelle": "sha256:97b587f32a2aed6c2dab9c080e03a46c2c3f2a73fbf1a53f320236e47e44e698",
+   "text": "Third core function – processing payments:\nThe bank moves deposit money from account to account: wages come in, the mobile phone bill goes out, the card payment in the shop is debited."
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:50a7daa53b65f9dd3092cc040790d9b60f2c86ba940e3e995e1d7594de2c400e",
+   "text": "The diagram ‘The bank as a hub’ explains how the bank connects savers and borrowers and earns money from the interest rate spread: savers (you with your holiday job pay, grandparents with savings, the club with its festival funds) bring their money to the bank as deposits, and the bank lends this money to borrowers (the bakery for an oven, a family for a house, a company for new machinery). The bank pays savers savings interest on their deposits (e.g. 1 %, or CHF 10 per CHF 1000 per year), and charges borrowers higher loan interest on their loans (e.g. 4 %, or CHF 40 per CHF 1000 per year) – and checks creditworthiness before every loan. Key points: (1) The bank has three core functions: accepting deposits, granting loans and processing payments. (2) Its business model is the interest rate spread: loan interest of 4 % minus savings interest of 1 % gives 3 percentage points (example figures) – this pays for the bank's staff, branches and computers, as well as its profit. (3) Third core function, processing payments: the bank moves deposit money from account to account – wages come in, the mobile phone bill goes out, the card payment in the shop is debited. (4) The orange dashed arrows represent money flows – the colours and arrows have the same meaning as in the extended circular flow of the economy in [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]; this is a simplified model."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:b260b8b501ca8c0339aa2ef49b4d559949e7adea3d3c1e9e0174d82059a6d0d6",
+   "text": "Creditworthiness: who does the bank lend money to?"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:b4f59dfc2777c322ec37ad5b724949e3125e9faa0a33efdf02a34507be56156d",
+   "text": "The bank does not lend its own money – it mainly lends the money that **savers have entrusted to it**. That includes your earnings from your holiday job. This is why it cannot afford to be careless: before granting a loan, it checks **creditworthiness** (also called **credit standing**) – the question is: *Can and will this person or company repay the money plus interest?*\n\nTo do this, the bank looks at things such as:\n\n- **income**: are wages or business profits enough to cover the instalments?\n- **existing debts**: someone who already has lots of loans carries a higher risk.\n- **past payment behaviour**: have previous bills and loans been paid reliably?\n- for companies: the **business plan** – is the new oven actually worth buying?\n\nIf the assessment is poor, there are consequences: the bank **rejects the loan application** – or charges **higher interest** because it is taking a greater risk. This may seem strict, but it protects both sides: savers from losing their money, and borrowers from taking on debts they cannot afford. You will look at what happens when debts still get out of hand in [[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]]."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:8f2b9a2cbd873ea0ca9569f60fd59616ba3aa0111231091eace9ba6e7f3dc52b",
+   "text": "Liechtenstein's financial sector"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:d81e831ac89c72aa901b2ac8c52b4656254e3ea7c5af86734caa444c0d0b4166",
+   "text": "For Liechtenstein, banks are much more than useful service providers – they are a **key industry**. A few figures give you an idea of the scale:\n\n- Liechtenstein has **11 banks** – a remarkably large number for a country with just over 40 000 inhabitants.\n- The financial sector (banks, insurance companies and trust services) generates **just over a fifth** of the country's total economic output – only industry contributes more.\n- Liechtenstein's banks manage client assets of **over 500 billion francs** – many times what the small country itself produces. Many customers come from abroad.\n\nWhy Liechtenstein in particular? Reasons include the **stable currency** (the Swiss franc from [[modul:wirtschaft-politik-10-geld-funktionen-geschichte]]), political stability, membership of the European Economic Area (EEA) – and a great deal of **trust** built up over time: when it comes to money, reliability matters more than anything else.\n\nFor you, this has a very practical meaning: the financial sector offers many **jobs and apprenticeships** – for example, a commercial apprenticeship at a bank. You do not need detailed knowledge of banking products yet; what matters is the overall picture: banks are to Liechtenstein what a large factory is to other regions – a pillar of the economy."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:d857377c2258b270bbe03b75711d6cf4168d2c4dbf43603bb58f68d19027560d",
+   "text": "Quiz: banks, loans and interest"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:1f53a400fbead2d308f1be6bfda0935bf7c3f887f56d735d45b101b866df737a",
+   "text": "Show that you understand banking. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:6db13e0b8ca1cf17098b0f20ecc9df383dd48b0aa39aeb52d73dd73445d50e01",
+   "text": "What are a bank's three core functions?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:57b652c296678dfcd34bf4ce1416c925c7baf39d234ac786e67e0c271a1d1ca4",
+   "text": "Printing money, collecting taxes and setting wages."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:6e10e90e9ad8f47c96c0bd175fdaa5a089f735fc2e846b3c32abd14db3026cfe",
+   "text": "Recommending shares, storing gold and exchanging cash."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:6d738ec24f71491612662f325f8f7e356a60574c18d317cba4ad4d1d6301dbee",
+   "text": "Banning saving, controlling prices and minting coins."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:eb98b4d3849f48f3bfde76fdd812e9c4a9b772df9e955bc2b9e16cd40f44cfb9",
+   "text": "Accepting deposits, granting loans and processing payments."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:e35690335fcc91c4d796693464dd2a86707b2f2cef0ad4c580bc20f15f469d26",
+   "text": "The three core functions are accepting deposits (savers' money), granting loans (lending money) and processing payments (moving deposit money from account to account). Only the national bank may issue banknotes, the state mints coins, and the state also collects taxes – common mix-ups. Recommending shares or storing gold are, at most, additional activities, not the core business."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:2b6596122147cb986bb3d4932d7ed8fe3d5ca6cd9a166cbdb831bb4b5d4e320c",
+   "text": "What does interest mean, depending on which side you are on?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:84743e2e17324f80f4cf929411e7e13c4c8e5e0f15dc21c3b9ffcd2e660f9878",
+   "text": "For savers, it is the reward for letting the bank use their money – for borrowers, it is the price of borrowing money."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:f903d96f275941ea9c87dc06b2b0b19f9bced03f7da1d6085c50eeb1e3b513ef",
+   "text": "For everyone involved, it is a fee that the state charges on banking transactions."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:547fa2fd1a327ec790347b101304b58116a120ef36393cbe6cfe5c90b5d4744d",
+   "text": "It is the fee you pay the bank to open an account."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:e90730dd34ed3535435c37c3659d6863ce3bf508e2460e1c669e926fe5bba7c8",
+   "text": "It is the amount the bank gives every customer as a gift each year."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:05b870a87bdfe5386f213be25cf9bdff27a2b57b51c164cf702f786449840aab",
+   "text": "Interest has two sides: a reward for saving (savings interest) and the price of borrowing (loan interest). It has nothing to do with the state – interest rates are not set by the tax office. Nor is it an account opening fee. And it is certainly not a gift: you only receive savings interest because the bank can put your money to work – and you pay loan interest to the bank."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:9306189357ab11579e0caaf9f5d62fb3488eb27285e8157a526168afedfb1fec",
+   "text": "You invest CHF 1000 at an annual interest rate of 2 %. How much interest do you receive after one year?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:8c1439938432bbbf7bd1c898f7ad4ba5ce9cd258c47876a9768d6abc2b5db02d",
+   "text": "CHF 2."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:6bd596d47c02f962c26b60f5304032d55de6e1684099a9fa7f12d4a24fe51d35",
+   "text": "CHF 200."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:e24b842e89e99dbe1d3094c3027bab5edb04af033f5353fd3b6f53d2a14832d1",
+   "text": "CHF 20."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:24b033f66deb8c69045d5d4e13ffd36187f5b6d11843911ba1a32fb618589f88",
+   "text": "CHF 1020."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:7aa6b93933f90e03e13760ecd52613a38afd73eb1e05c2519cad4ba55938f839",
+   "text": "Interest = amount × interest rate: 1000 × 2 % = 1000 × 0.02 = CHF 20. If you calculated CHF 2, you confused 2 % with ‘2 francs’; if you got CHF 200, you used 20 % instead of 2 % – a classic decimal point error. And CHF 1020 is your new account balance (the amount plus interest), not the interest itself – the question asked for the interest."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:9d41d41afbd45716c89438a4cfb30d21def7b16270ecdee9997508ec6b29c902",
+   "text": "The bank pays 1 % savings interest and charges 4 % loan interest. Why is this difference so important to the bank?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:ce36beac87da2d56d967c3472567f646714b8a2fab21721871cda1eb9fc5086f",
+   "text": "It is a mistake – both interest rates should actually be the same."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:a15ac44459170a419b90769d5dcba729d13a2a0623095bff4e340409f1aa8150",
+   "text": "The interest rate spread is the bank's business model: it uses this to cover its costs and earn its profit."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:484c154f5823ffdf6bdb5f66f0b4f6981c36ba8a7a568b8b5fbc019b46a5412f",
+   "text": "The bank must pay the entire difference to the state as tax."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:bc89fec81b341360a35ec4f80829b9c258a8089a4ee50a28b16a319e7d201f16",
+   "text": "The difference is shared equally among all savers at the end of the year."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:4ef4426255d5be0231e0afbcd51ef2d585b5e35e7a6f238d44765c8fb797b711",
+   "text": "This difference is exactly what the bank lives on: it takes in 4 % and pays out 1 % – the remaining 3 percentage points pay for staff, branches and IT, and what is left is profit. So it is deliberate, not a mistake – if both rates were the same, the bank could not exist. The difference is neither paid to the state as tax nor shared among savers."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:0bef82632f84fb3cd222775a539c940923666e536060853cee9c9b5d11122c67",
+   "text": "Why does the bank check creditworthiness before granting a loan?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:341428ea2486315dfb1c689e5a1bc8def805a7d422a88a580eb173316e5f373b",
+   "text": "Because it mainly lends savers' money and therefore needs to check whether it will be repaid with interest."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:c95d790abbe757c4306c4ab06cf2547558edc394a1cc7c6833053b2ed008cbfe",
+   "text": "Because it only ever wants to lend to rich people."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:20c60fa21fe02bc8c67dc79dd7df5c46d77a635c41b1dafc225552634bb2dc94",
+   "text": "Because the law actually prohibits all lending."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:3c6474ea8e3a2d3fa96ed2cf4de30fdd20eb39319a04914b69eeb2253636cb3a",
+   "text": "Purely out of curiosity – the information has no effect on the decision."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:31fe508ed424e2f7983fc3546fbee01ff255240a4aaf182972ecf96977fc2f94",
+   "text": "The bank lends money entrusted to it – including your savings. This is why it needs to check whether income, existing debts and payment behaviour suggest that the loan will be repaid. This has nothing to do with ‘only for rich people’: what matters is affordability, not wealth. Lending is, of course, not prohibited – it is a core function. Nor is it curiosity: the assessment directly determines the decision and the interest rate."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:83dfe031dc5d378fc163139f137b99728559b17d41f8d4ef3ebb0840f4cf2e3f",
+   "text": "The assessment finds that a person has low creditworthiness. What typically happens?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:19951237caa44add049937dac9f184e7a9ec7c9993c6b371785d4f2f64c80b0e",
+   "text": "The bank grants the loan anyway at a particularly low interest rate."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:8794b87774cbfebd262ba7fa2918136bf6ec20a397cd905688e3f898942c2317",
+   "text": "The person is never allowed to open a bank account again."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:f60a5b4507687e56a88bb86d333c02768608e81a95ac8bacaa6bbacb494503c2",
+   "text": "The state automatically takes over the loan."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:eaece747d69f60f7d02517bdf31ceb8fdf063a96c055f6d8d6c2b6d484d6a2cf",
+   "text": "The bank rejects the loan application – or charges higher interest because of the higher risk."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:56d3b84e863ef2d96e142e53bf017669d033c22069577d7f5fe7254e68982d1f",
+   "text": "Low creditworthiness means a higher risk for the bank – it then says no or charges higher interest to compensate for that risk. A particularly low interest rate would be the opposite of what banks do. This does not lead to a ban on having an account – holding an account and getting a loan are two different things. And the state does not automatically step in for private loans."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:5ee6776168c22a10abf1e6449f5352e701b5121bc3005f37d4663f19e61a59f8",
+   "text": "Which is an example of the core function ‘processing payments’?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:c832034bf3ab4c3a408b17880b277ef65e1371152b800592d84a7f64c2e9028f",
+   "text": "The bank grants the bakery a loan for a new oven."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:4b2cdc7acdac35ea5da1d2d10d6f44979c8b5bf9b3f2c5be4e7a5c843198d810",
+   "text": "The bank carries out your transfer to pay your mobile phone bill."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:23bb2e1d708f568847b1aaecbf51f2fc700f151f02d77083c980741e8b383fad",
+   "text": "The bank prints new banknotes when cash runs short."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:23b58022d903aa881476c7140531ff0a9cb7db9690f20f6e6b280df5d64e3640",
+   "text": "The bank decides how much your apprenticeship employer must pay you."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:c78bf125eeb5854144586b457bab895ab4e4f617da8b179917f276a6d2049ae3",
+   "text": "Processing payments means moving deposit money from account to account – your transfer is the classic example. The oven loan belongs to the core function ‘granting loans’, not payment processing. Only the national bank may print banknotes – one of the most common mix-ups of all. And you negotiate your wages with your apprenticeship employer; the bank only transfers them."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:8380c4e7d2af8fbf720ff4cce9acf3d6d3349b43a70a1b7f0f58b46ba36a9441",
+   "text": "Which statement about Liechtenstein's financial sector is correct?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:493651df8b39977941798d6820f7bc1fdee4621d8137e1d5029aae06feb7f38c",
+   "text": "Liechtenstein has no banks of its own – all accounts are held in Switzerland."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:5ac4ba8be45cbc87028a79e4759dd132fcbdf26d6c6ec0e47141a0b9eb055335",
+   "text": "The financial sector is the country's only industry."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:4456d0541c540aede07b86df9ed4ea9c9700bcab42d8dcd730f840ece1d512f2",
+   "text": "The financial sector generates just over a fifth of economic output, making it one of Liechtenstein's most important industries."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:a6a5ec091fe842f9db6ba80a41de6afcc99abd418e30dbd9ef91260691de434f",
+   "text": "Liechtenstein's banks may only exchange cash, not grant loans."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:32af8a256a06f338a944dcfe1d22377779a55daea58a8eb181c70c2b868648c2",
+   "text": "The financial sector contributes just over a fifth of economic output – a great deal for such a small country, with 11 banks and over 500 billion francs in client assets under management. So it certainly does have banks of its own. But this is not the only industry: the industrial sector contributes even more – Liechtenstein is both an industrial and a financial centre. And, of course, the banks also grant loans – it is one of their core functions."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:e811d6b2e628ab6be7cb5e68880c98620369dd1712cfd243dd2d283d864c38c2",
+   "text": "Fill in the terms: banking"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the appropriate terms into the gaps (on a mobile: tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:3f41a30494c6b2c74b4ebf338d646c918619f0f4453bef0ccf300dc564367c84",
+   "text": "Type in the answers: calculating interest"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:0c4260e96732774219a17cc72a66999c8951e76045d39c74b5885b37e39c3f1f",
+   "text": "There is no word bank here – **type in the missing numbers and terms yourself**. For the numbers, just enter the number without ‘CHF’. Capitalisation does not matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:b60b9d762cd0ca56944d14a1b39d8ed3ea20b5fc51a4edf4254b219e74f9e6d8",
+   "text": "Match each situation to the bank's core function"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:0ccf2c95facc2b81edaf42d9cc579b037933e197b5ad770848d1243163ce43e6",
+   "text": "Match each situation to the appropriate core function: **Deposits** (accepting them), **Loans** (granting them) or **Payment processing**. Each function appears several times."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:9f1c79157736ec036d548f8dd4a1afb7c50ff38e457c30bab079566a36c79e17",
+   "text": "Explore further: you and your bank"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:7ddc7f099101505938c9b696367910d73ef254305f2fcd24fcecb76812da631e",
+   "text": "Work it out yourself: (a) You invest CHF 600 from your holiday job at 1 % annual interest – how much interest do you receive after one year? (b) Your neighbour borrows CHF 3000 for an e-bike at 6 % annual interest – how much interest does she pay in the first year? (c) Explain in one sentence why loan interest is almost always higher than savings interest."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:7f577decb78c7a1acace5d42020a2b99252992bf99593358aed4bc44d8ce8660",
+   "text": "The formula: interest = amount × interest rate. Write the percentage as a decimal (1 % = 0.01, 6 % = 0.06). For (c): what does the bank live on – and what risk does it take with every loan?"
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:1bb209ff448cfd6a9bd02dcc0aef3a80c3a3671270d2c3e841b76c5e18e485fd",
+   "text": "(a) 600 × 0.01 = CHF 6 in interest. (b) 3000 × 0.06 = CHF 180 in interest in the first year. (c) Loan interest must be higher than savings interest because the bank lives on the interest rate spread – it uses this to cover its costs and make its profit – and because lending carries a risk: not every loan is repaid in full."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:732715800dfecd6291053c4277f1151320683730ce09f95912ce161ce96deb27",
+   "text": "Think about this and explain your reasoning: why is it also important for you as a saver that the bank carefully assesses loan applications and does not lend money to everyone?"
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:e0f036dffa56dff04675361aff144012aec022103ea01ea89ace7a28b604e210",
+   "text": "Whose money does the bank actually lend? And what would happen if lots of loans were not repaid?"
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:b96392db9cf6285a4aeb24ff934c12c190bafae974c063d7d1597b574d467419",
+   "text": "The bank mainly lends savers' money – including yours. If lots of loans went unpaid because the bank had lent carelessly, the bank itself would get into difficulties – putting the money entrusted to it by its customers at risk. Carefully checking creditworthiness therefore protects not just the bank, but all savers as a group. (It also protects borrowers from taking on debts they cannot afford.)"
+  },
+  "blocks[10].tasks[2].prompt": {
+   "quelle": "sha256:b1f0f015aedb8f604dc268cebd1d74adf420ae96e241572ef4d39c8f63a91a58",
+   "text": "A little research into the financial sector: find out which banks operate in Liechtenstein (three are enough) and whether they offer apprenticeships – for example, a commercial apprenticeship. Write down what would appeal to you about working at a bank – or what would not – and explain why."
+  },
+  "blocks[10].tasks[2].hint": {
+   "quelle": "sha256:4258c93e9ce3032b8c2a7873ea2cf76336fb61fab41f82564c21bbf93b45e15b",
+   "text": "Starting points: the Liechtensteinischer Bankenverband website (bankenverband.li) or the banks' own apprenticeship pages. You can find the country's three largest banks in a few minutes."
+  },
+  "blocks[10].tasks[2].solution": {
+   "quelle": "sha256:bc217c560fa0bfccacb5845429dbaacd264ca05720a47f43f598872a48499294",
+   "text": "Examples of banks in Liechtenstein: LGT, Liechtensteinische Landesbank (LLB) and VP Bank – there are others too, making 11 banks in total. The large banks regularly train apprentices, typically in commercial roles (Kauffrau/Kaufmann EFZ, banking sector), and sometimes in IT. Whether this appeals to you is up to you – a good explanation names specific aspects such as customer contact, numbers and accuracy, digitalisation, or a desire to do something completely different."
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:fd035ffbc9666b352657acda30cb8455a47d483e7ff1c32071a2d5ba82217789",
+   "inhalt": {
+    "text": "Banks have three core functions: they accept {{1}}, grant {{2}} and process {{3}}. The bank is therefore a {{4}} between savers and borrowers.\nSavers receive {{5}} – the reward for letting the bank use their money. Borrowers pay the higher {{6}} – the price of borrowing. The difference between the two is the bank's {{7}}: it uses this to cover its costs – what is left is its profit.\nBefore the bank lends money, it checks {{8}}: can this person {{9}} the money plus interest? This is important because the bank mainly lends the money that {{10}} have entrusted to it.",
+    "luecken": [
+     [
+      "deposits",
+      "bank deposits"
+     ],
+     [
+      "loans",
+      "bank loans",
+      "credit"
+     ],
+     [
+      "payments",
+      "payment transactions",
+      "bank payments"
+     ],
+     [
+      "hub",
+      "financial hub",
+      "link",
+      "go-between"
+     ],
+     [
+      "savings interest",
+      "interest on savings",
+      "deposit interest",
+      "interest on deposits"
+     ],
+     [
+      "loan interest",
+      "interest on loans",
+      "lending interest",
+      "borrowing interest"
+     ],
+     [
+      "business model"
+     ],
+     [
+      "creditworthiness",
+      "credit worthiness",
+      "credit-worthiness",
+      "credit standing",
+      "credit rating"
+     ],
+     [
+      "repay",
+      "pay back",
+      "return"
+     ],
+     [
+      "savers",
+      "the savers",
+      "depositors",
+      "the depositors"
+     ]
+    ],
+    "ablenker": [
+     "taxes",
+     "dividend",
+     "exchange rate"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:80406b130b46b8fd9f07c5657982e68df0569b35249ef118d445c27fa1653178",
+   "inhalt": {
+    "text": "You put CHF 1000 in the bank; the savings interest rate is 1 per cent. After one year, CHF {{1}} in interest is credited to your account. At the same time, the bank lends the bakery CHF 1000 at 4 per cent loan interest – so the bakery pays it CHF {{2}} in interest per year. The bank covers its costs from the {{3}} between loan and savings interest – and what is left is its profit. Whether someone gets a loan at all depends on their {{4}}. And the fact that banks in Liechtenstein help generate just over a fifth of the country's economic output shows that the {{5}} is one of its most important industries.",
+    "luecken": [
+     [
+      "10",
+      "ten",
+      "10.0",
+      "10.00",
+      "10,0",
+      "10,00"
+     ],
+     [
+      "40",
+      "forty",
+      "40.0",
+      "40.00",
+      "40,0",
+      "40,00"
+     ],
+     [
+      "difference",
+      "interest rate spread",
+      "interest spread",
+      "spread",
+      "interest rate difference",
+      "difference in interest rates"
+     ],
+     [
+      "creditworthiness",
+      "credit worthiness",
+      "credit-worthiness",
+      "credit standing",
+      "credit rating"
+     ],
+     [
+      "financial sector",
+      "finance sector",
+      "financial centre",
+      "financial center",
+      "banking sector",
+      "banking centre",
+      "banking center",
+      "financial hub",
+      "banking hub"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:ac174c00aed5b1ccb3ebfe2bbafa72a6281e7cc5239bf28ad07657eeca8a98ff",
+   "inhalt": {
+    "text": "You pay the money from your holiday job into your youth bank account. {{1}}\nThe bakery finances its new oven through the bank. {{2}}\nYour apprenticeship employer transfers your wages into your account. {{3}}\nYour grandmother puts her savings into a savings account. {{4}}\nA married couple borrows money from the bank to buy a house. {{5}}\nYou pay your mobile phone bill through online banking. {{6}}\nThe sports club puts the proceeds from its festival into the club's account. {{7}}\nA joinery business borrows money from the bank for a new machine. {{8}}\nYour card payment in a shop is debited from your account. {{9}}",
+    "luecken": [
+     [
+      "Deposits",
+      "Deposit",
+      "Accepting deposits",
+      "Taking deposits",
+      "Deposit taking",
+      "Deposit-taking"
+     ],
+     [
+      "Loans",
+      "Loan",
+      "Credit",
+      "Lending",
+      "Granting loans",
+      "Making loans"
+     ],
+     [
+      "Payment processing",
+      "Processing payments",
+      "Payments",
+      "Payment transactions"
+     ],
+     [
+      "Deposits",
+      "Deposit",
+      "Accepting deposits",
+      "Taking deposits",
+      "Deposit taking",
+      "Deposit-taking"
+     ],
+     [
+      "Loans",
+      "Loan",
+      "Credit",
+      "Lending",
+      "Granting loans",
+      "Making loans"
+     ],
+     [
+      "Payment processing",
+      "Processing payments",
+      "Payments",
+      "Payment transactions"
+     ],
+     [
+      "Deposits",
+      "Deposit",
+      "Accepting deposits",
+      "Taking deposits",
+      "Deposit taking",
+      "Deposit-taking"
+     ],
+     [
+      "Loans",
+      "Loan",
+      "Credit",
+      "Lending",
+      "Granting loans",
+      "Making loans"
+     ],
+     [
+      "Payment processing",
+      "Processing payments",
+      "Payments",
+      "Payment transactions"
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1404 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-12-banken-kredit-zins --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:eea240f4b32a619a75bfe105370844e3ce2eed3d105aeb04456eb24324bc7496",
+  "masterCommit": "68c1efe",
+  "hintsHash": "sha256:3f97a88a9faa2a10a1b466ccf173eec39fc35fc2c7efc0f92a3c0bcb66318db6",
+  "generatedAt": "2026-10-01",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-module-12-en.json",
+  "selfHash": "sha256:74e1bd2246d6b633eb765f20bd09832dba003faffa2252f4afd121fd8c98fd5b"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-12-banken-kredit-zins",
+ "title": "Banks: their roles, loans and interest",
+ "description": "What does the bank actually do with your savings? Here you will learn about the three core functions of banks, understand interest from two perspectives – as a reward for saving and as the price of borrowing – and calculate for yourself how the bank earns money from the interest rate spread. Finally, you will take a look at Liechtenstein's financial sector, one of the country's most important industries.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.3",
+     "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+     "code": "WAH.5.2",
+     "description": "Die Schülerinnen und Schüler können soziale, rechtliche und ökonomische Aspekte im Alltag und im Zusammenleben recherchieren."
+    }
+   ]
+  }
+ ],
+ "sequenz": 12,
+ "einheit": "Topic C: Money, banks and financial literacy",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "Bank",
+  "Deposits",
+  "Loan",
+  "Interest",
+  "Savings interest",
+  "Loan interest",
+  "Interest rate spread",
+  "Creditworthiness",
+  "Payment processing",
+  "Liechtenstein's financial sector"
+ ],
+ "learningObjectives": [
+  "I can name the three core functions of banks: accepting deposits, granting loans and processing payments.",
+  "I can explain interest from two perspectives – as a reward for saving and as the price of borrowing – and describe the interest rate spread as the bank's business model.",
+  "I can explain why the bank checks creditworthiness before granting a loan.",
+  "I can identify Liechtenstein's financial sector as an important part of the country's economy."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Liechtensteinischer Bankenverband",
+   "url": "https://www.bankenverband.li"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-04-erweiterter-wirtschaftskreislauf",
+  "wirtschaft-politik-10-geld-funktionen-geschichte"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "What does the bank do with your money?",
+   "body": "Your earnings from your holiday job are in your youth bank account. But are they really sitting there – like a bicycle in the cellar? No: the bank puts this money to work. In [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]], you learnt about banks as participants in the circular flow of the economy – and you were promised that you would look at how banks earn money and what a loan costs ‘later, in the module on banks’. This is where you are now.\n\nBanks have **three core functions**:\n\n1. **Accepting deposits:** They collect savers' money – your earnings from your holiday job, your grandparents' savings, the club's money from its festival. This money is called a **deposit**.\n2. **Granting loans:** They lend the money they have collected to those who currently need more than they have – a bakery for a new oven, a family for a house, a company for machinery. The money borrowed is called a **loan**.\n3. **Processing payments:** They move deposit money from one account to another – your wages come in, your mobile phone bill goes out, and your card payment in a shop is debited from your account. Without this third function, you would hardly be able to pay for anything today.\n\nThe bank is therefore a **hub**: savings flow in on one side and loans flow out on the other. This connects people who have money to spare with people who need money – and your savings may indirectly be in your bakery's oven."
+  },
+  {
+   "type": "text",
+   "title": "Interest: both a reward and a price",
+   "body": "Why do savers bring their money to the bank in the first place – and why does the bank not lend it out for free? The answer is **interest**. It has two sides, depending on which side you are on:\n\n- **For savers, interest is a reward:** Anyone who lets the bank use their money receives a small percentage credited to their account each year – **savings interest**.\n- **For borrowers, interest is a price:** Anyone who borrows money pays a percentage each year – **loan interest**. Borrowing money costs something, just like renting a flat.\n\n**Let's work through this – with simple annual interest on CHF 1000:**\n\n- You put **CHF 1000** into a savings account at **1 %** savings interest: after one year, you receive 1 % of 1000 = **CHF 10** in interest.\n- The bakery borrows **CHF 1000** at **4 %** loan interest: it pays the bank 4 % of 1000 = **CHF 40** in interest per year.\n\nThe formula behind this is simple: **Interest = amount × interest rate**. (The interest rates here are examples – actual rates change all the time.)\n\nNow you can see the **bank's business model**: it pays savers 1 % and charges borrowers 4 %. The **interest rate spread** of 3 percentage points stays with the bank – it uses this to pay for staff, branches and computers, and what is left is its profit. Loan interest is also higher because the bank takes a **risk**: not every loan is repaid in full."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "2TbNWTe1Q5A",
+   "title": "Video: How does banking work?",
+   "description": "The explanatory video (3:17) from Duale Hochschule Baden-Württemberg (DHBW) Stuttgart gives an overview of banking. As you watch, focus on two questions: (1) Which two sides of banking are shown – who brings money to the bank, and who borrows it? (2) How does the bank earn its money? Compare the answer with the interest rate spread explained in this module.",
+   "transcript": "The explanatory video from DHBW Stuttgart (3:17 minutes, a student project from the BWL-Bank degree programme) explains the core functions of banking using simple examples: customers bring their money to the bank as deposits (the liabilities side), and the bank lends this money out as loans (the assets side). The interaction between the two sides shows how interest arises – and that the bank earns money from the difference between higher loan interest and lower savings interest (the interest rate spread). The video is factual and contains no financial advice."
+  },
+  {
+   "type": "schaubild",
+   "title": "The bank as a hub: an overview",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 445,
+      "y": 0,
+      "width": 291.57,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 406661987,
+      "type": "text",
+      "text": "The bank as a hub",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 287,
+      "y": 48,
+      "width": 497.34,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#456990",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980231757,
+      "type": "text",
+      "text": "It connects savers and borrowers – and earns from the interest rate spread",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "box-sparende",
+      "x": 0,
+      "y": 190,
+      "width": 300,
+      "height": 240,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "#b7d8f2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1122486019,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-bank",
+      "x": 480,
+      "y": 150,
+      "width": 300,
+      "height": 320,
+      "angle": 0,
+      "strokeColor": "#3f6386",
+      "backgroundColor": "#dde6ee",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 362700461,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-kreditnehmende",
+      "x": 960,
+      "y": 190,
+      "width": 300,
+      "height": 240,
+      "angle": 0,
+      "strokeColor": "#4a90c9",
+      "backgroundColor": "#d5e9f9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1627254435,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-einlagen",
+      "x": 310,
+      "y": 250,
+      "width": 170,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 689438989,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        170,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-kredite",
+      "x": 790,
+      "y": 250,
+      "width": 170,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 355344963,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        170,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-sparzins",
+      "x": 480,
+      "y": 370,
+      "width": 170,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 904812397,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -170,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-kreditzins",
+      "x": 960,
+      "y": 370,
+      "width": 170,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 676782563,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -170,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "text-sparzins-chf",
+      "x": 302,
+      "y": 490,
+      "width": 180.46,
+      "height": 17.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1449845197,
+      "type": "text",
+      "text": "CHF 10 per CHF 1000 per year",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "text-kreditzins-chf",
+      "x": 752,
+      "y": 490,
+      "width": 180.46,
+      "height": 17.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1132899715,
+      "type": "text",
+      "text": "CHF 40 per CHF 1000 per year",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "geschaeft-box",
+      "x": 0,
+      "y": 555,
+      "width": 1250,
+      "height": 185,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 531046445,
+      "type": "rectangle"
+     },
+     {
+      "id": "geschaeft-titel",
+      "x": 367,
+      "y": 575,
+      "width": 395.63,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1778124067,
+      "type": "text",
+      "text": "The bank's business model: the interest rate spread",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "pill-kreditzins",
+      "x": 137,
+      "y": 622,
+      "width": 230,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "#b7d8f2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1200394893,
+      "type": "rectangle"
+     },
+     {
+      "id": "op-minus",
+      "x": 380,
+      "y": 636,
+      "width": 13.54,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 858089667,
+      "type": "text",
+      "text": "−",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "pill-sparzins",
+      "x": 405,
+      "y": 622,
+      "width": 200,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "#d5e9f9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 181713133,
+      "type": "rectangle"
+     },
+     {
+      "id": "op-gleich",
+      "x": 618,
+      "y": 636,
+      "width": 13.54,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1151424611,
+      "type": "text",
+      "text": "=",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "pill-differenz",
+      "x": 643,
+      "y": 622,
+      "width": 470,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1393103693,
+      "type": "rectangle"
+     },
+     {
+      "id": "geschaeft-erklaerung",
+      "x": 293,
+      "y": 695,
+      "width": 549.35,
+      "height": 17.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 205411331,
+      "type": "text",
+      "text": "This pays for the bank's staff, branches and computers – and its profit. (Example figures)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "zahlungsverkehr-box",
+      "x": 0,
+      "y": 785,
+      "width": 1250,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "#e8f1fb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 478355885,
+      "type": "rectangle"
+     },
+     {
+      "id": "legende-pfeil",
+      "x": 0.5,
+      "y": 960,
+      "width": 69,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 972741539,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        69,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-text",
+      "x": 90,
+      "y": 950,
+      "width": 356.21,
+      "height": 17.5,
+      "angle": 0,
+      "strokeColor": "#456990",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 476865549,
+      "type": "text",
+      "text": "Orange dashed arrows = money flows. Simplified model.",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a9uq-JytTnxD_79vyNOKV",
+      "x": 79.56,
+      "y": 250,
+      "width": 190.88,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1144774435,
+      "type": "text",
+      "text": "Savers\nbring money to the bank\n\n• you with your holiday job pay\n• grandparents with savings\n• the club with its festival funds",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-sparende",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ltQl-G5K2LMOeRD-lowSe",
+      "x": 531.12,
+      "y": 220,
+      "width": 187.76,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#3f6386",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 744096451,
+      "type": "text",
+      "text": "Bank\nthe hub\n\n• accepting deposits\n• granting loans\n• processing payments\n\nchecks creditworthiness\nbefore every loan",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-bank",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "VPPOdcB9YDOT16UXIOGQR",
+      "x": 970.23,
+      "y": 250,
+      "width": 209.53,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#2e6999",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 540193379,
+      "type": "text",
+      "text": "Borrowers\nborrow money from the bank\n\n• the bakery for an oven\n• a family for a house\n• a company for new machinery",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-kreditnehmende",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "TjQuTrKDdw2OCR9jar5LY",
+      "x": 315,
+      "y": 214,
+      "width": 115.95,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1620340227,
+      "type": "text",
+      "text": "Deposits (savings)",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "L3wbZjpLlqNltGKE-LurP",
+      "x": 795,
+      "y": 214,
+      "width": 47.98,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1372645603,
+      "type": "text",
+      "text": "Loans",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "JmBKyuccIXa6BPBEqi_sk",
+      "x": 315,
+      "y": 382,
+      "width": 118.2,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 921227203,
+      "type": "text",
+      "text": "Savings rate e.g. 1 %",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "NIOP3UluIFS-wXcPfN80j",
+      "x": 795,
+      "y": 382,
+      "width": 129.75,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 671326883,
+      "type": "text",
+      "text": "Loan interest e.g. 4 %",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "CcepUG_HG7BvvjUNj7P01",
+      "x": 198.01,
+      "y": 638.75,
+      "width": 107.97,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 75030915,
+      "type": "text",
+      "text": "Loan interest 4 %",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pill-kreditzins",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "gtNf0PxHzlcKJjW7T7_f8",
+      "x": 457.51,
+      "y": 638.75,
+      "width": 94.98,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 914864419,
+      "type": "text",
+      "text": "Savings interest 1 %",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pill-sparzins",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "CfLHXRUZ2lhz14ZbmTUcj",
+      "x": 768.69,
+      "y": 638.75,
+      "width": 218.61,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#a03d08",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1545247939,
+      "type": "text",
+      "text": "Interest rate spread 3 percentage points",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pill-differenz",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ir95yDoANQhDMFad0Zb4i",
+      "x": 141.57,
+      "y": 825,
+      "width": 966.86,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e5a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 13634659,
+      "type": "text",
+      "text": "Third core function – processing payments:\nThe bank moves deposit money from account to account: wages come in, the mobile phone bill goes out, the card payment in the shop is debited.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zahlungsverkehr-box",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram ‘The bank as a hub’ explains how the bank connects savers and borrowers and earns money from the interest rate spread: savers (you with your holiday job pay, grandparents with savings, the club with its festival funds) bring their money to the bank as deposits, and the bank lends this money to borrowers (the bakery for an oven, a family for a house, a company for new machinery). The bank pays savers savings interest on their deposits (e.g. 1 %, or CHF 10 per CHF 1000 per year), and charges borrowers higher loan interest on their loans (e.g. 4 %, or CHF 40 per CHF 1000 per year) – and checks creditworthiness before every loan. Key points: (1) The bank has three core functions: accepting deposits, granting loans and processing payments. (2) Its business model is the interest rate spread: loan interest of 4 % minus savings interest of 1 % gives 3 percentage points (example figures) – this pays for the bank's staff, branches and computers, as well as its profit. (3) Third core function, processing payments: the bank moves deposit money from account to account – wages come in, the mobile phone bill goes out, the card payment in the shop is debited. (4) The orange dashed arrows represent money flows – the colours and arrows have the same meaning as in the extended circular flow of the economy in [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]; this is a simplified model.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Creditworthiness: who does the bank lend money to?",
+   "body": "The bank does not lend its own money – it mainly lends the money that **savers have entrusted to it**. That includes your earnings from your holiday job. This is why it cannot afford to be careless: before granting a loan, it checks **creditworthiness** (also called **credit standing**) – the question is: *Can and will this person or company repay the money plus interest?*\n\nTo do this, the bank looks at things such as:\n\n- **income**: are wages or business profits enough to cover the instalments?\n- **existing debts**: someone who already has lots of loans carries a higher risk.\n- **past payment behaviour**: have previous bills and loans been paid reliably?\n- for companies: the **business plan** – is the new oven actually worth buying?\n\nIf the assessment is poor, there are consequences: the bank **rejects the loan application** – or charges **higher interest** because it is taking a greater risk. This may seem strict, but it protects both sides: savers from losing their money, and borrowers from taking on debts they cannot afford. You will look at what happens when debts still get out of hand in [[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]]."
+  },
+  {
+   "type": "text",
+   "title": "Liechtenstein's financial sector",
+   "body": "For Liechtenstein, banks are much more than useful service providers – they are a **key industry**. A few figures give you an idea of the scale:\n\n- Liechtenstein has **11 banks** – a remarkably large number for a country with just over 40 000 inhabitants.\n- The financial sector (banks, insurance companies and trust services) generates **just over a fifth** of the country's total economic output – only industry contributes more.\n- Liechtenstein's banks manage client assets of **over 500 billion francs** – many times what the small country itself produces. Many customers come from abroad.\n\nWhy Liechtenstein in particular? Reasons include the **stable currency** (the Swiss franc from [[modul:wirtschaft-politik-10-geld-funktionen-geschichte]]), political stability, membership of the European Economic Area (EEA) – and a great deal of **trust** built up over time: when it comes to money, reliability matters more than anything else.\n\nFor you, this has a very practical meaning: the financial sector offers many **jobs and apprenticeships** – for example, a commercial apprenticeship at a bank. You do not need detailed knowledge of banking products yet; what matters is the overall picture: banks are to Liechtenstein what a large factory is to other regions – a pillar of the economy."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: banks, loans and interest",
+   "teilkompetenzen": [
+    "wp.banken.kernaufgaben-zuordnen",
+    "wp.banken.zins-berechnen",
+    "wp.banken.kreditwuerdigkeit-erklaeren"
+   ],
+   "intro": "Show that you understand banking. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What are a bank's three core functions?",
+     "options": [
+      {
+       "text": "Printing money, collecting taxes and setting wages."
+      },
+      {
+       "text": "Recommending shares, storing gold and exchanging cash."
+      },
+      {
+       "text": "Banning saving, controlling prices and minting coins."
+      },
+      {
+       "text": "Accepting deposits, granting loans and processing payments.",
+       "correct": true
+      }
+     ],
+     "explanation": "The three core functions are accepting deposits (savers' money), granting loans (lending money) and processing payments (moving deposit money from account to account). Only the national bank may issue banknotes, the state mints coins, and the state also collects taxes – common mix-ups. Recommending shares or storing gold are, at most, additional activities, not the core business."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What does interest mean, depending on which side you are on?",
+     "options": [
+      {
+       "text": "For savers, it is the reward for letting the bank use their money – for borrowers, it is the price of borrowing money.",
+       "correct": true
+      },
+      {
+       "text": "For everyone involved, it is a fee that the state charges on banking transactions."
+      },
+      {
+       "text": "It is the fee you pay the bank to open an account."
+      },
+      {
+       "text": "It is the amount the bank gives every customer as a gift each year."
+      }
+     ],
+     "explanation": "Interest has two sides: a reward for saving (savings interest) and the price of borrowing (loan interest). It has nothing to do with the state – interest rates are not set by the tax office. Nor is it an account opening fee. And it is certainly not a gift: you only receive savings interest because the bank can put your money to work – and you pay loan interest to the bank."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "You invest CHF 1000 at an annual interest rate of 2 %. How much interest do you receive after one year?",
+     "options": [
+      {
+       "text": "CHF 2."
+      },
+      {
+       "text": "CHF 200."
+      },
+      {
+       "text": "CHF 20.",
+       "correct": true
+      },
+      {
+       "text": "CHF 1020."
+      }
+     ],
+     "explanation": "Interest = amount × interest rate: 1000 × 2 % = 1000 × 0.02 = CHF 20. If you calculated CHF 2, you confused 2 % with ‘2 francs’; if you got CHF 200, you used 20 % instead of 2 % – a classic decimal point error. And CHF 1020 is your new account balance (the amount plus interest), not the interest itself – the question asked for the interest."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "The bank pays 1 % savings interest and charges 4 % loan interest. Why is this difference so important to the bank?",
+     "options": [
+      {
+       "text": "It is a mistake – both interest rates should actually be the same."
+      },
+      {
+       "text": "The interest rate spread is the bank's business model: it uses this to cover its costs and earn its profit.",
+       "correct": true
+      },
+      {
+       "text": "The bank must pay the entire difference to the state as tax."
+      },
+      {
+       "text": "The difference is shared equally among all savers at the end of the year."
+      }
+     ],
+     "explanation": "This difference is exactly what the bank lives on: it takes in 4 % and pays out 1 % – the remaining 3 percentage points pay for staff, branches and IT, and what is left is profit. So it is deliberate, not a mistake – if both rates were the same, the bank could not exist. The difference is neither paid to the state as tax nor shared among savers."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Why does the bank check creditworthiness before granting a loan?",
+     "options": [
+      {
+       "text": "Because it mainly lends savers' money and therefore needs to check whether it will be repaid with interest.",
+       "correct": true
+      },
+      {
+       "text": "Because it only ever wants to lend to rich people."
+      },
+      {
+       "text": "Because the law actually prohibits all lending."
+      },
+      {
+       "text": "Purely out of curiosity – the information has no effect on the decision."
+      }
+     ],
+     "explanation": "The bank lends money entrusted to it – including your savings. This is why it needs to check whether income, existing debts and payment behaviour suggest that the loan will be repaid. This has nothing to do with ‘only for rich people’: what matters is affordability, not wealth. Lending is, of course, not prohibited – it is a core function. Nor is it curiosity: the assessment directly determines the decision and the interest rate."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "The assessment finds that a person has low creditworthiness. What typically happens?",
+     "options": [
+      {
+       "text": "The bank grants the loan anyway at a particularly low interest rate."
+      },
+      {
+       "text": "The person is never allowed to open a bank account again."
+      },
+      {
+       "text": "The state automatically takes over the loan."
+      },
+      {
+       "text": "The bank rejects the loan application – or charges higher interest because of the higher risk.",
+       "correct": true
+      }
+     ],
+     "explanation": "Low creditworthiness means a higher risk for the bank – it then says no or charges higher interest to compensate for that risk. A particularly low interest rate would be the opposite of what banks do. This does not lead to a ban on having an account – holding an account and getting a loan are two different things. And the state does not automatically step in for private loans."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Which is an example of the core function ‘processing payments’?",
+     "options": [
+      {
+       "text": "The bank grants the bakery a loan for a new oven."
+      },
+      {
+       "text": "The bank carries out your transfer to pay your mobile phone bill.",
+       "correct": true
+      },
+      {
+       "text": "The bank prints new banknotes when cash runs short."
+      },
+      {
+       "text": "The bank decides how much your apprenticeship employer must pay you."
+      }
+     ],
+     "explanation": "Processing payments means moving deposit money from account to account – your transfer is the classic example. The oven loan belongs to the core function ‘granting loans’, not payment processing. Only the national bank may print banknotes – one of the most common mix-ups of all. And you negotiate your wages with your apprenticeship employer; the bank only transfers them."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Which statement about Liechtenstein's financial sector is correct?",
+     "options": [
+      {
+       "text": "Liechtenstein has no banks of its own – all accounts are held in Switzerland."
+      },
+      {
+       "text": "The financial sector is the country's only industry."
+      },
+      {
+       "text": "The financial sector generates just over a fifth of economic output, making it one of Liechtenstein's most important industries.",
+       "correct": true
+      },
+      {
+       "text": "Liechtenstein's banks may only exchange cash, not grant loans."
+      }
+     ],
+     "explanation": "The financial sector contributes just over a fifth of economic output – a great deal for such a small country, with 11 banks and over 500 billion francs in client assets under management. So it certainly does have banks of its own. But this is not the only industry: the industrial sector contributes even more – Liechtenstein is both an industrial and a financial centre. And, of course, the banks also grant loans – it is one of their core functions."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-bank-grundlagen",
+   "title": "Fill in the terms: banking",
+   "teilkompetenzen": [
+    "wp.banken.kernaufgaben-zuordnen",
+    "wp.banken.zins-berechnen",
+    "wp.banken.kreditwuerdigkeit-erklaeren"
+   ],
+   "intro": "Drag the appropriate terms into the gaps (on a mobile: tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Banks have three core functions: they accept {{1}}, grant {{2}} and process {{3}}. The bank is therefore a {{4}} between savers and borrowers.\nSavers receive {{5}} – the reward for letting the bank use their money. Borrowers pay the higher {{6}} – the price of borrowing. The difference between the two is the bank's {{7}}: it uses this to cover its costs – what is left is its profit.\nBefore the bank lends money, it checks {{8}}: can this person {{9}} the money plus interest? This is important because the bank mainly lends the money that {{10}} have entrusted to it.",
+   "luecken": [
+    {
+     "antworten": [
+      "deposits",
+      "bank deposits"
+     ]
+    },
+    {
+     "antworten": [
+      "loans",
+      "bank loans",
+      "credit"
+     ]
+    },
+    {
+     "antworten": [
+      "payments",
+      "payment transactions",
+      "bank payments"
+     ]
+    },
+    {
+     "antworten": [
+      "hub",
+      "financial hub",
+      "link",
+      "go-between"
+     ]
+    },
+    {
+     "antworten": [
+      "savings interest",
+      "interest on savings",
+      "deposit interest",
+      "interest on deposits"
+     ]
+    },
+    {
+     "antworten": [
+      "loan interest",
+      "interest on loans",
+      "lending interest",
+      "borrowing interest"
+     ]
+    },
+    {
+     "antworten": [
+      "business model"
+     ]
+    },
+    {
+     "antworten": [
+      "creditworthiness",
+      "credit worthiness",
+      "credit-worthiness",
+      "credit standing",
+      "credit rating"
+     ]
+    },
+    {
+     "antworten": [
+      "repay",
+      "pay back",
+      "return"
+     ]
+    },
+    {
+     "antworten": [
+      "savers",
+      "the savers",
+      "depositors",
+      "the depositors"
+     ]
+    }
+   ],
+   "ablenker": [
+    "taxes",
+    "dividend",
+    "exchange rate"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zins-rechnen",
+   "title": "Type in the answers: calculating interest",
+   "teilkompetenzen": [
+    "wp.banken.zins-berechnen",
+    "wp.banken.kreditwuerdigkeit-erklaeren"
+   ],
+   "intro": "There is no word bank here – **type in the missing numbers and terms yourself**. For the numbers, just enter the number without ‘CHF’. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "You put CHF 1000 in the bank; the savings interest rate is 1 per cent. After one year, CHF {{1}} in interest is credited to your account. At the same time, the bank lends the bakery CHF 1000 at 4 per cent loan interest – so the bakery pays it CHF {{2}} in interest per year. The bank covers its costs from the {{3}} between loan and savings interest – and what is left is its profit. Whether someone gets a loan at all depends on their {{4}}. And the fact that banks in Liechtenstein help generate just over a fifth of the country's economic output shows that the {{5}} is one of its most important industries.",
+   "luecken": [
+    {
+     "antworten": [
+      "10",
+      "ten",
+      "10.0",
+      "10.00",
+      "10,0",
+      "10,00"
+     ]
+    },
+    {
+     "antworten": [
+      "40",
+      "forty",
+      "40.0",
+      "40.00",
+      "40,0",
+      "40,00"
+     ]
+    },
+    {
+     "antworten": [
+      "difference",
+      "interest rate spread",
+      "interest spread",
+      "spread",
+      "interest rate difference",
+      "difference in interest rates"
+     ]
+    },
+    {
+     "antworten": [
+      "creditworthiness",
+      "credit worthiness",
+      "credit-worthiness",
+      "credit standing",
+      "credit rating"
+     ]
+    },
+    {
+     "antworten": [
+      "financial sector",
+      "finance sector",
+      "financial centre",
+      "financial center",
+      "banking sector",
+      "banking centre",
+      "banking center",
+      "financial hub",
+      "banking hub"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-kernaufgaben",
+   "title": "Match each situation to the bank's core function",
+   "teilkompetenzen": [
+    "wp.banken.kernaufgaben-zuordnen"
+   ],
+   "intro": "Match each situation to the appropriate core function: **Deposits** (accepting them), **Loans** (granting them) or **Payment processing**. Each function appears several times.",
+   "modus": "wortbank",
+   "text": "You pay the money from your holiday job into your youth bank account. {{1}}\nThe bakery finances its new oven through the bank. {{2}}\nYour apprenticeship employer transfers your wages into your account. {{3}}\nYour grandmother puts her savings into a savings account. {{4}}\nA married couple borrows money from the bank to buy a house. {{5}}\nYou pay your mobile phone bill through online banking. {{6}}\nThe sports club puts the proceeds from its festival into the club's account. {{7}}\nA joinery business borrows money from the bank for a new machine. {{8}}\nYour card payment in a shop is debited from your account. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "Deposits",
+      "Deposit",
+      "Accepting deposits",
+      "Taking deposits",
+      "Deposit taking",
+      "Deposit-taking"
+     ]
+    },
+    {
+     "antworten": [
+      "Loans",
+      "Loan",
+      "Credit",
+      "Lending",
+      "Granting loans",
+      "Making loans"
+     ]
+    },
+    {
+     "antworten": [
+      "Payment processing",
+      "Processing payments",
+      "Payments",
+      "Payment transactions"
+     ]
+    },
+    {
+     "antworten": [
+      "Deposits",
+      "Deposit",
+      "Accepting deposits",
+      "Taking deposits",
+      "Deposit taking",
+      "Deposit-taking"
+     ]
+    },
+    {
+     "antworten": [
+      "Loans",
+      "Loan",
+      "Credit",
+      "Lending",
+      "Granting loans",
+      "Making loans"
+     ]
+    },
+    {
+     "antworten": [
+      "Payment processing",
+      "Processing payments",
+      "Payments",
+      "Payment transactions"
+     ]
+    },
+    {
+     "antworten": [
+      "Deposits",
+      "Deposit",
+      "Accepting deposits",
+      "Taking deposits",
+      "Deposit taking",
+      "Deposit-taking"
+     ]
+    },
+    {
+     "antworten": [
+      "Loans",
+      "Loan",
+      "Credit",
+      "Lending",
+      "Granting loans",
+      "Making loans"
+     ]
+    },
+    {
+     "antworten": [
+      "Payment processing",
+      "Processing payments",
+      "Payments",
+      "Payment transactions"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Explore further: you and your bank",
+   "teilkompetenzen": [
+    "wp.banken.zins-berechnen",
+    "wp.banken.kreditwuerdigkeit-erklaeren",
+    "wp.banken.kernaufgaben-zuordnen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Work it out yourself: (a) You invest CHF 600 from your holiday job at 1 % annual interest – how much interest do you receive after one year? (b) Your neighbour borrows CHF 3000 for an e-bike at 6 % annual interest – how much interest does she pay in the first year? (c) Explain in one sentence why loan interest is almost always higher than savings interest.",
+     "hint": "The formula: interest = amount × interest rate. Write the percentage as a decimal (1 % = 0.01, 6 % = 0.06). For (c): what does the bank live on – and what risk does it take with every loan?",
+     "solution": "(a) 600 × 0.01 = CHF 6 in interest. (b) 3000 × 0.06 = CHF 180 in interest in the first year. (c) Loan interest must be higher than savings interest because the bank lives on the interest rate spread – it uses this to cover its costs and make its profit – and because lending carries a risk: not every loan is repaid in full."
+    },
+    {
+     "prompt": "Think about this and explain your reasoning: why is it also important for you as a saver that the bank carefully assesses loan applications and does not lend money to everyone?",
+     "hint": "Whose money does the bank actually lend? And what would happen if lots of loans were not repaid?",
+     "solution": "The bank mainly lends savers' money – including yours. If lots of loans went unpaid because the bank had lent carelessly, the bank itself would get into difficulties – putting the money entrusted to it by its customers at risk. Carefully checking creditworthiness therefore protects not just the bank, but all savers as a group. (It also protects borrowers from taking on debts they cannot afford.)"
+    },
+    {
+     "prompt": "A little research into the financial sector: find out which banks operate in Liechtenstein (three are enough) and whether they offer apprenticeships – for example, a commercial apprenticeship. Write down what would appeal to you about working at a bank – or what would not – and explain why.",
+     "hint": "Starting points: the Liechtensteinischer Bankenverband website (bankenverband.li) or the banks' own apprenticeship pages. You can find the country's three largest banks in a few minutes.",
+     "solution": "Examples of banks in Liechtenstein: LGT, Liechtensteinische Landesbank (LLB) and VP Bank – there are others too, making 11 banks in total. The large banks regularly train apprentices, typically in commercial roles (Kauffrau/Kaufmann EFZ, banking sector), and sometimes in IT. Whether this appeals to you is up to you – a good explanation names specific aspects such as customer contact, numbers and accuracy, digitalisation, or a desire to do something completely different."
+    }
+   ]
+  }
+ ]
+}
