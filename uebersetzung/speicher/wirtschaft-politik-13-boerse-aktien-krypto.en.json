@@ -1,0 +1,543 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:c2ac9220e6854bce5ce87693ec94438a21c7ef8ba268d304a2b995e59be66921",
+   "text": "Stock Exchanges, Shares and Crypto: Risk and Return"
+  },
+  "description": {
+   "quelle": "sha256:caf070d1edbfcede6dd30583e24b96dee66d1111446a6e631e6c3cdb63b5aeca",
+   "text": "What do you actually own when you hold a share – and what do you own when you hold a Bitcoin? Here you will learn about a share as a stake in a real company, the stock exchange as a marketplace where supply and demand determine the price, and the principle that a higher potential return means higher risk. Comparing a share with Bitcoin will show you the differences – objectively and without offering investment advice."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:0c4950a7de0cd0fbae76b0776a74695ca1c18cb114d08c5f022349f1743a4330",
+   "text": "Topic C: Money, Banks and Financial Literacy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:56aecd0b3523c6a1bb8e5fbd7131ccc3fa2131afecf0edd94102fc85b84f2b09",
+   "text": "stock exchange"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:cc4d0b092b444dbd636701d074510f6d2ea9c85fbbbcaaab8348bf3931d6ca9f",
+   "text": "share"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:f9d3f0541f31db608143bee4ba86ef2bc25ebaef6836703d145e4ce3c13fe984",
+   "text": "public limited company"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:c2c0141f00f32c2745cbe4a7f60fd80eb2ca8467a3d9493eac7bca538825085a",
+   "text": "dividend"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:034ea08ab1bab548118d61e0aac5ea7f82e50e977876370f56f02afc30b0924f",
+   "text": "share price"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:ab47660d9b81164f234ca20dae5563397204fd1c8ed60ccacb2f8f6a713affa9",
+   "text": "capital gain"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:2e7cdef039301951a6d33d8e5f394f9fefc5d7ee3f488ee0c661dd788b940ff0",
+   "text": "return"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:7becb001cd7071dff5ec114209ec6b6f3041895610ce643cd614d056c9e05dce",
+   "text": "risk"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:d2d1695e174cc51c4d40a598b47e63508b4331ccd252289e0068314b1dff8857",
+   "text": "cryptocurrency"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:b4056df6691f8dc72e56302ddad345d65fead3ead9299609a826e2344eb63aa4",
+   "text": "Bitcoin"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:ae48881ebf234a4feea83682e43463c4e299b270358063f0c3f14138d7436c98",
+   "text": "investment fraud"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:2e143b2ee1fc749b084f0c78f9933310a865755ea8963db7f1114d278167d79d",
+   "text": "I can explain what a share is: a stake in a real company – with voting rights, a possible dividend and a possible capital gain or loss."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:8ede212f4a495af536a9f01716e5b187a11e67aaee60d84a257dae8acc11d551",
+   "text": "I can describe the stock exchange as a marketplace where supply and demand determine the price."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:a324ea02dd4020b3e802229ec093bb3c4c187895538832bafcdc89a8a6af6403",
+   "text": "I can apply the principle that a higher potential return means higher risk to savings accounts, shares and cryptocurrencies."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:cc8646766c3c7a66c5e3c77d2ab9b33ac5ed8baa5d583a85adeb0d025fdf0111",
+   "text": "I can explain the difference between a share and a cryptocurrency such as Bitcoin and identify common warning signs of investment fraud."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:97ffc152b030c52032a4d870d3a99a63ae199ec3484191897e2209d1c3e427fc",
+   "text": "Buying a piece of a company"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:3674decb0b9ce938e90db57a6d09edca807fec109369a1d52daa9bc03093b0f4",
+   "text": "Imagine a mountain railway company in the Alps: chairlifts, a restaurant and snow cannons – together worth millions. No one person could pay for all that. This is why the business is a **public limited company (AG)**: its capital is divided into many small stakes – **shares**. Anyone who buys one owns a small part of the company.\n\nThree things come with this stake:\n\n1. **Voting rights:** Shareholders may attend the **general meeting** and take part in decisions – for example, about the management of the company. Put simply, the more shares you own, the more votes you have.\n2. **Dividend:** If the company makes a profit, it may distribute part of it to its shareholders. This share of the profit is called a **dividend**. It is not guaranteed – in bad years it may be smaller or not paid at all.\n3. **Capital gain or loss:** Shares can be resold. If the selling price is higher than the purchase price, this produces a **capital gain** – if it is lower, a **capital loss**.\n\nOne important point for everything that follows: a share always represents **something real** – chairlifts, ovens, factories, employees and customers. The value of the share depends on how successfully this real company operates – now and in the future."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:c7562214c37265e8254358a07606037f5dfb1a1da3733de27fbad08bf3afb4fc",
+   "text": "The stock exchange: a marketplace like the ones used to explain price formation – only faster"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:8022675e9781ba30578ab47a54f8da6eaaf2e487a956a18c5a11d2342603c06b",
+   "text": "Where are shares bought and sold? On the **stock exchange** – a marketplace that is now almost entirely digital. This marketplace follows exactly the rules you know from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]] and [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]: **supply and demand determine the price.** The price of a share is called its **share price**.\n\n- If **more people want to buy a share than there are shares for sale**, the price rises – just like the price of a scarce concert ticket.\n- If **more people want to sell than buy**, the price falls.\n\nWhat affects supply and demand? Above all, **expectations about the future**: if the mountain railway company reports a snowy winter with record sales, many people expect higher profits – more people want to buy and the price rises. If there is no snow for three winters in a row, many expect losses – more people want to sell and the price falls. Because new information is constantly arriving, prices change all the time – from one second to the next.\n\nThis also shows that **no one sets the price** – not the company, the bank or the government. It results from thousands of buying and selling decisions, just like the equilibrium price at the weekly market in [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:11829f55484cfb6cacc7fe31955efa4e5122097634bd5a68ee21fbcefcb25567",
+   "text": "Video tip (external): shares explained simply"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:db46f03862dda418d71b0a2494304ee56fd4234c6c35825d801ecbda202e1a23",
+   "text": "A good introduction is explainity's video **«Aktien einfach erklärt»** (4:22). Using a lemonade factory as an example, it shows how a business becomes a public limited company, issues shares when it goes public and what buyers receive in return. The video is not embedded here – **you can find the link below under this module's sources and materials**.\n\nAs you watch, consider two key questions: (1) Why does the company in the video issue shares in the first place – how does going public benefit it? (2) What do the people who buy the shares receive in return? Compare this with the three points in this module: voting rights, dividends and capital gains."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:cf0e895da35d415b815bc25dead8159d919430642efd78cb868212b494af7e65",
+   "text": "The principle: higher potential return, higher risk"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:e23e36a17869f750fa28375d7cad1e58ac057e3553501c10c89a0e53dee36c66",
+   "text": "Two terms so that everyone means the same thing:\n\n- **Return** is the gain from an investment, usually calculated as a percentage per year. For a savings account, it is the interest; for a share, it is the dividend plus the capital gain (or minus the capital loss).\n- **Risk** means here: how much can the value fluctuate – and how much could be lost in a bad outcome?\n\nThe two are linked by one of the most important principles of financial literacy: **a higher potential return comes with higher risk.** Why? No one voluntarily takes a big risk without the prospect of a greater reward – otherwise everyone would choose the safe option.\n\nOn the risk–return graph (see illustration), the three forms of investment in this module are positioned as follows:\n\n- **Savings account:** low risk, low return. The interest is modest, but the balance does not fluctuate. Only inflation can erode its purchasing power.\n- **Shares:** medium to high risk, higher potential return. Prices fluctuate daily; individual companies can also fail.\n- **Cryptocurrencies:** very high risk, very large fluctuations – more on this shortly.\n\nYou should also remember the reverse of this principle: **if someone promises a high return with no risk at all, that contradicts this basic rule** – such a promise is a warning sign, not an opportunity."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:e61b8f63af9b5dcfa8494fb6de977909e5dff39446ca59239d12850e25f282bc",
+   "text": "The risk–return graph"
+  },
+  "blocks[4].szene.elemente[0].text": {
+   "quelle": "sha256:427958474548bcae9a7403a1768ccd5ff013c6b6c34b1e28dbb84bf7b7c53c8f",
+   "text": "Risk and return"
+  },
+  "blocks[4].szene.elemente[1].text": {
+   "quelle": "sha256:d301d27d7bd41ae54ff49f21c8966cece5dd4bdefaeddcd3f09ea6052f1bfa3f",
+   "text": "Where are savings accounts, shares and crypto? – a simplified model"
+  },
+  "blocks[4].szene.elemente[4].text": {
+   "quelle": "sha256:3f1d01860f9ca824726f28f9da93f506a410f4d5aa52416e7b609f2281afcca8",
+   "text": "Potential return"
+  },
+  "blocks[4].szene.elemente[5].text": {
+   "quelle": "sha256:7becb001cd7071dff5ec114209ec6b6f3041895610ce643cd614d056c9e05dce",
+   "text": "Risk"
+  },
+  "blocks[4].szene.elemente[7].text": {
+   "quelle": "sha256:48f0d220ff1875510104dc94530a62b6280b6f0ed3d6d87743a14aef30b51647",
+   "text": "Principle: higher potential return means higher risk"
+  },
+  "blocks[4].szene.elemente[11].text": {
+   "quelle": "sha256:5a8e83ea39a47e35949023c215d0e52a663075d41e800e0406060d55be0e04df",
+   "text": "Simplified model: classification by typical features – not investment advice.\nIndividual products may differ greatly; even on a savings account, the return is not\nguaranteed to be higher than inflation."
+  },
+  "blocks[4].szene.elemente[12].text": {
+   "quelle": "sha256:c74e2c00ae6dd124028d0782722b48b6d0bb43c325e6fc773417a3bc850a1ebe",
+   "text": "Savings account\n\nLow but predictable interest. The\nbalance does not fluctuate – only\ninflation can erode its purchasing\npower."
+  },
+  "blocks[4].szene.elemente[13].text": {
+   "quelle": "sha256:e0657325004507aba88059c4b9e0cd92f0acf5529fa1cd52d96208f7cbaeb7e2",
+   "text": "Shares\n\nA stake in a real company:\ndividends and capital gains are\npossible – prices fluctuate, and losses\nup to a total loss (bankruptcy) are\npossible."
+  },
+  "blocks[4].szene.elemente[14].text": {
+   "quelle": "sha256:5374b45c7974a16d17b85c3cbf411b37911fe78ec415c427d9960d7bf927f6dd",
+   "text": "Cryptocurrencies\n\nNo stake in anything real – the price\nis determined solely by supply and\ndemand. Extreme fluctuations and\na total loss are possible."
+  },
+  "blocks[4].beschreibung": {
+   "quelle": "sha256:abb5d8104a597050bbece85ae950a7aa0db474a5056ed641fccd56c47ea0f878",
+   "text": "The ‘Risk and return’ illustration places three forms of investment on a graph: potential return increases upwards and risk increases to the right. A dashed diagonal from the bottom left to the top right connects three boxes and shows the principle that a higher potential return means higher risk. The key messages are: the savings account is at the bottom left – interest is low but predictable, the balance does not fluctuate, and only inflation can erode its purchasing power. Shares are in the middle – they are a stake in a real company, dividends and capital gains are possible, prices fluctuate, and losses up to a total loss in the event of bankruptcy are possible. Cryptocurrencies are at the top right – they are not a stake in anything real, their price is determined solely by supply and demand, and extreme fluctuations and a total loss are possible. A footnote makes clear that this is a simplified model based on typical features and not investment advice; individual products may differ greatly, and even the return on a savings account is not guaranteed to be higher than inflation."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:cfa5aff3c5cb8c48074275aa27f5cfcdcbe4df771ffe95e8f64fe52b9197985c",
+   "text": "Share versus Bitcoin: the crucial difference"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:7b382594f7ec090c5a8ec2f174df9c21166030287643eca2c445145c00de5dc2",
+   "text": "You know **cryptocurrencies** such as Bitcoin as the final stop on the timeline of money in [[modul:wirtschaft-politik-10-geld-funktionen-geschichte]]: entirely digital money that works without a government, central bank or banks. It is managed by a computer network that many people trust collectively.\n\nThe most important difference from a share is that **there is no real company behind a Bitcoin.** There are no chairlifts, no factory, no employees and no profit – and therefore no dividend or general meeting. Its price is determined **solely by supply and demand**: it is exactly as high as others are currently willing to pay. If sentiment changes, the price changes – often **extremely**: fluctuations of several tens of per cent within weeks have occurred, both upwards and downwards. A **total loss** is possible.\n\n| | **Share** | **Bitcoin** |\n|---|---|---|\n| What do you own? | A stake in a real company | A digital record – not a stake in anything real |\n| Regular income? | A dividend is possible (not guaranteed) | None |\n| Voting rights? | Yes, at the general meeting | No |\n| What does the price depend on? | Business performance and expectations – traded through supply and demand | Solely on supply and demand |\n| Fluctuations | Sometimes large – a total loss is possible if the company goes bankrupt | Often extreme – a total loss is possible |\n\nWhether someone buys shares or cryptocurrencies is a personal decision – **this module does not recommend either buying or avoiding them.** It gives you the knowledge to assess offers.\n\n**One warning is important, however:** on social media, strangers repeatedly advertise crypto schemes with promises such as ‘a guaranteed 20% profit per week’ – often using fake celebrity endorsements, time pressure (‘today only!’) and requests to pay money into unfamiliar platforms. Such offers are **scams**: there is no such thing as a guaranteed high return without risk – in these cases, the money paid in is usually lost."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:89f3ef529eb4f7646b297fa1dd8da1bce83d593b593f15c148792bb2770a271a",
+   "text": "Quiz: stock exchanges, shares and crypto"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:cbe5edb79b62e7d0046de7a7a9196b9a17ab956cbe9a2198348b1647b0b235d0",
+   "text": "Show that you understand shares, stock exchanges and cryptocurrencies. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:da8f9668d204b828f6f7bbf21309f7993d70aa10eec23571767d042d6df4bf88",
+   "text": "What do you own when you buy a share?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:bcc7e2f26b71b5863e77c0ec7a3159f24db0fe14ee9aa2982a1535d95149202e",
+   "text": "A stake in a real company – you become a part-owner."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:305d6a91706ab4dbc73af07da40dee0b7473eb76600b1d884a9895a30bdc66ac",
+   "text": "A loan: the company must repay the amount to you with a fixed rate of interest."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:1bb8fc4d6eaf6d10639cab081740966aad23676fc51570d68183199b6ca4ab5a",
+   "text": "A government-backed form of saving with guaranteed interest."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:15fdad73bf6b9a87204dafd1a5c256d7784840ca557bd85774e71e3e0ff815e7",
+   "text": "A voucher for the company's products."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:4cb9b618ee01fabeb59d9d603f3330035d22cdf3f039c522a5585855cd369f38",
+   "text": "A share is an ownership stake: you own a small part of the company – with voting rights, a possible dividend and a possible capital gain or loss. A loan with a repayment obligation and fixed interest would be a bond – a common source of confusion. A share has nothing to do with the government, and nothing about it is guaranteed. You cannot use it to shop either – it is ownership, not a voucher."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:d8f56ed7efb0f00d4cc5f120cc7b2a0a5b3fb2c34803606ae05b1f0f865b473d",
+   "text": "What is a dividend?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:b67f2696cb4ec3f6465f4da2d2cb573a18ad283502aac3114335a5fd7926ff27",
+   "text": "The guaranteed annual interest paid by every share."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:4f08524eb2b4614cfb0dfe644ce057b93f6a2d78b037f3c64672324ff9832f3a",
+   "text": "The fee charged when buying a share."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:16a1ba8296e7d863e0e5635f1e1079ac0390476344fce20c7bc5202003237391",
+   "text": "The portion of profit that a public limited company may distribute to its shareholders."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:36986a17876bd6f1fca08d56cefd26be92a237a53a6634c7a8fcfa722572e5e6",
+   "text": "The repayment of the purchase price after ten years."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:81c444c3141baea66794940f9d828ab48bed2aeb9831c4c768bcf23c46506f27",
+   "text": "A dividend is a share of the profit: if business is going well, the company distributes part of its profit. It is certainly not guaranteed – in bad years it may be smaller or not paid at all; this distinguishes it from fixed interest. Purchase fees are called brokerage fees or commission, and shares do not have an automatic repayment of the purchase price – you can only sell them at the current price."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:09bd6c684405bdaf4c53f9b48de13461d8ee048d0683cf338e5d5a5ba3c8b5f2",
+   "text": "When does a share price rise?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:2c593556929a0a23765954cd6dcaec17e6b01345e2c0cb19d3e31556541d2618",
+   "text": "When the company's management decides on a higher price."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:4023b919512169488a0c2b2da165e3120a9d3594cc1d13b475381832f2e66970",
+   "text": "When more investors want to buy the share than others want to sell – demand exceeds supply."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:30f3f083af140532e8994988ed8d60bbade66f880ece540618eaa8ddc3d72529",
+   "text": "When the company's main bank adjusts the price upwards."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:3d6fc9821698ee7e3ed0b0d20170c9a17ac35ce89393fd9993b8c47bf5933ebe",
+   "text": "Prices change only once a year, at the general meeting."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:8bde6527531ae29eafecde8eaab2f17b064ce68c8449b4ce82e2c056bbca7f5d",
+   "text": "Like any market price, the share price results from supply and demand ([[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]): if more people want to buy than sell, it rises – and vice versa. Neither the management nor a bank sets it – that is one of the most common misconceptions. And because new information constantly changes expectations, prices move from one second to the next, not once a year."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:a1695eaba548ac719e18ea59a246165fc3618ee8be028336f44077a21f4bfdf6",
+   "text": "Which statement correctly describes the principle of risk and return?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:466b7d1fd4facaa5ba5c6b9c8c72b9ca4b616f6cd321e7acb113d06b88366183",
+   "text": "The higher the potential return, the lower the risk."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:fefe3de434b5ea6898e31457cb0e223d23629964bbf26bd403bd7ff4882c64dc",
+   "text": "Risk and return have nothing to do with each other."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:66cf6c6da24f95472e8f07f86b1c290547232e98a86b5a069b09ffd9e42bc1df",
+   "text": "Professionals find investments with high returns and no risk at all."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:cd8de70cfd837842572d2f865d7220151cdaa8fc9ce5ccc0347ac6d4e57fa1fc",
+   "text": "A higher potential return comes with higher risk."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:4c52d55235581c28223fbcfe7f5a301cd9aeb96a48b8ca0b14f1e9ce6498cb3d",
+   "text": "Potential reward and risk are linked: no one voluntarily takes a high risk without the prospect of a greater gain – otherwise everyone would choose the safe option. So the reverse statement is wrong, and saying they have nothing to do with each other is even more clearly incorrect. Professionals cannot override the principle either: anyone promising a high return with no risk is promising something that does not exist – a typical warning sign of fraud."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:a82edf97a4b1e3887e354a327779f2e3ad7d6b23cd28e4d4034271b5ca27095b",
+   "text": "What is the fundamental difference between Bitcoin and a share?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:f1ddf4e54a4f23cd96f48017e5263ce6798f5a0ece8dca51980a05f7db41da18",
+   "text": "Bitcoin is a share in Bitcoin plc."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:c5d9e3979a7fb2c60dbf10259512b68d3c24b296274074017d659775c892655e",
+   "text": "Bitcoin prices fluctuate much less than share prices."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:58464991c1d0674794a66d5408a5af3df951c62d7a7ff1ecb5b45d129d7f87d1",
+   "text": "There is no real company behind Bitcoin – there is no share of profit, and its price is determined solely by supply and demand."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:9d3a5224742ba99e6ff8a2896bdf771970d2a0a45c27322ad468ee35064cf0a6",
+   "text": "Bitcoin is issued by the Swiss National Bank."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:fb5c94426871eb25dea72c0ae098adc93f812d4a0dc6ed3a2a1fc1eaea3a0ec1",
+   "text": "That is the key difference: a share is a stake in something real (a factory, employees and profit) – Bitcoin is not. There is no ‘Bitcoin plc’, no dividend and no general meeting. Its fluctuations are not smaller, but often more extreme than those of shares. And no one issues Bitcoin – the absence of a government and central bank is precisely one of its features; the Swiss National Bank issues the Swiss franc."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:356e9548fc453506b79b1abb3aaffe02153e57204b6ad19b2587fc17810bc7ca",
+   "text": "Where is a savings account on the risk–return graph?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:a00cdb948ecb4c418c9c02933b7b855d017635f58032047aa33ca5329fd055cf",
+   "text": "Low risk, low return: interest is modest, but the balance does not fluctuate."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:4467b806ff8eb837f4335e6dbb3fa78d061c887ba7136831006221386db7620c",
+   "text": "High risk, high return – savings accounts fluctuate greatly in value."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:9b02c83b7461989e3ea6f75dc8f0f7a2475ded6f0be745d5362e6d6f878b68cc",
+   "text": "Low risk, very high return – which is why everyone saves."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:148eab76f0e189148b05041b53d31635b9912356f2a4f0193c13dbd5ce9e0373",
+   "text": "Savings accounts cannot be placed on the graph."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:678d5796b41b353fbb9f5afb913241ab6e9a616014787f2564209d9a23faa323",
+   "text": "The savings account is at the bottom left: low risk, low return. The balance does not fluctuate – only inflation can erode its purchasing power. Savings accounts do not fluctuate greatly, and ‘low risk with a very high return’ would contradict the principle – such combinations simply do not exist. A savings account can certainly be placed on the graph; the illustration in the module shows it as the starting point of the diagonal."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:fe73b406891ab78887658f51e796d7fa5e2c8995d1370d864cd3b2e408316b8b",
+   "text": "In a social media video, a stranger promises ‘a guaranteed 20% profit per week with our crypto programme’. How can you tell that you must be extremely cautious?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:47e77b4943ee6e40fb60d6ed9937f7a78bdec108dba46711eb65cbe20e18de4a",
+   "text": "There is no reason – offers like this are trustworthy if a celebrity promotes them."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:4440061abaf8fdaf6d1b0f8b287591571582094b7f66c9f34a9b32fd65a73a44",
+   "text": "20% per week is normal at banks; only the platform matters."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:6ea053f3f20b4a3a6ae993bb21cd922aefe6914177d0a9145f20432db2665282",
+   "text": "You only need to be cautious with amounts above CHF 10 000."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:ded906d1897c0296e8444878f08f69039eadfb2e64a7a18edb8f8670f6b78e7c",
+   "text": "A guaranteed high return without risk contradicts the principle that a higher potential return means higher risk – a typical sign of investment fraud."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:e9ab666d56e3da7961ac2ba7217619c65a8983db6f5c156cc661f63bb6120fba",
+   "text": "‘Guaranteed’ and ‘20% per week’ together are a classic warning sign: there is no such thing as a high return without risk. Celebrity appearances in such videos are often fake and do not make an offer trustworthy. Banks pay low single-digit annual interest rates on savings – not weekly rates. Fraudsters also profit from taking many small amounts: you must be cautious from the very first franc."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:45e0f2309d2b6337a7155cfda7d810e85c3b2d5f99650fb79dc27fda9615707b",
+   "text": "What does the warning ‘total loss possible’ mean?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:7b96e1d32612eed3bdf28d7ffc904bacdd8bd1628d2cd29ed1d7746205210c0d",
+   "text": "You can lose no more than half of the money invested."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:1f8ceecb12ba9de23425843a9dd05c1e06bd7bbbb610f1674074fd305877b363",
+   "text": "The entire amount invested can be lost."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:62b502486a3b9a6a447bebf7a7ea6e2b4487a94b2a6bfafb07d50b28bffefb27",
+   "text": "The bank reimburses losses at the end of the year."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:60fbafc7a1eae5966f0d601e8d60c1ba98e7d877f9b8983a7730d9f749b6e260",
+   "text": "The warning applies only to money you have borrowed."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:63f5c679710e32f06efde493d95fa9cd5fdc2a9033c2effe0edb9c9c6f489d3b",
+   "text": "Total loss means that, in the worst case, none of the money invested remains – for example, if a cryptocurrency becomes worthless or an individual company goes bankrupt. There is no automatic limit of half, and no one reimburses investment losses – they are part of the risk you bear yourself. The warning applies equally to your own money; with borrowed money, the situation would be even more serious because the debt remains."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:bb86e1a5fbe6d29d6ae52c52af2ae3262887aa78da42dd664e65d2feb68e909b",
+   "text": "Insert the terms: shares and the stock exchange"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Note:** Three words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:0555c1603514596cce6e531c481aa95d05ec991725ad4d5704b3c5e7c7b0749d",
+   "text": "Type in the terms: price, return, risk"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no selection of words this time – **type in the missing terms yourself**. Capitalisation does not matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:57bb1b9ae9e0d4187b2934fb218b636e1d4cddec39e9ebab5a942dd8c0f52dd2",
+   "text": "Match them: share, Bitcoin – or both?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:edb12eac3c2fc5ea0b0019463c2bc718a92b2dd3c75538cceb11c4be81d104d7",
+   "text": "Match each statement correctly: does it apply to a **share**, to **Bitcoin** – or to **both**? Each answer is used more than once."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:bb775bccae087615820fb52e2b0ddf6300947facc1d6d901b62f251a16a1dbe3",
+   "text": "Going further: prices, risks and warning signs"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:4190687856f2d2ba0d4e5e65e0f2fa34bf3104c933db11dbcbd0b2c02a9040be",
+   "text": "Apply the market model from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] to the stock exchange: (a) The mountain railway company reports a record winter with busy pistes – what is likely to happen to its share price, and why? (b) A sports equipment manufacturer has to launch a major product recall – what is likely to happen to its share price, and why? In each case, use supply, demand and expectations in your reasoning."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:329a619a05ba4fdc89eb3d44ab8b8e0ab35d4a238d6e5b979136610d034a82e3",
+   "text": "In both cases, ask yourself: how does the news change expectations of future profits? Will more people then want to buy the share – or will more want to sell it?"
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:53a793580ea24a9bbce146f66fd995d749724b67f175b2e7fd1ceeb74bc98114",
+   "text": "(a) The record winter creates expectations of higher profits – the dividend and the company's value could rise. More investors want to buy and fewer want to sell: demand exceeds supply, so the price tends to rise. (b) The recall costs money and damages the company's reputation – many people expect lower profits. More want to sell and fewer want to buy: supply exceeds demand, so the price tends to fall. The word ‘tends’ is important: prices respond to expectations, and events can turn out differently from what was expected."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:768c5686c76d61fcd3ebdfee789990c9d441ddd290aae468d4622bbc02ae4304",
+   "text": "You receive this direct message on social media from an unknown account: ‘Hey! I turned CHF 100 into CHF 500 in one month with XYZ's crypto bot – guaranteed! Sign up today only, message me privately!’ Identify at least three warning signs in this message and explain how you would respond."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:0c0ad71fc2bc9003c16193dc89860b39f0a4c3aea79df05a656206cb53c410b6",
+   "text": "Compare the promise with the principle of risk and return. Also consider: who is writing to you – and why? Why the time pressure? What do you notice about the word ‘guaranteed’?"
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:2eceb5dc7bcd71ea70a870a57a97cf9dda943dd0fc13230a35d312aa81369088",
+   "text": "Warning signs: (1) ‘Guaranteed’ plus an extreme return (400% in one month) – this contradicts the principle that a higher potential return means higher risk; guaranteed high profits do not exist. (2) An unknown sender who is actively advertising – reputable providers do not send promises of profit by direct message. (3) Time pressure (‘today only’) – a classic trick to stop you thinking or asking questions. (4) Moving the conversation to a private channel (‘message me privately’) takes it out of public view. An appropriate response is not to reply or pay in any money, to report and block the account, and, if in doubt, to discuss it with a trusted adult."
+  },
+  "blocks[10].tasks[2].prompt": {
+   "quelle": "sha256:19e2400eb0d97315bf4b990c9d5dbb1da715029c9a022c3aeb9e29094b63e287",
+   "text": "In no more than five sentences, explain to a classmate the difference between a share and a Bitcoin – making sure to include both terms and the principle of risk and return."
+  },
+  "blocks[10].tasks[2].hint": {
+   "quelle": "sha256:d62764a882c02425b5c9592c4d970f39b72a9de754133f4ddb97a8fbb0f246d1",
+   "text": "Build your explanation around the question: ‘What do you own in each case?’ Use the table in the module to help you – and remain neutral: explain, do not recommend."
+  },
+  "blocks[10].tasks[2].solution": {
+   "quelle": "sha256:07636b480ae88007931a5a17eaf3720243575bc249db88e8e1eb81a9c1bc266e",
+   "text": "One possible explanation: ‘With a share, you own a small stake in a real company – you have voting rights, may receive a dividend if it makes a profit, and the share price depends on how successfully the company operates. A Bitcoin, by contrast, is not a stake in anything real: its price depends only on what others are currently willing to pay for it. Both are traded through supply and demand, and losses are possible with both. However, Bitcoin often experiences extreme fluctuations – including the possibility of a total loss. The principle is: higher potential return, higher risk – and anyone promising you high profits without risk is trying to deceive you.’"
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:b23666acc25a5f46c5990581e73feea6f31b94de863bb910a08a21b634f776bd",
+   "inhalt": {
+    "text": "A {{1}} is a stake in a real company. Its owner may {{2}} at the general meeting and can receive a {{3}} if the company makes a profit. The stakes are traded on the {{4}} – a marketplace where {{5}} and demand determine the price. If the price rises above the purchase price, selling produces a {{6}}; if it falls, a loss results.\nThe general rule is: the higher the {{7}}, the higher the {{8}}. There is no real company behind cryptocurrencies such as {{9}} – their price is determined solely by supply and demand, and their fluctuations are often {{10}}.",
+    "luecken": [
+     [
+      "share"
+     ],
+     [
+      "vote",
+      "take part in decisions"
+     ],
+     [
+      "dividend"
+     ],
+     [
+      "stock exchange"
+     ],
+     [
+      "supply"
+     ],
+     [
+      "capital gain"
+     ],
+     [
+      "potential return"
+     ],
+     [
+      "risk"
+     ],
+     [
+      "Bitcoin"
+     ],
+     [
+      "extreme"
+     ]
+    ],
+    "ablenker": [
+     "bonus",
+     "savings interest",
+     "branch"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:4e7845cac1109927ad544a0bd1179a04b7e1e5870a3d3e5d0a469c18699ff22d",
+   "inhalt": {
+    "text": "The price at which a share is traded on the stock exchange is called the {{1}}. The portion of profit that a public limited company may distribute to its shareholders is the {{2}}. The gain from an investment, usually stated as a percentage per year, is called the {{3}}. If more people want to buy a share than sell it, its price {{4}}. And if an online offer promises ‘high returns with absolutely no {{5}}’, you should be extremely cautious.",
+    "luecken": [
+     [
+      "share price",
+      "stock price",
+      "market price"
+     ],
+     [
+      "dividend"
+     ],
+     [
+      "return",
+      "investment return"
+     ],
+     [
+      "rises",
+      "increases",
+      "goes up"
+     ],
+     [
+      "risk",
+      "risk of loss"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:4e34313d00f4d826ecb2251923c17d30bc005460edecdc70208b6740268d3d3c",
+   "inhalt": {
+    "text": "You become a part-owner of a real company. {{1}}\nThere is no real company with factories, employees and profits behind it. {{2}}\nA dividend may be distributed if a profit is made. {{3}}\nThe price is determined by supply and demand in a marketplace. {{4}}\nFluctuations are often extreme – the price can jump by several tens of per cent within weeks. {{5}}\nThe value can fall – a loss is possible. {{6}}\nYou have voting rights at the general meeting. {{7}}\nIt is entirely digital money that works without a government, central bank or banks. {{8}}\nIn extreme cases, a total loss is possible. {{9}}",
+    "luecken": [
+     [
+      "share",
+      "a share"
+     ],
+     [
+      "Bitcoin"
+     ],
+     [
+      "share",
+      "a share"
+     ],
+     [
+      "both"
+     ],
+     [
+      "Bitcoin"
+     ],
+     [
+      "both"
+     ],
+     [
+      "share",
+      "a share"
+     ],
+     [
+      "Bitcoin"
+     ],
+     [
+      "both"
+     ]
+    ]
+   }
+  }
+ }
+}
