@@ -1,0 +1,606 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:10464aa61b1c54d6170743985ccb56661f0adf616597a730a0f3280d7121bc37",
+   "text": "What is economics? Needs, goods and scarcity"
+  },
+  "description": {
+   "quelle": "sha256:13265433af5968618182e4c8797477eb650e65c9910ca177658ad84ed9dcc572",
+   "text": "Why can't you have everything you want? Find out why people need to manage scarce resources: learn to distinguish types of needs and goods and discover the economic principle."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:60cbad252fa244bd259aba09abae45e4f37a6246d0aefd23738acb4efd487d0a",
+   "text": "Topic A: Basic concepts and the circular flow of the economy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:314cc42151533699593a8b9ba6f6b0be99b3b29c9e1f58331716bd566ce79b33",
+   "text": "economics"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:2a5600feeff0a734b664bedad67272d8e6350ad431837d09448a85c871de4514",
+   "text": "needs"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:9654908a8a4ab4f4846f85975f4652c07c4340d0d8db5b5e9a4ada0f33b449d1",
+   "text": "goods"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:d29c6adf3d169d55b7cc942e42c702ad845be7a404eb42bdf6358ff379c77974",
+   "text": "scarcity"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:30e69aa520ce3656430e12849d00e77c93ad8c9d3ae11f1d99dcb954e1d31c91",
+   "text": "economic principle"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:e7828978ce44ebdb3ad47b5f882128eef2d43d562666b5e6fdf04d39899ade4c",
+   "text": "survival need"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:d587d149d0d56337811a4eff5381709b3ab97bc5d86a00ff64a5d2b49c02e2eb",
+   "text": "cultural need"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:ca6c53a2fbd86b676db8403a705057de1cef5a6c15a878a64c13f765620be98b",
+   "text": "luxury need"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:6326a95ab73df588608e6ca71892878e0bd1d960435ac43a4f9c12e0692acdc1",
+   "text": "tangible good"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:9e9370eb362da7cbb2709a03d289417d866de925a21c6ebbef726d1bab25bf9d",
+   "text": "service"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:7c709030f12a027521328efe587d13a61ed031c3660235345cc13b16a69d98a2",
+   "text": "free good"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:e14d3f08571d82fa550348acd423af0ca357f11c85131ed102da0c586abcc83d",
+   "text": "maximum principle"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:3194dea90bfcb44f01059eef10a275aa909acad0abfa093c1a4800f85be158ea",
+   "text": "minimum principle"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:ff58a42ba86282c2c79be925a9d0828632a8006dfe383501632513c406869edf",
+   "text": "I can explain why people need to manage their resources: unlimited needs meet scarce resources."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:7d40df997bcd6cd16b62e582bf3febbb9355d9d08dedd91f074aa8725d4ffa99",
+   "text": "I can distinguish types of needs: survival, cultural and luxury needs, as well as individual and collective needs."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:05c8fa3ba0368f2d68b915e09e0072c9b1f8ffd4373641ec2baef073288ade9f",
+   "text": "I can distinguish types of goods: free and scarce goods, as well as tangible goods and services."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:469ef19318eddb040c11b67cfdddb05c99d1a3412b6ea14825f17a1022cc3c2b",
+   "text": "I can explain the economic principle in simple words: achieve as much as possible with given resources, or achieve a goal using as few resources as possible."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:9aacbc88ffe0d598debd174a67edb4d512b91ff3968b9fa76280e5bfc3e8c9d4",
+   "text": "Why can't you have everything?"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:823915e69d61420222ccec5284f260f78a3aca1c2a81ca71b13caae64d21f4fc",
+   "text": "Imagine this: you worked during the summer holidays and earned **300 francs**. Your wish list includes a new mobile phone, concert tickets and a weekend away with your friends – and you wanted to save some money too. You can't afford it all. You have to **choose**.\n\nThis is where economics begins. Your **needs** – the things you want – are practically **unlimited**: as soon as one wish is fulfilled, another comes along. Your **resources**, however, are **scarce**: you never have enough money, time and energy for everything. This tension between unlimited wants and limited resources is called **scarcity**.\n\nScarcity affects more than just you: a family works out whether it can afford a holiday. A business decides what to use its machines for. And the government has to choose whether to spend tax revenue on renovating school buildings or building roads first.\n\n**Economising** therefore means making thoughtful decisions about how to use our scarce resources to meet as many needs as possible. Everyone does this – every day, usually without noticing. In this module, you will learn the key concepts: needs, goods, scarcity and the economic principle."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:5fea98a0ae08a884bac036cb40d0051ee2e80cc82810bee5b262c994d5fd5e19",
+   "text": "Needs: from survival to luxury"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:515b424c524450c4ff279468ebf57e3fe20e935467e2b911c5dd6a68189a2ded",
+   "text": "A **need** is the feeling that you lack something, together with the wish to make up for it. Hunger, boredom, wanting a new game: these are all needs. But they are not all equally urgent. We distinguish three levels:\n\n- **Survival needs** must be met for you to **survive**: food, drink, sleep, clothing and a roof over your head.\n- **Basic or cultural needs** make life enjoyable and are part of normal everyday life in our society: a mobile phone, a streaming subscription, playing sport at a club, cinema or music.\n- **Luxury needs** go far beyond what is usual: a designer watch, a sports car, a first-class trip around the world.\n\n**Watch out for a common misconception:** luxury does not simply mean ‘expensive’. What counts as luxury depends on the **situation** and the **society**. 150 years ago, a warm shower was pure luxury – today, it is part of normal everyday life here. In Liechtenstein and Switzerland, many people take owning a car for granted, whereas in poorer countries it is a luxury.\n\nWe also distinguish **who** has a need:\n\n- **Individual needs** concern you alone: your morning snack, your playlist, your new bike.\n- **Collective needs** are shared by many people, and no one can meet them alone: safe roads, schools, a nearby hospital, clean air. These are usually the responsibility of central and local government.\n\n**The pyramid of needs:** you can picture the three levels as a pyramid (see the diagram): survival needs form the broad base, basic or cultural needs sit above them, and luxury needs occupy the narrow top. The rule is: **the higher up a need is, the easier it is to do without it** – but you cannot manage without the base. And because the classification depends on the situation and society, needs can move between levels over time. Something to think about: is a smartphone a cultural need or a luxury need in our society today? 20 years ago, the answer was clear – what about today?\n\n**Explore further:** the best-known model of levels comes from psychology: **Maslow's hierarchy of needs** (named after Abraham Maslow). It ranges from basic physical needs through safety and social needs to self-actualisation. Remember: these pyramids are **simplified models**, not laws of nature. In real life, people do not always meet their needs neatly in order from bottom to top – someone might skip lunch to afford concert tickets."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:20d0e248b4df6dee862c63cb25e1906c01846c5ae0c1581e809ab19a589baeef",
+   "text": "The pyramid of needs"
+  },
+  "blocks[2].szene.elemente[0].text": {
+   "quelle": "sha256:20d0e248b4df6dee862c63cb25e1906c01846c5ae0c1581e809ab19a589baeef",
+   "text": "The pyramid of needs"
+  },
+  "blocks[2].szene.elemente[4].text": {
+   "quelle": "sha256:549276acb7824018ed5e659815ede68fd55f72e7b500f08f0e6c3212d17676d5",
+   "text": "Luxury needs\nDesigner watch · Sports car"
+  },
+  "blocks[2].szene.elemente[5].text": {
+   "quelle": "sha256:101b9545b358f5a88e02a8e139c63c80562ec0b306ac658b6625fd58241b89c4",
+   "text": "Basic or cultural needs\nMobile · Streaming plan · Club sport"
+  },
+  "blocks[2].szene.elemente[6].text": {
+   "quelle": "sha256:1fbaabd9d34c81d6316a2d4aa708f89b06a5be854bf447d0a179db1bc5ba90f4",
+   "text": "Survival needs\nfood and drink · sleep · a roof over your head"
+  },
+  "blocks[2].szene.elemente[8].text": {
+   "quelle": "sha256:2c15385730344deebbc3ac64110bccd51218c6418863806362c8d00a0f162615",
+   "text": "the higher up,\nthe easier to\ndo without"
+  },
+  "blocks[2].szene.elemente[10].text": {
+   "quelle": "sha256:bb286eddfb7d1dfd03f2c2326f0aa56930f15e6b1db4bfc47642d5a98f90bc92",
+   "text": "Which level a need belongs to depends on the situation and society – the boundaries can shift."
+  },
+  "blocks[2].beschreibung": {
+   "quelle": "sha256:74d9675520cfb76d69bbac0010879f69d321b3c24c2faf08b867f1daf7b349eb",
+   "text": "The pyramid of needs arranges human needs in three levels according to how easily people can do without them: the broad base at the bottom contains the essentials for survival, while the narrow top contains things people can do without. An upward arrow beside the pyramid sums up the rule: the higher up a need is, the easier it is to do without it. Key points: (1) Survival needs form the broad base and must be met to stay alive – examples: food and drink, sleep, a roof over your head. (2) Basic or cultural needs occupy the middle and are part of normal everyday life in our society – examples: mobile phone, streaming subscription, playing sport at a club. (3) Luxury needs form the narrow top and go far beyond what is usual – examples: designer watch, sports car. (4) Which level a need belongs to depends on the situation and society – the boundaries can shift."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:3638e3632c97dd9c82b60ab82c67b455afc8f44af71495dfb91664d07d04a8a7",
+   "text": "Goods: what we use to meet needs"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:e2cd5d52d85975d2d52778c5029003547483467270595505af7328003e6191b9",
+   "text": "In economics, anything that can satisfy a need is called a **good**. Here too, there are important distinctions.\n\n**Free goods** are available in (almost) unlimited quantities – nobody has to pay for them: air to breathe, sunlight or wind. Since they are not scarce, nobody has to decide how to allocate them – economics does not concern itself with them.\n\n**Scarce goods** – also called **economic goods** – are only available in limited quantities relative to demand, so they have a **price**: your mobile phone, a pizza, a haircut.\n\nWhether a good is free or scarce depends on the situation: at a mountain stream here, water is (almost) a free good – you can simply drink it without anyone charging you. **In the desert**, the same drinking water is essential for survival and extremely **scarce** – someone selling water there can charge almost any price. The same thing, a different place: an (almost) free good becomes a scarce good.\n\nScarce goods are divided into two further groups:\n\n- **Tangible goods** are things you can touch: a mobile phone, a bike, trainers, a pizza.\n- **Services** are activities someone carries out for you: a haircut at the hairdresser's, a bus ride to school, a private lesson – or your streaming subscription. With that, you are not buying an object, but the service that lets you watch films and series."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:309eb2b05078f3443bb98f8baeaeb00fe1c56814887af332b31ecde14a3d0263",
+   "text": "The economic principle: making wise choices with scarce resources"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:ce4b708f5449287c897476c3defe4784b8226b77f5986f59b9fac4b105ab9259",
+   "text": "Because our resources are scarce, people try to use them as **sensibly** as possible. This basic rule is called the **economic principle**. It has two versions, depending on what is fixed:\n\n- **Maximum principle:** your resources are fixed, and you want to achieve **as much as possible** with them. For example: you have 10 francs for morning snacks for the whole week and want to make the most of that money. Or: you have one hour to study today and want to understand as much of the material as possible.\n- **Minimum principle:** your goal is fixed, and you want to achieve it using **as few resources as possible**. For example: you are determined to get a concert ticket, so you look for the cheapest place to buy it in advance. Or: you want to learn exactly the 30 words for your French test with as little study effort as possible.\n\nRemember: it is always **one or the other**. ‘Achieve as much as possible with as few resources as possible’ sounds clever, but it does not work: one side – the resources or the goal – has to be fixed, otherwise you have no basis for deciding.\n\nYou encounter the economic principle everywhere: when shopping, studying, gaming (getting as far as possible with a single life) – and later at work. Understanding it helps you make more conscious choices about money and time."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:4eb0a9b7d3dd0e7fd97ecf4e41709241144e8b242b0c7268dc9b70c333a383c7",
+   "text": "Video: what does economising mean?"
+  },
+  "blocks[5].description": {
+   "quelle": "sha256:df9840f7b1db014aec1ad67f28e1e0fa8a8c3e7fc92fc893149fc003de20612e",
+   "text": "This short explainer video (3:24) sums up the module's key concepts and adds how **money** relates to the exchange of goods. As you watch, think about: (1) How does the video link needs, goods and money – how does it get from wanting something to buying it? (2) You already know the economic principle from the reading: try to spot the maximum and minimum principles before the video explains them."
+  },
+  "blocks[5].transcript": {
+   "quelle": "sha256:f7e855d8de96030f7d53ff0610f58b7f109700f215677e782c22b61042d40087",
+   "text": "This explainer video from the educational channel ‘Die Merkhilfe Wirtschaft’ (3:24 minutes) answers four questions in turn: What does economising mean? What are needs? What are goods? And what is money? It starts with scarcity: needs are practically unlimited, but resources are limited – so people need to economise, meaning they must make thoughtful use of scarce goods. Goods are the means of satisfying needs; money makes exchanging these goods easier and serves as a means of payment. Finally, the video explains the economic principle and its two versions: the maximum principle (achieve as much as possible with given resources) and the minimum principle (achieve a fixed goal using as few resources as possible)."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:7bb812fde901f1f9e5bc357cef11adcffa6c676fbda684954c71da3df51c3a70",
+   "text": "Quiz: needs, goods and the economic principle"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:5c7218ff03b8e6de0e2a8ca0244d45f0d71bbe7e0cc4b53f20bfc60d9a7f94e1",
+   "text": "First, show what you have learnt from the reading. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:0402662669ee5b99713b51926afb8ef00531c3178ca7a9b07cff5e7f8605b26b",
+   "text": "Why do people need to economise in the first place?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:53c9ab2f069b28627509a5daf1f516648b351cfab4be50f970769abf4f1d87ae",
+   "text": "Because most people earn too little – rich people do not need to economise."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:df0b4bda8a0ff503675fcc69644910fe0b8ead273eb7ac89d4baf9ee2eb7dbdf",
+   "text": "Because the government dictates how much each person may spend."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:4e3d0b1fe3e88ede05d13ae9656e5acc384a7e4bc7638e2716d98457b8090a58",
+   "text": "Because needs are practically unlimited, but resources are scarce – so we have to make choices."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:4223fda9f6a3b9746cde60f69573a4acb972ebd30277c4cd35dd0a1a17261e71",
+   "text": "Because money alone cannot buy happiness, so people should live modestly."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:b77036713acc730bfd67b7ff9e048fd9c785ef58feeca4103da7cdebbcf21ff2",
+   "text": "Scarcity affects everyone, including the very rich: even if they have plenty of money, their time is limited, and they must choose how to use it. Economising means using scarce resources thoughtfully because there is never enough to satisfy every wish. The term has nothing to do with government rules or modest living as a personal philosophy."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:eaf4a3b93fb78ebaf9991b017729ac8bc627609e6fd4e312c82b3f993a0ce9b2",
+   "text": "Food, drink and a roof over your head are …"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:1d2de1af2148771f5f3223f0488021128e4e206d11eef24dc15f7527ec34f143",
+   "text": "cultural needs"
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:6adb7671969fb995730b41bec3366bb5193b647c460ec2e619c11d464c1a0523",
+   "text": "survival needs"
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:a37fae3124bf063dbc9415692680d07220afd16f6b6e8df6bc2d4c81a30976d6",
+   "text": "luxury needs"
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:7a5c207cb5fa1c716da5ebb2aed1d6f1e218aab0bdfcb7b1810caa50e33c38cb",
+   "text": "collective needs"
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:5cea6cf9ef455c366dffb6c9af2356953aeb0b91de27c29d580b7fd788ca866a",
+   "text": "Survival needs are essential for staying alive – you cannot survive without food, drink and shelter. Cultural and luxury needs build on these. ‘Collective’ does not describe how urgent a need is, but means that many people can only meet it together – that is a different way of classifying needs."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:5f81d81b72f9cccd0c3acdf149b3c633131eafad360c7b86d50b547c3b02acae",
+   "text": "What makes a need a luxury need?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:420153405a733642ec90c3befa072ea3f720269466ef4d82022ef569de95fe92",
+   "text": "It costs more than 1000 francs."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:beb2c23a9d015adbbfc35b2032bd753785a45d9e4fb72aa1313b89f81e4138b9",
+   "text": "It is the same for everyone in the world at all times."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:e30d918478d63a3a1313832534419ec57ae1700e0d8ffd4cc6a37c12d70ef74d",
+   "text": "It is any need you cannot afford to meet straight away."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:1296c623c5c6a841ff30b8c4b879759ab40ec573294cb5c4c9970682af681faf",
+   "text": "It goes far beyond what is usual in a society – so it depends on the situation, place and time."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:56eece99e8cc7ad55d85746745f01455eb6bc2bcdce85b3cae2d6449a90addeb",
+   "text": "Luxury is not defined by a fixed price threshold, nor does it simply mean ‘too expensive for me’. The measure is what is usual in a society, and that changes: a warm shower was a luxury 150 years ago but is normal today; owning a car is common here but a luxury in poorer countries."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:e62a8417ad54534c9ad16a661c8b3ad1ec05f6e4ebd5f070390fa98942d56e09",
+   "text": "Which of the following is an example of a collective need?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:a8318eb36f1b89439b622679ef5ed48d3519f48238c93a3bd69b77b8dcf8485d",
+   "text": "Safe roads and schools for everyone"
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:60df8a5dd8c7a9a92f57ddf6984d947ed9402888e4b77d4ccd55754efae57ebe",
+   "text": "Your wish for a room of your own"
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:0fbb0c52b09049bd6a25d1536849ec467abec7a752f10b25b6df1cb9dcd366f0",
+   "text": "Your morning snack at break time"
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:3904b2b0bd7c1ed5da326c6b185ff2fe322e135e47512aad89b37a1024aa74ef",
+   "text": "The new mobile phone you want"
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:5316f968f6cbdb004f23ff42a4f03cc54f1bdfc3c9af6293f88052241e58ccdb",
+   "text": "Collective needs are shared by many people, and no one can meet them alone – so central and local government usually take care of them. A room of your own, a morning snack and a mobile phone, on the other hand, concern you alone: these are individual needs."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:27a4cc59f540ec5ac9b542e15532f42c6519439fe73f1db4e334d147bab814ae",
+   "text": "Why is air to breathe a free good, but drinking water in the desert a scarce good?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:89fd63927c1edaf7b35fda2188ae5e3e9e3270845c598ba843fc5988206f90da",
+   "text": "Because water is more important to humans than air."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:c7e143ecd42fac01c5b7de2cce6eb55c3d0df420032bc0fab8ec8963831f096e",
+   "text": "Because nobody has the right to sell air."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:59fa0afa4c38223c7448bfcdcf5e3db02078fe355c4b472765a56a5771d27bb8",
+   "text": "Because producing water in the desert requires a great deal of effort."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:991cff36829883075d4bd46b501c5c6f3143ef9d01710cb768c5ce3fce7df3f6",
+   "text": "Air is available in (almost) unlimited quantities; drinking water in the desert is very limited relative to demand – whether a good is free or scarce depends on the situation."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:457ca19833fd5799412ac8433d65712379ec20c8afa4afb955cba1d9948214d8",
+   "text": "Whether a good is free or scarce depends on the available quantity relative to demand, not on its importance: air is essential for life AND still a free good because it is available in (almost) unlimited quantities. Water is simply very hard to find in the desert; this classification has nothing to do with selling rights or production costs."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:fba45a2a4387ce48d28a5cd7f47980fe1bfacb295e2d728f63e7139115a6f91a",
+   "text": "You pay for a streaming subscription every month. What are you buying?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:ba1c346fe3ddb71a88a580832dc41e2b9d22b814eb400f87cd6e6d7ded1b55c8",
+   "text": "A tangible good – after all, you can touch the mobile phone you watch it on."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:33179a9fe896b6e647fa26c5d3a76e1c3c7a91f85cc631b255ed845b232ac76b",
+   "text": "A service – you pay for the service that lets you watch films and series."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:ab1c87f4363d191290fb9d7051666d839051c4aeed2d3b26388429ddb266f408",
+   "text": "A free good – it is free during the trial month, after all."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:57e6e8d13ba00964b8de75a518695c81574da44fdfd1a02705ead01aaadf5e2b",
+   "text": "A collective need – because millions of people have the same subscription."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:6d53c19fcc3ce3fe7bcacd634bcf4a0f4bc5918b882136ccd05b5a84a20a1497",
+   "text": "With streaming, you are not buying an object but an activity or service. The mobile phone is a separate tangible good. Being ‘free during the trial month’ does not make streaming a free good: the offer is limited and normally has to be paid for. And a need is different from the good that satisfies it."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:d4dd1dfc4edea510e6655f1b6e531e015270cc4359e757db5ee35855c069ba73",
+   "text": "You have exactly 10 francs for morning snacks this week and want to make the most of that money throughout the week. Which principle are you following?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:66d06d50a7b3c1b2efe0377dc411c227e1a55ab5ed835ed3c6d532a9bea162e2",
+   "text": "The minimum principle: the aim is to spend as little money as possible."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:e79573851e2fdf892a1b461376d031267e899977bca46b60db5e07f7ab8c5708",
+   "text": "Both at the same time: achieve as much as possible with as few resources as possible."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:d2ae10f48dc899b59f8dd7680c1a9a04b938dad9cdc62fb5cd3a8a69c48ac9e6",
+   "text": "The maximum principle: your resources are fixed, and you want to achieve as much as possible with them."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:58d495eb7401d2dba3a6f8dace50f52e6c39bd3bc35062651bba018ae5de8040",
+   "text": "Neither principle: you cannot economise with such small amounts."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:01918aedb0486cf776fdb802b657b7585eca2dc158e33b82c4d0cc6423760592",
+   "text": "Your resources (10 francs) are fixed, and you want to get the most out of them – that is the maximum principle. The minimum principle works the other way round: achieve a fixed goal (e.g. a sandwich every day) with as little money as possible. ‘Both at the same time’ does not work – one side has to be fixed. And you can economise with any amount, however small."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:45875384f84a0cbf6b7c052eb47feafb6ac2cdbbfdfac25aba1eb41ff8480aee",
+   "text": "In the pyramid of needs, survival needs are at the bottom and luxury needs at the top. What does a need's position in the pyramid tell you?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:c849e3b4e1e6bf15394853c940563207d421f4b347e5ee98de5a26db67bffec4",
+   "text": "The higher up a need is, the easier it is to do without it."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:5e1f279787b007512df25808bf748ae5db1221ac0d8f0c6ebe4a6224494cede0",
+   "text": "The higher up a need is, the more important it is for survival."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:38efee7490d9d068f133dc882dc061836527f927395931745ca43a50747a66ac",
+   "text": "The higher up a need is, the more it costs in francs."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:fb05889746ada8db47ecf67668a84b1b750acf79500dc0bdcd1d1a0be2b86c5c",
+   "text": "The lower down a need is, the fewer people have it."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:fea1f33e52f4bc66cc576e0ea1159f56b45ed92dccbd38efd858b8680098810e",
+   "text": "The pyramid sorts needs by how easily people can do without them: everyone needs the base (food, drink, sleep and shelter) to survive – the higher up you go, the easier it is to manage without. The level is not directly related to price: a morning snack is cheap but still meets a survival need, while an expensive concert ticket is something you can do without. And the needs at the very bottom are shared by everyone, not just a few people."
+  },
+  "blocks[6].questions[8].prompt": {
+   "quelle": "sha256:64c0d29a7b8af50ce19c39964a9f6e62b32569fe6f024af178d50620fa9e1646",
+   "text": "20 years ago, a smartphone was a luxury – today, it is part of normal everyday life for most people here. What does this example show about the pyramid of needs?"
+  },
+  "blocks[6].questions[8].options[0].text": {
+   "quelle": "sha256:5c617a7a2ce86265e92143366b0a678999b40db8304981cf0a79e7b17acbe994",
+   "text": "A smartphone has become a survival need because nobody can live without one today."
+  },
+  "blocks[6].questions[8].options[1].text": {
+   "quelle": "sha256:51c6cf7bec9bceb485c865a2db781041518292825e7e035f9cafe9aabf6e5a94",
+   "text": "The pyramid is now wrong because luxury needs no longer exist."
+  },
+  "blocks[6].questions[8].options[2].text": {
+   "quelle": "sha256:5a67d71ce99f3c3ca76f3e038d54602f44705854d07bbe1dc99b0384242a3815",
+   "text": "A need always stays at the same level – only its price changes."
+  },
+  "blocks[6].questions[8].options[3].text": {
+   "quelle": "sha256:cd30414168e417c3645237fa47bea03770ec66f99f636c4c12bdfa411d9e5ece",
+   "text": "Which level a need belongs to depends on the situation and society and can change over time."
+  },
+  "blocks[6].questions[8].explanation": {
+   "quelle": "sha256:8bd43cee763de718e8a89da2ea87cbb5f400f2bfc5025939b0720a2b7b49c511",
+   "text": "The pyramid is a simplified model, not a law of nature: which level a need belongs to depends on the situation and society, and needs can move – as the smartphone has moved from a luxury need to a cultural need. It is still not a survival need: you can survive without it. Luxury needs still exist – they are just different from those of 20 years ago."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:f5a760c98c587f855640c249cc3ef9337d52a410e97763125e711ca3982d3376",
+   "text": "Needs and goods: fill in the terms"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:454d8996ee76d3e92a85bab3e710deb8d3471f2557b90f524a135211c5311384",
+   "text": "Drag the correct terms into the gaps (on a mobile phone: tap the word first, then the gap). **Watch out:** three of the choices do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:7fc1172510f2107f6650f8349889412643c398cebeb5188850ceb1ad7f44d8c3",
+   "text": "Scarcity and the economic principle: type in the terms"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "This time there is no word bank – **type in the missing terms yourself**. Capitalisation does not matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:12406a2226b4b41ab1b2398be4a00b2b52addcfc91eb1bbfeef0972c86b46b23",
+   "text": "Match everyday examples to their categories"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:6f4b6b6f12bf6ffb94ef430e2f15634a6580108b3503275485b016cf2a63e39e",
+   "text": "Match each example to the correct category – for needs: survival, cultural or luxury need; for goods: free good, tangible good or service. Categories may appear more than once. **One of the choices does not fit anywhere.**"
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:64f091a26d84b5377a729c67ee2710d53ae7f2d5cb76b8e92b9888f724204a8d",
+   "text": "Explore further: apply the concepts"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:462a4f27f2596f8be9038ba70389641e811b30fd1d553d5092dfc16955552b4d",
+   "text": "Find one new example from your own everyday life (none from this module!) for each of these: a survival need, a cultural need, a luxury need, a tangible good, a service and a free good. Write down the six examples."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:436a79b48b204deccef69dd3cd373825692804c2c93ec122aa11a12f3fec48c9",
+   "text": "Think through a normal day: getting up, breakfast, travelling to school, free time, evening. Where do you encounter objects and activities carried out by other people – and what do you use without paying for it?"
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:7954e7fb04de320c07e5c6d884afaf8cee72f515a97bd76264eaba845d910335",
+   "text": "Possible solution: survival need – sleep; cultural need – playing football with friends; luxury need – a top-of-the-range e-bike; tangible good – your toothbrush; service – a hairdresser's appointment or a train ride; free good – the wind that cools you as you cycle. Any example that fits the definition of the category is correct."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:e577b01b7b6409b528973f93075c326d69b0ddd833ae72d0b654fbf9e0a2ad36",
+   "text": "Explain in your own words why even millionaires need to economise, so that someone unfamiliar with the subject (a classmate, your sister, your granny …) could understand. OR: create your own question in the style of this module's quiz, with one correct answer and three wrong answers that draw on common misconceptions."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:3b10af20fdda22241decfa4302a6baea3c57b89343b2f78b82020994b65d628f",
+   "text": "The term ‘scarce resources’ can help with your explanation: money is just one resource – what is limited even for rich people? For the quiz question: good wrong answers sound reasonable but confuse two concepts (e.g. ‘expensive’ and ‘scarce’)."
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:4d132a3f0bcc29b02aea3d934a1329ee95d1d264a9cdcf784d05bc9b2cef0c58",
+   "text": "Key idea for the explanation: even someone with a great deal of money has only 24 hours in a day – time and attention remain scarce, so they too have to make choices and economise. Example quiz question: ‘Your neighbour pays a gardener to look after the lawn. What is your neighbour buying? a) a service (correct), b) a tangible good, c) a free good, d) a survival need.’"
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:63569944609abb7c8067ac9f9f84beb15c9bf7c5a4afbd9bf5d1efac8c67e019",
+   "inhalt": {
+    "text": "Everyone has wants – in economics, these are called {{1}}. Food, drink, sleep and a roof over your head are {{2}}: we cannot survive without them. Wants that are part of normal everyday life in our society – such as a mobile phone or a cinema visit – are called basic or {{3}}. Something that goes far beyond this, such as a designer watch, is a {{4}}.\nIf a need concerns only you, it is an {{5}} need. When many people need something together – such as schools or safe roads – it is called a {{6}} need.\nNeeds are met by goods. Goods such as air and sunlight are available in unlimited quantities and cost nothing: they are called {{7}} goods. Most goods, however, are limited and have a price: they are called {{8}} goods or economic goods. Objects you can touch, such as a bike, are {{9}}; activities such as a haircut are {{10}}.",
+    "luecken": [
+     [
+      "needs",
+      "human needs"
+     ],
+     [
+      "survival needs",
+      "essential needs",
+      "subsistence needs",
+      "physiological needs"
+     ],
+     [
+      "cultural needs"
+     ],
+     [
+      "luxury need"
+     ],
+     [
+      "individual"
+     ],
+     [
+      "collective",
+      "shared"
+     ],
+     [
+      "free"
+     ],
+     [
+      "scarce",
+      "limited"
+     ],
+     [
+      "tangible goods",
+      "physical goods",
+      "material goods"
+     ],
+     [
+      "services"
+     ]
+    ],
+    "ablenker": [
+     "dreams",
+     "expensive",
+     "luxury goods"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:a77efcbacbd46707ae67db4aca75aa53e773f95c5b1167493b8e3f2731e648e4",
+   "inhalt": {
+    "text": "Our needs are practically unlimited, but our resources, such as money and time, are {{1}}. So we constantly have to choose and allocate resources – this is called {{2}}.\nIf you want to achieve as {{3}} as possible with fixed resources, you are following the maximum principle. If you want to achieve a fixed goal using as {{4}} resources as possible, you are following the minimum principle. Together, these two versions make up the {{5}} principle.",
+    "luecken": [
+     [
+      "scarce",
+      "limited",
+      "finite",
+      "restricted",
+      "in short supply"
+     ],
+     [
+      "economising",
+      "economizing",
+      "managing resources",
+      "managing scarce resources",
+      "resource management",
+      "allocating resources",
+      "resource allocation",
+      "making economic decisions",
+      "economic decision-making",
+      "economic decision making"
+     ],
+     [
+      "much",
+      "much output"
+     ],
+     [
+      "few",
+      "little",
+      "fewer",
+      "less"
+     ],
+     [
+      "economic"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:d31e71df6b289994a1f809931b28aa021416604bfa533ee52b12d7e842867713",
+   "inhalt": {
+    "text": "What type of need is this?\nHaving enough to eat and drink: {{1}}\nGoing to the cinema with friends at the weekend: {{2}}\nDesigner sunglasses costing 900 francs: {{3}}\nHaving a warm home in winter: {{4}}\nListening to music and playing an instrument: {{5}}\n\nWhat type of good is this?\nAir to breathe: {{6}}\nYour bike: {{7}}\nA haircut at the hairdresser's: {{8}}\nSunlight in summer: {{9}}\nThe bus ride to school: {{10}}",
+    "luecken": [
+     [
+      "survival need",
+      "a survival need",
+      "essential need",
+      "an essential need",
+      "subsistence need",
+      "a subsistence need",
+      "physiological need",
+      "a physiological need"
+     ],
+     [
+      "cultural need",
+      "a cultural need",
+      "basic need",
+      "a basic need"
+     ],
+     [
+      "luxury need",
+      "a luxury need"
+     ],
+     [
+      "survival need",
+      "a survival need",
+      "essential need",
+      "an essential need",
+      "subsistence need",
+      "a subsistence need",
+      "physiological need",
+      "a physiological need"
+     ],
+     [
+      "cultural need",
+      "a cultural need",
+      "basic need",
+      "a basic need"
+     ],
+     [
+      "free good",
+      "a free good"
+     ],
+     [
+      "tangible good",
+      "a tangible good",
+      "physical good",
+      "a physical good",
+      "material good",
+      "a material good"
+     ],
+     [
+      "service",
+      "a service"
+     ],
+     [
+      "free good",
+      "a free good"
+     ],
+     [
+      "service",
+      "a service"
+     ]
+    ],
+    "ablenker": [
+     "collective need"
+    ]
+   }
+  }
+ }
+}
