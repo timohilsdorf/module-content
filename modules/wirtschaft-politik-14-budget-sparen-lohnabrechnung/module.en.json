@@ -1,0 +1,1309 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-14-budget-sparen-lohnabrechnung --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:8064a9d9eeb65555caa3626a4bf1998f153c84619b826c022365ebdb365c369c",
+  "masterCommit": "1aa8ae6",
+  "hintsHash": null,
+  "generatedAt": "2026-10-05",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:wp14-antworten.json",
+  "selfHash": "sha256:bc0aebb83ecabc8c49113600c4502ad7ff14d1e937f638ccc27fb9111758488e"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-14-budget-sparen-lohnabrechnung",
+ "title": "Personal Finance I: Budgeting, Saving and Payslips",
+ "description": "Your first apprentice's wage has arrived – but is your account empty by the 25th of the month? Here you will learn how to read a payslip (gross pay, deductions and net pay), draw up a simple monthly budget and apply the basic rule 'save first, then spend' – all using the consistent example of a first apprentice's wage.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.3",
+     "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+     "code": "WAH.3.3",
+     "description": "Die Schülerinnen und Schüler können kriterien- und situationsorientierte Konsumentscheidungen finden."
+    }
+   ]
+  }
+ ],
+ "sequenz": 14,
+ "einheit": "Topic C: Money, Banks and Financial Literacy",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "Budget",
+  "Monthly budget",
+  "Saving",
+  "Payslip",
+  "Gross pay",
+  "Net pay",
+  "Deductions",
+  "AHV",
+  "fixed costs",
+  "variable costs",
+  "Apprentice's wage"
+ ],
+ "learningObjectives": [
+  "I can draw up a simple monthly budget showing income, fixed and variable expenses, and the amount saved.",
+  "I can explain and apply the basic rule 'save first, then spend'.",
+  "I can read a payslip: gross pay, typical deductions and net pay – and I know that I use my net pay to plan my budget."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Dachverband Budgetberatung Schweiz",
+   "url": "https://www.budgetberatung.ch"
+  },
+  {
+   "title": "AHV-IV-FAK Liechtenstein",
+   "url": "https://www.ahv.li"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-11-versicherungen",
+  "wirtschaft-politik-12-banken-kredit-zins"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Your first wage",
+   "body": "At last: your first apprentice's wage is in your account. Depending on the occupation, it is usually around CHF 600 to 1000 per month in the first year of an apprenticeship – your own money, which you have earned yourself. This is the moment that decides who is in control: **you control your money – or your money controls you**.\n\nDo you know the 'end-of-the-month shortfall'? At the start of the month, your account feels full and you spend money on going out, shopping and food on the go – but by the 25th, there is nothing left, even though it did not feel as if you had spent much. This does not happen because someone is bad at maths. It happens because **without a plan, lots of small expenses remain invisible**.\n\nThe solution is a **budget**: a simple plan made before the month begins that determines where your money should go. A budget is not a punishment or a ban – quite the opposite: it makes sure there is enough money for **what matters to you**. In this module, you will build one step by step, using the example of **Lina**, a third-year apprentice. First, however, you will look at what her payslip actually says – because you do not plan with the pay stated in your contract, but with the amount that actually arrives in your account."
+  },
+  {
+   "type": "text",
+   "title": "Gross is not net: the payslip",
+   "body": "Lina's apprenticeship contract promises **CHF 1100** per month. But only **CHF 1026** reaches her account. A mistake? No – the answer is in the small print on her **payslip**:\n\n- **Gross pay:** the agreed pay before any deductions – CHF 1100 for Lina. This figure is used for calculations, but it never reaches her account.\n- **Deductions:** small portions of the pay that go directly to social insurance schemes. For Lina, these are:\n  - **AHV/IV:** Old-age and survivors' insurance pays the pensions of today's pensioners – this is known as the **intergenerational contract**: today's workers fund today's pensions, and the next generation will pay for you later. IV protects people who can no longer work because of an accident or illness.\n  - **Non-occupational accident insurance (NBU):** your accident cover outside work – you already know about compulsory accident cover through your employer from [[modul:wirtschaft-politik-11-versicherungen]]; you pay the NBU premium yourself, which is why it appears as a deduction on your payslip.\n  - **Sickness daily allowance insurance:** replaces part of your pay if you are ill for an extended period.\n- **Net pay:** gross pay minus deductions – CHF 1026 for Lina. **This is the figure you use to plan your budget.**\n\nThere are two things you should know so that your first real payslip does not confuse you. First, **AHV/IV contributions** only begin on 1 January of the year in which you turn 18. This deduction is therefore often missing during the first years of an apprenticeship, making the payslip correspondingly shorter. Second, the **basic health insurance premium does not** appear on the payslip: it is billed separately. The exact amounts and percentages vary by employer and occupation – what matters is the principle: **gross pay → deductions → net pay.**"
+  },
+  {
+   "type": "schaubild",
+   "title": "Lina's payslip at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 450,
+      "y": 8,
+      "width": 301.67,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 763495363,
+      "type": "text",
+      "text": "Reading a payslip",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "pill-brutto",
+      "x": 340,
+      "y": 60,
+      "width": 190,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1717784045,
+      "type": "rectangle"
+     },
+     {
+      "id": "pill-abzuege",
+      "x": 575,
+      "y": 60,
+      "width": 190,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 515019619,
+      "type": "rectangle"
+     },
+     {
+      "id": "pill-netto",
+      "x": 810,
+      "y": 60,
+      "width": 190,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1241319501,
+      "type": "rectangle"
+     },
+     {
+      "id": "kette-pfeil-1",
+      "x": 534.5,
+      "y": 88,
+      "width": 35,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 644886275,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        35,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "kette-pfeil-2",
+      "x": 769.5,
+      "y": 88,
+      "width": 35,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1529902765,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        35,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "lohnzettel-karte",
+      "x": 40,
+      "y": 170,
+      "width": 580,
+      "height": 668,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 121198243,
+      "type": "rectangle"
+     },
+     {
+      "id": "zeile-kopf",
+      "x": 56,
+      "y": 186,
+      "width": 548,
+      "height": 108,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#dbe4f0",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 614930701,
+      "type": "rectangle"
+     },
+     {
+      "id": "zeile-brutto",
+      "x": 56,
+      "y": 314,
+      "width": 548,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 800885315,
+      "type": "rectangle"
+     },
+     {
+      "id": "zeile-ahv",
+      "x": 56,
+      "y": 390,
+      "width": 548,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 534409069,
+      "type": "rectangle"
+     },
+     {
+      "id": "zeile-nbu",
+      "x": 56,
+      "y": 490,
+      "width": 548,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 886589923,
+      "type": "rectangle"
+     },
+     {
+      "id": "zeile-krankengeld",
+      "x": 56,
+      "y": 590,
+      "width": 548,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528035789,
+      "type": "rectangle"
+     },
+     {
+      "id": "zeile-total",
+      "x": 56,
+      "y": 666,
+      "width": 548,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 194712963,
+      "type": "rectangle"
+     },
+     {
+      "id": "zeile-netto",
+      "x": 56,
+      "y": 742,
+      "width": 548,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1600993325,
+      "type": "rectangle"
+     },
+     {
+      "id": "kasten-brutto",
+      "x": 730,
+      "y": 254,
+      "width": 510,
+      "height": 164,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e8f1fb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 54750499,
+      "type": "rectangle"
+     },
+     {
+      "id": "kasten-abzuege",
+      "x": 730,
+      "y": 458,
+      "width": 510,
+      "height": 248,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1456450189,
+      "type": "rectangle"
+     },
+     {
+      "id": "kasten-netto",
+      "x": 730,
+      "y": 746,
+      "width": 510,
+      "height": 136,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#ebfbee",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2134888643,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-brutto",
+      "x": 725.5,
+      "y": 340,
+      "width": 103,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1911869677,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -103,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-abzuege",
+      "x": 725.5,
+      "y": 586.5,
+      "width": 103,
+      "height": 29,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1898889315,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -103,
+        29
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-netto",
+      "x": 725.5,
+      "y": 805.5,
+      "width": 103,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 241576781,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -103,
+        -19
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "fussnote",
+      "x": 40,
+      "y": 922,
+      "width": 1200,
+      "height": 164,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 316587011,
+      "type": "rectangle"
+     },
+     {
+      "id": "MlWi76K9MVAlaknxRQfOR",
+      "x": 391.67,
+      "y": 75.5,
+      "width": 86.67,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 194421731,
+      "type": "text",
+      "text": "Gross pay",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pill-brutto",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Tx9nbWbkzWBIEeRGATQw4",
+      "x": 630.76,
+      "y": 75.5,
+      "width": 78.48,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1836986243,
+      "type": "text",
+      "text": "− Deductions",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pill-abzuege",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "uiGPjhPJ1tUdTK8zCyZ3L",
+      "x": 865,
+      "y": 75.5,
+      "width": 79.99,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#237633",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 766723875,
+      "type": "text",
+      "text": "Net pay",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pill-netto",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a2ue0L8_Or-yMfXbOceyD",
+      "x": 208.8,
+      "y": 210,
+      "width": 242.39,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2029220163,
+      "type": "text",
+      "text": "Payslip for August\nLina Muster, third-year apprentice\nMuster AG, Vaduz",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeile-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "juUNmkYSqY4AOc-bl-lcF",
+      "x": 237.82,
+      "y": 330.75,
+      "width": 184.36,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 614093027,
+      "type": "text",
+      "text": "Gross pay  CHF 1100.00",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeile-brutto",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "5nJM0C3fOecszOfBdydtT",
+      "x": 202.41,
+      "y": 410,
+      "width": 255.18,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1669610627,
+      "type": "text",
+      "text": "− AHV/IV (old-age and survivors'\n/ disability insurance)  − CHF 52.00",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeile-ahv",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "XVOoxJk0YCxJfiQO7HGU7",
+      "x": 222.19,
+      "y": 510,
+      "width": 215.62,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1903146019,
+      "type": "text",
+      "text": "− Non-occupational accident insurance\n(NBU)  − CHF 11.00",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeile-nbu",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Xc1lH8t4c1c4Lw9GVoUkf",
+      "x": 195.07,
+      "y": 608,
+      "width": 269.85,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 239810499,
+      "type": "text",
+      "text": "− Sickness daily allowance insurance  − CHF 11.00",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeile-krankengeld",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "CKXkMssThzpvTV7stzO-c",
+      "x": 229.56,
+      "y": 682.75,
+      "width": 200.87,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2016757603,
+      "type": "text",
+      "text": "Total deductions  − CHF 74.00",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeile-total",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Qu653GkqfSyQkgbWo0idu",
+      "x": 200.77,
+      "y": 759.5,
+      "width": 258.45,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#237633",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 628908803,
+      "type": "text",
+      "text": "Net pay (paid into account)\nCHF 1026.00",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeile-netto",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "bu2Cl5rNV1SnAA_07ET4i",
+      "x": 885.7,
+      "y": 286,
+      "width": 198.61,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1769b5",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1050610339,
+      "type": "text",
+      "text": "Gross pay: the pay agreed in the\napprenticeship contract – before any\ndeductions. It is used for\ncalculations but never reaches\nyour account.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kasten-brutto",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "_7xOW4AunDnkYc5yRpyFr",
+      "x": 869.7,
+      "y": 502,
+      "width": 230.61,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1481358915,
+      "type": "text",
+      "text": "Social insurance deductions: small\nportions of pay for insurance. AHV/IV\nfunds today's pensions (the\nintergenerational contract) and covers\ndisability. NBU covers accidents\noutside work; sickness daily allowance\ninsurance replaces pay during a\nlonger illness.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kasten-abzuege",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "-yvuVi-fKUV4AtWLck4s6",
+      "x": 873.9,
+      "y": 774,
+      "width": 222.2,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1835072995,
+      "type": "text",
+      "text": "Net pay: gross pay minus deductions –\nthe money that actually reaches your\naccount. You use this figure to\nplan your budget.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kasten-netto",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "fRE70Xbi3qfkBgiwxXI4I",
+      "x": 395.91,
+      "y": 960.25,
+      "width": 488.17,
+      "height": 87.5,
+      "angle": 0,
+      "strokeColor": "#666e75",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1355221827,
+      "type": "text",
+      "text": "Example figures, rounded – exact deductions vary by employer, occupation and age.\nTwo special points: AHV/IV contributions are only deducted from 1 January of the year\nin which you turn 18, so this deduction is often absent during the first years of an\napprenticeship. The basic health insurance premium does not appear on the payslip:\nit is paid separately by invoice.",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "fussnote",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram 'Reading a payslip' uses Lina Muster's August payslip (a third-year apprentice at Muster AG, Vaduz) to explain how a payslip is structured: social insurance deductions are subtracted from gross pay, leaving the net pay that is paid into the account. Three explanatory boxes classify the entries on the payslip, while a footnote highlights the rounded example figures and two special points. Key messages: – Basic principle: gross pay − deductions = net pay. – Gross pay of CHF 1100.00: the pay agreed in the apprenticeship contract before any deductions; this figure is used for calculations but never reaches the account. – Social insurance deductions are small portions of pay for insurance (covered in [[modul:wirtschaft-politik-11-versicherungen]]): AHV/IV (old-age and survivors'/disability insurance), − CHF 52.00, funds today's pensions (the intergenerational contract) and provides protection in the event of disability; non-occupational accident insurance (NBU), − CHF 11.00, covers accidents outside work; sickness daily allowance insurance, − CHF 11.00, replaces pay during an extended illness; total deductions, − CHF 74.00. – Net pay (paid into the account), CHF 1026.00: gross pay minus deductions – the money that actually reaches the account; you use this figure to plan your budget. – Footnote: example figures, rounded – exact deductions vary by employer, occupation and age; AHV/IV contributions are only deducted from 1 January of the year in which you turn 18, and the basic health insurance premium does not appear on the payslip but is billed separately.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "XmFnEjHx7VU",
+   "title": "Video: My First Budget",
+   "description": "This explanatory video (4:17) from Dachverband Budgetberatung Schweiz is aimed precisely at people in your situation: first wage, first expenses of your own. As you watch, focus on two guiding questions: (1) Which fixed commitments does the video mention – and which of them would also appear in your budget? (2) How does the video allow for irregular bills and savings goals? Afterwards, compare this with the basic rule 'save first, then spend'.",
+   "transcript": "The explanatory video from Dachverband Budgetberatung Schweiz (4:17 minutes) shows why a personal budget provides security – especially when you receive your first wage, move out of home or have a major goal such as buying a car. It explains step by step how to compare income and expenses: fixed commitments such as a mobile phone, public transport or a contribution towards board and lodging are distinguished from variable expenses, and reserves are set aside for irregular bills and savings goals. The examples use Swiss francs, making them directly relevant to the lives of apprentices in Liechtenstein and Switzerland."
+  },
+  {
+   "type": "text",
+   "title": "The monthly budget: save first, then spend",
+   "body": "A budget consists of four building blocks:\n\n1. **Income:** everything that comes in – net pay, perhaps pocket money or a contribution from relatives.\n2. **Amount saved:** the amount you set aside **first** – more on that in a moment.\n3. **Fixed expenses:** the same amount is due every month – a mobile phone plan, a public transport pass or a contribution towards board and lodging at home. They are predictable but difficult to change at short notice.\n4. **Variable expenses:** these fluctuate from month to month – going out, clothes, food on the go and games. This is where you have the most flexibility.\n\nThe most important rule is: **save first, then spend.** This means setting aside the amount you want to save as soon as your pay arrives – like a bill you pay to yourself, ideally by standing order into a separate savings account. Experience shows that people who do it the other way round and save 'whatever is left at the end' save nothing. The end-of-the-month shortfall reliably swallows the rest.\n\n**Lina's budget** looks like this:\n\n| Item | Amount |\n|---|---|\n| Income: net pay | CHF 1026 |\n| Amount saved (first!) | − CHF 100 |\n| Fixed: mobile phone plan | − CHF 30 |\n| Fixed: public transport pass | − CHF 60 |\n| Fixed: contribution towards board and lodging | − CHF 150 |\n| **Left for variable expenses** | **CHF 686** |\n\nBy saving CHF 100 per month, Lina has put aside CHF 1200 after a year – at this rate, she will reach her goal of CHF 2400 for a moped in two years. If she spends less in a particular month, the remainder also goes into her savings account. And if an unexpected bill arrives – for the dentist or a broken bicycle – her reserve saves her from going into debt. That is exactly what [[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]] is about."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Budget and Payslip",
+   "teilkompetenzen": [
+    "wp.budget.lohnabrechnung-erklaeren",
+    "wp.budget.monatsbudget-berechnen"
+   ],
+   "intro": "Show that you understand payslips and budgets. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What is gross pay?",
+     "options": [
+      {
+       "text": "The pay transferred into your account after all deductions."
+      },
+      {
+       "text": "The total of all deductions on the payslip."
+      },
+      {
+       "text": "The pay agreed in the contract before any deductions.",
+       "correct": true
+      },
+      {
+       "text": "The pay after social insurance deductions but before the mobile phone plan."
+      }
+     ],
+     "explanation": "Gross pay is the starting point: the pay stated in the (apprenticeship) contract, before any deductions. The amount that reaches your account after deductions is net pay; confusing the two is a classic mistake. The total of the deductions is something else again (CHF 74 for Lina). And personal expenses such as a mobile phone plan have no place on a payslip – they belong in the budget."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What is net pay – and why is it the key figure for your budget?",
+     "options": [
+      {
+       "text": "Gross pay minus deductions – the amount that actually reaches your account and that you can budget.",
+       "correct": true
+      },
+      {
+       "text": "The pay plus all allowances – the highest figure on the payslip."
+      },
+      {
+       "text": "The amount the employer transfers to AHV."
+      },
+      {
+       "text": "The pay you find online for your occupation."
+      }
+     ],
+     "explanation": "Net pay = gross pay minus deductions – the money that actually arrives. This is the only amount you can plan with: if you base your budget on gross pay, you are allocating money that will never reach your account. The highest figure on the payslip is gross pay, not net pay. The AHV transfer is a deduction, not pay – and pay figures found online are averages, not your payslip."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "What does the 'AHV/IV' deduction on the payslip stand for?",
+     "options": [
+      {
+       "text": "A personal savings account at the bank that belongs only to you."
+      },
+      {
+       "text": "A fee charged by the employer for transferring your pay."
+      },
+      {
+       "text": "The premium for your private mobile phone insurance."
+      },
+      {
+       "text": "Old-age and survivors' insurance (AHV) and disability insurance (IV): they fund today's pensions (the intergenerational contract) and provide protection in the event of disability.",
+       "correct": true
+      }
+     ],
+     "explanation": "AHV/IV are social insurance schemes: your contributions pay the pensions of today's pensioners – later, the next generation will fund your pension. This is the intergenerational contract. AHV is therefore not a personal savings account – your money is not 'saved up' for you but passed on immediately. A transfer fee charged by the employer would not be permitted, and private policies such as mobile phone insurance do not appear on a payslip."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Why is the AHV/IV deduction missing from the payslips of many first-year apprentices?",
+     "options": [
+      {
+       "text": "Because apprentices never pay AHV contributions."
+      },
+      {
+       "text": "Because the obligation to contribute only begins on 1 January of the year in which you turn 18.",
+       "correct": true
+      },
+      {
+       "text": "Because employers often forget the deduction during the first few months."
+      },
+      {
+       "text": "Because AHV contributions are only due on pay of CHF 2000 or more."
+      }
+     ],
+     "explanation": "For employed people, the obligation to contribute to AHV/IV begins on 1 January of the year in which they turn 18. Someone who starts an apprenticeship at 15 or 16 will therefore only see the deduction appear later – their net pay will then be slightly lower, without anyone having made a mistake. So 'never' is not correct, nothing has been forgotten, and there is no CHF 2000 pay threshold for these contributions."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "What does the basic rule 'save first, then spend' mean?",
+     "options": [
+      {
+       "text": "Saving is only worthwhile once you have more than CHF 10 000 in your account."
+      },
+      {
+       "text": "You cannot spend anything until your savings account is full."
+      },
+      {
+       "text": "The order does not matter – the main thing is to have something left at the end."
+      },
+      {
+       "text": "Set aside the amount you want to save as soon as your pay arrives – like a bill to yourself.",
+       "correct": true
+      }
+     ],
+     "explanation": "The trick is the order: if you move the amount you want to save as soon as your pay arrives – ideally by standing order into your savings account – you cannot spend it 'by accident'. That is precisely why the order matters: people who save 'whatever is left' usually save nothing because the end-of-the-month shortfall swallows everything. There is no minimum amount for saving – even CHF 20 counts. Nor does the rule ban spending: the rest of the money is there to be spent."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Which of these is a fixed expense?",
+     "options": [
+      {
+       "text": "Weekend cinema visits."
+      },
+      {
+       "text": "New clothes in the sale."
+      },
+      {
+       "text": "The mobile phone plan.",
+       "correct": true
+      },
+      {
+       "text": "Ice creams in summer."
+      }
+     ],
+     "explanation": "Fixed expenses occur regularly and are the same amount – the mobile phone plan charges the same amount every month, whatever you do. Cinema visits, clothes and ice creams are variable expenses: they fluctuate from month to month, and you make a new decision each time. That is why variable expenses give you the most flexibility – and why it is worth listing the two types separately in your budget."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "How is the basic health insurance premium normally paid?",
+     "options": [
+      {
+       "text": "Separately by invoice to the health insurer – it does not appear on the payslip.",
+       "correct": true
+      },
+      {
+       "text": "It is always deducted directly from gross pay."
+      },
+      {
+       "text": "The state pays it in full for everyone."
+      },
+      {
+       "text": "It is already included in AHV."
+      }
+     ],
+     "explanation": "The basic insurance premium arrives as a separate bill – parents often still pay it for apprentices, but later it belongs as a fixed item in your own budget. It does not appear on the payslip (at most, you will find sickness daily allowance insurance there – that is something different: replacement pay during illness). The state does not pay the entire premium, nor is it included in AHV – AHV is pension insurance."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Lina's net pay is CHF 1026. She first sets aside CHF 100 as savings; her fixed expenses are CHF 240. How much remains for variable expenses?",
+     "options": [
+      {
+       "text": "CHF 786."
+      },
+      {
+       "text": "CHF 686.",
+       "correct": true
+      },
+      {
+       "text": "CHF 926."
+      },
+      {
+       "text": "CHF 586."
+      }
+     ],
+     "explanation": "Start with the net pay: 1026 − 100 (savings first!) − 240 (fixed expenses) = CHF 686. Anyone who gets CHF 786 has forgotten the savings amount – exactly what happens in real life if you do not move it first. CHF 926 includes only the savings amount, not the fixed costs. And CHF 586 subtracts CHF 100 too much – it pays to check your calculation."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-budget-grundlagen",
+   "title": "Fill in the terms: Pay and budget",
+   "teilkompetenzen": [
+    "wp.budget.lohnabrechnung-erklaeren",
+    "wp.budget.monatsbudget-berechnen"
+   ],
+   "intro": "Drag the appropriate terms into the gaps (on a mobile: tap the word first, then the gap). **Caution:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "At the top of a payslip is the {{1}} – the agreed pay before deductions. Next come the {{2}}, for example for AHV/IV and {{3}}, which also protects you against accidents outside work. What remains is the {{4}} – the amount that reaches your account and that you use for planning.\nIn your budget, you distinguish {{5}} expenses such as a mobile phone plan, which cost the same every month, from {{6}} expenses such as going out. The basic rule is: {{7}} first, then spend – set aside the {{8}} as soon as your pay arrives. If you also plan ahead for irregular bills, you build up {{9}}. This keeps you in {{10}} of your money.",
+   "luecken": [
+    {
+     "antworten": [
+      "gross pay"
+     ]
+    },
+    {
+     "antworten": [
+      "deductions"
+     ]
+    },
+    {
+     "antworten": [
+      "accident insurance"
+     ]
+    },
+    {
+     "antworten": [
+      "net pay"
+     ]
+    },
+    {
+     "antworten": [
+      "fixed"
+     ]
+    },
+    {
+     "antworten": [
+      "variable"
+     ]
+    },
+    {
+     "antworten": [
+      "save",
+      "saving"
+     ]
+    },
+    {
+     "antworten": [
+      "amount saved",
+      "savings amount"
+     ]
+    },
+    {
+     "antworten": [
+      "reserves"
+     ]
+    },
+    {
+     "antworten": [
+      "control"
+     ]
+    }
+   ],
+   "ablenker": [
+    "dividend",
+    "loan interest",
+    "tip"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-budget-rechnen",
+   "title": "Calculate and enter: Lina's budget",
+   "teilkompetenzen": [
+    "wp.budget.monatsbudget-berechnen"
+   ],
+   "intro": "Time to calculate: **complete Lina's budget and enter the numbers** – just the number, without 'CHF'. Use a calculator if you like.",
+   "modus": "eingabe",
+   "text": "Lina's net pay is CHF 1026. First, she sets aside her savings amount of CHF 100. Her fixed expenses are: CHF 30 for her mobile phone plan, CHF 60 for her public transport pass and CHF 150 towards board and lodging – a total of CHF {{1}}. This leaves her CHF {{2}} for variable expenses. In July, she only spends CHF 500 of this, so she can set aside an additional CHF {{3}}. With the fixed savings amount alone, she will have saved CHF {{4}} after twelve months. Using only the fixed savings amount, she will reach her savings goal of CHF 2400 for a moped after {{5}} months.",
+   "luecken": [
+    {
+     "antworten": [
+      "240"
+     ]
+    },
+    {
+     "antworten": [
+      "686"
+     ]
+    },
+    {
+     "antworten": [
+      "186"
+     ]
+    },
+    {
+     "antworten": [
+      "1200",
+      "1'200",
+      "1’200"
+     ]
+    },
+    {
+     "antworten": [
+      "24"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-budgetposten",
+   "title": "Match them: fixed, variable – or saving?",
+   "teilkompetenzen": [
+    "wp.budget.monatsbudget-berechnen"
+   ],
+   "intro": "Assign each budget item to the correct category: **fixed** (the same each month), **variable** (fluctuates from month to month) or **saving**. Each category is used more than once.",
+   "modus": "wortbank",
+   "text": "Mobile phone plan. {{1}}\nGoing out at the weekend. {{2}}\nAmount for your savings goal that you set aside as soon as your pay arrives. {{3}}\nPublic transport pass. {{4}}\nClothes. {{5}}\nEmergency fund for unexpected bills. {{6}}\nContribution towards board and lodging at home. {{7}}\nGames and in-app purchases. {{8}}\nMoney set aside for the moped. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "fixed"
+     ]
+    },
+    {
+     "antworten": [
+      "variable"
+     ]
+    },
+    {
+     "antworten": [
+      "saving",
+      "savings"
+     ]
+    },
+    {
+     "antworten": [
+      "fixed"
+     ]
+    },
+    {
+     "antworten": [
+      "variable"
+     ]
+    },
+    {
+     "antworten": [
+      "saving",
+      "savings"
+     ]
+    },
+    {
+     "antworten": [
+      "fixed"
+     ]
+    },
+    {
+     "antworten": [
+      "variable"
+     ]
+    },
+    {
+     "antworten": [
+      "saving",
+      "savings"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Extension: Your own budget",
+   "teilkompetenzen": [
+    "wp.budget.monatsbudget-berechnen",
+    "wp.budget.lohnabrechnung-erklaeren"
+   ],
+   "tasks": [
+    {
+     "prompt": "Create your personal monthly budget using Lina's as a template: (1) Write down your income (pocket money, holiday job, contributions). (2) Choose an amount to set aside first – and a specific savings goal. (3) List your fixed expenses. (4) Calculate what remains for variable expenses.",
+     "hint": "No wage? No problem – the template also works with CHF 50 in pocket money. The important thing is the structure: income − savings − fixed expenses = room for variable spending. One tenth of your income is a tried-and-tested starting point for the amount saved. A savings goal is also more motivating when it is specific: 'concert ticket in March' rather than 'something someday'.",
+     "solution": "There is no model solution – check your budget with these questions: Have you included all regular income? Is the amount saved right at the top, immediately after income – rather than whatever remains at the end? Have you really included all fixed costs (small subscriptions count too – streaming, cloud storage and games)? Does the calculation balance without becoming negative? If it is negative, cut variable expenses first, then subscriptions – reduce the savings amount last."
+    },
+    {
+     "prompt": "Your friend is broke from the 25th of every month and says, 'There is no point saving on my small wage – I will just save whatever is left at the end.' Reply in three or four sentences: explain the basic rule 'save first, then spend' and give your friend a specific, practical suggestion.",
+     "hint": "Why is there usually nothing left when you 'save at the end'? Think of the end-of-the-month shortfall – and a standing order. The suggestion is more effective if it is small and specific: better to save CHF 30 for certain than never save CHF 100.",
+     "solution": "One possible answer: 'It works the other way round: if you save whatever is left, nothing will be left – the end-of-the-month shortfall swallows it all. Set aside your savings on payday, like a bill to yourself. Set up a standing order that automatically moves CHF 30 into a separate savings account on the 1st of each month – you will hardly notice it in everyday life. After a year you will have CHF 360 instead of twelve lots of nothing.'"
+    },
+    {
+     "prompt": "Prepare for your first real payslip: formulate three questions you would ask your vocational trainer (or your parents) about it – and for each question, consider what answer you would expect based on this module.",
+     "hint": "Good questions focus on where payslips can be surprising: Why is net pay lower than gross pay? Which deductions appear on mine – and which do not (yet)? How does the 13th month's pay work in my occupation? Who pays my health insurance premium?",
+     "solution": "Examples of good questions with likely answers: (1) 'Why is there no AHV deduction on my payslip?' – Because the obligation to contribute only begins on 1 January of the year in which I turn 18; from then on, my net pay will be slightly lower. (2) 'What is the NBU deduction?' – The premium for non-occupational accident insurance, which also protects me outside work ([[modul:wirtschaft-politik-11-versicherungen]]). (3) 'Why does health insurance not appear on the payslip?' – The basic insurance premium is billed separately; at most, the payslip includes sickness daily allowance insurance. The details of the answers may well vary by employer – which is exactly why it is worth asking."
+    }
+   ]
+  }
+ ]
+}
