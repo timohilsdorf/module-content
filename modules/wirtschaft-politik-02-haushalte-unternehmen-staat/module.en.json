@@ -1,0 +1,896 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-02-haushalte-unternehmen-staat --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:1cc093484b485319cee24216b80f4c960eba0b8b3d6551863f89d75db2bfb17b",
+  "masterCommit": "26ea52e",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:344df6e8719fbc833e91069901e5710534551c8b46a16fa50f0168be5171394f"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-02-haushalte-unternehmen-staat",
+ "title": "Economic activity: households, businesses and the state",
+ "description": "A holiday job, shopping, the journey to school: three economic actors are behind these everyday moments. You will get to know households, businesses and the state, describe their roles and recognise simple exchanges such as work for wages.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 2,
+ "einheit": "Topic A: Basic concepts and the circular flow of the economy",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "leicht",
+ "keywords": [
+  "economic actors",
+  "households",
+  "businesses",
+  "state",
+  "labour",
+  "wages",
+  "consumption",
+  "production",
+  "taxes",
+  "public services",
+  "exchange relationship",
+  "dual role"
+ ],
+ "learningObjectives": [
+  "I can name the three economic actors – households, businesses and the state – and describe their roles.",
+  "I can describe simple exchanges: work for wages, goods for money, and taxes for public services.",
+  "I can match everyday examples to the right actor and recognise dual roles: the same person can be part of a business as an employee and part of a household in their private life."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-01-was-ist-wirtschaft"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Who is actually taking part in the economy?",
+   "body": "Remember the holiday job in [[modul:wirtschaft-politik-01-was-ist-wirtschaft]]? Let's take a closer look: during the summer holidays, you work in the **village bakery**, stocking shelves and serving customers. At the end of the month, you receive your **wages**. On the way home, you buy a sandwich – and walk along a road that neither you nor the bakery built.\n\nThis little scene already involves all three **economic actors** – the name for those who take part in the economy:\n\n- **Households** – you and your family, for example: you consume goods and supply labour.\n- **Businesses** – the bakery, for example: it produces goods and services and pays wages.\n- **The state** – the national and local authorities: it sets rules, collects taxes and provides public services, such as schools and roads.\n\nIn [[modul:wirtschaft-politik-01-was-ist-wirtschaft]], you learnt **why** people engage in economic activity: unlimited needs meet limited resources. This module looks at **who** is actually taking part – and what these three actors exchange with one another."
+  },
+  {
+   "type": "text",
+   "title": "Households: consuming and supplying labour",
+   "body": "A **household** consists of all the people who live together and manage their resources together – whether a family with children, a couple without children, people sharing a flat or someone living alone. **Everyone belongs to a household.** Despite the word 'house', you do not have to live in one: people who live in a rented flat form a household too.\n\nHouseholds have two roles in the economy:\n\n- **They consume**: households buy goods and services to meet their needs – bread from the baker, a winter jacket, a streaming subscription, a haircut. Consuming means buying goods and using them or using them up.\n- **They supply labour**: adults (and you in your holiday job!) make their time, skills and energy available to businesses or the state – their **labour**. In return, they receive **wages**.\n\nThese two roles are connected: households pay for their consumption with the wages they earn from work. They can save what is left – another economic decision, like those you know from [[modul:wirtschaft-politik-01-was-ist-wirtschaft]]: resources are limited, so the household must choose what to spend its money on."
+  },
+  {
+   "type": "text",
+   "title": "Businesses: producing and paying wages",
+   "body": "**Businesses** are the economy's producers: they make **physical goods** (the bakery bakes bread, the furniture factory makes tables) or provide **services** (the hairdresser cuts hair, the bus company takes you to school). Businesses come in all sizes – from a one-person business to a manufacturing company with thousands of employees.\n\nBusinesses also have two main roles:\n\n- **They produce goods and services** and sell them – to households, other businesses or the state. They aim to earn more from sales than production costs them: they want to make a **profit**. Profit is to businesses what wages are to you – without it, they could not survive.\n- **They pay wages**: to produce anything, businesses need the labour supplied by households. The bakery needs bakers and shop assistants; the furniture factory needs carpenters and lorry drivers. Businesses pay wages for this work.\n\nBusinesses and households therefore depend on each other: without workers, there would be no bread on the shelves – and without wages, there would be no money to buy it."
+  },
+  {
+   "type": "text",
+   "title": "The state: rules, taxes and public services",
+   "body": "The third actor is the **state** – here, that means the national and local authorities and everything that belongs to them: the government, the Landtag, public administration, schools and the police. The state has a special role in the economy because, unlike businesses, it does **not aim to make a profit**. Its tasks are:\n\n- **It sets rules**: laws determine what is allowed in the economy – for example, how many hours young people may work in a holiday job, that food must be inspected, or that advertising must not lie. Without these rules, exchanging goods and doing business would be risky.\n- **It collects taxes**: households pay part of their income to the state, and businesses pay part of their profits. Taxes are neither a punishment nor a voluntary donation – they are **everyone's contribution** to shared tasks.\n- **It provides public services**: the state uses tax revenue to fund things that benefit everyone and that hardly anyone could pay for alone – schools, roads, the police, hospitals and bus services. Remember the **collective needs** in [[modul:wirtschaft-politik-01-was-ist-wirtschaft]]? These are exactly what the state takes care of.\n\n**Watch out for this common misconception:** 'The state is a business too – after all, it pays teachers' wages.' That is not true: paying wages does not make an organisation a business. What matters is its **aim**: businesses produce things to make a profit. The state provides services so that society can function – your school is there to give you an education, not to make a profit. That does not mean it costs nothing: everyone pays for it together – through taxes."
+  },
+  {
+   "type": "schaubild",
+   "title": "The three economic actors at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 417,
+      "y": 0,
+      "width": 308.3,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 336292045,
+      "type": "text",
+      "text": "The three economic actors",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "staat",
+      "x": 305,
+      "y": 70,
+      "width": 640,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 324408963,
+      "type": "rectangle"
+     },
+     {
+      "id": "haushalte",
+      "x": 0,
+      "y": 310,
+      "width": 400,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 94291757,
+      "type": "rectangle"
+     },
+     {
+      "id": "unternehmen",
+      "x": 560,
+      "y": 310,
+      "width": 690,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1039552035,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-arbeitskraft",
+      "x": 410.5,
+      "y": 345,
+      "width": 139,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2113362317,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        139,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-lohn",
+      "x": 549.5,
+      "y": 410,
+      "width": 139,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 49189315,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -139,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "fusszeile",
+      "x": 277,
+      "y": 510,
+      "width": 597.76,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1447993325,
+      "type": "text",
+      "text": "One person can have several roles: a business employee in the morning,\na household member in the evening.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "yjv6qqhUVzN3jDYYvk9hz",
+      "x": 487.72,
+      "y": 100,
+      "width": 274.55,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2123153773,
+      "type": "text",
+      "text": "State\nsets rules · collects taxes\nprovides public services\n(schools, roads, police)",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "staat",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "4BFF2W3Lhe-C7nC8Ux8Ds",
+      "x": 112.81,
+      "y": 337.5,
+      "width": 174.38,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 330042317,
+      "type": "text",
+      "text": "Households\nconsume goods\nsupply labour",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "haushalte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "lu3OtxKBXAruQpRq6oGeV",
+      "x": 744.77,
+      "y": 337.5,
+      "width": 320.47,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 791874093,
+      "type": "text",
+      "text": "Businesses\nproduce goods and services\npay wages",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "unternehmen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "p6pOvcFCaFhSquqIbAAUO",
+      "x": 441.35,
+      "y": 335,
+      "width": 77.3,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 302726285,
+      "type": "text",
+      "text": "Labour",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-arbeitskraft",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "fc4E1x4hacsZ3din2uB-V",
+      "x": 463.11,
+      "y": 400,
+      "width": 33.77,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1506413485,
+      "type": "text",
+      "text": "Wages",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-lohn",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The illustration 'The three economic actors' introduces the three actors in the economy and their roles. It shows the basic exchange of labour for wages between households and businesses. Key points: (1) The state sets rules, collects taxes and provides public services, such as schools, roads and the police. (2) Households consume goods and supply labour. (3) Businesses produce goods and services and pay wages. (4) Households and businesses exchange with each other: households supply businesses with labour (the 'Labour' arrow), and businesses pay households wages in return (the 'Wages' arrow). (5) The same person can have several roles: an employee in a business in the morning and a member of a household in their private life in the evening.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Exchanging: what do you give – what do you get?",
+   "body": "The three actors do not operate separately – they constantly **exchange** with one another. You will come across three simple exchanges again and again:\n\n- **Work for wages**: a household supplies labour to a business – the business pays wages in return. That is exactly what happens in your holiday job: you give your time and effort, and the bakery gives you money at the end of the month.\n- **Goods for money**: a household gives money to a business – the business provides a good or a service in return. A sandwich for francs, a haircut for francs.\n- **Taxes for public services**: households and businesses pay taxes to the state – in return, the state provides services that are available to everyone: a school, a tarmacked road, police assistance. This exchange does not work item by item, as at a shop checkout – nobody gets exactly 100 francs' worth of road for 100 francs in taxes. But taken as a whole, everyone contributes and everyone can use the services.\n\n**One person, several roles:** the actors are roles, not fixed groups of people. The shop assistant in the bakery is part of the **business** while she is at work – when she does her own shopping after work, she acts as a consumer for her **household**. A teacher works for the **state** – in his private life, he is part of a household and pays taxes himself. Ask yourself in each example: **what role is this person acting in right now?**\n\nIf you link all these exchanges together, you get a network in which money and goods circulate. You will take a closer look at how this network works as a whole – the circular flow of the economy – in [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]]."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: the three economic actors",
+   "teilkompetenzen": [
+    "wp.akteure.rollen-beschreiben",
+    "wp.akteure.austausch-beschreiben",
+    "wp.akteure.beispiele-zuordnen"
+   ],
+   "intro": "Show what you know about households, businesses and the state. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Which three economic actors have you learnt about in this module?",
+     "options": [
+      {
+       "text": "Banks, stock exchanges and corporations"
+      },
+      {
+       "text": "Households, businesses and the state",
+       "correct": true
+      },
+      {
+       "text": "Buyers, sellers and banks"
+      },
+      {
+       "text": "Employers, employees and trade unions"
+      }
+     ],
+     "explanation": "The three basic actors are households (which consume and supply labour), businesses (which produce and pay wages) and the state (rules, taxes and public services). Banks and corporations are themselves businesses; buyers, sellers, employers and employees are roles that households and businesses take on when exchanging with one another."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What does a household do in the economy?",
+     "options": [
+      {
+       "text": "It produces goods and sells them at a profit."
+      },
+      {
+       "text": "Only families with children count as households – they look after the children."
+      },
+      {
+       "text": "It sets rules for businesses and checks that they follow them."
+      },
+      {
+       "text": "It consumes goods and services and supplies labour.",
+       "correct": true
+      }
+     ],
+     "explanation": "Households have two roles: they consume (buy goods and services to meet their needs) and supply labour. A household consists of all the people who live together and manage their resources together – including people living alone and people sharing a flat, not just families. Producing is the role of businesses; setting rules is the role of the state."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "The bakery in your village is a business. How can you tell?",
+     "options": [
+      {
+       "text": "It produces goods (bread) and provides a service (serving customers), pays its employees wages and aims to make a profit.",
+       "correct": true
+      },
+      {
+       "text": "Because the baker's family lives above the shop – anywhere people live is a business."
+      },
+      {
+       "text": "Because it has to follow the state's hygiene rules – so it belongs to the state."
+      },
+      {
+       "text": "Because it buys flour and electricity – anyone who buys things is a business."
+      }
+     ],
+     "explanation": "You can recognise businesses by their role: they produce goods or services, pay wages and aim to make a profit. Living together makes the family a household; it is not what makes the bakery a business. Having to follow the state's rules does not make the bakery part of the state – the rules apply to everyone. And households buy things too."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "The state pays the teachers at your school their wages. Does that mean the state is also a business?",
+     "options": [
+      {
+       "text": "Yes – anyone who pays wages is automatically a business."
+      },
+      {
+       "text": "Yes – the state is actually the biggest business in the country."
+      },
+      {
+       "text": "No – the state has its own role: it does not aim to make a profit, but sets rules, collects taxes and provides public services.",
+       "correct": true
+      },
+      {
+       "text": "No – because the state is not allowed to employ anyone."
+      }
+     ],
+     "explanation": "Paying wages alone does not make an organisation a business – what matters is its aim. Businesses produce things to make a profit; the state provides services so that society can function. The state certainly can and must employ people: teachers, police officers and many others work for it – but it remains a separate actor with its own tasks."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Why does the state collect taxes?",
+     "options": [
+      {
+       "text": "To fund public services that benefit everyone – such as schools, roads and the police.",
+       "correct": true
+      },
+      {
+       "text": "Taxes are a punishment for people and businesses that earn too much."
+      },
+      {
+       "text": "Taxes are voluntary donations – if you do not want to pay, you do not have to."
+      },
+      {
+       "text": "The state puts all its tax revenue into a savings account in case it needs money later."
+      }
+     ],
+     "explanation": "Taxes are everyone's contribution to shared tasks: the state uses them to pay for public services such as schools, roads, the police and hospitals. They are neither a punishment nor voluntary – they are set by law and compulsory for everyone. And the state does not hoard them: it continually uses the revenue to carry out its tasks."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "You have a holiday job in the bakery. Which description of the exchange 'work for wages' is correct?",
+     "options": [
+      {
+       "text": "The bakery supplies you with its labour, and you pay it wages in return."
+      },
+      {
+       "text": "The state pays your wages because it pays all wages in the country."
+      },
+      {
+       "text": "You pay the bakery so that you can work there and learn something."
+      },
+      {
+       "text": "You supply the bakery with your labour, and the bakery pays you wages in return.",
+       "correct": true
+      }
+     ],
+     "explanation": "In the exchange 'work for wages', the household (you) supplies the labour, and the business (the bakery) pays wages in return – not the other way round, and you do not have to pay to work either. The state only pays the wages of its own employees, such as teachers – not the wages of employees in businesses."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "You do not pay fees for lessons at your school. Does that make schooling a free good, like air?",
+     "options": [
+      {
+       "text": "Yes – anything that costs nothing is a free good."
+      },
+      {
+       "text": "No – schooling is a public service: the state pays for it with the taxes that everyone contributes.",
+       "correct": true
+      },
+      {
+       "text": "No – the school is a business that deliberately makes a loss."
+      },
+      {
+       "text": "Yes – because teachers and caretakers work without pay."
+      }
+     ],
+     "explanation": "School may seem free to you, but it is expensive: the building, electricity, materials and teachers' wages cost a lot of money. Taxes pay for these – schooling is a public service provided by the state, not a free good. Free goods such as air or sunlight are available in (almost) unlimited quantities and cost nobody anything – you learnt this in [[modul:wirtschaft-politik-01-was-ist-wirtschaft]]."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Ms Beck works as a shop assistant in a sports shop during the day. After work, she shops at the supermarket. Which actor does she belong to?",
+     "options": [
+      {
+       "text": "Only the business – anyone who is employed somewhere stays in that role around the clock."
+      },
+      {
+       "text": "Only the household – as a private individual, she can never be part of a business."
+      },
+      {
+       "text": "Both, depending on her role: at work, she is part of the business; when shopping for herself, she acts as part of her household.",
+       "correct": true
+      },
+      {
+       "text": "The state – after all, she pays taxes on her wages."
+      }
+     ],
+     "explanation": "The actors are roles, not fixed groups of people: at work, Ms Beck acts for the business; in her private life, she acts as a consumer for her household. What always matters is the role someone is acting in at that moment. Paying taxes does not make her part of the state – households and businesses pay taxes precisely as actors who exchange with the state."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-akteure-und-rollen",
+   "title": "Actors and roles: fill in the terms",
+   "teilkompetenzen": [
+    "wp.akteure.rollen-beschreiben"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Three actors take part in the economy. {{1}} consume goods and services – they include everyone, whether they live alone or as a family. They also supply businesses with their {{2}}. {{3}} produce goods and services and pay {{4}} for the labour they need. Their aim is to make {{5}}.\nThe {{6}} acts for a different reason: it sets {{7}} for economic activity, collects {{8}} from households and businesses, and uses the revenue to provide public {{9}} – for example, schools, the police and {{10}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "Households",
+      "the households"
+     ]
+    },
+    {
+     "antworten": [
+      "labour",
+      "labor",
+      "work"
+     ]
+    },
+    {
+     "antworten": [
+      "Businesses",
+      "the businesses",
+      "companies",
+      "the companies",
+      "firms",
+      "the firms",
+      "enterprises",
+      "the enterprises"
+     ]
+    },
+    {
+     "antworten": [
+      "wages",
+      "pay",
+      "salaries"
+     ]
+    },
+    {
+     "antworten": [
+      "a profit",
+      "profit",
+      "profits"
+     ]
+    },
+    {
+     "antworten": [
+      "state",
+      "the state",
+      "government",
+      "the government"
+     ]
+    },
+    {
+     "antworten": [
+      "rules",
+      "laws",
+      "regulations"
+     ]
+    },
+    {
+     "antworten": [
+      "taxes",
+      "tax",
+      "levies",
+      "taxes and levies",
+      "taxes and duties"
+     ]
+    },
+    {
+     "antworten": [
+      "services",
+      "goods and services",
+      "facilities",
+      "amenities"
+     ]
+    },
+    {
+     "antworten": [
+      "roads",
+      "the roads"
+     ]
+    }
+   ],
+   "ablenker": [
+    "Banks",
+    "Rents",
+    "Donations"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-austauschbeziehungen",
+   "title": "Exchanges: type in the terms",
+   "teilkompetenzen": [
+    "wp.akteure.austausch-beschreiben"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Capital and lower-case letters are treated as the same.",
+   "modus": "eingabe",
+   "text": "Economic activity involves exchange. Someone who works for a business supplies their labour and receives {{1}} in return. Someone who buys bread at the bakery gives {{2}} and receives goods in return. Households and businesses also pay {{3}} to the state. In return, the state provides public {{4}}, such as schools and roads. This exchange does not work item by item as at a shop checkout, but as a whole: everyone contributes, and everyone can {{5}} what is provided.",
+   "luecken": [
+    {
+     "antworten": [
+      "wages",
+      "a wage",
+      "wage",
+      "pay",
+      "a salary",
+      "salary",
+      "salaries",
+      "earnings",
+      "payment",
+      "a payment",
+      "remuneration"
+     ]
+    },
+    {
+     "antworten": [
+      "money",
+      "cash",
+      "francs",
+      "Swiss francs",
+      "CHF"
+     ]
+    },
+    {
+     "antworten": [
+      "taxes",
+      "tax",
+      "levies",
+      "taxes and levies",
+      "taxes and duties",
+      "tax payments"
+     ]
+    },
+    {
+     "antworten": [
+      "services",
+      "goods and services",
+      "facilities",
+      "amenities"
+     ]
+    },
+    {
+     "antworten": [
+      "use",
+      "make use of",
+      "access",
+      "benefit from",
+      "utilise",
+      "utilize",
+      "enjoy",
+      "take advantage of"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-akteure",
+   "title": "Match the actor: household, business or state?",
+   "teilkompetenzen": [
+    "wp.akteure.beispiele-zuordnen"
+   ],
+   "intro": "Match each example to the actor involved: **household**, **business** or **state**. Each actor appears more than once – and remember: the same person can take on different roles depending on the situation. **One term in the selection does not fit anywhere.**",
+   "modus": "wortbank",
+   "text": "The Öhri family cooks dinner in the evening and then watches a film together: {{1}}\nThe bakery in Triesen bakes bread and sells it in the shop: {{2}}\nThe Landtag passes a new law to protect young people: {{3}}\nMr Matt works as a baker in the morning, baking Zopf bread in the bakery: {{4}}\nIn the evening, Mr Matt shops for his family at the supermarket: {{5}}\nThe municipality has the road in front of the school building resurfaced with tarmac: {{6}}\nA schoolgirl earns her first wages in a holiday job: {{7}}\nA furniture shop pays its employees their monthly wages: {{8}}\nMs Banzer teaches at the state school – the national authorities pay her wages from tax revenue: {{9}}\nAfter school, Ms Banzer pays for her shopping at the checkout: {{10}}",
+   "luecken": [
+    {
+     "antworten": [
+      "Household",
+      "a household",
+      "the household"
+     ]
+    },
+    {
+     "antworten": [
+      "Business",
+      "a business",
+      "the business",
+      "company",
+      "a company",
+      "the company",
+      "firm",
+      "a firm",
+      "the firm",
+      "enterprise",
+      "an enterprise",
+      "the enterprise"
+     ]
+    },
+    {
+     "antworten": [
+      "State",
+      "the state",
+      "government",
+      "the government"
+     ]
+    },
+    {
+     "antworten": [
+      "Business",
+      "a business",
+      "the business",
+      "company",
+      "a company",
+      "the company",
+      "firm",
+      "a firm",
+      "the firm",
+      "enterprise",
+      "an enterprise",
+      "the enterprise"
+     ]
+    },
+    {
+     "antworten": [
+      "Household",
+      "a household",
+      "the household"
+     ]
+    },
+    {
+     "antworten": [
+      "State",
+      "the state",
+      "government",
+      "the government"
+     ]
+    },
+    {
+     "antworten": [
+      "Household",
+      "a household",
+      "the household"
+     ]
+    },
+    {
+     "antworten": [
+      "Business",
+      "a business",
+      "the business",
+      "company",
+      "a company",
+      "the company",
+      "firm",
+      "a firm",
+      "the firm",
+      "enterprise",
+      "an enterprise",
+      "the enterprise"
+     ]
+    },
+    {
+     "antworten": [
+      "State",
+      "the state",
+      "government",
+      "the government"
+     ]
+    },
+    {
+     "antworten": [
+      "Household",
+      "a household",
+      "the household"
+     ]
+    }
+   ],
+   "ablenker": [
+    "Bank"
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: put the terms into practice",
+   "teilkompetenzen": [
+    "wp.akteure.beispiele-zuordnen",
+    "wp.akteure.rollen-beschreiben"
+   ],
+   "tasks": [
+    {
+     "prompt": "Think back over your day yesterday. Write down three situations in which you (or your household) dealt with another economic actor – at least once with a business and once with the state. For each situation, write down: who is acting? What is given, and what is received?",
+     "hint": "Think about buying things (goods for money), work (labour for wages – perhaps your parents' work or your holiday job), and everything the state provides: your route to school, lessons, a bus journey on public roads.",
+     "solution": "Possible solution: (1) I bought a drink at Volg – I give money to a business and receive a good. (2) My mother went to work – she supplies her labour to a business and receives wages in return. (3) I had lessons – the state provides schooling as a public service, funded by the taxes that my household and businesses pay. Any example that correctly identifies the actor and the exchange is valid."
+    },
+    {
+     "prompt": "Imagine explaining to someone else (a classmate, your sister, your granny …) in your own words why the same person can belong to a household AND a business at the same time. Write your explanation here – ideally with an example from your village. OR: create your own quiz question in the style of this module's quiz – with one correct answer and three wrong answers based on common misconceptions.",
+     "hint": "The word 'role' helps when explaining: ask yourself what the person is doing right now – working for a business or doing their own shopping? For the quiz question: good wrong answers sound reasonable but confuse two things (for example, 'pays wages' with 'is a business').",
+     "solution": "Key idea for your explanation: the actors are roles, not fixed groups. The hairdresser is part of the business while she is at work (she provides the service); after work, when shopping or at home, she acts as part of her household. Example quiz question: 'The municipality employs a caretaker for the school building. Who is acting as the employer here? a) the state (correct), b) a business, because anyone who employs people is a business, c) the caretaker's household, d) nobody – caretakers work as volunteers.'"
+    }
+   ]
+  }
+ ]
+}
