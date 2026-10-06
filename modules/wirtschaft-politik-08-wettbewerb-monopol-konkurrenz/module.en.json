@@ -1,0 +1,1610 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-08-wettbewerb-monopol-konkurrenz --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:ab71b62879b5b9f0553fa2aecbc15fa1feb255398dc7e807a0102159b4fc5a74",
+  "masterCommit": "a1ec86f",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten-codex.json",
+  "selfHash": "sha256:6f588e2246bfd787ac262d80246c1470054c4c96105b3638a434c4480c86636b"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
+ "title": "Competition: monopoly and competitive markets",
+ "description": "Why is a day pass for the only ski lift in the valley so expensive, while a pizza delivered in the city is so cheap? Here you will learn what competition is good for, distinguish between monopoly, oligopoly and competition, and find out why price-fixing agreements (cartels) are banned.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 8,
+ "einheit": "Topic block B: Markets and prices",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "competition",
+  "rivalry",
+  "monopoly",
+  "oligopoly",
+  "market structures",
+  "cartel",
+  "price fixing",
+  "innovation",
+  "quality",
+  "streaming services",
+  "ski lift",
+  "pizza delivery service"
+ ],
+ "learningObjectives": [
+  "I can explain what competition is good for: it pushes prices down, improves quality and encourages new ideas (innovation).",
+  "I can distinguish between monopoly and competition as opposite ends of a spectrum, place oligopoly between them and give an everyday example of each.",
+  "I can explain why price-fixing agreements (cartels) are banned: they eliminate competition and harm customers."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Video (extern): Marktformen einfach erklärt – explainity, 3:31",
+   "url": "https://www.youtube.com/watch?v=TwkMH7cE2FE"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "Wettbewerbskommission WEKO (Schweiz)",
+   "url": "https://www.weko.admin.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-07-preisbildung-marktgleichgewicht"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "One valley, one lift – one city, ten pizza delivery services",
+   "body": "Imagine a small winter sports valley where exactly **one** company operates the ski lifts. The day pass is expensive, the lifts are old, and on busy days you queue for ages – yet everyone still uses them. Why wouldn't they? There is **no other lift**.\n\nNow picture a city where **ten pizza delivery services** compete for orders. One advertises free delivery, another offers a family discount, and a third promises delivery in 30 minutes. Anyone who delivers cold pizza gets scathing reviews and loses customers.\n\nIn both cases, suppliers meet buyers and prices emerge – yet the markets could hardly be more different. The difference has a name: **competition**. In this module, you will find out what competition does for prices, quality and new ideas, what a **monopoly** and an **oligopoly** are, and why secret price-fixing agreements are banned.\n\n**Reflection question for this module:** When you or your family buy things, where do you have plenty of suppliers to choose from, and where is there almost no choice? Keep this question in mind. By the end of the module, you will be able to answer it using the economic terms you have learnt."
+  },
+  {
+   "type": "text",
+   "title": "What competition is good for",
+   "body": "In [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]], you saw how the price in a market settles at a certain level. But this only works if buyers **can go elsewhere**: a supplier who charges too much loses customers to other suppliers. This rivalry between suppliers for customers is called **competition** – they are **competing** with one another.\n\nCompetition works in three ways:\n\n- **Lower prices:** No pizza delivery service can charge twice as much as the others – otherwise nobody would order from it. Suppliers undercut one another, and customers benefit.\n- **Better quality:** Where customers have a choice, they choose the better product. Cold pizza, unfriendly service, long waiting times – a supplier facing competition cannot afford any of these.\n- **Innovation:** Anyone who wants to stay one step ahead of their competitors has to come up with ideas: an ordering app, new products or faster delivery. Many things you use every day came about because of exactly this pressure.\n\nIn short: **competition is the driving force that makes suppliers offer things that benefit customers.** They do not do this out of kindness – the market forces them to. And that is exactly why a lack of competition is a problem."
+  },
+  {
+   "type": "text",
+   "title": "Monopoly: when one supplier dominates the market",
+   "body": "A market with **just one supplier** is called a **monopoly** (from the Greek for ‘selling alone’). Buyers have no choice: buy from that supplier or go without.\n\nBack in the ski valley, the only lift operator does not have to worry about competition. If it raises prices, winter sports enthusiasts cannot switch to the ‘other lift’ – there isn't one. There is also little pressure to invest in new lifts or better service. This is the typical drawback of a monopoly: **higher prices, lower quality and fewer new ideas.**\n\nA few points to keep in mind:\n\n- A monopoly does not always arise from bad intentions. Sometimes the market is simply **too small for two suppliers** – a second ski lift in the same small valley would never pay for itself. The snack bar at an outdoor swimming pool has its own small monopoly too: it is the only place inside the pool grounds selling ice cream and drinks.\n- **Being big is not the same as having a monopoly.** A large company with plenty of rivals still faces competition. What matters is whether customers **can go elsewhere**.\n- The state takes a closer look at particularly important monopolies, such as electricity or water networks. Whether and how it should intervene in prices is a matter of political debate, and the topic of [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "Fn_WfjImlcs",
+   "title": "Video: market structures explained simply",
+   "description": "This explainer video (3:43) from the channel Die Merkhilfe Wirtschaft provides a systematic overview of market structures. As you watch, focus on two questions: (1) What feature is used to distinguish market structures – what is counted? (2) What danger does the video identify in an oligopoly, and how does it fit with what you have learnt in this module about agreements between suppliers? Note: for a market with many suppliers, the video uses the German economic term ‘Polypol’. This is the market structure we call ‘(perfect) competition’ in this module.",
+   "transcript": "The explainer video ‘Marktformen & Marktarten – Monopol, Oligopol und Polypol einfach erklärt’ (Die Merkhilfe Wirtschaft, 3:43 minutes) distinguishes market structures by the number of suppliers. In a monopoly, there is only one supplier, who can largely dictate the price. In an oligopoly, a few large suppliers share the market; here, the video highlights the serious risk of cartels forming, meaning illegal agreements between suppliers. In a market with many competing suppliers (called a ‘Polypol’ in German), no single supplier can determine the price alone. The video therefore covers exactly the three market structures in this module: monopoly, oligopoly and (perfect) competition.",
+   "startSeconds": 0
+  },
+  {
+   "type": "schaubild",
+   "title": "Comparing monopoly and competition",
+   "szene": {
+    "elemente": [
+     {
+      "id": "panel-monopol",
+      "x": 0,
+      "y": 100,
+      "width": 600,
+      "height": 800,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 151122723,
+      "type": "rectangle"
+     },
+     {
+      "id": "panel-konkurrenz",
+      "x": 650,
+      "y": 100,
+      "width": 600,
+      "height": 800,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1990493325,
+      "type": "rectangle"
+     },
+     {
+      "id": "titel",
+      "x": 363,
+      "y": 0,
+      "width": 456.46,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1c3a5e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 389912259,
+      "type": "text",
+      "text": "Markets: monopoly and competition",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 379,
+      "y": 48,
+      "width": 389.67,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#447098",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 907963117,
+      "type": "text",
+      "text": "Who supplies – and how much choice do buyers have?",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "mono-titel",
+      "x": 255,
+      "y": 132,
+      "width": 88.01,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1c3a5e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 293848675,
+      "type": "text",
+      "text": "Monopoly",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "mono-untertitel",
+      "x": 177,
+      "y": 172,
+      "width": 191.02,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#547291",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 239895885,
+      "type": "text",
+      "text": "1 supplier – many buyers",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "mono-anbieter",
+      "x": 80,
+      "y": 240,
+      "width": 440,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 782434819,
+      "type": "rectangle"
+     },
+     {
+      "id": "mono-n1",
+      "x": 45,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1116230573,
+      "type": "rectangle"
+     },
+     {
+      "id": "mono-n2",
+      "x": 155,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1201260963,
+      "type": "rectangle"
+     },
+     {
+      "id": "mono-n3",
+      "x": 265,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1861965325,
+      "type": "rectangle"
+     },
+     {
+      "id": "mono-n4",
+      "x": 375,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 295083331,
+      "type": "rectangle"
+     },
+     {
+      "id": "mono-n5",
+      "x": 485,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1855917165,
+      "type": "rectangle"
+     },
+     {
+      "id": "mono-l1",
+      "x": 300,
+      "y": 340,
+      "width": 220,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 402128099,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -220,
+        275
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "mono-l2",
+      "x": 300,
+      "y": 340,
+      "width": 110,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 20772557,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -110,
+        275
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "mono-l3",
+      "x": 300,
+      "y": 340,
+      "width": 0,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1984718979,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        275
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "mono-l4",
+      "x": 300,
+      "y": 340,
+      "width": 110,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 829330733,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        110,
+        275
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "mono-l5",
+      "x": 300,
+      "y": 340,
+      "width": 220,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1381130275,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        220,
+        275
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "mono-caption",
+      "x": 147,
+      "y": 708,
+      "width": 246.53,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2057136013,
+      "type": "text",
+      "text": "many buyers",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "mono-punkte",
+      "x": 55,
+      "y": 768,
+      "width": 306.84,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 368600003,
+      "type": "text",
+      "text": "• little choice for customers\n• supplier has strong control over price\n• little pressure to improve or cut prices",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "konk-titel",
+      "x": 885,
+      "y": 132,
+      "width": 114.62,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1c3a5e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 788721133,
+      "type": "text",
+      "text": "Competition",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "konk-untertitel",
+      "x": 810,
+      "y": 172,
+      "width": 214.11,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#547291",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1767699299,
+      "type": "text",
+      "text": "many suppliers – many buyers",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "konk-a1",
+      "x": 710,
+      "y": 240,
+      "width": 90,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 497592397,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-a2",
+      "x": 840,
+      "y": 240,
+      "width": 90,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1825476355,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-a3",
+      "x": 970,
+      "y": 240,
+      "width": 90,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2020087469,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-a4",
+      "x": 1100,
+      "y": 240,
+      "width": 90,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 852211363,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-anbieter-caption",
+      "x": 801,
+      "y": 328,
+      "width": 220.8,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2045425933,
+      "type": "text",
+      "text": "many suppliers – e.g. pizza delivery services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "konk-l1",
+      "x": 755,
+      "y": 380,
+      "width": 25,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2047011395,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -25,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-l2",
+      "x": 755,
+      "y": 380,
+      "width": 195,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1269436269,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        195,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-l3",
+      "x": 885,
+      "y": 380,
+      "width": 155,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 659728867,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -155,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-l4",
+      "x": 885,
+      "y": 380,
+      "width": 175,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 737122765,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        175,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-l5",
+      "x": 1015,
+      "y": 380,
+      "width": 175,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2143909251,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -175,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-l6",
+      "x": 1015,
+      "y": 380,
+      "width": 155,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1406457901,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        155,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-l7",
+      "x": 1145,
+      "y": 380,
+      "width": 195,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 581291299,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -195,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-l8",
+      "x": 1145,
+      "y": 380,
+      "width": 25,
+      "height": 232,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 490949261,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        25,
+        232
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "konk-n1",
+      "x": 695,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1129722051,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-n2",
+      "x": 805,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1760850157,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-n3",
+      "x": 915,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 595140707,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-n4",
+      "x": 1025,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1148308301,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-n5",
+      "x": 1135,
+      "y": 620,
+      "width": 70,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1289559043,
+      "type": "rectangle"
+     },
+     {
+      "id": "konk-caption",
+      "x": 797,
+      "y": 708,
+      "width": 246.53,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1343543725,
+      "type": "text",
+      "text": "many buyers",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "konk-punkte",
+      "x": 680,
+      "y": 768,
+      "width": 336.66,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 192979875,
+      "type": "text",
+      "text": "• Choice: charge too much, lose customers\n• Pressure for low prices and good quality\n• Incentive for new ideas (innovation)",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "oligopol-banner",
+      "x": 50,
+      "y": 950,
+      "width": 1150,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#2b4a6f",
+      "backgroundColor": "#dbe4ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1694964749,
+      "type": "rectangle"
+     },
+     {
+      "id": "Z2EGLz3IWutt78lH6qO8j",
+      "x": 210.15,
+      "y": 262.5,
+      "width": 179.69,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#216e2f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 559916899,
+      "type": "text",
+      "text": "Supplier\nthe valley's only ski lift",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "mono-anbieter",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "fxnp4_ZDobKbAX68Fhi7l",
+      "x": 362.04,
+      "y": 975.5,
+      "width": 525.93,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#2b4a6f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2052768515,
+      "type": "text",
+      "text": "In between: oligopoly. A few large suppliers share the market –\nfor example, the major streaming services.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "oligopol-banner",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The illustration compares monopoly and competition as market structures, with oligopoly between them. Its guiding question is: who supplies, and how much choice do buyers have? In the monopoly (left), all demand depends on a single supplier – in this example, the valley's only ski lift – with lines leading from it to many buyers. In competition (right), many suppliers, such as pizza delivery services, face many buyers. The crossing connections show that each customer can buy from any supplier. Green represents the supply side and blue the demand side, using the same colour scheme as in [[modul:wirtschaft-politik-06-angebot-und-nachfrage]] and [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]. Key points: (1) Monopoly (1 supplier – many buyers): little choice for customers; the supplier has strong control over the price; little pressure to improve or cut prices. (2) Competition (many suppliers – many buyers): choice – suppliers who charge too much lose customers; pressure for low prices and good quality; an incentive for new ideas (innovation). (3) Oligopoly lies between them: a few large suppliers share the market, for example the major streaming services.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Oligopoly and illegal agreements: the cartel",
+   "body": "Between the two extremes of monopoly and competition lies **oligopoly**: **a few large suppliers** share the market. You know this from the major **streaming services** – a handful of platforms cover almost the entire market for films and series. The picture is similar for mobile network operators and sportswear giants.\n\nThere is competition in an oligopoly, but it is fragile. A small number of suppliers can easily **collude**: ‘Let's all charge the same high price, so none of us has to undercut the others.’ A secret agreement of this kind about prices or dividing up the market is called a **cartel**.\n\nThis is convenient for the companies involved, but harmful to everyone else: together, the suppliers act **like a single monopoly**. Customers pay too much, and the pressure to improve quality and develop new ideas disappears, even though there seem to be several suppliers. **That is why cartels are banned.** In Switzerland, the Wettbewerbskommission (WEKO) oversees competition and can impose heavy fines on companies that break the rules. Comparable competition rules apply in Liechtenstein through the European Economic Area (EEA).\n\nRemember the difference: an **oligopoly** is a market structure and is legal. A **cartel** is illegal behaviour – suppliers only pretend to compete."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: competition and market structures",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden",
+    "wp.markt.wettbewerb-beurteilen"
+   ],
+   "intro": "Show what you know about competition, monopoly, oligopoly and cartels. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What is competition between suppliers good for?",
+     "options": [
+      {
+       "text": "It guarantees every company a reliable profit."
+      },
+      {
+       "text": "It ensures that suppliers agree on common prices."
+      },
+      {
+       "text": "It only benefits suppliers, not customers."
+      },
+      {
+       "text": "It forces suppliers to compete for customers through lower prices, better quality and new ideas.",
+       "correct": true
+      }
+     ],
+     "explanation": "Competition is the rivalry between suppliers for customers: those who charge too much or offer poor quality lose customers to their rivals. Customers benefit most, through prices, quality and innovation. Competition certainly does not guarantee profits. Agreements on prices between suppliers are the opposite of what competition is meant to achieve. Prices may become similar through competition ([[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]), but suppliers must not agree to make this happen – that would be a cartel."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What is a monopoly?",
+     "options": [
+      {
+       "text": "A market with very many small suppliers."
+      },
+      {
+       "text": "A market with only one supplier, on whom many buyers depend.",
+       "correct": true
+      },
+      {
+       "text": "Another word for a particularly large company."
+      },
+      {
+       "text": "A business that charges particularly low prices."
+      }
+     ],
+     "explanation": "Monopoly means a single supplier, with no alternative for buyers. Many small suppliers would be the opposite: competition. Watch out for the most common misconception: being big is not the same as having a monopoly. A large company with rivals still faces competition. What matters is whether customers can go elsewhere. Low prices are not typical of monopolies."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Why can the only ski lift operator in a valley charge relatively high prices?",
+     "options": [
+      {
+       "text": "Because skiing is a basic survival need that everyone must meet."
+      },
+      {
+       "text": "Because the state requires it to charge high prices."
+      },
+      {
+       "text": "Because winter sports enthusiasts in the valley cannot switch to another supplier.",
+       "correct": true
+      },
+      {
+       "text": "Because its costs are automatically higher than those of other ski resorts."
+      }
+     ],
+     "explanation": "The lift operator has a monopoly: anyone who wants to ski in the valley has to use its lifts. This lack of an alternative is exactly what gives it power over the price. Skiing is a leisure activity, not a basic survival need. The state does not set its prices, and its monopoly position tells us nothing about its costs."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What is an oligopoly?",
+     "options": [
+      {
+       "text": "A market shared by a few large suppliers, such as the major streaming services.",
+       "correct": true
+      },
+      {
+       "text": "A market with a single supplier."
+      },
+      {
+       "text": "A market with very many small suppliers."
+      },
+      {
+       "text": "An illegal price-fixing agreement between companies."
+      }
+     ],
+     "explanation": "Oligopoly is the structure in between: a few large suppliers share the market, as with the major streaming services. A single supplier would mean a monopoly; very many suppliers would mean competition. An illegal price-fixing agreement is called a cartel – it is behaviour, not a market structure."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Why are cartels (price-fixing agreements) banned?",
+     "options": [
+      {
+       "text": "Because competing companies are never allowed to meet."
+      },
+      {
+       "text": "Because agreed prices are always too low and ruin the companies."
+      },
+      {
+       "text": "Because they eliminate competition: together, suppliers act like a monopoly, and customers pay too much.",
+       "correct": true
+      },
+      {
+       "text": "Because the state would prefer to set all prices itself."
+      }
+     ],
+     "explanation": "A cartel undermines competition: suppliers only pretend to compete. In fact, they jointly keep prices high, like a monopoly. Customers pay too much, while quality and innovation suffer. Meetings between companies are not generally banned, and prices agreed through collusion are typically too high, not too low. The ban on cartels does not mean the state wants to set prices itself: its purpose is to protect the competition through which prices are formed."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Many pizza delivery services operate in a city. One suddenly charges much more than all the others, for the same quality. What typically happens?",
+     "options": [
+      {
+       "text": "Customers order from its competitors. It must offer better prices or service, or it will go out of business.",
+       "correct": true
+      },
+      {
+       "text": "Nothing – nobody pays attention to the price of food deliveries."
+      },
+      {
+       "text": "The other delivery services automatically have to raise their prices too."
+      },
+      {
+       "text": "The state bans it from charging the high price."
+      }
+     ],
+     "explanation": "When there is competition, customers can go elsewhere, and that is exactly what they do: they order where they get good value for money. The expensive supplier must improve its offer or leave the market. The other suppliers certainly do not have to follow its lead – they are gaining customers. A functioning competitive market does not need state intervention here either: charging too much brings its own penalty."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "A handful of major streaming services cover almost the entire market for films and series. What market structure is this?",
+     "options": [
+      {
+       "text": "A monopoly – after all, there are only a few suppliers."
+      },
+      {
+       "text": "An oligopoly – a few large suppliers share the market.",
+       "correct": true
+      },
+      {
+       "text": "Perfect competition – after all, anyone can stream."
+      },
+      {
+       "text": "A cartel – large suppliers always collude."
+      }
+     ],
+     "explanation": "A few large suppliers sharing a market: that is the definition of an oligopoly. A monopoly would require a SINGLE supplier. Perfect competition would require many suppliers. A cartel is an illegal agreement, not a market structure. Just because a market is an oligopoly does not mean that its suppliers are colluding."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "In a market with many suppliers, all but one gradually give up. What typically happens?",
+     "options": [
+      {
+       "text": "Prices fall because the remaining supplier can now buy larger quantities more cheaply."
+      },
+      {
+       "text": "Nothing changes for customers – all that matters is that there is a supplier at all."
+      },
+      {
+       "text": "Quality automatically improves because the supplier can now focus entirely on its product."
+      },
+      {
+       "text": "Prices tend to rise, and the pressure to improve quality and innovate falls – there is no competition.",
+       "correct": true
+      }
+     ],
+     "explanation": "Competition turns into a monopoly: customers can no longer go elsewhere, and the supplier no longer has to match its rivals on price or quality. Prices tend to rise, and the pressure to innovate falls. Buying in larger quantities might reduce its costs, but without competition it has little reason to pass this benefit on through lower prices."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-marktformen",
+   "title": "Competition and market structures: fill in the terms",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden",
+    "wp.markt.wettbewerb-beurteilen"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "In most markets, several suppliers compete for customers – this rivalry is called {{1}}. It leads to lower {{2}}, better {{3}} and a steady stream of new products and ideas, known as {{4}}. A market with only one supplier is called a {{5}}: customers cannot {{6}} to other suppliers. If a few large suppliers share the market, this intermediate structure is called an {{7}}. When many suppliers compete, we speak of {{8}}. If suppliers secretly agree on prices, they form a {{9}} – such agreements eliminate competition and are therefore {{10}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "competition",
+      "market competition",
+      "competitive rivalry",
+      "rivalry"
+     ]
+    },
+    {
+     "antworten": [
+      "prices"
+     ]
+    },
+    {
+     "antworten": [
+      "quality",
+      "product quality"
+     ]
+    },
+    {
+     "antworten": [
+      "innovations",
+      "innovation"
+     ]
+    },
+    {
+     "antworten": [
+      "monopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "switch",
+      "turn",
+      "go",
+      "move",
+      "change"
+     ]
+    },
+    {
+     "antworten": [
+      "oligopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive rivalry",
+      "rivalry"
+     ]
+    },
+    {
+     "antworten": [
+      "cartel"
+     ]
+    },
+    {
+     "antworten": [
+      "banned",
+      "illegal",
+      "prohibited",
+      "forbidden",
+      "unlawful",
+      "not allowed",
+      "outlawed"
+     ]
+    }
+   ],
+   "ablenker": [
+    "equilibrium",
+    "demand",
+    "taxes"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-marktmacht",
+   "title": "Market power: type in the terms",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden",
+    "wp.markt.wettbewerb-beurteilen"
+   ],
+   "intro": "This time there is no word bank – **type in the missing terms yourself**. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "The only ski lift operator in a valley has {{1}}. Because visitors cannot {{2}} to another lift, it can charge relatively high {{3}}. When a few large suppliers, such as streaming services, share a market, this is called {{4}}. If suppliers secretly agree on prices, they form {{5}}, which is illegal.",
+   "luecken": [
+    {
+     "antworten": [
+      "a monopoly",
+      "monopoly",
+      "the monopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "switch",
+      "go",
+      "turn",
+      "move",
+      "change",
+      "travel",
+      "transfer",
+      "switch over",
+      "move over",
+      "change over"
+     ]
+    },
+    {
+     "antworten": [
+      "prices",
+      "fees",
+      "charges",
+      "fares",
+      "rates"
+     ]
+    },
+    {
+     "antworten": [
+      "an oligopoly",
+      "oligopoly",
+      "the oligopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "a cartel",
+      "cartel",
+      "the cartel"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-marktformen",
+   "title": "Classify the examples: monopoly, oligopoly or competition?",
+   "teilkompetenzen": [
+    "wp.markt.marktformen-unterscheiden"
+   ],
+   "intro": "Match each situation to the correct market structure: **monopoly**, **oligopoly** or **competition**. Ask yourself each time: how many suppliers are there – one, a few large ones or many?",
+   "modus": "wortbank",
+   "text": "The only ski lift operator in a small winter sports valley: {{1}}\nMany pizza delivery services operate in the same city: {{2}}\nThree major streaming services cover almost the entire market for series: {{3}}\nDozens of hairdressing salons compete for customers in the region: {{4}}\nOnly one company operates the municipality's electricity network: {{5}}\nA small number of large mobile network operators share the national market: {{6}}\nMany market stalls sell vegetables in the same square on Saturdays: {{7}}\nThe only snack bar at the outdoor swimming pool sells ice cream and drinks: {{8}}\nA handful of large sportswear manufacturers dominate the market for trainers: {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "monopoly",
+      "a monopoly",
+      "the monopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive market",
+      "a competitive market",
+      "rivalry"
+     ]
+    },
+    {
+     "antworten": [
+      "oligopoly",
+      "an oligopoly",
+      "the oligopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive market",
+      "a competitive market",
+      "rivalry"
+     ]
+    },
+    {
+     "antworten": [
+      "monopoly",
+      "a monopoly",
+      "the monopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "oligopoly",
+      "an oligopoly",
+      "the oligopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive market",
+      "a competitive market",
+      "rivalry"
+     ]
+    },
+    {
+     "antworten": [
+      "monopoly",
+      "a monopoly",
+      "the monopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "oligopoly",
+      "an oligopoly",
+      "the oligopoly"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Explore further: competition in your region",
+   "teilkompetenzen": [
+    "wp.markt.wettbewerb-beurteilen",
+    "wp.markt.marktformen-unterscheiden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Market structure check: find an example in your municipality or region of a market with plenty of competition, and one with little or no competition. For each, describe: (1) How many suppliers are there? (2) How does this affect prices, quality and service – what do you actually observe? (3) What would need to happen for the market with little competition to become more competitive, and why might this not happen?",
+     "hint": "Think about your everyday life: where can you choose between several suppliers (shops, takeaways, hairdressers, online shops), and where is there only one (a bus service, a mountain lift, the electricity network, the only bakery in the village)? For part 3, ask yourself: why might a second supplier not be viable here?",
+     "solution": "Example answer: takeaways and online shops face plenty of competition – there are several suppliers with comparable prices, and those who provide poor service lose customers. The region's only mountain lift, for example, faces little competition: there is no alternative, prices are high and investment is slow. A second supplier would create more competition, but one is unlikely to enter because the market is too small and building a second lift would be far too expensive. The key is to link the number of suppliers to their behaviour (prices, quality and innovation)."
+    },
+    {
+     "prompt": "Explain in your own words why a cartel is attractive to the suppliers involved but harmful to customers, so that someone who has not studied this module could understand it. Use an example of your own choice (not streaming services). OR: invent one situation each for monopoly, oligopoly and competition, in the style of the classification exercise, with a brief explanation of why each situation fits that market structure.",
+     "hint": "For the cartel explanation, follow this chain: agreement → nobody undercuts anyone else → prices stay artificially high → customers cannot go elsewhere, even though there are several suppliers. For your own situations, simply count the suppliers: one, a few large ones or many?",
+     "solution": "Key idea: in a cartel, suppliers voluntarily stop competing. Each keeps its customers and collects the high, agreed price without having to offer better service. Customers appear to have several suppliers to choose from, but in reality they no longer have a real choice: the same inflated price applies everywhere, and there is no incentive to improve quality or develop new ideas. For example, if all the driving schools in a region agree on a minimum price per lesson, all learner drivers pay too much – that is why such agreements are banned. For your own situations, what counts is a clear explanation based on the number of suppliers."
+    }
+   ]
+  }
+ ]
+}
