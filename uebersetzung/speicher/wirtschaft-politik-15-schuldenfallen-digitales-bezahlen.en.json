@@ -1,0 +1,646 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:e2714f74ee5cfaaf17ade2a79a88abd777235132d0287bf6ba682c66da931ece",
+   "text": "Personal finance II: debt traps and digital payments"
+  },
+  "description": {
+   "quelle": "sha256:b95476ea45e18eaf7e6f038f3ef1f6674aeccda2abf0f4700bb24c03fc6702d7",
+   "text": "‘Buy now, pay later’ sounds harmless, but it is the latest debt trap for young people. Here you will learn to tell digital payment methods apart (debit cards, credit cards, payment apps and buy now, pay later), understand why digital payments make it harder to control your spending, recognise common debt traps – and know the warning signs and where to find help."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:0c4950a7de0cd0fbae76b0776a74695ca1c18cb114d08c5f022349f1743a4330",
+   "text": "Topic block C: Money, banking and financial literacy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:b7bce8b0d1980461d45951fe1a9e40c0bfe533d3ed7bddc5ff858895147f9036",
+   "text": "debt"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:bfb9047f3c3e976ca460880c78b8437898f93c06d27cc3887542997c9644d522",
+   "text": "debt trap"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:ac115807a2031662a8f05c9d612b0dbaab0ef6ded07ee454f9440d7b87c58695",
+   "text": "Buy now pay later"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:1411c2c63f349306df0d8b934dc486528189e7b324c7f1996b6d01ca76cc9c6d",
+   "text": "BNPL"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:3ad0e097266c5fc1579889febd72afc35d5924163d8675a9a4f871ff2611f76d",
+   "text": "debit card"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:f024d3bde280e0ea5a47cea542208808f66a97e5d932bb87e4cc1a9ed4edd2df",
+   "text": "credit card"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:67a8f78b334690639e9c00e670943a4606176a84396a58eae251cd7eaf19b95b",
+   "text": "Twint"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:4f7f3bc83a836431c69eb1cda4d5bd3b90051959d97b8eeaf843ede81359e2f3",
+   "text": "subscription trap"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:1e4c1bd73f4fad1061e736242260c49252671195497061acbd4a180c7c42c2b9",
+   "text": "in-app purchases"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:e192f7f14fba328b5cf26a97beb7d9c723b3015dd7f2b1b9d40b1caab47a08dd",
+   "text": "small loan"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:f9ee3d7d76c5d2f22065adadea8e674b0f74e4e47ca837ba86db600fb1fc8026",
+   "text": "debt collection"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:d492dc79a9747c9e954800f149bec7ac3ba197c7ec7d1767c41368234faccbc8",
+   "text": "debt advice"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:a32513e3e88affb4612155e45cd4ecad457e8422ff014cf976d9aea573b74b1c",
+   "text": "I can tell digital payment methods apart: debit cards (money leaves the account immediately), credit cards (pay later), payment apps and buy now, pay later."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:d66d0442b9f19d9d9b6bf595978bc8c9a01a84d9b9e2580b38266894d9cdcee9",
+   "text": "I can explain why digital payments make it harder to control spending: the ‘pain of paying’ disappears."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:87c409d6cf4490e834e6c6176ee57365580a11bdd85c2816b47c3b0a73249a58",
+   "text": "I can recognise common debt traps: BNPL instalments, subscription traps, in-app purchases and small loans."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:ad0a007bc1491197c3991c040fd00c524eb1c2b818e74084e17158c246d93dd4",
+   "text": "I know the warning signs of money problems and the first steps to take – and where to find free help in Liechtenstein."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:514d89f2133e3d030a3845a8002f22cfd7a79ae6ff4d4c269167941cbcdc2bcc",
+   "text": "When the pain of paying disappears"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:f4e805ac3071f6fd0c58f97ad8f73de908e99c6c91a0f8864bb0fad878db2d60",
+   "text": "Remember what it feels like to hand a fifty-franc note across a shop counter? Researchers call that slight sinking feeling the **‘pain of paying’**: when you pay in cash, you **see and feel** the money leaving your hands – and automatically ask yourself whether the purchase is worth it.\n\nWith digital payments, this pain almost completely disappears: tap your card, take out your phone, tap ‘Buy now’ – no money visibly changes hands. That is convenient, but it has a side effect: **If you do not feel the pain, it is easier to spend money more quickly.** So it is worth knowing **when** your money actually leaves your account with each payment method:\n\n- **Debit card:** linked directly to your account – the money is taken **immediately**, and without funds you cannot pay. The card for your youth account is a debit card.\n- **Payment apps:** work like a debit card without the card – the money is taken **immediately** from your account or a balance you have topped up. **Twint** is widely used in Schweiz; however, it does not yet work with accounts at banks in Liechtenstein – local banks offer their own payment apps, such as **LiPay** from Liechtensteinische Landesbank.\n- **Credit card:** the bank pays the money on your behalf. All your purchases for the month appear **together on one bill** – you only pay at the end of the month. If you do not then pay the bill in full, you face hefty interest charges.\n- **Buy now, pay later (BNPL):** you only pay after 30 days or **in instalments** over several weeks or months. More on this in a moment, because this is where the latest trap lies.\n\nRemember the pattern in the graphic: **The later the money leaves your account, and the less visible this is, the harder it is to stay in control.**"
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:96c926b8cb1c4490e2dc80cc608b3b5d50e1235a94a625b9b6dc496455792422",
+   "text": "Four payment methods compared"
+  },
+  "blocks[1].szene.elemente[0].text": {
+   "quelle": "sha256:b39683f4981d9226aae7ea899c2781ca796462c9072ea97dbd7605b7d78d9480",
+   "text": "Digital payments: When does your money actually go?"
+  },
+  "blocks[1].szene.elemente[1].text": {
+   "quelle": "sha256:03a9ff290f5f0155f7a0875f11f61c0ebdc4302faf0291de09eccb7ff2979fdd",
+   "text": "Four payment methods and when you pay – the later it happens, the harder it is to stay in control"
+  },
+  "blocks[1].szene.elemente[23].text": {
+   "quelle": "sha256:fff8ae1738d166505b41d7f3848f98ed33fb53add07f1711ae13ffff138c736a",
+   "text": "Payment timing: now"
+  },
+  "blocks[1].szene.elemente[24].text": {
+   "quelle": "sha256:ef4c4ef3780bbf74b80f8f597b5809d3db1c39d0ba7e7fccab8f5a4f0d8f18e1",
+   "text": "much later"
+  },
+  "blocks[1].szene.elemente[25].text": {
+   "quelle": "sha256:88b14d5c2331859f2eb26f24ec40af9d4a644b668e57b541e2e30ea8951755f3",
+   "text": "How easy is it to control your spending?"
+  },
+  "blocks[1].szene.elemente[29].text": {
+   "quelle": "sha256:3ad0e097266c5fc1579889febd72afc35d5924163d8675a9a4f871ff2611f76d",
+   "text": "Debit card"
+  },
+  "blocks[1].szene.elemente[30].text": {
+   "quelle": "sha256:e6e248c079050c3d5a26313a844b4cc6e191b248f6b12050a9dd694ca359ca4f",
+   "text": "Linked to your account: no funds, no payment. Your balance shows each purchase straight away.\n\ntypical: youth account card"
+  },
+  "blocks[1].szene.elemente[31].text": {
+   "quelle": "sha256:af1d0a3a54ae24c815de83eaed73455abd2597e751a98d581a9ac3cc9063386d",
+   "text": "Payment: now"
+  },
+  "blocks[1].szene.elemente[32].text": {
+   "quelle": "sha256:ea917ba068fcd333ac45880c9d6d0e5310d2c5a07b7280df18b491b5d0a623eb",
+   "text": "Payment app"
+  },
+  "blocks[1].szene.elemente[33].text": {
+   "quelle": "sha256:eb772ea4215180b8dc1e72503ac8cced52bdf1e9c7ada51e368ce4eba77bd9f3",
+   "text": "Pay by phone, linked to your account or topped-up balance – a debit card without the card.\n\ntypical: Twint (Schweiz), LiPay (Liechtenstein)"
+  },
+  "blocks[1].szene.elemente[34].text": {
+   "quelle": "sha256:af1d0a3a54ae24c815de83eaed73455abd2597e751a98d581a9ac3cc9063386d",
+   "text": "Payment: now"
+  },
+  "blocks[1].szene.elemente[35].text": {
+   "quelle": "sha256:f024d3bde280e0ea5a47cea542208808f66a97e5d932bb87e4cc1a9ed4edd2df",
+   "text": "Credit card"
+  },
+  "blocks[1].szene.elemente[36].text": {
+   "quelle": "sha256:a6581f922b6408859bdbdf4b5fc0fba3c2cde2eab5a038c097d1ea23a9bf81a5",
+   "text": "The bank pays for you. All your purchases for the month appear on one bill.\n\nWarning: If you do not pay in full, interest is high."
+  },
+  "blocks[1].szene.elemente[37].text": {
+   "quelle": "sha256:f3ef4d9af121af853772f1699492713659472f54b3eba6f11773655baa14740f",
+   "text": "Payment: month end"
+  },
+  "blocks[1].szene.elemente[38].text": {
+   "quelle": "sha256:8849634fb58c28f3fe12fcb17d288ecb1a2772ddf751f7d67facfdebefa05eec",
+   "text": "Buy now, pay later"
+  },
+  "blocks[1].szene.elemente[39].text": {
+   "quelle": "sha256:50632fb0d8d92a251e1636e0009fb5f4b59e11f14ae976e3418a838ded053cb4",
+   "text": "Buy now, pay in 30 days or in instalments. Small instalments can add up unnoticed.\n\nWarning: missed payments → reminder fees, debt collection"
+  },
+  "blocks[1].szene.elemente[40].text": {
+   "quelle": "sha256:13195b5937dc992acd9ed73fac6056a09d87c152456e0ad055e4cbd66c44cc32",
+   "text": "Payment: weeks or months later"
+  },
+  "blocks[1].szene.elemente[41].text": {
+   "quelle": "sha256:ecdbfe912d6bdfbaa29557b3c138ed656c608c98238ff67aaffb987be55020dd",
+   "text": "easy: You see the money go straight away"
+  },
+  "blocks[1].szene.elemente[42].text": {
+   "quelle": "sha256:d7f82546f9b697345f43f7cd833eddb96af39e613ca6ccd5df5ea112df313c99",
+   "text": "hard: The ‘pain of paying’ disappears"
+  },
+  "blocks[1].szene.elemente[43].text": {
+   "quelle": "sha256:87bd4d13e4d8e302c437b2a9b9e4d13d521fad01f39ab37aa58528ac02ad3e7a",
+   "text": "Note: Twint does not yet work with accounts at local banks in Liechtenstein. They offer their own payment apps (e.g. LiPay). The principle is the same: immediate payment. Simplified diagram."
+  },
+  "blocks[1].beschreibung": {
+   "quelle": "sha256:d7b15e13ccd1ef192451fca9f5733e8ecde0082e17df23e81446206194738a2b",
+   "text": "The graphic compares four digital payment methods by when the money is actually taken. Its key message: the later the money leaves your account, and the less visible this is, the harder it becomes to control your spending. A timeline places the four methods between ‘now’ and ‘much later’. A two-part coloured bar shows that controlling spending is easy while you see the money go straight away, and becomes hard when the ‘pain of paying’ disappears. Key points: (1) Debit card – linked directly to your account; no funds, no payment; your balance shows each purchase immediately. A typical example is a youth account card. Payment: now. (2) Payment app – pay by phone, linked to your account or topped-up balance, like a debit card without the card. Typical examples: Twint (Schweiz) and LiPay (Liechtenstein). Payment: now. (3) Credit card – the bank pays for you; all your purchases for the month appear together on one bill. Warning: if you do not pay the bill in full, interest is high. Payment: month end. (4) Buy now, pay later – pay in 30 days or in instalments. Small instalments can easily add up unnoticed; missed payments lead to reminder fees and debt collection. Payment: weeks or months later. A final note: Twint does not yet work with accounts at local banks in Liechtenstein. Local banks offer their own payment apps (e.g. LiPay); the principle is the same: immediate payment. Simplified diagram."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:9ea2bba0f13afac786325040758db7402f5e39f17ca9ed241a2bbf9a388ecf4b",
+   "text": "The four most common debt traps"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:4c5f4ae7d241da894473b3144856dc98988f14fc62c4f385cd56391edb325d24",
+   "text": "Debt rarely starts with one big foolish decision – more often, it comes from **lots of small things you barely think about**. You should know these four traps:\n\n1. **Buy now, pay later instalments – the latest trap:** When shopping online, ‘pay in instalments’ is often just a click away and feels free. But three orders with three small instalments each already mean nine payment dates. Lose track or miss an instalment and you face **reminder fees**; eventually, a **debt collection agency** gets in touch. Surveys from Deutschland show that a substantial proportion of young adults have already received letters from debt collection agencies. And from [[modul:wirtschaft-politik-12-banken-kredit-zins]] you know that neglecting bills damages your **creditworthiness** – which can cause problems later when you want a mobile phone contract or are looking for a home.\n2. **Subscription traps:** The free month of a streaming or gym subscription **automatically becomes a paid subscription** unless you cancel in time. CHF 12.90 seems harmless on its own – but four forgotten subscriptions cost over CHF 600 a year.\n3. **In-app purchases:** Games sell progress in tiny amounts – CHF 2 here, CHF 5 there. Because each amount is so small, the pain of paying disappears completely; you only see the total on your statement.\n4. **Small loans:** ‘CHF 5000 in your account immediately!’ – consumer loans offer quick money at high interest rates. You know the logic from [[modul:wirtschaft-politik-12-banken-kredit-zins]]: the less certain repayment is, the higher the interest rate. If you need a loan to pay old bills, you are already in a **debt spiral**.\n\nMany shops and apps also use psychological tricks – known as **dark patterns** – to make you buy faster and make cancelling harder. You will look at these more closely in [[modul:wirtschaft-politik-17-dark-patterns]]. For now, remember: if something feels particularly easy, there is usually a reason."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:e49bd012e641e92f20b47cb01da22228a0bf2f79d30ecbfac32ec0dfe4e9ad18",
+   "text": "Video: the ‘buy now, pay later’ debt trap"
+  },
+  "blocks[3].description": {
+   "quelle": "sha256:212f6783f1d73d5165e8442f31a0597d90f9a5eea62152b10fbf4e7b80a9a610",
+   "text": "This report (5:49) from the public service channel BR24 uses the real case of 25-year-old Fabian to show how buy now, pay later can lead to debt. The report comes from Deutschland – the amounts are in euros, but the pattern is the same here. Watch with two questions in mind: (1) How did lots of small deferred payments turn into more than 30 000 euros of debt for Fabian – and what part did the ease of ordering play? (2) Which warning signs could Fabian have taken seriously sooner?"
+  },
+  "blocks[3].transcript": {
+   "quelle": "sha256:2449b2f3297270665ac62121dd9ed42cdc69045bfc2821f418879073cd0e8053",
+   "text": "This news report from BR24 (Bayerischer Rundfunk, 5:49 minutes) follows 25-year-old Fabian, who has built up around 32 000 euros of debt through ‘buy now, pay later’ offers when shopping online. It explains how the apparent ease of buy now, pay later services encourages impulse buying, and how lots of small deferred payments can turn into a spiral of debt and shame. For context, the report cites surveys suggesting that one in four people in Generation Z has already been contacted by a debt collection agency. The report takes a factual approach and also shows a way out – by getting a clear overview, being honest and seeking professional advice."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:637ff582222f3dddc30a515236accabe67a6cc1030d6a943598687880ba4965e",
+   "text": "Recognising warning signs – and knowing where to turn"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:b3e014032e41430c48d8fa615dda740f662714c21b6e7f9118cd392d50795adf",
+   "text": "Money problems creep up on you. Take these **warning signs** seriously – in yourself and in your friends:\n\n- You **deliberately stop checking your account balance**.\n- Bills and payment reminders are left **unopened**.\n- You pay **old bills with new money** – for example, through your next BNPL order or a loan.\n- You **hide** purchases or keep borrowing small amounts.\n\nIf this sounds familiar, remember: **The sooner you act, the easier it is to get back on track.** You can take the first steps yourself:\n\n1. **Get a clear overview:** Put all unpaid bills, instalments and subscriptions on a list – the budget from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]] is the tool for this. It is an uncomfortable moment, but it is the turning point.\n2. **Cancel subscriptions and stop spending:** Pause everything you do not need; deliberately replace card and app payments with cash until the pain of paying returns.\n3. **Talk rather than feel ashamed:** Speak to your parents, your workplace trainer or another person you trust. Debt is not a character flaw – but it is a problem that rarely gets smaller if you face it alone.\n4. **Get professional help – it is free:** In Liechtenstein, **Caritas Liechtenstein** provides **budget and debt advice** on behalf of the government. For young people, **aha – Tipps & Infos für junge Leute** (aha.li) offers accessible information about money. Pro Juventute's advice service is available around the clock via **147** (phone, SMS or chat at 147.ch) – including from Liechtenstein."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:bd84a057c3b75d46df1732bdea1f78a4c3ba4911bc698a022c942a9e5c947cb5",
+   "text": "Quiz: payment methods and debt traps"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:d9e59bd4ca44246c0449c4929b8a0aca4bf8486ab95d73600611d5c186403dba",
+   "text": "Show that you understand payment methods and debt traps. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[5].questions[0].prompt": {
+   "quelle": "sha256:2907e0378802ab4c6c0d14a221e944637a418097f5849c7e67cbca0d6d103e3e",
+   "text": "When is money taken from your account when you pay with a debit card?"
+  },
+  "blocks[5].questions[0].options[0].text": {
+   "quelle": "sha256:06d5938b8977d87be5b4d4068d8e651b0d6a408d5d38f010a49647fb903ba432",
+   "text": "Only at the end of the month, together with all your other purchases."
+  },
+  "blocks[5].questions[0].options[1].text": {
+   "quelle": "sha256:f7a7fead0eeff2ab01d548dbe5d845cb628bb1887e3399212c1c405141d13110",
+   "text": "As soon as you pay – and without funds in your account, the payment will usually not go through."
+  },
+  "blocks[5].questions[0].options[2].text": {
+   "quelle": "sha256:ace59a83dd60a447132c9159e3f578476b7c552905f618c9f063f142e602604f",
+   "text": "Only when you manually confirm the payment in your banking app."
+  },
+  "blocks[5].questions[0].options[3].text": {
+   "quelle": "sha256:942772ab55f995811aaeecfe9ad70098421c733f5645e3398dfc863ba9310891",
+   "text": "After 30 days, as with buy now, pay later."
+  },
+  "blocks[5].questions[0].explanation": {
+   "quelle": "sha256:791c3fce356f13a87477fcd3a496074c891a4d1e7c3aaa77155a8450e1241c44",
+   "text": "A debit card is linked directly to your account: the money leaves immediately, and you can generally only spend what is there. That makes it the easiest digital payment method to keep track of. A single monthly bill belongs to a credit card; the 30-day period belongs to BNPL. You do not manually confirm each payment – the money is taken automatically."
+  },
+  "blocks[5].questions[1].prompt": {
+   "quelle": "sha256:e8c36231fd3df80476b1a41ab80df6db30d4888db5c89e4b4bbb2a95bc48bf52",
+   "text": "What makes a credit card different?"
+  },
+  "blocks[5].questions[1].options[0].text": {
+   "quelle": "sha256:0227c89e9e796a321ef00d65eafc8784a84a1989aa6940f1440fc97b453a8d84",
+   "text": "It only works if there is enough money in your account."
+  },
+  "blocks[5].questions[1].options[1].text": {
+   "quelle": "sha256:8d1f35d1ad0803ae0f598f50001969f6d7a85f1b536e7e0ca39272345432ac68",
+   "text": "It is the same as a debit card, just a different colour."
+  },
+  "blocks[5].questions[1].options[2].text": {
+   "quelle": "sha256:0476b5ee185783d0aa43d0139fd649ca8a3f1f41a81de57f624f201323f6f67d",
+   "text": "You always pay less with it because the bank gives you a discount."
+  },
+  "blocks[5].questions[1].options[3].text": {
+   "quelle": "sha256:39f260389c4b7620590bb8ab019ebeb619e630187b56993c244116cf4ba37b39",
+   "text": "The bank pays the money on your behalf – all your purchases for the month appear together on one bill."
+  },
+  "blocks[5].questions[1].explanation": {
+   "quelle": "sha256:bc2042c664879c88ada06beaced8ce119212be2f0b921c428b9cb0a082f5fd05",
+   "text": "‘Credit’ is in the name: the bank pays for you and sends you a bill at the end of the month. That is why you do not need funds in your account when you buy something – and why a credit card is harder to keep track of than a debit card, which is not the same thing. There is no discount; quite the opposite: if you do not pay the monthly bill in full, you pay high interest on the outstanding amount."
+  },
+  "blocks[5].questions[2].prompt": {
+   "quelle": "sha256:b4d57d596314f271a003e904969644fbf92cf291a664dbe189f33b7b814c87b6",
+   "text": "Why do digital payments make it harder to control your spending?"
+  },
+  "blocks[5].questions[2].options[0].text": {
+   "quelle": "sha256:6ef7d17196879befcfb9fd6c1568dc1b4643bdbb023a73a798fc60fb4bd73ebb",
+   "text": "Because digital payments are always more expensive than cash payments."
+  },
+  "blocks[5].questions[2].options[1].text": {
+   "quelle": "sha256:ebe42646ffa80d61e339d416842bdce939010c2162a0bc39bde89caced27ab49",
+   "text": "Because you can only pay large amounts digitally."
+  },
+  "blocks[5].questions[2].options[2].text": {
+   "quelle": "sha256:25d575d25e4de534d8d33776280323cb9086acd23eedc1ac4e7fa7a4cb2809b0",
+   "text": "Because the ‘pain of paying’ disappears: you do not see and feel the money go."
+  },
+  "blocks[5].questions[2].options[3].text": {
+   "quelle": "sha256:f13b92828d98f93544096b7b2f8fce1d4a059f9e433091520d6757ca84e12dde",
+   "text": "Because banks keep digital spending secret from their customers."
+  },
+  "blocks[5].questions[2].explanation": {
+   "quelle": "sha256:de0ca0bed79bbb6e23ccfdf0c7b27c1e482dbcb39cf4dfd2138fd7c321a54303",
+   "text": "When you pay in cash, you feel yourself parting with the money – this feeling that holds you back is called the ‘pain of paying’. It disappears with digital payments: tapping your phone barely feels like anything, so you spend more freely. The digital payment itself is not usually more expensive, and small amounts are especially easy to pay digitally – that is part of the problem. Nothing is secret either: all your spending is on your bank or card statement – you just have to look."
+  },
+  "blocks[5].questions[3].prompt": {
+   "quelle": "sha256:0f674ece1b27fff8582ca5db5054ff4452788dfaedee45de2967e7876cc0b3d3",
+   "text": "What is the typical danger of buy now, pay later?"
+  },
+  "blocks[5].questions[3].options[0].text": {
+   "quelle": "sha256:666f4c71034232a7049617ce56968e83440040216cc2bc4258f5b64d865a9890",
+   "text": "Lots of small instalments from different orders add up unnoticed – and missed payments lead to reminder fees and debt collection."
+  },
+  "blocks[5].questions[3].options[1].text": {
+   "quelle": "sha256:61c363b407f3a40372674457c9a23693dc7405e024f8b20fd8136573316d46bb",
+   "text": "The goods are only delivered once everything is paid in full."
+  },
+  "blocks[5].questions[3].options[2].text": {
+   "quelle": "sha256:d902486626c9aac38974932632d150d04cf2d852ddcd129cf67ea251435bb37b",
+   "text": "BNPL is banned by law in Liechtenstein and Schweiz."
+  },
+  "blocks[5].questions[3].options[3].text": {
+   "quelle": "sha256:868d51db49ef13c40684a47c4b14645c3e3b2694d7df8f16f35a623f8962fd99",
+   "text": "There is no danger – BNPL simply lets you postpone payment for free."
+  },
+  "blocks[5].questions[3].explanation": {
+   "quelle": "sha256:2c83613faae7098cd297e9c7668d598a4c3a3ebd405861056ffced6317a7a087",
+   "text": "This is exactly what makes BNPL the latest trap: each instalment seems harmless, but three orders can quickly mean nine payment dates. If you miss an instalment, you face reminder fees, potentially leading to debt collection proceedings and damaged creditworthiness. The goods arrive straight away, while you pay later – that is the appeal. BNPL is not banned, and deferring payment is only ‘free’ as long as you really do pay everything on time."
+  },
+  "blocks[5].questions[4].prompt": {
+   "quelle": "sha256:14e75b6cf7204946bb495456a5b55fc4ca71cec99ad752ce63571f9b59324525",
+   "text": "How does a typical subscription trap work?"
+  },
+  "blocks[5].questions[4].options[0].text": {
+   "quelle": "sha256:055f1b8d580df79a6a4f73d324dd68fa7fc9f1c3401a9b57c85e80766e645748",
+   "text": "The subscription ends automatically after the free month – no need to cancel."
+  },
+  "blocks[5].questions[4].options[1].text": {
+   "quelle": "sha256:2f890b8a406c7ef7502cb915f2a0a2e233e725df12fff50d86a43a2f94774b03",
+   "text": "The provider gives you the subscription for free if you recommend it to others."
+  },
+  "blocks[5].questions[4].options[2].text": {
+   "quelle": "sha256:419c1671d8c9a036e0f0099106760811201b13ec47ce06c7f9bd4f9b0291eda1",
+   "text": "Subscriptions can only ever be cancelled by letter."
+  },
+  "blocks[5].questions[4].options[3].text": {
+   "quelle": "sha256:d98cd40b31693d7b8bee876e8d7beb1e20c34fe9578f4153a4b229835a11b601",
+   "text": "The free month automatically becomes a paid subscription unless you cancel in time."
+  },
+  "blocks[5].questions[4].explanation": {
+   "quelle": "sha256:8df26130ddbd1568a88fc40acde0f34e1c7d2eacbbb1ad0e0e1dec74bae2f86a",
+   "text": "The business model relies on you forgetting: the free month ends and, unless you cancel, the money is taken automatically – month after month. Nothing ends by itself; that is the trap. Nothing is given away for free either, and having to cancel by letter is a myth: you can usually cancel in the app or online. The safest approach is to set a reminder on your phone as soon as you sign up for the free subscription."
+  },
+  "blocks[5].questions[5].prompt": {
+   "quelle": "sha256:aedd993bfd8be791166f2316051e3ee5b395ff4818884ee37558749c376ecb0a",
+   "text": "‘CHF 5000 in your account immediately – it's easy!’ What should you know about small loans like these?"
+  },
+  "blocks[5].questions[5].options[0].text": {
+   "quelle": "sha256:242bc6110c8fc1d7047dab4ce61f573b8da4f32af343ce2a46775d9a5e33584b",
+   "text": "They are a cheap way to get what you want straight away."
+  },
+  "blocks[5].questions[5].options[1].text": {
+   "quelle": "sha256:30d3eb489a6a8b019290782df38e2f7e6884628cd742e4ee7d9d97e342e8eca0",
+   "text": "They offer quick money at high interest rates – if you use them to pay old bills, you are already in a debt spiral."
+  },
+  "blocks[5].questions[5].options[2].text": {
+   "quelle": "sha256:e6aeafc3178009460987e5aec9e3066f0f7e0fd1a927768ebd423f613ec18c6f",
+   "text": "The interest rate on them is legally capped at 1 per cent."
+  },
+  "blocks[5].questions[5].options[3].text": {
+   "quelle": "sha256:ff324d1a8e2a4609d63796653bdbf2364fc260b06e36e7af21e8e51045d3026d",
+   "text": "You do not have to repay these loans if you are under age."
+  },
+  "blocks[5].questions[5].explanation": {
+   "quelle": "sha256:e4a798867d23636fa66bdf249d3787c7689d92203aab87a47deb8fd8dade5982",
+   "text": "Small consumer loans are among the most expensive forms of borrowing: interest rates are high because the risk of non-payment is high (the logic from [[modul:wirtschaft-politik-12-banken-kredit-zins]]). So they are anything but cheap, and there is no 1 per cent cap. It becomes especially dangerous when newly borrowed money fills old gaps – that is the debt spiral. Contracts do not simply ‘disappear’ for minors either: these loans are normally not available to minors in the first place, but debts from other sources still remain."
+  },
+  "blocks[5].questions[6].prompt": {
+   "quelle": "sha256:9b4d7e4e87f8c70c28d12db0e64bac41971a0410e1a00023a70d8c20d42bad70",
+   "text": "Which behaviour is a typical warning sign that money problems are starting?"
+  },
+  "blocks[5].questions[6].options[0].text": {
+   "quelle": "sha256:9610e829c27e05c5a41c5ad2b418a13cb63661a6f5a1defb37e749565872621d",
+   "text": "Bills and payment reminders are left unopened, and the person deliberately stops checking their account balance."
+  },
+  "blocks[5].questions[6].options[1].text": {
+   "quelle": "sha256:e6f43100b8dc1a49648095fefc890b8394c278ecdafdf1c952337b89876bf14f",
+   "text": "Someone keeps a budget and reviews it every month."
+  },
+  "blocks[5].questions[6].options[2].text": {
+   "quelle": "sha256:03c808108e97d4c6bb68624e09b7daed83150e144a114782f853fb38e8c28744",
+   "text": "Someone sets aside money for savings first every month."
+  },
+  "blocks[5].questions[6].options[3].text": {
+   "quelle": "sha256:4c3b7b8ee35fd7a2209cacf8c0a9b6511f47ad8b6b44ecc63e5fbd1f21f9b929",
+   "text": "Someone compares several offers before making a large purchase."
+  },
+  "blocks[5].questions[6].explanation": {
+   "quelle": "sha256:d786c321a26ab09609cac167a78b87842b932cdc65b6e6ed80fa3b78dee73086",
+   "text": "Looking away is the classic early warning sign: if someone stops opening letters and avoids their account balance, they usually already suspect something is wrong. That is exactly when acting quickly matters, because it is still easier to get back on track. The other three behaviours are the opposite of warning signs: keeping a budget, saving first and comparing offers are the very tools from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]] that protect you from money problems."
+  },
+  "blocks[5].questions[7].prompt": {
+   "quelle": "sha256:c28ba8c577135eaf90b5635f03d63d1f5520709fd57787c1e873131e0452b7e4",
+   "text": "You realise your debts are becoming too much to handle. What is the most sensible first approach?"
+  },
+  "blocks[5].questions[7].options[0].text": {
+   "quelle": "sha256:2b488c1b955e72c21ac695121286f65e261dcae1d184e8d1a2a515ee426cf213",
+   "text": "Take out a small loan to pay all your outstanding bills immediately."
+  },
+  "blocks[5].questions[7].options[1].text": {
+   "quelle": "sha256:c6d2d9bf96912a6acd46e8fec80cb7726f750f91c9211ef3aaa7a3dfd7003961",
+   "text": "Wait – small debts disappear by themselves over time."
+  },
+  "blocks[5].questions[7].options[2].text": {
+   "quelle": "sha256:7bb3bde4a21c302fc58f30a2fe804bd7cf98f915f6a0c170de5448efc2ca5549",
+   "text": "Get a clear overview, talk to someone you trust – and seek free help, for example from Caritas Liechtenstein's budget and debt advice service or via 147."
+  },
+  "blocks[5].questions[7].options[3].text": {
+   "quelle": "sha256:104b5d9d520dc19cef1124f399fd8e85b847d8498b51664892eb17cbdb799797",
+   "text": "Open a new account at a different bank and start again."
+  },
+  "blocks[5].questions[7].explanation": {
+   "quelle": "sha256:5ff42d03d827af661b0c3b138002acee7bdb5dadb53970fa610b15b8f91e3db4",
+   "text": "The turning point is getting a clear overview: list everything, take an honest look, talk – and use professional help that costs nothing. In Liechtenstein, this is Caritas's budget and debt advice service (provided on behalf of the government); young people can also use aha.li and the advice service on 147. A new loan for old bills, by contrast, feeds the debt spiral. Debts never disappear by themselves – reminder fees make them grow. And a new account does not erase debts; the creditors are still there."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:78cea3a8d8aa7a8f8fee5115674253d7be9fd31005bcd9a6e1f874b1807d792e",
+   "text": "Fill in the terms: payments and debt traps"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word, then the gap). **Watch out:** Three words in the selection do not fit anywhere."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:7bac6b67f14d3837576b90a6ab943a747b92fdfe6bc1c46228a0154b4f0ad18a",
+   "text": "Type the terms: When does the money move?"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no word bank this time – **type the missing terms yourself**. Capital and lower-case letters are treated the same."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:7ce60748b06b98f5ba075cd8b1b3c7cfe59d4a6facde0323e3958d5f1313c5a8",
+   "text": "Match: debit card, credit card or buy now, pay later?"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:55c9a8928d0ee0952ada2a1147132a5723ec8737950d68c1949793bece9b8dfa",
+   "text": "Match each statement to the correct payment method: **debit card**, **credit card** or **buy now, pay later**. Each method appears more than once."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:5479ccba8d1f0752a998a816619272024e9c83ef2886a52028e450ba445a9b64",
+   "text": "Going further: your spending, your control"
+  },
+  "blocks[9].tasks[0].prompt": {
+   "quelle": "sha256:e826220032f2ee9963de70aadfd1727d872a0e3002e25b8f53f94cca7d369346",
+   "text": "Do a subscription check: list all the subscriptions and regular services you pay for (or your family pays for on your behalf) – streaming, music, games, cloud storage, gym membership and your mobile phone. Note the monthly amount for each and work out the annual cost. Which subscriptions do you actually use – and which would you cancel after this check?"
+  },
+  "blocks[9].tasks[0].hint": {
+   "quelle": "sha256:41764072a6ffacdd868da4766751bf6f0a81f8194076a8b0f82da9813c289ab4",
+   "text": "Look in three places: your phone's subscription settings (app store subscriptions), your emails for ‘subscription confirmed’ or ‘invoice’, and your bank statement or card payments. Annual cost = monthly amount × 12; small amounts add up surprisingly quickly."
+  },
+  "blocks[9].tasks[0].solution": {
+   "quelle": "sha256:a0549b1de74872fc24d3300def3bec266f37e713d354c35f2987d5a86be7dcd2",
+   "text": "There is no single model solution, but this is a typical result: there are more subscriptions than expected (the average household significantly underestimates its subscription costs), and at least one has barely been used for months. Example calculation: streaming CHF 13, music CHF 11, a game subscription CHF 8 and cloud storage CHF 3 come to CHF 35 a month – CHF 420 a year. Cancelling an unused subscription can save you more in one go than many people put aside in a month."
+  },
+  "blocks[9].tasks[1].prompt": {
+   "quelle": "sha256:bb5f975d9492638908a437d1fdfec757688a71ade74e9c7f06acb16a745845a5",
+   "text": "Your friend regularly orders clothes online and always chooses ‘pay in 3 instalments’ – ‘because then it doesn't hurt at all’. She currently has orders for CHF 90, CHF 120 and CHF 60 to pay off. (a) How many payment dates does she need to remember, and what is the total amount she still owes? (b) Use the ‘pain of paying’ to explain to her why it feels so easy – and what makes it dangerous. (c) What alternative would you suggest?"
+  },
+  "blocks[9].tasks[1].hint": {
+   "quelle": "sha256:f9fa7818d6696765ac3635049f3bd13c2648f9e1675feab7082cf7b4fed54908",
+   "text": "For (a): 3 orders × 3 instalments. For (b): What does she feel when she clicks ‘pay in instalments’ – and when does the bill actually arrive? For (c): Think about the debit card and the budgeting rule from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]."
+  },
+  "blocks[9].tasks[1].solution": {
+   "quelle": "sha256:38f72adbde1ed4fc40131f6ace94414bfbd77ee724a4f70b436edda0e1c1085d",
+   "text": "(a) 3 × 3 = 9 payment dates; amount outstanding: 90 + 120 + 60 = CHF 270. (b) She feels nothing when she clicks – no money visibly leaves her hands, so the pain of paying disappears completely. That is precisely the danger: the CHF 270 has already been spent, but it does not feel that way. If she misses one of the nine instalments, reminder fees are added and her creditworthiness suffers. (c) Alternatives: pay immediately by debit card (so the account balance shows the true picture), only order what this month's budget allows – or save up for the purchase instead of paying it off in instalments afterwards."
+  },
+  "blocks[9].tasks[2].prompt": {
+   "quelle": "sha256:4216f4c57cec57a91d5034a8f6bb0d1d9355e5042bf691d6c2455e38502766f5",
+   "text": "Create a short ‘money problems emergency plan’ for yourself or an imaginary person: name three warning signs to look out for, the first two steps you can take yourself, and two places to get help in Liechtenstein, including what they offer."
+  },
+  "blocks[9].tasks[2].hint": {
+   "quelle": "sha256:1b825fb7be340f8dbfa08bd408e9c63606b614fcdbc8451faa4d9d5fb3b6a71a",
+   "text": "You can find warning signs in the section ‘Recognising warning signs’. For places to get help: who provides free budget and debt advice in Liechtenstein? What does aha.li offer – and who can you reach on 147?"
+  },
+  "blocks[9].tasks[2].solution": {
+   "quelle": "sha256:dd2e04e1b57bf64a1a5a604b2d050f2e29735d36e73927afc15228ffb6cc5051",
+   "text": "Example emergency plan: warning signs – (1) avoiding your account balance, (2) leaving payment reminders unopened, (3) using new debt to pay old bills. First steps – (1) get a clear overview: list all outstanding amounts, instalments and subscriptions (use the budget from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]), (2) cancel unnecessary subscriptions and switch to cash or a debit card; also talk to someone you trust. Places to get help – Caritas Liechtenstein's budget and debt advice service (free, provided on behalf of the government, helps you organise your finances and negotiate), aha – Tipps & Infos für junge Leute (aha.li, accessible information about money) and Pro Juventute's Beratung + Hilfe 147 service (phone, SMS, chat – around the clock, including from Liechtenstein)."
+  }
+ },
+ "pakete": {
+  "blocks[6]": {
+   "quelle": "sha256:40261ecedfd8e43bc4479b112013323b9e2aea0e93f6c318c4d5b82a5a65a396",
+   "inhalt": {
+    "text": "With a {{1}}, money is taken from your account immediately – you see the new balance straight away. A {{2}} groups your purchases together and charges you later, usually at the end of the month. With buy now, pay later, you only pay after 30 days or in {{3}}.\nWhen you pay in cash, you feel the {{4}} of paying. With digital payments, this disappears, making it harder to keep {{5}} of your spending. Common debt traps include {{6}} that renew automatically after the free month, small one-off {{7}} in games – CHF 2 here, CHF 5 there – and {{8}} with high interest rates. If you miss instalments, you risk {{9}} and debt collection proceedings. The first step out of the trap is always the same: get {{10}} of your finances.",
+    "luecken": [
+     [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ],
+     [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ],
+     [
+      "instalments",
+      "installments"
+     ],
+     [
+      "pain",
+      "the pain"
+     ],
+     [
+      "control",
+      "track"
+     ],
+     [
+      "subscriptions",
+      "the subscriptions"
+     ],
+     [
+      "in-app purchases",
+      "in app purchases",
+      "the in-app purchases",
+      "the in app purchases"
+     ],
+     [
+      "small loans",
+      "small consumer loans",
+      "small personal loans",
+      "the small loans"
+     ],
+     [
+      "reminder fees",
+      "reminder charges",
+      "payment reminder fees",
+      "late fees",
+      "late payment fees",
+      "late-payment fees",
+      "late payment charges",
+      "the reminder fees"
+     ],
+     [
+      "a clear overview",
+      "an overview",
+      "overview",
+      "clear overview",
+      "a clear picture",
+      "a full picture",
+      "the full picture"
+     ]
+    ],
+    "ablenker": [
+     "savings interest",
+     "dividend",
+     "premium"
+    ]
+   }
+  },
+  "blocks[7]": {
+   "quelle": "sha256:495702920d5c388c88a8eddc0460f6978e861684ee41b40ed7953254fed69ce0",
+   "inhalt": {
+    "text": "With a debit card, money leaves your account {{1}}. The credit card bill usually arrives at the end of the {{2}}. ‘Kauf jetzt, zahl später’ is ‘Buy now, pay {{3}}’ in English. If you leave bills and instalments unpaid, you risk {{4}} and eventually debt collection. In Liechtenstein, free help with money problems is available from the budget and debt advice service run by {{5}}.",
+    "luecken": [
+     [
+      "immediately",
+      "straight away",
+      "right away",
+      "instantly",
+      "at once",
+      "straightaway",
+      "directly",
+      "on the spot"
+     ],
+     [
+      "month",
+      "the month"
+     ],
+     [
+      "later"
+     ],
+     [
+      "reminder fees",
+      "reminder charges",
+      "payment reminder fees",
+      "late fees",
+      "late payment fees",
+      "late-payment fees",
+      "late payment charges",
+      "late charges",
+      "reminders",
+      "payment reminders",
+      "overdue payment reminders",
+      "the reminder fees",
+      "the reminders"
+     ],
+     [
+      "Caritas",
+      "Caritas Liechtenstein"
+     ]
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:25d5bca39301184f36f82a2a6e3e65f085d8824e297d1c12aaa100a1fd962238",
+   "inhalt": {
+    "text": "The money leaves your account at the moment of purchase. {{1}}\nAll your purchases for the month appear together on one bill. {{2}}\nYou pay the purchase price in several instalments over weeks or months. {{3}}\nWithout funds in your account, the payment will usually not go through. {{4}}\nThe bank pays the money on your behalf – you are billed later. {{5}}\nPopular in online shops: ‘Order now, pay in 30 days or in instalments.’ {{6}}\nYour account balance shows your spending immediately. {{7}}\nIf you do not pay the monthly bill in full, you pay high interest. {{8}}\nLots of small instalments from different orders can easily add up unnoticed. {{9}}",
+    "luecken": [
+     [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ],
+     [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ],
+     [
+      "buy now, pay later",
+      "buy now pay later",
+      "buy-now-pay-later",
+      "BNPL"
+     ],
+     [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ],
+     [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ],
+     [
+      "buy now, pay later",
+      "buy now pay later",
+      "buy-now-pay-later",
+      "BNPL"
+     ],
+     [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ],
+     [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ],
+     [
+      "buy now, pay later",
+      "buy now pay later",
+      "buy-now-pay-later",
+      "BNPL"
+     ]
+    ]
+   }
+  }
+ }
+}
