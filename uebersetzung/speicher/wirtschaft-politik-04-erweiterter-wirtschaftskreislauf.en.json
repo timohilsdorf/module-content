@@ -1,0 +1,673 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:824d534fba263c6a53f082a5998d931bf9401fa52ec8066836ee75dbed29bb68",
+   "text": "The extended circular flow of the economy: the state, banks and the rest of the world"
+  },
+  "description": {
+   "quelle": "sha256:9d79895509b8a1eca7a8065f2a170fb8e4083ff1c603bd2792eed180785128ee",
+   "text": "The simple circular flow of the economy is growing: you extend the model step by step to include the state, banks and the rest of the world. Using Liechtenstein as an example, you explore how closely a small country is connected to its neighbours – and why the circular flow is still a simplified model."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:60cbad252fa244bd259aba09abae45e4f37a6246d0aefd23738acb4efd487d0a",
+   "text": "Topic A: Basic concepts and the circular flow of the economy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:93a0d68a304bea62d67b57b8e97458dce199ee12eaa5ac25040f4cc89611f75e",
+   "text": "circular flow of the economy"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:8a6a695f376ca33d1b3cef17eb08d1aba286b75b56097f65ad85386baaf89b01",
+   "text": "extended circular flow of the economy"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:dbfaee9b324ae2418533fb5b9fd89dd1dce97446b7a12db02f84c5f72fd546d1",
+   "text": "state"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:4045fd1653e65619ac76cbe787a138056a9cdc22dad5e71a22aa3eafe6d3c473",
+   "text": "taxes"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:db7db47337f74abdec207c4088af73efe946e2eab36f54e254d7e18900201f5b",
+   "text": "public services"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:86167bbf40f8e892cb6a3f3242e90b3f79246158641b28139f30516f22d08f11",
+   "text": "banks"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:d35c06630dcc84df39a5f242cfee37083949ade121bd1fdb3d7af77cfce27fcb",
+   "text": "saving"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:bb271c3cf6f690ae85c4a7caa4a528c804ea2040127ad2817f298fe554b37030",
+   "text": "deposits"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:a4457bef81066b5e370510663ce521824dd7b53bd21adbfc88cb4d3b2cd8e6f5",
+   "text": "loan"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:1f8a5ed8a86fda0c5bfd95fb90b036abaa1198593dc918a1ab5f84d92ca0bdd1",
+   "text": "rest of the world"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:3664895579f0a7e68c4aa09c91316e20239bc74499010e6423ece40cad7c28f7",
+   "text": "export"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:2cff9baabf56ca002610e113bc94deb6ededddfc3c130365b6e88ed5195bf774",
+   "text": "import"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:3cacca0c08eb71df7465936329d54c4ce8f29afa09d48fbe904efe9137abe244",
+   "text": "cross-border commuters"
+  },
+  "keywords[13]": {
+   "quelle": "sha256:6ff080c07894909d194898c8b63acf6e17ea76ca064d151f9cf15d4999f149ce",
+   "text": "Liechtenstein"
+  },
+  "keywords[14]": {
+   "quelle": "sha256:12a3c868aebb375bed46658fc9707afafc1294b2c3fb8dc7a81ea252a9fad2fe",
+   "text": "Switzerland"
+  },
+  "keywords[15]": {
+   "quelle": "sha256:ff461e69984d7e2fe6ac538ab2f0327b6f40148788b89c4e7be5887f21497829",
+   "text": "model"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:e5275d23669c8ffec17cd94b121c02981428920969e13e00e699630aad8964fc",
+   "text": "I can extend the circular flow of the economy to include the state: households and businesses pay taxes, and the state provides public services such as schools, roads and public safety in return. It also acts as an employer and a buyer."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:8588193b8b73f68b44e121d95b9ecf7b23ed4ae89a5121723644ef648e18ae63",
+   "text": "I can describe the role of banks as intermediaries: they collect the savings that households and businesses deposit and use them to provide loans – linking saving and investment."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:cf8fa346886a1cf44fe7b2ff94c6fc6904384f01d12593b84a6c365c2f728555",
+   "text": "I can include the rest of the world in the circular flow: goods are exported and imported, and Liechtenstein's example shows me how labour flows in from abroad and wages flow out."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:2721ac7eb9f35052c66ae82c6f07df6074022e454175229f5bdb498fcaaad3be",
+   "text": "I can explain why the circular flow of the economy is a model: each additional participant makes it more realistic, but it remains a simplification of reality."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:30e7e0c6922f6ae38e84285168f441f5e10d8a595b09e4ca8acd507faa4ee2f4",
+   "text": "Extension 1: Bringing the state back in"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:2b2df5dcff2bfdddd54b076b7613d456f9f6c1a6c9a7012c26bb84cc7937f784",
+   "text": "In [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]], you explored the **basic model**: households and businesses, connected by real flows and money flows. To make the basic pattern clear, we deliberately left everything else out – that is the trick behind every **model**. Now we will make the model more realistic step by step: first we bring the **state** back in, then we add **banks**, and finally the **rest of the world**.\n\nBack to the bakery where you work during the holidays: each year, the bakery pays **taxes** on its profit – and your household pays taxes too, for example on its income. **Households and businesses pay taxes to the state.** But this money does not disappear: in return, the state provides **public services** that benefit everyone – the school you attend, the road outside the bakery, the police and the fire service.\n\n**Watch out for a common misconception:** taxes are not a service that the state provides to households – they flow in exactly the opposite direction. Taxes are a money flow **to** the state; public services flow back **from** the state.\n\nThe state also has two other roles, which you know from [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]]: it is an **employer** – teachers, police officers and local council staff receive their wages from the state. And it is a **buyer**: when the country has a road built, it hires and pays businesses to do the work."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:f95a2d8b4ff61aa93b80cf4033f0590573785b67cc7df21399050d63396d4ee7",
+   "text": "Extension 2: Banks as intermediaries"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:f2e1e6010ec67280050b4c171e37669e3d3a498633cd6647566e13b6a426c0d1",
+   "text": "So far, everyone in the circular flow has spent their money again straight away. In reality, you put some of your holiday job wages into a bank account – you **save**. The bakery also puts some money aside in good months. This money is held at the bank as a **deposit**.\n\nIf these savings simply stayed in a vault, they would be lost to the circular flow. This is where **banks** come in: they collect deposits from many savers – and pass the money on as **loans** to those who currently need more than they have. If the bakery wants to buy a new oven but cannot pay for it all at once, the bank lends it the money.\n\nThe bank is therefore an **intermediary**: saving flows in on one side, and loans flow out on the other – **saving and investment are linked**. Some of the money you saved from your holiday job might therefore indirectly help to pay for your bakery's new oven.\n\nYou will look more closely at how the bank itself makes money and exactly what a loan costs (the key term is **interest**) later in [[modul:wirtschaft-politik-12-banken-kredit-zins]] – here, we are only concerned with the flows."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:0e04260dbe6014f5103d6ace4c928ee26f0e092df5759aacce18a9345a3bbe82",
+   "text": "Extension 3: The rest of the world – Liechtenstein and its neighbours"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:3359cad72953799babffcbc5b1410276f78ae1538308b865a3715b98e3a51f22",
+   "text": "No country's economy operates in isolation. The flour for your bakery might come from a mill in Switzerland – an **import**: goods flow in from abroad, and money flows out. Conversely, businesses in Liechtenstein sell their products all over the world – for example, a machinery manufacturer supplies equipment to Zürich: an **export**. Goods flow out, and money flows in.\n\nThe rest of the world is important to Liechtenstein for another reason too: **workers**. Most people employed in Liechtenstein do not actually live in the country. Instead, they travel in from Switzerland and Austria every day as **cross-border commuters** – from Buchs, Sevelen or Feldkirch to work in Vaduz, Schaan or Eschen. In the circular flow, this means that their **labour flows into Liechtenstein** (a real flow), while their **wages flow out to other countries** (a money flow) – where they are spent or saved.\n\nLiechtenstein and Switzerland thus form a closely connected **economic area**: goods, workers and money cross the border along the Rhein in both directions every day – and payments on both sides are made in Swiss francs."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:8910868769610d90bb30d4e5b7135fd625979f0284d03237ef7300ccd833d6fb",
+   "text": "The extended circular flow of the economy at a glance"
+  },
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:976f580d3a55faf3b7bc4113739c53ac6d2c2594d117f8df0901a571a25dd66e",
+   "text": "The extended circular flow model"
+  },
+  "blocks[3].szene.elemente[17].text": {
+   "quelle": "sha256:4031b3da91e15fda19a09be64bc5910a0142181433afe9f41d6117c4061657de",
+   "text": "Real flow: labour, goods and services"
+  },
+  "blocks[3].szene.elemente[19].text": {
+   "quelle": "sha256:a9b83acaf5cebb6244fab9a77b70bdcb92fe60dd1f1b6eb8a0c23ebdd24e5ee0",
+   "text": "Money flow: wages, spending, taxes, saving, loans"
+  },
+  "blocks[3].szene.elemente[20].text": {
+   "quelle": "sha256:60e3714e07620101afc08b64844108784a3f4fa913263e81dcdfc2133dcba4ec",
+   "text": "Each participant makes the model more realistic – but it remains a simplification of reality."
+  },
+  "blocks[3].szene.elemente[21].text": {
+   "quelle": "sha256:e476ff59fb8c5a9eb72aa5b80b9914f61d0d0b93e443342935902dd1923942ec",
+   "text": "State\nSchools, roads,\npublic safety"
+  },
+  "blocks[3].szene.elemente[22].text": {
+   "quelle": "sha256:a90577bf7869c56c3075ff7bf5a2cbf6bd922089fb63abf7d092d1f111ce1446",
+   "text": "Households\nconsume goods\nsupply labour"
+  },
+  "blocks[3].szene.elemente[23].text": {
+   "quelle": "sha256:7e5228e5932ea68f183d1c7dba3ce1544c4d27758f5fa7f00ee2140b6c62195e",
+   "text": "Businesses\nproduce goods and\nservices,\npay wages"
+  },
+  "blocks[3].szene.elemente[24].text": {
+   "quelle": "sha256:c1eafe96a857416ebf0df5326823c1086afcbdcbb8e14445801979791fb6aee8",
+   "text": "Rest of world\ne.g. Switzerland\nand Austria"
+  },
+  "blocks[3].szene.elemente[25].text": {
+   "quelle": "sha256:270cc9e523fcfb477974d63ef31b8c90bf26de283897be825cd48831344fa531",
+   "text": "Banks\nlink saving\nand loans"
+  },
+  "blocks[3].szene.elemente[26].text": {
+   "quelle": "sha256:4045fd1653e65619ac76cbe787a138056a9cdc22dad5e71a22aa3eafe6d3c473",
+   "text": "Taxes"
+  },
+  "blocks[3].szene.elemente[27].text": {
+   "quelle": "sha256:db7db47337f74abdec207c4088af73efe946e2eab36f54e254d7e18900201f5b",
+   "text": "Public services"
+  },
+  "blocks[3].szene.elemente[28].text": {
+   "quelle": "sha256:83e6efe86970d0764a22a6cf364d09435a6365223525697add391943ee4e1460",
+   "text": "Labour"
+  },
+  "blocks[3].szene.elemente[29].text": {
+   "quelle": "sha256:b9b371f844f53b3d3990452f0f6e01cc81dabfa3b2ecb2a49446a91fcc794887",
+   "text": "Wages"
+  },
+  "blocks[3].szene.elemente[30].text": {
+   "quelle": "sha256:c68a40ff70a1e6763ba978c01bd3b6bd92083d80a7ea18889e409a7344214351",
+   "text": "Goods and services"
+  },
+  "blocks[3].szene.elemente[31].text": {
+   "quelle": "sha256:d72b7d9ee70dc77b4f6bcebad9d6c17e88ff5fdc14c2e10de3e3e9c2b82198d6",
+   "text": "Consumer spending"
+  },
+  "blocks[3].szene.elemente[32].text": {
+   "quelle": "sha256:8f37c0e2fbfb21ee3a9103436e5b31df0c3b9dc61ec38c57ac15e18196873428",
+   "text": "Saving (deposits)"
+  },
+  "blocks[3].szene.elemente[33].text": {
+   "quelle": "sha256:5e36f03d90ea23c0fc160e768947dbc3bf45d754915b25b373470ab3e6ca1379",
+   "text": "Loans"
+  },
+  "blocks[3].szene.elemente[34].text": {
+   "quelle": "sha256:1b13b049b4a3c43d1ec02967e266acbb1c9bf6d688e5e8fcbd6f3a54a1ecaa7d",
+   "text": "Exports"
+  },
+  "blocks[3].szene.elemente[35].text": {
+   "quelle": "sha256:572a3acfd983df5cac01183af387763699ac76855dc3b22dca06325a5665cb17",
+   "text": "Imports"
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:befea3228af3618a5f079eda6b183f7a104aa64c5c028a1ebfc1093fa5585778",
+   "text": "The diagram 'The extended circular flow model' shows how three participants are added to the simple circular flow between households and businesses: the state, banks and the rest of the world. The core remains unchanged: households (consume goods, supply labour) and businesses (produce goods and services, pay wages) are connected by four flows in opposite directions. A key distinguishes real flows (solid green arrows: labour, goods and services) from money flows (dashed orange arrows: wages, consumer spending, taxes, saving, loans). Key points: (1) Households supply labour to businesses (real flow) and receive wages in return (money flow); businesses supply goods and services to households (real flow) and receive consumer spending in return (money flow). (2) Households and businesses pay taxes to the state (money flow); in return, the state provides public services such as schools, roads and public safety (a flow back from the state into the circular flow). (3) Banks link saving and loans: saving (deposits) is a money flow from the circular flow to banks, while loans are a money flow back into the circular flow. (4) The rest of the world (e.g. Switzerland and Austria) is connected to businesses by two flows of goods: exports flow out, and imports flow in (real flows). (5) The conclusion below the diagram: each participant makes the model more realistic – but it remains a simplification of reality."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:55ad4ecd8c707555bd4ef0946a1546cef0776bbc09abb36b924baf373b297c23",
+   "text": "Video: The extended circular flow of the economy"
+  },
+  "blocks[4].description": {
+   "quelle": "sha256:db802575b09eff10698bb9a1371d5f32cc0f02cabbd33dfadd41ac1847cca1eb",
+   "text": "The explainer video (4:56) extends the circular flow step by step again – with the same participants as in this module. As you watch, focus on two questions: (1) Where does the state get its money – and what does it do with it? (2) Which two flows in opposite directions connect banks and the rest of the world to households and businesses? A quick note: you will also hear terms such as interest and subsidies in the video – for now, just remember the basic idea: for the state, banks and the rest of the world too, two flows in opposite directions always belong together."
+  },
+  "blocks[4].transcript": {
+   "quelle": "sha256:34d9f2a878a4679895fd0af4e1ee8c90ec7c0c181158d6d0cc233483ed7730b8",
+   "text": "The explainer video by the educational channel 'Die Merkhilfe Wirtschaft' (4:56 minutes) adds more participants to the simple circular flow of the economy: households and businesses are joined by the state, banks and the rest of the world. The state receives taxes from households and businesses and provides public services in return; it also pays wages and buys from businesses. Banks collect the savings of households and businesses as deposits and use them to provide loans, which can enable businesses to invest, for example. The rest of the world is connected to the domestic economy through exports and imports: goods cross the border, and payments for them flow in the opposite direction. Throughout, the video distinguishes between flows of goods and money flows and shows that, for each participant, two flows in opposite directions belong together."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:ea7819e1778b9d3bbb7f7befdd906b934545b08312f593cd247ff480b9da73e1",
+   "text": "A model is still a model"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:175a716054b0f31a2982248eb2238563544930e8d6e95b63e4d3c8bde59e7a0a",
+   "text": "Look at the diagram again: two participants have become five, and four flows have become many more. With each extension, the model has become **more realistic** – the circular flow with the state, banks and the rest of the world already describes everyday life in Liechtenstein quite well.\n\nEven so, the extended circular flow is still a **model** – a deliberate **simplification of reality**. Many things are still missing: insurance, clubs and associations, inheritances, undeclared work, the environment and raw materials. And for each new participant, we have only drawn the two most important flows – in reality, there are many more connections.\n\nThis is deliberate, not a flaw: **a model should not show everything, but make the important things clear.** If we drew every single flow, the diagram would be an unreadable tangle. The skill lies in leaving out just enough to keep the pattern clear – and adding just as much as the question requires. If you want to understand why the bakery gets a loan, you need banks in the picture; if you only want to understand the exchange of 'work for wages', the basic model in [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]] is enough."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:5ca8e69616601269b069683ac763703153c683001b82074e8006f0d505cd8ebb",
+   "text": "Quiz: The extended circular flow of the economy"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:ee9c82c68a8da715f83d6836ac8f23d4fbf3e9181ab2162c11860d7842c897a8",
+   "text": "Show what you know about the state, banks and the rest of the world in the circular flow. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:40cbf9a4cba134c2b8861f8cb7ac7e8597257b13130afb6e804f7fe490bde3f9",
+   "text": "Households and businesses pay taxes to the state. What do they get in return?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:7ad0ca1e94a902f61a8127199a41725a6e0fd6fcce0a91e0c027a7470acf83e5",
+   "text": "The state pays everyone's taxes back to them at the end of the year."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:775eb8b7613728e39e00b235bea7b1db9965811e56c2623294797e80fc5ead4e",
+   "text": "Public services such as schools, roads and public safety – available to everyone."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:c00c4aec1a250820396392f601e43824048aa17edbc7109d63bd9680d8d36d54",
+   "text": "Nothing – taxes leave the circular flow of the economy for good."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:6a4ad0cc587dfa84015f19ff0c2344568e5c6fa2fd0e5dc82cc6d0bce2d86087",
+   "text": "Interest that the state credits on the taxes paid."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:424a6daae07d530d432fc428e28f86b717c5f392b8037c237b75166bf75a7019",
+   "text": "Taxes are neither money lost nor a deposit that is repaid or earns interest: the state uses them to fund public services such as schools, roads, the police and the fire service. These services flow back to everyone – as provision for the public, rather than a personal return for each franc paid."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:42a1cfc5d13a17640798002ba909111154ae70b560fcfc81c24d43c454a4259d",
+   "text": "Why are banks called 'intermediaries' in the circular flow of the economy?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:c439c14bcde8794a1067d271d5cd66607a1ae1b603b7bf62628a2071076a6f2e",
+   "text": "Because they print the money that moves around the circular flow."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:357a8cff8521820bc6a56b7d706a3507d6bd2ddf10be4cabb89deaccaa0ac988",
+   "text": "Because they decide which goods businesses produce."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:977e078a72dae46de40df522b89bea8e1f61f43091ab8c11f86751216e9479af",
+   "text": "Because they pay for the state's public services."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:57ecd6578fd04b8a517f01a91015945f3431413e4c79e44db400f08d300506c2",
+   "text": "Because they collect some people's savings as deposits and use them to provide loans to others – linking saving and investment."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:87653d2ac6960ba6210f60f16ba98a360bd0937547a632844143f462b0f5a66c",
+   "text": "Banks take in deposits on one side (the savings of households and businesses) and provide loans on the other to those who currently need more money than they have. This keeps saved money in the circular flow and turns it into investment – that is precisely what makes a bank an intermediary. Printing money, deciding what is produced or paying for state services is not part of this role."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:8bc27c00a606fc1c124bb8a7c6c5023322f91f5c764003d4a33300ebe1a500b3",
+   "text": "A machinery manufacturer in Liechtenstein sells equipment to a company in Zürich. What is this from Liechtenstein's perspective?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:250b82ff4197fb2f85f9a034a6f3429075234e45c795888b052ced5b04591cec",
+   "text": "An export – the goods flow out to another country, and the payment flows into Liechtenstein."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:2952c24a55f45e5f89f30d56346410d880a622e9238b980af0d4cfe836b809bd",
+   "text": "An import – after all, the equipment was ordered from Switzerland."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:3084e8e576b30164a6b13baf49db73c4e01e72f1d6d41b6519e8cf7c983099bb",
+   "text": "It is not foreign trade, because Switzerland is a neighbouring country."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:315074b1ae929c0c4e42e2217539aa807b285e33b433bf235c48599dbdbd1258",
+   "text": "A public service, because machinery is part of the infrastructure."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:68305f2173a176ac2db6a3318caae3c0b96053e2ae64dad069bcf5c2e984096e",
+   "text": "What matters is the direction of the goods from your own country's perspective: if a business in Liechtenstein sells abroad, it is an export – the goods flow out and the money flows in. An import is the reverse: goods come in from abroad (like the bakery's Swiss flour). Trade with a neighbouring country is still foreign trade, and the sale has nothing to do with the state's public services."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:de7a7ac5d9b66adce93f991896767c09343c75286e27adb6057be415381c5230",
+   "text": "A cross-border commuter from Buchs (Switzerland) works in a bakery in Vaduz. Which two flows cross the border?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:cfc1edc88fc5641c452a08e6092fde58d77bf000b00489e788643cba518c34a1",
+   "text": "Both labour and wages flow into Liechtenstein."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:c80293f129d184854f737bf31c3e98510526624408e122fab988284718f5f145",
+   "text": "Her wages flow into Liechtenstein, while her labour stays in Switzerland."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:6653dc574caf7cbcb580e46b790f0de1f26fe0bf44c3ea1b13241c4d6d629b4b",
+   "text": "Her labour flows into Liechtenstein, and her wages flow out to Switzerland."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:12d93ffa5f763beca877c97a7e4bf1641dc6a644d2ed066ab8313eeed7968af9",
+   "text": "Nothing flows across the border, because she works in Liechtenstein."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:dd6cda6b341b2ac678aa4d565a711278d34a5f64f319d87bd19af77358c887fc",
+   "text": "As in every exchange, two flows move in opposite directions – here, across a national border: the commuter's labour flows into Liechtenstein as a real flow, and her wages flow out to Switzerland as a money flow, to the country where she lives, shops and saves. This is exactly how Liechtenstein is connected to its neighbours: most people employed there commute in from Switzerland and Austria."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:4893f0b3a53d4f1b0a01e3c8e2b5536db1e4f92827fb9e0d41c4a91e674eadb7",
+   "text": "Who pays taxes to the state in the extended circular flow of the economy?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:c904b094eff155a73502c2a1785e3b307b0c84c50da2ab05a9e765b8da2625c2",
+   "text": "Households and businesses."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:8bd7c6cc98c0b36030d1566be934ab8f3c3255134adaff176b5583d88228f972",
+   "text": "Only households – businesses provide jobs instead."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:c073eb946c465fb5b603f2d235346e049d792bdda40ec651e456aa04d701bede",
+   "text": "Only businesses – households receive services for free."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:e0f76c38660759dea44680564738ded8b0bedcacf9d5747b0ccd431c1d9f94f0",
+   "text": "The state pays taxes to households and businesses."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:3b11c81910c2745e1c5f20d74990fcbde36838f380c9a9a7bb9671ee15bdfee6",
+   "text": "Both private participants pay taxes: households, for example, on their income, and businesses, for example, on their profit. The direction is clear: taxes always flow TO the state – not the other way round. What flows back from the state is public services, as well as wages (the state as an employer) and contracts (the state as a buyer)."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:debf266684773419967c7aea0ec4d00f9e275298dfab0842db0e1db7ccb13082",
+   "text": "The state does more than collect taxes and provide services. What two other roles does it have in the circular flow?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:bdf9daee0ff16d7efc424bea590578ecf01761275a3e084678c1047ca6322818",
+   "text": "As a saver that takes all its money to the bank."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:f6aaea0ecc13c188a582deb088fb0b93c69029b1ec46bb6d6597f08246dc8fa4",
+   "text": "As a producer that makes all the country's goods."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:d2c0097a73dba30464a7611a2d94f07921ce3a5f4f46e6ad5cd4a3f22ebf3ebb",
+   "text": "As a seller that offers consumer goods to households."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:2bbd882d274707d2aa87470bd38908f7ae85c6ef272f21148a1ba48def5fc69a",
+   "text": "As an employer (e.g. of teachers and police officers) and as a buyer (e.g. when it has a road built)."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:6bd6c79262ba5393fe3f8c4e395346539b8eb3cd5cac9b7d91c6f1551fdad105",
+   "text": "The state is itself an employer – teachers, police officers and administrative staff receive their wages from it – and it is a buyer when it hires and pays businesses, for example to build a road or renovate a school building. But it does not produce all goods or sell consumer goods to households – that remains the role of businesses."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:9344f77e1e0fed27c6977bdc63a9618620e87cfbf77446455616d3b2fdeeda8f",
+   "text": "You put some of your holiday job wages into a savings account. What happens to this money in the circular flow?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:3777af45a0bbbe71265e84bef174245577ff47dc21c0648205b524288ca6b7b1",
+   "text": "It stays in the bank's vault and is missing from the circular flow until you withdraw it again."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:209ed657c9e4b19ee99bf9a1793b6f43535883d9eedb3d42a43a21074653575c",
+   "text": "It becomes a deposit that the bank can use to provide loans – for example, to the bakery for a new oven."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:4b3b70ab771148fc7590fa83856f66510f2ab7d10bc022b05931b26b72dc3f60",
+   "text": "It automatically becomes tax and flows to the state."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:9bb67a244a24e3f76199ce2e392cbb2470078f4b9763bb8a8c34d211670dccff",
+   "text": "The bank distributes it to all its customers as a public service."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:b71c8ee1239674e5f9dad3f6a8feb526728742e82cb9f734858af1054bbb4eab",
+   "text": "Your savings do not disappear from the circular flow: as a deposit, they become part of the money the bank uses to provide loans – for example, to a business that wants to invest. This is how the bank links your saving to other people's investment. It has nothing to do with taxes, and public services are provided by the state, not the bank."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:4a0be094692225b47d0676860b9850ba169e10a50b8b61b945ea85e55789f0da",
+   "text": "Even the extended circular flow with the state, banks and the rest of the world is 'only' a model. What does that mean?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:87ab2789a4ca2fd70294e2403afd863f5ae08a3de99e56f5693cd918331c402d",
+   "text": "It is wrong and should no longer be used in lessons."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:d4aab0d78eeaca75cb8cccbf1bfd30014050c9af4dc570cc139df321b793a1e4",
+   "text": "It now shows reality in full – nothing is missing any more."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:e2040656258d8ccdda885c342803a375440dfc749843ec5f7c05a472af192218",
+   "text": "It represents reality in a simplified way: each participant makes it more realistic, but many things are deliberately left out."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:5a1d0398181e476042df62d154f3cf58a7c8a52406e5af2a613dde5903ca91e7",
+   "text": "Models only apply to small countries such as Liechtenstein."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:5b313b20a7e43e0c393dd70136f0f189a7b619d552aea041ee7c1320c84d91ca",
+   "text": "A model is neither wrong nor complete – it is a deliberate simplification: it leaves out what is not important to the question at hand, so that the pattern becomes clear. Adding the state, banks and the rest of the world has made our circular flow more realistic, but many things are still missing (such as insurance or the environment) – and this applies to models in every country, not just small ones."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:38bcdaa064a310bee9f30929cd728402e9a9817fca0b3e78c9563193c56673fd",
+   "text": "Three new participants: Fill in the terms"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:454d8996ee76d3e92a85bab3e710deb8d3471f2557b90f524a135211c5311384",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three of the words do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:7f50a30de048c0cc665156f1e59f7bb43c362fd527dea06ad7abf544da264bf1",
+   "text": "Models and cross-border commuters: Type in the terms"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "This time there is no word bank – **type in the missing terms yourself**. Capital letters do not matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:3110c18cb50af8bf6bcf45ca208fc9762f9a5e3aa864ce8c32a3e962757ad649",
+   "text": "Matching: Who or what is involved?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:363ab28f2229c91ee4abfb2c935c66df7197e5f831f9e99b0a32719fa182d4d9",
+   "text": "Match each example to the correct term: the **participant** involved, the state's **role**, or the **type of flow**. Ask yourself each time: where is something flowing – and what is it? **Watch out:** three of the terms do not fit anywhere."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:c475334cb078c49f784c6d91801986abf389dda860898813296a7545c1bf6cf8",
+   "text": "Going further: Apply the extended circular flow"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:17886fbbf0eaa38c08906ecd0196dd10153ea12875bb340a94197dfe0bd3f33b",
+   "text": "Describe the extended circular flow of the economy from memory: five participants (households, businesses, the state, banks and the rest of the world), and the two most important flows for each new participant. For each flow, state who it goes from and to, and whether it is a real flow or a money flow. If you like, draw the circular flow on paper first, then describe your drawing. Only compare it with the diagram in the module at the end: are the directions and types of flow correct?"
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:2ca7e1b58711ece52a48c43c79c8ae706f019d287ced7071018fc6c6ec09d5d2",
+   "text": "Start with the core from [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]] (two boxes, four arrows) – that stays unchanged. Then ask yourself for each new participant: what flows towards it, what flows away from it – and is it money or something 'real'? State: taxes and services. Banks: saving and loans. Rest of the world: exports and imports."
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:0842c111f0ba8c4ead475e06b77fbfdfe7241f69f798a754954c158719c3b046",
+   "text": "Your description should include: the unchanged core of households and businesses (labour and goods/services as real flows, wages and consumer spending as money flows); the state, with taxes flowing in (money flow) and public services flowing out (real flow); banks, with saving flowing in and loans flowing out (both money flows); and the rest of the world, with exports (goods going out) and imports (goods coming in), both real flows. Each flow is clearly identified as a real flow or a money flow."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:9f52c7336eb2822b6b241cc4aaac29d7460a06796936fdaba93fc8ba066ba513",
+   "text": "Circular flow detective: find ONE specific example from your everyday life or your family for each of these: a flow to the state, a flow to a bank, and a flow abroad (or from abroad). For each example, write down: who gives? Who receives? Is it money or something 'real' that flows?"
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:3803dbb7316fc9b60119a7ab1bedd7c34f02552a06c8673fe062336833fe5eb7",
+   "text": "Think about ordinary things: what does your family pay the state for – and what do you use every day that the state provides? Does someone have a savings account? Where do your food, clothes or mobile phone come from – and does anyone you know commute across the border to work?"
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:db9e7bdcede9ff1632736f0868374e3287db9dbf81dd52a910995f2d8ea35210",
+   "text": "Possible examples: state – the family pays taxes (money flow to the state) and uses schools and roads in return (services flowing back). Bank – the money saved from a holiday job is held in an account as a deposit (money flow to the bank); the bank uses it to fund loans. Rest of the world – the mobile phone was imported (goods in, money out); a neighbour commutes in from Feldkirch across the border (labour in, wages out). What matters in every example is the pair of questions: who gives and who receives – and is it money or something real that flows?"
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:94e8bd334e3651484fd544f592f01ba439d8eb062beaeefafb863a53c8008dd5",
+   "inhalt": {
+    "text": "Three participants are added in the extended circular flow of the economy. Households and businesses pay {{1}} to {{2}}; in return, it provides public {{3}} such as schools, roads and public safety.\n{{4}} collect the savings of households and businesses as {{5}} and use them to provide {{6}} – linking saving and investment.\nIf a business in Liechtenstein sells its goods to Switzerland, this is an {{7}}; if the bakery buys flour from a Swiss mill, this is an {{8}}. Many {{10}} also commute to work in Liechtenstein from {{9}}.",
+    "luecken": [
+     [
+      "taxes",
+      "tax",
+      "the taxes"
+     ],
+     [
+      "the state",
+      "state",
+      "the government",
+      "government"
+     ],
+     [
+      "services"
+     ],
+     [
+      "Banks",
+      "the banks"
+     ],
+     [
+      "deposits",
+      "savings deposits"
+     ],
+     [
+      "loans",
+      "credit"
+     ],
+     [
+      "export"
+     ],
+     [
+      "import"
+     ],
+     [
+      "abroad",
+      "other countries",
+      "the rest of the world",
+      "rest of the world",
+      "overseas"
+     ],
+     [
+      "cross-border commuters",
+      "cross border commuters",
+      "cross-border workers",
+      "cross border workers",
+      "frontier workers"
+     ]
+    ],
+    "ablenker": [
+     "interest",
+     "wages",
+     "profit"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:8dc95a9d7e2bd1347b23cd17f9a81b633915dfc8b5be7ce741e4b272bae444a6",
+   "inhalt": {
+    "text": "The circular flow of the economy is a {{1}}: it deliberately leaves many things out to make the important things clear. With each additional participant, it becomes {{2}} – but it always remains a {{3}} of reality.\nLiechtenstein shows how closely a country can be connected to its neighbours: most people employed there commute across the border from Switzerland and {{4}}. Their {{5}} flows into Liechtenstein – their wages flow out to other countries.",
+    "luecken": [
+     [
+      "model",
+      "simplified model",
+      "a model",
+      "a simplified model"
+     ],
+     [
+      "more realistic",
+      "more accurate",
+      "more true to life",
+      "truer to life",
+      "more lifelike",
+      "more faithful to reality",
+      "closer to reality",
+      "more representative of reality",
+      "more precise"
+     ],
+     [
+      "simplification",
+      "simplified representation",
+      "simplified depiction",
+      "simplified picture",
+      "a simplification",
+      "a simplified representation",
+      "simplification of reality"
+     ],
+     [
+      "Austria",
+      "Österreich",
+      "Oesterreich",
+      "the Republic of Austria",
+      "Republic of Austria"
+     ],
+     [
+      "labour",
+      "labor",
+      "work",
+      "labour services",
+      "labor services",
+      "labour power",
+      "labor power",
+      "labour supply",
+      "labor supply",
+      "the labour",
+      "the labor"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:52a69eb755c3d894b71deda682fe195419c1635e6b24d72377b51165f6ed7584",
+   "inhalt": {
+    "text": "The bakery pays tax on its profit: the money flows to {{1}}.\nA cross-border commuter from Buchs serves customers in Vaduz: her labour comes from {{2}}.\nA machinery manufacturer in Liechtenstein supplies equipment to Zürich: from FL's perspective, this is an {{3}}.\nThe bakery buys flour from a mill in Switzerland: from FL's perspective, this is an {{4}}.\nYou put your holiday job wages into a savings account: your deposit goes to {{5}}.\nThe bakery gets money from the bank for a new oven: it receives a {{6}}.\nThe local council has the school building renovated and pays a construction company: here, the state acts as {{7}}.\nA teacher receives her wages from the country: here, the state acts as {{8}}.\nThe cross-border commuter's wages flow into her account in Buchs: money flows {{9}}.\nThe sandwich you buy at break time passes across the counter to you: an example of a {{10}}.",
+    "luecken": [
+     [
+      "the state",
+      "state",
+      "the government",
+      "government"
+     ],
+     [
+      "abroad",
+      "other countries",
+      "the rest of the world",
+      "rest of the world",
+      "overseas"
+     ],
+     [
+      "export"
+     ],
+     [
+      "import"
+     ],
+     [
+      "the bank",
+      "a bank",
+      "bank",
+      "banks",
+      "the banks"
+     ],
+     [
+      "loan",
+      "a loan",
+      "bank loan",
+      "a bank loan",
+      "credit"
+     ],
+     [
+      "a buyer",
+      "buyer",
+      "the buyer",
+      "a purchaser",
+      "purchaser",
+      "a customer",
+      "customer"
+     ],
+     [
+      "an employer",
+      "employer",
+      "the employer"
+     ],
+     [
+      "abroad",
+      "overseas",
+      "out to other countries",
+      "to other countries",
+      "to the rest of the world",
+      "out to the rest of the world"
+     ],
+     [
+      "real flow",
+      "a real flow",
+      "the real flow",
+      "flow of goods and services",
+      "goods flow",
+      "flow of goods"
+     ]
+    ],
+    "ablenker": [
+     "money flow",
+     "seller",
+     "interest"
+    ]
+   }
+  }
+ }
+}
