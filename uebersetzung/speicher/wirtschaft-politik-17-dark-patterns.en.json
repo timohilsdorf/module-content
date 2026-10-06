@@ -1,0 +1,820 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:0004f09b1318df30741b248fb49b3c43605bc3c05a356dc32551ee0f8bcd4345",
+   "text": "Dark Patterns: How Apps and Shops Manipulate Us"
+  },
+  "description": {
+   "quelle": "sha256:24f5e8e84ffaabd8463cdb76aa193bba275a3ae8ae2ee82a9060217eca9e4ab6",
+   "text": "“Only 2 left in stock!”, “Offer ends in 09:58” – messages like these are rarely a coincidence and often deliberate. Here you will learn about dark patterns: intentionally manipulative design in apps, games and online shops. You will recognise the main patterns, understand why they work on everyone, discuss whether the state should ban them – and take away strategies that make you harder to manipulate."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:0c4950a7de0cd0fbae76b0776a74695ca1c18cb114d08c5f022349f1743a4330",
+   "text": "Topic block C: Money, banks, financial literacy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:d95af51a053e1c062750237edc6dea34bcab5f9520b49e2327e95fa5ea630c2c",
+   "text": "Dark patterns"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:82a4c98c0ac2eed19f9e2c2e12ce78baeb04c893709cdebe903fc24d58e99c16",
+   "text": "Manipulation"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:b783b589b1bf78b9bfe5fe57fa3b4af993d537fed06c7533abf94819d128690b",
+   "text": "Online shopping"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:c0ec244796cbb16877bbe45e8400648a8716dc3baa094febd35e462e442cd877",
+   "text": "Artificial scarcity"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:344f930692da83a8c98e5db4f4e434a140f1063be5aa1bc5db07d06deb5db5b8",
+   "text": "Countdown timer"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:6c95fe4a76ace9609485dee6e560c4ef1ac566e7e382454bb542068980bcbf41",
+   "text": "Hidden costs"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:4f7f3bc83a836431c69eb1cda4d5bd3b90051959d97b8eeaf843ede81359e2f3",
+   "text": "Subscription trap"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:111687aa61e2a232d7f7870fff4215c0fdacac1023deb4838940e8423e36917d",
+   "text": "Confirmshaming"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:0b8579ca2eb6201bab1115c880e0246a47086e82dc4e3ac9d43cc3983148288f",
+   "text": "Loot box"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:1e4c1bd73f4fad1061e736242260c49252671195497061acbd4a180c7c42c2b9",
+   "text": "In-app purchases"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:41db983fdf4e33582ec0160dbae578a0c42e344d28baf173f64ea9ebea3b3e10",
+   "text": "Streak"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:2f72ce2c3bd4ba491a338f94374776e1a49835d43c049a3ef24b6b34c329348b",
+   "text": "Consumer protection"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:4630a9f742816d041387da6062bd2ff0cacdde45bc1213bfff19fb6b587946f5",
+   "text": "I can explain what dark patterns are – intentionally manipulative design in apps, games and online shops – and recognise the main patterns in examples: artificial scarcity, countdown timers, hidden costs, subscription traps, pre-ticked boxes and confirmshaming."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:d461cd2a32115b3335f85a5503375d452f43dde205783a4adf1bce9421773b23",
+   "text": "I can identify game mechanics such as loot boxes, in-app purchases, artificial waiting times and daily streaks as ways of manipulating spending."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:49be7a9acfc503209b2afad82eca98963bd6d4d4c4e267c018ad1a7705ef2dea",
+   "text": "I can explain why these patterns work: time pressure switches off careful thinking, while fear of loss and social pressure steer decisions."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:4146142b8c77b968cb337bdd9ce9251038ccd0fb0ade8c8f1785477f60dbf9ee",
+   "text": "I can take a position on whether the state should ban these practices and support it with arguments – and I know that EU consumer protection rules already ban certain practices and that the issue remains politically contested."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:8256bb433062350535949423342c2188f7277e2fe89c08b8a311bd14ad2afca0",
+   "text": "I know strategies for dealing with dark patterns: waiting instead of clicking straight away, checking the final price, finding out how to cancel before signing up and setting spending limits for in-app purchases."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:a6beb785efb2ae28fff1dcdeda77aa3a68195687d2127670742133c6424fdafc",
+   "text": "“Only 2 left in stock!”"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:0261f72332c8527a674c86f5835b12ad1c00b27beafeb1bd252a41de20e4893f",
+   "text": "You know the scene: in a trainer shop’s app, “Only 2 left in stock!” flashes beside the pair you want, while a timer counts down above it. A flight-booking website says “Only 3 seats left at this price”, and a popular mobile game reminds you: “Play today or lose your streak!” Three different apps – all with the same aim: to make you act **now**, without thinking.\n\nThese features are called **dark patterns**: interfaces **deliberately designed to make you do things that mainly benefit the provider** – buy sooner, agree to more, stay longer, cancel later. The British designer Harry Brignull has been collecting examples of these tricks since 2010 and coined the term.\n\nTwo points to start with, to keep this module down to earth:\n\n- Dark patterns are **not a secret plot by sinister forces**. They result from ordinary business practices: shops and apps constantly test different designs against each other – and keep whatever brings in more revenue. Manipulation can creep in step by step, without anyone ever using the word “manipulation”.\n- **Not every advert is a dark pattern.** Advertising openly says: “Buy me!” A dark pattern steers you covertly – it reshapes the situation so that the provider’s preferred choice is the easiest one.\n\nThe aim here is not to spoil shopping or gaming for you. It is to help you **recognise** the patterns – because once you recognise them, you can make your own decisions again."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:38c256db7705cf9ae108b908828aeab78929018b89832b488ef815989033e454",
+   "text": "Six patterns you will spot everywhere"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:222b77f7a996b625b78512655b41c1a4c36331a4f94745efa5620997e1c3992c",
+   "text": "These are the six tricks you will most often encounter in online shops, on booking websites and in apps – you will see the same numbers in the picture below:\n\n1. **Countdown timer:** “Offer ends in 09:58!” A clock counting down creates time pressure. Often, the deadline is just for show: the price stays the same afterwards – or the next countdown starts.\n2. **Artificial scarcity:** “Only 2 left in stock!”, “Only 1 room left at this price!” You cannot check these claims from the outside – but the fear of missing out works all the same.\n3. **Pre-ticked boxes:** Newsletters, extra insurance, donations – the box is already ticked, and if you do not look carefully, you sign up for them too. The trick relies on you taking the easy option.\n4. **Subscription trap (making cancellation difficult):** Signing up takes two clicks; cancelling requires a phone call, a letter or a search through layers of menus. The harder it is to leave, the longer you keep paying.\n5. **Hidden costs:** The item costs CHF 89.90 – but delivery and a “service fee” are added at the final checkout step. Just when you have already made up your mind to buy.\n6. **Confirmshaming:** The yes button is big and colourful; the option to decline is small, grey – and worded to make you feel ashamed: “No thanks, I’d rather pay too much.” Saying no is meant to make you feel foolish.\n\nNow take a look at the picture: a single, fictional checkout screen – with all six patterns at once."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:cdecdcb96751f53d31bbbbc75c463da6883ed292aaaf683dc841e43929ff8e6e",
+   "text": "Spot the tricks: six in one checkout screen"
+  },
+  "blocks[2].szene.elemente[0].text": {
+   "quelle": "sha256:a436606b3a9b954dc442421f910ff968042321fabe509977b89af91a7f32c3b3",
+   "text": "Spot the tricks: six in a single checkout screen"
+  },
+  "blocks[2].szene.elemente[1].text": {
+   "quelle": "sha256:a6c8de7f8c2fb523567d8e3b2a904f38079c849595d1c8e00be8d8103f8c537a",
+   "text": "A fictional online shop – nothing here is by chance."
+  },
+  "blocks[2].szene.elemente[12].text": {
+   "quelle": "sha256:2219971a6711cc3020017b22719a60b0740abb0e5b5267a701734b75ae012fb5",
+   "text": "“Blitz 3” trainers, size 42"
+  },
+  "blocks[2].szene.elemente[13].text": {
+   "quelle": "sha256:545522ab08c7ed2b0273a8cfa106762b0f4c5291a8c4ff4ae59a9efdbcdcdd35",
+   "text": "CHF 89.90"
+  },
+  "blocks[2].szene.elemente[17].text": {
+   "quelle": "sha256:83cbdcf482919a17c3c481810bb90c99df567239a2e71aa80849f96a8e468067",
+   "text": "Receive newsletters and offers from our partners"
+  },
+  "blocks[2].szene.elemente[19].text": {
+   "quelle": "sha256:a4b135dd0a6f9d3607d7399e41efccf02b6643d9c75b6d5648a96392bd66e8ca",
+   "text": "Try PLUS: 30 days free, then CHF 9.90/month"
+  },
+  "blocks[2].szene.elemente[20].text": {
+   "quelle": "sha256:b85bef802ad6c6085a4c3e74c399fc6bb39d9824dc3602cc63441ab4973fb7cb",
+   "text": "Cancel by phone only, during office hours"
+  },
+  "blocks[2].szene.elemente[22].text": {
+   "quelle": "sha256:5d148ed4bd78f2af8f3dbead64f5edfd88dff7e4623355dd0e74b0938322230f",
+   "text": "Order summary"
+  },
+  "blocks[2].szene.elemente[23].text": {
+   "quelle": "sha256:67cea2213e2d1f21ab67c94688c1e0fffc5d020367f199336fe14db38635f2a0",
+   "text": "Subtotal"
+  },
+  "blocks[2].szene.elemente[24].text": {
+   "quelle": "sha256:545522ab08c7ed2b0273a8cfa106762b0f4c5291a8c4ff4ae59a9efdbcdcdd35",
+   "text": "CHF 89.90"
+  },
+  "blocks[2].szene.elemente[25].text": {
+   "quelle": "sha256:639a2a67d8adb05e631025039150fa978b1a58c49a1d03772028eccaeb4957a3",
+   "text": "+ Delivery"
+  },
+  "blocks[2].szene.elemente[26].text": {
+   "quelle": "sha256:c8bf62ee288a97cb4d3cfd6e98b1fad30292d62ed78731f79658a6f29dcae478",
+   "text": "CHF 12.90"
+  },
+  "blocks[2].szene.elemente[27].text": {
+   "quelle": "sha256:de9cfaeb73e5fd882fc25031901380c5fd599faa3de1d09f1e88dc30d5732d72",
+   "text": "+ Service fee (added at this step)"
+  },
+  "blocks[2].szene.elemente[28].text": {
+   "quelle": "sha256:619fdc122b6170a2df5f8f608402db630ada6ca2260f4ffe6c64095200374dc8",
+   "text": "CHF 4.90"
+  },
+  "blocks[2].szene.elemente[30].text": {
+   "quelle": "sha256:c9b3c38247f744e17dd26fda097d6a9ba9332586b6bdaa038bf8f313a863f2b8",
+   "text": "Total"
+  },
+  "blocks[2].szene.elemente[31].text": {
+   "quelle": "sha256:4fccbb7a2d6b918eb479fc59a6096ae749f22d22ee6a791fe6601e84ba167d56",
+   "text": "CHF 107.70"
+  },
+  "blocks[2].szene.elemente[33].text": {
+   "quelle": "sha256:44490d52a8e1ac18e407895ee223731bdda590ef4302a3b0e756bf5c79c7ddd0",
+   "text": "Join the savings club and get CHF 5 off?"
+  },
+  "blocks[2].szene.elemente[35].text": {
+   "quelle": "sha256:da707b25054ab6c7a99ed1e32087778b64c2c974ea2262ffb4a89ff516fbe5b7",
+   "text": "No thanks, I’d rather pay too much"
+  },
+  "blocks[2].szene.elemente[43].text": {
+   "quelle": "sha256:d2ba5e6cd767b31796666a3dfc6053a6def65496c69993801e18b16733093e26",
+   "text": "The six built-in tricks"
+  },
+  "blocks[2].szene.elemente[56].text": {
+   "quelle": "sha256:ba4f5977f72e16834b9017e5ef6d0beb7722e888fcad39508ff8b9443ce25250",
+   "text": "Fictional shop, fictional brand – but all six tricks are copied from real apps and shops."
+  },
+  "blocks[2].szene.elemente[57].text": {
+   "quelle": "sha256:28068c85551c1cdf1ed947cd364d8bc8c09add70061ef33204032e451eb19da6",
+   "text": "Online shop · Checkout – step 3 of 3"
+  },
+  "blocks[2].szene.elemente[58].text": {
+   "quelle": "sha256:9bab6da7b5fcddcc754c20890b70affc312151985db46f39523f0e01d1c22022",
+   "text": "Flash sale ends in 09:58 – today only!"
+  },
+  "blocks[2].szene.elemente[59].text": {
+   "quelle": "sha256:abd4b74f9576bf805c21fb5b1f4f2c812f43cc17711852288005a1b4e33356fb",
+   "text": "👟"
+  },
+  "blocks[2].szene.elemente[60].text": {
+   "quelle": "sha256:165ac73f69ecb9db26b043266cfb3d5250e11b967dcf8e00ac56ea7d07ae337c",
+   "text": "Only 2 left in stock!"
+  },
+  "blocks[2].szene.elemente[61].text": {
+   "quelle": "sha256:1dabba21cdad44541f6b15796f8d22978fc7ea10c46aeceeeeb66c23b3ac7604",
+   "text": "✓"
+  },
+  "blocks[2].szene.elemente[62].text": {
+   "quelle": "sha256:1dabba21cdad44541f6b15796f8d22978fc7ea10c46aeceeeeb66c23b3ac7604",
+   "text": "✓"
+  },
+  "blocks[2].szene.elemente[63].text": {
+   "quelle": "sha256:2bc1307348c10975a67a9a5f618a445bdda0060106601eb3ab389eb7e390c439",
+   "text": "Yes, give me the discount!"
+  },
+  "blocks[2].szene.elemente[64].text": {
+   "quelle": "sha256:6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+   "text": "1"
+  },
+  "blocks[2].szene.elemente[65].text": {
+   "quelle": "sha256:d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+   "text": "2"
+  },
+  "blocks[2].szene.elemente[66].text": {
+   "quelle": "sha256:4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+   "text": "3"
+  },
+  "blocks[2].szene.elemente[67].text": {
+   "quelle": "sha256:4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+   "text": "4"
+  },
+  "blocks[2].szene.elemente[68].text": {
+   "quelle": "sha256:ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+   "text": "5"
+  },
+  "blocks[2].szene.elemente[69].text": {
+   "quelle": "sha256:e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+   "text": "6"
+  },
+  "blocks[2].szene.elemente[70].text": {
+   "quelle": "sha256:6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+   "text": "1"
+  },
+  "blocks[2].szene.elemente[71].text": {
+   "quelle": "sha256:fd2f7ed18ff2b5a1c1e62823cfb9523ca2478a5e080f95b70801a38cc3e19acd",
+   "text": "Countdown timer\nTime pressure: act quickly\ninstead of thinking."
+  },
+  "blocks[2].szene.elemente[72].text": {
+   "quelle": "sha256:d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+   "text": "2"
+  },
+  "blocks[2].szene.elemente[73].text": {
+   "quelle": "sha256:16ab2fe79155e870e12f361fa8ac1397fac9902da3efb077b59d597c4afc636a",
+   "text": "Artificial scarcity\nFear of loss: once it’s gone,\nit’s gone – so buy now."
+  },
+  "blocks[2].szene.elemente[74].text": {
+   "quelle": "sha256:4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+   "text": "3"
+  },
+  "blocks[2].szene.elemente[75].text": {
+   "quelle": "sha256:cf3c57e6317d4aea3298ad06726813f2ccef272c46dfb6b1576e707a6bfef496",
+   "text": "Pre-ticked box\nThe easy option: what’s ticked\noften stays ticked."
+  },
+  "blocks[2].szene.elemente[76].text": {
+   "quelle": "sha256:4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+   "text": "4"
+  },
+  "blocks[2].szene.elemente[77].text": {
+   "quelle": "sha256:8f5b22c37b2e0b791fb779bd998e8fde7a275a39d32ba1be3dae8ab7f44b95d9",
+   "text": "Subscription trap\nEasy in, hard out:\ncancelling takes effort."
+  },
+  "blocks[2].szene.elemente[78].text": {
+   "quelle": "sha256:ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+   "text": "5"
+  },
+  "blocks[2].szene.elemente[79].text": {
+   "quelle": "sha256:899fe879f45da362a95705953fde89ef6657596067d92b49caf44f948d9f3ce2",
+   "text": "Hidden costs\nThe price only rises\nat the very last step."
+  },
+  "blocks[2].szene.elemente[80].text": {
+   "quelle": "sha256:e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+   "text": "6"
+  },
+  "blocks[2].szene.elemente[81].text": {
+   "quelle": "sha256:695c6c7d7dd09cd137a401fe7360f45080bdadbe641267c81799c13b0517bdb9",
+   "text": "Confirmshaming\nSaying no is deliberately\nworded to embarrass you."
+  },
+  "blocks[2].beschreibung": {
+   "quelle": "sha256:736685af944221ec227f0aef0031cb768f4867176d0ef66d178661caa6250cb5",
+   "text": "The picture shows the checkout screen (step 3 of 3) of a fictional online shop with six dark patterns built in at once. Six orange numbered markers link the manipulative parts of the checkout screen to a key that names each trick and explains how it works. The message: nothing on this screen is there by chance – every element is designed to steer the buying decision in the provider’s favour. The six tricks in detail:\n- (1) Countdown timer: an orange banner with a clock announces “Flash sale ends in 09:58 – today only!” and creates time pressure – act quickly instead of thinking.\n- (2) Artificial scarcity: beside the “Blitz 3” trainers, size 42, priced at CHF 89.90, a badge warns “Only 2 left in stock!” and triggers fear of loss – once it’s gone, it’s gone, so buy now.\n- (3) Pre-ticked box: the box labelled “Receive newsletters and offers from our partners” is already ticked, relying on people taking the easy option – what is ticked often stays ticked.\n- (4) Subscription trap: “Try PLUS: 30 days free, then CHF 9.90/month” is also pre-ticked; the small print reveals “Cancel by phone only, during office hours” – easy in, hard out.\n- (5) Hidden costs: in the order summary, the price only rises at the very last step – delivery of CHF 12.90 and a service fee of CHF 4.90 (added at this step) are added to the subtotal of CHF 89.90, giving a total of CHF 107.70.\n- (6) Confirmshaming: for the offer “Join the savings club and get CHF 5 off?”, accepting means pressing a large green button (“Yes, give me the discount!”), while declining means using a small grey link deliberately worded to embarrass you: “No thanks, I’d rather pay too much”.\n- Footer: the shop and brand are fictional – but all six tricks are copied from real apps and shops. In task 1, you will take each one apart."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:0d0e9e85b8690674a22a2f909fdb8170b436025d358828770680e73f16adcce0",
+   "text": "When the game becomes the salesperson"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:7c91e94cd946c60fe757c33bf1972a73a60ab7fb0e1bc89f511b9a633db15b18",
+   "text": "Games sell things too – often more skilfully than any shop. Many mobile games are free to play and only make their money **inside** the game. You should know these four mechanics:\n\n- **Loot boxes:** You buy a box with real money – chance decides what is inside. Usually it is worthless little items; rarely, something desirable. That feeling of “I nearly won!” is exactly how gambling machines work – which is why loot boxes are considered **similar to gambling**, even though they appear in games for all ages.\n- **In-app purchases:** CHF 2 for crystals here, CHF 5 for a booster there. Each amount is tiny; you only see the total on your bill – you know why from [[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]]: the “pain of paying” is missing. In games, it is especially weak because you often spend “crystals” bought earlier rather than francs.\n- **Artificial waiting times:** “Your workshop will be ready in 7 hours – or instantly for 60 rubies.” The wait is not a technical problem; it is deliberately built in. The delay is what makes the shortcut worth paying for.\n- **Daily streaks:** “Your streak: 41 days!” Miss a day and you lose the streak. The streak is not something tangible – but losing it feels like a loss. That brings you back to the game every day, and people who play daily are more likely to spend money.\n\nLooked at plainly, this is a business model: these games are often designed so that a few big spenders generate a large share of the revenue. The mechanics are optimised to turn playing time into attachment, and attachment into purchases – for adults and fourteen-year-olds alike."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:ee6ebeb20ff603e7ccef29bb2ed18e7af4008c68fa4033f3e672a208044dac09",
+   "text": "Why it works on everyone – not just the “gullible”"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:f4ea97d35fee51e1b1cc6eeaaddf5b1ca45cfca4e9f22c3d71d29ae2dd02be1e",
+   "text": "Dark patterns do not work because people are stupid. They work because they tap into perfectly normal reactions we all have:\n\n- **Time pressure switches off careful thinking.** If you only have seconds, you go with your gut – weighing things up properly takes time, and that is exactly what the countdown takes away. This is what timers and scarcity have in common: they create a rush where none is needed.\n- **Fear of loss outweighs the pleasure of gaining something.** **Missing out** on something or **losing** it feels worse than not getting something in the first place. “Only 2 left” threatens you with missing out; a streak threatens you with losing something – both push the same button.\n- **Social pressure:** “23 other people are looking at this item right now.” What lots of people do automatically seems right and urgent – even if those 23 other people have nothing to do with you.\n- **Taking the easy option:** The route laid out for you is the easiest. Pre-ticked boxes stay ticked, the big colourful button gets pressed – not because you are convinced, but because every alternative takes effort.\n\nThen there is what you learnt in [[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]]: digital payments lack the **pain of paying** – so the brakes are already off before the first trick even starts.\n\nThe practical conclusion matters: you cannot train these reactions out of yourself, and you do not need to. Protecting yourself is not about being “stronger” than your gut feelings – it is about **recognising** the situation and taking the urgency out of it."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:4a7910bda7d5e243049e44b16cf62d2316fa4b426227b62949111e281ac04d5f",
+   "text": "Video: how websites and apps try to manipulate us"
+  },
+  "blocks[5].description": {
+   "quelle": "sha256:d10b186f22587d5ef30d382c91e17969c709d60a2e7d98e04026822858ea1a3e",
+   "text": "This explainer video (4:07) from Verbraucherzentrale Rheinland-Pfalz sums up what dark patterns are and shows more examples from websites and apps. Keep two questions in mind as you watch: (1) Which of the six patterns from this module do you recognise in the video – and which tricks are new to you? (2) What tips does the expert give for protecting yourself? Remember them and compare them with the four strategies at the end of this module."
+  },
+  "blocks[5].transcript": {
+   "quelle": "sha256:90dbf6f7a91ec4e31abf566c6cd9521f4e4a446c9df1c9c69ccc021d09834a44",
+   "text": "The video by Verbraucherzentrale Rheinland-Pfalz (4:07) explains what dark patterns are: manipulatively designed websites and apps that push users into actions they did not actually want to take – such as sharing personal data or unknowingly signing up for subscriptions and contracts. An expert from the digital affairs team explains why providers use these tricks and gives practical tips for protecting yourself: read carefully instead of clicking quickly – and, if in doubt, stop the process. The video points viewers to a more detailed article on the consumer advice centre’s website."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:5a4b445cb8fec2750b0b85dd3ff2f9f22ced70163ad0b665d35bdcdd2626efd7",
+   "text": "Ban them or accept them? The political question"
+  },
+  "blocks[6].body": {
+   "quelle": "sha256:3ae40c67bc9e648d2bd175018d8ff07cbf494ee62b654382d04c66dcf558e0ff",
+   "text": "If manipulation is so widespread, why is it still around? From [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]], you know the market’s answer: competition keeps providers in check **because customers can go elsewhere**. This is exactly where dark patterns come in: making cancellation difficult makes switching a hassle, and if almost all major providers use the same tricks, there is hardly anywhere else to go. Manipulation thrives where there is little competitive or regulatory pressure – making it a **political question**: should the state ban these practices?\n\nThe current position, briefly: **EU consumer protection rules already ban certain practices.** The total price must be visible before you place an order, an order button must make it clear that payment is required, and pre-ticked boxes for additional charges are not allowed. More recent EU rules also ban online platforms from deceiving their users through deliberately misleading design. The established shopping rules also apply here through the EEA – the European Economic Area, which Liechtenstein joined in 1995; work to incorporate the newer platform rules into the EEA is still in progress. **Some countries have also restricted loot boxes**, classifying them as gambling.\n\nThat does not settle the matter – the issue remains **contested and keeps changing**:\n\n- **The case for stricter bans:** These patterns deliberately exploit normal human reactions, particularly affect young people – and individual users can do little to defend themselves against manipulation that has been tested on people.\n- **The case against:** It is hard to draw the line – where does skilful selling end and manipulation begin? A shop window is hardly a neutral space either. Rules that are too broad can also affect harmless design.\n- Only one thing is certain: providers keep inventing new versions, rules follow, and enforcement is uneven. Some of what you see in the picture would already be against the rules today, yet you still encounter it. This race will not end any time soon.\n\nThere is no ready-made answer here – you will develop your own in task 2."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:6d9d6220eae91a75a76318d58f0029125f71fc3e722399b67d140f5ab7018961",
+   "text": "Four strategies that make you harder to manipulate"
+  },
+  "blocks[7].body": {
+   "quelle": "sha256:bcbdd87b5b7c1b3601c4cc3323adf8ce119e013230295fca94965495f7d26a10",
+   "text": "Good intentions (“I won’t let myself be manipulated!”) are no match for tried-and-tested tricks – routines help. Four strategies are enough for most situations:\n\n1. **Wait instead of clicking.** If a countdown is running or a scarcity warning is flashing, deliberately ignore it and **wait a day**. If you still want the item tomorrow, you can buy it calmly – and almost always at the same price. Real needs last overnight; artificial urgency does not.\n2. **Check the final price.** Before pressing the buy button, read through your basket: subtotal, delivery, fees and ticked extras. If the final price does not match what you were promised earlier, this is your last and best chance to back out.\n3. **Find out how to cancel before signing up.** Before starting a subscription – even a free trial month – look for the way out: where do you cancel, how quickly and in how many clicks? If cancelling is hidden away or only possible by phone, that tells you more about the provider than any advert. And you know the practical step from [[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]]: set a cancellation reminder on your phone as soon as you sign up.\n4. **Set a spending limit for in-app purchases.** You can set up a limit or require purchase confirmation in your phone or account settings – bringing back a hurdle to replace the missing “pain of paying”. Your budget from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]] gives you the right figure to use.\n\nAnd throughout: **name the trick when you spot it.** “Aha, confirmshaming.” Saying the pattern’s name out loud takes you off autopilot – and puts you back in charge of your decisions."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:85906fb2f7b90405ec0e19bb358bb226c5df0d6b36e59fc4965bbdec2cf91982",
+   "text": "Quiz: seeing through dark patterns"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:0869aa66e962f4ac660c70130ca327dc1ec4c00e7199615e89cca37a0ef7194f",
+   "text": "Eight questions about patterns, how they work and the political dimension. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[8].questions[0].prompt": {
+   "quelle": "sha256:657eac78473a1526624459afa64cb3052267663716cb5cfcc54b03c0ba13b2b0",
+   "text": "What are dark patterns?"
+  },
+  "blocks[8].questions[0].options[0].text": {
+   "quelle": "sha256:596135430162fc4eac6f45e384268c59031cd5654381c3d743aa3654195630fa",
+   "text": "Illegal malware that criminals plant in online shops."
+  },
+  "blocks[8].questions[0].options[1].text": {
+   "quelle": "sha256:bae6840e2eeadf100e153992de17e82442ec3dceaae2d072339f621166fd4cfb",
+   "text": "The dark display mode that many apps switch on automatically in the evening."
+  },
+  "blocks[8].questions[0].options[2].text": {
+   "quelle": "sha256:ee4123136c5ba3d5c02812bc16d4c757a1de24bcd22234ecc3d598d7d5b5eb08",
+   "text": "Interfaces deliberately designed to make users do things that mainly benefit the provider."
+  },
+  "blocks[8].questions[0].options[3].text": {
+   "quelle": "sha256:755ab03363d377feb0413a223354cfa57918e1e9630cf9c06dd8661ff220bd03",
+   "text": "Banner adverts showing products you have searched for before."
+  },
+  "blocks[8].questions[0].explanation": {
+   "quelle": "sha256:e0c9c0ec2b598aea3ab48632bc11fe0aac511359a2f48133cb69c6cb2af3504c",
+   "text": "Dark patterns are a matter of design, not malware: ordinary buttons, tick boxes and text – arranged so that the provider’s preferred choice is the easiest one. Usually, this has nothing to do with crime; much of it is legal, and that is exactly what the political debate is about. Dark mode happens to share the word “dark”, but is a harmless display setting. And personalised advertising is openly advertising – a dark pattern steers you covertly."
+  },
+  "blocks[8].questions[1].prompt": {
+   "quelle": "sha256:6519347ddec7602bb15715adf675da5c4221d28b855b83eebbeb2ee799039f77",
+   "text": "A shop displays: “Flash sale ends in 09:58”. What do you know about countdown timers like this?"
+  },
+  "blocks[8].questions[1].options[0].text": {
+   "quelle": "sha256:db600f46df674349c3a27afc6c316fc0e688d706247b5c117866abf67c9fb624",
+   "text": "They are meant to create time pressure – often, the deadline is just for show and the price stays the same afterwards."
+  },
+  "blocks[8].questions[1].options[1].text": {
+   "quelle": "sha256:b037ba37265a7c88d209c809043946c67aa8a7887d97be5b7f9a0cd0777f7786",
+   "text": "Countdown timers show the shop’s actual stock levels."
+  },
+  "blocks[8].questions[1].options[2].text": {
+   "quelle": "sha256:9f82ab05966c75bd7aa5f9f82757492b8975ff1b086d98347596830b1fae5f22",
+   "text": "The product automatically becomes more expensive when the timer runs out – so it pays to act fast."
+  },
+  "blocks[8].questions[1].options[3].text": {
+   "quelle": "sha256:3db82fd42ffdc8f67859702b2e86f0cd99d0192b7107dbb0ef3f3a3b0f7e02d3",
+   "text": "These timers have long been banned everywhere in Europe and hardly ever appear any more."
+  },
+  "blocks[8].questions[1].explanation": {
+   "quelle": "sha256:1f1420e8d9e8beab9762655f37c84d8cb2cfb7f9da922ea08fbd96026653a0ae",
+   "text": "The countdown has one purpose: to make you hurry. If you think you only have minutes, you decide with your gut instead of your head. You cannot check from the outside whether anything will really happen when it ends – often, the same offer continues or another timer starts. The clock has nothing to do with stock levels (that would be artificial scarcity, and you cannot verify those figures either). The price does not necessarily rise automatically afterwards – that is merely the threat the timer implies. Countdown timers are not banned outright; misleading versions are banned in the EU, but you will still encounter them every day."
+  },
+  "blocks[8].questions[2].prompt": {
+   "quelle": "sha256:8abb1f90ccafe8843a9dd9036594eee19f58b861ca002c4d04a1192ce857999a",
+   "text": "At what point do hidden costs typically appear – and why then?"
+  },
+  "blocks[8].questions[2].options[0].text": {
+   "quelle": "sha256:79585750583654f7905bb880950ddb1daa583d4a16addd0ca399607dc1d01f20",
+   "text": "On the shop’s homepage, so everyone sees them straight away."
+  },
+  "blocks[8].questions[2].options[1].text": {
+   "quelle": "sha256:96a00e2b1fd04e96bf95608bb8f7af22cec363193f1b71f6dca055281af7027b",
+   "text": "Not in the shop at all – hidden costs only appear on the bill weeks later."
+  },
+  "blocks[8].questions[2].options[2].text": {
+   "quelle": "sha256:0dbc51edd0a21282ddbe756dabb7591d2ef51ec11b7833488ea7bee4b5699259",
+   "text": "In the advertising brochure, before you even open the shop’s website."
+  },
+  "blocks[8].questions[2].options[3].text": {
+   "quelle": "sha256:f151644ab4f4b692c3daf6439f6ef43771d56464565dc06cfd56576e56e4cbd1",
+   "text": "At the final checkout step, just before the buy button – when you have already made up your mind to buy."
+  },
+  "blocks[8].questions[2].explanation": {
+   "quelle": "sha256:f558e723076068be09c5e28bdd7db2aa8d7ee5a27ac99f68e1ffd5c93312d290",
+   "text": "Hidden costs rely on timing: once you have chosen a size, entered your address and taken out your card, you are unlikely to back out over a CHF 4.90 “service fee” – “I’ve come this far already”. That is exactly why these costs appear at the final step, rather than on the homepage or in the brochure, where they would put you off. They also appear on the bill later – but you can see them being added at checkout. Checking your basket before pressing the buy button is therefore your best chance to back out."
+  },
+  "blocks[8].questions[3].prompt": {
+   "quelle": "sha256:0cdc4c37ebae5bbe35163ac90a17a0b0b2b0cb1e85d115d936e60de6611ba8a6",
+   "text": "A shop’s link for declining an offer says: “No thanks, I’d rather pay too much”. Which trick is this – and how does it work?"
+  },
+  "blocks[8].questions[3].options[0].text": {
+   "quelle": "sha256:4bfa1f49944d45e0b4794286647d982c39e4e934372a964aa1de04194c12f81f",
+   "text": "Artificial scarcity – the link suggests that the offer will soon sell out."
+  },
+  "blocks[8].questions[3].options[1].text": {
+   "quelle": "sha256:85125747c73693cfba17842acbf8cf6de58f7c412e7cd222b9a8167aa8afb8c9",
+   "text": "Confirmshaming – the option to decline is deliberately worded to make you feel foolish."
+  },
+  "blocks[8].questions[3].options[2].text": {
+   "quelle": "sha256:88e1c2c27b38555e245080bd4626b8141704b9075edf13d7c47fc461455d8f22",
+   "text": "Hidden costs – clicking the link automatically adds an extra charge."
+  },
+  "blocks[8].questions[3].options[3].text": {
+   "quelle": "sha256:5620218e5032957214d8623a8c58c4b7f41019d2f4ce924e6ee58c9b27f7bcdd",
+   "text": "No trick at all – wording like this is just the developers playing with words at random."
+  },
+  "blocks[8].questions[3].explanation": {
+   "quelle": "sha256:1b4c52673a1ba77a0cd2cb6d18d5e2a5454367d8ba35867c23f9a6644f3c656f",
+   "text": "Confirmshaming uses shame to push you into agreeing: it makes declining sound like an admission of your own foolishness. If saying no means clicking “I’d rather pay too much”, you may prefer not to decline at all. The wording has nothing to do with scarcity – there is no mention of quantities. Nor does clicking it mean paying anything; the link does the opposite and declines the offer. And the wording is certainly no accident: texts like these are deliberately written and tested because they measurably increase the number of people who agree."
+  },
+  "blocks[8].questions[4].prompt": {
+   "quelle": "sha256:ce45cbb08f4c830652ded48753a45545105cc9f280a6954a0fc04355eeb9fecd",
+   "text": "Why are loot boxes considered similar to gambling?"
+  },
+  "blocks[8].questions[4].options[0].text": {
+   "quelle": "sha256:d7cf1e38b935f5fe789c00d02491f14448bad1d9265b0edbb92060ed9343b281",
+   "text": "Because in every country, only people aged 18 or over are allowed to buy them."
+  },
+  "blocks[8].questions[4].options[1].text": {
+   "quelle": "sha256:d2566785feb16b830306ef878148313675648face76b04cade37af9098b1bdb9",
+   "text": "Because their contents are always worthless."
+  },
+  "blocks[8].questions[4].options[2].text": {
+   "quelle": "sha256:d937c2077e9a41d29704b42371aa5cd3eeb46413ce9fba803bd0a1aaf0904cb0",
+   "text": "Because you compete against other players."
+  },
+  "blocks[8].questions[4].options[3].text": {
+   "quelle": "sha256:bb2e0a2227dc935053021b474b2020a698595c36d37996d649771db1d734f6b0",
+   "text": "Because you pay real money for random contents – as with a gambling machine, chance decides whether the purchase is “worth it”."
+  },
+  "blocks[8].questions[4].explanation": {
+   "quelle": "sha256:33a07126ecca57118c63ac812ed48d2222dbbfd6b6a89c1876805a4c8aa754b5",
+   "text": "The key is the mechanism: money goes in, a random result comes out – and the occasional feeling of “I nearly got the item I wanted!” drives the next purchase, just as with a gambling machine. An age limit of 18 does not apply everywhere – loot boxes appear in games for all ages, and that is precisely the political sticking point; only some countries have classified them as gambling. The contents are not always worthless – occasional desirable wins are part of the system, otherwise nobody would keep buying. And competing against others is not required: you open the loot box on your own."
+  },
+  "blocks[8].questions[5].prompt": {
+   "quelle": "sha256:9f0a78ca6ad681e1f0f9af84987fc9de4010d7e4b1d0c68ff9f578dc3885ff96",
+   "text": "A mobile game says: “Your streak: 41 days! Play today or lose it.” What does this daily streak tap into?"
+  },
+  "blocks[8].questions[5].options[0].text": {
+   "quelle": "sha256:857e0f1afda7763dc126f636cfb7b0ea8d2c2bdd9522b3bd3f401c54f126c1f2",
+   "text": "Social pressure – the message shows that everyone else plays every day."
+  },
+  "blocks[8].questions[5].options[1].text": {
+   "quelle": "sha256:f0d41821dc0c91f3da22f6bef277ed97599bac273ca5f3b3d5ec7e4054fe7638",
+   "text": "Fear of loss – you do not want to lose the streak you have built up, so you come back every day."
+  },
+  "blocks[8].questions[5].options[2].text": {
+   "quelle": "sha256:c9119854e32f75a666c796da6196a0ef969e98eb34d1742bd9eb6d310dd2411c",
+   "text": "Hidden costs – each day of the streak costs a small amount."
+  },
+  "blocks[8].questions[5].options[3].text": {
+   "quelle": "sha256:e8609993fd9b7468b1b0f55d1b6c76e6cf90cf2047c8339b4b155c106acb2760",
+   "text": "Nothing – the game’s reminder is simply a friendly gesture."
+  },
+  "blocks[8].questions[5].explanation": {
+   "quelle": "sha256:ab8de345dacfd92b75dee0bebbe15781c858382f99442e6798bbc602f01c4edd",
+   "text": "The 41 days are not something tangible – neither credit nor an object. But they feel like something you own, and losses weigh more heavily than missed gains. That is exactly why people return every day “just for the streak”. This is a way of keeping you engaged, not a friendly gesture – people who come back daily see offers daily and are more likely to spend money. It would be social pressure if other people were brought into it (“your friends are further ahead”); the streak is only about you. And the day of the streak itself costs nothing – any spending comes later, voluntarily, and precisely because the streak brought you back."
+  },
+  "blocks[8].questions[6].prompt": {
+   "quelle": "sha256:03824096fa60faeebc1c64613a3a6f77b1216fa5fca6288085bfdf93c9b15832",
+   "text": "Should the state ban dark patterns? Which statement accurately describes the current debate?"
+  },
+  "blocks[8].questions[6].options[0].text": {
+   "quelle": "sha256:39bfc327b6ce325ce6ab82bf2f044f45b3eb00496ce9363a49a74933b72383d0",
+   "text": "EU consumer protection rules ban certain practices, and some countries have restricted loot boxes – but much remains contested and keeps changing."
+  },
+  "blocks[8].questions[6].options[1].text": {
+   "quelle": "sha256:7e6f140f43877daf09364fc53df75e52548ac6c92b2c2ffc18d2248cfc08f564",
+   "text": "Dark patterns are completely banned worldwide – using them is a criminal offence everywhere."
+  },
+  "blocks[8].questions[6].options[2].text": {
+   "quelle": "sha256:e5b72e38207eb4dc81e05486e5a896edf531157a33a40b71769cd0686ee0f516",
+   "text": "There are no rules anywhere – states have no interest in online manipulation."
+  },
+  "blocks[8].questions[6].options[3].text": {
+   "quelle": "sha256:27d5c3fbe3edfb3cf23edb099fba86ea2efa86d07b059705acdd501e771169c1",
+   "text": "The question was settled for good years ago and is no longer a political issue."
+  },
+  "blocks[8].questions[6].explanation": {
+   "quelle": "sha256:35c48a627d13b5642c1afb45e8670c230aea467ca5ba899ecfcb72a7b87e53bf",
+   "text": "The situation lies somewhere in between: certain practices are already banned in the EU – such as unclear total prices, misleading buy buttons, pre-ticked boxes for extra charges or misleading design on online platforms – and some countries classify loot boxes as gambling. Through the EEA, many of these rules also apply to Liechtenstein. So “completely banned worldwide” is just as wrong as “no rules anywhere”. And nothing is settled: providers invent new versions, rules follow – the line between skilful selling and manipulation remains politically contested."
+  },
+  "blocks[8].questions[7].prompt": {
+   "quelle": "sha256:1aeecd6f3ff7f51fa7ccb15a4407bc8a0f758d57073be716b72506f559a61b4a",
+   "text": "Your friend wants to sign up for a streaming subscription with a free trial month. According to this module, what should he check BEFORE signing up?"
+  },
+  "blocks[8].questions[7].options[0].text": {
+   "quelle": "sha256:de808ee19358bda27894d99ba631596f17834c56112224fd675f7abdb3b6b728",
+   "text": "Whether the app has a modern design – good design means a trustworthy provider."
+  },
+  "blocks[8].questions[7].options[1].text": {
+   "quelle": "sha256:72c928509139564ea686c2a2f1e53127a8e9f6b4f2456b498fd1cf354a61a877",
+   "text": "Whether the countdown on the offer page really runs out."
+  },
+  "blocks[8].questions[7].options[2].text": {
+   "quelle": "sha256:1b082edaf695be4b9aa7c4367e0e69bcfa36c7f4b1e4f5fb766d551964a70b9d",
+   "text": "How and where to cancel the subscription – if the process is hidden or difficult, that is a warning sign."
+  },
+  "blocks[8].questions[7].options[3].text": {
+   "quelle": "sha256:1f9a1a50d62fdd264bebe4fba20b9633606580316e28742ee2db67ca86a249bb",
+   "text": "Nothing – you cannot go wrong with a free trial month."
+  },
+  "blocks[8].questions[7].explanation": {
+   "quelle": "sha256:88dfe536201db58041297cb4dffc0b2b80e02e3b6e20994b20360a68e6e55536",
+   "text": "The cancellation process is a test of the provider’s honesty: if leaving is easy, it has not been designed as a trap. So find the way out before you go in, and set a cancellation reminder on your phone as soon as you sign up ([[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]]). A modern design, by contrast, tells you nothing about trustworthiness; well-designed apps often use the most thoroughly tested tricks. Watching the countdown only checks the window dressing of a different pattern. And “nothing can go wrong during a free trial month” is exactly the misconception that subscription traps rely on – the free month automatically turns into a paid subscription."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:04f8a77da2bca3bcc0d2ecf34a9d8c402670e8add5c8cd3e75a935079d91cbbf",
+   "text": "Match them up: ten descriptions, ten patterns"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:c8332c077059f64d998d195aeeb8351c2aadde463e893f48e1f5fb070b9a2b63",
+   "text": "This is what the tricks look like in real apps and shops – match each description to the right pattern. **Use each term exactly once.**"
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:2e038a6cd508c4df11442287f22456ce9a991926fcb396bb3d5a0c0c9e6a325e",
+   "text": "Fill in the terms: why the tricks work"
+  },
+  "blocks[10].intro": {
+   "quelle": "sha256:326dff1b8d7bb875bccd4b00b948349b23f8688fb75012d31570350407fbf761",
+   "text": "The text sums up what dark patterns tap into. Drag the terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three of the words do not fit anywhere."
+  },
+  "blocks[11].title": {
+   "quelle": "sha256:53580b0b11b96734d81bd70b5fb871db191bf4dd9b966320d309b1eed6c7a47f",
+   "text": "Type in the terms: your counter-strategies"
+  },
+  "blocks[11].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no word bank this time – **type in the missing terms yourself**. Capitalisation does not matter."
+  },
+  "blocks[12].title": {
+   "quelle": "sha256:9495bcf72b31a82b8d6b0e16f9c157ee44c0de98007e088421546f4a65a77d53",
+   "text": "Going further: from recognising to deciding"
+  },
+  "blocks[12].tasks[0].prompt": {
+   "quelle": "sha256:d41108ba335bba085319c6b9a10ce9a80be1b7a7a5a3235edd6e1cc4ab7256d2",
+   "text": "Take a closer look at the picture above: a fictional checkout screen with six tricks marked. For each of the six markers, write one sentence describing (a) the feeling the trick is meant to trigger and (b) exactly what you would do to avoid falling for it. Finally: which two of the six affect you most personally – and how can you tell?"
+  },
+  "blocks[12].tasks[0].hint": {
+   "quelle": "sha256:aabe570d1d22e13181f23fd365540210ab489d7f17ddecb326da12d235aa08c1",
+   "text": "For each marker, ask yourself: is this meant to create urgency, fear of missing out or shame – or does the trick simply rely on me taking the easy option? The key on the right of the picture gives the names; the four strategies in the final section give you ways to respond."
+  },
+  "blocks[12].tasks[0].solution": {
+   "quelle": "sha256:c2ed7f0b4534ceaec2d28fd87853e933de80a7cb2db6566c371c4baf34309094",
+   "text": "Example solution: (1) Countdown timer – urgency; response: ignore it and wait a day, because real needs last overnight. (2) Artificial scarcity – fear of missing out; response: remember that you cannot verify the number from the outside, and wait anyway. (3) Pre-ticked newsletter box – taking the easy option; response: check and untick all the boxes before pressing the buy button. (4) Pre-ticked PLUS subscription with cancellation by phone – taking the easy option combined with a subscription trap; response: untick the box, and make it a rule not to take out a subscription that is harder to cancel than to start. (5) Service fee added only at the final step – you have already made up your mind to buy; response: make checking the final price a routine and back out if there are surprises. (6) Confirmshaming link – shame; response: name the trick and deliberately click the “embarrassing” link. Which two affect you most is personal – honest self-observation (e.g. “countdowns really do make me rush”) is more valuable here than the “right” answer."
+  },
+  "blocks[12].tasks[1].prompt": {
+   "quelle": "sha256:9971d9e7ba3e90ed0fb86b604b76b162deef0f27f35129e76523c77c4d38fc06",
+   "text": "“Should the state ban loot boxes for minors?” Use the argument structure from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] (claim – reason – example) to build one argument for and one against. Then state your own position in two or three sentences – it can also lie somewhere in between."
+  },
+  "blocks[12].tasks[1].hint": {
+   "quelle": "sha256:ec7ab10b08bf7a70115f819375d5180188e42dc9668d5054862b5accd6057475",
+   "text": "For the argument in favour, look at the section “When the game becomes the salesperson” (mechanics similar to gambling, tapping into fear of loss, appearing in games without an age restriction). For the argument against, use the section on politics: where exactly do you draw the line, who enforces it, and what else would a broad ban affect? An argument is only complete when its example is specific."
+  },
+  "blocks[12].tasks[1].solution": {
+   "quelle": "sha256:21c29a37782f085b714ab5a9ae212617493c911a9bfe70d7df83bdab9041d3c2",
+   "text": "Example in favour: the state should ban loot boxes for minors (claim), because they bring the mechanism of a gambling machine – money in exchange for a random outcome – into games that are deliberately aimed at children too (reason); this is why some countries already classify paid loot boxes as gambling (example). Example against: a ban is the wrong approach (claim), because it is hard to draw the line between game mechanics and gambling, and a broad ban would also affect harmless elements of chance, such as trading cards (reason); age ratings, spending limits and transparency requirements could offer more targeted protection than a ban (example). You are free to choose your own position – it is strong when it follows the structure and takes the strongest opposing view seriously instead of ignoring it."
+  },
+  "blocks[12].tasks[2].prompt": {
+   "quelle": "sha256:0511e198c3b0f3449d4b18079ba3ab9530ae26e414368d2a55cfc00cb534e20f",
+   "text": "Learning by teaching: choose someone you know – a family member or a friend – and explain two patterns from this module using an app or shop they use themselves. Then create your own quiz question in the style of this module: four answers, exactly one correct – and the three wrong answers should reflect typical misconceptions, not made-up nonsense."
+  },
+  "blocks[12].tasks[2].hint": {
+   "quelle": "sha256:277381c82ed499d5b3fc26e5d162eb815379fd32ff704923f24ea02786465cdb",
+   "text": "Choose patterns that actually appear in the person’s app – subscription traps in streaming, streaks and loot boxes in games, countdowns and scarcity in shopping. For convincing wrong answers, use the misconceptions from this module: “countdown timers show real deadlines”, “nothing can go wrong during a free trial month”, “loot boxes are restricted to ages 18 and over everywhere”."
+  },
+  "blocks[12].tasks[2].solution": {
+   "quelle": "sha256:223cf9a6836631f6666024cda7029bc87c0d9cf33c1968301c52252f573f9714",
+   "text": "There is no single model solution – check your work using this checklist: (1) Did the person recognise the two patterns in their own app (not just understand them, but spot them)? (2) Does your quiz question have exactly one clearly correct answer? (3) Would someone with a typical misconception actually fall for one of your wrong answers? If the person names a trick on their own the next time they open the app, your explanation worked – and being able to explain tricks makes you much less likely to fall for them yourself."
+  }
+ },
+ "pakete": {
+  "blocks[9]": {
+   "quelle": "sha256:a0be014d2985d5b0e34ed877999c2254f0777fd6641dff575da4a0af5c9e1b3d",
+   "inhalt": {
+    "text": "“Only 1 room left at this price!” flashes beside a hotel offer: {{1}}\nAt the top of the shop’s website, a clock counts down – “Deal ends in 09:58”: {{2}}\nAt the final checkout step, a “service fee” and delivery are suddenly added to the price: {{3}}\nThe free trial month automatically becomes a paid subscription – and the cancel button is buried deep in the menu: {{4}}\nIn the order form, “Yes, send me offers by email” is already ticked: {{5}}\nThe button for declining says “No thanks, I’d rather miss out on the benefits”: {{6}}\nYou buy a box in a game for CHF 4.90 – chance decides what is inside: {{7}}\nIn the middle of a game, a message appears: “Get 500 crystals for CHF 9.90”: {{8}}\n“Your workshop will be ready in 7 hours – or instantly for 60 rubies”: {{9}}\n“Your streak: 41 days! Play today or lose it”: {{10}}",
+    "luecken": [
+     [
+      "Artificial scarcity",
+      "False scarcity",
+      "Fake scarcity"
+     ],
+     [
+      "Countdown timer",
+      "Countdown",
+      "Countdown clock",
+      "A countdown timer",
+      "A countdown"
+     ],
+     [
+      "Hidden costs",
+      "Hidden charges",
+      "Hidden fees"
+     ],
+     [
+      "Subscription trap",
+      "A subscription trap"
+     ],
+     [
+      "Pre-ticked box",
+      "Pre-ticked checkbox",
+      "Preselected box",
+      "Pre-selected box",
+      "Pre-checked box",
+      "Prechecked box",
+      "Pre-checked checkbox",
+      "A pre-ticked box",
+      "A pre-checked box"
+     ],
+     [
+      "Confirmshaming",
+      "Confirm shaming"
+     ],
+     [
+      "Loot box",
+      "Lootbox",
+      "A loot box",
+      "A lootbox"
+     ],
+     [
+      "In-app purchase",
+      "In app purchase",
+      "An in-app purchase"
+     ],
+     [
+      "Artificial waiting time",
+      "Artificial wait",
+      "Artificial delay",
+      "An artificial waiting time",
+      "An artificial wait",
+      "An artificial delay"
+     ],
+     [
+      "Daily streak",
+      "Streak",
+      "A daily streak",
+      "A streak"
+     ]
+    ]
+   }
+  },
+  "blocks[10]": {
+   "quelle": "sha256:0d7e5fe249c8aba2309ace6fac286224ae54c6b04b3384b2fc0f2ac41c3000a7",
+   "inhalt": {
+    "text": "Dark patterns benefit the {{1}}, not you. Countdowns and scarcity create {{2}} – when people feel rushed, {{3}} stops and gut feelings take over. The daily streak taps into {{4}}: you do not want to lose the streak you have built up. “23 other people are looking at this” creates social pressure – what lots of people do automatically seems {{5}}. Pre-ticked {{6}} often stay ticked because the easiest route is the one already laid out. Hidden {{7}}, such as delivery or a “service fee”, only appear at the final checkout step, when you have already made up your mind to buy. In games, you can pay to shorten an artificial {{8}}, and {{9}} decides what is inside a loot box – a mechanism similar to gambling. And because digital payments lack the {{10}} of paying, the most important brake is already off before the first trick starts.",
+    "luecken": [
+     [
+      "provider",
+      "the provider",
+      "seller",
+      "the seller",
+      "retailer",
+      "the retailer",
+      "business",
+      "the business",
+      "company",
+      "the company"
+     ],
+     [
+      "time pressure",
+      "a sense of urgency",
+      "urgency",
+      "pressure to act quickly",
+      "pressure to hurry"
+     ],
+     [
+      "careful thinking",
+      "thinking",
+      "reflection",
+      "deliberation",
+      "rational thinking"
+     ],
+     [
+      "fear of loss",
+      "the fear of loss",
+      "loss aversion",
+      "fear of losing",
+      "the fear of losing",
+      "fear of losing something"
+     ],
+     [
+      "right",
+      "correct"
+     ],
+     [
+      "boxes",
+      "checkboxes",
+      "check boxes",
+      "tick boxes"
+     ],
+     [
+      "costs",
+      "charges",
+      "fees"
+     ],
+     [
+      "waiting time",
+      "wait",
+      "delay"
+     ],
+     [
+      "chance",
+      "random chance",
+      "luck"
+     ],
+     [
+      "pain"
+     ]
+    ],
+    "ablenker": [
+     "discount",
+     "trust",
+     "interest on savings"
+    ]
+   }
+  },
+  "blocks[11]": {
+   "quelle": "sha256:a278273b5918869ccd8985c9dc713ab7694270cd2e3a2d6ef401d8a394e5f17f",
+   "inhalt": {
+    "text": "Is a countdown running? Ignore it and wait a {{1}} – if you still want the item then, you can buy it calmly. Before pressing the buy button, check the {{2}} in your basket, including delivery, fees and all ticked extras. BEFORE signing up for a subscription, check the {{3}} process – if it is hidden or difficult, that is a warning sign. Set a {{4}} for in-app purchases, for example in your phone settings. And if you spot a trick, {{5}} it – recognising the pattern makes you harder to steer.",
+    "luecken": [
+     [
+      "day",
+      "whole day",
+      "full day"
+     ],
+     [
+      "final price",
+      "total price",
+      "total cost",
+      "final cost",
+      "total amount",
+      "final amount",
+      "total",
+      "overall price",
+      "overall cost",
+      "grand total",
+      "the final price",
+      "the total price",
+      "the total cost",
+      "the final cost",
+      "the total amount",
+      "the final amount",
+      "the total",
+      "the overall price",
+      "the overall cost",
+      "the grand total"
+     ],
+     [
+      "cancellation",
+      "cancelation",
+      "cancelling",
+      "canceling",
+      "unsubscription",
+      "unsubscribing",
+      "the cancellation",
+      "the cancelation",
+      "the cancelling",
+      "the canceling",
+      "the unsubscription",
+      "the unsubscribing"
+     ],
+     [
+      "spending limit",
+      "limit",
+      "spending cap",
+      "budget",
+      "purchase limit",
+      "cost limit",
+      "payment limit",
+      "a spending limit",
+      "a limit",
+      "a spending cap",
+      "a budget",
+      "a purchase limit",
+      "a cost limit",
+      "a payment limit"
+     ],
+     [
+      "name",
+      "identify",
+      "recognise",
+      "recognize",
+      "label"
+     ]
+    ]
+   }
+  }
+ }
+}
