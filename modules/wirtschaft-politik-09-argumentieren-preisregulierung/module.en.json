@@ -1,0 +1,1191 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-09-argumentieren-preisregulierung --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:352cf3868d13e4d3477201e22bc68014181003be2615c8c43170b198b0f5a435",
+  "masterCommit": "9321614",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.en.json",
+  "selfHash": "sha256:9c4eccf141e5e28c5147232e782597a6f49d27c726da1737e3801e38514c8876"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-09-argumentieren-preisregulierung",
+ "title": "Building an argument: Should the state regulate prices?",
+ "description": "In a debate, what counts is not who shouts the loudest, but who gives the strongest reasons. Here you will learn the argument structure ‘claim – reason – example’ and apply it to a real controversy: Should the state regulate prices? Two case studies and three arguments on each side will prepare you for the classroom debate, where you will weigh up the arguments yourself.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 9,
+ "einheit": "Topic B: Markets and Prices",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "building arguments",
+  "argument",
+  "claim",
+  "reason",
+  "example",
+  "debate",
+  "for and against",
+  "price regulation",
+  "rent controls",
+  "price cap",
+  "maximum price",
+  "citizenship education"
+ ],
+ "learningObjectives": [
+  "I know the structure of a good argument – claim, reason, example – and can identify these three parts in statements and use them myself.",
+  "I can explain three arguments for and three against state price regulation in my own words.",
+  "I can distinguish between a complete argument and an unsupported claim with no reason given."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
+  "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Strong reasons win the argument",
+   "body": "‘Everyone else is allowed to stay out later!’ If that is how you start a discussion with your parents, you have usually already lost. Not because your wish is unreasonable, but because this is not an argument – it is just a **claim**.\n\nIn **week 9, you will debate** a real political controversy **in class**: **Should the state regulate prices – for example, by limiting rents or capping the prices of staple foods?** This module prepares you for that debate. It deliberately **goes beyond factual knowledge**: you will learn how to build arguments and get material for both sides of the debate.\n\nRemember: **This module does not take sides.** It presents the strongest arguments on both sides, each clearly structured. You decide which side convinces you – by the time you take part in the debate, if not before.\n\nYou already have the knowledge you need from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] and [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]: you know how prices are set, what happens when prices are too low, and why competition matters. Now you will gain the tools to use that knowledge in a discussion."
+  },
+  {
+   "type": "text",
+   "title": "The argument structure: Claim – Reason – Example",
+   "body": "A good argument has three parts:\n\n1. **Claim** – *What do you want to say?* A clear sentence that takes a position: ‘Our school needs a water dispenser.’\n2. **Reason** – *Why is this true?* The reason that supports the claim. Look for words such as **‘because’** and **‘since’**: ‘… because drinking water helps you concentrate.’\n3. **Example** – *What shows this?* A specific case, an experience or a figure that provides evidence you can check: ‘At the neighbouring school, fewer headaches were reported after a water dispenser was installed.’\n\nWithout a reason and an example, all that remains is an **unsupported claim**: ‘Water dispensers would just be a good thing.’ That will not convince anyone who does not already agree with you.\n\nTwo things to watch out for in the debate:\n\n- **Speaking louder is no substitute for giving a reason.** Simply repeating yourself more loudly is not making an argument.\n- **Spot false justifications:** Phrases such as ‘… because everyone knows that’ or ‘… because that is just how it is’ sound like reasons, but do not actually give one. If you are unsure, ask yourself: Would this ‘reason’ also convince someone who disagrees?"
+  },
+  {
+   "type": "schaubild",
+   "title": "The argument structure at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 475,
+      "y": 0,
+      "width": 264.65,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 286400067,
+      "type": "text",
+      "text": "The argument structure",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 292,
+      "y": 48,
+      "width": 514.75,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1465391981,
+      "type": "text",
+      "text": "Claim – Reason – Example: Turning an opinion into an argument",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "kopf-behauptung",
+      "x": 10,
+      "y": 110,
+      "width": 380,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#bac8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2119917027,
+      "type": "rectangle"
+     },
+     {
+      "id": "inhalt-behauptung",
+      "x": 10,
+      "y": 200,
+      "width": 380,
+      "height": 290,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 771499469,
+      "type": "rectangle"
+     },
+     {
+      "id": "kopf-begruendung",
+      "x": 435,
+      "y": 110,
+      "width": 380,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1536928131,
+      "type": "rectangle"
+     },
+     {
+      "id": "inhalt-begruendung",
+      "x": 435,
+      "y": 200,
+      "width": 380,
+      "height": 290,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2087707693,
+      "type": "rectangle"
+     },
+     {
+      "id": "kopf-beispiel",
+      "x": 860,
+      "y": 110,
+      "width": 380,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 772899107,
+      "type": "rectangle"
+     },
+     {
+      "id": "inhalt-beispiel",
+      "x": 860,
+      "y": 200,
+      "width": 380,
+      "height": 290,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 379377293,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-behauptung-begruendung",
+      "x": 395.5,
+      "y": 345,
+      "width": 34,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#4a6785",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1328243907,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        34,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-begruendung-beispiel",
+      "x": 820.5,
+      "y": 345,
+      "width": 34,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#4a6785",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 389840109,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        34,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "kopf-bloss",
+      "x": 10,
+      "y": 550,
+      "width": 580,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1720177763,
+      "type": "rectangle"
+     },
+     {
+      "id": "inhalt-bloss",
+      "x": 10,
+      "y": 610,
+      "width": 580,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 98064205,
+      "type": "rectangle"
+     },
+     {
+      "id": "kopf-vollstaendig",
+      "x": 650,
+      "y": 550,
+      "width": 590,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 603279363,
+      "type": "rectangle"
+     },
+     {
+      "id": "inhalt-vollstaendig",
+      "x": 650,
+      "y": 610,
+      "width": 590,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1019864493,
+      "type": "rectangle"
+     },
+     {
+      "id": "merksatz",
+      "x": 200,
+      "y": 810,
+      "width": 850,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#dbe4ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 963794851,
+      "type": "rectangle"
+     },
+     {
+      "id": "5J1zPf90ZZDAsTrm64emV",
+      "x": 116.09,
+      "y": 130,
+      "width": 167.81,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2025211043,
+      "type": "text",
+      "text": "1. Claim\nWhat do you want to say?",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kopf-behauptung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Z4uLtE8dD2zW8f6EdN3wa",
+      "x": 123.58,
+      "y": 285,
+      "width": 152.84,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2137765955,
+      "type": "text",
+      "text": "A clear sentence\nthat takes a position.\n\nIt sounds like this:\n‘Our school needs\na water dispenser.’",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "inhalt-behauptung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "YGnu-tYEibFfgjIONzkMW",
+      "x": 545.26,
+      "y": 130,
+      "width": 159.48,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1651619811,
+      "type": "text",
+      "text": "2. Reason\nWhy is this true?",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kopf-begruendung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "QVUTAyZ-66IG91DR2cfN1",
+      "x": 550.18,
+      "y": 265,
+      "width": 149.63,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1607910275,
+      "type": "text",
+      "text": "The reason that\nsupports the claim –\nlook for:\n‘because’ and ‘since’\n\nIt sounds like this:\n‘… because drinking\nhelps you concentrate.’",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "inhalt-begruendung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s7AAIVmp3vLSq9ZxxusEs",
+      "x": 962.22,
+      "y": 130,
+      "width": 175.57,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#216e2f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1876515619,
+      "type": "text",
+      "text": "3. Example\nWhat shows this?",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kopf-beispiel",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "pz3wbHD1k9Exbhs0hAstW",
+      "x": 974.48,
+      "y": 255,
+      "width": 151.05,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2129133251,
+      "type": "text",
+      "text": "A specific case,\nan experience or\na figure as\ncheckable evidence.\n\nIt sounds like this:\n‘At the nearby school,\nfewer headaches were\nreported afterwards.’",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "inhalt-beispiel",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "wmXEsUYJChxfc-LeTXMzi",
+      "x": 222.5,
+      "y": 567.5,
+      "width": 154.99,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1612801251,
+      "type": "text",
+      "text": "Unsupported claim",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kopf-bloss",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "LdbOs8jMJR5w_HEqffJ-Y",
+      "x": 194.45,
+      "y": 645,
+      "width": 211.09,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#c74c0a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1158205571,
+      "type": "text",
+      "text": "‘Water dispensers would be good.’\n\nNo ‘because’, no evidence –\njust an opinion.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "inhalt-bloss",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "FXA-BgykrluqbdeGHz2en",
+      "x": 848.42,
+      "y": 567.5,
+      "width": 193.15,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#237633",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1564592163,
+      "type": "text",
+      "text": "Complete argument",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kopf-vollstaendig",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Fx0JarQ_l_q9u54YwejRr",
+      "x": 817.55,
+      "y": 655,
+      "width": 254.91,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1589300163,
+      "type": "text",
+      "text": "Claim + Reason + Example –\nconvinces even people\nwho disagree.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "inhalt-vollstaendig",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "6O7azGubC34PvYY-f5qoP",
+      "x": 473.71,
+      "y": 832.5,
+      "width": 302.59,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1033001827,
+      "type": "text",
+      "text": "Remember: A reason and an example\nturn an opinion into an argument.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "merksatz",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The illustration ‘The argument structure’ shows how an unsupported opinion becomes a convincing argument. A good argument has three parts that build on one another, linked by arrows from left to right: claim, reason and example. Key points: 1. Claim (What do you want to say?): a clear sentence that takes a position, such as ‘Our school needs a water dispenser.’ 2. Reason (Why is this true?): the reason supporting the claim, introduced by words such as ‘because’ and ‘since’, for example ‘… because drinking water helps you concentrate.’ 3. Example (What shows this?): a specific case, an experience or a figure as evidence you can check, such as ‘At the neighbouring school, fewer headaches were reported afterwards.’ Below, the illustration compares two cases. The unsupported claim (‘Water dispensers would just be a good thing.’) has no ‘because’ and no evidence – it is just an opinion. By contrast, a complete argument with a claim, a reason and an example can convince even people who disagree. Remember: A reason and an example turn an opinion into an argument.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Case study 1: Rent controls",
+   "body": "Rents in many European cities have risen sharply in recent years, especially where lots of people want to move in and little housing is being built. You know the pattern from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]: **high demand, limited supply, rising prices.**\n\nSome states therefore intervene in the rental market. The best-known example is **Germany’s rent control law, the Mietpreisbremse** (introduced in 2015). In areas where the housing market is under particular pressure, the rent for a new tenancy may be no more than 10 per cent above the local reference rent. The state does not ban landlords from letting properties – it limits **how high the price may rise**.\n\nSupporters see this as protection for tenants who could otherwise no longer afford to live in their neighbourhoods. Critics argue that rent controls do not address the root cause – **too few homes** – and may even make building less attractive. You will find fully developed arguments for both sides below."
+  },
+  {
+   "type": "text",
+   "title": "Case study 2: Price caps on staple foods",
+   "body": "The second case study: In times of crisis, such as periods of high inflation, several countries have set **maximum prices for staple foods**. Hungary, for example, capped the prices of some basic products, including flour, sugar, milk and cooking oil, in 2022. Shops were not allowed to charge more than the set price for these products.\n\nThe aim: people on low incomes should still be able to afford the essentials – nobody can do without bread and milk.\n\nHowever, from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]], you also know what happens when a price is **below the equilibrium price**: the quantity demanded rises, supplying the product becomes less worthwhile, and there is a risk of **shortages**. Indeed, countries with food price caps have repeatedly seen reports of empty shelves for products with capped prices and limits on purchases (‘no more than two packs per person’).\n\nAs you can see, **both sides of the debate can draw on the same models**. They simply weigh up the priorities differently: protecting those affected today or considering the side effects on the market tomorrow. That is exactly what you will debate."
+  },
+  {
+   "type": "text",
+   "title": "Arguments for the debate: For and against",
+   "body": "Here are three fully developed arguments on each side, all following the **claim – reason – example** structure. Read them critically: in the debate, you will have to represent one side and respond to the other side’s arguments.\n\n**FOR state price regulation**\n\n1. **Claim:** Price regulation protects people on low incomes when it comes to essential goods. **Reason:** Nobody can simply give up housing and food or turn to alternatives when prices rise – basic needs leave no way to opt out. **Example:** A family on a tight budget needs to move but, without rent controls, cannot find an affordable home because newly advertised rents are far above the local reference rent. With rent controls, new tenancies in the neighbourhood remain affordable.\n2. **Claim:** Where there is no competition, controlled prices are fairer. **Reason:** In a monopoly, there are no competitors putting pressure on prices. The sole supplier could raise prices almost at will because customers have no alternative. **Example:** Electricity and water networks usually belong to a single operator, so in many places a public authority checks network charges.\n3. **Claim:** Price caps prevent profiteering in emergencies. **Reason:** In a crisis, desperate people will pay almost any price. This can be exploited, and the most vulnerable are hit first. **Example:** After natural disasters, drinking water has sometimes been offered at many times its normal price until the authorities intervened.\n\n**AGAINST state price regulation**\n\n1. **Claim:** Price caps cause shortages. **Reason:** If the permitted price is below the equilibrium price, more is demanded and less is supplied – exactly the pattern from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]. **Example:** In countries with food price caps, shelves for products with capped prices were sometimes empty, and shops introduced limits on purchases.\n2. **Claim:** Rent controls can make the housing problem worse in the long term. **Reason:** When letting properties and building homes become less profitable, less housing is built and renovated – yet limited supply is the root cause of high rents. **Example:** Critics point to Berlin: during its rent cap in 2020/21, the number of advertised rental properties fell significantly, making it even harder for people to find a home.\n3. **Claim:** A price cap switches off the market’s most important signal. **Reason:** High prices are unwelcome but useful: they attract new suppliers and curb demand, so supply increases again on its own. **Example:** Strawberries are expensive in winter ([[modul:wirtschaft-politik-06-angebot-und-nachfrage]]). That is precisely why importing them at considerable cost is worthwhile, and why they are still available to buy. A price cap would remove that very incentive.\n\n**Remember:** Both sides use the argument structure clearly, and both draw on the market models from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] and [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]. You will decide which arguments carry more weight in the debate."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Argument structure and case studies",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.preisregulierung-abwaegen",
+    "wp.markt.preisbildung-erklaeren"
+   ],
+   "intro": "Show that you understand the argument structure and the two case studies. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Which three parts make up a complete argument according to the structure in this module?",
+     "options": [
+      {
+       "text": "Claim, reason and example.",
+       "correct": true
+      },
+      {
+       "text": "Opinion, feeling and persuasiveness."
+      },
+      {
+       "text": "Thesis, antithesis and synthesis."
+      },
+      {
+       "text": "Question, answer and summary."
+      }
+     ],
+     "explanation": "The structure is: claim (What do you want to say?), reason (Why is this true?) and example (What shows this?). Opinion and feeling alone will not convince anyone who thinks differently. ‘Thesis – antithesis – synthesis’ sounds academic, but describes the structure of a discussion essay, not a single argument. And question–answer–summary is not an argument structure."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "How can you recognise an unsupported claim?",
+     "options": [
+      {
+       "text": "It is automatically false."
+      },
+      {
+       "text": "It always contains the word ‘because’."
+      },
+      {
+       "text": "It takes a position but provides neither a reason nor evidence.",
+       "correct": true
+      },
+      {
+       "text": "It only occurs in political debates."
+      }
+     ],
+     "explanation": "An unsupported claim takes a position and does nothing more: no ‘because’, no example, no evidence. That does not mean it must be false; even a true statement can be made without giving a reason. The word ‘because’ signals precisely the reason that an unsupported claim lacks. And you encounter unsupported claims everywhere, from the playground to online comment sections."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Which words typically introduce a reason?",
+     "options": [
+      {
+       "text": "‘For example’ and ‘for instance’."
+      },
+      {
+       "text": "‘Because’ and ‘since’.",
+       "correct": true
+      },
+      {
+       "text": "‘Firstly’ and ‘secondly’."
+      },
+      {
+       "text": "‘Nevertheless’ and ‘but’."
+      }
+     ],
+     "explanation": "‘Because’ and ‘since’ introduce a reason – the core of the explanation supporting a claim. ‘For example’ and ‘for instance’ introduce the third part, the example. ‘Firstly/secondly’ organise a list, while ‘nevertheless/but’ signal an objection. Neither is a substitute for a reason."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What is the Mietpreisbremse rent control law (case study 1)?",
+     "options": [
+      {
+       "text": "A ban on charging any rent at all for homes."
+      },
+      {
+       "text": "A state payment that covers everyone’s rent."
+      },
+      {
+       "text": "A non-binding recommendation from landlords’ associations."
+      },
+      {
+       "text": "A state rule limiting how far the rent for a new tenancy may exceed the local reference rent.",
+       "correct": true
+      }
+     ],
+     "explanation": "The Mietpreisbremse does not ban letting properties or pay anyone’s rent – it limits price increases. In areas where the housing market is under pressure, the rent for a new tenancy may be no more than 10 per cent above the local reference rent. It is a binding state rule, not a recommendation."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "A state caps the price of bread well below the equilibrium price. What do opponents fear, based on the market model from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]?",
+     "options": [
+      {
+       "text": "A surplus: bread is left on the shelves."
+      },
+      {
+       "text": "That demand for bread will fall to zero."
+      },
+      {
+       "text": "Shortages: more is demanded and less is supplied, risking empty shelves and limits on purchases.",
+       "correct": true
+      },
+      {
+       "text": "That bakeries will voluntarily bake more and better bread."
+      }
+     ],
+     "explanation": "A price below equilibrium triggers the shortage pattern from [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]: at the low price, more people want to buy, while supplying the product becomes less worthwhile. A surplus would occur in the opposite case, if the price were too high. Demand certainly does not fall to zero when the price is low – quite the opposite. And hardly any bakery will voluntarily bake more without the prospect of making a profit."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Why do supporters think it makes sense for a public authority to check electricity or water network charges?",
+     "options": [
+      {
+       "text": "Because competition is not there to keep prices in check: the network belongs to a single supplier, and customers have no alternative.",
+       "correct": true
+      },
+      {
+       "text": "Because network operators always choose to charge prices that are too low."
+      },
+      {
+       "text": "Because electricity and water networks have particularly large numbers of competing suppliers."
+      },
+      {
+       "text": "Because electricity and water are not important goods."
+      }
+     ],
+     "explanation": "Networks are typical monopolies ([[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]). Building a second electricity or water network is not worthwhile, so there is only one supplier and nobody has an alternative. Supporters argue that where competition cannot keep prices in check, a public authority should take on that role. This is not a case of ‘prices that are too low’ or ‘many suppliers’, and electricity and water are particularly important."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Which of these statements is a complete argument following the structure?",
+     "options": [
+      {
+       "text": "‘Price caps are nonsense – that is obvious.’"
+      },
+      {
+       "text": "‘I think rent controls are a good thing.’"
+      },
+      {
+       "text": "‘All sensible experts agree on this issue.’"
+      },
+      {
+       "text": "‘The state should stop profiteering in crises because desperate people will otherwise pay almost any price – after natural disasters, drinking water has sometimes been offered at many times its normal price.’",
+       "correct": true
+      }
+     ],
+     "explanation": "Only the last statement has all three parts: a claim (stop profiteering), a reason introduced by ‘because’ (desperate people will pay almost any price) and a specific example (drinking water prices after disasters). The other three take a position but provide neither a reason nor evidence. ‘Obvious’, ‘I think’ and ‘everyone agrees’ are typical false justifications."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Why does a good argument need a specific example as well as a reason?",
+     "options": [
+      {
+       "text": "Because figures and cases automatically make an argument true."
+      },
+      {
+       "text": "Because a specific case or figure makes it possible to check the reason and shows that it is more than just an assertion.",
+       "correct": true
+      },
+      {
+       "text": "Because a good example allows you to leave out the reason."
+      },
+      {
+       "text": "Because examples distract listeners from the actual topic."
+      }
+     ],
+     "explanation": "The example is the argument’s reality check: it makes the reason concrete and verifiable, so anyone with doubts can check it. It does not automatically make an argument true – examples can be poorly chosen too. Nor does it replace the reason: a case without a reason is just an anecdote. A good example should not distract from the issue; it should support the central point."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-argumente",
+   "title": "Classify: For, against – or an unsupported claim?",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.preisregulierung-abwaegen"
+   ],
+   "intro": "Put each statement in the correct category: **argument for** (in favour of price regulation, with a reason), **argument against** (opposed to price regulation, with a reason) or **unsupported claim** (on either side, without a reason or evidence). Remember: what counts is the **structure** of the statement, not whether you agree with it.",
+   "modus": "wortbank",
+   "text": "‘The state should limit rents because families on low incomes will otherwise be forced out of their neighbourhoods – like the family that could no longer find an affordable home when they needed to move.’ {{1}}\n‘Price caps are simply a stupid idea.’ {{2}}\n‘A price cap below the equilibrium price leads to shortages because more is demanded than supplied – in several countries, shelves for products with capped prices were empty.’ {{3}}\n‘Without rent controls, rents will keep rising.’ {{4}}\n‘Having a public authority check electricity network charges protects customers because there is no competition – the network belongs to a single supplier.’ {{5}}\n‘Every sensible person is against price caps.’ {{6}}\n‘Rent controls can slow down housebuilding because building becomes less profitable – critics point to cities with strict rules and little new housing.’ {{7}}\n‘Price caps prevent profiteering in crises because desperate people will otherwise pay almost any price – for example, for drinking water after a disaster.’ {{8}}\n‘High prices often regulate themselves because they attract new suppliers and curb demand – a cap switches off this signal.’ {{9}}\n‘Politicians should finally start being sensible about this issue.’ {{10}}",
+   "luecken": [
+    {
+     "antworten": [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of price regulation",
+      "an argument in favour of price regulation",
+      "argument in favor of price regulation",
+      "an argument in favor of price regulation",
+      "argument for price regulation",
+      "an argument for price regulation",
+      "for",
+      "pro"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "bare claim",
+      "a bare claim",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "con-argument",
+      "contra argument",
+      "contra-argument",
+      "argument against price regulation",
+      "an argument against price regulation",
+      "against",
+      "con",
+      "contra"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "bare claim",
+      "a bare claim",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of price regulation",
+      "an argument in favour of price regulation",
+      "argument in favor of price regulation",
+      "an argument in favor of price regulation",
+      "argument for price regulation",
+      "an argument for price regulation",
+      "for",
+      "pro"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "bare claim",
+      "a bare claim",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "con-argument",
+      "contra argument",
+      "contra-argument",
+      "argument against price regulation",
+      "an argument against price regulation",
+      "against",
+      "con",
+      "contra"
+     ]
+    },
+    {
+     "antworten": [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of price regulation",
+      "an argument in favour of price regulation",
+      "argument in favor of price regulation",
+      "an argument in favor of price regulation",
+      "argument for price regulation",
+      "an argument for price regulation",
+      "for",
+      "pro"
+     ]
+    },
+    {
+     "antworten": [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "con-argument",
+      "contra argument",
+      "contra-argument",
+      "argument against price regulation",
+      "an argument against price regulation",
+      "against",
+      "con",
+      "contra"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "bare claim",
+      "a bare claim",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-argument-bauplan",
+   "title": "Put the argument back together",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen"
+   ],
+   "intro": "An argument has been broken down into its parts. Drag the correct terms into the gaps (on a phone, tap the word first, then the gap). **Watch out:** Two words in the word bank do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "{{1}}: ‘The state should introduce rent controls when rents rise sharply.’\n{{2}}: ‘… {{3}} of our basic need for housing, which nobody can do without.’\n{{4}}: ‘{{5}}, a family looking to move could not find an affordable home for months – newly advertised rents were far above the local reference rent.’\nWithout the {{6}}, all that would remain is an unsupported {{7}} – and without the {{8}}, there is no evidence to check.",
+   "luecken": [
+    {
+     "antworten": [
+      "Claim",
+      "a claim",
+      "the claim",
+      "assertion",
+      "an assertion",
+      "the assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "Reason",
+      "a reason",
+      "the reason",
+      "reasoning",
+      "the reasoning",
+      "justification",
+      "a justification",
+      "the justification",
+      "explanation",
+      "an explanation",
+      "the explanation"
+     ]
+    },
+    {
+     "antworten": [
+      "because",
+      "on account",
+      "as a result"
+     ]
+    },
+    {
+     "antworten": [
+      "Example",
+      "an example",
+      "the example"
+     ]
+    },
+    {
+     "antworten": [
+      "For example",
+      "for instance"
+     ]
+    },
+    {
+     "antworten": [
+      "reason",
+      "reasoning",
+      "justification",
+      "explanation"
+     ]
+    },
+    {
+     "antworten": [
+      "claim",
+      "assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "example"
+     ]
+    }
+   ],
+   "ablenker": [
+    "for",
+    "equilibrium"
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: Your argument for the debate",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.preisregulierung-abwaegen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Write a short argument of your own on the question ‘Should the state regulate prices?’ Follow the structure exactly: (1) a clear claim (FOR or AGAINST – you may choose a side you do not personally agree with), (2) a reason introduced by ‘because’ or ‘since’, (3) a specific example as evidence. Use an example that does NOT appear word for word in the module. You may, however, draw on knowledge from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]], [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] and [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]].",
+     "hint": "Use the structure as a checklist: Does your first sentence take a clear position? Does your second sentence give a reason that could also convince someone who disagrees, rather than a false justification such as ‘because everyone knows that’? Is your example specific enough for someone to check or picture it? Ideas for your own examples: the ski lift monopoly from [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]], concert tickets from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]], petrol prices, mobile phone contracts.",
+     "solution": "There is no single model solution. Instead, check your argument against these criteria: (1) The claim is a complete statement that takes a clear position. (2) The reason gives genuine support and connects logically to the claim. Test it: Does ‘claim, because reason’ make sense as a sentence? (3) The example is specific – a case, a place or a figure – and supports that exact reason, not something else. Sample structure (against): ‘The state should not cap concert ticket prices because a cap below the equilibrium price makes shortages worse rather than solving them – even now, cheap tickets sell out in minutes and reappear at higher prices on the resale market.’"
+    },
+    {
+     "prompt": "Prepare for the debate in week 9: choose what you consider the strongest argument FOR and the strongest argument AGAINST from the module. For each one, write down a possible response from the opposing side – an objection – and think about how you would answer it.",
+     "hint": "An objection usually challenges the reason (‘Is that reason really valid?’) or the example (‘Is this case typical or an exception?’). Ask yourself about each argument: Where is its weakest point?",
+     "solution": "An example of the pattern: argument for – ‘Price caps prevent profiteering in crises.’ Possible objection from the other side: ‘The cap only tackles the symptom. If water is scarce, a low price will not create more water – what is needed is rapid delivery of emergency supplies.’ Possible reply: ‘In the short term, the cap still protects the most vulnerable until help arrives – we can do both.’ What matters is that your objection challenges the argument’s reason or example, and that your reply addresses the objection rather than merely repeating the claim."
+    }
+   ]
+  }
+ ]
+}
