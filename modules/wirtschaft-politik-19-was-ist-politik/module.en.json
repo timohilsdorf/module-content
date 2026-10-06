@@ -1,0 +1,1221 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-19-was-ist-politik --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:fcfc2435e8b736a4b0142b6e1e982f307683223ff0f1fd50f159857d0d91e906",
+  "masterCommit": "9560339",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten-codex.en.json",
+  "selfHash": "sha256:7a6c03be21c70da660e8932d0c1be67e65e15c603eacacad826b7226324438e0"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-19-was-ist-politik",
+ "title": "What is politics?",
+ "description": "A skatepark or peace and quiet in the neighbourhood? When interests clash and the outcome is a rule that applies to everyone, that is politics. At the start of the topic block ‘Key concepts, democracy & political thinking’, you will learn about politics as negotiating binding rules and recognise the key concepts of power, interests, conflict and compromise in your everyday life – from the classroom to a local council decision.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "LBO.5.6",
+     "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    },
+    {
+     "code": "LBO.5.4",
+     "description": "Die Schülerinnen und Schüler können Gemeinschaft aktiv mitgestalten."
+    }
+   ]
+  }
+ ],
+ "sequenz": 19,
+ "einheit": "Topic block D: Key concepts, democracy & political thinking",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "politics",
+  "power",
+  "interests",
+  "conflict",
+  "compromise",
+  "negotiation",
+  "binding rules",
+  "municipality",
+  "living together",
+  "political education"
+ ],
+ "learningObjectives": [
+  "I can define politics as negotiating binding rules for living together.",
+  "I can recognise the key concepts of power, interests, conflict and compromise in everyday situations – from classroom rules and the playground to a local council decision about a skatepark.",
+  "I understand that wherever interests clash and a decision is binding on everyone, there is politics – it does not begin only in parliaments."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-02-haushalte-unternehmen-staat"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Politics? That has nothing to do with me …",
+   "body": "When they hear ‘politics’, most people think of parliaments, votes and people in suits debating on the news. It sounds far removed from your own life – but it is not.\n\nHere is an example: your class is discussing whether mobile phones must go into a box in the classroom. Some want to listen to music at break time; others are annoyed because someone is always scrolling. You discuss it, make suggestions and vote – and in the end, a rule applies **to everyone**, including those who were against it.\n\nThat is exactly what politics is about:\n\n> **Politics is negotiating binding rules for living together.**\n\nThree parts of this definition carry all the weight:\n\n- **Negotiating** – people discuss, negotiate and work towards solutions, rather than someone simply giving orders.\n- **Binding** – the rule applies to everyone affected, not just those who agreed to it.\n- **Living together** – it is about questions that affect a community, not private decisions.\n\nWhether you spend your pocket money on headphones or a trip to the cinema is your private choice – it is binding only on you. Whether football is allowed in the playground affects everyone who spends their break there. As soon as a question affects the community and the answer applies to everyone, you are right in the middle of politics."
+  },
+  {
+   "type": "text",
+   "title": "Four key concepts: interests, conflict, power, compromise",
+   "body": "Four concepts can help you make sense of almost any political situation – from a class discussion to world politics:\n\n1. **Interests** are the wishes and concerns of individuals or groups: the class wants a trip, you want a lie-in, your neighbour wants peace and quiet. Interests are not a bad thing – everyone has them, and that is completely normal.\n2. A **conflict** arises when interests **clash** – when not everyone's wishes can be met at the same time. There is only one playground: some people want to play football, while others want to sit in peace. You cannot do both on the same patch at the same time.\n3. **Power** is the ability to influence decisions or put them into effect. Power takes many forms: the teacher can impose a rule, the majority can win a vote – but someone with good arguments, plenty of allies or great persistence also has power. Power is not automatically bad; what matters is how it is used and whether it is subject to rules.\n4. A **compromise** is a solution in which **both sides give a little and both gain something**. Football on one half of the playground, benches on the other: nobody gets everything – but everyone can live with it.\n\nRemember the connection: different **interests** lead to a **conflict** when they clash. **Power** plays a part in negotiating a solution – and the outcome is often a **compromise** that then becomes a binding rule for everyone."
+  },
+  {
+   "type": "text",
+   "title": "The skatepark example: local politics",
+   "body": "This is how the pattern works in real life – for example, in a municipality where young people have been skating in the school car park for years:\n\n**The interests:** a group of young people want a proper skatepark – with ramps instead of kerbs. They collect signatures and put their request to the local authority. Residents near the possible sites have a different interest: they fear noise late into the evening. And the local authority itself has to watch its budget – money spent on the skatepark will not be available for other things.\n\n**The conflict:** all three interests are understandable – but they clash. A skatepark right next to the school would be great for the young people, but a nuisance for the neighbours. Having no skatepark at all would be the cheapest option for the budget, but would ignore the wishes of many young people.\n\n**The negotiation:** the local authority invites everyone to a meeting. The young people present their arguments, show plans and suggest sites. Residents raise their concerns. They negotiate: which site? What opening hours? How much can it cost? Here, power takes different forms – good arguments, lots of signatures, but also the local council's final say.\n\n**The binding rule:** in the end, the local council agrees on a compromise: the skatepark will be built – but on the outskirts rather than in the middle of the neighbourhood, with quiet hours from 20:00 and a smaller budget than hoped for. This decision now applies **to everyone**: to the young people who would have preferred a larger park, to the residents who did not want one at all – and to everyone who never spoke up.\n\nThe graphic shows you these four steps – they work in the same way for the skatepark, for classroom rules and for major political questions."
+  },
+  {
+   "type": "schaubild",
+   "title": "From interests to a binding rule",
+   "szene": {
+    "elemente": [
+     {
+      "id": "t-title",
+      "x": 340,
+      "y": 0,
+      "width": 434.9,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 484809133,
+      "type": "text",
+      "text": "From interests to a binding rule",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "t-subtitle",
+      "x": 400,
+      "y": 44,
+      "width": 333.71,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1092346787,
+      "type": "text",
+      "text": "Politics in action: the skatepark example",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s1-box",
+      "x": 20,
+      "y": 90,
+      "width": 1160,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1505745933,
+      "type": "rectangle"
+     },
+     {
+      "id": "s1-head",
+      "x": 60,
+      "y": 110,
+      "width": 101.07,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 130381635,
+      "type": "text",
+      "text": "1  Interests",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s1-body",
+      "x": 60,
+      "y": 148,
+      "width": 330,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#d0ebff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1524814445,
+      "type": "rectangle"
+     },
+     {
+      "id": "s1-jugend",
+      "x": 460,
+      "y": 125,
+      "width": 200,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1463523043,
+      "type": "rectangle"
+     },
+     {
+      "id": "s1-anwohner",
+      "x": 700,
+      "y": 125,
+      "width": 200,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2098724045,
+      "type": "rectangle"
+     },
+     {
+      "id": "s1-gemeinde",
+      "x": 940,
+      "y": 125,
+      "width": 200,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2114765443,
+      "type": "rectangle"
+     },
+     {
+      "id": "s2-box",
+      "x": 20,
+      "y": 330,
+      "width": 1160,
+      "height": 210,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1207491373,
+      "type": "rectangle"
+     },
+     {
+      "id": "s2-head",
+      "x": 60,
+      "y": 350,
+      "width": 86.68,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1962375715,
+      "type": "text",
+      "text": "2  Conflict",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s2-body",
+      "x": 60,
+      "y": 386,
+      "width": 1080,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#ffd8a8",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 334425485,
+      "type": "rectangle"
+     },
+     {
+      "id": "s3-box",
+      "x": 20,
+      "y": 600,
+      "width": 1160,
+      "height": 210,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 418004419,
+      "type": "rectangle"
+     },
+     {
+      "id": "s3-head",
+      "x": 60,
+      "y": 620,
+      "width": 126.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1882436589,
+      "type": "text",
+      "text": "3  Negotiation",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s3-body",
+      "x": 60,
+      "y": 656,
+      "width": 1080,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#a5d8ff",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 620989795,
+      "type": "rectangle"
+     },
+     {
+      "id": "s4-box",
+      "x": 20,
+      "y": 870,
+      "width": 1160,
+      "height": 170,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1221635661,
+      "type": "rectangle"
+     },
+     {
+      "id": "s4-head",
+      "x": 60,
+      "y": 890,
+      "width": 173.84,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1821501699,
+      "type": "text",
+      "text": "4  Binding rule",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s4-body",
+      "x": 60,
+      "y": 926,
+      "width": 1080,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#b2f2bb",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1285512365,
+      "type": "rectangle"
+     },
+     {
+      "id": "ar-1",
+      "x": 598,
+      "y": 276.5,
+      "width": 0,
+      "height": 47,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1427361955,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        47
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "ar-2",
+      "x": 598,
+      "y": 546.5,
+      "width": 0,
+      "height": 47,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 323567373,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        47
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "ar-3",
+      "x": 598,
+      "y": 816.5,
+      "width": 0,
+      "height": 47,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 272090179,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        47
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "t-merksatz",
+      "x": 230,
+      "y": 1090,
+      "width": 573.28,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 55039341,
+      "type": "text",
+      "text": "Where interests clash and a decision binds everyone, there is politics.",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Nu7eXY2pgqPVJXtlTbovS",
+      "x": 147.91,
+      "y": 168,
+      "width": 154.18,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 605795213,
+      "type": "text",
+      "text": "Each group has its own\nwishes and concerns.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s1-body",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "q3IRUpEz6MRtnUYzD5apx",
+      "x": 518.9,
+      "y": 150,
+      "width": 82.2,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 718780909,
+      "type": "text",
+      "text": "Young people\nwant a\nskatepark",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s1-jugend",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "KxgU2eHVmhaei1ZMORC08",
+      "x": 759.34,
+      "y": 150,
+      "width": 81.32,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1560540237,
+      "type": "text",
+      "text": "Residents\nwant quiet\nevenings",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s1-anwohner",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "VPWLBqfw4eeEVlzmtCA6N",
+      "x": 994.02,
+      "y": 150,
+      "width": 91.97,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1182393005,
+      "type": "text",
+      "text": "Municipality\nmust watch\nits budget",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s1-gemeinde",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "4RStAev7mqI2pfPzWibdr",
+      "x": 432.29,
+      "y": 416,
+      "width": 335.43,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1004733709,
+      "type": "text",
+      "text": "Interests clash:\nNot all wishes can be met at once.\nA skatepark by the school?\nGreat for some – a nuisance for others.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s2-body",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "zjJFRpSXSMUgYFdtodL6p",
+      "x": 339.77,
+      "y": 686,
+      "width": 520.46,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1085856621,
+      "type": "text",
+      "text": "At the meeting, people exchange arguments and negotiate solutions:\nWhich site? What hours? What cost?\nPower plays a part: good arguments, lots of signatures –\nand the local council's final say.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s3-body",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "epcDYLMnJSZHRdq7VQ-hv",
+      "x": 400.74,
+      "y": 951,
+      "width": 398.52,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 759489997,
+      "type": "text",
+      "text": "A compromise is agreed:\nSkatepark on the outskirts, quiet hours from 20:00.\nThe decision applies to everyone – even those who opposed it.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s4-body",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The graphic uses the skatepark example to show the basic pattern of politics as a four-step process, with an arrow leading from each step to the next: different interests lead to a conflict, which is negotiated and ends in a binding rule. Key points: (1) Interests – each group has its own wishes and concerns: the young people want a skatepark, residents want quiet evenings, and the local authority has to watch its budget. (2) Conflict – interests clash because not everyone's wishes can be met at once: a skatepark by the school would be great for some and a nuisance for others. (3) Negotiation – at the meeting, people exchange arguments and negotiate solutions (which site? What hours? How much can it cost?); power plays a part, for example through good arguments, lots of signatures and the local council's final say. (4) Binding rule – a compromise is agreed: a skatepark on the outskirts, with quiet hours from 20:00; the decision applies to everyone, even those who opposed it. Key message below the process: wherever interests clash and a decision is binding on everyone, there is politics.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Politics does not begin only in parliament",
+   "body": "You can find the skatepark pattern at every level – only the scale changes:\n\n- **In your class:** who can sit where? Are mobile phones banned? Where will the class trip go?\n- **In your school:** how is playground space shared out? What rules apply in the school building?\n- **In your municipality:** a skatepark or not? Where will new buildings go, and what will be renovated?\n- **Nationally and internationally:** how high are taxes? What climate targets apply?\n\nIt is the same everywhere: **interests clash, people negotiate, and the final decision is binding on everyone.** Parliaments and governments are particular places where this negotiation is organised according to established rules – but politics does not *begin* only there. It begins wherever people live together.\n\nTwo distinctions help you take a closer look:\n\n1. **Not every decision is politics.** What you eat, what music you listen to, what you save up for – these are private decisions. They are binding only on you.\n2. **Not every argument is politics.** If two friends fall out and then simply go their separate ways, the essential part is missing: a rule that applies to the community. It becomes political only when the outcome is a **binding decision**.\n\nAnd why should you know all this? Because you are already involved: you live with others, have interests and are affected by rules that others negotiate – today in the playground, soon as an adult in your municipality. If you recognise the pattern, you can have your say instead of just watching. That is exactly what [[modul:wirtschaft-politik-20-demokratie-als-prinzip]] and [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]] explore: how does a democracy organise this negotiation – and what happens when it is abolished?"
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "U66qRx45gVA",
+   "title": "Video: the concept of politics – three perspectives",
+   "description": "This explainer video (4:00) from the educational channel ‘Die Merkhilfe’ uses political science terminology to look at the concept you have just learnt about. As you watch, focus on two questions: (1) Where can you recognise our definition – politics as negotiating binding rules? (2) The video distinguishes three dimensions: ‘Polity’ (rules and structures), ‘Policy’ (the issues) and ‘Politics’ (the process of negotiation) – which of the three best fits the struggle over the skatepark?",
+   "transcript": "The explainer video ‘Politikbegriff / Arten von Politik’ (Die Merkhilfe, 4:00 minutes) introduces the concept of politics from the perspective of political science: politics as purposeful action to shape how people live together, with interests and power playing a part. The video distinguishes three dimensions: ‘Polity’ refers to the framework – the rules, structures and institutions within which politics takes place; ‘Policy’ refers to the substance – the issues and aims involved; ‘Politics’ refers to the process – negotiating between interests and working towards majorities and compromises. The process dimension, ‘Politics’, comes closest to this module's definition: negotiating binding rules for living together.",
+   "startSeconds": 0
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: politics and its key concepts",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
+   "intro": "Show that you understand the definition and the four key concepts. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What is politics, according to this module's definition?",
+     "options": [
+      {
+       "text": "Everything that parliaments and governments do."
+      },
+      {
+       "text": "The arguments between political parties that you see on the news."
+      },
+      {
+       "text": "Negotiating binding rules for living together.",
+       "correct": true
+      },
+      {
+       "text": "The art of always being proved right in discussions."
+      }
+     ],
+     "explanation": "Politics is negotiating binding rules for living together – this pattern occurs wherever people need to make decisions together. Parliaments and governments are important places for politics, but politics does not begin only there: a class voting on a mobile phone rule is also engaging in politics. Arguments between parties are just one visible part of it – and someone who is ‘always proved right’ may have power, but politics is about more than being right."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What are ‘interests’ in the political sense?",
+     "options": [
+      {
+       "text": "The wishes and concerns of individuals or groups – for example, a skatepark, peace and quiet or a balanced budget.",
+       "correct": true
+      },
+      {
+       "text": "Only selfish demands that harm the community."
+      },
+      {
+       "text": "Someone's hobbies in their free time."
+      },
+      {
+       "text": "The interest a bank charges on a loan."
+      }
+     ],
+     "explanation": "Interests are the wishes and concerns of individuals or groups – the young people want the skatepark, residents want peace and quiet, and the local authority wants a balanced budget. Having interests is normal, not selfish; a conflict arises only when they clash. In politics, ‘interests’ does not mean hobbies – and although the word is similar to ‘interest’ in [[modul:wirtschaft-politik-12-banken-kredit-zins]], it means something quite different."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "When do different interests turn into a conflict?",
+     "options": [
+      {
+       "text": "As soon as more than two people are involved."
+      },
+      {
+       "text": "When the interests clash – when not everyone's wishes can be met at the same time.",
+       "correct": true
+      },
+      {
+       "text": "Only when people start shouting or making threats."
+      },
+      {
+       "text": "Only when a court has to settle the dispute."
+      }
+     ],
+     "explanation": "A conflict arises when interests clash: there is only one playground – playing football and sitting quietly on the same patch cannot happen at the same time. This does not require shouting or a court: even a calmly discussed clash of interests is a conflict. And the number of people involved does not matter – just two people can have clashing interests, while a thousand people can agree."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What makes a rule ‘binding’?",
+     "options": [
+      {
+       "text": "It applies only to those who agreed to it."
+      },
+      {
+       "text": "It is voluntary – people follow it if they want to."
+      },
+      {
+       "text": "It was passed by the largest possible majority."
+      },
+      {
+       "text": "It applies to everyone affected – including those who were against it.",
+       "correct": true
+      }
+     ],
+     "explanation": "Binding means that the rule applies to everyone affected – including those who were outvoted and those who never spoke up. This is exactly what distinguishes a political decision from a private agreement. If the rule applied only to those who agreed to it, or if it were voluntary, it would not be a binding rule. And the size of the majority makes no difference to whether it is binding – even rules passed by a narrow majority apply."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "What is power in the political sense?",
+     "options": [
+      {
+       "text": "The ability to influence decisions or put them into effect – for example, through arguments, allies or a majority in a vote.",
+       "correct": true
+      },
+      {
+       "text": "Always something bad that has no place in a community."
+      },
+      {
+       "text": "Only the physical strength to force others to do something."
+      },
+      {
+       "text": "A quality that only governments possess."
+      }
+     ],
+     "explanation": "Power is the ability to influence decisions or put them into effect – and it takes many forms: convincing arguments, lots of signatures, a majority in a vote or the local council's final say. This has little to do with physical strength alone, and governments are not the only ones with power – even someone gathering allies in class is exercising influence. Power is not automatically bad; what matters is how it is used and whether it is subject to rules."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "In the skatepark example, the local council decides: a skatepark on the outskirts, with quiet hours from 20:00. Why is this a compromise?",
+     "options": [
+      {
+       "text": "Because the young people got everything they wanted."
+      },
+      {
+       "text": "Because the decision was postponed."
+      },
+      {
+       "text": "Because both sides gave a little and both gained something: a skatepark – but with consideration for the neighbours.",
+       "correct": true
+      },
+      {
+       "text": "Because no skatepark was built in the end."
+      }
+     ],
+     "explanation": "A compromise means that both sides give a little and both gain something. The young people get their skatepark – but it is smaller, on the outskirts and has quiet hours; residents have to accept a park – but not on their doorstep and not in use late in the evening. If the young people had got everything, or if nothing had been built, one side would have lost. And postponing is not a compromise, just a delayed decision."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Which of these situations is an example of politics as defined in this module?",
+     "options": [
+      {
+       "text": "You decide to spend your pocket money on headphones rather than a trip to the cinema."
+      },
+      {
+       "text": "The class negotiates whether mobile phones must go into a box in the classroom – the rule then applies to everyone.",
+       "correct": true
+      },
+      {
+       "text": "Two friends argue and then go their separate ways."
+      },
+      {
+       "text": "You choose between pasta and pizza for lunch."
+      }
+     ],
+     "explanation": "The phone box example has all the elements: interests clash (listening to music versus not being disturbed), people negotiate – and the outcome is a binding rule for the whole class. By contrast, your pocket money and lunch decisions are binding only on you: they are private matters. And the argument between two friends lacks the essential part: it does not produce a rule for the community – not every argument is politics."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "‘Politics does not begin only in parliaments.’ What does this mean?",
+     "options": [
+      {
+       "text": "Parliaments are actually unnecessary for politics."
+      },
+      {
+       "text": "Politics takes place only in municipalities, not at national level."
+      },
+      {
+       "text": "Anyone who is not in parliament is unaffected by politics."
+      },
+      {
+       "text": "Wherever clashing interests are resolved through binding decisions, there is politics – in the class, the school and the municipality too.",
+       "correct": true
+      }
+     ],
+     "explanation": "The basic pattern of politics – interests, conflict, negotiation, a binding rule – occurs at every level: from the classroom and playground to the municipality and the country. This does not make parliaments unnecessary; they are particular places where negotiation is organised according to established rules. But politics does not take place only there – and it affects everyone who lives with others, whether they are in parliament or not."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-grundbegriffe",
+   "title": "Fill in the terms: what is politics?",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone, tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Politics is the {{1}} of binding rules for living together. The wishes and concerns of individuals or groups are called {{2}}. If not everyone's wishes can be met at the same time, a {{3}} arises.\nFor the skatepark, the young people want ramps, residents want {{4}} in the evening, and the local authority has to watch its {{5}}. People negotiate at the meeting – and {{6}} takes many forms: good arguments, lots of signatures or the local council's final say. The outcome is often a {{7}}, in which both sides give a little and both gain something.\nThe local authority's decision is {{8}} – it applies even to those who were against it. By contrast, what you do with your pocket money is a {{9}} decision: it is binding only on you. So politics does not begin only in {{10}} – it begins wherever people live together.",
+   "luecken": [
+    {
+     "antworten": [
+      "negotiation",
+      "negotiating"
+     ]
+    },
+    {
+     "antworten": [
+      "interests",
+      "their interests"
+     ]
+    },
+    {
+     "antworten": [
+      "conflict",
+      "clash",
+      "clash of interests",
+      "conflict of interests",
+      "conflict of interest",
+      "dispute",
+      "a conflict",
+      "a clash",
+      "a clash of interests",
+      "a conflict of interests",
+      "a conflict of interest",
+      "a dispute"
+     ]
+    },
+    {
+     "antworten": [
+      "peace and quiet",
+      "quiet",
+      "peace",
+      "silence"
+     ]
+    },
+    {
+     "antworten": [
+      "budget"
+     ]
+    },
+    {
+     "antworten": [
+      "power",
+      "influence"
+     ]
+    },
+    {
+     "antworten": [
+      "compromise",
+      "a compromise"
+     ]
+    },
+    {
+     "antworten": [
+      "binding",
+      "mandatory",
+      "compulsory",
+      "obligatory"
+     ]
+    },
+    {
+     "antworten": [
+      "private",
+      "personal"
+     ]
+    },
+    {
+     "antworten": [
+      "parliament",
+      "a parliament",
+      "the parliament",
+      "parliaments"
+     ]
+    }
+   ],
+   "ablenker": [
+    "defeat",
+    "dividend",
+    "tax return"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-politik-eingabe",
+   "title": "Type in the terms: know the definition",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "Politics is negotiating {{1}} rules for living together. Clashing interests lead to {{2}}. A solution in which both sides give a little and both gain something is called {{3}}. The ability to influence decisions or put them into effect is called {{4}}. A binding rule applies to {{5}} affected – including those who were outvoted.",
+   "luecken": [
+    {
+     "antworten": [
+      "binding",
+      "mandatory",
+      "compulsory",
+      "obligatory"
+     ]
+    },
+    {
+     "antworten": [
+      "conflict",
+      "a conflict",
+      "conflicts",
+      "a clash of interests",
+      "clashes of interests",
+      "clash of interests",
+      "a conflict of interests",
+      "conflict of interests",
+      "a conflict of interest",
+      "conflict of interest",
+      "dispute",
+      "a dispute",
+      "disputes",
+      "an argument",
+      "arguments",
+      "a clash",
+      "clashes",
+      "disagreement",
+      "a disagreement",
+      "disagreements"
+     ]
+    },
+    {
+     "antworten": [
+      "a compromise",
+      "compromise"
+     ]
+    },
+    {
+     "antworten": [
+      "power",
+      "influence"
+     ]
+    },
+    {
+     "antworten": [
+      "everyone",
+      "everybody",
+      "all",
+      "all those",
+      "all people",
+      "all the people",
+      "every person",
+      "anyone",
+      "all who are",
+      "all those who are",
+      "everyone who is",
+      "everybody who is"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-grundbegriffe",
+   "title": "Match the concepts: interest, conflict, power or compromise?",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden"
+   ],
+   "intro": "Match each situation to the correct key concept: **interest**, **conflict**, **power** or **compromise**. Each concept appears exactly twice.",
+   "modus": "wortbank",
+   "text": "The young people want a skatepark with proper ramps. {{1}}\nPlaying football and sitting quietly cannot happen on the same patch of playground at the same time – the wishes clash. {{2}}\nThe class agrees: music is allowed during the main break, but only through headphones. {{3}}\nBy collecting 300 signatures, the young people get the local council to listen to them. {{4}}\nThe resident wants one thing above all: peace and quiet in the evening. {{5}}\nThe local council has the final say and can put the decision into effect. {{6}}\nYes to a skatepark – but on the outskirts and with quiet hours from 20:00: both sides give a little. {{7}}\nTwo groups want to use the same sports hall on Wednesday afternoon – they cannot both have it at once. {{8}}",
+   "luecken": [
+    {
+     "antworten": [
+      "interest",
+      "an interest",
+      "interests"
+     ]
+    },
+    {
+     "antworten": [
+      "conflict",
+      "a conflict",
+      "conflict of interests",
+      "a conflict of interests",
+      "conflict of interest",
+      "a conflict of interest",
+      "clash of interests",
+      "a clash of interests",
+      "dispute",
+      "a dispute"
+     ]
+    },
+    {
+     "antworten": [
+      "compromise",
+      "a compromise"
+     ]
+    },
+    {
+     "antworten": [
+      "power",
+      "influence"
+     ]
+    },
+    {
+     "antworten": [
+      "interest",
+      "an interest",
+      "interests"
+     ]
+    },
+    {
+     "antworten": [
+      "power",
+      "influence"
+     ]
+    },
+    {
+     "antworten": [
+      "compromise",
+      "a compromise"
+     ]
+    },
+    {
+     "antworten": [
+      "conflict",
+      "a conflict",
+      "conflict of interests",
+      "a conflict of interests",
+      "conflict of interest",
+      "a conflict of interest",
+      "clash of interests",
+      "a clash of interests",
+      "dispute",
+      "a dispute"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Explore further: politics in your everyday life",
+   "teilkompetenzen": [
+    "wp.politik.grundbegriffe-anwenden",
+    "wp.politik.kompromisse-begruenden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Find your own example of politics in everyday life – in your class, club, family or municipality (not the skatepark or mobile phone example). Break it down into the four steps: what interests were involved? What was the conflict? How did people negotiate – and who had what kind of power? What was the final binding rule?",
+     "hint": "First ask yourself: where did the outcome include a rule for everyone – even those who were against it? That is your candidate. Examples: sharing sports hall time at a club, a household chore rota, a seating plan, noise rules on the school bus.",
+     "solution": "There is no single model solution – check your example using these questions: (1) Have you identified at least two different interests (not just two people, but two concerns)? (2) Is it clear why they clash – what could not happen at the same time? (3) Have you described how people negotiated and which forms of power were involved (arguments, a majority, an official position, persistence)? (4) Is the outcome a rule that is binding on everyone involved? If one of the four steps is missing, it may be a private decision or simply an argument – but not politics."
+    },
+    {
+     "prompt": "Take on a role in the skatepark case: you are a local councillor. The young people insist on the site next to the school, residents reject every site, and the budget is tight. Propose a compromise with at least three specific points (e.g. location, opening hours, costs) – and explain which interest each point addresses.",
+     "hint": "A workable compromise gives each side something: what do the young people get? What do residents get? What does the local authority's budget gain? Also think about rules that apply after construction – such as quiet hours, lighting or a trial period.",
+     "solution": "Example of a proposed compromise: (1) A site on the outskirts next to the sports ground – the young people get their park, and residents in the neighbourhood get peace and quiet. (2) Quiet hours from 20:00 and no lighting after dark – this meets the need for quiet while leaving the afternoons and early evenings for the young people. (3) A cap on construction costs, with young people helping to maintain the park – this eases pressure on the budget and shows that the young people are taking responsibility. (4) A one-year trial followed by an evaluation – this eases sceptics' fears about a permanent decision. The reasoning matters: each point must clearly serve one of the three interests."
+    },
+    {
+     "prompt": "In no more than a minute, explain to someone you know (a family member or a friend) why your class's mobile phone rule is politics, but your choice of lunch is not. Use the words ‘interests’, ‘negotiate’ and ‘binding’. Afterwards, write two or three sentences about the follow-up question they asked – and how you answered it.",
+     "hint": "The key difference: who is bound by the decision? Just you – or everyone in the community, including those who were outvoted?",
+     "solution": "A possible short explanation: ‘When we made the mobile phone rule, we had different interests – some wanted music, others wanted quiet. We had to negotiate what the rule should be, and then we voted. Now the rule is binding: it applies to everyone, even those who were against it. When I choose my lunch, I decide only for myself – it is not binding on anyone else. That is why one is politics and the other is a private matter.’ Typical follow-up questions: ‘Does that mean family life can be politics too?’ (Yes, when rules for everyone are negotiated – such as the chore rota.) Or ‘What if the teacher simply imposes the rule?’ (Then there is no negotiation – it is still a binding rule, but it was not reached democratically; this is explored in [[modul:wirtschaft-politik-20-demokratie-als-prinzip]].)"
+    }
+   ]
+  }
+ ]
+}
