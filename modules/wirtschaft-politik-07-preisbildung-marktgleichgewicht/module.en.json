@@ -1,0 +1,1266 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-07-preisbildung-marktgleichgewicht --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:52e53802ed1f4f5f73c00da054fe961fbd0d16dd9d50c6f274c46309d20dfbfb",
+  "masterCommit": "f725f06",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten.codex.en.json",
+  "selfHash": "sha256:48e826fcabcfce173e8d6541f1fbd57a9fa6f6dfa9a455f9e377fcdfb5b9bb3e"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
+ "title": "Price formation and market equilibrium",
+ "description": "At a flea market, you haggle over every franc; in a shop, the price is clearly marked – but who actually sets it? Here you will find out how supply and demand lead to a market price and what the equilibrium price means. You will learn how to tell when a price is too high or too low – and review your classroom market game.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 7,
+ "einheit": "Topic B: Markets and prices",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "price formation",
+  "market price",
+  "equilibrium price",
+  "equilibrium quantity",
+  "market equilibrium",
+  "surplus",
+  "shortage",
+  "unsold stock",
+  "sale",
+  "market game",
+  "supply",
+  "demand"
+ ],
+ "learningObjectives": [
+  "I can explain how supply and demand lead to a market price: prices that are too high leave goods unsold, while prices that are too low empty the shelves – the price settles somewhere in between.",
+  "I can explain that the equilibrium price is the price at which the quantity supplied equals the quantity demanded – the market then clears.",
+  "I can describe the consequences of a price that is too high (a surplus, unsold stock) or too low (a shortage, queues) and recognise them in everyday examples."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "SRF school: Angebot und Nachfrage – Wie entstehen Preise? (Clip und klar!)",
+   "url": "https://www.srf.ch/sendungen/school/wirtschaft-politik/wirtschaft-politik-angebot-und-nachfrage-wie-entstehen-preise"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-06-angebot-und-nachfrage"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Who set the price?",
+   "body": "At a flea market stall, you ask: ‘How much is the skateboard?’ – ‘30 francs.’ – ‘I will give you 15.’ – ‘25.’ – ‘20?’ – ‘Deal.’ In one minute, the two of you have done something quite remarkable: you have **negotiated** a price that works for both of you.\n\nIn a supermarket, there is no haggling – the price is clearly marked. Yet it comes about in much the same way: behind the shop price are the same two forces from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]], **supply** and **demand**. Here, though, it is not two people negotiating, but many suppliers and a huge number of buyers – day after day, across the whole economy.\n\n**This module accompanies your classroom market game.** You have already experienced trading for yourself: perhaps you were a seller who could not sell your goods, or a buyer who had to offer more than planned. Keep your observations from the game in mind – **What did you observe in the game?** is the reflection question that runs through this module. By the end, you will be able to explain why the prices in your game changed as they did."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "Edcm17as1mY",
+   "title": "Video: How are prices formed?",
+   "description": "This explainer video (4:49) from the SRF series ‘Clip und klar!’ shows who decides on prices – and why products become more expensive or cheaper. As you watch, focus on two questions: (1) In the video, who determines the price of a product – the manufacturer alone, or someone else? (2) Follow the fidget spinner example: how does its price change when it becomes a trend – and when the hype dies down? Note what happens to supply and demand in each case.",
+   "transcript": "This explainer video from SRF Kids (the ‘Clip und klar!’ series, 4:49 minutes) explains how prices are formed: the manufacturer alone does not determine what a product costs – its price emerges on the market through supply and demand. Presenter Raphi uses the fidget spinner as an example: when the toy became a worldwide trend, huge numbers of people wanted one at the same time – high demand met a still limited supply, and prices were high. Then more and more companies produced spinners, and the hype died down: a large supply met low demand – prices fell sharply. Using further examples such as mobile phones, cameras and trainers, the video illustrates the basic rule of price formation: if a good is scarce and sought after, its price rises; if there is plenty of it and few people want it, its price falls."
+  },
+  {
+   "type": "text",
+   "title": "From haggling to the market price",
+   "body": "How does a market find ‘its’ price? Imagine a weekly market with lots of stalls, all selling apricots.\n\n**Attempt 1: A stall charges 12 francs per kilo.** Most customers look, raise their eyebrows – and move on to the next stall. By the evening, the crates are still full. Anyone who does not want to throw their goods away has to respond: **the price falls.**\n\n**Attempt 2: A stall charges just 2 francs.** Within an hour, everything is gone, and there was a long queue – many people missed out. Quite a few would happily have paid more. The stallholder realises: at this price, everyone is rushing to my stall – **the price can rise.** And someone who can earn more will also offer larger quantities next week.\n\nIn this way, the two sides gradually move towards each other – like haggling at a flea market, but with many people involved at once. Somewhere in between is a price at which there are neither full crates left over nor long queues: the quantity supplied equals the quantity demanded. This price is called the **equilibrium price** – and a market that has found it is said to be **in equilibrium**.\n\nRemember: nobody calculated this price or ordered it to be set. It emerges **on its own** from countless individual decisions – every customer who moves on and every supplier who adjusts their price casts a ‘vote’, so to speak."
+  },
+  {
+   "type": "text",
+   "title": "Market equilibrium in a diagram",
+   "body": "You can now **put the two curves** from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]] **on the same diagram** – that is exactly what the graphic below shows:\n\n- The **blue demand curve** slopes downwards: the lower the price, the more people want to buy.\n- The **green supply curve** slopes upwards: the higher the price, the more is offered for sale.\n- At the **intersection**, the two forces meet: the quantity supplied equals the quantity demanded. The price at this point is the **equilibrium price**, and the quantity is called the **equilibrium quantity**.\n\nAt the equilibrium price, we also say: **the market clears.** This means that all suppliers who want to sell at this price sell their goods – and all buyers who want to buy at this price get what they want. Nothing is left unsold, and nobody queues in vain.\n\nWatch out for a common misunderstanding: ‘clearing’ does not mean that **everyone** gets the good. Anyone who finds the equilibrium price too high does not buy – they are simply not part of the quantity demanded. Equilibrium is not an ideal outcome for everyone, but the point at which the supply and demand sides meet **with nothing left over**."
+  },
+  {
+   "type": "schaubild",
+   "title": "Supply and demand in one diagram",
+   "szene": {
+    "elemente": [
+     {
+      "id": "zone-ueberschuss",
+      "x": 444,
+      "y": 360,
+      "width": 382,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#4c6e91",
+      "backgroundColor": "#748ea6",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1848330467,
+      "type": "rectangle"
+     },
+     {
+      "id": "zone-knappheit",
+      "x": 418,
+      "y": 680,
+      "width": 434,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1404332749,
+      "type": "rectangle"
+     },
+     {
+      "id": "linie-preis-hoch",
+      "x": 140,
+      "y": 380,
+      "width": 304,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1077294211,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        304,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "linie-preis-tief",
+      "x": 140,
+      "y": 700,
+      "width": 278,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 752322861,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        278,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "linie-ggpreis",
+      "x": 140,
+      "y": 530,
+      "width": 480,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1428335651,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        480,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "linie-ggmenge",
+      "x": 635,
+      "y": 545,
+      "width": 0,
+      "height": 355,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 80206733,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        355
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "achse-preis",
+      "x": 140,
+      "y": 899.5,
+      "width": 0,
+      "height": 759,
+      "angle": 0,
+      "strokeColor": "#37546d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1893674947,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -759
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "achse-menge",
+      "x": 140.5,
+      "y": 900,
+      "width": 1009,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#37546d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1941889517,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1009,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "kurve-nachfrage",
+      "x": 240,
+      "y": 220,
+      "width": 790,
+      "height": 620,
+      "angle": 0,
+      "strokeColor": "#2e6da4",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1435123555,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        790,
+        620
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "kurve-angebot",
+      "x": 240,
+      "y": 840,
+      "width": 790,
+      "height": 620,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1321606221,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        790,
+        -620
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "callout-ggpunkt",
+      "x": 500,
+      "y": 600,
+      "width": 122,
+      "height": 55,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2104646403,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        122,
+        -55
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "punkt-gleichgewicht",
+      "x": 621,
+      "y": 516,
+      "width": 28,
+      "height": 28,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "#d9480f",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 230099629,
+      "type": "ellipse"
+     },
+     {
+      "id": "titel",
+      "x": 270,
+      "y": 5,
+      "width": 603.76,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a52",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 353764003,
+      "type": "text",
+      "text": "Price formation: Where supply and demand meet",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 340,
+      "y": 52,
+      "width": 486.83,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#4a6785",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1899703565,
+      "type": "text",
+      "text": "Stylised diagram – the curves show trends, not exact figures",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-achse-preis",
+      "x": 95,
+      "y": 100,
+      "width": 40,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#37546d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 891532867,
+      "type": "text",
+      "text": "Price",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-achse-menge",
+      "x": 1085,
+      "y": 920,
+      "width": 55.54,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#37546d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1758200685,
+      "type": "text",
+      "text": "Quantity",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-angebot",
+      "x": 1048,
+      "y": 205,
+      "width": 68.88,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1551496675,
+      "type": "text",
+      "text": "Supply",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-nachfrage",
+      "x": 1048,
+      "y": 835,
+      "width": 83.27,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#2e6da4",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 951258573,
+      "type": "text",
+      "text": "Demand",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "caption-ueberschuss",
+      "x": 400,
+      "y": 315,
+      "width": 344.94,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#1e3a52",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 707215747,
+      "type": "text",
+      "text": "Surplus: Goods remain unsold (unsold stock)",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "caption-knappheit",
+      "x": 395,
+      "y": 738,
+      "width": 376.38,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#1e3a52",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1611254829,
+      "type": "text",
+      "text": "Shortage: Some miss out (queues)",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-preis-hoch",
+      "x": 150,
+      "y": 348,
+      "width": 75.43,
+      "height": 17.5,
+      "angle": 0,
+      "strokeColor": "#5c7080",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1466571043,
+      "type": "text",
+      "text": "Price too high",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-preis-tief",
+      "x": 150,
+      "y": 668,
+      "width": 66.87,
+      "height": 17.5,
+      "angle": 0,
+      "strokeColor": "#5c7080",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1052360333,
+      "type": "text",
+      "text": "Price too low",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-ggpreis",
+      "x": 150,
+      "y": 496,
+      "width": 130.63,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#c4410e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1907424451,
+      "type": "text",
+      "text": "Equilibrium price",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-ggmenge",
+      "x": 552,
+      "y": 920,
+      "width": 142.17,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#c4410e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2071749869,
+      "type": "text",
+      "text": "Equilibrium quantity",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-ggpunkt",
+      "x": 288,
+      "y": 598,
+      "width": 157.97,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#c4410e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1419406435,
+      "type": "text",
+      "text": "Equilibrium point:",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-ggpunkt-sub",
+      "x": 300,
+      "y": 628,
+      "width": 138.74,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 702234445,
+      "type": "text",
+      "text": "Supply = Demand",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The graphic ‘Price formation: Where supply and demand meet’ uses a stylised price–quantity diagram (vertical axis: price, horizontal axis: quantity) to show how supply and demand lead to a market price. The two curves from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]] are combined in one diagram here; they show trends, not exact figures. The blue demand curve slopes downwards from top left to bottom right, while the green supply curve slopes upwards from bottom left to top right. At their intersection is the equilibrium point, marked in orange, where supply and demand match. Dashed orange guide lines lead from this point to the equilibrium price on the price axis and the equilibrium quantity on the quantity axis. Key points: (1) If the price is above the equilibrium price (‘Price too high’), a surplus arises between the curves – goods remain unsold (unsold stock). (2) If the price is below the equilibrium price (‘Price too low’), there is a shortage – some people miss out (queues). (3) Only at the equilibrium point does the quantity supplied equal the quantity demanded – the price settles there and the market clears.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "When the price is wrong: surpluses and shortages",
+   "body": "What happens when the price is **not** at equilibrium? You know both situations from everyday life – and probably from your market game:\n\n**Price too high → surplus.** At the high price, suppliers want to sell a lot, but few people want to buy. The difference is left over as **unsold stock**. A typical example is winter coats in March. At the old price, hardly anyone still wants them – so shops attract customers with discounts in the sales. The discount is simply the price moving back towards equilibrium.\n\n**Price too low → shortage.** At the low price, lots of people want to buy, but supplying the good is hardly worthwhile – the quantity demanded far exceeds the quantity supplied. The consequences: **queues**, empty shelves, ‘sold out’. Remember the ticket puzzle from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]]? The concert tickets for 80 francs were gone in twenty minutes, and their resale price was several times higher. Now you can solve the puzzle: **the official price was below the equilibrium price.** Far more fans wanted a ticket than there were places – the shortage drove up the resale price.\n\n**Back to your market game – reflection questions:**\n\n- In which round did you observe a **surplus** – who could not sell their goods, and what did they then do to the price?\n- Where were there **shortages** – what sold out quickly, and how did the buyers react?\n- Did the prices **settle** at a particular level over the rounds? Compare this game price with the equilibrium point in the graphic."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Price formation and equilibrium",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren",
+    "wp.markt.marktkraefte-beschreiben"
+   ],
+   "intro": "Show what you know about market prices, surpluses and shortages. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What is the equilibrium price?",
+     "options": [
+      {
+       "text": "The price that suppliers would most like to charge."
+      },
+      {
+       "text": "The price at which the quantity supplied equals the quantity demanded.",
+       "correct": true
+      },
+      {
+       "text": "The price that the government sets for a market."
+      },
+      {
+       "text": "The lowest price at which a supplier can just about still sell."
+      }
+     ],
+     "explanation": "The equilibrium price is the price at the intersection of the supply and demand curves: this is exactly where the quantity supplied equals the quantity demanded – the market clears. Suppliers would like a higher price, buyers a lower one; in a free market, the government does not set the price, and the lowest possible selling price for an individual supplier is different from the price at which the two sides of the market match."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "At the weekly market, lots of apricots are left over at midday. The stallholder lowers the price. Why does this make sense in terms of the market?",
+     "options": [
+      {
+       "text": "Out of sympathy for customers who have paid too much so far."
+      },
+      {
+       "text": "Because apricots automatically taste better at a lower price."
+      },
+      {
+       "text": "Because she wants to drive the other stalls out of the market – prices have nothing to do with leftover quantities."
+      },
+      {
+       "text": "At the previous price, the quantity supplied was greater than the quantity demanded – at the lower price, the remaining goods can still find buyers.",
+       "correct": true
+      }
+     ],
+     "explanation": "Full crates at midday are a sign of a surplus: at the asking price, hardly anyone wanted to buy so many apricots. If the stallholder lowers the price, the quantity demanded rises (you know this from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]]) – the goods are sold instead of ending up in the bin that evening. This has nothing to do with sympathy or taste, and the price change responds directly to the quantity left unsold."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "What typically happens when a price is BELOW the equilibrium price?",
+     "options": [
+      {
+       "text": "The quantity demanded exceeds the quantity supplied – a shortage arises, with queues and empty shelves.",
+       "correct": true
+      },
+      {
+       "text": "Lots of goods remain unsold because nobody wants to buy so cheaply."
+      },
+      {
+       "text": "The market automatically clears because the price is low."
+      },
+      {
+       "text": "Demand falls to zero because people distrust the low price."
+      }
+     ],
+     "explanation": "A price that is too low attracts lots of buyers, while supplying the good is hardly worthwhile: the quantity demanded is greater than the quantity supplied – this is a shortage. Unsold goods would be the opposite (a surplus when the price is too high). The market clears only at the equilibrium price, and there is no market law saying that customers always distrust low prices."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Concert tickets for 80 francs sell out in twenty minutes and are then resold for several times that amount. What does this tell you about the official ticket price?",
+     "options": [
+      {
+       "text": "It was above the equilibrium price – that is why so many people wanted a ticket."
+      },
+      {
+       "text": "It was exactly at equilibrium, because all the tickets were sold."
+      },
+      {
+       "text": "It was below the equilibrium price – demand far exceeded supply.",
+       "correct": true
+      },
+      {
+       "text": "Price formation through supply and demand does not apply to concerts."
+      }
+     ],
+     "explanation": "Tickets selling out in a flash and then being resold at high prices are classic signs of a shortage: at the official price, far more fans wanted a ticket than there were places – so the price was below equilibrium. ‘All tickets sold’ does not mean equilibrium: the market would only have cleared if everyone willing to buy at that price had also got a ticket. And the fact that higher prices immediately emerge on the resale market shows that supply and demand are very much at work."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "What does the statement ‘The market clears’ mean?",
+     "options": [
+      {
+       "text": "At the equilibrium price, all the goods offered for sale are sold, and everyone who wants to buy at this price gets what they want.",
+       "correct": true
+      },
+      {
+       "text": "The shelves are empty because there is a severe shortage."
+      },
+      {
+       "text": "All suppliers have left the market."
+      },
+      {
+       "text": "Everyone has received the good, whether or not they wanted to pay for it."
+      }
+     ],
+     "explanation": "‘Clearing’ means that neither side has anything left over: nothing remains unsold, and nobody who wants to buy at the equilibrium price misses out. Empty shelves with queues, on the other hand, would mean a shortage (price too low). Anyone who finds the price too high is not part of the quantity demanded – so ‘clearing’ does not mean that everyone's needs are met."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "In March, a clothes shop sells its remaining winter coats at a 50 per cent discount. How does the market model explain this?",
+     "options": [
+      {
+       "text": "The coats have deteriorated over the winter, so they are worth less."
+      },
+      {
+       "text": "Demand for winter coats rises sharply in spring."
+      },
+      {
+       "text": "The government tells shops what sale prices to charge."
+      },
+      {
+       "text": "At the old price, there would be a surplus because demand has fallen – the discount moves the price towards a new equilibrium.",
+       "correct": true
+      }
+     ],
+     "explanation": "In spring, hardly anyone still wants a winter coat – demand has slumped. At the old price, the coats would remain as unsold stock (a surplus). The discount lowers the price far enough for the remaining goods to find buyers after all. The quality of the coats has not changed, and the shop itself sets its sale prices, not the government."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "How does the market price emerge in a market economy?",
+     "options": [
+      {
+       "text": "It depends solely on the cost of producing a product."
+      },
+      {
+       "text": "Through the interaction of many suppliers and buyers – nobody sets it alone.",
+       "correct": true
+      },
+      {
+       "text": "The government calculates it and tells shops what it is."
+      },
+      {
+       "text": "Buyers alone decide how much something may cost."
+      }
+     ],
+     "explanation": "The market price emerges from countless individual decisions by suppliers and buyers – like haggling, but with many people involved. Production costs do matter to suppliers (nobody sells below cost for long), but they do not determine the price on their own: without demand, even the most expensive production is of no use. Market prices do not result from government calculations, but from supply and demand – and buyers cannot dictate a price on their own either; both sides are always needed."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "In the market game, a seller charged a very high price – and was left with all her goods at the end. How do you explain this?",
+     "options": [
+      {
+       "text": "Her price was below the equilibrium price, so nobody wanted to buy."
+      },
+      {
+       "text": "The market was exactly in equilibrium at her price."
+      },
+      {
+       "text": "Her price was above the equilibrium price – buyers switched to cheaper suppliers.",
+       "correct": true
+      },
+      {
+       "text": "Pure chance – prices play no role in the market game."
+      }
+     ],
+     "explanation": "Anyone who charges much more than others experiences the surplus side of the market: demand shifts to cheaper suppliers, leaving their own goods unsold. A price BELOW equilibrium would have had the opposite effect (selling out quickly), and at equilibrium all the goods would have been sold. The unsold goods themselves disprove the idea that prices ‘play no role’ in the game."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-preisbildung",
+   "title": "Price formation: Fill in the terms",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a mobile: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "In a free market, nobody sets the price alone – it emerges from the interaction between the sellers' {{1}} and the buyers' {{2}}. If suppliers charge too much, some goods remain unsold – these goods are known as {{3}}: the result is a {{4}}, and suppliers have to {{5}} the price. If the price is too low, however, more people want to buy than there are goods available: the result is a {{6}}, queues form, and the price {{7}} again. The market therefore settles at the {{8}} – the price at which the quantity supplied equals the quantity demanded. We then say: the market is {{9}}. The quantity sold at this price is called the {{10}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "supply"
+     ]
+    },
+    {
+     "antworten": [
+      "demand"
+     ]
+    },
+    {
+     "antworten": [
+      "unsold stock",
+      "dead stock",
+      "slow-moving stock"
+     ]
+    },
+    {
+     "antworten": [
+      "surplus",
+      "supply surplus"
+     ]
+    },
+    {
+     "antworten": [
+      "lower",
+      "reduce",
+      "cut",
+      "decrease",
+      "bring down",
+      "drop"
+     ]
+    },
+    {
+     "antworten": [
+      "shortage"
+     ]
+    },
+    {
+     "antworten": [
+      "rises",
+      "increases",
+      "goes up",
+      "climbs"
+     ]
+    },
+    {
+     "antworten": [
+      "equilibrium price",
+      "market-clearing price",
+      "market clearing price"
+     ]
+    },
+    {
+     "antworten": [
+      "cleared"
+     ]
+    },
+    {
+     "antworten": [
+      "equilibrium quantity",
+      "market-clearing quantity",
+      "market clearing quantity"
+     ]
+    }
+   ],
+   "ablenker": [
+    "taxes",
+    "profit",
+    "productivity"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-marktreaktionen",
+   "title": "Market reactions: Type in the terms",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Upper and lower case do not matter.",
+   "modus": "eingabe",
+   "text": "When lots of goods remain unsold at the asking price, we call this {{1}}. In response, suppliers {{2}} the price. If a good sells out immediately and people are queuing, this indicates {{3}} – the price then usually {{4}} again. At the equilibrium price, the {{5}} supplied equals the quantity demanded.",
+   "luecken": [
+    {
+     "antworten": [
+      "a surplus",
+      "surplus",
+      "excess supply",
+      "oversupply",
+      "an oversupply",
+      "a supply surplus",
+      "supply surplus",
+      "an excess of supply"
+     ]
+    },
+    {
+     "antworten": [
+      "lower",
+      "reduce",
+      "cut",
+      "decrease",
+      "bring down",
+      "drop"
+     ]
+    },
+    {
+     "antworten": [
+      "a shortage",
+      "shortage",
+      "excess demand",
+      "scarcity",
+      "a scarcity",
+      "undersupply",
+      "an undersupply",
+      "a lack of supply",
+      "a shortfall",
+      "shortfall"
+     ]
+    },
+    {
+     "antworten": [
+      "rises",
+      "increases",
+      "goes up",
+      "climbs"
+     ]
+    },
+    {
+     "antworten": [
+      "quantity",
+      "amount",
+      "volume",
+      "number"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-marktlagen",
+   "title": "Match the situations: surplus, shortage or equilibrium?",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
+   "intro": "Match each situation to the correct market condition: **surplus**, **shortage** or **equilibrium**. Each time, ask yourself: are goods left unsold, do people miss out – or do things work out for both sides?",
+   "modus": "wortbank",
+   "text": "At the school fair's cake stall, 40 slices are left over at the asking price: {{1}}\nFans camp outside a shop for a new model of trainers; after an hour, everything is gone: {{2}}\nDay after day, the school kiosk sells almost exactly as many sandwiches as it prepares – with none left over and no queue: {{3}}\nConcert tickets sell out in twenty minutes, and many fans miss out: {{4}}\nIn March, winter coats can only be sold at a large discount: {{5}}\nA kiosk orders 200 football sticker albums – after the tournament final, hardly anyone wants them: {{6}}\nBy Saturday evening, everything at the vegetable stall has been sold, and nobody had to queue in vain: {{7}}\nDuring the winter sports holidays, all the hire skis in Malbun are gone early in the morning; guests arriving later cannot get any: {{8}}\nOver the course of the day, a flea market stall sells practically all its games at the marked price: {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "surplus",
+      "a surplus",
+      "excess supply",
+      "oversupply",
+      "an oversupply",
+      "supply surplus",
+      "a supply surplus"
+     ]
+    },
+    {
+     "antworten": [
+      "shortage",
+      "a shortage",
+      "excess demand",
+      "scarcity",
+      "a scarcity",
+      "undersupply",
+      "an undersupply"
+     ]
+    },
+    {
+     "antworten": [
+      "equilibrium",
+      "market equilibrium",
+      "balance",
+      "a balance"
+     ]
+    },
+    {
+     "antworten": [
+      "shortage",
+      "a shortage",
+      "excess demand",
+      "scarcity",
+      "a scarcity",
+      "undersupply",
+      "an undersupply"
+     ]
+    },
+    {
+     "antworten": [
+      "surplus",
+      "a surplus",
+      "excess supply",
+      "oversupply",
+      "an oversupply",
+      "supply surplus",
+      "a supply surplus"
+     ]
+    },
+    {
+     "antworten": [
+      "surplus",
+      "a surplus",
+      "excess supply",
+      "oversupply",
+      "an oversupply",
+      "supply surplus",
+      "a supply surplus"
+     ]
+    },
+    {
+     "antworten": [
+      "equilibrium",
+      "market equilibrium",
+      "balance",
+      "a balance"
+     ]
+    },
+    {
+     "antworten": [
+      "shortage",
+      "a shortage",
+      "excess demand",
+      "scarcity",
+      "a scarcity",
+      "undersupply",
+      "an undersupply"
+     ]
+    },
+    {
+     "antworten": [
+      "equilibrium",
+      "market equilibrium",
+      "balance",
+      "a balance"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: Your market game and the equilibrium price",
+   "teilkompetenzen": [
+    "wp.markt.preisbildung-erklaeren"
+   ],
+   "tasks": [
+    {
+     "prompt": "Review your classroom market game (if you have not played it yet, use a scene from a weekly market or flea market instead). Describe a round or scene in which a price was too high or too low: how could you tell? How did the suppliers and buyers react – and in which direction did the price then move? Use the terms surplus, shortage and equilibrium price.",
+     "hint": "Signs of a price that is too high: goods remain unsold, sellers advertise or lower the price. Signs of a price that is too low: goods sell out quickly, queues form, buyers are disappointed – and suppliers charge more next time. Describe both sides of the market, not just one.",
+     "solution": "A model solution depends on your game. A typical pattern: in the first rounds, some sellers ask for unrealistic prices and cannot sell their goods (a surplus) – they lower their prices. Others sell too cheaply and run out immediately (a shortage) – they raise their prices. After a few rounds, the deals converge on a price somewhere in between, at which almost all the goods change hands: this is the equilibrium price in your game market. What matters is that you describe the behaviour of both sides and explain the price movement as a response to it."
+    },
+    {
+     "prompt": "Explain in your own words – so that someone who has not studied this module could understand – why a market moves back towards equilibrium ‘on its own’ when a price is too high, and why the same happens when a price is too low. OR: Create your own quiz question about a surplus or shortage in the style of this module – with an everyday situation, one correct answer and three wrong answers based on common misconceptions.",
+     "hint": "For your explanation, use this chain: price too high → goods remain unsold → suppliers lower the price → quantity demanded rises. And the reverse: price too low → sold out/queues → suppliers raise the price and offer more. For the quiz question, choose a situation with a clear signal: full crates left over, special discounts, queues, ‘sold out’.",
+     "solution": "Key idea: when the price is too high, buyers put pressure on the market by holding back – the surplus forces suppliers to lower the price. When the price is too low, the reverse happens: the shortage shows suppliers that they could charge more – prices and quantities supplied rise. In both cases, the market corrects the price without a central instruction, solely through the behaviour of the two sides. Example quiz question: ‘At the school kiosk, the new energy bars sell out by 10 o'clock every day, and many people miss out. Which statement is correct? a) The price is below the equilibrium price (correct), b) The price is too high, c) The market clears, d) Demand is too low.’"
+    }
+   ]
+  }
+ ]
+}
