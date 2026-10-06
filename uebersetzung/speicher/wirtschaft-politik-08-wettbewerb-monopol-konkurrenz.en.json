@@ -1,0 +1,606 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:17f1a5fab198806c7c0ea82993b31fe8bd038fae57bb0b898692ee58d88db19c",
+   "text": "Competition: monopoly and competitive markets"
+  },
+  "description": {
+   "quelle": "sha256:3bd9b927bb29d30289f031cf6a06bf702460027e977658f77c0c65f6835f85a1",
+   "text": "Why is a day pass for the only ski lift in the valley so expensive, while a pizza delivered in the city is so cheap? Here you will learn what competition is good for, distinguish between monopoly, oligopoly and competition, and find out why price-fixing agreements (cartels) are banned."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:519873eacfdee2e3f64dd5f9d362d9c74bdad528a7a7fb7f50805f9b9843a316",
+   "text": "Topic block B: Markets and prices"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:84def6bbc2785b5d8fee03a2a5b5e2073a68de944c0fc97aa19e854fce9d0395",
+   "text": "competition"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:f298092dd249d90085f307d59f30e3dbe630afba44ec50f5b47568d48e1926b0",
+   "text": "rivalry"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:eb4ad583d47fc20681ae8979245663df52019722e465c8f8ad52c7cc5cab62a2",
+   "text": "monopoly"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:e77176911c61f353f85b7a2c1fe8a21d0454041195b334f5964715fe6708dc6f",
+   "text": "oligopoly"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:40279c02dad48fc7670a34474ea8c1c66886454bd46f8263c4e4e36e1f3bf954",
+   "text": "market structures"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:909349ac53bcae4d5e3abfea724f57be77103b5649eca0b4d3ac5ee3b4460392",
+   "text": "cartel"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:1fb4f3175765fae438f531b46f699ebaf8e479c3bcb7394f2d2be8d557a99490",
+   "text": "price fixing"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:389fdf62a9a9e5dae14ef0d435c006196e0b929ecff41031a495d57d78bb3d00",
+   "text": "innovation"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:eb718207ad941704a116e56bfc61e426de0fcf7fe5db566451e3e22fd106ae43",
+   "text": "quality"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:c3dbfd4e5033abe66c509d9ba6d353d0aff09cf3fb6d6c9afadb62d48bc84d46",
+   "text": "streaming services"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:a118f3e8ee677bd5ad09f1eccf0e4e65b74110f990da8c716aa1b9dfe19af6c6",
+   "text": "ski lift"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:28bafdf761b33aef8cd3cc0dcd42faba91aec9936548d8bae2b94f088492b7e1",
+   "text": "pizza delivery service"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:731138ea2b9b56a1479b7ee3b5f0ed13bc85306ac03c8f7278b0a57b3ed7ae94",
+   "text": "I can explain what competition is good for: it pushes prices down, improves quality and encourages new ideas (innovation)."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:1e37eaae98854938de418a65ed2b1e15a9d5a9543a6dc609165f3b8f65fbf125",
+   "text": "I can distinguish between monopoly and competition as opposite ends of a spectrum, place oligopoly between them and give an everyday example of each."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:2faa016cede105112f2766f843f6b5aa9f127a5763a93e12ad0e5129bbd93c77",
+   "text": "I can explain why price-fixing agreements (cartels) are banned: they eliminate competition and harm customers."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:d2f3c5c86b833306932d44d0e058ef19d342ab475458a256e885057f0f8ae76d",
+   "text": "One valley, one lift – one city, ten pizza delivery services"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:1f223f959fc2153be35da0a0955ae55d2ecb573197acd5ba2783ac14c64b7024",
+   "text": "Imagine a small winter sports valley where exactly **one** company operates the ski lifts. The day pass is expensive, the lifts are old, and on busy days you queue for ages – yet everyone still uses them. Why wouldn't they? There is **no other lift**.\n\nNow picture a city where **ten pizza delivery services** compete for orders. One advertises free delivery, another offers a family discount, and a third promises delivery in 30 minutes. Anyone who delivers cold pizza gets scathing reviews and loses customers.\n\nIn both cases, suppliers meet buyers and prices emerge – yet the markets could hardly be more different. The difference has a name: **competition**. In this module, you will find out what competition does for prices, quality and new ideas, what a **monopoly** and an **oligopoly** are, and why secret price-fixing agreements are banned.\n\n**Reflection question for this module:** When you or your family buy things, where do you have plenty of suppliers to choose from, and where is there almost no choice? Keep this question in mind. By the end of the module, you will be able to answer it using the economic terms you have learnt."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:e9b73e859f4fedfbdf50ac7b6ccc30d86feb1939afc501b2c7778664dda35d7a",
+   "text": "What competition is good for"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:1ddd8469bb6e2683e8017df79608494766f255519c768c17779e19d41e191609",
+   "text": "In [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]], you saw how the price in a market settles at a certain level. But this only works if buyers **can go elsewhere**: a supplier who charges too much loses customers to other suppliers. This rivalry between suppliers for customers is called **competition** – they are **competing** with one another.\n\nCompetition works in three ways:\n\n- **Lower prices:** No pizza delivery service can charge twice as much as the others – otherwise nobody would order from it. Suppliers undercut one another, and customers benefit.\n- **Better quality:** Where customers have a choice, they choose the better product. Cold pizza, unfriendly service, long waiting times – a supplier facing competition cannot afford any of these.\n- **Innovation:** Anyone who wants to stay one step ahead of their competitors has to come up with ideas: an ordering app, new products or faster delivery. Many things you use every day came about because of exactly this pressure.\n\nIn short: **competition is the driving force that makes suppliers offer things that benefit customers.** They do not do this out of kindness – the market forces them to. And that is exactly why a lack of competition is a problem."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:7de932512a5c025083ff5c6f0f6741ce81dd6dc8c0294a83cdeb723f72f3f093",
+   "text": "Monopoly: when one supplier dominates the market"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:fa1b56d6e0f7d3113b099f3e5ee8361aceef9c94fed2d3cbd953b59d86850a41",
+   "text": "A market with **just one supplier** is called a **monopoly** (from the Greek for ‘selling alone’). Buyers have no choice: buy from that supplier or go without.\n\nBack in the ski valley, the only lift operator does not have to worry about competition. If it raises prices, winter sports enthusiasts cannot switch to the ‘other lift’ – there isn't one. There is also little pressure to invest in new lifts or better service. This is the typical drawback of a monopoly: **higher prices, lower quality and fewer new ideas.**\n\nA few points to keep in mind:\n\n- A monopoly does not always arise from bad intentions. Sometimes the market is simply **too small for two suppliers** – a second ski lift in the same small valley would never pay for itself. The snack bar at an outdoor swimming pool has its own small monopoly too: it is the only place inside the pool grounds selling ice cream and drinks.\n- **Being big is not the same as having a monopoly.** A large company with plenty of rivals still faces competition. What matters is whether customers **can go elsewhere**.\n- The state takes a closer look at particularly important monopolies, such as electricity or water networks. Whether and how it should intervene in prices is a matter of political debate, and the topic of [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:cff2f000fe45dde6134745779fa33446b21d5dd30ae2729c7a30e5a2362df916",
+   "text": "Video: market structures explained simply"
+  },
+  "blocks[3].description": {
+   "quelle": "sha256:feeeb40d86d1a255da427720011724feb6baa1732d77de07212767a07e33c77e",
+   "text": "This explainer video (3:43) from the channel Die Merkhilfe Wirtschaft provides a systematic overview of market structures. As you watch, focus on two questions: (1) What feature is used to distinguish market structures – what is counted? (2) What danger does the video identify in an oligopoly, and how does it fit with what you have learnt in this module about agreements between suppliers? Note: for a market with many suppliers, the video uses the German economic term ‘Polypol’. This is the market structure we call ‘(perfect) competition’ in this module."
+  },
+  "blocks[3].transcript": {
+   "quelle": "sha256:b33cf229336f7e6c58faa2a75fea4b3c8337696a744987cfe4f6bffb6333dd4f",
+   "text": "The explainer video ‘Marktformen & Marktarten – Monopol, Oligopol und Polypol einfach erklärt’ (Die Merkhilfe Wirtschaft, 3:43 minutes) distinguishes market structures by the number of suppliers. In a monopoly, there is only one supplier, who can largely dictate the price. In an oligopoly, a few large suppliers share the market; here, the video highlights the serious risk of cartels forming, meaning illegal agreements between suppliers. In a market with many competing suppliers (called a ‘Polypol’ in German), no single supplier can determine the price alone. The video therefore covers exactly the three market structures in this module: monopoly, oligopoly and (perfect) competition."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:e9d15b34bb066b65085f85918df3d46bfa91ef607e639b1e0bde1392b689fb41",
+   "text": "Comparing monopoly and competition"
+  },
+  "blocks[4].szene.elemente[2].text": {
+   "quelle": "sha256:44b99c064aaa6d8a1dc9358a30da72483805bcecaa7461379ef5f9edf49d0d52",
+   "text": "Markets: monopoly and competition"
+  },
+  "blocks[4].szene.elemente[3].text": {
+   "quelle": "sha256:a19adee04ee341dcbc945b489d1bf9b6cab9a70fc3022dd2102b8ea5a1a1e9bd",
+   "text": "Who supplies – and how much choice do buyers have?"
+  },
+  "blocks[4].szene.elemente[4].text": {
+   "quelle": "sha256:eb4ad583d47fc20681ae8979245663df52019722e465c8f8ad52c7cc5cab62a2",
+   "text": "Monopoly"
+  },
+  "blocks[4].szene.elemente[5].text": {
+   "quelle": "sha256:8f232a4cee0ee516e704ce43ebab5346ed57d8a669d54011605d1461dacf3b4d",
+   "text": "1 supplier – many buyers"
+  },
+  "blocks[4].szene.elemente[17].text": {
+   "quelle": "sha256:330b213f72d6a1368ffee1168890b9a3d0e3fe0b6970ede6bedae58e773cf90b",
+   "text": "many buyers"
+  },
+  "blocks[4].szene.elemente[18].text": {
+   "quelle": "sha256:69712815b0607131f88e165d3f70aea58f33f1e3d999d06fe6bd7aa69c72dc93",
+   "text": "• little choice for customers\n• supplier has strong control over price\n• little pressure to improve or cut prices"
+  },
+  "blocks[4].szene.elemente[19].text": {
+   "quelle": "sha256:f298092dd249d90085f307d59f30e3dbe630afba44ec50f5b47568d48e1926b0",
+   "text": "Competition"
+  },
+  "blocks[4].szene.elemente[20].text": {
+   "quelle": "sha256:3b4404af25127649040976dbdcfb05f686158ef75a020e72259eff021074e03c",
+   "text": "many suppliers – many buyers"
+  },
+  "blocks[4].szene.elemente[25].text": {
+   "quelle": "sha256:abf72cb0647588a1d52bcdd0a66c4102618f8e7d4e6e1feb0c187b1e0532f4f6",
+   "text": "many suppliers – e.g. pizza delivery services"
+  },
+  "blocks[4].szene.elemente[39].text": {
+   "quelle": "sha256:330b213f72d6a1368ffee1168890b9a3d0e3fe0b6970ede6bedae58e773cf90b",
+   "text": "many buyers"
+  },
+  "blocks[4].szene.elemente[40].text": {
+   "quelle": "sha256:8cb6114a492d5cfea7d8071093e9be43793137a4e61e8273ef5203f42c971725",
+   "text": "• Choice: charge too much, lose customers\n• Pressure for low prices and good quality\n• Incentive for new ideas (innovation)"
+  },
+  "blocks[4].szene.elemente[42].text": {
+   "quelle": "sha256:13fe248e62253e0f9a9b170eae7b159abae1a21f15eea567f6deae7ca73b50f8",
+   "text": "Supplier\nthe valley's only ski lift"
+  },
+  "blocks[4].szene.elemente[43].text": {
+   "quelle": "sha256:20180e188e16a35d7dfc8bbfd981e6a400645b77799dbe72e1f29158a74cd813",
+   "text": "In between: oligopoly. A few large suppliers share the market –\nfor example, the major streaming services."
+  },
+  "blocks[4].beschreibung": {
+   "quelle": "sha256:c52c6dea6df382b651f409f69d651b54cdee7127f1cf48d0561a9879559805ac",
+   "text": "The illustration compares monopoly and competition as market structures, with oligopoly between them. Its guiding question is: who supplies, and how much choice do buyers have? In the monopoly (left), all demand depends on a single supplier – in this example, the valley's only ski lift – with lines leading from it to many buyers. In competition (right), many suppliers, such as pizza delivery services, face many buyers. The crossing connections show that each customer can buy from any supplier. Green represents the supply side and blue the demand side, using the same colour scheme as in [[modul:wirtschaft-politik-06-angebot-und-nachfrage]] and [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]. Key points: (1) Monopoly (1 supplier – many buyers): little choice for customers; the supplier has strong control over the price; little pressure to improve or cut prices. (2) Competition (many suppliers – many buyers): choice – suppliers who charge too much lose customers; pressure for low prices and good quality; an incentive for new ideas (innovation). (3) Oligopoly lies between them: a few large suppliers share the market, for example the major streaming services."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:7a82768b296e583d09d5ee6fcb8173b733476a796805c0a755d2b933b110d4f9",
+   "text": "Oligopoly and illegal agreements: the cartel"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:ca5438077f2a1f7ac9f0e6be2f98e64f3032248f4cde8f75a93e5bccadcc4045",
+   "text": "Between the two extremes of monopoly and competition lies **oligopoly**: **a few large suppliers** share the market. You know this from the major **streaming services** – a handful of platforms cover almost the entire market for films and series. The picture is similar for mobile network operators and sportswear giants.\n\nThere is competition in an oligopoly, but it is fragile. A small number of suppliers can easily **collude**: ‘Let's all charge the same high price, so none of us has to undercut the others.’ A secret agreement of this kind about prices or dividing up the market is called a **cartel**.\n\nThis is convenient for the companies involved, but harmful to everyone else: together, the suppliers act **like a single monopoly**. Customers pay too much, and the pressure to improve quality and develop new ideas disappears, even though there seem to be several suppliers. **That is why cartels are banned.** In Switzerland, the Wettbewerbskommission (WEKO) oversees competition and can impose heavy fines on companies that break the rules. Comparable competition rules apply in Liechtenstein through the European Economic Area (EEA).\n\nRemember the difference: an **oligopoly** is a market structure and is legal. A **cartel** is illegal behaviour – suppliers only pretend to compete."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:8f21d3c7cc843f45be31bd1a6a4ddc563adeab3285d608f7b347dfe3f9694ade",
+   "text": "Quiz: competition and market structures"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:a97c426d6bbc168ee41dcb558275736d2196f6f82eae7df7bc096554a622507c",
+   "text": "Show what you know about competition, monopoly, oligopoly and cartels. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:dc0e8ab0daf7e9fbc091715f656e6c3e0cd47d6904e5f86c6303f4a7d15e17ca",
+   "text": "What is competition between suppliers good for?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:6e8e774b6a791fe4859e73acdccc9e0992fffe89385d0b80c3440c6066eb1eb7",
+   "text": "It guarantees every company a reliable profit."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:2c96daf63bbb314e2b888641405ee81d9d2b7883b307a587e595f75222750214",
+   "text": "It ensures that suppliers agree on common prices."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:85a53f417b5801a543e7ad3b473f2126b20c5ce0ef42a78106f91cb23ecc0163",
+   "text": "It only benefits suppliers, not customers."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:a13e6e59119479b8ec9f528ab33a840acd602fdbbd1e98e07cf74af6f14459ce",
+   "text": "It forces suppliers to compete for customers through lower prices, better quality and new ideas."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:703f109fc1c5f80f3e1292bcfe64e5e02b3c8e522e61bd8e4acff3d6755bd5c9",
+   "text": "Competition is the rivalry between suppliers for customers: those who charge too much or offer poor quality lose customers to their rivals. Customers benefit most, through prices, quality and innovation. Competition certainly does not guarantee profits. Agreements on prices between suppliers are the opposite of what competition is meant to achieve. Prices may become similar through competition ([[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]), but suppliers must not agree to make this happen – that would be a cartel."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:614bcae784435e9629b1e32c3063e14a1d3893a8968f5aa3b0eb80cdb21d9b0f",
+   "text": "What is a monopoly?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:8a3c1a46088340589d897e0a24d6882bc4b512a7635ac32f644437616fb4875c",
+   "text": "A market with very many small suppliers."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:609661bc9632c359184cbee9a1e691a6a6ff8a783c67f97c8047ec6a69e31e34",
+   "text": "A market with only one supplier, on whom many buyers depend."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:97d4c0daed2d3ab981b41fafcd9c2969ee5bb16cbd46493b275a28436854e74a",
+   "text": "Another word for a particularly large company."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:6c298fed786c69d11965500a421f771fd8113e2c5d14191c275c215ee4de1e33",
+   "text": "A business that charges particularly low prices."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:cf07487bc5810d7028bb56c22ec486244fa066b9e5d38bbdb1b65b387da783f2",
+   "text": "Monopoly means a single supplier, with no alternative for buyers. Many small suppliers would be the opposite: competition. Watch out for the most common misconception: being big is not the same as having a monopoly. A large company with rivals still faces competition. What matters is whether customers can go elsewhere. Low prices are not typical of monopolies."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:aef6aee37d298ba721beb4feefcdb6b04ecb3fee756712078d7b9a94df21591e",
+   "text": "Why can the only ski lift operator in a valley charge relatively high prices?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:b42cac07d2206ae6548801b7aeb63f3ba70c3682ed27d7f8468c859754bcbc4b",
+   "text": "Because skiing is a basic survival need that everyone must meet."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:be22e3b8f93554bc8fe238562d6cb91cac6908986d81cba13c4f8b83f355283b",
+   "text": "Because the state requires it to charge high prices."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:1b6a1af1fc1b5a963261c2fa59c3d38674deb5968e0aa01c7e901e053e985ac1",
+   "text": "Because winter sports enthusiasts in the valley cannot switch to another supplier."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:ea5b28881e615f527010aa8974301a0841c683d5837d9f2b3f43480148360330",
+   "text": "Because its costs are automatically higher than those of other ski resorts."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:43862b997714667a401f7cddc328b3b295eec4e12f634d36a91ee0b40ef03c00",
+   "text": "The lift operator has a monopoly: anyone who wants to ski in the valley has to use its lifts. This lack of an alternative is exactly what gives it power over the price. Skiing is a leisure activity, not a basic survival need. The state does not set its prices, and its monopoly position tells us nothing about its costs."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:3447fdc0a1322f0601add892e83abf00f9454aed953665f4b1b489d487e14a3d",
+   "text": "What is an oligopoly?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:5b4ff0ce82d8ac04b710714dd456947f7df4f80f70e4ff43aac25d28a3fae5bc",
+   "text": "A market shared by a few large suppliers, such as the major streaming services."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:756d6cb40d4cf96bd77f8512e3b39c3ce2a5914be327a75d04f516a9d3641473",
+   "text": "A market with a single supplier."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:8a3c1a46088340589d897e0a24d6882bc4b512a7635ac32f644437616fb4875c",
+   "text": "A market with very many small suppliers."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:6fb86468efd9c9f2bace1d5a757364c1594523bce948934f664d40621af7fe6f",
+   "text": "An illegal price-fixing agreement between companies."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:405239e6335aa306b680880edfa7ec5f962dc8771107bc9b513963b069726a6c",
+   "text": "Oligopoly is the structure in between: a few large suppliers share the market, as with the major streaming services. A single supplier would mean a monopoly; very many suppliers would mean competition. An illegal price-fixing agreement is called a cartel – it is behaviour, not a market structure."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:7f14b6b07b44125a75c6d6ac6e78f6df25ac7d9f2623abbba5ab17deba03386d",
+   "text": "Why are cartels (price-fixing agreements) banned?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:3330511e4938994825c1a6b7c535883f7006e4d6176ce0bd31db53deaa7b3e39",
+   "text": "Because competing companies are never allowed to meet."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:08d56fcf7468e8364ee623655a395d479b39e40ca27852f04316ab2a90e48cea",
+   "text": "Because agreed prices are always too low and ruin the companies."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:8f363f77654ae417aaf6685e1846c38a12bb46ec2271d93e05fb8d5c8535d9fb",
+   "text": "Because they eliminate competition: together, suppliers act like a monopoly, and customers pay too much."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:50320169ae38caf28e5edec0bef5d42994e277261714c5db689e7c57df905132",
+   "text": "Because the state would prefer to set all prices itself."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:38f3536ec26e5c9673d83bf4b8df84550e1591da4f64796ace3a1fba41abeb7f",
+   "text": "A cartel undermines competition: suppliers only pretend to compete. In fact, they jointly keep prices high, like a monopoly. Customers pay too much, while quality and innovation suffer. Meetings between companies are not generally banned, and prices agreed through collusion are typically too high, not too low. The ban on cartels does not mean the state wants to set prices itself: its purpose is to protect the competition through which prices are formed."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:931f836d7f2564aff1aa9d44cf0254a21a3eceabde3a3a7528a6dd53e697bcc3",
+   "text": "Many pizza delivery services operate in a city. One suddenly charges much more than all the others, for the same quality. What typically happens?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:9a81723a104dafda2c27e5d43af7366e082149dc619cabf69e6e06b027eed38b",
+   "text": "Customers order from its competitors. It must offer better prices or service, or it will go out of business."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:afc61bf9d46a256cf34feb86281acad90e770868f22cde7550c55f632d78b506",
+   "text": "Nothing – nobody pays attention to the price of food deliveries."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:dd33b9f1aac3a61dd1188dcff3b033844c34f294978ec42590a5766a057430be",
+   "text": "The other delivery services automatically have to raise their prices too."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:ac5953d668d15eeb0d2e28bb2d02cd6c264e768ec9722ce9bba463f7e9105df0",
+   "text": "The state bans it from charging the high price."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:1f08d79c31f8d961df767cad11d0782e95f5a5f8079db4db655c060085c0b578",
+   "text": "When there is competition, customers can go elsewhere, and that is exactly what they do: they order where they get good value for money. The expensive supplier must improve its offer or leave the market. The other suppliers certainly do not have to follow its lead – they are gaining customers. A functioning competitive market does not need state intervention here either: charging too much brings its own penalty."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:386093f51028f15b0aaeb2a7bf230c61f9d27c2c9f5e416a353351253d5e1fe6",
+   "text": "A handful of major streaming services cover almost the entire market for films and series. What market structure is this?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:e870118489da769dd0290d64bc0f04fd95fb56828f00d089bd547f8a1c9e518a",
+   "text": "A monopoly – after all, there are only a few suppliers."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:86da34f7a31c72027d4dc35a08d2103ca0ca9d39e60609a269ac659eae293afe",
+   "text": "An oligopoly – a few large suppliers share the market."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:65facf1e6c44070622ca33771c76a33eb725cb9923674d147b8b7a27ae2f137b",
+   "text": "Perfect competition – after all, anyone can stream."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:b76493b20812d9bab358b727361a20660ba61591820a1a24cd8da192b2565aab",
+   "text": "A cartel – large suppliers always collude."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:ff6105c002b1b4c7b7812602c0d5a673921e894dba9ab90a5bd0499e430d6a0e",
+   "text": "A few large suppliers sharing a market: that is the definition of an oligopoly. A monopoly would require a SINGLE supplier. Perfect competition would require many suppliers. A cartel is an illegal agreement, not a market structure. Just because a market is an oligopoly does not mean that its suppliers are colluding."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:692ef9cc428ef9aa4b6804db98c0eba553aa0c2fad85fb07227c36b88b36f804",
+   "text": "In a market with many suppliers, all but one gradually give up. What typically happens?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:6b1358b4e54454ccdeb3684ff62f65dd89c2ad5cd5a915834813af8757f4b1ed",
+   "text": "Prices fall because the remaining supplier can now buy larger quantities more cheaply."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:052e7f6ea70078a11a35f1538dc43f929edf3862d3351294852cea7d97851a7d",
+   "text": "Nothing changes for customers – all that matters is that there is a supplier at all."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:9e427e5f0225fa3968fdd2cbdfc866c77427429bd2b8a1b093c7e7bf58b5a8f2",
+   "text": "Quality automatically improves because the supplier can now focus entirely on its product."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:160635ac025c186058630a520fca8633858abf5229f45cd498bc6a809d843b09",
+   "text": "Prices tend to rise, and the pressure to improve quality and innovate falls – there is no competition."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:bc1c624825d12428bebdeb116b5b2875f35c1c0421f22e0faf6bc4b3fc14da87",
+   "text": "Competition turns into a monopoly: customers can no longer go elsewhere, and the supplier no longer has to match its rivals on price or quality. Prices tend to rise, and the pressure to innovate falls. Buying in larger quantities might reduce its costs, but without competition it has little reason to pass this benefit on through lower prices."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:10e79f5d076b6dca0586f9676779fe42d18d7a7f8c83430a0f92b3804ed5c64d",
+   "text": "Competition and market structures: fill in the terms"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:454d8996ee76d3e92a85bab3e710deb8d3471f2557b90f524a135211c5311384",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:03e50e9d17390ef0e1715f2e44247d0d4ea1c5b4d7376481bdc8510870e72f46",
+   "text": "Market power: type in the terms"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "This time there is no word bank – **type in the missing terms yourself**. Capitalisation does not matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:5bf608b5744062f8c6b2cb4db5b6f61315bc952e17f1a514c4595680b9126ece",
+   "text": "Classify the examples: monopoly, oligopoly or competition?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:780402323e468264da46368c1ee00c7016023e806faeab6d120115499ba2f0cd",
+   "text": "Match each situation to the correct market structure: **monopoly**, **oligopoly** or **competition**. Ask yourself each time: how many suppliers are there – one, a few large ones or many?"
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:53971a089a9f18b919041615f159f364b336c819b22b4d0169f1f1041c3561ae",
+   "text": "Explore further: competition in your region"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:07facba15f75e73163e9510dab85ce1a7d678ed6d9c5bd39837d3f68e5fb656c",
+   "text": "Market structure check: find an example in your municipality or region of a market with plenty of competition, and one with little or no competition. For each, describe: (1) How many suppliers are there? (2) How does this affect prices, quality and service – what do you actually observe? (3) What would need to happen for the market with little competition to become more competitive, and why might this not happen?"
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:399d4d0e8fe1169812584de329a9ae64f3f938b4b9fa5f70224f808e8cbbadc9",
+   "text": "Think about your everyday life: where can you choose between several suppliers (shops, takeaways, hairdressers, online shops), and where is there only one (a bus service, a mountain lift, the electricity network, the only bakery in the village)? For part 3, ask yourself: why might a second supplier not be viable here?"
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:55252ef893e6ce12b7dccf7068422a7aee5e31b6abe7a359703e238fb7063c1a",
+   "text": "Example answer: takeaways and online shops face plenty of competition – there are several suppliers with comparable prices, and those who provide poor service lose customers. The region's only mountain lift, for example, faces little competition: there is no alternative, prices are high and investment is slow. A second supplier would create more competition, but one is unlikely to enter because the market is too small and building a second lift would be far too expensive. The key is to link the number of suppliers to their behaviour (prices, quality and innovation)."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:f7cade091d52c7fa82caeb083a07354d2decad9fb7344d06b447a9a2ef217ba1",
+   "text": "Explain in your own words why a cartel is attractive to the suppliers involved but harmful to customers, so that someone who has not studied this module could understand it. Use an example of your own choice (not streaming services). OR: invent one situation each for monopoly, oligopoly and competition, in the style of the classification exercise, with a brief explanation of why each situation fits that market structure."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:2731362da1def4d799094cd7f3d9d17587ba92dd06ac12e219b23a474cac4bd6",
+   "text": "For the cartel explanation, follow this chain: agreement → nobody undercuts anyone else → prices stay artificially high → customers cannot go elsewhere, even though there are several suppliers. For your own situations, simply count the suppliers: one, a few large ones or many?"
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:2cf2f7eeaf61d8b0f9a7c98bf2d1d9e972f82f6d9c9d00fae62839ae1e3342b7",
+   "text": "Key idea: in a cartel, suppliers voluntarily stop competing. Each keeps its customers and collects the high, agreed price without having to offer better service. Customers appear to have several suppliers to choose from, but in reality they no longer have a real choice: the same inflated price applies everywhere, and there is no incentive to improve quality or develop new ideas. For example, if all the driving schools in a region agree on a minimum price per lesson, all learner drivers pay too much – that is why such agreements are banned. For your own situations, what counts is a clear explanation based on the number of suppliers."
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:d6f1bd1028ac5517ffc686600403cc4cd5b01be916873da98f155e2dd2ddc351",
+   "inhalt": {
+    "text": "In most markets, several suppliers compete for customers – this rivalry is called {{1}}. It leads to lower {{2}}, better {{3}} and a steady stream of new products and ideas, known as {{4}}. A market with only one supplier is called a {{5}}: customers cannot {{6}} to other suppliers. If a few large suppliers share the market, this intermediate structure is called an {{7}}. When many suppliers compete, we speak of {{8}}. If suppliers secretly agree on prices, they form a {{9}} – such agreements eliminate competition and are therefore {{10}}.",
+    "luecken": [
+     [
+      "competition",
+      "market competition",
+      "competitive rivalry",
+      "rivalry"
+     ],
+     [
+      "prices"
+     ],
+     [
+      "quality",
+      "product quality"
+     ],
+     [
+      "innovations",
+      "innovation"
+     ],
+     [
+      "monopoly"
+     ],
+     [
+      "switch",
+      "turn",
+      "go",
+      "move",
+      "change"
+     ],
+     [
+      "oligopoly"
+     ],
+     [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive rivalry",
+      "rivalry"
+     ],
+     [
+      "cartel"
+     ],
+     [
+      "banned",
+      "illegal",
+      "prohibited",
+      "forbidden",
+      "unlawful",
+      "not allowed",
+      "outlawed"
+     ]
+    ],
+    "ablenker": [
+     "equilibrium",
+     "demand",
+     "taxes"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:1d5cd5069f0f8ad23e09d25e19ba4544e0b8e0e249d4350a9e1b2a8426d43c65",
+   "inhalt": {
+    "text": "The only ski lift operator in a valley has {{1}}. Because visitors cannot {{2}} to another lift, it can charge relatively high {{3}}. When a few large suppliers, such as streaming services, share a market, this is called {{4}}. If suppliers secretly agree on prices, they form {{5}}, which is illegal.",
+    "luecken": [
+     [
+      "a monopoly",
+      "monopoly",
+      "the monopoly"
+     ],
+     [
+      "switch",
+      "go",
+      "turn",
+      "move",
+      "change",
+      "travel",
+      "transfer",
+      "switch over",
+      "move over",
+      "change over"
+     ],
+     [
+      "prices",
+      "fees",
+      "charges",
+      "fares",
+      "rates"
+     ],
+     [
+      "an oligopoly",
+      "oligopoly",
+      "the oligopoly"
+     ],
+     [
+      "a cartel",
+      "cartel",
+      "the cartel"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:4a19e8ef4a4120d560d9e4d093f3bc7ff8f1aa61b7b13df67cf699d973766d68",
+   "inhalt": {
+    "text": "The only ski lift operator in a small winter sports valley: {{1}}\nMany pizza delivery services operate in the same city: {{2}}\nThree major streaming services cover almost the entire market for series: {{3}}\nDozens of hairdressing salons compete for customers in the region: {{4}}\nOnly one company operates the municipality's electricity network: {{5}}\nA small number of large mobile network operators share the national market: {{6}}\nMany market stalls sell vegetables in the same square on Saturdays: {{7}}\nThe only snack bar at the outdoor swimming pool sells ice cream and drinks: {{8}}\nA handful of large sportswear manufacturers dominate the market for trainers: {{9}}",
+    "luecken": [
+     [
+      "monopoly",
+      "a monopoly",
+      "the monopoly"
+     ],
+     [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive market",
+      "a competitive market",
+      "rivalry"
+     ],
+     [
+      "oligopoly",
+      "an oligopoly",
+      "the oligopoly"
+     ],
+     [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive market",
+      "a competitive market",
+      "rivalry"
+     ],
+     [
+      "monopoly",
+      "a monopoly",
+      "the monopoly"
+     ],
+     [
+      "oligopoly",
+      "an oligopoly",
+      "the oligopoly"
+     ],
+     [
+      "competition",
+      "perfect competition",
+      "market competition",
+      "competitive market",
+      "a competitive market",
+      "rivalry"
+     ],
+     [
+      "monopoly",
+      "a monopoly",
+      "the monopoly"
+     ],
+     [
+      "oligopoly",
+      "an oligopoly",
+      "the oligopoly"
+     ]
+    ]
+   }
+  }
+ }
+}
