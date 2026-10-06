@@ -1,0 +1,697 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:4d11c1f70af7e3758d78d7ac381f416cba7958a39123bc3715ed101a3a8fd927",
+   "text": "Supply and demand"
+  },
+  "description": {
+   "quelle": "sha256:5e1cf649c9b70829b848cb56a0e68cd5dbd7f6b63a1be8f848ef04fa930cc703",
+   "text": "Why do fans suddenly pay twice as much for tickets to a sold-out concert – and why do strawberries cost more in winter than in summer? Here you will get to know the two forces of the market: demand from buyers and supply from sellers. You will discover how both sides respond to price – and which other factors affect them."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:519873eacfdee2e3f64dd5f9d362d9c74bdad528a7a7fb7f50805f9b9843a316",
+   "text": "Topic block B: Markets and prices"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:e45e09e0dd892196dc6f7fb7a84c6028183d0a1ce94459f97e0475629b65254f",
+   "text": "market"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:ca46dae1a47abc7fcd91974ec56db626bf0d10ca4ab151629b14b07b1e9ed07b",
+   "text": "supply"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:2d9c9e8fbef2b98bb3989dc751abbab675fd0f9a2dd917af5155a13085467162",
+   "text": "demand"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:9883291e666c677170c9ec515026b80bd090db7dce30c8d52cde51ff01ddc79a",
+   "text": "price"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:83e8e6e40678600bdfef70c171ae1d7346232a81838ac634fcf6b71313058a64",
+   "text": "buyers"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:9080a78b3e99c70f4dc8a04235946860de5fcf6a64e1fc95190a22b7c4e191a4",
+   "text": "suppliers"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:66d941fb2cc52eb2ec51ddbbfe890fb3a5b75553ee8803f9c4beaf5e59a887f4",
+   "text": "demand curve"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:bf30ff537ea1a71e39b36611192a24ca185c839c57d52678c42797fd5e880a72",
+   "text": "supply curve"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:e856c6c6a48b24f225d569d921795cab76e2cb782cc0517462a1c704bc9b0daf",
+   "text": "trends"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:8099bc894b7dc013a1b03b02bff4d03bbe828841493821707859e923a9fef311",
+   "text": "income"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:ec2e7ff8acc9321d8b7954a001e254bbeca922d5a3c846c233a14289d898f797",
+   "text": "season"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:88285b08924a32c2aa62c67297dfaf12a89d22ee240fe72a5dec1fe379d692ae",
+   "text": "concert tickets"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:92c3520e9cea6a06cd1b7c3a39f8cde1f762771fb1777a5061527516ae6f0c9f",
+   "text": "trainers"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:de8652e16c0da034010095c4af5a50b437257672dfdfffee7225c14ca0fdd3e3",
+   "text": "I can describe how demand behaves: when the price rises, the quantity demanded usually falls – and when the price falls, it rises."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:2e47d727c02ab8272ad5dcbb27320122367da317a1e315046f8332af308a5de6",
+   "text": "I can describe how supply behaves: when the price rises, more is supplied because producing and selling the product becomes more worthwhile."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:132cb00986451eea8d2d0c6848448aec8768cc5ed2b52abdc35302549c9bb633",
+   "text": "I can name factors other than price – trends, income, the season and the number of suppliers – and use everyday examples to explain how they change demand or supply."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:4148e882c59526a1e7cfa752ec2cfccd279cfb6bd2600806a0c78ca046ae261b",
+   "text": "The ticket puzzle"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:0ddfb25039632e57ddcf77cec8c92b6be939bc126e41d15e11ac07f1036127ab",
+   "text": "Your favourite band announces a concert in Zürich. Tickets cost 80 francs – and sell out in twenty minutes. Two days later, the same tickets are being resold online for 200 francs. And some people are paying that much.\n\nSomething similar happens with **limited-edition trainers**: a manufacturer releases just a few thousand pairs of one model, and on the very first day they are already being resold at sky-high prices. At the other extreme, some products are wanted by hardly anyone – they sit on the shelves for ages and eventually end up in the sale with discount stickers on them.\n\nWho actually decides what something costs? The surprising answer: in a market economy, it is usually **no single person**. Behind prices are two forces that are constantly at work – **demand** from buyers and **supply** from sellers. In this module, you will get to know each force separately. How they work together to determine a price is the subject of [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]].\n\n**Reflection question for this module:** Where have you been a buyer this week – and who was on the supply side? Keep the question in mind: by the end of the module, you will find it easy to answer."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:67611669a0c61ca29f332c9fb663338195cc48a80ab6eeeb6d2787fe29545830",
+   "text": "Demand: the buyers' side"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:b04803611a24e20634c48f979cc2293482dafb7d8e89ba64f65ef747be325b60",
+   "text": "In [[modul:wirtschaft-politik-01-was-ist-wirtschaft]], you learnt about **needs and wants** – from the basic need for food to wanting a new mobile phone. In the market, these become **demand**: wanting a good **plus** having the money and being willing to pay for it. Simply wanting something is not enough – if you neither have nor want to spend 5000 francs on an e-bike, you do not create demand for it.\n\nThe **quantity demanded** depends heavily on the price. Imagine the ice cream stand at an outdoor swimming pool: if a scoop costs 2 francs, lots of people treat themselves to two. If it suddenly costs 6 francs, most people think twice – some go without, while others switch to buying their ice cream at the supermarket next door.\n\nThis gives us the most important rule on the demand side:\n\n- **When the price rises, the quantity demanded falls.**\n- **When the price falls, the quantity demanded rises.**\n\nEconomists draw this as a **downward-sloping curve**: at the top left (high price), few people buy; at the bottom right (low price), many people buy. You will find it in blue in the chart below.\n\nBack to the ticket puzzle: at 80 francs, far more fans wanted a ticket than there were places available. Even at 200 francs, enough fans are still willing to pay – demand for this concert is huge."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:a745fea61fea397f4693fbe153789725f7981a601f350e9ea28439a3461019b2",
+   "text": "Supply: the sellers' side"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:4f0cd07662c766b35087cc6acd9fbc5c6eaeac63896314abbf350fb0ebedca11",
+   "text": "On the other side of the market are the **suppliers** – usually businesses, like those you met in [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]]: the bakery, the trainer manufacturer, the concert organiser. **Supply** is the quantity of a good that they want to produce and sell at a particular price.\n\nSuppliers also respond to price – but in **exactly the opposite way** to buyers. Why? Sellers want their sales revenue to cover their costs and earn a **profit**. The higher the price, the more they have left over from each item sold – and the more worthwhile it becomes to produce extra quantities or enter the market in the first place.\n\nFor example, if a kilo of raspberries sells for 15 francs, it is worthwhile for a farm to plant extra rows, pay fruit pickers and harvest even the bushes furthest away. If the price falls to 3 francs, some farms prefer to leave the berries on the bushes – harvesting them would cost more than it brings in. The same applies on a smaller scale at a flea market: you would hardly part with your old games for 50 Rappen – but at 30 francs each, you would probably put half your collection up for sale.\n\nSo the rule on the supply side is:\n\n- **When the price rises, the quantity supplied rises.**\n- **When the price falls, the quantity supplied falls.**\n\nDrawn on a graph, this gives an **upward-sloping curve** – shown in green in the chart below."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:5917c87b6b6c4c8d73b8c42c2e67d97ad192774043d684e0480a589fe975134a",
+   "text": "Demand and supply as curves"
+  },
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:60a0c3d7942c758fb41e4261d96ceda2f9a8b5fa17287d128fdb6057657eb7d9",
+   "text": "Two market forces: demand and supply"
+  },
+  "blocks[3].szene.elemente[1].text": {
+   "quelle": "sha256:399ed7dc9c6f622a5f12f9f992baa90759e994332d1c2e718716f813c181f9e9",
+   "text": "Simplified charts – the curves show trends, not exact figures"
+  },
+  "blocks[3].szene.elemente[2].text": {
+   "quelle": "sha256:c8fdf96f60024fd4674926611294abe9a61c95957fb08fad393f41e2bbc6e43c",
+   "text": "Demand"
+  },
+  "blocks[3].szene.elemente[3].text": {
+   "quelle": "sha256:d3c76310fa2986246656152dee3031cd8b3bbe861efb5296e0acb8eb39d5cba4",
+   "text": "The buyers' view"
+  },
+  "blocks[3].szene.elemente[4].text": {
+   "quelle": "sha256:8ebf7ad6cda30285bc4d866eba065251732301105385e87cded6cfc0a9c3e231",
+   "text": "Supply"
+  },
+  "blocks[3].szene.elemente[5].text": {
+   "quelle": "sha256:0e58e17ac81bdf3f6b02d8c0954b38900946e5dd4d5c076589a1b83885744ed2",
+   "text": "The sellers' view"
+  },
+  "blocks[3].szene.elemente[6].text": {
+   "quelle": "sha256:9883291e666c677170c9ec515026b80bd090db7dce30c8d52cde51ff01ddc79a",
+   "text": "Price"
+  },
+  "blocks[3].szene.elemente[9].text": {
+   "quelle": "sha256:1bece813ec41fbf306131f6e68313486c7865c72f024fb56021a67953ebc98e4",
+   "text": "Quantity"
+  },
+  "blocks[3].szene.elemente[13].text": {
+   "quelle": "sha256:bf29f875b28e16afa12da33e5e73e917ed87f85df8e23b471557f92cbfa8c77b",
+   "text": "High price:\nfew buy"
+  },
+  "blocks[3].szene.elemente[14].text": {
+   "quelle": "sha256:b66540979eb41857367c572a9ac8dcb647acfda28ac81f216c38418af3d8f8f7",
+   "text": "Low price:\nmany buy"
+  },
+  "blocks[3].szene.elemente[15].text": {
+   "quelle": "sha256:9883291e666c677170c9ec515026b80bd090db7dce30c8d52cde51ff01ddc79a",
+   "text": "Price"
+  },
+  "blocks[3].szene.elemente[18].text": {
+   "quelle": "sha256:1bece813ec41fbf306131f6e68313486c7865c72f024fb56021a67953ebc98e4",
+   "text": "Quantity"
+  },
+  "blocks[3].szene.elemente[22].text": {
+   "quelle": "sha256:45a17bb13d501fe709565af4c12a2572e3cfe2320df35e3f0e8346daa6e5585d",
+   "text": "High price:\nmany supply"
+  },
+  "blocks[3].szene.elemente[23].text": {
+   "quelle": "sha256:9a7e4c8763e4314a70555c97c5ed595249e1b8a5b8a5ca12f809567e444d0b19",
+   "text": "Low price:\nfew supply"
+  },
+  "blocks[3].szene.elemente[26].text": {
+   "quelle": "sha256:d55a7ba1edddefd58192091b9c0e2f3c32c38f053a227d73774b18c2de7d90bd",
+   "text": "Demand: The higher the price,\nthe less is bought."
+  },
+  "blocks[3].szene.elemente[27].text": {
+   "quelle": "sha256:56e17a0ac1f7302e2ecff340fd75958792d68ec38b9dcc80692c243940adf14e",
+   "text": "Supply: The higher the price,\nthe more is supplied."
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:8d912d02238e0ef60a9e1b85c08181f8779c8735b14287d64a157386fc33fb88",
+   "text": "The chart shows the two market forces in two separate, simplified graphs side by side – the curves show trends, not exact figures. Both graphs have the same axes: price on the vertical axis and quantity on the horizontal axis. On the left is demand from the buyers' perspective; on the right is supply from the sellers' perspective. Key points: – The demand curve (blue) slopes down from the top left to the bottom right: at a high price, few people buy; at a low price, many people buy. Remember: the higher the price, the less is bought. – The supply curve (green) slopes up from the bottom left to the top right: at a low price, few sellers supply the product; at a high price, many do. Remember: the higher the price, the more is supplied. – The two sides therefore respond to price in exactly opposite ways; here, the graphs are still shown separately, side by side."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:0c579ef0f6e37ed4314240071370c1d27705371103183c503d8d8d64083eb30f",
+   "text": "Beyond price: four other factors"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:5ffccd323b2dbeec8e2a238dafea64cd96591d1d485a944d7f2a856911be43da",
+   "text": "Demand and supply respond to more than just price. You should know these four factors:\n\n- **Trends and preferences:** Social media hype can send demand soaring without any change in price – suddenly everyone wants the same water bottle or the same trainers. When the trend fades, the products are left on the shelves.\n- **Income:** People with more money available demand more – after a holiday job, that concert ticket is more affordable than before. If income falls, people first cut back on things they want but do not urgently need.\n- **Season:** In July, strawberries come from across the region – supply is high. In January, not a single one grows here; importing fruit takes a lot of effort and it is scarce – supply is low. Demand is seasonal too: ice cream in a hot summer, skis in winter, mandarins before Christmas.\n- **Number of suppliers:** If two new pizza delivery businesses open in town, the total supply of delivered pizzas is greater than before. If a supplier closes down or a manufacturer stops production, supply shrinks.\n\nRemember: **Price affects demand and supply – but trends, income, the season and the number of suppliers also shift them.** So whenever you notice a price change in everyday life, it is worth asking: what has just happened on the demand side – and what has happened on the supply side?"
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:a4abed846e5450514e5f66d5a699c6a993f364a93d7dfc4e40c07ddc6395b324",
+   "text": "Who is who? Households and businesses in the market"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:d00843433911ad7b6d1c4d540cd5f5f31da172c361f6d7962c89c24f5b78192e",
+   "text": "Let's connect this to the circular flow of the economy from [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]] and [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]]: in **goods markets** – wherever goods and services are traded – **households** are usually the buyers and **businesses** the suppliers. You demand an ice cream; the kiosk supplies it.\n\nBut there is one market where the roles are reversed: the **labour market**. Here, households **supply** their labour – and businesses demand it. Someone looking for an apprenticeship is therefore a supplier of their labour; the business looking for apprentices is the buyer. Whether someone is a supplier or a buyer therefore depends on their **role in the particular market**, rather than on who they are.\n\nYou now know both forces of the market: downward-sloping demand and upward-sloping supply. In [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]], you will bring them together – and discover how they determine a price."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:568e19edae6d14425124808e4daa6579dcd82a9cd6ee6d481e8e2b0224b55bef",
+   "text": "Quiz: Supply and demand"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:21e0ff8c03d189e54ac091f90cfd48f52b058a107d22f4f43c353a9eed7087b8",
+   "text": "Show what you know about the two forces of the market. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:e3f62383e0c8a14a3b04fb2addec7f5339d42118b7028d348fce44a1cb296d0e",
+   "text": "What does 'demand' mean in economics?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:bb931f82f24eb4f63101413bd39edbcc206b57a9719456720e07946b15b4aa39",
+   "text": "All the products available for sale in shops."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:ef67f3ae02761ad2187324366a60098ca64dafc0b3f0c4efadfcd742f7336f92",
+   "text": "Any wish for a product – even without the money to buy it."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:9e5bb63126bf36896e258501a99d0797b8cfc862116bbe1470f8e07f46a74936",
+   "text": "Wanting a good, together with having the money and being willing to pay for it."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:450e19c1b2598a8d3e32c24fdbbbb174dc504e873be9332310e6fee87f231479",
+   "text": "The number of suppliers in a market."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:ea75f230cc0a5fc1be0560ba10a37165924bddf55f1d1ef1746e3e4ebcefef8d",
+   "text": "Demand is more than a wish: it consists of wanting a good PLUS having the money and being willing to spend it. Someone who only dreams of an e-bike does not create demand for it. The products in shops belong to the supply side, and the number of suppliers describes supply, not demand."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:2b56a6a0081506d6b6d146fb3f4df3d0c9148de0f84214315d013678982e24ce",
+   "text": "The price of a scoop of ice cream rises from 2 to 6 francs. What typically happens to the quantity demanded?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:816089f785b12f5799bd2d774942d453aa418b0479c6670f9303e3510e8f1846",
+   "text": "It falls – some people go without, while others switch to cheaper alternatives."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:4ebb45b69e146ec8a4f66d521f9aa9fbb5547bd8112eb3e68e10f49a7a4b639b",
+   "text": "It rises – a higher price makes the ice cream more desirable."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:1efad56a1bcf87d8f6823482dbc5cbe39568cd698b5ecaa42afa39c6ffe13460",
+   "text": "It stays exactly the same because ice cream is a basic need."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:17b4d1e8f5cfd3396970fff5b36b98f1f8555c421e6072ef331e592d9864effa",
+   "text": "It does not depend on price at all, only on the weather."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:e22cdfea323b79cfa04773992a1e6724526b55a996eb7306c684cc07327d6ca5",
+   "text": "When the price rises, the quantity demanded usually falls: some people go without altogether, while others buy their ice cream somewhere cheaper. For most people, a higher price makes a product less attractive, not more desirable. Ice cream is also not a basic need – and although the weather really does affect demand, it does not replace the effect of price."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:35f0865c6c1c14f3c7471ac38cfc1e3622d0f0a73d2f7c8294afe45285d48aa6",
+   "text": "The price of raspberries rises sharply. How do suppliers typically respond?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:a967c3f93a61838d2196b75197faa739d8b39da1d14d3bf67c4a551bb863cbac",
+   "text": "They supply less so they can save the raspberries for later."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:db785991dc4fe98c526cdba639d6b4405167938040cc16e24cd842540bdc5b73",
+   "text": "They behave like buyers and withdraw from the market."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:726f5c27c03c47df7146341c73cde89073de7ac87f95bb14998256a82629fe96",
+   "text": "They change nothing because supply does not respond to price."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:2a57e5fb29a923795001bec9dbfdee5df051c50fbcb6e02af0bd14e113a1f00d",
+   "text": "They supply more because growing and harvesting raspberries is now more worthwhile."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:fa349e36e015b32e8b1b6367efab9f463777ffcb45ae1458c845dbfdf21428ce",
+   "text": "Suppliers respond in the opposite way to buyers: the higher the price, the more they have left over from each kilo sold – planting extra rows and harvesting even the bushes furthest away is now worthwhile. Supply therefore rises with price; holding back or withdrawing would be the exact opposite of typical supply behaviour."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:8f94b4267221a4018d3d160a9a01d5042fae1a37cfd2fca912bd09e978a003b1",
+   "text": "Why do sellers supply more when prices are high?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:2ba7b1c85943e99a28f382ce05f53d07f995eebcebb2933fe0fa04310a8f8ce2",
+   "text": "Because the government requires them to produce more when prices are high."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:c097cdc4cd800b14c12654fed149f655945c65dac9cb5dfc5124cde70a2a4f3d",
+   "text": "Because they have more left over from each item sold, making it more worthwhile to produce extra quantities."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:1e774ff07a9225f4216b8b214c0e69b1b093871fbaf6eca32c8bfc95d753857a",
+   "text": "Because production automatically becomes cheaper as soon as the price rises."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:21bb8eef4fc5fd8f01c4737d74f50939bf9fe0680cc66c4d64e4a49de484a969",
+   "text": "Because they want to do buyers a favour when prices are high."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:52fd19f9e5a3e2e0515713e4164557a05d6d99dcc55f98642de6c9805e6f4947",
+   "text": "Suppliers want to cover their costs and earn a profit. At a higher price, they have more left over per item – so it is worthwhile to produce more or enter the market in the first place. In a market economy, the government does not set production quantities, production costs do not automatically fall when prices rise, and supply behaviour has nothing to do with doing someone a favour."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:f261ffff2fe7db249f702692cf27151b34eedaa03e9fbbea9c7365a8ad729bf2",
+   "text": "A concert is sold out, and tickets are being traded online for several times their original price. What does this situation show?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:58acbf985fcb881cfdf8bad3dedad2d7f3cb29867764dbd5f835488d6a9514f0",
+   "text": "Demand for the concert has become very low."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:d1fe9fdc3aa68459eb5aa6382853350b34c577b58caa38cdf5524022ad869345",
+   "text": "Lots of people want one of the few tickets – high demand meets limited supply."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:9911bfb1c5baacbc6181f3d74499d92c5569ac2c7b0213034a90f718d530e416",
+   "text": "The concert organiser has secretly increased the number of places available."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:d0f58f8d73e78c8126ecd01cce342daa659738936b2c65efdc79da5169c4ade6",
+   "text": "Ticket prices have nothing to do with supply and demand."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:9504373b6c83166877e62a793900dba3cf9f158101a15133f0c7f19ae27e76ab",
+   "text": "The number of places in the venue is limited – supply cannot expand. If far more fans want a ticket than there are places, some are willing to pay much more. That is exactly what the high resale price shows: high demand and low supply. There is no sign of falling demand or extra places – and this example directly disproves the idea that prices have nothing to do with supply and demand."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:502727248e8829afb16f7a62b711c84b9f1a82ac9689b324aed75136b0d1473a",
+   "text": "Which event changes DEMAND for a product without its price changing?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:3cf62076010dbd230eac09e8d1b20879bd5852dccf36db615ae25262f4fb983f",
+   "text": "A particularly large strawberry harvest in the region."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:6ffc94cb7eae980cbbeeaeb4f66cb182a2c85c83dbf16bdb04b0aee0fcf36c33",
+   "text": "Two additional suppliers enter the market."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:f56ad7c83faab90aa5f52a62a48287bf09b371f95336b8daca20d159f2d9ab13",
+   "text": "A social media trend suddenly makes everyone want the product."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:8bd975ad1af426b0c08c9e54c1ef98ba7be27511715099594495883684be3eea",
+   "text": "The manufacturer's production costs fall."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:cb7639d2765b8456be3f2181b485bfb2db6128829f7f92b5f8791e05236de418",
+   "text": "Trends and preferences directly affect the demand side: suddenly, far more people want the product – without any change in price. A large harvest, additional suppliers and lower production costs, on the other hand, all change supply, not demand."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:fc7acc4f809c189ba6a9ace7ddb563ae9b25b0d2d0f8e265e04c047dddef5990",
+   "text": "Strawberries cost much more in January than in July. What is the best explanation?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:69d023a857def7817f817983a816115e48798519d96b0abee180b858cda4099c",
+   "text": "Supply is low in winter: no strawberries ripen here, and imported strawberries take a lot of effort to obtain and are scarce."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:c5c95426683a360144f773d62cd8a484c02012493dcc15aebdc7e056740635aa",
+   "text": "Demand for strawberries is at its very highest in winter."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:01e6a0ec55458c1807bffb5d8cfe20436d489867005fbcbfef8365a8371a0399",
+   "text": "The government sets higher strawberry prices for winter."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:c67325747a311853fce35e0237eb94288f5d57167571bf4d6bac87ab9421bea0",
+   "text": "Retailers charge more in winter for no reason at all."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:931777d392d10a438c5d9b38e20e221d68edbc8dd82f164c6efa0f07f1cee8b3",
+   "text": "In January, not a single strawberry grows in our region – bringing in the ones in the shops from abroad takes considerable effort. Supply is therefore low, and that is what makes the fruit expensive. Demand for strawberries tends to be lower in winter than in summer, the government does not set strawberry prices, and 'no reason at all' does not explain why prices rise every winter and fall every summer."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:44ca071303631390ebbc9ab7009eb61f239739ec20d98b4125373acafd98c586",
+   "text": "Two additional pizza delivery businesses open in a town. What happens to the total supply of delivered pizzas?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:5471ad9be6910b209905f55fb5855d768c79ccdd6a802cef5a58fe6e221e68da",
+   "text": "It gets smaller because the delivery businesses have to share the customers."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:b131b70b28679504495f43ed3a24d53dc5d0b9522afbb2210286c87eac2a3159",
+   "text": "It stays the same because each delivery business simply sells less."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:d613c4ed8ddddb9bcda613defd67fc89762a0b9d0f55ace7404d5b9e8c8c5ccd",
+   "text": "It disappears because too many suppliers destroy the market."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:87ef6a0896d0f242412b489279ce015e8f27fa00094799198ff343b62a8359b9",
+   "text": "It gets larger – with more suppliers, more goods and delivery capacity are available overall."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:247dad3fbd24002499bb7f7dc3ae9289633b0328e49cc3855778213c7f4a8347",
+   "text": "The number of suppliers is one of the four factors: more suppliers mean greater total supply – simply because more pizzas can be baked and delivered at the same time. How customers are shared between them is a different question; that does not reduce total supply, and a market does not 'disappear' when additional suppliers arrive."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:a0e136aef3abe229112fc42ef81fa77878d001e0d1bca90fd6657bc41afec15a",
+   "text": "Supply and demand: Fill in the terms"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:454d8996ee76d3e92a85bab3e710deb8d3471f2557b90f524a135211c5311384",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:47c1f48873e2b49ba2b3aeadc99e0c59c408e59da6bc8e0e8c04a16b71b5637e",
+   "text": "Responses to price: Type in the terms"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no word bank this time – **type in the missing terms yourself**. Capital and lower-case letters are treated the same."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:3814d8caadc42e244e65c615a0d55b92118e24b4d1b1311224837971a941f4f0",
+   "text": "Match the effects: What happens to demand or supply?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:f124699919d0f1de32541e65eedc33aab7ea818a96a04b732fdda96daffde196",
+   "text": "Match each situation to the correct effect: **demand rises**, **demand falls**, **supply rises** or **supply falls**. Each time, ask yourself: is it the buyers' behaviour that is changing – or the suppliers'?"
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:6c3f5a5d3a9499fc27770f460be59ad43b8b5a62ff892e5ed94595547389529c",
+   "text": "Go further: Market forces in your everyday life"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:55ec620a2ece8dfe8e299edcb82431c940bbfb066090dc77212d3026c66b7d60",
+   "text": "Be a price detective: choose an everyday product whose price has changed noticeably or varies depending on when you buy it – for example, concert tickets, limited-edition trainers, day ski passes or fruit in winter and summer. Describe: (1) How has the price changed? (2) What has happened on the demand side, and what on the supply side? (3) Which factor from this module is behind it – a trend, income, the season or the number of suppliers?"
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:fe6818e53d195406553f9dc209af8abcdcc69cf23d4a1e6fa7cac716d6f9fcd1",
+   "text": "Always ask yourself first: do more or fewer people suddenly want the product (demand side)? Or is there suddenly more or less of it available to buy (supply side)? Often both sides change at the same time – in that case, describe both."
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:8f0d56688f06a1a369195f18aad9d57382db9f20851cf60fb8532db477d82025",
+   "text": "Example of a day ski pass: during the winter sports holidays, lots of people want to go skiing – demand is high, while the number of slopes and lifts stays the same. Ski lift operators then charge their highest prices. In March, demand falls, and many operators attract customers with cheaper tickets. The factor is the season, which mainly affects the demand side here. What matters is that you identify the demand and supply sides separately and clearly link the factor to the side it affects."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:be5b71f44de83a49d21575177b66f39d77a19a34c566ff51edb8cef51e771010",
+   "text": "Explain in your own words – so that someone who has not studied this module could understand – why buyers buy less when the price rises, while suppliers want to sell more at the same time. Use your own example that does not appear in the module. OR: invent three situations of your own in the style of the matching activity and briefly explain whether demand or supply rises or falls in each one – one situation can be especially tricky."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:a25dc2c96077e13359cd3c87909a2701e640f54467f4665c16307a4f2c791ef5",
+   "text": "To help with your explanation, look at the motives on both sides: buyers want to make the most of their money; suppliers want to cover their costs and earn a profit. For the tricky situations, choose cases where both sides change at the same time – such as a hot summer that increases demand for ice cream AND causes the strawberry crop to wither."
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:354ce5e8023629217ddc747753a7e8c22c4fe963b84962c5cae548a6b4538bdf",
+   "text": "Key idea: for buyers, a product becomes less attractive as its price rises – they go without or switch to something else because their money is limited. For suppliers, the same product becomes more attractive as its price rises because they make more profit per item – producing more is worthwhile. Both sides therefore respond to the same price, but for opposite reasons. Example of a tricky matching situation: 'A rock star wears a second-hand jacket from an old brand in a music video – and at the same time, the biggest second-hand clothing market of the year takes place.' Here, demand rises (a trend) AND supply rises (lots of additional sellers at the market)."
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:58275324638b555c6079005ca02d3d06a13e5d2b19b578a3c717c78b4bfdf51f",
+   "inhalt": {
+    "text": "Every market brings two sides together. The quantity that buyers want to buy at a particular price is called {{1}}. The quantity that sellers want to sell at a particular price is called {{2}}. Both sides respond to the {{3}} – but in exactly opposite ways: when a product becomes more expensive, people usually buy {{4}} of it. The opposite applies to suppliers: when prices rise, they supply more because each item sold promises more {{5}}.\nBut demand also changes without a change in price: {{6}} suddenly make everyone want a product, a higher {{7}} allows people to buy more, and the {{8}} determines, for example, when ice cream or skis are in demand. On the supply side, the number of {{9}} also matters: the more sellers there are in the market, the greater the total {{10}} of goods supplied.",
+    "luecken": [
+     [
+      "demand",
+      "the demand"
+     ],
+     [
+      "supply",
+      "the supply"
+     ],
+     [
+      "price",
+      "the price",
+      "cost"
+     ],
+     [
+      "less",
+      "fewer"
+     ],
+     [
+      "profit",
+      "profits"
+     ],
+     [
+      "trends",
+      "fashions",
+      "fads"
+     ],
+     [
+      "income"
+     ],
+     [
+      "season",
+      "time of year",
+      "the season",
+      "the time of year"
+     ],
+     [
+      "suppliers",
+      "sellers",
+      "producers",
+      "vendors",
+      "retailers"
+     ],
+     [
+      "quantity",
+      "amount",
+      "volume"
+     ]
+    ],
+    "ablenker": [
+     "taxes",
+     "productivity",
+     "sector"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:2142ec46e08402527ef499163c4927d7175922bfe3fd5e176a98ccfd1a7549bd",
+   "inhalt": {
+    "text": "An example from the school snack kiosk: if a sandwich suddenly costs twice as much, most people buy far {{1}} sandwiches – demand {{2}}. If the kiosk lowers the price again, more people buy one – demand {{3}}. Suppliers behave in the opposite way: the higher the price, the {{4}} is supplied. In goods markets, households usually act as {{5}} – and businesses as {{6}}.",
+    "luecken": [
+     [
+      "fewer",
+      "less"
+     ],
+     [
+      "falls",
+      "decreases",
+      "drops",
+      "declines",
+      "goes down",
+      "shrinks",
+      "reduces",
+      "is reduced"
+     ],
+     [
+      "rises",
+      "increases",
+      "grows",
+      "goes up"
+     ],
+     [
+      "more",
+      "greater quantity",
+      "larger quantity",
+      "greater amount",
+      "larger amount"
+     ],
+     [
+      "buyers",
+      "consumers",
+      "customers",
+      "purchasers",
+      "demanders",
+      "the buyers",
+      "the consumers",
+      "the customers",
+      "the purchasers",
+      "the demanders"
+     ],
+     [
+      "suppliers",
+      "sellers",
+      "producers",
+      "retailers",
+      "vendors",
+      "traders",
+      "the suppliers",
+      "the sellers",
+      "the producers",
+      "the retailers",
+      "the vendors",
+      "the traders"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:f5b48e7f486c643137acd87fe5497223de432ac120d0e50dff32e0fe7ba670fe",
+   "inhalt": {
+    "text": "An influencer makes a particular water bottle trendy: {{1}}\nIn July, strawberries ripen all across the region, and farms deliver large quantities: {{2}}\nA cold, rainy summer – hardly anyone feels like having ice cream: {{3}}\nTwo new pizza delivery businesses open in town: {{4}}\nAfter their holiday jobs, many teenagers have more money left over for concerts: {{5}}\nThe hype around a mobile game fades, and hardly anyone still buys accessories for it: {{6}}\nA crop failure destroys a large part of the potato harvest: {{7}}\nA manufacturer stops producing a popular chocolate: {{8}}\nBefore Christmas, everyone wants to buy mandarins and nuts: {{9}}\nA farm switches to growing berries and brings in its first harvest: {{10}}",
+    "luecken": [
+     [
+      "demand rises",
+      "demand increases",
+      "demand grows",
+      "demand goes up",
+      "the demand rises",
+      "the demand increases",
+      "the demand grows",
+      "the demand goes up"
+     ],
+     [
+      "supply rises",
+      "supply increases",
+      "supply grows",
+      "supply goes up",
+      "the supply rises",
+      "the supply increases",
+      "the supply grows",
+      "the supply goes up"
+     ],
+     [
+      "demand falls",
+      "demand decreases",
+      "demand drops",
+      "demand declines",
+      "demand goes down",
+      "demand shrinks",
+      "the demand falls",
+      "the demand decreases",
+      "the demand drops",
+      "the demand declines",
+      "the demand goes down",
+      "the demand shrinks"
+     ],
+     [
+      "supply rises",
+      "supply increases",
+      "supply grows",
+      "supply goes up",
+      "the supply rises",
+      "the supply increases",
+      "the supply grows",
+      "the supply goes up"
+     ],
+     [
+      "demand rises",
+      "demand increases",
+      "demand grows",
+      "demand goes up",
+      "the demand rises",
+      "the demand increases",
+      "the demand grows",
+      "the demand goes up"
+     ],
+     [
+      "demand falls",
+      "demand decreases",
+      "demand drops",
+      "demand declines",
+      "demand goes down",
+      "demand shrinks",
+      "the demand falls",
+      "the demand decreases",
+      "the demand drops",
+      "the demand declines",
+      "the demand goes down",
+      "the demand shrinks"
+     ],
+     [
+      "supply falls",
+      "supply decreases",
+      "supply drops",
+      "supply declines",
+      "supply goes down",
+      "supply shrinks",
+      "the supply falls",
+      "the supply decreases",
+      "the supply drops",
+      "the supply declines",
+      "the supply goes down",
+      "the supply shrinks"
+     ],
+     [
+      "supply falls",
+      "supply decreases",
+      "supply drops",
+      "supply declines",
+      "supply goes down",
+      "supply shrinks",
+      "the supply falls",
+      "the supply decreases",
+      "the supply drops",
+      "the supply declines",
+      "the supply goes down",
+      "the supply shrinks"
+     ],
+     [
+      "demand rises",
+      "demand increases",
+      "demand grows",
+      "demand goes up",
+      "the demand rises",
+      "the demand increases",
+      "the demand grows",
+      "the demand goes up"
+     ],
+     [
+      "supply rises",
+      "supply increases",
+      "supply grows",
+      "supply goes up",
+      "the supply rises",
+      "the supply increases",
+      "the supply grows",
+      "the supply goes up"
+     ]
+    ]
+   }
+  }
+ }
+}
