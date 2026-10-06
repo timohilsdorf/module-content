@@ -1,0 +1,1375 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-06-angebot-und-nachfrage --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:5f0ad9ff611b638922bab76380b62b3be2f36ef4d823a21fb8bd08f83b6df8f7",
+  "masterCommit": "edd9bbe",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:66bf356e06ec639c7554d56aa38762a81dbee6d595b95b1cc628be39ced8f8d1"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-06-angebot-und-nachfrage",
+ "title": "Supply and demand",
+ "description": "Why do fans suddenly pay twice as much for tickets to a sold-out concert – and why do strawberries cost more in winter than in summer? Here you will get to know the two forces of the market: demand from buyers and supply from sellers. You will discover how both sides respond to price – and which other factors affect them.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 6,
+ "einheit": "Topic block B: Markets and prices",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "leicht",
+ "keywords": [
+  "market",
+  "supply",
+  "demand",
+  "price",
+  "buyers",
+  "suppliers",
+  "demand curve",
+  "supply curve",
+  "trends",
+  "income",
+  "season",
+  "concert tickets",
+  "trainers"
+ ],
+ "learningObjectives": [
+  "I can describe how demand behaves: when the price rises, the quantity demanded usually falls – and when the price falls, it rises.",
+  "I can describe how supply behaves: when the price rises, more is supplied because producing and selling the product becomes more worthwhile.",
+  "I can name factors other than price – trends, income, the season and the number of suppliers – and use everyday examples to explain how they change demand or supply."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "AWS – Arbeitsgemeinschaft Wirtschaft und Schule (ibw)",
+   "url": "https://aws.ibw.at"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-02-haushalte-unternehmen-staat"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "The ticket puzzle",
+   "body": "Your favourite band announces a concert in Zürich. Tickets cost 80 francs – and sell out in twenty minutes. Two days later, the same tickets are being resold online for 200 francs. And some people are paying that much.\n\nSomething similar happens with **limited-edition trainers**: a manufacturer releases just a few thousand pairs of one model, and on the very first day they are already being resold at sky-high prices. At the other extreme, some products are wanted by hardly anyone – they sit on the shelves for ages and eventually end up in the sale with discount stickers on them.\n\nWho actually decides what something costs? The surprising answer: in a market economy, it is usually **no single person**. Behind prices are two forces that are constantly at work – **demand** from buyers and **supply** from sellers. In this module, you will get to know each force separately. How they work together to determine a price is the subject of [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]].\n\n**Reflection question for this module:** Where have you been a buyer this week – and who was on the supply side? Keep the question in mind: by the end of the module, you will find it easy to answer."
+  },
+  {
+   "type": "text",
+   "title": "Demand: the buyers' side",
+   "body": "In [[modul:wirtschaft-politik-01-was-ist-wirtschaft]], you learnt about **needs and wants** – from the basic need for food to wanting a new mobile phone. In the market, these become **demand**: wanting a good **plus** having the money and being willing to pay for it. Simply wanting something is not enough – if you neither have nor want to spend 5000 francs on an e-bike, you do not create demand for it.\n\nThe **quantity demanded** depends heavily on the price. Imagine the ice cream stand at an outdoor swimming pool: if a scoop costs 2 francs, lots of people treat themselves to two. If it suddenly costs 6 francs, most people think twice – some go without, while others switch to buying their ice cream at the supermarket next door.\n\nThis gives us the most important rule on the demand side:\n\n- **When the price rises, the quantity demanded falls.**\n- **When the price falls, the quantity demanded rises.**\n\nEconomists draw this as a **downward-sloping curve**: at the top left (high price), few people buy; at the bottom right (low price), many people buy. You will find it in blue in the chart below.\n\nBack to the ticket puzzle: at 80 francs, far more fans wanted a ticket than there were places available. Even at 200 francs, enough fans are still willing to pay – demand for this concert is huge."
+  },
+  {
+   "type": "text",
+   "title": "Supply: the sellers' side",
+   "body": "On the other side of the market are the **suppliers** – usually businesses, like those you met in [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]]: the bakery, the trainer manufacturer, the concert organiser. **Supply** is the quantity of a good that they want to produce and sell at a particular price.\n\nSuppliers also respond to price – but in **exactly the opposite way** to buyers. Why? Sellers want their sales revenue to cover their costs and earn a **profit**. The higher the price, the more they have left over from each item sold – and the more worthwhile it becomes to produce extra quantities or enter the market in the first place.\n\nFor example, if a kilo of raspberries sells for 15 francs, it is worthwhile for a farm to plant extra rows, pay fruit pickers and harvest even the bushes furthest away. If the price falls to 3 francs, some farms prefer to leave the berries on the bushes – harvesting them would cost more than it brings in. The same applies on a smaller scale at a flea market: you would hardly part with your old games for 50 Rappen – but at 30 francs each, you would probably put half your collection up for sale.\n\nSo the rule on the supply side is:\n\n- **When the price rises, the quantity supplied rises.**\n- **When the price falls, the quantity supplied falls.**\n\nDrawn on a graph, this gives an **upward-sloping curve** – shown in green in the chart below."
+  },
+  {
+   "type": "schaubild",
+   "title": "Demand and supply as curves",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 270,
+      "y": 0,
+      "width": 593.21,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1979055043,
+      "type": "text",
+      "text": "Two market forces: demand and supply",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 290,
+      "y": 46,
+      "width": 486.83,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#53738d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 155899373,
+      "type": "text",
+      "text": "Simplified charts – the curves show trends, not exact figures",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nf-titel",
+      "x": 250,
+      "y": 100,
+      "width": 140.58,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 635931491,
+      "type": "text",
+      "text": "Demand",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nf-untertitel",
+      "x": 195,
+      "y": 138,
+      "width": 217.7,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#53738d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 917737549,
+      "type": "text",
+      "text": "The buyers' view",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ag-titel",
+      "x": 884,
+      "y": 100,
+      "width": 125.98,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1816536835,
+      "type": "text",
+      "text": "Supply",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ag-untertitel",
+      "x": 790,
+      "y": 138,
+      "width": 255.01,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#53738d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2144730797,
+      "type": "text",
+      "text": "The sellers' view",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nf-preis",
+      "x": 60,
+      "y": 160,
+      "width": 32,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 261115555,
+      "type": "text",
+      "text": "Price",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nf-y-achse",
+      "x": 100,
+      "y": 619.5,
+      "width": 0,
+      "height": 429,
+      "angle": 0,
+      "strokeColor": "#587a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 727425293,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -429
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "nf-x-achse",
+      "x": 100.5,
+      "y": 620,
+      "width": 469,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#587a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 41189955,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        469,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "nf-menge",
+      "x": 520,
+      "y": 635,
+      "width": 44.43,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1857943405,
+      "type": "text",
+      "text": "Quantity",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nf-kurve",
+      "x": 145,
+      "y": 235,
+      "width": 365,
+      "height": 340,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1573994979,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        80,
+        35
+       ],
+       [
+        160,
+        95
+       ],
+       [
+        235,
+        180
+       ],
+       [
+        300,
+        270
+       ],
+       [
+        365,
+        340
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "nf-punkt-oben",
+      "x": 134,
+      "y": 224,
+      "width": 22,
+      "height": 22,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 340165069,
+      "type": "ellipse"
+     },
+     {
+      "id": "nf-punkt-unten",
+      "x": 499,
+      "y": 564,
+      "width": 22,
+      "height": 22,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 448073091,
+      "type": "ellipse"
+     },
+     {
+      "id": "nf-anno-hoch",
+      "x": 190,
+      "y": 205,
+      "width": 119.06,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1628356653,
+      "type": "text",
+      "text": "High price:\nfew buy",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nf-anno-tief",
+      "x": 300,
+      "y": 515,
+      "width": 78.63,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 207512867,
+      "type": "text",
+      "text": "Low price:\nmany buy",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ag-preis",
+      "x": 680,
+      "y": 160,
+      "width": 32,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 989868685,
+      "type": "text",
+      "text": "Price",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ag-y-achse",
+      "x": 720,
+      "y": 619.5,
+      "width": 0,
+      "height": 429,
+      "angle": 0,
+      "strokeColor": "#587a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 440125635,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -429
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "ag-x-achse",
+      "x": 720.5,
+      "y": 620,
+      "width": 469,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#587a96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 248797421,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        469,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "ag-menge",
+      "x": 1140,
+      "y": 635,
+      "width": 44.43,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 971749475,
+      "type": "text",
+      "text": "Quantity",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ag-kurve",
+      "x": 765,
+      "y": 575,
+      "width": 365,
+      "height": 340,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1981068109,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        75,
+        -30
+       ],
+       [
+        150,
+        -85
+       ],
+       [
+        225,
+        -165
+       ],
+       [
+        295,
+        -255
+       ],
+       [
+        365,
+        -340
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "ag-punkt-unten",
+      "x": 754,
+      "y": 564,
+      "width": 22,
+      "height": 22,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 691844099,
+      "type": "ellipse"
+     },
+     {
+      "id": "ag-punkt-oben",
+      "x": 1119,
+      "y": 224,
+      "width": 22,
+      "height": 22,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 488292781,
+      "type": "ellipse"
+     },
+     {
+      "id": "ag-anno-hoch",
+      "x": 880,
+      "y": 205,
+      "width": 93.29,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1747794851,
+      "type": "text",
+      "text": "High price:\nmany supply",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ag-anno-tief",
+      "x": 800,
+      "y": 545,
+      "width": 108.4,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1762657293,
+      "type": "text",
+      "text": "Low price:\nfew supply",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nf-merksatz",
+      "x": 50,
+      "y": 690,
+      "width": 540,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1928056643,
+      "type": "rectangle"
+     },
+     {
+      "id": "ag-merksatz",
+      "x": 670,
+      "y": 690,
+      "width": 540,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1575877229,
+      "type": "rectangle"
+     },
+     {
+      "id": "hzBqiw_G6DTf3M_x6IwDG",
+      "x": 211.3,
+      "y": 717.5,
+      "width": 217.41,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 80924163,
+      "type": "text",
+      "text": "Demand: The higher the price,\nthe less is bought.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "nf-merksatz",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ejLDvMJachrT6glKPOEcS",
+      "x": 837.77,
+      "y": 717.5,
+      "width": 204.45,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#237633",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576015267,
+      "type": "text",
+      "text": "Supply: The higher the price,\nthe more is supplied.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ag-merksatz",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The chart shows the two market forces in two separate, simplified graphs side by side – the curves show trends, not exact figures. Both graphs have the same axes: price on the vertical axis and quantity on the horizontal axis. On the left is demand from the buyers' perspective; on the right is supply from the sellers' perspective. Key points: – The demand curve (blue) slopes down from the top left to the bottom right: at a high price, few people buy; at a low price, many people buy. Remember: the higher the price, the less is bought. – The supply curve (green) slopes up from the bottom left to the top right: at a low price, few sellers supply the product; at a high price, many do. Remember: the higher the price, the more is supplied. – The two sides therefore respond to price in exactly opposite ways; here, the graphs are still shown separately, side by side.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Beyond price: four other factors",
+   "body": "Demand and supply respond to more than just price. You should know these four factors:\n\n- **Trends and preferences:** Social media hype can send demand soaring without any change in price – suddenly everyone wants the same water bottle or the same trainers. When the trend fades, the products are left on the shelves.\n- **Income:** People with more money available demand more – after a holiday job, that concert ticket is more affordable than before. If income falls, people first cut back on things they want but do not urgently need.\n- **Season:** In July, strawberries come from across the region – supply is high. In January, not a single one grows here; importing fruit takes a lot of effort and it is scarce – supply is low. Demand is seasonal too: ice cream in a hot summer, skis in winter, mandarins before Christmas.\n- **Number of suppliers:** If two new pizza delivery businesses open in town, the total supply of delivered pizzas is greater than before. If a supplier closes down or a manufacturer stops production, supply shrinks.\n\nRemember: **Price affects demand and supply – but trends, income, the season and the number of suppliers also shift them.** So whenever you notice a price change in everyday life, it is worth asking: what has just happened on the demand side – and what has happened on the supply side?"
+  },
+  {
+   "type": "text",
+   "title": "Who is who? Households and businesses in the market",
+   "body": "Let's connect this to the circular flow of the economy from [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]] and [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]]: in **goods markets** – wherever goods and services are traded – **households** are usually the buyers and **businesses** the suppliers. You demand an ice cream; the kiosk supplies it.\n\nBut there is one market where the roles are reversed: the **labour market**. Here, households **supply** their labour – and businesses demand it. Someone looking for an apprenticeship is therefore a supplier of their labour; the business looking for apprentices is the buyer. Whether someone is a supplier or a buyer therefore depends on their **role in the particular market**, rather than on who they are.\n\nYou now know both forces of the market: downward-sloping demand and upward-sloping supply. In [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]], you will bring them together – and discover how they determine a price."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Supply and demand",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
+   "intro": "Show what you know about the two forces of the market. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What does 'demand' mean in economics?",
+     "options": [
+      {
+       "text": "All the products available for sale in shops."
+      },
+      {
+       "text": "Any wish for a product – even without the money to buy it."
+      },
+      {
+       "text": "Wanting a good, together with having the money and being willing to pay for it.",
+       "correct": true
+      },
+      {
+       "text": "The number of suppliers in a market."
+      }
+     ],
+     "explanation": "Demand is more than a wish: it consists of wanting a good PLUS having the money and being willing to spend it. Someone who only dreams of an e-bike does not create demand for it. The products in shops belong to the supply side, and the number of suppliers describes supply, not demand."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "The price of a scoop of ice cream rises from 2 to 6 francs. What typically happens to the quantity demanded?",
+     "options": [
+      {
+       "text": "It falls – some people go without, while others switch to cheaper alternatives.",
+       "correct": true
+      },
+      {
+       "text": "It rises – a higher price makes the ice cream more desirable."
+      },
+      {
+       "text": "It stays exactly the same because ice cream is a basic need."
+      },
+      {
+       "text": "It does not depend on price at all, only on the weather."
+      }
+     ],
+     "explanation": "When the price rises, the quantity demanded usually falls: some people go without altogether, while others buy their ice cream somewhere cheaper. For most people, a higher price makes a product less attractive, not more desirable. Ice cream is also not a basic need – and although the weather really does affect demand, it does not replace the effect of price."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "The price of raspberries rises sharply. How do suppliers typically respond?",
+     "options": [
+      {
+       "text": "They supply less so they can save the raspberries for later."
+      },
+      {
+       "text": "They behave like buyers and withdraw from the market."
+      },
+      {
+       "text": "They change nothing because supply does not respond to price."
+      },
+      {
+       "text": "They supply more because growing and harvesting raspberries is now more worthwhile.",
+       "correct": true
+      }
+     ],
+     "explanation": "Suppliers respond in the opposite way to buyers: the higher the price, the more they have left over from each kilo sold – planting extra rows and harvesting even the bushes furthest away is now worthwhile. Supply therefore rises with price; holding back or withdrawing would be the exact opposite of typical supply behaviour."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Why do sellers supply more when prices are high?",
+     "options": [
+      {
+       "text": "Because the government requires them to produce more when prices are high."
+      },
+      {
+       "text": "Because they have more left over from each item sold, making it more worthwhile to produce extra quantities.",
+       "correct": true
+      },
+      {
+       "text": "Because production automatically becomes cheaper as soon as the price rises."
+      },
+      {
+       "text": "Because they want to do buyers a favour when prices are high."
+      }
+     ],
+     "explanation": "Suppliers want to cover their costs and earn a profit. At a higher price, they have more left over per item – so it is worthwhile to produce more or enter the market in the first place. In a market economy, the government does not set production quantities, production costs do not automatically fall when prices rise, and supply behaviour has nothing to do with doing someone a favour."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "A concert is sold out, and tickets are being traded online for several times their original price. What does this situation show?",
+     "options": [
+      {
+       "text": "Demand for the concert has become very low."
+      },
+      {
+       "text": "Lots of people want one of the few tickets – high demand meets limited supply.",
+       "correct": true
+      },
+      {
+       "text": "The concert organiser has secretly increased the number of places available."
+      },
+      {
+       "text": "Ticket prices have nothing to do with supply and demand."
+      }
+     ],
+     "explanation": "The number of places in the venue is limited – supply cannot expand. If far more fans want a ticket than there are places, some are willing to pay much more. That is exactly what the high resale price shows: high demand and low supply. There is no sign of falling demand or extra places – and this example directly disproves the idea that prices have nothing to do with supply and demand."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Which event changes DEMAND for a product without its price changing?",
+     "options": [
+      {
+       "text": "A particularly large strawberry harvest in the region."
+      },
+      {
+       "text": "Two additional suppliers enter the market."
+      },
+      {
+       "text": "A social media trend suddenly makes everyone want the product.",
+       "correct": true
+      },
+      {
+       "text": "The manufacturer's production costs fall."
+      }
+     ],
+     "explanation": "Trends and preferences directly affect the demand side: suddenly, far more people want the product – without any change in price. A large harvest, additional suppliers and lower production costs, on the other hand, all change supply, not demand."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Strawberries cost much more in January than in July. What is the best explanation?",
+     "options": [
+      {
+       "text": "Supply is low in winter: no strawberries ripen here, and imported strawberries take a lot of effort to obtain and are scarce.",
+       "correct": true
+      },
+      {
+       "text": "Demand for strawberries is at its very highest in winter."
+      },
+      {
+       "text": "The government sets higher strawberry prices for winter."
+      },
+      {
+       "text": "Retailers charge more in winter for no reason at all."
+      }
+     ],
+     "explanation": "In January, not a single strawberry grows in our region – bringing in the ones in the shops from abroad takes considerable effort. Supply is therefore low, and that is what makes the fruit expensive. Demand for strawberries tends to be lower in winter than in summer, the government does not set strawberry prices, and 'no reason at all' does not explain why prices rise every winter and fall every summer."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Two additional pizza delivery businesses open in a town. What happens to the total supply of delivered pizzas?",
+     "options": [
+      {
+       "text": "It gets smaller because the delivery businesses have to share the customers."
+      },
+      {
+       "text": "It stays the same because each delivery business simply sells less."
+      },
+      {
+       "text": "It disappears because too many suppliers destroy the market."
+      },
+      {
+       "text": "It gets larger – with more suppliers, more goods and delivery capacity are available overall.",
+       "correct": true
+      }
+     ],
+     "explanation": "The number of suppliers is one of the four factors: more suppliers mean greater total supply – simply because more pizzas can be baked and delivered at the same time. How customers are shared between them is a different question; that does not reduce total supply, and a market does not 'disappear' when additional suppliers arrive."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-marktkraefte",
+   "title": "Supply and demand: Fill in the terms",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Every market brings two sides together. The quantity that buyers want to buy at a particular price is called {{1}}. The quantity that sellers want to sell at a particular price is called {{2}}. Both sides respond to the {{3}} – but in exactly opposite ways: when a product becomes more expensive, people usually buy {{4}} of it. The opposite applies to suppliers: when prices rise, they supply more because each item sold promises more {{5}}.\nBut demand also changes without a change in price: {{6}} suddenly make everyone want a product, a higher {{7}} allows people to buy more, and the {{8}} determines, for example, when ice cream or skis are in demand. On the supply side, the number of {{9}} also matters: the more sellers there are in the market, the greater the total {{10}} of goods supplied.",
+   "luecken": [
+    {
+     "antworten": [
+      "demand",
+      "the demand"
+     ]
+    },
+    {
+     "antworten": [
+      "supply",
+      "the supply"
+     ]
+    },
+    {
+     "antworten": [
+      "price",
+      "the price",
+      "cost"
+     ]
+    },
+    {
+     "antworten": [
+      "less",
+      "fewer"
+     ]
+    },
+    {
+     "antworten": [
+      "profit",
+      "profits"
+     ]
+    },
+    {
+     "antworten": [
+      "trends",
+      "fashions",
+      "fads"
+     ]
+    },
+    {
+     "antworten": [
+      "income"
+     ]
+    },
+    {
+     "antworten": [
+      "season",
+      "time of year",
+      "the season",
+      "the time of year"
+     ]
+    },
+    {
+     "antworten": [
+      "suppliers",
+      "sellers",
+      "producers",
+      "vendors",
+      "retailers"
+     ]
+    },
+    {
+     "antworten": [
+      "quantity",
+      "amount",
+      "volume"
+     ]
+    }
+   ],
+   "ablenker": [
+    "taxes",
+    "productivity",
+    "sector"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-preisreaktion",
+   "title": "Responses to price: Type in the terms",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben",
+    "wp.akteure.rollen-beschreiben"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Capital and lower-case letters are treated the same.",
+   "modus": "eingabe",
+   "text": "An example from the school snack kiosk: if a sandwich suddenly costs twice as much, most people buy far {{1}} sandwiches – demand {{2}}. If the kiosk lowers the price again, more people buy one – demand {{3}}. Suppliers behave in the opposite way: the higher the price, the {{4}} is supplied. In goods markets, households usually act as {{5}} – and businesses as {{6}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "fewer",
+      "less"
+     ]
+    },
+    {
+     "antworten": [
+      "falls",
+      "decreases",
+      "drops",
+      "declines",
+      "goes down",
+      "shrinks",
+      "reduces",
+      "is reduced"
+     ]
+    },
+    {
+     "antworten": [
+      "rises",
+      "increases",
+      "grows",
+      "goes up"
+     ]
+    },
+    {
+     "antworten": [
+      "more",
+      "greater quantity",
+      "larger quantity",
+      "greater amount",
+      "larger amount"
+     ]
+    },
+    {
+     "antworten": [
+      "buyers",
+      "consumers",
+      "customers",
+      "purchasers",
+      "demanders",
+      "the buyers",
+      "the consumers",
+      "the customers",
+      "the purchasers",
+      "the demanders"
+     ]
+    },
+    {
+     "antworten": [
+      "suppliers",
+      "sellers",
+      "producers",
+      "retailers",
+      "vendors",
+      "traders",
+      "the suppliers",
+      "the sellers",
+      "the producers",
+      "the retailers",
+      "the vendors",
+      "the traders"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-marktkraefte",
+   "title": "Match the effects: What happens to demand or supply?",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
+   "intro": "Match each situation to the correct effect: **demand rises**, **demand falls**, **supply rises** or **supply falls**. Each time, ask yourself: is it the buyers' behaviour that is changing – or the suppliers'?",
+   "modus": "wortbank",
+   "text": "An influencer makes a particular water bottle trendy: {{1}}\nIn July, strawberries ripen all across the region, and farms deliver large quantities: {{2}}\nA cold, rainy summer – hardly anyone feels like having ice cream: {{3}}\nTwo new pizza delivery businesses open in town: {{4}}\nAfter their holiday jobs, many teenagers have more money left over for concerts: {{5}}\nThe hype around a mobile game fades, and hardly anyone still buys accessories for it: {{6}}\nA crop failure destroys a large part of the potato harvest: {{7}}\nA manufacturer stops producing a popular chocolate: {{8}}\nBefore Christmas, everyone wants to buy mandarins and nuts: {{9}}\nA farm switches to growing berries and brings in its first harvest: {{10}}",
+   "luecken": [
+    {
+     "antworten": [
+      "demand rises",
+      "demand increases",
+      "demand grows",
+      "demand goes up",
+      "the demand rises",
+      "the demand increases",
+      "the demand grows",
+      "the demand goes up"
+     ]
+    },
+    {
+     "antworten": [
+      "supply rises",
+      "supply increases",
+      "supply grows",
+      "supply goes up",
+      "the supply rises",
+      "the supply increases",
+      "the supply grows",
+      "the supply goes up"
+     ]
+    },
+    {
+     "antworten": [
+      "demand falls",
+      "demand decreases",
+      "demand drops",
+      "demand declines",
+      "demand goes down",
+      "demand shrinks",
+      "the demand falls",
+      "the demand decreases",
+      "the demand drops",
+      "the demand declines",
+      "the demand goes down",
+      "the demand shrinks"
+     ]
+    },
+    {
+     "antworten": [
+      "supply rises",
+      "supply increases",
+      "supply grows",
+      "supply goes up",
+      "the supply rises",
+      "the supply increases",
+      "the supply grows",
+      "the supply goes up"
+     ]
+    },
+    {
+     "antworten": [
+      "demand rises",
+      "demand increases",
+      "demand grows",
+      "demand goes up",
+      "the demand rises",
+      "the demand increases",
+      "the demand grows",
+      "the demand goes up"
+     ]
+    },
+    {
+     "antworten": [
+      "demand falls",
+      "demand decreases",
+      "demand drops",
+      "demand declines",
+      "demand goes down",
+      "demand shrinks",
+      "the demand falls",
+      "the demand decreases",
+      "the demand drops",
+      "the demand declines",
+      "the demand goes down",
+      "the demand shrinks"
+     ]
+    },
+    {
+     "antworten": [
+      "supply falls",
+      "supply decreases",
+      "supply drops",
+      "supply declines",
+      "supply goes down",
+      "supply shrinks",
+      "the supply falls",
+      "the supply decreases",
+      "the supply drops",
+      "the supply declines",
+      "the supply goes down",
+      "the supply shrinks"
+     ]
+    },
+    {
+     "antworten": [
+      "supply falls",
+      "supply decreases",
+      "supply drops",
+      "supply declines",
+      "supply goes down",
+      "supply shrinks",
+      "the supply falls",
+      "the supply decreases",
+      "the supply drops",
+      "the supply declines",
+      "the supply goes down",
+      "the supply shrinks"
+     ]
+    },
+    {
+     "antworten": [
+      "demand rises",
+      "demand increases",
+      "demand grows",
+      "demand goes up",
+      "the demand rises",
+      "the demand increases",
+      "the demand grows",
+      "the demand goes up"
+     ]
+    },
+    {
+     "antworten": [
+      "supply rises",
+      "supply increases",
+      "supply grows",
+      "supply goes up",
+      "the supply rises",
+      "the supply increases",
+      "the supply grows",
+      "the supply goes up"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Go further: Market forces in your everyday life",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben"
+   ],
+   "tasks": [
+    {
+     "prompt": "Be a price detective: choose an everyday product whose price has changed noticeably or varies depending on when you buy it – for example, concert tickets, limited-edition trainers, day ski passes or fruit in winter and summer. Describe: (1) How has the price changed? (2) What has happened on the demand side, and what on the supply side? (3) Which factor from this module is behind it – a trend, income, the season or the number of suppliers?",
+     "hint": "Always ask yourself first: do more or fewer people suddenly want the product (demand side)? Or is there suddenly more or less of it available to buy (supply side)? Often both sides change at the same time – in that case, describe both.",
+     "solution": "Example of a day ski pass: during the winter sports holidays, lots of people want to go skiing – demand is high, while the number of slopes and lifts stays the same. Ski lift operators then charge their highest prices. In March, demand falls, and many operators attract customers with cheaper tickets. The factor is the season, which mainly affects the demand side here. What matters is that you identify the demand and supply sides separately and clearly link the factor to the side it affects."
+    },
+    {
+     "prompt": "Explain in your own words – so that someone who has not studied this module could understand – why buyers buy less when the price rises, while suppliers want to sell more at the same time. Use your own example that does not appear in the module. OR: invent three situations of your own in the style of the matching activity and briefly explain whether demand or supply rises or falls in each one – one situation can be especially tricky.",
+     "hint": "To help with your explanation, look at the motives on both sides: buyers want to make the most of their money; suppliers want to cover their costs and earn a profit. For the tricky situations, choose cases where both sides change at the same time – such as a hot summer that increases demand for ice cream AND causes the strawberry crop to wither.",
+     "solution": "Key idea: for buyers, a product becomes less attractive as its price rises – they go without or switch to something else because their money is limited. For suppliers, the same product becomes more attractive as its price rises because they make more profit per item – producing more is worthwhile. Both sides therefore respond to the same price, but for opposite reasons. Example of a tricky matching situation: 'A rock star wears a second-hand jacket from an old brand in a music video – and at the same time, the biggest second-hand clothing market of the year takes place.' Here, demand rises (a trend) AND supply rises (lots of additional sellers at the market)."
+    }
+   ]
+  }
+ ]
+}
