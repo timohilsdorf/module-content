@@ -1,0 +1,1576 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-15-schuldenfallen-digitales-bezahlen --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:8b7c741b1e55be0711877766781a75160bd0b7ec85ced62780a080dd129d09f2",
+  "masterCommit": "a07b782",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.en.json",
+  "selfHash": "sha256:ea8d756053f463ca51338cc8b5a00a94361a656e779a7b4e93f40778aff2c12a"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-15-schuldenfallen-digitales-bezahlen",
+ "title": "Personal finance II: debt traps and digital payments",
+ "description": "‘Buy now, pay later’ sounds harmless, but it is the latest debt trap for young people. Here you will learn to tell digital payment methods apart (debit cards, credit cards, payment apps and buy now, pay later), understand why digital payments make it harder to control your spending, recognise common debt traps – and know the warning signs and where to find help.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.3",
+     "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 15,
+ "einheit": "Topic block C: Money, banking and financial literacy",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "debt",
+  "debt trap",
+  "Buy now pay later",
+  "BNPL",
+  "debit card",
+  "credit card",
+  "Twint",
+  "subscription trap",
+  "in-app purchases",
+  "small loan",
+  "debt collection",
+  "debt advice"
+ ],
+ "learningObjectives": [
+  "I can tell digital payment methods apart: debit cards (money leaves the account immediately), credit cards (pay later), payment apps and buy now, pay later.",
+  "I can explain why digital payments make it harder to control spending: the ‘pain of paying’ disappears.",
+  "I can recognise common debt traps: BNPL instalments, subscription traps, in-app purchases and small loans.",
+  "I know the warning signs of money problems and the first steps to take – and where to find free help in Liechtenstein."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "aha – Tipps & Infos für junge Leute (Liechtenstein)",
+   "url": "https://www.aha.li"
+  },
+  {
+   "title": "Beratung + Hilfe 147 (Pro Juventute, auch für Liechtenstein)",
+   "url": "https://www.147.ch"
+  },
+  {
+   "title": "Caritas Liechtenstein – Budget- und Schuldenberatung im Auftrag des Landes",
+   "url": "https://www.caritas.li"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-14-budget-sparen-lohnabrechnung"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "When the pain of paying disappears",
+   "body": "Remember what it feels like to hand a fifty-franc note across a shop counter? Researchers call that slight sinking feeling the **‘pain of paying’**: when you pay in cash, you **see and feel** the money leaving your hands – and automatically ask yourself whether the purchase is worth it.\n\nWith digital payments, this pain almost completely disappears: tap your card, take out your phone, tap ‘Buy now’ – no money visibly changes hands. That is convenient, but it has a side effect: **If you do not feel the pain, it is easier to spend money more quickly.** So it is worth knowing **when** your money actually leaves your account with each payment method:\n\n- **Debit card:** linked directly to your account – the money is taken **immediately**, and without funds you cannot pay. The card for your youth account is a debit card.\n- **Payment apps:** work like a debit card without the card – the money is taken **immediately** from your account or a balance you have topped up. **Twint** is widely used in Schweiz; however, it does not yet work with accounts at banks in Liechtenstein – local banks offer their own payment apps, such as **LiPay** from Liechtensteinische Landesbank.\n- **Credit card:** the bank pays the money on your behalf. All your purchases for the month appear **together on one bill** – you only pay at the end of the month. If you do not then pay the bill in full, you face hefty interest charges.\n- **Buy now, pay later (BNPL):** you only pay after 30 days or **in instalments** over several weeks or months. More on this in a moment, because this is where the latest trap lies.\n\nRemember the pattern in the graphic: **The later the money leaves your account, and the less visible this is, the harder it is to stay in control.**"
+  },
+  {
+   "type": "schaubild",
+   "title": "Four payment methods compared",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 275,
+      "y": 0,
+      "width": 576.24,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1332041795,
+      "type": "text",
+      "text": "Digital payments: When does your money actually go?",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 200,
+      "y": 48,
+      "width": 611.55,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1181581677,
+      "type": "text",
+      "text": "Four payment methods and when you pay – the later it happens, the harder it is to stay in control",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "karte1-kopf",
+      "x": 0,
+      "y": 140,
+      "width": 280,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#74c0fc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1110923235,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte1-text",
+      "x": 0,
+      "y": 204,
+      "width": 280,
+      "height": 240,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 561302477,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte1-pill",
+      "x": 0,
+      "y": 444,
+      "width": 280,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1978164099,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte2-kopf",
+      "x": 320,
+      "y": 140,
+      "width": 280,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#74c0fc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 98814509,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte2-text",
+      "x": 320,
+      "y": 204,
+      "width": 280,
+      "height": 240,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 313981731,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte2-pill",
+      "x": 320,
+      "y": 444,
+      "width": 280,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1420033165,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte3-kopf",
+      "x": 640,
+      "y": 140,
+      "width": 280,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 890347203,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte3-text",
+      "x": 640,
+      "y": 204,
+      "width": 280,
+      "height": 240,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 359588589,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte3-pill",
+      "x": 640,
+      "y": 444,
+      "width": 280,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1737936483,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte4-kopf",
+      "x": 960,
+      "y": 140,
+      "width": 280,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffc078",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 483261773,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte4-text",
+      "x": 960,
+      "y": 204,
+      "width": 280,
+      "height": 240,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1561659907,
+      "type": "rectangle"
+     },
+     {
+      "id": "karte4-pill",
+      "x": 960,
+      "y": 444,
+      "width": 280,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1914358701,
+      "type": "rectangle"
+     },
+     {
+      "id": "verbinder1",
+      "x": 140,
+      "y": 524,
+      "width": 0,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1787482531,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        64
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "verbinder2",
+      "x": 460,
+      "y": 524,
+      "width": 0,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1971244557,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        64
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "verbinder3",
+      "x": 780,
+      "y": 524,
+      "width": 0,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1093051715,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        64
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "verbinder4",
+      "x": 1100,
+      "y": 524,
+      "width": 0,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#868e96",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1173587053,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        64
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "zeitachse",
+      "x": 0.5,
+      "y": 600,
+      "width": 1239,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1749484771,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1239,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "punkt1",
+      "x": 128,
+      "y": 588,
+      "width": 24,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1732406989,
+      "type": "ellipse"
+     },
+     {
+      "id": "punkt2",
+      "x": 448,
+      "y": 588,
+      "width": 24,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2004512899,
+      "type": "ellipse"
+     },
+     {
+      "id": "punkt3",
+      "x": 768,
+      "y": 588,
+      "width": 24,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 671419693,
+      "type": "ellipse"
+     },
+     {
+      "id": "punkt4",
+      "x": 1088,
+      "y": 588,
+      "width": 24,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 276785187,
+      "type": "ellipse"
+     },
+     {
+      "id": "achse-links",
+      "x": 30,
+      "y": 634,
+      "width": 200.41,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1201987469,
+      "type": "text",
+      "text": "Payment timing: now",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "achse-rechts",
+      "x": 1040,
+      "y": 634,
+      "width": 66.2,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 423914435,
+      "type": "text",
+      "text": "much later",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "frage",
+      "x": 0,
+      "y": 692,
+      "width": 421.15,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1549493741,
+      "type": "text",
+      "text": "How easy is it to control your spending?",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "balken-links",
+      "x": 0,
+      "y": 732,
+      "width": 580,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 904395619,
+      "type": "rectangle"
+     },
+     {
+      "id": "balken-rechts",
+      "x": 580,
+      "y": 732,
+      "width": 660,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2033328205,
+      "type": "rectangle"
+     },
+     {
+      "id": "hinweis",
+      "x": 0,
+      "y": 852,
+      "width": 1240,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#adb5bd",
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 45651715,
+      "type": "rectangle"
+     },
+     {
+      "id": "qnnDxE8a3hu-wOw_pl9nZ",
+      "x": 97.8,
+      "y": 159.5,
+      "width": 84.4,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#072036",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1582519651,
+      "type": "text",
+      "text": "Debit card",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte1-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ydFEQUzZituC9q0oU3q-l",
+      "x": 7.43,
+      "y": 280.25,
+      "width": 265.15,
+      "height": 87.5,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2024321283,
+      "type": "text",
+      "text": "Linked to your account: no funds, no payment. Your balance shows each purchase straight away.\n\ntypical: youth account card",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte1-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "hrhVCA7xy6E5PXXmKDtwo",
+      "x": 85.12,
+      "y": 474,
+      "width": 109.77,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1125226659,
+      "type": "text",
+      "text": "Payment: now",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte1-pill",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "QaG8iiixRDzLFxH1PkXeB",
+      "x": 411.68,
+      "y": 159.5,
+      "width": 96.63,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#072036",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 188517443,
+      "type": "text",
+      "text": "Payment app",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte2-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "OJJbathPuSzGnGn2gJQH-",
+      "x": 325.39,
+      "y": 280.25,
+      "width": 269.23,
+      "height": 87.5,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1695026147,
+      "type": "text",
+      "text": "Pay by phone, linked to your account or topped-up balance – a debit card without the card.\n\ntypical: Twint (Schweiz), LiPay (Liechtenstein)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte2-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Nt6B9a8za29gAmYxY_icA",
+      "x": 405.12,
+      "y": 474,
+      "width": 109.77,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1686280067,
+      "type": "text",
+      "text": "Payment: now",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte2-pill",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "zHs7GO4PCz11lp3PiNlHA",
+      "x": 734.47,
+      "y": 159.5,
+      "width": 91.06,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 401256227,
+      "type": "text",
+      "text": "Credit card",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte3-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "c2SlVUu-Z1OVYhVdymWwg",
+      "x": 648.18,
+      "y": 271.5,
+      "width": 263.64,
+      "height": 105,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1101976259,
+      "type": "text",
+      "text": "The bank pays for you. All your purchases for the month appear on one bill.\n\nWarning: If you do not pay in full, interest is high.",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte3-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "1-K1Ew4Q9JAaFs6mcg__t",
+      "x": 704.46,
+      "y": 474,
+      "width": 151.09,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1382908515,
+      "type": "text",
+      "text": "Payment: month end",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte3-pill",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "dmougH5VFXtasvhuoh43Z",
+      "x": 1024.56,
+      "y": 159.5,
+      "width": 150.89,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#833207",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 586497539,
+      "type": "text",
+      "text": "Buy now, pay later",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte4-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "U4Zne-dnyFEwj0-99fiuX",
+      "x": 973.45,
+      "y": 271.5,
+      "width": 253.1,
+      "height": 105,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1849984419,
+      "type": "text",
+      "text": "Buy now, pay in 30 days or in instalments. Small instalments can add up unnoticed.\n\nWarning: missed payments → reminder fees, debt collection",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte4-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "jbYPXWVoNGAW-nHL1CLT-",
+      "x": 978.89,
+      "y": 474,
+      "width": 242.22,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#c74c0a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 193583427,
+      "type": "text",
+      "text": "Payment: weeks or months later",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "karte4-pill",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Hq-JTP0SlWG2ePnx77eXe",
+      "x": 160.26,
+      "y": 762,
+      "width": 259.48,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1747171555,
+      "type": "text",
+      "text": "easy: You see the money go straight away",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "balken-links",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "rHmS3fMr5rKqiUP2sCEf1",
+      "x": 752.5,
+      "y": 762,
+      "width": 315,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#a03d08",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1101046915,
+      "type": "text",
+      "text": "hard: The ‘pain of paying’ disappears",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "balken-rechts",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "egoiZpD3Ie2VhCr1YLbju",
+      "x": 24.47,
+      "y": 889.5,
+      "width": 1191.05,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#495057",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 532618275,
+      "type": "text",
+      "text": "Note: Twint does not yet work with accounts at local banks in Liechtenstein. They offer their own payment apps (e.g. LiPay). The principle is the same: immediate payment. Simplified diagram.",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hinweis",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The graphic compares four digital payment methods by when the money is actually taken. Its key message: the later the money leaves your account, and the less visible this is, the harder it becomes to control your spending. A timeline places the four methods between ‘now’ and ‘much later’. A two-part coloured bar shows that controlling spending is easy while you see the money go straight away, and becomes hard when the ‘pain of paying’ disappears. Key points: (1) Debit card – linked directly to your account; no funds, no payment; your balance shows each purchase immediately. A typical example is a youth account card. Payment: now. (2) Payment app – pay by phone, linked to your account or topped-up balance, like a debit card without the card. Typical examples: Twint (Schweiz) and LiPay (Liechtenstein). Payment: now. (3) Credit card – the bank pays for you; all your purchases for the month appear together on one bill. Warning: if you do not pay the bill in full, interest is high. Payment: month end. (4) Buy now, pay later – pay in 30 days or in instalments. Small instalments can easily add up unnoticed; missed payments lead to reminder fees and debt collection. Payment: weeks or months later. A final note: Twint does not yet work with accounts at local banks in Liechtenstein. Local banks offer their own payment apps (e.g. LiPay); the principle is the same: immediate payment. Simplified diagram.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "The four most common debt traps",
+   "body": "Debt rarely starts with one big foolish decision – more often, it comes from **lots of small things you barely think about**. You should know these four traps:\n\n1. **Buy now, pay later instalments – the latest trap:** When shopping online, ‘pay in instalments’ is often just a click away and feels free. But three orders with three small instalments each already mean nine payment dates. Lose track or miss an instalment and you face **reminder fees**; eventually, a **debt collection agency** gets in touch. Surveys from Deutschland show that a substantial proportion of young adults have already received letters from debt collection agencies. And from [[modul:wirtschaft-politik-12-banken-kredit-zins]] you know that neglecting bills damages your **creditworthiness** – which can cause problems later when you want a mobile phone contract or are looking for a home.\n2. **Subscription traps:** The free month of a streaming or gym subscription **automatically becomes a paid subscription** unless you cancel in time. CHF 12.90 seems harmless on its own – but four forgotten subscriptions cost over CHF 600 a year.\n3. **In-app purchases:** Games sell progress in tiny amounts – CHF 2 here, CHF 5 there. Because each amount is so small, the pain of paying disappears completely; you only see the total on your statement.\n4. **Small loans:** ‘CHF 5000 in your account immediately!’ – consumer loans offer quick money at high interest rates. You know the logic from [[modul:wirtschaft-politik-12-banken-kredit-zins]]: the less certain repayment is, the higher the interest rate. If you need a loan to pay old bills, you are already in a **debt spiral**.\n\nMany shops and apps also use psychological tricks – known as **dark patterns** – to make you buy faster and make cancelling harder. You will look at these more closely in [[modul:wirtschaft-politik-17-dark-patterns]]. For now, remember: if something feels particularly easy, there is usually a reason."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "L-ygoqSzavk",
+   "title": "Video: the ‘buy now, pay later’ debt trap",
+   "description": "This report (5:49) from the public service channel BR24 uses the real case of 25-year-old Fabian to show how buy now, pay later can lead to debt. The report comes from Deutschland – the amounts are in euros, but the pattern is the same here. Watch with two questions in mind: (1) How did lots of small deferred payments turn into more than 30 000 euros of debt for Fabian – and what part did the ease of ordering play? (2) Which warning signs could Fabian have taken seriously sooner?",
+   "transcript": "This news report from BR24 (Bayerischer Rundfunk, 5:49 minutes) follows 25-year-old Fabian, who has built up around 32 000 euros of debt through ‘buy now, pay later’ offers when shopping online. It explains how the apparent ease of buy now, pay later services encourages impulse buying, and how lots of small deferred payments can turn into a spiral of debt and shame. For context, the report cites surveys suggesting that one in four people in Generation Z has already been contacted by a debt collection agency. The report takes a factual approach and also shows a way out – by getting a clear overview, being honest and seeking professional advice.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "title": "Recognising warning signs – and knowing where to turn",
+   "body": "Money problems creep up on you. Take these **warning signs** seriously – in yourself and in your friends:\n\n- You **deliberately stop checking your account balance**.\n- Bills and payment reminders are left **unopened**.\n- You pay **old bills with new money** – for example, through your next BNPL order or a loan.\n- You **hide** purchases or keep borrowing small amounts.\n\nIf this sounds familiar, remember: **The sooner you act, the easier it is to get back on track.** You can take the first steps yourself:\n\n1. **Get a clear overview:** Put all unpaid bills, instalments and subscriptions on a list – the budget from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]] is the tool for this. It is an uncomfortable moment, but it is the turning point.\n2. **Cancel subscriptions and stop spending:** Pause everything you do not need; deliberately replace card and app payments with cash until the pain of paying returns.\n3. **Talk rather than feel ashamed:** Speak to your parents, your workplace trainer or another person you trust. Debt is not a character flaw – but it is a problem that rarely gets smaller if you face it alone.\n4. **Get professional help – it is free:** In Liechtenstein, **Caritas Liechtenstein** provides **budget and debt advice** on behalf of the government. For young people, **aha – Tipps & Infos für junge Leute** (aha.li) offers accessible information about money. Pro Juventute's advice service is available around the clock via **147** (phone, SMS or chat at 147.ch) – including from Liechtenstein."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: payment methods and debt traps",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden",
+    "wp.bezahlen.schuldenfallen-erkennen"
+   ],
+   "intro": "Show that you understand payment methods and debt traps. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "When is money taken from your account when you pay with a debit card?",
+     "options": [
+      {
+       "text": "Only at the end of the month, together with all your other purchases."
+      },
+      {
+       "text": "As soon as you pay – and without funds in your account, the payment will usually not go through.",
+       "correct": true
+      },
+      {
+       "text": "Only when you manually confirm the payment in your banking app."
+      },
+      {
+       "text": "After 30 days, as with buy now, pay later."
+      }
+     ],
+     "explanation": "A debit card is linked directly to your account: the money leaves immediately, and you can generally only spend what is there. That makes it the easiest digital payment method to keep track of. A single monthly bill belongs to a credit card; the 30-day period belongs to BNPL. You do not manually confirm each payment – the money is taken automatically."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What makes a credit card different?",
+     "options": [
+      {
+       "text": "It only works if there is enough money in your account."
+      },
+      {
+       "text": "It is the same as a debit card, just a different colour."
+      },
+      {
+       "text": "You always pay less with it because the bank gives you a discount."
+      },
+      {
+       "text": "The bank pays the money on your behalf – all your purchases for the month appear together on one bill.",
+       "correct": true
+      }
+     ],
+     "explanation": "‘Credit’ is in the name: the bank pays for you and sends you a bill at the end of the month. That is why you do not need funds in your account when you buy something – and why a credit card is harder to keep track of than a debit card, which is not the same thing. There is no discount; quite the opposite: if you do not pay the monthly bill in full, you pay high interest on the outstanding amount."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Why do digital payments make it harder to control your spending?",
+     "options": [
+      {
+       "text": "Because digital payments are always more expensive than cash payments."
+      },
+      {
+       "text": "Because you can only pay large amounts digitally."
+      },
+      {
+       "text": "Because the ‘pain of paying’ disappears: you do not see and feel the money go.",
+       "correct": true
+      },
+      {
+       "text": "Because banks keep digital spending secret from their customers."
+      }
+     ],
+     "explanation": "When you pay in cash, you feel yourself parting with the money – this feeling that holds you back is called the ‘pain of paying’. It disappears with digital payments: tapping your phone barely feels like anything, so you spend more freely. The digital payment itself is not usually more expensive, and small amounts are especially easy to pay digitally – that is part of the problem. Nothing is secret either: all your spending is on your bank or card statement – you just have to look."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What is the typical danger of buy now, pay later?",
+     "options": [
+      {
+       "text": "Lots of small instalments from different orders add up unnoticed – and missed payments lead to reminder fees and debt collection.",
+       "correct": true
+      },
+      {
+       "text": "The goods are only delivered once everything is paid in full."
+      },
+      {
+       "text": "BNPL is banned by law in Liechtenstein and Schweiz."
+      },
+      {
+       "text": "There is no danger – BNPL simply lets you postpone payment for free."
+      }
+     ],
+     "explanation": "This is exactly what makes BNPL the latest trap: each instalment seems harmless, but three orders can quickly mean nine payment dates. If you miss an instalment, you face reminder fees, potentially leading to debt collection proceedings and damaged creditworthiness. The goods arrive straight away, while you pay later – that is the appeal. BNPL is not banned, and deferring payment is only ‘free’ as long as you really do pay everything on time."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "How does a typical subscription trap work?",
+     "options": [
+      {
+       "text": "The subscription ends automatically after the free month – no need to cancel."
+      },
+      {
+       "text": "The provider gives you the subscription for free if you recommend it to others."
+      },
+      {
+       "text": "Subscriptions can only ever be cancelled by letter."
+      },
+      {
+       "text": "The free month automatically becomes a paid subscription unless you cancel in time.",
+       "correct": true
+      }
+     ],
+     "explanation": "The business model relies on you forgetting: the free month ends and, unless you cancel, the money is taken automatically – month after month. Nothing ends by itself; that is the trap. Nothing is given away for free either, and having to cancel by letter is a myth: you can usually cancel in the app or online. The safest approach is to set a reminder on your phone as soon as you sign up for the free subscription."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "‘CHF 5000 in your account immediately – it's easy!’ What should you know about small loans like these?",
+     "options": [
+      {
+       "text": "They are a cheap way to get what you want straight away."
+      },
+      {
+       "text": "They offer quick money at high interest rates – if you use them to pay old bills, you are already in a debt spiral.",
+       "correct": true
+      },
+      {
+       "text": "The interest rate on them is legally capped at 1 per cent."
+      },
+      {
+       "text": "You do not have to repay these loans if you are under age."
+      }
+     ],
+     "explanation": "Small consumer loans are among the most expensive forms of borrowing: interest rates are high because the risk of non-payment is high (the logic from [[modul:wirtschaft-politik-12-banken-kredit-zins]]). So they are anything but cheap, and there is no 1 per cent cap. It becomes especially dangerous when newly borrowed money fills old gaps – that is the debt spiral. Contracts do not simply ‘disappear’ for minors either: these loans are normally not available to minors in the first place, but debts from other sources still remain."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Which behaviour is a typical warning sign that money problems are starting?",
+     "options": [
+      {
+       "text": "Bills and payment reminders are left unopened, and the person deliberately stops checking their account balance.",
+       "correct": true
+      },
+      {
+       "text": "Someone keeps a budget and reviews it every month."
+      },
+      {
+       "text": "Someone sets aside money for savings first every month."
+      },
+      {
+       "text": "Someone compares several offers before making a large purchase."
+      }
+     ],
+     "explanation": "Looking away is the classic early warning sign: if someone stops opening letters and avoids their account balance, they usually already suspect something is wrong. That is exactly when acting quickly matters, because it is still easier to get back on track. The other three behaviours are the opposite of warning signs: keeping a budget, saving first and comparing offers are the very tools from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]] that protect you from money problems."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "You realise your debts are becoming too much to handle. What is the most sensible first approach?",
+     "options": [
+      {
+       "text": "Take out a small loan to pay all your outstanding bills immediately."
+      },
+      {
+       "text": "Wait – small debts disappear by themselves over time."
+      },
+      {
+       "text": "Get a clear overview, talk to someone you trust – and seek free help, for example from Caritas Liechtenstein's budget and debt advice service or via 147.",
+       "correct": true
+      },
+      {
+       "text": "Open a new account at a different bank and start again."
+      }
+     ],
+     "explanation": "The turning point is getting a clear overview: list everything, take an honest look, talk – and use professional help that costs nothing. In Liechtenstein, this is Caritas's budget and debt advice service (provided on behalf of the government); young people can also use aha.li and the advice service on 147. A new loan for old bills, by contrast, feeds the debt spiral. Debts never disappear by themselves – reminder fees make them grow. And a new account does not erase debts; the creditors are still there."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-bezahlformen-schulden",
+   "title": "Fill in the terms: payments and debt traps",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden",
+    "wp.bezahlen.schuldenfallen-erkennen"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word, then the gap). **Watch out:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "With a {{1}}, money is taken from your account immediately – you see the new balance straight away. A {{2}} groups your purchases together and charges you later, usually at the end of the month. With buy now, pay later, you only pay after 30 days or in {{3}}.\nWhen you pay in cash, you feel the {{4}} of paying. With digital payments, this disappears, making it harder to keep {{5}} of your spending. Common debt traps include {{6}} that renew automatically after the free month, small one-off {{7}} in games – CHF 2 here, CHF 5 there – and {{8}} with high interest rates. If you miss instalments, you risk {{9}} and debt collection proceedings. The first step out of the trap is always the same: get {{10}} of your finances.",
+   "luecken": [
+    {
+     "antworten": [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ]
+    },
+    {
+     "antworten": [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ]
+    },
+    {
+     "antworten": [
+      "instalments",
+      "installments"
+     ]
+    },
+    {
+     "antworten": [
+      "pain",
+      "the pain"
+     ]
+    },
+    {
+     "antworten": [
+      "control",
+      "track"
+     ]
+    },
+    {
+     "antworten": [
+      "subscriptions",
+      "the subscriptions"
+     ]
+    },
+    {
+     "antworten": [
+      "in-app purchases",
+      "in app purchases",
+      "the in-app purchases",
+      "the in app purchases"
+     ]
+    },
+    {
+     "antworten": [
+      "small loans",
+      "small consumer loans",
+      "small personal loans",
+      "the small loans"
+     ]
+    },
+    {
+     "antworten": [
+      "reminder fees",
+      "reminder charges",
+      "payment reminder fees",
+      "late fees",
+      "late payment fees",
+      "late-payment fees",
+      "late payment charges",
+      "the reminder fees"
+     ]
+    },
+    {
+     "antworten": [
+      "a clear overview",
+      "an overview",
+      "overview",
+      "clear overview",
+      "a clear picture",
+      "a full picture",
+      "the full picture"
+     ]
+    }
+   ],
+   "ablenker": [
+    "savings interest",
+    "dividend",
+    "premium"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-bezahlen-eingabe",
+   "title": "Type the terms: When does the money move?",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden",
+    "wp.bezahlen.schuldenfallen-erkennen"
+   ],
+   "intro": "There is no word bank this time – **type the missing terms yourself**. Capital and lower-case letters are treated the same.",
+   "modus": "eingabe",
+   "text": "With a debit card, money leaves your account {{1}}. The credit card bill usually arrives at the end of the {{2}}. ‘Kauf jetzt, zahl später’ is ‘Buy now, pay {{3}}’ in English. If you leave bills and instalments unpaid, you risk {{4}} and eventually debt collection. In Liechtenstein, free help with money problems is available from the budget and debt advice service run by {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "immediately",
+      "straight away",
+      "right away",
+      "instantly",
+      "at once",
+      "straightaway",
+      "directly",
+      "on the spot"
+     ]
+    },
+    {
+     "antworten": [
+      "month",
+      "the month"
+     ]
+    },
+    {
+     "antworten": [
+      "later"
+     ]
+    },
+    {
+     "antworten": [
+      "reminder fees",
+      "reminder charges",
+      "payment reminder fees",
+      "late fees",
+      "late payment fees",
+      "late-payment fees",
+      "late payment charges",
+      "late charges",
+      "reminders",
+      "payment reminders",
+      "overdue payment reminders",
+      "the reminder fees",
+      "the reminders"
+     ]
+    },
+    {
+     "antworten": [
+      "Caritas",
+      "Caritas Liechtenstein"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-bezahlformen",
+   "title": "Match: debit card, credit card or buy now, pay later?",
+   "teilkompetenzen": [
+    "wp.bezahlen.bezahlformen-unterscheiden"
+   ],
+   "intro": "Match each statement to the correct payment method: **debit card**, **credit card** or **buy now, pay later**. Each method appears more than once.",
+   "modus": "wortbank",
+   "text": "The money leaves your account at the moment of purchase. {{1}}\nAll your purchases for the month appear together on one bill. {{2}}\nYou pay the purchase price in several instalments over weeks or months. {{3}}\nWithout funds in your account, the payment will usually not go through. {{4}}\nThe bank pays the money on your behalf – you are billed later. {{5}}\nPopular in online shops: ‘Order now, pay in 30 days or in instalments.’ {{6}}\nYour account balance shows your spending immediately. {{7}}\nIf you do not pay the monthly bill in full, you pay high interest. {{8}}\nLots of small instalments from different orders can easily add up unnoticed. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ]
+    },
+    {
+     "antworten": [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ]
+    },
+    {
+     "antworten": [
+      "buy now, pay later",
+      "buy now pay later",
+      "buy-now-pay-later",
+      "BNPL"
+     ]
+    },
+    {
+     "antworten": [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ]
+    },
+    {
+     "antworten": [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ]
+    },
+    {
+     "antworten": [
+      "buy now, pay later",
+      "buy now pay later",
+      "buy-now-pay-later",
+      "BNPL"
+     ]
+    },
+    {
+     "antworten": [
+      "debit card",
+      "a debit card",
+      "the debit card"
+     ]
+    },
+    {
+     "antworten": [
+      "credit card",
+      "a credit card",
+      "the credit card"
+     ]
+    },
+    {
+     "antworten": [
+      "buy now, pay later",
+      "buy now pay later",
+      "buy-now-pay-later",
+      "BNPL"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: your spending, your control",
+   "teilkompetenzen": [
+    "wp.bezahlen.schuldenfallen-erkennen",
+    "wp.bezahlen.bezahlformen-unterscheiden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Do a subscription check: list all the subscriptions and regular services you pay for (or your family pays for on your behalf) – streaming, music, games, cloud storage, gym membership and your mobile phone. Note the monthly amount for each and work out the annual cost. Which subscriptions do you actually use – and which would you cancel after this check?",
+     "hint": "Look in three places: your phone's subscription settings (app store subscriptions), your emails for ‘subscription confirmed’ or ‘invoice’, and your bank statement or card payments. Annual cost = monthly amount × 12; small amounts add up surprisingly quickly.",
+     "solution": "There is no single model solution, but this is a typical result: there are more subscriptions than expected (the average household significantly underestimates its subscription costs), and at least one has barely been used for months. Example calculation: streaming CHF 13, music CHF 11, a game subscription CHF 8 and cloud storage CHF 3 come to CHF 35 a month – CHF 420 a year. Cancelling an unused subscription can save you more in one go than many people put aside in a month."
+    },
+    {
+     "prompt": "Your friend regularly orders clothes online and always chooses ‘pay in 3 instalments’ – ‘because then it doesn't hurt at all’. She currently has orders for CHF 90, CHF 120 and CHF 60 to pay off. (a) How many payment dates does she need to remember, and what is the total amount she still owes? (b) Use the ‘pain of paying’ to explain to her why it feels so easy – and what makes it dangerous. (c) What alternative would you suggest?",
+     "hint": "For (a): 3 orders × 3 instalments. For (b): What does she feel when she clicks ‘pay in instalments’ – and when does the bill actually arrive? For (c): Think about the debit card and the budgeting rule from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]].",
+     "solution": "(a) 3 × 3 = 9 payment dates; amount outstanding: 90 + 120 + 60 = CHF 270. (b) She feels nothing when she clicks – no money visibly leaves her hands, so the pain of paying disappears completely. That is precisely the danger: the CHF 270 has already been spent, but it does not feel that way. If she misses one of the nine instalments, reminder fees are added and her creditworthiness suffers. (c) Alternatives: pay immediately by debit card (so the account balance shows the true picture), only order what this month's budget allows – or save up for the purchase instead of paying it off in instalments afterwards."
+    },
+    {
+     "prompt": "Create a short ‘money problems emergency plan’ for yourself or an imaginary person: name three warning signs to look out for, the first two steps you can take yourself, and two places to get help in Liechtenstein, including what they offer.",
+     "hint": "You can find warning signs in the section ‘Recognising warning signs’. For places to get help: who provides free budget and debt advice in Liechtenstein? What does aha.li offer – and who can you reach on 147?",
+     "solution": "Example emergency plan: warning signs – (1) avoiding your account balance, (2) leaving payment reminders unopened, (3) using new debt to pay old bills. First steps – (1) get a clear overview: list all outstanding amounts, instalments and subscriptions (use the budget from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]), (2) cancel unnecessary subscriptions and switch to cash or a debit card; also talk to someone you trust. Places to get help – Caritas Liechtenstein's budget and debt advice service (free, provided on behalf of the government, helps you organise your finances and negotiate), aha – Tipps & Infos für junge Leute (aha.li, accessible information about money) and Pro Juventute's Beratung + Hilfe 147 service (phone, SMS, chat – around the clock, including from Liechtenstein)."
+    }
+   ]
+  }
+ ]
+}
