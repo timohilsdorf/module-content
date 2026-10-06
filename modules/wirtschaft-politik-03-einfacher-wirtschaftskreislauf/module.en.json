@@ -1,0 +1,1095 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-03-einfacher-wirtschaftskreislauf --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:7bda7596969393e64e967a5677514a71671c9d6cf5a6f2447fa38cfe5ad3259f",
+  "masterCommit": "2e33836",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:6bf08d783e693fece1676c4659d9265551f0b668e4fb50c9de73fd67f62f7104"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-03-einfacher-wirtschaftskreislauf",
+ "title": "The simple circular flow of the economy",
+ "description": "Labour in exchange for wages, goods in exchange for money: here you bring households and businesses together in the simple circular flow of the economy. You distinguish between the real flow and the money flow and discover why one participant's spending is another's income.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 3,
+ "einheit": "Topic A: Basic concepts and the circular flow of the economy",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "leicht",
+ "keywords": [
+  "circular flow of the economy",
+  "simple circular flow of the economy",
+  "households",
+  "businesses",
+  "real flow",
+  "flow of goods",
+  "money flow",
+  "labour",
+  "wages",
+  "consumer spending",
+  "model",
+  "circular flow concept"
+ ],
+ "learningObjectives": [
+  "I can describe the simple circular flow between households and businesses: households supply labour and receive wages in return; businesses supply goods and services and receive consumer spending in return.",
+  "I can distinguish between the real flow (labour, goods and services) and the money flow (wages and consumer spending) and recognise that the two flows move in opposite directions.",
+  "I can explain the circular flow concept: the flows keep moving, and one participant's spending is another's income."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-02-haushalte-unternehmen-staat"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Two participants, four flows",
+   "body": "In [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]], you learnt about the three participants in the economy: households, businesses and the state. Now we will take a closer look at how the first two interact. Economists use a **model** to do this: they leave out anything that is not important for the moment. **The state is deliberately left out** for now; it returns in [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]. That leaves **households** and **businesses**, with things constantly flowing back and forth between them.\n\nThink again about your holiday job at the bakery: for a month, you supply the bakery with your **labour**, stocking shelves and serving customers. At the end of the month, the bakery transfers your **wages** to you. The next day, you buy a sandwich there: the bakery gives you a good, and you pay for it at the till.\n\nFour things have flowed: your labour, your wages, the sandwich and your money. Two are something 'real', and two are money. In each exchange, they move in opposite directions. These four flows make up the **simple circular flow of the economy**."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "KoTrLcNVaQA",
+   "title": "Video: The simple circular flow of the economy",
+   "description": "This explainer video (3:42) presents the simple circular flow of the economy as a model. As you watch, focus on two questions: (1) What do households give businesses, and what do they receive in return? (2) Which two flows move in opposite directions in the circular flow? A quick note: the video mentions that households provide businesses with 'land and capital' as well as labour. Just remember: everything households supply to businesses for production moves in the same flow as labour.",
+   "transcript": "This explainer video from the educational channel 'Die Merkhilfe Wirtschaft' (3:42 minutes) presents the simple circular flow of the economy as a model with two participants: households and businesses. Households supply businesses with their labour (the video also includes land and capital); businesses pay wages in return. In the other direction, businesses supply households with consumer goods and services, which households pay for through their consumer spending. The video groups these relationships into two flows moving in opposite directions, the flow of goods and the money flow, and shows that they keep moving."
+  },
+  {
+   "type": "text",
+   "title": "Work for wages, goods for money",
+   "body": "The simple circular flow of the economy consists of two exchanges you already know from [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]]. What is new is how we look at them: we draw them as **flows** between households and businesses.\n\n**Exchange 1: Work for wages**\n\n- **Households supply businesses with labour**: people work in bakeries, shops and offices.\n- **Businesses pay households wages in return**: the money flows in the opposite direction, from the business to the household.\n\n**Exchange 2: Goods for money**\n\n- **Businesses supply households with goods and services**: bread, a sandwich, a haircut or a bus journey.\n- **Households pay for them**: their **consumer spending** flows to the business, again in the opposite direction.\n\nCan you spot the pattern? **Every exchange consists of two flows moving in opposite directions**: something 'real' flows one way, and money flows the other way. Together, the four flows form a closed loop. Take a look at the diagram."
+  },
+  {
+   "type": "schaubild",
+   "title": "The simple circular flow at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 360,
+      "y": 0,
+      "width": 376.7,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 808528835,
+      "type": "text",
+      "text": "The simple circular flow",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "box-haushalte",
+      "x": 0,
+      "y": 100,
+      "width": 390,
+      "height": 280,
+      "angle": 0,
+      "strokeColor": "#2e5c8a",
+      "backgroundColor": "#b3cfe8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 127575533,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-unternehmen",
+      "x": 840,
+      "y": 100,
+      "width": 390,
+      "height": 280,
+      "angle": 0,
+      "strokeColor": "#2e5c8a",
+      "backgroundColor": "#d0e2f2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1362934627,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-arbeitskraft",
+      "x": 410.5,
+      "y": 140,
+      "width": 409,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2055823437,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        409,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-lohn",
+      "x": 819.5,
+      "y": 205,
+      "width": 409,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1433753347,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -409,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-gueter",
+      "x": 819.5,
+      "y": 270,
+      "width": 409,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1752288941,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -409,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-konsum",
+      "x": 410.5,
+      "y": 335,
+      "width": 409,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1801027235,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        409,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-pfeil-real",
+      "x": 140.5,
+      "y": 460,
+      "width": 109,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 805138701,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        109,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-text-real",
+      "x": 290,
+      "y": 450,
+      "width": 335.48,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1838658115,
+      "type": "text",
+      "text": "Real flow: labour, goods and services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "legende-pfeil-geld",
+      "x": 140.5,
+      "y": 515,
+      "width": 109,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 514180973,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        109,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-text-geld",
+      "x": 290,
+      "y": 505,
+      "width": 255.52,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1561227747,
+      "type": "text",
+      "text": "Money flow: wages and consumer spending",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "merksatz",
+      "x": 370,
+      "y": 580,
+      "width": 354.98,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 380916173,
+      "type": "text",
+      "text": "Flows keep moving in opposite directions:\nOne participant's spending is another's income.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ofCt5imkh-bx9wh2a6p2r",
+      "x": 107.81,
+      "y": 190,
+      "width": 174.38,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#264c73",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 601816899,
+      "type": "text",
+      "text": "Households\n\nconsume goods\nsupply labour",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-haushalte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "HQbuMvDU7Az5HCHGUGghY",
+      "x": 944.48,
+      "y": 177.5,
+      "width": 181.04,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#2e5c8a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1189355235,
+      "type": "text",
+      "text": "Businesses\n\nproduce goods and\nservices,\npay wages",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-unternehmen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "SYx-mIK-xT_xPPhEQxisX",
+      "x": 576.35,
+      "y": 130,
+      "width": 77.3,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2003061379,
+      "type": "text",
+      "text": "Labour",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-arbeitskraft",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "X81Z1GwBzjAce0SfN2dNX",
+      "x": 598.11,
+      "y": 195,
+      "width": 33.77,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1479021923,
+      "type": "text",
+      "text": "Wages",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-lohn",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ylgS0Jd8FmQgRmrzN1bK_",
+      "x": 527.02,
+      "y": 260,
+      "width": 175.97,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1414089795,
+      "type": "text",
+      "text": "Goods and services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-gueter",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "p_4d4nakuJ76k1-DWQnvl",
+      "x": 558.12,
+      "y": 325,
+      "width": 113.76,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1529835299,
+      "type": "text",
+      "text": "Consumer spending",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-konsum",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram 'The simple circular flow' shows a model with exactly two participants: households on the left (they consume goods and supply labour) and businesses on the right (they produce goods and services and pay wages). Four arrows between the two participants represent the exchanges. A key distinguishes two types of flow: the real flow (solid, green) and the money flow (dashed, orange). Key points: (1) Labour flows from households to businesses: the real flow. (2) Wages flow from businesses to households in return: the money flow. (3) Goods and services flow from businesses to households: the real flow. (4) Consumer spending flows from households to businesses as payment: the money flow. (5) The real flow (labour, goods and services) and the money flow (wages and consumer spending) always move in opposite directions: every real flow has a corresponding money flow in the opposite direction. (6) The flows keep moving: one participant's spending is another's income.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "The real flow and the money flow",
+   "body": "Look closely at the four arrows in the diagram. Two carry something 'real', and two carry money:\n\n- **Real flow** (also called the flow of goods and services): the **labour** supplied by households and the **goods and services** supplied by businesses. This flow includes everything that directly provides a benefit: work, bread or a haircut.\n- **Money flow**: the **wages** paid by businesses and the **consumer spending** of households. This is the money used to pay for what is supplied in the real flow.\n\nThe key point is that **the two flows move in opposite directions**. Every real-flow arrow has a corresponding money-flow arrow pointing the other way. Check this using the example: the sandwich moves from the bakery to you (real flow), while your money moves from you to the bakery (money flow). Your labour goes from you to the bakery (real flow), while your wages go from the bakery to you (money flow).\n\n**Watch out for a common misconception:** 'Wages belong to the real flow because they are a reward for real work.' That is incorrect: what matters is **what flows**, not what it pays for. Wages are money, so they belong to the money flow. The labour they pay for belongs to the real flow. And remember: services also belong to the real flow, even though you cannot touch them. A haircut is a real service, not money."
+  },
+  {
+   "type": "text",
+   "title": "Why a circular flow?",
+   "body": "Why draw all this as a **circular flow** instead of a list of exchanges? Because the flows **never stop**, and the same money keeps changing hands.\n\nFollow your wages one step further: the bakery transfers your wages to you. For the bakery, this is **spending**; for you, it is **income**. You use some of it to buy a sandwich. Now it is the other way round: for you, the purchase is spending; for the bakery, it is income. The bakery uses this income to pay wages again, perhaps even yours. The money has not disappeared or been used up: it **circulates**.\n\nThis gives us the central rule of the circular flow: **One participant's spending is another's income.** There is no beginning and no end; each flow sets the next one in motion. This is why households and businesses depend so closely on each other: if households buy less, businesses receive less income and can pay less in wages, which could in turn mean households spend less.\n\nOne final point to keep in mind: our circular flow is a **simplified model**. You will explore what happens when the state joins in again in [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: The simple circular flow of the economy",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.kreislauf.zusammenhaenge-erklaeren"
+   ],
+   "intro": "Show what you know about the simple circular flow of the economy. You can repeat the quiz as often as you like; your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Which two participants interact in the simple circular flow of the economy?",
+     "options": [
+      {
+       "text": "Households and the state"
+      },
+      {
+       "text": "Households and businesses",
+       "correct": true
+      },
+      {
+       "text": "Businesses and the state"
+      },
+      {
+       "text": "Buyers and sellers"
+      }
+     ],
+     "explanation": "The simple circular flow of the economy is a model with exactly two participants: households and businesses. The state is deliberately left out to make the basic pattern clear; it is added in [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]. 'Buyer' and 'seller' are not separate participants, but roles that households and businesses take on when they exchange things."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What belongs to the real flow?",
+     "options": [
+      {
+       "text": "Wages and consumer spending"
+      },
+      {
+       "text": "Labour and wages: they belong to the same exchange"
+      },
+      {
+       "text": "Only things you can touch: services do not count"
+      },
+      {
+       "text": "Labour, goods and services",
+       "correct": true
+      }
+     ],
+     "explanation": "The real flow includes everything that directly provides a benefit: the labour supplied by households and the goods and services supplied by businesses, including services you cannot touch, such as a haircut. Wages and consumer spending, on the other hand, are money and form the money flow. Labour and wages belong to the same exchange, but to different flows."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Which flow do wages belong to?",
+     "options": [
+      {
+       "text": "The money flow: wages are money that flows from a business to a household.",
+       "correct": true
+      },
+      {
+       "text": "The real flow: wages are payment for real work."
+      },
+      {
+       "text": "Both flows at the same time, depending on what you spend them on."
+      },
+      {
+       "text": "Neither: wages are outside the circular flow."
+      }
+     ],
+     "explanation": "What matters is what flows, not what it pays for: wages are money, so they belong to the money flow, even though they are payment for real work. The labour they pay for belongs to the real flow. Each flow has a clear direction: wages flow from a business to a household."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "In which direction does consumer spending flow?",
+     "options": [
+      {
+       "text": "From businesses to households."
+      },
+      {
+       "text": "From the state to households."
+      },
+      {
+       "text": "From households to businesses.",
+       "correct": true
+      },
+      {
+       "text": "It flows in both directions at the same time."
+      }
+     ],
+     "explanation": "Consumer spending is the money households pay for goods and services, so it flows from households to businesses. The goods and services themselves flow in the opposite direction, from businesses to households. The state does not appear in the simple circular flow at all."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "How do the real flow and the money flow move in relation to each other?",
+     "options": [
+      {
+       "text": "In parallel: both flow in the same direction."
+      },
+      {
+       "text": "In turns: sometimes only money flows, and sometimes only goods flow."
+      },
+      {
+       "text": "Independently: the two flows have nothing to do with each other."
+      },
+      {
+       "text": "In opposite directions: where something real flows one way, money flows the other way.",
+       "correct": true
+      }
+     ],
+     "explanation": "The real flow and the money flow are two sides of the same exchange, so they move in opposite directions: labour flows to the business and wages back to the household; goods flow to the household and consumer spending back to the business. They flow at the same time, not in turns, and the exchange could not happen without both."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "After work at the bakery, you buy a sandwich. Which statement correctly describes this purchase in the circular flow?",
+     "options": [
+      {
+       "text": "The sandwich and the money both belong to the money flow because the purchase happens at the till."
+      },
+      {
+       "text": "The sandwich flows to you as part of the real flow, and your money flows to the bakery as part of the money flow.",
+       "correct": true
+      },
+      {
+       "text": "Your money belongs to the real flow because you physically take it out of your wallet."
+      },
+      {
+       "text": "The purchase is not part of the circular flow because it is private."
+      }
+     ],
+     "explanation": "Every purchase consists of two flows moving in opposite directions: the good (the sandwich) moves from the business to the household in the real flow, while the money (your consumer spending) moves from the household to the business in the money flow. Here, 'real' does not mean cash you can touch; it means goods and services. Money always belongs to the money flow. Everyday private purchases like this are exactly what the circular flow is made of."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Why is it called a circular FLOW?",
+     "options": [
+      {
+       "text": "Because all accounts are reset to zero at the end of the year."
+      },
+      {
+       "text": "Because every household always spends its money in the same shop."
+      },
+      {
+       "text": "Because the flows keep moving: one participant's spending is another's income, and the money keeps circulating.",
+       "correct": true
+      },
+      {
+       "text": "Because goods are returned to businesses after use."
+      }
+     ],
+     "explanation": "The circular flow has no beginning and no end: wages become consumer spending, consumer spending becomes business income, and that income is used to pay wages again. The money is not used up; it simply changes hands. It does not have to be spent in the same shop, and no accounts are reset or goods returned."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "The bakery transfers your holiday-job wages to you. What does this one payment mean for the two participants?",
+     "options": [
+      {
+       "text": "It is spending for the bakery and income for you, or your household.",
+       "correct": true
+      },
+      {
+       "text": "It is spending for both: after all, you worked for it."
+      },
+      {
+       "text": "It is income for the bakery and spending for you."
+      },
+      {
+       "text": "It is neither spending nor income: wages are simply part of the exchange."
+      }
+     ],
+     "explanation": "The same payment always has two sides: it is spending for the sender and income for the recipient. So the wage transfer is spending for the bakery and income for your household. That is exactly what the central rule means: 'One participant's spending is another's income.' Your work is not spending money; it is what you contribute to the real flow."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-vier-stroeme",
+   "title": "The four flows: Fill in the terms",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone, tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "In the simple circular flow of the economy, only two of the three participants remain: {{1}} supply labour and consume, while {{2}} produce and pay wages.\nFor a holiday job, households supply businesses with their {{3}}. In return, {{4}} flow in the opposite direction. When households go shopping, businesses supply them with {{5}} and services; households pay for these through their {{6}}.\nLabour, goods and services together form the {{7}}, while wages and consumer spending form the {{8}}. The two flows move {{9}}: where something real flows one way, {{10}} flows the other way.",
+   "luecken": [
+    {
+     "antworten": [
+      "households",
+      "the households"
+     ]
+    },
+    {
+     "antworten": [
+      "businesses",
+      "firms",
+      "companies",
+      "the businesses",
+      "the firms",
+      "the companies"
+     ]
+    },
+    {
+     "antworten": [
+      "labour",
+      "labor",
+      "work"
+     ]
+    },
+    {
+     "antworten": [
+      "wages",
+      "salaries",
+      "the wages",
+      "the salaries"
+     ]
+    },
+    {
+     "antworten": [
+      "goods",
+      "products"
+     ]
+    },
+    {
+     "antworten": [
+      "consumer spending",
+      "consumption expenditure",
+      "consumer expenditure",
+      "consumption spending",
+      "spending"
+     ]
+    },
+    {
+     "antworten": [
+      "real flow",
+      "flow of goods and services",
+      "goods and services flow",
+      "goods flow",
+      "flow of goods",
+      "real flows"
+     ]
+    },
+    {
+     "antworten": [
+      "money flow",
+      "monetary flow",
+      "flow of money",
+      "money flows",
+      "monetary flows"
+     ]
+    },
+    {
+     "antworten": [
+      "in opposite directions",
+      "in opposing directions",
+      "in reverse directions"
+     ]
+    },
+    {
+     "antworten": [
+      "money",
+      "the money"
+     ]
+    }
+   ],
+   "ablenker": [
+    "state",
+    "taxes",
+    "profit"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-kreislaufgedanke",
+   "title": "The circular flow concept: Type in the terms",
+   "teilkompetenzen": [
+    "wp.kreislauf.zusammenhaenge-erklaeren"
+   ],
+   "intro": "There is no word bank this time: **type in the missing terms yourself**. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "The circular flow has no beginning and no end. Your work at the bakery earns you wages at the end of the month: for the bakery, this payment is spending; for you, it is {{1}}. When you buy a sandwich there, it is the other way round: your {{2}} becomes income for the bakery. The bakery can use this income to buy more flour and pay {{3}}, and the whole process starts again. So one participant's spending is another's {{4}}. The money is not used up: it simply changes hands and stays in {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "income",
+      "earnings",
+      "revenue",
+      "an income"
+     ]
+    },
+    {
+     "antworten": [
+      "spending",
+      "expenditure",
+      "consumer spending",
+      "consumption expenditure",
+      "consumer expenditure",
+      "consumption spending",
+      "payment",
+      "expense",
+      "outlay"
+     ]
+    },
+    {
+     "antworten": [
+      "wages",
+      "salaries",
+      "pay",
+      "wage",
+      "salary",
+      "a wage",
+      "a salary",
+      "the wages",
+      "the salaries",
+      "the wage",
+      "the salary"
+     ]
+    },
+    {
+     "antworten": [
+      "income",
+      "revenue",
+      "earnings"
+     ]
+    },
+    {
+     "antworten": [
+      "circulation",
+      "the circular flow",
+      "circular flow",
+      "the circular flow of the economy",
+      "the circular flow of income",
+      "the economic cycle",
+      "the cycle"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-stroeme",
+   "title": "Classify: Real flow or money flow?",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
+   "intro": "Identify the correct flow for each example: **real flow** or **money flow**. Each time, ask yourself: is money flowing, or something 'real' such as work, a good or a service? Two cases are especially tricky.",
+   "modus": "wortbank",
+   "text": "You stock shelves and serve customers in your holiday job: {{1}}\nThe bakery transfers 450 francs in wages to you at the end of the month: {{2}}\nA customer is handed two croissants over the counter: {{3}}\nThe customer pays for the croissants at the till: {{4}}\nA hairdressing salon cuts a customer's hair: {{5}}\nThe customer pays for the haircut by card: {{6}}\nA satisfied guest leaves a tip for the waitress at the café: {{7}}\nAs part of your wages, you are allowed to take leftover loaves home for free in the evening (payment in kind): {{8}}\nA family has the sofa they ordered delivered to their home: {{9}}\nThe family transfers the amount on the invoice to the furniture shop: {{10}}",
+   "luecken": [
+    {
+     "antworten": [
+      "real flow",
+      "the real flow",
+      "flow of goods and services",
+      "the flow of goods and services",
+      "goods and services flow",
+      "goods flow",
+      "flow of goods",
+      "the goods flow",
+      "the flow of goods"
+     ]
+    },
+    {
+     "antworten": [
+      "money flow",
+      "the money flow",
+      "monetary flow",
+      "the monetary flow",
+      "flow of money",
+      "the flow of money"
+     ]
+    },
+    {
+     "antworten": [
+      "real flow",
+      "the real flow",
+      "flow of goods and services",
+      "the flow of goods and services",
+      "goods and services flow",
+      "goods flow",
+      "flow of goods",
+      "the goods flow",
+      "the flow of goods"
+     ]
+    },
+    {
+     "antworten": [
+      "money flow",
+      "the money flow",
+      "monetary flow",
+      "the monetary flow",
+      "flow of money",
+      "the flow of money"
+     ]
+    },
+    {
+     "antworten": [
+      "real flow",
+      "the real flow",
+      "flow of goods and services",
+      "the flow of goods and services",
+      "goods and services flow",
+      "goods flow",
+      "flow of goods",
+      "the goods flow",
+      "the flow of goods"
+     ]
+    },
+    {
+     "antworten": [
+      "money flow",
+      "the money flow",
+      "monetary flow",
+      "the monetary flow",
+      "flow of money",
+      "the flow of money"
+     ]
+    },
+    {
+     "antworten": [
+      "money flow",
+      "the money flow",
+      "monetary flow",
+      "the monetary flow",
+      "flow of money",
+      "the flow of money"
+     ]
+    },
+    {
+     "antworten": [
+      "real flow",
+      "the real flow",
+      "flow of goods and services",
+      "the flow of goods and services",
+      "goods and services flow",
+      "goods flow",
+      "flow of goods",
+      "the goods flow",
+      "the flow of goods"
+     ]
+    },
+    {
+     "antworten": [
+      "real flow",
+      "the real flow",
+      "flow of goods and services",
+      "the flow of goods and services",
+      "goods and services flow",
+      "goods flow",
+      "flow of goods",
+      "the goods flow",
+      "the flow of goods"
+     ]
+    },
+    {
+     "antworten": [
+      "money flow",
+      "the money flow",
+      "monetary flow",
+      "the monetary flow",
+      "flow of money",
+      "the flow of money"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Go further: Apply the circular flow",
+   "teilkompetenzen": [
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.kreislauf.zusammenhaenge-erklaeren"
+   ],
+   "tasks": [
+    {
+     "prompt": "If you like, start by drawing the simple circular flow of the economy from memory on paper: two boxes for the participants and four labelled arrows, using two colours for the real flow and the money flow. Then describe the circular flow in the text box: which two participants interact, what flows along each of the four arrows and in which direction? Which arrows belong to the real flow and which to the money flow? Only compare your description with the diagram in the module at the end. Are all four directions correct?",
+     "hint": "Start with two boxes labelled 'Households' and 'Businesses'. Then ask yourself for each arrow: what is flowing here, something real or money? And from whom to whom? Remember: every real-flow arrow has a corresponding money-flow arrow pointing the other way.",
+     "solution": "Your description should include: households and businesses as the two participants; labour (real flow) and consumer spending (money flow) move from households to businesses; wages (money flow) and goods and services (real flow) move from businesses to households. The two flows in each exchange move in opposite directions: something real flows one way, and money flows the other way."
+    },
+    {
+     "prompt": "Explain the statement 'One participant's spending is another's income' in your own words, so that someone with no prior knowledge (a classmate, your brother, your gran…) can understand it. Use your own example that does not involve the bakery. OR: create a quiz question in the style of this module, with one correct answer and three wrong answers based on common misconceptions.",
+     "hint": "To explain the idea, it helps to follow a specific payment: who spends the money, and who receives exactly the same amount as income? For the quiz question, good wrong answers might mix up the direction of a flow or put wages in the real flow.",
+     "solution": "The central idea to explain: every payment has two sides. What is recorded as spending by the sender is received as income by the recipient. Example: your family pays for a hairdressing appointment. This is spending for your household and income for the salon. The salon uses it to pay the hairdresser's wages: spending for the salon and income for the hairdresser's household. Example quiz question: 'In which direction does labour move in the simple circular flow of the economy? a) From the household to the business (correct), b) from the business to the household, c) it does not flow at all because it is not a good, d) in both directions at the same time.'"
+    }
+   ]
+  }
+ ]
+}
