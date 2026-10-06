@@ -1,0 +1,1537 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-04-erweiterter-wirtschaftskreislauf --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:b0c6141be80682fb066656f258c671c5cbab2473d9bb2f6b17429ce32b3f0559",
+  "masterCommit": "5a3023f",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.en.json",
+  "selfHash": "sha256:a00d17bb59eddeb48df4d6ddb16efa1b5dccd85bb8206dea977d98531f040972"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-04-erweiterter-wirtschaftskreislauf",
+ "title": "The extended circular flow of the economy: the state, banks and the rest of the world",
+ "description": "The simple circular flow of the economy is growing: you extend the model step by step to include the state, banks and the rest of the world. Using Liechtenstein as an example, you explore how closely a small country is connected to its neighbours – and why the circular flow is still a simplified model.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.3.1",
+     "description": "Die Schülerinnen und Schüler können Einflüsse auf die Gestaltung des Konsumalltages erkennen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 4,
+ "einheit": "Topic A: Basic concepts and the circular flow of the economy",
+ "language": "en",
+ "durationMinutes": 50,
+ "difficulty": "mittel",
+ "keywords": [
+  "circular flow of the economy",
+  "extended circular flow of the economy",
+  "state",
+  "taxes",
+  "public services",
+  "banks",
+  "saving",
+  "deposits",
+  "loan",
+  "rest of the world",
+  "export",
+  "import",
+  "cross-border commuters",
+  "Liechtenstein",
+  "Switzerland",
+  "model"
+ ],
+ "learningObjectives": [
+  "I can extend the circular flow of the economy to include the state: households and businesses pay taxes, and the state provides public services such as schools, roads and public safety in return. It also acts as an employer and a buyer.",
+  "I can describe the role of banks as intermediaries: they collect the savings that households and businesses deposit and use them to provide loans – linking saving and investment.",
+  "I can include the rest of the world in the circular flow: goods are exported and imported, and Liechtenstein's example shows me how labour flows in from abroad and wages flow out.",
+  "I can explain why the circular flow of the economy is a model: each additional participant makes it more realistic, but it remains a simplification of reality."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-03-einfacher-wirtschaftskreislauf"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Extension 1: Bringing the state back in",
+   "body": "In [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]], you explored the **basic model**: households and businesses, connected by real flows and money flows. To make the basic pattern clear, we deliberately left everything else out – that is the trick behind every **model**. Now we will make the model more realistic step by step: first we bring the **state** back in, then we add **banks**, and finally the **rest of the world**.\n\nBack to the bakery where you work during the holidays: each year, the bakery pays **taxes** on its profit – and your household pays taxes too, for example on its income. **Households and businesses pay taxes to the state.** But this money does not disappear: in return, the state provides **public services** that benefit everyone – the school you attend, the road outside the bakery, the police and the fire service.\n\n**Watch out for a common misconception:** taxes are not a service that the state provides to households – they flow in exactly the opposite direction. Taxes are a money flow **to** the state; public services flow back **from** the state.\n\nThe state also has two other roles, which you know from [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]]: it is an **employer** – teachers, police officers and local council staff receive their wages from the state. And it is a **buyer**: when the country has a road built, it hires and pays businesses to do the work."
+  },
+  {
+   "type": "text",
+   "title": "Extension 2: Banks as intermediaries",
+   "body": "So far, everyone in the circular flow has spent their money again straight away. In reality, you put some of your holiday job wages into a bank account – you **save**. The bakery also puts some money aside in good months. This money is held at the bank as a **deposit**.\n\nIf these savings simply stayed in a vault, they would be lost to the circular flow. This is where **banks** come in: they collect deposits from many savers – and pass the money on as **loans** to those who currently need more than they have. If the bakery wants to buy a new oven but cannot pay for it all at once, the bank lends it the money.\n\nThe bank is therefore an **intermediary**: saving flows in on one side, and loans flow out on the other – **saving and investment are linked**. Some of the money you saved from your holiday job might therefore indirectly help to pay for your bakery's new oven.\n\nYou will look more closely at how the bank itself makes money and exactly what a loan costs (the key term is **interest**) later in [[modul:wirtschaft-politik-12-banken-kredit-zins]] – here, we are only concerned with the flows."
+  },
+  {
+   "type": "text",
+   "title": "Extension 3: The rest of the world – Liechtenstein and its neighbours",
+   "body": "No country's economy operates in isolation. The flour for your bakery might come from a mill in Switzerland – an **import**: goods flow in from abroad, and money flows out. Conversely, businesses in Liechtenstein sell their products all over the world – for example, a machinery manufacturer supplies equipment to Zürich: an **export**. Goods flow out, and money flows in.\n\nThe rest of the world is important to Liechtenstein for another reason too: **workers**. Most people employed in Liechtenstein do not actually live in the country. Instead, they travel in from Switzerland and Austria every day as **cross-border commuters** – from Buchs, Sevelen or Feldkirch to work in Vaduz, Schaan or Eschen. In the circular flow, this means that their **labour flows into Liechtenstein** (a real flow), while their **wages flow out to other countries** (a money flow) – where they are spent or saved.\n\nLiechtenstein and Switzerland thus form a closely connected **economic area**: goods, workers and money cross the border along the Rhein in both directions every day – and payments on both sides are made in Swiss francs."
+  },
+  {
+   "type": "schaubild",
+   "title": "The extended circular flow of the economy at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 360,
+      "y": 0,
+      "width": 393.8,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 551057635,
+      "type": "text",
+      "text": "The extended circular flow model",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "staat",
+      "x": 320,
+      "y": 80,
+      "width": 300,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#9ec2e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1370634957,
+      "type": "rectangle"
+     },
+     {
+      "id": "haushalte",
+      "x": 0,
+      "y": 380,
+      "width": 355,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#aed4f5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 96298115,
+      "type": "rectangle"
+     },
+     {
+      "id": "unternehmen",
+      "x": 590,
+      "y": 370,
+      "width": 340,
+      "height": 170,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c6e0f7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1251694893,
+      "type": "rectangle"
+     },
+     {
+      "id": "ausland",
+      "x": 1140,
+      "y": 385,
+      "width": 230,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d5e3ef",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1111743523,
+      "type": "rectangle"
+     },
+     {
+      "id": "banken",
+      "x": 340,
+      "y": 650,
+      "width": 260,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c9d8e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1502718861,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-steuern",
+      "x": 420,
+      "y": 349.5,
+      "width": 0,
+      "height": 139,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 39477187,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -139
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-leistungen",
+      "x": 560.5,
+      "y": 210.5,
+      "width": 59,
+      "height": 144,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 785297901,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        59,
+        144
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-arbeitskraft",
+      "x": 365.5,
+      "y": 400,
+      "width": 214,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1881108323,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        214,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-lohn",
+      "x": 579.5,
+      "y": 440,
+      "width": 214,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 928771149,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -214,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-gueter",
+      "x": 579.5,
+      "y": 480,
+      "width": 214,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1843497731,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -214,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-konsum",
+      "x": 365.5,
+      "y": 520,
+      "width": 214,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 51567277,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        214,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-sparen",
+      "x": 410,
+      "y": 560.5,
+      "width": 0,
+      "height": 79,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 270480035,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        79
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-kredite",
+      "x": 530,
+      "y": 639.5,
+      "width": 0,
+      "height": 79,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1788673293,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -79
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-exporte",
+      "x": 940,
+      "y": 425,
+      "width": 190,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1468458563,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        190,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-importe",
+      "x": 1130,
+      "y": 490,
+      "width": 190,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1970525037,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -190,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-real-pfeil",
+      "x": 40.5,
+      "y": 845,
+      "width": 69,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 720840163,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        69,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-real-text",
+      "x": 130,
+      "y": 833,
+      "width": 335.48,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2145443277,
+      "type": "text",
+      "text": "Real flow: labour, goods and services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "legende-geld-pfeil",
+      "x": 650.5,
+      "y": 845,
+      "width": 69,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 293499267,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        69,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-geld-text",
+      "x": 740,
+      "y": 833,
+      "width": 337.27,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 553491501,
+      "type": "text",
+      "text": "Money flow: wages, spending, taxes, saving, loans",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "fazit",
+      "x": 170,
+      "y": 900,
+      "width": 660.95,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 744180003,
+      "type": "text",
+      "text": "Each participant makes the model more realistic – but it remains a simplification of reality.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "FDQe95ycacOeR89KrZAFZ",
+      "x": 404.26,
+      "y": 106.25,
+      "width": 131.48,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2036966659,
+      "type": "text",
+      "text": "State\nSchools, roads,\npublic safety",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "staat",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "c-sZmXmeYcKa19DWG6qAn",
+      "x": 99.03,
+      "y": 421.25,
+      "width": 156.94,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1737755811,
+      "type": "text",
+      "text": "Households\nconsume goods\nsupply labour",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "haushalte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "qET5QEKi-SteokLPTSmcq",
+      "x": 678.53,
+      "y": 410,
+      "width": 162.94,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1599111235,
+      "type": "text",
+      "text": "Businesses\nproduce goods and\nservices,\npay wages",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "unternehmen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "MpS8JYizEQqa_5sn18-O9",
+      "x": 1081.77,
+      "y": 421.25,
+      "width": 106.46,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2055045091,
+      "type": "text",
+      "text": "Rest of world\ne.g. Switzerland\nand Austria",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ausland",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "PAqoDwZS-jcH7PdQeceNn",
+      "x": 406.77,
+      "y": 676.25,
+      "width": 126.46,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 321489795,
+      "type": "text",
+      "text": "Banks\nlink saving\nand loans",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "banken",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "bCEsLtT2k0LEGXZcrvqkg",
+      "x": 395.56,
+      "y": 270,
+      "width": 48.88,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1033052963,
+      "type": "text",
+      "text": "Taxes",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-steuern",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "uz5pHO3jfVig_ml87b50b",
+      "x": 517.95,
+      "y": 272.5,
+      "width": 144.11,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1468593763,
+      "type": "text",
+      "text": "Public services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-leistungen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "sMCMnDjDdRZFFJtZzRF1_",
+      "x": 433.85,
+      "y": 390,
+      "width": 77.3,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1432997187,
+      "type": "text",
+      "text": "Labour",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-arbeitskraft",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "x6Qhai_HDfnXyMi6IROKd",
+      "x": 455.61,
+      "y": 430,
+      "width": 33.77,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2125697059,
+      "type": "text",
+      "text": "Wages",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-lohn",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "fdEJZP-E9VkEAKf7auIxA",
+      "x": 384.52,
+      "y": 470,
+      "width": 175.97,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1685962499,
+      "type": "text",
+      "text": "Goods and services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-gueter",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "AhApPt39K5dK_p4GGLMLE",
+      "x": 415.62,
+      "y": 510,
+      "width": 113.76,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1158666723,
+      "type": "text",
+      "text": "Consumer spending",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-konsum",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "W2NM2jwDnSaUwv5t_1eFv",
+      "x": 352.02,
+      "y": 590,
+      "width": 115.95,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1507942595,
+      "type": "text",
+      "text": "Saving (deposits)",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-sparen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "54sB3QE-0FDEa4cZbmf4o",
+      "x": 506.01,
+      "y": 590,
+      "width": 47.98,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1046236163,
+      "type": "text",
+      "text": "Loans",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pfeil-kredite",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "wE87_w6jLV3YkC_CNvmoG",
+      "x": 950,
+      "y": 396,
+      "width": 50.65,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1191536451,
+      "type": "text",
+      "text": "Exports",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "wSSWJpeuAWVusCvBfAtso",
+      "x": 950,
+      "y": 508,
+      "width": 50.65,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 855468579,
+      "type": "text",
+      "text": "Imports",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram 'The extended circular flow model' shows how three participants are added to the simple circular flow between households and businesses: the state, banks and the rest of the world. The core remains unchanged: households (consume goods, supply labour) and businesses (produce goods and services, pay wages) are connected by four flows in opposite directions. A key distinguishes real flows (solid green arrows: labour, goods and services) from money flows (dashed orange arrows: wages, consumer spending, taxes, saving, loans). Key points: (1) Households supply labour to businesses (real flow) and receive wages in return (money flow); businesses supply goods and services to households (real flow) and receive consumer spending in return (money flow). (2) Households and businesses pay taxes to the state (money flow); in return, the state provides public services such as schools, roads and public safety (a flow back from the state into the circular flow). (3) Banks link saving and loans: saving (deposits) is a money flow from the circular flow to banks, while loans are a money flow back into the circular flow. (4) The rest of the world (e.g. Switzerland and Austria) is connected to businesses by two flows of goods: exports flow out, and imports flow in (real flows). (5) The conclusion below the diagram: each participant makes the model more realistic – but it remains a simplification of reality.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "5bj9chzZsT8",
+   "title": "Video: The extended circular flow of the economy",
+   "description": "The explainer video (4:56) extends the circular flow step by step again – with the same participants as in this module. As you watch, focus on two questions: (1) Where does the state get its money – and what does it do with it? (2) Which two flows in opposite directions connect banks and the rest of the world to households and businesses? A quick note: you will also hear terms such as interest and subsidies in the video – for now, just remember the basic idea: for the state, banks and the rest of the world too, two flows in opposite directions always belong together.",
+   "transcript": "The explainer video by the educational channel 'Die Merkhilfe Wirtschaft' (4:56 minutes) adds more participants to the simple circular flow of the economy: households and businesses are joined by the state, banks and the rest of the world. The state receives taxes from households and businesses and provides public services in return; it also pays wages and buys from businesses. Banks collect the savings of households and businesses as deposits and use them to provide loans, which can enable businesses to invest, for example. The rest of the world is connected to the domestic economy through exports and imports: goods cross the border, and payments for them flow in the opposite direction. Throughout, the video distinguishes between flows of goods and money flows and shows that, for each participant, two flows in opposite directions belong together."
+  },
+  {
+   "type": "text",
+   "title": "A model is still a model",
+   "body": "Look at the diagram again: two participants have become five, and four flows have become many more. With each extension, the model has become **more realistic** – the circular flow with the state, banks and the rest of the world already describes everyday life in Liechtenstein quite well.\n\nEven so, the extended circular flow is still a **model** – a deliberate **simplification of reality**. Many things are still missing: insurance, clubs and associations, inheritances, undeclared work, the environment and raw materials. And for each new participant, we have only drawn the two most important flows – in reality, there are many more connections.\n\nThis is deliberate, not a flaw: **a model should not show everything, but make the important things clear.** If we drew every single flow, the diagram would be an unreadable tangle. The skill lies in leaving out just enough to keep the pattern clear – and adding just as much as the question requires. If you want to understand why the bakery gets a loan, you need banks in the picture; if you only want to understand the exchange of 'work for wages', the basic model in [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]] is enough."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: The extended circular flow of the economy",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen",
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
+   "intro": "Show what you know about the state, banks and the rest of the world in the circular flow. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Households and businesses pay taxes to the state. What do they get in return?",
+     "options": [
+      {
+       "text": "The state pays everyone's taxes back to them at the end of the year."
+      },
+      {
+       "text": "Public services such as schools, roads and public safety – available to everyone.",
+       "correct": true
+      },
+      {
+       "text": "Nothing – taxes leave the circular flow of the economy for good."
+      },
+      {
+       "text": "Interest that the state credits on the taxes paid."
+      }
+     ],
+     "explanation": "Taxes are neither money lost nor a deposit that is repaid or earns interest: the state uses them to fund public services such as schools, roads, the police and the fire service. These services flow back to everyone – as provision for the public, rather than a personal return for each franc paid."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Why are banks called 'intermediaries' in the circular flow of the economy?",
+     "options": [
+      {
+       "text": "Because they print the money that moves around the circular flow."
+      },
+      {
+       "text": "Because they decide which goods businesses produce."
+      },
+      {
+       "text": "Because they pay for the state's public services."
+      },
+      {
+       "text": "Because they collect some people's savings as deposits and use them to provide loans to others – linking saving and investment.",
+       "correct": true
+      }
+     ],
+     "explanation": "Banks take in deposits on one side (the savings of households and businesses) and provide loans on the other to those who currently need more money than they have. This keeps saved money in the circular flow and turns it into investment – that is precisely what makes a bank an intermediary. Printing money, deciding what is produced or paying for state services is not part of this role."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "A machinery manufacturer in Liechtenstein sells equipment to a company in Zürich. What is this from Liechtenstein's perspective?",
+     "options": [
+      {
+       "text": "An export – the goods flow out to another country, and the payment flows into Liechtenstein.",
+       "correct": true
+      },
+      {
+       "text": "An import – after all, the equipment was ordered from Switzerland."
+      },
+      {
+       "text": "It is not foreign trade, because Switzerland is a neighbouring country."
+      },
+      {
+       "text": "A public service, because machinery is part of the infrastructure."
+      }
+     ],
+     "explanation": "What matters is the direction of the goods from your own country's perspective: if a business in Liechtenstein sells abroad, it is an export – the goods flow out and the money flows in. An import is the reverse: goods come in from abroad (like the bakery's Swiss flour). Trade with a neighbouring country is still foreign trade, and the sale has nothing to do with the state's public services."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "A cross-border commuter from Buchs (Switzerland) works in a bakery in Vaduz. Which two flows cross the border?",
+     "options": [
+      {
+       "text": "Both labour and wages flow into Liechtenstein."
+      },
+      {
+       "text": "Her wages flow into Liechtenstein, while her labour stays in Switzerland."
+      },
+      {
+       "text": "Her labour flows into Liechtenstein, and her wages flow out to Switzerland.",
+       "correct": true
+      },
+      {
+       "text": "Nothing flows across the border, because she works in Liechtenstein."
+      }
+     ],
+     "explanation": "As in every exchange, two flows move in opposite directions – here, across a national border: the commuter's labour flows into Liechtenstein as a real flow, and her wages flow out to Switzerland as a money flow, to the country where she lives, shops and saves. This is exactly how Liechtenstein is connected to its neighbours: most people employed there commute in from Switzerland and Austria."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Who pays taxes to the state in the extended circular flow of the economy?",
+     "options": [
+      {
+       "text": "Households and businesses.",
+       "correct": true
+      },
+      {
+       "text": "Only households – businesses provide jobs instead."
+      },
+      {
+       "text": "Only businesses – households receive services for free."
+      },
+      {
+       "text": "The state pays taxes to households and businesses."
+      }
+     ],
+     "explanation": "Both private participants pay taxes: households, for example, on their income, and businesses, for example, on their profit. The direction is clear: taxes always flow TO the state – not the other way round. What flows back from the state is public services, as well as wages (the state as an employer) and contracts (the state as a buyer)."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "The state does more than collect taxes and provide services. What two other roles does it have in the circular flow?",
+     "options": [
+      {
+       "text": "As a saver that takes all its money to the bank."
+      },
+      {
+       "text": "As a producer that makes all the country's goods."
+      },
+      {
+       "text": "As a seller that offers consumer goods to households."
+      },
+      {
+       "text": "As an employer (e.g. of teachers and police officers) and as a buyer (e.g. when it has a road built).",
+       "correct": true
+      }
+     ],
+     "explanation": "The state is itself an employer – teachers, police officers and administrative staff receive their wages from it – and it is a buyer when it hires and pays businesses, for example to build a road or renovate a school building. But it does not produce all goods or sell consumer goods to households – that remains the role of businesses."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "You put some of your holiday job wages into a savings account. What happens to this money in the circular flow?",
+     "options": [
+      {
+       "text": "It stays in the bank's vault and is missing from the circular flow until you withdraw it again."
+      },
+      {
+       "text": "It becomes a deposit that the bank can use to provide loans – for example, to the bakery for a new oven.",
+       "correct": true
+      },
+      {
+       "text": "It automatically becomes tax and flows to the state."
+      },
+      {
+       "text": "The bank distributes it to all its customers as a public service."
+      }
+     ],
+     "explanation": "Your savings do not disappear from the circular flow: as a deposit, they become part of the money the bank uses to provide loans – for example, to a business that wants to invest. This is how the bank links your saving to other people's investment. It has nothing to do with taxes, and public services are provided by the state, not the bank."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Even the extended circular flow with the state, banks and the rest of the world is 'only' a model. What does that mean?",
+     "options": [
+      {
+       "text": "It is wrong and should no longer be used in lessons."
+      },
+      {
+       "text": "It now shows reality in full – nothing is missing any more."
+      },
+      {
+       "text": "It represents reality in a simplified way: each participant makes it more realistic, but many things are deliberately left out.",
+       "correct": true
+      },
+      {
+       "text": "Models only apply to small countries such as Liechtenstein."
+      }
+     ],
+     "explanation": "A model is neither wrong nor complete – it is a deliberate simplification: it leaves out what is not important to the question at hand, so that the pattern becomes clear. Adding the state, banks and the rest of the world has made our circular flow more realistic, but many things are still missing (such as insurance or the environment) – and this applies to models in every country, not just small ones."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-neue-akteure",
+   "title": "Three new participants: Fill in the terms",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three of the words do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Three participants are added in the extended circular flow of the economy. Households and businesses pay {{1}} to {{2}}; in return, it provides public {{3}} such as schools, roads and public safety.\n{{4}} collect the savings of households and businesses as {{5}} and use them to provide {{6}} – linking saving and investment.\nIf a business in Liechtenstein sells its goods to Switzerland, this is an {{7}}; if the bakery buys flour from a Swiss mill, this is an {{8}}. Many {{10}} also commute to work in Liechtenstein from {{9}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "taxes",
+      "tax",
+      "the taxes"
+     ]
+    },
+    {
+     "antworten": [
+      "the state",
+      "state",
+      "the government",
+      "government"
+     ]
+    },
+    {
+     "antworten": [
+      "services"
+     ]
+    },
+    {
+     "antworten": [
+      "Banks",
+      "the banks"
+     ]
+    },
+    {
+     "antworten": [
+      "deposits",
+      "savings deposits"
+     ]
+    },
+    {
+     "antworten": [
+      "loans",
+      "credit"
+     ]
+    },
+    {
+     "antworten": [
+      "export"
+     ]
+    },
+    {
+     "antworten": [
+      "import"
+     ]
+    },
+    {
+     "antworten": [
+      "abroad",
+      "other countries",
+      "the rest of the world",
+      "rest of the world",
+      "overseas"
+     ]
+    },
+    {
+     "antworten": [
+      "cross-border commuters",
+      "cross border commuters",
+      "cross-border workers",
+      "cross border workers",
+      "frontier workers"
+     ]
+    }
+   ],
+   "ablenker": [
+    "interest",
+    "wages",
+    "profit"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-modell-grenzgaenger",
+   "title": "Models and cross-border commuters: Type in the terms",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen"
+   ],
+   "intro": "This time there is no word bank – **type in the missing terms yourself**. Capital letters do not matter.",
+   "modus": "eingabe",
+   "text": "The circular flow of the economy is a {{1}}: it deliberately leaves many things out to make the important things clear. With each additional participant, it becomes {{2}} – but it always remains a {{3}} of reality.\nLiechtenstein shows how closely a country can be connected to its neighbours: most people employed there commute across the border from Switzerland and {{4}}. Their {{5}} flows into Liechtenstein – their wages flow out to other countries.",
+   "luecken": [
+    {
+     "antworten": [
+      "model",
+      "simplified model",
+      "a model",
+      "a simplified model"
+     ]
+    },
+    {
+     "antworten": [
+      "more realistic",
+      "more accurate",
+      "more true to life",
+      "truer to life",
+      "more lifelike",
+      "more faithful to reality",
+      "closer to reality",
+      "more representative of reality",
+      "more precise"
+     ]
+    },
+    {
+     "antworten": [
+      "simplification",
+      "simplified representation",
+      "simplified depiction",
+      "simplified picture",
+      "a simplification",
+      "a simplified representation",
+      "simplification of reality"
+     ]
+    },
+    {
+     "antworten": [
+      "Austria",
+      "Österreich",
+      "Oesterreich",
+      "the Republic of Austria",
+      "Republic of Austria"
+     ]
+    },
+    {
+     "antworten": [
+      "labour",
+      "labor",
+      "work",
+      "labour services",
+      "labor services",
+      "labour power",
+      "labor power",
+      "labour supply",
+      "labor supply",
+      "the labour",
+      "the labor"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-akteure",
+   "title": "Matching: Who or what is involved?",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen",
+    "wp.kreislauf.stroeme-unterscheiden"
+   ],
+   "intro": "Match each example to the correct term: the **participant** involved, the state's **role**, or the **type of flow**. Ask yourself each time: where is something flowing – and what is it? **Watch out:** three of the terms do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "The bakery pays tax on its profit: the money flows to {{1}}.\nA cross-border commuter from Buchs serves customers in Vaduz: her labour comes from {{2}}.\nA machinery manufacturer in Liechtenstein supplies equipment to Zürich: from FL's perspective, this is an {{3}}.\nThe bakery buys flour from a mill in Switzerland: from FL's perspective, this is an {{4}}.\nYou put your holiday job wages into a savings account: your deposit goes to {{5}}.\nThe bakery gets money from the bank for a new oven: it receives a {{6}}.\nThe local council has the school building renovated and pays a construction company: here, the state acts as {{7}}.\nA teacher receives her wages from the country: here, the state acts as {{8}}.\nThe cross-border commuter's wages flow into her account in Buchs: money flows {{9}}.\nThe sandwich you buy at break time passes across the counter to you: an example of a {{10}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "the state",
+      "state",
+      "the government",
+      "government"
+     ]
+    },
+    {
+     "antworten": [
+      "abroad",
+      "other countries",
+      "the rest of the world",
+      "rest of the world",
+      "overseas"
+     ]
+    },
+    {
+     "antworten": [
+      "export"
+     ]
+    },
+    {
+     "antworten": [
+      "import"
+     ]
+    },
+    {
+     "antworten": [
+      "the bank",
+      "a bank",
+      "bank",
+      "banks",
+      "the banks"
+     ]
+    },
+    {
+     "antworten": [
+      "loan",
+      "a loan",
+      "bank loan",
+      "a bank loan",
+      "credit"
+     ]
+    },
+    {
+     "antworten": [
+      "a buyer",
+      "buyer",
+      "the buyer",
+      "a purchaser",
+      "purchaser",
+      "a customer",
+      "customer"
+     ]
+    },
+    {
+     "antworten": [
+      "an employer",
+      "employer",
+      "the employer"
+     ]
+    },
+    {
+     "antworten": [
+      "abroad",
+      "overseas",
+      "out to other countries",
+      "to other countries",
+      "to the rest of the world",
+      "out to the rest of the world"
+     ]
+    },
+    {
+     "antworten": [
+      "real flow",
+      "a real flow",
+      "the real flow",
+      "flow of goods and services",
+      "goods flow",
+      "flow of goods"
+     ]
+    }
+   ],
+   "ablenker": [
+    "money flow",
+    "seller",
+    "interest"
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: Apply the extended circular flow",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Describe the extended circular flow of the economy from memory: five participants (households, businesses, the state, banks and the rest of the world), and the two most important flows for each new participant. For each flow, state who it goes from and to, and whether it is a real flow or a money flow. If you like, draw the circular flow on paper first, then describe your drawing. Only compare it with the diagram in the module at the end: are the directions and types of flow correct?",
+     "hint": "Start with the core from [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]] (two boxes, four arrows) – that stays unchanged. Then ask yourself for each new participant: what flows towards it, what flows away from it – and is it money or something 'real'? State: taxes and services. Banks: saving and loans. Rest of the world: exports and imports.",
+     "solution": "Your description should include: the unchanged core of households and businesses (labour and goods/services as real flows, wages and consumer spending as money flows); the state, with taxes flowing in (money flow) and public services flowing out (real flow); banks, with saving flowing in and loans flowing out (both money flows); and the rest of the world, with exports (goods going out) and imports (goods coming in), both real flows. Each flow is clearly identified as a real flow or a money flow."
+    },
+    {
+     "prompt": "Circular flow detective: find ONE specific example from your everyday life or your family for each of these: a flow to the state, a flow to a bank, and a flow abroad (or from abroad). For each example, write down: who gives? Who receives? Is it money or something 'real' that flows?",
+     "hint": "Think about ordinary things: what does your family pay the state for – and what do you use every day that the state provides? Does someone have a savings account? Where do your food, clothes or mobile phone come from – and does anyone you know commute across the border to work?",
+     "solution": "Possible examples: state – the family pays taxes (money flow to the state) and uses schools and roads in return (services flowing back). Bank – the money saved from a holiday job is held in an account as a deposit (money flow to the bank); the bank uses it to fund loans. Rest of the world – the mobile phone was imported (goods in, money out); a neighbour commutes in from Feldkirch across the border (labour in, wages out). What matters in every example is the pair of questions: who gives and who receives – and is it money or something real that flows?"
+    }
+   ]
+  }
+ ]
+}
