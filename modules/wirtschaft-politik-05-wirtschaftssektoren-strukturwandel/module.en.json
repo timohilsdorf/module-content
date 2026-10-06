@@ -1,0 +1,1472 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-05-wirtschaftssektoren-strukturwandel --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:07b7d1f66008084e81f6f53c9a19e4566ecfac24f5919ebe637b5e3919c7189d",
+  "masterCommit": "5a4900e",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:e4ae1bf728bb5a8367120ec7281f8ff52011159f9176a9b0634a27a6af5f0c32"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-05-wirtschaftssektoren-strukturwandel",
+ "title": "Economic sectors and structural change",
+ "description": "From the farm to the factory to the bank: you will get to know the three economic sectors and classify jobs in your community. You will discover why employment has shifted over time from the 1st to the 2nd and then to the 3rd sector – and why Liechtenstein has followed a distinctive path.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "LBO.6.2",
+     "description": "Die Schülerinnen und Schüler können Anforderungen und Gestaltungsspielräume in Arbeitswelten vergleichen."
+    },
+    {
+     "code": "LBO.6.3",
+     "description": "Die Schülerinnen und Schüler können die Produktion von Gütern und Dienstleistungen vergleichen und beurteilen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 5,
+ "einheit": "Topic A: Basic concepts and the circular flow of the economy",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "leicht",
+ "keywords": [
+  "economic sectors",
+  "1st sector",
+  "2nd sector",
+  "3rd sector",
+  "primary sector",
+  "secondary sector",
+  "tertiary sector",
+  "agriculture",
+  "industry",
+  "craft trades",
+  "services",
+  "structural change",
+  "productivity",
+  "Liechtenstein"
+ ],
+ "learningObjectives": [
+  "I can distinguish between the three economic sectors – the 1st sector (agriculture and raw material extraction), the 2nd sector (industry, craft trades and construction), and the 3rd sector (services) – and match typical jobs and businesses to each sector.",
+  "I can describe structural change: employment has shifted over time from the 1st to the 2nd and then to the 3rd sector – and I can explain the main reasons in simple terms (machines and technology, increased productivity, changing demand).",
+  "I can explain Liechtenstein's position: for such a small country, it has an unusually strong industrial sector as well as a strong service sector – so structural change does not follow the same pattern everywhere."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Amt für Statistik, Liechtensteinische Landesverwaltung",
+   "url": "https://www.llv.li"
+  },
+  {
+   "title": "AWS – Arbeitsgemeinschaft Wirtschaft und Schule (ibw)",
+   "url": "https://aws.ibw.at"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-02-haushalte-unternehmen-staat"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Which sector does your family work in?",
+   "body": "Think for a moment about the adults around you: perhaps your father works in a workshop, your mother in a bank, your uncle on a farm and your neighbour in a hospital. All four work – but their work could hardly be more different: one obtains something from nature, another advises customers, a third repairs machines and the fourth cares for people.\n\nTo make sense of this variety, economists divide all jobs and businesses into **three broad groups** – the **economic sectors**:\n\n- **1st sector**: obtains raw materials from nature\n- **2nd sector**: processes raw materials into goods\n- **3rd sector**: provides services for others\n\nA memory aid in three words: **extract – process – serve**.\n\n**Reflection question for this module:** Which sector do your parents or other people you know well work in? Keep this question in mind – by the end of the module, you will be able to answer it confidently."
+  },
+  {
+   "type": "text",
+   "title": "The three sectors at a glance",
+   "body": "**1st sector (primary sector): obtaining raw materials from nature**\n\nThis includes everyone who takes something directly from nature – plants, animals, timber, fish or minerals. Typical jobs and businesses include a **farmer** with dairy cows, a **winegrower** in a vineyard, a **forester** in a forest and a **fisher** on a lake. Mining belongs here too.\n\n**2nd sector (secondary sector): processing raw materials into goods**\n\nThis is where raw materials are made into something – in **industry**, in the **craft trades** and in **construction**. Typical jobs and businesses include a **mechanical engineering technician** in a machinery factory, a **baker** in a bakery, a **bricklayer** on a building site and a **joiner** in a furniture workshop. Watch out for a common misconception: craft trades belong to the 2nd sector, not to services – what matters is that a **product is made**.\n\n**3rd sector (tertiary sector): providing services**\n\nHere, people do not manufacture anything: they provide a **service for others**. Typical jobs and businesses include a **shop assistant**, a **bus driver**, a **teacher** at a school and a **nurse** in a hospital – as well as banks, fiduciary firms, hairdressing salons and tourism.\n\n**What if a business does both?** The bakery in [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]] **bakes** bread (2nd sector) and **sells** it over the counter, perhaps even with a café area (3rd sector). Many businesses operate in several sectors at once. To classify them, it is best to look at each activity separately: does it involve extracting something, making something or providing a service?"
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "j05fe9OUmxs",
+   "title": "Video: The three economic sectors",
+   "description": "This explanatory video (5:20) by Arbeitsgemeinschaft Wirtschaft und Schule follows a table on its journey through the economy. As you watch, focus on two questions: (1) What stages does the table go through from raw material to purchase – and which sector is involved at each stage? (2) Why would the 2nd sector be unable to operate without the 1st sector – and what does the 3rd sector do at the end?",
+   "transcript": "The explanatory video by Arbeitsgemeinschaft Wirtschaft und Schule (AWS, 5:20 minutes) uses a table to illustrate the three economic sectors. It starts with the raw material, timber, which is felled in the forest – this is the 1st sector (primary production: agriculture, forestry, fishing and mining). The timber is then processed: sawmills, furniture factories and craft businesses turn it into a finished table – this is the 2nd sector (industry, manufacturing, craft trades and construction). Getting the table to customers requires the 3rd sector: transport, trade, advertising, advice and sales are services. The video shows how the three sectors build on one another and work together – and that most people today work in the service sector."
+  },
+  {
+   "type": "text",
+   "title": "Structural change: employment shifts",
+   "body": "Around 150 years ago, most people in our region worked in agriculture – the **1st sector**. Industrialisation brought factories, and many people moved into the **2nd sector**. Today, most people work in the **3rd sector**, both here and in almost all wealthy countries. This gradual but enormous shift in employment **from the 1st to the 2nd and then to the 3rd sector** is called **structural change**.\n\nWhy did this happen? Three reasons are closely linked:\n\n- **Machines and technology:** Today, a tractor does fieldwork that once required a whole village. Later, robots and computers also took over many tasks in factories. Machines therefore replace human labour – first in the fields, then in factories.\n- **Increased productivity:** Today, a single worker produces many times more than was possible in the past – we say that their **productivity** has increased. A small number of people produce enough for everyone, freeing up the remaining workers for other tasks.\n- **Changing demand:** When people earn more, they rarely spend the extra money on even more bread – they spend it on travel, sport, health, advice or entertainment. As prosperity increases, people therefore demand **more services** – and that is where new jobs are created.\n\nLook at the trend in the chart below. It is a **model**: the figures are rounded, simplified shares – but they still show the overall trend correctly."
+  },
+  {
+   "type": "schaubild",
+   "title": "Structural change at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 288,
+      "y": 0,
+      "width": 553.68,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 892395853,
+      "type": "text",
+      "text": "Structural change: Who works in which sector?",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 238,
+      "y": 48,
+      "width": 654.55,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 465724931,
+      "type": "text",
+      "text": "Employment share by sector – simplified model with approximate values, not exact statistics",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "legende-swatch-1",
+      "x": 60,
+      "y": 100,
+      "width": 24,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1149317037,
+      "type": "rectangle"
+     },
+     {
+      "id": "legende-text-1",
+      "x": 94,
+      "y": 102,
+      "width": 246.34,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 590130595,
+      "type": "text",
+      "text": "1st sector: farming & raw materials",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "legende-swatch-2",
+      "x": 445,
+      "y": 100,
+      "width": 24,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1970844173,
+      "type": "rectangle"
+     },
+     {
+      "id": "legende-text-2",
+      "x": 479,
+      "y": 102,
+      "width": 231.51,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1093468483,
+      "type": "text",
+      "text": "2nd sector: industry, crafts, building",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "legende-swatch-3",
+      "x": 815,
+      "y": 100,
+      "width": 24,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1964042349,
+      "type": "rectangle"
+     },
+     {
+      "id": "legende-text-3",
+      "x": 849,
+      "y": 102,
+      "width": 173.76,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1327620323,
+      "type": "text",
+      "text": "3rd sector: services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "frueher-sektor3",
+      "x": 80,
+      "y": 160,
+      "width": 220,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 353587917,
+      "type": "rectangle"
+     },
+     {
+      "id": "frueher-sektor2",
+      "x": 80,
+      "y": 220,
+      "width": 220,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1989790851,
+      "type": "rectangle"
+     },
+     {
+      "id": "frueher-sektor1",
+      "x": 80,
+      "y": 340,
+      "width": 220,
+      "height": 420,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 840528173,
+      "type": "rectangle"
+     },
+     {
+      "id": "spaeter-sektor3",
+      "x": 500,
+      "y": 160,
+      "width": 220,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 726877219,
+      "type": "rectangle"
+     },
+     {
+      "id": "spaeter-sektor2",
+      "x": 500,
+      "y": 310,
+      "width": 220,
+      "height": 270,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1502397325,
+      "type": "rectangle"
+     },
+     {
+      "id": "spaeter-sektor1",
+      "x": 500,
+      "y": 580,
+      "width": 220,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1698482115,
+      "type": "rectangle"
+     },
+     {
+      "id": "heute-sektor3",
+      "x": 920,
+      "y": 160,
+      "width": 220,
+      "height": 420,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 799459821,
+      "type": "rectangle"
+     },
+     {
+      "id": "heute-sektor2",
+      "x": 920,
+      "y": 580,
+      "width": 220,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 443864931,
+      "type": "rectangle"
+     },
+     {
+      "id": "heute-sektor1",
+      "x": 920,
+      "y": 730,
+      "width": 220,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 359728205,
+      "type": "rectangle"
+     },
+     {
+      "id": "heute-sektor1-wert",
+      "x": 1152,
+      "y": 734,
+      "width": 25.33,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2034889475,
+      "type": "text",
+      "text": "5 %",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "frueher-label",
+      "x": 157,
+      "y": 785,
+      "width": 53.32,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 247788205,
+      "type": "text",
+      "text": "Earlier",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "frueher-gesellschaft",
+      "x": 118,
+      "y": 815,
+      "width": 112.55,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1648007843,
+      "type": "text",
+      "text": "Agrarian society",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "spaeter-label",
+      "x": 577,
+      "y": 785,
+      "width": 51.09,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1749816589,
+      "type": "text",
+      "text": "Later",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "spaeter-gesellschaft",
+      "x": 522,
+      "y": 815,
+      "width": 132.4,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 569724483,
+      "type": "text",
+      "text": "Industrial society",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "heute-label",
+      "x": 1002,
+      "y": 785,
+      "width": 47.75,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 494922605,
+      "type": "text",
+      "text": "Today",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "heute-gesellschaft",
+      "x": 918,
+      "y": 815,
+      "width": 174.19,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1800965603,
+      "type": "text",
+      "text": "Service economy",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "zeitpfeil",
+      "x": 80.5,
+      "y": 870,
+      "width": 1059,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2125067725,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1059,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "LP2onxiGmXSiNjeDwVsxq",
+      "x": 169.17,
+      "y": 177.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1068726445,
+      "type": "text",
+      "text": "10 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "frueher-sektor3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "0ZL9k8lsd0CaaXX1DUWfq",
+      "x": 169.17,
+      "y": 267.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1165613837,
+      "type": "text",
+      "text": "20 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "frueher-sektor2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "OncMkLPXOlqbNgEJZK7XK",
+      "x": 169.17,
+      "y": 537.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1560605037,
+      "type": "text",
+      "text": "70 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "frueher-sektor1",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "g3QgU0mNNdpoOjQWfFZjK",
+      "x": 589.17,
+      "y": 222.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1402878925,
+      "type": "text",
+      "text": "25 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "spaeter-sektor3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "JfHu-T7Iey8tECw4ydA-s",
+      "x": 589.17,
+      "y": 432.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 291453485,
+      "type": "text",
+      "text": "45 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "spaeter-sektor2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "hz-QQgl1XpBmwhdrdMkbT",
+      "x": 589.17,
+      "y": 657.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1060203661,
+      "type": "text",
+      "text": "30 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "spaeter-sektor1",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "uWz-h_W-Bo8nfpDoePLFp",
+      "x": 1009.17,
+      "y": 357.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 751719149,
+      "type": "text",
+      "text": "70 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "heute-sektor3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "qoQOweMBSCu0iihnNJZs1",
+      "x": 1009.17,
+      "y": 642.5,
+      "width": 41.66,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1992256845,
+      "type": "text",
+      "text": "25 %",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "heute-sektor2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Qf9vqIjrDZs6VpA_ivumb",
+      "x": 574.46,
+      "y": 860,
+      "width": 71.07,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1818114989,
+      "type": "text",
+      "text": "Over time",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zeitpfeil",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The chart shows structural change in employment as a simplified model with approximate, rounded values (not exact statistics). Three stacked columns each represent 100 per cent of workers at three points in time – earlier (agrarian society), later (industrial society) and today (service economy) – divided into the three economic sectors: 1st sector, agriculture and raw materials (green); 2nd sector, industry, craft trades and construction (blue); 3rd sector, services (orange). An arrow below the columns shows time moving from left to right as the shares shift. Key points: Earlier (agrarian society), 70 % of workers were in the 1st sector, 20 % in the 2nd sector and 10 % in the 3rd sector. Later (industrial society), the shares were 30 % in the 1st sector, 45 % in the 2nd sector and 25 % in the 3rd sector. Today (service economy), only 5 % work in the 1st sector, 25 % in the 2nd sector and 70 % in the 3rd sector. Employment has therefore shifted over time from the 1st to the 2nd and then to the 3rd sector: agriculture's share has shrunk sharply, industry's share first rose and then fell, and services are now by far the largest sector.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Liechtenstein: small, but industrial",
+   "body": "Does this pattern apply everywhere? A look at Liechtenstein shows: **not quite**.\n\nIn most wealthy countries, only about two out of ten workers are now in the 2nd sector. In Liechtenstein, however, it is **around four out of ten** – an unusually high share for such a small country. World-famous industrial companies have their headquarters here: **machinery and fastening technology** in Schaan (Hilti), **automotive technology** in Eschen (steering systems from thyssenkrupp Presta), **food products** in Schaan (Hilcona) and **dental products** (Ivoclar). Their products are exported all over the world.\n\nAt the same time, Liechtenstein has a **strong service sector**: the **financial centre**, with banks and fiduciary firms in Vaduz, employs many people, alongside trade, schools, healthcare and tourism. The **1st sector**, by contrast, has become tiny: only about one in a hundred workers is employed in agriculture.\n\nLiechtenstein illustrates two points. Firstly, this small economy creates so many jobs that **more than half of its workers commute in daily from Schweiz and Österreich**. Secondly, structural change is not a law of nature that follows the same pattern everywhere. Liechtenstein's agriculture has shrunk too – but its industry has remained strong, while becoming much smaller in many other countries. **How a country develops depends on its businesses, its location and its decisions.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Sectors and structural change",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen",
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
+   "intro": "Show what you know about the three sectors and structural change. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What characterises the 1st sector?",
+     "options": [
+      {
+       "text": "It processes raw materials into finished goods."
+      },
+      {
+       "text": "It sells products to customers."
+      },
+      {
+       "text": "It obtains raw materials directly from nature.",
+       "correct": true
+      },
+      {
+       "text": "It includes everything to do with food."
+      }
+     ],
+     "explanation": "The 1st sector takes things directly from nature: plants, animals, timber, fish and minerals. Processing them into goods is the role of the 2nd sector; selling them is a service and belongs to the 3rd sector. And 'everything to do with food' is not correct: a cow in a field belongs to the 1st sector, yoghurt from a dairy to the 2nd, and a supermarket to the 3rd."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "In a bakery's bakehouse, flour, water and yeast are turned into bread. Which sector does this work belong to?",
+     "options": [
+      {
+       "text": "The 2nd sector – raw materials are processed into a product here.",
+       "correct": true
+      },
+      {
+       "text": "The 1st sector – after all, the bakery works with food."
+      },
+      {
+       "text": "The 3rd sector – the bakery serves its customers."
+      },
+      {
+       "text": "No sector – small family businesses are not classified."
+      }
+     ],
+     "explanation": "In the bakehouse, raw materials are made into a product – this is processing, so it belongs to the 2nd sector. 'Food' does not automatically mean the 1st sector: only the grain growing in the field would belong there. Selling bread over the counter does belong to the 3rd sector, however – a business can operate in several sectors at once, even a small one."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Which of these jobs belongs to the 3rd sector?",
+     "options": [
+      {
+       "text": "Forester working in a forest"
+      },
+      {
+       "text": "Mechanical engineering technician in a machinery factory"
+      },
+      {
+       "text": "Bricklayer on a building site"
+      },
+      {
+       "text": "Bus driver on the route to Vaduz",
+       "correct": true
+      }
+     ],
+     "explanation": "The bus driver provides a service: transporting people without making a product – this is the 3rd sector. The forester obtains the raw material timber (1st sector), while the mechanical engineering technician makes things and the bricklayer builds things (both 2nd sector)."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What is meant by structural change?",
+     "options": [
+      {
+       "text": "A change of government after an election."
+      },
+      {
+       "text": "The long-term shift in employment from the 1st to the 2nd and then to the 3rd sector.",
+       "correct": true
+      },
+      {
+       "text": "The renovation of a business building."
+      },
+      {
+       "text": "The daily rise and fall of prices in the market."
+      }
+     ],
+     "explanation": "Structural change describes the gradual but far-reaching shift in employment between sectors: in the past, most people worked in agriculture, then in industry and craft trades, and today in services. The term has nothing to do with changes of government, building work or price fluctuations."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Why do so few people work in agriculture today?",
+     "options": [
+      {
+       "text": "Machines do the work of many people – a small number of workers produce enough for everyone.",
+       "correct": true
+      },
+      {
+       "text": "Because people hardly need food any more."
+      },
+      {
+       "text": "Because agriculture has been banned in wealthy countries."
+      },
+      {
+       "text": "Because nobody is willing to work outdoors any more."
+      }
+     ],
+     "explanation": "The main reason is technology: a tractor or combine harvester replaces the manual labour of whole villages, and productivity per worker has increased enormously. People still need to eat, of course – but a small number of workers now produce enough food. Nothing has been banned, and willingness to brave the weather is not the issue either."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Why does the 3rd sector grow as prosperity increases?",
+     "options": [
+      {
+       "text": "Because services become free as prosperity increases."
+      },
+      {
+       "text": "Because the government dictates how many people must work in it."
+      },
+      {
+       "text": "Because people with higher incomes demand more services – such as travel, healthcare or advice.",
+       "correct": true
+      },
+      {
+       "text": "Because people no longer buy manufactured goods."
+      }
+     ],
+     "explanation": "People who earn more rarely spend the extra money on even more basic foodstuffs. Instead, they spend it on travel, leisure, healthcare or advice – in other words, services. This changing demand creates new jobs in the 3rd sector. It does not make services free, the government does not dictate the distribution, and people still buy manufactured goods."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "A joinery workshop makes tables and cupboards from wood. Which sector does it belong to?",
+     "options": [
+      {
+       "text": "The 3rd sector – craftspeople provide a service."
+      },
+      {
+       "text": "The 2nd sector – craft trades process materials into products.",
+       "correct": true
+      },
+      {
+       "text": "The 1st sector – after all, wood is a raw material from nature."
+      },
+      {
+       "text": "None – craft trades are not part of the economy."
+      }
+     ],
+     "explanation": "Craft trades belong to the 2nd sector: material is turned into a product – in this case, wood into a table. Thinking that this 'feels like a service' is a common misconception; what matters is that something is made. The 1st sector (forestry) obtains the raw material timber; the joinery workshop simply processes it. And, of course, craft trades are part of the economy."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "What is distinctive about structural change in Liechtenstein?",
+     "options": [
+      {
+       "text": "Most workers are still employed in agriculture today."
+      },
+      {
+       "text": "There is practically no industry – almost everyone works in banking."
+      },
+      {
+       "text": "The 3rd sector has disappeared completely."
+      },
+      {
+       "text": "Despite its small size, the country has an unusually strong industrial sector alongside a strong service sector.",
+       "correct": true
+      }
+     ],
+     "explanation": "In Liechtenstein, around four out of ten workers are in the 2nd sector – roughly twice the share in most wealthy countries. Companies specialising in machinery and fastening technology, automotive technology or food export worldwide; alongside them, the financial centre is a strong part of the 3rd sector. Agriculture, by contrast, has become very small. Structural change therefore does not follow the same pattern everywhere."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-sektoren-ueberblick",
+   "title": "Sectors and structural change: fill in the terms",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen",
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word, then the gap). **Watch out:** Three of the words do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "The 1st sector obtains {{1}} directly from nature – for example through {{2}}, forestry or mining. The 2nd sector {{3}} these raw materials into finished goods: in industry, the {{4}} and construction. The 3rd sector does not manufacture anything, but provides {{5}} – from hairdressing salons and bus routes to banks.\nThe long-term shift in employment from the 1st to the 2nd and then to the 3rd sector is called {{6}}. One important reason is the use of {{7}}, which replace human labour – first in the fields, later in factories. Because a single worker produces much more today than in the past, we say that their {{8}} has increased. Today, most workers in our region are in the {{9}} sector.",
+   "luecken": [
+    {
+     "antworten": [
+      "raw materials",
+      "natural resources",
+      "resources"
+     ]
+    },
+    {
+     "antworten": [
+      "agriculture",
+      "farming"
+     ]
+    },
+    {
+     "antworten": [
+      "processes",
+      "transforms",
+      "turns",
+      "converts"
+     ]
+    },
+    {
+     "antworten": [
+      "craft trades",
+      "crafts",
+      "craft sector"
+     ]
+    },
+    {
+     "antworten": [
+      "services"
+     ]
+    },
+    {
+     "antworten": [
+      "structural change",
+      "economic structural change",
+      "structural transformation"
+     ]
+    },
+    {
+     "antworten": [
+      "machines",
+      "machinery",
+      "robots"
+     ]
+    },
+    {
+     "antworten": [
+      "productivity",
+      "output per worker",
+      "labour productivity",
+      "labor productivity"
+     ]
+    },
+    {
+     "antworten": [
+      "third",
+      "3rd",
+      "tertiary",
+      "3"
+     ]
+    }
+   ],
+   "ablenker": [
+    "first",
+    "flow of money",
+    "taxes"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-gruende-wandel",
+   "title": "Reasons for structural change: type in the terms",
+   "teilkompetenzen": [
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Upper- and lower-case letters are treated the same.",
+   "modus": "eingabe",
+   "text": "In the past, many hands were needed in the fields at harvest time – today, a single {{1}} does the work of dozens of people. New {{2}} and technologies therefore replace human labour. At the same time, each worker produces much more today than in the past – their {{3}} has increased, so a small number of workers produce enough for everyone. And because people have become wealthier, they spend more money on {{4}}, such as travel, healthcare or advice. Employment therefore shifts step by step into the {{5}} sector.",
+   "luecken": [
+    {
+     "antworten": [
+      "tractor",
+      "combine harvester",
+      "combine",
+      "harvester"
+     ]
+    },
+    {
+     "antworten": [
+      "machines",
+      "machinery",
+      "robots",
+      "devices",
+      "equipment"
+     ]
+    },
+    {
+     "antworten": [
+      "productivity",
+      "output",
+      "performance",
+      "productive capacity",
+      "production capacity",
+      "output per worker",
+      "labour productivity",
+      "labor productivity"
+     ]
+    },
+    {
+     "antworten": [
+      "services",
+      "service provision"
+     ]
+    },
+    {
+     "antworten": [
+      "third",
+      "3rd",
+      "tertiary",
+      "3"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-berufe",
+   "title": "Match them up: which sector is at work?",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen"
+   ],
+   "intro": "Match each job or business to the correct sector: **1st sector**, **2nd sector** or **3rd sector**. Each time, ask yourself: is something being obtained from nature, is something being made, or is a service being provided for others? A few cases are deliberately tricky.",
+   "modus": "wortbank",
+   "text": "A farmer milks his dairy cows in Balzers: {{1}}\nBread is made in a bakery's bakehouse: {{2}}\nA teacher teaches at your school: {{3}}\nA mechanical engineering technician assembles equipment in a machinery factory in Schaan: {{4}}\nCroissants and coffee are served in the café area of the same bakery: {{5}}\nA winegrower tends her vines on the hillside above Vaduz: {{6}}\nA fiduciary firm in Vaduz manages companies and assets: {{7}}\nA bricklayer builds a wall on a building site in Triesen: {{8}}\nA mountain cable car takes hikers from Steg to Malbun-Sareis: {{9}}\nA forester fells trees in the forest above Triesenberg: {{10}}\nA joinery workshop makes tables and cupboards from wood: {{11}}\nA nurse cares for patients in a hospital: {{12}}",
+   "luecken": [
+    {
+     "antworten": [
+      "1st sector",
+      "first sector",
+      "primary sector",
+      "the 1st sector",
+      "the first sector",
+      "the primary sector",
+      "sector 1",
+      "1",
+      "1st",
+      "first",
+      "primary"
+     ]
+    },
+    {
+     "antworten": [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ]
+    },
+    {
+     "antworten": [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ]
+    },
+    {
+     "antworten": [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ]
+    },
+    {
+     "antworten": [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ]
+    },
+    {
+     "antworten": [
+      "1st sector",
+      "first sector",
+      "primary sector",
+      "the 1st sector",
+      "the first sector",
+      "the primary sector",
+      "sector 1",
+      "1",
+      "1st",
+      "first",
+      "primary"
+     ]
+    },
+    {
+     "antworten": [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ]
+    },
+    {
+     "antworten": [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ]
+    },
+    {
+     "antworten": [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ]
+    },
+    {
+     "antworten": [
+      "1st sector",
+      "first sector",
+      "primary sector",
+      "the 1st sector",
+      "the first sector",
+      "the primary sector",
+      "sector 1",
+      "1",
+      "1st",
+      "first",
+      "primary"
+     ]
+    },
+    {
+     "antworten": [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ]
+    },
+    {
+     "antworten": [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Explore further: sectors in your community",
+   "teilkompetenzen": [
+    "wp.sektoren.beispiele-zuordnen",
+    "wp.sektoren.strukturwandel-erklaeren"
+   ],
+   "tasks": [
+    {
+     "prompt": "Return to the question at the start: write down the jobs of five adults you know (parents, relatives, neighbours, coaches …) and match each to the appropriate sector. Count them up: how many of your five people work in the 1st, 2nd and 3rd sectors? Compare your result with the chart in the module – does it fit today's service economy, or does your community look more like Liechtenstein, with its strong industry?",
+     "hint": "For each job, ask yourself: does it involve obtaining something from nature (1st sector), making or building something (2nd sector), or providing a service for others (3rd sector)? If someone works in a business with several activities, focus on their own activity: an accountant in a furniture factory provides a service.",
+     "solution": "There is no model solution here – your community is unique. A typical result would be: most of the five people work in the 3rd sector (e.g. sales, office work, schools, nursing or transport), some in the 2nd sector (industry, craft trades or construction), and at most one in the 1st sector. In and around Liechtenstein, a high share in the 2nd sector is quite possible – this fits its unusually strong industrial base. What matters is that you can explain each classification."
+    },
+    {
+     "prompt": "Explain in your own words – so that someone else (a classmate, your sister, your gran …) could understand – why so many people today work in the 3rd sector. Use at least two of the three reasons from the module and an example of your own. OR: create your own quiz question in the style of this module: choose a job or business that is easy to place in the wrong sector, with one correct answer and three wrong answers based on common misconceptions.",
+     "hint": "The three reasons: machines replace human labour, productivity has increased, and greater prosperity leads people to demand more services. Good choices for the quiz question are businesses combining several activities (a bakery, a restaurant with its own butcher's shop) or services that seem 'technical' (a mountain cable car, a car garage).",
+     "solution": "The key idea to explain: machines and higher productivity free up workers in the 1st and 2nd sectors, while growing demand for services creates new jobs in the 3rd sector – employment shifts there. Example quiz question: 'A garage changes the tyres on your family car. Which sector does this work belong to? a) 3rd sector – repairs and servicing are services (correct), b) 2nd sector, because tools are being used to work on a machine, c) 1st sector, because rubber is a raw material, d) none, because nothing is being sold.'"
+    }
+   ]
+  }
+ ]
+}

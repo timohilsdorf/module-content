@@ -1,0 +1,763 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:e66848ab691d3c6fa5c4da310516d2753c72edae0301736f264e99c343c00963",
+   "text": "Economic sectors and structural change"
+  },
+  "description": {
+   "quelle": "sha256:bd995dabf17bef7093b2603d7b5211f1ef73ef700f23fea996dfbfe4ded1b8d2",
+   "text": "From the farm to the factory to the bank: you will get to know the three economic sectors and classify jobs in your community. You will discover why employment has shifted over time from the 1st to the 2nd and then to the 3rd sector – and why Liechtenstein has followed a distinctive path."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:60cbad252fa244bd259aba09abae45e4f37a6246d0aefd23738acb4efd487d0a",
+   "text": "Topic A: Basic concepts and the circular flow of the economy"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:7c9ad429d0e688f341b0bdc70ba5abf8c0314888acac9152647d9f98c77b247d",
+   "text": "economic sectors"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:c835f4a4f52187d07f2fdffa7113cd0094f77bcd9339a93e4a35deabc59e201e",
+   "text": "1st sector"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:5d2a1d61d589504771b8d75cce54d7edbfdcf534f04bf8f451e99588568f24b7",
+   "text": "2nd sector"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:541805bd340aecce476462fc31588accaa1ecb069139a9612d98d625ee347e8a",
+   "text": "3rd sector"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:a52ced265715911ba0811bcfcd0eb450546b6389827a7e54dd09c51ec960a7e1",
+   "text": "primary sector"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:f33ffd51b3af4b2550d2b6339025769182e7dca2e9a2559bde2c0a65db67595d",
+   "text": "secondary sector"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:582135b2c2f6435590268f0d237187a00191345655b07f12414f09cfbd7b8d10",
+   "text": "tertiary sector"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:4308789853c15d23794bf90c129b1bc897eda887fe58c382736e776a57d0c3e2",
+   "text": "agriculture"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:5346d59852ccb48ab38cd7e06c99384c94d315b2f7d80ce7f47a437c1d95e586",
+   "text": "industry"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:3573ca0ece5e25af53579acf9f821632697db9131521bf8e7a2f846ab42de8f5",
+   "text": "craft trades"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:1db29b1e6b8f6cb8fed62d0a3c29376f8d8c241b8bb07166b1bead8b5a3ce465",
+   "text": "services"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:3e11c1a14252ef8135cc111855761fe903df84c4616c3124584425ce59b02001",
+   "text": "structural change"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:9c8150e97c11fd37dc1e8dbb7f42e457e4b3a2e9ea21a25516406f86beac96c8",
+   "text": "productivity"
+  },
+  "keywords[13]": {
+   "quelle": "sha256:6ff080c07894909d194898c8b63acf6e17ea76ca064d151f9cf15d4999f149ce",
+   "text": "Liechtenstein"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:355cbec7e3451dfc3dbba025e20af38d18b9853fa77c3cbe5e8c69455f57fbaa",
+   "text": "I can distinguish between the three economic sectors – the 1st sector (agriculture and raw material extraction), the 2nd sector (industry, craft trades and construction), and the 3rd sector (services) – and match typical jobs and businesses to each sector."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:85694ed0b35198ab8b5e1f5496d3bf14ca30ceee711b42299dcde496190f916e",
+   "text": "I can describe structural change: employment has shifted over time from the 1st to the 2nd and then to the 3rd sector – and I can explain the main reasons in simple terms (machines and technology, increased productivity, changing demand)."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:7213d4f745dc3cd2fc3f9ce183e9dd88a1084a3b6e88f84c62cac1187725dabb",
+   "text": "I can explain Liechtenstein's position: for such a small country, it has an unusually strong industrial sector as well as a strong service sector – so structural change does not follow the same pattern everywhere."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:2ec647a0d33a85a14826be0cd5e8c48f51aca66d2d34b8abb6b08fd6fcd26f56",
+   "text": "Which sector does your family work in?"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:dfbaa717d1256d00d360f45f3b1cc51b77e86c28f22c37adb1eada08d48a1780",
+   "text": "Think for a moment about the adults around you: perhaps your father works in a workshop, your mother in a bank, your uncle on a farm and your neighbour in a hospital. All four work – but their work could hardly be more different: one obtains something from nature, another advises customers, a third repairs machines and the fourth cares for people.\n\nTo make sense of this variety, economists divide all jobs and businesses into **three broad groups** – the **economic sectors**:\n\n- **1st sector**: obtains raw materials from nature\n- **2nd sector**: processes raw materials into goods\n- **3rd sector**: provides services for others\n\nA memory aid in three words: **extract – process – serve**.\n\n**Reflection question for this module:** Which sector do your parents or other people you know well work in? Keep this question in mind – by the end of the module, you will be able to answer it confidently."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:3ad2ecd4b43f4a1d2b2bed1d90fd4eb8d9fa44ab97fbf9e108f2abe8744262b7",
+   "text": "The three sectors at a glance"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:9bd02d7d9e80e44aa14e0b1565870746f99f8421db9a0d3ba5018ce881980b8d",
+   "text": "**1st sector (primary sector): obtaining raw materials from nature**\n\nThis includes everyone who takes something directly from nature – plants, animals, timber, fish or minerals. Typical jobs and businesses include a **farmer** with dairy cows, a **winegrower** in a vineyard, a **forester** in a forest and a **fisher** on a lake. Mining belongs here too.\n\n**2nd sector (secondary sector): processing raw materials into goods**\n\nThis is where raw materials are made into something – in **industry**, in the **craft trades** and in **construction**. Typical jobs and businesses include a **mechanical engineering technician** in a machinery factory, a **baker** in a bakery, a **bricklayer** on a building site and a **joiner** in a furniture workshop. Watch out for a common misconception: craft trades belong to the 2nd sector, not to services – what matters is that a **product is made**.\n\n**3rd sector (tertiary sector): providing services**\n\nHere, people do not manufacture anything: they provide a **service for others**. Typical jobs and businesses include a **shop assistant**, a **bus driver**, a **teacher** at a school and a **nurse** in a hospital – as well as banks, fiduciary firms, hairdressing salons and tourism.\n\n**What if a business does both?** The bakery in [[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]] **bakes** bread (2nd sector) and **sells** it over the counter, perhaps even with a café area (3rd sector). Many businesses operate in several sectors at once. To classify them, it is best to look at each activity separately: does it involve extracting something, making something or providing a service?"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:244ebec32e6e3ed1962084d3083f4445c52925b0cae28fc7cc69d18251d3c409",
+   "text": "Video: The three economic sectors"
+  },
+  "blocks[2].description": {
+   "quelle": "sha256:b0ba34b3a5a15619729423536ec17bd4fe4a6ec304856dccabc800d1ccc63050",
+   "text": "This explanatory video (5:20) by Arbeitsgemeinschaft Wirtschaft und Schule follows a table on its journey through the economy. As you watch, focus on two questions: (1) What stages does the table go through from raw material to purchase – and which sector is involved at each stage? (2) Why would the 2nd sector be unable to operate without the 1st sector – and what does the 3rd sector do at the end?"
+  },
+  "blocks[2].transcript": {
+   "quelle": "sha256:02cb7c3b9b758747b73382e03b5f098c9be343d54c2c2ce0ca7afc910505b4d4",
+   "text": "The explanatory video by Arbeitsgemeinschaft Wirtschaft und Schule (AWS, 5:20 minutes) uses a table to illustrate the three economic sectors. It starts with the raw material, timber, which is felled in the forest – this is the 1st sector (primary production: agriculture, forestry, fishing and mining). The timber is then processed: sawmills, furniture factories and craft businesses turn it into a finished table – this is the 2nd sector (industry, manufacturing, craft trades and construction). Getting the table to customers requires the 3rd sector: transport, trade, advertising, advice and sales are services. The video shows how the three sectors build on one another and work together – and that most people today work in the service sector."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:b5200713454f75dea2419ec401b4d81a3cd64c12b900e7d2b0274b9e9d5117db",
+   "text": "Structural change: employment shifts"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:5d3494f5acaa59658630cac3568c04782595fea1e8c4017529f8e43085278678",
+   "text": "Around 150 years ago, most people in our region worked in agriculture – the **1st sector**. Industrialisation brought factories, and many people moved into the **2nd sector**. Today, most people work in the **3rd sector**, both here and in almost all wealthy countries. This gradual but enormous shift in employment **from the 1st to the 2nd and then to the 3rd sector** is called **structural change**.\n\nWhy did this happen? Three reasons are closely linked:\n\n- **Machines and technology:** Today, a tractor does fieldwork that once required a whole village. Later, robots and computers also took over many tasks in factories. Machines therefore replace human labour – first in the fields, then in factories.\n- **Increased productivity:** Today, a single worker produces many times more than was possible in the past – we say that their **productivity** has increased. A small number of people produce enough for everyone, freeing up the remaining workers for other tasks.\n- **Changing demand:** When people earn more, they rarely spend the extra money on even more bread – they spend it on travel, sport, health, advice or entertainment. As prosperity increases, people therefore demand **more services** – and that is where new jobs are created.\n\nLook at the trend in the chart below. It is a **model**: the figures are rounded, simplified shares – but they still show the overall trend correctly."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:98e8ea12073dc20d46e3c85967697a5aae35631568b0a92b74372619b473640c",
+   "text": "Structural change at a glance"
+  },
+  "blocks[4].szene.elemente[0].text": {
+   "quelle": "sha256:4f0de46fa757c25c163609070317da42dfcb7c3625f66dae10123b9fcc426e94",
+   "text": "Structural change: Who works in which sector?"
+  },
+  "blocks[4].szene.elemente[1].text": {
+   "quelle": "sha256:00a34f0ee467b5e65c8708d35e8f0186708302544d98a50a687e14cc21cfdd53",
+   "text": "Employment share by sector – simplified model with approximate values, not exact statistics"
+  },
+  "blocks[4].szene.elemente[3].text": {
+   "quelle": "sha256:f32e0b30cf70a8e0d2e1bfc1e16bed449093ba3d0f416c216602dd0684c9db5e",
+   "text": "1st sector: farming & raw materials"
+  },
+  "blocks[4].szene.elemente[5].text": {
+   "quelle": "sha256:dd0106e15a9ccaba94a1be5e3cc65db6d6641ad42424363600b62753f3c95a42",
+   "text": "2nd sector: industry, crafts, building"
+  },
+  "blocks[4].szene.elemente[7].text": {
+   "quelle": "sha256:7b4723d532cf1c7454a68b8ce7181a6c2e7615a8ef716f0d4abc44c9817efecd",
+   "text": "3rd sector: services"
+  },
+  "blocks[4].szene.elemente[17].text": {
+   "quelle": "sha256:cdb0a2d239cdf833c69cd53f4e9a88066ebc0a35e97a57df44fb5b209efd56e5",
+   "text": "5 %"
+  },
+  "blocks[4].szene.elemente[18].text": {
+   "quelle": "sha256:20a697d96382f608fe95d164d54798652e4f8d4f3cf9e0ac02fa58617646f5a9",
+   "text": "Earlier"
+  },
+  "blocks[4].szene.elemente[19].text": {
+   "quelle": "sha256:2a3d295d1a4a37c0f49d1d67cb64db6eab45bf7fdf2dee78d3f4af1d2b9128b4",
+   "text": "Agrarian society"
+  },
+  "blocks[4].szene.elemente[20].text": {
+   "quelle": "sha256:c47401bce409a92aad77abc14b45c11166484bf14b0c0b24c12653f7aa3244c4",
+   "text": "Later"
+  },
+  "blocks[4].szene.elemente[21].text": {
+   "quelle": "sha256:cfed0bda93307c008dc5b8023a0dbc06c9f10e3408554372eef91147c2da4cb9",
+   "text": "Industrial society"
+  },
+  "blocks[4].szene.elemente[22].text": {
+   "quelle": "sha256:46ea2fff7a5bad32dcf7f19be4a2d93538d84f81b414e6a0e36193bb3529562d",
+   "text": "Today"
+  },
+  "blocks[4].szene.elemente[23].text": {
+   "quelle": "sha256:69a78748739ae5e9c98efc006d1870145a387d39991a5b3941c45af2f29478ef",
+   "text": "Service economy"
+  },
+  "blocks[4].szene.elemente[25].text": {
+   "quelle": "sha256:0363ceb0b2389aec71e6077fba7ee268e38c46111acdf199cea079bbbbbcc0da",
+   "text": "10 %"
+  },
+  "blocks[4].szene.elemente[26].text": {
+   "quelle": "sha256:7ae8d407dd41b0f28c0c8ce78128e16988117cf7bf6b01e1c2cf6bedd726d646",
+   "text": "20 %"
+  },
+  "blocks[4].szene.elemente[27].text": {
+   "quelle": "sha256:3fabe81adce12c039003bf6f45a922f0922362d3123a1b928035c9f3a939bbcb",
+   "text": "70 %"
+  },
+  "blocks[4].szene.elemente[28].text": {
+   "quelle": "sha256:04574c6763c72d0b9769d1d6d521c3969c8e660dc0fbdf788e4b6ed61a3e9c94",
+   "text": "25 %"
+  },
+  "blocks[4].szene.elemente[29].text": {
+   "quelle": "sha256:e72af58d9240037dddd5d382754f6c6ea3a814c041d23e9c5f0db1dab3a403d1",
+   "text": "45 %"
+  },
+  "blocks[4].szene.elemente[30].text": {
+   "quelle": "sha256:cb164f503c86aeb1525f5285f3384052af7671b536d3e9e975dca49d01e4bb27",
+   "text": "30 %"
+  },
+  "blocks[4].szene.elemente[31].text": {
+   "quelle": "sha256:3fabe81adce12c039003bf6f45a922f0922362d3123a1b928035c9f3a939bbcb",
+   "text": "70 %"
+  },
+  "blocks[4].szene.elemente[32].text": {
+   "quelle": "sha256:04574c6763c72d0b9769d1d6d521c3969c8e660dc0fbdf788e4b6ed61a3e9c94",
+   "text": "25 %"
+  },
+  "blocks[4].szene.elemente[33].text": {
+   "quelle": "sha256:9111bff6f80f6b9c57d5f30220a215980002c35e3f6fb727169ed19d019e2fbd",
+   "text": "Over time"
+  },
+  "blocks[4].beschreibung": {
+   "quelle": "sha256:3e843ed5555ca6713e60f949dd48928b5441dccddba5615651e6168136b7be1c",
+   "text": "The chart shows structural change in employment as a simplified model with approximate, rounded values (not exact statistics). Three stacked columns each represent 100 per cent of workers at three points in time – earlier (agrarian society), later (industrial society) and today (service economy) – divided into the three economic sectors: 1st sector, agriculture and raw materials (green); 2nd sector, industry, craft trades and construction (blue); 3rd sector, services (orange). An arrow below the columns shows time moving from left to right as the shares shift. Key points: Earlier (agrarian society), 70 % of workers were in the 1st sector, 20 % in the 2nd sector and 10 % in the 3rd sector. Later (industrial society), the shares were 30 % in the 1st sector, 45 % in the 2nd sector and 25 % in the 3rd sector. Today (service economy), only 5 % work in the 1st sector, 25 % in the 2nd sector and 70 % in the 3rd sector. Employment has therefore shifted over time from the 1st to the 2nd and then to the 3rd sector: agriculture's share has shrunk sharply, industry's share first rose and then fell, and services are now by far the largest sector."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:c852367f96b50a7639feb19b08f01515d10729d9d9ccd8d901669185e138aa56",
+   "text": "Liechtenstein: small, but industrial"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:e1ebb746890d811c14968e0a1479dc212d9896a68b876a5cfbdb19869551d9dc",
+   "text": "Does this pattern apply everywhere? A look at Liechtenstein shows: **not quite**.\n\nIn most wealthy countries, only about two out of ten workers are now in the 2nd sector. In Liechtenstein, however, it is **around four out of ten** – an unusually high share for such a small country. World-famous industrial companies have their headquarters here: **machinery and fastening technology** in Schaan (Hilti), **automotive technology** in Eschen (steering systems from thyssenkrupp Presta), **food products** in Schaan (Hilcona) and **dental products** (Ivoclar). Their products are exported all over the world.\n\nAt the same time, Liechtenstein has a **strong service sector**: the **financial centre**, with banks and fiduciary firms in Vaduz, employs many people, alongside trade, schools, healthcare and tourism. The **1st sector**, by contrast, has become tiny: only about one in a hundred workers is employed in agriculture.\n\nLiechtenstein illustrates two points. Firstly, this small economy creates so many jobs that **more than half of its workers commute in daily from Schweiz and Österreich**. Secondly, structural change is not a law of nature that follows the same pattern everywhere. Liechtenstein's agriculture has shrunk too – but its industry has remained strong, while becoming much smaller in many other countries. **How a country develops depends on its businesses, its location and its decisions.**"
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:98043a03eb24b06028847652cb45308718150b57d4b3e7f22d63ba0ac8dbed2d",
+   "text": "Quiz: Sectors and structural change"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:28a49a96646190686dc186c72a6a4145703183397f3524d11559b74a436dbd6f",
+   "text": "Show what you know about the three sectors and structural change. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:29755b411fb2d8e547c41bf25b646458f525068c9bbe85651dec0ffd171e22f4",
+   "text": "What characterises the 1st sector?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:4a6b6babf44c74116663a64bdd8c70680458287c3b329250878620d85260780b",
+   "text": "It processes raw materials into finished goods."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:64d236f06efbda3c964f011bbb8a25a477adb5c9d99f1850de1c4c53ec1bb844",
+   "text": "It sells products to customers."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:f216915169ac919ea35335ffdec7d063f7f71070e9f2c3d7020e64400b1a11eb",
+   "text": "It obtains raw materials directly from nature."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:2ea9ebf2d0eec73fa4f44200ebc69f67fdb9babe3dc2432acbe6729396529939",
+   "text": "It includes everything to do with food."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:2c561e072a82b45b7619ebeac2802475ac83ad45451cdd48a40b8cacbce02935",
+   "text": "The 1st sector takes things directly from nature: plants, animals, timber, fish and minerals. Processing them into goods is the role of the 2nd sector; selling them is a service and belongs to the 3rd sector. And 'everything to do with food' is not correct: a cow in a field belongs to the 1st sector, yoghurt from a dairy to the 2nd, and a supermarket to the 3rd."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:b6074797751fa62a98a9d494b89498a51b8642002fca10d9d3d835ba5bcdeb38",
+   "text": "In a bakery's bakehouse, flour, water and yeast are turned into bread. Which sector does this work belong to?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:7e034b9c00abd8bb009b2541f78adaee2e3d088d68527e96cd0921530594d3cf",
+   "text": "The 2nd sector – raw materials are processed into a product here."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:6baa56faf2f16e4cdd0871bc7f02dc9ed46ea559c07f45de8b7ea255a5f625f1",
+   "text": "The 1st sector – after all, the bakery works with food."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:3fea2cf069eb762ef493774af3c45e1c7125befd1915601d884a190ae782aa9f",
+   "text": "The 3rd sector – the bakery serves its customers."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:b099c95f26063a5f0f60bdecde6bcb41acdc51588ac84ed4b24b60eb3825cdce",
+   "text": "No sector – small family businesses are not classified."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:626dabae975f2ad36e3201865db2afe0a6f08c839eed525bf0ca3fd110a68b26",
+   "text": "In the bakehouse, raw materials are made into a product – this is processing, so it belongs to the 2nd sector. 'Food' does not automatically mean the 1st sector: only the grain growing in the field would belong there. Selling bread over the counter does belong to the 3rd sector, however – a business can operate in several sectors at once, even a small one."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:df33a132b30b0fa51d67742678258579d266a9aa35829d8a4441e7efbd6479b3",
+   "text": "Which of these jobs belongs to the 3rd sector?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:fc8185728d7c33d1ece758511a293526fa8053206c6fda154bcf1b9d09156e5c",
+   "text": "Forester working in a forest"
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:287fdd287fd1359d9f151dc21216fe63988ee65b87cd215e0edf9fc8311b099a",
+   "text": "Mechanical engineering technician in a machinery factory"
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:96a6c6b149d8ea34cd4a2b50e4c7f5e4f2f221b835ec8a1412a2fd1777035ebe",
+   "text": "Bricklayer on a building site"
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:0ace5d16ed77ba9ffae74bf5ea9913f98369b7c91574d291de0008269751bbec",
+   "text": "Bus driver on the route to Vaduz"
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:7f16c61d7d7270769e1b887349d0c79fdbfc448248f8587114c167ef66976cce",
+   "text": "The bus driver provides a service: transporting people without making a product – this is the 3rd sector. The forester obtains the raw material timber (1st sector), while the mechanical engineering technician makes things and the bricklayer builds things (both 2nd sector)."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:cd868b868f4c8311bc730390881806083067080fc253044b7e2e022cc09c302c",
+   "text": "What is meant by structural change?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:07702a6cf62b6623912e1d3bf990e023077f910279f3f6c18c99fee93b9fdb20",
+   "text": "A change of government after an election."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:8a12987b4d00133f45d399ea7e87a6284dac337a85b907ec1793805bcda22c59",
+   "text": "The long-term shift in employment from the 1st to the 2nd and then to the 3rd sector."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:0d56a7c725453c946c8400a1a0bf1103be6ff967a41c687cee16ea6b95ea7d03",
+   "text": "The renovation of a business building."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:5addc0c22c4777450b5acea1f0de63ab77bba73b500e16872eb46c4d05b955a3",
+   "text": "The daily rise and fall of prices in the market."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:d6b83fbc2b0411ef7c4608d544d4168a88b1780bf43f085fc9a7774b1c6265e2",
+   "text": "Structural change describes the gradual but far-reaching shift in employment between sectors: in the past, most people worked in agriculture, then in industry and craft trades, and today in services. The term has nothing to do with changes of government, building work or price fluctuations."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:33e13a198976bd53bc46a2ca18423ca787015f5bd418cbfe204243f8f7aad24e",
+   "text": "Why do so few people work in agriculture today?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:09ebc22710856e3145c210fc3c3b933b6e679b8cab7bf671076b6f4935fa1a0d",
+   "text": "Machines do the work of many people – a small number of workers produce enough for everyone."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:0f6b168426e90545d13d351f0ffe46aa46bdd39213c7a85991d1e29595379233",
+   "text": "Because people hardly need food any more."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:a2ab11098d8de183211412287645fad01a92e4281ae225be90af6bb3c93a6ac0",
+   "text": "Because agriculture has been banned in wealthy countries."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:c9ff8f5b984496041e733fa8e008ec932ca555183b20284a63b524df9b949a96",
+   "text": "Because nobody is willing to work outdoors any more."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:7eb1c4a6eaea774a23dd9f83ebe7007dcc289e659e89e9290c1edc831577ef03",
+   "text": "The main reason is technology: a tractor or combine harvester replaces the manual labour of whole villages, and productivity per worker has increased enormously. People still need to eat, of course – but a small number of workers now produce enough food. Nothing has been banned, and willingness to brave the weather is not the issue either."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:2009fc449a5868b0f5ed2b75981d31fc13875f53ba668dc7a8fea7c5eb094290",
+   "text": "Why does the 3rd sector grow as prosperity increases?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:4fb714248f8ad99bc8e42478f1cd610d91f0844fb4faeeb7526951c1ff217521",
+   "text": "Because services become free as prosperity increases."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:c572bc3d9cd0d729028f7a50588d4c5b33bad7dd19c1370b729327acc208ed32",
+   "text": "Because the government dictates how many people must work in it."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:784f8ddc34a84b2eca67c9d4cf1d14f6ba087770fe6854d748aae77b74b93e01",
+   "text": "Because people with higher incomes demand more services – such as travel, healthcare or advice."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:dc4cfbd28dcdfa86617022b9adc15fbc9dd90357496b39113cd223b1c43491bd",
+   "text": "Because people no longer buy manufactured goods."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:ad1fbc97aca4ecaede176c633801d6140d1dae510d94566a7e53b021f696bee8",
+   "text": "People who earn more rarely spend the extra money on even more basic foodstuffs. Instead, they spend it on travel, leisure, healthcare or advice – in other words, services. This changing demand creates new jobs in the 3rd sector. It does not make services free, the government does not dictate the distribution, and people still buy manufactured goods."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:8f1c59a6419d76ea642c37144d59e6791eb6c5b84cd3ad52fec386ec5104c52d",
+   "text": "A joinery workshop makes tables and cupboards from wood. Which sector does it belong to?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:47040a537b067b8b1e011b0386321ecd9899190a918fa823ac013e0b3cc7a37a",
+   "text": "The 3rd sector – craftspeople provide a service."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:413f5961f28272242c7c587296ce76b671eec6263e4b01a618b2e9430c69c2bb",
+   "text": "The 2nd sector – craft trades process materials into products."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:5300753c7fae19e36f13d88636ecf45b3d9dfc5669929548cbcb1ee485c2124c",
+   "text": "The 1st sector – after all, wood is a raw material from nature."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:bd5aabc4d62d1fb1ed142e8b4894ec347e1f907491a18fdf13a9169de79666be",
+   "text": "None – craft trades are not part of the economy."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:f51427301f88999cc80bab7e4be8637150eb727e80e9c8822b2c6794dfba0532",
+   "text": "Craft trades belong to the 2nd sector: material is turned into a product – in this case, wood into a table. Thinking that this 'feels like a service' is a common misconception; what matters is that something is made. The 1st sector (forestry) obtains the raw material timber; the joinery workshop simply processes it. And, of course, craft trades are part of the economy."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:34954ff24c75e90028f0539a88357dfd4fc1b1132c648105502014926cdd5b43",
+   "text": "What is distinctive about structural change in Liechtenstein?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:8480453048ed3317e8a67826a4efb680e2f3485ffd60dc162fd5ec1d8bc5c0da",
+   "text": "Most workers are still employed in agriculture today."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:eec54d0d8bd9ff10475ced340aa2371c345c0b299fc5af6778cd470686574121",
+   "text": "There is practically no industry – almost everyone works in banking."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:ee06e1296aa4bdab245fa6756d95e9989671908beae206eb0ab41e6f4560e4ad",
+   "text": "The 3rd sector has disappeared completely."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:f08328ec55e48714ab836a461ebcea0fed6569b7e2e66e70b8a571619a3f286e",
+   "text": "Despite its small size, the country has an unusually strong industrial sector alongside a strong service sector."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:8d20df745336c2229e55bb342fb8f27edee2f1fdb45ede5e6c009c9f334205cb",
+   "text": "In Liechtenstein, around four out of ten workers are in the 2nd sector – roughly twice the share in most wealthy countries. Companies specialising in machinery and fastening technology, automotive technology or food export worldwide; alongside them, the financial centre is a strong part of the 3rd sector. Agriculture, by contrast, has become very small. Structural change therefore does not follow the same pattern everywhere."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:6a805285dc2aafe81c077ab8cda8582d0fec9ff0a4aa39640d5c4041e1626110",
+   "text": "Sectors and structural change: fill in the terms"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:454d8996ee76d3e92a85bab3e710deb8d3471f2557b90f524a135211c5311384",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word, then the gap). **Watch out:** Three of the words do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:a4cee1d6cceffdbb2d19ef7a8d92a211bd948b49e06a7b62861d7dedf5472ec6",
+   "text": "Reasons for structural change: type in the terms"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no word bank this time – **type in the missing terms yourself**. Upper- and lower-case letters are treated the same."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:cfabf9b8f969ee3efcca85beb94f4945d90ae949a229e93ae8c7b2d4d5fb85ff",
+   "text": "Match them up: which sector is at work?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:fabd10f2d121c287cac074aa506f81a5029deb534d247e6769f967fbdf97c561",
+   "text": "Match each job or business to the correct sector: **1st sector**, **2nd sector** or **3rd sector**. Each time, ask yourself: is something being obtained from nature, is something being made, or is a service being provided for others? A few cases are deliberately tricky."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:683161be3e32e3ff388e730bbbe6771463290121e77c2c25accfc7c3fe16c49c",
+   "text": "Explore further: sectors in your community"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:237cf3917d113569993052c7a38b19a3f7f74563ce58a7887a1be45be3afa996",
+   "text": "Return to the question at the start: write down the jobs of five adults you know (parents, relatives, neighbours, coaches …) and match each to the appropriate sector. Count them up: how many of your five people work in the 1st, 2nd and 3rd sectors? Compare your result with the chart in the module – does it fit today's service economy, or does your community look more like Liechtenstein, with its strong industry?"
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:c1b84185623dc5b4f7f31f72f69a06506e7c59cb5a8f7e3242986909258d79e6",
+   "text": "For each job, ask yourself: does it involve obtaining something from nature (1st sector), making or building something (2nd sector), or providing a service for others (3rd sector)? If someone works in a business with several activities, focus on their own activity: an accountant in a furniture factory provides a service."
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:f55a9f05e851f1757fdfab1b17c4be47a055ea3afdce6a11582991f60ea618a4",
+   "text": "There is no model solution here – your community is unique. A typical result would be: most of the five people work in the 3rd sector (e.g. sales, office work, schools, nursing or transport), some in the 2nd sector (industry, craft trades or construction), and at most one in the 1st sector. In and around Liechtenstein, a high share in the 2nd sector is quite possible – this fits its unusually strong industrial base. What matters is that you can explain each classification."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:d55e3a5f7a91f48cfd4a27dc9e6cd13a74f2f99026f4c6b44e053cab8b44f557",
+   "text": "Explain in your own words – so that someone else (a classmate, your sister, your gran …) could understand – why so many people today work in the 3rd sector. Use at least two of the three reasons from the module and an example of your own. OR: create your own quiz question in the style of this module: choose a job or business that is easy to place in the wrong sector, with one correct answer and three wrong answers based on common misconceptions."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:d4054eb2844b2930291a4ad342c217d9cf9775066f0a6223ef58dd50f7b799a0",
+   "text": "The three reasons: machines replace human labour, productivity has increased, and greater prosperity leads people to demand more services. Good choices for the quiz question are businesses combining several activities (a bakery, a restaurant with its own butcher's shop) or services that seem 'technical' (a mountain cable car, a car garage)."
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:0379a99269f8c623acefbd9dde358e7f4748eec5cb6f5445fed7439061fb46f9",
+   "text": "The key idea to explain: machines and higher productivity free up workers in the 1st and 2nd sectors, while growing demand for services creates new jobs in the 3rd sector – employment shifts there. Example quiz question: 'A garage changes the tyres on your family car. Which sector does this work belong to? a) 3rd sector – repairs and servicing are services (correct), b) 2nd sector, because tools are being used to work on a machine, c) 1st sector, because rubber is a raw material, d) none, because nothing is being sold.'"
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:7e405816229cd4c640b9092979d93e8ccd2b75a2fd5b7b7f40103e7747f0c7de",
+   "inhalt": {
+    "text": "The 1st sector obtains {{1}} directly from nature – for example through {{2}}, forestry or mining. The 2nd sector {{3}} these raw materials into finished goods: in industry, the {{4}} and construction. The 3rd sector does not manufacture anything, but provides {{5}} – from hairdressing salons and bus routes to banks.\nThe long-term shift in employment from the 1st to the 2nd and then to the 3rd sector is called {{6}}. One important reason is the use of {{7}}, which replace human labour – first in the fields, later in factories. Because a single worker produces much more today than in the past, we say that their {{8}} has increased. Today, most workers in our region are in the {{9}} sector.",
+    "luecken": [
+     [
+      "raw materials",
+      "natural resources",
+      "resources"
+     ],
+     [
+      "agriculture",
+      "farming"
+     ],
+     [
+      "processes",
+      "transforms",
+      "turns",
+      "converts"
+     ],
+     [
+      "craft trades",
+      "crafts",
+      "craft sector"
+     ],
+     [
+      "services"
+     ],
+     [
+      "structural change",
+      "economic structural change",
+      "structural transformation"
+     ],
+     [
+      "machines",
+      "machinery",
+      "robots"
+     ],
+     [
+      "productivity",
+      "output per worker",
+      "labour productivity",
+      "labor productivity"
+     ],
+     [
+      "third",
+      "3rd",
+      "tertiary",
+      "3"
+     ]
+    ],
+    "ablenker": [
+     "first",
+     "flow of money",
+     "taxes"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:a7d4b399fecb7052f6c7af7dc65cb5b3020dc5e68423453ccb09e52b3d5fb14b",
+   "inhalt": {
+    "text": "In the past, many hands were needed in the fields at harvest time – today, a single {{1}} does the work of dozens of people. New {{2}} and technologies therefore replace human labour. At the same time, each worker produces much more today than in the past – their {{3}} has increased, so a small number of workers produce enough for everyone. And because people have become wealthier, they spend more money on {{4}}, such as travel, healthcare or advice. Employment therefore shifts step by step into the {{5}} sector.",
+    "luecken": [
+     [
+      "tractor",
+      "combine harvester",
+      "combine",
+      "harvester"
+     ],
+     [
+      "machines",
+      "machinery",
+      "robots",
+      "devices",
+      "equipment"
+     ],
+     [
+      "productivity",
+      "output",
+      "performance",
+      "productive capacity",
+      "production capacity",
+      "output per worker",
+      "labour productivity",
+      "labor productivity"
+     ],
+     [
+      "services",
+      "service provision"
+     ],
+     [
+      "third",
+      "3rd",
+      "tertiary",
+      "3"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:a6b15c8305800f22544f82ed84993747944d726970844936be19ca875d01eeed",
+   "inhalt": {
+    "text": "A farmer milks his dairy cows in Balzers: {{1}}\nBread is made in a bakery's bakehouse: {{2}}\nA teacher teaches at your school: {{3}}\nA mechanical engineering technician assembles equipment in a machinery factory in Schaan: {{4}}\nCroissants and coffee are served in the café area of the same bakery: {{5}}\nA winegrower tends her vines on the hillside above Vaduz: {{6}}\nA fiduciary firm in Vaduz manages companies and assets: {{7}}\nA bricklayer builds a wall on a building site in Triesen: {{8}}\nA mountain cable car takes hikers from Steg to Malbun-Sareis: {{9}}\nA forester fells trees in the forest above Triesenberg: {{10}}\nA joinery workshop makes tables and cupboards from wood: {{11}}\nA nurse cares for patients in a hospital: {{12}}",
+    "luecken": [
+     [
+      "1st sector",
+      "first sector",
+      "primary sector",
+      "the 1st sector",
+      "the first sector",
+      "the primary sector",
+      "sector 1",
+      "1",
+      "1st",
+      "first",
+      "primary"
+     ],
+     [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ],
+     [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ],
+     [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ],
+     [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ],
+     [
+      "1st sector",
+      "first sector",
+      "primary sector",
+      "the 1st sector",
+      "the first sector",
+      "the primary sector",
+      "sector 1",
+      "1",
+      "1st",
+      "first",
+      "primary"
+     ],
+     [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ],
+     [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ],
+     [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ],
+     [
+      "1st sector",
+      "first sector",
+      "primary sector",
+      "the 1st sector",
+      "the first sector",
+      "the primary sector",
+      "sector 1",
+      "1",
+      "1st",
+      "first",
+      "primary"
+     ],
+     [
+      "2nd sector",
+      "second sector",
+      "secondary sector",
+      "the 2nd sector",
+      "the second sector",
+      "the secondary sector",
+      "sector 2",
+      "2",
+      "2nd",
+      "second",
+      "secondary"
+     ],
+     [
+      "3rd sector",
+      "third sector",
+      "tertiary sector",
+      "the 3rd sector",
+      "the third sector",
+      "the tertiary sector",
+      "sector 3",
+      "3",
+      "3rd",
+      "third",
+      "tertiary",
+      "service sector",
+      "services sector",
+      "the service sector",
+      "the services sector"
+     ]
+    ]
+   }
+  }
+ }
+}
