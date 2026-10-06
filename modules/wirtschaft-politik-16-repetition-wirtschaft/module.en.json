@@ -1,0 +1,1716 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-16-repetition-wirtschaft --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:2bab01bb2d4b2a9f68aab66f7011c7be4f6885bd5ed29384a709b3f33f90cf76",
+  "masterCommit": "470c0eb",
+  "hintsHash": null,
+  "generatedAt": "2026-10-06",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:e940f5b8b70afbd232b26453fd28cac649c91fcf853c2b0d4e072dee44d0abb9"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-16-repetition-wirtschaft",
+ "title": "Revision: Economics at a glance",
+ "description": "Revision week comes before the written assessment – and this module guides you through it. It brings together the key concepts from all three topic areas (basic concepts and the circular flow of the economy, markets and prices, money, banking and financial knowledge), then gives you plenty of practice: a large mixed quiz covering all the modules so far, a terminology matching exercise, a revision gap-fill and tasks that apply your knowledge to new situations. No new material – just everything you need in one place.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.2.3",
+     "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    }
+   ]
+  }
+ ],
+ "sequenz": 16,
+ "einheit": "Topic area C: Money, banking and financial knowledge",
+ "language": "en",
+ "durationMinutes": 60,
+ "difficulty": "mittel",
+ "keywords": [
+  "revision",
+  "exam preparation",
+  "circular flow of the economy",
+  "scarcity",
+  "economic actors",
+  "supply and demand",
+  "equilibrium price",
+  "monopoly",
+  "functions of money",
+  "banks",
+  "interest",
+  "budget",
+  "debt"
+ ],
+ "learningObjectives": [
+  "I can explain the key concepts from topic areas A to C and match them to the right topic area.",
+  "I can connect knowledge from different modules and apply it to new everyday situations.",
+  "I know where the gaps in my knowledge are and can plan my preparation for the assessment accordingly."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "iconomix – Bildungsangebot der Schweizerischen Nationalbank",
+   "url": "https://www.iconomix.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-05-wirtschaftssektoren-strukturwandel",
+  "wirtschaft-politik-09-argumentieren-preisregulierung",
+  "wirtschaft-politik-15-schuldenfallen-digitales-bezahlen"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Everything at a glance – your plan for revision week",
+   "body": "You have worked through fifteen modules – from the question ‘Why can't you have everything?’ to debt traps in online shops. Before the written assessment, this module brings it all together: **no new material**, just the essentials from all three topic areas, summarised for you to revisit – followed by plenty of **practice, practice, practice**.\n\nHere is how to get the most out of this module:\n\n1. Read the three topic summaries and mark any terms that no longer feel familiar.\n2. Complete the big quiz – it starts off easy and gets more challenging towards the end.\n3. Work through the matching exercise and the gap-fills. Revisit the relevant module for anything you find difficult.\n4. Use the final task to plan exactly what you still need to work on before the assessment.\n\nYou can repeat all the tasks as often as you like – your best result counts. Just what you need for revision week."
+  },
+  {
+   "type": "text",
+   "title": "Topic area A – Basic concepts and the circular flow of the economy",
+   "body": "Economic activity arises because **unlimited needs meet limited resources**. Using these **scarce resources** wisely is the **economic principle** (achieving as much as possible with the resources available – or reaching a goal with as few resources as possible). Needs range from **basic needs** through **cultural needs** to **luxury needs**, and they are met by **goods**: physical goods and services, free goods and scarce goods. The three **economic actors** are **households** (which consume and supply labour), **businesses** (which produce and pay wages) and **the state** (which sets rules, collects taxes and provides public services). The **circular flow of the economy** shows the exchanges between them: the green **real flow** (labour and goods) and the orange **money flow** (wages and consumer spending) move in opposite directions. The extended model adds the state, **banks** (saving and loans) and **the foreign sector** (exports and imports). Work takes place in three **sectors** – agriculture, industry and services – and **structural change** has shifted employment over time from the first to the second and then to the third sector. Liechtenstein is a special case, with unusually strong industry **and** a strong service sector."
+  },
+  {
+   "type": "text",
+   "title": "Topic area B – Markets and prices",
+   "body": "In a **market**, **supply** and **demand** meet. The rule is: the higher the price, the less is demanded – and the more is supplied. If the price falls, the reverse happens. Where the two sides meet is the **equilibrium price**: the quantity supplied matches the quantity demanded, and the market ‘clears’. Prices are therefore the market's most important **signal** – they indicate scarcity, attract new suppliers and curb demand. For this to work, there needs to be **competition**: competing suppliers put downward pressure on prices and drive up quality. In a **monopoly**, by contrast, there is only one supplier and customers cannot go elsewhere – which is why the authorities keep a closer eye on such markets. Whether the state should intervene in prices (rent controls or price caps) is a political debate: a cap **below** the equilibrium price protects those affected in the short term but creates **shortages** – and a good **argument** about this always consists of a claim, a reason and an example."
+  },
+  {
+   "type": "text",
+   "title": "Topic area C – Money, banking and financial knowledge",
+   "body": "**Money** has three functions – **medium of exchange**, **store of value** and **unit of account** – and has developed from barter through commodity money, coins and paper money to **bank money** and digital payments. Liechtenstein has used the stable **Swiss franc** since 1924 (currency treaty with Schweiz signed in 1980). **Insurance** is based on the **group** bearing the individual's risk – the **premium** is the price paid for this. The rules of thumb are: insure against risks that could threaten your financial security, cover small losses yourself, and keep insurance and saving separate. **Banks** accept deposits, provide **loans** and process payments. They earn money from the **interest rate spread** between lending and savings rates, and check **creditworthiness** before granting any loan. On the **stock exchange**, supply and demand determine prices: a **share** is a stake in a real business, whereas nothing tangible backs **Bitcoin**. The general rule is: **higher potential returns, higher risk**. Managing your own money comes down to practical skills: **gross pay minus deductions equals net pay**. Base your budget on your net pay and follow the rule **‘save first, spend second’**. If you know about debt traps such as buy now, pay later, subscription traps and small consumer loans, you can spot warning signs early and know where to get help."
+  },
+  {
+   "type": "schaubild",
+   "title": "A reminder: the extended circular flow of the economy",
+   "szene": {
+    "elemente": [
+     {
+      "id": "staat",
+      "x": 340,
+      "y": 60,
+      "width": 290,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#a5c4e4",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 382488205,
+      "type": "rectangle"
+     },
+     {
+      "id": "haushalte",
+      "x": 0,
+      "y": 330,
+      "width": 355,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#b1d0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1171221699,
+      "type": "rectangle"
+     },
+     {
+      "id": "unternehmen",
+      "x": 615,
+      "y": 330,
+      "width": 275,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c6ddf4",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1388115181,
+      "type": "rectangle"
+     },
+     {
+      "id": "ausland",
+      "x": 1020,
+      "y": 330,
+      "width": 225,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d0dce8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2070600803,
+      "type": "rectangle"
+     },
+     {
+      "id": "banken",
+      "x": 355,
+      "y": 650,
+      "width": 260,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d0dce8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1787416397,
+      "type": "rectangle"
+     },
+     {
+      "id": "arrow-steuern",
+      "x": 450,
+      "y": 321.5,
+      "width": 0,
+      "height": 111,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 926373891,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -111
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-leistungen",
+      "x": 565.5,
+      "y": 205.5,
+      "width": 94,
+      "height": 119,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2089573805,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        94,
+        119
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-arbeitskraft",
+      "x": 360.5,
+      "y": 378,
+      "width": 249,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 657678243,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        249,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-lohn",
+      "x": 609.5,
+      "y": 423,
+      "width": 249,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 535699469,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -249,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-gueter",
+      "x": 609.5,
+      "y": 468,
+      "width": 249,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 898462531,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -249,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-konsum",
+      "x": 360.5,
+      "y": 513,
+      "width": 249,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1252562541,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        249,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-exporte",
+      "x": 895.5,
+      "y": 395,
+      "width": 119,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 44307171,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        119,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-importe",
+      "x": 1014.5,
+      "y": 465,
+      "width": 119,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2005221581,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -119,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-sparen",
+      "x": 250.5,
+      "y": 535.5,
+      "width": 169,
+      "height": 111,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 520470147,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        169,
+        111
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arrow-kredite",
+      "x": 555.5,
+      "y": 646.5,
+      "width": 144,
+      "height": 111,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 203267885,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        144,
+        -111
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "titel",
+      "x": 375,
+      "y": 0,
+      "width": 393.8,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 91289123,
+      "type": "text",
+      "text": "The extended circular flow of the economy",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "legende-real-pfeil",
+      "x": 60.5,
+      "y": 855,
+      "width": 69,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2128294285,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        69,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-real-text",
+      "x": 145,
+      "y": 845,
+      "width": 335.48,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1423194563,
+      "type": "text",
+      "text": "Real flow: labour, goods and services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "legende-geld-pfeil",
+      "x": 660.5,
+      "y": 855,
+      "width": 69,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1022851053,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        69,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "legende-geld-text",
+      "x": 745,
+      "y": 845,
+      "width": 337.27,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1246628195,
+      "type": "text",
+      "text": "Money flow: wages, spending, taxes, saving, loans",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "schlusssatz",
+      "x": 160,
+      "y": 910,
+      "width": 660.95,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#3b6ea5",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1350300237,
+      "type": "text",
+      "text": "Each actor makes the model more realistic – yet it remains a simplified picture of reality.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o1k-GBpE8_SS-y-KhaLyu",
+      "x": 419.26,
+      "y": 85,
+      "width": 131.48,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1308073069,
+      "type": "text",
+      "text": "State\n\nSchools, roads,\nsecurity",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "staat",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "I2VqFdEk9iIVEpIQVCROa",
+      "x": 99.03,
+      "y": 385,
+      "width": 156.94,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 117671629,
+      "type": "text",
+      "text": "Households\n\nconsume goods\nsupply labour",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "haushalte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "K5EZY3QYFniP25EKYrXEP",
+      "x": 689.76,
+      "y": 362.5,
+      "width": 125.48,
+      "height": 135,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1608721709,
+      "type": "text",
+      "text": "Businesses\n\nproduce\ngoods and\nservices,\npay wages",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "unternehmen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Y6-6WLtBvfP_DmadLGMyi",
+      "x": 1079.27,
+      "y": 385,
+      "width": 106.46,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 201324429,
+      "type": "text",
+      "text": "Foreign sector\n\ne.g. Schweiz\nand Österreich",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ausland",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "QcwAGzcU0OR-ZDPkJvypg",
+      "x": 421.77,
+      "y": 675,
+      "width": 126.46,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 361987565,
+      "type": "text",
+      "text": "Banks\n\nlink saving\nand loans",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "banken",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "gBLBp4ywRDoer6bmsz-Az",
+      "x": 425.56,
+      "y": 256,
+      "width": 48.88,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 61290573,
+      "type": "text",
+      "text": "Taxes",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-steuern",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Yh1eTyLch6OQWUiHAAaL5",
+      "x": 540.45,
+      "y": 255,
+      "width": 144.11,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1032145165,
+      "type": "text",
+      "text": "Public services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-leistungen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "BldIK5XESmYooRrom3eIo",
+      "x": 446.35,
+      "y": 368,
+      "width": 77.3,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1488545837,
+      "type": "text",
+      "text": "Labour",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-arbeitskraft",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Ekp1mbZRM3Qh3qb8pCaI-",
+      "x": 468.11,
+      "y": 413,
+      "width": 33.77,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1457544013,
+      "type": "text",
+      "text": "Wages",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-lohn",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "XQ2lFnIFWOmpv79S0U1ag",
+      "x": 397.02,
+      "y": 458,
+      "width": 175.97,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1333437037,
+      "type": "text",
+      "text": "Goods and services",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-gueter",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "iEnJ1hyR1DAihWDj_2Pbv",
+      "x": 428.12,
+      "y": 503,
+      "width": 113.76,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1406713229,
+      "type": "text",
+      "text": "Consumer spending",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-konsum",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "wcttCbO9reUIq1-Vh2U32",
+      "x": 929.68,
+      "y": 385,
+      "width": 50.65,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 18558125,
+      "type": "text",
+      "text": "Exports",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-exporte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ViYOZhPhrLGz9f1u4cdAw",
+      "x": 929.68,
+      "y": 455,
+      "width": 50.65,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#257e36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1379037133,
+      "type": "text",
+      "text": "Imports",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-importe",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nTo-lNUhLpnvJPPFEYDxw",
+      "x": 277.02,
+      "y": 581,
+      "width": 115.95,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 836699885,
+      "type": "text",
+      "text": "Saving (deposits)",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-sparen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "y2AvD7lWJ1m32R-Z5tnD8",
+      "x": 603.51,
+      "y": 581,
+      "width": 47.98,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#bd490a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1286697485,
+      "type": "text",
+      "text": "Loans",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "arrow-kredite",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "This diagram shows the same circular flow model as [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]], redrawn here with slight adjustments. Three more actors join the core of households and businesses: the state, banks and the foreign sector. Solid green arrows show the real flow (labour, goods and services); dashed orange arrows show the money flow (wages, spending, taxes, saving and loans). Key points: – Households consume goods and supply businesses with labour; in return, wages flow from businesses to households. – Businesses produce goods and services and pay wages; households pay for goods and services through consumer spending. – The state (schools, roads and security) receives taxes from households and businesses and provides public services in return. – Banks link saving and loans: household savings flow to banks as deposits, and loans flow from banks back into the circular flow to businesses. – The foreign sector (e.g. Schweiz and Österreich) is linked to the circular flow through businesses' exports to other countries and imports from abroad. – Each additional actor makes the model more realistic – yet it remains a simplified picture of reality. This diagram brings together almost all the concepts covered in the revision: economic actors, real and money flows, the state, banks and the foreign sector.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "The big revision quiz: across topic areas A to C",
+   "teilkompetenzen": [
+    "wp.kreislauf.zusammenhaenge-erklaeren",
+    "wp.markt.preisbildung-erklaeren",
+    "wp.geld.funktionen-erklaeren"
+   ],
+   "intro": "Fifteen questions covering all the material – they start off easy and get more challenging towards the end. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Why do people need to manage scarce resources at all?",
+     "options": [
+      {
+       "text": "Because unlimited needs meet limited resources.",
+       "correct": true
+      },
+      {
+       "text": "Because the law requires everyone to do so."
+      },
+      {
+       "text": "Because otherwise there would be no money."
+      },
+      {
+       "text": "Because all goods are available in abundance."
+      }
+     ],
+     "explanation": "The basic economic problem is scarcity: our wants are unlimited, but our resources (time, money and raw materials) are not – so we have to make choices and use scarce resources carefully ([[modul:wirtschaft-politik-01-was-ist-wirtschaft]]). No law forces people to engage in economic activity, and money is simply a tool, not the reason for it. If all goods were available in abundance, the problem would not exist – no one would need to manage scarce resources."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Which three economic actors did you learn about in the simple model?",
+     "options": [
+      {
+       "text": "Farmers, factories and shops."
+      },
+      {
+       "text": "Buyers, sellers and banks."
+      },
+      {
+       "text": "Households, businesses and the state.",
+       "correct": true
+      },
+      {
+       "text": "Schweiz, Liechtenstein and Österreich."
+      }
+     ],
+     "explanation": "The three actors are households (which consume and supply labour), businesses (which produce and pay wages) and the state (rules, taxes and public services) – [[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]]. Farmers, factories and shops are all businesses, so they represent just one actor. ‘Buyers and sellers’ are roles in the market, not actors in the model – and banks were only added in the extended circular flow. Countries, finally, are economies, not the actors within them."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Which flow in the circular flow of the economy do wages belong to?",
+     "options": [
+      {
+       "text": "The real flow, because real work is done."
+      },
+      {
+       "text": "The money flow – wages flow from businesses to households as payment for labour.",
+       "correct": true
+      },
+      {
+       "text": "Neither of the two flows."
+      },
+      {
+       "text": "The flow of goods between the domestic economy and other countries."
+      }
+     ],
+     "explanation": "Wages are money – they belong to the money flow (shown by dashed orange arrows) and are paid in return for the labour that flows from households to businesses as part of the real flow ([[modul:wirtschaft-politik-03-einfacher-wirtschaftskreislauf]]). The work itself belongs to the real flow, but the payment for it does not. This pairing is central to the circular flow: every real flow has a corresponding money flow. Wages have nothing to do with exports and imports."
+    },
+    {
+     "id": "q14",
+     "type": "single_choice",
+     "prompt": "In the extended circular flow of the economy, which two flows connect households and businesses with the state?",
+     "options": [
+      {
+       "text": "The state pays wages to all households – in return, everyone works for the state."
+      },
+      {
+       "text": "Exports flow to the state, and imports flow back from it."
+      },
+      {
+       "text": "Taxes flow to the state – public services such as schools and roads flow back.",
+       "correct": true
+      },
+      {
+       "text": "Savings flow to the state, and loans flow back from it."
+      }
+     ],
+     "explanation": "The state collects taxes from households and businesses and provides public services in return – schools, roads and security ([[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]). The state only pays wages to its own employees, certainly not to everyone. Exports and imports connect businesses with the foreign sector, while saving and loans go through banks – these are different actors in the extended circular flow."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What are the three functions of money?",
+     "options": [
+      {
+       "text": "Saving, lending and passing on an inheritance."
+      },
+      {
+       "text": "Coins, banknotes and cards."
+      },
+      {
+       "text": "Buying, selling and exchanging."
+      },
+      {
+       "text": "Medium of exchange, store of value and unit of account.",
+       "correct": true
+      }
+     ],
+     "explanation": "Money is a medium of exchange (everyone accepts it), a store of value (it carries value into the future) and a unit of account (it makes prices comparable) – [[modul:wirtschaft-politik-10-geld-funktionen-geschichte]]. Coins, banknotes and cards are forms of money or ways of accessing it, not its functions. Buying, selling, saving and lending are activities that money makes possible – these are different from its functions too."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Which economic sector does a hairdressing salon belong to?",
+     "options": [
+      {
+       "text": "The 1st sector (agriculture and raw materials)."
+      },
+      {
+       "text": "The 3rd sector – it provides a service.",
+       "correct": true
+      },
+      {
+       "text": "The 2nd sector (industry and skilled trades)."
+      },
+      {
+       "text": "No sector – hairdressers are private individuals."
+      }
+     ],
+     "explanation": "Cutting hair is a classic service – the 3rd sector ([[modul:wirtschaft-politik-05-wirtschaftssektoren-strukturwandel]]). The salon has nothing to do with agriculture (1st sector), and although hairdressers work with their hands, their business does not belong to the 2nd sector: that sector makes physical goods or uses them in construction. A hairdresser provides a service for a person rather than making a product you can take away. And a salon is, of course, a business, not a private individual."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Cinema ticket prices rise sharply. How does demand usually respond?",
+     "options": [
+      {
+       "text": "The quantity demanded falls – fewer people want to go to the cinema at this price.",
+       "correct": true
+      },
+      {
+       "text": "The quantity demanded rises – expensive things seem more attractive."
+      },
+      {
+       "text": "Demand always stays exactly the same."
+      },
+      {
+       "text": "Demand disappears completely; no one goes to the cinema any more."
+      }
+     ],
+     "explanation": "The basic rule of demand ([[modul:wirtschaft-politik-06-angebot-und-nachfrage]]): the higher the price, the less is demanded. Some people switch to alternatives (streaming or another cinema), while others decide not to go. Expensive things seeming more attractive is the exception, not the rule. Demand hardly ever stays completely unchanged – but it does not fall to zero either: people who value going to the cinema will pay the higher price."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "What is the equilibrium price?",
+     "options": [
+      {
+       "text": "The lowest price at which a supplier can just stay in business."
+      },
+      {
+       "text": "The price the state sets as fair."
+      },
+      {
+       "text": "The average of all prices over a year."
+      },
+      {
+       "text": "The price at which the quantity supplied matches the quantity demanded.",
+       "correct": true
+      }
+     ],
+     "explanation": "At equilibrium, supply and demand meet: at the equilibrium price, the quantity supplied is exactly the quantity people want to buy – no surplus and no shortage ([[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]]). The state does not set this price; it emerges in the market. It has nothing to do with the lowest price a supplier can survive on or an annual average – it can even change daily as supply or demand changes."
+    },
+    {
+     "id": "q15",
+     "type": "single_choice",
+     "prompt": "Your friend is thinking about insuring her new phone. What does rule of thumb 1 from the insurance module say about this?",
+     "options": [
+      {
+       "text": "The more insurance, the better – insure everything that matters to you."
+      },
+      {
+       "text": "Insure against risks that could threaten your financial security – you are better off covering a small, manageable loss such as a broken phone yourself.",
+       "correct": true
+      },
+      {
+       "text": "Insurance is never worthwhile – even personal liability insurance is unnecessary."
+      },
+      {
+       "text": "Only insure items that cost more than CHF 1000."
+      }
+     ],
+     "explanation": "Rule of thumb 1 ([[modul:wirtschaft-politik-11-versicherungen]]) asks: could this loss seriously damage my finances? A damaged phone is annoying, but the cost is manageable – ongoing premiums are usually not worth paying for this. ‘Insure everything’ leads to expensive, unnecessary policies. But the opposite is not true either: insurance is exactly the right choice for risks that could threaten your financial security, such as liability claims running into millions. That is why personal liability insurance is considered very useful. And there is no fixed price threshold: what matters is whether you can afford the loss, not the purchase price."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "How does a bank make money from its traditional lending and savings business?",
+     "options": [
+      {
+       "text": "It prints new money whenever it needs it."
+      },
+      {
+       "text": "The state pays it to look after people's savings."
+      },
+      {
+       "text": "Through the interest rate spread: the interest rate it charges on loans is higher than the rate it pays on savings.",
+       "correct": true
+      },
+      {
+       "text": "It keeps part of every deposit for itself."
+      }
+     ],
+     "explanation": "The bank pays savers a low savings rate and charges borrowers a higher lending rate. The difference covers its costs and provides its profit ([[modul:wirtschaft-politik-12-banken-kredit-zins]]). Only the Nationalbank is allowed to print money – this is perhaps the most persistent confusion. The state does not pay banks to look after savings, and your deposit still belongs to you: the bank puts it to work but does not simply keep it."
+    },
+    {
+     "id": "q9",
+     "type": "single_choice",
+     "prompt": "Your apprenticeship contract states a higher wage than the amount paid into your account at the end of the month. What is the most common correct explanation?",
+     "options": [
+      {
+       "text": "The bank charges a fee for every wage payment."
+      },
+      {
+       "text": "The employer cuts your pay whenever it likes."
+      },
+      {
+       "text": "The contract states your net pay, but you receive your gross pay."
+      },
+      {
+       "text": "The contract states your gross pay – social insurance contributions are deducted, and you receive your net pay.",
+       "correct": true
+      }
+     ],
+     "explanation": "Contracts state gross pay. Social insurance contributions (such as AHV/IV, non-occupational accident insurance and sickness benefit insurance) are deducted from this, and net pay reaches your account ([[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]). So it works the other way round from the third option: gross pay is stated in the contract, net pay is paid out. There are no transfer fees for wage payments, and an employer is certainly not allowed to cut pay whenever it likes – the deductions are governed by law and listed on your payslip."
+    },
+    {
+     "id": "q10",
+     "type": "single_choice",
+     "prompt": "There is exactly one ski lift operator in the village. Why do the authorities look more closely at prices in monopolies like this?",
+     "options": [
+      {
+       "text": "Because skiing is a fundamental right."
+      },
+      {
+       "text": "Because without rival suppliers there is no competitive pressure on prices – customers cannot switch to another supplier.",
+       "correct": true
+      },
+      {
+       "text": "Because monopolies always charge prices that are too low."
+      },
+      {
+       "text": "Because the state sets all prices in the country as a matter of principle."
+      }
+     ],
+     "explanation": "In a competitive market, suppliers keep each other in check: anyone who charges too much loses customers to competitors. In a monopoly, this check is missing – the sole supplier could raise prices sharply ([[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]), which is why the authorities look more closely. The concern is that prices may be too high, not too low. There is no fundamental right to ski, and in a market economy the state does not set all prices – it only intervenes where the market fails."
+    },
+    {
+     "id": "q11",
+     "type": "single_choice",
+     "prompt": "A country caps the price of milk well below the equilibrium price. What consequence does the market model predict?",
+     "options": [
+      {
+       "text": "A surplus: shops are left with unsold milk."
+      },
+      {
+       "text": "Nothing changes – price caps do not affect quantities."
+      },
+      {
+       "text": "A shortage: at the low price, more is demanded but less is supplied – shelves may be left empty.",
+       "correct": true
+      },
+      {
+       "text": "The quality of the milk automatically improves."
+      }
+     ],
+     "explanation": "A price below equilibrium creates a shortage ([[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] and [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]): the quantity demanded rises, while supplying the product becomes less worthwhile. There are not enough goods, and purchase limits often follow. A surplus would result from the opposite intervention: a minimum price above equilibrium. ‘Nothing changes’ directly contradicts the model – prices influence quantities. And quality certainly does not improve automatically; suppliers are more likely to cut costs on the price-capped product."
+    },
+    {
+     "id": "q12",
+     "type": "single_choice",
+     "prompt": "What is the fundamental difference between a share and a Bitcoin?",
+     "options": [
+      {
+       "text": "A share is a stake in a real business – no business backs Bitcoin, and its price is determined purely by supply and demand.",
+       "correct": true
+      },
+      {
+       "text": "Shares can never lose value, but Bitcoin can."
+      },
+      {
+       "text": "Bitcoin is issued by banks, shares by the state."
+      },
+      {
+       "text": "There is no difference – both are digital currencies."
+      }
+     ],
+     "explanation": "The key difference ([[modul:wirtschaft-politik-13-boerse-aktien-krypto]]): with a share, you own part of a real business, with a say in its decisions and a possible dividend. Nothing tangible backs Bitcoin; its price depends purely on supply and demand and often fluctuates extremely. Both can lose value, however – a company whose shares you own can even go bankrupt. Bitcoin has no issuer, while shares are issued by businesses, not the state – and a share is not a currency in the first place."
+    },
+    {
+     "id": "q13",
+     "type": "single_choice",
+     "prompt": "Someone misses several buy now, pay later instalments. Which chain of consequences is realistic?",
+     "options": [
+      {
+       "text": "Nothing happens – BNPL instalments are automatically written off after 30 days."
+      },
+      {
+       "text": "The online shop pays the instalments as a goodwill gesture."
+      },
+      {
+       "text": "The bank raises the savings rate to make up for it."
+      },
+      {
+       "text": "Reminder fees are added, debt collection may follow – and damaged creditworthiness makes it harder to get loans and enter into contracts later.",
+       "correct": true
+      }
+     ],
+     "explanation": "This is the link between [[modul:wirtschaft-politik-12-banken-kredit-zins]] and [[modul:wirtschaft-politik-15-schuldenfallen-digitales-bezahlen]]: missed instalments lead to reminder fees, followed by debt collection. Anyone recorded as an unreliable payer is considered less creditworthy. Even years later, this can make it harder to get a loan, take out a mobile phone contract or find a flat. Debts do not disappear by themselves, shops do not give money away as a goodwill gesture – and the savings rate has nothing to do with any of this."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-begriffe",
+   "title": "Matching: twelve terms, twelve definitions",
+   "teilkompetenzen": [
+    "wp.grundlagen.oekonomisches-prinzip-anwenden",
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.markt.marktformen-unterscheiden"
+   ],
+   "intro": "Match each definition to the correct term – the terms come from all three topic areas. Each term is used exactly once.",
+   "modus": "wortbank",
+   "text": "Wants are unlimited, resources are limited – the basic economic problem: {{1}}\nEconomic actors that consume and supply labour to businesses: {{2}}\nThe flow of wages and consumer spending in the circular flow of the economy: {{3}}\nGoods that businesses sell abroad: {{4}}\nThe long-term shift in employment from the 1st to the 2nd and then to the 3rd sector: {{5}}\nThe quantity of a good that buyers want to buy at a given price: {{6}}\nThe price at which the quantity supplied matches the quantity demanded: {{7}}\nA market structure with only one supplier: {{8}}\nThe function of money that makes prices comparable: {{9}}\nThe regular payment for insurance cover: {{10}}\nThe difference between lending and savings rates – the bank's traditional business model: {{11}}\nPay after all deductions – the amount that reaches your account: {{12}}",
+   "luecken": [
+    {
+     "antworten": [
+      "scarcity",
+      "resource scarcity",
+      "the scarcity of resources"
+     ]
+    },
+    {
+     "antworten": [
+      "households",
+      "the households"
+     ]
+    },
+    {
+     "antworten": [
+      "money flow",
+      "the money flow",
+      "monetary flow",
+      "the monetary flow"
+     ]
+    },
+    {
+     "antworten": [
+      "exports",
+      "the exports"
+     ]
+    },
+    {
+     "antworten": [
+      "structural change",
+      "economic structural change"
+     ]
+    },
+    {
+     "antworten": [
+      "demand",
+      "the demand",
+      "quantity demanded",
+      "the quantity demanded"
+     ]
+    },
+    {
+     "antworten": [
+      "equilibrium price",
+      "the equilibrium price",
+      "market-clearing price",
+      "the market-clearing price",
+      "market clearing price",
+      "the market clearing price"
+     ]
+    },
+    {
+     "antworten": [
+      "monopoly",
+      "a monopoly"
+     ]
+    },
+    {
+     "antworten": [
+      "unit of account",
+      "a unit of account",
+      "the unit of account"
+     ]
+    },
+    {
+     "antworten": [
+      "premium",
+      "a premium",
+      "the premium",
+      "insurance premium",
+      "an insurance premium",
+      "the insurance premium"
+     ]
+    },
+    {
+     "antworten": [
+      "interest rate spread",
+      "the interest rate spread",
+      "interest spread",
+      "the interest spread",
+      "interest margin",
+      "the interest margin",
+      "interest rate differential",
+      "the interest rate differential"
+     ]
+    },
+    {
+     "antworten": [
+      "net pay",
+      "net wage",
+      "net wages",
+      "net salary",
+      "take-home pay",
+      "take home pay",
+      "the net pay",
+      "the net wage",
+      "the net wages",
+      "the net salary",
+      "the take-home pay",
+      "the take home pay"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-repetition-kreislauf",
+   "title": "The big revision text: the circular flow of the economy – and everything that goes with it",
+   "teilkompetenzen": [
+    "wp.kreislauf.erweiterung-einordnen",
+    "wp.kreislauf.stroeme-unterscheiden",
+    "wp.banken.kernaufgaben-zuordnen"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). The text brings together ideas from several modules. **Watch out:** three of the words do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "At the heart of the economy is the circular flow: households supply businesses with their {{1}} and receive {{2}} in return. They use this money to buy physical goods and {{3}} from businesses – the real flow and the money flow move in opposite directions. The {{4}} collects taxes and provides public services in return.\nBanks act as the {{5}} of the circular flow: they collect savers' {{6}} and use them to provide {{7}} to those who want to invest. Exports and {{8}} flow across national borders – this is particularly important for a small country like Liechtenstein. Payments throughout the circular flow are made in Swiss {{9}}. And wherever buying and selling take place, supply and {{10}} determine prices.",
+   "luecken": [
+    {
+     "antworten": [
+      "labour",
+      "labor",
+      "labour power",
+      "labor power"
+     ]
+    },
+    {
+     "antworten": [
+      "wages",
+      "pay",
+      "a wage",
+      "a salary",
+      "salaries",
+      "income"
+     ]
+    },
+    {
+     "antworten": [
+      "services"
+     ]
+    },
+    {
+     "antworten": [
+      "state",
+      "government",
+      "the state",
+      "the government"
+     ]
+    },
+    {
+     "antworten": [
+      "hub",
+      "financial hub",
+      "intermediaries",
+      "financial intermediaries",
+      "the hub",
+      "the financial hub",
+      "the intermediaries",
+      "the financial intermediaries"
+     ]
+    },
+    {
+     "antworten": [
+      "deposits",
+      "savings",
+      "bank deposits",
+      "savings deposits"
+     ]
+    },
+    {
+     "antworten": [
+      "loans",
+      "credit"
+     ]
+    },
+    {
+     "antworten": [
+      "imports"
+     ]
+    },
+    {
+     "antworten": [
+      "francs",
+      "franc",
+      "CHF"
+     ]
+    },
+    {
+     "antworten": [
+      "demand"
+     ]
+    }
+   ],
+   "ablenker": [
+    "dividend",
+    "reminder fees",
+    "premium"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-transfer-eingabe",
+   "title": "Apply your knowledge to new situations",
+   "teilkompetenzen": [
+    "wp.markt.marktkraefte-beschreiben",
+    "wp.banken.zins-berechnen",
+    "wp.anlegen.risiko-rendite-beurteilen"
+   ],
+   "intro": "Five new situations, no word bank – **type in the correct term or number yourself**. Upper- and lower-case letters are treated the same; for the number, just enter the number without ‘CHF’.",
+   "modus": "eingabe",
+   "text": "An outdoor swimming pool lowers its admission price on a rainy day – it is responding to a fall in {{1}}. There is only one bakery in the mountain village; for the village, it is {{2}}. You invest CHF 500 at 2 per cent annual interest – after one year, you receive CHF {{3}} in interest. A social media offer promises ‘high returns, zero risk’ – according to the principle in [[modul:wirtschaft-politik-13-boerse-aktien-krypto]], this is very likely {{4}}. And if your apprenticeship contract states CHF 900 but only CHF 860 reaches your account, the difference is explained by {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "demand",
+      "the demand",
+      "consumer demand",
+      "customer demand"
+     ]
+    },
+    {
+     "antworten": [
+      "a monopoly",
+      "monopoly",
+      "a monopolist",
+      "monopolist",
+      "the monopoly",
+      "the monopolist",
+      "a monopoly supplier",
+      "monopoly supplier",
+      "a sole supplier",
+      "sole supplier",
+      "the sole supplier"
+     ]
+    },
+    {
+     "antworten": [
+      "10",
+      "10.00",
+      "10.0",
+      "10,00",
+      "10,0",
+      "10.-",
+      "10.–",
+      "ten"
+     ]
+    },
+    {
+     "antworten": [
+      "a scam",
+      "scam",
+      "fraud",
+      "a fraud",
+      "investment fraud",
+      "an investment fraud",
+      "an investment scam",
+      "investment scam",
+      "a fraudulent scheme",
+      "fraudulent scheme",
+      "a rip-off",
+      "rip-off",
+      "a ripoff",
+      "ripoff",
+      "a rip off",
+      "rip off"
+     ]
+    },
+    {
+     "antworten": [
+      "deductions",
+      "the deductions",
+      "pay deductions",
+      "the pay deductions",
+      "wage deductions",
+      "the wage deductions",
+      "salary deductions",
+      "the salary deductions",
+      "payroll deductions",
+      "the payroll deductions",
+      "social insurance contributions",
+      "the social insurance contributions",
+      "social insurance deductions",
+      "the social insurance deductions",
+      "social security contributions",
+      "the social security contributions",
+      "social security deductions",
+      "the social security deductions"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: your path to the assessment",
+   "tasks": [
+    {
+     "prompt": "Learn by teaching: create three exam questions covering different parts of the material – one easy, one medium and one challenging. Each question needs four answer options, with exactly one correct answer. The wrong options should reflect common mistakes, not be made-up nonsense. Swap questions with your classmates and answer each other's questions.",
+     "hint": "To find good distractors, think of common confusions: gross/net pay, real flow/money flow, premium/insurance benefit, ‘the bank prints money’, ‘Bitcoin is a share’. A question becomes challenging when it describes a new situation rather than simply asking for a definition.",
+     "solution": "There is no single model solution – check your questions against this checklist: (1) Is exactly one answer clearly correct? (2) Are the wrong answers plausible – would someone with a common misconception actually choose them? (3) Does your challenging question involve applying knowledge (a new situation, a calculation or a link between two modules) rather than simply recalling facts? If your classmates discuss a question, it was a good question – and people who can ask questions have usually already understood the material."
+    },
+    {
+     "prompt": "Use a traffic-light check to prepare: go through the topics in areas A to C (needs and scarcity, economic actors, the simple and extended circular flow, sectors, supply and demand, price formation, competition and monopoly, constructing arguments, money, insurance, banks and interest, the stock exchange and crypto, budgets and wages, debt traps). Mark each topic green (confident), yellow (unsure) or red (need to revisit it) – and plan a specific revision step for each red topic before the assessment.",
+     "hint": "Be honest rather than optimistic: ‘I knew it once’ is yellow, not green. A specific revision step names a module and a task – for example, repeating the quiz in [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] until you score 100 %, or working through the interest calculation in [[modul:wirtschaft-politik-12-banken-kredit-zins]] by hand again – not just ‘have another look’.",
+     "solution": "There is no single model solution – your result is a personal revision plan. This approach has proved useful: tackle red topics first, one at a time (open the module, read the summary, repeat the quiz and gap-fills until you score 100 %). Test yellow topics using the tasks in this revision module – if yellow turns green, tick it off. For green topics, the big quiz here is enough as a final check. And plan the order according to how much material each topic covers: the circular flow, price formation and money topics make up most of the assessment."
+    }
+   ]
+  }
+ ]
+}
