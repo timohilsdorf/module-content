@@ -1,0 +1,1305 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-20-demokratie-als-prinzip --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:e447dc424c5593fe2c0f6fadfed2dd2915f2a85fafd98077b4cb8fad27a1f7f8",
+  "masterCommit": "dcc8000",
+  "hintsHash": null,
+  "generatedAt": "2026-10-07",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-wirtschaft-politik-20-demokratie-als-prinzip-en-antworten.json",
+  "selfHash": "sha256:f0e154182843c250cd72412a663107e26ad40575463e6eb637016615f728274d"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-20-demokratie-als-prinzip",
+ "title": "Democracy as a principle",
+ "description": "Who should decide – and what protects those who are outvoted? Here you explore the core idea of democracy: those affected make the decisions, government is elected for a limited term, and power changes hands without violence. You distinguish between direct and representative democracy as principles, consider the tension between majority decisions and minority protection – and discover how you can get involved even without the right to vote.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "LBO.5.4",
+     "description": "Die Schülerinnen und Schüler können Gemeinschaft aktiv mitgestalten."
+    }
+   ]
+  }
+ ],
+ "sequenz": 20,
+ "einheit": "Topic block D: Key concepts, democracy & political thinking",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "democracy",
+  "direct democracy",
+  "representative democracy",
+  "majority",
+  "minority protection",
+  "limited terms of office",
+  "transfer of power",
+  "participation",
+  "petition",
+  "youth parliament",
+  "political education"
+ ],
+ "learningObjectives": [
+  "I can explain the core idea of democracy: those affected make the decisions, government is elected for a limited term, and power changes hands without violence.",
+  "I can distinguish between direct and representative democracy as principles: everyone decides on the issue, or elected representatives decide.",
+  "I can explore the tension between majority decisions and minority protection using an everyday example.",
+  "I know ways to participate beyond elections: petitions, youth parliaments, clubs and demonstrations."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "aha – Tipps & Infos für junge Leute (Liechtenstein)",
+   "url": "https://www.aha.li"
+  },
+  {
+   "title": "Video (extern): Demokratie einfach erklärt – explainity, 3:47",
+   "url": "https://www.youtube.com/watch?v=59gAft8LwU4"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-19-was-ist-politik"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Those affected make the decisions",
+   "body": "Back to the skatepark in [[modul:wirtschaft-politik-19-was-ist-politik]]: those affected had a say – young people, local residents and the local authority – and the result was a binding rule. But wait: things could have gone very differently. One person could simply have ordered: “No skatepark. End of discussion.” The rule would have been just as binding – but nobody else would have had a say.\n\nThis is exactly what distinguishes different forms of government: **Who gets to decide on the binding rules?**\n\nThe answer offered by **democracy** (from the Greek: *demos* = people, *kratos* = rule) has three building blocks:\n\n1. **Those affected make the decisions.** Anyone affected by the rules has a say – directly or through elected representatives. Decisions are not left to one person or a small group that has seized power.\n2. **Limited terms of office.** Those who govern do so for a limited term, not forever. Then a fresh decision is made – and everyone must seek support again.\n3. **Power changes hands without violence.** If a government loses its majority, it hands over power peacefully. That may sound obvious – but it is not: throughout history, and in many countries today, power changes hands only through pressure, overthrow or violence.\n\nThe third building block may be the most important – and the least noticeable. The losing side accepts defeat because it knows it will have a fair chance again next time: this is what keeps democracies working."
+  },
+  {
+   "type": "text",
+   "title": "Direct or representative? Two ways to decide",
+   "body": "There are two ways to put the principle “Those affected make the decisions” into practice – you know both from everyday school life:\n\n**Direct democracy: everyone decides on the issue themselves.**\nThe class votes on where to go on a trip. Every vote counts equally, and the vote is about the issue itself. This is the basic idea of **deciding on an issue directly**: those affected vote directly on a specific question.\n\n**Representative democracy: elected representatives decide.**\nThe class elects two delegates to the school council – which then makes decisions about the school fair. Here, those affected choose **people they trust** to decide on their behalf: **elected representatives**.\n\nBoth approaches have strengths and weaknesses – as principles, without looking at any particular country:\n\n| | Direct decision | Decision by representatives |\n|---|---|---|\n| **Strength** | The decision reflects exactly what the majority of those affected want. | Elected representatives can take time to study the issues and negotiate compromises. |\n| **Weakness** | When there are many questions or complex issues, people often lack time and detailed knowledge. | Representatives may decide differently from what many people wanted. |\n| **Accountability** | Those who vote take responsibility for the decision themselves. | Representatives must stand for election – those who disappoint can be voted out. |\n\nIn practice, most democracies combine both approaches: citizens decide some issues directly, while their elected representatives decide others. What matters is their shared core: **in both cases, the power to decide comes from those affected** – nobody has an inherent right to rule."
+  },
+  {
+   "type": "schaubild",
+   "title": "Two paths, one principle",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 456,
+      "y": 0,
+      "width": 263.68,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2018210243,
+      "type": "text",
+      "text": "Two paths, one principle",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 406,
+      "y": 46,
+      "width": 335.14,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#4a6b8a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 430948333,
+      "type": "text",
+      "text": "Direct and representative democracy compared",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "box-betroffene",
+      "x": 330,
+      "y": 95,
+      "width": 560,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1780367715,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-direkt-kopf",
+      "x": 20,
+      "y": 275,
+      "width": 560,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2129345101,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-repraesentativ-kopf",
+      "x": 620,
+      "y": 275,
+      "width": 580,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 607526147,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-abstimmung",
+      "x": 20,
+      "y": 445,
+      "width": 560,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2005428397,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-wahl-vertretung",
+      "x": 620,
+      "y": 445,
+      "width": 580,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1913750691,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-sachentscheid",
+      "x": 20,
+      "y": 695,
+      "width": 560,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 355519245,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-entscheid-vertretung",
+      "x": 620,
+      "y": 695,
+      "width": 580,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 727644227,
+      "type": "rectangle"
+     },
+     {
+      "id": "box-regel",
+      "x": 300,
+      "y": 875,
+      "width": 620,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2019418477,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-zu-direkt",
+      "x": 459.5,
+      "y": 220.5,
+      "width": 159,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 771553251,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -159,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-zu-repraesentativ",
+      "x": 760.5,
+      "y": 220.5,
+      "width": 159,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1985555405,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        159,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-direkt-abstimmung",
+      "x": 300,
+      "y": 400.5,
+      "width": 0,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 402260867,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        39
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-repraesentativ-wahl",
+      "x": 910,
+      "y": 400.5,
+      "width": 0,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2134649389,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        39
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-abstimmung-sachentscheid",
+      "x": 300,
+      "y": 590.5,
+      "width": 0,
+      "height": 99,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1100258083,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        99
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-wahl-entscheid",
+      "x": 910,
+      "y": 650.5,
+      "width": 0,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1139825805,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        39
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-sachentscheid-regel",
+      "x": 300.5,
+      "y": 820.5,
+      "width": 149,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2000371395,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        149,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-entscheid-regel",
+      "x": 909.5,
+      "y": 820.5,
+      "width": 149,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#4a7ba6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 472859373,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -149,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "merksatz",
+      "x": 242,
+      "y": 1020,
+      "width": 575.04,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1938583139,
+      "type": "text",
+      "text": "In both cases, the power to decide comes from those affected.",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "-OvYiY1gBcQhNZck3596G",
+      "x": 492.7,
+      "y": 121.25,
+      "width": 234.6,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1906466467,
+      "type": "text",
+      "text": "Those affected\ne.g. a class – the question:\nWhere shall we go on our trip?",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-betroffene",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "aqm95Fj9smxku9SxUee_y",
+      "x": 217.02,
+      "y": 301.25,
+      "width": 165.96,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2009371203,
+      "type": "text",
+      "text": "Direct democracy\nEveryone decides\non the issue",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-direkt-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "6mlq26XiRSEJ1wCXVkf31",
+      "x": 792.55,
+      "y": 312.5,
+      "width": 234.91,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1319064035,
+      "type": "text",
+      "text": "Representative democracy\nElected representatives decide",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-repraesentativ-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "3k5Q0DNhFg_Ielbor2kIR",
+      "x": 207.53,
+      "y": 470,
+      "width": 184.95,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1732320643,
+      "type": "text",
+      "text": "Everyone votes\nEvery vote counts equally.\nThe issue is\ndecided directly.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-abstimmung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "bGTcpp1-H9rqtY0Ph-0KH",
+      "x": 784.29,
+      "y": 477.5,
+      "width": 251.41,
+      "height": 135,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 216560931,
+      "type": "text",
+      "text": "1. Elect representatives\ne.g. two delegates\nto the school council\n2. They discuss and decide\nLater, they must\nstand for election again.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-wahl-vertretung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "580ILVtED3CiLRSB0pwFB",
+      "x": 189.71,
+      "y": 721.25,
+      "width": 220.59,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 520345795,
+      "type": "text",
+      "text": "Those affected decide directly\nResult: the majority’s\nwishes expressed directly",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-sachentscheid",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "OgBnI2NRjZBK-W-AahHL8",
+      "x": 781.3,
+      "y": 721.25,
+      "width": 257.41,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 187811939,
+      "type": "text",
+      "text": "Elected representatives decide\nResult: a decision\non behalf of those affected",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-entscheid-vertretung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "XbZUOe5qfzX2uvdQJyeUQ",
+      "x": 492.28,
+      "y": 901.25,
+      "width": 235.44,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#216e2f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 121684995,
+      "type": "text",
+      "text": "A binding rule for everyone\nincluding those outvoted –\nwith minority protection",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "box-regel",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram “Two paths, one principle” compares direct and representative democracy and shows that both paths lead to the same result: a binding rule for everyone, with the power to decide coming from those affected. It starts with those affected – for example, a class of 24 pupils deciding where to go on a trip – and branches into two ways of making decisions. Key points: (1) Direct democracy: everyone decides on the issue themselves – everyone votes, every vote counts equally, and the issue is decided directly; the result is a direct decision by those affected, expressing the wishes of the majority. (2) Representative democracy: elected representatives decide – first, representatives are elected (e.g. two delegates to the school council), then they discuss and decide, and later they must stand for election again; the result is a decision by the elected representatives on behalf of those affected. (3) Both paths lead to a binding rule for everyone, including those who were outvoted – with minority protection. (4) Remember: in both cases, the power to decide comes from those affected.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "The majority decides – but what about the minority?",
+   "body": "Making decisions democratically usually means: **the majority decides.** That is fair – but there is a catch, which you notice immediately when you are on the losing side.\n\nFor example: your class votes on where to go on a trip. 18 want to go to the climbing park; 6 would prefer the indoor swimming pool. The climbing park wins – the decision is binding, including for the 6 who were outvoted. So far, so democratic: otherwise, it would be almost impossible to reach a joint decision, and the 6 could be part of the majority in the next vote.\n\nBut now imagine the 18 also decide: “The 6 who voted against it will pay for everyone’s trip.” Or: “Anyone who doesn’t like climbing can’t come at all.” Can you see the difference? The majority is no longer deciding on a **shared issue** – it is using its power to deliberately harm or exclude a minority.\n\nThat is why democracy must include **minority protection** alongside majority decisions:\n\n- **Fundamental rights apply to everyone** – including those who were outvoted. There are things no majority may put to a vote, such as taking away someone’s freedom of expression or right to equal treatment.\n- **Fair procedures:** the minority is heard, can put forward its arguments and can continue to seek support for the next vote.\n- **A transfer of power remains possible:** today’s majority may be tomorrow’s minority – that alone is a good reason to treat minorities as you would want to be treated yourself.\n\nRemember: **democracy means majority decisions plus minority protection.** If a majority were allowed to take everything away from minorities, it would no longer be democracy – just rule by the stronger side with a voting ritual."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "jzSUUwNvESA",
+   "title": "Video: Democracy explained simply",
+   "description": "This explainer video (3:59) by JUGEND PRÄGT – a publicly funded project in which young people create political education videos for other young people – explains how democracy works: in politics, society and private life. As you watch, focus on two questions: (1) Which of this module’s three building blocks – those affected make the decisions, limited terms of office, and power changing hands without violence – can you recognise in the video? (2) The video also shows democracy outside politics: where do you already have a democratic say in your everyday life – at school, in a club or in your family?",
+   "transcript": "The explainer video “Demokratie einfach erklärt!” (JUGEND PRÄGT, 3:59 minutes) explains how democracy works in practice – as a principle that applies not only to politics, but also to society and private life: wherever people make decisions together as equals. The video presents the basic idea that those affected have a say, and illustrates democratic decision-making with examples from politics and everyday life. JUGEND PRÄGT is a publicly funded project run by the Landesjugendring Thüringen, in which young people create political education videos for their peers.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "title": "Getting involved – even without the right to vote",
+   "body": "“That’s all very well – but I’m not allowed to vote yet.” True. Yet democracy is about more than going to the polls: **participation** means getting involved – and there are many ways to do that, even before you reach voting age:\n\n- **Petition:** submit a request in writing and collect signatures – just like the skatepark group in [[modul:wirtschaft-politik-19-was-ist-politik]]. In principle, anyone can start a petition, regardless of age.\n- **Youth parliament and school council:** places where young people discuss their concerns, launch projects and represent their interests to their school or local authority.\n- **Club:** anyone who takes on responsibility in a sports, music or youth club helps shape community life – from booking the sports hall to organising the club celebration, democratic decisions are made all the time.\n- **Demonstration:** gather peacefully and speak up publicly for a cause – this, too, is a protected way to draw attention to people’s interests.\n\nAll four approaches have something in common: they work **between** elections and are also open to people who do not (yet) have the right to vote. Democracy depends on more than voting – it depends on people raising concerns, joining forces and taking responsibility. [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]] shows you the contrast: what happens when a system prevents people from doing exactly that?"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Democracy as a principle",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
+   "intro": "Show that you understand the building blocks of democracy. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What is the core idea of democracy?",
+     "options": [
+      {
+       "text": "The most knowledgeable experts make all the decisions."
+      },
+      {
+       "text": "Whoever has governed longest has the most experience and should continue to govern."
+      },
+      {
+       "text": "The state makes as few decisions as possible."
+      },
+      {
+       "text": "Those affected by the rules make the decisions – directly or through elected representatives.",
+       "correct": true
+      }
+     ],
+     "explanation": "Democracy literally means “rule by the people”: anyone affected by binding rules has a say – directly on issues or through elected representatives. Expertise is valuable, but it cannot replace the consent of those affected; long periods in power are not a democratic value in themselves (terms of office are limited); and the number of decisions a state makes tells you nothing about who is allowed to make them."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What does “limited terms of office” mean?",
+     "options": [
+      {
+       "text": "Those who govern do so for a limited term – then a fresh decision is made.",
+       "correct": true
+      },
+      {
+       "text": "Governments may only make decisions during emergencies."
+      },
+      {
+       "text": "Votes must take place within a set time."
+      },
+      {
+       "text": "Politicians may only work part-time."
+      }
+     ],
+     "explanation": "Having limited terms of office means that power is only ever granted for a set period. Once their term ends, those in government must seek support again – and can be voted out. This is exactly what distinguishes democratic government from systems in which someone secures power permanently. The term has nothing to do with emergencies, voting deadlines or working hours."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "The class votes on where to go on a trip. Which principle does this illustrate?",
+     "options": [
+      {
+       "text": "Representative democracy – after all, the class represents the school."
+      },
+      {
+       "text": "Direct democracy: those affected decide on the issue themselves.",
+       "correct": true
+      },
+      {
+       "text": "Limited terms of office – after all, the trip only lasts one day."
+      },
+      {
+       "text": "No democratic principle, because it is only about a trip."
+      }
+     ],
+     "explanation": "When everyone affected votes directly on the issue, that is the principle of direct democracy – everyone decides on the issue themselves. It would be representative democracy if the class elected delegates who then made the decision. “Limited terms of office” refers to time limits on holding office, not the length of a trip. And whether the issue is large or small makes no difference: the democratic principle is the same."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "The class elects two delegates to the school council, which makes decisions about the school fair. Which principle does this illustrate?",
+     "options": [
+      {
+       "text": "Direct democracy – after all, there was a vote."
+      },
+      {
+       "text": "Minority protection."
+      },
+      {
+       "text": "Representative democracy: elected representatives decide on behalf of those affected.",
+       "correct": true
+      },
+      {
+       "text": "No democratic principle – only adults can act as representatives."
+      }
+     ],
+     "explanation": "Here, those affected choose people they trust to decide on their behalf – that is the principle of representative democracy. The difference from direct democracy lies in what the vote is about: people (electing representatives), rather than the issue itself. This distinction is not about minority protection, and young people can of course act as representatives too – the school council is a perfect example."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "18 out of 24 vote for the climbing park, and 6 for the indoor swimming pool. What happens next in a democratic class?",
+     "options": [
+      {
+       "text": "The decision to go to the climbing park applies to everyone – and the 6 who were outvoted keep all their rights and can have a say again next time.",
+       "correct": true
+      },
+      {
+       "text": "The 6 who were outvoted must pay for everyone’s trip – the majority decided it."
+      },
+      {
+       "text": "The vote is repeated until everyone agrees."
+      },
+      {
+       "text": "The 6 may stay at home, but lose their right to vote next time."
+      }
+     ],
+     "explanation": "The majority decision is binding – including for those who were outvoted. But the majority only decides on the shared issue: it must not deliberately harm the minority or take away its rights. Making the losing side pay or taking away its right to vote would be exactly the abuse that minority protection prevents. And repeating votes endlessly until everyone agrees would make joint decisions practically impossible."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Why is minority protection an essential part of democracy?",
+     "options": [
+      {
+       "text": "Because minorities are always right."
+      },
+      {
+       "text": "Because otherwise the majority could use its power to take away minorities’ rights – that would simply be rule by the stronger side.",
+       "correct": true
+      },
+      {
+       "text": "Because votes would take too long without minority protection."
+      },
+      {
+       "text": "Because otherwise minorities would win every vote."
+      }
+     ],
+     "explanation": "Without minority protection, a majority could decide anything – including taking away a minority’s fundamental rights. Voting would then be nothing more than a ritual of the stronger side. That is why fundamental rights are not up for a vote, the minority is heard and it can keep trying to win majority support. It is not true that minorities are “always right” or would “always win” without protection – this is about rights, not being right. And it has nothing to do with how long votes take."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "What does “power changes hands without violence” mean?",
+     "options": [
+      {
+       "text": "In a democracy, power never changes hands."
+      },
+      {
+       "text": "The police make sure the government stays in power."
+      },
+      {
+       "text": "Power may only change hands if all parties agree."
+      },
+      {
+       "text": "If a government loses its majority, it hands over power peacefully – the losing side accepts the result.",
+       "correct": true
+      }
+     ],
+     "explanation": "The peaceful transfer of power is the least noticeable, but perhaps most important, building block of democracy: those who lose their majority step down – without overthrow or violence – because the rules guarantee a fair chance next time. Transfers of power are therefore part of democracy. They do not require the losing side to approve each transfer, but they do require its trust in the rules. And in a democracy, the police are bound by the law – they are not a tool for keeping a government in power."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "You are 15 and want to campaign for a cycle path between your school and the sports ground. What can you do?",
+     "options": [
+      {
+       "text": "Nothing – political participation is impossible without the right to vote."
+      },
+      {
+       "text": "You can only wait until you are old enough to vote."
+      },
+      {
+       "text": "Start a petition, raise the issue in the youth parliament or demonstrate peacefully for it.",
+       "correct": true
+      },
+      {
+       "text": "Challenge the adults’ vote because you were not allowed to take part."
+      }
+     ],
+     "explanation": "Participation means getting involved – and you can do that without the right to vote: petitions are, in principle, open to everyone, youth parliaments and school councils exist for exactly this purpose, and peaceful demonstrations are a protected way to draw attention to a cause. There is no need to wait, and you cannot challenge a vote just because you do not yet have voting rights. Democracy depends on people getting involved between elections."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-demokratie-bausteine",
+   "title": "Fill in the terms: The building blocks of democracy",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word, then the gap). **Watch out:** three of the words do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Democracy literally means rule by {{1}}: those affected make the decisions. Those who govern serve for {{2}} – after their term of office, a fresh decision is made, and power changes hands without {{3}}.\nWhen everyone affected votes on an issue themselves, this is called {{4}} democracy. If they instead elect people to decide on their behalf, this is called {{5}} democracy – as with {{6}}, to which the class elects two delegates.\nIn a vote, {{7}} decides – but those who are outvoted keep their {{8}}, because democracy includes {{9}}. You can also get involved without voting rights, for example through {{10}}, for which you collect signatures.",
+   "luecken": [
+    {
+     "antworten": [
+      "the people",
+      "people"
+     ]
+    },
+    {
+     "antworten": [
+      "a limited term",
+      "limited term",
+      "a fixed term",
+      "fixed term",
+      "a limited period",
+      "limited period",
+      "a set period",
+      "set period",
+      "a limited time",
+      "limited time",
+      "a fixed period",
+      "fixed period",
+      "a set term",
+      "set term",
+      "a term of office",
+      "term of office"
+     ]
+    },
+    {
+     "antworten": [
+      "violence",
+      "force",
+      "the use of violence",
+      "the use of force"
+     ]
+    },
+    {
+     "antworten": [
+      "direct"
+     ]
+    },
+    {
+     "antworten": [
+      "representative",
+      "indirect"
+     ]
+    },
+    {
+     "antworten": [
+      "the school council",
+      "school council",
+      "the student council",
+      "student council",
+      "the pupils’ council",
+      "pupils’ council",
+      "the pupils' council",
+      "pupils' council"
+     ]
+    },
+    {
+     "antworten": [
+      "the majority",
+      "majority"
+     ]
+    },
+    {
+     "antworten": [
+      "fundamental rights",
+      "basic rights",
+      "rights",
+      "human rights",
+      "civil rights"
+     ]
+    },
+    {
+     "antworten": [
+      "minority protection",
+      "protection of minorities",
+      "the protection of minorities",
+      "protection of the minority",
+      "the protection of the minority",
+      "protection of minority rights",
+      "the protection of minority rights",
+      "minority rights"
+     ]
+    },
+    {
+     "antworten": [
+      "a petition",
+      "petition"
+     ]
+    }
+   ],
+   "ablenker": [
+    "a dividend",
+    "a queue",
+    "a price cap"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-demokratie-eingabe",
+   "title": "Type in the terms: Check the key ideas",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
+   "intro": "This time there is no word bank – **type in the missing terms yourself**. Upper- and lower-case letters are treated the same.",
+   "modus": "eingabe",
+   "text": "In a democracy, the power to decide comes from {{1}}. Those who govern serve for {{2}}, after which a fresh decision is made. If everyone decides on an issue themselves, this is direct democracy; if an elected {{3}} decides, this is representative democracy. In a vote, the decision of {{4}} applies – while the rights of {{5}} remain protected.",
+   "luecken": [
+    {
+     "antworten": [
+      "those affected",
+      "the people affected",
+      "people affected",
+      "those who are affected",
+      "the people who are affected",
+      "people who are affected",
+      "citizens",
+      "the citizens",
+      "people",
+      "the people"
+     ]
+    },
+    {
+     "antworten": [
+      "a limited term",
+      "limited term",
+      "a fixed term",
+      "fixed term",
+      "a limited period",
+      "limited period",
+      "a set period",
+      "set period",
+      "a limited time",
+      "limited time",
+      "a fixed period",
+      "fixed period",
+      "a set term",
+      "set term",
+      "a term of office",
+      "term of office"
+     ]
+    },
+    {
+     "antworten": [
+      "representative body",
+      "representative",
+      "delegation",
+      "assembly",
+      "council",
+      "parliament",
+      "representatives",
+      "delegates",
+      "a representative body",
+      "the representative body",
+      "a representative",
+      "the representative",
+      "a delegation",
+      "the delegation",
+      "an assembly",
+      "the assembly",
+      "a council",
+      "the council",
+      "a parliament",
+      "the parliament",
+      "the representatives",
+      "the delegates"
+     ]
+    },
+    {
+     "antworten": [
+      "the majority",
+      "majority"
+     ]
+    },
+    {
+     "antworten": [
+      "the minority",
+      "minority",
+      "minorities",
+      "the minorities",
+      "those outvoted",
+      "those who were outvoted",
+      "the people who were outvoted",
+      "people who were outvoted",
+      "those who are outvoted",
+      "the people who are outvoted",
+      "people who are outvoted"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-entscheidungswege",
+   "title": "Sort the examples: direct, representative – or participation beyond elections?",
+   "teilkompetenzen": [
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
+   "intro": "Match each situation to the correct category: **direct democracy** (everyone decides on the issue themselves), **representative democracy** (elected representatives decide) or **participation beyond elections**. Each category appears exactly three times.",
+   "modus": "wortbank",
+   "text": "The class votes on whether to redesign the classroom. {{1}}\nThe elected school council decides on the theme for the school fair. {{2}}\nYoung people collect signatures for a cycle path and submit the petition. {{3}}\nAt a meeting, all club members vote directly on the club’s new constitution. {{4}}\nThe class elects two delegates to represent its concerns on the school council. {{5}}\nA group demonstrates peacefully for more youth spaces in the local area. {{6}}\nAll eligible voters decide directly on a proposal at the ballot box. {{7}}\nThe elected parliament debates and passes a new law. {{8}}\nYoung people use the youth parliament to raise their concerns with the local authority. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "direct democracy",
+      "direct"
+     ]
+    },
+    {
+     "antworten": [
+      "representative democracy",
+      "indirect democracy",
+      "representative",
+      "indirect"
+     ]
+    },
+    {
+     "antworten": [
+      "participation beyond elections",
+      "participation outside elections",
+      "participation between elections",
+      "political participation beyond elections",
+      "political participation outside elections",
+      "political participation between elections",
+      "non-electoral participation",
+      "nonelectoral participation"
+     ]
+    },
+    {
+     "antworten": [
+      "direct democracy",
+      "direct"
+     ]
+    },
+    {
+     "antworten": [
+      "representative democracy",
+      "indirect democracy",
+      "representative",
+      "indirect"
+     ]
+    },
+    {
+     "antworten": [
+      "participation beyond elections",
+      "participation outside elections",
+      "participation between elections",
+      "political participation beyond elections",
+      "political participation outside elections",
+      "political participation between elections",
+      "non-electoral participation",
+      "nonelectoral participation"
+     ]
+    },
+    {
+     "antworten": [
+      "direct democracy",
+      "direct"
+     ]
+    },
+    {
+     "antworten": [
+      "representative democracy",
+      "indirect democracy",
+      "representative",
+      "indirect"
+     ]
+    },
+    {
+     "antworten": [
+      "participation beyond elections",
+      "participation outside elections",
+      "participation between elections",
+      "political participation beyond elections",
+      "political participation outside elections",
+      "political participation between elections",
+      "non-electoral participation",
+      "nonelectoral participation"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: Thinking through democracy",
+   "teilkompetenzen": [
+    "wp.demokratie.grundprinzipien-erklaeren",
+    "wp.demokratie.entscheidungswege-unterscheiden"
+   ],
+   "tasks": [
+    {
+     "prompt": "A class trip thought experiment: 18 vote for the climbing park, and 6 for the indoor swimming pool. Devise three rules that uphold the majority decision AND treat the minority fairly. Explain why each rule matters – and give an example of an additional decision by the majority that should NOT be allowed.",
+     "hint": "Think of the three elements of minority protection in this module: fundamental rights that are not up for a vote; fair procedures (being heard and having a say); and the chance to be part of the majority next time. Anything that deliberately harms or excludes the 6 would be unacceptable.",
+     "solution": "Example: (1) Both sides are heard before the vote – the minority has had a chance to put forward its arguments, which makes the decision fair. (2) The decision applies only to the shared issue (where to go on the trip) – additional decisions at the expense of the 6 (such as “Those who were outvoted pay for everyone” or “Anyone who voted against it stays at home”) are unacceptable, because the majority would be using its power against the minority rather than to address the shared issue. (3) There is a fresh vote for the next trip, with the indoor swimming pool on the list again – today’s minority can be tomorrow’s majority. The key point: majority decisions, yes, but only with minority protection."
+    },
+    {
+     "prompt": "Direct or representative? Your school has two decisions to make: (a) Should there be music in the playground during the main break? (b) How should the school council’s budget of CHF 2000 be shared between ten projects? For each question, decide which approach is more suitable – and explain your choice using the strengths and weaknesses in the table in this module.",
+     "hint": "For each decision, ask yourself: can everyone judge the issue without much effort (which favours a direct decision)? Or does it require time, detailed knowledge and negotiation (which favours a representative decision)?",
+     "solution": "Possible answer: (a) Decide directly – the question is simple, everyone is affected and can judge it without prior knowledge; a vote by everyone reflects their wishes most accurately. (b) Decide through representatives – sharing the budget between ten projects requires studying the details, comparing options and negotiating compromises; this is what the elected school council is there for. It can take the time and must later justify how it allocated the money. What matters is explaining your choice in terms of strengths and weaknesses, not making the “right” choice – you can choose differently if your reasoning is sound."
+    },
+    {
+     "prompt": "Choose one of the four ways to participate from this module (petition, youth parliament, club, demonstration) and outline how you would use it to work towards something that matters to you in everyday life: what is your concern, what steps will you take, who must you persuade – and how would you judge after half a year whether it has made a difference?",
+     "hint": "Choose an issue that really affects you (a youth space, sports facilities, a bus service, the school playground). Think back to [[modul:wirtschaft-politik-19-was-ist-politik]]: who are the other interest groups – and who makes the binding decision in the end?",
+     "solution": "There is no single model solution – a strong answer includes: (1) a specific concern and reasons for it, (2) a realistic approach (e.g. a petition: write the text, collect signatures from those affected, submit it to the local authority and ask for a meeting), (3) the people you need to persuade (local councillors, school leaders, the club committee – and other interest groups in the area), (4) a way to check success (has the issue been put on the agenda? Has a trial been approved? Has funding been allocated?). Remember: even a request that is turned down is a form of participation – the process draws attention to it, and it may win majority support next time."
+    }
+   ]
+  }
+ ]
+}
