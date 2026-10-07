@@ -1,0 +1,1405 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-21-autoritaere-systeme-heute --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:807358e87b890f2d7aa14fb7ee23567e4fe139e0a4a5ad9fbf1c6bffcd87a455",
+  "masterCommit": "a63ccf1",
+  "hintsHash": null,
+  "generatedAt": "2026-10-07",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:9707de7ee2ccb35bdc76978f42e83fb3a53eee4323cf4cfc328e6d6aa4774c9d"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-21-autoritaere-systeme-heute",
+ "title": "Authoritarian systems today",
+ "description": "What happens when negotiation is abolished? You will learn about the features of authoritarian rule – no free elections, no independent courts or media, and a suppressed opposition – and find out how digital tools such as surveillance, internet censorship and social credit systems strengthen this control. The documented case study of China shows you what this looks like in practice, with a factual, evidence-based approach.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  }
+ ],
+ "sequenz": 21,
+ "einheit": "Topic D: Basic concepts, democracy & political thinking",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "authoritarian system",
+  "dictatorship",
+  "free elections",
+  "independent courts",
+  "press freedom",
+  "opposition",
+  "surveillance",
+  "internet censorship",
+  "social credit system",
+  "propaganda",
+  "China",
+  "human rights"
+ ],
+ "learningObjectives": [
+  "I can identify features of authoritarian rule: no free elections, no independent courts or media, and suppression of the opposition.",
+  "I can describe digital tools of control: widespread surveillance, internet censorship, social credit systems and state propaganda.",
+  "I can describe the documented case study of China – social credit pilot projects and internet control – using a factual, evidence-based approach.",
+  "I can draw a contrast with [[modul:wirtschaft-politik-20-demokratie-als-prinzip]] and recognise what distinguishes democracy from authoritarian rule in people's everyday lives."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "tagesschau (ARD) – China: Überwachungsstaat oder Zukunftslabor?",
+   "url": "https://www.tagesschau.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-20-demokratie-als-prinzip"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "When negotiation is abolished",
+   "body": "In [[modul:wirtschaft-politik-20-demokratie-als-prinzip]], you learnt about the three building blocks of democracy: those affected make their own decisions, rulers hold power for a limited time, and power changes hands without violence. Now let's turn the picture around: what if a government prevents exactly that?\n\nAn **authoritarian system** is a form of rule in which one person or a small group holds power – and has no intention of giving it up. To make this work, democratic checks on power are dismantled one by one. Four features appear again and again:\n\n1. **No free elections.** Elections often still take place, but as a façade: rival candidates are barred, the results are effectively decided in advance, and there is no independent election monitoring. There is no limit on the time rulers hold power; the leadership stays for as long as it wants.\n2. **No independent courts.** Judges no longer decide freely according to the law, but according to the leadership's wishes. Anyone accused has little chance of a fair hearing – and virtually nobody wins a court case against the state.\n3. **No independent media.** Newspapers, broadcasters and major online platforms are controlled, while critical news organisations are shut down or taken over. The leadership decides what the population finds out.\n4. **Suppression of the opposition.** Anyone who organises to replace the government by legal means risks bans, arrest or worse. Critics are intimidated rather than tolerated.\n\nYou can see the pattern: each of these features removes one of the checks on power that formed the core of democracy in [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]. The chart compares the two systems using five criteria."
+  },
+  {
+   "type": "schaubild",
+   "title": "Comparing democracy and an authoritarian system",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 365,
+      "y": 0,
+      "width": 395.79,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1618787363,
+      "type": "text",
+      "text": "Democracy and authoritarian rule",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 510,
+      "y": 46,
+      "width": 177.89,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#4c6f91",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2144783245,
+      "type": "text",
+      "text": "Comparing five criteria",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "hdr-dem",
+      "x": 240,
+      "y": 90,
+      "width": 485,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 645349315,
+      "type": "rectangle"
+     },
+     {
+      "id": "hdr-aut",
+      "x": 755,
+      "y": 90,
+      "width": 485,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 258986477,
+      "type": "rectangle"
+     },
+     {
+      "id": "row-wahlen",
+      "x": 0,
+      "y": 170,
+      "width": 210,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1033916259,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-dem-wahlen",
+      "x": 240,
+      "y": 170,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 651758669,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-aut-wahlen",
+      "x": 755,
+      "y": 170,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 407268099,
+      "type": "rectangle"
+     },
+     {
+      "id": "row-gerichte",
+      "x": 0,
+      "y": 320,
+      "width": 210,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1173093037,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-dem-gerichte",
+      "x": 240,
+      "y": 320,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1525158563,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-aut-gerichte",
+      "x": 755,
+      "y": 320,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 894573837,
+      "type": "rectangle"
+     },
+     {
+      "id": "row-medien",
+      "x": 0,
+      "y": 470,
+      "width": 210,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 372491843,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-dem-medien",
+      "x": 240,
+      "y": 470,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1820652397,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-aut-medien",
+      "x": 755,
+      "y": 470,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1091044835,
+      "type": "rectangle"
+     },
+     {
+      "id": "row-opposition",
+      "x": 0,
+      "y": 620,
+      "width": 210,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 936246733,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-dem-opposition",
+      "x": 240,
+      "y": 620,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1920160131,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-aut-opposition",
+      "x": 755,
+      "y": 620,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 507952173,
+      "type": "rectangle"
+     },
+     {
+      "id": "row-ueberwachung",
+      "x": 0,
+      "y": 770,
+      "width": 210,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1538533667,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-dem-ueberwachung",
+      "x": 240,
+      "y": 770,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 131640973,
+      "type": "rectangle"
+     },
+     {
+      "id": "cell-aut-ueberwachung",
+      "x": 755,
+      "y": 770,
+      "width": 485,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 37293251,
+      "type": "rectangle"
+     },
+     {
+      "id": "merksatz",
+      "x": 90,
+      "y": 930,
+      "width": 763.8,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 591221997,
+      "type": "text",
+      "text": "The difference shows in daily life: being free to criticise without fear means living in a democracy.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "2T6emPtcBDhDqmyfOn0eT",
+      "x": 435.3,
+      "y": 107.5,
+      "width": 94.4,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 345828515,
+      "type": "text",
+      "text": "Democracy",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hdr-dem",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ZoxuZq42iGjwAWIS9cbfQ",
+      "x": 920.57,
+      "y": 107.5,
+      "width": 153.87,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#a03d08",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 943546435,
+      "type": "text",
+      "text": "Authoritarian system",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hdr-aut",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nh3DysyLlsKV3P2U-YMl9",
+      "x": 74.7,
+      "y": 212.5,
+      "width": 60.6,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1657692131,
+      "type": "text",
+      "text": "Elections",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "row-wahlen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "AyX56zDXo4sjC-hv7z8qf",
+      "x": 398.52,
+      "y": 195,
+      "width": 167.96,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2120117123,
+      "type": "text",
+      "text": "free and fair –\nlimited terms of office,\npower can change hands",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-dem-wahlen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "WkVnml_N9UX95srFwhoJS",
+      "x": 883.67,
+      "y": 195,
+      "width": 227.66,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 791413539,
+      "type": "text",
+      "text": "no real choice – the result\nis effectively fixed,\nthe leadership stays",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-aut-wahlen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "5yvqOSIKsGLQ4I2E__glf",
+      "x": 70.58,
+      "y": 362.5,
+      "width": 68.85,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 228959939,
+      "type": "text",
+      "text": "Courts",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "row-gerichte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "9EjW8squJuQ9oQNsbt4bw",
+      "x": 388.53,
+      "y": 355,
+      "width": 187.95,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 543807075,
+      "type": "text",
+      "text": "independent – they can rule\nagainst the government",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-dem-gerichte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "HA0LYicDIMas8-xOok_Kv",
+      "x": 892.86,
+      "y": 355,
+      "width": 209.28,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 373756419,
+      "type": "text",
+      "text": "follow orders – virtually\nno one wins against the state",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-aut-gerichte",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Anq9l4jw-FkHPjS8RiYAr",
+      "x": 74.45,
+      "y": 512.5,
+      "width": 61.09,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1077664163,
+      "type": "text",
+      "text": "Media",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "row-medien",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Igkq3xJGmyUaStKZViIvj",
+      "x": 405.42,
+      "y": 505,
+      "width": 154.16,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1266068803,
+      "type": "text",
+      "text": "diverse and free –\nthey uncover scandals",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-dem-medien",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Yay3k6OWGC6Saz_6zQ0va",
+      "x": 927.08,
+      "y": 505,
+      "width": 140.84,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 995495139,
+      "type": "text",
+      "text": "controlled and censored –\ncriticism is deleted",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-aut-medien",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "KtvkimNOyFCL3-6aJ6Qy_",
+      "x": 60.55,
+      "y": 662.5,
+      "width": 88.9,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 594049155,
+      "type": "text",
+      "text": "Opposition",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "row-opposition",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "v2Cv_w2rl1zCAqF2csMoB",
+      "x": 379.64,
+      "y": 655,
+      "width": 205.72,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 560754723,
+      "type": "text",
+      "text": "allowed and protected –\ncan win the next election",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-dem-opposition",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "BS3rrnaxfbfVDfLgzvmaW",
+      "x": 935.3,
+      "y": 655,
+      "width": 124.4,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 391148483,
+      "type": "text",
+      "text": "obstructed, banned\nor persecuted",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-aut-opposition",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Pru4phRhd76afYHUsMZ5s",
+      "x": 48.91,
+      "y": 812.5,
+      "width": 112.18,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 624100195,
+      "type": "text",
+      "text": "Surveillance",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "row-ueberwachung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Z7vouXdGf9va0oMXQSRSf",
+      "x": 392.77,
+      "y": 805,
+      "width": 179.47,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1667407619,
+      "type": "text",
+      "text": "limited by basic rights\nand courts",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-dem-ueberwachung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "NjZmGSoxw964QfMibAjSU",
+      "x": 909.97,
+      "y": 795,
+      "width": 175.06,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1549649571,
+      "type": "text",
+      "text": "widespread control – cameras,\nfacial recognition,\ninternet censorship",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cell-aut-ueberwachung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The chart compares democracy and an authoritarian system using five criteria. It shows that what matters is not whether elections, courts or media exist, but whether they are independent. Key points: – Elections: in a democracy, elections are free and fair, rulers hold power for a limited time, and power can change hands; in an authoritarian system, there is no real choice, the result is effectively fixed, and the leadership stays. – Courts: in a democracy, courts are independent and can rule against the government; in an authoritarian system, they follow orders, and virtually nobody wins against the state. – Media: in a democracy, the media are diverse and free, and uncover scandals; in an authoritarian system, they are controlled and censored, and criticism is deleted. – Opposition: in a democracy, the opposition is allowed and protected, and can win the next election; in an authoritarian system, it is obstructed, banned or persecuted. – Surveillance: in a democracy, basic rights and courts limit surveillance; in an authoritarian system, it is used widely as a means of control, for example through cameras, facial recognition and internet censorship. Key message below the table: the difference shows in everyday life – being free to criticise without fear means living in a democracy.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Control in the digital age",
+   "body": "Authoritarian rule is nothing new – what is new are the digital tools that make it more effective than ever. You should know about four tools:\n\n- **Widespread surveillance:** cameras with facial recognition on streets, in railway stations and in public squares can record who is where and with whom. Mobile phone and payment data are also analysed. Surveillance exists in every state – the difference lies in its scale and the checks on it: in democracies, basic rights and courts limit what the state is allowed to do; authoritarian systems lack this safeguard.\n- **Internet censorship:** internet access is filtered – foreign news sites and platforms are blocked, search results are sanitised, and critical posts are deleted, sometimes within minutes. If you only see the filtered version, you may eventually think it is the whole picture.\n- **Social credit systems:** points systems that rate the behaviour of people or businesses. Those who behave 'correctly' receive benefits, such as discounts or faster approvals, while those judged negatively face restrictions, for example on buying plane or train tickets. Desired behaviour is rewarded and unwanted behaviour punished – control becomes part of everyday life.\n- **State propaganda:** controlled news, constant reports of success and paid commentators who flood discussions on social networks. The aim is not just to suppress criticism, but to shape people's view of their country and the world.\n\nRemember: none of these tools alone proves that a system is authoritarian – democracies also use surveillance to tackle crime or remove illegal content. What matters is the **combination**: surveillance without independent courts, censorship without free media, and ratings without a right to appeal."
+  },
+  {
+   "type": "text",
+   "title": "Case study: a factual account of China",
+   "body": "The documented example of the People's Republic of China – the most populous authoritarian state today – shows what this looks like in practice. A single party governs the country; there are no free nationwide elections, independent courts or free media.\n\n**Internet control:** an elaborate filtering system separates China's internet from the rest of the world – often called the 'Great Firewall'. Many international platforms and news sites are blocked; domestic services take their place but must co-operate with the authorities. Searches on sensitive topics are filtered, critical posts are deleted, and their authors are sometimes summoned for 'tea' with the police.\n\n**Social credit pilot projects:** China has been developing a 'social credit system' since 2014. There is still no uniform points system for all citizens. However, there are documented **pilot projects in individual cities** (Rongcheng is a well-known example) that awarded points for desired behaviour and deducted them for unwanted behaviour, as well as nationwide **blacklists**: people who fail to repay debts despite a court ruling, for example, can no longer buy plane or high-speed train tickets. Millions of such ticket bans have been documented.\n\n**Surveillance:** China has one of the highest numbers of surveillance cameras in the world; facial recognition is widespread in daily life, from payments to access control. In the Xinjiang region, reports by international organisations document particularly intensive surveillance of the Uyghur minority.\n\n**What about the people?** This needs careful treatment: many Chinese people live their everyday lives just like people elsewhere – they work, start families and enthusiastically use digital services. Surveys even show that some view the rating systems positively, for example because they hope for greater security or more honest business practices. This module is therefore **not about 'the Chinese'** – it is about the features of a **system** that denies its population the means of holding those in power to account that you learnt about as the core of democracy in [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "2bKnozolklo",
+   "title": "Video: social scoring – China's rating system",
+   "description": "This clip (4:53) from the ARD documentary 'China: Überwachungsstaat oder Zukunftslabor?' (tagesschau) shows how rating systems work in practice in China. As you watch, focus on two questions: (1) What specific rewards and restrictions does the report show – and what technology is used for surveillance? (2) The report mentions that many people surveyed view the system positively: how does this fit with what you have learnt about the lack of free media and about censorship?",
+   "transcript": "This report by the public broadcaster tagesschau (ARD, 4:53 minutes) comes from the documentary 'China: Überwachungsstaat oder Zukunftslabor?' and describes China's approaches to social scoring. In pilot projects, citizens receive points for following the rules and enjoy benefits such as discounts; those judged negatively face restrictions. It shows how algorithms identify people through facial, voice and gait recognition and assess their behaviour. The report also includes voices from China: according to surveys, many respondents view the systems positively, for example because they hope for greater security and honesty. The report places this in a critical context: people are rated according to the state's standards, without independent oversight.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "title": "The contrast in everyday life: four test questions",
+   "body": "Constitutions and laws can be misleading – almost every authoritarian system calls itself democratic. Looking at **people's everyday lives** is more reliable. Four test questions reveal the difference:\n\n1. **Can I criticise the government publicly without fear of consequences?** In a democracy, criticism is a protected right, even when it is uncomfortable. In an authoritarian system, a critical post can cost you your job, your freedom to travel or your liberty.\n2. **Can the media uncover scandals, including those involving powerful people?** Democracies accept investigative reporting that puts a government under pressure. In authoritarian systems, such stories never appear – or the news organisation disappears.\n3. **Can a court rule against the state – and does this actually happen?** In democracies, governments regularly lose court cases and comply with the rulings. In authoritarian systems, courts are a tool of the leadership.\n4. **Can the opposition win the next election – and would power then be handed over peacefully?** This is the toughest test: power changing hands without violence, as discussed in [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]. Where this is unthinkable, democracy is merely a façade.\n\nTwo qualifications are needed for an honest picture. **First**, the boundaries are not clear-cut – even in democracies, basic rights repeatedly come under pressure and must be defended; staying alert is part of democracy. **Second**, the system tells you nothing about the people: the desire for security, prosperity and a good life is the same everywhere. The difference lies in the options people have when they disagree with their government."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: recognising authoritarian systems",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
+   "intro": "Show that you have understood the features of authoritarian rule and the case study. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Which four features characterise an authoritarian system?",
+     "options": [
+      {
+       "text": "No free elections, no independent courts, no independent media, and suppression of the opposition.",
+       "correct": true
+      },
+      {
+       "text": "High taxes, many laws, strict schools and expensive rents."
+      },
+      {
+       "text": "A parliament, a government, courts and media."
+      },
+      {
+       "text": "Elections every four years, several parties, a free press and independent judges."
+      }
+     ],
+     "explanation": "Authoritarian rule dismantles democratic checks on power: elections offer no real choice, courts follow orders, the media are controlled and the opposition is persecuted. A parliament, a government, courts and media exist in almost every state – what matters is whether they are independent. The last option describes democracy, while taxes, laws, schools and rents tell you nothing about the form of rule."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Elections often still take place in authoritarian systems. Why are they not considered free?",
+     "options": [
+      {
+       "text": "Because too few people take part."
+      },
+      {
+       "text": "Because elections can only work in small countries."
+      },
+      {
+       "text": "Because there are no genuine rival candidates, the result is effectively fixed and there is no independent monitoring – the election is a façade.",
+       "correct": true
+      },
+      {
+       "text": "Because voting there is too complicated."
+      }
+     ],
+     "explanation": "Elections as a façade are typical: people vote, but without a real choice – rival candidates are barred or sidelined, the result is effectively fixed, and nobody is allowed to monitor the election independently. This has nothing to do with turnout, the size of the country or how complicated voting is: an election is only free if it can actually lead to power changing hands."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "What does it mean when courts are not independent?",
+     "options": [
+      {
+       "text": "The courts are poorly organised and work slowly."
+      },
+      {
+       "text": "There are no courts or trials at all any more."
+      },
+      {
+       "text": "Judges are poorly paid."
+      },
+      {
+       "text": "Judges decide according to the leadership's wishes instead of freely applying the law – virtually nobody wins against the state.",
+       "correct": true
+      }
+     ],
+     "explanation": "Courts that lack independence do exist and hear cases – but their rulings reflect the wishes of those in power, rather than the law. The everyday test from this module is: can a court rule against the state – and does this actually happen? In democracies, governments regularly lose court cases and accept the rulings. Independence has nothing to do with speed, organisation or pay."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What is a social credit system?",
+     "options": [
+      {
+       "text": "A bank loan for people on low incomes."
+      },
+      {
+       "text": "A points system that rates behaviour: desired behaviour is rewarded, while unwanted behaviour is punished with restrictions.",
+       "correct": true
+      },
+      {
+       "text": "A rewards scheme offered by online shops to loyal customers."
+      },
+      {
+       "text": "Insurance that covers financial hardship."
+      }
+     ],
+     "explanation": "A social credit system rates the behaviour of people or businesses using points: those who behave 'correctly' in the state's view receive benefits, while those judged negatively face restrictions, for example on buying tickets. This makes control part of everyday life. Despite the name, it has nothing to do with a bank loan ([[modul:wirtschaft-politik-12-banken-kredit-zins]]) or insurance ([[modul:wirtschaft-politik-11-versicherungen]]) – and unlike a voluntary rewards scheme, you cannot opt out of being rated by the state."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Which statement about the documented state of China's social credit system is correct?",
+     "options": [
+      {
+       "text": "Every Chinese citizen has had a uniform nationwide points score since 2014."
+      },
+      {
+       "text": "The system was completely abolished after protests."
+      },
+      {
+       "text": "There have been pilot projects in individual cities and nationwide blacklists – for example, ticket bans for people who fail to repay debts despite a court ruling.",
+       "correct": true
+      },
+      {
+       "text": "The system exists only as a rumour in Western media."
+      }
+     ],
+     "explanation": "It pays to look closely: there is still no uniform points score for everyone, although this is often reported inaccurately. Pilot projects in individual cities (such as Rongcheng) and nationwide blacklists are documented, with millions of recorded bans on plane and train ticket purchases for people who have defaulted on their debts. The project has not been abolished, and it is not merely a rumour either – the evidence comes from official Chinese documents and international investigations."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "What does the term 'Great Firewall' describe?",
+     "options": [
+      {
+       "text": "China's filtering system that controls internet access: foreign platforms are blocked, search terms filtered and critical posts deleted.",
+       "correct": true
+      },
+      {
+       "text": "A fire-resistant wall around Chinese government buildings."
+      },
+      {
+       "text": "An antivirus program that protects personal computers from hackers."
+      },
+      {
+       "text": "The encryption used by payment apps for online shopping."
+      }
+     ],
+     "explanation": "The 'Great Firewall' – a name that plays on the Great Wall – separates China's internet from the rest of the world: many international platforms and news sites cannot be accessed, domestic services must co-operate with the authorities, and sensitive search terms and posts are filtered and deleted. The term has nothing to do with fire protection, antivirus software or payment encryption – it is about controlling information."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "'This is about systems, not people.' Which conclusion is correct?",
+     "options": [
+      {
+       "text": "People in authoritarian states have only themselves to blame for their government."
+      },
+      {
+       "text": "People in authoritarian states live their everyday lives just like people elsewhere – we are assessing the features of the system, not the population.",
+       "correct": true
+      },
+      {
+       "text": "Anyone living in an authoritarian state cannot lead a happy life."
+      },
+      {
+       "text": "You must not report critical facts about authoritarian states."
+      }
+     ],
+     "explanation": "This module focuses on the system: no free elections, courts that lack independence, controlled media and a persecuted opposition. The people there work, start families and want security and prosperity, just like people everywhere; some even view individual measures positively. Saying it is 'their own fault' is therefore just as wrong as claiming that a good life there is impossible. Reporting critical facts is entirely consistent with this approach – describing things objectively does not mean staying silent."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Which everyday question is the most reliable test of whether a state is democratic?",
+     "options": [
+      {
+       "text": "Does the word 'democratic' appear in the country's name or constitution?"
+      },
+      {
+       "text": "Does the country hold elections?"
+      },
+      {
+       "text": "Is the country economically successful and technologically advanced?"
+      },
+      {
+       "text": "Can the opposition win the next election – and would power then be handed over peacefully?",
+       "correct": true
+      }
+     ],
+     "explanation": "The toughest test is a change of government: where the opposition has a realistic chance of winning and power would then be handed over peacefully, democracy is working. Names are often misleading – authoritarian states in particular like to decorate theirs with the word 'democratic'. Elections alone prove nothing if they are merely a façade. And prosperity or technology tell you nothing about the form of rule: authoritarian states can also be economically successful, as the case study of China shows."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-autoritaer-merkmale",
+   "title": "Fill in the terms: features and tools",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "In an authoritarian system, one person or a small group holds {{1}} – and will not give it up willingly. Elections are often just a {{2}}: the result is effectively fixed. The courts do not decide independently, but according to the wishes of the {{3}}, and the media are controlled and {{4}}. Anyone who organises to replace the government is part of the {{5}} – and risks bans or arrest.\nDigital tools strengthen control: cameras with {{6}} record who is where. Internet censorship blocks platforms and deletes critical {{7}}. Social credit systems award {{8}} for desired behaviour – documented in China through pilot projects in individual cities and {{9}} that restrict ticket purchases. Finally, state {{10}} aims to shape people's view of their country.",
+   "luecken": [
+    {
+     "antworten": [
+      "power",
+      "the power",
+      "political power",
+      "control"
+     ]
+    },
+    {
+     "antworten": [
+      "façade",
+      "facade",
+      "sham",
+      "front"
+     ]
+    },
+    {
+     "antworten": [
+      "leadership",
+      "leaders",
+      "rulers",
+      "government",
+      "ruling group"
+     ]
+    },
+    {
+     "antworten": [
+      "censored"
+     ]
+    },
+    {
+     "antworten": [
+      "opposition",
+      "political opposition",
+      "the opposition"
+     ]
+    },
+    {
+     "antworten": [
+      "facial recognition",
+      "face recognition",
+      "facial-recognition technology",
+      "facial recognition technology"
+     ]
+    },
+    {
+     "antworten": [
+      "posts",
+      "comments",
+      "messages",
+      "articles",
+      "content"
+     ]
+    },
+    {
+     "antworten": [
+      "points",
+      "credit points",
+      "social credit points"
+     ]
+    },
+    {
+     "antworten": [
+      "blacklists",
+      "black lists",
+      "black-lists"
+     ]
+    },
+    {
+     "antworten": [
+      "propaganda"
+     ]
+    }
+   ],
+   "ablenker": [
+    "dividend",
+    "map",
+    "sunglasses"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-autoritaer-eingabe",
+   "title": "Type in the terms: check your understanding of the contrast",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "In a democracy, rulers hold office for a limited {{1}} – in authoritarian systems, the leadership stays for as long as it wants. The filtering system that separates China's internet from the rest of the world is called the 'Great {{2}}'. Those who want to replace the government form {{3}} – which is suppressed in authoritarian systems. State-controlled news and reports of success are called {{4}}. The most reliable test of democracy is whether power can change hands without {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "time",
+      "period",
+      "term",
+      "period of time",
+      "length of time",
+      "duration",
+      "term of office"
+     ]
+    },
+    {
+     "antworten": [
+      "Firewall",
+      "fire wall",
+      "fire-wall"
+     ]
+    },
+    {
+     "antworten": [
+      "the opposition",
+      "opposition",
+      "political opposition",
+      "the political opposition",
+      "an opposition party",
+      "opposition party",
+      "the opposition party",
+      "opposition parties",
+      "the opposition parties"
+     ]
+    },
+    {
+     "antworten": [
+      "propaganda",
+      "state propaganda",
+      "state-propaganda",
+      "government propaganda",
+      "official propaganda",
+      "state-sponsored propaganda"
+     ]
+    },
+    {
+     "antworten": [
+      "violence",
+      "force",
+      "the use of force",
+      "use of force",
+      "bloodshed",
+      "violent conflict"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-systeme",
+   "title": "Match: democracy or authoritarian system?",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
+   "intro": "Match each description to the correct system: **democracy** or **authoritarian system**. Each system appears exactly four times.",
+   "modus": "wortbank",
+   "text": "A newspaper uncovers a government scandal – and is still published the next day. {{1}}\nThe leadership stays in office for as long as it wants – elections make virtually no difference. {{2}}\nA court stops a government plan, and the government complies with the ruling. {{3}}\nCritical online posts are deleted, and foreign news sites are blocked. {{4}}\nThe opposition organises openly and can win the next election. {{5}}\nAnyone who publicly criticises the government risks arrest or losing their job. {{6}}\nAfter losing an election, the government hands power over peacefully to the winners. {{7}}\nA points system rates people's behaviour – those judged negatively can no longer buy train tickets. {{8}}",
+   "luecken": [
+    {
+     "antworten": [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ]
+    },
+    {
+     "antworten": [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ]
+    },
+    {
+     "antworten": [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ]
+    },
+    {
+     "antworten": [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ]
+    },
+    {
+     "antworten": [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ]
+    },
+    {
+     "antworten": [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ]
+    },
+    {
+     "antworten": [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ]
+    },
+    {
+     "antworten": [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Explore further: compare systems and keep to the facts",
+   "teilkompetenzen": [
+    "wp.demokratie.systeme-vergleichen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Apply the module's four questions about everyday life to the case study of China. Answer each question (Criticism without fear? Media uncovering scandals? Courts ruling against the state? A change of government possible?) using the facts from the module – one or two sentences each, sticking to the facts and avoiding exaggeration.",
+     "hint": "Stick to the evidence in the module: one-party rule, the Great Firewall, controlled media, pilot projects and blacklists. Being factual means describing what is documented, without dramatising it or playing it down.",
+     "solution": "Example answer: (1) Criticism without fear? No – critical posts are deleted and their authors may be summoned by the authorities. (2) Media uncovering scandals? No – media and platforms must co-operate with the authorities; investigations critical of the leadership are not published. (3) Courts ruling against the state? Virtually never – the courts are not independent of the party. (4) A change of government possible? No – a single party rules, and there are no free nationwide elections. A factual tone matters: all four answers describe documented features of the system, rather than making claims about the people."
+    },
+    {
+     "prompt": "A friend says: 'This points system actually sounds useful – if you behave decently, you have nothing to fear.' Write a reply in four or five sentences. Take the idea seriously: name an understandable benefit that surveys in China also highlight. Then use the idea of a lack of oversight to explain where the problem lies.",
+     "hint": "Think about the conclusion of 'Control in the digital age': what matters is the combination – ratings without independent courts and without a right to appeal. Who decides what counts as 'decent' behaviour – and what happens if that definition changes?",
+     "solution": "Example answer: 'I understand the idea – many people want greater security and more honest behaviour, and surveys show that some people in China view the systems positively for exactly these reasons. The problem lies elsewhere: the state alone sets the standards, and there are no independent courts where you could challenge an incorrect or unfair rating. What counts as decent behaviour today could be defined politically tomorrow – for example, criticism of the government could be treated as misconduct. Without independent oversight, an incentive system becomes a tool of power. In a democracy, such a system could not be allowed to exist without protection for basic rights, courts and ways to appeal.'"
+    },
+    {
+     "prompt": "Create your own quiz question about this module, with four answer options, one correct answer and a short explanation. Make sure your distractors reflect common misconceptions, such as 'elections = democracy' or 'modern and successful = democratic'.",
+     "hint": "Good distractors are statements that sound plausible at first. The two misconceptions mentioned in the module are a good starting point – a third would be: 'The people there are just different from us.'",
+     "solution": "Example: Question: 'A country has elections, skyscrapers and fast internet. What else does it need to be a democracy?' – (a) Nothing – elections are enough. (b) Greater prosperity. (c) Elections that offer a real choice, independent courts and media, and an opposition that could win. [correct] (d) A more modern points system for good behaviour. Explanation: elections alone can be a façade, prosperity and technology tell you nothing about the form of rule, and a state rating system is more a tool of control than a sign of democracy. When you create a question, you soon realise that the distractors almost write themselves once you know the common misconceptions."
+    }
+   ]
+  }
+ ]
+}

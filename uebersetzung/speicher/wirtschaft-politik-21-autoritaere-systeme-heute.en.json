@@ -1,0 +1,675 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:01a99368cde1f359ab46e30584e6ef4c1f696d2ee3b325ce8fbe20b4ccb370c7",
+   "text": "Authoritarian systems today"
+  },
+  "description": {
+   "quelle": "sha256:9dd4c4613d73681361040c5adaaa9d454849b8f1bf48877244c912b6f81f7787",
+   "text": "What happens when negotiation is abolished? You will learn about the features of authoritarian rule – no free elections, no independent courts or media, and a suppressed opposition – and find out how digital tools such as surveillance, internet censorship and social credit systems strengthen this control. The documented case study of China shows you what this looks like in practice, with a factual, evidence-based approach."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:9381a742a46b985e55311f671c45d42753c309a43c01194df10930f51d52a235",
+   "text": "Topic D: Basic concepts, democracy & political thinking"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:33f0933578422138a83a40bac63c94ca61d047da5fc31ffda3325c28a3ee7ee3",
+   "text": "authoritarian system"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:4237d9470dac245f4fe7578926c4af05ebe3330be88cf9e82c679443bac4f2cd",
+   "text": "dictatorship"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:f6a9cb98081dc81b4c8054c8836657ec0d780084ca1f6295630533e5ad3ed2fa",
+   "text": "free elections"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:726f57da2c8d1bc31532c79ad9086fa183217e21c82fb8730656816c9dcafd6a",
+   "text": "independent courts"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:43c1922b4715d4849d119f3b57c382b5a2133695604e4c489f042a66ee16a31b",
+   "text": "press freedom"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:b2f080b37a0bd880cb1af47bf7530288b7af1ba8bb078be85da8c07f3a07432f",
+   "text": "opposition"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:93542e95957e72bd9a4ea1e6047065f08922d2f65fb2340ae2259b2e45fde0aa",
+   "text": "surveillance"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:95444d8bb3896788642f2d6d8132b002d2807cde236b59feb9e97077119d271a",
+   "text": "internet censorship"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:ba693a781f8656dcb6eec02151e40d265f960fb72098221a0af8e839725f2299",
+   "text": "social credit system"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:134cdbf9805804cae64a0212c24ba6b4af9a8096969aa102ec2e6bb753b0bfec",
+   "text": "propaganda"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:10436829032f361a3de50048de41755140e581467bc1895e6c1a17f423e42d10",
+   "text": "China"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:ea215ca4d5a4c20108771a3005e99615b828fd047d74172858a02c9b692004fb",
+   "text": "human rights"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:5c7432e72362281af02ea2d46f7dc5476cafc4799ecb6b43d5adf777edd5c96e",
+   "text": "I can identify features of authoritarian rule: no free elections, no independent courts or media, and suppression of the opposition."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:4f4f43a3bd185fdabf90802c0c4e7648e063bbf060af486bc1af6b376140a905",
+   "text": "I can describe digital tools of control: widespread surveillance, internet censorship, social credit systems and state propaganda."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:2dd09720f00a63f815da6adf3fad74cabfb418a79fd3e318ce8afa9f46d7afc1",
+   "text": "I can describe the documented case study of China – social credit pilot projects and internet control – using a factual, evidence-based approach."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:ab3b021cb62080c40bd8a18167a3950ca6de8d76504355c0fa5438d3c2146c7a",
+   "text": "I can draw a contrast with [[modul:wirtschaft-politik-20-demokratie-als-prinzip]] and recognise what distinguishes democracy from authoritarian rule in people's everyday lives."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:7b36e8cf3b22652622ecb8989593ce1999e9bd67a76079b9e695987dacb8b147",
+   "text": "When negotiation is abolished"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:6d8b33046bf94b899424764514268030bc5379016c7805d37f1eaa92a80be2c2",
+   "text": "In [[modul:wirtschaft-politik-20-demokratie-als-prinzip]], you learnt about the three building blocks of democracy: those affected make their own decisions, rulers hold power for a limited time, and power changes hands without violence. Now let's turn the picture around: what if a government prevents exactly that?\n\nAn **authoritarian system** is a form of rule in which one person or a small group holds power – and has no intention of giving it up. To make this work, democratic checks on power are dismantled one by one. Four features appear again and again:\n\n1. **No free elections.** Elections often still take place, but as a façade: rival candidates are barred, the results are effectively decided in advance, and there is no independent election monitoring. There is no limit on the time rulers hold power; the leadership stays for as long as it wants.\n2. **No independent courts.** Judges no longer decide freely according to the law, but according to the leadership's wishes. Anyone accused has little chance of a fair hearing – and virtually nobody wins a court case against the state.\n3. **No independent media.** Newspapers, broadcasters and major online platforms are controlled, while critical news organisations are shut down or taken over. The leadership decides what the population finds out.\n4. **Suppression of the opposition.** Anyone who organises to replace the government by legal means risks bans, arrest or worse. Critics are intimidated rather than tolerated.\n\nYou can see the pattern: each of these features removes one of the checks on power that formed the core of democracy in [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]. The chart compares the two systems using five criteria."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:e3fe50b885f1b48d500ff6317ba5cca26f1727a64f6357618711867d674b226d",
+   "text": "Comparing democracy and an authoritarian system"
+  },
+  "blocks[1].szene.elemente[0].text": {
+   "quelle": "sha256:4118437094f80ac8d2a42689c50d26e8c490326d93a7080df944ec1848858cda",
+   "text": "Democracy and authoritarian rule"
+  },
+  "blocks[1].szene.elemente[1].text": {
+   "quelle": "sha256:619beded10218a9f74650dd20809b52b1c0a5f611df46bbee2fff79ec7f34e28",
+   "text": "Comparing five criteria"
+  },
+  "blocks[1].szene.elemente[19].text": {
+   "quelle": "sha256:889fc588470d429759069edbeb4531d6e0bc073e2324afd47354359190432a0b",
+   "text": "The difference shows in daily life: being free to criticise without fear means living in a democracy."
+  },
+  "blocks[1].szene.elemente[20].text": {
+   "quelle": "sha256:a4adbf06c4b631e17d8972e5f69654f120a9a50f4f8a2b7ee2c3dcd61f468e50",
+   "text": "Democracy"
+  },
+  "blocks[1].szene.elemente[21].text": {
+   "quelle": "sha256:9a05c08dc7934e88a0956ffbf11b242faebd6047b0ae6560ab8de2f65ca888f7",
+   "text": "Authoritarian system"
+  },
+  "blocks[1].szene.elemente[22].text": {
+   "quelle": "sha256:7b7aa1bf7f218878e88236769b42b3dfce9c420e27546f6018601902e0450b6d",
+   "text": "Elections"
+  },
+  "blocks[1].szene.elemente[23].text": {
+   "quelle": "sha256:41b60e6cbc74ed2b5934df4ff3a3de8987ab6b8ae2a63a0fd57195d2d0dcfe83",
+   "text": "free and fair –\nlimited terms of office,\npower can change hands"
+  },
+  "blocks[1].szene.elemente[24].text": {
+   "quelle": "sha256:3f4e15c94679a99092dc0b58b6f965f3487efee1c6b9f85b0bb1b4d61c8c8025",
+   "text": "no real choice – the result\nis effectively fixed,\nthe leadership stays"
+  },
+  "blocks[1].szene.elemente[25].text": {
+   "quelle": "sha256:78855931a7119997b61669b7a2ecbe59b315a8bb6ebd1e3c2eff8fae1a6882d8",
+   "text": "Courts"
+  },
+  "blocks[1].szene.elemente[26].text": {
+   "quelle": "sha256:8983467decadd3b82e7a2410645a5279f605f26d30872c767e2aba65ec667d4f",
+   "text": "independent – they can rule\nagainst the government"
+  },
+  "blocks[1].szene.elemente[27].text": {
+   "quelle": "sha256:512408ae7b966f35455bc89f18d4a0683943f097cb00fc9f6cd29409fe4f99f3",
+   "text": "follow orders – virtually\nno one wins against the state"
+  },
+  "blocks[1].szene.elemente[28].text": {
+   "quelle": "sha256:0031e3624efbc466d4d85f667fb92b2910019df24b9e7729ceef729180d8836c",
+   "text": "Media"
+  },
+  "blocks[1].szene.elemente[29].text": {
+   "quelle": "sha256:cdd5a421a85835818e1f4c9f47cf0bc2085eff567ea7078162966196b0dcd1eb",
+   "text": "diverse and free –\nthey uncover scandals"
+  },
+  "blocks[1].szene.elemente[30].text": {
+   "quelle": "sha256:7bbe6f6366d97350e119030f4164fecb5950db1d8be4408f9f0f997492eacebb",
+   "text": "controlled and censored –\ncriticism is deleted"
+  },
+  "blocks[1].szene.elemente[31].text": {
+   "quelle": "sha256:b2f080b37a0bd880cb1af47bf7530288b7af1ba8bb078be85da8c07f3a07432f",
+   "text": "Opposition"
+  },
+  "blocks[1].szene.elemente[32].text": {
+   "quelle": "sha256:50e89ddd3cf3d83ded708db3867fe37ded35540d6361b7e29e80dde617f560bc",
+   "text": "allowed and protected –\ncan win the next election"
+  },
+  "blocks[1].szene.elemente[33].text": {
+   "quelle": "sha256:b988d80121f1e0b132ea8afa227bedd7bb332f529405122fe81378aff6f45207",
+   "text": "obstructed, banned\nor persecuted"
+  },
+  "blocks[1].szene.elemente[34].text": {
+   "quelle": "sha256:93542e95957e72bd9a4ea1e6047065f08922d2f65fb2340ae2259b2e45fde0aa",
+   "text": "Surveillance"
+  },
+  "blocks[1].szene.elemente[35].text": {
+   "quelle": "sha256:e9ad85c953ff91967ca2203b08293c14ebbc2744773f4cf0923484be508f0a68",
+   "text": "limited by basic rights\nand courts"
+  },
+  "blocks[1].szene.elemente[36].text": {
+   "quelle": "sha256:a754b00bc93080b123bb0861d9d8a064a883c899da0510a511005e87ef0f9df7",
+   "text": "widespread control – cameras,\nfacial recognition,\ninternet censorship"
+  },
+  "blocks[1].beschreibung": {
+   "quelle": "sha256:dd83f948fa280ea382f43db9babba7ba63dc7da95beb40dee50e598b64e45d52",
+   "text": "The chart compares democracy and an authoritarian system using five criteria. It shows that what matters is not whether elections, courts or media exist, but whether they are independent. Key points: – Elections: in a democracy, elections are free and fair, rulers hold power for a limited time, and power can change hands; in an authoritarian system, there is no real choice, the result is effectively fixed, and the leadership stays. – Courts: in a democracy, courts are independent and can rule against the government; in an authoritarian system, they follow orders, and virtually nobody wins against the state. – Media: in a democracy, the media are diverse and free, and uncover scandals; in an authoritarian system, they are controlled and censored, and criticism is deleted. – Opposition: in a democracy, the opposition is allowed and protected, and can win the next election; in an authoritarian system, it is obstructed, banned or persecuted. – Surveillance: in a democracy, basic rights and courts limit surveillance; in an authoritarian system, it is used widely as a means of control, for example through cameras, facial recognition and internet censorship. Key message below the table: the difference shows in everyday life – being free to criticise without fear means living in a democracy."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:cd38e4d840009d24cfa808e6b5ae157c311499d0d492ea55df9dfcb1c8b9f61f",
+   "text": "Control in the digital age"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:565e6090bd409ba6590213976c1ebb387eed51027480b7f1a0fb08729b6f1c1e",
+   "text": "Authoritarian rule is nothing new – what is new are the digital tools that make it more effective than ever. You should know about four tools:\n\n- **Widespread surveillance:** cameras with facial recognition on streets, in railway stations and in public squares can record who is where and with whom. Mobile phone and payment data are also analysed. Surveillance exists in every state – the difference lies in its scale and the checks on it: in democracies, basic rights and courts limit what the state is allowed to do; authoritarian systems lack this safeguard.\n- **Internet censorship:** internet access is filtered – foreign news sites and platforms are blocked, search results are sanitised, and critical posts are deleted, sometimes within minutes. If you only see the filtered version, you may eventually think it is the whole picture.\n- **Social credit systems:** points systems that rate the behaviour of people or businesses. Those who behave 'correctly' receive benefits, such as discounts or faster approvals, while those judged negatively face restrictions, for example on buying plane or train tickets. Desired behaviour is rewarded and unwanted behaviour punished – control becomes part of everyday life.\n- **State propaganda:** controlled news, constant reports of success and paid commentators who flood discussions on social networks. The aim is not just to suppress criticism, but to shape people's view of their country and the world.\n\nRemember: none of these tools alone proves that a system is authoritarian – democracies also use surveillance to tackle crime or remove illegal content. What matters is the **combination**: surveillance without independent courts, censorship without free media, and ratings without a right to appeal."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:aa7cb28b80579b4cec5c6f83cc45f81a03e428fc92843ad1ce3491ab8ede4343",
+   "text": "Case study: a factual account of China"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:9274a07e7d4894af654a6614ee214c34be5d7989d60f3a75eb003ef3d138378a",
+   "text": "The documented example of the People's Republic of China – the most populous authoritarian state today – shows what this looks like in practice. A single party governs the country; there are no free nationwide elections, independent courts or free media.\n\n**Internet control:** an elaborate filtering system separates China's internet from the rest of the world – often called the 'Great Firewall'. Many international platforms and news sites are blocked; domestic services take their place but must co-operate with the authorities. Searches on sensitive topics are filtered, critical posts are deleted, and their authors are sometimes summoned for 'tea' with the police.\n\n**Social credit pilot projects:** China has been developing a 'social credit system' since 2014. There is still no uniform points system for all citizens. However, there are documented **pilot projects in individual cities** (Rongcheng is a well-known example) that awarded points for desired behaviour and deducted them for unwanted behaviour, as well as nationwide **blacklists**: people who fail to repay debts despite a court ruling, for example, can no longer buy plane or high-speed train tickets. Millions of such ticket bans have been documented.\n\n**Surveillance:** China has one of the highest numbers of surveillance cameras in the world; facial recognition is widespread in daily life, from payments to access control. In the Xinjiang region, reports by international organisations document particularly intensive surveillance of the Uyghur minority.\n\n**What about the people?** This needs careful treatment: many Chinese people live their everyday lives just like people elsewhere – they work, start families and enthusiastically use digital services. Surveys even show that some view the rating systems positively, for example because they hope for greater security or more honest business practices. This module is therefore **not about 'the Chinese'** – it is about the features of a **system** that denies its population the means of holding those in power to account that you learnt about as the core of democracy in [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:1a52d312eb8514d523fdf94ca00c0714bad4d19df0baff88f50f5836af34e42a",
+   "text": "Video: social scoring – China's rating system"
+  },
+  "blocks[4].description": {
+   "quelle": "sha256:1a1ece693eb2edda53311835d8c9d00b4e241b2c987263e02281c488f6692dc9",
+   "text": "This clip (4:53) from the ARD documentary 'China: Überwachungsstaat oder Zukunftslabor?' (tagesschau) shows how rating systems work in practice in China. As you watch, focus on two questions: (1) What specific rewards and restrictions does the report show – and what technology is used for surveillance? (2) The report mentions that many people surveyed view the system positively: how does this fit with what you have learnt about the lack of free media and about censorship?"
+  },
+  "blocks[4].transcript": {
+   "quelle": "sha256:2e96d55bdefd5239b6c85cb7519a044c9db07085c0992d618463eec42fe7386f",
+   "text": "This report by the public broadcaster tagesschau (ARD, 4:53 minutes) comes from the documentary 'China: Überwachungsstaat oder Zukunftslabor?' and describes China's approaches to social scoring. In pilot projects, citizens receive points for following the rules and enjoy benefits such as discounts; those judged negatively face restrictions. It shows how algorithms identify people through facial, voice and gait recognition and assess their behaviour. The report also includes voices from China: according to surveys, many respondents view the systems positively, for example because they hope for greater security and honesty. The report places this in a critical context: people are rated according to the state's standards, without independent oversight."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:94c721052db76feee0ccda81bd78adb37ff0eb01b59e0ab6b1d3ba36ce2c892f",
+   "text": "The contrast in everyday life: four test questions"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:a7f1a06037a071ff229ec5e1e1cc10eb44cac7e8a203ead744c529161b31807e",
+   "text": "Constitutions and laws can be misleading – almost every authoritarian system calls itself democratic. Looking at **people's everyday lives** is more reliable. Four test questions reveal the difference:\n\n1. **Can I criticise the government publicly without fear of consequences?** In a democracy, criticism is a protected right, even when it is uncomfortable. In an authoritarian system, a critical post can cost you your job, your freedom to travel or your liberty.\n2. **Can the media uncover scandals, including those involving powerful people?** Democracies accept investigative reporting that puts a government under pressure. In authoritarian systems, such stories never appear – or the news organisation disappears.\n3. **Can a court rule against the state – and does this actually happen?** In democracies, governments regularly lose court cases and comply with the rulings. In authoritarian systems, courts are a tool of the leadership.\n4. **Can the opposition win the next election – and would power then be handed over peacefully?** This is the toughest test: power changing hands without violence, as discussed in [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]. Where this is unthinkable, democracy is merely a façade.\n\nTwo qualifications are needed for an honest picture. **First**, the boundaries are not clear-cut – even in democracies, basic rights repeatedly come under pressure and must be defended; staying alert is part of democracy. **Second**, the system tells you nothing about the people: the desire for security, prosperity and a good life is the same everywhere. The difference lies in the options people have when they disagree with their government."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:866caf3ad083a8c29f9610f12717a8da4dcb21632942b83633f842fb1d9c0fe4",
+   "text": "Quiz: recognising authoritarian systems"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:300d39e6ab059d6c8856d32bbd9013c642241e94f86a0893655d1648e3bb1fbd",
+   "text": "Show that you have understood the features of authoritarian rule and the case study. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:6bc62a44e1a114f69e4501e0ee02b5d0ad824dec3d05aa868ab0f3e0adf15612",
+   "text": "Which four features characterise an authoritarian system?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:111d16f1562779c578ef71bb5777a55fc70ede55eae5feb6e247b3840ed6904a",
+   "text": "No free elections, no independent courts, no independent media, and suppression of the opposition."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:258e60dee213e8c235f55d0eaa849bcd6175ae19135684fc146362b205557ba7",
+   "text": "High taxes, many laws, strict schools and expensive rents."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:e381afb40a498612c6811dc6b85def24e892997331cd4ca0a9af0181a46bf1cf",
+   "text": "A parliament, a government, courts and media."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:895b12ed944420c9f5343d83a4734382c190bb3e2c0311a30cea57b9728efc98",
+   "text": "Elections every four years, several parties, a free press and independent judges."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:aff6666fa49fa954516332d644dd9fe6010c1e7825a79970333c93215c4300a1",
+   "text": "Authoritarian rule dismantles democratic checks on power: elections offer no real choice, courts follow orders, the media are controlled and the opposition is persecuted. A parliament, a government, courts and media exist in almost every state – what matters is whether they are independent. The last option describes democracy, while taxes, laws, schools and rents tell you nothing about the form of rule."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:b03d555e07b2fb69201ba17ecb4ee9eb6164f315d47f06d9a4dffeb630736a47",
+   "text": "Elections often still take place in authoritarian systems. Why are they not considered free?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:02405a47a157d889736bfaf6c473369f281157d2f6d6d40262ecb32fae490f77",
+   "text": "Because too few people take part."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:f0d121136f485235bc49007b613fbb8b3bf6f14b88fd53501ff0ec163357b518",
+   "text": "Because elections can only work in small countries."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:09e1aa3bb36148234894c6d1b6f9db8eb97746749f1df664d371ae0b748aeae6",
+   "text": "Because there are no genuine rival candidates, the result is effectively fixed and there is no independent monitoring – the election is a façade."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:f17546f94d0d141c074c21e271cef239b5ebbfc2211b7f12bf2494c2c1cb9788",
+   "text": "Because voting there is too complicated."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:b101c2a49a634eebbdbb4edde7e5c2da21f42b235fbf35f7511542564df5aa30",
+   "text": "Elections as a façade are typical: people vote, but without a real choice – rival candidates are barred or sidelined, the result is effectively fixed, and nobody is allowed to monitor the election independently. This has nothing to do with turnout, the size of the country or how complicated voting is: an election is only free if it can actually lead to power changing hands."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:2281fca3e12cb677539e04be0bb3fc9629ed522c8e2bf8ccc2a5cea8322f1f90",
+   "text": "What does it mean when courts are not independent?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:d2c603a88067b9e87335af95a62087556d07bd3ce7d6f60903d5fb83378a3aa2",
+   "text": "The courts are poorly organised and work slowly."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:95a48c72746b3792be823bd79a7e3abd9c9096b1363a2af4ec16a2b09f7f2f1b",
+   "text": "There are no courts or trials at all any more."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:43666d3eeda9d94d57e8c693766457235445418a5aeb1ffbd2bc76adf39fc1db",
+   "text": "Judges are poorly paid."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:efb1fe1dc5f9677506c566e928f6e0824eb06b795f65ca1feedc46636fdc1369",
+   "text": "Judges decide according to the leadership's wishes instead of freely applying the law – virtually nobody wins against the state."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:9f7e2a22c11a174ef0b330f15462aa78b43630788927b8b4a6c40a808ad1dceb",
+   "text": "Courts that lack independence do exist and hear cases – but their rulings reflect the wishes of those in power, rather than the law. The everyday test from this module is: can a court rule against the state – and does this actually happen? In democracies, governments regularly lose court cases and accept the rulings. Independence has nothing to do with speed, organisation or pay."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:14f6de2c207c42a7eac95e7769bc6b65ef867931044a79aa15fe5912e886bac7",
+   "text": "What is a social credit system?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:450fb19b46c753da6f5882abf1606cd1ed76e6fbb50cbfc75c8981dce631e0c5",
+   "text": "A bank loan for people on low incomes."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:5d361ded9e878700db48d06c8080c0b33e311e875ad81fba5ec088933b193521",
+   "text": "A points system that rates behaviour: desired behaviour is rewarded, while unwanted behaviour is punished with restrictions."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:2d3fb303d69e99400a18cab28f3a8bb7640f4f950dabeb83c03fd942b52bc422",
+   "text": "A rewards scheme offered by online shops to loyal customers."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:b4abcd6a1effcc8bf19ec6d6874ad9c9990aad59d0e5f7b9954ed728b53ad23c",
+   "text": "Insurance that covers financial hardship."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:d69f00d04b80e5af08fb2778bce15ba9a338575c432a1e803309df831a2da331",
+   "text": "A social credit system rates the behaviour of people or businesses using points: those who behave 'correctly' in the state's view receive benefits, while those judged negatively face restrictions, for example on buying tickets. This makes control part of everyday life. Despite the name, it has nothing to do with a bank loan ([[modul:wirtschaft-politik-12-banken-kredit-zins]]) or insurance ([[modul:wirtschaft-politik-11-versicherungen]]) – and unlike a voluntary rewards scheme, you cannot opt out of being rated by the state."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:2959d6ffd609b05f64b345008cf894650a31b801d926254e9477e07e57e95d6f",
+   "text": "Which statement about the documented state of China's social credit system is correct?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:0619d6ddc9df3e9d904c7eff64bf78c9a6c2f9ef87307525b7996b695b286d78",
+   "text": "Every Chinese citizen has had a uniform nationwide points score since 2014."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:a65299993ed4690b04188a7975ffd232971c3fec621da32a9b04d90e60cea091",
+   "text": "The system was completely abolished after protests."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:2e729bff0b6ab378763bd1fcf4cebdb545d657284397c6b749589bf3b7c450f4",
+   "text": "There have been pilot projects in individual cities and nationwide blacklists – for example, ticket bans for people who fail to repay debts despite a court ruling."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:a441a32bb87b97074652cbe6a6ea3becc98bc8431406a9653758aa7cab064e2f",
+   "text": "The system exists only as a rumour in Western media."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:b3eb99ad12eaeef22fce880843fef062a462794f4102175818e96bb8c2b8541d",
+   "text": "It pays to look closely: there is still no uniform points score for everyone, although this is often reported inaccurately. Pilot projects in individual cities (such as Rongcheng) and nationwide blacklists are documented, with millions of recorded bans on plane and train ticket purchases for people who have defaulted on their debts. The project has not been abolished, and it is not merely a rumour either – the evidence comes from official Chinese documents and international investigations."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:3084f395c310ec612908f6e98c39db58ca6aa6b3626cf2b5677e5302dcbdf7e4",
+   "text": "What does the term 'Great Firewall' describe?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:2444e3c58f284a476064ec68fe0cf0435d3df0e68cd5779649848eb6579bfc25",
+   "text": "China's filtering system that controls internet access: foreign platforms are blocked, search terms filtered and critical posts deleted."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:78be4d8e174953958945118ddba7686425e778b0fea9689bbc880eef8704d32e",
+   "text": "A fire-resistant wall around Chinese government buildings."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:f863ce5d512cd81eabf5420dffbcbcff4023a8f6cd15effe46a16e506ec3cbcb",
+   "text": "An antivirus program that protects personal computers from hackers."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:e044bfdb99553200e63927e0d79e60e3719113b8bc619d4c802eff3557f6d52d",
+   "text": "The encryption used by payment apps for online shopping."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:dbbdd09e8a1c9c939e2458e61774a898bc609cd730e5aaaf91d2a960b8d26ec4",
+   "text": "The 'Great Firewall' – a name that plays on the Great Wall – separates China's internet from the rest of the world: many international platforms and news sites cannot be accessed, domestic services must co-operate with the authorities, and sensitive search terms and posts are filtered and deleted. The term has nothing to do with fire protection, antivirus software or payment encryption – it is about controlling information."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:353b727a95141800644ea7e43571f5230707ba97637e50f474a35db4cf429a44",
+   "text": "'This is about systems, not people.' Which conclusion is correct?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:338cae3351f7535b323302160dd9b0fbfc2dcb9273a22aa740bdac8d7f7f87d1",
+   "text": "People in authoritarian states have only themselves to blame for their government."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:7aa6b4c3a615e9969a8c7859d54471ccd5a48bfad994656397657a152142ea82",
+   "text": "People in authoritarian states live their everyday lives just like people elsewhere – we are assessing the features of the system, not the population."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:3cb56107721b2b5fd51bfd5c103ae65a2c1ce4a04bbdc62acbc8bed0c4a5f47c",
+   "text": "Anyone living in an authoritarian state cannot lead a happy life."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:68a6d12468ee3b51e85b9389858121cf2533b0dcc556f7803a4f5fb5ca2dd510",
+   "text": "You must not report critical facts about authoritarian states."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:e6fde0d491975310b1ac09cfef1fa578cbd88e4b609525ea014d5928bad59efe",
+   "text": "This module focuses on the system: no free elections, courts that lack independence, controlled media and a persecuted opposition. The people there work, start families and want security and prosperity, just like people everywhere; some even view individual measures positively. Saying it is 'their own fault' is therefore just as wrong as claiming that a good life there is impossible. Reporting critical facts is entirely consistent with this approach – describing things objectively does not mean staying silent."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:0c3dae50b635f1f71e7fbeeb09a21676881c4dc74476d5c501a6fa1a18cbf5a6",
+   "text": "Which everyday question is the most reliable test of whether a state is democratic?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:5a6730ff29803dbed02b4820d39189305a8ebbb4b0491edd6e0c40377e3e8be2",
+   "text": "Does the word 'democratic' appear in the country's name or constitution?"
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:211602e4b26781c48debb4e8165b7d0bbb4d9bfad59690225979ae47ea0c0d64",
+   "text": "Does the country hold elections?"
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:203d0d1e29008dbe4139fb9544399e0c8dafe0bed2e95f070b8758bfa2f3d24e",
+   "text": "Is the country economically successful and technologically advanced?"
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:169e50f46d2b4b5b173ffb5e504142bd14d0289759c771b0c2b8db395addac47",
+   "text": "Can the opposition win the next election – and would power then be handed over peacefully?"
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:d912d6d426935423e8d84a40dc3e98bd3190bb80ad93c772b9e5b34fc064d364",
+   "text": "The toughest test is a change of government: where the opposition has a realistic chance of winning and power would then be handed over peacefully, democracy is working. Names are often misleading – authoritarian states in particular like to decorate theirs with the word 'democratic'. Elections alone prove nothing if they are merely a façade. And prosperity or technology tell you nothing about the form of rule: authoritarian states can also be economically successful, as the case study of China shows."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:81c8795eae98e093775536cca8adeb0f5821be03f5cec72d9a9dcf3ce0fc0d55",
+   "text": "Fill in the terms: features and tools"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:3d893e4efdb349ee8e39f8c6f61ed73d1306dadbb2542d43f73c0a238f8a855c",
+   "text": "Type in the terms: check your understanding of the contrast"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no word bank this time – **type in the missing terms yourself**. Capitalisation does not matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:9d223283890cf2ca2fc4ab5d3cf2c190611603f831a0885771d7e1ceb3a36f89",
+   "text": "Match: democracy or authoritarian system?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:8d9994342bda64aed5fb17bfa0fe605c5ce2bddd1cdf57bf9bfc636d34d0bb5f",
+   "text": "Match each description to the correct system: **democracy** or **authoritarian system**. Each system appears exactly four times."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:f95bb0330f89911f4bcc89bea3f5b9a05dfb77ddc2597030639b35685a03db82",
+   "text": "Explore further: compare systems and keep to the facts"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:be9ee62b3014e2d27ba390f4caa9378c7ca63660a16b1ff255db241666aab93f",
+   "text": "Apply the module's four questions about everyday life to the case study of China. Answer each question (Criticism without fear? Media uncovering scandals? Courts ruling against the state? A change of government possible?) using the facts from the module – one or two sentences each, sticking to the facts and avoiding exaggeration."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:6f1b51a4fce4e86409666ff59c684501dbf7e1ab918c00a997b4ab0178c37cb1",
+   "text": "Stick to the evidence in the module: one-party rule, the Great Firewall, controlled media, pilot projects and blacklists. Being factual means describing what is documented, without dramatising it or playing it down."
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:5985d41f45a92a2079faefa8433b9525a984e130e173826b718c106f466301df",
+   "text": "Example answer: (1) Criticism without fear? No – critical posts are deleted and their authors may be summoned by the authorities. (2) Media uncovering scandals? No – media and platforms must co-operate with the authorities; investigations critical of the leadership are not published. (3) Courts ruling against the state? Virtually never – the courts are not independent of the party. (4) A change of government possible? No – a single party rules, and there are no free nationwide elections. A factual tone matters: all four answers describe documented features of the system, rather than making claims about the people."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:d191c644332510dfaa1cb27f7c6431280edd6f08e30822a3a3ca206aaae1d9ee",
+   "text": "A friend says: 'This points system actually sounds useful – if you behave decently, you have nothing to fear.' Write a reply in four or five sentences. Take the idea seriously: name an understandable benefit that surveys in China also highlight. Then use the idea of a lack of oversight to explain where the problem lies."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:f77e15cec5bc534e0d5b201b4e47ff18911699648dc57a0f4d7d908dff0ca20e",
+   "text": "Think about the conclusion of 'Control in the digital age': what matters is the combination – ratings without independent courts and without a right to appeal. Who decides what counts as 'decent' behaviour – and what happens if that definition changes?"
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:d8fe812981b9e8cb206532951424aa557c71b485d894cccb0b7d7f43d7838515",
+   "text": "Example answer: 'I understand the idea – many people want greater security and more honest behaviour, and surveys show that some people in China view the systems positively for exactly these reasons. The problem lies elsewhere: the state alone sets the standards, and there are no independent courts where you could challenge an incorrect or unfair rating. What counts as decent behaviour today could be defined politically tomorrow – for example, criticism of the government could be treated as misconduct. Without independent oversight, an incentive system becomes a tool of power. In a democracy, such a system could not be allowed to exist without protection for basic rights, courts and ways to appeal.'"
+  },
+  "blocks[10].tasks[2].prompt": {
+   "quelle": "sha256:0e477ce6c359c2ef32cd7462326a085f7c43631763564e1e6beccecb9f5ea6cd",
+   "text": "Create your own quiz question about this module, with four answer options, one correct answer and a short explanation. Make sure your distractors reflect common misconceptions, such as 'elections = democracy' or 'modern and successful = democratic'."
+  },
+  "blocks[10].tasks[2].hint": {
+   "quelle": "sha256:e0e49b49b0e72650521f16f4bacd3dc19d7fa116d562916d0926016d2c6a795c",
+   "text": "Good distractors are statements that sound plausible at first. The two misconceptions mentioned in the module are a good starting point – a third would be: 'The people there are just different from us.'"
+  },
+  "blocks[10].tasks[2].solution": {
+   "quelle": "sha256:dfc8871b48d02fdfb52f5a605f9e46712d7e5521a2468a93c155ddcbce4c4b26",
+   "text": "Example: Question: 'A country has elections, skyscrapers and fast internet. What else does it need to be a democracy?' – (a) Nothing – elections are enough. (b) Greater prosperity. (c) Elections that offer a real choice, independent courts and media, and an opposition that could win. [correct] (d) A more modern points system for good behaviour. Explanation: elections alone can be a façade, prosperity and technology tell you nothing about the form of rule, and a state rating system is more a tool of control than a sign of democracy. When you create a question, you soon realise that the distractors almost write themselves once you know the common misconceptions."
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:f79efe04f401f4c97ae5fa103492073688c3268bd9499334330c15209866319e",
+   "inhalt": {
+    "text": "In an authoritarian system, one person or a small group holds {{1}} – and will not give it up willingly. Elections are often just a {{2}}: the result is effectively fixed. The courts do not decide independently, but according to the wishes of the {{3}}, and the media are controlled and {{4}}. Anyone who organises to replace the government is part of the {{5}} – and risks bans or arrest.\nDigital tools strengthen control: cameras with {{6}} record who is where. Internet censorship blocks platforms and deletes critical {{7}}. Social credit systems award {{8}} for desired behaviour – documented in China through pilot projects in individual cities and {{9}} that restrict ticket purchases. Finally, state {{10}} aims to shape people's view of their country.",
+    "luecken": [
+     [
+      "power",
+      "the power",
+      "political power",
+      "control"
+     ],
+     [
+      "façade",
+      "facade",
+      "sham",
+      "front"
+     ],
+     [
+      "leadership",
+      "leaders",
+      "rulers",
+      "government",
+      "ruling group"
+     ],
+     [
+      "censored"
+     ],
+     [
+      "opposition",
+      "political opposition",
+      "the opposition"
+     ],
+     [
+      "facial recognition",
+      "face recognition",
+      "facial-recognition technology",
+      "facial recognition technology"
+     ],
+     [
+      "posts",
+      "comments",
+      "messages",
+      "articles",
+      "content"
+     ],
+     [
+      "points",
+      "credit points",
+      "social credit points"
+     ],
+     [
+      "blacklists",
+      "black lists",
+      "black-lists"
+     ],
+     [
+      "propaganda"
+     ]
+    ],
+    "ablenker": [
+     "dividend",
+     "map",
+     "sunglasses"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:2b3858d4fd37aaf6a13af15c9e083a164f63435d8984d2062e047acc14913360",
+   "inhalt": {
+    "text": "In a democracy, rulers hold office for a limited {{1}} – in authoritarian systems, the leadership stays for as long as it wants. The filtering system that separates China's internet from the rest of the world is called the 'Great {{2}}'. Those who want to replace the government form {{3}} – which is suppressed in authoritarian systems. State-controlled news and reports of success are called {{4}}. The most reliable test of democracy is whether power can change hands without {{5}}.",
+    "luecken": [
+     [
+      "time",
+      "period",
+      "term",
+      "period of time",
+      "length of time",
+      "duration",
+      "term of office"
+     ],
+     [
+      "Firewall",
+      "fire wall",
+      "fire-wall"
+     ],
+     [
+      "the opposition",
+      "opposition",
+      "political opposition",
+      "the political opposition",
+      "an opposition party",
+      "opposition party",
+      "the opposition party",
+      "opposition parties",
+      "the opposition parties"
+     ],
+     [
+      "propaganda",
+      "state propaganda",
+      "state-propaganda",
+      "government propaganda",
+      "official propaganda",
+      "state-sponsored propaganda"
+     ],
+     [
+      "violence",
+      "force",
+      "the use of force",
+      "use of force",
+      "bloodshed",
+      "violent conflict"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:8f979b851f09b73d88a5fc034f9d66c7e36161fefe6dc63497954ccb13d4c965",
+   "inhalt": {
+    "text": "A newspaper uncovers a government scandal – and is still published the next day. {{1}}\nThe leadership stays in office for as long as it wants – elections make virtually no difference. {{2}}\nA court stops a government plan, and the government complies with the ruling. {{3}}\nCritical online posts are deleted, and foreign news sites are blocked. {{4}}\nThe opposition organises openly and can win the next election. {{5}}\nAnyone who publicly criticises the government risks arrest or losing their job. {{6}}\nAfter losing an election, the government hands power over peacefully to the winners. {{7}}\nA points system rates people's behaviour – those judged negatively can no longer buy train tickets. {{8}}",
+    "luecken": [
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ],
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ],
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ],
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "authoritarian system",
+      "an authoritarian system",
+      "authoritarian regime",
+      "an authoritarian regime",
+      "authoritarian rule",
+      "dictatorship",
+      "a dictatorship",
+      "autocracy",
+      "an autocracy"
+     ]
+    ]
+   }
+  }
+ }
+}
