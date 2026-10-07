@@ -1,0 +1,1278 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-22-medien-und-meinungsbildung --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:3103d17b1b4e8425fb2f8771c75e5d0359f6831523ecbe9f2f06e870ae489fde",
+  "masterCommit": "02b326a",
+  "hintsHash": null,
+  "generatedAt": "2026-10-07",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.en.json",
+  "selfHash": "sha256:853b937688f32802b94fc5043c10e621ddce15111bc429ad2c3fc8df5417aa8b"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-22-medien-und-meinungsbildung",
+ "title": "Media and how opinions are formed",
+ "description": "Many decisions lie between an event and your feed – and each one can introduce distortion. Here you follow the journey of a news story from the event to its presentation, distinguish quality journalism from tabloid media and unverified social media content, recognise framing – and apply three practical checks for fake news.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "MI.1.2",
+     "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    },
+    {
+     "code": "MI.1.1",
+     "description": "Die Schülerinnen und Schüler können sich in der physischen Umwelt sowie in medialen und virtuellen Lebensräumen orientieren und sich darin entsprechend den Gesetzen, Regeln und Wertesystemen verhalten."
+    }
+   ]
+  }
+ ],
+ "sequenz": 22,
+ "einheit": "Topic block D: Basic concepts, democracy & political thinking",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "Media",
+  "News story",
+  "Editorial team",
+  "Source",
+  "Quality journalism",
+  "Tabloid media",
+  "Social media",
+  "Framing",
+  "Fake news",
+  "Reverse image search",
+  "Opinion formation",
+  "Media literacy"
+ ],
+ "learningObjectives": [
+  "I can explain how a news story develops: event, source, selection by the editorial team, presentation.",
+  "I can distinguish quality journalism from tabloid media and unverified social media content using these criteria: citing sources, separating news from opinion and a culture of correcting mistakes.",
+  "I can recognise framing: the same fact can be framed differently through selection and word choice.",
+  "I can apply three practical checks for fake news: check the source, run a reverse image search and look for a second source."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "so geht MEDIEN – Medienkompetenz-Angebot von ARD, ZDF und Deutschlandradio",
+   "url": "https://www.sogehtmedien.de"
+  },
+  {
+   "title": "Video (extern): Fake News einfach erklärt – explainity, 3:58",
+   "url": "https://www.youtube.com/watch?v=O6RS2M8N5uk"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-21-autoritaere-systeme-heute"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "How do you know what is happening in the world?",
+   "body": "Almost everything you know about the world beyond your daily life comes from **media** – news apps, videos, feeds and stories. In [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]], you saw what happens when a state controls this window on the world: people only see the filtered version. Free media offer an alternative – but even they never simply show ‘reality’. Between an event and your screen lie decisions, and you should know what they are.\n\nThe **journey of a news story** has four stages:\n\n1. **Event:** Something happens somewhere – a storm, a sports result, a local council decision.\n2. **Source:** Someone reports it: eyewitnesses, people involved, authorities or news agencies. Much is already decided here – whoever tells the story sees the event from their own perspective, and not every source is reliable.\n3. **Selection by the editorial team:** Thousands of events happen every day – only a few make it onto the programme or the homepage. Editorial teams select what they consider important and interesting. This selection is necessary – but it also means that anything not selected remains invisible to the audience.\n4. **Presentation:** Now the team decides **how** to report it: which headline? Which image? Which words? How much space? The same story can sound matter-of-fact or dramatic.\n\nRemember: **Mistakes and distortions can arise at every stage** – at the source (error, exaggeration, self-interest), during selection (what is missing?) and in presentation (how is it framed?). Media literacy does not mean distrusting all media – it means knowing where to look closely."
+  },
+  {
+   "type": "schaubild",
+   "title": "The journey of a news story",
+   "szene": {
+    "elemente": [
+     {
+      "id": "t-titel",
+      "x": 390,
+      "y": 0,
+      "width": 279.95,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1c3d5c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1934295661,
+      "type": "text",
+      "text": "The journey of a news story",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "t-untertitel",
+      "x": 255,
+      "y": 80,
+      "width": 443.8,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#3d6a99",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2091804387,
+      "type": "text",
+      "text": "Four stages – and where distortion can arise",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s1-ereignis",
+      "x": 40,
+      "y": 150,
+      "width": 480,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 955919565,
+      "type": "rectangle"
+     },
+     {
+      "id": "s2-quelle",
+      "x": 40,
+      "y": 360,
+      "width": 480,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 212177539,
+      "type": "rectangle"
+     },
+     {
+      "id": "s3-auswahl",
+      "x": 40,
+      "y": 570,
+      "width": 480,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 672467757,
+      "type": "rectangle"
+     },
+     {
+      "id": "s4-darstellung",
+      "x": 40,
+      "y": 780,
+      "width": 480,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1475758627,
+      "type": "rectangle"
+     },
+     {
+      "id": "s5-publikum",
+      "x": 40,
+      "y": 990,
+      "width": 480,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 17112461,
+      "type": "rectangle"
+     },
+     {
+      "id": "warn-quelle",
+      "x": 660,
+      "y": 375,
+      "width": 470,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1401884099,
+      "type": "rectangle"
+     },
+     {
+      "id": "warn-auswahl",
+      "x": 660,
+      "y": 585,
+      "width": 470,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 990110701,
+      "type": "rectangle"
+     },
+     {
+      "id": "warn-darstellung",
+      "x": 660,
+      "y": 795,
+      "width": 470,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1385061731,
+      "type": "rectangle"
+     },
+     {
+      "id": "framing-beispiel",
+      "x": 40,
+      "y": 1160,
+      "width": 1090,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#5c85ad",
+      "backgroundColor": "#e8f1f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 706403917,
+      "type": "rectangle"
+     },
+     {
+      "id": "arr-1-2",
+      "x": 280,
+      "y": 305.5,
+      "width": 0,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1078114563,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arr-2-3",
+      "x": 280,
+      "y": 515.5,
+      "width": 0,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1696828589,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arr-3-4",
+      "x": 280,
+      "y": 725.5,
+      "width": 0,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 439001251,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "arr-4-5",
+      "x": 280,
+      "y": 935.5,
+      "width": 0,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1808232205,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        49
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "dash-quelle",
+      "x": 520,
+      "y": 435,
+      "width": 140,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 703894595,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        140,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "dash-auswahl",
+      "x": 520,
+      "y": 645,
+      "width": 140,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 209716589,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        140,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "dash-darstellung",
+      "x": 520,
+      "y": 855,
+      "width": 140,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2139034595,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        140,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "t-merksatz",
+      "x": 235,
+      "y": 1420,
+      "width": 500.51,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1c3d5c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 177655757,
+      "type": "text",
+      "text": "Know the stages, and you know where to look closely.",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "2ooLnlvowMZ-ZkNNP5WrD",
+      "x": 190.69,
+      "y": 180,
+      "width": 178.63,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 114418573,
+      "type": "text",
+      "text": "1 · Event\nSomething happens:\na storm, sport,\na council decision",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s1-ereignis",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "6p-1EHhg92QShzCfD0Knh",
+      "x": 188.78,
+      "y": 390,
+      "width": 182.43,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 927459821,
+      "type": "text",
+      "text": "2 · Source\nSomeone reports it:\nwitnesses, those involved,\nauthorities, agencies",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s2-quelle",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "vVOuKqXs5-lYezh67p9S5",
+      "x": 178.48,
+      "y": 600,
+      "width": 203.04,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1273898061,
+      "type": "text",
+      "text": "3 · Selection\nThe editors decide:\nWhat goes on air,\nwhat does not?",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s3-auswahl",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "YhjvdwZ9U7aVon46QMxyE",
+      "x": 201.29,
+      "y": 810,
+      "width": 157.41,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#1664ac",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 949883565,
+      "type": "text",
+      "text": "4 · Presentation\nHow is it reported?\nHeadline, image, words,\nplacement",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s4-darstellung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "9y2o_cXGb7cw7g9YUDAz3",
+      "x": 182.53,
+      "y": 1022.5,
+      "width": 194.93,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#216e2f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 973157645,
+      "type": "text",
+      "text": "News reaches the audience\nThe story reaches you.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s5-publikum",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "2FZjmwdrljQEl_c2-V_XW",
+      "x": 805.04,
+      "y": 405,
+      "width": 179.91,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 999361389,
+      "type": "text",
+      "text": "! Risk of distortion\nError, exaggeration or\nthe source’s own interests",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "warn-quelle",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "bEOMbbElFJHfRNHgp2hyv",
+      "x": 793.9,
+      "y": 615,
+      "width": 202.2,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2107053517,
+      "type": "text",
+      "text": "! Risk of distortion\nWhat is not selected\nstays hidden from the audience",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "warn-auswahl",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "zyM9k5aNkK8GzUQ9uTRaY",
+      "x": 795.7,
+      "y": 825,
+      "width": 198.6,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#b34509",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2066535469,
+      "type": "text",
+      "text": "! Risk of distortion\nFraming through emphasis,\nimages and loaded words",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "warn-darstellung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "iYVadLmNT3ZEjjEzkMc08",
+      "x": 379.9,
+      "y": 1200,
+      "width": 410.2,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#496e92",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 272352909,
+      "type": "text",
+      "text": "Framing: one fact – two frames\n‘Tax cut eases pressure on families’\nvs.\n‘Tax cut tears a hole in council finances’\nBoth can be true – selection and words\nshape the impression. (fictional example)",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "framing-beispiel",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram ‘The journey of a news story’ shows how a news story develops in four stages and where distortion can arise: from the event, via the source and selection by the editorial team, to its presentation, before it reaches the audience. Distortion is possible at the source, selection and presentation stages; a fictional example of framing and a reminder complete the diagram. Key points: (1) Stage 1, event: something happens somewhere – a storm, a sports result, a local council decision. (2) Stage 2, source: someone reports it – eyewitnesses, people involved, authorities or agencies; distortion can arise through error, exaggeration or the source’s own interests. (3) Stage 3, selection: the editorial team decides what goes on air and what does not – a few events are selected from thousands; what is not selected remains invisible to the audience. (4) Stage 4, presentation: the team decides how to report it – headline, image, word choice, placement; distortion is possible through framing, meaning emphasis, image choice and loaded words. (5) Finally, the news reaches the audience. (6) Framing example (fictional): ‘Tax cut eases pressure on families’ and ‘Tax cut tears a hole in council finances’ can both be true – selection and word choice shape the impression. (7) Reminder: know the stages, and you know where to look closely.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Recognising quality: journalism, tabloid media, social media",
+   "body": "Not everyone who publishes content takes the same care. You should be able to distinguish three types:\n\nYou can recognise **quality journalism** by three criteria:\n\n- **Citing sources:** The report states where the information comes from (‘according to a police report’, ‘the local council says’, ‘two independent sources confirm’). You can trace the basis for the claim.\n- **Separating news from opinion:** A news report tells you **what happened** – an opinion piece tells you **what the author thinks about it**, and is labelled as opinion. Both have their place, but they are not mixed together.\n- **A culture of correcting mistakes:** Mistakes happen everywhere – reputable editorial teams correct them openly instead of covering them up. A published correction is a sign of care, not weakness.\n\n**Tabloid media** (gossip and sensationalist media) thrive on attention: huge headlines, strong emotions, dramatic emphasis, celebrities and drama. Tabloid stories are not automatically false – but emotion and the drive to sell strongly influence selection and presentation. Be particularly wary of exaggeration here.\n\n**Unverified social media content** is the third category: anyone can post – without an editorial team, without having to cite sources and without a culture of correcting mistakes. Some posts are true, some are mistaken, and some are deliberately false. On top of this, platform algorithms favour content that provokes reactions – and outrage provokes a lot of them. A post can therefore reach a huge audience and still be false. **Reach is not proof of truth.**\n\nRemember: reputable media are active on social media too – what matters is not the platform, but **who** is behind a post and **how** they work."
+  },
+  {
+   "type": "text",
+   "title": "Framing: the same fact, two frames",
+   "body": "Now for the most subtle point where distortion can arise – **presentation**. Here is a thought experiment involving a fictional municipality:\n\nThe municipality of Musterberg decides to cut taxes. Two headlines appear the next day:\n\n> ‘**Tax cut eases pressure on families**’\n\n> ‘**Tax cut tears a hole in council finances**’\n\nBoth headlines can be **true**: families really do pay less – and the council really does lose revenue. Yet readers come away with completely different impressions. This is **framing**: the same fact is placed in a different frame through **selection** (which aspect makes the headline?), **word choice** (‘eases pressure’ sounds positive, ‘tears a hole’ sounds threatening) and **image choice** (a smiling family or an empty till?).\n\nFraming is not the same as lying – media often frame things unconsciously, and it is impossible to avoid framing altogether: every story needs some sort of headline. But recognising framing makes you less easily influenced. Three questions help:\n\n1. **What is emphasised** – and would another aspect also have been worth reporting?\n2. **What is left out** – is the other side of the story missing?\n3. **Which words express a judgement** – would neutral words give the story a different feel?\n\nTry it: take any headline and rewrite it once positively and once negatively – without changing the fact. If you can do that, you have understood framing."
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "oBfZuyy-zQY",
+   "title": "Video: fact-checking – how can I spot fake news?",
+   "description": "This video (4:11) from the fact-checking team at Deutsche Welle (DW) shows how to identify and check false reports. As you watch, focus on two questions: (1) Which checking steps does the team recommend – and which match this module’s three checks: check the source, run a reverse image search and look for a second source? (2) The video gives a striking figure for how much faster fake news spreads on social media than facts: what is it – and why do false reports have this advantage?",
+   "transcript": "The video ‘Faktencheck: Wie erkenne ich Fake News?’ (DW Deutsch, 4:11 minutes) offers advice from the fact-checking team at Deutsche Welle. It starts with the finding that fake news spreads around six times faster on social media than facts. The video shows step by step how to check viral claims – from taking a critical look at the source and publisher, to checking images and evidence, to comparing coverage by reliable media. Deutsche Welle is Germany’s publicly funded international broadcaster; its fact-checking team uses journalistic methods to investigate viral claims.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "title": "Three checks for fake news",
+   "body": "Deliberately false reports – **fake news** – exploit everything you have learnt in this module: they look like news, rely on outrage and spread through feeds faster than any correction. Here are three checks you can complete in a few minutes:\n\n1. **Check the source:** Who is behind the story? Is there a legal notice with real names and an address? Is the publisher a well-known editorial team – or a website that seems to exist just for this one story? Be wary of names that imitate reputable media and of sites without a legal notice.\n2. **Run a reverse image search:** Images look like evidence – but they are often older than the event or come from a completely different context. Upload the image to a reverse search tool (for example, a search engine’s image search) and check: where and when did this image first appear?\n3. **Look for a second source:** Are other independent, reputable media reporting the same thing? A genuine major news story never appears on just one unknown website. If you cannot find the story anywhere else – or only on sites that copy each other – you have reason to be sceptical.\n\nHere is a rule of thumb for everyday life: **The more strongly a post appeals to your feelings – anger, fear, outrage – the more worthwhile it is to check before sharing.** False reports are designed to trigger exactly these feelings, because outraged people share more quickly. If you check first and share later, you are already more media-literate than most people.\n\nIn [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]], you will look at the extreme form: narratives that build an entire worldview out of false information – conspiracy theories."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: news, quality and framing",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
+   "intro": "Show that you understand the journey of a news story and know how to use the checking tools. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "In which order does a news story develop?",
+     "options": [
+      {
+       "text": "Presentation – selection – source – event."
+      },
+      {
+       "text": "Event – source – selection by the editorial team – presentation.",
+       "correct": true
+      },
+      {
+       "text": "Source – event – presentation – selection."
+      },
+      {
+       "text": "Event – presentation – source – selection."
+      }
+     ],
+     "explanation": "First something happens (event), then someone reports it (source), then the editorial team decides whether to select the story (selection) – and finally how to present it (presentation). Knowing this order is useful because different distortions can arise at the source, selection and presentation stages."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Why do editorial teams select stories at all – and what follows from this?",
+     "options": [
+      {
+       "text": "Editorial teams only select stories when they want to hide something."
+      },
+      {
+       "text": "Selection is random – nobody makes a conscious decision."
+      },
+      {
+       "text": "Editorial teams always show everything that happens – there is no selection."
+      },
+      {
+       "text": "Thousands of events happen every day, but space and time are limited – selection is necessary, yet anything not selected remains invisible.",
+       "correct": true
+      }
+     ],
+     "explanation": "Selection is unavoidable: no media outlet can cover thousands of events a day, so editorial teams decide based on importance and interest. This is neither a conspiracy nor a matter of chance – but it has a side effect: anything not selected practically does not exist for the audience. That makes selection one of the stages where distortion can arise – and gives you a reason to use several media outlets."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "How can you recognise quality journalism?",
+     "options": [
+      {
+       "text": "By its sources being cited, its separation of news from opinion and its practice of openly correcting mistakes.",
+       "correct": true
+      },
+      {
+       "text": "By headlines as large as possible and emotional images."
+      },
+      {
+       "text": "By the fact that mistakes never happen."
+      },
+      {
+       "text": "By how often its posts are shared."
+      }
+     ],
+     "explanation": "The three criteria are: citing sources (you can see the basis for a claim), separating news from opinion (news reports and opinion pieces are clearly distinguished) and a culture of correcting mistakes (errors are corrected openly). Huge headlines and emotion are more typical of tabloid media. Nobody is free from mistakes – what matters is how they deal with them. And how often something is shared tells you nothing about its quality: reach is not proof of truth."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What does ‘separating news from opinion’ mean?",
+     "options": [
+      {
+       "text": "Journalists are not allowed to have their own opinions."
+      },
+      {
+       "text": "Opinions may only be expressed on social networks."
+      },
+      {
+       "text": "A news report tells you what happened – an opinion piece tells you what someone thinks about it, and is labelled as opinion.",
+       "correct": true
+      },
+      {
+       "text": "News and opinions are published on different days of the week."
+      }
+     ],
+     "explanation": "Both are allowed – but they should be clearly separated and labelled: a news report presents facts, while an opinion piece interprets and evaluates them, and you should always be able to tell which you are reading. Journalists are of course allowed to have opinions – those opinions simply should not appear unlabelled in a news report. This criterion has nothing to do with platforms or days of the week."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "‘Tax cut eases pressure on families’ vs. ‘Tax cut tears a hole in council finances’ – what does this fictional example show?",
+     "options": [
+      {
+       "text": "One of the two headlines must be a lie."
+      },
+      {
+       "text": "Tax cuts are always bad for the municipality."
+      },
+      {
+       "text": "Headlines should never report on taxes."
+      },
+      {
+       "text": "Both can be true – the same fact is framed differently through selection and word choice: framing.",
+       "correct": true
+      }
+     ],
+     "explanation": "This is the essence of framing: the fact is identical (taxes are falling), but the first headline emphasises the relief, while the second emphasises the lost revenue – and the word choice (‘eases pressure’ vs. ‘tears a hole’) reinforces the impression. Neither is lying, and reporting on taxes is perfectly legitimate. The example does not decide whether the cut is good or bad – it simply shows how strongly the frame guides your perception."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "What is typical of tabloid media?",
+     "options": [
+      {
+       "text": "They only ever publish false reports."
+      },
+      {
+       "text": "Huge headlines, strong emotions and dramatic emphasis – the drive to sell influences selection and presentation.",
+       "correct": true
+      },
+      {
+       "text": "Particularly detailed source references and restrained headlines."
+      },
+      {
+       "text": "They never use images."
+      }
+     ],
+     "explanation": "Tabloid media thrive on selling attention: big, loud, emotional and dramatic. That does not mean everything is false – the core of a tabloid story may well be true. But the drive to sell shapes what is selected and how it is presented, so be wary of exaggeration. Thorough work with sources and matter-of-fact headlines are more typical of quality journalism – and tabloid media use especially large images, rather than none at all."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "What is a reverse image search used for?",
+     "options": [
+      {
+       "text": "It improves the quality of blurry photos."
+      },
+      {
+       "text": "It shows who is pictured in a photo."
+      },
+      {
+       "text": "It shows where and when an image has appeared before – helping you spot old images or images taken out of context.",
+       "correct": true
+      },
+      {
+       "text": "It automatically deletes fake images from the internet."
+      }
+     ],
+     "explanation": "Images look like evidence – but even a genuine photo can mislead if it is older than the claimed event or comes from a different context. A reverse image search finds earlier uses of the same image: if the ‘current storm photo’ appeared years ago in another country, the story is exposed. A reverse image search cannot improve image quality, recognise people or delete images."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "A post in your feed makes you really angry and you want to share it immediately. What would a media-literate response be?",
+     "options": [
+      {
+       "text": "Check first, share later: strong feelings are a particular signal to apply the three checks.",
+       "correct": true
+      },
+      {
+       "text": "Share immediately – if lots of people share it, it must be true."
+      },
+      {
+       "text": "Posts that trigger feelings are always forbidden."
+      },
+      {
+       "text": "Anger proves that the story is true – otherwise it would not upset you."
+      }
+     ],
+     "explanation": "False reports are deliberately designed to provoke outrage because outraged people share more quickly – so the moment you feel angry is exactly when the three checks (source, reverse image search, second source) matter most. Lots of people sharing something proves nothing: reach is not proof of truth. Emotional posts are of course not forbidden – and a feeling is never evidence of a fact."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-weg-der-nachricht",
+   "title": "Fill in the terms: from event to feed",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
+   "intro": "Drag the matching terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Every news story begins with an {{1}} – something happens somewhere. A {{2}} reports it, for example eyewitnesses or a news agency. It is then up to the {{3}} to decide whether to cover the story at all – because space and time are limited. Finally, the {{4}} is decided: headline, image and word choice.\nYou can recognise quality journalism by its {{5}} (‘according to a police report’), its separation of news from {{6}} – and its visible {{7}} when mistakes have been made. Giving the same fact different frames through word choice and selection is called {{8}}. You can check whether a photo really shows the claimed event by running a {{9}}. And before sharing an outrageous story, you look for an independent {{10}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "event",
+      "occurrence"
+     ]
+    },
+    {
+     "antworten": [
+      "source",
+      "news source"
+     ]
+    },
+    {
+     "antworten": [
+      "editorial team",
+      "editors",
+      "newsroom"
+     ]
+    },
+    {
+     "antworten": [
+      "presentation",
+      "way it is presented"
+     ]
+    },
+    {
+     "antworten": [
+      "source references",
+      "citing of sources",
+      "source citations",
+      "attribution of sources",
+      "source attribution"
+     ]
+    },
+    {
+     "antworten": [
+      "opinion",
+      "opinions"
+     ]
+    },
+    {
+     "antworten": [
+      "culture of correcting mistakes",
+      "corrections culture",
+      "correction culture",
+      "culture of corrections",
+      "practice of correcting mistakes",
+      "corrections policy"
+     ]
+    },
+    {
+     "antworten": [
+      "framing"
+     ]
+    },
+    {
+     "antworten": [
+      "reverse image search",
+      "reverse-image search"
+     ]
+    },
+    {
+     "antworten": [
+      "second source",
+      "additional source",
+      "corroborating source"
+     ]
+    }
+   ],
+   "ablenker": [
+    "admission ticket",
+    "dividend",
+    "mountain railway"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-medien-eingabe",
+   "title": "Type in the terms: know your checks",
+   "teilkompetenzen": [
+    "wp.medien.faktenchecks-anwenden",
+    "wp.medien.nachrichten-beurteilen"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "Before believing a story, first check its {{1}}: who is behind it, and is there a legal notice? To find out whether an image has appeared online before, run a {{2}}. To check whether other reputable media report the same thing, look for a {{3}}. Presenting the same fact positively or negatively through word choice is called {{4}}. And how often a post is shared proves nothing – reach is not {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "source",
+      "publisher",
+      "author",
+      "sender",
+      "news source",
+      "the source",
+      "the publisher",
+      "the author",
+      "the sender"
+     ]
+    },
+    {
+     "antworten": [
+      "reverse image search",
+      "reverse-image search",
+      "reverse search",
+      "image reverse search",
+      "a reverse image search",
+      "a reverse-image search",
+      "a reverse search"
+     ]
+    },
+    {
+     "antworten": [
+      "second source",
+      "additional source",
+      "independent source",
+      "corroborating source",
+      "another source",
+      "a second source",
+      "an additional source",
+      "an independent source",
+      "a corroborating source"
+     ]
+    },
+    {
+     "antworten": [
+      "framing"
+     ]
+    },
+    {
+     "antworten": [
+      "proof of truth",
+      "proof",
+      "evidence",
+      "evidence of truth",
+      "proof that it is true",
+      "proof that it's true",
+      "proof of accuracy",
+      "evidence that it is true",
+      "evidence that it's true",
+      "proof of the truth"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-absender",
+   "title": "Match the descriptions: quality journalism, tabloid media or an unverified post?",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen"
+   ],
+   "intro": "Match each description to the right type of publisher: **quality journalism**, **tabloid media** or **unverified social media post**. Each type appears exactly three times.",
+   "modus": "wortbank",
+   "text": "The article states the source of every figure – for example, ‘according to a statement from the local council’. {{1}}\nA huge headline, a dramatic celebrity photo, lots of exclamation marks – attention is all that matters. {{2}}\nAn anonymous account spreads a shocking story – no legal notice, no source, and nobody checks before posting. {{3}}\nThe opinion piece is clearly labelled as opinion and kept separate from the news report. {{4}}\nThe editorial team openly publishes a correction after making a mistake. {{5}}\nThe story is told with dramatic emphasis and emotion – the core is true, but everything sounds more dramatic than it was. {{6}}\nThe post has hundreds of thousands of shares, but nobody can say who originally wrote it. {{7}}\n‘You won’t believe what happened next!’ – the curiosity-driven headline is mainly intended to generate clicks. {{8}}\nA personal account shares an old storm photo, claiming it is a current image – nobody has checked it. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "quality journalism",
+      "high-quality journalism",
+      "reputable journalism"
+     ]
+    },
+    {
+     "antworten": [
+      "tabloid media",
+      "tabloid journalism",
+      "tabloids",
+      "tabloid",
+      "the tabloids",
+      "the tabloid media"
+     ]
+    },
+    {
+     "antworten": [
+      "unverified social media post",
+      "unchecked social media post",
+      "unverified social-media post",
+      "unchecked social-media post",
+      "an unverified social media post",
+      "an unchecked social media post",
+      "unverified post",
+      "unchecked post"
+     ]
+    },
+    {
+     "antworten": [
+      "quality journalism",
+      "high-quality journalism",
+      "reputable journalism"
+     ]
+    },
+    {
+     "antworten": [
+      "quality journalism",
+      "high-quality journalism",
+      "reputable journalism"
+     ]
+    },
+    {
+     "antworten": [
+      "tabloid media",
+      "tabloid journalism",
+      "tabloids",
+      "tabloid",
+      "the tabloids",
+      "the tabloid media"
+     ]
+    },
+    {
+     "antworten": [
+      "unverified social media post",
+      "unchecked social media post",
+      "unverified social-media post",
+      "unchecked social-media post",
+      "an unverified social media post",
+      "an unchecked social media post",
+      "unverified post",
+      "unchecked post"
+     ]
+    },
+    {
+     "antworten": [
+      "tabloid media",
+      "tabloid journalism",
+      "tabloids",
+      "tabloid",
+      "the tabloids",
+      "the tabloid media"
+     ]
+    },
+    {
+     "antworten": [
+      "unverified social media post",
+      "unchecked social media post",
+      "unverified social-media post",
+      "unchecked social-media post",
+      "an unverified social media post",
+      "an unchecked social media post",
+      "unverified post",
+      "unchecked post"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: become a media detective",
+   "teilkompetenzen": [
+    "wp.medien.nachrichten-beurteilen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
+   "tasks": [
+    {
+     "prompt": "Framing workshop: invent a neutral event from school life (e.g. ‘The school extends the lunch break by 15 minutes’). Write two headlines about it: one that frames the event positively and one that frames it negatively – both must remain true. Then highlight the words that make the difference.",
+     "hint": "Ask yourself: who gains, who loses – and which aspect makes the headline? Words that express a judgement make the difference: ‘gains’, ‘at last’, ‘loses’, ‘cuts’, ‘at the expense of’. You must not change the fact itself.",
+     "solution": "Example for the event ‘longer lunch break’: positive framing: ‘A breather at last: school gives everyone 15 extra minutes of break time.’ Negative framing: ‘Home later: lessons now last until 16.15.’ Both headlines are true – the first emphasises the extra time to relax (‘at last’, ‘gives’), the second the cost (‘later’, ‘last’). Compare them side by side and you can see that selection and word choice, rather than the fact itself, shape the impression. That is exactly what framing is."
+    },
+    {
+     "prompt": "Apply the three checks to a real post: choose a current post from your feed or a news app (not about a private matter). Use check 1 (source: who is behind it? Is there a legal notice?), check 2 (if there is an image: reverse image search) and check 3 (second source: are other reputable media reporting the same thing?). Write one or two sentences on the result of each check, then give your conclusion: trustworthy, uncertain or not credible?",
+     "hint": "Make a point of also choosing a post that affects you emotionally – that is where checking teaches you the most. For a reverse image search, you can upload the image to a search engine’s image search or paste in the image URL.",
+     "solution": "There is no single model solution – a complete response includes: (1) the publisher and your assessment (well-known editorial team with a legal notice / unknown website / anonymous account), (2) the result of the image check (image matches the event / image is older or from a different context / no image), (3) at least one independent second source or a statement that none exists, and (4) a reasoned conclusion. What matters is the experience: the three checks take only a few minutes – and even one failed check is enough reason not to share the post further."
+    },
+    {
+     "prompt": "Compare the coverage: choose a current, non-political event (sport, weather, science) and look at how two different media outlets report it – deliberately choose two publishers of different types covered in this module. Compare them using the three quality criteria (citing sources, separating news from opinion, a culture of correcting mistakes), as well as the headline, image choice, length and tone. What do you notice – and which report leaves you knowing more?",
+     "hint": "Pay particular attention to differences in how the same core facts are presented: which words express a judgement? How strong are the emotions? Does the report say where the information comes from? Judge by the criteria – not by the publisher’s name or how well known it is.",
+     "solution": "There is no single model solution – but a typical finding is this: both report the same core facts, yet the report that meets the three quality criteria is more matter-of-fact, cites its sources and provides more context – after reading it, you can usually explain the event better; the other relies more on its headline, image and emotion. The main insight: the difference rarely lies in ‘what’ is reported, but almost always in ‘how’ – and you should judge by the criteria, not by the publisher’s name. Knowing both accounts makes it much easier to recognise how each one is framed."
+    }
+   ]
+  }
+ ]
+}
