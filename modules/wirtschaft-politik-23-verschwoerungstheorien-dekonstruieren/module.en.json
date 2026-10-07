@@ -1,0 +1,968 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:a6a5731718b6630d1fae191e6a9e9a28204b30be5aa15709da01e88fef276987",
+  "masterCommit": "ee21ba0",
+  "hintsHash": null,
+  "generatedAt": "2026-10-07",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:00949f670b2837f20c370d8bdd2e0c73acf16ee43dc7682d32ef683b08d52634"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren",
+ "title": "Deconstructing conspiracy theories",
+ "description": "‘That can't be a coincidence!’ – Conspiracy narratives offer simple explanations for a complicated world. You will take apart their structure – a secret plan, nothing happens by chance, disproof is treated as proof – understand why they appeal to people, and apply three questions to check them. The examples are deliberately limited to historical narratives that have been clearly disproved: the flat Earth and the supposedly staged Moon landing.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "MI.1.2",
+     "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    },
+    {
+     "code": "LBO.5.4",
+     "description": "Die Schülerinnen und Schüler können Gemeinschaft aktiv mitgestalten."
+    }
+   ]
+  }
+ ],
+ "sequenz": 23,
+ "einheit": "Topic D: Basic concepts, democracy & political thinking",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "conspiracy theory",
+  "conspiracy narrative",
+  "flat Earth",
+  "Moon landing",
+  "immunisation",
+  "checking questions",
+  "critical thinking",
+  "filter bubble",
+  "media literacy",
+  "misinformation"
+ ],
+ "learningObjectives": [
+  "I can recognise the structure of conspiracy narratives: a secret plan by powerful groups, nothing happens by chance, and disproof is treated as proof (immunisation against criticism).",
+  "I can explain why conspiracy narratives appeal to people: they offer a simple explanation for a complex world and a sense of insight and belonging.",
+  "I can apply three checking questions: Who would have to keep quiet? What could disprove the claim? Who benefits from the narrative?",
+  "I can make the connection to [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]]: the source checks used against fake news also work against conspiracy narratives."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "Quarks (WDR) – Wissenschaftsformat des öffentlich-rechtlichen Rundfunks",
+   "url": "https://www.quarks.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-22-medien-und-meinungsbildung"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "A narrative that explains everything",
+   "body": "Some people are convinced that the Earth is a disc. All those photos from space? Faked. The physics behind them? Made up. Pilots, astronomers and scientists around the world? In on it and sworn to secrecy. Absurd as that sounds, this historical example, disproved long ago, lets you examine the structure of **conspiracy narratives** as if under a microscope.\n\nYou will find three building blocks in almost every such narrative:\n\n1. **The secret plan:** A small, powerful group supposedly controls events in secret – deliberately deceiving the rest of the world. In the flat-Earth narrative, these are space agencies and ‘science’, which have supposedly been faking evidence for decades.\n2. **Nothing happens by chance:** Everything is interpreted as part of the plan. Every contradiction and every everyday inconsistency is turned into ‘proof’ – coincidences, mistakes and simply complicated connections have no place in the narrative.\n3. **Disproof is treated as proof (immunisation):** The cleverest building block. Show a believer satellite images, and they say: ‘Faked – that just proves how powerful the fakers are.’ The narrative is constructed so that **no evidence against it can ever shake it**: every attempt to disprove it is reinterpreted as confirmation. This is called immunisation against criticism.\n\nThe third building block is exactly what distinguishes it from a **scientific theory**: a real theory states what observation would disprove it – and submits to that test. A conspiracy narrative, by contrast, has an answer to everything and cannot be shaken by anything. An explanation that nothing can disprove is not a strong explanation – it is no longer a testable explanation at all.\n\nIncidentally, **real conspiracies do exist** – such as secret price-fixing agreements between companies (the cartel in [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]) or cover-ups in sport. But real conspiracies are small and specific – and they are exposed: by journalism, courts and people who leave them. Conspiracy narratives, by contrast, claim there are vast plans spanning decades and involving millions of people, none of whom ever credibly reveal what happened."
+  },
+  {
+   "type": "schaubild",
+   "title": "Anatomy of a conspiracy narrative",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 335,
+      "y": 10,
+      "width": 463.39,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3f66",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1214236643,
+      "type": "text",
+      "text": "Anatomy of a conspiracy narrative",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 304,
+      "y": 58,
+      "width": 500.74,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#43739d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1145789389,
+      "type": "text",
+      "text": "The three building blocks – the long-disproved flat-Earth example",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "bauteil-1",
+      "x": 20,
+      "y": 120,
+      "width": 520,
+      "height": 210,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2105725827,
+      "type": "rectangle"
+     },
+     {
+      "id": "bauteil-2",
+      "x": 700,
+      "y": 120,
+      "width": 520,
+      "height": 210,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 795367981,
+      "type": "rectangle"
+     },
+     {
+      "id": "erzaehlung",
+      "x": 300,
+      "y": 410,
+      "width": 640,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "#74c0fc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 495151907,
+      "type": "rectangle"
+     },
+     {
+      "id": "bauteil-3",
+      "x": 300,
+      "y": 590,
+      "width": 640,
+      "height": 210,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2132184205,
+      "type": "rectangle"
+     },
+     {
+      "id": "kontrast",
+      "x": 100,
+      "y": 850,
+      "width": 1040,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 214961859,
+      "type": "rectangle"
+     },
+     {
+      "id": "linie-plan-erzaehlung",
+      "x": 280,
+      "y": 330,
+      "width": 180,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1930392301,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        180,
+        80
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "linie-zufall-erzaehlung",
+      "x": 960,
+      "y": 330,
+      "width": 180,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 503791203,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -180,
+        80
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "linie-erzaehlung-immunisierung",
+      "x": 620,
+      "y": 540,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 400330061,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "merksatz",
+      "x": 257,
+      "y": 1010,
+      "width": 532.69,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3f66",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1274509827,
+      "type": "text",
+      "text": "Know the building blocks, spot the pattern – whatever the topic.",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "fn41I7Uj2ZbeXRPqTiGGn",
+      "x": 156.05,
+      "y": 157.5,
+      "width": 247.9,
+      "height": 135,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2006113219,
+      "type": "text",
+      "text": "1  The secret plan\nA small, powerful group\nsupposedly controls\neverything in secret.\n‘Space agencies have faked\nall the photos for decades.’",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "bauteil-1",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "n3WBIobRp0MKqGz9AjzCH",
+      "x": 849.27,
+      "y": 157.5,
+      "width": 221.46,
+      "height": 135,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 552102755,
+      "type": "text",
+      "text": "2  Nothing happens by chance\nEverything is deliberate –\ncoincidences and mistakes\nhave no place in the narrative.\n‘Every inconsistency\nis part of the plan.’",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "bauteil-2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "hElMDpgsaAimhaQMX-uol",
+      "x": 466.99,
+      "y": 437.5,
+      "width": 306.02,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#081f36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 338364163,
+      "type": "text",
+      "text": "The narrative\n‘The Earth is a disc –\nand the powerful hide it.’",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "erzaehlung",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "WjpP6-ABDyX0y-dXK7bwV",
+      "x": 479.05,
+      "y": 627.5,
+      "width": 281.9,
+      "height": 135,
+      "angle": 0,
+      "strokeColor": "#a03d08",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 668544675,
+      "type": "text",
+      "text": "3  Disproof is treated as proof\n(Immunisation against criticism)\nAll evidence against it\nis turned into confirmation.\n‘Satellite images? Faked – that just\nshows how powerful the fakers are.’",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "bauteil-3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "6Faj-RMuGZAeAiM9Asu_x",
+      "x": 389.81,
+      "y": 876.25,
+      "width": 460.37,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#216e2f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1587634755,
+      "type": "text",
+      "text": "The contrast: a testable theory states\nwhat observation would disprove it –\nnothing can shake the conspiracy narrative.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kontrast",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The illustration breaks a conspiracy narrative down into three building blocks, using the historical flat-Earth example, disproved long ago. At the centre is the narrative ‘The Earth is a disc – and the powerful hide it’, connected to building blocks 1 and 2 and shielded from all criticism by building block 3. Key points:\n- Building block 1 – The secret plan: a small, powerful group supposedly controls everything in secret; in this example: ‘Space agencies have faked all the photos for decades.’\n- Building block 2 – Nothing happens by chance: everything is seen as deliberate; coincidences and mistakes have no place in the narrative; in this example: ‘Every inconsistency is part of the plan.’\n- Building block 3 – Disproof is treated as proof (immunisation against criticism): all evidence against it is reinterpreted as confirmation; in this example: ‘Satellite images? Faked – that just shows how powerful the fakers are.’\n- The contrast: a testable theory states what observation would disprove it – nothing can shake the conspiracy narrative.\n- Remember: know the building blocks and you can spot the pattern, whatever the topic.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Why these narratives appeal to people",
+   "body": "If conspiracy narratives are so easy to see through, why do people believe them? Not because those people are stupid, but because the narratives meet three real needs:\n\n1. **A simple explanation for a complex world:** Reality is often complicated, contradictory and full of coincidences. That is tiring – and sometimes frightening. A narrative in which everything has a hidden meaning and someone is to blame can feel like a sofa for your brain: comfortable and easy to make sense of.\n2. **A sense of insight:** ‘I see what the others can't see – I've recognised the truth.’ That feeling is flattering. People who have ‘woken up’ feel cleverer than the ‘sleeping’ majority – yet it is the narrative that deliberately sells them this feeling.\n3. **Belonging:** Believing the narrative makes you part of a close-knit community of people ‘in the know’ who confirm each other's beliefs. That feels good – and makes it hard to leave: anyone who starts to doubt risks losing not just a belief, but their group.\n\nThen there is the technology: from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]], you know how feeds work – **algorithms favour content that triggers strong reactions**, and in a filter bubble you mainly see things that confirm your view of the world. That is exactly what the video is about: how constant repetition in a feed gives a narrative the appearance of truth – along the lines of: ‘If I see it this often, there must be something in it.’"
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "K8mvkBeib6w",
+   "title": "Video: Filter bubbles and conspiracy narratives",
+   "description": "This video (5:10) from the public-service science programme Quarks (WDR) shows how filter bubbles make people susceptible to conspiracy narratives. As you watch, focus on two questions: (1) How does a filter bubble make a narrative seem increasingly credible even though no new evidence is added? (2) Which of the three needs from this module – a simple explanation, insight or belonging – is particularly reinforced by constant confirmation in your feed?",
+   "transcript": "The video ‘So macht dich deine Filterblase anfällig für Verschwörungen’ (Quarks, WDR, 5:10 minutes) explains why conspiracy narratives spread so easily on social networks: algorithms favour content that matches users' existing interests, creating a filter bubble in which their view of the world is constantly confirmed. Through continuous repetition, even unsupported narratives acquire an appearance of truth. The video shows the psychological mechanisms behind this and makes clear that understanding how feeds and filter bubbles work helps you use them more thoughtfully – for example, by deliberately looking for other sources and opposing views.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "title": "Three checking questions – and a cool head",
+   "body": "You do not need specialist knowledge to challenge conspiracy narratives – three checking questions can take you surprisingly far. We will apply them to the second historical example: the claim that the Moon landing of 1969 was staged in a film studio.\n\n1. **Who would have to keep quiet?** Around 400 000 people worked on the Apollo programmes – engineers, technicians and suppliers. The Soviet Union, the great rival in the race to the Moon, also tracked the lunar missions' radio communications using its own antennas. If there had been a hoax, the rival would have been the first to shout about it – nothing would have been more valuable to it. The larger the alleged conspiracy, the less likely it is that everyone would keep quiet for decades.\n2. **What could disprove the claim?** Ask a believer directly. A testable statement has an answer (‘If X were measured, my claim would be wrong’). With a conspiracy narrative, the answer to every piece of evidence against it is ‘faked’, ‘bought off’ or ‘part of the plan’. If nothing – absolutely nothing – could ever disprove the claim, you are dealing with an immunised narrative, not an explanation.\n3. **Who benefits from the narrative?** Conspiracy content is also a business: channels make a living from clicks and advertising, while books, talks and products are sold. Within the group, the narrative also brings status: whoever ‘sees most deeply’ ranks highest. This question does not expose every narrative, but it explains why someone might have an interest in keeping it alive.\n\nThe **three checks from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]]** also work here: check the source, use reverse image searches and look for second sources – a narrative that circulates only within a closed bubble has already failed the most important test.\n\nFinally, the most important point for everyday life: if someone you know believes something like this, **mockery is the least helpful response** – it confirms their feeling of being laughed at by ‘those people’ and binds the group more closely together. Calm, sincere questions work better: ask the three checking questions without trying to score a victory. You will not win every discussion – but a respectful question stays in someone's mind longer than any lecture."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Structure and checking questions",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
+   "intro": "Show that you understand the building blocks and the checking questions. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What are the three building blocks of a typical conspiracy narrative?",
+     "options": [
+      {
+       "text": "Claim, reasoning and example."
+      },
+      {
+       "text": "Source, selection and presentation."
+      },
+      {
+       "text": "A secret plan by powerful groups, nothing happens by chance, and disproof is treated as proof.",
+       "correct": true
+      },
+      {
+       "text": "Event, conflict and compromise."
+      }
+     ],
+     "explanation": "The three building blocks: a small, powerful group supposedly controls everything in secret (the secret plan), every inconsistency is interpreted as deliberate (nothing happens by chance), and every piece of evidence against the narrative is reinterpreted as confirmation (immunisation). ‘Claim – reasoning – example’ is the argument structure from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]; ‘source – selection – presentation’ comes from the journey of a news story in [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]] – both describe something different."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "‘The fact that there is no evidence just shows how perfectly they cover everything up!’ – Which building block is this?",
+     "options": [
+      {
+       "text": "Immunisation: even the absence of evidence is reinterpreted as confirmation – nothing can shake the narrative any more.",
+       "correct": true
+      },
+      {
+       "text": "An honest scientific conclusion."
+      },
+      {
+       "text": "An example of framing from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]]."
+      },
+      {
+       "text": "Proof that the cover-up actually works."
+      }
+     ],
+     "explanation": "This is immunisation in its purest form: even missing evidence is fitted into the worldview – as proof of the conspirators' power. The scientific approach would be the opposite: if you find no evidence, you must question the claim. This has nothing to do with framing (the way true facts are presented) – and the absence of evidence certainly does not count as ‘proof’: it is simply the absence of evidence."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "How can you tell the difference between a testable theory and a conspiracy narrative?",
+     "options": [
+      {
+       "text": "A theory always comes from experts; a conspiracy narrative never does."
+      },
+      {
+       "text": "A theory is always complicated; a conspiracy narrative is always simple."
+      },
+      {
+       "text": "A theory sounds boring; a conspiracy narrative sounds exciting."
+      },
+      {
+       "text": "A testable theory states what observation would disprove it – nothing can shake a conspiracy narrative.",
+       "correct": true
+      }
+     ],
+     "explanation": "The crucial test is falsifiability: a scientific theory states what would prove it wrong and submits to testing. A conspiracy narrative has an answer to everything – which is exactly what makes it worthless as an explanation. Its origin, complexity or excitement are not reliable criteria: experts can be wrong too, good theories can be simple, and the truth can certainly sound exciting."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Why do conspiracy narratives appeal to many people?",
+     "options": [
+      {
+       "text": "Because only uneducated people fall for them."
+      },
+      {
+       "text": "Because they offer simple explanations, a sense of insight and belonging to a group.",
+       "correct": true
+      },
+      {
+       "text": "Because they are usually better supported by evidence than official explanations."
+      },
+      {
+       "text": "Because people generally enjoy being afraid."
+      }
+     ],
+     "explanation": "The narratives meet three real needs: they make the complicated world seem easy to understand, flatter people with the feeling of seeing more than others, and offer a community of people ‘in the know’. Susceptibility has little to do with education; clever people can get drawn in too, precisely because the psychological mechanisms are skilfully constructed. The narratives are not supported by evidence – and the enjoyment of fear explains only a small part of their appeal."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Apply the checking question ‘Who would have to keep quiet?’ to the supposedly staged Moon landing. What do you find?",
+     "options": [
+      {
+       "text": "Around 400 000 people involved, plus the Soviet Union as a rival that would have loved to expose a hoax – silence on that scale for decades is extremely implausible.",
+       "correct": true
+      },
+      {
+       "text": "Only a handful of astronauts knew about it – keeping quiet would have been easy."
+      },
+      {
+       "text": "The question cannot be applied to the Moon landing."
+      },
+      {
+       "text": "The silence proves that everyone involved was paid off."
+      }
+     ],
+     "explanation": "That is exactly the strength of this checking question: around 400 000 people worked on Apollo, and the Soviet Union, as a competitor in the race to the Moon, tracked the radio communications with its own equipment – nothing would have been more valuable to it than proof of a hoax. The fact that nobody ever credibly revealed such a hoax, and that even the rival remained silent, makes the staging claim extremely implausible. Incidentally, ‘they were all paid off’ would be another example of immunisation."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "What is the purpose of the checking question ‘What could disprove the claim?’",
+     "options": [
+      {
+       "text": "It is meant to embarrass the other person and end the discussion."
+      },
+      {
+       "text": "It proves that the claim is definitely false."
+      },
+      {
+       "text": "It helps you construct a better conspiracy narrative."
+      },
+      {
+       "text": "It tests whether the statement is testable at all: if nothing could ever disprove it, it is immunised – a closed worldview rather than an explanation.",
+       "correct": true
+      }
+     ],
+     "explanation": "The question checks the structure, rather than the content: testable statements specify what would prove them wrong. If the answer to every conceivable piece of evidence against a claim is simply ‘faked’ or ‘part of the plan’, that is immunisation – and no longer an explanation. The question does not automatically prove anything false, and it should certainly not be used to embarrass someone: asked calmly, it encourages reflection instead of making people more entrenched."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "What can the checking question ‘Who benefits from the narrative?’ reveal?",
+     "options": [
+      {
+       "text": "That everyone who makes money is automatically lying."
+      },
+      {
+       "text": "That some narratives serve concrete interests: clicks, sales of books and products, and status within the group of people ‘in the know’.",
+       "correct": true
+      },
+      {
+       "text": "That narratives nobody makes money from are always true."
+      },
+      {
+       "text": "Who the real secret mastermind behind world events is."
+      }
+     ],
+     "explanation": "Conspiracy content is also a business model: channels make a living from clicks and advertising; books, talks and products are sold – and whoever ‘sees most deeply’ within the group gains prestige. This does not expose every narrative, but it explains why some people eagerly keep them alive. Neither ‘making money = lying’ nor ‘free = true’ is valid. And the question is certainly not looking for ‘real masterminds’ – that would itself be conspiratorial thinking."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "Your friend has recently started believing a conspiracy narrative. What is the most effective way to respond?",
+     "options": [
+      {
+       "text": "Laugh at her in front of the whole class until she sees sense."
+      },
+      {
+       "text": "Cut off contact with her immediately – anyone who believes something like that is beyond help."
+      },
+      {
+       "text": "Ask sincere questions calmly and respectfully – such as the three checking questions – instead of mocking or lecturing her.",
+       "correct": true
+      },
+      {
+       "text": "Pretend to believe her so that there is no argument."
+      }
+     ],
+     "explanation": "Mockery confirms the narrative's very script – ‘the others laugh at us’ – and draws the person further into the group. Cutting off contact removes their most important route back, while pretending to agree reinforces the narrative. Calm, honest questions asked without trying to score a victory have the greatest effect: Who would have to keep quiet? What could disprove your claim? Who benefits from it? You will not win every discussion – but a respectful question keeps working in someone's mind."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-bauteile",
+   "title": "Fill in the terms: Structure and checking questions",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "A conspiracy narrative claims there is a secret {{1}} by a small, powerful group. In the narrative, nothing happens by {{2}} – everything is seen as deliberate. And every {{3}} is reinterpreted as confirmation: this defence against criticism is called {{4}}. A testable {{5}}, by contrast, states what observation would disprove it.\nThe narratives appeal to people because they offer a {{6}} explanation for a complicated world, the sense of insight is flattering, and the group creates a sense of {{7}}. In your feed, the {{8}} strengthens this effect: constant repetition gives the appearance of truth.\nThe checking questions help you challenge this: Who would have to {{9}}? What could disprove the claim? Who {{10}} from the narrative?",
+   "luecken": [
+    {
+     "antworten": [
+      "plan",
+      "plot",
+      "scheme"
+     ]
+    },
+    {
+     "antworten": [
+      "chance",
+      "coincidence",
+      "accident"
+     ]
+    },
+    {
+     "antworten": [
+      "disproof",
+      "refutation",
+      "rebuttal"
+     ]
+    },
+    {
+     "antworten": [
+      "immunisation",
+      "immunization",
+      "immunisation against criticism",
+      "immunization against criticism"
+     ]
+    },
+    {
+     "antworten": [
+      "theory"
+     ]
+    },
+    {
+     "antworten": [
+      "simple",
+      "straightforward"
+     ]
+    },
+    {
+     "antworten": [
+      "belonging",
+      "community",
+      "togetherness"
+     ]
+    },
+    {
+     "antworten": [
+      "filter bubble",
+      "filter-bubble"
+     ]
+    },
+    {
+     "antworten": [
+      "keep quiet",
+      "stay quiet",
+      "remain quiet",
+      "keep silent",
+      "stay silent",
+      "remain silent",
+      "keep it secret",
+      "keep the secret"
+     ]
+    },
+    {
+     "antworten": [
+      "benefits",
+      "profits",
+      "gains"
+     ]
+    }
+   ],
+   "ablenker": [
+    "dividend",
+    "sun cream",
+    "bus stop"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-verschwoerung-eingabe",
+   "title": "Type in the terms: Get to grips with the checking questions",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen",
+    "wp.medien.faktenchecks-anwenden"
+   ],
+   "intro": "There is no word bank this time – **type in the missing terms yourself**. Upper and lower case do not matter.",
+   "modus": "eingabe",
+   "text": "When all evidence against a claim is reinterpreted as confirmation, this is called {{1}} against criticism. Around 400 000 people worked on the Apollo programmes – the checking question here is: Who would have to {{2}}? A testable theory states what could {{3}} it. Conspiracy content is often also a business – the third checking question is: Who {{4}} from the narrative? And the source checks from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]] work here too: check the source, use a reverse image search, and look for {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "immunisation",
+      "immunization"
+     ]
+    },
+    {
+     "antworten": [
+      "keep quiet",
+      "stay quiet",
+      "remain quiet",
+      "keep silent",
+      "stay silent",
+      "remain silent",
+      "keep it secret",
+      "keep the secret"
+     ]
+    },
+    {
+     "antworten": [
+      "disprove",
+      "refute",
+      "falsify",
+      "invalidate"
+     ]
+    },
+    {
+     "antworten": [
+      "benefits",
+      "profits",
+      "gains"
+     ]
+    },
+    {
+     "antworten": [
+      "a second source",
+      "second source",
+      "second sources",
+      "another source",
+      "other sources",
+      "an independent source",
+      "independent source",
+      "independent sources",
+      "another independent source",
+      "a second independent source",
+      "a corroborating source",
+      "corroborating source",
+      "corroborating sources"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-bauteile",
+   "title": "Match the statements: Which building block is it?",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
+   "intro": "All the statements come from the two historical, disproved examples (the flat Earth and the staged Moon landing). Match each statement to the correct building block: **secret plan**, **nothing happens by chance** or **immunisation**. Each building block appears exactly three times.",
+   "modus": "wortbank",
+   "text": "‘Space agencies have been faking all photos from space for decades – directed from the very top.’ {{1}}\n‘The flag appearing to wave in a Moon photo cannot be a mistake – it was deliberately staged that way.’ {{2}}\n‘Satellite images as evidence against it? Faked – that just shows how powerful the fakers are.’ {{3}}\n‘Space agencies in several countries have agreed to hide the Earth's true shape.’ {{4}}\n‘Film studios made advances in the very year the rocket launched – that sort of thing doesn't just happen.’ {{5}}\n‘The less evidence we find, the clearer it becomes how professionally everything has been covered up.’ {{6}}\n‘All the world's pilots and astronomers are in on it and sworn to secrecy.’ {{7}}\n‘Experts disproving our claim just proves all the more that they are in on it.’ {{8}}\n‘Two countries were rivals in the race to the Moon – at exactly the same time? That can't be a coincidence.’ {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "secret plan",
+      "a secret plan",
+      "the secret plan",
+      "secret plot",
+      "a secret plot",
+      "the secret plot"
+     ]
+    },
+    {
+     "antworten": [
+      "nothing happens by chance",
+      "nothing is a coincidence",
+      "nothing is coincidence",
+      "nothing happens by coincidence",
+      "nothing is accidental",
+      "no coincidences",
+      "nothing happens by accident",
+      "nothing is random",
+      "nothing happens randomly"
+     ]
+    },
+    {
+     "antworten": [
+      "immunisation",
+      "immunization",
+      "immunisation against criticism",
+      "immunization against criticism"
+     ]
+    },
+    {
+     "antworten": [
+      "secret plan",
+      "a secret plan",
+      "the secret plan",
+      "secret plot",
+      "a secret plot",
+      "the secret plot"
+     ]
+    },
+    {
+     "antworten": [
+      "nothing happens by chance",
+      "nothing is a coincidence",
+      "nothing is coincidence",
+      "nothing happens by coincidence",
+      "nothing is accidental",
+      "no coincidences",
+      "nothing happens by accident",
+      "nothing is random",
+      "nothing happens randomly"
+     ]
+    },
+    {
+     "antworten": [
+      "immunisation",
+      "immunization",
+      "immunisation against criticism",
+      "immunization against criticism"
+     ]
+    },
+    {
+     "antworten": [
+      "secret plan",
+      "a secret plan",
+      "the secret plan",
+      "secret plot",
+      "a secret plot",
+      "the secret plot"
+     ]
+    },
+    {
+     "antworten": [
+      "immunisation",
+      "immunization",
+      "immunisation against criticism",
+      "immunization against criticism"
+     ]
+    },
+    {
+     "antworten": [
+      "nothing happens by chance",
+      "nothing is a coincidence",
+      "nothing is coincidence",
+      "nothing happens by coincidence",
+      "nothing is accidental",
+      "no coincidences",
+      "nothing happens by accident",
+      "nothing is random",
+      "nothing happens randomly"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Go further: Recognise the pattern without feeding the narrative",
+   "teilkompetenzen": [
+    "wp.medien.verschwoerungserzaehlungen-erkennen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Work through the ‘staged Moon landing’ example in full: apply all three checking questions (Who would have to keep quiet? What could disprove the claim – and how do believers typically respond to evidence against it? Who benefits from the narrative?). Write two or three sentences for each question.",
+     "hint": "The facts in the module are enough: 400 000 people involved, the Soviet Union as a rival with its own tracking equipment, the typical ‘it's all faked’ response, and the business of books, films and channels.",
+     "solution": "Example: (1) Around 400 000 people involved would have had to keep quiet for more than 50 years – as would the Soviet Union, which tracked the radio communications itself and would have triumphantly published proof of a hoax immediately during the race to the Moon. The fact that even the rival never found anything carries weight. (2) Evidence that could disprove the claim includes the reflectors on the Moon, independently measured by several countries, or the radio signal confirmed by the rival – yet believers reinterpret each piece of evidence as part of the hoax: typical immunisation. (3) The narrative can benefit people who make money from books, films and channels – and anyone whose status as someone ‘in the know’ within their group depends on it."
+    },
+    {
+     "prompt": "Construction workshop: invent a deliberately absurd, harmless mini conspiracy narrative from everyday school life (for example: ‘The bell rings too early on purpose – controlled by a secret group’) and include all three building blocks: a secret plan, nothing happens by chance, and immunisation. Then take your own narrative apart: mark the building blocks and explain why nothing could disprove it – and why that is exactly what makes it worthless.",
+     "hint": "Important: your example must be obviously absurd and harmless – no real people, no real groups and nothing from current events. You learn by building in immunisation: think about how your narrative explains away EVERY piece of evidence against it.",
+     "solution": "Example: ‘The bell ending break rings 30 seconds early on purpose – a secret group in the staffroom steals hours of break time from us each year this way (secret plan). The corridor clock shows a different time from the phone clock? No coincidence – a distraction! (nothing happens by chance). And if the caretaker checks the bell and finds nothing wrong, that only proves he is in on it (immunisation).’ Taking it apart shows that every test – comparing clocks, taking measurements or hearing from the caretaker – is reinterpreted by the narrative itself as proof. No observation could disprove it. That is how you recognise that it is a closed system of thought rather than an explanation – funny when it is about a school bell, but the same structure also circulates around serious topics."
+    },
+    {
+     "prompt": "In two minutes, explain to someone you know why nothing can disprove the flat-Earth narrative – and why that is its greatest weakness. Use the terms ‘immunisation’ and ‘testable theory’. Afterwards, note the follow-up question you were asked and how you answered it.",
+     "hint": "The key point in one sentence: an explanation with an answer to everything actually explains nothing – because it avoids every test.",
+     "solution": "Possible short talk: ‘People who believe in the flat Earth have an answer to every piece of evidence against it: the photos are faked, the physics is made up, everyone is in on it. This is called immunisation – the narrative is constructed so that nothing can ever shake it. A testable theory does the opposite: it states what observation would disprove it and submits to that test. So if a narrative sounds unbeatable, that is not a sign of strength but its greatest weakness: it has left the realm of testable statements.’ Typical follow-up question: ‘But couldn't there still be something in it?’ – Possible answer: ‘Many things are possible – but a statement that cannot, in principle, be tested gives us no reason to believe it. And for the Earth's shape, there are tens of thousands of independent, testable pieces of evidence – from a ship's mast on the horizon to time differences.’"
+    }
+   ]
+  }
+ ]
+}
