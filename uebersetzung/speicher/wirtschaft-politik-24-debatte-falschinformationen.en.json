@@ -1,0 +1,683 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:8c614436f3f243ec4b7c77bc2cff9a3a983561ad164ad353f74f4868b847e652",
+   "text": "Debate preparation: Should the state be allowed to remove false information?"
+  },
+  "description": {
+   "quelle": "sha256:d272c63da81e144b5a4e79f2f8678f00ae86cc5bf566d75c839f17f651c56bf9",
+   "text": "Freedom of expression or protection against disinformation – which matters more? Prepare for your classroom debate: revisit the familiar argument structure, understand the dilemma between freedom of expression and the harm caused by deliberate false information, and explore three fully developed arguments for each side as well as middle-ground solutions. This module takes no position – you will weigh up the arguments in the debate."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:9381a742a46b985e55311f671c45d42753c309a43c01194df10930f51d52a235",
+   "text": "Topic D: Basic concepts, democracy & political thinking"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:415b49ebb012fb396bce15b01895dd985f72e629c63f03cc94eec0a65e254509",
+   "text": "debate"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:50df6db98bf2e462952a648b94a22d1992ade2c76df730ae557d32a8623c0c00",
+   "text": "argumentation"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:c1fb0c762380bd7b74f2b69d9a1a421893b02e68e4a26065160c794b9126f10e",
+   "text": "freedom of expression"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:6507be4719ec5b2021453bc53ea0af3560ef310fcf16b891ff45f06037fcb346",
+   "text": "false information"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:64fc12c96290e9274adf2b6597ffc08c71ed27c0d19a85ab7dbd7200a2c30002",
+   "text": "disinformation"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:1f62308a1ebb7f5dae2a5601b933879768569dfdd120c08d49e9ed89668143c6",
+   "text": "censorship"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:346ae35946e47ce2f60d182052d08afd9acf8585cb2596e235cfcd2ef7996980",
+   "text": "Streisand effect"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:e7b5ba4bcef70810087577b6f309122aeea1d04e1fb94213b1046cc5717ddd1f",
+   "text": "fact-checking"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:1dfed9ca1b59c0194f926dc0d7122e97ce757eba99a3e5f7fd3cbf2db42724e8",
+   "text": "labelling"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:23115f1988c60141767c0eae3a221daa72e170510d37ae38874984ac53d93011",
+   "text": "platform rules"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:bedb36e70a9b8dce4ad191b79007da55a4a8f50d0a1cc9c08cd682b8bb59f358",
+   "text": "for and against"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:df70359665034a659ce7682e1ce4f50c4ac2523396810c5a61458a39d81d8800",
+   "text": "political education"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:a6b6dec54b9a2f9b052558ea63bfd741a6a426d31481c8d2205a590ffcff8bbf",
+   "text": "I can apply the argument structure from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]: claim – reason – example."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:34b20cf688a37e453cd2dfc60bdb8bb990522f28a1c373c2b82d7f56b30a7167",
+   "text": "I understand the dilemma: freedom of expression is a cornerstone of democracy – but deliberate disinformation can cause real harm."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:1d591ce68535166ffa9d05af33531a92fc4591d1b80fd238b27d43fd8ea88dc1",
+   "text": "I can explain three fully developed arguments on each side of the debate in my own words."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:dc1aa178c653da9e6bccb818ccaf43e2f7e486700b0dcd0cd61b6bb9b8d7eaef",
+   "text": "I know middle-ground solutions: labelling instead of removing content, fact-checking, and the difference between platform rules and a state ban."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:3ed9aec145866b64b85402c78f0a3bdbd603b772679b26aed583ae4cbc16c3e9",
+   "text": "Your debate – your tools"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:e24550ec735f7973e22db8377c31d2319a6ef5e88040b601ab7e99c516bbbd00",
+   "text": "In **week 24, you will debate a question in class** that experts around the world struggle with: **Should the state be allowed to remove false information?** This module prepares you for it – like [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]], it is deliberately **more than just a knowledge module**: it gives you the tools and material for both sides. **This module takes no position** – you will weigh up the arguments in the debate.\n\nFirst, the tool you know from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] – the **argument structure**:\n\n1. **Claim** – *What do you want to say?* A clear sentence that takes a position.\n2. **Reason** – *Why is it true?* The reason, introduced by **“because”** or **“since”**.\n3. **Example** – *What shows this?* A concrete case or a figure as evidence that can be checked.\n\nWithout a reason and an example, all you have is an **unsupported claim** – and that will not persuade anyone who does not already agree with you. In this debate, you need the structure twice over: for your own arguments, and to recognise whether the other side is actually making an argument – or just making claims.\n\nAnd you bring more prior knowledge than you think: from [[modul:wirtschaft-politik-20-demokratie-als-prinzip]], you know about fundamental rights and the protection of minorities; from [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]], about censorship in authoritarian systems; from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]], about fake news and how it spreads; and from [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]], about how conspiracy narratives work. You are about to turn precisely this knowledge into arguments."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:895e95e24aa323a124d085582fb875fa7552a8bc4c5e2fa149681219a39cb08f",
+   "text": "The dilemma: freedom versus protection"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:aafd913e1f464127e4676932b89fd237a7a08a4603a9dd25c61ca9ee119d421e",
+   "text": "Why is this question so difficult? Because two legitimate concerns clash here – a real **dilemma**:\n\n**On one side: freedom of expression.** It is a human right and a cornerstone of democracy ([[modul:wirtschaft-politik-20-demokratie-als-prinzip]]): without the freedom to say things that are uncomfortable, controversial or false, there can be no open negotiation – and no holding those in power to account. Remember: freedom of expression also protects **mistakes**. If you could only say what was officially accepted as true, you would no longer be free.\n\n**On the other side: the harm caused by deliberate disinformation.** A fictional but realistic scenario: one Saturday evening in the fictional municipality of Musterberg, a false report spreads claiming that the **drinking water is contaminated with chemicals** – supposedly “confirmed by an official source”. Within hours: worried families, bottled water shelves stripped bare, an overloaded council phone line, and people taking medication out of fear. On Sunday, the council's denial reaches only a fraction of those who saw the false report. The harm is real – even though not a word of the report was true.\n\nBetween these two concerns lies the question for debate: should the state be allowed to **have such content removed** – actively taken off the internet? Two distinctions are invaluable in the debate:\n\n- **An honest mistake or deliberate disinformation?** Someone who is honestly mistaken is not spreading disinformation. Deliberate disinformation is spread **in the knowledge that it is false**, to deceive people. That sounds clear – but it can be difficult to prove in an individual case.\n- **An opinion or a factual claim?** “I think the indoor swimming pool is ugly” is an opinion – it cannot be “false”. “The drinking water is contaminated” is a factual claim – it is either true or false. The debate concerns false factual claims, not opinions."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:4beff4d67ee3476a393d4240f56dc0f9a41b9d0fe3e43f9ba68fd0b38565b540",
+   "text": "Weighing up the arguments"
+  },
+  "blocks[2].szene.elemente[0].text": {
+   "quelle": "sha256:4e6de1c7c5301e73cb9f0ee1b680001bd3f011e8dfd9c83ad362ab9b3b8cdea2",
+   "text": "Weighing the arguments"
+  },
+  "blocks[2].szene.elemente[1].text": {
+   "quelle": "sha256:a2343071dbdef152300a3796dd201f7f4121ebccc69c5586f15b2fc62b9d9bf1",
+   "text": "Should the state be allowed to remove false information?"
+  },
+  "blocks[2].szene.elemente[20].text": {
+   "quelle": "sha256:a1a309b336b1b585ad9c8ee235808bfc4040703fda91061cd743e7fbecf3ca2b",
+   "text": "The scales are balanced on purpose:\nThis module takes no position – you weigh up the arguments in your debate."
+  },
+  "blocks[2].szene.elemente[21].text": {
+   "quelle": "sha256:b3c186bdf754e993f333e4df6efbd6394822c8bffcf0452f7dce79ac14567fc3",
+   "text": "FOR: allow removal"
+  },
+  "blocks[2].szene.elemente[22].text": {
+   "quelle": "sha256:83ece4a073ba3ca915d45c95e16a88c7a3edd6360a9db3b458410755c4b7e91f",
+   "text": "1. Protect informed opinions\nDemocracy needs real facts –\nor people vote on\nfabrications."
+  },
+  "blocks[2].szene.elemente[23].text": {
+   "quelle": "sha256:3e9026bd289c6597e011d26ca96a841d2281b3f8abc23ad5b1a130629b155872",
+   "text": "2. Prevent panic and harm\nThe fake water alert spreads\nfaster than any denial."
+  },
+  "blocks[2].szene.elemente[24].text": {
+   "quelle": "sha256:61d10bbd610474d9349e0a3528929e440614e3f6bda76fdeccae8459321738f2",
+   "text": "3. Protect reputations\nMade-up claims ruin lives –\ncorrections never\nreach everyone."
+  },
+  "blocks[2].szene.elemente[25].text": {
+   "quelle": "sha256:9ddb8b4ed4673a359dd955518bdac90fef0212dae07b33c860d6625bf3805cdd",
+   "text": "AGAINST: no removal power"
+  },
+  "blocks[2].szene.elemente[26].text": {
+   "quelle": "sha256:5a4566cbff014ce152ee1bd9bb60d95445a8eb4da41997a0bc227fe5178a4d20",
+   "text": "1. Who decides what is false?\nKnowledge evolves – state\nchecks can be wrong too."
+  },
+  "blocks[2].szene.elemente[27].text": {
+   "quelle": "sha256:ee55689908bef128d3e738de68878d28bc9300fa6b63439ccac1942ad779615e",
+   "text": "2. Risk of abuse\nAuthoritarian systems often\ncall criticism\n‘false information’."
+  },
+  "blocks[2].szene.elemente[28].text": {
+   "quelle": "sha256:97c79432bd6e7a5394ecb0969094c40b79e42be623bbe8bf0b1072d603e93a57",
+   "text": "3. Streisand effect\nRemoval draws even more\nattention to content."
+  },
+  "blocks[2].szene.elemente[29].text": {
+   "quelle": "sha256:f9985f06c4e071c7f18f60e0614dec57ebed86cf5cfbcae1eaf63e276e8b13f8",
+   "text": "Between the two sides: middle-ground solutions\nLabels, not removal · independent fact-checks\nReduce visibility · platform rules, not state bans"
+  },
+  "blocks[2].beschreibung": {
+   "quelle": "sha256:23a687d8318f37bd1391a2fd4c2352ba5eb128828a733bbf9d9cdc246ac96a7a",
+   "text": "The diagram presents the question ‘Should the state be allowed to remove false information?’ as a set of scales that are deliberately balanced: the module takes no position – learners weigh up the arguments in their debate. One pan holds three arguments for giving the state the power to remove content, the other holds three arguments against it; below the scales are middle-ground solutions between the two sides. Key points: – FOR 1, protecting informed opinion: democracy needs real information – otherwise people vote on fabrications. – FOR 2, preventing panic and harm: the fictional drinking water alert takes effect faster than any denial. – FOR 3, protecting reputations: made-up claims can ruin lives – corrections never reach everyone. – AGAINST 1, who decides what is false?: knowledge develops – even a state fact-checking body can be wrong. – AGAINST 2, risk of abuse: authoritarian systems often simply call criticism ‘false information’. – AGAINST 3, the Streisand effect: removing content draws even more attention to it. – Between the two sides are middle-ground solutions: labelling instead of removing content, independent fact-checks, reducing visibility, and platform rules instead of state bans. – Conclusion: the scales are deliberately balanced; learners weigh up the arguments in the debate."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:1e056a4934c19b6fe275bbf9898d47fe2736e8a1e234b13a2ed8c671e18aa756",
+   "text": "Arguments for the debate: for and against"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:28482ada05af96730c8548e73896e750db0cfb08f226add6c8cc92be77c22f00",
+   "text": "Here are three fully developed arguments for each side – each following the structure **claim – reason – example**. All examples are fictional or draw on general historical experience; you do not need real current cases of content removal for the debate.\n\n**FOR: the state should be allowed to remove deliberately false information**\n\n1. **Claim:** Removing content protects the way people form opinions in a democracy. **Reason:** Democracy depends on those affected forming their opinions on the basis of real information ([[modul:wirtschaft-politik-20-demokratie-als-prinzip]] and [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]]) – deliberate disinformation distorts that basis. **Example:** If a made-up report about supposed secret plans circulates widely before a fictional local vote, many people end up voting on a fabrication rather than the issue itself.\n2. **Claim:** Removing content prevents panic and real harm. **Reason:** False reports about dangers spread faster than any denial – and people act on them. **Example:** The fictional drinking water alert in Musterberg: empty shelves, overloaded emergency phone lines, frightened families – the harm was real, even though not a word was true.\n3. **Claim:** Removing content protects individuals from damage to their reputations. **Reason:** Made-up factual claims can ruin lives, and corrections never reach everyone who saw the false report ([[modul:wirtschaft-politik-22-medien-und-meinungsbildung]]). **Example:** A fictional restaurant is falsely accused of serving rotten meat – customers stay away, even months after the denial.\n\n**AGAINST: the state should not be allowed to remove content**\n\n1. **Claim:** Who decides what is false? **Reason:** Whether a claim is true often only becomes clear later – knowledge develops, and authorities can be wrong too. A state body that issues binding verdicts of “true” and “false” is difficult to reconcile with freedom of expression. **Example:** A report removed too hastily may turn out to be partly accurate months later – by then, the mistake is hard to put right, and trust has been damaged twice over.\n2. **Claim:** The power to remove content invites abuse. **Reason:** Tools of power rarely remain limited to their original purpose – anyone who can decide what gets removed can also use that power to silence criticism. **Example:** You know the pattern from [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]]: authoritarian systems regularly justify censorship as a “fight against false information” – but what mainly gets removed is whatever displeases the leadership.\n3. **Claim:** Removing content can have the opposite effect. **Reason:** Banned content seems all the more interesting – and its removal itself feeds the narrative of “suppressed knowledge” that you know from [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]]. **Example:** The **Streisand effect** takes its name from a case in 2003: an attempt to have a single photograph removed from the internet brought that very photograph worldwide attention.\n\n**Remember:** Both sides follow the argument structure properly – and both draw on knowledge from this topic. You will decide in the debate which arguments carry more weight."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:2cdf7cfb58d5ce2108fdf48e2080fcd7fdefad7068d161923835194b461b77ee",
+   "text": "Middle-ground solutions: between leaving content up and taking it down"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:c4ffadffdcfec9b14251f43e0b87e1e4d8951dd92a803c1647c8177d56e36791",
+   "text": "In the debate, it can quickly seem as though there are only two options: leave everything up or remove everything. In fact, there is a whole set of tools in between – knowing them helps you make more nuanced arguments:\n\n- **Labelling instead of removing content:** The content stays online but gets a visible notice (“disputed”, “reviewed by fact-checkers”) and a link to reliable information. The report remains available to read – but nobody comes across it without a warning.\n- **Independent fact-checks:** Specialist editorial teams check viral claims and publish reports showing how they reached their conclusions – correction through **more** speech rather than a ban. This connects to the culture of correcting errors discussed in [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]].\n- **Reducing visibility:** Platforms can recommend and circulate false reports less often without removing them – the report can still be found, but the algorithm no longer amplifies it.\n- **Platform rules or a state ban?** An important distinction: **platform rules** are the house rules of private companies – break them and you can be removed from the service, just as you can be expelled from a club. A **state ban**, on the other hand, applies to everyone, is enforced through state power and is a matter for the courts. For the debate, this means you can oppose removal by the state while still believing that platforms should take action – or the other way round.\n- **Media literacy as an antidote:** The more people master the three checks from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]] and the checking questions from [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]], the less harm false reports cause – without any intervention at all.\n\nNow you have everything: the structure, the dilemma, three arguments for each side and the middle-ground solutions. **This module has taken no position – now it is your turn: you will weigh up the arguments in your debate.**"
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:c6f640409e6abee5c0f51d512f12bd3ede46a6fbc51f5b11970d405bbfc444e3",
+   "text": "Quiz: the dilemma, arguments and middle-ground solutions"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:2ecbf99db638939ae2705df89db27c9224f54c0d8f69fe2520f34f8e80672d2f",
+   "text": "Show that you have the tools you need for the debate. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[5].questions[0].prompt": {
+   "quelle": "sha256:67febe4540511052edf25dd603c5da8c4f91245297c64d03075e446fbf794b57",
+   "text": "Which three parts make up a complete argument according to the structure in [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]?"
+  },
+  "blocks[5].questions[0].options[0].text": {
+   "quelle": "sha256:0021822ab3c66fb1a0cdc06a7096da9180d4d82771bb313b4923c1a7c3d40ed2",
+   "text": "Introduction, main body and conclusion."
+  },
+  "blocks[5].questions[0].options[1].text": {
+   "quelle": "sha256:76da208b650e4994f132906ef45c5fdd3dfcf2803e00407d91e331985c128628",
+   "text": "Thesis, proof and counterproof."
+  },
+  "blocks[5].questions[0].options[2].text": {
+   "quelle": "sha256:299525ddea8a0a7c4eb0cff658696b5f20e611d181855fa5ec2451637ee97008",
+   "text": "Opinion, feeling and volume."
+  },
+  "blocks[5].questions[0].options[3].text": {
+   "quelle": "sha256:fa59cb207bf9e98617be663e73599d12e01a38482e8c460298453449759bf4ff",
+   "text": "Claim, reason and example."
+  },
+  "blocks[5].questions[0].explanation": {
+   "quelle": "sha256:2f4c4f0c201e99d4309f38f20caf949bc09846b295e7782fc34ae6aae2b10f5f",
+   "text": "The structure is: claim (What do you want to say?), reason introduced by “because” or “since” (Why is it true?), and example (What shows this?). “Introduction – main body – conclusion” describes an essay, not a single argument. And opinions, feelings or speaking loudly will not persuade anyone who disagrees with you – that is exactly what the structure should help you avoid in the debate."
+  },
+  "blocks[5].questions[1].prompt": {
+   "quelle": "sha256:cf0d9cc73fa4dc8e9488e7366c19e8357f295fab2987ef6893a01999b63d4626",
+   "text": "Why is freedom of expression considered a cornerstone of democracy?"
+  },
+  "blocks[5].questions[1].options[0].text": {
+   "quelle": "sha256:5188b5edb2107a8d344d7d8b9ae429b53619ca3ff77fec0d3254d518275f4743",
+   "text": "Because it guarantees that all opinions are correct."
+  },
+  "blocks[5].questions[1].options[1].text": {
+   "quelle": "sha256:b18ff4af40d3f6730f3835f6a554857b6aa6b94d12726c01804f612f7fb92b5c",
+   "text": "Because without the freedom to say uncomfortable and even false things, open negotiation and holding those in power to account would be impossible."
+  },
+  "blocks[5].questions[1].options[2].text": {
+   "quelle": "sha256:48579776ef59362dec64a0a5f77d6680a9514445e346fb6deca29a04490fc5a2",
+   "text": "Because it only applies to politicians."
+  },
+  "blocks[5].questions[1].options[3].text": {
+   "quelle": "sha256:b45d705abe59ee7b9827d9ab0dd554c98ed0489f86dba7e2a3c7f7249f91d480",
+   "text": "Because it allows people to insult others."
+  },
+  "blocks[5].questions[1].explanation": {
+   "quelle": "sha256:76124edf20f53be53dcf76b43fa984f296b8735d242ba0a105b46435cbf7371d",
+   "text": "Democracy involves negotiation ([[modul:wirtschaft-politik-19-was-ist-politik]] and [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]) – and negotiation needs free speech, even when it is uncomfortable, controversial or mistaken. If people could only say what had official confirmation, they could no longer criticise those in power. Freedom of expression does not guarantee accuracy – it also protects mistakes. It applies to everyone, not just politicians, but it still has limits: insults and defamation are not protected."
+  },
+  "blocks[5].questions[2].prompt": {
+   "quelle": "sha256:8ff144b492a1d35d18766b8f0c3015e388a2386a29c14bd1090c350d1ad466a0",
+   "text": "What does the fictional drinking water scenario in Musterberg show?"
+  },
+  "blocks[5].questions[2].options[0].text": {
+   "quelle": "sha256:7fad6c7690102179ae3aa1d813e155764c92de8fc8642da94553266f1d228fc4",
+   "text": "That false reports are harmless as long as they are quickly denied."
+  },
+  "blocks[5].questions[2].options[1].text": {
+   "quelle": "sha256:95f2c1b178c1e00098ead4dc111ff8fc126dec838f9e53756514a705356ecc36",
+   "text": "That you should always boil tap water."
+  },
+  "blocks[5].questions[2].options[2].text": {
+   "quelle": "sha256:da77116ac771fb803e60b48c6a794efdbe19f3eb7f8a32f63eb37d94e294edd6",
+   "text": "That deliberate false reports can cause real harm – panic, panic buying and overwhelmed authorities – even though not a word is true."
+  },
+  "blocks[5].questions[2].options[3].text": {
+   "quelle": "sha256:9e516817e04c7608192561316bc4e36ea31c7245fd03cfad1bca9e0026cc0824",
+   "text": "That local councils should not publish denials."
+  },
+  "blocks[5].questions[2].explanation": {
+   "quelle": "sha256:0f64af311de56ebc699d84003d16200a9c5c8c130433740f2385cf047137e7ee",
+   "text": "The scenario illustrates the case for removal in this dilemma: the harm occurs before the correction takes effect – people empty the shelves and become frightened, while the denial reaches only a fraction of them. Such a report is certainly not harmless, even though it is entirely made up. The example has nothing to do with actual drinking water quality – it is deliberately fictional. And publishing denials is, of course, still the right and important thing to do; they are simply slower than the false report."
+  },
+  "blocks[5].questions[3].prompt": {
+   "quelle": "sha256:f05095a931a8d54026717baad7dff14f7d8b9a8242c2dc8ae0aec4afb04a2f7f",
+   "text": "What is the central idea of the argument for removal that says ‘Removing content protects the way people form opinions in a democracy’?"
+  },
+  "blocks[5].questions[3].options[0].text": {
+   "quelle": "sha256:1c711737bac7490f84a224359c5b429fc114f375ab8dedd90b19bcc106955d6b",
+   "text": "Democratic decisions need real information – people voting on fabrications are not really deciding on the issue itself."
+  },
+  "blocks[5].questions[3].options[1].text": {
+   "quelle": "sha256:0157e00fbf9fe3850936a9bcff594de395716f782bbb4cda829d6e7de12f066a",
+   "text": "The state should tell people what opinions to hold."
+  },
+  "blocks[5].questions[3].options[2].text": {
+   "quelle": "sha256:f6040c05310fbfc7e76fd42f560024023cc0305aba503fef5df590e0d6f8bc0f",
+   "text": "Voting should be abolished when false reports are circulating."
+  },
+  "blocks[5].questions[3].options[3].text": {
+   "quelle": "sha256:f749e7303c4eed6a63643c4fa4b0e7716e0de9c81c0454d4014ff2cf499a86e2",
+   "text": "Only experts should be allowed to vote on important questions."
+  },
+  "blocks[5].questions[3].explanation": {
+   "quelle": "sha256:b173ab1aa2282f1dde732b07238256bbb8389b90884e2838889eaf34aad4342e",
+   "text": "The argument concerns the foundation of democracy: those affected decide for themselves ([[modul:wirtschaft-politik-20-demokratie-als-prinzip]]) – but a decision based on deliberate fabrications is no longer a genuine decision on the issue. So the aim is to protect the information people base their decisions on, not to dictate opinions, abolish voting or establish rule by experts – those would be distorted versions of the argument that would be easy, but unfair, to attack."
+  },
+  "blocks[5].questions[4].prompt": {
+   "quelle": "sha256:5101764a2da8b124ed886cf604efca25c5b6ce7da8c13916543c327d33bc0c0d",
+   "text": "What is the point of the argument against removal that asks ‘Who decides what is false?’"
+  },
+  "blocks[5].questions[4].options[0].text": {
+   "quelle": "sha256:6cc089f62e7511b586269ce7910f7a56891888e542821cd29a5c0b1d2a458fbc",
+   "text": "It claims that truth does not exist at all."
+  },
+  "blocks[5].questions[4].options[1].text": {
+   "quelle": "sha256:4840670b7899f872b79995644c54bcfd831a1d9c5de09f7adc419d36a18b2aaa",
+   "text": "Whether a claim is true often only becomes clear later – a state body that issues binding verdicts of ‘true’ and ‘false’ is problematic and can be wrong."
+  },
+  "blocks[5].questions[4].options[2].text": {
+   "quelle": "sha256:d9277d32d3e13e5852c03f1b8c2d89797aad4b212d2b21cc8fb11ce1f65870bb",
+   "text": "It demands that false reports be rewarded."
+  },
+  "blocks[5].questions[4].options[3].text": {
+   "quelle": "sha256:73ff18f88bd16b407c612a9db5fdd27f7af98b4b732540c355a810b712c5b1b7",
+   "text": "It denies that the drinking water alert caused any harm."
+  },
+  "blocks[5].questions[4].explanation": {
+   "quelle": "sha256:f524756e1573fb3478423494baa2f2008c88f0c4e59e5d458e8338e7989fa81e",
+   "text": "The argument does not deny truth itself – it questions whether an authority can reliably establish it at the moment content is removed: knowledge develops, authorities make mistakes, and content removed too hastily may later turn out to be (partly) accurate. The side opposing removal does not deny the harm caused by false reports either – it questions whether removal by the state is the right remedy. And nobody is talking about ‘rewards’ anyway."
+  },
+  "blocks[5].questions[5].prompt": {
+   "quelle": "sha256:df87bef2fdb4ad04b0e48b3bbe20f986006855a68ee8641f7900d0999de6702e",
+   "text": "How does [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]] support the argument against removal about the risk of abuse?"
+  },
+  "blocks[5].questions[5].options[0].text": {
+   "quelle": "sha256:7a93e10f18441455a5a5ae4300d18116552059926ba907ab6e7639d67e480a92",
+   "text": "It shows that authoritarian systems do not remove any content at all."
+  },
+  "blocks[5].questions[5].options[1].text": {
+   "quelle": "sha256:bc54ac2ad8a15616cbafd60e17a58ac706e2cfa8b43910251a8e8cf95a1cfa3b",
+   "text": "It shows that false information only occurs in authoritarian systems."
+  },
+  "blocks[5].questions[5].options[2].text": {
+   "quelle": "sha256:7921108cb9a97d6a33bfe6b14fa76589cb5fc4eab9c7afb26a87613a284da61c",
+   "text": "It shows that censorship is always justified on the grounds of honesty."
+  },
+  "blocks[5].questions[5].options[3].text": {
+   "quelle": "sha256:6ffed832505cbb2748e691a43ac8565865665db68b898264cdd7a7cff2e0d70a",
+   "text": "It shows the pattern: authoritarian systems regularly justify censorship as a ‘fight against false information’ – but what mainly gets removed is criticism."
+  },
+  "blocks[5].questions[5].explanation": {
+   "quelle": "sha256:cf4ee602d9782512d13dc9406a7a5d2f23b9c9efcad5c5a4c333013532bb2fed",
+   "text": "From [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]], you know about internet censorship in authoritarian systems – and how it is justified: officially, they are combating ‘false information’ and ‘rumours’; in practice, whatever displeases the leadership disappears. The argument against removal therefore warns that the power to remove content is a tool of power whose purpose can change. Authoritarian systems certainly do remove content – and false reports exist everywhere; that is precisely why the question of who controls this tool is so sensitive."
+  },
+  "blocks[5].questions[6].prompt": {
+   "quelle": "sha256:ab30b3c30efe358a55916b1441f141addcd32015e4117f16f660eb23feb4a1ff",
+   "text": "What does the Streisand effect describe?"
+  },
+  "blocks[5].questions[6].options[0].text": {
+   "quelle": "sha256:3692dcb98acfe2af203dcdb9848f1a57004e8fac7d6bec63bc5150009d7d02d4",
+   "text": "An attempt to remove content draws even more attention to it – as in 2003, when a lawsuit over a single photograph made that very photograph famous worldwide."
+  },
+  "blocks[5].questions[6].options[1].text": {
+   "quelle": "sha256:5ddf484d93af09b685556b772ec35c560544b5512a9b9073729268e956231b6f",
+   "text": "Removed content disappears from the internet forever."
+  },
+  "blocks[5].questions[6].options[2].text": {
+   "quelle": "sha256:f82757d3b516c94f427c9bf9bad2065c8778f24bac14ebb6d4aa5ec03f06234c",
+   "text": "Fact-checks automatically make false reports more popular."
+  },
+  "blocks[5].questions[6].options[3].text": {
+   "quelle": "sha256:8a6e50a0b5c547b26f2bd5bf05846b8ff1d1e7c895cc66fdc7249f9a810a72e9",
+   "text": "People immediately forget false reports when they are removed."
+  },
+  "blocks[5].questions[6].explanation": {
+   "quelle": "sha256:767fe1f4c194b4d9680e8c161be656de340edf88216b006ddff8d639b4ae585a",
+   "text": "The effect is named after a case from 2003: an attempt to have a single coastal photograph removed made it famous worldwide. For the debate, this means that removing content can backfire – ‘If they are banning it, it must be explosive’ – and feeds the narrative of suppressed knowledge ([[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]]). It is certainly not true that removed content disappears forever or is immediately forgotten – copies keep circulating. And fact-checking is not removal; it responds with more speech, not less."
+  },
+  "blocks[5].questions[7].prompt": {
+   "quelle": "sha256:9df7f8ba70cde093a0f7099aa9b777c9dca074bdb8b8a03dffa0e640e7340341",
+   "text": "What is the difference between platform rules and a state ban?"
+  },
+  "blocks[5].questions[7].options[0].text": {
+   "quelle": "sha256:b5d229bc10cc6b2bd71b96fd65dd1d6100e41b33e692a8dc7381cae683a96e3b",
+   "text": "There is no difference – they are the same thing."
+  },
+  "blocks[5].questions[7].options[1].text": {
+   "quelle": "sha256:d4515ad7a04c7e0bb3bf0cc21f15ac0ebbb29243f4a453d4ed5cfff2253e286a",
+   "text": "Platform rules apply to everyone, while state bans only apply to registered users."
+  },
+  "blocks[5].questions[7].options[2].text": {
+   "quelle": "sha256:0c096596b5d2ef3f7aaf2de5978dac46dd9773a6ee70c5cd932de5b87df2fc78",
+   "text": "Platform rules are the house rules of private companies for their services – a state ban applies to everyone, is enforced through state power and is a matter for the courts."
+  },
+  "blocks[5].questions[7].options[3].text": {
+   "quelle": "sha256:e1301f1f3d043dd3b590ead5520ed241741aa830dfe9aa3087af6d662bd28954",
+   "text": "State bans are non-binding recommendations to platforms."
+  },
+  "blocks[5].questions[7].explanation": {
+   "quelle": "sha256:7b7eaecba9624835274bde1d47c527ea1ab0eb16559a241946824f1c5a8169d1",
+   "text": "The distinction is central to the debate: platform rules work like club rules – a private company decides what applies on its service, and anyone who breaks the rules can be removed. A state ban, on the other hand, is binding on everyone, is enforced through state power if necessary and must be open to review by the courts. That is why you can take a nuanced position in the debate: oppose removal by the state but support action by platforms – or the other way round. In any case, the two should not be treated as the same thing."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:4f4b10ea92cb7116da5f8b886e1f12baa20e01727078798f0b46173e7da32068",
+   "text": "Classify: an argument for, an argument against – or an unsupported claim?"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:1e75973077729818cc92ef4ca69dec16868167ef96efc2e6c3938c8c67305049",
+   "text": "Assign each statement to the right category: **argument for** (supporting removal by the state, with a reason), **argument against** (opposing removal by the state, with a reason), or **unsupported claim** (on either side – without a reason or evidence). Remember: what counts is the **structure** of the statement, not whether you agree with it."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:bb73228c660aa533c71ad037e58b1a9eac50068ee32cb99a69b946f6ea765b19",
+   "text": "Put the argument back together"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:ee83fba98e1b33b462464b01aa6013a97d95d23bb6fb89e72e67576afc97f7e9",
+   "text": "An argument against removal has been split into its parts. Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Careful:** Two words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:e145a1bb3f63d479c1a34005fc4d6ac4975cfa294e687930aba98e85af005140",
+   "text": "Going further: your contribution to the debate"
+  },
+  "blocks[8].tasks[0].prompt": {
+   "quelle": "sha256:35a32cc91bfca2168ef53d7209aaae01b989b02ed5202a8ef3745c7eb665305e",
+   "text": "Write your own short argument on the question ‘Should the state be allowed to remove false information?’ – following the structure exactly: (1) a clear claim (FOR or AGAINST – you are welcome to argue for the side you disagree with), (2) a reason introduced by ‘because’ or ‘since’, (3) an example as evidence. Important: invent your own fictional scenario or draw on knowledge from [[modul:wirtschaft-politik-20-demokratie-als-prinzip]], [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]], [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]] and [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]] – do not use real current cases of content removal."
+  },
+  "blocks[8].tasks[0].hint": {
+   "quelle": "sha256:d8df6a88b8287539efa69dcf019a653fcd91b24a635c516b5454c42d95e6c297",
+   "text": "Use the structure as a checklist: does your first sentence clearly take a position? Does your second sentence give a reason that could make even the other side think (not a fake reason such as ‘because everyone knows that’)? Is your example concrete and easy to follow? Ideas for fictional scenarios: a made-up product warning, a fabricated quotation from a fictional person, or a false accident report."
+  },
+  "blocks[8].tasks[0].solution": {
+   "quelle": "sha256:4a58e5dadde79ab355274a3ec4371212832e39ef4fa440acdf4ff493b43b94a3",
+   "text": "There is no single model solution – check your argument against these criteria: (1) The claim is a complete statement with a clear position on the question. (2) The reason gives a genuine justification and connects logically to the claim – test it: does ‘claim, because reason’ make sense as a sentence? (3) The example is concrete, fictional or based on general historical experience, and provides evidence for precisely that reason. Example structure (against removal): ‘The state should have false reports labelled rather than be allowed to remove them, because an authority responsible for removal can make mistakes that are hard to put right – if a warning that was taken down later turns out to be justified, trust is damaged twice over.’"
+  },
+  "blocks[8].tasks[1].prompt": {
+   "quelle": "sha256:592e012c6cee23ae58fdf36d393f6d19462eee5f9d573fe5c584968c6dda1bb4",
+   "text": "Make specific preparations for the debate in week 24: choose what you consider the strongest argument FOR and the strongest argument AGAINST from the module. For each, write down a possible objection from the other side – and how you would respond to it. Include a middle-ground solution (labelling, fact-checking or platform rules) in your response at least once."
+  },
+  "blocks[8].tasks[1].hint": {
+   "quelle": "sha256:eb15caa5ee50a0921c59195123803419774be248deb787bb4e3547c5e8ade2d0",
+   "text": "An objection usually challenges the reason (‘Is that reason really valid?’) or the example (‘Is that case typical?’). Middle-ground solutions are often the strongest move in a debate: they show how much room there is between leaving content up and taking it down."
+  },
+  "blocks[8].tasks[1].solution": {
+   "quelle": "sha256:0c61982ce7211fe147693723c40c17829e71e91bad043c7cf7bb3def08a97aaa",
+   "text": "An example of the pattern: argument for removal, ‘Removing content prevents panic’ – possible objection: ‘By the time an authority has checked and removed the content, panic has already set in – removal is too slow.’ Possible response: ‘That is partly true – which is exactly why a combination would make sense: platforms immediately label the content and limit its spread while it is being checked; removal only follows after the check.’ Argument against removal, ‘Risk of abuse’ – possible objection: ‘We have independent courts that would stop any abuse.’ Possible response: ‘Courts help – but they only rule after the event, and the tool remains available to every future government; labelling instead of removal provides much of the protection without creating that tool.’ What matters is that the objection and response address the reason or the example – not the person."
+  },
+  "blocks[8].tasks[2].prompt": {
+   "quelle": "sha256:34ec2de2d40598ec17b9165087bacba483a8b024ec35e0baa1692eb0fa146aa1",
+   "text": "Sort out the middle-ground solutions: in one or two sentences each, explain the difference between (a) labelling instead of removing content, (b) independent fact-checks, (c) reduced visibility, and (d) platform rules versus a state ban. Then write down which of these four middle-ground solutions you think would be most effective in the drinking water scenario – giving a reason that follows the argument structure."
+  },
+  "blocks[8].tasks[2].hint": {
+   "quelle": "sha256:bbf83b4f7c4ab32fb687034f1708132a265bbdc3d2ef76145cf93d1950666dc6",
+   "text": "For the drinking water scenario, ask yourself above all: what helps QUICKLY – before panic sets in? And which measures need the state, and which can platforms take themselves?"
+  },
+  "blocks[8].tasks[2].solution": {
+   "quelle": "sha256:147d783e4c902916f059b8491313dde0a19e96ba5a266d5f6e8e8971b3930d78",
+   "text": "(a) Labelling: the content stays online but carries a warning with a link to reliable sources. (b) Fact-checking: an independent editorial team checks the claim and publishes the result – correction through more speech. (c) Reduced visibility: the algorithm stops recommending the content, without removing it. (d) Platform rules are a service's private house rules; a state ban applies to everyone and is enforced through state power. Example response to the scenario: ‘I think a combination of labelling and reduced visibility would be most effective, because it works within minutes and does not require the state to judge what is true – for example, an immediate warning on the Musterberg report could have prevented a lot of panic buying, even before the council had finished writing its denial.’ Other answers are also correct if the reasoning holds up."
+  }
+ },
+ "pakete": {
+  "blocks[6]": {
+   "quelle": "sha256:5e9eb8d926c927142988c24a9fa8b4d7875f917cfc745fbfc0bfe823bf5809ec",
+   "inhalt": {
+    "text": "‘The state should be allowed to remove deliberate false reports because they cause panic and real harm – like the fictional drinking water alert that led to panic buying and overloaded emergency phone lines.’ {{1}}\n‘Removing content is simply right; everyone knows that.’ {{2}}\n‘The state should not be allowed to remove content because what is true often only becomes clear later – a report removed too hastily may turn out to be partly true.’ {{3}}\n‘Anyone who opposes removal does not care about the truth.’ {{4}}\n‘Giving the state the power to remove content is dangerous because it can be turned against critics – authoritarian systems regularly justify their censorship as a fight against false information.’ {{5}}\n‘Someone should finally give the internet a proper clean-up.’ {{6}}\n‘Removing content protects informed opinion because otherwise voters decide on fabrications rather than the issue itself – for example, when a made-up report about secret plans circulates before a local vote.’ {{7}}\n‘Removing content can have the opposite effect because content that has been taken down gets even more attention – the Streisand effect has shown this since 2003.’ {{8}}\n‘The state should be allowed to remove content because made-up claims can ruin lives and corrections never reach everyone – as with the fictional restaurant falsely accused of serving rotten meat.’ {{9}}\n‘Freedom of expression is more important anyway, end of story.’ {{10}}",
+    "luecken": [
+     [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "a pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of removal",
+      "argument in favor of removal",
+      "for",
+      "pro"
+     ],
+     [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ],
+     [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "a con argument",
+      "con-argument",
+      "a con-argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument",
+      "a contra-argument",
+      "argument against removal",
+      "an argument against removal",
+      "against",
+      "con",
+      "contra"
+     ],
+     [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ],
+     [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "a con argument",
+      "con-argument",
+      "a con-argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument",
+      "a contra-argument",
+      "argument against removal",
+      "an argument against removal",
+      "against",
+      "con",
+      "contra"
+     ],
+     [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ],
+     [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "a pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of removal",
+      "argument in favor of removal",
+      "for",
+      "pro"
+     ],
+     [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "a con argument",
+      "con-argument",
+      "a con-argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument",
+      "a contra-argument",
+      "argument against removal",
+      "an argument against removal",
+      "against",
+      "con",
+      "contra"
+     ],
+     [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "a pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of removal",
+      "argument in favor of removal",
+      "for",
+      "pro"
+     ],
+     [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    ]
+   }
+  },
+  "blocks[7]": {
+   "quelle": "sha256:a20aa1e675b4bc940e1f9006f40faa81e0a7e73812aa89992b29f5add89bb9ea",
+   "inhalt": {
+    "text": "{{1}}: ‘The state should not simply be allowed to remove false information.’\n{{2}}: ‘…, {{3}} of the risk that such a power could be abused – whoever decides what is false can also label inconvenient criticism as false information.’\n{{4}}: ‘{{5}}, authoritarian systems regularly justify their censorship as a fight against false information – but what mainly gets removed is whatever displeases the leadership.’\nWithout the {{6}} and the example, only an unsupported {{7}} would remain. Only all three parts together form the complete {{8}}.",
+    "luecken": [
+     [
+      "Claim",
+      "a claim",
+      "the claim",
+      "assertion",
+      "an assertion",
+      "the assertion"
+     ],
+     [
+      "Reason",
+      "a reason",
+      "the reason",
+      "justification",
+      "a justification",
+      "the justification",
+      "explanation",
+      "an explanation",
+      "the explanation"
+     ],
+     [
+      "because"
+     ],
+     [
+      "Example",
+      "an example",
+      "the example",
+      "illustration",
+      "an illustration",
+      "the illustration"
+     ],
+     [
+      "For example",
+      "for instance"
+     ],
+     [
+      "reason",
+      "the reason",
+      "a reason",
+      "justification",
+      "the justification",
+      "a justification",
+      "explanation",
+      "the explanation",
+      "an explanation"
+     ],
+     [
+      "claim",
+      "a claim",
+      "the claim",
+      "assertion",
+      "an assertion",
+      "the assertion"
+     ],
+     [
+      "argument structure",
+      "the argument structure",
+      "an argument structure",
+      "structure",
+      "the structure",
+      "blueprint",
+      "the blueprint",
+      "argument blueprint",
+      "the argument blueprint",
+      "framework",
+      "the framework",
+      "argument framework",
+      "the argument framework"
+     ]
+    ],
+    "ablenker": [
+     "for",
+     "headline"
+    ]
+   }
+  }
+ }
+}

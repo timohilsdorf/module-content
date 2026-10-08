@@ -1,0 +1,1311 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-24-debatte-falschinformationen --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:d0aee726ba909225be6ff03fb82225272366620adedd40f0542b826c05c7108e",
+  "masterCommit": "2f179f1",
+  "hintsHash": null,
+  "generatedAt": "2026-10-08",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:0745468410e51f832320f6ecb0efb00bb7c52450312cec44ea27e5310c329b4d"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-24-debatte-falschinformationen",
+ "title": "Debate preparation: Should the state be allowed to remove false information?",
+ "description": "Freedom of expression or protection against disinformation – which matters more? Prepare for your classroom debate: revisit the familiar argument structure, understand the dilemma between freedom of expression and the harm caused by deliberate false information, and explore three fully developed arguments for each side as well as middle-ground solutions. This module takes no position – you will weigh up the arguments in the debate.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "MI.1.2",
+     "description": "Die Schülerinnen und Schüler können Medien und Medienbeiträge entschlüsseln, reflektieren und nutzen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 24,
+ "einheit": "Topic D: Basic concepts, democracy & political thinking",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "debate",
+  "argumentation",
+  "freedom of expression",
+  "false information",
+  "disinformation",
+  "censorship",
+  "Streisand effect",
+  "fact-checking",
+  "labelling",
+  "platform rules",
+  "for and against",
+  "political education"
+ ],
+ "learningObjectives": [
+  "I can apply the argument structure from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]: claim – reason – example.",
+  "I understand the dilemma: freedom of expression is a cornerstone of democracy – but deliberate disinformation can cause real harm.",
+  "I can explain three fully developed arguments on each side of the debate in my own words.",
+  "I know middle-ground solutions: labelling instead of removing content, fact-checking, and the difference between platform rules and a state ban."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-09-argumentieren-preisregulierung",
+  "wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Your debate – your tools",
+   "body": "In **week 24, you will debate a question in class** that experts around the world struggle with: **Should the state be allowed to remove false information?** This module prepares you for it – like [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]], it is deliberately **more than just a knowledge module**: it gives you the tools and material for both sides. **This module takes no position** – you will weigh up the arguments in the debate.\n\nFirst, the tool you know from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] – the **argument structure**:\n\n1. **Claim** – *What do you want to say?* A clear sentence that takes a position.\n2. **Reason** – *Why is it true?* The reason, introduced by **“because”** or **“since”**.\n3. **Example** – *What shows this?* A concrete case or a figure as evidence that can be checked.\n\nWithout a reason and an example, all you have is an **unsupported claim** – and that will not persuade anyone who does not already agree with you. In this debate, you need the structure twice over: for your own arguments, and to recognise whether the other side is actually making an argument – or just making claims.\n\nAnd you bring more prior knowledge than you think: from [[modul:wirtschaft-politik-20-demokratie-als-prinzip]], you know about fundamental rights and the protection of minorities; from [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]], about censorship in authoritarian systems; from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]], about fake news and how it spreads; and from [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]], about how conspiracy narratives work. You are about to turn precisely this knowledge into arguments."
+  },
+  {
+   "type": "text",
+   "title": "The dilemma: freedom versus protection",
+   "body": "Why is this question so difficult? Because two legitimate concerns clash here – a real **dilemma**:\n\n**On one side: freedom of expression.** It is a human right and a cornerstone of democracy ([[modul:wirtschaft-politik-20-demokratie-als-prinzip]]): without the freedom to say things that are uncomfortable, controversial or false, there can be no open negotiation – and no holding those in power to account. Remember: freedom of expression also protects **mistakes**. If you could only say what was officially accepted as true, you would no longer be free.\n\n**On the other side: the harm caused by deliberate disinformation.** A fictional but realistic scenario: one Saturday evening in the fictional municipality of Musterberg, a false report spreads claiming that the **drinking water is contaminated with chemicals** – supposedly “confirmed by an official source”. Within hours: worried families, bottled water shelves stripped bare, an overloaded council phone line, and people taking medication out of fear. On Sunday, the council's denial reaches only a fraction of those who saw the false report. The harm is real – even though not a word of the report was true.\n\nBetween these two concerns lies the question for debate: should the state be allowed to **have such content removed** – actively taken off the internet? Two distinctions are invaluable in the debate:\n\n- **An honest mistake or deliberate disinformation?** Someone who is honestly mistaken is not spreading disinformation. Deliberate disinformation is spread **in the knowledge that it is false**, to deceive people. That sounds clear – but it can be difficult to prove in an individual case.\n- **An opinion or a factual claim?** “I think the indoor swimming pool is ugly” is an opinion – it cannot be “false”. “The drinking water is contaminated” is a factual claim – it is either true or false. The debate concerns false factual claims, not opinions."
+  },
+  {
+   "type": "schaubild",
+   "title": "Weighing up the arguments",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 490,
+      "y": 10,
+      "width": 252.7,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1c3d5a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2091209357,
+      "type": "text",
+      "text": "Weighing the arguments",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 345,
+      "y": 60,
+      "width": 410.45,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#2b6a9e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 150513859,
+      "type": "text",
+      "text": "Should the state be allowed to remove false information?",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "waage-balken",
+      "x": 150,
+      "y": 130,
+      "width": 950,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#243b53",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 517306605,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        950,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "waage-staender",
+      "x": 615,
+      "y": 130,
+      "width": 20,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#243b53",
+      "backgroundColor": "#243b53",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2114754659,
+      "type": "rectangle"
+     },
+     {
+      "id": "waage-fuss",
+      "x": 565,
+      "y": 230,
+      "width": 120,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#243b53",
+      "backgroundColor": "#243b53",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 686936909,
+      "type": "rectangle"
+     },
+     {
+      "id": "schnur-links-1",
+      "x": 150,
+      "y": 130,
+      "width": 110,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#4f7396",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1984009219,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -110,
+        180
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "schnur-links-2",
+      "x": 150,
+      "y": 130,
+      "width": 410,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#4f7396",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 928244141,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        410,
+        180
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "schnur-rechts-1",
+      "x": 1100,
+      "y": 130,
+      "width": 410,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#4f7396",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 26614691,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -410,
+        180
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "schnur-rechts-2",
+      "x": 1100,
+      "y": 130,
+      "width": 110,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#4f7396",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 522527757,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        110,
+        180
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "pro-schale",
+      "x": 20,
+      "y": 310,
+      "width": 560,
+      "height": 650,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#d0ebff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 741912387,
+      "type": "rectangle"
+     },
+     {
+      "id": "pro-titel",
+      "x": 45,
+      "y": 335,
+      "width": 510,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1415518829,
+      "type": "rectangle"
+     },
+     {
+      "id": "pro-arg-1",
+      "x": 45,
+      "y": 431,
+      "width": 510,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2022166243,
+      "type": "rectangle"
+     },
+     {
+      "id": "pro-arg-2",
+      "x": 45,
+      "y": 611,
+      "width": 510,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 264979661,
+      "type": "rectangle"
+     },
+     {
+      "id": "pro-arg-3",
+      "x": 45,
+      "y": 791,
+      "width": 510,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 420608643,
+      "type": "rectangle"
+     },
+     {
+      "id": "contra-schale",
+      "x": 670,
+      "y": 310,
+      "width": 560,
+      "height": 650,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 889398061,
+      "type": "rectangle"
+     },
+     {
+      "id": "contra-titel",
+      "x": 695,
+      "y": 335,
+      "width": 510,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1788195363,
+      "type": "rectangle"
+     },
+     {
+      "id": "contra-arg-1",
+      "x": 695,
+      "y": 431,
+      "width": 510,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2020619661,
+      "type": "rectangle"
+     },
+     {
+      "id": "contra-arg-2",
+      "x": 695,
+      "y": 611,
+      "width": 510,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 771847619,
+      "type": "rectangle"
+     },
+     {
+      "id": "contra-arg-3",
+      "x": 695,
+      "y": 791,
+      "width": 510,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1162607597,
+      "type": "rectangle"
+     },
+     {
+      "id": "zwischenloesungen",
+      "x": 20,
+      "y": 1020,
+      "width": 1210,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 41141603,
+      "type": "rectangle"
+     },
+     {
+      "id": "fazit",
+      "x": 260,
+      "y": 1190,
+      "width": 526.55,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1c3d5a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1671427661,
+      "type": "text",
+      "text": "The scales are balanced on purpose:\nThis module takes no position – you weigh up the arguments in your debate.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "UVuxQi3j_bajHa24c3V37",
+      "x": 204.47,
+      "y": 350.5,
+      "width": 191.06,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#14599a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1478893677,
+      "type": "text",
+      "text": "FOR: allow removal",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pro-titel",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o0u2pVRufhqbmcbKwFrbx",
+      "x": 199.57,
+      "y": 461,
+      "width": 200.87,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1354861261,
+      "type": "text",
+      "text": "1. Protect informed opinions\nDemocracy needs real facts –\nor people vote on\nfabrications.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pro-arg-1",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "BfqsvQBvrziyW_5Cw9o_C",
+      "x": 189.82,
+      "y": 651,
+      "width": 220.37,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1262528813,
+      "type": "text",
+      "text": "2. Prevent panic and harm\nThe fake water alert spreads\nfaster than any denial.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pro-arg-2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "vfqd2Fzr6REreDrLVQ--b",
+      "x": 187.16,
+      "y": 821,
+      "width": 225.69,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 957152141,
+      "type": "text",
+      "text": "3. Protect reputations\nMade-up claims ruin lives –\ncorrections never\nreach everyone.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "pro-arg-3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ZjpaIUWHOJhRkZPDF23HL",
+      "x": 820.58,
+      "y": 350.5,
+      "width": 258.85,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#a7370c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 576717293,
+      "type": "text",
+      "text": "AGAINST: no removal power",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "contra-titel",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "A6lj5zyRz-SD1T8nzGa-H",
+      "x": 838.13,
+      "y": 471,
+      "width": 223.73,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#c4410e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1279474765,
+      "type": "text",
+      "text": "1. Who decides what is false?\nKnowledge evolves – state\nchecks can be wrong too.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "contra-arg-1",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "gD_Bqfl86gnczOV91xfGD",
+      "x": 853.36,
+      "y": 641,
+      "width": 193.29,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#c4410e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 512764589,
+      "type": "text",
+      "text": "2. Risk of abuse\nAuthoritarian systems often\ncall criticism\n‘false information’.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "contra-arg-2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "2ODhsfReszr_Ugsm13dJo",
+      "x": 860.85,
+      "y": 831,
+      "width": 178.3,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#c4410e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1240485133,
+      "type": "text",
+      "text": "3. Streisand effect\nRemoval draws even more\nattention to content.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "contra-arg-3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "y5BPh_-2ZzAuhrcbOX62d",
+      "x": 414.07,
+      "y": 1051.25,
+      "width": 421.87,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#216e2f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 769467245,
+      "type": "text",
+      "text": "Between the two sides: middle-ground solutions\nLabels, not removal · independent fact-checks\nReduce visibility · platform rules, not state bans",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "zwischenloesungen",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram presents the question ‘Should the state be allowed to remove false information?’ as a set of scales that are deliberately balanced: the module takes no position – learners weigh up the arguments in their debate. One pan holds three arguments for giving the state the power to remove content, the other holds three arguments against it; below the scales are middle-ground solutions between the two sides. Key points: – FOR 1, protecting informed opinion: democracy needs real information – otherwise people vote on fabrications. – FOR 2, preventing panic and harm: the fictional drinking water alert takes effect faster than any denial. – FOR 3, protecting reputations: made-up claims can ruin lives – corrections never reach everyone. – AGAINST 1, who decides what is false?: knowledge develops – even a state fact-checking body can be wrong. – AGAINST 2, risk of abuse: authoritarian systems often simply call criticism ‘false information’. – AGAINST 3, the Streisand effect: removing content draws even more attention to it. – Between the two sides are middle-ground solutions: labelling instead of removing content, independent fact-checks, reducing visibility, and platform rules instead of state bans. – Conclusion: the scales are deliberately balanced; learners weigh up the arguments in the debate.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Arguments for the debate: for and against",
+   "body": "Here are three fully developed arguments for each side – each following the structure **claim – reason – example**. All examples are fictional or draw on general historical experience; you do not need real current cases of content removal for the debate.\n\n**FOR: the state should be allowed to remove deliberately false information**\n\n1. **Claim:** Removing content protects the way people form opinions in a democracy. **Reason:** Democracy depends on those affected forming their opinions on the basis of real information ([[modul:wirtschaft-politik-20-demokratie-als-prinzip]] and [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]]) – deliberate disinformation distorts that basis. **Example:** If a made-up report about supposed secret plans circulates widely before a fictional local vote, many people end up voting on a fabrication rather than the issue itself.\n2. **Claim:** Removing content prevents panic and real harm. **Reason:** False reports about dangers spread faster than any denial – and people act on them. **Example:** The fictional drinking water alert in Musterberg: empty shelves, overloaded emergency phone lines, frightened families – the harm was real, even though not a word was true.\n3. **Claim:** Removing content protects individuals from damage to their reputations. **Reason:** Made-up factual claims can ruin lives, and corrections never reach everyone who saw the false report ([[modul:wirtschaft-politik-22-medien-und-meinungsbildung]]). **Example:** A fictional restaurant is falsely accused of serving rotten meat – customers stay away, even months after the denial.\n\n**AGAINST: the state should not be allowed to remove content**\n\n1. **Claim:** Who decides what is false? **Reason:** Whether a claim is true often only becomes clear later – knowledge develops, and authorities can be wrong too. A state body that issues binding verdicts of “true” and “false” is difficult to reconcile with freedom of expression. **Example:** A report removed too hastily may turn out to be partly accurate months later – by then, the mistake is hard to put right, and trust has been damaged twice over.\n2. **Claim:** The power to remove content invites abuse. **Reason:** Tools of power rarely remain limited to their original purpose – anyone who can decide what gets removed can also use that power to silence criticism. **Example:** You know the pattern from [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]]: authoritarian systems regularly justify censorship as a “fight against false information” – but what mainly gets removed is whatever displeases the leadership.\n3. **Claim:** Removing content can have the opposite effect. **Reason:** Banned content seems all the more interesting – and its removal itself feeds the narrative of “suppressed knowledge” that you know from [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]]. **Example:** The **Streisand effect** takes its name from a case in 2003: an attempt to have a single photograph removed from the internet brought that very photograph worldwide attention.\n\n**Remember:** Both sides follow the argument structure properly – and both draw on knowledge from this topic. You will decide in the debate which arguments carry more weight."
+  },
+  {
+   "type": "text",
+   "title": "Middle-ground solutions: between leaving content up and taking it down",
+   "body": "In the debate, it can quickly seem as though there are only two options: leave everything up or remove everything. In fact, there is a whole set of tools in between – knowing them helps you make more nuanced arguments:\n\n- **Labelling instead of removing content:** The content stays online but gets a visible notice (“disputed”, “reviewed by fact-checkers”) and a link to reliable information. The report remains available to read – but nobody comes across it without a warning.\n- **Independent fact-checks:** Specialist editorial teams check viral claims and publish reports showing how they reached their conclusions – correction through **more** speech rather than a ban. This connects to the culture of correcting errors discussed in [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]].\n- **Reducing visibility:** Platforms can recommend and circulate false reports less often without removing them – the report can still be found, but the algorithm no longer amplifies it.\n- **Platform rules or a state ban?** An important distinction: **platform rules** are the house rules of private companies – break them and you can be removed from the service, just as you can be expelled from a club. A **state ban**, on the other hand, applies to everyone, is enforced through state power and is a matter for the courts. For the debate, this means you can oppose removal by the state while still believing that platforms should take action – or the other way round.\n- **Media literacy as an antidote:** The more people master the three checks from [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]] and the checking questions from [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]], the less harm false reports cause – without any intervention at all.\n\nNow you have everything: the structure, the dilemma, three arguments for each side and the middle-ground solutions. **This module has taken no position – now it is your turn: you will weigh up the arguments in your debate.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: the dilemma, arguments and middle-ground solutions",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.falschinformationen-abwaegen"
+   ],
+   "intro": "Show that you have the tools you need for the debate. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Which three parts make up a complete argument according to the structure in [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]]?",
+     "options": [
+      {
+       "text": "Introduction, main body and conclusion."
+      },
+      {
+       "text": "Thesis, proof and counterproof."
+      },
+      {
+       "text": "Opinion, feeling and volume."
+      },
+      {
+       "text": "Claim, reason and example.",
+       "correct": true
+      }
+     ],
+     "explanation": "The structure is: claim (What do you want to say?), reason introduced by “because” or “since” (Why is it true?), and example (What shows this?). “Introduction – main body – conclusion” describes an essay, not a single argument. And opinions, feelings or speaking loudly will not persuade anyone who disagrees with you – that is exactly what the structure should help you avoid in the debate."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Why is freedom of expression considered a cornerstone of democracy?",
+     "options": [
+      {
+       "text": "Because it guarantees that all opinions are correct."
+      },
+      {
+       "text": "Because without the freedom to say uncomfortable and even false things, open negotiation and holding those in power to account would be impossible.",
+       "correct": true
+      },
+      {
+       "text": "Because it only applies to politicians."
+      },
+      {
+       "text": "Because it allows people to insult others."
+      }
+     ],
+     "explanation": "Democracy involves negotiation ([[modul:wirtschaft-politik-19-was-ist-politik]] and [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]) – and negotiation needs free speech, even when it is uncomfortable, controversial or mistaken. If people could only say what had official confirmation, they could no longer criticise those in power. Freedom of expression does not guarantee accuracy – it also protects mistakes. It applies to everyone, not just politicians, but it still has limits: insults and defamation are not protected."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "What does the fictional drinking water scenario in Musterberg show?",
+     "options": [
+      {
+       "text": "That false reports are harmless as long as they are quickly denied."
+      },
+      {
+       "text": "That you should always boil tap water."
+      },
+      {
+       "text": "That deliberate false reports can cause real harm – panic, panic buying and overwhelmed authorities – even though not a word is true.",
+       "correct": true
+      },
+      {
+       "text": "That local councils should not publish denials."
+      }
+     ],
+     "explanation": "The scenario illustrates the case for removal in this dilemma: the harm occurs before the correction takes effect – people empty the shelves and become frightened, while the denial reaches only a fraction of them. Such a report is certainly not harmless, even though it is entirely made up. The example has nothing to do with actual drinking water quality – it is deliberately fictional. And publishing denials is, of course, still the right and important thing to do; they are simply slower than the false report."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What is the central idea of the argument for removal that says ‘Removing content protects the way people form opinions in a democracy’?",
+     "options": [
+      {
+       "text": "Democratic decisions need real information – people voting on fabrications are not really deciding on the issue itself.",
+       "correct": true
+      },
+      {
+       "text": "The state should tell people what opinions to hold."
+      },
+      {
+       "text": "Voting should be abolished when false reports are circulating."
+      },
+      {
+       "text": "Only experts should be allowed to vote on important questions."
+      }
+     ],
+     "explanation": "The argument concerns the foundation of democracy: those affected decide for themselves ([[modul:wirtschaft-politik-20-demokratie-als-prinzip]]) – but a decision based on deliberate fabrications is no longer a genuine decision on the issue. So the aim is to protect the information people base their decisions on, not to dictate opinions, abolish voting or establish rule by experts – those would be distorted versions of the argument that would be easy, but unfair, to attack."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "What is the point of the argument against removal that asks ‘Who decides what is false?’",
+     "options": [
+      {
+       "text": "It claims that truth does not exist at all."
+      },
+      {
+       "text": "Whether a claim is true often only becomes clear later – a state body that issues binding verdicts of ‘true’ and ‘false’ is problematic and can be wrong.",
+       "correct": true
+      },
+      {
+       "text": "It demands that false reports be rewarded."
+      },
+      {
+       "text": "It denies that the drinking water alert caused any harm."
+      }
+     ],
+     "explanation": "The argument does not deny truth itself – it questions whether an authority can reliably establish it at the moment content is removed: knowledge develops, authorities make mistakes, and content removed too hastily may later turn out to be (partly) accurate. The side opposing removal does not deny the harm caused by false reports either – it questions whether removal by the state is the right remedy. And nobody is talking about ‘rewards’ anyway."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "How does [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]] support the argument against removal about the risk of abuse?",
+     "options": [
+      {
+       "text": "It shows that authoritarian systems do not remove any content at all."
+      },
+      {
+       "text": "It shows that false information only occurs in authoritarian systems."
+      },
+      {
+       "text": "It shows that censorship is always justified on the grounds of honesty."
+      },
+      {
+       "text": "It shows the pattern: authoritarian systems regularly justify censorship as a ‘fight against false information’ – but what mainly gets removed is criticism.",
+       "correct": true
+      }
+     ],
+     "explanation": "From [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]], you know about internet censorship in authoritarian systems – and how it is justified: officially, they are combating ‘false information’ and ‘rumours’; in practice, whatever displeases the leadership disappears. The argument against removal therefore warns that the power to remove content is a tool of power whose purpose can change. Authoritarian systems certainly do remove content – and false reports exist everywhere; that is precisely why the question of who controls this tool is so sensitive."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "What does the Streisand effect describe?",
+     "options": [
+      {
+       "text": "An attempt to remove content draws even more attention to it – as in 2003, when a lawsuit over a single photograph made that very photograph famous worldwide.",
+       "correct": true
+      },
+      {
+       "text": "Removed content disappears from the internet forever."
+      },
+      {
+       "text": "Fact-checks automatically make false reports more popular."
+      },
+      {
+       "text": "People immediately forget false reports when they are removed."
+      }
+     ],
+     "explanation": "The effect is named after a case from 2003: an attempt to have a single coastal photograph removed made it famous worldwide. For the debate, this means that removing content can backfire – ‘If they are banning it, it must be explosive’ – and feeds the narrative of suppressed knowledge ([[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]]). It is certainly not true that removed content disappears forever or is immediately forgotten – copies keep circulating. And fact-checking is not removal; it responds with more speech, not less."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "What is the difference between platform rules and a state ban?",
+     "options": [
+      {
+       "text": "There is no difference – they are the same thing."
+      },
+      {
+       "text": "Platform rules apply to everyone, while state bans only apply to registered users."
+      },
+      {
+       "text": "Platform rules are the house rules of private companies for their services – a state ban applies to everyone, is enforced through state power and is a matter for the courts.",
+       "correct": true
+      },
+      {
+       "text": "State bans are non-binding recommendations to platforms."
+      }
+     ],
+     "explanation": "The distinction is central to the debate: platform rules work like club rules – a private company decides what applies on its service, and anyone who breaks the rules can be removed. A state ban, on the other hand, is binding on everyone, is enforced through state power if necessary and must be open to review by the courts. That is why you can take a nuanced position in the debate: oppose removal by the state but support action by platforms – or the other way round. In any case, the two should not be treated as the same thing."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-argumente",
+   "title": "Classify: an argument for, an argument against – or an unsupported claim?",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.falschinformationen-abwaegen"
+   ],
+   "intro": "Assign each statement to the right category: **argument for** (supporting removal by the state, with a reason), **argument against** (opposing removal by the state, with a reason), or **unsupported claim** (on either side – without a reason or evidence). Remember: what counts is the **structure** of the statement, not whether you agree with it.",
+   "modus": "wortbank",
+   "text": "‘The state should be allowed to remove deliberate false reports because they cause panic and real harm – like the fictional drinking water alert that led to panic buying and overloaded emergency phone lines.’ {{1}}\n‘Removing content is simply right; everyone knows that.’ {{2}}\n‘The state should not be allowed to remove content because what is true often only becomes clear later – a report removed too hastily may turn out to be partly true.’ {{3}}\n‘Anyone who opposes removal does not care about the truth.’ {{4}}\n‘Giving the state the power to remove content is dangerous because it can be turned against critics – authoritarian systems regularly justify their censorship as a fight against false information.’ {{5}}\n‘Someone should finally give the internet a proper clean-up.’ {{6}}\n‘Removing content protects informed opinion because otherwise voters decide on fabrications rather than the issue itself – for example, when a made-up report about secret plans circulates before a local vote.’ {{7}}\n‘Removing content can have the opposite effect because content that has been taken down gets even more attention – the Streisand effect has shown this since 2003.’ {{8}}\n‘The state should be allowed to remove content because made-up claims can ruin lives and corrections never reach everyone – as with the fictional restaurant falsely accused of serving rotten meat.’ {{9}}\n‘Freedom of expression is more important anyway, end of story.’ {{10}}",
+   "luecken": [
+    {
+     "antworten": [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "a pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of removal",
+      "argument in favor of removal",
+      "for",
+      "pro"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "a con argument",
+      "con-argument",
+      "a con-argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument",
+      "a contra-argument",
+      "argument against removal",
+      "an argument against removal",
+      "against",
+      "con",
+      "contra"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "a con argument",
+      "con-argument",
+      "a con-argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument",
+      "a contra-argument",
+      "argument against removal",
+      "an argument against removal",
+      "against",
+      "con",
+      "contra"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "a pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of removal",
+      "argument in favor of removal",
+      "for",
+      "pro"
+     ]
+    },
+    {
+     "antworten": [
+      "argument against",
+      "an argument against",
+      "con argument",
+      "a con argument",
+      "con-argument",
+      "a con-argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument",
+      "a contra-argument",
+      "argument against removal",
+      "an argument against removal",
+      "against",
+      "con",
+      "contra"
+     ]
+    },
+    {
+     "antworten": [
+      "argument for",
+      "an argument for",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "a pro-argument",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "argument in favour of removal",
+      "argument in favor of removal",
+      "for",
+      "pro"
+     ]
+    },
+    {
+     "antworten": [
+      "unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "unsubstantiated claim",
+      "an unsubstantiated claim",
+      "unsubstantiated assertion",
+      "an unsubstantiated assertion",
+      "mere claim",
+      "a mere claim",
+      "mere assertion",
+      "a mere assertion",
+      "bare assertion",
+      "a bare assertion"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-argument-zusammensetzen",
+   "title": "Put the argument back together",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen"
+   ],
+   "intro": "An argument against removal has been split into its parts. Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Careful:** Two words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "{{1}}: ‘The state should not simply be allowed to remove false information.’\n{{2}}: ‘…, {{3}} of the risk that such a power could be abused – whoever decides what is false can also label inconvenient criticism as false information.’\n{{4}}: ‘{{5}}, authoritarian systems regularly justify their censorship as a fight against false information – but what mainly gets removed is whatever displeases the leadership.’\nWithout the {{6}} and the example, only an unsupported {{7}} would remain. Only all three parts together form the complete {{8}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "Claim",
+      "a claim",
+      "the claim",
+      "assertion",
+      "an assertion",
+      "the assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "Reason",
+      "a reason",
+      "the reason",
+      "justification",
+      "a justification",
+      "the justification",
+      "explanation",
+      "an explanation",
+      "the explanation"
+     ]
+    },
+    {
+     "antworten": [
+      "because"
+     ]
+    },
+    {
+     "antworten": [
+      "Example",
+      "an example",
+      "the example",
+      "illustration",
+      "an illustration",
+      "the illustration"
+     ]
+    },
+    {
+     "antworten": [
+      "For example",
+      "for instance"
+     ]
+    },
+    {
+     "antworten": [
+      "reason",
+      "the reason",
+      "a reason",
+      "justification",
+      "the justification",
+      "a justification",
+      "explanation",
+      "the explanation",
+      "an explanation"
+     ]
+    },
+    {
+     "antworten": [
+      "claim",
+      "a claim",
+      "the claim",
+      "assertion",
+      "an assertion",
+      "the assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument structure",
+      "the argument structure",
+      "an argument structure",
+      "structure",
+      "the structure",
+      "blueprint",
+      "the blueprint",
+      "argument blueprint",
+      "the argument blueprint",
+      "framework",
+      "the framework",
+      "argument framework",
+      "the argument framework"
+     ]
+    }
+   ],
+   "ablenker": [
+    "for",
+    "headline"
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: your contribution to the debate",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.falschinformationen-abwaegen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Write your own short argument on the question ‘Should the state be allowed to remove false information?’ – following the structure exactly: (1) a clear claim (FOR or AGAINST – you are welcome to argue for the side you disagree with), (2) a reason introduced by ‘because’ or ‘since’, (3) an example as evidence. Important: invent your own fictional scenario or draw on knowledge from [[modul:wirtschaft-politik-20-demokratie-als-prinzip]], [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]], [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]] and [[modul:wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren]] – do not use real current cases of content removal.",
+     "hint": "Use the structure as a checklist: does your first sentence clearly take a position? Does your second sentence give a reason that could make even the other side think (not a fake reason such as ‘because everyone knows that’)? Is your example concrete and easy to follow? Ideas for fictional scenarios: a made-up product warning, a fabricated quotation from a fictional person, or a false accident report.",
+     "solution": "There is no single model solution – check your argument against these criteria: (1) The claim is a complete statement with a clear position on the question. (2) The reason gives a genuine justification and connects logically to the claim – test it: does ‘claim, because reason’ make sense as a sentence? (3) The example is concrete, fictional or based on general historical experience, and provides evidence for precisely that reason. Example structure (against removal): ‘The state should have false reports labelled rather than be allowed to remove them, because an authority responsible for removal can make mistakes that are hard to put right – if a warning that was taken down later turns out to be justified, trust is damaged twice over.’"
+    },
+    {
+     "prompt": "Make specific preparations for the debate in week 24: choose what you consider the strongest argument FOR and the strongest argument AGAINST from the module. For each, write down a possible objection from the other side – and how you would respond to it. Include a middle-ground solution (labelling, fact-checking or platform rules) in your response at least once.",
+     "hint": "An objection usually challenges the reason (‘Is that reason really valid?’) or the example (‘Is that case typical?’). Middle-ground solutions are often the strongest move in a debate: they show how much room there is between leaving content up and taking it down.",
+     "solution": "An example of the pattern: argument for removal, ‘Removing content prevents panic’ – possible objection: ‘By the time an authority has checked and removed the content, panic has already set in – removal is too slow.’ Possible response: ‘That is partly true – which is exactly why a combination would make sense: platforms immediately label the content and limit its spread while it is being checked; removal only follows after the check.’ Argument against removal, ‘Risk of abuse’ – possible objection: ‘We have independent courts that would stop any abuse.’ Possible response: ‘Courts help – but they only rule after the event, and the tool remains available to every future government; labelling instead of removal provides much of the protection without creating that tool.’ What matters is that the objection and response address the reason or the example – not the person."
+    },
+    {
+     "prompt": "Sort out the middle-ground solutions: in one or two sentences each, explain the difference between (a) labelling instead of removing content, (b) independent fact-checks, (c) reduced visibility, and (d) platform rules versus a state ban. Then write down which of these four middle-ground solutions you think would be most effective in the drinking water scenario – giving a reason that follows the argument structure.",
+     "hint": "For the drinking water scenario, ask yourself above all: what helps QUICKLY – before panic sets in? And which measures need the state, and which can platforms take themselves?",
+     "solution": "(a) Labelling: the content stays online but carries a warning with a link to reliable sources. (b) Fact-checking: an independent editorial team checks the claim and publishes the result – correction through more speech. (c) Reduced visibility: the algorithm stops recommending the content, without removing it. (d) Platform rules are a service's private house rules; a state ban applies to everyone and is enforced through state power. Example response to the scenario: ‘I think a combination of labelling and reduced visibility would be most effective, because it works within minutes and does not require the state to judge what is true – for example, an immediate warning on the Musterberg report could have prevented a lot of panic buying, even before the council had finished writing its denial.’ Other answers are also correct if the reasoning holds up."
+    }
+   ]
+  }
+ ]
+}
