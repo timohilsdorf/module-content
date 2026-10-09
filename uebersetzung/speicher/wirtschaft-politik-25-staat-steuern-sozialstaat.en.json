@@ -1,0 +1,692 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:bc1bb56ca168b3163d0da8410db6ad5056ca48cf184a70ae9f21d6b847effa46",
+   "text": "The state in the economy: taxes, budgets and the welfare state"
+  },
+  "description": {
+   "quelle": "sha256:f7b56cb67a9dc98c2911021e27a9042e74744fe08872ad6d719a1d56ec5c90d0",
+   "text": "Everyone pays taxes – but what are they actually for? This module opens the topic ‘Politics & Economics’: you will learn why the state plays a part in the economy, which three basic types of tax fill its coffers, how to read a government budget with a surplus, deficit and government debt – and why the welfare state is essentially one big insurance scheme."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:1ea734fe4622af451cab77fb6d96562cd1e86e3d5679e33c9231a6f8fdd4e89f",
+   "text": "Topic E: Politics & Economics"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:dbfaee9b324ae2418533fb5b9fd89dd1dce97446b7a12db02f84c5f72fd546d1",
+   "text": "state"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:4045fd1653e65619ac76cbe787a138056a9cdc22dad5e71a22aa3eafe6d3c473",
+   "text": "taxes"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:230825a56eff3af355a2de4a8e8e79bae132a78afdd4dd12bf91b5b79b95d72f",
+   "text": "income tax"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:e7c210b51a5d4fcfa84fd207e889d9923ce75703a308869d0f2eda0c6162755d",
+   "text": "value added tax"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:3fc3c7890e13f62d4dd422af9ceb776227f52743f59f118cbc53eb8ee7028c39",
+   "text": "corporation tax"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:a07efe9304f1ee4114251632d9d743ea1fc7fa00031aaf3b605cb7ba1d85920e",
+   "text": "government budget"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:fe59a735a090a3b35b2a75bc0deaf99bf54433cb6fac6ad2576507d9b7148912",
+   "text": "surplus"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:66321e2940535192602866aa953180d800ec915de2b04c0cb184091816cca602",
+   "text": "deficit"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:553b849c264d8a25fae584d155a4a18a450bf893e05790297f45259c7712d5c9",
+   "text": "government debt"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:f379afb8a4213e50dda47e010fa7e28098d378be7d9c543389d0bb3fcb458396",
+   "text": "welfare state"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:9d0f4034238543a2d7de1dd0cf50e5b319b541e215292f59625393e6f2ef230b",
+   "text": "AHV"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:db7db47337f74abdec207c4088af73efe946e2eab36f54e254d7e18900201f5b",
+   "text": "public services"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:ccfe3b80821b9ec908c7a6149c7ab99ba7f3cd8401e685a795c70eebbff73910",
+   "text": "I can explain why the state plays a part in the economy: it provides services that the market does not deliver, sets rules for economic activity and protects vulnerable people."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:9544cc7cf4c47e8c9be23196be0fbaf57b39a796a29667ae3808f51d43895f3f",
+   "text": "I can distinguish between the three basic types of tax – income tax, value added tax and corporation tax – and use everyday examples to explain who pays each one and what it is charged on."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:d5a3f5e5b90518b74cf95ee6937da3a068aee46df2938c7a8c35cefdf2ee8156",
+   "text": "I can read a government budget in simple terms: compare revenue and spending and distinguish between a surplus, a deficit and government debt."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:96b182439334a545ab24612a7b0d1faca434da6fe0f58af14b5e31e3a554f799",
+   "text": "I can explain the basic idea of the welfare state as one big insurance scheme and connect it to AHV and IV from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:18ddd8987c223c0ca89096abd36d0a62c38b4f94477c1b64bc64e79ebddce3d6",
+   "text": "Why doesn't anyone volunteer to build a road?"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:4c68485ae87017e7bfb7b17e37d6a75f878341772abf12760df6d7f1caf7376d",
+   "text": "Think about your journey to school this morning: the road, the pavement, the street lighting, perhaps the bus – and at the end, a school building with teachers. You did not pay for any of that today. And in the market you know from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]], [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] and [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]], most of it would never be provided.\n\nWhy not? Take **street lighting**: if a private company put up lamps and asked for money, who would pay? The light shines for everyone – **nobody can be excluded from benefiting**. So everyone waits for someone else to pay – and in the end, it stays dark, even though everyone wants the light. The market fails to provide such **public services**: without shared funding, roads, schools, the police, the fire service or flood protection would not exist, or would only be available to a few people.\n\nThat is why the **state** plays a part in the economy – you already know it as a participant in the circular flow of the economy ([[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]] and [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]). It has three main tasks:\n\n1. **Provide** what the market does not deliver: roads, schools and security.\n2. **Set rules:** Fair competition needs rules – for example, rules against collusion and the abuse of monopoly power ([[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]). And from [[modul:wirtschaft-politik-19-was-ist-politik]], you know that this is precisely what politics means: negotiating shared, binding rules.\n3. **Protect vulnerable people:** People who are old, ill or disabled should not be left without support – more on this later when we look at the welfare state.\n\nThat leaves the crucial question: **Where does the state get the money for all this?**"
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:1f9c63109f0a2b511e527fa9e3e4f5150aeb590192c332ea81e8ccfe009d5bcb",
+   "text": "Taxes: the state's main source of revenue"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:3aca7c4b8cd4063cb72620d29aa1fa25ca3ada380d0dfb345663f78142b9003e",
+   "text": "The answer is on every till receipt and every payslip: **taxes**. A tax is a **compulsory payment to the state with no direct service in return**. ‘No direct service in return’ means you do not get a receipt for a particular service in exchange for your taxes – they go into a large shared pot that pays for roads, schools and everything else.\n\nYou should be able to distinguish between three **basic types**:\n\n- **Income tax:** People who work and earn money pay part of their income to the state – once a year through their tax return. The more someone earns, the more they pay.\n- **Value added tax (VAT):** It is **included in the price** of almost everything you buy – from a sandwich to a mobile phone. You pay it without noticing; the shop passes it on to the state. Because it is charged on consumption and is not collected directly from you, it is called an **indirect tax** – income tax, by contrast, is a **direct tax**.\n- **Corporation tax:** Companies pay tax on their **profit** – what is left after all costs have been deducted. If a company makes no profit, it pays no tax on profits.\n\nTwo distinctions matter: **fees** are not taxes – you receive a direct service in return, such as a new passport or a parking space. And the **AHV and IV deductions** on your payslip ([[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]) are not taxes either: they are **insurance contributions** – we will look more closely at what they are for in a moment.\n\nPoliticians constantly debate **how high** taxes should be – here, we are only looking at the principle: without taxes, there can be no state that provides services, sets rules and offers protection."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:fcabf39c210285fce102248c5169608e7a94b40856e420fbaf5cb10a24eba1ff",
+   "text": "Video recommendation (external): taxes explained simply"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:ccc2b177cfab62868fdabb17775e40b178ae1ddf0c22baccbfdb6c65cec6eeff",
+   "text": "A useful introduction is the explainer video **‘Steuern in Deutschland einfach erklärt’** by the channel explainity (3:21). It uses Germany as an example to show why the state collects taxes and what it uses them for – the same principle applies here, even if some names and figures differ. The video is not embedded here – **you will find the link in the sources and materials at the bottom of this module**.\n\nKeep two questions in mind as you watch: (1) What does the state spend tax revenue on in the video – and which of these areas will you see again in this module's budget diagram? (2) The video distinguishes between direct and indirect taxes: which of these two types do income tax and VAT belong to?"
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:7afc13f8d258035fc1ffe8e236646a9e85cb904fb823a96c7f65587b91b510e9",
+   "text": "The government budget at a glance"
+  },
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:81324a611fcc0234a42e58e5dd0202cd7702266e5379783379895ea17d9a80fd",
+   "text": "The government budget: revenue and spending"
+  },
+  "blocks[3].szene.elemente[1].text": {
+   "quelle": "sha256:44af4a1cd98a07813d3bd5aa5f91a36eb02ff4a038cbac9903504f48067ab842",
+   "text": "A simple overview: where the money comes from – and where it goes"
+  },
+  "blocks[3].szene.elemente[2].text": {
+   "quelle": "sha256:cea5fe5a4c008fcc9b0df1e4ce0a9a7136bbd3b9be69adc2551e52bb7ab580be",
+   "text": "REVENUE"
+  },
+  "blocks[3].szene.elemente[3].text": {
+   "quelle": "sha256:0a5f048e6584f5db9aeb7bfb81f869eff0c0b3a8c3bbf54b1fa1b7e066193e34",
+   "text": "SPENDING"
+  },
+  "blocks[3].szene.elemente[24].text": {
+   "quelle": "sha256:bb839fa631b930df65e4a933dc35d4f4142dcca4124a4a46d1e31ffe08933c09",
+   "text": "Income tax\non pay and income"
+  },
+  "blocks[3].szene.elemente[25].text": {
+   "quelle": "sha256:cb15619cbd712c82dbbab4c65f8719991e85e6b226da8fd917729c62d2487026",
+   "text": "Value added tax\non purchases –\nincluded in the price"
+  },
+  "blocks[3].szene.elemente[26].text": {
+   "quelle": "sha256:3016411a8a6e502180f7d4a7a5b8e27a9db6e9120ec76297f71b60e931ca4cde",
+   "text": "Corporation tax\non company\nprofits"
+  },
+  "blocks[3].szene.elemente[27].text": {
+   "quelle": "sha256:0b6537bf807c04196bed59cf4eaa78fb365ca7152fdb371544965b507bb09422",
+   "text": "Fees and other sources\ne.g. ID document\nor parking fees"
+  },
+  "blocks[3].szene.elemente[28].text": {
+   "quelle": "sha256:c93d805e1e77837e6f6442d5f2c80c225dac861f84b12b38eaaf822e1fb338ad",
+   "text": "STATE\nuses its budget\nto plan revenue\nand spending"
+  },
+  "blocks[3].szene.elemente[29].text": {
+   "quelle": "sha256:3854cd8dcf3a2f9263017e29b29e19e2d9bda88556db0ad9e44f40a4350743fb",
+   "text": "Education\nschools, teachers"
+  },
+  "blocks[3].szene.elemente[30].text": {
+   "quelle": "sha256:e7159c937f9b0f285e6a281365e86b8a762e823eb1fc15dc98f7e9556a79abf7",
+   "text": "Roads and transport\nconstruction, upkeep,\nbus services"
+  },
+  "blocks[3].szene.elemente[31].text": {
+   "quelle": "sha256:18597bf8d257985d05d139bf2407f7130a150714540150b92c0a4b02af961754",
+   "text": "Security\npolice, fire service,\ncourts"
+  },
+  "blocks[3].szene.elemente[32].text": {
+   "quelle": "sha256:4f8384b672766b3e0e2f5046ab9b660ea2771beb75264c5ecf59ae96a8997de4",
+   "text": "Health\nhospitals, prevention"
+  },
+  "blocks[3].szene.elemente[33].text": {
+   "quelle": "sha256:7931ddbd6a1dad97741a1d4c7231d81789d5c4bb6e1a6b082d29783edbb8d05d",
+   "text": "Social welfare\nfunding for AHV\nand IV, emergency aid"
+  },
+  "blocks[3].szene.elemente[34].text": {
+   "quelle": "sha256:58ba0c0232a6503cd5a6364121ed4bb5b922273f51eb4ccb8994252e83743cc4",
+   "text": "Revenue exceeds spending = surplus – the cushion (reserves) grows\nSpending exceeds revenue = deficit – the state must borrow money\nDeficits over many years = government debt – borrowed money plus interest"
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:dd7b6447a6e803fee2cc56a11f0227c16962027686e5fcaf0c4cc29a8c04dff5",
+   "text": "The diagram ‘The government budget: revenue and spending’ gives a simple overview of where the state's money comes from and where it goes. Four sources of revenue flow to the state, which uses its budget to plan revenue and spending and distributes the money across five main areas of responsibility. Key points: – The state's revenue comes from income tax (on pay and income), value added tax (on purchases – it is included in the price), corporation tax (on company profits), and fees and other sources (e.g. fees for ID documents or parking). – Spending areas are education (schools, teachers), roads and transport (construction, maintenance, bus services), security (police, fire service, courts), health (hospitals, preventive care), and social welfare (funding for AHV and IV, emergency assistance). – When revenue exceeds spending, there is a surplus: the cushion (reserves) grows. – When spending exceeds revenue, there is a deficit: the state must borrow money. – Deficits over many years lead to government debt: borrowed money plus interest."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:d40f380d53830dc0bc7c67e22f11dd08fcc419292d951350c521a345a58d12f3",
+   "text": "Reading the budget: surplus, deficit and government debt"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:a8f487a9b57382de1ee71200fea5dbab710235924ebd8677483362f4b2e24f1c",
+   "text": "In [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]], you drew up your **personal budget**: comparing income and expenses so you would not be short of money at the end of the month. A **government budget** works on exactly the same principle – only with much larger figures and one important difference: the government's budget is **decided through politics**, because it determines how shared money is used.\n\nYou need three terms to understand any budget headline:\n\n- **Surplus:** Revenue is higher than spending. The state can build up its cushion – its **reserves** – or reduce debt.\n- **Deficit:** Spending is higher than revenue. The state has to fill the gap – usually by borrowing money.\n- **Government debt:** If a state keeps borrowing money over many years, its debts grow. As with any loan ([[modul:wirtschaft-politik-12-banken-kredit-zins]]), borrowed money has to be repaid with **interest** – and that interest leaves less room in future budgets.\n\nA purely descriptive look at a neighbouring country: **Liechtenstein** has run budget surpluses for years, built up reserves and is virtually debt-free – something that is rare internationally. Many other countries, by contrast, carry high levels of debt.\n\nDoes this mean debt is always bad? It is not that simple: if a state borrows money to build a school, for example, the building also benefits the generations who will help pay for it later. Persistent deficits to cover day-to-day spending, on the other hand, leave less and less room to manoeuvre. **How much debt makes sense is therefore a real political debate** – with good arguments on both sides."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:8cb2587ae73adcb7904862f86b95e1cc1fa9b050e2f8b29ee697b01782b79cff",
+   "text": "The welfare state: the country's biggest insurance scheme"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:a71f27f70388ab768b4cbb0c5b8adc9e2ff2c4897bca174d9ddf89b71cec089c",
+   "text": "That leaves the state's third task: **protecting vulnerable people**. You already know the basic idea – it is the **insurance principle from [[modul:wirtschaft-politik-11-versicherungen]]**: many people regularly pay a small contribution into a shared pot, and anyone who suffers a loss receives help from it.\n\nThe **welfare state** applies this principle to the major risks in life that can affect anyone: **old age** (eventually you can no longer work), **disability** (an accident or illness makes work impossible), **illness** and **unemployment**. The state organises large compulsory insurance schemes to cover these risks – in Liechtenstein as in Switzerland, examples include **AHV** (old-age and survivors' insurance) and **IV** (disability insurance), whose deductions you know from the payslip in [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]. You start paying contributions quite early, by the way: from 1 January of the year in which you turn 18, as soon as you are in paid work.\n\nTwo features distinguish the welfare state from private insurance:\n\n- **Everyone takes part – it is compulsory, not a choice.** If everyone could decide for themselves, many healthy and young people would not pay in, and the scheme would no longer add up. In the end, the very people who needed protection most would be left without it.\n- **Today's contributions pay for today's pensions.** AHV is essentially a **pay-as-you-go scheme**: the contributions of today's workers fund the pensions of today's pensioners – your money is not saved in a personal account. When you retire later, the people working then will pay for your pension.\n\nAnd where does the budget fit in? The state also supports the welfare state with **tax revenue** – shown in the budget diagram under ‘Social welfare’. That brings this module full circle: taxes fill the coffers, the budget allocates the money, and the welfare state provides protection that the market alone does not."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:644a9756d1f07528793e7df411a6cfa24333c9ce3fd849b73d90cc81c5373041",
+   "text": "Quiz: the state, taxes and the budget"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:77d40720e49790b820d8dbdbf6e3d64562ece49db1732c0e954fb496de6e57fe",
+   "text": "Show what you have learnt about the role of the state, the three types of tax and the budget. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:c14413804a62fc679926776d39924e7112f8c9c1a45992fcdebd950b6306a865",
+   "text": "Why does the state provide street lighting instead of leaving it to the market?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:8234a0714bb3e52d73ad05fab042dc837add266ebe3720d79ab8fa91f8f5b296",
+   "text": "Because street lamps are too technically complicated for private companies."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:21b15d82778e7e793a7859c680c47052383e903d17d82f66ae9032a1e23827fc",
+   "text": "Because the state wants to own everything on public land as a matter of principle."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:e5e6f95e88c2acc31dfc2cd634e93291a07975cf44823887cbb0e9e05db3c94e",
+   "text": "Because nobody can be excluded from the light – hardly anyone would pay voluntarily, so the service is funded collectively through taxes."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:f178747528b1115fd75e1f866b83e8aceceabf8ceb7f4162441a309db8f2a887",
+   "text": "Because private businesses are forbidden to sell lamps."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:992671640bdc19b08f8615642063ca2875b1dc287cd38ee4a59ecf88d71dd2f8",
+   "text": "Street lighting is a public service: it shines for everyone, whether they pay or not. A private company would therefore struggle to find paying customers – everyone would wait for someone else to pay. The market does not deliver such services, even though everyone wants them, so the community funds them through taxes. This has nothing to do with technology or bans, and the state is not acting out of a desire for ownership: it is acting because the market fails here."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:a4ea5fe2887b072152b5c8947253b8c3bb4af1932e2e4700b412b403983056a1",
+   "text": "What is a tax?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:1e5563e57b23ed403bc453f4027026d754b4f5b092f7567f0ec1aac64b393151",
+   "text": "A compulsory payment to the state with no direct service in return."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:776bfc9dd1dce26006188c5faee75baa60bee68c247be81bdfde725353e4c4c7",
+   "text": "A voluntary contribution you can make to support the state."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:b99c66aaf34917672ef7082fc0e5dd17a42d03410f48f4541cc7b237dd00a395",
+   "text": "A payment in return for a particular service – such as a new passport."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:fe9ea8c9cded808fc25ec49d5626f219410686c6eceb93d02ad3d83f9baf8f7a",
+   "text": "A penalty paid only by people who have broken the rules."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:b92a9c729c53608f8bc3ffc11e7a8d2563a1380f54d00d42961e01b49d89569a",
+   "text": "Taxes are compulsory – donations, by contrast, are voluntary. Taxes go into a large shared pot, without you receiving a particular individual service in return. This is precisely what distinguishes them from a fee (where you pay for a specific service, such as a passport) and from a fine (which is a penalty for breaking a rule, not a source of funding for everyday services)."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:ec1f045b8fdb9a5dc2a15a128895c0c6ede10b4cb2439492a03b4f392ac8576e",
+   "text": "You buy a drink in a shop for CHF 2.50. Which tax is included in this price?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:c169995791a98e2cc59a63525f565e02a5044fc8be99e8b02ea821e952140dea",
+   "text": "The shop assistant's income tax."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:ec249b3bfc5fa43bc2017e8c1b9cfa109a0f2fa41e700733ffb8acaa367e0c51",
+   "text": "None – you only pay taxes once a year when you receive your tax bill."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:36f614335ff7855cf6247ee21adf9d5ffdb39b4e3ee0b7b26148a1aa98e7f8c9",
+   "text": "The corporation tax the shop pays on every drink it sells."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:2d85db943b6691f1c7cc5d90a71f2366fe357c0734edc45a4f54b455f6c5a023",
+   "text": "Value added tax – it is included in the sale price, and the shop passes it on to the state."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:7dbda95dc8c0203e6553c2fc752398f6d9b86d88b479fa9ebca0031838b3fe52",
+   "text": "Value added tax is an indirect tax: you pay it as part of the price when you shop, and the business passes it on to the state. Only direct income tax is paid through the annual tax bill – when you consume goods and services, by contrast, you pay tax on almost every purchase. Corporation tax is not charged on each drink sold, but on the profit left at the end of the year, and the shop assistant's income tax has nothing to do with the price of your drink."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:d87e88ea14d615ebe2075822e100b6013977086050fee182fdb16752aa6e81c1",
+   "text": "What does a company pay corporation tax on?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:cfe851f765264969c7addd80dc1ef4683b1d9b5543582f3376bebe77b7cf02be",
+   "text": "On every individual sale it makes."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:99080c3b506f4d90a5e2f37c7af9d6d781ca3e9b9a97b262cadde6bee74feab6",
+   "text": "On its profit – what is left after all costs have been deducted."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:14ab9263156e6ab9a9c105e59780dea8daa267f2352e632c123c8a27c374f9fc",
+   "text": "On the wages it pays its employees."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:3835f34f4946dc3f9e3993cb3121f2e209679d4ad94d980c5a553b24d1413348",
+   "text": "On the money in its bank account."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:2a09b89eb03fd802e3143c0a396876598ef74c59c0f51f9685482f1e5cc6bcd0",
+   "text": "It is the profit that is taxed: revenue minus all costs (wages, materials, rent …). That is why no profit means no tax on profits. A charge on each sale would follow the principle of VAT, not corporation tax. Wages are a cost to the company – the employees themselves pay tax on them as income, not the business."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:e0f9539d68c5fb5373e309fa8c009e6981b6f76b20188c2a7599d1e02cd76b99",
+   "text": "A state receives 950 million CHF in revenue in one year and spends 1000 million CHF. Which statement is correct?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:b6928fa2834431ef9dd6ebde065ee1539c460ebd0727773f2fa8fc1ac0d83d3c",
+   "text": "It has a deficit of 50 million CHF – it spent more than it received."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:fb958f55d2b64151d66dbb3dc42945fc03c83934d074d8ca14daa2e6b7f6e6ae",
+   "text": "It has a surplus of 50 million CHF."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:8d7992a8ba4b9d31417d4266ae8b2180beb8dcfc3e76e5b3320bd15cbd32fb8e",
+   "text": "It therefore automatically has government debt of 1000 million CHF."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:501fdfcbf129f0d58ab8066df452be87efcda4cbc2ec843bd874ccf26d44154a",
+   "text": "Its budget is balanced because the amounts are roughly the same."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:067414c96a6e4624a3b7faf5c88de64ef7456a51de5d8d03aa25ce58e0907596",
+   "text": "Spending (1000) minus revenue (950) leaves a gap of 50 million CHF – a deficit. A surplus would be the exact opposite. Government debt is not the same as a single year's deficit: it builds up when such gaps are filled with borrowed money over the years – this question does not tell you how large the debt is. And ‘roughly the same’ does not count in a budget: a difference of 50 million CHF is a real deficit."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:0b7a3164493fa19a1279550a5f024d5130255b44a04fa5022ac105b948e4f1c1",
+   "text": "What is government debt?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:23af87e0aeaa3633708d4463fda5c5c98add2b81647aa7846a9c3c4884891c2a",
+   "text": "The money citizens still owe the state in taxes."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:08795a20264b42190194808e2b7e938f3056a993e3174b26702af9ce875f0e56",
+   "text": "A state's total spending in one year."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:eabe473d963154be096fb11bbf6fbe1cd34421cb2ce70ea97911d6378424c4ae",
+   "text": "The same thing as a deficit – just another word for it."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:2356246fafef641b469589c907cbd3910ef8fd77fa9f4b88a2e2a66b7977dff3",
+   "text": "Money the state has borrowed – often over many years of deficits – and must repay with interest."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:fc1fa01880dd3cdd8e0fb2beee1be3c2faf715f0c473bd5c26db16a588e80283",
+   "text": "Government debt is accumulated borrowing: every deficit covered by a loan adds to the mountain of debt – and, as with any loan ([[modul:wirtschaft-politik-12-banken-kredit-zins]]), interest comes on top, putting pressure on future budgets. A deficit, by contrast, describes only the gap in a single year; government debt is neither citizens' unpaid tax bills nor annual government spending."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:74986b242ca27c87804a4835c62254c269a672754036127084cfa357ecb508b6",
+   "text": "Why is participation in the welfare state – for example, in AHV – compulsory rather than voluntary?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:c543164404754b12fdb98abea66644ee997d895c345b1fcbc9f8399ae4572c4a",
+   "text": "Because this lets the state collect as much extra tax revenue as possible."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:cb6efa348707a24c22717b03a2a2e303f56075083db703b9d1f39ef0beea48db",
+   "text": "Because the insurance principle only works if everyone pays in – otherwise the very people who need protection most would end up without it."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:97f1bd0aaa6a98d0addc6ec6398b1768b5e22106e137ea485c1a5862b53728fe",
+   "text": "Because private insurance is forbidden here."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:5794dd42c8ccbb4bcb818f3f36dff93e1bbac23ea0c588a63fe8a8a251880055",
+   "text": "Because young people would otherwise save all their money."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:06afe6170116b75c0327b9afd2ae9655b64cf70d0cb3190b677bbece0540e928",
+   "text": "Insurance depends on many people paying in ([[modul:wirtschaft-politik-11-versicherungen]]). If participation in the welfare state were voluntary, many young and healthy people would avoid paying contributions – the shared pot would remain empty, and anyone unlucky enough to face a major risk in life would have no protection. AHV contributions are not taxes, by the way, but insurance contributions; private insurance of course continues to exist alongside them – and compulsory participation is not about young people's saving habits."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:ef6628de2526c1df620eb5314ae4b74a442b6704ce9d0bbc3f9aad35c4e49b35",
+   "text": "What happens to the AHV contributions that workers pay today?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:567196421cba29881129789d4e0cf16544644797bc4cff09bb02ba610d57d49e",
+   "text": "They are saved separately for each person in a personal account until they are old."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:f2906bcdd2af5e5b3b71a44e6e64518eba209f6600adaea276da2463f151956d",
+   "text": "They belong to the state, which is free to spend them on roads or schools."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:2150b44c70d4a311f20dfb50cb264e9bda211592c0d724247fc5ebe3c364a032",
+   "text": "They mainly fund the pensions of people who are retired today."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:1bbb053a4d7bede2b69a3204fd8996f28f5fca0fc3db80e85d6b6b408cc1955d",
+   "text": "They expire if you do not collect them before retirement."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:15025217c8e760da7344e7f7678cea5cf4e148ffd0491c15ffca2b775df753d5",
+   "text": "AHV is essentially a pay-as-you-go scheme: most of what is paid in today goes straight to today's pensioners. It is not a personal savings account – that is one of the most common misconceptions. The state cannot divert the contributions to other purposes: they are reserved for the insurance scheme and do not go into the general pot for roads or schools. Nor can your entitlements simply expire – paying in gives you the right to a pension later."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:00274b60c06ef0febd27fa0d18b64f199c2427754dd7b3c3c218b045c9c6e9b1",
+   "text": "Fill in the terms: the state, taxes and the budget"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Careful:** Three words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:292492df530b794f34afb11dd6fca572b9eaa5055509de0ebab8c467dfab992e",
+   "text": "Type in the terms: get the basics right"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no word bank here – **type in the missing terms yourself**. Upper- and lower-case letters are treated the same."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:8463155907b117e4fba88ac878210aca1fb00dd1b9c39c59335740ace08eac5f",
+   "text": "Match the examples: which tax is it?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:f40ddf0580650346a5c6052eee1d421cc2168b25739ab5e599bea459b8b130c7",
+   "text": "Match each situation to the correct type of tax: **income tax**, **value added tax** or **corporation tax**. Each type of tax appears exactly three times."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:447a815afaca1f526147005acc6515ca176604a94a55feceff8c6f34f9494fa5",
+   "text": "Going further: the state in your everyday life"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:b91a245f7a89ede0eb7990a77831d6d4589ae0f0b96ec8ea4e7a3eb196c73aec",
+   "text": "Look for signs of the state: think through your day from waking up until now and note down **five things the state has provided or helped fund**. Match each one to a spending area in the budget diagram (education, roads and transport, security, health, social welfare)."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:65d2d3c8abc1ce7112187ea8efe37c9e479e05d96d92111bbf1bc546b6c2b9aa",
+   "text": "Do not just think of buildings: people (teachers, police officers), pipes beneath the road (water, sewage) and rules (food safety checks, safe electrical appliances) count too."
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:deb3990aab722b925ce8a03e4a9438ccc704e40dfa7894291833c3b862ff0520",
+   "text": "Example answer: (1) Drinking water from the tap – roads and transport/infrastructure, (2) your journey to school on roads and pavements – roads and transport, (3) lessons with a teacher – education, (4) a national police patrol car – security, (5) a vaccination appointment at the public health office – health. What matters is that your five examples really are funded, at least in part, by the state, and that you give a clear reason for matching each one to its spending area."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:1577ec0c255fef6519113f98bcaec05ee17255c7cadaa5ff177e2e49d261c0b3",
+   "text": "Mini-budget: the fictional municipality of Musterberg expects revenue of 10 million CHF next year (8 million from taxes, 2 million from fees). Planned spending: school 4 million, roads 2.5 million, security 1 million, administration 1.5 million – and the youth council also wants a new youth centre costing 1.5 million CHF. Work it out: does the budget balance with the youth centre included – is there a surplus or a deficit, and how large is it? Then name three different ways Musterberg could deal with the result, and one consequence of each option."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:2df77f43ae26184085b86436e4d8e4cea4e35723eee3e324f1e8108c7e66712e",
+   "text": "First add up all the spending, including the youth centre, and compare it with revenue. The module will help you find options: cut spending (but where?), increase revenue (but who pays?), or borrow money (but what extra cost comes later?)."
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:c63ad4bbd2f826e2036c050e4659f8b7e3a1ed3b7bb9ea288ad06b428b4ea3df",
+   "text": "Spending including the youth centre: 4 + 2.5 + 1 + 1.5 + 1.5 = 10.5 million CHF, compared with revenue of 10 million CHF – a deficit of 0.5 million CHF. Three possible approaches: (1) Cut spending, for example by planning a smaller youth centre or spreading road maintenance over a longer period – consequence: someone has to go without, leading to political disagreement. (2) Increase revenue, for example through higher taxes or fees – consequence: households and companies have less money in their pockets. (3) Borrow the 0.5 million CHF – consequence: Musterberg takes on debt that, together with interest, will put pressure on future budgets; for a building that will be used for a long time, this may still be justifiable. There is no single correct choice – what matters is that the calculation and the consequences are correct."
+  },
+  "blocks[10].tasks[2].prompt": {
+   "quelle": "sha256:7f23cdfe51dd890ce503dbe3c66ea28051eae74b45f9d06a6be68e9d7e73489c",
+   "text": "Explain it to someone: in no more than five sentences, explain to someone you know why the welfare state is ‘one big insurance scheme’ – using the words risk, contribute, benefit and compulsory. Then create your own quiz question in the style of this module (with four answers, exactly one correct) about a tax or budget term, including a typical misconception as a wrong answer."
+  },
+  "blocks[10].tasks[2].hint": {
+   "quelle": "sha256:2c4a2a17e82775a3abf1e03b3e151a7f9065e0b28807190d6cc18d0a96e75fd3",
+   "text": "For your quiz question: the best wrong answers are statements you often hear that are not true – such as ‘AHV saves my money in my own account’ or ‘Deficit and debt are the same thing’."
+  },
+  "blocks[10].tasks[2].solution": {
+   "quelle": "sha256:5013dd7101fe03d5641a16092db75f70e0e97efe509af43792a9e1883c47de8c",
+   "text": "Example explanation: ‘There are risks that can affect anyone – getting old, becoming ill or losing your job. To protect against these risks, everyone who works has to contribute through compulsory payments. Anyone who is actually affected then receives a benefit, such as a pension. Because everyone has to take part, the pot is large enough – just like insurance, only for the whole country.’ Your quiz question works well if exactly one answer is correct, the wrong answers reflect real misconceptions (rather than being obviously absurd), and the explanation clears up the mistake."
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:1ed2747d43f32da70fe46dd4418418ea7ebd0a3b2d0b96e285f56ac2499afc87",
+   "inhalt": {
+    "text": "The market provides many things – but not everything: roads, schools and security are provided by the {{1}}. It also sets {{2}} for economic activity and protects vulnerable people. This is funded mainly through {{3}}. You pay {{4}} on your pay and earnings. On almost every purchase, {{5}} is already included in the price. Companies pay {{6}} on their profits. If the state receives more than it spends, there is a {{7}}. If it spends more than it receives, there is a {{8}}. If it keeps borrowing money to cover this over the years, {{9}} grows.",
+    "luecken": [
+     [
+      "state",
+      "the state",
+      "government",
+      "the government"
+     ],
+     [
+      "rules",
+      "regulations",
+      "laws"
+     ],
+     [
+      "taxes",
+      "taxation",
+      "tax revenue",
+      "tax payments"
+     ],
+     [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ],
+     [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ],
+     [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ],
+     [
+      "surplus",
+      "a surplus",
+      "budget surplus",
+      "a budget surplus"
+     ],
+     [
+      "deficit",
+      "a deficit",
+      "budget deficit",
+      "a budget deficit",
+      "shortfall",
+      "a shortfall",
+      "budget shortfall",
+      "a budget shortfall"
+     ],
+     [
+      "government debt",
+      "public debt",
+      "national debt",
+      "state debt",
+      "sovereign debt",
+      "the government debt",
+      "the public debt",
+      "the national debt",
+      "the state debt",
+      "the sovereign debt"
+     ]
+    ],
+    "ablenker": [
+     "donations",
+     "rent",
+     "pocket money"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:f9719d31f368c19746301ae1e92e68af9bd738db1912d99a19f384b15a14f9f3",
+   "inhalt": {
+    "text": "The welfare state works like one big {{1}}: many people pay in, and anyone affected by a major risk in life receives benefits. The state old-age pension here is known by the abbreviation {{2}}. If a state receives more than it spends, this is called a {{3}}. In the opposite case, there is a {{4}}. The tax included in the price of almost every purchase is {{5}}.",
+    "luecken": [
+     [
+      "insurance scheme",
+      "an insurance scheme",
+      "insurance",
+      "insurance system",
+      "an insurance system",
+      "insurance pool",
+      "an insurance pool",
+      "insurance fund",
+      "an insurance fund"
+     ],
+     [
+      "AHV",
+      "A.H.V.",
+      "A H V",
+      "the AHV"
+     ],
+     [
+      "surplus",
+      "a surplus",
+      "budget surplus",
+      "a budget surplus"
+     ],
+     [
+      "deficit",
+      "a deficit",
+      "budget deficit",
+      "a budget deficit",
+      "shortfall",
+      "a shortfall",
+      "budget shortfall",
+      "a budget shortfall"
+     ],
+     [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ]
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:8c232ba780672971a94be84679ea0b367383693157b8092e6b31bdae730edb7d",
+   "inhalt": {
+    "text": "Lena buys a sandwich at a kiosk – part of the price goes to the state as tax. {{1}}\nMr Brunner declares his pay on his annual tax return and then receives his tax bill. {{2}}\nA furniture manufacturer has earned two million CHF after deducting all costs and pays tax on this amount. {{3}}\nA tax that was already included in the sale price appears on the receipt for a mobile phone. {{4}}\nA doctor pays tax on her annual income. {{5}}\nA start-up makes a profit for the first time – tax is now due on it. {{6}}\nWhen you buy a cinema ticket, you pay the tax without noticing – it is included in the price. {{7}}\nMs Meier gets a pay rise – her annual tax bill increases as a result. {{8}}\nThe Sonnenblick bakery pays tax on its annual profit. {{9}}",
+    "luecken": [
+     [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ],
+     [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ],
+     [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ],
+     [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ],
+     [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ],
+     [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ],
+     [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ],
+     [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ],
+     [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ]
+    ]
+   }
+  }
+ }
+}
