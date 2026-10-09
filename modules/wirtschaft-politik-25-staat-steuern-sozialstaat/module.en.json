@@ -1,0 +1,1501 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-25-staat-steuern-sozialstaat --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:95fa45ed5436750472a92b1c66c5938cdb306c53d4fad94a1b75297f338aed2e",
+  "masterCommit": "e8d068c",
+  "hintsHash": null,
+  "generatedAt": "2026-10-09",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:e5e97f7a78faeae6a33917bc8fba6ceffd1434b9b72b5d09438ab07ca6888a02"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-25-staat-steuern-sozialstaat",
+ "title": "The state in the economy: taxes, budgets and the welfare state",
+ "description": "Everyone pays taxes – but what are they actually for? This module opens the topic ‘Politics & Economics’: you will learn why the state plays a part in the economy, which three basic types of tax fill its coffers, how to read a government budget with a surplus, deficit and government debt – and why the welfare state is essentially one big insurance scheme.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "WAH.2.1",
+     "description": "Die Schülerinnen und Schüler können Prinzipien der Marktwirtschaft aufzeigen."
+    },
+    {
+     "code": "WAH.2.3",
+     "description": "Die Schülerinnen und Schüler können einen verantwortungsvollen Umgang mit Geld entwickeln."
+    },
+    {
+     "code": "WAH.5.2",
+     "description": "Die Schülerinnen und Schüler können soziale, rechtliche und ökonomische Aspekte im Alltag und im Zusammenleben recherchieren."
+    }
+   ]
+  }
+ ],
+ "sequenz": 25,
+ "einheit": "Topic E: Politics & Economics",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "state",
+  "taxes",
+  "income tax",
+  "value added tax",
+  "corporation tax",
+  "government budget",
+  "surplus",
+  "deficit",
+  "government debt",
+  "welfare state",
+  "AHV",
+  "public services"
+ ],
+ "learningObjectives": [
+  "I can explain why the state plays a part in the economy: it provides services that the market does not deliver, sets rules for economic activity and protects vulnerable people.",
+  "I can distinguish between the three basic types of tax – income tax, value added tax and corporation tax – and use everyday examples to explain who pays each one and what it is charged on.",
+  "I can read a government budget in simple terms: compare revenue and spending and distinguish between a surplus, a deficit and government debt.",
+  "I can explain the basic idea of the welfare state as one big insurance scheme and connect it to AHV and IV from [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "Statistikportal Liechtenstein – Öffentliche Finanzen",
+   "url": "https://www.statistikportal.li/de/themen/staat-und-politik/oeffentliche-finanzen"
+  },
+  {
+   "title": "Video (extern): Steuern in Deutschland einfach erklärt – explainity, 3:21",
+   "url": "https://www.youtube.com/watch?v=ghJhy40yCfM"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-04-erweiterter-wirtschaftskreislauf",
+  "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
+  "wirtschaft-politik-11-versicherungen",
+  "wirtschaft-politik-14-budget-sparen-lohnabrechnung"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Why doesn't anyone volunteer to build a road?",
+   "body": "Think about your journey to school this morning: the road, the pavement, the street lighting, perhaps the bus – and at the end, a school building with teachers. You did not pay for any of that today. And in the market you know from [[modul:wirtschaft-politik-06-angebot-und-nachfrage]], [[modul:wirtschaft-politik-07-preisbildung-marktgleichgewicht]] and [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]], most of it would never be provided.\n\nWhy not? Take **street lighting**: if a private company put up lamps and asked for money, who would pay? The light shines for everyone – **nobody can be excluded from benefiting**. So everyone waits for someone else to pay – and in the end, it stays dark, even though everyone wants the light. The market fails to provide such **public services**: without shared funding, roads, schools, the police, the fire service or flood protection would not exist, or would only be available to a few people.\n\nThat is why the **state** plays a part in the economy – you already know it as a participant in the circular flow of the economy ([[modul:wirtschaft-politik-02-haushalte-unternehmen-staat]] and [[modul:wirtschaft-politik-04-erweiterter-wirtschaftskreislauf]]). It has three main tasks:\n\n1. **Provide** what the market does not deliver: roads, schools and security.\n2. **Set rules:** Fair competition needs rules – for example, rules against collusion and the abuse of monopoly power ([[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]). And from [[modul:wirtschaft-politik-19-was-ist-politik]], you know that this is precisely what politics means: negotiating shared, binding rules.\n3. **Protect vulnerable people:** People who are old, ill or disabled should not be left without support – more on this later when we look at the welfare state.\n\nThat leaves the crucial question: **Where does the state get the money for all this?**"
+  },
+  {
+   "type": "text",
+   "title": "Taxes: the state's main source of revenue",
+   "body": "The answer is on every till receipt and every payslip: **taxes**. A tax is a **compulsory payment to the state with no direct service in return**. ‘No direct service in return’ means you do not get a receipt for a particular service in exchange for your taxes – they go into a large shared pot that pays for roads, schools and everything else.\n\nYou should be able to distinguish between three **basic types**:\n\n- **Income tax:** People who work and earn money pay part of their income to the state – once a year through their tax return. The more someone earns, the more they pay.\n- **Value added tax (VAT):** It is **included in the price** of almost everything you buy – from a sandwich to a mobile phone. You pay it without noticing; the shop passes it on to the state. Because it is charged on consumption and is not collected directly from you, it is called an **indirect tax** – income tax, by contrast, is a **direct tax**.\n- **Corporation tax:** Companies pay tax on their **profit** – what is left after all costs have been deducted. If a company makes no profit, it pays no tax on profits.\n\nTwo distinctions matter: **fees** are not taxes – you receive a direct service in return, such as a new passport or a parking space. And the **AHV and IV deductions** on your payslip ([[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]) are not taxes either: they are **insurance contributions** – we will look more closely at what they are for in a moment.\n\nPoliticians constantly debate **how high** taxes should be – here, we are only looking at the principle: without taxes, there can be no state that provides services, sets rules and offers protection."
+  },
+  {
+   "type": "text",
+   "title": "Video recommendation (external): taxes explained simply",
+   "body": "A useful introduction is the explainer video **‘Steuern in Deutschland einfach erklärt’** by the channel explainity (3:21). It uses Germany as an example to show why the state collects taxes and what it uses them for – the same principle applies here, even if some names and figures differ. The video is not embedded here – **you will find the link in the sources and materials at the bottom of this module**.\n\nKeep two questions in mind as you watch: (1) What does the state spend tax revenue on in the video – and which of these areas will you see again in this module's budget diagram? (2) The video distinguishes between direct and indirect taxes: which of these two types do income tax and VAT belong to?"
+  },
+  {
+   "type": "schaubild",
+   "title": "The government budget at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 325,
+      "y": 0,
+      "width": 503.9,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 91867139,
+      "type": "text",
+      "text": "The government budget: revenue and spending",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 350,
+      "y": 48,
+      "width": 444.85,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#437098",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112417197,
+      "type": "text",
+      "text": "A simple overview: where the money comes from – and where it goes",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "kopf-einnahmen",
+      "x": 135,
+      "y": 110,
+      "width": 121.09,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1671942051,
+      "type": "text",
+      "text": "REVENUE",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "kopf-ausgaben",
+      "x": 1012,
+      "y": 110,
+      "width": 108.9,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1731768333,
+      "type": "text",
+      "text": "SPENDING",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ein-1",
+      "x": 0,
+      "y": 160,
+      "width": 380,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1240720195,
+      "type": "rectangle"
+     },
+     {
+      "id": "ein-2",
+      "x": 0,
+      "y": 320,
+      "width": 380,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1780557421,
+      "type": "rectangle"
+     },
+     {
+      "id": "ein-3",
+      "x": 0,
+      "y": 480,
+      "width": 380,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 549225187,
+      "type": "rectangle"
+     },
+     {
+      "id": "ein-4",
+      "x": 0,
+      "y": 640,
+      "width": 380,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 963367117,
+      "type": "rectangle"
+     },
+     {
+      "id": "staat",
+      "x": 475,
+      "y": 370,
+      "width": 300,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#74c0fc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1083190915,
+      "type": "rectangle"
+     },
+     {
+      "id": "aus-1",
+      "x": 870,
+      "y": 150,
+      "width": 380,
+      "height": 116,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c9d9e9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1924280109,
+      "type": "rectangle"
+     },
+     {
+      "id": "aus-2",
+      "x": 870,
+      "y": 306,
+      "width": 380,
+      "height": 116,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c9d9e9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1814914595,
+      "type": "rectangle"
+     },
+     {
+      "id": "aus-3",
+      "x": 870,
+      "y": 462,
+      "width": 380,
+      "height": 116,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c9d9e9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1146995085,
+      "type": "rectangle"
+     },
+     {
+      "id": "aus-4",
+      "x": 870,
+      "y": 618,
+      "width": 380,
+      "height": 116,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c9d9e9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 176335299,
+      "type": "rectangle"
+     },
+     {
+      "id": "aus-5",
+      "x": 870,
+      "y": 774,
+      "width": 380,
+      "height": 116,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c9d9e9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1403521005,
+      "type": "rectangle"
+     },
+     {
+      "id": "pfeil-e1",
+      "x": 390.5,
+      "y": 225.5,
+      "width": 74,
+      "height": 174,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 548305251,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        174
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-e2",
+      "x": 390.5,
+      "y": 385.5,
+      "width": 74,
+      "height": 44,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1654293069,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        44
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-e3",
+      "x": 390.5,
+      "y": 534.5,
+      "width": 74,
+      "height": 44,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 201282819,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        -44
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-e4",
+      "x": 390.5,
+      "y": 694.5,
+      "width": 74,
+      "height": 194,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 906932397,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        -194
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-a1",
+      "x": 785.5,
+      "y": 394.5,
+      "width": 74,
+      "height": 184,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2079571107,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        -184
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-a2",
+      "x": 785.5,
+      "y": 419.5,
+      "width": 74,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1001263885,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        -54
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-a3",
+      "x": 785.5,
+      "y": 460.5,
+      "width": 74,
+      "height": 59,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 742010947,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        59
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-a4",
+      "x": 785.5,
+      "y": 500.5,
+      "width": 74,
+      "height": 174,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1878141293,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        174
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "pfeil-a5",
+      "x": 785.5,
+      "y": 530.5,
+      "width": 74,
+      "height": 299,
+      "angle": 0,
+      "strokeColor": "#d9480f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1588670435,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        74,
+        299
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "merkkasten",
+      "x": 45,
+      "y": 940,
+      "width": 1160,
+      "height": 132,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 69497805,
+      "type": "rectangle"
+     },
+     {
+      "id": "URjLjUXfOnuJ_568or41y",
+      "x": 95.27,
+      "y": 197.5,
+      "width": 189.47,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1035169539,
+      "type": "text",
+      "text": "Income tax\non pay and income",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ein-1",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "sfoJb5KlM9GYu7XmvAVSd",
+      "x": 133.02,
+      "y": 346.25,
+      "width": 113.95,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1410635427,
+      "type": "text",
+      "text": "Value added tax\non purchases –\nincluded in the price",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ein-2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "C-Lz-eZ4geFJ1w9ppuYl7",
+      "x": 116.03,
+      "y": 506.25,
+      "width": 147.95,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1060096579,
+      "type": "text",
+      "text": "Corporation tax\non company\nprofits",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ein-3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "wIsszt_p20ISDMsIiY0r5",
+      "x": 105.25,
+      "y": 666.25,
+      "width": 169.5,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1944291811,
+      "type": "text",
+      "text": "Fees and other sources\ne.g. ID document\nor parking fees",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ein-4",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "2wvROONsxUZgbMErHug5b",
+      "x": 558.06,
+      "y": 410,
+      "width": 133.88,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#112136",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1195267459,
+      "type": "text",
+      "text": "STATE\nuses its budget\nto plan revenue\nand spending",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "staat",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "LgPIapuq32xVg7eqwGZ_Y",
+      "x": 977.03,
+      "y": 185.5,
+      "width": 165.95,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1753132323,
+      "type": "text",
+      "text": "Education\nschools, teachers",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "aus-1",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "i4PWw1cygNeIl3gtZsGyq",
+      "x": 983.52,
+      "y": 330.25,
+      "width": 152.96,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 454234307,
+      "type": "text",
+      "text": "Roads and transport\nconstruction, upkeep,\nbus services",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "aus-2",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "j-Ge3f6WSS5nX6Z67qG45",
+      "x": 990.13,
+      "y": 486.25,
+      "width": 139.75,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 815399011,
+      "type": "text",
+      "text": "Security\npolice, fire service,\ncourts",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "aus-3",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "QEXGagkfJjaI2K5CbZPX8",
+      "x": 995.69,
+      "y": 653.5,
+      "width": 128.62,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1122106371,
+      "type": "text",
+      "text": "Health\nhospitals, prevention",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "aus-4",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a9jBs4jdNl4oc1vGWuOE9",
+      "x": 997.02,
+      "y": 798.25,
+      "width": 125.96,
+      "height": 67.5,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 770278307,
+      "type": "text",
+      "text": "Social welfare\nfunding for AHV\nand IV, emergency aid",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "aus-5",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "oaft0kOx_R_ZiKlKV0xfk",
+      "x": 357.22,
+      "y": 976,
+      "width": 535.56,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 157777027,
+      "type": "text",
+      "text": "Revenue exceeds spending = surplus – the cushion (reserves) grows\nSpending exceeds revenue = deficit – the state must borrow money\nDeficits over many years = government debt – borrowed money plus interest",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "merkkasten",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram ‘The government budget: revenue and spending’ gives a simple overview of where the state's money comes from and where it goes. Four sources of revenue flow to the state, which uses its budget to plan revenue and spending and distributes the money across five main areas of responsibility. Key points: – The state's revenue comes from income tax (on pay and income), value added tax (on purchases – it is included in the price), corporation tax (on company profits), and fees and other sources (e.g. fees for ID documents or parking). – Spending areas are education (schools, teachers), roads and transport (construction, maintenance, bus services), security (police, fire service, courts), health (hospitals, preventive care), and social welfare (funding for AHV and IV, emergency assistance). – When revenue exceeds spending, there is a surplus: the cushion (reserves) grows. – When spending exceeds revenue, there is a deficit: the state must borrow money. – Deficits over many years lead to government debt: borrowed money plus interest.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Reading the budget: surplus, deficit and government debt",
+   "body": "In [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]], you drew up your **personal budget**: comparing income and expenses so you would not be short of money at the end of the month. A **government budget** works on exactly the same principle – only with much larger figures and one important difference: the government's budget is **decided through politics**, because it determines how shared money is used.\n\nYou need three terms to understand any budget headline:\n\n- **Surplus:** Revenue is higher than spending. The state can build up its cushion – its **reserves** – or reduce debt.\n- **Deficit:** Spending is higher than revenue. The state has to fill the gap – usually by borrowing money.\n- **Government debt:** If a state keeps borrowing money over many years, its debts grow. As with any loan ([[modul:wirtschaft-politik-12-banken-kredit-zins]]), borrowed money has to be repaid with **interest** – and that interest leaves less room in future budgets.\n\nA purely descriptive look at a neighbouring country: **Liechtenstein** has run budget surpluses for years, built up reserves and is virtually debt-free – something that is rare internationally. Many other countries, by contrast, carry high levels of debt.\n\nDoes this mean debt is always bad? It is not that simple: if a state borrows money to build a school, for example, the building also benefits the generations who will help pay for it later. Persistent deficits to cover day-to-day spending, on the other hand, leave less and less room to manoeuvre. **How much debt makes sense is therefore a real political debate** – with good arguments on both sides."
+  },
+  {
+   "type": "text",
+   "title": "The welfare state: the country's biggest insurance scheme",
+   "body": "That leaves the state's third task: **protecting vulnerable people**. You already know the basic idea – it is the **insurance principle from [[modul:wirtschaft-politik-11-versicherungen]]**: many people regularly pay a small contribution into a shared pot, and anyone who suffers a loss receives help from it.\n\nThe **welfare state** applies this principle to the major risks in life that can affect anyone: **old age** (eventually you can no longer work), **disability** (an accident or illness makes work impossible), **illness** and **unemployment**. The state organises large compulsory insurance schemes to cover these risks – in Liechtenstein as in Switzerland, examples include **AHV** (old-age and survivors' insurance) and **IV** (disability insurance), whose deductions you know from the payslip in [[modul:wirtschaft-politik-14-budget-sparen-lohnabrechnung]]. You start paying contributions quite early, by the way: from 1 January of the year in which you turn 18, as soon as you are in paid work.\n\nTwo features distinguish the welfare state from private insurance:\n\n- **Everyone takes part – it is compulsory, not a choice.** If everyone could decide for themselves, many healthy and young people would not pay in, and the scheme would no longer add up. In the end, the very people who needed protection most would be left without it.\n- **Today's contributions pay for today's pensions.** AHV is essentially a **pay-as-you-go scheme**: the contributions of today's workers fund the pensions of today's pensioners – your money is not saved in a personal account. When you retire later, the people working then will pay for your pension.\n\nAnd where does the budget fit in? The state also supports the welfare state with **tax revenue** – shown in the budget diagram under ‘Social welfare’. That brings this module full circle: taxes fill the coffers, the budget allocates the money, and the welfare state provides protection that the market alone does not."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: the state, taxes and the budget",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.steuern-zuordnen",
+    "wp.staat.staatsbudget-erklaeren"
+   ],
+   "intro": "Show what you have learnt about the role of the state, the three types of tax and the budget. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Why does the state provide street lighting instead of leaving it to the market?",
+     "options": [
+      {
+       "text": "Because street lamps are too technically complicated for private companies."
+      },
+      {
+       "text": "Because the state wants to own everything on public land as a matter of principle."
+      },
+      {
+       "text": "Because nobody can be excluded from the light – hardly anyone would pay voluntarily, so the service is funded collectively through taxes.",
+       "correct": true
+      },
+      {
+       "text": "Because private businesses are forbidden to sell lamps."
+      }
+     ],
+     "explanation": "Street lighting is a public service: it shines for everyone, whether they pay or not. A private company would therefore struggle to find paying customers – everyone would wait for someone else to pay. The market does not deliver such services, even though everyone wants them, so the community funds them through taxes. This has nothing to do with technology or bans, and the state is not acting out of a desire for ownership: it is acting because the market fails here."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What is a tax?",
+     "options": [
+      {
+       "text": "A compulsory payment to the state with no direct service in return.",
+       "correct": true
+      },
+      {
+       "text": "A voluntary contribution you can make to support the state."
+      },
+      {
+       "text": "A payment in return for a particular service – such as a new passport."
+      },
+      {
+       "text": "A penalty paid only by people who have broken the rules."
+      }
+     ],
+     "explanation": "Taxes are compulsory – donations, by contrast, are voluntary. Taxes go into a large shared pot, without you receiving a particular individual service in return. This is precisely what distinguishes them from a fee (where you pay for a specific service, such as a passport) and from a fine (which is a penalty for breaking a rule, not a source of funding for everyday services)."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "You buy a drink in a shop for CHF 2.50. Which tax is included in this price?",
+     "options": [
+      {
+       "text": "The shop assistant's income tax."
+      },
+      {
+       "text": "None – you only pay taxes once a year when you receive your tax bill."
+      },
+      {
+       "text": "The corporation tax the shop pays on every drink it sells."
+      },
+      {
+       "text": "Value added tax – it is included in the sale price, and the shop passes it on to the state.",
+       "correct": true
+      }
+     ],
+     "explanation": "Value added tax is an indirect tax: you pay it as part of the price when you shop, and the business passes it on to the state. Only direct income tax is paid through the annual tax bill – when you consume goods and services, by contrast, you pay tax on almost every purchase. Corporation tax is not charged on each drink sold, but on the profit left at the end of the year, and the shop assistant's income tax has nothing to do with the price of your drink."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "What does a company pay corporation tax on?",
+     "options": [
+      {
+       "text": "On every individual sale it makes."
+      },
+      {
+       "text": "On its profit – what is left after all costs have been deducted.",
+       "correct": true
+      },
+      {
+       "text": "On the wages it pays its employees."
+      },
+      {
+       "text": "On the money in its bank account."
+      }
+     ],
+     "explanation": "It is the profit that is taxed: revenue minus all costs (wages, materials, rent …). That is why no profit means no tax on profits. A charge on each sale would follow the principle of VAT, not corporation tax. Wages are a cost to the company – the employees themselves pay tax on them as income, not the business."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "A state receives 950 million CHF in revenue in one year and spends 1000 million CHF. Which statement is correct?",
+     "options": [
+      {
+       "text": "It has a deficit of 50 million CHF – it spent more than it received.",
+       "correct": true
+      },
+      {
+       "text": "It has a surplus of 50 million CHF."
+      },
+      {
+       "text": "It therefore automatically has government debt of 1000 million CHF."
+      },
+      {
+       "text": "Its budget is balanced because the amounts are roughly the same."
+      }
+     ],
+     "explanation": "Spending (1000) minus revenue (950) leaves a gap of 50 million CHF – a deficit. A surplus would be the exact opposite. Government debt is not the same as a single year's deficit: it builds up when such gaps are filled with borrowed money over the years – this question does not tell you how large the debt is. And ‘roughly the same’ does not count in a budget: a difference of 50 million CHF is a real deficit."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "What is government debt?",
+     "options": [
+      {
+       "text": "The money citizens still owe the state in taxes."
+      },
+      {
+       "text": "A state's total spending in one year."
+      },
+      {
+       "text": "The same thing as a deficit – just another word for it."
+      },
+      {
+       "text": "Money the state has borrowed – often over many years of deficits – and must repay with interest.",
+       "correct": true
+      }
+     ],
+     "explanation": "Government debt is accumulated borrowing: every deficit covered by a loan adds to the mountain of debt – and, as with any loan ([[modul:wirtschaft-politik-12-banken-kredit-zins]]), interest comes on top, putting pressure on future budgets. A deficit, by contrast, describes only the gap in a single year; government debt is neither citizens' unpaid tax bills nor annual government spending."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Why is participation in the welfare state – for example, in AHV – compulsory rather than voluntary?",
+     "options": [
+      {
+       "text": "Because this lets the state collect as much extra tax revenue as possible."
+      },
+      {
+       "text": "Because the insurance principle only works if everyone pays in – otherwise the very people who need protection most would end up without it.",
+       "correct": true
+      },
+      {
+       "text": "Because private insurance is forbidden here."
+      },
+      {
+       "text": "Because young people would otherwise save all their money."
+      }
+     ],
+     "explanation": "Insurance depends on many people paying in ([[modul:wirtschaft-politik-11-versicherungen]]). If participation in the welfare state were voluntary, many young and healthy people would avoid paying contributions – the shared pot would remain empty, and anyone unlucky enough to face a major risk in life would have no protection. AHV contributions are not taxes, by the way, but insurance contributions; private insurance of course continues to exist alongside them – and compulsory participation is not about young people's saving habits."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "What happens to the AHV contributions that workers pay today?",
+     "options": [
+      {
+       "text": "They are saved separately for each person in a personal account until they are old."
+      },
+      {
+       "text": "They belong to the state, which is free to spend them on roads or schools."
+      },
+      {
+       "text": "They mainly fund the pensions of people who are retired today.",
+       "correct": true
+      },
+      {
+       "text": "They expire if you do not collect them before retirement."
+      }
+     ],
+     "explanation": "AHV is essentially a pay-as-you-go scheme: most of what is paid in today goes straight to today's pensioners. It is not a personal savings account – that is one of the most common misconceptions. The state cannot divert the contributions to other purposes: they are reserved for the insurance scheme and do not go into the general pot for roads or schools. Nor can your entitlements simply expire – paying in gives you the right to a pension later."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-staat-budget",
+   "title": "Fill in the terms: the state, taxes and the budget",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.steuern-zuordnen",
+    "wp.staat.staatsbudget-erklaeren"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Careful:** Three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "The market provides many things – but not everything: roads, schools and security are provided by the {{1}}. It also sets {{2}} for economic activity and protects vulnerable people. This is funded mainly through {{3}}. You pay {{4}} on your pay and earnings. On almost every purchase, {{5}} is already included in the price. Companies pay {{6}} on their profits. If the state receives more than it spends, there is a {{7}}. If it spends more than it receives, there is a {{8}}. If it keeps borrowing money to cover this over the years, {{9}} grows.",
+   "luecken": [
+    {
+     "antworten": [
+      "state",
+      "the state",
+      "government",
+      "the government"
+     ]
+    },
+    {
+     "antworten": [
+      "rules",
+      "regulations",
+      "laws"
+     ]
+    },
+    {
+     "antworten": [
+      "taxes",
+      "taxation",
+      "tax revenue",
+      "tax payments"
+     ]
+    },
+    {
+     "antworten": [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ]
+    },
+    {
+     "antworten": [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ]
+    },
+    {
+     "antworten": [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ]
+    },
+    {
+     "antworten": [
+      "surplus",
+      "a surplus",
+      "budget surplus",
+      "a budget surplus"
+     ]
+    },
+    {
+     "antworten": [
+      "deficit",
+      "a deficit",
+      "budget deficit",
+      "a budget deficit",
+      "shortfall",
+      "a shortfall",
+      "budget shortfall",
+      "a budget shortfall"
+     ]
+    },
+    {
+     "antworten": [
+      "government debt",
+      "public debt",
+      "national debt",
+      "state debt",
+      "sovereign debt",
+      "the government debt",
+      "the public debt",
+      "the national debt",
+      "the state debt",
+      "the sovereign debt"
+     ]
+    }
+   ],
+   "ablenker": [
+    "donations",
+    "rent",
+    "pocket money"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-budget-eingabe",
+   "title": "Type in the terms: get the basics right",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.staatsbudget-erklaeren",
+    "wp.staat.steuern-zuordnen"
+   ],
+   "intro": "There is no word bank here – **type in the missing terms yourself**. Upper- and lower-case letters are treated the same.",
+   "modus": "eingabe",
+   "text": "The welfare state works like one big {{1}}: many people pay in, and anyone affected by a major risk in life receives benefits. The state old-age pension here is known by the abbreviation {{2}}. If a state receives more than it spends, this is called a {{3}}. In the opposite case, there is a {{4}}. The tax included in the price of almost every purchase is {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "insurance scheme",
+      "an insurance scheme",
+      "insurance",
+      "insurance system",
+      "an insurance system",
+      "insurance pool",
+      "an insurance pool",
+      "insurance fund",
+      "an insurance fund"
+     ]
+    },
+    {
+     "antworten": [
+      "AHV",
+      "A.H.V.",
+      "A H V",
+      "the AHV"
+     ]
+    },
+    {
+     "antworten": [
+      "surplus",
+      "a surplus",
+      "budget surplus",
+      "a budget surplus"
+     ]
+    },
+    {
+     "antworten": [
+      "deficit",
+      "a deficit",
+      "budget deficit",
+      "a budget deficit",
+      "shortfall",
+      "a shortfall",
+      "budget shortfall",
+      "a budget shortfall"
+     ]
+    },
+    {
+     "antworten": [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-steuerart",
+   "title": "Match the examples: which tax is it?",
+   "teilkompetenzen": [
+    "wp.staat.steuern-zuordnen"
+   ],
+   "intro": "Match each situation to the correct type of tax: **income tax**, **value added tax** or **corporation tax**. Each type of tax appears exactly three times.",
+   "modus": "wortbank",
+   "text": "Lena buys a sandwich at a kiosk – part of the price goes to the state as tax. {{1}}\nMr Brunner declares his pay on his annual tax return and then receives his tax bill. {{2}}\nA furniture manufacturer has earned two million CHF after deducting all costs and pays tax on this amount. {{3}}\nA tax that was already included in the sale price appears on the receipt for a mobile phone. {{4}}\nA doctor pays tax on her annual income. {{5}}\nA start-up makes a profit for the first time – tax is now due on it. {{6}}\nWhen you buy a cinema ticket, you pay the tax without noticing – it is included in the price. {{7}}\nMs Meier gets a pay rise – her annual tax bill increases as a result. {{8}}\nThe Sonnenblick bakery pays tax on its annual profit. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ]
+    },
+    {
+     "antworten": [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ]
+    },
+    {
+     "antworten": [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ]
+    },
+    {
+     "antworten": [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ]
+    },
+    {
+     "antworten": [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ]
+    },
+    {
+     "antworten": [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ]
+    },
+    {
+     "antworten": [
+      "value added tax",
+      "VAT",
+      "value-added tax",
+      "V.A.T.",
+      "the value added tax",
+      "the value-added tax",
+      "the VAT"
+     ]
+    },
+    {
+     "antworten": [
+      "income tax",
+      "the income tax",
+      "personal income tax"
+     ]
+    },
+    {
+     "antworten": [
+      "corporation tax",
+      "corporate tax",
+      "corporate income tax",
+      "company tax",
+      "profit tax",
+      "profits tax",
+      "tax on profits",
+      "the corporation tax",
+      "the corporate tax",
+      "the corporate income tax",
+      "the company tax",
+      "the profit tax",
+      "the profits tax"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: the state in your everyday life",
+   "teilkompetenzen": [
+    "wp.staat.staatsaufgaben-begruenden",
+    "wp.staat.staatsbudget-erklaeren"
+   ],
+   "tasks": [
+    {
+     "prompt": "Look for signs of the state: think through your day from waking up until now and note down **five things the state has provided or helped fund**. Match each one to a spending area in the budget diagram (education, roads and transport, security, health, social welfare).",
+     "hint": "Do not just think of buildings: people (teachers, police officers), pipes beneath the road (water, sewage) and rules (food safety checks, safe electrical appliances) count too.",
+     "solution": "Example answer: (1) Drinking water from the tap – roads and transport/infrastructure, (2) your journey to school on roads and pavements – roads and transport, (3) lessons with a teacher – education, (4) a national police patrol car – security, (5) a vaccination appointment at the public health office – health. What matters is that your five examples really are funded, at least in part, by the state, and that you give a clear reason for matching each one to its spending area."
+    },
+    {
+     "prompt": "Mini-budget: the fictional municipality of Musterberg expects revenue of 10 million CHF next year (8 million from taxes, 2 million from fees). Planned spending: school 4 million, roads 2.5 million, security 1 million, administration 1.5 million – and the youth council also wants a new youth centre costing 1.5 million CHF. Work it out: does the budget balance with the youth centre included – is there a surplus or a deficit, and how large is it? Then name three different ways Musterberg could deal with the result, and one consequence of each option.",
+     "hint": "First add up all the spending, including the youth centre, and compare it with revenue. The module will help you find options: cut spending (but where?), increase revenue (but who pays?), or borrow money (but what extra cost comes later?).",
+     "solution": "Spending including the youth centre: 4 + 2.5 + 1 + 1.5 + 1.5 = 10.5 million CHF, compared with revenue of 10 million CHF – a deficit of 0.5 million CHF. Three possible approaches: (1) Cut spending, for example by planning a smaller youth centre or spreading road maintenance over a longer period – consequence: someone has to go without, leading to political disagreement. (2) Increase revenue, for example through higher taxes or fees – consequence: households and companies have less money in their pockets. (3) Borrow the 0.5 million CHF – consequence: Musterberg takes on debt that, together with interest, will put pressure on future budgets; for a building that will be used for a long time, this may still be justifiable. There is no single correct choice – what matters is that the calculation and the consequences are correct."
+    },
+    {
+     "prompt": "Explain it to someone: in no more than five sentences, explain to someone you know why the welfare state is ‘one big insurance scheme’ – using the words risk, contribute, benefit and compulsory. Then create your own quiz question in the style of this module (with four answers, exactly one correct) about a tax or budget term, including a typical misconception as a wrong answer.",
+     "hint": "For your quiz question: the best wrong answers are statements you often hear that are not true – such as ‘AHV saves my money in my own account’ or ‘Deficit and debt are the same thing’.",
+     "solution": "Example explanation: ‘There are risks that can affect anyone – getting old, becoming ill or losing your job. To protect against these risks, everyone who works has to contribute through compulsory payments. Anyone who is actually affected then receives a benefit, such as a pension. Because everyone has to take part, the pot is large enough – just like insurance, only for the whole country.’ Your quiz question works well if exactly one answer is correct, the wrong answers reflect real misconceptions (rather than being obviously absurd), and the explanation clears up the mistake."
+    }
+   ]
+  }
+ ]
+}
