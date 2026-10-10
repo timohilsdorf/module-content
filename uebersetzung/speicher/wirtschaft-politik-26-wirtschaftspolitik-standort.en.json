@@ -1,0 +1,700 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:785b3c31208bc40022e0e2ceb6ee7da7ee2b2854ba625438609ae135038da06f",
+   "text": "Economic policy and business location"
+  },
+  "description": {
+   "quelle": "sha256:183df9518031fc3c8998985cd4feda35b083d53b735cea3123a4bfe60f015942",
+   "text": "Why does a country with just over 41'000 residents have more than 46'000 jobs? Here you will learn about the four aims and three tools of economic policy, use location factors to explore why businesses set up where they do, study the example of Liechtenstein – and think through a real conflict between consumer protection and an attractive business location."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:1ea734fe4622af451cab77fb6d96562cd1e86e3d5679e33c9231a6f8fdd4e89f",
+   "text": "Topic E: Politics & Economics"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:ee47dd7f275abc54135cab187a74dfeb009fcaa35c415df8ced13930656c07c0",
+   "text": "economic policy"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:5a89d89b0e5ffefdff2dcc1c2efc7d112d52857b5299a3f78efa670a27420cb3",
+   "text": "prosperity"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:24ae5b0fbc968bc23bf76fa891d3a02153f24be9be294a7feb26c565cb24c098",
+   "text": "jobs"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:daa676e9b8ddef1744eea20784a722e5df1303cbedbc99beabaec80e40c7d96d",
+   "text": "fair competition"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:f44c8ee5c719ff938cf14ccafb8aa1f9318551f0751341424cd8382e6f0cab09",
+   "text": "ban on cartels"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:2f72ce2c3bd4ba491a338f94374776e1a49835d43c049a3ef24b6b34c329348b",
+   "text": "consumer protection"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:c5d6c27d859f41f1d504b8e2421092ff72200c63c60d32369fdb7a87b4aac9eb",
+   "text": "financial support"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:dae1d23fd764cfb8e94f99ef5e39b5fb645ca5487bb2cfedcf7e2a0effa4cb39",
+   "text": "infrastructure"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:508ee3121174bebe23e46f884a5b7ac36610ab9b9749335ec98e2ce61ef16224",
+   "text": "location factors"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:9336b77465a768beb0138255615be0277455b162954e58711421ceb819617716",
+   "text": "skilled workers"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:e1e5d00a8f84e992950cbc56d0d5314b09e078b890219860b8f2aad7bea8cabc",
+   "text": "market access"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:70540e81f5986d38af621007bbeb8c55045bfdb0dd7c74cd8958af744dd9cf0a",
+   "text": "EEA"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:6ff080c07894909d194898c8b63acf6e17ea76ca064d151f9cf15d4999f149ce",
+   "text": "Liechtenstein"
+  },
+  "keywords[13]": {
+   "quelle": "sha256:87ffcb69c9f6d211811676e541095290bac9d824b4da025f50e577b58b254bdf",
+   "text": "conflict between aims"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:dced121546ee479465b73aab60e1495e62530815911c3df2a69a2b40af6ce4cb",
+   "text": "I can name the four main aims of economic policy: prosperity, jobs, stability and fair competition."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:a1dcdf575969bc6f161a84fb7781e7d60642f76ae8dfeed295f362dfb92e1afd",
+   "text": "I can use examples to distinguish between the three tools of economic policy: setting rules, providing financial support and providing infrastructure."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:e7396b351cd4bc9f46ac4c620cc94703152f91f4c823a7cf0c7ac5176e3a7b5c",
+   "text": "I can use location factors to explain why a business sets up in a particular place – from skilled workers and taxes to market access."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:12a72354bd2552ca655eee7dc6fc706bb85d29fa62265815001f5b758ac32d90",
+   "text": "I can use the example of Liechtenstein to explain factually why a very small country has more jobs than residents."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:97a85bd2eb9cd3ed9ed7627894dcd6a817c603f7638ba07ddf47aaabf423f066",
+   "text": "I can think through a conflict between the aims of economic policy: more protection through rules can make a business location less attractive – and vice versa."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:492de20307351e1e103c19bbf7a36d78098c65fe118810ff5b33b5cb7ab00161",
+   "text": "What does economic policy aim to achieve?"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:7e89bd15d63ceb3e3becf23ed7d019dd779b2255c2a1db1d047110effca754ae",
+   "text": "‘The government wants to strengthen the country as a manufacturing location.’ – ‘Parliament is debating a support programme.’ You hear sentences like these in every news bulletin. They are about **economic policy**: all the measures the state uses to shape and influence the economy.\n\nFrom [[modul:wirtschaft-politik-25-staat-steuern-sozialstaat]], you know the state's three main tasks – providing services, setting rules and protecting vulnerable people. Economic policy answers the next question: **What does the state use these powers for?** Four main aims come up again and again:\n\n1. **Prosperity:** As many people as possible should be able to live well – with enough income for more than just the basics.\n2. **Jobs:** Anyone who wants to work should be able to find a job. From [[modul:wirtschaft-politik-05-wirtschaftssektoren-strukturwandel]], you know that structural change continually causes jobs to disappear and new ones to emerge – economic policy aims to guide this change rather than simply suffer its effects.\n3. **Stability:** Households and businesses should be able to plan ahead. This includes reliable rules and cushioning the effects of crises as much as possible.\n4. **Fair competition:** From [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]], you know the dangers of collusion and over-powerful monopolies – competition only works if there are rules.\n\nDoes all this sound obvious? The disagreement starts with **how**: how much should the state intervene, and how much should it leave to the market? This is exactly what politicians argue about – and they need tools to put their policies into practice."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:953e84d1bbc3d16ba0da08904c388233c74abc41fd01f85a84f8ae4fb054f9ee",
+   "text": "Three tools: rules, financial support and infrastructure"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:3876bd0ac0e64fb58586194464c5dd58d0b577a2fa2c4dba4fd3c0405f4da15f",
+   "text": "Whatever the aim, economic policy ultimately draws on a toolbox with three compartments:\n\n- **Setting rules:** The state specifies what is allowed and what is not. Examples include the **ban on cartels** (companies must not agree prices with one another – [[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]]), **consumer protection** (prices must be displayed, dangerous products are taken off the market) and protection for young workers (anyone under 18 cannot be made to work unlimited hours). Rules cost the state little money – but they mean extra work for businesses.\n- **Providing financial support:** The state provides targeted funding or financial benefits to encourage more of something desirable. Examples include **education** (free schools, apprenticeships, scholarships), **research** (grants for laboratories and projects) and start-up support for new businesses.\n- **Providing infrastructure:** The state builds and operates what everyone needs – **infrastructure**: roads, the electricity grid, water pipes and fast internet. No business can operate without it.\n\nFinancial support and infrastructure cost money – which brings us back to the **government budget from [[modul:wirtschaft-politik-25-staat-steuern-sozialstaat]]**: behind every support programme and every road is a budget item decided through politics.\n\nRemember: the tools are not an end in themselves. Each use serves one of the four aims – often with the hope of keeping the local area attractive to businesses. This brings us to the question asked in the next video: **Why is a business located exactly where it is?**"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:74446a4417894b7683da5ae52094b4e59e28bc2328a88f4073fe429ee4949670",
+   "text": "Video: Location factors explained simply"
+  },
+  "blocks[2].description": {
+   "quelle": "sha256:9f99066574ca1cf0f4aa912520a75a2136afb1a80a7999d3b1c06bc6d9efac67",
+   "text": "This explainer video (4:05) from the economics education channel wirtconomy explains and illustrates location factors with examples. As you watch, focus on two questions: (1) Which location factors from the video also appear in this module's diagram – and which additional ones does the video mention? (2) The video distinguishes between hard and soft location factors: what is the difference, and can you give one example of each?"
+  },
+  "blocks[2].transcript": {
+   "quelle": "sha256:24b27fd686eea19872ab2936e9afb00b5ab5faa3b92b9c89107a072260bbc6cd",
+   "text": "The explainer video ‘Standortfaktoren einfach erklärt’ (wirtconomy, 4:05 minutes) explains what location factors are: features of a place that matter to a business when choosing its location. The video distinguishes between hard location factors, which can be measured and expressed in numbers – such as transport links, taxes and charges, labour costs, energy and raw material supplies, available skilled workers or proximity to markets – and soft location factors, which are difficult to measure but still influence the decision: a region's image, quality of life, and cultural and leisure activities for employees. Using examples, the video shows that different businesses give different weight to the same factors – depending on what they produce and whom they supply."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:0f908b1e3d13a3286f220ffb678420333e5ee79fd10a5930fa3bbeefd426d2ab",
+   "text": "Six questions when choosing a location"
+  },
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:4ed5dbc3a9086829aaaae15e155fca3ec2836f7225a06d9d4c92e212151652fe",
+   "text": "Location factors: Why does a business set up where it does?"
+  },
+  "blocks[3].szene.elemente[1].text": {
+   "quelle": "sha256:8017eefc0640732a77c9df2f2133f6419a8461aa8ee619fd19dbc5c707ec8caa",
+   "text": "Six questions every business asks when choosing a location"
+  },
+  "blocks[3].szene.elemente[17].text": {
+   "quelle": "sha256:ae341338f9482daffb8f2753b21434288dec9b17c1c8e45e619acdbfd434ff19",
+   "text": "Hard factors are measurable (taxes, infrastructure) – soft ones less so (image, quality of life)."
+  },
+  "blocks[3].szene.elemente[18].text": {
+   "quelle": "sha256:c6ed7aab5cc569205c1c79eb1de4b72b5216c664f50ab4904e2645cd5868e912",
+   "text": "No location offers everything: choosing always means weighing things up."
+  },
+  "blocks[3].szene.elemente[19].text": {
+   "quelle": "sha256:a187e478d3d1672cc202d04ff94ddfca787aed08184adf0bde30336eb109a952",
+   "text": "Skilled workers\nCan we find well-trained people?"
+  },
+  "blocks[3].szene.elemente[20].text": {
+   "quelle": "sha256:03316b82eb20da6357478a88e6b064b19298e34a35631f83e1e2cf8e2b213e02",
+   "text": "Taxes and charges\nHow much profit is left?"
+  },
+  "blocks[3].szene.elemente[21].text": {
+   "quelle": "sha256:fa173d5295d05134ae7805c2f2abef69521a4d65090c800a15d6b9dd89542210",
+   "text": "Infrastructure\nRoads, power, fast internet?"
+  },
+  "blocks[3].szene.elemente[22].text": {
+   "quelle": "sha256:b54dd5b16ab64e0d43a5b119d2fb298971153f79b25e63addaa067fba8e80178",
+   "text": "Market access\nCan we reach customers abroad?"
+  },
+  "blocks[3].szene.elemente[23].text": {
+   "quelle": "sha256:002735fb6d88df8a5904bb07f20dd024fd08fb8adac44c5546341b1eba9c1912",
+   "text": "Political stability\nAre rules reliable and lasting?"
+  },
+  "blocks[3].szene.elemente[24].text": {
+   "quelle": "sha256:9e628b712b83922a79b9342998649bb38ceecd9e4a8bf884087ac8345e8e83c0",
+   "text": "Authorities and procedures\nAre permits quick and clear?"
+  },
+  "blocks[3].szene.elemente[25].text": {
+   "quelle": "sha256:927fecee3b8db00935f406aab5a5c621e5c88fd493470ff1d344fb455149487b",
+   "text": "A business\nseeks a location\nwhere everything fits together"
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:6b3c9656e832bdf7675b5384261876caccde264d011176a9917130fa87428262",
+   "text": "The diagram ‘Location factors: Why does a business set up where it does?’ explains that a business seeks a location where everything fits together – and asks six questions about each possible location. Arrows show six location factors influencing the business in the centre, each expressed as a question. Key points: skilled workers – can we find well-trained people? Taxes and charges – how much profit is left? Infrastructure – roads, power, fast internet? Market access – can we reach customers abroad? Political stability – are rules reliable and lasting? Authorities and procedures – are permits quick and clear? The diagram ends with two points to remember: hard factors can be measured (such as taxes and infrastructure), while soft factors are difficult to measure (such as image and quality of life) – and no location offers everything, so choosing a location always means weighing things up."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:3cfa9b060b8e009079dffc47f5d4828eb703ad959af7c107e2d17290c77b1f28",
+   "text": "Choosing a location: weighing things up"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:4b53dc3fbc2d51ac0eac2fd7033b9671da74451f1d629c2af053be2974a80f34",
+   "text": "Let's work through an example with the fictional **Alpentec AG**, which makes measuring instruments and is planning a new factory with 40 jobs. The management team works through the six questions in the diagram:\n\n- **Skilled workers:** Are there electronics technicians, precision engineering technicians and engineers locally – or a school that trains them?\n- **Taxes and charges:** How much profit is left to buy new machinery?\n- **Infrastructure:** Can lorries reach the factory easily? Is the electricity grid reliable and the internet fast?\n- **Market access:** Alpentec mainly sells abroad – can its products reach customers without major barriers?\n- **Political stability:** Can Alpentec rely on rules and conditions still being similar in ten years' time?\n- **Authorities and procedures:** How long does planning permission take – months or years?\n\nFrom the video, you also know this distinction: **hard factors**, such as taxes or transport links, can be measured and compared. **Soft factors**, such as a region's image or quality of life, are difficult to measure – yet they still influence the decision, because employees' families also want to enjoy living there.\n\nThe key point: **no location offers everything.** One place has a university of applied sciences, another has lower taxes, and a third has motorway access. Different industries have different priorities – a software company mainly needs skilled workers and internet access; a freight company needs roads and storage space. Choosing a location means deciding how much each factor matters and weighing them up. That is exactly why states pursue economic policy: they try to offer a good answer to as many of these questions as possible."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:5d3d1bf3dc15b949e00349117caad389041ada1e299727a61df8e794e7febdb3",
+   "text": "Case study: Liechtenstein – more jobs than residents"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:ac9520c0b138cda2ef03ec4f0489db30baebaa683060c2ae8ac51d0c95f6737f",
+   "text": "A look at Liechtenstein shows how strongly location factors can influence business decisions – as a **purely factual description** to help explain the situation:\n\nAt the end of 2024, the country had around **41'400 residents** – but around **46'400 jobs** (full-time and part-time jobs combined). So there are **more jobs than people living in the country**. This is possible because well over half of all employees commute into the country for work each day, mainly from Switzerland and Austria. For a country of this size, there is an exceptional concentration of businesses and jobs – from global industrial companies to many small businesses (you know about its strong industrial sector from [[modul:wirtschaft-politik-05-wirtschaftssektoren-strukturwandel]]).\n\nThe location factors in this module offer a factual explanation:\n\n- **Political stability:** Conditions have been stable and predictable for decades, and rules do not change abruptly.\n- **Taxes:** Compared with other countries, businesses pay moderate taxes on their profits.\n- **Market access:** Liechtenstein has been a member of the **EEA** (European Economic Area) since 1995 – giving its businesses access to customers in the European single market. For now, simply remember the EEA as a term linked to market access; you will take a closer look at economic cooperation in Europe in [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]].\n- **Easy access to public authorities:** In a small country, offices are nearby and it is easy to find the right person to contact – procedures often take less time than elsewhere.\n\nA factual description also includes the **downside of being small**: the country depends heavily on other countries – on skilled workers commuting in, as well as open borders and the willingness of customers in other countries to spend. When neighbouring economies struggle, Liechtenstein feels the effects immediately. An advantage as a business location is no guarantee; it is a snapshot of competition between locations."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:3c5f9642bd2b8074001024ce56d1c8e4fbc6d8ec188201d5f95cf39efa12d08d",
+   "text": "Conflicting aims: protection or an attractive business location?"
+  },
+  "blocks[6].body": {
+   "quelle": "sha256:466294666ae73e92d3f5e059242b13c1a86fe09923eead14a3ac674acbf5d66e",
+   "text": "Finally, here is a thinking tool you need in every debate on economic policy: a **conflict between aims**. This means that two aims are both valid – but pursuing one more strongly makes it harder to achieve the other.\n\nHere is a fictional example: the invented country of **Bergland** is debating strict compulsory safety testing for all electrical appliances before they can be sold.\n\n- **In favour:** Fewer faulty appliances, fewer accidents – stronger consumer protection. This links to the aim of ‘protecting vulnerable people’ from [[modul:wirtschaft-politik-25-staat-steuern-sozialstaat]].\n- **Against:** Every test costs manufacturers time and money. Small businesses are hit harder than large ones. Some businesses calculate whether a location with fewer requirements would be cheaper – the **location becomes less attractive**, putting jobs at risk.\n\nThe conflict works **both ways**. Removing all rules makes a location attractive in the short term – but consumers then pay the price through unsafe products, and trust in the market suffers. Too little protection can weaken a location in the long term just as much as too much bureaucracy.\n\nThe real political debate therefore lies between ‘ban everything’ and ‘allow everything’: **where exactly should we draw the line?** There are also compromises – transition periods, simpler procedures for very small businesses or common international standards so that each country does not require its own tests. You know how to debate such choices fairly from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] and [[modul:wirtschaft-politik-24-debatte-falschinformationen]]: with arguments that follow the structure you have learnt – not with slogans."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:a3eda4152709d533efd16f399db603bd48bf8fa2d4e0cb183f0dbe63259c7615",
+   "text": "Quiz: Economic policy and location factors"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:ec665d1022d1c44348017cd1820770559a15a58539d78830c6fc0d7965fd6ac2",
+   "text": "Aims, tools, location factors and conflicting aims – show what you know. You can repeat the quiz as often as you like; your best result counts."
+  },
+  "blocks[7].questions[0].prompt": {
+   "quelle": "sha256:0b66c1a11fbe2bd4874a02a620382f4102d844fc26b23aae54458fba283ede4a",
+   "text": "What are the four main aims of economic policy?"
+  },
+  "blocks[7].questions[0].options[0].text": {
+   "quelle": "sha256:85789eaab9519f0e814d8f210e889547c27a9c54bbb172f99c24181da70f530d",
+   "text": "High taxes, lots of regulations, large public offices and full government coffers."
+  },
+  "blocks[7].questions[0].options[1].text": {
+   "quelle": "sha256:4f703083c132184b3b4c8f93a859acd8fc8a9b4f7072069d2fd6afd3552b1de5",
+   "text": "Prosperity, jobs, stability and fair competition."
+  },
+  "blocks[7].questions[0].options[2].text": {
+   "quelle": "sha256:01ccaf6349466d85ffdedd597f78cbeee44fa7ab03fd509f6f22da8bc4735fdf",
+   "text": "The highest possible profits for the country's largest companies."
+  },
+  "blocks[7].questions[0].options[3].text": {
+   "quelle": "sha256:3a22bfa9148f5a23519bb613f97df547f582ab03e408f543a536cb8b880d1df4",
+   "text": "The lowest possible prices, whatever the consequences for wages and quality."
+  },
+  "blocks[7].questions[0].explanation": {
+   "quelle": "sha256:58d3b16dcfe88ed04c064460ad5913553d77405c36c6ddc6b23425a184094609",
+   "text": "The four aims are prosperity, jobs, stability and fair competition. Taxes, regulations and public offices are not aims, but at most means of achieving them – and full government coffers are a result of a healthy economy, not its purpose. Maximising the profits of individual large companies is not an aim of the state either; it would even work against fair competition. And rock-bottom prices at any cost conflict with the aim of prosperity if wages and quality suffer as a result."
+  },
+  "blocks[7].questions[1].prompt": {
+   "quelle": "sha256:80374e9948d285b1412fe012426e56b967d5527d0b2d4af8c6cd4ec1f75ea61a",
+   "text": "The fictional country of Bergland gives grants to a research laboratory developing new battery technology. Which tool of economic policy is this?"
+  },
+  "blocks[7].questions[1].options[0].text": {
+   "quelle": "sha256:d2323a905bd0df14171559cf836a39675ab86e3ed86ea955f1f0d7b5be646ad0",
+   "text": "Setting rules – the laboratory must follow regulations."
+  },
+  "blocks[7].questions[1].options[1].text": {
+   "quelle": "sha256:1d9afd8d37a5dc5b99aa224fdcad429d7dbc7d6a86c3490a6400866a3107ffce",
+   "text": "Providing infrastructure – research is infrastructure, just like a road."
+  },
+  "blocks[7].questions[1].options[2].text": {
+   "quelle": "sha256:99b2155e8c6b491082758d6d9d6f741914d490ed7b065a94aec8961388d246fc",
+   "text": "Protecting vulnerable people – the grants are insurance for researchers."
+  },
+  "blocks[7].questions[1].options[3].text": {
+   "quelle": "sha256:e70bb44f7ad02fc1bcb4f7f887610152f1417d801eaeb73fe3af57d0d230492c",
+   "text": "Providing financial support – the state gives targeted funding to encourage more research."
+  },
+  "blocks[7].questions[1].explanation": {
+   "quelle": "sha256:b42bb8b7d7ef89da0398a482cea64d2f651e8ac4f2a28a456fc4ad6c633c6e9b",
+   "text": "Targeted funding to encourage more of something desirable is financial support. It would be setting rules if the state required or prohibited something in research. Providing infrastructure means infrastructure that the state builds and operates itself – here, however, the laboratory does the research and the state only contributes to the cost. And research grants have nothing to do with protection against life's risks (the welfare state, [[modul:wirtschaft-politik-25-staat-steuern-sozialstaat]])."
+  },
+  "blocks[7].questions[2].prompt": {
+   "quelle": "sha256:796840948e69dfdc830de212267f9d015ae98010cef91720b3e74e888c9d1540",
+   "text": "Which tool does the ban on cartels – companies must not agree prices with one another – belong to?"
+  },
+  "blocks[7].questions[2].options[0].text": {
+   "quelle": "sha256:977a2e01913f5e3b79b0db42b2e04176fd9f41543e6dcf69db894ec1784df41c",
+   "text": "Setting rules: the state specifies what is allowed in competition."
+  },
+  "blocks[7].questions[2].options[1].text": {
+   "quelle": "sha256:0e708639d7d5afed9d0003d645a20b2ba1258087e21ed67a0447a76df8e21326",
+   "text": "Providing financial support: the state rewards companies that do not collude."
+  },
+  "blocks[7].questions[2].options[2].text": {
+   "quelle": "sha256:5f8397fdbea21d155293816eb9b044b18e39d8575566e99b1088e9d1a8134255",
+   "text": "Providing infrastructure: the state runs price comparison platforms itself."
+  },
+  "blocks[7].questions[2].options[3].text": {
+   "quelle": "sha256:947f8466cd281ce282866842adda927d8ad836231b7e68a5ca5a0f277a39a2ef",
+   "text": "None – price-fixing is a private matter for businesses."
+  },
+  "blocks[7].questions[2].explanation": {
+   "quelle": "sha256:2a9ce87abb04f43ab206d806bd431eaa7a26c1ed4334c6e1c23f8097d1ca6439",
+   "text": "A ban is a rule: the state decides what is allowed and enforces it with fines if necessary. No one receives financial support or rewards, and nothing is provided. Calling it a ‘private matter’ is a common misconception: the state intervenes with rules precisely because collusion undermines fair competition and everyone ends up paying too much ([[modul:wirtschaft-politik-08-wettbewerb-monopol-konkurrenz]])."
+  },
+  "blocks[7].questions[3].prompt": {
+   "quelle": "sha256:bec3d0040775f6a4b7409f593761b883d20e6cc6bfc8c9c1c76a01ba279e2a6d",
+   "text": "What is a location factor?"
+  },
+  "blocks[7].questions[3].options[0].text": {
+   "quelle": "sha256:62580475ded663a5af74435a7f903252fb27d4869105745e78ce068fb0be8197",
+   "text": "A tax that businesses have to pay for their location."
+  },
+  "blocks[7].questions[3].options[1].text": {
+   "quelle": "sha256:d8ab8b0016e1d227d07f6e63efc02f6e2392b3b43705c59ec26ea9f27dc61754",
+   "text": "The number of branches a business operates."
+  },
+  "blocks[7].questions[3].options[2].text": {
+   "quelle": "sha256:5ab328912a4226813e6638461133a2008dc829e72a4db2d78db8c45140bbf7d6",
+   "text": "A feature of a place that makes it more or less suitable for a business to set up there – such as skilled workers, taxes or transport links."
+  },
+  "blocks[7].questions[3].options[3].text": {
+   "quelle": "sha256:6241715716cd490c6d55eb5615b8b6c87e11fff95370d72a292f51578455cc07",
+   "text": "A quality label awarded by the state to particularly attractive municipalities."
+  },
+  "blocks[7].questions[3].explanation": {
+   "quelle": "sha256:f25685dac6e69b607c50eb89be797cf5361086593a3c914d5ec4fd0ab28a94d7",
+   "text": "Location factors are features of a place from a business's point of view: can it find skilled workers? How high are taxes and charges? Are the infrastructure, market access, stability and administrative procedures suitable? A single tax is at most one of these factors; the number of branches describes the business rather than the place – and there is no such quality label for attractive municipalities."
+  },
+  "blocks[7].questions[4].prompt": {
+   "quelle": "sha256:3eba5d2054abd3c1be74bcbeae9c3bd13dab75888ec5d13844f542985e73a42f",
+   "text": "Liechtenstein has more jobs than residents. How is that possible?"
+  },
+  "blocks[7].questions[4].options[0].text": {
+   "quelle": "sha256:7e6c74e415cc2417c1a54cb5cf1f39371813b5b070bec3ec1b1fd0f6c60c0aef",
+   "text": "Because children and pensioners there also have to work."
+  },
+  "blocks[7].questions[4].options[1].text": {
+   "quelle": "sha256:421aa1cdbd2f8749fc58ebd1270020793d9ddd679e79b701ffa558d931b86972",
+   "text": "Because the statistics also count jobs at Liechtenstein companies abroad."
+  },
+  "blocks[7].questions[4].options[2].text": {
+   "quelle": "sha256:e40de3fa5fc0cf2d945fbac1a0aef0d5b8b55f23c91660c8a059e5773c464a3f",
+   "text": "Because it is an estimation error – it is impossible to have more jobs than residents."
+  },
+  "blocks[7].questions[4].options[3].text": {
+   "quelle": "sha256:32c027410d3a54cfb50fb248ef055fc213d5a9913404f8e0a491e9737f3ab30f",
+   "text": "Because well over half of all employees commute in from abroad each day, mainly from Switzerland and Austria."
+  },
+  "blocks[7].questions[4].explanation": {
+   "quelle": "sha256:273e4ab0316b848a988540b3e4b486b6ee69dcb8f658e68d05f04335695f1b6d",
+   "text": "A large share of jobs in the country are filled by people who do not live there: they cross the border to work every day. This makes it possible to have more jobs than residents – it is not a calculation error, but everyday life in the border region. Children and pensioners are of course not working, and the figures count jobs in the country itself, not in branches abroad."
+  },
+  "blocks[7].questions[5].prompt": {
+   "quelle": "sha256:a5a17f6e089ebb0efe3317fbfe6f53015f1cd891054454b4d509cf0f8f2036a8",
+   "text": "The EEA appears in the case study. What does it represent in this module?"
+  },
+  "blocks[7].questions[5].options[0].text": {
+   "quelle": "sha256:3d136ed68b1785500f01d5e6877acea9a7b78f20fcbe1d579556e2ac60543053",
+   "text": "Market access: it gives Liechtenstein businesses access to customers in the European single market."
+  },
+  "blocks[7].questions[5].options[1].text": {
+   "quelle": "sha256:03645c1a12aadfe5ebd9c76222ecf8c6d827b5d2d8afe96aa80324480cccd871",
+   "text": "The common currency that Liechtenstein shares with the EU."
+  },
+  "blocks[7].questions[5].options[2].text": {
+   "quelle": "sha256:0ae73b6644480ae8d82f43f70de332459d7cb05ae5ac76fa878ee32954ef09d7",
+   "text": "Liechtenstein's membership of the EU."
+  },
+  "blocks[7].questions[5].options[3].text": {
+   "quelle": "sha256:78adabeb563c962f3d6922f6ba59652ed271f6696e738f87d74c7ad1d6f70905",
+   "text": "An agreement that bans commuters from entering the country."
+  },
+  "blocks[7].questions[5].explanation": {
+   "quelle": "sha256:985b6cc96f8fd7b01033a1ee7498b6b9642545a00516d90199d62210cc1ecfa0",
+   "text": "Here, the EEA is a term linked to the location factor of market access: products from Liechtenstein reach customers in the European single market. Liechtenstein is not an EU member, and it does not share a common currency with the EU – people pay in francs ([[modul:wirtschaft-politik-10-geld-funktionen-geschichte]]). The EEA certainly has nothing to do with entry bans – it stands for open markets. You will explore how economic cooperation in Europe works in more detail in [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]]."
+  },
+  "blocks[7].questions[6].prompt": {
+   "quelle": "sha256:01529089df5f2a0578fc4ed07d0657665d7a23c642da9903a1bac83a4ee2c41d",
+   "text": "What is the difference between hard and soft location factors?"
+  },
+  "blocks[7].questions[6].options[0].text": {
+   "quelle": "sha256:3428067f3d846596f05227936a7c0c7ea8b31f2f666c2090901d37cb55143a16",
+   "text": "Hard factors concern industry; soft factors only concern banks."
+  },
+  "blocks[7].questions[6].options[1].text": {
+   "quelle": "sha256:897065c21ebd4b1127b67bd374a0dc1b2a1f8d0d41f4239beca9d3821ec12fd2",
+   "text": "Hard factors are important; soft factors do not matter."
+  },
+  "blocks[7].questions[6].options[2].text": {
+   "quelle": "sha256:0fd300deb9e07f67d629befa3c7da2fc7387b2a7fab13bb16ede274ee35a2618",
+   "text": "Hard factors can be measured and compared (e.g. taxes, transport links), while soft factors are difficult to measure (e.g. image, quality of life)."
+  },
+  "blocks[7].questions[6].options[3].text": {
+   "quelle": "sha256:14622bf512b3ae12e55205fd81150459e6549e34dc3a34fa55ba7ac3b34c9455",
+   "text": "Hard factors apply in winter; soft factors apply in summer."
+  },
+  "blocks[7].questions[6].explanation": {
+   "quelle": "sha256:6aba147bbf6a116d348470d894ef4bd4dfd736f30c44020c347942334e558554",
+   "text": "The difference is whether they can be measured: tax rates, journey times or labour costs can be expressed in numbers and compared – these are hard factors. Image, quality of life or leisure activities are difficult to measure, but still influence the choice because employees and their families want to enjoy living in the area. The distinction has nothing to do with industries, let alone seasons – and ‘soft’ does not mean ‘unimportant’."
+  },
+  "blocks[7].questions[7].prompt": {
+   "quelle": "sha256:9aaf5287197839f8bdc4a11436415523e771255da04b756e849883293c40c0e2",
+   "text": "Bergland introduces strict compulsory testing for electrical appliances. Consumer advocates welcome this, while some manufacturers consider relocating. What does this example show?"
+  },
+  "blocks[7].questions[7].options[0].text": {
+   "quelle": "sha256:b0b11fd20664ed9a6bcc8026e12eddfb034df22c0e95678232e22416f3f1b6f9",
+   "text": "That rules are fundamentally wrong and should be abolished."
+  },
+  "blocks[7].questions[7].options[1].text": {
+   "quelle": "sha256:e0e3a9ef4831c144a2e8ba9ae4fb14b1a72f20836404d53269c8f0577c69b158",
+   "text": "A conflict between aims: more protection through rules can make a business location less attractive – policymakers have to weigh up where to draw the line."
+  },
+  "blocks[7].questions[7].options[2].text": {
+   "quelle": "sha256:8756a612805b101a54d2bfa7c42f5565f7ad2889d966ca6666d9cadecb9a9efd",
+   "text": "That businesses have no interest in safety as a matter of principle."
+  },
+  "blocks[7].questions[7].options[3].text": {
+   "quelle": "sha256:5e4ac6ff0a8a9bffd313232aa0321cbe4a9c9409dfc938d93b8de30b5ee7c05f",
+   "text": "That consumer protection costs nothing as long as you decide to introduce it."
+  },
+  "blocks[7].questions[7].explanation": {
+   "quelle": "sha256:c427a016b6766f54af04b52c1f3c8c48a9641ed3b1e4689598be8ee8fb95a172",
+   "text": "Both concerns are valid: protection from dangerous appliances – and a location where businesses stay and keep jobs secure. Strengthening one puts pressure on the other: a classic conflict between aims that policymakers must weigh up. This does not mean that rules are fundamentally wrong (too little protection also harms a location in the long term), or that businesses do not care about safety – and consumer protection is not free: someone has to pay for the tests."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:9790b67e4d17fe49965e9477d254775879c9e7c33294c96b36442bdb7b9917b4",
+   "text": "Fill in the terms: aims, tools and location"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** three of the words do not fit anywhere."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:7c1e4f7a59e845a513983b82e811f65d9b9141852a116cc2e055724311f8a812",
+   "text": "Type in the terms: check your location vocabulary"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "There is no word bank this time – **type in the missing terms yourself**. Capitalisation does not matter."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:fd36cc4d0cb4cc6ff02f15e3fee80db063fb7855540a6fca285a574ecfd69714",
+   "text": "Match each measure to its tool"
+  },
+  "blocks[10].intro": {
+   "quelle": "sha256:66f3633648f82b8d9517c04fc414827b670c9d55244c0406c3e5b7b545e58926",
+   "text": "Match each measure to the right tool of economic policy: **Setting rules**, **Providing financial support** or **Providing infrastructure**. Each tool appears exactly three times."
+  },
+  "blocks[11].title": {
+   "quelle": "sha256:41ccfbc59e5b1afa48151994a468f6abc52d2b4036304f689e433635012ad4ab",
+   "text": "Explore further: investigate locations and weigh up choices"
+  },
+  "blocks[11].tasks[0].prompt": {
+   "quelle": "sha256:8795ff336abdf7ee6db09910c99f8a57ddfd7efa892913c4701579bf6a4bca60",
+   "text": "Location detective: choose a business in your area – a bakery, a workshop or an industrial business (without judging it). Work through three location factors from the diagram and consider each one: how well does this location meet the business's needs – and what evidence supports your view?"
+  },
+  "blocks[11].tasks[0].hint": {
+   "quelle": "sha256:3b268717b1438433cbdf1e2aa0f66659eae9665e5a6934f7063079bcd89d85d8",
+   "text": "Use the questions from the diagram directly: can the business find skilled workers here (are relevant apprenticeships available nearby)? How easy is it to reach (road, bus, parking)? Who are its customers – people in the village or customers abroad?"
+  },
+  "blocks[11].tasks[0].solution": {
+   "quelle": "sha256:b52f3bddacaa69ebded55a21add590ba9ac0a38f670657c49eec01dab8859ca8",
+   "text": "Example answer for a bakery: (1) Skilled workers – it trains its own apprentices and finds staff locally; (2) Infrastructure – it is on the main road through the village, so delivery vans and customers can reach it easily; (3) Market access – almost all its customers live in the village, so access to foreign markets matters very little to it. What matters is that you explain each factor with reference to the actual location – and recognise that different businesses need different factors."
+  },
+  "blocks[11].tasks[1].prompt": {
+   "quelle": "sha256:b11d72a559c52f98664da0880c619a4d46f6d7be6a15d876c33abb053b5bbf64",
+   "text": "Alpentec decides: the fictional Alpentec AG (measuring instruments, 40 jobs) is comparing two fictional locations. Tal A: plenty of skilled workers thanks to a university of applied sciences, good motorway access, moderate taxes, permits often take over a year. Ort B: lower taxes, quick administrative procedures, but hardly any local skilled workers and no rail link. Recommend a location to the management team: justify your choice using at least three location factors – and name one thing your chosen place would need to improve."
+  },
+  "blocks[11].tasks[1].hint": {
+   "quelle": "sha256:eac1de9c45d160b618e4aef23045b3ed33c9bc869761416c1a44ae6e6b51f772",
+   "text": "There is no single ‘right’ answer – what matters is a well-reasoned answer. First consider which factors matter most to a manufacturer of measuring instruments: who makes the instruments (skilled workers)? How do they reach customers (transport)? How much profit is left (taxes)?"
+  },
+  "blocks[11].tasks[1].solution": {
+   "quelle": "sha256:7208b84854cfde7d107230dfa1d025b0f52ca04ff6e86d04b09a9f272f6566c0",
+   "text": "Either recommendation is defensible if you explain the weight you give to each factor. Example for Tal A: for a manufacturer, skilled workers are the bottleneck – without electronics technicians and engineers, there is no production; motorway access secures delivery routes, and moderate taxes are manageable. Tal A would need to improve its slow permit procedures. Example for Ort B: low taxes and quick administrative procedures save money and time; however, Alpentec would then need to recruit skilled workers from elsewhere (commuting routes, labour costs) and arrange to transport goods by road. A successful answer explicitly weighs up at least three factors."
+  },
+  "blocks[11].tasks[2].prompt": {
+   "quelle": "sha256:7c7e3ddc423374e860e9b29edc943c9307bf5f1f71533e20161867f32748390c",
+   "text": "Think through conflicting aims: Bergland is debating a rule requiring online shops to accept returns on every order free of charge for 30 days. Use the argument structure from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] (claim – reason – example) to write one argument in favour and one against. Finish with two or three sentences weighing up the options yourself: where would you draw the line – and is there a compromise?"
+  },
+  "blocks[11].tasks[2].hint": {
+   "quelle": "sha256:6d1c4498901ce7ffc73e84fb7ac5d2929c743407fc540c0820fd60f13138b66b",
+   "text": "You can find arguments in favour in consumer protection (unsuitable purchases, online pressure), and arguments against in the costs (returns, small shops, attractiveness as a business location). Possible compromises include a shorter period, exemptions for perishable goods or a charge from the second return onwards."
+  },
+  "blocks[11].tasks[2].solution": {
+   "quelle": "sha256:095c2979fff8e19875b750a2de30213b6f3ea22a6c28b6df09f9852104b68967",
+   "text": "Example in favour: ‘The rule protects consumers because you cannot touch products online and would otherwise be stuck with unsuitable purchases – for example, shoes that do not fit.’ Example against: ‘The rule puts pressure on small shops because every free return costs money for postage, inspection and repackaging – a small sports shop with a narrow profit margin is less able to afford this than a global company and will think twice about its location.’ Your evaluation is successful if it takes both sides seriously and gives a reasoned boundary or compromise – for example: a 14-day right to return goods, excluding perishable goods."
+  }
+ },
+ "pakete": {
+  "blocks[8]": {
+   "quelle": "sha256:9c0452a3bdd0064f0b30fa6a2365cb5f9f018a413eacf937b41157ac214dedd4",
+   "inhalt": {
+    "text": "Economic policy has four main aims: {{1}} for as many people as possible, secure {{2}}, stable conditions and fair {{3}}. The state has three tools for this: it sets {{4}} such as the ban on cartels, it {{5}} education and research with targeted funding, and it provides {{6}} such as roads and fast internet. Where a business sets up depends on {{7}}: for example, available {{8}}, the level of taxes and access to the European {{9}}.",
+    "luecken": [
+     [
+      "prosperity",
+      "well-being",
+      "wellbeing",
+      "economic well-being",
+      "economic wellbeing"
+     ],
+     [
+      "jobs",
+      "employment",
+      "work",
+      "job opportunities"
+     ],
+     [
+      "competition"
+     ],
+     [
+      "rules",
+      "regulations"
+     ],
+     [
+      "supports",
+      "promotes",
+      "encourages",
+      "subsidises",
+      "subsidizes"
+     ],
+     [
+      "infrastructure",
+      "the infrastructure"
+     ],
+     [
+      "location factors",
+      "the location factors",
+      "locational factors",
+      "the locational factors",
+      "site factors",
+      "the site factors"
+     ],
+     [
+      "skilled workers",
+      "skilled labour",
+      "skilled labor",
+      "qualified workers",
+      "skilled staff",
+      "qualified staff",
+      "skilled personnel",
+      "qualified personnel",
+      "a skilled workforce",
+      "skilled workforce"
+     ],
+     [
+      "single market",
+      "internal market",
+      "common market"
+     ]
+    ],
+    "ablenker": [
+     "monopoly",
+     "bans",
+     "debt"
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:600a229cfc108ef20eec09d6b01ef148715c8408c361e7f90221775f6e7e9b2c",
+   "inhalt": {
+    "text": "Features of a place that make it more or less suitable for a business to set up there are called {{1}}. Well-trained employees are also known as {{2}}. Roads, the electricity grid and internet cables are collectively called {{3}}. When two valid policy aims get in each other's way, this is called {{4}}. The European Economic Area, through which Liechtenstein businesses reach their customers in Europe, is abbreviated to {{5}}.",
+    "luecken": [
+     [
+      "location factors",
+      "location factor",
+      "a location factor",
+      "the location factors",
+      "locational factors",
+      "locational factor",
+      "a locational factor",
+      "the locational factors",
+      "site factors",
+      "site factor",
+      "a site factor",
+      "the site factors"
+     ],
+     [
+      "skilled workers",
+      "skilled labour",
+      "skilled labor",
+      "qualified workers",
+      "skilled staff",
+      "qualified staff",
+      "skilled personnel",
+      "qualified personnel",
+      "a skilled workforce",
+      "skilled workforce",
+      "the skilled workforce"
+     ],
+     [
+      "infrastructure",
+      "the infrastructure"
+     ],
+     [
+      "a conflict between aims",
+      "conflict between aims",
+      "conflicts between aims",
+      "conflicting aims",
+      "a conflict between goals",
+      "conflict between goals",
+      "conflicts between goals",
+      "conflicting goals",
+      "a conflict between objectives",
+      "conflict between objectives",
+      "conflicts between objectives",
+      "conflicting objectives",
+      "a conflict of aims",
+      "conflict of aims",
+      "a conflict of goals",
+      "conflict of goals",
+      "a conflict of objectives",
+      "conflict of objectives",
+      "a goal conflict",
+      "goal conflict",
+      "goal conflicts",
+      "a policy trade-off",
+      "policy trade-off",
+      "a trade-off",
+      "trade-off",
+      "trade-offs",
+      "a tradeoff",
+      "tradeoff",
+      "tradeoffs",
+      "a trade off",
+      "trade off",
+      "trade offs"
+     ],
+     [
+      "EEA",
+      "the EEA",
+      "E.E.A.",
+      "E.E.A",
+      "E E A"
+     ]
+    ]
+   }
+  },
+  "blocks[10]": {
+   "quelle": "sha256:c37e576b9dcad5850e55fd0f1fb8da93ef50cadf935fac02c5800a9e8e354dcd",
+   "inhalt": {
+    "text": "Parliament bans price-fixing between construction companies. {{1}}\nThe country gives grants to a research laboratory developing new battery technology. {{2}}\nThe municipality lays fibre-optic cables to every village. {{3}}\nThe state pays part of the training costs of companies that offer apprenticeships. {{4}}\nA new law requires clear pricing in online shops. {{5}}\nThe country builds a new bridge across the river. {{6}}\nNew businesses receive start-up funding from an innovation fund in their first two years. {{7}}\nThe state operates and maintains the electricity grid. {{8}}\nElectrical appliances may only be sold once their safety has been tested. {{9}}",
+    "luecken": [
+     [
+      "Setting rules",
+      "Set rules",
+      "Rule-setting",
+      "Rule setting",
+      "Regulating",
+      "Regulation"
+     ],
+     [
+      "Providing financial support",
+      "Provide financial support",
+      "Financial support",
+      "Supporting",
+      "Support",
+      "Funding",
+      "Subsidising",
+      "Subsidizing"
+     ],
+     [
+      "Providing infrastructure",
+      "Provide infrastructure",
+      "Infrastructure provision",
+      "Providing",
+      "Provision"
+     ],
+     [
+      "Providing financial support",
+      "Provide financial support",
+      "Financial support",
+      "Supporting",
+      "Support",
+      "Funding",
+      "Subsidising",
+      "Subsidizing"
+     ],
+     [
+      "Setting rules",
+      "Set rules",
+      "Rule-setting",
+      "Rule setting",
+      "Regulating",
+      "Regulation"
+     ],
+     [
+      "Providing infrastructure",
+      "Provide infrastructure",
+      "Infrastructure provision",
+      "Providing",
+      "Provision"
+     ],
+     [
+      "Providing financial support",
+      "Provide financial support",
+      "Financial support",
+      "Supporting",
+      "Support",
+      "Funding",
+      "Subsidising",
+      "Subsidizing"
+     ],
+     [
+      "Providing infrastructure",
+      "Provide infrastructure",
+      "Infrastructure provision",
+      "Providing",
+      "Provision"
+     ],
+     [
+      "Setting rules",
+      "Set rules",
+      "Rule-setting",
+      "Rule setting",
+      "Regulating",
+      "Regulation"
+     ]
+    ]
+   }
+  }
+ }
+}
