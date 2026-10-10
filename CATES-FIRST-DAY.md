@@ -2,9 +2,11 @@
 
 Genau ein eigenständiges Zusatzmodul für **Englisch, Stufe 7,
 Liechtenstein**, ungefähr **20 Minuten**. Reihe: **Cate's exchange year
-in Scotland**, Reihenfolge 1.
+in Scotland**. Die Reihenfolge steht separat in `sequenz` (aktuell 1);
+die stabile Modul-ID `englisch-cates-first-day` enthält keine Nummer.
+Lehrplan und Stufe stehen in `curricula`.
 
-- Moduldatei: [modules/englisch-01-cates-first-day/module.json](modules/englisch-01-cates-first-day/module.json)
+- Moduldatei: [modules/englisch-cates-first-day/module.json](modules/englisch-cates-first-day/module.json)
 - Format: **Schema-Version 3**, verbindlich ist
   [schema/schema.ts](schema/schema.ts), insbesondere `moduleSchema`,
   `knownBlockSchema` und `parseModulDatei`.
@@ -13,22 +15,11 @@ in Scotland**, Reihenfolge 1.
 - Diese Begleitdatei liegt außerhalb des Modulordners, weil dessen
   Validator keine Markdown-Dokumentation zulässt.
 
-## Fachlicher Bezug und Geschichte
+## Geschichte
 
-Grobe Orientierung: **Open World 1, Ausgabe ab 2018, Unit 1 «Going
-places»**. Der Auftrag nennt als geprüften Language Companion
-**ISBN 978-3-264-84251-7**. Das Buch lag bei dieser Umsetzung nicht vor;
-ein eigener Abgleich mit Buchseiten oder Verlagswortlisten wurde deshalb
-nicht durchgeführt. Die acht Zielwörter und ihre Bedeutungen stammen aus
-dem Auftrag. Geschichte, Übungskontexte, Antwortalternativen und Hilfen
-sind eigens für dieses Modul formuliert. Es werden keine Verlagstexte,
-Bilder, Audios, Aufgabenfolgen oder vollständigen Wortlisten übernommen.
-Die Quellenzeile im Modul benennt den Orientierungsbezug; sie behauptet
-keine Freigabe oder Mitwirkung des Verlags.
-
-Cate bleibt die vorhandene EveryCate-Lernroboterfigur. In der Fiktion
-studiert sie während ihres Austauschjahres an der University of Glasgow.
-Calum und Timo sind erfundene junge Studierende und ihre neuen Mitbewohner:
+Cate ist die EveryCate-Lernroboterfigur und studiert während ihres
+Austauschjahres an der University of Glasgow.
+Calum und Timo sind junge Studierende und ihre neuen Mitbewohner:
 Calum kommt aus Schottland, Timo aus Deutschland und studiert Ingenieurwesen.
 Cates Zimmer hat ein eigenes Badezimmer; die Küche ist gemeinsam.
 Calum bewahrt sein teures Fahrrad aus Sorge vor Dieben im Zimmer auf.
@@ -159,7 +150,7 @@ node --import tsx --input-type=module <<'JS'
 import fs from 'node:fs';
 import { parseModulDatei, pruefSchluessel } from './schema/schema.ts';
 const raw = JSON.parse(fs.readFileSync(
-  'modules/englisch-01-cates-first-day/module.json', 'utf8'));
+  'modules/englisch-cates-first-day/module.json', 'utf8'));
 const result = parseModulDatei(raw);
 if (!result.success) throw result.error;
 console.log(result.data.id, pruefSchluessel(result.data));
