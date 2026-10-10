@@ -1,0 +1,724 @@
+{
+ "schemaVersion": 3,
+ "id": "englisch-cates-first-day",
+ "title": "Cate's First Day",
+ "description": "An A2 reading and writing module about Cate’s first day as an exchange student in Glasgow. Explain eight travel words and phrases in English, use them in your own sentences and practise simple past questions and negatives.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "E",
+   "subjectName": "Englisch",
+   "grades": [
+    7
+   ],
+   "competencies": [
+    {
+     "code": "FS1E.2.A.1",
+     "description": "Practice focus: understand the main events, reasons and feelings in a connected A2 story."
+    },
+    {
+     "code": "FS1E.4.A.1",
+     "description": "Practice focus: write English explanations, meaningful example sentences, questions and a short diary entry; check open answers with examples."
+    },
+    {
+     "code": "FS1E.5.B.1",
+     "description": "Practice focus: explain eight travel words and phrases in English and use them in meaningful contexts."
+    },
+    {
+     "code": "FS1E.5.D.1",
+     "description": "Practice focus: use simple past questions and negatives with did/did not and was/were, including base forms of regular and irregular verbs."
+    }
+   ]
+  }
+ ],
+ "sequenz": 1,
+ "einheit": "Cate's exchange year in Scotland",
+ "language": "en",
+ "languageLearning": true,
+ "learningObjectives": [
+  "I can understand Cate’s first-day story, explain eight travel words and phrases in English and use each one in a meaningful sentence.",
+  "I can ask and answer simple past questions, make negative sentences with did not and was/were not, and write a short diary entry as Cate."
+ ],
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "Englisch",
+  "A2",
+  "Glasgow",
+  "Scotland",
+  "exchange year",
+  "travel",
+  "diary",
+  "simple past",
+  "questions",
+  "negatives",
+  "did",
+  "didn't",
+  "was",
+  "were"
+ ],
+ "license": "CC BY-SA 4.0",
+ "requires": [],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "a-mission",
+   "title": "Help Cate tell her story",
+   "body": "Cate, the EveryCate learning robot, is spending an exchange year at the **University of Glasgow**. Her first day brings a broken screen, helpful strangers and an unexpected surprise. Read her story, investigate the language and help her write her diary.\n\nYou already know regular verbs with **-ed**, irregular past forms and **did/didn't**. Here you will use them to explain events and ask better questions.\n\n**Your learning goals:**\n\n- I can understand Cate’s first-day story, explain eight travel words and phrases in English and use each one in a meaningful sentence.\n- I can ask and answer simple past questions, make negative sentences with did not and was/were not, and write a short diary entry as Cate.\n\nYou can complete every activity by reading and writing."
+  },
+  {
+   "type": "text",
+   "id": "b-word-bank",
+   "title": "Words to investigate",
+   "body": "Find these eight words and phrases in the story. Notice **what they mean** and **how Cate uses them**. The German meanings can help you get started; later you will explain each meaning in English and create your own examples.\n\n**journey** – eine Reise\n\n**railway station** – Bahnhof\n\n**ticket** – Fahrkarte\n\n**passenger** – eine Person, die in einem Verkehrsmittel mitreist\n\n**friendly** – freundlich\n\n**nearby** – in der Nähe\n\n**over there** – dort drüben\n\n**diary** – Tagebuch\n\nLearn **railway station** and **over there** as whole phrases. When you explain a word, give useful information: *a person who …*, *a place where …*, *something you use to …* or *it means …*."
+  },
+  {
+   "type": "text",
+   "id": "c-scene",
+   "title": "A difficult arrival, a good surprise",
+   "body": "**Read Cate’s account of yesterday. How did her feelings change during the day?**\n\nYesterday I travelled to Glasgow to start my exchange year at the University of Glasgow. My journey was long because the train arrived twenty minutes late. I was a passenger with two bags and a screen full of useful information. My ticket and the address of my student accommodation were on it. During the journey, the ticket inspector checked my ticket, so everything seemed fine.\n\nHowever, when I got off at a small railway station near Glasgow, my screen suddenly went dark. I didn't have a paper map, and I didn't know which exit to use. Two students, Calum and Timo, noticed me near the doors. ‘Did you lose your ticket?’ Calum asked. ‘No, I didn't. My screen stopped working,’ I explained. They were friendly, but I felt embarrassed because I needed help on my very first day.\n\nTimo opened a map on his phone. I remembered the name of my accommodation, and he found it quickly. It was nearby, so we didn't take a bus. ‘It's over there, behind the café,’ he said. We walked there together. When we compared our room numbers, we discovered that we were flatmates!\n\nCalum is from Scotland, and Timo is an exchange student from Germany who studies engineering. In our flat, each bedroom has its own bathroom, but we share a kitchen. I was surprised when Calum carried his expensive bike into his bedroom. He explained that he was worried about thieves, so he didn't leave it outside.\n\nTimo lent me a charger, and soon my screen worked again. That evening, we didn't go to a restaurant. We cooked pasta in our shared kitchen and talked about our plans. My first day wasn't easy, but I wasn't alone either. Now my diary is open. How can I explain the problem, the help and the surprise in just a few sentences?\n\n**Reading help:** ticket inspector = a person who checks passengers’ tickets; exit = a way out of a building; embarrassed = uncomfortable because you think you look silly; accommodation = a place where you stay; flatmates = people who share a flat; engineering = designing and building things such as machines; thieves = people who steal things; lent = the past form of lend, to give someone something to use and return later; charger = something that gives power to a battery."
+  },
+  {
+   "type": "quiz",
+   "id": "c-understanding",
+   "title": "Events, reasons and feelings",
+   "intro": "Choose the best answer. Find the sentence or sentences that support your choice. After a mistake, read the explanation and try again.",
+   "questions": [
+    {
+     "id": "c-screen-problem",
+     "type": "single_choice",
+     "prompt": "Why did Cate need help at the railway station?",
+     "options": [
+      {
+       "text": "Her screen stopped working, so she could not read the address or map.",
+       "correct": true
+      },
+      {
+       "text": "The ticket inspector took her screen away."
+      },
+      {
+       "text": "She left both bags on the train."
+      }
+     ],
+     "explanation": "The address was on her screen. It went dark, and she had no paper map. Connect the information in the first two paragraphs and try again."
+    },
+    {
+     "id": "c-map-help",
+     "type": "single_choice",
+     "prompt": "How did Timo help Cate find the accommodation?",
+     "options": [
+      {
+       "text": "He told her to take a bus because it was far away."
+      },
+      {
+       "text": "He found it on his phone after she remembered its name.",
+       "correct": true
+      },
+      {
+       "text": "He read the address from her working screen."
+      }
+     ],
+     "explanation": "Cate remembered the name, and Timo found it on his phone. Her own screen was still dark. Read the third paragraph before trying again."
+    },
+    {
+     "id": "c-walk-reason",
+     "type": "single_choice",
+     "prompt": "Why did the three students walk to the accommodation?",
+     "options": [
+      {
+       "text": "They wanted to leave the city."
+      },
+      {
+       "text": "They did not know where the accommodation was."
+      },
+      {
+       "text": "It was nearby, so they did not need a bus.",
+       "correct": true
+      }
+     ],
+     "explanation": "“It was nearby, so we didn’t take a bus.” The word so connects the short distance with their decision to walk. Try again if needed."
+    },
+    {
+     "id": "c-bike-reason",
+     "type": "single_choice",
+     "prompt": "Why did Calum put his bike in his bedroom?",
+     "options": [
+      {
+       "text": "He wanted to protect it from thieves.",
+       "correct": true
+      },
+      {
+       "text": "He planned to cook with it in the kitchen."
+      },
+      {
+       "text": "He wanted to lend it to the ticket inspector."
+      }
+     ],
+     "explanation": "Calum was worried about thieves. Keeping the expensive bike inside made him feel safer. Look for the reason in the fourth paragraph."
+    },
+    {
+     "id": "c-feelings",
+     "type": "single_choice",
+     "prompt": "Which sentence best describes Cate’s day?",
+     "options": [
+      {
+       "text": "She felt confident at first, but her flatmates refused to help."
+      },
+      {
+       "text": "She felt embarrassed at the station, but later she had help and company.",
+       "correct": true
+      },
+      {
+       "text": "She was alone all day and never found the accommodation."
+      }
+     ],
+     "explanation": "At the station Cate felt embarrassed. Later Timo lent her a charger, and the students cooked and talked together. Use both parts of the story when you try again."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "b-definitions",
+   "title": "Explain the meaning in English",
+   "intro": "Match each word or phrase to its English explanation. After a mistake, use these clues: passenger describes a person; friendly describes behaviour; nearby describes distance; over there points to a place. Read the story or word bank again, then retry.",
+   "paare": [
+    {
+     "links": {
+      "text": "journey"
+     },
+     "rechts": {
+      "text": "a trip from one place to another, for example by train"
+     }
+    },
+    {
+     "links": {
+      "text": "railway station"
+     },
+     "rechts": {
+      "text": "a place where trains stop so that people can get on or off"
+     }
+    },
+    {
+     "links": {
+      "text": "ticket"
+     },
+     "rechts": {
+      "text": "a paper or digital pass that allows you to travel on a bus, train or another vehicle"
+     }
+    },
+    {
+     "links": {
+      "text": "passenger"
+     },
+     "rechts": {
+      "text": "a person who travels in a vehicle but does not drive it"
+     }
+    },
+    {
+     "links": {
+      "text": "friendly"
+     },
+     "rechts": {
+      "text": "kind and pleasant towards other people"
+     }
+    },
+    {
+     "links": {
+      "text": "nearby"
+     },
+     "rechts": {
+      "text": "not far away from a place"
+     }
+    },
+    {
+     "links": {
+      "text": "over there"
+     },
+     "rechts": {
+      "text": "in that place, away from where the speaker is, often shown by pointing"
+     }
+    },
+    {
+     "links": {
+      "text": "diary"
+     },
+     "rechts": {
+      "text": "a book or digital record where someone writes about daily events and feelings"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "b-context",
+   "title": "Use the words in context",
+   "intro": "Use each word or phrase from the bank once. These are new practice situations. After checking, read the whole sentence around any mistake. Look back at the English explanations and try again.",
+   "modus": "wortbank",
+   "text": "The {{1}} from Vaduz to Glasgow took most of the day.\nWe waited on the platform at the {{2}} until our train arrived.\nBefore I got on the train, I bought a {{3}} for the trip.\nThe driver sat at the front of the bus, but each {{4}} sat behind her.\nOur new neighbour was {{5}}: she smiled, introduced herself and offered to help.\nThe café was {{6}}, so we walked there in two minutes.\n“Can you see that red building across the square? The library is {{7}}.”\nI wrote about the best and worst parts of my day in my {{8}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "journey"
+     ]
+    },
+    {
+     "antworten": [
+      "railway station"
+     ]
+    },
+    {
+     "antworten": [
+      "ticket"
+     ]
+    },
+    {
+     "antworten": [
+      "passenger"
+     ]
+    },
+    {
+     "antworten": [
+      "friendly"
+     ]
+    },
+    {
+     "antworten": [
+      "nearby"
+     ]
+    },
+    {
+     "antworten": [
+      "over there"
+     ]
+    },
+    {
+     "antworten": [
+      "diary"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "b-own-words",
+   "title": "Your explanations and examples",
+   "intro": "For each target word, write a short English explanation in your own words and then a meaningful example sentence. Try without looking at the matching activity first. You may use a new, imagined situation for your examples. Explain the meaning instead of only translating into German. Open the hint if you get stuck. Compare with the sample afterwards; many different answers are possible.",
+   "tasks": [
+    {
+     "id": "b-explain-journey",
+     "prompt": "**journey**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **journey**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "Explain what happens between leaving one place and arriving at another.",
+     "solution": "**Possible explanation:** a trip from one place to another, for example by train.\n\n**Possible example:** Our journey to the coast took three hours because the roads were busy.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    },
+    {
+     "id": "b-explain-railway-station",
+     "prompt": "**railway station**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **railway station**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "Describe the place and say what people do there. You can use the word trains.",
+     "solution": "**Possible explanation:** a place where trains stop so that people can get on or off.\n\n**Possible example:** We waited at the railway station until our train arrived.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    },
+    {
+     "id": "b-explain-ticket",
+     "prompt": "**ticket**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **ticket**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "In this module, explain the travel meaning. Think about what you buy before a train trip.",
+     "solution": "**Possible explanation:** a paper or digital pass that allows you to travel on a bus, train or another vehicle.\n\n**Possible example:** I bought a return ticket because I wanted to come home the same evening.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    },
+    {
+     "id": "b-explain-passenger",
+     "prompt": "**passenger**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **passenger**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "Start with a person who … and explain the difference from the driver.",
+     "solution": "**Possible explanation:** a person who travels in a vehicle but does not drive it.\n\n**Possible example:** One passenger asked the bus driver to stop near the hospital.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    },
+    {
+     "id": "b-explain-friendly",
+     "prompt": "**friendly**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **friendly**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "Describe how this person treats other people. Give an example of their behaviour.",
+     "solution": "**Possible explanation:** kind and pleasant towards other people.\n\n**Possible example:** Our neighbour was friendly: she introduced herself and helped us carry our bags.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    },
+    {
+     "id": "b-explain-nearby",
+     "prompt": "**nearby**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **nearby**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "Explain the distance. In your example, give a detail that shows the place is close.",
+     "solution": "**Possible explanation:** not far away from a place.\n\n**Possible example:** The shop was nearby, so I walked there in two minutes.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    },
+    {
+     "id": "b-explain-over-there",
+     "prompt": "**over there**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **over there**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "Imagine pointing to a place across a street or a room. Explain what the phrase means.",
+     "solution": "**Possible explanation:** in that place, away from where the speaker is, often shown by pointing.\n\n**Possible example:** Look across the road! Our bus is over there, next to the red building.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    },
+    {
+     "id": "b-explain-diary",
+     "prompt": "**diary**\n\n**Explain:** What does it mean? Use English without repeating the target word as its own explanation.\n\n**Use:** Write your own complete sentence with **diary**. Add a detail that makes the meaning clear. For example, “It was nearby” needs a place and a clue about the distance.",
+     "hint": "Say what people write in it and why. A translation alone does not explain the meaning.",
+     "solution": "**Possible explanation:** a book or digital record where someone writes about daily events and feelings.\n\n**Possible example:** I wrote in my diary about the new friends I met on holiday.\n\n**Self-check:** Is my explanation in English and accurate? Does my example use the whole word or phrase naturally? Is there enough context to understand it? A different clear explanation or example is also valid. Revise your answer if needed."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "d-language-tool",
+   "title": "Ask and correct: simple past",
+   "body": "You already know past forms such as **walked, noticed, went** and **took**. Focus on what changes when you ask a question or make a sentence negative.\n\n| Statement | Yes/no question | Negative |\n| --- | --- | --- |\n| They walked there. | **Did** they **walk** there? | They **didn’t walk** there. |\n| Cate took a bus. | **Did** Cate **take** a bus? | Cate **didn’t take** a bus. |\n| Her screen was dark. | **Was** her screen dark? | Her screen **wasn’t** dark. |\n| The students were outside. | **Were** the students outside? | The students **weren’t** outside. |\n\nThese are grammar examples; check the story for what really happened.\n\nWith most verbs, use **did + person + base form** for a question and **person + didn’t + base form** for a negative. The past is already in did, so use **go**, not went; **help**, not helped. **didn’t = did not**.\n\nFor a question with a question word: **Where/Why/What + did + person + base form …?**\n\n- Where **did** they **cook**? – In the shared kitchen.\n- Why **did** they **walk**? – Because the accommodation was nearby.\n\nWith **be**, use **was/were** directly: **Was** Cate worried? **Were** her flatmates helpful? Use **wasn’t / was not** or **weren’t / were not** for negatives. Do not add did to was/were.\n\n**Short answers:** Did Timo help? – Yes, he **did**. / No, he **didn’t**. Was the journey long? – Yes, it **was**. / No, it **wasn’t**."
+  },
+  {
+   "type": "lueckentext",
+   "id": "d-question",
+   "title": "Build yes/no and wh-questions",
+   "intro": "Complete each question with did and the base form of the verb in brackets. You know the past forms, but questions need the base form. If you make a mistake, check the verb after did and try again.",
+   "modus": "eingabe",
+   "text": "{{1}} Cate {{2}} by train? (travel)\n{{3}} she {{4}} her ticket? (lose)\nWhat {{5}} Timo {{6}} on his phone? (open)\nWhy {{7}} they {{8}} to the accommodation? (walk)\nWhere {{9}} Calum {{10}} his bike? (put)\nWhat {{11}} Timo {{12}} Cate? (lend)",
+   "luecken": [
+    {
+     "antworten": [
+      "Did"
+     ]
+    },
+    {
+     "antworten": [
+      "travel"
+     ]
+    },
+    {
+     "antworten": [
+      "Did"
+     ]
+    },
+    {
+     "antworten": [
+      "lose"
+     ]
+    },
+    {
+     "antworten": [
+      "did"
+     ]
+    },
+    {
+     "antworten": [
+      "open"
+     ]
+    },
+    {
+     "antworten": [
+      "did"
+     ]
+    },
+    {
+     "antworten": [
+      "walk"
+     ]
+    },
+    {
+     "antworten": [
+      "did"
+     ]
+    },
+    {
+     "antworten": [
+      "put"
+     ]
+    },
+    {
+     "antworten": [
+      "did"
+     ]
+    },
+    {
+     "antworten": [
+      "lend"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "d-negative",
+   "title": "Correct the false claims",
+   "intro": "Each claim below is false. Change it into a negative sentence that matches the story. Use did not or didn’t and the base form of the verb in the claim. After a mistake, check both parts: did not + base form, then try again.",
+   "modus": "eingabe",
+   "text": "Claim: Cate lost her ticket.\nCorrection: Cate {{1}} {{2}} her ticket.\n\nClaim: The students took a bus to the accommodation.\nCorrection: The students {{3}} {{4}} a bus to the accommodation.\n\nClaim: Calum left his bike outside.\nCorrection: Calum {{5}} {{6}} his bike outside.\n\nClaim: The students went to a restaurant that evening.\nCorrection: The students {{7}} {{8}} to a restaurant that evening.\n\nClaim: Timo ignored Cate at the station.\nCorrection: Timo {{9}} {{10}} Cate at the station.",
+   "luecken": [
+    {
+     "antworten": [
+      "didn't",
+      "did not",
+      "didn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "lose"
+     ]
+    },
+    {
+     "antworten": [
+      "didn't",
+      "did not",
+      "didn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "take"
+     ]
+    },
+    {
+     "antworten": [
+      "didn't",
+      "did not",
+      "didn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "leave"
+     ]
+    },
+    {
+     "antworten": [
+      "didn't",
+      "did not",
+      "didn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "go"
+     ]
+    },
+    {
+     "antworten": [
+      "didn't",
+      "did not",
+      "didn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "ignore"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "d-statements",
+   "title": "Questions and negatives with be",
+   "intro": "Complete the questions and statements with was, were, wasn’t or weren’t. Full negative forms are also accepted. Match the story. Hint: Cate / screen / accommodation = she or it; the students = they. Use be directly, without did. Then retry any mistakes.",
+   "modus": "eingabe",
+   "text": "{{1}} Cate embarrassed at the station?\n{{2}} Calum and Timo friendly?\nThe screen {{3}} bright at the station; it was dark.\nThe accommodation {{4}} far away; it was nearby.\nThe students {{5}} in a restaurant that evening; they were in their kitchen.",
+   "luecken": [
+    {
+     "antworten": [
+      "Was"
+     ]
+    },
+    {
+     "antworten": [
+      "Were"
+     ]
+    },
+    {
+     "antworten": [
+      "wasn't",
+      "was not",
+      "wasn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "wasn't",
+      "was not",
+      "wasn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "weren't",
+      "were not",
+      "weren’t"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "d-short-answers",
+   "title": "Answer from the story",
+   "intro": "Complete each short answer using information from the story. You can use short or full negative forms. Hint: an answer to Did …? uses did/didn’t; an answer to Was/Were …? uses a form of be. Check and retry if needed.",
+   "modus": "eingabe",
+   "text": "Did Cate lose her ticket? No, she {{1}}.\nDid Timo lend Cate a charger? Yes, he {{2}}.\nWas the accommodation far away? No, it {{3}}.\nWere Calum and Timo friendly? Yes, they {{4}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "didn't",
+      "did not",
+      "didn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "did"
+     ]
+    },
+    {
+     "antworten": [
+      "wasn't",
+      "was not",
+      "wasn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "were"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "d-repair",
+   "title": "Spot and repair the mistake",
+   "intro": "Choose the correctly repaired sentence. Explain the change to yourself before checking. Use the feedback to improve your next attempt.",
+   "questions": [
+    {
+     "id": "d-repair-regular",
+     "type": "single_choice",
+     "prompt": "Repair: “Did Cate travelled by train?”",
+     "options": [
+      {
+       "text": "Did Cate travelled by train?"
+      },
+      {
+       "text": "Did Cate travel by train?",
+       "correct": true
+      },
+      {
+       "text": "Was Cate travel by train?"
+      }
+     ],
+     "explanation": "After did, use the base form travel. Did already marks the past. The same rule applies to regular verbs with -ed. Try again if needed."
+    },
+    {
+     "id": "d-repair-irregular",
+     "type": "single_choice",
+     "prompt": "Repair: “Calum didn’t left his bike outside.”",
+     "options": [
+      {
+       "text": "Calum didn’t leave his bike outside.",
+       "correct": true
+      },
+      {
+       "text": "Calum didn’t left his bike outside."
+      },
+      {
+       "text": "Calum wasn’t leave his bike outside."
+      }
+     ],
+     "explanation": "The base form of left is leave. After didn’t, use leave, even though left is an irregular past form. Read the whole correction and retry."
+    },
+    {
+     "id": "d-repair-be",
+     "type": "single_choice",
+     "prompt": "Repair: “Did the students were in the kitchen?”",
+     "options": [
+      {
+       "text": "Did the students be in the kitchen?"
+      },
+      {
+       "text": "Was the students in the kitchen?"
+      },
+      {
+       "text": "Were the students in the kitchen?",
+       "correct": true
+      }
+     ],
+     "explanation": "For be, move were to the front and do not add did. The students = they, so were is the right form. Try again if needed."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "d-your-interview",
+   "title": "Interview Cate in writing",
+   "intro": "Now build whole questions yourself. Write the questions and answers in the answer box, then compare with the examples. Different questions are welcome if the answers match the story.",
+   "tasks": [
+    {
+     "id": "d-write-questions",
+     "prompt": "Imagine you are writing an interview with Cate for a student website. Write **three questions** and **Cate’s answers**:\n\n- One yes/no question with **did**.\n- One question starting with **Where** or **Why** and using **did**.\n- One question with **was** or **were**.\n\nWrite at least **one full negative sentence** in Cate’s answers. Address Cate as **you**; she answers with **I** or **we**. Use the story as your evidence.",
+     "hint": "Question starters: Did you …? / Where did you …? / Why did you …? / Were you …?\n\nAnswer starters: Yes, I did. / No, I didn’t. / I didn’t … because … / We … because …\n\nRemember: did + base form. For be, move was/were to the front. An answer must fit both the question and the story.",
+     "solution": "**One possible interview:**\n\nDid you take a bus to the accommodation? – No, I didn’t take a bus because it was nearby.\n\nWhere did you cook dinner? – We cooked pasta in our shared kitchen.\n\nWere you embarrassed at the station? – Yes, I was, because I needed help.\n\n**Self-check:** Do I have all three question types? Did I use a base form after did/didn’t? Is there a full negative sentence? Do the answers match the questions and the story? Different correct questions and answers are valid."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "e-diary",
+   "title": "Write Cate’s diary",
+   "intro": "Bring the vocabulary and grammar together. Write as Cate, then use the example and checklist to improve your text.",
+   "tasks": [
+    {
+     "id": "e-diary-entry",
+     "prompt": "Write **three connected diary sentences about yesterday** as Cate. Include the problem and how someone helped.\n\nUse **at least three different target words or phrases**, **at least two correct forms of was/were** and **one negative with didn’t + base form**. Join ideas with **and, but, because** or **so** at least once. Your details must match the story.\n\nA repeated correct form of was/were is fine. railway station and over there each count as one phrase. Keep the focus on yesterday.",
+     "hint": "Word bank: journey · railway station · ticket · passenger · friendly · nearby · over there · diary.\n\nSentence starters: My journey was … / At the railway station, I didn’t … / Timo … because … / Our accommodation was …, so …\n\nYou can use regular and irregular past forms in statements. After didn’t, use the base form. Open the story again if you need help with the facts.",
+     "solution": "**One possible entry:**\n\nMy journey was long, and I didn’t know which exit to use. A friendly student called Timo showed me a map at the railway station. Our accommodation was nearby, so we walked there together.\n\nThis entry uses **journey, friendly, railway station** and **nearby**. It uses **was** twice, **didn’t know**, and the linking words **and** and **so**.\n\n**Self-check:**\n\n- Three complete sentences, written as Cate about yesterday?\n- At least three different target words or whole phrases used naturally?\n- At least two correct forms of was/were and one didn’t + base form?\n- Ideas linked with and, but, because or so?\n- Both the problem and the help included, with details that match the story?\n\nOther clear, accurate texts are valid. The example is for comparison, not the only correct answer. Ask your teacher if you are unsure."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "f-recall",
+   "title": "Quick check",
+   "intro": "Try without the word bank or grammar table first. These are new practice situations, not extra facts about Cate’s story. Use the verbs in brackets. After a mistake, check the base form after did/didn’t or the plural subject with were, then try again.",
+   "modus": "eingabe",
+   "text": "{{1}} the passenger {{2}} a ticket before the journey? (buy)\nWe {{3}} {{4}} for a bus because the café was nearby. (negative: wait)\nTwo friendly passengers {{5}} at the railway station yesterday.\nI write about my daily experiences and feelings in my {{6}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "Did"
+     ]
+    },
+    {
+     "antworten": [
+      "buy"
+     ]
+    },
+    {
+     "antworten": [
+      "didn't",
+      "did not",
+      "didn’t"
+     ]
+    },
+    {
+     "antworten": [
+      "wait"
+     ]
+    },
+    {
+     "antworten": [
+      "were"
+     ]
+    },
+    {
+     "antworten": [
+      "diary"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "f-reflection",
+   "title": "How confident do you feel?",
+   "tasks": [
+    {
+     "id": "f-self-check",
+     "prompt": "Choose one statement for **vocabulary** and one for **simple past questions and negatives**:\n\n- I can do this already\n- I did it with help\n- I want to practise this more\n\nFor vocabulary, think about explaining the words in English and using them in meaningful sentences. For grammar, think about did/didn’t + base form and questions with was/were. Add one example from your work to explain your choices.",
+     "hint": "Could someone understand your explanations without a German translation? Do your examples make the meanings clear? Can you write a whole question and a negative without copying the model?",
+     "solution": "There is no right or wrong choice. For example: “Vocabulary: I did it with help. The sentence about walking for two minutes helped me explain nearby.” Pick one explanation or one grammar answer to improve next."
+    }
+   ]
+  }
+ ]
+}
