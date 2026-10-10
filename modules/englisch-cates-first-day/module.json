@@ -14,19 +14,19 @@
    "competencies": [
     {
      "code": "FS1E.2.A.1",
-     "description": "Übungsbezug: einem kurzen englischen Erzähltext ausdrückliche Informationen entnehmen."
+     "description": "Practice focus: find information in a short English story."
     },
     {
      "code": "FS1E.4.A.1",
-     "description": "Übungsbezug: drei verständliche Tagebuchsätze aus Cates Sicht schreiben; Selbstprüfung statt automatischer Kompetenzbewertung."
+     "description": "Practice focus: write three clear diary sentences from Cate's point of view and check them yourself."
     },
     {
      "code": "FS1E.5.B.1",
-     "description": "Übungsbezug: acht Reisewörter und Wendungen verstehen und beim Schreiben verwenden."
+     "description": "Practice focus: understand eight travel words and phrases and use them in writing."
     },
     {
      "code": "FS1E.5.D.1",
-     "description": "Übungsbezug: was/were in Aussagen, einer Verneinung und einer Entscheidungsfrage verwenden."
+     "description": "Practice focus: use was/were in statements, a negative sentence and a yes/no question."
     }
    ]
   }
@@ -36,8 +36,8 @@
  "language": "en",
  "languageLearning": true,
  "learningObjectives": [
-  "Ich kann die acht Reisewörter und Wendungen verstehen und wichtige Informationen in Cates Geschichte finden.",
-  "Ich kann Cate mit drei Tagebuchsätzen helfen und dabei mindestens drei Zielwörter sowie mindestens zwei passende Formen von was/were verwenden."
+  "I can understand eight travel words and phrases and find key information in Cate's story.",
+  "I can help Cate write three diary sentences using at least three different target words or phrases and at least two correct forms of was/were."
  ],
  "durationMinutes": 20,
  "difficulty": "leicht",
@@ -57,20 +57,20 @@
   {
    "type": "text",
    "id": "a-mission",
-   "title": "A · Help Cate! · 1 Minute",
-   "body": "Cate ist der Lernroboter von EveryCate. In dieser Geschichte studiert sie für ein Austauschjahr an der **University of Glasgow** in Schottland. Ihr erster Tag bringt ein Bildschirmproblem und zwei neue Mitbewohner: Calum und Timo. Hilf ihr, **drei Sätze über gestern für ihr Tagebuch** zu schreiben.\n\n**Deine Lernziele:**\n\n- Ich kann die acht Reisewörter und Wendungen verstehen und wichtige Informationen in Cates Geschichte finden.\n- Ich kann Cate mit drei Tagebuchsätzen helfen und dabei mindestens drei Zielwörter sowie mindestens zwei passende Formen von was/were verwenden.\n\nDu brauchst ungefähr **20 Minuten**. Lies und schreibe in deinem Tempo. Alle Aufgaben lassen sich als Text bearbeiten."
+   "title": "Help Cate!",
+   "body": "Cate is the EveryCate learning robot. She is an exchange student at the **University of Glasgow** in Scotland. On her first day, she has a problem with her screen and meets two new flatmates: Calum and Timo. Help her write **three diary sentences about yesterday**.\n\n**Your learning goals:**\n\n- I can understand eight travel words and phrases and find key information in Cate's story.\n- I can help Cate write three diary sentences using at least three different target words or phrases and at least two correct forms of was/were.\n\nRead and write at your own pace. You can do every activity by reading and writing."
   },
   {
    "type": "text",
    "id": "b-word-bank",
-   "title": "B · Travel words · 3 Minuten insgesamt",
-   "body": "Lies die acht Zielwörter. **railway station** und **over there** lernst du jeweils als eine ganze Wendung.\n\n**journey** – eine Reise\n\n**railway station** – Bahnhof\n\n**ticket** – Fahrkarte\n\n**passenger** – eine Person, die in einem Verkehrsmittel mitreist\n\n**friendly** – freundlich\n\n**nearby** – in der Nähe\n\n**over there** – dort drüben\n\n**diary** – Tagebuch\n\nWähle danach in jeder Aufgabe eine Antwort. Nach dem Prüfen findest du eine Erklärung. Bei einem Fehler: Lies den Hinweis, sieh bei Bedarf hier nach und versuche es mit **Wiederholen** erneut."
+   "title": "Travel words",
+   "body": "Read the eight target words. Learn **railway station** and **over there** as whole phrases.\n\n**journey** – eine Reise\n\n**railway station** – Bahnhof\n\n**ticket** – Fahrkarte\n\n**passenger** – eine Person, die in einem Verkehrsmittel mitreist\n\n**friendly** – freundlich\n\n**nearby** – in der Nähe\n\n**over there** – dort drüben\n\n**diary** – Tagebuch\n\nChoose one answer for each question. After you check your answers, read the explanations. If you make a mistake, read the hint, look at this word bank if you need help and try again."
   },
   {
    "type": "quiz",
    "id": "b-meanings",
    "title": "Four meanings",
-   "intro": "Welche Bedeutung passt? Wähle jeweils genau eine Antwort.",
+   "intro": "Choose the matching German meaning for each word. Choose one answer for each question.",
    "questions": [
     {
      "id": "b-journey",
@@ -88,7 +88,7 @@
        "text": "ein Tagebuch"
       }
      ],
-     "explanation": "Hinweis: Das Wort bezeichnet die Reise selbst. journey = eine Reise. Eine Fahrkarte heißt ticket. Bei einem Fehler: Wiederholen und noch einmal zuordnen."
+     "explanation": "Hint: A journey is a trip from one place to another. A ticket is what you need for the trip. Think about the difference and try again."
     },
     {
      "id": "b-railway-station",
@@ -106,7 +106,7 @@
        "text": "Tagebuch"
       }
      ],
-     "explanation": "Hinweis: Hier halten Züge und Menschen steigen ein oder aus. railway station = Bahnhof; lerne beide Wörter zusammen. Versuche es bei Bedarf erneut."
+     "explanation": "Hint: Trains stop here. People get on and off trains here. Learn railway station as one phrase. Read the choices and try again."
     },
     {
      "id": "b-ticket",
@@ -124,7 +124,7 @@
        "correct": true
       }
      ],
-     "explanation": "Hinweis: Du brauchst es für die Fahrt; es kann auf Papier oder auf einem Bildschirm sein. ticket = Fahrkarte. Wähle bei einem Fehler Wiederholen."
+     "explanation": "Hint: You need a ticket to travel on a train. It can be on paper or on a screen. Think about what you need for the trip and try again."
     },
     {
      "id": "b-passenger",
@@ -142,7 +142,7 @@
        "text": "ein Ort, an dem Züge halten"
       }
      ],
-     "explanation": "Hinweis: Gesucht ist ein Mensch, kein Gegenstand oder Ort. passenger = eine Person, die in einem Verkehrsmittel mitreist. Prüfe beim nächsten Versuch diesen Unterschied."
+     "explanation": "Hint: A passenger is a person who travels in a car, bus, train or another vehicle. Look for the person in the choices and try again."
     }
    ]
   },
@@ -150,7 +150,7 @@
    "type": "quiz",
    "id": "b-context",
    "title": "Four gaps",
-   "intro": "Welches Wort oder welche Wendung passt in die Lücke? Dies sind kleine Übungssituationen; die Geschichte folgt in C.",
+   "intro": "Which word or phrase fits the gap? These are short practice situations. Cate’s story comes next.",
    "questions": [
     {
      "id": "b-friendly",
@@ -168,7 +168,7 @@
        "text": "long"
       }
      ],
-     "explanation": "Hinweis: Lächeln und ein netter Willkommensgruß zeigen Freundlichkeit. friendly = freundlich. Lies den ganzen Satz beim erneuten Versuch."
+     "explanation": "Hint: Her smile and her welcome show that she is kind. The word friendly fits. Read the whole sentence and try again."
     },
     {
      "id": "b-nearby",
@@ -186,7 +186,7 @@
        "correct": true
       }
      ],
-     "explanation": "Hinweis: not far away bedeutet nicht weit weg. nearby = in der Nähe. Bei einem Fehler: Wiederholen und auf die Entfernung achten."
+     "explanation": "Hint: Nearby means not far away. Look for the word that tells you how close the café is and try again."
     },
     {
      "id": "b-over-there",
@@ -204,7 +204,7 @@
        "text": "friendly"
       }
      ],
-     "explanation": "Hinweis: Jemand zeigt auf einen Ort auf der anderen Straßenseite (across the street). over there = dort drüben; beide Wörter gehören zusammen. Versuche es noch einmal."
+     "explanation": "Hint: Someone is pointing to a place across the street. Over there means dort drüben. Learn both words together and try again."
     },
     {
      "id": "b-diary",
@@ -222,21 +222,21 @@
        "text": "ticket"
       }
      ],
-     "explanation": "Hinweis: thoughts sind Gedanken. Gesucht ist das Buch für persönliche Einträge: diary = Tagebuch. Wähle bei Bedarf Wiederholen."
+     "explanation": "Hint: A diary is a book for your thoughts and the things in your day. Think about the kind of book and try again."
     }
    ]
   },
   {
    "type": "text",
    "id": "c-scene",
-   "title": "C · Cate’s first day · 4 Minuten insgesamt",
-   "body": "**Lies Cates Geschichte. Du darfst für die Fragen hier nachsehen.**\n\nHi! I'm Cate, a learning robot. I am an exchange student at the University of Glasgow. This is my first week in Scotland.\n\nYesterday my journey was long. I was a passenger on a train. My ticket was on my screen. At a small railway station near Glasgow, my screen was dark. No ticket and no map!\n\nTwo students, Calum and Timo, were there. They were friendly. The other passengers were friendly, too. Timo was next to me with a map on his phone.\n\nCalum is from Scotland. Timo is an exchange student from Germany. He studies engineering. They are my flatmates! Our student accommodation is nearby. Look, it is over there, across the street.\n\nNow I am in my room. My room has its own bathroom. We share a kitchen. Calum's expensive bike is in his room because he is afraid of thieves. My screen is bright again, and my diary is open. Can you help me write about yesterday?\n\n**Lesehilfen:** yesterday = gestern; screen = Bildschirm; dark / bright = dunkel / hell; exchange student = Austauschstudent/in; flatmates = Mitbewohner; student accommodation = Studierendenwohnheim; across the street = auf der anderen Straßenseite; engineering = Ingenieurwesen; its own bathroom = ein eigenes Badezimmer; share = teilen; expensive = teuer; afraid of thieves = hat Angst vor Dieben.\n\nCate, Calum und Timo sind hier Studierende. **pupils** heißt Schülerinnen und Schüler und wird für die drei Figuren nicht verwendet."
+   "title": "Cate’s first day",
+   "body": "**Read Cate’s story. You can look back at it when you answer the questions.**\n\nHi! I'm Cate, a learning robot. I am an exchange student at the University of Glasgow. This is my first week in Scotland.\n\nYesterday my journey was long. I was a passenger on a train. My ticket was on my screen. At a small railway station near Glasgow, my screen was dark. No ticket and no map!\n\nTwo students, Calum and Timo, were there. They were friendly. The other passengers were friendly, too. Timo was next to me with a map on his phone.\n\nCalum is from Scotland. Timo is an exchange student from Germany. He studies engineering. They are my flatmates! Our student accommodation is nearby. Look, it is over there, across the street.\n\nNow I am in my room. My room has its own bathroom. We share a kitchen. Calum's expensive bike is in his room because he is afraid of thieves. My screen is bright again, and my diary is open. Can you help me write about yesterday?\n\n**Word help:** yesterday = gestern; screen = Bildschirm; dark / bright = dunkel / hell; exchange student = Austauschstudent/in; flatmates = Mitbewohner; student accommodation = Studierendenwohnheim; across the street = auf der anderen Straßenseite; engineering = Ingenieurwesen; its own bathroom = ein eigenes Badezimmer; share = teilen; expensive = teuer; afraid of thieves = hat Angst vor Dieben."
   },
   {
    "type": "quiz",
    "id": "c-understanding",
    "title": "Understand the scene",
-   "intro": "Wähle pro Frage genau eine Antwort. Die Lösung steht ausdrücklich im Text. Nach einem Fehler helfen dir die Rückmeldung und ein erneuter Blick in die Geschichte.",
+   "intro": "Choose one answer for each question. You can find every answer in the story. If you make a mistake, read the feedback, look at the story again and have another try.",
    "questions": [
     {
      "id": "c-journey",
@@ -254,7 +254,7 @@
        "text": "There was no journey."
       }
      ],
-     "explanation": "Cate sagt: “Yesterday my journey was long.” Deshalb ist long richtig. Such beim Wiederholen nach journey."
+     "explanation": "Cate says, “Yesterday my journey was long.” The answer is long. Look for journey in the story when you try again."
     },
     {
      "id": "c-students",
@@ -272,7 +272,7 @@
        "correct": true
       }
      ],
-     "explanation": "Im Text steht: “Two students, Calum and Timo, were there.” Rowan und Sam kommen in dieser Geschichte nicht vor. Lies den Absatz nach dem Bildschirmproblem noch einmal."
+     "explanation": "The story says, “Two students, Calum and Timo, were there.” Rowan and Sam are not in this story. Read the paragraph after the screen problem and try again."
     },
     {
      "id": "c-nearby",
@@ -287,21 +287,21 @@
        "text": "far away"
       }
      ],
-     "explanation": "“Our student accommodation is nearby.” Es liegt in der Nähe. “Over there, across the street” zeigt, wo es ist. Lies diesen Absatz beim Wiederholen erneut."
+     "explanation": "“Our student accommodation is nearby.” It is close. “Over there, across the street” tells you where it is. Read that paragraph and try again."
     }
    ]
   },
   {
    "type": "text",
    "id": "d-language-tool",
-   "title": "D · Talk about yesterday · 5 Minuten insgesamt",
-   "body": "Du kennst **am, is, are** für jetzt. Für **gestern (yesterday)** brauchst du bei **to be** diese Formen:\n\n| Person | Jetzt | Gestern |\n| --- | --- | --- |\n| I | am | **was** |\n| he / she / it | is | **was** |\n| you / we / they | are | **were** |\n\n**Aussage:** Person + was/were + Rest.\n\n- Now I **am** in my room. Yesterday I **was** on a train.\n- Calum and Timo = they: They **were** at the station.\n\n**Verneinung:** Setze **not** direkt hinter was/were.\n\n- was not = **wasn’t**: My screen **wasn’t** bright at the station.\n- were not = **weren’t**: Calum and Timo **weren’t** at home. They were at the station.\n\n**Entscheidungsfrage:** Was/Were + Person + Rest + Fragezeichen.\n\n- They **were** friendly. → **Were** they friendly?\n- Antwort: Yes, they were.\n\nBearbeite die nächsten drei Aufgaben. Bei einem Fehler kannst du diese Tabelle nutzen und **Wiederholen** wählen."
+   "title": "Talk about yesterday",
+   "body": "You know **am, is, are** for now. Use these forms of **to be** to talk about **yesterday**:\n\n| Person or thing | Now | Yesterday |\n| --- | --- | --- |\n| I | am | **was** |\n| he / she / it | is | **was** |\n| you / we / they | are | **were** |\n\n**A statement:** Person or thing + was/were + the rest of the sentence.\n\n- Now I **am** in my room. Yesterday I **was** on a train.\n- Calum and Timo = they: They **were** at the station.\n\n**A negative sentence:** Put **not** directly after was/were.\n\n- was not = **wasn’t**: My screen **wasn’t** bright at the station.\n- were not = **weren’t**: Calum and Timo **weren’t** at home. They were at the station.\n\n**A yes/no question:** Was/Were + person or thing + the rest of the sentence + a question mark.\n\n- They **were** friendly. → **Were** they friendly?\n- Answer: Yes, they were.\n\nNow do the next three activities. If you make a mistake, use the table and try again."
   },
   {
    "type": "lueckentext",
    "id": "d-statements",
    "title": "was or were?",
-   "intro": "Tippe **was** oder **were** ein. Hilfe nach einem Fehler: Cate = she; Calum and Timo = they. Sieh in der Tabelle nach und versuche es erneut.",
+   "intro": "Type **was** or **were**. If you make a mistake, remember: Cate = she; Calum and Timo = they. Look at the table and try again.",
    "modus": "eingabe",
    "text": "Yesterday Cate {{1}} a passenger.\nYesterday, Calum and Timo {{2}} at the railway station.",
    "luecken": [
@@ -321,7 +321,7 @@
    "type": "lueckentext",
    "id": "d-negative",
    "title": "Make it negative",
-   "intro": "Verneine passend zum Text: **Her screen was bright at the station.** Ergänze die Verneinung im Satz unten. Kurzform und Langform sind erlaubt. Hilfe nach einem Fehler: her screen = it; setze **not** hinter die passende Vergangenheitsform. Nutze dann Wiederholen.",
+   "intro": "Make this sentence negative to match the story: **Her screen was bright at the station.** Complete the sentence below. You can use the short form or the full form. Hint: her screen = it; put **not** after the correct past form. Then try again.",
    "modus": "eingabe",
    "text": "Her screen {{1}} bright at the station.",
    "luecken": [
@@ -338,7 +338,7 @@
    "type": "lueckentext",
    "id": "d-question",
    "title": "Ask a question",
-   "intro": "Ergänze **Was** oder **Were**. Hilfe nach einem Fehler: Calum and Timo = they. Bei einer Entscheidungsfrage steht die passende Form ganz vorne. Schau in der Tabelle nach und versuche es erneut.",
+   "intro": "Type **Was** or **Were**. If you make a mistake, remember: Calum and Timo = they. In a yes/no question, was or were comes first. Look at the table and try again.",
    "modus": "eingabe",
    "text": "{{1}} Calum and Timo friendly yesterday?",
    "luecken": [
@@ -352,22 +352,22 @@
   {
    "type": "tasks",
    "id": "e-diary",
-   "title": "E · Write Cate’s diary · 5 Minuten",
-   "intro": "Jetzt hilfst du Cate mit deinem eigenen Text. Öffne bei Bedarf den Tipp mit Wortbank und Satzanfängen. Vergleiche nach dem Schreiben mit dem Beispiel und prüfe deinen Text selbst.",
+   "title": "Write Cate’s diary",
+   "intro": "Help Cate with your own text. Open the hint for a word bank and sentence starters if you need help. After writing, compare your text with the examples and check it yourself.",
    "tasks": [
     {
      "id": "e-diary-entry",
-     "prompt": "Schreibe **drei englische Sätze über gestern aus Cates Sicht** in das Antwortfeld. Cate sagt **I** oder **my**, wenn sie über sich schreibt.\n\nVerwende **mindestens drei unterschiedliche Zielwörter oder Zielwendungen** und **mindestens zwei passende Formen von was/were**. Eine Form darf wiederholt werden, wenn sie zum Satz passt. railway station und over there zählen jeweils als **eine** Wendung. Deine Sätze sollen zu Cates Geschichte passen.\n\nPrüfe anschließend mit dem Beispiel unter Lösung. Verbessere deinen Text, wenn du noch etwas ergänzen möchtest.",
-     "hint": "**journey** – eine Reise\n\n**railway station** – Bahnhof\n\n**ticket** – Fahrkarte\n\n**passenger** – eine Person, die in einem Verkehrsmittel mitreist\n\n**friendly** – freundlich\n\n**nearby** – in der Nähe\n\n**over there** – dort drüben\n\n**diary** – Tagebuch\n\n**Satzanfänge:** Yesterday my journey … / I … a passenger … / I … at the railway station. / Calum and Timo … / My screen …\n\n**Formen:** I / he / she / it **was**; you / we / they **were**. **wasn't = was not**, **weren't = were not**.\n\nLies im Zweifel die Szene noch einmal. Wähle drei Informationen über gestern; ein Satz über Cates Zimmer heute beschreibt noch nicht gestern.",
-     "solution": "**Ein mögliches Beispiel:**\n\nMy journey was long. I was at the railway station. Calum and Timo were friendly.\n\nDas Beispiel enthält drei verschiedene Zielwörter bzw. Wendungen: **journey**, **railway station**, **friendly**. Es verwendet **was**, **was** und **were** passend.\n\n**Auch andere verständliche und sachlich passende Texte sind gültig**, zum Beispiel: Yesterday I was a passenger on a train. My ticket was on my screen. The other passengers were friendly.\n\n**Selbstprüfung:**\n\n- Habe ich drei englische Sätze geschrieben?\n- Schreibe ich als Cate mit I oder my über gestern?\n- Stimmen meine Informationen mit der Geschichte überein?\n- Finde ich mindestens drei verschiedene Zielwörter oder ganze Zielwendungen? Auch passengers als Mehrzahl von passenger zählt; es ist kein zusätzliches Zielwort.\n- Sind mindestens zwei Formen von was/were passend? Zum Beispiel zählt zweimal was bei passenden Personen ebenfalls.\n- Beginnen meine Sätze mit einem Großbuchstaben und enden sie mit einem Satzzeichen?\n\nDein Tagebuch ist eine offene Schreibaufgabe. Das Beispiel dient zum Vergleichen und ist keine einzig richtige Lösung. Wenn du unsicher bist, zeige deinen Text deiner Lehrperson."
+     "prompt": "Write **three English sentences about yesterday as Cate** in the answer box. Use **I** or **my** when Cate writes about herself.\n\nUse **at least three different target words or phrases** and **at least two correct forms of was/were**. You can use the same form more than once if it fits the sentence. railway station and over there each count as **one** phrase. Your sentences must match Cate’s story.\n\nThen open the example answer and check your work. Improve your text if you need to.",
+     "hint": "**journey** – eine Reise\n\n**railway station** – Bahnhof\n\n**ticket** – Fahrkarte\n\n**passenger** – eine Person, die in einem Verkehrsmittel mitreist\n\n**friendly** – freundlich\n\n**nearby** – in der Nähe\n\n**over there** – dort drüben\n\n**diary** – Tagebuch\n\n**Sentence starters:** Yesterday my journey … / I … a passenger … / I … at the railway station. / Calum and Timo … / My screen …\n\n**Forms:** I / he / she / it **was**; you / we / they **were**. **wasn't = was not**, **weren't = were not**.\n\nRead the story again if you need help. Choose three things about yesterday. A sentence about Cate’s room today does not tell us about yesterday.",
+     "solution": "**One possible answer:**\n\nMy journey was long. I was at the railway station. Calum and Timo were friendly.\n\nThis example uses three different target words or phrases: **journey**, **railway station**, **friendly**. It uses **was**, **was** and **were** correctly.\n\n**Other clear answers that match the story are also correct.** For example: Yesterday I was a passenger on a train. My ticket was on my screen. The other passengers were friendly.\n\n**Check your work:**\n\n- Are there three English sentences?\n- Do I write as Cate, using I or my, about yesterday?\n- Does my information match the story?\n- Can I find at least three different target words or whole phrases? Passengers is the plural of passenger: it counts as the same target word.\n- Do I use was/were correctly at least twice? Using was twice is fine if it fits both sentences.\n- Does each sentence start with a capital letter and end with a punctuation mark?\n\nYour diary can be different from the examples. Use them to check your work. Ask your teacher if you are not sure."
     }
    ]
   },
   {
    "type": "lueckentext",
    "id": "f-recall",
-   "title": "F · Quick check · 2 Minuten mit Selbsteinschätzung",
-   "intro": "Versuche diese zwei Aufgaben zuerst ohne Wortbank. Es sind **neue Übungssituationen, keine zusätzlichen Informationen zur Geschichte**. Nach einem Fehler: passengers = they; für das Wort in Satz 2 hilft die Wortbank. Nutze danach Wiederholen.",
+   "title": "Quick check",
+   "intro": "Try these two questions without the word bank first. These are **new practice situations, not extra facts about the story**. If you make a mistake, remember: passengers = they. The word bank can help with the word in the second sentence. Then try again.",
    "modus": "eingabe",
    "text": "Yesterday, two friendly passengers {{1}} nearby.\nI write about my day in my {{2}}.",
    "luecken": [
@@ -386,13 +386,13 @@
   {
    "type": "tasks",
    "id": "f-reflection",
-   "title": "Wie sicher fühlst du dich?",
+   "title": "How confident do you feel?",
    "tasks": [
     {
      "id": "f-self-check",
-     "prompt": "Denke an die Reisewörter und deine drei Tagebuchsätze. Schreibe **eine** dieser drei Einschätzungen in das Antwortfeld:\n\n- Das kann ich schon\n- Mit Hilfe geschafft\n- Das möchte ich weiter üben\n\nDu kannst ein Wort oder eine Form ergänzen, die du nochmals üben möchtest. Jede Einschätzung ist erlaubt.",
-     "hint": "Überlege: Konntest du Wörter und was/were selbst wählen? War die Wortbank oder das Beispiel hilfreich? Brauchst du noch einen Versuch?",
-     "solution": "Hier gibt es keine richtige oder falsche Wahl. Wenn du weiter üben möchtest, wiederhole einen Wortblock oder verbessere einen Tagebuchsatz. Du hast in diesem Modul Lesen und Schreiben geübt."
+     "prompt": "Think about the travel words and your three diary sentences. Write **one** of these three choices in the answer box:\n\n- I can do this already\n- I did it with help\n- I want to practise this more\n\nYou can add a word or a form you want to practise again. Every choice is OK.",
+     "hint": "Think about your work: Can you choose the words and was/were on your own? Do the word bank or examples help? Do you need another try?",
+     "solution": "There is no right or wrong choice here. For more practice, repeat a word activity or improve a diary sentence. This module helps you practise reading and writing."
     }
    ]
   }
