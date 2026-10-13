@@ -1,0 +1,576 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:f6816b1f7f81132c1a3cd792783c73d93d81cb5ab6eefe8bc392484021f072dc",
+   "text": "Who governs? Forms of state, democracy and dictatorship"
+  },
+  "description": {
+   "quelle": "sha256:01783561775a77b2cff9a0a02f33c73192f8f59cdc6b3fb352ea0866e7232fee",
+   "text": "Monarchy or republic, democracy or dictatorship – these are two different questions. You will learn their features, place countries from Liechtenstein to Nazi Germany in a four-cell matrix and explore what totalitarianism and fascism mean and what distinguishes National Socialism from them."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Geography, History and Society"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Geography, History and Society"
+  },
+  "einheit": {
+   "quelle": "sha256:f17191b49e747388ab6a7483a373c72e8e4ab6273e67b43ee78842244bcaa5c7",
+   "text": "National Socialism – dictatorship, persecution, remembrance"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:3eac3dd340246932ea74639c8f62042e2742dea15143f350c8b367ba2420ed72",
+   "text": "forms of state"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:0377c0ed797defe814d7f34603df116e7b4483af2aeba2aba89146b4e9c61eaa",
+   "text": "monarchy"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:81c928e86b303e7dc3ecc58ae3885375819255aefd421c89abab9efa6a5b39a3",
+   "text": "republic"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:a4adbf06c4b631e17d8972e5f69654f120a9a50f4f8a2b7ee2c3dcd61f468e50",
+   "text": "democracy"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:4237d9470dac245f4fe7578926c4af05ebe3330be88cf9e82c679443bac4f2cd",
+   "text": "dictatorship"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:dea4acd2a953582b842bb9faa20b8a821f5eaa35a0fbd43c6f86f0358e243de7",
+   "text": "totalitarianism"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:673b2754d64b3cddd507cea58ca5c4c6709e8829a15ad6fb1d5e415e46fcdc20",
+   "text": "fascism"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:7e3171e466fde5b8c24c10b2a768bd6b632fdc52c148ba7641c8a0956b87611f",
+   "text": "National Socialism"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:6ff080c07894909d194898c8b63acf6e17ea76ca064d151f9cf15d4999f149ce",
+   "text": "Liechtenstein"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:a07389f1ff971a91708d08bc7bca0c719fdc5ad8b6c6123685d5ddaef1592eef",
+   "text": "Mussolini"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:866e142c42c71deaa35f14424771b03189d9e3fa8edb602d062c5558d7bd22e0",
+   "text": "I can distinguish the question of who is head of state (monarchy or republic) from the question of who holds power and how it is kept in check (democracy or dictatorship)."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:f6826e8d751562fc72d4342ea4b4cf34933f6fdcf87436ab1826e95d1f2ea560",
+   "text": "I can name features of a democracy and a dictatorship and classify examples."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:d796fc2d8875368d8c2b5334f07e321d3a72c82ac1f32e5e6939ada72d3f49f6",
+   "text": "I can place Liechtenstein, Switzerland, the United Kingdom, the Weimar Republic and Nazi Germany in the four-cell matrix and explain why a monarchy can be democratic and a republic can be a dictatorship."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:e6ee92d2203066e32562ed95d2b55c66de696fa052cccdc12dd0b269b79af097",
+   "text": "I can explain what totalitarianism means."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:0f7ff6b7e9d51a03ad590435a70ddfae913ffadf9a832b3b97e4434e619271b8",
+   "text": "I can describe fascism in Italy and explain what distinguishes National Socialism from it."
+  },
+  "learningObjectives[5]": {
+   "quelle": "sha256:6505d8b0b1d4128c960a8636e444bfeb1d135f03debb42fccd1580032b54a737",
+   "text": "(Extension) I can explain in three to five sentences why researchers disagree about whether National Socialism should be considered ‘fascism’."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:15223860b51b6acb32ee67fa19c8c67d552dcf32beceb43cec012522739fb607",
+   "text": "Who governs – and who gets a say?"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:f594fcef22f318b2bc26b724f726e51e41aba476a7b69f4ffd98b5a10841cbab",
+   "text": "Imagine your class has to decide where to go on a school trip. Option A: Everyone votes, the majority decides, and those who disagreed can say so openly and try to win a different majority next time. Option B: One person decides, no disagreement is allowed – and anyone who objects anyway gets into trouble.\n\nStates work in a similar way, but with far greater consequences. To compare states, you need to **keep two questions separate** that are often confused:\n\n1. **Who is at the top?** Is there a head of state who inherits the office (**monarchy**), or is there no monarch and instead a head of state who serves for a limited term (**republic**)?\n2. **Who holds power – and who keeps it in check?** Do the people decide through free elections, with power divided and kept in check (**democracy**), or does power lie with one person or party that nobody is allowed to hold in check (**dictatorship**)?\n\nMany people think that monarchy means a lack of freedom and republic means freedom. That is not true. Liechtenstein has a prince and is also a democracy. And the German Reich had no emperor after 1918, so it was a republic – yet it became a dictatorship from 1933 onwards.\n\nIn [[modul:weimar-wirtschaftskrise-nationalsozialismus]], you saw how Germany’s first democracy fell into crisis and how Hitler became Chancellor of the Reich on 30 January 1933. This series of modules tells the story of what followed: how a democracy became a dictatorship within a year and a half, how the Nazi state worked, what it planned for young people and how it excluded, persecuted and murdered people. First, though, we need to understand the terms – otherwise we will be talking at cross purposes."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:b87604577195c360cf56c9db3a8fef0fd0ec4090f3e49c75a71bc8fd0f0387d8",
+   "text": "Question 1: Who is the head of state? Monarchy or republic"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:da04eaf4fece9d95e6221db04c25c8982bb84cee04099e3a4e0fac1094bd2d2b",
+   "text": "In a **monarchy**, the head of state is a person who gains the office **through inheritance** and usually holds it **for life**: a king or queen, a prince or princess, an emperor or empress. However, monarchies vary greatly:\n\n- **Absolute monarchy:** The rulers hold all the power. Neither a constitution nor a parliament can bind them. Examples include France under Ludwig XIV in the 17th century and Saudi Arabia today.\n- **Constitutional monarchy:** A constitution (from the Latin *constitutio*) limits the monarch’s power. If the government also depends on the elected parliament, this is called a **parliamentary monarchy** – for example, in the United Kingdom, where the king represents the state but does not govern.\n\nIn a **republic**, there is no monarch. The head of state is usually **elected** and holds office only **for a fixed term**. In Austria, this is the Federal President (six years). In Switzerland, the entire Federal Council, with its seven members, acts as head of state; a different member chairs the council as President of the Confederation each year. In the Weimar Republic, the people elected the President of the Reich for seven years.\n\n**And Liechtenstein?** Article 2 of the 1921 constitution describes the state as follows:\n\n> ‘The Principality is a constitutional hereditary monarchy on a democratic and parliamentary basis (Art. 79 and 80); the power of the State is vested in the Prince and in the People and is exercised by both in accordance with the provisions of this Constitution.’\n>\n> — Verfassung des Fürstentums Liechtenstein, 5. Oktober 1921, Art. 2\n\nThis means that the Prince inherits his office (hereditary monarchy), the constitution limits his power (constitutional), and a parliament elected by the people, the Landtag, takes part in making laws (democratic and parliamentary). A law can only be passed if the Landtag approves it **and** the Prince gives his assent, or formal approval – neither can make laws alone. That is why the constitution says that the power of the state is vested in the Prince **and** in the people.\n\n> **Remember:** Knowing who the head of state is does not yet tell you how free the people in a country are. For that, you need the second question."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:50fde9e429171d1d877f11279a1991d6d0be67c1defc5892be2531c17e268d72",
+   "text": "Question 2: Who holds power – and who keeps it in check? Democracy or dictatorship"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:66b8ec0b40cbe35f0aac2e787bbc2ac4aaa20bf42b7c01165f28a6b42fa70203",
+   "text": "The word **democracy** comes from Greek and means ‘rule by the people’. You can recognise a democracy by these features:\n\n1. **Popular sovereignty:** Power comes from the people – through **free, secret and regular elections**.\n2. **Separation of powers:** Parliament (which makes laws), the government (which puts them into practice) and the courts (which pass judgement independently) are separate and keep one another in check.\n3. **Fundamental rights and the rule of law:** Freedom of expression, the press and assembly apply to everyone; the state itself is bound by the law, and nobody is imprisoned without a trial.\n4. **Opposition and protection of minorities:** Those who oppose the government are allowed to say so, organise and win the next election. The majority decides, but it must not strip minorities of their rights.\n\nLiechtenstein has a distinctive feature: according to its constitution, the power of the state is vested in the Prince **and** in the people, so the first feature takes a particular form here. Nevertheless, Liechtenstein is a democracy: the people elect the Landtag in free, secret elections, the Prince cannot pass laws alone, the constitution binds everyone, and referendums are possible.\n\nIn a **dictatorship** (from the Latin *dictare* = to command, to prescribe), the opposite applies:\n\n1. Power lies with **one person or one party** – without limits or checks.\n2. **No separation of powers:** The government, parliament and courts all follow the same will.\n3. **No free elections** – or only sham elections without a genuine choice.\n4. **Censorship:** Newspapers, radio and books may only publish or broadcast what is permitted.\n5. **Persecution of opponents** by the police and **secret police**, often without a trial.\n\n> **Remember:** What matters is not *whether* there are elections, courts or newspapers – almost every dictatorship has them. What matters is whether they are **free and independent**.\n\nYou may already have explored what these features look like today in [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]]. Now we will combine the two questions – giving us four cells."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:8da33b839be3d035bd1d97fabf0c6dfb3dfd24d65801f7b7cf585a1c96954523",
+   "text": "The four-cell matrix: head of state and checks on power"
+  },
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:06c3199ecc43003c9e99bcce4a601e41998a62b6c05c1d5f0f3d4586b2a3c888",
+   "text": "Four cells: head of state and checks on power"
+  },
+  "blocks[3].szene.elemente[1].text": {
+   "quelle": "sha256:0ada7e8b857e5927a9ac4fdc8b3d91dcaef94e8325412afbeddb853f94b7c9eb",
+   "text": "Two questions to keep separate"
+  },
+  "blocks[3].szene.elemente[2].text": {
+   "quelle": "sha256:375002fc19575f3f61ef4bb0b520c0869a0f39fe2ca891d3bbfe443e7376bd4f",
+   "text": "Question 1: Who is head of state?"
+  },
+  "blocks[3].szene.elemente[3].text": {
+   "quelle": "sha256:f40f4817d0ac10574c6e8713e8b0c2d4d2ee03fd8b6c28214bb738c9440ae39c",
+   "text": "Question 2:\nWho holds power –\nand who keeps it in check?"
+  },
+  "blocks[3].szene.elemente[5].text": {
+   "quelle": "sha256:d486a7d3bc62e0729291f3b4367159ef5adbdcd2f8197792666f14fd1cf27f6a",
+   "text": "Monarchy\nHead of state inherits office for life"
+  },
+  "blocks[3].szene.elemente[7].text": {
+   "quelle": "sha256:53902a1f52d0329b90b1c7987a86986871f7cf406406fa05fd42c30bda0a7b02",
+   "text": "Republic\nNo monarch – head of state\nusually elected, for a fixed term"
+  },
+  "blocks[3].szene.elemente[9].text": {
+   "quelle": "sha256:876c954a6bc1e647f720ec9ca25082e826d36e9e65732ba4fb52b4255e2464b8",
+   "text": "Democracy\nFree elections, separation of powers,\nfundamental rights, opposition"
+  },
+  "blocks[3].szene.elemente[11].text": {
+   "quelle": "sha256:2978e01b5f5e332603f2935615081d5623386111bc86fc07d2523ea611dad5c6",
+   "text": "Dictatorship\nPower held by one person or party,\nno checks, persecution"
+  },
+  "blocks[3].szene.elemente[13].text": {
+   "quelle": "sha256:d04125f3bbd25f5877b40322267284351a3584ee46f8cd038d0ed4b0f89b8cb1",
+   "text": "Democratic monarchy\n\nLiechtenstein (1921 constitution:\nconstitutional hereditary monarchy\non a democratic and parliamentary basis)\nUnited Kingdom"
+  },
+  "blocks[3].szene.elemente[15].text": {
+   "quelle": "sha256:3ed8f19f8517e0c2047ea0fc671b1daeaa1c0cf0a6d694a7b8877b8070e9787e",
+   "text": "Democratic republic\n\nSwitzerland\nAustria\nWeimar Republic 1919–1933"
+  },
+  "blocks[3].szene.elemente[17].text": {
+   "quelle": "sha256:055c24de66097b2c5d1b72b2062d638fdc6c239a230ba4314c9cdae2f9200a55",
+   "text": "Dictatorship with a monarch\n\nSaudi Arabia (absolute monarchy:\nthe king holds all power)\nItaly under Mussolini 1925–1943\n(the king remained, Mussolini governed)"
+  },
+  "blocks[3].szene.elemente[19].text": {
+   "quelle": "sha256:7bc008a78e74f834b8b1dc0a9497b303f63f3587cbf99fdd7bed33250ea9460a",
+   "text": "Dictatorship without a monarch\n\nNazi Germany 1933–1945\n(still formally ‘Deutsches Reich’, no emperor;\nfrom 1934 Hitler as ‘Führer’ –\nwithout election or a fixed term)"
+  },
+  "blocks[3].szene.elemente[21].text": {
+   "quelle": "sha256:fc6989db9e7b630fbfeda43ae9b03d4772040cc5b73470aaca30001f914bf021",
+   "text": "Remember: A monarchy can be democratic – and a republic can be a dictatorship."
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:ced4df716dacb4a75767eaae08d0b3e6c5302e750321b98a49886675d683a82f",
+   "text": "Title: Four cells: head of state and checks on power. Subtitle: Two questions to keep separate. The diagram is a table with two columns and two rows. The columns answer question 1 about the head of state: on the left, monarchy (head of state inherits the office for life); on the right, republic (no monarch, head of state usually elected for a fixed term). The rows answer question 2 about power and the checks on it: at the top, democracy (free elections, separation of powers, fundamental rights, opposition); at the bottom, dictatorship (power held by one person or party, no checks, persecution). Key points: 1. Democratic monarchy cell: Liechtenstein, which its 1921 constitution defines as a constitutional hereditary monarchy on a democratic and parliamentary basis, and the United Kingdom. 2. Democratic republic cell: Switzerland, Austria and the Weimar Republic from 1919 to 1933. 3. Dictatorship with a monarch cell: Saudi Arabia as an absolute monarchy in which the king holds all power, and Italy under Mussolini from 1925 to 1943, where the king remained and Mussolini governed. 4. Dictatorship without a monarch cell: Nazi Germany from 1933 to 1945, still formally called Deutsches Reich, without an emperor; from 1934, Hitler as Führer without election or a fixed term. 5. Reminder below the table: A monarchy can be democratic, and a republic can be a dictatorship."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:f60ad46cab04ad9d8692ce450779857a91cddf3958c7f7cdea1e40a4ab31d1ec",
+   "text": "Classify: democracy or dictatorship?"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:c4388cef577e2b9e95a75dfb1881a670712cb9455e14e17a61cf491bb2f5ed78",
+   "text": "Match each description to the appropriate system: **democracy** or **dictatorship**. Each system appears exactly four times (on a phone, tap the word first, then the gap)."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:91722da219504b5d9cfbcc4cff31e32a75e8d95be01496aebad11e27a69e877a",
+   "text": "Place the countries in the matrix"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:461c6f34b4c1179a5354b7fbd78a2483aa51796aafc3da7f29350361076cf056",
+   "text": "Here, the four cells of the matrix are placed next to one another on a line. Drag each country to the appropriate cell (or tap the card first, then the cell). For each country, consider both questions: Is there a monarch (monarchy) or not (republic)? And is power kept in check (democracy) or not (dictatorship)?"
+  },
+  "blocks[5].x.kategorien[0]": {
+   "quelle": "sha256:8689bca0fcc223612205fd665c0f5c7c549f99c845cbfd736d3eb05011432139",
+   "text": "Democracy + monarchy"
+  },
+  "blocks[5].x.kategorien[1]": {
+   "quelle": "sha256:48023b927a91c4eaf9be0aa6fb2b8fccb00885e9a1699d3538126e63dd2d0054",
+   "text": "Democracy + republic"
+  },
+  "blocks[5].x.kategorien[2]": {
+   "quelle": "sha256:aa824c096c25931963f664962adf19a72ae62f50f8cd5aa754c6181382d8314c",
+   "text": "Dictatorship + monarchy"
+  },
+  "blocks[5].x.kategorien[3]": {
+   "quelle": "sha256:77fc4099b7bbd68cc00c9d2ecd089f1686362654ad740bae0795744715f6f05b",
+   "text": "Dictatorship + republic"
+  },
+  "blocks[5].x.beschriftung": {
+   "quelle": "sha256:1deffd80e1e802c4a6c34676eaaa713b94312453c3fc6cb0f92e9e2c1567425e",
+   "text": "Cell in the four-cell matrix"
+  },
+  "blocks[5].elemente[0].text": {
+   "quelle": "sha256:2ea9db7e459851ea9d7087a9537f56abd5bab139a7d857a6c62e2ee06a94aa00",
+   "text": "Liechtenstein today"
+  },
+  "blocks[5].elemente[1].text": {
+   "quelle": "sha256:8bb214e78d3c2db46082f54add5c40b4778420057339b2c1e1cda3eedf3d9b66",
+   "text": "Switzerland today"
+  },
+  "blocks[5].elemente[2].text": {
+   "quelle": "sha256:712f54bb3a59923ae48d8db9e1c1df981b8e6183682cd21752606411a85eadf4",
+   "text": "Saudi Arabia today"
+  },
+  "blocks[5].elemente[3].text": {
+   "quelle": "sha256:e5300b7d3ba159e5a90a3072919ba35c5e69c700315cd2fd72e60ef81ca438a3",
+   "text": "Weimar Republic 1919–1933"
+  },
+  "blocks[5].elemente[4].text": {
+   "quelle": "sha256:f00ad6ce9b5907cd51075f77d72767709bdc8ed0bfcfd92adca9df9aaf68572a",
+   "text": "Nazi Germany 1933–1945"
+  },
+  "blocks[5].elemente[5].text": {
+   "quelle": "sha256:9bc97286a0674c0830b8037aabc16bff9fc32420f2411b8d425d035da336017d",
+   "text": "United Kingdom today"
+  },
+  "blocks[5].elemente[6].text": {
+   "quelle": "sha256:43492fb56446ada2f1c1c8113df3d3fee4d1f8aeee2db071c7f589cea10958d5",
+   "text": "Italy under Mussolini 1925–1943"
+  },
+  "blocks[5].elemente[7].text": {
+   "quelle": "sha256:d556ba609392a2f618374f9193c75ccee3e1406176b739569e055ee64df4f50d",
+   "text": "Austria today"
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:c9d010f62f1d7bf9f7af28b3a27aef8a333fa5e588a11ffafd8ed34e0e9ccd15",
+   "text": "When the state wants everything: totalitarianism"
+  },
+  "blocks[6].body": {
+   "quelle": "sha256:1fd46c56c6d5402124ee3d6193b596c90a00ba14d3c216b4d8eead428da3d079",
+   "text": "Not all dictatorships are the same. **Authoritarian** dictatorships mainly demand political obedience and persecute those who disagree with them; they are less concerned with what people think and do in private. A **totalitarian** dictatorship (from the Latin *totus* = whole) wants more: it wants to control **every area of life** and change people from within – at school, in their leisure time, in the family and even in their thoughts. You can recognise totalitarian dictatorships by five features:\n\n1. **An ideology** that claims to explain everything and tolerates no disagreement.\n2. **One party** that merges with the state.\n3. **Mass organisations** for children, young people, workers and women – nobody is meant to remain outside them.\n4. **Propaganda** across all media, from posters to radio.\n5. **Terror**: secret police, camps and fear as tools of rule.\n\n> **Remember:** An authoritarian dictatorship demands obedience. A totalitarian dictatorship demands enthusiasm – and punishes anyone who fails to show it.\n\nNazi Germany was a totalitarian dictatorship. In the next modules in this series, you will see how it brought schools, young people and leisure activities under its control."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:800fcd03644a277fa0e2a1e9013aae93953e74647b6dc08c14516b162d46ccf7",
+   "text": "Fascism – and what National Socialism made of it"
+  },
+  "blocks[7].body": {
+   "quelle": "sha256:ce4d1a2ff694a48fd39973654700f1c329b64586bb0222530fcf5ab7c39c5696",
+   "text": "## Where the word comes from\n\nIn ancient Rome, senior officials had a bundle of rods with an axe, known as the *fasces*, carried before them. It was a symbol of their official authority: this official had the right to punish. The Italian word *fascio* means ‘bundle’ or ‘league’. After the First World War, **Benito Mussolini** called his fighting leagues *Fasci di combattimento* – this gave rise to the name **fascism**.\n\n## Italy: the model\n\nIn October 1922, Mussolini ordered his uniformed supporters to march on the capital (the **‘March on Rome’**). The Italian king gave in to the threat and appointed Mussolini head of government. The appointment was formally lawful – but it only happened because the fascists threatened violence. From 1925/26 onwards, Mussolini stripped parliament, political parties and the press of their power and ruled as a dictator; the king remained in office as head of state. Remember this pattern: the head of state formally and lawfully appoints the leader of a movement as head of government – who then dismantles democracy. You will encounter it again in Germany in 1933.\n\n## What fascists have in common\n\n- **Extreme nationalism:** Their own nation comes above everything else; other nations are enemies or prey.\n- **A cult of the leader:** One leader embodies the nation and is followed unconditionally.\n- **Rejection of democracy, liberalism and communism** alike – they dismissed parliaments as ‘talking shops’ and saw freedom as weakness. (**Liberalism** is the political movement that puts individual freedom and rights first. **Communism** is the ideology that factories and land should belong to everyone collectively and that social classes should no longer exist.)\n- **Violence as a political tool:** Gangs of thugs, street fighting and intimidation.\n- **Militarisation:** Uniforms, parades and war as a test of strength.\n- **A one-party state** and **a ‘national community’ instead of classes**: Everyone is supposed to feel part of a whole – those who do not belong are excluded.\n\n## National Socialism\n\nNational Socialism adopted these features and was the **German form of fascism**. However, there is a crucial additional distinction: at the heart of Nazi ideology were a **racial ideology** (the claim that human beings could be divided into superior and inferior ‘races’) and **racist antisemitism** – hatred of Jewish people, which the Nazis made state policy and which ultimately led to genocide. Later modules in this series explore this.\n\n> **(Extension) A look at historical research:** Historians disagree about whether National Socialism should be called ‘German fascism’. One argument in favour is that almost all the features listed above apply. One argument against is that racial ideology and racist antisemitism were central to National Socialism and led to state-organised genocide – unique in its scale, even though other fascist movements were also antisemitic. Both views are represented in academic research. In everyday life, ‘fascist’ is often used simply as an insult; in history lessons, we use the term precisely."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:c8da409cb06de94bf924012222e3d80bf9e8cb35e8d08cd97a1cd70b76365de3",
+   "text": "Fascism: key terms"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the appropriate terms into the gaps (on a phone, tap the word first, then the gap). **Watch out:** Three of the words do not fit anywhere."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:e53172d0954ce2c3de2501df3e05057423658fb41b0fe67b4a5ac8daa945e585",
+   "text": "Check your understanding: forms of state, democracy and dictatorship"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:6b5b9bd677840598802a40522713cf061249622ab44157e549acf85821211fe2",
+   "text": "Check whether you can confidently distinguish the terms. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[9].questions[0].prompt": {
+   "quelle": "sha256:4fda00d902a773d53aac471ceca6abbe543ef4dd2e50e49a41b420e75f8727dc",
+   "text": "Liechtenstein is a monarchy. What does this mean for democracy in the country?"
+  },
+  "blocks[9].questions[0].options[0].text": {
+   "quelle": "sha256:618e8ad4012e814e5bab889d677e97a88d893a7e1ce1b03070f64ac162ec0d86",
+   "text": "Monarchy and democracy are mutually exclusive – so Liechtenstein is not a democracy, only a monarchy."
+  },
+  "blocks[9].questions[0].options[1].text": {
+   "quelle": "sha256:35ee1b72231100b67511ba68c9f3eb4b30fa5dba5d88be4e0b4fca4b56f8eaf5",
+   "text": "The Prince decides on all laws alone; the Landtag may only advise him and make suggestions."
+  },
+  "blocks[9].questions[0].options[2].text": {
+   "quelle": "sha256:527b2380dacd0339c518621ba7818a97be259ab66e555f761fc72ce3902389c4",
+   "text": "The two can coexist: according to its constitution, Liechtenstein is a hereditary monarchy on a democratic and parliamentary basis."
+  },
+  "blocks[9].questions[0].options[3].text": {
+   "quelle": "sha256:10074861c2cfbb04e7b1783310f16ae55836384073a7786767f5e87a246a3750",
+   "text": "Liechtenstein is actually a republic because the Landtag is elected by the people and passes laws."
+  },
+  "blocks[9].questions[0].explanation": {
+   "quelle": "sha256:4e64a19977f2f662e084f7a72804bce8bef8c512805f9eebc144f2beba683cfa",
+   "text": "The 1921 constitution combines the two: the Prince inherits his office (monarchy), but laws can only be passed with the Landtag, which is elected by the people, and the constitution limits the Prince’s power (democratic, parliamentary, constitutional). Monarchy and democracy are therefore not mutually exclusive, the Prince does not decide alone – and an elected Landtag does not turn a monarchy into a republic."
+  },
+  "blocks[9].questions[1].prompt": {
+   "quelle": "sha256:15581315eaefc990fc849948cb1d83ecba4ba1ccf8250ce397fb4589fe643ea2",
+   "text": "How can you recognise a republic?"
+  },
+  "blocks[9].questions[1].options[0].text": {
+   "quelle": "sha256:0f682c09bbb8046bc7668bf33c0f47673d26013583687d55a7002c9c8d040c43",
+   "text": "There is no monarch; the head of state is elected and holds office only for a fixed term."
+  },
+  "blocks[9].questions[1].options[1].text": {
+   "quelle": "sha256:c7ee7cb076b2c6e72be93b0e02399d0eabca6cc87e524513161f0f39220e2e98",
+   "text": "There is no constitution that could limit the head of state’s power."
+  },
+  "blocks[9].questions[1].options[2].text": {
+   "quelle": "sha256:896a79638189a4f52d1f96a9e118b3ae46a3d056883a228f719a56d3140b88fa",
+   "text": "The head of state inherits the office and usually holds it until death."
+  },
+  "blocks[9].questions[1].options[3].text": {
+   "quelle": "sha256:1962f118a8e01fdca5cced240f9afae3f1a09df5a821274415ae5fd74efb867a",
+   "text": "All important decisions are made directly by the people in referendums."
+  },
+  "blocks[9].questions[1].explanation": {
+   "quelle": "sha256:b56a20a50290182ac501082fdac230f443552e87719a9708fdfa278268b1be3a",
+   "text": "Republic means there is no monarch, but an elected head of state serving a fixed term – for example, the Federal President in Austria. An inherited office held for life is a feature of monarchy. Both republics and monarchies can have constitutions, and referendums are a matter of democracy, not of the form of state."
+  },
+  "blocks[9].questions[2].prompt": {
+   "quelle": "sha256:42c30b85acc705bc43ef568ffbe00c9527bb45407ca0a49254302b632508186a",
+   "text": "Which feature belongs to a dictatorship?"
+  },
+  "blocks[9].questions[2].options[0].text": {
+   "quelle": "sha256:52eea6de092a07b4d373be73d1394f1c73bc6c40a9c45ad7ca1aa29c0f381b3b",
+   "text": "Independent courts that can rule against the government and whose rulings are upheld."
+  },
+  "blocks[9].questions[2].options[1].text": {
+   "quelle": "sha256:82601cfd90397d686d21948d49bfe1de397c202bf684234c193029c58ed0e238",
+   "text": "An opposition that openly criticises the government and stands in the next election."
+  },
+  "blocks[9].questions[2].options[2].text": {
+   "quelle": "sha256:9176d34d27faa7e579d82756a9b24b60bdaf5ddb2acdad9f8e0aa553f13e0cb4",
+   "text": "Newspapers that uncover government scandals and are still allowed to publish."
+  },
+  "blocks[9].questions[2].options[3].text": {
+   "quelle": "sha256:39d9815188fbcf877f42d3d7c8abe73f75a69122f5522239d195ced0b110898d",
+   "text": "A secret police force that has critics arrested without a trial."
+  },
+  "blocks[9].questions[2].explanation": {
+   "quelle": "sha256:87c150bbf9073bd42d87d56f8ec28969532dc2caf9fba098bba35905a0d3a2e5",
+   "text": "The persecution of opponents by a secret police force is a typical feature of a dictatorship. Independent courts, a free opposition and newspapers that are allowed to uncover scandals, by contrast, are features of a democracy."
+  },
+  "blocks[9].questions[3].prompt": {
+   "quelle": "sha256:82905ec4264abefad4559a014e203a64e2296c88ce27d9ce6f1a58ae79351f9f",
+   "text": "What does separation of powers mean?"
+  },
+  "blocks[9].questions[3].options[0].text": {
+   "quelle": "sha256:6aecb4b9b57da6ad4711cbae3dc13ba7b7313e163fd63f88a8f5425796002d15",
+   "text": "The police and the army share responsibility for security in the country."
+  },
+  "blocks[9].questions[3].options[1].text": {
+   "quelle": "sha256:39def1e5ac1e070ccaf51580589db564c01ad33ba017d821745938aa093623c9",
+   "text": "Parliament, the government and the courts are separate and keep one another in check."
+  },
+  "blocks[9].questions[3].options[2].text": {
+   "quelle": "sha256:54054faa1720c4966d85fdc22e633b2e22556542a8b437dbf4163fafdb9e0c5f",
+   "text": "Every party in parliament receives the same number of ministerial posts in the government."
+  },
+  "blocks[9].questions[3].options[3].text": {
+   "quelle": "sha256:af7bf03f6ad8201a428185956a035b1534a7906532154763c4c8944f2434b730",
+   "text": "The people vote on every single law in a referendum."
+  },
+  "blocks[9].questions[3].explanation": {
+   "quelle": "sha256:001a9399dcab2dfd6843f3a90341c117461614b512b1ae0ff9a849df83a45408",
+   "text": "Separation of powers means separating the legislative power (parliament), the executive power (government) and the judicial power (courts), so that no single body holds all the power. The term has nothing to do with the police and the army, the distribution of ministerial posts or referendums."
+  },
+  "blocks[9].questions[4].prompt": {
+   "quelle": "sha256:88b9a511868c397f90fec9f71e9c6e805e3f6e85167342e9720f4f4ae2797738",
+   "text": "‘Totalitarian’ means that a dictatorship seeks to control every area of life – including leisure time, family life and thought."
+  },
+  "blocks[9].questions[4].explanation": {
+   "quelle": "sha256:9ada8d4b3f72f467f4d065c72dbfb9d392b0f44d442ffd715b4526921d8d73c7",
+   "text": "Correct. The word comes from the Latin *totus* (whole). A totalitarian dictatorship does not merely demand obedience, as an authoritarian one does, but seeks to control people completely through an ideology, one party, mass organisations, propaganda and terror."
+  },
+  "blocks[9].questions[5].prompt": {
+   "quelle": "sha256:816f5abdbe53dee5deac9c9b67b9775eff60951da92c7ac6007444fa8d80b36f",
+   "text": "What most clearly distinguishes National Socialism from Italian fascism?"
+  },
+  "blocks[9].questions[5].options[0].text": {
+   "quelle": "sha256:47bae40c81b30cf598bfd12bd3f74f6074560260f7af21b7a391cd416aa417d5",
+   "text": "National Socialism had no cult of the leader because the party made all decisions collectively."
+  },
+  "blocks[9].questions[5].options[1].text": {
+   "quelle": "sha256:c0088f7790a2765fc424349a291fbe9e4c3040dcd062ccecae44fa0fc51436b1",
+   "text": "National Socialism rejected violence as a political tool and relied solely on elections."
+  },
+  "blocks[9].questions[5].options[2].text": {
+   "quelle": "sha256:33b9b15573803b4f4d1fa3b3633a8cce211db585dd314c2653a96e67d534f5a3",
+   "text": "National Socialism placed racist antisemitism at its centre – ultimately leading to genocide."
+  },
+  "blocks[9].questions[5].options[3].text": {
+   "quelle": "sha256:688508f80a6dc865ba8bcf2d4204ca837777b5f874f1f05c3d6605f31ceb4708",
+   "text": "National Socialism was a monarchy with an emperor as head of state."
+  },
+  "blocks[9].questions[5].explanation": {
+   "quelle": "sha256:5d315ced2ef46cfd82f3fd47517c856745c2139bc1026a094fa1d1155f980974",
+   "text": "The cult of the leader and violence were features of both movements. National Socialism was not a monarchy: Germany had had no emperor since 1918. Italy, by contrast, formally remained a kingdom under Mussolini, who ruled as a dictator in his role as head of government. The central difference is racist antisemitism at the heart of Nazi ideology, which led to the Holocaust."
+  },
+  "blocks[9].questions[6].prompt": {
+   "quelle": "sha256:0c3f2bed9941af73c86788201a78965bdf242ac9fd227354563dc26d1bc2863c",
+   "text": "How did Mussolini become head of government in 1922?"
+  },
+  "blocks[9].questions[6].options[0].text": {
+   "quelle": "sha256:433267d1b802d3249b379340f47601185da3ffab1ebc4616a4ed56b13ae056f3",
+   "text": "By winning an election that gave his party an absolute majority in the Italian parliament."
+  },
+  "blocks[9].questions[6].options[1].text": {
+   "quelle": "sha256:d96e41ea206c93d7198937697a14ebd85e79c9147a9a9f322ea803f85a934f29",
+   "text": "Through an armed military coup in which the king was deposed and arrested."
+  },
+  "blocks[9].questions[6].options[2].text": {
+   "quelle": "sha256:5b72ce6e511ac4cc7f47386e4e84660b508cbf51190713a79080f27a9ffa5273",
+   "text": "Through a referendum in which a majority of Italians voted for him as head of government."
+  },
+  "blocks[9].questions[6].options[3].text": {
+   "quelle": "sha256:e97bf17917141373ce080c0f82ae8b6912ee05ea839b366ff20ec988d18cf9b1",
+   "text": "Through the ‘March on Rome’: the king gave in to the pressure and appointed him head of government."
+  },
+  "blocks[9].questions[6].explanation": {
+   "quelle": "sha256:2ff95f6705b20055dbf149f7352fb66468dc2bcd8aff268cb9c7df3668fe0ec6",
+   "text": "Mussolini did not win a majority in an election, there was no referendum in his favour, and he did not overthrow the king – he threatened violence, and the head of state then appointed him head of government in a formally lawful way. Only afterwards did he dismantle democracy. You will encounter this pattern again in Germany in 1933."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:d4638bee1e3649ef970886e2e4930c3222ff3eab4137624ea6dfa35cd8cda181",
+   "text": "Explore further: explaining forms of state clearly"
+  },
+  "blocks[10].intro": {
+   "quelle": "sha256:f5df4fd0bb4c5b11a0faf017b5107ffe1006907ea3fadc04510dd76861bb5cc4",
+   "text": "Your answers will be sent to your teacher. Task 1 is for everyone; tasks 2 and 3 are marked **(Extension)**."
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:ebdf2fbb15697067253e0ff53a751820c2caffbc5b2bad6b772a621afdd06e19",
+   "text": "Explain in two to three sentences why Liechtenstein is both a monarchy and a democracy. Use both questions from this module."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:9ea9d00e2db6e969531d01e3dee1a4abad8bf199db35e3f9e422e21d5c66d25d",
+   "text": "Question 1: How does the Prince gain his office? Question 2: Who makes the laws, and who elects the people who pass them?"
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:e540b0f2df166d6f2331a6ee460618f4b158553e7ec1dc5a4a98b187b75bdbcd",
+   "text": "Example answer: Liechtenstein is a monarchy because the Prince inherits his office and holds it for life. It is also a democracy because laws can only be passed with the Landtag, which the people elect in free elections, and because the constitution limits the Prince’s power. The 1921 constitution calls this a constitutional hereditary monarchy on a democratic and parliamentary basis."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:ffe66e36737740d79cdb3ec2fec413adf11c8bcd9412f667f12ade8fd6d9890e",
+   "text": "(Extension) ‘A republic can be a dictatorship.’ Justify this statement in two to four sentences, using Nazi Germany as your example."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:fa4a953c496e612602c25bd31b4cc8096100362c6df91e78b7d23ea0d94a3c07",
+   "text": "Was there a monarch from 1933 onwards? And was power still kept in check – through elections, courts and opposition?"
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:b11c17c99fe3d55272a0339be6cb66a9c00e4f723667dd8a18ce46966b0c1ce9",
+   "text": "Example answer: The German Reich had had no emperor since 1918 and formally remained a republic without a monarch. Nevertheless, from 1933 onwards it was a dictatorship: power lay with one party and its leader, there were no longer any free elections, separation of powers or opposition, and opponents were persecuted. A form of state without a monarch therefore tells you nothing about whether power is kept in check."
+  },
+  "blocks[10].tasks[2].prompt": {
+   "quelle": "sha256:a8e788b93e183e4776ffb0c3a381ec36ff70576e8bfdb6ed2d6f83bd9ce29d08",
+   "text": "(Extension) Is National Socialism ‘fascism’? Give one argument in favour and one against, then write a final sentence stating which description you find more convincing (three to five sentences in total)."
+  },
+  "blocks[10].tasks[2].hint": {
+   "quelle": "sha256:ca3c91c6c2a0039ecc57288bc8bf26c7d94857469837e6e34c98cb2d43bce382",
+   "text": "Compare the list of features of fascism with the additional ideas that were central to National Socialism."
+  },
+  "blocks[10].tasks[2].solution": {
+   "quelle": "sha256:dadad806b424164fed828be92fed08d17f41c1616e2164fd78c375cfaacc035b",
+   "text": "Example answer: One argument in favour is that National Socialism shares almost all the features of fascism – a cult of the leader, extreme nationalism, violence, a one-party state and rejection of democracy. One argument against is that racist antisemitism was central to National Socialism and led to state-organised genocide, which distinguishes it from Italian fascism. I find ‘German fascism’ more convincing because there are so many similarities – as long as we add that antisemitism made National Socialism even more radical. (The opposite conclusion is also correct if it is justified.)"
+  }
+ },
+ "pakete": {
+  "blocks[4]": {
+   "quelle": "sha256:6ebd9ff58bd03d3af831b85dad7e0f28ce9996bdf46109aa9962832bf292f094",
+   "inhalt": {
+    "text": "After losing the election, the government peacefully hands power to the winner. {{1}}\nA secret police force monitors those who criticise the government and has people arrested without a court ruling. {{2}}\nNewspapers may only print what the party permits. {{3}}\nA court declares a government law invalid – and the government abides by the ruling. {{4}}\nOnly one party is allowed; all others are banned. {{5}}\nAn opposition party criticises the government in parliament and stands in the next election. {{6}}\nEveryone entitled to vote can do so freely, in secret and without pressure. {{7}}\nThe government makes laws alone – parliament no longer has a say. {{8}}",
+    "luecken": [
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "dictatorship",
+      "a dictatorship",
+      "dictatorial system",
+      "a dictatorial system"
+     ],
+     [
+      "dictatorship",
+      "a dictatorship",
+      "dictatorial system",
+      "a dictatorial system"
+     ],
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "dictatorship",
+      "a dictatorship",
+      "dictatorial system",
+      "a dictatorial system"
+     ],
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "democracy",
+      "a democracy",
+      "democratic system",
+      "a democratic system"
+     ],
+     [
+      "dictatorship",
+      "a dictatorship",
+      "dictatorial system",
+      "a dictatorial system"
+     ]
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:b8ef44d8d27cc5cfa416947f52e43a189d7282eb53c76ad2f6e2a97e3a7f7482",
+   "inhalt": {
+    "text": "The word fascism comes from the Latin {{1}}, the bundle of rods with an axe from ancient Rome.\nIn October 1922, Mussolini’s supporters marched on {{2}}; from 1925/26 onwards, he ruled as {{3}}.\nFascists place their own {{4}} above all other peoples and build a {{5}} around the man at the top.\nThey reject democracy, liberalism and {{6}} alike and use {{7}} as a political tool.\nNational Socialism adopted these features and placed racist {{8}} at its centre.",
+    "luecken": [
+     [
+      "fasces"
+     ],
+     [
+      "Rome"
+     ],
+     [
+      "a dictator",
+      "dictator"
+     ],
+     [
+      "nation",
+      "country"
+     ],
+     [
+      "cult of the leader",
+      "leader cult",
+      "leadership cult",
+      "cult of personality",
+      "personality cult"
+     ],
+     [
+      "communism"
+     ],
+     [
+      "violence",
+      "force",
+      "political violence"
+     ],
+     [
+      "antisemitism",
+      "anti-Semitism",
+      "anti-semitism",
+      "anti Semitism"
+     ]
+    ],
+    "ablenker": [
+     "monarchy",
+     "Athens",
+     "peace"
+    ]
+   }
+  }
+ }
+}
