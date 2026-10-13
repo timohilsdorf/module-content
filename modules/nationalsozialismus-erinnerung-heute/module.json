@@ -1,0 +1,1294 @@
+{
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-erinnerung-heute",
+ "title": "Was geht uns das heute an? Erinnern, erkennen, schützen",
+ "description": "Der Nationalsozialismus ist Geschichte – seine Muster sind es nicht. Du lernst, woran man Antisemitismus und Verschwörungsmythen heute erkennt, warum Holocaustleugnung strafbar ist, wie Erinnerungskultur funktioniert und was eine Demokratie vor dem Weg von 1933 schützt. Mit Glossar, Gesamtquiz über die ganze Reihe und Selbsteinschätzung.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Schweizer Demokratie erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "de",
+ "sequenz": 8,
+ "einheit": "Nationalsozialismus – Diktatur, Verfolgung, Erinnerung",
+ "requires": [
+  "nationalsozialismus-judenverfolgung-holocaust"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "Erinnerungskultur",
+  "Antisemitismus heute",
+  "Holocaustleugnung",
+  "Verschwörungsmythen",
+  "Stolpersteine",
+  "27. Januar",
+  "Demokratie",
+  "Zivilcourage",
+  "Glossar",
+  "Nationalsozialismus"
+ ],
+ "learningObjectives": [
+  "Ich kann erklären, in welchen Formen Antisemitismus heute auftritt, und mit drei Prüffragen prüfen, ob eine Aussage antisemitisch ist.",
+  "Ich kann begründen, warum Holocaustleugnung und -verharmlosung keine Meinung sind und in Liechtenstein, der Schweiz, Österreich und Deutschland bestraft werden.",
+  "Ich kann erklären, wie Erinnerungskultur funktioniert: Gedenktag am 27. Januar, Gedenkstätten, Stolpersteine, Zeitzeugen, Forschung.",
+  "Ich kann aus dem Weg von 1933 ableiten, was eine Demokratie schützt: Gewaltenteilung, Grundrechte auch in Krisen und für Minderheiten, und Zivilcourage.",
+  "Ich kann die Fachbegriffe und Abkürzungen der ganzen Reihe erklären und im Gesamtquiz anwenden.",
+  "Ich kann mit der Checkliste einschätzen, was ich aus der Reihe kann und wo ich noch nachlesen sollte.",
+  "(Erweitert) Ich kann eine Recherche zu einem Stolperstein oder einem lokalen Erinnerungsort planen."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Antisemitismus",
+   "url": "https://www.bpb.de/themen/antisemitismus/"
+  },
+  {
+   "title": "Stolpersteine – Projekt von Gunter Demnig",
+   "url": "https://www.stolpersteine.eu"
+  },
+  {
+   "title": "Regierung des Fürstentums Liechtenstein: Holocaust-Gedenktag am 27. Januar",
+   "url": "https://www.llv.li"
+  },
+  {
+   "title": "Unabhängige Historikerkommission Liechtenstein Zweiter Weltkrieg: Schlussbericht (Chronos Verlag 2005)"
+  },
+  {
+   "title": "Vereinte Nationen: International Day of Commemoration in Memory of the Victims of the Holocaust (27. Januar)",
+   "url": "https://www.un.org/en/observances/commemoration-holocaust-victims-day"
+  },
+  {
+   "title": "Jüdisches Museum Hohenems",
+   "url": "https://www.jm-hohenems.at"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Antisemitismus | musstewissen Geschichte",
+   "url": "https://www.youtube.com/watch?v=ZbTA36HlV3A"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k8-einstieg",
+   "title": "Warum lernen wir das?",
+   "body": "Du hast in sieben Modulen einen Weg verfolgt: von der Frage, wie man einen Staat regieren kann ([[modul:nationalsozialismus-staatsformen-faschismus]]), über die Zerstörung der Demokratie in eineinhalb Jahren ([[modul:nationalsozialismus-machtuebernahme-1933]]), den Apparat ([[modul:nationalsozialismus-organisationen]]), das Weltbild und seine Werbung ([[modul:nationalsozialismus-ideologie-propaganda]]), die Jugend ([[modul:nationalsozialismus-jugend]]) bis zur Verfolgung und zum Völkermord ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]], [[modul:nationalsozialismus-judenverfolgung-holocaust]]).\n\nWarum das alles? Nicht, weil du schuld wärst – du und deine Generation tragen keine Schuld an dem, was vor 1945 geschah. Sondern weil die **Muster** geblieben sind: Sündenböcke, Verschwörungsmythen, die Verachtung von Minderheiten, der Wunsch nach einem starken Mann, der alle Probleme löst, die Bereitschaft, wegzuschauen. Wer die Geschichte kennt, erkennt die Muster früher – im Netz, im Klassenchat, in der Politik. Und wer sie erkennt, kann anders handeln als die Mehrheit damals.\n\nDieses Modul hat drei Teile: **Erkennen** (Antisemitismus und Verschwörungsmythen heute), **Erinnern** (wie eine Gesellschaft Geschichte wachhält) und **Schützen** (was eine Demokratie widerstandsfähig macht). Danach folgen eine Zuordnungsübung und das Glossar, das Gesamtquiz über die ganze Reihe in zwei Teilen, eine Checkliste zur Selbsteinschätzung und drei Abschlussaufgaben.\n\nDu brauchst für dieses Modul etwa zwei Lektionen. Ein guter Schnitt liegt nach dem Glossar – das Gesamtquiz löst du am besten ausgeruht und mit Zeit zum Nachlesen."
+  },
+  {
+   "type": "text",
+   "id": "k8-heute",
+   "title": "Erkennen: Antisemitismus heute",
+   "body": "Der Holocaust hat den Antisemitismus nicht beendet. Jüdische Gemeinden in Europa brauchen bis heute Polizeischutz; 2019 versuchte ein Rechtsextremist in Halle an der Saale, am höchsten jüdischen Feiertag in eine Synagoge einzudringen – die Tür hielt, und er ermordete danach zwei Menschen auf der Straße und in einem Imbiss. Nach dem Terrorangriff der Hamas, einer Terrororganisation im Gazastreifen, auf Israel am 7. Oktober 2023 stieg die Zahl antisemitischer Vorfälle in Europa stark an – oft wurden Jüdinnen und Juden hier für Ereignisse dort angefeindet. Antisemitismus tritt heute in mehreren Formen auf (das Wort steht heute oft für jede Judenfeindschaft, auch für den alten religiösen Antijudaismus aus [[modul:nationalsozialismus-antisemitismus-ausgrenzung]]):\n\n- **Alte Vorurteile in neuer Form:** die Behauptung, «die Juden» seien reich, mächtig, hätten geheimen Einfluss auf Banken, Medien oder Regierungen. Das sind dieselben Bilder wie 1900 – nur heute oft in Memes oder Kommentaren.\n- **Verschwörungsmythen:** Erzählungen, nach denen eine kleine, geheime Gruppe – oft «Elite» genannt – Pandemien, Kriege oder Finanzkrisen steuert. Nicht jede solche Erzählung ist antisemitisch. Sie wird es, wenn die angeblichen Drahtzieher als Juden dargestellt werden – offen oder verschlüsselt: Oft fällt das Wort «Jude» gar nicht mehr, aber die Bilder und Andeutungen stammen aus dem alten Antisemitismus, etwa aus den gefälschten «Protokollen der Weisen von Zion». Wie Verschwörungsmythos und Sündenbock-Denken zusammenhängen, hast du in [[modul:nationalsozialismus-antisemitismus-ausgrenzung]] gesehen.\n- **Holocaustleugnung und -verharmlosung:** die Behauptung, der Völkermord habe nicht stattgefunden, die Opferzahlen seien erfunden oder stark übertrieben oder die Dokumente seien gefälscht. Das ist keine Meinung, sondern eine Lüge über ein bewiesenes Verbrechen ([[modul:nationalsozialismus-judenverfolgung-holocaust]]). In Liechtenstein, der Schweiz, Österreich und Deutschland ist es **strafbar**, so etwas öffentlich zu verbreiten – weil es die Opfer verhöhnt, Hass schürt und den Boden für neue Gewalt bereitet.\n- **Hass unter dem Deckmantel der Kritik:** Kritik an der Politik eines Staates ist in einer Demokratie erlaubt – auch an Israel. Antisemitisch wird sie, wenn sie «die Juden» als Ganzes verantwortlich macht, alte Vorurteile und Bilder benutzt oder Jüdinnen und Juden hier für Ereignisse dort angreift.\n\n## Drei Prüffragen zum Erkennen\n\nDu musst keine Liste von Codewörtern – versteckten Andeutungen, die nur Eingeweihte verstehen – auswendig kennen, um Antisemitismus zu erkennen. Drei Fragen genügen meist:\n\n1. **Wird aus Menschen eine Gruppe mit einem Willen?** «Die Juden wollen …», «die Juden steuern …» – wer Millionen Menschen eine gemeinsame geheime Absicht unterstellt, argumentiert wie die Propaganda von damals.\n2. **Wird Kompliziertes mit einem geheimen Drahtzieher erklärt – und sind es am Ende «die Juden» oder ein altes Bild von ihnen?** Krisen haben viele Ursachen. Wer sie auf eine kleine Gruppe zurückführt, die angeblich im Verborgenen alles lenkt, erzählt einen Verschwörungsmythos. Antisemitisch wird er, wenn diese Gruppe «die Juden» ist oder mit den alten Bildern der Judenfeindschaft beschrieben wird.\n3. **Der Austausch-Test:** Er hilft bei Sätzen, die über eine ganze Gruppe etwas behaupten – «Die Juden sind …», «Die Juden wollen …». Setze zur Probe eine andere Gruppe ein, etwa «die Jugendlichen» oder «die Linkshänder». Wäre der Satz dann ein haltloses Vorurteil oder eine Beleidigung? Dann ist er es auch mit «Juden». Der Test prüft nur Verallgemeinerungen über eine Gruppe, nicht Tatsachen wie «Viele Jüdinnen und Juden feiern am Samstag den Sabbat».\n\nUnd wenn jemand sagt, das sei doch nur ein Witz? Witze, die ein Vorurteil bedienen, funktionieren nur, wenn alle dieses Vorurteil kennen – sie halten es am Leben. Frag dich: Wer lacht hier über wen, und wie ist es für jemanden, der zu dieser Gruppe gehört und zuhört? Du musst solche Witze nicht lustig finden – und du darfst widersprechen.\n\n> **Merke:** Antisemitismus heute ist der alte Hass in neuen Formen: alte Vorurteile, antisemitische Verschwörungsmythen, Holocaustleugnung, Hass als «Kritik». Drei Prüffragen helfen: Wird aus Menschen eine Gruppe mit einem Willen? Erklärt ein geheimer Drahtzieher alles – und sind es am Ende «die Juden» oder ihre alten Bilder? Wäre die Aussage mit einer anderen Gruppe ein haltloses Vorurteil oder eine Beleidigung (Austausch-Test)?"
+  },
+  {
+   "type": "video",
+   "id": "k8-video",
+   "provider": "youtube",
+   "videoId": "ZbTA36HlV3A",
+   "title": "Zusatz (optional): Video «Antisemitismus» (6:44)",
+   "description": "Dieses Video von MrWissen2go Geschichte (Terra X, ZDF) aus dem Jahr 2018 ist ein freiwilliges Zusatzangebot – alles, was du für die Aufgaben brauchst, steht in den Texten dieses Moduls. Anlass war damals eine Debatte um Textzeilen zweier Rapper, die als antisemitisch kritisiert wurden. Wenn du es schaust (Internet nötig, startet erst nach deinem Klick), achte auf zwei Leitfragen: (1) Wie erklärt das Video, was Antisemitismus bedeutet? (2) Warum ist er laut Video auch heute gefährlich – und welche der drei Prüffragen aus dem Text erkennst du wieder?",
+   "transcript": "Zusammenfassung des Videos «Antisemitismus | musstewissen Geschichte» (MrWissen2go Geschichte | Terra X, 6:44, 2018) nach der Videobeschreibung: Antisemitismus war damals wieder ein Thema in Deutschland; das zeigte sich auch an der Diskussion um Textzeilen zweier Rapper, die als antisemitisch kritisiert wurden. In dem Video erklärt Mirko Drotschmann, was Antisemitismus bedeutet und warum er so gefährlich ist.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "id": "k8-erinnerung",
+   "title": "Erinnern: Wie eine Gesellschaft Geschichte wachhält",
+   "body": "Erinnern geschieht nicht von selbst. Eine Gesellschaft muss entscheiden, woran sie sich erinnern will – und wie. Das nennt man **Erinnerungskultur**. Zu ihr gehören:\n\n- **Der 27. Januar.** An diesem Tag befreite die Rote Armee 1945 das Lager Auschwitz-Birkenau. Deutschland begeht ihn seit 1996 als Gedenktag für die Opfer des Nationalsozialismus, die Vereinten Nationen erklärten ihn 2005 zum internationalen Holocaust-Gedenktag. An vielen Schulen und bei Gedenkstunden von Parlamenten und Regierungen wird an diesem Tag innegehalten. In Liechtenstein hat die Regierung den 27. Januar 2003 als Gedenktag festgelegt; seit 2006 führt sie eine öffentliche Gedenkstunde durch, an der auch Schülerinnen und Schüler mitwirken.\n- **Gedenkstätten.** Ehemalige Lager wie Auschwitz, Dachau oder Bergen-Belsen sind heute Orte des Lernens; das Haus der Wannsee-Konferenz in Berlin und das Anne Frank Haus in Amsterdam ebenso. Sie zeigen Dokumente, Namen, Biografien – und erzählen auch, wer gerettet hat. Nah bei uns erinnert das Jüdische Museum Hohenems an das jüdische Leben in Vorarlberg und an seine Zerstörung.\n- **Stolpersteine.** Der Künstler Gunter Demnig setzt seit den 1990er-Jahren kleine Messingtafeln in den Gehweg vor den letzten frei gewählten Wohnorten von NS-Opfern: «Hier wohnte …», mit Name, Geburtsjahr und Schicksal. Inzwischen liegen über 100 000 davon in mehr als 30 Ländern, auch in der Schweiz, in Österreich und seit 2022 in Vaduz. Man stolpert nicht mit dem Fuß, sondern mit dem Kopf: Ein Opfer bekommt seinen Namen und seinen Ort zurück.\n- **Zeitzeuginnen und Zeitzeugen.** Jahrzehntelang erzählten Überlebende in Schulen von ihrem Leben. Die letzten von ihnen sind heute sehr alt. Bald wird es niemanden mehr geben, der sagen kann: Ich war dabei. Dann liegt das Erinnern ganz bei uns – bei Büchern, Gedenkstätten, Aufzeichnungen und bei dem, was du selbst weitergibst.\n- **Forschung.** Auch kleine Länder stellen sich ihrer Geschichte: Liechtenstein setzte 2001 eine Unabhängige Historikerkommission ein, die untersuchte, wie sich das Land, seine Firmen und das Fürstenhaus während des Zweiten Weltkriegs verhalten hatten – zu Flüchtlingen, zu Vermögenswerten und Raubkunst, zur Rüstungsproduktion und zur Zwangsarbeit. Ihr Schlussbericht erschien 2005.\n\nWarum das wichtig ist: Erinnern ist nicht Schuld. Es ist **Verantwortung** – dafür, dass sich die Muster nicht wiederholen, und dafür, dass die Ermordeten nicht ein zweites Mal verschwinden, diesmal aus dem Gedächtnis. Verantwortung heißt: wissen, was geschah, die Muster erkennen und hinschauen, widersprechen und helfen, wenn Menschen heute ausgegrenzt werden. Das gilt für alle, die hier leben – woher ihre Familie auch stammt.\n\n> **Merke:** Erinnerungskultur heißt: Gedenktag (27. Januar), Gedenkstätten, Stolpersteine, Zeitzeugen, Forschung. Sie gibt den Opfern Namen zurück und macht uns wachsam für die Gegenwart."
+  },
+  {
+   "type": "text",
+   "id": "k8-demokratie",
+   "title": "Schützen: Was eine Demokratie widerstandsfähig macht",
+   "body": "Die Weimarer Republik war eine Demokratie mit einer modernen Verfassung – und sie wurde binnen eineinhalb Jahren zerstört, das meiste davon schon bis zum Sommer 1933, ohne Putsch, mit Gesetzen und Verordnungen ([[modul:nationalsozialismus-machtuebernahme-1933]]). Was lehrt uns das?\n\n1. **Gewaltenteilung ist kein Papier, sondern Praxis.** Das Ermächtigungsgesetz übertrug der Regierung die Macht des Parlaments – und eine Mehrheit stimmte zu. Eine Demokratie braucht Regeln, die so etwas unmöglich machen, und Abgeordnete, Richterinnen und Beamte, die sie auch unter Druck anwenden.\n2. **Grundrechte müssen gerade in Krisen gelten – und für alle.** Grundrechte sind Menschenrechte, die eine Verfassung festschreibt und die den Staat binden: Sie gelten für jeden Menschen, unabhängig von Herkunft oder Religion – diesen Gedanken kennst du aus [[modul:nationalsozialismus-antisemitismus-ausgrenzung]]. Die Nationalsozialisten lehnten die Menschenrechte als «Schwäche» und «undeutsch» ab ([[modul:nationalsozialismus-ideologie-propaganda]]). Die Reichstagsbrandverordnung vom 28. Februar 1933 setzte die Grundrechte «bis auf Weiteres» außer Kraft, also ohne Frist – begründet mit der angeblichen Gefahr eines kommunistischen Aufstands. Sie wurde nie aufgehoben und galt bis 1945. In Krisen haben Menschen Angst – und wer Angst hat, gibt Freiheiten leichter auf; 1933 nutzte die NS-Führung genau das aus. Die Frage ist, ob die Grundrechte so einem Druck standhalten – vor allem für Minderheiten, denn sie sind der Prüfstein: Eine Demokratie misst sich nicht daran, wie sie mit der Mehrheit umgeht, sondern mit denen, die anders sind oder anders denken. Die Ausgrenzung der Jüdinnen und Juden begann 1933 bei weniger als einem Prozent der Bevölkerung – und die meisten anderen schauten weg, gewöhnten sich daran oder zogen sogar Vorteile daraus. Nur wenige widersprachen, einige halfen.\n3. **Zivilcourage ist die letzte Sicherung.** Keine Verfassung schützt sich selbst. Grüninger, Hübener, die Helferinnen und Helfer im Amsterdamer Hinterhaus, die Kundinnen, die am 1. April 1933 trotzdem einkauften – sie zeigen, dass es auf jeder Stufe Handlungsspielraum gab. Der Preis stieg allerdings mit jeder Stufe: Wer am 1. April 1933 trotzdem einkaufte, riskierte, fotografiert zu werden; Grüninger verlor 1939 seine Stelle und wurde verurteilt; die Helfenden im Hinterhaus riskierten ihr Leben; Hübener bezahlte mit seinem. Unter einer Diktatur kosteten Widerstand und Hilfe oft viel, im Extremfall das Leben. Zivilcourage im Alltag beginnt viel früher und viel kleiner: hinschauen, widersprechen, helfen, Hilfe holen – ohne sich selbst in Gefahr zu bringen.\n\n## Und Liechtenstein?\n\nIn [[modul:nationalsozialismus-staatsformen-faschismus]] hast du gesehen, dass Liechtenstein eine Monarchie und zugleich eine Demokratie ist: Der Fürst erbt sein Amt, Gesetze kommen aber nur mit dem vom Volk gewählten Landtag zustande, und die Verfassung von 1921 begrenzt die Macht. Auch sonst ist die Macht verteilt – auf Fürst, Landtag, Regierung und Gerichte. Der Staatsgerichtshof, das Verfassungsgericht, wacht darüber, dass die Verfassung eingehalten wird, und das Volk kann mit der Initiative selbst Gesetze vorschlagen und mit dem Referendum über Gesetze abstimmen. Solche Sicherungen wurden 1933 in Deutschland ausgehebelt. Wie viel Macht dabei der Fürst und wie viel das Volk haben soll, wird auch in Liechtenstein immer wieder diskutiert – und darüber darf und soll man in einer Demokratie streiten. Ein Vorbild in allem war das Land damals nicht: 1938 wies es mehr Gesuche jüdischer Flüchtlinge ab, als es bewilligte, und sperrte im Dezember die Einreise ([[modul:nationalsozialismus-judenverfolgung-holocaust]]); mit der Historikerkommission stellt es sich dieser Geschichte. Sicherungen funktionieren nur, solange Menschen sie nutzen: wählen, mitreden, widersprechen, Minderheiten schützen – auch im Kleinen, in der Schule und im Dorf.\n\n> **Merke:** Drei Dinge schützen eine Demokratie: Gewaltenteilung (niemand hat alle Macht), Grundrechte, die auch in Krisen und für Minderheiten gelten, und Zivilcourage – Menschen, die nicht wegschauen. Das Schaubild zeigt die drei Säulen – und was 1933 geschah, als sie fehlten."
+  },
+  {
+   "type": "schaubild",
+   "id": "k8-schaubild",
+   "title": "Was eine Demokratie schützt",
+   "szene": {
+    "elemente": [
+     {
+      "id": "s-titel",
+      "x": 20,
+      "y": 0,
+      "width": 723,
+      "height": 33,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "Was eine Demokratie schützt – und was 1933 fehlte",
+      "fontSize": 26,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-untertitel",
+      "x": 20,
+      "y": 40,
+      "width": 574,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "Blau: die drei Säulen heute – Orange: was 1933 bis 1945 geschah",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-dach",
+      "x": 40,
+      "y": 80,
+      "width": 920,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-dach-t",
+      "x": 50,
+      "y": 103.5,
+      "width": 900,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "text",
+      "text": "Demokratie: Macht wird kontrolliert – Rechte gelten für alle, auch für Minderheiten",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-dach",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-saeule0",
+      "x": 40,
+      "y": 170,
+      "width": 280,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-saeule0-t",
+      "x": 50,
+      "y": 254.5,
+      "width": 260,
+      "height": 131,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "text",
+      "text": "Gewaltenteilung\n\nParlament, Regierung und\nunabhängige Gerichte\nkontrollieren sich\ngegenseitig – niemand\nhat alle Macht",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-saeule0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-gefahr0",
+      "x": 40,
+      "y": 490,
+      "width": 280,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-gefahr0-t",
+      "x": 50,
+      "y": 508.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "text",
+      "text": "1933: Das Ermächtigungs-\ngesetz gab der Regierung\ndie Macht des Parlaments",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-gefahr0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-saeule1",
+      "x": 360,
+      "y": 170,
+      "width": 280,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-saeule1-t",
+      "x": 370,
+      "y": 254.5,
+      "width": 260,
+      "height": 131,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "text",
+      "text": "Grundrechte\n\nMeinungs-, Presse- und\nVersammlungsfreiheit,\nGleichheit vor dem Gesetz –\nsie gelten auch in Krisen\nund für Minderheiten",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-saeule1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-gefahr1",
+      "x": 360,
+      "y": 490,
+      "width": 280,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-gefahr1-t",
+      "x": 370,
+      "y": 508.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "text",
+      "text": "1933: Die Reichstagsbrand-\nverordnung setzte die\nGrundrechte außer Kraft",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-gefahr1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-saeule2",
+      "x": 680,
+      "y": 170,
+      "width": 280,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-saeule2-t",
+      "x": 690,
+      "y": 254.5,
+      "width": 260,
+      "height": 131,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "text",
+      "text": "Zivilcourage\n\nMenschen, die hinschauen,\nwidersprechen und helfen –\nim Kleinen wie im Großen:\nGrüninger, Hübener, die Helferinnen\nund Helfer im Hinterhaus",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-saeule2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-gefahr2",
+      "x": 680,
+      "y": 490,
+      "width": 280,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-gefahr2-t",
+      "x": 690,
+      "y": 508.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "text",
+      "text": "1933–1945: Die Mehrheit\nschaute weg – und machte\ndas Unrecht möglich",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-gefahr2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-fundament",
+      "x": 40,
+      "y": 600,
+      "width": 920,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-fundament-t",
+      "x": 50,
+      "y": 619.5,
+      "width": 900,
+      "height": 21,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "text",
+      "text": "Fundament: eine Verfassung – und Bürgerinnen und Bürger, die sie verteidigen",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-fundament",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Titel: Was eine Demokratie schützt und was 1933 fehlte. Untertitel: Blau die drei Säulen heute, Orange was 1933 bis 1945 geschah. Oben ein Dach: Demokratie: Macht wird kontrolliert, Rechte gelten für alle, auch für Minderheiten. Darunter drei blaue Säulen. Säule 1 Gewaltenteilung: Parlament, Regierung und unabhängige Gerichte kontrollieren sich gegenseitig, niemand hat alle Macht; darunter orange: 1933: Das Ermächtigungsgesetz gab der Regierung die Macht des Parlaments. Säule 2 Grundrechte: Meinungs-, Presse- und Versammlungsfreiheit, Gleichheit vor dem Gesetz, sie gelten auch in Krisen und für Minderheiten; darunter orange: 1933: Die Reichstagsbrandverordnung setzte die Grundrechte außer Kraft. Säule 3 Zivilcourage: Menschen, die hinschauen, widersprechen und helfen, im Kleinen wie im Großen: Grüninger, Hübener, die Helferinnen und Helfer im Hinterhaus; darunter orange: 1933 bis 1945: Die Mehrheit schaute weg und machte das Unrecht möglich. Unten ein graues Fundament: eine Verfassung und Bürgerinnen und Bürger, die sie verteidigen.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "zuordnung",
+   "id": "k8-zu-glossar",
+   "title": "Begriffe der Reihe",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen",
+    "geschichte.erinnerung.demokratie-schuetzen-begruenden"
+   ],
+   "intro": "Ordne jedem Begriff die passende Erklärung zu. Tippe links und rechts je ein Element an. Wenn du unsicher bist: Das Glossar im nächsten Block hilft.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Gleichschaltung»"
+     },
+     "rechts": {
+      "text": "Länder, Parteien, Vereine, Medien und Jugend werden ab 1933 der Kontrolle der NSDAP unterworfen"
+     }
+    },
+    {
+     "links": {
+      "text": "Ermächtigungsgesetz"
+     },
+     "rechts": {
+      "text": "Gesetz vom März 1933: Die Regierung darf Gesetze ohne das Parlament erlassen"
+     }
+    },
+    {
+     "links": {
+      "text": "Führerprinzip"
+     },
+     "rechts": {
+      "text": "Befehl von oben nach unten, Gehorsam von unten nach oben – an der Spitze entscheidet einer allein, ohne Kontrolle"
+     }
+    },
+    {
+     "links": {
+      "text": "Gestapo"
+     },
+     "rechts": {
+      "text": "Politische Geheimpolizei, die ohne Gericht «Schutzhaft» verhängte und auf Denunziationen baute"
+     }
+    },
+    {
+     "links": {
+      "text": "«Volksgemeinschaft»"
+     },
+     "rechts": {
+      "text": "NS-Versprechen einer Gemeinschaft ohne Klassen – mit Ausschluss aller «Gemeinschaftsfremden»"
+     }
+    },
+    {
+     "links": {
+      "text": "Propaganda"
+     },
+     "rechts": {
+      "text": "Meinungen und Gefühle werden gezielt mit einseitigen, vereinfachenden Botschaften beeinflusst"
+     }
+    },
+    {
+     "links": {
+      "text": "Antisemitismus"
+     },
+     "rechts": {
+      "text": "Judenhass, ursprünglich auf eine angebliche «Rasse» gegründet – im heutigen Sprachgebrauch oft Oberbegriff für jede Form von Judenfeindschaft"
+     }
+    },
+    {
+     "links": {
+      "text": "Pogrom"
+     },
+     "rechts": {
+      "text": "Eine Menge greift eine Minderheit gewaltsam an – mit Plünderung, Brandstiftung und Mord"
+     }
+    },
+    {
+     "links": {
+      "text": "«Arisierung»"
+     },
+     "rechts": {
+      "text": "Jüdische Geschäfte und Häuser müssen weit unter Wert an nichtjüdische Käufer verkauft werden"
+     }
+    },
+    {
+     "links": {
+      "text": "Deportation"
+     },
+     "rechts": {
+      "text": "Zwangsweiser Abtransport von Menschen in Ghettos und Lager im Osten"
+     }
+    },
+    {
+     "links": {
+      "text": "Vernichtungslager"
+     },
+     "rechts": {
+      "text": "Lager, die vor allem dazu dienten, ankommende Menschen möglichst schnell zu ermorden"
+     }
+    },
+    {
+     "links": {
+      "text": "Zivilcourage"
+     },
+     "rechts": {
+      "text": "Mut, Unrecht zu widersprechen und anderen zu helfen – auch gegen die Mehrheit"
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k8-glossar",
+   "title": "Glossar: Begriffe und Abkürzungen der Reihe",
+   "body": "Hier findest du die wichtigen Begriffe und Abkürzungen der acht Module in alphabetischer Reihenfolge. Stichwörter in «…» sind Wörter der Täter oder der NS-Propaganda und zusätzlich mit «Täterbegriff» gekennzeichnet – wir benutzen sie nur mit Anführungszeichen und Erklärung.\n\n| Begriff | Erklärung |\n| --- | --- |\n| **AHS** | Adolf-Hitler-Schulen: ab 1937 von Partei und HJ geführte Internate für Jungen ab 12, ohne Schulgeld, zur Ausbildung einer Führungselite – das Gegenstück der Partei zur staatlichen Napola. |\n| **«Anschluss»** | NS-Wort für die erzwungene Einverleibung Österreichs ins Deutsche Reich: Am 12. März 1938 marschierte die Wehrmacht ein. Das Wort täuscht einen freiwilligen Beitritt vor. Täterbegriff. |\n| **Antijudaismus** | Judenfeindschaft aus religiösen Gründen (seit der Antike, vor allem im Mittelalter): Vorwurf des «Gottesmords», Legenden, Kennzeichnung ab 1215, Pogrome. Die ältere Form der Judenfeindschaft; der rassistische Antisemitismus kam erst im 19. Jahrhundert dazu. |\n| **Antikommunismus** | Feindschaft gegen den Kommunismus; die Nationalsozialisten nannten ihn «Bolschewismus» und stellten ihn zugleich als «jüdisch» dar – so verband sich der Antisemitismus mit der Angst vor einer Revolution. |\n| **Antisemitismus** | Judenhass, der Juden als angebliche «Rasse» definiert (Wort ab 1879). Im engeren Sinn meint das Wort diesen rassistischen Judenhass im Unterschied zum religiösen Antijudaismus; im heutigen Sprachgebrauch steht es oft für jede Form von Judenfeindschaft. |\n| **«Arierparagraf»** | § 3 des Berufsbeamtengesetzes vom 7. April 1933: Entlassung «nicht arischer» Beamter – Vorbild für viele Berufsverbote. Täterbegriff. |\n| **«arisch»** | NS-Wort aus der «Rassenlehre»: Die «Arier» galten als erfundene «Herrenrasse» (vor allem Deutsche und Nordeuropäer). In den Gesetzen hieß «arisch» praktisch «nicht jüdisch». Täterbegriff. |\n| **«Arisierung»** | Erzwungener Verkauf jüdischer Geschäfte, Firmen und Häuser weit unter Wert an nichtjüdische Käufer. Täterbegriff. |\n| **BDM** | Bund Deutscher Mädel: NS-Jugendorganisation für Mädchen von 14 bis 18 Jahren. |\n| **Boykott** | Organisierte Weigerung, bei jemandem zu kaufen – am 1. April 1933 gegen jüdische Geschäfte, Praxen und Kanzleien. |\n| **DAF** | Deutsche Arbeitsfront: NS-Zwangsorganisation, die 1933 die verbotenen Gewerkschaften ersetzte. |\n| **DAP** | Deutsche Arbeiterpartei: kleine Münchner Partei, der Hitler 1919 beitrat; 1920 wurde aus ihr die NSDAP. |\n| **Demokratie** | Herrschaftsform, in der die Macht vom Volk ausgeht und kontrolliert wird: freie Wahlen, Gewaltenteilung, Grundrechte, Opposition. |\n| **Denunziation** | Anzeige von Mitmenschen bei Polizei oder Partei – für die Gestapo eine wichtige Informationsquelle. |\n| **Deportation** | Zwangsweiser Abtransport von Menschen – ab Oktober 1941 aus dem Reich in Ghettos und Lager im Osten. |\n| **«deutschblütig» / «artverwandt»** | NS-Wörter aus der «Rassenlehre» und den Nürnberger Gesetzen: Als «deutschblütig» galt, wer keinen jüdischen Großelternteil hatte. «Artverwandt» nannte das Reichsbürgergesetz Menschen, die das Regime zu einer «verwandten Rasse» zählte, etwa andere Europäer – nicht aber Juden. Nur wer «deutschen oder artverwandten Blutes» war, konnte «Reichsbürger» mit politischen Rechten sein. Täterbegriffe. |\n| **Diktatur** | Herrschaftsform, in der eine Person oder Gruppe unkontrolliert herrscht: keine freien Wahlen, keine Gewaltenteilung, keine Grundrechte. |\n| **DJ** | Deutsches Jungvolk: NS-Jugendorganisation für Jungen von 10 bis 14 Jahren («Pimpfe»). |\n| **DNVP** | Deutschnationale Volkspartei: konservative Partei, mit der die NSDAP ab dem 30. Januar 1933 regierte. |\n| **«Dolchstoßlegende»** | Lüge von 1918/19, das Heer sei im Ersten Weltkrieg von «innen» verraten worden; sie lenkte die Schuld von den Generälen ab und machte Juden zum Sündenbock. Täterbegriff. |\n| **Edelweißpiraten / Swing-Jugend** | Unangepasste Jugendgruppen im NS-Staat: die Edelweißpiraten (Rheinland und Ruhrgebiet; eigene Fahrten und Lieder, Streit mit dem HJ-Streifendienst) und die Swing-Jugend (Hamburg und andere Städte; Jazz, Swing, englische Mode). Die Verfolgung reichte bis zu Jugend-KZ und Hinrichtung. |\n| **Einsatzgruppen** | Mobile Einheiten von SS und Polizei, die ab Juni 1941 hinter der Front Massenerschießungen durchführten – unterstützt von Wehrmachtseinheiten und einheimischen Kollaborateuren. |\n| **Emanzipation** | Schrittweise rechtliche Gleichstellung der Jüdinnen und Juden im 18. und 19. Jahrhundert; im Deutschen Reich 1871 rechtlich vollendet. |\n| **«Endlösung»** | NS-Tarnwort für den Völkermord an den europäischen Juden. Täterbegriff. |\n| **Erinnerungskultur** | Wie eine Gesellschaft Geschichte wachhält: Gedenktag am 27. Januar, Gedenkstätten, Stolpersteine, Zeitzeuginnen und Zeitzeugen, Forschung. |\n| **Ermächtigungsgesetz** | Gesetz vom 23. März 1933: Die Regierung durfte Gesetze ohne Reichstag erlassen – Selbstentmachtung des Parlaments. |\n| **«Euthanasie» / «T4»** | «Euthanasie» (griechisch «schöner Tod») war das NS-Tarnwort für den Mord an Menschen mit Behinderung und psychischen Erkrankungen; «T4» (nach der Berliner Adresse Tiergartenstraße 4) der Deckname der zentralen Mordaktion ab 1939. Bis August 1941 rund 70 000 Ermordete, insgesamt rund 200 000 und mehr. Täterbegriffe. |\n| **Faschismus** | Von Mussolini nach dem Ersten Weltkrieg in Italien begründete Bewegung (1922 Regierungschef nach dem «Marsch auf Rom», ab 1925/26 Diktatur): Führerkult, Gewalt, Nationalismus, Ablehnung der Demokratie. |\n| **Führerprinzip** | Grundsatz des NS-Staates: Befehl von oben nach unten, Gehorsam von unten nach oben. An der Spitze entscheidet der «Führer» allein, auf jeder Ebene setzen von oben eingesetzte «Führer» seine Befehle durch – keine Wahlen, keine Kontrolle, keine Gewaltenteilung. |\n| **Gestapo** | Geheime Staatspolizei: politische Polizei des NS-Staates, verhängte «Schutzhaft» ohne Gericht. |\n| **Gewaltenteilung** | Aufteilung der Staatsmacht auf Parlament, Regierung und Gerichte, die sich gegenseitig kontrollieren. |\n| **Ghetto** | Abgeriegeltes Stadtviertel, in dem Juden leben mussten – erstmals 1516 in Venedig, später ab 1940 im besetzten Polen (Łódź, Warschau). |\n| **«Gleichschaltung»** | Unterwerfung aller Bereiche – Länder, Parteien, Vereine, Medien, Jugend – unter die Kontrolle der NSDAP, ab 1933. Täterbegriff. |\n| **Grundrechte** | Menschenrechte, die in einer Verfassung festgeschrieben sind und den Staat binden: Meinungs-, Presse-, Versammlungsfreiheit, Gleichheit, Schutz der Person. |\n| **«Hilfspolizei»** | Ab dem 22. Februar 1933 durfte die SA in Preußen mit staatlicher Erlaubnis Polizeiaufgaben übernehmen; nach dem Reichstagsbrand wurde sie als Schlägertrupp mit Amtsgewalt massenhaft gegen politische Gegner eingesetzt. Täterbegriff. |\n| **Hitlergruß** | «Heil Hitler!» mit erhobenem Arm; ab 1933 für Beamte Pflicht und im Alltag ein allgegenwärtiges Treuebekenntnis – ein Mittel der Propaganda. |\n| **HJ** | Hitlerjugend: NS-Jugendorganisation für Jungen von 14 bis 18, ab 1936 Staatsjugend, ab März 1939 Pflicht; auch Oberbegriff für die gesamte NS-Jugend (HJ, DJ, BDM, JM). |\n| **Holocaust / Shoah** | Der Völkermord an rund sechs Millionen europäischen Jüdinnen und Juden 1941–1945 (griechisch «vollständig verbrannt» / hebräisch «Katastrophe»). |\n| **Holocaustleugnung** | Behauptung, der Völkermord an den Jüdinnen und Juden habe nicht stattgefunden oder sei stark übertrieben – keine Meinung, sondern eine Lüge über ein bewiesenes Verbrechen; in Liechtenstein, der Schweiz, Österreich und Deutschland strafbar. |\n| **Ideologie** | Geschlossenes Weltbild, das erklärt, wie die Welt angeblich ist und sein soll – und Widerspruch nicht zulässt. |\n| **Indoktrination** | Beeinflussung, die keinen Widerspruch zulässt – etwa in den Heimabenden der HJ. |\n| **J-Stempel** | Roter Buchstabe «J» in den Reisepässen deutscher Juden ab Oktober 1938 – von deutschen Behörden vorgeschlagen, von der Schweiz angenommen und genutzt, um jüdische Flüchtlinge an der Grenze zu erkennen und abzuweisen. |\n| **JM** | Jungmädelbund: NS-Jugendorganisation für Mädchen von 10 bis 14 Jahren. |\n| **«Judenstern»** | Gelber Stern mit der Aufschrift «Jude», den jüdische Menschen im Reich ab September 1941 tragen mussten. Täterbegriff. |\n| **Jugend-KZ** | Lager für Jugendliche, die sich dem Regime nicht fügten: Moringen für Jungen, Uckermark für Mädchen. |\n| **KdF** | «Kraft durch Freude»: Freizeitorganisation der DAF (Reisen, Konzerte, KdF-Wagen) – Werbung für die «Volksgemeinschaft». |\n| **Kindertransporte** | Rettung von rund 10 000 jüdischen Kindern nach Großbritannien, Dezember 1938 bis September 1939. |\n| **Kommunismus** | Ideologie, nach der Fabriken und Land allen gemeinsam gehören und es keine Klassen mehr geben soll. |\n| **Konferenz von Évian** | Treffen von Vertretern aus 32 Staaten im Juli 1938 am Genfersee über die jüdischen Flüchtlinge aus Deutschland und Österreich; fast kein Staat war bereit, mehr Menschen aufzunehmen. |\n| **KPD** | Kommunistische Partei Deutschlands: wurde nach dem Reichstagsbrand 1933 sofort beschuldigt und verfolgt; ihre Abgeordneten waren beim Ermächtigungsgesetz verhaftet oder geflohen. |\n| **KZ** | Konzentrationslager: Haftlager ohne Gerichtsurteil für Terror und Zwangsarbeit (die ersten entstanden schon im März 1933, etwa in Dachau) – nicht dasselbe wie ein Vernichtungslager. |\n| **«Lebensraum»** | NS-Ziel, im Osten (Polen, Sowjetunion) Land zu erobern und die dortige Bevölkerung zu vertreiben, zu versklaven oder zu töten – Begründung des Eroberungskriegs. Täterbegriff. |\n| **Liberalismus** | Politische Richtung, die die Freiheit und die Rechte des Einzelnen an die erste Stelle setzt. |\n| **Machtübernahme** | Neutrale Bezeichnung für Hitlers Weg an die Macht 1933. Die Nationalsozialisten sprachen von «Machtergreifung» (als hätten sie die Macht erkämpft); viele Forschende sagen «Machtübertragung», weil Hitler am 30. Januar 1933 legal ernannt wurde – scheinlegal, denn Terror und Rechtsbruch folgten sofort. |\n| **«Märzgefallene»** | Spottname alter Parteimitglieder für die vielen, die nach der Reichstagswahl im März 1933 in die NSDAP eintraten. |\n| **Menschenrechte** | Rechte, die jedem Menschen allein deshalb zustehen, weil er ein Mensch ist – unabhängig von Herkunft, Religion oder Staatsangehörigkeit; viele davon stehen als Grundrechte in den Verfassungen. |\n| **Minderheitenschutz** | Regel, dass die Mehrheit die Rechte von Minderheiten nicht beschneiden darf – ein Merkmal der Demokratie. |\n| **«Mischling» / «Geltungsjude»** | NS-Kategorien der Verordnung vom 14. November 1935 nach der Religion der Großeltern: zwei jüdische Großeltern «Mischling 1. Grades», ein Großelternteil «Mischling 2. Grades»; wer bei zwei jüdischen Großeltern einer jüdischen Gemeinde angehörte oder mit einem Juden verheiratet war, galt als «Geltungsjude» und wurde wie ein «Jude» behandelt. Täterbegriffe. |\n| **Monarchie / Republik** | Staatsform nach dem Staatsoberhaupt: erblicher Monarch (Monarchie) oder gewähltes Staatsoberhaupt (Republik) – sagt nichts darüber, ob der Staat demokratisch ist. |\n| **«Mutterkreuz»** | Orden für Frauen mit vielen Kindern ab 1938 (Bronze ab vier, Silber ab sechs, Gold ab acht Kindern) – Teil des NS-Frauenbilds von der «deutschen Frau und Mutter». Täterbegriff. |\n| **Napola** | Nationalpolitische Erziehungsanstalt (NPEA): staatliches NS-Internat ab 1933 zur Ausbildung einer Führungselite. |\n| **Novemberpogrome** | Organisierte Gewalt gegen Juden am 9./10. November 1938: Synagogen zerstört, Geschäfte verwüstet, Hunderte Tote, 30 000 Männer in KZ. Der zeitgenössische Begriff «Reichskristallnacht» verharmlost. |\n| **NS** | Kurzform für «nationalsozialistisch» (NS-Staat, NS-Ideologie). «Nazi» war ursprünglich ein spöttischer Kurzname der Gegner. |\n| **NSDAP** | Nationalsozialistische Deutsche Arbeiterpartei: Hitlers Partei, ab Juli 1933 die einzige erlaubte Partei. |\n| **Nürnberger Gesetze** | Drei Gesetze vom 15. September 1935: Reichsbürgergesetz, «Blutschutzgesetz», Reichsflaggengesetz – Juden wurden Bürger zweiter Klasse. |\n| **Pogrom** | Gewaltsamer Angriff einer Menge auf eine Minderheit mit Plünderung, Brandstiftung und Mord (russisch «Verwüstung»). |\n| **«Polenaktion»** | Ende Oktober 1938: Das Regime schob rund 17 000 Juden polnischer Staatsangehörigkeit, die teils seit Jahrzehnten in Deutschland lebten, über Nacht an die polnische Grenze ab; Tausende saßen im Niemandsland fest. Täterbegriff. |\n| **Porajmos** | Romani-Wort für «das Verschlingen»: Name für den Völkermord an bis zu 500 000 Sinti und Roma. Unter Sinti und Roma ist er umstritten, deshalb sagt man auch «Völkermord an den Sinti und Roma». |\n| **Propaganda** | Gezielte Beeinflussung von Meinungen und Gefühlen durch einseitige, vereinfachende Botschaften – im NS-Staat durch Goebbels' Ministerium. |\n| **RAD** | Reichsarbeitsdienst: ab 1935 sechs Monate Pflichtdienst für junge Männer, später auch für Frauen. |\n| **«Rassenhygiene»** | NS-Wort für die Politik, angeblich «erbkranke» Menschen unfruchtbar zu machen (Gesetz vom 14. Juli 1933, rund 400 000 Zwangssterilisationen) und später zu ermorden. Täterbegriff. |\n| **«Rassenlehre»** | Pseudowissenschaftliche NS-Behauptung, die Menschheit zerfalle in «Rassen» unterschiedlichen Werts. Täterbegriff. |\n| **«Rassenschande»** | NS-Propagandawort für Beziehungen zwischen Juden und Nichtjuden, die das «Blutschutzgesetz» 1935 verbot; es folgten Denunziationen, Prozesse, Haft, im Krieg auch Todesurteile. Täterbegriff. |\n| **Rechtsstaat** | Staat, der sich selbst an Gesetze und Grundrechte hält: Niemand wird ohne Gerichtsverfahren bestraft, und auch die Regierung muss sich an die Gesetze halten. |\n| **Reichsstatthalter** | Von Hitler 1933 in die Länder geschickte Statthalter, die die Landesregierungen ersetzten und nach Weisungen von oben regierten – Teil der «Gleichschaltung». |\n| **Reichstagsbrandverordnung** | Notverordnung vom 28. Februar 1933: setzte die Grundrechte «bis auf Weiteres» außer Kraft – Grundlage für «Schutzhaft» und Terror; sie galt bis 1945. |\n| **«Röhm-Putsch»** | NS-Propagandaname für die Ermordung der SA-Führung um Ernst Röhm und weiterer Gegner durch die SS vom 30. Juni bis 2. Juli 1934; einen Putschplan gab es nicht. Danach war die SA entmachtet und die SS stieg auf. Täterbegriff. |\n| **RSHA / SD** | Reichssicherheitshauptamt: ab 1939 die Zentrale von Gestapo, Kriminalpolizei und SD (Sicherheitsdienst der SS, Geheimdienst der Partei) unter Reinhard Heydrich; von dort wurden später auch die Deportationen organisiert. |\n| **SA** | Sturmabteilung: Schlägertruppe der NSDAP in braunen Hemden; nach dem «Röhm-Putsch» (siehe dort) 1934 entmachtet. |\n| **«Schutzhaft»** | Haft ohne Gerichtsurteil, verhängt von Gestapo oder Polizei – oft im KZ. Täterbegriff. |\n| **Sozialdarwinismus** | Übertragung der Idee vom «Überleben des Stärkeren» auf Völker: Kampf und Krieg galten den Nationalsozialisten als Naturgesetz, Mitleid als Schwäche – eine Umdeutung, denn Darwin beschrieb Anpassung in der Natur. |\n| **SPD** | Sozialdemokratische Partei Deutschlands: stimmte am 23. März 1933 als einzige Partei gegen das Ermächtigungsgesetz (Rede von Otto Wels). |\n| **SS** | Schutzstaffel: aus Hitlers Leibwache entstandene Organisation unter Himmler; betrieb die KZ, stellte Gestapo-Führung und Einsatzgruppen, organisierte den Völkermord. |\n| **Stolpersteine** | Kleine Messingtafeln im Gehweg vor den letzten Wohnorten von NS-Opfern, Projekt des Künstlers Gunter Demnig seit den 1990er-Jahren. |\n| **«Sühneleistung»** | Zwangsabgabe von einer Milliarde Reichsmark, die eine Verordnung am 12. November 1938 den jüdischen Opfern der Novemberpogrome auferlegte – sie mussten für Schäden aufkommen, die andere angerichtet hatten. Täterbegriff. |\n| **Sündenbock** | Person oder Gruppe, der man die Schuld an Problemen gibt, die sie nicht verursacht hat. |\n| **Totalitarismus** | Herrschaft, die das ganze Leben der Menschen kontrollieren will – Politik, Arbeit, Freizeit, Denken. Gegensatz: Eine autoritäre Diktatur verlangt nur Gehorsam, eine totalitäre verlangt Begeisterung und will die Menschen ganz erfassen. |\n| **Vernichtungslager** | Lager, die vor allem dazu dienten, ankommende Menschen möglichst schnell zu ermorden: Chełmno, Bełżec, Sobibór und Treblinka allein dazu; Majdanek und Auschwitz-Birkenau waren zugleich KZ mit Zwangsarbeit. |\n| **Verschwörungsmythos** | Erfundene Erzählung, nach der eine geheime Gruppe hinter allem Schlechten steckt – zum Beispiel die gefälschten «Protokolle der Weisen von Zion». |\n| **«Volksempfänger»** | Billiges Radio, das das Regime ab 1933 bauen ließ, damit Hitlers Reden und die Propaganda jeden Haushalt erreichten. Täterbegriff. |\n| **«Volksgemeinschaft»** | NS-Versprechen einer Gemeinschaft ohne Klassen – tatsächlich mit Ausschluss aller «Gemeinschaftsfremden». Täterbegriff. |\n| **Volksgerichtshof** | Sondergericht des NS-Regimes für politische Verfahren, in dem es keine faire Verteidigung gab – es verurteilte zum Beispiel Helmuth Hübener zum Tod. |\n| **Waffen-SS / Totenkopfverbände** | Die Waffen-SS war eine bewaffnete SS-Truppe neben der Wehrmacht; die Totenkopfverbände der SS bewachten und betrieben die Konzentrationslager. |\n| **Wannsee-Konferenz** | Treffen von fünfzehn hohen Beamten und SS-Führern am 20. Januar 1942, das die Durchführung des bereits begonnenen Völkermords koordinierte. |\n| **«Wehrertüchtigung»** | NS-Wort für das militärische Training von Jugendlichen in der HJ – Vorbereitung auf den Krieg, ab 16 mit Schießübungen. Täterbegriff. |\n| **Wehrmacht** | Die Streitkräfte des NS-Staates; bis 1935 hießen sie Reichswehr (das Heer der Republik). Die Soldaten wurden am 2. August 1934 auf Hitler persönlich vereidigt. |\n| **Weiße Rose** | Studentische Widerstandsgruppe um Hans und Sophie Scholl in München, die 1942/43 Flugblätter gegen Regime und Krieg verteilte; die Kerngruppe wurde 1943 hingerichtet. |\n| **Zivilcourage** | Mut, für andere einzustehen und Unrecht zu widersprechen – auch gegen die Mehrheit und trotz möglicher Nachteile. Im Alltag heißt das: hinschauen, widersprechen, helfen, Hilfe holen – ohne sich selbst in Gefahr zu bringen. Unter einer Diktatur konnte solcher Mut die Stelle oder das Leben kosten (Grüninger, Hübener, die Helfenden im Hinterhaus). |"
+  },
+  {
+   "type": "quiz",
+   "id": "k8-gesamtquiz",
+   "title": "Gesamtquiz, Teil 1: Module 1 bis 5",
+   "teilkompetenzen": [
+    "geschichte.staatsformen.systeme-unterscheiden",
+    "geschichte.nationalsozialismus.faschismus-einordnen",
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren",
+    "geschichte.nationalsozialismus.organisationen-zuordnen",
+    "geschichte.nationalsozialismus.terrorsystem-erklaeren",
+    "geschichte.nationalsozialismus.ideologie-beschreiben",
+    "geschichte.methoden.propaganda-analysieren",
+    "geschichte.nationalsozialismus.jugend-erklaeren"
+   ],
+   "intro": "Teil 1 des Gesamtquiz: Fragen aus den ersten fünf Modulen der Reihe. Du kannst das Quiz beliebig oft wiederholen, es zählt dein bestes Ergebnis. Wenn du bei einer Frage unsicher bist, lies im Glossar oder im passenden Modul nach.",
+   "questions": [
+    {
+     "id": "k8-q1",
+     "type": "single_choice",
+     "prompt": "Woran erkennt man, ob ein Staat eine Demokratie ist?",
+     "options": [
+      {
+       "text": "Daran, ob das Staatsoberhaupt ein vom Volk gewählter Präsident oder ein erblicher Monarch ist."
+      },
+      {
+       "text": "Daran, ob die Macht kontrolliert wird: freie Wahlen, Gewaltenteilung, Grundrechte, Opposition.",
+       "correct": true
+      },
+      {
+       "text": "Daran, ob es eine geschriebene Verfassung und ein Parlament mit gewählten Abgeordneten gibt."
+      },
+      {
+       "text": "Daran, ob es nur eine einzige erlaubte Partei gibt, die jede Wahl mit großer Mehrheit gewinnt."
+      }
+     ],
+     "explanation": "Demokratie oder Diktatur ist die Frage nach der Kontrolle der Macht. Ob ein Monarch oder ein Präsident an der Spitze steht, entscheidet nur über Monarchie oder Republik; eine Verfassung und ein Parlament hatte auch der NS-Staat, und eine einzige erlaubte Partei ist gerade kein Zeichen von Demokratie."
+    },
+    {
+     "id": "k8-q2",
+     "type": "single_choice",
+     "prompt": "Wo steht Liechtenstein in der Vierfelder-Matrix aus Staatsoberhaupt und Machtkontrolle?",
+     "options": [
+      {
+       "text": "Republik und Demokratie – weil das Volk wie in der Schweiz über Gesetze abstimmen und den Landtag wählen kann."
+      },
+      {
+       "text": "Monarchie und Diktatur – weil der Fürst als Staatsoberhaupt jedes Gesetz sanktionieren muss und nicht gewählt wird."
+      },
+      {
+       "text": "Republik und Diktatur – weil es nur einen Landtag mit wenigen Abgeordneten und keinen gewählten Präsidenten gibt."
+      },
+      {
+       "text": "Monarchie und Demokratie – weil der Fürst erbt, aber Landtag, Gerichte und Volksabstimmungen seine Macht begrenzen.",
+       "correct": true
+      }
+     ],
+     "explanation": "Liechtenstein ist eine Erbmonarchie und zugleich eine Demokratie: Die Verfassung von 1921 verteilt die Macht auf Fürst, Landtag, Regierung und Gerichte, und das Volk kann Gesetze vorschlagen (Initiative) und über Gesetze abstimmen (Referendum). Dass der Fürst Gesetze sanktionieren muss, macht das Land nicht zur Diktatur: Ohne den gewählten Landtag kommt kein Gesetz zustande. Die Schweiz ist eine Republik."
+    },
+    {
+     "id": "k8-q3",
+     "type": "true_false",
+     "prompt": "Der Faschismus entstand in Italien; Mussolini wurde 1922 nach dem «Marsch auf Rom» Regierungschef.",
+     "answer": true,
+     "explanation": "Richtig. Mussolinis Faschisten drohten im Oktober 1922 mit dem «Marsch auf Rom», worauf der König ihn zum Ministerpräsidenten ernannte. Der Nationalsozialismus übernahm vieles vom Faschismus, stellte aber den rassistischen Antisemitismus ins Zentrum."
+    },
+    {
+     "id": "k8-q4",
+     "type": "single_choice",
+     "prompt": "Was erlaubte das Ermächtigungsgesetz vom 23. März 1933?",
+     "options": [
+      {
+       "text": "Die Regierung durfte Gesetze ohne den Reichstag erlassen – auch solche, die von der Verfassung abwichen.",
+       "correct": true
+      },
+      {
+       "text": "Der Reichspräsident durfte den Reichskanzler ohne Wahl ernennen und jederzeit entlassen – ohne den Reichstag zu fragen."
+      },
+      {
+       "text": "Die SA durfte als Hilfspolizei Verhaftungen vornehmen und eigene Konzentrationslager für politische Gegner einrichten."
+      },
+      {
+       "text": "Die NSDAP durfte als einzige Partei zur Reichstagswahl im November 1933 antreten, die anderen waren verboten."
+      }
+     ],
+     "explanation": "Das Ermächtigungsgesetz war die Selbstentmachtung des Parlaments: Die Regierung bekam das Recht, Gesetze zu erlassen. Die Ernennung des Kanzlers war schon vorher Sache des Reichspräsidenten, die Hilfspolizei beruhte auf anderen Anordnungen, und das Parteienverbot kam im Juli 1933 als eigenes Gesetz."
+    },
+    {
+     "id": "k8-q5",
+     "type": "single_choice",
+     "prompt": "Welche Folge hatte die Reichstagsbrandverordnung vom 28. Februar 1933?",
+     "options": [
+      {
+       "text": "Der Reichstag wurde sofort aufgelöst und bis zum Kriegsende 1945 nie wieder einberufen."
+      },
+      {
+       "text": "Die Feuerwehr wurde der SS unterstellt, um weitere Brandanschläge im ganzen Reich zu verhindern."
+      },
+      {
+       "text": "Die Grundrechte wurden «bis auf Weiteres» außer Kraft gesetzt – Grundlage für «Schutzhaft» und Terror.",
+       "correct": true
+      },
+      {
+       "text": "Alle Kommunisten wurden ausgebürgert und mussten das Land innerhalb einer Woche verlassen."
+      }
+     ],
+     "explanation": "Die Verordnung setzte die Grundrechte der Weimarer Verfassung außer Kraft und ermöglichte Verhaftungen ohne Gericht. Der Reichstag bestand als Scheinparlament weiter. Eine Ausbürgerung und Ausweisung aller Kommunisten war nicht die Folge der Verordnung: Kommunisten und andere Gegner wurden verhaftet und in «Schutzhaft» genommen. Die Feuerwehr wurde nicht der SS unterstellt."
+    },
+    {
+     "id": "k8-q6",
+     "type": "single_choice",
+     "prompt": "Was geschah am 2. August 1934?",
+     "options": [
+      {
+       "text": "Die SS ermordete im sogenannten «Röhm-Putsch» die Führung der SA um Ernst Röhm und viele andere Gegner."
+      },
+      {
+       "text": "Die Regierung erließ das Gesetz gegen die Neubildung von Parteien – die NSDAP wurde die einzige Partei."
+      },
+      {
+       "text": "Reichspräsident Hindenburg ernannte Hitler zum Reichskanzler einer Koalition mit konservativen Ministern."
+      },
+      {
+       "text": "Hindenburg starb; Hitler vereinte die Ämter von Reichspräsident und Kanzler als «Führer und Reichskanzler».",
+       "correct": true
+      }
+     ],
+     "explanation": "Mit Hindenburgs Tod am 2. August 1934 übernahm Hitler auch das Amt des Staatsoberhaupts; die Reichswehr (ab 1935 «Wehrmacht») wurde auf ihn persönlich vereidigt. Der «Röhm-Putsch» war am 30. Juni 1934, das Parteiengesetz im Juli 1933, die Ernennung zum Kanzler am 30. Januar 1933."
+    },
+    {
+     "id": "k8-q7",
+     "type": "single_choice",
+     "prompt": "Was war die Gestapo?",
+     "options": [
+      {
+       "text": "Die Parteiorganisation, die Ferienreisen, Konzerte und Betriebsfeste für Arbeiter organisierte."
+      },
+      {
+       "text": "Die politische Geheimpolizei, die ohne Gericht «Schutzhaft» verhängte und von Denunziationen lebte.",
+       "correct": true
+      },
+      {
+       "text": "Die Schlägertruppe der NSDAP in braunen Uniformhemden, die nach dem «Röhm-Putsch» 1934 entmachtet wurde."
+      },
+      {
+       "text": "Die Jugendorganisation der Partei, in der ab 1939 die Mitgliedschaft für Zehnjährige Pflicht war."
+      }
+     ],
+     "explanation": "Gestapo steht für Geheime Staatspolizei. Ferienreisen organisierte «Kraft durch Freude», die braune Schlägertruppe war die SA, die Jugendorganisation die Hitlerjugend."
+    },
+    {
+     "id": "k8-q8",
+     "type": "single_choice",
+     "prompt": "Welche Organisation betrieb die Konzentrationslager und organisierte den Völkermord?",
+     "options": [
+      {
+       "text": "Die SS unter Heinrich Himmler.",
+       "correct": true
+      },
+      {
+       "text": "Die SA unter Ernst Röhm."
+      },
+      {
+       "text": "Die Deutsche Arbeitsfront."
+      },
+      {
+       "text": "Der Reichsarbeitsdienst."
+      }
+     ],
+     "explanation": "Die SS betrieb mit ihren Totenkopfverbänden die KZ, stellte die Einsatzgruppen und organisierte die Vernichtungslager. Die SA war nach 1934 entmachtet; DAF und RAD waren Arbeits- und Massenorganisationen."
+    },
+    {
+     "id": "k8-q10",
+     "type": "single_choice",
+     "prompt": "Was bedeutete «Volksgemeinschaft» in der NS-Ideologie?",
+     "options": [
+      {
+       "text": "Die Gleichberechtigung aller Menschen, die im Deutschen Reich lebten, unabhängig von Herkunft, Religion und Partei."
+      },
+      {
+       "text": "Eine Gemeinschaft der Arbeiter, in der Fabriken, Banken und Betriebe allen Mitgliedern gemeinsam gehörten."
+      },
+      {
+       "text": "Eine angeblich klassenlose Gemeinschaft aller «Arier» – unter Ausschluss aller, die als «gemeinschaftsfremd» galten.",
+       "correct": true
+      },
+      {
+       "text": "Der freiwillige Zusammenschluss aller Jugendverbände unter der Führung der Hitlerjugend nach dem Gesetz von 1936."
+      }
+     ],
+     "explanation": "Die «Volksgemeinschaft» versprach Zusammenhalt ohne Klassen, bedeutete aber den Ausschluss von Jüdinnen und Juden, politischen Gegnern, Menschen mit Behinderung und vielen anderen. Gleichberechtigung und gemeinsames Eigentum gehörten nicht dazu, und die Jugendverbände wurden nicht freiwillig zusammengeschlossen."
+    },
+    {
+     "id": "k8-q11",
+     "type": "single_choice",
+     "prompt": "Was war das Ziel der Mordaktion «T4»?",
+     "options": [
+      {
+       "text": "Die Ermordung politischer Gegner in den ersten Konzentrationslagern 1933."
+      },
+      {
+       "text": "Die Entlassung jüdischer Beamter aus dem Staatsdienst im Frühjahr 1933."
+      },
+      {
+       "text": "Die Erschießung jüdischer Menschen durch Einsatzgruppen in der Sowjetunion."
+      },
+      {
+       "text": "Die Ermordung von Menschen mit Behinderung und psychischen Erkrankungen.",
+       "correct": true
+      }
+     ],
+     "explanation": "«T4» war die Mordaktion an Menschen mit Behinderung ab 1939, die aus der «Rassenlehre» und dem Sterilisationsgesetz von 1933 folgte. Das Regime stempelte diese Menschen als «lebensunwert» ab – ein Wort der Täter: Kein Mensch ist lebensunwert. Politische Gegner traf das KZ, jüdische Beamte der «Arierparagraf», die Einsatzgruppen mordeten ab 1941 im Osten."
+    },
+    {
+     "id": "k8-q12",
+     "type": "single_choice",
+     "prompt": "Welche Fragen helfen, Propaganda zu analysieren?",
+     "options": [
+      {
+       "text": "Wer spricht? An wen? Mit welchen Gefühlen, Feindbildern und Vereinfachungen? Mit welchem Ziel?",
+       "correct": true
+      },
+      {
+       "text": "Wie teuer war die Produktion? Wie viele Menschen haben die Botschaft gesehen? Wer hat sie bezahlt?"
+      },
+      {
+       "text": "Ist die Botschaft schön gestaltet? Gefällt mir die Musik? Kenne ich die Schauspielerinnen und Schauspieler?"
+      },
+      {
+       "text": "Stimmt die Botschaft mit meiner eigenen Meinung überein? Hat sie in der Sache recht oder nicht?"
+      }
+     ],
+     "explanation": "Das Analyseraster fragt nach Absender, Zielgruppe, Gefühlen, Feindbildern, Vereinfachungen und Ziel. Kosten, Gestaltung oder die eigene Zustimmung sagen nichts darüber, wie eine Botschaft wirkt."
+    },
+    {
+     "id": "k8-q13",
+     "type": "single_choice",
+     "prompt": "Seit wann war die Mitgliedschaft in der Hitlerjugend Pflicht?",
+     "options": [
+      {
+       "text": "Seit der Gründung der Hitlerjugend als Jugendverband der NSDAP im Jahr 1926, also schon vor 1933."
+      },
+      {
+       "text": "Seit der Machtübernahme am 30. Januar 1933, als Hitler Reichskanzler wurde und die Partei an die Macht kam."
+      },
+      {
+       "text": "Seit März 1939, als die Jugenddienstpflicht galt – gut zwei Jahre nach dem HJ-Gesetz von 1936.",
+       "correct": true
+      },
+      {
+       "text": "Erst seit 1943, als die Wehrmacht im Krieg dringend Nachwuchs brauchte und die HJ neue Mitglieder suchte."
+      }
+     ],
+     "explanation": "Das HJ-Gesetz von 1936 machte die Hitlerjugend zur Staatsjugend, die Jugenddienstpflicht vom März 1939 zur Pflicht ab dem zehnten Lebensjahr – also schon vor Kriegsbeginn im September 1939. 1926 und 1933 war der Beitritt freiwillig, wenn auch unter Druck, und 1943 waren längst fast alle Mitglied. Jüdische Jugendliche waren von der Hitlerjugend ausgeschlossen."
+    },
+    {
+     "id": "k8-q14",
+     "type": "single_choice",
+     "prompt": "Welche Erziehungsziele hatte der NS-Staat für Jungen und Mädchen?",
+     "options": [
+      {
+       "text": "Jungen und Mädchen sollten gleichermaßen studieren und in Wissenschaft, Technik und Verwaltung arbeiten."
+      },
+      {
+       "text": "Jungen sollten harte, gehorsame Soldaten werden, Mädchen gesunde Hausfrauen und Mütter vieler Kinder.",
+       "correct": true
+      },
+      {
+       "text": "Jungen sollten Bauern auf eigenem Hof werden, Mädchen Arbeiterinnen in den neuen Rüstungsfabriken."
+      },
+      {
+       "text": "Jungen und Mädchen sollten vor allem selbstständig denken und eigene politische Entscheidungen treffen."
+      }
+     ],
+     "explanation": "Jungen wurden in HJ und Napola auf den Krieg vorbereitet, Mädchen im BDM auf die Rolle der «deutschen Frau und Mutter» – belohnt mit dem «Mutterkreuz». Studium, Bauernhof oder Fabrik waren nicht das Ziel, und selbstständiges Denken war das Gegenteil davon."
+    },
+    {
+     "id": "k8-q15",
+     "type": "true_false",
+     "prompt": "Helmuth Hübener wurde mit 17 Jahren hingerichtet, weil er Nachrichten des britischen Senders BBC auf Flugblättern verbreitete.",
+     "answer": true,
+     "explanation": "Richtig. Der Hamburger Lehrling hörte heimlich die BBC, verteilte die Nachrichten auf Flugblättern und wurde 1942 vom Volksgerichtshof zum Tod verurteilt – einer der jüngsten Menschen, die dieses Gericht hinrichten ließ."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "k8-gesamtquiz-2",
+   "title": "Gesamtquiz, Teil 2: Module 6 bis 8",
+   "teilkompetenzen": [
+    "geschichte.erinnerung.antisemitismus-heute-erkennen",
+    "geschichte.antisemitismus.formen-unterscheiden",
+    "geschichte.antisemitismus.funktion-erklaeren",
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen",
+    "geschichte.erinnerung.demokratie-schuetzen-begruenden",
+    "geschichte.methoden.ereignisse-zeitlich-ordnen"
+   ],
+   "intro": "Teil 2 des Gesamtquiz: Fragen aus den letzten drei Modulen der Reihe und zu den Lehren für heute. Du kannst das Quiz beliebig oft wiederholen, es zählt dein bestes Ergebnis. Wenn du bei einer Frage unsicher bist, lies im Glossar oder im passenden Modul nach.",
+   "questions": [
+    {
+     "id": "k8-q16",
+     "type": "single_choice",
+     "prompt": "Was unterscheidet den rassistischen Antisemitismus vom religiösen Antijudaismus?",
+     "options": [
+      {
+       "text": "Der Antijudaismus war gewalttätig, der Antisemitismus blieb eine Sache von Büchern, Zeitungen und Reden."
+      },
+      {
+       "text": "Der Antijudaismus entstand im 19. Jahrhundert mit der Industrialisierung, der Antisemitismus schon im Mittelalter."
+      },
+      {
+       "text": "Der Antisemitismus richtete sich gegen den Glauben, der Antijudaismus gegen die Abstammung der Betroffenen."
+      },
+      {
+       "text": "Der Antijudaismus richtete sich gegen den Glauben, der Antisemitismus gegen die angebliche «Rasse» – ohne Ausweg.",
+       "correct": true
+      }
+     ],
+     "explanation": "Der religiöse Antijudaismus des Mittelalters ließ zumindest in der Theorie den Ausweg der Taufe; der rassistische Antisemitismus ab 1879 erklärte Juden zur «Rasse», aus der niemand austreten konnte. Beide Formen waren gewalttätig, und die Reihenfolge ist umgekehrt."
+    },
+    {
+     "id": "k8-q17",
+     "type": "single_choice",
+     "prompt": "Was sind die «Protokolle der Weisen von Zion»?",
+     "options": [
+      {
+       "text": "Eine Fälschung, die eine jüdische Weltverschwörung behauptet – bis heute ein Verschwörungsmythos.",
+       "correct": true
+      },
+      {
+       "text": "Die Protokolle der Wannsee-Konferenz, in denen der Völkermord an den europäischen Juden geplant wurde."
+      },
+      {
+       "text": "Ein jüdisches Gebetbuch, das die Nationalsozialisten 1933 verboten und öffentlich verbrannt haben."
+      },
+      {
+       "text": "Die Sitzungsprotokolle des Berner Gerichts, das 1935 über antisemitische Hetzschriften urteilte."
+      }
+     ],
+     "explanation": "Die «Protokolle» sind eine Fälschung vom Anfang des 20. Jahrhunderts, 1921 entlarvt und 1935 in Bern gerichtlich als Fälschung festgestellt. Mit der Wannsee-Konferenz, einem Gebetbuch oder Gerichtsprotokollen haben sie nichts zu tun."
+    },
+    {
+     "id": "k8-q18",
+     "type": "single_choice",
+     "prompt": "Was geschah am 1. April 1933?",
+     "options": [
+      {
+       "text": "Die Nürnberger Gesetze traten in Kraft und machten Juden zu Bürgern zweiter Klasse."
+      },
+      {
+       "text": "Die Synagogen in ganz Deutschland wurden in Brand gesteckt und Geschäfte verwüstet."
+      },
+      {
+       "text": "SA-Posten stellten sich vor jüdische Geschäfte, Praxen und Kanzleien – der Boykott.",
+       "correct": true
+      },
+      {
+       "text": "Jüdische Menschen mussten erstmals den gelben Stern sichtbar auf der Kleidung tragen."
+      }
+     ],
+     "explanation": "Der 1. April 1933 war der Tag des Boykotts jüdischer Geschäfte. Die Nürnberger Gesetze kamen 1935, die Synagogen brannten im November 1938, der «Judenstern» wurde 1941 Pflicht."
+    },
+    {
+     "id": "k8-q19",
+     "type": "single_choice",
+     "prompt": "Was bedeuteten die Nürnberger Gesetze vom 15. September 1935 für jüdische Menschen?",
+     "options": [
+      {
+       "text": "Sie wurden aus dem Deutschen Reich ausgewiesen und verloren die deutsche Staatsangehörigkeit."
+      },
+      {
+       "text": "Sie wurden Bürger zweiter Klasse ohne politische Rechte; Ehen mit Nichtjuden wurden verboten.",
+       "correct": true
+      },
+      {
+       "text": "Sie mussten ihre Geschäfte verkaufen und eine Strafzahlung von einer Milliarde Reichsmark leisten."
+      },
+      {
+       "text": "Sie durften nicht mehr auswandern und wurden in Ghettos und Lager im Osten deportiert."
+      }
+     ],
+     "explanation": "Reichsbürgergesetz und «Blutschutzgesetz» entzogen jüdischen Menschen die politischen Rechte und verboten Ehen mit Nichtjuden; sie blieben Staatsangehörige und wurden durch dieses Gesetz nicht ausgewiesen. Ausplünderung und «Sühneleistung» folgten 1938, Auswanderungsverbot und Deportationen 1941."
+    },
+    {
+     "id": "k8-q20",
+     "type": "single_choice",
+     "prompt": "Was stimmt über die Novemberpogrome vom 9./10. November 1938?",
+     "options": [
+      {
+       "text": "Es war ein spontaner Ausbruch der Volkswut nach dem Attentat von Paris, den die Polizei rasch beendete."
+      },
+      {
+       "text": "Es war ein Aufstand jüdischer Gemeinden gegen die Nürnberger Gesetze, der von der SS niedergeschlagen wurde."
+      },
+      {
+       "text": "Es war ein Streit zwischen SA und SS um die Macht, bei dem versehentlich mehrere Synagogen in Brand gerieten."
+      },
+      {
+       "text": "Es war vom Regime organisierte Gewalt: Synagogen zerstört, Geschäfte verwüstet, Hunderte Tote, 30 000 Männer in KZ.",
+       "correct": true
+      }
+     ],
+     "explanation": "Die Pogrome wurden nach Goebbels' Rede über Partei und SA im ganzen Reich ausgelöst; «spontane Volkswut» war die Propagandalüge. Weder ein jüdischer Aufstand noch ein Streit zwischen SA und SS hat stattgefunden."
+    },
+    {
+     "id": "k8-q21",
+     "type": "single_choice",
+     "prompt": "Welche Rolle spielte die Wannsee-Konferenz vom 20. Januar 1942?",
+     "options": [
+      {
+       "text": "Sie koordinierte die Durchführung des bereits begonnenen Völkermords in ganz Europa.",
+       "correct": true
+      },
+      {
+       "text": "Sie beschloss die Nürnberger Gesetze und die Kennzeichnung durch den gelben Stern."
+      },
+      {
+       "text": "Sie beendete den Krieg gegen die Sowjetunion und die Massenerschießungen der Einsatzgruppen."
+      },
+      {
+       "text": "Sie war ein Treffen der Alliierten, die über die Bestrafung der Täter nach dem Krieg berieten."
+      }
+     ],
+     "explanation": "Die Massenerschießungen liefen seit Juni 1941, die Morde in Chełmno seit Dezember 1941. Die Wannsee-Konferenz organisierte die Durchführung. Die Nürnberger Gesetze stammen von 1935, der «Judenstern» von 1941, und die Konferenz war ein Treffen von Vertretern des NS-Staates, kein Treffen der Alliierten."
+    },
+    {
+     "id": "k8-q22",
+     "type": "true_false",
+     "prompt": "«Konzentrationslager» und «Vernichtungslager» sind zwei Wörter für dasselbe.",
+     "answer": false,
+     "explanation": "Falsch. Ein Konzentrationslager war ein Haftlager für Terror und Zwangsarbeit, in dem ebenfalls massenhaft Menschen starben; ein Vernichtungslager wie Treblinka diente allein der Ermordung der Ankommenden. Auschwitz-Birkenau war beides: KZ mit Zwangsarbeit und Vernichtungslager."
+    },
+    {
+     "id": "k8-q27",
+     "type": "single_choice",
+     "prompt": "Eine erfundene Frau ist selbst getauft, ihre vier Großeltern gehörten aber alle einer jüdischen Gemeinde an. Wie stufte sie die Verordnung vom 14. November 1935 ein?",
+     "options": [
+      {
+       "text": "Als «Jude»: Es zählte die Religion der Großeltern, nicht der eigene Glaube.",
+       "correct": true
+      },
+      {
+       "text": "Als «Mischling 1. Grades», weil sie selbst getauft war und nicht mehr zur Gemeinde gehörte."
+      },
+      {
+       "text": "Als «deutschblütig», weil sie selbst nicht mehr jüdisch war und zur Kirche gehörte."
+      },
+      {
+       "text": "Gar nicht, denn die Regel galt nur für Männer und für Beamte im Staatsdienst."
+      }
+     ],
+     "explanation": "Bei drei oder vier jüdischen Großeltern galt jemand als «Jude», auch nach der Taufe. Das entlarvt die «Rassenlehre»: Gemessen wurde keine Biologie, sondern ein Eintrag in Akten. «Mischling 1. Grades» gab es nur bei zwei jüdischen Großeltern, und die Regel galt für alle Menschen."
+    },
+    {
+     "id": "k8-q26",
+     "type": "single_choice",
+     "prompt": "Die NS-Propaganda machte «die Juden» zugleich für den Kapitalismus und für den Kommunismus verantwortlich. Was zeigt dieser Widerspruch?",
+     "options": [
+      {
+       "text": "Kapitalismus und Kommunismus sind im Grunde dasselbe Wirtschaftssystem, deshalb passte die Behauptung zu beiden."
+      },
+      {
+       "text": "Die Propaganda hatte sich geirrt und nahm die Behauptung nach der Machtübernahme 1933 öffentlich zurück."
+      },
+      {
+       "text": "Die Nationalsozialisten bekämpften beide Systeme gleich stark und hatten deshalb für beide denselben Gegner."
+      },
+      {
+       "text": "Das Feindbild beruhte nicht auf Tatsachen: Es brauchte einen Sündenbock, der für jedes Problem passte, auch für Gegensätze.",
+       "correct": true
+      }
+     ],
+     "explanation": "Kapitalismus (Privateigentum an Fabriken und Banken) und Kommunismus (gemeinsamer Besitz) sind Gegensätze. Dieselbe Gruppe für beides verantwortlich zu machen, ist in sich unstimmig und wurde nie belegt: Das Feindbild war ein Sündenbock, keine Beschreibung der Wirklichkeit. Die Propaganda nahm die Behauptung nicht zurück."
+    },
+    {
+     "id": "k8-q28",
+     "type": "single_choice",
+     "prompt": "Welche Reihenfolge der Ereignisse stimmt?",
+     "options": [
+      {
+       "text": "Nürnberger Gesetze – Boykott jüdischer Geschäfte – Wannsee-Konferenz – Novemberpogrome"
+      },
+      {
+       "text": "Boykott jüdischer Geschäfte – Nürnberger Gesetze – Novemberpogrome – Wannsee-Konferenz",
+       "correct": true
+      },
+      {
+       "text": "Novemberpogrome – Nürnberger Gesetze – Boykott jüdischer Geschäfte – Wannsee-Konferenz"
+      },
+      {
+       "text": "Boykott jüdischer Geschäfte – Novemberpogrome – Nürnberger Gesetze – Wannsee-Konferenz"
+      }
+     ],
+     "explanation": "Der Boykott war am 1. April 1933, die Nürnberger Gesetze kamen am 15. September 1935, die Novemberpogrome am 9./10. November 1938 und die Wannsee-Konferenz am 20. Januar 1942 – die Stufen der Verfolgung in dieser Reihenfolge."
+    },
+    {
+     "id": "k8-q9",
+     "type": "true_false",
+     "prompt": "Wer den Holocaust öffentlich leugnet, übt in Liechtenstein, der Schweiz, Österreich und Deutschland nur sein Recht auf freie Meinungsäußerung aus.",
+     "answer": false,
+     "explanation": "Falsch. Die Meinungsfreiheit schützt Meinungen, also Bewertungen, über die man streiten kann – nicht die Behauptung, ein bewiesenes Verbrechen habe nicht stattgefunden. Die Leugnung verhöhnt die Opfer und schürt Hass; deshalb ist sie in diesen Ländern strafbar."
+    },
+    {
+     "id": "k8-q23",
+     "type": "single_choice",
+     "prompt": "Warum ist der 27. Januar ein Gedenktag?",
+     "options": [
+      {
+       "text": "An diesem Tag wurde 1942 auf der Wannsee-Konferenz der Völkermord organisiert."
+      },
+      {
+       "text": "An diesem Tag wurden 1938 die Synagogen in Deutschland zerstört."
+      },
+      {
+       "text": "An diesem Tag befreite die Rote Armee 1945 das Lager Auschwitz-Birkenau.",
+       "correct": true
+      },
+      {
+       "text": "An diesem Tag endete 1945 der Zweite Weltkrieg in Europa."
+      }
+     ],
+     "explanation": "Am 27. Januar 1945 wurde Auschwitz befreit; seit 2005 ist der Tag der internationale Holocaust-Gedenktag. Die Wannsee-Konferenz war am 20. Januar 1942, die Pogrome im November 1938, das Kriegsende in Europa am 8. Mai 1945."
+    },
+    {
+     "id": "k8-q24",
+     "type": "single_choice",
+     "prompt": "Woran erkennt man einen antisemitischen Verschwörungsmythos?",
+     "options": [
+      {
+       "text": "Er nennt immer ausdrücklich das Wort «Jude» und beruft sich offen auf die gefälschten «Protokolle der Weisen von Zion»."
+      },
+      {
+       "text": "Er führt Probleme auf eine geheime Gruppe zurück und greift dabei – offen oder versteckt – alte Bilder über «die Juden» auf.",
+       "correct": true
+      },
+      {
+       "text": "Er kritisiert die Politik eines bestimmten Staates sachlich und nennt dafür Belege, die jeder selbst prüfen kann."
+      },
+      {
+       "text": "Er wird nur von sehr wenigen Menschen geglaubt und verschwindet deshalb nach kurzer Zeit wieder von selbst."
+      }
+     ],
+     "explanation": "Verschwörungsmythen vereinfachen und unterstellen einer Gruppe einen geheimen Willen. Antisemitisch sind sie, wenn sie die alten Bilder von den jüdischen Drahtziehern aufgreifen – oft ohne das Wort «Jude», deshalb ist «immer ausdrücklich» falsch. Sachliche, belegte Kritik ist kein Antisemitismus, und solche Mythen verbreiten sich leider sehr erfolgreich."
+    },
+    {
+     "id": "k8-q25",
+     "type": "single_choice",
+     "prompt": "Was lehrt der Weg von 1933 darüber, was eine Demokratie schützt?",
+     "options": [
+      {
+       "text": "Eine starke Führungsperson, die in Krisen schnell und ohne Kontrolle durch Parlament und Gerichte entscheiden darf."
+      },
+      {
+       "text": "Eine Verfassung, die niemand mehr ändern darf – dann braucht es auch niemanden mehr, der sie verteidigt."
+      },
+      {
+       "text": "Geteilte und kontrollierte Macht, Grundrechte auch in Krisen und für Minderheiten – und Menschen mit Zivilcourage.",
+       "correct": true
+      },
+      {
+       "text": "Der Verzicht auf Grundrechte für alle, solange die Regierung in einer Krise Sicherheit und Ordnung verspricht."
+      }
+     ],
+     "explanation": "Die Weimarer Verfassung war modern und wurde trotzdem mit Gesetzen und Verordnungen ausgehebelt: Das Ermächtigungsgesetz hob die Gewaltenteilung auf, die Reichstagsbrandverordnung setzte die Grundrechte «bis auf Weiteres» außer Kraft. Eine Führungsperson ohne Kontrolle war genau die Gefahr, und der Verzicht auf Grundrechte für ein Sicherheitsversprechen war der erste Schritt in die Diktatur. Keine Verfassung schützt sich selbst: Es braucht Menschen, die hinschauen, widersprechen und helfen."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k8-selbst",
+   "title": "Selbsteinschätzung: Was ich jetzt kann",
+   "body": "Geh die Liste durch und schätze dich ehrlich ein. Schreibe in dein Heft die Nummer jeder Aussage und dazu **sicher**, **unsicher** oder **nachlesen**. Wo du nachlesen kannst, steht unter der Liste. Die Erweitert-Aussagen (20 bis 28) sind freiwillig.\n\n## Basis\n\n1. Ich kann Monarchie und Republik von Demokratie und Diktatur unterscheiden und Liechtenstein in die Vierfelder-Matrix einordnen.\n2. Ich kann erklären, was Totalitarismus und Faschismus bedeuten und was den Nationalsozialismus vom italienischen Faschismus unterscheidet.\n3. Ich kann die Schritte von der Ernennung Hitlers am 30. Januar 1933 bis zum 2. August 1934 (darunter der «Röhm-Putsch») in der richtigen Reihenfolge nennen und erklären, was Reichstagsbrandverordnung und Ermächtigungsgesetz bewirkten.\n4. Ich kann das Führerprinzip und die «Gleichschaltung» erklären.\n5. Ich kann die Abkürzungen NSDAP, SA, SS, Gestapo, HJ, DJ, BDM, JM, DAF, KdF und RAD auflösen, ihre Aufgabe und ihr Erkennungsmerkmal nennen und erklären, welche Rolle SA, SS und Gestapo im Terror spielten und warum Denunziationen so wichtig waren.\n6. Ich kann erklären, was eine Ideologie ist, die Bausteine der NS-Ideologie nennen und erklären, wie aus der «Rassenlehre» Gesetze und Mord wurden.\n7. Ich kann die wichtigsten Propagandamittel nennen und Gründe aufzählen, warum viele Menschen nach 1933 zustimmten, mitmachten oder wegschauten.\n8. Ich kann Propaganda mit dem Analyseraster untersuchen.\n9. Ich kann erklären, wie der NS-Staat die Jugend erfasste und erzog, und Beispiele für Anpassung und Widerstand nennen.\n10. Ich kann erklären, was die Eliteschulen «Napola» und Adolf-Hitler-Schulen sollten, und einen Spielfilm wie «Napola» als Darstellung einordnen.\n11. Ich kann Antijudaismus und Antisemitismus unterscheiden und die «Protokolle der Weisen von Zion» als Fälschung erkennen.\n12. Ich kann erklären, welche Funktion das Feindbild für das Regime hatte, warum es in sich widersprüchlich war (Kapitalismus und Kommunismus zugleich) und wie die Ausgrenzung 1933 begann.\n13. Ich kann Hitlers Antisemitismus einordnen: die Wien-Erzählung aus «Mein Kampf» und den Befund der Forschung (München 1919).\n14. Ich kann die Nürnberger Gesetze und die Abstammungsregel erklären und sagen, warum sie die «Rassenlehre» entlarvt.\n15. Ich kann die Stufen der Verfolgung von 1933 bis 1945 nennen, Ereignisse zuordnen – Boykott, Gesetze, Pogrome, Flucht, «Judenstern», Deportation, Völkermord – und Anne Franks Lebensweg in die Stufen einordnen.\n16. Ich kann das Jahr 1938 beschreiben (Konferenz von Évian, J-Stempel, «Polenaktion», Novemberpogrome, «Sühneleistung», «Arisierung»), erklären, warum «Reichskristallnacht» ein verharmlosender Begriff ist, und Flucht und Rettung an den Kindertransporten und an Paul Grüninger beschreiben.\n17. Ich kann den Unterschied zwischen KZ und Vernichtungslager erklären und die Opfergruppen nennen.\n18. Ich kann heutige Formen von Antisemitismus erkennen und begründen, warum Holocaustleugnung strafbar ist.\n19. Ich kann erklären, was Erinnerungskultur ist und was eine Demokratie schützt.\n\n## Erweitert\n\n20. Ich kann einordnen, warum Forschende darüber streiten, ob der Nationalsozialismus «Faschismus» ist.\n21. Ich kann begründen, warum die Machtübernahme nur scheinbar legal war, und die Begriffe «Machtergreifung» und «Machtübertragung» einordnen.\n22. Ich kann die Hintergründe von KZ, KdF-Wagen, RSHA und dem Wort «Nazi» erklären.\n23. Ich kann Hitlers Propagandaprinzipien analysieren und Propagandatechniken heute erkennen.\n24. Ich kann erklären, warum Rauschnings «Gespräche mit Hitler» keine verlässliche Quelle sind.\n25. Ich kann die Weiße Rose als Beispiel studentischen Widerstands einordnen.\n26. Ich kann am «Arierparagrafen» begründen, warum die Vorstellung einer «jüdischen Rasse» Taufe und Anpassung als Ausweg wertlos machte.\n27. Ich kann einen Gesetzestext in Alltagssprache übersetzen, einen Zeitungsartikel über die Pogrome schreiben und die Rollen Täter, Mitläufer, Zuschauer, Helfer und Opfer analysieren.\n28. Ich kann eine Recherche zu einem Stolperstein oder Erinnerungsort planen.\n\n## Wo kannst du nachlesen?\n\n- Aussagen 1, 2, 20: [[modul:nationalsozialismus-staatsformen-faschismus]]\n- Aussagen 3, 4, 21: [[modul:nationalsozialismus-machtuebernahme-1933]]\n- Aussagen 5, 22: [[modul:nationalsozialismus-organisationen]]\n- Aussagen 6, 7, 8, 23: [[modul:nationalsozialismus-ideologie-propaganda]]\n- Aussagen 9, 10, 24, 25: [[modul:nationalsozialismus-jugend]]\n- Aussagen 11, 12, 13, 26: [[modul:nationalsozialismus-antisemitismus-ausgrenzung]]\n- Aussagen 14, 15, 16, 17, 27: [[modul:nationalsozialismus-judenverfolgung-holocaust]]\n- Aussagen 18, 19, 28: in den Abschnitten «Erkennen», «Erinnern» und «Schützen» weiter oben in diesem Modul\n\nWenn du bei mehr als drei der Aussagen 1 bis 19 «nachlesen» notiert hast, lohnt sich ein zweiter Durchgang durch das jeweilige Modul – die beiden Teile des Gesamtquiz kannst du danach wiederholen."
+  },
+  {
+   "type": "tasks",
+   "id": "k8-tasks",
+   "title": "Abschluss: Zivilcourage, Leugnung, Recherche",
+   "teilkompetenzen": [
+    "geschichte.erinnerung.antisemitismus-heute-erkennen",
+    "geschichte.erinnerung.demokratie-schuetzen-begruenden"
+   ],
+   "intro": "Deine Antworten gehen an deine Lehrperson. Aufgaben 1 und 2 sind für alle gedacht, Aufgabe 3 ist als **(Erweitert)** gekennzeichnet.",
+   "tasks": [
+    {
+     "id": "k8-t1",
+     "prompt": "Beschreibe in zwei bis fünf Sätzen eine Situation aus deinem Alltag – Schule, Verein, Klassenchat, Bushaltestelle –, in der Zivilcourage gefragt wäre: Jemand wird ausgegrenzt oder verspottet – wegen seiner Herkunft, seiner Religion oder weil er anders ist. Die Situation darf ausgedacht sein; nenne keine Namen. Was könntest du konkret tun, ohne dich selbst in Gefahr zu bringen?",
+     "hint": "Zivilcourage im Alltag heißt nicht Heldentum. Möglichkeiten: hinschauen statt wegschauen, den Betroffenen ansprechen, laut widersprechen («Das finde ich nicht okay»), andere dazuholen, einen Erwachsenen informieren, später nachfragen, wie es der Person geht. Bei Gewalt oder Bedrohung gehst du nicht dazwischen, sondern holst Hilfe: Erwachsene ansprechen oder die Polizei rufen.",
+     "solution": "Beispielantwort: Im Klassenchat teilt jemand ein Meme, das sich über die Religion eines Mitschülers lustig macht, und mehrere lachen mit. Ich könnte als Erstes nicht mitlachen und schreiben, dass ich das nicht in Ordnung finde – oft reicht ein Einzelner, damit andere sich trauen. Dann würde ich dem Mitschüler privat schreiben, dass ich das gesehen habe und auf seiner Seite bin. Wenn es weitergeht, hole ich die Klassenlehrerin dazu. (Gut ist jede Antwort mit einer konkreten Situation und mindestens zwei realistischen Handlungen.)"
+    },
+    {
+     "id": "k8-t2",
+     "prompt": "Jemand sagt: «In einer Demokratie darf man alles sagen – auch, dass der Holocaust übertrieben ist. Das Verbot ist Zensur.» Antworte in drei bis fünf Sätzen: Warum ist Holocaustleugnung keine Meinung, und warum verbieten Liechtenstein, die Schweiz, Österreich und Deutschland sie trotz Meinungsfreiheit?",
+     "hint": "Unterscheide Meinung (eine Bewertung, über die man streiten kann) und Tatsachenbehauptung (etwas, das wahr oder falsch ist). Der Holocaust ist durch Dokumente, Täteraussagen, Zeugen und Lager bewiesen. Was tut die Leugnung den Überlebenden und ihren Familien an? Was schreibt der Text oben darüber, wozu sie dient? Und: Was bedeutete Zensur in einer Diktatur – vorher prüfen, was gesagt werden darf – im Unterschied zu einer Strafe, die erst nachträglich auf eine Äußerung folgt?",
+     "solution": "Beispielantwort: Meinungsfreiheit schützt Meinungen – Bewertungen, über die man streiten kann –, nicht die Behauptung, ein bewiesenes Verbrechen habe nicht stattgefunden. Der Holocaust ist durch Akten, Täteraussagen, Überlebende und die Lager selbst belegt; wer ihn öffentlich leugnet oder kleinredet, verbreitet eine Lüge, die die Opfer und ihre Familien verhöhnt, und sie dient oft dazu, die Ideologie dahinter wieder salonfähig zu machen. Deshalb ziehen diese vier Länder hier eine Grenze – nicht gegen Meinungen, sondern gegen Hass, der sich als Meinung tarnt. Das ist auch keine Zensur wie in einer Diktatur: Niemand prüft vorher, was gesagt werden darf; bestraft wird erst nachträglich eine öffentliche Äußerung, ähnlich wie bei einer Verleumdung."
+    },
+    {
+     "id": "k8-t3",
+     "prompt": "(Erweitert) Plane eine Recherche zu einem Erinnerungsort in deiner Nähe – einem Stolperstein in Vaduz, in der Schweiz oder in Vorarlberg, dem Jüdischen Museum Hohenems, einem Flüchtlingsschicksal an der Liechtensteiner Grenze 1938 oder einem Bericht der Liechtensteiner Historikerkommission. Schreibe in fünf bis acht Sätzen: Welche Leitfrage stellst du? Welche drei Quellen würdest du nutzen (Archiv, Gedenkstätte, Datenbank, Zeitzeugenbericht, Zeitung)? Wie prüfst du, ob eine Quelle verlässlich ist? Und wie würdest du das Ergebnis der Klasse präsentieren?",
+     "hint": "Eine gute Leitfrage ist konkret: «Was geschah mit der Familie X aus Y?» statt «Wie war der Nationalsozialismus?». Zur Verlässlichkeit: Wer hat die Quelle wann und warum erstellt? Stimmt sie mit anderen Quellen überein? (Die vier Prüffragen kennst du aus [[modul:nationalsozialismus-jugend]]: Wer berichtet? Wann wurde es aufgeschrieben? Warum wurde es veröffentlicht? Was sagt die Forschung heute dazu?)",
+     "solution": "Beispielantwort: Meine Leitfrage lautet: Was geschah 1938 mit jüdischen Flüchtlingen, die über den Rhein von Vorarlberg in die Schweiz oder nach Liechtenstein gelangen wollten? Als Quellen würde ich den Schlussbericht der Liechtensteiner Historikerkommission, die Datenbank und Ausstellung des Jüdischen Museums Hohenems und Zeitungsberichte aus dem Herbst 1938 nutzen, dazu wenn möglich einen aufgezeichneten Zeitzeugenbericht. Jede Quelle prüfe ich mit den Fragen: Wer hat sie wann und mit welcher Absicht erstellt, und was sagt die Forschung dazu? Zeitungen von 1938 lese ich als Stimme ihrer Zeit, nicht als neutrale Wahrheit. Das Ergebnis würde ich als kurze Präsentation mit einer Karte des Grenzabschnitts und einer Biografie vorstellen – damit aus der Zahl der Flüchtlinge ein Gesicht wird."
+    }
+   ]
+  }
+ ]
+}

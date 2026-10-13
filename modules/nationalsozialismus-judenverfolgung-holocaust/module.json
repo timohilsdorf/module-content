@@ -1,0 +1,2380 @@
+{
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-judenverfolgung-holocaust",
+ "title": "Stufe für Stufe: Von der Entrechtung zum Völkermord 1935–1945",
+ "description": "Wie wurde aus Ausgrenzung Völkermord? Du lernst, was die Nürnberger Gesetze von 1935 bestimmten und nach welcher Regel Menschen zu «Juden» erklärt wurden, was 1938 mit den Novemberpogromen geschah, wie Flucht und Rettung aussahen – und wie das Regime ab 1941 den Mord an den europäischen Juden organisierte. Eine Stufentreppe hilft dir, die Ereignisse zu ordnen.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "de",
+ "sequenz": 7,
+ "einheit": "Nationalsozialismus – Diktatur, Verfolgung, Erinnerung",
+ "requires": [
+  "nationalsozialismus-antisemitismus-ausgrenzung"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "Nürnberger Gesetze",
+  "Novemberpogrome",
+  "Holocaust",
+  "Shoah",
+  "Judenstern",
+  "Deportation",
+  "Wannsee-Konferenz",
+  "Auschwitz",
+  "Kindertransporte",
+  "Paul Grüninger",
+  "Anne Frank",
+  "Nationalsozialismus"
+ ],
+ "learningObjectives": [
+  "Ich kann die drei Nürnberger Gesetze vom 15. September 1935 nennen und erklären, was Reichsbürgergesetz und «Blutschutzgesetz» für jüdische Menschen bedeuteten.",
+  "Ich kann die Abstammungsregel der NS-Behörden (Religion der Großeltern) auf Fallbeispiele anwenden und erklären, warum sie die «Rassenlehre» als unwissenschaftlich entlarvt.",
+  "Ich kann das Jahr 1938 beschreiben: «Anschluss» Österreichs, Konferenz von Évian, J-Stempel, «Polenaktion», Novemberpogrome, «Sühneleistung» und «Arisierung».",
+  "Ich kann erklären, warum «Reichskristallnacht» ein verharmlosender Begriff ist, und Flucht und Rettung an Kindertransporten und Paul Grüninger beschreiben – auch in einer Kurzmeldung aus Schweizer oder Liechtensteiner Sicht.",
+  "Ich kann den Weg von 1939 bis 1945 sachlich benennen: «Judenstern», Ghettos, Deportationen, Einsatzgruppen, Wannsee-Konferenz, Vernichtungslager, die Bilanz von rund sechs Millionen Ermordeten und die weiteren Opfergruppen – und den Unterschied zwischen KZ und Vernichtungslager erklären.",
+  "Ich kann Ereignisse der richtigen Stufe der Verfolgung und der richtigen Zeit zuordnen und Anne Franks Lebensweg in die Stufen einordnen.",
+  "(Erweitert) Ich kann einen Gesetzestext in Alltagssprache übersetzen, einen Zeitungsartikel über die Pogrome schreiben und die Rollen Täter, Mitläufer, Zuschauer, Helfer und Opfer analysieren."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Reichsgesetzblatt 1935 I, S. 1146–1148 (Nürnberger Gesetze) und S. 1333 (Erste Verordnung zum Reichsbürgergesetz)"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Nationalsozialismus und Zweiter Weltkrieg",
+   "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Judenverfolgung (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/ns-regime"
+  },
+  {
+   "title": "Gedenk- und Bildungsstätte Haus der Wannsee-Konferenz",
+   "url": "https://www.ghwk.de"
+  },
+  {
+   "title": "Yad Vashem – Internationale Holocaust-Gedenkstätte",
+   "url": "https://www.yadvashem.org"
+  },
+  {
+   "title": "Anne Frank Haus Amsterdam: Anne Franks Lebensgeschichte",
+   "url": "https://www.annefrank.org/de/"
+  },
+  {
+   "title": "Paul-Grüninger-Stiftung, St. Gallen",
+   "url": "https://www.paul-grueninger.ch"
+  },
+  {
+   "title": "Historisches Lexikon der Schweiz: J-Stempel",
+   "url": "https://hls-dhs-dss.ch/de/articles/049159/"
+  },
+  {
+   "title": "Historisches Lexikon des Fürstentums Liechtenstein: Flüchtlinge",
+   "url": "https://historisches-lexikon.li"
+  },
+  {
+   "title": "Unabhängige Historikerkommission Liechtenstein Zweiter Weltkrieg: Schlussbericht (2005)",
+   "url": "https://www.e-archiv.li"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Der Holocaust: Völkermord an den europäischen Juden",
+   "url": "https://www.youtube.com/watch?v=pFo2kXMqa98"
+  },
+  {
+   "title": "Video: Terra X History (ZDF) – November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?",
+   "url": "https://www.youtube.com/watch?v=VRMf5G5YXdo"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k7-einstieg",
+   "title": "Vom Gesetz zum Völkermord",
+   "body": "In [[modul:nationalsozialismus-antisemitismus-ausgrenzung]] hast du gesehen, wie die Ausgrenzung 1933 begann: Boykott, Berufsverbote, Demütigung auf der Straße. Noch fehlte ein Gesetz, das jüdische Menschen offiziell zu Bürgern zweiter Klasse machte. Das kam im September 1935. Von da an führte ein Weg über Gewalt, Ausplünderung, Vertreibung und Kennzeichnung bis zum Massenmord – nicht in einem Sprung, sondern Stufe für Stufe. Dieses Modul folgt diesem Weg.\n\nEin Hinweis vorweg: Dieses Modul behandelt Verfolgung und Völkermord. Wir bleiben sachlich, verzichten auf Schreckensbilder und erzählen wenigstens von einem Menschen ausführlich, damit aus Zahlen Gesichter werden. Wenn dich etwas belastet, sprich mit deiner Lehrperson darüber – das ist kein Zeichen von Schwäche, sondern die richtige Reaktion.\n\nDu brauchst für dieses Modul etwa zwei Lektionen. Ein guter Schnitt liegt nach den Aufgaben zum Jahr 1938."
+  },
+  {
+   "type": "text",
+   "id": "k7-nuernberg",
+   "title": "15. September 1935: Die Nürnberger Gesetze",
+   "body": "Im September 1935 tagte in Nürnberg der Reichsparteitag der NSDAP. Dorthin wurde auch der Reichstag bestellt – jenes Parlament, in dem seit der Wahl vom November 1933 fast nur noch Abgeordnete der NSDAP saßen; die anderen Parteien waren 1933 verboten oder aufgelöst worden ([[modul:nationalsozialismus-machtuebernahme-1933]]). Am 15. September beschloss er einstimmig drei Gesetze, die als **Nürnberger Gesetze** bekannt wurden:\n\n## 1. Das Reichsbürgergesetz\n\nEs unterschied zwei Klassen von Menschen: **«Staatsangehörige»** und **«Reichsbürger»**. Politische Rechte – wählen, ein öffentliches Amt ausüben – sollten nur noch Reichsbürger haben, und das konnte nur sein, wer «deutschen oder artverwandten Blutes» war:\n\n> «Reichsbürger ist nur der Staatsangehörige deutschen oder artverwandten Blutes, der durch sein Verhalten beweist, daß er gewillt und geeignet ist, in Treue dem Deutschen Volk und Reich zu dienen.»\n>\n> — Reichsbürgergesetz, 15. September 1935, § 2\n\n«Artverwandt» ist NS-Sprache aus der «Rassenlehre»: Gemeint waren Menschen, die das Regime zu einer «verwandten Rasse» zählte, etwa andere Europäer – nicht aber Juden. Jüdische Menschen wurden damit zu **Bürgern zweiter Klasse**: Sie blieben Staatsangehörige mit Pflichten, aber ohne politische Rechte.\n\n## 2. Das «Gesetz zum Schutze des deutschen Blutes und der deutschen Ehre»\n\nDieses Gesetz, kurz **«Blutschutzgesetz»** genannt, griff in das Privatleben ein:\n\n> «§ 1 Eheschließungen zwischen Juden und Staatsangehörigen deutschen oder artverwandten Blutes sind verboten. Trotzdem geschlossene Ehen sind nichtig […].\n>\n> § 2 Außerehelicher Verkehr zwischen Juden und Staatsangehörigen deutschen oder artverwandten Blutes ist verboten.»\n>\n> — «Blutschutzgesetz», 15. September 1935\n\n«Nichtig» ist Juristensprache: Die Ehe zählt rechtlich so, als hätte es sie nie gegeben. § 3 verbot Juden, nichtjüdische weibliche Hausangestellte unter 45 Jahren zu beschäftigen; § 4 verbot ihnen, die Reichsflagge zu hissen; § 5 drohte Zuchthaus (eine besonders harte Form der Gefängnisstrafe) und Gefängnis an. Beziehungen zwischen Juden und Nichtjuden nannte die NS-Propaganda **«Rassenschande»** – ein Täterwort, das aus Liebe ein Verbrechen machte. Es folgten Denunziationen (Anzeigen aus der Nachbarschaft), Prozesse und Haftstrafen, im Krieg auch Todesurteile. Bestraft wurde nach § 2 nur der Mann; Frauen wurden als Zeuginnen vorgeführt und öffentlich gedemütigt.\n\n## 3. Das Reichsflaggengesetz\n\nEs erklärte die Hakenkreuzfahne der Partei zur Reichs- und Nationalflagge. Damit war das Symbol der NSDAP das Symbol des Staates.\n\n## Warum diese Gesetze so wichtig waren\n\nBis dahin war die Ausgrenzung oft «von unten» gekommen: SA-Posten, Vereinsbeschlüsse, Gewalt auf der Straße. Gesetze gab es nur für einzelne Bereiche, etwa für Beamte sowie für Schulen und Hochschulen. Jetzt traf das Gesetz alle jüdischen Menschen im Reich: Sie verloren ihre politischen Rechte, und Ehe und Beziehungen mit Nichtjuden wurden verboten. Die Diskriminierung stand nun als Grundsatz im Gesetzblatt. Verfolgung sah damit **«legal»** und geordnet aus – Beamte, Richter, Standesbeamte (die Beamten, die Ehen schließen) wandten einfach Gesetze an. Und die Gesetze wurden zur Grundlage für alles, was folgte: Wer als «Jude» galt, konnte später enteignet, gekennzeichnet und deportiert werden.\n\n> **Merke:** Die Nürnberger Gesetze machten jüdische Menschen zu Bürgern zweiter Klasse (Reichsbürgergesetz) und verboten ihnen Ehe und Beziehungen mit Nichtjuden («Blutschutzgesetz»). Diskriminierung wurde für alle jüdischen Menschen zum Gesetz – und damit scheinbar «normal»."
+  },
+  {
+   "type": "text",
+   "id": "k7-regel",
+   "title": "Wer galt als «Jude»? Eine Regel, die die «Rassenlehre» entlarvt",
+   "body": "Die Gesetze sprachen von «Blut» – aber wie sollte ein Beamter «Blut» prüfen? Es gab kein Merkmal, keinen Test, nichts. Also griff das Regime zu dem Einzigen, was in Akten stand: der **Religion**. Die Erste Verordnung zum Reichsbürgergesetz vom 14. November 1935 legte fest, dass die **Großeltern** zählen – genauer: ob sie einer jüdischen Gemeinde angehört hatten.\n\n- **Drei oder vier** jüdische Großeltern: Die Person galt als **«Jude»** – ganz gleich, ob sie selbst getauft war, zu welcher Religion sie sich bekannte oder ob sie überhaupt an etwas glaubte.\n- **Zwei** jüdische Großeltern: **«Mischling 1. Grades»** – mit Sonderregeln, zum Beispiel einer Genehmigungspflicht für die Ehe mit «Deutschblütigen». Wer aber selbst Mitglied einer jüdischen Gemeinde war oder mit einem jüdischen Menschen verheiratet war, galt als **«Geltungsjude»** und wurde wie ein «Jude» behandelt.\n- **Ein** jüdischer Großelternteil: **«Mischling 2. Grades»** – benachteiligt, aber nicht wie «Juden» behandelt.\n- **Keine** jüdischen Großeltern: **«deutschblütig»**.\n\nAlle diese Begriffe sind Täterwörter – sie gehören in Anführungszeichen. Das Schaubild unten zeigt die Regel im Überblick.\n\n## Was die Regel verrät\n\nDenk einen Moment darüber nach: Die Nationalsozialisten behaupteten, Juden seien eine «Rasse» mit vererbten Eigenschaften (siehe [[modul:nationalsozialismus-ideologie-propaganda]]). Hätte es diese «Rasse» gegeben, hätte man sie biologisch feststellen müssen. Stattdessen zählte man, in welcher Religionsgemeinschaft die Großeltern eingetragen waren – ein Glaube, den man annehmen und ablegen kann. Die Regel beweist also selbst, dass die «Rassenlehre» nichts Biologisches maß. Sie war ein Vorwand.\n\nFür die Betroffenen war das kein Trost. Menschen, die sich als Christen, als Deutsche, als ganz normale Nachbarn gefühlt hatten, wurden per Verordnung zu «Juden» erklärt – auch Kinder, die in der Schule am Morgengebet teilgenommen hatten, oder Soldaten mit Kriegsauszeichnungen. Die Ausnahme für jüdische Frontkämpfer des Ersten Weltkriegs (das **«Frontkämpferprivileg»**, das 1933 noch im «Arierparagrafen» gestanden hatte) fiel 1935 weg.\n\n> **Merke:** «Jude» war in den Nürnberger Gesetzen eine Behördenkategorie, die sich nach der Religionszugehörigkeit der Großeltern richtete. Bei drei oder vier jüdischen Großeltern spielte der eigene Glaube keine Rolle; nur bei zwei Großeltern kam es zusätzlich auf die eigene Gemeindemitgliedschaft oder die Ehe an. Genau das entlarvt die «Rassenlehre» als unwissenschaftlich."
+  },
+  {
+   "type": "schaubild",
+   "id": "k7-abstammung",
+   "title": "Das Abstammungsschema der Nürnberger Gesetze",
+   "szene": {
+    "elemente": [
+     {
+      "id": "a-titel",
+      "x": 20,
+      "y": 0,
+      "width": 1099,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "Wer galt als «Jude»? Die Regel der NS-Behörden (Verordnung vom 14. November 1935)",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-untertitel",
+      "x": 20,
+      "y": 38,
+      "width": 1031,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "Gezählt wurde die Religionszugehörigkeit der vier Großeltern (dunkler Kreis = Mitglied einer jüdischen Gemeinde) –\nnicht das Aussehen, bei drei oder vier jüdischen Großeltern auch nicht der eigene Glaube",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-kopf1",
+      "x": 20,
+      "y": 100,
+      "width": 94,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "text",
+      "text": "Großeltern",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-kopf2",
+      "x": 420,
+      "y": 100,
+      "width": 111,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "text",
+      "text": "NS-Kategorie",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-kopf3",
+      "x": 720,
+      "y": 100,
+      "width": 60,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "text",
+      "text": "Folgen",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z0",
+      "x": 20,
+      "y": 140,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "rectangle"
+     },
+     {
+      "id": "z0-g0",
+      "x": 40,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-g1",
+      "x": 110,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-g2",
+      "x": 180,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-g3",
+      "x": 250,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-n",
+      "x": 330,
+      "y": 180,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "text",
+      "text": "4 von 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z0-k",
+      "x": 420,
+      "y": 150,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "rectangle"
+     },
+     {
+      "id": "z0-k-t",
+      "x": 430,
+      "y": 183,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "text",
+      "text": "«Jude»",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z0-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z0-f",
+      "x": 720,
+      "y": 150,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "rectangle"
+     },
+     {
+      "id": "z0-f-t",
+      "x": 730,
+      "y": 165.5,
+      "width": 500,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "text",
+      "text": "kein Wahlrecht, keine öffentlichen Ämter,\nEheverbot mit «Deutschblütigen»;\nab 1938 Ausplünderung, ab 1941 Deportation",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z0-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z1",
+      "x": 20,
+      "y": 258,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "rectangle"
+     },
+     {
+      "id": "z1-g0",
+      "x": 40,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-g1",
+      "x": 110,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-g2",
+      "x": 180,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069395373,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-g3",
+      "x": 250,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1346169768,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-n",
+      "x": 330,
+      "y": 298,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1323890193,
+      "type": "text",
+      "text": "3 von 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z1-k",
+      "x": 420,
+      "y": 268,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1591521450,
+      "type": "rectangle"
+     },
+     {
+      "id": "z1-k-t",
+      "x": 430,
+      "y": 301,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 537279799,
+      "type": "text",
+      "text": "«Jude»",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z1-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z1-f",
+      "x": 720,
+      "y": 268,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1766705883,
+      "type": "rectangle"
+     },
+     {
+      "id": "z1-f-t",
+      "x": 730,
+      "y": 292.5,
+      "width": 500,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080880862,
+      "type": "text",
+      "text": "wie oben – auch wenn die Person\nchristlich getauft ist",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z1-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z2",
+      "x": 20,
+      "y": 376,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576577607,
+      "type": "rectangle"
+     },
+     {
+      "id": "z2-g0",
+      "x": 40,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 821440179,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-g1",
+      "x": 110,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 94861959,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-g2",
+      "x": 180,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2113293440,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-g3",
+      "x": 250,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 417856261,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-n",
+      "x": 330,
+      "y": 416,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1089207059,
+      "type": "text",
+      "text": "2 von 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z2-k",
+      "x": 420,
+      "y": 386,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 805849935,
+      "type": "rectangle"
+     },
+     {
+      "id": "z2-k-t",
+      "x": 430,
+      "y": 401.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1631777536,
+      "type": "text",
+      "text": "«Mischling 1. Grades»\n(«Geltungsjude», wenn Gemeinde-\nmitglied oder mit Juden verheiratet)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z2-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z2-f",
+      "x": 720,
+      "y": 386,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1938183565,
+      "type": "rectangle"
+     },
+     {
+      "id": "z2-f-t",
+      "x": 730,
+      "y": 401.5,
+      "width": 500,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1370408198,
+      "type": "text",
+      "text": "Heirat mit «Deutschblütigen» nur mit\nGenehmigung (kaum erteilt);\n«Geltungsjuden» wie «Juden» behandelt",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z2-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z3",
+      "x": 20,
+      "y": 494,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 437204082,
+      "type": "rectangle"
+     },
+     {
+      "id": "z3-g0",
+      "x": 40,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1241798878,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-g1",
+      "x": 110,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 380275764,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-g2",
+      "x": 180,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1295217510,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-g3",
+      "x": 250,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1520509309,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-n",
+      "x": 330,
+      "y": 534,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 17810377,
+      "type": "text",
+      "text": "1 von 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z3-k",
+      "x": 420,
+      "y": 504,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 945779009,
+      "type": "rectangle"
+     },
+     {
+      "id": "z3-k-t",
+      "x": 430,
+      "y": 537,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1264780336,
+      "type": "text",
+      "text": "«Mischling 2. Grades»",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z3-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z3-f",
+      "x": 720,
+      "y": 504,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1481419643,
+      "type": "rectangle"
+     },
+     {
+      "id": "z3-f-t",
+      "x": 730,
+      "y": 528.5,
+      "width": 500,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2120640711,
+      "type": "text",
+      "text": "benachteiligt, aber nicht wie «Juden»\nbehandelt; Heirat mit «Deutschblütigen» erlaubt",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z3-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z4",
+      "x": 20,
+      "y": 612,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1466254097,
+      "type": "rectangle"
+     },
+     {
+      "id": "z4-g0",
+      "x": 40,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1838923326,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-g1",
+      "x": 110,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 965606062,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-g2",
+      "x": 180,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1912353839,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-g3",
+      "x": 250,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1714775159,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-n",
+      "x": 330,
+      "y": 652,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1760014139,
+      "type": "text",
+      "text": "0 von 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z4-k",
+      "x": 420,
+      "y": 622,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2056516517,
+      "type": "rectangle"
+     },
+     {
+      "id": "z4-k-t",
+      "x": 430,
+      "y": 655,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1523989681,
+      "type": "text",
+      "text": "«deutschblütig»",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z4-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z4-f",
+      "x": 720,
+      "y": 622,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 71924448,
+      "type": "rectangle"
+     },
+     {
+      "id": "z4-f-t",
+      "x": 730,
+      "y": 646.5,
+      "width": 500,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 573421136,
+      "type": "text",
+      "text": "volle Rechte als «Reichsbürger» – solange\ndie Person sich dem Regime nicht widersetzte",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z4-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-merk",
+      "x": 20,
+      "y": 740,
+      "width": 1240,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1584618043,
+      "type": "rectangle"
+     },
+     {
+      "id": "a-merk-t",
+      "x": 30,
+      "y": 753.5,
+      "width": 1220,
+      "height": 43,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1371962656,
+      "type": "text",
+      "text": "Die angebliche «Rasse» wurde über die Religion der Großeltern bestimmt.\nDas beweist: Die «Rassenlehre» maß nichts Biologisches – sie war ein Vorwand, um Menschen auszugrenzen.",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "a-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Titel: Wer galt als «Jude»? Die Regel der NS-Behörden (Verordnung vom 14. November 1935). Untertitel: Gezählt wurde die Religionszugehörigkeit der vier Großeltern (dunkler Kreis = Mitglied einer jüdischen Gemeinde), nicht das Aussehen, bei drei oder vier jüdischen Großeltern auch nicht der eigene Glaube. Tabelle mit drei Spalten: Großeltern, NS-Kategorie, Folgen. Fünf Zeilen mit je vier Kreisen. 4 von 4 dunkel: NS-Kategorie «Jude»; Folgen: kein Wahlrecht, keine öffentlichen Ämter, Eheverbot mit «Deutschblütigen», ab 1938 Ausplünderung, ab 1941 Deportation. 3 von 4: NS-Kategorie «Jude»; Folgen wie oben, auch wenn die Person christlich getauft ist. 2 von 4: NS-Kategorie «Mischling 1. Grades» («Geltungsjude», wenn Gemeindemitglied oder mit Juden verheiratet); Folgen: Heirat mit «Deutschblütigen» nur mit Genehmigung, die kaum erteilt wurde; «Geltungsjuden» wurden wie «Juden» behandelt. 1 von 4: NS-Kategorie «Mischling 2. Grades»; Folgen: benachteiligt, aber nicht wie «Juden» behandelt; Heirat mit «Deutschblütigen» erlaubt. 0 von 4: NS-Kategorie «deutschblütig»; Folgen: volle Rechte als «Reichsbürger», solange die Person sich dem Regime nicht widersetzte. Merksatz unten (orange): Die angebliche «Rasse» wurde über die Religion der Großeltern bestimmt. Das beweist: Die «Rassenlehre» maß nichts Biologisches, sie war ein Vorwand, um Menschen auszugrenzen.",
+   "credit": "Eigene Darstellung nach der Ersten Verordnung zum Reichsbürgergesetz, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "zuordnung",
+   "id": "k7-zu-faelle",
+   "title": "Wer galt als was? Fallbeispiele",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren"
+   ],
+   "intro": "Die Personen sind erfunden, die Regel ist echt – wir wenden die Kategorien nur an, um die Willkür der Regel zu durchschauen. Ordne jedem Fall die Kategorie zu, die die NS-Behörden nach der Verordnung vom 14. November 1935 vergeben hätten. Zähle dafür zuerst die jüdischen Großeltern und prüfe dann, ob die Person selbst einer jüdischen Gemeinde angehörte. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "Hanna, 15, evangelisch getauft. Die Eltern ihres Vaters und die Eltern ihrer Mutter gehörten alle einer jüdischen Gemeinde an."
+     },
+     "rechts": {
+      "text": "«Jude» (vier jüdische Großeltern)"
+     }
+    },
+    {
+     "links": {
+      "text": "Josef, 50, Frontkämpfer mit Orden. Beide Großeltern väterlicherseits und der Großvater mütterlicherseits gehörten einer jüdischen Gemeinde an, die Großmutter nicht."
+     },
+     "rechts": {
+      "text": "«Jude» (drei jüdische Großeltern)"
+     }
+    },
+    {
+     "links": {
+      "text": "Paul, 19, ledig. Zwei seiner Großeltern waren Mitglied einer jüdischen Gemeinde, zwei nicht; er selbst gehört keiner jüdischen Gemeinde an."
+     },
+     "rechts": {
+      "text": "«Mischling 1. Grades»"
+     }
+    },
+    {
+     "links": {
+      "text": "Else, 30. Zwei ihrer Großeltern waren Mitglied einer jüdischen Gemeinde; sie selbst ist es auch."
+     },
+     "rechts": {
+      "text": "«Geltungsjude»"
+     }
+    },
+    {
+     "links": {
+      "text": "Walter, 40. Von seinen vier Großeltern war nur der Vater seiner Mutter Mitglied einer jüdischen Gemeinde."
+     },
+     "rechts": {
+      "text": "«Mischling 2. Grades»"
+     }
+    },
+    {
+     "links": {
+      "text": "Martha, 25. Keiner ihrer Großeltern gehörte einer jüdischen Gemeinde an; ihr Freund gilt nach der NS-Regel als «Jude»."
+     },
+     "rechts": {
+      "text": "«deutschblütig»"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "k7-lt-gesetz",
+   "title": "Gesetze übersetzen, Fakten ergänzen",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren"
+   ],
+   "intro": "Übersetze die drei Gesetzesauszüge in Alltagssprache und ergänze danach zwei Fakten: Tippe das fehlende Wort selbst ein. Fachwörter aus dem Gesetzestext zählen dabei nicht – gesucht ist das Alltagswort. Groß-/Kleinschreibung spielt keine Rolle.",
+   "modus": "eingabe",
+   "text": "«Eheschließungen zwischen Juden und Staatsangehörigen deutschen oder artverwandten Blutes sind verboten.» – In Alltagssprache: Juden und Nichtjuden dürfen einander nicht mehr {{1}}.\n«Trotzdem geschlossene Ehen sind nichtig […].» – In Alltagssprache (ohne das Fachwort aus dem Zitat): Eine solche Ehe zählt für den Staat nicht, sie ist {{2}}.\n«Reichsbürger ist nur der Staatsangehörige deutschen oder artverwandten Blutes […].» – In Alltagssprache: Juden verlieren ihre politischen Rechte, zum Beispiel das Recht, bei Wahlen mitzubestimmen – das {{3}}.\nWer drei oder vier jüdische Großeltern hatte, galt als «Jude» – nicht der eigene Glaube entschied, sondern die Religion der {{4}}.\nBeschlossen wurden die drei Gesetze am 15. September 1935 in Nürnberg – einstimmig – vom {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "heiraten",
+      "ehelichen"
+     ]
+    },
+    {
+     "antworten": [
+      "ungültig",
+      "nicht gültig",
+      "unwirksam",
+      "wirkungslos",
+      "null und nichtig",
+      "rechtsungültig",
+      "nicht rechtsgültig",
+      "nicht wirksam",
+      "aufgehoben"
+     ]
+    },
+    {
+     "antworten": [
+      "Wahlrecht",
+      "Stimmrecht",
+      "aktives Wahlrecht",
+      "Recht zu wählen",
+      "Recht, zu wählen"
+     ]
+    },
+    {
+     "antworten": [
+      "Großeltern",
+      "vier Großeltern"
+     ]
+    },
+    {
+     "antworten": [
+      "Reichstag",
+      "Deutschen Reichstag",
+      "Parlament"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k7-tasks-gesetz",
+   "title": "Die Gesetze verstehen",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren"
+   ],
+   "intro": "Zur Auflösung der Fallbeispiele: Auch Martha, die als «deutschblütig» galt, durfte ihren jüdischen Freund nach 1935 nicht mehr heiraten. Deine Antworten gehen an deine Lehrperson. Aufgabe 1 ist für alle gedacht, Aufgabe 2 ist als **(Erweitert)** gekennzeichnet.",
+   "tasks": [
+    {
+     "id": "k7-g1",
+     "prompt": "Ein Paar in Berlin will im Herbst 1935 heiraten; er gilt nach der neuen Regel als «Jude», sie als «deutschblütig». Erkläre in zwei bis vier Sätzen, was die Nürnberger Gesetze für die beiden bedeuteten – rechtlich und im Alltag.",
+     "hint": "Denk an § 1 und § 2 des «Blutschutzgesetzes», an das Wort «Rassenschande» und daran, wer bei einer Anzeige bestraft wurde. Was blieb dem Paar?",
+     "solution": "Beispielantwort: Die Heirat war seit den Nürnberger Gesetzen vom September 1935 verboten; eine trotzdem geschlossene Ehe wäre ungültig gewesen. Auch eine Beziehung ohne Trauschein war nach § 2 strafbar – die Propaganda nannte das «Rassenschande», und schon eine Anzeige aus der Nachbarschaft konnte den Mann ins Gefängnis bringen. Dem Paar blieb nur, sich zu trennen, die Beziehung zu verstecken oder gemeinsam ins Ausland zu gehen – falls ein Land sie aufnahm."
+    },
+    {
+     "id": "k7-g2",
+     "prompt": "(Erweitert) Übersetze § 2 des Reichsbürgergesetzes in deine Alltagssprache (ein bis zwei Sätze): «Reichsbürger ist nur der Staatsangehörige deutschen oder artverwandten Blutes, der durch sein Verhalten beweist, daß er gewillt und geeignet ist, in Treue dem Deutschen Volk und Reich zu dienen.» Erkläre danach in zwei bis drei Sätzen, warum die Abstammungsregel vom 14. November 1935 die «Rassenlehre» als unwissenschaftlich entlarvt.",
+     "hint": "Zwei Bedingungen stecken im Satz: die Abstammung und das «Verhalten». Was bedeutet die zweite Bedingung für Nichtjuden, die dem Regime nicht gefallen? Und: Was zählte die Behörde, wenn sie «Blut» prüfen wollte?",
+     "solution": "Beispielantwort: Volle Bürgerrechte hat nur, wer als «deutschblütig» gilt und durch sein Verhalten zeigt, dass er dem Regime treu dient – Juden sind ausgeschlossen, und auch «Deutschblütige» können ihre Rechte verlieren, wenn sie dem Staat nicht passen. Die Abstammungsregel entlarvt die «Rassenlehre», weil sie kein biologisches Merkmal misst, sondern die Religionszugehörigkeit der Großeltern zählt – ein Glaube ist aber nichts Vererbtes. Wer «Rasse» über die Kirchenbücher und Gemeinderegister bestimmt, zeigt, dass es diese «Rasse» nicht gibt."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k7-1938",
+   "title": "1938: Das Jahr, in dem die Gewalt offen wurde",
+   "body": "## März: Der «Anschluss» Österreichs\n\nAm 12. März 1938 marschierte die Wehrmacht in Österreich ein; das Land wurde unter Zwang dem Deutschen Reich einverleibt (Fachwort: annektiert, also mit Druck und Gewalt in einen anderen Staat eingegliedert). Die Nationalsozialisten nannten das **«Anschluss»** – ein Wort, das einen freiwilligen Beitritt vortäuscht, auch wenn viele Menschen den Einmarsch bejubelten. Für die rund 190 000 österreichischen Jüdinnen und Juden, die meisten in Wien, begann die Verfolgung nicht Stufe für Stufe, sondern auf einen Schlag: Noch in den ersten Tagen zwangen Nationalsozialisten und johlende Nachbarn jüdische Menschen, mit Bürsten die Straßen zu schrubben, plünderten Wohnungen und Geschäfte, verhafteten Tausende. Die Vertreibung begann sofort. Vom Rheinufer in Vorarlberg war die Schweiz zum Greifen nah – doch sie schloss im August 1938 ihre Grenze für Flüchtlinge ohne Visum (eine vorher beantragte Einreiseerlaubnis). Auch Liechtenstein war sehr zurückhaltend: Es erließ nach dem «Anschluss» ein Aufnahmeverbot für Flüchtlinge aus Österreich und wies 1938 mehr Gesuche ab, als es bewilligte.\n\n## Juli: Die Konferenz von Évian\n\nWohin sollten die Vertriebenen? Im Juli 1938 berieten in **Évian** am Genfersee Vertreter von 32 Staaten über die jüdischen Flüchtlinge aus Deutschland und Österreich. Fast alle bedauerten – und fast keiner war bereit, mehr Menschen aufzunehmen. Die NS-Propaganda feierte das: Die Welt wolle «die Juden» offenbar auch nicht.\n\n## Oktober: Der J-Stempel und die «Polenaktion»\n\nAb Oktober 1938 wurden die Reisepässe deutscher Juden mit einem roten **«J»** gestempelt. Die Schweiz wollte zuvor für alle Deutschen eine Visumspflicht einführen; die deutschen Behörden schlugen stattdessen vor, nur die Pässe der Juden zu kennzeichnen. Die Schweiz ging darauf ein und nutzte das «J», um jüdische Flüchtlinge an der Grenze zu erkennen und abzuweisen. Ende Oktober schob das Regime in der **«Polenaktion»** rund 17 000 Juden polnischer Staatsangehörigkeit, die zum Teil seit Jahrzehnten in Deutschland lebten, über Nacht an die polnische Grenze ab. Polen wollte sie nicht einreisen lassen; Tausende saßen im Niemandsland zwischen den Grenzposten fest, bei Kälte und ohne Versorgung.\n\n## November: Der Vorwand\n\nUnter den Abgeschobenen war die Familie des 17-jährigen **Herschel Grynszpan**, der in Paris lebte. Aus Verzweiflung und Wut schoss er am 7. November 1938 in der deutschen Botschaft auf den Diplomaten Ernst vom Rath, der am 9. November starb. Die NS-Führung nutzte die Tat als Vorwand: Noch am Abend des 9. November ließ sie eine reichsweite Gewaltwelle gegen die Juden organisieren und tarnte sie als «spontane Volkswut». Das Ziel, Jüdinnen und Juden aus Wirtschaft und Gesellschaft zu verdrängen, verfolgte sie schon lange – jetzt trieb sie es mit offener Gewalt voran."
+  },
+  {
+   "type": "text",
+   "id": "k7-pogrom",
+   "title": "9./10. November 1938: Die Novemberpogrome",
+   "body": "Am Abend des 9. November 1938 – die NS-Führung war in München versammelt, um an Hitlers gescheiterten Putschversuch vom 9. November 1923 zu erinnern – hielt Joseph Goebbels eine Hetzrede. Über Telefon und Fernschreiber (ein Gerät, das getippte Nachrichten über die Telefonleitung schickte) gingen die Befehle in alle Gaue (die regionalen Bezirke der Partei): SA, SS und Parteimitglieder, meist in Zivil, sollten gegen Juden «losschlagen». Die Propaganda nannte das danach **«spontane Volkswut»**. Es war das Gegenteil: ein **organisierter Pogrom**, ausgelöst von der Staatsführung. Anders als bei den mittelalterlichen Pogromen aus dem letzten Modul steuerte hier der Staat die «Menge».\n\nIn dieser Nacht und am folgenden Tag wurden im ganzen Reich, in Österreich und im Sudetenland (dem im Oktober 1938 besetzten Grenzgebiet der Tschechoslowakei)\n\n- über **1 400 Synagogen und Betstuben** in Brand gesteckt oder zerstört – die Feuerwehr hatte Befehl, nur die Nachbarhäuser zu schützen;\n- rund **7 500 Geschäfte** verwüstet und geplündert, Wohnungen demoliert, Friedhöfe geschändet;\n- Menschen misshandelt und ermordet: Offiziell meldete das Regime **91 Tote**; rechnet man die Folgen der Misshandlungen, die Toten in den Lagern und die Selbsttötungen aus Verzweiflung hinzu, waren es **mehrere Hundert**;\n- rund **30 000 jüdische Männer** verhaftet und in die Konzentrationslager Dachau, Buchenwald und Sachsenhausen verschleppt, wo sie misshandelt wurden. Viele kamen nach Wochen frei – gegen die Zusage, sofort auszuwandern und ihr Eigentum zurückzulassen.\n\nUnd die Nachbarn? Viele schauten zu, manche beteiligten sich oder plünderten mit, einige schämten sich – und wenige halfen, nahmen Verfolgte auf oder versteckten sie. Für die jüdischen Menschen war die Botschaft eindeutig: Es gab in diesem Land keinen Schutz mehr.\n\n## Ein Wort, das lügt\n\nSchon 1938 kam für die Nacht der Name **«Reichskristallnacht»** auf – nach dem zersplitterten Glas der Schaufenster. Das Wort stammt aus der Zeit der Täter und **verharmlost**: Es macht aus Mord, Brandstiftung und Verschleppung ein Geräusch von Glas. Deshalb sprechen Historikerinnen und Historiker heute von den **Novemberpogromen** (das Wort Pogrom kennst du aus dem letzten Modul).\n\n> **Merke:** Die Novemberpogrome 1938 waren keine «Volkswut», sondern vom Regime organisierte Gewalt: Synagogen zerstört, Geschäfte verwüstet, Hunderte Tote, 30 000 Männer in Konzentrationslager. Der Begriff «Reichskristallnacht» verharmlost das."
+  },
+  {
+   "type": "text",
+   "id": "k7-danach",
+   "title": "Nach dem Pogrom: Ausplünderung – und Wege nach draußen",
+   "body": "## Die Opfer sollen zahlen\n\nDas Regime drehte den Spieß um: Nicht die Täter, sondern die Opfer mussten für den Schaden aufkommen. Am 12. November 1938 erlegte eine Verordnung den deutschen Juden eine **«Sühneleistung»** von **einer Milliarde Reichsmark** auf – das Regime begründete sie als «Strafe» für den Tod vom Raths, in Wahrheit war es Raub. Die Versicherungen mussten die Schäden auszahlen, doch das Geld beschlagnahmte der Staat. Am selben Tag erging die Verordnung, die Juden ab dem 1. Januar 1939 verbot, Geschäfte und Handwerksbetriebe zu führen: Sie wurden aus dem Wirtschaftsleben «ausgeschaltet». Was noch nicht verkauft war, wurde jetzt zwangsweise **«arisiert»** (von «arisch», dem NS-Wort für angeblich «deutschblütig») – Betriebe, Häuser, Praxen gingen weit unter Wert an nichtjüdische Käufer ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]] erklärt den Begriff).\n\nAm 15. November 1938 wurden jüdische Kinder von allen öffentlichen Schulen ausgeschlossen. Es folgten Verbote für Kino, Theater, Konzerte, Schwimmbäder, der Entzug des Führerscheins, Ausgangsbeschränkungen. Schritt für Schritt wurde das öffentliche Leben für jüdische Menschen geschlossen.\n\n## Flucht\n\nWer konnte, versuchte jetzt zu fliehen – mit dem «J» im Pass, oft ohne Geld, in eine Welt, die ihre Grenzen schloss. Bis Kriegsbeginn verließen über die Hälfte der deutschen Jüdinnen und Juden das Land. Besonders bekannt sind die **Kindertransporte**: Zwischen Dezember 1938 und September 1939 nahm Großbritannien rund **10 000 jüdische Kinder** aus Deutschland, Österreich und der Tschechoslowakei auf – ohne ihre Eltern. Viele dieser Kinder sahen ihre Eltern nie wieder. Auch Liechtenstein verhängte im Dezember 1938 einen Einreisestopp für Flüchtlinge.\n\n## Ein Retter an der Grenze: Paul Grüninger\n\nDie Schweiz hatte ihre Grenze für Flüchtlinge geschlossen. **Paul Grüninger**, Polizeikommandant des Kantons St. Gallen, hielt sich nicht daran: Er ließ 1938 an der Grenze bei Diepoldsau mehrere Hundert – nach manchen Schätzungen bis zu über 3 000 – jüdische Flüchtlinge einreisen, indem er ihre Papiere auf ein Datum vor der Grenzschließung vordatierte. 1939 wurde er entlassen und später wegen Amtspflichtverletzung verurteilt; er lebte bis zu seinem Tod 1972 in Armut. Erst **1995** hob ein Gericht das Urteil auf und rehabilitierte ihn. Grüninger zeigt: Es gab auch 1938 die Möglichkeit, anders zu handeln – und sie kostete etwas.\n\n> **Merke:** Nach dem Pogrom folgte die Ausplünderung («Sühneleistung», «Arisierung») und der Ausschluss aus Schule und Alltag. Flucht wurde zur einzigen Rettung – Kindertransporte retteten rund 10 000 Kinder, Einzelne wie Paul Grüninger retteten Menschen gegen die Regeln ihres Staates."
+  },
+  {
+   "type": "video",
+   "id": "k7-video-pogrom",
+   "provider": "youtube",
+   "videoId": "VRMf5G5YXdo",
+   "title": "Zusatz (optional): Video «November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?» (7:31)",
+   "description": "Dieses Video von Terra X History (ZDF) ist ein freiwilliges Zusatzangebot – alles, was du für die Aufgaben brauchst, steht in den Texten dieses Moduls. Es enthält historische Film- und Fotoaufnahmen der Zerstörungen, die belasten können; du kannst es jederzeit abbrechen. Wenn du es schaust (Internet nötig, startet erst nach deinem Klick), achte auf zwei Leitfragen: (1) Wie bauten die Nationalsozialisten aus Nachbarn ein «Feindbild» auf – welche Rolle spielten Vorurteile, Sündenbock-Denken und Propaganda? (2) Wie wurde die Tat von Herschel Grynszpan von der Propaganda umgedeutet?",
+   "transcript": "Zusammenfassung des Videos «November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?» (Terra X History, ZDF, Autor Peter Hartl, 7:31) nach der Videobeschreibung: Im November 1938 kommt es in Deutschland zu brutaler Gewalt gegen Juden, dem Pogrom; Synagogen werden angezündet, jüdische Mitbürger verfolgt und angegriffen. Das Video fragt, wie aus Nachbarn Todfeinde wurden: Anfang des 20. Jahrhunderts scheinen Juden in der deutschen Gesellschaft angekommen, doch mit dem 1933 verstaatlichten Judenhass schwingt die Stimmung um. Juden werden zu Sündenböcken gemacht, wo Unzufriedenheit herrscht; die Nationalsozialisten nutzen bestehende Vorurteile und den Neid auf wohlhabende jüdische Unternehmer, um gezielt ein Feindbild aufzubauen. (Einordnung: Die jüdischen Deutschen waren eine vielfältige Gruppe – Ärztinnen, Lehrer, Kaufleute, Arbeiterinnen. Ein angeblicher «Neid auf Erfolg» erklärt den Judenhass nicht und rechtfertigt ihn nicht.) Die Nationalsozialisten beginnen, polnischstämmige Juden nach Polen abzuschieben, wo sie nicht aufgenommen werden. Mit dem Attentat auf einen deutschen Diplomaten will der junge Herschel Grynszpan auf die verzweifelte Lage der jüdischen Familien aufmerksam machen; die Propaganda verfälscht die einsame Verzweiflungstat zum Angriff einer angeblichen «jüdischen Weltverschwörung». Es folgen Zerstörung, Brandstiftung, Plünderung und Mord. (Einordnung: Das war kein Ausbruch von «spontaner Volkswut», sondern ein vom Regime organisierter Pogrom.)",
+   "startSeconds": 0
+  },
+  {
+   "type": "tasks",
+   "id": "k7-tasks-zeitung",
+   "title": "Berichten über den Pogrom",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Deine Antworten gehen an deine Lehrperson. Du schreibst als Journalistin oder Journalist einer Schweizer oder Liechtensteiner Zeitung im November 1938 – also als Beobachterin oder Beobachter von außen. Du weißt nur, was damals öffentlich bekannt war: Von geheimen Verhandlungen oder von späteren Ereignissen weißt du nichts. Aufgabe 1 ist für alle gedacht, Aufgabe 2 ist als **(Erweitert)** gekennzeichnet.",
+   "tasks": [
+    {
+     "id": "k7-z1",
+     "prompt": "Schreibe eine Kurzmeldung (drei bis fünf Sätze) für die Ausgabe vom 11. November 1938: Was ist in Deutschland geschehen? Nenne mindestens zwei Tatsachen (Synagogen, Geschäfte, Verhaftungen, Tote) und sage, wer die Gewalt ausgelöst hat.",
+     "hint": "Eine Kurzmeldung beantwortet: Was? Wann? Wo? Wer? Bleib sachlich – und benutze nicht das Wort der Täter («Reichskristallnacht»), sondern beschreibe, was passiert ist.",
+     "solution": "Beispielantwort: «Berlin, 10. November. In der Nacht zum Donnerstag sind in ganz Deutschland und Österreich Synagogen in Brand gesteckt und jüdische Geschäfte verwüstet worden. Die Täter waren vielfach Angehörige von SA und Partei in Zivil; die Regierung spricht dennoch von spontaner Volkswut. Berichten zufolge gibt es zahlreiche Tote, und Tausende jüdische Männer wurden verhaftet und in Lager gebracht. Die Feuerwehr griff vielerorts nur ein, um Nachbarhäuser zu schützen.» (Gut ist jede Meldung, die Tatsachen nennt, die Organisation durch das Regime erkennt und sachlich bleibt.)"
+    },
+    {
+     "id": "k7-z2",
+     "prompt": "(Erweitert) Schreibe einen Artikel (fünf bis acht Sätze) mit Einordnung: Warum ist die Rede von «spontaner Volkswut» falsch? Was bedeutet der Pogrom für die jüdischen Menschen in Deutschland? Und was bedeutet er für die Schweiz und Liechtenstein, die jüdische Flüchtlinge nur sehr zurückhaltend aufnehmen?",
+     "hint": "Nutze die Texte zu 1938: Organisation über Partei und SA, der Vorwand Grynszpan, Évian, das rote «J» im Pass deutscher Juden, die Grenzsperre der Schweiz. Schreibe nur, was man im November 1938 schon wissen konnte. Ein guter Artikel nennt Fakten, ordnet sie ein und stellt am Ende eine Frage an die eigene Gesellschaft.",
+     "solution": "Beispielantwort: Die deutsche Regierung nennt die Gewalt dieser Nacht spontane Volkswut, doch die Gleichzeitigkeit in Hunderten Städten, die Beteiligung von SA und Partei und die Zurückhaltung der Polizei zeigen eine organisierte Aktion. Die Schüsse des 17-jährigen Grynszpan in Paris und der Tod des Diplomaten vom Rath dienten der Führung nur als Vorwand, die Gewalt auszulösen und zu lenken. Für die jüdischen Menschen in Deutschland bedeutet der Pogrom, dass es keinen Schutz durch den Staat mehr gibt; viele werden jetzt um jeden Preis ausreisen wollen. Damit stellt sich die Frage auch an uns: Die Konferenz von Évian hat im Sommer gezeigt, dass kaum ein Land Flüchtlinge aufnehmen will. Die Schweiz hat im August ihre Grenze für Flüchtlinge ohne Visum gesperrt, und seit Oktober tragen die Pässe deutscher Juden ein rotes «J» – so sind Flüchtlinge an jeder Grenze sofort zu erkennen. Wer in diesen Tagen Flüchtlinge abweist, muss wissen, was er den Abgewiesenen zumutet. (Gut ist jeder Artikel, der Organisation und Vorwand erkennt, die Folgen benennt und die Verantwortung der Nachbarländer anspricht.)"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k7-krieg",
+   "title": "1939–1941: Kennzeichnung und Ghettos – und der Weg zur Deportation",
+   "body": "Mit dem Überfall auf Polen am 1. September 1939 begann der Zweite Weltkrieg – und für die jüdischen Menschen eine neue Stufe. Im Reich galten jetzt **Ausgangssperren**, Radios mussten abgegeben werden, Lebensmittelrationen wurden gekürzt, Männer und Frauen zur **Zwangsarbeit** verpflichtet. Jüdische Familien wurden in **«Judenhäuser»** zusammengepfercht – so nannten die Behörden Häuser, in die sie jüdische Menschen auf engstem Raum einwiesen.\n\nIm besetzten **Polen**, wo über drei Millionen Juden lebten, ging es schneller und brutaler: Ab Dezember 1939 mussten sie dort eine weiße **Armbinde** mit blauem Stern tragen. 1940 sperrte die Besatzung sie in **Ghettos** – abgeriegelte Stadtviertel, zum Beispiel in Łódź und Warschau, wo fast eine halbe Million Menschen auf engstem Raum lebten. Hunger und Seuchen töteten dort Zehntausende, lange bevor die Vernichtungslager gebaut waren.\n\n## Der gelbe Stern\n\nAm 1. September 1941 erließ das Regime eine Polizeiverordnung: Ab dem 19. September mussten fast alle jüdischen Menschen im Reich vom vollendeten sechsten Lebensjahr an in der Öffentlichkeit einen handtellergroßen gelben Stern mit der Aufschrift «Jude» sichtbar auf der Kleidung tragen – den **«Judenstern»**. Erinnerst du dich an das Jahr 1215? Was ein Konzil im Mittelalter mit Hut und Fleck begonnen hatte, kehrte mehr als 700 Jahre später zurück: Menschen wurden markiert, damit jeder sie meiden, melden und verachten konnte. Kinder wurden auf dem Schulweg beschimpft, Erwachsene aus Geschäften gewiesen.\n\n## Die Falle schließt sich\n\nAm 23. Oktober 1941 verbot das Regime jüdischen Menschen die **Auswanderung**. Wer noch nicht draußen war, kam nicht mehr hinaus. Zur selben Zeit begannen die **Deportationen** aus dem Reich: Ab Mitte Oktober 1941 fuhren Züge aus Berlin, Wien und vielen anderen Städten in Ghettos und Lager im besetzten Osten – nach Łódź, Riga, Minsk, später direkt in die Vernichtungslager. Den Betroffenen wurde gesagt, sie würden «umgesiedelt» – ein Tarnwort der Behörden, das den wahren Zweck verschleierte. Sie durften einen Koffer mitnehmen; ihre Wohnungen und ihr Besitz fielen an den Staat, und Nachbarn kauften die Möbel bei Versteigerungen.\n\n> **Merke:** 1939 bis 1941 wurde die Verfolgung sichtbar und unausweichlich: Armbinde und «Judenstern» markierten die Menschen, Ghettos sperrten sie ein, das Auswanderungsverbot vom Oktober 1941 nahm ihnen den letzten Ausweg – und die Deportationen begannen."
+  },
+  {
+   "type": "text",
+   "id": "k7-mord",
+   "title": "1941–1945: Der Völkermord",
+   "body": "## Massenerschießungen\n\nAm 22. Juni 1941 überfiel Deutschland die Sowjetunion. Hinter der Front folgten **Einsatzgruppen** – mobile Einheiten aus SS und Polizei, die den Auftrag hatten, Juden, Kommunisten, Sinti und Roma zu ermorden. In Massenerschießungen töteten sie zusammen mit Wehrmachtseinheiten und einheimischen Kollaborateuren (Einheimischen, die mit den Besatzern zusammenarbeiteten) bis 1944 zwischen **1,5 und 2 Millionen Menschen**, die meisten von ihnen Jüdinnen und Juden. In der Schlucht von **Babyn Jar** bei Kiew wurden Ende September 1941 an zwei Tagen mindestens 33 771 Menschen erschossen – so meldeten es die Täter selbst. Wir nennen diese Zahlen, weil hinter jeder ein Mensch steht – und beschreiben nicht, wie es geschah.\n\n## Die Organisation des Mordes\n\nIm Dezember 1941 nahm in **Chełmno** das erste Vernichtungslager seinen Betrieb auf: Hier wurden vor allem Jüdinnen und Juden in Gaswagen ermordet. Am **20. Januar 1942** trafen sich im Berliner Vorort Wannsee fünfzehn hohe Beamte und SS-Führer zur **Wannsee-Konferenz**. Sie beschlossen den Mord nicht – er lief längst –, sondern koordinierten seine Durchführung in ganz Europa: Wer ist zuständig, wie werden elf Millionen Menschen erfasst und transportiert? In den Akten hieß das **«Endlösung der Judenfrage»** – ein Tarnwort der Täter für Völkermord; schon «Judenfrage» tut so, als seien Jüdinnen und Juden ein Problem. Es ist genau jene kalte Sprache, die du aus dem Brief von 1919 kennst ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]]).\n\nDazu kamen weitere **Vernichtungslager**: Bełżec, Sobibór, Treblinka, Majdanek und **Auschwitz-Birkenau**, alle im besetzten Polen. Ihr Zweck war die möglichst schnelle Ermordung von Menschen, die in Zügen aus ganz Europa dorthin gebracht wurden. In Chełmno, Bełżec, Sobibór und Treblinka war das der einzige Zweck; Majdanek und Auschwitz-Birkenau waren zugleich Konzentrationslager, in denen Häftlinge Zwangsarbeit leisten mussten. In Auschwitz-Birkenau allein wurden rund 1,1 Millionen Menschen ermordet, davon rund eine Million Juden. Am 27. Januar 1945 befreite die Rote Armee das Lager – dieser Tag ist heute der internationale Holocaust-Gedenktag.\n\n> **Merke – KZ und Vernichtungslager sind nicht dasselbe:** Ein **Konzentrationslager** (KZ) war ein Haftlager ohne Gerichtsurteil – für Terror, Zwangsarbeit und Einschüchterung, in dem auch massenhaft Menschen starben (die ersten KZ entstanden schon im März 1933, siehe [[modul:nationalsozialismus-machtuebernahme-1933]]). Ein **reines Vernichtungslager** wie Treblinka hatte nur einen Zweck: die gezielte, fabrikmäßige Tötung der Ankommenden. Auschwitz-Birkenau und Majdanek waren beides – Konzentrationslager mit Zwangsarbeit und zugleich Vernichtungslager.\n\n## Die Bilanz\n\nBis 1945 ermordeten die Nationalsozialisten und ihre Helfershelfer rund **sechs Millionen** Jüdinnen und Juden, darunter rund 1,5 Millionen Kinder. Dieses Verbrechen nennt man **Holocaust** (aus dem Griechischen, «vollständig verbrannt») oder **Shoah** (hebräisch, «Katastrophe»). Es traf nicht nur Juden: Bis zu 500 000 **Sinti und Roma** wurden ermordet (dieser Völkermord wird auch **Porajmos**, «das Verschlingen», genannt – ein unter Sinti und Roma umstrittener Begriff; üblich ist auch «Völkermord an den Sinti und Roma»); rund 200 000 und mehr Menschen mit Behinderung in der «Euthanasie» (so nannten die Täter den Mord an kranken und behinderten Menschen; mehr dazu in [[modul:nationalsozialismus-ideologie-propaganda]]); Millionen sowjetische Kriegsgefangene durch Hunger und Erschießung; Homosexuelle, politische Gegner, Zeugen Jehovas, Zwangsarbeitende aus ganz Europa.\n\n> **Merke:** Der Holocaust war kein Ausrutscher und kein Geheimnis weniger Männer. Er wurde geplant, verwaltet und von Hunderttausenden ausgeführt – Beamten, Eisenbahnern, Polizisten, Soldaten, Nachbarn. Und er begann nicht in Auschwitz, sondern Stufe für Stufe."
+  },
+  {
+   "type": "text",
+   "id": "k7-annefrank",
+   "title": "Ein Gesicht: Anne Frank",
+   "body": "Sechs Millionen ist eine Zahl, die man nicht fühlen kann. Deshalb erzählen wir eine Geschichte – eine von Millionen.\n\n**Anne Frank** wurde am 12. Juni 1929 in Frankfurt am Main geboren, als zweite Tochter von Otto und Edith Frank; ihre Schwester Margot war drei Jahre älter. Die Familie war jüdisch und deutsch, Otto Frank hatte im Ersten Weltkrieg als Offizier gedient. Nach der Machtübernahme wanderten die Franks 1933/34 nach **Amsterdam** aus; Otto baute dort eine kleine Firma auf, Anne ging in den Kindergarten und lernte Niederländisch. Für ein paar Jahre schien die Flucht gelungen.\n\nIm Mai 1940 besetzte Deutschland die Niederlande. Die Ausgrenzung, die du aus diesem und dem letzten Modul kennst, wiederholte sich dort in Monaten: jüdische Schulen, «Judenstern», Ausgangssperren. Im Juli 1942 erhielt Margot einen Aufruf zum «Arbeitseinsatz» in Deutschland – das Regime deportierte die niederländischen Juden. Die Familie tauchte unter: Im Hinterhaus von Ottos Firma an der **Prinsengracht** lebten acht Menschen über zwei Jahre versteckt, versorgt von Mitarbeiterinnen und Mitarbeitern, die ihr Leben riskierten. Anne, dreizehn Jahre alt, führte dort ihr Tagebuch.\n\nAm 4. August 1944 wurde das Versteck entdeckt – bis heute ist nicht sicher, ob durch Verrat oder Zufall. Die acht wurden über das Durchgangslager Westerbork in den Niederlanden nach **Auschwitz** deportiert. Anne und Margot kamen im Herbst 1944 in das Konzentrationslager **Bergen-Belsen**, wo beide im Februar oder März 1945 an Hunger und Typhus (einer Seuche, die sich in den überfüllten Lagern ausbreitete) starben, wenige Wochen vor der Befreiung. Anne wurde 15 Jahre alt. Von den acht Versteckten überlebte nur Otto Frank. Eine Helferin hatte Annes Tagebuch gerettet; Otto veröffentlichte es 1947. Es wurde in über 70 Sprachen übersetzt – und machte aus einer Zahl ein Gesicht.\n\nSchau dir die Stufentreppe im nächsten Block an: Anne Franks Weg lässt sich an ihr entlang lesen – auch wenn die Familie die Stufen nicht in dieser Reihenfolge erlebte: Ausgrenzung in Deutschland, frühe Flucht, dann Kennzeichnung und Entrechtung in den besetzten Niederlanden, Versteck, Deportation, Tod im Lager."
+  },
+  {
+   "type": "schaubild",
+   "id": "k7-treppe",
+   "title": "Die Stufentreppe der Verfolgung",
+   "szene": {
+    "elemente": [
+     {
+      "id": "t-titel",
+      "x": 20,
+      "y": 0,
+      "width": 753,
+      "height": 33,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1550365614,
+      "type": "text",
+      "text": "Stufe für Stufe: Die Verfolgung der Juden 1933–1945",
+      "fontSize": 26,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "t-untertitel",
+      "x": 20,
+      "y": 40,
+      "width": 637,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 358877907,
+      "type": "text",
+      "text": "Jede Stufe machte die nächste leichter – weil die Mehrheit sie hinnahm",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe0",
+      "x": 20,
+      "y": 530,
+      "width": 170,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 336922459,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe0-t",
+      "x": 30,
+      "y": 550,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1256576657,
+      "type": "text",
+      "text": "1\nAusgrenzung und\nBoykott\n1933",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe1",
+      "x": 192,
+      "y": 460,
+      "width": 170,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#e1e9f3",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1457486433,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe1-t",
+      "x": 202,
+      "y": 515,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 152759313,
+      "type": "text",
+      "text": "2\nEntrechtung\nper Gesetz\n1935",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe2",
+      "x": 364,
+      "y": 390,
+      "width": 170,
+      "height": 250,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#dae2ed",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2134354073,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe2-t",
+      "x": 374,
+      "y": 480,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 549909417,
+      "type": "text",
+      "text": "3\nGewalt und\nAusplünderung\n1938",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe3",
+      "x": 536,
+      "y": 320,
+      "width": 170,
+      "height": 320,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d3dbe7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 25246866,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe3-t",
+      "x": 546,
+      "y": 445,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1882024951,
+      "type": "text",
+      "text": "4\nVertreibung\nund Flucht\n1938/39",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe4",
+      "x": 708,
+      "y": 250,
+      "width": 170,
+      "height": 390,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#cbd4e2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 199968210,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe4-t",
+      "x": 718,
+      "y": 410,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 452908882,
+      "type": "text",
+      "text": "5\nKennzeichnung\nund Ghettos\n1939–1941",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe4",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe5",
+      "x": 880,
+      "y": 180,
+      "width": 170,
+      "height": 460,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c2ccdc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 224925271,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe5-t",
+      "x": 890,
+      "y": 375,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1364055505,
+      "type": "text",
+      "text": "6\nDeportation\nin den Osten\nab 1941",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe5",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe6",
+      "x": 1052,
+      "y": 110,
+      "width": 170,
+      "height": 530,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#b8c4d6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1874289867,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe6-t",
+      "x": 1062,
+      "y": 340,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 724969810,
+      "type": "text",
+      "text": "7\nMassenmord und\nVernichtungslager\n1941–1945",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe6",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "t-boden",
+      "x": 20,
+      "y": 640,
+      "width": 1204,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1145517885,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1204,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "t-merk",
+      "x": 20,
+      "y": 660,
+      "width": 1204,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 510344460,
+      "type": "rectangle"
+     },
+     {
+      "id": "t-merk-t",
+      "x": 30,
+      "y": 684.5,
+      "width": 1184,
+      "height": 21,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1932291013,
+      "type": "text",
+      "text": "Der Holocaust begann nicht in Auschwitz. Er begann mit Boykott, Gesetzen und Wegschauen – und auf den unteren Stufen hätte die Mehrheit noch Nein sagen können.",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "t-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Titel: Stufe für Stufe: Die Verfolgung der Juden 1933 bis 1945. Untertitel: Jede Stufe machte die nächste leichter, weil die Mehrheit sie hinnahm. Sieben Stufen steigen von links nach rechts an, von hellem zu dunklerem Blaugrau: 1 Ausgrenzung und Boykott, 1933. 2 Entrechtung per Gesetz, 1935. 3 Gewalt und Ausplünderung, 1938. 4 Vertreibung und Flucht, 1938/39. 5 Kennzeichnung und Ghettos, 1939 bis 1941. 6 Deportation in den Osten, ab 1941. 7 Massenmord und Vernichtungslager, 1941 bis 1945. Die Jahre der Stufen überschneiden sich; die Treppe zeigt, was jeweils neu dazukam. Unter der Treppe eine Bodenlinie. Merksatz unten: Der Holocaust begann nicht in Auschwitz. Er begann mit Boykott, Gesetzen und Wegschauen, und auf den unteren Stufen hätte die Mehrheit noch Nein sagen können.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "video",
+   "id": "k7-video-holocaust",
+   "provider": "youtube",
+   "videoId": "pFo2kXMqa98",
+   "title": "Zusatz (optional): Video «Der Holocaust: Völkermord an den europäischen Juden» (13:51)",
+   "description": "Dieses Video von MrWissen2go Geschichte (Terra X, ZDF) ist ein freiwilliges Zusatzangebot – alles, was du für die Aufgaben brauchst, steht in den Texten dieses Moduls. Es enthält historische Aufnahmen und behandelt Massenerschießungen und Vernichtungslager; das kann belasten. Du kannst es jederzeit abbrechen oder ganz auslassen und mit deiner Lehrperson darüber sprechen. Wenn du es schaust (Internet nötig, startet erst nach deinem Klick), achte auf zwei Leitfragen: (1) Welche Schritte der Verfolgung ab 1933 nennt das Video – und findest du sie auf der Stufentreppe wieder? (2) Warum nennt das Video den Holocaust einen «Zivilisationsbruch»?",
+   "transcript": "Zusammenfassung des Videos «Der Holocaust: Völkermord an den europäischen Juden» (MrWissen2go Geschichte | Terra X, 13:51) nach Videobeschreibung und Kapiteln: Der Holocaust ist der von den Nationalsozialisten geplante und durchgeführte Völkermord an den europäischen Jüdinnen und Juden während des Zweiten Weltkriegs, durch Massenerschießungen und Vernichtungslager wie Auschwitz, Treblinka oder Sobibór; sechs Millionen Menschen – Frauen, Männer und Kinder – fallen diesem Menschheitsverbrechen zum Opfer. Das Video behandelt, welche Ideologie hinter dem Holocaust steckt, wie sich der Völkermord ab der Machtübernahme 1933 schrittweise anbahnt und wie der Terrorapparat des NS-Staats ihn schließlich plant und durchführt. Kapitel: Darum geht es; Hitlers Politik gegen die Juden ab 1933; der Zweite Weltkrieg; Überfall auf die Sowjetunion 1941; Planung und Durchführung des Holocaust; der Holocaust als Zivilisationsbruch.",
+   "startSeconds": 0
+  },
+  {
+   "type": "achse",
+   "id": "k7-achse-stufen",
+   "title": "Welche Stufe? Ereignisse einordnen",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Ordne jedes Ereignis der Stufe der Verfolgung zu, zu der es gehört: Ziehe die Karte auf den passenden Abschnitt – oder tippe erst die Karte, dann den Abschnitt an. Die Stufen findest du auf der Treppe. Achtung: Die Jahre der Stufen überlappen sich um 1941; entscheidend ist, worum es inhaltlich geht.",
+   "x": {
+    "kategorien": [
+     "Ausgrenzung 1933",
+     "Entrechtung 1935",
+     "Gewalt und Ausplünderung 1938",
+     "Vertreibung und Flucht 1938/39",
+     "Kennzeichnung und Ghettos 1939–41",
+     "Deportation ab 1941",
+     "Massenmord 1941–45"
+    ],
+    "beschriftung": "Stufe der Verfolgung"
+   },
+   "elemente": [
+    {
+     "text": "Gelber Stern ab dem vollendeten sechsten Lebensjahr",
+     "xKategorie": "Kennzeichnung und Ghettos 1939–41"
+    },
+    {
+     "text": "SA-Posten vor jüdischen Geschäften: der Boykott",
+     "xKategorie": "Ausgrenzung 1933"
+    },
+    {
+     "text": "Einsatzgruppen, Wannsee-Konferenz, Vernichtungslager",
+     "xKategorie": "Massenmord 1941–45"
+    },
+    {
+     "text": "Eheverbot und Verlust des Wahlrechts per Gesetz",
+     "xKategorie": "Entrechtung 1935"
+    },
+    {
+     "text": "Kindertransporte nach Großbritannien",
+     "xKategorie": "Vertreibung und Flucht 1938/39"
+    },
+    {
+     "text": "Synagogen brennen, Geschäfte werden verwüstet",
+     "xKategorie": "Gewalt und Ausplünderung 1938"
+    },
+    {
+     "text": "Züge aus Berlin und Wien nach Riga und Minsk",
+     "xKategorie": "Deportation ab 1941"
+    },
+    {
+     "text": "Jüdische Beamte werden entlassen («Arierparagraf»)",
+     "xKategorie": "Ausgrenzung 1933"
+    },
+    {
+     "text": "«Sühneleistung» von einer Milliarde Reichsmark",
+     "xKategorie": "Gewalt und Ausplünderung 1938"
+    },
+    {
+     "text": "Abgeriegelte Stadtviertel in Łódź und Warschau",
+     "xKategorie": "Kennzeichnung und Ghettos 1939–41"
+    }
+   ]
+  },
+  {
+   "type": "achse",
+   "id": "k7-achse-zeit",
+   "title": "1933 bis 1945: Ereignisse ordnen",
+   "teilkompetenzen": [
+    "geschichte.methoden.ereignisse-zeitlich-ordnen",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Bring die neun Ereignisse in die richtige zeitliche Reihenfolge: Ziehe jede Karte auf eine Position von 1 (zuerst) bis 9 (zuletzt) – oder tippe erst die Karte, dann die Position an. Gewertet wird nur die Reihenfolge.",
+   "x": {
+    "min": 1,
+    "max": 9,
+    "schritt": 1,
+    "teilstriche": 1,
+    "beschriftung": "Reihenfolge (1 = zuerst, 9 = zuletzt)"
+   },
+   "wertung": "reihenfolge",
+   "elemente": [
+    {
+     "text": "Wannsee-Konferenz koordiniert den Völkermord",
+     "x": 8
+    },
+    {
+     "text": "Boykott jüdischer Geschäfte im ganzen Reich",
+     "x": 1
+    },
+    {
+     "text": "Konferenz von Évian: kaum ein Land nimmt Flüchtlinge auf",
+     "x": 4
+    },
+    {
+     "text": "Nürnberger Gesetze: Reichsbürger und «Blutschutz»",
+     "x": 2
+    },
+    {
+     "text": "Die Rote Armee befreit Auschwitz",
+     "x": 9
+    },
+    {
+     "text": "«Anschluss» Österreichs, Gewalt gegen Wiener Juden",
+     "x": 3
+    },
+    {
+     "text": "Der «Judenstern» wird im Reich Pflicht",
+     "x": 7
+    },
+    {
+     "text": "Novemberpogrome: Synagogen brennen",
+     "x": 5
+    },
+    {
+     "text": "Erste Kindertransporte nach Großbritannien",
+     "x": 6
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "k7-quiz",
+   "title": "Selbstcheck: Von der Entrechtung zum Völkermord",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Prüfe, ob du den Stoff verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "k7-q1",
+     "type": "single_choice",
+     "prompt": "Was bestimmte das Reichsbürgergesetz vom 15. September 1935?",
+     "options": [
+      {
+       "text": "Jüdische Menschen mussten das Deutsche Reich innerhalb eines Jahres verlassen und verloren die Staatsangehörigkeit."
+      },
+      {
+       "text": "Jüdische Menschen mussten in der Öffentlichkeit einen gelben Stern tragen und durften nicht mehr auswandern."
+      },
+      {
+       "text": "Jüdische Menschen mussten ihre Geschäfte an nichtjüdische Käufer verkaufen und eine Strafzahlung leisten."
+      },
+      {
+       "text": "Jüdische Menschen blieben Staatsangehörige, aber nur «Deutschblütige» waren Reichsbürger mit politischen Rechten.",
+       "correct": true
+      }
+     ],
+     "explanation": "Das Reichsbürgergesetz schuf zwei Klassen: Reichsbürger mit politischen Rechten und Staatsangehörige ohne sie. Ausweisung stand nicht im Gesetz; Judenstern und Auswanderungsverbot kamen 1941, die Ausplünderung vor allem 1938."
+    },
+    {
+     "id": "k7-q2",
+     "type": "single_choice",
+     "prompt": "Wonach entschieden die NS-Behörden, wer als «Jude» galt?",
+     "options": [
+      {
+       "text": "Nach dem Glauben der Person selbst – wer sich evangelisch oder katholisch taufen ließ, galt nicht mehr als Jude."
+      },
+      {
+       "text": "Nach der Religionszugehörigkeit der Großeltern – bei drei oder vier jüdischen Großeltern zählte der eigene Glaube nicht.",
+       "correct": true
+      },
+      {
+       "text": "Nach einem ärztlichen Gutachten über Aussehen, Blutgruppe, Schädelform und Körperbau der untersuchten Person."
+      },
+      {
+       "text": "Nach dem Geburtsort der Person – wer in Osteuropa geboren war, galt für die Behörden automatisch als Jude."
+      }
+     ],
+     "explanation": "Die Verordnung vom 14. November 1935 zählte die jüdischen Großeltern nach ihrer Religionszugehörigkeit. Weder ein Gutachten noch der Geburtsort zählten. Bei drei oder vier jüdischen Großeltern galt jemand als «Jude», auch wenn er getauft war; nur bei zwei Großeltern kam es zusätzlich auf die eigene Gemeindemitgliedschaft oder die Ehe an. Es gab kein biologisches Merkmal, und genau das entlarvt die «Rassenlehre»."
+    },
+    {
+     "id": "k7-q3",
+     "type": "true_false",
+     "prompt": "Mit der Wannsee-Konferenz im Januar 1942 begann der Mord an den europäischen Juden.",
+     "answer": false,
+     "explanation": "Falsch. Die Massenerschießungen der Einsatzgruppen liefen seit Juni 1941, die Morde im Vernichtungslager Chełmno (mit Gaswagen) seit Dezember 1941. Die Wannsee-Konferenz am 20. Januar 1942 koordinierte die Durchführung des bereits begonnenen Völkermords in ganz Europa."
+    },
+    {
+     "id": "k7-q4",
+     "type": "single_choice",
+     "prompt": "Warum ist «Reichskristallnacht» ein problematischer Begriff?",
+     "options": [
+      {
+       "text": "Weil er NS-Jargon ist und die Gewalt verharmlost – zerbrochenes Glas statt Mord und Brandstiftung.",
+       "correct": true
+      },
+      {
+       "text": "Weil der Pogrom nicht in der Nacht, sondern am helllichten Tag stattfand und keine Fenster zerbrachen."
+      },
+      {
+       "text": "Weil der Begriff erst nach 1945 von Historikerinnen und Historikern erfunden wurde und damals unbekannt war."
+      },
+      {
+       "text": "Weil er sich nur auf Berlin bezieht, der Pogrom aber im ganzen Reich und in Österreich stattfand."
+      }
+     ],
+     "explanation": "Der Begriff stammt aus der NS-Zeit und macht aus Mord und Brandstiftung ein Geräusch von Glas; deshalb sagt man heute Novemberpogrome. Der Pogrom begann in der Nacht, der Begriff war damals verbreitet, und er bezieht sich nicht nur auf Berlin."
+    },
+    {
+     "id": "k7-q5",
+     "type": "single_choice",
+     "prompt": "Was war der «J»-Stempel von 1938?",
+     "options": [
+      {
+       "text": "Ein Stempel in den Ausweisen deutscher Beamter, der sie zur Teilnahme an der «Polenaktion» verpflichtete."
+      },
+      {
+       "text": "Ein Zeichen auf jüdischen Geschäften, das SA-Posten beim Boykott im April 1933 anbrachten, um Kunden zu warnen."
+      },
+      {
+       "text": "Eine Kennzeichnung der Pässe deutscher Juden – von Deutschland vorgeschlagen, von der Schweiz zum Abweisen genutzt.",
+       "correct": true
+      },
+      {
+       "text": "Der Stempel, mit dem die Konferenz von Évian im Juli 1938 die Aufnahme jüdischer Flüchtlinge genehmigte."
+      }
+     ],
+     "explanation": "Ab Oktober 1938 trugen die Pässe deutscher Juden ein rotes «J». Die deutschen Behörden hatten die Kennzeichnung vorgeschlagen; die Schweiz stimmte zu, statt eine Visumspflicht für alle Deutschen einzuführen, und nutzte das «J», um jüdische Flüchtlinge an der Grenze zu erkennen und abzuweisen. Mit Beamten, dem Boykott 1933 oder Évian hatte der Stempel nichts zu tun."
+    },
+    {
+     "id": "k7-q6",
+     "type": "single_choice",
+     "prompt": "Was unterscheidet ein Vernichtungslager von einem Konzentrationslager (KZ)?",
+     "options": [
+      {
+       "text": "Ein KZ gab es nur in Deutschland selbst, Vernichtungslager dagegen nur im besetzten Westeuropa."
+      },
+      {
+       "text": "Ein KZ diente Haft, Terror und Zwangsarbeit; ein Vernichtungslager allein der Ermordung der Ankommenden.",
+       "correct": true
+      },
+      {
+       "text": "Ein KZ wurde von der Wehrmacht betrieben, ein Vernichtungslager von der Gestapo und der örtlichen Polizei."
+      },
+      {
+       "text": "Ein KZ bestand nur bis 1939; danach wurden alle bestehenden Lager zu Vernichtungslagern umgebaut."
+      }
+     ],
+     "explanation": "Konzentrationslager waren Haftlager für Terror und Zwangsarbeit, in denen ebenfalls massenhaft Menschen starben. Reine Vernichtungslager wie Treblinka oder Bełżec dienten allein der Ermordung der Ankommenden; Auschwitz-Birkenau und Majdanek waren Konzentrations- und Vernichtungslager zugleich. Beide Lagerarten wurden von der SS betrieben, KZ bestanden bis 1945 und lagen auch außerhalb Deutschlands, und die Vernichtungslager lagen im besetzten Polen, nicht in Westeuropa."
+    },
+    {
+     "id": "k7-q7",
+     "type": "single_choice",
+     "prompt": "Wer war Paul Grüninger?",
+     "options": [
+      {
+       "text": "Ein Wiener Journalist, der 1938 über die Demütigungen jüdischer Nachbarn berichtete und deshalb verhaftet wurde."
+      },
+      {
+       "text": "Ein deutscher Diplomat in Paris, auf den Herschel Grynszpan im November 1938 schoss und der kurz darauf starb."
+      },
+      {
+       "text": "Ein Organisator der Kindertransporte, der 1938/39 Tausende jüdische Kinder nach Großbritannien in Sicherheit brachte."
+      },
+      {
+       "text": "Ein St. Galler Polizeikommandant, der 1938 jüdische Flüchtlinge gegen die Vorschriften einreisen ließ.",
+       "correct": true
+      }
+     ],
+     "explanation": "Paul Grüninger ließ 1938 an der Grenze bei Diepoldsau Hunderte Flüchtlinge mit vordatierten Papieren einreisen, wurde 1939 entlassen und verurteilt und erst 1995 rehabilitiert. Er war weder Journalist noch Wiener; die Demütigungen jüdischer Menschen in Wien 1938 sind belegt, hatten aber mit ihm nichts zu tun. Der Diplomat war Ernst vom Rath; die Kindertransporte organisierten britische und jüdische Hilfsorganisationen."
+    },
+    {
+     "id": "k7-q8",
+     "type": "single_choice",
+     "prompt": "Seit wann mussten jüdische Menschen im Deutschen Reich den gelben Stern tragen?",
+     "options": [
+      {
+       "text": "Seit September 1941, vom vollendeten sechsten Lebensjahr an.",
+       "correct": true
+      },
+      {
+       "text": "Seit dem Boykott vom 1. April 1933, für alle Altersstufen."
+      },
+      {
+       "text": "Seit den Nürnberger Gesetzen vom September 1935, ab dem 14. Lebensjahr."
+      },
+      {
+       "text": "Seit der Wannsee-Konferenz im Januar 1942, nur für Erwachsene."
+      }
+     ],
+     "explanation": "Die Polizeiverordnung vom 1. September 1941 trat am 19. September 1941 in Kraft und galt ab dem vollendeten sechsten Lebensjahr. 1933 und 1935 gab es noch keine Kennzeichnung, und die Wannsee-Konferenz hatte damit nichts zu tun."
+    },
+    {
+     "id": "k7-q9",
+     "type": "single_choice",
+     "prompt": "Was war das Ergebnis der Konferenz von Évian im Juli 1938?",
+     "options": [
+      {
+       "text": "Die 32 Staaten verpflichteten sich, jedes Jahr feste Kontingente jüdischer Flüchtlinge aufzunehmen."
+      },
+      {
+       "text": "Deutschland sagte zu, die Auswanderung jüdischer Menschen zu erleichtern und ihr Vermögen freizugeben."
+      },
+      {
+       "text": "Fast kein Staat war bereit, mehr Flüchtlinge aufzunehmen – die NS-Propaganda nutzte das als Bestätigung.",
+       "correct": true
+      },
+      {
+       "text": "Die Schweiz übernahm die Führung und organisierte Kindertransporte in die USA und nach Kanada."
+      }
+     ],
+     "explanation": "In Évian bedauerten die Vertreter von 32 Staaten die Lage, aber fast keiner wollte mehr Flüchtlinge aufnehmen; das Regime nahm das als Bestätigung. Feste Kontingente, deutsche Zusagen oder eine Führungsrolle der Schweiz gab es nicht – die Kindertransporte nach Großbritannien begannen erst nach den Novemberpogromen."
+    },
+    {
+     "id": "k7-q10",
+     "type": "single_choice",
+     "prompt": "Welche Gruppen wurden neben Jüdinnen und Juden vom NS-Regime verfolgt und ermordet?",
+     "options": [
+      {
+       "text": "Nur politische Gegner aus KPD und SPD – andere Gruppen blieben vom Terror des Regimes weitgehend verschont."
+      },
+      {
+       "text": "Sinti und Roma, Menschen mit Behinderung, sowjetische Kriegsgefangene, Homosexuelle, politische Gegner.",
+       "correct": true
+      },
+      {
+       "text": "Ausschließlich Menschen in den besetzten Gebieten im Osten – im Deutschen Reich selbst gab es keine weiteren Opfer."
+      },
+      {
+       "text": "Vor allem Mitglieder der katholischen Kirche, die geschlossen zum Widerstand gegen das Regime aufgerufen hatte."
+      }
+     ],
+     "explanation": "Der Völkermord an den Sinti und Roma, die «Euthanasie»-Morde, das Sterben der sowjetischen Kriegsgefangenen und die Verfolgung von Homosexuellen, politischen Gegnern und Zeugen Jehovas gehören zur Bilanz des NS-Terrors. Er traf Menschen im Reich wie in den besetzten Gebieten; die katholische Kirche als Ganzes rief nicht zum Widerstand auf."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k7-tasks-reflexion",
+   "title": "Vertiefung: Nein sagen, Anne Frank, Rollen",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Deine Antworten gehen an deine Lehrperson. Aufgaben 1 und 2 sind für alle gedacht, Aufgabe 3 ist als **(Erweitert)** gekennzeichnet.",
+   "tasks": [
+    {
+     "id": "k7-r1",
+     "prompt": "Schau dir die Stufentreppe an. An welcher Stufe hätten nichtjüdische Menschen in Deutschland – Nachbarn, Kundschaft, Beamte, Vereine – noch etwas tun können, und warum taten es so wenige? Antworte in zwei bis fünf Sätzen und nenne mindestens einen Grund, der nicht «Angst» heißt.",
+     "hint": "Denk an 1933 (Boykott: Wer kaufte trotzdem ein?), an 1935 (Beamte wandten Gesetze an), an 1938 (Nachbarn schauten zu, Käufer profitierten). Gründe können sein: Gewöhnung, Vorteil, Gleichgültigkeit, Glaube an die Propaganda, «Das geht mich nichts an».",
+     "solution": "Beispielantwort: Am meisten Spielraum gab es auf den unteren Stufen: 1933 hätten Kunden weiter in jüdischen Geschäften einkaufen, Vereine ihre Mitglieder behalten, Beamte sich weigern können. Dass es so wenige taten, lag nicht nur an Angst: Viele hatten die Propaganda verinnerlicht, viele gewöhnten sich an jede neue Stufe, weil sie klein wirkte, und nicht wenige profitierten – von freien Stellen, billigen Geschäften, versteigerten Möbeln. Je höher die Treppe, desto gefährlicher wurde Widerspruch – deshalb kam es darauf an, früh Nein zu sagen."
+    },
+    {
+     "id": "k7-r2",
+     "prompt": "Welche Stufen der Treppe hat die Familie von Anne Frank erlebt? Ordne ihren Lebensweg in zwei bis vier Sätzen den Stufen zu – und erkläre, warum die Flucht nach Amsterdam am Ende nicht geholfen hat.",
+     "hint": "Frankfurt 1933, Amsterdam 1933/34, Besetzung 1940, Stern und Schulverbot, Versteck 1942, Verhaftung 1944, Auschwitz, Bergen-Belsen. Die Franks flohen früher als die meisten – welche Stufen haben sie dadurch in Deutschland übersprungen?",
+     "solution": "Beispielantwort: Die Familie erlebte 1933 in Frankfurt die Ausgrenzung (Stufe 1) und wanderte schon 1933/34 nach Amsterdam aus – lange bevor 1938/39 viele Familien nach Pogrom und Ausplünderung fliehen mussten (Stufe 4); die Stufen 2 und 3 erlebten die Franks in Deutschland nicht mehr. Mit der Besetzung der Niederlande 1940 holte die Verfolgung sie ein: Ausgrenzung, Entrechtung und ab 1942 der «Judenstern» (Stufe 5) wiederholten sich dort in kurzer Zeit, und 1942 drohte die Deportation (Stufe 6), der sie im Versteck zu entkommen versuchten. Nach der Entdeckung 1944 folgten Deportation und Tod im Lager (Stufen 6 und 7). Die Flucht half nicht, weil der Krieg die Verfolgung in fast ganz Europa ausbreitete – ein sicheres Land gab es für die Franks nicht mehr."
+    },
+    {
+     "id": "k7-r3",
+     "prompt": "(Erweitert) In der Geschichte der Verfolgung unterscheidet man oft fünf Rollen. Täter planen, befehlen oder üben Gewalt aus. Mitläufer machen mit oder profitieren davon, ohne selbst Gewalt auszuüben. Zuschauer sehen zu und tun nichts. Helfer (Retterinnen und Retter) helfen Verfolgten, obwohl es verboten und gefährlich ist. Opfer werden verfolgt. Die Grenzen sind fließend. Nenne für jede dieser fünf Rollen ein Beispiel aus diesem Modul. Erkläre bei Täter, Mitläufer, Zuschauer und Helfer in je einem Satz, welche Entscheidung hinter dem Verhalten stand; erkläre bei den Opfern in einem Satz, welche Möglichkeiten sie hatten und wie die Verfolgung diese Stufe für Stufe einschränkte. Das ist eine Analyse, kein Rollenspiel.",
+     "hint": "Täter: Wer befahl Gewalt oder übte sie selbst aus (etwa Goebbels, die SA)? Mitläufer: Wer wandte Gesetze an oder kaufte «arisierte» Geschäfte, ohne selbst zuzuschlagen? Zuschauer: die Nachbarn im November 1938, die zusahen. Helfer: Paul Grüninger, die Mitarbeiterinnen und Mitarbeiter im Hinterhaus. Opfer: die Familie Frank, die im November 1938 verhafteten Männer, die Wiener Jüdinnen und Juden, die im März 1938 die Straßen schrubben mussten.",
+     "solution": "Beispielantwort: Täter waren etwa Goebbels, der den Pogrom auslöste, und die SA-Männer, die Synagogen anzündeten – sie entschieden sich, Gewalt zu befehlen oder auszuüben. Mitläufer waren Käufer «arisierter» Betriebe oder Beamte, die Verbote ohne Widerspruch umsetzten – sie machten mit, weil es Vorteile oder Ruhe brachte, statt Nein zu sagen. Zuschauer waren die Nachbarn im November 1938, die zusahen – sie entschieden sich, nichts zu tun. Helfer wie Paul Grüninger oder die Mitarbeiterinnen im Amsterdamer Hinterhaus entschieden sich, Regeln zu brechen und Risiken zu tragen. Die Opfer, etwa die Familie Frank, suchten Auswege – die Auswanderung nach Amsterdam, später das Versteck –, doch mit jeder Stufe (Besetzung 1940, Kennzeichnung, Deportationen) nahm ihnen die Verfolgung weitere Möglichkeiten; die Verantwortung für ihr Schicksal trugen die Täter und das Regime, nicht die Verfolgten. Die Grenzen sind fließend: Beamte, die später Deportationen organisierten (etwa bei der Wannsee-Konferenz), waren keine Mitläufer mehr, sondern Täter – dieselbe Berufsgruppe kann je nach Handlung in verschiedenen Rollen stehen."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1386 @@
+{
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-jugend",
+ "title": "Jugend im NS-Staat – und der Film «Napola»",
+ "description": "Lagerfeuer, Uniform, Gemeinschaft – und Drill, Gehorsam, Krieg. Du lernst, wie der NS-Staat Jugendliche über HJ, DJ, BDM und JM erfasste, welche Erziehungsziele er für Jungen und Mädchen hatte, was Eliteschulen wie die «Napola» sollten und wie Jugendliche sich anpassten oder widersetzten. Den Film «Napola» ordnest du als Fiktion vor historischem Hintergrund ein.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.7.2",
+     "description": "Die Schülerinnen und Schüler können Geschichte zur Bildung und Unterhaltung nutzen."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.7.2",
+     "description": "Die Schülerinnen und Schüler können Geschichte zur Bildung und Unterhaltung nutzen."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "de",
+ "sequenz": 5,
+ "einheit": "Nationalsozialismus – Diktatur, Verfolgung, Erinnerung",
+ "requires": [
+  "nationalsozialismus-ideologie-propaganda"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "Hitlerjugend",
+  "BDM",
+  "Jugend",
+  "Napola",
+  "Erziehung",
+  "Edelweißpiraten",
+  "Swing-Jugend",
+  "Helmuth Hübener",
+  "Weiße Rose",
+  "Nationalsozialismus"
+ ],
+ "learningObjectives": [
+  "Ich kann erklären, wie der NS-Staat die Jugend gleichschaltete (HJ-Gesetz 1936, Jugenddienstpflicht 1939) und welchen Lebensweg er für Jungen und Mädchen vorsah.",
+  "Ich kann beschreiben, was die Hitlerjugend für Jugendliche anziehend machte und was sie zugleich von ihnen verlangte.",
+  "Ich kann die Erziehungsziele des NS-Staats für Jungen und Mädchen nennen und an Schule, Lied und «Mutterkreuz» erkennen.",
+  "Ich kann erklären, was die Eliteschulen «Napola» und Adolf-Hitler-Schulen sollten, und den Film «Napola» als Fiktion vor historischem Hintergrund einordnen.",
+  "Ich kann Beispiele unangepasster und widerständiger Jugendlicher nennen (Edelweißpiraten, Swing-Jugend, Helmuth Hübener) und sagen, was ihnen drohte.",
+  "(Erweitert) Ich kann die Weiße Rose als Beispiel studentischen Widerstands einordnen.",
+  "(Erweitert) Ich kann begründen, warum Rauschnings «Gespräche mit Hitler» keine verlässliche Quelle sind."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Jugend im NS-Staat (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/ns-regime"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Nationalsozialismus",
+   "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/"
+  },
+  {
+   "title": "NS-Dokumentationszentrum der Stadt Köln: Edelweißpiraten",
+   "url": "https://museenkoeln.de/ns-dokumentationszentrum"
+  },
+  {
+   "title": "Gedenkstätte Deutscher Widerstand: Helmuth Hübener, Weiße Rose",
+   "url": "https://www.gdw-berlin.de"
+  },
+  {
+   "title": "Film: Napola – Elite für den Führer (D 2004, Regie: Dennis Gansel) – im Unterricht gesehen"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Jugend im Nationalsozialismus",
+   "url": "https://www.youtube.com/watch?v=iraKtSfVgFk"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k5-einstieg",
+   "title": "Stell dir vor, du bist 14 – im Jahr 1936",
+   "body": "Du bist 14, es ist 1936, und dein Nachmittag gehört nicht dir. Zweimal in der Woche ist «Dienst»: Heimabend mit Schulung, Sport auf dem Platz, am Wochenende Geländespiel oder Zeltlager. Du trägst Uniform wie fast alle in deiner Klasse. Wer nicht hingeht, fällt auf – und die Eltern bekommen Ärger. Aber ehrlich: Das Lagerfeuer, die Fahrten, das Gefühl, zu etwas Großem zu gehören, gefallen dir auch. Und mit 16 darfst du vielleicht selbst eine Gruppe führen. Nicht alle dürfen dabei sein: Deine jüdische Banknachbarin aus der Grundschule ist ausgeschlossen – und das fällt dir vielleicht gar nicht mehr auf.\n\nGenau diese Mischung macht das Thema dieses Moduls aus: Der NS-Staat wollte die Jugend nicht nur beherrschen, er wollte sie **gewinnen** – und formen. Du hast in [[modul:nationalsozialismus-organisationen]] die Jugendorganisationen HJ, DJ, BDM und JM kennengelernt und in [[modul:nationalsozialismus-ideologie-propaganda]] gesehen, wie Propaganda funktioniert. Jetzt schaust du genauer hin: Wie wurde aus freiwilligem Mitmachen Pflicht? Was sollten aus Jungen und Mädchen werden? Was taten die Eliteschulen, die du aus dem Film «Napola» kennst? Und wer machte nicht mit – und was passierte mit ihm oder ihr?\n\nEin Hinweis vorweg: Wir sehen diese Zeit mit den Augen von Jugendlichen, die beobachten, mitmachen, zweifeln oder sich verweigern – nicht mit den Augen der Täter."
+  },
+  {
+   "type": "schaubild",
+   "id": "k5-stufen",
+   "title": "Der vorgezeichnete Weg: Vom Jungvolk zur Wehrmacht, vom Jungmädelbund zur Mutterrolle",
+   "szene": {
+    "elemente": [
+     {
+      "id": "s-titel",
+      "x": 200,
+      "y": 0,
+      "width": 898,
+      "height": 33,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "Vom Jungvolk zur Wehrmacht, vom Jungmädelbund zur Mutterrolle",
+      "fontSize": 26,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-untertitel",
+      "x": 200,
+      "y": 40,
+      "width": 557,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "Vier Stufen, vom Regime geplant – blau: Jungen, grün: Mädchen",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0",
+      "x": 20,
+      "y": 560,
+      "width": 290,
+      "height": 248,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-alter",
+      "x": 30,
+      "y": 570,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-alter-t",
+      "x": 40,
+      "y": 578,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "text",
+      "text": "10 bis 14 Jahre",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st0-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0-j",
+      "x": 30,
+      "y": 616,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-j-t",
+      "x": 40,
+      "y": 632.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "text",
+      "text": "Deutsches Jungvolk (DJ)\n«Pimpfe»: Heimabende, Sport,\nGeländespiele, Fahrten",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st0-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0-m",
+      "x": 30,
+      "y": 712,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-m-t",
+      "x": 40,
+      "y": 728.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "text",
+      "text": "Jungmädelbund (JM)\nHeimabende, Sport,\nSingen, Basteln",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st0-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0-a",
+      "x": 303,
+      "y": 588,
+      "width": 24,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        24,
+        -110
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "st1",
+      "x": 320,
+      "y": 450,
+      "width": 290,
+      "height": 358,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-alter",
+      "x": 330,
+      "y": 460,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-alter-t",
+      "x": 340,
+      "y": 468,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "text",
+      "text": "14 bis 18 Jahre",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st1-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st1-j",
+      "x": 330,
+      "y": 506,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-j-t",
+      "x": 340,
+      "y": 522.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "text",
+      "text": "Hitlerjugend (HJ)\nDrill, Marschieren, Schießen,\n«Wehrertüchtigung»",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st1-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st1-m",
+      "x": 330,
+      "y": 602,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-m-t",
+      "x": 340,
+      "y": 618.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "text",
+      "text": "Bund Deutscher Mädel (BDM)\nSport, Hauswirtschaft, Lager;\nab 17 «Glaube und Schönheit»",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st1-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st1-a",
+      "x": 603,
+      "y": 478,
+      "width": 24,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        24,
+        -110
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "st2",
+      "x": 620,
+      "y": 340,
+      "width": 290,
+      "height": 468,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069395373,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-alter",
+      "x": 630,
+      "y": 350,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1346169768,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-alter-t",
+      "x": 640,
+      "y": 358,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1323890193,
+      "type": "text",
+      "text": "etwa 18 bis 19 Jahre",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st2-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st2-j",
+      "x": 630,
+      "y": 396,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1591521450,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-j-t",
+      "x": 640,
+      "y": 412.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 537279799,
+      "type": "text",
+      "text": "Reichsarbeitsdienst (RAD)\nsechs Monate Pflicht, Drill –\nVorstufe zum Wehrdienst",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st2-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st2-m",
+      "x": 630,
+      "y": 492,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1766705883,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-m-t",
+      "x": 640,
+      "y": 508.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080880862,
+      "type": "text",
+      "text": "Pflichtjahr und RAD\nArbeit im Haushalt\noder auf dem Hof",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st2-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st2-a",
+      "x": 903,
+      "y": 368,
+      "width": 24,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576577607,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        24,
+        -110
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "st3",
+      "x": 920,
+      "y": 230,
+      "width": 290,
+      "height": 578,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 821440179,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-alter",
+      "x": 930,
+      "y": 240,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 94861959,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-alter-t",
+      "x": 940,
+      "y": 248,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2113293440,
+      "type": "text",
+      "text": "danach, ab etwa 19 Jahren",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st3-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st3-j",
+      "x": 930,
+      "y": 286,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 417856261,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-j-t",
+      "x": 940,
+      "y": 302.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1089207059,
+      "type": "text",
+      "text": "Wehrmacht\nSoldat – «opferbereit»\nfür Führer und Volk",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st3-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st3-m",
+      "x": 930,
+      "y": 382,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 805849935,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-m-t",
+      "x": 940,
+      "y": 398.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1631777536,
+      "type": "text",
+      "text": "«Deutsche Frau und Mutter»\nHaushalt, viele Kinder –\nspäter «Mutterkreuz» (ab 1938)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st3-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-merk",
+      "x": 20,
+      "y": 830,
+      "width": 1180,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1938183565,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-merk-t",
+      "x": 30,
+      "y": 849.5,
+      "width": 1160,
+      "height": 21,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1370408198,
+      "type": "text",
+      "text": "Das Regime wollte einen Weg ohne Abzweigung: Vom zehnten Lebensjahr an sollte der Lebenslauf vorgezeichnet sein – für Jungen zum Soldaten, für Mädchen zur Mutter.",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Titel: Vom Jungvolk zur Wehrmacht, vom Jungmädelbund zur Mutterrolle. Untertitel: Vier Stufen, vom Regime geplant; blau Jungen, grün Mädchen. Vier Stufen steigen von links nach rechts an, die Altersfelder sind durch Pfeile verbunden; jede Stufe hat ein Altersfeld, einen blauen Kasten für Jungen und einen grünen für Mädchen. Kernaussagen: 1. 10 bis 14 Jahre: Jungen im Deutschen Jungvolk (DJ), Pimpfe genannt, mit Heimabenden, Sport, Geländespielen und Fahrten; Mädchen im Jungmädelbund (JM) mit Heimabenden, Sport, Singen und Basteln. 2. 14 bis 18 Jahre: Jungen in der Hitlerjugend (HJ) mit Drill, Marschieren, Schießen und Wehrertüchtigung; Mädchen im Bund Deutscher Mädel (BDM) mit Sport, Hauswirtschaft und Lagern, ab 17 im Werk Glaube und Schönheit. 3. Etwa 18 bis 19 Jahre: Jungen im Reichsarbeitsdienst (RAD), sechs Monate Pflicht mit Drill, eine Vorstufe zum Wehrdienst; Mädchen im Pflichtjahr und RAD mit Arbeit im Haushalt oder auf dem Hof. 4. Danach, ab etwa 19 Jahren: Jungen als Soldaten der Wehrmacht, opferbereit für Führer und Volk; Mädchen als deutsche Frau und Mutter mit Haushalt und vielen Kindern, später das Mutterkreuz, das es ab 1938 gab. 5. Merksatz unten: Das Regime wollte einen Weg ohne Abzweigung: Vom zehnten Lebensjahr an sollte der Lebenslauf vorgezeichnet sein, für Jungen zum Soldaten, für Mädchen zur Mutter.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "id": "k5-gleichschaltung",
+   "title": "Eine Jugend, ein Weg: Die Gleichschaltung der Jugend",
+   "body": "Vor 1933 gab es in Deutschland Hunderte Jugendverbände: Pfadfinder, Wandervögel, kirchliche Jugend, Arbeiterjugend, Sportvereine. Innerhalb weniger Monate nach der Machtübernahme wurden sie **verboten** oder in die Hitlerjugend **«eingegliedert»**; ihre Heime, Zeltplätze und Kassen übernahm die HJ. Nur die katholische Jugend konnte sich – geschützt durch einen Vertrag des Regimes mit dem Vatikan – noch einige Jahre halten, unter wachsendem Druck.\n\nDen Rest erledigten ein Gesetz und eine Verordnung:\n\n> «Die gesamte deutsche Jugend ist außer in Elternhaus und Schule in der Hitler-Jugend körperlich, geistig und sittlich im Geiste des Nationalsozialismus zum Dienst am Volk und zur Volksgemeinschaft zu erziehen.»\n>\n> — Gesetz über die Hitler-Jugend, 1. Dezember 1936, § 2\n\nDamit wurde die HJ zur **Staatsjugend**: Neben Elternhaus und Schule stand jetzt eine dritte Erziehungsmacht – die Hitlerjugend selbst, die Jugendorganisation der Partei mit staatlichem Auftrag. Ihr Chef war bis 1940 der **Reichsjugendführer Baldur von Schirach**. Was «Volksgemeinschaft» in der NS-Sprache bedeutete, weißt du aus [[modul:nationalsozialismus-ideologie-propaganda]]: eine Gemeinschaft, aus der viele ausgeschlossen blieben – jüdische Jugendliche durften nicht Mitglied sein.\n\nBis Anfang 1939 war die Zahl der Mitglieder in HJ, DJ, BDM und JM auf rund 8,7 Millionen gestiegen – fast alle Jugendlichen. Im März 1939 folgte die **Jugenddienstpflicht** (eine Verordnung zum Gesetz von 1936): Ab dem zehnten Lebensjahr war die Mitgliedschaft Pflicht, Eltern, die ihre Kinder fernhielten, konnten bestraft werden. Das Schaubild zeigt den Weg, den das Regime von da an für jeden Jungen und jedes Mädchen vorgesehen hatte: vom Jungvolk über die HJ und den Arbeitsdienst in die Wehrmacht, vom Jungmädelbund über den BDM in die Rolle der «deutschen Frau und Mutter».\n\n> **Merke:** «Gleichschaltung der Jugend» heißt: Unabhängige Jugendverbände wurden verboten oder in die HJ eingegliedert. Treffen, Wandern und Singen sollte es nur noch unter Aufsicht des Regimes geben. Wer sich trotzdem eigene Wege suchte, riskierte Verfolgung – davon erzählt dieses Modul weiter unten."
+  },
+  {
+   "type": "text",
+   "id": "k5-alltag",
+   "title": "Lagerfeuer und Drill: Warum die HJ anzog – und was sie verlangte",
+   "body": "Warum machten so viele Jugendliche begeistert mit? Die Hitlerjugend bot Dinge, die Jugendliche damals wie heute suchen – und verlangte dafür einen hohen Preis:\n\n| Was anzog | Was dahintersteckte |\n| --- | --- |\n| **Lager, Fahrten, Zeltnächte** – raus aus der Enge der Familie, Abenteuer | Gewöhnung an Befehl und Gehorsam, an Marschieren und Härte |\n| **Sport, Wettkämpfe, Geländespiele** | **«Wehrertüchtigung»** (NS-Wort für militärisches Training von Jugendlichen): Vorbereitung auf den Krieg, ab 16 Schießübungen |\n| **Gemeinschaft, Uniform, Fahne** – dazugehören, gleich sein | Kontrolle: Wer fehlt, wird gemeldet; jeder Dienst wird in einem Heft festgehalten |\n| **Verantwortung** – «Jugend führt Jugend»: 16-Jährige führen 12-Jährige | Druck nach unten weitergeben; Strafen durch Gleichaltrige |\n| **Ernst genommen werden** – ihr seid die Zukunft, hieß es | **Indoktrination** (Beeinflussung, die keinen Widerspruch zulässt): Heimabende mit «Rassenlehre», Führerkult, Feindbildern |\n| **Eigene Zeit unter Gleichaltrigen** – Wochenenden und Heimabende ohne Eltern | Zugriff auf die Familie: Die Partei erzieht neben dem Elternhaus; wer sein Kind fernhält, gilt als verdächtig, ab 1939 drohen Strafen |\n\n«Jugend führt Jugend» war ein kluger Trick: Die Führerinnen und Führer der Gruppen waren selbst Jugendliche – das fühlte sich an wie Selbstbestimmung, war aber das Gegenteil, denn Befehle kamen von oben und wurden nach unten durchgereicht. Und die Begeisterung war echt: Viele erinnerten sich später an die Fahrten als schönste Zeit ihrer Jugend – und erkannten erst viel später, wofür sie trainiert worden waren.\n\n> **Merke:** Die HJ war beides zugleich: ein Angebot, das Jugendliche wirklich anzog, und ein Instrument, das sie für Krieg und Gehorsam formte. Wer nur das eine sieht, versteht nicht, warum sie funktionierte."
+  },
+  {
+   "type": "text",
+   "id": "k5-ziele",
+   "title": "«Hart wie Kruppstahl» – die Erziehungsziele",
+   "body": "Was sollte aus den Jugendlichen werden? Hitler selbst sagte es den Jungen der HJ auf dem Reichsparteitag 1935 ins Gesicht:\n\n> «… schlank und rank, flink wie Windhunde, zäh wie Leder und hart wie Kruppstahl.»\n>\n> — Adolf Hitler, Rede vor der Hitlerjugend, Reichsparteitag Nürnberg, September 1935\n\nZur Einordnung: Hitler sprach hier als Parteiführer und Reichskanzler zu angetretenen HJ-Einheiten; «Kruppstahl» meint den Stahl der Firma Krupp in Essen, aus dem auch Kanonen gebaut wurden. **Dein Auftrag:** Lies das Zitat genau. Welche Eigenschaften nennt Hitler – und welche kommen gar nicht vor (Kopf, Herz, eigenes Urteil)? Notiere dir eine Antwort; in der Vertiefung am Ende des Moduls (Aufgabe 2) brauchst du sie.\n\n## Jungen\n\n**Hart, gehorsam, opferbereit – Soldaten.** Die HJ war Vorschule der Wehrmacht: Marschieren, Geländespiele, Kleinkaliberschießen, Mutproben. Wer weinte, galt als weich; wer fragte, galt als frech. Die Jungen des Jungvolks (10 bis 14) hießen «Pimpfe»; schon die Aufnahme verlangte eine «Pimpfenprobe» mit Sport, Marsch und dem Aufsagen von Parteiwissen.\n\n## Mädchen\n\n**Gesund, gehorsam, Hausfrau und Mutter vieler Kinder.** Der BDM bot Sport und Lager, aber sein Ziel war die **«deutsche Frau und Mutter»**: Hauswirtschaft, Säuglingspflege, Volkstanz, Handarbeit. Ab 1938 gab es das **«Mutterkreuz»** (amtlich: Ehrenkreuz der Deutschen Mutter) – ein Orden für Frauen mit vielen Kindern: Bronze ab vier, Silber ab sechs, Gold ab acht Kindern. HJ-Jungen sollten Trägerinnen des Mutterkreuzes grüßen. Dahinter stand die «Rassenlehre»: Mehr «arische» Kinder sollten das Volk «stark» machen – und künftige Soldaten liefern. Berufe für Frauen galten nur als Übergang bis zur Ehe.\n\n## Schule\n\nAuch die Schule wurde gleichgeschaltet. Ab 1933 stand **«Vererbungslehre und Rassenkunde»** auf dem Lehrplan: Im Unterricht wurde die pseudowissenschaftliche «Rassenlehre» als gesichertes Wissen vermittelt (mehr dazu in [[modul:nationalsozialismus-ideologie-propaganda]]). Rechenaufgaben rechneten mit Soldaten und «Erbkranken», der Geschichtsunterricht führte auf den «Führer» hin. Die Lehrkräfte waren fast alle im **NS-Lehrerbund** organisiert; **jüdische Lehrerinnen und Lehrer** wurden schon 1933 entlassen, jüdische Schülerinnen und Schüler nach und nach aus den Schulen gedrängt. Der Tag begann mit Hitlergruß und Fahnenappell.\n\n> **Merke:** Jungen → Soldat, Mädchen → Mutter. Beides diente demselben Ziel: dem Krieg."
+  },
+  {
+   "type": "lueckentext",
+   "id": "k5-lt-ziele",
+   "title": "Die Erziehungsziele im Überblick",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren"
+   ],
+   "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Ein Gesetz von {{1}} machte die Jugendorganisation der Partei zur Staatsjugend; ab {{2}} war die Mitgliedschaft Pflicht.\nNeben Elternhaus und Schule wurde die {{3}} zur dritten Erziehungsmacht.\nJungen sollten hart, gehorsam und opferbereit werden – kurz: {{4}}.\nMädchen sollten gesund und gehorsam sein und vor allem {{5}} vieler Kinder werden; dafür gab es ab 1938 das {{6}}.\nIn der Schule stand ab 1933 das Fach {{7}} auf dem Lehrplan, und jüdische Lehrkräfte wurden {{8}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "1936"
+     ]
+    },
+    {
+     "antworten": [
+      "1939"
+     ]
+    },
+    {
+     "antworten": [
+      "Hitlerjugend",
+      "HJ"
+     ]
+    },
+    {
+     "antworten": [
+      "Soldaten"
+     ]
+    },
+    {
+     "antworten": [
+      "Mutter"
+     ]
+    },
+    {
+     "antworten": [
+      "Mutterkreuz"
+     ]
+    },
+    {
+     "antworten": [
+      "Rassenkunde"
+     ]
+    },
+    {
+     "antworten": [
+      "entlassen"
+     ]
+    }
+   ],
+   "ablenker": [
+    "1926",
+    "Kirche",
+    "versetzt"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k5-lied",
+   "title": "Ein Lied für die Fahne: Was Jugendliche singen mussten",
+   "body": "Zur HJ gehörte das Singen – beim Marschieren, am Lagerfeuer, im Heimabend. Das bekannteste Lied war das **HJ-Fahnenlied** von 1933. Den Text schrieb der Reichsjugendführer Baldur von Schirach selbst, die Melodie stammt aus einem Propagandafilm desselben Jahres, in dem ein Hitlerjunge für die «Bewegung» (so nannten die Nationalsozialisten ihre Partei) stirbt. Wir geben den Text hier nicht wieder – er ist bis heute urheberrechtlich geschützt, und er verherrlicht den Tod. Wir beschreiben ihn:\n\n- Das Lied hat den Rhythmus eines **Marsches**; es wird im Gleichschritt gesungen, die Zeilen sind kurz und leicht zu brüllen.\n- Im Mittelpunkt steht die **Fahne**, die vorangetragen wird. Die Jugend soll ihr bedingungslos folgen.\n- Die Jugendlichen werden als künftige **Soldaten** angesprochen, die bereit sind, für Führer und Deutschland zu kämpfen.\n- Die Kernaussage des Refrains: Die Fahne ist **mehr wert als das eigene Leben** – der Tod für sie wird als Ehre dargestellt.\n\nStell dir vor, 200 Vierzehnjährige singen das im Gleichschritt, mit Trommeln, abends im Lager. Genau darum ging es: Ein Lied, das man hundertmal gesungen hat, denkt man nicht mehr – man fühlt es. So wurde die **Bereitschaft zu sterben** zu einem Gefühl von Gemeinschaft gemacht, lange bevor jemand wirklich an die Front musste. Den Analyseauftrag dazu findest du am Ende des Moduls (Vertiefung, Aufgabe 2)."
+  },
+  {
+   "type": "text",
+   "id": "k5-eliteschulen",
+   "title": "Eliteschulen: Napola und Adolf-Hitler-Schulen",
+   "body": "Für die «Besten» hatte das Regime eigene Schulen:\n\n- **Nationalpolitische Erziehungsanstalten (NPEA)**, von allen nur **«Napola»** genannt: **staatliche Internate**, die ersten drei ab April 1933 in ehemaligen preußischen Kadettenanstalten (Militärinternaten, in denen früher der Offiziersnachwuchs ausgebildet wurde), ab 1936 unter zunehmendem Einfluss der SS. Bis 1945 gab es rund 40 davon im Deutschen Reich und in besetzten Gebieten, darunter wenige für Mädchen. Ziel: die **künftige Führungselite** in Staat, Partei und Militär.\n- **Adolf-Hitler-Schulen (AHS)**, ab 1937, geführt von der **Partei** und der HJ: Internate für Jungen ab 12, Aufnahme über die HJ, ohne Schulgeld.\n\nAufgenommen wurde, wer die **Auslese** bestand: «rassische» Kriterien (Abstammungsnachweis, Aussehen), körperliche Leistung (Sport, Mutproben), Gehorsam und «Charakter». Herkunft und Geld spielten eine geringere Rolle als an alten Elitegymnasien – das Schulgeld der Napola richtete sich nach dem Einkommen der Eltern, auch Arbeitersöhne konnten aufgenommen werden. Das war Teil des Versprechens der «Volksgemeinschaft».\n\nDer Alltag: militärischer **Drill**, Fahnenappell, **Sport** in jeder Form – Boxen gehörte dazu, weil es «Härte» beweisen sollte –, Geländeübungen, Segelfliegen, Reiten, dazu Unterricht nach festem Lehrplan in Uniform, mit viel «Rassenkunde». Die Schüler lebten in «Zügen» und «Hundertschaften» wie Soldaten, Ältere kommandierten Jüngere. Im Krieg wurden die Napolas zunehmend zu Nachwuchsschulen für Wehrmacht und Waffen-SS: Ältere Schüler wurden immer früher eingezogen, viele meldeten sich selbst als Offiziersanwärter – und viele von ihnen fielen.\n\n> **Merke:** Die Eliteschulen waren das Modell dessen, was die HJ im Kleinen überall versuchte – nur mit mehr Zeit, mehr Drill und ohne Elternhaus."
+  },
+  {
+   "type": "text",
+   "id": "k5-film",
+   "title": "Der Film «Napola» (2004): Fiktion vor historischem Hintergrund",
+   "body": "Du hast den Film **«Napola – Elite für den Führer»** (Deutschland 2004, Regie: Dennis Gansel) gesehen. Er erzählt von **Friedrich**, einem Arbeiterjungen aus Berlin, der wegen seines Boxtalents 1942 an eine Napola kommt, und von **Albrecht**, dem Sohn eines hohen Parteifunktionärs, mit dem er sich anfreundet.\n\nBevor du den Film als Geschichtsquelle benutzt, musst du wissen, was er ist: ein **Spielfilm**, also eine **Darstellung** – keine Quelle aus der Zeit. Die Figuren Friedrich und Albrecht sind erfunden, ihre Geschichte ist ausgedacht und auf wenige Wochen zugespitzt, damit sie in zwei Stunden passt und uns berührt. Für die Frage «Wie war es 1942 wirklich?» ist der Film keine Quelle. Für die Frage «Wie erzählt Deutschland im Jahr 2004 vom Nationalsozialismus?» ist er dagegen eine ausgezeichnete Quelle.\n\nWas im Film zu den historischen Fakten passt:\n\n- die **Auslese** nach körperlichen und «rassischen» Kriterien,\n- **Boxen**, Drill, Mutproben und Gehorsam als Erziehungsmittel,\n- die **Hierarchie unter den Schülern**: Ältere kommandierten Jüngere,\n- dass **auch Arbeitersöhne aufgenommen werden konnten** – neben Söhnen hoher Funktionäre,\n- der **Einsatz von Schülern bei der Suche nach geflohenen Gefangenen** – als Szene erfunden, aber an reale Verbrechen angelehnt: Gegen Kriegsende wurden Hitlerjungen und Schüler tatsächlich bei Fahndungen und als Wachpersonal eingesetzt.\n\nWas erfunden oder dramatisiert ist: die beiden Hauptfiguren und ihre persönliche Geschichte, einzelne Lehrer und Dialoge, die Zuspitzung vieler Ereignisse auf wenige Wochen – und die Deutung, wie einsam die Jungen unter dem Druck wurden. Das ist kein Fehler des Films – so funktioniert Kino. Wichtig ist nur, dass du beides auseinanderhältst.\n\n> **Merke:** Ein Spielfilm zeigt dir, wie Menschen sich eine Zeit vorstellen – nicht, wie sie war. Prüfe jede Filmaussage an Quellen und Fachtexten, bevor du sie als Tatsache übernimmst."
+  },
+  {
+   "type": "lueckentext",
+   "id": "k5-lt-film",
+   "title": "Film oder Fakt?",
+   "teilkompetenzen": [
+    "geschichte.methoden.spielfilm-einordnen"
+   ],
+   "intro": "Ordne jede Aussage ein: Ist sie historisch **belegt**, oder ist sie **erfunden** (im Film dazugedichtet oder gar nicht so gewesen)? Entscheide nur mit den Texten dieses Moduls. Sechs Aussagen sind belegt, drei erfunden.",
+   "modus": "wortbank",
+   "text": "Es gab staatliche Internate namens Nationalpolitische Erziehungsanstalten, die eine künftige Führungselite ausbilden sollten. {{1}}\nDie Hauptfiguren Friedrich und Albrecht haben wirklich an einer Napola gelebt. {{2}}\nBewerber wurden nach «rassischen» und körperlichen Kriterien ausgewählt; Mutproben gehörten dazu. {{3}}\nBoxen, Drill und Geländeübungen gehörten zum Alltag der Eliteschulen. {{4}}\nDie Napola-Schüler trugen keine Uniform und konnten ihre Fächer frei wählen. {{5}}\nAuch Söhne aus einfachen Verhältnissen konnten aufgenommen werden – das Schulgeld richtete sich nach dem Einkommen der Eltern. {{6}}\nBis 1945 gab es rund 40 solcher Anstalten. {{7}}\nDie Napolas wurden von der Hitlerjugend geleitet, nicht vom Staat. {{8}}\nViele Absolventen gingen als Offiziersanwärter zur Wehrmacht, und viele fielen im Krieg. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "belegt"
+     ]
+    },
+    {
+     "antworten": [
+      "erfunden"
+     ]
+    },
+    {
+     "antworten": [
+      "belegt"
+     ]
+    },
+    {
+     "antworten": [
+      "belegt"
+     ]
+    },
+    {
+     "antworten": [
+      "erfunden"
+     ]
+    },
+    {
+     "antworten": [
+      "belegt"
+     ]
+    },
+    {
+     "antworten": [
+      "belegt"
+     ]
+    },
+    {
+     "antworten": [
+      "erfunden"
+     ]
+    },
+    {
+     "antworten": [
+      "belegt"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k5-film-tasks",
+   "title": "Den Film einordnen",
+   "teilkompetenzen": [
+    "geschichte.methoden.spielfilm-einordnen"
+   ],
+   "intro": "Deine Antworten gehen an deine Lehrperson. Aufgaben 1 und 2 sind für alle gedacht, Aufgabe 3 ist als **(Erweitert)** gekennzeichnet. Gib Filmszenen nicht als «historische Tatsachen» aus – prüfe sie an den Texten dieses Moduls.",
+   "tasks": [
+    {
+     "id": "k5-f1",
+     "prompt": "Nenne zwei Dinge aus dem Film, die zu den historischen Fakten über die Napola passen, und eines, das erfunden oder dramatisiert ist. Begründe kurz (zwei bis vier Sätze).",
+     "hint": "Vergleiche mit dem Abschnitt «Eliteschulen»: Auslese, Boxen, Drill, Hierarchie sind belegt – die Personen und ihre Geschichte nicht.",
+     "solution": "Beispielantwort: Belegt sind die Auslese nach körperlichen und «rassischen» Kriterien und das Boxen als Mittel, Härte zu beweisen – beides stand wirklich im Programm der Napolas. Erfunden ist die Figur des Friedrich samt seiner Freundschaft mit Albrecht; die Handlung ist ausgedacht und auf zwei Personen zugespitzt, damit wir mitfühlen können."
+    },
+    {
+     "id": "k5-f2",
+     "prompt": "Vergleiche Friedrich und Albrecht: Wie zeigt der Film, dass sich einer an das System anpasst und der andere sich verweigert? Beschreibe in drei bis fünf Sätzen, was jede dieser Entscheidungen kostet – aus Sicht der beiden Jugendlichen, nicht aus Sicht der Erzieher.",
+     "hint": "Achte auf die Momente, in denen die Figuren zwischen Dazugehören und Gewissen entscheiden müssen. Was gewinnt man durch Anpassung, was verliert man? Und umgekehrt?",
+     "solution": "Beispielantwort: Der Film stellt zwei Wege nebeneinander: Anpassung bringt Anerkennung, Zugehörigkeit und Erfolg, verlangt aber, Unrecht mitzumachen und sich selbst zu verleugnen. Verweigerung bewahrt das Gewissen, kostet aber Schutz, Zukunft und die Freundschaft der anderen – im NS-Staat konnte sie das Leben kosten. Der Film macht deutlich, dass es für Jugendliche unter dem Druck des Systems keinen Weg gab, der nichts kostete."
+    },
+    {
+     "id": "k5-f3",
+     "prompt": "(Erweitert) Warum erzählen Spielfilme Geschichte fast immer über ein oder zwei Einzelschicksale statt über Zahlen, Gesetze und Strukturen? Nenne in drei bis fünf Sätzen zwei Vorteile und einen Nachteil dieser Erzählweise – und erkläre, warum ein Film eine Darstellung und keine Quelle für 1942 ist.",
+     "hint": "Denk daran, was dich im Film berührt hat – und was du über die Napola erst aus den Texten dieses Moduls erfahren hast.",
+     "solution": "Beispielantwort: Einzelschicksale machen Geschichte erlebbar: Wir fühlen mit einer Person mit und verstehen, wie sich Druck, Angst oder Begeisterung anfühlten – das schaffen Zahlen nicht. Außerdem lässt sich eine komplizierte Zeit so in zwei Stunden erzählen. Der Nachteil: Die Strukturen – Gesetze, die Rolle der Partei, die Zahl der Betroffenen – bleiben im Hintergrund, und die erfundene Figur kann uns ein falsches Bild davon geben, wie typisch ihr Weg war. Deshalb ist der Film eine Darstellung von 2004, die zeigt, wie man sich die Zeit heute vorstellt, aber keine Quelle aus dem Jahr 1942."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k5-widerstand",
+   "title": "Nicht alle machten mit: Edelweißpiraten, Swing-Jugend, Helmuth Hübener",
+   "body": "Trotz Gesetz und Druck gab es Jugendliche, die sich nicht fügten – von kleiner Verweigerung bis zu offenem Widerstand. Das Regime ging gegen sie vor – vom Druck auf die Eltern und Strafen bis zu Verhaftung, Jugend-Konzentrationslager (kurz: Jugend-KZ) und Todesurteil.\n\n## Edelweißpiraten\n\nIm **Rheinland und Ruhrgebiet**, besonders in Köln, trafen sich ab Ende der 1930er-Jahre Gruppen von Lehrlingen und jungen Arbeiterinnen und Arbeitern, die der HJ fernblieben: Sie trugen ein Edelweiß an der Jacke, machten eigene **Wanderungen und Zeltfahrten**, sangen eigene Lieder mit spöttischen Texten und lieferten sich **Schlägereien mit dem HJ-Streifendienst**, einer HJ-Einheit, die Jugendliche kontrollierte. Im Krieg halfen manche Gruppen **Deserteuren** (Soldaten, die aus der Wehrmacht geflohen waren) und **Zwangsarbeitern** (Menschen aus besetzten Ländern, die in Deutschland arbeiten mussten). Die Gestapo sah in ihnen «Banden». Im **November 1944** wurden in **Köln-Ehrenfeld 13 Menschen öffentlich gehängt**, ohne Gerichtsverfahren, darunter Jugendliche aus diesem Umfeld – einer von ihnen war der 16-jährige Lehrling **Bartholomäus Schink**.\n\n## Swing-Jugend\n\nIn **Hamburg** und anderen Großstädten trafen sich Jugendliche aus meist bürgerlichen Familien, um **Jazz und Swing** zu hören und zu tanzen – Musik, die das Regime als «undeutsch» und «entartet» ablehnte und zunehmend verbot. Beides sind NS-Wörter: «undeutsch» hieß «nicht zum deutschen Volk passend», «entartet» bedeutete angeblich «verdorben» – das Regime wertete damit alles ab, was nicht in sein Weltbild passte. Die Swing-Jugend trug lange Haare, englische Mode und Schirme bei Sonnenschein und sprach sich mit englischen Namen an. Das war keine Politik, aber eine **Weigerung, sich einfügen zu lassen** – und das genügte: Ab 1941 wurden in Hamburg Hunderte verhaftet, manche kamen in die **Jugend-KZ Moringen** (für Jungen) und **Uckermark** (für Mädchen).\n\n## Helmuth Hübener\n\n**Helmuth Hübener** aus Hamburg war 16, als er 1941 begann, nachts heimlich die **BBC** zu hören – den verbotenen britischen Sender. Mit zwei Freunden tippte er die Nachrichten auf Flugblätter und verteilte sie in Briefkästen und Telefonzellen: Berichte über den wahren Kriegsverlauf, die die deutsche Propaganda verschwieg. Im Februar 1942 wurde er verraten und verhaftet. Der **Volksgerichtshof** – ein Sondergericht des Regimes für politische Verfahren, in dem es keine faire Verteidigung gab – verurteilte ihn zum Tod; am **27. Oktober 1942** wurde er hingerichtet, mit **17 Jahren** einer der jüngsten Menschen, die dieses Gericht zum Tod verurteilte.\n\n> **(Erweitert) Die Weiße Rose:** In München verteilten Studierende um Hans und Sophie Scholl, Christoph Probst, Alexander Schmorell, Willi Graf und den Professor Kurt Huber 1942/43 Flugblätter gegen das Regime und den Krieg. Im Februar 1943 wurden die Geschwister Scholl beim Auslegen von Flugblättern in der Universität entdeckt; vier Tage später wurden sie und Christoph Probst hingerichtet, später auch die anderen. Ihre Flugblätter gehören heute zu den bekanntesten Texten des deutschen Widerstands.\n\n> **Merke:** Es gab viele Formen des Neinsagens – vom Fernbleiben über eigene Musik bis zum Flugblatt. Das Regime reagierte je nach Stufe unterschiedlich hart: mit Strafen für die Eltern, mit Verhaftung und Jugend-KZ, bei offenem Widerstand bis zur Hinrichtung."
+  },
+  {
+   "type": "zuordnung",
+   "id": "k5-zu-gruppen",
+   "title": "Wer oder was war das?",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren"
+   ],
+   "intro": "Ordne jede Beschreibung der passenden Gruppe, Person oder Einrichtung zu. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "Lehrlinge und junge Arbeiter im Rheinland, die der HJ fernblieben und eigene Wanderungen und Lieder hatten"
+     },
+     "rechts": {
+      "text": "Edelweißpiraten"
+     }
+    },
+    {
+     "links": {
+      "text": "Jazz, englische Mode und Tanzabende in Hamburg"
+     },
+     "rechts": {
+      "text": "Swing-Jugend"
+     }
+    },
+    {
+     "links": {
+      "text": "Flugblätter mit Nachrichten der BBC, mit 17 Jahren hingerichtet"
+     },
+     "rechts": {
+      "text": "Helmuth Hübener"
+     }
+    },
+    {
+     "links": {
+      "text": "HJ-Einheit, die Jugendliche kontrollierte und Unangepasste meldete"
+     },
+     "rechts": {
+      "text": "HJ-Streifendienst"
+     }
+    },
+    {
+     "links": {
+      "text": "Lager für Jungen, die sich dem Regime nicht fügten"
+     },
+     "rechts": {
+      "text": "Jugend-KZ Moringen"
+     }
+    },
+    {
+     "links": {
+      "text": "Lager für Mädchen, die sich dem Regime nicht fügten"
+     },
+     "rechts": {
+      "text": "Jugend-KZ Uckermark"
+     }
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "id": "k5-video",
+   "provider": "youtube",
+   "videoId": "iraKtSfVgFk",
+   "title": "Zusatz (optional): Video «Jugend im Nationalsozialismus» (13:56)",
+   "description": "Dieses Video von MrWissen2go Geschichte (Terra X, ZDF) ist ein freiwilliges Zusatzangebot – alles, was du für die Aufgaben brauchst, steht in den Texten dieses Moduls. Wenn du es schaust (Internet nötig, startet erst nach deinem Klick), achte auf zwei Leitfragen: (1) Welche Gründe nennt das Video dafür, dass viele Jugendliche die Zeit in HJ und BDM als schön erlebten – und was lief dabei «unterschwellig» ab? (2) Welche Formen von Widerstand kommen vor, und was drohte den Jugendlichen?",
+   "transcript": "Zusammenfassung des Videos «Jugend im Nationalsozialismus» (MrWissen2go Geschichte | Terra X, 13:56): Das Video fragt, wie eine Jugend in der NS-Diktatur aussah. Die ganze Gesellschaft sollte gleichgeschaltet werden, auch die Jugend; dafür setzten die Nationalsozialisten auf eigene Verbände, die Hitlerjugend und den Bund Deutscher Mädel. Dort wurden Kinder und Jugendliche nicht nur erzogen, sondern auf ihre Zukunft als Soldaten vorbereitet; sie sollten nicht der Familie, sondern dem Führer und der «Volksgemeinschaft» treu sein und bereit sein, für die Ideale der Nationalsozialisten zu kämpfen und zu sterben. Mädchen wurden zum Dienst für den Führer erzogen, sollten die Soldaten unterstützen und Kinder bekommen. Für viele war diese Zeit eine schöne Zeit; die Beeinflussung wirkte unterschwellig. Das Video zeigt aber auch, dass es Jugendliche gab, die sich nicht anpassen wollten und Widerstand leisteten – und was ihnen drohte.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "id": "k5-quellen",
+   "title": "Quellenkritik: Was Hitler angeblich über Erziehung sagte (Erweitert)",
+   "body": "In vielen Büchern und im Internet findest du ein berühmtes Zitat, in dem Hitler angeblich beschreibt, welche «gewalttätige, herrische, unerschrockene, grausame Jugend» er sich wünsche. Es passt perfekt zu allem, was du in diesem Modul gelernt hast – und genau deshalb solltest du misstrauisch werden.\n\nDas Zitat stammt aus dem Buch **«Gespräche mit Hitler»** von **Hermann Rauschning**, erschienen 1939/40 im Exil. Rauschning war ein früherer Nationalsozialist aus Danzig, der sich vom Regime abgewandt hatte und behauptete, viele vertrauliche Gespräche mit Hitler geführt zu haben. Mit seinem Buch wollte er die Welt vor Hitler warnen – eine verständliche Absicht, aber noch kein Beweis, dass die Gespräche so stattgefunden haben. Das Buch wurde ein Welterfolg – es sagte den Lesern, was sie über Hitler erwarteten.\n\nSeit den 1980er-Jahren hat die Forschung das Buch gründlich geprüft, und das Ergebnis ist eindeutig: Rauschning hatte Hitler nur wenige Male kurz getroffen. Die langen «Gespräche» sind **nachträglich konstruiert** – zusammengesetzt aus Zeitungsberichten, «Mein Kampf», Hitlers Reden und Rauschnings eigenen Vorstellungen, manches ist frei erfunden. Historikerinnen und Historiker benutzen das Buch deshalb **nicht mehr als Quelle für Hitlers Worte**. Dass das Erziehungszitat trotzdem überall steht, zeigt, wie zäh sich eine gute Geschichte hält – auch wenn sie nicht belegt ist.\n\nFür dich heißt das, bei jedem Zitat zu fragen:\n\n1. **Wer** berichtet – und war die Person wirklich dabei?\n2. **Wann** wurde es aufgeschrieben – sofort oder Jahre später?\n3. **Warum** wurde es veröffentlicht – welche Absicht hatte der Autor?\n4. **Was sagt die Forschung** heute dazu?\n\nDas Zitat aus «Mein Kampf» im Erweitert-Teil von [[modul:nationalsozialismus-ideologie-propaganda]] besteht die Fragen 1, 2 und 4: Hitler hat es selbst geschrieben und 1925 veröffentlicht, und der Wortlaut ist durch die Forschung gesichert – es ist also ein echter Beleg dafür, was Hitler öffentlich vertrat. Frage 3 gilt trotzdem auch für ihn: «Mein Kampf» war eine Programm- und Werbeschrift, also muss man auch dort fragen, was Hitler mit seinen Worten erreichen wollte. Das Rauschning-Zitat besteht dagegen schon die erste Frage nicht. Echt ist nur das eine – und selbst echte Quellen liest man mit Verstand."
+  },
+  {
+   "type": "tasks",
+   "id": "k5-tasks",
+   "title": "Vertiefung: Tagebuch, Lied und Quelle",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren",
+    "geschichte.methoden.quellen-beurteilen"
+   ],
+   "intro": "Deine Antworten gehen an deine Lehrperson. Aufgaben 1 und 2 sind für alle gedacht, die Aufgaben 3 und 4 sind als **(Erweitert)** gekennzeichnet.",
+   "tasks": [
+    {
+     "id": "k5-t1",
+     "prompt": "Schreibe einen kurzen Tagebucheintrag (zwei bis fünf Sätze) eines 15-jährigen Mädchens im Jahr 1939, das im BDM ist. Sie beschreibt einen Heimabend, bei dem es um die «Aufgaben der deutschen Frau» ging – und fragt sich, ob sie das wirklich will. Schreibe als Beobachterin und Zeitgenossin, nicht als Täterin.",
+     "hint": "Was hat das Mädchen gehört (Hausfrau, Mutter vieler Kinder, Beruf nur bis zur Ehe)? Was mag sie am BDM vielleicht trotzdem (Freundinnen, Sport, Lager)? Und welche eigenen Wünsche passen nicht ins Bild?",
+     "solution": "Beispielantwort: «Heute hat unsere Führerin erklärt, dass die wichtigste Aufgabe einer deutschen Frau sei, viele Kinder zu bekommen, und dass ein Beruf nur bis zur Hochzeit etwas sei. Alle haben genickt, ich auch. Aber ich will Ärztin werden, das habe ich schon immer gewollt. Das Lager im Sommer war das Schönste in diesem Jahr, und ich möchte meine Freundinnen nicht verlieren – trotzdem frage ich mich, warum ausgerechnet wir nicht entscheiden dürfen, was aus uns wird.» (Gut ist jede Antwort, die die Erziehungsziele für Mädchen benennt und einen eigenen Zweifel formuliert.)"
+    },
+    {
+     "id": "k5-t2",
+     "prompt": "Das Kruppstahl-Zitat nennt nur Körper und Härte, das HJ-Fahnenlied stellt den Tod für die Fahne als Ehre dar. Erkläre in zwei bis vier Sätzen, warum ein Regime, das einen Krieg vorbereitet, Jugendliche genau das hören und singen lässt – und welche Rolle das gemeinsame Singen dabei spielte.",
+     "hint": "Was muss ein Soldat bereit sein zu tun? Welche Eigenschaften fehlen im Zitat? Und was passiert mit einem Gedanken, den man hundertmal gemeinsam gesungen hat – denkt man ihn noch, oder fühlt man ihn?",
+     "solution": "Beispielantwort: Ein Regime, das Krieg plant, braucht Soldaten, die hart sind, nicht nachfragen und bereit sind zu sterben; das Zitat nennt deshalb nur Körper und Härte, nicht Verstand oder Mitgefühl. Diese Bereitschaft wurde den Jugendlichen Jahre vorher als Ehre und Gemeinschaftsgefühl eingeübt. Beim gemeinsamen Singen im Gleichschritt prüft niemand den Text – man fühlt sich stark und zugehörig, und die Botschaft gleitet unbemerkt mit hinein. So wurde aus einer schrecklichen Idee ein schönes Gefühl."
+    },
+    {
+     "id": "k5-t3",
+     "prompt": "(Erweitert) Erkläre in drei bis fünf Sätzen, warum Rauschnings «Gespräche mit Hitler» nicht als Quelle für Hitlers Erziehungsziele taugen – und was man stattdessen als Quelle nehmen könnte.",
+     "hint": "Nutze die vier Prüffragen (Wer? Wann? Warum? Forschungsstand?). Welche Texte hat Hitler selbst geschrieben oder öffentlich gehalten?",
+     "solution": "Beispielantwort: Rauschning hatte Hitler nur wenige Male kurz getroffen und veröffentlichte die angeblichen Gespräche erst 1939/40 im Exil; er hatte sich vom Regime abgewandt und wollte vor Hitler warnen – er war also kein neutraler Zeuge. Die Forschung hat gezeigt, dass die Gespräche aus anderen Texten zusammengesetzt und teils erfunden sind. Verlässlicher sind Hitlers eigene Texte und Reden – etwa «Mein Kampf» oder die Rede vor der HJ 1935 – und die Gesetze wie das HJ-Gesetz von 1936, weil sie belegen, was das Regime wirklich wollte und tat."
+    },
+    {
+     "id": "k5-t4",
+     "prompt": "(Erweitert) Ordne die Weiße Rose in die Formen des Neinsagens ein, die du in diesem Modul kennengelernt hast. Vergleiche sie in drei bis fünf Sätzen mit Helmuth Hübener: Was hatten beide gemeinsam, worin unterschieden sie sich (Alter, Ort, Mittel)?",
+     "hint": "Beide Gruppen verteilten Flugblätter – was stand darauf, und wer waren die Verfasser? Denk an Hamburg oder München und daran, ob es Jugendliche oder Studierende waren.",
+     "solution": "Beispielantwort: Die Weiße Rose steht wie Helmuth Hübener auf der härtesten Stufe des Neinsagens, dem Flugblatt: Beide verteilten heimlich Flugblätter gegen das Regime und wurden dafür hingerichtet. Hübener war erst 16, als er in Hamburg begann, Nachrichten der BBC weiterzugeben; die Weiße Rose bestand aus Studierenden und einem Professor in München, deren eigene Flugblätter zum Widerstand gegen Regime und Krieg aufriefen. Beide Fälle zeigen, dass es Neinsagen auch unter größtem Druck gab."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "k5-quiz",
+   "title": "Selbstcheck: Jugend im NS-Staat",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren",
+    "geschichte.methoden.spielfilm-einordnen"
+   ],
+   "intro": "Prüfe, ob du den Stoff verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "k5-q1",
+     "type": "single_choice",
+     "prompt": "Was bestimmte das Gesetz über die Hitlerjugend vom 1. Dezember 1936?",
+     "options": [
+      {
+       "text": "Nur Kinder von Parteimitgliedern durften von nun an in die Hitlerjugend aufgenommen werden."
+      },
+      {
+       "text": "Die Hitlerjugend wurde aufgelöst, ihre Aufgaben übernahmen von nun an die Schulen und Lehrkräfte."
+      },
+      {
+       "text": "Die gesamte Jugend sollte neben Elternhaus und Schule in der HJ erzogen werden – sie wurde Staatsjugend.",
+       "correct": true
+      },
+      {
+       "text": "Die Mitgliedschaft blieb freiwillig und galt nur noch für Jungen ab 16 Jahren, nicht für Mädchen."
+      }
+     ],
+     "explanation": "Das Gesetz machte die HJ zur dritten Erziehungsmacht neben Elternhaus und Schule, für alle Jugendlichen. Beitritt nur für Parteikinder, Auflösung oder Freiwilligkeit ab 16 stehen nicht im Gesetz – die Pflicht folgte 1939 mit der Jugenddienstpflicht."
+    },
+    {
+     "id": "k5-q2",
+     "type": "single_choice",
+     "prompt": "Seit wann war die Mitgliedschaft in der Hitlerjugend Pflicht?",
+     "options": [
+      {
+       "text": "Seit 1939, als eine Verordnung die Mitgliedschaft ab dem zehnten Lebensjahr vorschrieb.",
+       "correct": true
+      },
+      {
+       "text": "Seit 1926, als die Hitlerjugend als Jugendverband der Partei gegründet wurde."
+      },
+      {
+       "text": "Seit dem 30. Januar 1933, dem Tag der Machtübernahme, durch eine Notverordnung."
+      },
+      {
+       "text": "Erst seit 1943, als die Wehrmacht im Krieg dringend Nachwuchs brauchte."
+      }
+     ],
+     "explanation": "1936 wurde die HJ Staatsjugend, im März 1939 machte die Jugenddienstpflicht die Mitgliedschaft zur Pflicht. 1926 war die HJ ein kleiner Verband, 1933 traten viele freiwillig oder unter Druck ein, und 1943 waren längst fast alle Mitglied."
+    },
+    {
+     "id": "k5-q3",
+     "type": "single_choice",
+     "prompt": "Welches Erziehungsziel hatte der NS-Staat für Mädchen?",
+     "options": [
+      {
+       "text": "Sie sollten Offizierinnen der Wehrmacht werden und Truppen an der Front führen."
+      },
+      {
+       "text": "Sie sollten studieren und in Wissenschaft und Technik Karriere machen."
+      },
+      {
+       "text": "Sie sollten als Arbeiterinnen in der Industrie die Männer dauerhaft ersetzen."
+      },
+      {
+       "text": "Sie sollten gesund und gehorsam sein und als Hausfrau und Mutter viele Kinder bekommen.",
+       "correct": true
+      }
+     ],
+     "explanation": "Das Ziel war die «deutsche Frau und Mutter»: Hauswirtschaft, Säuglingspflege, viele Kinder – belohnt mit dem «Mutterkreuz». Berufe galten nur als Übergang bis zur Ehe; Offizierslaufbahn, Studium oder Industriearbeit gehörten nicht zum Bild, auch wenn der Krieg später Frauen in die Fabriken zwang."
+    },
+    {
+     "id": "k5-q4",
+     "type": "single_choice",
+     "prompt": "Was war eine «Napola»?",
+     "options": [
+      {
+       "text": "Eine Parteischule der Hitlerjugend, die ab 1937 Jungen ohne Schulgeld aufnahm."
+      },
+      {
+       "text": "Ein staatliches Internat ab 1933, das mit Drill und Sport eine Führungselite ausbilden sollte.",
+       "correct": true
+      },
+      {
+       "text": "Ein Jugend-Konzentrationslager für Jugendliche, die sich dem Regime nicht fügten."
+      },
+      {
+       "text": "Ein Lager des Reichsarbeitsdienstes, in dem junge Männer sechs Monate Pflichtarbeit leisteten."
+      }
+     ],
+     "explanation": "Die Nationalpolitischen Erziehungsanstalten waren staatliche Internate ab 1933 mit Auslese, Drill, Sport und Unterricht – rund 40 bis 1945. Die Parteischule ab 1937 war die Adolf-Hitler-Schule; Jugend-KZ (Moringen, Uckermark) und RAD-Lager waren etwas ganz anderes."
+    },
+    {
+     "id": "k5-q5",
+     "type": "true_false",
+     "prompt": "Der Film «Napola» (2004) erzählt die wahre Geschichte zweier Schüler, die genau so gelebt haben.",
+     "answer": false,
+     "explanation": "Falsch. Friedrich und Albrecht sind erfundene Figuren; die Handlung ist ausgedacht und spielt vor historischem Hintergrund. Belegt sind Auslese, Drill, Boxen und Hierarchie – nicht die Personen."
+    },
+    {
+     "id": "k5-q6",
+     "type": "single_choice",
+     "prompt": "Wer waren die Edelweißpiraten?",
+     "options": [
+      {
+       "text": "Eine Spezialeinheit der Hitlerjugend, die in den Alpen das Bergsteigen und Klettern übte."
+      },
+      {
+       "text": "Ein Tanzclub in Hamburg, in dem Jugendliche aus bürgerlichen Familien verbotene Swing-Musik hörten."
+      },
+      {
+       "text": "Pfadfinderinnen und Pfadfinder aus der Schweiz, die deutsche Jugendliche in den Ferien besuchten."
+      },
+      {
+       "text": "Unangepasste Jugendliche im Rheinland und Ruhrgebiet mit eigenen Fahrten, die sich mit der HJ anlegten.",
+       "correct": true
+      }
+     ],
+     "explanation": "Die Edelweißpiraten waren Gruppen von Lehrlingen und jungen Arbeitern vor allem in Köln, die der HJ fernblieben, eigene Fahrten machten und sich mit dem HJ-Streifendienst prügelten; das Edelweiß war ihr Erkennungszeichen. Swing hörte die Swing-Jugend in Hamburg; eine HJ-Spezialeinheit oder Schweizer Pfadfinder waren sie nicht."
+    },
+    {
+     "id": "k5-q7",
+     "type": "single_choice",
+     "prompt": "Wer war Helmuth Hübener?",
+     "options": [
+      {
+       "text": "Ein Napola-Schüler aus Berlin, der die Schule verließ und später als junger Offizier im Krieg fiel."
+      },
+      {
+       "text": "Ein 17-Jähriger aus Hamburg, der Flugblätter mit BBC-Nachrichten verteilte und 1942 hingerichtet wurde.",
+       "correct": true
+      },
+      {
+       "text": "Der Reichsjugendführer, der den Text des HJ-Fahnenlieds schrieb und die Hitlerjugend leitete."
+      },
+      {
+       "text": "Der Komponist, der die Melodie des HJ-Fahnenlieds für einen Propagandafilm von 1933 schrieb."
+      }
+     ],
+     "explanation": "Helmuth Hübener hörte heimlich die BBC, verteilte die Nachrichten auf Flugblättern und wurde vom Volksgerichtshof zum Tod verurteilt – mit 17 Jahren. Reichsjugendführer und Textdichter des Fahnenlieds war Baldur von Schirach, die Melodie stammt von einem Filmkomponisten – und der Napola-Schüler ist eine Beschreibung, die zu vielen Absolventen passt, aber nicht zu Hübener."
+    },
+    {
+     "id": "k5-q8",
+     "type": "single_choice",
+     "prompt": "Warum zog die Hitlerjugend viele Jugendliche an – und warum war das für das Regime nützlich?",
+     "options": [
+      {
+       "text": "Sie zahlte ihren Mitgliedern einen Lohn, auf den viele Familien in der Krise angewiesen waren."
+      },
+      {
+       "text": "Sie war die einzige Organisation, in der Jugendliche Lesen, Schreiben und Rechnen lernen konnten."
+      },
+      {
+       "text": "Sie bot Fahrten, Sport, Gemeinschaft und Verantwortung – und gewöhnte dabei an Gehorsam und Krieg.",
+       "correct": true
+      },
+      {
+       "text": "Sie ließ Jugendliche selbst entscheiden, ob sie an Schulungen, Diensten und Lagern teilnehmen wollten."
+      }
+     ],
+     "explanation": "Die HJ war ein echtes Angebot – Lager, Fahrten, Sport, Verantwortung nach dem Grundsatz «Jugend führt Jugend» – und zugleich ein Instrument: Sie gewöhnte an Befehl und Gehorsam und bereitete auf den Krieg vor. Lohn gab es nicht, Lesen und Schreiben lernte man in der Schule, und Dienst war Pflicht, nicht Wahl."
+    }
+   ]
+  }
+ ]
+}
