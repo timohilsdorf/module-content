@@ -1,0 +1,1747 @@
+{
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-antisemitismus-ausgrenzung",
+ "title": "Vom Vorurteil zum Gesetz: Antisemitismus und Ausgrenzung bis 1935",
+ "description": "Judenhass ist viel älter als der Nationalsozialismus. Du lernst, wie aus dem religiösen Antijudaismus des Mittelalters der rassistische Antisemitismus wurde, warum die «Protokolle der Weisen von Zion» eine Fälschung sind, woher Hitlers Judenhass kam, welche Funktion das Feindbild für das Regime hatte – und wie die Ausgrenzung 1933 sofort begann.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.7.2",
+     "description": "Die Schülerinnen und Schüler können Geschichte zur Bildung und Unterhaltung nutzen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Räume, Zeiten, Gesellschaften",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.7.2",
+     "description": "Die Schülerinnen und Schüler können Geschichte zur Bildung und Unterhaltung nutzen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "de",
+ "sequenz": 6,
+ "einheit": "Nationalsozialismus – Diktatur, Verfolgung, Erinnerung",
+ "requires": [
+  "nationalsozialismus-jugend"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "Antisemitismus",
+  "Antijudaismus",
+  "Judenfeindschaft",
+  "Protokolle der Weisen von Zion",
+  "Sündenbock",
+  "Dolchstoßlegende",
+  "Boykott 1933",
+  "Arierparagraf",
+  "Nationalsozialismus"
+ ],
+ "learningObjectives": [
+  "Ich kann den religiösen Antijudaismus des Mittelalters (Kreuzzugspogrome 1096, Kennzeichnung 1215, Pest-Pogrome 1348–1350) vom rassistischen Antisemitismus ab dem 19. Jahrhundert unterscheiden.",
+  "Ich kann erklären, warum die «Protokolle der Weisen von Zion» eine Fälschung sind und wie Verschwörungsmythen und Sündenbock-Denken zusammenhängen.",
+  "Ich kann Hitlers Antisemitismus einordnen: die Wien-Erzählung in «Mein Kampf» gegenüber dem Befund der Forschung (München 1919) – und die Sprache des Briefs von 1919 analysieren.",
+  "Ich kann erklären, welche Funktion das Feindbild «Jude» im NS-Weltbild und für die NS-Herrschaft hatte und warum es in sich widersprüchlich war (Kapitalismus und Kommunismus zugleich).",
+  "Ich kann beschreiben, wie die Ausgrenzung 1933 begann: Boykott am 1. April, «Arierparagraf» am 7. April, Berufsverbote, Demütigungen – und warum das ein Angriff auf gleiche Rechte für alle Menschen war.",
+  "(Erweitert) Ich kann am «Arierparagrafen» («nicht arischer Abstammung») begründen, warum die Vorstellung einer «jüdischen Rasse» Taufe und Anpassung als Ausweg wertlos machte, und erklären, was das für die Verfolgung bedeutete."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Antisemitismus",
+   "url": "https://www.bpb.de/themen/antisemitismus/"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Ausgrenzung und Verfolgung (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/ns-regime"
+  },
+  {
+   "title": "Jüdisches Museum Berlin: Online-Angebote zur Geschichte des Antisemitismus",
+   "url": "https://www.jmberlin.de"
+  },
+  {
+   "title": "Brigitte Hamann: Hitlers Wien. Lehrjahre eines Diktators. München 1996"
+  },
+  {
+   "title": "Peter Schäfer: Kurze Geschichte des Antisemitismus. München 2020"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Judenhass: Die lange Geschichte",
+   "url": "https://www.youtube.com/watch?v=QDhViGpcQls"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k6-einstieg",
+   "title": "Nachbarn",
+   "body": "Im Jahr 1933 lebten im Deutschen Reich rund 500 000 Jüdinnen und Juden – weniger als ein Prozent der Bevölkerung. Sie waren Ärztinnen und Kaufleute, Lehrer und Arbeiterinnen, Nachbarn, Mitschülerinnen, Vereinskollegen. Die meisten sprachen Deutsch als Muttersprache, viele Familien lebten seit Jahrhunderten im Land. Rund 100 000 jüdische Männer hatten im Ersten Weltkrieg als deutsche Soldaten gekämpft, etwa 12 000 waren gefallen. Sie fühlten sich als Deutsche – und sie waren es.\n\nWie konnte aus Nachbarn eine Gruppe werden, die man ausgrenzte, beraubte und schließlich ermordete? Die Antwort beginnt nicht 1933. In [[modul:nationalsozialismus-ideologie-propaganda]] hast du gesehen, dass der Antisemitismus der Kern des NS-Weltbilds war. Dieses Modul erklärt, woher dieser Hass kam, warum er für das Regime so nützlich war und wie die Ausgrenzung in den ersten Wochen nach der Machtübernahme begann. Das nächste Modul der Reihe folgt dem Weg weiter: von den Gesetzen von 1935 bis zum Völkermord.\n\nEin Hinweis vorweg: Wir schauen in diesem Modul mit den Augen von Zeitgenossen, die beobachten, und von Menschen, die betroffen waren – nicht mit den Augen der Täter. Und wir nennen die Dinge beim Namen: Vorurteile sind keine Meinungen, sondern falsche Behauptungen über Menschen."
+  },
+  {
+   "type": "text",
+   "id": "k6-vorgeschichte",
+   "title": "Eine lange Vorgeschichte: Judenfeindschaft im Mittelalter",
+   "body": "Jüdinnen und Juden lebten seit der Römerzeit in Europa – in Köln sind Juden schon im Jahr 321 belegt, in einem Erlass des Kaisers Konstantin. Über Jahrhunderte lebten Juden und Christen oft friedlich nebeneinander, als Nachbarn, Handelspartner, Ärzte und Patienten. Aber es gab von Anfang an auch Hass, und der kam zuerst aus der Religion.\n\n## Der religiöse Antijudaismus\n\nSchon frühe christliche Autoren beschuldigten «die Juden» pauschal (alle ohne Unterschied), Jesus getötet zu haben – obwohl ihn die Römer hingerichtet hatten. Dieser Vorwurf des **«Gottesmords»** wurde über Jahrhunderte gepredigt. Im Mittelalter kamen Legenden dazu, die bis heute nachwirken: Juden würden christliche Kinder töten (**«Ritualmord»-Legende**) oder geweihte Hostien, das gesegnete Brot der christlichen Messe, schänden (**«Hostienfrevel»**). Beides war erfunden – und führte trotzdem zu Prozessen, Folter und Hinrichtungen. Mit solchen Vorwürfen und Legenden wurde die Judenfeindschaft religiös gerechtfertigt. Eine Judenfeindschaft, die sich gegen den jüdischen Glauben richtet, nennt man **Antijudaismus**.\n\n## Gewalt in Wellen\n\n- **1096**: Auf dem Weg zum Ersten Kreuzzug überfielen Kreuzfahrerscharen und aufgehetzte Stadtbewohner jüdische Gemeinden im Rheinland, vor allem in Worms, Mainz und Köln; in Worms und Mainz starben jeweils Hunderte, in Speyer rettete der Bischof den größten Teil der Gemeinde. Insgesamt starben Tausende. Das waren die ersten großen **Pogrome** im christlichen Mitteleuropa. Ein Pogrom (das Wort stammt aus dem Russischen und bedeutet «Verwüstung») ist ein gewaltsamer Angriff einer Menge auf eine Minderheit, mit Plünderung, Brandstiftung und Mord.\n- **1215**: Das Vierte Laterankonzil, eine Kirchenversammlung in Rom, ordnete an, dass Juden sich durch ihre Kleidung von Christen unterscheiden müssen. Später wurden daraus in vielen Ländern der spitze **«Judenhut»** und der gelbe Fleck oder Ring am Gewand. Merk dir das Jahr: Die Idee, Menschen durch ein Zeichen an der Kleidung zu markieren, kehrte im Deutschen Reich 1941 mit dem gelben **«Judenstern»** zurück – so nannten die Nationalsozialisten ihr Zwangsabzeichen; mehr dazu im nächsten Modul.\n- **1348–1350**: Als die Pest durch Europa zog und jeden dritten Menschen tötete, suchte man Schuldige. Juden wurden beschuldigt, die **Brunnen vergiftet** zu haben – ein Vorwurf ohne jeden Beleg, oft unter Folter erpresst. In Hunderten Städten, etwa in Basel und Straßburg, wurden ganze Gemeinden ermordet oder verbrannt, in manchen Orten, noch bevor die Pest überhaupt angekommen war.\n\n## Ausschluss und Vertreibung\n\nJuden durften in den meisten Städten weder Land besitzen noch einer **Zunft** (einem Handwerkerverband) angehören. Es blieben ihnen vor allem Handel und Geldverleih gegen **Zins** (eine Gebühr für geliehenes Geld). Die Kirche verbot Christen, Zinsen zu nehmen (**Zinsverbot**); an dieses Verbot waren Juden nicht gebunden. So wurde der Geldverleih zu einem der wenigen Erwerbszweige, die Juden offenstanden. So entstand das Vorurteil von «den Juden und dem Geld»: Es folgte aus dem Ausschluss, nicht umgekehrt. Wer verschuldet war, gab die Schuld daran oft einer ganzen Gruppe. Das war ein Vorwand, kein Grund – der Hass traf Menschen, die in diese Rolle gedrängt worden waren, und bei Pogromen ging es oft auch um Beute und um gestrichene Schulden. Aus England (1290), Frankreich (1394) und Spanien (1492) wurden Juden ganz vertrieben; in vielen Städten mussten sie in abgeschlossenen Vierteln wohnen, die nachts verriegelt wurden – das Wort **«Ghetto»** stammt aus Venedig, wo 1516 das erste eingerichtet wurde.\n\n> **Merke:** Religiöser Antijudaismus richtete sich gegen den **Glauben**. Wer sich taufen ließ, galt – zumindest in der Theorie – nicht mehr als Jude. Das änderte sich im 19. Jahrhundert grundlegend."
+  },
+  {
+   "type": "schaubild",
+   "id": "k6-zeitleiste",
+   "title": "Zeitleiste: Judenfeindschaft in Europa von 1096 bis 1933",
+   "szene": {
+    "elemente": [
+     {
+      "id": "s-titel",
+      "x": 20,
+      "y": 0,
+      "width": 767,
+      "height": 33,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "Judenfeindschaft in Europa: eine lange Vorgeschichte",
+      "fontSize": 26,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-untertitel",
+      "x": 20,
+      "y": 40,
+      "width": 1202,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "Zeitleiste, nicht maßstabsgetreu – die Farbe zeigt die Epoche: religiöser Antijudaismus, Gleichstellung, rassistischer Antisemitismus",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-achse",
+      "x": 40,
+      "y": 400,
+      "width": 1280,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1280,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "st0",
+      "x": 20,
+      "y": 250,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-t",
+      "x": 30,
+      "y": 271.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "text",
+      "text": "1096\nErster Kreuzzug: Morde an\nJuden im Rheinland",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0-l",
+      "x": 130,
+      "y": 346,
+      "width": 0,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        54
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st0-p",
+      "x": 123,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "ellipse"
+     },
+     {
+      "id": "st1",
+      "x": 140,
+      "y": 450,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-t",
+      "x": 150,
+      "y": 471.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "text",
+      "text": "1215\nKonzil: Kennzeichnung\ndurch Kleidung (Judenhut)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st1-l",
+      "x": 250,
+      "y": 400,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st1-p",
+      "x": 243,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "ellipse"
+     },
+     {
+      "id": "st2",
+      "x": 260,
+      "y": 250,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-t",
+      "x": 270,
+      "y": 271.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "text",
+      "text": "1348–1350\nPest: Vorwurf der Brunnen-\nvergiftung, Pogrome",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st2-l",
+      "x": 370,
+      "y": 346,
+      "width": 0,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        54
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st2-p",
+      "x": 363,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "ellipse"
+     },
+     {
+      "id": "st3",
+      "x": 380,
+      "y": 450,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-t",
+      "x": 390,
+      "y": 471.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "text",
+      "text": "1492\nVertreibung aus Spanien –\nzuvor England, Frankreich",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st3-l",
+      "x": 490,
+      "y": 400,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st3-p",
+      "x": 483,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069395373,
+      "type": "ellipse"
+     },
+     {
+      "id": "st4",
+      "x": 500,
+      "y": 250,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1346169768,
+      "type": "rectangle"
+     },
+     {
+      "id": "st4-t",
+      "x": 510,
+      "y": 271.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1323890193,
+      "type": "text",
+      "text": "1516\nVenedig: das erste\n«Ghetto» (Zwangsviertel)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st4",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st4-l",
+      "x": 610,
+      "y": 346,
+      "width": 0,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1591521450,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        54
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st4-p",
+      "x": 603,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 537279799,
+      "type": "ellipse"
+     },
+     {
+      "id": "st5",
+      "x": 620,
+      "y": 450,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1766705883,
+      "type": "rectangle"
+     },
+     {
+      "id": "st5-t",
+      "x": 630,
+      "y": 471.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080880862,
+      "type": "text",
+      "text": "1871\nGleichstellung im\nDeutschen Reich",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st5",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st5-l",
+      "x": 730,
+      "y": 400,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576577607,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st5-p",
+      "x": 723,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#267936",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 821440179,
+      "type": "ellipse"
+     },
+     {
+      "id": "st6",
+      "x": 740,
+      "y": 250,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 94861959,
+      "type": "rectangle"
+     },
+     {
+      "id": "st6-t",
+      "x": 750,
+      "y": 271.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2113293440,
+      "type": "text",
+      "text": "1879\nWilhelm Marr verbreitet\ndas Wort «Antisemitismus»",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st6",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st6-l",
+      "x": 850,
+      "y": 346,
+      "width": 0,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 417856261,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        54
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st6-p",
+      "x": 843,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1089207059,
+      "type": "ellipse"
+     },
+     {
+      "id": "st7",
+      "x": 860,
+      "y": 450,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 805849935,
+      "type": "rectangle"
+     },
+     {
+      "id": "st7-t",
+      "x": 870,
+      "y": 471.5,
+      "width": 200,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1631777536,
+      "type": "text",
+      "text": "1903\n«Protokolle der Weisen\nvon Zion» – eine Fälschung",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st7",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st7-l",
+      "x": 970,
+      "y": 400,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1938183565,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st7-p",
+      "x": 963,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1370408198,
+      "type": "ellipse"
+     },
+     {
+      "id": "st8",
+      "x": 980,
+      "y": 250,
+      "width": 220,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 437204082,
+      "type": "rectangle"
+     },
+     {
+      "id": "st8-t",
+      "x": 990,
+      "y": 263,
+      "width": 200,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1241798878,
+      "type": "text",
+      "text": "1918/19\n«Dolchstoßlegende»:\nLüge vom Verrat am Heer,\nJuden als Sündenbock",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st8",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st8-l",
+      "x": 1090,
+      "y": 346,
+      "width": 0,
+      "height": 54,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 380275764,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        54
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st8-p",
+      "x": 1083,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1295217510,
+      "type": "ellipse"
+     },
+     {
+      "id": "st9",
+      "x": 1100,
+      "y": 450,
+      "width": 220,
+      "height": 112,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1520509309,
+      "type": "rectangle"
+     },
+     {
+      "id": "st9-t",
+      "x": 1110,
+      "y": 462,
+      "width": 200,
+      "height": 88,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 17810377,
+      "type": "text",
+      "text": "1933\nBoykott jüdischer\nGeschäfte (1. April);\n«Arierparagraf» (7. April):\njüdische Beamte entlassen",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st9",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st9-l",
+      "x": 1210,
+      "y": 400,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 945779009,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "st9-p",
+      "x": 1203,
+      "y": 393,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1264780336,
+      "type": "ellipse"
+     },
+     {
+      "id": "s-band1",
+      "x": 20,
+      "y": 580,
+      "width": 640,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1481419643,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-band1-t",
+      "x": 30,
+      "y": 600.5,
+      "width": 620,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2120640711,
+      "type": "text",
+      "text": "Religiöser Antijudaismus: Vorwurf gegen den Glauben – Taufe galt als Ausweg",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-band1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-band2",
+      "x": 670,
+      "y": 580,
+      "width": 130,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1466254097,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-band2-t",
+      "x": 680,
+      "y": 592.5,
+      "width": 110,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1838923326,
+      "type": "text",
+      "text": "Gleichstellung\n(Emanzipation)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-band2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-band3",
+      "x": 810,
+      "y": 580,
+      "width": 510,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 965606062,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-band3-t",
+      "x": 820,
+      "y": 600.5,
+      "width": 490,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1912353839,
+      "type": "text",
+      "text": "Rassistischer Antisemitismus: Vorwurf gegen die angebliche «Rasse» – kein Ausweg",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-band3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-merk",
+      "x": 20,
+      "y": 660,
+      "width": 1300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1714775159,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-merk-t",
+      "x": 30,
+      "y": 681.5,
+      "width": 1280,
+      "height": 21,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1760014139,
+      "type": "text",
+      "text": "Die Nationalsozialisten erfanden den Judenhass nicht: Sie übernahmen jahrhundertealte Vorurteile und den rassistischen Antisemitismus des 19. Jahrhunderts, radikalisierten ihn – und machten ihn ab 1933 zur Staatspolitik.",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Titel: Judenfeindschaft in Europa: eine lange Vorgeschichte. Untertitel: Zeitleiste, nicht maßstabsgetreu; die Farbe zeigt die Epoche: religiöser Antijudaismus, Gleichstellung, rassistischer Antisemitismus. Ein Pfeil von links nach rechts trägt zehn Stationen, abwechselnd über und unter der Linie. Blau (religiöser Antijudaismus): 1096 Erster Kreuzzug, Morde an Juden im Rheinland; 1215 Konzil, Kennzeichnung durch Kleidung (Judenhut); 1348 bis 1350 Pest, Vorwurf der Brunnenvergiftung, Pogrome; 1492 Vertreibung aus Spanien, zuvor England und Frankreich; 1516 Venedig, das erste Ghetto als Zwangsviertel. Grün (Gleichstellung, Emanzipation): 1871 Gleichstellung im Deutschen Reich. Orange (rassistischer Antisemitismus): 1879 Wilhelm Marr verbreitet das Wort Antisemitismus; 1903 Protokolle der Weisen von Zion, eine Fälschung; 1918/19 Dolchstoßlegende, Lüge vom Verrat am Heer, Juden als Sündenbock; 1933 Boykott jüdischer Geschäfte am 1. April und Arierparagraf am 7. April, jüdische Beamte werden entlassen. Unter der Zeitleiste drei Bänder: blau Religiöser Antijudaismus, Vorwurf gegen den Glauben, Taufe galt als Ausweg; grün Gleichstellung (Emanzipation); orange Rassistischer Antisemitismus, Vorwurf gegen die angebliche Rasse, kein Ausweg. Merksatz unten: Die Nationalsozialisten erfanden den Judenhass nicht: Sie übernahmen jahrhundertealte Vorurteile und den rassistischen Antisemitismus des 19. Jahrhunderts, radikalisierten ihn und machten ihn ab 1933 zur Staatspolitik.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "id": "k6-formen",
+   "title": "Zwei Formen des Hasses: Antijudaismus und Antisemitismus",
+   "body": "## Endlich gleichberechtigt: die Emanzipation\n\nIm 18. und 19. Jahrhundert setzte sich in Europa langsam die Idee durch, dass alle Menschen gleiche Rechte haben sollen (Aufklärung). Dieser Gedanke ist der Kern der **Menschenrechte**: Sie gelten für jeden Menschen, unabhängig von Herkunft oder Religion. Schritt für Schritt erhielten Jüdinnen und Juden Bürgerrechte – man nennt das **Emanzipation** (Gleichstellung). Im Deutschen Reich wurde sie 1871 rechtlich vollendet: Juden durften jeden Beruf ergreifen, studieren, wählen und Ämter übernehmen. In der Praxis blieben Hürden, etwa in der Offizierslaufbahn. Viele nutzten die Chance trotzdem und prägten das Leben in den Städten mit – als Ärzte, Anwältinnen, Wissenschaftler, Künstlerinnen, Kaufleute, Journalisten.\n\n## Der neue Hass: der rassistische Antisemitismus\n\nGenau in dieser Zeit entstand eine neue Form der Judenfeindschaft. Der Journalist **Wilhelm Marr** verbreitete 1879 das Wort **«Antisemitismus»** – es klang wissenschaftlich und sollte den alten Hass modern aussehen lassen. (Das Wort ist irreführend: «Semiten» bezeichnet eigentlich eine Sprachfamilie, zu der Hebräisch und Arabisch gehören; gemeint waren aber immer nur Juden. Trotzdem bleibt «Antisemitismus» der übliche Fachbegriff; einfacher kann man «Judenhass» sagen.) Antisemitische Parteien und Vereine gewannen im Kaiserreich Anhänger, blieben aber eine Minderheit.\n\nDer entscheidende Unterschied zum religiösen Antijudaismus: Juden galten nun nicht mehr als Religionsgemeinschaft, sondern als angebliche **«Rasse»** mit vererbten, unveränderlichen Eigenschaften. Damit gab es keinen Ausweg mehr – Taufe, Anpassung, Patriotismus, nichts «half». Genau diese Vorstellung übernahmen die Nationalsozialisten in ihre «Rassenlehre», die du aus [[modul:nationalsozialismus-ideologie-propaganda]] kennst.\n\n| | Religiöser Antijudaismus | Rassistischer Antisemitismus |\n| --- | --- | --- |\n| **Zeit** | vor allem Antike, Mittelalter, frühe Neuzeit | ab dem späten 19. Jahrhundert |\n| **Vorwurf** | falscher Glaube («Gottesmord», Legenden) | angeblich «minderwertige Rasse», vererbte Eigenschaften |\n| **Ausweg** | Taufe (in der Theorie) | keiner – die Abstammung «zählt» |\n| **Träger** | Kirche, Stadtbürger, Herrscher | Vereine, Parteien, Zeitungen – ab 1933 der Staat |\n| **Folgen** | Ausgrenzung, Vertreibung, Pogrome | Entrechtung, Verfolgung, Völkermord |\n\nDie Grenze war fließend: Antijudaistische Vorurteile verschwanden im 19. Jahrhundert nicht, und die Nationalsozialisten griffen alte Legenden wieder auf – die Hetzzeitung «Der Stürmer» verbreitete 1934 sogar die erfundene «Ritualmord»-Legende.\n\n> **Merke:** Beim Antijudaismus werden Jüdinnen und Juden wegen ihres Glaubens angefeindet, beim Antisemitismus wegen ihrer angeblichen Abstammung. Beides ist Judenhass – aber der rassistische Antisemitismus lässt keinen Ausweg."
+  },
+  {
+   "type": "text",
+   "id": "k6-mythen",
+   "title": "Ein gefälschtes Buch und eine Legende: Verschwörungsmythen",
+   "body": "## Die «Protokolle der Weisen von Zion»\n\nAnfang des 20. Jahrhunderts tauchte in Russland ein Text auf, der angeblich geheime Sitzungsprotokolle jüdischer «Weiser» enthielt: Pläne, über Banken, Presse und Revolutionen die Weltherrschaft zu erobern. Alles erfunden. Die **«Protokolle der Weisen von Zion»** sind eine **Fälschung**, zusammengeschrieben aus älteren Texten – unter anderem aus einer französischen Spottschrift (Satire) gegen Kaiser Napoleon III., die mit Juden gar nichts zu tun hatte. Schon 1921 wies die britische Zeitung «The Times» das nach. Trotzdem wurde das Buch in viele Sprachen übersetzt und millionenfach gedruckt; die Nationalsozialisten benutzten es als «Beweis» für eine jüdische Weltverschwörung.\n\nIn Bern verklagten jüdische Gemeinden 1933 Verbreiter der «Protokolle». Das Gericht hörte Sachverständige (Fachleute) an und stellte 1935 fest, dass es sich um eine Fälschung handelt. (Ein höheres Gericht hob das Urteil 1937 aus formalen Gründen auf – nicht, weil das Buch echt wäre.) Es half wenig: Die «Protokolle» sind bis heute im Umlauf.\n\nWarum glaubten so viele daran? Ein **Verschwörungsmythos** erklärt eine komplizierte Welt ganz einfach: Hinter allem steckt ein geheimer Feind. Das entlastet – man muss nicht mehr nachdenken, nur noch hassen. Und er ist nicht zu widerlegen: Jeder Gegenbeweis gilt als Teil der Verschwörung.\n\n## Die «Dolchstoßlegende»\n\nNach dem verlorenen Ersten Weltkrieg behaupteten die Militärführung um Hindenburg und Ludendorff und rechte Politiker, das deutsche Heer sei «im Felde unbesiegt» geblieben. Erst von zu Hause aus – von Sozialdemokraten, Revolutionären und «den Juden» – sei es mit einem **«Dolchstoß» in den Rücken** verraten worden. Tatsächlich war der Krieg im Herbst 1918 militärisch verloren; die Generäle selbst hatten auf einen Waffenstillstand gedrängt. Die Legende lenkte die Schuld von ihnen ab – und machte Juden zum **Sündenbock**.\n\nDas Wort stammt aus dem Alten Testament (3. Buch Mose): Ein Ziegenbock wurde mit den Sünden des Volkes beladen und in die Wüste geschickt. Ein Sündenbock ist jemand, dem man die Schuld an Problemen gibt, die er nicht verursacht hat. In den Krisen der Weimarer Republik – Inflation 1923, Weltwirtschaftskrise ab 1929 ([[modul:weimar-wirtschaftskrise-nationalsozialismus]]) – fand dieses Muster immer neue Anhänger: Wer litt, suchte Schuldige, und die Propaganda bot sie an.\n\n> **Merke:** Verschwörungsmythos und Sündenbock gehören zusammen: Eine erfundene Geschichte liefert den Schuldigen, und der Schuldige erklärt jede Krise. Belege braucht es dafür nicht – nur Wiederholung."
+  },
+  {
+   "type": "lueckentext",
+   "id": "k6-lt-formen",
+   "title": "Formen der Judenfeindschaft im Überblick",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.formen-unterscheiden"
+   ],
+   "intro": "Ziehe die passenden Begriffe in die Lücken (am Handy: erst Wort antippen, dann Lücke). **Achtung:** Drei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Im Mittelalter richtete sich der Hass gegen den jüdischen {{1}}; wer sich taufen ließ, galt in der Regel nicht mehr als Jude. Diese Form nennt man {{2}}.\nIm Jahr {{3}} beschloss ein Konzil, dass Juden sich durch ihre Kleidung kennzeichnen müssen.\nWährend der {{4}} 1348–1350 beschuldigte man Juden, die Brunnen vergiftet zu haben.\nIm 19. Jahrhundert erhielten Juden gleiche Rechte; im Deutschen Reich wurde die Gleichstellung im Jahr {{5}} vollendet. Gleichzeitig entstand der rassistische {{6}}: Juden galten nun als angebliche «Rasse» – einen Ausweg durch Taufe gab es nicht mehr.\nDie «Protokolle der Weisen von Zion» sind eine {{7}}. Wer einer Gruppe die Schuld an Problemen gibt, die sie nicht verursacht hat, macht sie zum {{8}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "Glauben"
+     ]
+    },
+    {
+     "antworten": [
+      "Antijudaismus"
+     ]
+    },
+    {
+     "antworten": [
+      "1215"
+     ]
+    },
+    {
+     "antworten": [
+      "Pest"
+     ]
+    },
+    {
+     "antworten": [
+      "1871"
+     ]
+    },
+    {
+     "antworten": [
+      "Antisemitismus"
+     ]
+    },
+    {
+     "antworten": [
+      "Fälschung"
+     ]
+    },
+    {
+     "antworten": [
+      "Sündenbock"
+     ]
+    }
+   ],
+   "ablenker": [
+    "1933",
+    "Kreuzzug",
+    "Übersetzung"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k6-hitler",
+   "title": "Woher kam Hitlers Judenhass?",
+   "body": "Adolf Hitler lebte von 1908 bis 1913 in Wien. Dort gehörte Judenfeindschaft zum politischen Alltag: Der beliebte Bürgermeister Karl Lueger hetzte in Reden gegen Juden, der Politiker Georg von Schönerer verband Judenhass mit dem Traum von einem großdeutschen Reich. In «Mein Kampf» (1925) erzählt Hitler, in Wien sei er zum Antisemiten geworden.\n\nDie Forschung sieht das überwiegend anders. Die Historikerin **Brigitte Hamann** hat Hitlers Wiener Jahre genau untersucht: Damals hatte er jüdische Bekannte und verkaufte seine Bilder über jüdische Händler; von radikalem Judenhass ist aus dieser Zeit nichts belegt. Seine Erzählung in «Mein Kampf» ist **Selbstinszenierung** – er wollte seinen Hass als frühe «Erkenntnis» darstellen, nicht als Produkt einer Krise.\n\nBelegt ist Hitlers radikaler Antisemitismus erst **ab 1919 in München** – nach der Kriegsniederlage, nach der Revolution 1918/19 (im November 1918 zwangen Aufstände den Kaiser zum Rücktritt) und nach der kurzen Münchner Räterepublik (einer Regierung von Revolutionären nach russischem Vorbild, die im Mai 1919 mit Waffengewalt beendet wurde). Hitler bewegte sich damals in einem Umfeld **völkischer** (extrem nationalistischer und rassistischer) Gruppen.\n\nDas erste schriftliche Zeugnis ist ein Brief vom 16. September 1919 an einen Soldaten namens Adolf Gemlich. Hitler arbeitete damals für die Reichswehr (das Heer der Republik) als Redner. In dem Brief unterscheidet er zwei Arten von Antisemitismus: Die eine entstehe «aus rein gefühlsmäßigen Gründen» und ende in Pogromen. Die andere nennt er «Antisemitismus der Vernunft»; sie müsse zu einer «planmäßigen gesetzlichen Bekämpfung» der Juden führen. Am Schluss nennt er das Ziel:\n\n> «Sein letztes Ziel aber muß unverrückbar die Entfernung der Juden überhaupt sein.»\n>\n> — Adolf Hitler, Brief an Adolf Gemlich, 16. September 1919\n\nZur Einordnung: Hitler war 1919 ein unbekannter Soldat, der Brief eine Antwort auf eine Anfrage – er zeigt, wie Hitler damals dachte, nicht, was später geschah. Was «Entfernung» heißen sollte, sagt der Brief nicht. Auffällig ist der Gedanke, Judenhass nicht nur als Gewalt aus Wut auszuleben, sondern «planmäßig» und «gesetzlich» zu betreiben. In der Politik ab 1933 findest du beides: Gesetze, die jüdische Menschen ausschlossen, und daneben offene Gewalt, die der Staat duldete oder selbst organisierte.\n\n**Dein Auftrag:** Lies den Satz aus dem Brief genau und achte auf die Sprache. Wie klingt das Wort «Entfernung» – und was wird darin aus den Menschen, um die es geht? Notiere dir eine Antwort; in der Vertiefung am Ende des Moduls (Aufgabe 3) brauchst du sie. Diese kalte Sprache begegnet dir im nächsten Modul wieder.\n\n> **Merke:** Hitlers Judenhass war nicht angeboren und nicht einfach «Wiener Erbe». Er wuchs in der Krise nach 1918 – aus denselben Mustern, die du oben kennengelernt hast: Sündenbock und Verschwörungsmythos."
+  },
+  {
+   "type": "text",
+   "id": "k6-funktion",
+   "title": "Ein Feind für alles: Die Funktion des Feindbilds",
+   "body": "## Im Weltbild: Ein Feind erklärt alles\n\nFür die Nationalsozialisten war Geschichte ein ewiger **«Rassenkampf»** – ein angeblicher Kampf der «Rassen» ums Überleben. «Der Jude» – immer in der Einzahl, als wäre es ein einziges Wesen – war darin der Erzfeind, der hinter allem Schlechten steckte: hinter der Niederlage 1918, hinter dem Versailler Vertrag, hinter dem Kapitalismus (NS-Wort: «Finanzjudentum») und zugleich hinter dem Kommunismus (NS-Wort: «jüdischer Bolschewismus»).\n\nFällt dir etwas auf? Kapitalismus und Kommunismus sind Gegensätze: Der eine beruht auf Privateigentum an Fabriken, Banken und Land und auf Gewinn, der andere will dieses Eigentum in gemeinsamen Besitz überführen. Ein Feindbild, das beide zugleich erklären will, ist in sich unstimmig – und einen Beleg dafür hat nie jemand geliefert. Es zeigt: Hier geht es nicht um Tatsachen, sondern um einen Sündenbock, der für jedes Problem passen muss. **Merk dir diesen Widerspruch – du brauchst ihn gleich in der Zuordnung, im Selbstcheck und in der Vertiefung.**\n\n## Für die Herrschaft: Ein Feind hält zusammen\n\nDas Feindbild war aber nicht nur Weltanschauung, es war **nützlich für die Macht**:\n\n- **Zusammenhalt:** Ein gemeinsamer Feind schweißt zusammen. Die «Volksgemeinschaft» ([[modul:nationalsozialismus-ideologie-propaganda]]) definierte sich auch darüber, wer nicht dazugehörte.\n- **Ablenkung:** Wer «die Juden» für Arbeitslosigkeit und Krise verantwortlich macht, muss über die wirklichen Ursachen – und eigene Fehler – nicht reden.\n- **Bereicherung:** Wer Juden das Recht auf Eigentum abspricht, kann es sich nehmen. **«Arisierung»** nannte der NS-Staat den erzwungenen Verkauf jüdischer Geschäfte, Firmen und Häuser weit unter Wert an «arische» Käufer. «Arisch» war das NS-Wort für angeblich «deutschblütig», also nichtjüdisch; es knüpfte an die erfundene «Arier»-Vorstellung der «Rassenlehre» an. Viele Deutsche profitierten davon: Konkurrenten, Nachbarn, Angestellte, die aufrückten.\n- **Unfehlbarkeit:** Lief etwas schief, war ein Feind schuld. So blieb der «Führer» immer im Recht.\n\n> **Merke:** Die Nationalsozialisten erfanden den Judenhass nicht. Sie radikalisierten jahrhundertealte Vorurteile und machten sie zur Staatspolitik – und viele Menschen machten mit, profitierten oder schwiegen."
+  },
+  {
+   "type": "zuordnung",
+   "id": "k6-zu-funktion",
+   "title": "Behauptung und Funktion",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.funktion-erklaeren"
+   ],
+   "intro": "Links stehen Parolen und Behauptungen, sinngemäß so, wie sie in NS-Reden und -Zeitungen vorkamen – sie sind Hetze und enthalten falsche Behauptungen über Menschen. Ordne jeder Behauptung zu, welche Rolle sie im NS-Weltbild oder für die Herrschaft hatte. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Die Juden haben dem Heer 1918 den Dolch in den Rücken gestoßen.»"
+     },
+     "rechts": {
+      "text": "Sündenbock für die Kriegsniederlage – die Militärführung erscheint schuldlos"
+     }
+    },
+    {
+     "links": {
+      "text": "«Hinter den Banken stecken die Juden – und hinter dem Kommunismus auch.»"
+     },
+     "rechts": {
+      "text": "Ein Feindbild für Gegensätze – Zeichen, dass es nicht um Tatsachen geht"
+     }
+    },
+    {
+     "links": {
+      "text": "«Jüdische Geschäfte gehören in deutsche Hände.»"
+     },
+     "rechts": {
+      "text": "Bereicherung – Vorwand für die «Arisierung» jüdischen Eigentums"
+     }
+    },
+    {
+     "links": {
+      "text": "«Gegen diesen Feind müssen alle Deutschen zusammenstehen.»"
+     },
+     "rechts": {
+      "text": "Zusammenhalt der «Volksgemeinschaft» durch einen gemeinsamen Feind"
+     }
+    },
+    {
+     "links": {
+      "text": "«An Arbeitslosigkeit und Not sind die Juden schuld.»"
+     },
+     "rechts": {
+      "text": "Ablenkung von eigenen Fehlern und den wirklichen Ursachen der Wirtschaftskrise"
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k6-ausgrenzung",
+   "title": "1933: Die Ausgrenzung beginnt sofort",
+   "body": "Kaum an der Macht, begannen die Nationalsozialisten mit der Ausgrenzung – nicht irgendwann, sondern in den ersten Wochen, parallel zum Abbau der Demokratie ([[modul:nationalsozialismus-machtuebernahme-1933]]).\n\n## 1. April 1933: Der Boykott\n\nAm Samstag, dem 1. April 1933, stellten sich SA-Männer im ganzen Land vor jüdische Geschäfte, Arztpraxen und Anwaltskanzleien. Sie hielten Schilder mit Parolen wie «Deutsche! Wehrt Euch! Kauft nicht bei Juden!», malten Schriftzüge auf Schaufenster und fotografierten, wer trotzdem hineinging. Die Partei nannte den Boykott eine «Abwehr» gegen angebliche «Gräuelpropaganda» des Auslands. Mit diesem NS-Wort tat sie Berichte ausländischer Zeitungen über die Gewalt der SA in Deutschland als Lügen ab und machte die jüdischen Deutschen dafür verantwortlich. Das war ein Vorwand: Der Boykott sollte jüdische Menschen im eigenen Land ausgrenzen. Offiziell dauerte er einen Tag, und manche Kundinnen und Kunden kauften demonstrativ weiter ein. Aber die Botschaft war angekommen: Die Regierung deckte die Aktion der Partei, die Polizei schritt nicht ein – der Staat ließ es geschehen.\n\n## 7. April 1933: Der «Arierparagraf»\n\nSechs Tage später folgte das erste antijüdische Gesetz: das «Gesetz zur Wiederherstellung des Berufsbeamtentums». Sein § 3, der sogenannte **«Arierparagraf»**, bestimmte, dass Beamte «nicht arischer Abstammung» in den Ruhestand zu versetzen seien. Jüdische Lehrer, Richterinnen, Professoren und Verwaltungsbeamtinnen verloren ihre Stellen. Auf Drängen von Reichspräsident Hindenburg gab es anfangs Ausnahmen für Frontkämpfer des Ersten Weltkriegs, für Beamte, die schon seit August 1914 im Dienst waren, und für Beamte, deren Väter oder Söhne im Krieg gefallen waren – 1935 fielen auch sie.\n\nDer «Arierparagraf» wurde zum Vorbild: Bald galten ähnliche Regeln für Ärztinnen (Zulassung bei den Krankenkassen), Anwälte, Journalistinnen, Künstler. Ein Gesetz vom 25. April 1933 begrenzte die Zahl jüdischer Schülerinnen und Studenten an Schulen und Hochschulen. Vereine, Sportklubs und Berufsverbände schlossen jüdische Mitglieder aus. Am 10. Mai 1933 verbrannten Studenten in vielen Universitätsstädten die Bücher jüdischer, linker und pazifistischer Autorinnen und Autoren. Wer blieb, wurde beobachtet, gemieden, beleidigt. Rund 37 000 Jüdinnen und Juden verließen Deutschland noch im Jahr 1933.\n\n## Demütigung auf offener Straße\n\nDazu kam Gewalt, die niemand bestrafte. SA- und SS-Männer trieben Menschen mit umgehängten Schildern durch die Straßen, schnitten ihnen die Haare ab, zwangen sie zu entwürdigenden Handlungen – oft wegen einer Beziehung zwischen Juden und Nichtjuden, die ab 1935 sogar verboten wurde. Ein Beispiel für solche Demütigungen: Der Münchner Rechtsanwalt **Michael Siegel** ging am 10. März 1933 zur Polizei, um sich für einen verhafteten Mandanten einzusetzen. Uniformierte Männer, die als Hilfspolizisten eingesetzt waren – nach heutigem Forschungsstand SS-Männer –, schlugen ihn, schnitten ihm die Hosenbeine ab, hängten ihm ein Schild um und trieben ihn barfuß durch die Innenstadt. Ein Fotograf hielt das fest, das Bild ging um die Welt. Siegel blieb noch Jahre in Deutschland; 1940 gelang ihm die Flucht nach Peru, wo er 1979 starb.\n\n## Wie reagierten die Betroffenen?\n\nViele hofften, der Spuk gehe vorbei – man war doch Deutscher, hatte für dieses Land gekämpft. Der Reichsbund jüdischer Frontsoldaten erinnerte öffentlich an die 12 000 Gefallenen. Andere erkannten früh, dass es kein Zurück gab, und wanderten aus, oft unter Verlust fast ihres gesamten Besitzes. Und die Mehrheit der Nichtjuden? Einige halfen, kauften weiter ein, hielten Kontakt. Die meisten schauten weg, gewöhnten sich – oder nutzten die freigewordenen Stellen, Praxen und Geschäfte.\n\nIn den folgenden Jahren wurde der Druck zum Alltag: An vielen Ortseingängen hingen Schilder wie «Juden unerwünscht», die Hetzzeitung «Der Stürmer» hing in Schaukästen, Schwimmbäder und Vereine sperrten jüdische Menschen aus. Im Sommer 1935 schwoll die Hetze noch einmal an – die Vorstufe zu den Gesetzen vom September.\n\n> **Merke:** 1933 bis 1935 wurde Ausgrenzung zur Normalität: Boykott, Berufsverbote, Ausschluss aus Vereinen, Demütigung auf der Straße. Das war staatlich betriebene **Diskriminierung**: Menschen wurden wegen ihrer Zugehörigkeit zu einer Gruppe schlechter behandelt, und der Staat nahm ihnen die Bürgerrechte wieder weg, die sie seit 1871 hatten – ein Angriff auf den Grundsatz gleicher Rechte für alle Menschen, also auf die Menschenrechte. Noch fehlte ein «Rassengesetz», das jüdische Menschen rechtlich zu Bürgern zweiter Klasse machte – das kam im September 1935 mit den Nürnberger Gesetzen, dem Thema des nächsten Moduls."
+  },
+  {
+   "type": "achse",
+   "id": "k6-achse",
+   "title": "Eine lange Geschichte: Ereignisse zeitlich ordnen",
+   "teilkompetenzen": [
+    "geschichte.methoden.ereignisse-zeitlich-ordnen",
+    "geschichte.antisemitismus.formen-unterscheiden"
+   ],
+   "intro": "Bring die acht Ereignisse in die richtige zeitliche Reihenfolge: Ziehe jede Karte auf eine Position von 1 (zuerst) bis 8 (zuletzt) – oder tippe erst die Karte, dann die Position an. Gewertet wird nur die Reihenfolge.",
+   "x": {
+    "min": 1,
+    "max": 8,
+    "schritt": 1,
+    "teilstriche": 1,
+    "beschriftung": "Reihenfolge (1 = zuerst, 8 = zuletzt)"
+   },
+   "wertung": "reihenfolge",
+   "elemente": [
+    {
+     "text": "Die «Dolchstoßlegende» macht Juden zum Sündenbock für die Niederlage",
+     "x": 7
+    },
+    {
+     "text": "Kreuzfahrerscharen überfallen jüdische Gemeinden im Rheinland",
+     "x": 1
+    },
+    {
+     "text": "Wilhelm Marr verbreitet das Wort «Antisemitismus»",
+     "x": 5
+    },
+    {
+     "text": "Ein Konzil schreibt Juden eine Kennzeichnung durch Kleidung vor",
+     "x": 2
+    },
+    {
+     "text": "SA-Posten vor jüdischen Geschäften: der Boykott",
+     "x": 8
+    },
+    {
+     "text": "Während der Pest werden Juden der Brunnenvergiftung beschuldigt",
+     "x": 3
+    },
+    {
+     "text": "Die gefälschten «Protokolle der Weisen von Zion» erscheinen in Russland",
+     "x": 6
+    },
+    {
+     "text": "Jüdinnen und Juden werden im Deutschen Reich rechtlich gleichgestellt",
+     "x": 4
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "id": "k6-video",
+   "provider": "youtube",
+   "videoId": "QDhViGpcQls",
+   "title": "Zusatz (optional): Video «Judenhass: Die lange Geschichte» (12:38)",
+   "description": "Dieses Video von MrWissen2go Geschichte (Terra X, ZDF) ist ein freiwilliges Zusatzangebot – alles, was du für die Aufgaben brauchst, steht in den Texten dieses Moduls. Wenn du es schaust (Internet nötig, startet erst nach deinem Klick), achte auf zwei Leitfragen: (1) In welchen Krisen wurden Juden immer wieder zu Sündenböcken gemacht – und was hatten diese Krisen mit ihnen zu tun? (2) Was änderte sich im 19. Jahrhundert, als der Judenhass zur «Rassen»-Frage wurde?",
+   "transcript": "Zusammenfassung des Videos «Judenhass: Die lange Geschichte» (MrWissen2go Geschichte | Terra X, 12:38) nach Inhalt und Kapiteln des Videos: Das Video fragt, woran man beim Wort «Antisemitismus» zuerst denkt – an den Anschlag auf die Synagoge in Halle 2019 oder an den Holocaust – und zeigt, dass der Hass auf Juden Jahrtausende alt ist. Kapitel im Video: Antisemitismus in der Antike (schon die ersten Christen beschuldigen das Judentum pauschal der Ermordung Jesu); Kreuzzüge und erste Pogrome ab 1095 (Aufruf zum Ersten Kreuzzug 1095, die Pogrome am Rhein folgten 1096; die Vorurteile halten sich über Jahrhunderte und werden weiter geschürt; besonders in Krisenzeiten – Naturkatastrophen, Krankheiten wie die Pest, verlorene Kriege – müssen Juden zu Unrecht als Sündenböcke herhalten; sie werden von der christlichen Mehrheit vertrieben, ausgegrenzt und diskriminiert, der Hass schlägt in Pogrome um; zugleich leben Juden und Christen lange Zeit auch friedlich zusammen); jüdische Emanzipation im 18. Jahrhundert; rassistischer Antisemitismus im 20. Jahrhundert (durch die «Rassenlehre» des 19. Jahrhunderts bekommt der Judenhass eine neue Dimension, die im Holocaust, hebräisch Shoah, mit der Ermordung von mehr als sechs Millionen Juden ihren grausamen Höhepunkt findet); Antisemitismus nach 1945 (nicht überwunden; während der Corona-Krise nehmen antisemitische Übergriffe wieder zu). Als Quellen nennt das Video unter anderem Wilhelm Marrs Schrift von 1879 und Martin Luthers Hetzschrift von 1543.",
+   "startSeconds": 0
+  },
+  {
+   "type": "quiz",
+   "id": "k6-quiz",
+   "title": "Selbstcheck: Antisemitismus und Ausgrenzung",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.formen-unterscheiden",
+    "geschichte.antisemitismus.funktion-erklaeren"
+   ],
+   "intro": "Prüfe, ob du den Stoff verstanden hast. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "k6-q1",
+     "type": "single_choice",
+     "prompt": "Was unterscheidet den rassistischen Antisemitismus vom religiösen Antijudaismus?",
+     "options": [
+      {
+       "text": "Er traf vor allem Juden in Osteuropa, der Antijudaismus dagegen vor allem Juden im Deutschen Reich."
+      },
+      {
+       "text": "Er erklärte Juden zu einer angeblichen «Rasse», sodass Taufe oder Anpassung nicht mehr als Ausweg galten.",
+       "correct": true
+      },
+      {
+       "text": "Er war weniger gefährlich, weil er den jüdischen Glauben respektierte und Juden nicht ausgrenzen wollte."
+      },
+      {
+       "text": "Er entstand bereits im Mittelalter, während der religiöse Antijudaismus erst im 19. Jahrhundert aufkam."
+      }
+     ],
+     "explanation": "Der religiöse Antijudaismus richtete sich gegen den Glauben, der rassistische Antisemitismus ab dem späten 19. Jahrhundert gegen die angebliche Abstammung – deshalb gab es keinen Ausweg mehr. Weniger gefährlich war er nicht: Der Glaube spielte gar keine Rolle mehr, und aus Vorurteilen wurde ab 1933 staatliche Verfolgung. Beide Formen gab es in ganz Europa, und die Reihenfolge ist umgekehrt: Antijudaismus zuerst."
+    },
+    {
+     "id": "k6-q2",
+     "type": "single_choice",
+     "prompt": "Was ordnete das Vierte Laterankonzil 1215 an?",
+     "options": [
+      {
+       "text": "Juden dürfen keine Grundstücke mehr besitzen und müssen die Städte verlassen."
+      },
+      {
+       "text": "Juden erhalten in allen christlichen Ländern dieselben Rechte wie Christen."
+      },
+      {
+       "text": "Juden müssen zum Christentum übertreten, sonst droht ihnen die Vertreibung."
+      },
+      {
+       "text": "Juden müssen sich durch Kleidung von Christen unterscheiden, etwa durch einen Hut.",
+       "correct": true
+      }
+     ],
+     "explanation": "Das Konzil verlangte eine Kennzeichnung durch Kleidung; daraus wurden Judenhut und gelber Fleck. Das Verbot von Landbesitz galt in vielen Städten, ging aber nicht von diesem Konzil aus; auch Vertreibungen und Zwangstaufen gab es, aber nicht durch diesen Beschluss. Gleichstellung kam erst im 19. Jahrhundert."
+    },
+    {
+     "id": "k6-q3",
+     "type": "single_choice",
+     "prompt": "Was sind die «Protokolle der Weisen von Zion»?",
+     "options": [
+      {
+       "text": "Eine Fälschung, die eine jüdische Weltverschwörung behauptet, 1935 in Bern gerichtlich festgestellt.",
+       "correct": true
+      },
+      {
+       "text": "Echte Sitzungsprotokolle jüdischer Gemeinden aus Russland, die 1903 ohne Erlaubnis veröffentlicht wurden."
+      },
+      {
+       "text": "Ein Gesetzbuch des Deutschen Reiches von 1871, das die rechtliche Gleichstellung der Juden regelte."
+      },
+      {
+       "text": "Ein Bericht der Zeitung «The Times» von 1921 über das jüdische Leben in den Städten Russlands."
+      }
+     ],
+     "explanation": "Die «Protokolle» sind eine Fälschung aus älteren Texten, 1921 von der «Times» entlarvt und 1935 im Berner Prozess gerichtlich als Fälschung festgestellt. Echte Protokolle, ein Gesetzbuch oder ein Zeitungsbericht sind sie nicht."
+    },
+    {
+     "id": "k6-q4",
+     "type": "true_false",
+     "prompt": "Die Nationalsozialisten haben den Judenhass erfunden.",
+     "answer": false,
+     "explanation": "Falsch. Judenfeindschaft gab es seit der Antike und im ganzen Mittelalter; der rassistische Antisemitismus entstand im 19. Jahrhundert. Die Nationalsozialisten radikalisierten diese Vorurteile und machten sie ab 1933 zur Staatspolitik."
+    },
+    {
+     "id": "k6-q5",
+     "type": "single_choice",
+     "prompt": "Warum ist ein Feindbild, das Juden zugleich für den Kapitalismus und den Kommunismus verantwortlich macht, in sich widersprüchlich?",
+     "options": [
+      {
+       "text": "Weil es Kapitalismus und Kommunismus in der Zeit der Weimarer Republik noch gar nicht gegeben hat."
+      },
+      {
+       "text": "Weil die Nationalsozialisten selbst Kommunisten waren und die großen Banken ebenfalls unterstützten."
+      },
+      {
+       "text": "Weil beide Gegensätze sind: Wer einen Feind für beides findet, sucht einen Sündenbock, keine Tatsachen.",
+       "correct": true
+      },
+      {
+       "text": "Weil Juden im Deutschen Reich weder in Banken noch in politischen Parteien arbeiten durften."
+      }
+     ],
+     "explanation": "Kapitalismus beruht auf Privateigentum an Fabriken, Banken und Land, der Kommunismus will dieses Eigentum gemeinsam verwalten – dass eine Gruppe beides zugleich steuert, ist völlig unglaubwürdig, und belegt wurde es nie. Der Widerspruch zeigt, dass das Feindbild für jedes Problem passen sollte. Beide Systeme existierten damals, die NSDAP war keine kommunistische Partei, und Juden arbeiteten bis 1933 in allen Berufen."
+    },
+    {
+     "id": "k6-q6",
+     "type": "single_choice",
+     "prompt": "Was geschah am 1. April 1933?",
+     "options": [
+      {
+       "text": "SA-Posten standen vor jüdischen Geschäften und Praxen und hielten Kundschaft vom Betreten ab.",
+       "correct": true
+      },
+      {
+       "text": "Der Reichstag beschloss die Nürnberger Gesetze und entzog jüdischen Menschen das Wahlrecht."
+      },
+      {
+       "text": "Die Reichsregierung verbot jüdischen Menschen den Besuch von Kinos, Theatern und Schwimmbädern."
+      },
+      {
+       "text": "Jüdische Kinder wurden von allen öffentlichen Schulen im Deutschen Reich ausgeschlossen."
+      }
+     ],
+     "explanation": "Der 1. April 1933 war der Tag des Boykotts jüdischer Geschäfte, Praxen und Kanzleien. Die Nürnberger Gesetze kamen im September 1935, die Verbote für Kino und Theater und der Ausschluss aus den öffentlichen Schulen erst nach den Novemberpogromen 1938."
+    },
+    {
+     "id": "k6-q7",
+     "type": "single_choice",
+     "prompt": "Was bestimmte der «Arierparagraf» vom 7. April 1933?",
+     "options": [
+      {
+       "text": "Jüdische Menschen mussten ihre Pässe mit einem «J» stempeln lassen und durften nur noch mit Erlaubnis reisen."
+      },
+      {
+       "text": "Jüdische Menschen durften keine Nichtjuden mehr heiraten; bestehende Ehen wurden für ungültig erklärt."
+      },
+      {
+       "text": "Jüdische Menschen mussten ihre Geschäfte an «arische» Käufer verkaufen, meist weit unter dem Wert."
+      },
+      {
+       "text": "Beamte «nicht arischer Abstammung» wurden entlassen, mit anfänglichen Ausnahmen für Frontkämpfer.",
+       "correct": true
+      }
+     ],
+     "explanation": "Der «Arierparagraf» im Gesetz zur Wiederherstellung des Berufsbeamtentums entfernte jüdische Beamte aus dem Dienst; Frontkämpfer waren anfangs ausgenommen. Der J-Stempel (1938), das Eheverbot (1935) und die «Arisierung» (vor allem 1938) kamen später."
+    },
+    {
+     "id": "k6-q8",
+     "type": "single_choice",
+     "prompt": "Ab wann ist Hitlers radikaler Antisemitismus durch Quellen belegt?",
+     "options": [
+      {
+       "text": "Seit seiner Kindheit in Österreich, wie Schulzeugnisse und Briefe seiner Lehrer zeigen."
+      },
+      {
+       "text": "Seit seinen Wiener Jahren 1908 bis 1913, wie «Mein Kampf» es beschreibt und die Forschung bestätigt."
+      },
+      {
+       "text": "Seit 1919 in München, denn das erste schriftliche Zeugnis ist ein Brief vom September 1919.",
+       "correct": true
+      },
+      {
+       "text": "Erst seit der Machtübernahme 1933, als er den Boykott jüdischer Geschäfte anordnete."
+      }
+     ],
+     "explanation": "Der Brief an Adolf Gemlich vom 16. September 1919 ist das erste schriftliche Zeugnis. Die Wien-Erzählung aus «Mein Kampf» hat die Forschung (Brigitte Hamann) als Selbstinszenierung erkannt; aus Kindheit oder Wiener Jahren ist radikaler Judenhass nicht belegt. «Erst seit 1933» stimmt ebenfalls nicht: Der Boykott zeigt, was Hitler als Reichskanzler tun konnte, nicht, wann sein Judenhass begann – der Brief belegt ihn 14 Jahre früher."
+    },
+    {
+     "id": "k6-q9",
+     "type": "single_choice",
+     "prompt": "Wie hängen ein Verschwörungsmythos wie die «Protokolle der Weisen von Zion» und das Sündenbock-Denken zusammen?",
+     "options": [
+      {
+       "text": "Der Mythos belegt mit echten Quellen, dass die beschuldigte Gruppe die Krise tatsächlich verursacht hat."
+      },
+      {
+       "text": "Der Mythos liefert eine erfundene Geschichte, die einer Gruppe die Schuld an Krisen gibt – ohne jeden Beleg.",
+       "correct": true
+      },
+      {
+       "text": "Der Mythos entsteht erst, nachdem ein Gericht die beschuldigte Gruppe rechtskräftig verurteilt hat."
+      },
+      {
+       "text": "Das Sündenbock-Denken widerlegt den Mythos, weil es nach den wirklichen Ursachen einer Krise fragt."
+      }
+     ],
+     "explanation": "Ein Verschwörungsmythos liefert den erfundenen Schuldigen, und der Sündenbock erklärt die Krise – ohne Belege und ohne Gerichtsurteil. Echte Quellen gibt es dafür nicht; im Berner Prozess wurde sogar die Fälschung festgestellt. Das Sündenbock-Denken widerlegt den Mythos nicht, es lebt von ihm."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k6-tasks",
+   "title": "Vertiefung: Widerspruch, Beobachtung, Quelle, Abstammung",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.funktion-erklaeren",
+    "geschichte.antisemitismus.formen-unterscheiden",
+    "geschichte.methoden.quellen-beurteilen"
+   ],
+   "intro": "Deine Antworten gehen an deine Lehrperson. Aufgaben 1 bis 3 sind für alle gedacht, Aufgabe 4 ist als **(Erweitert)** gekennzeichnet.",
+   "tasks": [
+    {
+     "id": "k6-t1",
+     "prompt": "Erkläre in zwei bis vier Sätzen, warum die Behauptung, «die Juden» steckten hinter dem Kapitalismus und zugleich hinter dem Kommunismus, ein Widerspruch ist – und was dieser Widerspruch über das Feindbild verrät.",
+     "hint": "Was will der Kapitalismus mit dem Privateigentum, was der Kommunismus? Kann dieselbe Gruppe beides zugleich steuern? Und wozu braucht ein Regime einen Feind, der zu allem passt?",
+     "solution": "Beispielantwort: Kapitalismus beruht auf Privateigentum an Fabriken, Banken und Land und auf Gewinn, der Kommunismus will dieses Eigentum gemeinsam verwalten – dass eine einzige Gruppe beides zugleich steuert, ist völlig unglaubwürdig, und belegt wurde es nie. Dass die NS-Propaganda «die Juden» trotzdem für beides verantwortlich machte, zeigt, dass es nicht um Tatsachen ging, sondern um einen Sündenbock, der für jedes Problem passen musste. Ein Feindbild, das Gegensätze vereint, dient der Herrschaft, nicht der Erklärung."
+    },
+    {
+     "id": "k6-t2",
+     "prompt": "Stell dir vor, du bist am 1. April 1933 in einer deutschen Kleinstadt unterwegs und siehst die SA-Posten vor dem Geschäft, in dem deine Familie seit Jahren einkauft. Schreibe in zwei bis fünf Sätzen, was du siehst und was dir durch den Kopf geht – als Beobachterin oder Beobachter, nicht als Täter.",
+     "hint": "Was steht auf den Schildern, wer steht davor, wer geht trotzdem hinein, wer schaut weg? Was weißt du über die Familie, der das Geschäft gehört? Und was könntest du tun – was riskierst du dabei?",
+     "solution": "Beispielantwort: «Vor dem Laden von Familie Rosenthal stehen zwei Männer in braunen Uniformen mit einem Schild: Deutsche, kauft nicht bei Juden. Frau Rosenthal hat mir letzte Woche noch die Schulhefte eingepackt. Die meisten Leute gehen schneller vorbei und schauen auf den Boden; eine alte Frau geht trotzdem hinein, und einer der Männer notiert etwas. Ich frage mich, ob die beiden sie kennen – und ob ich mich traue, morgen wieder hinzugehen.» (Gut ist jede Antwort, die konkret beobachtet, die Betroffenen als Menschen zeigt und die eigene Unsicherheit oder Entscheidung benennt.)"
+    },
+    {
+     "id": "k6-t3",
+     "prompt": "Lies noch einmal das Zitat aus Hitlers Brief an Gemlich (1919) und denke an seine Behauptung in «Mein Kampf» (1925), er sei in Wien zum Antisemiten geworden. Erkläre in drei bis vier Sätzen, was dir an der Sprache des Briefes auffällt – und warum man der Wien-Erzählung nicht einfach glauben darf.",
+     "hint": "Zur Sprache: Klingt «Entfernung» nach Gewalt oder nach Verwaltung – und was geschieht dabei mit den Menschen? Zur Quelle: Wer schreibt, wann (wie viele Jahre nach Wien?), mit welcher Absicht – und was hat Brigitte Hamann gefunden?",
+     "solution": "Beispielantwort: «Entfernung» klingt sachlich, fast wie ein Verwaltungsvorgang, obwohl es um Menschen geht, die aus der Gesellschaft verschwinden sollen; sie werden zu einem Problem erklärt, das man beseitigt. Was genau gemeint war, bleibt in diesem Brief offen. Hitler schrieb «Mein Kampf» 1925, mehr als zehn Jahre nach seiner Wiener Zeit, und wollte seinen Hass als frühe «Erkenntnis» darstellen – er ist also ein Zeuge in eigener Sache. Die Forschung (Brigitte Hamann) findet aus Wien keine Belege für radikalen Judenhass; belegt ist er erst ab 1919, im Brief an Gemlich. (Gut ist jede Antwort, die die Wortwahl benennt und die spätere Entstehung und die Absicht von «Mein Kampf» berücksichtigt.)"
+    },
+    {
+     "id": "k6-t4",
+     "prompt": "(Erweitert) Der «Arierparagraf» spricht von «nicht arischer Abstammung», nicht von jüdischem Glauben. Erkläre in drei bis fünf Sätzen, was diese Wortwahl über den rassistischen Antisemitismus verrät, warum eine Taufe den Betroffenen keinen Schutz mehr bot – und was das für die spätere Verfolgung bedeutete.",
+     "hint": "Stichworte: Abstammung statt Glaube, Taufe als Ausweg im Antijudaismus, «vererbte» Eigenschaften. Vergleiche die Tabelle im Abschnitt «Zwei Formen des Hasses» mit dem Wortlaut des «Arierparagrafen».",
+     "solution": "Beispielantwort: Der religiöse Antijudaismus richtete sich gegen den Glauben; wer sich taufen ließ, galt theoretisch als Christ und war dem Vorwurf entzogen. Der rassistische Antisemitismus erklärte Juden dagegen zu einer «Rasse» mit angeblich vererbten Eigenschaften – damit zählte nicht mehr, was jemand glaubte oder tat, sondern nur noch die Abstammung. Es gab keinen Ausweg mehr, keine Anpassung, keine Loyalität, die «half». Das zeigt schon der «Arierparagraf» von 1933: Er knüpfte an die Abstammung an, nicht an den eigenen Glauben – auch ein getaufter Beamter mit jüdischen Vorfahren konnte deshalb entlassen werden. Welche Regel die Nürnberger Gesetze von 1935 dafür verwendeten, wer als «Jude» galt, erklärt das nächste Modul."
+    }
+   ]
+  }
+ ]
+}
