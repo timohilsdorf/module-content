@@ -1,0 +1,2573 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-machtuebernahme-1933 --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:698d9b965c68607cd7763bfa78cd29d4a709812eee422cf1488f33c199b89850",
+  "masterCommit": "9d7d44d",
+  "hintsHash": null,
+  "generatedAt": "2026-10-14",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:8cb5c83ba871be27085b0c63bc2cf0a00e8cb9c03a4ac67f034dd967b904604c"
+ },
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-machtuebernahme-1933",
+ "title": "From democracy to dictatorship: 1933/34",
+ "description": "On 30 January 1933, Hitler becomes Chancellor of the Reich – a year and a half later, Germany is a dictatorship. You will trace how the Reichstag fire, emergency decree, Enabling Act, Gleichschaltung and the ‘Röhm-Putsch’ dismantled democracy, learn about the Führer principle and consider whether all this was ‘legal’.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Geography, History and Society",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Geography, History and Society",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "en",
+ "sequenz": 2,
+ "einheit": "National Socialism – dictatorship, persecution, remembrance",
+ "requires": [
+  "nationalsozialismus-staatsformen-faschismus"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "takeover of power",
+  "30 January 1933",
+  "Reichstag fire",
+  "Reichstag Fire Decree",
+  "Enabling Act",
+  "Gleichschaltung",
+  "Röhm-Putsch",
+  "Führer principle",
+  "Hindenburg",
+  "National Socialism"
+ ],
+ "learningObjectives": [
+  "I can explain who appointed Hitler Chancellor of the Reich on 30 January 1933 and why the conservatives thought they could control him.",
+  "I can describe how the Reichstag fire and the Reichstag Fire Decree suspended fundamental rights and what ‘protective custody’ meant.",
+  "I can explain what the Enabling Act permitted, who voted against it and why it is described as parliament giving up its own powers.",
+  "I can give examples of ‘Gleichschaltung’ in 1933 and explain the significance of the ‘Röhm-Putsch’ and 2 August 1934.",
+  "I can explain the Führer principle and put the events of 1933/34 in the correct order.",
+  "(Extension) I can explain why the takeover of power was only apparently legal and discuss the terms ‘seizure of power’ and ‘transfer of power’."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Etablierung der NS-Herrschaft (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Nationalsozialismus",
+   "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/"
+  },
+  {
+   "title": "documentArchiv.de: Verordnung des Reichspräsidenten zum Schutz von Volk und Staat (28.2.1933), Gesetz zur Behebung der Not von Volk und Reich (24.3.1933), Gesetz über Maßnahmen der Staatsnotwehr (3.7.1934)",
+   "url": "https://www.documentarchiv.de/ns.html"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Errichtung der NS-Diktatur",
+   "url": "https://www.youtube.com/watch?v=CB7kYw60M1M"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k2-einstieg",
+   "title": "30 January 1933: a day that changed everything – or did it?",
+   "body": "At midday on 30 January 1933, **President of the Reich Paul von Hindenburg** appoints the chairman of the NSDAP, Adolf Hitler, **Chancellor of the Reich**. You have traced how this came about – the Great Depression, mass unemployment and the NSDAP’s electoral successes – in [[modul:weimar-wirtschaftskrise-nationalsozialismus]]. And do you remember Mussolini in 1922? Hitler, too, was appointed by the head of state – you know this pattern from [[modul:nationalsozialismus-staatsformen-faschismus]]. Here begins the story of what happened next.\n\nHindenburg, aged 85 and a former field marshal, had long resisted. His eventual decision to appoint Hitler was the result of efforts by conservative politicians such as **Franz von Papen**, who became Vice-Chancellor. Their reasoning was this: Hitler has the masses; we have the experience, the President of the Reich and the majority in the cabinet – only three of the eleven ministers belonged to the NSDAP. They would ‘hem Hitler in’ and use him for their own aims. It was a **misjudgement with far-reaching consequences**.\n\nThat evening, the **SA** (Sturmabteilung, the party’s force of thugs), the **SS** (Schutzstaffel, originally Hitler’s bodyguard) and other organisations marched through the Brandenburg Gate carrying torches. However, some of the familiar footage does not actually come from that evening: certain scenes were later **re-enacted** for a propaganda film. Even the first day was therefore also a staged propaganda event.\n\n> **(Extension) One event, three perspectives:** The Nazis themselves spoke of a **‘seizure of power’ (Machtergreifung)** – as if they had fought their way to power entirely through their own efforts. Many historians today prefer **‘transfer of power’ (Machtübertragung)** or ‘handover of power’: Hitler was appointed legally, with help from conservative elites. The neutral term **‘takeover of power’ (Machtübernahme)** covers both. Remember all three – and pay attention to who uses which term."
+  },
+  {
+   "type": "schaubild",
+   "id": "k2-zeitstrahl",
+   "title": "Overview: from appointment to the Führer state (January 1933 to August 1934)",
+   "szene": {
+    "elemente": [
+     {
+      "id": "z-titel",
+      "x": 250,
+      "y": 0,
+      "width": 669,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "From appointment to the Führer state: 1933/34",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-untertitel",
+      "x": 250,
+      "y": 42,
+      "width": 1094,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#4c6f91",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "Nine stages in a year and a half (not to scale) – blue: formally legal appointment; orange: dismantling democracy",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-achse",
+      "x": 20,
+      "y": 330,
+      "width": 1270,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1270,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "z-1933",
+      "x": 30,
+      "y": 345,
+      "width": 55,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#4c6f91",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "text",
+      "text": "1933",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-1934",
+      "x": 1230,
+      "y": 345,
+      "width": 55,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#4c6f91",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "text",
+      "text": "1934",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-s1",
+      "x": 0,
+      "y": 170,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s1-t",
+      "x": 10,
+      "y": 207,
+      "width": 200,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "text",
+      "text": "30 January 1933\nHindenburg appoints Hitler\nChancellor of the Reich",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l1",
+      "x": 110,
+      "y": 300,
+      "width": 0,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p1",
+      "x": 103,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s2",
+      "x": 135,
+      "y": 380,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s2-t",
+      "x": 145,
+      "y": 407.5,
+      "width": 200,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "text",
+      "text": "27/28 February 1933\nReichstag fire –\ndecree suspends\nfundamental rights",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l2",
+      "x": 245,
+      "y": 330,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p2",
+      "x": 238,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s3",
+      "x": 270,
+      "y": 170,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s3-t",
+      "x": 280,
+      "y": 207,
+      "width": 200,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "text",
+      "text": "5 March 1933\nReichstag election amid terror:\nNSDAP 43.9 %",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l3",
+      "x": 380,
+      "y": 300,
+      "width": 0,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p3",
+      "x": 373,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s4",
+      "x": 405,
+      "y": 380,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s4-t",
+      "x": 415,
+      "y": 417,
+      "width": 200,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069395373,
+      "type": "text",
+      "text": "21/23 March 1933\n‘Day of Potsdam’ –\nEnabling Act",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s4",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l4",
+      "x": 515,
+      "y": 330,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1346169768,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p4",
+      "x": 508,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1323890193,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s5",
+      "x": 540,
+      "y": 170,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1591521450,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s5-t",
+      "x": 550,
+      "y": 207,
+      "width": 200,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 537279799,
+      "type": "text",
+      "text": "2 May 1933\nTrade unions\ndestroyed (DAF)",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s5",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l5",
+      "x": 650,
+      "y": 300,
+      "width": 0,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1766705883,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p5",
+      "x": 643,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080880862,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s6",
+      "x": 675,
+      "y": 380,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576577607,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s6-t",
+      "x": 685,
+      "y": 426,
+      "width": 200,
+      "height": 38,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 821440179,
+      "type": "text",
+      "text": "10 May 1933\nBook burnings",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s6",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l6",
+      "x": 785,
+      "y": 330,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 94861959,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p6",
+      "x": 778,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2113293440,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s7",
+      "x": 810,
+      "y": 170,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 417856261,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s7-t",
+      "x": 820,
+      "y": 207,
+      "width": 200,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1089207059,
+      "type": "text",
+      "text": "14 July 1933\nLaw: NSDAP is the\nonly permitted party",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s7",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l7",
+      "x": 920,
+      "y": 300,
+      "width": 0,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 805849935,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p7",
+      "x": 913,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1631777536,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s8",
+      "x": 945,
+      "y": 380,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1938183565,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s8-t",
+      "x": 955,
+      "y": 407.5,
+      "width": 200,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1370408198,
+      "type": "text",
+      "text": "30 June – 2 July 1934\nSS murders SA leaders\n(Nazi propaganda calls it\nthe ‘Röhm-Putsch’)",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s8",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l8",
+      "x": 1055,
+      "y": 330,
+      "width": 0,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 437204082,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        50
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p8",
+      "x": 1048,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1241798878,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-s9",
+      "x": 1080,
+      "y": 170,
+      "width": 220,
+      "height": 130,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 380275764,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-s9-t",
+      "x": 1090,
+      "y": 197.5,
+      "width": 200,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1295217510,
+      "type": "text",
+      "text": "2 August 1934\nHindenburg dies –\nHitler becomes ‘Führer\nand Reich Chancellor’",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-s9",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z-l9",
+      "x": 1190,
+      "y": 300,
+      "width": 0,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1520509309,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "z-p9",
+      "x": 1183,
+      "y": 323,
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 17810377,
+      "type": "ellipse"
+     },
+     {
+      "id": "z-merk",
+      "x": 0,
+      "y": 540,
+      "width": 1300,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 945779009,
+      "type": "rectangle"
+     },
+     {
+      "id": "z-merk-t",
+      "x": 10,
+      "y": 558.5,
+      "width": 1280,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1264780336,
+      "type": "text",
+      "text": "In 18 months, from Chancellor of a coalition to an unchecked sole ruler – each step built on the previous one.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Title: From appointment to the Führer state: 1933/34. Subtitle: Nine stages in a year and a half, not to scale; blue represents the formally legal appointment, orange the dismantling of democracy. The diagram shows a horizontal timeline with 1933 on the left and 1934 on the right, and nine stages alternating above and below the line. Key points: 1. 30 January 1933 (blue): President of the Reich Hindenburg appoints Hitler Chancellor of the Reich. 2. 27 and 28 February 1933 (orange): The Reichstag burns, and a decree suspends fundamental rights. 3. 5 March 1933: Reichstag election amid terror; the NSDAP receives 43.9 per cent. 4. 21 and 23 March 1933: Day of Potsdam and Enabling Act. 5. 2 May 1933: The trade unions are destroyed and replaced by the German Labour Front. 6. 10 May 1933: Book burnings. 7. 14 July 1933: A law makes the NSDAP the only permitted party. 8. 30 June to 2 July 1934: The SS murders the SA leadership; Nazi propaganda calls it the Röhm-Putsch. 9. 2 August 1934: Hindenburg dies; Hitler becomes Führer and Reich Chancellor. 10. Reminder below the timeline: In 18 months, from Chancellor of a coalition to an unchecked sole ruler; each step built on the previous one.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "id": "k2-brand",
+   "title": "The fire and the decree: February 1933",
+   "body": "On the evening of **27 February 1933**, less than a week before the Reichstag election, the Reichstag is in flames. **Marinus van der Lubbe**, a 24-year-old Dutchman and former communist, is arrested at the scene; he is convicted of starting the fire and executed in 1934. Whether he really acted alone remains disputed among researchers to this day. What is certain is how the Nazi leadership used it: that same night, it accused the **Communist Party of Germany (KPD)** of preparing an uprising – and deliberately exploited the fire.\n\nThe very next day, **28 February 1933**, Hindenburg signs the **‘Decree of the President of the Reich for the Protection of People and State’**, known as the **Reichstag Fire Decree**. It is based on **Article 48** of the Weimar Constitution – the emergency decree article that Brüning had already used to govern without parliament. The crucial sentence reads:\n\n> ‘[…] Restrictions on personal liberty, on the right to freedom of expression, including freedom of the press, on the rights of association and assembly, interference with the confidentiality of letters, post, telegraph and telephone communications, orders for house searches and confiscations, and restrictions on property are therefore permissible even beyond the legal limits otherwise laid down for these purposes.’\n>\n> — Reichstagsbrandverordnung, 28. Februar 1933, § 1\n\nRead the sentence slowly and count how many rights it removes. In everyday language: **fundamental rights** – personal liberty, freedom of expression, the press and assembly, confidentiality of correspondence and the inviolability of the home – **no longer apply**. The consequences were immediate:\n\n- People could be arrested **without a trial**. The Nazis called this **‘protective custody’** – a euphemistic Nazi term that made it sound as if those arrested were being protected.\n- **Thousands of communists and social democrats** were arrested and abused in the first few weeks; some were murdered.\n- In Prussia, the **SA** had already been allowed to act as **‘auxiliary police’** since 22 February; after the fire, it was deployed on a mass scale against political opponents – gangs of thugs with state permission.\n- In March 1933, the first **concentration camps (KZ)** were established, for example at **Dachau** near Munich: detention camps outside judicial oversight, where political opponents were imprisoned, abused and sometimes murdered. These were not yet extermination camps – that term refers to the camps in occupied Poland which, from 1941/42 onwards, during the war, served primarily to murder people deliberately and as quickly as possible. A later module in this series explains the distinction in more detail.\n\n> **Remember:** The Reichstag Fire Decree was never repealed. It remained in force **until 1945** – twelve years of an ‘emergency’ that remained the foundation of terror."
+  },
+  {
+   "type": "text",
+   "id": "k2-maerz",
+   "title": "Election, spectacle, enabling powers: March 1933",
+   "body": "## 5 March 1933: an election that was no longer free\n\nAs early as 1 February, at Hitler’s request, Hindenburg had dissolved the Reichstag and called new elections for 5 March: Hitler’s government, made up of the NSDAP and the German National People’s Party (**DNVP**), a conservative party, had no majority in the old Reichstag, and Hitler wanted to gain one through the election. The **Reichstag election** took place amid the wave of arrests. Opponents of the NSDAP were barely allowed to hold meetings, many of their newspapers were banned, and SA guards stood outside polling stations. Even so, the NSDAP won **43.9 per cent** – a large share, but **no majority of its own**. Only together with the DNVP did it hold just over half the seats. Incidentally, the series of election results you know from the Weimar module (2.6 per cent in 1928, 18.3 per cent in 1930, 37.3 per cent in July 1932) had not continued to rise without interruption: in the new election of November 1932, the NSDAP had fallen back to 33.1 per cent. Now, in March 1933 and amid terror, it reached 43.9 per cent.\n\n## 21 March 1933: the ‘Day of Potsdam’\n\nThe opening of the new Reichstag became a spectacle: at the state ceremony in the Garrison Church in Potsdam, by the tomb of the Prussian kings, Hitler appeared not in party uniform but in a dark morning coat, and bowed before the elderly Hindenburg in uniform. The message to the middle classes, the military and the nobility was: old Prussia and the ‘new Germany’ are joining forces here – you can rest easy. The new Minister of Propaganda, **Joseph Goebbels**, organised the accompanying programme; the ceremony was broadcast on the radio.\n\n## 23 March 1933: the Enabling Act\n\nTwo days later, in Berlin’s **Kroll-Oper** (the Reichstag building had been gutted by fire), the Reichstag voted on the **‘Law to Remedy the Distress of People and Reich’** – the **Enabling Act**. Its central provisions were:\n\n> ‘Laws of the Reich may be enacted by the Reich government as well as through the procedure laid down in the Reich Constitution. […] Laws of the Reich enacted by the Reich government may deviate from the Reich Constitution […].’\n>\n> — Ermächtigungsgesetz, Art. 1 und 2 (vom Reichstag am 23. März beschlossen, am 24. März 1933 verkündet)\n\nThe **government** could therefore **make laws without parliament** – even laws that changed the constitution. Because this affected the constitution, a **two-thirds majority** was required. How that majority was achieved shows what ‘legal’ meant here: the 81 KPD members of parliament had been arrested, had fled or had been excluded, and several members of the **Social Democratic Party (SPD)** were also absent. SA and SS men surrounded the Kroll-Oper and stood in the aisles. The result was **444 votes in favour, 94 against**. Only the **SPD** voted against it. Its chairman, **Otto Wels**, said in the last free speech in the Reichstag:\n\n> ‘You can take our freedom and our lives, but not our honour.’\n>\n> — Otto Wels, Reichstagsrede, 23. März 1933\n\nThe Catholic **Centre Party** and the middle-class parties voted **in favour** – some out of fear, others because Hitler had made them promises that he did not keep.\n\n> **Remember:** With the Enabling Act, **parliament gave up its own powers** – through its own votes in favour, but under pressure and threats. The separation of powers had ended: those who made the laws also implemented them. The Act was initially valid for four years and was extended – until 1945."
+  },
+  {
+   "type": "lueckentext",
+   "id": "k2-lt-rechtsakte",
+   "title": "Two legal measures, one aim",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren"
+   ],
+   "intro": "Drag the appropriate terms into the gaps (on a phone, tap the word first, then the gap). **Watch out:** Three of the words do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "On 28 February 1933, the {{1}} suspended the fundamental rights of the Weimar Constitution.\nIt was based on Article {{2}} of the constitution, which allowed the President of the Reich to issue emergency decrees.\nThe Nazis euphemistically called detention without a judge’s involvement ‘{{3}}’.\nOn 23 March 1933, the Reichstag passed the {{4}}: the government could now make laws without parliament, even laws that deviated from the {{5}}.\nThis required a majority of {{6}} of the members of parliament present.\nOnly the {{7}} party voted against the Act; the members of parliament from the {{8}} party had been arrested or had fled.",
+   "luecken": [
+    {
+     "antworten": [
+      "Reichstag Fire Decree",
+      "the Reichstag Fire Decree",
+      "Reichstag fire emergency decree",
+      "Reichstagsbrandverordnung"
+     ]
+    },
+    {
+     "antworten": [
+      "48",
+      "forty-eight",
+      "forty eight"
+     ]
+    },
+    {
+     "antworten": [
+      "protective custody",
+      "Schutzhaft"
+     ]
+    },
+    {
+     "antworten": [
+      "Enabling Act",
+      "the Enabling Act",
+      "Enabling Law",
+      "the Enabling Law",
+      "Ermächtigungsgesetz"
+     ]
+    },
+    {
+     "antworten": [
+      "constitution",
+      "the constitution",
+      "Weimar Constitution",
+      "the Weimar Constitution"
+     ]
+    },
+    {
+     "antworten": [
+      "two thirds",
+      "two-thirds",
+      "2/3",
+      "⅔"
+     ]
+    },
+    {
+     "antworten": [
+      "SPD",
+      "the SPD",
+      "Social Democratic",
+      "Social Democratic Party",
+      "Social Democratic Party of Germany"
+     ]
+    },
+    {
+     "antworten": [
+      "KPD",
+      "the KPD",
+      "Communist",
+      "Communist Party",
+      "Communist Party of Germany"
+     ]
+    }
+   ],
+   "ablenker": [
+    "Centre Party",
+    "one half",
+    "Reich Flag Law"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k2-gleichschaltung",
+   "title": "Gleichschaltung: bringing a country into line",
+   "body": "**‘Gleichschaltung’** is a Nazi term borrowed from electrical engineering: all components are to be connected to the same current. In political terms, it meant that every organisation, every authority and every club was to be placed under the NSDAP or reorganised according to its rules. This happened within a few months in 1933:\n\n- **The federal states:** The state governments were removed; Hitler sent a **Reich governor** to each state to govern according to his instructions. The federal state became a centrally controlled state.\n- **The trade unions:** On 1 May 1933, the regime celebrated the ‘Day of National Labour’ with the workers – on **2 May 1933**, the SA and SS occupied trade union offices, arrested officials and confiscated their assets. The trade unions were replaced by the **German Labour Front (DAF)**, a compulsory organisation run by the party.\n- **Books:** On **10 May 1933**, students in many university towns publicly burned works by authors considered ‘un-German’ (‘un-German’ was Nazi language for anything that supposedly did not fit the German people) – including Erich Kästner, Heinrich Mann and Kurt Tucholsky.\n- **The parties:** The SPD was banned in June, and the other parties dissolved themselves under pressure. The **Law Against the Formation of New Parties** of **14 July 1933** made the NSDAP the **only permitted party**. As a result, in the Reichstag election on **12 November 1933**, there was only one list of candidates, the NSDAP’s **single list** – there was no longer any choice. After that, the Reichstag consisted almost entirely of NSDAP members and no longer had anything to decide: a **sham parliament** that merely approved government decisions.\n- **Press, radio, culture and clubs:** Newspapers were banned or taken over, radio was placed under the Ministry of Propaganda, and clubs from chess clubs to choirs were brought into line or banned.\n\nWithin half a year, hardly any legal institution remained through which dissent could have been organised publicly."
+  },
+  {
+   "type": "text",
+   "id": "k2-1934",
+   "title": "1934: murder becomes law – and the Führer becomes the state",
+   "body": "## The ‘Röhm-Putsch’\n\nBy 1934, the SA under **Ernst Röhm** had grown to several million members. Röhm wanted more: the SA was to become a people’s army and replace the Reichswehr. This brought him into conflict with the generals – and with Hitler, who needed the army for his plans. From **30 June to 2 July 1934**, Hitler had the **SS** murder the SA leadership; Röhm himself was shot in his cell. At the same time, the regime used the opportunity to kill other opponents, including former Chancellor of the Reich Kurt von Schleicher and Erich Klausener, the head of Catholic Action in Berlin. Researchers estimate that **several dozen to around 200 people were killed**. Nazi propaganda called the murders the **‘Röhm-Putsch’** – as if Röhm had planned a coup. There was no evidence of this.\n\nOn 3 July 1934, the government passed a law consisting of a single sentence:\n\n> ‘The measures carried out on 30 June, 1 and 2 July 1934 to suppress attacks involving high treason and treason against the country are lawful as acts of state self-defence.’\n>\n> — Gesetz über Maßnahmen der Staatsnotwehr, 3. Juli 1934\n\nThe law declared the murders **lawful after the event**. The state itself had killed – and made the killing legal. For the generals, the middle classes and many civil servants, this was no cause for protest but for relief: the SA, which they saw as a nuisance, had been stripped of its power.\n\n## 2 August 1934: Führer and Reich Chancellor\n\nOn **2 August 1934**, President of the Reich Hindenburg died. The day before, the government had already used the powers granted by the Enabling Act to pass a law merging the offices of President of the Reich and Chancellor of the Reich. From then on, Hitler called himself **‘Führer and Reich Chancellor’**. That same day, the soldiers of the **Reichswehr** (the name of the republic’s army; from 1935 it was called the ‘Wehrmacht’) swore a new oath – no longer to the constitution, but to **Hitler personally**. A referendum, held when free expression had long since become impossible, later confirmed this with around 90 per cent of the vote.\n\n## The Führer principle\n\nThe Nazi state operated according to the **Führer principle**: **commands from the top down, obedience from the bottom up.** At every level there was a ‘leader’, appointed from above, who gave orders to those below – from the Reich governor to the local branch leader (the party leader in a town), from the factory director (‘factory leader’) to the Hitler Youth leader. There were no longer any free elections, any checks on power or any legal dissent. The Führer’s will stood above every law. The diagram shows you how this state was structured."
+  },
+  {
+   "type": "schaubild",
+   "id": "k2-organigramm",
+   "title": "The Führer state at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "o-titel",
+      "x": 330,
+      "y": 0,
+      "width": 825,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1481419643,
+      "type": "text",
+      "text": "The Führer state: commands from above, obedience from below",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-hitler",
+      "x": 150,
+      "y": 60,
+      "width": 940,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2120640711,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-hitler-t",
+      "x": 160,
+      "y": 77.5,
+      "width": 920,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1466254097,
+      "type": "text",
+      "text": "Adolf Hitler\n‘Führer and Reich Chancellor’ (from 2 August 1934)",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-hitler",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-staat-kopf",
+      "x": 20,
+      "y": 200,
+      "width": 360,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1838923326,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-staat-kopf-t",
+      "x": 30,
+      "y": 216,
+      "width": 340,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 965606062,
+      "type": "text",
+      "text": "State",
+      "fontSize": 19,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-staat-kopf",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-a-staat",
+      "x": 200,
+      "y": 140,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1912353839,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        60
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-staat-1",
+      "x": 50,
+      "y": 276,
+      "width": 300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1714775159,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-staat-1-t",
+      "x": 60,
+      "y": 288,
+      "width": 280,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1760014139,
+      "type": "text",
+      "text": "Reich government\nand ministries",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-staat-1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-staat-a1",
+      "x": 200,
+      "y": 340,
+      "width": 0,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2056516517,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-staat-2",
+      "x": 50,
+      "y": 360,
+      "width": 300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1523989681,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-staat-2-t",
+      "x": 60,
+      "y": 372,
+      "width": 280,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 71924448,
+      "type": "text",
+      "text": "Reich governors\nin the federal states",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-staat-2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-staat-a2",
+      "x": 200,
+      "y": 424,
+      "width": 0,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 573421136,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-staat-3",
+      "x": 50,
+      "y": 444,
+      "width": 300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1584618043,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-staat-3-t",
+      "x": 60,
+      "y": 466,
+      "width": 280,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1371962656,
+      "type": "text",
+      "text": "Municipalities",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-staat-3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-partei-kopf",
+      "x": 440,
+      "y": 200,
+      "width": 360,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1550365614,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-partei-kopf-t",
+      "x": 450,
+      "y": 216,
+      "width": 340,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 358877907,
+      "type": "text",
+      "text": "Party (NSDAP)",
+      "fontSize": 19,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-partei-kopf",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-a-partei",
+      "x": 620,
+      "y": 140,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 336922459,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        60
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-partei-1",
+      "x": 470,
+      "y": 276,
+      "width": 300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1256576657,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-partei-1-t",
+      "x": 480,
+      "y": 298,
+      "width": 280,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1457486433,
+      "type": "text",
+      "text": "National leadership",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-partei-1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-partei-a1",
+      "x": 620,
+      "y": 340,
+      "width": 0,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 152759313,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-partei-2",
+      "x": 470,
+      "y": 360,
+      "width": 300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2134354073,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-partei-2-t",
+      "x": 480,
+      "y": 382,
+      "width": 280,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 549909417,
+      "type": "text",
+      "text": "Regional leaders",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-partei-2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-partei-a2",
+      "x": 620,
+      "y": 424,
+      "width": 0,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 25246866,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-partei-3",
+      "x": 470,
+      "y": 444,
+      "width": 300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1882024951,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-partei-3-t",
+      "x": 480,
+      "y": 466,
+      "width": 280,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 199968210,
+      "type": "text",
+      "text": "District leaders",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-partei-3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-partei-a3",
+      "x": 620,
+      "y": 508,
+      "width": 0,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 452908882,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-partei-4",
+      "x": 470,
+      "y": 528,
+      "width": 300,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 224925271,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-partei-4-t",
+      "x": 480,
+      "y": 550,
+      "width": 280,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1364055505,
+      "type": "text",
+      "text": "Local branch leaders",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-partei-4",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-gewalt-kopf",
+      "x": 860,
+      "y": 200,
+      "width": 360,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1874289867,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-gewalt-kopf-t",
+      "x": 870,
+      "y": 216,
+      "width": 340,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 724969810,
+      "type": "text",
+      "text": "Violence and coercion",
+      "fontSize": 19,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-gewalt-kopf",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-a-gewalt",
+      "x": 1040,
+      "y": 140,
+      "width": 0,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1145517885,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        60
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-gewalt-1",
+      "x": 860,
+      "y": 276,
+      "width": 172,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 510344460,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-gewalt-1-t",
+      "x": 870,
+      "y": 301,
+      "width": 152,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1932291013,
+      "type": "text",
+      "text": "SS and police\n(Gestapo)",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-gewalt-1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-gewalt-2",
+      "x": 1048,
+      "y": 276,
+      "width": 172,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 760026882,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-gewalt-2-t",
+      "x": 1058,
+      "y": 293,
+      "width": 152,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 732490928,
+      "type": "text",
+      "text": "Reichswehr\n(Wehrmacht from 1935):\nOath to Hitler himself",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-gewalt-2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-a-unten-1",
+      "x": 200,
+      "y": 508,
+      "width": 0,
+      "height": 142,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1704592191,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        142
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-a-unten-2",
+      "x": 620,
+      "y": 592,
+      "width": 0,
+      "height": 58,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1702912547,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        58
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-a-unten-3",
+      "x": 1040,
+      "y": 366,
+      "width": 0,
+      "height": 284,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1405818270,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        284
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "o-volk",
+      "x": 20,
+      "y": 650,
+      "width": 1200,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d5dee8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 256998007,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-volk-t",
+      "x": 30,
+      "y": 675,
+      "width": 1180,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1340781180,
+      "type": "text",
+      "text": "‘National community’ – a Nazi propaganda term: the regime decided who belonged; those it persecuted were excluded.\nEveryone else was to be brought into mass organisations:\nHitler Youth (HJ), League of German Girls (BDM), German Labour Front (DAF), ‘Strength Through Joy’ (KdF), National Socialist Women’s League",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-volk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "o-merk",
+      "x": 20,
+      "y": 780,
+      "width": 1200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 977860006,
+      "type": "rectangle"
+     },
+     {
+      "id": "o-merk-t",
+      "x": 30,
+      "y": 798.5,
+      "width": 1180,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1312863440,
+      "type": "text",
+      "text": "Commands from the top down – obedience from the bottom up. No free elections, no checks on power, no dissent.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "o-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Title: The Führer state: commands from above, obedience from below. The diagram is a simplified organisational chart of the Nazi state. At the very top is a wide box showing Adolf Hitler as Führer and Reich Chancellor from 2 August 1934. Three arrows lead down from him to three columns. Key points: 1. State column: Reich government and ministries, below them the Reich governors in the federal states, and below them the municipalities. 2. Party (NSDAP) column: the national leadership, followed by regional leaders, district leaders and local branch leaders. 3. Violence and coercion column: two boxes side by side, both directly subordinate to Hitler: the SS and police, including the Gestapo, and the Reichswehr, called the Wehrmacht from 1935, whose oath was sworn to Hitler personally. 4. Arrows from all three columns lead to a wide box labelled National community: this Nazi propaganda term meant that the regime decided who belonged; those it persecuted were excluded. Everyone else was to be brought into mass organisations; those listed are the Hitler Youth (HJ), the League of German Girls (BDM), the German Labour Front (DAF), Strength Through Joy (KdF) and the National Socialist Women’s League. 5. Reminder at the very bottom: commands from the top down, obedience from the bottom up; no free elections, no checks on power, no dissent.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "id": "k2-legal",
+   "title": "Was all this legal? (Extension)",
+   "body": "The Nazis placed great importance on making everything look ‘legal’: Hitler was appointed rather than taking power in a coup; the Reichstag Fire Decree was based on an article of the constitution; the Enabling Act had the required two-thirds majority; and the murders of June 1934 were covered by a law. Historians call this **‘a veneer of legality’**:\n\n| Formally (the appearance) | In practice (the reality) |\n| --- | --- |\n| Appointment by the President of the Reich under the constitution | Pressure from conservative elites who wanted to use Hitler |\n| Emergency decree under Article 48 | An ‘emergency’ that lasted twelve years and permanently undermined the constitution |\n| Two-thirds majority for the Enabling Act | Members of parliament arrested or forced to flee, SA and SS in the chamber, threats |\n| Law on ‘state self-defence’ | Murder declared lawful after the event |\n\n**A veneer of legality** therefore means that the legal formalities were observed, but the content of the laws and the way they were passed broke with everything that defines **the rule of law** – a state that itself respects laws and fundamental rights. These were replaced by terror, breaches of the law and the exploitation of loopholes in the constitution.\n\nThis is why it is worth returning to the terms from the introduction about 30 January 1933: anyone who says **‘seizure of power’** adopts the Nazis’ own portrayal of themselves as having ‘fought’ their way to power. Anyone who says **‘transfer of power’** emphasises the responsibility of those who gave Hitler power. Both are part of the story of 1933."
+  },
+  {
+   "type": "video",
+   "id": "k2-video",
+   "provider": "youtube",
+   "videoId": "CB7kYw60M1M",
+   "title": "Extra (optional): video ‘Errichtung der NS-Diktatur’ (11:25)",
+   "description": "This video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in the texts in this module. If you watch it (an internet connection is required, and it only starts when you click), focus on two questions: (1) Which institutions could still have prevented the dictatorship from being established – the President of the Reich, the federal states, parliament or the army? (2) What means did Hitler use to remove them as obstacles within a year and a half?",
+   "transcript": "Summary of the video ‘Errichtung der NS-Diktatur’ (MrWissen2go Geschichte | Terra X, 11:25): The establishment of the dictatorship begins on 30 January 1933 with Hitler’s appointment as Chancellor of the Reich. His government, made up of the NSDAP and DNVP, initially has no majority of its own, and the President of the Reich, the state governments, the army and the courts could still prevent the dictatorship. Hindenburg dissolves the Reichstag and calls new elections; until then, the government and the President of the Reich govern through emergency decrees. After the Reichstag fire, freedom of the press and assembly are restricted and the opposition is persecuted; through the Enabling Act and Gleichschaltung, Hitler expands his power within a year and a half. He reaches his immediate goal on 2 August 1934: after Hindenburg’s death, he also takes over the office of President of the Reich and calls himself ‘Führer and Reich Chancellor’.",
+   "startSeconds": 0
+  },
+  {
+   "type": "achse",
+   "id": "k2-achse-reihenfolge",
+   "title": "Put the events of 1933/34 in order",
+   "teilkompetenzen": [
+    "geschichte.methoden.ereignisse-zeitlich-ordnen",
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren"
+   ],
+   "intro": "Put the nine events in the correct chronological order: drag each card to a position from 1 (first) to 9 (last) – or tap the card first, then the position. Only the order is assessed.",
+   "x": {
+    "min": 1,
+    "max": 9,
+    "schritt": 1,
+    "teilstriche": 1,
+    "beschriftung": "Order (1 = first, 9 = last)"
+   },
+   "wertung": "reihenfolge",
+   "elemente": [
+    {
+     "text": "Enabling Act: government can make laws without the Reichstag",
+     "x": 6
+    },
+    {
+     "text": "Hindenburg appoints Hitler Chancellor of the Reich",
+     "x": 1
+    },
+    {
+     "text": "The SS murders the SA leadership (‘Röhm-Putsch’)",
+     "x": 8
+    },
+    {
+     "text": "The Reichstag burns",
+     "x": 2
+    },
+    {
+     "text": "Law: the NSDAP is the only permitted party",
+     "x": 7
+    },
+    {
+     "text": "Reichstag Fire Decree: fundamental rights suspended",
+     "x": 3
+    },
+    {
+     "text": "Hindenburg dies – Hitler becomes ‘Führer and Reich Chancellor’",
+     "x": 9
+    },
+    {
+     "text": "Reichstag election: 43.9 per cent for the NSDAP",
+     "x": 4
+    },
+    {
+     "text": "‘Day of Potsdam’: Hitler bows before Hindenburg",
+     "x": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "k2-quiz",
+   "title": "Check your understanding: from democracy to dictatorship",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren"
+   ],
+   "intro": "Check whether you have understood the steps taken in 1933/34. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "k2-q1",
+     "type": "single_choice",
+     "prompt": "Who appointed Hitler Chancellor of the Reich on 30 January 1933?",
+     "options": [
+      {
+       "text": "The Reichstag, by a majority vote of its members."
+      },
+      {
+       "text": "President of the Reich Paul von Hindenburg.",
+       "correct": true
+      },
+      {
+       "text": "The NSDAP at a party congress in Nuremberg."
+      },
+      {
+       "text": "The people in a referendum."
+      }
+     ],
+     "explanation": "Under the Weimar Constitution, the President of the Reich appointed the Chancellor of the Reich. Hindenburg had hesitated for a long time before giving in to pressure from conservative politicians around Franz von Papen. Neither the Reichstag, the people nor the party elected Hitler to office."
+    },
+    {
+     "id": "k2-q2",
+     "type": "single_choice",
+     "prompt": "What was an immediate consequence of the Reichstag fire of 27 February 1933?",
+     "options": [
+      {
+       "text": "The Reichstag election scheduled for 5 March was cancelled and postponed indefinitely."
+      },
+      {
+       "text": "With the support of the Reichswehr, the KPD took over the government in Berlin for a few days."
+      },
+      {
+       "text": "Hitler’s government resigned because it had failed to prevent the fire."
+      },
+      {
+       "text": "An emergency decree suspended fundamental rights; thousands of opponents were arrested without judicial proceedings.",
+       "correct": true
+      }
+     ],
+     "explanation": "On 28 February 1933, the Reichstag Fire Decree suspended fundamental rights; communists and social democrats were placed in ‘protective custody’. The election went ahead as planned on 5 March, the KPD was persecuted and took nothing over, and Hitler’s government did not resign – it used the fire to expand its power."
+    },
+    {
+     "id": "k2-q3",
+     "type": "single_choice",
+     "prompt": "The NSDAP received 43.9 per cent of the vote in the Reichstag election on 5 March 1933. What did this mean?",
+     "options": [
+      {
+       "text": "No majority of its own – only together with the DNVP did it hold just over half the seats.",
+       "correct": true
+      },
+      {
+       "text": "An absolute majority that allowed it to govern alone without any coalition partner."
+      },
+      {
+       "text": "A defeat – it lost a substantial share of the vote compared with the election of July 1932."
+      },
+      {
+       "text": "A two-thirds majority that allowed it to change the constitution without other parties."
+      }
+     ],
+     "explanation": "43.9 per cent is less than half: despite terror and the obstruction of its opponents, the NSDAP had no majority of its own. It gained votes compared with July 1932 (37.3 per cent). A two-thirds majority was only achieved on 23 March for the Enabling Act – and even then, not by the NSDAP alone: it required the votes of the Centre Party and the middle-class parties, under pressure and without the KPD members of parliament."
+    },
+    {
+     "id": "k2-q4",
+     "type": "single_choice",
+     "prompt": "What did the Enabling Act of 23 March 1933 permit?",
+     "options": [
+      {
+       "text": "The President of the Reich to dismiss the government at any time and appoint a new one."
+      },
+      {
+       "text": "The Reichstag to pass laws without the consent of the Reichsrat, which represented the federal states."
+      },
+      {
+       "text": "The government to make laws without the Reichstag – including laws that deviated from the constitution.",
+       "correct": true
+      },
+      {
+       "text": "The SA to act as auxiliary police, make arrests without a judge’s warrant and run camps."
+      }
+     ],
+     "explanation": "The Enabling Act transferred lawmaking from parliament to the government, even for laws that changed the constitution – the Reichstag gave up its own powers. The President of the Reich’s right to dismiss the Chancellor was already in the constitution; the Reichsrat was not strengthened, but the federal states were brought into line; the arrests were based on the Reichstag Fire Decree, not the Enabling Act."
+    },
+    {
+     "id": "k2-q5",
+     "type": "true_false",
+     "prompt": "All parties present in the Reichstag voted in favour of the Enabling Act.",
+     "answer": false,
+     "explanation": "False. The SPD cast 94 votes against it – Otto Wels gave the last free speech in the Reichstag. The KPD members of parliament could not vote at all because they had been arrested, had fled or had been excluded. The Centre Party and the middle-class parties voted in favour."
+    },
+    {
+     "id": "k2-q8",
+     "type": "single_choice",
+     "prompt": "Which event was part of ‘Gleichschaltung’ in 1933?",
+     "options": [
+      {
+       "text": "The federal states gained their own governments with greater independence from Berlin."
+      },
+      {
+       "text": "Newspapers and radio were allowed to report more freely than in the Weimar Republic."
+      },
+      {
+       "text": "The trade unions were destroyed and replaced by the German Labour Front.",
+       "correct": true
+      },
+      {
+       "text": "The SPD and the Centre Party joined together to form a new opposition party."
+      }
+     ],
+     "explanation": "On 2 May 1933, the SA and SS occupied trade union offices; the German Labour Front (DAF) replaced the trade unions. The federal states lost their independence to Reich governors, the press and radio were controlled, and the SPD was banned – a new opposition party was impossible from 14 July 1933 onwards."
+    },
+    {
+     "id": "k2-q6",
+     "type": "single_choice",
+     "prompt": "What happened during the so-called ‘Röhm-Putsch’ from 30 June to 2 July 1934?",
+     "options": [
+      {
+       "text": "The SA under Ernst Röhm overthrew Hitler and took power in Berlin for a few days after an armed uprising."
+      },
+      {
+       "text": "An ordinary court sentenced Ernst Röhm and other SA leaders to long prison terms after a trial."
+      },
+      {
+       "text": "The generals of the Reichswehr launched a coup against the NSDAP and were defeated by the SA using armed force."
+      },
+      {
+       "text": "SS units murdered the SA leadership around Röhm; a law declared the murders lawful after the event.",
+       "correct": true
+      }
+     ],
+     "explanation": "There was no SA coup – the name was propaganda. Hitler had the SS murder the SA leadership and other opponents without a trial; the Law on Measures of State Self-Defence of 3 July 1934 declared the murders lawful. The Reichswehr did not launch a coup; it was relieved that the SA had been stripped of its power."
+    },
+    {
+     "id": "k2-q9",
+     "type": "single_choice",
+     "prompt": "What changed on 2 August 1934, the day Hindenburg died?",
+     "options": [
+      {
+       "text": "In a free vote, the Reichstag elected a new President of the Reich to keep Hitler in check."
+      },
+      {
+       "text": "Hitler merged the offices of President of the Reich and Chancellor of the Reich and had the Reichswehr swear an oath to him personally.",
+       "correct": true
+      },
+      {
+       "text": "The generals of the Reichswehr temporarily took over the government until a successor to Hindenburg had been elected."
+      },
+      {
+       "text": "Franz von Papen, previously Vice-Chancellor, was appointed the new President of the Reich, while Hitler remained Chancellor of the Reich."
+      }
+     ],
+     "explanation": "A law of 1 August 1934 merged the two highest offices; Hitler called himself ‘Führer and Reich Chancellor’, and the soldiers swore their oath to him personally. There was no free election of a successor, no interim government of generals and no President of the Reich Papen."
+    },
+    {
+     "id": "k2-q7",
+     "type": "single_choice",
+     "prompt": "What does the Führer principle mean?",
+     "options": [
+      {
+       "text": "Commands from the top down, obedience from the bottom up – without elections or checks on power.",
+       "correct": true
+      },
+      {
+       "text": "Each level – region, district and local branch – elects its own leader in a free vote."
+      },
+      {
+       "text": "The Führer must abide by parliament’s decisions and the courts’ rulings."
+      },
+      {
+       "text": "Several leaders share power and keep one another in check."
+      }
+     ],
+     "explanation": "In the Führer state, each ‘leader’ is appointed from above and gives orders to those below; there were no longer any elections, checks by parliament or the courts, or shared power. The other three options describe the exact opposite – features of a democracy."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k2-tasks",
+   "title": "Explore further: legal, apparently legal or illegal?",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren"
+   ],
+   "intro": "Your answers will be sent to your teacher. Task 1 is for everyone; tasks 2 and 3 are marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k2-t1",
+     "prompt": "Explain in two to three sentences why the Enabling Act is described as ‘parliament giving up its own powers’.",
+     "hint": "Who could pass laws before – and who could do so afterwards? And who agreed to this change, under what conditions?",
+     "solution": "Example answer: Before the Enabling Act, the Reichstag passed laws; afterwards, the government could make them alone, even if they contradicted the constitution. The Reichstag itself approved this change with a two-thirds majority – but under pressure: the KPD members of parliament had been arrested or had fled, and SA and SS men stood in the chamber. Parliament thus handed over its most important task and made itself unnecessary."
+    },
+    {
+     "id": "k2-t2",
+     "prompt": "(Extension) Historians describe the takeover of power as having ‘a veneer of legality’. Explain this term in three to five sentences using two specific examples from the module: what was formally legal – and what was wrong in reality?",
+     "hint": "For example, consider the two-thirds majority of 23 March 1933 and the law on ‘state self-defence’ of July 1934.",
+     "solution": "Example answer: A veneer of legality means that the legal formalities were observed, but the content destroyed the rule of law. The Enabling Act formally had the required two-thirds majority, yet the vote took place under coercion: the KPD members of parliament had been arrested or had fled, SA men surrounded the chamber, and the Centre Party and the middle-class parties voted in favour out of fear or because they trusted Hitler’s promises. The law on state self-defence was formally a law, but it declared murders lawful after the event. The constitution was therefore not abolished but hollowed out using its own mechanisms – through terror, breaches of the law and the exploitation of loopholes."
+    },
+    {
+     "id": "k2-t3",
+     "prompt": "(Extension) ‘Seizure of power’ or ‘transfer of power’? In three to five sentences, explain the perspective behind each term and justify which one you would use for 30 January 1933.",
+     "hint": "For each term, ask yourself: who is presented as taking action – and who is thereby relieved of responsibility?",
+     "solution": "Example answer: ‘Seizure of power’ presents the Nazis as the actors who supposedly took power through their own efforts; that was their own propaganda. ‘Transfer of power’ emphasises that Hindenburg and conservative politicians legally gave Hitler power and bear responsibility for doing so. Both terms capture part of the truth: the NSDAP had terror and mass support behind it, but without the handover by the elites, Hitler would not have become Chancellor. That is why ‘transfer of power’ or the neutral term ‘takeover of power’ is more accurate – and also exposes the perpetrators’ portrayal of themselves."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,657 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:dc2a57ba5657795331cd4c53e0e88b426f6805fc11d6d7c63585d34acbfa83db",
+   "text": "From democracy to dictatorship: 1933/34"
+  },
+  "description": {
+   "quelle": "sha256:797c9b557095cb491abc7b70ad31d5012031937ed31e4f62d915f52f50fc264a",
+   "text": "On 30 January 1933, Hitler becomes Chancellor of the Reich – a year and a half later, Germany is a dictatorship. You will trace how the Reichstag fire, emergency decree, Enabling Act, Gleichschaltung and the ‘Röhm-Putsch’ dismantled democracy, learn about the Führer principle and consider whether all this was ‘legal’."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Geography, History and Society"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Geography, History and Society"
+  },
+  "einheit": {
+   "quelle": "sha256:f17191b49e747388ab6a7483a373c72e8e4ab6273e67b43ee78842244bcaa5c7",
+   "text": "National Socialism – dictatorship, persecution, remembrance"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:d29c946b40e20513132c3e7fe47357d87b70728df6d6b7fc536f6bca16be6adf",
+   "text": "takeover of power"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:4f9398b57ead0603037543279a557ef22ef62f4ee501139ac32a4d7b3523ee2c",
+   "text": "30 January 1933"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:bb1f43af67741d0ea9359c07770178857fa715f1107d0d685c8927600d42ed72",
+   "text": "Reichstag fire"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:903b23a9d642f3cc8b5b948c442a9e60b18fe5805a79ff243c93df8b2b316962",
+   "text": "Reichstag Fire Decree"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:59b2770d349b44ddfbc9007b38079e67afc591a52bb7513d667e7805e139b0d9",
+   "text": "Enabling Act"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:a8e02f0cacf69895629559ac7dafd8fa4a4e36c5c16d7f5f0f4160445af6e035",
+   "text": "Gleichschaltung"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:ed84232886797d50d2eab0d3f4345e4bf45047999b349260c46adade961e13a5",
+   "text": "Röhm-Putsch"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:d401a55e37e3988e808190366d7a65ca74ebcbfc39d6caf1f92b521f4c42aeca",
+   "text": "Führer principle"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:c7d9c54135a9a88fb31b25c700feec3a02ca19cec116a3b44aa1d081e8b95a0f",
+   "text": "Hindenburg"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:7e3171e466fde5b8c24c10b2a768bd6b632fdc52c148ba7641c8a0956b87611f",
+   "text": "National Socialism"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:814ac99ae1c78d2b690b961cf872c3868184e5e2f1bb4823d1920719702bcb61",
+   "text": "I can explain who appointed Hitler Chancellor of the Reich on 30 January 1933 and why the conservatives thought they could control him."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:69617c9e2a9e5969515db4791dc3cb5a9234f83ca75da83480fcf064d57ef67f",
+   "text": "I can describe how the Reichstag fire and the Reichstag Fire Decree suspended fundamental rights and what ‘protective custody’ meant."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:7fe87d408e0c82d65df684a21661b6b641c6fbd215d9cbb2ad4d819687b21c3e",
+   "text": "I can explain what the Enabling Act permitted, who voted against it and why it is described as parliament giving up its own powers."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:11c5d68eddbae3ff578b9b0a208aaa5e11427bb60c8b93a3be739bc6cafd1ca2",
+   "text": "I can give examples of ‘Gleichschaltung’ in 1933 and explain the significance of the ‘Röhm-Putsch’ and 2 August 1934."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:ab85b99ad164317cd4706c4adf6ca8deaaf915d0fd512b0bc692855a357bc474",
+   "text": "I can explain the Führer principle and put the events of 1933/34 in the correct order."
+  },
+  "learningObjectives[5]": {
+   "quelle": "sha256:a86673fb23444f6515fb5ef632584038f693e07bb613a51f7510080f7db758c2",
+   "text": "(Extension) I can explain why the takeover of power was only apparently legal and discuss the terms ‘seizure of power’ and ‘transfer of power’."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:930c0dc1d2f3b55a5f0a25f12e89d0ab478d513129f648fedb03ade73da530ec",
+   "text": "30 January 1933: a day that changed everything – or did it?"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:07785e4dff51fe53b1906d4b3d01ed81f84c846ba0d5ea6fb493f83f8a7036e0",
+   "text": "At midday on 30 January 1933, **President of the Reich Paul von Hindenburg** appoints the chairman of the NSDAP, Adolf Hitler, **Chancellor of the Reich**. You have traced how this came about – the Great Depression, mass unemployment and the NSDAP’s electoral successes – in [[modul:weimar-wirtschaftskrise-nationalsozialismus]]. And do you remember Mussolini in 1922? Hitler, too, was appointed by the head of state – you know this pattern from [[modul:nationalsozialismus-staatsformen-faschismus]]. Here begins the story of what happened next.\n\nHindenburg, aged 85 and a former field marshal, had long resisted. His eventual decision to appoint Hitler was the result of efforts by conservative politicians such as **Franz von Papen**, who became Vice-Chancellor. Their reasoning was this: Hitler has the masses; we have the experience, the President of the Reich and the majority in the cabinet – only three of the eleven ministers belonged to the NSDAP. They would ‘hem Hitler in’ and use him for their own aims. It was a **misjudgement with far-reaching consequences**.\n\nThat evening, the **SA** (Sturmabteilung, the party’s force of thugs), the **SS** (Schutzstaffel, originally Hitler’s bodyguard) and other organisations marched through the Brandenburg Gate carrying torches. However, some of the familiar footage does not actually come from that evening: certain scenes were later **re-enacted** for a propaganda film. Even the first day was therefore also a staged propaganda event.\n\n> **(Extension) One event, three perspectives:** The Nazis themselves spoke of a **‘seizure of power’ (Machtergreifung)** – as if they had fought their way to power entirely through their own efforts. Many historians today prefer **‘transfer of power’ (Machtübertragung)** or ‘handover of power’: Hitler was appointed legally, with help from conservative elites. The neutral term **‘takeover of power’ (Machtübernahme)** covers both. Remember all three – and pay attention to who uses which term."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:ee6f45cffeab4fd3e047fd0ab39532274ffb35c31f6f128b399306440bfc977f",
+   "text": "Overview: from appointment to the Führer state (January 1933 to August 1934)"
+  },
+  "blocks[1].szene.elemente[0].text": {
+   "quelle": "sha256:498127e044f58564e5c6c6cd83f3f9e54e3a101f342b24b1722f1fd0bb13062b",
+   "text": "From appointment to the Führer state: 1933/34"
+  },
+  "blocks[1].szene.elemente[1].text": {
+   "quelle": "sha256:ddbbd6a101bd4037c52e1b91c196c0ecd00b1c19b11e05409e92bd34d2992f5e",
+   "text": "Nine stages in a year and a half (not to scale) – blue: formally legal appointment; orange: dismantling democracy"
+  },
+  "blocks[1].szene.elemente[3].text": {
+   "quelle": "sha256:c8c817e80216ce409c63a735acdd40fb7b023bcca6e87b6fc89973c447b6a858",
+   "text": "1933"
+  },
+  "blocks[1].szene.elemente[4].text": {
+   "quelle": "sha256:914c948388ae30bdb0179a2f7bc91836d6af004171af735188fc1b69c286c864",
+   "text": "1934"
+  },
+  "blocks[1].szene.elemente[6].text": {
+   "quelle": "sha256:77a1a85cd34d40f5dda3f6326f233f2dc8d2712795e128da8dde4bfd00b6dfee",
+   "text": "30 January 1933\nHindenburg appoints Hitler\nChancellor of the Reich"
+  },
+  "blocks[1].szene.elemente[10].text": {
+   "quelle": "sha256:e3510528419c3b64669b177ad8e2310d46c068f692f44af7c520883e5c8caf0e",
+   "text": "27/28 February 1933\nReichstag fire –\ndecree suspends\nfundamental rights"
+  },
+  "blocks[1].szene.elemente[14].text": {
+   "quelle": "sha256:1d761eac69f3df8df7d26dac2ac228bcc1c530442267b5208fed39f9a686f567",
+   "text": "5 March 1933\nReichstag election amid terror:\nNSDAP 43.9 %"
+  },
+  "blocks[1].szene.elemente[18].text": {
+   "quelle": "sha256:7f7420f9bcac1abced6e7d452997699f40a18a969f7ac3628a066dfc14dd63ea",
+   "text": "21/23 March 1933\n‘Day of Potsdam’ –\nEnabling Act"
+  },
+  "blocks[1].szene.elemente[22].text": {
+   "quelle": "sha256:fa4c4627a897402a3c77eb43d8efc916bb04f85c8bcdd6d8a2e59ea6cb52777a",
+   "text": "2 May 1933\nTrade unions\ndestroyed (DAF)"
+  },
+  "blocks[1].szene.elemente[26].text": {
+   "quelle": "sha256:989115e90791e39ce5f7115a7d861741f8c76e867d326f6d8fe864e6210b58b8",
+   "text": "10 May 1933\nBook burnings"
+  },
+  "blocks[1].szene.elemente[30].text": {
+   "quelle": "sha256:e040aa9ae6617a1d514b999bde8a72d23ce3beb36fc83c93a3f95425ad48af32",
+   "text": "14 July 1933\nLaw: NSDAP is the\nonly permitted party"
+  },
+  "blocks[1].szene.elemente[34].text": {
+   "quelle": "sha256:72fc5994448f33688ed803ef8b420217dde015a68fe5a35e9fef0aba94d95391",
+   "text": "30 June – 2 July 1934\nSS murders SA leaders\n(Nazi propaganda calls it\nthe ‘Röhm-Putsch’)"
+  },
+  "blocks[1].szene.elemente[38].text": {
+   "quelle": "sha256:b27c9cfe3f0b0eda955feaecf6abbff7f9653081c25b610a7ca34004a679b323",
+   "text": "2 August 1934\nHindenburg dies –\nHitler becomes ‘Führer\nand Reich Chancellor’"
+  },
+  "blocks[1].szene.elemente[42].text": {
+   "quelle": "sha256:d1841a4c8faa8db3f83bbcf11fa54bb2b887f9e1171a6a3fb9d5d82e1525e3d7",
+   "text": "In 18 months, from Chancellor of a coalition to an unchecked sole ruler – each step built on the previous one."
+  },
+  "blocks[1].beschreibung": {
+   "quelle": "sha256:b16ddf2e1fbbc8547ea193b4412a35b014ffe058be8640f916741fc7a972b4d4",
+   "text": "Title: From appointment to the Führer state: 1933/34. Subtitle: Nine stages in a year and a half, not to scale; blue represents the formally legal appointment, orange the dismantling of democracy. The diagram shows a horizontal timeline with 1933 on the left and 1934 on the right, and nine stages alternating above and below the line. Key points: 1. 30 January 1933 (blue): President of the Reich Hindenburg appoints Hitler Chancellor of the Reich. 2. 27 and 28 February 1933 (orange): The Reichstag burns, and a decree suspends fundamental rights. 3. 5 March 1933: Reichstag election amid terror; the NSDAP receives 43.9 per cent. 4. 21 and 23 March 1933: Day of Potsdam and Enabling Act. 5. 2 May 1933: The trade unions are destroyed and replaced by the German Labour Front. 6. 10 May 1933: Book burnings. 7. 14 July 1933: A law makes the NSDAP the only permitted party. 8. 30 June to 2 July 1934: The SS murders the SA leadership; Nazi propaganda calls it the Röhm-Putsch. 9. 2 August 1934: Hindenburg dies; Hitler becomes Führer and Reich Chancellor. 10. Reminder below the timeline: In 18 months, from Chancellor of a coalition to an unchecked sole ruler; each step built on the previous one."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:e96a587640832342f2b7b8f4fcba38271e85cf329cab3bc8ac2e32fcb4ce6d0f",
+   "text": "The fire and the decree: February 1933"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:d7e89f62d3087aa98de7bdffa72a7d6376a2998b0fc861b3c6ba1e512904b281",
+   "text": "On the evening of **27 February 1933**, less than a week before the Reichstag election, the Reichstag is in flames. **Marinus van der Lubbe**, a 24-year-old Dutchman and former communist, is arrested at the scene; he is convicted of starting the fire and executed in 1934. Whether he really acted alone remains disputed among researchers to this day. What is certain is how the Nazi leadership used it: that same night, it accused the **Communist Party of Germany (KPD)** of preparing an uprising – and deliberately exploited the fire.\n\nThe very next day, **28 February 1933**, Hindenburg signs the **‘Decree of the President of the Reich for the Protection of People and State’**, known as the **Reichstag Fire Decree**. It is based on **Article 48** of the Weimar Constitution – the emergency decree article that Brüning had already used to govern without parliament. The crucial sentence reads:\n\n> ‘[…] Restrictions on personal liberty, on the right to freedom of expression, including freedom of the press, on the rights of association and assembly, interference with the confidentiality of letters, post, telegraph and telephone communications, orders for house searches and confiscations, and restrictions on property are therefore permissible even beyond the legal limits otherwise laid down for these purposes.’\n>\n> — Reichstagsbrandverordnung, 28. Februar 1933, § 1\n\nRead the sentence slowly and count how many rights it removes. In everyday language: **fundamental rights** – personal liberty, freedom of expression, the press and assembly, confidentiality of correspondence and the inviolability of the home – **no longer apply**. The consequences were immediate:\n\n- People could be arrested **without a trial**. The Nazis called this **‘protective custody’** – a euphemistic Nazi term that made it sound as if those arrested were being protected.\n- **Thousands of communists and social democrats** were arrested and abused in the first few weeks; some were murdered.\n- In Prussia, the **SA** had already been allowed to act as **‘auxiliary police’** since 22 February; after the fire, it was deployed on a mass scale against political opponents – gangs of thugs with state permission.\n- In March 1933, the first **concentration camps (KZ)** were established, for example at **Dachau** near Munich: detention camps outside judicial oversight, where political opponents were imprisoned, abused and sometimes murdered. These were not yet extermination camps – that term refers to the camps in occupied Poland which, from 1941/42 onwards, during the war, served primarily to murder people deliberately and as quickly as possible. A later module in this series explains the distinction in more detail.\n\n> **Remember:** The Reichstag Fire Decree was never repealed. It remained in force **until 1945** – twelve years of an ‘emergency’ that remained the foundation of terror."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:61964a9a31adfb0041c793d08fb49fd416c8d7cb19df6f3861aafa9c521cf2bc",
+   "text": "Election, spectacle, enabling powers: March 1933"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:3e15ba63c9cd1f1d1ec6076d984dc25f6218c95daaa5e3e6b607d573f0376269",
+   "text": "## 5 March 1933: an election that was no longer free\n\nAs early as 1 February, at Hitler’s request, Hindenburg had dissolved the Reichstag and called new elections for 5 March: Hitler’s government, made up of the NSDAP and the German National People’s Party (**DNVP**), a conservative party, had no majority in the old Reichstag, and Hitler wanted to gain one through the election. The **Reichstag election** took place amid the wave of arrests. Opponents of the NSDAP were barely allowed to hold meetings, many of their newspapers were banned, and SA guards stood outside polling stations. Even so, the NSDAP won **43.9 per cent** – a large share, but **no majority of its own**. Only together with the DNVP did it hold just over half the seats. Incidentally, the series of election results you know from the Weimar module (2.6 per cent in 1928, 18.3 per cent in 1930, 37.3 per cent in July 1932) had not continued to rise without interruption: in the new election of November 1932, the NSDAP had fallen back to 33.1 per cent. Now, in March 1933 and amid terror, it reached 43.9 per cent.\n\n## 21 March 1933: the ‘Day of Potsdam’\n\nThe opening of the new Reichstag became a spectacle: at the state ceremony in the Garrison Church in Potsdam, by the tomb of the Prussian kings, Hitler appeared not in party uniform but in a dark morning coat, and bowed before the elderly Hindenburg in uniform. The message to the middle classes, the military and the nobility was: old Prussia and the ‘new Germany’ are joining forces here – you can rest easy. The new Minister of Propaganda, **Joseph Goebbels**, organised the accompanying programme; the ceremony was broadcast on the radio.\n\n## 23 March 1933: the Enabling Act\n\nTwo days later, in Berlin’s **Kroll-Oper** (the Reichstag building had been gutted by fire), the Reichstag voted on the **‘Law to Remedy the Distress of People and Reich’** – the **Enabling Act**. Its central provisions were:\n\n> ‘Laws of the Reich may be enacted by the Reich government as well as through the procedure laid down in the Reich Constitution. […] Laws of the Reich enacted by the Reich government may deviate from the Reich Constitution […].’\n>\n> — Ermächtigungsgesetz, Art. 1 und 2 (vom Reichstag am 23. März beschlossen, am 24. März 1933 verkündet)\n\nThe **government** could therefore **make laws without parliament** – even laws that changed the constitution. Because this affected the constitution, a **two-thirds majority** was required. How that majority was achieved shows what ‘legal’ meant here: the 81 KPD members of parliament had been arrested, had fled or had been excluded, and several members of the **Social Democratic Party (SPD)** were also absent. SA and SS men surrounded the Kroll-Oper and stood in the aisles. The result was **444 votes in favour, 94 against**. Only the **SPD** voted against it. Its chairman, **Otto Wels**, said in the last free speech in the Reichstag:\n\n> ‘You can take our freedom and our lives, but not our honour.’\n>\n> — Otto Wels, Reichstagsrede, 23. März 1933\n\nThe Catholic **Centre Party** and the middle-class parties voted **in favour** – some out of fear, others because Hitler had made them promises that he did not keep.\n\n> **Remember:** With the Enabling Act, **parliament gave up its own powers** – through its own votes in favour, but under pressure and threats. The separation of powers had ended: those who made the laws also implemented them. The Act was initially valid for four years and was extended – until 1945."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:cda5ec94129f4719949e92868ab031a77e5665e51027d897429cebadc8a0ef79",
+   "text": "Two legal measures, one aim"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the appropriate terms into the gaps (on a phone, tap the word first, then the gap). **Watch out:** Three of the words do not fit anywhere."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:4e4e1ba5360b5ad47d82d7a5f5396612c9c0bb04f5cb5998ed5b2adc0b19aec0",
+   "text": "Gleichschaltung: bringing a country into line"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:5863a83cd1488f4aec42ac943e2b3e596691f321203ed74019ec40f3ad0bfb96",
+   "text": "**‘Gleichschaltung’** is a Nazi term borrowed from electrical engineering: all components are to be connected to the same current. In political terms, it meant that every organisation, every authority and every club was to be placed under the NSDAP or reorganised according to its rules. This happened within a few months in 1933:\n\n- **The federal states:** The state governments were removed; Hitler sent a **Reich governor** to each state to govern according to his instructions. The federal state became a centrally controlled state.\n- **The trade unions:** On 1 May 1933, the regime celebrated the ‘Day of National Labour’ with the workers – on **2 May 1933**, the SA and SS occupied trade union offices, arrested officials and confiscated their assets. The trade unions were replaced by the **German Labour Front (DAF)**, a compulsory organisation run by the party.\n- **Books:** On **10 May 1933**, students in many university towns publicly burned works by authors considered ‘un-German’ (‘un-German’ was Nazi language for anything that supposedly did not fit the German people) – including Erich Kästner, Heinrich Mann and Kurt Tucholsky.\n- **The parties:** The SPD was banned in June, and the other parties dissolved themselves under pressure. The **Law Against the Formation of New Parties** of **14 July 1933** made the NSDAP the **only permitted party**. As a result, in the Reichstag election on **12 November 1933**, there was only one list of candidates, the NSDAP’s **single list** – there was no longer any choice. After that, the Reichstag consisted almost entirely of NSDAP members and no longer had anything to decide: a **sham parliament** that merely approved government decisions.\n- **Press, radio, culture and clubs:** Newspapers were banned or taken over, radio was placed under the Ministry of Propaganda, and clubs from chess clubs to choirs were brought into line or banned.\n\nWithin half a year, hardly any legal institution remained through which dissent could have been organised publicly."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:ffbdcaf145677eed4f0a4f51a8b5fa378f88b5b9069aa9d26f92b89d13a30888",
+   "text": "1934: murder becomes law – and the Führer becomes the state"
+  },
+  "blocks[6].body": {
+   "quelle": "sha256:75a3dae01d11ce9ee9b115381c5b6d9e52719ffe8622b3f553a80bf6bef306f9",
+   "text": "## The ‘Röhm-Putsch’\n\nBy 1934, the SA under **Ernst Röhm** had grown to several million members. Röhm wanted more: the SA was to become a people’s army and replace the Reichswehr. This brought him into conflict with the generals – and with Hitler, who needed the army for his plans. From **30 June to 2 July 1934**, Hitler had the **SS** murder the SA leadership; Röhm himself was shot in his cell. At the same time, the regime used the opportunity to kill other opponents, including former Chancellor of the Reich Kurt von Schleicher and Erich Klausener, the head of Catholic Action in Berlin. Researchers estimate that **several dozen to around 200 people were killed**. Nazi propaganda called the murders the **‘Röhm-Putsch’** – as if Röhm had planned a coup. There was no evidence of this.\n\nOn 3 July 1934, the government passed a law consisting of a single sentence:\n\n> ‘The measures carried out on 30 June, 1 and 2 July 1934 to suppress attacks involving high treason and treason against the country are lawful as acts of state self-defence.’\n>\n> — Gesetz über Maßnahmen der Staatsnotwehr, 3. Juli 1934\n\nThe law declared the murders **lawful after the event**. The state itself had killed – and made the killing legal. For the generals, the middle classes and many civil servants, this was no cause for protest but for relief: the SA, which they saw as a nuisance, had been stripped of its power.\n\n## 2 August 1934: Führer and Reich Chancellor\n\nOn **2 August 1934**, President of the Reich Hindenburg died. The day before, the government had already used the powers granted by the Enabling Act to pass a law merging the offices of President of the Reich and Chancellor of the Reich. From then on, Hitler called himself **‘Führer and Reich Chancellor’**. That same day, the soldiers of the **Reichswehr** (the name of the republic’s army; from 1935 it was called the ‘Wehrmacht’) swore a new oath – no longer to the constitution, but to **Hitler personally**. A referendum, held when free expression had long since become impossible, later confirmed this with around 90 per cent of the vote.\n\n## The Führer principle\n\nThe Nazi state operated according to the **Führer principle**: **commands from the top down, obedience from the bottom up.** At every level there was a ‘leader’, appointed from above, who gave orders to those below – from the Reich governor to the local branch leader (the party leader in a town), from the factory director (‘factory leader’) to the Hitler Youth leader. There were no longer any free elections, any checks on power or any legal dissent. The Führer’s will stood above every law. The diagram shows you how this state was structured."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:fb6180795468c85ab5d2d62dc853d1c9d2470f46394bf28dde5fa8191ba6cc01",
+   "text": "The Führer state at a glance"
+  },
+  "blocks[7].szene.elemente[0].text": {
+   "quelle": "sha256:56e5be81d56b3f39e62e41aba30f45df071fc9b4eb214bc167b0c4044f2b7ae4",
+   "text": "The Führer state: commands from above, obedience from below"
+  },
+  "blocks[7].szene.elemente[2].text": {
+   "quelle": "sha256:29d89e3a816e4bd862cfed27c8336ecbb90a7d4f3a8d88965499acccba5e865f",
+   "text": "Adolf Hitler\n‘Führer and Reich Chancellor’ (from 2 August 1934)"
+  },
+  "blocks[7].szene.elemente[4].text": {
+   "quelle": "sha256:dbfaee9b324ae2418533fb5b9fd89dd1dce97446b7a12db02f84c5f72fd546d1",
+   "text": "State"
+  },
+  "blocks[7].szene.elemente[7].text": {
+   "quelle": "sha256:95dfc0ef0311fed3e04cdfdd82cc5c8355774cac5176a40151424b49decb179e",
+   "text": "Reich government\nand ministries"
+  },
+  "blocks[7].szene.elemente[10].text": {
+   "quelle": "sha256:7d83005a1b92ea7811934228abbeb6f814622b2799fe32160702c76f4ed94fdd",
+   "text": "Reich governors\nin the federal states"
+  },
+  "blocks[7].szene.elemente[13].text": {
+   "quelle": "sha256:5551d558acdcb1072963ad9af520c6eef9f456851acf504c265aa45a9441fea3",
+   "text": "Municipalities"
+  },
+  "blocks[7].szene.elemente[15].text": {
+   "quelle": "sha256:b74365b94cb37937ab40dc7c06a1fbeca71a3d0558d1038faa74171f038a30d2",
+   "text": "Party (NSDAP)"
+  },
+  "blocks[7].szene.elemente[18].text": {
+   "quelle": "sha256:01096bb4c244a1e231cc7c2deab0a1a052d3885e84d1490687a75e08f35ff313",
+   "text": "National leadership"
+  },
+  "blocks[7].szene.elemente[21].text": {
+   "quelle": "sha256:9273fb7c825984109e1e3de3fef71baacc870a1e27c2b85548827a2b2ea7f499",
+   "text": "Regional leaders"
+  },
+  "blocks[7].szene.elemente[24].text": {
+   "quelle": "sha256:694f501579ef79f9dac81d1aad95d595aad23fbc14812107db2916e1fb3f84f8",
+   "text": "District leaders"
+  },
+  "blocks[7].szene.elemente[27].text": {
+   "quelle": "sha256:49b8267ecd82607b9c36f387a4ac75f070f5fa4dc58a3a8f7137b542a1abe5a6",
+   "text": "Local branch leaders"
+  },
+  "blocks[7].szene.elemente[29].text": {
+   "quelle": "sha256:6957eb7e3c9cc94bf2576aee633e8ddcd988da4a9c28ed075b6b79a8165cd9c3",
+   "text": "Violence and coercion"
+  },
+  "blocks[7].szene.elemente[32].text": {
+   "quelle": "sha256:e59febba27b27687fbef332a61324edd3b7d1ed6e7b9c933c5a158cbde8e1ede",
+   "text": "SS and police\n(Gestapo)"
+  },
+  "blocks[7].szene.elemente[34].text": {
+   "quelle": "sha256:1bb2b8fdaa02681ec198353e70fb830845cf5046d6236b4bec77f85522b00e4e",
+   "text": "Reichswehr\n(Wehrmacht from 1935):\nOath to Hitler himself"
+  },
+  "blocks[7].szene.elemente[39].text": {
+   "quelle": "sha256:7632192e07fa8e3fb3dfd237567785e3cefa6af639c35fe0da28ab0e639a1735",
+   "text": "‘National community’ – a Nazi propaganda term: the regime decided who belonged; those it persecuted were excluded.\nEveryone else was to be brought into mass organisations:\nHitler Youth (HJ), League of German Girls (BDM), German Labour Front (DAF), ‘Strength Through Joy’ (KdF), National Socialist Women’s League"
+  },
+  "blocks[7].szene.elemente[41].text": {
+   "quelle": "sha256:80fd02cc706a2e3dceec5c035a1feb9e14578c4923393888d28066f90cdd1f11",
+   "text": "Commands from the top down – obedience from the bottom up. No free elections, no checks on power, no dissent."
+  },
+  "blocks[7].beschreibung": {
+   "quelle": "sha256:7892f29303f3178a0c91127f8229d23a9690e110f42538cb8323e3ec0cde9cfa",
+   "text": "Title: The Führer state: commands from above, obedience from below. The diagram is a simplified organisational chart of the Nazi state. At the very top is a wide box showing Adolf Hitler as Führer and Reich Chancellor from 2 August 1934. Three arrows lead down from him to three columns. Key points: 1. State column: Reich government and ministries, below them the Reich governors in the federal states, and below them the municipalities. 2. Party (NSDAP) column: the national leadership, followed by regional leaders, district leaders and local branch leaders. 3. Violence and coercion column: two boxes side by side, both directly subordinate to Hitler: the SS and police, including the Gestapo, and the Reichswehr, called the Wehrmacht from 1935, whose oath was sworn to Hitler personally. 4. Arrows from all three columns lead to a wide box labelled National community: this Nazi propaganda term meant that the regime decided who belonged; those it persecuted were excluded. Everyone else was to be brought into mass organisations; those listed are the Hitler Youth (HJ), the League of German Girls (BDM), the German Labour Front (DAF), Strength Through Joy (KdF) and the National Socialist Women’s League. 5. Reminder at the very bottom: commands from the top down, obedience from the bottom up; no free elections, no checks on power, no dissent."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:14121b65d2653b881323818c1181c70fddabd43452d8f2ff42ce7cf7f3a6907e",
+   "text": "Was all this legal? (Extension)"
+  },
+  "blocks[8].body": {
+   "quelle": "sha256:282fac0633acc3f9185b68f523ebf39909c1dadae02e3a064bbdc1703d2fc474",
+   "text": "The Nazis placed great importance on making everything look ‘legal’: Hitler was appointed rather than taking power in a coup; the Reichstag Fire Decree was based on an article of the constitution; the Enabling Act had the required two-thirds majority; and the murders of June 1934 were covered by a law. Historians call this **‘a veneer of legality’**:\n\n| Formally (the appearance) | In practice (the reality) |\n| --- | --- |\n| Appointment by the President of the Reich under the constitution | Pressure from conservative elites who wanted to use Hitler |\n| Emergency decree under Article 48 | An ‘emergency’ that lasted twelve years and permanently undermined the constitution |\n| Two-thirds majority for the Enabling Act | Members of parliament arrested or forced to flee, SA and SS in the chamber, threats |\n| Law on ‘state self-defence’ | Murder declared lawful after the event |\n\n**A veneer of legality** therefore means that the legal formalities were observed, but the content of the laws and the way they were passed broke with everything that defines **the rule of law** – a state that itself respects laws and fundamental rights. These were replaced by terror, breaches of the law and the exploitation of loopholes in the constitution.\n\nThis is why it is worth returning to the terms from the introduction about 30 January 1933: anyone who says **‘seizure of power’** adopts the Nazis’ own portrayal of themselves as having ‘fought’ their way to power. Anyone who says **‘transfer of power’** emphasises the responsibility of those who gave Hitler power. Both are part of the story of 1933."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:c1d11109740053efd8d663697ec1411244e24e3cbc609bc1471c0aca5c412817",
+   "text": "Extra (optional): video ‘Errichtung der NS-Diktatur’ (11:25)"
+  },
+  "blocks[9].description": {
+   "quelle": "sha256:af97308ad9a8319868fe54182f2ee2d1dc40a519b95f2b63ca34a1273276c0f4",
+   "text": "This video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in the texts in this module. If you watch it (an internet connection is required, and it only starts when you click), focus on two questions: (1) Which institutions could still have prevented the dictatorship from being established – the President of the Reich, the federal states, parliament or the army? (2) What means did Hitler use to remove them as obstacles within a year and a half?"
+  },
+  "blocks[9].transcript": {
+   "quelle": "sha256:42a905d944bdc3fb00efa25790a48ad8e3a37657b60e0e42e858a75acc22aff4",
+   "text": "Summary of the video ‘Errichtung der NS-Diktatur’ (MrWissen2go Geschichte | Terra X, 11:25): The establishment of the dictatorship begins on 30 January 1933 with Hitler’s appointment as Chancellor of the Reich. His government, made up of the NSDAP and DNVP, initially has no majority of its own, and the President of the Reich, the state governments, the army and the courts could still prevent the dictatorship. Hindenburg dissolves the Reichstag and calls new elections; until then, the government and the President of the Reich govern through emergency decrees. After the Reichstag fire, freedom of the press and assembly are restricted and the opposition is persecuted; through the Enabling Act and Gleichschaltung, Hitler expands his power within a year and a half. He reaches his immediate goal on 2 August 1934: after Hindenburg’s death, he also takes over the office of President of the Reich and calls himself ‘Führer and Reich Chancellor’."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:b54cbffa4702c63b423068572bb7eb1d8d85be9b473d37e92ba36cfe029abdc4",
+   "text": "Put the events of 1933/34 in order"
+  },
+  "blocks[10].intro": {
+   "quelle": "sha256:cb11297fa5607d00d2709edcce0e2887dce5afec7a377ffd2acee037b6be0f4a",
+   "text": "Put the nine events in the correct chronological order: drag each card to a position from 1 (first) to 9 (last) – or tap the card first, then the position. Only the order is assessed."
+  },
+  "blocks[10].x.beschriftung": {
+   "quelle": "sha256:a43437e2c965832fc677ccaf42a80b21ae8d73686164beea6553afb47f29b5f0",
+   "text": "Order (1 = first, 9 = last)"
+  },
+  "blocks[10].elemente[0].text": {
+   "quelle": "sha256:eba476c27eaaee8a8b4490220989b8ddbc5702572d63e4b306eee0abef38b055",
+   "text": "Enabling Act: government can make laws without the Reichstag"
+  },
+  "blocks[10].elemente[1].text": {
+   "quelle": "sha256:8e728e001c45608e5dfd32f1bf9d3e8c5011a00ee4ac1217958830603d40fc82",
+   "text": "Hindenburg appoints Hitler Chancellor of the Reich"
+  },
+  "blocks[10].elemente[2].text": {
+   "quelle": "sha256:e15a393339a0cced1d7c3d62022110baf93ad5e292b01c73e611063dd08282e1",
+   "text": "The SS murders the SA leadership (‘Röhm-Putsch’)"
+  },
+  "blocks[10].elemente[3].text": {
+   "quelle": "sha256:368591743ae537ec017120cd41216a07db0fc35dfbeef9c8e6fcb59a37c2d325",
+   "text": "The Reichstag burns"
+  },
+  "blocks[10].elemente[4].text": {
+   "quelle": "sha256:9913938b209e7ce428303bb504612aff3af84e4271728cb02da1c439a3027ed7",
+   "text": "Law: the NSDAP is the only permitted party"
+  },
+  "blocks[10].elemente[5].text": {
+   "quelle": "sha256:3c1fa5ac9ab49b600a954400f407c5e10e8ce34ad399832089594dbec70fdc7c",
+   "text": "Reichstag Fire Decree: fundamental rights suspended"
+  },
+  "blocks[10].elemente[6].text": {
+   "quelle": "sha256:a2b6227d7c2db38834f20f6d07c82db1a5e02ed63988492c4f3261318d2950a2",
+   "text": "Hindenburg dies – Hitler becomes ‘Führer and Reich Chancellor’"
+  },
+  "blocks[10].elemente[7].text": {
+   "quelle": "sha256:6e8518d798c03bf11f674693d145cd72df99d48f8b0258190bb9afa3bbfe7d92",
+   "text": "Reichstag election: 43.9 per cent for the NSDAP"
+  },
+  "blocks[10].elemente[8].text": {
+   "quelle": "sha256:35d1c1808702df662923c3da6ad68d3f9f62e3352579a3c93c00e22af9b90247",
+   "text": "‘Day of Potsdam’: Hitler bows before Hindenburg"
+  },
+  "blocks[11].title": {
+   "quelle": "sha256:37f27a7f8058aaa9186ea1eef0d2801fe50e739e80069b4f527d270eae2fa848",
+   "text": "Check your understanding: from democracy to dictatorship"
+  },
+  "blocks[11].intro": {
+   "quelle": "sha256:ff150295dc51a7344fbf0dee3d2a6f3267b34c0284888e00f36f54556c693c2f",
+   "text": "Check whether you have understood the steps taken in 1933/34. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[11].questions[0].prompt": {
+   "quelle": "sha256:043e98e171cd69abdea9aeddab2fa628febca7162b37783c87e7604c14704afe",
+   "text": "Who appointed Hitler Chancellor of the Reich on 30 January 1933?"
+  },
+  "blocks[11].questions[0].options[0].text": {
+   "quelle": "sha256:c0a7627355601b270bc8400d578315c038f5ae2dddfe7bcc1c68b32735f089f8",
+   "text": "The Reichstag, by a majority vote of its members."
+  },
+  "blocks[11].questions[0].options[1].text": {
+   "quelle": "sha256:fd48c6f75879f4c67d079e147fa8980a37a04de7f6e711749b9e423b46b144ab",
+   "text": "President of the Reich Paul von Hindenburg."
+  },
+  "blocks[11].questions[0].options[2].text": {
+   "quelle": "sha256:895965123621280d3014bbbc77327e7535765c5f18c6ad566584e9ebe30c007e",
+   "text": "The NSDAP at a party congress in Nuremberg."
+  },
+  "blocks[11].questions[0].options[3].text": {
+   "quelle": "sha256:ee6204b8b2d45264a246ad8bbf66028c5c025413664b6f0cdc4a3f280062a5a1",
+   "text": "The people in a referendum."
+  },
+  "blocks[11].questions[0].explanation": {
+   "quelle": "sha256:bf54b6395451a4f1cfa11a8d3fd640076ac333211cc63aa6848cc7091ed15176",
+   "text": "Under the Weimar Constitution, the President of the Reich appointed the Chancellor of the Reich. Hindenburg had hesitated for a long time before giving in to pressure from conservative politicians around Franz von Papen. Neither the Reichstag, the people nor the party elected Hitler to office."
+  },
+  "blocks[11].questions[1].prompt": {
+   "quelle": "sha256:92cdb27b2e8d2e0d0b6a751e4ec0b784deb1adeb0a0e113dba36155b897c95ab",
+   "text": "What was an immediate consequence of the Reichstag fire of 27 February 1933?"
+  },
+  "blocks[11].questions[1].options[0].text": {
+   "quelle": "sha256:17b11facf0d981b5a71417dcca9f04e9db3c2eb8f94adbfc176120f5596f360e",
+   "text": "The Reichstag election scheduled for 5 March was cancelled and postponed indefinitely."
+  },
+  "blocks[11].questions[1].options[1].text": {
+   "quelle": "sha256:9a9bbf3bf4b0b3549c00e14034298e98333740a8034aa4ee305a00890f90c85f",
+   "text": "With the support of the Reichswehr, the KPD took over the government in Berlin for a few days."
+  },
+  "blocks[11].questions[1].options[2].text": {
+   "quelle": "sha256:99bd07b98c325026dc718fafbeccc65b7acfe3e8a0ffd1a14bd250e279a35dfa",
+   "text": "Hitler’s government resigned because it had failed to prevent the fire."
+  },
+  "blocks[11].questions[1].options[3].text": {
+   "quelle": "sha256:d801219f6fd6441ea3e2932948a4a613a3e8995a197cd3a4af0e82e270d7a9ca",
+   "text": "An emergency decree suspended fundamental rights; thousands of opponents were arrested without judicial proceedings."
+  },
+  "blocks[11].questions[1].explanation": {
+   "quelle": "sha256:696c13c85a5160285dcd200aed82a5983854bd3ee6de8eb26c0dabf1ecdc55d5",
+   "text": "On 28 February 1933, the Reichstag Fire Decree suspended fundamental rights; communists and social democrats were placed in ‘protective custody’. The election went ahead as planned on 5 March, the KPD was persecuted and took nothing over, and Hitler’s government did not resign – it used the fire to expand its power."
+  },
+  "blocks[11].questions[2].prompt": {
+   "quelle": "sha256:ab93cf56bbcfc525fb64be7813c29ba2b1b8f8df2696dcb32e652061ac6e621d",
+   "text": "The NSDAP received 43.9 per cent of the vote in the Reichstag election on 5 March 1933. What did this mean?"
+  },
+  "blocks[11].questions[2].options[0].text": {
+   "quelle": "sha256:8a909304cb4e8eb68d3cff5562919470d3d95a39d1ca0b83d49ae50c74afe912",
+   "text": "No majority of its own – only together with the DNVP did it hold just over half the seats."
+  },
+  "blocks[11].questions[2].options[1].text": {
+   "quelle": "sha256:6ca07d3e375afaf4052af5a25534a678718426fd1cd0aa834d526833d80e1d9c",
+   "text": "An absolute majority that allowed it to govern alone without any coalition partner."
+  },
+  "blocks[11].questions[2].options[2].text": {
+   "quelle": "sha256:7ec543cefe1dc523a0d870449a856e6e10204ee954eebf66436e36285eb7d24a",
+   "text": "A defeat – it lost a substantial share of the vote compared with the election of July 1932."
+  },
+  "blocks[11].questions[2].options[3].text": {
+   "quelle": "sha256:5841053b9187230f83935c79cd0995724e098e1c3fbd594b70df8e1e3ea9deaa",
+   "text": "A two-thirds majority that allowed it to change the constitution without other parties."
+  },
+  "blocks[11].questions[2].explanation": {
+   "quelle": "sha256:112ece7fb01334697b992621d800ccda71785028f3249b2912b00bed921213d6",
+   "text": "43.9 per cent is less than half: despite terror and the obstruction of its opponents, the NSDAP had no majority of its own. It gained votes compared with July 1932 (37.3 per cent). A two-thirds majority was only achieved on 23 March for the Enabling Act – and even then, not by the NSDAP alone: it required the votes of the Centre Party and the middle-class parties, under pressure and without the KPD members of parliament."
+  },
+  "blocks[11].questions[3].prompt": {
+   "quelle": "sha256:f8c63d02be3df709048e151479438a22991249e98a72a5bcef5e2f3b666074e9",
+   "text": "What did the Enabling Act of 23 March 1933 permit?"
+  },
+  "blocks[11].questions[3].options[0].text": {
+   "quelle": "sha256:77abe8bd3a0b57952f174f7bccd529b14c35e14a566141bf98e5c6e94bfc81af",
+   "text": "The President of the Reich to dismiss the government at any time and appoint a new one."
+  },
+  "blocks[11].questions[3].options[1].text": {
+   "quelle": "sha256:4d2ac25eb509a97c320d89ac13d4ba48c7fd26ad2fa72d15aad0470beaf6dfdc",
+   "text": "The Reichstag to pass laws without the consent of the Reichsrat, which represented the federal states."
+  },
+  "blocks[11].questions[3].options[2].text": {
+   "quelle": "sha256:1bde5d992e14d10b623d42d72d5b073e1219f9a0477bfaeaf3924fec0597bd62",
+   "text": "The government to make laws without the Reichstag – including laws that deviated from the constitution."
+  },
+  "blocks[11].questions[3].options[3].text": {
+   "quelle": "sha256:fbc15d696276451ad7a02dd1773052f44b6f5c2fc90d55c0f8fdf539dbec8569",
+   "text": "The SA to act as auxiliary police, make arrests without a judge’s warrant and run camps."
+  },
+  "blocks[11].questions[3].explanation": {
+   "quelle": "sha256:3ccf96029da772090c92a52a14b368e9acaa83474c12c289bfe6a885466619fa",
+   "text": "The Enabling Act transferred lawmaking from parliament to the government, even for laws that changed the constitution – the Reichstag gave up its own powers. The President of the Reich’s right to dismiss the Chancellor was already in the constitution; the Reichsrat was not strengthened, but the federal states were brought into line; the arrests were based on the Reichstag Fire Decree, not the Enabling Act."
+  },
+  "blocks[11].questions[4].prompt": {
+   "quelle": "sha256:99f5373ec6363fc7154ae91c2eb3d0a114ddcdcb57932e9c99766d7dca86d072",
+   "text": "All parties present in the Reichstag voted in favour of the Enabling Act."
+  },
+  "blocks[11].questions[4].explanation": {
+   "quelle": "sha256:4e3a93181790278d56e48734fcc5051450b9c4e8687a5b5b59cff2dfedc1feb8",
+   "text": "False. The SPD cast 94 votes against it – Otto Wels gave the last free speech in the Reichstag. The KPD members of parliament could not vote at all because they had been arrested, had fled or had been excluded. The Centre Party and the middle-class parties voted in favour."
+  },
+  "blocks[11].questions[5].prompt": {
+   "quelle": "sha256:636122c5d6c332ccde54378c4ffae866c28df765e10ecbf67adabd67cec2b2f0",
+   "text": "Which event was part of ‘Gleichschaltung’ in 1933?"
+  },
+  "blocks[11].questions[5].options[0].text": {
+   "quelle": "sha256:3269cf0276ed53d97c29807adcbcb54a772be445fe312fbf6a6c45f75785f167",
+   "text": "The federal states gained their own governments with greater independence from Berlin."
+  },
+  "blocks[11].questions[5].options[1].text": {
+   "quelle": "sha256:c2cdfedf3f94b3c2fe3bed4f231eb16a001242927495636fe58e9bfbadfbdc76",
+   "text": "Newspapers and radio were allowed to report more freely than in the Weimar Republic."
+  },
+  "blocks[11].questions[5].options[2].text": {
+   "quelle": "sha256:f855b58183e0cfcf1c48b14095b05b6963320427dcc0759d14ecc40177c48a2d",
+   "text": "The trade unions were destroyed and replaced by the German Labour Front."
+  },
+  "blocks[11].questions[5].options[3].text": {
+   "quelle": "sha256:0ffa3ce76a70f161762446fd83cbdd31e5630a9a73b2205777792c87cf588290",
+   "text": "The SPD and the Centre Party joined together to form a new opposition party."
+  },
+  "blocks[11].questions[5].explanation": {
+   "quelle": "sha256:5e6c375e7ccacea5a097739ad33acc85bc7aff8265f254fcdc04316fac3d06da",
+   "text": "On 2 May 1933, the SA and SS occupied trade union offices; the German Labour Front (DAF) replaced the trade unions. The federal states lost their independence to Reich governors, the press and radio were controlled, and the SPD was banned – a new opposition party was impossible from 14 July 1933 onwards."
+  },
+  "blocks[11].questions[6].prompt": {
+   "quelle": "sha256:efdbfa907239159b6f9cdbe67c4b45f1d2b46d47c7c7e8208a7bada18665a81b",
+   "text": "What happened during the so-called ‘Röhm-Putsch’ from 30 June to 2 July 1934?"
+  },
+  "blocks[11].questions[6].options[0].text": {
+   "quelle": "sha256:7abba3eb28a807127529feb69658ade70490ff7ff964de536e108ed81898124b",
+   "text": "The SA under Ernst Röhm overthrew Hitler and took power in Berlin for a few days after an armed uprising."
+  },
+  "blocks[11].questions[6].options[1].text": {
+   "quelle": "sha256:ec56259fab9004535c91c2ccf5ac39060fc27c064e9b52954810c719e25c4591",
+   "text": "An ordinary court sentenced Ernst Röhm and other SA leaders to long prison terms after a trial."
+  },
+  "blocks[11].questions[6].options[2].text": {
+   "quelle": "sha256:77c901639f3fe5b4d0fe51715645c487b8cdbe5163205dd6b865994dc3064a50",
+   "text": "The generals of the Reichswehr launched a coup against the NSDAP and were defeated by the SA using armed force."
+  },
+  "blocks[11].questions[6].options[3].text": {
+   "quelle": "sha256:f1e2c1a7e036d20cd11f38efa61c8198034536a1210f521d09e240694bd77b5a",
+   "text": "SS units murdered the SA leadership around Röhm; a law declared the murders lawful after the event."
+  },
+  "blocks[11].questions[6].explanation": {
+   "quelle": "sha256:0aa32fa96994bab60d97948432ae9615d43fe3f36619584c4da5a9a922a00d64",
+   "text": "There was no SA coup – the name was propaganda. Hitler had the SS murder the SA leadership and other opponents without a trial; the Law on Measures of State Self-Defence of 3 July 1934 declared the murders lawful. The Reichswehr did not launch a coup; it was relieved that the SA had been stripped of its power."
+  },
+  "blocks[11].questions[7].prompt": {
+   "quelle": "sha256:8169560855be4c0a9202f8fc95ab98e900e2c5117139d01cd9bf52e77d01a0ef",
+   "text": "What changed on 2 August 1934, the day Hindenburg died?"
+  },
+  "blocks[11].questions[7].options[0].text": {
+   "quelle": "sha256:68ebf34c0a15c7d7f5ca83958adaca7149032d86dc7bc97c347f008f6fb55fce",
+   "text": "In a free vote, the Reichstag elected a new President of the Reich to keep Hitler in check."
+  },
+  "blocks[11].questions[7].options[1].text": {
+   "quelle": "sha256:77e17a8bd434ace55e2266e4ecafea248c82424b9fbc0ecec582f060fe71c2d1",
+   "text": "Hitler merged the offices of President of the Reich and Chancellor of the Reich and had the Reichswehr swear an oath to him personally."
+  },
+  "blocks[11].questions[7].options[2].text": {
+   "quelle": "sha256:1bca354ab062b7cf3c66b958510daa1cdebabe905ba9daa13c01aadb155349a2",
+   "text": "The generals of the Reichswehr temporarily took over the government until a successor to Hindenburg had been elected."
+  },
+  "blocks[11].questions[7].options[3].text": {
+   "quelle": "sha256:3022d7cd98a51d0c0073370672f72034241709659a9b3c0b006fca7e180b2c18",
+   "text": "Franz von Papen, previously Vice-Chancellor, was appointed the new President of the Reich, while Hitler remained Chancellor of the Reich."
+  },
+  "blocks[11].questions[7].explanation": {
+   "quelle": "sha256:903d5f60d5b25b03ba7c6c8746b3913777722706b14810a75257a0df069def35",
+   "text": "A law of 1 August 1934 merged the two highest offices; Hitler called himself ‘Führer and Reich Chancellor’, and the soldiers swore their oath to him personally. There was no free election of a successor, no interim government of generals and no President of the Reich Papen."
+  },
+  "blocks[11].questions[8].prompt": {
+   "quelle": "sha256:91a1e6dca923fce192f9242e95660201d2e5ce611bf53133e29d863f132b6308",
+   "text": "What does the Führer principle mean?"
+  },
+  "blocks[11].questions[8].options[0].text": {
+   "quelle": "sha256:85c91c71315e8992767e176fdbf4dadb35417bd30740edb04a549473e0edfaa5",
+   "text": "Commands from the top down, obedience from the bottom up – without elections or checks on power."
+  },
+  "blocks[11].questions[8].options[1].text": {
+   "quelle": "sha256:261e2db79f33121444c30f076635b22713212136d31285d27a0753d70526c82e",
+   "text": "Each level – region, district and local branch – elects its own leader in a free vote."
+  },
+  "blocks[11].questions[8].options[2].text": {
+   "quelle": "sha256:cfe2b2e0a78812b7089ded741c7a8a1ec39e822dc4295d307ec1f0831c864424",
+   "text": "The Führer must abide by parliament’s decisions and the courts’ rulings."
+  },
+  "blocks[11].questions[8].options[3].text": {
+   "quelle": "sha256:96993055073e86d3c6dddc189dba03f042f281abcce938064468f2c427d61d6e",
+   "text": "Several leaders share power and keep one another in check."
+  },
+  "blocks[11].questions[8].explanation": {
+   "quelle": "sha256:29b62117cad55070300837d33e46e262aa9d9e462c3bc81b1abb98a294d91ae6",
+   "text": "In the Führer state, each ‘leader’ is appointed from above and gives orders to those below; there were no longer any elections, checks by parliament or the courts, or shared power. The other three options describe the exact opposite – features of a democracy."
+  },
+  "blocks[12].title": {
+   "quelle": "sha256:9bcea6b08d5d2e2e451c5e266e33a4efe8972512437db84dcd71a499dc3a446a",
+   "text": "Explore further: legal, apparently legal or illegal?"
+  },
+  "blocks[12].intro": {
+   "quelle": "sha256:f5df4fd0bb4c5b11a0faf017b5107ffe1006907ea3fadc04510dd76861bb5cc4",
+   "text": "Your answers will be sent to your teacher. Task 1 is for everyone; tasks 2 and 3 are marked **(Extension)**."
+  },
+  "blocks[12].tasks[0].prompt": {
+   "quelle": "sha256:2727ca6feb89a45e560ddebe5d8f21e80181cee8b9be5ae386243ca186b1caf9",
+   "text": "Explain in two to three sentences why the Enabling Act is described as ‘parliament giving up its own powers’."
+  },
+  "blocks[12].tasks[0].hint": {
+   "quelle": "sha256:a4f051f6341edd128aebef818a6e85d25aee8997004458b997756420b6875fc1",
+   "text": "Who could pass laws before – and who could do so afterwards? And who agreed to this change, under what conditions?"
+  },
+  "blocks[12].tasks[0].solution": {
+   "quelle": "sha256:bd94abe51ca7b542ef0d238cd15dd70679f2fb56262b7dfce3c54d5013af1630",
+   "text": "Example answer: Before the Enabling Act, the Reichstag passed laws; afterwards, the government could make them alone, even if they contradicted the constitution. The Reichstag itself approved this change with a two-thirds majority – but under pressure: the KPD members of parliament had been arrested or had fled, and SA and SS men stood in the chamber. Parliament thus handed over its most important task and made itself unnecessary."
+  },
+  "blocks[12].tasks[1].prompt": {
+   "quelle": "sha256:a81909e8afbd336d05cc7974804c32bbc084e693823d85ec16c64e7019ea4f33",
+   "text": "(Extension) Historians describe the takeover of power as having ‘a veneer of legality’. Explain this term in three to five sentences using two specific examples from the module: what was formally legal – and what was wrong in reality?"
+  },
+  "blocks[12].tasks[1].hint": {
+   "quelle": "sha256:d30b10d375282699a03fe0f4dc2557f4bf5c6f829beb37f741d66021fd1e9634",
+   "text": "For example, consider the two-thirds majority of 23 March 1933 and the law on ‘state self-defence’ of July 1934."
+  },
+  "blocks[12].tasks[1].solution": {
+   "quelle": "sha256:557209382812c488ab7e5408215cef823df7e5d92e3cc3dee63533b08199d6d5",
+   "text": "Example answer: A veneer of legality means that the legal formalities were observed, but the content destroyed the rule of law. The Enabling Act formally had the required two-thirds majority, yet the vote took place under coercion: the KPD members of parliament had been arrested or had fled, SA men surrounded the chamber, and the Centre Party and the middle-class parties voted in favour out of fear or because they trusted Hitler’s promises. The law on state self-defence was formally a law, but it declared murders lawful after the event. The constitution was therefore not abolished but hollowed out using its own mechanisms – through terror, breaches of the law and the exploitation of loopholes."
+  },
+  "blocks[12].tasks[2].prompt": {
+   "quelle": "sha256:32121e18fe600563a27d7c272d397de8cd91fcb39213f2eaf4facaca22f629f4",
+   "text": "(Extension) ‘Seizure of power’ or ‘transfer of power’? In three to five sentences, explain the perspective behind each term and justify which one you would use for 30 January 1933."
+  },
+  "blocks[12].tasks[2].hint": {
+   "quelle": "sha256:1832152a5e36d42f3c78db0c4fcfa516c1f1ab8d473f325526a8e3536b7e3a1a",
+   "text": "For each term, ask yourself: who is presented as taking action – and who is thereby relieved of responsibility?"
+  },
+  "blocks[12].tasks[2].solution": {
+   "quelle": "sha256:dc4a4f0f575d83c7b60c9232fde10af7265457a108d112a0920bf13979457d0a",
+   "text": "Example answer: ‘Seizure of power’ presents the Nazis as the actors who supposedly took power through their own efforts; that was their own propaganda. ‘Transfer of power’ emphasises that Hindenburg and conservative politicians legally gave Hitler power and bear responsibility for doing so. Both terms capture part of the truth: the NSDAP had terror and mass support behind it, but without the handover by the elites, Hitler would not have become Chancellor. That is why ‘transfer of power’ or the neutral term ‘takeover of power’ is more accurate – and also exposes the perpetrators’ portrayal of themselves."
+  }
+ },
+ "pakete": {
+  "blocks[4]": {
+   "quelle": "sha256:532cfa61673e1ffa30805af6bf772213e0239c95de8a22f563d56b8834a8aa97",
+   "inhalt": {
+    "text": "On 28 February 1933, the {{1}} suspended the fundamental rights of the Weimar Constitution.\nIt was based on Article {{2}} of the constitution, which allowed the President of the Reich to issue emergency decrees.\nThe Nazis euphemistically called detention without a judge’s involvement ‘{{3}}’.\nOn 23 March 1933, the Reichstag passed the {{4}}: the government could now make laws without parliament, even laws that deviated from the {{5}}.\nThis required a majority of {{6}} of the members of parliament present.\nOnly the {{7}} party voted against the Act; the members of parliament from the {{8}} party had been arrested or had fled.",
+    "luecken": [
+     [
+      "Reichstag Fire Decree",
+      "the Reichstag Fire Decree",
+      "Reichstag fire emergency decree",
+      "Reichstagsbrandverordnung"
+     ],
+     [
+      "48",
+      "forty-eight",
+      "forty eight"
+     ],
+     [
+      "protective custody",
+      "Schutzhaft"
+     ],
+     [
+      "Enabling Act",
+      "the Enabling Act",
+      "Enabling Law",
+      "the Enabling Law",
+      "Ermächtigungsgesetz"
+     ],
+     [
+      "constitution",
+      "the constitution",
+      "Weimar Constitution",
+      "the Weimar Constitution"
+     ],
+     [
+      "two thirds",
+      "two-thirds",
+      "2/3",
+      "⅔"
+     ],
+     [
+      "SPD",
+      "the SPD",
+      "Social Democratic",
+      "Social Democratic Party",
+      "Social Democratic Party of Germany"
+     ],
+     [
+      "KPD",
+      "the KPD",
+      "Communist",
+      "Communist Party",
+      "Communist Party of Germany"
+     ]
+    ],
+    "ablenker": [
+     "Centre Party",
+     "one half",
+     "Reich Flag Law"
+    ]
+   }
+  }
+ }
+}
