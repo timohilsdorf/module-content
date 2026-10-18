@@ -1,0 +1,1479 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-jugend --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:daa0052e021304c11bb17050d8a31ea2c2892c698030c8cc2a148fd49a86750a",
+  "masterCommit": "8f835b2",
+  "hintsHash": null,
+  "generatedAt": "2026-10-18",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:88cb01ede7b097c4d175ce311f7f2c9ead3a9c4cc382049ce5a6b9dd310a7783"
+ },
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-jugend",
+ "title": "Young people in the Nazi state – and the film ‘Napola’",
+ "description": "Campfires, uniforms and community – alongside drill, obedience and war. You will learn how the Nazi state brought young people into the HJ, DJ, BDM and JM, what its educational aims were for boys and girls, what elite schools such as the ‘Napola’ were for, and how young people conformed or resisted. You will place the film ‘Napola’ in context as fiction against a historical background.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.7.2",
+     "description": "Die Schülerinnen und Schüler können Geschichte zur Bildung und Unterhaltung nutzen."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.7.2",
+     "description": "Die Schülerinnen und Schüler können Geschichte zur Bildung und Unterhaltung nutzen."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "en",
+ "sequenz": 5,
+ "einheit": "National Socialism – dictatorship, persecution, remembrance",
+ "requires": [
+  "nationalsozialismus-ideologie-propaganda"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "Hitlerjugend",
+  "BDM",
+  "young people",
+  "Napola",
+  "education",
+  "Edelweißpiraten",
+  "Swing-Jugend",
+  "Helmuth Hübener",
+  "Weiße Rose",
+  "National Socialism"
+ ],
+ "learningObjectives": [
+  "I can explain how the Nazi state brought young people into line (the Hitler Youth Law of 1936, compulsory youth service in 1939) and what path through life it planned for boys and girls.",
+  "I can describe what made the Hitlerjugend attractive to young people and what it demanded of them at the same time.",
+  "I can name the Nazi state's educational aims for boys and girls and recognise them in schools, songs and the ‘Mutterkreuz’ (Mother's Cross).",
+  "I can explain the purpose of the ‘Napola’ elite schools and the Adolf-Hitler-Schulen, and place the film ‘Napola’ in context as fiction against a historical background.",
+  "I can give examples of young people who did not conform or who resisted (Edelweißpiraten, Swing-Jugend, Helmuth Hübener) and explain what consequences they faced.",
+  "(Extension) I can place the Weiße Rose in context as an example of student resistance.",
+  "(Extension) I can explain why Rauschning's ‘Gespräche mit Hitler’ is not a reliable source."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Jugend im NS-Staat (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/ns-regime"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Nationalsozialismus",
+   "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/"
+  },
+  {
+   "title": "NS-Dokumentationszentrum der Stadt Köln: Edelweißpiraten",
+   "url": "https://museenkoeln.de/ns-dokumentationszentrum"
+  },
+  {
+   "title": "Gedenkstätte Deutscher Widerstand: Helmuth Hübener, Weiße Rose",
+   "url": "https://www.gdw-berlin.de"
+  },
+  {
+   "title": "Film: Napola – Elite für den Führer (D 2004, Regie: Dennis Gansel) – im Unterricht gesehen"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Jugend im Nationalsozialismus",
+   "url": "https://www.youtube.com/watch?v=iraKtSfVgFk"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k5-einstieg",
+   "title": "Imagine you are 14 – in 1936",
+   "body": "You are 14, it is 1936, and your afternoons are not your own. Twice a week, there is ‘service’: an evening group meeting with instruction, sport on the field, and outdoor games or a camp at the weekend. You wear a uniform, like almost everyone in your class. Anyone who does not attend stands out – and their parents get into trouble. But honestly, you also enjoy the campfires, the trips and the feeling of belonging to something big. And at 16, you might get to lead a group yourself. Not everyone is allowed to join: the Jewish girl who sat next to you at primary school is excluded – and perhaps you no longer even notice.\n\nThis mixture is exactly what this module explores: the Nazi state wanted not only to control young people, but to **win them over** – and shape them. In [[modul:nationalsozialismus-organisationen]], you learnt about the youth organisations HJ, DJ, BDM and JM, and in [[modul:nationalsozialismus-ideologie-propaganda]], you saw how propaganda works. Now you will look more closely: how did voluntary participation become compulsory? What were boys and girls supposed to become? What did the elite schools you know from the film ‘Napola’ do? Who refused to join in – and what happened to them?\n\nOne point before we begin: we look at this period through the eyes of young people who observe, join in, doubt or refuse – not through the eyes of the perpetrators."
+  },
+  {
+   "type": "schaubild",
+   "id": "k5-stufen",
+   "title": "The predetermined path: from Jungvolk to Wehrmacht, from Jungmädelbund to motherhood",
+   "szene": {
+    "elemente": [
+     {
+      "id": "s-titel",
+      "x": 200,
+      "y": 0,
+      "width": 898,
+      "height": 33,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "From Jungvolk to Wehrmacht, from Jungmädelbund to motherhood",
+      "fontSize": 26,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-untertitel",
+      "x": 200,
+      "y": 40,
+      "width": 557,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "Four stages planned by the regime – blue: boys, green: girls",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0",
+      "x": 20,
+      "y": 560,
+      "width": 290,
+      "height": 248,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-alter",
+      "x": 30,
+      "y": 570,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-alter-t",
+      "x": 40,
+      "y": 578,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "text",
+      "text": "Ages 10 to 14",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st0-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0-j",
+      "x": 30,
+      "y": 616,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-j-t",
+      "x": 40,
+      "y": 632.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "text",
+      "text": "Deutsches Jungvolk (DJ)\n‘Pimpfe’: group evenings, sport,\noutdoor games, trips",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st0-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0-m",
+      "x": 30,
+      "y": 712,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "rectangle"
+     },
+     {
+      "id": "st0-m-t",
+      "x": 40,
+      "y": 728.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "text",
+      "text": "Jungmädelbund (JM)\nGroup evenings, sport,\nsinging, crafts",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st0-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st0-a",
+      "x": 303,
+      "y": 588,
+      "width": 24,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        24,
+        -110
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "st1",
+      "x": 320,
+      "y": 450,
+      "width": 290,
+      "height": 358,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-alter",
+      "x": 330,
+      "y": 460,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-alter-t",
+      "x": 340,
+      "y": 468,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "text",
+      "text": "Ages 14 to 18",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st1-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st1-j",
+      "x": 330,
+      "y": 506,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-j-t",
+      "x": 340,
+      "y": 522.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "text",
+      "text": "Hitlerjugend (HJ)\nDrill, marching, shooting,\n‘military fitness training’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st1-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st1-m",
+      "x": 330,
+      "y": 602,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "rectangle"
+     },
+     {
+      "id": "st1-m-t",
+      "x": 340,
+      "y": 618.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "text",
+      "text": "Bund Deutscher Mädel (BDM)\nSport, housekeeping, camps;\n‘Glaube und Schönheit’ from 17",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st1-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st1-a",
+      "x": 603,
+      "y": 478,
+      "width": 24,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        24,
+        -110
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "st2",
+      "x": 620,
+      "y": 340,
+      "width": 290,
+      "height": 468,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069395373,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-alter",
+      "x": 630,
+      "y": 350,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1346169768,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-alter-t",
+      "x": 640,
+      "y": 358,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1323890193,
+      "type": "text",
+      "text": "Around ages 18 to 19",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st2-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st2-j",
+      "x": 630,
+      "y": 396,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1591521450,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-j-t",
+      "x": 640,
+      "y": 412.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 537279799,
+      "type": "text",
+      "text": "Reichsarbeitsdienst (RAD)\nSix compulsory months, drill –\npreparing for military service",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st2-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st2-m",
+      "x": 630,
+      "y": 492,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1766705883,
+      "type": "rectangle"
+     },
+     {
+      "id": "st2-m-t",
+      "x": 640,
+      "y": 508.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080880862,
+      "type": "text",
+      "text": "Compulsory year and RAD\nWork in a household\nor on a farm",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st2-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st2-a",
+      "x": 903,
+      "y": 368,
+      "width": 24,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576577607,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        24,
+        -110
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "st3",
+      "x": 920,
+      "y": 230,
+      "width": 290,
+      "height": 578,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 821440179,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-alter",
+      "x": 930,
+      "y": 240,
+      "width": 270,
+      "height": 36,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 94861959,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-alter-t",
+      "x": 940,
+      "y": 248,
+      "width": 250,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2113293440,
+      "type": "text",
+      "text": "Then, from about age 19",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st3-alter",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st3-j",
+      "x": 930,
+      "y": 286,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 417856261,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-j-t",
+      "x": 940,
+      "y": 302.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1089207059,
+      "type": "text",
+      "text": "Wehrmacht\nSoldier – ‘ready for sacrifice’\nfor Führer and people",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st3-j",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "st3-m",
+      "x": 930,
+      "y": 382,
+      "width": 270,
+      "height": 86,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 805849935,
+      "type": "rectangle"
+     },
+     {
+      "id": "st3-m-t",
+      "x": 940,
+      "y": 398.5,
+      "width": 250,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1631777536,
+      "type": "text",
+      "text": "‘German woman and mother’\nHousehold, many children –\nthen ‘Mother's Cross’ (from 1938)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "st3-m",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-merk",
+      "x": 20,
+      "y": 830,
+      "width": 1180,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1938183565,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-merk-t",
+      "x": 30,
+      "y": 849.5,
+      "width": 1160,
+      "height": 21,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1370408198,
+      "type": "text",
+      "text": "The regime wanted a path with no turning off: from age ten, life was to be mapped out – boys would become soldiers, girls mothers.",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Title: From Jungvolk to Wehrmacht, from Jungmädelbund to motherhood. Subtitle: Four stages planned by the regime; blue: boys, green: girls. Four stages rise from left to right. Arrows connect the age boxes; each stage has an age box, a blue box for boys and a green one for girls. Key points: 1. Ages 10 to 14: boys in the Deutsches Jungvolk (DJ), nicknamed Pimpfe, with group evenings, sport, outdoor games and trips; girls in the Jungmädelbund (JM), with group evenings, sport, singing and crafts. 2. Ages 14 to 18: boys in the Hitlerjugend (HJ), with drill, marching, shooting and military fitness training; girls in the Bund Deutscher Mädel (BDM), with sport, housekeeping and camps, joining Glaube und Schönheit from 17. 3. Around ages 18 to 19: boys in the Reichsarbeitsdienst (RAD), six compulsory months with drill, preparing for military service; girls doing a compulsory year and RAD service, working in a household or on a farm. 4. Then, from about age 19: boys as Wehrmacht soldiers, ready for sacrifice for Führer and people; girls as German women and mothers, with a household and many children, later receiving the Mother's Cross, introduced in 1938. 5. Key point below: the regime wanted a path with no turning off. From age ten, life was to be mapped out – boys would become soldiers, girls mothers.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "id": "k5-gleichschaltung",
+   "title": "One youth, one path: bringing young people into line",
+   "body": "Before 1933, Germany had hundreds of youth associations: scouts, Wandervögel, church youth groups, workers' youth groups and sports clubs. Within a few months of the Nazi takeover, they were **banned** or **‘incorporated’** into the Hitlerjugend; the HJ took over their clubhouses, campsites and funds. Only Catholic youth groups, protected by a treaty between the regime and the Vatican, managed to survive for a few more years, under growing pressure.\n\nA law and a decree did the rest:\n\n> ‘In addition to their upbringing in the family and at school, all German young people must be educated physically, mentally and morally in the Hitler Youth, in the spirit of National Socialism, to serve the people and the national community.’\n>\n> — Gesetz über die Hitler-Jugend, 1. Dezember 1936, § 2\n\nThis made the HJ the **state youth organisation**. Alongside the family and school, there was now a third force shaping young people's upbringing – the Hitlerjugend itself, the party's youth organisation with a state mandate. Until 1940, it was headed by **Reich Youth Leader Baldur von Schirach**. You know from [[modul:nationalsozialismus-ideologie-propaganda]] what ‘national community’ meant in Nazi terminology: a community from which many remained excluded – Jewish young people were not allowed to join.\n\nBy early 1939, membership of the HJ, DJ, BDM and JM had risen to around 8.7 million – almost all young people. In March 1939, **compulsory youth service** followed (a decree under the law of 1936): membership was compulsory from the age of ten, and parents who kept their children away could be punished. The diagram shows the path the regime planned for every boy and girl from then on: from Jungvolk through the HJ and labour service into the Wehrmacht, and from Jungmädelbund through the BDM into the role of ‘German woman and mother’.\n\n> **Remember:** ‘Bringing young people into line’ meant banning independent youth associations or incorporating them into the HJ. Meeting, hiking and singing were now supposed to take place only under the regime's supervision. Anyone who still sought their own path risked persecution – you will read more about this later in the module."
+  },
+  {
+   "type": "text",
+   "id": "k5-alltag",
+   "title": "Campfires and drill: why the HJ attracted young people – and what it demanded",
+   "body": "Why did so many young people join in enthusiastically? The Hitlerjugend offered things that young people sought then, just as they do today – but demanded a high price in return:\n\n| What attracted them | What lay behind it |\n| --- | --- |\n| **Camps, trips, nights in tents** – escaping the confines of family life, adventure | Getting used to orders and obedience, marching and toughness |\n| **Sport, competitions, outdoor games** | **‘Military fitness training’** (‘Wehrertüchtigung’, the Nazi term for military training for young people): preparation for war, with shooting practice from 16 |\n| **Community, uniforms, flags** – belonging, being equal | Control: absentees are reported; every service session is recorded in a booklet |\n| **Responsibility** – ‘youth leads youth’: 16-year-olds lead 12-year-olds | Passing pressure down the chain; punishment by peers |\n| **Being taken seriously** – you are the future, they were told | **Indoctrination** (influence that allows no disagreement): group evenings with ‘racial theory’, the cult of the leader and enemy images |\n| **Time with peers** – weekends and group evenings without parents | Reaching into family life: the party educates children alongside their parents; anyone keeping a child away is viewed with suspicion, with penalties from 1939 |\n\n‘Youth leads youth’ was a clever trick: the group leaders were themselves young people. It felt like self-determination, but was the opposite, because orders came from above and were passed down. And the enthusiasm was real: many later remembered the trips as the happiest time of their youth – and only much later recognised what they had been trained for.\n\n> **Remember:** The HJ was both an offer that truly attracted young people and an instrument that shaped them for war and obedience. If you see only one side, you cannot understand why it worked."
+  },
+  {
+   "type": "text",
+   "id": "k5-ziele",
+   "title": "‘As hard as Krupp steel’ – the educational aims",
+   "body": "What were young people supposed to become? Hitler himself told the HJ boys to their faces at the Nazi Party rally in 1935:\n\n> ‘… slim and straight, swift as greyhounds, tough as leather and as hard as Krupp steel.’\n>\n> — Adolf Hitler, Rede vor der Hitlerjugend, Reichsparteitag Nürnberg, September 1935\n\nFor context: Hitler was speaking as party leader and Reich Chancellor to assembled HJ units. ‘Krupp steel’ means steel made by the Krupp company in Essen, which was also used to make cannons. **Your task:** read the quotation carefully. Which qualities does Hitler name – and which are entirely absent (intellect, compassion, independent judgement)? Make a note of your answer; you will need it in the further study section at the end of the module (task 2).\n\n## Boys\n\n**Tough, obedient, ready for sacrifice – soldiers.** The HJ prepared boys for the Wehrmacht: marching, outdoor games, small-bore shooting and tests of courage. Anyone who cried was considered soft; anyone who asked questions was considered cheeky. The Jungvolk boys (10 to 14) were called ‘Pimpfe’; even admission required a ‘Pimpfenprobe’, a test involving sport, a march and reciting party knowledge.\n\n## Girls\n\n**Healthy, obedient, housewives and mothers of many children.** The BDM offered sport and camps, but its goal was the **‘German woman and mother’**: housekeeping, infant care, folk dancing and needlework. From 1938, there was the **‘Mutterkreuz’ (Mother's Cross)** (officially: Ehrenkreuz der Deutschen Mutter) – a decoration for women with many children: bronze for four or more, silver for six or more, gold for eight or more children. HJ boys were expected to salute women who held the Mother's Cross. Behind this lay ‘racial theory’: more ‘Aryan’ children were supposed to make the people ‘strong’ – and supply future soldiers. Women's careers were seen only as a temporary stage before marriage.\n\n## School\n\nSchools were also brought into line. From 1933, **‘heredity and racial studies’** were on the curriculum: pseudoscientific ‘racial theory’ was taught as established knowledge (more on this in [[modul:nationalsozialismus-ideologie-propaganda]]). Maths problems used soldiers and ‘hereditarily diseased’ people in their calculations, while history lessons presented the ‘Führer’ as the culmination of history. Almost all teachers belonged to the **NS-Lehrerbund** (National Socialist Teachers' League). **Jewish teachers** were dismissed as early as 1933, and Jewish pupils were gradually forced out of schools. The day began with the Hitler salute and an assembly at the flag.\n\n> **Remember:** Boys → soldiers, girls → mothers. Both served the same goal: war."
+  },
+  {
+   "type": "lueckentext",
+   "id": "k5-lt-ziele",
+   "title": "The educational aims at a glance",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Be careful:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "A law of {{1}} made the party's youth organisation the state youth organisation; from {{2}}, membership was compulsory.\nAlongside home and school, the {{3}} became the third force in young people's upbringing.\nBoys were to become tough, obedient and ready for sacrifice – in short, {{4}}.\nGirls were to be healthy and obedient and, above all, become {{5}} of many children; from 1938, they could receive the {{6}} for this.\nFrom 1933, schools taught {{7}}, and Jewish teachers were {{8}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "1936"
+     ]
+    },
+    {
+     "antworten": [
+      "1939"
+     ]
+    },
+    {
+     "antworten": [
+      "Hitlerjugend",
+      "HJ",
+      "Hitler Youth",
+      "the Hitlerjugend",
+      "the HJ",
+      "the Hitler Youth"
+     ]
+    },
+    {
+     "antworten": [
+      "soldiers"
+     ]
+    },
+    {
+     "antworten": [
+      "mothers"
+     ]
+    },
+    {
+     "antworten": [
+      "Mother's Cross",
+      "Mother’s Cross",
+      "Mothers' Cross",
+      "Mothers’ Cross",
+      "Mothers Cross",
+      "Cross of Honour of the German Mother",
+      "Cross of Honor of the German Mother",
+      "Mutterkreuz",
+      "the Mother's Cross",
+      "the Mother’s Cross",
+      "the Mutterkreuz"
+     ]
+    },
+    {
+     "antworten": [
+      "racial studies",
+      "racial theory",
+      "racial science",
+      "heredity and racial studies",
+      "Rassenkunde"
+     ]
+    },
+    {
+     "antworten": [
+      "dismissed",
+      "sacked",
+      "fired",
+      "removed from their posts",
+      "dismissed from their posts"
+     ]
+    }
+   ],
+   "ablenker": [
+    "1926",
+    "Church",
+    "transferred"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k5-lied",
+   "title": "A song for the flag: what young people had to sing",
+   "body": "Singing was part of HJ life – while marching, around the campfire and at group evenings. The best-known song was the **HJ-Fahnenlied** (HJ Flag Song) of 1933. Reich Youth Leader Baldur von Schirach wrote the lyrics himself; the melody comes from a propaganda film of the same year in which a Hitler Youth boy dies for the ‘movement’ (the Nazis' name for their party). We do not reproduce the lyrics here – they are still protected by copyright, and they glorify death. We describe them instead:\n\n- The song has the rhythm of a **march**; it is sung while marching in step, and the lines are short and easy to shout.\n- At its centre is the **flag**, carried at the front. Young people are supposed to follow it unconditionally.\n- The young people are addressed as future **soldiers**, ready to fight for the Führer and Germany.\n- The chorus's central message is that the flag is **worth more than your own life** – dying for it is presented as an honour.\n\nImagine 200 fourteen-year-olds singing this in step, with drums, at camp in the evening. That was exactly the point: once you have sung a song a hundred times, you no longer think about it – you feel it. In this way, **readiness to die** was turned into a feeling of community, long before anyone actually had to go to the front. You will find the task analysing this at the end of the module (further study, task 2)."
+  },
+  {
+   "type": "text",
+   "id": "k5-eliteschulen",
+   "title": "Elite schools: Napola and Adolf-Hitler-Schulen",
+   "body": "The regime had special schools for the ‘best’:\n\n- **Nationalpolitische Erziehungsanstalten (NPEA)**, known to everyone simply as **‘Napola’**: **state boarding schools**, the first three opened in April 1933 in former Prussian cadet schools (military boarding schools that had previously trained future officers), with increasing SS influence from 1936. By 1945, there were around 40 in the German Reich and occupied territories, including a few for girls. Their aim was to train the **future leadership elite** of the state, party and military.\n- **Adolf-Hitler-Schulen (AHS)**, established from 1937 and run by the **party** and the HJ: boarding schools for boys aged 12 and over, with admission through the HJ and no school fees.\n\nAdmission depended on passing the **selection process**: ‘racial’ criteria (proof of ancestry, appearance), physical performance (sport, tests of courage), obedience and ‘character’. Family background and money mattered less than at traditional elite secondary schools. Napola fees were based on parents' income, and workers' sons could also be admitted. This was part of the promise of the ‘national community’.\n\nDaily life involved military **drill**, assemblies at the flag, **sport** of every kind – including boxing, because it was supposed to prove ‘toughness’ – field exercises, gliding and riding, alongside lessons in uniform following a fixed curriculum with plenty of ‘racial studies’. Pupils lived in ‘platoons’ and ‘companies’ like soldiers, with older pupils commanding younger ones. During the war, the Napolas increasingly became schools supplying recruits for the Wehrmacht and Waffen-SS: older pupils were called up at ever younger ages, many volunteered as officer candidates – and many were killed in action.\n\n> **Remember:** The elite schools were the model of what the HJ was trying to do on a smaller scale everywhere – only with more time, more drill and no family home."
+  },
+  {
+   "type": "text",
+   "id": "k5-film",
+   "title": "The film ‘Napola’ (2004): fiction against a historical background",
+   "body": "You have watched the film **‘Napola – Elite für den Führer’** (Deutschland 2004, Regie: Dennis Gansel). It tells the story of **Friedrich**, a working-class boy from Berlin whose boxing talent takes him to a Napola in 1942, and **Albrecht**, the son of a senior party official, whom he befriends.\n\nBefore you use the film as a historical source, you need to know what it is: a **feature film**, meaning a **portrayal**, not a source from the period. Friedrich and Albrecht are fictional characters; their story is invented and concentrated into a few weeks so that it fits into two hours and moves us. The film is not a source for the question ‘What was it really like in 1942?’ It is, however, an excellent source for the question ‘How does Germany in 2004 tell stories about National Socialism?’\n\nWhat in the film matches the historical facts:\n\n- **selection** based on physical and ‘racial’ criteria,\n- **boxing**, drill, tests of courage and obedience as educational methods,\n- the **hierarchy among pupils**: older pupils commanded younger ones,\n- the fact that **workers' sons could also be admitted**, alongside the sons of senior officials,\n- the **use of pupils to search for escaped prisoners** – the scene is invented, but based on real crimes: towards the end of the war, Hitler Youth boys and pupils were indeed used in searches and as guards.\n\nWhat is invented or dramatised: the two main characters and their personal story, individual teachers and dialogues, the concentration of many events into a few weeks – and the interpretation of how isolated the boys became under pressure. This is not a flaw in the film – it is how cinema works. What matters is that you keep the two apart.\n\n> **Remember:** A feature film shows you how people imagine a period, not how it actually was. Check every claim a film makes against sources and specialist texts before accepting it as fact."
+  },
+  {
+   "type": "lueckentext",
+   "id": "k5-lt-film",
+   "title": "Film or fact?",
+   "teilkompetenzen": [
+    "geschichte.methoden.spielfilm-einordnen"
+   ],
+   "intro": "Classify each statement: is it historically **documented**, or is it **invented** (added for the film, or something that did not happen that way at all)? Decide using only the texts in this module. Six statements are documented, three are invented.",
+   "modus": "wortbank",
+   "text": "There were state boarding schools called Nationalpolitische Erziehungsanstalten, intended to train a future leadership elite. {{1}}\nThe main characters Friedrich and Albrecht really lived at a Napola. {{2}}\nApplicants were selected according to ‘racial’ and physical criteria; tests of courage were part of the process. {{3}}\nBoxing, drill and field exercises were part of everyday life at the elite schools. {{4}}\nNapola pupils wore no uniform and could freely choose their subjects. {{5}}\nBoys from modest backgrounds could also be admitted – school fees depended on their parents' income. {{6}}\nBy 1945, there were around 40 such institutions. {{7}}\nThe Napolas were run by the Hitlerjugend, not the state. {{8}}\nMany former pupils joined the Wehrmacht as officer candidates, and many were killed in the war. {{9}}",
+   "luecken": [
+    {
+     "antworten": [
+      "documented",
+      "historically documented",
+      "historically accurate",
+      "historical fact",
+      "fact",
+      "factual",
+      "true",
+      "supported by evidence"
+     ]
+    },
+    {
+     "antworten": [
+      "invented",
+      "fictional",
+      "fiction",
+      "false",
+      "made up",
+      "made-up",
+      "not historically accurate"
+     ]
+    },
+    {
+     "antworten": [
+      "documented",
+      "historically documented",
+      "historically accurate",
+      "historical fact",
+      "fact",
+      "factual",
+      "true",
+      "supported by evidence"
+     ]
+    },
+    {
+     "antworten": [
+      "documented",
+      "historically documented",
+      "historically accurate",
+      "historical fact",
+      "fact",
+      "factual",
+      "true",
+      "supported by evidence"
+     ]
+    },
+    {
+     "antworten": [
+      "invented",
+      "fictional",
+      "fiction",
+      "false",
+      "made up",
+      "made-up",
+      "not historically accurate"
+     ]
+    },
+    {
+     "antworten": [
+      "documented",
+      "historically documented",
+      "historically accurate",
+      "historical fact",
+      "fact",
+      "factual",
+      "true",
+      "supported by evidence"
+     ]
+    },
+    {
+     "antworten": [
+      "documented",
+      "historically documented",
+      "historically accurate",
+      "historical fact",
+      "fact",
+      "factual",
+      "true",
+      "supported by evidence"
+     ]
+    },
+    {
+     "antworten": [
+      "invented",
+      "fictional",
+      "fiction",
+      "false",
+      "made up",
+      "made-up",
+      "not historically accurate"
+     ]
+    },
+    {
+     "antworten": [
+      "documented",
+      "historically documented",
+      "historically accurate",
+      "historical fact",
+      "fact",
+      "factual",
+      "true",
+      "supported by evidence"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k5-film-tasks",
+   "title": "Putting the film in context",
+   "teilkompetenzen": [
+    "geschichte.methoden.spielfilm-einordnen"
+   ],
+   "intro": "Your answers will be sent to your teacher. Tasks 1 and 2 are for everyone; task 3 is marked **(Extension)**. Do not present film scenes as ‘historical facts’ – check them against the texts in this module.",
+   "tasks": [
+    {
+     "id": "k5-f1",
+     "prompt": "Name two things in the film that match the historical facts about the Napola, and one that is invented or dramatised. Give brief reasons (two to four sentences).",
+     "hint": "Compare with the ‘Elite schools’ section: selection, boxing, drill and hierarchy are documented – the characters and their story are not.",
+     "solution": "Example answer: Selection based on physical and ‘racial’ criteria and boxing as a way of proving toughness are documented – both were part of the Napolas' actual programme. Friedrich and his friendship with Albrecht are invented; the plot is fictional and focuses on two people so that we can empathise with them."
+    },
+    {
+     "id": "k5-f2",
+     "prompt": "Compare Friedrich and Albrecht: how does the film show one conforming to the system and the other refusing? In three to five sentences, describe what each decision costs – from the two young people's perspective, rather than that of their educators.",
+     "hint": "Look for moments when the characters must choose between belonging and their conscience. What do you gain by conforming, and what do you lose? What about the opposite choice?",
+     "solution": "Example answer: The film presents two paths side by side: conforming brings recognition, belonging and success, but demands that you take part in wrongdoing and deny who you are. Refusing preserves your conscience but costs you protection, a future and other people's friendship – in the Nazi state, it could cost you your life. The film makes clear that, for young people under the system's pressure, no path came without a cost."
+    },
+    {
+     "id": "k5-f3",
+     "prompt": "(Extension) Why do feature films almost always tell history through one or two individuals' lives rather than through figures, laws and structures? In three to five sentences, name two advantages and one disadvantage of this way of telling a story – and explain why a film is a portrayal rather than a source for 1942.",
+     "hint": "Think about what moved you in the film – and what you only learnt about the Napola from the texts in this module.",
+     "solution": "Example answer: Individual stories bring history to life: we empathise with a person and understand what pressure, fear or enthusiasm felt like – figures cannot do that. They also allow a complicated period to be told in two hours. The disadvantage is that structures – laws, the party's role and the number of people affected – remain in the background, and a fictional character may give us a misleading impression of how typical their experience was. The film is therefore a portrayal from 2004 that shows how people imagine the period today, rather than a source from 1942."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k5-widerstand",
+   "title": "Not everyone joined in: Edelweißpiraten, Swing-Jugend, Helmuth Hübener",
+   "body": "Despite the law and the pressure, some young people did not comply – from small acts of refusal to open resistance. The regime took action against them, ranging from pressure on parents and punishments to arrest, youth concentration camps and death sentences.\n\n## Edelweißpiraten\n\nIn the **Rhineland and Ruhr region**, especially Cologne, groups of apprentices and young workers who stayed away from the HJ began meeting in the late 1930s. They wore an edelweiss flower on their jackets, organised their own **hikes and camping trips**, sang their own songs with mocking lyrics and got into **fights with the HJ-Streifendienst**, an HJ unit that kept watch on young people. During the war, some groups helped **deserters** (soldiers who had fled the Wehrmacht) and **forced labourers** (people from occupied countries who were forced to work in Germany). The Gestapo regarded them as ‘gangs’. In **November 1944**, **13 people were publicly hanged in Cologne-Ehrenfeld**, without a trial, including young people from these circles – one was the 16-year-old apprentice **Bartholomäus Schink**.\n\n## Swing-Jugend\n\nIn **Hamburg** and other large cities, young people, mostly from middle-class families, met to listen and dance to **jazz and swing** – music the regime rejected as ‘un-German’ and ‘degenerate’ and increasingly banned. Both were Nazi terms: ‘un-German’ meant ‘not fitting in with the German people’, while ‘degenerate’ supposedly meant ‘corrupted’ – the regime used them to disparage anything that did not fit its worldview. The Swing-Jugend wore their hair long, dressed in English fashions, carried umbrellas in sunshine and called one another by English names. This was not politics, but it was a **refusal to conform** – and that was enough: from 1941, hundreds were arrested in Hamburg, and some were sent to the **Moringen youth concentration camp** (for boys) and **Uckermark** (for girls).\n\n## Helmuth Hübener\n\n**Helmuth Hübener** from Hamburg was 16 when, in 1941, he began secretly listening at night to the **BBC** – the banned British broadcaster. With two friends, he typed the news onto leaflets and distributed them in letterboxes and telephone boxes: reports on the true course of the war that German propaganda concealed. In February 1942, he was betrayed and arrested. The **Volksgerichtshof** – the regime's special court for political trials, which allowed no fair defence – sentenced him to death; he was executed on **27 October 1942**, at **17 years old**, making him one of the youngest people this court sentenced to death.\n\n> **(Extension) The Weiße Rose:** In Munich, students including Hans and Sophie Scholl, Christoph Probst, Alexander Schmorell and Willi Graf, together with Professor Kurt Huber, distributed leaflets against the regime and the war in 1942/43. In February 1943, the Scholl siblings were discovered leaving leaflets at the university; four days later, they and Christoph Probst were executed, and the others were executed later. Their leaflets are now among the best-known texts of the German resistance.\n\n> **Remember:** There were many ways of saying no – from staying away and listening to your own music to distributing leaflets. The regime's response varied in severity according to the level of refusal: penalties for parents, arrest and youth concentration camps, and even execution for open resistance."
+  },
+  {
+   "type": "zuordnung",
+   "id": "k5-zu-gruppen",
+   "title": "Who or what was it?",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren"
+   ],
+   "intro": "Match each description to the correct group, person or institution. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "Apprentices and young workers in the Rhineland who stayed away from the HJ and had their own hikes and songs"
+     },
+     "rechts": {
+      "text": "Edelweißpiraten"
+     }
+    },
+    {
+     "links": {
+      "text": "Jazz, English fashions and dance evenings in Hamburg"
+     },
+     "rechts": {
+      "text": "Swing-Jugend"
+     }
+    },
+    {
+     "links": {
+      "text": "Leaflets with BBC news; executed at the age of 17"
+     },
+     "rechts": {
+      "text": "Helmuth Hübener"
+     }
+    },
+    {
+     "links": {
+      "text": "HJ unit that monitored young people and reported those who did not conform"
+     },
+     "rechts": {
+      "text": "HJ-Streifendienst"
+     }
+    },
+    {
+     "links": {
+      "text": "Camp for boys who did not comply with the regime"
+     },
+     "rechts": {
+      "text": "Moringen youth concentration camp"
+     }
+    },
+    {
+     "links": {
+      "text": "Camp for girls who did not comply with the regime"
+     },
+     "rechts": {
+      "text": "Uckermark youth concentration camp"
+     }
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "id": "k5-video",
+   "provider": "youtube",
+   "videoId": "iraKtSfVgFk",
+   "title": "Optional extra: video ‘Jugend im Nationalsozialismus’ (13:56)",
+   "description": "This video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in this module's texts. If you watch it (internet access required; it only starts when you click), focus on two guiding questions: (1) What reasons does the video give for many young people enjoying their time in the HJ and BDM – and what was happening ‘beneath the surface’? (2) What forms of resistance does it show, and what consequences did the young people face?",
+   "transcript": "Summary of the video ‘Jugend im Nationalsozialismus’ (MrWissen2go Geschichte | Terra X, 13:56): The video asks what it was like to grow up under the Nazi dictatorship. The whole of society was to be brought into line, including young people; to achieve this, the Nazis relied on their own organisations, the Hitlerjugend and the Bund Deutscher Mädel. There, children and young people were not only educated but prepared for their future as soldiers; they were to be loyal to the Führer and the ‘national community’ rather than their families, and ready to fight and die for Nazi ideals. Girls were brought up to serve the Führer, support soldiers and have children. Many enjoyed this period of their lives; the influence worked beneath the surface. The video also shows that some young people refused to conform and resisted – and what consequences they faced.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "id": "k5-quellen",
+   "title": "Evaluating sources: what Hitler supposedly said about education (Extension)",
+   "body": "In many books and online, you will find a famous quotation in which Hitler supposedly describes the ‘violent, domineering, fearless, cruel youth’ he wanted. It fits perfectly with everything you have learnt in this module – and that is exactly why you should be suspicious.\n\nThe quotation comes from **Hermann Rauschning's** book **‘Gespräche mit Hitler’**, published in exile in 1939/40. Rauschning was a former Nazi from Danzig who had turned against the regime and claimed to have had many confidential conversations with Hitler. His book aimed to warn the world about Hitler – an understandable intention, but no proof that the conversations took place as described. The book was a worldwide success – it told readers what they expected to hear about Hitler.\n\nSince the 1980s, researchers have examined the book closely, and their conclusion is clear: Rauschning had met Hitler only briefly on a few occasions. The long ‘conversations’ were **constructed afterwards** – pieced together from newspaper reports, ‘Mein Kampf’, Hitler's speeches and Rauschning's own ideas, with some parts entirely invented. Historians therefore **no longer use the book as a source for Hitler's words**. The fact that the quotation about education still appears everywhere shows how persistently a good story survives – even without evidence.\n\nFor you, this means asking these questions about every quotation:\n\n1. **Who** is reporting it – and were they really there?\n2. **When** was it written down – immediately or years later?\n3. **Why** was it published – what was the author's intention?\n4. **What does current research say** about it?\n\nThe quotation from ‘Mein Kampf’ in the extension section of [[modul:nationalsozialismus-ideologie-propaganda]] passes the tests in questions 1, 2 and 4: Hitler wrote it himself and published it in 1925, and researchers have verified the wording – so it is authentic evidence of the views Hitler expressed publicly. Question 3 still applies to him: ‘Mein Kampf’ was a manifesto and a work of self-promotion, so we must also ask what Hitler intended his words to achieve. The Rauschning quotation, by contrast, fails the very first test. Only one is authentic – and even authentic sources need to be read critically."
+  },
+  {
+   "type": "tasks",
+   "id": "k5-tasks",
+   "title": "Further study: diary, song and source",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren",
+    "geschichte.methoden.quellen-beurteilen"
+   ],
+   "intro": "Your answers will be sent to your teacher. Tasks 1 and 2 are for everyone; tasks 3 and 4 are marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k5-t1",
+     "prompt": "Write a short diary entry (two to five sentences) by a 15-year-old girl in the BDM in 1939. She describes an evening group meeting about the ‘duties of the German woman’ – and wonders whether that is what she really wants. Write as an observer living at the time, rather than as a perpetrator.",
+     "hint": "What has the girl heard (housewife, mother of many children, a career only until marriage)? What might she still like about the BDM (friends, sport, camps)? Which wishes of her own do not fit that picture?",
+     "solution": "Example answer: ‘Today our leader explained that a German woman's most important duty was to have many children, and that a career was only for the time before marriage. Everyone nodded, including me. But I want to become a doctor; I always have. The summer camp was the best thing this year, and I do not want to lose my friends – yet I wonder why we, of all people, are not allowed to decide what becomes of us.’ (Any answer that identifies the educational aims for girls and expresses a personal doubt is valid.)"
+    },
+    {
+     "id": "k5-t2",
+     "prompt": "The Krupp steel quotation mentions only physique and toughness, while the HJ Flag Song presents dying for the flag as an honour. In two to four sentences, explain why a regime preparing for war would make young people hear and sing precisely this – and what part singing together played.",
+     "hint": "What must a soldier be prepared to do? Which qualities are missing from the quotation? What happens to an idea you have sung about together a hundred times – do you still think it, or do you feel it?",
+     "solution": "Example answer: A regime planning war needs soldiers who are tough, do not ask questions and are ready to die; this is why the quotation mentions only physique and toughness, rather than intellect or compassion. Years in advance, young people were trained to associate this readiness with honour and a sense of community. When singing together while marching in step, nobody examines the words – you feel strong and part of the group, and the message slips in unnoticed. In this way, a terrible idea became a pleasant feeling."
+    },
+    {
+     "id": "k5-t3",
+     "prompt": "(Extension) In three to five sentences, explain why Rauschning's ‘Gespräche mit Hitler’ is unsuitable as a source for Hitler's educational aims – and what could be used as a source instead.",
+     "hint": "Use the four questions for evaluating sources (Who? When? Why? What does current research say?). Which texts did Hitler write himself or deliver in public?",
+     "solution": "Example answer: Rauschning had met Hitler only briefly on a few occasions and did not publish the alleged conversations until 1939/40, while in exile; he had turned against the regime and wanted to warn people about Hitler, so he was not a neutral witness. Research has shown that the conversations were pieced together from other texts and partly invented. More reliable sources are Hitler's own texts and speeches – such as ‘Mein Kampf’ or his speech to the HJ in 1935 – and laws such as the Hitler Youth Law of 1936, because they document what the regime actually wanted and did."
+    },
+    {
+     "id": "k5-t4",
+     "prompt": "(Extension) Place the Weiße Rose among the forms of saying no that you have learnt about in this module. Compare it with Helmuth Hübener in three to five sentences: what did they have in common, and how did they differ (age, place, methods)?",
+     "hint": "Both groups distributed leaflets – what did they say, and who wrote them? Think about Hamburg or Munich, and whether they were teenagers or university students.",
+     "solution": "Example answer: Like Helmuth Hübener, the Weiße Rose represents the most confrontational level of saying no: distributing leaflets. Both secretly distributed leaflets against the regime and were executed for doing so. Hübener was only 16 when he began passing on BBC news in Hamburg; the Weiße Rose consisted of university students and a professor in Munich, whose own leaflets called for resistance to the regime and the war. Both cases show that people said no even under extreme pressure."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "k5-quiz",
+   "title": "Self-check: young people in the Nazi state",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.jugend-erklaeren",
+    "geschichte.methoden.spielfilm-einordnen"
+   ],
+   "intro": "Check whether you have understood the material. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "k5-q1",
+     "type": "single_choice",
+     "prompt": "What did the Hitler Youth Law of 1 December 1936 stipulate?",
+     "options": [
+      {
+       "text": "From then on, only children of party members were allowed to join the Hitlerjugend."
+      },
+      {
+       "text": "The Hitlerjugend was dissolved, and schools and teachers took over its duties."
+      },
+      {
+       "text": "All young people were to be educated in the HJ alongside their upbringing at home and school – it became the state youth organisation.",
+       "correct": true
+      },
+      {
+       "text": "Membership remained voluntary and was now only for boys aged 16 and over, not girls."
+      }
+     ],
+     "explanation": "The law made the HJ the third force in the upbringing of all young people, alongside home and school. Admission only for party members' children, dissolution or voluntary membership from 16 do not appear in the law – membership became compulsory in 1939 through compulsory youth service."
+    },
+    {
+     "id": "k5-q2",
+     "type": "single_choice",
+     "prompt": "When did membership of the Hitlerjugend become compulsory?",
+     "options": [
+      {
+       "text": "In 1939, when a decree required membership from the age of ten.",
+       "correct": true
+      },
+      {
+       "text": "In 1926, when the Hitlerjugend was founded as the party's youth organisation."
+      },
+      {
+       "text": "On 30 January 1933, the day of the Nazi takeover, through an emergency decree."
+      },
+      {
+       "text": "Not until 1943, when the Wehrmacht urgently needed recruits during the war."
+      }
+     ],
+     "explanation": "In 1936, the HJ became the state youth organisation; in March 1939, compulsory youth service made membership mandatory. In 1926, the HJ was a small organisation; in 1933, many joined voluntarily or under pressure; by 1943, almost everyone had long been a member."
+    },
+    {
+     "id": "k5-q3",
+     "type": "single_choice",
+     "prompt": "What was the Nazi state's educational aim for girls?",
+     "options": [
+      {
+       "text": "They were to become Wehrmacht officers and lead troops at the front."
+      },
+      {
+       "text": "They were to study at university and pursue careers in science and technology."
+      },
+      {
+       "text": "They were to work in industry, permanently replacing men."
+      },
+      {
+       "text": "They were to be healthy and obedient, becoming housewives and mothers of many children.",
+       "correct": true
+      }
+     ],
+     "explanation": "The aim was the ‘German woman and mother’: housekeeping, infant care and many children – rewarded with the ‘Mutterkreuz’ (Mother's Cross). Careers were seen only as a temporary stage before marriage; becoming an officer, studying at university or working in industry did not fit the picture, even though the war later forced women into factories."
+    },
+    {
+     "id": "k5-q4",
+     "type": "single_choice",
+     "prompt": "What was a ‘Napola’?",
+     "options": [
+      {
+       "text": "A Hitlerjugend party school that admitted boys without fees from 1937."
+      },
+      {
+       "text": "A state boarding school, established from 1933, intended to train a leadership elite through drill and sport.",
+       "correct": true
+      },
+      {
+       "text": "A youth concentration camp for young people who did not comply with the regime."
+      },
+      {
+       "text": "A Reichsarbeitsdienst camp where young men performed six months of compulsory labour."
+      }
+     ],
+     "explanation": "The Nationalpolitische Erziehungsanstalten were state boarding schools established from 1933, with selection, drill, sport and lessons – around 40 by 1945. The party school established from 1937 was the Adolf-Hitler-Schule; youth concentration camps (Moringen, Uckermark) and RAD camps were entirely different institutions."
+    },
+    {
+     "id": "k5-q5",
+     "type": "true_false",
+     "prompt": "The film ‘Napola’ (2004) tells the true story of two pupils whose lives happened exactly as shown.",
+     "answer": false,
+     "explanation": "False. Friedrich and Albrecht are fictional characters; the plot is invented and set against a historical background. Selection, drill, boxing and hierarchy are documented – the characters are not."
+    },
+    {
+     "id": "k5-q6",
+     "type": "single_choice",
+     "prompt": "Who were the Edelweißpiraten?",
+     "options": [
+      {
+       "text": "A special Hitlerjugend unit that practised mountaineering and climbing in the Alps."
+      },
+      {
+       "text": "A dance club in Hamburg where young people from middle-class families listened to banned swing music."
+      },
+      {
+       "text": "Scouts from Switzerland who visited young Germans during the holidays."
+      },
+      {
+       "text": "Young people in the Rhineland and Ruhr region who did not conform, organised their own trips and clashed with the HJ.",
+       "correct": true
+      }
+     ],
+     "explanation": "The Edelweißpiraten were groups of apprentices and young workers, mainly in Cologne, who stayed away from the HJ, organised their own trips and fought with the HJ-Streifendienst; the edelweiss flower was their identifying symbol. It was the Swing-Jugend in Hamburg who listened to swing; the Edelweißpiraten were neither an HJ special unit nor Swiss scouts."
+    },
+    {
+     "id": "k5-q7",
+     "type": "single_choice",
+     "prompt": "Who was Helmuth Hübener?",
+     "options": [
+      {
+       "text": "A Napola pupil from Berlin who left the school and was later killed in the war as a young officer."
+      },
+      {
+       "text": "A 17-year-old from Hamburg who distributed leaflets with BBC news and was executed in 1942.",
+       "correct": true
+      },
+      {
+       "text": "The Reich Youth Leader who wrote the lyrics of the HJ Flag Song and led the Hitlerjugend."
+      },
+      {
+       "text": "The composer who wrote the melody of the HJ Flag Song for a propaganda film of 1933."
+      }
+     ],
+     "explanation": "Helmuth Hübener secretly listened to the BBC, distributed the news on leaflets and was sentenced to death by the Volksgerichtshof – at the age of 17. Baldur von Schirach was the Reich Youth Leader and lyricist of the Flag Song, while its melody was written by a film composer. The description of the Napola pupil could fit many former pupils, but not Hübener."
+    },
+    {
+     "id": "k5-q8",
+     "type": "single_choice",
+     "prompt": "Why did the Hitlerjugend attract many young people – and why was that useful to the regime?",
+     "options": [
+      {
+       "text": "It paid its members wages that many families depended on during the crisis."
+      },
+      {
+       "text": "It was the only organisation where young people could learn reading, writing and arithmetic."
+      },
+      {
+       "text": "It offered trips, sport, community and responsibility – while training young people for obedience and war.",
+       "correct": true
+      },
+      {
+       "text": "It let young people decide for themselves whether to attend instruction sessions, service activities and camps."
+      }
+     ],
+     "explanation": "The HJ offered things that truly attracted young people – camps, trips, sport and responsibility through the principle ‘youth leads youth’ – while also acting as an instrument: it accustomed them to orders and obedience and prepared them for war. There were no wages, reading and writing were taught at school, and service was compulsory, not optional."
+    }
+   ]
+  }
+ ]
+}
