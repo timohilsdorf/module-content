@@ -1,0 +1,649 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:2404d0c3eefe5ae19c0985f9fbef8b40595c4e81e6df5e9806cd3ec3dcb1df80",
+   "text": "From prejudice to law: antisemitism and exclusion up to 1935"
+  },
+  "description": {
+   "quelle": "sha256:bfd528643547ef24f73f7a0e7ee1889652f7a1312b3742f8ed4668e4de6882ec",
+   "text": "Hatred of Jews is far older than National Socialism. You will learn how the religious anti-Judaism of the Middle Ages developed into racial antisemitism, why the ‘Protokolle der Weisen von Zion’ is a forgery, where Hitler's hatred of Jews came from, what purpose this enemy image served for the regime – and how exclusion began immediately in 1933."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Spaces, Times, Societies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Spaces, Times, Societies"
+  },
+  "einheit": {
+   "quelle": "sha256:f17191b49e747388ab6a7483a373c72e8e4ab6273e67b43ee78842244bcaa5c7",
+   "text": "National Socialism – dictatorship, persecution, remembrance"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:66c6821e4a374649013830fde4d863f60b78db86328f3ec777899c920f7ab1af",
+   "text": "antisemitism"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:5d9f71269defe56faba8f529cc4f94cbffdb5de8769a51d19ed7083543f9317c",
+   "text": "anti-Judaism"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:18b073c2959a55fc6161f871859d8883488291d2aa5502066c27d6a0bd529950",
+   "text": "hostility towards Jews"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:37c6bf786949bf39718796bdc748836b8d7da4c51e624127c5f8129882d47448",
+   "text": "Protokolle der Weisen von Zion"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:8efffa9e51bdd0eff7b471569f705150c406122786e36844fe1476a95d452fc8",
+   "text": "scapegoat"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:a8c13966d47f6dce1ccd59caa8b7addb31b836579eb9ba2edca14ca48441bb42",
+   "text": "stab-in-the-back myth"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:7a47ccda97ca892049e6225de8dba8bb3b65e4eafc17584c45673a73160d1f1e",
+   "text": "boycott of 1933"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:d1a8817ffd8712db0fc8c242f19f857c80bf1d63b803ecb8527192ab62fabf6b",
+   "text": "Aryan Paragraph"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:7e3171e466fde5b8c24c10b2a768bd6b632fdc52c148ba7641c8a0956b87611f",
+   "text": "National Socialism"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:cfa442c89265bd8e5f947405f718d7b32fb95b61ff876110a638727626f07c22",
+   "text": "I can distinguish religious anti-Judaism in the Middle Ages (Crusade pogroms in 1096, identifying clothing in 1215, plague pogroms in 1348–1350) from racial antisemitism from the 19th century onwards."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:9e1fb1dc53461986e06960e7e1b7e021b8e9fe2f5a87a1dea46e284bbb38eb85",
+   "text": "I can explain why the ‘Protokolle der Weisen von Zion’ is a forgery and how conspiracy myths and scapegoating are connected."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:52bde47009f5948b833b358a351f4777aaafd7674c281361701986fba7969ee2",
+   "text": "I can put Hitler's antisemitism in context: his account of Wien in ‘Mein Kampf’ compared with research findings (München, 1919) – and analyse the language of his letter of 1919."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:91551b682cc054fe41c783f23a84ba4c436e1b0bb834c4655cde1db8c9ecc3d3",
+   "text": "I can explain the role of the enemy image of ‘the Jew’ in the Nazi worldview and Nazi rule, and why it was self-contradictory (capitalism and communism at the same time)."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:6ee73e38b7251eb0b34c3a3668c71927c01a7a659c94683481800f0425b2bbdb",
+   "text": "I can describe how exclusion began in 1933: the boycott on 1 April, the ‘Aryan Paragraph’ on 7 April, bans on practising professions, and humiliation – and why this was an attack on equal rights for all people."
+  },
+  "learningObjectives[5]": {
+   "quelle": "sha256:20fc4bd80a8258a98ecbc9ba8a61da295d2d568e9edb9c222320332a9900f455",
+   "text": "(Extension) I can use the ‘Aryan Paragraph’ (‘of non-Aryan descent’) to explain why the idea of a ‘Jewish race’ made baptism and assimilation worthless as ways out, and what this meant for persecution."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:255ed1a560a4b72a0ca9fc495b69bffc0a547b05c20d47b90d940f91f5b19700",
+   "text": "Neighbours"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:622c2bc7f3f0334e5f91eb3ea73f7b20106e50eb0c6ca10a23665af12d147011",
+   "text": "In 1933, around 500 000 Jewish people lived in the German Reich – less than one per cent of the population. They were doctors and shopkeepers, teachers and workers, neighbours, classmates and fellow club members. Most spoke German as their first language, and many families had lived in the country for centuries. Around 100 000 Jewish men had fought as German soldiers in the First World War, and about 12 000 had been killed. They felt German – and they were.\n\nHow could neighbours become a group that was excluded, robbed and eventually murdered? The answer does not begin in 1933. In [[modul:nationalsozialismus-ideologie-propaganda]], you saw that antisemitism was at the heart of the Nazi worldview. This module explains where that hatred came from, why it was so useful to the regime and how exclusion began in the first weeks after the Nazi takeover. The next module in the series follows the path further: from the laws of 1935 to genocide.\n\nOne point before we begin: in this module, we look through the eyes of people observing events at the time and of those affected – not through the eyes of the perpetrators. And we call things by their name: prejudices are not opinions, but false claims about people."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:a2badc2e8098c642b10539cfc5bb9bc7b5490f6b21e841fcd305ba854233b4c5",
+   "text": "A long history: hostility towards Jews in the Middle Ages"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:45585120c3ea60acaf20fa9e29289f1a288f3d9b802081ee7134e91cf9fa5a99",
+   "text": "Jewish people had lived in Europe since Roman times – their presence in Köln is documented as early as 321, in a decree by Emperor Konstantin. Over the centuries, Jews and Christians often lived peacefully alongside one another as neighbours, trading partners, doctors and patients. But hatred was also present from the beginning, and initially it came from religion.\n\n## Religious anti-Judaism\n\nEarly Christian writers were already accusing ‘the Jews’ collectively (everyone without distinction) of killing Jesus – even though the Romans had executed him. This accusation of **‘killing God’** was preached for centuries. In the Middle Ages, further myths emerged that still have an impact today: claims that Jews killed Christian children (the **‘ritual murder’ myth**) or desecrated consecrated hosts, the blessed bread used in Christian Mass (**‘host desecration’**). Both were invented – yet they led to trials, torture and executions. These accusations and myths were used to justify hostility towards Jews on religious grounds. Hostility directed against the Jewish faith is called **anti-Judaism**.\n\n## Waves of violence\n\n- **1096**: On their way to the First Crusade, bands of crusaders and townspeople who had been incited to hatred attacked Jewish communities in the Rheinland, especially in Worms, Mainz and Köln. Hundreds died in both Worms and Mainz; in Speyer, the bishop saved most of the community. Thousands died overall. These were the first major **pogroms** in Christian Central Europe. A pogrom (a Russian word meaning ‘devastation’) is a violent attack by a crowd on a minority, involving looting, arson and murder.\n- **1215**: The Fourth Lateran Council, a Church assembly in Rom, ordered Jews to distinguish themselves from Christians through their clothing. Later, in many countries, this took the form of the pointed **‘Judenhut’ (Jewish hat)** and a yellow patch or ring on clothing. Remember the year: the idea of marking people with a sign on their clothes returned in the German Reich in 1941 with the yellow **‘Judenstern’ (Jewish star)** – the Nazi name for their compulsory badge. You will learn more about this in the next module.\n- **1348–1350**: As the plague swept through Europe and killed one in three people, people looked for someone to blame. Jews were accused of **poisoning wells** – an accusation without any evidence, often extracted under torture. In hundreds of towns and cities, including Basel and Straßburg, entire communities were murdered or burnt to death, sometimes even before the plague had arrived.\n\n## Exclusion and expulsion\n\nIn most towns, Jews were allowed neither to own land nor to join a **guild** (an association of craftspeople). The main occupations left to them were trade and lending money at **interest** (a fee for borrowed money). The Church prohibited Christians from charging interest; Jews were not bound by this prohibition. Moneylending therefore became one of the few occupations open to Jews. This is how the prejudice about ‘Jews and money’ arose: it followed from exclusion, not the other way round. People in debt often blamed an entire group. This was a pretext, not a justification – hatred targeted people who had been forced into this role, and pogroms were often also about loot and cancelling debts. Jews were expelled entirely from England (1290), Frankreich (1394) and Spanien (1492). In many towns, they had to live in enclosed districts that were locked at night – the word **‘ghetto’** comes from Venedig, where the first was established in 1516.\n\n> **Remember:** Religious anti-Judaism targeted **faith**. Anyone who was baptised was – at least in theory – no longer regarded as Jewish. This changed fundamentally in the 19th century."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:ff009d14aff90ef9cb46cfd02657079aae1bda0349aa3ce068c71186c9d347c6",
+   "text": "Timeline: hostility towards Jews in Europe from 1096 to 1933"
+  },
+  "blocks[2].szene.elemente[0].text": {
+   "quelle": "sha256:e5e762222817f9dd5a4fc923d9fd3911441a7c90f1e37faf8938b0c9f6c45843",
+   "text": "Hostility towards Jews in Europe: a long history"
+  },
+  "blocks[2].szene.elemente[1].text": {
+   "quelle": "sha256:e61e48be5e2a4fe7e9fdb2e7011b849c59190314034da1bef7b726804954d554",
+   "text": "Timeline, not to scale – colours show the periods: religious anti-Judaism, equal rights, racial antisemitism"
+  },
+  "blocks[2].szene.elemente[4].text": {
+   "quelle": "sha256:023f920f223fc6435b03a092b98a95498f8aabec79df6507ffb610ee3d265a1b",
+   "text": "1096\nFirst Crusade: Jews\nmurdered in the Rheinland"
+  },
+  "blocks[2].szene.elemente[8].text": {
+   "quelle": "sha256:a533b20b1bcab3fdb4aa07449bfc7ca9fb05e3afd839bae60595240f65bcd323",
+   "text": "1215\nCouncil: identifying\nclothing (Jewish hat)"
+  },
+  "blocks[2].szene.elemente[12].text": {
+   "quelle": "sha256:873d6b35d0530af9a542846eb206fde0bba56882048b0a0f4885a3155733e265",
+   "text": "1348–1350\nPlague: well-poisoning\naccusations, pogroms"
+  },
+  "blocks[2].szene.elemente[16].text": {
+   "quelle": "sha256:d3cecc9edc0dc0449e7efadb8ad8ffdb01af5eb7b5a09b0739c9e4d494469e62",
+   "text": "1492\nExpelled from Spanien –\nearlier England, Frankreich"
+  },
+  "blocks[2].szene.elemente[20].text": {
+   "quelle": "sha256:2bb3f489c9054fab4176deaeca719b700ff513ed76f14a931c6cb62a2b3c913d",
+   "text": "1516\nVenedig: first ‘ghetto’\n(compulsory Jewish district)"
+  },
+  "blocks[2].szene.elemente[24].text": {
+   "quelle": "sha256:35bdac45a864480a512065c44468273e2347edd39961401f629cb218e1211257",
+   "text": "1871\nEqual rights in\nthe German Reich"
+  },
+  "blocks[2].szene.elemente[28].text": {
+   "quelle": "sha256:56b61ee1db9716233359017d2d99a91e0bd8f66f7a65d1c1cc264f2e5b5c9977",
+   "text": "1879\nWilhelm Marr popularises\nthe word ‘antisemitism’"
+  },
+  "blocks[2].szene.elemente[32].text": {
+   "quelle": "sha256:17058b0236b462ab85e98a324095bd41a970957fb8a6f7912bd999ae81d97125",
+   "text": "1903\n‘Protokolle der Weisen\nvon Zion’ – a forgery"
+  },
+  "blocks[2].szene.elemente[36].text": {
+   "quelle": "sha256:8e1047c01fb7903678b165fef9ce6b9f8f62029482fc214c2192deb284346e4d",
+   "text": "1918/19\n‘Stab-in-the-back’ myth:\nlie of betrayal of the army,\nJews made scapegoats"
+  },
+  "blocks[2].szene.elemente[40].text": {
+   "quelle": "sha256:e1b955cb43008c7fbe70a2cdec2e66ece44a271758fa4154e73dfed188d22411",
+   "text": "1933\nJewish shops boycotted\n(1 April); ‘Aryan Paragraph’\n(7 April): Jewish civil\nservants dismissed"
+  },
+  "blocks[2].szene.elemente[44].text": {
+   "quelle": "sha256:a9666a1034b3c8fd5896d5617b116196ca71c432cd5cac07bb6a3784fe2e36e7",
+   "text": "Religious anti-Judaism: faith targeted – baptism seen as a way out"
+  },
+  "blocks[2].szene.elemente[46].text": {
+   "quelle": "sha256:27ea653adc0d04b362004814b4a8eb563c71628129895bfb561556a3985fa72c",
+   "text": "Equal rights\n(emancipation)"
+  },
+  "blocks[2].szene.elemente[48].text": {
+   "quelle": "sha256:a81070b03e66ae4ad2ff4374dd1080146fe6871128e782bc97f5e95344ba9d6a",
+   "text": "Racial antisemitism: alleged ‘race’ targeted – no way out"
+  },
+  "blocks[2].szene.elemente[50].text": {
+   "quelle": "sha256:0be2e0ea6610492177cd78d5546f3263641dbac19add19aa64884eeae66d96bc",
+   "text": "The Nazis did not invent hatred of Jews: they adopted centuries-old prejudices and the racial antisemitism of the 19th century, radicalised it and made it state policy from 1933."
+  },
+  "blocks[2].beschreibung": {
+   "quelle": "sha256:96b4e02bc39d8813284babffd0844bf9c107ed976c3d970c3470fdf8b9a25a6d",
+   "text": "Title: Hostility towards Jews in Europe: a long history. Subtitle: Timeline, not to scale; colours show the periods: religious anti-Judaism, equal rights, racial antisemitism. An arrow from left to right has ten stages, alternating above and below the line. Blue (religious anti-Judaism): 1096 First Crusade, murders of Jews in the Rheinland; 1215 Council, identifying clothing (Jewish hat); 1348 to 1350 plague, well-poisoning accusations, pogroms; 1492 expulsion from Spanien, previously England and Frankreich; 1516 Venedig, the first ghetto as a compulsory Jewish district. Green (equal rights, emancipation): 1871 equal rights in the German Reich. Orange (racial antisemitism): 1879 Wilhelm Marr popularises the word antisemitism; 1903 Protokolle der Weisen von Zion, a forgery; 1918/19 stab-in-the-back myth, lie of betrayal of the army, Jews made scapegoats; 1933 boycott of Jewish shops on 1 April and Aryan Paragraph on 7 April, Jewish civil servants dismissed. Three bands below the timeline: blue, religious anti-Judaism, faith targeted, baptism seen as a way out; green, equal rights (emancipation); orange, racial antisemitism, alleged race targeted, no way out. Key point below: the Nazis did not invent hatred of Jews. They adopted centuries-old prejudices and the racial antisemitism of the 19th century, radicalised it and made it state policy from 1933."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:96145680ebc92551ae60f2fbccf1b1b164d0a2a1bc4b9cb502d5237d016a97c5",
+   "text": "Two forms of hatred: anti-Judaism and antisemitism"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:dbc4243eb1f035a747d97b7a3a2ec7df76c88b6ea2bfe5536e8f2efe3f5fa547",
+   "text": "## Equal rights at last: emancipation\n\nIn the 18th and 19th centuries, the idea that all people should have equal rights slowly gained ground in Europe (the Enlightenment). This idea lies at the heart of **human rights**: they apply to everyone, regardless of origin or religion. Step by step, Jewish people gained civil rights – this is called **emancipation** (equal rights). In the German Reich, legal equality was completed in 1871: Jews could enter any profession, study at university, vote and hold public office. In practice, barriers remained, for example to careers as military officers. Nevertheless, many seized the opportunity and helped shape life in towns and cities – as doctors, lawyers, scientists, artists, shopkeepers and journalists.\n\n## A new hatred: racial antisemitism\n\nAt precisely this time, a new form of hostility towards Jews emerged. In 1879, the journalist **Wilhelm Marr** popularised the word **‘antisemitism’** – it sounded scientific and was intended to make the old hatred look modern. (The word is misleading: ‘Semites’ actually refers to a language family that includes Hebrew and Arabic, but only Jews were ever meant. Nevertheless, ‘antisemitism’ remains the usual specialist term; more simply, you can say ‘hatred of Jews’.) Antisemitic parties and associations gained supporters in the German Empire, but remained a minority.\n\nThe crucial difference from religious anti-Judaism was that Jews were now regarded not as a religious community, but as an alleged **‘race’** with inherited, unchangeable characteristics. This left no way out – baptism, assimilation, patriotism: nothing ‘helped’. The Nazis adopted precisely this idea in their ‘racial doctrine’, which you know from [[modul:nationalsozialismus-ideologie-propaganda]].\n\n| | Religious anti-Judaism | Racial antisemitism |\n| --- | --- | --- |\n| **Period** | mainly antiquity, the Middle Ages and the early modern period | from the late 19th century |\n| **Accusation** | wrong faith (‘killing God’, myths) | allegedly an ‘inferior race’, inherited characteristics |\n| **Way out** | baptism (in theory) | none – ancestry ‘counts’ |\n| **Promoted by** | Church, townspeople, rulers | associations, parties, newspapers – from 1933, the state |\n| **Consequences** | exclusion, expulsion, pogroms | loss of rights, persecution, genocide |\n\nThe boundary was blurred: anti-Jewish religious prejudices did not disappear in the 19th century, and the Nazis revived old myths – in 1934, the hate-filled newspaper ‘Der Stürmer’ even spread the invented ‘ritual murder’ myth.\n\n> **Remember:** Anti-Judaism targets Jewish people because of their faith; antisemitism targets them because of their alleged ancestry. Both are hatred of Jews – but racial antisemitism leaves no way out."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:3357c2f500555b3eb9647c19ca90c59b78bae44ba9da4fa70a7384ed4ea11844",
+   "text": "A forged book and a myth: conspiracy myths"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:094f31ee15638f5645dbfd2bd628275b2ba8650f6fa5c4cd8836b969f28be65c",
+   "text": "## The ‘Protokolle der Weisen von Zion’\n\nAt the beginning of the 20th century, a text appeared in Russland that supposedly contained secret minutes of meetings of Jewish ‘elders’: plans to seize world domination through banks, the press and revolutions. All of it was invented. The **‘Protokolle der Weisen von Zion’** is a **forgery**, pieced together from older texts – including a French satirical pamphlet against Emperor Napoleon III that had nothing to do with Jews. The British newspaper ‘The Times’ demonstrated this as early as 1921. Nevertheless, the book was translated into many languages and printed in millions of copies; the Nazis used it as ‘proof’ of a Jewish world conspiracy.\n\nIn Bern in 1933, Jewish communities sued people distributing the ‘Protokolle’. The court heard expert witnesses and concluded in 1935 that the text was a forgery. (A higher court overturned the verdict in 1937 on procedural grounds – not because the book was authentic.) This did little to help: the ‘Protokolle’ remains in circulation today.\n\nWhy did so many people believe it? A **conspiracy myth** offers a simple explanation for a complicated world: a secret enemy is behind everything. This comes as a relief – there is no need to think any more, only to hate. And it cannot be disproved in believers' eyes: every piece of evidence against it is treated as part of the conspiracy.\n\n## The ‘stab-in-the-back myth’\n\nAfter the defeat in the First World War, military leaders around Hindenburg and Ludendorff and right-wing politicians claimed that the German army had remained ‘undefeated in the field’. It had supposedly been betrayed from home – by Social Democrats, revolutionaries and ‘the Jews’ – through a **‘stab in the back’**. In fact, the war had been lost militarily by autumn 1918; the generals themselves had pressed for an armistice. The myth shifted the blame away from them – and made Jews **scapegoats**.\n\nThe word comes from the Old Testament (3. Buch Mose): a goat was loaded with the people's sins and sent into the wilderness. A scapegoat is someone blamed for problems they did not cause. During the crises of the Weimar Republic – inflation in 1923 and the Great Depression from 1929 ([[modul:weimar-wirtschaftskrise-nationalsozialismus]]) – this pattern repeatedly gained new followers: people who were suffering looked for someone to blame, and propaganda supplied them with a target.\n\n> **Remember:** Conspiracy myths and scapegoating go together: an invented story supplies someone to blame, and that person or group explains every crisis. No evidence is needed – only repetition."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:205c376e70c0568aed3b75dd65422c601a08ade5564cc860e70a8c8d02991e50",
+   "text": "Forms of hostility towards Jews at a glance"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Be careful:** three words in the selection do not fit anywhere."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:38cd2dee1e56a2ab859b3dc3c6f739212e3a686caa2b8343500c966695710dbc",
+   "text": "Where did Hitler's hatred of Jews come from?"
+  },
+  "blocks[6].body": {
+   "quelle": "sha256:7952a10fd237f8b84fbab79d3ab910f8531852eeda0d076e1e6aaae775713f39",
+   "text": "Adolf Hitler lived in Wien from 1908 to 1913. Hostility towards Jews was part of everyday political life there: the popular mayor Karl Lueger incited hatred against Jews in his speeches, while the politician Georg von Schönerer combined hatred of Jews with the dream of a Greater German Reich. In ‘Mein Kampf’ (1925), Hitler claimed that he had become an antisemite in Wien.\n\nMost researchers take a different view. The historian **Brigitte Hamann** studied Hitler's years in Wien closely: at the time, he had Jewish acquaintances and sold his paintings through Jewish dealers; there is no documented evidence of radical hatred of Jews from this period. His account in ‘Mein Kampf’ is **self-presentation** – he wanted to portray his hatred as an early ‘insight’, rather than the product of a crisis.\n\nHitler's radical antisemitism is documented only **from 1919 in München** – after defeat in the war, after the revolution of 1918/19 (uprisings forced the Kaiser to abdicate in November 1918) and after the short-lived Münchner Räterepublik (a revolutionary government modelled on Russia's, which was ended by armed force in May 1919). Hitler was then moving in circles of **völkisch** (extremely nationalist and racist) groups.\n\nThe first written evidence is a letter dated 16 September 1919 to a soldier named Adolf Gemlich. At the time, Hitler worked as a speaker for the Reichswehr (the republic's army). In the letter, he distinguishes two types of antisemitism: one arises ‘from purely emotional motives’ and ends in pogroms. He calls the other ‘antisemitism of reason’; it must lead to a ‘systematic legal campaign’ against Jews. At the end, he states the aim:\n\n> ‘Its ultimate goal, however, must unalterably be the removal of the Jews altogether.’\n>\n> — Adolf Hitler, Brief an Adolf Gemlich, 16. September 1919\n\nFor context: in 1919, Hitler was an unknown soldier, and the letter was a reply to an enquiry – it shows how Hitler thought at the time, not what happened later. The letter does not say what ‘removal’ was meant to involve. What stands out is the idea of pursuing hatred of Jews not only through angry violence, but ‘systematically’ and ‘legally’. In policy from 1933 onwards, you find both: laws excluding Jewish people, alongside open violence that the state tolerated or organised itself.\n\n**Your task:** read the sentence from the letter carefully and pay attention to the language. How does the word ‘removal’ sound – and what does it turn the people concerned into? Make a note of your answer; you will need it in the further study section at the end of the module (task 3). You will encounter this cold language again in the next module.\n\n> **Remember:** Hitler's hatred of Jews was not innate, nor simply a ‘legacy of Wien’. It grew during the crisis after 1918 – from the same patterns you have learnt about above: scapegoating and conspiracy myths."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:46767e5e39c446abf3a89469bd06235c8644fdfbf4e32af84323b3f0a5a1acf5",
+   "text": "One enemy for everything: the role of the enemy image"
+  },
+  "blocks[7].body": {
+   "quelle": "sha256:0006a948f5a96ef8555d501837786e3a7dd9df568f06290bf0df6d0f75f505ca",
+   "text": "## In the worldview: one enemy explains everything\n\nFor the Nazis, history was an eternal **‘racial struggle’** – an alleged struggle between ‘races’ for survival. In this worldview, ‘the Jew’ – always singular, as if referring to a single being – was the arch-enemy behind everything bad: the defeat of 1918, the Treaty of Versailles, capitalism (the Nazi term was ‘Finanzjudentum’, meaning ‘financial Jewry’) and, at the same time, communism (the Nazi term was ‘Jewish Bolshevism’).\n\nDo you notice anything? Capitalism and communism are opposites: one is based on private ownership of factories, banks and land, and on profit; the other seeks to transfer that property into common ownership. An enemy image that claims to explain both at once is self-contradictory – and nobody has ever provided evidence for it. This shows that facts are not the point: what matters is a scapegoat who must fit every problem. **Remember this contradiction – you will need it shortly in the matching exercise, the self-check and the further study section.**\n\n## For those in power: one enemy creates unity\n\nThe enemy image was more than a worldview: it was **useful for holding on to power**:\n\n- **Unity:** A shared enemy binds people together. The ‘national community’ ([[modul:nationalsozialismus-ideologie-propaganda]]) also defined itself through who did not belong.\n- **Distraction:** Those who blame ‘the Jews’ for unemployment and crisis do not have to discuss the real causes – or their own mistakes.\n- **Enrichment:** Those who deny Jews the right to own property can take it for themselves. **‘Aryanisation’** was the Nazi state's term for the forced sale of Jewish shops, businesses and houses to ‘Aryan’ buyers at far below their value. ‘Aryan’ was the Nazi term for people supposedly ‘of German blood’, meaning non-Jewish; it drew on the invented notion of ‘Aryans’ in ‘racial doctrine’. Many Germans benefited: competitors, neighbours and employees who moved up.\n- **Infallibility:** If something went wrong, an enemy was to blame. This meant the ‘Führer’ was always right.\n\n> **Remember:** The Nazis did not invent hatred of Jews. They radicalised centuries-old prejudices and made them state policy – and many people joined in, benefited or remained silent."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:172c779e7024042e45c8fbcccf15b34e868c0ca1b307f171a6735041e053ad32",
+   "text": "Claim and purpose"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:bf3868f2e0537c9d3a4d8e23885b9532f03c343f62f1d70326a903c3ce77cd2c",
+   "text": "On the left are slogans and claims paraphrased from the kinds of statements found in Nazi speeches and newspapers – they incite hatred and contain false claims about people. Match each claim to its role in the Nazi worldview or in maintaining power. Tap one item on the left and one on the right."
+  },
+  "blocks[8].paare[0].links.text": {
+   "quelle": "sha256:3afc10b64b026ac312985b30bc00464522f96689cc5656ddb3b673b775937145",
+   "text": "‘The Jews stabbed the army in the back in 1918.’"
+  },
+  "blocks[8].paare[0].rechts.text": {
+   "quelle": "sha256:909b81bf9bd099a846f487d023ae6243502690e07f0762ab64d9f7d9d253c333",
+   "text": "Scapegoating for defeat in the war – the military leadership appears blameless"
+  },
+  "blocks[8].paare[1].links.text": {
+   "quelle": "sha256:c97cabbe07aa2f5d24354a6acf05a92eec4a0a60d00410c9b44c4a1cb20b9d94",
+   "text": "‘The Jews are behind the banks – and behind communism too.’"
+  },
+  "blocks[8].paare[1].rechts.text": {
+   "quelle": "sha256:1a5286b28f1161e1fa9c581e5f439c95859c24ab7fec76d71c4fffa83d42f2d2",
+   "text": "One enemy image for opposing systems – a sign that facts are not the point"
+  },
+  "blocks[8].paare[2].links.text": {
+   "quelle": "sha256:e92e3da5e780ba04e18c9e035851cee2d3e007198a282b92b145a53eca1ecfcf",
+   "text": "‘Jewish shops belong in German hands.’"
+  },
+  "blocks[8].paare[2].rechts.text": {
+   "quelle": "sha256:de6131d4092bc39042b6b318c54d804440a502b4f4b56f421b37ad86fd4f5ac8",
+   "text": "Enrichment – a pretext for the ‘Aryanisation’ of Jewish property"
+  },
+  "blocks[8].paare[3].links.text": {
+   "quelle": "sha256:e47d27a12fb1a11753a0a77926be8e4356ffd0f68a765bc865cb955cea7e0b19",
+   "text": "‘All Germans must stand together against this enemy.’"
+  },
+  "blocks[8].paare[3].rechts.text": {
+   "quelle": "sha256:14df40182dcff3621c2c9c484dce9984fb242f69551a7bbaabbeb93d09dc2186",
+   "text": "Uniting the ‘national community’ through a shared enemy"
+  },
+  "blocks[8].paare[4].links.text": {
+   "quelle": "sha256:4b1011e4838f6a4c7ca0795906dfebe565c4ac256d6ab1243d9d5a9b1d7f165a",
+   "text": "‘The Jews are to blame for unemployment and hardship.’"
+  },
+  "blocks[8].paare[4].rechts.text": {
+   "quelle": "sha256:79d57da48f9f35117da3a1764a4c9c6d857e7f7eefcbd7481b963d36aa4b7942",
+   "text": "Distracting from their own mistakes and the real causes of the economic crisis"
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:82a2de5d83fe1213ea81a21684edec6cb916914b9b3632e2b4bbb61d6f028099",
+   "text": "1933: exclusion begins immediately"
+  },
+  "blocks[9].body": {
+   "quelle": "sha256:eb5c74dac9f514de67dd0444dc164f8648b04ca25d5629e3604b3b630782f602",
+   "text": "As soon as they came to power, the Nazis began excluding Jewish people – not at some later date, but in the very first weeks, alongside the dismantling of democracy ([[modul:nationalsozialismus-machtuebernahme-1933]]).\n\n## 1 April 1933: the boycott\n\nOn Saturday, 1 April 1933, SA men stationed themselves outside Jewish shops, doctors' surgeries and law firms across the country. They held signs with slogans such as ‘Germans! Defend yourselves! Do not buy from Jews!’, painted messages on shop windows and photographed anyone who went in anyway. The party called the boycott a ‘defence’ against alleged ‘atrocity propaganda’ from abroad. It used this Nazi term to dismiss foreign newspaper reports about SA violence in Germany as lies and to blame Jewish Germans for them. This was a pretext: the boycott was intended to exclude Jewish people in their own country. Officially, it lasted one day, and some customers made a point of continuing to shop there. But the message had got through: the government backed the party's action, the police did not intervene – the state let it happen.\n\n## 7 April 1933: the ‘Aryan Paragraph’\n\nSix days later came the first anti-Jewish law: the ‘Gesetz zur Wiederherstellung des Berufsbeamtentums’ (Law for the Restoration of the Professional Civil Service). Its § 3, the so-called **‘Aryan Paragraph’**, stipulated that civil servants ‘of non-Aryan descent’ were to be retired. Jewish teachers, judges, professors and administrative officials lost their jobs. At Reich President Hindenburg's insistence, there were initially exceptions for First World War front-line veterans, civil servants who had been in service since August 1914, and those whose fathers or sons had been killed in the war – these exceptions, too, were abolished in 1935.\n\nThe ‘Aryan Paragraph’ became a model: similar rules soon applied to doctors (approval to treat patients covered by health insurance funds), lawyers, journalists and artists. A law of 25 April 1933 limited the number of Jewish pupils and students in schools and universities. Associations, sports clubs and professional organisations excluded Jewish members. On 10 May 1933, students in many university towns burnt books by Jewish, left-wing and pacifist authors. Those who stayed were watched, shunned and insulted. Around 37 000 Jewish people left Germany in 1933 alone.\n\n## Humiliation in the streets\n\nThere was also violence that went unpunished. SA and SS men drove people through the streets with signs hung around their necks, cut off their hair and forced them into degrading acts – often because of a relationship between Jews and non-Jews, which was even banned from 1935. One example of such humiliation was the lawyer **Michael Siegel** from München. On 10 March 1933, he went to the police to speak up for a client who had been arrested. Uniformed men serving as auxiliary police officers – SS men, according to current research – beat him, cut off his trouser legs, hung a sign around his neck and drove him barefoot through the city centre. A photographer captured the scene, and the picture went around the world. Siegel remained in Germany for several more years; in 1940, he managed to escape to Peru, where he died in 1979.\n\n## How did those affected respond?\n\nMany hoped the nightmare would pass – after all, they were German and had fought for their country. The Reichsbund jüdischer Frontsoldaten publicly recalled the 12 000 who had fallen. Others recognised early on that there was no going back and emigrated, often losing almost everything they owned. And the non-Jewish majority? Some helped, continued to shop at Jewish businesses and kept in touch. Most looked away and grew used to what was happening – or took advantage of the jobs, practices and shops that had become available.\n\nIn the following years, pressure became part of everyday life: signs such as ‘Jews not welcome’ appeared at the entrances to many towns and villages, the hate-filled newspaper ‘Der Stürmer’ was displayed in public noticeboards, and swimming pools and clubs excluded Jewish people. In the summer of 1935, the incitement intensified again – a prelude to the laws of September.\n\n> **Remember:** From 1933 to 1935, exclusion became normal: boycotts, bans on practising professions, exclusion from clubs and humiliation in the streets. This was state-led **discrimination**: people were treated worse because they belonged to a particular group, and the state took back the civil rights they had held since 1871 – an attack on the principle of equal rights for all people, and therefore on human rights. There was not yet a ‘racial law’ legally reducing Jewish people to second-class citizens – that came in September 1935 with the Nuremberg Laws, the subject of the next module."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:6681373888ba24c7e06bdb3479f98ec467bf0990b018f460dbe91abb8b4b9dc8",
+   "text": "A long history: putting events in chronological order"
+  },
+  "blocks[10].intro": {
+   "quelle": "sha256:0b6c95e7bc3062af23bb2746e77485c6bf45c5d2714e938fe62dab30f231fbed",
+   "text": "Put the eight events in the correct chronological order: drag each card to a position from 1 (first) to 8 (last) – or tap the card, then the position. Only the order is assessed."
+  },
+  "blocks[10].x.beschriftung": {
+   "quelle": "sha256:89071d89eefd140546860f8c4b61ff3d05323940abbeeccf3d8eb137dd5a0542",
+   "text": "Order (1 = first, 8 = last)"
+  },
+  "blocks[10].elemente[0].text": {
+   "quelle": "sha256:9d948f55a43fcdb575a6d3fc56a4ef39288493c493959fb8a0293b9ba5efd590",
+   "text": "The ‘stab-in-the-back myth’ scapegoats Jews for the defeat"
+  },
+  "blocks[10].elemente[1].text": {
+   "quelle": "sha256:e0ee9a84b98062143b399ee96c9eef55e89b83374f71f1c8a7a338ee4251b2bb",
+   "text": "Bands of crusaders attack Jewish communities in the Rheinland"
+  },
+  "blocks[10].elemente[2].text": {
+   "quelle": "sha256:3b546f305c8aae870dbadab0281f409c55d6c14e4b797174d4ec8d52a11aca1a",
+   "text": "Wilhelm Marr popularises the word ‘antisemitism’"
+  },
+  "blocks[10].elemente[3].text": {
+   "quelle": "sha256:bbb217e98029c32f9704f6077671d46858cc8d9a8b5d41d9087fa95c56afd6b5",
+   "text": "A Church council orders Jews to wear identifying clothing"
+  },
+  "blocks[10].elemente[4].text": {
+   "quelle": "sha256:36ea675c316f621784a61541954fe34ed773721c38b542ee3dfb3f52d2b7fce8",
+   "text": "SA guards outside Jewish shops: the boycott"
+  },
+  "blocks[10].elemente[5].text": {
+   "quelle": "sha256:a34ab1e630baaee1672b86b5c7de0fb726e226e18f7c040a9327b5effa70c602",
+   "text": "During the plague, Jews are accused of poisoning wells"
+  },
+  "blocks[10].elemente[6].text": {
+   "quelle": "sha256:03e91e1f467b9978363421812d9ea662b0c5c8a4f3f38995904b8a224db2726a",
+   "text": "The forged ‘Protokolle der Weisen von Zion’ appears in Russland"
+  },
+  "blocks[10].elemente[7].text": {
+   "quelle": "sha256:8a2ed0818bf567a6321cc081541c4aa29f9f88cbac5daf609aa92a31e1528662",
+   "text": "Jewish people gain legal equality in the German Reich"
+  },
+  "blocks[11].title": {
+   "quelle": "sha256:637b54f63343c1b82d9212d06dd87a2bf7085d617afffa302d78c7a2c986f501",
+   "text": "Optional extra: video ‘Judenhass: Die lange Geschichte’ (12:38)"
+  },
+  "blocks[11].description": {
+   "quelle": "sha256:c0eed38e757f5ac191c2162bcb0ceda9c405cfb9dcf4dce683edb7f9574d614a",
+   "text": "This video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in this module's texts. If you watch it (internet access required; it only starts when you click), focus on two guiding questions: (1) During which crises were Jews repeatedly made scapegoats – and what did those crises have to do with them? (2) What changed in the 19th century when hatred of Jews became a question of ‘race’?"
+  },
+  "blocks[11].transcript": {
+   "quelle": "sha256:bd1cb155fd470b1d3c1c0df74bcecd87a3734ded65c5964bc54f701c38439de3",
+   "text": "Summary of the video ‘Judenhass: Die lange Geschichte’ (MrWissen2go Geschichte | Terra X, 12:38), following the video's content and chapters: The video asks what first comes to mind when you hear ‘antisemitism’ – the attack on the synagogue in Halle in 2019 or the Holocaust – and shows that hatred of Jews is thousands of years old. Chapters in the video: antisemitism in antiquity (the earliest Christians already collectively accused Judaism of murdering Jesus); Crusades and the first pogroms from 1095 (the call for the First Crusade came in 1095, followed by the pogroms along the Rhein in 1096; prejudices persisted for centuries and were further fuelled; particularly in times of crisis – natural disasters, diseases such as the plague, lost wars – Jews were unjustly made scapegoats; the Christian majority expelled, excluded and discriminated against them, and hatred turned into pogroms; at the same time, Jews and Christians also lived peacefully together for long periods); Jewish emancipation in the 18th century; racial antisemitism in the 20th century (the ‘racial doctrine’ of the 19th century gave hatred of Jews a new dimension, reaching its horrific culmination in the Holocaust, called the Shoah in Hebrew, with the murder of more than six million Jews); antisemitism after 1945 (it has not been overcome; antisemitic attacks increased again during the coronavirus crisis). The video's sources include Wilhelm Marr's text of 1879 and Martin Luther's hate-filled pamphlet of 1543."
+  },
+  "blocks[12].title": {
+   "quelle": "sha256:458b0f59bc04194e3f7fff704cfbe89b6c89d7d0cc218568ef120bb304d6ecd4",
+   "text": "Self-check: antisemitism and exclusion"
+  },
+  "blocks[12].intro": {
+   "quelle": "sha256:027725333c506881c751d5b9dcc0c73cc7862ad2f1be311929fc8a618a402002",
+   "text": "Check whether you have understood the material. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[12].questions[0].prompt": {
+   "quelle": "sha256:dea779892592dc30d2ac48521e9904dd2c307023b1502c462c8a0bbfbc93478a",
+   "text": "What distinguishes racial antisemitism from religious anti-Judaism?"
+  },
+  "blocks[12].questions[0].options[0].text": {
+   "quelle": "sha256:131df2f709ecab354774eb82b4dd3b1e79e40ecf92625d7a0847a7c42c4fa7bd",
+   "text": "It mainly targeted Jews in Eastern Europe, whereas anti-Judaism mainly targeted Jews in the German Reich."
+  },
+  "blocks[12].questions[0].options[1].text": {
+   "quelle": "sha256:67cbdb64ace45aa680378e3dbbac198873e034b6050d0ca5d0c4ceaceed2e41a",
+   "text": "It defined Jews as an alleged ‘race’, so baptism or assimilation no longer counted as ways out."
+  },
+  "blocks[12].questions[0].options[2].text": {
+   "quelle": "sha256:06964750a258cda8fbac1cf8d9de2902a3d4afefbb6a7351904abc6d62508211",
+   "text": "It was less dangerous because it respected the Jewish faith and did not seek to exclude Jews."
+  },
+  "blocks[12].questions[0].options[3].text": {
+   "quelle": "sha256:775d2238740ea72a7c72e196588b84ca77b3a63aaf0a8fa1d6fbba96824e4bf1",
+   "text": "It emerged in the Middle Ages, whereas religious anti-Judaism only appeared in the 19th century."
+  },
+  "blocks[12].questions[0].explanation": {
+   "quelle": "sha256:4863fc8cfcf3330b92b95579636f1ab0d8bceb4beef6912f59358f2717ddfeee",
+   "text": "Religious anti-Judaism targeted faith; racial antisemitism, from the late 19th century, targeted alleged ancestry – which meant there was no longer a way out. It was not less dangerous: faith no longer mattered at all, and from 1933, prejudice became state persecution. Both forms existed throughout Europe, and the order is the other way round: anti-Judaism came first."
+  },
+  "blocks[12].questions[1].prompt": {
+   "quelle": "sha256:4c4e83a5ee347d79f7cd04980ae250015bd36cdcd808346a548ca1da2bfa488c",
+   "text": "What did the Fourth Lateran Council order in 1215?"
+  },
+  "blocks[12].questions[1].options[0].text": {
+   "quelle": "sha256:139a22894c41a1ce93b928f9c7f4b2af660a70aa00e144a94a3bf665aa66448e",
+   "text": "Jews were no longer allowed to own land and had to leave towns and cities."
+  },
+  "blocks[12].questions[1].options[1].text": {
+   "quelle": "sha256:dc38b4f9c2404fad231708310c89c3368d06e1efe871a94b0e9173bbb5ca681b",
+   "text": "Jews were granted the same rights as Christians in all Christian countries."
+  },
+  "blocks[12].questions[1].options[2].text": {
+   "quelle": "sha256:9e718ecec0f6487a4b408c1757e1df17d439be69179c968e32f2c9b7aa95d56b",
+   "text": "Jews had to convert to Christianity or face expulsion."
+  },
+  "blocks[12].questions[1].options[3].text": {
+   "quelle": "sha256:faee501dee474a7259b06e03515238526f88b045c406cb23a411c9d42e358da9",
+   "text": "Jews had to distinguish themselves from Christians through clothing, such as a hat."
+  },
+  "blocks[12].questions[1].explanation": {
+   "quelle": "sha256:f3812f3b5dd2ebef7ee008ab622df6d9fa51f6b939e1288f3def4f003b6ad04e",
+   "text": "The Council required identifying clothing; this developed into the Jewish hat and the yellow patch. Bans on owning land applied in many towns, but did not originate with this Council; expulsions and forced baptisms also occurred, but not as a result of this decree. Equal rights came only in the 19th century."
+  },
+  "blocks[12].questions[2].prompt": {
+   "quelle": "sha256:b81d0d5f5ff39a00f741ada22eb0f71ee0ea849ec8113219e81b29ac7f34d641",
+   "text": "What is the ‘Protokolle der Weisen von Zion’?"
+  },
+  "blocks[12].questions[2].options[0].text": {
+   "quelle": "sha256:0f0b39889bd8e776ca56fe2152c30914eb4c36280d93236ec902c696b56383b5",
+   "text": "A forgery alleging a Jewish world conspiracy, found to be a forgery by a court in Bern in 1935."
+  },
+  "blocks[12].questions[2].options[1].text": {
+   "quelle": "sha256:966b490c5b182733547e30a3ca67c9e6b186bad412b3efb4954d74571880a271",
+   "text": "Authentic minutes of meetings of Jewish communities in Russland, published without permission in 1903."
+  },
+  "blocks[12].questions[2].options[2].text": {
+   "quelle": "sha256:6e1b1dbbbbee322d8a688a049cbdaa0cf43b0a42f920fa1957e71e9f66e71cf0",
+   "text": "A law code of the German Reich from 1871 that regulated legal equality for Jews."
+  },
+  "blocks[12].questions[2].options[3].text": {
+   "quelle": "sha256:0c21a92ac386f1d8aba87bb22c5456cfbe15493766ae0e651f33c76a1a9ad74f",
+   "text": "A report in ‘The Times’ from 1921 about Jewish life in the cities of Russland."
+  },
+  "blocks[12].questions[2].explanation": {
+   "quelle": "sha256:e24749c3bb67ba80c6d82170af6ea20aab775314df3308b9ccc1e703eb48894f",
+   "text": "The ‘Protokolle’ is a forgery based on older texts, exposed by ‘The Times’ in 1921 and found to be a forgery by the court in the Bern trial of 1935. It is neither genuine minutes, a law code nor a newspaper report."
+  },
+  "blocks[12].questions[3].prompt": {
+   "quelle": "sha256:969803a2640a6094b3727e0f29de8adaef6393d1e08bd22b1a94772695062b2f",
+   "text": "The Nazis invented hatred of Jews."
+  },
+  "blocks[12].questions[3].explanation": {
+   "quelle": "sha256:650033c15e8bf31db678cb443bf2e0fe7620bd0d0ea88169122e5e5f6bb01b9f",
+   "text": "False. Hostility towards Jews had existed since antiquity and throughout the Middle Ages; racial antisemitism emerged in the 19th century. The Nazis radicalised these prejudices and made them state policy from 1933."
+  },
+  "blocks[12].questions[4].prompt": {
+   "quelle": "sha256:2d0490ad180ad98306a5454ccf5293e6fc17c67325a1ebf2c4b49f827bad20dd",
+   "text": "Why is an enemy image that blames Jews for both capitalism and communism self-contradictory?"
+  },
+  "blocks[12].questions[4].options[0].text": {
+   "quelle": "sha256:418600513f6dfa9f6061a34cfdd6dc52a3d1f29956ae35984aa0be771902ca6d",
+   "text": "Because capitalism and communism did not yet exist during the Weimar Republic."
+  },
+  "blocks[12].questions[4].options[1].text": {
+   "quelle": "sha256:7fdf0734ab2c573e191320b12bc4297988cde2fda8465168ff0b86c762d50ade",
+   "text": "Because the Nazis were themselves communists and also supported the major banks."
+  },
+  "blocks[12].questions[4].options[2].text": {
+   "quelle": "sha256:9b9a5f8fd5dd8d9e7b5e266841e8802287ba5a43d24a4794a233635dedb72b3c",
+   "text": "Because the two are opposites: blaming one enemy for both means seeking a scapegoat, not facts."
+  },
+  "blocks[12].questions[4].options[3].text": {
+   "quelle": "sha256:c950f4383f87901bcb2be2b100ce7fd8151c30fe2d4c37115496a0a67adbeef5",
+   "text": "Because Jews in the German Reich were allowed to work neither in banks nor in political parties."
+  },
+  "blocks[12].questions[4].explanation": {
+   "quelle": "sha256:046783d16226647a8a9384c29dbc267647effe2ec18b5382b6e60eb0a351efae",
+   "text": "Capitalism is based on private ownership of factories, banks and land; communism seeks to manage that property collectively. The claim that one group controls both at once is wholly implausible and has never been supported by evidence. The contradiction shows that the enemy image was meant to fit every problem. Both systems existed at the time, the NSDAP was not a communist party, and Jews worked in all professions until 1933."
+  },
+  "blocks[12].questions[5].prompt": {
+   "quelle": "sha256:28ae3218a412dc70e37e4c88d795e758130015d13d9d555dcce08a120f9e4f7d",
+   "text": "What happened on 1 April 1933?"
+  },
+  "blocks[12].questions[5].options[0].text": {
+   "quelle": "sha256:109dc4e71d94ddd788eb1c55244688949d43db29ebf9013ed59dbf7ce7853a58",
+   "text": "SA guards stood outside Jewish shops and practices, preventing customers from entering."
+  },
+  "blocks[12].questions[5].options[1].text": {
+   "quelle": "sha256:b17dc3ddde21fabbadc7b90c98ed7c3bc7bbbf6e830b499c52246a34f93ee5ec",
+   "text": "The Reichstag passed the Nuremberg Laws and stripped Jewish people of the right to vote."
+  },
+  "blocks[12].questions[5].options[2].text": {
+   "quelle": "sha256:738c9593df77c00b592654d783872e1b981f9eadf82b97f3d7764fa483278c71",
+   "text": "The Reich government banned Jewish people from cinemas, theatres and swimming pools."
+  },
+  "blocks[12].questions[5].options[3].text": {
+   "quelle": "sha256:be00cdbcec62d38acd1dfc3bef768e6ed98e674287785f887d06417b3a7eb6f9",
+   "text": "Jewish children were excluded from all state schools in the German Reich."
+  },
+  "blocks[12].questions[5].explanation": {
+   "quelle": "sha256:e0bc6ffa03ed2c21bdb0dc7f088382e4d3973022fc8c8acf704b099fdcf520d6",
+   "text": "1 April 1933 was the day of the boycott of Jewish shops, medical practices and law firms. The Nuremberg Laws followed in September 1935; the bans on cinemas and theatres and exclusion from state schools came only after the November pogroms of 1938."
+  },
+  "blocks[12].questions[6].prompt": {
+   "quelle": "sha256:c13a8eb0043ce5a8e8cbd30b900c7d922de51e23015e7366bbdf98646023fac3",
+   "text": "What did the ‘Aryan Paragraph’ of 7 April 1933 stipulate?"
+  },
+  "blocks[12].questions[6].options[0].text": {
+   "quelle": "sha256:937b9039491e09d1d3e0e2721fa15e072e5400e22097066a55726f0e3d9e5d84",
+   "text": "Jewish people had to have their passports stamped with a ‘J’ and could travel only with permission."
+  },
+  "blocks[12].questions[6].options[1].text": {
+   "quelle": "sha256:c75c193d008fe59f221a92b4763543b76ce20932a514817ed9d8f0de7b657939",
+   "text": "Jewish people could no longer marry non-Jews; existing marriages were declared invalid."
+  },
+  "blocks[12].questions[6].options[2].text": {
+   "quelle": "sha256:eff5ff77930b639146dfe73be89fe0aba4a69e67d03eb96377e1ffdcf3d2ad06",
+   "text": "Jewish people had to sell their businesses to ‘Aryan’ buyers, usually far below their value."
+  },
+  "blocks[12].questions[6].options[3].text": {
+   "quelle": "sha256:02ce3c459d2d7420218b6d296559a33c5d868a91710fc1be1ee842ad056df19d",
+   "text": "Civil servants ‘of non-Aryan descent’ were dismissed, with initial exceptions for front-line veterans."
+  },
+  "blocks[12].questions[6].explanation": {
+   "quelle": "sha256:2eaa4ff09655cf2a092ea235838f4cc8033270313dccf90640ff0e3069576b09",
+   "text": "The ‘Aryan Paragraph’ in the Gesetz zur Wiederherstellung des Berufsbeamtentums removed Jewish civil servants from their posts; front-line veterans were initially exempt. The J stamp (1938), the marriage ban (1935) and ‘Aryanisation’ (mainly 1938) came later."
+  },
+  "blocks[12].questions[7].prompt": {
+   "quelle": "sha256:125f3752069cb5c73861a698e940a53110240a4313f4723d9ab1a156deed3ed4",
+   "text": "From when is Hitler's radical antisemitism documented in sources?"
+  },
+  "blocks[12].questions[7].options[0].text": {
+   "quelle": "sha256:d884257d796c780c6773ac8aeb60e6b3547049dff8f975b25a07383c3713f058",
+   "text": "Since his childhood in Österreich, as shown by school reports and letters from his teachers."
+  },
+  "blocks[12].questions[7].options[1].text": {
+   "quelle": "sha256:30d785c1b8148b07a1f5b6285c385887c26f4bdbc672162d9eb3127043e31b9e",
+   "text": "Since his years in Wien from 1908 to 1913, as ‘Mein Kampf’ describes and research confirms."
+  },
+  "blocks[12].questions[7].options[2].text": {
+   "quelle": "sha256:a67adef15c2c3c8987edbb610d3fb6b97e0049eb194c70c5a28ec0251e32bb43",
+   "text": "Since 1919 in München, as the first written evidence is a letter from September 1919."
+  },
+  "blocks[12].questions[7].options[3].text": {
+   "quelle": "sha256:149f91e82a310f63aede5f4a15623bef87bcbb0f610fec6ac7a7074e0a1d92ab",
+   "text": "Only since the Nazi takeover in 1933, when he ordered the boycott of Jewish shops."
+  },
+  "blocks[12].questions[7].explanation": {
+   "quelle": "sha256:cfdeb2c2c837f760e845fe3ed0e242577fa9fa2cb6987da8b10bd11c1ffe96d7",
+   "text": "The letter to Adolf Gemlich of 16 September 1919 is the first written evidence. Research (Brigitte Hamann) has identified the account of Wien in ‘Mein Kampf’ as self-presentation; radical hatred of Jews is not documented from his childhood or his years in Wien. ‘Only since 1933’ is also incorrect: the boycott shows what Hitler could do as Reich Chancellor, not when his hatred of Jews began – the letter documents it 14 years earlier."
+  },
+  "blocks[12].questions[8].prompt": {
+   "quelle": "sha256:22b8edae719daa19a5b3e545463ac21f77eb7c24c8bfabe4ea72253eca071ac9",
+   "text": "How are a conspiracy myth such as the ‘Protokolle der Weisen von Zion’ and scapegoating connected?"
+  },
+  "blocks[12].questions[8].options[0].text": {
+   "quelle": "sha256:78b6b335877b35f6462670f6e478e113a794aaa86e1a9d13842e52882687757f",
+   "text": "The myth uses authentic sources to prove that the accused group really caused the crisis."
+  },
+  "blocks[12].questions[8].options[1].text": {
+   "quelle": "sha256:e4c2069ceb239a70f4c060c17ea4ba47128f74231aa2fa922735c57b28464b11",
+   "text": "The myth supplies an invented story that blames a group for crises – without any evidence."
+  },
+  "blocks[12].questions[8].options[2].text": {
+   "quelle": "sha256:e2ff7c50d90a19f1f507ea669f931c9c2bf07a510916ab5c052703305b2a477e",
+   "text": "The myth only arises after a court has issued a final conviction against the accused group."
+  },
+  "blocks[12].questions[8].options[3].text": {
+   "quelle": "sha256:a7412ee5fe0921fe880db080aedd96caad0eb01954f9bc0afb9b3adb4fddd1c4",
+   "text": "Scapegoating disproves the myth because it asks about the real causes of a crisis."
+  },
+  "blocks[12].questions[8].explanation": {
+   "quelle": "sha256:152d2e93333c731cd741a78e92b7f72672dd5fb402078e390e6a1d691d2d7a2f",
+   "text": "A conspiracy myth supplies an invented culprit, and the scapegoat explains the crisis – without evidence or a court verdict. There are no authentic sources to support it; in the Bern trial, the text was even found to be a forgery. Scapegoating does not disprove the myth: it depends on it."
+  },
+  "blocks[13].title": {
+   "quelle": "sha256:edce136a48376f29fa411b5f075d6332abbe120d2b0607f4205f2ac18ed13b74",
+   "text": "Further study: contradiction, observation, sources, ancestry"
+  },
+  "blocks[13].intro": {
+   "quelle": "sha256:8fb5cb3cb3e8a806e0d7335d8db0d825227acb216c8019fa084f476caef805fd",
+   "text": "Your answers will be sent to your teacher. Tasks 1 to 3 are for everyone; task 4 is marked **(Extension)**."
+  },
+  "blocks[13].tasks[0].prompt": {
+   "quelle": "sha256:7feb9427e223ab54a8d2726e8f6d3150af2ae06c8304501c14c0ce95ae65e6d6",
+   "text": "In two to four sentences, explain why the claim that ‘the Jews’ were behind both capitalism and communism is a contradiction – and what this contradiction reveals about the enemy image."
+  },
+  "blocks[13].tasks[0].hint": {
+   "quelle": "sha256:8226ff35810327a8a2451afdb132bf5197f0953cc90a57139159b7bb39674df1",
+   "text": "What does capitalism seek to do with private property, and what does communism seek to do? Can the same group control both at once? Why would a regime need an enemy who fits everything?"
+  },
+  "blocks[13].tasks[0].solution": {
+   "quelle": "sha256:309c4435433c1bba5c34e25118c6d4b575ba2a987c83bf331cb0306f06ab187a",
+   "text": "Example answer: Capitalism is based on private ownership of factories, banks and land, and on profit; communism seeks to manage that property collectively. The claim that a single group controls both at once is wholly implausible and has never been supported by evidence. The fact that Nazi propaganda nevertheless blamed ‘the Jews’ for both shows that facts were not the point: what mattered was a scapegoat who had to fit every problem. An enemy image that combines opposites serves those in power, rather than providing an explanation."
+  },
+  "blocks[13].tasks[1].prompt": {
+   "quelle": "sha256:f0c27e7ff5a7bb4a9822db27744f990345e36ad97017baa2f243e81e4e94c3b8",
+   "text": "Imagine you are walking through a small German town on 1 April 1933 and see SA guards outside the shop where your family has shopped for years. In two to five sentences, describe what you see and what goes through your mind – as an observer, rather than a perpetrator."
+  },
+  "blocks[13].tasks[1].hint": {
+   "quelle": "sha256:fa0c7d80197116531659b9bf197c8008cc59f178f40b4409f71880878f64cc2a",
+   "text": "What do the signs say, who is standing outside, who goes in anyway and who looks away? What do you know about the family that owns the shop? What could you do – and what would you risk?"
+  },
+  "blocks[13].tasks[1].solution": {
+   "quelle": "sha256:b842199bdb569a18c0d9aba42651474582df621846c3cba09b80ef7a6fb674e8",
+   "text": "Example answer: ‘Outside the Rosenthal family's shop stand two men in brown uniforms with a sign: Germans, do not buy from Jews. Only last week, Mrs Rosenthal packed my school exercise books for me. Most people hurry past and look at the ground; an old woman goes in anyway, and one of the men writes something down. I wonder whether the two men know her – and whether I will dare to go there again tomorrow.’ (Any answer that makes specific observations, shows those affected as people and identifies the observer's own uncertainty or decision is valid.)"
+  },
+  "blocks[13].tasks[2].prompt": {
+   "quelle": "sha256:7ea2ac0d2c6f71fa249011e78a65e1ca0b84072e53648697052313bbc0df69cd",
+   "text": "Read the quotation from Hitler's letter to Gemlich (1919) again and think about his claim in ‘Mein Kampf’ (1925) that he had become an antisemite in Wien. In three to four sentences, explain what strikes you about the letter's language – and why you should not simply believe his account of Wien."
+  },
+  "blocks[13].tasks[2].hint": {
+   "quelle": "sha256:0fb853fedb49acb183bc88115d9ce12372a9eed6f0b4fa8000721a8bc2b478c1",
+   "text": "Language: does ‘removal’ sound like violence or administration – and what happens to the people in this wording? Source: who is writing, when (how many years after Wien?), with what intention – and what did Brigitte Hamann find?"
+  },
+  "blocks[13].tasks[2].solution": {
+   "quelle": "sha256:586cc5be966eab3d261f91d7180b0a1ad9727a1c6b9fb9f62912f87e52917732",
+   "text": "Example answer: ‘Removal’ sounds matter-of-fact, almost like an administrative procedure, even though it concerns people who are supposed to disappear from society; they are declared a problem to be eliminated. The letter leaves open exactly what was meant. Hitler wrote ‘Mein Kampf’ in 1925, more than ten years after his time in Wien, and wanted to portray his hatred as an early ‘insight’ – so he was a witness presenting his own case. Research (Brigitte Hamann) finds no evidence of radical hatred of Jews from his time in Wien; it is documented only from 1919, in the letter to Gemlich. (Any answer that identifies the choice of words and considers the later date and purpose of ‘Mein Kampf’ is valid.)"
+  },
+  "blocks[13].tasks[3].prompt": {
+   "quelle": "sha256:f1b82272051520df49baf54bba3cb178e4ac711e254a4d8176f73b0dc43529a4",
+   "text": "(Extension) The ‘Aryan Paragraph’ refers to ‘non-Aryan descent’, rather than Jewish faith. In three to five sentences, explain what this wording reveals about racial antisemitism, why baptism no longer protected those affected – and what this meant for later persecution."
+  },
+  "blocks[13].tasks[3].hint": {
+   "quelle": "sha256:63578723d7a0d2ad00a5e74f22f29517151cc4cfee855ebeea7fd45e79b572a4",
+   "text": "Key points: ancestry rather than faith, baptism as a way out under anti-Judaism, ‘inherited’ characteristics. Compare the table in ‘Two forms of hatred’ with the wording of the ‘Aryan Paragraph’."
+  },
+  "blocks[13].tasks[3].solution": {
+   "quelle": "sha256:56d140fc9a6d087e74d40cfc5034ceddf62fe96521b79e8147293771a0807ead",
+   "text": "Example answer: Religious anti-Judaism targeted faith; those who were baptised were theoretically regarded as Christians and no longer subject to the accusation. Racial antisemitism, however, defined Jews as a ‘race’ with supposedly inherited characteristics – so what someone believed or did no longer counted, only their ancestry. There was no longer a way out: no assimilation or loyalty that ‘helped’. The ‘Aryan Paragraph’ of 1933 already shows this: it was based on ancestry, rather than a person's own faith – so even a baptised civil servant with Jewish ancestors could be dismissed. The next module explains the rule used by the Nuremberg Laws of 1935 to determine who was considered a ‘Jew’."
+  }
+ },
+ "pakete": {
+  "blocks[5]": {
+   "quelle": "sha256:14d2a32651888af65b1861ef0773132a5552c06d87f78378a72f4f4d5c580453",
+   "inhalt": {
+    "text": "In the Middle Ages, hatred targeted the Jewish {{1}}; those who were baptised were generally no longer regarded as Jews. This form of hatred is called {{2}}.\nIn {{3}}, a Church council decreed that Jews had to identify themselves through their clothing.\nDuring the {{4}} of 1348–1350, Jews were accused of poisoning wells.\nIn the 19th century, Jews gained equal rights; in the German Reich, legal equality was completed in {{5}}. At the same time, racial {{6}} emerged: Jews were now seen as an alleged ‘race’ – baptism no longer offered a way out.\nThe ‘Protokolle der Weisen von Zion’ is a {{7}}. Blaming a group for problems it did not cause makes it a {{8}}.",
+    "luecken": [
+     [
+      "faith",
+      "religion",
+      "belief",
+      "beliefs",
+      "religious beliefs"
+     ],
+     [
+      "anti-Judaism",
+      "antiJudaism",
+      "anti Judaism",
+      "religious anti-Judaism",
+      "religious antiJudaism",
+      "religious anti Judaism"
+     ],
+     [
+      "1215"
+     ],
+     [
+      "plague",
+      "Black Death",
+      "bubonic plague",
+      "plague pandemic",
+      "plague epidemic"
+     ],
+     [
+      "1871"
+     ],
+     [
+      "antisemitism",
+      "anti-Semitism",
+      "anti Semitism"
+     ],
+     [
+      "forgery",
+      "fake",
+      "fabrication",
+      "hoax"
+     ],
+     [
+      "scapegoat",
+      "scape-goat",
+      "scape goat"
+     ]
+    ],
+    "ablenker": [
+     "1933",
+     "Crusade",
+     "translation"
+    ]
+   }
+  }
+ }
+}
