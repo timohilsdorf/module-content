@@ -1,0 +1,2411 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-judenverfolgung-holocaust --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:8d396a34866a43400848bf56e8fba3d4a91046e09b5ceebd9631ba903d2da9d6",
+  "masterCommit": "8f835b2",
+  "hintsHash": null,
+  "generatedAt": "2026-10-20",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:8a48f3fa298b880d333681a4eba07489ff85ffb2bfb01fc568d7cf702a68d91f"
+ },
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-judenverfolgung-holocaust",
+ "title": "Step by step: from loss of rights to genocide, 1935–1945",
+ "description": "How did exclusion become genocide? You will learn what the Nuremberg Laws of 1935 stipulated and the rule used to classify people as ‘Jews’, what happened during the November pogroms of 1938, what escape and rescue involved – and how the regime organised the murder of Europe's Jews from 1941 onwards. A staircase diagram will help you put the events in order.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "en",
+ "sequenz": 7,
+ "einheit": "National Socialism – dictatorship, persecution, remembrance",
+ "requires": [
+  "nationalsozialismus-antisemitismus-ausgrenzung"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "Nuremberg Laws",
+  "November pogroms",
+  "Holocaust",
+  "Shoah",
+  "Jewish star badge",
+  "deportation",
+  "Wannsee Conference",
+  "Auschwitz",
+  "Kindertransporte",
+  "Paul Grüninger",
+  "Anne Frank",
+  "National Socialism"
+ ],
+ "learningObjectives": [
+  "I can name the three Nuremberg Laws of 15 September 1935 and explain what the Reich Citizenship Law and the ‘Blood Protection Law’ meant for Jewish people.",
+  "I can apply the Nazi authorities' ancestry rule (the grandparents' religion) to case studies and explain why it exposes ‘racial doctrine’ as unscientific.",
+  "I can describe the events of 1938: the ‘Anschluss’ of Österreich, the Évian Conference, the J stamp, the ‘Polenaktion’, the November pogroms, the ‘atonement payment’ and ‘Aryanisation’.",
+  "I can explain why ‘Reichskristallnacht’ is a term that plays down the events, and describe escape and rescue through the Kindertransporte and Paul Grüninger – including in a short news report from a Swiss or Liechtenstein perspective.",
+  "I can describe the events from 1939 to 1945 factually: the Jewish star badge, ghettos, deportations, Einsatzgruppen, the Wannsee Conference, extermination camps, the toll of around six million murdered and the other groups of victims – and explain the difference between a concentration camp and an extermination camp.",
+  "I can place events in the correct stage of persecution and period, and relate Anne Frank's life to these stages.",
+  "(Extension) I can put a legal text into everyday language, write a newspaper article about the pogroms and analyse the roles of perpetrators, followers, bystanders, helpers and victims."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Reichsgesetzblatt 1935 I, S. 1146–1148 (Nürnberger Gesetze) und S. 1333 (Erste Verordnung zum Reichsbürgergesetz)"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Nationalsozialismus und Zweiter Weltkrieg",
+   "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Judenverfolgung (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/ns-regime"
+  },
+  {
+   "title": "Gedenk- und Bildungsstätte Haus der Wannsee-Konferenz",
+   "url": "https://www.ghwk.de"
+  },
+  {
+   "title": "Yad Vashem – Internationale Holocaust-Gedenkstätte",
+   "url": "https://www.yadvashem.org"
+  },
+  {
+   "title": "Anne Frank Haus Amsterdam: Anne Franks Lebensgeschichte",
+   "url": "https://www.annefrank.org/de/"
+  },
+  {
+   "title": "Paul-Grüninger-Stiftung, St. Gallen",
+   "url": "https://www.paul-grueninger.ch"
+  },
+  {
+   "title": "Historisches Lexikon der Schweiz: J-Stempel",
+   "url": "https://hls-dhs-dss.ch/de/articles/049159/"
+  },
+  {
+   "title": "Historisches Lexikon des Fürstentums Liechtenstein: Flüchtlinge",
+   "url": "https://historisches-lexikon.li"
+  },
+  {
+   "title": "Unabhängige Historikerkommission Liechtenstein Zweiter Weltkrieg: Schlussbericht (2005)",
+   "url": "https://www.e-archiv.li"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Der Holocaust: Völkermord an den europäischen Juden",
+   "url": "https://www.youtube.com/watch?v=pFo2kXMqa98"
+  },
+  {
+   "title": "Video: Terra X History (ZDF) – November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?",
+   "url": "https://www.youtube.com/watch?v=VRMf5G5YXdo"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k7-einstieg",
+   "title": "From law to genocide",
+   "body": "In [[modul:nationalsozialismus-antisemitismus-ausgrenzung]], you saw how exclusion began in 1933: boycotts, bans on practising professions and humiliation in the streets. There was not yet a law officially making Jewish people second-class citizens. That came in September 1935. From then on, a path led through violence, plunder, expulsion and compulsory identification to mass murder – not in a single leap, but step by step. This module follows that path.\n\nOne point before we begin: this module deals with persecution and genocide. We keep the account factual, avoid horrific images and tell at least one person's story in detail so that the numbers become faces. If anything upsets you, talk to your teacher about it – that is not a sign of weakness, but the right response.\n\nYou will need about two lessons for this module. A good stopping point is after the tasks on 1938."
+  },
+  {
+   "type": "text",
+   "id": "k7-nuernberg",
+   "title": "15 September 1935: the Nuremberg Laws",
+   "body": "In September 1935, the NSDAP held its party rally in Nürnberg. The Reichstag was also summoned there – the parliament whose members, since the election of November 1933, had almost all belonged to the NSDAP; the other parties had been banned or dissolved in 1933 ([[modul:nationalsozialismus-machtuebernahme-1933]]). On 15 September, it unanimously passed three laws that became known as the **Nuremberg Laws**:\n\n## 1. The Reich Citizenship Law\n\nIt distinguished two classes of people: **‘state nationals’** and **‘Reich citizens’**. Only Reich citizens were to have political rights – to vote and hold public office – and only people ‘of German or related blood’ could qualify:\n\n> ‘Only a national of German or related blood who demonstrates through their conduct that they are willing and fit to serve the German people and Reich loyally is a Reich citizen.’\n>\n> — Reichsbürgergesetz, 15. September 1935, § 2\n\n‘Related’ is Nazi language from ‘racial doctrine’: it meant people the regime assigned to a ‘related race’, such as other Europeans – but not Jews. Jewish people were thus made **second-class citizens**: they remained nationals with duties, but without political rights.\n\n## 2. The ‘Law for the Protection of German Blood and German Honour’\n\nThis law, known as the **‘Blood Protection Law’**, interfered in private life:\n\n> ‘§ 1 Marriages between Jews and nationals of German or related blood are prohibited. Marriages entered into despite this are void […].\n>\n> § 2 Extramarital relations between Jews and nationals of German or related blood are prohibited.’\n>\n> — «Blutschutzgesetz», 15. September 1935\n\n‘Void’ is a legal term: in law, the marriage counts as if it had never existed. § 3 prohibited Jews from employing non-Jewish female domestic workers under 45; § 4 prohibited them from flying the Reich flag; § 5 threatened penal servitude (a particularly harsh form of imprisonment) and prison sentences. Nazi propaganda called relationships between Jews and non-Jews **‘racial defilement’** – a perpetrators' term that turned love into a crime. Denunciations (reports from neighbours), trials and prison sentences followed, and during the war, death sentences too. Under § 2, only the man was punished; women were brought before the court as witnesses and publicly humiliated.\n\n## 3. The Reich Flag Law\n\nIt declared the party's swastika flag to be the Reich and national flag. The NSDAP's symbol thus became the symbol of the state.\n\n## Why these laws mattered so much\n\nUntil then, exclusion had often come ‘from below’: SA guards, decisions by clubs and violence in the streets. Laws covered only particular areas, such as the civil service, schools and universities. Now the law affected every Jewish person in the Reich: they lost their political rights, and marriage and relationships with non-Jews were prohibited. Discrimination was now enshrined as a principle in the official law gazette. Persecution therefore appeared **‘legal’** and orderly – officials, judges and registrars (the officials who conduct marriages) were simply applying laws. These laws became the basis for everything that followed: anyone classified as a ‘Jew’ could later have their property confiscated, be forced to wear identifying marks and be deported.\n\n> **Remember:** The Nuremberg Laws made Jewish people second-class citizens (Reich Citizenship Law) and prohibited them from marrying or having relationships with non-Jews (‘Blood Protection Law’). Discrimination against all Jewish people became law – and therefore seemingly ‘normal’."
+  },
+  {
+   "type": "text",
+   "id": "k7-regel",
+   "title": "Who was classified as a ‘Jew’? A rule that exposes ‘racial doctrine’",
+   "body": "The laws referred to ‘blood’ – but how was an official supposed to check ‘blood’? There was no characteristic, no test, nothing. So the regime turned to the only thing recorded in official files: **religion**. The First Regulation to the Reich Citizenship Law of 14 November 1935 stipulated that the **grandparents** counted – specifically, whether they had belonged to a Jewish community.\n\n- **Three or four** Jewish grandparents: the person was classified as a **‘Jew’** – regardless of whether they had been baptised, which religion they followed or whether they believed in anything at all.\n- **Two** Jewish grandparents: **‘Mischling, 1st degree’** – with special rules, such as requiring permission to marry someone ‘of German blood’. However, anyone who belonged to a Jewish community themselves or was married to a Jewish person was classified as a **‘Geltungsjude’** and treated as a ‘Jew’.\n- **One** Jewish grandparent: **‘Mischling, 2nd degree’** – disadvantaged, but not treated as a ‘Jew’.\n- **No** Jewish grandparents: **‘of German blood’**.\n\nAll these terms are the perpetrators' language – they belong in quotation marks. The diagram below gives an overview of the rule.\n\n## What the rule reveals\n\nThink about it for a moment: the Nazis claimed that Jews were a ‘race’ with inherited characteristics (see [[modul:nationalsozialismus-ideologie-propaganda]]). If this ‘race’ had existed, it would have had to be identifiable biologically. Instead, the authorities counted which religious community the grandparents were registered with – a faith that people can adopt or leave. The rule itself therefore shows that ‘racial doctrine’ measured nothing biological. It was a pretext.\n\nThis was no comfort to those affected. People who had thought of themselves as Christians, as Germans, as ordinary neighbours were declared ‘Jews’ by decree – including children who had joined in morning prayers at school, or soldiers with military decorations. The exemption for Jewish First World War front-line veterans (the **‘front-line veterans' privilege’**, which had still been included in the ‘Aryan Paragraph’ in 1933) was abolished in 1935.\n\n> **Remember:** In the Nuremberg Laws, ‘Jew’ was an administrative category based on the grandparents' religious affiliation. With three or four Jewish grandparents, a person's own faith did not matter; only with two grandparents did their own membership of a Jewish community or marriage also count. This is precisely what exposes ‘racial doctrine’ as unscientific."
+  },
+  {
+   "type": "schaubild",
+   "id": "k7-abstammung",
+   "title": "The Nuremberg Laws' ancestry classification",
+   "szene": {
+    "elemente": [
+     {
+      "id": "a-titel",
+      "x": 20,
+      "y": 0,
+      "width": 1099,
+      "height": 30,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "Who counted as a ‘Jew’? The Nazi authorities' rule (regulation of 14 November 1935)",
+      "fontSize": 24,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-untertitel",
+      "x": 20,
+      "y": 38,
+      "width": 1031,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "The four grandparents' religion was counted (dark circle = member of a Jewish community) –\nnot appearance; with three or four Jewish grandparents, the person's own faith did not count either",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-kopf1",
+      "x": 20,
+      "y": 100,
+      "width": 94,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "text",
+      "text": "Grandparents",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-kopf2",
+      "x": 420,
+      "y": 100,
+      "width": 111,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "text",
+      "text": "Nazi category",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-kopf3",
+      "x": 720,
+      "y": 100,
+      "width": 60,
+      "height": 19,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "text",
+      "text": "Consequences",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z0",
+      "x": 20,
+      "y": 140,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "rectangle"
+     },
+     {
+      "id": "z0-g0",
+      "x": 40,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-g1",
+      "x": 110,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-g2",
+      "x": 180,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-g3",
+      "x": 250,
+      "y": 162,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "ellipse"
+     },
+     {
+      "id": "z0-n",
+      "x": 330,
+      "y": 180,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "text",
+      "text": "4 out of 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z0-k",
+      "x": 420,
+      "y": 150,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "rectangle"
+     },
+     {
+      "id": "z0-k-t",
+      "x": 430,
+      "y": 183,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "text",
+      "text": "‘Jew’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z0-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z0-f",
+      "x": 720,
+      "y": 150,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "rectangle"
+     },
+     {
+      "id": "z0-f-t",
+      "x": 730,
+      "y": 165.5,
+      "width": 500,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "text",
+      "text": "No vote or public office; no marriage\nto those ‘of German blood’; plunder\nfrom 1938, deportation from 1941",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z0-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z1",
+      "x": 20,
+      "y": 258,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "rectangle"
+     },
+     {
+      "id": "z1-g0",
+      "x": 40,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-g1",
+      "x": 110,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-g2",
+      "x": 180,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069395373,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-g3",
+      "x": 250,
+      "y": 280,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1346169768,
+      "type": "ellipse"
+     },
+     {
+      "id": "z1-n",
+      "x": 330,
+      "y": 298,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1323890193,
+      "type": "text",
+      "text": "3 out of 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z1-k",
+      "x": 420,
+      "y": 268,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1591521450,
+      "type": "rectangle"
+     },
+     {
+      "id": "z1-k-t",
+      "x": 430,
+      "y": 301,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 537279799,
+      "type": "text",
+      "text": "‘Jew’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z1-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z1-f",
+      "x": 720,
+      "y": 268,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1766705883,
+      "type": "rectangle"
+     },
+     {
+      "id": "z1-f-t",
+      "x": 730,
+      "y": 292.5,
+      "width": 500,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080880862,
+      "type": "text",
+      "text": "As above – even if the person\nwas baptised as a Christian",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z1-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z2",
+      "x": 20,
+      "y": 376,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576577607,
+      "type": "rectangle"
+     },
+     {
+      "id": "z2-g0",
+      "x": 40,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 821440179,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-g1",
+      "x": 110,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 94861959,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-g2",
+      "x": 180,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2113293440,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-g3",
+      "x": 250,
+      "y": 398,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 417856261,
+      "type": "ellipse"
+     },
+     {
+      "id": "z2-n",
+      "x": 330,
+      "y": 416,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1089207059,
+      "type": "text",
+      "text": "2 out of 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z2-k",
+      "x": 420,
+      "y": 386,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 805849935,
+      "type": "rectangle"
+     },
+     {
+      "id": "z2-k-t",
+      "x": 430,
+      "y": 401.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1631777536,
+      "type": "text",
+      "text": "‘Mischling, 1st degree’\n(‘Geltungsjude’ if a community\nmember or married to a Jew)",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z2-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z2-f",
+      "x": 720,
+      "y": 386,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1938183565,
+      "type": "rectangle"
+     },
+     {
+      "id": "z2-f-t",
+      "x": 730,
+      "y": 401.5,
+      "width": 500,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1370408198,
+      "type": "text",
+      "text": "Marriage to those ‘of German blood’\nneeds permission (rarely granted);\n‘Geltungsjuden’ treated as ‘Jews’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z2-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z3",
+      "x": 20,
+      "y": 494,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 437204082,
+      "type": "rectangle"
+     },
+     {
+      "id": "z3-g0",
+      "x": 40,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#5f7d99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1241798878,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-g1",
+      "x": 110,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 380275764,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-g2",
+      "x": 180,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1295217510,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-g3",
+      "x": 250,
+      "y": 516,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1520509309,
+      "type": "ellipse"
+     },
+     {
+      "id": "z3-n",
+      "x": 330,
+      "y": 534,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 17810377,
+      "type": "text",
+      "text": "1 out of 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z3-k",
+      "x": 420,
+      "y": 504,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 945779009,
+      "type": "rectangle"
+     },
+     {
+      "id": "z3-k-t",
+      "x": 430,
+      "y": 537,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1264780336,
+      "type": "text",
+      "text": "‘Mischling, 2nd degree’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z3-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z3-f",
+      "x": 720,
+      "y": 504,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1481419643,
+      "type": "rectangle"
+     },
+     {
+      "id": "z3-f-t",
+      "x": 730,
+      "y": 528.5,
+      "width": 500,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2120640711,
+      "type": "text",
+      "text": "Disadvantaged, but not treated as ‘Jews’;\nmarriage to those ‘of German blood’ allowed",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z3-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z4",
+      "x": 20,
+      "y": 612,
+      "width": 1240,
+      "height": 104,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1466254097,
+      "type": "rectangle"
+     },
+     {
+      "id": "z4-g0",
+      "x": 40,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1838923326,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-g1",
+      "x": 110,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 965606062,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-g2",
+      "x": 180,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1912353839,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-g3",
+      "x": 250,
+      "y": 634,
+      "width": 56,
+      "height": 56,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1714775159,
+      "type": "ellipse"
+     },
+     {
+      "id": "z4-n",
+      "x": 330,
+      "y": 652,
+      "width": 73,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1760014139,
+      "type": "text",
+      "text": "0 out of 4",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z4-k",
+      "x": 420,
+      "y": 622,
+      "width": 280,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2056516517,
+      "type": "rectangle"
+     },
+     {
+      "id": "z4-k-t",
+      "x": 430,
+      "y": 655,
+      "width": 260,
+      "height": 18,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1523989681,
+      "type": "text",
+      "text": "‘Of German blood’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z4-k",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "z4-f",
+      "x": 720,
+      "y": 622,
+      "width": 520,
+      "height": 84,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 71924448,
+      "type": "rectangle"
+     },
+     {
+      "id": "z4-f-t",
+      "x": 730,
+      "y": 646.5,
+      "width": 500,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 573421136,
+      "type": "text",
+      "text": "Full rights as ‘Reich citizens’ – provided\nthey did not oppose the regime",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "z4-f",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "a-merk",
+      "x": 20,
+      "y": 740,
+      "width": 1240,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1584618043,
+      "type": "rectangle"
+     },
+     {
+      "id": "a-merk-t",
+      "x": 30,
+      "y": 753.5,
+      "width": 1220,
+      "height": 43,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1371962656,
+      "type": "text",
+      "text": "The alleged ‘race’ was determined by the grandparents' religion.\nThis proves that ‘racial doctrine’ measured nothing biological – it was a pretext for excluding people.",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "a-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Title: Who counted as a ‘Jew’? The Nazi authorities' rule (regulation of 14 November 1935). Subtitle: The four grandparents' religion was counted (dark circle = member of a Jewish community), not appearance; with three or four Jewish grandparents, the person's own faith did not count either. Table with three columns: grandparents, Nazi category, consequences. Five rows, each with four circles. 4 out of 4 dark: Nazi category ‘Jew’; consequences: no vote or public office, marriage to those ‘of German blood’ prohibited, plunder from 1938, deportation from 1941. 3 out of 4: Nazi category ‘Jew’; consequences as above, even if the person was baptised as a Christian. 2 out of 4: Nazi category ‘Mischling, 1st degree’ (‘Geltungsjude’ if a community member or married to a Jew); consequences: marriage to those ‘of German blood’ required permission, which was rarely granted; ‘Geltungsjuden’ were treated as ‘Jews’. 1 out of 4: Nazi category ‘Mischling, 2nd degree’; consequences: disadvantaged, but not treated as ‘Jews’; marriage to those ‘of German blood’ allowed. 0 out of 4: Nazi category ‘of German blood’; consequences: full rights as ‘Reich citizens’, provided the person did not oppose the regime. Key point below (orange): the alleged ‘race’ was determined by the grandparents' religion. This proves that ‘racial doctrine’ measured nothing biological; it was a pretext for excluding people.",
+   "credit": "Eigene Darstellung nach der Ersten Verordnung zum Reichsbürgergesetz, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "zuordnung",
+   "id": "k7-zu-faelle",
+   "title": "Who was classified as what? Case studies",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren"
+   ],
+   "intro": "The people are fictional; the rule was real – we apply these categories only to expose how arbitrary the rule was. Match each case to the category the Nazi authorities would have assigned under the regulation of 14 November 1935. First count the Jewish grandparents, then check whether the person belonged to a Jewish community themselves. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "Hanna, 15, baptised as a Protestant. Her father's parents and her mother's parents all belonged to a Jewish community."
+     },
+     "rechts": {
+      "text": "‘Jew’ (four Jewish grandparents)"
+     }
+    },
+    {
+     "links": {
+      "text": "Josef, 50, a decorated front-line veteran. Both paternal grandparents and his maternal grandfather belonged to a Jewish community; his maternal grandmother did not."
+     },
+     "rechts": {
+      "text": "‘Jew’ (three Jewish grandparents)"
+     }
+    },
+    {
+     "links": {
+      "text": "Paul, 19, unmarried. Two of his grandparents belonged to a Jewish community; two did not. He does not belong to a Jewish community himself."
+     },
+     "rechts": {
+      "text": "‘Mischling, 1st degree’"
+     }
+    },
+    {
+     "links": {
+      "text": "Else, 30. Two of her grandparents belonged to a Jewish community; she does too."
+     },
+     "rechts": {
+      "text": "‘Geltungsjude’"
+     }
+    },
+    {
+     "links": {
+      "text": "Walter, 40. Of his four grandparents, only his mother's father belonged to a Jewish community."
+     },
+     "rechts": {
+      "text": "‘Mischling, 2nd degree’"
+     }
+    },
+    {
+     "links": {
+      "text": "Martha, 25. None of her grandparents belonged to a Jewish community; her boyfriend is classified as a ‘Jew’ under the Nazi rule."
+     },
+     "rechts": {
+      "text": "‘Of German blood’"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "k7-lt-gesetz",
+   "title": "Put laws into everyday language and fill in the facts",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren"
+   ],
+   "intro": "Put the three legal extracts into everyday language, then add two facts: type in the missing word yourself. Legal terms from the extracts do not count – you need the everyday word. Capitalisation does not matter.",
+   "modus": "eingabe",
+   "text": "‘Marriages between Jews and nationals of German or related blood are prohibited.’ – In everyday language: Jews and non-Jews may no longer {{1}} each other.\n‘Marriages entered into despite this are void […].’ – In everyday language (without the legal term from the quotation): such a marriage does not count for the state; it is {{2}}.\n‘Only a national of German or related blood […] is a Reich citizen.’ – In everyday language: Jews lose their political rights, for example the right to take part in elections – in other words, {{3}}.\nAnyone with three or four Jewish grandparents was classified as a ‘Jew’: what mattered was not their own faith but the religion of their {{4}}.\nThe three laws were passed unanimously in Nürnberg on 15 September 1935 by {{5}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "marry",
+      "wed",
+      "get married to"
+     ]
+    },
+    {
+     "antworten": [
+      "invalid",
+      "not valid",
+      "ineffective",
+      "without effect",
+      "of no effect",
+      "null and void",
+      "legally invalid",
+      "not legally valid",
+      "not effective",
+      "not legally effective",
+      "not legally binding",
+      "annulled"
+     ]
+    },
+    {
+     "antworten": [
+      "voting rights",
+      "the right to vote",
+      "right to vote",
+      "a right to vote",
+      "their right to vote",
+      "the vote",
+      "vote",
+      "suffrage",
+      "the franchise",
+      "franchise",
+      "the right to cast a vote",
+      "right to cast a vote"
+     ]
+    },
+    {
+     "antworten": [
+      "grandparents",
+      "four grandparents",
+      "the grandparents",
+      "the four grandparents",
+      "their grandparents",
+      "their four grandparents"
+     ]
+    },
+    {
+     "antworten": [
+      "the Reichstag",
+      "Reichstag",
+      "the German Reichstag",
+      "German Reichstag",
+      "parliament",
+      "the parliament",
+      "the German parliament",
+      "German parliament"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k7-tasks-gesetz",
+   "title": "Understanding the laws",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren"
+   ],
+   "intro": "To explain the case studies: even Martha, who was classified as ‘of German blood’, was no longer allowed to marry her Jewish boyfriend after 1935. Your answers go to your teacher. Task 1 is for everyone; Task 2 is marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k7-g1",
+     "prompt": "A couple in Berlin want to marry in autumn 1935. Under the new rule, he is classified as a ‘Jew’ and she as ‘of German blood’. In two to four sentences, explain what the Nuremberg Laws meant for them – both legally and in everyday life.",
+     "hint": "Think about § 1 and § 2 of the ‘Blood Protection Law’, the term ‘racial defilement’ and who was punished if someone reported them. What options did the couple have?",
+     "solution": "Example answer: Since the Nuremberg Laws of September 1935, the marriage was prohibited; if they married anyway, the marriage would have been invalid. Under § 2, a relationship without a marriage certificate was punishable too – propaganda called it ‘racial defilement’, and a report from a neighbour could be enough to send the man to prison. The couple's only options were to separate, hide their relationship or go abroad together – if a country would accept them."
+    },
+    {
+     "id": "k7-g2",
+     "prompt": "(Extension) Put § 2 of the Reich Citizenship Law into your own everyday language (one or two sentences): ‘Only a national of German or related blood who demonstrates through their conduct that they are willing and fit to serve the German people and Reich loyally is a Reich citizen.’ Then explain in two or three sentences why the ancestry rule of 14 November 1935 exposes ‘racial doctrine’ as unscientific.",
+     "hint": "The sentence contains two conditions: ancestry and ‘conduct’. What does the second condition mean for non-Jews who displease the regime? And what did the authorities count when they wanted to check ‘blood’?",
+     "solution": "Example answer: Only people classified as ‘of German blood’ who show through their conduct that they serve the regime loyally have full civil rights. Jews are excluded, and even people ‘of German blood’ can lose their rights if the state disapproves of them. The ancestry rule exposes ‘racial doctrine’ because it does not measure a biological characteristic: it counts the grandparents' religious affiliations – but faith is not inherited. Anyone who determines ‘race’ using church records and community registers shows that this ‘race’ does not exist."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k7-1938",
+   "title": "1938: the year violence became open",
+   "body": "## March: the ‘Anschluss’ of Österreich\n\nOn 12 March 1938, the Wehrmacht marched into Österreich. The country was forcibly incorporated into the German Reich (the technical term is annexed: absorbed into another state through pressure and violence). The Nazis called this the **‘Anschluss’** – a word suggesting a voluntary union, even though many people cheered the invasion. For the roughly 190 000 Austrian Jews, most of them in Wien, persecution began all at once rather than step by step. In the very first days, Nazis and jeering neighbours forced Jewish people to scrub the streets with brushes, looted homes and shops, and arrested thousands. Expulsion began immediately. From the bank of the Rhein in Vorarlberg, Switzerland was within easy reach – but in August 1938 it closed its border to refugees without a visa (permission to enter, applied for in advance). Liechtenstein was also very reluctant to admit refugees: after the ‘Anschluss’, it banned the admission of refugees from Österreich, and in 1938 it rejected more applications than it approved.\n\n## July: the Évian Conference\n\nWhere could those driven out go? In July 1938, representatives of 32 countries met in **Évian**, on the Genfersee, to discuss Jewish refugees from Germany and Österreich. Almost all expressed regret – and almost none were willing to admit more people. Nazi propaganda celebrated this: apparently, the world did not want ‘the Jews’ either.\n\n## October: the J stamp and the ‘Polenaktion’\n\nFrom October 1938, German Jews' passports were stamped with a red **‘J’**. Switzerland had previously wanted to require visas for all Germans; the German authorities instead proposed marking only Jews' passports. Switzerland agreed and used the ‘J’ to identify and turn away Jewish refugees at the border. In late October, in the **‘Polenaktion’**, the regime deported around 17 000 Jews with Polish citizenship to the Polish border overnight. Some had lived in Germany for decades. Poland refused to let them enter; thousands were stranded in no-man's-land between the border posts, in the cold and without supplies.\n\n## November: the pretext\n\nAmong those deported was the family of **Herschel Grynszpan**, a 17-year-old living in Paris. In despair and anger, on 7 November 1938 he shot the diplomat Ernst vom Rath at the German embassy. Vom Rath died on 9 November. The Nazi leadership used the act as a pretext: that very evening, on 9 November, it had a wave of violence against Jews organised across the Reich and disguised it as ‘spontaneous popular anger’. It had long pursued the aim of driving Jewish people out of economic and social life – now it advanced that aim through open violence."
+  },
+  {
+   "type": "text",
+   "id": "k7-pogrom",
+   "title": "9/10 November 1938: the November pogroms",
+   "body": "On the evening of 9 November 1938, the Nazi leadership was gathered in München to commemorate Hitler's failed coup attempt of 9 November 1923. Joseph Goebbels delivered a hate-filled speech. Orders went out by telephone and teleprinter (a machine that sent typed messages over telephone lines) to every Gau (the party's regional districts): the SA, SS and party members, mostly in civilian clothes, were to ‘strike out’ against Jews. Afterwards, propaganda called this **‘spontaneous popular anger’**. It was the opposite: an **organised pogrom**, set in motion by the state's leaders. Unlike the medieval pogroms in the previous module, here the state directed the ‘crowd’.\n\nThat night and the following day, across the Reich, in Österreich and in the Sudetenland (the border region of Tschechoslowakei occupied in October 1938):\n\n- More than **1 400 synagogues and prayer rooms** were set on fire or destroyed. Fire brigades had orders to protect only neighbouring houses.\n- Around **7 500 shops** were wrecked and looted, homes demolished and cemeteries desecrated.\n- People were abused and murdered. The regime officially reported **91 deaths**; counting those who died from their injuries, deaths in the camps and suicides out of despair brings the total to **several hundred**.\n- Around **30 000 Jewish men** were arrested and taken to the concentration camps Dachau, Buchenwald and Sachsenhausen, where they were abused. Many were released after weeks – on condition that they emigrate immediately and leave their property behind.\n\nAnd the neighbours? Many watched, some joined in or helped loot, some felt ashamed – and a few helped, took in persecuted people or hid them. For Jewish people, the message was clear: there was no protection left in this country.\n\n## A word that lies\n\nThe name **‘Reichskristallnacht’** was already being used for the night in 1938, referring to the shattered glass of shop windows. The word comes from the perpetrators' era and **plays down the violence**: it reduces murder, arson and deportation to the sound of glass. That is why historians today use the term **November pogroms** (you know the word pogrom from the previous module).\n\n> **Remember:** The November pogroms of 1938 were not ‘popular anger’ but violence organised by the regime: synagogues destroyed, shops wrecked, hundreds dead and 30 000 men sent to concentration camps. The term ‘Reichskristallnacht’ plays this down."
+  },
+  {
+   "type": "text",
+   "id": "k7-danach",
+   "title": "After the pogrom: plunder – and ways out",
+   "body": "## The victims are made to pay\n\nThe regime turned the situation on its head: the victims, rather than the perpetrators, had to pay for the damage. On 12 November 1938, a decree imposed an **‘atonement payment’** of **one billion Reichsmarks** on German Jews. The regime justified it as ‘punishment’ for vom Rath's death; in reality, it was robbery. Insurance companies had to pay out for the damage, but the state confiscated the money. A decree issued on the same day prohibited Jews from running shops and craft businesses from 1 January 1939: they were ‘eliminated’ from economic life. Whatever had not yet been sold was now forcibly **‘Aryanised’** (from ‘Aryan’, the Nazi word for supposedly ‘of German blood’): businesses, houses and professional practices went to non-Jewish buyers for far less than their value ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]] explains the term).\n\nOn 15 November 1938, Jewish children were excluded from all state schools. Bans on cinemas, theatres, concerts and swimming pools followed, along with the withdrawal of driving licences and restrictions on going out. Step by step, public life was closed to Jewish people.\n\n## Escape\n\nAnyone who could now tried to escape – with a ‘J’ in their passport, often without money, into a world that was closing its borders. By the outbreak of war, more than half of Germany's Jews had left the country. The **Kindertransporte** are particularly well known: between December 1938 and September 1939, Britain admitted around **10 000 Jewish children** from Germany, Österreich and Tschechoslowakei – without their parents. Many of these children never saw their parents again. Liechtenstein also imposed a ban on refugees entering in December 1938.\n\n## A rescuer at the border: Paul Grüninger\n\nSwitzerland had closed its border to refugees. **Paul Grüninger**, police commander of the canton of St. Gallen, did not comply. In 1938, he allowed several hundred Jewish refugees – according to some estimates, as many as over 3 000 – to enter at the border near Diepoldsau by backdating their papers to before the border closure. In 1939 he was dismissed and later convicted of breaching his official duties; he lived in poverty until his death in 1972. Only in **1995** did a court overturn the conviction and clear his name. Grüninger shows that even in 1938, it was possible to act differently – and that it came at a cost.\n\n> **Remember:** After the pogrom came plunder (‘atonement payment’, ‘Aryanisation’) and exclusion from school and everyday life. Escape became the only way to safety: the Kindertransporte saved around 10 000 children, and individuals such as Paul Grüninger saved people by breaking their state's rules."
+  },
+  {
+   "type": "video",
+   "id": "k7-video-pogrom",
+   "provider": "youtube",
+   "videoId": "VRMf5G5YXdo",
+   "title": "Optional extra: video ‘November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?’ (7:31)",
+   "description": "This video by Terra X History (ZDF) is an optional extra – everything you need for the tasks is in this module's texts. It contains historical film footage and photographs of the destruction that may be upsetting; you can stop at any time. If you watch it (internet required; it only starts after you click), focus on two guiding questions: (1) How did the Nazis turn neighbours into an ‘enemy’ – what roles did prejudice, scapegoating and propaganda play? (2) How did propaganda reinterpret Herschel Grynszpan's act?",
+   "transcript": "Summary of the video ‘November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?’ (Terra X History, ZDF, author Peter Hartl, 7:31), based on the video description: In November 1938, Jews in Germany face brutal violence in the pogrom: synagogues are set on fire and Jewish fellow citizens are persecuted and attacked. The video asks how neighbours became mortal enemies. In the early 20th century, Jews seem to have found their place in German society, but the mood changes when hatred of Jews becomes state policy in 1933. Wherever there is discontent, Jews are made scapegoats; the Nazis exploit existing prejudices and envy of wealthy Jewish business owners to deliberately construct an enemy image. (Context: Jewish Germans were a diverse group – doctors, teachers, traders and workers. Supposed ‘envy of success’ neither explains nor justifies hatred of Jews.) The Nazis begin deporting Jews of Polish origin to Poland, which refuses to admit them. By attacking a German diplomat, the young Herschel Grynszpan wants to draw attention to Jewish families' desperate situation; propaganda distorts this desperate act by an individual into an attack by an alleged ‘Jewish world conspiracy’. Destruction, arson, looting and murder follow. (Context: this was not an outburst of ‘spontaneous popular anger’, but a pogrom organised by the regime.)",
+   "startSeconds": 0
+  },
+  {
+   "type": "tasks",
+   "id": "k7-tasks-zeitung",
+   "title": "Reporting on the pogrom",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Your answers go to your teacher. You are writing as a journalist for a Swiss or Liechtenstein newspaper in November 1938 – as an observer from outside. You only know what was publicly known at the time: you know nothing about secret negotiations or later events. Task 1 is for everyone; Task 2 is marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k7-z1",
+     "prompt": "Write a short news report (three to five sentences) for the edition of 11 November 1938: what has happened in Germany? Give at least two facts (synagogues, shops, arrests, deaths) and say who set the violence in motion.",
+     "hint": "A short news report answers: what? When? Where? Who? Keep it factual – and describe what happened without using the perpetrators' term (‘Reichskristallnacht’).",
+     "solution": "Example answer: ‘Berlin, 10 November. On the night leading into Thursday, synagogues were set on fire and Jewish shops wrecked throughout Germany and Österreich. Many of the perpetrators were SA and party members in civilian clothes; nevertheless, the government speaks of spontaneous popular anger. Reports indicate numerous deaths, and thousands of Jewish men have been arrested and taken to camps. In many places, fire brigades intervened only to protect neighbouring houses.’ (Any report is good if it gives facts, recognises the regime's role in organising the violence and remains factual.)"
+    },
+    {
+     "id": "k7-z2",
+     "prompt": "(Extension) Write an article (five to eight sentences) that provides context: why is it wrong to speak of ‘spontaneous popular anger’? What does the pogrom mean for Jewish people in Germany? And what does it mean for Switzerland and Liechtenstein, which are very reluctant to admit Jewish refugees?",
+     "hint": "Use the texts on 1938: organisation through the party and SA, Grynszpan as a pretext, Évian, the red ‘J’ in German Jews' passports and Switzerland's border closure. Write only what could already be known in November 1938. A good article gives facts, places them in context and ends with a question for its own society.",
+     "solution": "Example answer: The German government calls this night's violence spontaneous popular anger, but the simultaneous attacks in hundreds of towns, the involvement of the SA and party, and the police's inaction show that it was organised. The shots fired by 17-year-old Grynszpan in Paris and the death of the diplomat vom Rath served the leadership merely as a pretext to trigger and direct the violence. For Jewish people in Germany, the pogrom means that the state no longer offers protection; many will now want to leave at any cost. This raises a question for us too: the Évian Conference in the summer showed that hardly any country wants to admit refugees. Switzerland closed its border to refugees without visas in August, and since October, German Jews' passports have carried a red ‘J’ – making refugees immediately identifiable at every border. Anyone turning refugees away in these days must know what they are condemning them to face. (Any article is good if it recognises the organisation and pretext, identifies the consequences and addresses neighbouring countries' responsibility.)"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k7-krieg",
+   "title": "1939–1941: compulsory identification and ghettos – and the road to deportation",
+   "body": "The invasion of Poland on 1 September 1939 marked the start of the Second World War – and a new stage for Jewish people. In the Reich, **curfews** now applied, radios had to be handed over, food rations were cut, and men and women were made to perform **forced labour**. Jewish families were crammed into **‘Judenhäuser’** – the authorities' term for houses where they forced Jewish people to live in extremely cramped conditions.\n\nIn occupied **Poland**, home to more than three million Jews, events moved faster and more brutally. From December 1939, Jews there had to wear a white **armband** with a blue star. In 1940, the occupying forces confined them in **ghettos** – sealed-off city districts, for example in Łódź and Warschau, where almost half a million people lived in extremely cramped conditions. Hunger and disease killed tens of thousands there, long before the extermination camps were built.\n\n## The yellow star\n\nOn 1 September 1941, the regime issued a police decree: from 19 September, almost all Jewish people in the Reich aged six and over had to wear a palm-sized yellow star bearing the word ‘Jude’ visibly on their clothing in public – the **‘Judenstern’**, or Jewish star badge. Do you remember the year 1215? What a medieval council had begun with hats and patches returned more than 700 years later: people were marked out so that everyone could avoid, report and despise them. Children were insulted on their way to school; adults were thrown out of shops.\n\n## The trap closes\n\nOn 23 October 1941, the regime prohibited Jewish people from **emigrating**. Anyone who had not yet left could no longer get out. At the same time, **deportations** from the Reich began: from mid-October 1941, trains left Berlin, Wien and many other cities for ghettos and camps in the occupied east – Łódź, Riga and Minsk, and later directly for the extermination camps. Those affected were told they were being ‘resettled’ – a term the authorities used to conceal the real purpose. They were allowed one suitcase; their homes and possessions went to the state, and neighbours bought their furniture at auctions.\n\n> **Remember:** From 1939 to 1941, persecution became visible and inescapable: armbands and the Jewish star badge marked people out, ghettos confined them, and the emigration ban of October 1941 removed their last way out – and deportations began."
+  },
+  {
+   "type": "text",
+   "id": "k7-mord",
+   "title": "1941–1945: the genocide",
+   "body": "## Mass shootings\n\nOn 22 June 1941, Germany invaded the Soviet Union. Behind the front came **Einsatzgruppen** – mobile SS and police units ordered to murder Jews, communists, Sinti and Roma. Together with Wehrmacht units and local collaborators (local people who worked with the occupying forces), they killed between **1.5 and 2 million people** in mass shootings by 1944, most of them Jews. In the **Babyn Jar** ravine near Kiew, at least 33 771 people were shot over two days in late September 1941 – according to the perpetrators' own report. We give these figures because behind each one was a person – and we do not describe how it happened.\n\n## Organising the murder\n\nIn December 1941, the first extermination camp began operating in **Chełmno**: people, mainly Jews, were murdered here in gas vans. On **20 January 1942**, fifteen senior officials and SS leaders met in the Berlin suburb of Wannsee for the **Wannsee Conference**. They did not decide on the murder – it was already happening – but coordinated its implementation across Europe: who was responsible, and how would eleven million people be registered and transported? In the files, this was called the **‘Final Solution to the Jewish Question’** – the perpetrators' term to conceal genocide; even ‘Jewish Question’ suggests that Jewish people were a problem. It is precisely the cold language you know from the letter of 1919 ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]]).\n\nFurther **extermination camps** followed: Bełżec, Sobibór, Treblinka, Majdanek and **Auschwitz-Birkenau**, all in occupied Poland. Their purpose was to murder people brought there by train from across Europe as quickly as possible. At Chełmno, Bełżec, Sobibór and Treblinka, this was the only purpose; Majdanek and Auschwitz-Birkenau were also concentration camps where prisoners had to perform forced labour. At Auschwitz-Birkenau alone, around 1.1 million people were murdered, including around one million Jews. On 27 January 1945, the Red Army liberated the camp – today, this date is International Holocaust Remembrance Day.\n\n> **Remember – concentration camps and extermination camps are not the same:** A **concentration camp** (KZ) was a detention camp where people were held without trial, used for terror, forced labour and intimidation, and where people also died in huge numbers (the first concentration camps were established as early as March 1933; see [[modul:nationalsozialismus-machtuebernahme-1933]]). A **camp used solely for extermination**, such as Treblinka, had just one purpose: the deliberate, factory-like killing of those arriving. Auschwitz-Birkenau and Majdanek were both – concentration camps with forced labour and extermination camps.\n\n## The toll\n\nBy 1945, the Nazis and their accomplices had murdered around **six million** Jewish people, including around 1.5 million children. This crime is called the **Holocaust** (from the Greek, ‘completely burnt’) or **Shoah** (Hebrew for ‘catastrophe’). Jews were not the only victims: up to 500 000 **Sinti and Roma** were murdered (this genocide is also called **Porajmos**, ‘the devouring’ – a term contested among Sinti and Roma; ‘genocide of the Sinti and Roma’ is also commonly used); around 200 000 or more disabled people were murdered in ‘euthanasia’ (the perpetrators' name for murdering sick and disabled people; more in [[modul:nationalsozialismus-ideologie-propaganda]]); millions of Soviet prisoners of war died through starvation and shooting; homosexuals, political opponents, Jehovah's Witnesses and forced labourers from across Europe were also victims.\n\n> **Remember:** The Holocaust was not a lapse or a secret kept by a few men. It was planned, administered and carried out by hundreds of thousands – officials, railway workers, police officers, soldiers and neighbours. And it did not begin at Auschwitz: it developed step by step."
+  },
+  {
+   "type": "text",
+   "id": "k7-annefrank",
+   "title": "A face behind the figures: Anne Frank",
+   "body": "Six million is a number that is hard to feel. So we tell one story – one among millions.\n\n**Anne Frank** was born on 12 June 1929 in Frankfurt am Main, the second daughter of Otto and Edith Frank; her sister Margot was three years older. The family was Jewish and German, and Otto Frank had served as an officer in the First World War. After the Nazis took power, the Franks emigrated to **Amsterdam** in 1933/34. Otto set up a small business there; Anne went to nursery school and learnt Dutch. For a few years, their escape seemed to have succeeded.\n\nIn May 1940, Germany occupied the Netherlands. The exclusion you know from this module and the previous one unfolded there within months: Jewish schools, the Jewish star badge, curfews. In July 1942, Margot received a call-up for ‘labour service’ in Germany – the regime was deporting Dutch Jews. The family went into hiding: in the annex behind Otto's business on the **Prinsengracht**, eight people lived hidden for more than two years, supplied by employees who risked their lives. Anne, aged thirteen, kept her diary there.\n\nOn 4 August 1944, the hiding place was discovered – it is still uncertain whether through betrayal or chance. The eight were deported to **Auschwitz** via the Westerbork transit camp in the Netherlands. In autumn 1944, Anne and Margot were taken to **Bergen-Belsen** concentration camp, where both died of hunger and typhus (a disease that spread through the overcrowded camps) in February or March 1945, a few weeks before liberation. Anne was 15. Of the eight people in hiding, only Otto Frank survived. A helper had saved Anne's diary; Otto published it in 1947. It was translated into more than 70 languages – and gave a face to a number.\n\nLook at the staircase in the next block: you can trace Anne Frank's journey along it, although the family did not experience the stages in this order: exclusion in Germany, early escape, then compulsory identification and loss of rights in the occupied Netherlands, hiding, deportation and death in a camp."
+  },
+  {
+   "type": "schaubild",
+   "id": "k7-treppe",
+   "title": "The staircase of persecution",
+   "szene": {
+    "elemente": [
+     {
+      "id": "t-titel",
+      "x": 20,
+      "y": 0,
+      "width": 753,
+      "height": 33,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1550365614,
+      "type": "text",
+      "text": "Step by step: the persecution of Jews, 1933–1945",
+      "fontSize": 26,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "t-untertitel",
+      "x": 20,
+      "y": 40,
+      "width": 637,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 358877907,
+      "type": "text",
+      "text": "Each step made the next easier – because the majority accepted it",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe0",
+      "x": 20,
+      "y": 530,
+      "width": 170,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 336922459,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe0-t",
+      "x": 30,
+      "y": 550,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1256576657,
+      "type": "text",
+      "text": "1\nExclusion and\nboycott\n1933",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe1",
+      "x": 192,
+      "y": 460,
+      "width": 170,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#e1e9f3",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1457486433,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe1-t",
+      "x": 202,
+      "y": 515,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 152759313,
+      "type": "text",
+      "text": "2\nLoss of rights\nby law\n1935",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe2",
+      "x": 364,
+      "y": 390,
+      "width": 170,
+      "height": 250,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#dae2ed",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2134354073,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe2-t",
+      "x": 374,
+      "y": 480,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 549909417,
+      "type": "text",
+      "text": "3\nViolence and\nplunder\n1938",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe3",
+      "x": 536,
+      "y": 320,
+      "width": 170,
+      "height": 320,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#d3dbe7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 25246866,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe3-t",
+      "x": 546,
+      "y": 445,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1882024951,
+      "type": "text",
+      "text": "4\nExpulsion\nand escape\n1938/39",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe4",
+      "x": 708,
+      "y": 250,
+      "width": 170,
+      "height": 390,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#cbd4e2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 199968210,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe4-t",
+      "x": 718,
+      "y": 410,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 452908882,
+      "type": "text",
+      "text": "5\nIdentification\nand ghettos\n1939–1941",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe4",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe5",
+      "x": 880,
+      "y": 180,
+      "width": 170,
+      "height": 460,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#c2ccdc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 224925271,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe5-t",
+      "x": 890,
+      "y": 375,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1364055505,
+      "type": "text",
+      "text": "6\nDeportation\nto the east\nfrom 1941",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe5",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "stufe6",
+      "x": 1052,
+      "y": 110,
+      "width": 170,
+      "height": 530,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#b8c4d6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1874289867,
+      "type": "rectangle"
+     },
+     {
+      "id": "stufe6-t",
+      "x": 1062,
+      "y": 340,
+      "width": 150,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 724969810,
+      "type": "text",
+      "text": "7\nMass murder and\nextermination camps\n1941–1945",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "stufe6",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "t-boden",
+      "x": 20,
+      "y": 640,
+      "width": 1204,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1145517885,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1204,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "t-merk",
+      "x": 20,
+      "y": 660,
+      "width": 1204,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 510344460,
+      "type": "rectangle"
+     },
+     {
+      "id": "t-merk-t",
+      "x": 30,
+      "y": 684.5,
+      "width": 1184,
+      "height": 21,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1932291013,
+      "type": "text",
+      "text": "The Holocaust did not begin at Auschwitz. It began with boycotts, laws and looking away – and at the lower steps, the majority could still have said no.",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "t-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Title: Step by step: the persecution of Jews, 1933 to 1945. Subtitle: Each step made the next easier because the majority accepted it. Seven steps rise from left to right, from light to darker blue-grey: 1 Exclusion and boycott, 1933. 2 Loss of rights by law, 1935. 3 Violence and plunder, 1938. 4 Expulsion and escape, 1938/39. 5 Identification and ghettos, 1939 to 1941. 6 Deportation to the east, from 1941. 7 Mass murder and extermination camps, 1941 to 1945. The years on the steps overlap; the staircase shows what was added at each stage. A ground line runs below the staircase. Key point at the bottom: the Holocaust did not begin at Auschwitz. It began with boycotts, laws and looking away, and at the lower steps, the majority could still have said no.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "video",
+   "id": "k7-video-holocaust",
+   "provider": "youtube",
+   "videoId": "pFo2kXMqa98",
+   "title": "Optional extra: video ‘Der Holocaust: Völkermord an den europäischen Juden’ (13:51)",
+   "description": "This video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in this module's texts. It contains historical footage and covers mass shootings and extermination camps; this may be upsetting. You can stop at any time or skip it entirely, and talk to your teacher about it. If you watch it (internet required; it only starts after you click), focus on two guiding questions: (1) Which stages of persecution from 1933 onwards does the video mention – and can you find them on the staircase? (2) Why does the video describe the Holocaust as a ‘rupture in civilisation’?",
+   "transcript": "Summary of the video ‘Der Holocaust: Völkermord an den europäischen Juden’ (MrWissen2go Geschichte | Terra X, 13:51), based on the video description and chapters: the Holocaust was the genocide of Europe's Jews, planned and carried out by the Nazis during the Second World War through mass shootings and extermination camps such as Auschwitz, Treblinka and Sobibór. Six million people – women, men and children – fell victim to this crime against humanity. The video explores the ideology behind the Holocaust, how the genocide developed step by step after the Nazis took power in 1933, and how the Nazi state's apparatus of terror ultimately planned and carried it out. Chapters: introduction; Hitler's policies against Jews from 1933; the Second World War; invasion of the Soviet Union in 1941; planning and carrying out the Holocaust; the Holocaust as a rupture in civilisation.",
+   "startSeconds": 0
+  },
+  {
+   "type": "achse",
+   "id": "k7-achse-stufen",
+   "title": "Which stage? Classifying events",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Match each event to its stage of persecution: drag the card to the correct section – or tap the card, then the section. You can find the stages on the staircase. Be careful: the years overlap around 1941; what matters is what the event involved.",
+   "x": {
+    "kategorien": [
+     "Exclusion 1933",
+     "Loss of rights 1935",
+     "Violence and plunder 1938",
+     "Expulsion and escape 1938/39",
+     "Identification and ghettos 1939–41",
+     "Deportation from 1941",
+     "Mass murder 1941–45"
+    ],
+    "beschriftung": "Stage of persecution"
+   },
+   "elemente": [
+    {
+     "text": "Yellow star for everyone aged six and over",
+     "xKategorie": "Identification and ghettos 1939–41"
+    },
+    {
+     "text": "SA guards outside Jewish shops: the boycott",
+     "xKategorie": "Exclusion 1933"
+    },
+    {
+     "text": "Einsatzgruppen, Wannsee Conference, extermination camps",
+     "xKategorie": "Mass murder 1941–45"
+    },
+    {
+     "text": "Marriage ban and loss of voting rights by law",
+     "xKategorie": "Loss of rights 1935"
+    },
+    {
+     "text": "Kindertransporte to Britain",
+     "xKategorie": "Expulsion and escape 1938/39"
+    },
+    {
+     "text": "Synagogues burn; shops are wrecked",
+     "xKategorie": "Violence and plunder 1938"
+    },
+    {
+     "text": "Trains from Berlin and Wien to Riga and Minsk",
+     "xKategorie": "Deportation from 1941"
+    },
+    {
+     "text": "Jewish civil servants are dismissed (‘Aryan Paragraph’)",
+     "xKategorie": "Exclusion 1933"
+    },
+    {
+     "text": "‘Atonement payment’ of one billion Reichsmarks",
+     "xKategorie": "Violence and plunder 1938"
+    },
+    {
+     "text": "Sealed-off city districts in Łódź and Warschau",
+     "xKategorie": "Identification and ghettos 1939–41"
+    }
+   ]
+  },
+  {
+   "type": "achse",
+   "id": "k7-achse-zeit",
+   "title": "1933 to 1945: putting events in order",
+   "teilkompetenzen": [
+    "geschichte.methoden.ereignisse-zeitlich-ordnen",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Put the nine events in the correct chronological order: drag each card to a position from 1 (first) to 9 (last) – or tap the card, then the position. Only the order is scored.",
+   "x": {
+    "min": 1,
+    "max": 9,
+    "schritt": 1,
+    "teilstriche": 1,
+    "beschriftung": "Order (1 = first, 9 = last)"
+   },
+   "wertung": "reihenfolge",
+   "elemente": [
+    {
+     "text": "Wannsee Conference coordinates the genocide",
+     "x": 8
+    },
+    {
+     "text": "Boycott of Jewish shops across the Reich",
+     "x": 1
+    },
+    {
+     "text": "Évian Conference: hardly any country admits refugees",
+     "x": 4
+    },
+    {
+     "text": "Nuremberg Laws: Reich citizenship and ‘blood protection’",
+     "x": 2
+    },
+    {
+     "text": "The Red Army liberates Auschwitz",
+     "x": 9
+    },
+    {
+     "text": "‘Anschluss’ of Österreich; violence against Jews in Wien",
+     "x": 3
+    },
+    {
+     "text": "The Jewish star badge becomes compulsory in the Reich",
+     "x": 7
+    },
+    {
+     "text": "November pogroms: synagogues burn",
+     "x": 5
+    },
+    {
+     "text": "First Kindertransporte to Britain",
+     "x": 6
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "k7-quiz",
+   "title": "Self-check: from loss of rights to genocide",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Check whether you have understood the material. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "k7-q1",
+     "type": "single_choice",
+     "prompt": "What did the Reich Citizenship Law of 15 September 1935 stipulate?",
+     "options": [
+      {
+       "text": "Jewish people had to leave the German Reich within a year and lost their nationality."
+      },
+      {
+       "text": "Jewish people had to wear a yellow star in public and were no longer allowed to emigrate."
+      },
+      {
+       "text": "Jewish people had to sell their shops to non-Jewish buyers and pay a financial penalty."
+      },
+      {
+       "text": "Jewish people remained state nationals, but only those ‘of German blood’ were Reich citizens with political rights.",
+       "correct": true
+      }
+     ],
+     "explanation": "The Reich Citizenship Law created two classes: Reich citizens with political rights and state nationals without them. Expulsion was not in the law; the Jewish star badge and emigration ban came in 1941, and plunder mainly in 1938."
+    },
+    {
+     "id": "k7-q2",
+     "type": "single_choice",
+     "prompt": "How did the Nazi authorities decide who was classified as a ‘Jew’?",
+     "options": [
+      {
+       "text": "By the person's own faith – anyone baptised as a Protestant or Catholic was no longer classified as a Jew."
+      },
+      {
+       "text": "By the grandparents' religious affiliations – with three or four Jewish grandparents, the person's own faith did not count.",
+       "correct": true
+      },
+      {
+       "text": "By a medical assessment of the person's appearance, blood group, skull shape and physique."
+      },
+      {
+       "text": "By the person's birthplace – anyone born in Eastern Europe was automatically classified as a Jew by the authorities."
+      }
+     ],
+     "explanation": "The regulation of 14 November 1935 counted Jewish grandparents by their religious affiliation. Neither a medical assessment nor birthplace counted. With three or four Jewish grandparents, someone was classified as a ‘Jew’ even if they had been baptised; only with two grandparents did their own community membership or marriage also matter. There was no biological characteristic, and that is precisely what exposes ‘racial doctrine’."
+    },
+    {
+     "id": "k7-q3",
+     "type": "true_false",
+     "prompt": "The murder of Europe's Jews began with the Wannsee Conference in January 1942.",
+     "answer": false,
+     "explanation": "False. The Einsatzgruppen's mass shootings had been taking place since June 1941, and murders at Chełmno extermination camp (using gas vans) since December 1941. The Wannsee Conference on 20 January 1942 coordinated the implementation across Europe of a genocide that had already begun."
+    },
+    {
+     "id": "k7-q4",
+     "type": "single_choice",
+     "prompt": "Why is ‘Reichskristallnacht’ a problematic term?",
+     "options": [
+      {
+       "text": "Because it is Nazi jargon and plays down the violence – broken glass instead of murder and arson.",
+       "correct": true
+      },
+      {
+       "text": "Because the pogrom took place in broad daylight, not at night, and no windows were broken."
+      },
+      {
+       "text": "Because historians only invented the term after 1945, and it was unknown at the time."
+      },
+      {
+       "text": "Because it refers only to Berlin, while the pogrom took place across the Reich and in Österreich."
+      }
+     ],
+     "explanation": "The term dates from the Nazi era and reduces murder and arson to the sound of glass; that is why the term November pogroms is used today. The pogrom began at night, the term was widespread at the time, and it does not refer only to Berlin."
+    },
+    {
+     "id": "k7-q5",
+     "type": "single_choice",
+     "prompt": "What was the ‘J’ stamp of 1938?",
+     "options": [
+      {
+       "text": "A stamp in German civil servants' identity documents that required them to take part in the ‘Polenaktion’."
+      },
+      {
+       "text": "A mark that SA guards put on Jewish shops during the boycott in April 1933 to warn customers."
+      },
+      {
+       "text": "A mark on German Jews' passports – proposed by Germany and used by Switzerland to turn people away.",
+       "correct": true
+      },
+      {
+       "text": "The stamp used by the Évian Conference in July 1938 to approve the admission of Jewish refugees."
+      }
+     ],
+     "explanation": "From October 1938, German Jews' passports carried a red ‘J’. The German authorities had proposed the marking; Switzerland agreed instead of requiring visas for all Germans, and used the ‘J’ to identify and turn away Jewish refugees at the border. The stamp had nothing to do with civil servants, the 1933 boycott or Évian."
+    },
+    {
+     "id": "k7-q6",
+     "type": "single_choice",
+     "prompt": "What distinguishes an extermination camp from a concentration camp (KZ)?",
+     "options": [
+      {
+       "text": "Concentration camps existed only in Germany itself, while extermination camps existed only in occupied Western Europe."
+      },
+      {
+       "text": "A concentration camp served detention, terror and forced labour; an extermination camp solely the murder of those arriving.",
+       "correct": true
+      },
+      {
+       "text": "A concentration camp was run by the Wehrmacht, an extermination camp by the Gestapo and local police."
+      },
+      {
+       "text": "Concentration camps existed only until 1939; after that, all existing camps were converted into extermination camps."
+      }
+     ],
+     "explanation": "Concentration camps were detention camps for terror and forced labour, where people also died in huge numbers. Camps used solely for extermination, such as Treblinka or Bełżec, served only to murder those arriving; Auschwitz-Birkenau and Majdanek were both concentration and extermination camps. Both types of camp were run by the SS, concentration camps existed until 1945 and were also located outside Germany, and the extermination camps were in occupied Poland, not Western Europe."
+    },
+    {
+     "id": "k7-q7",
+     "type": "single_choice",
+     "prompt": "Who was Paul Grüninger?",
+     "options": [
+      {
+       "text": "A journalist from Wien who reported on the humiliation of Jewish neighbours in 1938 and was arrested for doing so."
+      },
+      {
+       "text": "A German diplomat in Paris whom Herschel Grynszpan shot in November 1938 and who died shortly afterwards."
+      },
+      {
+       "text": "An organiser of the Kindertransporte who brought thousands of Jewish children to safety in Britain in 1938/39."
+      },
+      {
+       "text": "A police commander in St. Gallen who let Jewish refugees enter in 1938 against regulations.",
+       "correct": true
+      }
+     ],
+     "explanation": "In 1938, Paul Grüninger let hundreds of refugees enter at the border near Diepoldsau using backdated papers. He was dismissed and convicted in 1939, and his name was only cleared in 1995. He was neither a journalist nor from Wien; the humiliation of Jewish people in Wien in 1938 is documented but had nothing to do with him. The diplomat was Ernst vom Rath; British and Jewish aid organisations organised the Kindertransporte."
+    },
+    {
+     "id": "k7-q8",
+     "type": "single_choice",
+     "prompt": "From when did Jewish people in the German Reich have to wear the yellow star?",
+     "options": [
+      {
+       "text": "From September 1941, for people aged six and over.",
+       "correct": true
+      },
+      {
+       "text": "From the boycott of 1 April 1933, for all ages."
+      },
+      {
+       "text": "From the Nuremberg Laws of September 1935, from the age of 14."
+      },
+      {
+       "text": "From the Wannsee Conference in January 1942, for adults only."
+      }
+     ],
+     "explanation": "The police decree of 1 September 1941 came into force on 19 September 1941 and applied from the age of six. In 1933 and 1935, compulsory identification did not yet exist, and the Wannsee Conference had nothing to do with it."
+    },
+    {
+     "id": "k7-q9",
+     "type": "single_choice",
+     "prompt": "What was the outcome of the Évian Conference in July 1938?",
+     "options": [
+      {
+       "text": "The 32 countries committed to admitting fixed quotas of Jewish refugees each year."
+      },
+      {
+       "text": "Germany promised to make it easier for Jewish people to emigrate and to release their assets."
+      },
+      {
+       "text": "Hardly any country was willing to admit more refugees – Nazi propaganda used this as confirmation of its views.",
+       "correct": true
+      },
+      {
+       "text": "Switzerland took the lead and organised Kindertransporte to the USA and Canada."
+      }
+     ],
+     "explanation": "In Évian, representatives of 32 countries expressed regret about the situation, but hardly any wanted to admit more refugees; the regime took this as confirmation of its views. There were no fixed quotas, German promises or Swiss leadership role – the Kindertransporte to Britain only began after the November pogroms."
+    },
+    {
+     "id": "k7-q10",
+     "type": "single_choice",
+     "prompt": "Which groups besides Jews were persecuted and murdered by the Nazi regime?",
+     "options": [
+      {
+       "text": "Only political opponents from the KPD and SPD – other groups were largely spared the regime's terror."
+      },
+      {
+       "text": "Sinti and Roma, disabled people, Soviet prisoners of war, homosexuals and political opponents.",
+       "correct": true
+      },
+      {
+       "text": "Only people in the occupied territories in the east – there were no other victims within the German Reich itself."
+      },
+      {
+       "text": "Mainly members of the Catholic Church, which had unanimously called for resistance to the regime."
+      }
+     ],
+     "explanation": "The genocide of the Sinti and Roma, the ‘euthanasia’ murders, the deaths of Soviet prisoners of war and the persecution of homosexuals, political opponents and Jehovah's Witnesses all form part of the toll of Nazi terror. It affected people both in the Reich and in the occupied territories; the Catholic Church as a whole did not call for resistance."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k7-tasks-reflexion",
+   "title": "Exploring further: saying no, Anne Frank and people's roles",
+   "teilkompetenzen": [
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen"
+   ],
+   "intro": "Your answers go to your teacher. Tasks 1 and 2 are for everyone; Task 3 is marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k7-r1",
+     "prompt": "Look at the staircase. At which stage could non-Jewish people in Germany – neighbours, customers, civil servants and clubs – still have done something, and why did so few do so? Answer in two to five sentences and give at least one reason other than ‘fear’.",
+     "hint": "Think of 1933 (boycott: who shopped there anyway?), 1935 (civil servants applied laws) and 1938 (neighbours watched; buyers benefited). Reasons might include getting used to it, personal gain, indifference, belief in propaganda or ‘It's none of my business’.",
+     "solution": "Example answer: There was most room to act at the lower steps: in 1933, customers could have continued shopping in Jewish shops, clubs could have kept their members, and civil servants could have refused to comply. Fear was not the only reason so few did so: many had absorbed the propaganda, many got used to each new step because it seemed small, and quite a few benefited – from job vacancies, cheap businesses and auctioned furniture. The higher up the staircase, the more dangerous dissent became – which is why saying no early mattered."
+    },
+    {
+     "id": "k7-r2",
+     "prompt": "Which steps of the staircase did Anne Frank's family experience? In two to four sentences, relate their lives to the stages – and explain why escaping to Amsterdam did not help in the end.",
+     "hint": "Frankfurt in 1933, Amsterdam in 1933/34, occupation in 1940, the star and exclusion from school, hiding in 1942, arrest in 1944, Auschwitz, Bergen-Belsen. The Franks fled earlier than most – which stages in Germany did they avoid as a result?",
+     "solution": "Example answer: In Frankfurt in 1933, the family experienced exclusion (stage 1), and they emigrated to Amsterdam in 1933/34 – long before many families had to flee following the pogrom and plunder in 1938/39 (stage 4); the Franks no longer experienced stages 2 and 3 in Germany. Persecution caught up with them when the Netherlands was occupied in 1940: exclusion, loss of rights and, from 1942, the Jewish star badge (stage 5) followed there within a short time. In 1942, they faced deportation (stage 6), which they tried to escape by hiding. After they were discovered in 1944, deportation and death in a camp followed (stages 6 and 7). Escape did not help because the war spread persecution across almost all of Europe – there was no safe country left for the Franks."
+    },
+    {
+     "id": "k7-r3",
+     "prompt": "(Extension) Histories of persecution often distinguish five roles. Perpetrators plan, order or carry out violence. Followers join in or benefit without using violence themselves. Bystanders watch and do nothing. Helpers (rescuers) assist persecuted people even though it is forbidden and dangerous. Victims are persecuted. The boundaries are fluid. Give an example from this module for each of these five roles. For perpetrators, followers, bystanders and helpers, explain in one sentence each what decision lay behind their behaviour; for victims, explain in one sentence what options they had and how persecution restricted these step by step. This is an analysis, not a role play.",
+     "hint": "Perpetrators: who ordered violence or carried it out themselves (for example, Goebbels or the SA)? Followers: who applied laws or bought ‘Aryanised’ shops without personally attacking anyone? Bystanders: the neighbours who watched in November 1938. Helpers: Paul Grüninger and the employees who helped those hiding in the annex. Victims: the Frank family, the men arrested in November 1938 and the Jewish people in Wien forced to scrub the streets in March 1938.",
+     "solution": "Example answer: Perpetrators included Goebbels, who triggered the pogrom, and the SA men who set synagogues on fire – they decided to order or carry out violence. Followers included buyers of ‘Aryanised’ businesses and civil servants who implemented bans without objection – they joined in because it brought advantages or an easy life, instead of saying no. Bystanders were the neighbours who watched in November 1938 – they decided to do nothing. Helpers such as Paul Grüninger or the employees at the annex in Amsterdam decided to break rules and take risks. Victims such as the Frank family sought ways out – emigration to Amsterdam, later hiding – but with each stage (occupation in 1940, compulsory identification, deportations), persecution took away more options; the perpetrators and the regime were responsible for their fate, not the persecuted people. The boundaries are fluid: civil servants who later organised deportations (for example, at the Wannsee Conference) were no longer followers but perpetrators – the same professional group can take different roles depending on its actions."
+    }
+   ]
+  }
+ ]
+}
