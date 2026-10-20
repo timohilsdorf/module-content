@@ -1,0 +1,831 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:25150952a1bcd41c59ed40deb44be84347d4d7cd032d0a62ddc735f19e11a56d",
+   "text": "Who's who? The party, SA, SS, Gestapo and youth organisations"
+  },
+  "description": {
+   "quelle": "sha256:bc44d602359d345ffb0ac8c8329e157ab0cf6b1e2305b34bc69a5f9b8a74e0c3",
+   "text": "NSDAP, SA, SS, Gestapo, HJ, BDM, DAF – the Nazi state was full of abbreviations. You will learn what they stood for: when the organisations were founded, what they did, how people recognised them and what part they played in the terror – and why terror worked even without police officers on every corner."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Spaces, Times, Societies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Spaces, Times, Societies"
+  },
+  "einheit": {
+   "quelle": "sha256:f17191b49e747388ab6a7483a373c72e8e4ab6273e67b43ee78842244bcaa5c7",
+   "text": "National Socialism – dictatorship, persecution, remembrance"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:6e5e65e0c82029e714296781b6b2116cdfaef8fabb1a146ad09364a8a915f616",
+   "text": "NSDAP"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:360bf3a8254ab93fc69e84ce6640d78535a34f3cdc0b1bdacec6ccdd93726a79",
+   "text": "SA"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:0e6fac6a3ad129a64c2b9d6eaf6680e4b5f95dcd36949dad585415b017633875",
+   "text": "SS"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:00b4977cf60162a3ecb712413b176a1a9a77ba287a99e96abb3a267ec0f5ba81",
+   "text": "Gestapo"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:d2e07a67989dbb0579585c68555f6637055d3d719bfadfed5a36f5151ab8d3fa",
+   "text": "Hitlerjugend"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:914cb1cdb5c59cff047d46a17fca1d7faf62e5463863e10a39af99f3a61aad21",
+   "text": "BDM"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:b92cd3f397ecad28877a88bd58ef921a6e81dbffc70f7237b4efa7e358e86b22",
+   "text": "DAF"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:779f312b6e092aef3358c006f51a44c3fa6220857fbd3683f1aa7bc6d93d66f4",
+   "text": "concentration camps"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:a0315be869e75d9bf764bf2d9e26c67f2467e35caa17d64a1f1bd5840ec0cdfa",
+   "text": "denunciation"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:7e3171e466fde5b8c24c10b2a768bd6b632fdc52c148ba7641c8a0956b87611f",
+   "text": "National Socialism"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:735b80ae37cc2e742f9ae856fa7f57e6b4b89a13bb8cfa8217969d6d0f7875b5",
+   "text": "I can explain what the abbreviations NSDAP, SA, SS, Gestapo, HJ, DJ, BDM, JM, DAF, KdF and RAD stand for."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:cd136c8f0057efd6ccc3fa1ddf23c21cd0a21a46fcb382290c49e30323e4501d",
+   "text": "For each of these organisations, I can state when it was founded, what its role was and how its members could be recognised."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:4fc3d7b172951db69694ad9e0df964638434f82272d2255401e7974bb0dabad8",
+   "text": "I can explain the roles of the SA, SS and Gestapo in the terror of the Nazi state, why denunciations were so important and why this threatened people's fundamental rights."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:880b9c09116dd7f57fc42c62bb6cb71019453bdd3818bdde9a273ce19c55993c",
+   "text": "I can explain why the SS became the most powerful organisation after 1934."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:0f1cd32f0a3c2f27162d26cf7b1501a5729b2ab8eae8b8ca195c8c31934e0f25",
+   "text": "(Extension) I can explain the background to KZ, the KdF-Wagen, the RSHA and the word ‘Nazi’, including the difference between concentration camps and extermination camps."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:47f950df94f4e977227ead66c74aafd64cb516e3a8277fd86c9b46e09211da82",
+   "text": "A state full of abbreviations"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:5430a6ee7180121cf763f90cc90fe26349aed73c0624a9347813004c5b16557b",
+   "text": "When you read about National Socialism, you come across abbreviations: NSDAP, SA, SS, HJ, BDM, DAF, KdF. This is no coincidence. Alongside the state, the Nazis built a second apparatus – the **party and its branches** – as well as organisations for almost every area of life: for young people, workers, women, teachers, doctors and farmers. In [[modul:nationalsozialismus-staatsformen-faschismus]], you learnt that this is exactly what characterises a totalitarian dictatorship: no one is supposed to remain outside its control.\n\nTo understand the Nazi state, you need to be able to tell these organisations apart. We will use the same set of questions for each organisation to help you:\n\n1. **What does the abbreviation stand for?**\n2. **When was the organisation founded?**\n3. **What was its role?**\n4. **How could its members be recognised?** (Uniform, colour, badge – we describe these in words.)\n5. **What part did it play in the terror?**\n\nFurther down, you will find an overview with eight profiles, followed by four matching exercises to practise. Start with the party – all the others stem from it."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:5ea6f7d713c94222512277422a7b86b9834235ea03a4cd66db3f98522c0e9988",
+   "text": "The party: NSDAP"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:716dad359be8ec3c2493d3ae986907b389f422eaaaf74e067ee3ec478eb6c2db",
+   "text": "**NSDAP** stands for **Nationalsozialistische Deutsche Arbeiterpartei** (National Socialist German Workers' Party). It emerged in 1920 from the small **DAP** (Deutsche Arbeiterpartei, or German Workers' Party) in München, which Hitler had joined in 1919; he became its chairman in 1921. After his failed attempt to overthrow the government in München in November 1923, the party was briefly banned; Hitler refounded it in 1925. You already know about its rise during the Great Depression from [[modul:weimar-wirtschaftskrise-nationalsozialismus]].\n\nFrom **14 July 1933**, the NSDAP was the **only legal party**. This changed its role: it was no longer one party among many, but the core of the state. Mayors, district administrators, headteachers, judges – anyone who wanted to advance their career generally needed a **party membership card** and wore the round **party badge** on their lapel. Membership rose from around 850 000 at the start of 1933 to **around 8.5 million by 1945**. More than a million people joined in the spring of 1933 alone – so many that long-standing party members mockingly called them **‘Märzgefallene’** (‘March casualties’): after the Reichstag election in March, they were suddenly ‘convinced’. In May 1933, the party even stopped accepting new members.\n\nLike the state, the party was organised from the top down: **Reichsleitung – Gauleiter – Kreisleiter – Ortsgruppenleiter – Blockleiter** (national leadership – regional leaders – district leaders – local group leaders – block leaders). Each **Blockleiter** was responsible for 40 to 60 households: he distributed propaganda and collected donations – and reported who did not salute the flag, who listened to foreign radio stations or who spoke in a way considered ‘hostile to the state’. You have seen the organisational chart in [[modul:nationalsozialismus-machtuebernahme-1933]].\n\n> **Remember:** The NSDAP was no longer a party in the democratic sense – there were no free elections, no opponents, and its reach extended into every home."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:2381da47a8fb958e778206c5d473b245b844c9532b90a396a4cceee50f80ce14",
+   "text": "SA and SS: the party's violence"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:dff2648dd144bd30071a606343eccaaad73334e7855c57b35a46978ab480536b",
+   "text": "## SA – Sturmabteilung (Storm Detachment)\n\nThe **SA** was formed in 1921 as the party's gang of thugs: it was supposed to ‘protect’ meetings (**Saalschutz**, or meeting security) and intimidate opponents. Its members wore **brown uniform shirts**, hence the name **‘Brownshirts’**. Before 1933, the SA fought Communists and Social Democrats in the streets; after 30 January 1933, it was unleashed on opponents as an **‘auxiliary police force’**, arresting and torturing people and setting up improvised camps. By 1934, it had several million members. It then became too powerful for the regime: after its leaders were murdered in June/July 1934 (the so-called **‘Röhm-Putsch’** – more on this in [[modul:nationalsozialismus-machtuebernahme-1933]]), the SA lost its power. It continued to exist – it took part again in the **November pogroms** of 1938 (violence against Jews organised by the regime throughout the Reich) – but power now lay with the SS.\n\n## SS – Schutzstaffel (Protection Squadron)\n\nThe **SS** began in 1925 as a small **bodyguard unit for Hitler**. From **1929**, it was led by **Heinrich Himmler**, who turned the bodyguard unit into a state within a state. Its members were supposed to be an ‘elite’. Anyone seeking admission had to prove **‘Aryan ancestry’** – **‘Aryan’** is Nazi terminology: the Nazis claimed that there was a superior ‘race’ of ‘Aryans’, to which Germans belonged. This has no scientific basis, as you will see in more detail in the next module in this series. SS men usually wore **black uniforms** (the Waffen-SS wore field grey during the war) and a **skull** badge on their caps. After 1934, the SS expanded in every direction:\n\n- It took control of the **police**: in 1936, Himmler became ‘Chief of the German Police’; the Gestapo (see below) was part of his domain.\n- Its **Totenkopfverbände** (‘Death's Head Units’) guarded and ran the **concentration camps**.\n- Its **Waffen-SS** was a separate fighting force alongside the Wehrmacht.\n- From June 1941, its **Einsatzgruppen** (mobile killing units drawn from the SS and police), together with Wehrmacht units and local helpers, murdered around 1.5 to 2 million people, mainly Jews, behind the front lines in Eastern Europe.\n- It ran the **extermination camps**.\n\nThe SS was therefore the main organisation responsible for terror and genocide. A later module in this series explains exactly what the Einsatzgruppen and extermination camps were and how persecution led to them; here, the focus is only on the role of the SS within the Nazi apparatus. The International Military Tribunal in Nürnberg declared it a **criminal organisation** in 1946.\n\n> **Remember:** SA = the thugs of the early years; stripped of power after 1934 (power passed to the SS), but involved in violence again during the November pogroms of 1938. SS = the ‘elite’ that organised the police, camps and mass murder."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:6773329ee05b9e7aca891cb868c6f2437d736cc395192cae9d8076c964ba905c",
+   "text": "Gestapo: the Geheime Staatspolizei (Secret State Police)"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:5dd4517bd389bcce3b90a6f07961a4a980cc3167e3f4d21b74ef302d43ebe07e",
+   "text": "**Gestapo** is short for **Geheime Staatspolizei** (Secret State Police). Hermann Göring founded it in April 1933 in Preußen as a political police force; from 1934, it was under Himmler's control and therefore that of the SS. Its task was to **track down and eliminate political opponents** – Communists, Social Democrats, critics within the churches, and later Jews, Jehovah's Witnesses, homosexuals and forced labourers.\n\nThree things made the Gestapo so dangerous:\n\n1. **No judicial oversight.** The Gestapo could place people in **‘Schutzhaft’** (‘protective custody’) – a euphemism, because this was about persecution, not protection: no charges, no judge, no time limit. People were often sent to a concentration camp by Gestapo order rather than by a court sentence. The suspension of fundamental rights under the Reichstag Fire Decree shaped everyday life: there was no longer any protection against arbitrary detention, no protection of the home from intrusion, and no privacy of correspondence.\n2. **Torture.** Interrogations in Gestapo cellars were notorious; the regime euphemistically called such abuse ‘intensified interrogation’.\n3. **Denunciation.** The Gestapo was much smaller than people believed: in 1937, it had only about 7 000 officers throughout the Reich. It nevertheless seemed to be everywhere and ‘all-knowing’, largely because of **information supplied by the public** – neighbours, colleagues, block leaders and sometimes members of the same family. Paid informants (‘V-Leute’) and information from interrogations also played a part. Historians have studied Gestapo files: a large proportion of cases began with a report (a **denunciation**) from someone close to the people targeted. Motives included fear and conviction, but also envy, disputes over a flat or revenge.\n\nIn 1939, the regime brought the Gestapo, the criminal police and the party's intelligence service, the **SD** (Sicherheitsdienst der SS, or SS Security Service), together in the **Reichssicherheitshauptamt (RSHA)** (Reich Security Main Office), headed by Reinhard Heydrich. The deportations of Jews were later also organised from there.\n\n> **Remember:** Terror did not work only from the top down. It worked because enough people took part – and because everyone knew that someone might be listening."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:91881308b73ff9dea58b441eaae7966401f678039026c63da9bf2aaf5852dfe4",
+   "text": "The youth organisations: HJ, DJ, BDM, JM"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:be40fcde704537e4495c664c565540955637214d1796b285c7eedf3a439ec044",
+   "text": "There were four organisations for children and young people, divided by age and sex:\n\n| Abbreviation | Full name | Who | Founded | Distinguishing feature |\n| --- | --- | --- | --- | --- |\n| **HJ** | Hitlerjugend (Hitler Youth) | Boys aged 14–18 | 1926 | brown shirt, black neckerchief with a leather slide, outdoor knife |\n| **DJ** | Deutsches Jungvolk (German Young People, nicknamed ‘Pimpfe’) | Boys aged 10–14 | 1929 | like the HJ, with shorts |\n| **BDM** | Bund Deutscher Mädel (League of German Girls) | Girls aged 14–18 | 1930 | white blouse, dark blue skirt, neckerchief |\n| **JM** | Jungmädelbund (League of Young Girls) | Girls aged 10–14 | 1931 | like the BDM |\n\nThe **Hitlerjugend** was founded in 1926; the Jungvolk, BDM and Jungmädelbund had joined it as sub-organisations by 1931. In 1931, **Baldur von Schirach** became leader of the entire Nazi youth movement. At the end of 1932, the Hitlerjugend had just over 100 000 members in total; by the end of 1933, it had more than two million. Most other youth associations had by then been banned or ‘incorporated’; only the Catholic youth movement, protected by a treaty between the regime and the Vatican, managed to survive for a few more years. The **Gesetz über die Hitlerjugend** (Hitler Youth Law) of 1 December 1936 made it the **state youth organisation**. At the beginning of 1939, the four organisations together had around 8.7 million young members; in March 1939, membership became **compulsory** from the age of ten.\n\n> **Remember:** ‘Hitlerjugend’ has two meanings. In the narrow sense, **HJ** refers only to the group for boys aged 14 to 18, as in the table above. In the broad sense, it means the whole Nazi youth organisation with all four sections (HJ, DJ, BDM, JM), as in the ‘Gesetz über die Hitlerjugend’ of 1936 and compulsory membership from the age of ten. As you read, check which meaning is intended.\n\nPay attention to the spelling: the official abbreviation is **BDM**, with a capital D; you may occasionally see ‘BdM’, but this is not the official form. What the youth organisations intended for young people – camps, drill, educational aims and elite schools – and how young people adapted or resisted is the subject of a separate module in this series."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:31951778795d925f70e515017256b8a98308d5e0a460cec4a64e6dc661f6aad3",
+   "text": "The mass organisations: DAF, KdF, RAD"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:68cef0b2865c9ae4b6e8c273ff2ce9e167a120d316b57c5b8073f366663ff404",
+   "text": "Adults, too, were supposed to have no life outside the regime's control. Three organisations covered work, leisure and the period after leaving school:\n\n- **DAF – Deutsche Arbeitsfront (German Labour Front).** Founded in May 1933 under **Robert Ley**, after the trade unions had been destroyed (you know about this from [[modul:nationalsozialismus-machtuebernahme-1933]]). It did not represent workers' interests; it was a **compulsory organisation**: strikes were banned, the ‘Betriebsführer’ (‘workplace leader’) gave orders, and the ‘Gefolgschaft’ (‘followers’) obeyed. With around **25 million members**, the DAF was the largest Nazi organisation.\n- **KdF – ‘Kraft durch Freude’ (‘Strength through Joy’).** The DAF's leisure organisation (from November 1933): cheap theatre tickets, sports courses, hikes and cruises on its own **KdF ships**. Leisure thus became part of propaganda – and a reward for those who belonged.\n- **RAD – Reichsarbeitsdienst (Reich Labour Service).** From 1935, young men had to do **six months of compulsory labour** (roads, drainage, later armaments); from 1939, this also applied to young women. The **spade** was its symbol; the RAD involved drill and preparation for military service.\n\n"
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:0c7e0f8fef6edd2462031a8cc93574aec4c12c1d13f8dd53c914d187d2f196f8",
+   "text": "Overview: who's who in the Nazi state?"
+  },
+  "blocks[6].szene.elemente[0].text": {
+   "quelle": "sha256:4db4f9ff6d11562b1ef8c92e366f2f5ad0da39c7270773e24c8d36758085b3c0",
+   "text": "Who's who in the Nazi state? Eight profiles"
+  },
+  "blocks[6].szene.elemente[1].text": {
+   "quelle": "sha256:1818aa94bb24b69e5bef0a8a60cf0a3f7cc3b34b6daf31b4c7f73c6be568c732",
+   "text": "blue: party · orange: violence and terror · green: youth · grey: mass organisations"
+  },
+  "blocks[6].szene.elemente[3].text": {
+   "quelle": "sha256:6e5e65e0c82029e714296781b6b2116cdfaef8fabb1a146ad09364a8a915f616",
+   "text": "NSDAP"
+  },
+  "blocks[6].szene.elemente[4].text": {
+   "quelle": "sha256:be86d8d77ae8630232c621cb05f5d4dc20a7fbf9b18a7bb9213283e9b6ad6a5e",
+   "text": "Nationalsozialistische Deutsche\nArbeiterpartei (from 1920)"
+  },
+  "blocks[6].szene.elemente[5].text": {
+   "quelle": "sha256:a8a9c86794aef7a72cd966e0c67837a0b048ec68c66599237a7a9474fd9d7eb8",
+   "text": "Role: only party from 1933;\nfills all key offices"
+  },
+  "blocks[6].szene.elemente[6].text": {
+   "quelle": "sha256:e5a85656846cfe6532d63fe23cef02a350a997e94ef3f275f60f7873ada3a017",
+   "text": "Features: party badge on lapel,\nmembership card"
+  },
+  "blocks[6].szene.elemente[8].text": {
+   "quelle": "sha256:360bf3a8254ab93fc69e84ce6640d78535a34f3cdc0b1bdacec6ccdd93726a79",
+   "text": "SA"
+  },
+  "blocks[6].szene.elemente[9].text": {
+   "quelle": "sha256:eaaa8a705772b3817f1e57a99679bae01987e5773bb8aabdf30c2858e2e56d5d",
+   "text": "Sturmabteilung (from 1921)"
+  },
+  "blocks[6].szene.elemente[10].text": {
+   "quelle": "sha256:bca771d842c43612dca85e8d28c52fb7a7bdfc267880582d3b72a8bb95029504",
+   "text": "Role: meeting security, street terror;\n‘auxiliary police’ in 1933;\nstripped of power from 1934"
+  },
+  "blocks[6].szene.elemente[11].text": {
+   "quelle": "sha256:ceaa52caa78b3b86d5d634bd4318dc9906a32f908417234916ac9b5190f69d87",
+   "text": "Feature: brown uniform shirts\n(‘Brownshirts’)"
+  },
+  "blocks[6].szene.elemente[13].text": {
+   "quelle": "sha256:0e6fac6a3ad129a64c2b9d6eaf6680e4b5f95dcd36949dad585415b017633875",
+   "text": "SS"
+  },
+  "blocks[6].szene.elemente[14].text": {
+   "quelle": "sha256:70caeb3ab0c0b9c9eb8131a7023ca5622ecb2df2d8f46ce98ac9bfe24c065b23",
+   "text": "Schutzstaffel (from 1925),\nleader: Heinrich Himmler"
+  },
+  "blocks[6].szene.elemente[15].text": {
+   "quelle": "sha256:7595aad65ca60c32ef463dfa9dfb43d27cbedfa9328132bea194270de1f95e5c",
+   "text": "Role: bodyguard, then police and\nterror apparatus; runs camps;\nmain perpetrator of genocide"
+  },
+  "blocks[6].szene.elemente[16].text": {
+   "quelle": "sha256:12520f3c28cff1d627f35e0656d162b52bbb3e0e337d8ab50a7d36de400e001f",
+   "text": "Features: black uniform,\nskull badge on cap"
+  },
+  "blocks[6].szene.elemente[18].text": {
+   "quelle": "sha256:00b4977cf60162a3ecb712413b176a1a9a77ba287a99e96abb3a267ec0f5ba81",
+   "text": "Gestapo"
+  },
+  "blocks[6].szene.elemente[19].text": {
+   "quelle": "sha256:b9b2eee3bdade63912851726e5a9e35b4fd6be7a6924a393d6f49b2fae53c408",
+   "text": "Geheime Staatspolizei\n(from 1933, under the SS from 1934)"
+  },
+  "blocks[6].szene.elemente[20].text": {
+   "quelle": "sha256:05a5dcebdbe944304fe1150efe324187363bc3a5493eac53cf12599a8d8a1aa0",
+   "text": "Role: persecutes opponents; arrests\nwithout courts (‘protective custody’);\nrelies on denunciations"
+  },
+  "blocks[6].szene.elemente[21].text": {
+   "quelle": "sha256:01c96b02611d02a7c4ea04932619316f1d728d10cf2fec6c8f0ee14393837996",
+   "text": "Features: plain clothes; part of the\nReichssicherheitshauptamt from 1939"
+  },
+  "blocks[6].szene.elemente[23].text": {
+   "quelle": "sha256:3edc1ec1da9403ec2dd7333a3d5629cea6d288ae405484b19f4243767fc5c696",
+   "text": "HJ / DJ"
+  },
+  "blocks[6].szene.elemente[24].text": {
+   "quelle": "sha256:78b6a0fa3d2f0a24670521ac09ca486ed4a8aef112a52dd119e352a174223b1d",
+   "text": "Hitlerjugend (boys 14–18, from 1926)\nDeutsches Jungvolk (boys 10–14,\nfrom 1929)"
+  },
+  "blocks[6].szene.elemente[25].text": {
+   "quelle": "sha256:331955d0c5a7a7e020971667b02cad20a5388024f98dc2f7c8ddbf1afe158f93",
+   "text": "Role: teach obedience and readiness\nfor war; state youth from 1936,\ncompulsory from 1939"
+  },
+  "blocks[6].szene.elemente[26].text": {
+   "quelle": "sha256:83c58293a3b941e69a765d089b786afc745628ff30409d9b04ad50df238a4051",
+   "text": "Features: brown shirt, black neckerchief\nwith leather slide, outdoor knife"
+  },
+  "blocks[6].szene.elemente[28].text": {
+   "quelle": "sha256:68f8011152f4017ae32c4bee3b4eb96ad4174d66f83e9d4494ff481d81606aa1",
+   "text": "BDM / JM"
+  },
+  "blocks[6].szene.elemente[29].text": {
+   "quelle": "sha256:189373e85adce73dc448015f8e7584d654e24240686e0816a96150f27c576c85",
+   "text": "Bund Deutscher Mädel\n(girls 14–18, from 1930)\nJungmädelbund (10–14, from 1931)"
+  },
+  "blocks[6].szene.elemente[30].text": {
+   "quelle": "sha256:42d22280af0c25c971a981f1d71a059423e895b4150017598aeff655708f6a0c",
+   "text": "Role: train ‘German women and\nmothers’; sport,\nhousekeeping, camps"
+  },
+  "blocks[6].szene.elemente[31].text": {
+   "quelle": "sha256:6638839115a1a01b17e95f25f9dcae6455b32d8be661fda2e83499aad77255ed",
+   "text": "Features: white blouse,\ndark blue skirt"
+  },
+  "blocks[6].szene.elemente[33].text": {
+   "quelle": "sha256:b92cd3f397ecad28877a88bd58ef921a6e81dbffc70f7237b4efa7e358e86b22",
+   "text": "DAF"
+  },
+  "blocks[6].szene.elemente[34].text": {
+   "quelle": "sha256:90ace14462727719eb403fc184a225825d66f5513040ff1e7636978f1f66388d",
+   "text": "Deutsche Arbeitsfront\n(from May 1933, Robert Ley)"
+  },
+  "blocks[6].szene.elemente[35].text": {
+   "quelle": "sha256:420e3336b7feea3aedb678214da1c20342c825bc50ba62718ff05600a1f09d76",
+   "text": "Role: replaces destroyed\ntrade unions; compulsory\norganisation for all employees"
+  },
+  "blocks[6].szene.elemente[36].text": {
+   "quelle": "sha256:8153e7d404c67aa90928e6720644491b70123e7466c33f9d704a54dca23aa438",
+   "text": "Feature: largest Nazi organisation:\naround 25 million members"
+  },
+  "blocks[6].szene.elemente[38].text": {
+   "quelle": "sha256:c2154d64d0dc2cbc29933d0e3bae803ceece2caa63c400b190ea6a5c071f7530",
+   "text": "KdF / RAD"
+  },
+  "blocks[6].szene.elemente[39].text": {
+   "quelle": "sha256:c55e04d14c5df054c2450c2082fb4536ae6f14fb1ba39598df0953d40ad59560",
+   "text": "‘Kraft durch Freude’ (from 1933)\nReichsarbeitsdienst (compulsory\nfrom 1935)"
+  },
+  "blocks[6].szene.elemente[40].text": {
+   "quelle": "sha256:521b9ebcb0953b75aff2f4f6dc34a41e3b56e62b3c8c8ad9cfef1af122e3f200",
+   "text": "Role: KdF: travel, sport, concerts\nRAD: six months' compulsory labour,\npreparation for military service"
+  },
+  "blocks[6].szene.elemente[41].text": {
+   "quelle": "sha256:64013a193825ba41ae0d786b8ea2b91cf826945acfe58ad2300c53dd67c8409d",
+   "text": "Features: KdF ships; RAD: spade\nas its symbol"
+  },
+  "blocks[6].szene.elemente[43].text": {
+   "quelle": "sha256:3751985b67073f44230cb0c0dcd551a035f0f5b948db8a0d52e6e43be6a2f1cb",
+   "text": "Party, violence and mass organisations worked together: no one was to remain outside their control – and anyone could be watched."
+  },
+  "blocks[6].beschreibung": {
+   "quelle": "sha256:b69f07bea995643a81f5efc1a2c09ee933e785fc1d92577c4f9c154752de22e2",
+   "text": "Who's who in the Nazi state? Eight profiles. Blue: party; orange: violence/terror; green: youth; grey: mass organisations. Cards: abbreviation, full name, role, features. 1. NSDAP: Nationalsozialistische Deutsche Arbeiterpartei, 1920; only party from 1933, fills key offices; lapel badge, membership card. 2. SA: Sturmabteilung, 1921; meeting security, street terror, auxiliary police in 1933, powerless from 1934; brown shirts (Brownshirts). 3. SS: Schutzstaffel, 1925, led by Heinrich Himmler; bodyguard, then police/terror apparatus, runs camps, main perpetrator of genocide; black uniform, skull badge on cap. 4. Gestapo: Geheime Staatspolizei, 1933, under SS from 1934; persecutes opponents, arrests without courts (‘protective custody’), relies on denunciations; plain clothes, in Reichssicherheitshauptamt from 1939. 5. HJ/DJ: Hitlerjugend (boys 14–18, 1926), Deutsches Jungvolk (boys 10–14, 1929); teaches obedience/readiness for war, state youth from 1936, compulsory from 1939; brown shirt, black neckerchief with leather slide, outdoor knife. 6. BDM/JM: Bund Deutscher Mädel (girls 14–18, 1930), Jungmädelbund (10–14, 1931); trains German women/mothers, sport, housekeeping, camps; white blouse, dark blue skirt. 7. DAF: Deutsche Arbeitsfront, May 1933, Robert Ley; replaces destroyed trade unions, compulsory for all employees; largest Nazi organisation, around 25 million members. 8. KdF/RAD: Kraft durch Freude, 1933; Reichsarbeitsdienst, compulsory from 1935; KdF: travel, sport, concerts; RAD: six months' compulsory labour preparing for military service; KdF ships, RAD's spade symbol. 9. Key point: party, violence and mass organisations worked together: no one was to remain outside their control, and anyone could be watched."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:91d8ba402c6029805178d69daffa8edcd449f80473b1fb411b51d28fec1a326f",
+   "text": "Round 1: abbreviation and full name"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:f3f01734ca5f548b23dcff030b461c01e86fb6fec716d56d5e3ae9aed7c2d45c",
+   "text": "Tap an abbreviation on the left and its full name on the right. Each item has exactly one match."
+  },
+  "blocks[7].paare[0].links.text": {
+   "quelle": "sha256:6e5e65e0c82029e714296781b6b2116cdfaef8fabb1a146ad09364a8a915f616",
+   "text": "NSDAP"
+  },
+  "blocks[7].paare[0].rechts.text": {
+   "quelle": "sha256:ad14339c3ce74f95719dca88fd8c3a342660cc975b9eea4c63062bb595534455",
+   "text": "Nationalsozialistische Deutsche Arbeiterpartei (National Socialist German Workers' Party)"
+  },
+  "blocks[7].paare[1].links.text": {
+   "quelle": "sha256:360bf3a8254ab93fc69e84ce6640d78535a34f3cdc0b1bdacec6ccdd93726a79",
+   "text": "SA"
+  },
+  "blocks[7].paare[1].rechts.text": {
+   "quelle": "sha256:488e292ef53ec7a3c24f028644b7fb3925c743e67ab7b1d58bf9e6a4350e81c2",
+   "text": "Sturmabteilung (Storm Detachment)"
+  },
+  "blocks[7].paare[2].links.text": {
+   "quelle": "sha256:0e6fac6a3ad129a64c2b9d6eaf6680e4b5f95dcd36949dad585415b017633875",
+   "text": "SS"
+  },
+  "blocks[7].paare[2].rechts.text": {
+   "quelle": "sha256:64b62d66b55a04470651e7ee204bc6749e1936305a063cbf2c0aa2f7de1e2e39",
+   "text": "Schutzstaffel (Protection Squadron)"
+  },
+  "blocks[7].paare[3].links.text": {
+   "quelle": "sha256:00b4977cf60162a3ecb712413b176a1a9a77ba287a99e96abb3a267ec0f5ba81",
+   "text": "Gestapo"
+  },
+  "blocks[7].paare[3].rechts.text": {
+   "quelle": "sha256:619ddb49976859939cd19ea2371e77453b88f971995a8c415ccfcc9b3ab0aeec",
+   "text": "Geheime Staatspolizei (Secret State Police)"
+  },
+  "blocks[7].paare[4].links.text": {
+   "quelle": "sha256:e8155498ffc675f886d28cc75db78b82c1d9e112cb19fb6f3d8d70c259d1479c",
+   "text": "HJ"
+  },
+  "blocks[7].paare[4].rechts.text": {
+   "quelle": "sha256:d2e07a67989dbb0579585c68555f6637055d3d719bfadfed5a36f5151ab8d3fa",
+   "text": "Hitlerjugend (Hitler Youth)"
+  },
+  "blocks[7].paare[5].links.text": {
+   "quelle": "sha256:6792a7378ad3efaa577aaa68a96880aed193e09ebea3ac5f6e82514ff7d90c3f",
+   "text": "DJ"
+  },
+  "blocks[7].paare[5].rechts.text": {
+   "quelle": "sha256:24754f5e3baf189a0b28f3a3da315d06d50761d0184f13f82ab0fd8a24f1c6f3",
+   "text": "Deutsches Jungvolk (German Young People)"
+  },
+  "blocks[7].paare[6].links.text": {
+   "quelle": "sha256:914cb1cdb5c59cff047d46a17fca1d7faf62e5463863e10a39af99f3a61aad21",
+   "text": "BDM"
+  },
+  "blocks[7].paare[6].rechts.text": {
+   "quelle": "sha256:837c2a880249288ac1c32063fc5a288cf76a6dc7518b03a19df3deaba1ee4523",
+   "text": "Bund Deutscher Mädel (League of German Girls)"
+  },
+  "blocks[7].paare[7].links.text": {
+   "quelle": "sha256:d5ef996639091278315e21f37b279ee9f2556b49f2c2f7eeee27eb6986800cfd",
+   "text": "JM"
+  },
+  "blocks[7].paare[7].rechts.text": {
+   "quelle": "sha256:e9ee951c1c4c70d291394d169df9c2ae6447acaf9bd6c14b25051d72d2255a8d",
+   "text": "Jungmädelbund (League of Young Girls)"
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:1bccaa1d7f47c33d0782207ddd5b83ffeee53610bdd621b3bb02e4dacd6f3c6b",
+   "text": "Round 2: organisation and role"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:f2c8171875bf0ef87a5db4b00c28e329086a90b503ca4ed7abb4cddee2bf8b7f",
+   "text": "What was each organisation's role? Tap one item on the left and one on the right."
+  },
+  "blocks[8].paare[0].links.text": {
+   "quelle": "sha256:6e5e65e0c82029e714296781b6b2116cdfaef8fabb1a146ad09364a8a915f616",
+   "text": "NSDAP"
+  },
+  "blocks[8].paare[0].rechts.text": {
+   "quelle": "sha256:4f6a86ba488bb92d92b994667a08d0a0bee6aab6629f9a9d386dd760e0cc0ed8",
+   "text": "only party; fills all key offices; block leaders monitor the neighbourhood"
+  },
+  "blocks[8].paare[1].links.text": {
+   "quelle": "sha256:360bf3a8254ab93fc69e84ce6640d78535a34f3cdc0b1bdacec6ccdd93726a79",
+   "text": "SA"
+  },
+  "blocks[8].paare[1].rechts.text": {
+   "quelle": "sha256:543816bf3e082bd65270aa38cddb2e227501280277015d1aa29dd58aba5d7b06",
+   "text": "meeting security and street terror before 1933; ‘auxiliary police’ in 1933; stripped of power after 1934"
+  },
+  "blocks[8].paare[2].links.text": {
+   "quelle": "sha256:0e6fac6a3ad129a64c2b9d6eaf6680e4b5f95dcd36949dad585415b017633875",
+   "text": "SS"
+  },
+  "blocks[8].paare[2].rechts.text": {
+   "quelle": "sha256:c059c2849d92342e30b2296b206817cb21ddd3c6409eab3774600bcc95d52f02",
+   "text": "first a bodyguard unit, then a police and terror apparatus; runs concentration and extermination camps"
+  },
+  "blocks[8].paare[3].links.text": {
+   "quelle": "sha256:00b4977cf60162a3ecb712413b176a1a9a77ba287a99e96abb3a267ec0f5ba81",
+   "text": "Gestapo"
+  },
+  "blocks[8].paare[3].rechts.text": {
+   "quelle": "sha256:5844255f2f276db676b54ab7eef4d1405ac45e33e114fdd445168ee8b30b2876",
+   "text": "secret political police; arrests without court oversight and uses information from the public"
+  },
+  "blocks[8].paare[4].links.text": {
+   "quelle": "sha256:e8155498ffc675f886d28cc75db78b82c1d9e112cb19fb6f3d8d70c259d1479c",
+   "text": "HJ"
+  },
+  "blocks[8].paare[4].rechts.text": {
+   "quelle": "sha256:ebca392a1475ef14553eee511423961deb6a4e377d2b271b491ed41a5d8075bb",
+   "text": "trains boys aged 14 to 18 to obey and be ready for war"
+  },
+  "blocks[8].paare[5].links.text": {
+   "quelle": "sha256:914cb1cdb5c59cff047d46a17fca1d7faf62e5463863e10a39af99f3a61aad21",
+   "text": "BDM"
+  },
+  "blocks[8].paare[5].rechts.text": {
+   "quelle": "sha256:0556a381e7798812a1ea774d946f405469898b5585e62c283f5eab68b48cf7a8",
+   "text": "trains girls aged 14 to 18 to become ‘German women and mothers’"
+  },
+  "blocks[8].paare[6].links.text": {
+   "quelle": "sha256:b92cd3f397ecad28877a88bd58ef921a6e81dbffc70f7237b4efa7e358e86b22",
+   "text": "DAF"
+  },
+  "blocks[8].paare[6].rechts.text": {
+   "quelle": "sha256:2e9d9531d841bbb584756e13d084e42faf484004fedb025932790aeac5ed9407",
+   "text": "replaces the destroyed trade unions; compulsory organisation for employees"
+  },
+  "blocks[8].paare[7].links.text": {
+   "quelle": "sha256:59b8db58a30c024ad6ee781db2dee1309971010eb591ec6c07211a751f2d1569",
+   "text": "KdF"
+  },
+  "blocks[8].paare[7].rechts.text": {
+   "quelle": "sha256:c17d6180b5d5cc663611296fc7e77453d0cec19e5177e6b7aa7dd2d2cb0ef52c",
+   "text": "organises leisure, travel and sport – leisure as part of propaganda"
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:bc782ca2f7dadec6da4693981bf736504bd5024a9c6c6e94e8c66e95fc332c13",
+   "text": "Round 3: how could they be recognised?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:169eb2093bed212ea081c73c59e8a03f5951af253ab2d5b5553e15438ea7009c",
+   "text": "Tap a distinguishing feature on the left and the matching organisation on the right. Be careful: several organisations wore brown shirts – pay attention to the details."
+  },
+  "blocks[9].paare[0].links.text": {
+   "quelle": "sha256:44288b6255d246784d80f4dfef83f03ad55fa564e111b09798df7a4da92ac3cf",
+   "text": "brown uniform shirts, hence the name ‘Brownshirts’"
+  },
+  "blocks[9].paare[0].rechts.text": {
+   "quelle": "sha256:360bf3a8254ab93fc69e84ce6640d78535a34f3cdc0b1bdacec6ccdd93726a79",
+   "text": "SA"
+  },
+  "blocks[9].paare[1].links.text": {
+   "quelle": "sha256:77abc8ba5e353c346b006d8a8893ecdaa4a82f06930c10d6f10df859e72b90c9",
+   "text": "black uniform, skull badge on the cap"
+  },
+  "blocks[9].paare[1].rechts.text": {
+   "quelle": "sha256:0e6fac6a3ad129a64c2b9d6eaf6680e4b5f95dcd36949dad585415b017633875",
+   "text": "SS"
+  },
+  "blocks[9].paare[2].links.text": {
+   "quelle": "sha256:377cc8f5447c64ef517b34e16644e09f3a57c057e1f33b451e9824b24ee94c24",
+   "text": "plain-clothes officers waiting for reports from neighbours"
+  },
+  "blocks[9].paare[2].rechts.text": {
+   "quelle": "sha256:00b4977cf60162a3ecb712413b176a1a9a77ba287a99e96abb3a267ec0f5ba81",
+   "text": "Gestapo"
+  },
+  "blocks[9].paare[3].links.text": {
+   "quelle": "sha256:bdaa577d066e8866fa9e07b3d1e0e02a3d1fd9d0204148b2c757954816215937",
+   "text": "black neckerchief with a leather slide, outdoor knife"
+  },
+  "blocks[9].paare[3].rechts.text": {
+   "quelle": "sha256:e8155498ffc675f886d28cc75db78b82c1d9e112cb19fb6f3d8d70c259d1479c",
+   "text": "HJ"
+  },
+  "blocks[9].paare[4].links.text": {
+   "quelle": "sha256:dd4ba245b2a78c38cf3146da32c068d96a7271dfb75c0d1a37cfa936474da8f6",
+   "text": "white blouse, dark blue skirt"
+  },
+  "blocks[9].paare[4].rechts.text": {
+   "quelle": "sha256:914cb1cdb5c59cff047d46a17fca1d7faf62e5463863e10a39af99f3a61aad21",
+   "text": "BDM"
+  },
+  "blocks[9].paare[5].links.text": {
+   "quelle": "sha256:e04db88e63484239853574726142b78b81305c1079d5a08e78a5e4814d598bb0",
+   "text": "party badge on the lapel and a party membership card"
+  },
+  "blocks[9].paare[5].rechts.text": {
+   "quelle": "sha256:6e5e65e0c82029e714296781b6b2116cdfaef8fabb1a146ad09364a8a915f616",
+   "text": "NSDAP"
+  },
+  "blocks[9].paare[6].links.text": {
+   "quelle": "sha256:803e10db6e17b2a059faa0d31bbde8ac22899521323514bf6fa223a5058c4f5a",
+   "text": "cruise ships and outings for workers' families"
+  },
+  "blocks[9].paare[6].rechts.text": {
+   "quelle": "sha256:59b8db58a30c024ad6ee781db2dee1309971010eb591ec6c07211a751f2d1569",
+   "text": "KdF"
+  },
+  "blocks[9].paare[7].links.text": {
+   "quelle": "sha256:d1b77c1439006cb8a964e51597f2577bc6eb2c3ce65a320080aceb07a4e854d6",
+   "text": "spade as its symbol, six months of compulsory service"
+  },
+  "blocks[9].paare[7].rechts.text": {
+   "quelle": "sha256:4b1df5eb855ddb3c2701d3566ef3ca14a1b57a1287d946bfb79ef47dd7d88d6a",
+   "text": "RAD"
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:c1f26a8dee006f824ba3e5e5177114ffd193798d23c6c17ee8bca87403aad5b8",
+   "text": "Round 4: when were they founded?"
+  },
+  "blocks[10].intro": {
+   "quelle": "sha256:6a08eb869adf6005a09d76033c00e74a73b692265aa6b16c5e22a446bac5dd6b",
+   "text": "Match each organisation to when it was founded. Each item has exactly one match."
+  },
+  "blocks[10].paare[0].links.text": {
+   "quelle": "sha256:6e5e65e0c82029e714296781b6b2116cdfaef8fabb1a146ad09364a8a915f616",
+   "text": "NSDAP"
+  },
+  "blocks[10].paare[0].rechts.text": {
+   "quelle": "sha256:0490cf625307773af9bee2e860042696a162c61efc8286bb943ee6ea4d5de241",
+   "text": "1920, from the DAP"
+  },
+  "blocks[10].paare[1].links.text": {
+   "quelle": "sha256:360bf3a8254ab93fc69e84ce6640d78535a34f3cdc0b1bdacec6ccdd93726a79",
+   "text": "SA"
+  },
+  "blocks[10].paare[1].rechts.text": {
+   "quelle": "sha256:d982309a461bcc3abc15489201522c8df291aa650eabafda45f1583b03992cc9",
+   "text": "1921"
+  },
+  "blocks[10].paare[2].links.text": {
+   "quelle": "sha256:0e6fac6a3ad129a64c2b9d6eaf6680e4b5f95dcd36949dad585415b017633875",
+   "text": "SS"
+  },
+  "blocks[10].paare[2].rechts.text": {
+   "quelle": "sha256:9b13f0a11a1c82425791a0dbff258630430edc215bc5f4033f276f5db70e942b",
+   "text": "1925, as Hitler's bodyguard unit"
+  },
+  "blocks[10].paare[3].links.text": {
+   "quelle": "sha256:e8155498ffc675f886d28cc75db78b82c1d9e112cb19fb6f3d8d70c259d1479c",
+   "text": "HJ"
+  },
+  "blocks[10].paare[3].rechts.text": {
+   "quelle": "sha256:255ac64f2a9b374157860601793d61491c561c29df77cbf82d4610772937ce59",
+   "text": "1926"
+  },
+  "blocks[10].paare[4].links.text": {
+   "quelle": "sha256:00b4977cf60162a3ecb712413b176a1a9a77ba287a99e96abb3a267ec0f5ba81",
+   "text": "Gestapo"
+  },
+  "blocks[10].paare[4].rechts.text": {
+   "quelle": "sha256:6cd714ec4658100914df46e316b32f4be54ac507ef3a6a779c451d41bbdc4209",
+   "text": "April 1933, in Preußen"
+  },
+  "blocks[10].paare[5].links.text": {
+   "quelle": "sha256:b92cd3f397ecad28877a88bd58ef921a6e81dbffc70f7237b4efa7e358e86b22",
+   "text": "DAF"
+  },
+  "blocks[10].paare[5].rechts.text": {
+   "quelle": "sha256:57ee46052ae357a6f0e99dd9a9a24300ea2bc58ec94f441fb4fa6e261d6dcb16",
+   "text": "May 1933, after the destruction of the trade unions"
+  },
+  "blocks[11].title": {
+   "quelle": "sha256:aff48b97d5b5f797de1d9c247230df60658a4d36278b5acec9b98f108149a3c8",
+   "text": "Background: KZ, the KdF-Wagen, the RSHA and the word ‘Nazi’ (extension)"
+  },
+  "blocks[11].body": {
+   "quelle": "sha256:c6d0fff895bc38329a799b2b5d13a6db9df8fed680bcca6986d97f043e8030b1",
+   "text": "- **KZ – Konzentrationslager (concentration camp).** Detention camps where people were held without a court sentence, initially for political opponents (Dachau, March 1933), later for everyone the regime excluded. Run by the SS-Totenkopfverbände. Important: a concentration camp is **not the same as an extermination camp**. In concentration camps, people were tortured and exploited, and died in huge numbers; from 1941/42, extermination camps in occupied Poland were used for deliberate mass killing. You will learn more in the module on the persecution of Jews.\n- **The ‘KdF-Wagen’.** The leisure organisation promised every family a car of their own: hundreds of thousands saved up through savings stamps, but not a single saver received their car – from 1939, the factory built military vehicles. After the war, the model became the VW Käfer (Beetle).\n- **RSHA – Reichssicherheitshauptamt (Reich Security Main Office).** From 1939, the headquarters of the Gestapo, criminal police and SD under Reinhard Heydrich – the nerve centre of terror and later of the deportations.\n- **NS / ‘Nazi’.** NS is short for ‘nationalsozialistisch’ (National Socialist). ‘Nazi’ was originally a mocking nickname used by opponents (like ‘Sozi’ for Social Democrats) and became the word commonly used today.\n"
+  },
+  "blocks[12].title": {
+   "quelle": "sha256:c9a068d569af4e2916fb4fbb75451fdb40d62771d8c41e7049017a630695da28",
+   "text": "Decode the abbreviations"
+  },
+  "blocks[12].intro": {
+   "quelle": "sha256:1c07f087f278db9a629cdf1e12bfbc789a524161773c8409791d7adbd95bf406",
+   "text": "Type in the missing abbreviations or words yourself. Capitalisation does not matter."
+  },
+  "blocks[13].title": {
+   "quelle": "sha256:fbf2703aa1d0b40975d46a96638b52f8f15c157dcbda701bb039cd6be6f6f21b",
+   "text": "Self-check: who's who?"
+  },
+  "blocks[13].intro": {
+   "quelle": "sha256:8b350315f79780ae70979844311801c12218f9efd7abc7afacd474eef28d9422",
+   "text": "Check whether you can tell the organisations apart. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[13].questions[0].prompt": {
+   "quelle": "sha256:c9e1dfbe881f18e01d7b4675b72241888bf32ff04f1139984ad4a601d246ec77",
+   "text": "Which organisation wore brown uniform shirts and was stripped of power after 1934?"
+  },
+  "blocks[13].questions[0].options[0].text": {
+   "quelle": "sha256:8d72b38c8835f750e204c7d6ee34de20fe1cb9f00578bc6550fd241093059058",
+   "text": "The SS, after Himmler took over the police."
+  },
+  "blocks[13].questions[0].options[1].text": {
+   "quelle": "sha256:0fb4225cef58765143410523bf6c084c82023308903a91d088f960901224cc43",
+   "text": "The SA, after its leaders were murdered in June/July 1934."
+  },
+  "blocks[13].questions[0].options[2].text": {
+   "quelle": "sha256:6faeacf518a5fb205f01db59d912cf548984bb81304554265b9346710800eb63",
+   "text": "The Gestapo, after it was incorporated into the Reichssicherheitshauptamt."
+  },
+  "blocks[13].questions[0].options[3].text": {
+   "quelle": "sha256:a99d1f5adcfe280844b4c36d8a565dc8f1700a14a29e93aa6a07cd5e73ff1bd3",
+   "text": "The Hitlerjugend, after it was declared the state youth organisation in 1936."
+  },
+  "blocks[13].questions[0].explanation": {
+   "quelle": "sha256:738248bca1cdb6dba4f9cab3a992757ab6334026e86ed83a359d7d06241f98e5",
+   "text": "The ‘Brownshirts’ were the SA. After the so-called ‘Röhm-Putsch’ in 1934, it lost its power to the SS. The SS wore black, the Gestapo worked in plain clothes, and in 1936 the Hitlerjugend's status was strengthened, not weakened."
+  },
+  "blocks[13].questions[1].prompt": {
+   "quelle": "sha256:a28c9f67ac2c19d282826de58fed2ead97732b84b17ce8649690425569d32dd8",
+   "text": "Why did the SS become the most powerful organisation in the Nazi state after 1934?"
+  },
+  "blocks[13].questions[1].options[0].text": {
+   "quelle": "sha256:62aefcad42a1fe05ca896dfb9c5dd255e6c0dde001029c6051f9b135b36121bd",
+   "text": "Because it had more members than the NSDAP and SA combined."
+  },
+  "blocks[13].questions[1].options[1].text": {
+   "quelle": "sha256:672238db0e54ec8c5c501b3896f60eee6b2acbcaaa130c4893045057dc3e1a73",
+   "text": "Because Hitler put it in charge of all schools, colleges and universities."
+  },
+  "blocks[13].questions[1].options[2].text": {
+   "quelle": "sha256:dd18891cd88d71a2a1b47a0e70d0d3beaf81eb01a83df6953bbd30a1e1927e4c",
+   "text": "Because it organised and supervised Reichstag elections and counted the votes."
+  },
+  "blocks[13].questions[1].options[3].text": {
+   "quelle": "sha256:6118a4bee1c0804a715e9281ee3173d5fff5b5041c10c34e10f58f3291411271",
+   "text": "Because, under Himmler, it took over the police, the Gestapo and the concentration camps."
+  },
+  "blocks[13].questions[1].explanation": {
+   "quelle": "sha256:49b772110cb3237450649c7bb8989757cd3ed993a279f912edd2b821a3c41c02",
+   "text": "Himmler turned the bodyguard unit into a state within a state: the Gestapo was under his control from 1934, he became chief of the entire police force in 1936, and the SS-Totenkopfverbände ran the camps. Membership numbers, schools and elections played no part in this – free elections no longer existed anyway, only sham elections offering no real choice."
+  },
+  "blocks[13].questions[2].prompt": {
+   "quelle": "sha256:ece6402db8c7b4cef5404d8913a941a12e875fb3bff2787cee4e53b19a825291",
+   "text": "What did ‘Schutzhaft’ (‘protective custody’) mean?"
+  },
+  "blocks[13].questions[2].options[0].text": {
+   "quelle": "sha256:24a81fc6d67fe07726c938faf8090a85eff912eaf97b903c211e7c166b6cebc8",
+   "text": "Detention without charges, a judge or a time limit – ordered by the Gestapo."
+  },
+  "blocks[13].questions[2].options[1].text": {
+   "quelle": "sha256:7f3e06a67b0716a7aca274fd8468dcb72972d374eb09ebaf324c3c88bc2a1d58",
+   "text": "Brief detention to protect witnesses in political trials."
+  },
+  "blocks[13].questions[2].options[2].text": {
+   "quelle": "sha256:83c7728ad6d388836dfc06dc195f9043b75bc13a922ea8099395cba4f4919684",
+   "text": "Accommodation for young people in Hitlerjugend camps during the holidays."
+  },
+  "blocks[13].questions[2].options[3].text": {
+   "quelle": "sha256:171e970d65b0b50b243758b60d5bf475a25c129389251cf1c3eb39e022b1310f",
+   "text": "Police protection provided by the SA at NSDAP party events."
+  },
+  "blocks[13].questions[2].explanation": {
+   "quelle": "sha256:7cf4c6bf3db75d2a25f67919ae5cc785e7185011043c47ea072f57415c662055",
+   "text": "‘Schutzhaft’ was a euphemistic Nazi term for arrests without any court proceedings, usually by the Gestapo – often the route to a concentration camp. The term had nothing to do with witness protection, holiday camps or meeting security."
+  },
+  "blocks[13].questions[3].prompt": {
+   "quelle": "sha256:265cfcb1d4f34c3ce942c0154334d4e2c02d82f88cdd3b8ad0c5707eb4b16af7",
+   "text": "In 1937, the Gestapo had only about 7 000 officers. How could it still spread so much fear?"
+  },
+  "blocks[13].questions[3].options[0].text": {
+   "quelle": "sha256:99109383a8c6f025d5c692d981a47401d96fcac26dd2631dc5d123bd4a114497",
+   "text": "It had installed listening devices in every house and read everyone's letters."
+  },
+  "blocks[13].questions[3].options[1].text": {
+   "quelle": "sha256:a81845d2b943a3c1ec6c793f6e915b14eb6d06f6912a96a4979148481c0dabd2",
+   "text": "It had a visible presence of thousands of uniformed officers in every city."
+  },
+  "blocks[13].questions[3].options[2].text": {
+   "quelle": "sha256:043c56bb99d11871a7b40179950cda2818133551db50120c3849dd93280882ad",
+   "text": "It constantly received reports from people close to those targeted – and no one knew who was informing on them."
+  },
+  "blocks[13].questions[3].options[3].text": {
+   "quelle": "sha256:7085281c853b0dc490d160534f511fa51494e6873af396f34efa062de31ed70b",
+   "text": "It could only make arrests with a court order and was therefore considered particularly thorough."
+  },
+  "blocks[13].questions[3].explanation": {
+   "quelle": "sha256:e304efb1d9a26f8dfa682a49a58c5f5d5153ed70a41797ab88960552a8e84231",
+   "text": "The Gestapo was small and worked in plain clothes. Its power rested on denunciations: a large proportion of cases began with a report from someone close to the people targeted. There was no comprehensive electronic surveillance system, and the Gestapo did not need court orders."
+  },
+  "blocks[13].questions[4].prompt": {
+   "quelle": "sha256:d1a8f892a1c391b0d1ff811d4cbf0b8902157a010f3a9167558b95c40bf15962",
+   "text": "The SS began as Hitler's small bodyguard unit and only became a police and terror apparatus under Himmler."
+  },
+  "blocks[13].questions[4].explanation": {
+   "quelle": "sha256:7f1e8c737744f37f321e8dbaf2de22ee551204ed7dfb612ea5e8cb9284b80235",
+   "text": "True. Founded in 1925, the SS initially had only a few hundred men. From 1929, Heinrich Himmler built it into an ‘elite’; after 1934, it took over the police, Gestapo and camps."
+  },
+  "blocks[13].questions[5].prompt": {
+   "quelle": "sha256:b01c70f52fb7e9a03492c6276d77a54dc01c6c253b0eff0749066a6ed1136b38",
+   "text": "Which organisation replaced the destroyed trade unions in 1933?"
+  },
+  "blocks[13].questions[5].options[0].text": {
+   "quelle": "sha256:79a8b8d5407a0560219db138fe3f2f757a66e250a10383c48d5f3540d8b3e988",
+   "text": "The Reichsarbeitsdienst (RAD), with its six months of compulsory service."
+  },
+  "blocks[13].questions[5].options[1].text": {
+   "quelle": "sha256:f44752ceed58c7c7ba56206479e1d101303e9e0fe71daa894b102e75ab7e4961",
+   "text": "The Deutsche Arbeitsfront (DAF), a compulsory organisation with no right to strike."
+  },
+  "blocks[13].questions[5].options[2].text": {
+   "quelle": "sha256:7558ec2bebf79645895935d01ca1f92d1cf3d06c9a7da81ef42298dfa9a8c450",
+   "text": "The Reichssicherheitshauptamt (RSHA), headed by Reinhard Heydrich."
+  },
+  "blocks[13].questions[5].options[3].text": {
+   "quelle": "sha256:1d3068aa50c7aeb8e8f7a4249f9eb3bdfa6ca480c1f679f3ede5a7d208851530",
+   "text": "The ‘Kraft durch Freude’ (KdF) organisation, with its trips and courses."
+  },
+  "blocks[13].questions[5].explanation": {
+   "quelle": "sha256:2bef84252b5bf56e53caef032815a0869cd479ac4f82f9f37c63f2d129c99d7f",
+   "text": "After 2 May 1933, the DAF took the place of the trade unions – with no right to strike and no real representation of workers' interests. KdF was only its leisure department, the RAD was a compulsory labour service, and the RSHA was the terror headquarters of the Gestapo, criminal police and SD."
+  },
+  "blocks[13].questions[6].prompt": {
+   "quelle": "sha256:30b6eb9cb0ad80acc1273cbfe2fb8f9200dcfd20e7619f74a72cfe5fd8e213dd",
+   "text": "Whom did long-standing party members mockingly call ‘Märzgefallene’ (‘March casualties’)?"
+  },
+  "blocks[13].questions[6].options[0].text": {
+   "quelle": "sha256:06ea4df8cf20001447c92da8f8402cdd7d4a7dfd00d9f21d72dcc9f293c9b37b",
+   "text": "SA men who had died in street fighting in March 1933."
+  },
+  "blocks[13].questions[6].options[1].text": {
+   "quelle": "sha256:931eaf5c8924b8b3ad174b1753c1c2c236358b9e5ca43ffcbd981f33910087fc",
+   "text": "Members of parliament who had voted against the Enabling Act in March 1933."
+  },
+  "blocks[13].questions[6].options[2].text": {
+   "quelle": "sha256:d3d3a5dfeaa0a24676831a5cd5b4c91af9263686970998e53e3d66419fff02da",
+   "text": "Young people who were expelled from the Hitlerjugend in March 1933."
+  },
+  "blocks[13].questions[6].options[3].text": {
+   "quelle": "sha256:75a3b6b18dd296c8806a0ad8e1f4b39f94331bb55fb3ba7782ed6cdcf373d6f0",
+   "text": "People who joined the NSDAP in huge numbers after the election in March 1933."
+  },
+  "blocks[13].questions[6].explanation": {
+   "quelle": "sha256:32cd7da788a2b25ef4eaf4dfda465ce0b71f5b5b85d2025f679920b8283e0140",
+   "text": "After the electoral success of March 1933, more than a million people flocked to the party – many out of self-interest. Long-standing members called them ‘Märzgefallene’, and in May 1933 the NSDAP stopped accepting new members. The mocking nickname had nothing to do with people killed in fighting, members of parliament or the Hitlerjugend."
+  },
+  "blocks[14].title": {
+   "quelle": "sha256:0d2a98656e50eb59b5e1c4ca110320bf8cb639cec046afe4a936d302228e0c85",
+   "text": "Explore further: how terror works"
+  },
+  "blocks[14].intro": {
+   "quelle": "sha256:b182fc3a0abf9de49a8103bb866b7d760a97718fa4f7782b349e5d669283180d",
+   "text": "Your answers will be sent to your teacher. Task 1 is for everyone; tasks 2 to 4 are marked **(Extension)**."
+  },
+  "blocks[14].tasks[0].prompt": {
+   "quelle": "sha256:d6b0852d1d74f76b0994c4740f6a565301a8225a3dcf2f650690d530bfd66d01",
+   "text": "In two to three sentences, explain why terror in the Nazi state worked even without a Gestapo officer on every street corner."
+  },
+  "blocks[14].tasks[0].hint": {
+   "quelle": "sha256:a340ce98692df651446aee9d4cc3aa55de1389e6d1c8850147ddfc670d8cd0c1",
+   "text": "Think about the figure 7 000, about the block leaders – and about what happens when no one knows whom they can trust any more."
+  },
+  "blocks[14].tasks[0].solution": {
+   "quelle": "sha256:b89c7b27b14d848884a1cb043e586f19f06110052aa1626a3dff488f686ff75c",
+   "text": "Example answer: With around 7 000 officers, the Gestapo was far too small to monitor everyone. But it constantly received information from neighbours, colleagues, block leaders and even family members. Since no one knew who was listening and informing on them, people adapted their behaviour of their own accord – fear did what the police could not."
+  },
+  "blocks[14].tasks[1].prompt": {
+   "quelle": "sha256:e4b534cc28aa175f2f35460c96cf02fadb2f9b8e1c698418d19072041155e190",
+   "text": "(Extension) Compare the SA and SS in three to four sentences: why did the SA lose its power in 1934, and why did the SS gain power?"
+  },
+  "blocks[14].tasks[1].hint": {
+   "quelle": "sha256:c238f83c443571ae2b582c11f7d66747b83dd9b3c83f70f593d94dec8329a6d1",
+   "text": "Look back at [[modul:nationalsozialismus-machtuebernahme-1933]]: what did Röhm want to do with the SA, and why did this trouble the Reichswehr and Hitler? What roles did the SS take on afterwards?"
+  },
+  "blocks[14].tasks[1].solution": {
+   "quelle": "sha256:93c18e9d9946a4704f052d4c6743a4b98931acf8fa360bb5142a43a7fa47e20e",
+   "text": "Example answer: The SA was an army of millions of thugs that, under Röhm, wanted to replace the Reichswehr, turning the generals against it. Hitler needed the army for his plans and had the SS murder the SA leadership in 1934. The SS, by contrast, was smaller, was considered an ‘elite’ and obeyed unconditionally; under Himmler, it took over the police, Gestapo and camps. In this way, a bodyguard unit became the organisation responsible for terror and later genocide."
+  },
+  "blocks[14].tasks[2].prompt": {
+   "quelle": "sha256:c187b187e803cad584e0682869ce8ea52cc7eda85e277a2c472ff81e4a69aff3",
+   "text": "(Extension) In the spring of 1933, more than a million people joined the NSDAP – the ‘Märzgefallene’. In three to five sentences, explain their possible reasons, distinguishing between conviction and self-interest."
+  },
+  "blocks[14].tasks[2].hint": {
+   "quelle": "sha256:9b18d46711dc1b9c44bfae88216ccc89fe22f5264cf6d936963ff8f6e0234790",
+   "text": "From 1933, what did you need for a career as a civil servant, teacher or judge? And what did it mean not to belong?"
+  },
+  "blocks[14].tasks[2].solution": {
+   "quelle": "sha256:1aa09eaa0e46049b3fd87b827f915989f70a66743b801cad917d526a9b196a4d",
+   "text": "Example answer: Some joined out of conviction because they admired Hitler's success or believed the promises of order and jobs. But many joined out of self-interest: anyone who wanted to advance their career as a civil servant, teacher or judge needed a party membership card, and those who did not belong stood out and risked being disadvantaged. Fear also played a part – membership seemed to offer protection. The fact that long-standing members mocked the newcomers shows that the party itself recognised the difference between conviction and conformity for personal gain."
+  },
+  "blocks[14].tasks[3].prompt": {
+   "quelle": "sha256:5141fdd6e5b9141fad3a934ba8e124648fdf6c28e32dbf6510d45e38525a0994",
+   "text": "(Extension) Read the box ‘Background: KZ, the KdF-Wagen, the RSHA and the word “Nazi”’ above again. Explain in three to four sentences: what does the example of the ‘KdF-Wagen’ show about the promises of ‘Kraft durch Freude’? Where does the word ‘Nazi’ come from, and what does the abbreviation ‘NS’ stand for?"
+  },
+  "blocks[14].tasks[3].hint": {
+   "quelle": "sha256:d5345df60a750cb3f8cd9fb1eaa2267b9f5c738112dec094b971abba9e2e2581",
+   "text": "Who saved up for the car, who received one – and what did the factory build from 1939? For ‘Nazi’, the comparison with the word ‘Sozi’ will help."
+  },
+  "blocks[14].tasks[3].solution": {
+   "quelle": "sha256:4cc56004063c8e521074e486fc13beecde2094ab04ba7b8ab9733709140fbd1b",
+   "text": "Example answer: Hundreds of thousands saved up for the ‘KdF-Wagen’ through savings stamps, but not a single saver received their car, because from 1939 the factory built military vehicles. The promise of a car for every family was therefore not kept – it promoted the regime without giving the savers anything in return. ‘NS’ is short for ‘nationalsozialistisch’ (National Socialist); ‘Nazi’ was originally a mocking nickname used by opponents, similar to ‘Sozi’ for Social Democrats."
+  }
+ },
+ "pakete": {
+  "blocks[12]": {
+   "quelle": "sha256:cfec722c60cd8452158a6e53dd848d40d128468349872f4c6d20c8ae880ddc30",
+   "inhalt": {
+    "text": "The party's full German name was Nationalsozialistische Deutsche {{1}} (NSDAP).\nThe {{2}} (Sturmabteilung) wore brown uniform shirts.\nThe Schutzstaffel, abbreviated to {{3}}, ran the concentration camps and murdered millions of people.\nThe Geheime Staatspolizei was known as the {{4}} for short.\nBoys aged 14 to 18 belonged to the {{5}} (HJ), and boys aged 10 to 14 to the Deutsches {{6}} (DJ).\nGirls aged 14 to 18 belonged to the Bund Deutscher Mädel, abbreviated to {{7}}.\nThe trade unions were replaced by the Deutsche Arbeitsfront, abbreviated to {{8}}.\nPeople did six months of compulsory labour in the Reichsarbeitsdienst, abbreviated to {{9}}.",
+    "luecken": [
+     [
+      "Arbeiterpartei",
+      "Arbeiter-Partei",
+      "Arbeiter Partei"
+     ],
+     [
+      "SA"
+     ],
+     [
+      "SS"
+     ],
+     [
+      "Gestapo"
+     ],
+     [
+      "Hitlerjugend",
+      "Hitler-Jugend",
+      "Hitler Jugend",
+      "Hitler Youth",
+      "Hitler-Youth"
+     ],
+     [
+      "Jungvolk",
+      "Jung-Volk",
+      "Jung Volk"
+     ],
+     [
+      "BDM"
+     ],
+     [
+      "DAF"
+     ],
+     [
+      "RAD"
+     ]
+    ]
+   }
+  }
+ }
+}
