@@ -1,0 +1,931 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:e25c03274c21cdcd36f4cc24574cc172996cb086b4ed41ab2a8218077cdb1cf2",
+   "text": "Step by step: from loss of rights to genocide, 1935–1945"
+  },
+  "description": {
+   "quelle": "sha256:01443c85e881991084c1143e306d707653191ed345484a07dbfe4ee70a13fac2",
+   "text": "How did exclusion become genocide? You will learn what the Nuremberg Laws of 1935 stipulated and the rule used to classify people as ‘Jews’, what happened during the November pogroms of 1938, what escape and rescue involved – and how the regime organised the murder of Europe's Jews from 1941 onwards. A staircase diagram will help you put the events in order."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Spaces, Times, Societies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:677f0ffe5fccaba6fff03be4358b8b6e42e4e5433c6dcc4705022c46bcba109a",
+   "text": "Spaces, Times, Societies"
+  },
+  "einheit": {
+   "quelle": "sha256:f17191b49e747388ab6a7483a373c72e8e4ab6273e67b43ee78842244bcaa5c7",
+   "text": "National Socialism – dictatorship, persecution, remembrance"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:0e6cbdf6acd751a546395b33485d20d3fec05e210aa4fdde98701e75b13eef1d",
+   "text": "Nuremberg Laws"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:87269187ccecd8ae97bba920fbc2761e2e8ef26774f089c7be24b74194c35126",
+   "text": "November pogroms"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:e0b319ba45421f052e6539af8fd2c44b9768ddc545477bfac780858e4ab6a358",
+   "text": "Holocaust"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:c7fd11a07693f5650fa5b4ffd7039b1abdbf6b0f05795d4482a29d1c1f5b7d7c",
+   "text": "Shoah"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:345528bb717550a99e76a7b4322185c580df1b70f5a8d7639277b70a1aa2ba89",
+   "text": "Jewish star badge"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:3eeb2d090b2ac2b1f43b508832bb0b8ecf088abb105c19f6dfd52c4e8bf928ea",
+   "text": "deportation"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:e85c8378b5d18f6639a3276fed80edd3f236c8b2e488e9fbd62735f6c39a8fe9",
+   "text": "Wannsee Conference"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:4a03df392f64697c52fbc28c97e763b0ebe404e91aa550cf7537d8ed67da0f2c",
+   "text": "Auschwitz"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:d9167722dd4954fd5934b6e5365ab63796074caa1423fca7e2f1ce33fe661c0a",
+   "text": "Kindertransporte"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:759866cdf07030d0d37a6aea482bfd8ba3ede8012c82f73a047d76d487adbaf6",
+   "text": "Paul Grüninger"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:6b4cc6c62a0cfd6c6fe8257a1e8f1e7f86d890dfd9fdd35f1d3613a07498625a",
+   "text": "Anne Frank"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:7e3171e466fde5b8c24c10b2a768bd6b632fdc52c148ba7641c8a0956b87611f",
+   "text": "National Socialism"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:83bdbf4ec32de3345a2734fc5c95382aa39dc5c6f188e6c9a05f0c1c0ab9addd",
+   "text": "I can name the three Nuremberg Laws of 15 September 1935 and explain what the Reich Citizenship Law and the ‘Blood Protection Law’ meant for Jewish people."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:280a5a23521550132ade243fcd801d0c292868c9646736d9f3be509947c53238",
+   "text": "I can apply the Nazi authorities' ancestry rule (the grandparents' religion) to case studies and explain why it exposes ‘racial doctrine’ as unscientific."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:e6f60d6ef2cb796a0ac53db170755ae2ea238ae09d3b3a2257918d951c97721f",
+   "text": "I can describe the events of 1938: the ‘Anschluss’ of Österreich, the Évian Conference, the J stamp, the ‘Polenaktion’, the November pogroms, the ‘atonement payment’ and ‘Aryanisation’."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:1e0fe6d4369c2a2e94f14a20b9ad55b0bd471b0f704a29f3a930a7d710b681ee",
+   "text": "I can explain why ‘Reichskristallnacht’ is a term that plays down the events, and describe escape and rescue through the Kindertransporte and Paul Grüninger – including in a short news report from a Swiss or Liechtenstein perspective."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:2598e5ea23e79c494ac64a73c098f5d098cbf7b5990b4a9884d346bab5ee566c",
+   "text": "I can describe the events from 1939 to 1945 factually: the Jewish star badge, ghettos, deportations, Einsatzgruppen, the Wannsee Conference, extermination camps, the toll of around six million murdered and the other groups of victims – and explain the difference between a concentration camp and an extermination camp."
+  },
+  "learningObjectives[5]": {
+   "quelle": "sha256:eb431a82c57cd22339946c0a0c72737f32c90d9e7ca3710a813ca49a8cbd76af",
+   "text": "I can place events in the correct stage of persecution and period, and relate Anne Frank's life to these stages."
+  },
+  "learningObjectives[6]": {
+   "quelle": "sha256:a4122883815284354dca6a41d7c160418b9197dcf193051deb38217515ddd81d",
+   "text": "(Extension) I can put a legal text into everyday language, write a newspaper article about the pogroms and analyse the roles of perpetrators, followers, bystanders, helpers and victims."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:c749e5a57551b4c8b26bed22de5759ee438f779035f74faddbc8cb5261767626",
+   "text": "From law to genocide"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:2a44d1e055d8a5ed2ebcfb004552d8abab74fe27f857651162626648bec666f0",
+   "text": "In [[modul:nationalsozialismus-antisemitismus-ausgrenzung]], you saw how exclusion began in 1933: boycotts, bans on practising professions and humiliation in the streets. There was not yet a law officially making Jewish people second-class citizens. That came in September 1935. From then on, a path led through violence, plunder, expulsion and compulsory identification to mass murder – not in a single leap, but step by step. This module follows that path.\n\nOne point before we begin: this module deals with persecution and genocide. We keep the account factual, avoid horrific images and tell at least one person's story in detail so that the numbers become faces. If anything upsets you, talk to your teacher about it – that is not a sign of weakness, but the right response.\n\nYou will need about two lessons for this module. A good stopping point is after the tasks on 1938."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:19bbb9361f93d8be300f5784c79dbb8195e986f81269b354ae2dccab784dc1d4",
+   "text": "15 September 1935: the Nuremberg Laws"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:8a7cddc86bd648e767e657c45f5d821fae951facbde5050f7cb7149d6e3b36e4",
+   "text": "In September 1935, the NSDAP held its party rally in Nürnberg. The Reichstag was also summoned there – the parliament whose members, since the election of November 1933, had almost all belonged to the NSDAP; the other parties had been banned or dissolved in 1933 ([[modul:nationalsozialismus-machtuebernahme-1933]]). On 15 September, it unanimously passed three laws that became known as the **Nuremberg Laws**:\n\n## 1. The Reich Citizenship Law\n\nIt distinguished two classes of people: **‘state nationals’** and **‘Reich citizens’**. Only Reich citizens were to have political rights – to vote and hold public office – and only people ‘of German or related blood’ could qualify:\n\n> ‘Only a national of German or related blood who demonstrates through their conduct that they are willing and fit to serve the German people and Reich loyally is a Reich citizen.’\n>\n> — Reichsbürgergesetz, 15. September 1935, § 2\n\n‘Related’ is Nazi language from ‘racial doctrine’: it meant people the regime assigned to a ‘related race’, such as other Europeans – but not Jews. Jewish people were thus made **second-class citizens**: they remained nationals with duties, but without political rights.\n\n## 2. The ‘Law for the Protection of German Blood and German Honour’\n\nThis law, known as the **‘Blood Protection Law’**, interfered in private life:\n\n> ‘§ 1 Marriages between Jews and nationals of German or related blood are prohibited. Marriages entered into despite this are void […].\n>\n> § 2 Extramarital relations between Jews and nationals of German or related blood are prohibited.’\n>\n> — «Blutschutzgesetz», 15. September 1935\n\n‘Void’ is a legal term: in law, the marriage counts as if it had never existed. § 3 prohibited Jews from employing non-Jewish female domestic workers under 45; § 4 prohibited them from flying the Reich flag; § 5 threatened penal servitude (a particularly harsh form of imprisonment) and prison sentences. Nazi propaganda called relationships between Jews and non-Jews **‘racial defilement’** – a perpetrators' term that turned love into a crime. Denunciations (reports from neighbours), trials and prison sentences followed, and during the war, death sentences too. Under § 2, only the man was punished; women were brought before the court as witnesses and publicly humiliated.\n\n## 3. The Reich Flag Law\n\nIt declared the party's swastika flag to be the Reich and national flag. The NSDAP's symbol thus became the symbol of the state.\n\n## Why these laws mattered so much\n\nUntil then, exclusion had often come ‘from below’: SA guards, decisions by clubs and violence in the streets. Laws covered only particular areas, such as the civil service, schools and universities. Now the law affected every Jewish person in the Reich: they lost their political rights, and marriage and relationships with non-Jews were prohibited. Discrimination was now enshrined as a principle in the official law gazette. Persecution therefore appeared **‘legal’** and orderly – officials, judges and registrars (the officials who conduct marriages) were simply applying laws. These laws became the basis for everything that followed: anyone classified as a ‘Jew’ could later have their property confiscated, be forced to wear identifying marks and be deported.\n\n> **Remember:** The Nuremberg Laws made Jewish people second-class citizens (Reich Citizenship Law) and prohibited them from marrying or having relationships with non-Jews (‘Blood Protection Law’). Discrimination against all Jewish people became law – and therefore seemingly ‘normal’."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:7cc95ea252f7c67bd258a1b3fd0c39baf918788b8f7f4f402062d8db8893f752",
+   "text": "Who was classified as a ‘Jew’? A rule that exposes ‘racial doctrine’"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:cb4cee5fb0b39d0da54084f770205139551b0046fe85026f2dd977d5a582e945",
+   "text": "The laws referred to ‘blood’ – but how was an official supposed to check ‘blood’? There was no characteristic, no test, nothing. So the regime turned to the only thing recorded in official files: **religion**. The First Regulation to the Reich Citizenship Law of 14 November 1935 stipulated that the **grandparents** counted – specifically, whether they had belonged to a Jewish community.\n\n- **Three or four** Jewish grandparents: the person was classified as a **‘Jew’** – regardless of whether they had been baptised, which religion they followed or whether they believed in anything at all.\n- **Two** Jewish grandparents: **‘Mischling, 1st degree’** – with special rules, such as requiring permission to marry someone ‘of German blood’. However, anyone who belonged to a Jewish community themselves or was married to a Jewish person was classified as a **‘Geltungsjude’** and treated as a ‘Jew’.\n- **One** Jewish grandparent: **‘Mischling, 2nd degree’** – disadvantaged, but not treated as a ‘Jew’.\n- **No** Jewish grandparents: **‘of German blood’**.\n\nAll these terms are the perpetrators' language – they belong in quotation marks. The diagram below gives an overview of the rule.\n\n## What the rule reveals\n\nThink about it for a moment: the Nazis claimed that Jews were a ‘race’ with inherited characteristics (see [[modul:nationalsozialismus-ideologie-propaganda]]). If this ‘race’ had existed, it would have had to be identifiable biologically. Instead, the authorities counted which religious community the grandparents were registered with – a faith that people can adopt or leave. The rule itself therefore shows that ‘racial doctrine’ measured nothing biological. It was a pretext.\n\nThis was no comfort to those affected. People who had thought of themselves as Christians, as Germans, as ordinary neighbours were declared ‘Jews’ by decree – including children who had joined in morning prayers at school, or soldiers with military decorations. The exemption for Jewish First World War front-line veterans (the **‘front-line veterans' privilege’**, which had still been included in the ‘Aryan Paragraph’ in 1933) was abolished in 1935.\n\n> **Remember:** In the Nuremberg Laws, ‘Jew’ was an administrative category based on the grandparents' religious affiliation. With three or four Jewish grandparents, a person's own faith did not matter; only with two grandparents did their own membership of a Jewish community or marriage also count. This is precisely what exposes ‘racial doctrine’ as unscientific."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:957e19cbd99d4a857963c12cf006f64e91d82952ab6b08ce1841c550278342e2",
+   "text": "The Nuremberg Laws' ancestry classification"
+  },
+  "blocks[3].szene.elemente[0].text": {
+   "quelle": "sha256:32a30e9a51fba29d8c5db916090b4276285148b4e9f6ec59ffca36aa1377d39f",
+   "text": "Who counted as a ‘Jew’? The Nazi authorities' rule (regulation of 14 November 1935)"
+  },
+  "blocks[3].szene.elemente[1].text": {
+   "quelle": "sha256:a8d17a5aa824b6d78856e505c399d5edb01403b7cb6b0e165bbdfc7f61af63db",
+   "text": "The four grandparents' religion was counted (dark circle = member of a Jewish community) –\nnot appearance; with three or four Jewish grandparents, the person's own faith did not count either"
+  },
+  "blocks[3].szene.elemente[2].text": {
+   "quelle": "sha256:e1124d907438db27b868dafa5404a918af388a5188b903bc1ae88af8f4c64e01",
+   "text": "Grandparents"
+  },
+  "blocks[3].szene.elemente[3].text": {
+   "quelle": "sha256:48c0e92ae7d549b53f539f48a4cca30e6261a10ba6ee511a5e61d9b773661c13",
+   "text": "Nazi category"
+  },
+  "blocks[3].szene.elemente[4].text": {
+   "quelle": "sha256:f49faf7b70040469d9f1ab76f7c566c8727bdfd37008e79d77e3bd8a1b152485",
+   "text": "Consequences"
+  },
+  "blocks[3].szene.elemente[10].text": {
+   "quelle": "sha256:9cf070139076c7f16160b4a083071c62ffbe9f9cc0abbe55ed0ecea258c87f3a",
+   "text": "4 out of 4"
+  },
+  "blocks[3].szene.elemente[12].text": {
+   "quelle": "sha256:ad65c5a2b9bf34db215fb4d488253bca2cefc453d9ed6f7bc03e9855a547ad69",
+   "text": "‘Jew’"
+  },
+  "blocks[3].szene.elemente[14].text": {
+   "quelle": "sha256:5dcffa13705c859a2e512fb28fcfa6b404751d3d8b3323fa0085081586f48218",
+   "text": "No vote or public office; no marriage\nto those ‘of German blood’; plunder\nfrom 1938, deportation from 1941"
+  },
+  "blocks[3].szene.elemente[20].text": {
+   "quelle": "sha256:e75a20be8612b26407bceb57901934546fd086f0dfd4475e35ac6eb4947a231c",
+   "text": "3 out of 4"
+  },
+  "blocks[3].szene.elemente[22].text": {
+   "quelle": "sha256:ad65c5a2b9bf34db215fb4d488253bca2cefc453d9ed6f7bc03e9855a547ad69",
+   "text": "‘Jew’"
+  },
+  "blocks[3].szene.elemente[24].text": {
+   "quelle": "sha256:7048138407f1093036565407f131df3bcbb1021674bacf68aa7ef7b18e8e4d89",
+   "text": "As above – even if the person\nwas baptised as a Christian"
+  },
+  "blocks[3].szene.elemente[30].text": {
+   "quelle": "sha256:2bac71c04e5470a55b7c6026d0da2e825c305f3f602c69ce000bcef2e96f41c1",
+   "text": "2 out of 4"
+  },
+  "blocks[3].szene.elemente[32].text": {
+   "quelle": "sha256:826bce74c9fd28608d2a65b39c958815a5485ddec46fbca6d610770488cdb69b",
+   "text": "‘Mischling, 1st degree’\n(‘Geltungsjude’ if a community\nmember or married to a Jew)"
+  },
+  "blocks[3].szene.elemente[34].text": {
+   "quelle": "sha256:911b54d92a8d76fc5b3c9e46573449b1d23a9cc7830feac54b5ce3bab5f0fc67",
+   "text": "Marriage to those ‘of German blood’\nneeds permission (rarely granted);\n‘Geltungsjuden’ treated as ‘Jews’"
+  },
+  "blocks[3].szene.elemente[40].text": {
+   "quelle": "sha256:7457677982c72c198dc468ddfb688eecf8ea2681a06a51bbe5f0c4d4305a73a4",
+   "text": "1 out of 4"
+  },
+  "blocks[3].szene.elemente[42].text": {
+   "quelle": "sha256:3e9ab2930b9aa156b5e510c6c22478a90c434d0aa5017725661c8898689e8fdb",
+   "text": "‘Mischling, 2nd degree’"
+  },
+  "blocks[3].szene.elemente[44].text": {
+   "quelle": "sha256:ba3cf49066f23e48f79bc69e891eb32e9e446b968d305bfe43fbc3d6ba10b6ac",
+   "text": "Disadvantaged, but not treated as ‘Jews’;\nmarriage to those ‘of German blood’ allowed"
+  },
+  "blocks[3].szene.elemente[50].text": {
+   "quelle": "sha256:50c8c633647f0dd65ac60cb16965ed7e0f7a5a0902c17e1c305aa55aa5391af4",
+   "text": "0 out of 4"
+  },
+  "blocks[3].szene.elemente[52].text": {
+   "quelle": "sha256:4a3f692f8300a9635170bcebbc40327ecdcf86da83021345238fe10ce1bc4e31",
+   "text": "‘Of German blood’"
+  },
+  "blocks[3].szene.elemente[54].text": {
+   "quelle": "sha256:bcc59ef498c741dcc6d7821a1e7bfb1052c49b5c9583e2f6b6cd4a56c5cc0e36",
+   "text": "Full rights as ‘Reich citizens’ – provided\nthey did not oppose the regime"
+  },
+  "blocks[3].szene.elemente[56].text": {
+   "quelle": "sha256:b8af1f60f80e76cf965e4e586e66ebc29fcfc80190080aa0fdca4cc1d46c29df",
+   "text": "The alleged ‘race’ was determined by the grandparents' religion.\nThis proves that ‘racial doctrine’ measured nothing biological – it was a pretext for excluding people."
+  },
+  "blocks[3].beschreibung": {
+   "quelle": "sha256:492007e912a8cfac991cce037b614b32b5b8894f97358378fc8b2246ab462610",
+   "text": "Title: Who counted as a ‘Jew’? The Nazi authorities' rule (regulation of 14 November 1935). Subtitle: The four grandparents' religion was counted (dark circle = member of a Jewish community), not appearance; with three or four Jewish grandparents, the person's own faith did not count either. Table with three columns: grandparents, Nazi category, consequences. Five rows, each with four circles. 4 out of 4 dark: Nazi category ‘Jew’; consequences: no vote or public office, marriage to those ‘of German blood’ prohibited, plunder from 1938, deportation from 1941. 3 out of 4: Nazi category ‘Jew’; consequences as above, even if the person was baptised as a Christian. 2 out of 4: Nazi category ‘Mischling, 1st degree’ (‘Geltungsjude’ if a community member or married to a Jew); consequences: marriage to those ‘of German blood’ required permission, which was rarely granted; ‘Geltungsjuden’ were treated as ‘Jews’. 1 out of 4: Nazi category ‘Mischling, 2nd degree’; consequences: disadvantaged, but not treated as ‘Jews’; marriage to those ‘of German blood’ allowed. 0 out of 4: Nazi category ‘of German blood’; consequences: full rights as ‘Reich citizens’, provided the person did not oppose the regime. Key point below (orange): the alleged ‘race’ was determined by the grandparents' religion. This proves that ‘racial doctrine’ measured nothing biological; it was a pretext for excluding people."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:f2a2bc8f36d54bb767659aed6c133a550644ac5c67cc6d63f5cf944015909c6b",
+   "text": "Who was classified as what? Case studies"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:0e05c06dbff618d3d45088a46f0a2197188c30c05307ed0662f74d85e98fc536",
+   "text": "The people are fictional; the rule was real – we apply these categories only to expose how arbitrary the rule was. Match each case to the category the Nazi authorities would have assigned under the regulation of 14 November 1935. First count the Jewish grandparents, then check whether the person belonged to a Jewish community themselves. Tap one item on the left and one on the right."
+  },
+  "blocks[4].paare[0].links.text": {
+   "quelle": "sha256:54090871aa4ce8406d0e02360ccc32e573bf22e9c0e1e4528ae98f772b578af2",
+   "text": "Hanna, 15, baptised as a Protestant. Her father's parents and her mother's parents all belonged to a Jewish community."
+  },
+  "blocks[4].paare[0].rechts.text": {
+   "quelle": "sha256:bda94c6f6f1d92548082bd071ad50439719c4e51867199402d1ddf1a0fa77d57",
+   "text": "‘Jew’ (four Jewish grandparents)"
+  },
+  "blocks[4].paare[1].links.text": {
+   "quelle": "sha256:1d19ddcd95956fa4aef9cd2484e4eb8bd6a3b4b5f97135158540ad0cc2b547a1",
+   "text": "Josef, 50, a decorated front-line veteran. Both paternal grandparents and his maternal grandfather belonged to a Jewish community; his maternal grandmother did not."
+  },
+  "blocks[4].paare[1].rechts.text": {
+   "quelle": "sha256:22f03d88b08077761425748ac9ef51cbe738c02b0ee732f9107fe88d9c06023c",
+   "text": "‘Jew’ (three Jewish grandparents)"
+  },
+  "blocks[4].paare[2].links.text": {
+   "quelle": "sha256:3735907457febf356e3f1a3cddb59550e2096714c4e7a311eb205dd3a03cb4aa",
+   "text": "Paul, 19, unmarried. Two of his grandparents belonged to a Jewish community; two did not. He does not belong to a Jewish community himself."
+  },
+  "blocks[4].paare[2].rechts.text": {
+   "quelle": "sha256:fc63013446b52f8728e45aaf2ecc524b1865c14080f094373032c406b2ef0f47",
+   "text": "‘Mischling, 1st degree’"
+  },
+  "blocks[4].paare[3].links.text": {
+   "quelle": "sha256:6b50063ef0d100215f9d0044a2ef36f532098f7b14c34028fc537c6322d5a73e",
+   "text": "Else, 30. Two of her grandparents belonged to a Jewish community; she does too."
+  },
+  "blocks[4].paare[3].rechts.text": {
+   "quelle": "sha256:5cb79ed7868b6d81e5b8a3ebcf6cda59a59cfd70e6279ebbb2ed3e3f33e59285",
+   "text": "‘Geltungsjude’"
+  },
+  "blocks[4].paare[4].links.text": {
+   "quelle": "sha256:a8d4f6798d6fba0542df238066f632d1b3786486ed75c93ccbdb34dd3bad1d87",
+   "text": "Walter, 40. Of his four grandparents, only his mother's father belonged to a Jewish community."
+  },
+  "blocks[4].paare[4].rechts.text": {
+   "quelle": "sha256:3e9ab2930b9aa156b5e510c6c22478a90c434d0aa5017725661c8898689e8fdb",
+   "text": "‘Mischling, 2nd degree’"
+  },
+  "blocks[4].paare[5].links.text": {
+   "quelle": "sha256:0049af5e6aff94114cb3f9fcea193a349f8229b88656c966b2e1280d4dfa5c70",
+   "text": "Martha, 25. None of her grandparents belonged to a Jewish community; her boyfriend is classified as a ‘Jew’ under the Nazi rule."
+  },
+  "blocks[4].paare[5].rechts.text": {
+   "quelle": "sha256:4a3f692f8300a9635170bcebbc40327ecdcf86da83021345238fe10ce1bc4e31",
+   "text": "‘Of German blood’"
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:88a0a45900328b62014b2945bba12778078426ae3378d898e317e4456d3ce16b",
+   "text": "Put laws into everyday language and fill in the facts"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:93df675eda7eda160e18b63fc1436daaf7cf376dcf8a81f4d0cc46215153a0ed",
+   "text": "Put the three legal extracts into everyday language, then add two facts: type in the missing word yourself. Legal terms from the extracts do not count – you need the everyday word. Capitalisation does not matter."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:9053fc77f932f6fd29e270e98cd3171c52faaa814ac186e14130a499ecfc0a9c",
+   "text": "Understanding the laws"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:0105736dee57c6aa89a5c4e32bb84cb68dfafafe7069ca406d0bb96a73e76941",
+   "text": "To explain the case studies: even Martha, who was classified as ‘of German blood’, was no longer allowed to marry her Jewish boyfriend after 1935. Your answers go to your teacher. Task 1 is for everyone; Task 2 is marked **(Extension)**."
+  },
+  "blocks[6].tasks[0].prompt": {
+   "quelle": "sha256:77be251b7a1f47c161fb29f691ebc2aad38afd3066ae908f6d2c67edbc0166a5",
+   "text": "A couple in Berlin want to marry in autumn 1935. Under the new rule, he is classified as a ‘Jew’ and she as ‘of German blood’. In two to four sentences, explain what the Nuremberg Laws meant for them – both legally and in everyday life."
+  },
+  "blocks[6].tasks[0].hint": {
+   "quelle": "sha256:f150e4b165d0b027fbfbc9b6d7391ab2011afc255835b4454d0f5cb9371758e9",
+   "text": "Think about § 1 and § 2 of the ‘Blood Protection Law’, the term ‘racial defilement’ and who was punished if someone reported them. What options did the couple have?"
+  },
+  "blocks[6].tasks[0].solution": {
+   "quelle": "sha256:54ab7acc384cfa5202c7e7b4d65099cdc98830961df630402fff5af14b7d0675",
+   "text": "Example answer: Since the Nuremberg Laws of September 1935, the marriage was prohibited; if they married anyway, the marriage would have been invalid. Under § 2, a relationship without a marriage certificate was punishable too – propaganda called it ‘racial defilement’, and a report from a neighbour could be enough to send the man to prison. The couple's only options were to separate, hide their relationship or go abroad together – if a country would accept them."
+  },
+  "blocks[6].tasks[1].prompt": {
+   "quelle": "sha256:ef2845106e1fa76538509c612131f4f49326bbbb04a01d8d57c56c0468bcd202",
+   "text": "(Extension) Put § 2 of the Reich Citizenship Law into your own everyday language (one or two sentences): ‘Only a national of German or related blood who demonstrates through their conduct that they are willing and fit to serve the German people and Reich loyally is a Reich citizen.’ Then explain in two or three sentences why the ancestry rule of 14 November 1935 exposes ‘racial doctrine’ as unscientific."
+  },
+  "blocks[6].tasks[1].hint": {
+   "quelle": "sha256:27bbc6cb4f45698ae6638a60e7d8858dc0ab71b2d84c10a6ab2a6f4593f2c4c8",
+   "text": "The sentence contains two conditions: ancestry and ‘conduct’. What does the second condition mean for non-Jews who displease the regime? And what did the authorities count when they wanted to check ‘blood’?"
+  },
+  "blocks[6].tasks[1].solution": {
+   "quelle": "sha256:d2c8d61397972524f4169e93b554480b6acf7bea2f59f472f13b308fbee988e1",
+   "text": "Example answer: Only people classified as ‘of German blood’ who show through their conduct that they serve the regime loyally have full civil rights. Jews are excluded, and even people ‘of German blood’ can lose their rights if the state disapproves of them. The ancestry rule exposes ‘racial doctrine’ because it does not measure a biological characteristic: it counts the grandparents' religious affiliations – but faith is not inherited. Anyone who determines ‘race’ using church records and community registers shows that this ‘race’ does not exist."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:8cc47be6abea43ef3469c4ef35d91aecb3a1dda24ed8d819383718a97cba0490",
+   "text": "1938: the year violence became open"
+  },
+  "blocks[7].body": {
+   "quelle": "sha256:7da1193f916a5c2787c1dc778ab364f56ecf040ad5b616f2cad8ad54422559d1",
+   "text": "## March: the ‘Anschluss’ of Österreich\n\nOn 12 March 1938, the Wehrmacht marched into Österreich. The country was forcibly incorporated into the German Reich (the technical term is annexed: absorbed into another state through pressure and violence). The Nazis called this the **‘Anschluss’** – a word suggesting a voluntary union, even though many people cheered the invasion. For the roughly 190 000 Austrian Jews, most of them in Wien, persecution began all at once rather than step by step. In the very first days, Nazis and jeering neighbours forced Jewish people to scrub the streets with brushes, looted homes and shops, and arrested thousands. Expulsion began immediately. From the bank of the Rhein in Vorarlberg, Switzerland was within easy reach – but in August 1938 it closed its border to refugees without a visa (permission to enter, applied for in advance). Liechtenstein was also very reluctant to admit refugees: after the ‘Anschluss’, it banned the admission of refugees from Österreich, and in 1938 it rejected more applications than it approved.\n\n## July: the Évian Conference\n\nWhere could those driven out go? In July 1938, representatives of 32 countries met in **Évian**, on the Genfersee, to discuss Jewish refugees from Germany and Österreich. Almost all expressed regret – and almost none were willing to admit more people. Nazi propaganda celebrated this: apparently, the world did not want ‘the Jews’ either.\n\n## October: the J stamp and the ‘Polenaktion’\n\nFrom October 1938, German Jews' passports were stamped with a red **‘J’**. Switzerland had previously wanted to require visas for all Germans; the German authorities instead proposed marking only Jews' passports. Switzerland agreed and used the ‘J’ to identify and turn away Jewish refugees at the border. In late October, in the **‘Polenaktion’**, the regime deported around 17 000 Jews with Polish citizenship to the Polish border overnight. Some had lived in Germany for decades. Poland refused to let them enter; thousands were stranded in no-man's-land between the border posts, in the cold and without supplies.\n\n## November: the pretext\n\nAmong those deported was the family of **Herschel Grynszpan**, a 17-year-old living in Paris. In despair and anger, on 7 November 1938 he shot the diplomat Ernst vom Rath at the German embassy. Vom Rath died on 9 November. The Nazi leadership used the act as a pretext: that very evening, on 9 November, it had a wave of violence against Jews organised across the Reich and disguised it as ‘spontaneous popular anger’. It had long pursued the aim of driving Jewish people out of economic and social life – now it advanced that aim through open violence."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:d1e9710d8400de613cda4d4cf921630b778d8a668b6f3f43d29f6e1187e336f6",
+   "text": "9/10 November 1938: the November pogroms"
+  },
+  "blocks[8].body": {
+   "quelle": "sha256:a13edf96aa668afe0b15372d4bc59bbad9c9caf6a30d7e1fb6e68ec62547d197",
+   "text": "On the evening of 9 November 1938, the Nazi leadership was gathered in München to commemorate Hitler's failed coup attempt of 9 November 1923. Joseph Goebbels delivered a hate-filled speech. Orders went out by telephone and teleprinter (a machine that sent typed messages over telephone lines) to every Gau (the party's regional districts): the SA, SS and party members, mostly in civilian clothes, were to ‘strike out’ against Jews. Afterwards, propaganda called this **‘spontaneous popular anger’**. It was the opposite: an **organised pogrom**, set in motion by the state's leaders. Unlike the medieval pogroms in the previous module, here the state directed the ‘crowd’.\n\nThat night and the following day, across the Reich, in Österreich and in the Sudetenland (the border region of Tschechoslowakei occupied in October 1938):\n\n- More than **1 400 synagogues and prayer rooms** were set on fire or destroyed. Fire brigades had orders to protect only neighbouring houses.\n- Around **7 500 shops** were wrecked and looted, homes demolished and cemeteries desecrated.\n- People were abused and murdered. The regime officially reported **91 deaths**; counting those who died from their injuries, deaths in the camps and suicides out of despair brings the total to **several hundred**.\n- Around **30 000 Jewish men** were arrested and taken to the concentration camps Dachau, Buchenwald and Sachsenhausen, where they were abused. Many were released after weeks – on condition that they emigrate immediately and leave their property behind.\n\nAnd the neighbours? Many watched, some joined in or helped loot, some felt ashamed – and a few helped, took in persecuted people or hid them. For Jewish people, the message was clear: there was no protection left in this country.\n\n## A word that lies\n\nThe name **‘Reichskristallnacht’** was already being used for the night in 1938, referring to the shattered glass of shop windows. The word comes from the perpetrators' era and **plays down the violence**: it reduces murder, arson and deportation to the sound of glass. That is why historians today use the term **November pogroms** (you know the word pogrom from the previous module).\n\n> **Remember:** The November pogroms of 1938 were not ‘popular anger’ but violence organised by the regime: synagogues destroyed, shops wrecked, hundreds dead and 30 000 men sent to concentration camps. The term ‘Reichskristallnacht’ plays this down."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:00afba41fd27c2a3f94e13d12b3c480a6d5cfbb530c55d0627b74090fc6ff174",
+   "text": "After the pogrom: plunder – and ways out"
+  },
+  "blocks[9].body": {
+   "quelle": "sha256:01468a5b7d79a2de78a2d994dcadf6c00bfceed09b8c8ccc1c84c80c22e44f2d",
+   "text": "## The victims are made to pay\n\nThe regime turned the situation on its head: the victims, rather than the perpetrators, had to pay for the damage. On 12 November 1938, a decree imposed an **‘atonement payment’** of **one billion Reichsmarks** on German Jews. The regime justified it as ‘punishment’ for vom Rath's death; in reality, it was robbery. Insurance companies had to pay out for the damage, but the state confiscated the money. A decree issued on the same day prohibited Jews from running shops and craft businesses from 1 January 1939: they were ‘eliminated’ from economic life. Whatever had not yet been sold was now forcibly **‘Aryanised’** (from ‘Aryan’, the Nazi word for supposedly ‘of German blood’): businesses, houses and professional practices went to non-Jewish buyers for far less than their value ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]] explains the term).\n\nOn 15 November 1938, Jewish children were excluded from all state schools. Bans on cinemas, theatres, concerts and swimming pools followed, along with the withdrawal of driving licences and restrictions on going out. Step by step, public life was closed to Jewish people.\n\n## Escape\n\nAnyone who could now tried to escape – with a ‘J’ in their passport, often without money, into a world that was closing its borders. By the outbreak of war, more than half of Germany's Jews had left the country. The **Kindertransporte** are particularly well known: between December 1938 and September 1939, Britain admitted around **10 000 Jewish children** from Germany, Österreich and Tschechoslowakei – without their parents. Many of these children never saw their parents again. Liechtenstein also imposed a ban on refugees entering in December 1938.\n\n## A rescuer at the border: Paul Grüninger\n\nSwitzerland had closed its border to refugees. **Paul Grüninger**, police commander of the canton of St. Gallen, did not comply. In 1938, he allowed several hundred Jewish refugees – according to some estimates, as many as over 3 000 – to enter at the border near Diepoldsau by backdating their papers to before the border closure. In 1939 he was dismissed and later convicted of breaching his official duties; he lived in poverty until his death in 1972. Only in **1995** did a court overturn the conviction and clear his name. Grüninger shows that even in 1938, it was possible to act differently – and that it came at a cost.\n\n> **Remember:** After the pogrom came plunder (‘atonement payment’, ‘Aryanisation’) and exclusion from school and everyday life. Escape became the only way to safety: the Kindertransporte saved around 10 000 children, and individuals such as Paul Grüninger saved people by breaking their state's rules."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:7e617aed3d3cf612a9aec736b08a54ced742616d7341b50cde3e775c3e6dca07",
+   "text": "Optional extra: video ‘November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?’ (7:31)"
+  },
+  "blocks[10].description": {
+   "quelle": "sha256:bb80df4078d537060f7a2c86854805e7bdbdf5d10b4fd8ad58362a72e14cde34",
+   "text": "This video by Terra X History (ZDF) is an optional extra – everything you need for the tasks is in this module's texts. It contains historical film footage and photographs of the destruction that may be upsetting; you can stop at any time. If you watch it (internet required; it only starts after you click), focus on two guiding questions: (1) How did the Nazis turn neighbours into an ‘enemy’ – what roles did prejudice, scapegoating and propaganda play? (2) How did propaganda reinterpret Herschel Grynszpan's act?"
+  },
+  "blocks[10].transcript": {
+   "quelle": "sha256:377040703cb8715ec9aeeb58faf0e40147508363b9a4765eea9a34e06be42d31",
+   "text": "Summary of the video ‘November-Pogrome 1938: Wie wurden aus Nachbarn Todfeinde?’ (Terra X History, ZDF, author Peter Hartl, 7:31), based on the video description: In November 1938, Jews in Germany face brutal violence in the pogrom: synagogues are set on fire and Jewish fellow citizens are persecuted and attacked. The video asks how neighbours became mortal enemies. In the early 20th century, Jews seem to have found their place in German society, but the mood changes when hatred of Jews becomes state policy in 1933. Wherever there is discontent, Jews are made scapegoats; the Nazis exploit existing prejudices and envy of wealthy Jewish business owners to deliberately construct an enemy image. (Context: Jewish Germans were a diverse group – doctors, teachers, traders and workers. Supposed ‘envy of success’ neither explains nor justifies hatred of Jews.) The Nazis begin deporting Jews of Polish origin to Poland, which refuses to admit them. By attacking a German diplomat, the young Herschel Grynszpan wants to draw attention to Jewish families' desperate situation; propaganda distorts this desperate act by an individual into an attack by an alleged ‘Jewish world conspiracy’. Destruction, arson, looting and murder follow. (Context: this was not an outburst of ‘spontaneous popular anger’, but a pogrom organised by the regime.)"
+  },
+  "blocks[11].title": {
+   "quelle": "sha256:ab99124e203447b0cd7940f1a1ec60c5e7f148ea3917667a681afad6eb45cf19",
+   "text": "Reporting on the pogrom"
+  },
+  "blocks[11].intro": {
+   "quelle": "sha256:db7001eb3ff2a6ec67171515d84de4d8a32a998d8385f713d380758e432f2ea0",
+   "text": "Your answers go to your teacher. You are writing as a journalist for a Swiss or Liechtenstein newspaper in November 1938 – as an observer from outside. You only know what was publicly known at the time: you know nothing about secret negotiations or later events. Task 1 is for everyone; Task 2 is marked **(Extension)**."
+  },
+  "blocks[11].tasks[0].prompt": {
+   "quelle": "sha256:1abe73018b6533cf337800543edd1e0d712392a4015d12653881886a7e1e192a",
+   "text": "Write a short news report (three to five sentences) for the edition of 11 November 1938: what has happened in Germany? Give at least two facts (synagogues, shops, arrests, deaths) and say who set the violence in motion."
+  },
+  "blocks[11].tasks[0].hint": {
+   "quelle": "sha256:441608925694a61ddaaa9711b22d13790daa3e69ab193602f00b15068f4af04b",
+   "text": "A short news report answers: what? When? Where? Who? Keep it factual – and describe what happened without using the perpetrators' term (‘Reichskristallnacht’)."
+  },
+  "blocks[11].tasks[0].solution": {
+   "quelle": "sha256:fe9be88dcd4434bcd2258cfdf537620b161aca327b088f5a84d26878a6f87304",
+   "text": "Example answer: ‘Berlin, 10 November. On the night leading into Thursday, synagogues were set on fire and Jewish shops wrecked throughout Germany and Österreich. Many of the perpetrators were SA and party members in civilian clothes; nevertheless, the government speaks of spontaneous popular anger. Reports indicate numerous deaths, and thousands of Jewish men have been arrested and taken to camps. In many places, fire brigades intervened only to protect neighbouring houses.’ (Any report is good if it gives facts, recognises the regime's role in organising the violence and remains factual.)"
+  },
+  "blocks[11].tasks[1].prompt": {
+   "quelle": "sha256:cd73b5e648180c3d9c40208fa993c39485ae807b4fa88bf301a38e037df72a93",
+   "text": "(Extension) Write an article (five to eight sentences) that provides context: why is it wrong to speak of ‘spontaneous popular anger’? What does the pogrom mean for Jewish people in Germany? And what does it mean for Switzerland and Liechtenstein, which are very reluctant to admit Jewish refugees?"
+  },
+  "blocks[11].tasks[1].hint": {
+   "quelle": "sha256:f36b642cfe3cf204460b4defc94bed7cf2572a6174fdab1616bf3bb4714487cd",
+   "text": "Use the texts on 1938: organisation through the party and SA, Grynszpan as a pretext, Évian, the red ‘J’ in German Jews' passports and Switzerland's border closure. Write only what could already be known in November 1938. A good article gives facts, places them in context and ends with a question for its own society."
+  },
+  "blocks[11].tasks[1].solution": {
+   "quelle": "sha256:ba60bcaa9da3c0a0c61d5e8cdedcc6a31f117da2f2c31e9936836f9842753705",
+   "text": "Example answer: The German government calls this night's violence spontaneous popular anger, but the simultaneous attacks in hundreds of towns, the involvement of the SA and party, and the police's inaction show that it was organised. The shots fired by 17-year-old Grynszpan in Paris and the death of the diplomat vom Rath served the leadership merely as a pretext to trigger and direct the violence. For Jewish people in Germany, the pogrom means that the state no longer offers protection; many will now want to leave at any cost. This raises a question for us too: the Évian Conference in the summer showed that hardly any country wants to admit refugees. Switzerland closed its border to refugees without visas in August, and since October, German Jews' passports have carried a red ‘J’ – making refugees immediately identifiable at every border. Anyone turning refugees away in these days must know what they are condemning them to face. (Any article is good if it recognises the organisation and pretext, identifies the consequences and addresses neighbouring countries' responsibility.)"
+  },
+  "blocks[12].title": {
+   "quelle": "sha256:8d409119bcd26b877a2d59bdca829f1204ebcd21c3b50838b19fd03d59bba9dd",
+   "text": "1939–1941: compulsory identification and ghettos – and the road to deportation"
+  },
+  "blocks[12].body": {
+   "quelle": "sha256:9f871d92a611d391b7d8abf3d87f3b9a43c8a6b19b23fc0c6be6aaed7a9d427e",
+   "text": "The invasion of Poland on 1 September 1939 marked the start of the Second World War – and a new stage for Jewish people. In the Reich, **curfews** now applied, radios had to be handed over, food rations were cut, and men and women were made to perform **forced labour**. Jewish families were crammed into **‘Judenhäuser’** – the authorities' term for houses where they forced Jewish people to live in extremely cramped conditions.\n\nIn occupied **Poland**, home to more than three million Jews, events moved faster and more brutally. From December 1939, Jews there had to wear a white **armband** with a blue star. In 1940, the occupying forces confined them in **ghettos** – sealed-off city districts, for example in Łódź and Warschau, where almost half a million people lived in extremely cramped conditions. Hunger and disease killed tens of thousands there, long before the extermination camps were built.\n\n## The yellow star\n\nOn 1 September 1941, the regime issued a police decree: from 19 September, almost all Jewish people in the Reich aged six and over had to wear a palm-sized yellow star bearing the word ‘Jude’ visibly on their clothing in public – the **‘Judenstern’**, or Jewish star badge. Do you remember the year 1215? What a medieval council had begun with hats and patches returned more than 700 years later: people were marked out so that everyone could avoid, report and despise them. Children were insulted on their way to school; adults were thrown out of shops.\n\n## The trap closes\n\nOn 23 October 1941, the regime prohibited Jewish people from **emigrating**. Anyone who had not yet left could no longer get out. At the same time, **deportations** from the Reich began: from mid-October 1941, trains left Berlin, Wien and many other cities for ghettos and camps in the occupied east – Łódź, Riga and Minsk, and later directly for the extermination camps. Those affected were told they were being ‘resettled’ – a term the authorities used to conceal the real purpose. They were allowed one suitcase; their homes and possessions went to the state, and neighbours bought their furniture at auctions.\n\n> **Remember:** From 1939 to 1941, persecution became visible and inescapable: armbands and the Jewish star badge marked people out, ghettos confined them, and the emigration ban of October 1941 removed their last way out – and deportations began."
+  },
+  "blocks[13].title": {
+   "quelle": "sha256:ed6ad486dd55313083cb6bdb64c4b4532680559545fb58c64da5cc38389cceeb",
+   "text": "1941–1945: the genocide"
+  },
+  "blocks[13].body": {
+   "quelle": "sha256:d546b43d3d450aab2d8c25caf41ad838df3b3ecbc4305b7584ea112d82428ab2",
+   "text": "## Mass shootings\n\nOn 22 June 1941, Germany invaded the Soviet Union. Behind the front came **Einsatzgruppen** – mobile SS and police units ordered to murder Jews, communists, Sinti and Roma. Together with Wehrmacht units and local collaborators (local people who worked with the occupying forces), they killed between **1.5 and 2 million people** in mass shootings by 1944, most of them Jews. In the **Babyn Jar** ravine near Kiew, at least 33 771 people were shot over two days in late September 1941 – according to the perpetrators' own report. We give these figures because behind each one was a person – and we do not describe how it happened.\n\n## Organising the murder\n\nIn December 1941, the first extermination camp began operating in **Chełmno**: people, mainly Jews, were murdered here in gas vans. On **20 January 1942**, fifteen senior officials and SS leaders met in the Berlin suburb of Wannsee for the **Wannsee Conference**. They did not decide on the murder – it was already happening – but coordinated its implementation across Europe: who was responsible, and how would eleven million people be registered and transported? In the files, this was called the **‘Final Solution to the Jewish Question’** – the perpetrators' term to conceal genocide; even ‘Jewish Question’ suggests that Jewish people were a problem. It is precisely the cold language you know from the letter of 1919 ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]]).\n\nFurther **extermination camps** followed: Bełżec, Sobibór, Treblinka, Majdanek and **Auschwitz-Birkenau**, all in occupied Poland. Their purpose was to murder people brought there by train from across Europe as quickly as possible. At Chełmno, Bełżec, Sobibór and Treblinka, this was the only purpose; Majdanek and Auschwitz-Birkenau were also concentration camps where prisoners had to perform forced labour. At Auschwitz-Birkenau alone, around 1.1 million people were murdered, including around one million Jews. On 27 January 1945, the Red Army liberated the camp – today, this date is International Holocaust Remembrance Day.\n\n> **Remember – concentration camps and extermination camps are not the same:** A **concentration camp** (KZ) was a detention camp where people were held without trial, used for terror, forced labour and intimidation, and where people also died in huge numbers (the first concentration camps were established as early as March 1933; see [[modul:nationalsozialismus-machtuebernahme-1933]]). A **camp used solely for extermination**, such as Treblinka, had just one purpose: the deliberate, factory-like killing of those arriving. Auschwitz-Birkenau and Majdanek were both – concentration camps with forced labour and extermination camps.\n\n## The toll\n\nBy 1945, the Nazis and their accomplices had murdered around **six million** Jewish people, including around 1.5 million children. This crime is called the **Holocaust** (from the Greek, ‘completely burnt’) or **Shoah** (Hebrew for ‘catastrophe’). Jews were not the only victims: up to 500 000 **Sinti and Roma** were murdered (this genocide is also called **Porajmos**, ‘the devouring’ – a term contested among Sinti and Roma; ‘genocide of the Sinti and Roma’ is also commonly used); around 200 000 or more disabled people were murdered in ‘euthanasia’ (the perpetrators' name for murdering sick and disabled people; more in [[modul:nationalsozialismus-ideologie-propaganda]]); millions of Soviet prisoners of war died through starvation and shooting; homosexuals, political opponents, Jehovah's Witnesses and forced labourers from across Europe were also victims.\n\n> **Remember:** The Holocaust was not a lapse or a secret kept by a few men. It was planned, administered and carried out by hundreds of thousands – officials, railway workers, police officers, soldiers and neighbours. And it did not begin at Auschwitz: it developed step by step."
+  },
+  "blocks[14].title": {
+   "quelle": "sha256:951fad9dab923755ea7f4c3abbebd9656e07b4362f7dd21c8bc2512ebad62daa",
+   "text": "A face behind the figures: Anne Frank"
+  },
+  "blocks[14].body": {
+   "quelle": "sha256:d59c2963806314af2cea29878f34d3145bfb0bd8b8a3323282582fc995557d3c",
+   "text": "Six million is a number that is hard to feel. So we tell one story – one among millions.\n\n**Anne Frank** was born on 12 June 1929 in Frankfurt am Main, the second daughter of Otto and Edith Frank; her sister Margot was three years older. The family was Jewish and German, and Otto Frank had served as an officer in the First World War. After the Nazis took power, the Franks emigrated to **Amsterdam** in 1933/34. Otto set up a small business there; Anne went to nursery school and learnt Dutch. For a few years, their escape seemed to have succeeded.\n\nIn May 1940, Germany occupied the Netherlands. The exclusion you know from this module and the previous one unfolded there within months: Jewish schools, the Jewish star badge, curfews. In July 1942, Margot received a call-up for ‘labour service’ in Germany – the regime was deporting Dutch Jews. The family went into hiding: in the annex behind Otto's business on the **Prinsengracht**, eight people lived hidden for more than two years, supplied by employees who risked their lives. Anne, aged thirteen, kept her diary there.\n\nOn 4 August 1944, the hiding place was discovered – it is still uncertain whether through betrayal or chance. The eight were deported to **Auschwitz** via the Westerbork transit camp in the Netherlands. In autumn 1944, Anne and Margot were taken to **Bergen-Belsen** concentration camp, where both died of hunger and typhus (a disease that spread through the overcrowded camps) in February or March 1945, a few weeks before liberation. Anne was 15. Of the eight people in hiding, only Otto Frank survived. A helper had saved Anne's diary; Otto published it in 1947. It was translated into more than 70 languages – and gave a face to a number.\n\nLook at the staircase in the next block: you can trace Anne Frank's journey along it, although the family did not experience the stages in this order: exclusion in Germany, early escape, then compulsory identification and loss of rights in the occupied Netherlands, hiding, deportation and death in a camp."
+  },
+  "blocks[15].title": {
+   "quelle": "sha256:748711eea9581a671f84570d3c399bdccce82a5a8ffdab586125458945e0ade9",
+   "text": "The staircase of persecution"
+  },
+  "blocks[15].szene.elemente[0].text": {
+   "quelle": "sha256:6eccda5caae4fe6550b2611053e22b6b80d62179a8eaa4f187882b9a373d32b7",
+   "text": "Step by step: the persecution of Jews, 1933–1945"
+  },
+  "blocks[15].szene.elemente[1].text": {
+   "quelle": "sha256:b606af169759764bdc3251cf5fbfc9c9dc6340c93fec763505d87fe30f98d1a3",
+   "text": "Each step made the next easier – because the majority accepted it"
+  },
+  "blocks[15].szene.elemente[3].text": {
+   "quelle": "sha256:c931aa5ba94529fa231006a15e9161ae9d780417488db81cf20004d3c934fc77",
+   "text": "1\nExclusion and\nboycott\n1933"
+  },
+  "blocks[15].szene.elemente[5].text": {
+   "quelle": "sha256:9a55a69118f54fe2f893209db3a9b85e6569bb623f940963882edaf41bb6de3c",
+   "text": "2\nLoss of rights\nby law\n1935"
+  },
+  "blocks[15].szene.elemente[7].text": {
+   "quelle": "sha256:5c882cf95abfce7399524864369f834955d81c3c67c2b649d8866d794874ebdb",
+   "text": "3\nViolence and\nplunder\n1938"
+  },
+  "blocks[15].szene.elemente[9].text": {
+   "quelle": "sha256:e787e7668b63028b988652aad52812174273736cc014793459085a3c1993f906",
+   "text": "4\nExpulsion\nand escape\n1938/39"
+  },
+  "blocks[15].szene.elemente[11].text": {
+   "quelle": "sha256:1926add11212d6dfc12540e4744c324b7b7975b28fed70cdb37079308981a00e",
+   "text": "5\nIdentification\nand ghettos\n1939–1941"
+  },
+  "blocks[15].szene.elemente[13].text": {
+   "quelle": "sha256:75f399ea81b40b8eab2fb91ff2a6ac6192e7ee50f9bc809215209402de3dd351",
+   "text": "6\nDeportation\nto the east\nfrom 1941"
+  },
+  "blocks[15].szene.elemente[15].text": {
+   "quelle": "sha256:48da4968f743d50116e7578761850178d847b7debc5be51ac132d51b0fbfe02c",
+   "text": "7\nMass murder and\nextermination camps\n1941–1945"
+  },
+  "blocks[15].szene.elemente[18].text": {
+   "quelle": "sha256:5aaa9fc6eba89ace2fad0f1a9f1662df35c5c1e0cee608b3ae7716394d418abb",
+   "text": "The Holocaust did not begin at Auschwitz. It began with boycotts, laws and looking away – and at the lower steps, the majority could still have said no."
+  },
+  "blocks[15].beschreibung": {
+   "quelle": "sha256:a31a7d21e13e3cb8f5077a710a7b17eb643c54644d2d5c5f5b4ad3813410e179",
+   "text": "Title: Step by step: the persecution of Jews, 1933 to 1945. Subtitle: Each step made the next easier because the majority accepted it. Seven steps rise from left to right, from light to darker blue-grey: 1 Exclusion and boycott, 1933. 2 Loss of rights by law, 1935. 3 Violence and plunder, 1938. 4 Expulsion and escape, 1938/39. 5 Identification and ghettos, 1939 to 1941. 6 Deportation to the east, from 1941. 7 Mass murder and extermination camps, 1941 to 1945. The years on the steps overlap; the staircase shows what was added at each stage. A ground line runs below the staircase. Key point at the bottom: the Holocaust did not begin at Auschwitz. It began with boycotts, laws and looking away, and at the lower steps, the majority could still have said no."
+  },
+  "blocks[16].title": {
+   "quelle": "sha256:3d6c1044d07e9e270240d686154f4965ee879f678b345f08a6a7b78e89a10e19",
+   "text": "Optional extra: video ‘Der Holocaust: Völkermord an den europäischen Juden’ (13:51)"
+  },
+  "blocks[16].description": {
+   "quelle": "sha256:c66da3185d1751fd38ea2dde7ef35d931f4da3d380134bee0aa1fbe65dcb6b39",
+   "text": "This video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in this module's texts. It contains historical footage and covers mass shootings and extermination camps; this may be upsetting. You can stop at any time or skip it entirely, and talk to your teacher about it. If you watch it (internet required; it only starts after you click), focus on two guiding questions: (1) Which stages of persecution from 1933 onwards does the video mention – and can you find them on the staircase? (2) Why does the video describe the Holocaust as a ‘rupture in civilisation’?"
+  },
+  "blocks[16].transcript": {
+   "quelle": "sha256:aaaf3bbd654f2bb2b9ddfdf025a62f9fccd69cf8697c5b8ac0c713bb9e0038e2",
+   "text": "Summary of the video ‘Der Holocaust: Völkermord an den europäischen Juden’ (MrWissen2go Geschichte | Terra X, 13:51), based on the video description and chapters: the Holocaust was the genocide of Europe's Jews, planned and carried out by the Nazis during the Second World War through mass shootings and extermination camps such as Auschwitz, Treblinka and Sobibór. Six million people – women, men and children – fell victim to this crime against humanity. The video explores the ideology behind the Holocaust, how the genocide developed step by step after the Nazis took power in 1933, and how the Nazi state's apparatus of terror ultimately planned and carried it out. Chapters: introduction; Hitler's policies against Jews from 1933; the Second World War; invasion of the Soviet Union in 1941; planning and carrying out the Holocaust; the Holocaust as a rupture in civilisation."
+  },
+  "blocks[17].title": {
+   "quelle": "sha256:b5fb420b38371726c60e1ca6b5d222ebd3eb6ae8cfcf8e7220af9d17679e2965",
+   "text": "Which stage? Classifying events"
+  },
+  "blocks[17].intro": {
+   "quelle": "sha256:c834cb0789c87299c2e66db763a9bac030aa35bec1ab981e335495a0d7c965b3",
+   "text": "Match each event to its stage of persecution: drag the card to the correct section – or tap the card, then the section. You can find the stages on the staircase. Be careful: the years overlap around 1941; what matters is what the event involved."
+  },
+  "blocks[17].x.kategorien[0]": {
+   "quelle": "sha256:b6d32aebedb4c3bfc39c0f76e15e221c7573da8920699ba5e891f0c8952fe3d7",
+   "text": "Exclusion 1933"
+  },
+  "blocks[17].x.kategorien[1]": {
+   "quelle": "sha256:46e98a671484da211181ae3eb224b5ed25390a24d1bb0473fde0635934540b75",
+   "text": "Loss of rights 1935"
+  },
+  "blocks[17].x.kategorien[2]": {
+   "quelle": "sha256:a376be361dcf3ddd34a54fc1bb5000b5a361cbb99a335531df2ef7d7f4fee25d",
+   "text": "Violence and plunder 1938"
+  },
+  "blocks[17].x.kategorien[3]": {
+   "quelle": "sha256:54bf1b011c9ea4ea18ac7c39c22b6d6e4015d9d7bd7a6c257b6e53091c7c145b",
+   "text": "Expulsion and escape 1938/39"
+  },
+  "blocks[17].x.kategorien[4]": {
+   "quelle": "sha256:7b47acbfccc557e54482b97d65f1440da456d3c82ab9c269e77539a31f31cd79",
+   "text": "Identification and ghettos 1939–41"
+  },
+  "blocks[17].x.kategorien[5]": {
+   "quelle": "sha256:75eb81485c1e521bf11bd4ed8cdf29395f294b1733e39a49fa15e681d97aa534",
+   "text": "Deportation from 1941"
+  },
+  "blocks[17].x.kategorien[6]": {
+   "quelle": "sha256:b7fc3597ee88423be7a6c028ab508e2b3bd2cb0d6cb2c6f77a1403ff6d4519b4",
+   "text": "Mass murder 1941–45"
+  },
+  "blocks[17].x.beschriftung": {
+   "quelle": "sha256:c0b1264e01127e0951a51823267a95f49dab14375edc51d79f729e2dba02d2df",
+   "text": "Stage of persecution"
+  },
+  "blocks[17].elemente[0].text": {
+   "quelle": "sha256:4621ef0983dac7ba18e34889cd174193c4c1ac6ef46cd62c2ef88004b93b6b7a",
+   "text": "Yellow star for everyone aged six and over"
+  },
+  "blocks[17].elemente[1].text": {
+   "quelle": "sha256:36ea675c316f621784a61541954fe34ed773721c38b542ee3dfb3f52d2b7fce8",
+   "text": "SA guards outside Jewish shops: the boycott"
+  },
+  "blocks[17].elemente[2].text": {
+   "quelle": "sha256:d989929a071ef4a998f832cd82ddeff48c266566cd105c827b35f45f6b17dbee",
+   "text": "Einsatzgruppen, Wannsee Conference, extermination camps"
+  },
+  "blocks[17].elemente[3].text": {
+   "quelle": "sha256:ea255dda9348eb4f24c7bdd95e47db375a7e318e7f9302b628f360bac25aa163",
+   "text": "Marriage ban and loss of voting rights by law"
+  },
+  "blocks[17].elemente[4].text": {
+   "quelle": "sha256:eec6bd69a3c6824c382bf895aa406e93931c4f09a2e88d5935216e2eba41abe8",
+   "text": "Kindertransporte to Britain"
+  },
+  "blocks[17].elemente[5].text": {
+   "quelle": "sha256:4a2776d4a1ba3bd1b0b1192b1cbef0e8b0e28ed57c3ff5616d61e4439ed5d4c4",
+   "text": "Synagogues burn; shops are wrecked"
+  },
+  "blocks[17].elemente[6].text": {
+   "quelle": "sha256:bfc128a4e761cdad18b9f03074102fafe4699f4cabaacb920fced83e7c2b17dd",
+   "text": "Trains from Berlin and Wien to Riga and Minsk"
+  },
+  "blocks[17].elemente[7].text": {
+   "quelle": "sha256:fae6b5fbd448765565ce310cbb817bc59202b21e910414875d7e82eddfd88598",
+   "text": "Jewish civil servants are dismissed (‘Aryan Paragraph’)"
+  },
+  "blocks[17].elemente[8].text": {
+   "quelle": "sha256:8adc48de61dfd11f3d8341e74e8e7beba980c143baf967ae6110ea649076a305",
+   "text": "‘Atonement payment’ of one billion Reichsmarks"
+  },
+  "blocks[17].elemente[9].text": {
+   "quelle": "sha256:536451b630326a598a799d7bf659e02a7f98852fc2340c76f9b08d91aff69edb",
+   "text": "Sealed-off city districts in Łódź and Warschau"
+  },
+  "blocks[18].title": {
+   "quelle": "sha256:db943c272ba1addabe96b8b8ef44793e102fd8e1b4ce69565e89bf545c874539",
+   "text": "1933 to 1945: putting events in order"
+  },
+  "blocks[18].intro": {
+   "quelle": "sha256:cb11297fa5607d00d2709edcce0e2887dce5afec7a377ffd2acee037b6be0f4a",
+   "text": "Put the nine events in the correct chronological order: drag each card to a position from 1 (first) to 9 (last) – or tap the card, then the position. Only the order is scored."
+  },
+  "blocks[18].x.beschriftung": {
+   "quelle": "sha256:a43437e2c965832fc677ccaf42a80b21ae8d73686164beea6553afb47f29b5f0",
+   "text": "Order (1 = first, 9 = last)"
+  },
+  "blocks[18].elemente[0].text": {
+   "quelle": "sha256:4fdca684f8bddb38ac9459dd5f6bb7d1f63af6667a62c3c117a600e3ecd48497",
+   "text": "Wannsee Conference coordinates the genocide"
+  },
+  "blocks[18].elemente[1].text": {
+   "quelle": "sha256:6b38fb2e9ead0a11e2c3ebc3b1335d75005741bcb212ba9ad775cac168114aee",
+   "text": "Boycott of Jewish shops across the Reich"
+  },
+  "blocks[18].elemente[2].text": {
+   "quelle": "sha256:3f9f963f480fb4e462f94b8bb1723039aaf9adb715667000ff7da06e183a3f88",
+   "text": "Évian Conference: hardly any country admits refugees"
+  },
+  "blocks[18].elemente[3].text": {
+   "quelle": "sha256:ba1140cf1c61d8a1d2f3c5f92d8d10f4e7b9fc8757371bdacb65baaa1fc9596e",
+   "text": "Nuremberg Laws: Reich citizenship and ‘blood protection’"
+  },
+  "blocks[18].elemente[4].text": {
+   "quelle": "sha256:3b70f93a0ac383b6601e1d504b6ae7cd03b9bd25fe370fedd208886f540b0445",
+   "text": "The Red Army liberates Auschwitz"
+  },
+  "blocks[18].elemente[5].text": {
+   "quelle": "sha256:e37a8e03c6ef72412ff221dd13ed44de53d7e90dc277984132378493ef2fd605",
+   "text": "‘Anschluss’ of Österreich; violence against Jews in Wien"
+  },
+  "blocks[18].elemente[6].text": {
+   "quelle": "sha256:ba9edbaf6634e536586a5606baffd941abc737c195d6ef8ab99261dfcd4942d8",
+   "text": "The Jewish star badge becomes compulsory in the Reich"
+  },
+  "blocks[18].elemente[7].text": {
+   "quelle": "sha256:878494abf45fb0bb5df6cd12791c001b29c3e74ce7ed53b141f69aa78a4ce3ed",
+   "text": "November pogroms: synagogues burn"
+  },
+  "blocks[18].elemente[8].text": {
+   "quelle": "sha256:a23e703550102be55589aab1b67ba1e869727d8ab65ee0a241d879c80aaa0bd9",
+   "text": "First Kindertransporte to Britain"
+  },
+  "blocks[19].title": {
+   "quelle": "sha256:853767bb8ee0a4ee37dc2d7cfe60f347b0d57294a7065d1f80baf81adb4abc3c",
+   "text": "Self-check: from loss of rights to genocide"
+  },
+  "blocks[19].intro": {
+   "quelle": "sha256:027725333c506881c751d5b9dcc0c73cc7862ad2f1be311929fc8a618a402002",
+   "text": "Check whether you have understood the material. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[19].questions[0].prompt": {
+   "quelle": "sha256:9d2c5519b09b876c277e58ef9d4e6bab8badc147917c0dc6626469146eded457",
+   "text": "What did the Reich Citizenship Law of 15 September 1935 stipulate?"
+  },
+  "blocks[19].questions[0].options[0].text": {
+   "quelle": "sha256:6a628f14f9734bdee01948f2dbdfcdffee36746ee6aa9e1d067aad8576dcc37d",
+   "text": "Jewish people had to leave the German Reich within a year and lost their nationality."
+  },
+  "blocks[19].questions[0].options[1].text": {
+   "quelle": "sha256:0f9fad0cffbffbd5145e3e4ee570aa9b526a281cb9b23ca41a9be0f22fe020aa",
+   "text": "Jewish people had to wear a yellow star in public and were no longer allowed to emigrate."
+  },
+  "blocks[19].questions[0].options[2].text": {
+   "quelle": "sha256:41edb1790253f360029fed483a1b07cc2a975200196460778291ba92e2111940",
+   "text": "Jewish people had to sell their shops to non-Jewish buyers and pay a financial penalty."
+  },
+  "blocks[19].questions[0].options[3].text": {
+   "quelle": "sha256:fca1da780179b7efe3d6ba062d5c1e3f484c9e467aa436358055676d2d3d4c22",
+   "text": "Jewish people remained state nationals, but only those ‘of German blood’ were Reich citizens with political rights."
+  },
+  "blocks[19].questions[0].explanation": {
+   "quelle": "sha256:7ffac5b7710bea921274066524aef3b6dc4b447f2aeaded1a3d39bb98b7b31f9",
+   "text": "The Reich Citizenship Law created two classes: Reich citizens with political rights and state nationals without them. Expulsion was not in the law; the Jewish star badge and emigration ban came in 1941, and plunder mainly in 1938."
+  },
+  "blocks[19].questions[1].prompt": {
+   "quelle": "sha256:6a9fe9779111e3609e6a59347fc1859aca0eeddaeab9f91a672a5ff1e5e956d9",
+   "text": "How did the Nazi authorities decide who was classified as a ‘Jew’?"
+  },
+  "blocks[19].questions[1].options[0].text": {
+   "quelle": "sha256:046e5ac95d55cfeb72801e9ee825600366b02803d2a21d2af277a22ce468e540",
+   "text": "By the person's own faith – anyone baptised as a Protestant or Catholic was no longer classified as a Jew."
+  },
+  "blocks[19].questions[1].options[1].text": {
+   "quelle": "sha256:d2d66d8cb8eda1a0f017553250070757d4b8edab5bae2dca23d34129019c17db",
+   "text": "By the grandparents' religious affiliations – with three or four Jewish grandparents, the person's own faith did not count."
+  },
+  "blocks[19].questions[1].options[2].text": {
+   "quelle": "sha256:5e5e0c190b9acbd640e3743e4a7a9b041ed3bca6e71b57029ce3e3136dad08be",
+   "text": "By a medical assessment of the person's appearance, blood group, skull shape and physique."
+  },
+  "blocks[19].questions[1].options[3].text": {
+   "quelle": "sha256:2dc5fa313f7dcb0a099d24815f8ac89bf2232ca7788c2c4791748265b60a6fb9",
+   "text": "By the person's birthplace – anyone born in Eastern Europe was automatically classified as a Jew by the authorities."
+  },
+  "blocks[19].questions[1].explanation": {
+   "quelle": "sha256:5c83de7cc5bb0e49bda242d819e87267c246a496c4d8ee48293e256a2b1fdf77",
+   "text": "The regulation of 14 November 1935 counted Jewish grandparents by their religious affiliation. Neither a medical assessment nor birthplace counted. With three or four Jewish grandparents, someone was classified as a ‘Jew’ even if they had been baptised; only with two grandparents did their own community membership or marriage also matter. There was no biological characteristic, and that is precisely what exposes ‘racial doctrine’."
+  },
+  "blocks[19].questions[2].prompt": {
+   "quelle": "sha256:2ad3bc570f8ec0649bc1c8c13b69dc32b64b49b9de306318fc0f326427ee6cb8",
+   "text": "The murder of Europe's Jews began with the Wannsee Conference in January 1942."
+  },
+  "blocks[19].questions[2].explanation": {
+   "quelle": "sha256:b1181c29753d46a8f1087b3afd785ef322ab5fd54b115d92f71081b391b47c66",
+   "text": "False. The Einsatzgruppen's mass shootings had been taking place since June 1941, and murders at Chełmno extermination camp (using gas vans) since December 1941. The Wannsee Conference on 20 January 1942 coordinated the implementation across Europe of a genocide that had already begun."
+  },
+  "blocks[19].questions[3].prompt": {
+   "quelle": "sha256:4cfefb4e1d3dae828045f17a27bc7e617f388fe8312ad0c684f3ea1fd0c9f098",
+   "text": "Why is ‘Reichskristallnacht’ a problematic term?"
+  },
+  "blocks[19].questions[3].options[0].text": {
+   "quelle": "sha256:dfa712679f664d7f9361375bc513acbb2a66a55d3d2e52941e801096c8f88f28",
+   "text": "Because it is Nazi jargon and plays down the violence – broken glass instead of murder and arson."
+  },
+  "blocks[19].questions[3].options[1].text": {
+   "quelle": "sha256:0a7ca2d5c1ad31e6827d0c60c14dc6c3206c7de3c857e78fb4c82691e086f8d2",
+   "text": "Because the pogrom took place in broad daylight, not at night, and no windows were broken."
+  },
+  "blocks[19].questions[3].options[2].text": {
+   "quelle": "sha256:a75d02fd4ebd2b367a1ebff64a5580eb61868db86fb003112bfef2684c01628d",
+   "text": "Because historians only invented the term after 1945, and it was unknown at the time."
+  },
+  "blocks[19].questions[3].options[3].text": {
+   "quelle": "sha256:4e57a326af2baa274426de6f36bd949f9c77181c6280cc1c49eb15eabac0b886",
+   "text": "Because it refers only to Berlin, while the pogrom took place across the Reich and in Österreich."
+  },
+  "blocks[19].questions[3].explanation": {
+   "quelle": "sha256:a15b06fbd5b763ef37d6a31405fe42d5639010ebef03ede3ef0eeb8b896d4ce3",
+   "text": "The term dates from the Nazi era and reduces murder and arson to the sound of glass; that is why the term November pogroms is used today. The pogrom began at night, the term was widespread at the time, and it does not refer only to Berlin."
+  },
+  "blocks[19].questions[4].prompt": {
+   "quelle": "sha256:9a20918b1fee5a3363a57086799065fd5fc4b25ec9a3e2805c36f6ddc06f3435",
+   "text": "What was the ‘J’ stamp of 1938?"
+  },
+  "blocks[19].questions[4].options[0].text": {
+   "quelle": "sha256:52a92a2e21f52648fbd3285ed6530cbe67edefee91f7a5776fcbe057ff663b41",
+   "text": "A stamp in German civil servants' identity documents that required them to take part in the ‘Polenaktion’."
+  },
+  "blocks[19].questions[4].options[1].text": {
+   "quelle": "sha256:d63d00bfaa7b5766f4651edf3ec054884d260a108123ac4aea8a379f6bdcfe0f",
+   "text": "A mark that SA guards put on Jewish shops during the boycott in April 1933 to warn customers."
+  },
+  "blocks[19].questions[4].options[2].text": {
+   "quelle": "sha256:adfb69844fc9c291bf313ff754391645ffe0de8394bf63bfe364bea9960aa32f",
+   "text": "A mark on German Jews' passports – proposed by Germany and used by Switzerland to turn people away."
+  },
+  "blocks[19].questions[4].options[3].text": {
+   "quelle": "sha256:bff8b15f1ccadb78706bc756baf30e8e98c99a515d972ac79777b754c0f2f96d",
+   "text": "The stamp used by the Évian Conference in July 1938 to approve the admission of Jewish refugees."
+  },
+  "blocks[19].questions[4].explanation": {
+   "quelle": "sha256:ce6bb9bfdd88bc13b97d9b3c1d77e68c1b707f86f894150050e42c317a33f6e2",
+   "text": "From October 1938, German Jews' passports carried a red ‘J’. The German authorities had proposed the marking; Switzerland agreed instead of requiring visas for all Germans, and used the ‘J’ to identify and turn away Jewish refugees at the border. The stamp had nothing to do with civil servants, the 1933 boycott or Évian."
+  },
+  "blocks[19].questions[5].prompt": {
+   "quelle": "sha256:b23cce29aaad6142101c15d99b32316f2fbbcdf86b293ead66b18817e232b7e7",
+   "text": "What distinguishes an extermination camp from a concentration camp (KZ)?"
+  },
+  "blocks[19].questions[5].options[0].text": {
+   "quelle": "sha256:fa6f7ee33d71a27e87f7092f809c1a654f3c67ee324e5658245f856c7c4bb4d5",
+   "text": "Concentration camps existed only in Germany itself, while extermination camps existed only in occupied Western Europe."
+  },
+  "blocks[19].questions[5].options[1].text": {
+   "quelle": "sha256:3ef5a217bf8ae2294dfc77476a850f9807e73bb857b90dc1fedb3e88a19e458e",
+   "text": "A concentration camp served detention, terror and forced labour; an extermination camp solely the murder of those arriving."
+  },
+  "blocks[19].questions[5].options[2].text": {
+   "quelle": "sha256:6decc52ade66207d6a3cf32b14041931ab79ea90633e4d0ae7a2e459d5139f9e",
+   "text": "A concentration camp was run by the Wehrmacht, an extermination camp by the Gestapo and local police."
+  },
+  "blocks[19].questions[5].options[3].text": {
+   "quelle": "sha256:4b3f5cc62c6411bc601a46c8bf2181e33e4a2b4e53f6d856201267536be35c08",
+   "text": "Concentration camps existed only until 1939; after that, all existing camps were converted into extermination camps."
+  },
+  "blocks[19].questions[5].explanation": {
+   "quelle": "sha256:dc0adc6bf3bb3305aabeac640e540000c50b4e6092f13bbd2e48706befd16785",
+   "text": "Concentration camps were detention camps for terror and forced labour, where people also died in huge numbers. Camps used solely for extermination, such as Treblinka or Bełżec, served only to murder those arriving; Auschwitz-Birkenau and Majdanek were both concentration and extermination camps. Both types of camp were run by the SS, concentration camps existed until 1945 and were also located outside Germany, and the extermination camps were in occupied Poland, not Western Europe."
+  },
+  "blocks[19].questions[6].prompt": {
+   "quelle": "sha256:9804e786dd3dbdcf076bcc53ff786ead92afd04749959fdf5557971c6b29e9eb",
+   "text": "Who was Paul Grüninger?"
+  },
+  "blocks[19].questions[6].options[0].text": {
+   "quelle": "sha256:6b833d3c6d98717d13bdabb0968036d2d6e1ca4df4c2e7c463104c9ce7ce0f4f",
+   "text": "A journalist from Wien who reported on the humiliation of Jewish neighbours in 1938 and was arrested for doing so."
+  },
+  "blocks[19].questions[6].options[1].text": {
+   "quelle": "sha256:e3fe94d800c85d16be4b76402c281639d213a125f9f3a6c000dd4ff954fd7c38",
+   "text": "A German diplomat in Paris whom Herschel Grynszpan shot in November 1938 and who died shortly afterwards."
+  },
+  "blocks[19].questions[6].options[2].text": {
+   "quelle": "sha256:59eb41cd32e0eff2cbc9b92cdb463c3a7af52ef0ac6f71dad7dd299862ec956e",
+   "text": "An organiser of the Kindertransporte who brought thousands of Jewish children to safety in Britain in 1938/39."
+  },
+  "blocks[19].questions[6].options[3].text": {
+   "quelle": "sha256:77b43531a788d95c70049d765f0ca3fe14a78a74459c138834233ddd149d2558",
+   "text": "A police commander in St. Gallen who let Jewish refugees enter in 1938 against regulations."
+  },
+  "blocks[19].questions[6].explanation": {
+   "quelle": "sha256:6fc6cde9b8fd7ea5eb930e218f2125f107a1f797106b0e06f59e60d8f944efc0",
+   "text": "In 1938, Paul Grüninger let hundreds of refugees enter at the border near Diepoldsau using backdated papers. He was dismissed and convicted in 1939, and his name was only cleared in 1995. He was neither a journalist nor from Wien; the humiliation of Jewish people in Wien in 1938 is documented but had nothing to do with him. The diplomat was Ernst vom Rath; British and Jewish aid organisations organised the Kindertransporte."
+  },
+  "blocks[19].questions[7].prompt": {
+   "quelle": "sha256:4b9c53ea237e73f3d6b9ec74bda8ec67fd602cb354c7437f67a14a7275a335f6",
+   "text": "From when did Jewish people in the German Reich have to wear the yellow star?"
+  },
+  "blocks[19].questions[7].options[0].text": {
+   "quelle": "sha256:a81428c430241776c4aff23f5698bb106e359ac08add93ebb73cfbc452c884c1",
+   "text": "From September 1941, for people aged six and over."
+  },
+  "blocks[19].questions[7].options[1].text": {
+   "quelle": "sha256:933c999b1fd00a992b79435da4e49297612a93979c333c1bb77a82d1bdbe48fe",
+   "text": "From the boycott of 1 April 1933, for all ages."
+  },
+  "blocks[19].questions[7].options[2].text": {
+   "quelle": "sha256:f6a577ca2e73d5e0261e91d5befb3f5c18157866ae314c0e1e3f5136be9da597",
+   "text": "From the Nuremberg Laws of September 1935, from the age of 14."
+  },
+  "blocks[19].questions[7].options[3].text": {
+   "quelle": "sha256:202b8d235dbbb7459f61ee5b1dd2aa32247daa727159d417f21dd2f6f91c8b3f",
+   "text": "From the Wannsee Conference in January 1942, for adults only."
+  },
+  "blocks[19].questions[7].explanation": {
+   "quelle": "sha256:88c1a11f20604ab18d88fcf225b681c6d397111e994de0d65153f02cdd30098c",
+   "text": "The police decree of 1 September 1941 came into force on 19 September 1941 and applied from the age of six. In 1933 and 1935, compulsory identification did not yet exist, and the Wannsee Conference had nothing to do with it."
+  },
+  "blocks[19].questions[8].prompt": {
+   "quelle": "sha256:36b1b5eee114c4a7a9862bc78236ee5a837a132e57de2e98e66217453f0e8f2f",
+   "text": "What was the outcome of the Évian Conference in July 1938?"
+  },
+  "blocks[19].questions[8].options[0].text": {
+   "quelle": "sha256:b43cdb38bd230568b7de05f9feb466bd2b9706dfd92d2b7e0ab8f39810f8f26c",
+   "text": "The 32 countries committed to admitting fixed quotas of Jewish refugees each year."
+  },
+  "blocks[19].questions[8].options[1].text": {
+   "quelle": "sha256:4f992d0d293122494d1a758cbaabd819c6eac434f21dafad978ac38ebe52927a",
+   "text": "Germany promised to make it easier for Jewish people to emigrate and to release their assets."
+  },
+  "blocks[19].questions[8].options[2].text": {
+   "quelle": "sha256:38f1a477b7b387cc7d63223ea6f172bd474b92b71bfffb38aa46a3d2f9286c48",
+   "text": "Hardly any country was willing to admit more refugees – Nazi propaganda used this as confirmation of its views."
+  },
+  "blocks[19].questions[8].options[3].text": {
+   "quelle": "sha256:6ab87ac741fa53b382b9f4fdb97fc49889fa080a2193632f9688d6bec2e22863",
+   "text": "Switzerland took the lead and organised Kindertransporte to the USA and Canada."
+  },
+  "blocks[19].questions[8].explanation": {
+   "quelle": "sha256:696410c355e852f8b6acd4a010ae7b6ce5d63568433e5e94574b00f5ba164667",
+   "text": "In Évian, representatives of 32 countries expressed regret about the situation, but hardly any wanted to admit more refugees; the regime took this as confirmation of its views. There were no fixed quotas, German promises or Swiss leadership role – the Kindertransporte to Britain only began after the November pogroms."
+  },
+  "blocks[19].questions[9].prompt": {
+   "quelle": "sha256:21fc495db3c767ecd3c94b1096a8387097afcb4cd9385cc4e6ff69eadcbdf9cd",
+   "text": "Which groups besides Jews were persecuted and murdered by the Nazi regime?"
+  },
+  "blocks[19].questions[9].options[0].text": {
+   "quelle": "sha256:2e464133b970f3f572a55dff0e8227208f8f0fbba244e4cfab662cdd8829be2f",
+   "text": "Only political opponents from the KPD and SPD – other groups were largely spared the regime's terror."
+  },
+  "blocks[19].questions[9].options[1].text": {
+   "quelle": "sha256:09b7d5e30972670eb7531a92678061a0ad05309288ac5891d010b3328e4ef11c",
+   "text": "Sinti and Roma, disabled people, Soviet prisoners of war, homosexuals and political opponents."
+  },
+  "blocks[19].questions[9].options[2].text": {
+   "quelle": "sha256:8621224fbd2996fdbae788c2777735afa58a21197a75bf88b8a3981a7b7aaa2c",
+   "text": "Only people in the occupied territories in the east – there were no other victims within the German Reich itself."
+  },
+  "blocks[19].questions[9].options[3].text": {
+   "quelle": "sha256:370fdd413685b47180c4feb4f8d6c7470c7e0de8c417cc545b70cbcb25c6e788",
+   "text": "Mainly members of the Catholic Church, which had unanimously called for resistance to the regime."
+  },
+  "blocks[19].questions[9].explanation": {
+   "quelle": "sha256:f15acfbf4275e9a5db0f2c7cdda2a78bc9994c453a455a2a6f78fed06686ee75",
+   "text": "The genocide of the Sinti and Roma, the ‘euthanasia’ murders, the deaths of Soviet prisoners of war and the persecution of homosexuals, political opponents and Jehovah's Witnesses all form part of the toll of Nazi terror. It affected people both in the Reich and in the occupied territories; the Catholic Church as a whole did not call for resistance."
+  },
+  "blocks[20].title": {
+   "quelle": "sha256:138be2a310535b719826303f5eec84065a84aaf98f7b90180aa11949350ba83f",
+   "text": "Exploring further: saying no, Anne Frank and people's roles"
+  },
+  "blocks[20].intro": {
+   "quelle": "sha256:6654b88b8dd116901c01dfdcfc9ca79c4d7573511ebdc6fe8baf83e335019f4b",
+   "text": "Your answers go to your teacher. Tasks 1 and 2 are for everyone; Task 3 is marked **(Extension)**."
+  },
+  "blocks[20].tasks[0].prompt": {
+   "quelle": "sha256:f6195bf046932c95ddfbc34e6a892c99c9acaa888f9d39dfc8ca23a1ad0b91c8",
+   "text": "Look at the staircase. At which stage could non-Jewish people in Germany – neighbours, customers, civil servants and clubs – still have done something, and why did so few do so? Answer in two to five sentences and give at least one reason other than ‘fear’."
+  },
+  "blocks[20].tasks[0].hint": {
+   "quelle": "sha256:7b4b0f36c2bb85160ccd6eca21992d4e8612f9f9074bd3d3090f70a2742ad32d",
+   "text": "Think of 1933 (boycott: who shopped there anyway?), 1935 (civil servants applied laws) and 1938 (neighbours watched; buyers benefited). Reasons might include getting used to it, personal gain, indifference, belief in propaganda or ‘It's none of my business’."
+  },
+  "blocks[20].tasks[0].solution": {
+   "quelle": "sha256:dc8d3107751a94d087c537b60aa5fc8dca3e3524931e226b7215fa649877d94b",
+   "text": "Example answer: There was most room to act at the lower steps: in 1933, customers could have continued shopping in Jewish shops, clubs could have kept their members, and civil servants could have refused to comply. Fear was not the only reason so few did so: many had absorbed the propaganda, many got used to each new step because it seemed small, and quite a few benefited – from job vacancies, cheap businesses and auctioned furniture. The higher up the staircase, the more dangerous dissent became – which is why saying no early mattered."
+  },
+  "blocks[20].tasks[1].prompt": {
+   "quelle": "sha256:f7c6e16dc78973ee3ac24f9c60cc7656acf73a9106d5f5445978065a26892b25",
+   "text": "Which steps of the staircase did Anne Frank's family experience? In two to four sentences, relate their lives to the stages – and explain why escaping to Amsterdam did not help in the end."
+  },
+  "blocks[20].tasks[1].hint": {
+   "quelle": "sha256:3ebe13a304a81eed330ad2397b3b1b546a831ea678d5804e6a70bbe7e2610948",
+   "text": "Frankfurt in 1933, Amsterdam in 1933/34, occupation in 1940, the star and exclusion from school, hiding in 1942, arrest in 1944, Auschwitz, Bergen-Belsen. The Franks fled earlier than most – which stages in Germany did they avoid as a result?"
+  },
+  "blocks[20].tasks[1].solution": {
+   "quelle": "sha256:7568d6ab18e1e2db3474acab9cc67686fa0e65129205209b146b079426384558",
+   "text": "Example answer: In Frankfurt in 1933, the family experienced exclusion (stage 1), and they emigrated to Amsterdam in 1933/34 – long before many families had to flee following the pogrom and plunder in 1938/39 (stage 4); the Franks no longer experienced stages 2 and 3 in Germany. Persecution caught up with them when the Netherlands was occupied in 1940: exclusion, loss of rights and, from 1942, the Jewish star badge (stage 5) followed there within a short time. In 1942, they faced deportation (stage 6), which they tried to escape by hiding. After they were discovered in 1944, deportation and death in a camp followed (stages 6 and 7). Escape did not help because the war spread persecution across almost all of Europe – there was no safe country left for the Franks."
+  },
+  "blocks[20].tasks[2].prompt": {
+   "quelle": "sha256:44c0db410b906fdc34fb7acb04dce880ce964c65fba4b5748e909c20b4eb8eca",
+   "text": "(Extension) Histories of persecution often distinguish five roles. Perpetrators plan, order or carry out violence. Followers join in or benefit without using violence themselves. Bystanders watch and do nothing. Helpers (rescuers) assist persecuted people even though it is forbidden and dangerous. Victims are persecuted. The boundaries are fluid. Give an example from this module for each of these five roles. For perpetrators, followers, bystanders and helpers, explain in one sentence each what decision lay behind their behaviour; for victims, explain in one sentence what options they had and how persecution restricted these step by step. This is an analysis, not a role play."
+  },
+  "blocks[20].tasks[2].hint": {
+   "quelle": "sha256:f06b8f7d97cf9f1fae740ed7125c0f3474ba7764784351f12170d0d4cce119ee",
+   "text": "Perpetrators: who ordered violence or carried it out themselves (for example, Goebbels or the SA)? Followers: who applied laws or bought ‘Aryanised’ shops without personally attacking anyone? Bystanders: the neighbours who watched in November 1938. Helpers: Paul Grüninger and the employees who helped those hiding in the annex. Victims: the Frank family, the men arrested in November 1938 and the Jewish people in Wien forced to scrub the streets in March 1938."
+  },
+  "blocks[20].tasks[2].solution": {
+   "quelle": "sha256:fdc73e10b0b4de1769f64e143ac3210d184c4abd39f61e40be561c002461e2a0",
+   "text": "Example answer: Perpetrators included Goebbels, who triggered the pogrom, and the SA men who set synagogues on fire – they decided to order or carry out violence. Followers included buyers of ‘Aryanised’ businesses and civil servants who implemented bans without objection – they joined in because it brought advantages or an easy life, instead of saying no. Bystanders were the neighbours who watched in November 1938 – they decided to do nothing. Helpers such as Paul Grüninger or the employees at the annex in Amsterdam decided to break rules and take risks. Victims such as the Frank family sought ways out – emigration to Amsterdam, later hiding – but with each stage (occupation in 1940, compulsory identification, deportations), persecution took away more options; the perpetrators and the regime were responsible for their fate, not the persecuted people. The boundaries are fluid: civil servants who later organised deportations (for example, at the Wannsee Conference) were no longer followers but perpetrators – the same professional group can take different roles depending on its actions."
+  }
+ },
+ "pakete": {
+  "blocks[5]": {
+   "quelle": "sha256:4af8d9dedd1995cb2a5a993cd52828d8a5da0b47c8ed0b6ce94858a103ab6b8a",
+   "inhalt": {
+    "text": "‘Marriages between Jews and nationals of German or related blood are prohibited.’ – In everyday language: Jews and non-Jews may no longer {{1}} each other.\n‘Marriages entered into despite this are void […].’ – In everyday language (without the legal term from the quotation): such a marriage does not count for the state; it is {{2}}.\n‘Only a national of German or related blood […] is a Reich citizen.’ – In everyday language: Jews lose their political rights, for example the right to take part in elections – in other words, {{3}}.\nAnyone with three or four Jewish grandparents was classified as a ‘Jew’: what mattered was not their own faith but the religion of their {{4}}.\nThe three laws were passed unanimously in Nürnberg on 15 September 1935 by {{5}}.",
+    "luecken": [
+     [
+      "marry",
+      "wed",
+      "get married to"
+     ],
+     [
+      "invalid",
+      "not valid",
+      "ineffective",
+      "without effect",
+      "of no effect",
+      "null and void",
+      "legally invalid",
+      "not legally valid",
+      "not effective",
+      "not legally effective",
+      "not legally binding",
+      "annulled"
+     ],
+     [
+      "voting rights",
+      "the right to vote",
+      "right to vote",
+      "a right to vote",
+      "their right to vote",
+      "the vote",
+      "vote",
+      "suffrage",
+      "the franchise",
+      "franchise",
+      "the right to cast a vote",
+      "right to cast a vote"
+     ],
+     [
+      "grandparents",
+      "four grandparents",
+      "the grandparents",
+      "the four grandparents",
+      "their grandparents",
+      "their four grandparents"
+     ],
+     [
+      "the Reichstag",
+      "Reichstag",
+      "the German Reichstag",
+      "German Reichstag",
+      "parliament",
+      "the parliament",
+      "the German parliament",
+      "German parliament"
+     ]
+    ]
+   }
+  }
+ }
+}
