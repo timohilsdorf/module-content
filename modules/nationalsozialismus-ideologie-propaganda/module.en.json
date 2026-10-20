@@ -1,0 +1,1225 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-ideologie-propaganda --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:170330b3edf2e26fbcbddfe2a45dc16ae1e9835f4aab42702f4065e81c9c0eb5",
+  "masterCommit": "8f835b2",
+  "hintsHash": null,
+  "generatedAt": "2026-10-17",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:be3bbc705a1c4bcd6d001397d16f3166ee7b5af0347dee75a5373441b9b6dddd"
+ },
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-ideologie-propaganda",
+ "title": "Worldview and persuasion: ideology and propaganda",
+ "description": "What did the Nazis believe – and how did they persuade millions to join in? You will learn about the building blocks of Nazi ideology, see how ‘racial theory’ led to laws and murder, use a set of questions to analyse Goebbels' propaganda apparatus, and ask why so many people agreed, looked away or benefited.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "en",
+ "sequenz": 4,
+ "einheit": "National Socialism – dictatorship, persecution, remembrance",
+ "requires": [
+  "nationalsozialismus-organisationen"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "ideology",
+  "racial theory",
+  "national community",
+  "living space",
+  "propaganda",
+  "Goebbels",
+  "Volksempfänger",
+  "Mein Kampf",
+  "euthanasia",
+  "National Socialism"
+ ],
+ "learningObjectives": [
+  "I can explain what an ideology is and name the building blocks of Nazi ideology.",
+  "I can describe how ‘racial theory’ led to the Law for the Prevention of Hereditarily Diseased Offspring and the ‘T4’ murder programme.",
+  "I can name the main means of Nazi propaganda and explain how Goebbels' ministry reached into everyday life.",
+  "I can analyse a piece of propaganda using a set of questions (Who is speaking? To whom? What emotions, enemy images, simplifications and aims are involved?).",
+  "I can give reasons why many people agreed, joined in or looked away after 1933.",
+  "(Extension) I can analyse Hitler's principles of propaganda from ‘Mein Kampf’ and recognise propaganda techniques in today's media."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Das NS-Regime (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/ns-regime"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Nationalsozialismus",
+   "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/"
+  },
+  {
+   "title": "Institut für Zeitgeschichte München–Berlin: Hitler, Mein Kampf. Eine kritische Edition (2016)",
+   "url": "https://www.ifz-muenchen.de"
+  },
+  {
+   "title": "Gedenkort T4 (Berlin): Information und Gedenken zu den NS-«Euthanasie»-Morden",
+   "url": "https://www.gedenkort-t4.eu"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Wie die Nazis so viele Deutsche überzeugten",
+   "url": "https://www.youtube.com/watch?v=dD4y3B27VMM"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k4-einstieg",
+   "title": "A worldview that explains everything",
+   "body": "Imagine an explanation that has an answer to every question: why are people unemployed? Why did Germany lose the war? Why do the parties argue? Why is your neighbour richer than you? And every time, the answer is the same. This is exactly how an **ideology** works: a **closed worldview** that claims to **explain everything** and **tolerates no disagreement**. Within this worldview, anyone who disagrees does not simply hold a different opinion – they are an enemy or someone who has been misled.\n\nThis is what distinguishes it from science and democracy: there, you can test, disprove and revise claims. In an ideology, the conclusion is fixed before anyone has examined the evidence.\n\nThe most important source of Nazi ideology is Hitler's book **‘Mein Kampf’**, which he wrote in prison after his failed attempt to overthrow the government in München (November 1923); volume 1 appeared in 1925, volume 2 in 1926. It is confused and full of hatred – and after 1933 it became the regime's most widely distributed book: registry offices gave it to newly married couples as a wedding gift. Anyone who read it at the time could have known what was to come. Today, there is a scholarly edition with thousands of explanatory notes so that no one reads the book without commentary. We too quote from it only briefly and with context."
+  },
+  {
+   "type": "text",
+   "id": "k4-bausteine",
+   "title": "The building blocks of Nazi ideology",
+   "body": "Nazi ideology was not a carefully thought-out system. It was a mixture of prejudices, fears and desires for power that had already been circulating in the 19th century. Hitler combined them into a worldview. Its building blocks were:\n\n1. **‘Racial theory’.** The Nazis claimed that humanity was divided into ‘races’ of different worth. The ‘Aryans’ – meaning mainly Germans and other Northern Europeans – were supposedly the ‘master race’, destined to rule. Jews were seen as a ‘counter-race’, while Sinti and Roma, Slavs and people with disabilities were labelled ‘inferior’. This was **pseudoscientific**: it sounded like biology and was even taught in schools and universities, but had no scientific basis. Human ‘races’ in this sense do not exist.\n2. **Antisemitism.** Hatred of Jews was the central belief in this worldview; it extended as far as genocide. In the Nazi worldview, ‘the Jews’ were to blame for everything: defeat in 1918, capitalism and, at the same time, communism. A separate module in this series explains where this hatred came from and where it led.\n3. **‘Living space in the East’ (‘Lebensraum im Osten’).** The German people supposedly needed more land, which lay in the East – in Poland and the Soviet Union. The population there was to be expelled, enslaved or killed. A war of conquest was the aim from the start, not an accident.\n4. **‘National community’ (‘Volksgemeinschaft’).** All Germans were supposed to form a community without classes – ‘the common good before self-interest’ was the slogan. This sounded like solidarity, but it meant that the individual had no rights against the community as a whole. Anyone considered ‘alien to the community’ – Jews, political opponents, people with disabilities and those the regime branded ‘asocial’ (a Nazi catch-all term for homeless people, beggars and anyone who did not fit its idea of ‘order’) – was excluded. The term ‘national community’ therefore belongs in quotation marks: it is a term used by the perpetrators.\n5. **The Führer principle and the cult of the leader.** Orders instead of discussion; obedience instead of elections. Hitler was presented as an infallible saviour.\n6. **Anti-communism.** ‘Bolshevism’ (the Nazi term for communism, named after the Bolsheviks, Lenin's party in Russia) was seen as a mortal enemy – and at the same time as ‘Jewish’. This linked antisemitism to the fear of revolution felt by many middle-class people.\n7. **Rejection of democracy and human rights.** Parliaments, parties and equality before the law were seen as weakness and as ‘un-German’.\n8. **Social Darwinism.** The Nazis applied the idea of ‘survival of the strongest’ to peoples: struggle and war were supposedly laws of nature, and compassion for the ‘weak’ was a mistake. This distorted Darwin's ideas: he described adaptation in nature, not a politics of might.\n\nThe diagram gives you an overview of these building blocks. They all come together in the Führer principle and the cult of the leader – these hold the worldview together, while antisemitism drives it."
+  },
+  {
+   "type": "schaubild",
+   "id": "k4-rad",
+   "title": "The building blocks of Nazi ideology",
+   "szene": {
+    "elemente": [
+     {
+      "id": "r-titel",
+      "x": 300,
+      "y": 0,
+      "width": 480,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "The building blocks of Nazi ideology",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-untertitel",
+      "x": 300,
+      "y": 42,
+      "width": 682,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#4c6f91",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "A closed worldview: all building blocks converge on the Führer principle",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-l0",
+      "x": 620,
+      "y": 370,
+      "width": 0,
+      "height": 202,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -202
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "r-l1",
+      "x": 714,
+      "y": 396,
+      "width": 172,
+      "height": 126,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        172,
+        -126
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "r-l2",
+      "x": 737,
+      "y": 456,
+      "width": 214,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        214,
+        45
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "r-l3",
+      "x": 672,
+      "y": 503,
+      "width": 96,
+      "height": 182,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        96,
+        182
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "r-l4",
+      "x": 568,
+      "y": 503,
+      "width": 96,
+      "height": 182,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -96,
+        182
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "r-l5",
+      "x": 503,
+      "y": 456,
+      "width": 214,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -214,
+        45
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "r-l6",
+      "x": 526,
+      "y": 396,
+      "width": 172,
+      "height": 126,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -172,
+        -126
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": null
+     },
+     {
+      "id": "r-mitte",
+      "x": 500,
+      "y": 370,
+      "width": 240,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "ellipse"
+     },
+     {
+      "id": "r-mitte-t",
+      "x": 510,
+      "y": 415,
+      "width": 220,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "text",
+      "text": "Führer principle\nand leader cult",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-mitte",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-b0",
+      "x": 490,
+      "y": 120,
+      "width": 260,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-b0-t",
+      "x": 500,
+      "y": 141.5,
+      "width": 240,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "text",
+      "text": "‘Racial theory’\nHumans supposedly divisible into\n‘superior’ and ‘inferior races’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-b0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-b1",
+      "x": 756,
+      "y": 222,
+      "width": 260,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-b1-t",
+      "x": 766,
+      "y": 243.5,
+      "width": 240,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "text",
+      "text": "Antisemitism\nJews portrayed as a\nsupposed ‘counter-race’ and enemy",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-b1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-b2",
+      "x": 821,
+      "y": 453,
+      "width": 260,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-b2-t",
+      "x": 831,
+      "y": 474.5,
+      "width": 240,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "text",
+      "text": "‘Living space in the East’\nWar to conquer Eastern Europe\nas the goal",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-b2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-b3",
+      "x": 638,
+      "y": 637,
+      "width": 260,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-b3-t",
+      "x": 648,
+      "y": 658.5,
+      "width": 240,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1069395373,
+      "type": "text",
+      "text": "‘National community’\nSupposedly classless – in reality,\nexcludes those deemed ‘outsiders’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-b3",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-b4",
+      "x": 342,
+      "y": 637,
+      "width": 260,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1346169768,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-b4-t",
+      "x": 352,
+      "y": 658.5,
+      "width": 240,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1323890193,
+      "type": "text",
+      "text": "Anti-communism\n‘Bolshevism’ as a mortal enemy,\nat home and abroad",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-b4",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-b5",
+      "x": 159,
+      "y": 453,
+      "width": 260,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1591521450,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-b5-t",
+      "x": 169,
+      "y": 474.5,
+      "width": 240,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 537279799,
+      "type": "text",
+      "text": "Rejection of democracy\nParliament, parties and\nhuman rights seen as ‘weakness’",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-b5",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-b6",
+      "x": 224,
+      "y": 222,
+      "width": 260,
+      "height": 96,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1766705883,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-b6-t",
+      "x": 234,
+      "y": 243.5,
+      "width": 240,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080880862,
+      "type": "text",
+      "text": "Social Darwinism\n‘Might makes right’,\nwar as a law of nature",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-b6",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "r-merk",
+      "x": 20,
+      "y": 760,
+      "width": 1200,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#9db8d2",
+      "backgroundColor": "#e8f0f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1576577607,
+      "type": "rectangle"
+     },
+     {
+      "id": "r-merk-t",
+      "x": 30,
+      "y": 778.5,
+      "width": 1180,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 821440179,
+      "type": "text",
+      "text": "Remember: an ideology explains everything and tolerates no dissent – Nazi ideology placed ‘race’ and the Führer above all rights.",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "r-merk",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Title: The building blocks of Nazi ideology. Subtitle: A closed worldview; all building blocks converge on the Führer principle. In the centre is an orange-filled oval labelled ‘Führer principle and leader cult’. Seven blue boxes form a circle around the oval and are connected to the centre by lines. Key statements: 1. Racial theory: humans are supposedly divisible into superior and inferior races. 2. Antisemitism: Jews portrayed as a supposed counter-race and enemy. 3. Living space in the East: a war to conquer Eastern Europe as the goal. 4. National community: supposedly classless, but in reality excluding those deemed alien to the community. 5. Anti-communism: Bolshevism as a mortal enemy, at home and abroad. 6. Rejection of democracy: parliament, parties and human rights seen as weakness. 7. Social Darwinism: might makes right, war as a law of nature. 8. Key point below: an ideology explains everything and tolerates no dissent; Nazi ideology placed race and the Führer above all rights.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "lueckentext",
+   "id": "k4-lt-bausteine",
+   "title": "Match the building blocks",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.ideologie-beschreiben"
+   ],
+   "intro": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Be careful:** three words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "The Nazis claimed that humanity was divided into ‘races’ of different worth; this claim is known as {{1}}.\nIn Eastern Europe, they wanted to gain new {{2}} through a war of conquest.\nAll Germans were supposed to form a classless community, the so-called ‘{{3}}’ – anyone who did not belong was excluded.\nOrders flow from the top down, obedience from the bottom up; this is called the {{4}}.\nThey saw ‘Bolshevism’ as a mortal enemy: {{5}}.\nThe idea of ‘survival of the strongest’ applied to peoples is called {{6}}.\nAt the heart of the worldview was hatred of Jews, known as {{7}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "racial theory",
+      "race theory",
+      "racial doctrine",
+      "the racial theory",
+      "the race theory",
+      "the racial doctrine",
+      "Rassenlehre"
+     ]
+    },
+    {
+     "antworten": [
+      "living space",
+      "Lebensraum"
+     ]
+    },
+    {
+     "antworten": [
+      "national community",
+      "people's community",
+      "people’s community",
+      "the national community",
+      "the people's community",
+      "the people’s community",
+      "Volksgemeinschaft"
+     ]
+    },
+    {
+     "antworten": [
+      "Führer principle",
+      "Fuehrer principle",
+      "Fuhrer principle",
+      "leadership principle",
+      "leader principle",
+      "the Führer principle",
+      "the Fuehrer principle",
+      "the Fuhrer principle",
+      "the leadership principle",
+      "the leader principle",
+      "Führerprinzip",
+      "Fuehrerprinzip",
+      "Fuhrerprinzip"
+     ]
+    },
+    {
+     "antworten": [
+      "anti-communism",
+      "anticommunism",
+      "anti communism"
+     ]
+    },
+    {
+     "antworten": [
+      "social Darwinism"
+     ]
+    },
+    {
+     "antworten": [
+      "antisemitism",
+      "anti-Semitism",
+      "anti Semitism"
+     ]
+    }
+   ],
+   "ablenker": [
+    "democracy",
+    "liberalism",
+    "separation of powers"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k4-rassenhygiene",
+   "title": "When ideology becomes law: ‘racial hygiene’",
+   "body": "‘Racial theory’ did not remain just a theory. The regime turned it into law in its very first year. In April 1933, Jewish civil servants were removed from their posts under the ‘Aryan paragraph’ (the Nazis' name for a rule dismissing ‘non-Aryan’, meaning Jewish, civil servants); you will learn more about this in a later module in this series. In July, a law targeting people considered ‘hereditarily diseased’ followed – that is our focus here.\n\n## The law of 1933\n\nOn **14 July 1933** – the same day as the law banning the formation of new parties – the government passed the **‘Gesetz zur Verhütung erbkranken Nachwuchses’ (Law for the Prevention of Hereditarily Diseased Offspring)**. It allowed people to be **made infertile against their will** (forced sterilisation) if a ‘Hereditary Health Court’ ruled that they had a ‘hereditary disease’: for example, an intellectual disability, epilepsy, certain mental illnesses or ‘severe alcoholism’. By 1945, **around 400 000 people** had been forcibly sterilised. The regime called this **‘racial hygiene’** – as if it were a matter of cleanliness.\n\n## The propaganda behind it\n\nPropaganda prepared the ground by presenting people with disabilities as a **‘cost factor’**. A well-known Nazi propaganda poster showed a strong young man carrying a pole across his shoulders, with two people with disabilities hanging from it. The headline said, in effect, that a healthy person helped carry this burden. Below it was a calculation of what a ‘hereditarily diseased’ person supposedly cost the state up to the age of 60 – a five-figure sum in Reichsmark. Even school textbooks contained maths problems of this kind: how many homes could be built if the money spent on ‘lunatic asylums’ (a derogatory term used at the time for psychiatric hospitals) were saved? People were thus reduced to numbers.\n\n## The ‘T4’ murder programme\n\nWhen the war began in 1939, the regime moved from sterilisation to killing. Under the code name **‘T4’** (after the Berlin address Tiergartenstraße 4, where the planning office was based), patients from hospitals and care institutions were taken to six killing centres and murdered. The regime called this **‘euthanasia’** (Greek for ‘beautiful death’) – a cover word for murder. By August 1941, **around 70 000 people** had died in this way. When protests emerged – most famously the sermon by the bishop of Münster, Clemens August Graf von Galen, in August 1941 – Hitler officially halted the central operation. Historians debate how much these protests influenced the decision. However, the killings continued secretly in the institutions, through medication and deliberate starvation; in total, **around 200 000 people or more** were murdered. The perpetrators and the killing techniques were later used in the extermination camps.\n\n## A name behind the numbers: Ernst Lossa\n\nBehind each of these numbers was a person with a name and a family. One of them was **Ernst Lossa**, born in Augsburg in 1929. His family belonged to the **Jenische (Yenish)**, a minority with a traditionally itinerant way of life that the Nazi state also excluded. After his mother's death, Ernst was placed in children's homes. Because he would not conform, the authorities labelled him ‘difficult to educate’ and sent him to the Kaufbeuren-Irsee institution in 1942. There, he helped other patients, hid bread for them and observed what happened to them. He was murdered there in August 1944. He was 14 years old.\n\n> **Remember:** A claim about ‘races’ had already become law in 1933 – in April against Jewish civil servants, and in July to permit forced sterilisation. During the war, it became a murder programme conducted in secrecy and under cover names. Sterilisation and murder were prepared for in full public view – through posters and maths problems."
+  },
+  {
+   "type": "text",
+   "id": "k4-propaganda",
+   "title": "The propaganda apparatus",
+   "body": "An ideology can only have an effect if it reaches people everywhere. To achieve this, on **13 March 1933** the regime created a ministry of its own: the **Reichsministerium für Volksaufklärung und Propaganda (Reich Ministry of Public Enlightenment and Propaganda)**, headed by **Joseph Goebbels**. **Propaganda** means deliberately influencing opinions and emotions – unlike information, which communicates facts. Goebbels' ministry controlled everything people saw, heard and read:\n\n- **Radio.** The regime had an inexpensive radio produced, the **‘Volksempfänger’** (‘people's receiver’; price: 76 Reichsmark – higher-end sets cost 200 to 400 Reichsmark). The slogan was: ‘All Germany listens to the Führer.’ In 1933, around a quarter of households had a radio; in 1941, about two thirds did. Hitler's speeches were also broadcast over loudspeakers in workplaces, schools and public squares. Listening to foreign stations was banned from 1939.\n- **The press.** Newspapers were banned or taken over. The **Schriftleitergesetz (Editors' Law)** of 1933 made journalism a state-regulated ‘public duty’: anyone not on the professional register was forbidden to write, and Jews were excluded from the profession. The Propaganda Ministry also issued daily instructions on what newspapers should report and how.\n- **Film.** Before every feature film, cinemas showed the **‘Wochenschau’** newsreel, with staged reports of success. The director **Leni Riefenstahl** made films about the Nazi Party rally (‘Triumph des Willens’, 1935) and the Olympic Games – technically innovative, but pure glorification in content.\n- **Posters and celebrations.** Posters with a single image and slogan were everywhere. The calendar was full of Nazi celebrations: 30 January, Hitler's birthday on 20 April, 1 May, and the **Nazi Party rallies** in Nürnberg in September, with hundreds of thousands of participants, seas of flags, torches, marching music and the ‘cathedral of light’ created by anti-aircraft searchlights.\n- **Everyday life.** **Portraits of the Führer** hung in government offices and classrooms. The **Hitler salute** (‘Heil Hitler!’ with a raised arm) was compulsory for civil servants from 1933 and became an ever-present declaration of loyalty – anyone who refused stood out.\n- **The 1936 Olympic Games in Berlin.** For two weeks, the regime presented itself to the world as peaceful and open-minded: antisemitic signs (‘Jews not welcome’) temporarily disappeared, and the hate-filled newspaper ‘Der Stürmer’ was removed from display cases. Many foreign visitors returned home impressed. The African American athlete **Jesse Owens** won four gold medals, visibly disproving the claim of a ‘master race’ – despite that claim, the crowd in the stadium cheered him.\n\n> **Remember:** Propaganda was more than advertising for the NSDAP. It was a monopoly: there was almost no other voice left that could be heard in public."
+  },
+  {
+   "type": "text",
+   "id": "k4-prinzipien",
+   "title": "How propaganda works – in Hitler's own words (extension)",
+   "body": "In ‘Mein Kampf’, Hitler openly described how he intended to influence people. Read the quotation as a source written by a perpetrator – it reveals what he thought of his audience:\n\n> ‘The capacity of the great mass of people to absorb information is very limited, their understanding small, but their forgetfulness great. For this reason, all effective propaganda must limit itself to very few points and keep using them as slogans until even the very last person can reliably grasp the intended idea behind such a phrase.’\n>\n> — Adolf Hitler, «Mein Kampf», Band 1 (1925), Kapitel 6 «Kriegspropaganda»\n\nTwo principles appear directly in this quotation; Hitler sets out a third elsewhere in the same chapter. The regime applied all three from 1933:\n\n1. **A few slogans, repeated endlessly** (in the quotation). ‘One people, one Reich, one Führer’ and ‘national community’ were meant to create an illusion of solidarity. Alongside them stood hatred: ‘The Jews are our misfortune’ – a phrase from 19th-century antisemitism that the hate-filled newspaper ‘Der Stürmer’ printed as its motto on every front page. The same phrases, over and over, until they sounded like truths.\n2. **The masses as the target** (in the quotation). The focus was on the crowd marching along, rather than the individual thinking for themselves.\n3. **Emotion instead of reason** (elsewhere in the chapter). Propaganda is meant to grip people rather than persuade them through argument – using pride, fear, hatred and hope. If the masses supposedly have little ‘understanding’, the appeal is to feelings rather than arguments.\n\nNotice how Hitler talks about the people he wants to win over: their ‘understanding’ is supposedly small, their ‘forgetfulness’ great. Someone who thinks like this wants to control people, not inform them. This is the difference between propaganda and an argument: an argument expects you to examine it and disagree. Propaganda expects you not to."
+  },
+  {
+   "type": "text",
+   "id": "k4-raster",
+   "title": "Toolkit: analysing propaganda",
+   "body": "You can use six questions to take apart any piece of propaganda – a poster from 1938 just as much as a video from today:\n\n> **Remember – the analysis questions:**\n> 1. **Who is speaking?** (Source: a party, ministry, association, anonymous source?)\n> 2. **To whom?** (Target audience: young people, workers, women, people abroad?)\n> 3. **Which emotions** are being appealed to? (Pride, fear, anger, belonging, pity?)\n> 4. **Which enemy images** are being created? (Who is ‘to blame’?)\n> 5. **What simplification or lie** does it contain? (What is left out, distorted or invented?)\n> 6. **What is the source's aim?** (What are you supposed to do, believe or refrain from doing?)\n\n**An example described in words** (we do not show Nazi posters): before the referendum on 10 April 1938, through which the regime sought approval for the **‘Anschluss’** of Austria (the Nazis' term for Austria's forced annexation), the NSDAP promoted its cause with posters displaying the slogan **‘One people, one Reich, one Führer’** in large letters – often with a portrait of Hitler gazing solemnly into the distance. Imagine such a poster:\n\n- *Who is speaking?* The NSDAP and the Propaganda Ministry.\n- *To whom?* All Germans and Austrians – as ‘one people’.\n- *Emotions?* Pride, greatness, belonging; the Führer's pose is meant to convey determination and protection.\n- *Enemy images?* None explicitly – but anyone who does not belong to this ‘one people’ is implicitly excluded.\n- *Simplification/lie?* Three slogans replace all discussion. There is no mention that Austria was ‘annexed’ under pressure and threats of violence, that thousands were arrested in the first few days, or that Austria's approximately 190 000 Jewish people were persecuted.\n- *Aim?* Approval without reflection, obedience and the feeling of being on the winning side.\n\nFirst, you will consolidate your knowledge of the means of propaganda; then you will apply the questions yourself."
+  },
+  {
+   "type": "zuordnung",
+   "id": "k4-zu-mittel",
+   "title": "Means and effects",
+   "teilkompetenzen": [
+    "geschichte.methoden.propaganda-analysieren"
+   ],
+   "intro": "Which means of propaganda produced which effect? Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "Volksempfänger"
+     },
+     "rechts": {
+      "text": "the Führer's voice in every living room"
+     }
+    },
+    {
+     "links": {
+      "text": "Nazi Party rally in Nürnberg"
+     },
+     "rechts": {
+      "text": "the feeling of being part of a huge, orderly crowd"
+     }
+    },
+    {
+     "links": {
+      "text": "Newsreel at the cinema"
+     },
+     "rechts": {
+      "text": "staged reports of success before every feature film"
+     }
+    },
+    {
+     "links": {
+      "text": "Portrait of the Führer in the classroom"
+     },
+     "rechts": {
+      "text": "the Führer is everywhere, including at school"
+     }
+    },
+    {
+     "links": {
+      "text": "1936 Olympic Games"
+     },
+     "rechts": {
+      "text": "presenting a false image of a peaceful, open-minded Germany to the world"
+     }
+    },
+    {
+     "links": {
+      "text": "Hitler salute"
+     },
+     "rechts": {
+      "text": "every greeting is a declaration of loyalty – refusal stands out immediately"
+     }
+    },
+    {
+     "links": {
+      "text": "Poster with a slogan"
+     },
+     "rechts": {
+      "text": "one image, one slogan, on every wall"
+     }
+    },
+    {
+     "links": {
+      "text": "Schriftleitergesetz (Editors' Law)"
+     },
+     "rechts": {
+      "text": "only one opinion remains in all newspapers"
+     }
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k4-analyse",
+   "title": "Analysing propaganda",
+   "teilkompetenzen": [
+    "geschichte.methoden.propaganda-analysieren"
+   ],
+   "intro": "Apply the analysis questions. Your answers will be sent to your teacher. Task 1 is for everyone; task 2 is marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k4-a1",
+     "prompt": "Analyse the ‘cost factor’ poster promoting ‘racial hygiene’ described above (the strong man with two people hanging from a pole and the calculation in Reichsmark). Answer each of the six analysis questions in one sentence.",
+     "hint": "For question 1, ‘the NSDAP or the regime’ is enough – the text tells you who produced the propaganda. For question 5, consider: can a person's worth be expressed in Reichsmark? And who decides what counts as a ‘burden’?",
+     "solution": "Example answer: (1) The source is the Nazi regime – the NSDAP and the state it controlled; the poster as described does not identify a specific source. (2) It targets healthy, working Germans, who are meant to see themselves as carrying the burden. (3) It arouses anger and the feeling of being exploited, as well as pride in one's own strength. (4) People with disabilities are cast as the enemy and presented as a useless burden. (5) The lie is that a person's worth can be expressed in money and that sick people are to blame – compassion and rights are absent. (6) The aim is to make forced sterilisation, and later murder, appear to be a sensible cost-saving measure."
+    },
+    {
+     "id": "k4-a2",
+     "prompt": "(Extension) Read the quotation from ‘Mein Kampf’ again. In three to five sentences, explain what it reveals about Hitler's view of the people he wanted to win over – and why this view of people fits a dictatorship.",
+     "hint": "Look at the words ‘limited’, ‘small’ and ‘forgetfulness’. Would someone who thinks this way about people want to give them a say in decisions?",
+     "solution": "Example answer: Hitler describes people as limited, lacking understanding and forgetful – as a mass that can be controlled with a few slogans. He therefore despises the very people he wants to win over. This view of people fits a dictatorship: anyone who does not trust people to judge for themselves sees no need for elections, discussion or a free press, but for a Führer who thinks for everyone. Propaganda then becomes a tool to prevent thought, rather than an invitation to think."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k4-heute",
+   "title": "Recognising propaganda today (extension)",
+   "body": "The technology has changed; the principles have not. What Goebbels did with the Volksempfänger and posters can now be achieved in seconds with a smartphone – by states, groups or individuals:\n\n- **Emotion instead of reason:** posts that make people angry or afraid are shared more often. Algorithms reward this.\n- **Repetition:** a meme or slogan shared hundreds of times eventually feels familiar – and we are more likely to believe something familiar is true.\n- **The masses as the target:** reach matters more than accuracy; something that goes viral is not necessarily true.\n- **Enemy images:** ‘those at the top’, ‘the rich’, ‘the corporations’, ‘foreigners’, ‘the media’ – scapegoats used to explain everything, whatever the political direction.\n- **Simplification and fabrication:** quotations stripped of context, fake screenshots, and AI-generated images and videos (**deepfakes**) in which people say things they never said.\n\nThe analysis questions work here too: who is speaking – and who is really behind them? Who is the post aimed at? What feeling does it stir in you? Who is supposed to be to blame? What is left out? What are you supposed to do – share, hate, stop asking questions? Add three rules: check the source before sharing. Notice your own feelings – strong anger is often intentional. Seek out the opposing view – good information can withstand disagreement. You will practise checking news and misinformation in [[modul:wirtschaft-politik-22-medien-und-meinungsbildung]] and [[modul:wirtschaft-politik-24-debatte-falschinformationen]].\n\nImportant: this is about **techniques**, not a particular party or group today. You recognise propaganda by how it is made – whoever uses it."
+  },
+  {
+   "type": "text",
+   "id": "k4-bystander",
+   "title": "Why did so many join in?",
+   "body": "You explored why so many Germans **voted for** the NSDAP in [[modul:weimar-wirtschaftskrise-nationalsozialismus]]: crisis, unemployment, fear and anger. But why did so many **join in** after 1933 – even when the persecution was visible? Researchers identify several reasons that usually worked together:\n\n1. **Jobs and economic recovery.** Unemployment fell from around six million (early 1933) to below one million (1938) – through motorway construction, but above all through rearmament, and partly through statistical tricks. People who had work again after years of hardship often did not ask where it came from.\n2. **Order.** No more street fighting or government crises – many accepted that this ‘calm’ rested on terror.\n3. **Foreign-policy successes – as seen at the time.** The return of the Saarland in 1935, rearmament, the entry of troops into the Rheinland in 1936, and the ‘Anschluss’ of Austria in 1938 – each step violated the Treaty of Versailles, met no resistance from the other powers and strengthened the cult of the leader.\n4. **Fear.** Gestapo, denunciations, camps: dissent could cost you your job, your freedom and sometimes your life.\n5. **Personal gain.** Party membership cards, careers, positions, businesses bought cheaply from Jewish neighbours – joining in paid off.\n6. **Indifference.** As long as others were targeted, many looked away.\n7. **Propaganda.** It provided a justification for everything – and no dissenting voice could be heard any more.\n\nThere were all shades of behaviour in between: enthusiastic supporters, followers, bystanders, people who made small acts of defiance by refusing the salute or helping the persecuted, and resistance that cost lives. Bishop von Galen's sermon against the ‘euthanasia’ murders in 1941 shows that protest could have an effect: shortly afterwards, the regime halted the central operation – officially. How much the protests contributed is disputed. Most people remained silent nonetheless.\n\n> **Remember:** There was no single response shared by ‘the Germans’ – people made decisions every day. This question will accompany you through the next modules: who could have done something, and at what point?"
+  },
+  {
+   "type": "video",
+   "id": "k4-video",
+   "provider": "youtube",
+   "videoId": "dD4y3B27VMM",
+   "title": "Optional extra: video ‘Wie die Nazis so viele Deutsche überzeugten’ (How the Nazis convinced so many Germans) (15:37)",
+   "description": "This video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in this module's texts. If you watch it (internet access required; it only starts when you click), focus on two questions: (1) Which of the nine methods explained in the video can you find in the sections on propaganda and reasons for joining in? (2) At what point could the example family in the video still have made a different choice?",
+   "transcript": "Summary of the video ‘Wie die Nazis so viele Deutsche überzeugten’ (MrWissen2go Geschichte | Terra X, 15:37): the video asks how millions of Germans became supporters, followers, accomplices and beneficiaries of the Nazi regime. Around 1930, many people are dissatisfied with the Weimar Republic – unemployment, poverty and disillusionment with politics. The Nazis exploit this through propaganda, indoctrination and manipulation, but also intimidation and terror. Using a fictional example family, the video shows how ordinary citizens gradually turn into supporters of the regime and explains nine methods the Nazis used to gain power and hold on to it until 1945.",
+   "startSeconds": 0
+  },
+  {
+   "type": "quiz",
+   "id": "k4-quiz",
+   "title": "Self-check: ideology and propaganda",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.ideologie-beschreiben",
+    "geschichte.methoden.propaganda-analysieren"
+   ],
+   "intro": "Check whether you have understood the building blocks, the means of propaganda and the analysis questions. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "k4-q1",
+     "type": "single_choice",
+     "prompt": "What distinguishes an ideology from science?",
+     "options": [
+      {
+       "text": "It deals only with politics and the state, whereas science deals only with nature."
+      },
+      {
+       "text": "It is a closed worldview that seeks to explain everything and tolerates no disagreement.",
+       "correct": true
+      },
+      {
+       "text": "It is spread only through books, whereas science is spread only through talks and lectures."
+      },
+      {
+       "text": "It changes every year, whereas science has fixed, unchanging truths."
+      }
+     ],
+     "explanation": "An ideology is fixed before anyone examines the evidence, and treats dissent as an enemy. Science, by contrast, tests, disproves and revises its claims. The difference has nothing to do with topics or media – and it is ideology that refuses to change."
+    },
+    {
+     "id": "k4-q2",
+     "type": "single_choice",
+     "prompt": "Why is Nazi ‘racial theory’ described as pseudoscientific?",
+     "options": [
+      {
+       "text": "Because it was supported by only a few professors and was never taught in schools."
+      },
+      {
+       "text": "Because the Nazis invented it themselves and it was unknown before them."
+      },
+      {
+       "text": "Because it sounded like biology but has no scientific basis.",
+       "correct": true
+      },
+      {
+       "text": "Because it applied only to animals and plants, not to humans."
+      }
+     ],
+     "explanation": "‘Pseudo’ means ‘seemingly’: racial theory used scientific terms without being scientific – human ‘races’ in this sense do not exist. It was taught in schools and universities, originated before 1933 and explicitly referred to humans."
+    },
+    {
+     "id": "k4-q3",
+     "type": "single_choice",
+     "prompt": "What did ‘living space in the East’ mean in practice?",
+     "options": [
+      {
+       "text": "German farmers were to emigrate voluntarily to Poland and buy cheap land there."
+      },
+      {
+       "text": "Eastern Germany was to be developed through new towns, roads and factories."
+      },
+      {
+       "text": "Germany wanted to conclude long-term grain trade agreements with Poland and the Soviet Union."
+      },
+      {
+       "text": "A war to conquer Eastern Europe – the population was to be expelled, enslaved or killed.",
+       "correct": true
+      }
+     ],
+     "explanation": "From the start, ‘living space’ was planned as conquest, not as emigration, development or trade. In ‘racial theory’, the population of Eastern Europe was considered ‘inferior’ and was supposed to make way."
+    },
+    {
+     "id": "k4-q4",
+     "type": "single_choice",
+     "prompt": "What happened under the ‘Law for the Prevention of Hereditarily Diseased Offspring’ of 1933?",
+     "options": [
+      {
+       "text": "Around 400 000 people were made infertile against their will.",
+       "correct": true
+      },
+      {
+       "text": "Sick people received free treatment in state hospitals."
+      },
+      {
+       "text": "Doctors only had to report hereditary diseases to a register, and nothing more."
+      },
+      {
+       "text": "People with disabilities were no longer allowed to attend school."
+      }
+     ],
+     "explanation": "The law permitted forced sterilisation ordered by so-called Hereditary Health Courts; around 400 000 people were affected. This was neither assistance, a mere register nor a school ban – it was an intervention in people's bodies against their will."
+    },
+    {
+     "id": "k4-q5",
+     "type": "true_false",
+     "prompt": "After the protests of 1941, no more patients were murdered in the institutions.",
+     "answer": false,
+     "explanation": "False. Hitler officially halted the central ‘T4’ operation in August 1941 following protests such as Bishop von Galen's sermon, but the killings continued secretly in the institutions – through medication and deliberate starvation. In total, around 200 000 people or more were murdered."
+    },
+    {
+     "id": "k4-q6",
+     "type": "single_choice",
+     "prompt": "What was the purpose of the ‘Volksempfänger’?",
+     "options": [
+      {
+       "text": "It intercepted foreign broadcasts so that the Gestapo could identify the listeners."
+      },
+      {
+       "text": "It was an inexpensive radio intended to bring Hitler's speeches into as many households as possible.",
+       "correct": true
+      },
+      {
+       "text": "It was a telephone that block leaders used to pass their reports to party headquarters."
+      },
+      {
+       "text": "It was an SA loudspeaker van that drove through the streets during election campaigns before 1933."
+      }
+     ],
+     "explanation": "The Volksempfänger was a specially developed, inexpensive radio (76 Reichsmark). It was intended to make ‘all Germany listen to the Führer’. It had nothing to do with surveillance, telephone calls or election campaigns before 1933."
+    },
+    {
+     "id": "k4-q7",
+     "type": "single_choice",
+     "prompt": "Which question belongs to the set of questions for analysing propaganda?",
+     "options": [
+      {
+       "text": "How many copies were printed?"
+      },
+      {
+       "text": "Which typeface was used?"
+      },
+      {
+       "text": "How much did it cost to produce?"
+      },
+      {
+       "text": "What is the source's aim?",
+       "correct": true
+      }
+     ],
+     "explanation": "The questions cover the source, target audience, emotions, enemy images, simplification or lies, and aims. Print run, typeface and production costs are not included: they do not tell you how a piece of propaganda is intended to affect people."
+    },
+    {
+     "id": "k4-q8",
+     "type": "single_choice",
+     "prompt": "Which reason for people joining in after 1933 relates to fear?",
+     "options": [
+      {
+       "text": "Unemployment fell, and many people were earning a wage again."
+      },
+      {
+       "text": "The return of the Saarland and the ‘Anschluss’ of Austria were seen as successes."
+      },
+      {
+       "text": "The Gestapo, denunciations and camps made dissent life-threatening.",
+       "correct": true
+      },
+      {
+       "text": "A party membership card could secure positions and advantages."
+      }
+     ],
+     "explanation": "Fear was a separate reason alongside economic recovery, foreign-policy successes and personal gain: anyone who disagreed risked their job, freedom and life. The other three options describe approval based on success and self-interest."
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "id": "k4-tasks",
+   "title": "Explore further: terms, reasons and the present",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.ideologie-beschreiben",
+    "geschichte.methoden.propaganda-analysieren"
+   ],
+   "intro": "Your answers will be sent to your teacher. Task 1 is for everyone; tasks 2 and 3 are marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k4-t1",
+     "prompt": "In two to three sentences, explain why ‘national community’ is a term used by the perpetrators and belongs in quotation marks.",
+     "hint": "Who decided who belonged? And what happened to those who did not?",
+     "solution": "Example answer: ‘National community’ sounded like solidarity, but the regime alone decided who belonged. Jews, political opponents, people with disabilities and others were excluded as ‘alien to the community’, persecuted and murdered. The term therefore disguises exclusion – that is why we put it in quotation marks and explain it as Nazi terminology."
+    },
+    {
+     "id": "k4-t2",
+     "prompt": "(Extension) Sort the seven reasons in the section ‘Why did so many join in?’ into three groups: approval, fear, and personal gain/indifference. Then explain in two to three sentences which group seems most important to you and why.",
+     "hint": "There is no single correct ranking – what matters is that you support your choice with an example from the module. Other ways of grouping the reasons are also possible if you justify them.",
+     "solution": "Example answer: Approval: jobs and economic recovery, order, foreign-policy successes, propaganda. Fear: Gestapo, denunciations, camps. Personal gain/indifference: party membership and careers, businesses acquired cheaply, looking away as long as others were targeted. The group ‘personal gain/indifference’ seems most important to me. It shows that many people were not forced but made a choice – for example, when someone acquired a Jewish neighbour's business for far less than it was worth. And terror only worked because enough people joined in or looked away."
+    },
+    {
+     "id": "k4-t3",
+     "prompt": "(Extension) Choose one of the three principles of propaganda (emotion instead of reason, repetition, the masses as the target). In three to five sentences, describe how it can be used on social media today, without naming a particular party or person.",
+     "hint": "Think of posts that made you angry, memes you keep seeing, or videos that made you wonder whether they were real.",
+     "solution": "Example answer: Today, the principle ‘emotion instead of reason’ works through posts designed to trigger anger or fear, because such content is shared more often and algorithms spread it further. An image with a short, outrageous claim reaches more people than a factual text with sources. If you know this principle, you can pause, notice your own feelings and check the source before sharing. The technology is new; the pattern is old."
+    }
+   ]
+  }
+ ]
+}
