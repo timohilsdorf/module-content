@@ -1,0 +1,1305 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-erinnerung-heute --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:951041ebed89cb7f324847dd527f11f0466dd6726ac7b4f05ae7c73582e0a787",
+  "masterCommit": "c5a3042",
+  "hintsHash": null,
+  "generatedAt": "2026-10-21",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:ff7ba46088f5dfee64982056eff3894a004a3a52530e7d1836a74640a487f76d"
+ },
+ "schemaVersion": 3,
+ "id": "nationalsozialismus-erinnerung-heute",
+ "title": "What does this have to do with us today? Remember, recognise, protect",
+ "description": "National Socialism is history – its patterns are not. You will learn how to recognise antisemitism and conspiracy myths today, why Holocaust denial is a criminal offence, how a culture of remembrance works and what protects a democracy from following the path of 1933. Includes a glossary, a quiz covering the whole series and a self-assessment.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    },
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Schweizer Demokratie erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "RZG.8.2",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung, Bedeutung und Bedrohung der Menschenrechte erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "en",
+ "sequenz": 8,
+ "einheit": "National Socialism – dictatorship, persecution, remembrance",
+ "requires": [
+  "nationalsozialismus-judenverfolgung-holocaust"
+ ],
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "culture of remembrance",
+  "antisemitism today",
+  "Holocaust denial",
+  "conspiracy myths",
+  "Stolpersteine",
+  "27 January",
+  "democracy",
+  "civil courage",
+  "glossary",
+  "National Socialism"
+ ],
+ "learningObjectives": [
+  "I can explain the forms antisemitism takes today and use three checking questions to assess whether a statement is antisemitic.",
+  "I can explain why denying and trivialising the Holocaust are not matters of opinion and are punishable in Liechtenstein, Switzerland, Österreich and Germany.",
+  "I can explain how a culture of remembrance works: the day of remembrance on 27 January, memorial sites, Stolpersteine, eyewitnesses and research.",
+  "I can use the events of 1933 to explain what protects a democracy: separation of powers, fundamental rights even in crises and for minorities, and civil courage.",
+  "I can explain the technical terms and abbreviations from the whole series and apply them in the overall quiz.",
+  "I can use the checklist to assess what I have learnt from the series and what I should read again.",
+  "(Extension) I can plan research into a Stolperstein or a local place of remembrance."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb): Dossier Antisemitismus",
+   "url": "https://www.bpb.de/themen/antisemitismus/"
+  },
+  {
+   "title": "Stolpersteine – Projekt von Gunter Demnig",
+   "url": "https://www.stolpersteine.eu"
+  },
+  {
+   "title": "Regierung des Fürstentums Liechtenstein: Holocaust-Gedenktag am 27. Januar",
+   "url": "https://www.llv.li"
+  },
+  {
+   "title": "Unabhängige Historikerkommission Liechtenstein Zweiter Weltkrieg: Schlussbericht (Chronos Verlag 2005)"
+  },
+  {
+   "title": "Vereinte Nationen: International Day of Commemoration in Memory of the Victims of the Holocaust (27. Januar)",
+   "url": "https://www.un.org/en/observances/commemoration-holocaust-victims-day"
+  },
+  {
+   "title": "Jüdisches Museum Hohenems",
+   "url": "https://www.jm-hohenems.at"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte | Terra X (ZDF) – Antisemitismus | musstewissen Geschichte",
+   "url": "https://www.youtube.com/watch?v=ZbTA36HlV3A"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "id": "k8-einstieg",
+   "title": "Why are we learning this?",
+   "body": "Across seven modules, you have followed a path: from the question of how a state can be governed ([[modul:nationalsozialismus-staatsformen-faschismus]]), through the destruction of democracy in a year and a half ([[modul:nationalsozialismus-machtuebernahme-1933]]), the apparatus of power ([[modul:nationalsozialismus-organisationen]]), the worldview and how it was promoted ([[modul:nationalsozialismus-ideologie-propaganda]]), and young people ([[modul:nationalsozialismus-jugend]]), to persecution and genocide ([[modul:nationalsozialismus-antisemitismus-ausgrenzung]], [[modul:nationalsozialismus-judenverfolgung-holocaust]]).\n\nWhy all this? Not because you are guilty – you and your generation bear no guilt for what happened before 1945. But because the **patterns** have remained: scapegoats, conspiracy myths, contempt for minorities, the wish for a strongman who solves every problem, and a willingness to look away. If you know the history, you can recognise the patterns earlier – online, in the class chat and in politics. And if you recognise them, you can act differently from the majority back then.\n\nThis module has three parts: **Recognise** (antisemitism and conspiracy myths today), **Remember** (how a society keeps history alive) and **Protect** (what makes a democracy resilient). These are followed by a matching exercise and the glossary, a quiz covering the whole series in two parts, a self-assessment checklist and three final tasks.\n\nYou will need about two lessons for this module. A good stopping point is after the glossary – it is best to tackle the overall quiz when you are rested and have time to look things up."
+  },
+  {
+   "type": "text",
+   "id": "k8-heute",
+   "title": "Recognise: antisemitism today",
+   "body": "The Holocaust did not end antisemitism. Jewish communities in Europe still need police protection. In 2019, a far-right extremist tried to enter a synagogue in Halle an der Saale on the holiest Jewish festival. The door held, and he then murdered two people, one in the street and one in a takeaway restaurant. After the terrorist attack on Israel on 7 October 2023 by Hamas, a terrorist organisation in the Gazastreifen, the number of antisemitic incidents in Europe rose sharply – Jewish people here were often targeted with hostility over events there. Antisemitism takes several forms today (the word is now often used for any hostility towards Jews, including the old religious anti-Judaism from [[modul:nationalsozialismus-antisemitismus-ausgrenzung]]):\n\n- **Old prejudices in new forms:** the claim that ‘the Jews’ are rich and powerful and secretly influence banks, the media or governments. These are the same images as in 1900 – only today they often appear in memes or comments.\n- **Conspiracy myths:** stories claiming that a small, secret group – often called an ‘elite’ – controls pandemics, wars or financial crises. Not every such story is antisemitic. It becomes antisemitic when the supposed masterminds are portrayed as Jews – openly or in coded terms. Often, the word ‘Jew’ is not even used, but the images and hints come from older antisemitism, for example the forged ‘Protokolle der Weisen von Zion’. You saw how conspiracy myths and scapegoating are connected in [[modul:nationalsozialismus-antisemitismus-ausgrenzung]].\n- **Holocaust denial and trivialisation:** the claim that the genocide did not happen, that the number of victims was invented or greatly exaggerated, or that the documents were forged. This is not an opinion but a lie about a proven crime ([[modul:nationalsozialismus-judenverfolgung-holocaust]]). In Liechtenstein, Switzerland, Österreich and Germany, publicly spreading such claims is a **criminal offence** – because it mocks the victims, stirs up hatred and prepares the ground for further violence.\n- **Hatred disguised as criticism:** in a democracy, it is permitted to criticise a state's policies – including Israel's. Criticism becomes antisemitic when it blames ‘the Jews’ as a whole, uses old prejudices and images, or attacks Jewish people here over events there.\n\n## Three questions to help you recognise it\n\nYou do not need to memorise a list of code words – hidden hints understood only by those in the know – to recognise antisemitism. Three questions are usually enough:\n\n1. **Are individuals being turned into a group with a single will?** ‘The Jews want …’, ‘the Jews control …’ – anyone who attributes a shared secret intention to millions of people is arguing like the propaganda of the past.\n2. **Is something complex being explained by a secret mastermind – and does it turn out to be ‘the Jews’ or an old image of them?** Crises have many causes. Anyone who blames them on a small group supposedly controlling everything in secret is telling a conspiracy myth. It becomes antisemitic when that group is ‘the Jews’ or is described using the old images of hostility towards Jews.\n3. **The substitution test:** this helps with sentences that make claims about a whole group – ‘The Jews are …’, ‘The Jews want …’. Try substituting another group, such as ‘young people’ or ‘left-handed people’. Would the sentence then be a baseless prejudice or an insult? If so, it is one with ‘Jews’ too. The test checks only generalisations about a group, not facts such as ‘Many Jewish people observe the Sabbath on Saturday’.\n\nAnd what if someone says it was just a joke? Jokes that draw on a prejudice work only when everyone knows that prejudice – they keep it alive. Ask yourself: who is laughing at whom, and what is it like for someone from that group who is listening? You do not have to find such jokes funny – and you are allowed to speak up.\n\n> **Remember:** Antisemitism today is the old hatred in new forms: old prejudices, antisemitic conspiracy myths, Holocaust denial and hatred presented as ‘criticism’. Three checking questions help: are individuals being turned into a group with a single will? Does a secret mastermind explain everything – and does it turn out to be ‘the Jews’ or old images of them? Would the statement be a baseless prejudice or an insult if you substituted another group (the substitution test)?"
+  },
+  {
+   "type": "video",
+   "id": "k8-video",
+   "provider": "youtube",
+   "videoId": "ZbTA36HlV3A",
+   "title": "Optional extra: video ‘Antisemitismus’ (6:44)",
+   "description": "This 2018 video by MrWissen2go Geschichte (Terra X, ZDF) is an optional extra – everything you need for the tasks is in this module's texts. It was prompted by a debate at the time about lyrics by two rappers that were criticised as antisemitic. If you watch it (internet required; it only starts after you click), focus on two guiding questions: (1) How does the video explain what antisemitism means? (2) According to the video, why is it still dangerous today – and which of the text's three checking questions can you recognise?",
+   "transcript": "Summary of the video ‘Antisemitismus | musstewissen Geschichte’ (MrWissen2go Geschichte | Terra X, 6:44, 2018), based on the video description: antisemitism was once again a topic of concern in Germany at the time, as shown by the discussion of lyrics by two rappers that were criticised as antisemitic. In the video, Mirko Drotschmann explains what antisemitism means and why it is so dangerous.",
+   "startSeconds": 0
+  },
+  {
+   "type": "text",
+   "id": "k8-erinnerung",
+   "title": "Remember: how a society keeps history alive",
+   "body": "Remembrance does not happen by itself. A society has to decide what it wants to remember – and how. This is called a **culture of remembrance**. It includes:\n\n- **27 January.** On this day in 1945, the Red Army liberated Auschwitz-Birkenau. Germany has observed it as a day of remembrance for the victims of National Socialism since 1996; in 2005, the United Nations declared it International Holocaust Remembrance Day. Many schools, parliaments and governments pause to remember on this day. Liechtenstein's government designated 27 January as a day of remembrance in 2003; since 2006, it has held a public commemorative ceremony in which school pupils also take part.\n- **Memorial sites.** Former camps such as Auschwitz, Dachau and Bergen-Belsen are now places of learning, as are the Haus der Wannsee-Konferenz in Berlin and the Anne Frank Haus in Amsterdam. They display documents, names and biographies – and also tell the stories of rescuers. Close to us, the Jüdisches Museum Hohenems commemorates Jewish life in Vorarlberg and its destruction.\n- **Stolpersteine.** Since the 1990s, the artist Gunter Demnig has set small brass plaques into pavements outside the last homes freely chosen by victims of the Nazis: ‘Here lived …’, with a name, year of birth and account of their fate. There are now over 100 000 in more than 30 countries, including Switzerland, Österreich and, since 2022, Vaduz. You stumble with your mind, not your feet: a victim is given back their name and their place.\n- **Eyewitnesses.** For decades, survivors told pupils in schools about their lives. The last survivors are now very old. Soon there will be nobody left who can say: I was there. Then remembrance will rest entirely with us – with books, memorial sites, recordings and what you yourself pass on.\n- **Research.** Small countries also confront their history: in 2001, Liechtenstein established an Independent Commission of Historians to examine how the country, its companies and the Princely House had acted during the Second World War – in relation to refugees, assets and looted art, arms production and forced labour. Its final report was published in 2005.\n\nWhy this matters: remembrance is not guilt. It is **responsibility** – for ensuring that the patterns do not repeat themselves and that those murdered do not disappear a second time, this time from memory. Responsibility means knowing what happened, recognising the patterns, paying attention, speaking up and helping when people are excluded today. This applies to everyone who lives here, wherever their family comes from.\n\n> **Remember:** A culture of remembrance includes a day of remembrance (27 January), memorial sites, Stolpersteine, eyewitnesses and research. It gives victims back their names and makes us alert to the present."
+  },
+  {
+   "type": "text",
+   "id": "k8-demokratie",
+   "title": "Protect: what makes a democracy resilient",
+   "body": "The Weimar Republic was a democracy with a modern constitution – and it was destroyed within a year and a half, mostly by the summer of 1933, without a coup, through laws and decrees ([[modul:nationalsozialismus-machtuebernahme-1933]]). What can we learn from this?\n\n1. **Separation of powers must work in practice, not just on paper.** The Enabling Act transferred parliament's power to the government – and a majority voted for it. A democracy needs rules that make this impossible, and representatives, judges and civil servants who apply them even under pressure.\n2. **Fundamental rights must apply especially in crises – and to everyone.** Fundamental rights are human rights enshrined in a constitution and binding on the state: they apply to every person, regardless of origin or religion – you know this idea from [[modul:nationalsozialismus-antisemitismus-ausgrenzung]]. The Nazis rejected human rights as ‘weakness’ and ‘un-German’ ([[modul:nationalsozialismus-ideologie-propaganda]]). The Reichstag Fire Decree of 28 February 1933 suspended fundamental rights ‘until further notice’, with no time limit, citing the alleged threat of a communist uprising. It was never repealed and remained in force until 1945. In crises, people are afraid – and fear makes it easier to give up freedoms; in 1933, the Nazi leadership exploited exactly this. The question is whether fundamental rights can withstand such pressure – especially for minorities, who are the test: a democracy is measured by how it treats those who are different or think differently, not by how it treats the majority. In 1933, the exclusion of Jewish people began with less than one per cent of the population – and most others looked away, got used to it or even benefited. Only a few objected; some helped.\n3. **Civil courage is the final safeguard.** No constitution protects itself. Grüninger, Hübener, the helpers at the annex in Amsterdam and the customers who shopped anyway on 1 April 1933 show that there was room to act at every stage. However, the cost rose with each stage: those who shopped anyway on 1 April 1933 risked being photographed; Grüninger lost his job in 1939 and was convicted; the helpers at the annex risked their lives; Hübener paid with his. Under a dictatorship, resistance and help often came at a high cost – in extreme cases, a person's life. Civil courage in everyday life starts much earlier and on a much smaller scale: pay attention, speak up, help and get help – without putting yourself in danger.\n\n## And Liechtenstein?\n\nIn [[modul:nationalsozialismus-staatsformen-faschismus]], you saw that Liechtenstein is both a monarchy and a democracy: the Prince inherits his office, but laws require the approval of the popularly elected Landtag, and the constitution of 1921 limits power. Power is also divided between the Prince, the Landtag, the government and the courts. The Staatsgerichtshof, the constitutional court, ensures that the constitution is upheld, while the people can propose laws themselves through initiatives and vote on laws in referendums. Safeguards like these were dismantled in Germany in 1933. How much power the Prince and the people should each have is repeatedly debated in Liechtenstein too – and in a democracy, people are allowed and expected to debate such matters. The country was not a model in every respect back then: in 1938, it rejected more applications from Jewish refugees than it approved, and closed its borders to them in December ([[modul:nationalsozialismus-judenverfolgung-holocaust]]); through the Commission of Historians, it confronts this history. Safeguards work only as long as people use them: vote, join the discussion, speak up and protect minorities – including in small ways, at school and in the village.\n\n> **Remember:** Three things protect a democracy: separation of powers (nobody holds all the power), fundamental rights that apply even in crises and to minorities, and civil courage – people who do not look away. The diagram shows these three pillars – and what happened in 1933 when they were missing."
+  },
+  {
+   "type": "schaubild",
+   "id": "k8-schaubild",
+   "title": "What protects a democracy",
+   "szene": {
+    "elemente": [
+     {
+      "id": "s-titel",
+      "x": 20,
+      "y": 0,
+      "width": 723,
+      "height": 33,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1856146434,
+      "type": "text",
+      "text": "What protects a democracy – and what was missing in 1933",
+      "fontSize": 26,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-untertitel",
+      "x": 20,
+      "y": 40,
+      "width": 574,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 642014035,
+      "type": "text",
+      "text": "Blue: today's three pillars – orange: what happened from 1933 to 1945",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-dach",
+      "x": 40,
+      "y": 80,
+      "width": 920,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1741315087,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-dach-t",
+      "x": 50,
+      "y": 103.5,
+      "width": 900,
+      "height": 23,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 287671134,
+      "type": "text",
+      "text": "Democracy: power is kept in check – rights apply to all, including minorities",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-dach",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-saeule0",
+      "x": 40,
+      "y": 170,
+      "width": 280,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1015242878,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-saeule0-t",
+      "x": 50,
+      "y": 254.5,
+      "width": 260,
+      "height": 131,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 165880013,
+      "type": "text",
+      "text": "Separation of powers\n\nParliament, government\nand independent courts\nkeep each other\nin check – nobody\nholds all the power",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-saeule0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-gefahr0",
+      "x": 40,
+      "y": 490,
+      "width": 280,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1515603341,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-gefahr0-t",
+      "x": 50,
+      "y": 508.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 107382559,
+      "type": "text",
+      "text": "1933: the Enabling Act\ngave the government\nparliament's power",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-gefahr0",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-saeule1",
+      "x": 360,
+      "y": 170,
+      "width": 280,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1528243602,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-saeule1-t",
+      "x": 370,
+      "y": 254.5,
+      "width": 260,
+      "height": 131,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 638094258,
+      "type": "text",
+      "text": "Fundamental rights\n\nFreedom of expression,\nthe press and assembly;\nequality before the law –\neven in crises and\nfor minorities",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-saeule1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-gefahr1",
+      "x": 360,
+      "y": 490,
+      "width": 280,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 493562486,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-gefahr1-t",
+      "x": 370,
+      "y": 508.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 166934492,
+      "type": "text",
+      "text": "1933: the Reichstag Fire\nDecree suspended\nfundamental rights",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-gefahr1",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-saeule2",
+      "x": 680,
+      "y": 170,
+      "width": 280,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1826155920,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-saeule2-t",
+      "x": 690,
+      "y": 254.5,
+      "width": 260,
+      "height": 131,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1980629219,
+      "type": "text",
+      "text": "Civil courage\n\nPeople who pay attention,\nspeak up and help –\nin small ways and big ones:\nGrüninger, Hübener and\nthe helpers at the annex",
+      "fontSize": 15,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-saeule2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-gefahr2",
+      "x": 680,
+      "y": 490,
+      "width": 280,
+      "height": 90,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffe8cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 393723250,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-gefahr2-t",
+      "x": 690,
+      "y": 508.5,
+      "width": 260,
+      "height": 53,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2112864141,
+      "type": "text",
+      "text": "1933–1945: the majority\nlooked away – allowing\ninjustice to happen",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-gefahr2",
+      "autoResize": false,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "s-fundament",
+      "x": 40,
+      "y": 600,
+      "width": 920,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#5f7d99",
+      "backgroundColor": "#d6e0ec",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1614188875,
+      "type": "rectangle"
+     },
+     {
+      "id": "s-fundament-t",
+      "x": 50,
+      "y": 619.5,
+      "width": 900,
+      "height": 21,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 871607332,
+      "type": "text",
+      "text": "Foundation: a constitution – and citizens who defend it",
+      "fontSize": 17,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "s-fundament",
+      "autoResize": false,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "Title: What protects a democracy and what was missing in 1933. Subtitle: blue shows today's three pillars; orange shows what happened from 1933 to 1945. At the top is a roof: democracy means power is kept in check and rights apply to everyone, including minorities. Below it are three blue pillars. Pillar 1, separation of powers: parliament, government and independent courts keep each other in check; nobody holds all the power. Below in orange: 1933: the Enabling Act gave the government parliament's power. Pillar 2, fundamental rights: freedom of expression, the press and assembly, and equality before the law apply even in crises and to minorities. Below in orange: 1933: the Reichstag Fire Decree suspended fundamental rights. Pillar 3, civil courage: people who pay attention, speak up and help, in small ways and big ones: Grüninger, Hübener and the helpers at the annex. Below in orange: 1933 to 1945: the majority looked away, allowing injustice to happen. At the bottom is a grey foundation: a constitution and citizens who defend it.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "zuordnung",
+   "id": "k8-zu-glossar",
+   "title": "Terms from the series",
+   "teilkompetenzen": [
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen",
+    "geschichte.erinnerung.demokratie-schuetzen-begruenden"
+   ],
+   "intro": "Match each term to its explanation. Tap one item on the left and one on the right. If you are unsure, the glossary in the next block will help.",
+   "paare": [
+    {
+     "links": {
+      "text": "‘Gleichschaltung’"
+     },
+     "rechts": {
+      "text": "From 1933, the states, parties, clubs, media and young people are brought under NSDAP control"
+     }
+    },
+    {
+     "links": {
+      "text": "Enabling Act"
+     },
+     "rechts": {
+      "text": "Law of March 1933: the government can pass laws without parliament"
+     }
+    },
+    {
+     "links": {
+      "text": "Führerprinzip"
+     },
+     "rechts": {
+      "text": "Orders from the top down, obedience from the bottom up – one person at the top decides alone, without checks"
+     }
+    },
+    {
+     "links": {
+      "text": "Gestapo"
+     },
+     "rechts": {
+      "text": "Secret political police that imposed ‘protective custody’ without courts and relied on denunciations"
+     }
+    },
+    {
+     "links": {
+      "text": "‘Volksgemeinschaft’"
+     },
+     "rechts": {
+      "text": "Nazi promise of a community without classes – excluding everyone labelled an ‘outsider to the community’"
+     }
+    },
+    {
+     "links": {
+      "text": "Propaganda"
+     },
+     "rechts": {
+      "text": "Deliberate influence on opinions and feelings through one-sided, oversimplified messages"
+     }
+    },
+    {
+     "links": {
+      "text": "Antisemitism"
+     },
+     "rechts": {
+      "text": "Hatred of Jews, originally based on a supposed ‘race’ – today often an umbrella term for all forms of hostility towards Jews"
+     }
+    },
+    {
+     "links": {
+      "text": "Pogrom"
+     },
+     "rechts": {
+      "text": "A crowd violently attacks a minority – with looting, arson and murder"
+     }
+    },
+    {
+     "links": {
+      "text": "‘Aryanisation’"
+     },
+     "rechts": {
+      "text": "Jewish shops and houses have to be sold to non-Jewish buyers for far less than their value"
+     }
+    },
+    {
+     "links": {
+      "text": "Deportation"
+     },
+     "rechts": {
+      "text": "The forced transport of people to ghettos and camps in the east"
+     }
+    },
+    {
+     "links": {
+      "text": "Extermination camps"
+     },
+     "rechts": {
+      "text": "Camps whose main purpose was to murder people arriving there as quickly as possible"
+     }
+    },
+    {
+     "links": {
+      "text": "Civil courage"
+     },
+     "rechts": {
+      "text": "Courage to speak out against injustice and help others – even against the majority"
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k8-glossar",
+   "title": "Glossary: terms and abbreviations from the series",
+   "body": "Here you will find the key terms and abbreviations from the eight modules, ordered alphabetically by their German names. Entries in ‘…’ are words used by the perpetrators or Nazi propaganda and are also labelled ‘perpetrators' term’ – we use them only in quotation marks and with an explanation.\n\n| Term | Explanation |\n| --- | --- |\n| **AHS** | Adolf-Hitler-Schulen (Adolf Hitler Schools): boarding schools run by the party and HJ from 1937 for boys aged 12 and over, with no fees, to train a leadership elite – the party's counterpart to the state-run Napola. |\n| **‘Anschluss’** | Nazi term for the forced incorporation of Österreich into the German Reich: the Wehrmacht marched in on 12 March 1938. The word suggests a voluntary union. Perpetrators' term. |\n| **Anti-Judaism** | Hostility towards Jews for religious reasons (since antiquity, especially in the Middle Ages): the accusation of ‘killing God’, legends, compulsory identification from 1215 and pogroms. The older form of hostility towards Jews; racist antisemitism only emerged in the 19th century. |\n| **Anti-communism** | Hostility towards communism; the Nazis called it ‘Bolshevism’ and also portrayed it as ‘Jewish’, linking antisemitism to fear of revolution. |\n| **Antisemitism** | Hatred of Jews that defines them as a supposed ‘race’ (the word dates from 1879). In its narrower sense, it means this racist hatred of Jews, as distinct from religious anti-Judaism; today, it often refers to any form of hostility towards Jews. |\n| **‘Aryan Paragraph’** | § 3 of the Civil Service Law of 7 April 1933: dismissal of ‘non-Aryan’ civil servants – a model for many professional bans. Perpetrators' term. |\n| **‘Aryan’** | Nazi term from ‘racial doctrine’: ‘Aryans’ were regarded as an invented ‘master race’ (mainly Germans and Northern Europeans). In the laws, ‘Aryan’ effectively meant ‘not Jewish’. Perpetrators' term. |\n| **‘Aryanisation’** | Forced sale of Jewish shops, companies and houses to non-Jewish buyers for far less than their value. Perpetrators' term. |\n| **BDM** | Bund Deutscher Mädel (League of German Girls): Nazi youth organisation for girls aged 14 to 18. |\n| **Boycott** | An organised refusal to buy from someone – on 1 April 1933, directed against Jewish shops, medical practices and law firms. |\n| **DAF** | Deutsche Arbeitsfront (German Labour Front): compulsory Nazi organisation that replaced the banned trade unions in 1933. |\n| **DAP** | Deutsche Arbeiterpartei (German Workers' Party): small party in München that Hitler joined in 1919; it became the NSDAP in 1920. |\n| **Democracy** | A form of government in which power comes from the people and is kept in check: free elections, separation of powers, fundamental rights and opposition. |\n| **Denunciation** | Reporting other people to the police or party – an important source of information for the Gestapo. |\n| **Deportation** | Forced transport of people – from October 1941, from the Reich to ghettos and camps in the east. |\n| **‘Of German blood’ / ‘related’** | Nazi terms from ‘racial doctrine’ and the Nuremberg Laws: people with no Jewish grandparents were classified as ‘of German blood’. The Reich Citizenship Law used ‘related’ for people the regime assigned to a ‘related race’, such as other Europeans – but not Jews. Only people ‘of German or related blood’ could be ‘Reich citizens’ with political rights. Perpetrators' terms. |\n| **Dictatorship** | A form of government in which one person or group rules without checks: no free elections, no separation of powers and no fundamental rights. |\n| **DJ** | Deutsches Jungvolk (German Young People): Nazi youth organisation for boys aged 10 to 14 (‘Pimpfe’). |\n| **DNVP** | Deutschnationale Volkspartei (German National People's Party): conservative party with which the NSDAP governed from 30 January 1933. |\n| **‘Stab-in-the-back myth’** | The lie of 1918/19 that the army had been betrayed ‘from within’ during the First World War; it diverted blame from the generals and made Jews scapegoats. Perpetrators' term. |\n| **Edelweißpiraten / Swing-Jugend** | Nonconformist youth groups in the Nazi state: the Edelweißpiraten (Rheinland and Ruhrgebiet; their own trips and songs, clashes with the HJ-Streifendienst) and the Swing-Jugend (Hamburg and other cities; jazz, swing and English fashions). Persecution extended to youth concentration camps and execution. |\n| **Einsatzgruppen** | Mobile SS and police units that carried out mass shootings behind the front from June 1941 – supported by Wehrmacht units and local collaborators. |\n| **Emancipation** | The gradual granting of legal equality to Jews in the 18th and 19th centuries; legally completed in the German Reich in 1871. |\n| **‘Final Solution’** | Nazi code term for the genocide of Europe's Jews. Perpetrators' term. |\n| **Culture of remembrance** | How a society keeps history alive: the day of remembrance on 27 January, memorial sites, Stolpersteine, eyewitnesses and research. |\n| **Enabling Act** | Law of 23 March 1933: the government could pass laws without the Reichstag – parliament stripped itself of power. |\n| **‘Euthanasia’ / ‘T4’** | ‘Euthanasia’ (Greek for ‘beautiful death’) was the Nazi code term for murdering disabled people and people with mental illnesses; ‘T4’ (from the Berlin address Tiergartenstraße 4) was the code name for the centrally organised murder programme from 1939. Around 70 000 people had been murdered by August 1941; the total was around 200 000 or more. Perpetrators' terms. |\n| **Fascism** | Movement founded by Mussolini in Italy after the First World War (head of government in 1922 after the ‘March on Rome’, dictatorship from 1925/26): leader worship, violence, nationalism and rejection of democracy. |\n| **Führerprinzip** | The Nazi state's leadership principle: orders from the top down, obedience from the bottom up. At the top, the ‘Führer’ decides alone; at every level, ‘leaders’ appointed from above enforce his orders – no elections, no checks, no separation of powers. |\n| **Gestapo** | Geheime Staatspolizei (Secret State Police): the Nazi state's political police, which imposed ‘protective custody’ without courts. |\n| **Separation of powers** | Division of state power between parliament, government and courts, which keep each other in check. |\n| **Ghetto** | A sealed-off city district where Jews were forced to live – first in Venedig in 1516, later from 1940 in occupied Poland (Łódź, Warschau). |\n| **‘Gleichschaltung’** | Bringing every area – states, parties, clubs, media and young people – under NSDAP control from 1933. Perpetrators' term. |\n| **Fundamental rights** | Human rights enshrined in a constitution and binding on the state: freedom of expression, the press and assembly, equality and protection of the person. |\n| **‘Auxiliary police’** | From 22 February 1933, the SA was officially authorised to carry out police duties in Preußen; after the Reichstag fire, it was deployed on a large scale against political opponents as a force of thugs with official powers. Perpetrators' term. |\n| **Hitler salute** | ‘Heil Hitler!’ with a raised arm; compulsory for civil servants from 1933 and an ever-present declaration of loyalty in daily life – a tool of propaganda. |\n| **HJ** | Hitlerjugend (Hitler Youth): Nazi youth organisation for boys aged 14 to 18; the state youth organisation from 1936 and compulsory from March 1939; also an umbrella term for all Nazi youth organisations (HJ, DJ, BDM, JM). |\n| **Holocaust / Shoah** | The genocide of around six million European Jews in 1941–1945 (Greek for ‘completely burnt’ / Hebrew for ‘catastrophe’). |\n| **Holocaust denial** | The claim that the genocide of the Jews did not happen or is greatly exaggerated – not an opinion, but a lie about a proven crime; punishable in Liechtenstein, Switzerland, Österreich and Germany. |\n| **Ideology** | A closed worldview that explains how the world supposedly is and should be – and allows no disagreement. |\n| **Indoctrination** | Influence that allows no disagreement – for example, during HJ club evenings. |\n| **J stamp** | Red letter ‘J’ in German Jews' passports from October 1938 – proposed by the German authorities, accepted by Switzerland and used to identify and turn away Jewish refugees at the border. |\n| **JM** | Jungmädelbund (League of Young Girls): Nazi youth organisation for girls aged 10 to 14. |\n| **‘Jewish star badge’** | Yellow star bearing the word ‘Jude’ that Jewish people in the Reich had to wear from September 1941. Perpetrators' term. |\n| **Youth concentration camps** | Camps for young people who did not comply with the regime: Moringen for boys and Uckermark for girls. |\n| **KdF** | ‘Kraft durch Freude’ (‘Strength through Joy’): the DAF's leisure organisation (travel, concerts, KdF car) – promoting the ‘Volksgemeinschaft’. |\n| **Kindertransporte** | Rescue of around 10 000 Jewish children to Britain, December 1938 to September 1939. |\n| **Communism** | Ideology according to which factories and land should belong to everyone collectively and there should no longer be social classes. |\n| **Évian Conference** | Meeting of representatives from 32 countries on the Genfersee in July 1938 to discuss Jewish refugees from Germany and Österreich; hardly any country was willing to admit more people. |\n| **KPD** | Kommunistische Partei Deutschlands (Communist Party of Germany): immediately blamed and persecuted after the Reichstag fire in 1933; its representatives were under arrest or had fled when the Enabling Act was passed. |\n| **KZ** | Konzentrationslager (concentration camp): detention camp where people were held without trial, used for terror and forced labour (the first were established as early as March 1933, for example in Dachau) – not the same as an extermination camp. |\n| **‘Lebensraum’** | Nazi aim of conquering land in the east (Poland and the Soviet Union) and expelling, enslaving or killing its population – a justification for the war of conquest. Perpetrators' term. |\n| **Liberalism** | Political tradition that puts individual freedom and rights first. |\n| **Coming to power** | A neutral description of Hitler's path to power in 1933. The Nazis spoke of ‘Machtergreifung’ (‘seizure of power’), as if they had fought for it; many researchers use ‘Machtübertragung’ (‘transfer of power’) because Hitler was legally appointed on 30 January 1933 – only seemingly legal, since terror and violations of the law followed immediately. |\n| **‘Märzgefallene’** | Mocking name used by long-standing party members for the many people who joined the NSDAP after the Reichstag election in March 1933. |\n| **Human rights** | Rights that belong to everyone simply because they are human – regardless of origin, religion or nationality; many are included in constitutions as fundamental rights. |\n| **Protection of minorities** | The rule that the majority must not restrict minorities' rights – a feature of democracy. |\n| **‘Mischling’ / ‘Geltungsjude’** | Nazi categories under the regulation of 14 November 1935, based on the grandparents' religion: two Jewish grandparents meant ‘Mischling, 1st degree’; one meant ‘Mischling, 2nd degree’. Anyone with two Jewish grandparents who belonged to a Jewish community or was married to a Jew was classified as a ‘Geltungsjude’ and treated as a ‘Jew’. Perpetrators' terms. |\n| **Monarchy / republic** | A state's form based on its head of state: hereditary monarch (monarchy) or elected head of state (republic) – this says nothing about whether the state is democratic. |\n| **‘Mother's Cross’** | Award for women with many children from 1938 (bronze for four or more, silver for six or more, gold for eight or more) – part of the Nazi ideal of the ‘German woman and mother’. Perpetrators' term. |\n| **Napola** | Nationalpolitische Erziehungsanstalt (NPEA, National Political Education Institute): state-run Nazi boarding school from 1933 for training a leadership elite. |\n| **November pogroms** | Organised violence against Jews on 9/10 November 1938: synagogues destroyed, shops wrecked, hundreds dead, 30 000 men sent to concentration camps. The contemporary term ‘Reichskristallnacht’ plays down the violence. |\n| **NS** | Short for ‘nationalsozialistisch’ (‘National Socialist’, as in Nazi state or Nazi ideology). ‘Nazi’ was originally a mocking nickname used by opponents. |\n| **NSDAP** | Nationalsozialistische Deutsche Arbeiterpartei (National Socialist German Workers' Party): Hitler's party, the only permitted party from July 1933. |\n| **Nuremberg Laws** | Three laws of 15 September 1935: the Reich Citizenship Law, ‘Blood Protection Law’ and Reich Flag Law – Jews became second-class citizens. |\n| **Pogrom** | A violent attack by a crowd on a minority involving looting, arson and murder (Russian for ‘devastation’). |\n| **‘Polenaktion’** | In late October 1938, the regime deported around 17 000 Jews with Polish citizenship to the Polish border overnight; some had lived in Germany for decades. Thousands were stranded in no-man's-land. Perpetrators' term. |\n| **Porajmos** | Romani word for ‘the devouring’: a name for the genocide of up to 500 000 Sinti and Roma. It is contested among Sinti and Roma, so the term ‘genocide of the Sinti and Roma’ is also used. |\n| **Propaganda** | Deliberate influence on opinions and feelings through one-sided, oversimplified messages – in the Nazi state, through Goebbels' ministry. |\n| **RAD** | Reichsarbeitsdienst (Reich Labour Service): six months of compulsory service for young men from 1935, later also for women. |\n| **‘Racial hygiene’** | Nazi term for the policy of making supposedly ‘hereditarily ill’ people infertile (law of 14 July 1933, around 400 000 forced sterilisations) and later murdering them. Perpetrators' term. |\n| **‘Racial doctrine’** | The pseudoscientific Nazi claim that humanity is divided into ‘races’ of different worth. Perpetrators' term. |\n| **‘Racial defilement’** | Nazi propaganda term for relationships between Jews and non-Jews, which the ‘Blood Protection Law’ prohibited in 1935; denunciations, trials and imprisonment followed, and during the war, death sentences too. Perpetrators' term. |\n| **Rule-of-law state** | A state that itself respects laws and fundamental rights: nobody is punished without a trial, and the government too must obey the law. |\n| **Reichsstatthalter** | Governors sent by Hitler to the German states in 1933, who replaced the state governments and governed on instructions from above – part of ‘Gleichschaltung’. |\n| **Reichstag Fire Decree** | Emergency decree of 28 February 1933: suspended fundamental rights ‘until further notice’ – the basis for ‘protective custody’ and terror; it remained in force until 1945. |\n| **‘Röhm Putsch’** | Nazi propaganda name for the SS's murder of the SA leadership around Ernst Röhm and other opponents from 30 June to 2 July 1934; there was no plan for a coup. Afterwards, the SA was stripped of power and the SS rose in importance. Perpetrators' term. |\n| **RSHA / SD** | Reichssicherheitshauptamt (Reich Security Main Office): from 1939, the central organisation for the Gestapo, criminal police and SD (Sicherheitsdienst, the SS Security Service and party intelligence service), under Reinhard Heydrich; deportations were later also organised from here. |\n| **SA** | Sturmabteilung (Storm Detachment): the NSDAP's force of thugs in brown shirts; stripped of power after the ‘Röhm Putsch’ (see that entry) in 1934. |\n| **‘Protective custody’** | Detention without a court judgement, imposed by the Gestapo or police – often in a concentration camp. Perpetrators' term. |\n| **Social Darwinism** | Applying the idea of ‘survival of the strongest’ to peoples: the Nazis regarded struggle and war as laws of nature, and compassion as weakness – a reinterpretation, since Darwin described adaptation in nature. |\n| **SPD** | Sozialdemokratische Partei Deutschlands (Social Democratic Party of Germany): the only party to vote against the Enabling Act on 23 March 1933 (speech by Otto Wels). |\n| **SS** | Schutzstaffel (Protection Squadron): organisation under Himmler that grew out of Hitler's bodyguard unit; ran concentration camps, supplied the Gestapo leadership and Einsatzgruppen, and organised the genocide. |\n| **Stolpersteine** | Small brass plaques in pavements outside the last homes of victims of the Nazis, a project by the artist Gunter Demnig since the 1990s. |\n| **‘Atonement payment’** | Forced levy of one billion Reichsmarks imposed on the Jewish victims of the November pogroms by a decree of 12 November 1938 – they had to pay for damage others had caused. Perpetrators' term. |\n| **Scapegoat** | A person or group blamed for problems they did not cause. |\n| **Totalitarianism** | Rule that seeks to control people's entire lives – politics, work, leisure and thought. By contrast, an authoritarian dictatorship demands only obedience; a totalitarian one demands enthusiasm and seeks to control the whole person. |\n| **Extermination camps** | Camps whose main purpose was to murder those arriving as quickly as possible: Chełmno, Bełżec, Sobibór and Treblinka served this purpose alone; Majdanek and Auschwitz-Birkenau were also concentration camps with forced labour. |\n| **Conspiracy myth** | An invented story claiming that a secret group is behind everything bad – for example, the forged ‘Protokolle der Weisen von Zion’. |\n| **‘Volksempfänger’** | Cheap radio the regime had produced from 1933 so that Hitler's speeches and propaganda could reach every household. Perpetrators' term. |\n| **‘Volksgemeinschaft’** | Nazi promise of a community without classes – in reality, excluding everyone labelled an ‘outsider to the community’. Perpetrators' term. |\n| **Volksgerichtshof** | The Nazi regime's special court for political trials, which allowed no fair defence – for example, it sentenced Helmuth Hübener to death. |\n| **Waffen-SS / Totenkopfverbände** | The Waffen-SS was an armed SS force alongside the Wehrmacht; the SS Totenkopfverbände guarded and ran the concentration camps. |\n| **Wannsee Conference** | Meeting of fifteen senior officials and SS leaders on 20 January 1942 that coordinated the implementation of the genocide already under way. |\n| **‘Wehrertüchtigung’** | Nazi term for the military training of young people in the HJ – preparation for war, including shooting practice from the age of 16. Perpetrators' term. |\n| **Wehrmacht** | The Nazi state's armed forces; until 1935, they were called the Reichswehr (the republic's army). On 2 August 1934, soldiers swore an oath to Hitler personally. |\n| **Weiße Rose** | Student resistance group around Hans and Sophie Scholl in München that distributed leaflets against the regime and the war in 1942/43; its core members were executed in 1943. |\n| **Civil courage** | Courage to stand up for others and speak out against injustice – even against the majority and despite possible disadvantages. In everyday life, this means paying attention, speaking up, helping and getting help – without putting yourself in danger. Under a dictatorship, such courage could cost people their jobs or lives (Grüninger, Hübener and the helpers at the annex). |"
+  },
+  {
+   "type": "quiz",
+   "id": "k8-gesamtquiz",
+   "title": "Overall quiz, Part 1: modules 1 to 5",
+   "teilkompetenzen": [
+    "geschichte.staatsformen.systeme-unterscheiden",
+    "geschichte.nationalsozialismus.faschismus-einordnen",
+    "geschichte.nationalsozialismus.machtuebernahme-erklaeren",
+    "geschichte.nationalsozialismus.organisationen-zuordnen",
+    "geschichte.nationalsozialismus.terrorsystem-erklaeren",
+    "geschichte.nationalsozialismus.ideologie-beschreiben",
+    "geschichte.methoden.propaganda-analysieren",
+    "geschichte.nationalsozialismus.jugend-erklaeren"
+   ],
+   "intro": "Part 1 of the overall quiz: questions from the first five modules in the series. You can repeat the quiz as often as you like; your best result counts. If you are unsure about a question, look it up in the glossary or the relevant module.",
+   "questions": [
+    {
+     "id": "k8-q1",
+     "type": "single_choice",
+     "prompt": "How can you tell whether a state is a democracy?",
+     "options": [
+      {
+       "text": "By whether its head of state is a president elected by the people or a hereditary monarch."
+      },
+      {
+       "text": "By whether power is kept in check: free elections, separation of powers, fundamental rights and opposition.",
+       "correct": true
+      },
+      {
+       "text": "By whether there is a written constitution and a parliament with elected representatives."
+      },
+      {
+       "text": "By whether there is only one permitted party, which wins every election by a large majority."
+      }
+     ],
+     "explanation": "Democracy or dictatorship is a question of how power is kept in check. Whether a monarch or a president heads the state determines only whether it is a monarchy or a republic; even the Nazi state had a constitution and a parliament, and having only one permitted party is precisely the opposite of a sign of democracy."
+    },
+    {
+     "id": "k8-q2",
+     "type": "single_choice",
+     "prompt": "Where does Liechtenstein fit in the four-field matrix of head of state and checks on power?",
+     "options": [
+      {
+       "text": "Republic and democracy – because, as in Switzerland, the people can vote on laws and elect the Landtag."
+      },
+      {
+       "text": "Monarchy and dictatorship – because the Prince, as head of state, must approve every law and is not elected."
+      },
+      {
+       "text": "Republic and dictatorship – because it has only a Landtag with a small number of representatives and no elected president."
+      },
+      {
+       "text": "Monarchy and democracy – because the Prince inherits his office, but the Landtag, courts and referendums limit his power.",
+       "correct": true
+      }
+     ],
+     "explanation": "Liechtenstein is both a hereditary monarchy and a democracy: the constitution of 1921 divides power between the Prince, the Landtag, the government and the courts, and the people can propose laws (initiatives) and vote on laws (referendums). The fact that the Prince must approve laws does not make the country a dictatorship: no law can be passed without the elected Landtag. Switzerland is a republic."
+    },
+    {
+     "id": "k8-q3",
+     "type": "true_false",
+     "prompt": "Fascism originated in Italy; Mussolini became head of government in 1922 after the ‘March on Rome’.",
+     "answer": true,
+     "explanation": "True. In October 1922, Mussolini's fascists threatened a ‘March on Rome’, after which the king appointed him prime minister. National Socialism adopted much from fascism but placed racist antisemitism at its centre."
+    },
+    {
+     "id": "k8-q4",
+     "type": "single_choice",
+     "prompt": "What did the Enabling Act of 23 March 1933 permit?",
+     "options": [
+      {
+       "text": "The government could pass laws without the Reichstag – including laws that departed from the constitution.",
+       "correct": true
+      },
+      {
+       "text": "The Reich President could appoint the Reich Chancellor without an election and dismiss him at any time – without consulting the Reichstag."
+      },
+      {
+       "text": "The SA could make arrests as auxiliary police and establish its own concentration camps for political opponents."
+      },
+      {
+       "text": "The NSDAP could stand as the only party in the Reichstag election in November 1933; the others were banned."
+      }
+     ],
+     "explanation": "Through the Enabling Act, parliament stripped itself of power: the government received the right to pass laws. Appointing the chancellor had already been the Reich President's responsibility, the auxiliary police were based on other orders, and the ban on parties came in July 1933 as a separate law."
+    },
+    {
+     "id": "k8-q5",
+     "type": "single_choice",
+     "prompt": "What was the consequence of the Reichstag Fire Decree of 28 February 1933?",
+     "options": [
+      {
+       "text": "The Reichstag was immediately dissolved and never convened again before the war ended in 1945."
+      },
+      {
+       "text": "Fire brigades were placed under SS control to prevent further arson attacks across the Reich."
+      },
+      {
+       "text": "Fundamental rights were suspended ‘until further notice’ – the basis for ‘protective custody’ and terror.",
+       "correct": true
+      },
+      {
+       "text": "All communists were stripped of their citizenship and had to leave the country within a week."
+      }
+     ],
+     "explanation": "The decree suspended the fundamental rights of the Weimar Constitution and enabled arrests without courts. The Reichstag continued to exist as a sham parliament. Stripping all communists of citizenship and expelling them was not a consequence of the decree: communists and other opponents were arrested and placed in ‘protective custody’. Fire brigades were not placed under SS control."
+    },
+    {
+     "id": "k8-q6",
+     "type": "single_choice",
+     "prompt": "What happened on 2 August 1934?",
+     "options": [
+      {
+       "text": "In the so-called ‘Röhm Putsch’, the SS murdered the SA leadership around Ernst Röhm and many other opponents."
+      },
+      {
+       "text": "The government passed the Law against the Formation of New Parties – the NSDAP became the only party."
+      },
+      {
+       "text": "Reich President Hindenburg appointed Hitler Reich Chancellor of a coalition with conservative ministers."
+      },
+      {
+       "text": "Hindenburg died; Hitler combined the offices of Reich President and Chancellor as ‘Führer and Reich Chancellor’.",
+       "correct": true
+      }
+     ],
+     "explanation": "When Hindenburg died on 2 August 1934, Hitler also took over the office of head of state; the Reichswehr (called the ‘Wehrmacht’ from 1935) swore an oath to him personally. The ‘Röhm Putsch’ was on 30 June 1934, the law on parties was passed in July 1933, and Hitler was appointed chancellor on 30 January 1933."
+    },
+    {
+     "id": "k8-q7",
+     "type": "single_choice",
+     "prompt": "What was the Gestapo?",
+     "options": [
+      {
+       "text": "The party organisation that organised holidays, concerts and workplace celebrations for workers."
+      },
+      {
+       "text": "The secret political police, which imposed ‘protective custody’ without courts and relied on denunciations.",
+       "correct": true
+      },
+      {
+       "text": "The NSDAP's force of thugs in brown uniform shirts, stripped of power after the ‘Röhm Putsch’ in 1934."
+      },
+      {
+       "text": "The party's youth organisation, membership of which was compulsory for ten-year-olds from 1939."
+      }
+     ],
+     "explanation": "Gestapo stands for Geheime Staatspolizei (Secret State Police). ‘Kraft durch Freude’ organised holidays, the force of thugs in brown shirts was the SA, and the youth organisation was the Hitlerjugend."
+    },
+    {
+     "id": "k8-q8",
+     "type": "single_choice",
+     "prompt": "Which organisation ran the concentration camps and organised the genocide?",
+     "options": [
+      {
+       "text": "The SS under Heinrich Himmler.",
+       "correct": true
+      },
+      {
+       "text": "The SA under Ernst Röhm."
+      },
+      {
+       "text": "The Deutsche Arbeitsfront."
+      },
+      {
+       "text": "The Reichsarbeitsdienst."
+      }
+     ],
+     "explanation": "The SS ran the concentration camps through its Totenkopfverbände, supplied the Einsatzgruppen and organised the extermination camps. The SA was stripped of power after 1934; the DAF and RAD were labour and mass organisations."
+    },
+    {
+     "id": "k8-q10",
+     "type": "single_choice",
+     "prompt": "What did ‘Volksgemeinschaft’ mean in Nazi ideology?",
+     "options": [
+      {
+       "text": "Equal rights for everyone living in the German Reich, regardless of origin, religion or party."
+      },
+      {
+       "text": "A community of workers in which factories, banks and businesses belonged to all members collectively."
+      },
+      {
+       "text": "A supposedly classless community of all ‘Aryans’ – excluding everyone classified as an ‘outsider to the community’.",
+       "correct": true
+      },
+      {
+       "text": "The voluntary merger of all youth associations under the leadership of the Hitlerjugend following the law of 1936."
+      }
+     ],
+     "explanation": "The ‘Volksgemeinschaft’ promised unity without classes but meant excluding Jews, political opponents, disabled people and many others. Equal rights and shared ownership were not part of it, and the youth associations did not merge voluntarily."
+    },
+    {
+     "id": "k8-q11",
+     "type": "single_choice",
+     "prompt": "What was the aim of the ‘T4’ murder programme?",
+     "options": [
+      {
+       "text": "Murdering political opponents in the first concentration camps in 1933."
+      },
+      {
+       "text": "Dismissing Jewish civil servants from state service in spring 1933."
+      },
+      {
+       "text": "The Einsatzgruppen's shooting of Jewish people in the Soviet Union."
+      },
+      {
+       "text": "Murdering disabled people and people with mental illnesses.",
+       "correct": true
+      }
+     ],
+     "explanation": "‘T4’ was the programme to murder disabled people from 1939, which followed from ‘racial doctrine’ and the sterilisation law of 1933. The regime labelled these people ‘unworthy of life’ – a perpetrators' term: no human being is unworthy of life. Political opponents were sent to concentration camps, Jewish civil servants were targeted by the ‘Aryan Paragraph’, and the Einsatzgruppen murdered people in the east from 1941."
+    },
+    {
+     "id": "k8-q12",
+     "type": "single_choice",
+     "prompt": "Which questions help you analyse propaganda?",
+     "options": [
+      {
+       "text": "Who is speaking? To whom? Using which emotions, enemy images and simplifications? With what aim?",
+       "correct": true
+      },
+      {
+       "text": "How expensive was the production? How many people saw the message? Who paid for it?"
+      },
+      {
+       "text": "Is the message attractively designed? Do I like the music? Do I know the actors?"
+      },
+      {
+       "text": "Does the message match my own opinion? Is it right about the issue or not?"
+      }
+     ],
+     "explanation": "The analysis framework asks about the sender, target audience, emotions, enemy images, simplifications and aim. Costs, design or your own agreement tell you nothing about how a message works."
+    },
+    {
+     "id": "k8-q13",
+     "type": "single_choice",
+     "prompt": "From when was membership of the Hitlerjugend compulsory?",
+     "options": [
+      {
+       "text": "Since the Hitlerjugend was founded as the NSDAP's youth association in 1926, before 1933."
+      },
+      {
+       "text": "Since the takeover of power on 30 January 1933, when Hitler became Reich Chancellor and the party came to power."
+      },
+      {
+       "text": "Since March 1939, when compulsory youth service applied – just over two years after the HJ Law of 1936.",
+       "correct": true
+      },
+      {
+       "text": "Only since 1943, when the Wehrmacht urgently needed new recruits during the war and the HJ sought new members."
+      }
+     ],
+     "explanation": "The HJ Law of 1936 made the Hitlerjugend the state youth organisation; compulsory youth service in March 1939 made membership compulsory from the age of ten – before the war began in September 1939. In 1926 and 1933, joining was voluntary, although there was pressure, and by 1943 almost everyone was already a member. Jewish young people were excluded from the Hitlerjugend."
+    },
+    {
+     "id": "k8-q14",
+     "type": "single_choice",
+     "prompt": "What educational aims did the Nazi state have for boys and girls?",
+     "options": [
+      {
+       "text": "Boys and girls were equally expected to attend university and work in science, technology and administration."
+      },
+      {
+       "text": "Boys were to become tough, obedient soldiers; girls were to become healthy housewives and mothers of many children.",
+       "correct": true
+      },
+      {
+       "text": "Boys were to become farmers on their own farms; girls were to become workers in the new arms factories."
+      },
+      {
+       "text": "Above all, boys and girls were expected to think independently and make their own political decisions."
+      }
+     ],
+     "explanation": "Boys were prepared for war in the HJ and Napola; girls in the BDM were prepared for the role of ‘German woman and mother’ – rewarded with the ‘Mother's Cross’. University, farming or factory work were not the aim, and independent thinking was the opposite of it."
+    },
+    {
+     "id": "k8-q15",
+     "type": "true_false",
+     "prompt": "Helmuth Hübener was executed at the age of 17 because he distributed news from the British broadcaster BBC on leaflets.",
+     "answer": true,
+     "explanation": "True. The apprentice from Hamburg secretly listened to the BBC, distributed the news on leaflets and was sentenced to death by the Volksgerichtshof in 1942 – one of the youngest people this court had executed."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "k8-gesamtquiz-2",
+   "title": "Overall quiz, Part 2: modules 6 to 8",
+   "teilkompetenzen": [
+    "geschichte.erinnerung.antisemitismus-heute-erkennen",
+    "geschichte.antisemitismus.formen-unterscheiden",
+    "geschichte.antisemitismus.funktion-erklaeren",
+    "geschichte.antisemitismus.nuernberger-gesetze-erklaeren",
+    "geschichte.antisemitismus.verfolgungsstufen-einordnen",
+    "geschichte.erinnerung.demokratie-schuetzen-begruenden",
+    "geschichte.methoden.ereignisse-zeitlich-ordnen"
+   ],
+   "intro": "Part 2 of the overall quiz: questions from the last three modules in the series and on the lessons for today. You can repeat the quiz as often as you like; your best result counts. If you are unsure about a question, look it up in the glossary or the relevant module.",
+   "questions": [
+    {
+     "id": "k8-q16",
+     "type": "single_choice",
+     "prompt": "What distinguishes racist antisemitism from religious anti-Judaism?",
+     "options": [
+      {
+       "text": "Anti-Judaism was violent; antisemitism remained a matter of books, newspapers and speeches."
+      },
+      {
+       "text": "Anti-Judaism arose with industrialisation in the 19th century; antisemitism had already emerged in the Middle Ages."
+      },
+      {
+       "text": "Antisemitism targeted people's faith; anti-Judaism targeted their ancestry."
+      },
+      {
+       "text": "Anti-Judaism targeted people's faith; antisemitism targeted their supposed ‘race’ – with no way out.",
+       "correct": true
+      }
+     ],
+     "explanation": "The religious anti-Judaism of the Middle Ages allowed, at least in theory, the way out of baptism; racist antisemitism from 1879 declared Jews a ‘race’ that nobody could leave. Both forms were violent, and the chronological order is the reverse of that suggested in the incorrect option."
+    },
+    {
+     "id": "k8-q17",
+     "type": "single_choice",
+     "prompt": "What are the ‘Protokolle der Weisen von Zion’?",
+     "options": [
+      {
+       "text": "A forgery alleging a Jewish world conspiracy – still a conspiracy myth today.",
+       "correct": true
+      },
+      {
+       "text": "The minutes of the Wannsee Conference, in which the genocide of Europe's Jews was planned."
+      },
+      {
+       "text": "A Jewish prayer book that the Nazis banned and publicly burnt in 1933."
+      },
+      {
+       "text": "The records of the court in Bern that ruled on antisemitic hate publications in 1935."
+      }
+     ],
+     "explanation": "The ‘Protokolle’ are an early 20th-century forgery, exposed in 1921 and found to be a forgery by a court in Bern in 1935. They have nothing to do with the Wannsee Conference, a prayer book or court records."
+    },
+    {
+     "id": "k8-q18",
+     "type": "single_choice",
+     "prompt": "What happened on 1 April 1933?",
+     "options": [
+      {
+       "text": "The Nuremberg Laws came into force and made Jews second-class citizens."
+      },
+      {
+       "text": "Synagogues throughout Germany were set on fire and shops wrecked."
+      },
+      {
+       "text": "SA guards stood outside Jewish shops, medical practices and law firms – the boycott.",
+       "correct": true
+      },
+      {
+       "text": "For the first time, Jewish people had to wear the yellow star visibly on their clothing."
+      }
+     ],
+     "explanation": "1 April 1933 was the day of the boycott of Jewish shops. The Nuremberg Laws came in 1935, synagogues burned in November 1938, and the Jewish star badge became compulsory in 1941."
+    },
+    {
+     "id": "k8-q19",
+     "type": "single_choice",
+     "prompt": "What did the Nuremberg Laws of 15 September 1935 mean for Jewish people?",
+     "options": [
+      {
+       "text": "They were expelled from the German Reich and lost their German nationality."
+      },
+      {
+       "text": "They became second-class citizens without political rights; marriages to non-Jews were prohibited.",
+       "correct": true
+      },
+      {
+       "text": "They had to sell their shops and pay a financial penalty of one billion Reichsmarks."
+      },
+      {
+       "text": "They could no longer emigrate and were deported to ghettos and camps in the east."
+      }
+     ],
+     "explanation": "The Reich Citizenship Law and ‘Blood Protection Law’ removed Jewish people's political rights and prohibited marriages to non-Jews; they remained state nationals and were not expelled under this legislation. Plunder and the ‘atonement payment’ followed in 1938; the emigration ban and deportations followed in 1941."
+    },
+    {
+     "id": "k8-q20",
+     "type": "single_choice",
+     "prompt": "Which statement about the November pogroms of 9/10 November 1938 is correct?",
+     "options": [
+      {
+       "text": "They were a spontaneous outburst of popular anger after the attack in Paris, quickly ended by the police."
+      },
+      {
+       "text": "They were an uprising by Jewish communities against the Nuremberg Laws, crushed by the SS."
+      },
+      {
+       "text": "They were a power struggle between the SA and SS in which several synagogues accidentally caught fire."
+      },
+      {
+       "text": "They were violence organised by the regime: synagogues destroyed, shops wrecked, hundreds dead, 30 000 men sent to concentration camps.",
+       "correct": true
+      }
+     ],
+     "explanation": "After Goebbels' speech, the pogroms were set in motion across the Reich through the party and SA; ‘spontaneous popular anger’ was the propaganda lie. Neither a Jewish uprising nor a conflict between the SA and SS took place."
+    },
+    {
+     "id": "k8-q21",
+     "type": "single_choice",
+     "prompt": "What role did the Wannsee Conference of 20 January 1942 play?",
+     "options": [
+      {
+       "text": "It coordinated the implementation across Europe of a genocide that had already begun.",
+       "correct": true
+      },
+      {
+       "text": "It passed the Nuremberg Laws and introduced compulsory identification through the yellow star."
+      },
+      {
+       "text": "It ended the war against the Soviet Union and the Einsatzgruppen's mass shootings."
+      },
+      {
+       "text": "It was a meeting of the Allies to discuss punishing the perpetrators after the war."
+      }
+     ],
+     "explanation": "Mass shootings had been taking place since June 1941, and murders in Chełmno since December 1941. The Wannsee Conference organised the implementation. The Nuremberg Laws date from 1935, the Jewish star badge from 1941, and the conference was a meeting of representatives of the Nazi state, not of the Allies."
+    },
+    {
+     "id": "k8-q22",
+     "type": "true_false",
+     "prompt": "‘Concentration camp’ and ‘extermination camp’ are two terms for the same thing.",
+     "answer": false,
+     "explanation": "False. A concentration camp was a detention camp for terror and forced labour, where people also died in huge numbers; an extermination camp such as Treblinka served solely to murder those arriving. Auschwitz-Birkenau was both: a concentration camp with forced labour and an extermination camp."
+    },
+    {
+     "id": "k8-q27",
+     "type": "single_choice",
+     "prompt": "A fictional woman has been baptised, but all four of her grandparents belonged to a Jewish community. How would the regulation of 14 November 1935 have classified her?",
+     "options": [
+      {
+       "text": "As a ‘Jew’: her grandparents' religion counted, not her own faith.",
+       "correct": true
+      },
+      {
+       "text": "As a ‘Mischling, 1st degree’, because she had been baptised and no longer belonged to the community."
+      },
+      {
+       "text": "As ‘of German blood’, because she was no longer Jewish herself and belonged to the church."
+      },
+      {
+       "text": "Not at all, because the rule applied only to men and civil servants in state employment."
+      }
+     ],
+     "explanation": "With three or four Jewish grandparents, a person was classified as a ‘Jew’ even after baptism. This exposes ‘racial doctrine’: what was measured was not biology but an entry in official records. ‘Mischling, 1st degree’ applied only to people with two Jewish grandparents, and the rule applied to everyone."
+    },
+    {
+     "id": "k8-q26",
+     "type": "single_choice",
+     "prompt": "Nazi propaganda blamed ‘the Jews’ for both capitalism and communism. What does this contradiction show?",
+     "options": [
+      {
+       "text": "Capitalism and communism are essentially the same economic system, so the claim fitted both."
+      },
+      {
+       "text": "The propaganda was mistaken and publicly withdrew the claim after the takeover of power in 1933."
+      },
+      {
+       "text": "The Nazis fought both systems equally strongly and therefore had the same enemy for both."
+      },
+      {
+       "text": "The enemy image was not based on facts: it needed a scapegoat that fitted every problem, even opposing ones.",
+       "correct": true
+      }
+     ],
+     "explanation": "Capitalism (private ownership of factories and banks) and communism (collective ownership) are opposites. Blaming the same group for both is internally inconsistent and was never supported by evidence: the enemy image was a scapegoat, not a description of reality. The propaganda did not withdraw the claim."
+    },
+    {
+     "id": "k8-q28",
+     "type": "single_choice",
+     "prompt": "Which sequence of events is correct?",
+     "options": [
+      {
+       "text": "Nuremberg Laws – boycott of Jewish shops – Wannsee Conference – November pogroms"
+      },
+      {
+       "text": "Boycott of Jewish shops – Nuremberg Laws – November pogroms – Wannsee Conference",
+       "correct": true
+      },
+      {
+       "text": "November pogroms – Nuremberg Laws – boycott of Jewish shops – Wannsee Conference"
+      },
+      {
+       "text": "Boycott of Jewish shops – November pogroms – Nuremberg Laws – Wannsee Conference"
+      }
+     ],
+     "explanation": "The boycott was on 1 April 1933, the Nuremberg Laws came on 15 September 1935, the November pogroms on 9/10 November 1938 and the Wannsee Conference on 20 January 1942 – the stages of persecution in that order."
+    },
+    {
+     "id": "k8-q9",
+     "type": "true_false",
+     "prompt": "Anyone who publicly denies the Holocaust in Liechtenstein, Switzerland, Österreich or Germany is simply exercising their right to freedom of expression.",
+     "answer": false,
+     "explanation": "False. Freedom of expression protects opinions – judgements that can be debated – not the claim that a proven crime did not happen. Denial mocks the victims and stirs up hatred; that is why it is punishable in these countries."
+    },
+    {
+     "id": "k8-q23",
+     "type": "single_choice",
+     "prompt": "Why is 27 January a day of remembrance?",
+     "options": [
+      {
+       "text": "On this day in 1942, the genocide was organised at the Wannsee Conference."
+      },
+      {
+       "text": "On this day in 1938, synagogues in Germany were destroyed."
+      },
+      {
+       "text": "On this day in 1945, the Red Army liberated Auschwitz-Birkenau.",
+       "correct": true
+      },
+      {
+       "text": "On this day in 1945, the Second World War ended in Europe."
+      }
+     ],
+     "explanation": "Auschwitz was liberated on 27 January 1945; since 2005, this date has been International Holocaust Remembrance Day. The Wannsee Conference was on 20 January 1942, the pogroms in November 1938, and the war in Europe ended on 8 May 1945."
+    },
+    {
+     "id": "k8-q24",
+     "type": "single_choice",
+     "prompt": "How can you recognise an antisemitic conspiracy myth?",
+     "options": [
+      {
+       "text": "It always explicitly uses the word ‘Jew’ and openly refers to the forged ‘Protokolle der Weisen von Zion’."
+      },
+      {
+       "text": "It blames problems on a secret group and draws – openly or covertly – on old images of ‘the Jews’.",
+       "correct": true
+      },
+      {
+       "text": "It criticises a particular state's policies factually and provides evidence that anyone can check for themselves."
+      },
+      {
+       "text": "Only very few people believe it, so it soon disappears by itself."
+      }
+     ],
+     "explanation": "Conspiracy myths oversimplify and attribute a secret intention to a group. They are antisemitic when they draw on the old images of Jewish masterminds – often without using the word ‘Jew’, which is why ‘always explicitly’ is wrong. Factual criticism supported by evidence is not antisemitism, and unfortunately such myths spread very successfully."
+    },
+    {
+     "id": "k8-q25",
+     "type": "single_choice",
+     "prompt": "What do the events of 1933 teach us about what protects a democracy?",
+     "options": [
+      {
+       "text": "A strong leader who can make quick decisions in crises without checks by parliament and the courts."
+      },
+      {
+       "text": "A constitution that nobody can ever change – then nobody needs to defend it either."
+      },
+      {
+       "text": "Power that is divided and kept in check, fundamental rights even in crises and for minorities – and people with civil courage.",
+       "correct": true
+      },
+      {
+       "text": "Giving up fundamental rights for everyone as long as the government promises security and order in a crisis."
+      }
+     ],
+     "explanation": "The Weimar Constitution was modern, yet it was undermined through laws and decrees: the Enabling Act removed the separation of powers, and the Reichstag Fire Decree suspended fundamental rights ‘until further notice’. A leader without checks was precisely the danger, and giving up fundamental rights in exchange for a promise of security was the first step towards dictatorship. No constitution protects itself: it takes people who pay attention, speak up and help."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "k8-selbst",
+   "title": "Self-assessment: what I can do now",
+   "body": "Go through the list and assess yourself honestly. In your exercise book, write the number of each statement and mark it **confident**, **unsure** or **read again**. The guide below the list tells you where to look things up. The extension statements (20 to 28) are optional.\n\n## Core\n\n1. I can distinguish monarchy and republic from democracy and dictatorship, and place Liechtenstein in the four-field matrix.\n2. I can explain what totalitarianism and fascism mean and what distinguishes National Socialism from Italian fascism.\n3. I can put the steps from Hitler's appointment on 30 January 1933 to 2 August 1934 (including the ‘Röhm Putsch’) in the correct order and explain the effects of the Reichstag Fire Decree and the Enabling Act.\n4. I can explain the Führerprinzip and ‘Gleichschaltung’.\n5. I can give the full names behind NSDAP, SA, SS, Gestapo, HJ, DJ, BDM, JM, DAF, KdF and RAD, name their roles and identifying features, and explain the roles of the SA, SS and Gestapo in terror and why denunciations were so important.\n6. I can explain what an ideology is, name the components of Nazi ideology and explain how ‘racial doctrine’ led to laws and murder.\n7. I can name the main propaganda tools and give reasons why many people agreed, joined in or looked away after 1933.\n8. I can examine propaganda using the analysis framework.\n9. I can explain how the Nazi state brought young people under its control and educated them, and give examples of conformity and resistance.\n10. I can explain the purpose of the elite ‘Napola’ and Adolf-Hitler-Schulen and assess a feature film such as ‘Napola’ as a portrayal of history.\n11. I can distinguish anti-Judaism from antisemitism and recognise the ‘Protokolle der Weisen von Zion’ as a forgery.\n12. I can explain the purpose of the enemy image for the regime, why it was internally contradictory (capitalism and communism at the same time) and how exclusion began in 1933.\n13. I can assess Hitler's antisemitism: the account of Wien in ‘Mein Kampf’ and the findings of research (München, 1919).\n14. I can explain the Nuremberg Laws and the ancestry rule, and say why the rule exposes ‘racial doctrine’.\n15. I can name the stages of persecution from 1933 to 1945, place events within them – boycott, laws, pogroms, escape, the Jewish star badge, deportation and genocide – and relate Anne Frank's life to these stages.\n16. I can describe the events of 1938 (Évian Conference, J stamp, ‘Polenaktion’, November pogroms, ‘atonement payment’, ‘Aryanisation’), explain why ‘Reichskristallnacht’ plays down the violence, and describe escape and rescue through the Kindertransporte and Paul Grüninger.\n17. I can explain the difference between concentration camps and extermination camps and name the groups of victims.\n18. I can recognise present-day forms of antisemitism and explain why Holocaust denial is a criminal offence.\n19. I can explain what a culture of remembrance is and what protects a democracy.\n\n## Extension\n\n20. I can explain why researchers debate whether National Socialism is ‘fascism’.\n21. I can explain why the takeover of power was only seemingly legal and assess the terms ‘Machtergreifung’ (‘seizure of power’) and ‘Machtübertragung’ (‘transfer of power’).\n22. I can explain the background to concentration camps, the KdF car, the RSHA and the word ‘Nazi’.\n23. I can analyse Hitler's propaganda principles and recognise propaganda techniques today.\n24. I can explain why Rauschning's ‘Gespräche mit Hitler’ is not a reliable source.\n25. I can place the Weiße Rose in context as an example of student resistance.\n26. I can use the ‘Aryan Paragraph’ to explain why the idea of a ‘Jewish race’ made baptism and assimilation worthless as ways out.\n27. I can put a legal text into everyday language, write a newspaper article about the pogroms and analyse the roles of perpetrators, followers, bystanders, helpers and victims.\n28. I can plan research into a Stolperstein or a place of remembrance.\n\n## Where can you look things up?\n\n- Statements 1, 2, 20: [[modul:nationalsozialismus-staatsformen-faschismus]]\n- Statements 3, 4, 21: [[modul:nationalsozialismus-machtuebernahme-1933]]\n- Statements 5, 22: [[modul:nationalsozialismus-organisationen]]\n- Statements 6, 7, 8, 23: [[modul:nationalsozialismus-ideologie-propaganda]]\n- Statements 9, 10, 24, 25: [[modul:nationalsozialismus-jugend]]\n- Statements 11, 12, 13, 26: [[modul:nationalsozialismus-antisemitismus-ausgrenzung]]\n- Statements 14, 15, 16, 17, 27: [[modul:nationalsozialismus-judenverfolgung-holocaust]]\n- Statements 18, 19, 28: the ‘Recognise’, ‘Remember’ and ‘Protect’ sections earlier in this module\n\nIf you marked more than three of statements 1 to 19 as ‘read again’, it is worth going through the relevant module a second time – you can then repeat both parts of the overall quiz."
+  },
+  {
+   "type": "tasks",
+   "id": "k8-tasks",
+   "title": "Final tasks: civil courage, denial and research",
+   "teilkompetenzen": [
+    "geschichte.erinnerung.antisemitismus-heute-erkennen",
+    "geschichte.erinnerung.demokratie-schuetzen-begruenden"
+   ],
+   "intro": "Your answers go to your teacher. Tasks 1 and 2 are for everyone; Task 3 is marked **(Extension)**.",
+   "tasks": [
+    {
+     "id": "k8-t1",
+     "prompt": "In two to five sentences, describe an everyday situation – at school, in a club, in the class chat or at a bus stop – that would call for civil courage: someone is being excluded or mocked because of their origin, religion or because they are different. You may invent the situation; do not name anyone. What specifically could you do without putting yourself in danger?",
+     "hint": "Civil courage in everyday life does not mean heroism. Options include paying attention instead of looking away, speaking to the person affected, objecting aloud (‘I don't think that's okay’), getting others involved, telling an adult or asking later how the person is doing. If there is violence or a threat, do not step between those involved; get help by speaking to adults or calling the police.",
+     "solution": "Example answer: Someone shares a meme in the class chat mocking a classmate's religion, and several people laugh along. I could start by not laughing and writing that I do not think it is okay – often, one person is enough to give others the courage to speak up. Then I would message the classmate privately to say I saw it and am on their side. If it continues, I would involve our class teacher. (Any answer is good if it describes a specific situation and at least two realistic actions.)"
+    },
+    {
+     "id": "k8-t2",
+     "prompt": "Someone says: ‘In a democracy, you can say anything – including that the Holocaust is exaggerated. Banning it is censorship.’ Answer in three to five sentences: why is Holocaust denial not an opinion, and why do Liechtenstein, Switzerland, Österreich and Germany prohibit it despite freedom of expression?",
+     "hint": "Distinguish an opinion (a judgement that can be debated) from a factual claim (something that is true or false). The Holocaust is proven by documents, perpetrators' statements, witnesses and camps. What does denial do to survivors and their families? What does the text above say about its purpose? And what did censorship in a dictatorship mean – checking in advance what could be said – as distinct from a penalty imposed only after a statement has been made?",
+     "solution": "Example answer: Freedom of expression protects opinions – judgements that can be debated – not the claim that a proven crime did not happen. The Holocaust is documented through records, perpetrators' statements, survivors and the camps themselves; anyone who publicly denies or plays it down spreads a lie that mocks victims and their families, often serving to make the ideology behind it socially acceptable again. That is why these four countries draw a line here – against hatred disguised as opinion, not against opinions. Nor is this censorship as in a dictatorship: nobody checks in advance what may be said; a public statement is punished only afterwards, as with defamation."
+    },
+    {
+     "id": "k8-t3",
+     "prompt": "(Extension) Plan research into a place of remembrance near you – a Stolperstein in Vaduz, Switzerland or Vorarlberg, the Jüdisches Museum Hohenems, a refugee's fate at the Liechtenstein border in 1938 or a report by Liechtenstein's Commission of Historians. Write five to eight sentences: what guiding question will you ask? Which three sources would you use (archive, memorial site, database, eyewitness account, newspaper)? How will you check whether a source is reliable? And how would you present your findings to the class?",
+     "hint": "A good guiding question is specific: ‘What happened to the X family from Y?’ rather than ‘What was National Socialism like?’ To assess reliability: who created the source, when and why? Does it agree with other sources? (You know the four checking questions from [[modul:nationalsozialismus-jugend]]: who is reporting? When was it written down? Why was it published? What does research say about it today?)",
+     "solution": "Example answer: My guiding question is: what happened in 1938 to Jewish refugees who wanted to cross the Rhein from Vorarlberg into Switzerland or Liechtenstein? For sources, I would use the final report of Liechtenstein's Commission of Historians, the database and exhibition of the Jüdisches Museum Hohenems, and newspaper reports from autumn 1938, plus a recorded eyewitness account if possible. I would check each source by asking: who created it, when, with what intention, and what does research say about it? I would read newspapers from 1938 as voices of their time, not as neutral truth. I would present my findings in a short presentation with a map of that stretch of the border and one person's biography – to give a face to the number of refugees."
+    }
+   ]
+  }
+ ]
+}
