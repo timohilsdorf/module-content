@@ -1,0 +1,711 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:271173017873667b4992622b13e16c16c8442dc838ae2470900f553cf815bcfc",
+   "text": "The UN and human rights"
+  },
+  "description": {
+   "quelle": "sha256:ddf8384b0ec65963aca3313ead5c1ff00ed7d8308de6ed8ad28b34ac39c6932c",
+   "text": "Why does tiny Liechtenstein have the same voting rights in the UN as a country with a billion people – and why can a single country still block any Security Council decision? Here you will get to know the UN as a forum for almost all states, understand the General Assembly and the Security Council, including the problem of the veto, explore the Universal Declaration of Human Rights of 1948 through everyday examples – and see why declaring rights does not mean enforcing them."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:b62e2d81acac9e279628ab2fb89fb2c69539dd365279859d11e9abc5b4c1a511",
+   "text": "Topic F: Europe & international politics"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:623e7bd038ba0758dfb131ca1c55207cc222320d0542e73af115b8c2a74d59ba",
+   "text": "UN"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:9455240d88e04c5dc9dd0159e4e1f083de0eff06ababb0dce56fa0aeb5d64944",
+   "text": "United Nations"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:8269df5f0e7a21d0028066a5e11add59b57be7b82a094f5d2a8de28803ca0990",
+   "text": "General Assembly"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:8179b447af0eb6dc0fc64c7f71ad5f68b41963117c54bb659c5ea806f2a8ddf4",
+   "text": "Security Council"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:52deb57fbb2deaf9b45d5098038011ea3cb3a11b365ca5f926055be479e73a37",
+   "text": "veto power"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:ea215ca4d5a4c20108771a3005e99615b828fd047d74172858a02c9b692004fb",
+   "text": "human rights"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:2d3f5b46484ba8831c6a80494bcf527de3ab6dbe46fe77058e611cb094fb4f3d",
+   "text": "Universal Declaration of Human Rights"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:03b0bd366e8184f8d871c3a7c7cc26c73c25b54ff54c64b28b10b898242cdc8a",
+   "text": "1948"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:331c626b022beb1c502ffff8600408bb774f7a3a5cba8bbc8232055d3f4500af",
+   "text": "universal"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:c1fb0c762380bd7b74f2b69d9a1a421893b02e68e4a26065160c794b9126f10e",
+   "text": "freedom of expression"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:9b525487960fbf5274c0990f4e9216e6de9ecda0164781cd100d50626e3a20e2",
+   "text": "right to education"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:e35a984a3871dc24ae993a6fda354ba49b2c575549ae7c1948d5061d8c058f8a",
+   "text": "peace"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:6ff080c07894909d194898c8b63acf6e17ea76ca064d151f9cf15d4999f149ce",
+   "text": "Liechtenstein"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:d133bb91cd23a3acbf035d6a3e1807865c5442b049bb6c4686f76c0141e70918",
+   "text": "I can explain the purpose and basic idea of the UN: a forum for almost all states, with the goals of peace, human rights and development."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:999f1d16608f5fd3187bc4a0316d2ae009777370b971bcb0cb8ad475f3c55dee",
+   "text": "I can outline its structure: the General Assembly (one vote per country) and the Security Council (15 members, 5 permanent members with veto power) – and I understand the problem of the veto as an inherent weakness."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:ecd8c5558ffbaf28fd6ef1eedb9e65c55b20fd98067f3ba972cdebcbe4af75dc",
+   "text": "I know about the Universal Declaration of Human Rights of 1948 and can explain what ‘universal’ means – using everyday examples of key rights."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:aaf34a7cf6fb8aa9062875d7925f9c0356bf0d06db6d0494e9fc0d46fb52a374",
+   "text": "I can explain why human rights have been declared but are not enforced everywhere – the tension between aspiration and reality."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:b2eee8617987f10bfd606ad86f1a7b4feb7556a4e8cfce1990c6fb7b1f0938bd",
+   "text": "A forum for almost all states"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:2983075c9de21e19c0d70591848b91bbbb4f8f13375c34cb67ab96842b654486",
+   "text": "In [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]], you saw how Europe sought peace through closer economic ties after 1945. In the same year – following the same experience of two world wars – a second project began, this time for the whole world: the **UN**, the **United Nations** organisation. Its founding idea was that there needs to be a place where **all states talk to one another** before they start shooting at one another.\n\nToday, the UN has **193 member states** – almost every country in the world. **Liechtenstein has also been a member since 1990** and sits as an equal alongside countries with ten thousand times its population. Three main goals guide its work:\n\n- **Maintaining peace:** Conflicts should be resolved at the negotiating table, not on the battlefield.\n- **Protecting human rights:** Everyone has rights that no state may take away – more on this shortly.\n- **Promoting development:** Fighting poverty, hunger and disease, and providing access to education.\n\nOne misunderstanding needs clearing up from the start: the UN is **not a world government**. It cannot simply give orders to states, and it has no large army of its own. It is a **forum**: a place for negotiation, mediation, voting and – sometimes – joint action. How much it achieves depends on whether its members cooperate. This is what makes it both strong and weak, as you will see when we look at the Security Council."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:aedcde1b0612bd086b8de104de3f6489e53a2cb3c29074b5a0335f56dff29bdb",
+   "text": "The UN at a glance"
+  },
+  "blocks[1].szene.elemente[0].text": {
+   "quelle": "sha256:b6995be9bc3281736a1c9d661d277d16c98d5a6af5fff893cae4a675e38db5df",
+   "text": "The UN: a forum for almost all the world's states"
+  },
+  "blocks[1].szene.elemente[1].text": {
+   "quelle": "sha256:b55f233df2d639ec02121337949049441d29b7bb1a76cbda31897ef53d78528d",
+   "text": "simplified diagram – General Assembly and Security Council"
+  },
+  "blocks[1].szene.elemente[10].text": {
+   "quelle": "sha256:8269df5f0e7a21d0028066a5e11add59b57be7b82a094f5d2a8de28803ca0990",
+   "text": "General Assembly"
+  },
+  "blocks[1].szene.elemente[11].text": {
+   "quelle": "sha256:3d4e3cb80f764f7ec0957afde0453a37fc68674baa2839d28f45a1296c206fc4",
+   "text": "all 193 member states (sample: each dot = one state)"
+  },
+  "blocks[1].szene.elemente[73].text": {
+   "quelle": "sha256:a1a1500832e2c1342d2fb0aa5158ba7c1bfbb7251f2013eeb098114fdaf5dbae",
+   "text": "Liechtenstein – a member since 1990"
+  },
+  "blocks[1].szene.elemente[74].text": {
+   "quelle": "sha256:397fee2c28c980bdcdc3a15a0b6378ccc71e10020691034b0b312712d439d326",
+   "text": "mainly adopts recommendations"
+  },
+  "blocks[1].szene.elemente[75].text": {
+   "quelle": "sha256:8179b447af0eb6dc0fc64c7f71ad5f68b41963117c54bb659c5ea806f2a8ddf4",
+   "text": "Security Council"
+  },
+  "blocks[1].szene.elemente[76].text": {
+   "quelle": "sha256:c391799836dac1eb20d2ea779bdc12e084fa5977f71f039efbcd5e099d9c7901",
+   "text": "15 members – can make binding decisions"
+  },
+  "blocks[1].szene.elemente[77].text": {
+   "quelle": "sha256:20234d74a69b95a883c5b9da2f21db2a5ab6bbc6be15513ffb3b94d8b70821d3",
+   "text": "5 permanent members – with veto power:"
+  },
+  "blocks[1].szene.elemente[83].text": {
+   "quelle": "sha256:aa5ab35a9174c2062b7f7697b33fafe5ce404cf5fecf6bfbbf0dc96ba0d90046",
+   "text": "USA"
+  },
+  "blocks[1].szene.elemente[84].text": {
+   "quelle": "sha256:273ebf746efe816cee5f63fe8646c64ccbcd38227c1a815054e706bebcf6f24d",
+   "text": "Russia"
+  },
+  "blocks[1].szene.elemente[85].text": {
+   "quelle": "sha256:10436829032f361a3de50048de41755140e581467bc1895e6c1a17f423e42d10",
+   "text": "China"
+  },
+  "blocks[1].szene.elemente[86].text": {
+   "quelle": "sha256:6365760ae1ba1eb556bff6e67460d61ac3ae5f8407d275903fabefb83b476c9e",
+   "text": "France"
+  },
+  "blocks[1].szene.elemente[87].text": {
+   "quelle": "sha256:5f5250d824aa7eb1d66a40544f8deba73d840045da1916e117f5b997ddc761e3",
+   "text": "Great Britain"
+  },
+  "blocks[1].szene.elemente[88].text": {
+   "quelle": "sha256:4d4bb7e2afe891b30108ac2bfbd9dd5964bf9b51c3d1843407e41e9af35ac91c",
+   "text": "10 elected members – each for two years:"
+  },
+  "blocks[1].szene.elemente[101].text": {
+   "quelle": "sha256:3fc80413580db9cc13d8607e716167328776143a4475eb945e21de04cdd7e39f",
+   "text": "The UN is not a world government – it is the forum where almost all states negotiate."
+  },
+  "blocks[1].szene.elemente[102].text": {
+   "quelle": "sha256:06b18b11d32f4ae7c2712fa71de1e84ea70cf66ceab6b4ab832cda1789528d59",
+   "text": "UN – United Nations\nfounded in 1945 · 193 member states · based in New York"
+  },
+  "blocks[1].szene.elemente[103].text": {
+   "quelle": "sha256:4473b2a81e8ef4605c008536157daa6a2f450ab90e30e51c7922fab8f53112d7",
+   "text": "Maintaining peace"
+  },
+  "blocks[1].szene.elemente[104].text": {
+   "quelle": "sha256:864e85c294c3f1e0290aabc31ce6c67c597aaae01330521abf2094e18ec4220e",
+   "text": "Protecting human rights"
+  },
+  "blocks[1].szene.elemente[105].text": {
+   "quelle": "sha256:7ad8a61c85694bfae2608ac094c9e45cc6773fc1ea823d967dcca995a7084971",
+   "text": "Promoting development"
+  },
+  "blocks[1].szene.elemente[106].text": {
+   "quelle": "sha256:da0ca3433a1eff85da59908347eee25021d58593be061238a0816bf065c91c64",
+   "text": "Whether a country has millions of people or is tiny:\neach has exactly one vote."
+  },
+  "blocks[1].szene.elemente[107].text": {
+   "quelle": "sha256:4871860d03b21cd0d8c7df9efb567896f06148cc602c221c1ae387c0a22c31e0",
+   "text": "Veto power = an inherent weakness:\nAny veto power can block any decision alone."
+  },
+  "blocks[1].beschreibung": {
+   "quelle": "sha256:554c337958673b82c0f0a4488397553cbd0a7cdb947010787db7279718c08c22",
+   "text": "The diagram presents the UN as a forum for almost all the world's states in a simplified overview, comparing its two most important bodies: the General Assembly and the Security Council. It shows that all countries have equal rights in the General Assembly, while each of the five veto powers in the Security Council can block any decision alone. Key points: (1) The UN (United Nations) was founded in 1945, has 193 member states and is based in New York; its three main goals are maintaining peace, protecting human rights and promoting development. (2) All 193 member states are represented in the General Assembly – whether a country has millions of people or is tiny, each has exactly one vote; Liechtenstein has also been a member since 1990. The General Assembly mainly adopts recommendations. (3) The Security Council has 15 members and is the only body that can make binding decisions: 5 permanent members with veto power (USA, Russia, China, France and Great Britain) and 10 members elected for two years each. (4) Veto power is the UN's inherent weakness: any veto power can block any decision alone. (5) Remember: the UN is not a world government – it is the forum where almost all states negotiate."
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:ff099478715be87d50ea6534edd1fc606ba5276877779b835a06921a80fb35fe",
+   "text": "The General Assembly, the Security Council – and the veto"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:11d4e8347d1c24ef613f630a506a3c7e8be0740834b1b7aa03d810652ec46f0a",
+   "text": "The UN has many bodies and subsidiary organisations – for this module, you only need the two most important ones shown in the diagram:\n\n**The General Assembly** brings together all 193 member states. It follows a radically simple principle: **each country has exactly one vote** – Liechtenstein just as much as the most populous country on Earth. The General Assembly debates everything that matters to the world and adopts resolutions – although these are usually **recommendations**: they show what the international community thinks, but do not compel anyone to act. Even so, this forum is invaluable for a small state: nowhere else can it join the discussion with everyone on an equal footing.\n\n**The Security Council** is the most powerful body: it is responsible for peace and security and is the only body that can make **binding decisions** – for example, sending peace missions or imposing sanctions. It has **15 members**: **10** are elected by the General Assembly for two years each – and **5 are permanent members**: the **USA, Russia, China, France and Great Britain**, the victorious powers of the Second World War.\n\nThese five have **veto power**: if even one veto power votes ‘No’, a resolution fails – regardless of how everyone else votes. Why was it set up this way? This was the **founding compromise of 1945**: without this guarantee, the major powers would never have joined – and a UN without the most powerful states would have been ineffective.\n\nThe price of this is the UN's **inherent weakness**: if a veto power is **itself involved** in a conflict or is protecting an ally, it can block any resolution on the matter. The Security Council is then unable to act – not because the rules are being broken, but **because this is exactly how they work**. Remember this mechanism: in [[modul:wirtschaft-politik-30-konflikte-verstehen]], you will apply it to a real conflict."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:f90ef994f8ef72a8bb8c375be477bffb6d93653668d0fe1cd84e7bbf888f2007",
+   "text": "Video: The UN explained"
+  },
+  "blocks[3].description": {
+   "quelle": "sha256:4a2e825637d5d8d28e651cd06b13df9dc6812a620b767220968aa6f192951bde",
+   "text": "This explainer video (4:51) by textbook publisher STARK summarises the origins, goals and structure of the United Nations. As you watch, focus on two questions: (1) Which UN bodies does the video mention besides the General Assembly and the Security Council? (2) Where does the video mention the UN's strengths – and where does it hint at the weakness you know from this module as the problem of the veto?"
+  },
+  "blocks[3].transcript": {
+   "quelle": "sha256:d9d630a118f0724afd2ae51a3f964e5b0b002a361e6af2a66bc6c7d121236d18",
+   "text": "The explainer video ‘Die UNO | STARK erklärt’ (STARK Verlag, 4:51 minutes) covers the United Nations: its founding in 1945 as a lesson learnt from the Second World War, its goals – maintaining peace, protecting human rights, international cooperation and development – and its structure, including the General Assembly, the Security Council and other bodies and subsidiary organisations. The video explains the role of the five permanent Security Council members with their veto power and shows what the UN can achieve and where its limits lie."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:7b5f20b98e27253be5c193f2d6995b408f30c562b682259a19d71a2ee26fc34a",
+   "text": "1948: The Universal Declaration of Human Rights"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:16fd3914f8f85187eebca97e65fcd8033754ad18528b69ce465b43cb560c8aff",
+   "text": "After the crimes of the Second World War, the newly founded UN drew a second lesson: protecting states from one another is not enough – **people also need protection from states**. On **10 December 1948**, the General Assembly adopted the **Universal Declaration of Human Rights**: 30 articles setting out, for the first time for the whole world, the rights that **every human being** is entitled to.\n\nThe key word here is **universal**: human rights apply to **all people** – regardless of their background, skin colour, religion, gender, language or wealth. They are not ‘granted’ by the state and cannot be taken away: **you have them because you are human.** Here are five key rights, explained through everyday examples:\n\n- **The right to life:** The state must not kill anyone arbitrarily and must protect life – emergency services and the police must be there for everyone, not just certain groups.\n- **Freedom of expression:** You can express your views and criticise those in power – for example, in a post opposing a building project in your municipality – without fearing arrest (you know its value from [[modul:wirtschaft-politik-20-demokratie-als-prinzip]]).\n- **The right to education:** Every child should be able to go to school – primary education should be free and must not depend on wealth or gender.\n- **Protection from torture:** No one may be tortured or subjected to degrading treatment – not during questioning, not in prison, and not ‘to get a confession’.\n- **Equality before the law:** The same rules apply to everyone – in court, what matters is what happened, not who your parents are or where you come from.\n\nThese statements may seem obvious to you. That is exactly the point: **for billions of people, they are not.** This brings us to the hardest question in this module."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:f47b72e81966493fb19fde765779dcfa75e85b62f683471dc4a05de578529f2a",
+   "text": "Aspiration and reality"
+  },
+  "blocks[5].body": {
+   "quelle": "sha256:57480bcc02f5bb2d47d8b73f4b1f4a7be6f5ab558658807ad0aa2a5c9bb8b033",
+   "text": "The Universal Declaration is a **declaration** – not a world law backed by a world police force. It became the standard against which states must be judged, and its rights were later incorporated into many constitutions and binding treaties. But **declaring rights does not mean enforcing them.**\n\nYou learnt about authoritarian systems in [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]] – there, human rights violations are part of everyday life: critics are arrested (freedom of expression), trials are controlled (equality before the law), and confessions are forced (protection from torture). The key point is this: **a state's violation of human rights does not mean that those rights do not apply there.** They apply universally – yet they are still violated. This gap between **aspiration** and **reality** is the tension that international politics has had to deal with since 1948.\n\nWhat can the international community do when rights are violated? It can **identify and document** violations – every state has to face questions about its human rights record at the UN, and no one likes to be seen as a violator. It can **put pressure on states**, from diplomatic protests to sanctions. And in serious cases, the **Security Council** can take binding action. But that is where the problem of the veto comes in – if a veto power is involved or protects the state concerned, this route is blocked.\n\nThe sober conclusion is: **human rights are the globally recognised standard – their enforcement remains patchy.** That is no reason to shrug your shoulders: the very existence of this standard has been changing the world since 1948 – slowly, with setbacks, but measurably. Every government that has to justify its actions today does so because, in 1948, the rights of every human being were put into writing."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:0ef803112bd0a83837a5633c30a4b77ec4a73879bfba301877291963904a2e0d",
+   "text": "Quiz: The UN, the Security Council and human rights"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:0bdfcb425f11651caf62a823a72ed1d6dff165510047941d6642e06d53de7f65",
+   "text": "A forum, a veto and universal rights – show what you have learnt. You can repeat the quiz as often as you like; your best result counts."
+  },
+  "blocks[6].questions[0].prompt": {
+   "quelle": "sha256:e348b1f0dc983050d04233d18f2f14cd44ddc6b4d3035c7a4a34303b8d4a53af",
+   "text": "What is the UN at its core?"
+  },
+  "blocks[6].questions[0].options[0].text": {
+   "quelle": "sha256:97343652b2b617c18fe522164d1cfa916a5597e31726c8f47c012eca449afcb0",
+   "text": "A world government that can impose laws on all states."
+  },
+  "blocks[6].questions[0].options[1].text": {
+   "quelle": "sha256:2f5dcda10f7066c35a7c31e4ac8ebb68db8d6428a0c1ac76904a5a31f59336eb",
+   "text": "A military alliance in which states promise to assist one another."
+  },
+  "blocks[6].questions[0].options[2].text": {
+   "quelle": "sha256:6537fa4b4d5e59a5ff4ca9478d278b9a2b5243677434b7525e957647a9752858",
+   "text": "A forum for almost all the world's states – with the goals of peace, human rights and development."
+  },
+  "blocks[6].questions[0].options[3].text": {
+   "quelle": "sha256:90cf80fc79e94a107a0c154b5b81ebadec08fc9cde291f89a3b278cd7f15f5c6",
+   "text": "An aid organisation that only collects and distributes donations."
+  },
+  "blocks[6].questions[0].explanation": {
+   "quelle": "sha256:f4996c35ad45d121bd8b8c01a42edc53da40bdadda0893def4b39594982cc132",
+   "text": "The UN is a negotiating forum for 193 states – founded in 1945 as a lesson learnt from two world wars. It is not a world government: it cannot give orders to states, and how much it achieves depends on its members. A military alliance with an obligation to provide assistance is something different (you will hear about that in [[modul:wirtschaft-politik-30-konflikte-verstehen]]), and aid projects are only part of its work – alongside maintaining peace and protecting human rights."
+  },
+  "blocks[6].questions[1].prompt": {
+   "quelle": "sha256:267b1c7ca74e6f1e33662f1f4f827c2bc470226e9e9cb281f3990cf0b49b6e9b",
+   "text": "How does voting work in the UN General Assembly?"
+  },
+  "blocks[6].questions[1].options[0].text": {
+   "quelle": "sha256:34190e4c731427cc84f0c45a8edc74f1872be626f636274acf708955943c63c2",
+   "text": "Each member country has exactly one vote – whether it has millions of people or is tiny; resolutions are usually recommendations."
+  },
+  "blocks[6].questions[1].options[1].text": {
+   "quelle": "sha256:46e4e246e89059ae4d871df788b32628eab14669eb73fbb3d9a117fee47cffc1",
+   "text": "Each country has as many votes as it has inhabitants."
+  },
+  "blocks[6].questions[1].options[2].text": {
+   "quelle": "sha256:c0c83da5cb84d6b41aac197f8af08d344e1c3cd70d551d4b6eca054be36d827c",
+   "text": "Only the five permanent members may vote."
+  },
+  "blocks[6].questions[1].options[3].text": {
+   "quelle": "sha256:b78caf82570be9f03728c526ece14ca19391fa6fa3b0d36c07c1674c6580be4e",
+   "text": "The richest countries have more votes because they pay more."
+  },
+  "blocks[6].questions[1].explanation": {
+   "quelle": "sha256:6d7c8ebaad4f181389008ce641c5de0a152e191da999afbe477420d1c0944051",
+   "text": "The General Assembly follows the principle of one country, one vote – Liechtenstein counts just as much as any country with a billion people. That sounds obvious, but it could be different: here, votes are not weighted by population or financial contributions. The five permanent members with special rights sit on the Security Council, not in the General Assembly. However, General Assembly resolutions are usually recommendations – they show world opinion but do not compel anyone to act."
+  },
+  "blocks[6].questions[2].prompt": {
+   "quelle": "sha256:b93ff9d110f0e3ff26dee8e78b0df0d799375590432705691a76894647b8da6b",
+   "text": "How is the UN Security Council made up?"
+  },
+  "blocks[6].questions[2].options[0].text": {
+   "quelle": "sha256:768f8bc36e8b0abcf8ea24390f122d6b17a200c5c7fb7931a65dc49151715709",
+   "text": "It consists of all 193 UN member states."
+  },
+  "blocks[6].questions[2].options[1].text": {
+   "quelle": "sha256:8c29953755c0b80a8c705a46d2521152244b3099a88edcf7cdd9744c96dca30a",
+   "text": "It consists of 15 members: 5 permanent members with veto power and 10 elected for two years each."
+  },
+  "blocks[6].questions[2].options[2].text": {
+   "quelle": "sha256:4281bf9ed5613f84f4829f93f39a251a100c52fe54740427572de2f552226133",
+   "text": "It consists of exactly 5 members, all of whom have veto power."
+  },
+  "blocks[6].questions[2].options[3].text": {
+   "quelle": "sha256:59ded831b72b6a93d9fde002f4f696ce42943346b007529d77bbcb39703db7a0",
+   "text": "It consists of 15 permanent members who never change."
+  },
+  "blocks[6].questions[2].explanation": {
+   "quelle": "sha256:c0fa0bbc67d8aac3160d94d00a317b19c66d045fb5bc463a2422c01917a5afa1",
+   "text": "The Security Council has 15 seats: the USA, Russia, China, France and Great Britain are permanent members with veto power; the other 10 are elected by the General Assembly for two years each and change over time. All 193 states sit in the General Assembly, not on the Council – and the Council neither consists only of the five veto powers nor has 15 permanent members. This mix is deliberate: the major powers remain, while the rest of the world is represented in rotation."
+  },
+  "blocks[6].questions[3].prompt": {
+   "quelle": "sha256:93c01bb0f7ef43548b04080c0791507e7c273fc30f409701ec0629a6e8dd2a0f",
+   "text": "Why is veto power considered an ‘inherent weakness’ of the UN?"
+  },
+  "blocks[6].questions[3].options[0].text": {
+   "quelle": "sha256:a53ac5fcc8faff5a5e1304b37d3d63b1af144480f28587bef27f8c4eb8162d23",
+   "text": "Because the General Assembly can override any veto with a simple majority."
+  },
+  "blocks[6].questions[3].options[1].text": {
+   "quelle": "sha256:cdbcfd635b8719facda36bd7b8ce0af41fc25ec821729083107f3b3a15dd7479",
+   "text": "Because the veto powers may only use their veto together."
+  },
+  "blocks[6].questions[3].options[2].text": {
+   "quelle": "sha256:37f5b184aede957e1b68b51e64d8483a90c3898a9d269a54c9d2dfc3a384b02f",
+   "text": "Because veto power was abolished in 1990 and no one has been able to block decisions since."
+  },
+  "blocks[6].questions[3].options[3].text": {
+   "quelle": "sha256:065706dbd6ca214d17c62e117f02782b048d171e0f36aa39d4499ffa34eb1eba",
+   "text": "Because a veto power that is itself involved in a conflict can block any resolution on it alone – leaving the Council unable to act."
+  },
+  "blocks[6].questions[3].explanation": {
+   "quelle": "sha256:3e082c9817c60dc6c5e8698459b5b4574847c15e333311c60e3af3363cd41bab",
+   "text": "A single ‘No’ from a veto power causes any Security Council resolution to fail – even if all 14 other members agree. This becomes a problem when a veto power is itself a party to the conflict or is protecting an ally: it can then block resolutions concerning its own interests, leaving the Council unable to act – entirely within the rules. A veto cannot be overridden, it works on its own, and it has never been abolished. It was the price of getting the major powers to join in 1945 at all."
+  },
+  "blocks[6].questions[4].prompt": {
+   "quelle": "sha256:1058005dda2c1bb308465ca036f0e213644b617bc334459b3eb11f30450e6cc0",
+   "text": "What is the Universal Declaration of Human Rights?"
+  },
+  "blocks[6].questions[4].options[0].text": {
+   "quelle": "sha256:8e0d04839523b9cb6f3cb630dfabcd3c5740c8f84f0706e15368aae2cae12fba",
+   "text": "A law that is automatically enforced worldwide by a UN police force."
+  },
+  "blocks[6].questions[4].options[1].text": {
+   "quelle": "sha256:b1b83501ba88a37a91efdecff3e35723d5484cb425966496f02691b6cd66310a",
+   "text": "The document adopted by the UN General Assembly in 1948 that sets out, for the first time for the whole world, the rights that every human being is entitled to."
+  },
+  "blocks[6].questions[4].options[2].text": {
+   "quelle": "sha256:637c16ace51b78cceb32f922078ad966a0c1700e0c7b0d17ef02ae28def32a72",
+   "text": "A treaty that applies only to the five veto powers."
+  },
+  "blocks[6].questions[4].options[3].text": {
+   "quelle": "sha256:075db1cd5981019f64088f5339a8f366e278045b3c74b701013e1abf0df3054a",
+   "text": "A set of workplace rules for UN staff in New York."
+  },
+  "blocks[6].questions[4].explanation": {
+   "quelle": "sha256:ed07e19c40a7e23f6930a70de72d407360464c5358478da8798f70f8e5c829b2",
+   "text": "On 10 December 1948, the General Assembly adopted the Universal Declaration of Human Rights: 30 articles that apply to everyone – regardless of background, religion or gender. It is a standard, not an automatically enforced world law: there is no world police force to enforce it, and this is exactly what creates the tension between aspiration and reality. It has nothing to do with internal workplace rules, and it certainly does not apply only to particular states."
+  },
+  "blocks[6].questions[5].prompt": {
+   "quelle": "sha256:947981717e98444e379e1633779749a10327ebc1f705bcaf36e7b787efbaae85",
+   "text": "Which of these rights is included in the Universal Declaration of Human Rights?"
+  },
+  "blocks[6].questions[5].options[0].text": {
+   "quelle": "sha256:18308ead34e13f1d154392c7d5605e2f63fd3ca27ac1635b0be01fc8bca855a7",
+   "text": "The right to education: every child should be able to go to school, and primary education should be free."
+  },
+  "blocks[6].questions[5].options[1].text": {
+   "quelle": "sha256:7e9d6305d658e19ce1de138b23e5652512ad4d99b881846f37ade65c43bdbdf7",
+   "text": "The right to own a smartphone from the age of twelve."
+  },
+  "blocks[6].questions[5].options[2].text": {
+   "quelle": "sha256:381ce7ad8e01f51c6334f79fe1844b42d618c7362086cc473d4cc777cb6e7764",
+   "text": "The right never to be criticised by anyone."
+  },
+  "blocks[6].questions[5].options[3].text": {
+   "quelle": "sha256:c74e73060c4afc310049eb75bccc12d4e65225e7b0e7471170f104f7c23a6576",
+   "text": "The right to wealth and a high income."
+  },
+  "blocks[6].questions[5].explanation": {
+   "quelle": "sha256:0810493fd814d876f983655b8ccad9f0c5e07d6293ce3470dd3234566eeb4dd2",
+   "text": "The right to education is one of the key rights in the Declaration of 1948 – access to school must not depend on wealth or gender. There is no right to a smartphone (the Declaration covers fundamental needs, not devices); protection from criticism would even contradict freedom of expression – which also protects views that make people uncomfortable – and what is guaranteed is a life in dignity, not wealth."
+  },
+  "blocks[6].questions[6].prompt": {
+   "quelle": "sha256:ce558163f2ea2f17aa9e26a343f3a04cfa22156841c4d118f01046f8d822825c",
+   "text": "‘Human rights have been declared, but are not enforced everywhere.’ What does this sentence mean?"
+  },
+  "blocks[6].questions[6].options[0].text": {
+   "quelle": "sha256:3d48758c49720b6c06511fc9293a94ed9337d946f74fe404f9fa97e5b0cf8f40",
+   "text": "Since 1948, all states have fully respected human rights."
+  },
+  "blocks[6].questions[6].options[1].text": {
+   "quelle": "sha256:cb2c5fb35cf6bc4c6be75c6297e77902902d732b278479b033a1e9f9a1c797a6",
+   "text": "Human rights apply only in countries whose governments choose to respect them."
+  },
+  "blocks[6].questions[6].options[2].text": {
+   "quelle": "sha256:3ea24fe9826ed601d68ab3e12de8d336533055349456afa3533d67aad542926f",
+   "text": "Anyone who violates human rights is automatically punished by the UN."
+  },
+  "blocks[6].questions[6].options[3].text": {
+   "quelle": "sha256:43178f6260a929b9bb511af529ff27e4b4f7e05668269b0143f99ff1a39679d8",
+   "text": "The rights apply universally as a standard – but there is no world police force that can enforce them everywhere; violations remain a reality."
+  },
+  "blocks[6].questions[6].explanation": {
+   "quelle": "sha256:3054a69c64fa610e7de252e9756889dd96630b5cd4bae9c7b824b250813cebcd",
+   "text": "The Declaration of 1948 established the standard against which all states must be judged – but it is not enforced automatically: there is no world police force, and the Security Council faces the problem of the veto. The key point is this: even if a state violates these rights, they still apply there – people have them because they are human, not because a government grants them. There is therefore no automatic punishment, let alone worldwide compliance – this is precisely the gap between aspiration and reality."
+  },
+  "blocks[6].questions[7].prompt": {
+   "quelle": "sha256:a9eb2fc8cb9512ad65f044cd6a92f4c0cd84513a1be83f4ff7910695ab26917e",
+   "text": "What role does Liechtenstein play in the UN?"
+  },
+  "blocks[6].questions[7].options[0].text": {
+   "quelle": "sha256:8e113c7f2e5b7a57cad605d236eafb3521d944793d3e35f988b5897e4ddfc226",
+   "text": "Liechtenstein is too small and is therefore not allowed to be a member."
+  },
+  "blocks[6].questions[7].options[1].text": {
+   "quelle": "sha256:4f01c89f4eb519f06f3bf69143e8c758fbab5f071db2cca58ad04c3137fd580b",
+   "text": "Liechtenstein is a permanent member of the Security Council with veto power."
+  },
+  "blocks[6].questions[7].options[2].text": {
+   "quelle": "sha256:cec51b0574efb07b4435a2bafaad752dddee0ebf2f3f85d9b99d423ddb293e2e",
+   "text": "Liechtenstein has been a member since 1990 and has one vote in the General Assembly – just like every other member country."
+  },
+  "blocks[6].questions[7].options[3].text": {
+   "quelle": "sha256:9a7df9d9dc999a0b85a0dc6134811ef23abd2d5e50c9a45d86bf75758c9a0c85",
+   "text": "Liechtenstein was one of the founding members in 1945."
+  },
+  "blocks[6].questions[7].explanation": {
+   "quelle": "sha256:46ac663710a463e4c11f6194559244044e8c788b0ddf0c0c1fbdc0c325260148",
+   "text": "Liechtenstein joined the UN in 1990 – not 1945 – and has since been represented in the General Assembly with exactly one vote, on an equal footing with every other country. There is no minimum size for membership; the forum is particularly valuable to small states because it gives them an equal say. The only permanent Security Council members with veto power are the USA, Russia, China, France and Great Britain."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:49500219c57c0d69b2be9ed9a46210fe3a56a9915a482a047b63c5598dddb7e5",
+   "text": "Fill in the terms: The UN and human rights"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:35e0d28cdd6f3545efc0d98e530d8dc9e75ee7406c89911f44aa044f52865f2e",
+   "text": "Type in the terms: Check the essentials"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "This time there is no word bank – **type in the missing terms yourself**. Upper and lower case do not matter."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:226a7c28a5bdeaaf15434a088acc2c02dee64388fc4a667806b6d5f64d3232bf",
+   "text": "Matching: Which human right applies here?"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:0b1a3910ff48e325ea1503ed1f64889e1acc8e53852e07c9fb7995f332b7be94",
+   "text": "Match each situation to the appropriate right from the Universal Declaration: **the right to life**, **freedom of expression**, **the right to education**, **protection from torture** or **equality before the law**. Each right appears **exactly twice**. All situations are fictional."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:147008144b865f9e020e1ca9bca23e03daeb1e883e819e4eb04f4453d4413638",
+   "text": "Going further: Recognising rights, thinking through weaknesses"
+  },
+  "blocks[10].tasks[0].prompt": {
+   "quelle": "sha256:4ed90328e0fcd1ba2daa892616465071c578f4794d000381d2bb06a12b47ac22",
+   "text": "Rights in everyday life: choose two of the five rights from this module and, for each, describe a situation from your past week in which that right made a difference – probably without you noticing. For each situation, write one sentence explaining what it might have been like without that right."
+  },
+  "blocks[10].tasks[0].hint": {
+   "quelle": "sha256:60240fda76b181f3a6a46fb7eff7e4435f6ee9a60002d05ccff5d79625d38956",
+   "text": "We usually only notice human rights when they are missing. Ask yourself: when this week did I express my opinion freely, attend school or rely on equal rules? And what would the same moment have been like in a state described in [[modul:wirtschaft-politik-21-autoritaere-systeme-heute]]?"
+  },
+  "blocks[10].tasks[0].solution": {
+   "quelle": "sha256:ba527a46009f02f9c9bbf5ec3037f01524d12461fca494e2a5728ccc82295486",
+   "text": "Example answer: (1) The right to education – I was in class on Monday without my parents having to pay school fees; without this right, only children from wealthy families might be able to go to school. (2) Freedom of expression – in a discussion, I criticised the homework rule without fearing consequences; without this right, I would have to hold back any criticism of authority. Your answer works well if both the situation and the contrast are specific."
+  },
+  "blocks[10].tasks[1].prompt": {
+   "quelle": "sha256:72793cdc53b5dec8763f52fbe25dcd096fa68adbd82bb6272ef39f73baa693e0",
+   "text": "Work through the problem of the veto: in a fictional conflict, the country of Nordinsel – a veto power on the Security Council – occupies an island belonging to its neighbour Südinsel. Südinsel calls on the Security Council to condemn the occupation and impose sanctions. In four to five sentences, describe what happens in the Council and why. Then explain in two sentences why veto power was nevertheless introduced in 1945."
+  },
+  "blocks[10].tasks[1].hint": {
+   "quelle": "sha256:28903b23093fddbe28f379af2890bc3bf996ec5e6acb8eabeeb08e27cbd44496",
+   "text": "Work through the mechanism: who puts forward the resolution, how do the 15 members vote – and what effect does Nordinsel's single ‘No’ vote have? For the second part, the term ‘founding compromise’ will help."
+  },
+  "blocks[10].tasks[1].solution": {
+   "quelle": "sha256:4b60736aa74b858bd2cd2350825ab7ea4bdbb8729ed7dd636348afa2c104a27d",
+   "text": "Example answer: ‘With the support of other states, Südinsel puts forward a draft resolution condemning the occupation and calling for sanctions. Many Council members vote in favour – but Nordinsel, as a permanent member, uses its veto. This defeats the resolution, however large the majority was: the Council is blocked because a veto power has a say in a matter concerning its own interests. That is exactly what is meant by the inherent weakness.’ For the second part: ‘Veto power was the founding compromise of 1945: without this guarantee, the major powers would never have joined the UN – and a world forum without the most powerful states would have been ineffective from the outset.’"
+  },
+  "blocks[10].tasks[2].prompt": {
+   "quelle": "sha256:8f2902b046075e644082f3ded89dd31ff2f3cebd873cc1793a0d770176b9d531",
+   "text": "Explain it to someone: in no more than five sentences, explain the tension between aspiration and reality in human rights to someone you know. Use the terms universal, declared, enforced and Security Council. Extra question: why do authoritarian systems ([[modul:wirtschaft-politik-21-autoritaere-systeme-heute]]) violate human rights particularly often? Answer in two sentences."
+  },
+  "blocks[10].tasks[2].hint": {
+   "quelle": "sha256:5b509213e7a6f676813dbed7976126ad129097d1104264e596d4cfbef5fd2616",
+   "text": "Structure your explanation like the module: first, what was declared in 1948 and who it applies to – then, why enforcement is difficult. For the extra question, think about whose power would be limited by freedom of expression and independent courts."
+  },
+  "blocks[10].tasks[2].solution": {
+   "quelle": "sha256:7df072edad3ba3242c9fdb264623f7934198bfa446445fba8cade92ae39f42e4",
+   "text": "Example explanation: ‘In 1948, the UN declared human rights – they are universal, meaning that they apply to every human being, regardless of background, religion or gender. But declared does not mean enforced: there is no world police force that can enforce them everywhere. The international community can identify violations and put pressure on states, and in serious cases the Security Council could take binding action. However, a veto power can block any resolution there – especially when it is itself involved. This leaves a gap between the aspiration expressed in these rights and reality.’ Extra question: ‘Authoritarian systems safeguard the power of one person or group – freedom of expression, equal treatment in court and protection from arbitrary state action would limit that very power. That is why these rights are deliberately restricted there.’"
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:2a9d32354211acffe5d6128993346326bd034e99fa7e95d8347bd601b1c5256d",
+   "inhalt": {
+    "text": "The UN was founded in {{1}} – as a lesson learnt from two world wars. Today it has {{2}} member states, with Liechtenstein a member since {{3}}. In the {{4}}, each country has exactly one vote. Only the {{5}} can make binding decisions; its five permanent members have {{6}}. In 1948, the UN adopted the Universal Declaration of {{7}}. These rights apply {{8}}: to everyone, regardless of background, religion or gender. Much has therefore been declared – but these rights are not {{9}} everywhere.",
+    "luecken": [
+     [
+      "1945"
+     ],
+     [
+      "193"
+     ],
+     [
+      "1990"
+     ],
+     [
+      "General Assembly",
+      "UN General Assembly",
+      "United Nations General Assembly",
+      "UNGA",
+      "the General Assembly",
+      "the UN General Assembly",
+      "the United Nations General Assembly"
+     ],
+     [
+      "Security Council",
+      "UN Security Council",
+      "United Nations Security Council",
+      "UNSC",
+      "the Security Council",
+      "the UN Security Council",
+      "the United Nations Security Council"
+     ],
+     [
+      "veto power",
+      "a veto",
+      "the veto",
+      "veto",
+      "the right to veto",
+      "a right to veto",
+      "right to veto",
+      "the power of veto",
+      "power of veto",
+      "the right of veto",
+      "right of veto"
+     ],
+     [
+      "Human Rights"
+     ],
+     [
+      "universally",
+      "worldwide",
+      "globally",
+      "to everyone",
+      "to everybody",
+      "to all",
+      "to all people",
+      "to all human beings"
+     ],
+     [
+      "enforced",
+      "upheld",
+      "implemented",
+      "put into practice"
+     ]
+    ],
+    "ablenker": [
+     "world government",
+     "1948",
+     "abolished"
+    ]
+   }
+  },
+  "blocks[8]": {
+   "quelle": "sha256:3b7758150c7b8b9aa0e81052775e5fab3308cbee59a3c753fdff3ebdfac62c65",
+   "inhalt": {
+    "text": "The Universal Declaration of Human Rights was adopted in {{1}}. Human rights apply {{2}} – regardless of background, religion or gender. The UN body in which each country has one vote is called the {{3}}. Its most powerful body, with 15 members, is called the {{4}}. The right of each of the five permanent members to block any decision alone is called {{5}}.",
+    "luecken": [
+     [
+      "1948"
+     ],
+     [
+      "universally",
+      "worldwide",
+      "globally",
+      "to everyone",
+      "to everybody",
+      "to all",
+      "to all people",
+      "to all human beings",
+      "everywhere",
+      "all over the world",
+      "throughout the world",
+      "around the world"
+     ],
+     [
+      "General Assembly",
+      "UN General Assembly",
+      "United Nations General Assembly",
+      "UNGA",
+      "the General Assembly",
+      "the UN General Assembly",
+      "the United Nations General Assembly",
+      "the UNGA"
+     ],
+     [
+      "Security Council",
+      "UN Security Council",
+      "United Nations Security Council",
+      "UNSC",
+      "the Security Council",
+      "the UN Security Council",
+      "the United Nations Security Council",
+      "the UNSC"
+     ],
+     [
+      "veto power",
+      "the veto power",
+      "the power of veto",
+      "power of veto",
+      "the power to veto",
+      "power to veto",
+      "the right to veto",
+      "right to veto",
+      "a right to veto",
+      "the right of veto",
+      "right of veto",
+      "veto",
+      "the veto",
+      "a veto"
+     ]
+    ],
+    "ablenker": []
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:f081206a72b56a551823e38c612978ff2631f98405da81248b6598c94a3a0e3d",
+   "inhalt": {
+    "text": "A school pupil criticises her municipality's building project in an online post – she does not have to fear arrest. {{1}}\nAll children in a village can attend primary school free of charge, regardless of how much their parents earn. {{2}}\nA suspect must not be beaten during questioning – even if the police want a confession. {{3}}\nIn court, the same rules apply to the mayor's daughter as to everyone else. {{4}}\nThe state must not kill anyone arbitrarily – executions without any form of trial violate this right. {{5}}\nA journalist publishes an investigation exposing uncomfortable facts about a public authority and is not punished for it. {{6}}\nEven people living in a poor region should be able to learn to read and write. {{7}}\nNo one may be subjected to degrading treatment in prison. {{8}}\nA new law applies equally to rich and poor people. {{9}}\nEmergency services must help people whose lives are in danger – whoever they are. {{10}}",
+    "luecken": [
+     [
+      "Freedom of expression",
+      "the freedom of expression",
+      "freedom of speech",
+      "the freedom of speech",
+      "the right to freedom of expression",
+      "right to freedom of expression",
+      "the right to freedom of speech",
+      "right to freedom of speech"
+     ],
+     [
+      "Right to education",
+      "the right to education",
+      "right to an education",
+      "the right to an education"
+     ],
+     [
+      "Protection from torture",
+      "protection against torture",
+      "freedom from torture",
+      "the right to protection from torture",
+      "right to protection from torture",
+      "the right to freedom from torture",
+      "right to freedom from torture"
+     ],
+     [
+      "Equality before the law",
+      "equal treatment before the law",
+      "equality under the law",
+      "the right to equality before the law",
+      "right to equality before the law"
+     ],
+     [
+      "Right to life",
+      "the right to life"
+     ],
+     [
+      "Freedom of expression",
+      "the freedom of expression",
+      "freedom of speech",
+      "the freedom of speech",
+      "the right to freedom of expression",
+      "right to freedom of expression",
+      "the right to freedom of speech",
+      "right to freedom of speech"
+     ],
+     [
+      "Right to education",
+      "the right to education",
+      "right to an education",
+      "the right to an education"
+     ],
+     [
+      "Protection from torture",
+      "protection against torture",
+      "freedom from torture",
+      "the right to protection from torture",
+      "right to protection from torture",
+      "the right to freedom from torture",
+      "right to freedom from torture"
+     ],
+     [
+      "Equality before the law",
+      "equal treatment before the law",
+      "equality under the law",
+      "the right to equality before the law",
+      "right to equality before the law"
+     ],
+     [
+      "Right to life",
+      "the right to life"
+     ]
+    ],
+    "ablenker": []
+   }
+  }
+ }
+}
