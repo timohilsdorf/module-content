@@ -1,0 +1,614 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:ee8316396c9117cd41e07bef7786a5f55da42bbc909fc705fa6b2b1b9ece5afe",
+   "text": "Understanding conflicts: Causes, escalation and actors"
+  },
+  "description": {
+   "quelle": "sha256:9dcb7946aa9d0d262be1b129747ec4a0a48410d7536c45f81390930ef040b8a1",
+   "text": "Why do states clash – and how does a dispute become a war? Here you will build a framework for analysis: you will distinguish four causes of conflict, apply the escalation ladder from tension to war, identify the main actors – from states to NATO, the UN Security Council and the OSCE – and use this framework to analyse Russia's war against Ukraine objectively."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:7f590e705f201aca77ef5bd65430afd88130a3b6be629ccc51ce28f0a2ed6f41",
+   "text": "Economics & Politics"
+  },
+  "einheit": {
+   "quelle": "sha256:b62e2d81acac9e279628ab2fb89fb2c69539dd365279859d11e9abc5b4c1a511",
+   "text": "Topic F: Europe & international politics"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:a55bfc47cdfe1bd7339d19ccea1364221bf5ea98ff7e9c51cdb1b98c770f8a11",
+   "text": "conflict"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:e35bb083edb5f686402cd434c8ab7bb5275da25fdaa714102b7ef9c185df5f5c",
+   "text": "causes of conflict"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:397fcbd5025b7322d49b3eeaa7384c8413a0f318e630e0d3e22f4b5be0c76b96",
+   "text": "territory"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:dcc7103e143d3e0be545c69d55eadc2ed90a99eb886f113f5070b759f340a9d2",
+   "text": "resources"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:88adfbaffe1f55dc8f05897eacf5f6a64b12f90b874affdae38428930929041c",
+   "text": "ideology"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:6027c499df2bb1d606b0568473b7e9f43d031d54c2c3473661c2e1cc4273892a",
+   "text": "power"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:d4a7e584616ceae84fff69269ed7f5631300c2de21f1e49d13db1974f2ec3626",
+   "text": "escalation ladder"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:692b753450a49e255b8dcdbe0d403e9edf2accad4f97d8cab6c6b694b5c5a4f1",
+   "text": "crisis"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:e0a4829166c48751fad8fe4fc51a1f690b55fe0a8c1a9dc68bc6055296097eb7",
+   "text": "war"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:ace0fc1bd762a6704377a86c2df9b7963290d35b87c944f8a92445a314bbb789",
+   "text": "NATO"
+  },
+  "keywords[10]": {
+   "quelle": "sha256:6722f59f2d604bfd6947534a0f36b26e406e53872dfb2c3d0367c12fc36eb88d",
+   "text": "OSCE"
+  },
+  "keywords[11]": {
+   "quelle": "sha256:334ade671f0063b7a834ca8bb8df34c78e69ef4484e8ad3c195c2b930d9987f4",
+   "text": "UN Security Council"
+  },
+  "keywords[12]": {
+   "quelle": "sha256:f0e03e24e59355b52d3d7b270a815d6fa57937d50b8ba4b98b76f3e52ab698a6",
+   "text": "international law"
+  },
+  "keywords[13]": {
+   "quelle": "sha256:580eedc669f3b989d0a0be1988b583af29a45a9edf5ca8375c36818d2c44ee4a",
+   "text": "Ukraine"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:c9123ef48b46f407e55ab95c0eb297f34bf1ad4f403668411847958149a92e60",
+   "text": "I can distinguish four causes of conflicts between states – territory, resources, ideology/religion and power – and give an example of each."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:a8ee1199a25bba6c863e5f4a7ed8706cc6e2e73f8f39ec6a3dd9fb1a6c9b53f4",
+   "text": "I can apply the escalation ladder: tension, crisis, armed conflict and war – and I know that de-escalation is possible at every stage."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:50076494e9e32e625a5acdfa9fea11ab991f689f2e39e2262c2d4bb0fbce7e85",
+   "text": "I can explain the roles of the main actors: states, NATO as a defence alliance, the UN Security Council with its veto problem, and the OSCE as a mediator."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:326e60fc7c59318847750846b937b8828cf2f90560ca8a03c0f058e93b94c37b",
+   "text": "I can apply the framework for analysis (Causes? Actors? Stage of escalation?) objectively to Russia's war against Ukraine."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:2ab493b5ccca17a31f385416942aa7d687cfccd6ed8c1a6d835247b39cc5d374",
+   "text": "Understanding events, not just reacting with shock"
+  },
+  "blocks[0].body": {
+   "quelle": "sha256:ba93a0a2d855356e8c1c4b364e8490f460c7ff553e5c9c80ac703c385af8e4af",
+   "text": "Wars and crises are constantly in the news – and often the main feeling they leave us with is helplessness. This module offers a tool to help: a **framework for analysis** that you can use to make sense of any conflict between states. It consists of three questions:\n\n1. **Causes:** What is the conflict really about?\n2. **Actors:** Who is involved – and who could mediate?\n3. **Stage of escalation:** How far has the conflict progressed?\n\nTwo points to clarify first. Firstly, **conflicts themselves are normal.** From [[modul:wirtschaft-politik-19-was-ist-politik]], you know that this is exactly what politics is for – bringing different interests into the open and negotiating binding agreements. Conflicting interests are also part of everyday relations between states: over trade rules, fishing grounds or borders. A conflict only becomes dangerous when one side tries to resolve it through **violence**.\n\nSecondly, **analysing does not mean approving.** Examining the causes of a war means looking for explanations – not excuses. The framework helps you keep track of the flood of reports: it turns ‘there is another war somewhere’ into a series of questions you can answer. This is what distinguishes political education from simply following events with anxiety – and it is the starting point for the question in [[modul:wirtschaft-politik-31-debatte-frieden-sichern]]: what can secure peace?"
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:4a96fb2eae564ac81cc4c40bfd0396224d80b6c239e72226f05f39a1adc0f7c9",
+   "text": "What conflicts are about: Four causes"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:7b545d6d9c9fc3d6d2aa1ab2436f37b947420a1a9aa3987e1047373610c49852",
+   "text": "The same basic patterns keep appearing behind conflicts between states – you should know these four:\n\n- **Territory:** Two states claim the same area. For example, India and Pakistan have disputed the **Kaschmir** region since 1947 – both claim it, and war has broken out several times.\n- **Resources:** The conflict concerns water, oil, gas, fishing grounds or valuable raw materials. For example, Egypt and Ethiopia dispute the use of **water from the Nil** – a huge dam upstream changes how much water reaches areas downstream.\n- **Ideology or religion:** Different world views clash. For example, during the **Cold War** (roughly 1947–1991), two opposing camps had incompatible models of society – a market economy and Western democracy on one side, communist one-party systems on the other.\n- **Power and influence:** A state wants to maintain or extend its dominance – for example, by keeping neighbouring countries within its **sphere of influence**: they are expected to align themselves economically and militarily with that state, rather than with others.\n\nThe most important point about this list is that **these causes rarely occur on their own.** Most conflicts have several roots at once – they concern territory *and* the raw materials beneath it *and* power. If you see only one cause, you will usually miss what the conflict is really about. So ask yourself about every conflict: which of these four patterns can I identify – and which matters most?"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:38675a8fdfe757254be500a0cd3f75fa575a1fff4a5d2c5142a1578167578ba5",
+   "text": "From tension to war – and back"
+  },
+  "blocks[2].szene.elemente[4].text": {
+   "quelle": "sha256:ae113a32820e72e59969c2fde949f14e4f8302252345c9e6f36d48036b00ad14",
+   "text": "The escalation ladder"
+  },
+  "blocks[2].szene.elemente[5].text": {
+   "quelle": "sha256:e26c992da30bf38f0998ab7f9a83aba8f81a947326663fd1774f56f21a1479f8",
+   "text": "a tool for analysis – not linked to any particular conflict"
+  },
+  "blocks[2].szene.elemente[11].text": {
+   "quelle": "sha256:07875406c8801e7bda0eefa7d13eca0b1f677f11eb961966817cf99f4ff201f2",
+   "text": "De-escalation: reversal is possible at every stage –\nthe higher the stage, the harder it becomes"
+  },
+  "blocks[2].szene.elemente[13].text": {
+   "quelle": "sha256:596e558705e965be4146804e4a607db1780fd2de42e80f5de70307eb94185a2c",
+   "text": "Escalation: violence increases with each stage"
+  },
+  "blocks[2].szene.elemente[14].text": {
+   "quelle": "sha256:335ac46518195c25d24a09fbc1443db9d7a81d6107411fa9f34f5fcd64637dac",
+   "text": "The boundaries are fluid – and no stage inevitably leads to the next."
+  },
+  "blocks[2].szene.elemente[15].text": {
+   "quelle": "sha256:4457e9cde1bec46fe4de04ec1adab19142a9d52d9f0cda3c926489047dc89567",
+   "text": "1 · Tension\nclashing interests,\nharsh words – but\ntalks continue"
+  },
+  "blocks[2].szene.elemente[16].text": {
+   "quelle": "sha256:54e1a19529cee81adb8a13d6f42763206f10b7035b72394abb0dbac0ea7190c6",
+   "text": "2 · Crisis\nthreats, troops at the\nborder, talks break down,\nisolated incidents"
+  },
+  "blocks[2].szene.elemente[17].text": {
+   "quelle": "sha256:a38362a51dd29c85fc3294551bf9827edaac6ea1dedcbab04eb731820a9ef39e",
+   "text": "3 · Armed conflict\nrepeated fighting,\nlimited in area and duration"
+  },
+  "blocks[2].szene.elemente[18].text": {
+   "quelle": "sha256:52e7ac52e477687ebccd24af8215eec27669522005aeb2c984f29a28bbd9a77a",
+   "text": "4 · War\nwidespread, sustained\nfighting between\narmed forces"
+  },
+  "blocks[2].beschreibung": {
+   "quelle": "sha256:a8dcc6f71da783a4f44c53f9d03919eccfaf7e780f9f353b7303f33e110e82d7",
+   "text": "The escalation ladder is a neutral tool for analysis that is not linked to any particular conflict: it places conflicts between states on four ascending steps, with violence increasing at each stage (escalation). A dashed green arrow leads back from the top step to the beginning, showing that de-escalation – reversing the process – is possible at every stage, but becomes harder the higher the stage. The boundaries are fluid, and no stage inevitably leads to the next. Key points: 1. Tension – clashing interests and harsh words, but the sides are still talking. 2. Crisis – threats, troops at the border, talks break down, isolated incidents. 3. Armed conflict – repeated fighting, limited in area and duration. 4. War – widespread, sustained fighting between armed forces. Escalation: violence increases with each stage. De-escalation: reversal is possible at every stage – the higher the stage, the harder it becomes."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:d530cf9460775d0f683f79992901740d023563d65b1d47d5e3ef8a7ad5c09d11",
+   "text": "The escalation ladder: Four stages"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:5a31caab5e0d3eae38a7291fd8a8849215aa6e477f8ed9541d1ee0e617203e3a",
+   "text": "Conflicts rarely jump from nothing to war – they **escalate**, usually stage by stage. The ladder model in the diagram helps you identify how far a conflict has progressed:\n\n1. **Tension:** Interests openly clash. Governments accuse one another of misconduct in speeches and interviews, and the tone becomes harsh – but diplomatic channels remain open: ambassadors are working and negotiations continue, if necessary through courts or with mediators.\n2. **Crisis:** The situation intensifies. Threats are made, troops gather at borders, talks are broken off and ambassadors are withdrawn; isolated incidents add fuel to the situation. There is no sustained fighting yet – but a spark may be enough.\n3. **Armed conflict:** Fighting takes place repeatedly – limited to a particular area, such as a border region, or limited in time, with pauses in the fighting.\n4. **War:** Widespread, sustained fighting between armed forces – an exceptional situation that affects entire countries.\n\nThree points about using the model correctly: firstly, **the boundaries are fluid** – reality does not fit neatly into separate stages, and experts may disagree about where a particular conflict stands. Secondly, **progression is never automatic**: most tensions never become crises, and most crises never become wars. Thirdly, there is the **green arrow**: de-escalation is possible at every stage – through mediation, talks or the withdrawal of troops. But the higher the stage, the harder it is to reverse the process: once shots have been fired, mistrust runs deep."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:756818d11477f727ece16438ed4ddba4c7c2de3f989aaba93e8927375fb2c758",
+   "text": "Who is involved: The actors"
+  },
+  "blocks[4].body": {
+   "quelle": "sha256:45a623369a6c643337e0797a9459038df6d3eab5171e4a855a03593021f87082",
+   "text": "The second question in the framework is: **who is involved?** You will repeatedly encounter four types of actor:\n\n- **States:** The main actors. Their governments decide whether to negotiate, threaten, withdraw – or, in the worst case, go to war.\n- **Alliances:** States join together to become stronger collectively. The most important example is **NATO**, the defence alliance of over 30 states in Europe and North America, founded in 1949. At its core is a pledge of mutual assistance: an attack on one member is considered an attack on all – the aim is to make an attack unattractive from the outset (deterrence).\n- **The UN Security Council:** From [[modul:wirtschaft-politik-29-uno-menschenrechte]], you know it as the only body that can make **binding** decisions – from sanctions to peace missions. You also know its inherent weakness: if a **veto power** is itself involved or protects a party to the conflict, the Council is **blocked**.\n- **The OSCE** (Organization for Security and Co-operation in Europe): 57 participating states, from North America across Europe – including Liechtenstein – to Central Asia. It has no troops; its tools are **mediation and monitoring**: it brings parties to a conflict to the negotiating table and sends observers to document events on the ground impartially – the ‘eyes and ears’ of the international community.\n\nRemember the broad division of roles like this: states are the parties to conflicts, alliances aim to deter attacks, the Security Council could take binding action (if no veto blocks it), and the OSCE helps with dialogue and observation. With these actors in mind, you can now apply the whole framework."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:f886494088e4bdb7a436ab3c2fbdf024181f41dbd6a4bac0e00c726db57b2b3f",
+   "text": "Video: Causes and forms of war"
+  },
+  "blocks[5].description": {
+   "quelle": "sha256:c98563721854b82de226560d04af8498df69541ced99bdd63f416973afac2151",
+   "text": "This explainer video (4:49) from the educational channel EinfachSchule summarises possible causes of war and the different forms it can take. As you watch, focus on two questions: (1) Which of the four causes of conflict from this module – territory, resources, ideology/religion and power – can you recognise in the video? (2) The video distinguishes different forms of war: which of these fit the upper stages of the escalation ladder?"
+  },
+  "blocks[5].transcript": {
+   "quelle": "sha256:88cb95b97fab52149da5da2d76f0b3d9348bcd75b04d8b403eeab15d19b13646",
+   "text": "The explainer video ‘Ursachen und Erscheinungsformen von Krieg’ (EinfachSchule, 4:49 minutes) explores why wars occur and the different forms they take. It names typical causes such as disputes over territory and borders, raw materials and resources, power and influence, and opposing world views and religions – and shows that several causes usually interact. The video also presents different forms of war, such as wars between states and civil wars within a country."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:7239c1e72f702801ae6b361c9850a6924db48d20ae050aee063a29f2db8c7a26",
+   "text": "Applying the framework: Russia's war against Ukraine"
+  },
+  "blocks[6].body": {
+   "quelle": "sha256:c004c6c7a96cf2621a967b47fe0ca87b9c11b394483b12df116a1f72f01f169b",
+   "text": "Now for a serious test of your framework for analysis – the war in Europe that you know from the news. We will analyse it **objectively and using documented facts**; no framework can capture the suffering this war brings to people, and we will deliberately avoid describing it in detail here.\n\n**What happened?** In 2014, Russia occupied and annexed the Ukrainian peninsula of **Krim**; an armed conflict began in eastern Ukraine, where forces supported by Russia fought the Ukrainian army. On **24 February 2022**, Russia then launched a large-scale attack on Ukraine with its armed forces. This attack violates the **UN Charter's prohibition on the use of force** – the foundation of international law, which prohibits wars of aggression. This is not a matter of opinion but a documented fact: in March 2022, the **UN General Assembly** condemned the attack as a violation of international law by a large majority – **141 out of 193 states** – and demanded a withdrawal.\n\n**Causes?** Several patterns interact – just as described in the module: **power and influence** (the Russian leadership wants to keep Ukraine within its sphere of influence, while Ukraine turns towards the EU and Western partners), **territory** (Krim since 2014; in 2022, Russia declared further Ukrainian territories to be part of its own territory – not recognised under international law), and **ideology** (in speeches and writings, the Russian leadership repeatedly questioned whether Ukraine was a nation in its own right).\n\n**Actors?** **Russia** as the aggressor, and **Ukraine**, defending itself. The **UN Security Council** is blocked – Russia is a veto power and already blocked a resolution in February 2022: the mechanism from [[modul:wirtschaft-politik-29-uno-menschenrechte]] in a real crisis. The **General Assembly** could condemn, but could not compel action – its resolutions are recommendations. **NATO** is not a party to the war, as Ukraine is not a member; however, many NATO states support Ukraine with weapons, money and training. The **OSCE** had a monitoring mission in eastern Ukraine from 2014 – it had to end in 2022 because Russia did not agree to its extension.\n\n**Stage of escalation?** The course of events follows the ladder: years of **tension** over Ukraine's alignment – **crisis** in 2013/14, with protests, a change of government in Kiew and Russia's response – **armed conflict** from 2014 to 2021 in Krim and eastern Ukraine – **war** since 24 February 2022.\n\nThis module deliberately says nothing about how the war will develop or end: that would be speculation, and maps of front lines become outdated faster than a learning module can be updated. What remains useful is the framework: causes, actors and the logic of escalation – you can use these to make sense of the next news report too. And in [[modul:wirtschaft-politik-31-debatte-frieden-sichern]], you will ask the next question: **what tools does the world have to secure peace?**"
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:face576790d61e39878114d48be6da8d2aadc76a420fbfdb69c9b5359293ebe1",
+   "text": "Quiz: Causes, the ladder and actors"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:4cc3235aed16d30571cd1ecb4596a09a600937cf18d9876744bda6bf06844cad",
+   "text": "Four causes, four stages and four types of actor – show that you understand the framework for analysis. You can repeat the quiz as often as you like; your best result counts."
+  },
+  "blocks[7].questions[0].prompt": {
+   "quelle": "sha256:81c3bbbad4bcdefbb6012e85857abe39c9857df3fdbf71c73ae84038f77a1938",
+   "text": "Which four main causes of conflicts between states does this module identify?"
+  },
+  "blocks[7].questions[0].options[0].text": {
+   "quelle": "sha256:31885a148856adc45fb0618cfbce508687a9dbcb0171b21a76bad4598a8b2623",
+   "text": "Territory, resources, ideology/religion and power."
+  },
+  "blocks[7].questions[0].options[1].text": {
+   "quelle": "sha256:2016f8c8f24d09a60fe9acc70621a470c06d38841580e6d8f0a6654d1c6a155a",
+   "text": "Weather, language, sport and fashion."
+  },
+  "blocks[7].questions[0].options[2].text": {
+   "quelle": "sha256:e316c33648721e759f42a83600c74eea157fa0e09ddb45a6a8e64a1b0ab2b2f5",
+   "text": "Taxes, wages, prices and tariffs."
+  },
+  "blocks[7].questions[0].options[3].text": {
+   "quelle": "sha256:a2393ceb9cf45dbd6fe11f402e109a25ef3062917aecc406af622800c63d605b",
+   "text": "Age, occupation, family and place of residence."
+  },
+  "blocks[7].questions[0].explanation": {
+   "quelle": "sha256:c56d7ce93f90278282bb0abc4c291a25107e32280ed0a572bf24b076f60113c2",
+   "text": "The four basic patterns are disputes over land (territory), water, oil or other raw materials (resources), world views (ideology/religion), and dominance and spheres of influence (power). Taxes, wages and prices are domestic economic issues from earlier modules – states do not wage wars against one another over them. The remaining answers describe personal characteristics, not causes of conflicts between states. Above all, remember that several causes usually interact."
+  },
+  "blocks[7].questions[1].prompt": {
+   "quelle": "sha256:50dce104918a5eea90eb29b49a3f55efc9decbe7841beca9d88a5f209a5b416d",
+   "text": "What is the correct order of the escalation ladder?"
+  },
+  "blocks[7].questions[1].options[0].text": {
+   "quelle": "sha256:bc4f80c8d91c73be7f4d72a7002f55fbf9dd0ddb04130a4297a587019e81a50f",
+   "text": "Crisis → tension → war → armed conflict."
+  },
+  "blocks[7].questions[1].options[1].text": {
+   "quelle": "sha256:fe37ead7d7f189d95448b6d353b863e75739eb70ec98c8aba8a0fc2934650933",
+   "text": "Tension → armed conflict → crisis → war."
+  },
+  "blocks[7].questions[1].options[2].text": {
+   "quelle": "sha256:18b672c966b0c350f631f1a0c4b7f6cd48051f1e763e49d56355840b5c37ea63",
+   "text": "Tension → crisis → armed conflict → war."
+  },
+  "blocks[7].questions[1].options[3].text": {
+   "quelle": "sha256:b278b5bfd66076217f824937356b9a906bb56af374ab1eabb28bfbe17f612dab",
+   "text": "There is no order – every war begins without earlier stages."
+  },
+  "blocks[7].questions[1].explanation": {
+   "quelle": "sha256:6d2382725f3ca29275bdeed415bcaad9378f62f1c7510fc109aaf8da6440dd3d",
+   "text": "The ladder rises from tension (a bitter dispute, but the sides are talking), through crisis (threats, troop deployments and broken-off talks), to armed conflict (limited fighting) and finally war (widespread, sustained fighting). The incorrect orders disrupt this progression of increasing violence. Wars almost never begin without earlier stages – even though the boundaries are fluid and no stage inevitably leads to the next."
+  },
+  "blocks[7].questions[2].prompt": {
+   "quelle": "sha256:1be435d9fa7f3a9e49101f5304f0b5b3d7ec65b03d324fdca60615cd80755380",
+   "text": "How can you recognise the ‘crisis’ stage?"
+  },
+  "blocks[7].questions[2].options[0].text": {
+   "quelle": "sha256:4498ea200462191d6f2647761e1743924ca12edd3d215f002f98beb24d3e011b",
+   "text": "By an ordinary clash of interests being addressed in ongoing negotiations."
+  },
+  "blocks[7].questions[2].options[1].text": {
+   "quelle": "sha256:01e59e559e8dd47c18c9007188a2ffec99c57fa364ae459b32c301b9c7cb3c58",
+   "text": "By widespread, sustained fighting between armies."
+  },
+  "blocks[7].questions[2].options[2].text": {
+   "quelle": "sha256:c9af9d05e5deb16dd2debd5d823dafa44b2b444da4ffcc70319b5bc8227d9a10",
+   "text": "By a return to calm diplomatic relations."
+  },
+  "blocks[7].questions[2].options[3].text": {
+   "quelle": "sha256:20eca441af75712d80b3e0d82d6acdfc916ffd9783536c5afc3848286850cfb8",
+   "text": "By threats, troop deployments and broken-off talks – but without sustained fighting yet."
+  },
+  "blocks[7].questions[2].explanation": {
+   "quelle": "sha256:6d9ed954a5303bf515e654272d7f1eee8e75f356774b470abc0c3758565a08ed",
+   "text": "A crisis is the intensification before violence: threats are made, troops stand at the border, ambassadors are withdrawn and talks break down – a spark may be enough. Ongoing negotiations with harsh words would still be the tension stage; widespread, sustained fighting would already be war – and a return to calm is not a stage of escalation but its opposite: de-escalation."
+  },
+  "blocks[7].questions[3].prompt": {
+   "quelle": "sha256:d715fc6c6b73021cd2e926c8805a08b2b8d8278ff7432df2e4f2e7e2eb2b6081",
+   "text": "What is NATO?"
+  },
+  "blocks[7].questions[3].options[0].text": {
+   "quelle": "sha256:d5ca12d134b017aa3d903de303ce78a3a0abb9533a434bc170f15cdf5c2021ca",
+   "text": "A UN subsidiary organisation for peace missions."
+  },
+  "blocks[7].questions[3].options[1].text": {
+   "quelle": "sha256:e0f4e275baa76908479c40fd92f494f8980304829448545eb7bd707b4eb7fa83",
+   "text": "A defence alliance: an attack on one member is considered an attack on all – the aim is to deter attacks from the outset."
+  },
+  "blocks[7].questions[3].options[2].text": {
+   "quelle": "sha256:41e4a52425185762f73e513ef6ce7acfaca12ee86a50662a0def36fba063f836",
+   "text": "An economic alliance for tariff-free trade between its members."
+  },
+  "blocks[7].questions[3].options[3].text": {
+   "quelle": "sha256:fe99d8865459669563200d85fed9a0787482add050d20ac8920b4e192fb53e54",
+   "text": "An alliance that obliges its members to attack other states."
+  },
+  "blocks[7].questions[3].explanation": {
+   "quelle": "sha256:c411c93d72e222cbec870aca9c85f24884f384fecdd384a580b3ef353cc826a5",
+   "text": "NATO is a defence alliance founded in 1949, with over 30 states in Europe and North America. At its core is the pledge of mutual assistance: anyone attacking one member has to face them all – this deterrence is intended to prevent attacks, not trigger them; the alliance does not oblige its members to wage wars of aggression. NATO should not be confused with the UN, and tariff-free trade is the concern of the single market and the EEA from [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]], not NATO."
+  },
+  "blocks[7].questions[4].prompt": {
+   "quelle": "sha256:1e0e9e387dc1c54ae77fde994ef51c7613eaddce116adb4b3285a06538357c88",
+   "text": "Why was the UN Security Council unable to adopt a binding resolution after Russia's attack on Ukraine in 2022?"
+  },
+  "blocks[7].questions[4].options[0].text": {
+   "quelle": "sha256:d09fe144600ebca657017f0f4928791ba560f97089beb668ff187b0da5495144",
+   "text": "Because wars are outside the Security Council's remit."
+  },
+  "blocks[7].questions[4].options[1].text": {
+   "quelle": "sha256:4e24513ad620735c3a121a7202290c0b6d7a065957ae1848b2407d44b21af9b6",
+   "text": "Because Ukraine did not want the Security Council to discuss the matter."
+  },
+  "blocks[7].questions[4].options[2].text": {
+   "quelle": "sha256:9d87c183d62e6cd4478d5d5d50b06bd59d9c3a75e57ad72c50f9229347478454",
+   "text": "Because Russia, as a permanent member, used its veto – the blocking mechanism from [[modul:wirtschaft-politik-29-uno-menschenrechte]] in a real crisis."
+  },
+  "blocks[7].questions[4].options[3].text": {
+   "quelle": "sha256:3c54a236e7d5c9de8b8097b96d53684228d592ff30a570f559f31d44c6a04ee6",
+   "text": "Because the UN never addressed the attack."
+  },
+  "blocks[7].questions[4].explanation": {
+   "quelle": "sha256:8daeba7fb8904a35fe9524692a4785fdcbbc9d015f1b0c7512d9829e3e97bb3b",
+   "text": "Russia is one of the five veto powers – and in February 2022 it used its veto to block a Security Council resolution on its own attack. This is exactly the inherent weakness from [[modul:wirtschaft-politik-29-uno-menschenrechte]]: when a veto power is itself a party to the conflict, the Council is blocked. The matter certainly falls within its remit – peace and security are its central task – and the UN addressed the attack extensively: the General Assembly condemned it with 141 votes, but could only make a recommendation."
+  },
+  "blocks[7].questions[5].prompt": {
+   "quelle": "sha256:02369fed528e36f528eacd4b458af899b24ed59f8a7c45dc49b8d486522bbe8d",
+   "text": "What did the UN General Assembly do in March 2022?"
+  },
+  "blocks[7].questions[5].options[0].text": {
+   "quelle": "sha256:89ad4bf7014f85e70dfeae9def8c4c588529001cc9a7b83ddc23e8700bd5e91b",
+   "text": "It sent its own UN army to Ukraine."
+  },
+  "blocks[7].questions[5].options[1].text": {
+   "quelle": "sha256:b62a52ae298ab97a066e210a1c4aeb7e739f9d7336d619e550373124f8c08924",
+   "text": "It condemned Russia's attack as a violation of international law with 141 out of 193 votes and demanded a withdrawal – as a recommendation without means of enforcement."
+  },
+  "blocks[7].questions[5].options[2].text": {
+   "quelle": "sha256:04a5fb4298f782c5d575bc23a801e3655a46cdf85aa5d967b72e23bb0ebc6e0b",
+   "text": "It expelled Russia from the United Nations."
+  },
+  "blocks[7].questions[5].options[3].text": {
+   "quelle": "sha256:47de37b075433e90a2abba7cd9d5ae1d296bfaff8f23d93283af6e7b27ed0012",
+   "text": "It declared the attack compatible with the UN Charter."
+  },
+  "blocks[7].questions[5].explanation": {
+   "quelle": "sha256:70853c79dfeaeb7f8c22fb617fe85e1dbd0af39f7444f36231d0bb28f89a27e0",
+   "text": "141 out of 193 states voted for the resolution condemning the attack as a violation of the UN Charter and demanding a withdrawal – a rare, clear signal from the international community. But General Assembly resolutions are recommendations: they show world opinion and cannot compel action ([[modul:wirtschaft-politik-29-uno-menschenrechte]]). The UN has no army of its own, Russia was not expelled – and the Assembly certainly did not declare the attack compatible with the Charter: it stated the opposite."
+  },
+  "blocks[7].questions[6].prompt": {
+   "quelle": "sha256:0ef5e8bae3db02994ac6d1391355188a34e4f8fae406a6fe3b663adb4caacf85",
+   "text": "Which causes interact in Russia's war against Ukraine?"
+  },
+  "blocks[7].questions[6].options[0].text": {
+   "quelle": "sha256:3cbb3a863575178f5ea3e24f052d1f6b890903f9583e8eb1e89eb044e3d37c2a",
+   "text": "Power and spheres of influence, territory – and ideological statements denying Ukraine's statehood: several causes at once."
+  },
+  "blocks[7].questions[6].options[1].text": {
+   "quelle": "sha256:e2cbafc7a4e491cb54562f16347ec82accc041b7d386b0cb4ef4a479971e5c3b",
+   "text": "It is a purely religious conflict."
+  },
+  "blocks[7].questions[6].options[2].text": {
+   "quelle": "sha256:4e9efbb67d7ce5fdf4acd2f3f16f5429206dbfa9c330d0a8cc3952052444c52a",
+   "text": "It is exclusively about fishing rights in the Schwarzes Meer."
+  },
+  "blocks[7].questions[6].options[3].text": {
+   "quelle": "sha256:128605e421bd9392812e640720ef3958847df028e9ea2676d332d5d6986bc370",
+   "text": "The war has no identifiable causes and began without any prior history."
+  },
+  "blocks[7].questions[6].explanation": {
+   "quelle": "sha256:66a50cca3e30f1612ad83a5ecff542e27db83151206ef6461ffcbef1710ce67b",
+   "text": "As in most conflicts, several patterns interact: the claim to power that seeks to keep Ukraine within Russia's sphere of influence, the dispute over territory (Krim in 2014 and the annexations declared in 2022 – not recognised under international law), and the ideology denying Ukraine's right to exist as a nation in its own right. This is not a religious conflict, and certainly not a dispute over fishing – and it does have a long history: the escalation ladder can be traced stage by stage from 2013/14 onwards."
+  },
+  "blocks[7].questions[7].prompt": {
+   "quelle": "sha256:c2094d337d7dd9f0ebd0c4bdd18cd6fbd0545a467a09339bc2ad261cd04e130f",
+   "text": "What characterises the OSCE as an actor in conflicts?"
+  },
+  "blocks[7].questions[7].options[0].text": {
+   "quelle": "sha256:9bc4980a473c258200cc56b75ae33e3038d2160c5ebe1a4a22dc7fe1934b3ecb",
+   "text": "It is the parliament of the European Union."
+  },
+  "blocks[7].questions[7].options[1].text": {
+   "quelle": "sha256:bbc8a4e56e5e4b44c1be0f4c636bb327c72a5cfe3018fd80aa2e1ba82abbb71c",
+   "text": "It is a court that convicts war criminals."
+  },
+  "blocks[7].questions[7].options[2].text": {
+   "quelle": "sha256:ef3b7f83a7a6c7e5d6d0cb000d39c88de2cf6df73ba1fe1dc61ee74c1055100b",
+   "text": "It is a military alliance with a joint army."
+  },
+  "blocks[7].questions[7].options[3].text": {
+   "quelle": "sha256:e19cdb2b8769ef1e9ef1c850220df88e254b7955d094555fd6df50a9a406a714",
+   "text": "It is an organisation of 57 states that mediates and monitors – using talks and impartial observers on the ground rather than troops of its own."
+  },
+  "blocks[7].questions[7].explanation": {
+   "quelle": "sha256:36fe442c078cf3eaf19ad1e57651497ae7795d28fbb3efdf85256f58012e7a60",
+   "text": "The OSCE comprises 57 participating states, from North America through Europe – including Liechtenstein – to Central Asia. Its strength lies in non-military tools: mediation, monitoring and documentation – as in its monitoring mission that operated in eastern Ukraine from 2014 to 2022. It has no troops and is not a court (you will learn about international courts in [[modul:wirtschaft-politik-31-debatte-frieden-sichern]]), and it is separate from the EU institutions in [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]]."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:cc3827dfa7ce56fe207a9f8af27c315bf3072e34c5d1e6d1764bb6d07c68f321",
+   "text": "Fill in the terms: Causes, the ladder and actors"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:87af053eaa8a31fcb28984c23c9ed529905e74ac5f54791cfaadaf44a97e9bdd",
+   "text": "Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). **Watch out:** Three words in the selection do not fit anywhere."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:b556734599d8f2d104a19657236e4439981a067892983fadb50ad929fccbc4d5",
+   "text": "Type in the terms: Check your grasp of the framework"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:535d159f949e0008d15f19b510c314575b3b61f4e0c90ef38d2c17851c3fdaa3",
+   "text": "This time there is no word bank – **type in the missing terms yourself**. Upper and lower case do not matter."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:f154c48837abd5d06e903f04581b8a3a48ca51977d46a15975613fafc8e9d14e",
+   "text": "Matching: Which stage has the conflict reached?"
+  },
+  "blocks[10].intro": {
+   "quelle": "sha256:8de6e28ec73368324519a0081b0f59abf5946953a152bf5ded94e69be386d41b",
+   "text": "Match each fictional scenario to the appropriate stage: **tension**, **crisis**, **armed conflict** or **war**. Tension and crisis each appear three times; armed conflict and war each appear twice. All countries and events are fictional."
+  },
+  "blocks[11].title": {
+   "quelle": "sha256:a360bae9560ed9f34285467ab90ae5def1db8024b8a4705881be6aae3f513af5",
+   "text": "Going further: Applying the framework"
+  },
+  "blocks[11].tasks[0].prompt": {
+   "quelle": "sha256:25759e4e9856a11bde7276ad793c27e0222101dbaab0366f1b11f60b151e7920",
+   "text": "Practise using the framework on a historical case: apply it to the Cold War (roughly 1947–1991). Answer in brief notes: (1) Which causes were most important? (2) Who were the main actors – and which alliances faced one another? (3) Which stage of the escalation ladder was reached directly between the two superpowers – and which was not?"
+  },
+  "blocks[11].tasks[0].hint": {
+   "quelle": "sha256:21912dd98c3b75f9260fea4c500aa3bc1e6637c5440208c80da7012d21eff6dd",
+   "text": "For the third question, think of the Cuban Missile Crisis of 1962, when Soviet missiles on Cuba brought the world to the brink of nuclear war – and remember that the two superpowers never went to war directly against each other."
+  },
+  "blocks[11].tasks[0].solution": {
+   "quelle": "sha256:ccc0849937c1712c98c750442bfa30e249d8ce11cb1c72334a5053e601b27e00",
+   "text": "Example answer: (1) Causes: mainly ideology (a market economy and Western democracy versus communist one-party systems) and power (two superpowers divided the world into spheres of influence). (2) Actors: the USA and the Soviet Union with their respective alliances – NATO on one side and the Warsaw Pact on the other. (3) Direct relations between the superpowers remained at tension and – for example, during the Cuban Missile Crisis in 1962 – crisis; they never went to war directly against each other. They did not inevitably move further up the ladder – another example showing that escalation is not automatic."
+  },
+  "blocks[11].tasks[1].prompt": {
+   "quelle": "sha256:54d354c6975f5a18f5d7b473a30f4129b3c5cffa34d506ab38515ee49a41310d",
+   "text": "A de-escalation plan: take the crisis scenario from the matching task – Nordinsel is gathering troops at the border, and talks with Südinsel have broken down. Design a plan with three specific steps that could move the conflict back from ‘crisis’ to ‘tension’. Involve at least one actor from this module (the UN, the OSCE or a third state acting as mediator) and justify each step in one sentence."
+  },
+  "blocks[11].tasks[1].hint": {
+   "quelle": "sha256:99210e3b5dd698f01ecdac266d92a72007d7186832dda810aa775846467d7a87",
+   "text": "Ask yourself: what defines a crisis – and how can those very features be reversed? Broken-off talks need a neutral venue and a mediator; troops at the border need to withdraw on both sides in a way that can be verified; mistrust calls for impartial observers who report what is really happening."
+  },
+  "blocks[11].tasks[1].solution": {
+   "quelle": "sha256:08fb8bd763d12e6cf2639029360c49a2492328f6746c5f99f91d3b008bb8077e",
+   "text": "Example answer: (1) A neutral mediator – such as the OSCE or an uninvolved third state – invites both governments to talks at a neutral venue, because without a channel for dialogue, no demands can be clarified. (2) Both sides withdraw their troops from the border to the same extent and according to an agreed timetable, because only a withdrawal on both sides avoids either side losing face. (3) Impartial observers monitor the withdrawal and report publicly, because verifiable facts reduce the mistrust that fuels every crisis. Your plan works well if each step specifically reverses a feature of the crisis."
+  },
+  "blocks[11].tasks[2].prompt": {
+   "quelle": "sha256:a5f0289d4abe0deb3d9f4a8add7c0776b9785bebeb38b9fcf6a9762b832d5e42",
+   "text": "Explain it to someone: in no more than five sentences, explain to someone you know why the UN Security Council could not stop Russia's war against Ukraine with a binding resolution – even though 141 states condemned the attack. Use the terms veto power, permanent member, General Assembly and recommendation."
+  },
+  "blocks[11].tasks[2].hint": {
+   "quelle": "sha256:c9ab5946a140c35d3d460121c79a4140759edd3c23335695ad5907c4d5be28f7",
+   "text": "Build your explanation in two steps: first, why the Security Council is blocked (who sits on it, and with what rights?) – then, what the General Assembly could do instead and why that is not the same."
+  },
+  "blocks[11].tasks[2].solution": {
+   "quelle": "sha256:94da9886ec6c70783581dc6647cc7ac153a57a112252e16c48bf167e87443c40",
+   "text": "Example explanation: ‘The UN Security Council is the only body that can make binding decisions. However, Russia is a permanent member and therefore a veto power – it can block any resolution on its own and did exactly that in February 2022. That left only the General Assembly, where each country has one vote: 141 out of 193 states condemned the attack as a violation of international law and demanded a withdrawal. But General Assembly resolutions are recommendations – they show world opinion and cannot compel action. This gap is known as the veto problem: the UN is weakest when a veto power is itself a party to the conflict.’"
+  }
+ },
+ "pakete": {
+  "blocks[8]": {
+   "quelle": "sha256:6a90b67b5abcb40ba6dd48d3f508bc95bc740fa52f52d0aa5a29460566af2d7a",
+   "inhalt": {
+    "text": "Conflicts between states usually have several causes at once: disputes over {{1}}, such as a border area, over {{2}}, such as water or oil, over ideology or religion – and over {{3}} and influence. The escalation ladder describes four stages: {{4}} is followed by {{5}}, then armed conflict and finally {{6}}. NATO is a {{7}}: an attack on one member is considered an attack on all. The UN Security Council can take binding action – but it is blocked if a {{8}} involved in the conflict votes ‘No’. The OSCE helps through monitoring and talks – it is Europe's most important {{9}}.",
+    "luecken": [
+     [
+      "territory",
+      "land",
+      "territorial control"
+     ],
+     [
+      "resources",
+      "natural resources",
+      "raw materials"
+     ],
+     [
+      "power",
+      "political power",
+      "dominance"
+     ],
+     [
+      "tension",
+      "tensions"
+     ],
+     [
+      "crisis",
+      "a crisis"
+     ],
+     [
+      "war",
+      "a war"
+     ],
+     [
+      "defence alliance",
+      "defense alliance",
+      "defensive alliance",
+      "collective defence alliance",
+      "collective defense alliance"
+     ],
+     [
+      "veto power",
+      "state with veto power",
+      "country with veto power",
+      "veto-holding state",
+      "veto-holding country"
+     ],
+     [
+      "mediator",
+      "intermediary",
+      "go-between"
+     ]
+    ],
+    "ablenker": [
+     "offensive alliance",
+     "world government",
+     "de-escalation"
+    ]
+   }
+  },
+  "blocks[9]": {
+   "quelle": "sha256:8f1f1eb6c5c7505ca72e44565e6de9c68a2d13d96eb9a752317993e8e6c8ee0c",
+   "inhalt": {
+    "text": "The four stages of the escalation ladder are: {{1}}, {{2}}, armed conflict and {{3}}. The defence alliance of over 30 states in Europe and North America, founded in 1949, is called {{4}}. The organisation with 57 participating states that mediates and monitors in conflicts is called the {{5}}.",
+    "luecken": [
+     [
+      "tension",
+      "tensions",
+      "a state of tension",
+      "political tension",
+      "political tensions"
+     ],
+     [
+      "crisis",
+      "a crisis",
+      "political crisis",
+      "a political crisis"
+     ],
+     [
+      "war",
+      "a war"
+     ],
+     [
+      "NATO",
+      "North Atlantic Treaty Organization",
+      "North Atlantic Treaty Organisation",
+      "the North Atlantic Treaty Organization",
+      "the North Atlantic Treaty Organisation"
+     ],
+     [
+      "OSCE",
+      "the OSCE",
+      "Organization for Security and Co-operation in Europe",
+      "Organisation for Security and Co-operation in Europe",
+      "Organization for Security and Cooperation in Europe",
+      "Organisation for Security and Cooperation in Europe",
+      "Organization for Security and Co operation in Europe",
+      "Organisation for Security and Co operation in Europe",
+      "the Organization for Security and Co-operation in Europe",
+      "the Organisation for Security and Co-operation in Europe",
+      "the Organization for Security and Cooperation in Europe",
+      "the Organisation for Security and Cooperation in Europe"
+     ]
+    ],
+    "ablenker": []
+   }
+  },
+  "blocks[10]": {
+   "quelle": "sha256:568530d7e4a8cab39025569ab67e75fa94ee2278573f414690b16439bd5a89b3",
+   "inhalt": {
+    "text": "The governments of Nordinsel and Südinsel accuse one another of breaking promises in speeches – but their ambassadors continue negotiating. {{1}}\nNordinsel gathers troops at the border and openly threatens an invasion; talks have broken down. {{2}}\nFor months, there have been repeated exchanges of gunfire over a mountain pass on the border between Ostberg and Westberg. {{3}}\nThe armies of Rotland and Blauland have been fighting with tanks and aircraft over several regions for weeks. {{4}}\nTwo states argue bitterly in newspaper interviews over water rights on a border river – a mediator invites both to talks. {{5}}\nAfter an incident at sea, Gelbland recalls its ambassador and puts its fleet on alert. {{6}}\nIn a border region, militias and government troops repeatedly clash – in the rest of the country, everyday life continues. {{7}}\nWidespread air strikes hit targets across the country; both armies have been fighting continuously for months. {{8}}\nA state bans entry to diplomats from its neighbouring country and issues a ‘final warning’. {{9}}\nTwo countries claim the same uninhabited group of islands and take the dispute to an international court. {{10}}",
+    "luecken": [
+     [
+      "Tension",
+      "tensions",
+      "a state of tension"
+     ],
+     [
+      "Crisis",
+      "a crisis"
+     ],
+     [
+      "Armed conflict",
+      "an armed conflict"
+     ],
+     [
+      "War",
+      "a war"
+     ],
+     [
+      "Tension",
+      "tensions",
+      "a state of tension"
+     ],
+     [
+      "Crisis",
+      "a crisis"
+     ],
+     [
+      "Armed conflict",
+      "an armed conflict"
+     ],
+     [
+      "War",
+      "a war"
+     ],
+     [
+      "Crisis",
+      "a crisis"
+     ],
+     [
+      "Tension",
+      "tensions",
+      "a state of tension"
+     ]
+    ],
+    "ablenker": []
+   }
+  }
+ }
+}
