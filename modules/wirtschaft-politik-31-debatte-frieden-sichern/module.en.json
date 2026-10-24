@@ -1,0 +1,1224 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-31-debatte-frieden-sichern --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:3b4b8c40f75c7fa7c2f2381b7f235a0d593276df5c028dacee4c370bcd06b1ab",
+  "masterCommit": "a3d891b",
+  "hintsHash": null,
+  "generatedAt": "2026-10-24",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:889ff3e971a14d59bfd14fa9d55bd4fd485062c87b3dcfb7cec1362f58c69862"
+ },
+ "schemaVersion": 3,
+ "id": "wirtschaft-politik-31-debatte-frieden-sichern",
+ "title": "Preparing for a debate: Securing peace – but how?",
+ "description": "Diplomacy, sanctions, Blue Helmets – or is an army ultimately needed after all? Here you will prepare for your classroom debate: you will explore the tools for securing peace, understand neutrality as a different approach – with Switzerland as the best-known example and Liechtenstein without an army since 1868 – and get three fully developed arguments for and three against each of two debate questions, following the familiar structure. The module takes no position – you will weigh up the arguments in the debate.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "WP",
+   "subjectName": "Economics & Politics",
+   "grades": [
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.8.1",
+     "description": "Die Schülerinnen und Schüler können die Staatsform Liechtensteins erklären und mit anderen Systemen vergleichen."
+    },
+    {
+     "code": "LBO.5.6",
+     "description": "Die Schülerinnen und Schüler können Anliegen einbringen, Konflikte wahrnehmen und mögliche Lösungen suchen."
+    }
+   ]
+  }
+ ],
+ "sequenz": 31,
+ "einheit": "Topic F: Europe & international politics",
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "debate",
+  "building arguments",
+  "securing peace",
+  "diplomacy",
+  "sanctions",
+  "peacekeeping",
+  "Blue Helmets",
+  "International Court of Justice",
+  "International Criminal Court",
+  "neutrality",
+  "small state",
+  "army",
+  "arguments for and against",
+  "political education"
+ ],
+ "learningObjectives": [
+  "I know the tools for securing peace: diplomacy and mediation, economic sanctions, peacekeeping with Blue Helmets, international courts – and military action under a UN mandate as the strongest measure.",
+  "I understand neutrality as a different approach: Switzerland as the best-known example – and Liechtenstein as a state without an army since 1868.",
+  "I can apply the argument structure from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] (claim – reason – example) to both debate questions.",
+  "I can explain three arguments for and three against each of the two debate questions in my own words – without the module telling me which position to take."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "Vereinte Nationen – Regionales Informationszentrum für Westeuropa (UNRIC)",
+   "url": "https://unric.org/de"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "requires": [
+  "wirtschaft-politik-09-argumentieren-preisregulierung",
+  "wirtschaft-politik-29-uno-menschenrechte",
+  "wirtschaft-politik-30-konflikte-verstehen"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Your debate – your tools",
+   "body": "In **week 31, you will debate in class** the big question that follows on from [[modul:wirtschaft-politik-30-konflikte-verstehen]]: **securing peace – but how?** Like [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] and [[modul:wirtschaft-politik-24-debatte-falschinformationen]], this module deliberately **goes beyond teaching facts**: it gives you the tools and material for both sides. **This module takes no position** – you will weigh up the arguments in the debate.\n\nFirst, the tool you know from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] – the **argument structure**:\n\n1. **Claim** – *What do you want to say?* A clear sentence that takes a position.\n2. **Reason** – *Why is it true?* The explanation, introduced with **‘because’** or **‘for’**.\n3. **Example** – *How can we see this?* A specific case that provides evidence you can check.\n\nWithout a reason and an example, all you have is an **unsupported claim** – and that will not persuade anyone who does not already agree with you.\n\nYou will debate **two questions**: firstly, ‘**Are economic sanctions an effective tool for peace?**’, and secondly, ‘**Does a neutral small state need an army?**’ You already have the background knowledge: from [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]], you know the idea of promoting peace through economic interdependence; from [[modul:wirtschaft-politik-29-uno-menschenrechte]], the UN with its Security Council and veto problem; and from [[modul:wirtschaft-politik-30-konflikte-verstehen]], the escalation ladder and the actors. All you need now is the toolbox – then you will be ready for the debate."
+  },
+  {
+   "type": "text",
+   "title": "The tools for securing peace",
+   "body": "What can the international community do to maintain or restore peace? You should know five tools – ordered from **‘soft’** to **‘hard’**:\n\n- **Diplomacy and mediation:** The oldest and softest tool – talking, negotiating and seeking compromises. When the parties can no longer deal directly with each other, a **neutral mediator** can help: an uninvolved state or an organisation such as the OSCE ([[modul:wirtschaft-politik-30-konflikte-verstehen]]) that brings both sides to the negotiating table.\n- **Economic sanctions:** Trade, bank accounts and travel are restricted to build **pressure without weapons**. You know the logic from [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]] – but here it works in reverse: the same interdependence that promotes peace becomes a source of pressure when a state breaks the rules.\n- **Peacekeeping (Blue Helmets):** The UN sends peacekeeping troops – recognisable by their blue helmets – to **monitor ceasefires** and keep the parties to a conflict apart. Remember: traditional Blue Helmet missions need a **Security Council mandate** and the **consent of the parties to the conflict** – Blue Helmets do not enforce peace; they safeguard an agreed peace.\n- **International courts:** The **International Court of Justice (ICJ)** settles disputes **between states** – for example, over borders. The **International Criminal Court** tries **individual people** accused of the most serious crimes, such as war crimes.\n- **Military action under a UN mandate:** The strongest measure and last resort: the Security Council can authorise military intervention as an extreme measure.\n\nTwo points apply to the whole toolbox. Firstly, Blue Helmets and military action require the **Security Council** – and that is where the **veto problem** from [[modul:wirtschaft-politik-29-uno-menschenrechte]] arises; the harder tools are therefore blocked precisely when a veto power is involved. Secondly, the tools **are not mutually exclusive** – negotiations, sanctions and monitoring usually take place at the same time."
+  },
+  {
+   "type": "schaubild",
+   "title": "The toolbox at a glance",
+   "szene": {
+    "elemente": [
+     {
+      "id": "titel",
+      "x": 280,
+      "y": 0,
+      "width": 523.28,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1543073357,
+      "type": "text",
+      "text": "The tools for securing peace",
+      "fontSize": 28,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "untertitel",
+      "x": 334,
+      "y": 48,
+      "width": 421.66,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#4a6785",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 223684867,
+      "type": "text",
+      "text": "ordered from ‘soft’ to ‘hard’ – no tool always works",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "card1-kopf",
+      "x": 0,
+      "y": 120,
+      "width": 215,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#2b8a3e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2091916461,
+      "type": "rectangle"
+     },
+     {
+      "id": "card1-text",
+      "x": 0,
+      "y": 220,
+      "width": 215,
+      "height": 220,
+      "angle": 0,
+      "strokeColor": "#2b8a3e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2070876323,
+      "type": "rectangle"
+     },
+     {
+      "id": "card2-kopf",
+      "x": 255,
+      "y": 120,
+      "width": 215,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1c7ed6",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 54656781,
+      "type": "rectangle"
+     },
+     {
+      "id": "card2-text",
+      "x": 255,
+      "y": 220,
+      "width": 215,
+      "height": 220,
+      "angle": 0,
+      "strokeColor": "#1c7ed6",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1227555907,
+      "type": "rectangle"
+     },
+     {
+      "id": "card3-kopf",
+      "x": 510,
+      "y": 120,
+      "width": 215,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "#74c0fc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1982371181,
+      "type": "rectangle"
+     },
+     {
+      "id": "card3-text",
+      "x": 510,
+      "y": 220,
+      "width": 215,
+      "height": 220,
+      "angle": 0,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "#74c0fc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1315406819,
+      "type": "rectangle"
+     },
+     {
+      "id": "card4-kopf",
+      "x": 765,
+      "y": 120,
+      "width": 215,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#5c7185",
+      "backgroundColor": "#cfd8e2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1353539533,
+      "type": "rectangle"
+     },
+     {
+      "id": "card4-text",
+      "x": 765,
+      "y": 220,
+      "width": 215,
+      "height": 220,
+      "angle": 0,
+      "strokeColor": "#5c7185",
+      "backgroundColor": "#cfd8e2",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1664290691,
+      "type": "rectangle"
+     },
+     {
+      "id": "card5-kopf",
+      "x": 1020,
+      "y": 120,
+      "width": 215,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#b3c4d6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1760157229,
+      "type": "rectangle"
+     },
+     {
+      "id": "card5-text",
+      "x": 1020,
+      "y": 220,
+      "width": 215,
+      "height": 220,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#b3c4d6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1506551587,
+      "type": "rectangle"
+     },
+     {
+      "id": "skala-pfeil",
+      "x": 0.5,
+      "y": 500,
+      "width": 1234,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 365400205,
+      "type": "arrow",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1234,
+        0
+       ]
+      ],
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+     },
+     {
+      "id": "label-weich",
+      "x": 0,
+      "y": 530,
+      "width": 47.75,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#267936",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 950094531,
+      "type": "text",
+      "text": "soft",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "label-hart",
+      "x": 1190,
+      "y": 530,
+      "width": 31.09,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 352319213,
+      "type": "text",
+      "text": "hard",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "hinweiskasten",
+      "x": 0,
+      "y": 600,
+      "width": 1235,
+      "height": 210,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "#e8f1f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 877722211,
+      "type": "rectangle"
+     },
+     {
+      "id": "merkzeile",
+      "x": 240,
+      "y": 850,
+      "width": 560.99,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 823955789,
+      "type": "text",
+      "text": "Which tool works when? That is exactly what your debate is about.",
+      "fontSize": 20,
+      "fontFamily": 6,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "cuI1nfMYPLyHNU_NXzqmt",
+      "x": 6.01,
+      "y": 158.75,
+      "width": 202.97,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#237133",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1560978093,
+      "type": "text",
+      "text": "Diplomacy and mediation",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card1-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "fFKM4w-c2hq0Rmqw2A2B8",
+      "x": 7.78,
+      "y": 312.5,
+      "width": 199.45,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#237133",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1113310477,
+      "type": "text",
+      "text": "talk and negotiate – with a neutral mediator if needed",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card1-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "Nje1lTnAHzFkLoHBcdzU0",
+      "x": 318.37,
+      "y": 147.5,
+      "width": 88.25,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#135895",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2048498541,
+      "type": "text",
+      "text": "Economic\nsanctions",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card2-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "ktx7M_zmtelkdqTuzn8w5",
+      "x": 273.68,
+      "y": 303.75,
+      "width": 177.65,
+      "height": 52.5,
+      "angle": 0,
+      "strokeColor": "#135895",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2089657805,
+      "type": "text",
+      "text": "restrict trade, accounts and travel – pressure without weapons",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card2-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "DB09u48eiyySNfzZdcDQD",
+      "x": 520.79,
+      "y": 158.75,
+      "width": 193.41,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#081f36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 2094097453,
+      "type": "text",
+      "text": "Peacekeeping (Blue Helmets)",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card3-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "FEvrhLFzhuIl5dBse4sMy",
+      "x": 540.97,
+      "y": 303.75,
+      "width": 153.06,
+      "height": 52.5,
+      "angle": 0,
+      "strokeColor": "#081f36",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 248403597,
+      "type": "text",
+      "text": "UN troops monitor ceasefires – with both sides' consent",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card3-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "__82RKaqe7pICyU6kJLWB",
+      "x": 789.29,
+      "y": 158.75,
+      "width": 166.41,
+      "height": 22.5,
+      "angle": 0,
+      "strokeColor": "#4b5c6d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 222166253,
+      "type": "text",
+      "text": "International courts",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card4-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "qvfNM4dOOKZynZV0gu8O_",
+      "x": 785.8,
+      "y": 303.75,
+      "width": 173.4,
+      "height": 52.5,
+      "angle": 0,
+      "strokeColor": "#4b5c6d",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1068095309,
+      "type": "text",
+      "text": "ICJ: disputes between states – Criminal Court: tries individuals",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card4-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "nQxuvX9SSedRk5iEcBjzc",
+      "x": 1038.52,
+      "y": 147.5,
+      "width": 177.96,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1080780205,
+      "type": "text",
+      "text": "Military action with a UN mandate",
+      "fontSize": 18,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card5-kopf",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "LMihUvY2Fd777YQZjEFEk",
+      "x": 1027.96,
+      "y": 312.5,
+      "width": 199.08,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 581707789,
+      "type": "text",
+      "text": "the strongest measure, a last resort – needs a UN Security Council resolution",
+      "fontSize": 14,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "card5-text",
+      "autoResize": true,
+      "lineHeight": 1.25
+     },
+     {
+      "id": "zOlJ2ozHZWmwXXGd-6pxl",
+      "x": 234.73,
+      "y": 675,
+      "width": 765.53,
+      "height": 60,
+      "angle": 0,
+      "strokeColor": "#1e3a5f",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": null,
+      "seed": 1483054701,
+      "type": "text",
+      "text": "Two points apply to the whole toolbox:\n· Blue Helmets and military action need a UN Security Council mandate – any veto power can block it.\n· Several tools are usually combined: negotiation, pressure and monitoring are not mutually exclusive.",
+      "fontSize": 16,
+      "fontFamily": 6,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hinweiskasten",
+      "autoResize": true,
+      "lineHeight": 1.25
+     }
+    ]
+   },
+   "beschreibung": "The diagram shows the ‘tools for securing peace’: five tools the international community can use, ordered from ‘soft’ to ‘hard’ – no tool always works. An arrow below the five panels runs from ‘soft’ on the left to ‘hard’ on the right, showing this progression. Key points: • Diplomacy and mediation (the softest tool): talk and negotiate – with a neutral mediator at the table if needed. • Economic sanctions: restrict trade, bank accounts and travel – build pressure without weapons. • Peacekeeping (Blue Helmets): UN troops monitor ceasefires – with both sides' consent. • International courts: the ICJ settles disputes between states, while the Criminal Court tries individuals. • Military action under a UN mandate (the hardest tool): the last resort, requiring a UN Security Council resolution. Two points apply to the whole toolbox: Blue Helmets and military action need a UN Security Council mandate, which any veto power can block; and several tools are usually combined – negotiation, pressure and monitoring are not mutually exclusive. The order from ‘soft’ to ‘hard’ says nothing about effectiveness. The closing message is: which tool works when? That is exactly what your debate is about.",
+   "credit": "Eigene Darstellung, EveryCate, CC BY-SA 4.0"
+  },
+  {
+   "type": "text",
+   "title": "Neutrality as a different approach",
+   "body": "Alongside the toolbox, there is a very different approach to war and peace: **neutrality**. A neutral state **does not take part in other states' wars** and **does not join a military alliance** – it therefore stays outside the blocs permanently.\n\nThe best-known example is **Switzerland**: its permanent neutrality has been internationally recognised for over 200 years. An important point for the debate: neutral does **not mean having no opinion**, nor does it mean doing nothing – Switzerland mediates in conflicts, offers its good offices and hosts negotiations; many international organisations are based in Genf. And Switzerland is neutral but maintains **its own army** for defence – neutrality and armed forces are not mutually exclusive.\n\nWhat about Liechtenstein? This is where your second debate question gets interesting: **Liechtenstein has had no army of its own since 1868** – it was abolished then mainly to save money. Since then, the small state has relied on other layers of protection: **international law** and its prohibition on the use of force ([[modul:wirtschaft-politik-30-konflikte-verstehen]]), close **interdependence** and good relations with its neighbours ([[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]]), and membership of international organisations such as the UN ([[modul:wirtschaft-politik-29-uno-menschenrechte]]).\n\nTreat this fact as **food for thought, not an answer**: whether a neutral small state is better off with or without an army is exactly the question you will debate – and there are serious arguments on both sides."
+  },
+  {
+   "type": "text",
+   "title": "Debate question 1: Are economic sanctions an effective tool for peace?",
+   "body": "Here are three arguments on each side – all following the structure **claim – reason – example**. Remember: the arguments are framed **in general terms**; this module makes no claim about whether sanctions are working in any particular ongoing conflict – that can usually only be judged in hindsight. All country examples are fictional.\n\n**FOR: Sanctions are an effective tool for peace**\n\n1. **Claim:** Sanctions hit an aggressor's economy where war is financed. **Reason:** War costs enormous sums – losing export revenue and access to technology makes it harder to finance rearmament. **Example:** If the fictional country Rotland loses its main buyers of raw materials, the state budget loses billions – every tank factory then competes with wages and pensions for funding.\n2. **Claim:** Sanctions send a clear signal without using weapons. **Reason:** They visibly show that breaking the rules has a price – without a single shot being fired, and with the option of lifting them if the state changes course. **Example:** Even states without armies can take part – a small state can freeze accounts and restrict trade, taking a stand without fighting.\n3. **Claim:** Sanctions strengthen international unity. **Reason:** When many states act together, they create more pressure than each could exert alone – and the aggressor sees that it is isolated. **Example:** If dozens of states join a round of sanctions against Rotland, its leadership will struggle to find banks and ports willing to handle its business.\n\n**AGAINST: Sanctions are not an effective tool for peace**\n\n1. **Claim:** Sanctions often hurt the population rather than the leadership. **Reason:** Rising prices and shortages affect the most vulnerable first – the ruling elite usually finds ways to keep itself supplied. **Example:** In Rotland, medicines and spare parts become scarce and expensive, while the government arranges its imports through indirect routes.\n2. **Claim:** Sanctions can be circumvented through third countries. **Reason:** Goods and money can flow through countries that do not join the sanctions – the fewer states take part, the bigger the gaps. **Example:** The fictional country Gelbland stays out and becomes a trading hub: Rotland simply buys the same technology there – more expensive, but still available.\n3. **Claim:** Sanctions work too slowly to stop a war. **Reason:** States build up stocks, adapt production and find new trading partners – it often takes years for the pressure to take effect. **Example:** Rotland's stockpiles and alternative suppliers keep its economy afloat for a long time – sanctions alone do not halt an ongoing attack.\n\n**Remember:** Both sides follow the argument structure properly. A debate is not won by whoever speaks loudest – it is won by someone who has a firm grasp of their reasons and examples and can respond to objections."
+  },
+  {
+   "type": "text",
+   "title": "Debate question 2: Does a neutral small state need an army?",
+   "body": "The second question brings the discussion closer to your own country – but remains a general one: it concerns **a** neutral small state, rather than making a recommendation for any particular country. Again, there are three arguments on each side, following the structure.\n\n**FOR: A neutral small state needs an army**\n\n1. **Claim:** Self-defence is central to sovereignty. **Reason:** A state that cannot protect its territory even symbolically makes its independence entirely dependent on others. **Example:** Neutral Switzerland shows that the two can go together: recognised neutrality and an army of its own for defence.\n2. **Claim:** Even a small army increases deterrence. **Reason:** It makes an attack more costly and risky – an aggressor has to expect resistance rather than a walkover. **Example:** The fictional country Bergtal, with a small, well-trained militia, forces any aggressor to commit forces – that alone can make an attack unattractive.\n3. **Claim:** An army enables a state to cooperate in alliances and provide assistance. **Reason:** A state that brings capabilities of its own – even just medical services, logistics or disaster response – is more likely to receive help in an emergency and can take responsibility in international missions. **Example:** Bergtal's mountain specialists are in demand for exercises and relief operations – creating partnerships that matter in an emergency.\n\n**AGAINST: A neutral small state does not need an army**\n\n1. **Claim:** A small state cannot defend itself militarily anyway. **Reason:** A tiny army stands no chance against a major aggressor's armed forces – it ties up money without offering real protection. **Example:** The fictional country Felsland, with only a few tens of thousands of inhabitants, could resist for only hours even with the greatest effort – so protection has to come from elsewhere anyway.\n2. **Claim:** The money is better spent on diplomacy and the economy. **Reason:** A small state gains security through relationships, mediation and economic importance – every franc spent on barracks is a franc unavailable for these purposes. **Example:** Felsland invests in embassies, international organisations and its business environment – making it more valuable as a partner than a company of soldiers ever could.\n3. **Claim:** International law and interdependence offer better protection than weapons of one's own. **Reason:** The UN Charter's prohibition on the use of force, membership of international organisations and close economic interdependence make an attack on a small state extremely costly politically. **Example:** An attack on the closely interconnected Felsland would immediately affect all its partners' interests – this shield of relationships is broader than a small army could ever be.\n\n**And Liechtenstein?** It has lived without an army since 1868 – this module does not decide whether that makes it a model or a special case. **Both sets of arguments are ready: you will weigh them up in your debate.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz1",
+   "title": "Quiz: Tools and neutrality",
+   "teilkompetenzen": [
+    "wp.argumentieren.friedenssicherung-abwaegen",
+    "wp.frieden.uno-erklaeren",
+    "wp.argumentieren.argumente-bauen"
+   ],
+   "intro": "The toolbox, neutrality and argument structure – show that you have what you need for the debate. You can repeat the quiz as often as you like; your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Which is the ‘softest’ tool for securing peace?",
+     "options": [
+      {
+       "text": "Economic sanctions."
+      },
+      {
+       "text": "Peacekeeping with Blue Helmets."
+      },
+      {
+       "text": "Military action under a UN mandate."
+      },
+      {
+       "text": "Diplomacy and mediation.",
+       "correct": true
+      }
+     ],
+     "explanation": "Diplomacy and mediation sit at the soft end of the toolbox: talking and negotiating, with a neutral mediator at the table if needed – without any coercion. Sanctions already exert economic pressure, Blue Helmets place troops in the conflict zone, and military action under a UN mandate is the strongest measure and last resort. Remember the order from soft to hard – it provides a framework for much of the debate."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "What are economic sanctions?",
+     "options": [
+      {
+       "text": "Another term for a declaration of war."
+      },
+      {
+       "text": "Restrictions on trade, bank accounts or travel intended to put pressure on a state without using weapons.",
+       "correct": true
+      },
+      {
+       "text": "Payments to an aggressor to make it end its attack."
+      },
+      {
+       "text": "UN advertising campaigns for peace."
+      }
+     ],
+     "explanation": "Sanctions use economic interdependence to exert pressure: trade is restricted, accounts are frozen and travel is banned – pressure without weapons that can be lifted if the state changes course. They are not a declaration of war – they are intended to replace armed action. An aggressor is certainly not being paid, and sanctions have nothing to do with advertising campaigns."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "What characterises traditional UN Blue Helmet missions?",
+     "options": [
+      {
+       "text": "They recapture territory and enforce peace by armed force."
+      },
+      {
+       "text": "They consist of private security companies working for individual states."
+      },
+      {
+       "text": "They monitor ceasefires – with a Security Council mandate and the consent of the parties to the conflict.",
+       "correct": true
+      },
+      {
+       "text": "They are the army of the country where they are stationed, dressed in blue uniforms."
+      }
+     ],
+     "explanation": "Blue Helmets safeguard an agreed peace; they do not enforce one: traditional missions need a UN Security Council mandate and the consent of the parties to the conflict – they then monitor ceasefires and keep the sides apart. The troops are provided by UN member states, not private companies – and they are not the same as the host country's army; their strength lies in their impartiality."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "How do the International Court of Justice (ICJ) and the International Criminal Court differ?",
+     "options": [
+      {
+       "text": "The ICJ settles disputes between states – the Criminal Court tries individual people.",
+       "correct": true
+      },
+      {
+       "text": "The ICJ tries individuals – the Criminal Court tries states."
+      },
+      {
+       "text": "Both deal only with economic disputes."
+      },
+      {
+       "text": "Both are NATO bodies."
+      }
+     ],
+     "explanation": "Remember the division of roles: the ICJ settles disputes between states – for example, over borders. The International Criminal Court tries individuals accused of the most serious crimes, such as war crimes. Reversing these roles is the most common mistake. Neither deals only with economic disputes, and they do not belong to NATO – they are part of the international legal order."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "What does Switzerland's neutrality mean?",
+     "options": [
+      {
+       "text": "Switzerland is not allowed to express its own opinion on conflicts."
+      },
+      {
+       "text": "It does not take part in other states' wars or join a military alliance – but it does mediate and host negotiations.",
+       "correct": true
+      },
+      {
+       "text": "Switzerland has no army of its own because of its neutrality."
+      },
+      {
+       "text": "Neutrality means never signing treaties with other states."
+      }
+     ],
+     "explanation": "Neutral means not taking part in other states' wars and not joining military alliances. That does not leave Switzerland without opinions or inactive – it mediates, offers good offices and hosts many international organisations in Genf. The most common mistake is in the army answer: neutral Switzerland does maintain an army of its own for defence – neutrality and armed forces are not mutually exclusive. And of course Switzerland signs treaties, as you know from [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]]."
+    },
+    {
+     "id": "q6",
+     "type": "single_choice",
+     "prompt": "Since when has Liechtenstein had no army of its own?",
+     "options": [
+      {
+       "text": "Since 1806."
+      },
+      {
+       "text": "Since 1924 – when the customs treaty came into effect."
+      },
+      {
+       "text": "Since 1990 – when it joined the UN."
+      },
+      {
+       "text": "Since 1868 – the army was abolished then mainly to save money.",
+       "correct": true
+      }
+     ],
+     "explanation": "Liechtenstein abolished its army in 1868 – costs were the main deciding factor. The other dates belong to different chapters of the country's history: in 1924, the customs treaty with Switzerland came into effect ([[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]]), and in 1990, Liechtenstein became a UN member ([[modul:wirtschaft-politik-29-uno-menschenrechte]]). For the debate, 1868 is food for thought, not a verdict: whether a small state does well without an army is exactly the second debate question."
+    },
+    {
+     "id": "q7",
+     "type": "single_choice",
+     "prompt": "Why can the ‘hard’ tools – Blue Helmets and military action – be blocked?",
+     "options": [
+      {
+       "text": "They need a UN Security Council mandate – and any veto power can block that mandate.",
+       "correct": true
+      },
+      {
+       "text": "The General Assembly only grants such mandates unanimously."
+      },
+      {
+       "text": "Blue Helmets may only ever be deployed in countries with veto power."
+      },
+      {
+       "text": "NATO must approve every UN mandate."
+      }
+     ],
+     "explanation": "Blue Helmet missions and military action need a Security Council resolution – and the veto power from [[modul:wirtschaft-politik-29-uno-menschenrechte]] applies there: a single veto power can block any mandate, especially if it is itself involved or protects a party to the conflict. The General Assembly does not grant such mandates at all (its resolutions are recommendations), there is no ban on deployments outside countries with veto power – and NATO has no say in UN mandates."
+    },
+    {
+     "id": "q8",
+     "type": "single_choice",
+     "prompt": "What distinguishes a complete argument from an unsupported claim?",
+     "options": [
+      {
+       "text": "An argument is presented more loudly and forcefully."
+      },
+      {
+       "text": "A claim is always false, and an argument is always true."
+      },
+      {
+       "text": "An argument supports the claim with a reason and an example – an unsupported claim has neither.",
+       "correct": true
+      },
+      {
+       "text": "An argument needs at least five sentences."
+      }
+     ],
+     "explanation": "The structure from [[modul:wirtschaft-politik-09-argumentieren-preisregulierung]] makes the difference: a claim plus a reason (‘because’/‘for’) plus an example that can be checked – only all three parts together form an argument. Volume cannot replace reasoning, and length is not a criterion: three lines can make a sound argument. Nor does truth determine the form – a claim may happen to be true and still lack justification; that is precisely why the matching task asks you to assess the structure, not whether you agree."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-zuordnen-sanktionen",
+   "title": "Matching: For, against – or an unsupported claim?",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.friedenssicherung-abwaegen"
+   ],
+   "intro": "Assign each statement about the debate question ‘Are economic sanctions an effective tool for peace?’ to the correct category: **argument for** (supporting their effectiveness, with a reason), **argument against** (opposing their effectiveness, with a reason) or **unsupported claim** (either side – without a reason or evidence). There are three arguments for, three arguments against and four unsupported claims. What counts is the **structure** of the statement, not whether you agree with its content. All countries are fictional.",
+   "modus": "wortbank",
+   "text": "‘Sanctions hit an aggressor's economy because, without export revenue, it lacks the money for rearmament – Rotland's state budget loses billions when the buyers of its raw materials disappear.’ {{1}}\n‘Sanctions never achieve anything anyway; everyone knows that.’ {{2}}\n‘Sanctions often hurt the population rather than the leadership because rising prices and shortages affect the most vulnerable first – in Rotland, medicines become scarce while the leadership arranges its imports through indirect routes.’ {{3}}\n‘Anyone who criticises sanctions automatically sides with the aggressor.’ {{4}}\n‘Sanctions send a signal without weapons because they visibly put a price on breaking the rules – even states without armies can freeze accounts and take a stand.’ {{5}}\n‘Sanctions work too slowly to stop a war because states build up stocks and find new trading partners – Rotland's stockpiles keep its economy afloat for years.’ {{6}}\n‘Forcefulness is the only language that is understood.’ {{7}}\n‘Sanctions strengthen international unity because joint pressure is more effective than individual measures – if dozens of states join in, Rotland's leadership struggles to find banks to handle its business.’ {{8}}\n‘Sanctions can be circumvented through third countries because goods can flow through countries that do not take part – the fictional country Gelbland becomes a hub for Rotland's purchases.’ {{9}}\n‘In the end, these things always sort themselves out.’ {{10}}",
+   "luecken": [
+    {
+     "antworten": [
+      "Argument for",
+      "an argument for",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "argument for sanctions",
+      "argument in favour of sanctions",
+      "argument in favor of sanctions"
+     ]
+    },
+    {
+     "antworten": [
+      "Unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "bare claim",
+      "a bare claim",
+      "bare assertion",
+      "a bare assertion",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim"
+     ]
+    },
+    {
+     "antworten": [
+      "Argument against",
+      "an argument against",
+      "argument against sanctions",
+      "an argument against sanctions",
+      "con argument",
+      "a con argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument"
+     ]
+    },
+    {
+     "antworten": [
+      "Unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "bare claim",
+      "a bare claim",
+      "bare assertion",
+      "a bare assertion",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim"
+     ]
+    },
+    {
+     "antworten": [
+      "Argument for",
+      "an argument for",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "argument for sanctions",
+      "argument in favour of sanctions",
+      "argument in favor of sanctions"
+     ]
+    },
+    {
+     "antworten": [
+      "Argument against",
+      "an argument against",
+      "argument against sanctions",
+      "an argument against sanctions",
+      "con argument",
+      "a con argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument"
+     ]
+    },
+    {
+     "antworten": [
+      "Unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "bare claim",
+      "a bare claim",
+      "bare assertion",
+      "a bare assertion",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim"
+     ]
+    },
+    {
+     "antworten": [
+      "Argument for",
+      "an argument for",
+      "argument in favour",
+      "an argument in favour",
+      "argument in favor",
+      "an argument in favor",
+      "pro argument",
+      "a pro argument",
+      "pro-argument",
+      "argument for sanctions",
+      "argument in favour of sanctions",
+      "argument in favor of sanctions"
+     ]
+    },
+    {
+     "antworten": [
+      "Argument against",
+      "an argument against",
+      "argument against sanctions",
+      "an argument against sanctions",
+      "con argument",
+      "a con argument",
+      "contra argument",
+      "a contra argument",
+      "contra-argument"
+     ]
+    },
+    {
+     "antworten": [
+      "Unsupported claim",
+      "an unsupported claim",
+      "unsupported assertion",
+      "an unsupported assertion",
+      "bare claim",
+      "a bare claim",
+      "bare assertion",
+      "a bare assertion",
+      "mere claim",
+      "a mere claim",
+      "unsubstantiated claim",
+      "an unsubstantiated claim"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-argument-zusammensetzen",
+   "title": "Put the argument back together",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen"
+   ],
+   "intro": "An argument in favour of sanctions has been broken into its parts. Drag the correct terms into the gaps (on a phone: tap the word first, then the gap). This is about **putting the argument together using the structure** – not whether you agree with it. **Watch out:** Two words in the selection do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "{{1}}: ‘Economic sanctions send a clear signal from the international community.’\n{{2}}: ‘This is {{3}} breaking the rules carries a price everyone can see – without using any {{4}}.’\n{{5}}: ‘For example, even states without armies can take part – a {{6}} can freeze accounts and restrict trade, taking a stand.’\nWithout the reason and the example, only an unsupported {{7}} would remain. All three parts are needed to form the complete {{8}}.",
+   "luecken": [
+    {
+     "antworten": [
+      "Claim",
+      "a claim",
+      "the claim",
+      "assertion",
+      "an assertion",
+      "the assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "Reason",
+      "a reason",
+      "the reason",
+      "justification",
+      "a justification",
+      "the justification",
+      "explanation",
+      "an explanation",
+      "the explanation"
+     ]
+    },
+    {
+     "antworten": [
+      "because"
+     ]
+    },
+    {
+     "antworten": [
+      "weapons",
+      "arms"
+     ]
+    },
+    {
+     "antworten": [
+      "Example",
+      "an example",
+      "the example"
+     ]
+    },
+    {
+     "antworten": [
+      "small state",
+      "a small state",
+      "small country",
+      "a small country",
+      "microstate",
+      "a microstate"
+     ]
+    },
+    {
+     "antworten": [
+      "Claim",
+      "a claim",
+      "the claim",
+      "assertion",
+      "an assertion",
+      "the assertion"
+     ]
+    },
+    {
+     "antworten": [
+      "argument structure",
+      "the argument structure",
+      "structure",
+      "the structure",
+      "argument framework",
+      "the argument framework",
+      "framework",
+      "the framework",
+      "argument blueprint",
+      "the argument blueprint",
+      "blueprint",
+      "the blueprint"
+     ]
+    }
+   ],
+   "ablenker": [
+    "for",
+    "headline"
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Going further: Your contribution to the debate",
+   "teilkompetenzen": [
+    "wp.argumentieren.argumente-bauen",
+    "wp.argumentieren.friedenssicherung-abwaegen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Your short argument for the debate: write your own short argument on the second question – ‘Does a neutral small state need an army?’ – following the structure exactly: (1) a clear claim (FOR OR AGAINST – you are welcome to choose the side you do not agree with), (2) a reason using ‘because’ or ‘for’, (3) a specific example. Draw on what you know from [[modul:wirtschaft-politik-28-eu-ewr-binnenmarkt]], [[modul:wirtschaft-politik-29-uno-menschenrechte]] and [[modul:wirtschaft-politik-30-konflikte-verstehen]] – for example, interdependence, international law, alliances or the veto problem – or invent a suitable fictional scenario. Avoid claims about the course or outcome of ongoing conflicts.",
+     "hint": "Use the structure as a checklist: does your first sentence take a clear position on the debate question? Does your explanation give a genuine reason – rather than a supposed reason such as ‘because everyone knows that’? Is your example specific and checkable? Ideas for the supporting side: sovereignty, deterrence and the ability to cooperate in alliances. Ideas for the opposing side: a tiny army's lack of a chance, money better spent on diplomacy and the economy, and protection through international law and interdependence. Liechtenstein's lack of an army since 1868 can provide food for thought for both sides.",
+     "solution": "There is no model solution – check your argument against these criteria: (1) The claim is a complete statement with a clear position. (2) The reason follows logically from the claim – test it: does ‘claim, because reason’ make a meaningful sentence? (3) The example supports that exact reason and is fictional, historical or a documented fact – not speculation about ongoing conflicts. Example structure for the supporting side: ‘Even a neutral small state needs an army, because even limited defensive capability makes an attack more costly and risky – neutral Switzerland has combined neutrality with an army of its own for centuries.’ Example structure for the opposing side: ‘A neutral small state does not need an army, because its protection comes from international law and interdependence anyway, and any tiny army would stand no chance against a major aggressor – Liechtenstein has lived without an army since 1868 and relies instead on international organisations and close partnerships.’ Both examples are equally valid – you decide which side to represent."
+    }
+   ]
+  }
+ ]
+}
