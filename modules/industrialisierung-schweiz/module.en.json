@@ -1,0 +1,326 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul industrialisierung-schweiz --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:cc459bfc00a84af9d5df42d3f823c3ca2e4b6a5bb8c6ded5be0bfa38421724d9",
+  "masterCommit": "e4e60e8",
+  "hintsHash": null,
+  "generatedAt": "2026-10-25",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:af7b8f38ff63761b6fedc24da965af4441f49e6c1d9d936d31242495cddcc7b7"
+ },
+ "schemaVersion": 3,
+ "id": "industrialisierung-schweiz",
+ "title": "The industrialisation of Switzerland",
+ "description": "From the spinning wheel in a farmhouse to the factory, from the Spanisch-Brötli-Bahn to the Gotthardtunnel: you will discover why Switzerland industrialised so early, how people's lives changed – and how the Factory Act of 1877 responded to child labour and the social question.",
+ "curricula": [
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.5.2.a",
+     "description": "Die Schülerinnen und Schüler können die Entwicklung der Erwerbssektoren am Beispiel der Schweiz aufzeigen und erläutern (z.B. Veränderungen der Anzahl Bauernhöfe in der Schulgemeinde, Entwicklung der Anzahl Beschäftigten in den drei Erwerbssektoren im 19. und 20. Jahrhundert in der Schweiz)."
+    },
+    {
+     "code": "RZG.6.2.b",
+     "description": "Die Schülerinnen und Schüler können zu einem Aspekt der Industrialisierung verschiedene Informationen finden und miteinander vergleichen (z.B. ein Bild, eine Textquelle, ein Erlebnisbericht zur Dampfmaschine)."
+    },
+    {
+     "code": "RZG.5.2.c",
+     "description": "Die Schülerinnen und Schüler können Auswirkungen von wirtschaftlichen Veränderungen auf einzelne Menschen erklären (z.B. Technisierung, Inflation, Hochkonjunktur, Energieknappheit)."
+    }
+   ]
+  }
+ ],
+ "language": "en",
+ "learningObjectives": [
+  "I can explain why industrialisation began earlier in Switzerland than in most countries in continental Europe (water power, capital from trade, no guilds in the countryside).",
+  "I can describe the shift from working at home to working in factories in the textile industry and explain its effects on individual people.",
+  "I can explain the importance of railway building – from the Spanisch-Brötli-Bahn in 1847 to the Gotthardbahn in 1882 – for Switzerland's economic development.",
+  "I can explain how the social question led to the Federal Factory Act of 1877 and the emergence of the labour movement."
+ ],
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "industrialisation",
+  "Switzerland",
+  "textile industry",
+  "home-based work",
+  "putting-out system",
+  "factory",
+  "Spanisch-Brötli-Bahn",
+  "Gotthardtunnel",
+  "railway",
+  "child labour",
+  "Factory Act 1877",
+  "social question",
+  "urbanisation",
+  "labour movement"
+ ],
+ "authors": [
+  "EveryCate"
+ ],
+ "sources": [
+  {
+   "title": "Historisches Lexikon der Schweiz (HLS): Industrialisierung",
+   "url": "https://hls-dhs-dss.ch/de/articles/013824/"
+  },
+  {
+   "title": "Historisches Lexikon der Schweiz (HLS): Fabrikgesetze",
+   "url": "https://hls-dhs-dss.ch/de/articles/013804/"
+  },
+  {
+   "title": "Historisches Lexikon der Schweiz (HLS): Textilindustrie",
+   "url": "https://hls-dhs-dss.ch/de/articles/013957/"
+  },
+  {
+   "title": "Historisches Lexikon der Schweiz (HLS): Spinnerei im Hard",
+   "url": "https://hls-dhs-dss.ch/de/articles/048184/"
+  },
+  {
+   "title": "Geschichte der Sozialen Sicherheit: Das Fabrikgesetz von 1877",
+   "url": "https://www.geschichtedersozialensicherheit.ch/synthese/1877"
+  },
+  {
+   "title": "Wikipedia: Schweizerische Nordbahn (Spanisch-Brötli-Bahn)",
+   "url": "https://de.wikipedia.org/wiki/Schweizerische_Nordbahn"
+  },
+  {
+   "title": "Blog des Schweizerischen Nationalmuseums: Durchbruch am Gotthard",
+   "url": "https://blog.nationalmuseum.ch/2019/10/durchbruch-am-gotthard/"
+  },
+  {
+   "title": "Video: Philipp Löpfe – Industrialisierung 5: Industrialisierung der Schweiz bis 1850",
+   "url": "https://www.youtube.com/watch?v=CReniWNvjxM"
+  },
+  {
+   "title": "Video: MrWissen2go Geschichte – Wie verlief die Industrielle Revolution?",
+   "url": "https://www.youtube.com/watch?v=QRjH3bxsRao"
+  },
+  {
+   "title": "Bild: Seidenstoff-Weberei Winterthur um 1880, Foto: Johann Linck (Winterthurer Bibliotheken), Wikimedia Commons, CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Winterthurer_Bibliotheken_041405_Johann_Linck_1831-1900_Seidenstoff-Weberei_um_1880.tif"
+  },
+  {
+   "title": "Bild: Bahnhof Baden um 1850 (Graphische Sammlung Zentralbibliothek Zürich), Wikimedia Commons, Public Domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Bahnhof_Baden_ca_1850.jpg"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "requires": [],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "A country changes – radically",
+   "body": "Take a quick look around you: machines wove your T-shirt, your train runs (almost) to the minute, and your mid-morning snack comes from the supermarket. Around 200 years ago, none of this could be taken for granted. Most families in Switzerland lived off their own plot of land – and earned a little extra by spinning and weaving cotton in the main room of their home.\n\nThen, within a few decades, almost everything changed: factories with smoking chimneys sprang up amid farmland, the first railway steamed from Zürich to Baden, and children spent twelve hours a day at noisy machines. Small Switzerland – with no coal deposits and no access to the sea – was one of the earliest countries in Europe to industrialise after Great Britain.\n\nIn this module, you will find out:\n\n- **Why** industrialisation began so early in Switzerland\n- **How** home-based work gave way to factory work\n- **What** the railway had to do with Switzerland's economic rise\n- **What price** men, women and children working in factories paid – and how the country began to change with the Factory Act of 1877"
+  },
+  {
+   "type": "video",
+   "title": "Video: Why Switzerland industrialised so early",
+   "provider": "youtube",
+   "videoId": "CReniWNvjxM",
+   "description": "As you watch, focus on three things: what role did water power from rivers and streams, capital from trading families, and the absence of guild rules in the countryside play? And think about this: what did the shift from the spinning wheel at home to the machine in the factory mean for a farming family?",
+   "transcript": "In around seven minutes, Swiss economic journalist Philipp Löpfe explains why Switzerland was one of the earliest countries in continental Europe to industrialise, following Great Britain's lead. The focus is on the textile industry: the shift from spinning and weaving in rural homes to mechanised factory production. The video shows Switzerland's main advantages as a location for industry: water power from its many rivers and streams, available capital from trade, and the absence of restrictive guild regulations in the countryside."
+  },
+  {
+   "type": "text",
+   "title": "From the farmhouse to the factory",
+   "body": "Before factories existed, textile production operated through the **putting-out system**: a merchant brought raw cotton to farming families in the countryside. Women, men and children spun and wove in the main room of their home, alongside their farm work. The merchant collected the yarn and cloth and sold them on. This **home-based work** was widespread in areas such as the Zürcher Oberland and eastern Switzerland.\n\nThe big turning point came around 1800: spinning machines had been invented in England that worked much faster and more cheaply than any spinning wheel. In 1801, the first English-style spinning machines were installed in St. Gallen, and in 1802 the **Spinnerei Hard** on the Töss near Winterthur began operating – one of the first mechanised spinning mills on the European continent. For many people who spun at home, this meant that their manual work no longer paid. Many eventually looked for work in the very factories that had competed with them.\n\n**Why Switzerland in particular?** Three advantages were crucial:\n\n1. **Water power:** Switzerland has no coal, but countless rivers and streams. Water wheels and later turbines drove the machines – which is why many old factories stand right by the water.\n2. **Capital:** Swiss trading and merchant families had built up fortunes through the textile trade and could invest in expensive machines and factory buildings.\n3. **No guilds in the countryside:** In the towns, guilds strictly controlled the crafts. These rules did not apply in the countryside – there, people were allowed to build factories and produce goods freely. There were also many people who already had experience of textile production from working at home.\n\nThis made the textile industry by far Switzerland's most important export industry in the 19th century."
+  },
+  {
+   "type": "image",
+   "title": "A factory amid farmland",
+   "src": "/content/industrialisierung-schweiz/weberei-winterthur-1880.jpg",
+   "alt": "Historical black-and-white photograph of the silk-weaving mill in Winterthur around 1880: long factory buildings with sawtooth roofs and a tall, smoking factory chimney, with fields and a lone man on a farm track in the foreground.",
+   "caption": "The silk-weaving mill (\"Sidi\") in Winterthur around 1880 – factory buildings and a smoking chimney amid farmland show the shift from home-based work to factory production.",
+   "credit": "Foto: Johann Linck (Winterthurer Bibliotheken), Wikimedia Commons, CC BY 4.0"
+  },
+  {
+   "type": "text",
+   "title": "The railway brings a second boost",
+   "body": "On 9 August 1847, the moment arrived: the first railway line running entirely on Swiss soil began operating. It covered around 23 kilometres from Zürich to Baden – a journey of about 45 minutes instead of several hours on foot or by carriage. According to legend, it got its name because wealthy people in Zürich had fresh \"Spanisch Brötli\" – a popular puff pastry from Baden – delivered by train: the **Spanisch-Brötli-Bahn**. (A French railway line from Elsass had, in fact, already reached Basel in 1844.)\n\nFrom the 1850s onwards, a real **railway boom** followed, fundamentally changing the economy:\n\n- A strong **machinery and metal industry** developed to supply rails, bridges and locomotives.\n- To finance the expensive railway projects, Zürich politician and entrepreneur Alfred Escher founded the Schweizerische Kreditanstalt in 1856 – **banks and insurance companies** grew alongside the railway.\n- Goods, people and news travelled faster than ever before.\n\nThe most ambitious project was the **Gotthardtunnel**: from 1872, thousands of workers – most of them from Italy – dug the tunnel, around 15 kilometres long, through the mountain. Conditions were brutal: heat, dust, flooding and accidents cost around 200 workers their lives. When tunnel workers in Göschenen went on strike for better conditions in 1875, the strike was violently suppressed – four workers were killed in a hail of bullets. The building contractor Louis Favre did not live to see his work completed either: he died during an inspection in the tunnel in 1879. The Gotthardbahn opened in 1882. At the time, the tunnel was the longest in the world and made Switzerland an important transit country between northern and southern Europe."
+  },
+  {
+   "type": "image",
+   "title": "Baden: the end of the line",
+   "src": "/content/industrialisierung-schweiz/bahnhof-baden-1850.jpg",
+   "alt": "Historical engraving of Baden station around 1850: a steam locomotive with carriages of the Spanisch-Brötli-Bahn in front of station buildings and an engine shed, with the ruins of Stein Castle in the background.",
+   "caption": "Baden station around 1850 – the terminus of the Spanisch-Brötli-Bahn, Switzerland's first railway line between Zürich and Baden, which opened in 1847.",
+   "credit": "Bild: Unbekannter Künstler (Graphische Sammlung Zentralbibliothek Zürich), Wikimedia Commons, Public Domain"
+  },
+  {
+   "type": "video",
+   "title": "Video: Factory work, child labour and the social question",
+   "provider": "youtube",
+   "videoId": "QRjH3bxsRao",
+   "description": "This video gives an overview of the Industrial Revolution in Europe. Look out for the following: under what conditions did people work in factories? Why did towns and cities grow so quickly – and what is meant by the \"social question\"? As you watch, think about which aspects also apply to Switzerland.",
+   "transcript": "In just under seven minutes, Mirko Drotschmann (MrWissen2go Geschichte) explains how the Industrial Revolution spread from England to the European continent and transformed the economy, society and people's living conditions. The video covers factory work with harsh working conditions and child labour, the rapid growth of towns and cities (urbanisation), the resulting social question and the beginnings of the labour movement. It provides the European context for developments in Switzerland, such as the Factory Act of 1877."
+  },
+  {
+   "type": "text",
+   "title": "The social question – and Switzerland's response",
+   "body": "Progress had a darker side. In factories, working days of twelve hours or more were common – six days a week, amid noise, dust and dangerous machines. **Children**, too, worked in spinning and weaving mills, often at the expense of their schooling: they were cheap labour. At the same time, more and more families moved from the countryside to growing industrial towns and cities (**urbanisation**), where they often lived in cramped, unhealthy housing. How should society deal with this new poverty and insecurity? This debate was known as the **social question**.\n\nSwitzerland responded earlier than most countries:\n\n- In **1864**, the Landsgemeinde, the citizens' assembly of the canton of Glarus, passed a factory act that was the first in Europe to limit working hours for adult workers too (a twelve-hour day). Glarus had already banned factory work for children under twelve in 1856.\n- In **1877**, Swiss voters narrowly approved the **Federal Factory Act**. It limited factory work to eleven hours per working day, banned factory work for children under 14, protected women who had recently given birth and made factory owners liable for accidents. State **factory inspectors** checked that the rules were followed. This made Switzerland one of the international pioneers of worker protection.\n\nAt the same time, workers began to organise themselves: the Schweizerische Gewerkschaftsbund was founded in **1880**, and the Sozialdemokratische Partei der Schweiz in **1888**. The world of work changed fundamentally: within just a few generations, Switzerland had gone from an agricultural country to an industrial society – more and more people earned their living in factories, workshops and offices rather than on farms."
+  },
+  {
+   "type": "tasks",
+   "title": "Tasks",
+   "teilkompetenzen": [
+    "geschichte.industrialisierung.wandel-erklaeren",
+    "geschichte.industrialisierung.soziale-frage-beurteilen"
+   ],
+   "intro": "Now it's your turn! Type your answers directly into the text fields – they will be sent to your teacher. The hints you can expand will help you get started.",
+   "tasks": [
+    {
+     "id": "heimarbeit-vs-fabrik",
+     "prompt": "Compare **home-based work in the putting-out system** with **work in a factory**. Give at least two advantages and two disadvantages of each form of work – from the perspective of a working family around 1850.",
+     "hint": "Think about: working hours and pace (who decides them?), how much you earn and how reliable that income is, how the work fits in with farming and family life, and dangers at work.",
+     "solution": "Possible answers – **Home-based work:** + freedom to organise your own time, + work and family life in the same place; − very low, unreliable earnings, − dependence on the merchant and on market prices. **Factory:** + a regular wage, + often higher total earnings because several family members can find paid work; − fixed, very long working hours (twelve hours or more), − strict factory rules, noise and dangerous machines, − a long journey to work or a move to the town or city."
+    },
+    {
+     "id": "bildquelle-weberei",
+     "prompt": "Look closely at the photograph of the weaving mill in Winterthur around 1880. Write down **two observations** that tell you something about how Switzerland was changing, and **two questions** that the picture alone cannot answer.",
+     "hint": "Start by describing only what you can see: buildings, a chimney, fields, people. Then think about this: what does it mean that this factory stands amid farmland?",
+     "solution": "Possible observations: the factory with sawtooth roofs and a smoking chimney stands amid fields – agriculture and industry existed side by side; the size of the factory buildings suggests mass production with many workers. Unanswered questions: what were working conditions like inside? Who worked there – women and children too? For how long and for what wage? This is precisely why historians always compare several sources (pictures, texts, reports)."
+    },
+    {
+     "id": "perspektive-fabrikkind",
+     "prompt": "Imagine you are a 12-year-old child working in a spinning mill in **1877**. Write a short **diary entry** (about 10 sentences) about a working day – then a second entry from **1878**, after the Federal Factory Act has come into force.",
+     "hint": "First entry: an early start, noise, dust, tiredness, hardly any time for school. Second entry: you are now 13 – what exactly does the ban on factory work for children under 14 change for you, and perhaps for your family's income too?",
+     "solution": "The first entry should mention very long working hours, dangerous machines, exhaustion and missed schooling. In the second entry: the child is thirteen in 1878 – the Factory Act of 1877 bans factory work for children under 14, so the child can no longer work in the factory and can go to school. You might also include a critical thought: the family now has to manage without the child's earnings, and not all factory owners followed the law straight away – that was why there were factory inspectors."
+    },
+    {
+     "id": "peer-quizfrage",
+     "prompt": "**Learning by teaching:** Create your own quiz question about this module with three answer options (one correct, two incorrect). Write down the question and the answers, and explain in your own words why the correct answer is right. If you like, then ask a classmate your question.",
+     "hint": "Good distractors (incorrect answers) are almost right – for example, a year that is only slightly off, or an event that really happened but does not fit the question.",
+     "solution": "Example: \"In which year did Swiss voters approve the Federal Factory Act? a) 1847, b) 1877, c) 1902.\" The correct answer is b) 1877. Explanation: the Spanisch-Brötli-Bahn ran for the first time in 1847 – so that year relates to the railway, not to worker protection. What matters is that you can give the explanation in your own words without looking it up."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz",
+   "title": "Test your knowledge of Switzerland's industrialisation",
+   "teilkompetenzen": [
+    "geschichte.industrialisierung.wandel-erklaeren",
+    "geschichte.industrialisierung.soziale-frage-beurteilen"
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Which places did the Spanisch-Brötli-Bahn connect when it opened in 1847 as the first railway line running entirely on Swiss soil?",
+     "options": [
+      {
+       "text": "Zürich–Baden",
+       "correct": true
+      },
+      {
+       "text": "Zürich–Bern"
+      },
+      {
+       "text": "Basel–Genf"
+      },
+      {
+       "text": "Luzern–Göschenen"
+      }
+     ],
+     "explanation": "From 9 August 1847, the Spanisch-Brötli-Bahn covered around 23 kilometres from Zürich to Baden in about 45 minutes. According to legend, its name comes from \"Spanisch Brötli\", a puff pastry from Baden that was delivered fresh to Zürich by train."
+    },
+    {
+     "id": "q2",
+     "type": "multiple_choice",
+     "prompt": "Why did industrialisation begin so early in Switzerland? Which advantages did it have as a location for industry?",
+     "options": [
+      {
+       "text": "Water power from many rivers and streams drove the machines.",
+       "correct": true
+      },
+      {
+       "text": "Trading families had capital to invest in machines and factories.",
+       "correct": true
+      },
+      {
+       "text": "There were no guild rules restricting production in the countryside.",
+       "correct": true
+      },
+      {
+       "text": "Switzerland had large coal deposits."
+      },
+      {
+       "text": "Switzerland had its own seaports with direct access to the sea."
+      }
+     ],
+     "explanation": "Switzerland had neither coal nor access to the sea. Its strengths were water power, capital from trade, the absence of guild restrictions in the countryside – and many people with experience of producing textiles at home.",
+     "points": 2
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Which of the following did the Federal Factory Act of 1877 introduce?",
+     "options": [
+      {
+       "text": "A maximum of eleven hours of work per working day and a ban on factory work for children under 14.",
+       "correct": true
+      },
+      {
+       "text": "An eight-hour day and paid holidays for all employees."
+      },
+      {
+       "text": "A complete ban on women working in factories."
+      },
+      {
+       "text": "The nationalisation of all spinning and weaving mills."
+      }
+     ],
+     "explanation": "The Factory Act of 1877 introduced an eleven-hour day, banned factory work for children under 14 and introduced state factory inspectors. The eight-hour day, or 48-hour week, did not arrive in Switzerland until after the First World War."
+    },
+    {
+     "id": "q4",
+     "type": "true_false",
+     "prompt": "The Gotthardtunnel was the longest tunnel in the world when the Gotthardbahn opened in 1882.",
+     "answer": true,
+     "explanation": "At around 15 kilometres long, the tunnel was the longest in the world at the time. Construction, which began in 1872, claimed the lives of around 200 workers – the building contractor Louis Favre also died during an inspection in the tunnel in 1879, before it was completed."
+    },
+    {
+     "id": "q5",
+     "type": "multiple_choice",
+     "prompt": "Which statements about the social consequences of industrialisation in Switzerland are correct?",
+     "options": [
+      {
+       "text": "Many people moved from the countryside to growing industrial towns and cities (urbanisation).",
+       "correct": true
+      },
+      {
+       "text": "Workers organised themselves: the Schweizerische Gewerkschaftsbund was founded in 1880, and the Sozialdemokratische Partei der Schweiz in 1888.",
+       "correct": true
+      },
+      {
+       "text": "In 1864, the canton of Glarus passed a factory act that was the first in Europe to limit working hours for adults too.",
+       "correct": true
+      },
+      {
+       "text": "Factory work made all working families wealthy within a few years."
+      }
+     ],
+     "explanation": "Industrialisation brought growth, but also poverty, long working days and cramped housing – the \"social question\". Responses included early worker protection (Glarus in 1864, with Europe's first limit on working hours for adults too, and the federal government in 1877) and the organised labour movement (the Gewerkschaftsbund in 1880, the SP in 1888).",
+     "points": 2
+    },
+    {
+     "id": "q6",
+     "type": "true_false",
+     "prompt": "The first Swiss spinning mills were mainly powered by steam engines that burned coal.",
+     "answer": false,
+     "explanation": "Switzerland had hardly any coal. Early factories – such as the Spinnerei Hard near Winterthur (1802) – therefore stood on rivers such as the Töss and used water power to drive their machines."
+    }
+   ]
+  }
+ ]
+}
