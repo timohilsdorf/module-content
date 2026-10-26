@@ -1,0 +1,321 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul naturgefahren-alpen --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:d9b42d17cb4f332b9f347a1af8ba5372983c72e10cf013464c045fe9f46c73a2",
+  "masterCommit": "e4e60e8",
+  "hintsHash": null,
+  "generatedAt": "2026-10-26",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:c8c583488c44cc9d286f213bc0127c29f1d92c0d255e6bc4278fe2f9e14ec83c"
+ },
+ "schemaVersion": 3,
+ "id": "naturgefahren-alpen",
+ "title": "Natural hazards in the Alps",
+ "description": "Avalanches, floods, debris flows and rock avalanches: using real Swiss case studies such as the avalanche winter of 1999, Bondo in 2017 and Brienz in 2023, you will learn how natural hazards in the Alps arise, how Switzerland protects itself against them and why climate change makes them worse.",
+ "curricula": [
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.1.3.b",
+     "description": "Die Schülerinnen und Schüler können sich über aktuelle Naturereignisse informieren und deren Ursachen erklären."
+    },
+    {
+     "code": "RZG.1.3.c",
+     "description": "Die Schülerinnen und Schüler können die Auswirkungen von Naturereignissen auf Lebenssituationen von Menschen und auf die Umwelt benennen und einschätzen."
+    },
+    {
+     "code": "RZG.1.2.c",
+     "description": "Die Schülerinnen und Schüler können sich über den Klimawandel informieren, Ursachen erläutern und Auswirkungen des Klimawandels auf verschiedene Regionen der Welt, insbesondere die Schweiz, einschätzen."
+    }
+   ]
+  }
+ ],
+ "language": "en",
+ "learningObjectives": [
+  "I can explain how avalanches, floods, debris flows and rock avalanches occur.",
+  "I can use Swiss case studies (the avalanche winter of 1999, Bondo in 2017, Brienz in 2023) to describe how natural events affect people and the environment.",
+  "I can distinguish between protective measures such as engineered structures, protection forests, warning systems and hazard maps, and assess their benefits.",
+  "I can explain why climate change intensifies natural hazards in the Alps."
+ ],
+ "durationMinutes": 45,
+ "difficulty": "mittel",
+ "keywords": [
+  "natural hazards",
+  "Alps",
+  "avalanche",
+  "flooding",
+  "debris flow",
+  "rock avalanche",
+  "rockfall",
+  "permafrost",
+  "climate change",
+  "hazard map",
+  "protection forest",
+  "Bondo",
+  "Brienz",
+  "avalanche winter of 1999",
+  "Switzerland"
+ ],
+ "authors": [
+  "EveryCate"
+ ],
+ "sources": [
+  {
+   "title": "SLF (WSL-Institut für Schnee- und Lawinenforschung): Lehren aus dem Lawinenwinter 1999",
+   "url": "https://www.slf.ch/de/lawinen/unfaelle-und-lawinen/analyse-von-lawinenereignissen/lehren-aus-lawinenwinter-1999/"
+  },
+  {
+   "title": "BAFU: Instabiler Permafrost führt zu häufigeren Bergstürzen",
+   "url": "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/dossiers/klimaerwarmung-und-bergstuerzen.html"
+  },
+  {
+   "title": "BAFU: Eine Flut, die Rekorde brach – das Hochwasser vom August 2005",
+   "url": "https://www.bafu.admin.ch/bafu/de/home/themen/naturgefahren/dossiers/zehn-jahr-hochwasser/eine-flut--die-rekorde-brach.html"
+  },
+  {
+   "title": "BAFU: Schutzwald – biologische Maßnahmen gegen Naturgefahren",
+   "url": "https://www.bafu.admin.ch/de/schutzwald"
+  },
+  {
+   "title": "NZZ: Bondo fünf Jahre nach dem Bergsturz (2022)",
+   "url": "https://www.nzz.ch/schweiz/bondo-fuenf-jahre-nach-dem-bergsturz-ld.1699242"
+  },
+  {
+   "title": "Spektrum der Wissenschaft: Felssturz bei Brienz – Schweizer Dorf muss erneut evakuiert werden",
+   "url": "https://www.spektrum.de/news/felssturz-bei-brienz-schweizer-dorf-muss-erneut-evakuiert-werden/2241920"
+  },
+  {
+   "title": "Video: SRF Kids «Clip und klar!» – Lawinen: Wie schützt man sich davor?",
+   "url": "https://www.youtube.com/watch?v=Zp4O8n87JPE"
+  },
+  {
+   "title": "Video: SRF Kids News – Was bedeutet der Bergsturz in Brienz für die Bewohner:innen?",
+   "url": "https://www.youtube.com/watch?v=mf1o-v2I7Zs"
+  },
+  {
+   "title": "Bild: Bergsturz Brienz/Brinzauls – Clemenspool, Wikimedia Commons, CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:BergsturzBrienz.jpg"
+  },
+  {
+   "title": "Bild: Lawinenverbauungen oberhalb von Zermatt – Tiia Monto, Wikimedia Commons, CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Zermatt_-_Avalanche_barriers.jpg"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "requires": [],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "When the mountain moves",
+   "body": "Imagine the authorities knock on your door: **\"You have to leave your village – the mountain above you could collapse.\"** This is exactly what happened in May 2023 to the roughly 90 residents of Brienz/Brinzauls in Graubünden. Around five weeks later, during the night leading into 16 June 2023, around 1.2 million cubic metres of rock and debris really did thunder down into the valley – and came to a halt just a few metres from the village.\n\nLiving in the Alps means living with natural hazards. The main ones are:\n\n- **Avalanches** – masses of snow that break away from a slope\n- **Floods and debris flows** – water, mud and rock debris that flood valleys\n- **Rockfalls and rock avalanches** – rock that breaks away from cliff faces\n\nIn this module, you will find out how these hazards arise, how Switzerland protects itself with engineered structures, protection forests, warning systems and hazard maps – and why climate change makes all of this worse."
+  },
+  {
+   "type": "video",
+   "title": "Video: How can we protect ourselves against avalanches?",
+   "provider": "youtube",
+   "videoId": "Zp4O8n87JPE",
+   "description": "Watch the explainer video from SRF Kids (about 4 minutes). Pay particular attention to the following: which **three protective measures** against avalanches are shown? And where on the slope does each one act?",
+   "transcript": "This explainer video from the SRF series \"Clip und klar!\" shows why avalanches are a major hazard in the Swiss Alps and how people protect themselves. It presents three key protective measures: **avalanche barriers** on slopes that hold the snow in place, **protection forests** that act as natural barriers, and **spatial planning with hazard zones** where building is not allowed. The video uses examples from Switzerland and is aligned with Lehrplan 21."
+  },
+  {
+   "type": "text",
+   "title": "Avalanches: the white danger",
+   "body": "Most dangerous avalanches are **slab avalanches**: an entire layer of snow breaks away at once and races down into the valley. They mainly occur on slopes **steeper than about 30 degrees** – especially after heavy snowfall or when wind redistributes the snow.\n\n**Case study: the avalanche winter of 1999:** In February 1999, several metres of snow fell in the higher parts of the Swiss Alps within just a few weeks. Around **1200 avalanches caused damage**, claiming **17 lives** in buildings and on transport routes. **Evolène in Wallis** was hit hardest: twelve people died there on 21 February 1999. Total damage amounted to around **600 million francs**.\n\nThis is how Switzerland protects itself today:\n\n- **Warning systems:** The WSL-Institut für Schnee- und Lawinenforschung SLF in Davos publishes an avalanche bulletin once or twice a day in winter (at 17:00, with an update at 08:00 if needed). It uses the European avalanche danger scale with **five levels** – from level 1 (low) to level 5 (very high).\n- **Engineered structures:** Steel supporting structures in the avalanche release area hold the snow on the slope before an avalanche can even start.\n- **Protection forests:** Trees stabilise the snow cover. Around **42 per cent of Switzerland's forest area** serves as protection forest against natural hazards – the cheapest \"barrier\" of all.\n- **Spatial planning:** Building is not allowed in high-hazard zones in the first place.\n- **Emergency measures:** When danger is imminent, roads and ski areas are closed or avalanches are triggered using controlled explosions."
+  },
+  {
+   "type": "image",
+   "title": "Protection starts on the slope",
+   "src": "/content/naturgefahren-alpen/lawinenverbauung-zermatt.jpg",
+   "alt": "Rows of steel avalanche barriers on a steep grassy slope above Zermatt, with Walliser Schwarznase sheep grazing in the foreground.",
+   "caption": "Avalanche barriers above Zermatt (VS): supporting structures in the release area prevent large avalanches from starting in the first place.",
+   "credit": "Foto: Tiia Monto, Wikimedia Commons, CC BY-SA 3.0"
+  },
+  {
+   "type": "text",
+   "title": "When water and rock debris thunder down into the valley",
+   "body": "**Flooding** occurs when heavy rain, long periods of rain or snowmelt supply more water than rivers and soils can absorb. Straightened rivers and floodplains that have been built on make the problem worse, because the water has nowhere else to go. The **floods of August 2005** were Switzerland's costliest single natural event to date: six people died and damage amounted to around **3 billion francs**. Today, flood protection therefore relies not only on embankments but also on **river restoration**, which gives rivers more space again.\n\nA particularly dangerous form occurs in steep mountain streams: a **debris flow** – a fast-flowing mixture of water, mud and rock debris that shoots down the stream bed into the valley like liquid concrete.\n\n**Case study: Bondo (GR), 23 August 2017:** Around **3 million cubic metres of rock** broke away from **Piz Cengalo** (3369 m above sea level). The rock avalanche fell onto a glacier, swept up ice and water, and triggered huge debris flows that travelled through Val Bondasca into the village of Bondo. **Eight hikers** who were walking in the valley lost their lives. There were no deaths in the village itself: an **automatic alarm system** gave a timely warning, the residents were evacuated, and a retention basin held back some of the material. Even so, houses were destroyed and roads were buried – Bondo shows that warning systems can save lives but cannot always prevent damage."
+  },
+  {
+   "type": "image",
+   "title": "A narrow escape for the village",
+   "src": "/content/naturgefahren-alpen/bergsturz-brienz-2023.jpg",
+   "alt": "Aerial photograph of the village of Brienz/Brinzauls in Graubünden: a broad grey tongue of debris and rock from the rock avalanche of 2023 stretches down the slope and ends just in front of the first houses in the village.",
+   "caption": "Brienz/Brinzauls (GR): the debris from the rock avalanche of June 2023 came to a halt just a few metres from the village, which had already been evacuated.",
+   "credit": "Foto: Clemenspool, Wikimedia Commons, CC0"
+  },
+  {
+   "type": "video",
+   "title": "Video: Living with rock avalanches – the case of Brienz",
+   "provider": "youtube",
+   "videoId": "mf1o-v2I7Zs",
+   "description": "The main topic of this episode of SRF Kids News (about 11 minutes) is the rock avalanche in Brienz. Look out for the following: how is the slope **monitored**? And what do evacuations mean for the residents' everyday lives?",
+   "transcript": "The main topic of this Kids News episode is the rock avalanche in Brienz (GR): following the major rock avalanche of 2023, another section of rock has broken away. The video explains how rock avalanches occur and shows what the ongoing danger, constant monitoring of the slope and evacuations mean for the residents of this village in Graubünden. A second, shorter report at the end of the episode covers a different everyday topic (shopping for presents)."
+  },
+  {
+   "type": "text",
+   "title": "Climate change makes hazards worse – and how Switzerland responds",
+   "body": "**Brienz** stands on a slope that has been slowly sliding down into the valley for centuries. After the residents returned in summer 2023, the village had to be **evacuated again in November 2024** – its future is uncertain. A drainage tunnel deep inside the mountain is intended to drain water from the slope and slow its movement.\n\nClimate change makes many natural hazards in the Alps worse:\n\n- **Permafrost thaws:** Permafrost is permanently frozen ground. In Switzerland, it mainly occurs **higher than about 2500 m above sea level** and covers about **5 per cent of the country's area**. The ice in cracks in the rock acts like cement, holding the rock together. When it thaws, rock faces become unstable – thawing permafrost played a role in the rock avalanche at Bondo.\n- **More heavy precipitation:** Warmer air can hold more moisture. Heavy rainfall – and therefore floods and debris flows – becomes more likely.\n- **Glaciers melt:** They expose loose rock debris and destabilise slopes that were previously supported by ice.\n\nSwitzerland cannot prevent such events – but it can reduce the **risks**. **Hazard maps** are a key tool: experts map the areas in each municipality where avalanches, floods or landslides pose a threat.\n\n| Zone | Hazard level | Meaning |\n|---|---|---|\n| **Red** | high | New homes must not be built |\n| **Blue** | medium | Building is allowed only under certain conditions, e.g. reinforced walls |\n| **Yellow** | low | Indicates a possible hazard |\n\nOther measures include monitoring (sensors, radar), warning systems, engineered structures and protection forests. Sometimes the only option left is to evacuate in time – as in Bondo and Brienz."
+  },
+  {
+   "type": "tasks",
+   "title": "Tasks",
+   "teilkompetenzen": [
+    "geografie.naturgefahren.entstehung-erklaeren",
+    "geografie.naturgefahren.schutzmassnahmen-beurteilen"
+   ],
+   "intro": "Type your answer to each task directly into the text field – it will become part of your report, which you can share with your teacher. Use the hints if you get stuck.",
+   "tasks": [
+    {
+     "id": "gefahrenkarte-wohnort",
+     "prompt": "Search online for the **hazard map for your municipality** (e.g. through your canton's geoportal or map.geo.admin.ch). Which natural hazards are mapped in your area? Are there red, blue or yellow zones near your route to school or where you live?",
+     "hint": "Search for \"Gefahrenkarte\" (hazard map) plus the name of your canton. In the Mittelland, you will mainly find flood hazard zones; in mountain areas, there are also avalanche and landslide hazard zones.",
+     "solution": "Your own answer. Example: \"In my municipality, a blue zone (medium flood hazard) is marked along the stream. Building is allowed there only under certain conditions. We have no red zones. There are no avalanche zones because we live in the lowlands.\""
+    },
+    {
+     "id": "vergleichstabelle",
+     "prompt": "Compare the three natural hazards **avalanche, debris flow and rock avalanche**: for each one, write a short paragraph covering *What happens?*, *Typical trigger*, *Swiss case study* and *A suitable protective measure*.",
+     "hint": "You will find the case studies in the text blocks: the avalanche winter of 1999 (Evolène), Bondo in 2017 and Brienz in 2023.",
+     "solution": "Example: **Avalanche** – a mass of snow breaks away on a steep slope; trigger: heavy fresh snowfall, wind; case study: the avalanche winter of 1999/Evolène; protection: supporting structures in the avalanche release area. **Debris flow** – a mixture of water, mud and rock debris shoots down a stream bed; trigger: heavy rain, a rock avalanche falling onto a glacier; case study: Bondo in 2017; protection: an alarm system and a retention basin. **Rock avalanche** – large masses of rock break away from a cliff face; trigger: an unstable slope, thawing permafrost; case study: Brienz in 2023; protection: monitoring and evacuation."
+    },
+    {
+     "id": "debatte-brienz",
+     "prompt": "**Discuss:** Brienz has been evacuated several times, and expensive measures such as the drainage tunnel are intended to save the village. Should a lot of money be spent on protecting a village facing such danger – or would it be better to abandon it and relocate the residents? Write down two arguments for each side, then give your own opinion with reasons.",
+     "hint": "Think about: the cost to the public, protecting human lives, the residents' attachment to their home and their feelings, and the outlook as climate change progresses.",
+     "solution": "Possible arguments – Protect the village: it is people's home, and its buildings and farmland are valuable; protective measures can work (as the alarm system in Bondo saved lives). Abandon the village: the measures cost millions with no guarantee of success; the slope will keep moving in the long term, and people's lives must not be put at risk indefinitely. What matters is that you give reasons for your own position – there is no clear-cut right or wrong answer."
+    },
+    {
+     "id": "peer-quizfrage",
+     "prompt": "**Learning by teaching:** Create your own quiz question about one of the three case studies (the avalanche winter of 1999, Bondo in 2017 or Brienz in 2023) – with three answer options, exactly one of which is correct. Write down the question and the three options, then explain why the correct answer is right.",
+     "hint": "Good distractors (incorrect answers) are almost right: for example, a similar year or a measure that applies to a different natural hazard.",
+     "solution": "Example: \"Why were there no deaths in the village itself during the rock avalanche at Bondo in 2017? A) The rock avalanche was too small to reach the village. B) An alarm system warned the residents in time, and the village was evacuated. C) The protection forest stopped the debris flows completely.\" B is correct – the automatic alarm system was triggered, and people got to safety."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz",
+   "title": "Test your knowledge of natural hazards in the Alps",
+   "teilkompetenzen": [
+    "geografie.naturgefahren.entstehung-erklaeren",
+    "geografie.naturgefahren.schutzmassnahmen-beurteilen",
+    "geografie.naturgefahren.klimawandel-einordnen"
+   ],
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "What is a **debris flow**?",
+     "options": [
+      {
+       "text": "A fast-flowing mixture of water, mud and rock debris that shoots down a stream bed into the valley",
+       "correct": true
+      },
+      {
+       "text": "A slow movement of an entire slope that is barely noticeable over the years"
+      },
+      {
+       "text": "A mass of snow that breaks away on a steep slope"
+      },
+      {
+       "text": "An underground watercourse that hollows out the rock"
+      }
+     ],
+     "explanation": "A debris flow is like liquid concrete: water, mud and rock debris shoot down steep stream beds into the valley at high speed. In Bondo in 2017, masses of rock from Piz Cengalo triggered debris flows of this kind, which reached the village."
+    },
+    {
+     "id": "q2",
+     "type": "multiple_choice",
+     "prompt": "Which measures protect against **avalanches**? (More than one answer is correct.)",
+     "options": [
+      {
+       "text": "Steel supporting structures in the avalanche release area",
+       "correct": true
+      },
+      {
+       "text": "Preserving and maintaining protection forests",
+       "correct": true
+      },
+      {
+       "text": "Hazard maps and building bans in high-hazard zones",
+       "correct": true
+      },
+      {
+       "text": "Clearing large areas of forest on the slopes above villages"
+      }
+     ],
+     "explanation": "Engineered structures hold the snow in the avalanche release area, protection forests stabilise the snow cover, and spatial planning ensures that building does not take place in hazard zones in the first place. Clearing forests would do the opposite of providing protection: without forest, avalanches start much more easily.",
+     "points": 2
+    },
+    {
+     "id": "q3",
+     "type": "true_false",
+     "prompt": "During the rock avalanche at Bondo in 2017, nobody died in the village itself because an automatic alarm system warned the residents in time.",
+     "answer": true,
+     "explanation": "The alarm system was triggered and the village was evacuated – which is why there were no deaths in Bondo itself. It was still a tragedy: eight hikers walking in Val Bondasca lost their lives."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Why does **thawing permafrost** lead to more rockfalls?",
+     "options": [
+      {
+       "text": "The ice in cracks in the rock acts like cement – when it thaws, the rock is no longer held in place.",
+       "correct": true
+      },
+      {
+       "text": "The thawed ground attracts water, which hollows out the mountain from the inside."
+      },
+      {
+       "text": "Without permafrost, plants whose roots hold the rock in place can no longer grow."
+      },
+      {
+       "text": "Thawing triggers small earthquakes that shake the rock."
+      }
+     ],
+     "explanation": "Permafrost is permanently frozen ground. In Switzerland, it mainly occurs higher than about 2500 m above sea level. The ice in fissures and cracks holds the rock together like cement. As the climate warms, this \"cement\" thaws – rock faces become unstable, as in the rock avalanche at Bondo."
+    },
+    {
+     "id": "q5",
+     "type": "multiple_choice",
+     "prompt": "Which statements about **flooding** are correct? (More than one answer is correct.)",
+     "options": [
+      {
+       "text": "The floods of August 2005 caused around 3 billion francs' worth of damage in Switzerland.",
+       "correct": true
+      },
+      {
+       "text": "Straightened rivers and floodplains that have been built on increase the risk of flooding.",
+       "correct": true
+      },
+      {
+       "text": "River restoration that gives rivers more space is a modern protective measure.",
+       "correct": true
+      },
+      {
+       "text": "Flooding in the Alps is caused exclusively by snowmelt."
+      }
+     ],
+     "explanation": "With around 3 billion francs' worth of damage and six deaths, the floods of August 2005 were Switzerland's costliest single natural event to date. Flooding is caused by heavy rain, long periods of rain **or** snowmelt – often in combination. Where rivers have been straightened and floodplains built on, the water has nowhere else to go; river restoration creates space again.",
+     "points": 2
+    },
+    {
+     "id": "q6",
+     "type": "true_false",
+     "prompt": "New homes may be built in the **red zone** of a hazard map, provided they have specially reinforced walls.",
+     "answer": false,
+     "explanation": "In the red zone (high hazard), building new homes is prohibited. Building under certain conditions – such as reinforced walls or raised entrances – is the rule for the **blue** zone with a medium hazard level."
+    }
+   ]
+  }
+ ]
+}
