@@ -1,0 +1,503 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul weimar-wirtschaftskrise-nationalsozialismus --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:e7e4f265591e1198d160d82d869435df6df522528e9c1d29ab90d4466ac087f5",
+  "masterCommit": "e4e60e8",
+  "hintsHash": null,
+  "generatedAt": "2026-10-27",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:codex-antworten.json",
+  "selfHash": "sha256:c50b1b07af5f9b1e61a55440500bdf1a30ab481217f60aa94188bf4e68e3a8c7"
+ },
+ "schemaVersion": 3,
+ "id": "weimar-wirtschaftskrise-nationalsozialismus",
+ "title": "The Weimar Republic, the Great Depression and the rise of National Socialism",
+ "description": "How could a stock market crash in New York lead to Hitler taking power in Berlin? In this module, you will learn to understand historical events as chains and cycles of cause and effect and to sketch them yourself – from the Treaty of Versailles through the hyperinflation of 1923 and the Great Depression of 1929 to 30 January 1933.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "RZG",
+   "subjectName": "Spaces, Times, Societies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "RZG.6.3",
+     "description": "Die Schülerinnen und Schüler können ausgewählte Phänomene der Geschichte des 20. und 21. Jahrhunderts analysieren und deren Relevanz für heute erklären."
+    }
+   ]
+  },
+  {
+   "curriculum": "de",
+   "subject": "Geschichte",
+   "grades": [
+    9
+   ]
+  }
+ ],
+ "language": "en",
+ "durationMinutes": 90,
+ "difficulty": "mittel",
+ "keywords": [
+  "Weimar Republic",
+  "Great Depression",
+  "hyperinflation",
+  "National Socialism",
+  "chain of cause and effect",
+  "Treaty of Versailles",
+  "Brüning",
+  "Liechtenstein",
+  "1923",
+  "1929",
+  "1933"
+ ],
+ "learningObjectives": [
+  "I can recognise chains of cause and effect and sketch them myself.",
+  "I can explain how the Treaty of Versailles led to the hyperinflation of 1923 through reparations, and why this undermined confidence in democracy.",
+  "I can describe the chain of events from the stock market crash of 1929 to the National Socialists taking power in 1933 in the correct order.",
+  "I can draw a diagram showing the vicious circle of Brüning's austerity policy.",
+  "I can name effects of this period on Liechtenstein, such as the customs treaty with Switzerland in 1923 and the introduction of the Swiss franc in 1924."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "LeMO – Lebendiges Museum Online: Weimarer Republik (Deutsches Historisches Museum)",
+   "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik"
+  },
+  {
+   "title": "Bundeszentrale für politische Bildung (bpb)",
+   "url": "https://www.bpb.de"
+  },
+  {
+   "title": "Historisches Lexikon des Fürstentums Liechtenstein (eHLFL)",
+   "url": "https://historisches-lexikon.li"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "Anna Rinderer"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "What happens when money becomes worthless overnight?",
+   "body": "Imagine this: you have saved 50 francs. Today, that is enough for a concert ticket. Next week, it will only buy you a piece of chewing gum – and a month later, not even the paper the price is written on.\n\nThis is exactly what people in Germany experienced in 1923: at times that autumn, a loaf of bread cost **over 100 billion marks**. Wages were paid daily, and people immediately rushed to the shops before their money lost even more value that afternoon. Entire families' savings vanished into thin air.\n\nThis was a real issue in our region too: Liechtenstein was still using the **Austrian krone** – and inflation after the First World War caused its value to fall sharply. Many people in Liechtenstein lost their savings. As a result, Liechtenstein turned towards Switzerland, signed **the customs treaty in 1923** and officially introduced **the Swiss franc in 1924**.\n\nEvents like these do not come out of nowhere. They are links in a **chain**: a cause leads to an effect, that effect becomes a cause in turn – and so on. In this module, you will learn to read and draw these **chains of cause and effect**. By the end, you will use them to understand one of the most important questions of the 20th century: how could an economic crisis lead to a dictatorship?"
+  },
+  {
+   "type": "video",
+   "provider": "youtube",
+   "videoId": "X5ZMD6dvXew",
+   "title": "The Great Depression of 1929",
+   "description": "As you watch, pay particular attention to the chain reaction triggered by the stock market crash in New York: how did the crisis spread from the USA to Germany? Note down at least four stages in this chain – you will need them for the tasks later.",
+   "transcript": "The video explains how the crash on the New York stock exchange in October 1929 ended the \"Golden Twenties\". The USA withdrew its loans from Germany, German banks and businesses ran into difficulties, and many went bankrupt. Unemployment rose to several million people. The governments of the Weimar Republic failed to find an effective response to the crisis, confidence in democracy declined, and radical parties such as the NSDAP gained huge numbers of supporters."
+  },
+  {
+   "type": "text",
+   "title": "From Versailles to 30 January 1933 – an overview",
+   "body": "## A heavy burden: Versailles and inflation\n\nThe Weimar Republic, Germany's first democracy, began in 1919 with a heavy burden: the **Treaty of Versailles** held Germany responsible for the First World War and required it to pay large **reparations** (compensation payments). To cover its expenditure, the state printed more and more money – causing money to lose its value ever faster. In 1923, this escalated into **hyperinflation**: the mark became practically worthless and savings were wiped out. Many people blamed the young democracy for their hardship.\n\nThe new **Rentenmark** (late 1923) and American loans (**Dawes Plan**, 1924) stabilised the situation. The **\"Golden Twenties\"** followed – years of economic growth. But take note: the recovery was built on borrowed money, mainly **short-term loans from the USA**.\n\n## The crash and the chain reaction\n\nOn 24 October 1929 (known in Europe as **\"Black Friday\"**, 25 October), share prices on the New York stock exchange plunged. American banks needed their money back – and withdrew their loans from Germany. German banks and businesses went bankrupt one after another. By early 1932, **over six million people were unemployed**, about one in three workers.\n\nChancellor **Heinrich Brüning** (1930–1932) responded with strict austerity: wages, pensions and government spending were cut. This **deflationary policy** made the hardship worse – a vicious circle that you will examine more closely shortly. The government increasingly ruled through **emergency decrees**, bypassing parliament: democracy was hollowing itself out.\n\n## Radicalisation\n\nAmid this desperation, the National Socialists under Adolf Hitler promised simple solutions and offered people to blame. The **NSDAP**'s election results soared: **2.6 %** (1928) → **18.3 %** (1930) → **37.3 %** (July 1932). On **30 January 1933**, Hitler was appointed Chancellor – the end of Germany's first democracy.\n\n## And Liechtenstein?\n\nLiechtenstein was spared the world wars, but not their economic effects: inflation of the krone after 1918 wiped out savings here too – hence the **customs treaty with Switzerland (1923)** and the **introduction of the franc (1924)**. The Great Depression then hit the export-dependent textile industry in the Rheintal hard; many people from the region had to look for work abroad. Radicalisation did not stop at the border either: in the late 1930s, a National Socialist group called the \"Volksdeutsche Bewegung\" emerged in Liechtenstein – but it remained a minority."
+  },
+  {
+   "type": "text",
+   "title": "Level 1 – Understanding chains of cause and effect",
+   "body": "Historians ask not only \"What happened?\", but above all \"**Why** did it happen – and **what followed from it**?\" A powerful tool for this is the **chain of cause and effect**: you write down an event, ask \"What follows from this?\" and draw an arrow to the effect. That effect is itself another cause – so you draw another arrow. Link by link, a chain takes shape.\n\n**Example 1 – the inflation chain:**\n\n```\nTreaty of Versailles (1919)\n   → Germany has to pay large reparations\n   → the state prints more and more money\n   → hyperinflation in 1923: money becomes worthless\n   → savings are wiped out\n   → many people lose confidence in democracy\n```\n\nRead the chain aloud and check each arrow: does the step make sense? Could you explain it to someone who knows nothing about this period? That is the test of a good chain.\n\n**Example 2 – the cycle:** Sometimes the chain loops back on itself – then we call it a **vicious circle**. This happened with Chancellor Brüning's austerity policy from 1930 onwards:\n\n```\nThe state makes cuts (to wages, pensions and spending)\n   → people have less money to spend (less purchasing power)\n   → businesses sell less and lay off staff (more unemployed people)\n   → the state collects less tax revenue\n   → the state makes even more cuts … and the cycle starts again\n```\n\nA cycle does not stop by itself – it reinforces itself with every round. That is why the crisis became worse and worse from 1930 onwards, even though (or precisely because) the government was making \"sensible\" cuts."
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-l1-inflationskette",
+   "title": "Level 1 – Mini-exercise: The inflation chain",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren"
+   ],
+   "intro": "Practise using the example just explained: drag the terms to the correct places in the chain (on a phone: tap the word first, then the gap). Two of the words in the word bank do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "Treaty of Versailles (1919)\n→ Germany has to pay large {{1}}\n→ the state prints more and more {{2}}\n→ {{3}} in 1923: money becomes worthless\n→ savings are wiped out\n→ many people lose confidence in {{4}}",
+   "luecken": [
+    {
+     "antworten": [
+      "reparations",
+      "reparation payments",
+      "war reparations",
+      "compensation payments"
+     ]
+    },
+    {
+     "antworten": [
+      "money",
+      "paper money",
+      "banknotes",
+      "bank notes",
+      "currency",
+      "cash"
+     ]
+    },
+    {
+     "antworten": [
+      "hyperinflation",
+      "hyper-inflation"
+     ]
+    },
+    {
+     "antworten": [
+      "democracy",
+      "the democratic system",
+      "democratic system"
+     ]
+    }
+   ],
+   "ablenker": [
+    "customs duties",
+    "shares"
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Level 1 – Tasks: Following the chains",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren",
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Read the inflation chain in Level 1 again. In two or three sentences of your own, explain why the state printing money led to hyperinflation.",
+     "hint": "Think about this: what happens to the value of something when there are suddenly huge quantities of it – for example, trading cards that everyone suddenly owns a thousand of?",
+     "solution": "The more money there is in circulation, the less each individual banknote is worth. Because the state kept printing more money to pay its debts and reparations, prices rose faster and faster. In the end, nobody trusted the money any more – it was practically worthless."
+    },
+    {
+     "prompt": "The final link in the inflation chain says: \"many people lose confidence in democracy\". Explain why people blamed democracy in particular – rather than simply blaming \"money\".",
+     "hint": "The Weimar Republic was only a few years old in 1923. Who was governing when people's savings disappeared – and whom do people hold responsible when life is going badly?",
+     "solution": "Democracy was new, and many people were already sceptical about it. When their savings were wiped out under this new form of government, many directly linked their personal misfortune to the republic: \"Under the Kaiser, money was still worth something.\" Radical parties later deliberately exploited this mood."
+    },
+    {
+     "prompt": "Show the Brüning chain from Level 1 as a cycle: type the stages in the correct order and connect them with arrows (→). Finish with a sentence describing where the cycle closes. If you like, draw the cycle on paper as well.",
+     "hint": "Start at the top with \"The state makes cuts\" and move clockwise. The final arrow must lead back to \"The state makes cuts\" – that is exactly what makes it a vicious circle.",
+     "solution": "The state makes cuts → less purchasing power → more unemployed people → less tax revenue → the state makes even more cuts → back to \"The state makes cuts\". The cycle closes at the final arrow: the cuts create exactly the shortage of money they were meant to solve."
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-l2-krisenkette",
+   "title": "Level 2 – Matching: The crisis chain, 1929–1933",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren"
+   ],
+   "intro": "Now try it without the explanatory text alongside: drag the missing links to the correct places. **Watch out:** two items in the word bank do not belong in this chain at all – they come from a different period. The dates will help you.",
+   "modus": "wortbank",
+   "text": "Stock market crash in New York (October 1929)\n→ {{1}}\n→ German banks and businesses go bankrupt\n→ {{2}} (over six million in early 1932)\n→ hardship, fear and anger: many people become radicalised\n→ {{3}} (1930: 18.3 %, July 1932: 37.3 %)\n→ Hitler is appointed Chancellor (30 January 1933)",
+   "luecken": [
+    {
+     "antworten": [
+      "The USA withdraws its loans from Germany",
+      "The US withdraws its loans from Germany",
+      "The United States withdraws its loans from Germany",
+      "US banks call in their loans to Germany",
+      "American banks call in their loans to Germany",
+      "Withdrawal of US loans from Germany",
+      "Withdrawal of American loans from Germany"
+     ]
+    },
+    {
+     "antworten": [
+      "mass unemployment",
+      "mass joblessness",
+      "widespread unemployment"
+     ]
+    },
+    {
+     "antworten": [
+      "electoral success for the NSDAP",
+      "electoral successes for the NSDAP",
+      "NSDAP electoral success",
+      "election successes for the NSDAP",
+      "electoral success for the Nazi Party",
+      "electoral success for the National Socialists"
+     ]
+    }
+   ],
+   "ablenker": [
+    "Hyperinflation: money becomes worthless",
+    "Introduction of the Rentenmark"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-l2-teufelskreis",
+   "title": "Level 2 – Matching: Brüning's vicious circle",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren"
+   ],
+   "intro": "Put the three stages in the correct places in the cycle. At each step, ask yourself: what follows **directly** from this? Here too, two of the words in the word bank do not fit anywhere.",
+   "modus": "wortbank",
+   "text": "The state makes cuts (to wages, pensions and spending)\n→ {{1}}\n→ {{2}}\n→ {{3}}\n→ the state makes even more cuts … and the cycle starts again",
+   "luecken": [
+    {
+     "antworten": [
+      "less purchasing power",
+      "lower purchasing power",
+      "reduced purchasing power",
+      "less spending power",
+      "lower spending power",
+      "less money to spend"
+     ]
+    },
+    {
+     "antworten": [
+      "more unemployed people",
+      "higher unemployment",
+      "more unemployment",
+      "rising unemployment",
+      "more jobless people",
+      "more people out of work"
+     ]
+    },
+    {
+     "antworten": [
+      "less tax revenue",
+      "lower tax revenue",
+      "reduced tax revenue",
+      "fewer tax receipts",
+      "lower tax receipts",
+      "less tax income",
+      "lower tax income",
+      "less revenue from taxes"
+     ]
+    }
+   ],
+   "ablenker": [
+    "higher wages",
+    "more tax revenue"
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-l3-kettenglieder",
+   "title": "Level 3 – An intermediate step: Write the links yourself",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren",
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
+   "intro": "Before you draw your own diagram: there is no word bank here – **type the missing terms yourself**. Capitalisation does not matter. Tip: start with the trigger and ask at each arrow: what follows from this?",
+   "modus": "eingabe",
+   "text": "Stock market crash in New York (October 1929)\n→ the USA withdraws its {{1}} from Germany\n→ German banks and businesses go {{2}}\n→ over six million people are {{3}}\n→ hardship, fear and anger: many people {{4}}\n→ electoral success for {{5}}\n→ Hitler is appointed {{6}} (30 January 1933)",
+   "luecken": [
+    {
+     "antworten": [
+      "loans",
+      "credit",
+      "funds",
+      "money",
+      "loan capital"
+     ]
+    },
+    {
+     "antworten": [
+      "bankrupt",
+      "bust",
+      "broke",
+      "under",
+      "insolvent",
+      "into bankruptcy",
+      "into insolvency",
+      "into liquidation",
+      "out of business"
+     ]
+    },
+    {
+     "antworten": [
+      "unemployed",
+      "jobless",
+      "out of work",
+      "without work",
+      "without jobs",
+      "without a job",
+      "out of a job"
+     ]
+    },
+    {
+     "antworten": [
+      "become radicalised",
+      "become radicalized",
+      "are radicalised",
+      "are radicalized",
+      "radicalise",
+      "radicalize",
+      "become radical",
+      "become more radical",
+      "become politically radicalised",
+      "become politically radicalized",
+      "turn to radical politics"
+     ]
+    },
+    {
+     "antworten": [
+      "the NSDAP",
+      "NSDAP",
+      "the National Socialists",
+      "National Socialists",
+      "the Nazis",
+      "Nazis",
+      "the Nazi Party",
+      "Nazi Party",
+      "the National Socialist German Workers' Party",
+      "National Socialist German Workers' Party",
+      "the National Socialist German Workers’ Party",
+      "National Socialist German Workers’ Party"
+     ]
+    },
+    {
+     "antworten": [
+      "Chancellor",
+      "the Chancellor",
+      "Reich Chancellor",
+      "the Reich Chancellor",
+      "Reichskanzler",
+      "the Reichskanzler",
+      "German Chancellor",
+      "the German Chancellor",
+      "Chancellor of Germany",
+      "the Chancellor of Germany",
+      "Chancellor of the Reich",
+      "the Chancellor of the Reich"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tasks",
+   "title": "Level 3 – Tasks: Creating your own chain of cause and effect",
+   "teilkompetenzen": [
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
+   "tasks": [
+    {
+     "prompt": "Read this material and use it to create your own chain of cause and effect with at least five links: type the links one below another and connect them with arrows (→).\n\n**Material – Germany from 1928 to 1933 in figures:**\n- Unemployed people: around 1.4 million in 1928 | over 6 million in early 1932\n- NSDAP share of the vote in Reichstag elections: 1928: 2.6 % | 1930: 18.3 % | July 1932: 37.3 %\n- October 1929: stock market crash in New York; the USA withdraws its loans from Germany in the following years\n- 30 January 1933: Hitler is appointed Chancellor\n\nYour chain should show how these figures and events are connected. If you like, sketch it on paper as well.",
+     "hint": "Start with the trigger (the stock market crash) and ask at each step: what follows from this? The figures show which developments happen in parallel – unemployment and votes for the NSDAP rise together. This is no coincidence, but a link in the chain.",
+     "solution": "Model solution:\n\nStock market crash in New York (Oct. 1929)\n   → the USA withdraws its loans from Germany\n   → German banks and businesses go bankrupt\n   → mass unemployment (from 1.4 million in 1928 to over 6 million in early 1932)\n   → hardship, fear and anger: many people become radicalised\n   → electoral success for the NSDAP (2.6 % → 18.3 % → 37.3 %)\n   → Hitler is appointed Chancellor (30 January 1933)\n\nOther chains are correct if each arrow shows a clear \"this leads to that\" step and the chronological order is right."
+    },
+    {
+     "prompt": "Extend your chain from Task 1 with a branch about the region: name the point where your branch splits off and type its links, connected by arrows (→) – the branch should show how the Great Depression also affected Liechtenstein and the Rheintal.",
+     "hint": "Liechtenstein's textile industry depended on exports. What happens to export businesses when their customers abroad no longer have any money?",
+     "solution": "A possible branch, splitting off at the global crisis: Great Depression → customers abroad buy less → falling sales in the export-dependent textile industry in the Rheintal → redundancies and short-time working → many people from the region have to look for work abroad."
+    },
+    {
+     "prompt": "To finish: explain your chain from Task 1 in your own words as a connected text – so that someone with no prior knowledge (a classmate, your brother, your gran …) could understand it. OR: create your own quiz question in the style of Level 2 (\"What belongs in place of ???\") about a chain of cause and effect from this module, including three answer options and the solution.",
+     "hint": "When explaining: if the other person asks \"Why?\" at an arrow and you can answer, you have really understood the chain. For the quiz question: good incorrect answers come from the right period but belong at the wrong point in the chain.",
+     "solution": "Example of a quiz question you could create: \"What belongs in place of ???: Hyperinflation in 1923 → ??? → economic stabilisation → Golden Twenties. a) Introduction of the Rentenmark and the Dawes Plan, b) stock market crash in New York, c) Hitler taking power.\" Solution: a). When explaining, what matters is that the order is correct and you give a reason for each arrow."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz",
+   "title": "Quiz: Have you got to grips with the chains?",
+   "teilkompetenzen": [
+    "geschichte.zwischenkriegszeit.krisenketten-erklaeren",
+    "geschichte.methoden.ursachenketten-bauen"
+   ],
+   "questions": [
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "In which year did hyperinflation in Germany reach its peak – when a loaf of bread sometimes cost over 100 billion marks?",
+     "options": [
+      {
+       "text": "1923",
+       "correct": true
+      },
+      {
+       "text": "1929"
+      },
+      {
+       "text": "1919"
+      },
+      {
+       "text": "1933"
+      }
+     ],
+     "explanation": "Hyperinflation escalated in 1923 and was stopped in late 1923 by the introduction of the Rentenmark. The Treaty of Versailles was signed in 1919, the stock market crash happened in 1929, and the National Socialists took power in 1933 – four dates, four different links in the chain."
+    },
+    {
+     "id": "q3",
+     "type": "multiple_choice",
+     "prompt": "Which elements belong in the chain from the stock market crash of 1929 to the National Socialists taking power in 1933? (More than one answer is correct.)",
+     "points": 2,
+     "options": [
+      {
+       "text": "Mass unemployment affecting over six million people",
+       "correct": true
+      },
+      {
+       "text": "Electoral success for the NSDAP",
+       "correct": true
+      },
+      {
+       "text": "Hyperinflation, with a loaf of bread costing billions"
+      },
+      {
+       "text": "Withdrawal of American loans from Germany",
+       "correct": true
+      }
+     ],
+     "explanation": "The chain is: stock market crash → withdrawal of US loans → business failures → mass unemployment → radicalisation → electoral success for the NSDAP → the National Socialists take power. Hyperinflation does NOT belong in this chain – it happened in 1923, six years before the crash, and has its own chain (Versailles → reparations → printing money → inflation)."
+    },
+    {
+     "id": "q4",
+     "type": "true_false",
+     "prompt": "The hyperinflation of 1923 was a direct consequence of the stock market crash of 1929.",
+     "answer": false,
+     "explanation": "The timing makes this impossible: a cause must come before its effect. Hyperinflation (1923) happened six years BEFORE the stock market crash (1929). Its causes were the Treaty of Versailles, reparations and the state printing money – always check the dates first in every chain!"
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Why did Chancellor Brüning's austerity policy worsen the economic crisis instead of solving it?",
+     "options": [
+      {
+       "text": "The cuts reduced people's purchasing power, causing unemployment to rise further and tax revenue to fall – a vicious circle",
+       "correct": true
+      },
+      {
+       "text": "The cuts made the state spend too much money, triggering a new wave of inflation"
+      },
+      {
+       "text": "The cuts led the USA to repay all its loans immediately"
+      },
+      {
+       "text": "The austerity policy affected only Liechtenstein, not Germany"
+      }
+     ],
+     "explanation": "Brüning's cuts to wages, pensions and government spending reduced purchasing power in the economy. Businesses sold less and laid off staff, and the state collected less tax revenue – so it made even more cuts. The cycle reinforced itself with every round: a classic vicious circle."
+    },
+    {
+     "id": "q6",
+     "type": "true_false",
+     "prompt": "Liechtenstein introduced the Swiss franc in 1924 after inflation following the First World War had sharply reduced the value of the Austrian krone.",
+     "answer": true,
+     "explanation": "Correct – and this is a small chain of cause and effect of its own: inflation of the krone → savings in Liechtenstein lose value → a shift away from Austria → customs treaty with Switzerland (1923) → official introduction of the Swiss franc (1924). The stable currency became a foundation for Liechtenstein's later development."
+    }
+   ]
+  }
+ ]
+}
