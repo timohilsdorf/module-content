@@ -48,9 +48,15 @@ Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
   (`gh api -X DELETE/POST repos/timohilsdorf/module-content/branches/main/protection/enforce_admins`).
 - Nach dem Merge löscht GitHub den PR-Branch automatisch; nie mehr auf
   einen gemergten Branch pushen (Merge-Timing-Falle). Der pre-push-Guard
-  `scripts/git-hooks/pre-push` prüft das per REST und blockt – aktiv
-  über `git config core.hooksPath scripts/git-hooks` (lokal einmal je
-  Klon, in Cloud-Sessions durch `scripts/install_pkgs.sh`).
+  `scripts/git-hooks/pre-push` prüft das per REST (nur wenn der gemergte
+  Stand im eigenen Verlauf liegt – ein wiederverwendeter Name bleibt
+  erlaubt) und blockt. Aktiv als KOPIE in `.git/hooks/pre-push` (lokal
+  einmal je Klon `cp scripts/git-hooks/pre-push .git/hooks/`, in
+  Cloud-Sessions kopiert `scripts/install_pkgs.sh` sie aus origin/main) –
+  bewusst kein `core.hooksPath` in den Arbeitsbaum, weil ein ausgecheckter
+  fremder PR-Branch den Hook ersetzen könnte. Grenze bei Fork-Workflows:
+  Das Upstream-Repo wird nur geprüft, wenn ein Remote «upstream»
+  eingetragen ist.
 - Der `deploy`-Job ruft nach jedem Merge auf `main` den Vercel Deploy
   Hook der Plattform auf – neue Inhalte gehen DIREKT auf Produktion; die
   PR-Freigabe ist die Freigabe.
@@ -76,8 +82,8 @@ Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
   `scripts/install_pkgs.sh` auf (`npm ci`, nur bei
   `CLAUDE_CODE_REMOTE=true`, übersprungen solange package.json,
   package-lock.json und das Skript unverändert sind – Hash-Datei in
-  `node_modules/`; aktiviert zudem den pre-push-Guard, setzt aber keine
-  Commit-Identität). Das ist der Normalfall für Content-Autor:innen, die
+  `node_modules/`; kopiert zudem den pre-push-Guard nach .git/hooks/,
+  setzt aber keine Commit-Identität). Das ist der Normalfall für Content-Autor:innen, die
   dieses Repo ALLEIN in ihrer eigenen Cloud-Umgebung öffnen (Ein-Repo-
   Session → Hook greift, Node 22 der VM reicht). Nur in Sessions mit
   mehreren Repos lädt Claude Code keine Hooks aus den Repo-Settings; dort
