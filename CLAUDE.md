@@ -23,7 +23,7 @@ Plattform bei Verengungen), regelt die Plattform-CLAUDE.md je Änderung.
 ## Prüfläufe (entsprechen `.github/workflows/validate.yml`)
 
 ```bash
-npm ci
+npm ci                           # Node 26 laut .nvmrc (CI); Node 22 der Cloud-VM genügt ebenso
 npx tsc --noEmit                 # Typecheck Validator + Übersetzungs-Werkzeug
 npm run test:uebersetzung        # Unit-Nachweis der Übersetzungs-Verdrahtung
 npm run validate                 # alle Module gegen Schema, Whitelist, Medien, IDs
@@ -36,9 +36,11 @@ Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
 
 ## Konventionen
 
-- Commits mit `8818560+timohilsdorf@users.noreply.github.com`
-  (repo-lokal; in Cloud-Sessions setzt `scripts/install_pkgs.sh` die
-  Adresse). Commit-Messages und Doku in Schweizer Schreibweise («ss»),
+- Der Betreiber committet mit `8818560+timohilsdorf@users.noreply.github.com`
+  (repo-lokal konfiguriert); externe Autor:innen committen unter ihrer
+  eigenen GitHub-Identität – `scripts/install_pkgs.sh` setzt bewusst KEINE
+  Identität (öffentliches Repo, auch allein in fremden Cloud-Sessions in
+  Gebrauch). Commit-Messages und Doku in Schweizer Schreibweise («ss»),
   Modulinhalte in deutscher Rechtschreibung mit ß.
 - Branch Protection auf `main` (auch für Admins): PR mit 1 Freigabe und
   grünem `validate`-Check; direkte Pushes werden abgelehnt. Eigene
@@ -74,10 +76,13 @@ Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
   `scripts/install_pkgs.sh` auf (`npm ci`, nur bei
   `CLAUDE_CODE_REMOTE=true`, übersprungen solange package.json,
   package-lock.json und das Skript unverändert sind – Hash-Datei in
-  `node_modules/`). Gilt nur für Sessions mit EINEM Repo: Mit mehreren
-  Repos lädt Claude Code keine Hooks aus den Repo-Settings; dort ruft das
-  Setup-Skript der Cloud-Umgebung das Skript auf (Beispiel in der
-  Plattform-CLAUDE.md, Abschnitt «Arbeiten in der Cloud»).
+  `node_modules/`; aktiviert zudem den pre-push-Guard, setzt aber keine
+  Commit-Identität). Das ist der Normalfall für Content-Autor:innen, die
+  dieses Repo ALLEIN in ihrer eigenen Cloud-Umgebung öffnen (Ein-Repo-
+  Session → Hook greift, Node 22 der VM reicht). Nur in Sessions mit
+  mehreren Repos lädt Claude Code keine Hooks aus den Repo-Settings; dort
+  ruft das Setup-Skript der Cloud-Umgebung des Betreibers das Skript auf
+  (Vorlage in der Plattform-CLAUDE.md, Abschnitt «Arbeiten in der Cloud»).
 - **Netzwerk per Allowlist:** npm-Registry und GitHub (Proxy, nur
   angehängte Repos) sind erreichbar, Bild-Hosts wie commons.wikimedia.org
   nicht – die Medienprüfung des Validators arbeitet ohnehin auf den
