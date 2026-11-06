@@ -1,0 +1,81 @@
+#!/bin/bash
+# pre-push-Guard gegen die Merge-Timing-Falle (CLAUDE.md «Konventionen»):
+# Commits, die NACH dem Merge eines Pull Requests auf dessen Branch gepusht
+# werden, hängt GitHub an keinen PR mehr – sie liegen unsichtbar auf einem
+# toten Branch (dreimal passiert). Dieser Hook fragt vor dem Push per REST,
+# ob zum Ziel-Branch ein GEMERGTER PR existiert, DESSEN letzter Stand im
+# lokalen Verlauf liegt (nur dann baut der Push auf gemergter Historie auf;
+# ein bloss wiederverwendeter Branch-Name bleibt erlaubt), und blockt dann
+# mit Anleitung.
+#
+# Installation: scripts/install_pkgs.sh kopiert diese Datei in Cloud-Sessions
+# nach .git/hooks/pre-push (aus origin/main). Lokal einmal je Klon:
+#   cp scripts/git-hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+# Bewusst übergehen: git push --no-verify
+#
+# REST statt `gh pr list`: GraphQL-Aufrufe (gh pr, gh issue) sind in
+# Claude-Code-Cloud-Sessions gesperrt; `gh api repos/...` läuft dort über den
+# GitHub-Proxy. Parameter gehen über -f/-F (gh kodiert sie – Branch-Namen
+# dürfen & # + enthalten). Fail-open: ohne gh, ohne Netz oder bei API-Fehlern
+# wird nur gewarnt – der Push geht durch. Geprüft wird das Ziel-Repo des
+# Pushs und zusätzlich das Remote «upstream», falls vorhanden (Fork-Workflow).
+remote="$1"
+url="${2:-$(git config --get "remote.$remote.url" 2>/dev/null)}"
+slug_von_url() {
+  printf '%s' "$1" | sed -E 's#^(git@github\.com:|https://github\.com/|ssh://git@github\.com/)##; s#\.git$##; s#/$##'
+}
+slug="$(slug_von_url "$url")"
+case "$slug" in
+  */*) ;;
+  *) exit 0 ;;
+esac
+owner="${slug%%/*}"
+if ! command -v gh >/dev/null 2>&1; then
+  echo "[pre-push] gh fehlt – Merge-Status des PR-Branches nicht geprüft." >&2
+  exit 0
+fi
+repos=("$slug")
+upstream_url="$(git config --get remote.upstream.url 2>/dev/null)"
+if [ -n "$upstream_url" ]; then
+  upstream_slug="$(slug_von_url "$upstream_url")"
+  case "$upstream_slug" in */*) repos+=("$upstream_slug") ;; esac
+fi
+
+status=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/*) ;;
+    *) continue ;;
+  esac
+  branch="${remote_ref#refs/heads/}"
+  [ "$branch" = "main" ] && continue
+  case "$local_sha" in
+    0000000000000000000000000000000000000000) continue ;;  # Branch-Löschung
+  esac
+  for repo in "${repos[@]}"; do
+    if ! shas="$(gh api -X GET "repos/$repo/pulls" -f state=closed -f head="$owner:$branch" -F per_page=20 \
+          --jq '.[] | select(.merged_at != null) | .head.sha' 2>/dev/null)"; then
+      echo "[pre-push] GitHub-API nicht erreichbar ($repo) – Merge-Status von «$branch» nicht geprüft." >&2
+      continue
+    fi
+    for sha in $shas; do
+      # Nur blocken, wenn der gemergte Stand WIRKLICH im lokalen Verlauf liegt.
+      if git cat-file -e "$sha^{commit}" 2>/dev/null && git merge-base --is-ancestor "$sha" "$local_sha" 2>/dev/null; then
+        cat >&2 <<MELDUNG
+✗ Push auf «$branch» blockiert: Ein Pull Request mit diesem Branch ist bereits
+  GEMERGED ($repo, Stand ${sha:0:7} liegt in deinem Verlauf) – neue Commits
+  hingen an keinem PR mehr (Merge-Timing-Falle, s. CLAUDE.md «Konventionen»).
+  Stattdessen:
+    git fetch origin main
+    git switch -c <neuer-branch> origin/main
+    git cherry-pick <commits>
+    git push -u origin <neuer-branch>     → neuer Pull Request
+  Bewusst übergehen: git push --no-verify
+MELDUNG
+        status=1
+        break
+      fi
+    done
+  done
+done
+exit $status

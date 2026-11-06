@@ -31,7 +31,9 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          # Node-Version zentral in .nvmrc (26 – gleich wie Vercel und die
+          # Claude-Code-Cloud-Sessions, Entscheid 5.11.2026)
+          node-version-file: .nvmrc
           cache: npm
       - run: npm ci
       # TypeScript-Typecheck über Validator/Übersetzungs-Werkzeug –
