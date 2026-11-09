@@ -3,10 +3,18 @@
 # Commits, die NACH dem Merge eines Pull Requests auf dessen Branch gepusht
 # werden, hängt GitHub an keinen PR mehr – sie liegen unsichtbar auf einem
 # toten Branch (dreimal passiert). Dieser Hook fragt vor dem Push per REST,
-# ob zum Ziel-Branch ein GEMERGTER PR existiert, DESSEN letzter Stand im
-# lokalen Verlauf liegt (nur dann baut der Push auf gemergter Historie auf;
-# ein bloss wiederverwendeter Branch-Name bleibt erlaubt), und blockt dann
-# mit Anleitung.
+# ob zum Ziel-Branch ein GEMERGTER PR existiert, DESSEN letzter Stand
+# (head.sha) im lokalen Verlauf liegt UND mindestens ein lokaler Commit am
+# zugehörigen Merge-Commit (merge_commit_sha) VORBEI darauf aufsetzt – also
+# der alte Branch nach dem Merge weitergeführt wurde (auch wenn main danach
+# per git merge nachgezogen wurde). Ein wiederverwendeter Branch-Name, frisch
+# von origin/main abgezweigt (oder auf origin/main rebased), bleibt erlaubt,
+# bekommt aber einen HINWEIS, dass der Push an keinem offenen PR hängt: Nach
+# einem Merge-Commit-Merge liegt head.sha über main in JEDEM neuen Branch, der
+# Merge-Commit aber eben auch (Fehlalarm des ersten Guards vom 5.11.2026;
+# Squash-/Rebase-Merges waren davon nie betroffen). Topologisch ist ein auf
+# main rebasierter Alt-Branch von einem frischen Branch nicht zu unterscheiden
+# – dafür steht der Hinweis.
 #
 # Installation: scripts/install_pkgs.sh kopiert diese Datei in Cloud-Sessions
 # nach .git/hooks/pre-push (aus origin/main). Lokal einmal je Klon:
@@ -53,19 +61,33 @@ while read -r local_ref local_sha remote_ref remote_sha; do
     0000000000000000000000000000000000000000) continue ;;  # Branch-Löschung
   esac
   for repo in "${repos[@]}"; do
-    if ! shas="$(gh api -X GET "repos/$repo/pulls" -f state=closed -f head="$owner:$branch" -F per_page=20 \
-          --jq '.[] | select(.merged_at != null) | .head.sha' 2>/dev/null)"; then
+    if ! paare="$(gh api -X GET "repos/$repo/pulls" -f state=closed -f head="$owner:$branch" -F per_page=20 \
+          --jq '.[] | select(.merged_at != null) | "\(.head.sha) \(.merge_commit_sha // "-")"' 2>/dev/null)"; then
       echo "[pre-push] GitHub-API nicht erreichbar ($repo) – Merge-Status von «$branch» nicht geprüft." >&2
       continue
     fi
-    for sha in $shas; do
-      # Nur blocken, wenn der gemergte Stand WIRKLICH im lokalen Verlauf liegt.
+    while read -r sha merge_sha; do
+      [ -z "$sha" ] && continue
+      # Nur blocken, wenn der gemergte Stand WIRKLICH im lokalen Verlauf liegt …
       if git cat-file -e "$sha^{commit}" 2>/dev/null && git merge-base --is-ancestor "$sha" "$local_sha" 2>/dev/null; then
+        # … und lokale Commits am Merge-Commit VORBEI darauf aufsetzen. Liegt der
+        # Merge-Commit im Verlauf und sind ALLE Commits jenseits von ihm seine
+        # Nachfahren (rev-list ohne/mit --ancestry-path zählt gleich), ist der
+        # Branch frisch von main abgezweigt oder rebased – erlaubt, mit Hinweis.
+        # Ein nachgezogenes main auf einem Alt-Branch lässt die alten Commits am
+        # Merge vorbei stehen (Zählung ungleich) – blocken.
+        if [ "$merge_sha" != "-" ] && git cat-file -e "$merge_sha^{commit}" 2>/dev/null \
+            && git merge-base --is-ancestor "$merge_sha" "$local_sha" 2>/dev/null \
+            && [ "$(git rev-list --count "$merge_sha..$local_sha" 2>/dev/null)" = \
+                 "$(git rev-list --count --ancestry-path "$merge_sha..$local_sha" 2>/dev/null)" ]; then
+          echo "[pre-push] Hinweis: Zu «$branch» ist bereits ein PR gemerged ($repo, ${sha:0:7}) – dieser Push hängt an keinem offenen PR; danach einen NEUEN Pull Request eröffnen." >&2
+          continue
+        fi
         cat >&2 <<MELDUNG
 ✗ Push auf «$branch» blockiert: Ein Pull Request mit diesem Branch ist bereits
-  GEMERGED ($repo, Stand ${sha:0:7} liegt in deinem Verlauf) – neue Commits
-  hingen an keinem PR mehr (Merge-Timing-Falle, s. CLAUDE.md «Konventionen»).
-  Stattdessen:
+  GEMERGED ($repo, Stand ${sha:0:7} liegt in deinem Verlauf, und lokale Commits
+  setzen am Merge-Commit ${merge_sha:0:7} vorbei darauf auf) – sie hingen an
+  keinem PR mehr (Merge-Timing-Falle, s. CLAUDE.md «Konventionen»). Stattdessen:
     git fetch origin main
     git switch -c <neuer-branch> origin/main
     git cherry-pick <commits>
@@ -75,7 +97,7 @@ MELDUNG
         status=1
         break
       fi
-    done
+    done <<< "$paare"
   done
 done
 exit $status
