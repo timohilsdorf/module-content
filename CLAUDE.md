@@ -49,10 +49,12 @@ Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
 - Nach dem Merge löscht GitHub den PR-Branch automatisch; nie mehr auf
   einen gemergten Branch pushen (Merge-Timing-Falle). Der pre-push-Guard
   `scripts/git-hooks/pre-push` prüft das per REST und blockt nur, wenn der
-  gemergte PR-Stand im eigenen Verlauf liegt, der Merge-Commit aber nicht
-  (alter Branch nach dem Merge weitergeführt) – ein wiederverwendeter
-  Name, frisch von origin/main abgezweigt, bleibt erlaubt (seit 9.11.2026
-  auch nach Merge-Commit-Merges). Aktiv als KOPIE in `.git/hooks/pre-push` (lokal
+  gemergte PR-Stand im eigenen Verlauf liegt und lokale Commits am
+  Merge-Commit vorbei darauf aufsetzen (alter Branch nach dem Merge
+  weitergeführt, auch mit nachgezogenem main) – ein wiederverwendeter
+  Name, frisch von origin/main abgezweigt oder darauf rebased, bleibt
+  erlaubt und bekommt nur den Hinweis, dass der Push an keinem offenen
+  PR hängt (seit 9.11.2026 auch nach Merge-Commit-Merges). Aktiv als KOPIE in `.git/hooks/pre-push` (lokal
   einmal je Klon `cp scripts/git-hooks/pre-push .git/hooks/`, in
   Cloud-Sessions kopiert `scripts/install_pkgs.sh` sie aus origin/main) –
   bewusst kein `core.hooksPath` in den Arbeitsbaum, weil ein ausgecheckter
