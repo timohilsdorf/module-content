@@ -19,6 +19,12 @@ und Rollout-Regeln der Plattform stehen in deren CLAUDE.md.
 Plattform-Repos erzwingt das («Schema-Drift prüfen»). Welche Seite zuerst
 gemerged wird (Plattform vor Content bei neuen Feldern/Typen, Content vor
 Plattform bei Verengungen), regelt die Plattform-CLAUDE.md je Änderung.
+Die Kopie wird hier mit dem `zod` DIESES Repos ausgeführt – die
+zod-Version darum in beiden Repos gleich halten (seit 10.11.2026: 4.6.7,
+angehoben wegen GHSA-mrhx-c7xc-m3w5). Sichtbare Folge für Autor:innen:
+Liegt eine Liste ÜBER ihrer Längengrenze (z. B. mehr als 12
+Teilaufgaben), meldet der Validator nur noch «Too big …»; Fehler in den
+einzelnen Elementen erscheinen erst nach dem Kürzen.
 
 ## Prüfläufe (entsprechen `.github/workflows/validate.yml`)
 
@@ -31,7 +37,9 @@ npm run uebersetzungs-status     # Matrix Modul × Sprache (informativ)
 ```
 
 Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
-(52 Module gültig, 22 Unit-Fälle, 42 Fassungen aktuell, 10 ausgenommen).
+(52 Module gültig, 22 Unit-Fälle, 42 Fassungen aktuell, 10 ausgenommen);
+am 10.11.2026 mit zod 4.6.7 unter Node 22 und 26 unverändert grün, `npm audit`
+meldet 0.
 `npm run uebersetze` braucht `ANTHROPIC_API_KEY` (api.anthropic.com).
 
 ## Konventionen
