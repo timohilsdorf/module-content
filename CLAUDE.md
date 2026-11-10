@@ -32,7 +32,10 @@ statt UTF-16-Einheiten. (3) Ein Schlüssel «__proto__» ist unzulässig
 melden derzeit den Hinweis «… gehört in gradesText», obwohl die ANZAHL
 falsch ist (offener Punkt in der Plattform-CLAUDE.md). Wegen (2) und (3)
 sind Gültigkeit und Rollout nur deckungsgleich, solange beide Repos
-dieselbe zod-Version tragen – die Hebungen zeitnah nacheinander mergen.
+dieselbe zod-Version tragen – die Hebungen zeitnah nacheinander mergen
+und dazwischen keine fremden Content-PRs mergen (viele Emoji in einem
+längenbegrenzten Feld nähme nur der neue Stand an, der Deploy-Hook-Build
+der Plattform liefe dann rot).
 Die Commit-Nachricht e5e69f5 («Gültig/ungültig ändert sich nicht») ist
 in diesem Sinn zu eng gefasst.
 
