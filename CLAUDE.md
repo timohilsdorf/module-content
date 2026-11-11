@@ -21,10 +21,23 @@ gemerged wird (Plattform vor Content bei neuen Feldern/Typen, Content vor
 Plattform bei Verengungen), regelt die Plattform-CLAUDE.md je Änderung.
 Die Kopie wird hier mit dem `zod` DIESES Repos ausgeführt – die
 zod-Version darum in beiden Repos gleich halten (seit 10.11.2026: 4.6.7,
-angehoben wegen GHSA-mrhx-c7xc-m3w5). Sichtbare Folge für Autor:innen:
-Liegt eine Liste ÜBER ihrer Längengrenze (z. B. mehr als 12
-Teilaufgaben), meldet der Validator nur noch «Too big …»; Fehler in den
-einzelnen Elementen erscheinen erst nach dem Kürzen.
+angehoben wegen GHSA-mrhx-c7xc-m3w5). Folgen für Autor:innen seit zod
+4.6 – für den Bestand ohne Wirkung (alle Moduldateien parsen
+byteidentisch): (1) Liegt eine Liste ÜBER ihrer Längengrenze (z. B. mehr
+als 12 Teilaufgaben), meldet der Validator nur noch «Too big …»; Fehler
+in den einzelnen Elementen erscheinen erst nach dem Kürzen. (2)
+Längengrenzen von Texten zählen Zeichen (Codepoints, ein Emoji = 1)
+statt UTF-16-Einheiten. (3) Ein Schlüssel «__proto__» ist unzulässig
+(vorher still entfernt). (4) `grades: []` oder mehr als 13 Klassenstufen
+melden derzeit den Hinweis «… gehört in gradesText», obwohl die ANZAHL
+falsch ist (offener Punkt in der Plattform-CLAUDE.md). Wegen (2) und (3)
+sind Gültigkeit und Rollout nur deckungsgleich, solange beide Repos
+dieselbe zod-Version tragen – die Hebungen zeitnah nacheinander mergen
+und dazwischen keine fremden Content-PRs mergen (viele Emoji in einem
+längenbegrenzten Feld nähme nur der neue Stand an, der Deploy-Hook-Build
+der Plattform liefe dann rot).
+Die Commit-Nachricht e5e69f5 («Gültig/ungültig ändert sich nicht») ist
+in diesem Sinn zu eng gefasst.
 
 ## Prüfläufe (entsprechen `.github/workflows/validate.yml`)
 
