@@ -125,7 +125,7 @@ Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
 (52 Module gültig, 22 Unit-Fälle, 42 Fassungen aktuell, 10 ausgenommen);
 am 10.11.2026 mit zod 4.6.7 unter Node 22 und 26 unverändert grün, `npm audit`
 meldet 0.
-Stand 20.11.2026: 53 Module gültig, 46 Unit-Fälle (14 + 22 + 10),
+Stand 20.11.2026: 53 Module gültig, 50 Unit-Fälle (14 + 22 + 14),
 43 Fassungen aktuell, 10 ausgenommen.
 `npm run uebersetze` braucht `ANTHROPIC_API_KEY` (api.anthropic.com).
 
