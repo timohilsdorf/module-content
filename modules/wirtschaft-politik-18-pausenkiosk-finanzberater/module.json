@@ -92,6 +92,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "title": "Ein Modul zum Ausprobieren",
    "body": "Dieses Modul ist **freiwillig** – und es ist anders als die bisherigen: Es erklärt dir fast nichts Neues. Stattdessen wirfst du alles, was du in den bisherigen Wirtschaftsmodulen gelernt hast, in drei Situationen, die es ernst meinen:\n\n1. **Dein Pausenkiosk** – ein Planspiel. Du führst acht Runden lang einen Kiosk, triffst jede Runde echte Entscheidungen und lebst mit den Folgen.\n2. **Beim Finanzberater** – ein Rollenspiel. Dir gegenüber sitzt ein freundlicher Verkäufer, der genau weiß, was er tut. Du hoffentlich auch.\n3. **Dein Geld im Leben** – ein Lebenssimulator. Fünfzehn Jahre vom ersten Lehrlingslohn mit 16 bis zu deinem dreißigsten Geburtstag, mit allem, was dazwischen passiert.\n\nDu musst nicht alle drei Teile am Stück machen – jeder funktioniert für sich. Und es gibt kein «richtig durchspielen»: Verlieren ist hier ausdrücklich erlaubt. Ein Kiosk, der pleitegeht, lehrt dich mehr als ein Modul, das du nur liest."

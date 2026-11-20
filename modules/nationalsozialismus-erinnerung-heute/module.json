@@ -124,6 +124,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "id": "k8-einstieg",
    "title": "Warum lernen wir das?",

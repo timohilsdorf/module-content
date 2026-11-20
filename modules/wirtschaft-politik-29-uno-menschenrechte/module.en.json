@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-29-uno-menschenrechte --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:7b00e88d2fd8132807289b2b919ce7b827dd770b0a5504dbb981812a7914555a",
-  "masterCommit": "9df1ccf",
+  "masterHash": "sha256:22a27dcd99445df423d646905b7d592b6476b845209141f77118123d326d024a",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:2fe9fcd01bb35008c381146670bb127238690a2bc3e7144192cad749b2ac6328"
+  "model": "speicher",
+  "selfHash": "sha256:5f61d2bf0145063d0a031fe30991f326910afc49582564e55d5222fe32741875"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-29-uno-menschenrechte",
@@ -87,6 +87,11 @@
   "wirtschaft-politik-21-autoritaere-systeme-heute"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "A forum for almost all states",

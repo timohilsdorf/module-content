@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-13-boerse-aktien-krypto --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:1849461f0783f4186b6c051fc0924e6c1e6de6028188875d78e849fa0d978b26",
-  "masterCommit": "7d091eb",
+  "masterHash": "sha256:b26b4864dff8b2e39f9ba427d072a482ba8a8d8926179e0bd3da29840120d3c1",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:wp13-antworten.json",
-  "selfHash": "sha256:fd542ad5b21863d9889d12df253a986ae32699f55f504bd09e1cfd768ffafe98"
+  "model": "speicher",
+  "selfHash": "sha256:351d9cad8ba1fd3e7032ea64f5a60a57b50fd2a290869f6930aa75cf0683b5ff"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-13-boerse-aktien-krypto",
@@ -85,6 +85,11 @@
   "wirtschaft-politik-10-geld-funktionen-geschichte"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Buying a piece of a company",

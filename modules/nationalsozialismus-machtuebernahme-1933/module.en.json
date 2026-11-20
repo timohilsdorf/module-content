@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-machtuebernahme-1933 --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:698d9b965c68607cd7763bfa78cd29d4a709812eee422cf1488f33c199b89850",
-  "masterCommit": "9d7d44d",
+  "masterHash": "sha256:7dcceee484e0d1ad81abe8e79e3257070d998a1f72124fb9996d8ada85d9b3b1",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:8cb5c83ba871be27085b0c63bc2cf0a00e8cb9c03a4ac67f034dd967b904604c"
+  "model": "speicher",
+  "selfHash": "sha256:beafcd6a2496fdcb76798262c77ec6f0e54a7492534f79f09f7bba29356abf30"
  },
  "schemaVersion": 3,
  "id": "nationalsozialismus-machtuebernahme-1933",
@@ -114,6 +114,11 @@
   "Anna Rinderer"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "id": "k2-einstieg",

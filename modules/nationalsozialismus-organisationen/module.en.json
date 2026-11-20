@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-organisationen --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:b12d3ddaacbfee533c082020eb9d1e61355abf03b21cc70a79eeb536c040754a",
-  "masterCommit": "8f835b2",
+  "masterHash": "sha256:176d0a45af993f1110cf1321c9e05d7221f9ee26cd2164c824d3cb13fd57c7d5",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:f1520366c8bf3c5e6e59c56d631d1ecb6bdb174ab100c4e78cf1e5885745ad1f"
+  "model": "speicher",
+  "selfHash": "sha256:0ad61e881286d77c5698cb7464ca105f35523883068c60235508bcd75ba692fc"
  },
  "schemaVersion": 3,
  "id": "nationalsozialismus-organisationen",
@@ -112,6 +112,11 @@
   "Anna Rinderer"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "id": "k3-einstieg",

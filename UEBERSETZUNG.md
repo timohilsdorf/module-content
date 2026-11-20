@@ -42,6 +42,13 @@ Module passen in einen Auftrag.
 **Datei-Weg (ohne Schlüssel/für Tests):** erst
 `--auftrag-datei auftrag.json` (schreibt Prompt + offene Stücke), die
 Übersetzungen extern erzeugen, dann mit `--antworten-datei` einspielen.
+**Ohne offene Stücke braucht es weder Schlüssel noch KI:** Ändert sich
+am Master nur die Struktur (zum Beispiel kommt ein Block ohne eigene
+Texte dazu, wie der Einschätzungsblock mit `automatisch`), erzeugt
+`npm run uebersetze -- --sprache en --nur-veraltet` jede Fassung allein
+aus dem Speicher neu («0 Stücke neu übersetzt», Stempel
+`model: "speicher"`). Die Speicher-Dateien ändern sich dabei trotzdem:
+Sie sind nach Position geschlüsselt und werden neu nummeriert.
 
 Danach: Fassung **sprachlich gegenlesen** (Fachbegriffe laut Glossar,
 getippte Lücken-Antwortvarianten selbst durchspielen, Natürlichkeit),

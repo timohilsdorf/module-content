@@ -401,6 +401,29 @@ wirklich üben. Fehlt eine passende Kennung, schlage sie im selben Pull
 Request als Register-Eintrag vor. Details:
 [CONTENT-SCHEMA.md](CONTENT-SCHEMA.md), Abschnitt «Teilkompetenzen».
 
+**Einschätzungsblock dazu:** Tragen deine Aufgaben Teilkompetenzen,
+setze als **ersten Block** des Moduls diesen Block ein – genau so, ohne
+weitere Angaben:
+
+```json
+{ "type": "einschaetzung", "id": "selbsteinschaetzung", "automatisch": true }
+```
+
+Die Lernenden schätzen sich damit vor dem Modul über genau die
+Teilkompetenzen ein, die an deinen Aufgaben stehen (die Liste rechnet
+die Plattform selbst aus), und werden am Ende eingeladen, es noch einmal
+zu tun. Für die Einschätzung gibt es keine Punkte. Fehlt der Block,
+meldet die Validierung einen Hinweis – einen Fehler nicht. Einzelne
+Teilkompetenzen nimmst du mit `"ausgeschlossen": ["…"]` heraus, das
+KI-Interview unter den Reglern mit `"kiInterview": false`. Details:
+[CONTENT-SCHEMA.md](CONTENT-SCHEMA.md), Abschnitt «`einschaetzung`».
+
+**Bestehende Module:** Füge nie einen anderen Block *vor* einem
+`tasks`-Block ohne `id` ein, und gib einem veröffentlichten
+`tasks`-Block nicht nachträglich eine `id` – beides trennt die schon
+gespeicherten Antworten der Lernenden von ihrer Aufgabe. (Der
+Einschätzungsblock mit `automatisch` ist davon ausgenommen.)
+
 ## Orthografie: ß schreiben, ss wird angezeigt
 
 Module werden in **deutscher Rechtschreibung mit ß** verfasst –

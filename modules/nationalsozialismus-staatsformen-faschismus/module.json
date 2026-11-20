@@ -104,6 +104,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "id": "k1-einstieg",
    "title": "Wer regiert – und wer darf mitreden?",

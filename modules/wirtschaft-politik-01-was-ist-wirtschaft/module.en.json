@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-01-was-ist-wirtschaft --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:48b743178ee78fa01c9860707abf5cf783a7c86618f0b2768493f09bdd6f380e",
-  "masterCommit": "e984356",
+  "masterHash": "sha256:7751f8ba71559faee4712913463bf504e42b9b3970d131d7d775687bdc2a3835",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:everycate-wirtschaft-politik-01-en-codex-antworten.json",
-  "selfHash": "sha256:3540c746847497b8339e311acb01ba7a634f93c13ac31a5c290ba0f95a40c3c6"
+  "model": "speicher",
+  "selfHash": "sha256:14b6c3061f943c6c98a29892f3417f304fda39782e09a823443428c6ce866910"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-01-was-ist-wirtschaft",
@@ -83,6 +83,11 @@
   "Anna Rinderer"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Why can't you have everything?",

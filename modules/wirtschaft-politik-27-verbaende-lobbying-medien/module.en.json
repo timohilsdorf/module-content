@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-27-verbaende-lobbying-medien --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:ebe731dd1c8d847b0588089cd89e8fa8571133fa7a9e305ed940a6adaea0b33e",
-  "masterCommit": "47812d7",
+  "masterHash": "sha256:1da441435a1f90efdb02ee5adc98db95261865fe43424d225eaa6bfcfd6c2801",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-11",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:36d56a405774003743b9948f56a2ee94aabcdc1ee177ee1758b7ab835e0fb0ae"
+  "model": "speicher",
+  "selfHash": "sha256:390f38f53a46a9b727f01dc823afd949ed58c89fa99731b977a694be7921d494"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-27-verbaende-lobbying-medien",
@@ -84,6 +84,11 @@
   "wirtschaft-politik-26-wirtschaftspolitik-standort"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "From an individual wish to a strong voice",

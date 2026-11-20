@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:a6a5731718b6630d1fae191e6a9e9a28204b30be5aa15709da01e88fef276987",
-  "masterCommit": "ee21ba0",
+  "masterHash": "sha256:72aef634404e287e7f92c1d8200dc4934fa8a3fb681d1446f645c23e7f21631d",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:00949f670b2837f20c370d8bdd2e0c73acf16ee43dc7682d32ef683b08d52634"
+  "model": "speicher",
+  "selfHash": "sha256:3f694c828e6752b1dd728e4b1424baabb9c8d77e334e3d3aae6899e176811764"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-23-verschwoerungstheorien-dekonstruieren",
@@ -79,6 +79,11 @@
   "wirtschaft-politik-22-medien-und-meinungsbildung"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "A narrative that explains everything",

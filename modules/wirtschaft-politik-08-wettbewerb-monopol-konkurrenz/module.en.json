@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-08-wettbewerb-monopol-konkurrenz --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:ab71b62879b5b9f0553fa2aecbc15fa1feb255398dc7e807a0102159b4fc5a74",
-  "masterCommit": "a1ec86f",
+  "masterHash": "sha256:a14ff31c733b694ce9573f61198a4c62f53db567bc864bbb53fd39e8becc5692",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:antworten-codex.json",
-  "selfHash": "sha256:6f588e2246bfd787ac262d80246c1470054c4c96105b3638a434c4480c86636b"
+  "model": "speicher",
+  "selfHash": "sha256:be506cbc97919d53f9c57eaf637f96403386982809304430f53f97e5b4254eef"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-08-wettbewerb-monopol-konkurrenz",
@@ -84,6 +84,11 @@
   "wirtschaft-politik-07-preisbildung-marktgleichgewicht"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "One valley, one lift – one city, ten pizza delivery services",

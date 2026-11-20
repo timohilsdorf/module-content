@@ -41,6 +41,7 @@ Plattform-Repository, wo es beim Build erzwungen wird.)*
 | **3** (additiv, experimentell) | 26. September 2026 | KEIN Versionswechsel: neuer **experimenteller** Blocktyp [`interview`](#interview--ki-interview-zur-selbsteinschätzung-experimentell) – die lokale KI führt ein kurzes Interview entlang skriptierter `leitfragen` und schlägt je Teilkompetenz eine Einschätzung vor (Quelle `ki`, IMMER unbestätigt; der komplette Gesprächsverlauf reist mit dem Report zur Lehrperson, nichts zählt vor ihrer Übernahme). NUR für Teilkompetenzen mit `interview: true` im Register (Validierungs-FEHLER sonst). Ältere Player zeigen einen Platzhalter – Module bleiben dort gültig. |
 | **3** (Tabellen) | 29. September 2026 | KEIN Versionswechsel, nur der Ordner `kompetenzen/`: zwei **neue Tabellen** [`lehrplan-struktur.json`](kompetenzen/lehrplan-struktur.json) (vollständige Bereichsgliederung je Lehrplan × Fachbereich, mit dokumentierter Quelle je Eintrag – Grundlage der Lehrplan-Sicht in Heatmap + **Kompetenz-Netzdiagramm**, das seither so heisst) und [`kategorien.json`](kompetenzen/kategorien.json) (eigene übergeordnete Kategorien je Fachbereich – Grundlage der Teilkompetenz-Sicht). Mapping-Codes dürfen **80 statt 60 Zeichen** lang sein; die `ch`-Codes der überfachlichen Einträge sind auf die offiziellen LP21-Wortlaute korrigiert («Dialog- und Kooperationsfähigkeit», «Aufgaben/Probleme lösen») und die Englisch-Einträge tragen zusätzlich `ch` (identische FS1E-Codes). Module unverändert gültig. **Achtung Rollout wie beim satzbau (UMGEKEHRT zur Tolerant-leer-Intuition): Der Plattform-PR muss ZUERST gemergt/deployt sein** – die Tolerant-leer-Regel gilt nur für FEHLENDE Dateien, aber die korrigierten mapping.json-Codes sind länger als das alte 60-Zeichen-Limit, und ein Content-Merge vor dem Plattform-Deploy liesse jeden Deploy-Hook-Build der alten Plattform hart scheitern. |
 | **3** (Player) | 30. September 2026 | KEIN Versionswechsel, reines Player-Verhalten: Der [`einschaetzung`](#einschaetzung--selbsteinschätzung-kompetenz-spinnennetz)-Block trägt unter den Schiebereglern ein aufklappbares **KI-Interview-Chatfenster** für die Teilkompetenzen des Blocks, die das Register mit `interview: true` freigibt – dieselben Regeln wie der experimentelle `interview`-Blocktyp (Quelle `ki`, immer unbestätigt, kompletter Verlauf reist im Report, klare Kennzeichnung «nicht Cate»; ohne aktivierte lokale KI ein ehrlicher Hinweis). Autor:innen müssen dafür nichts ändern. Nebenbei ist die Beispiel-Kennung des interview-Blocks in dieser Doku korrigiert (`uef.lernen.planen-organisieren` – die frühere `uef.lernen.arbeit-planen` steht nicht im Register und wäre an der Validierung gescheitert). |
+| **3** (additiv) | 20. November 2026 | KEIN Versionswechsel: Der [`einschaetzung`](#einschaetzung--selbsteinschätzung-kompetenz-spinnennetz)-Block kann seine Teilkompetenzen **selbst bestimmen**. Mit `"automatisch": true` (statt einer eigenen Liste) schätzen sich die Lernenden über genau die Teilkompetenzen ein, die an den **Aufgaben des Moduls** stehen – Vereinigung ohne Dubletten, in der Reihenfolge des ersten Vorkommens. Dazu optional `ausgeschlossen` (einzelne Kennungen herausnehmen) und `kiInterview` (`false` blendet das KI-Interview unter den Reglern aus; Standard: ein). Der Block steht seither als **erster Block** in allen 50 fachlichen Modulen, deren Aufgaben Teilkompetenzen tragen (der überfachliche Pilot `ueberfachlich-selbststeuerung` trägt dort den Block mit eigener Liste); am Ende dieser fachlichen Module lädt der Player zur zweiten Einschätzung ein («Vorher und nachher»). Die Validierung meldet als **Hinweis** (kein Fehler): Aufgaben mit Teilkompetenzen ohne Einschätzungsblock, eine leere automatische Liste, einen wirkungslosen Ausschluss. Zur Zeile vom 30. September: Das KI-Interview unter den Reglern gilt seit dem Player-Stand vom 5. Oktober 2026 für **alle** Teilkompetenzen des Blocks (das Register-Feld `interview: true` bleibt Pflicht nur für den eigenen Blocktyp `interview`). **Achtung Rollout wie beim satzbau** (Felder in bestehendem Blocktyp): Ältere Player lehnen Module mit den neuen Feldern hart ab – solche Module erst NACH dem zugehörigen Plattform-Deploy einreichen. |
 
 ## Ablage
 
@@ -821,8 +822,9 @@ Sechs-Stufen-Skala ein (**nie · selten · manchmal · oft · fast immer ·
 immer**); gespeichert wird ein Einschätzungs-Datenpunkt 0–100 in der
 persönlichen Belegspur (Kompetenz-Spinnennetz – Doku
 `docs/SPINNENNETZ.md` im Plattform-Repo). **Kein prüfender Block:**
-keine Punkte, keine Coins, kein Abschluss-Zwang; der Block zählt wie
-`tasks` als «bearbeitet». Auf Lehrergeräten läuft derselbe Block im
+keine Punkte, keine Coins, kein Abschluss-Zwang; mit eigener Liste zählt
+der Block wie `tasks` als «bearbeitet» (im Modus `automatisch` nicht,
+s. unten). Auf Lehrergeräten läuft derselbe Block im
 Lehrer-Modus mit Schülerwahl (Lehrpersonen-Einschätzung direkt in die
 Klassen-Übersicht); bei aktiver Ordner-Synchronisation zusätzlich als
 Peer-Einschätzung für Mitschüler:innen.
@@ -844,12 +846,83 @@ Regeln:
 
 - **Pflicht-`id`** (nicht `"quiz"`) – daran hängen Bearbeitet-Merker
   und Datenpunkt-Bezüge; wie Block-ids nie ändern.
-- **Mindestens eine Teilkompetenz-Kennung aus dem Register** – die
-  Kennungen SIND der Inhalt: Die Regler-Beschriftung ist der
+- **Mindestens eine Teilkompetenz-Kennung aus dem Register** (höchstens
+  8) – die Kennungen SIND der Inhalt: Die Regler-Beschriftung ist der
   Register-Name (Ich-Satz), es gibt keine eigenen Fragetexte im Block.
+  Ausnahme: der Modus `automatisch` (nächster Abschnitt).
 - Die überfachlichen Indikatoren liegen im Fach **`uef`**
   (`uef.<thema>.<indikator>`); fachliche Einschätzungen nutzen die
   normalen Fach-Kennungen.
+- Unter den Reglern bietet der Player ein aufklappbares
+  **KI-Interview** zu den Teilkompetenzen des Blocks an (experimentell;
+  Quelle `ki`, immer unbestätigt, der Verlauf reist im Report zur
+  Lehrperson). `"kiInterview": false` blendet es für diesen Block aus.
+- Der Player zeigt die **letzte eigene Einschätzung** als Markierung am
+  Regler. Jede weitere Einschätzung kommt als eigener Datenpunkt dazu –
+  frühere bleiben erhalten.
+
+#### Automatische Liste (fachliche Module)
+
+In fachlichen Modulen steht der Block als **erster Block** und bestimmt
+seine Teilkompetenzen selbst:
+
+```json
+{
+  "type": "einschaetzung",
+  "id": "selbsteinschaetzung",
+  "automatisch": true
+}
+```
+
+- **Die Liste wird berechnet:** die Vereinigung der `teilkompetenzen`
+  aller **Aufgaben** des Moduls (Quiz, Lückentext, Zuordnung, numerisch,
+  term, achse, Simulation mit Abschlussfrage und `tasks`), ohne
+  Dubletten, in der Reihenfolge des ersten Vorkommens. Kennungen an
+  Texten oder Medien zählen nicht. Wer einer Aufgabe eine
+  Teilkompetenz gibt oder nimmt, ändert damit auch den Block – ohne ihn
+  anzufassen. Die Obergrenze von 8 gilt hier nicht.
+- **`automatisch` und `teilkompetenzen` schliessen sich aus.** Der
+  einzige gültige Wert ist `true`; für die eigene Liste lässt man das
+  Feld weg.
+- **`ausgeschlossen`** (optional, nur mit `automatisch`): Kennungen, die
+  trotz Aufgabe nicht eingeschätzt werden sollen. Jede muss im Register
+  stehen (sonst Fehler); nennt sie keine Aufgabe des Moduls, meldet die
+  Validierung einen Hinweis.
+- **Titel und Einleitung weglassen:** Ohne `title`/`intro` zeigt der
+  Player einen Standardtext in der Sprache der Oberfläche («Schätze
+  dich ein: Was kannst du schon?»). Der Block enthält dann nichts zu
+  übersetzen – Sprachfassungen lassen sich ohne neue Übersetzung
+  nachführen. Eigene Texte sind möglich und werden übersetzt.
+- **Leere Liste:** Trägt keine Aufgabe eine Teilkompetenz (oder nimmt
+  `ausgeschlossen` alle heraus), zeigt der Player den Block nicht an;
+  die Validierung meldet einen Hinweis.
+- **Vorher und nachher:** Hat ein Modul genau einen Einschätzungsblock
+  mit mindestens einer fachlichen Teilkompetenz und danach Aufgaben,
+  erscheint am Modulende der Hinweis «Schätze dich jetzt noch einmal
+  ein», der zum selben Block zurückführt. Rein überfachliche Blöcke
+  bekommen den Hinweis nicht – Gewohnheiten ändern sich nicht in einer
+  Lektion.
+- **Kein Einfluss auf den Fortschritt:** Im Modus `automatisch` zählt
+  der Block nicht zum Modulfortschritt. Mit eigener Liste zählt er wie
+  bisher als «bearbeitet».
+- **Mehr als sechs Teilkompetenzen:** Der Player klappt die Regler dann
+  ein («11 Kompetenzen einschätzen»; nur im Modus `automatisch`). Das KI-Interview stellt zu jeder
+  Teilkompetenz zwei Fragen – in Modulen mit sehr vielen
+  Teilkompetenzen lohnt sich `"kiInterview": false` oder ein gezielter
+  Ausschluss.
+
+Die Validierung empfiehlt den Block mit einem **Hinweis**, wenn Aufgaben
+eines Moduls Teilkompetenzen tragen und kein Einschätzungsblock da ist.
+Ein Fehler ist das nicht.
+
+> **Gespeicherte Antworten und die Position der Blöcke.** `tasks`-Blöcke
+> ohne `id` speichern ihre Antworten unter ihrer Position im Modul.
+> Automatische Einschätzungsblöcke zählt die Plattform dabei nicht mit –
+> ihr Einfügen als erster Block verschiebt deshalb keine gespeicherte
+> Antwort. Für jeden anderen neuen Block VOR einem solchen `tasks`-Block
+> gilt das nicht. Und: Einem veröffentlichten `tasks`-Block nie
+> nachträglich eine `id` geben – die Antworten der Lernenden blieben
+> unter dem alten Schlüssel zurück.
 
 ### `interview` – KI-Interview zur Selbsteinschätzung (EXPERIMENTELL)
 

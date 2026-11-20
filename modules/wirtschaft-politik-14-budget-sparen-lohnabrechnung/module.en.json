@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-14-budget-sparen-lohnabrechnung --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:8064a9d9eeb65555caa3626a4bf1998f153c84619b826c022365ebdb365c369c",
-  "masterCommit": "1aa8ae6",
+  "masterHash": "sha256:e69b806750b591b63845e8b9f2e4cd65d516c6fef9cd5510248f280cd14713d0",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:wp14-antworten.json",
-  "selfHash": "sha256:bc0aebb83ecabc8c49113600c4502ad7ff14d1e937f638ccc27fb9111758488e"
+  "model": "speicher",
+  "selfHash": "sha256:7513c5495536799b839baacc84dcdc67bc06e2bc2c10e500381c07708983de70"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-14-budget-sparen-lohnabrechnung",
@@ -80,6 +80,11 @@
   "wirtschaft-politik-12-banken-kredit-zins"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Your first wage",

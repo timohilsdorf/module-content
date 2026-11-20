@@ -102,6 +102,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "id": "k3-einstieg",
    "title": "Ein Staat voller Abkürzungen",

@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-20-demokratie-als-prinzip --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:e447dc424c5593fe2c0f6fadfed2dd2915f2a85fafd98077b4cb8fad27a1f7f8",
-  "masterCommit": "dcc8000",
+  "masterHash": "sha256:c202691417913c782cd712d98cff2f649f3552e4d17ee2fc79a2e8437712f548",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-wirtschaft-politik-20-demokratie-als-prinzip-en-antworten.json",
-  "selfHash": "sha256:f0e154182843c250cd72412a663107e26ad40575463e6eb637016615f728274d"
+  "model": "speicher",
+  "selfHash": "sha256:70efb703ccab52794db27bcb32fe8d4f31fe8ff5196fbdcffb99a9f7dae0f526"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-20-demokratie-als-prinzip",
@@ -84,6 +84,11 @@
   "wirtschaft-politik-19-was-ist-politik"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Those affected make the decisions",

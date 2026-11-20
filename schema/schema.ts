@@ -576,6 +576,17 @@ export const sourceSchema = z.strictObject({
  */
 export const TEILKOMPETENZ_ID_MUSTER = /^[a-z0-9]+(\.[a-z0-9-]+)+$/;
 
+/** Eine Teilkompetenz-Kennung (Format und Länge) – gemeinsam für
+ *  `teilkompetenzen` an jedem Block und `ausgeschlossen` am
+ *  Einschätzungsblock. */
+const teilkompetenzKennungSchema = z
+  .string()
+  .max(64)
+  .regex(TEILKOMPETENZ_ID_MUSTER, {
+    message:
+      'Teilkompetenz-Kennungen haben das Format "<fachbereich>.<thema>.<verb-objekt>" (Kleinbuchstaben/Ziffern, Punkte als Trenner, Bindestriche ab dem zweiten Segment), z. B. "wirtschaft.geld.funktionen-nennen".',
+  });
+
 const blockBase = {
   /** Optionale stabile ID, z. B. für Deep-Links oder spätere Auswertungen. */
   id: z.string().optional(),
@@ -595,15 +606,7 @@ const blockBase = {
    * ältere Player lehnen Module mit dem Feld hart ab (strictObject).
    */
   teilkompetenzen: z
-    .array(
-      z
-        .string()
-        .max(64)
-        .regex(TEILKOMPETENZ_ID_MUSTER, {
-          message:
-            'Teilkompetenz-Kennungen haben das Format "<fachbereich>.<thema>.<verb-objekt>" (Kleinbuchstaben/Ziffern, Punkte als Trenner, Bindestriche ab dem zweiten Segment), z. B. "wirtschaft.geld.funktionen-nennen".',
-        }),
-    )
+    .array(teilkompetenzKennungSchema)
     .max(8)
     .refine((liste) => new Set(liste).size === liste.length, {
       message: "teilkompetenzen: Jede Kennung höchstens einmal listen.",
@@ -4525,6 +4528,25 @@ export function modulVerweisErlaubtInPfad(pfad: string): boolean {
  * EINE Wahrheit für Regler-Beschriftung und Netz-Achse, und das
  * Übersetzungs-System braucht keine neuen Feldpfade. Nicht prüfend
  * (keine Punkte, keine Coins); zählt beim Speichern als «bearbeitet».
+ *
+ * ZWEI WEGE ZUR LISTE (seit 20.11.2026, additiv – bestehende Dateien
+ * bleiben unverändert gültig):
+ * - EXPLIZIT (wie bisher): `teilkompetenzen` nennt 1–8 Kennungen –
+ *   der Weg der überfachlichen Module.
+ * - AUTOMATISCH: `automatisch: true` – der Block bestimmt seine
+ *   Teilkompetenzen selbst aus den AUFGABEN des Moduls
+ *   (wirksameEinschaetzungsKennungen: Vereinigung ohne Dubletten, in
+ *   der Reihenfolge des ersten Vorkommens). `teilkompetenzen` fehlt
+ *   dann; `ausgeschlossen` nimmt einzelne Kennungen heraus. Der Block
+ *   bleibt ein eigener Eintrag mit fester id – berechnet wird nur die
+ *   Liste, darum gilt die Obergrenze von 8 hier nicht. Ist die
+ *   wirksame Liste leer, zeigt der Player den Block nicht an.
+ * `kiInterview: false` blendet das KI-Interview unter den Reglern für
+ * diesen Block aus (fehlt das Feld, ist es an – Verhalten seit
+ * 5.10.2026).
+ * ROLLOUT wie bei jedem neuen Feld in einem bestehenden Blocktyp:
+ * Plattform VOR dem Content-Merge deployen – ältere Player lehnen
+ * Module mit diesen Feldern hart ab (strictObject, kein Platzhalter).
  */
 export const einschaetzungBlockSchema = z
   .strictObject({
@@ -4532,6 +4554,19 @@ export const einschaetzungBlockSchema = z
     type: z.literal("einschaetzung"),
     /** Erklärtext über den Reglern (Markdown, optional). */
     intro: markdown.optional(),
+    /** true = Liste aus den Aufgaben des Moduls berechnen (s. oben). */
+    automatisch: z.literal(true).optional(),
+    /** Nur mit `automatisch`: Kennungen, die NICHT erscheinen sollen. */
+    ausgeschlossen: z
+      .array(teilkompetenzKennungSchema)
+      .min(1)
+      .max(64)
+      .refine((liste) => new Set(liste).size === liste.length, {
+        message: "ausgeschlossen: Jede Kennung höchstens einmal listen.",
+      })
+      .optional(),
+    /** KI-Interview unter den Reglern; fehlt = an. */
+    kiInterview: z.boolean().optional(),
   })
   .superRefine((block, ctx) => {
     if (!block.id) {
@@ -4549,13 +4584,32 @@ export const einschaetzungBlockSchema = z
           'Einschätzung: Die id "quiz" ist für Quizblöcke reserviert – bitte eine andere id wählen.',
       });
     }
-    if (!block.teilkompetenzen || block.teilkompetenzen.length === 0) {
-      ctx.addIssue({
-        code: "custom",
-        path: ["teilkompetenzen"],
-        message:
-          "Einschätzung: Der Block braucht mindestens eine Teilkompetenz-Kennung aus dem Register – sie IST der Inhalt (Regler-Beschriftung kommt aus dem Register).",
-      });
+    if (block.automatisch === true) {
+      if (block.teilkompetenzen !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["teilkompetenzen"],
+          message:
+            'Einschätzung: Mit "automatisch": true berechnet der Block seine Liste aus den Aufgaben des Moduls – bitte "teilkompetenzen" weglassen (einzelne Kennungen nimmt "ausgeschlossen" heraus).',
+        });
+      }
+    } else {
+      if (!block.teilkompetenzen || block.teilkompetenzen.length === 0) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["teilkompetenzen"],
+          message:
+            'Einschätzung: Der Block braucht mindestens eine Teilkompetenz-Kennung aus dem Register – sie IST der Inhalt (Regler-Beschriftung kommt aus dem Register). Alternative: "automatisch": true übernimmt die Teilkompetenzen der Aufgaben des Moduls.',
+        });
+      }
+      if (block.ausgeschlossen !== undefined) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["ausgeschlossen"],
+          message:
+            'Einschätzung: "ausgeschlossen" wirkt nur zusammen mit "automatisch": true – in einer expliziten Liste die Kennung einfach weglassen.',
+        });
+      }
     }
   });
 
@@ -5213,6 +5267,101 @@ export function istPruefenderBlock(block: Block): boolean {
     return block.abschlussfrage !== undefined;
   }
   return (PRUEFENDE_BLOCK_TYPES as readonly string[]).includes(block.type);
+}
+
+/**
+ * Ist der Block eine AUFGABE im Sinn der Kompetenz-Auswertung? Das sind
+ * die prüfenden Blöcke (Punkte im Report) und die Freitext-Blöcke
+ * (tasks, Nachweis über die Antworten) – genau die Blöcke, deren
+ * Teilkompetenzen Heatmap und Kompetenzprofil zählen. EINE Definition
+ * für Player (Kompetenz-Abschnitt je Aufgabe, automatische Liste des
+ * Einschätzungsblocks), beide Build-Validierer und den Editor.
+ */
+export function istAufgabenBlock(block: Block): boolean {
+  return istPruefenderBlock(block) || block.type === "tasks";
+}
+
+/**
+ * Teilkompetenzen der AUFGABEN eines Moduls: Vereinigung ohne
+ * Dubletten, in der Reihenfolge des ersten Vorkommens. Kennungen an
+ * anderen Blöcken (Texte, Medien, Einschätzungsblöcke selbst) zählen
+ * nicht mit.
+ */
+export function aufgabenTeilkompetenzen(blocks: readonly Block[]): string[] {
+  const gesehen = new Set<string>();
+  const liste: string[] = [];
+  for (const block of blocks) {
+    if (!isKnownBlock(block) || !istAufgabenBlock(block)) continue;
+    for (const kennung of block.teilkompetenzen ?? []) {
+      if (gesehen.has(kennung)) continue;
+      gesehen.add(kennung);
+      liste.push(kennung);
+    }
+  }
+  return liste;
+}
+
+/**
+ * Die WIRKSAME Liste eines Einschätzungsblocks – die EINE Ableitung für
+ * Player, Validierer und Editor: explizit → `teilkompetenzen`;
+ * automatisch → die Teilkompetenzen der Aufgaben des Moduls ohne die
+ * ausgeschlossenen. Eine leere Liste heisst: Der Block wird nicht
+ * angezeigt.
+ */
+export function wirksameEinschaetzungsKennungen(
+  block: EinschaetzungBlock,
+  blocks: readonly Block[],
+): string[] {
+  if (block.automatisch !== true) return block.teilkompetenzen ?? [];
+  const ausgeschlossen = new Set(block.ausgeschlossen ?? []);
+  return aufgabenTeilkompetenzen(blocks).filter(
+    (kennung) => !ausgeschlossen.has(kennung),
+  );
+}
+
+/**
+ * HINWEISE (keine Fehler) der Build-Validierer zu den
+ * Einschätzungsblöcken eines Moduls – EINE Regel für Plattform- und
+ * Content-Validierer:
+ * 1. Aufgaben tragen Teilkompetenzen, aber das Modul hat keinen
+ *    Einschätzungsblock (Lernende können sich dort nicht vor und nach
+ *    dem Modul einschätzen).
+ * 2. Ein Block mit `automatisch` hat eine leere wirksame Liste – der
+ *    Player zeigt ihn nicht an.
+ * 3. `ausgeschlossen` nennt eine Kennung, die an keiner Aufgabe
+ *    vorkommt (wirkungslos, vermutlich ein Tippfehler oder Altbestand).
+ * Nur für MASTER-Dateien aufrufen (Fassungen haben dieselbe Struktur –
+ * die Hinweise erschienen sonst doppelt).
+ */
+export function einschaetzungsHinweise(blocks: readonly Block[]): string[] {
+  const hinweise: string[] = [];
+  const derAufgaben = aufgabenTeilkompetenzen(blocks);
+  let hatEinschaetzung = false;
+  blocks.forEach((block, index) => {
+    if (!isKnownBlock(block) || block.type !== "einschaetzung") return;
+    hatEinschaetzung = true;
+    if (block.automatisch !== true) return;
+    if (wirksameEinschaetzungsKennungen(block, blocks).length === 0) {
+      hinweise.push(
+        derAufgaben.length === 0
+          ? `blocks.${index}: Der Einschätzungsblock mit "automatisch" findet keine Teilkompetenzen – keine Aufgabe dieses Moduls trägt welche. Der Player zeigt den Block nicht an.`
+          : `blocks.${index}: Der Einschätzungsblock mit "automatisch" hat keine Teilkompetenzen mehr – "ausgeschlossen" nimmt alle heraus. Der Player zeigt den Block nicht an.`,
+      );
+    }
+    for (const kennung of block.ausgeschlossen ?? []) {
+      if (!derAufgaben.includes(kennung)) {
+        hinweise.push(
+          `blocks.${index}: "ausgeschlossen" nennt "${kennung}", das an keiner Aufgabe dieses Moduls vorkommt – der Eintrag ist wirkungslos.`,
+        );
+      }
+    }
+  });
+  if (!hatEinschaetzung && derAufgaben.length > 0) {
+    hinweise.push(
+      `Die Aufgaben dieses Moduls tragen ${derAufgaben.length === 1 ? "eine Teilkompetenz" : `${derAufgaben.length} Teilkompetenzen`}, aber es gibt keinen Einschätzungsblock. Empfehlung: als ersten Block { "type": "einschaetzung", "id": "selbsteinschaetzung", "automatisch": true } einfügen – dann können sich Lernende vor und nach dem Modul selbst einschätzen.`,
+    );
+  }
+  return hinweise;
 }
 
 /**

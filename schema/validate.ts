@@ -50,6 +50,7 @@ function istBekannteEinheit(einheit: string): boolean {
   }
 }
 import {
+  einschaetzungsHinweise,
   extrahiereModulVerweise,
   isKnownBlock,
   schaubildStandardBefunde,
@@ -528,6 +529,19 @@ function teilkompetenzReferenzFehler(mod: LearningModule): string[] {
   const fehler: string[] = [];
   mod.blocks.forEach((block, i) => {
     if (!isKnownBlock(block)) return;
+    // `ausgeschlossen` des Einschätzungsblocks: gleiche Register-Pflicht
+    // wie jede andere Kennung (ein Tippfehler bliebe sonst unbemerkt –
+    // die Kennung fehlte nur still nicht in der berechneten Liste;
+    // Spiegel der Plattform).
+    if (block.type === "einschaetzung" && kompetenzenAktiv) {
+      for (const kennung of block.ausgeschlossen ?? []) {
+        if (kompetenzRegister[kennung] === undefined) {
+          fehler.push(
+            `blocks.${i}: ausgeschlossene Teilkompetenz "${kennung}" ist nicht im Register (kompetenzen/teilkompetenzen.json).`,
+          );
+        }
+      }
+    }
     for (const kennung of block.teilkompetenzen ?? []) {
       kompetenzVerwendet.add(kennung);
       if (kompetenzenAktiv && kompetenzRegister[kennung] === undefined) {
@@ -651,6 +665,13 @@ function checkModule(
   // --- Teilkompetenzen: jede referenzierte Kennung braucht einen ----------
   // Register-Eintrag (Fassungen prüft der Hauptlauf mit derselben Funktion).
   errors.push(...teilkompetenzReferenzFehler(mod));
+
+  // --- Einschätzungsblock (20.11.2026): Hinweise – nie Fehler – zu --------
+  // Modulen mit zugeordneten Aufgaben, aber ohne Block, und zu
+  // wirkungslosen Automatik-Angaben. EINE Regel mit dem
+  // Plattform-Validierer (einschaetzungsHinweise in der SYNC-Region);
+  // checkModule läuft nur über Master, Fassungen haben dieselbe Struktur.
+  hints.push(...einschaetzungsHinweise(mod.blocks));
 
   // --- schaubild: Szene muss KANONISCH (verschlankt) in der Datei ---------
   // stehen. Das Schema verdaut auch rohe Editor-Exporte (transform

@@ -11,7 +11,7 @@
     "validate": "tsx schema/validate.ts",
     "uebersetze": "tsx uebersetzung/uebersetze.ts",
     "uebersetzungs-status": "tsx uebersetzung/status.ts",
-    "test:uebersetzung": "tsx uebersetzung/test-diagramm.ts && tsx uebersetzung/test-schaubild.ts",
+    "test:uebersetzung": "tsx uebersetzung/test-diagramm.ts && tsx uebersetzung/test-schaubild.ts && tsx uebersetzung/test-einschaetzung.ts",
     "schaubild-verschlanken": "tsx schema/verschlanke-schaubild.ts"
   },
   "dependencies": {

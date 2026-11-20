@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-31-debatte-frieden-sichern --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:3b4b8c40f75c7fa7c2f2381b7f235a0d593276df5c028dacee4c370bcd06b1ab",
-  "masterCommit": "a3d891b",
+  "masterHash": "sha256:0e2eaf9ca5f5f79cc028b9c71373fd808e0c9ff227cf578e258417446ad90e62",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:889ff3e971a14d59bfd14fa9d55bd4fd485062c87b3dcfb7cec1362f58c69862"
+  "model": "speicher",
+  "selfHash": "sha256:de69a5645ff4c2e5c08d7a058120fd7d50980ced0e48584515a93cffebef1e7d"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-31-debatte-frieden-sichern",
@@ -85,6 +85,11 @@
   "wirtschaft-politik-30-konflikte-verstehen"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Your debate – your tools",

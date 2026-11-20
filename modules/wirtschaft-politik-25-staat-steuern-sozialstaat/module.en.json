@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-25-staat-steuern-sozialstaat --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:95fa45ed5436750472a92b1c66c5938cdb306c53d4fad94a1b75297f338aed2e",
-  "masterCommit": "e8d068c",
+  "masterHash": "sha256:160b11659bfa8303727aa1f1e168595a02d15ee6e644eaf35d60c1a4f920c3af",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:e5e97f7a78faeae6a33917bc8fba6ceffd1434b9b72b5d09438ab07ca6888a02"
+  "model": "speicher",
+  "selfHash": "sha256:f8ca151124cbc2c57ab1736a29837faaaf779e790c46cca27dfa67da16e4c68a"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-25-staat-steuern-sozialstaat",
@@ -92,6 +92,11 @@
   "wirtschaft-politik-14-budget-sparen-lohnabrechnung"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Why doesn't anyone volunteer to build a road?",
