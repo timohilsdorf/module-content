@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hintsHash": null,
+ "hintsHash": "sha256:553ae526dcfaa4da862b90b9c55812fbc28b80d13ff88335cab6b2d8000e5407",
  "segmente": {
   "title": {
    "quelle": "sha256:04a06e4875a41bfeb7afe301803954c9935f3479eed2d7b1ab6a7b7d074de0c4",
@@ -139,8 +139,8 @@
    "text": "The vocabulary test is **important and urgent**, so it comes first. The presentation is important, but not urgent yet – you plan a fixed time for it (ideally with a first step today). The chat may be loud, but it isn't important. Doing everything at the same time usually means doing nothing properly."
   },
   "blocks[4].questions[1].prompt": {
-   "quelle": "sha256:fad080259fad5f03f19cd596b0a9cfc713e6c206a0c51fc55b1b03c8349e2570",
-   "text": "The history presentation isn't due for another two weeks. What is the most sensible thing to do?"
+   "quelle": "sha256:4c0888a9b6b0a541d9d4d8409416f9697a9e69b0a7aaac377b33ae6a0efafb7c",
+   "text": "You still have two weeks until a presentation in biology. What is the most sensible thing to do?"
   },
   "blocks[4].questions[1].options[0].text": {
    "quelle": "sha256:f893abdc83e5aacf74cba41f0e939a3d66fd3878ca0b55bf30eba40026c560e7",
@@ -423,16 +423,16 @@
    "text": "See you tomorrow – that was a great tournament! *Half past nine in the evening. You are sitting in front of your half-finished poster, and your eyes keep closing. In the morning, on the bus, you stick on the last pictures – crooked.*"
   },
   "blocks[7].knoten[7].auswertung": {
-   "quelle": "sha256:b059d6cff4ae9b49ca66a3300e61fddd1f1435f03bdba3dd89dc36f3a269e191",
-   "text": "**Said yes – and pushed the important thing aside.** The tournament was *urgent* (now or never!), the poster was *important*. In the moment, urgent things always feel more important – and “Everyone's coming!” or “Just one more round!” make the pull even stronger. What would have helped: pausing for a moment, weighing up the consequences (“What does this mean for tonight and tomorrow morning?”) and then making a compromise with a fixed time or a counter-proposal – and sticking with it, even when someone keeps pushing. Try a different path in the role play."
+   "quelle": "sha256:07e879fb64ac46a589b4c342f0482747ad6011a93c3b4f92a55df5f3f063cc0f",
+   "text": "**Said yes – and pushed the important thing aside.** The tournament was *urgent* (now or never!), the poster was *important*. In the moment, urgent things always feel more important – and lines like “It won't take long”, “Everyone's coming!” or “Just one more round!” make the pull even stronger. What would have helped: pausing for a moment, weighing up the consequences (“What does this mean for tonight and tomorrow morning?”) and then making a compromise with a fixed time or a counter-proposal – and sticking with it, even when someone keeps pushing. Try a different path in the role play."
   },
   "blocks[7].knoten[8].text": {
    "quelle": "sha256:0a4460f966066386f17d06b1aa69b543dfc20a35da2ac813647d18df648198f2",
    "text": "Okay, shame … see you tomorrow! *You get home at half past eight and work until after ten. The poster gets finished – but you are pretty tired.*"
   },
   "blocks[7].knoten[8].auswertung": {
-   "quelle": "sha256:c988063b79526e1c4014578d1b9cae64e85fdb4da102b19b1ab58a4f83b59bf4",
-   "text": "**Late, but you changed course yourself.** At first the group pressure decided for you (“Everyone's coming!”), then you turned things around yourself and stuck with your decision when Noah wanted one more round – that's impressive. It would have been even better to decide **beforehand**: with a compromise (“I'll come at five”) or a counter-proposal you could have had both, without the evening stress."
+   "quelle": "sha256:31efb87f804143c876833fb24e459ffcce37f98b08aac03d9e882d228d1a49ae",
+   "text": "**Late, but you changed course yourself.** At first you let yourself be talked into it, then you turned things around yourself and stood firm when Noah wanted one more round – that's impressive. It would have been even better to decide **beforehand** and stick with it: with a compromise (“I'll come at five”) or a counter-proposal (“Saturday would be great!”) that you stand by even when Noah keeps pushing, you could have had both – without the evening stress."
   },
   "blocks[7].knoten[9].text": {
    "quelle": "sha256:49d0556504670e635e54eb800b7e055135aa2f34a4c86ab54c81e1ce0174124d",
@@ -520,7 +520,7 @@
   },
   "blocks[8].tasks[1].solution": {
    "quelle": "sha256:b7130bd465df6a98dcd792aa1bd7ffe9703df9704ea354048da1fa3a77a59eca",
-   "text": "Criteria for a good answer: (1) The goal is specific (a clear activity), measurable (at the end you can clearly say whether it has been achieved, for example a number or a finished product) and has a deadline. (2) There are at least two milestones with dates that together lead to the goal and are in a sensible order. (3) The if-then plan names a specific situation (when/where, e.g. “if I get home after lunch”) and a specific first action (e.g. “then I'll put my phone away and work for 20 minutes”). A possible example (one of many): “Goal: By the maths test on the 28th, I can solve all types of percentage problems without help. Milestones: exercises 1–10 in the workbook by Wednesday, exercises 11–20 by Friday, the practice test at the weekend. If-then plan: If I get home at 4 pm on Monday, then I'll sit down to the exercises for 20 minutes first.” The topic of the task is free; only the three building blocks are assessed, not the similarity to the example."
+   "text": "Criteria for a good answer: (1) The goal is specific (a clear activity), measurable (at the end you can clearly say whether it has been achieved, for example a number or a finished product) and has a deadline. (2) There are at least two milestones with dates that together lead to the goal and are in a sensible order. (3) The if-then plan names a specific situation (when/where, e.g. “if I get home after lunch”) and a specific first action (e.g. “then I'll put my phone away and work for 20 minutes”). A possible example (one of many): “Goal: By the maths test on the 28th, I will be able to solve all types of percentage problems without help. Milestones: exercises 1–10 in the workbook by Wednesday, exercises 11–20 by Friday, the practice test at the weekend. If-then plan: If I get home at 4 pm on Monday, then I'll sit down to the exercises for 20 minutes first.” The topic of the task is free; only the three building blocks are assessed, not the similarity to the example."
   },
   "blocks[9].title": {
    "quelle": "sha256:76a2379040bde64a3ed5edcace3d7eed0a17f21fcd6d44f440bbedb523c84d45",

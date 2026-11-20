@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-selbststeuerung --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:ac720c6f27c382a57372a8efd4df88a233d608b1e85d1f316cf7ea99dd6c4e0c",
-  "masterCommit": "f1497af",
-  "hintsHash": null,
+  "masterHash": "sha256:a33744179d835a2257d47e72516b7eca1dbb47a730726448201ecf2bad82dee4",
+  "masterCommit": "5e1f6fc",
+  "hintsHash": "sha256:553ae526dcfaa4da862b90b9c55812fbc28b80d13ff88335cab6b2d8000e5407",
   "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:antworten.json + speicher",
-  "selfHash": "sha256:cc9c5fd4082eb46850dd754aba9c53bd29a861eefbd949d04ed9c211c11c1a04"
+  "model": "datei:antworten.json",
+  "selfHash": "sha256:bc4b4a3c60e48b1b09ef2087b26ab3794edd62bf68235a2828bedceb2aa5a2d3"
  },
  "schemaVersion": 3,
  "id": "ueberfachlich-selbststeuerung",
@@ -157,7 +157,7 @@
     {
      "id": "q2",
      "type": "single_choice",
-     "prompt": "The history presentation isn't due for another two weeks. What is the most sensible thing to do?",
+     "prompt": "You still have two weeks until a presentation in biology. What is the most sensible thing to do?",
      "options": [
       {
        "text": "Wait until it becomes urgent – that's when you're most motivated."
@@ -496,12 +496,12 @@
     {
      "id": "ende-stress",
      "text": "See you tomorrow – that was a great tournament! *Half past nine in the evening. You are sitting in front of your half-finished poster, and your eyes keep closing. In the morning, on the bus, you stick on the last pictures – crooked.*",
-     "auswertung": "**Said yes – and pushed the important thing aside.** The tournament was *urgent* (now or never!), the poster was *important*. In the moment, urgent things always feel more important – and “Everyone's coming!” or “Just one more round!” make the pull even stronger. What would have helped: pausing for a moment, weighing up the consequences (“What does this mean for tonight and tomorrow morning?”) and then making a compromise with a fixed time or a counter-proposal – and sticking with it, even when someone keeps pushing. Try a different path in the role play."
+     "auswertung": "**Said yes – and pushed the important thing aside.** The tournament was *urgent* (now or never!), the poster was *important*. In the moment, urgent things always feel more important – and lines like “It won't take long”, “Everyone's coming!” or “Just one more round!” make the pull even stronger. What would have helped: pausing for a moment, weighing up the consequences (“What does this mean for tonight and tomorrow morning?”) and then making a compromise with a fixed time or a counter-proposal – and sticking with it, even when someone keeps pushing. Try a different path in the role play."
     },
     {
      "id": "ende-spaet",
      "text": "Okay, shame … see you tomorrow! *You get home at half past eight and work until after ten. The poster gets finished – but you are pretty tired.*",
-     "auswertung": "**Late, but you changed course yourself.** At first the group pressure decided for you (“Everyone's coming!”), then you turned things around yourself and stuck with your decision when Noah wanted one more round – that's impressive. It would have been even better to decide **beforehand**: with a compromise (“I'll come at five”) or a counter-proposal you could have had both, without the evening stress."
+     "auswertung": "**Late, but you changed course yourself.** At first you let yourself be talked into it, then you turned things around yourself and stood firm when Noah wanted one more round – that's impressive. It would have been even better to decide **beforehand** and stick with it: with a compromise (“I'll come at five”) or a counter-proposal (“Saturday would be great!”) that you stand by even when Noah keeps pushing, you could have had both – without the evening stress."
     },
     {
      "id": "ende-kompromiss",
@@ -566,7 +566,7 @@
      "id": "aufgabe-mein-plan",
      "prompt": "Choose a real task coming up in the next one to two weeks – for example a test, a presentation, a training session or a project of your own. For it, write:\n\n1. your **goal** – specific, measurable and with a deadline,\n2. at least two **milestones** with dates,\n3. an **if-then plan** for getting started (“If …, then …”).",
      "hint": "Check your goal with three questions: Do I know exactly what I want to do? Will I be able to say at the end whether I've managed it? Is there a date?",
-     "solution": "Criteria for a good answer: (1) The goal is specific (a clear activity), measurable (at the end you can clearly say whether it has been achieved, for example a number or a finished product) and has a deadline. (2) There are at least two milestones with dates that together lead to the goal and are in a sensible order. (3) The if-then plan names a specific situation (when/where, e.g. “if I get home after lunch”) and a specific first action (e.g. “then I'll put my phone away and work for 20 minutes”). A possible example (one of many): “Goal: By the maths test on the 28th, I can solve all types of percentage problems without help. Milestones: exercises 1–10 in the workbook by Wednesday, exercises 11–20 by Friday, the practice test at the weekend. If-then plan: If I get home at 4 pm on Monday, then I'll sit down to the exercises for 20 minutes first.” The topic of the task is free; only the three building blocks are assessed, not the similarity to the example."
+     "solution": "Criteria for a good answer: (1) The goal is specific (a clear activity), measurable (at the end you can clearly say whether it has been achieved, for example a number or a finished product) and has a deadline. (2) There are at least two milestones with dates that together lead to the goal and are in a sensible order. (3) The if-then plan names a specific situation (when/where, e.g. “if I get home after lunch”) and a specific first action (e.g. “then I'll put my phone away and work for 20 minutes”). A possible example (one of many): “Goal: By the maths test on the 28th, I will be able to solve all types of percentage problems without help. Milestones: exercises 1–10 in the workbook by Wednesday, exercises 11–20 by Friday, the practice test at the weekend. If-then plan: If I get home at 4 pm on Monday, then I'll sit down to the exercises for 20 minutes first.” The topic of the task is free; only the three building blocks are assessed, not the similarity to the example."
     }
    ]
   },
