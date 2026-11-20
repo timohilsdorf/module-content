@@ -87,8 +87,9 @@ check(
   vergleicheStruktur(master, andererSchalter).length > 0,
 );
 
-// --- Hinweise der Validierung (nie Fehler) ----------------------------------
+// --- Hilfen ----------------------------------------------------------------
 
+type Bloecke = Parameters<typeof einschaetzungsHinweise>[0];
 const quiz = (id: string, kennungen: string[]) => ({
   type: "quiz",
   id,
@@ -158,14 +159,49 @@ check(
   hinweisFalsch.length === 0,
   hinweisFalsch.join(", "),
 );
+
+// --- Hinweise der Validierung (nie Fehler) ----------------------------------
+
 check(
   "Hinweis nennt die Zahl der Teilkompetenzen und die Empfehlung",
   (() => {
-    const h = einschaetzungsHinweise(
-      [quiz("q1", ["wp.a.eins", "wp.a.zwei"])] as unknown as Parameters<typeof einschaetzungsHinweise>[0],
-    );
+    const h = einschaetzungsHinweise([quiz("q1", ["wp.a.eins", "wp.a.zwei"])] as unknown as Bloecke);
     return h.length === 1 && h[0].includes("2 Teilkompetenzen") && h[0].includes('"automatisch": true');
   })(),
+);
+check(
+  "Hinweis: automatische Liste leer (keine Aufgabe trägt Teilkompetenzen)",
+  (() => {
+    const h = einschaetzungsHinweise([BLOCK, quiz("q1", [])] as unknown as Bloecke);
+    return h.length === 1 && h[0].startsWith("blocks.0:") && h[0].includes("zeigt den Block nicht an");
+  })(),
+);
+check(
+  "Hinweis: wirkungsloser Ausschluss (Kennung an keiner Aufgabe)",
+  (() => {
+    const h = einschaetzungsHinweise(
+      [{ ...BLOCK, ausgeschlossen: ["wp.a.fremd"] }, quiz("q1", ["wp.a.eins"])] as unknown as Bloecke,
+    );
+    return h.length === 1 && h[0].includes('"wp.a.fremd"') && h[0].includes("wirkungslos");
+  })(),
+);
+check(
+  "kein Hinweis, wenn der Block da ist und eine Liste hat",
+  einschaetzungsHinweise([BLOCK, quiz("q1", ["wp.a.eins"])] as unknown as Bloecke).length === 0,
+);
+// Die Validierung führt diese Meldungen als HINWEISE: Der Lauf über
+// den Bestand bleibt gültig (Exit 0), auch wenn ein Modul keinen Block
+// hat – das prüft `npm run validate` im selben CI-Job. Hier: Die
+// Verdrahtung in schema/validate.ts ruft die Funktion in die
+// hints-Liste, nicht in errors.
+const validateQuelle = fs.readFileSync(
+  path.join(import.meta.dirname, "..", "schema", "validate.ts"),
+  "utf8",
+);
+check(
+  "schema/validate.ts reicht einschaetzungsHinweise an hints (nicht an errors)",
+  validateQuelle.includes("hints.push(...einschaetzungsHinweise(mod.blocks))") &&
+    !validateQuelle.includes("errors.push(...einschaetzungsHinweise"),
 );
 
 console.log(`\n${ok} ok, ${fail} fehlgeschlagen`);

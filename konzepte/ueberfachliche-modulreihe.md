@@ -56,9 +56,12 @@ Ich-Sätze des Registers sind ebenfalls Eigenformulierungen der Plattform.
 
 Alle Module stehen in der bestehenden Einheit **«Überfachliche
 Kompetenzen»** (`einheit`), die Reihenfolge gibt `sequenz` – derselbe
-Mechanismus, mit dem der Katalog schon die Reihen «Nationalsozialismus»
-und «Wirtschaft und Politik» gruppiert. Fach `UEF`, Lehrpläne `li` und
-`ch`, Stufen 7–9.
+Mechanismus, mit dem der Katalog schon die Reihe «Nationalsozialismus –
+Diktatur, Verfolgung, Erinnerung» und die Themenblöcke A–F der
+Wirtschafts- und Politik-Module gruppiert. Der Katalog gruppiert zuerst
+nach dem Fach des gewählten Lehrplans und erst darin nach `einheit`.
+Alle Module der Reihe tragen darum in jedem Lehrplan dasselbe Fach:
+`UEF` in `li` und `ch`, Stufen 7–9.
 
 | sequenz | Ordner / id | Titel | Einschätzungsblock |
 |---|---|---|---|
@@ -70,8 +73,10 @@ und «Wirtschaft und Politik» gruppiert. Fach `UEF`, Lehrpläne `li` und
 | 6 | `ueberfachlich-zusammenarbeit` | Wie ich mit anderen zusammenarbeite | `selbst-zusammenarbeit` |
 | 7 | `ueberfachlich-lernen` | Wie ich lerne und arbeite | `selbst-lernen` |
 
-Die Titel sind die bewährten Blocktitel; die Ordnernamen folgen dem
-zweiten Segment der Kennungen.
+Die Titel folgen den bewährten Blocktiteln; die Ordnernamen folgen dem
+zweiten Segment der Kennungen. (Der Modultitel des Pilots schreibt
+«steuere»; sein Einschätzungsblock behält wie im Überblick «steure» –
+beide Formen sind richtig, s. Abschnitt 7.)
 
 ## 3. Aufbau je Modul
 
@@ -107,11 +112,12 @@ Aufgabenpunkte zeigen in diesen Modulen, dass jemand eine Strategie
 **kennt** – nicht, wie oft sie oder er sie **anwendet**. So geht die
 Plattform heute damit um (geprüft am Code, nichts geändert):
 
-- **Netzdiagramm, Notenvorschlag, Lernstandsbericht:** Punkte aus
-  Aufgaben mit überfachlichen Kennungen gehen dort **nicht** ein. Die
-  Regel, die aus Aufgaben Datenpunkte macht, lässt überfachliche
-  Kennungen aus. Im Netz stehen für diese Kompetenzen nur
-  Einschätzungen (selbst, Mitschüler:innen, Lehrperson, KI-Interview).
+- **Netzdiagramm und Notenvorschlag:** Punkte aus Aufgaben mit
+  überfachlichen Kennungen gehen dort **nicht** ein. Die Regel, die aus
+  Aufgaben Datenpunkte macht, lässt überfachliche Kennungen aus. Im
+  Netz – auch im Netz des Lernstandsberichts – stehen für diese
+  Kompetenzen nur Einschätzungen (selbst, Mitschüler:innen, Lehrperson,
+  KI-Interview).
 - **Ausnahme Ausdauer und Rückschläge:** Aus dem Verhalten bei
   *jeder* Aufgabe der Plattform mit Punkten (auch in Fachmodulen)
   entstehen Belege für «Ich gehe mit Rückschlägen um» und «Ich zeige
@@ -120,18 +126,23 @@ Plattform heute damit um (geprüft am Code, nichts geändert):
   lässt, einen tiefen. Das misst Verhalten, nicht Wissen, hängt nicht an
   den Kennungen der Aufgabe und gilt für die Aufgaben der Reihe wie für
   alle anderen.
-- **Kompetenz-Heatmap und Kompetenzprofil:** Dort erscheinen die
-  Aufgaben der Reihe unter dem Ich-Satz der Teilkompetenz mit Punkten
-  und Abdeckung. Das liest sich wie Können, misst aber Wissen. Eine
+- **Kompetenz-Heatmap, Kompetenzprofil und Lernstandsbericht:** Dort
+  erscheinen die Aufgaben der Reihe unter dem Ich-Satz der
+  Teilkompetenz mit Punkten und Abdeckung – im Lernstandsbericht sogar
+  im Abschnitt «Fachliche Kompetenzen». Ihre Modulpunkte zählen dort
+  ausserdem in die Punkte-Kennzahl, den Verlauf und den
+  Klassenvergleich. Das liest sich wie Können, misst aber Wissen. Eine
   Einstellung, um diese Zeilen auszublenden, gibt es nicht.
 
 Folgerungen für die Reihe:
 
 - Der Schlusstext jedes Moduls sagt den Unterschied ausdrücklich.
-- Lehrpersonen lesen die Heatmap-Zeilen der überfachlichen Kompetenzen
-  als «Strategien bekannt», das Netzdiagramm als «angewendet».
-- Offen bleibt, ob die Heatmap diese Zeilen künftig anders beschriften
-  oder eigene Wissens-Kennungen bekommen soll (siehe Abschnitt 7).
+- Lehrpersonen lesen die Zeilen der überfachlichen Kompetenzen in
+  Heatmap, Profil und Bericht als «Strategien bekannt», das
+  Netzdiagramm als «angewendet».
+- Offen bleibt, ob Heatmap, Profil und Bericht diese Zeilen künftig
+  anders beschriften oder eigene Wissens-Kennungen bekommen sollen
+  (siehe Abschnitt 7).
 
 ## 5. Übergang
 
@@ -146,8 +157,13 @@ Für die Zeit danach gibt es drei Wege:
 | Weg | Folgen |
 |---|---|
 | **A – Überblick behalten** (empfohlen): Das bestehende Modul bleibt mit allen sechs Blöcken als Überblick (sequenz 1), die sechs Lernmodule kommen dazu. | Nichts geht verloren: Lernstand, Abschluss, Verweise der Belegspur und die Modul-id bleiben. Dieselbe Einschätzung ist dann an zwei Stellen erreichbar; das ist unschädlich, weil jeder Speichervorgang ein eigener Datenpunkt ist. Der Überblick bleibt die schnelle Gesamt-Einschätzung, die das Modul selbst alle paar Monate empfiehlt. |
-| **B – Umbau zum ersten Reihenmodul:** Das bestehende Modul behält Ordner und id, verliert fünf Blöcke und bekommt Theorie und Aufgaben. | Die Modul-id bleibt erhalten. Aber: Titel und Beschreibung passen nicht mehr; die schnelle Gesamt-Einschätzung entfällt; Verweise der Belegspur auf die fünf entfernten Blöcke zeigen auf Blöcke, die es dort nicht mehr gibt; wer das heutige Modul schon abgeschlossen hat, behielte den Haken, obwohl neue Aufgaben dazukämen, und bekäme beim ersten Versuch sofort die Modul-Coins. |
-| **C – später entfernen** | Einschätzungen bleiben im Netz. Lernstand und Belegspur zeigen dann aber nur noch den rohen Ordnernamen, und der Ordnername dürfte nie wiederverwendet werden. Kein Gewinn gegenüber A. |
+| **B – Umbau zum ersten Reihenmodul:** Das bestehende Modul behält Ordner und id, verliert fünf Blöcke und bekommt Theorie und Aufgaben. | Die Modul-id bleibt erhalten. Aber: Titel und Beschreibung passen nicht mehr; die schnelle Gesamt-Einschätzung entfällt; Belegspur-Einträge der fünf entfernten Blöcke nennen weiter deren Block-id, die es im Modul dann nicht mehr gibt; wer das heutige Modul schon abgeschlossen hat, behielte den Haken, obwohl neue Aufgaben dazukämen, und bekäme beim ersten Versuch sofort die Modul-Coins. |
+| **C – später entfernen** | Einschätzungen bleiben im Netz. Die Lernstands-Ansichten zeigen dann aber nur noch den rohen Ordnernamen statt des Titels, und der Ordnername dürfte nie wiederverwendet werden. Kein Gewinn gegenüber A. |
+
+Zur Belegspur: Sie zeigt den Bezug eines Belegs als Text «Ordnername ·
+Block-id», ohne Link und ohne Titel. Sie führt also nirgends ins Leere
+und bleibt bei allen drei Wegen lesbar, solange Ordnername und Block-id
+nicht für etwas anderes wiederverwendet werden.
 
 **Zur Frage «bleibt die Modul-id erhalten, wenn das bestehende Modul das
 erste der Reihe wird?»** Ja – in beiden Lesarten. Bei Weg A ist das
@@ -186,15 +202,19 @@ Punkte geprüft, das sprachliche Gegenlesen steht aus.
 ## 7. Offene Entscheide
 
 1. **Weg A, B oder C** für das bestehende Modul (Empfehlung: A).
-2. **Heatmap-Lesart:** Sollen Aufgaben zu überfachlichen Kennungen in
-   Heatmap und Kompetenzprofil als «Strategien bekannt» beschriftet
-   werden, oder bekommen die Lernmodule eigene Wissens-Kennungen (neue
-   Register-Einträge)? Bis dahin gilt die Lesart aus Abschnitt 4.
+2. **Lesart in Heatmap, Profil und Bericht:** Sollen Aufgaben zu
+   überfachlichen Kennungen dort als «Strategien bekannt» beschriftet
+   werden (im Lernstandsbericht stehen sie heute unter «Fachliche
+   Kompetenzen»), oder bekommen die Lernmodule eigene Wissens-Kennungen
+   (neue Register-Einträge)? Bis dahin gilt die Lesart aus Abschnitt 4.
 3. **Reihenfolge und Tempo** der übrigen fünf Module.
 4. **Quellen:** Liegen die LeSiMa-Unterlagen mit den Beschreibungen der
    Kriterien vor, sollten die Theorie-Texte der Reihe daran geprüft
    werden.
 5. **Kleiner Nachzug im Überblick:** Sein `ch`-Eintrag nennt die
    Kompetenz «Aufgaben und Probleme lösen»; die Lehrplan-Tabellen und
-   das Pilotmodul schreiben «Aufgaben/Probleme lösen». Angleichen, wenn
-   der Überblick ohnehin angefasst wird (Verweise auf die Reihe).
+   das Pilotmodul schreiben «Aufgaben/Probleme lösen». Und sein
+   Blocktitel schreibt «Wie ich mein Handeln und Lernen steure», der
+   Modultitel des Pilots «steuere». Beides angleichen, wenn der
+   Überblick ohnehin angefasst wird (Verweise auf die Reihe) – dann
+   auch im Block des Pilots.

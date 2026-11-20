@@ -146,7 +146,7 @@
     {
      "id": "q2",
      "type": "single_choice",
-     "prompt": "Der Vortrag in Geschichte ist erst in zwei Wochen fällig. Was ist am sinnvollsten?",
+     "prompt": "Für einen Vortrag in Biologie hast du noch zwei Wochen Zeit. Was ist am sinnvollsten?",
      "options": [
       {
        "text": "Warten, bis er dringend wird – dann ist man am meisten motiviert."
@@ -465,12 +465,12 @@
     {
      "id": "ende-stress",
      "text": "Bis morgen – war ein super Turnier! *Halb zehn am Abend. Du sitzt vor dem halbfertigen Plakat, die Augen fallen dir fast zu. Am Morgen klebst du im Bus noch die letzten Bilder auf – schief.*",
-     "auswertung": "**Zugesagt – und das Wichtige verdrängt.** Das Turnier war *dringend* (jetzt oder nie!), das Plakat *wichtig*. Dringendes fühlt sich im Moment immer wichtiger an – und «Alle kommen!» oder «Nur noch eine Runde!» machen den Sog noch stärker. Was geholfen hätte: kurz innehalten, die Folgen abwägen («Was heißt das für heute Abend und morgen früh?») und dann einen Kompromiss mit fester Uhrzeit oder einen Gegenvorschlag machen – und dabei bleiben, auch wenn jemand nachhakt. Probier im Rollenspiel einen anderen Weg aus."
+     "auswertung": "**Zugesagt – und das Wichtige verdrängt.** Das Turnier war *dringend* (jetzt oder nie!), das Plakat *wichtig*. Dringendes fühlt sich im Moment immer wichtiger an – und Sprüche wie «Das geht doch schnell», «Alle kommen!» oder «Nur noch eine Runde!» machen den Sog noch stärker. Was geholfen hätte: kurz innehalten, die Folgen abwägen («Was heißt das für heute Abend und morgen früh?») und dann einen Kompromiss mit fester Uhrzeit oder einen Gegenvorschlag machen – und dabei bleiben, auch wenn jemand nachhakt. Probier im Rollenspiel einen anderen Weg aus."
     },
     {
      "id": "ende-spaet",
      "text": "Okay, schade … bis morgen! *Du kommst um halb neun nach Hause und arbeitest bis nach zehn. Das Plakat wird fertig – aber du bist ziemlich müde.*",
-     "auswertung": "**Spät, aber selbst umgesteuert.** Zuerst hat der Gruppendruck entschieden («Alle kommen!»), dann hast du selbst die Kurve gekriegt und bist bei deiner Entscheidung geblieben, als Noah noch eine Runde wollte – das ist stark. Noch besser wäre es gewesen, **vorher** zu entscheiden: Mit einem Kompromiss («Ich komme um fünf») oder einem Gegenvorschlag hättest du beides gehabt, ohne Abendstress."
+     "auswertung": "**Spät, aber selbst umgesteuert.** Zuerst hast du dich überreden lassen, dann hast du selbst die Kurve gekriegt und bist hart geblieben, als Noah noch eine Runde wollte – das ist stark. Noch besser wäre es gewesen, schon **vorher** zu entscheiden und dabei zu bleiben: Mit einem Kompromiss («Ich komme um fünf») oder einem Gegenvorschlag («Am Samstag gern!»), zu dem du auch stehst, wenn Noah nachhakt, hättest du beides gehabt – ohne Abendstress."
     },
     {
      "id": "ende-kompromiss",

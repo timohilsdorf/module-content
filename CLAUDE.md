@@ -50,11 +50,14 @@ Optional `ausgeschlossen` (einzelne Kennungen herausnehmen, Register-
 Pflicht) und `kiInterview: false` (Interview unter den Reglern aus;
 Standard: ein). Die explizite Liste bleibt (überfachliche Module).
 
-- **Bestand:** Der Block steht als ERSTER Block in allen 50 Modulen,
-  deren Aufgaben Teilkompetenzen tragen. Ohne ihn sind nur
-  `englisch-cates-first-day` (Aufgaben ohne Teilkompetenzen) und
-  `ueberfachlich-wie-lerne-ich` (keine Aufgaben, sechs explizite
-  Blöcke). Mehr als sechs Teilkompetenzen haben
+- **Bestand:** Der automatische Block steht als ERSTER Block in allen
+  50 fachlichen Modulen, deren Aufgaben Teilkompetenzen tragen. Der
+  überfachliche Pilot `ueberfachlich-selbststeuerung` (auch seine
+  Aufgaben tragen Teilkompetenzen) hat an dieser Stelle den expliziten
+  Block aus dem Überblick. Ganz ohne Einschätzungsblock bleibt nur
+  `englisch-cates-first-day` (Aufgaben ohne Teilkompetenzen);
+  `ueberfachlich-wie-lerne-ich` hat keine Aufgaben und sechs explizite
+  Blöcke. Mehr als sechs Teilkompetenzen haben
   `nationalsozialismus-erinnerung-heute` (15),
   `wirtschaft-politik-16-repetition-wirtschaft` (11) und
   `wirtschaft-politik-18-pausenkiosk-finanzberater` (8) – der Player
@@ -99,9 +102,10 @@ steuere», `sequenz` 2): der Einschätzungsblock wörtlich aus dem
 Zuordnung, Lückentext, Simulation mit Abschlussfrage, zwei
 Freitext-Aufgaben, Schlusstext. Die Teilkompetenz-Kennungen ändern sich
 nie (Kennungsschutz). WISSEN IST NICHT KÖNNEN: Aufgabenpunkte auf
-`uef`-Kennungen erscheinen in Kompetenz-Heatmap und Kompetenzprofil,
-gehen aber nicht ins Netzdiagramm ein (Plattform-Regel) – der
-Schlusstext sagt das den Lernenden. LeSiMa-Originalunterlagen liegen im
+`uef`-Kennungen erscheinen in Kompetenz-Heatmap, Kompetenzprofil und im
+Lernstandsbericht (dort unter «Fachliche Kompetenzen»), gehen aber
+nicht ins Netzdiagramm und nicht in den Notenvorschlag ein
+(Plattform-Regel) – der Schlusstext sagt den Lernenden den Unterschied. LeSiMa-Originalunterlagen liegen im
 Repo nicht vor; die Texte sind eigene Formulierungen. Die englische
 Pilot-Fassung entstand über den Datei-Weg (`--auftrag-datei` /
 `--antworten-datei`); sprachliches Gegenlesen steht aus. Die übrigen
