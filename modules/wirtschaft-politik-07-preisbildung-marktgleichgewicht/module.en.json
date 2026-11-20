@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-07-preisbildung-marktgleichgewicht --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:52e53802ed1f4f5f73c00da054fe961fbd0d16dd9d50c6f274c46309d20dfbfb",
-  "masterCommit": "f725f06",
+  "masterHash": "sha256:0b1547f94090d3dce881ea0612622816e9aeaaee0f844d14eedc905f065156b5",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:antworten.codex.en.json",
-  "selfHash": "sha256:48e826fcabcfce173e8d6541f1fbd57a9fa6f6dfa9a455f9e377fcdfb5b9bb3e"
+  "model": "speicher",
+  "selfHash": "sha256:19d96b84877d3a370fcddd7d46032124fd307d5b0367ccd73b886f40e6433108"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-07-preisbildung-marktgleichgewicht",
@@ -84,6 +84,11 @@
   "wirtschaft-politik-06-angebot-und-nachfrage"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Who set the price?",

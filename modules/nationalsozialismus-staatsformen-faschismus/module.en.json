@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-staatsformen-faschismus --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:f6fe3f297b03d244a6767729d3ed44d303386585d9bef67c5cf961241025c035",
-  "masterCommit": "d8ef93f",
+  "masterHash": "sha256:92b7609b781faa42cd0a1b99271fb3dd6daf16aa645ebfea60f749e8786863cc",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-13",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:4fb4855c0b562483a05ce739d7314cc972dd5a0d2b7838d67bc194c1102fab3e"
+  "model": "speicher",
+  "selfHash": "sha256:0314bd52a9508c21b0ca3058c75a00d01f33ea5bbed1f1e2f41a280e1711d60f"
  },
  "schemaVersion": 3,
  "id": "nationalsozialismus-staatsformen-faschismus",
@@ -114,6 +114,11 @@
   "Anna Rinderer"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "id": "k1-einstieg",

@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul nationalsozialismus-erinnerung-heute --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:951041ebed89cb7f324847dd527f11f0466dd6726ac7b4f05ae7c73582e0a787",
-  "masterCommit": "c5a3042",
+  "masterHash": "sha256:150cf1008220cefb6095dc8c6392f1aa7b92380048182b71dd6d682dcd2a76fd",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:ff7ba46088f5dfee64982056eff3894a004a3a52530e7d1836a74640a487f76d"
+  "model": "speicher",
+  "selfHash": "sha256:82a093d82c886250557eaaf9bac0ad6f8f383504daa37500895cc3e4e086a4b3"
  },
  "schemaVersion": 3,
  "id": "nationalsozialismus-erinnerung-heute",
@@ -134,6 +134,11 @@
   "Anna Rinderer"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "id": "k8-einstieg",

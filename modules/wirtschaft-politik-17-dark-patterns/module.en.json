@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-17-dark-patterns --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:085ea362c021a19f62be7ba32b785180c8f1402144a2fe8c45b207856e4b7b4a",
-  "masterCommit": "8562814",
+  "masterHash": "sha256:f1b7b97647b4ab02ee939b441ed08e03c83a002f39ea379365f24a7b670eeb28",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-wirtschaft-politik-17-dark-patterns-en.antworten.json",
-  "selfHash": "sha256:7e8f2d75279f7dc23431e27385c15f239c1642de6e315bda14fe0494f22af03f"
+  "model": "speicher",
+  "selfHash": "sha256:59f62260ecc5aa55afdcf4a048bdaec664a40e70e1fd7c7be736bb2ad9c557ba"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-17-dark-patterns",
@@ -96,6 +96,11 @@
   "wirtschaft-politik-15-schuldenfallen-digitales-bezahlen"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "“Only 2 left in stock!”",

@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-21-autoritaere-systeme-heute --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:807358e87b890f2d7aa14fb7ee23567e4fe139e0a4a5ad9fbf1c6bffcd87a455",
-  "masterCommit": "a63ccf1",
+  "masterHash": "sha256:e6965977a2c0058f1a485b2d1aebd2e5d74870301d70cff36219a21f6498ef17",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:9707de7ee2ccb35bdc76978f42e83fb3a53eee4323cf4cfc328e6d6aa4774c9d"
+  "model": "speicher",
+  "selfHash": "sha256:064eb4a1bcfadef858491a862cd131b76c7498384f91bfeb380c92594dd31998"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-21-autoritaere-systeme-heute",
@@ -81,6 +81,11 @@
   "wirtschaft-politik-20-demokratie-als-prinzip"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "When negotiation is abolished",

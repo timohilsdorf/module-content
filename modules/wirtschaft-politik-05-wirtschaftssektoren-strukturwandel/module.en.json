@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-05-wirtschaftssektoren-strukturwandel --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:07b7d1f66008084e81f6f53c9a19e4566ecfac24f5919ebe637b5e3919c7189d",
-  "masterCommit": "5a4900e",
+  "masterHash": "sha256:29df86205e06bf8de2f3423e97eda6455369d1bcfb0afa2b4e2e7d30c6d50db3",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:e4ae1bf728bb5a8367120ec7281f8ff52011159f9176a9b0634a27a6af5f0c32"
+  "model": "speicher",
+  "selfHash": "sha256:81c817b28cb0dd3c1cc9734d6faba8f5f26422536a8a1439d45965bcba77318b"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-05-wirtschaftssektoren-strukturwandel",
@@ -86,6 +86,11 @@
   "wirtschaft-politik-02-haushalte-unternehmen-staat"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Which sector does your family work in?",

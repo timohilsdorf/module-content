@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-26-wirtschaftspolitik-standort --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:2d6cfbda04f6f2eb9e29b9c25b2034cee453037ae4c0dceae1f90c041dd5e439",
-  "masterCommit": "37d5b6e",
+  "masterHash": "sha256:c5c014921317608bdffdec9932ad9b60859986ca0745b7389f125aaf5b06a405",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:073a3632f7fc11916c7bc56aa2d3ace62d50983343892281c47fda1f3134491e"
+  "model": "speicher",
+  "selfHash": "sha256:98c31a054d0b321b789051023eb77eff444c0b9fb60476d14f965d8e486fa1cb"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-26-wirtschaftspolitik-standort",
@@ -86,6 +86,11 @@
   "wirtschaft-politik-25-staat-steuern-sozialstaat"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "What does economic policy aim to achieve?",

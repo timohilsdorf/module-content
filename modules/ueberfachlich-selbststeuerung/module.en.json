@@ -1,0 +1,580 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-selbststeuerung --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:ac720c6f27c382a57372a8efd4df88a233d608b1e85d1f316cf7ea99dd6c4e0c",
+  "masterCommit": "f1497af",
+  "hintsHash": null,
+  "generatedAt": "2026-11-20",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten.json + speicher",
+  "selfHash": "sha256:cc9c5fd4082eb46850dd754aba9c53bd29a861eefbd949d04ed9c211c11c1a04"
+ },
+ "schemaVersion": 3,
+ "id": "ueberfachlich-selbststeuerung",
+ "title": "How I steer my actions and my learning",
+ "description": "How do you make decisions, set priorities, stick to your goals and start tasks on your own? After a short self-assessment you will get to know strategies for this, practise them with situations from everyday school life – in a quiz, a matching task and a role play – and think about your own experiences.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbständigkeit",
+     "description": "Wie steure ich mein Handeln und Lernen?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    },
+    {
+     "code": "Eigenständigkeit",
+     "description": "Eigene Ziele und Werte reflektieren und verfolgen."
+    },
+    {
+     "code": "Aufgaben/Probleme lösen",
+     "description": "Lern- und Arbeitsprozesse gestalten, Probleme erkennen und Lösungswege finden."
+    }
+   ]
+  }
+ ],
+ "einheit": "Transversal competencies",
+ "sequenz": 2,
+ "language": "en",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Transversal competencies",
+  "Independence",
+  "Self-management",
+  "Priorities",
+  "Goals",
+  "Procrastination",
+  "Decisions",
+  "If-then plan",
+  "Self-assessment"
+ ],
+ "learningObjectives": [
+  "I can tell the difference between what is important and what is urgent, and explain why the important things come first.",
+  "I can phrase a goal so that it is specific, measurable and has a deadline, and break it down into milestones.",
+  "I can name strategies that help me get started on a task by myself.",
+  "I can describe the three steps of a decision and show how I stand by it in a friendly way, even under pressure."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-selbststeuerung",
+   "title": "How I steer my actions and my learning",
+   "intro": "This is about how firmly you hold the steering wheel yourself: making decisions, tackling the important things first, sticking to your goals and completing tasks without being reminded.",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.entscheidungen-treffen",
+    "uef.selbststeuerung.prioritaeten-setzen",
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.selbststeuerung.selbststaendig-arbeiten"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-wichtig-dringend",
+   "title": "Important or urgent?",
+   "body": "Tuesday afternoon: tomorrow you have an English vocabulary test, next week you are giving a presentation in history, messages keep popping up in the class chat, and actually you wanted to watch another episode of a series. Where do you start?\n\nWhen you **set priorities**, you consciously decide what comes first. Two questions help:\n\n- **Is it important?** Important means it brings you closer to your goals – for example good preparation, a project or something that matters a lot to you.\n- **Is it urgent?** Urgent means it has to be done soon or is shouting for your attention right now.\n\nThis gives you four groups:\n\n1. **Important and urgent:** do it straight away – the vocabulary test tomorrow.\n2. **Important, but not urgent:** plan a fixed time for it – the presentation next week. Start with a first step today!\n3. **Urgent, but not important:** deal with it quickly or put it off until later – the messages in the class chat.\n4. **Neither important nor urgent:** leave it out or keep it as a reward for afterwards – the series.\n\nThe trap: urgent things **feel more important** than they are. A vibrating phone wants your attention *now* – but it rarely gets you any further. A lot of stress comes from group 2: if you put off the important things until they are urgent, in the end you have to do everything at once. That's why the rule is: **Do the important things first – before they become urgent.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-ziele",
+   "title": "Goals you stick to",
+   "body": "“I want to get better at maths.” That's a good wish – but it isn't yet a goal you can stick to. A good goal is:\n\n- **specific:** You know exactly what you want to do. (“I'll do the practice exercises on fractions …”)\n- **measurable:** At the end you can say whether you have managed it. (“… all 20 exercises on the worksheet …”)\n- **with a deadline:** It has a fixed date. (“… by Thursday.”)\n\nYou break big goals down into **milestones**. Instead of “presentation finished by Friday”, it becomes: Monday collect information, Tuesday write notes, Wednesday design the slides, Thursday practise. Every milestone you reach shows you that you are making progress – and that is motivating.\n\nA powerful tool is the **if-then plan**. You decide in advance when and where you will act: “**If** I get home after lunch, **then** I'll put my phone in the kitchen and work on the presentation for 20 minutes.” That way you don't have to decide all over again at the crucial moment – the plan is already there.\n\nAnd what if it doesn't work out one day? Then you don't give up on the goal straight away, but ask yourself: **What stopped me – and what will I do differently next time?** Sticking with it doesn't mean never stumbling, but carrying on after you stumble."
+  },
+  {
+   "type": "text",
+   "id": "theorie-anfangen-entscheiden",
+   "title": "Getting started yourself – and deciding for yourself",
+   "body": "**Working independently** means: you get started without anyone having to remind you. The hardest part is often the beginning. If you keep putting off an important task until later, you are **procrastinating**. Three tricks help against this:\n\n1. **Set a start time:** not “later”, but “at 4 pm”.\n2. **Start small:** Plan just five minutes or a first step, for example writing the heading. Carrying on is often easier after that – and if not, at least you have made a start.\n3. **Put distractions away:** phone out of sight, only what you need on the desk.\n\nA **list** on which you tick off what you have done also helps. That way you can see for yourself what is still missing.\n\nSteering yourself also means **making decisions yourself**. This works in three steps:\n\n1. **Collect options:** What could I do?\n2. **Weigh up the consequences:** What happens in each case – today and tomorrow? What fits my goal?\n3. **Decide and stand by it:** Choose one option and stick up for it, even if others see it differently.\n\nStanding by a decision doesn't mean being stubborn. If you realise that a decision was wrong, you are allowed to change it – but because *you* want to, not because others are pushing you. And an honest “No, not today” with a **counter-proposal** (“Saturday would be great!”) is often fairer than an annoyed no or a yes you don't really mean."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-was-zuerst",
+   "title": "Quiz: What comes first?",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.prioritaeten-setzen",
+    "uef.selbststeuerung.entscheidungen-treffen"
+   ],
+   "intro": "Five situations from everyday school life. Each time, choose the answer that best fits the strategies above. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Tomorrow you have a vocabulary test, next week a presentation, and right now the class chat is all about a funny video. What do you start with today?",
+     "options": [
+      {
+       "text": "The video – otherwise you'll miss what everyone is talking about."
+      },
+      {
+       "text": "The presentation – it's the biggest project."
+      },
+      {
+       "text": "The vocabulary test – it's important and urgent.",
+       "correct": true
+      },
+      {
+       "text": "Everything at the same time, so that nothing gets left undone."
+      }
+     ],
+     "explanation": "The vocabulary test is **important and urgent**, so it comes first. The presentation is important, but not urgent yet – you plan a fixed time for it (ideally with a first step today). The chat may be loud, but it isn't important. Doing everything at the same time usually means doing nothing properly."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "The history presentation isn't due for another two weeks. What is the most sensible thing to do?",
+     "options": [
+      {
+       "text": "Wait until it becomes urgent – that's when you're most motivated."
+      },
+      {
+       "text": "Plan a fixed time for the first step right now.",
+       "correct": true
+      },
+      {
+       "text": "Do everything in one go the evening before."
+      },
+      {
+       "text": "Wait and see whether the teacher reminds you about it."
+      }
+     ],
+     "explanation": "The presentation is **important, but not urgent yet**. These are exactly the tasks you plan a fixed time for **before** they become urgent. If you wait until the last minute, you end up stressed – and if you wait for a reminder, you aren't working independently."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "While you are revising for a test, your phone keeps vibrating because of messages in the group chat. Which group do these messages usually belong to?",
+     "options": [
+      {
+       "text": "Important and urgent"
+      },
+      {
+       "text": "Important, but not urgent"
+      },
+      {
+       "text": "Urgent, but not important",
+       "correct": true
+      },
+      {
+       "text": "Neither important nor urgent – you never have to read them"
+      }
+     ],
+     "explanation": "Messages want your attention **immediately** – that makes them urgent. But for your goal (the test) they usually aren't important. So: read them later or reply briefly – and put your phone away while you revise. “Never read them” would be going too far; it's about the right moment."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "By Friday you have to decide whether to join the drama group or the technical crew for the school fair. Your best friend is going to the drama group. Which approach fits the three steps of a decision?",
+     "options": [
+      {
+       "text": "Choose the drama group – it will definitely be more fun with your friend, and that's reason enough."
+      },
+      {
+       "text": "Compare both groups, weigh up what suits you, then decide and stick with it.",
+       "correct": true
+      },
+      {
+       "text": "Choose the group the teacher would probably prefer to see you in."
+      },
+      {
+       "text": "Keep thinking until you are a hundred per cent sure – and say nothing until then."
+      }
+     ],
+     "explanation": "The three steps are **collect options, weigh up the consequences, decide and stand by it**. Your friend's choice can be one reason you weigh up – but not the only one, and you make the decision yourself. If you only go by your friend or by the teacher, you are leaving the decision to others. And if you wait until you are a hundred per cent sure, in the end you don't decide at all."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "You have decided to revise for the test first today and only go to the park afterwards. A friend calls out: “Come on, don't be such a swot!” What does standing by your decision mean here?",
+     "options": [
+      {
+       "text": "Go along and revise for the test in the evening – the main thing is that he isn't offended."
+      },
+      {
+       "text": "Stick with your decision, briefly explain why and say when you'll join them.",
+       "correct": true
+      },
+      {
+       "text": "Stick with your decision, but don't explain anything – it's none of his business."
+      },
+      {
+       "text": "Agree with him, revise for half an hour and then head off after all."
+      }
+     ],
+     "explanation": "Standing by a decision means **calmly sticking up for it**, even when others push you – ideally with a short reason and a counter-proposal (“I'll come in an hour”). Without an explanation you do stick with it, but your friend feels brushed off. And it isn't about being stubborn either: if you have good reasons, you are allowed to change a decision – but because you want to, not because of the pressure."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-stolpersteine",
+   "title": "Stumbling blocks and strategies",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.selbststaendig-arbeiten",
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.selbststeuerung.prioritaeten-setzen"
+   ],
+   "intro": "On the left are typical stumbling blocks, on the right strategies from the texts above. Match each stumbling block with the strategy that helps most. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "“I always say ‘later’ – but I never decide when exactly.”"
+     },
+     "rechts": {
+      "text": "Set a start time: not “later”, but “at 4 pm”"
+     }
+    },
+    {
+     "links": {
+      "text": "“Every few minutes I check whether anyone has messaged me.”"
+     },
+     "rechts": {
+      "text": "Put my phone out of sight while I'm working"
+     }
+    },
+    {
+     "links": {
+      "text": "“I want to ‘get better’, but I never notice whether I've managed it.”"
+     },
+     "rechts": {
+      "text": "Phrase the goal so that it is specific, measurable and has a deadline"
+     }
+    },
+    {
+     "links": {
+      "text": "“Faced with the big project, I just sit there and don't know where to start.”"
+     },
+     "rechts": {
+      "text": "Break the task down into milestones, each with its own date"
+     }
+    },
+    {
+     "links": {
+      "text": "“Unless someone reminds me, I always forget something.”"
+     },
+     "rechts": {
+      "text": "Keep a list and tick off what I've done"
+     }
+    },
+    {
+     "links": {
+      "text": "“I do the small, pleasant things first – and then there's no time left for the important ones.”"
+     },
+     "rechts": {
+      "text": "Check what is important and do the important things first"
+     }
+    },
+    {
+     "links": {
+      "text": "“I firmly intend to get started – but as soon as I get home, I end up on the sofa.”"
+     },
+     "rechts": {
+      "text": "Make an if-then plan: decide in advance what I'll do in which situation"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-ziel-konkret",
+   "title": "Turning a wish into a goal",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.ziele-verfolgen"
+   ],
+   "intro": "Leonie turns her wish into a goal she can stick to. Fill in the right words. Two of the words to choose from don't fit anywhere.",
+   "modus": "wortbank",
+   "text": "Leonie writes: “I want to study more for French.” That is still a wish. Her new goal should be {{1}} – she knows exactly what she wants to do: learn the words from unit 4. It should be {{2}} – at the end she can test whether she has managed it: she writes all 40 words without help. It also needs a {{3}}: by the test next Wednesday.\nBecause 40 words are a lot, she divides the work into {{4}}: ten words every day.\nTo make sure she really gets started, she makes the following {{5}}: “If I'm sitting on the bus home, then I'll practise with my word cards for ten minutes.”",
+   "luecken": [
+    {
+     "antworten": [
+      "specific",
+      "concrete",
+      "precise"
+     ]
+    },
+    {
+     "antworten": [
+      "measurable",
+      "checkable",
+      "verifiable",
+      "testable"
+     ]
+    },
+    {
+     "antworten": [
+      "deadline",
+      "date",
+      "due date",
+      "fixed date",
+      "time limit"
+     ]
+    },
+    {
+     "antworten": [
+      "milestones",
+      "intermediate goals",
+      "sub-goals",
+      "subgoals",
+      "smaller goals",
+      "interim goals",
+      "stages",
+      "milestone"
+     ]
+    },
+    {
+     "antworten": [
+      "if-then plan",
+      "if–then plan",
+      "if then plan",
+      "if-then-plan",
+      "if/then plan"
+     ]
+    }
+   ],
+   "ablenker": [
+    "urgent",
+    "quick"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-nachmittag",
+   "title": "Role play: The afternoon before the deadline",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.entscheidungen-treffen",
+    "uef.selbststeuerung.prioritaeten-setzen"
+   ],
+   "intro": "Wednesday, half past three. Tomorrow at eight you have to hand in your geography poster – about half of it is done, and you still need about an hour and a half. Then your friend Noah messages you. At each step, choose how you react – different paths lead to different endings. Noah is a simulated conversation character, not a real person.",
+   "figur": {
+    "name": "Noah (AI character)",
+    "rolle": "Your friend from class, who invites you to a video game tournament",
+    "rollenPrompt": "You are Noah, 14 years old, a good friend of the person you are talking to, and you are in the same class. It is Wednesday afternoon. You have a new football video game and are inviting friends round to your house for a tournament; Elias and Mia are coming too. You know that the person has to hand in a geography poster tomorrow morning, but you don't think it's a big deal and try to persuade them in a friendly way, for example with “Everyone's coming!” or “You can do it quickly tonight”. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. If the person honestly explains why they aren't coming or are coming later, and makes a counter-proposal, you react with understanding after a brief hesitation. If they brush you off without an explanation, you are a bit hurt but stay friendly. You don't give advice on learning strategies and you don't play a teacher. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Hey! We're meeting at mine in a bit, Elias and Mia are coming too. I've got the new football game – we're having a tournament until dinner! You coming?",
+     "antworten": [
+      {
+       "text": "Sure, I'll be there in ten minutes!",
+       "weiter": "sofort-zusagen"
+      },
+      {
+       "text": "I still have to finish the geography poster. How long are you playing for?",
+       "weiter": "nachfragen"
+      },
+      {
+       "text": "Nah, can't be bothered.",
+       "weiter": "abwimmeln"
+      }
+     ]
+    },
+    {
+     "id": "sofort-zusagen",
+     "text": "Yes! And your poster? Oh, you can do that tonight, it won't take long.",
+     "antworten": [
+      {
+       "text": "True, tonight is easily enough.",
+       "weiter": "ende-stress"
+      },
+      {
+       "text": "Hmm, wait – actually there's still quite a lot missing.",
+       "weiter": "nachfragen"
+      }
+     ]
+    },
+    {
+     "id": "abwimmeln",
+     "text": "Wow, okay … Did I do something wrong? You're never around these days.",
+     "antworten": [
+      {
+       "text": "Sorry, I didn't mean it like that. I've still got to finish the geography poster by tomorrow.",
+       "weiter": "nachfragen"
+      },
+      {
+       "text": "That's just how it is.",
+       "weiter": "ende-kuehl"
+      }
+     ]
+    },
+    {
+     "id": "nachfragen",
+     "text": "Oh come on, we're only playing until about seven anyway. You can finish the poster on the bus tomorrow morning. Mia hasn't done hers yet either. Everyone's coming!",
+     "antworten": [
+      {
+       "text": "I'll work on the poster for an hour and a half now and come after that. Then I'll still be there for two hours, okay?",
+       "weiter": "kompromiss"
+      },
+      {
+       "text": "Not today, I want to finish the poster in peace. But are you free on Saturday? Then we can play for ages.",
+       "weiter": "nein-gegenvorschlag"
+      },
+      {
+       "text": "If everyone's coming … okay, I'll come.",
+       "weiter": "druck-nachgeben"
+      }
+     ]
+    },
+    {
+     "id": "druck-nachgeben",
+     "text": "Great, see you soon! *The tournament is loads of fun, and you keep adding round after round. Suddenly it's eight o'clock, and Mia is packing up her things.* One more round? Just the two of us!",
+     "antworten": [
+      {
+       "text": "Sure, one more.",
+       "weiter": "ende-stress"
+      },
+      {
+       "text": "No, I'm going home now to finish the poster.",
+       "weiter": "ende-spaet"
+      }
+     ]
+    },
+    {
+     "id": "kompromiss",
+     "text": "An hour and a half? Then you'll miss half the tournament! Just do half an hour, you can do the rest tomorrow morning.",
+     "antworten": [
+      {
+       "text": "No, I really need the time. I'll be at yours at five – promise.",
+       "weiter": "ende-kompromiss"
+      },
+      {
+       "text": "Oh, all right, half an hour will probably do somehow.",
+       "weiter": "ende-halb"
+      }
+     ]
+    },
+    {
+     "id": "nein-gegenvorschlag",
+     "text": "Saturday? Hmm … actually that's cool, then I can practise until then and properly beat you. But today would be more fun.",
+     "antworten": [
+      {
+       "text": "Definitely! But the poster counts towards my mark. Saturday, deal?",
+       "weiter": "ende-samstag"
+      },
+      {
+       "text": "Actually, that's true … okay, I'll come after all.",
+       "weiter": "druck-nachgeben"
+      }
+     ]
+    },
+    {
+     "id": "ende-stress",
+     "text": "See you tomorrow – that was a great tournament! *Half past nine in the evening. You are sitting in front of your half-finished poster, and your eyes keep closing. In the morning, on the bus, you stick on the last pictures – crooked.*",
+     "auswertung": "**Said yes – and pushed the important thing aside.** The tournament was *urgent* (now or never!), the poster was *important*. In the moment, urgent things always feel more important – and “Everyone's coming!” or “Just one more round!” make the pull even stronger. What would have helped: pausing for a moment, weighing up the consequences (“What does this mean for tonight and tomorrow morning?”) and then making a compromise with a fixed time or a counter-proposal – and sticking with it, even when someone keeps pushing. Try a different path in the role play."
+    },
+    {
+     "id": "ende-spaet",
+     "text": "Okay, shame … see you tomorrow! *You get home at half past eight and work until after ten. The poster gets finished – but you are pretty tired.*",
+     "auswertung": "**Late, but you changed course yourself.** At first the group pressure decided for you (“Everyone's coming!”), then you turned things around yourself and stuck with your decision when Noah wanted one more round – that's impressive. It would have been even better to decide **beforehand**: with a compromise (“I'll come at five”) or a counter-proposal you could have had both, without the evening stress."
+    },
+    {
+     "id": "ende-kompromiss",
+     "text": "Okay, okay – at five, but no excuses then! *At five you ring Noah's doorbell, the finished poster lying on your desk.* There you are! You're on a team with Mia.",
+     "auswertung": "**A compromise with a plan – very good.** You did the important thing first and still didn't completely miss out on meeting up. The fixed time (“at five”) works like an if-then plan: Noah knows where he stands, and you know how much time you have. And when Noah kept pushing, you calmly stuck with your decision."
+    },
+    {
+     "id": "ende-halb",
+     "text": "Great, see you soon then! *After half an hour you go round to Noah's. The next morning you try to finish the poster on the bus – it doesn't get finished, half of the texts are missing.*",
+     "auswertung": "**A good start – given up under pressure.** Your first suggestion was strong: work first, then come. But when Noah kept pushing, you gave in, even though you knew the time wouldn't be enough. Standing by a decision means calmly repeating it: “I really need the time – I'll be there at five.” Friends usually understand that better than you think."
+    },
+    {
+     "id": "ende-samstag",
+     "text": "Okay, Saturday, deal. And then no excuses! *You finish the poster in peace.*",
+     "auswertung": "**A clear no with a counter-proposal – very good.** You weighed up the options, put the important thing first and stood by your decision in a friendly way. The counter-proposal shows Noah: “I want to see you – just not today.” That way the friendship stays on track, and the poster is finished."
+    },
+    {
+     "id": "ende-kuehl",
+     "text": "Okay … forget it then. *Noah goes offline. You work on the poster, but the conversation stays on your mind for a while.*",
+     "auswertung": "**Decided – but at the expense of the friendship.** In terms of content, your decision was right: the poster is important. But without a reason and without a counter-proposal, all Noah heard was: “I don't care about you.” An honest “Not today, because …” and a suggestion for another time would have made the same decision much friendlier."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-nachmittag-frage",
+    "type": "single_choice",
+    "prompt": "Noah says: “Mia hasn't done hers yet either. Everyone's coming!” Which approach helps you most at a moment like this?",
+    "options": [
+     {
+      "text": "Go along because everyone is going – if Mia hasn't done hers yet either, it probably isn't that bad."
+     },
+     {
+      "text": "Briefly weigh up what is important and what is only urgent, and then make a counter-proposal or name a fixed time.",
+      "correct": true
+     },
+     {
+      "text": "Go along for now and see how long it takes – you can still decide later."
+     },
+     {
+      "text": "Say yes and finish the poster on the bus tomorrow morning – half an hour will surely be enough."
+     }
+    ],
+    "explanation": "“Everyone's coming!” is group pressure: it makes the get-together **urgent**, but not more important. If you briefly weigh up the consequences and then decide for yourself, you can stay friendly **and** protect the important thing – with a counter-proposal (“Saturday?”) or a fixed time (“I'll be there at five”). “Go along for now” only postpones the decision – and then the pull of the game decides. And “on the bus tomorrow morning” is exactly the trap of putting off the important thing until it's too late."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-eigene-erfahrung",
+   "title": "Your experience, your plan",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.selbststaendig-arbeiten",
+    "uef.selbststeuerung.ziele-verfolgen"
+   ],
+   "intro": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts.",
+   "tasks": [
+    {
+     "id": "aufgabe-aufschieben",
+     "prompt": "Think of a task from school or your free time that you **put off**. Describe in 4–6 sentences:\n\n1. What was the task?\n2. Why did you put it off?\n3. What finally helped you get started – or what would have helped you? Name at least one strategy from this module and explain why it fits your situation.",
+     "hint": "Think of the strategies from the text “Getting started yourself – and deciding for yourself”: set a start time, start small, put distractions away, keep a list. Milestones or an if-then plan can also fit.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It describes a specific task so that you can picture the situation. (2) It gives an understandable reason for putting it off, for example: the task seemed too big, was unpleasant, the phone or something else was more tempting, it was unclear where to start. (3) It links at least one strategy from the module to exactly this situation and explains why it helps: a fixed start time (instead of “later”), starting small or a first step of five minutes, putting distractions away, a list for ticking things off, milestones, an if-then plan or doing the important things first before they become urgent. A possible example (one of many – any situation from school or free time is equally good, similarity to the example doesn't count): “I put off the summary for biology until the last evening because the chapter seemed too long to me. What would have helped was dividing the chapter into three parts and doing one each day, with a fixed start time after training.” Whether the task worked out in the end is not what matters: honest self-observation is more valuable than a prettified story. Private details are not necessary."
+    },
+    {
+     "id": "aufgabe-mein-plan",
+     "prompt": "Choose a real task coming up in the next one to two weeks – for example a test, a presentation, a training session or a project of your own. For it, write:\n\n1. your **goal** – specific, measurable and with a deadline,\n2. at least two **milestones** with dates,\n3. an **if-then plan** for getting started (“If …, then …”).",
+     "hint": "Check your goal with three questions: Do I know exactly what I want to do? Will I be able to say at the end whether I've managed it? Is there a date?",
+     "solution": "Criteria for a good answer: (1) The goal is specific (a clear activity), measurable (at the end you can clearly say whether it has been achieved, for example a number or a finished product) and has a deadline. (2) There are at least two milestones with dates that together lead to the goal and are in a sensible order. (3) The if-then plan names a specific situation (when/where, e.g. “if I get home after lunch”) and a specific first action (e.g. “then I'll put my phone away and work for 20 minutes”). A possible example (one of many): “Goal: By the maths test on the 28th, I can solve all types of percentage problems without help. Milestones: exercises 1–10 in the workbook by Wednesday, exercises 11–20 by Friday, the practice test at the weekend. If-then plan: If I get home at 4 pm on Monday, then I'll sit down to the exercises for 20 minutes first.” The topic of the task is free; only the three building blocks are assessed, not the similarity to the example."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "What next?",
+   "body": "Well done! One honest remark to finish with: **Knowing is not the same as doing.** The tasks in this module show whether you **know** strategies. How often you really **use** them in everyday life is something they can't show – that is shown by your **assessment** above and, if they assess you, by your teacher. That's also why: if your **competency overview** on the home page shows points for these skills, they come from these tasks – they show what you know, not how often you do it.\n\n- **Try out a strategy** – for example your if-then plan from the last task.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

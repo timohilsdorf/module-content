@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-06-angebot-und-nachfrage --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:5f0ad9ff611b638922bab76380b62b3be2f36ef4d823a21fb8bd08f83b6df8f7",
-  "masterCommit": "edd9bbe",
+  "masterHash": "sha256:24f440308219b44e6af7d4f3830c7babbc7cb6ad6939e167bfb45836407b6c0f",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.json",
-  "selfHash": "sha256:66bf356e06ec639c7554d56aa38762a81dbee6d595b95b1cc628be39ced8f8d1"
+  "model": "speicher",
+  "selfHash": "sha256:b108659985fe888e1b523da29fdbe80c12a468bf0e668fe9e625ee86caf392df"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-06-angebot-und-nachfrage",
@@ -85,6 +85,11 @@
   "wirtschaft-politik-02-haushalte-unternehmen-staat"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "The ticket puzzle",

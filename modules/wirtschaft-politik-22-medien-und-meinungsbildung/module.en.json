@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-22-medien-und-meinungsbildung --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:3103d17b1b4e8425fb2f8771c75e5d0359f6831523ecbe9f2f06e870ae489fde",
-  "masterCommit": "02b326a",
+  "masterHash": "sha256:a8a609a761d6eb0ad0b6cd90e1e9eaed87131f1f1b93bdf1672880969683579e",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.en.json",
-  "selfHash": "sha256:853b937688f32802b94fc5043c10e621ddce15111bc429ad2c3fc8df5417aa8b"
+  "model": "speicher",
+  "selfHash": "sha256:cd12bbe87b2271a70aafc35be8e01e45a5d7fa00d01fa87ad843ca8b5e2ac412"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-22-medien-und-meinungsbildung",
@@ -85,6 +85,11 @@
   "wirtschaft-politik-21-autoritaere-systeme-heute"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "How do you know what is happening in the world?",

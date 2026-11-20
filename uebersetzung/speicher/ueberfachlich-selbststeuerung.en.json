@@ -1,0 +1,583 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:04a06e4875a41bfeb7afe301803954c9935f3479eed2d7b1ab6a7b7d074de0c4",
+   "text": "How I steer my actions and my learning"
+  },
+  "description": {
+   "quelle": "sha256:ad296d7767b37ca570ec89a033f401cddc4dd284e054c74cb672f9ebc397a918",
+   "text": "How do you make decisions, set priorities, stick to your goals and start tasks on your own? After a short self-assessment you will get to know strategies for this, practise them with situations from everyday school life – in a quiz, a matching task and a role play – and think about your own experiences."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "einheit": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:e889c2a2c6cefe5365b69ce3faf095c1cda51489c14669964044cd70e6551830",
+   "text": "Independence"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:0ba0b72b3a41325e500c1338065a0454fbf2a8689fe7cd2bce6038f27f370e6c",
+   "text": "Self-management"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:5a7a5d83d5d93e329840f64f52c5f76f8fd44fbe6f287062f10482a4a0871c6e",
+   "text": "Priorities"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:ddbe8fd7d4ee12fcaeca3dfce2501954d02af7aaf11a8007cb55fefed6118f42",
+   "text": "Goals"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:ca77f9118f82c9f8157bac38a8b2da8f5a7f41f653af33002535efa128c40b75",
+   "text": "Procrastination"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:0ee33784257082b3cda869984ad989b1ab5a1d9cd4f5a7f32a3b2bceeb3325bd",
+   "text": "Decisions"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:f2fa6a954cf2ab3d2c2533745a6b19ed89ba00c385b57058bc2231288d947ed9",
+   "text": "If-then plan"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:96aa95e35321f78bcd7c5a993eb15e18b5cf4e4f45d3697123aac96bf2b884e7",
+   "text": "Self-assessment"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:dcf5e865bd785d39fce81c3eed40125af1078d2f0890856342b7abead245dc91",
+   "text": "I can tell the difference between what is important and what is urgent, and explain why the important things come first."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:62ec592edbb8818e3091d7dbf182ba91779e6ee6d0c407981b3b873e72c27664",
+   "text": "I can phrase a goal so that it is specific, measurable and has a deadline, and break it down into milestones."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:32803676f04743b9dcfd469cbf6d54019b1140181acb053d6d7c55c4a6a85116",
+   "text": "I can name strategies that help me get started on a task by myself."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:6b0430609f2a7a1827d7b0c90a49085aecc85a268356207351d527a4d567674b",
+   "text": "I can describe the three steps of a decision and show how I stand by it in a friendly way, even under pressure."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:c050b63b600294af88551aa811f981b892e8bccb215da9e627e2d0b22d543659",
+   "text": "How I steer my actions and my learning"
+  },
+  "blocks[0].intro": {
+   "quelle": "sha256:baa6590a159e5149cf55a69774c18e05d278a7e215c555fc04d6c446f9079fef",
+   "text": "This is about how firmly you hold the steering wheel yourself: making decisions, tackling the important things first, sticking to your goals and completing tasks without being reminded."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:14e73b7843f2754714f2737cea776da397b3836172676338afc9ff36fadab9f0",
+   "text": "Important or urgent?"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:a87da9523a5b610f63a56038b40a9382ad56d32ae4c299797b1a92de2af605d2",
+   "text": "Tuesday afternoon: tomorrow you have an English vocabulary test, next week you are giving a presentation in history, messages keep popping up in the class chat, and actually you wanted to watch another episode of a series. Where do you start?\n\nWhen you **set priorities**, you consciously decide what comes first. Two questions help:\n\n- **Is it important?** Important means it brings you closer to your goals – for example good preparation, a project or something that matters a lot to you.\n- **Is it urgent?** Urgent means it has to be done soon or is shouting for your attention right now.\n\nThis gives you four groups:\n\n1. **Important and urgent:** do it straight away – the vocabulary test tomorrow.\n2. **Important, but not urgent:** plan a fixed time for it – the presentation next week. Start with a first step today!\n3. **Urgent, but not important:** deal with it quickly or put it off until later – the messages in the class chat.\n4. **Neither important nor urgent:** leave it out or keep it as a reward for afterwards – the series.\n\nThe trap: urgent things **feel more important** than they are. A vibrating phone wants your attention *now* – but it rarely gets you any further. A lot of stress comes from group 2: if you put off the important things until they are urgent, in the end you have to do everything at once. That's why the rule is: **Do the important things first – before they become urgent.**"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:86ecb572049c8211e55ad34a8af218a4efaaa754276e4f081939cd1a6ba8aab6",
+   "text": "Goals you stick to"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:48f4bf28db2ca4a4267688f4cbfd7e2d7526df90bc26126f56710fa36479f25d",
+   "text": "“I want to get better at maths.” That's a good wish – but it isn't yet a goal you can stick to. A good goal is:\n\n- **specific:** You know exactly what you want to do. (“I'll do the practice exercises on fractions …”)\n- **measurable:** At the end you can say whether you have managed it. (“… all 20 exercises on the worksheet …”)\n- **with a deadline:** It has a fixed date. (“… by Thursday.”)\n\nYou break big goals down into **milestones**. Instead of “presentation finished by Friday”, it becomes: Monday collect information, Tuesday write notes, Wednesday design the slides, Thursday practise. Every milestone you reach shows you that you are making progress – and that is motivating.\n\nA powerful tool is the **if-then plan**. You decide in advance when and where you will act: “**If** I get home after lunch, **then** I'll put my phone in the kitchen and work on the presentation for 20 minutes.” That way you don't have to decide all over again at the crucial moment – the plan is already there.\n\nAnd what if it doesn't work out one day? Then you don't give up on the goal straight away, but ask yourself: **What stopped me – and what will I do differently next time?** Sticking with it doesn't mean never stumbling, but carrying on after you stumble."
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:0157b4d680108190b0efbe153534e38a36b37233b28999365c3fdd5e8402abcf",
+   "text": "Getting started yourself – and deciding for yourself"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:3c0ae891e827917df24d6819a61572a6d02c3b3310d2e21addc25299bcc8ba50",
+   "text": "**Working independently** means: you get started without anyone having to remind you. The hardest part is often the beginning. If you keep putting off an important task until later, you are **procrastinating**. Three tricks help against this:\n\n1. **Set a start time:** not “later”, but “at 4 pm”.\n2. **Start small:** Plan just five minutes or a first step, for example writing the heading. Carrying on is often easier after that – and if not, at least you have made a start.\n3. **Put distractions away:** phone out of sight, only what you need on the desk.\n\nA **list** on which you tick off what you have done also helps. That way you can see for yourself what is still missing.\n\nSteering yourself also means **making decisions yourself**. This works in three steps:\n\n1. **Collect options:** What could I do?\n2. **Weigh up the consequences:** What happens in each case – today and tomorrow? What fits my goal?\n3. **Decide and stand by it:** Choose one option and stick up for it, even if others see it differently.\n\nStanding by a decision doesn't mean being stubborn. If you realise that a decision was wrong, you are allowed to change it – but because *you* want to, not because others are pushing you. And an honest “No, not today” with a **counter-proposal** (“Saturday would be great!”) is often fairer than an annoyed no or a yes you don't really mean."
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:be4b5f9f68dc2186d6affdd6db6d5676f61627e47174c6b21cd29ff41d9d5184",
+   "text": "Quiz: What comes first?"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:3126dda850195283d46264e5ba2a8a2e09daf5252d896eedd92368981db790ad",
+   "text": "Five situations from everyday school life. Each time, choose the answer that best fits the strategies above. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[4].questions[0].prompt": {
+   "quelle": "sha256:f334923859a56f663ddff11fcb6351f60dbfd6c053e099fc2746f6baccef2618",
+   "text": "Tomorrow you have a vocabulary test, next week a presentation, and right now the class chat is all about a funny video. What do you start with today?"
+  },
+  "blocks[4].questions[0].options[0].text": {
+   "quelle": "sha256:fbd6c2cb3d572695d2688ab3906fa1ce569827d9aaf965daf32a97c486bb6f1c",
+   "text": "The video – otherwise you'll miss what everyone is talking about."
+  },
+  "blocks[4].questions[0].options[1].text": {
+   "quelle": "sha256:fe7f0bab8f196c2695ba0f9a299feeeb5f3d9fbb4dfde94b32a033791fd7c5aa",
+   "text": "The presentation – it's the biggest project."
+  },
+  "blocks[4].questions[0].options[2].text": {
+   "quelle": "sha256:930bc20cd4751366902f3818030c51cecdbc83ed81233bc5c18e49ff3ea97d74",
+   "text": "The vocabulary test – it's important and urgent."
+  },
+  "blocks[4].questions[0].options[3].text": {
+   "quelle": "sha256:9ac0088e7a528a12ac4419be59eeb294ee1b3ec657ebc096754e55b45762ec2a",
+   "text": "Everything at the same time, so that nothing gets left undone."
+  },
+  "blocks[4].questions[0].explanation": {
+   "quelle": "sha256:5e9058aafe4d5107818b9d1a91d9459071cf2201b52aa81cba981d05a0d6f615",
+   "text": "The vocabulary test is **important and urgent**, so it comes first. The presentation is important, but not urgent yet – you plan a fixed time for it (ideally with a first step today). The chat may be loud, but it isn't important. Doing everything at the same time usually means doing nothing properly."
+  },
+  "blocks[4].questions[1].prompt": {
+   "quelle": "sha256:fad080259fad5f03f19cd596b0a9cfc713e6c206a0c51fc55b1b03c8349e2570",
+   "text": "The history presentation isn't due for another two weeks. What is the most sensible thing to do?"
+  },
+  "blocks[4].questions[1].options[0].text": {
+   "quelle": "sha256:f893abdc83e5aacf74cba41f0e939a3d66fd3878ca0b55bf30eba40026c560e7",
+   "text": "Wait until it becomes urgent – that's when you're most motivated."
+  },
+  "blocks[4].questions[1].options[1].text": {
+   "quelle": "sha256:9a84771402b6736ccfb3d8c2b618df891eab55994ca5f506d8c98aa541293387",
+   "text": "Plan a fixed time for the first step right now."
+  },
+  "blocks[4].questions[1].options[2].text": {
+   "quelle": "sha256:6a83b4c73168fbc4388abdc547e593e1bb9c29a2a1b80e5a9ab3f12200487bf0",
+   "text": "Do everything in one go the evening before."
+  },
+  "blocks[4].questions[1].options[3].text": {
+   "quelle": "sha256:5aa3d0cfcb926f9a6fdf65979e37d64a18424efef9e26f6d6134423ddf394714",
+   "text": "Wait and see whether the teacher reminds you about it."
+  },
+  "blocks[4].questions[1].explanation": {
+   "quelle": "sha256:68b72c0f21f60d905119cce86eeca9e7d57eb147c96addea9c05bb859c818e6e",
+   "text": "The presentation is **important, but not urgent yet**. These are exactly the tasks you plan a fixed time for **before** they become urgent. If you wait until the last minute, you end up stressed – and if you wait for a reminder, you aren't working independently."
+  },
+  "blocks[4].questions[2].prompt": {
+   "quelle": "sha256:ecfd610083f143f6fb11d85fe8ea41bc2513dd435d17d2b111dc939449322533",
+   "text": "While you are revising for a test, your phone keeps vibrating because of messages in the group chat. Which group do these messages usually belong to?"
+  },
+  "blocks[4].questions[2].options[0].text": {
+   "quelle": "sha256:b2f9158115c4c81eb758a9bd2fe74e9afc33b582f56161c280090bc0283b0eca",
+   "text": "Important and urgent"
+  },
+  "blocks[4].questions[2].options[1].text": {
+   "quelle": "sha256:8904f2e432d49fb222c9943d97e3ba7873a07ca587fc7bcd07476bf9d68d2765",
+   "text": "Important, but not urgent"
+  },
+  "blocks[4].questions[2].options[2].text": {
+   "quelle": "sha256:6e27792acc1d65725ff6087aab9f6b2ad33fc7dd3e1d8d7d516f1b172a77a956",
+   "text": "Urgent, but not important"
+  },
+  "blocks[4].questions[2].options[3].text": {
+   "quelle": "sha256:d3eb3182b294bb87a3052860a39d03de23af813424d986a409c3f386f2ebadcb",
+   "text": "Neither important nor urgent – you never have to read them"
+  },
+  "blocks[4].questions[2].explanation": {
+   "quelle": "sha256:604826fbdeba9eea7cdbc26939273b22893e7c1a61581f5936e0eb84665d4903",
+   "text": "Messages want your attention **immediately** – that makes them urgent. But for your goal (the test) they usually aren't important. So: read them later or reply briefly – and put your phone away while you revise. “Never read them” would be going too far; it's about the right moment."
+  },
+  "blocks[4].questions[3].prompt": {
+   "quelle": "sha256:530fa561301f9e23ec83ed72150f83029ffdf35e3263117aff2e879b97c91bd0",
+   "text": "By Friday you have to decide whether to join the drama group or the technical crew for the school fair. Your best friend is going to the drama group. Which approach fits the three steps of a decision?"
+  },
+  "blocks[4].questions[3].options[0].text": {
+   "quelle": "sha256:3d56cf992d953400efd0c292292a4ecf6d78978cf3dad0141e7a205b4ac69a62",
+   "text": "Choose the drama group – it will definitely be more fun with your friend, and that's reason enough."
+  },
+  "blocks[4].questions[3].options[1].text": {
+   "quelle": "sha256:107996fdbbe8b026de6c2d94473cfedcfde6ecedc0d93e97ea131e43ee06d154",
+   "text": "Compare both groups, weigh up what suits you, then decide and stick with it."
+  },
+  "blocks[4].questions[3].options[2].text": {
+   "quelle": "sha256:eb9b22e42572ee1937233f1721001f6de4e7558e8d4435f3399ba7190c639a58",
+   "text": "Choose the group the teacher would probably prefer to see you in."
+  },
+  "blocks[4].questions[3].options[3].text": {
+   "quelle": "sha256:13e26fb29d0594792afb80a9dde5ccc033bc882c035165ec947e7c9d2e0e25d5",
+   "text": "Keep thinking until you are a hundred per cent sure – and say nothing until then."
+  },
+  "blocks[4].questions[3].explanation": {
+   "quelle": "sha256:69d9c28daa332e9ea31097f921e0b48fbf75fcdb3d68569bf593ee4d8a0fd92e",
+   "text": "The three steps are **collect options, weigh up the consequences, decide and stand by it**. Your friend's choice can be one reason you weigh up – but not the only one, and you make the decision yourself. If you only go by your friend or by the teacher, you are leaving the decision to others. And if you wait until you are a hundred per cent sure, in the end you don't decide at all."
+  },
+  "blocks[4].questions[4].prompt": {
+   "quelle": "sha256:15cb871856470ebf0115de58c01a126a30fcff2c7e9f4cdf6500a540e2cdb9d7",
+   "text": "You have decided to revise for the test first today and only go to the park afterwards. A friend calls out: “Come on, don't be such a swot!” What does standing by your decision mean here?"
+  },
+  "blocks[4].questions[4].options[0].text": {
+   "quelle": "sha256:375cfbb9780a9ae81124a90634a955b9a4c57b5b95090dbb5827a32b428802f1",
+   "text": "Go along and revise for the test in the evening – the main thing is that he isn't offended."
+  },
+  "blocks[4].questions[4].options[1].text": {
+   "quelle": "sha256:d7601b6ffe16b00bb1b0f07b6fd9906ab2936917ae59967d4b0dda6e0ee0e521",
+   "text": "Stick with your decision, briefly explain why and say when you'll join them."
+  },
+  "blocks[4].questions[4].options[2].text": {
+   "quelle": "sha256:269e13cdb1cebb76426b74b304218de4d15695ef081df48d1962bc38460cb185",
+   "text": "Stick with your decision, but don't explain anything – it's none of his business."
+  },
+  "blocks[4].questions[4].options[3].text": {
+   "quelle": "sha256:6720caf568c49298d86006dec3c83ab2b6847bc30701905c0e48d069142009fa",
+   "text": "Agree with him, revise for half an hour and then head off after all."
+  },
+  "blocks[4].questions[4].explanation": {
+   "quelle": "sha256:e42850cd67861b8bddf15e4136c55bf60811cf85f9ba8a4a4d9eb0513456b6f1",
+   "text": "Standing by a decision means **calmly sticking up for it**, even when others push you – ideally with a short reason and a counter-proposal (“I'll come in an hour”). Without an explanation you do stick with it, but your friend feels brushed off. And it isn't about being stubborn either: if you have good reasons, you are allowed to change a decision – but because you want to, not because of the pressure."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:88f1fee95f930991a07d4f8124ff58d2beb16abb863a53d8238ac1e4159e17db",
+   "text": "Stumbling blocks and strategies"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:589cb8153c43b7b48ffa81e5d0ad57510d1daf0c648d2f4d186373933c722ed9",
+   "text": "On the left are typical stumbling blocks, on the right strategies from the texts above. Match each stumbling block with the strategy that helps most. Tap one item on the left and one on the right."
+  },
+  "blocks[5].paare[0].links.text": {
+   "quelle": "sha256:558a2fc953c435d9d2b4f86ab3c637523dceff471ccb2003ee7b8fac4f8c7f41",
+   "text": "“I always say ‘later’ – but I never decide when exactly.”"
+  },
+  "blocks[5].paare[0].rechts.text": {
+   "quelle": "sha256:c75651b7df82e263dd30fa5f2442c0bf0e1312ea8a661bed6f4e241601b3612d",
+   "text": "Set a start time: not “later”, but “at 4 pm”"
+  },
+  "blocks[5].paare[1].links.text": {
+   "quelle": "sha256:44c105c7483c41b8ad47dbf40bf9996c73e67020233affa0f6e25e7d2819a469",
+   "text": "“Every few minutes I check whether anyone has messaged me.”"
+  },
+  "blocks[5].paare[1].rechts.text": {
+   "quelle": "sha256:f0120ac0997e9df28140eddf827e2d68471bccbb05d75123378d396c9d82cb8a",
+   "text": "Put my phone out of sight while I'm working"
+  },
+  "blocks[5].paare[2].links.text": {
+   "quelle": "sha256:6942839132577cea278eda2435ed3a16fc45839efbc883dff2604afdcb8de963",
+   "text": "“I want to ‘get better’, but I never notice whether I've managed it.”"
+  },
+  "blocks[5].paare[2].rechts.text": {
+   "quelle": "sha256:da11cc25677be6d346036a9a90d41ccfcc3b63d9c2c6c6239e51f16967a7f5f5",
+   "text": "Phrase the goal so that it is specific, measurable and has a deadline"
+  },
+  "blocks[5].paare[3].links.text": {
+   "quelle": "sha256:752074304b3e8ad5ee2f525bf256ce37caa428048d33b6f1f012159b224e2f35",
+   "text": "“Faced with the big project, I just sit there and don't know where to start.”"
+  },
+  "blocks[5].paare[3].rechts.text": {
+   "quelle": "sha256:5d3cff43230f25bbd01234fc19a72caa15f16dd25027cfbbb97c50ada04c6b24",
+   "text": "Break the task down into milestones, each with its own date"
+  },
+  "blocks[5].paare[4].links.text": {
+   "quelle": "sha256:978239fb41e0cbab17c287a4b5c41b532ef2dab5ec692f5501c5eddb1ff701b0",
+   "text": "“Unless someone reminds me, I always forget something.”"
+  },
+  "blocks[5].paare[4].rechts.text": {
+   "quelle": "sha256:54df6161e2bdbac97bfd83f9731d8f6592e21206c3bb4220b946921bb06f5d26",
+   "text": "Keep a list and tick off what I've done"
+  },
+  "blocks[5].paare[5].links.text": {
+   "quelle": "sha256:622f287da9637a7a84e2e777ac61f9e62d9757f880143f0011909e97023a16bc",
+   "text": "“I do the small, pleasant things first – and then there's no time left for the important ones.”"
+  },
+  "blocks[5].paare[5].rechts.text": {
+   "quelle": "sha256:e9d09bccba7d0735871a360a84d08e1ec6657d9432de7cb3f3ada8ed88fe401c",
+   "text": "Check what is important and do the important things first"
+  },
+  "blocks[5].paare[6].links.text": {
+   "quelle": "sha256:c80e69bb01f912c682e6d7448dd3d9a37276a4895843775f9900f6414c024e8e",
+   "text": "“I firmly intend to get started – but as soon as I get home, I end up on the sofa.”"
+  },
+  "blocks[5].paare[6].rechts.text": {
+   "quelle": "sha256:3ef31d92036e2074dc2990a5cddbf9b878ec7bc5a8077b43667c304b490c7735",
+   "text": "Make an if-then plan: decide in advance what I'll do in which situation"
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:61a66a64f848ac4667b1bb86a93cd135cb524d5c0c1a98c0cf2de6f0e6f0716c",
+   "text": "Turning a wish into a goal"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:d6c7d7578058f53141a778b9ebe5ad41a47525a576fae203e726c0790d3bb0e4",
+   "text": "Leonie turns her wish into a goal she can stick to. Fill in the right words. Two of the words to choose from don't fit anywhere."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:74c9963c96da4db45bde2adb89a3fc6dc2e2ed66d2f2e719f8a570f4b6dff115",
+   "text": "Role play: The afternoon before the deadline"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:6b351204ccf7098def9a54b8558a55119a0b7465ea66a4dc62d10bade99013ff",
+   "text": "Wednesday, half past three. Tomorrow at eight you have to hand in your geography poster – about half of it is done, and you still need about an hour and a half. Then your friend Noah messages you. At each step, choose how you react – different paths lead to different endings. Noah is a simulated conversation character, not a real person."
+  },
+  "blocks[7].figur.name": {
+   "quelle": "sha256:3b9fb3d4a07366842ad6beb5e9ad555342ee6baff45f38fdb19d5358f4560914",
+   "text": "Noah (AI character)"
+  },
+  "blocks[7].figur.rolle": {
+   "quelle": "sha256:ba0a89ccbbb2acb671cd85fa9c65d5ab6e1ff538919fa2785b93da67bf3bf1cb",
+   "text": "Your friend from class, who invites you to a video game tournament"
+  },
+  "blocks[7].figur.rollenPrompt": {
+   "quelle": "sha256:9f5119901f72e63fab07072646be9d821765aa94ee60b77f09c10630eeda9a67",
+   "text": "You are Noah, 14 years old, a good friend of the person you are talking to, and you are in the same class. It is Wednesday afternoon. You have a new football video game and are inviting friends round to your house for a tournament; Elias and Mia are coming too. You know that the person has to hand in a geography poster tomorrow morning, but you don't think it's a big deal and try to persuade them in a friendly way, for example with “Everyone's coming!” or “You can do it quickly tonight”. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. If the person honestly explains why they aren't coming or are coming later, and makes a counter-proposal, you react with understanding after a brief hesitation. If they brush you off without an explanation, you are a bit hurt but stay friendly. You don't give advice on learning strategies and you don't play a teacher. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+  },
+  "blocks[7].knoten[0].text": {
+   "quelle": "sha256:678b33270ca1041ebb5dc63511badd2000db4d56db7014f02d77e8f0d787b2c7",
+   "text": "Hey! We're meeting at mine in a bit, Elias and Mia are coming too. I've got the new football game – we're having a tournament until dinner! You coming?"
+  },
+  "blocks[7].knoten[0].antworten[0].text": {
+   "quelle": "sha256:bc65406c9b6f6b4453b72b6d1fc8d18fe8994d1b31cfd21cc250a094749d8a69",
+   "text": "Sure, I'll be there in ten minutes!"
+  },
+  "blocks[7].knoten[0].antworten[1].text": {
+   "quelle": "sha256:7200c9fe11020a40f692becdcabe912842b9714f3643586e8853fa94a3929f83",
+   "text": "I still have to finish the geography poster. How long are you playing for?"
+  },
+  "blocks[7].knoten[0].antworten[2].text": {
+   "quelle": "sha256:426a05b6e5583fc200c92c563cefa91022059d8fcaaad292fdcdf26cd410d39d",
+   "text": "Nah, can't be bothered."
+  },
+  "blocks[7].knoten[1].text": {
+   "quelle": "sha256:96ce390ccc33ffb4027f335561d2b7a3d21cc11f1948e2cfdcd6ebcb6c0fad5d",
+   "text": "Yes! And your poster? Oh, you can do that tonight, it won't take long."
+  },
+  "blocks[7].knoten[1].antworten[0].text": {
+   "quelle": "sha256:4145bc91e4ade11ef8abadf24126e6b3fe03a6eb7281dfac365031ddcd41465f",
+   "text": "True, tonight is easily enough."
+  },
+  "blocks[7].knoten[1].antworten[1].text": {
+   "quelle": "sha256:37822ec37c7b5bafd0385262f6d27ff218904b88ce498595618368fe5e5e4d5b",
+   "text": "Hmm, wait – actually there's still quite a lot missing."
+  },
+  "blocks[7].knoten[2].text": {
+   "quelle": "sha256:b4bc1452f870a6d10867b9ef5cfd49bed8eebf5e3a41bb06a3b172ffcf0879b3",
+   "text": "Wow, okay … Did I do something wrong? You're never around these days."
+  },
+  "blocks[7].knoten[2].antworten[0].text": {
+   "quelle": "sha256:395e620207e3ac79871357866747e49bbaab516becf846264979d72a7278644e",
+   "text": "Sorry, I didn't mean it like that. I've still got to finish the geography poster by tomorrow."
+  },
+  "blocks[7].knoten[2].antworten[1].text": {
+   "quelle": "sha256:a6ae50fd7d19b928409b3f63d5f48bebfd7628397a8b523563f76a52daef2a93",
+   "text": "That's just how it is."
+  },
+  "blocks[7].knoten[3].text": {
+   "quelle": "sha256:cc24b02d97fab5f0ccbe032ddec0fd0ab95014a0e54fe4b9f320c4ac04e2a763",
+   "text": "Oh come on, we're only playing until about seven anyway. You can finish the poster on the bus tomorrow morning. Mia hasn't done hers yet either. Everyone's coming!"
+  },
+  "blocks[7].knoten[3].antworten[0].text": {
+   "quelle": "sha256:21ae6774158c132522761f7040ade4c0116c96d21b687891fee5a600dca61c75",
+   "text": "I'll work on the poster for an hour and a half now and come after that. Then I'll still be there for two hours, okay?"
+  },
+  "blocks[7].knoten[3].antworten[1].text": {
+   "quelle": "sha256:89613565640937241f9d66df8bf0878024bf04cf33154e4bbe291e0c54bf227f",
+   "text": "Not today, I want to finish the poster in peace. But are you free on Saturday? Then we can play for ages."
+  },
+  "blocks[7].knoten[3].antworten[2].text": {
+   "quelle": "sha256:c1035ee8332ee179c46855b11edf7ce2f70787cac7677147a34ee944cb301bec",
+   "text": "If everyone's coming … okay, I'll come."
+  },
+  "blocks[7].knoten[4].text": {
+   "quelle": "sha256:914f90b7a26be672fdd353c9d51c6bbecfc5a18db25f5ff909556150f21eaca3",
+   "text": "Great, see you soon! *The tournament is loads of fun, and you keep adding round after round. Suddenly it's eight o'clock, and Mia is packing up her things.* One more round? Just the two of us!"
+  },
+  "blocks[7].knoten[4].antworten[0].text": {
+   "quelle": "sha256:22290ff072819c3c09ca677b569fe3c1c2f3b5381b952e7cd50179b0b938b74e",
+   "text": "Sure, one more."
+  },
+  "blocks[7].knoten[4].antworten[1].text": {
+   "quelle": "sha256:fd61797f309105b3c68710599f975f6a801f83bf7df86e3a3d6ecbed54965fe3",
+   "text": "No, I'm going home now to finish the poster."
+  },
+  "blocks[7].knoten[5].text": {
+   "quelle": "sha256:7808463ad94ba31efcfef316ad8a8857cfb1f80b235ddf5322663e283d43be77",
+   "text": "An hour and a half? Then you'll miss half the tournament! Just do half an hour, you can do the rest tomorrow morning."
+  },
+  "blocks[7].knoten[5].antworten[0].text": {
+   "quelle": "sha256:635f47dff2a41d606918898ac639b190a7689aa7f24239c526688f244438e267",
+   "text": "No, I really need the time. I'll be at yours at five – promise."
+  },
+  "blocks[7].knoten[5].antworten[1].text": {
+   "quelle": "sha256:8286685ca759c77aa84271ec5cb0d1d05e095cce63e1b5c03c0b68ea1e570fe2",
+   "text": "Oh, all right, half an hour will probably do somehow."
+  },
+  "blocks[7].knoten[6].text": {
+   "quelle": "sha256:78d9391340d2941cba7ae6c83431d5332c5dc5fe0983fc0631e74cd099ab2a9b",
+   "text": "Saturday? Hmm … actually that's cool, then I can practise until then and properly beat you. But today would be more fun."
+  },
+  "blocks[7].knoten[6].antworten[0].text": {
+   "quelle": "sha256:7f2d7a4cfaff657bb425280502490875236e95a5c59471f2c5800888482d8203",
+   "text": "Definitely! But the poster counts towards my mark. Saturday, deal?"
+  },
+  "blocks[7].knoten[6].antworten[1].text": {
+   "quelle": "sha256:d4340a86151959cd17f8b22aebff0594656df905887640290b8eb54228dc5788",
+   "text": "Actually, that's true … okay, I'll come after all."
+  },
+  "blocks[7].knoten[7].text": {
+   "quelle": "sha256:9b1cf4f2fa9df95d8e1cdfcbe90b2b01b033a0f4920c70643649e3e416e37d74",
+   "text": "See you tomorrow – that was a great tournament! *Half past nine in the evening. You are sitting in front of your half-finished poster, and your eyes keep closing. In the morning, on the bus, you stick on the last pictures – crooked.*"
+  },
+  "blocks[7].knoten[7].auswertung": {
+   "quelle": "sha256:b059d6cff4ae9b49ca66a3300e61fddd1f1435f03bdba3dd89dc36f3a269e191",
+   "text": "**Said yes – and pushed the important thing aside.** The tournament was *urgent* (now or never!), the poster was *important*. In the moment, urgent things always feel more important – and “Everyone's coming!” or “Just one more round!” make the pull even stronger. What would have helped: pausing for a moment, weighing up the consequences (“What does this mean for tonight and tomorrow morning?”) and then making a compromise with a fixed time or a counter-proposal – and sticking with it, even when someone keeps pushing. Try a different path in the role play."
+  },
+  "blocks[7].knoten[8].text": {
+   "quelle": "sha256:0a4460f966066386f17d06b1aa69b543dfc20a35da2ac813647d18df648198f2",
+   "text": "Okay, shame … see you tomorrow! *You get home at half past eight and work until after ten. The poster gets finished – but you are pretty tired.*"
+  },
+  "blocks[7].knoten[8].auswertung": {
+   "quelle": "sha256:c988063b79526e1c4014578d1b9cae64e85fdb4da102b19b1ab58a4f83b59bf4",
+   "text": "**Late, but you changed course yourself.** At first the group pressure decided for you (“Everyone's coming!”), then you turned things around yourself and stuck with your decision when Noah wanted one more round – that's impressive. It would have been even better to decide **beforehand**: with a compromise (“I'll come at five”) or a counter-proposal you could have had both, without the evening stress."
+  },
+  "blocks[7].knoten[9].text": {
+   "quelle": "sha256:49d0556504670e635e54eb800b7e055135aa2f34a4c86ab54c81e1ce0174124d",
+   "text": "Okay, okay – at five, but no excuses then! *At five you ring Noah's doorbell, the finished poster lying on your desk.* There you are! You're on a team with Mia."
+  },
+  "blocks[7].knoten[9].auswertung": {
+   "quelle": "sha256:f3c0b2ebe8986b5838661ce11d1dd50577ef5cb437e13581ae8a63d0ce54522e",
+   "text": "**A compromise with a plan – very good.** You did the important thing first and still didn't completely miss out on meeting up. The fixed time (“at five”) works like an if-then plan: Noah knows where he stands, and you know how much time you have. And when Noah kept pushing, you calmly stuck with your decision."
+  },
+  "blocks[7].knoten[10].text": {
+   "quelle": "sha256:5e99416b8ee0d63f9584e7f844e4d3ef0ea46a36ead0aa29adaa197031ac81a2",
+   "text": "Great, see you soon then! *After half an hour you go round to Noah's. The next morning you try to finish the poster on the bus – it doesn't get finished, half of the texts are missing.*"
+  },
+  "blocks[7].knoten[10].auswertung": {
+   "quelle": "sha256:b2fe3f7d866247dc26505924726e90a3d40dff4a8dc98096fec5211ff801600b",
+   "text": "**A good start – given up under pressure.** Your first suggestion was strong: work first, then come. But when Noah kept pushing, you gave in, even though you knew the time wouldn't be enough. Standing by a decision means calmly repeating it: “I really need the time – I'll be there at five.” Friends usually understand that better than you think."
+  },
+  "blocks[7].knoten[11].text": {
+   "quelle": "sha256:26844f15c34beaf4e34e69e52482c7ced87f1e14e7e04c4ccb018c86873e147c",
+   "text": "Okay, Saturday, deal. And then no excuses! *You finish the poster in peace.*"
+  },
+  "blocks[7].knoten[11].auswertung": {
+   "quelle": "sha256:e0780e04178f98a80759915a7d2d5aa0efa135db6075b5bc8aeb6476ea6cc39c",
+   "text": "**A clear no with a counter-proposal – very good.** You weighed up the options, put the important thing first and stood by your decision in a friendly way. The counter-proposal shows Noah: “I want to see you – just not today.” That way the friendship stays on track, and the poster is finished."
+  },
+  "blocks[7].knoten[12].text": {
+   "quelle": "sha256:fcc26180444cbd12447817a832bf1ed7ab493e6e3492f57f80e8c4b538a81f97",
+   "text": "Okay … forget it then. *Noah goes offline. You work on the poster, but the conversation stays on your mind for a while.*"
+  },
+  "blocks[7].knoten[12].auswertung": {
+   "quelle": "sha256:e4e8605e46e5f7eb85d470ea8f87298168cd8c7cf56fd5df580db49c86aa5cc0",
+   "text": "**Decided – but at the expense of the friendship.** In terms of content, your decision was right: the poster is important. But without a reason and without a counter-proposal, all Noah heard was: “I don't care about you.” An honest “Not today, because …” and a suggestion for another time would have made the same decision much friendlier."
+  },
+  "blocks[7].abschlussfrage.prompt": {
+   "quelle": "sha256:f9f2cf59c54c4b2e2b9eef22b634165b2d0ecff60ce7ae64cdb5a7c628fc4d48",
+   "text": "Noah says: “Mia hasn't done hers yet either. Everyone's coming!” Which approach helps you most at a moment like this?"
+  },
+  "blocks[7].abschlussfrage.options[0].text": {
+   "quelle": "sha256:3489c8bfe225879a3b0c455b04e7b92574d6af90a6237c102318c725795fd62a",
+   "text": "Go along because everyone is going – if Mia hasn't done hers yet either, it probably isn't that bad."
+  },
+  "blocks[7].abschlussfrage.options[1].text": {
+   "quelle": "sha256:d646483041fc124b81928e7fb157a94f01b7ff1deff1ae37674c2941b6404426",
+   "text": "Briefly weigh up what is important and what is only urgent, and then make a counter-proposal or name a fixed time."
+  },
+  "blocks[7].abschlussfrage.options[2].text": {
+   "quelle": "sha256:0955b683ef14b95d1d91abe4017fb3b03da225acae467282daf445c7b22fdc58",
+   "text": "Go along for now and see how long it takes – you can still decide later."
+  },
+  "blocks[7].abschlussfrage.options[3].text": {
+   "quelle": "sha256:b2246318da4edc25b77cbde02e64277a84a680b5858b6bee5b8c67260b4cf234",
+   "text": "Say yes and finish the poster on the bus tomorrow morning – half an hour will surely be enough."
+  },
+  "blocks[7].abschlussfrage.explanation": {
+   "quelle": "sha256:843a1db931c90a084cd6deb3d61f2a1f2dbf5ba340470157ae95428f31e15108",
+   "text": "“Everyone's coming!” is group pressure: it makes the get-together **urgent**, but not more important. If you briefly weigh up the consequences and then decide for yourself, you can stay friendly **and** protect the important thing – with a counter-proposal (“Saturday?”) or a fixed time (“I'll be there at five”). “Go along for now” only postpones the decision – and then the pull of the game decides. And “on the bus tomorrow morning” is exactly the trap of putting off the important thing until it's too late."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:e40f07908db89666a41fd518410e255c6c157d3548fbc0ba8da79a41a047dfe8",
+   "text": "Your experience, your plan"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:c9d017fa544cbdacfaf4bb19f0f57228d3f3cb462e75044ee8a0cf526735b5eb",
+   "text": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts."
+  },
+  "blocks[8].tasks[0].prompt": {
+   "quelle": "sha256:5d59424f419d567cbb77696564a7cf55725381904446605f92a86754ea048a1f",
+   "text": "Think of a task from school or your free time that you **put off**. Describe in 4–6 sentences:\n\n1. What was the task?\n2. Why did you put it off?\n3. What finally helped you get started – or what would have helped you? Name at least one strategy from this module and explain why it fits your situation."
+  },
+  "blocks[8].tasks[0].hint": {
+   "quelle": "sha256:6547159f4dc3545884ced5e101296853b1611c23ee5921b207947b7bb9a18789",
+   "text": "Think of the strategies from the text “Getting started yourself – and deciding for yourself”: set a start time, start small, put distractions away, keep a list. Milestones or an if-then plan can also fit."
+  },
+  "blocks[8].tasks[0].solution": {
+   "quelle": "sha256:6a577e400c3698d4044e0cbdf484642936deb76fd0b7c34209b4e1e9cbaac4e0",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It describes a specific task so that you can picture the situation. (2) It gives an understandable reason for putting it off, for example: the task seemed too big, was unpleasant, the phone or something else was more tempting, it was unclear where to start. (3) It links at least one strategy from the module to exactly this situation and explains why it helps: a fixed start time (instead of “later”), starting small or a first step of five minutes, putting distractions away, a list for ticking things off, milestones, an if-then plan or doing the important things first before they become urgent. A possible example (one of many – any situation from school or free time is equally good, similarity to the example doesn't count): “I put off the summary for biology until the last evening because the chapter seemed too long to me. What would have helped was dividing the chapter into three parts and doing one each day, with a fixed start time after training.” Whether the task worked out in the end is not what matters: honest self-observation is more valuable than a prettified story. Private details are not necessary."
+  },
+  "blocks[8].tasks[1].prompt": {
+   "quelle": "sha256:8f9bfd16c5c58646a25ebc77d582ac2e0cbfff447ce77cc100b36ab9d7055f65",
+   "text": "Choose a real task coming up in the next one to two weeks – for example a test, a presentation, a training session or a project of your own. For it, write:\n\n1. your **goal** – specific, measurable and with a deadline,\n2. at least two **milestones** with dates,\n3. an **if-then plan** for getting started (“If …, then …”)."
+  },
+  "blocks[8].tasks[1].hint": {
+   "quelle": "sha256:29462ad6d3b07c8a48ab2957f843d36e7c57b892c0c3825d6396bebbf2450285",
+   "text": "Check your goal with three questions: Do I know exactly what I want to do? Will I be able to say at the end whether I've managed it? Is there a date?"
+  },
+  "blocks[8].tasks[1].solution": {
+   "quelle": "sha256:b7130bd465df6a98dcd792aa1bd7ffe9703df9704ea354048da1fa3a77a59eca",
+   "text": "Criteria for a good answer: (1) The goal is specific (a clear activity), measurable (at the end you can clearly say whether it has been achieved, for example a number or a finished product) and has a deadline. (2) There are at least two milestones with dates that together lead to the goal and are in a sensible order. (3) The if-then plan names a specific situation (when/where, e.g. “if I get home after lunch”) and a specific first action (e.g. “then I'll put my phone away and work for 20 minutes”). A possible example (one of many): “Goal: By the maths test on the 28th, I can solve all types of percentage problems without help. Milestones: exercises 1–10 in the workbook by Wednesday, exercises 11–20 by Friday, the practice test at the weekend. If-then plan: If I get home at 4 pm on Monday, then I'll sit down to the exercises for 20 minutes first.” The topic of the task is free; only the three building blocks are assessed, not the similarity to the example."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:76a2379040bde64a3ed5edcace3d7eed0a17f21fcd6d44f440bbedb523c84d45",
+   "text": "What next?"
+  },
+  "blocks[9].body": {
+   "quelle": "sha256:42ea9c8b2524aee4d76d6f500112a992b030ffc0f071afeab8cac8dd5bc3318d",
+   "text": "Well done! One honest remark to finish with: **Knowing is not the same as doing.** The tasks in this module show whether you **know** strategies. How often you really **use** them in everyday life is something they can't show – that is shown by your **assessment** above and, if they assess you, by your teacher. That's also why: if your **competency overview** on the home page shows points for these skills, they come from these tasks – they show what you know, not how often you do it.\n\n- **Try out a strategy** – for example your if-then plan from the last task.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ },
+ "pakete": {
+  "blocks[6]": {
+   "quelle": "sha256:ddf891c36869e964180da3adea02cefb9df3a60424aa66f7024951567e6096a1",
+   "inhalt": {
+    "text": "Leonie writes: “I want to study more for French.” That is still a wish. Her new goal should be {{1}} – she knows exactly what she wants to do: learn the words from unit 4. It should be {{2}} – at the end she can test whether she has managed it: she writes all 40 words without help. It also needs a {{3}}: by the test next Wednesday.\nBecause 40 words are a lot, she divides the work into {{4}}: ten words every day.\nTo make sure she really gets started, she makes the following {{5}}: “If I'm sitting on the bus home, then I'll practise with my word cards for ten minutes.”",
+    "luecken": [
+     [
+      "specific",
+      "concrete",
+      "precise"
+     ],
+     [
+      "measurable",
+      "checkable",
+      "verifiable",
+      "testable"
+     ],
+     [
+      "deadline",
+      "date",
+      "due date",
+      "fixed date",
+      "time limit"
+     ],
+     [
+      "milestones",
+      "intermediate goals",
+      "sub-goals",
+      "subgoals",
+      "smaller goals",
+      "interim goals",
+      "stages",
+      "milestone"
+     ],
+     [
+      "if-then plan",
+      "if–then plan",
+      "if then plan",
+      "if-then-plan",
+      "if/then plan"
+     ]
+    ],
+    "ablenker": [
+     "urgent",
+     "quick"
+    ]
+   }
+  }
+ }
+}

@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-19-was-ist-politik --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:fcfc2435e8b736a4b0142b6e1e982f307683223ff0f1fd50f159857d0d91e906",
-  "masterCommit": "9560339",
+  "masterHash": "sha256:17231042508d66e408f98bcdb484c278f477b3f6909cdcaee1086ea5b052eea8",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:antworten-codex.en.json",
-  "selfHash": "sha256:7a6c03be21c70da660e8932d0c1be67e65e15c603eacacad826b7226324438e0"
+  "model": "speicher",
+  "selfHash": "sha256:40cc1e63395f7182fd2cb3279607337b77fa881184cf208289a500e1c51e2119"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-19-was-ist-politik",
@@ -74,6 +74,11 @@
   "wirtschaft-politik-02-haushalte-unternehmen-staat"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Politics? That has nothing to do with me …",

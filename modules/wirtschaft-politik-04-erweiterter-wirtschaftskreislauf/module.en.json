@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul wirtschaft-politik-04-erweiterter-wirtschaftskreislauf --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:b0c6141be80682fb066656f258c671c5cbab2473d9bb2f6b17429ce32b3f0559",
-  "masterCommit": "5a3023f",
+  "masterHash": "sha256:f6bac182c3f655fdb75266122ee407eb409e8c54811a39b7367dec7ad568ac4e",
+  "masterCommit": "f1497af",
   "hintsHash": null,
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-11-20",
   "generator": "uebersetze.ts v1",
-  "model": "datei:codex-antworten.en.json",
-  "selfHash": "sha256:a00d17bb59eddeb48df4d6ddb16efa1b5dccd85bb8206dea977d98531f040972"
+  "model": "speicher",
+  "selfHash": "sha256:4c331b32aa16858e29be8a121141f87d9ad60d85faeadea20e97993072a491ec"
  },
  "schemaVersion": 3,
  "id": "wirtschaft-politik-04-erweiterter-wirtschaftskreislauf",
@@ -85,6 +85,11 @@
   "wirtschaft-politik-03-einfacher-wirtschaftskreislauf"
  ],
  "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
   {
    "type": "text",
    "title": "Extension 1: Bringing the state back in",
