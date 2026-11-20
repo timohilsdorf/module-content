@@ -138,6 +138,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "id": "k7-einstieg",
    "title": "Vom Gesetz zum Völkermord",

@@ -70,6 +70,11 @@ const REGELN: ReadonlyArray<[RegExp, FeldKlasse]> = [
   // Teilkompetenz-Kennungen sind sprachunabhängige Schlüssel ins Register
   // (kompetenzen/teilkompetenzen.json) – nie übersetzen.
   [/^blocks\[\]\.teilkompetenzen\[\]$/, "invariant"],
+  // Einschätzungsblock mit automatischer Liste (20.11.2026): die
+  // ausgeschlossenen Kennungen sind dieselben Register-Schlüssel. Die
+  // Schalter `automatisch` und `kiInterview` sind Wahrheitswerte und
+  // brauchen keine Regel (klassifiziert werden nur Zeichenketten).
+  [/^blocks\[\]\.ausgeschlossen\[\]$/, "invariant"],
   [/^blocks\[\]\.title$/, "uebersetzt"],
   [/^blocks\[\]\.intro$/, "uebersetzt"],
   // --- text ---------------------------------------------------------------

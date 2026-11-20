@@ -104,6 +104,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "id": "k2-einstieg",
    "title": "30. Januar 1933: Ein Tag, der alles änderte – oder doch nicht?",

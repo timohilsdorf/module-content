@@ -1,0 +1,549 @@
+{
+ "schemaVersion": 3,
+ "id": "ueberfachlich-selbststeuerung",
+ "title": "Wie ich mein Handeln und Lernen steuere",
+ "description": "Wie triffst du Entscheidungen, setzt Prioritäten, bleibst an deinen Zielen dran und fängst Aufgaben selbst an? Nach einer kurzen Selbsteinschätzung lernst du Strategien dafür kennen, übst sie an Situationen aus dem Schulalltag – im Quiz, beim Zuordnen und in einem Rollenspiel – und denkst über deine eigenen Erfahrungen nach.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbständigkeit",
+     "description": "Wie steure ich mein Handeln und Lernen?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    },
+    {
+     "code": "Eigenständigkeit",
+     "description": "Eigene Ziele und Werte reflektieren und verfolgen."
+    },
+    {
+     "code": "Aufgaben/Probleme lösen",
+     "description": "Lern- und Arbeitsprozesse gestalten, Probleme erkennen und Lösungswege finden."
+    }
+   ]
+  }
+ ],
+ "einheit": "Überfachliche Kompetenzen",
+ "sequenz": 2,
+ "language": "de",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Überfachliche Kompetenzen",
+  "Selbständigkeit",
+  "Selbststeuerung",
+  "Prioritäten",
+  "Ziele",
+  "Aufschieben",
+  "Entscheidungen",
+  "Wenn-dann-Plan",
+  "Selbsteinschätzung"
+ ],
+ "learningObjectives": [
+  "Ich kann unterscheiden, was wichtig und was dringend ist, und erklären, warum das Wichtige zuerst kommt.",
+  "Ich kann ein Ziel konkret, überprüfbar und mit Termin formulieren und es in Zwischenziele aufteilen.",
+  "Ich kann Strategien nennen, die mir helfen, selbst mit einer Aufgabe anzufangen.",
+  "Ich kann die drei Schritte einer Entscheidung beschreiben und zeigen, wie ich auch unter Druck freundlich dazu stehe."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-selbststeuerung",
+   "title": "Wie ich mein Handeln und Lernen steure",
+   "intro": "Hier geht es darum, wie gut du selbst das Steuer in der Hand hast: Entscheidungen treffen, Wichtiges zuerst angehen, an deinen Zielen dranbleiben und Aufgaben ohne Erinnerung erledigen.",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.entscheidungen-treffen",
+    "uef.selbststeuerung.prioritaeten-setzen",
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.selbststeuerung.selbststaendig-arbeiten"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-wichtig-dringend",
+   "title": "Wichtig oder dringend?",
+   "body": "Dienstagnachmittag: Morgen schreibst du einen Vokabeltest in Englisch, nächste Woche hältst du einen Vortrag in Geschichte, im Klassenchat ploppen ständig Nachrichten auf, und eigentlich wolltest du noch eine Serie weiterschauen. Womit fängst du an?\n\nWer **Prioritäten setzt**, entscheidet bewusst, was zuerst kommt. Dabei helfen zwei Fragen:\n\n- **Ist es wichtig?** Wichtig ist, was dich deinen Zielen näherbringt – zum Beispiel eine gute Vorbereitung, ein Projekt oder etwas, das dir viel bedeutet.\n- **Ist es dringend?** Dringend ist, was bald erledigt sein muss oder sofort nach Aufmerksamkeit ruft.\n\nSo entstehen vier Gruppen:\n\n1. **Wichtig und dringend:** sofort erledigen – der Vokabeltest morgen.\n2. **Wichtig, aber nicht dringend:** fest einplanen – der Vortrag nächste Woche. Fang heute schon mit einem ersten Schritt an!\n3. **Dringend, aber nicht wichtig:** kurz erledigen oder auf später schieben – die Nachrichten im Klassenchat.\n4. **Weder wichtig noch dringend:** weglassen oder als Belohnung danach – die Serie.\n\nDie Falle: Dringendes **fühlt sich wichtiger an**, als es ist. Ein Handy, das vibriert, will *jetzt* beachtet werden – aber es bringt dich selten weiter. Viel Stress entsteht in Gruppe 2: Wer das Wichtige aufschiebt, bis es dringend ist, muss am Ende alles auf einmal erledigen. Deshalb gilt: **Mach das Wichtige zuerst – bevor es dringend wird.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-ziele",
+   "title": "Ziele, an denen du dranbleibst",
+   "body": "«Ich will besser in Mathe werden.» Das ist ein guter Wunsch – aber noch kein Ziel, an dem du dranbleiben kannst. Ein gutes Ziel ist:\n\n- **konkret:** Du weißt genau, was du tun willst. («Ich löse die Übungsaufgaben zu den Brüchen …»)\n- **überprüfbar:** Du kannst am Ende sagen, ob du es geschafft hast. («… alle 20 Aufgaben auf dem Blatt …»)\n- **mit Termin:** Es hat ein festes Datum. («… bis Donnerstag.»)\n\nGroße Ziele teilst du in **Zwischenziele** auf. Statt «Vortrag fertig bis Freitag» heißt es dann: Montag Informationen sammeln, Dienstag Stichworte schreiben, Mittwoch Folien gestalten, Donnerstag üben. Jedes erreichte Zwischenziel zeigt dir, dass du vorankommst – das motiviert.\n\nEin starkes Werkzeug ist der **Wenn-dann-Plan**. Du legst vorher fest, wann und wo du handelst: «**Wenn** ich nach dem Mittagessen nach Hause komme, **dann** lege ich das Handy in die Küche und arbeite 20 Minuten am Vortrag.» So musst du dich im entscheidenden Moment nicht mehr neu entscheiden – der Plan steht schon.\n\nUnd wenn es einmal nicht klappt? Dann gibst du das Ziel nicht gleich auf, sondern fragst dich: **Was hat mich gehindert – und was mache ich beim nächsten Mal anders?** Dranbleiben heißt nicht, nie zu stolpern, sondern nach dem Stolpern weiterzugehen."
+  },
+  {
+   "type": "text",
+   "id": "theorie-anfangen-entscheiden",
+   "title": "Selbst anfangen – und selbst entscheiden",
+   "body": "**Selbstständig arbeiten** heißt: Du fängst an, ohne dass dich jemand erinnern muss. Das Schwierigste ist oft der Anfang. Wer eine wichtige Aufgabe immer wieder auf später verschiebt, **schiebt auf**. Dagegen helfen drei Tricks:\n\n1. **Startzeit festlegen:** nicht «später», sondern «um 16 Uhr».\n2. **Klein anfangen:** Nimm dir nur fünf Minuten oder einen ersten Schritt vor, zum Beispiel die Überschrift schreiben. Oft fällt das Weitermachen danach leichter – und sonst hast du wenigstens angefangen.\n3. **Ablenkung weglegen:** Handy außer Sichtweite, nur das Nötige auf dem Tisch.\n\nHilfreich ist auch eine **Liste**, auf der du Erledigtes abhakst. So siehst du selbst, was noch fehlt.\n\nZum Steuern gehört auch, **Entscheidungen selbst zu treffen**. Das geht in drei Schritten:\n\n1. **Möglichkeiten sammeln:** Was kann ich alles tun?\n2. **Folgen abwägen:** Was passiert jeweils – heute und morgen? Was passt zu meinem Ziel?\n3. **Entscheiden und dazu stehen:** Wähle eine Möglichkeit und vertritt sie, auch wenn andere es anders sehen.\n\nDazu stehen heißt nicht, stur zu sein. Merkst du, dass eine Entscheidung falsch war, darfst du sie ändern – aber weil *du* es so willst, nicht weil andere drängen. Und ein ehrliches «Nein, heute nicht» mit einem **Gegenvorschlag** («Am Samstag gern!») ist oft fairer als ein genervtes Nein oder ein Ja, das du gar nicht meinst."
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-was-zuerst",
+   "title": "Quiz: Was kommt zuerst?",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.prioritaeten-setzen",
+    "uef.selbststeuerung.entscheidungen-treffen"
+   ],
+   "intro": "Fünf Situationen aus dem Schulalltag. Wähle jeweils die Antwort, die am besten zu den Strategien von oben passt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Morgen hast du einen Vokabeltest, nächste Woche einen Vortrag, und im Klassenchat geht es gerade um ein lustiges Video. Womit fängst du heute an?",
+     "options": [
+      {
+       "text": "Mit dem Video – sonst verpasst du, worüber alle reden."
+      },
+      {
+       "text": "Mit dem Vortrag – der ist das größte Projekt."
+      },
+      {
+       "text": "Mit dem Vokabeltest – er ist wichtig und dringend.",
+       "correct": true
+      },
+      {
+       "text": "Mit allem gleichzeitig, damit nichts liegen bleibt."
+      }
+     ],
+     "explanation": "Der Vokabeltest ist **wichtig und dringend**, also kommt er zuerst. Der Vortrag ist wichtig, aber noch nicht dringend – ihn planst du fest ein (am besten mit einem ersten Schritt heute). Der Chat ruft zwar laut, ist aber nicht wichtig. Alles gleichzeitig zu machen heißt meist: nichts richtig."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Der Vortrag in Geschichte ist erst in zwei Wochen fällig. Was ist am sinnvollsten?",
+     "options": [
+      {
+       "text": "Warten, bis er dringend wird – dann ist man am meisten motiviert."
+      },
+      {
+       "text": "Jetzt schon einen festen Termin für den ersten Schritt einplanen.",
+       "correct": true
+      },
+      {
+       "text": "Am Abend vorher alles in einem Zug erledigen."
+      },
+      {
+       "text": "Abwarten, ob die Lehrperson noch daran erinnert."
+      }
+     ],
+     "explanation": "Der Vortrag ist **wichtig, aber noch nicht dringend**. Genau solche Aufgaben plant man fest ein, **bevor** sie dringend werden. Wer wartet, bis es brennt, hat am Ende Stress – und wer auf eine Erinnerung wartet, arbeitet nicht selbstständig."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Während du für eine Prüfung lernst, vibriert dein Handy ständig wegen Nachrichten im Gruppenchat. Zu welcher Gruppe gehören diese Nachrichten meistens?",
+     "options": [
+      {
+       "text": "Wichtig und dringend"
+      },
+      {
+       "text": "Wichtig, aber nicht dringend"
+      },
+      {
+       "text": "Dringend, aber nicht wichtig",
+       "correct": true
+      },
+      {
+       "text": "Weder wichtig noch dringend – man muss sie nie lesen"
+      }
+     ],
+     "explanation": "Nachrichten wollen **sofort** beachtet werden – das macht sie dringend. Für dein Ziel (die Prüfung) sind sie aber meistens nicht wichtig. Darum: später lesen oder kurz antworten – und das Handy während des Lernens weglegen. «Nie lesen» wäre übertrieben; es geht um den richtigen Zeitpunkt."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Du sollst dich bis Freitag entscheiden, ob du beim Schulfest in der Theatergruppe oder in der Technikgruppe mitmachst. Deine beste Freundin geht in die Theatergruppe. Welches Vorgehen passt zu den drei Schritten einer Entscheidung?",
+     "options": [
+      {
+       "text": "Die Theatergruppe wählen – mit der Freundin macht es sicher mehr Spaß, das reicht als Grund."
+      },
+      {
+       "text": "Beide Gruppen vergleichen, abwägen, was zu dir passt, dann entscheiden und dabei bleiben.",
+       "correct": true
+      },
+      {
+       "text": "Die Gruppe wählen, in der dich die Lehrperson wohl lieber sehen würde."
+      },
+      {
+       "text": "So lange überlegen, bis du dir hundertprozentig sicher bist – vorher nichts sagen."
+      }
+     ],
+     "explanation": "Die drei Schritte heißen **Möglichkeiten sammeln, Folgen abwägen, entscheiden und dazu stehen**. Die Wahl der Freundin darf ein Grund sein, den du abwägst – aber nicht der einzige, und du entscheidest selbst. Wer nur nach der Freundin oder nach der Lehrperson geht, überlässt die Entscheidung anderen. Und wer auf hundertprozentige Sicherheit wartet, entscheidet am Ende gar nicht."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Du hast entschieden, heute zuerst für den Test zu lernen und erst danach in den Park zu gehen. Ein Freund ruft: «Komm schon, sei kein Streber!» Was heißt hier, zu deiner Entscheidung zu stehen?",
+     "options": [
+      {
+       "text": "Mitgehen und den Test am Abend lernen – Hauptsache, er ist nicht beleidigt."
+      },
+      {
+       "text": "Bei der Entscheidung bleiben, kurz erklären, warum, und sagen, wann du nachkommst.",
+       "correct": true
+      },
+      {
+       "text": "Bei der Entscheidung bleiben, aber nichts erklären – das geht ihn nichts an."
+      },
+      {
+       "text": "Ihm recht geben, eine halbe Stunde lernen und dann doch gleich losgehen."
+      }
+     ],
+     "explanation": "Zu einer Entscheidung stehen heißt, sie **ruhig zu vertreten**, auch wenn andere drängen – am besten mit einer kurzen Begründung und einem Gegenvorschlag («Ich komme in einer Stunde»). Ohne Erklärung bleibst du zwar dabei, aber dein Freund fühlt sich abgewiesen. Und Sturheit ist es auch nicht: Wenn du gute Gründe hast, darfst du eine Entscheidung ändern – aber weil du es willst, nicht wegen des Drucks."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-stolpersteine",
+   "title": "Stolpersteine und Strategien",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.selbststaendig-arbeiten",
+    "uef.selbststeuerung.ziele-verfolgen",
+    "uef.selbststeuerung.prioritaeten-setzen"
+   ],
+   "intro": "Links stehen typische Stolpersteine, rechts Strategien aus den Texten oben. Ordne jedem Stolperstein die Strategie zu, die am besten hilft. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Ich sage immer ‹später› – aber wann genau, lege ich nie fest.»"
+     },
+     "rechts": {
+      "text": "Eine Startzeit festlegen: nicht «später», sondern «um 16 Uhr»"
+     }
+    },
+    {
+     "links": {
+      "text": "«Alle paar Minuten schaue ich nach, ob mir jemand geschrieben hat.»"
+     },
+     "rechts": {
+      "text": "Das Handy außer Sichtweite legen, solange ich arbeite"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich will ‹besser werden›, merke aber nie, ob ich es geschafft habe.»"
+     },
+     "rechts": {
+      "text": "Das Ziel konkret, überprüfbar und mit Termin formulieren"
+     }
+    },
+    {
+     "links": {
+      "text": "«Vor dem großen Projekt sitze ich da und weiß nicht, womit ich beginnen soll.»"
+     },
+     "rechts": {
+      "text": "Die Aufgabe in Zwischenziele mit eigenem Datum aufteilen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Wenn mich niemand erinnert, vergesse ich immer irgendetwas.»"
+     },
+     "rechts": {
+      "text": "Eine Liste führen und Erledigtes abhaken"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich erledige zuerst die kleinen, angenehmen Sachen – für das Wichtige bleibt dann keine Zeit.»"
+     },
+     "rechts": {
+      "text": "Prüfen, was wichtig ist, und das Wichtige zuerst machen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich nehme mir fest vor anzufangen – aber kaum bin ich zu Hause, lande ich auf dem Sofa.»"
+     },
+     "rechts": {
+      "text": "Einen Wenn-dann-Plan machen: vorher festlegen, in welcher Situation ich was tue"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-ziel-konkret",
+   "title": "Aus einem Wunsch wird ein Ziel",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.ziele-verfolgen"
+   ],
+   "intro": "Leonie baut ihren Wunsch in ein Ziel um, an dem sie dranbleiben kann. Setze die passenden Begriffe ein. Zwei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Leonie schreibt: «Ich will mehr für Französisch lernen.» Das ist noch ein Wunsch. Ihr neues Ziel soll {{1}} sein – sie weiß genau, was sie tun will: die Wörter der Lektion 4 lernen. Es soll {{2}} sein – am Ende kann sie testen, ob sie es geschafft hat: Sie schreibt alle 40 Wörter ohne Hilfe. Außerdem braucht es einen {{3}}: bis zum Test am nächsten Mittwoch.\nWeil 40 Wörter viel sind, teilt sie die Arbeit in {{4}} auf: jeden Tag zehn Wörter.\nDamit sie wirklich anfängt, macht sie einen {{5}}: «Wenn ich im Bus nach Hause sitze, dann übe ich zehn Minuten mit meinen Wortkarten.»",
+   "luecken": [
+    {
+     "antworten": [
+      "konkret"
+     ]
+    },
+    {
+     "antworten": [
+      "überprüfbar"
+     ]
+    },
+    {
+     "antworten": [
+      "Termin"
+     ]
+    },
+    {
+     "antworten": [
+      "Zwischenziele"
+     ]
+    },
+    {
+     "antworten": [
+      "Wenn-dann-Plan"
+     ]
+    }
+   ],
+   "ablenker": [
+    "dringend",
+    "schnell"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-nachmittag",
+   "title": "Rollenspiel: Der Nachmittag vor der Abgabe",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.entscheidungen-treffen",
+    "uef.selbststeuerung.prioritaeten-setzen"
+   ],
+   "intro": "Mittwoch, halb vier. Morgen um acht musst du dein Plakat für Geografie abgeben – etwa die Hälfte ist fertig, du brauchst noch ungefähr anderthalb Stunden. Da schreibt dir dein Freund Noah. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen. Noah ist eine simulierte Gesprächsfigur, keine echte Person.",
+   "figur": {
+    "name": "Noah (KI-Figur)",
+    "rolle": "Dein Freund aus der Klasse, der dich zu einem Videospiel-Turnier einlädt",
+    "rollenPrompt": "Du bist Noah, 14 Jahre alt, ein guter Freund der Person, mit der du sprichst, und gehst in dieselbe Klasse. Es ist Mittwochnachmittag. Du hast ein neues Fußball-Videospiel und lädst Freunde zu einem Turnier zu dir nach Hause ein; Elias und Mia kommen auch. Du weißt, dass die Person morgen früh ein Plakat für Geografie abgeben muss, findest das aber nicht so dramatisch und versuchst sie freundlich zu überreden, zum Beispiel mit «Alle kommen!» oder «Das machst du schnell heute Abend». Du bist nie gemein, beleidigst nicht, drohst nicht und machst niemanden lächerlich. Wenn die Person ehrlich erklärt, warum sie nicht oder später kommt, und einen Gegenvorschlag macht, reagierst du nach kurzem Zögern verständnisvoll. Wenn sie dich ohne Erklärung abwimmelt, bist du etwas gekränkt, bleibst aber freundlich. Du gibst keine Ratschläge zu Lernstrategien und spielst keine Lehrperson. Du sprichst locker wie ein Jugendlicher, aber ohne Schimpfwörter. Auf Fragen zu dir selbst sagst du offen, dass du eine simulierte Figur und keine echte Person bist. Antworte kurz (1–3 Sätze) und bleib in diesem Gespräch."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Hey! Wir treffen uns gleich bei mir, Elias und Mia kommen auch. Ich hab das neue Fußballspiel – wir machen ein Turnier bis zum Abendessen! Kommst du?",
+     "antworten": [
+      {
+       "text": "Klar, ich bin in zehn Minuten da!",
+       "weiter": "sofort-zusagen"
+      },
+      {
+       "text": "Ich muss noch das Geografie-Plakat fertig machen. Wie lange spielt ihr denn?",
+       "weiter": "nachfragen"
+      },
+      {
+       "text": "Nee, keine Lust.",
+       "weiter": "abwimmeln"
+      }
+     ]
+    },
+    {
+     "id": "sofort-zusagen",
+     "text": "Yes! Und dein Plakat? Ach, das machst du heute Abend, das geht doch schnell.",
+     "antworten": [
+      {
+       "text": "Stimmt, heute Abend reicht locker.",
+       "weiter": "ende-stress"
+      },
+      {
+       "text": "Hm, warte – eigentlich fehlt noch ziemlich viel.",
+       "weiter": "nachfragen"
+      }
+     ]
+    },
+    {
+     "id": "abwimmeln",
+     "text": "Wow, okay … Hab ich was falsch gemacht? Du bist in letzter Zeit nie dabei.",
+     "antworten": [
+      {
+       "text": "Sorry, so war das nicht gemeint. Ich muss bis morgen noch das Geografie-Plakat fertig machen.",
+       "weiter": "nachfragen"
+      },
+      {
+       "text": "Ist halt so.",
+       "weiter": "ende-kuehl"
+      }
+     ]
+    },
+    {
+     "id": "nachfragen",
+     "text": "Ach komm, wir spielen sowieso nur bis etwa sieben. Das Plakat kannst du doch auch morgen früh im Bus fertig machen. Mia hat ihres auch noch nicht. Alle kommen!",
+     "antworten": [
+      {
+       "text": "Ich arbeite jetzt anderthalb Stunden am Plakat und komme danach. Dann bin ich noch zwei Stunden dabei, okay?",
+       "weiter": "kompromiss"
+      },
+      {
+       "text": "Heute nicht, ich will das Plakat in Ruhe fertig machen. Aber hast du am Samstag Zeit? Dann spielen wir richtig lang.",
+       "weiter": "nein-gegenvorschlag"
+      },
+      {
+       "text": "Wenn alle kommen … okay, ich komme mit.",
+       "weiter": "druck-nachgeben"
+      }
+     ]
+    },
+    {
+     "id": "druck-nachgeben",
+     "text": "Super, bis gleich! *Das Turnier macht riesig Spaß, ihr hängt Runde um Runde an. Plötzlich ist es acht Uhr, und Mia packt ihre Sachen.* Eine Runde noch? Nur wir zwei!",
+     "antworten": [
+      {
+       "text": "Klar, eine noch.",
+       "weiter": "ende-stress"
+      },
+      {
+       "text": "Nein, ich gehe jetzt heim und mache das Plakat fertig.",
+       "weiter": "ende-spaet"
+      }
+     ]
+    },
+    {
+     "id": "kompromiss",
+     "text": "Anderthalb Stunden? Dann verpasst du ja das halbe Turnier! Mach doch nur eine halbe Stunde, der Rest geht morgen früh.",
+     "antworten": [
+      {
+       "text": "Nein, ich brauche die Zeit wirklich. Um fünf bin ich bei dir – versprochen.",
+       "weiter": "ende-kompromiss"
+      },
+      {
+       "text": "Na gut, eine halbe Stunde reicht schon irgendwie.",
+       "weiter": "ende-halb"
+      }
+     ]
+    },
+    {
+     "id": "nein-gegenvorschlag",
+     "text": "Samstag? Hm … eigentlich cool, dann kann ich bis dahin üben und dich so richtig schlagen. Aber heute wäre lustiger.",
+     "antworten": [
+      {
+       "text": "Bestimmt! Aber das Plakat zählt für die Note. Samstag, abgemacht?",
+       "weiter": "ende-samstag"
+      },
+      {
+       "text": "Stimmt eigentlich … okay, ich komme doch.",
+       "weiter": "druck-nachgeben"
+      }
+     ]
+    },
+    {
+     "id": "ende-stress",
+     "text": "Bis morgen – war ein super Turnier! *Halb zehn am Abend. Du sitzt vor dem halbfertigen Plakat, die Augen fallen dir fast zu. Am Morgen klebst du im Bus noch die letzten Bilder auf – schief.*",
+     "auswertung": "**Zugesagt – und das Wichtige verdrängt.** Das Turnier war *dringend* (jetzt oder nie!), das Plakat *wichtig*. Dringendes fühlt sich im Moment immer wichtiger an – und «Alle kommen!» oder «Nur noch eine Runde!» machen den Sog noch stärker. Was geholfen hätte: kurz innehalten, die Folgen abwägen («Was heißt das für heute Abend und morgen früh?») und dann einen Kompromiss mit fester Uhrzeit oder einen Gegenvorschlag machen – und dabei bleiben, auch wenn jemand nachhakt. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-spaet",
+     "text": "Okay, schade … bis morgen! *Du kommst um halb neun nach Hause und arbeitest bis nach zehn. Das Plakat wird fertig – aber du bist ziemlich müde.*",
+     "auswertung": "**Spät, aber selbst umgesteuert.** Zuerst hat der Gruppendruck entschieden («Alle kommen!»), dann hast du selbst die Kurve gekriegt und bist bei deiner Entscheidung geblieben, als Noah noch eine Runde wollte – das ist stark. Noch besser wäre es gewesen, **vorher** zu entscheiden: Mit einem Kompromiss («Ich komme um fünf») oder einem Gegenvorschlag hättest du beides gehabt, ohne Abendstress."
+    },
+    {
+     "id": "ende-kompromiss",
+     "text": "Okay, okay – um fünf, aber dann ohne Ausreden! *Um fünf klingelst du bei Noah, das Plakat liegt fertig auf deinem Schreibtisch.* Da bist du ja! Du spielst im Team mit Mia.",
+     "auswertung": "**Kompromiss mit Plan – sehr gut.** Du hast das Wichtige zuerst gemacht und das Treffen trotzdem nicht ganz verpasst. Die feste Uhrzeit («um fünf») ist wie ein Wenn-dann-Plan: Noah weiß, woran er ist, und du weißt, wie viel Zeit du hast. Und als Noah nachgehakt hat, bist du ruhig bei deiner Entscheidung geblieben."
+    },
+    {
+     "id": "ende-halb",
+     "text": "Super, dann bis gleich! *Nach einer halben Stunde gehst du zu Noah. Am nächsten Morgen versuchst du im Bus, das Plakat fertig zu machen – es wird nicht fertig, die Hälfte der Texte fehlt.*",
+     "auswertung": "**Guter Ansatz – unter Druck aufgegeben.** Dein erster Vorschlag war stark: erst arbeiten, dann kommen. Als Noah nachgehakt hat, hast du aber nachgegeben, obwohl du wusstest, dass die Zeit nicht reicht. Zu einer Entscheidung stehen heißt, sie ruhig zu wiederholen: «Ich brauche die Zeit wirklich – um fünf bin ich da.» Freunde verstehen das meistens besser, als man denkt."
+    },
+    {
+     "id": "ende-samstag",
+     "text": "Okay, Samstag, abgemacht. Dann gibt es keine Ausreden! *Du machst das Plakat in Ruhe fertig.*",
+     "auswertung": "**Klares Nein mit Gegenvorschlag – sehr gut.** Du hast Möglichkeiten abgewogen, das Wichtige vorgezogen und deine Entscheidung freundlich vertreten. Der Gegenvorschlag zeigt Noah: «Ich will dich sehen – nur nicht heute.» So bleibt die Freundschaft im Lot, und das Plakat ist fertig."
+    },
+    {
+     "id": "ende-kuehl",
+     "text": "Okay … dann halt nicht. *Noah ist offline. Du arbeitest am Plakat, aber das Gespräch geht dir noch eine Weile durch den Kopf.*",
+     "auswertung": "**Entschieden – aber auf Kosten der Freundschaft.** Inhaltlich war deine Entscheidung richtig: Das Plakat ist wichtig. Aber ohne Begründung und ohne Gegenvorschlag hat Noah nur gehört: «Du bist mir egal.» Ein ehrliches «Heute nicht, weil …» und ein Vorschlag für ein anderes Mal hätten dieselbe Entscheidung viel freundlicher gemacht."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-nachmittag-frage",
+    "type": "single_choice",
+    "prompt": "Noah sagt: «Mia hat ihres auch noch nicht. Alle kommen!» Welches Vorgehen hilft dir in so einem Moment am meisten?",
+    "options": [
+     {
+      "text": "Mitgehen, weil alle gehen – wenn Mia ihres auch noch nicht hat, ist es wohl nicht so schlimm."
+     },
+     {
+      "text": "Kurz abwägen, was wichtig und was nur dringend ist, und dann einen Gegenvorschlag oder eine feste Uhrzeit nennen.",
+      "correct": true
+     },
+     {
+      "text": "Erst einmal mitgehen und schauen, wie lange es dauert – entscheiden kann man später noch."
+     },
+     {
+      "text": "Zusagen und das Plakat morgen früh im Bus fertig machen – eine halbe Stunde reicht bestimmt."
+     }
+    ],
+    "explanation": "«Alle kommen!» ist Gruppendruck: Er macht das Treffen **dringend**, aber nicht wichtiger. Wer kurz die Folgen abwägt und dann selbst entscheidet, kann freundlich bleiben **und** das Wichtige schützen – mit einem Gegenvorschlag («Samstag?») oder einer festen Uhrzeit («Um fünf bin ich da»). «Erst einmal mitgehen» verschiebt die Entscheidung nur – dann entscheidet der Sog des Spiels. Und «morgen früh im Bus» ist genau die Falle, das Wichtige aufzuschieben, bis es zu spät ist."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-eigene-erfahrung",
+   "title": "Deine Erfahrung, dein Plan",
+   "teilkompetenzen": [
+    "uef.selbststeuerung.selbststaendig-arbeiten",
+    "uef.selbststeuerung.ziele-verfolgen"
+   ],
+   "intro": "Bei diesen zwei Aufgaben gibt es keine richtige oder falsche Antwort – es geht um **deine** Erfahrung. Du wählst deine Beispiele selbst, und du musst nichts Privates erzählen, was du nicht erzählen willst. Wenn Cate aktiviert ist, gibt sie dir eine Rückmeldung, wie gut sie deine Gedanken verstanden hat.",
+   "tasks": [
+    {
+     "id": "aufgabe-aufschieben",
+     "prompt": "Denk an eine Aufgabe aus Schule oder Freizeit, die du **aufgeschoben** hast. Beschreibe in 4–6 Sätzen:\n\n1. Um welche Aufgabe ging es?\n2. Warum hast du sie verschoben?\n3. Was hat dir schließlich geholfen anzufangen – oder was hätte dir geholfen? Nenne mindestens eine Strategie aus diesem Modul und erkläre, warum sie in deiner Situation passt.",
+     "hint": "Denk an die Strategien aus dem Text «Selbst anfangen – und selbst entscheiden»: Startzeit festlegen, klein anfangen, Ablenkung weglegen, eine Liste führen. Auch Zwischenziele oder ein Wenn-dann-Plan können passen.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie beschreibt eine konkrete Aufgabe, sodass man sich die Situation vorstellen kann. (2) Sie nennt einen nachvollziehbaren Grund für das Aufschieben, zum Beispiel: Die Aufgabe wirkte zu groß, war unangenehm, das Handy oder etwas anderes war verlockender, es war unklar, wo man anfangen soll. (3) Sie verbindet mindestens eine Strategie aus dem Modul mit genau dieser Situation und begründet, warum sie hilft: feste Startzeit (statt «später»), klein anfangen bzw. ein erster Schritt von fünf Minuten, Ablenkung weglegen, eine Liste mit Abhaken, Zwischenziele, ein Wenn-dann-Plan oder das Wichtige zuerst erledigen, bevor es dringend wird. Ein mögliches Beispiel (eines von vielen – jede Situation aus Schule oder Freizeit ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Ich habe die Zusammenfassung für Biologie bis zum letzten Abend verschoben, weil mir das Kapitel zu lang vorkam. Geholfen hätte, das Kapitel in drei Teile zu teilen und jeden Tag einen zu machen, mit einer festen Startzeit nach dem Training.» Ob die Aufgabe am Ende gelungen ist, ist nicht entscheidend: Ehrliche Selbstbeobachtung ist wertvoller als eine geschönte Geschichte. Private Details sind nicht nötig."
+    },
+    {
+     "id": "aufgabe-mein-plan",
+     "prompt": "Wähle eine echte Aufgabe, die in den nächsten ein bis zwei Wochen ansteht – zum Beispiel einen Test, einen Vortrag, ein Training oder ein eigenes Projekt. Schreibe dazu:\n\n1. dein **Ziel** – konkret, überprüfbar und mit Termin,\n2. mindestens zwei **Zwischenziele** mit Datum,\n3. einen **Wenn-dann-Plan** für den Start («Wenn …, dann …»).",
+     "hint": "Prüfe dein Ziel mit drei Fragen: Weiß ich genau, was ich tun will? Kann ich am Ende sagen, ob ich es geschafft habe? Steht ein Datum dabei?",
+     "solution": "Kriterien für eine gute Antwort: (1) Das Ziel ist konkret (klare Tätigkeit), überprüfbar (man kann am Ende eindeutig sagen, ob es erreicht ist, etwa eine Anzahl oder ein fertiges Produkt) und hat einen Termin. (2) Es gibt mindestens zwei Zwischenziele mit Datum, die zusammen zum Ziel führen und in einer sinnvollen Reihenfolge stehen. (3) Der Wenn-dann-Plan nennt eine konkrete Situation (wann/wo, z. B. «wenn ich nach dem Mittagessen nach Hause komme») und eine konkrete erste Handlung (z. B. «dann lege ich das Handy weg und arbeite 20 Minuten»). Ein mögliches Beispiel (eines von vielen): «Ziel: Ich kann bis zum Mathetest am 28. alle Aufgabentypen der Prozentrechnung ohne Hilfe lösen. Zwischenziele: bis Mittwoch die Aufgaben 1–10 im Arbeitsheft, bis Freitag die Aufgaben 11–20, am Wochenende den Probetest. Wenn-dann-Plan: Wenn ich am Montag um 16 Uhr nach Hause komme, dann setze ich mich zuerst 20 Minuten an die Aufgaben.» Das Thema der Aufgabe ist frei; bewertet werden nur die drei Bausteine, nicht die Ähnlichkeit zum Beispiel."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "Wie weiter?",
+   "body": "Gut gemacht! Eine ehrliche Bemerkung zum Schluss: **Wissen ist nicht Können.** Die Aufgaben in diesem Modul zeigen, ob du Strategien **kennst**. Wie oft du sie im Alltag wirklich **anwendest**, können sie nicht zeigen – das zeigen deine **Einschätzung** oben und, wenn sie dich einschätzt, deine Lehrperson. Darum gilt auch: Wenn in deiner **Kompetenz-Übersicht** auf der Startseite bei diesen Fähigkeiten Punkte stehen, kommen sie aus diesen Aufgaben – sie zeigen, was du weißt, nicht, wie oft du es tust.\n\n- **Probier eine Strategie aus** – zum Beispiel deinen Wenn-dann-Plan aus der letzten Aufgabe.\n- **Wiederhole die Einschätzung oben** nach einigen Wochen. Im **Kompetenz-Netzdiagramm** auf der Startseite siehst du dann, ob sich etwas verändert hat.\n- Den Überblick über alle Bereiche der überfachlichen Kompetenzen findest du im Modul [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

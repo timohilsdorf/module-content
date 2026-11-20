@@ -112,6 +112,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "id": "k5-einstieg",
    "title": "Stell dir vor, du bist 14 – im Jahr 1936",

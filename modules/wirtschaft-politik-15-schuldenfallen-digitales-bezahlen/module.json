@@ -75,6 +75,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "title": "Der verschwundene Schmerz des Bezahlens",
    "body": "Erinnerst du dich, wie es sich anfühlt, eine Fünfzigernote über den Ladentisch zu schieben? Genau dieses leichte Ziehen im Bauch nennt die Forschung den **«Schmerz des Bezahlens»**: Beim Barzahlen **siehst und spürst** du, wie das Geld weggeht – und überlegst automatisch, ob es dir der Kauf wert ist.\n\nBeim digitalen Bezahlen entfällt dieser Schmerz fast vollständig: Karte hinhalten, Handy zücken, «Jetzt kaufen» tippen – kein Geld wechselt sichtbar die Hand. Das ist bequem, hat aber eine Nebenwirkung: **Wer den Schmerz nicht spürt, gibt leichter und schneller Geld aus.** Deshalb lohnt es sich zu wissen, **wann** dein Geld bei welcher Bezahlform wirklich fließt:\n\n- **Debitkarte:** direkt mit deinem Konto verbunden – die Belastung erfolgt **sofort**, und ohne Guthaben gibt es keine Zahlung. Deine Jugendkonto-Karte ist eine Debitkarte.\n- **Bezahl-Apps:** funktionieren wie eine Debitkarte ohne Karte – Belastung **sofort** vom Konto oder von einem aufgeladenen Guthaben. In der Schweiz ist **Twint** weit verbreitet; mit Konten liechtensteinischer Banken funktioniert Twint bisher allerdings nicht – hiesige Banken bieten eigene Bezahl-Apps an, zum Beispiel **LiPay** der Liechtensteinischen Landesbank.\n- **Kreditkarte:** Die Bank streckt dir das Geld vor. Alle Einkäufe des Monats kommen **gesammelt auf eine Rechnung** – bezahlt wird erst Ende Monat. Wer die Rechnung dann nicht vollständig begleicht, zahlt happige Zinsen.\n- **Buy now, pay later (BNPL):** «Kauf jetzt, zahl später» – die Bezahlung erfolgt erst nach 30 Tagen oder **in Raten** über Wochen bis Monate. Dazu gleich mehr, denn hier lauert die aktuellste Falle.\n\nMerke dir das Muster der Grafik: **Je später und unsichtbarer die Belastung, desto schwerer fällt die Kontrolle.**"

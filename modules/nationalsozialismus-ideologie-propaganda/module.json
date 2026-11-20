@@ -108,6 +108,11 @@
  ],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "id": "k4-einstieg",
    "title": "Ein Weltbild, das alles erklärt",

@@ -57,6 +57,11 @@
  "requires": [],
  "blocks": [
   {
+   "type": "einschaetzung",
+   "id": "selbsteinschaetzung",
+   "automatisch": true
+  },
+  {
    "type": "text",
    "title": "Willkommen",
    "body": "Dieses Modul ist eine **lebende Dokumentation** des Content-Formats: Jeder Abschnitt, den du hier siehst, ist ein *Block* in der Datei `modules/demo-blockformat/module.json`.\n\nEin Modul besteht aus:\n\n1. **Metadaten** – Fach, Zyklus, Lernziele, Sprache\n2. **Inhaltsblöcken** – Text, Bild, Schaubild (Diagramm und Handzeichnung), Video, Audio, Aufgaben, Lückentexte, Zuordnung, Zahlenaufgaben, Term-Aufgaben, Achsen-Aufgaben, Simulation, Planspiel\n3. **Quiz-Blöcken** mit automatischer Auswertung (beliebig oft, an beliebiger Position)\n\nMarkdown wird unterstützt: Listen, [Links](https://www.lehrplan21.ch), Tabellen und `Code`."
