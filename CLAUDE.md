@@ -39,6 +39,74 @@ der Plattform liefe dann rot).
 Die Commit-Nachricht e5e69f5 («Gültig/ungültig ändert sich nicht») ist
 in diesem Sinn zu eng gefasst.
 
+## Einschätzungsblock in fachlichen Modulen (20.11.2026)
+
+Der `einschaetzung`-Block kann seine Teilkompetenzen selbst bestimmen:
+`{ "type": "einschaetzung", "id": "selbsteinschaetzung", "automatisch":
+true }` schätzt über genau die Teilkompetenzen ein, die an den AUFGABEN
+des Moduls stehen (Vereinigung ohne Dubletten, Reihenfolge des ersten
+Vorkommens; Kern `wirksameEinschaetzungsKennungen` in der SYNC-Region).
+Optional `ausgeschlossen` (einzelne Kennungen herausnehmen, Register-
+Pflicht) und `kiInterview: false` (Interview unter den Reglern aus;
+Standard: ein). Die explizite Liste bleibt (überfachliche Module).
+
+- **Bestand:** Der Block steht als ERSTER Block in allen 50 Modulen,
+  deren Aufgaben Teilkompetenzen tragen. Ohne ihn sind nur
+  `englisch-cates-first-day` (Aufgaben ohne Teilkompetenzen) und
+  `ueberfachlich-wie-lerne-ich` (keine Aufgaben, sechs explizite
+  Blöcke). Mehr als sechs Teilkompetenzen haben
+  `nationalsozialismus-erinnerung-heute` (15),
+  `wirtschaft-politik-16-repetition-wirtschaft` (11) und
+  `wirtschaft-politik-18-pausenkiosk-finanzberater` (8) – der Player
+  klappt die Regler dort ein.
+- **Der Block trägt bewusst keine Texte** (Standardtitel und -einleitung
+  kommen aus der Oberfläche, de/en). Darum liessen sich die 41
+  englischen Fassungen ohne Schlüssel aus dem Speicher nachführen
+  (`npm run uebersetze -- --sprache en --nur-veraltet`, Stempel
+  `model: "speicher"`). Wer dem Block `title`/`intro` gibt, löst eine
+  echte Übersetzung aus.
+- **Validierung:** `einschaetzungsHinweise` (SYNC-Region, eine Regel mit
+  der Plattform) meldet als HINWEIS, nie als Fehler: Aufgaben mit
+  Teilkompetenzen ohne Einschätzungsblock, leere automatische Liste,
+  wirkungsloser Ausschluss. Nur über Master (`checkModule`).
+  `uebersetzung/test-einschaetzung.ts` beweist die Verdrahtung –
+  bewusst OHNE Pflicht-Prüfung «jedes Modul hat den Block» (ein Test,
+  der daran scheitert, machte den Hinweis zur Pflicht).
+- **ROLLOUT:** Felder in einem bestehenden Blocktyp – die Plattform muss
+  ZUERST deployt sein. Ältere Plattform-Stände lehnen `automatisch` hart
+  ab (der Deploy-Hook-Build liefe rot, die Produktion bliebe auf dem
+  alten Stand).
+- **Gespeicherte Antworten hängen an der Block-POSITION:** 40
+  `tasks`-Blöcke des Bestands haben keine `id`; ihre Antworten liegen
+  unter `~tasks-<Position>`. Die Plattform zählt automatische
+  Einschätzungsblöcke bei dieser Position nicht mit
+  (`lernstandPosition` in deren `src/lib/content/meta.ts`) – nur darum
+  durfte der Block an den Anfang. Für jeden ANDEREN Block gilt: nie vor
+  einem `tasks`-Block ohne `id` einfügen, und einem veröffentlichten
+  `tasks`-Block nie nachträglich eine `id` geben (beides trennt
+  gespeicherte Antworten und bereits eingesammelte Reports von ihrer
+  Aufgabe).
+
+## Modulreihe «Überfachliche Kompetenzen» (Konzept und Pilot, 20.11.2026)
+
+`konzepte/ueberfachliche-modulreihe.md` beschreibt die Reihe: ein
+Lernmodul je Einschätzungsblock des Überblicksmoduls
+`ueberfachlich-wie-lerne-ich` (bleibt als `sequenz` 1 unverändert –
+empfohlener Weg A), Einheit «Überfachliche Kompetenzen». Gebaut ist der
+Pilot `ueberfachlich-selbststeuerung` («Wie ich mein Handeln und Lernen
+steuere», `sequenz` 2): der Einschätzungsblock wörtlich aus dem
+Überblick (gleiche id, gleiche vier Kennungen), drei Theorietexte, Quiz,
+Zuordnung, Lückentext, Simulation mit Abschlussfrage, zwei
+Freitext-Aufgaben, Schlusstext. Die Teilkompetenz-Kennungen ändern sich
+nie (Kennungsschutz). WISSEN IST NICHT KÖNNEN: Aufgabenpunkte auf
+`uef`-Kennungen erscheinen in Kompetenz-Heatmap und Kompetenzprofil,
+gehen aber nicht ins Netzdiagramm ein (Plattform-Regel) – der
+Schlusstext sagt das den Lernenden. LeSiMa-Originalunterlagen liegen im
+Repo nicht vor; die Texte sind eigene Formulierungen. Die englische
+Pilot-Fassung entstand über den Datei-Weg (`--auftrag-datei` /
+`--antworten-datei`); sprachliches Gegenlesen steht aus. Die übrigen
+fünf Module folgen erst nach Freigabe des Konzepts.
+
 ## Prüfläufe (entsprechen `.github/workflows/validate.yml`)
 
 ```bash
@@ -53,6 +121,8 @@ Stand 5.11.2026 in der Cloud (Node 22): alle vier Prüfungen grün
 (52 Module gültig, 22 Unit-Fälle, 42 Fassungen aktuell, 10 ausgenommen);
 am 10.11.2026 mit zod 4.6.7 unter Node 22 und 26 unverändert grün, `npm audit`
 meldet 0.
+Stand 20.11.2026: 53 Module gültig, 46 Unit-Fälle (14 + 22 + 10),
+43 Fassungen aktuell, 10 ausgenommen.
 `npm run uebersetze` braucht `ANTHROPIC_API_KEY` (api.anthropic.com).
 
 ## Konventionen
