@@ -1,0 +1,569 @@
+{
+ "schemaVersion": 3,
+ "id": "ueberfachlich-zusammenarbeit",
+ "title": "Wie ich mit anderen zusammenarbeite",
+ "description": "Wie hörst du zu, wie arbeitest du in einer Gruppe mit, und wie gehst du mit Streit und mit Unterschieden um? Nach einer kurzen Selbsteinschätzung lernst du Werkzeuge für gute Zusammenarbeit kennen – vom aktiven Zuhören über klare Team-Abmachungen bis zur fairen Lösung von Konflikten. Du übst sie im Quiz, beim Zuordnen, in einem Lückentext und in einem Rollenspiel und denkst über deine eigenen Gruppenarbeiten nach.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Miteinander",
+     "description": "Wie verhalte ich mich in der Gemeinschaft?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Dialog- und Kooperationsfähigkeit",
+     "description": "Sich mit Menschen austauschen, zusammenarbeiten."
+    },
+    {
+     "code": "Konfliktfähigkeit",
+     "description": "Konflikte benennen, Lösungsvorschläge suchen, Konflikte lösen."
+    },
+    {
+     "code": "Umgang mit Vielfalt",
+     "description": "Vielfalt als Bereicherung erfahren, Gleichberechtigung mittragen."
+    },
+    {
+     "code": "Sprachfähigkeit",
+     "description": "Ein breites Repertoire sprachlicher Ausdrucksformen entwickeln."
+    }
+   ]
+  }
+ ],
+ "einheit": "Überfachliche Kompetenzen",
+ "sequenz": 6,
+ "language": "de",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Überfachliche Kompetenzen",
+  "Miteinander",
+  "Zusammenarbeit",
+  "Gruppenarbeit",
+  "Zuhören",
+  "Ich-Botschaft",
+  "Konflikte",
+  "Regeln",
+  "Vielfalt",
+  "Selbsteinschätzung"
+ ],
+ "learningObjectives": [
+  "Ich kann aktiv zuhören: ausreden lassen, nachfragen und in eigenen Worten wiedergeben.",
+  "Ich kann mich so ausdrücken, dass andere mich verstehen: kurz, konkret und mit einem Beispiel.",
+  "Ich kann mit meiner Gruppe Rollen, Aufgaben und Regeln abmachen und meinen Teil übernehmen.",
+  "Ich kann einen Konflikt mit einer Ich-Botschaft ansprechen und in vier Schritten eine Lösung suchen.",
+  "Ich kann erklären, wie eine Gruppe die verschiedenen Stärken aller nutzt und niemanden ausschließt."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-zusammenarbeit",
+   "title": "Wie ich mit anderen zusammenarbeite",
+   "intro": "Lernen passiert selten allein. Hier schätzt du ein, wie du dich in der Gruppe verhältst: zuhören, mitarbeiten, Regeln einhalten, Konflikte ansprechen und alle respektieren.",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.verstaendlich-kommunizieren",
+    "uef.zusammenarbeit.regeln-einhalten",
+    "uef.zusammenarbeit.konflikte-loesen",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-zuhoeren",
+   "title": "Zuhören und verständlich reden",
+   "body": "Gruppenarbeit in Geografie: Amira erklärt ihre Idee für das Plakat. Tim nickt – und denkt dabei schon daran, was er gleich selbst sagen will. Am Ende hat er nur die Hälfte mitbekommen.\n\nGute Zusammenarbeit beginnt mit **aktivem Zuhören**. Das geht in drei Schritten:\n\n1. **Ausreden lassen:** Du unterbrichst nicht und überlegst erst danach, was du antwortest. Fällt dir dabei etwas Wichtiges ein, notierst du es kurz.\n2. **Nachfragen:** Wenn etwas unklar ist, fragst du: «Wie meinst du das genau?»\n3. **In eigenen Worten wiedergeben:** «Du meinst also, wir fangen mit der Karte an?» So merkt ihr beide sofort, ob du richtig verstanden hast.\n\nEin zweites Werkzeug ist die **Perspektivwechsel-Frage**: «Wie sieht die Situation aus der Sicht der anderen Person aus?» Wer still oder gereizt ist, hat oft einen Grund, den du nicht siehst. Nimm es darum nicht gleich persönlich, sondern frag freundlich nach.\n\nUnd wenn du selbst sprichst? Dann hilft **verständlich reden**: kurz, konkret und mit einem Beispiel. Statt «Wir machen das irgendwie mit Bildern» sagst du: «Ich schlage drei Fotos vor, eines für jeden Abschnitt.» Zum Schluss fragst du: «Ist das klar?»\n\nKurz gesagt: **Erst verstehen, dann verstanden werden.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-team",
+   "title": "Gemeinsam statt nebeneinander",
+   "body": "Vier Personen, ein Plakat – und am Tag vor der Abgabe stellt sich heraus: Zwei haben dasselbe gemacht, und ein Teil fehlt ganz. Das passiert, wenn eine Gruppe nebeneinander statt miteinander arbeitet.\n\nDagegen hilft eine **Team-Abmachung** gleich zu Beginn:\n\n- **Rollen verteilen:** zum Beispiel Zeitwächterin, Schreiber oder Materialverantwortliche.\n- **Aufgaben festhalten:** **wer – was – bis wann**. So weiß jede und jeder, was zu tun ist.\n- **Regeln vereinbaren:** zum Beispiel «Wer nicht weiterkommt, meldet sich spätestens am Vortag» oder «Niemand wird ausgelacht».\n\n**Deinen Teil übernehmen** heißt auch: rechtzeitig **melden**, wenn du nicht weiterkommst. Schweigen schadet der Gruppe mehr als eine Frage. Regeln gelten für alle. Passt eine Regel nicht mehr, ändert ihr sie **gemeinsam**, statt sie still zu brechen.\n\nZu einer guten Gruppe gehört außerdem, **alle einzubeziehen**. In jeder Gruppe stecken verschiedene Stärken: zeichnen, rechnen, Sprachen, Ideen, Ordnung. Verteilt die Aufgaben so, dass alle mitmachen können – auch wer lieber zeichnet als schreibt, wer neu in der Klasse ist oder wer noch nicht gut Deutsch spricht.\n\nDarum: **Klar abgemacht ist halb gemacht – und alle gehören dazu.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-konflikte",
+   "title": "Konflikte fair lösen",
+   "body": "Im Gruppenchat schreibt Zoe: «Typisch, Luca macht mal wieder nichts!» Luca antwortet nicht mehr. Aus einem Problem ist ein Streit geworden.\n\nKonflikte gehören zum Zusammenarbeiten dazu. Schwierig wird es, wenn man sie **verschweigt** oder mit **Vorwürfen** führt. Wer wartet, bis ein Streit von selbst vorbei ist, lässt ihn meistens größer werden. Besser geht es mit dem Werkzeug **Konflikt in vier Schritten**:\n\n1. **Ansprechen mit einer Ich-Botschaft:** Sag, was dich stört und was du dir wünschst. «Ich mache mir Sorgen, weil dein Teil fehlt und übermorgen Abgabe ist. Ich wünsche mir, dass wir eine Lösung finden.» Ein Du-Vorwurf wie «Du bist so unzuverlässig!» macht das Gespräch dagegen zu.\n2. **Zuhören:** Frag nach der Sicht der anderen Person – vielleicht gibt es einen Grund, den du nicht kennst.\n3. **Lösungen sammeln:** mehrere Möglichkeiten, nicht nur deine eigene.\n4. **Abmachen:** Wählt eine Lösung, mit der alle leben können, und haltet fest: wer – was – bis wann.\n\nZu einem fairen Umgang gehört **Respekt**: Ihr redet über **Verhalten**, nie über Herkunft, Aussehen, Sprache oder Akzent einer Person. Macht jemand einen abwertenden Witz, darfst du das ruhig ansprechen: «Das finde ich nicht lustig.»\n\nDas Wichtigste: **Sag, was dich stört – und such die Lösung gemeinsam.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-fair-im-team",
+   "title": "Quiz: Fair im Team",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.regeln-einhalten",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ],
+   "intro": "Fünf Situationen aus dem Schulalltag. Wähle jeweils die Antwort, die am besten zu den Werkzeugen von oben passt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Eure Gruppe hat abgemacht: Alle schicken ihren Teil bis Donnerstagabend. Am Mittwoch merkst du, dass du es nicht schaffst. Was tust du?",
+     "options": [
+      {
+       "text": "Nichts sagen und hoffen, dass es bis Donnerstag niemand merkt."
+      },
+      {
+       "text": "Der Gruppe sofort Bescheid geben und sagen, bis wann du es schaffst.",
+       "correct": true
+      },
+      {
+       "text": "Den Teil einfach am Freitag schicken – ein Tag später ist doch egal."
+      },
+      {
+       "text": "Die Abmachung für dich allein ändern – du weißt ja, warum."
+      }
+     ],
+     "explanation": "**Melden statt schweigen:** Wer der Gruppe früh Bescheid gibt und einen neuen Termin nennt, nimmt die Abmachung ernst – auch wenn er sie nicht einhalten kann. Dann kann die Gruppe reagieren. Hoffen, dass es niemand merkt, verschiebt das Problem nur auf den Donnerstagabend. «Ein Tag später ist egal» stimmt nicht, denn die anderen planen mit deinem Teil. Und eine Abmachung gilt für alle – ändern kann sie nur die Gruppe gemeinsam."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Eine neue Mitschülerin lernt erst seit Kurzem Deutsch. Bei der Gruppeneinteilung sagt jemand: «Mit ihr wird das nichts.» Was ist fair?",
+     "options": [
+      {
+       "text": "Nichts sagen – wer in welche Gruppe kommt, ist schließlich nicht dein Problem."
+      },
+      {
+       "text": "Ihr eine eigene Gruppe mit den anderen Neuen in der Klasse geben."
+      },
+      {
+       "text": "Sie in die Gruppe aufnehmen, ihr aber keine richtige Aufgabe geben."
+      },
+      {
+       "text": "Sie einladen und eine Aufgabe finden, bei der sie ihre Stärken einbringt.",
+       "correct": true
+      }
+     ],
+     "explanation": "**Alle einbeziehen** heißt: Jede Person bekommt eine Aufgabe, bei der sie mitmachen und ihre Stärken zeigen kann – zum Beispiel zeichnen, rechnen oder Ideen sammeln. Wer nichts sagt, lässt den abwertenden Satz stehen – und niemand lädt sie ein. Eine eigene Gruppe für «die Neuen» trennt die Klasse, statt sie zusammenzubringen. Und wer zwar in der Gruppe ist, aber nichts Richtiges tun darf, ist nur scheinbar dabei."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "In der Klasse gilt die Regel: Wer spricht, wird nicht unterbrochen. Dir kommt eine gute Idee, während jemand anderes noch redet. Was tust du?",
+     "options": [
+      {
+       "text": "Die Idee kurz notieren und warten, bis du an der Reihe bist.",
+       "correct": true
+      },
+      {
+       "text": "Sofort reinrufen – sonst vergisst du die gute Idee wieder."
+      },
+      {
+       "text": "Die Idee lieber für dich behalten, um niemanden zu stören."
+      },
+      {
+       "text": "Der Person zuflüstern, sie soll sich mit dem Reden beeilen."
+      }
+     ],
+     "explanation": "**Notieren und warten** verbindet beides: Du **hältst die Regel ein** und verlierst deine Idee trotzdem nicht. Reinrufen bricht die Abmachung, und die andere Person kann nicht ausreden. Die Idee ganz für dich zu behalten, ist schade – die Gruppe braucht gute Ideen. Und wer zum Beeilen drängt, unterbricht ebenfalls, nur leiser."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "In der Gruppe macht jemand einen Witz über den Akzent eines Mitschülers. Einige lachen. Was passt am besten?",
+     "options": [
+      {
+       "text": "Mitlachen, damit du nicht auffällst – die anderen lachen ja auch."
+      },
+      {
+       "text": "Die Person vor der ganzen Gruppe laut anschreien und bloßstellen."
+      },
+      {
+       "text": "Ruhig sagen, dass du das nicht lustig findest, und beim Thema weitermachen.",
+       "correct": true
+      },
+      {
+       "text": "Nichts tun – es war ja nur Spaß, und er hat es vielleicht gar nicht gehört."
+      }
+     ],
+     "explanation": "**Respekt** heißt: Über Herkunft, Sprache oder Akzent einer Person macht man sich nicht lustig. Wer **ruhig anspricht**, dass er den Witz nicht lustig findet, zeigt das, ohne jemanden bloßzustellen – und die Gruppe kann weiterarbeiten. Mitlachen macht dich zum Teil des Witzes. Anschreien verwandelt das Problem in einen neuen Streit. Und «nur Spaß» ist es für den Betroffenen oft nicht, auch wenn er nichts sagt. Hört so etwas nicht auf oder trifft es jemanden hart, ist es richtig, eine Lehrperson einzubeziehen."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Eure Gruppe hat abgemacht, beim Arbeiten keine Handys zu benutzen. Ein Gruppenmitglied hält sich nie daran. Was ist der beste Weg?",
+     "options": [
+      {
+       "text": "Ab jetzt auch das Handy benutzen – die Regel gilt ja offenbar nicht mehr."
+      },
+      {
+       "text": "Es heimlich der Lehrperson erzählen und abwarten, was passiert."
+      },
+      {
+       "text": "Nichts sagen, aber sich jedes Mal still über die Person ärgern."
+      },
+      {
+       "text": "Die Abmachung freundlich ansprechen und gemeinsam klären, ob sie noch passt.",
+       "correct": true
+      }
+     ],
+     "explanation": "Regeln gelten für alle – passt eine nicht mehr, wird sie **gemeinsam geändert**, nicht still gebrochen. Darum hilft es, die **Abmachung freundlich anzusprechen** und zusammen zu klären, ob sie bleibt. Wer selbst auch zum Handy greift, schafft die Regel ganz ab. Die Lehrperson heimlich einzuschalten, bevor ihr es in der Gruppe versucht habt, löst das Problem nicht. Und stiller Ärger wächst, ohne dass sich etwas ändert."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-gespraechsfallen",
+   "title": "Gesprächsfallen und bessere Wege",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.verstaendlich-kommunizieren",
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.konflikte-loesen"
+   ],
+   "intro": "Links stehen typische Stolpersteine, rechts Werkzeuge aus den Texten oben. Ordne jedem Stolperstein das Werkzeug zu, das am besten hilft. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Wenn mich etwas stört, sage ich sofort: ‹Du machst immer alles falsch!›»"
+     },
+     "rechts": {
+      "text": "Statt eines Vorwurfs eine Ich-Botschaft: sagen, was mich stört und was ich mir wünsche"
+     }
+    },
+    {
+     "links": {
+      "text": "«Während die anderen reden, überlege ich schon, was ich sagen will.»"
+     },
+     "rechts": {
+      "text": "Ausreden lassen und erst danach überlegen, was ich antworte"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich erkläre meine Idee – und alle schauen mich verwirrt an.»"
+     },
+     "rechts": {
+      "text": "Kurz und konkret sprechen und ein Beispiel geben"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich bin nicht sicher, ob ich richtig verstanden habe, was Zoe meint.»"
+     },
+     "rechts": {
+      "text": "In eigenen Worten wiedergeben: «Du meinst also …?»"
+     }
+    },
+    {
+     "links": {
+      "text": "«Mein Teampartner ist heute still und gereizt – ich beziehe das sofort auf mich.»"
+     },
+     "rechts": {
+      "text": "Mich fragen, wie es aus seiner Sicht aussieht, statt es persönlich zu nehmen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Bei einem Streit will ich unbedingt, dass meine Lösung gewinnt.»"
+     },
+     "rechts": {
+      "text": "Zuerst mehrere Lösungen sammeln und eine wählen, mit der alle leben können"
+     }
+    },
+    {
+     "links": {
+      "text": "«Wenn es in der Gruppe Streit gibt, schweige ich und warte, bis es vorbei ist.»"
+     },
+     "rechts": {
+      "text": "Den Streit ansprechen, statt zu warten, bis er von selbst vorbei ist"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-team-abmachung",
+   "title": "Die Team-Abmachung",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.regeln-einhalten"
+   ],
+   "intro": "Sara, Jakob, Amira und Tim bereiten eine Präsentation vor. Setze die passenden Begriffe ein. Zwei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Sara, Jakob, Amira und Tim bereiten eine Präsentation über erneuerbare Energie vor. Zuerst verteilen sie {{1}}: Amira ist Zeitwächterin, Jakob schreibt alles auf. Dann teilen sie die Arbeit auf und halten zu jeder Aufgabe fest: wer, was und {{2}}.\nAußerdem vereinbaren sie zwei {{3}}: Wer nicht weiterkommt, meldet sich spätestens am Vortag, und in der Gruppe wird niemand ausgelacht.\nAls Tim merkt, dass er seine Grafik nicht rechtzeitig schafft, {{4}} er sich sofort bei den anderen. Am Ende haben alle ihren {{5}} übernommen, und die Präsentation passt zusammen.",
+   "luecken": [
+    {
+     "antworten": [
+      "Rollen"
+     ]
+    },
+    {
+     "antworten": [
+      "bis wann"
+     ]
+    },
+    {
+     "antworten": [
+      "Regeln"
+     ]
+    },
+    {
+     "antworten": [
+      "meldet"
+     ]
+    },
+    {
+     "antworten": [
+      "Teil"
+     ]
+    }
+   ],
+   "ablenker": [
+    "Pausen",
+    "wartet"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-fehlender-teil",
+   "title": "Rollenspiel: Der fehlende Teil",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.konflikte-loesen",
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.verstaendlich-kommunizieren"
+   ],
+   "intro": "Montag, große Pause. Am Mittwoch gebt ihr euer Gruppenplakat über den Wasserverbrauch ab. Du, Zoe und Luca habt die Arbeit aufgeteilt; Luca sollte die Grafik machen – sie fehlt noch. Im Gruppenchat hat Zoe gestern geschrieben: «Typisch, Luca macht mal wieder nichts!» Jetzt triffst du Luca auf dem Gang. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen. Luca ist eine simulierte Gesprächsfigur, keine echte Person.",
+   "figur": {
+    "name": "Luca (KI-Figur)",
+    "rolle": "Dein Gruppenmitglied, dessen Teil des Plakats noch fehlt",
+    "rollenPrompt": "Du bist Luca, 14 Jahre alt, und gehst in dieselbe Klasse wie die Person, mit der du sprichst. Ihr macht zu dritt mit Zoe ein Gruppenplakat über den Wasserverbrauch, Abgabe ist am Mittwoch. Deine Aufgabe ist die Grafik, und sie fehlt noch. Du hast sie nicht vergessen: Im Unterricht hast du nicht verstanden, wie man aus der Tabelle eine Grafik macht, und dich nicht getraut zu fragen. Zoes Nachricht im Gruppenchat («Typisch, Luca macht mal wieder nichts!») hat dich verunsichert. Auf Vorwürfe reagierst du zuerst verteidigend; wenn die Person ruhig sagt, was sie stört, und nachfragt, wirst du offen und erzählst, woran es hängt. Du schlägst selbst vor, dass dir jemand kurz zeigt, wie das mit der Tabelle geht, und dass ihr Zoe Bescheid gebt. Du nennst keine privaten oder familiären Gründe. Du bist nie gemein, beleidigst nicht, drohst nicht und machst niemanden lächerlich. Du gibst keine Ratschläge zur Konfliktlösung und spielst keine Lehrperson. Du sprichst nicht über Familie, Gesundheit oder Privates; wenn jemand danach fragt, lenkst du freundlich auf das Plakat zurück. Du sprichst locker wie ein Jugendlicher, aber ohne Schimpfwörter. Auf Fragen zu dir selbst sagst du offen, dass du eine simulierte Figur und keine echte Person bist. Antworte kurz (1–3 Sätze) und bleib in diesem Gespräch."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Hey … du schaust so ernst. Geht's ums Plakat?",
+     "antworten": [
+      {
+       "text": "Ja. Deine Grafik fehlt noch, und das macht mir Sorgen, weil am Mittwoch Abgabe ist. Ich wünsche mir, dass wir das zusammen hinkriegen.",
+       "weiter": "ich-botschaft"
+      },
+      {
+       "text": "Du bist so unzuverlässig! Wegen dir bekommen wir eine schlechte Bewertung.",
+       "weiter": "vorwurf"
+      },
+      {
+       "text": "Nein, nein, alles gut.",
+       "weiter": "ausweichen"
+      }
+     ]
+    },
+    {
+     "id": "vorwurf",
+     "text": "Ach so? Ihr habt mich nicht mal gefragt, ob ich das überhaupt kann!",
+     "antworten": [
+      {
+       "text": "Moment – das wusste ich nicht. Was meinst du damit?",
+       "weiter": "zuhoeren"
+      },
+      {
+       "text": "Ausreden! Zoe findet das auch.",
+       "weiter": "ende-eskaliert"
+      }
+     ]
+    },
+    {
+     "id": "ausweichen",
+     "text": "Okay … Zoe hat im Chat geschrieben, dass ich nichts mache. Ist das wegen mir?",
+     "antworten": [
+      {
+       "text": "Ehrlich gesagt ja. Deine Grafik fehlt noch, und wir machen uns Sorgen wegen der Abgabe. Was ist los?",
+       "weiter": "zuhoeren"
+      },
+      {
+       "text": "Keine Ahnung, frag Zoe.",
+       "weiter": "ende-ausgewichen"
+      }
+     ]
+    },
+    {
+     "id": "ich-botschaft",
+     "text": "Ja … sorry. Ich hab's nicht vergessen. Ich hab nur nicht gecheckt, wie ich aus der Tabelle eine Grafik mache. Ich wollte nicht dumm fragen.",
+     "antworten": [
+      {
+       "text": "Ah. Du wusstest also nicht, wie du anfangen sollst, und hast dich nicht getraut zu fragen?",
+       "weiter": "verstanden"
+      },
+      {
+       "text": "Hättest du halt früher etwas gesagt.",
+       "weiter": "rechtfertigen"
+      }
+     ]
+    },
+    {
+     "id": "zuhoeren",
+     "text": "In der Stunde ging das mit den Grafiken so schnell. Ich hab nicht gecheckt, wie das geht. Ich wollte nicht dumm fragen.",
+     "antworten": [
+      {
+       "text": "Ah. Du wusstest also nicht, wie du anfangen sollst, und hast dich nicht getraut zu fragen?",
+       "weiter": "verstanden"
+      },
+      {
+       "text": "Hättest du halt früher etwas gesagt.",
+       "weiter": "rechtfertigen"
+      }
+     ]
+    },
+    {
+     "id": "rechtfertigen",
+     "text": "Ja, ich weiß … Es war mir peinlich. Jetzt ist es eh zu spät, oder?",
+     "antworten": [
+      {
+       "text": "Nein, zu spät ist es nicht. Lass uns überlegen, wie wir es bis Mittwoch schaffen.",
+       "weiter": "loesungen"
+      },
+      {
+       "text": "Ja. Ich mache deinen Teil heute Abend selbst.",
+       "weiter": "ende-uebernommen"
+      }
+     ]
+    },
+    {
+     "id": "verstanden",
+     "text": "Genau. Und jetzt denke ich, dass ihr alle sauer auf mich seid.",
+     "antworten": [
+      {
+       "text": "Wir waren gestresst, ja. Aber suchen wir lieber eine Lösung. Was bräuchtest du, damit du es schaffst?",
+       "weiter": "loesungen"
+      },
+      {
+       "text": "Weißt du was, ich mache die Grafik, und du schreibst dafür meinen Text.",
+       "weiter": "ende-getauscht"
+      }
+     ]
+    },
+    {
+     "id": "loesungen",
+     "text": "Wenn mir jemand kurz zeigt, wie das mit der Tabelle geht, mache ich die Grafik heute noch. Und Zoe sollten wir Bescheid geben, oder?",
+     "antworten": [
+      {
+       "text": "Ich zeig's dir in der Mittagspause. Danach schreiben wir zusammen in den Chat, was abgemacht ist: Grafik bis Dienstagabend.",
+       "weiter": "ende-geloest"
+      },
+      {
+       "text": "Okay. Aber ich glaube es erst, wenn ich die Grafik sehe – sonst gehe ich sofort zur Lehrperson.",
+       "weiter": "ende-drohung"
+      }
+     ]
+    },
+    {
+     "id": "ende-geloest",
+     "text": "Danke, echt. *Ihr setzt euch in der Mittagspause zusammen, und Luca versteht schnell, wie es geht. Am Dienstagabend ist die Grafik im Gruppenchat. Zoe schreibt: «Sieht gut aus!»*",
+     "auswertung": "**Zugehört und gemeinsam gelöst – sehr gut.** Du hast Lucas Grund erfahren und mit ihm eine Lösung gesucht. Ihr habt klar abgemacht, **wer – was – bis wann**: Du zeigst ihm, wie er aus der Tabelle eine Grafik macht, und er macht sie bis Dienstagabend. Und ihr habt Zoe einbezogen, statt über sie hinweg zu entscheiden. Falls du mit einem Vorwurf begonnen hast, zuerst ausgewichen bist oder mit «Hättest du halt früher etwas gesagt» geantwortet hast: Gut, dass du umgeschwenkt bist – eine **Ich-Botschaft** am Anfang und ein «Du meinst also …?» sparen diesen Umweg."
+    },
+    {
+     "id": "ende-getauscht",
+     "text": "Oh, gern! *Ihr tauscht. Die Grafik wird fertig, nur weiß Luca weiterhin nicht, wie man eine macht, und Zoe erfährt erst am Mittwoch von dem Tausch.*",
+     "auswertung": "**Gelöst – aber ohne alle mitzunehmen.** Du hast zugehört, Lucas Grund in eigenen Worten wiedergegeben und schnell eine Lösung gefunden – das ist schon viel. Aber du hast sie allein bestimmt: Lucas eigene Idee hast du nicht abgewartet, und Zoe wusste von nichts. Wer **gemeinsam Lösungen sammelt** und die Abmachung allen mitteilt, hilft der ganzen Gruppe – und Luca hätte dabei gelernt, wie man eine Grafik macht. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-uebernommen",
+     "text": "Okay … danke. *Du sitzt bis spät an der Grafik. Luca fühlt sich schlecht, und Zoe ist noch immer sauer auf ihn.*",
+     "auswertung": "**Hilfsbereit – aber das Problem nicht gelöst.** Den Teil allein zu übernehmen klingt großzügig, überlastet aber dich. Luca lernt nicht, wie es geht, und Zoe weiß nicht, was los ist. Besser ist es, zu fragen, was er bräuchte, um es selbst zu schaffen, und dann **gemeinsam abzumachen**, wer was bis wann erledigt. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-drohung",
+     "text": "Okay … *Luca macht die Grafik, aber im Gruppenchat ist die Stimmung angespannt.*",
+     "auswertung": "**Lösung gefunden – mit Druck verdorben.** Ihr wart schon fast am Ziel: Lucas Grund war klar, und er hatte selbst einen Vorschlag gemacht. Eine Lehrperson einzubeziehen ist gut, wenn ihr allein nicht weiterkommt – als Drohung eingesetzt, macht es aus der Abmachung aber einen neuen Konflikt, und das Vertrauen ist weg. Eine klare Abmachung mit **wer – was – bis wann** braucht keine Drohung – sie braucht nur ein gemeinsames Ja. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-eskaliert",
+     "text": "Super, jetzt seid ihr beide gegen mich. *Luca geht weg. Bis Mittwoch redet ihr nicht mehr miteinander.*",
+     "auswertung": "**Vorwurf statt Ich-Botschaft.** «Du bist so unzuverlässig!» und «Zoe findet das auch» machen aus einem Problem einen Streit – zwei gegen einen. Lucas Grund hast du so nie erfahren, und die Grafik fehlt immer noch. Mit einer **Ich-Botschaft** («Ich mache mir Sorgen, weil …») und einer ehrlichen Nachfrage wäre das Gespräch offen geblieben. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-ausgewichen",
+     "text": "Okay … *Am Dienstag fehlt die Grafik immer noch.*",
+     "auswertung": "**Konflikt vermieden – Problem bleibt.** Wer einen Konflikt nicht anspricht, löst ihn nicht. Luca hat dir sogar eine Tür geöffnet, als er nach Zoes Nachricht gefragt hat. Ein ehrliches Ansprechen, **bevor** es größer wird, hätte Zeit für eine Lösung gelassen. Probier im Rollenspiel einen anderen Weg aus."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-fehlender-teil-frage",
+    "type": "single_choice",
+    "prompt": "Luca sagt: «Ich wollte nicht dumm fragen.» Welches Vorgehen hilft in so einem Moment am meisten?",
+    "options": [
+     {
+      "text": "Ihm deutlich sagen, dass das keine Entschuldigung ist – die Abgabe ist schließlich am Mittwoch."
+     },
+     {
+      "text": "Wiedergeben, was du verstanden hast, und gemeinsam eine Lösung mit klarer Abmachung suchen.",
+      "correct": true
+     },
+     {
+      "text": "Seinen Teil heute Abend selbst übernehmen, damit es in der Gruppe keinen Ärger gibt."
+     },
+     {
+      "text": "Die Sache der Lehrperson überlassen – sie soll entscheiden, wie es mit Luca weitergeht."
+     }
+    ],
+    "explanation": "Mit «Ich wollte nicht dumm fragen» sagt Luca, woran es wirklich hängt. Jetzt hilft **aktives Zuhören**: in eigenen Worten wiedergeben, was du verstanden hast. Danach **sammelt ihr Lösungen und macht ab**, wer was bis wann erledigt. Ein Vorwurf beendet das Gespräch genau dann, wenn Luca sich öffnet. Seinen Teil allein zu übernehmen, löst das Problem nicht – Luca lernt nichts dabei. Und die Lehrperson braucht es erst, wenn ihr selbst nicht weiterkommt."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-zusammenarbeit",
+   "title": "Deine Gruppenarbeit, dein Plan",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ],
+   "intro": "Bei diesen zwei Aufgaben gibt es keine richtige oder falsche Antwort – es geht um **deine** Erfahrung. Du wählst deine Beispiele selbst, und du musst nichts Privates erzählen, was du nicht erzählen willst. Wenn Cate aktiviert ist, gibt sie dir eine Rückmeldung, wie gut sie deine Gedanken verstanden hat. **Nenne keine Namen von Mitschülerinnen und Mitschülern** – beschreibe nur, was passiert ist und was du getan hast.",
+   "tasks": [
+    {
+     "id": "aufgabe-gruppenarbeit",
+     "prompt": "Denk an eine **Gruppenarbeit** in der Schule. Beschreibe in 4–6 Sätzen:\n\n1. Was hat gut geklappt, was nicht?\n2. Welche Aufgabe oder Rolle hattest du, und wie hast du deinen Teil übernommen?\n3. Welche Abmachung hätte eurer Gruppe geholfen? Erkläre, warum sie genau das Schwierige verhindert hätte.",
+     "hint": "Denk an die Werkzeuge aus dem Text «Gemeinsam statt nebeneinander»: Rollen verteilen, Aufgaben mit wer – was – bis wann festhalten, gemeinsame Regeln vereinbaren und rechtzeitig melden, wenn man nicht weiterkommt.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie beschreibt eine konkrete Gruppenarbeit mit mindestens einer Sache, die gut geklappt hat, und einer, die schwierig war. (2) Sie beschreibt ehrlich die eigene Rolle oder Aufgabe und den eigenen Beitrag – auch, wenn dabei nicht alles gelungen ist. (3) Sie nennt eine passende Abmachung aus dem Modul (Rollen verteilen, wer – was – bis wann festhalten, eine gemeinsame Regel, rechtzeitig melden) und erklärt, wie sie genau das Schwierige verhindert hätte. Ein mögliches Beispiel (eines von vielen – jede Situation aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Bei unserer Präsentation über Vulkane waren die Folien schön, aber zwei von uns hatten dasselbe Kapitel vorbereitet. Ich war für die Bilder zuständig und habe sie pünktlich geschickt, aber nicht nachgefragt, was die anderen machen. Geholfen hätte, gleich am Anfang festzuhalten, wer was bis wann macht – dann hätten wir die Doppelarbeit sofort gesehen.» Ehrliche Selbstbeobachtung ist wertvoller als eine geschönte Geschichte. Namen und Schuldzuweisungen sind nicht nötig, private Details auch nicht."
+    },
+    {
+     "id": "aufgabe-alle-dabei",
+     "prompt": "Plane die nächste Gruppenarbeit so, dass **alle** mitmachen können. Beschreibe in 4–6 Sätzen:\n\n1. Welche verschiedenen Stärken könnten in einer Gruppe stecken?\n2. Wie verteilt ihr die Aufgaben, damit niemand ausgeschlossen wird?\n3. Welche Regel für einen respektvollen Umgang schlägst du vor?",
+     "hint": "Denk an «alle einbeziehen» aus dem Text «Gemeinsam statt nebeneinander» und an den Respekt aus «Konflikte fair lösen»: Ihr redet über Verhalten, nicht über Herkunft, Aussehen oder Sprache.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie nennt mindestens drei verschiedene Stärken, die in einer Gruppe stecken können (zum Beispiel zeichnen, rechnen, gut erklären, Ideen haben, Ordnung halten, Sprachen sprechen). (2) Sie beschreibt eine konkrete Aufgabenverteilung, die diese verschiedenen Stärken nutzt und ausdrücklich darauf achtet, dass niemand ausgeschlossen wird oder nur zuschaut. (3) Sie schlägt eine klar formulierte Regel für einen respektvollen Umgang vor, die man im Alltag einhalten kann. Ein mögliches Beispiel (eines von vielen – jede Situation aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «In einer Gruppe kann eine Person gut zeichnen, eine gut rechnen und eine gut vortragen. Für ein Plakat über Energie würde ich die Aufgaben so verteilen: Wer gut zeichnet, macht die Bilder, wer gut rechnet, die Grafik, und wer gern spricht, übt den Vortrag – und am Anfang fragen wir alle, was sie gern übernehmen möchten. Unsere Regel: Wer etwas nicht versteht, darf jederzeit fragen, und niemand wird ausgelacht.» Namen von Mitschülerinnen und Mitschülern sind nicht nötig, private Details auch nicht."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "Wie weiter?",
+   "body": "Gut gemacht! Du hast Werkzeuge geübt, mit denen eine Gruppe gut zusammenarbeitet: zuhören, klar abmachen, Konflikte fair lösen und alle einbeziehen.\n\n- **Probier ein Werkzeug aus** – zum Beispiel die Team-Abmachung zu Beginn deiner nächsten Gruppenarbeit.\n- **Wiederhole die Einschätzung oben** nach einigen Wochen. Im **Kompetenz-Netzdiagramm** auf der Startseite siehst du dann, ob sich etwas verändert hat.\n- Den Überblick über alle Bereiche der überfachlichen Kompetenzen findest du im Modul [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

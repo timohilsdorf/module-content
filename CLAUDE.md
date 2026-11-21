@@ -50,14 +50,14 @@ Optional `ausgeschlossen` (einzelne Kennungen herausnehmen, Register-
 Pflicht) und `kiInterview: false` (Interview unter den Reglern aus;
 Standard: ein). Die explizite Liste bleibt (überfachliche Module).
 
-- **Bestand:** Der automatische Block steht als ERSTER Block in allen
-  50 fachlichen Modulen, deren Aufgaben Teilkompetenzen tragen. Der
-  überfachliche Pilot `ueberfachlich-selbststeuerung` (auch seine
-  Aufgaben tragen Teilkompetenzen) hat an dieser Stelle den expliziten
-  Block aus dem Überblick. Ganz ohne Einschätzungsblock bleibt nur
-  `englisch-cates-first-day` (Aufgaben ohne Teilkompetenzen);
-  `ueberfachlich-wie-lerne-ich` hat keine Aufgaben und sechs explizite
-  Blöcke. Mehr als sechs Teilkompetenzen haben
+- **Bestand (21.11.2026):** Der automatische Block steht als ERSTER
+  Block in allen 51 fachlichen Modulen – seit 21.11.2026 auch in
+  `englisch-cates-first-day`, dessen Aufgaben bis dahin keine
+  Teilkompetenzen trugen (darum blieb der Block dort unsichtbar). Die
+  sechs Lernmodule der überfachlichen Reihe haben an dieser Stelle den
+  expliziten Block aus dem Überblick; `ueberfachlich-wie-lerne-ich` hat
+  keine Aufgaben und sechs explizite Blöcke. Kein Modul ist mehr ohne
+  Einschätzungsblock. Mehr als sechs Teilkompetenzen haben
   `nationalsozialismus-erinnerung-heute` (15),
   `wirtschaft-politik-16-repetition-wirtschaft` (11) und
   `wirtschaft-politik-18-pausenkiosk-finanzberater` (8) – der Player
@@ -90,26 +90,74 @@ Standard: ein). Die explizite Liste bleibt (überfachliche Module).
   gespeicherte Antworten und bereits eingesammelte Reports von ihrer
   Aufgabe).
 
-## Modulreihe «Überfachliche Kompetenzen» (Konzept und Pilot, 20.11.2026)
+## Aufgaben ohne Teilkompetenzen (Stand 21.11.2026)
+
+Nur Aufgaben MIT Teilkompetenzen erscheinen in Heatmap, Profil und Netz
+und speisen den automatischen Einschätzungsblock. Bewusst ohne Kennung
+sind noch sechs Aufgaben in vier Modulen:
+
+- `demo-blockformat`: `num-blocktypen`, `term-blocktypen`,
+  `achse-blocktypen` (reine Vorführ-Aufgaben für Zahlen, Terme und
+  Zahlenstrahl; das Register hat keinen Mathematik-Bereich),
+- `englisch-01-cates-sound-lab`: `quiz-warmup` (Musik-Wissensfragen zum
+  Einstieg, keine Sprachkompetenz),
+- `englisch-cates-first-day`: `f-reflection` (ist selbst eine
+  Selbsteinschätzung),
+- `wirtschaft-politik-16-repetition-wirtschaft`: der Freitext-Block
+  «Vertiefung: Dein Weg zur Lernkontrolle» (Lernplanung; passende
+  Kennungen wären überfachlich und liessen die automatische Liste von 11
+  auf 13 wachsen).
+
+Wer eine neue Aufgabe schreibt, gibt ihr `teilkompetenzen` (ein bis drei
+Kennungen aus `kompetenzen/teilkompetenzen.json`).
+
+## Modulreihe «Überfachliche Kompetenzen» (20./21.11.2026)
 
 `konzepte/ueberfachliche-modulreihe.md` beschreibt die Reihe: ein
 Lernmodul je Einschätzungsblock des Überblicksmoduls
 `ueberfachlich-wie-lerne-ich` (bleibt als `sequenz` 1 unverändert –
-empfohlener Weg A), Einheit «Überfachliche Kompetenzen». Gebaut ist der
-Pilot `ueberfachlich-selbststeuerung` («Wie ich mein Handeln und Lernen
-steuere», `sequenz` 2): der Einschätzungsblock wörtlich aus dem
-Überblick (gleiche id, gleiche vier Kennungen), drei Theorietexte, Quiz,
-Zuordnung, Lückentext, Simulation mit Abschlussfrage, zwei
-Freitext-Aufgaben, Schlusstext. Die Teilkompetenz-Kennungen ändern sich
-nie (Kennungsschutz). WISSEN IST NICHT KÖNNEN: Aufgabenpunkte auf
-`uef`-Kennungen erscheinen in Kompetenz-Heatmap, Kompetenzprofil und im
-Lernstandsbericht (dort unter «Fachliche Kompetenzen»), gehen aber
-nicht ins Netzdiagramm und nicht in den Notenvorschlag ein
-(Plattform-Regel) – der Schlusstext sagt den Lernenden den Unterschied. LeSiMa-Originalunterlagen liegen im
-Repo nicht vor; die Texte sind eigene Formulierungen. Die englische
-Pilot-Fassung entstand über den Datei-Weg (`--auftrag-datei` /
-`--antworten-datei`); sprachliches Gegenlesen steht aus. Die übrigen
-fünf Module folgen erst nach Freigabe des Konzepts.
+Weg A), Einheit «Überfachliche Kompetenzen». Gebaut sind alle sechs
+Lernmodule (`sequenz` 2 bis 7): `ueberfachlich-selbststeuerung` (Pilot),
+`-reflexion`, `-herausforderungen`, `-antrieb`, `-zusammenarbeit`,
+`-lernen`. Bauplan je Modul: der Einschätzungsblock wörtlich aus dem
+Überblick (gleiche id, gleiche Kennungen), drei Theorietexte mit je
+einem benannten Werkzeug, Quiz, Zuordnung, Lückentext, Rollenspiel mit
+Abschlussfrage, ein Freitext-Block mit zwei Aufgaben, Schlusstext «Wie
+weiter?» (`-lernen` hat wegen acht Teilkompetenzen ein zweites Quiz).
+Die Teilkompetenz-Kennungen ändern sich nie (Kennungsschutz).
+
+- **Keine Unterscheidung «Wissen ist nicht Können» mehr**
+  (Betreiber-Entscheid 21.11.2026): Der Schlusstext sagt, was geübt
+  wurde, und lädt zur zweiten Einschätzung nach einigen Wochen ein.
+- **Auswertung** (Plattform-Stand 21.11.2026): Aufgabenpunkte auf
+  `uef`-Kennungen erscheinen in Heatmap, Profil und Lernstandsbericht
+  UND im Netzdiagramm samt Notenvorschlag – gleiche Rechnung wie
+  fachliche Aufgabenpunkte. Ein Rollenspiel mit Abschlussfrage zählt
+  einen Punkt und wiegt im Netz ein Zehntel; darum steht JEDE
+  Teilkompetenz eines Moduls an mindestens einer prüfenden Aufgabe mit
+  vier oder mehr Punkten.
+- **Die zwei Quoten-Kennungen**
+  (`uef.herausforderungen.rueckschlaege-meistern`, `…ausdauer-zeigen`)
+  speist die Plattform zusätzlich aus dem Verhalten bei allen Aufgaben
+  (Quoten). Sie dürfen an NEUEN Aufgaben stehen (so im Modul
+  `-herausforderungen`), aber nie nachträglich an eine Aufgabe gehängt
+  werden, an der zwischen 26.9. und 12.10.2026 gearbeitet wurde (ein
+  Alt-Punkt der früheren Regel verdrängte sonst den echten Wert –
+  Plattform-CLAUDE.md, «Überfachliche Aufgabenpunkte im Netzdiagramm»).
+- **Rollenspiele:** vollständig vorgegeben, Figur ist eine Mitschülerin
+  oder ein Mitschüler in schwacher Ausgangslage, nie gemein; der
+  Rollen-Auftrag verbietet Privates, Beleidigungen und Ratschläge im Ton
+  einer Lehrperson. Jede Auswertung muss für JEDEN Weg zu ihrem Endpunkt
+  stimmen (häufigster Fund der Prüfrunden).
+- **Offen:** LeSiMa-Originalunterlagen liegen im Repo nicht vor, die
+  Texte sind eigene Formulierungen. Vor der Veröffentlichung sollte eine
+  Lehrperson gegenlesen – besonders die heiklen Stellen (Hinweis auf
+  Hilfe bei starker Belastung in `-herausforderungen`; abwertender Witz
+  über einen Akzent und die Mitschülerin, die erst Deutsch lernt, in
+  `-zusammenarbeit`). Die englischen Fassungen entstanden über den
+  Datei-Weg (`--auftrag-datei` / `--antworten-datei`); ein Gegenlesen
+  durch eine Person mit Englisch als Unterrichtssprache steht aus. Der
+  Überblick verweist noch nicht auf die Lernmodule.
 
 ## Prüfläufe (entsprechen `.github/workflows/validate.yml`)
 
@@ -127,6 +175,8 @@ am 10.11.2026 mit zod 4.6.7 unter Node 22 und 26 unverändert grün, `npm audit`
 meldet 0.
 Stand 20.11.2026: 53 Module gültig, 50 Unit-Fälle (14 + 22 + 14),
 43 Fassungen aktuell, 10 ausgenommen.
+Stand 21.11.2026: 58 Module gültig, 50 Unit-Fälle, 48 Fassungen aktuell,
+10 ausgenommen.
 `npm run uebersetze` braucht `ANTHROPIC_API_KEY` (api.anthropic.com).
 
 ## Konventionen

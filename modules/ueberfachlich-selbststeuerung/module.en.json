@@ -2,13 +2,13 @@
  "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-selbststeuerung --sprache en",
  "derivedFrom": {
   "language": "de",
-  "masterHash": "sha256:a33744179d835a2257d47e72516b7eca1dbb47a730726448201ecf2bad82dee4",
-  "masterCommit": "5e1f6fc",
+  "masterHash": "sha256:3bc61e4b0d9d9b61fccd882dba203f1cabb0711cfeb1a72068951b5c44050b14",
+  "masterCommit": "e1f9dbf",
   "hintsHash": "sha256:553ae526dcfaa4da862b90b9c55812fbc28b80d13ff88335cab6b2d8000e5407",
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "generator": "uebersetze.ts v1",
-  "model": "datei:antworten.json",
-  "selfHash": "sha256:bc4b4a3c60e48b1b09ef2087b26ab3794edd62bf68235a2828bedceb2aa5a2d3"
+  "model": "datei:antworten.json + speicher",
+  "selfHash": "sha256:47ab935554412618198342cf7ff8131b7c5383ab3cc6f535528510f0b1f9261b"
  },
  "schemaVersion": 3,
  "id": "ueberfachlich-selbststeuerung",
@@ -574,7 +574,7 @@
    "type": "text",
    "id": "wie-weiter",
    "title": "What next?",
-   "body": "Well done! One honest remark to finish with: **Knowing is not the same as doing.** The tasks in this module show whether you **know** strategies. How often you really **use** them in everyday life is something they can't show – that is shown by your **assessment** above and, if they assess you, by your teacher. That's also why: if your **competency overview** on the home page shows points for these skills, they come from these tasks – they show what you know, not how often you do it.\n\n- **Try out a strategy** – for example your if-then plan from the last task.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+   "body": "Well done! You have practised strategies that help you steer your actions and your learning yourself: telling what is important from what is urgent, making goals specific, getting started on your own and standing by your decisions.\n\n- **Try out a strategy** – for example your if-then plan from the last task.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
   }
  ]
 }

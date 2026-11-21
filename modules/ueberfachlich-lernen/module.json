@@ -1,0 +1,629 @@
+{
+ "schemaVersion": 3,
+ "id": "ueberfachlich-lernen",
+ "title": "Wie ich lerne und arbeite",
+ "description": "Wie findest und prüfst du Informationen, welche Lernstrategien nutzt du, wie planst du deine Lernzeit, und wie gehst du an ein neues Problem heran? Nach einer kurzen Selbsteinschätzung lernst du Werkzeuge für dein Lernen kennen und übst sie in zwei Quiz, beim Zuordnen, in einem Lückentext und in einem Rollenspiel; zum Schluss schaust du auf deinen eigenen Lernweg zurück.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Lernkompetenz",
+     "description": "Informationsverarbeitung, Lernstrategien, Planen und Organisieren, Evaluieren, Konzentration, Probleme lösen, Zeitmanagement, Kritisches Denken."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    },
+    {
+     "code": "Informationen nutzen",
+     "description": "Informationen suchen, bewerten, aufbereiten und präsentieren."
+    },
+    {
+     "code": "Aufgaben/Probleme lösen",
+     "description": "Lern- und Arbeitsprozesse gestalten, Probleme erkennen und Lösungswege finden."
+    }
+   ]
+  }
+ ],
+ "einheit": "Überfachliche Kompetenzen",
+ "sequenz": 7,
+ "language": "de",
+ "durationMinutes": 45,
+ "difficulty": "leicht",
+ "keywords": [
+  "Überfachliche Kompetenzen",
+  "Lernkompetenz",
+  "Lernstrategien",
+  "Informationen prüfen",
+  "kritisches Denken",
+  "Lernplan",
+  "Zeitmanagement",
+  "Konzentration",
+  "Probleme lösen",
+  "Selbsteinschätzung"
+ ],
+ "learningObjectives": [
+  "Ich kann Informationen gezielt suchen, in eigenen Worten zusammenfassen und mit Prüffragen beurteilen, ob ich ihnen trauen kann.",
+  "Ich kann Lernstrategien nennen, die wirken – selbst abfragen, verteilt lernen, jemandem erklären – und sagen, wann sie passen.",
+  "Ich kann einen Lernplan rückwärts vom Termin aus erstellen, die Zeit schätzen und einen Puffer einplanen.",
+  "Ich kann meine Lernzeit in Lernblöcke mit Pausen einteilen und mit einem Gedankenzettel bei einer Sache bleiben.",
+  "Ich kann ein neues Problem in vier Schritten lösen und am Ende mit einem Rückblick auswerten, was ich nächstes Mal anders mache."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-lernen",
+   "title": "Wie ich lerne und arbeite",
+   "intro": "Hier geht es um dein Handwerkszeug beim Lernen: Informationen verarbeiten, planen, dranbleiben, Probleme lösen, die Zeit einteilen und am Ende prüfen, wie gut es gelungen ist.",
+   "teilkompetenzen": [
+    "uef.lernen.informationen-verarbeiten",
+    "uef.lernen.lernstrategien-nutzen",
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.arbeit-evaluieren",
+    "uef.lernen.konzentriert-arbeiten",
+    "uef.lernen.probleme-loesen",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.kritisch-denken"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-informationen",
+   "title": "Informationen finden, verstehen, prüfen",
+   "body": "Für deinen Vortrag über die Alpen gibst du ein Stichwort in die Suchmaschine ein – und bekommst Tausende Treffer. Welchem traust du?\n\nBevor du suchst, schreibst du eine **genaue Frage** auf: nicht einfach «Alpen», sondern «Wie sind die Alpen entstanden?». Dann suchst du gezielt danach, statt alles zu lesen, was irgendwie zum Thema passt.\n\nHast du einen guten Text gefunden, geht es ums **Verstehen**. Markiere beim Lesen nur das Wichtigste – nicht fast alles. Danach **fasst du in eigenen Worten zusammen**, was du gelesen hast. Wenn du etwas noch nicht in eigenen Worten sagen kannst, ist das ein Zeichen: Hier lohnt sich ein zweiter Blick.\n\nNicht alles, was im Internet, auf Plakaten oder in Videos steht, stimmt. Darum prüfst du eine Information, bevor du sie übernimmst. Dabei helfen vier Prüffragen:\n\n1. **Wer sagt das?** Eine Fachperson, eine Behörde, eine Firma – oder jemand, den du gar nicht kennst?\n2. **Woher weiß die Person das?** Sagt sie, worauf sie sich stützt?\n3. **Ist es eine Tatsache oder eine Meinung?** Eine Tatsache kann man überprüfen – ob sie stimmt, zeigt erst die Prüfung. Eine Meinung ist eine Bewertung.\n4. **Finde ich es auch in einer zweiten verlässlichen Quelle?** Zum Beispiel im Schulbuch oder in einem Lexikon.\n\nWerde hellhörig, wenn dir jemand etwas **verkaufen** will oder wenn viele Likes und Follower als Beweis gelten sollen. Beliebtheit ist kein Beleg – auch sehr viele Menschen können sich irren.\n\n**Erst prüfen, dann übernehmen.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-lernen-mit-plan",
+   "title": "Lernen mit Plan",
+   "body": "Zwei Tage vor dem Test liest Leandro seine Zusammenfassung zum fünften Mal. Er fühlt sich sicher – bis im Test die erste Frage kommt und ihm nichts mehr einfällt.\n\nMehrmals lesen bringt oft wenig. Diese **Lernstrategien** haben sich bewährt:\n\n- **Sich selbst abfragen:** Klapp das Heft zu und gib die Antworten selbst – oder zeichne einen Ablauf aus dem Kopf als Skizze und vergleiche ihn danach mit dem Buch. Durchlesen fühlt sich sicher an – Abfragen zeigt, was wirklich sitzt.\n- **Verteilt lernen:** Lern lieber an mehreren Tagen kürzer und wiederhole dabei, statt alles am Vorabend zu lernen.\n- **Jemandem erklären:** Wo du beim Erklären stockst, fehlt dir noch etwas.\n\nDamit genug Zeit bleibt, machst du einen **Lernplan rückwärts**: Du rechnest vom Testtermin aus zurück. Für jeden Teil **schätzt du die Zeit**, die du brauchst, und planst einen **Puffer** für Unerwartetes ein. Schwierige Teile legst du in eine Zeit, in der du wach bist. Vergleiche nachher die geschätzte mit der echten Zeit – so wird deine nächste Schätzung genauer.\n\nBeim Lernen selbst helfen **Lernblöcke**: etwa 20 bis 30 Minuten an einer einzigen Sache, dann eine kurze Pause. Fällt dir mitten im Lernblock etwas anderes ein, schreibst du es auf einen **Gedankenzettel** und kehrst sofort zur Aufgabe zurück. Erledigt wird es nach dem Lernblock.\n\nSammle alles zu einem Thema an **einem Ort**, etwa in einer Mappe.\n\n**Abfragen statt nur lesen – und die Lernzeit rückwärts planen.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-problem-rueckblick",
+   "title": "Probleme lösen und zurückschauen",
+   "body": "Leandro soll den Sporttag mitorganisieren – und merkt drei Tage vorher: Es gibt zu wenig Bälle. Was nun?\n\nBei einem neuen Problem hilft es, nicht gleich loszulegen, sondern in **vier Schritten** vorzugehen:\n\n1. **Verstehen:** Was genau ist das Problem? Was ist gegeben, was ist gesucht?\n2. **Plan machen:** Sammle mehrere Lösungswege und wähle einen davon aus.\n3. **Ausprobieren:** Setze deinen Plan um.\n4. **Prüfen:** Hat es funktioniert? Wenn nicht, gehst du zurück zu Schritt 2 und versuchst einen anderen Weg.\n\nDie vier Schritte passen zu einer schwierigen Mathe-Aufgabe genauso wie zu einem Problem in der Projektwoche. Wer das Problem zuerst richtig versteht, sucht nicht an der falschen Stelle nach einer Lösung.\n\nIst eine größere Arbeit geschafft – ein Test, ein Vortrag, ein Projekt –, lohnt sich ein **Lern-Rückblick**. Er besteht aus drei Fragen:\n\n1. **Wie gut ist meine Arbeit gelungen – habe ich erreicht, was ich wollte?**\n2. **Was hat geholfen, was nicht?**\n3. **Was mache ich nächstes Mal anders?**\n\nDer Rückblick schaut zuerst auf das **Ergebnis** und dann auf den **Weg** dorthin: auf dein Vorgehen, deine Lernstrategie und deine Zeiteinteilung. So wird aus jeder Arbeit eine Erfahrung, die dir bei der nächsten hilft. Nimm dir dafür ein paar Minuten, solange du dich noch gut erinnerst.\n\n**Erst verstehen, dann lösen – und am Ende zurückschauen.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-informationen",
+   "title": "Quiz: Informationen prüfen",
+   "teilkompetenzen": [
+    "uef.lernen.informationen-verarbeiten",
+    "uef.lernen.kritisch-denken"
+   ],
+   "intro": "Fünf Fragen aus dem Schulalltag. Wähle jeweils die Antwort, die am besten zu den Werkzeugen von oben passt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Du sollst für einen Vortrag herausfinden, woher das Trinkwasser in deiner Gemeinde kommt. Wie beginnst du am besten?",
+     "options": [
+      {
+       "text": "Den ersten Treffer der Suchmaschine nehmen und daraus den Vortrag schreiben."
+      },
+      {
+       "text": "Alles lesen, was du zum Thema Wasser findest, damit dir nichts fehlt."
+      },
+      {
+       "text": "Die Frage genau aufschreiben, gezielt suchen, Quellen vergleichen.",
+       "correct": true
+      },
+      {
+       "text": "Eine Freundin fragen, die sich mit dem Thema auskennt, und ihre Antwort übernehmen."
+      }
+     ],
+     "explanation": "Eine **genaue Frage** zeigt dir, wonach du suchst – und eine **zweite Quelle** zeigt dir, ob eine Angabe stimmt. Der erste Treffer ist nicht automatisch der richtige. Wer alles liest, verliert sich in Informationen, die gar nicht zur Frage passen. Und die Antwort einer Freundin kann stimmen – prüfen solltest du sie trotzdem."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Wie liest du einen langen Sachtext so, dass du ihn verstehst?",
+     "options": [
+      {
+       "text": "Nur das Wichtigste markieren, dann in eigenen Worten zusammenfassen.",
+       "correct": true
+      },
+      {
+       "text": "Den Text mehrmals durchlesen, bis du ihn fast auswendig kannst."
+      },
+      {
+       "text": "Fast alles markieren, damit dir nichts Wichtiges entgeht."
+      },
+      {
+       "text": "Nur die Überschriften lesen – das reicht für den Überblick."
+      }
+     ],
+     "explanation": "**Das Wichtigste markieren und in eigenen Worten zusammenfassen** zeigt dir, ob du den Text verstanden hast: Wo du beim Zusammenfassen stockst, sitzt es meist noch nicht. Auswendig können heißt nicht verstehen. Wer fast alles markiert, hebt nichts mehr hervor. Und die Überschriften verraten nur das Thema, nicht den Inhalt."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Auf einem Plakat für eine Lern-App steht: «Mit uns lernst du alle Vokabeln in nur drei Tagen!» Welche Reaktion passt am besten?",
+     "options": [
+      {
+       "text": "Sofort herunterladen und kaufen – drei Tage klingen einfach super."
+      },
+      {
+       "text": "Es glauben, weil das Plakat überall am Bahnhof und in der Stadt hängt."
+      },
+      {
+       "text": "Es glauben, wenn deine Freunde die App auch schon benutzen und gut finden."
+      },
+      {
+       "text": "Fragen, wer das sagt und was er davon hat – hier will jemand verkaufen.",
+       "correct": true
+      }
+     ],
+     "explanation": "Die Prüffrage **Wer sagt das?** führt hier weiter: Eine Firma will die App **verkaufen** und hat ein Interesse daran, dass du ihr glaubst. Ein Versprechen wird nicht wahr, nur weil es auf vielen Plakaten steht. Wer gleich kauft, prüft nicht, ob das Versprechen stimmt. Und dass Freunde die App benutzen, zeigt nur, dass sie beliebt ist – Beliebtheit ist kein Beleg."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Welche Aussage ist eine Meinung und keine Tatsache?",
+     "options": [
+      {
+       "text": "Die Schweiz hat vier Landessprachen."
+      },
+      {
+       "text": "Französisch ist die schönste Sprache.",
+       "correct": true
+      },
+      {
+       "text": "Liechtenstein liegt zwischen der Schweiz und Österreich."
+      },
+      {
+       "text": "Der Rhein fließt durch den Bodensee."
+      }
+     ],
+     "explanation": "**«Französisch ist die schönste Sprache»** ist eine **Meinung**: eine Bewertung, die man teilen kann oder nicht. Die anderen drei Aussagen kann man überprüfen, zum Beispiel im Atlas oder in einem Lexikon – und sie stimmen: Es sind **Tatsachen**. Eine Meinung darfst du haben – als Beweis taugt sie aber nicht."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Zwei Webseiten nennen für dasselbe Ereignis verschiedene Jahreszahlen. Was tust du?",
+     "options": [
+      {
+       "text": "Die Jahreszahl nehmen, die besser zu deinem Vortrag passt."
+      },
+      {
+       "text": "Der Webseite glauben, die moderner und schöner gestaltet ist."
+      },
+      {
+       "text": "In einer dritten verlässlichen Quelle nachschauen.",
+       "correct": true
+      },
+      {
+       "text": "Einfach die Webseite nehmen, die zuletzt aktualisiert wurde."
+      }
+     ],
+     "explanation": "Widersprechen sich zwei Quellen, hilft die Prüffrage **Finde ich es auch in einer zweiten verlässlichen Quelle?** – hier schaust du in einer dritten nach, etwa im **Schulbuch** oder in einem **Lexikon**. Welche Zahl besser passt, sagt nichts darüber, welche stimmt. Ein schönes Design ist kein Beleg. Und auch eine frisch bearbeitete Seite kann einen Fehler enthalten."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-lernstrategien",
+   "title": "Quiz: Welche Lernstrategie passt?",
+   "teilkompetenzen": [
+    "uef.lernen.lernstrategien-nutzen"
+   ],
+   "intro": "Vier Lernsituationen. Wähle jeweils die Strategie, die am besten passt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "s1",
+     "type": "single_choice",
+     "prompt": "Du lernst für einen Biologietest. Welche Methode zeigt dir am ehesten, ob du den Stoff wirklich kannst?",
+     "options": [
+      {
+       "text": "Die Zusammenfassung noch dreimal durchlesen."
+      },
+      {
+       "text": "Dich selbst abfragen, ohne ins Heft zu schauen.",
+       "correct": true
+      },
+      {
+       "text": "Das Kapitel noch einmal sauber abschreiben."
+      },
+      {
+       "text": "Die wichtigsten Stellen bunt markieren."
+      }
+     ],
+     "explanation": "**Sich selbst abfragen** zeigt dir, was wirklich sitzt – und was noch fehlt. Mehrmaliges Lesen gibt dir ein Gefühl von Sicherheit, aber du merkst nicht, ob du es auch ohne Heft weißt. Abschreiben und Markieren beschäftigen dich mit dem Stoff, prüfen aber nicht, ob du ihn selbst abrufen kannst."
+    },
+    {
+     "id": "s2",
+     "type": "single_choice",
+     "prompt": "Der Test ist in einer Woche. Wie verteilst du das Lernen am besten?",
+     "options": [
+      {
+       "text": "Alles am Abend vor dem Test in drei langen Stunden lernen."
+      },
+      {
+       "text": "Am ersten Tag alles lernen, danach nichts mehr."
+      },
+      {
+       "text": "Nur dann lernen, wenn du gerade Lust dazu hast."
+      },
+      {
+       "text": "An mehreren Tagen kürzer lernen und dabei wiederholen.",
+       "correct": true
+      }
+     ],
+     "explanation": "**Verteilt lernen** heißt: an mehreren Tagen kürzer lernen und den Stoff dabei wiederholen. So hast du Zeit, Lücken zu bemerken und zu schließen. Am Vorabend fehlt diese Zeit, und nach einem einzigen Lerntag ohne Wiederholung ist bis zum Test vieles wieder weg. Auf Lust zu warten, macht dein Lernen vom Zufall abhängig."
+    },
+    {
+     "id": "s3",
+     "type": "single_choice",
+     "prompt": "Für Geografie sollst du den Wasserkreislauf erklären können. Welche Strategie passt dazu am besten?",
+     "options": [
+      {
+       "text": "Den Kreislauf aus dem Kopf skizzieren und mit dem Buch vergleichen.",
+       "correct": true
+      },
+      {
+       "text": "Den ganzen Abschnitt im Buch Wort für Wort sauber ins Heft abschreiben."
+      },
+      {
+       "text": "Das Bild im Buch mehrmals lange und genau anschauen."
+      },
+      {
+       "text": "Den Abschnitt laut vorlesen, bis er ganz flüssig klingt."
+      }
+     ],
+     "explanation": "**Den Kreislauf aus dem Kopf skizzieren** ist eine Form, dich **selbst abzufragen**: Ein Ablauf lässt sich gut als Zeichnung abrufen, und der Vergleich mit dem Buch zeigt dir genau, wo noch etwas fehlt. Abschreiben, Anschauen und Vorlesen fühlen sich fleißig an – ob du den Kreislauf selbst erklären kannst, merkst du dabei aber nicht."
+    },
+    {
+     "id": "s4",
+     "type": "single_choice",
+     "prompt": "Du hast etwas im Unterricht nur halb verstanden. Was hilft dir, es zu festigen?",
+     "options": [
+      {
+       "text": "Hoffen, dass es im Test gar nicht vorkommt."
+      },
+      {
+       "text": "Die Heftseite fotografieren und auf dem Handy speichern."
+      },
+      {
+       "text": "Es jemandem in eigenen Worten erklären.",
+       "correct": true
+      },
+      {
+       "text": "Nur die Lösung der Übungsaufgabe auswendig lernen."
+      }
+     ],
+     "explanation": "**Jemandem erklären** zeigt dir genau die Stellen, an denen du stockst – dort fehlt noch etwas, und dort fragst oder liest du gezielt nach. Hoffen ändert nichts am halben Verständnis. Ein Foto speichert die Seite, aber nicht das Verstehen. Und eine auswendig gelernte Lösung hilft dir nicht, wenn die Aufgabe im Test etwas anders aussieht."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-planen",
+   "title": "Planen, Zeit und Konzentration",
+   "teilkompetenzen": [
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.konzentriert-arbeiten"
+   ],
+   "intro": "Links stehen typische Stolpersteine, rechts Werkzeuge aus den Texten oben. Ordne jedem Stolperstein das Werkzeug zu, das am besten hilft. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Ich weiß nie, wie lange eine Aufgabe dauert – ich verschätze mich jedes Mal.»"
+     },
+     "rechts": {
+      "text": "Die Zeit vorher schätzen und nachher mit der echten Zeit vergleichen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Kommt etwas Unerwartetes dazwischen, gerät mein ganzer Plan durcheinander.»"
+     },
+     "rechts": {
+      "text": "Einen Puffer einplanen: freie Zeit für Unerwartetes"
+     }
+    },
+    {
+     "links": {
+      "text": "«Mit dem Lernen fange ich immer erst am Abend vor dem Test an.»"
+     },
+     "rechts": {
+      "text": "Vom Testtermin aus rückwärts planen und das Lernen auf mehrere Tage verteilen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Meine Notizen fürs Projekt liegen in drei Heften und auf losen Zetteln.»"
+     },
+     "rechts": {
+      "text": "Alles zu einem Thema an einem Ort sammeln und ordnen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Mitten im Lernen fällt mir etwas anderes ein, und schon bin ich weg von der Aufgabe.»"
+     },
+     "rechts": {
+      "text": "Den Gedanken auf einen Gedankenzettel schreiben und sofort zur Aufgabe zurückkehren"
+     }
+    },
+    {
+     "links": {
+      "text": "«Nach einer Stunde Lernen ohne Pause verstehe ich gar nichts mehr.»"
+     },
+     "rechts": {
+      "text": "Kurze Lernblöcke mit kleinen Pausen einplanen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Die schwierigsten Aufgaben mache ich immer spät abends, wenn ich müde bin.»"
+     },
+     "rechts": {
+      "text": "Schwierige Aufgaben in eine Zeit legen, in der ich wach bin"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-problem-schritte",
+   "title": "Ein Problem in vier Schritten",
+   "teilkompetenzen": [
+    "uef.lernen.probleme-loesen",
+    "uef.lernen.arbeit-evaluieren"
+   ],
+   "intro": "Leandro löst ein Problem bei der Organisation des Sporttags. Setze die passenden Begriffe ein. Zwei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Leandro hilft beim Sporttag und merkt drei Tage vorher: Für die Spiele gibt es zu wenig Bälle. Zuerst will er das Problem {{1}}: Wie viele Bälle fehlen genau, und bis wann braucht er sie? Dann macht er einen {{2}} mit mehreren Möglichkeiten: andere Klassen um Bälle bitten, mit weniger Bällen in größeren Gruppen spielen oder Spiele ohne Bälle wählen.\nEr entscheidet sich für die erste Möglichkeit und {{3}} sie aus. Am Ende {{4}} er, ob es gereicht hat: Ja, die Bälle reichen.\nZum Schluss schaut er in einem kurzen {{5}} zurück: Wie gut ist der Sporttag gelungen, was hat geholfen, und was macht er nächstes Mal anders? Er will eine Woche früher nachzählen.",
+   "luecken": [
+    {
+     "antworten": [
+      "verstehen"
+     ]
+    },
+    {
+     "antworten": [
+      "Plan"
+     ]
+    },
+    {
+     "antworten": [
+      "probiert"
+     ]
+    },
+    {
+     "antworten": [
+      "prüft"
+     ]
+    },
+    {
+     "antworten": [
+      "Rückblick"
+     ]
+    }
+   ],
+   "ablenker": [
+    "Streit",
+    "hofft"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-lerngruppe",
+   "title": "Rollenspiel: Die Lerngruppe",
+   "teilkompetenzen": [
+    "uef.lernen.lernstrategien-nutzen",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.kritisch-denken"
+   ],
+   "intro": "Montag, 15 Uhr, Schulbibliothek. Am Mittwoch schreibt ihr den Geografietest über Wetter und Klima: drei Kapitel – Wolken, Luftdruck, Windsysteme. Du und Elif habt eine Stunde Zeit, und Elif hat einen Vorschlag. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen. Elif ist eine simulierte Gesprächsfigur, keine echte Person.",
+   "figur": {
+    "name": "Elif (KI-Figur)",
+    "rolle": "Deine Lernpartnerin, die auf einen Lern-Hack aus einem Video schwört",
+    "rollenPrompt": "Du bist Elif, 14 Jahre alt, und gehst in dieselbe Klasse wie die Person, mit der du sprichst. Es ist Montagnachmittag in der Schulbibliothek; am Mittwoch schreibt ihr einen Geografietest über Wetter und Klima mit drei Kapiteln: Wolken, Luftdruck und Windsysteme. Ihr habt eine Stunde Zeit zum gemeinsamen Lernen. Du hast ein Video gesehen, in dem jemand sagt, man solle die Zusammenfassung fünfmal lesen, und mit Musik gehe es schneller. Du findest das überzeugend und verteidigst es zuerst, zum Beispiel mit «Aber er hat zwei Millionen Follower!». Du nennst keine echten Personen, Kanäle, Plattformen oder Apps. Wenn die Person dich bittet, etwas ohne Blatt zu erklären, merkst du selbst, dass Lesen allein nicht gereicht hat, und machst danach engagiert mit. Du bist nie gemein, beleidigst nicht, drohst nicht und machst niemanden lächerlich. Wenn die Person freundlich begründet, warum sie anders lernen will, lässt du dich überzeugen; wenn sie dich abwertet, bist du kurz verunsichert, bleibst aber freundlich. Du gibst keine Ratschläge zu Lernstrategien und spielst keine Lehrperson. Du sprichst nicht über Familie, Gesundheit oder Privates; wenn jemand danach fragt, lenkst du freundlich auf das Lernen für den Test zurück. Du sprichst locker wie eine Jugendliche, aber ohne Schimpfwörter. Auf Fragen zu dir selbst sagst du offen, dass du eine simulierte Figur und keine echte Person bist. Antworte kurz (1–3 Sätze) und bleib in diesem Gespräch."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Ich hab ein Video gesehen: Wenn man die Zusammenfassung fünfmal liest, sitzt alles. Und mit Musik geht's schneller. Lesen wir einfach zusammen?",
+     "antworten": [
+      {
+       "text": "Nur Lesen bringt mir wenig. Fragen wir uns lieber gegenseitig ab.",
+       "weiter": "abfragen"
+      },
+      {
+       "text": "Okay, lesen wir fünfmal.",
+       "weiter": "lesen"
+      },
+      {
+       "text": "Wer sagt das in dem Video eigentlich – und woher weiß die Person das?",
+       "weiter": "nachfragen-video"
+      }
+     ]
+    },
+    {
+     "id": "nachfragen-video",
+     "text": "Hm … ein Typ, der Lerntipps macht. Er hat es halt so erzählt. Aber er hat zwei Millionen Follower!",
+     "antworten": [
+      {
+       "text": "Viele Follower heißt nicht, dass es stimmt. Probieren wir lieber aus, ob wir es ohne Blatt erklären können.",
+       "weiter": "abfragen"
+      },
+      {
+       "text": "Dann wird's schon stimmen.",
+       "weiter": "lesen"
+      }
+     ]
+    },
+    {
+     "id": "lesen",
+     "text": "*Zwanzig Minuten später.* So, dreimal gelesen. Fühlt sich gut an! Ich glaube, ich kann's.",
+     "antworten": [
+      {
+       "text": "Testen wir's: Erklär mir ohne Blatt, wie ein Hochdruckgebiet entsteht.",
+       "weiter": "probe"
+      },
+      {
+       "text": "Super, dann sind wir fertig.",
+       "weiter": "ende-scheinsicher"
+      }
+     ]
+    },
+    {
+     "id": "probe",
+     "text": "Äh … also … warte, das wusste ich doch gerade noch. Okay, ich kann's doch nicht so gut.",
+     "antworten": [
+      {
+       "text": "Genau dafür ist Abfragen gut: Jetzt wissen wir, was noch fehlt. Stellen wir uns abwechselnd Fragen.",
+       "weiter": "abfragen"
+      },
+      {
+       "text": "Dann lesen wir halt noch zweimal.",
+       "weiter": "ende-scheinsicher"
+      }
+     ]
+    },
+    {
+     "id": "abfragen",
+     "text": "Okay, abfragen. Aber drei Kapitel – wie teilen wir die Zeit ein? Und Musik?",
+     "antworten": [
+      {
+       "text": "Ob mit oder ohne Musik – wir planen: zehn Minuten pro Kapitel, dann fünf Minuten Pause, den Rest für das, was wir nicht wussten.",
+       "weiter": "plan"
+      },
+      {
+       "text": "Egal, wir machen einfach, bis wir keine Lust mehr haben.",
+       "weiter": "ende-ungeplant"
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "text": "*Nach zwei Kapiteln.* Wolken ging gut. Aber beim Luftdruck wusste ich fast nichts. Wir sind schon fünf Minuten über der Zeit.",
+     "antworten": [
+      {
+       "text": "Wir markieren, was unklar war, machen die Windsysteme kurz, und morgen fangen wir mit dem Luftdruck an.",
+       "weiter": "ende-gut"
+      },
+      {
+       "text": "Dann bleiben wir beim Luftdruck, bis wir's können – die Windsysteme lassen wir weg.",
+       "weiter": "ende-luecke"
+      }
+     ]
+    },
+    {
+     "id": "ende-gut",
+     "text": "Klingt gut. Morgen, 16 Uhr, Luftdruck – ich bringe Karteikarten mit!",
+     "auswertung": "**Abgefragt und geplant – sehr gut.** Statt euch auf das Gefühl nach dem Lesen zu verlassen, habt ihr euch gegenseitig abgefragt – so habt ihr gemerkt, was wirklich sitzt und was beim Luftdruck noch fehlt. Ihr habt die Lernzeit mit festen Zeiten und einer Pause eingeteilt, und als die Zeit knapp wurde, habt ihr den Plan angepasst: Unklares markiert, kein Kapitel ganz weggelassen und den Rest auf morgen verteilt. Falls du zuerst mitgelesen hast: gut, dass du nach der Probe umgeschwenkt bist – wer von Anfang an abfragt, spart sich den Umweg. Falls du gefragt hast, wer hinter dem Tipp steckt und woher er das weiß: Genau so prüfst du eine Aussage, bevor du sie übernimmst."
+    },
+    {
+     "id": "ende-scheinsicher",
+     "text": "*Mittwoch, nach dem Test.* Bei der Frage zum Hochdruckgebiet war ich total unsicher – dabei hatten wir es doch so oft gelesen!",
+     "auswertung": "**Lesen fühlt sich sicher an – Abfragen zeigt, was sitzt.** Mehrfaches Lesen gibt ein falsches Gefühl von Sicherheit: Der Text kommt dir bekannt vor, aber im Test musst du ihn selbst abrufen. Und ein Tipp aus einem Video stimmt nicht schon deshalb, weil er überzeugend klingt – erst prüfen, dann übernehmen. Falls ihr bei der Probe schon gemerkt habt, dass etwas fehlt: Genau dann hilft weiteres Abfragen, nicht noch mehr Lesen. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-ungeplant",
+     "text": "*Eine halbe Stunde später.* Oh nein, wir sind immer noch beim ersten Kapitel – und die Windsysteme haben wir gar nicht angeschaut.",
+     "auswertung": "**Richtige Strategie, kein Zeitplan.** Euch gegenseitig abzufragen war eine gute Wahl. Aber Abfragen hilft nur, wenn die Zeit für alle Kapitel reicht. Mit einem Zeitplan – zum Beispiel zehn Minuten pro Kapitel, dann eine kurze Pause – hättet ihr rechtzeitig gemerkt, wann ihr weitermüsst, und hättet alle drei Kapitel wenigstens angeschaut. So hättet ihr gesehen, wo noch Lücken sind. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-luecke",
+     "text": "*Mittwoch, nach dem Test.* Den Luftdruck konnte ich gut. Aber dann kam eine große Frage zu den Windsystemen – die hatten wir ja weggelassen.",
+     "auswertung": "**Gut gelernt – aber die restliche Zeit nicht eingeteilt.** Das Abfragen war stark, und euer Zeitplan war ein guter Anfang. Als ihr über der Zeit wart, habt ihr aber ein ganzes Kapitel weggelassen – das ist riskant. Besser: Wenn die Zeit nicht reicht, jedes Kapitel wenigstens kurz anschauen, Unklares markieren und den Rest auf einen weiteren Tag verteilen, statt etwas ganz wegzulassen. Probier im Rollenspiel einen anderen Weg aus."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-lerngruppe-frage",
+    "type": "single_choice",
+    "prompt": "Stell dir vor, Elif verteidigt den Tipp aus dem Video mit: «Aber er hat zwei Millionen Follower!» Welches Vorgehen hilft dir in so einem Moment am meisten?",
+    "options": [
+     {
+      "text": "Fragen, woher er das weiß, und testen, ob ihr es ohne Blatt erklären könnt.",
+      "correct": true
+     },
+     {
+      "text": "Mitmachen und fünfmal lesen – so viele Follower können sich doch gar nicht irren."
+     },
+     {
+      "text": "Das Video sofort melden und für heute mit dem Lernen aufhören."
+     },
+     {
+      "text": "Erst noch mehr Videos mit Lerntipps anschauen, bis einer überzeugt."
+     }
+    ],
+    "explanation": "**Nachfragen, woher er das weiß, und ohne Blatt testen** – so prüfst du, bevor du übernimmst. Mit der Prüffrage «Woher weiß die Person das?» findest du heraus, ob hinter dem Tipp mehr steckt als eine Behauptung. Zwei Millionen Follower machen einen Tipp beliebt, aber nicht richtig – **Beliebtheit ist kein Beleg**. Ob der Stoff sitzt, zeigt am schnellsten das **Abfragen** ohne Blatt. Das Video zu melden, löst euer Lernproblem nicht, und weitere Videos bringen nur weitere ungeprüfte Tipps."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-lernweg",
+   "title": "Dein Lernweg, dein Lernplan",
+   "teilkompetenzen": [
+    "uef.lernen.arbeit-evaluieren",
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.lernstrategien-nutzen"
+   ],
+   "intro": "Bei diesen zwei Aufgaben gibt es keine richtige oder falsche Antwort – es geht um **deine** Erfahrung. Du wählst deine Beispiele selbst, und du musst nichts Privates erzählen, was du nicht erzählen willst. Wenn Cate aktiviert ist, gibt sie dir eine Rückmeldung, wie gut sie deine Gedanken verstanden hat.",
+   "tasks": [
+    {
+     "id": "aufgabe-lern-rueckblick",
+     "prompt": "Denk an einen Test oder ein Projekt der letzten Wochen. Mache dazu einen **Lern-Rückblick** in 4–6 Sätzen:\n\n1. Wie gut ist deine Arbeit gelungen – hast du erreicht, was du wolltest? (Eine Note musst du nicht nennen.)\n2. Wie bist du vorgegangen, und was hat dabei geholfen, was nicht?\n3. Was machst du nächstes Mal anders – mit welcher Strategie aus diesem Modul, und warum?",
+     "hint": "Denk an die drei Fragen des Lern-Rückblicks aus dem Text «Probleme lösen und zurückschauen». Strategien findest du im Text «Lernen mit Plan»: selbst abfragen, verteilt lernen, jemandem erklären, ein Lernplan rückwärts mit Zeitschätzung und Puffer, Lernblöcke mit Pausen, ein Gedankenzettel.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie schätzt ein, wie gut die Arbeit gelungen ist bzw. ob das eigene Ziel erreicht wurde – egal, wie gut das Ergebnis war. (2) Sie beschreibt das konkrete Vorgehen – wann, wie lange und wie gelernt wurde – und nennt mindestens eine Sache, die geholfen hat, und eine, die nicht geholfen hat, jeweils mit einem nachvollziehbaren Grund. (3) Sie nennt eine Änderung fürs nächste Mal und begründet sie mit einer Strategie aus dem Modul: selbst abfragen statt nur lesen, verteilt lernen, jemandem erklären, ein Lernplan rückwärts mit Zeitschätzung und Puffer, Lernblöcke mit Pausen oder ein Gedankenzettel. Ein mögliches Beispiel (eines von vielen – jede Situation aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Mein Ziel beim Englischtest war, alle Vokabeln zu können – das habe ich nur halb erreicht. Ich habe die Vokabeln am Abend vorher zweimal durchgelesen und dabei laut gesagt. Geholfen hat das laute Sprechen – so blieben einige Wörter hängen. Nicht geholfen hat, dass ich alles auf einmal lernen wollte – am nächsten Morgen hatte ich die Hälfte vergessen. Nächstes Mal verteile ich das Lernen auf vier Tage und frage mich selbst ab, weil ich so früher merke, welche Wörter noch nicht sitzen.» Wie das Ergebnis ausfiel, ist nicht entscheidend: Ehrliche Selbstbeobachtung ist wertvoller als eine geschönte Geschichte. Private Details sind nicht nötig."
+    },
+    {
+     "id": "aufgabe-lernplan",
+     "prompt": "Erstelle einen **Lernplan** für einen Test oder eine Aufgabe in den nächsten zwei Wochen:\n\n1. Schätze, wie viel Zeit du insgesamt brauchst.\n2. Plane rückwärts vom Termin mindestens drei Lerneinheiten mit Tag und Dauer – und einen Puffer.\n3. Schreibe zu jeder Einheit, mit welcher Lernstrategie du lernst.",
+     "hint": "Plane rückwärts: Schreib zuerst den Termin auf und gehe von dort aus zurück. Schätze für jeden Teil die Zeit, plane einen Puffer für Unerwartetes ein und wähle zu jeder Einheit eine Strategie aus dem Text «Lernen mit Plan»: dich selbst abfragen, etwas aus dem Kopf skizzieren oder es jemandem erklären. Dass du auf mehrere Tage verteilst, ist schon das verteilte Lernen.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Es gibt eine Schätzung, wie viel Zeit insgesamt nötig ist. (2) Es gibt mindestens drei Lerneinheiten mit Tag und Dauer, die rückwärts vom Termin aus auf verschiedene Tage verteilt sind, und dazu einen Puffer für Unerwartetes. (3) Zu jeder Einheit ist eine passende Lernstrategie genannt, zum Beispiel sich selbst abfragen (etwa mit Karteikarten), eine Skizze aus dem Kopf zeichnen oder jemandem erklären – nicht nur «lesen» oder «wiederholen» ohne Abfragen. Ein mögliches Beispiel (eines von vielen – jede Situation aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Test in Geschichte am Freitag in zwei Wochen; ich schätze, dass ich insgesamt etwa drei Stunden brauche. Rückwärts vom Termin geplant, hier in zeitlicher Reihenfolge: am Mittwoch der Woche davor 45 Minuten das erste Kapitel lesen und danach eine Skizze aus dem Kopf zeichnen; am Samstag davor 45 Minuten das zweite Kapitel zusammenfassen und mich abfragen; am Dienstag vor dem Test 40 Minuten das dritte Kapitel lernen und es jemandem aus der Klasse erklären; Puffer: am Mittwoch vor dem Test eine freie halbe Stunde für das, was noch nicht sitzt; am Donnerstag vor dem Test 20 Minuten mich selbst mit Karteikarten abfragen.» Ein Ziel oder Zwischenziele werden hier nicht verlangt – es geht um Zeitschätzung, Puffer und Lernstrategie. Private Details sind nicht nötig."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "Wie weiter?",
+   "body": "Gut gemacht! Du hast Werkzeuge für dein Lernen geübt: Informationen prüfen, wirksam lernen, die Lernzeit planen, Probleme in Schritten lösen und zurückschauen.\n\n- **Probier ein Werkzeug aus** – zum Beispiel deinen Lernplan aus der letzten Aufgabe. Und mach nach dem Test einen Lern-Rückblick.\n- **Wiederhole die Einschätzung oben** nach einigen Wochen. Im **Kompetenz-Netzdiagramm** auf der Startseite siehst du dann, ob sich etwas verändert hat.\n- Den Überblick über alle Bereiche der überfachlichen Kompetenzen findest du im Modul [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}
