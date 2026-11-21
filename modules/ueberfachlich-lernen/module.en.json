@@ -1,0 +1,643 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-lernen --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:0ff6f6b5a7adab67733b6c85acfdadcf45e820ad2a0c2612f309443788ce736a",
+  "masterCommit": "6ad26fb",
+  "hintsHash": null,
+  "generatedAt": "2026-11-21",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten.json + speicher",
+  "selfHash": "sha256:bdab7da6d2412c2b1daa71122f849f7eba6ce2c3463e28273673d8d39f40f4ce"
+ },
+ "schemaVersion": 3,
+ "id": "ueberfachlich-lernen",
+ "title": "How I learn and work",
+ "description": "How do you find and check information, which learning strategies do you use, how do you plan your study time, and how do you tackle a new problem? After a short self-assessment you will get to know tools for your learning and practise them in two quizzes, a matching task, a gap-fill and a role play; at the end you look back on your own learning journey.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Lernkompetenz",
+     "description": "Informationsverarbeitung, Lernstrategien, Planen und Organisieren, Evaluieren, Konzentration, Probleme lösen, Zeitmanagement, Kritisches Denken."
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    },
+    {
+     "code": "Informationen nutzen",
+     "description": "Informationen suchen, bewerten, aufbereiten und präsentieren."
+    },
+    {
+     "code": "Aufgaben/Probleme lösen",
+     "description": "Lern- und Arbeitsprozesse gestalten, Probleme erkennen und Lösungswege finden."
+    }
+   ]
+  }
+ ],
+ "einheit": "Transversal competencies",
+ "sequenz": 7,
+ "language": "en",
+ "durationMinutes": 45,
+ "difficulty": "leicht",
+ "keywords": [
+  "Transversal competencies",
+  "Learning skills",
+  "Learning strategies",
+  "Checking information",
+  "Critical thinking",
+  "Study plan",
+  "Time management",
+  "Concentration",
+  "Problem solving",
+  "Self-assessment"
+ ],
+ "learningObjectives": [
+  "I can search for information in a targeted way, summarise it in my own words and use checking questions to judge whether I can trust it.",
+  "I can name learning strategies that work – testing myself, spreading out my learning, explaining things to someone – and say when they fit.",
+  "I can make a study plan working backwards from the deadline, estimate the time I need and plan in a buffer.",
+  "I can divide my study time into study blocks with breaks and use a distraction note to stay focused on one thing.",
+  "I can solve a new problem in four steps and, at the end, use a review to work out what I will do differently next time."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-lernen",
+   "title": "How I learn and work",
+   "intro": "This is about your toolkit for learning: processing information, planning, staying focused, solving problems, managing your time and checking at the end how well it turned out.",
+   "teilkompetenzen": [
+    "uef.lernen.informationen-verarbeiten",
+    "uef.lernen.lernstrategien-nutzen",
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.arbeit-evaluieren",
+    "uef.lernen.konzentriert-arbeiten",
+    "uef.lernen.probleme-loesen",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.kritisch-denken"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-informationen",
+   "title": "Finding, understanding and checking information",
+   "body": "For your presentation on the Alps, you type a keyword into a search engine – and get thousands of results. Which one do you trust?\n\nBefore you search, you write down a **precise question**: not just “Alps”, but “How were the Alps formed?”. Then you search specifically for the answer instead of reading everything that has something to do with the topic.\n\nOnce you have found a good text, the next step is **understanding** it. While you read, highlight only the most important points – not almost everything. Afterwards, you **summarise in your own words** what you have read. If there is something you can't yet put into your own words, that's a sign: it's worth taking a second look here.\n\nNot everything you find on the internet, on posters or in videos is true. That's why you check a piece of information before you use it. Four checking questions help:\n\n1. **Who is saying this?** An expert, a public authority, a company – or someone you don't know at all?\n2. **How does the person know this?** Do they say what they are basing it on?\n3. **Is it a fact or an opinion?** A statement about facts can be checked – only checking shows whether it is true. An opinion is a judgement.\n4. **Can I also find it in a second reliable source?** For example in your textbook or in an encyclopaedia.\n\nBe on your guard when someone wants to **sell** you something or when lots of likes and followers are supposed to count as proof. Being popular is not evidence – even a huge number of people can be wrong.\n\n**Check first, then use it.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-lernen-mit-plan",
+   "title": "Learning with a plan",
+   "body": "Two days before the test, Leandro reads his summary for the fifth time. He feels confident – until the first question in the test comes up and his mind goes blank.\n\nReading something several times often doesn't help much. These **learning strategies** have proved their worth:\n\n- **Test yourself:** Close your exercise book and give the answers yourself – or draw a process from memory as a sketch and compare it with the book afterwards. Reading something through feels safe – testing yourself shows what has really sunk in.\n- **Spread out your learning:** It's better to study for shorter periods on several days and revise as you go, instead of cramming everything the evening before.\n- **Explain it to someone:** Wherever you get stuck while explaining, something is still missing.\n\nTo make sure you have enough time, you make a **backwards study plan**: you count back from the date of the test. For each part, you **estimate the time** you need and plan in a **buffer** for anything unexpected. You put difficult parts at a time of day when you are wide awake. Afterwards, compare the estimated time with the real time – that way your next estimate will be more accurate.\n\nWhen you are actually studying, **study blocks** help: about 20 to 30 minutes on one single thing, then a short break. If something else pops into your head in the middle of a study block, you write it on a **distraction note** and go straight back to the task. You deal with it after the study block.\n\nKeep everything on one topic in **one place**, for example in a folder.\n\n**Test yourself instead of just reading – and plan your study time backwards.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-problem-rueckblick",
+   "title": "Solving problems and looking back",
+   "body": "Leandro is supposed to help organise sports day – and three days beforehand he realises: there aren't enough balls. What now?\n\nWith a new problem, it helps not to rush straight in but to work through **four steps**:\n\n1. **Understand:** What exactly is the problem? What do you know, and what are you looking for?\n2. **Make a plan:** Collect several possible solutions and choose one of them.\n3. **Try it out:** Put your plan into action.\n4. **Check:** Did it work? If not, you go back to step 2 and try a different way.\n\nThe four steps work for a difficult maths problem just as well as for a problem during project week. If you understand the problem properly first, you won't look for a solution in the wrong place.\n\nOnce you have finished a bigger piece of work – a test, a presentation, a project – it's worth doing a **learning review**. It consists of three questions:\n\n1. **How well did my work turn out – did I achieve what I wanted?**\n2. **What helped, and what didn't?**\n3. **What will I do differently next time?**\n\nThe review looks first at the **result** and then at the **way** you got there: at your approach, your learning strategy and how you planned your time. That way every piece of work becomes an experience that helps you with the next one. Take a few minutes for it while you still remember everything well.\n\n**Understand first, then solve – and look back at the end.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-informationen",
+   "title": "Quiz: Checking information",
+   "teilkompetenzen": [
+    "uef.lernen.informationen-verarbeiten",
+    "uef.lernen.kritisch-denken"
+   ],
+   "intro": "Five questions from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "For a presentation, you have to find out where the drinking water in your town comes from. What is the best way to start?",
+     "options": [
+      {
+       "text": "Take the first search engine result and write the presentation from it."
+      },
+      {
+       "text": "Read everything you can find about water so that you don't miss anything."
+      },
+      {
+       "text": "Write down the exact question, search in a targeted way, compare sources.",
+       "correct": true
+      },
+      {
+       "text": "Ask a friend who knows a lot about the topic and use her answer."
+      }
+     ],
+     "explanation": "A **precise question** shows you what you are looking for – and a **second source** shows you whether a piece of information is correct. The first result is not automatically the right one. If you read everything, you get lost in information that doesn't even fit your question. And your friend's answer may be right – but you should still check it."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "How do you read a long non-fiction text so that you understand it?",
+     "options": [
+      {
+       "text": "Highlight only the most important points, then summarise in your own words.",
+       "correct": true
+      },
+      {
+       "text": "Read the text through several times until you almost know it by heart."
+      },
+      {
+       "text": "Highlight almost everything so that you don't miss anything important."
+      },
+      {
+       "text": "Read only the headings – that's enough to get an overview."
+      }
+     ],
+     "explanation": "**Highlighting the most important points and summarising them in your own words** shows you whether you have understood the text: wherever you get stuck while summarising, it usually hasn't sunk in yet. Knowing something by heart doesn't mean understanding it. If you highlight almost everything, nothing stands out any more. And the headings only tell you the topic, not the content."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "A poster for a learning app says: “With us, you'll learn all your vocabulary in just three days!” Which reaction fits best?",
+     "options": [
+      {
+       "text": "Download it and buy it straight away – three days sounds really great."
+      },
+      {
+       "text": "Believe it, because the poster is up everywhere at the station and in town."
+      },
+      {
+       "text": "Believe it if your friends already use the app and think it's good."
+      },
+      {
+       "text": "Ask who is saying this and what they get out of it – someone is trying to sell something.",
+       "correct": true
+      }
+     ],
+     "explanation": "The checking question **Who is saying this?** helps here: a company wants to **sell** the app and has an interest in you believing it. A promise doesn't come true just because it is on lots of posters. If you buy straight away, you don't check whether the promise is true. And the fact that your friends use the app only shows that it is popular – being popular is not evidence."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Which statement is an opinion and not a fact?",
+     "options": [
+      {
+       "text": "Switzerland has four national languages."
+      },
+      {
+       "text": "French is the most beautiful language.",
+       "correct": true
+      },
+      {
+       "text": "Liechtenstein lies between Switzerland and Austria."
+      },
+      {
+       "text": "The Rhine flows through Lake Constance."
+      }
+     ],
+     "explanation": "**“French is the most beautiful language”** is an **opinion**: a judgement that you can share or not. The other three statements can be checked, for example in an atlas or an encyclopaedia – and they are true: they are **facts**. You are allowed to have an opinion – but it doesn't work as proof."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Two websites give different years for the same event. What do you do?",
+     "options": [
+      {
+       "text": "Use the year that fits your presentation better."
+      },
+      {
+       "text": "Believe the website that looks more modern and attractive."
+      },
+      {
+       "text": "Look it up in a third reliable source.",
+       "correct": true
+      },
+      {
+       "text": "Simply use the website that was updated most recently."
+      }
+     ],
+     "explanation": "When two sources contradict each other, the checking question **Can I also find it in a second reliable source?** helps – here you look it up in a third one, for example in your **textbook** or in an **encyclopaedia**. Which year fits better tells you nothing about which one is right. A nice design is not evidence. And even a page that has just been updated can contain a mistake."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-lernstrategien",
+   "title": "Quiz: Which learning strategy fits?",
+   "teilkompetenzen": [
+    "uef.lernen.lernstrategien-nutzen"
+   ],
+   "intro": "Four learning situations. Each time, choose the strategy that fits best. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "s1",
+     "type": "single_choice",
+     "prompt": "You are revising for a biology test. Which method is most likely to show you whether you really know the material?",
+     "options": [
+      {
+       "text": "Read through the summary three more times."
+      },
+      {
+       "text": "Test yourself without looking in your exercise book.",
+       "correct": true
+      },
+      {
+       "text": "Copy out the chapter neatly once more."
+      },
+      {
+       "text": "Highlight the most important parts in colour."
+      }
+     ],
+     "explanation": "**Testing yourself** shows you what has really sunk in – and what is still missing. Reading something several times gives you a feeling of confidence, but you don't notice whether you also know it without your exercise book. Copying out and highlighting keep you busy with the material, but they don't check whether you can recall it yourself."
+    },
+    {
+     "id": "s2",
+     "type": "single_choice",
+     "prompt": "The test is in a week. What is the best way to spread out your learning?",
+     "options": [
+      {
+       "text": "Study everything in three long hours the evening before the test."
+      },
+      {
+       "text": "Study everything on the first day and nothing after that."
+      },
+      {
+       "text": "Only study when you happen to feel like it."
+      },
+      {
+       "text": "Study for shorter periods on several days and revise as you go.",
+       "correct": true
+      }
+     ],
+     "explanation": "**Spreading out your learning** means studying for shorter periods on several days and revising the material as you go. That gives you time to notice gaps and fill them. The evening before, you don't have this time, and after a single day of studying without revision, a lot of it is gone again by the test. Waiting until you feel like it leaves your studying to chance."
+    },
+    {
+     "id": "s3",
+     "type": "single_choice",
+     "prompt": "In geography you need to be able to explain the water cycle. Which strategy fits best?",
+     "options": [
+      {
+       "text": "Sketch the cycle from memory and compare it with the book.",
+       "correct": true
+      },
+      {
+       "text": "Copy the whole section from the book neatly into your exercise book word for word."
+      },
+      {
+       "text": "Look at the picture in the book carefully for a long time, several times."
+      },
+      {
+       "text": "Read the section out loud until it sounds completely fluent."
+      }
+     ],
+     "explanation": "**Sketching the cycle from memory** is a way of **testing yourself**: a process is easy to recall as a drawing, and comparing it with the book shows you exactly where something is still missing. Copying, looking and reading aloud make you feel productive – but they don't show you whether you can explain the cycle yourself."
+    },
+    {
+     "id": "s4",
+     "type": "single_choice",
+     "prompt": "You only half understood something in class. What helps you to make it stick?",
+     "options": [
+      {
+       "text": "Hope that it doesn't come up in the test at all."
+      },
+      {
+       "text": "Take a photo of the page and save it on your phone."
+      },
+      {
+       "text": "Explain it to someone in your own words.",
+       "correct": true
+      },
+      {
+       "text": "Learn only the answer to the practice exercise by heart."
+      }
+     ],
+     "explanation": "**Explaining it to someone** shows you exactly the places where you get stuck – that's where something is still missing, and that's where you ask or read up specifically. Hoping doesn't change the fact that you only half understand it. A photo saves the page, but not the understanding. And an answer learnt by heart won't help you if the task in the test looks a little different."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-planen",
+   "title": "Planning, time and concentration",
+   "teilkompetenzen": [
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.konzentriert-arbeiten"
+   ],
+   "intro": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "“I never know how long a task will take – I get it wrong every time.”"
+     },
+     "rechts": {
+      "text": "Estimate the time beforehand and compare it with the real time afterwards"
+     }
+    },
+    {
+     "links": {
+      "text": "“If something unexpected comes up, my whole plan falls apart.”"
+     },
+     "rechts": {
+      "text": "Plan in a buffer: free time for anything unexpected"
+     }
+    },
+    {
+     "links": {
+      "text": "“I never start studying until the evening before the test.”"
+     },
+     "rechts": {
+      "text": "Plan backwards from the test date and spread your studying over several days"
+     }
+    },
+    {
+     "links": {
+      "text": "“My notes for the project are spread across three exercise books and loose sheets of paper.”"
+     },
+     "rechts": {
+      "text": "Collect and organise everything on one topic in one place"
+     }
+    },
+    {
+     "links": {
+      "text": "“In the middle of studying, something else pops into my head, and suddenly I've drifted away from the task.”"
+     },
+     "rechts": {
+      "text": "Write the thought on a distraction note and go straight back to the task"
+     }
+    },
+    {
+     "links": {
+      "text": "“After an hour of studying without a break, I don't understand anything any more.”"
+     },
+     "rechts": {
+      "text": "Plan short study blocks with short breaks in between"
+     }
+    },
+    {
+     "links": {
+      "text": "“I always do the hardest tasks late in the evening when I'm tired.”"
+     },
+     "rechts": {
+      "text": "Do difficult tasks at a time when I'm wide awake"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-problem-schritte",
+   "title": "A problem in four steps",
+   "teilkompetenzen": [
+    "uef.lernen.probleme-loesen",
+    "uef.lernen.arbeit-evaluieren"
+   ],
+   "intro": "Leandro solves a problem while organising sports day. Fill in the right words. Two of the words to choose from don't fit anywhere.",
+   "modus": "wortbank",
+   "text": "Leandro is helping with sports day and realises three days beforehand: there aren't enough balls for the games. First he wants to {{1}} the problem: exactly how many balls are missing, and by when does he need them? Then he makes a {{2}} with several options: asking other classes for balls, playing with fewer balls in bigger groups or choosing games without balls.\nHe decides on the first option and {{3}} asking other classes for balls. At the end he {{4}} whether it was enough: yes, there are enough balls.\nFinally, he looks back in a short {{5}}: How well did sports day go, what helped, and what will he do differently next time? He wants to count the balls a week earlier.",
+   "luecken": [
+    {
+     "antworten": [
+      "understand"
+     ]
+    },
+    {
+     "antworten": [
+      "plan"
+     ]
+    },
+    {
+     "antworten": [
+      "tries"
+     ]
+    },
+    {
+     "antworten": [
+      "checks",
+      "tests"
+     ]
+    },
+    {
+     "antworten": [
+      "review",
+      "learning review",
+      "reflection"
+     ]
+    }
+   ],
+   "ablenker": [
+    "quarrel",
+    "hopes"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-lerngruppe",
+   "title": "Role play: The study group",
+   "teilkompetenzen": [
+    "uef.lernen.lernstrategien-nutzen",
+    "uef.lernen.zeit-einteilen",
+    "uef.lernen.kritisch-denken"
+   ],
+   "intro": "Monday, 3 pm, the school library. On Wednesday you have your geography test on weather and climate: three chapters – clouds, air pressure, wind systems. You and Elif have an hour, and Elif has a suggestion. At each step, choose how you react – different paths lead to different endings. Elif is a simulated conversation character, not a real person.",
+   "figur": {
+    "name": "Elif (AI character)",
+    "rolle": "Your study partner, who swears by a study hack from a video",
+    "rollenPrompt": "You are Elif, 14 years old, and you are in the same class as the person you are talking to. It is Monday afternoon in the school library; on Wednesday you both have a geography test on weather and climate with three chapters: clouds, air pressure and wind systems. You have an hour to study together. You have seen a video in which someone says you should read your summary five times, and that it goes faster with music. You find this convincing and defend it at first, for example with “But he's got two million followers!”. You don't name any real people, channels, platforms or apps. If the person asks you to explain something without your notes, you realise yourself that reading alone wasn't enough, and after that you join in keenly. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. If the person explains in a friendly way why they want to study differently, you let yourself be convinced; if they put you down, you are briefly unsure of yourself but stay friendly. You don't give advice on learning strategies and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to revising for the test in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "I saw a video: if you read your summary five times, it all sticks. And with music it goes faster. Shall we just read together?",
+     "antworten": [
+      {
+       "text": "Just reading doesn't do much for me. Let's test each other instead.",
+       "weiter": "abfragen"
+      },
+      {
+       "text": "Okay, let's read it five times.",
+       "weiter": "lesen"
+      },
+      {
+       "text": "Who actually says that in the video – and how does that person know?",
+       "weiter": "nachfragen-video"
+      }
+     ]
+    },
+    {
+     "id": "nachfragen-video",
+     "text": "Hm … some guy who does study tips. He just said so. But he's got two million followers!",
+     "antworten": [
+      {
+       "text": "Lots of followers doesn't mean it's true. Let's try and see if we can explain it without our notes.",
+       "weiter": "abfragen"
+      },
+      {
+       "text": "Then it's probably right.",
+       "weiter": "lesen"
+      }
+     ]
+    },
+    {
+     "id": "lesen",
+     "text": "*Twenty minutes later.* Right, that's three times through. Feels good! I think I know it.",
+     "antworten": [
+      {
+       "text": "Let's test it: explain to me without your notes how an area of high pressure forms.",
+       "weiter": "probe"
+      },
+      {
+       "text": "Great, then we're done.",
+       "weiter": "ende-scheinsicher"
+      }
+     ]
+    },
+    {
+     "id": "probe",
+     "text": "Er … well … hang on, I knew that a minute ago. Okay, I don't know it that well after all.",
+     "antworten": [
+      {
+       "text": "That's exactly what testing is good for: now we know what's still missing. Let's take turns asking each other questions.",
+       "weiter": "abfragen"
+      },
+      {
+       "text": "Then we'll just read it twice more.",
+       "weiter": "ende-scheinsicher"
+      }
+     ]
+    },
+    {
+     "id": "abfragen",
+     "text": "Okay, let's test each other. But three chapters – how do we divide up the time? And what about music?",
+     "antworten": [
+      {
+       "text": "With or without music – let's plan: ten minutes per chapter, then a five-minute break, and the rest for what we didn't know.",
+       "weiter": "plan"
+      },
+      {
+       "text": "Whatever, we'll just keep going until we can't be bothered any more.",
+       "weiter": "ende-ungeplant"
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "text": "*After two chapters.* Clouds went well. But I hardly knew anything about air pressure. And we're already five minutes over time.",
+     "antworten": [
+      {
+       "text": "Let's mark what was unclear, do the wind systems quickly, and tomorrow we'll start with air pressure.",
+       "weiter": "ende-gut"
+      },
+      {
+       "text": "Then let's stick with air pressure until we know it – we'll leave out the wind systems.",
+       "weiter": "ende-luecke"
+      }
+     ]
+    },
+    {
+     "id": "ende-gut",
+     "text": "Sounds good. Tomorrow, 4 pm, air pressure – I'll bring flashcards!",
+     "auswertung": "**Tested and planned – very good.** Instead of relying on how you felt after reading, you tested each other – that way you noticed what had really sunk in and what you still didn't know about air pressure. You divided up your study time with fixed times and a break, and when time got tight, you adjusted the plan: you marked what was unclear, didn't leave out any chapter completely and moved the rest to tomorrow. If you read along at first: good that you changed course after the test run – if you test each other from the start, you save yourself the detour. If you asked who was behind the tip and how he knew: that is exactly how you check a statement before you take it on board."
+    },
+    {
+     "id": "ende-scheinsicher",
+     "text": "*Wednesday, after the test.* I was totally unsure when the question on high-pressure areas came up – even though we'd read it so many times!",
+     "auswertung": "**Reading feels safe – testing shows what has sunk in.** Reading something several times gives you a false sense of confidence: the text seems familiar, but in the test you have to recall it yourself. And a tip from a video isn't true just because it sounds convincing – check first, then use it. If you had already noticed during the test run that something was missing: that is exactly when more testing helps, not even more reading. Try a different path in the role play."
+    },
+    {
+     "id": "ende-ungeplant",
+     "text": "*Half an hour later.* Oh no, we're still on the first chapter – and we haven't even looked at the wind systems.",
+     "auswertung": "**Right strategy, no time plan.** Testing each other was a good choice. But testing only helps if there is enough time for all the chapters. With a time plan – for example ten minutes per chapter, then a short break – you would have noticed in time when you needed to move on, and you would at least have looked at all three chapters. That way you would have seen where there are still gaps. Try a different path in the role play."
+    },
+    {
+     "id": "ende-luecke",
+     "text": "*Wednesday, after the test.* I knew air pressure well. But then there was a big question on wind systems – and we'd left those out.",
+     "auswertung": "**Learnt well – but didn't plan the rest of the time.** Testing each other was great, and your time plan was a good start. But when you went over time, you left out a whole chapter – that's risky. Better: if there isn't enough time, look at every chapter at least briefly, mark what is unclear and move the rest to another day instead of leaving something out completely. Try a different path in the role play."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-lerngruppe-frage",
+    "type": "single_choice",
+    "prompt": "Imagine Elif defends the tip from the video with: “But he's got two million followers!” Which approach helps you most at a moment like this?",
+    "options": [
+     {
+      "text": "Ask how he knows that, and test whether you can explain it without your notes.",
+      "correct": true
+     },
+     {
+      "text": "Go along with it and read it five times – that many followers can't all be wrong."
+     },
+     {
+      "text": "Report the video straight away and stop studying for today."
+     },
+     {
+      "text": "First watch more videos with study tips until one of them is convincing."
+     }
+    ],
+    "explanation": "**Asking how he knows that and testing without your notes** – that is how you check before you take something on board. With the checking question “How does the person know this?” you find out whether there is more behind the tip than just a claim. Two million followers make a tip popular, but not correct – **being popular is not evidence**. The quickest way to find out whether the material has sunk in is **testing yourselves** without your notes. Reporting the video doesn't solve your learning problem, and more videos only bring more unchecked tips."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-lernweg",
+   "title": "Your learning journey, your study plan",
+   "teilkompetenzen": [
+    "uef.lernen.arbeit-evaluieren",
+    "uef.lernen.planen-organisieren",
+    "uef.lernen.lernstrategien-nutzen"
+   ],
+   "intro": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts.",
+   "tasks": [
+    {
+     "id": "aufgabe-lern-rueckblick",
+     "prompt": "Think of a test or a project from the last few weeks. Do a **learning review** of it in 4–6 sentences:\n\n1. How well did your work turn out – did you achieve what you wanted? (You don't have to give a mark.)\n2. How did you go about it, and what helped and what didn't?\n3. What will you do differently next time – with which tool from this module, and why?",
+     "hint": "Think of the three questions of the learning review from the text “Solving problems and looking back”. You can find tools in the texts “Learning with a plan” and “Solving problems and looking back” – for example testing yourself, spreading out your learning, explaining it to someone, a backwards study plan with a time estimate and a buffer, study blocks with breaks, a distraction note, keeping everything in one place or the four steps for solving a problem.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It assesses how well the work turned out or whether the student's own goal was achieved – no matter how good the result was. (2) It describes the actual approach and names at least one thing that helped and one that didn't, each with an understandable reason. (3) It names a change for next time and justifies it with a tool from the module, for example testing yourself instead of just reading, spreading out your learning, explaining it to someone, a backwards study plan with a time estimate and a buffer, putting difficult parts at a time of day when you are wide awake, study blocks with breaks, a distraction note, keeping everything in one place or the four steps for solving a problem. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “My goal for the English test was to know all the vocabulary – I only half managed it. I read through the words twice the evening before and said them out loud. Saying them out loud helped – that way some words stuck. What didn't help was trying to learn everything at once – the next morning I had forgotten half of it. Next time I'll spread my studying over four days and test myself, because that way I'll notice sooner which words haven't sunk in yet.” How the result turned out is not what matters: honest self-observation is more valuable than a prettified story. Private details are not necessary."
+    },
+    {
+     "id": "aufgabe-lernplan",
+     "prompt": "Make a **study plan** for a test or something else you have to study for in the next two weeks:\n\n1. Estimate how much time you need in total.\n2. Working backwards from the deadline, plan at least three study sessions on different days, each with a day and a length of time – and a buffer.\n3. For each session, write down which learning strategy you will use.",
+     "hint": "Plan backwards: first write down the deadline and work back from there. Estimate the time for each part, plan in a buffer for anything unexpected and choose a strategy from the text “Learning with a plan” for each session: test yourself, sketch something from memory or explain it to someone. Spreading your sessions over several days already counts as spreading out your learning.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) There is an estimate of how much time is needed in total. (2) There are at least three study sessions with a day and a length of time, spread over different days working backwards from the deadline, plus a buffer for anything unexpected. (3) A suitable learning strategy is named for each session, for example testing yourself (perhaps with flashcards), drawing a sketch from memory or explaining it to someone – not just “reading” or “revising” without testing. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “History test on Friday in two weeks' time; I estimate that I need about three hours in total. Planned backwards from the deadline, here in chronological order: on the Wednesday of the week before, 45 minutes reading the first chapter and then drawing a sketch from memory; on the Saturday before, 45 minutes summarising the second chapter and testing myself; on the Tuesday before the test, 40 minutes studying the third chapter and explaining it to someone in my class; buffer: on the Wednesday before the test, a free half hour for whatever hasn't sunk in yet; on the Thursday before the test, 20 minutes testing myself with flashcards.” A goal or milestones are not required here – it's about estimating time, a buffer and learning strategies. Private details are not necessary."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "What next?",
+   "body": "Well done! You have practised tools for your learning: checking information, learning effectively, planning your study time, solving problems step by step and looking back.\n\n- **Try out a tool** – for example your study plan from the last task. And do a learning review after the test.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

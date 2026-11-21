@@ -91,8 +91,8 @@ aufeinander auf und lassen sich einzeln einsetzen.
    Teilkompetenz-Kennungen in derselben Reihenfolge). Das KI-Interview
    hängt wie überall unter den Reglern.
 2. **Kurze Theorie** – drei Textblöcke von je rund 150 bis 230 Wörtern:
-   Du-Anrede, kurze Sätze, ein Einstieg aus dem Schulalltag, ein
-   benanntes Werkzeug (zum Beispiel «Kriterien-Check mit Ampel»,
+   Du-Anrede, kurze Sätze, ein Einstieg aus dem Schulalltag, mindestens
+   ein benanntes Werkzeug (zum Beispiel «Kriterien-Check mit Ampel»,
    «Fehler-Detektiv», «Startklar-Check») und ein Merksatz am Schluss.
 3. **Aufgaben**, denen die Teilkompetenzen des Moduls zugeordnet sind
    (ein bis drei Kennungen je Aufgabe, jede Kennung mindestens einmal).
@@ -138,8 +138,11 @@ geht die Plattform seither mit den Aufgaben der Reihe um:
   bei *jeder* Aufgabe der Plattform mit Punkten (auch in Fachmodulen)
   entstehen Belege für «Ich gehe mit Rückschlägen um» und «Ich zeige
   Ausdauer» – je Aufgabe, deren erster Versuch nicht ganz gelang: Wer
-  weitermacht und sie löst, bekommt einen hohen Wert, wer sie liegen
-  lässt, einen tiefen. Das Modul «Wie ich mit Herausforderungen umgehe»
+  sie doch noch löst, bekommt für beide 100; wer es mindestens zweimal
+  versucht, ohne sie zu lösen, bekommt für Ausdauer 100 und für
+  Rückschläge einen Teilwert (Standard 60, je Klasse einstellbar); wer
+  nach einem einzigen Fehlversuch aufhört, bekommt für beide 0. Das
+  Modul «Wie ich mit Herausforderungen umgehe»
   kennzeichnet seine Aufgaben mit genau diesen zwei Kennungen; dort
   stehen Quote und Aufgabenpunkte nebeneinander.
 - **Kompetenz-Heatmap, Kompetenzprofil und Lernstandsbericht:**
@@ -156,7 +159,8 @@ Folgerungen für die Reihe:
 - **Regel für die zwei Quoten-Kennungen**
   (`uef.herausforderungen.rueckschlaege-meistern`,
   `…ausdauer-zeigen`): nur an NEUEN Aufgaben verwenden, nie nachträglich
-  an eine Aufgabe hängen, an der vor dem 12.10.2026 gearbeitet wurde
+  an eine Aufgabe hängen, an der zwischen 26.9. und 12.10.2026
+  gearbeitet wurde – der Laufzeit der früheren Regel
   (Plattform-CLAUDE.md, «Überfachliche Aufgabenpunkte im
   Netzdiagramm» – ein Alt-Punkt der früheren Regel verdrängte sonst den
   echten Wert).
@@ -228,12 +232,14 @@ Regeln, die für alle sechs gelten:
   und ein Beispiel («eines von vielen»); das Modul zur Zusammenarbeit
   bittet ausdrücklich, keine Namen zu nennen.
 - **Heikle Inhalte:** Das Modul zu den Herausforderungen trägt den
-  einzigen Hinweis der Reihe auf Hilfe («Wenn dich etwas über längere
-  Zeit stark belastet, sprich mit einer Vertrauensperson oder deiner
-  Lehrperson»). Das Modul zur Zusammenarbeit behandelt einen abwertenden
-  Witz über einen Akzent und eine Mitschülerin, die erst seit Kurzem
-  Deutsch lernt. Diese Stellen sollte vor der Veröffentlichung eine
-  Lehrperson gegenlesen (Abschnitt 7).
+  einzigen allgemeinen Hinweis der Reihe auf Hilfe bei Belastung («Wenn
+  dich etwas über längere Zeit stark belastet, sprich mit einer
+  Vertrauensperson oder deiner Lehrperson»). Das Modul zur
+  Zusammenarbeit behandelt einen abwertenden Witz über einen Akzent und
+  eine Mitschülerin, die erst seit Kurzem Deutsch lernt; die Erklärung
+  zu seiner Quizfrage 4 rät, eine Lehrperson einzubeziehen, wenn so
+  etwas nicht aufhört oder jemanden hart trifft. Diese Stellen sollte
+  vor der Veröffentlichung eine Lehrperson gegenlesen (Abschnitt 7).
 - **Querverweise:** Jeder Schlusstext verweist auf den Überblick; das
   Modul «Was mich antreibt» verweist beim Anfangen auf das Pilotmodul.
 
@@ -260,9 +266,10 @@ Weiter offen:
    Quellenangabe.
 3. **Englische Fassungen:** sprachliches Gegenlesen (Abschnitt 6).
 4. **Kleiner Nachzug im Überblick:** Sein Schlusstext könnte auf die
-   sechs Lernmodule verweisen. Sein `ch`-Eintrag nennt die Kompetenz
-   «Aufgaben und Probleme lösen»; die Lehrplan-Tabellen und die
-   Lernmodule schreiben «Aufgaben/Probleme lösen». Und sein Blocktitel
+   sechs Lernmodule verweisen. Sein `ch`-Eintrag nennt die Kompetenzen
+   «Dialog und Kooperation» und «Aufgaben und Probleme lösen»; die
+   Lehrplan-Tabellen und die Lernmodule schreiben «Dialog- und
+   Kooperationsfähigkeit» und «Aufgaben/Probleme lösen». Und sein Blocktitel
    schreibt «Wie ich mein Handeln und Lernen steure», der Modultitel des
    Pilots «steuere». Alles zusammen angleichen, wenn der Überblick
    angefasst wird – dann auch im Block des Pilots.

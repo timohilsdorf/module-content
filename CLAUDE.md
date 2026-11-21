@@ -57,11 +57,25 @@ Standard: ein). Die explizite Liste bleibt (überfachliche Module).
   sechs Lernmodule der überfachlichen Reihe haben an dieser Stelle den
   expliziten Block aus dem Überblick; `ueberfachlich-wie-lerne-ich` hat
   keine Aufgaben und sechs explizite Blöcke. Kein Modul ist mehr ohne
-  Einschätzungsblock. Mehr als sechs Teilkompetenzen haben
-  `nationalsozialismus-erinnerung-heute` (15),
+  Einschätzungsblock. Im Modus `automatisch` haben mehr als sechs
+  Teilkompetenzen: `nationalsozialismus-erinnerung-heute` (15),
   `wirtschaft-politik-16-repetition-wirtschaft` (11) und
   `wirtschaft-politik-18-pausenkiosk-finanzberater` (8) – der Player
-  klappt die Regler dort ein.
+  klappt die Regler dort ein. Explizite Listen klappt er nie ein: Der
+  Block `selbst-lernen` (acht Teilkompetenzen) in
+  `ueberfachlich-wie-lerne-ich` und in `ueberfachlich-lernen` bleibt
+  offen.
+- **Folgen für Geräte mit Lernstand:** Jede Aufgabe, die neu eine
+  Teilkompetenz bekommt, zählt in der Kompetenz-Heatmap ab sofort im
+  Nenner dieser Teilkompetenz mit (die Heatmap rechnet über ALLE
+  Aufgaben des Katalogs, Unbearbeitetes zählt 0). Mit den zwölf
+  Aufgaben von `englisch-cates-first-day` und mit den fünf neuen
+  Lernmodulen sinken darum die Prozentwerte derer, die diese Aufgaben
+  noch nicht bearbeitet haben (Beispiel: mögliche Punkte auf
+  `en.grammatik.satzstrukturen-anwenden-a2` 34 → 74). Wer die Aufgaben
+  schon gelöst hat, bekommt die Aufgabenpunkte im Netzdiagramm
+  rückwirkend (Zeitpunkt des Versuchs). Modulfortschritt und
+  gespeicherte Antworten ändern sich nicht.
 - **Der Block trägt bewusst keine Texte** (Standardtitel und -einleitung
   kommen aus der Oberfläche, de/en). Darum liessen sich die 41
   englischen Fassungen ohne Schlüssel aus dem Speicher nachführen
@@ -92,9 +106,10 @@ Standard: ein). Die explizite Liste bleibt (überfachliche Module).
 
 ## Aufgaben ohne Teilkompetenzen (Stand 21.11.2026)
 
-Nur Aufgaben MIT Teilkompetenzen erscheinen in Heatmap, Profil und Netz
-und speisen den automatischen Einschätzungsblock. Bewusst ohne Kennung
-sind noch sechs Aufgaben in vier Modulen:
+Nur Aufgaben MIT Teilkompetenzen erscheinen in Heatmap und Profil
+(Aufgaben mit Punkten auch im Netzdiagramm) und speisen den
+automatischen Einschätzungsblock. Bewusst ohne Kennung sind noch sechs
+Aufgaben in vier Modulen:
 
 - `demo-blockformat`: `num-blocktypen`, `term-blocktypen`,
   `achse-blocktypen` (reine Vorführ-Aufgaben für Zahlen, Terme und
@@ -108,8 +123,11 @@ sind noch sechs Aufgaben in vier Modulen:
   Kennungen wären überfachlich und liessen die automatische Liste von 11
   auf 13 wachsen).
 
-Wer eine neue Aufgabe schreibt, gibt ihr `teilkompetenzen` (ein bis drei
-Kennungen aus `kompetenzen/teilkompetenzen.json`).
+Hausregel für Module des Betreibers: Wer eine neue Aufgabe schreibt,
+gibt ihr `teilkompetenzen` (ein bis drei Kennungen aus
+`kompetenzen/teilkompetenzen.json`). Für externe Autor:innen bleibt das
+Feld freiwillig (CONTENT-ERSTELLEN.md); die Validierung verlangt es
+nicht.
 
 ## Modulreihe «Überfachliche Kompetenzen» (20./21.11.2026)
 
@@ -120,8 +138,9 @@ Weg A), Einheit «Überfachliche Kompetenzen». Gebaut sind alle sechs
 Lernmodule (`sequenz` 2 bis 7): `ueberfachlich-selbststeuerung` (Pilot),
 `-reflexion`, `-herausforderungen`, `-antrieb`, `-zusammenarbeit`,
 `-lernen`. Bauplan je Modul: der Einschätzungsblock wörtlich aus dem
-Überblick (gleiche id, gleiche Kennungen), drei Theorietexte mit je
-einem benannten Werkzeug, Quiz, Zuordnung, Lückentext, Rollenspiel mit
+Überblick (gleiche id, gleiche Kennungen), drei Theorietexte mit
+benannten Werkzeugen (mindestens eines je Text), Quiz, Zuordnung,
+Lückentext, Rollenspiel mit
 Abschlussfrage, ein Freitext-Block mit zwei Aufgaben, Schlusstext «Wie
 weiter?» (`-lernen` hat wegen acht Teilkompetenzen ein zweites Quiz).
 Die Teilkompetenz-Kennungen ändern sich nie (Kennungsschutz).
