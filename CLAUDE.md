@@ -160,9 +160,10 @@ Die Teilkompetenz-Kennungen ändern sich nie (Kennungsschutz).
   `uef`-Kennungen erscheinen in Heatmap, Profil und Lernstandsbericht
   UND im Netzdiagramm samt Notenvorschlag – gleiche Rechnung wie
   fachliche Aufgabenpunkte. Ein Rollenspiel mit Abschlussfrage zählt
-  einen Punkt und wiegt im Netz ein Zehntel; darum steht JEDE
-  Teilkompetenz eines Moduls an mindestens einer prüfenden Aufgabe mit
-  vier oder mehr Punkten.
+  einen Punkt und wiegt im Netz entsprechend wenig (im Bestwert-Verlauf
+  ein Zehntel einer 10-Punkte-Aufgabe, unter «versuchsgewichtet» den
+  einen erreichten Punkt); darum steht JEDE Teilkompetenz eines Moduls
+  an mindestens einer prüfenden Aufgabe mit vier oder mehr Punkten.
 - **Die zwei Quoten-Kennungen**
   (`uef.herausforderungen.rueckschlaege-meistern`, `…ausdauer-zeigen`)
   speist die Plattform zusätzlich aus dem Verhalten bei allen Aufgaben
