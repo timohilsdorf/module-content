@@ -140,9 +140,10 @@ geht die Plattform seither mit den Aufgaben der Reihe um:
   Ausdauer» – je Aufgabe, deren erster Versuch nicht ganz gelang: Wer
   sie doch noch löst, bekommt für beide 100; wer es mindestens zweimal
   versucht, ohne sie zu lösen, bekommt für Ausdauer 100 und für
-  Rückschläge einen Teilwert (Standard 60, je Klasse einstellbar); wer
-  nach einem einzigen Fehlversuch aufhört, bekommt für beide 0. Das
-  Modul «Wie ich mit Herausforderungen umgehe»
+  Rückschläge einen Teilwert; wer vorher aufhört, bekommt für beide 0.
+  Standard sind zwei Versuche und der Teilwert 60; beide Werte lassen
+  sich im Lehrerbüro je Klasse einstellen, Schülergeräte rechnen immer
+  mit dem Standard. Das Modul «Wie ich mit Herausforderungen umgehe»
   kennzeichnet seine Aufgaben mit genau diesen zwei Kennungen; dort
   stehen Quote und Aufgabenpunkte nebeneinander.
 - **Kompetenz-Heatmap, Kompetenzprofil und Lernstandsbericht:**
@@ -160,7 +161,7 @@ Folgerungen für die Reihe:
   (`uef.herausforderungen.rueckschlaege-meistern`,
   `…ausdauer-zeigen`): nur an NEUEN Aufgaben verwenden, nie nachträglich
   an eine Aufgabe hängen, an der zwischen 26.9. und 12.10.2026
-  gearbeitet wurde – der Laufzeit der früheren Regel
+  gearbeitet wurde, also während der Laufzeit der früheren Regel
   (Plattform-CLAUDE.md, «Überfachliche Aufgabenpunkte im
   Netzdiagramm» – ein Alt-Punkt der früheren Regel verdrängte sonst den
   echten Wert).

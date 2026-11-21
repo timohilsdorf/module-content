@@ -69,13 +69,21 @@ Standard: ein). Die explizite Liste bleibt (überfachliche Module).
   Teilkompetenz bekommt, zählt in der Kompetenz-Heatmap ab sofort im
   Nenner dieser Teilkompetenz mit (die Heatmap rechnet über ALLE
   Aufgaben des Katalogs, Unbearbeitetes zählt 0). Mit den zwölf
-  Aufgaben von `englisch-cates-first-day` und mit den fünf neuen
-  Lernmodulen sinken darum die Prozentwerte derer, die diese Aufgaben
-  noch nicht bearbeitet haben (Beispiel: mögliche Punkte auf
-  `en.grammatik.satzstrukturen-anwenden-a2` 34 → 74). Wer die Aufgaben
-  schon gelöst hat, bekommt die Aufgabenpunkte im Netzdiagramm
-  rückwirkend (Zeitpunkt des Versuchs). Modulfortschritt und
-  gespeicherte Antworten ändern sich nicht.
+  Aufgaben von `englisch-cates-first-day` sinken darum die Prozentwerte
+  derer, die diese Aufgaben noch nicht bearbeitet haben (Beispiel:
+  mögliche Punkte auf `en.grammatik.satzstrukturen-anwenden-a2`
+  34 → 74). Die 28 Kennungen der fünf neuen Lernmodule standen bisher an
+  keiner Aufgabe: Ihre Zeilen kommen neu dazu, in der Teilkompetenz-Sicht
+  und unter dem Liechtensteiner Lehrplan sinkt dadurch kein Wert. Nur
+  unter dem Lehrplan 21 (ch) teilen sie sich zwei Codes
+  («Aufgaben/Probleme lösen.Lernprozesse gestalten»,
+  «Selbstständigkeit.Aufgaben selbst beginnen») und drei Bereiche
+  («Eigenständigkeit», «Aufgaben/Probleme lösen», «Selbstständigkeit»)
+  mit Kennungen des Pilotmoduls – dort sinken die Werte derer, die den
+  Pilot schon bearbeitet haben, die neuen Aufgaben aber noch nicht. Wer
+  die Aufgaben schon gelöst hat, bekommt die Aufgabenpunkte im
+  Netzdiagramm rückwirkend (Zeitpunkt des Versuchs). Modulfortschritt
+  und gespeicherte Antworten ändern sich nicht.
 - **Der Block trägt bewusst keine Texte** (Standardtitel und -einleitung
   kommen aus der Oberfläche, de/en). Darum liessen sich die 41
   englischen Fassungen ohne Schlüssel aus dem Speicher nachführen
