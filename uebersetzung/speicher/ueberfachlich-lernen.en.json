@@ -1,0 +1,646 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:a7d415aabedae18c77b351f152bcbaae275c0b4bef39c12aa928eab3e3d21cf5",
+   "text": "How I learn and work"
+  },
+  "description": {
+   "quelle": "sha256:15a3615721fbf49d0b41f10d993ee7a74d3c00ae8ac0f8451426525a9a5fa14d",
+   "text": "How do you find and check information, which learning strategies do you use, how do you plan your study time, and how do you tackle a new problem? After a short self-assessment you will get to know tools for your learning and practise them in two quizzes, a matching task, a gap-fill and a role play; at the end you look back on your own learning journey."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "einheit": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:e0d87b717d2cb8bf737e99f05c87f3b34695fdb031acc103ae5087d0b22f73fb",
+   "text": "Learning skills"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:38d9108c81bb30acc5c96ae46de33e496c6ecef16e688b299eb8c69fae65b36c",
+   "text": "Learning strategies"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:04ed451df1a06083bcc0744f10d0f460102bcb8f3b7068d482905764e1296d47",
+   "text": "Checking information"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:584e2da0f4f2826ab0fd4820cf8e26880f41a28fedad08ebd12aec953ecee4fd",
+   "text": "Critical thinking"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:1329de3d85e79e52960149d377e565a4e3d97050be39e2d940492b9b8ca919dc",
+   "text": "Study plan"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:ea0c9597436deebe10bf15edbe68559541c618afd8fb8455e98348f3a8acf1dd",
+   "text": "Time management"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:e0707da5455a8810f276b121eddf606425af60d8207629ba388e22cd50bfabee",
+   "text": "Concentration"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:b07a86f3bddfae4102fac0356319ce97afa91c9b3dbfee52b7b7b451287ed6ab",
+   "text": "Problem solving"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:96aa95e35321f78bcd7c5a993eb15e18b5cf4e4f45d3697123aac96bf2b884e7",
+   "text": "Self-assessment"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:c5a79d205f80a36633951f2cd17143f8ad80430e728ef37658f49f7a53854525",
+   "text": "I can search for information in a targeted way, summarise it in my own words and use checking questions to judge whether I can trust it."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:1802bf4bfd69113dea7a39ad515f4c831d9ac9168b5423be8ce62b9c65c21100",
+   "text": "I can name learning strategies that work – testing myself, spreading out my learning, explaining things to someone – and say when they fit."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:0a5c21076dfe28463c1273aa023b225ff7b8d43fb70f951399dba79a784171aa",
+   "text": "I can make a study plan working backwards from the deadline, estimate the time I need and plan in a buffer."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:0da4c5e58faca8f9eec76f190f772a4ccb0e78bbef1e5f67e4257129b01930f3",
+   "text": "I can divide my study time into study blocks with breaks and use a distraction note to stay focused on one thing."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:321a79b74a9ebffe8d29293808c81af2d766ebeb686dc4ef13a377dc281bce43",
+   "text": "I can solve a new problem in four steps and, at the end, use a review to work out what I will do differently next time."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:a7d415aabedae18c77b351f152bcbaae275c0b4bef39c12aa928eab3e3d21cf5",
+   "text": "How I learn and work"
+  },
+  "blocks[0].intro": {
+   "quelle": "sha256:38d44dda63217ac0ab1f09dc310fa8632996cad3d1498f1ce5d92ba67e05cafe",
+   "text": "This is about your toolkit for learning: processing information, planning, staying focused, solving problems, managing your time and checking at the end how well it turned out."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:5f4694c69be59e5bc4dd169b4a1a3f8e51ceed395dd6052b31048bcb2cb6fffd",
+   "text": "Finding, understanding and checking information"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:bd433b482778a6f2f7f092eab13492c530c4d68b79cff6212cf8ae2385cbfd2a",
+   "text": "For your presentation on the Alps, you type a keyword into a search engine – and get thousands of results. Which one do you trust?\n\nBefore you search, you write down a **precise question**: not just “Alps”, but “How were the Alps formed?”. Then you search specifically for the answer instead of reading everything that has something to do with the topic.\n\nOnce you have found a good text, the next step is **understanding** it. While you read, highlight only the most important points – not almost everything. Afterwards, you **summarise in your own words** what you have read. If there is something you can't yet put into your own words, that's a sign: it's worth taking a second look here.\n\nNot everything you find on the internet, on posters or in videos is true. That's why you check a piece of information before you use it. Four checking questions help:\n\n1. **Who is saying this?** An expert, a public authority, a company – or someone you don't know at all?\n2. **How does the person know this?** Do they say what they are basing it on?\n3. **Is it a fact or an opinion?** A statement about facts can be checked – only checking shows whether it is true. An opinion is a judgement.\n4. **Can I also find it in a second reliable source?** For example in your textbook or in an encyclopaedia.\n\nBe on your guard when someone wants to **sell** you something or when lots of likes and followers are supposed to count as proof. Being popular is not evidence – even a huge number of people can be wrong.\n\n**Check first, then use it.**"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:a3a202373f5aa4f7abfed2ae673e5e993ffd6f6e2314a16cc0eeb168b23fa6f6",
+   "text": "Learning with a plan"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:0ab3ce7abb3bda8a47d56aa1e81f3945557ff452b0ecf70d8cd7cb4f4f31e65e",
+   "text": "Two days before the test, Leandro reads his summary for the fifth time. He feels confident – until the first question in the test comes up and his mind goes blank.\n\nReading something several times often doesn't help much. These **learning strategies** have proved their worth:\n\n- **Test yourself:** Close your exercise book and give the answers yourself – or draw a process from memory as a sketch and compare it with the book afterwards. Reading something through feels safe – testing yourself shows what has really sunk in.\n- **Spread out your learning:** It's better to study for shorter periods on several days and revise as you go, instead of cramming everything the evening before.\n- **Explain it to someone:** Wherever you get stuck while explaining, something is still missing.\n\nTo make sure you have enough time, you make a **backwards study plan**: you count back from the date of the test. For each part, you **estimate the time** you need and plan in a **buffer** for anything unexpected. You put difficult parts at a time of day when you are wide awake. Afterwards, compare the estimated time with the real time – that way your next estimate will be more accurate.\n\nWhen you are actually studying, **study blocks** help: about 20 to 30 minutes on one single thing, then a short break. If something else pops into your head in the middle of a study block, you write it on a **distraction note** and go straight back to the task. You deal with it after the study block.\n\nKeep everything on one topic in **one place**, for example in a folder.\n\n**Test yourself instead of just reading – and plan your study time backwards.**"
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:983ae11af0a80aa3eafda9981f80b754bdab0df4f9fa3e145baccb9cf24988c1",
+   "text": "Solving problems and looking back"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:70f482b05c0ad2520661756ca746db7bc46bd817ee438e2d5f74804c11fcaf7f",
+   "text": "Leandro is supposed to help organise sports day – and three days beforehand he realises: there aren't enough balls. What now?\n\nWith a new problem, it helps not to rush straight in but to work through **four steps**:\n\n1. **Understand:** What exactly is the problem? What do you know, and what are you looking for?\n2. **Make a plan:** Collect several possible solutions and choose one of them.\n3. **Try it out:** Put your plan into action.\n4. **Check:** Did it work? If not, you go back to step 2 and try a different way.\n\nThe four steps work for a difficult maths problem just as well as for a problem during project week. If you understand the problem properly first, you won't look for a solution in the wrong place.\n\nOnce you have finished a bigger piece of work – a test, a presentation, a project – it's worth doing a **learning review**. It consists of three questions:\n\n1. **How well did my work turn out – did I achieve what I wanted?**\n2. **What helped, and what didn't?**\n3. **What will I do differently next time?**\n\nThe review looks first at the **result** and then at the **way** you got there: at your approach, your learning strategy and how you planned your time. That way every piece of work becomes an experience that helps you with the next one. Take a few minutes for it while you still remember everything well.\n\n**Understand first, then solve – and look back at the end.**"
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:6dcc5205f4044bba34312f365611b617387e2d192e7b3ec4573fa8361b0c3a5e",
+   "text": "Quiz: Checking information"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:a2a516dfc843c8f20c845f55cb2a7ec4724a07e9e94cdaf9e5ff53acbe02e1c4",
+   "text": "Five questions from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[4].questions[0].prompt": {
+   "quelle": "sha256:d27f0d4ba336de4945d1ef6e1a1efbdb534509a8257690e1b47e79c3e6a54008",
+   "text": "For a presentation, you have to find out where the drinking water in your town comes from. What is the best way to start?"
+  },
+  "blocks[4].questions[0].options[0].text": {
+   "quelle": "sha256:947cc39ea574ff3cc32e58c928bcbd7a0a273c0c90e713f50637e7877c7e5402",
+   "text": "Take the first search engine result and write the presentation from it."
+  },
+  "blocks[4].questions[0].options[1].text": {
+   "quelle": "sha256:7e920b53ce1aedaace31f1a9a4fdbcbd502842d20036e56ffe6f60b2b65a2221",
+   "text": "Read everything you can find about water so that you don't miss anything."
+  },
+  "blocks[4].questions[0].options[2].text": {
+   "quelle": "sha256:a8f33f0f2ef142471bc3e1d3e13294bc4589d17ac85b6665aa1cd425be4d4f6d",
+   "text": "Write down the exact question, search in a targeted way, compare sources."
+  },
+  "blocks[4].questions[0].options[3].text": {
+   "quelle": "sha256:7cf8189079dff12bc38e4fcb067369744579a49747683c9da7163ebc76bdd6ee",
+   "text": "Ask a friend who knows a lot about the topic and use her answer."
+  },
+  "blocks[4].questions[0].explanation": {
+   "quelle": "sha256:a5fbd4e93368528265ed8fe4300fa22b2717a858d51e4bd0f279bc27d6122709",
+   "text": "A **precise question** shows you what you are looking for – and a **second source** shows you whether a piece of information is correct. The first result is not automatically the right one. If you read everything, you get lost in information that doesn't even fit your question. And your friend's answer may be right – but you should still check it."
+  },
+  "blocks[4].questions[1].prompt": {
+   "quelle": "sha256:58f19ec5866caefc415e929659b6b7852d393438f1766363cf5bad046b01b567",
+   "text": "How do you read a long non-fiction text so that you understand it?"
+  },
+  "blocks[4].questions[1].options[0].text": {
+   "quelle": "sha256:89b47a2b2769e1a8f69aa9a3ca1c5d01d7e918d0ee0f7363b6bcafaa03f14f04",
+   "text": "Highlight only the most important points, then summarise in your own words."
+  },
+  "blocks[4].questions[1].options[1].text": {
+   "quelle": "sha256:2fb79f9c44aeed9b84881e652997f1e08790f59a5eca82bf3f75d2e59591e2fe",
+   "text": "Read the text through several times until you almost know it by heart."
+  },
+  "blocks[4].questions[1].options[2].text": {
+   "quelle": "sha256:afc34331d65024e50082800cd40d3bb29e03e932189401bb5d8e422b0c65da7b",
+   "text": "Highlight almost everything so that you don't miss anything important."
+  },
+  "blocks[4].questions[1].options[3].text": {
+   "quelle": "sha256:6bc7b3e9d7071ff4d7daa7ad79a005b59ab7259912c604f00ac798a22acc9550",
+   "text": "Read only the headings – that's enough to get an overview."
+  },
+  "blocks[4].questions[1].explanation": {
+   "quelle": "sha256:5b43324a5acd76ec482ee539b28e745681a43a52fa3f2271abbb2db581e6504b",
+   "text": "**Highlighting the most important points and summarising them in your own words** shows you whether you have understood the text: wherever you get stuck while summarising, it usually hasn't sunk in yet. Knowing something by heart doesn't mean understanding it. If you highlight almost everything, nothing stands out any more. And the headings only tell you the topic, not the content."
+  },
+  "blocks[4].questions[2].prompt": {
+   "quelle": "sha256:56f825bc8cfcaff97ad355357d4d465ef52fa45830c3cdab0092af898cb47975",
+   "text": "A poster for a learning app says: “With us, you'll learn all your vocabulary in just three days!” Which reaction fits best?"
+  },
+  "blocks[4].questions[2].options[0].text": {
+   "quelle": "sha256:c910c27619201f7d5a6bf732faaf7487e27607981898c258e78c7c0276e80832",
+   "text": "Download it and buy it straight away – three days sounds really great."
+  },
+  "blocks[4].questions[2].options[1].text": {
+   "quelle": "sha256:4cc4d77ef777184be820e0d14a4210bc5f2a062cbe5d0ca0fcb86dbc8664b19d",
+   "text": "Believe it, because the poster is up everywhere at the station and in town."
+  },
+  "blocks[4].questions[2].options[2].text": {
+   "quelle": "sha256:e63d873ab0e199e510a2f2d9ed68b1fc24fb8ec6eef98453b64d3f05574596c7",
+   "text": "Believe it if your friends already use the app and think it's good."
+  },
+  "blocks[4].questions[2].options[3].text": {
+   "quelle": "sha256:fd3fc0f1ffb51f8dc9fb214ecbf4f3e6febd0dc7c45064ad3508fed50a03f776",
+   "text": "Ask who is saying this and what they get out of it – someone is trying to sell something."
+  },
+  "blocks[4].questions[2].explanation": {
+   "quelle": "sha256:06aa0c290d4918a0e0fda658dd4eb2311e0077b85344d4e78ca88f8ca908af1a",
+   "text": "The checking question **Who is saying this?** helps here: a company wants to **sell** the app and has an interest in you believing it. A promise doesn't come true just because it is on lots of posters. If you buy straight away, you don't check whether the promise is true. And the fact that your friends use the app only shows that it is popular – being popular is not evidence."
+  },
+  "blocks[4].questions[3].prompt": {
+   "quelle": "sha256:3392fecad81d627a804bd762d8d08044e5a36478197144989e1a937df46570f3",
+   "text": "Which statement is an opinion and not a fact?"
+  },
+  "blocks[4].questions[3].options[0].text": {
+   "quelle": "sha256:62bd3795e96400699bfa797211d6bc5ab2649939bae333114646d70e58787d67",
+   "text": "Switzerland has four national languages."
+  },
+  "blocks[4].questions[3].options[1].text": {
+   "quelle": "sha256:75104f3f447158901827c6a0e98989346e7ba605c8e480488625cc0f2f8dcc07",
+   "text": "French is the most beautiful language."
+  },
+  "blocks[4].questions[3].options[2].text": {
+   "quelle": "sha256:323c294c08909259bca98961a8a44da87564e0d352751a47eb099d05bcd19b85",
+   "text": "Liechtenstein lies between Switzerland and Austria."
+  },
+  "blocks[4].questions[3].options[3].text": {
+   "quelle": "sha256:fcfb1c1f035228f6c2a0e2598cf8deb7fc26d332cbb4a3137b6715ac5c3c6f0a",
+   "text": "The Rhine flows through Lake Constance."
+  },
+  "blocks[4].questions[3].explanation": {
+   "quelle": "sha256:145b9bfde41db48ac26abee56c7f49e35d4410bf149d7b8eb2a851e2e1f2311f",
+   "text": "**“French is the most beautiful language”** is an **opinion**: a judgement that you can share or not. The other three statements can be checked, for example in an atlas or an encyclopaedia – and they are true: they are **facts**. You are allowed to have an opinion – but it doesn't work as proof."
+  },
+  "blocks[4].questions[4].prompt": {
+   "quelle": "sha256:e5a2de9ae8518a768009b127b4c1f44a35134c4f0e4ac9b9b4a49d593b11cbdc",
+   "text": "Two websites give different years for the same event. What do you do?"
+  },
+  "blocks[4].questions[4].options[0].text": {
+   "quelle": "sha256:14c3ca6a101345a607f22b094a0bcd6ee12666df4c0610df20f912c3280cf236",
+   "text": "Use the year that fits your presentation better."
+  },
+  "blocks[4].questions[4].options[1].text": {
+   "quelle": "sha256:01addbeab418d74f1baf75f32c4832b9ab7760787394bc3927f40ff0d873287c",
+   "text": "Believe the website that looks more modern and attractive."
+  },
+  "blocks[4].questions[4].options[2].text": {
+   "quelle": "sha256:c91df7566346676ffa59c0fa4f4ae194db3d2bc3445a89fcb792229767239dc5",
+   "text": "Look it up in a third reliable source."
+  },
+  "blocks[4].questions[4].options[3].text": {
+   "quelle": "sha256:51885a7abfda59d67da6f485cfd74deeadbad8ff6194c125a5a290336ebf2fed",
+   "text": "Simply use the website that was updated most recently."
+  },
+  "blocks[4].questions[4].explanation": {
+   "quelle": "sha256:8310375788bb73ba8c1c55386c7ff610e6eb9bf9a0e02259705b142c59497245",
+   "text": "When two sources contradict each other, the checking question **Can I also find it in a second reliable source?** helps – here you look it up in a third one, for example in your **textbook** or in an **encyclopaedia**. Which year fits better tells you nothing about which one is right. A nice design is not evidence. And even a page that has just been updated can contain a mistake."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:9987b72814f8ab5871ff22479f311252f2f82bbabe6fec62a91bb259c92a3b85",
+   "text": "Quiz: Which learning strategy fits?"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:7520c9993d64242e586163d94ab42f933d4b359ae1a5808da8dba51eb6d02966",
+   "text": "Four learning situations. Each time, choose the strategy that fits best. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[5].questions[0].prompt": {
+   "quelle": "sha256:3edba617f9e0db8ff886220ca5c333b4c7a0a47f107d3ca619ae44f539f3c075",
+   "text": "You are revising for a biology test. Which method is most likely to show you whether you really know the material?"
+  },
+  "blocks[5].questions[0].options[0].text": {
+   "quelle": "sha256:03d2cf087309fca19ba788dce6a08e8bfeca5836a9826f6134ff8db8cec0bd90",
+   "text": "Read through the summary three more times."
+  },
+  "blocks[5].questions[0].options[1].text": {
+   "quelle": "sha256:5e415c07f8cc1039d0b4c3ae848c6fee41666dd627ede8d8005c957e2e69ce09",
+   "text": "Test yourself without looking in your exercise book."
+  },
+  "blocks[5].questions[0].options[2].text": {
+   "quelle": "sha256:0c9759ee4cbb5821feb1af419fa64fed959f0bfeaaa21bee3fb10399e8a85a60",
+   "text": "Copy out the chapter neatly once more."
+  },
+  "blocks[5].questions[0].options[3].text": {
+   "quelle": "sha256:60e289ab092b5188bb8e6ab3bf72649f33de718e6bbe2ea55faa8f41f04e4b66",
+   "text": "Highlight the most important parts in colour."
+  },
+  "blocks[5].questions[0].explanation": {
+   "quelle": "sha256:847ba88b629c4587b96941505b05a7ed38416fe186508cbb5d0955f0062f3857",
+   "text": "**Testing yourself** shows you what has really sunk in – and what is still missing. Reading something several times gives you a feeling of confidence, but you don't notice whether you also know it without your exercise book. Copying out and highlighting keep you busy with the material, but they don't check whether you can recall it yourself."
+  },
+  "blocks[5].questions[1].prompt": {
+   "quelle": "sha256:2cd173937f8b5fc91f8d59d23c887820eb801c08df3da8775512419864e79f11",
+   "text": "The test is in a week. What is the best way to spread out your learning?"
+  },
+  "blocks[5].questions[1].options[0].text": {
+   "quelle": "sha256:078b35a78d3ec78e10fb030c0cb3edb80c4e2b6e15a5b0f0ba9b73d1d2ac0308",
+   "text": "Study everything in three long hours the evening before the test."
+  },
+  "blocks[5].questions[1].options[1].text": {
+   "quelle": "sha256:09b16b565037bc661eefb0699d10430cc8a9a6da4f44dbca42b7aabfc62bb9d3",
+   "text": "Study everything on the first day and nothing after that."
+  },
+  "blocks[5].questions[1].options[2].text": {
+   "quelle": "sha256:b564667eed286f37b8126e21bd456a4e5b17a79b13be809648dd910164e289b0",
+   "text": "Only study when you happen to feel like it."
+  },
+  "blocks[5].questions[1].options[3].text": {
+   "quelle": "sha256:fe6f52e723ec1c777c3c7a172883be7d2afefdc59b87d881fcb236f2b028bc55",
+   "text": "Study for shorter periods on several days and revise as you go."
+  },
+  "blocks[5].questions[1].explanation": {
+   "quelle": "sha256:af250ea4c69f1b8d5d13817dc6611143a4325b87a2f83b7e9d8d39b6ebb679bb",
+   "text": "**Spreading out your learning** means studying for shorter periods on several days and revising the material as you go. That gives you time to notice gaps and fill them. The evening before, you don't have this time, and after a single day of studying without revision, a lot of it is gone again by the test. Waiting until you feel like it leaves your studying to chance."
+  },
+  "blocks[5].questions[2].prompt": {
+   "quelle": "sha256:94c3fbb6732059b7c6acac950a7179e295bf49490cdc101d944274423d66f183",
+   "text": "In geography you need to be able to explain the water cycle. Which strategy fits best?"
+  },
+  "blocks[5].questions[2].options[0].text": {
+   "quelle": "sha256:7dc11070c6a345509980cbb9d8a1ab708b455aded6d1fec23b14b3fbd3c1e973",
+   "text": "Sketch the cycle from memory and compare it with the book."
+  },
+  "blocks[5].questions[2].options[1].text": {
+   "quelle": "sha256:2f3f6f5f73e7651694090fed10b19a099c685ea03976a54058df318f50540077",
+   "text": "Copy the whole section from the book neatly into your exercise book word for word."
+  },
+  "blocks[5].questions[2].options[2].text": {
+   "quelle": "sha256:5e396924faf54656aca192ad3935916bb67278f3d72efc409043c23342f1db10",
+   "text": "Look at the picture in the book carefully for a long time, several times."
+  },
+  "blocks[5].questions[2].options[3].text": {
+   "quelle": "sha256:73404e300af9277b85a49494a74b8dc516182a20da5d3e2423b062e6e574479c",
+   "text": "Read the section out loud until it sounds completely fluent."
+  },
+  "blocks[5].questions[2].explanation": {
+   "quelle": "sha256:0f4f8b934f4117824595b35962ccfaec1dbf6ccc5f14dc20bebd98ab066344ad",
+   "text": "**Sketching the cycle from memory** is a way of **testing yourself**: a process is easy to recall as a drawing, and comparing it with the book shows you exactly where something is still missing. Copying, looking and reading aloud make you feel productive – but they don't show you whether you can explain the cycle yourself."
+  },
+  "blocks[5].questions[3].prompt": {
+   "quelle": "sha256:1af254087fe0383d98b930e64e2d9c677ac9d1dcdb2b1f7de8819cab6a13f13a",
+   "text": "You only half understood something in class. What helps you to make it stick?"
+  },
+  "blocks[5].questions[3].options[0].text": {
+   "quelle": "sha256:2ff5d2fa067104558d4631500aa49405f551167ee7f49772b81c538ff104684e",
+   "text": "Hope that it doesn't come up in the test at all."
+  },
+  "blocks[5].questions[3].options[1].text": {
+   "quelle": "sha256:caf12ce1228884429c37d5e4267142e4fa309ba90c9803dda201abdbeec6690b",
+   "text": "Take a photo of the page and save it on your phone."
+  },
+  "blocks[5].questions[3].options[2].text": {
+   "quelle": "sha256:6a5a54465504c9d79825577aadc776dafdddf2ee2865705d4e744f12add10728",
+   "text": "Explain it to someone in your own words."
+  },
+  "blocks[5].questions[3].options[3].text": {
+   "quelle": "sha256:bb78629b740e659e73f6897d64a6e08ae77ba8bfc8009682cb8aeea80011c07b",
+   "text": "Learn only the answer to the practice exercise by heart."
+  },
+  "blocks[5].questions[3].explanation": {
+   "quelle": "sha256:a980a1504f57984eb59b83d6657dbb27962583960718a1410229fe1288903a73",
+   "text": "**Explaining it to someone** shows you exactly the places where you get stuck – that's where something is still missing, and that's where you ask or read up specifically. Hoping doesn't change the fact that you only half understand it. A photo saves the page, but not the understanding. And an answer learnt by heart won't help you if the task in the test looks a little different."
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:cce913afaa28c89f3bc9eae4732a87d45f075dc540f456dbe2229bfe65191400",
+   "text": "Planning, time and concentration"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:cd4cb986b5166373333a598430ae714624f1fbeaddc3ff00b0fa4828c616d0fd",
+   "text": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right."
+  },
+  "blocks[6].paare[0].links.text": {
+   "quelle": "sha256:73a717b03af263acb552e2461f32848b6174b0f1a7103f6cac99cc03e69e5a80",
+   "text": "“I never know how long a task will take – I get it wrong every time.”"
+  },
+  "blocks[6].paare[0].rechts.text": {
+   "quelle": "sha256:9841f0a7e86180eb8234c68dc8689937964c4081540f376418ba862ba19853e2",
+   "text": "Estimate the time beforehand and compare it with the real time afterwards"
+  },
+  "blocks[6].paare[1].links.text": {
+   "quelle": "sha256:0002b2345a072c0192b48fedb85d1a55ef2ea0683c274cde5c1dde935642e719",
+   "text": "“If something unexpected comes up, my whole plan falls apart.”"
+  },
+  "blocks[6].paare[1].rechts.text": {
+   "quelle": "sha256:47faa78a948b41d39b8b205c203900fae0065c7709719ddd9ebf48a663ff7bf5",
+   "text": "Plan in a buffer: free time for anything unexpected"
+  },
+  "blocks[6].paare[2].links.text": {
+   "quelle": "sha256:57ec1a52aae1ebd95ebb0ee5603efebbf080e5a6e628062347b6e52d04f2e548",
+   "text": "“I never start studying until the evening before the test.”"
+  },
+  "blocks[6].paare[2].rechts.text": {
+   "quelle": "sha256:a31a90f3ac49e54705c950149b7cdee4cbe38cfb6f332c642c62f563233f7721",
+   "text": "Plan backwards from the test date and spread your studying over several days"
+  },
+  "blocks[6].paare[3].links.text": {
+   "quelle": "sha256:88a12099f38f82ea656cb95de137da83af7406348398ad77a0d2e52078b23960",
+   "text": "“My notes for the project are spread across three exercise books and loose sheets of paper.”"
+  },
+  "blocks[6].paare[3].rechts.text": {
+   "quelle": "sha256:8be0f2ed32bc4d9afb23215405a0c239ccbc9fa21f54bc3047e76e250ce3450a",
+   "text": "Collect and organise everything on one topic in one place"
+  },
+  "blocks[6].paare[4].links.text": {
+   "quelle": "sha256:01cf76509ee3a2b055ea39cee594bb9a2142377a27280baf81f725a364ac2403",
+   "text": "“In the middle of studying, something else pops into my head, and suddenly I've drifted away from the task.”"
+  },
+  "blocks[6].paare[4].rechts.text": {
+   "quelle": "sha256:45cdef31bd25472d39ae6c3cbe861305e7bf0aa798925319dca983dbe391cc65",
+   "text": "Write the thought on a distraction note and go straight back to the task"
+  },
+  "blocks[6].paare[5].links.text": {
+   "quelle": "sha256:1acde52868600ef90c6b71e841460fcc1b2c8d9491f5f5731fff1a592a459e10",
+   "text": "“After an hour of studying without a break, I don't understand anything any more.”"
+  },
+  "blocks[6].paare[5].rechts.text": {
+   "quelle": "sha256:8e6d9293d9992eb6249d30565b9c7f073f7583f5a65894263e4128fc4c655aa5",
+   "text": "Plan short study blocks with short breaks in between"
+  },
+  "blocks[6].paare[6].links.text": {
+   "quelle": "sha256:4c7b7518cd1c8e84574ed41bfa907a80315c1a70541cd16a4f9354c7d5183382",
+   "text": "“I always do the hardest tasks late in the evening when I'm tired.”"
+  },
+  "blocks[6].paare[6].rechts.text": {
+   "quelle": "sha256:8fdb75eb06d3fb81c950b54483f764dd1800d8fa6ccbdcd3f65b4b43a75ca9f3",
+   "text": "Do difficult tasks at a time when I'm wide awake"
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:0b1cb03be47db4a86846276bab06708c60709de10144dae1c52dc9bed993912d",
+   "text": "A problem in four steps"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:50564b000ba772c0d5a8fbd78d8444cc4ed75e75977d30a6c33810b81d45a9f6",
+   "text": "Leandro solves a problem while organising sports day. Fill in the right words. Two of the words to choose from don't fit anywhere."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:903567340e58f6172ddf2b826c88efc76b6b0bf3f84beddeb18bb56b79d6f307",
+   "text": "Role play: The study group"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:badd79b1a40f1b61ccdf8a462b68064fbfa2b6a73d5437c57a1c9653d5eddbf8",
+   "text": "Monday, 3 pm, the school library. On Wednesday you have your geography test on weather and climate: three chapters – clouds, air pressure, wind systems. You and Elif have an hour, and Elif has a suggestion. At each step, choose how you react – different paths lead to different endings. Elif is a simulated conversation character, not a real person."
+  },
+  "blocks[8].figur.name": {
+   "quelle": "sha256:a58d27e67816f36b997f403098c9b78dce79c4604e22866a355a1835ab10f550",
+   "text": "Elif (AI character)"
+  },
+  "blocks[8].figur.rolle": {
+   "quelle": "sha256:58a847be8850796e478bf2531783d2353e9b18c27d65361afdd45116ab1bad5e",
+   "text": "Your study partner, who swears by a study hack from a video"
+  },
+  "blocks[8].figur.rollenPrompt": {
+   "quelle": "sha256:75a0437eaed09f99acf890eb2dc88d997df8e5f3392eccfbfce0c0b8d23c7bf2",
+   "text": "You are Elif, 14 years old, and you are in the same class as the person you are talking to. It is Monday afternoon in the school library; on Wednesday you both have a geography test on weather and climate with three chapters: clouds, air pressure and wind systems. You have an hour to study together. You have seen a video in which someone says you should read your summary five times, and that it goes faster with music. You find this convincing and defend it at first, for example with “But he's got two million followers!”. You don't name any real people, channels, platforms or apps. If the person asks you to explain something without your notes, you realise yourself that reading alone wasn't enough, and after that you join in keenly. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. If the person explains in a friendly way why they want to study differently, you let yourself be convinced; if they put you down, you are briefly unsure of yourself but stay friendly. You don't give advice on learning strategies and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to revising for the test in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+  },
+  "blocks[8].knoten[0].text": {
+   "quelle": "sha256:660766eb4c9ec2c8fdcc92c755c7ddef91d1d7ec50021d3c2a634e7afc2fc15a",
+   "text": "I saw a video: if you read your summary five times, it all sticks. And with music it goes faster. Shall we just read together?"
+  },
+  "blocks[8].knoten[0].antworten[0].text": {
+   "quelle": "sha256:46c3c2cb8f73641669a0d565bdbf22b3db339252ca051b3f3bcae6c1101919e3",
+   "text": "Just reading doesn't do much for me. Let's test each other instead."
+  },
+  "blocks[8].knoten[0].antworten[1].text": {
+   "quelle": "sha256:9d77c341b66d1b44c0414b4338e897d7bc8dfb6ac2f3807708980d0027a2e18a",
+   "text": "Okay, let's read it five times."
+  },
+  "blocks[8].knoten[0].antworten[2].text": {
+   "quelle": "sha256:717975ac9991b0eedec43e1d08bcd50aaf6722526ef3810e057fb386e582c6b5",
+   "text": "Who actually says that in the video – and how does that person know?"
+  },
+  "blocks[8].knoten[1].text": {
+   "quelle": "sha256:8013423e7a1bf49cf59124523ebe7512551d0dec93abbbf4b8bd860fe1953ab4",
+   "text": "Hm … some guy who does study tips. He just said so. But he's got two million followers!"
+  },
+  "blocks[8].knoten[1].antworten[0].text": {
+   "quelle": "sha256:6d2b2f9dcefe93438deb5e34132b1a9f6adf13754044d096113f7a3959e5f687",
+   "text": "Lots of followers doesn't mean it's true. Let's try and see if we can explain it without our notes."
+  },
+  "blocks[8].knoten[1].antworten[1].text": {
+   "quelle": "sha256:2e24816e868fffe0251b82bd2aa9ccd0698ae5c1e997461eb73b498fc74d5dee",
+   "text": "Then it's probably right."
+  },
+  "blocks[8].knoten[2].text": {
+   "quelle": "sha256:4fac7b7c4ea93c9ee212261b2870aac7a9a74b6fc752ac6740148740ff824acf",
+   "text": "*Twenty minutes later.* Right, that's three times through. Feels good! I think I know it."
+  },
+  "blocks[8].knoten[2].antworten[0].text": {
+   "quelle": "sha256:bf56efe09d9a554272c842df316d4a88c2b3f2fb626e35d45c0dea533fa4c633",
+   "text": "Let's test it: explain to me without your notes how an area of high pressure forms."
+  },
+  "blocks[8].knoten[2].antworten[1].text": {
+   "quelle": "sha256:8348f48825a423ad82c9ad6c2d72d69057830ca34ed221aa609a657a67fb09aa",
+   "text": "Great, then we're done."
+  },
+  "blocks[8].knoten[3].text": {
+   "quelle": "sha256:8c20c333c2ecc620adf1deb6d01c4af541d0c3549ad2485daca222aacac4607d",
+   "text": "Er … well … hang on, I knew that a minute ago. Okay, I don't know it that well after all."
+  },
+  "blocks[8].knoten[3].antworten[0].text": {
+   "quelle": "sha256:e7aa702d4679b61acf8c5afb85e06a3e3bf45e70491a34cd203ea0ad11b2bf00",
+   "text": "That's exactly what testing is good for: now we know what's still missing. Let's take turns asking each other questions."
+  },
+  "blocks[8].knoten[3].antworten[1].text": {
+   "quelle": "sha256:c8cb11c59cb11d5f9fecb3d7af21760704ecfd74dc9ecc7cd20bec3036f42570",
+   "text": "Then we'll just read it twice more."
+  },
+  "blocks[8].knoten[4].text": {
+   "quelle": "sha256:ebf0f90d1aaa4b57dff5f627f65f9f1d79dc81d62eb11e069df860ec3bef702e",
+   "text": "Okay, let's test each other. But three chapters – how do we divide up the time? And what about music?"
+  },
+  "blocks[8].knoten[4].antworten[0].text": {
+   "quelle": "sha256:f8d15aab57673862516d33b51c9cdb69e6f614f04496863055179026372e3008",
+   "text": "With or without music – let's plan: ten minutes per chapter, then a five-minute break, and the rest for what we didn't know."
+  },
+  "blocks[8].knoten[4].antworten[1].text": {
+   "quelle": "sha256:79beaf75cc1c721825e03cea4f0f2d2a79dba94b2963c173a03f33b646c5a58e",
+   "text": "Whatever, we'll just keep going until we can't be bothered any more."
+  },
+  "blocks[8].knoten[5].text": {
+   "quelle": "sha256:dbb5184f26778206402296e159c84e9d8f2e500819bf427c10af1f47e284c62e",
+   "text": "*After two chapters.* Clouds went well. But I hardly knew anything about air pressure. And we're already five minutes over time."
+  },
+  "blocks[8].knoten[5].antworten[0].text": {
+   "quelle": "sha256:f967ecc0cc7839c81608687fab62eacec82857d8d094463da6c84860df4b7338",
+   "text": "Let's mark what was unclear, do the wind systems quickly, and tomorrow we'll start with air pressure."
+  },
+  "blocks[8].knoten[5].antworten[1].text": {
+   "quelle": "sha256:8bd2d95316d7b5c409a0f4746d4ae8dabbaa6331f61f841402960cab6097fbbd",
+   "text": "Then let's stick with air pressure until we know it – we'll leave out the wind systems."
+  },
+  "blocks[8].knoten[6].text": {
+   "quelle": "sha256:15daa92edf6c3d9026402500d3b189ab28cc535c000763eb778274373bf7819b",
+   "text": "Sounds good. Tomorrow, 4 pm, air pressure – I'll bring flashcards!"
+  },
+  "blocks[8].knoten[6].auswertung": {
+   "quelle": "sha256:bfe4273b2a97b3488e33e6f878aa4d1bb7b60dece9ce5d0d56cadbd2a40d10f0",
+   "text": "**Tested and planned – very good.** Instead of relying on how you felt after reading, you tested each other – that way you noticed what had really sunk in and what you still didn't know about air pressure. You divided up your study time with fixed times and a break, and when time got tight, you adjusted the plan: you marked what was unclear, didn't leave out any chapter completely and moved the rest to tomorrow. If you read along at first: good that you changed course after the test run – if you test each other from the start, you save yourself the detour. If you asked who was behind the tip and how he knew: that is exactly how you check a statement before you take it on board."
+  },
+  "blocks[8].knoten[7].text": {
+   "quelle": "sha256:c56433a075f79446f59c372f8b68063f2f19ca6451f34895bb7ee8a42e796c3d",
+   "text": "*Wednesday, after the test.* I was totally unsure when the question on high-pressure areas came up – even though we'd read it so many times!"
+  },
+  "blocks[8].knoten[7].auswertung": {
+   "quelle": "sha256:1283233ee489d519304290fe6515f3c4b1e34a10aa5e578ccf746fd083098d7c",
+   "text": "**Reading feels safe – testing shows what has sunk in.** Reading something several times gives you a false sense of confidence: the text seems familiar, but in the test you have to recall it yourself. And a tip from a video isn't true just because it sounds convincing – check first, then use it. If you had already noticed during the test run that something was missing: that is exactly when more testing helps, not even more reading. Try a different path in the role play."
+  },
+  "blocks[8].knoten[8].text": {
+   "quelle": "sha256:1fc26df9b2c261e3d1722576105fa72e218da3f7f1ba144934db0f40bc7beb21",
+   "text": "*Half an hour later.* Oh no, we're still on the first chapter – and we haven't even looked at the wind systems."
+  },
+  "blocks[8].knoten[8].auswertung": {
+   "quelle": "sha256:fe214cb3d9fe3f4679d18eca6ee3d3c21a336d1d5e78283b3f6ee35e152db0a3",
+   "text": "**Right strategy, no time plan.** Testing each other was a good choice. But testing only helps if there is enough time for all the chapters. With a time plan – for example ten minutes per chapter, then a short break – you would have noticed in time when you needed to move on, and you would at least have looked at all three chapters. That way you would have seen where there are still gaps. Try a different path in the role play."
+  },
+  "blocks[8].knoten[9].text": {
+   "quelle": "sha256:0981e3cc7218e48bf2718b02fe49dbb9d9b8211e586eff7ec297b607fabbcd6a",
+   "text": "*Wednesday, after the test.* I knew air pressure well. But then there was a big question on wind systems – and we'd left those out."
+  },
+  "blocks[8].knoten[9].auswertung": {
+   "quelle": "sha256:e2c6b7b2b1dd87d78ee4e9acc5bbb7cc33636feb4a11a26fabf329e7c94d7452",
+   "text": "**Learnt well – but didn't plan the rest of the time.** Testing each other was great, and your time plan was a good start. But when you went over time, you left out a whole chapter – that's risky. Better: if there isn't enough time, look at every chapter at least briefly, mark what is unclear and move the rest to another day instead of leaving something out completely. Try a different path in the role play."
+  },
+  "blocks[8].abschlussfrage.prompt": {
+   "quelle": "sha256:67affb1dd74077cd626e143b5a9b7f8e55cb6e05c782eae3595b9ddb986228bb",
+   "text": "Imagine Elif defends the tip from the video with: “But he's got two million followers!” Which approach helps you most at a moment like this?"
+  },
+  "blocks[8].abschlussfrage.options[0].text": {
+   "quelle": "sha256:1d745d90351e54cf21e6b577608e9fbac53fb6357af848e2be005909fc13fc4f",
+   "text": "Ask how he knows that, and test whether you can explain it without your notes."
+  },
+  "blocks[8].abschlussfrage.options[1].text": {
+   "quelle": "sha256:2104262737718e80f9b71632779b36b057f04220deac6293f5c7358c1c7ad11a",
+   "text": "Go along with it and read it five times – that many followers can't all be wrong."
+  },
+  "blocks[8].abschlussfrage.options[2].text": {
+   "quelle": "sha256:63b4f0485d1406672436737e210cc767928918b7231f41bc92050f1cd6caace6",
+   "text": "Report the video straight away and stop studying for today."
+  },
+  "blocks[8].abschlussfrage.options[3].text": {
+   "quelle": "sha256:c63b0b16fa60800bbbeaf24b0bfdb2c166a47bf2a26bcace2a6a971b09a6cd1b",
+   "text": "First watch more videos with study tips until one of them is convincing."
+  },
+  "blocks[8].abschlussfrage.explanation": {
+   "quelle": "sha256:ce15050166a80b6e350d5ae63df205b561f732b61513cafd83ff22c2b0d35666",
+   "text": "**Asking how he knows that and testing without your notes** – that is how you check before you take something on board. With the checking question “How does the person know this?” you find out whether there is more behind the tip than just a claim. Two million followers make a tip popular, but not correct – **being popular is not evidence**. The quickest way to find out whether the material has sunk in is **testing yourselves** without your notes. Reporting the video doesn't solve your learning problem, and more videos only bring more unchecked tips."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:6b4ab1616b332c037e9a95aa3d0004c00b496d177c5085315f5edf9915ceb2d1",
+   "text": "Your learning journey, your study plan"
+  },
+  "blocks[9].intro": {
+   "quelle": "sha256:c9d017fa544cbdacfaf4bb19f0f57228d3f3cb462e75044ee8a0cf526735b5eb",
+   "text": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts."
+  },
+  "blocks[9].tasks[0].prompt": {
+   "quelle": "sha256:0c8dcde1fdbafa9a5ad20bda7473c7f785878d9e043bdae63e6718c4ec9b2814",
+   "text": "Think of a test or a project from the last few weeks. Do a **learning review** of it in 4–6 sentences:\n\n1. How well did your work turn out – did you achieve what you wanted? (You don't have to give a mark.)\n2. How did you go about it, and what helped and what didn't?\n3. What will you do differently next time – with which tool from this module, and why?"
+  },
+  "blocks[9].tasks[0].hint": {
+   "quelle": "sha256:457a98a017a7f8b288d83a5f6fcc42f9f9d88b90bc1966c83d4f0465c43a955d",
+   "text": "Think of the three questions of the learning review from the text “Solving problems and looking back”. You can find tools in the texts “Learning with a plan” and “Solving problems and looking back” – for example testing yourself, spreading out your learning, explaining it to someone, a backwards study plan with a time estimate and a buffer, study blocks with breaks, a distraction note, keeping everything in one place or the four steps for solving a problem."
+  },
+  "blocks[9].tasks[0].solution": {
+   "quelle": "sha256:e819861917fdfedb68ff8b3fffa2eaf147af6b040fec3dbb35948d2e06c00fa5",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It assesses how well the work turned out or whether the student's own goal was achieved – no matter how good the result was. (2) It describes the actual approach and names at least one thing that helped and one that didn't, each with an understandable reason. (3) It names a change for next time and justifies it with a tool from the module, for example testing yourself instead of just reading, spreading out your learning, explaining it to someone, a backwards study plan with a time estimate and a buffer, putting difficult parts at a time of day when you are wide awake, study blocks with breaks, a distraction note, keeping everything in one place or the four steps for solving a problem. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “My goal for the English test was to know all the vocabulary – I only half managed it. I read through the words twice the evening before and said them out loud. Saying them out loud helped – that way some words stuck. What didn't help was trying to learn everything at once – the next morning I had forgotten half of it. Next time I'll spread my studying over four days and test myself, because that way I'll notice sooner which words haven't sunk in yet.” How the result turned out is not what matters: honest self-observation is more valuable than a prettified story. Private details are not necessary."
+  },
+  "blocks[9].tasks[1].prompt": {
+   "quelle": "sha256:33204f5f6491b00f49f394ea5f0aac93640280bbfcd33dea70df9cccf0e20535",
+   "text": "Make a **study plan** for a test or something else you have to study for in the next two weeks:\n\n1. Estimate how much time you need in total.\n2. Working backwards from the deadline, plan at least three study sessions on different days, each with a day and a length of time – and a buffer.\n3. For each session, write down which learning strategy you will use."
+  },
+  "blocks[9].tasks[1].hint": {
+   "quelle": "sha256:c8926ef5732d9a66fb0384bad121e8539fd41087cd7d039f99702802b6ff9878",
+   "text": "Plan backwards: first write down the deadline and work back from there. Estimate the time for each part, plan in a buffer for anything unexpected and choose a strategy from the text “Learning with a plan” for each session: test yourself, sketch something from memory or explain it to someone. Spreading your sessions over several days already counts as spreading out your learning."
+  },
+  "blocks[9].tasks[1].solution": {
+   "quelle": "sha256:7b6fad8a3a993c9ee2caacbb451d91e91c6a7cf5952d58fe2c4cd75a74f94b74",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) There is an estimate of how much time is needed in total. (2) There are at least three study sessions with a day and a length of time, spread over different days working backwards from the deadline, plus a buffer for anything unexpected. (3) A suitable learning strategy is named for each session, for example testing yourself (perhaps with flashcards), drawing a sketch from memory or explaining it to someone – not just “reading” or “revising” without testing. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “History test on Friday in two weeks' time; I estimate that I need about three hours in total. Planned backwards from the deadline, here in chronological order: on the Wednesday of the week before, 45 minutes reading the first chapter and then drawing a sketch from memory; on the Saturday before, 45 minutes summarising the second chapter and testing myself; on the Tuesday before the test, 40 minutes studying the third chapter and explaining it to someone in my class; buffer: on the Wednesday before the test, a free half hour for whatever hasn't sunk in yet; on the Thursday before the test, 20 minutes testing myself with flashcards.” A goal or milestones are not required here – it's about estimating time, a buffer and learning strategies. Private details are not necessary."
+  },
+  "blocks[10].title": {
+   "quelle": "sha256:76a2379040bde64a3ed5edcace3d7eed0a17f21fcd6d44f440bbedb523c84d45",
+   "text": "What next?"
+  },
+  "blocks[10].body": {
+   "quelle": "sha256:c39951ea58f977a7e862a8961dee18512da8b6ad203df3f6e5b1491b054eacd0",
+   "text": "Well done! You have practised tools for your learning: checking information, learning effectively, planning your study time, solving problems step by step and looking back.\n\n- **Try out a tool** – for example your study plan from the last task. And do a learning review after the test.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ },
+ "pakete": {
+  "blocks[7]": {
+   "quelle": "sha256:6549072119c15fca3a3e2c858c74c325c27b67837289069b938ac6dbda8589e4",
+   "inhalt": {
+    "text": "Leandro is helping with sports day and realises three days beforehand: there aren't enough balls for the games. First he wants to {{1}} the problem: exactly how many balls are missing, and by when does he need them? Then he makes a {{2}} with several options: asking other classes for balls, playing with fewer balls in bigger groups or choosing games without balls.\nHe decides on the first option and {{3}} asking other classes for balls. At the end he {{4}} whether it was enough: yes, there are enough balls.\nFinally, he looks back in a short {{5}}: How well did sports day go, what helped, and what will he do differently next time? He wants to count the balls a week earlier.",
+    "luecken": [
+     [
+      "understand"
+     ],
+     [
+      "plan"
+     ],
+     [
+      "tries"
+     ],
+     [
+      "checks",
+      "tests"
+     ],
+     [
+      "review",
+      "learning review",
+      "reflection"
+     ]
+    ],
+    "ablenker": [
+     "quarrel",
+     "hopes"
+    ]
+   }
+  }
+ }
+}

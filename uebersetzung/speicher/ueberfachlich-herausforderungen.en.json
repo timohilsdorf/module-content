@@ -1,0 +1,561 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:da2ed29cb0bf52598452b05650e728803220f320b7ea165b1c7690cb586ad8b2",
+   "text": "How I deal with challenges"
+  },
+  "description": {
+   "quelle": "sha256:7cecf4ce6980ad1f58cd0d65e8b9af0e3902356392d6fbde2a70c66f42399973",
+   "text": "How do you react when a task doesn't work out, you make a mistake or a test goes badly? After a short self-assessment you will get to know tools that help you stay calm in difficult learning moments, learn from mistakes and keep going – you practise them in a quiz, a matching task, a gap-fill text and a role play, and think about your own experiences."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "einheit": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:9092de6b6c9cd8b206fd84efab29c5617e14f771a41c2a77950a91fc4488cbea",
+   "text": "Resilience"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:8302925ce5f5d7fe6dea3d199029bfa3b144db0da4c47630635dbc3a056280b7",
+   "text": "Frustration"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:f6cc01cb7edbf0a8cf6e5cccee775d1a622ea3778333031685dc79d62c157e91",
+   "text": "Mistakes"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:54dc50d1a79b4171252d9bb89f92201af556cd3317059a7dd6fef7b054aadd04",
+   "text": "Setbacks"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:d8033f6baef90a59408348e855fb1495597bb0c7fbcd0396932ac470b3d9be2e",
+   "text": "Perseverance"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:0db51f23769bedf432461841f7f5bb87d025879d951dcfc58582946d5612517d",
+   "text": "Staying calm"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:45400ec724e7b9e508074974a1fb73da471adeb9c878a3fe1670c9d17c83e16b",
+   "text": "Nervousness"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:96aa95e35321f78bcd7c5a993eb15e18b5cf4e4f45d3697123aac96bf2b884e7",
+   "text": "Self-assessment"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:025b45ad72184cfbba1b692420551eb9e98eb58a144f00e947842a7f57a7f960",
+   "text": "I can describe how I calm down in a difficult learning moment with “Stop – breathe – name it”."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:2c2043233eedebbf066de24eb777c8018f91334f7e1ca279b2b0cdab93a991d6",
+   "text": "I can explain why a break with a fixed time to come back helps me cope with frustration instead of giving up."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:a4c93f54182b8b347c9b543e89c90ed6eb53e60432a74478550db69c5170e735",
+   "text": "I can examine a mistake with the three questions of the mistake detective and tell a careless mistake apart from a gap in knowledge."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:7c12773ce4e060c199ca766df4c24deff29d243ef9f1861d0812ef74cddd3554",
+   "text": "After a setback, I can work out what I can influence and plan a next small step."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:ed79dd9c94a30726ca1140cd66b4bdf9d7f6b272520a29bf6d83d68819efc247",
+   "text": "I can name ways of sticking with a difficult task: trying a different way, asking for help in a targeted way, thinking “not yet” instead of “never”."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:da2ed29cb0bf52598452b05650e728803220f320b7ea165b1c7690cb586ad8b2",
+   "text": "How I deal with challenges"
+  },
+  "blocks[0].intro": {
+   "quelle": "sha256:33a3b7fdba1defe1f04c7c56953df51c5a49c2130f6b499893ff9bb7f969f184",
+   "text": "Difficult tasks, mistakes and setbacks are part of learning. Here you assess how you deal with them – without putting yourself down: this is about looking honestly."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:13d599f2e906a863e6d06c3f9ae41d3e11b1f19483f2d97af2caa695d727d5a1",
+   "text": "Notice first, then decide"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:ee6987f1eb1716bf8de65af5795a568c70ef261a39fb9d59c06e1ab0a5d1032c",
+   "text": "Maths test, question 3. You read it twice – and don't understand a thing. Your heart is pounding, your mind goes blank. What you'd really like to do is turn the sheet over and give up.\n\nAnger, nervousness and frustration in difficult moments are **normal**. They show that something matters to you or is hard for you right now. The aim is not to feel nothing. **Regulating** a feeling means: you notice it – and then decide **for yourself** how you act.\n\nThe tool **Stop – breathe – name it** helps with this:\n\n1. **Stop:** Pause for a moment and don't react straight away.\n2. **Breathe:** Breathe in and out slowly two or three times.\n3. **Name it:** Tell yourself in your head what is going on: “I'm frustrated right now.” Once something has a name, it often gets smaller.\n\nThen you decide, for example: I'll switch to a question I can do and come back later.\n\n**Coping with frustration** doesn't mean fighting on without a break. A **break with a fixed time to come back** (“five minutes, then I'll carry on”) is something completely different from giving up. During the break your head clears again, and with a clear head you are more likely to find a solution. The fixed time to come back makes sure that the break doesn't turn into stopping.\n\nIf something weighs heavily on you for a long time, talk to someone you trust or to your teacher.\n\n**The feeling is allowed to be there – but you decide.**"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:ebace25052f9114bd3a9deec27f95293a39c6806bce0e32a61a381c612f9f0d6",
+   "text": "Mistakes as clues"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:348b399fa96781934b97db949a15ce0f035649efb86fb61b493465e011c39f78",
+   "text": "The test comes back, with red marks everywhere. What you'd really like to do is make it disappear at the very bottom of your bag – and never look at it again.\n\nYet every mistake contains valuable information. It shows you exactly **where** you can still learn. A mistake is a **clue**, not a verdict on you.\n\nBecome a **mistake detective** and ask three questions:\n\n1. **What exactly is wrong?** Not “everything”, but the exact spot: which question, which step.\n2. **Why did it happen?**\n3. **What will I do differently next time?**\n\nFor the second question, it helps to know two common kinds of mistake:\n\n- **Careless mistake:** You actually know how to do it, but you were too fast or not concentrating. What helps: checking at the end, for example checking a calculation with a rough estimate or reading every sentence again.\n- **Gap in knowledge:** You didn't know how to do it. What helps: asking, getting someone to explain the method to you and practising again.\n\nIf you only look at the mark, you throw these clues away. Mistakes in practice exercises are especially valuable: they don't count, but they show you exactly the same things as mistakes in a test.\n\n**Every mistake answers a question: What do I learn next?**"
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:dd0a300f507844ce2892c102f216d2df4130470245da90482bc4ce8fe9de5bf6",
+   "text": "Setbacks – and how to keep going"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:c8926989db6884d009fbcec1987ea401feceaaaa602230f580152ca39b4dec6e",
+   "text": "For two weeks you practised for your keyboard performance in music – and then you play a wrong note right at the start. After that, nothing works any more. “I just can't do this,” you think.\n\nA **setback** often feels bigger than it is. Instead of “I'll never be able to do this”, the sentence **“I can't do this yet”** helps. The little word “yet” keeps the door open.\n\nAfter that, the **setback plan** with three questions helps:\n\n1. **What can I influence?** You can change your preparation, but usually not the task itself.\n2. **What is my next small step?** For example, playing just the beginning of the piece slowly ten times.\n3. **Is there a different way?** If you take the same route a third time, you often end up in the same place again.\n\n**Perseverance** means sticking with something even when it gets difficult – with breaks, not without them.\n\nGetting help is part of it. Try **on your own first, then ask a specific question**: say exactly where you are stuck. “I don't understand anything” doesn't help much. “I get as far as step 2, then I'm stuck” shows where the help can start.\n\n**Not “never”, but “not yet” – and then the next small step.**"
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:a466f7cac7756104cb62ee21ef6c0256579b110b337af62c8accf624046eb598",
+   "text": "Quiz: What helps now?"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:cbe55f471aa3746060a162a882d44b1de2eb80fad7f9a4372c0eee7d4433ccc7",
+   "text": "Five situations from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[4].questions[0].prompt": {
+   "quelle": "sha256:56e7e6a02d682b98a6d4a7514e27e9ca6b5a2779fa9a439027cb5b9209424baf",
+   "text": "In a French listening exercise, you miss the very first sentence. Now you don't understand anything any more, and you notice yourself getting flustered. What helps you most?"
+  },
+  "blocks[4].questions[0].options[0].text": {
+   "quelle": "sha256:1034286e2aa19b92fbdb2bcfaf45548cfba38a89b1150450112017346bb7842b",
+   "text": "Give up and take your headphones off – there's no point any more anyway."
+  },
+  "blocks[4].questions[0].options[1].text": {
+   "quelle": "sha256:63645af02fc18cd158053870fb60494647f3cb1daf952e200b08d6f7cd19747c",
+   "text": "Try desperately to replay the missed sentence in your head."
+  },
+  "blocks[4].questions[0].options[2].text": {
+   "quelle": "sha256:d1cfeb22bd6e792084a68840a21330da483b12a7dfc85801058bee72f028a5e8",
+   "text": "Pause for a moment, breathe calmly and pick up again at the next question."
+  },
+  "blocks[4].questions[0].options[3].text": {
+   "quelle": "sha256:967a810bcaab77c9e43961a27f953e886e4606ace3d932b7b951fb340e799293",
+   "text": "Quickly tick any answer for all the questions so that it's finally over."
+  },
+  "blocks[4].questions[0].explanation": {
+   "quelle": "sha256:b245053a4df1de445c5503b5afe28215a1564961a72dbaa8a8cf6ee77bd3b99f",
+   "text": "What helps most: **pausing for a moment, breathing calmly and picking up again at the next question**. That is **Stop – breathe** followed by a conscious decision: you can't get the missed sentence back, but you can still answer the next questions. If you give up, you let the feeling decide. If you keep dwelling on the missed sentence, you miss the next one too. And ticking answers at random rarely earns points."
+  },
+  "blocks[4].questions[1].prompt": {
+   "quelle": "sha256:46957a4bb242d6930cccd4636195fa20253c2f07f9d86b6683ec34fd95d017a4",
+   "text": "For the third time, the video you made for English hasn't saved. You are really angry. What is the best next step?"
+  },
+  "blocks[4].questions[1].options[0].text": {
+   "quelle": "sha256:d08b47407b426dac537eb797018e98382d2b8cb4ac84c0918b20da3d09404738",
+   "text": "Take a five-minute break and then calmly work out what the problem is."
+  },
+  "blocks[4].questions[1].options[1].text": {
+   "quelle": "sha256:cc03a6ad1a374e2e25dad2285dc8a8a66c83fbd0bc29d13432057e0729fcecc7",
+   "text": "Bang the tablet down on the table to let your anger out."
+  },
+  "blocks[4].questions[1].options[2].text": {
+   "quelle": "sha256:93fece97e39325548b227109e5a986bc816cd19df5fb3c3efd459cde46903c43",
+   "text": "Record it a fourth time straight away, even though you're still really angry."
+  },
+  "blocks[4].questions[1].options[3].text": {
+   "quelle": "sha256:64b25289c1504ff08e629937a857d9ae14f76c39613b479375d4141e148fb7ee",
+   "text": "Drop the task completely and just say that the tablet is broken."
+  },
+  "blocks[4].questions[1].explanation": {
+   "quelle": "sha256:fcf2ef72d00ca0afcaf919c8a7b7c9fdb3de34b5e9847c2b56cd91849b0ed136",
+   "text": "The best step is: **taking a five-minute break and then calmly working out what the problem is**. That is a **break with a fixed time to come back**: first you calm down, then you solve the problem – with a clear head you are more likely to find out why saving doesn't work. Banging the tablet down lets the anger decide. Recording a fourth time while still just as angry is taking the same route again – probably with the same result. An excuse only puts the problem off."
+  },
+  "blocks[4].questions[2].prompt": {
+   "quelle": "sha256:1db05a52d0e66e6b139ef50b412e6e3bedc7f2f9098565a278d29e0a92172272",
+   "text": "On sports day, your class loses the relay race by a whisker. You feel the anger rising and want to shout something loud at the other class. What helps?"
+  },
+  "blocks[4].questions[2].options[0].text": {
+   "quelle": "sha256:9bb21f92715a3138b640229437b91d4ad623cc1c0e182f361dd4db211211d6de",
+   "text": "Shout out what you're thinking straight away – anger just has to come out."
+  },
+  "blocks[4].questions[2].options[1].text": {
+   "quelle": "sha256:e8e5911aec3bbb99265c335c7475aecf5c171db6293ae186f249a026cae12aaf",
+   "text": "Act as if you don't care at all and swallow the anger."
+  },
+  "blocks[4].questions[2].options[2].text": {
+   "quelle": "sha256:828f3bea1945eadfb19c4bad10057aba900023067dbdf72dc81e16e8b54c78b0",
+   "text": "Take your anger out on your teammates, who were too slow at the handover."
+  },
+  "blocks[4].questions[2].options[3].text": {
+   "quelle": "sha256:92cda5e573ca40904b4cb0aaff21c736ee70af77b1f91b2db17955722597fd9d",
+   "text": "Stop, take a deep breath, tell yourself “I'm angry right now” – then decide."
+  },
+  "blocks[4].questions[2].explanation": {
+   "quelle": "sha256:58f8c681d7bee11a9149482db9cbffb8c9dcde3c43e4bfeddf745ebdfd18ec20",
+   "text": "What helps most: **stopping, taking a deep breath, telling yourself “I'm angry right now” – and then deciding**. That is **Stop – breathe – name it**: the anger is allowed to be there, but **you** decide what you do. If you shout straight away, you let the anger decide and might say something you regret afterwards. Swallowing it doesn't help either: then the feeling is just hidden. And if you take the anger out on your own teammates, you hit the wrong people."
+  },
+  "blocks[4].questions[3].prompt": {
+   "quelle": "sha256:4cdc23cb745298c76280d2ee34941c55d1087e0d4765120bdf66d888280a63ab",
+   "text": "In woodwork, you have been sawing at the same curve for twenty minutes, and every time it comes out crooked. What helps?"
+  },
+  "blocks[4].questions[3].options[0].text": {
+   "quelle": "sha256:13f9c79e9dafedae806d86df5a3dedb6426d5da447e5a9956fe9e23253dc4f08",
+   "text": "Stop and leave it – you're just not any good at woodwork."
+  },
+  "blocks[4].questions[3].options[1].text": {
+   "quelle": "sha256:e16960cd2a02a95c2428a7795d08ee943b77c5846866823f74bef0dbde1092ec",
+   "text": "Take a five-minute break, then practise the curve slowly on a spare piece."
+  },
+  "blocks[4].questions[3].options[2].text": {
+   "quelle": "sha256:d6282379b8a33a8d213fb30b4f1b0f235dfafbfccf6aaea84f69aa907087349c",
+   "text": "Keep sawing without a break until it works, however long it takes."
+  },
+  "blocks[4].questions[3].options[3].text": {
+   "quelle": "sha256:d2d7b35c4ebc2e4d53f5f82446f4185a5d4b38d8d19cb2451aa9e319f7b6f302",
+   "text": "Simply leave out the curve and hand in your piece with square corners."
+  },
+  "blocks[4].questions[3].explanation": {
+   "quelle": "sha256:886b7e10dbc1711bffed026c5f129ac3184d2b27ed12afe84ab52db8797b15fa",
+   "text": "What helps most: **a five-minute break, then practising the curve slowly on a spare piece**. The **break with a fixed time to come back** helps you cope with the frustration without giving up. Practising on a spare piece is a different way from just sawing on and on. “I'm just not any good at it” is a “never” instead of a “not yet”. Sawing on without a break often only makes you more tired and frustrated. And if you leave out the curve, you avoid it – that way you can't learn it."
+  },
+  "blocks[4].questions[4].prompt": {
+   "quelle": "sha256:2d51e9ffbe833c4066fa0ffc7502af9687d3cd5d06c1ea7d7f84e44c652535c3",
+   "text": "You're about to give your presentation to the class. You are very nervous. What is most likely to help?"
+  },
+  "blocks[4].questions[4].options[0].text": {
+   "quelle": "sha256:e086e53352c133d669ddcf1d4dcee9384de6ce46ecfec78752fe3cf868d26567",
+   "text": "Keep telling yourself firmly that you mustn't be nervous under any circumstances."
+  },
+  "blocks[4].questions[4].options[1].text": {
+   "quelle": "sha256:7627afbb195f72227b6fec52bddbc10eaa53af6c3b3d1858b4aab5b3ff7b5265",
+   "text": "Call off the presentation at short notice and move it to another day."
+  },
+  "blocks[4].questions[4].options[2].text": {
+   "quelle": "sha256:74e862d5eb25efa402a2b47767cb9de57131c6376db1d25206764f8f11ccee17",
+   "text": "Accept nervousness as normal, breathe calmly, say the first sentence quietly."
+  },
+  "blocks[4].questions[4].options[3].text": {
+   "quelle": "sha256:26040f0ff1d4d150a19bf4387c27635dd06a75f649885aa7ef63c779ceefd38f",
+   "text": "Speak as fast as possible so that it's all over really soon."
+  },
+  "blocks[4].questions[4].explanation": {
+   "quelle": "sha256:a07c92d332dd1dd7b9adaeef4d420a2f22a55ed85c08aeb59071d464ce27fe7d",
+   "text": "Most likely to help: **accepting the nervousness as normal, breathing calmly and saying the first sentence quietly**. Nervousness shows that the presentation matters to you – you don't have to make it go away. Breathing calmly helps many people to become a little calmer, and the first sentence gives you a fixed starting point. Forbidding yourself to be nervous often only makes you more tense. Calling it off only puts the problem off. And if you speak too fast, people understand you less well – and you often get even more nervous."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:02589235c87b17573c859452ec8aecc9ebf76635d04fbc9d2cdefeeb63527ae8",
+   "text": "After the setback"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:cd4cb986b5166373333a598430ae714624f1fbeaddc3ff00b0fa4828c616d0fd",
+   "text": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right."
+  },
+  "blocks[5].paare[0].links.text": {
+   "quelle": "sha256:2571ac6b8c62d92cf00085ba9054e9f2be5a60f89ad7a72fcbe05282912bcb22",
+   "text": "“The test went badly – I'm just too stupid for French.”"
+  },
+  "blocks[5].paare[0].rechts.text": {
+   "quelle": "sha256:eac20f6c6af2166a4bbd2099a08d692244a5d391481943ee5a2b2818cda83474",
+   "text": "Think “not yet” instead of “never”: I can't do it yet, but I can learn it"
+  },
+  "blocks[5].paare[1].links.text": {
+   "quelle": "sha256:4687842ad8fc04a3a20a91561392c1f344f2c9a1a88e9e1063806f82cf8777af",
+   "text": "“I've got no idea why it didn't work.”"
+  },
+  "blocks[5].paare[1].rechts.text": {
+   "quelle": "sha256:3e228370405bda99da146d7b93af5a59faadbd7355bbc23833a1b990ece1c766",
+   "text": "Use the mistake detective to check: What exactly was wrong, and why?"
+  },
+  "blocks[5].paare[2].links.text": {
+   "quelle": "sha256:40c45a984d87f5c18c4f68b2dcab73b3e97c9ef51775f6ce4f5a6b1d6c35e0b7",
+   "text": "“So much went wrong – I don't know where to start.”"
+  },
+  "blocks[5].paare[2].rechts.text": {
+   "quelle": "sha256:1c00c30fc6c08150ea651e15aae2f7dd2cc07ac126796c9815ad2a3dba774b8c",
+   "text": "Ask what I can influence and choose a next small step"
+  },
+  "blocks[5].paare[3].links.text": {
+   "quelle": "sha256:ebe77699966690341eb54b710b3975cbb868efe8f1383cdb58d3cad831df8aa9",
+   "text": "“After a quarter of an hour of practising, I just want to throw it all in.”"
+  },
+  "blocks[5].paare[3].rechts.text": {
+   "quelle": "sha256:689e3f8335b3ac766095746e514d2cf2dc5c62160f62cec06d497473f30ff2a2",
+   "text": "Take a short break with a fixed time to come back instead of stopping"
+  },
+  "blocks[5].paare[4].links.text": {
+   "quelle": "sha256:c0c44de70184c1a66155fd1f273eb0f02e8c9c1ec2700f37f115b5c8d1bc30fd",
+   "text": "“When something doesn't work, I get so angry that I say things I regret afterwards.”"
+  },
+  "blocks[5].paare[4].rechts.text": {
+   "quelle": "sha256:0e2d730f42c224e0819ff3d88cb060dbc6b61b61e57a5f8b80918a8f15175ad8",
+   "text": "Stop first and tell myself “I'm angry” – then decide what I say"
+  },
+  "blocks[5].paare[5].links.text": {
+   "quelle": "sha256:065f21354a703b5f9e1aa0d9154cf41d9ab3b9769f39c33d12e6aefa82e1863c",
+   "text": "“I tried it exactly the same way twice, and it went wrong twice.”"
+  },
+  "blocks[5].paare[5].rechts.text": {
+   "quelle": "sha256:4d00f6426d26bd4d144a1c6978cc8b6973fc3fac66dfe6071de4bf0f5f54aa77",
+   "text": "Try out a different way instead of the same one again"
+  },
+  "blocks[5].paare[6].links.text": {
+   "quelle": "sha256:1b453b86a0dabcd942584210f6c72bd2728f928354bd06026f296fe7a5ff8b64",
+   "text": "“I'm stuck on the task and just wait until the teacher happens to come round.”"
+  },
+  "blocks[5].paare[6].rechts.text": {
+   "quelle": "sha256:8dcfd88db17121ffc9d576b89d2acfd055e271dd530428e6a2661d9bdcdd5759",
+   "text": "After trying it myself, ask in a targeted way and say exactly where I'm stuck"
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:63ba06e38c2287c7c709c148e7ccbd4364d8471c486c7db6758ac07156dbaa26",
+   "text": "The mistake detective"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:8fd11881d796178a1fbbd172c04804f25302c48727aeac7bc57a2c6a89f05b55",
+   "text": "Matteo gets his maths test back and examines his mistakes. Fill in the right words. Two of the words to choose from don't fit anywhere."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:11982c6f009d4f5f3881197568ffe640d5ac391eae8f167f29ba4e1ea52a5a58",
+   "text": "Role play: The bridge won't hold"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:30a109a815032ab0926a189ed859905d872fd67395cf4f5c7ede9c43c9337ac2",
+   "text": "Project week, Friday, 1.20 pm. You and Ben have spent the whole morning building a bridge out of newspaper and sticky tape. It is supposed to carry a book between two tables. At the first test, it buckles in the middle. At 2 pm all the groups present their bridges. At each step, choose how you react – different paths lead to different endings. Ben is a simulated conversation character, not a real person."
+  },
+  "blocks[7].figur.name": {
+   "quelle": "sha256:0aef25548811aa5e74e0a3a929361b6762430ae054758ce56d5b07a68e89fcd0",
+   "text": "Ben (AI character)"
+  },
+  "blocks[7].figur.rolle": {
+   "quelle": "sha256:ece3ea4d62bca0b1dbd7ec25ea491c2ad28134bf5d4250086818b42e96a93429",
+   "text": "Your teammate in project week, who would rather give up after the collapse"
+  },
+  "blocks[7].figur.rollenPrompt": {
+   "quelle": "sha256:f38ce6fd162b04dd72ed88c3be543c5510040ca7e1f4ec5efee5f48ad6d39f6c",
+   "text": "You are Ben, 14 years old, and you are in the same class as the person you are talking to. It is Friday of project week, 1.20 pm. You have spent the whole morning together building a bridge out of newspaper and sticky tape that is supposed to carry a book between two tables. In the test it buckled in the middle; at 2 pm all the groups present their bridges. You are frustrated and a bit hurt, and at first you suggest giving up or just showing the broken bridge, for example with “The whole morning for nothing” or “We'll never manage to build a new one”. If the person blames you, you react by blaming them back. If they stay calm and make suggestions, you become more motivated again step by step. You have seen that group 3 is building with folded paper strips, and you can mention that. You don't show off expert knowledge about structural engineering. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. You don't give advice on dealing with feelings, mistakes or setbacks and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to the bridge in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+  },
+  "blocks[7].knoten[0].text": {
+   "quelle": "sha256:b636aa40f1401b5e2be5a9dab451abe4d51f39babff92c17b995f11f283cdc40",
+   "text": "No! The whole morning for nothing. I can't be bothered any more. We'll just say it broke, end of story."
+  },
+  "blocks[7].knoten[0].antworten[0].text": {
+   "quelle": "sha256:73caf23834dc37a7df9ad2cab9e23a2ebb891965c7ad611416c9b99b5000ab58",
+   "text": "Let's take a deep breath first. Then we'll look at where exactly it broke."
+  },
+  "blocks[7].knoten[0].antworten[1].text": {
+   "quelle": "sha256:d7178e34b36d47005d6f8890e79806b1783f33febfde02ec34b2c275c8ccf337",
+   "text": "This is your fault, you taped the middle!"
+  },
+  "blocks[7].knoten[0].antworten[2].text": {
+   "quelle": "sha256:afba4c1966320128dbcaf656ddbb9bdd9095c804d8a8a27196d728850dbcfd92",
+   "text": "Yeah, forget it. We'll just show the broken bridge."
+  },
+  "blocks[7].knoten[1].text": {
+   "quelle": "sha256:2c3ba89a7cfbfe1f83e112b2ac49926930470d7285880df147b64d67eaca9597",
+   "text": "So now it's my fault? You were the one who said the middle was fine like that!"
+  },
+  "blocks[7].knoten[1].antworten[0].text": {
+   "quelle": "sha256:808c2dc1977944d12bad6c3b10e4d4d16e2eb83d80b44526a5a97e9c962fdc35",
+   "text": "True, we decided that together. Sorry. Let's look at what exactly happened instead."
+  },
+  "blocks[7].knoten[1].antworten[1].text": {
+   "quelle": "sha256:0c688f42f175c821f63d122554ccbcbbf722037a920034578fab80ad81dbb207",
+   "text": "Whatever, then I'll do it on my own."
+  },
+  "blocks[7].knoten[2].text": {
+   "quelle": "sha256:10dad8a74a4844aa97955a8aa83df83e895ed86aff426ceca1ef578b521daa11",
+   "text": "Hmm … *Ben looks over at the other tables.* The others all have something to show. But we'll never manage to build a new one."
+  },
+  "blocks[7].knoten[2].antworten[0].text": {
+   "quelle": "sha256:0e51fed2727424563079d19c46f1529b1a55059efbdd773fbe68da32d1bc7169",
+   "text": "We've still got 40 minutes. Where exactly did it break, then?"
+  },
+  "blocks[7].knoten[2].antworten[1].text": {
+   "quelle": "sha256:57c0dccbd9f48b2399ebe9e7bc8dfed1b4d438562b8c7659057f4211f2d659ef",
+   "text": "That's just how it is. We just can't do it."
+  },
+  "blocks[7].knoten[3].text": {
+   "quelle": "sha256:5a880b4a1f8a3a3ef8cb9abdbf4bcb9e47c9be188bbfc244b7b4c262c2301c6e",
+   "text": "Okay … It buckled right in the middle, where the book goes. We can't build the whole thing again now."
+  },
+  "blocks[7].knoten[3].antworten[0].text": {
+   "quelle": "sha256:2c876d4833cf1a756695e5d49fcd18e1be98ddf5a059718651100d4aa3bdda8c",
+   "text": "We don't need to. The flat paper simply bends under the book. What if we only strengthen the middle – with folded strips, for example?"
+  },
+  "blocks[7].knoten[3].antworten[1].text": {
+   "quelle": "sha256:94a7bfad1fe8a5a5bd1f814f9cf9e5aa000bb05c78470d540b7c469d02c92340",
+   "text": "Then we'll just stick loads of tape on it and hope."
+  },
+  "blocks[7].knoten[4].text": {
+   "quelle": "sha256:d4fbf647b6c68c7783fe07c0433c5593d02e0119440301292f12a23f525b6b6c",
+   "text": "*You wrap five layers of sticky tape around the middle and put the book on it.* It holds for a moment – and buckles again. See? It's no use!"
+  },
+  "blocks[7].knoten[4].antworten[0].text": {
+   "quelle": "sha256:c9922f1db28a34144b20971cca63d519c8d98439490e9a2b6db3e492f37f2257",
+   "text": "Then let's look more closely: the paper is too flat. Folded, it might be more stable."
+  },
+  "blocks[7].knoten[4].antworten[1].text": {
+   "quelle": "sha256:6aa1a174fbf4263452613c3e012237f08fbfeef8862a20def649168764d508ec",
+   "text": "I give up."
+  },
+  "blocks[7].knoten[5].text": {
+   "quelle": "sha256:d570770e4e2b8e1773487ec04c5160c5c88fb2e7b3fd7db8e1db6c6f478032b0",
+   "text": "Folded, like a fan? Group 3 is doing it like that. Okay … but what if it doesn't hold again?"
+  },
+  "blocks[7].knoten[5].antworten[0].text": {
+   "quelle": "sha256:9be226ddbfdfec3b85962029ce175f054eb78f26da33b73caccdae67d28e7bab",
+   "text": "Then at least we'll know more than before. We'll build for 15 minutes and then test it."
+  },
+  "blocks[7].knoten[5].antworten[1].text": {
+   "quelle": "sha256:665080301c5b7bbd8945e460e7e10b5eec24b81925a5f821c1a51ee4c1ed744c",
+   "text": "Come on, let's ask group 3 if we can just present with their bridge."
+  },
+  "blocks[7].knoten[6].text": {
+   "quelle": "sha256:aca857e7b79608157a5008fc3ee7f984d062c458b9b2420b902dddbb457234b9",
+   "text": "*You fold strips and tape them under the middle. The book goes on top.* It bends – but it holds! Ten minutes to go. What do we say about the first attempt in the presentation?"
+  },
+  "blocks[7].knoten[6].antworten[0].text": {
+   "quelle": "sha256:a43a36b13daaeeb06b3b6ad10f3d3319ba284f09e36a954d1170acf855d155ae",
+   "text": "The truth: the first bridge broke, and we found out that folded paper carries more."
+  },
+  "blocks[7].knoten[6].antworten[1].text": {
+   "quelle": "sha256:0879c2044b9ef0a799c27a66f80310f556c62835e364d6b6e339cdcc6f254b9b",
+   "text": "Nothing. We'll pretend it worked from the start."
+  },
+  "blocks[7].knoten[7].text": {
+   "quelle": "sha256:0877146664acb27944972fb6f2062722a3961a3811531446ea21f6a8b692319a",
+   "text": "True, that was actually the most interesting part! *In the presentation you talk about the collapse and your solution. The teacher asks questions, and several groups make a note of your trick.*"
+  },
+  "blocks[7].knoten[7].auswertung": {
+   "quelle": "sha256:937c6c8f379cce8da1d3336a645f271838bb589e3b2ba9f599d30c0a410d41d6",
+   "text": "**Used the setback and kept going – very good.** You examined the break like mistake detectives (What exactly is wrong? Why?), tried a different way and tested again after a small step. And you talked openly about the collapse: that way your mistake becomes a clue for the other groups too. If along the way you first looked for someone to blame, wanted to give up or relied on more sticky tape: good that you changed course – taking a deep breath and looking closely first saves you that detour."
+  },
+  "blocks[7].knoten[8].text": {
+   "quelle": "sha256:b6e06193bc773a217d9aa124f2d713b87cd1d4f8ad4a57c8f6ae3267297c29af",
+   "text": "Phew, done it! *The bridge holds during the presentation. Nobody finds out what you discovered along the way.*"
+  },
+  "blocks[7].knoten[8].auswertung": {
+   "quelle": "sha256:f4b19b3e3ac62f4913c2f1d4465aef1a871d32bcf61c954654f4131c5e26d5af",
+   "text": "**Kept going – but hid the mistake.** In the end you didn't give up, you examined the break and found a different way with folded strips – that is perseverance. But keeping quiet about the collapse throws away the most valuable part of your work: it shows why folded paper carries more. A mistake is not a verdict on you but a clue – for the other groups too. Try out a different path in the role play."
+  },
+  "blocks[7].knoten[9].text": {
+   "quelle": "sha256:2d54547f8841264a0230cc0005fd8d2b5915f872281fe5f2f3cb57cb1bed1049",
+   "text": "Fine. *You show the buckled bridge. Later you see that group 3 built with folded strips – exactly what you were missing.*"
+  },
+  "blocks[7].knoten[9].auswertung": {
+   "quelle": "sha256:10bf015ead65d9eed93c91e7f6f8c89c49f76b354a64af506d84c1055b078a2e",
+   "text": "**Gave up too early.** Whether right after the collapse (“We just can't do it”) or after the sticky tape attempt (“I give up”): here you thought “never” instead of “not yet”. The setback plan would have worked in the time that was left. What can we influence? The middle of the bridge. What is the next small step? Looking closely at why it gives way there. Is there a different way? Folded instead of flat paper. If you tried it with more sticky tape: that was the same way again, not a different one. Try out a different path in the role play."
+  },
+  "blocks[7].knoten[10].text": {
+   "quelle": "sha256:bcef5711399e4b1eeebc709de5584a3757dec329356ebaaf0056376ad91bfb46",
+   "text": "Go on then, do it. *Ben moves away and sits down. You carry on building on your own, but there isn't enough time.*"
+  },
+  "blocks[7].knoten[10].auswertung": {
+   "quelle": "sha256:6e66ed97a85a891b77db813140f70354fe50c9855a039aa72bf6ebfa08b18233",
+   "text": "**Anger instead of a plan.** The question of whose fault it was didn't help the bridge – and on your own there isn't enough time. What would have helped is **Stop – breathe – name it**: pausing for a moment, telling yourself “I'm angry right now” and then deciding what you do. After that you could have examined the break together – that way the mistake becomes a clue instead of an argument. Try out a different path in the role play."
+  },
+  "blocks[7].knoten[11].text": {
+   "quelle": "sha256:a56884afedc17876bb972a2764e93a41089868052e25652383e778d62d1f2c71",
+   "text": "*Group 3 shakes their heads: they are presenting their bridge themselves. All you have to show is your buckled bridge – and you have lost valuable minutes.*"
+  },
+  "blocks[7].knoten[11].auswertung": {
+   "quelle": "sha256:68ac6a53dc68cda7d96c50838da022b0f2c836d165bd9bad63d62e3394df8f13",
+   "text": "**A shortcut instead of your own solution.** Showing someone else's work is not sticking with it – and group 3 rightly wants to show their bridge themselves. And you were so close to your own solution: you had found the break and had an idea for a different way. The worry “What if it doesn't hold again?” is understandable. A quick test would have shown it – and even a second failure would have told you more than before. Try out a different path in the role play."
+  },
+  "blocks[7].abschlussfrage.prompt": {
+   "quelle": "sha256:ecbd62b46aaa4aee8cd0183b461b1968f3ce3da18a6e6bcdf0f79dd1274740f2",
+   "text": "Ben says: “The whole morning for nothing.” Which approach helps you most at a moment like this?"
+  },
+  "blocks[7].abschlussfrage.options[0].text": {
+   "quelle": "sha256:70b777dcf5c0a6650ca502a0e5eae153539d78a63d8b00ccb59978d27d3bb692",
+   "text": "Work out what went wrong and why, then plan a small next step."
+  },
+  "blocks[7].abschlussfrage.options[1].text": {
+   "quelle": "sha256:50ec3e0c672d36325bbe4aaebbe1775e18934226650cd3e84fb004f141449fea",
+   "text": "Stop, because there isn't enough time for a new bridge anyway."
+  },
+  "blocks[7].abschlussfrage.options[2].text": {
+   "quelle": "sha256:41cbe6a71d276d2d8d7f7887f1aaf1a5e4ff7c22cd2867abcffda1d9a41e9dfa",
+   "text": "Do more of the same – put more tape on and hope that it holds."
+  },
+  "blocks[7].abschlussfrage.options[3].text": {
+   "quelle": "sha256:d8797d72fe28d1098872867952963953ffd8cb3d12fb6043d6154c2ecfe7382a",
+   "text": "First sort out whose fault it was, so that it doesn't happen again next time."
+  },
+  "blocks[7].abschlussfrage.explanation": {
+   "quelle": "sha256:2c0254305e6be7819da026ad1a3dbf0c782a1a15e4fea7a4387c316cc0f51db2",
+   "text": "After a setback, the **mistake detective** and the **setback plan** help: working out what exactly went wrong and why, and then choosing a next small step. A setback doesn't make the work worthless – often it is enough to solve the weak spot differently. Stopping turns “not yet” into “never”. More of the same is not a different way. And the question of blame doesn't help the bridge – it only costs time and puts everyone in a bad mood."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:4e03f073fb4909491aee71d77f6e9f87a8d32890e7359c1dc1d0717c56fe3738",
+   "text": "Your mistakes, your emergency card"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:1659c6da4dd2e15e9e0b8c9d846d482bda6c1a1d5e624854fd29b807b604bd8e",
+   "text": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts. It's about situations when you are **learning** and about tools, not about how you felt at the time."
+  },
+  "blocks[8].tasks[0].prompt": {
+   "quelle": "sha256:f3089218ea7705b6eaa7b0bdde5969add5ef5b14bad021d7ef69093a18185d74",
+   "text": "Think of a mistake from a test, a piece of homework or a practice exercise. Examine it with the **mistake detective** and describe in 4–6 sentences:\n\n1. What exactly was wrong?\n2. Why did it happen – for example a careless mistake, a gap in knowledge or another reason?\n3. What will you do differently next time? Explain why this fits your reason."
+  },
+  "blocks[8].tasks[0].hint": {
+   "quelle": "sha256:e3c7ffda08561704840209554ea3bfc991be1c092ee2e3be77453d2b808402d2",
+   "text": "Think of the three questions from the text “Mistakes as clues”: What exactly is wrong? Why did it happen? What will I do differently next time? With a careless mistake, checking at the end is more likely to help; with a gap in knowledge, asking and practising are more likely to help. You are free to choose the subject and the task."
+  },
+  "blocks[8].tasks[0].solution": {
+   "quelle": "sha256:4664e46abafd202f3b3a1151aeb201bbaad25252c1f4b0c1a35a6dc2e0bfa0e0",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names a specific mistake, that is the exact spot or the exact step, not “everything” or “the whole task”. (2) It gives an understandable reason and, where possible, assigns the mistake to a kind of mistake, such as careless mistake (actually known, but too fast or not concentrating) or gap in knowledge (didn't know how to do it); another reason that is explained understandably counts too, for example running out of time or misunderstanding the task. (3) The measure for next time fits the reason given and is explained: with a careless mistake, for example, checking at the end (doing a rough estimate, reading it again, working more slowly); with a gap in knowledge, for example, asking, getting someone to explain the method or practising in a targeted way. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “In English, in the test I often forgot the -s on verbs, for example ‘he play’. I actually know the rule, I was just too fast – a careless mistake. Next time I'll read every sentence with ‘he’, ‘she’ or ‘it’ through again at the end, because I do know the rule and only the check was missing.” Whether the mistake was big or small doesn't matter: an honest, precise look at the mistake is more valuable than a glossed-over story. Private details are not necessary."
+  },
+  "blocks[8].tasks[1].prompt": {
+   "quelle": "sha256:05b15cefac9c893fd33c0dd442bc95b3e58be6b717b9d128550466fe13a4f691",
+   "text": "Put together an **emergency card** for difficult learning moments – for example when a task just won't work out or you are very nervous before a test. For it, write:\n\n1. a situation at school in which you might need the card,\n2. three steps that you then take (tools from this module), and briefly why this order makes sense,\n3. how you can tell that you can carry on."
+  },
+  "blocks[8].tasks[1].hint": {
+   "quelle": "sha256:9e682d4247a1d0209d306959077a91da88895b3f0a12b57b23d3c8bcb0625649",
+   "text": "Tools from the module: Stop – breathe – name it, a break with a fixed time to come back, “not yet” instead of “never”, the next small step, trying a different way, asking in a targeted way after trying it yourself."
+  },
+  "blocks[8].tasks[1].solution": {
+   "quelle": "sha256:4854cd9da1cf529476daa24ad0ae50e6b5a816849bb6c860794b2d07b7952a79",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It describes a specific school situation in which the card is needed, for example a task that won't work out, a test, a presentation or an exercise you are stuck on. (2) It names three steps with tools from the module in a sensible order and explains them, for example: first calm down (Stop – breathe – name it or a break with a fixed time to come back), then act (the next small step, a different way, “not yet” instead of “never”, asking in a targeted way after trying it yourself). Any order that is explained counts. (3) It names an observable sign that you can carry on, for example “when I'm breathing calmly again”, “when the five-minute break is over” or “when I've written down my next step”. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “Situation: I can't get any further with one exercise in my maths homework. Step 1: Stop – I breathe slowly three times and tell myself: I'm frustrated right now. Step 2: I take a five-minute break and set an alarm for it. Step 3: I try a different way, for example a sketch, and if that doesn't help, I write down how far I get and ask about it in a targeted way tomorrow. First calm down, then act, because I have better ideas with a clear head. I can carry on when the alarm goes off and I know my next step.” Nobody has to describe how the situation feels. Private details are not necessary."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:76a2379040bde64a3ed5edcace3d7eed0a17f21fcd6d44f440bbedb523c84d45",
+   "text": "What next?"
+  },
+  "blocks[9].body": {
+   "quelle": "sha256:fab393990bcc4a3455afb5395e2d30778769d6769ab5f6c0ddb1c937e3414293",
+   "text": "Well done! You have practised tools that help you stay calm in difficult learning moments, learn from mistakes and carry on after a setback.\n\n- **Try out a tool** – for example your emergency card from the last task at your next test.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ },
+ "pakete": {
+  "blocks[6]": {
+   "quelle": "sha256:a5cc8d22f6d8a07db0e029c103c084ebc2a747eea62d78bc4f52d556a14f6202",
+   "inhalt": {
+    "text": "Matteo gets his maths test back. Instead of putting it away, he turns into a mistake detective. First he asks: What exactly is {{1}}? In question 4 the decimal point is one place too far to the left.\nThen he asks: {{2}} did it happen? He realises that he calculated too fast, even though he actually knows how to do it – so he files the mistake under {{3}}. In question 6, on the other hand, he didn't know how to go about it: he files this mistake under {{4}}.\nFinally he asks: What will I do differently {{5}}? He wants to check every calculation with a rough estimate at the end, and he asks for question 6 to be explained to him again.",
+    "luecken": [
+     [
+      "wrong"
+     ],
+     [
+      "Why"
+     ],
+     [
+      "careless mistake",
+      "careless mistakes",
+      "careless error",
+      "slip"
+     ],
+     [
+      "gap in knowledge",
+      "gaps in knowledge",
+      "knowledge gap",
+      "gap in his knowledge"
+     ],
+     [
+      "next time"
+     ]
+    ],
+    "ablenker": [
+     "punishment",
+     "bad luck"
+    ]
+   }
+  }
+ }
+}

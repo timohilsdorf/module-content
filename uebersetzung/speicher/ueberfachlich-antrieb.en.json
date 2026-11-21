@@ -1,0 +1,562 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:30aa84b42cd8b9ea5652704fcd71adc840d96e6c29c320acb3b808995e4a9c0b",
+   "text": "What drives me"
+  },
+  "description": {
+   "quelle": "sha256:9bb89ad9a268a53d7ccbe080a52581cb00e4094c946ce57e7b170d637656bc37",
+   "text": "What sparks your interest, where do you find motivation, and how do you deal with tasks that are hard work? After a short self-assessment you will get to know tools that help you spark your curiosity, find your own why and choose tasks in your learning zone – you practise them in a quiz, a matching task, a gap-fill and a role play, and think about your own experiences."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "einheit": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:a88b0d6dfef3bf62763ce5b33621a295d58ecd40e0fce2e2adf23b9f6b33f48c",
+   "text": "Readiness"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:89b1f4c3df983454e25b233320781610a2af048169f175b0f6f06300bf041d03",
+   "text": "Motivation"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:68b5895a80b8f7afd92ff0c1491854b34f1c7037937b494798687be8fc2cdbb6",
+   "text": "Interest"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:0b5299b1a673826974ed262965ebf8e678bc36b92c2084ee242060c4ee83b4ea",
+   "text": "Curiosity"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:f8e654ebb0177cadf502c6ea0ba01784a161449931bcc44ae810a58640638d06",
+   "text": "Effort"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:2ff03c8d4d349bea50b20b6d2e26a3eec48315236263182d8bae6ef7d9470c52",
+   "text": "Learning zone"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:7fb5f259d5f97c701fdf4190b9f6babf394233b4193f6e2d6c16e763e2f2050a",
+   "text": "Willingness to learn"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:96aa95e35321f78bcd7c5a993eb15e18b5cf4e4f45d3697123aac96bf2b884e7",
+   "text": "Self-assessment"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:7ab86a0a6a36b47d0056c6cab0cbd4b56288f4ba22195627c2eb8005986a87f3",
+   "text": "I can use three curiosity questions to find something that interests me, even in a new topic."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:ed9e8163213b1efecb1dd65cdc0c8f7005127a59cada21445e9ad9d5b870695e",
+   "text": "I can tell the difference between motivation from within and motivation from outside, and put my own why for a task into words."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:e304ba691d2f37c8b1cee6f5f53511e65dc95d4d57185eff20ef34425a753a28",
+   "text": "I can use the ready-to-start check to show that I am ready to begin a piece of work."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:2c8b21a910726d92864d208b380c8a0e44407e54971fd255e1f559d71e857b6e",
+   "text": "I can tell the difference between the comfort zone, the learning zone and the panic zone, and explain why effort is part of learning."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:1a42ebec20385b117db407e429a40df24d6611dccefd06c7990b8223b0be6a79",
+   "text": "I can explain why it is worth trying out new things first before I judge them."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:30aa84b42cd8b9ea5652704fcd71adc840d96e6c29c320acb3b808995e4a9c0b",
+   "text": "What drives me"
+  },
+  "blocks[0].intro": {
+   "quelle": "sha256:51d02c87f8fc65d5e96ed245137dc382c72570bdefc5ab23a8d1d5b613c54c71",
+   "text": "Interest and motivation are your engine. Here you assess how ready you are to take on new things and real effort."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:d5db4cbca04420c5fdefbb50672cd031fd021452af44a369c9852688fb8f5a9a",
+   "text": "Sparking curiosity"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:525fb9879655e391def1f54d9df4c4d5a115e025bc26ef42d83de1e4a9854103",
+   "text": "New topic in history: the Middle Ages. Your first thought: “Boring.” Sound familiar?\n\n**Interest** isn't simply there or not there. You can spark it by looking for your own connection to the topic. The **three curiosity questions** help with this:\n\n1. **What do I already know about it?** Maybe you already know that there were knights and castles, or that only a few people could read.\n2. **What would I like to know?** Find a question of your own, for example: “What was a school day like in the Middle Ages?”\n3. **Where do I come across it?** Maybe in everyday life, in films and games or in places near where you live.\n\nEven a small question of your own turns an unfamiliar topic into your topic. When you follow it up, you are showing interest.\n\nA second tool is called **try it first, then judge**. A new learning method or a new topic deserves a fair chance before you say: “It's pointless.” Some things seem strange at first and only become exciting once you try them out.\n\nPart of this is **staying open**. If you let someone explain a different way of solving a problem to you, or test a method first, you learn something – even if your own way feels familiar. That is **willingness to learn**: being open and ready to learn new things.\n\n**If you have a question of your own, you are already curious.**"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:a1f125f9b22292a96c113eba528f4f79672f947433dd9f3e25b533edf6c9b5fc",
+   "text": "Where motivation comes from"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:d3751f9937175b48288b33c1f0d23d2f2b607f2e971428b1a7e0524ef30eec2f",
+   "text": "Learning vocabulary – and zero motivation. Should you wait until the motivation comes by itself? Better not. Motivation is something you can find. There are two kinds:\n\n- **Motivation from outside:** You study for a good mark, for praise, for a reward or because it is expected of you.\n- **Motivation from within:** You study because something interests you, because you want to be able to do something or because you enjoy it.\n\nBoth kinds are fine. But motivation from within often lasts longer, because it doesn't disappear as soon as the test is over.\n\nA powerful tool is **your why**. Ask yourself: What does this task do for me – today or later on? For example: “When our partner class from England comes to visit, I want to be able to chat with the young people.” Your own why can turn “I have to” into “I want to”.\n\nIt also helps to **make progress visible**: a tally of the words you have learnt, or a bar that grows with every day of studying. When you can see that you are getting somewhere, you are more likely to keep going.\n\nAnd one more thing: motivation often only comes **once you get going**. If you start, you often find the motivation along the way. You can practise how to make a start in the module [[modul:ueberfachlich-selbststeuerung]].\n\n**Don't wait for motivation – look for your why.**"
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:30080458cdc994498ff536f8403aa4b6cc75db28585d42f6764f92ed97442e6f",
+   "text": "Ready to start and in the learning zone"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:160a2eb919cd862048168493f1820e067012d98cddff008e13115d4dd196bd6a",
+   "text": "The teacher gives the class a task. After five minutes, some people are still looking for their exercise book, while others are already well into it. What are they doing differently?\n\n**Readiness to work** means being ready to begin as soon as things get going. The **ready-to-start check** helps with this:\n\n1. **Materials ready?** Exercise book, textbook and pen are on the desk.\n2. **Task understood?** If not, read it again or ask straight away.\n3. **First step chosen?** You know what you are going to start with.\n\nThe tool of the **three zones** shows you how difficult a task is for you:\n\n- **Comfort zone:** Everything is easy. That's comfortable, but you hardly learn anything new.\n- **Learning zone:** It's hard work, but doable. This is where you learn the most.\n- **Panic zone:** It's far too difficult. You freeze and can't make any progress.\n\nSo **effort** is usually a sign that you are learning right now – not automatically a sign that you are doing something wrong.\n\nIf you are in the panic zone, first solve an easier part and work your way back into the learning zone step by step. If you are in the comfort zone, deliberately choose a slightly more difficult task.\n\n**If it's a bit of hard work, you're in the right place.**"
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:599bcfa3763ed8e74bc1bd132b2ef56ab601e4b37f8ffec4ecf07e18e4369312",
+   "text": "Quiz: What drives you?"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:a2a516dfc843c8f20c845f55cb2a7ec4724a07e9e94cdaf9e5ff53acbe02e1c4",
+   "text": "Five questions from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[4].questions[0].prompt": {
+   "quelle": "sha256:0da6528b725f4d10d6c68c9346a55dc06ff5624c6a9762a814e6b6bcef7ffd78",
+   "text": "In history, you are starting the topic of the Middle Ages. Your first thought: “Boring.” What can you do to make it interesting for you?"
+  },
+  "blocks[4].questions[0].options[0].text": {
+   "quelle": "sha256:10bffe5b35c3facfcb41eee67e2b2f02b3a60aae23b03223e707948d047428e7",
+   "text": "Look for a question of your own, such as: “How did children live in a castle?”"
+  },
+  "blocks[4].questions[0].options[1].text": {
+   "quelle": "sha256:4eb009c51c987a228148e60fb3d797b6273bac637d5ad3ffdcd27a63d773d6af",
+   "text": "Wait and see whether the topic becomes exciting by itself at some point."
+  },
+  "blocks[4].questions[0].options[2].text": {
+   "quelle": "sha256:c83aa7c7c970238a8b782dfc5c661856c62bb4f3efed220fcde02286bb574788",
+   "text": "Tell yourself that history just isn't your thing."
+  },
+  "blocks[4].questions[0].options[3].text": {
+   "quelle": "sha256:556add27a9cc99d1e404e596298f52ffa61c8e7789b5edf86ffbd3e88ccb1dbf",
+   "text": "Do only the bare minimum so that the topic is over quickly."
+  },
+  "blocks[4].questions[0].explanation": {
+   "quelle": "sha256:dad98c857afa173ef88934cc55c67e668bab99c071ebeeb9857a3f9d7fe29515",
+   "text": "**Looking for a question of your own** is the second curiosity question: “What would I like to know?” That way you create your own connection to the topic, and interest can grow. If you just wait, you leave your interest to chance. If you tell yourself “History just isn't my thing”, you don't give the topic a chance. And if you do only the bare minimum, you won't find your own connection to the topic that way."
+  },
+  "blocks[4].questions[1].prompt": {
+   "quelle": "sha256:47e2095e7317af398a2e95d8901eede55ce3e71db8d87df5076ac29d516384f0",
+   "text": "Which sentence describes motivation from within?"
+  },
+  "blocks[4].questions[1].options[0].text": {
+   "quelle": "sha256:465aaf47c5358c0e39b7139dcea37b20793a2dc18133bbe650fbbd978eb27224",
+   "text": "I'm studying so that I get a good mark in the next test."
+  },
+  "blocks[4].questions[1].options[1].text": {
+   "quelle": "sha256:29b20ecfacf325c161e9dab94315c4cf2185fb8f16048d130181af07c9064f13",
+   "text": "I'm studying because the teacher expects it and checks up on it."
+  },
+  "blocks[4].questions[1].options[2].text": {
+   "quelle": "sha256:3ff96e7b9e1ef23477aa10f99d934bbc6f14380c1acd85f5f2e602c60a764e73",
+   "text": "I'm studying because I want to know how a volcano works."
+  },
+  "blocks[4].questions[1].options[3].text": {
+   "quelle": "sha256:f16d0050fda6a5f375c9feb37662fbabc851e8b2a51f81e0f9fd06eb675834ed",
+   "text": "I'm studying so that I'm allowed to play games for an hour afterwards."
+  },
+  "blocks[4].questions[1].explanation": {
+   "quelle": "sha256:b0c106c59e8ea21971c6ef74a0e3dbf9fffa1a0e61ec8f19ef73b9d202a050ae",
+   "text": "**I'm studying because I want to know how a volcano works** – here the drive comes **from within**, from curiosity and interest. The good mark, the teacher checking up on you and the reward of gaming are motivation **from outside**. It isn't bad and it can help too. But it doesn't come from you yourself, and it often stops as soon as the incentive disappears."
+  },
+  "blocks[4].questions[2].prompt": {
+   "quelle": "sha256:7b1640e05b91f1e3bcaee199eea15afc9d222b9518550c7c420a6371b8bd1f51",
+   "text": "You have to learn a hundred vocabulary words by next week and you have zero motivation. What is most likely to help you?"
+  },
+  "blocks[4].questions[2].options[0].text": {
+   "quelle": "sha256:aaeba7ff330b8961d8b543ef803e2d07f991ebe30a2bb8fe836b8a4eac9ef510",
+   "text": "Wait until the motivation to learn comes by itself at some point."
+  },
+  "blocks[4].questions[2].options[1].text": {
+   "quelle": "sha256:d10aa4b421d283073281302e2f6870c313064ef571e51334f0871e353f44ca58",
+   "text": "Work out your why and keep a tally of the words you have learnt."
+  },
+  "blocks[4].questions[2].options[2].text": {
+   "quelle": "sha256:bcaa38c1ee714e866b35df885bbf38bcc01d33a5ce2a47bdec501fe89b7e52b1",
+   "text": "Compare yourself with the people who already know all hundred words."
+  },
+  "blocks[4].questions[2].options[3].text": {
+   "quelle": "sha256:30888e8b7f6d5b538457a7214b7ffefc6ba04ba7ec1f91396735ae65226fdb8b",
+   "text": "Learn all hundred words in one go on a single evening."
+  },
+  "blocks[4].questions[2].explanation": {
+   "quelle": "sha256:b6da93614b300bb198b832d9325b365675ba1c65f1e9ed8744cdb416a75b521e",
+   "text": "**Working out your why** gives the task a meaning of its own, and a **tally** makes your **progress visible** – both help you keep going. If you wait for motivation, you often wait a long time. Comparing yourself with others is more likely to discourage you than to drive you on. And a hundred words in one evening put you in the panic zone – after that, your motivation is gone completely."
+  },
+  "blocks[4].questions[3].prompt": {
+   "quelle": "sha256:3d32fe10416b958338dc4a2287bb4ae839efe39eb4170f8963b4935494dcf193",
+   "text": "A classmate says: “I've got no motivation today, so I'm not going to study.” What is true?"
+  },
+  "blocks[4].questions[3].options[0].text": {
+   "quelle": "sha256:833f2ab4525a127d304a771c5c56876229eac1a2d8daa58c74d357a355ec73e1",
+   "text": "If you don't feel like it today, it's better to study tomorrow – it'll be easier then."
+  },
+  "blocks[4].questions[3].options[1].text": {
+   "quelle": "sha256:561f6f6d8c4d46c35012defb72e3f001dc4e43834bf4927cd9c6792346ce2a67",
+   "text": "Either you just have motivation, or you simply don't."
+  },
+  "blocks[4].questions[3].options[2].text": {
+   "quelle": "sha256:912593a91f0d731f9a16b0f1b22d448a59bb0dc0d4cdaec6e4480f90fb5e9c2b",
+   "text": "Only a reward from outside can create real motivation."
+  },
+  "blocks[4].questions[3].options[3].text": {
+   "quelle": "sha256:84207248e0c12ff5fbb68a840b2861b3957370b58d70ee982d003a10d90136f2",
+   "text": "Motivation often only comes once you get going – starting can spark it."
+  },
+  "blocks[4].questions[3].explanation": {
+   "quelle": "sha256:7dde97e620652f5533bdd6f9fbe2200e08d4b875f986866a98fe6708edc01e28",
+   "text": "**Motivation often only comes once you get going.** If you start, you often find the motivation along the way – that's why it isn't worth waiting for it. Putting it off until tomorrow means waiting again – motivation is more likely to come when you start. Motivation isn't something you're born with either: you can find it, for example through your why. And a reward is only one possibility – interest and your own why often last longer."
+  },
+  "blocks[4].questions[4].prompt": {
+   "quelle": "sha256:d477b4ac9cdd479563cd6a7beb720b66452296a54107d6ed58ba48a25466d1ae",
+   "text": "In biology, the teacher mentions in passing that bees use a dance to show each other where to find food. You find that fascinating. What shows your interest best?"
+  },
+  "blocks[4].questions[4].options[0].text": {
+   "quelle": "sha256:cef7d0fd765d3fbb0e2a027c909edb6ae0615cb0d11d1ae4120ea98cedcdded8",
+   "text": "Do nothing more – it won't come up in the test anyway."
+  },
+  "blocks[4].questions[4].options[1].text": {
+   "quelle": "sha256:b00bca0365e99472308278516f125d691e9a7bda4a84d338fef73784f66fed51",
+   "text": "Ask how exactly it works, or read up on it yourself later."
+  },
+  "blocks[4].questions[4].options[2].text": {
+   "quelle": "sha256:ffa1844ad7c2f35b23f39dc7887e421a2abe5ad1d749f2a759a3d52aa4c1f488",
+   "text": "Wait and see whether the teacher says more about it later in the lesson."
+  },
+  "blocks[4].questions[4].options[3].text": {
+   "quelle": "sha256:e3d925ce2330e907060f0c0b229efa58913b0bce1e600f1c022422300c86b9bc",
+   "text": "Tell the others that bees are boring anyway."
+  },
+  "blocks[4].questions[4].explanation": {
+   "quelle": "sha256:a6d989eee1c18bf70c71b73cc548a36e7cf662970a20ef0b6e245bf881189049",
+   "text": "**Asking or reading up on it yourself** means following up a question of your own – the second curiosity question in action. That's how you show **interest**. Whether something comes up in the test says nothing about whether it is exciting. If you just wait, you leave your own question to others. And if you run down something exciting, you take away your own enjoyment of it."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:26a16b66d82dd27406210e4303775644d969abd5912e4d41a8af470f95d7fc2d",
+   "text": "Thoughts that hold you back – and tools that help"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:cd4cb986b5166373333a598430ae714624f1fbeaddc3ff00b0fa4828c616d0fd",
+   "text": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right."
+  },
+  "blocks[5].paare[0].links.text": {
+   "quelle": "sha256:e543d585c73943f930b3c34368d3782a6caea307a83816d8de3baf6dc89b4716",
+   "text": "“When work starts, I spend ages getting my things together first.”"
+  },
+  "blocks[5].paare[0].rechts.text": {
+   "quelle": "sha256:45f695cab5e58ab8a477c8bfe3f3b3dc93e66a8a44bfb7b238ea480e46b6867f",
+   "text": "Get the materials ready and choose the first step before starting"
+  },
+  "blocks[5].paare[1].links.text": {
+   "quelle": "sha256:f3ea99956f96420a265d59315da93a483c62b99c36cf62a68b3222c3a3e73af2",
+   "text": "“I always take the easiest task – then nothing can go wrong.”"
+  },
+  "blocks[5].paare[1].rechts.text": {
+   "quelle": "sha256:7cb979fe741f194a005b1394fdd4b85346f871499078e60b83d6dc38f2c6f1ed",
+   "text": "Deliberately choose a slightly harder task: hard work, but doable"
+  },
+  "blocks[5].paare[2].links.text": {
+   "quelle": "sha256:489de4d3ed2dfa8a7e5368484fd6e923df30520ab25549efe550ed7422e9adff",
+   "text": "“When things get tough, I must be doing something wrong.”"
+  },
+  "blocks[5].paare[2].rechts.text": {
+   "quelle": "sha256:cdce7255440a1725e50124b09f0f095f85510684283957d0aeedc93f4235078a",
+   "text": "First see effort as a sign that I'm learning something right now"
+  },
+  "blocks[5].paare[3].links.text": {
+   "quelle": "sha256:9f2a1a10a979b9bd6cb1132fdd3c6449f7f0147b2d213a2ecdd37421e315f2d4",
+   "text": "“The teacher suggests flashcards for vocabulary. I think: ‘That definitely won't help.’”"
+  },
+  "blocks[5].paare[3].rechts.text": {
+   "quelle": "sha256:22b84c13ae721b65beba467521f913a6bce2c1eaeb920acec4d3dbc3c1e9a58c",
+   "text": "Try out the flashcards for a week and only then judge"
+  },
+  "blocks[5].paare[4].links.text": {
+   "quelle": "sha256:650fd1d6f1bd69a29afe0b1b82c4e76f0b3d39166f36a106e8514f0b7bcf1427",
+   "text": "“I didn't understand the task, so I'm just waiting.”"
+  },
+  "blocks[5].paare[4].rechts.text": {
+   "quelle": "sha256:009dadb874e4dee6ed1dceffdde5714692728a34b33bfdbd7fa9852eeb2ea77b",
+   "text": "Read the task again and, if necessary, ask straight away"
+  },
+  "blocks[5].paare[5].links.text": {
+   "quelle": "sha256:1c74ae1c089fa076d60fc3dbc9dc379377f64ef7fdc6e1c423aaf22b7a9ed386",
+   "text": "“This task completely overwhelms me, and I'm stuck.”"
+  },
+  "blocks[5].paare[5].rechts.text": {
+   "quelle": "sha256:59be0927b6752a63c25af7598ef14d1f1e5bc7944ec6c8e838d620a035adca2a",
+   "text": "First solve an easier part and work my way forward step by step"
+  },
+  "blocks[5].paare[6].links.text": {
+   "quelle": "sha256:d09c85a9900ba826eddd30c22b9bf580c6b0a7c4de6d60a660da5e3b9e18784f",
+   "text": "“In maths someone explains a different way of working it out – I'm only interested in mine.”"
+  },
+  "blocks[5].paare[6].rechts.text": {
+   "quelle": "sha256:d678a7fb5e8dcd6d1b9945bc606984b778c8957414cb359e66248780ad035bc4",
+   "text": "Listen to how the other person works it out – maybe their way is better"
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:e44d77963d681ea91dec0b7edc4669aa3e361f3b69307c2f65a9f92ca19217c9",
+   "text": "Three zones"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:cfdba783a74565f3e8b51c7fe3b900c5b706e7195aa566c336554c8b7abe8192",
+   "text": "Nora is looking for the right level of difficulty for a French task. Fill in the right words. Two of the words to choose from don't fit anywhere."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:2d4b0231fbaccf4ccad24f559a07ba805c188ca9e4b12555a670fb72fee322ba",
+   "text": "Role play: The project topic"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:cb6bfbc187466e3854e39f6fb98682a28e883814b83db26e1b71e681987918f4",
+   "text": "For the project work over the next four weeks, you have to choose a topic in pairs. The options are: “The history of the bicycle”, “How much food from our school lunches ends up in the bin?” and “Let's program a simple game”. You like the idea of the game. Your project partner Jonas already has an opinion. At each step, choose how you react – different paths lead to different endings. Jonas is a simulated conversation character, not a real person."
+  },
+  "blocks[7].figur.name": {
+   "quelle": "sha256:3d62bb3763ceef5f62096c4061f2eca8fc73e238c079d917a4dbb5875d399c05",
+   "text": "Jonas (AI character)"
+  },
+  "blocks[7].figur.rolle": {
+   "quelle": "sha256:f90d5740b2d447eb75a4870ed8a0456154224610a7302daf95ec054462cec651",
+   "text": "Your project partner, who wants to get finished as quickly and easily as possible"
+  },
+  "blocks[7].figur.rollenPrompt": {
+   "quelle": "sha256:d95834f84a21789fe43efbe68588e75942f33c829dfb8077d4c371d645aa1565",
+   "text": "You are Jonas, 14 years old, and you are in the same class as the person you are talking to. The two of you have to choose a topic for a four-week project: “The history of the bicycle”, “How much food from our school lunches ends up in the bin?” or “Let's program a simple game”. You want the bicycle, because there is lots of ready-made text about it and you would be finished quickly, for example with lines like “There's already everything online about it”. You like playing games, but you don't think you could manage programming (“That's too hard for me”). You aren't lazy, just unsure of yourself. You have training on Tuesdays and Thursdays. If the person asks what you are interested in or suggests trying it out on a small scale first, you become curious and join in. If they put pressure on you or say they will do it without you, you are hurt but stay friendly. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. You don't give advice on motivation and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to the task in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+  },
+  "blocks[7].knoten[0].text": {
+   "quelle": "sha256:f58b79320738889a1737bf097421172f1571f62cd51cf5d9beafec0ed43d9d3f",
+   "text": "Let's do the bicycle. There's already everything online about it – then we'll be finished in no time."
+  },
+  "blocks[7].knoten[0].antworten[0].text": {
+   "quelle": "sha256:d9b8debbc2c34fa601f0b1bfb540257817504a5911202d2ee9431c03000ef4d8",
+   "text": "Okay, as long as we finish quickly."
+  },
+  "blocks[7].knoten[0].antworten[1].text": {
+   "quelle": "sha256:8638a4284f4d7f6c1b4b1cc06f5fbe42396bc38c646ad98e376ec4eff3f9ce3b",
+   "text": "I really like the idea of programming the game. What are you actually interested in?"
+  },
+  "blocks[7].knoten[0].antworten[2].text": {
+   "quelle": "sha256:60372ea6d9e50f3b31adc9c80dbf34c891994b5ada8653f30f1cb6b84ff754b6",
+   "text": "The bicycle is so boring. I'm doing the game – with or without you."
+  },
+  "blocks[7].knoten[1].text": {
+   "quelle": "sha256:ff5d68162409e7e90a7869f556e02e523ea5499dbcf53b8c2dc7dec9900dbe68",
+   "text": "Perfect. I'll find a text, we'll turn it into slides – we'll be done in two hours."
+  },
+  "blocks[7].knoten[1].antworten[0].text": {
+   "quelle": "sha256:ddd6e0a54eed3a4f4f71aaba73240a8f3054ff7360b99cc831c4b99bcc654814",
+   "text": "Wait – four weeks and just slides from a ready-made text? We won't learn anything like that. What would you actually like to be able to do?"
+  },
+  "blocks[7].knoten[1].antworten[1].text": {
+   "quelle": "sha256:f9735e58c900786c9121b1396292802cda97d323adec22e8234c8b8cbd2738ff",
+   "text": "Fine by me."
+  },
+  "blocks[7].knoten[2].text": {
+   "quelle": "sha256:4211d6ef2296080bd20ba2c7942a6e0db6fb6918f74d1f957264e71aef90d9fb",
+   "text": "Whoa, chill. I just can't program, that's too hard for me."
+  },
+  "blocks[7].knoten[2].antworten[0].text": {
+   "quelle": "sha256:5107f9d0574b067a4331f0b5e21ef1f23ad048a7bd7c4cedcc22f7ec9372105c",
+   "text": "Sorry, I didn't mean it like that. I can't do it yet either – that's exactly what I like about it. We could learn it together."
+  },
+  "blocks[7].knoten[2].antworten[1].text": {
+   "quelle": "sha256:a637b09da0a5a710262b5c946e0eda747f938eb7228b2d78f1d8a2d58e30c713",
+   "text": "Then I'll just find someone else."
+  },
+  "blocks[7].knoten[3].text": {
+   "quelle": "sha256:b211cf191c7d1c356d6d924778fae39eea4e230ce4004c3d184b1fb41f0b4390",
+   "text": "Honestly? I like playing games. But programming one myself? That's too hard for me."
+  },
+  "blocks[7].knoten[3].antworten[0].text": {
+   "quelle": "sha256:bc96e4c2b62957e308fb093101d71e8bfd13426a00953ff4203efb93730dab7b",
+   "text": "I can't do it yet either. There are block-based programming tools for beginners – shall we try it out for an hour before we decide?"
+  },
+  "blocks[7].knoten[3].antworten[1].text": {
+   "quelle": "sha256:11ac1ffb91b74b9b58d5d748b23e2fce9da45e2460efbd4553a050ae85fad30b",
+   "text": "Then I guess it's the bicycle after all."
+  },
+  "blocks[7].knoten[4].text": {
+   "quelle": "sha256:2b5bdb10897afbf8a9acc6a9a14bb310232f0dea47c43039303a1d2681e97047",
+   "text": "Learn it together … And what if after two weeks we realise we can't get anything to work?"
+  },
+  "blocks[7].knoten[4].antworten[0].text": {
+   "quelle": "sha256:6cffefe18a9b4a456e074acd55ab05bfc7233dc968d8b5182d0c80ccbd13d791",
+   "text": "Then we'll still have learnt a lot. We'll start small: first just a character that jumps."
+  },
+  "blocks[7].knoten[4].antworten[1].text": {
+   "quelle": "sha256:e42d4b6d27bf0b29324422d47b0295b0b259b56e9efb39ee5ee11dc4c721bd14",
+   "text": "True, too risky. Let's do the bicycle."
+  },
+  "blocks[7].knoten[5].text": {
+   "quelle": "sha256:d0612cf76039de72933fabbc66d8a9635df0574de7b39bae51e631580504ecbd",
+   "text": "*An hour later.* Okay, that was cooler than I thought – the character jumps! But it's going to be a lot of work. And I've got training on Tuesdays and Thursdays."
+  },
+  "blocks[7].knoten[5].antworten[0].text": {
+   "quelle": "sha256:9d78a7ab971065efff90e85e6aa3d0c044f70974b77c0dc7c30e1036a9ee2c07",
+   "text": "Then let's split it up: I'll do the characters, you do the scoring. We'll work on it together on Mondays and Wednesdays."
+  },
+  "blocks[7].knoten[5].antworten[1].text": {
+   "quelle": "sha256:4b1bef7a4ea2b1f186fac62b7c97bbc3f417b800c867c3b5446fb5a471219e85",
+   "text": "If it's that much work, let's give it a miss."
+  },
+  "blocks[7].knoten[6].text": {
+   "quelle": "sha256:f114e9549156e11c833a064d13e1365e36512711299b844a456bc8a55f81ab76",
+   "text": "Deal. But what do we do if we get stuck somewhere?"
+  },
+  "blocks[7].knoten[6].antworten[0].text": {
+   "quelle": "sha256:352be68be517299836b57e1f5deeddfc294d55feb2f16c16ae34570875683e15",
+   "text": "Then we'll look for a solution together first – and if that doesn't work, we'll ask someone a specific question."
+  },
+  "blocks[7].knoten[6].antworten[1].text": {
+   "quelle": "sha256:a8bfa4725f96be9a1d4e6ca4f503259f8de62c9df0936dbe1ce7a0880f3ad383",
+   "text": "Better not risk getting stuck – let's just do the bicycle straight away."
+  },
+  "blocks[7].knoten[7].text": {
+   "quelle": "sha256:a91f38bf1a299da09d7ab635bd4ca5d2c76329d6d68e41c9ac52a0d4196f3d70",
+   "text": "Agreed. On Monday I'll show you what I've already tried out at home!"
+  },
+  "blocks[7].knoten[7].auswertung": {
+   "quelle": "sha256:6ea9f495e81d6673629be4826540b91f7ca32c2d689f7c59130abf653c3fa4ee",
+   "text": "**Chose the learning zone and kept going – very good.** You took Jonas's worries seriously and suggested starting small – with a short trial or by starting with just a character that jumps. That way you could try it first, then judge. When it looked like a lot of work, you shared it out so that each of you had a part, agreed on days to work together and made a plan for the tricky bits. That way the project stays hard work, but doable – exactly the learning zone. And by now Jonas has become curious himself."
+  },
+  "blocks[7].knoten[8].text": {
+   "quelle": "sha256:ccb42a37b01ebe9dcadad5052853e7c526704a66815787953bb872b54d5b3186",
+   "text": "*Four weeks later, you present slides about the bicycle. They are fine – but you are both glad when it's over.*"
+  },
+  "blocks[7].knoten[8].auswertung": {
+   "quelle": "sha256:df4c13009b0796d883cd8836281f58a4eded4ee82b1b36649790b6d608c478d9",
+   "text": "**Finished quickly – but learnt little.** In the end you took the easy topic: slides from a ready-made text. That's the comfort zone – four weeks of project time, but hardly anything new learnt, and you were both glad when it was over. And yet the interest in the game was there. A short trial would have shown whether the project was hard work, but doable. If you try something new first, you give yourself the chance to find the motivation once you get going. Try a different path in the role play."
+  },
+  "blocks[7].knoten[9].text": {
+   "quelle": "sha256:29e81feed3ce1c5db01d7329ebd1a94f0f91b50438738fd0852ecf9247954574",
+   "text": "Okay … good luck then. *Jonas works with someone else. You start on your own and realise how long four weeks are without a project partner.*"
+  },
+  "blocks[7].knoten[9].auswertung": {
+   "quelle": "sha256:453adc5cea77b4c61367033db98563f0d38ff95c882098ccd404f6180498037a",
+   "text": "**Your own motivation – but you lost Jonas.** Your interest in the game is strong, and it's good that you want to take on something difficult. But pressure doesn't spark curiosity in other people: Jonas felt steamrollered, and now you're working alone. If you had asked what he is interested in and suggested a small trial, he might have joined in. Try a different path in the role play."
+  },
+  "blocks[7].knoten[10].text": {
+   "quelle": "sha256:5743ca6566679a6ee2ec3898a3e8d1b7d681ec14a5ac4fa928b9916e87626045",
+   "text": "*You switch to the bicycle. Every now and then Jonas says: “The jumping character was actually fun.”*"
+  },
+  "blocks[7].knoten[10].auswertung": {
+   "quelle": "sha256:a84a3a6776453e18fe69525857588075954a24c76859dab07b375c9135458af1",
+   "text": "**A good start – but you turned back when it got hard.** You tried out the game, and the interest was sparked – in Jonas too. But when it got hard – because of all the work or because you were worried about tricky bits – you went back to the comfort zone. And yet the effort was exactly the sign that you were in the learning zone. If, when there's a lot of work, you first tackle a small, doable part and share out the work, you stay in the learning zone: hard work, but doable. Try a different path in the role play."
+  },
+  "blocks[7].abschlussfrage.prompt": {
+   "quelle": "sha256:a2ec94a7aeb3d2c55c5c675ed75cc0be0e9fbf2de729490babf33786341cb5f3",
+   "text": "Jonas says about programming the game: “That's too hard for me.” Which approach helps you most at a moment like this?"
+  },
+  "blocks[7].abschlussfrage.options[0].text": {
+   "quelle": "sha256:1ae2a54d4ad34d4e0ad190a485ed09268af26ea76ce63e65a56eb678a615f6b8",
+   "text": "Take the easiest topic straight away so that there's definitely no stress."
+  },
+  "blocks[7].abschlussfrage.options[1].text": {
+   "quelle": "sha256:4f1922d759b426008d851cfd40b7c46eb1e6911e1692af370d83236f89853434",
+   "text": "Plan the full version of the game straight away and get going."
+  },
+  "blocks[7].abschlussfrage.options[2].text": {
+   "quelle": "sha256:18101fd49dbe60eeed9bc5c8458c803c4ee31ceeb176f0cc948e5e2707e36072",
+   "text": "Tell Jonas not to make such a fuss – it'll be fine."
+  },
+  "blocks[7].abschlussfrage.options[3].text": {
+   "quelle": "sha256:9005dff875d2e6ca1702dad07b1c901efec67c2847987442af99cb8e97eee7bb",
+   "text": "First do a short trial and start with a simple part."
+  },
+  "blocks[7].abschlussfrage.explanation": {
+   "quelle": "sha256:db5b7ea19c24ff243cf84e1d13dcaec8574c64559d6e3fa1b158ea35b321e57e",
+   "text": "“That's too hard for me” sounds like the panic zone. **A short trial with a simple part** shows whether the project is hard work, but doable – in other words, whether it is in the **learning zone**. That is “try it first, then judge”. The easiest topic leads back to the comfort zone, where you hardly learn anything. Planning the whole game straight away would be far too much. And if you play down the other person's worries, you won't spark any motivation in them."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:05120b2c6d16a682d0b2321b8f93b1df726034453a677d7cc41024eba5dbfff7",
+   "text": "Your interest, your why"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:c9d017fa544cbdacfaf4bb19f0f57228d3f3cb462e75044ee8a0cf526735b5eb",
+   "text": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts."
+  },
+  "blocks[8].tasks[0].prompt": {
+   "quelle": "sha256:19d50bb3c9b6155009f6618dd81332bd636b7e3e92aa61e39318265227cd1f97",
+   "text": "Think of a school topic that didn't interest you at first – or one that doesn't interest you much at the moment. Write 4–6 sentences about it:\n\n1. What is the topic?\n2. Answer the **three curiosity questions**: What do you already know about it? What would you like to know? Where do you come across the topic?\n3. Has this changed the way you see the topic? Explain why or why not."
+  },
+  "blocks[8].tasks[0].hint": {
+   "quelle": "sha256:45f8696c1f61b6c18513d66d6a88f2764694428fecf32608f2598eab472883da",
+   "text": "Think of the text “Sparking curiosity”. Your own question can be a small one – for example how something works or what it was like in the past. For the third curiosity question (“Where do you come across the topic?”), it helps to look at the present day: films, games, places near where you live, your way to school."
+  },
+  "blocks[8].tasks[0].solution": {
+   "quelle": "sha256:bfcb4344838c0707720db9f636a09d66c74be90d0c5979d960082249990fb919",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names a specific school topic so that you can picture what it is about. (2) It answers all three curiosity questions sensibly: what is already known, a question of their own that could genuinely interest the person, and where they come across the topic – today, in films, in games or near where they live. (3) It says honestly whether and how the way they see the topic has changed, and gives a reason; “not much yet” is also a good answer if there is a reason for it. A possible example (one of many – any school topic is equally good, similarity to the example doesn't count): “In geography we started with rocks, and at first I found it boring. I already know that granite exists. I'd like to know how old the stones by the Rhine are. I see stones every day on my way to school. Since I've had this question, I look at them more closely there.” An honest answer is more valuable than a prettified one. Private details are not necessary."
+  },
+  "blocks[8].tasks[1].prompt": {
+   "quelle": "sha256:e84c32541b6754200c633b9ed0687519876ac218dc3773ee9df624ba24a79ac3",
+   "text": "Choose a task that you don't feel very motivated about at the moment – for example vocabulary, a summary or a set of practice exercises. Write 4–6 sentences about it:\n\n1. Your **why**: What does the task do for you – today or later on?\n2. Your **progress**: How do you make it visible?\n3. Your **ready-to-start check**: What do you get ready, is the task clear, and what is your first step?"
+  },
+  "blocks[8].tasks[1].hint": {
+   "quelle": "sha256:5fd0d057cf449300c01fba8aae5153a85e2e0179e1f44ca0efa8bd00300c440e",
+   "text": "Think of the texts “Where motivation comes from” and “Ready to start and in the learning zone”: motivation from within or from outside, a tally or a growing bar, materials – task – first step."
+  },
+  "blocks[8].tasks[1].solution": {
+   "quelle": "sha256:262bfee63b90c3e1cd1ebcea7c831ba18130a81b8ea8ac27c4761df7d4d107b2",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names a personal, understandable why – what the task brings today or later on. Motivation from outside is also allowed if it is named honestly – for example a test that should go well. (2) It describes a specific way of making progress visible, such as a tally, a growing bar or a pile of flashcards you have learnt that keeps getting bigger. (3) It contains a ready-to-start check with all three parts: which materials are ready, whether the task is clear (and what they will do if it isn't) and a specific first step. A possible example (one of many – any school task is equally good, similarity to the example doesn't count): “I have to learn the English words from unit 5. My why: on our class trip I want to be able to chat to the students from our partner school. After each study session I colour in a bit more of a bar until I know all the words. Ready to start: the word list and flashcards are on the desk, I've checked which pages we need, and my first step is the first ten words.” Goals with milestones or an if-then plan are not required here. Private details are not necessary."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:76a2379040bde64a3ed5edcace3d7eed0a17f21fcd6d44f440bbedb523c84d45",
+   "text": "What next?"
+  },
+  "blocks[9].body": {
+   "quelle": "sha256:cdc3c2529489dd85f545bdd957c85b5f4ed9d7c62cb31af6f3973bf840dc1260",
+   "text": "Well done! You have practised sparking your curiosity, finding your own why and choosing tasks in your learning zone.\n\n- **Try out a tool** – for example your ready-to-start check before your next homework.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ },
+ "pakete": {
+  "blocks[6]": {
+   "quelle": "sha256:7e6e8419663215b59db5297afee20c957fe8c3d32037c15fe1faaa878f5feabc",
+   "inhalt": {
+    "text": "Nora has to write a short text in French about her way to school. She could just copy out sentences she already knows. That would be easy: she would stay in the {{1}} and hardly learn anything new. Writing a long essay without any help, on the other hand, would be too much: she would end up in the {{2}} and freeze.\nShe decides on a short text in which she uses five new words. That is {{3}}, but doable – she is in the {{4}}.\nThe fact that it takes effort shows her that she is {{5}} something new right now.",
+    "luecken": [
+     [
+      "comfort zone",
+      "comfort-zone"
+     ],
+     [
+      "panic zone",
+      "panic-zone",
+      "overload zone",
+      "overwhelm zone",
+      "stress zone"
+     ],
+     [
+      "hard work",
+      "challenging",
+      "demanding",
+      "tough",
+      "hard",
+      "difficult",
+      "strenuous",
+      "tiring"
+     ],
+     [
+      "learning zone",
+      "learning-zone",
+      "stretch zone",
+      "growth zone"
+     ],
+     [
+      "learning"
+     ]
+    ],
+    "ablenker": [
+     "impossible",
+     "time zone"
+    ]
+   }
+  }
+ }
+}

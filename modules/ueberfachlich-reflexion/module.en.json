@@ -1,0 +1,565 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-reflexion --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:8a8e9a6790c287d02e25b120b5443c0b7a2e5ddaa61bbc8d96935eadaf5f5ea9",
+  "masterCommit": "6ad26fb",
+  "hintsHash": null,
+  "generatedAt": "2026-11-21",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten.json + speicher",
+  "selfHash": "sha256:be8b4bff6fa4bbd4ee1f059b2dc6189a86ba980f63627bc0b0fa649ca6be6bfa"
+ },
+ "schemaVersion": 3,
+ "id": "ueberfachlich-reflexion",
+ "title": "How I assess myself and others",
+ "description": "How well do you know your strengths and weaknesses, how realistically do you judge your own work, and how do you assess others fairly without giving up your own opinion? After a short self-assessment you will get to know tools for this, practise them in a quiz, a matching task, a gap-fill text and a role play – and think about your own experiences.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Reflexion",
+     "description": "Wer bin ich und wie beurteile ich?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Eigenständigkeit",
+     "description": "Eigene Ziele und Werte reflektieren und verfolgen."
+    },
+    {
+     "code": "Dialog- und Kooperationsfähigkeit",
+     "description": "Sich mit Menschen austauschen, zusammenarbeiten."
+    }
+   ]
+  }
+ ],
+ "einheit": "Transversal competencies",
+ "sequenz": 3,
+ "language": "en",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Transversal competencies",
+  "Reflection",
+  "Strengths and weaknesses",
+  "Criteria",
+  "Feedback",
+  "Constructive feedback",
+  "Judging fairly",
+  "Opinion",
+  "Self-assessment"
+ ],
+ "learningObjectives": [
+  "I can back up a strength with a specific situation and describe a weakness so precisely that I can see a first step for learning.",
+  "I can check my work criterion by criterion with a traffic light before I hand it in.",
+  "I can compare my own assessment with feedback and see where I overestimated or underestimated myself.",
+  "When I assess others, I can keep observation, guess and judgement apart and give fair feedback.",
+  "I can stand up for my opinion with a reason, accept other opinions and change my mind when a reason convinces me."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-reflexion",
+   "title": "How I assess myself and others",
+   "intro": "Knowing yourself well makes learning easier: here you assess how well you know your strengths and weaknesses, judge your own work and deal with opinions.",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen",
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-staerken-schwaechen",
+   "title": "Strengths and weaknesses – with evidence",
+   "body": "“What are you good at?” In the class council, everyone is supposed to name one of their strengths. Lots of people can't think of anything – or only of something very general like “I'm nice”.\n\nA **strength** is something you manage again and again, not just once. To find it, the **evidence question** helps: **“How do I know?”** Only with an example does a feeling become a strength: “I'm good at explaining things. Last week Jan only understood fractions once I had explained them to him. In group work, too, others often ask me.”\n\nA **weakness** is also better described precisely rather than in general terms:\n\n- not “I can't do maths”,\n- but “I find word problems hard, but I'm fine with the calculations”.\n\nThat way, the weakness becomes an **area for learning**, and you can see a first step: for example, in every word problem, first writing down what you need to find out.\n\nYour own picture is only one point of view. Other people see some things differently. That's why it's worth **getting a second opinion** now and then: ask someone who has seen you working, and compare their view with yours.\n\nIf you know your strengths, you can choose a task in group work where you can use them. But only ever doing what you can already do won't get you any further.\n\n**A strength needs evidence – a weakness needs a first step.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-kriterien",
+   "title": "Measuring your own work against criteria",
+   "body": "You hand in your report and think: “That's really good.” A week later it comes back – and something the task asked for is missing.\n\nYour **gut feeling** can be wrong in both directions: some people overestimate their work, others underestimate it. Your assessment becomes more realistic with **criteria**. They tell you how you can recognise that a piece of work is good. They are usually in the task. If not, you ask **before you start**.\n\nBefore you hand in your work, you do the **traffic-light criteria check**. You check each criterion separately:\n\n- **Green:** met.\n- **Amber:** partly met.\n- **Red:** missing.\n\nAn example: the task for a report asks for a title, an introduction, three sections and a picture with a caption. The title and introduction are green. The third section has only just been started – amber. Amber and red aren't a defeat. They show you what you can still improve while there is still time.\n\nWhen your work comes back with feedback, you **compare** it with your traffic light: where was I right? Where did I overestimate or underestimate myself? That way your assessment gets more accurate each time.\n\n**Not “It feels good”, but “Is every criterion met?”**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-fair-urteilen",
+   "title": "Judging fairly – and standing up for your own opinion",
+   "body": "David is late for group work for the third time. “He's just lazy,” someone says. Is that true?\n\nJudging fairly starts with **observing before judging**. To do this, you keep three levels apart:\n\n- **Observation:** what you can see or hear. (“He was late three times.”)\n- **Guess:** a possible explanation. (“Maybe his bus comes later.”)\n- **Judgement:** an evaluation. (“He's lazy.”)\n\nBeing fair means sticking to the observation first, **asking** about the reasons and only then judging.\n\n**Fair feedback** to others also has three parts: say specifically what was good, name an observation and make a suggestion. “The beginning was exciting. You spoke very fast – maybe pause briefly after each section?” A “Brilliant!” doesn't help. A “Boring.” hurts and doesn't help either.\n\nYou give your own opinion **with a reason**: “I think …, because …” Then you take the other person seriously: “What do you think?” Accepting other opinions doesn't mean giving up your own. If there is a fair vote, you go along with the result, even if you keep your opinion. If a better reason convinces you, you are allowed to change your mind. The fact that everyone else sees something differently is not a reason on its own.\n\n**Observe first, then judge – and give your own opinion with a reason.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-fair-urteilen",
+   "title": "Quiz: A fair judgement?",
+   "teilkompetenzen": [
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ],
+   "intro": "Five questions from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Samuel hardly says anything in group work. Someone says: “He just doesn't care.” What is a fair way to handle this?",
+     "options": [
+      {
+       "text": "Agree – anyone who says nothing in the group simply isn't interested."
+      },
+      {
+       "text": "Stick to what you can see, and ask Samuel what he thinks.",
+       "correct": true
+      },
+      {
+       "text": "Say nothing and simply stop giving him any tasks in future."
+      },
+      {
+       "text": "Ask him in front of the whole group why he isn't making an effort."
+      }
+     ],
+     "explanation": "“Samuel says little” is an **observation**, “He doesn't care” is a **judgement** about what he intends – without evidence. The fair thing is to **stick to the observation and ask**: maybe he thinks first, or he is unsure. If you simply agree, you take on the judgement. If you quietly stop giving him tasks, you judge without asking. And asking in front of the group why he isn't making an effort already contains the judgement."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Yara asks you for feedback on the story she wrote for her German lesson. Which feedback helps her most?",
+     "options": [
+      {
+       "text": "I really like it, it's all brilliant – I honestly wouldn't change anything in your story."
+      },
+      {
+       "text": "The ending is pretty bad – it would be best to rewrite it completely from scratch."
+      },
+      {
+       "text": "I would have written about a completely different topic – that would have been more exciting."
+      },
+      {
+       "text": "The beginning makes me curious. I don't get why Tom runs away at the end – one more sentence?",
+       "correct": true
+      }
+     ],
+     "explanation": "The last piece of feedback is **fair and helpful**: it names something that worked well specifically, describes an observation (the part that remains unclear to you) and makes a suggestion. “It's all brilliant” is nice, but doesn't show Yara what she can improve. “The ending is bad” is a judgement without an observation and without any hint about what exactly is missing. And a completely different topic doesn't help her with her story."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "The class council is voting on the class trip: a climbing park or a museum. Almost everyone wants to go to the climbing park, but you think the museum is better. What is the best thing to do?",
+     "options": [
+      {
+       "text": "Give your opinion with a reason – and go along with the result of the vote.",
+       "correct": true
+      },
+      {
+       "text": "Better not say anything at all – you're going to lose the vote anyway."
+      },
+      {
+       "text": "Vote for the climbing park as well, so that nobody gives you funny looks."
+      },
+      {
+       "text": "Keep on talking until the others give in and choose the museum."
+      }
+     ],
+     "explanation": "**Standing up for your opinion and accepting other opinions** go together: you say what you think and why – maybe your reason will convince someone. But a fair vote still counts if you lose. If you stay silent, nobody hears your reason. If you vote against your own opinion so that nobody gives you funny looks, you hide it. And if you keep talking until the others give in, you don't convince them – you put them under pressure."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "In a discussion about phone rules at school, Jan gives a reason you hadn't thought of – and it convinces you. What do you do?",
+     "options": [
+      {
+       "text": "Stick to your opinion – otherwise you'll look weak in front of the others."
+      },
+      {
+       "text": "Pretend that this is actually what you meant all along."
+      },
+      {
+       "text": "Say that his reason convinces you, and change your opinion.",
+       "correct": true
+      },
+      {
+       "text": "Quickly change the subject so that nobody notices."
+      }
+     ],
+     "explanation": "Changing your opinion because of a **better reason** shows strength, not weakness. That's different from giving in because someone is pushing or because everyone sees it differently. Sticking to your old opinion just so you don't look weak makes a good conversation impossible. Pretending you meant it all along isn't honest towards Jan. And changing the subject just avoids the reason."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Which statement about Emma is an observation and not a judgement?",
+     "options": [
+      {
+       "text": "Once again, Emma was pretty arrogant towards everyone else in the group work."
+      },
+      {
+       "text": "In the group work, Emma said “That's wrong” twice without explaining why.",
+       "correct": true
+      },
+      {
+       "text": "In group work, Emma thinks she's the best in the whole class."
+      },
+      {
+       "text": "Emma always wants to be the centre of attention in group work, whatever it's about."
+      }
+     ],
+     "explanation": "Only the second statement describes **what you could see and hear**: what Emma said and how often. That is an **observation**. “Arrogant” is a **judgement**. “Thinks she's the best” and “wants to be the centre of attention” are also **judgements**: they claim something about what Emma intends as if it were certain – nobody can look inside Emma's head. A guess would be careful: “Maybe she's very sure of herself.”"
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-selbstbild",
+   "title": "Self-image traps and tools",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen"
+   ],
+   "intro": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "“When I'm supposed to name my strengths, I can't think of anything – I'm just not really good at anything.”"
+     },
+     "rechts": {
+      "text": "Use the evidence question to look for situations in which even small things went well for me"
+     }
+    },
+    {
+     "links": {
+      "text": "“I think I'm good at giving presentations – but I don't know whether others see it the same way.”"
+     },
+     "rechts": {
+      "text": "Get a second opinion and compare it with my own picture"
+     }
+    },
+    {
+     "links": {
+      "text": "“I just can't do maths – there's no point in even practising.”"
+     },
+     "rechts": {
+      "text": "Name the difficult part precisely and plan a first learning step for it"
+     }
+    },
+    {
+     "links": {
+      "text": "“I hand in my work without looking at it again.”"
+     },
+     "rechts": {
+      "text": "Before handing it in, check each criterion separately with the traffic light"
+     }
+    },
+    {
+     "links": {
+      "text": "“I thought my text was brilliant – then the feedback was completely different.”"
+     },
+     "rechts": {
+      "text": "Compare my assessment with the feedback and find out where they differed"
+     }
+    },
+    {
+     "links": {
+      "text": "“I don't really know what matters most in this piece of work.”"
+     },
+     "rechts": {
+      "text": "Clarify the criteria before I start: look them up in the task or ask"
+     }
+    },
+    {
+     "links": {
+      "text": "“In group work, I never know which task I should take on.”"
+     },
+     "rechts": {
+      "text": "When tasks are shared out, choose the one that fits what I have often managed before"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-kriterien-check",
+   "title": "The criteria check",
+   "teilkompetenzen": [
+    "uef.reflexion.eigene-arbeit-einschaetzen"
+   ],
+   "intro": "Hanna checks her report before she hands it in. Fill in the right words. Two of the words to choose from don't fit anywhere.",
+   "modus": "wortbank",
+   "text": "Hanna has written a report about the school trip. Before she hands it in, she looks up the {{1}} in the task: title, introduction, three sections and a picture with a caption. She checks each criterion separately using the {{2}}: green for met, amber for partly met, red for missing.\nFor the picture she sees amber: the picture is there, but the caption is missing. If she had only listened to her {{3}} (“Feels good!”), she wouldn't have noticed this {{4}} – now she can still fix it.\nWhen the report comes back with feedback, she {{5}} it with her traffic light: where was she right, and where did she overestimate or underestimate herself?",
+   "luecken": [
+    {
+     "antworten": [
+      "criteria"
+     ]
+    },
+    {
+     "antworten": [
+      "traffic light",
+      "traffic lights"
+     ]
+    },
+    {
+     "antworten": [
+      "gut feeling",
+      "gut",
+      "gut feelings",
+      "gut instinct"
+     ]
+    },
+    {
+     "antworten": [
+      "mistake",
+      "error"
+     ]
+    },
+    {
+     "antworten": [
+      "compares"
+     ]
+    }
+   ],
+   "ablenker": [
+    "paints over",
+    "opinion"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-vortragsprobe",
+   "title": "Role play: The presentation rehearsal",
+   "teilkompetenzen": [
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ],
+   "intro": "Morning break. Your classmate Lina is giving a presentation about plastic in the sea tomorrow and has just run through it for you. Starting with a question to the class was strong. After that she spoke very fast and read almost everything off her cards, and her slides are full of text. Now she is looking at you expectantly. At each step, choose how you react – different paths lead to different endings. Lina is a simulated conversation character, not a real person.",
+   "figur": {
+    "name": "Lina (AI character)",
+    "rolle": "Your classmate, who has just run through her presentation for you and wants your honest opinion",
+    "rollenPrompt": "You are Lina, 14 years old, and you are in the same class as the person you are talking to. It is morning break. Tomorrow you are giving a presentation about plastic in the sea, and you have just run through it for this person. You are nervous and want honest feedback, but you are sensitive when someone makes sweeping judgements, such as “boring” or “bad”. You already suspect that you spoke too fast. At first you hold on to your full slides, for example with “If everything's on there, I won't forget anything” or “Then the others can read along”. A friendly suggestion with a reason can convince you, especially if the person takes your fear of getting stuck seriously. You calmly push back against orders without a reason, for example with “It's still my presentation”. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. You don't give advice about feedback or presentation skills, and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to the presentation in a friendly way. You talk casually like a teenager, but without swear words. If you are asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "So, that's it. Well? Be honest – how was it?",
+     "antworten": [
+      {
+       "text": "Brilliant, really perfect!",
+       "weiter": "nur-lob"
+      },
+      {
+       "text": "Starting with the question was strong. After that you spoke very fast and read almost everything off your cards – maybe pause briefly after each section?",
+       "weiter": "konkret"
+      },
+      {
+       "text": "Honestly? Pretty boring.",
+       "weiter": "abwertend"
+      }
+     ]
+    },
+    {
+     "id": "nur-lob",
+     "text": "Really? I felt like I was way too fast … Don't you think?",
+     "antworten": [
+      {
+       "text": "Well, yes, a bit. Starting with the question was strong, after that it got very fast, and you read a lot off your cards – maybe pause briefly after each section?",
+       "weiter": "konkret"
+      },
+      {
+       "text": "No, no, it was all fine.",
+       "weiter": "ende-schoengeredet"
+      }
+     ]
+    },
+    {
+     "id": "abwertend",
+     "text": "Oh. *Lina looks down at her cards.* What exactly was boring?",
+     "antworten": [
+      {
+       "text": "Sorry, that wasn't fair. The beginning was really good. To be specific: you spoke fast and read a lot off your cards – maybe pause briefly after each section?",
+       "weiter": "konkret"
+      },
+      {
+       "text": "Dunno, just everything.",
+       "weiter": "ende-verletzt"
+      }
+     ]
+    },
+    {
+     "id": "konkret",
+     "text": "Hmm, okay, you're probably right about the speed. But I'm keeping the slides as they are. If everything's on there, I won't forget anything – and the others can read along.",
+     "antworten": [
+      {
+       "text": "I see it differently: if everything's on there, everyone reads along and listens to you less. Maybe just key words? But it's your presentation.",
+       "weiter": "meinung-begruendet"
+      },
+      {
+       "text": "Okay, you're right.",
+       "weiter": "nachgeben"
+      },
+      {
+       "text": "No, that's just wrong. Do it the way I say.",
+       "weiter": "rechthaben"
+      }
+     ]
+    },
+    {
+     "id": "nachgeben",
+     "text": "Good, then everything stays as it is. Anything else?",
+     "antworten": [
+      {
+       "text": "Actually, I do think the slides are too full – I just didn't want an argument. If everything's on there, everyone reads along and listens to you less. Maybe just key words?",
+       "weiter": "meinung-begruendet"
+      },
+      {
+       "text": "No, it's fine.",
+       "weiter": "ende-verschwiegen"
+      }
+     ]
+    },
+    {
+     "id": "rechthaben",
+     "text": "Hey, it's still my presentation. Why are you so sure about that?",
+     "antworten": [
+      {
+       "text": "True, sorry. I think with full slides everyone reads along and listens to you less. Maybe just key words? What do you think?",
+       "weiter": "meinung-begruendet"
+      },
+      {
+       "text": "Because that's just how it is.",
+       "weiter": "ende-streit"
+      }
+     ]
+    },
+    {
+     "id": "meinung-begruendet",
+     "text": "Hmm … But with only key words, I'm scared I'll get stuck.",
+     "antworten": [
+      {
+       "text": "I get that. You could write the full sentences on your cards and just key words on the slides.",
+       "weiter": "ende-loesung"
+      },
+      {
+       "text": "Then just leave everything on, I don't care.",
+       "weiter": "ende-gleichgueltig"
+      }
+     ]
+    },
+    {
+     "id": "ende-loesung",
+     "text": "Cards for me, key words for the others – I'll try that out this evening. Thanks, that really helps!",
+     "auswertung": "**Fair feedback and an opinion with a reason – very good.** In the end, instead of a judgement, you told Lina three things: what had worked well, what you had noticed (the speed and reading off your cards) and a suggestion. On the slides, you stood up for your view with a reason, took her worry seriously and made a suggestion that combines both. You left the decision to her: it was a suggestion, not an order. If along the way you first only praised her, judged, gave orders or quickly said “You're right”: good that you changed course – talking like this from the start saves the detour."
+    },
+    {
+     "id": "ende-schoengeredet",
+     "text": "Okay, that's a relief then. *The next day Lina speaks very fast again. Some people in the class can't keep up.*",
+     "auswertung": "**Well meant – but not helpful.** Only praise sounds friendly, but it keeps quiet about the observation that would have helped Lina. She had sensed herself that she was too fast, and even asked you about it. Fair feedback names what worked well **and** an observation with a suggestion: “The beginning was strong. After that you were very fast – maybe pause briefly after each section?” Try a different path in the role play."
+    },
+    {
+     "id": "ende-verletzt",
+     "text": "Right. Thanks a lot. *Lina packs up her cards and leaves.*",
+     "auswertung": "**A judgement instead of an observation.** “Boring” is a judgement without evidence. It hurts and doesn't show Lina what she can do better. When she asked, you still had the chance to be specific – with “just everything” it stayed a judgement. It would have been more helpful to say first what had worked well (starting with the question) and then describe what you had noticed (the speed and reading off your cards). Try a different path in the role play."
+    },
+    {
+     "id": "ende-verschwiegen",
+     "text": "Great, then I'm ready! *During the presentation, everyone reads the full slides instead of listening to Lina.*",
+     "auswertung": "**Friendly – but you swallowed your own opinion.** Your feedback on the speed and reading off your cards helped Lina. But on the slides you agreed without being convinced, and you didn't use the second chance either. That isn't accepting another opinion – it's keeping quiet about your own. Lina needed to hear your reason – she can still make the decision herself afterwards. Try a different path in the role play."
+    },
+    {
+     "id": "ende-streit",
+     "text": "Well then, I'd rather ask someone else. *Lina turns away.*",
+     "auswertung": "**Wanting to be right instead of convincing.** Your feedback on the speed and reading off your cards helped Lina. But on the slides you gave orders instead of reasons, and when she asked why, all you said was “Because that's just how it is”. An order without a reason leaves no room for her opinion. With “I think …, because …” and “What do you think?” you would have been more likely to get through to her – and left the decision to her. Try a different path in the role play."
+    },
+    {
+     "id": "ende-gleichgueltig",
+     "text": "Ah … okay. *Lina seems unsure and leaves the slides as they are.*",
+     "auswertung": "**A good start – but you let go at the end.** In the end your feedback was fair, and you gave your opinion on the slides with a reason. But when Lina mentioned her worry about getting stuck, you brushed her off with “I don't care”. Standing up for your opinion also means staying in the conversation and looking for a way together – for example full sentences on the cards and just key words on the slides. Try a different path in the role play."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-vortragsprobe-frage",
+    "type": "single_choice",
+    "prompt": "Lina says: “If everything's on there, I won't forget anything – and the others can read along.” You see it differently. Which approach fits best?",
+    "options": [
+     {
+      "text": "Say nothing – it's her presentation, after all, so you'd rather not get involved at all."
+     },
+     {
+      "text": "Keep insisting on your opinion until she changes the slides after all in the end."
+     },
+     {
+      "text": "Give your view with a reason, take her worry seriously and leave the decision to her.",
+      "correct": true
+     },
+     {
+      "text": "Agree, and later tell the others that her slides were actually pretty bad."
+     }
+    ],
+    "explanation": "Two things belong together here: **standing up for your own opinion with a reason** and **accepting the other opinion**. You say why you find full slides difficult, take Lina's worry seriously and leave the decision to her – it's her presentation. If you stay silent, she never hears the reason that could help her. If you insist, you turn feedback into pressure. And talking about the slides behind her back is unfair."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-selbstbild",
+   "title": "Your strengths, your work",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen"
+   ],
+   "intro": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts.",
+   "tasks": [
+    {
+     "id": "aufgabe-staerke-beleg",
+     "prompt": "Think about your learning at school. Describe in 4–6 sentences:\n\n1. a **strength** you show when learning or at school, and **evidence** for it – a specific situation in which it showed,\n2. something you still find hard **when learning** – as precisely as possible,\n3. a **first step** you can take to practise exactly this thing.",
+     "hint": "Think of the text “Strengths and weaknesses – with evidence”: ask yourself the evidence question “How do I know?”. Describe the difficulty more precisely: which part exactly do you find hard? Stick to learning – you don't have to say any more about yourself than that.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names a specific strength and backs it up with a situation in which it showed – not just “I'm good at …”. (2) It describes a learning difficulty precisely: one part instead of a whole subject, for example “word problems” instead of “maths” or “summarising long texts” instead of “German”. (3) It names a first learning step that fits exactly this difficulty and can be put into practice soon. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “I'm good at designing posters clearly: for the last two group posters, the others asked me to do the layout. In English, I find it hard to choose the right tense when I talk about yesterday. To help with this, I'll write three example sentences on a card and look at them before every writing task.” An honestly named difficulty is more valuable than an answer that only shows strengths. Private details are not necessary."
+    },
+    {
+     "id": "aufgabe-ampel",
+     "prompt": "Choose a piece of work that you will hand in soon or have recently handed in – for example a report, a poster, a presentation or an exercise book. For it, write:\n\n1. three to four **criteria** that matter for this piece of work and that you can check to see whether they are met,\n2. a **traffic-light colour** (green, amber or red) for each criterion, with a short reason,\n3. what you will improve or would have improved – or, if everything is green, how you can tell.",
+     "hint": "The criteria are usually in the task. Then check with the traffic light from the text “Measuring your own work against criteria”: green = met, amber = partly met, red = missing. An honest colour matters more than a green one.",
+     "solution": "Criteria for a good answer (only these three are assessed; you are free to choose the piece of work): (1) It names three to four checkable criteria – in other words, ones where you can look and see whether they are met (such as “three sections”, “source given”, “five minutes at most”), not just “nice” or “good”. (2) For each criterion there is a traffic-light colour and an understandable reason that fits the work. (3) It names an improvement that belongs to an amber or red criterion – or, if everything really is green, it backs this up with evidence from the work. A possible example (one of many – any piece of work from school is equally good, similarity to the example doesn't count): “My poster about volcanoes: title easy to read – green, you can see it from the back too. Three sections with subheadings – amber, one section doesn't have a subheading yet. Source given – red, it's missing. I'll add the subheading and write the source at the bottom of the poster.” An honest traffic light with amber and red is more valuable than a prettified one that only shows green. Private details are not necessary."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "What next?",
+   "body": "Well done! You have practised assessing yourself with evidence instead of gut feeling, measuring your work against criteria and judging others fairly without giving up your own opinion.\n\n- **Try out a tool** – for example the traffic-light criteria check before you next hand something in.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

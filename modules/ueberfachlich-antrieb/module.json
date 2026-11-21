@@ -1,0 +1,532 @@
+{
+ "schemaVersion": 3,
+ "id": "ueberfachlich-antrieb",
+ "title": "Was mich antreibt",
+ "description": "Was weckt dein Interesse, woher nimmst du Motivation, und wie gehst du mit Aufgaben um, die anstrengend sind? Nach einer kurzen Selbsteinschätzung lernst du Werkzeuge kennen, mit denen du Neugier weckst, dein eigenes Wozu findest und Aufgaben in deiner Lernzone wählst – du übst sie im Quiz, beim Zuordnen, in einem Lückentext und in einem Rollenspiel und denkst über deine eigenen Erfahrungen nach.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Bereitschaft",
+     "description": "Was treibt mich an?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    }
+   ]
+  }
+ ],
+ "einheit": "Überfachliche Kompetenzen",
+ "sequenz": 5,
+ "language": "de",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Überfachliche Kompetenzen",
+  "Bereitschaft",
+  "Motivation",
+  "Interesse",
+  "Neugier",
+  "Anstrengung",
+  "Lernzone",
+  "Lernbereitschaft",
+  "Selbsteinschätzung"
+ ],
+ "learningObjectives": [
+  "Ich kann mit drei Neugier-Fragen auch bei einem neuen Thema etwas finden, das mich interessiert.",
+  "Ich kann Motivation von innen und von außen unterscheiden und für eine Aufgabe mein eigenes Wozu formulieren.",
+  "Ich kann mit dem Startklar-Check zeigen, dass ich bereit bin, mit einer Arbeit zu beginnen.",
+  "Ich kann Wohlfühlzone, Lernzone und Überforderungszone unterscheiden und erklären, warum Anstrengung zum Lernen gehört.",
+  "Ich kann begründen, warum es sich lohnt, Neues zuerst auszuprobieren, bevor ich es beurteile."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-antrieb",
+   "title": "Was mich antreibt",
+   "intro": "Interesse und Motivation sind dein Motor. Hier schätzt du ein, wie bereit du bist, dich auf Neues und auf Anstrengung einzulassen.",
+   "teilkompetenzen": [
+    "uef.antrieb.interesse-zeigen",
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.arbeitsbereitschaft-zeigen",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-neugier",
+   "title": "Neugier wecken",
+   "body": "Neues Thema in Geschichte: das Mittelalter. Dein erster Gedanke: «Langweilig.» Kennst du das?\n\n**Interesse** ist nicht einfach da oder weg. Du kannst es wecken, indem du eine eigene Verbindung zum Thema suchst. Dabei helfen die **drei Neugier-Fragen**:\n\n1. **Was weiß ich schon darüber?** Vielleicht weißt du schon, dass es Ritter und Burgen gab oder dass nur wenige Menschen lesen konnten.\n2. **Was möchte ich wissen?** Such dir eine eigene Frage, zum Beispiel: «Wie sah ein Schultag im Mittelalter aus?»\n3. **Wo begegnet mir das?** Vielleicht im Alltag, in Filmen und Spielen oder an Orten in deiner Umgebung.\n\nSchon eine kleine eigene Frage macht aus einem fremden Thema dein Thema. Wenn du ihr nachgehst, zeigst du Interesse.\n\nEin zweites Werkzeug heißt **erst ausprobieren, dann urteilen**. Eine neue Lernmethode oder ein neues Thema verdient eine faire Chance, bevor du sagst: «Bringt nichts.» Manches wirkt am Anfang fremd und wird erst beim Ausprobieren spannend.\n\nDazu gehört, **offen zu bleiben**. Wer sich einen anderen Lösungsweg erklären lässt oder eine Methode zuerst testet, lernt dazu – auch wenn der eigene Weg vertraut ist. Das ist **Lernbereitschaft**: offen und bereit sein, Neues zu lernen.\n\n**Wer eine eigene Frage hat, ist schon neugierig.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-motivation",
+   "title": "Woher Motivation kommt",
+   "body": "Vokabeln lernen – und null Lust. Sollst du warten, bis die Motivation von selbst kommt? Besser nicht. Motivation kann man finden. Es gibt zwei Arten:\n\n- **Motivation von außen:** Du lernst für eine gute Note, für Lob, für eine Belohnung oder weil es verlangt wird.\n- **Motivation von innen:** Du lernst, weil dich etwas interessiert, weil du etwas können willst oder weil es dir Freude macht.\n\nBeide Arten sind in Ordnung. Die Motivation von innen trägt aber oft länger, weil sie nicht verschwindet, sobald der Test vorbei ist.\n\nEin starkes Werkzeug ist **dein Wozu**. Frag dich: Was bringt mir diese Aufgabe – heute oder später? Zum Beispiel: «Wenn unsere Partnerklasse aus England zu Besuch kommt, will ich mich mit den Jugendlichen unterhalten können.» Ein eigenes Wozu kann aus «Ich muss» ein «Ich will» machen.\n\nHilfreich ist auch, **Fortschritt sichtbar zu machen**: eine Strichliste der gelernten Wörter oder ein Balken, der mit jedem Lerntag wächst. Wer sieht, dass es vorangeht, bleibt eher dran.\n\nUnd noch etwas: Motivation kommt oft **erst beim Tun**. Wer anfängt, findet die Lust häufig unterwegs. Wie du den Anfang schaffst, übst du im Modul [[modul:ueberfachlich-selbststeuerung]].\n\n**Warte nicht auf Motivation – such dein Wozu.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-lernzone",
+   "title": "Startklar und in der Lernzone",
+   "body": "Die Lehrperson gibt einen Auftrag. Nach fünf Minuten suchen einige noch ihr Heft, andere sind schon mittendrin. Was machen sie anders?\n\n**Arbeitsbereitschaft** heißt: bereit sein zu beginnen, sobald es losgeht. Dabei hilft der **Startklar-Check**:\n\n1. **Material bereit?** Heft, Buch und Stift liegen da.\n2. **Auftrag verstanden?** Wenn nicht, lies ihn noch einmal oder frag gleich nach.\n3. **Erster Schritt gewählt?** Du weißt, womit du anfängst.\n\nWie schwierig eine Aufgabe für dich ist, zeigt dir das Werkzeug der **drei Zonen**:\n\n- **Wohlfühlzone:** Alles ist leicht. Das ist bequem, aber du lernst kaum Neues.\n- **Lernzone:** Es ist anstrengend, aber machbar. Hier lernst du am meisten.\n- **Überforderungszone:** Es ist viel zu schwer. Du blockierst und kommst nicht weiter.\n\n**Anstrengung** ist darum meistens ein Zeichen, dass du gerade lernst – nicht automatisch eines, dass du etwas falsch machst.\n\nBist du in der Überforderungszone, löst du zuerst einen leichteren Teil und arbeitest dich Schritt für Schritt zurück in die Lernzone. Bist du in der Wohlfühlzone, wählst du bewusst eine etwas schwierigere Aufgabe.\n\n**Wenn es ein bisschen anstrengend ist, bist du am richtigen Ort.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-antrieb",
+   "title": "Quiz: Was treibt dich an?",
+   "teilkompetenzen": [
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.interesse-zeigen"
+   ],
+   "intro": "Fünf Fragen aus dem Schulalltag. Wähle jeweils die Antwort, die am besten zu den Werkzeugen von oben passt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "In Geschichte beginnt das Thema Mittelalter. Dein erster Gedanke: «Langweilig.» Was kannst du tun, damit es dich interessiert?",
+     "options": [
+      {
+       "text": "Eine eigene Frage suchen, etwa: «Wie lebten Kinder auf einer Burg?»",
+       "correct": true
+      },
+      {
+       "text": "Abwarten, ob das Thema irgendwann von selbst spannend wird."
+      },
+      {
+       "text": "Dir sagen, dass Geschichte einfach nichts für dich ist."
+      },
+      {
+       "text": "Nur das Nötigste machen, damit das Thema schnell vorbei ist."
+      }
+     ],
+     "explanation": "**Eine eigene Frage suchen** ist die zweite Neugier-Frage: «Was möchte ich wissen?» So schaffst du eine eigene Verbindung zum Thema, und Interesse kann entstehen. Wer nur abwartet, überlässt das Interesse dem Zufall. Wer sich sagt: «Geschichte ist einfach nichts für mich», gibt dem Thema keine Chance. Und wer nur das Nötigste macht, findet so keine eigene Verbindung zum Thema."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Welcher Satz beschreibt eine Motivation von innen?",
+     "options": [
+      {
+       "text": "Ich lerne, damit ich im nächsten Test eine gute Note bekomme."
+      },
+      {
+       "text": "Ich lerne, weil die Lehrperson es verlangt und es kontrolliert."
+      },
+      {
+       "text": "Ich lerne, weil ich wissen will, wie ein Vulkan funktioniert.",
+       "correct": true
+      },
+      {
+       "text": "Ich lerne, damit ich nachher eine Stunde lang gamen darf."
+      }
+     ],
+     "explanation": "**Ich lerne, weil ich wissen will, wie ein Vulkan funktioniert** – hier kommt der Antrieb **von innen**, aus Neugier und Interesse. Die gute Note, die Kontrolle durch die Lehrperson und die Belohnung mit Gamen sind Motivation **von außen**. Sie ist nicht schlecht und kann auch helfen. Aber sie kommt nicht aus dir selbst und hört oft auf, sobald der Anreiz wegfällt."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Du sollst bis nächste Woche hundert Vokabeln lernen und hast null Lust. Was hilft dir am ehesten?",
+     "options": [
+      {
+       "text": "Warten, bis die Lust zum Lernen irgendwann von selbst kommt."
+      },
+      {
+       "text": "Dein Wozu klären und eine Strichliste der gelernten Wörter führen.",
+       "correct": true
+      },
+      {
+       "text": "Dich mit denen vergleichen, die die hundert Wörter schon alle können."
+      },
+      {
+       "text": "Alle hundert Wörter auf einmal an einem einzigen Abend lernen."
+      }
+     ],
+     "explanation": "**Dein Wozu klären** gibt der Aufgabe einen eigenen Sinn, und eine **Strichliste** macht deinen **Fortschritt sichtbar** – beides hilft dir, dranzubleiben. Wer auf die Lust wartet, wartet oft lange. Der Vergleich mit anderen entmutigt eher, als dass er antreibt. Und hundert Wörter an einem Abend bringen dich in die Überforderungszone – danach ist die Lust erst recht weg."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Eine Mitschülerin sagt: «Heute habe ich keine Motivation, also lerne ich nicht.» Was stimmt?",
+     "options": [
+      {
+       "text": "Wer heute keine Lust hat, lernt besser morgen – dann geht es leichter."
+      },
+      {
+       "text": "Motivation hat man einfach, oder man hat sie eben nicht."
+      },
+      {
+       "text": "Nur eine Belohnung von außen kann echte Motivation schaffen."
+      },
+      {
+       "text": "Motivation kommt oft erst beim Tun – anfangen kann sie wecken.",
+       "correct": true
+      }
+     ],
+     "explanation": "**Motivation kommt oft erst beim Tun.** Wer anfängt, findet die Lust häufig unterwegs – darum lohnt es sich nicht, auf sie zu warten. Auf morgen verschieben heißt wieder warten – die Lust kommt eher beim Anfangen. Motivation ist auch nicht angeboren: Du kannst sie finden, zum Beispiel über dein Wozu. Und eine Belohnung ist nur eine Möglichkeit – Interesse und ein eigenes Wozu tragen oft länger."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "In Biologie erwähnt die Lehrperson nebenbei, dass Bienen einander mit einem Tanz zeigen, wo es Futter gibt. Du findest das spannend. Was zeigt dein Interesse am besten?",
+     "options": [
+      {
+       "text": "Nichts weiter tun – es kommt ja sowieso nicht im Test vor."
+      },
+      {
+       "text": "Nachfragen, wie das genau geht, oder später selbst dazu nachlesen.",
+       "correct": true
+      },
+      {
+       "text": "Warten, ob die Lehrperson später im Unterricht noch mehr dazu erzählt."
+      },
+      {
+       "text": "Den anderen sagen, dass Bienen sowieso langweilig sind."
+      }
+     ],
+     "explanation": "**Nachfragen oder selbst nachlesen** heißt, einer eigenen Frage nachzugehen – die zweite Neugier-Frage in Aktion. So zeigst du **Interesse**. Ob etwas im Test vorkommt, sagt nichts darüber, ob es spannend ist. Wer nur wartet, überlässt die eigene Frage anderen. Und wer etwas Spannendes schlechtredet, nimmt sich selbst die Freude daran."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-gedanken",
+   "title": "Bremsende Gedanken und Werkzeuge",
+   "teilkompetenzen": [
+    "uef.antrieb.arbeitsbereitschaft-zeigen",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ],
+   "intro": "Links stehen typische Stolpersteine, rechts Werkzeuge aus den Texten oben. Ordne jedem Stolperstein das Werkzeug zu, das am besten hilft. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Wenn die Arbeit losgeht, suche ich zuerst ewig mein Material zusammen.»"
+     },
+     "rechts": {
+      "text": "Vor dem Start das Material bereitlegen und den ersten Schritt wählen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich nehme immer die leichteste Aufgabe – da kann nichts schiefgehen.»"
+     },
+     "rechts": {
+      "text": "Bewusst eine etwas schwierigere Aufgabe wählen: anstrengend, aber machbar"
+     }
+    },
+    {
+     "links": {
+      "text": "«Wenn es anstrengend wird, mache ich wohl etwas falsch.»"
+     },
+     "rechts": {
+      "text": "Anstrengung zuerst als Zeichen sehen, dass ich gerade etwas lerne"
+     }
+    },
+    {
+     "links": {
+      "text": "«Die Lehrperson schlägt Karteikarten für Vokabeln vor. Ich denke: ‹Bringt bestimmt nichts.›»"
+     },
+     "rechts": {
+      "text": "Die Karteikarten eine Woche lang ausprobieren und erst dann urteilen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich habe den Auftrag nicht verstanden, also warte ich einfach ab.»"
+     },
+     "rechts": {
+      "text": "Den Auftrag noch einmal lesen und, wenn nötig, gleich nachfragen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Bei dieser Aufgabe bin ich total überfordert und blockiert.»"
+     },
+     "rechts": {
+      "text": "Zuerst einen leichteren Teil lösen und mich Schritt für Schritt herantasten"
+     }
+    },
+    {
+     "links": {
+      "text": "«In Mathe erklärt jemand einen anderen Rechenweg – mich interessiert nur meiner.»"
+     },
+     "rechts": {
+      "text": "Zuhören, wie die andere Person rechnet – vielleicht ist ihr Weg besser"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-drei-zonen",
+   "title": "Drei Zonen",
+   "teilkompetenzen": [
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ],
+   "intro": "Nora sucht für eine Französischaufgabe den richtigen Schwierigkeitsgrad. Setze die passenden Begriffe ein. Zwei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Nora soll für Französisch einen kurzen Text über ihren Schulweg schreiben. Sie könnte nur Sätze abschreiben, die sie schon kennt. Das wäre bequem: Sie bliebe in der {{1}} und würde kaum etwas Neues lernen. Einen langen Aufsatz ganz ohne Hilfe zu schreiben, wäre dagegen zu viel: Sie käme in die {{2}} und wäre blockiert.\nSie entscheidet sich für einen kurzen Text, in dem sie fünf neue Wörter verwendet. Das ist {{3}}, aber machbar – sie ist in der {{4}}.\nDass es Mühe kostet, zeigt ihr: Sie {{5}} gerade etwas Neues.",
+   "luecken": [
+    {
+     "antworten": [
+      "Wohlfühlzone"
+     ]
+    },
+    {
+     "antworten": [
+      "Überforderungszone"
+     ]
+    },
+    {
+     "antworten": [
+      "anstrengend"
+     ]
+    },
+    {
+     "antworten": [
+      "Lernzone"
+     ]
+    },
+    {
+     "antworten": [
+      "lernt"
+     ]
+    }
+   ],
+   "ablenker": [
+    "unmöglich",
+    "Pausenzone"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-projektthema",
+   "title": "Rollenspiel: Das Projektthema",
+   "teilkompetenzen": [
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.interesse-zeigen"
+   ],
+   "intro": "Für die Projektarbeit der nächsten vier Wochen sollt ihr zu zweit ein Thema wählen. Zur Auswahl stehen: «Die Geschichte des Fahrrads», «Wie viel Essen landet beim Mittagstisch unserer Schule im Abfall?» und «Wir programmieren ein einfaches Spiel». Dich reizt das Spiel. Dein Projektpartner Jonas hat schon eine Meinung. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen. Jonas ist eine simulierte Gesprächsfigur, keine echte Person.",
+   "figur": {
+    "name": "Jonas (KI-Figur)",
+    "rolle": "Dein Projektpartner, der möglichst schnell und bequem fertig werden will",
+    "rollenPrompt": "Du bist Jonas, 14 Jahre alt, und gehst in dieselbe Klasse wie die Person, mit der du sprichst. Ihr sollt zu zweit ein Thema für eine Projektarbeit von vier Wochen wählen: «Die Geschichte des Fahrrads», «Wie viel Essen landet beim Mittagstisch unserer Schule im Abfall?» oder «Wir programmieren ein einfaches Spiel». Du willst das Fahrrad, weil es dazu viel fertigen Text gibt und ihr schnell fertig wärt, zum Beispiel mit Sätzen wie «Dazu gibt's schon alles im Internet». Du spielst gern Games, traust dir Programmieren aber nicht zu («Das ist mir zu schwer»). Du bist nicht faul, sondern unsicher. Dienstags und donnerstags hast du Training. Wenn die Person nach deinem Interesse fragt oder vorschlägt, es zuerst klein auszuprobieren, wirst du neugierig und machst mit. Wenn sie dich unter Druck setzt oder sagt, sie mache es auch ohne dich, bist du gekränkt, bleibst aber freundlich. Du bist nie gemein, beleidigst nicht, drohst nicht und machst niemanden lächerlich. Du gibst keine Ratschläge zu Motivation und spielst keine Lehrperson. Du sprichst nicht über Familie, Gesundheit oder Privates; wenn jemand danach fragt, lenkst du freundlich auf die Aufgabe zurück. Du sprichst locker wie ein Jugendlicher, aber ohne Schimpfwörter. Auf Fragen zu dir selbst sagst du offen, dass du eine simulierte Figur und keine echte Person bist. Antworte kurz (1–3 Sätze) und bleib in diesem Gespräch."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Nehmen wir das Fahrrad. Dazu gibt's schon alles im Internet – dann sind wir schnell fertig.",
+     "antworten": [
+      {
+       "text": "Okay, Hauptsache schnell fertig.",
+       "weiter": "schnell-einverstanden"
+      },
+      {
+       "text": "Mich reizt das Spiel-Programmieren. Was interessiert dich eigentlich?",
+       "weiter": "interesse-fragen"
+      },
+      {
+       "text": "Fahrrad ist voll langweilig. Ich mache das Spiel – mit oder ohne dich.",
+       "weiter": "druck"
+      }
+     ]
+    },
+    {
+     "id": "schnell-einverstanden",
+     "text": "Perfekt. Ich such einen Text, wir machen Folien draus – in zwei Stunden sind wir durch.",
+     "antworten": [
+      {
+       "text": "Warte – vier Wochen und nur Folien aus einem fertigen Text? Da lernen wir doch nichts. Was würdest du denn gern können?",
+       "weiter": "interesse-fragen"
+      },
+      {
+       "text": "Passt.",
+       "weiter": "ende-pflicht"
+      }
+     ]
+    },
+    {
+     "id": "druck",
+     "text": "Wow, chill. Ich kann halt nicht programmieren, das ist mir zu schwer.",
+     "antworten": [
+      {
+       "text": "Sorry, so war das nicht gemeint. Ich kann es auch noch nicht – genau das reizt mich. Wir könnten es zusammen lernen.",
+       "weiter": "zu-schwer"
+      },
+      {
+       "text": "Dann such ich mir eben jemand anderen.",
+       "weiter": "ende-allein"
+      }
+     ]
+    },
+    {
+     "id": "interesse-fragen",
+     "text": "Ehrlich? Games spiele ich gern. Aber selbst eins programmieren? Das ist mir zu schwer.",
+     "antworten": [
+      {
+       "text": "Ich kann es auch noch nicht. Es gibt Baukasten-Programme für Anfänger – sollen wir es eine Stunde ausprobieren, bevor wir entscheiden?",
+       "weiter": "ausprobieren"
+      },
+      {
+       "text": "Dann halt doch das Fahrrad.",
+       "weiter": "ende-pflicht"
+      }
+     ]
+    },
+    {
+     "id": "zu-schwer",
+     "text": "Zusammen lernen … Und wenn wir nach zwei Wochen merken, dass wir nichts hinkriegen?",
+     "antworten": [
+      {
+       "text": "Dann haben wir trotzdem viel gelernt. Wir fangen klein an: zuerst nur eine Figur, die springt.",
+       "weiter": "ausprobieren"
+      },
+      {
+       "text": "Stimmt, zu riskant. Nehmen wir das Fahrrad.",
+       "weiter": "ende-pflicht"
+      }
+     ]
+    },
+    {
+     "id": "ausprobieren",
+     "text": "*Eine Stunde später.* Okay, das war cooler als gedacht – die Figur springt! Aber das wird viel Arbeit. Und ich hab dienstags und donnerstags Training.",
+     "antworten": [
+      {
+       "text": "Dann teilen wir es auf: Ich mache die Figuren, du die Punktezählung. Wir arbeiten montags und mittwochs zusammen.",
+       "weiter": "aufteilen"
+      },
+      {
+       "text": "Wenn es so viel Arbeit ist, lassen wir es lieber.",
+       "weiter": "ende-abgebrochen"
+      }
+     ]
+    },
+    {
+     "id": "aufteilen",
+     "text": "Deal. Aber was machen wir, wenn wir irgendwo nicht weiterkommen?",
+     "antworten": [
+      {
+       "text": "Dann suchen wir zuerst zusammen eine Lösung – und wenn es nicht geht, fragen wir gezielt nach.",
+       "weiter": "ende-motiviert"
+      },
+      {
+       "text": "Lieber nicht riskieren, dass wir hängen bleiben – nehmen wir doch gleich das Fahrrad.",
+       "weiter": "ende-abgebrochen"
+      }
+     ]
+    },
+    {
+     "id": "ende-motiviert",
+     "text": "Abgemacht. Montag zeig ich dir, was ich schon zu Hause probiert habe!",
+     "auswertung": "**Lernzone gewählt und drangeblieben – sehr gut.** Du hast Jonas' Bedenken ernst genommen und vorgeschlagen, klein anzufangen – mit einer kurzen Probe oder zuerst nur einer Figur, die springt. So konntet ihr erst ausprobieren und dann urteilen. Als es nach viel Arbeit aussah, habt ihr sie aufgeteilt – jede und jeder einen Teil –, gemeinsame Arbeitstage abgemacht und einen Plan für schwierige Stellen gemacht. So bleibt das Projekt anstrengend, aber machbar – genau die Lernzone. Und Jonas ist inzwischen selbst neugierig geworden."
+    },
+    {
+     "id": "ende-pflicht",
+     "text": "*Vier Wochen später stellt ihr Folien über das Fahrrad vor. Sie sind ordentlich – aber ihr seid beide froh, als es vorbei ist.*",
+     "auswertung": "**Schnell fertig – aber wenig gelernt.** Am Ende habt ihr das bequeme Thema genommen: Folien aus einem fertigen Text. Das ist die Wohlfühlzone – vier Wochen Projektzeit, aber kaum etwas Neues gelernt, und ihr wart beide froh, als es vorbei war. Dabei war das Interesse am Spiel da. Eine kurze Probe hätte gezeigt, ob das Projekt anstrengend, aber machbar ist. Wer etwas Neues zuerst ausprobiert, gibt sich die Chance, die Motivation beim Tun zu finden. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-allein",
+     "text": "Okay … dann viel Glück. *Jonas arbeitet mit jemand anderem. Du startest allein und merkst, wie lang vier Wochen ohne Projektpartner sind.*",
+     "auswertung": "**Eigene Motivation – aber Jonas verloren.** Dein Interesse am Spiel ist stark, und es ist gut, dass du dich auf etwas Schwieriges einlassen willst. Aber mit Druck weckst du bei anderen keine Neugier: Jonas fühlte sich überfahren, und jetzt arbeitest du allein. Hättest du gefragt, was ihn interessiert, und eine kleine Probe vorgeschlagen, wäre er vielleicht mitgekommen. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-abgebrochen",
+     "text": "*Ihr wechselt zum Fahrrad. Ab und zu sagt Jonas: «Die springende Figur war eigentlich lustig.»*",
+     "auswertung": "**Guter Start – vor der Anstrengung umgekehrt.** Ihr habt das Spiel ausprobiert, und das Interesse war geweckt – auch bei Jonas. Als es anstrengend wurde – wegen der vielen Arbeit oder aus Sorge vor schwierigen Stellen –, seid ihr aber zurück in die Wohlfühlzone gegangen. Dabei war die Anstrengung genau das Zeichen, dass ihr in der Lernzone wart. Wer bei viel Arbeit zuerst einen kleinen, machbaren Teil anpackt und die Arbeit aufteilt, bleibt in der Lernzone: anstrengend, aber machbar. Probier im Rollenspiel einen anderen Weg aus."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-projektthema-frage",
+    "type": "single_choice",
+    "prompt": "Jonas sagt über das Spiel-Programmieren: «Das ist mir zu schwer.» Welches Vorgehen hilft dir in so einem Moment am meisten?",
+    "options": [
+     {
+      "text": "Sofort das leichteste Thema nehmen, damit es bestimmt keinen Stress gibt."
+     },
+     {
+      "text": "Gleich das ganze Spiel in voller Größe planen und loslegen."
+     },
+     {
+      "text": "Jonas sagen, dass er sich nicht so anstellen soll – das wird schon."
+     },
+     {
+      "text": "Erst eine kurze Probe machen und mit einem einfachen Teil anfangen.",
+      "correct": true
+     }
+    ],
+    "explanation": "«Das ist mir zu schwer» klingt nach Überforderungszone. **Eine kurze Probe mit einem einfachen Teil** zeigt, ob das Projekt anstrengend, aber machbar ist – also in der **Lernzone** liegt. Das ist «erst ausprobieren, dann urteilen». Das leichteste Thema führt zurück in die Wohlfühlzone, in der ihr kaum etwas lernt. Gleich das ganze Spiel zu planen, wäre echte Überforderung. Und wer die Bedenken des anderen abwertet, weckt bei ihm keine Motivation."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-antrieb",
+   "title": "Dein Interesse, dein Wozu",
+   "teilkompetenzen": [
+    "uef.antrieb.interesse-zeigen",
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.arbeitsbereitschaft-zeigen"
+   ],
+   "intro": "Bei diesen zwei Aufgaben gibt es keine richtige oder falsche Antwort – es geht um **deine** Erfahrung. Du wählst deine Beispiele selbst, und du musst nichts Privates erzählen, was du nicht erzählen willst. Wenn Cate aktiviert ist, gibt sie dir eine Rückmeldung, wie gut sie deine Gedanken verstanden hat.",
+   "tasks": [
+    {
+     "id": "aufgabe-neugier",
+     "prompt": "Denk an ein Schulthema, das dich zuerst nicht interessiert hat – oder an eines, das dich gerade wenig interessiert. Schreibe dazu 4–6 Sätze:\n\n1. Um welches Thema geht es?\n2. Beantworte die **drei Neugier-Fragen**: Was weißt du schon darüber? Was möchtest du wissen? Wo begegnet dir das Thema?\n3. Hat sich dein Blick auf das Thema dadurch verändert? Erkläre, warum oder warum nicht.",
+     "hint": "Denk an den Text «Neugier wecken». Deine eigene Frage darf ruhig klein sein – zum Beispiel, wie etwas funktioniert oder wie es früher war. Bei der dritten Neugier-Frage («Wo begegnet dir das Thema?») hilft der Blick auf heute: Filme, Spiele, Orte in deiner Umgebung, dein Schulweg.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie nennt ein konkretes Schulthema, sodass man sich vorstellen kann, worum es geht. (2) Sie beantwortet alle drei Neugier-Fragen sinnvoll: was schon bekannt ist, eine eigene Frage, die die Person wirklich interessieren könnte, und wo ihr das Thema begegnet – heute, in Filmen, Spielen oder in der Umgebung. (3) Sie sagt ehrlich, ob und wie sich der Blick auf das Thema verändert hat, und begründet das; auch «noch nicht viel» ist eine gute Antwort, wenn sie begründet ist. Ein mögliches Beispiel (eines von vielen – jedes Schulthema ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «In Geografie haben wir mit Gesteinen angefangen, und ich fand das zuerst langweilig. Ich weiß schon, dass es Granit gibt. Ich möchte wissen, wie alt die Steine am Rhein sind. Steine sehe ich jeden Tag auf meinem Schulweg. Seit ich diese Frage habe, schaue ich sie mir dort genauer an.» Eine ehrliche Antwort ist wertvoller als eine geschönte. Private Details sind nicht nötig."
+    },
+    {
+     "id": "aufgabe-wozu",
+     "prompt": "Wähle eine Aufgabe, für die du gerade wenig Motivation hast – zum Beispiel Vokabeln, eine Zusammenfassung oder eine Übungsserie. Schreibe dazu 4–6 Sätze:\n\n1. Dein **Wozu**: Was bringt dir die Aufgabe – heute oder später?\n2. Dein **Fortschritt**: Wie machst du ihn sichtbar?\n3. Dein **Startklar-Check**: Was legst du bereit, ist der Auftrag klar, und was ist dein erster Schritt?",
+     "hint": "Denk an die Texte «Woher Motivation kommt» und «Startklar und in der Lernzone»: Motivation von innen oder von außen, eine Strichliste oder ein wachsender Balken, Material – Auftrag – erster Schritt.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie nennt ein persönliches, nachvollziehbares Wozu – was die Aufgabe heute oder später bringt. Auch eine Motivation von außen ist erlaubt, wenn sie ehrlich genannt wird – zum Beispiel ein Test, der gut ausfallen soll. (2) Sie beschreibt eine konkrete Form, den Fortschritt sichtbar zu machen, etwa eine Strichliste, einen wachsenden Balken oder einen Stapel gelernter Karteikarten, der größer wird. (3) Sie enthält einen Startklar-Check mit allen drei Teilen: welches Material bereitliegt, ob der Auftrag klar ist (und was sie tut, wenn nicht) und einen konkreten ersten Schritt. Ein mögliches Beispiel (eines von vielen – jede Aufgabe aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Ich muss die Englischwörter der Lektion 5 lernen. Mein Wozu: Im Klassenlager will ich mich mit den Jugendlichen aus der Partnerschule unterhalten können. Nach jeder Lerneinheit male ich einen Balken weiter aus, bis alle Wörter sitzen. Startklar: Wortliste und Karteikarten liegen auf dem Tisch, ich habe nachgeschaut, welche Seiten drankommen, und mein erster Schritt sind die ersten zehn Wörter.» Ziele mit Zwischenzielen oder ein Wenn-dann-Plan werden hier nicht verlangt. Private Details sind nicht nötig."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "Wie weiter?",
+   "body": "Gut gemacht! Du hast geübt, Neugier zu wecken, dein eigenes Wozu zu finden und Aufgaben in deiner Lernzone zu wählen.\n\n- **Probier ein Werkzeug aus** – zum Beispiel deinen Startklar-Check vor der nächsten Hausaufgabe.\n- **Wiederhole die Einschätzung oben** nach einigen Wochen. Im **Kompetenz-Netzdiagramm** auf der Startseite siehst du dann, ob sich etwas verändert hat.\n- Den Überblick über alle Bereiche der überfachlichen Kompetenzen findest du im Modul [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

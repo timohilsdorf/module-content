@@ -1,0 +1,558 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-antrieb --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:23a14e1efb04e40dcd80126b3f5298ded75a7df9578c4515ac1ab325b32aeaa7",
+  "masterCommit": "6ad26fb",
+  "hintsHash": null,
+  "generatedAt": "2026-11-21",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten.json",
+  "selfHash": "sha256:fa6bd6ef8d49354e305e7cf9257ea1f5fbbddce9355ba92a7240b99278bc306b"
+ },
+ "schemaVersion": 3,
+ "id": "ueberfachlich-antrieb",
+ "title": "What drives me",
+ "description": "What sparks your interest, where do you find motivation, and how do you deal with tasks that are hard work? After a short self-assessment you will get to know tools that help you spark your curiosity, find your own why and choose tasks in your learning zone – you practise them in a quiz, a matching task, a gap-fill and a role play, and think about your own experiences.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Bereitschaft",
+     "description": "Was treibt mich an?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    }
+   ]
+  }
+ ],
+ "einheit": "Transversal competencies",
+ "sequenz": 5,
+ "language": "en",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Transversal competencies",
+  "Readiness",
+  "Motivation",
+  "Interest",
+  "Curiosity",
+  "Effort",
+  "Learning zone",
+  "Willingness to learn",
+  "Self-assessment"
+ ],
+ "learningObjectives": [
+  "I can use three curiosity questions to find something that interests me, even in a new topic.",
+  "I can tell the difference between motivation from within and motivation from outside, and put my own why for a task into words.",
+  "I can use the ready-to-start check to show that I am ready to begin a piece of work.",
+  "I can tell the difference between the comfort zone, the learning zone and the panic zone, and explain why effort is part of learning.",
+  "I can explain why it is worth trying out new things first before I judge them."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-antrieb",
+   "title": "What drives me",
+   "intro": "Interest and motivation are your engine. Here you assess how ready you are to take on new things and real effort.",
+   "teilkompetenzen": [
+    "uef.antrieb.interesse-zeigen",
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.arbeitsbereitschaft-zeigen",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-neugier",
+   "title": "Sparking curiosity",
+   "body": "New topic in history: the Middle Ages. Your first thought: “Boring.” Sound familiar?\n\n**Interest** isn't simply there or not there. You can spark it by looking for your own connection to the topic. The **three curiosity questions** help with this:\n\n1. **What do I already know about it?** Maybe you already know that there were knights and castles, or that only a few people could read.\n2. **What would I like to know?** Find a question of your own, for example: “What was a school day like in the Middle Ages?”\n3. **Where do I come across it?** Maybe in everyday life, in films and games or in places near where you live.\n\nEven a small question of your own turns an unfamiliar topic into your topic. When you follow it up, you are showing interest.\n\nA second tool is called **try it first, then judge**. A new learning method or a new topic deserves a fair chance before you say: “It's pointless.” Some things seem strange at first and only become exciting once you try them out.\n\nPart of this is **staying open**. If you let someone explain a different way of solving a problem to you, or test a method first, you learn something – even if your own way feels familiar. That is **willingness to learn**: being open and ready to learn new things.\n\n**If you have a question of your own, you are already curious.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-motivation",
+   "title": "Where motivation comes from",
+   "body": "Learning vocabulary – and zero motivation. Should you wait until the motivation comes by itself? Better not. Motivation is something you can find. There are two kinds:\n\n- **Motivation from outside:** You study for a good mark, for praise, for a reward or because it is expected of you.\n- **Motivation from within:** You study because something interests you, because you want to be able to do something or because you enjoy it.\n\nBoth kinds are fine. But motivation from within often lasts longer, because it doesn't disappear as soon as the test is over.\n\nA powerful tool is **your why**. Ask yourself: What does this task do for me – today or later on? For example: “When our partner class from England comes to visit, I want to be able to chat with the young people.” Your own why can turn “I have to” into “I want to”.\n\nIt also helps to **make progress visible**: a tally of the words you have learnt, or a bar that grows with every day of studying. When you can see that you are getting somewhere, you are more likely to keep going.\n\nAnd one more thing: motivation often only comes **once you get going**. If you start, you often find the motivation along the way. You can practise how to make a start in the module [[modul:ueberfachlich-selbststeuerung]].\n\n**Don't wait for motivation – look for your why.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-lernzone",
+   "title": "Ready to start and in the learning zone",
+   "body": "The teacher gives the class a task. After five minutes, some people are still looking for their exercise book, while others are already well into it. What are they doing differently?\n\n**Readiness to work** means being ready to begin as soon as things get going. The **ready-to-start check** helps with this:\n\n1. **Materials ready?** Exercise book, textbook and pen are on the desk.\n2. **Task understood?** If not, read it again or ask straight away.\n3. **First step chosen?** You know what you are going to start with.\n\nThe tool of the **three zones** shows you how difficult a task is for you:\n\n- **Comfort zone:** Everything is easy. That's comfortable, but you hardly learn anything new.\n- **Learning zone:** It's hard work, but doable. This is where you learn the most.\n- **Panic zone:** It's far too difficult. You freeze and can't make any progress.\n\nSo **effort** is usually a sign that you are learning right now – not automatically a sign that you are doing something wrong.\n\nIf you are in the panic zone, first solve an easier part and work your way back into the learning zone step by step. If you are in the comfort zone, deliberately choose a slightly more difficult task.\n\n**If it's a bit of hard work, you're in the right place.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-antrieb",
+   "title": "Quiz: What drives you?",
+   "teilkompetenzen": [
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.interesse-zeigen"
+   ],
+   "intro": "Five questions from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "In history, you are starting the topic of the Middle Ages. Your first thought: “Boring.” What can you do to make it interesting for you?",
+     "options": [
+      {
+       "text": "Look for a question of your own, such as: “How did children live in a castle?”",
+       "correct": true
+      },
+      {
+       "text": "Wait and see whether the topic becomes exciting by itself at some point."
+      },
+      {
+       "text": "Tell yourself that history just isn't your thing."
+      },
+      {
+       "text": "Do only the bare minimum so that the topic is over quickly."
+      }
+     ],
+     "explanation": "**Looking for a question of your own** is the second curiosity question: “What would I like to know?” That way you create your own connection to the topic, and interest can grow. If you just wait, you leave your interest to chance. If you tell yourself “History just isn't my thing”, you don't give the topic a chance. And if you do only the bare minimum, you won't find your own connection to the topic that way."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Which sentence describes motivation from within?",
+     "options": [
+      {
+       "text": "I'm studying so that I get a good mark in the next test."
+      },
+      {
+       "text": "I'm studying because the teacher expects it and checks up on it."
+      },
+      {
+       "text": "I'm studying because I want to know how a volcano works.",
+       "correct": true
+      },
+      {
+       "text": "I'm studying so that I'm allowed to play games for an hour afterwards."
+      }
+     ],
+     "explanation": "**I'm studying because I want to know how a volcano works** – here the drive comes **from within**, from curiosity and interest. The good mark, the teacher checking up on you and the reward of gaming are motivation **from outside**. It isn't bad and it can help too. But it doesn't come from you yourself, and it often stops as soon as the incentive disappears."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "You have to learn a hundred vocabulary words by next week and you have zero motivation. What is most likely to help you?",
+     "options": [
+      {
+       "text": "Wait until the motivation to learn comes by itself at some point."
+      },
+      {
+       "text": "Work out your why and keep a tally of the words you have learnt.",
+       "correct": true
+      },
+      {
+       "text": "Compare yourself with the people who already know all hundred words."
+      },
+      {
+       "text": "Learn all hundred words in one go on a single evening."
+      }
+     ],
+     "explanation": "**Working out your why** gives the task a meaning of its own, and a **tally** makes your **progress visible** – both help you keep going. If you wait for motivation, you often wait a long time. Comparing yourself with others is more likely to discourage you than to drive you on. And a hundred words in one evening put you in the panic zone – after that, your motivation is gone completely."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "A classmate says: “I've got no motivation today, so I'm not going to study.” What is true?",
+     "options": [
+      {
+       "text": "If you don't feel like it today, it's better to study tomorrow – it'll be easier then."
+      },
+      {
+       "text": "Either you just have motivation, or you simply don't."
+      },
+      {
+       "text": "Only a reward from outside can create real motivation."
+      },
+      {
+       "text": "Motivation often only comes once you get going – starting can spark it.",
+       "correct": true
+      }
+     ],
+     "explanation": "**Motivation often only comes once you get going.** If you start, you often find the motivation along the way – that's why it isn't worth waiting for it. Putting it off until tomorrow means waiting again – motivation is more likely to come when you start. Motivation isn't something you're born with either: you can find it, for example through your why. And a reward is only one possibility – interest and your own why often last longer."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "In biology, the teacher mentions in passing that bees use a dance to show each other where to find food. You find that fascinating. What shows your interest best?",
+     "options": [
+      {
+       "text": "Do nothing more – it won't come up in the test anyway."
+      },
+      {
+       "text": "Ask how exactly it works, or read up on it yourself later.",
+       "correct": true
+      },
+      {
+       "text": "Wait and see whether the teacher says more about it later in the lesson."
+      },
+      {
+       "text": "Tell the others that bees are boring anyway."
+      }
+     ],
+     "explanation": "**Asking or reading up on it yourself** means following up a question of your own – the second curiosity question in action. That's how you show **interest**. Whether something comes up in the test says nothing about whether it is exciting. If you just wait, you leave your own question to others. And if you run down something exciting, you take away your own enjoyment of it."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-gedanken",
+   "title": "Thoughts that hold you back – and tools that help",
+   "teilkompetenzen": [
+    "uef.antrieb.arbeitsbereitschaft-zeigen",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ],
+   "intro": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "“When work starts, I spend ages getting my things together first.”"
+     },
+     "rechts": {
+      "text": "Get the materials ready and choose the first step before starting"
+     }
+    },
+    {
+     "links": {
+      "text": "“I always take the easiest task – then nothing can go wrong.”"
+     },
+     "rechts": {
+      "text": "Deliberately choose a slightly harder task: hard work, but doable"
+     }
+    },
+    {
+     "links": {
+      "text": "“When things get tough, I must be doing something wrong.”"
+     },
+     "rechts": {
+      "text": "First see effort as a sign that I'm learning something right now"
+     }
+    },
+    {
+     "links": {
+      "text": "“The teacher suggests flashcards for vocabulary. I think: ‘That definitely won't help.’”"
+     },
+     "rechts": {
+      "text": "Try out the flashcards for a week and only then judge"
+     }
+    },
+    {
+     "links": {
+      "text": "“I didn't understand the task, so I'm just waiting.”"
+     },
+     "rechts": {
+      "text": "Read the task again and, if necessary, ask straight away"
+     }
+    },
+    {
+     "links": {
+      "text": "“This task completely overwhelms me, and I'm stuck.”"
+     },
+     "rechts": {
+      "text": "First solve an easier part and work my way forward step by step"
+     }
+    },
+    {
+     "links": {
+      "text": "“In maths someone explains a different way of working it out – I'm only interested in mine.”"
+     },
+     "rechts": {
+      "text": "Listen to how the other person works it out – maybe their way is better"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-drei-zonen",
+   "title": "Three zones",
+   "teilkompetenzen": [
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.lernbereitschaft-zeigen"
+   ],
+   "intro": "Nora is looking for the right level of difficulty for a French task. Fill in the right words. Two of the words to choose from don't fit anywhere.",
+   "modus": "wortbank",
+   "text": "Nora has to write a short text in French about her way to school. She could just copy out sentences she already knows. That would be easy: she would stay in the {{1}} and hardly learn anything new. Writing a long essay without any help, on the other hand, would be too much: she would end up in the {{2}} and freeze.\nShe decides on a short text in which she uses five new words. That is {{3}}, but doable – she is in the {{4}}.\nThe fact that it takes effort shows her that she is {{5}} something new right now.",
+   "luecken": [
+    {
+     "antworten": [
+      "comfort zone",
+      "comfort-zone"
+     ]
+    },
+    {
+     "antworten": [
+      "panic zone",
+      "panic-zone",
+      "overload zone",
+      "overwhelm zone",
+      "stress zone"
+     ]
+    },
+    {
+     "antworten": [
+      "hard work",
+      "challenging",
+      "demanding",
+      "tough",
+      "hard",
+      "difficult",
+      "strenuous",
+      "tiring"
+     ]
+    },
+    {
+     "antworten": [
+      "learning zone",
+      "learning-zone",
+      "stretch zone",
+      "growth zone"
+     ]
+    },
+    {
+     "antworten": [
+      "learning"
+     ]
+    }
+   ],
+   "ablenker": [
+    "impossible",
+    "time zone"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-projektthema",
+   "title": "Role play: The project topic",
+   "teilkompetenzen": [
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.anstrengung-zeigen",
+    "uef.antrieb.interesse-zeigen"
+   ],
+   "intro": "For the project work over the next four weeks, you have to choose a topic in pairs. The options are: “The history of the bicycle”, “How much food from our school lunches ends up in the bin?” and “Let's program a simple game”. You like the idea of the game. Your project partner Jonas already has an opinion. At each step, choose how you react – different paths lead to different endings. Jonas is a simulated conversation character, not a real person.",
+   "figur": {
+    "name": "Jonas (AI character)",
+    "rolle": "Your project partner, who wants to get finished as quickly and easily as possible",
+    "rollenPrompt": "You are Jonas, 14 years old, and you are in the same class as the person you are talking to. The two of you have to choose a topic for a four-week project: “The history of the bicycle”, “How much food from our school lunches ends up in the bin?” or “Let's program a simple game”. You want the bicycle, because there is lots of ready-made text about it and you would be finished quickly, for example with lines like “There's already everything online about it”. You like playing games, but you don't think you could manage programming (“That's too hard for me”). You aren't lazy, just unsure of yourself. You have training on Tuesdays and Thursdays. If the person asks what you are interested in or suggests trying it out on a small scale first, you become curious and join in. If they put pressure on you or say they will do it without you, you are hurt but stay friendly. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. You don't give advice on motivation and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to the task in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Let's do the bicycle. There's already everything online about it – then we'll be finished in no time.",
+     "antworten": [
+      {
+       "text": "Okay, as long as we finish quickly.",
+       "weiter": "schnell-einverstanden"
+      },
+      {
+       "text": "I really like the idea of programming the game. What are you actually interested in?",
+       "weiter": "interesse-fragen"
+      },
+      {
+       "text": "The bicycle is so boring. I'm doing the game – with or without you.",
+       "weiter": "druck"
+      }
+     ]
+    },
+    {
+     "id": "schnell-einverstanden",
+     "text": "Perfect. I'll find a text, we'll turn it into slides – we'll be done in two hours.",
+     "antworten": [
+      {
+       "text": "Wait – four weeks and just slides from a ready-made text? We won't learn anything like that. What would you actually like to be able to do?",
+       "weiter": "interesse-fragen"
+      },
+      {
+       "text": "Fine by me.",
+       "weiter": "ende-pflicht"
+      }
+     ]
+    },
+    {
+     "id": "druck",
+     "text": "Whoa, chill. I just can't program, that's too hard for me.",
+     "antworten": [
+      {
+       "text": "Sorry, I didn't mean it like that. I can't do it yet either – that's exactly what I like about it. We could learn it together.",
+       "weiter": "zu-schwer"
+      },
+      {
+       "text": "Then I'll just find someone else.",
+       "weiter": "ende-allein"
+      }
+     ]
+    },
+    {
+     "id": "interesse-fragen",
+     "text": "Honestly? I like playing games. But programming one myself? That's too hard for me.",
+     "antworten": [
+      {
+       "text": "I can't do it yet either. There are block-based programming tools for beginners – shall we try it out for an hour before we decide?",
+       "weiter": "ausprobieren"
+      },
+      {
+       "text": "Then I guess it's the bicycle after all.",
+       "weiter": "ende-pflicht"
+      }
+     ]
+    },
+    {
+     "id": "zu-schwer",
+     "text": "Learn it together … And what if after two weeks we realise we can't get anything to work?",
+     "antworten": [
+      {
+       "text": "Then we'll still have learnt a lot. We'll start small: first just a character that jumps.",
+       "weiter": "ausprobieren"
+      },
+      {
+       "text": "True, too risky. Let's do the bicycle.",
+       "weiter": "ende-pflicht"
+      }
+     ]
+    },
+    {
+     "id": "ausprobieren",
+     "text": "*An hour later.* Okay, that was cooler than I thought – the character jumps! But it's going to be a lot of work. And I've got training on Tuesdays and Thursdays.",
+     "antworten": [
+      {
+       "text": "Then let's split it up: I'll do the characters, you do the scoring. We'll work on it together on Mondays and Wednesdays.",
+       "weiter": "aufteilen"
+      },
+      {
+       "text": "If it's that much work, let's give it a miss.",
+       "weiter": "ende-abgebrochen"
+      }
+     ]
+    },
+    {
+     "id": "aufteilen",
+     "text": "Deal. But what do we do if we get stuck somewhere?",
+     "antworten": [
+      {
+       "text": "Then we'll look for a solution together first – and if that doesn't work, we'll ask someone a specific question.",
+       "weiter": "ende-motiviert"
+      },
+      {
+       "text": "Better not risk getting stuck – let's just do the bicycle straight away.",
+       "weiter": "ende-abgebrochen"
+      }
+     ]
+    },
+    {
+     "id": "ende-motiviert",
+     "text": "Agreed. On Monday I'll show you what I've already tried out at home!",
+     "auswertung": "**Chose the learning zone and kept going – very good.** You took Jonas's worries seriously and suggested starting small – with a short trial or by starting with just a character that jumps. That way you could try it first, then judge. When it looked like a lot of work, you shared it out so that each of you had a part, agreed on days to work together and made a plan for the tricky bits. That way the project stays hard work, but doable – exactly the learning zone. And by now Jonas has become curious himself."
+    },
+    {
+     "id": "ende-pflicht",
+     "text": "*Four weeks later, you present slides about the bicycle. They are fine – but you are both glad when it's over.*",
+     "auswertung": "**Finished quickly – but learnt little.** In the end you took the easy topic: slides from a ready-made text. That's the comfort zone – four weeks of project time, but hardly anything new learnt, and you were both glad when it was over. And yet the interest in the game was there. A short trial would have shown whether the project was hard work, but doable. If you try something new first, you give yourself the chance to find the motivation once you get going. Try a different path in the role play."
+    },
+    {
+     "id": "ende-allein",
+     "text": "Okay … good luck then. *Jonas works with someone else. You start on your own and realise how long four weeks are without a project partner.*",
+     "auswertung": "**Your own motivation – but you lost Jonas.** Your interest in the game is strong, and it's good that you want to take on something difficult. But pressure doesn't spark curiosity in other people: Jonas felt steamrollered, and now you're working alone. If you had asked what he is interested in and suggested a small trial, he might have joined in. Try a different path in the role play."
+    },
+    {
+     "id": "ende-abgebrochen",
+     "text": "*You switch to the bicycle. Every now and then Jonas says: “The jumping character was actually fun.”*",
+     "auswertung": "**A good start – but you turned back when it got hard.** You tried out the game, and the interest was sparked – in Jonas too. But when it got hard – because of all the work or because you were worried about tricky bits – you went back to the comfort zone. And yet the effort was exactly the sign that you were in the learning zone. If, when there's a lot of work, you first tackle a small, doable part and share out the work, you stay in the learning zone: hard work, but doable. Try a different path in the role play."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-projektthema-frage",
+    "type": "single_choice",
+    "prompt": "Jonas says about programming the game: “That's too hard for me.” Which approach helps you most at a moment like this?",
+    "options": [
+     {
+      "text": "Take the easiest topic straight away so that there's definitely no stress."
+     },
+     {
+      "text": "Plan the full version of the game straight away and get going."
+     },
+     {
+      "text": "Tell Jonas not to make such a fuss – it'll be fine."
+     },
+     {
+      "text": "First do a short trial and start with a simple part.",
+      "correct": true
+     }
+    ],
+    "explanation": "“That's too hard for me” sounds like the panic zone. **A short trial with a simple part** shows whether the project is hard work, but doable – in other words, whether it is in the **learning zone**. That is “try it first, then judge”. The easiest topic leads back to the comfort zone, where you hardly learn anything. Planning the whole game straight away would be far too much. And if you play down the other person's worries, you won't spark any motivation in them."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-antrieb",
+   "title": "Your interest, your why",
+   "teilkompetenzen": [
+    "uef.antrieb.interesse-zeigen",
+    "uef.antrieb.motivation-finden",
+    "uef.antrieb.arbeitsbereitschaft-zeigen"
+   ],
+   "intro": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts.",
+   "tasks": [
+    {
+     "id": "aufgabe-neugier",
+     "prompt": "Think of a school topic that didn't interest you at first – or one that doesn't interest you much at the moment. Write 4–6 sentences about it:\n\n1. What is the topic?\n2. Answer the **three curiosity questions**: What do you already know about it? What would you like to know? Where do you come across the topic?\n3. Has this changed the way you see the topic? Explain why or why not.",
+     "hint": "Think of the text “Sparking curiosity”. Your own question can be a small one – for example how something works or what it was like in the past. For the third curiosity question (“Where do you come across the topic?”), it helps to look at the present day: films, games, places near where you live, your way to school.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names a specific school topic so that you can picture what it is about. (2) It answers all three curiosity questions sensibly: what is already known, a question of their own that could genuinely interest the person, and where they come across the topic – today, in films, in games or near where they live. (3) It says honestly whether and how the way they see the topic has changed, and gives a reason; “not much yet” is also a good answer if there is a reason for it. A possible example (one of many – any school topic is equally good, similarity to the example doesn't count): “In geography we started with rocks, and at first I found it boring. I already know that granite exists. I'd like to know how old the stones by the Rhine are. I see stones every day on my way to school. Since I've had this question, I look at them more closely there.” An honest answer is more valuable than a prettified one. Private details are not necessary."
+    },
+    {
+     "id": "aufgabe-wozu",
+     "prompt": "Choose a task that you don't feel very motivated about at the moment – for example vocabulary, a summary or a set of practice exercises. Write 4–6 sentences about it:\n\n1. Your **why**: What does the task do for you – today or later on?\n2. Your **progress**: How do you make it visible?\n3. Your **ready-to-start check**: What do you get ready, is the task clear, and what is your first step?",
+     "hint": "Think of the texts “Where motivation comes from” and “Ready to start and in the learning zone”: motivation from within or from outside, a tally or a growing bar, materials – task – first step.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names a personal, understandable why – what the task brings today or later on. Motivation from outside is also allowed if it is named honestly – for example a test that should go well. (2) It describes a specific way of making progress visible, such as a tally, a growing bar or a pile of flashcards you have learnt that keeps getting bigger. (3) It contains a ready-to-start check with all three parts: which materials are ready, whether the task is clear (and what they will do if it isn't) and a specific first step. A possible example (one of many – any school task is equally good, similarity to the example doesn't count): “I have to learn the English words from unit 5. My why: on our class trip I want to be able to chat to the students from our partner school. After each study session I colour in a bit more of a bar until I know all the words. Ready to start: the word list and flashcards are on the desk, I've checked which pages we need, and my first step is the first ten words.” Goals with milestones or an if-then plan are not required here. Private details are not necessary."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "What next?",
+   "body": "Well done! You have practised sparking your curiosity, finding your own why and choosing tasks in your learning zone.\n\n- **Try out a tool** – for example your ready-to-start check before your next homework.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "version": 1,
+ "hintsHash": null,
+ "segmente": {
+  "title": {
+   "quelle": "sha256:025700f404675541a8ce8b897429add914adf345552aa54184b17aa0049261cd",
+   "text": "How I work with others"
+  },
+  "description": {
+   "quelle": "sha256:fecba381a15a26338d3ff5455d9f869e04fa25a9741c2b34f9027f1b987bd845",
+   "text": "How do you listen, how do you contribute in a group, and how do you deal with arguments and with differences? After a short self-assessment you will get to know tools for working well together – from active listening and clear team agreements to resolving conflicts fairly. You practise them in a quiz, a matching task, a gap-fill text and a role play, and think about your own group work."
+  },
+  "curricula[0].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "curricula[1].subjectName": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "einheit": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[0]": {
+   "quelle": "sha256:630c65197ffcd0d4d89b43618deb92e1505a0dead4bcc3bc794ce4b483723c4a",
+   "text": "Transversal competencies"
+  },
+  "keywords[1]": {
+   "quelle": "sha256:ed6d1ff9927b323ba8ec93a8701da3b7840bdd36bb46fe8a9721a9200090780f",
+   "text": "Getting along"
+  },
+  "keywords[2]": {
+   "quelle": "sha256:f952ec099ee01cc4a57051f845435f685e4913fdd10e9a6528a03b441f1d688d",
+   "text": "Cooperation"
+  },
+  "keywords[3]": {
+   "quelle": "sha256:5160ea5fb83e141e34c9ddd9960ae8a1fa694ae2da2f3a69aef9f4d7a4690da7",
+   "text": "Group work"
+  },
+  "keywords[4]": {
+   "quelle": "sha256:f2cd58868e752f8271cf4c97530f95d2fdf9074bc4390798a7111a25fb120a03",
+   "text": "Listening"
+  },
+  "keywords[5]": {
+   "quelle": "sha256:e3e569dd253f1453cea97dd0d630e45b77b23da9133448e687d1de19accc2b48",
+   "text": "I-message"
+  },
+  "keywords[6]": {
+   "quelle": "sha256:0f0b5fe494b50ccc301448b77d407e17361956aca5073b8ca051b5a63dfe2870",
+   "text": "Conflicts"
+  },
+  "keywords[7]": {
+   "quelle": "sha256:582936c918d294d3eaed9e9822ab9e83b0ade38db9b8532e607663ad61389a71",
+   "text": "Rules"
+  },
+  "keywords[8]": {
+   "quelle": "sha256:128b4c91914b54b0bd4cc55109d853e49d03ccd00ec79d75384036a30eb05de8",
+   "text": "Diversity"
+  },
+  "keywords[9]": {
+   "quelle": "sha256:96aa95e35321f78bcd7c5a993eb15e18b5cf4e4f45d3697123aac96bf2b884e7",
+   "text": "Self-assessment"
+  },
+  "learningObjectives[0]": {
+   "quelle": "sha256:9c2beda260ef63dc4e5522f9de8c3dd8af3e5d7c883f4e6c50e7a16082649bfa",
+   "text": "I can listen actively: let others finish, ask questions and repeat what they said in my own words."
+  },
+  "learningObjectives[1]": {
+   "quelle": "sha256:ee1dbd8bbcb07e125ba1fc28bb9a9208d6846aaf40f3e5622ec3e7ea8baf160e",
+   "text": "I can express myself so that others understand me: briefly, specifically and with an example."
+  },
+  "learningObjectives[2]": {
+   "quelle": "sha256:8737086503ec8ef7357ec11da4f1704560fbeddbd3a34f8898df1cfbac465337",
+   "text": "I can agree on roles, tasks and rules with my group and do my part."
+  },
+  "learningObjectives[3]": {
+   "quelle": "sha256:fd4a78ca28c7d33f7736c3659362edf09f959623407b4a4009c71bc87aa43c4a",
+   "text": "I can raise a conflict with an I-message and look for a solution in four steps."
+  },
+  "learningObjectives[4]": {
+   "quelle": "sha256:0219118a926b05c2b42ccc39572acd9222846457e601df5c68bd35e50877df82",
+   "text": "I can explain how a group makes use of everyone's different strengths and leaves nobody out."
+  },
+  "blocks[0].title": {
+   "quelle": "sha256:025700f404675541a8ce8b897429add914adf345552aa54184b17aa0049261cd",
+   "text": "How I work with others"
+  },
+  "blocks[0].intro": {
+   "quelle": "sha256:a12084bebfc65b055eca704c172b163f7f09a2ff3cb7c5396fe4f892ac9a417c",
+   "text": "Learning rarely happens alone. Here you assess how you behave in a group: listening, contributing, keeping to rules, addressing conflicts and respecting everyone."
+  },
+  "blocks[1].title": {
+   "quelle": "sha256:1f0e1d10da3ae74a028a003a6106b670b1f010edbf77dd460cca9583df5d1417",
+   "text": "Listening and speaking clearly"
+  },
+  "blocks[1].body": {
+   "quelle": "sha256:1a963e43fdc459b575dccd06e9385482bf7395794e6bbe5aee8b721cfce9739a",
+   "text": "Group work in geography: Amira is explaining her idea for the poster. Tim nods – but he is already thinking about what he wants to say next. In the end he has only taken in half of it.\n\nWorking well together starts with **active listening**. It works in three steps:\n\n1. **Let the other person finish:** You don't interrupt, and you only think about your answer afterwards. If something important occurs to you, you jot it down quickly.\n2. **Ask questions:** If something is unclear, you ask: “What exactly do you mean?”\n3. **Repeat it in your own words:** “So you mean we start with the map?” That way you both notice straight away whether you have understood correctly.\n\nA second tool is the **change-of-perspective question**: “What does the situation look like from the other person's point of view?” If someone is quiet or irritable, there is often a reason you can't see. So don't take it personally straight away – ask in a friendly way instead.\n\nAnd when you are the one speaking? Then **speaking clearly** helps: briefly, specifically and with an example. Instead of “We'll do it somehow with pictures”, you say: “I suggest three photos, one for each section.” At the end you ask: “Is that clear?”\n\nIn short: **First understand, then be understood.**"
+  },
+  "blocks[2].title": {
+   "quelle": "sha256:aa4d2b669414f3272d59f7c342dd901679e14f3439210817b4fc231251330e12",
+   "text": "Together instead of side by side"
+  },
+  "blocks[2].body": {
+   "quelle": "sha256:dc57a0eb62a6dddb7aca09011475c712dc553bc543322dc8d00061c89b68a017",
+   "text": "Four people, one poster – and the day before the deadline it turns out that two of them have done the same thing and one part is missing completely. That happens when a group works side by side instead of together.\n\nWhat helps is a **team agreement** right at the start:\n\n- **Hand out roles:** for example timekeeper, note-taker or person in charge of materials.\n- **Write down the tasks:** **who – what – by when**. That way everyone knows what to do.\n- **Agree on rules:** for example “Anyone who gets stuck says so the day before at the latest” or “Nobody gets laughed at”.\n\n**Doing your part** also means **speaking up** in good time when you get stuck. Keeping quiet harms the group more than asking a question. Rules apply to everyone. If a rule no longer works, you change it **together** instead of quietly breaking it.\n\nA good group also **includes everyone**. Every group has different strengths: drawing, maths, languages, ideas, keeping things organised. Share out the tasks so that everyone can take part – including people who would rather draw than write, people who are new to the class and people who don't speak German well yet.\n\nSo: **A clear agreement is half the work – and everyone belongs.**"
+  },
+  "blocks[3].title": {
+   "quelle": "sha256:b6d82c3114554b99af0e51853b54a409091c11bff6d74b5a7225d0442f8d8031",
+   "text": "Resolving conflicts fairly"
+  },
+  "blocks[3].body": {
+   "quelle": "sha256:3cb7cf1d7e80db7412513b8b9327f6e8534be16dd863e7c856db32294ce1f453",
+   "text": "In the group chat Zoe writes: “Typical, Luca's doing nothing again!” Luca stops replying. A problem has turned into an argument.\n\nConflicts are a normal part of working together. Things get difficult when people **keep quiet** about them or fight them out with **accusations**. If you wait for an argument to blow over by itself, it usually gets bigger. The tool **conflict in four steps** works better:\n\n1. **Raise it with an I-message:** Say what bothers you and what you would like. “I'm worried because your part is missing and the deadline is the day after tomorrow. I'd like us to find a solution.” An accusation starting with “you”, such as “You're so unreliable!”, shuts the conversation down instead.\n2. **Listen:** Ask how the other person sees it – maybe there is a reason you don't know about.\n3. **Collect solutions:** several options, not just your own.\n4. **Agree:** Choose a solution everyone can live with, and write down: who – what – by when.\n\nTreating each other fairly includes **respect**: you talk about **behaviour**, never about a person's background, appearance, language or accent. If someone makes a hurtful joke, you are allowed to say so: “I don't think that's funny.”\n\nThe most important thing: **Say what bothers you – and look for the solution together.**"
+  },
+  "blocks[4].title": {
+   "quelle": "sha256:8737ecf779953f04abef02a56f4d1761c950ea1d2cf88e3ea94a2a0748985eec",
+   "text": "Quiz: Playing fair in a team"
+  },
+  "blocks[4].intro": {
+   "quelle": "sha256:cbe55f471aa3746060a162a882d44b1de2eb80fad7f9a4372c0eee7d4433ccc7",
+   "text": "Five situations from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts."
+  },
+  "blocks[4].questions[0].prompt": {
+   "quelle": "sha256:1f91985c80c250d1e7110834122ed71e2e84b609f6783976bf04529e2a964492",
+   "text": "Your group has agreed that everyone sends their part by Thursday evening. On Wednesday you realise you won't manage it. What do you do?"
+  },
+  "blocks[4].questions[0].options[0].text": {
+   "quelle": "sha256:b42952664c48853385f18eebe9c0f29740fc1c6afeceec505520151922875991",
+   "text": "Say nothing and hope that nobody notices before Thursday."
+  },
+  "blocks[4].questions[0].options[1].text": {
+   "quelle": "sha256:66303581ac89e891eabccbabe500d8172cfbbffc31773ab1dd5d88a60ebb7b71",
+   "text": "Let the group know straight away and say when you will have it done."
+  },
+  "blocks[4].questions[0].options[2].text": {
+   "quelle": "sha256:f73f87e0be6cbf167ca457a4f5d22e9a3ed041085ccb3876e135d08daeba1a6b",
+   "text": "Just send your part on Friday – one day later doesn't really matter."
+  },
+  "blocks[4].questions[0].options[3].text": {
+   "quelle": "sha256:4e58b5dd4177796415f4fbebdfe096f4043bcc68ed638f2a2789297fc39b1323",
+   "text": "Change the agreement just for yourself – after all, you know why."
+  },
+  "blocks[4].questions[0].explanation": {
+   "quelle": "sha256:8aecdfbe7276cd2006d4582762ce5c5c2846df7e5cb4bf61edd81e4a0ef72b5b",
+   "text": "**Speak up instead of keeping quiet:** if you let the group know early and give a new date, you are taking the agreement seriously – even if you can't keep it. Then the group can react. Hoping that nobody notices only pushes the problem back to Thursday evening. “One day later doesn't matter” isn't true, because the others are counting on your part. And an agreement applies to everyone – only the group together can change it."
+  },
+  "blocks[4].questions[1].prompt": {
+   "quelle": "sha256:319bcb46c5439cc91064e04409f583ad6d3d64462afc4c40717734258136a59a",
+   "text": "A new classmate has only recently started learning German. When the groups are being put together, someone says: “It'll never work with her.” What is fair?"
+  },
+  "blocks[4].questions[1].options[0].text": {
+   "quelle": "sha256:722b717d29b25b1338d31abba52bc5ca40a46f8daa165d12d79de95e4b120916",
+   "text": "Say nothing – after all, who ends up in which group isn't your problem."
+  },
+  "blocks[4].questions[1].options[1].text": {
+   "quelle": "sha256:89a5e31c37a416578d42dddc9ef5e15a1d3fe20fe0d0ef9f7fb869ef16a883a4",
+   "text": "Put her in a separate group with the other new pupils in the class."
+  },
+  "blocks[4].questions[1].options[2].text": {
+   "quelle": "sha256:b68381542c44c5540882ed5cf2bf216d5e44d7f6496840fa62a54cb8741e3f4a",
+   "text": "Let her join the group, but don't give her a proper task to do."
+  },
+  "blocks[4].questions[1].options[3].text": {
+   "quelle": "sha256:8daf1b0c9536a78360e4b4da00f1566e1718e8155b425e2147a0085c197cd11d",
+   "text": "Invite her to join and find a task where she can use her strengths."
+  },
+  "blocks[4].questions[1].explanation": {
+   "quelle": "sha256:86b832a24fd9bd9d7bfa686f097fa6d6336e0700a84423cad7f5750d49b0bf5c",
+   "text": "**Including everyone** means: each person gets a task where they can take part and show their strengths – for example drawing, maths or collecting ideas. If you say nothing, the hurtful remark goes unchallenged – and nobody invites her. A separate group for “the new ones” divides the class instead of bringing it together. And someone who is in the group but isn't allowed to do anything real is only part of the group in name."
+  },
+  "blocks[4].questions[2].prompt": {
+   "quelle": "sha256:9df28e791ec902d07ba7fa464d4ed8a184724704506d24f0e1efba6de6ed65a2",
+   "text": "Your class has a rule: whoever is speaking doesn't get interrupted. You have a good idea while someone else is still talking. What do you do?"
+  },
+  "blocks[4].questions[2].options[0].text": {
+   "quelle": "sha256:61c4d8bcc7e9ddf4d9166a77297112815bbcbf5ac33b2b7f8f850d1507e1a07a",
+   "text": "Jot the idea down quickly and wait until it's your turn."
+  },
+  "blocks[4].questions[2].options[1].text": {
+   "quelle": "sha256:71da24c39edfffc91a64103cd0bf1ac424fb998760e324ecc4a4a5205667a2b2",
+   "text": "Call it out straight away – otherwise you'll forget the good idea."
+  },
+  "blocks[4].questions[2].options[2].text": {
+   "quelle": "sha256:a9bbffff1fe4726953927595e3e07f7f0c0f67cf8d155dce93085a0033b2413f",
+   "text": "Keep the idea to yourself so that you don't disturb anyone."
+  },
+  "blocks[4].questions[2].options[3].text": {
+   "quelle": "sha256:b1799daf5e12ad0eb53570ef3276190e6d99e95ed1a26b3370d968044f43e0d8",
+   "text": "Whisper to the person that they should hurry up and finish."
+  },
+  "blocks[4].questions[2].explanation": {
+   "quelle": "sha256:3ea59b21e31fefe7d1f14e34a40513615095cc26d51971e8bba52215767e9bf9",
+   "text": "**Jotting it down and waiting** combines both: you **keep to the rule** and still don't lose your idea. Calling out breaks the agreement, and the other person can't finish. Keeping the idea entirely to yourself is a shame – the group needs good ideas. And urging someone to hurry up is also interrupting, just more quietly."
+  },
+  "blocks[4].questions[3].prompt": {
+   "quelle": "sha256:2f83122980cc4de365fe2bb018560321332eff337651e5ca3a26c9a0a2198a9b",
+   "text": "In your group, someone makes a joke about a classmate's accent. Some people laugh. What is the best response?"
+  },
+  "blocks[4].questions[3].options[0].text": {
+   "quelle": "sha256:319e776ed09fb47732e3dba8dc0f95150ab611e00f5f768a01b7c6ce21e8a408",
+   "text": "Laugh along so that you don't stand out – the others are laughing too."
+  },
+  "blocks[4].questions[3].options[1].text": {
+   "quelle": "sha256:7e873ada647904476b097e799714251c7de49c2e51c3537e079d4867e8d80f93",
+   "text": "Shout at the person loudly and show them up in front of the whole group."
+  },
+  "blocks[4].questions[3].options[2].text": {
+   "quelle": "sha256:5fc49c072174664237b3e5994d3cc9b6b600777dd3bf95b0c81db359c10572a0",
+   "text": "Say calmly that you don't think it's funny, and carry on with the topic."
+  },
+  "blocks[4].questions[3].options[3].text": {
+   "quelle": "sha256:b1d406dd9d26c84883030b18b385c5d62b418a5c097a29ebb8b289d0b04f0722",
+   "text": "Do nothing – it was only a joke, and he might not even have heard it."
+  },
+  "blocks[4].questions[3].explanation": {
+   "quelle": "sha256:639ff620632c71aaa80b64d1694b5877804fd908a02bde7fb45cab2183b6fe09",
+   "text": "**Respect** means: you don't make fun of a person's background, language or accent. If you **calmly say** that you don't think the joke is funny, you make that clear without showing anyone up – and the group can carry on working. Laughing along makes you part of the joke. Shouting turns the problem into a new argument. And for the person it's about, it often isn't “only a joke”, even if he says nothing. If something like this doesn't stop or really hurts someone, it is right to involve a teacher."
+  },
+  "blocks[4].questions[4].prompt": {
+   "quelle": "sha256:6cdb0cf799e25884acb85a3e6b571c1e98820c2c63120548330799fdce38be70",
+   "text": "Your group has agreed not to use phones while working. One group member never sticks to it. What is the best way forward?"
+  },
+  "blocks[4].questions[4].options[0].text": {
+   "quelle": "sha256:6cf1069c6fab2fa84cde83776841abac4c4003363b3800d297744f2266559596",
+   "text": "Start using your phone too – the rule obviously doesn't apply any more."
+  },
+  "blocks[4].questions[4].options[1].text": {
+   "quelle": "sha256:7978b3d21f148733cc480d471a440b4ff32c918c0c9eeb880e25598cbe8a67a9",
+   "text": "Tell the teacher secretly and wait to see what happens."
+  },
+  "blocks[4].questions[4].options[2].text": {
+   "quelle": "sha256:ca8d0c1a983821cd02e908e809367181fa4d640e65014cd1d36a77bef2718b30",
+   "text": "Say nothing, but get quietly annoyed with the person every time."
+  },
+  "blocks[4].questions[4].options[3].text": {
+   "quelle": "sha256:0a6136376141bb43e7eaaad98dfdc194360750b80d8b8e47238230cce7bc153f",
+   "text": "Bring up the agreement in a friendly way and decide together if it still works."
+  },
+  "blocks[4].questions[4].explanation": {
+   "quelle": "sha256:1abd0541d4a52c0c203c47c2228b2e0de4fb187295ea94d241a4d34b0b37a4d5",
+   "text": "Rules apply to everyone – if one no longer works, it is **changed together**, not quietly broken. That's why it helps to **bring up the agreement in a friendly way** and decide together whether it stays. If you reach for your phone too, you get rid of the rule completely. Secretly bringing in the teacher before you have tried to sort it out in the group doesn't solve the problem. And quiet annoyance grows without anything changing."
+  },
+  "blocks[5].title": {
+   "quelle": "sha256:2a1a42533bcb27672878e4fb874fa22b6d989fa57f0ad24778b9f5fc1f20d4d4",
+   "text": "Conversation traps and better ways"
+  },
+  "blocks[5].intro": {
+   "quelle": "sha256:cd4cb986b5166373333a598430ae714624f1fbeaddc3ff00b0fa4828c616d0fd",
+   "text": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right."
+  },
+  "blocks[5].paare[0].links.text": {
+   "quelle": "sha256:6eec0425f5f264309b64f3d3461e4e8fc1e3ee615212bdc95d3a81454c91bbc2",
+   "text": "“When something bothers me, I say straight away: ‘You always do everything wrong!’”"
+  },
+  "blocks[5].paare[0].rechts.text": {
+   "quelle": "sha256:39dbecb29229f778deb787c3c98f7504c3a9be2783c800357cbf6517287f9106",
+   "text": "An I-message instead of an accusation: saying what bothers me and what I would like"
+  },
+  "blocks[5].paare[1].links.text": {
+   "quelle": "sha256:7effea5a88ad07224c37459bececdeca11bf8df1d279791050d1afc3ebab899f",
+   "text": "“While the others are talking, I'm already thinking about what I want to say.”"
+  },
+  "blocks[5].paare[1].rechts.text": {
+   "quelle": "sha256:74b7049366bb5652ae6f3028e3930ce90c3cf242d3c0fb8b96046fdbf06fb341",
+   "text": "Letting others finish and only then thinking about my answer"
+  },
+  "blocks[5].paare[2].links.text": {
+   "quelle": "sha256:1624bb134ad8f8a0408ba9a0953345743eb45c87bcbf8e5a538526468bcd8176",
+   "text": "“I explain my idea – and everyone looks at me, confused.”"
+  },
+  "blocks[5].paare[2].rechts.text": {
+   "quelle": "sha256:05c405e0847a13a30185b67542d5e6de50ccde38dfb3282f8550d979c6b7e17d",
+   "text": "Speaking briefly and specifically and giving an example"
+  },
+  "blocks[5].paare[3].links.text": {
+   "quelle": "sha256:2064a31f8e84832c8a103d5b371bdede8bb54d927e17eeead1794c6af1aceb9f",
+   "text": "“I'm not sure whether I've understood correctly what Zoe means.”"
+  },
+  "blocks[5].paare[3].rechts.text": {
+   "quelle": "sha256:b6786726a8da9fe94910b70e0ebbd77769776cf6541a52418c5d64e894472fb5",
+   "text": "Repeating it in my own words: “So you mean …?”"
+  },
+  "blocks[5].paare[4].links.text": {
+   "quelle": "sha256:e5897595d9d2a9813fb89b471d7812ad887b70e432e60be8b8d0c3827f651ced",
+   "text": "“My team partner is quiet and irritable today – I immediately think it's about me.”"
+  },
+  "blocks[5].paare[4].rechts.text": {
+   "quelle": "sha256:b04734ddf3669bf516f6d8a3bf0703887de5bbc43ddfbf1816cec875d569582d",
+   "text": "Asking myself how it looks from his point of view instead of taking it personally"
+  },
+  "blocks[5].paare[5].links.text": {
+   "quelle": "sha256:55a4da3abfe9797bcaad3ea7e39edd699b4726ff87dc28323e882990cceec38e",
+   "text": "“In an argument, I really want my solution to win.”"
+  },
+  "blocks[5].paare[5].rechts.text": {
+   "quelle": "sha256:819e853b1597db2cbb431210ea68f70d97818e1305cf49aff6055bfc1d06f84e",
+   "text": "First collecting several solutions and choosing one everyone can live with"
+  },
+  "blocks[5].paare[6].links.text": {
+   "quelle": "sha256:da403cb3f17551d2aefce5b96f740008b8ce67021de763cf8fe1eff79f9645f3",
+   "text": "“When there's an argument in the group, I keep quiet and wait until it's over.”"
+  },
+  "blocks[5].paare[6].rechts.text": {
+   "quelle": "sha256:048d6f8862f50b35fc9d22c12914357ec3e57b4e3ccf3e5ee7dcbda1d91fbfd7",
+   "text": "Bringing up the conflict instead of waiting for it to blow over by itself"
+  },
+  "blocks[6].title": {
+   "quelle": "sha256:7b86c3c3da0e721b1afc83ce5c71fa37f51ee3a5cc6f5663677949af32ebbb39",
+   "text": "The team agreement"
+  },
+  "blocks[6].intro": {
+   "quelle": "sha256:56059fcf6cde90343481bd92ac5eb605f173ca5c13d32fe0afc2bc410e6c6d89",
+   "text": "Sara, Jakob, Amira and Tim are preparing a presentation. Fill in the right words. Two of the words to choose from don't fit anywhere."
+  },
+  "blocks[7].title": {
+   "quelle": "sha256:5b49629be2c9adbc610846458d957993c07f20eec07fcc27ec789cf673e41bac",
+   "text": "Role play: The missing part"
+  },
+  "blocks[7].intro": {
+   "quelle": "sha256:7767472fe7e7d2c27517368eb14484d9d6f48eeb8b9365f861c601f91c0cb01a",
+   "text": "Monday, morning break. On Wednesday you have to hand in your group poster on water consumption. You, Zoe and Luca have divided up the work; Luca was supposed to make the chart – and it's still missing. Yesterday Zoe wrote in the group chat: “Typical, Luca's doing nothing again!” Now you bump into Luca in the corridor. At each step, choose how you react – different paths lead to different endings. Luca is a simulated conversation character, not a real person."
+  },
+  "blocks[7].figur.name": {
+   "quelle": "sha256:c39f50853d222f7d72855bacf22d1ee7d6c975ffe51d13b20d0e0f367e9191b9",
+   "text": "Luca (AI character)"
+  },
+  "blocks[7].figur.rolle": {
+   "quelle": "sha256:fd934d9fd14d1662ff4ff3000ef0a22ae8edada892909c6fb8a3a36462f48b40",
+   "text": "Your group member, whose part of the poster is still missing"
+  },
+  "blocks[7].figur.rollenPrompt": {
+   "quelle": "sha256:17e1fcd6e4d9877e6fdb43c83579525379abc611eaf5e0402759e1e1068d9320",
+   "text": "You are Luca, 14 years old, and you are in the same class as the person you are talking to. The two of you and Zoe are making a group poster on water consumption, and it is due on Wednesday. Your task is the chart, and it is still missing. You haven't forgotten it: in class you didn't understand how to turn the table into a chart, and you didn't dare to ask. Zoe's message in the group chat (“Typical, Luca's doing nothing again!”) has made you feel unsure. You react defensively to accusations at first; if the person calmly says what bothers them and asks questions, you open up and explain what the problem is. You suggest yourself that someone quickly shows you how to do it with the table and that you let Zoe know. You don't mention any private or family reasons. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. You don't give advice on resolving conflicts and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to the poster in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+  },
+  "blocks[7].knoten[0].text": {
+   "quelle": "sha256:266d1bcc6a4e78ce989597e07e6fa46b18cbcd51a9b0a7c3d317f84660f06e5c",
+   "text": "Hey … you look really serious. Is it about the poster?"
+  },
+  "blocks[7].knoten[0].antworten[0].text": {
+   "quelle": "sha256:65e32c6b3d7bd323f08e7e4699e8644a673cdfe9f3edec9f5c8b442b93c11b85",
+   "text": "Yes. Your chart is still missing, and I'm worried about it because the deadline is on Wednesday. I'd like us to sort it out together."
+  },
+  "blocks[7].knoten[0].antworten[1].text": {
+   "quelle": "sha256:a584b1e7ca2f4e2dd26f7ceb540a1903238c1791f430e11aab095d4ba0a3d4c0",
+   "text": "You're so unreliable! Because of you we're going to get a bad mark."
+  },
+  "blocks[7].knoten[0].antworten[2].text": {
+   "quelle": "sha256:39b4bcd2ca682fad5075983b289facbd4bea9c5fa86109a657c5c51fcdc89cec",
+   "text": "No, no, everything's fine."
+  },
+  "blocks[7].knoten[1].text": {
+   "quelle": "sha256:e1028d52be21488cbacc72001efcc16ebdf6dc6f740b1157f4d764d6bb8ce01c",
+   "text": "Oh really? You didn't even ask me if I can actually do it!"
+  },
+  "blocks[7].knoten[1].antworten[0].text": {
+   "quelle": "sha256:814fe744d462eded5fe5dfb8f6212768709c1dd55bc20c0315966d11cda22fc4",
+   "text": "Hang on – I didn't know that. What do you mean?"
+  },
+  "blocks[7].knoten[1].antworten[1].text": {
+   "quelle": "sha256:3b911cf0e00ce379cd8be82f3fe2fd3787f89609a68348f8b216a920b53424e4",
+   "text": "Excuses! Zoe thinks so too."
+  },
+  "blocks[7].knoten[2].text": {
+   "quelle": "sha256:ab8f5c954fea74b444da2b6e85bb6de7d35b7100bf3f20a0365d362448c88520",
+   "text": "Okay … Zoe wrote in the chat that I'm doing nothing. Is it about me?"
+  },
+  "blocks[7].knoten[2].antworten[0].text": {
+   "quelle": "sha256:b7cd7946146ada32aca5394f52cc4a5dcd992715f6419bcca1454380a078a0e3",
+   "text": "To be honest, yes. Your chart is still missing, and we're worried about the deadline. What's up?"
+  },
+  "blocks[7].knoten[2].antworten[1].text": {
+   "quelle": "sha256:4460faf03c46cedd1bf9b1a33275ab2050233be0b3677d73a6daf4968d373fd7",
+   "text": "No idea, ask Zoe."
+  },
+  "blocks[7].knoten[3].text": {
+   "quelle": "sha256:eb5e045ab2cc88476db364bfe8bfcc6c50ce60db8cd99074ddc2cb8101ef3377",
+   "text": "Yeah … sorry. I didn't forget. I just didn't get how to turn the table into a chart. I didn't want to ask a stupid question."
+  },
+  "blocks[7].knoten[3].antworten[0].text": {
+   "quelle": "sha256:eb8e81c272a97e8cad56067398506ecb7c28fd7c4f56ca0201e304be2f53b838",
+   "text": "Ah. So you didn't know how to start, and you didn't dare to ask?"
+  },
+  "blocks[7].knoten[3].antworten[1].text": {
+   "quelle": "sha256:b5866a6b81f980418911d427b60a3eeb9bd598728f990d5f0acd38ad003d18ee",
+   "text": "Well, you should have said something earlier."
+  },
+  "blocks[7].knoten[4].text": {
+   "quelle": "sha256:28e8210547a739957275f2d576f8c5ef84a02074b073c38faa6b3648b9921ceb",
+   "text": "In the lesson the stuff about charts went so fast. I didn't get how it works. I didn't want to ask a stupid question."
+  },
+  "blocks[7].knoten[4].antworten[0].text": {
+   "quelle": "sha256:eb8e81c272a97e8cad56067398506ecb7c28fd7c4f56ca0201e304be2f53b838",
+   "text": "Ah. So you didn't know how to start, and you didn't dare to ask?"
+  },
+  "blocks[7].knoten[4].antworten[1].text": {
+   "quelle": "sha256:b5866a6b81f980418911d427b60a3eeb9bd598728f990d5f0acd38ad003d18ee",
+   "text": "Well, you should have said something earlier."
+  },
+  "blocks[7].knoten[5].text": {
+   "quelle": "sha256:1e8e1b0d569ede883a598269371ccf5ee37022e9fbb1cee744da9a702b7c5e49",
+   "text": "Yeah, I know … I was embarrassed. It's too late now anyway, isn't it?"
+  },
+  "blocks[7].knoten[5].antworten[0].text": {
+   "quelle": "sha256:867d77c09d1219a19c213b6d5f9dce7a96f8d25e60d7be58942809629cac772f",
+   "text": "No, it's not too late. Let's think about how we can get it done by Wednesday."
+  },
+  "blocks[7].knoten[5].antworten[1].text": {
+   "quelle": "sha256:3c88e0cc51851c7946500f13cab1313eae321ce82c7e7868835d99b1e10bd579",
+   "text": "Yes. I'll do your part myself tonight."
+  },
+  "blocks[7].knoten[6].text": {
+   "quelle": "sha256:dd003c831972387901ce9063c7b816825ba5326b49a6b6b160294a7543ebe24a",
+   "text": "Exactly. And now I think you're all angry with me."
+  },
+  "blocks[7].knoten[6].antworten[0].text": {
+   "quelle": "sha256:584314d04a9f6337d39ba23683060591c1a302452869a50cc79173fd3a614101",
+   "text": "We were stressed, yes. But let's look for a solution instead. What would you need to get it done?"
+  },
+  "blocks[7].knoten[6].antworten[1].text": {
+   "quelle": "sha256:6de08aa619cb98ee2114bb2055839302e286fcc3776e659af3bb49884b08a280",
+   "text": "You know what, I'll do the chart, and you write my text instead."
+  },
+  "blocks[7].knoten[7].text": {
+   "quelle": "sha256:ad1e7e5d745c40d8956d79995a45777a5b56012d020f60c0210601710b9605a4",
+   "text": "If someone quickly shows me how to do it with the table, I'll make the chart today. And we should let Zoe know, right?"
+  },
+  "blocks[7].knoten[7].antworten[0].text": {
+   "quelle": "sha256:72e94410da2d9b2d2e2b071f65a038d8687bde6b89b45ae8f50a11371cab2429",
+   "text": "I'll show you at lunchtime. Then we'll write in the chat together what we've agreed: chart by Tuesday evening."
+  },
+  "blocks[7].knoten[7].antworten[1].text": {
+   "quelle": "sha256:4526232e1e5f71747b79a40dc0f14eac868da029c975683279da5a730c846d7d",
+   "text": "Okay. But I'll only believe it when I see the chart – otherwise I'm going straight to the teacher."
+  },
+  "blocks[7].knoten[8].text": {
+   "quelle": "sha256:d5d0975bca7ac313faac1c1a1bce521ffb069f5ff0b72bb1a39e8684994ca320",
+   "text": "Thanks, really. *You sit down together at lunchtime, and Luca quickly understands how it works. On Tuesday evening the chart is in the group chat. Zoe writes: “Looks good!”*"
+  },
+  "blocks[7].knoten[8].auswertung": {
+   "quelle": "sha256:885a68bec83ffe709cf5f0b44bd9fd260047f42b3b2108f0dc8e8e67719cd3d4",
+   "text": "**Listened and solved it together – very good.** You found out Luca's reason and looked for a solution with him. You agreed clearly on **who – what – by when**: you show him how to turn the table into a chart, and he makes it by Tuesday evening. And you let Zoe know straight away instead of leaving her in the dark. If you started with an accusation, avoided the issue at first or answered with “Well, you should have said something earlier”: it's good that you changed course – an **I-message** at the start and a “So you mean …?” save you this detour."
+  },
+  "blocks[7].knoten[9].text": {
+   "quelle": "sha256:b7257553bd01a8254ddc3236aed879ad512370c2fe86d801d5e1ca629c2add42",
+   "text": "Oh, sure! *You swap. The chart gets finished, but Luca still doesn't know how to make one, and Zoe only finds out about the swap on Wednesday.*"
+  },
+  "blocks[7].knoten[9].auswertung": {
+   "quelle": "sha256:bc80452e46c76308f7427db02941466004ad28da78fcffe5271768ecb8fcc059",
+   "text": "**Solved – but without taking everyone along.** You listened, repeated Luca's reason in your own words and quickly found a solution – that's already a lot. But you decided it on your own: you didn't wait for Luca's own idea, and Zoe knew nothing about it. If you **collect solutions together** and tell everyone what has been agreed, you help the whole group – and Luca would have learned how to make a chart. Try a different path in the role play."
+  },
+  "blocks[7].knoten[10].text": {
+   "quelle": "sha256:86c8122a1eadd59bc3ba2227d181988e5f73baa99ded1d391331913ab5a846a6",
+   "text": "Okay … thanks. *You sit up late working on the chart. Luca feels bad, and Zoe is still angry with him.*"
+  },
+  "blocks[7].knoten[10].auswertung": {
+   "quelle": "sha256:6de07cdadbccbbc3922a7bc30e739d29e13277dcb70819651bb86bf17faf16e0",
+   "text": "**Helpful – but the problem isn't solved.** Taking over the part on your own sounds generous, but it overloads you. Luca doesn't learn how to do it, and Zoe doesn't know what's going on. It's better to ask what he would need to manage it himself, and then to **agree together** who does what by when. Try a different path in the role play."
+  },
+  "blocks[7].knoten[11].text": {
+   "quelle": "sha256:3591a6db929a907808a26394e946b0522a88b18e241b907c7d71dfe33f68d2ab",
+   "text": "Okay … *Luca makes the chart, but the mood in the group chat is tense.*"
+  },
+  "blocks[7].knoten[11].auswertung": {
+   "quelle": "sha256:382f5f7a1243440b827728abad7325d55c24c261634d402e328300f33fbcbaa3",
+   "text": "**Solution found – spoilt by pressure.** You were almost there: Luca's reason was clear, and he had made a suggestion himself. Involving a teacher is a good idea when you can't get any further on your own – but used as a threat, it turns the agreement into a new conflict, and the trust is gone. A clear agreement with **who – what – by when** doesn't need a threat – it just needs everyone to say yes. Try a different path in the role play."
+  },
+  "blocks[7].knoten[12].text": {
+   "quelle": "sha256:b3b2a23646e6003ce1a9323b43c670f7cdc1386be21f48d199ccf6842dabaa32",
+   "text": "Great, now you're both against me. *Luca walks away. You don't speak to each other again until Wednesday.*"
+  },
+  "blocks[7].knoten[12].auswertung": {
+   "quelle": "sha256:22d5913cef93b07df7fffde6efe8cbb0b0c098844e668a4f29382062cc54666a",
+   "text": "**Accusation instead of an I-message.** “You're so unreliable!” and “Zoe thinks so too” turn a problem into an argument – two against one. That way you never found out Luca's reason, and the chart is still missing. With an **I-message** (“I'm worried because …”) and an honest question, the conversation would have stayed open. Try a different path in the role play."
+  },
+  "blocks[7].knoten[13].text": {
+   "quelle": "sha256:936f3d611dadb5dff55805785ec965899f14208d3019a4fe4b6c21d19ba6aee1",
+   "text": "Okay … *On Tuesday the chart is still missing.*"
+  },
+  "blocks[7].knoten[13].auswertung": {
+   "quelle": "sha256:b8d5a322c459812c2455887f6d70809877c2a0c51642712384e8bd80bd9cf314",
+   "text": "**Conflict avoided – problem still there.** If you don't raise a conflict, you don't solve it. Luca even opened a door for you when he asked about Zoe's message. Raising it honestly **before** it got bigger would have left time for a solution. Try a different path in the role play."
+  },
+  "blocks[7].abschlussfrage.prompt": {
+   "quelle": "sha256:67da87de1dbd0957dcaeba6fe218c56d19043ef732476696c249476fdd0c72f2",
+   "text": "Luca says: “I didn't want to ask a stupid question.” Which approach helps most at a moment like this?"
+  },
+  "blocks[7].abschlussfrage.options[0].text": {
+   "quelle": "sha256:bd67619b9bc74fe95a1299b0413aec207b35cb5fab812d91b76fceb56c1e80dd",
+   "text": "Tell him clearly that this is no excuse – after all, the poster is due on Wednesday."
+  },
+  "blocks[7].abschlussfrage.options[1].text": {
+   "quelle": "sha256:676eb5780c7bd22b72f773a48da5a15e9c2c356ff7af39af5acf6be79894535a",
+   "text": "Repeat what you have understood and work out a solution together, with a clear agreement."
+  },
+  "blocks[7].abschlussfrage.options[2].text": {
+   "quelle": "sha256:23abde56b7b5234ec319e62c52f743191793da8b081b6d358ab9c3be8bab69f6",
+   "text": "Take over his part yourself tonight so that there is no trouble in the group."
+  },
+  "blocks[7].abschlussfrage.options[3].text": {
+   "quelle": "sha256:8682bfaac3923f55d4e617724937cd5f45915e5e821051348954207cb5a477a1",
+   "text": "Leave the matter to the teacher – they should decide what happens next with Luca."
+  },
+  "blocks[7].abschlussfrage.explanation": {
+   "quelle": "sha256:1e4efd2bc8bc2b8765e61779b35946b3a96cab76a0dbe7580ccf89e9ddc59ebb",
+   "text": "With “I didn't want to ask a stupid question”, Luca says what the real problem is. Now **active listening** helps: repeating in your own words what you have understood. After that you **collect solutions and agree** who does what by when. An accusation ends the conversation at exactly the moment Luca opens up. Taking over his part on your own doesn't solve the problem – Luca doesn't learn anything from it. And you only need the teacher if you can't get any further yourselves."
+  },
+  "blocks[8].title": {
+   "quelle": "sha256:fc04ca1a5254c77a75f16d8993f83d57b235572311d0034588a3c42f90ee57e5",
+   "text": "Your group work, your plan"
+  },
+  "blocks[8].intro": {
+   "quelle": "sha256:25676dde6209a142b318bc3395242bddb51b84c8c8173bc2052d30d2986d8d44",
+   "text": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts. **Don't name any classmates** – just describe what happened and what you did."
+  },
+  "blocks[8].tasks[0].prompt": {
+   "quelle": "sha256:1a3eba6ad9efe21730cb7aa4b47aa78c774cb26889e658b209883de6485c7fea",
+   "text": "Think of a piece of **group work** at school. Describe in 4–6 sentences:\n\n1. What went well, and what didn't?\n2. What task or role did you have, and how did you do your part?\n3. What agreement would have helped your group? Explain why it would have prevented exactly what went wrong."
+  },
+  "blocks[8].tasks[0].hint": {
+   "quelle": "sha256:ce7b1d694ea5a3a247d1bc3cfc5be6049428d665cf9f017ac3493354f8cf85e4",
+   "text": "Think of the tools from the text “Together instead of side by side”: handing out roles, writing down tasks with who – what – by when, agreeing on shared rules and speaking up in good time when you get stuck."
+  },
+  "blocks[8].tasks[0].solution": {
+   "quelle": "sha256:27a4b562115040abfeb8bbe476db1873422455c88855e8a4adeb236fbb2db43c",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It describes a specific piece of group work with at least one thing that went well and one that was difficult. (2) It honestly describes the student's own role or task and their own contribution – even if not everything went well. (3) It names a suitable agreement from the module (handing out roles, writing down who – what – by when, a shared rule, speaking up in good time) and explains how it would have prevented exactly what went wrong. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “In our presentation on volcanoes the slides looked great, but two of us had prepared the same chapter. I was in charge of the pictures and sent them on time, but I didn't ask what the others were doing. What would have helped was writing down right at the start who does what by when – then we would have noticed the double work straight away.” Honest self-observation is more valuable than a prettified story. Names and blaming others are not necessary, and neither are private details."
+  },
+  "blocks[8].tasks[1].prompt": {
+   "quelle": "sha256:dc6671e828d46f916e41d46bcc96691ce4b69b77ff40c7e63b48e38f60d5dbb3",
+   "text": "Plan your next piece of group work so that **everyone** can take part. Describe in 4–6 sentences:\n\n1. Name at least three different strengths that there might be in a group.\n2. How will you share out the tasks so that nobody is left out?\n3. What rule for treating each other with respect do you suggest?"
+  },
+  "blocks[8].tasks[1].hint": {
+   "quelle": "sha256:9ece2df0a3cbda031e6a192c00e521cf68fdb492f83d201cc8754c330d332fbf",
+   "text": "Think of “including everyone” from the text “Together instead of side by side” and of respect from “Resolving conflicts fairly”: you talk about behaviour, not about background, appearance or language."
+  },
+  "blocks[8].tasks[1].solution": {
+   "quelle": "sha256:dcdaa398968c1f259e540ffd3fcd10c5c84035c95db3977f291c4bb39e99d455",
+   "text": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names at least three different strengths that there might be in a group (for example drawing, maths, explaining things well, having ideas, keeping things organised, speaking languages). (2) It describes a specific way of sharing out the tasks that makes use of these different strengths and explicitly makes sure that nobody is left out or just watches. (3) It suggests a clearly worded rule for treating each other with respect that can be followed in everyday school life. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “In a group, one person might be good at drawing, one at maths and one at giving talks. For a poster on energy I would share out the tasks like this: whoever is good at drawing does the pictures, whoever is good at maths does the chart, and whoever likes speaking practises the talk – and at the start we ask everyone what they would like to do. Our rule: anyone who doesn't understand something can ask at any time, and nobody gets laughed at.” Names of classmates are not necessary, and neither are private details."
+  },
+  "blocks[9].title": {
+   "quelle": "sha256:76a2379040bde64a3ed5edcace3d7eed0a17f21fcd6d44f440bbedb523c84d45",
+   "text": "What next?"
+  },
+  "blocks[9].body": {
+   "quelle": "sha256:5598c39f19bff94cdcbfe2cbcb9b6c4c069c7368096438a8554581ffad9eb4a9",
+   "text": "Well done! You have practised tools that help a group work well together: listening, agreeing clearly, resolving conflicts fairly and including everyone.\n\n- **Try out a tool** – for example the team agreement at the start of your next piece of group work.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ },
+ "pakete": {
+  "blocks[6]": {
+   "quelle": "sha256:c1d920210f45ef3bbe5ba8015b0d0493de79e391498833aacc42ed67ec48abd1",
+   "inhalt": {
+    "text": "Sara, Jakob, Amira and Tim are preparing a presentation on renewable energy. First they hand out {{1}}: Amira is the timekeeper, and Jakob writes everything down. Then they divide up the work and note down for each task: who, what and {{2}}.\nThey also agree on two {{3}}: anyone who gets stuck says so the day before at the latest, and nobody in the group gets laughed at.\nWhen Tim realises that he won't finish his chart in time, he {{4}} the others straight away. In the end everyone has done their {{5}}, and the presentation fits together.",
+    "luecken": [
+     [
+      "roles",
+      "jobs",
+      "the roles"
+     ],
+     [
+      "by when",
+      "when",
+      "until when",
+      "by what date",
+      "by what time"
+     ],
+     [
+      "rules",
+      "ground rules"
+     ],
+     [
+      "tells",
+      "informs",
+      "warns",
+      "contacts",
+      "messages",
+      "texts"
+     ],
+     [
+      "part",
+      "share",
+      "bit"
+     ]
+    ],
+    "ablenker": [
+     "breaks",
+     "waits"
+    ]
+   }
+  }
+ }
+}

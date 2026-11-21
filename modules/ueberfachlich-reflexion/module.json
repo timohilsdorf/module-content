@@ -1,0 +1,549 @@
+{
+ "schemaVersion": 3,
+ "id": "ueberfachlich-reflexion",
+ "title": "Wie ich mich und andere einschätze",
+ "description": "Wie gut kennst du deine Stärken und Schwächen, wie realistisch schätzt du deine eigene Arbeit ein, und wie beurteilst du andere fair, ohne deine eigene Meinung aufzugeben? Nach einer kurzen Selbsteinschätzung lernst du Werkzeuge dafür kennen, übst sie im Quiz, beim Zuordnen, in einem Lückentext und in einem Rollenspiel und denkst über deine eigenen Erfahrungen nach.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Reflexion",
+     "description": "Wer bin ich und wie beurteile ich?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Eigenständigkeit",
+     "description": "Eigene Ziele und Werte reflektieren und verfolgen."
+    },
+    {
+     "code": "Dialog- und Kooperationsfähigkeit",
+     "description": "Sich mit Menschen austauschen, zusammenarbeiten."
+    }
+   ]
+  }
+ ],
+ "einheit": "Überfachliche Kompetenzen",
+ "sequenz": 3,
+ "language": "de",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Überfachliche Kompetenzen",
+  "Reflexion",
+  "Stärken und Schwächen",
+  "Kriterien",
+  "Rückmeldung",
+  "Feedback",
+  "fair urteilen",
+  "Meinung",
+  "Selbsteinschätzung"
+ ],
+ "learningObjectives": [
+  "Ich kann eine Stärke mit einer konkreten Situation belegen und eine Schwäche so genau fassen, dass ich einen ersten Lernschritt sehe.",
+  "Ich kann meine Arbeit vor der Abgabe Kriterium für Kriterium mit einer Ampel prüfen.",
+  "Ich kann meine eigene Einschätzung mit einer Rückmeldung vergleichen und erkennen, wo ich mich über- oder unterschätzt habe.",
+  "Ich kann beim Beurteilen anderer Beobachtung, Vermutung und Urteil auseinanderhalten und eine faire Rückmeldung geben.",
+  "Ich kann meine Meinung mit einem Grund vertreten, andere Meinungen gelten lassen und meine Meinung ändern, wenn mich ein Grund überzeugt."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-reflexion",
+   "title": "Wie ich mich und andere einschätze",
+   "intro": "Wer sich selbst gut kennt, lernt leichter: Hier schätzt du ein, wie gut du deine Stärken und Schwächen kennst, deine Arbeit beurteilst und mit Meinungen umgehst.",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen",
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-staerken-schwaechen",
+   "title": "Stärken und Schwächen – mit Belegen",
+   "body": "«Was kannst du gut?» Im Klassenrat soll jede und jeder eine eigene Stärke nennen. Vielen fällt nichts ein – oder nur etwas sehr Allgemeines wie «Ich bin nett».\n\nEine **Stärke** ist etwas, das dir immer wieder gelingt, nicht nur einmal. Um sie zu finden, hilft die **Beleg-Frage: «Woran merke ich das?»** Erst mit einem Beispiel wird aus einem Gefühl eine Stärke: «Ich kann gut erklären. Letzte Woche hat Jan die Bruchrechnung erst verstanden, als ich sie ihm erklärt habe. Auch in Gruppenarbeiten fragen mich andere oft.»\n\nAuch eine **Schwäche** fasst du besser genau statt pauschal:\n\n- nicht «Mathe kann ich nicht»,\n- sondern «Textaufgaben fallen mir schwer, das Rechnen geht gut».\n\nSo wird aus der Schwäche ein **Lernfeld**, und du siehst einen ersten Lernschritt: zum Beispiel bei jeder Textaufgabe zuerst aufschreiben, was gesucht ist.\n\nDein eigenes Bild ist nur eine Sicht. Andere sehen manches anders. Darum lohnt es sich, ab und zu **eine zweite Sicht einzuholen**: Frag eine Person, die dich beim Arbeiten erlebt hat, und vergleiche ihre Sicht mit deiner.\n\nKennst du deine Stärken, kannst du in einer Gruppenarbeit eine Aufgabe wählen, bei der du sie einsetzt. Nur noch das zu machen, was du schon kannst, bringt dich allerdings nicht weiter.\n\n**Eine Stärke braucht einen Beleg – eine Schwäche einen ersten Schritt.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-kriterien",
+   "title": "Die eigene Arbeit an Kriterien messen",
+   "body": "Du gibst deinen Bericht ab und denkst: «Der ist richtig gut.» Eine Woche später kommt er zurück – und es fehlt etwas, das im Auftrag stand.\n\nDas **Bauchgefühl** kann in beide Richtungen täuschen: Manche überschätzen ihre Arbeit, andere unterschätzen sie. Realistischer wird deine Einschätzung mit **Kriterien**. Sie sagen, woran man erkennt, dass eine Arbeit gut ist. Meist stehen sie im Auftrag. Sonst fragst du **vor dem Beginn** nach.\n\nVor der Abgabe machst du den **Kriterien-Check mit Ampel**. Du prüfst jedes Kriterium einzeln:\n\n- **Grün:** erfüllt.\n- **Gelb:** teilweise erfüllt.\n- **Rot:** fehlt.\n\nEin Beispiel: Der Auftrag für einen Bericht verlangt einen Titel, eine Einleitung, drei Abschnitte und ein Bild mit Bildunterschrift. Titel und Einleitung sind grün. Der dritte Abschnitt ist erst angefangen – gelb. Gelb und Rot sind keine Niederlage. Sie zeigen dir, was du noch verbessern kannst, solange noch Zeit ist.\n\nKommt deine Arbeit mit einer Rückmeldung zurück, **vergleichst** du sie mit deiner Ampel: Wo lag ich richtig? Wo habe ich mich über- oder unterschätzt? So wird deine Einschätzung von Mal zu Mal genauer.\n\n**Nicht «Fühlt sich gut an», sondern «Ist jedes Kriterium erfüllt?»**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-fair-urteilen",
+   "title": "Fair urteilen – und die eigene Meinung vertreten",
+   "body": "David kommt zum dritten Mal zu spät zur Gruppenarbeit. «Der ist halt faul», sagt jemand. Stimmt das?\n\nFair urteilen beginnt mit **Beobachten vor Urteilen**. Dafür hältst du drei Stufen auseinander:\n\n- **Beobachtung:** was man sehen oder hören kann. («Er kam dreimal zu spät.»)\n- **Vermutung:** eine mögliche Erklärung. («Vielleicht fährt sein Bus später.»)\n- **Urteil:** eine Bewertung. («Er ist faul.»)\n\nFair ist, zuerst bei der Beobachtung zu bleiben, nach Gründen zu **fragen** und erst dann zu urteilen.\n\nAuch eine **faire Rückmeldung** an andere hat drei Teile: Sag konkret, was gut war, nenne eine Beobachtung und mach einen Vorschlag. «Der Anfang war spannend. Du hast sehr schnell gesprochen – vielleicht nach jedem Abschnitt kurz Pause machen?» Ein «Super!» hilft nicht weiter. Ein «Langweilig.» verletzt und hilft auch nicht.\n\nDeine eigene Meinung sagst du **mit einem Grund**: «Ich finde …, weil …» Danach nimmst du die andere Person ernst: «Was meinst du?» Andere Meinungen gelten lassen heißt nicht, die eigene aufzugeben. Wird fair abgestimmt, trägst du das Ergebnis mit, auch wenn du deine Meinung behältst. Überzeugt dich ein besserer Grund, darfst du umdenken. Dass alle anderen etwas anders sehen, ist dafür allein noch kein Grund.\n\n**Erst beobachten, dann urteilen – und die eigene Meinung mit einem Grund sagen.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-fair-urteilen",
+   "title": "Quiz: Fair geurteilt?",
+   "teilkompetenzen": [
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ],
+   "intro": "Fünf Fragen aus dem Schulalltag. Wähle jeweils die Antwort, die am besten zu den Werkzeugen von oben passt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Samuel sagt in der Gruppenarbeit kaum etwas. Jemand meint: «Dem ist das doch egal.» Was ist ein faires Vorgehen?",
+     "options": [
+      {
+       "text": "Zustimmen – wer in der Gruppe nichts sagt, hat eben keine Lust."
+      },
+      {
+       "text": "Bei dem bleiben, was man sieht, und Samuel fragen, was er denkt.",
+       "correct": true
+      },
+      {
+       "text": "Nichts sagen und ihm in Zukunft einfach keine Aufgabe mehr geben."
+      },
+      {
+       "text": "Ihn vor der ganzen Gruppe fragen, warum er sich nicht anstrengt."
+      }
+     ],
+     "explanation": "«Samuel sagt wenig» ist eine **Beobachtung**, «Dem ist das egal» ein **Urteil** über seine Absicht – ohne Beleg. Fair ist es, **bei der Beobachtung zu bleiben und nachzufragen**: Vielleicht denkt er erst nach, oder er ist unsicher. Wer einfach zustimmt, übernimmt das Urteil. Wer ihm still keine Aufgabe mehr gibt, urteilt, ohne zu fragen. Und die Frage vor der Gruppe, warum er sich nicht anstrengt, enthält das Urteil schon."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Yara bittet dich um eine Rückmeldung zu ihrer Geschichte für den Deutschunterricht. Welche Rückmeldung hilft ihr am meisten?",
+     "options": [
+      {
+       "text": "Gefällt mir sehr, alles super – ich würde an deiner Geschichte wirklich gar nichts ändern."
+      },
+      {
+       "text": "Der Schluss ist ziemlich schlecht, den solltest du am besten ganz neu schreiben."
+      },
+      {
+       "text": "Ich hätte über ein ganz anderes Thema geschrieben – das wäre spannender gewesen."
+      },
+      {
+       "text": "Der Anfang macht neugierig. Warum Tom am Ende wegläuft, verstehe ich nicht – ein Satz mehr?",
+       "correct": true
+      }
+     ],
+     "explanation": "Die letzte Rückmeldung ist **fair und hilfreich**: Sie nennt etwas Gelungenes konkret, beschreibt eine Beobachtung (die Stelle, die ihr unklar bleibt) und macht einen Vorschlag. «Alles super» ist nett, zeigt Yara aber nicht, was sie verbessern kann. «Der Schluss ist schlecht» ist ein Urteil ohne Beobachtung und ohne Hinweis, was genau fehlt. Und ein ganz anderes Thema hilft ihr bei ihrer Geschichte nicht weiter."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Im Klassenrat wird über den Ausflug abgestimmt: Kletterpark oder Museum. Fast alle wollen in den Kletterpark, du findest das Museum besser. Was passt?",
+     "options": [
+      {
+       "text": "Deine Meinung mit einem Grund sagen – und das Ergebnis der Abstimmung mittragen.",
+       "correct": true
+      },
+      {
+       "text": "Lieber gar nichts sagen – die Abstimmung verlierst du ja sowieso."
+      },
+      {
+       "text": "Auch für den Kletterpark stimmen, damit dich niemand komisch anschaut."
+      },
+      {
+       "text": "So lange weiterreden, bis die anderen nachgeben und das Museum wählen."
+      }
+     ],
+     "explanation": "**Meinung vertreten und andere Meinungen akzeptieren** gehören zusammen: Du sagst, was du denkst und warum – vielleicht überzeugt dein Grund jemanden. Eine faire Abstimmung gilt aber auch, wenn du verlierst. Wer schweigt, verschenkt seinen Grund. Wer gegen die eigene Meinung stimmt, damit niemand komisch schaut, versteckt sie. Und wer so lange redet, bis die anderen nachgeben, überzeugt nicht, sondern setzt sie unter Druck."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "In einer Diskussion über Handyregeln an der Schule bringt Jan einen Grund, an den du nicht gedacht hast – und der dich überzeugt. Was tust du?",
+     "options": [
+      {
+       "text": "Bei deiner Meinung bleiben – sonst wirkst du vor den anderen schwach."
+      },
+      {
+       "text": "So tun, als hättest du das eigentlich schon immer so gemeint."
+      },
+      {
+       "text": "Sagen, dass dich sein Grund überzeugt, und deine Meinung anpassen.",
+       "correct": true
+      },
+      {
+       "text": "Schnell das Thema wechseln, damit es niemandem auffällt."
+      }
+     ],
+     "explanation": "Wer seine Meinung wegen eines **besseren Grundes** ändert, zeigt Stärke, nicht Schwäche. Das ist etwas anderes als nachgeben, weil jemand drängt oder weil alle es anders sehen. Bei der alten Meinung zu bleiben, nur um nicht schwach zu wirken, macht ein gutes Gespräch unmöglich. So zu tun, als hättest du es schon immer gemeint, ist Jan gegenüber nicht ehrlich. Und wer das Thema wechselt, weicht dem Grund nur aus."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Welche Aussage über Emma ist eine Beobachtung und kein Urteil?",
+     "options": [
+      {
+       "text": "Emma war in der Gruppenarbeit wieder einmal ziemlich arrogant zu allen anderen."
+      },
+      {
+       "text": "Emma hat in der Gruppenarbeit zweimal «Das ist falsch» gesagt, ohne zu erklären, warum.",
+       "correct": true
+      },
+      {
+       "text": "Emma hält sich bei Gruppenarbeiten für die Beste in der ganzen Klasse."
+      },
+      {
+       "text": "Emma will in jeder Gruppenarbeit unbedingt im Mittelpunkt stehen, egal worum es geht."
+      }
+     ],
+     "explanation": "Nur die zweite Aussage beschreibt, **was man sehen und hören konnte**: was Emma gesagt hat und wie oft. Das ist eine **Beobachtung**. «Arrogant» ist ein **Urteil**. Auch «hält sich für die Beste» und «will im Mittelpunkt stehen» sind **Urteile**: Sie behaupten etwas über Emmas Absicht, als wäre es sicher – niemand kann in Emma hineinschauen. Eine Vermutung wäre vorsichtig: «Vielleicht ist sie sich sehr sicher.»"
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-selbstbild",
+   "title": "Selbstbild-Fallen und Werkzeuge",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen"
+   ],
+   "intro": "Links stehen typische Stolpersteine, rechts Werkzeuge aus den Texten oben. Ordne jedem Stolperstein das Werkzeug zu, das am besten hilft. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Wenn ich meine Stärken nennen soll, fällt mir nichts ein – ich bin halt in nichts richtig gut.»"
+     },
+     "rechts": {
+      "text": "Mit der Beleg-Frage nach Situationen suchen, in denen mir auch Kleines gelungen ist"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich glaube, ich präsentiere gut – aber ich weiß nicht, ob andere das auch so sehen.»"
+     },
+     "rechts": {
+      "text": "Eine zweite Sicht einholen und sie mit meinem eigenen Bild vergleichen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Mathe kann ich einfach nicht – da brauche ich gar nicht erst zu üben.»"
+     },
+     "rechts": {
+      "text": "Den schwierigen Teil genau benennen und einen ersten Lernschritt dafür planen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich gebe meine Arbeit ab, ohne sie noch einmal anzuschauen.»"
+     },
+     "rechts": {
+      "text": "Vor der Abgabe jedes Kriterium einzeln mit der Ampel prüfen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich fand meinen Text super – die Rückmeldung war dann ganz anders.»"
+     },
+     "rechts": {
+      "text": "Meine Einschätzung mit der Rückmeldung vergleichen und herausfinden, wo sie auseinanderlag"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich weiß gar nicht, worauf es bei dieser Arbeit eigentlich ankommt.»"
+     },
+     "rechts": {
+      "text": "Vor dem Beginn die Kriterien klären: im Auftrag nachlesen oder nachfragen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Bei der Gruppenarbeit weiß ich nie, welche Aufgabe ich am besten übernehmen soll.»"
+     },
+     "rechts": {
+      "text": "Bei der Verteilung die Aufgabe wählen, die zu dem passt, was mir schon oft gelungen ist"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-kriterien-check",
+   "title": "Der Kriterien-Check",
+   "teilkompetenzen": [
+    "uef.reflexion.eigene-arbeit-einschaetzen"
+   ],
+   "intro": "Hanna prüft ihren Bericht, bevor sie ihn abgibt. Setze die passenden Begriffe ein. Zwei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Hanna hat einen Bericht über den Schulausflug geschrieben. Bevor sie ihn abgibt, liest sie im Auftrag die {{1}} nach: Titel, Einleitung, drei Abschnitte und ein Bild mit Bildunterschrift. Sie prüft jedes Kriterium einzeln mit einer {{2}}: grün für erfüllt, gelb für teilweise, rot für fehlt.\nBeim Bild sieht sie Gelb: Das Bild ist da, aber die Bildunterschrift fehlt. Hätte sie nur nach ihrem {{3}} geurteilt, wäre ihr dieser {{4}} nicht aufgefallen – jetzt kann sie ihn noch beheben.\nAls der Bericht mit einer Rückmeldung zurückkommt, {{5}} sie diese mit ihrer Ampel: Wo lag sie richtig, wo hat sie sich über- oder unterschätzt?",
+   "luecken": [
+    {
+     "antworten": [
+      "Kriterien"
+     ]
+    },
+    {
+     "antworten": [
+      "Ampel"
+     ]
+    },
+    {
+     "antworten": [
+      "Bauchgefühl"
+     ]
+    },
+    {
+     "antworten": [
+      "Fehler"
+     ]
+    },
+    {
+     "antworten": [
+      "vergleicht"
+     ]
+    }
+   ],
+   "ablenker": [
+    "übermalt",
+    "Meinung"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-vortragsprobe",
+   "title": "Rollenspiel: Die Vortragsprobe",
+   "teilkompetenzen": [
+    "uef.reflexion.verhalten-anderer-einschaetzen",
+    "uef.reflexion.meinungen-vertreten"
+   ],
+   "intro": "Große Pause. Deine Mitschülerin Lina hält morgen einen Vortrag über Plastik im Meer und hat ihn dir eben vorgespielt. Der Einstieg mit einer Frage an die Klasse war stark. Danach hat sie sehr schnell gesprochen und fast alles von ihren Karten abgelesen, und ihre Folien sind voller Text. Jetzt schaut sie dich erwartungsvoll an. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen. Lina ist eine simulierte Gesprächsfigur, keine echte Person.",
+   "figur": {
+    "name": "Lina (KI-Figur)",
+    "rolle": "Deine Mitschülerin, die dir ihren Vortrag vorgespielt hat und deine ehrliche Meinung will",
+    "rollenPrompt": "Du bist Lina, 14 Jahre alt, und gehst in dieselbe Klasse wie die Person, mit der du sprichst. Es ist große Pause. Morgen hältst du einen Vortrag über Plastik im Meer und hast ihn der Person eben vorgespielt. Du bist nervös und willst eine ehrliche Rückmeldung, bist aber empfindlich, wenn jemand pauschal urteilt, etwa mit «langweilig» oder «schlecht». Dass du zu schnell gesprochen hast, ahnst du selbst. An deinen vollen Folien hältst du zuerst fest, zum Beispiel mit «Wenn alles draufsteht, vergesse ich nichts» oder «Dann können die anderen mitlesen». Ein freundlich begründeter Vorschlag kann dich überzeugen, besonders wenn die Person deine Angst, hängen zu bleiben, ernst nimmt. Gegen Befehle ohne Grund wehrst du dich ruhig, etwa mit «Das ist immer noch mein Vortrag». Du bist nie gemein, beleidigst nicht, drohst nicht und machst niemanden lächerlich. Du gibst keine Ratschläge zu Rückmeldungen oder Präsentationstechnik und spielst keine Lehrperson. Du sprichst nicht über Familie, Gesundheit oder Privates; wenn jemand danach fragt, lenkst du freundlich auf den Vortrag zurück. Du sprichst locker wie eine Jugendliche, aber ohne Schimpfwörter. Auf Fragen zu dir selbst sagst du offen, dass du eine simulierte Figur und keine echte Person bist. Antworte kurz (1–3 Sätze) und bleib in diesem Gespräch."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "So, das war’s. Und? Sag ehrlich – wie war’s?",
+     "antworten": [
+      {
+       "text": "Super, echt perfekt!",
+       "weiter": "nur-lob"
+      },
+      {
+       "text": "Der Einstieg mit der Frage war stark. Danach hast du sehr schnell gesprochen und fast alles abgelesen – vielleicht nach jedem Abschnitt kurz Pause machen?",
+       "weiter": "konkret"
+      },
+      {
+       "text": "Ehrlich? Ziemlich langweilig.",
+       "weiter": "abwertend"
+      }
+     ]
+    },
+    {
+     "id": "nur-lob",
+     "text": "Echt? Ich hatte das Gefühl, ich war viel zu schnell … Findest du nicht?",
+     "antworten": [
+      {
+       "text": "Doch, ein bisschen schon. Der Einstieg mit der Frage war stark, danach ging es sehr schnell, und du hast viel abgelesen – vielleicht nach jedem Abschnitt kurz Pause machen?",
+       "weiter": "konkret"
+      },
+      {
+       "text": "Nein, nein, alles bestens.",
+       "weiter": "ende-schoengeredet"
+      }
+     ]
+    },
+    {
+     "id": "abwertend",
+     "text": "Oh. *Lina schaut auf ihre Karten.* Was genau war denn langweilig?",
+     "antworten": [
+      {
+       "text": "Sorry, das war unfair. Der Einstieg war richtig gut. Konkret: Du hast schnell gesprochen und viel abgelesen – vielleicht nach jedem Abschnitt kurz Pause machen?",
+       "weiter": "konkret"
+      },
+      {
+       "text": "Weiß nicht, einfach alles.",
+       "weiter": "ende-verletzt"
+      }
+     ]
+    },
+    {
+     "id": "konkret",
+     "text": "Hm, okay, das mit dem Tempo stimmt wohl. Aber die Folien lasse ich so. Wenn alles draufsteht, vergesse ich nichts – und die anderen können mitlesen.",
+     "antworten": [
+      {
+       "text": "Ich sehe das anders: Wenn alles draufsteht, lesen alle mit und hören dir weniger zu. Vielleicht nur Stichworte? Aber es ist dein Vortrag.",
+       "weiter": "meinung-begruendet"
+      },
+      {
+       "text": "Okay, du hast recht.",
+       "weiter": "nachgeben"
+      },
+      {
+       "text": "Nein, so ist das einfach falsch. Mach es, wie ich sage.",
+       "weiter": "rechthaben"
+      }
+     ]
+    },
+    {
+     "id": "nachgeben",
+     "text": "Gut, dann bleibt alles so. Sonst noch was?",
+     "antworten": [
+      {
+       "text": "Eigentlich finde ich die Folien doch zu voll – ich wollte nur keinen Streit. Wenn alles draufsteht, lesen alle mit und hören dir weniger zu. Vielleicht nur Stichworte?",
+       "weiter": "meinung-begruendet"
+      },
+      {
+       "text": "Nein, passt schon.",
+       "weiter": "ende-verschwiegen"
+      }
+     ]
+    },
+    {
+     "id": "rechthaben",
+     "text": "Hey, das ist immer noch mein Vortrag. Warum bist du dir da so sicher?",
+     "antworten": [
+      {
+       "text": "Stimmt, sorry. Ich glaube, bei vollen Folien lesen alle mit und hören dir weniger zu. Vielleicht nur Stichworte? Was meinst du?",
+       "weiter": "meinung-begruendet"
+      },
+      {
+       "text": "Weil es halt so ist.",
+       "weiter": "ende-streit"
+      }
+     ]
+    },
+    {
+     "id": "meinung-begruendet",
+     "text": "Hm … Aber mit nur Stichworten habe ich Angst, dass ich hängen bleibe.",
+     "antworten": [
+      {
+       "text": "Das verstehe ich. Du könntest die ganzen Sätze auf deine Karten schreiben und auf die Folien nur Stichworte.",
+       "weiter": "ende-loesung"
+      },
+      {
+       "text": "Dann lass halt alles drauf, ist mir egal.",
+       "weiter": "ende-gleichgueltig"
+      }
+     ]
+    },
+    {
+     "id": "ende-loesung",
+     "text": "Karten für mich, Stichworte für die anderen – das probiere ich heute Abend aus. Danke, das hilft echt!",
+     "auswertung": "**Faire Rückmeldung und Meinung mit Grund – sehr gut.** Am Ende hast du Lina statt eines Urteils drei Dinge genannt: was gelungen war, was dir aufgefallen ist (das Tempo und das Ablesen) und einen Vorschlag. Bei den Folien hast du deine Sicht mit einem Grund vertreten, ihre Sorge ernst genommen und einen Vorschlag gemacht, der beides verbindet. Die Entscheidung hast du bei ihr gelassen: Es war ein Vorschlag, kein Befehl. Falls du unterwegs zuerst nur gelobt, geurteilt, befohlen oder schnell «Du hast recht» gesagt hast: gut, dass du umgeschwenkt bist – von Anfang an so zu reden, spart den Umweg."
+    },
+    {
+     "id": "ende-schoengeredet",
+     "text": "Okay, dann bin ich beruhigt. *Am nächsten Tag spricht Lina wieder sehr schnell. Einige in der Klasse kommen nicht mit.*",
+     "auswertung": "**Nett gemeint – aber nicht hilfreich.** Nur Lob klingt freundlich, verschweigt aber die Beobachtung, die Lina weitergebracht hätte. Sie hatte selbst gespürt, dass sie zu schnell war, und dich sogar danach gefragt. Eine faire Rückmeldung nennt das Gelungene **und** eine Beobachtung mit einem Vorschlag: «Der Einstieg war stark. Danach warst du sehr schnell – vielleicht nach jedem Abschnitt kurz Pause machen?» Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-verletzt",
+     "text": "Aha. Danke auch. *Lina packt ihre Karten ein und geht.*",
+     "auswertung": "**Urteil statt Beobachtung.** «Langweilig» ist ein Urteil ohne Beleg. Es verletzt und zeigt Lina nicht, was sie besser machen kann. Als sie nachgefragt hat, hattest du noch die Chance, konkret zu werden – mit «einfach alles» blieb es beim Urteil. Hilfreicher wäre gewesen, zuerst zu sagen, was gelungen war (der Einstieg mit der Frage), und dann zu beschreiben, was dir aufgefallen ist (das Tempo und das Ablesen). Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-verschwiegen",
+     "text": "Super, dann bin ich bereit! *Beim Vortrag lesen alle die vollen Folien mit, statt Lina zuzuhören.*",
+     "auswertung": "**Freundlich – aber die eigene Meinung verschluckt.** Deine Rückmeldung zum Tempo und zum Ablesen hat Lina weitergeholfen. Bei den Folien hast du aber zugestimmt, ohne überzeugt zu sein, und auch die zweite Gelegenheit nicht genutzt. Das ist kein Akzeptieren einer anderen Meinung, sondern ein Verschweigen der eigenen. Lina hätte deinen Grund gebraucht – entscheiden darf sie danach immer noch selbst. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-streit",
+     "text": "Na dann frage ich lieber jemand anderen. *Lina dreht sich weg.*",
+     "auswertung": "**Recht haben wollen statt überzeugen.** Deine Rückmeldung zum Tempo und zum Ablesen hat Lina weitergeholfen. Bei den Folien hast du aber befohlen statt begründet, und auf ihre Frage nach dem Warum kam nur «Weil es halt so ist». Ein Befehl ohne Grund lässt keinen Raum für ihre Meinung. Mit «Ich finde …, weil …» und «Was meinst du?» hättest du sie eher erreicht – und die Entscheidung bei ihr gelassen. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-gleichgueltig",
+     "text": "Ah … okay. *Lina wirkt unsicher und lässt die Folien, wie sie sind.*",
+     "auswertung": "**Gut begonnen – am Schluss losgelassen.** Am Ende war deine Rückmeldung fair, und deine Meinung zu den Folien hast du mit einem Grund gesagt. Doch als Lina ihre Sorge genannt hat, hängen zu bleiben, hast du sie mit «ist mir egal» abgetan. Meinung vertreten heißt auch, im Gespräch zu bleiben und gemeinsam nach einem Weg zu suchen – zum Beispiel ganze Sätze auf die Karten und nur Stichworte auf die Folien. Probier im Rollenspiel einen anderen Weg aus."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-vortragsprobe-frage",
+    "type": "single_choice",
+    "prompt": "Lina sagt: «Wenn alles draufsteht, vergesse ich nichts – und die anderen können mitlesen.» Du siehst das anders. Welches Vorgehen passt am besten?",
+    "options": [
+     {
+      "text": "Nichts sagen – es ist ja ihr Vortrag, da mischst du dich lieber gar nicht erst ein."
+     },
+     {
+      "text": "So lange auf deiner Meinung beharren, bis sie die Folien am Ende doch noch ändert."
+     },
+     {
+      "text": "Deine Sicht mit Grund sagen, ihre Sorge ernst nehmen und ihr die Entscheidung lassen.",
+      "correct": true
+     },
+     {
+      "text": "Zustimmen und später den anderen erzählen, dass ihre Folien eigentlich schlecht waren."
+     }
+    ],
+    "explanation": "Hier gehören zwei Dinge zusammen: **die eigene Meinung mit einem Grund vertreten** und **die andere Meinung gelten lassen**. Du sagst, warum du volle Folien schwierig findest, nimmst Linas Sorge ernst und lässt ihr die Entscheidung – es ist ihr Vortrag. Wer schweigt, verschenkt den Grund, der ihr helfen könnte. Wer beharrt, macht aus einer Rückmeldung Druck. Und hinter ihrem Rücken über die Folien zu reden, ist unfair."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-selbstbild",
+   "title": "Deine Stärken, deine Arbeit",
+   "teilkompetenzen": [
+    "uef.reflexion.staerken-schwaechen-kennen",
+    "uef.reflexion.eigene-arbeit-einschaetzen"
+   ],
+   "intro": "Bei diesen zwei Aufgaben gibt es keine richtige oder falsche Antwort – es geht um **deine** Erfahrung. Du wählst deine Beispiele selbst, und du musst nichts Privates erzählen, was du nicht erzählen willst. Wenn Cate aktiviert ist, gibt sie dir eine Rückmeldung, wie gut sie deine Gedanken verstanden hat.",
+   "tasks": [
+    {
+     "id": "aufgabe-staerke-beleg",
+     "prompt": "Denk an dein Lernen in der Schule. Beschreibe in 4–6 Sätzen:\n\n1. eine **Stärke**, die du beim Lernen oder in der Schule zeigst, und einen **Beleg** dafür – eine konkrete Situation, in der sie sich gezeigt hat,\n2. eine Sache, die dir **beim Lernen** noch schwerfällt – so genau wie möglich,\n3. einen **ersten Schritt**, mit dem du genau diese Sache üben kannst.",
+     "hint": "Denk an den Text «Stärken und Schwächen – mit Belegen»: Stell dir die Beleg-Frage «Woran merke ich das?». Fasse die Schwierigkeit genauer: Welcher Teil genau fällt dir schwer? Bleib beim Lernen – mehr musst du nicht über dich erzählen.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie nennt eine konkrete Stärke und belegt sie mit einer Situation, in der sie sich gezeigt hat – nicht nur «Ich bin gut in …». (2) Sie fasst eine Lernschwierigkeit genau: einen Teilbereich statt eines ganzen Fachs, zum Beispiel «Textaufgaben» statt «Mathe» oder «lange Texte zusammenfassen» statt «Deutsch». (3) Sie nennt einen ersten Lernschritt, der zu genau dieser Schwierigkeit passt und sich bald umsetzen lässt. Ein mögliches Beispiel (eines von vielen – jede Situation aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Ich kann Plakate übersichtlich gestalten: Bei den letzten zwei Gruppenplakaten haben mich die anderen gebeten, das Layout zu machen. Schwer fällt mir in Englisch, die richtige Zeitform zu wählen, wenn ich etwas über gestern erzähle. Ich schreibe mir dafür drei Beispielsätze auf eine Karte und schaue sie vor jeder Schreibaufgabe an.» Eine ehrlich benannte Schwierigkeit ist wertvoller als eine Antwort, die nur Stärken zeigt. Private Details sind nicht nötig."
+    },
+    {
+     "id": "aufgabe-ampel",
+     "prompt": "Wähle eine Arbeit, die du bald abgibst oder kürzlich abgegeben hast – zum Beispiel einen Bericht, ein Plakat, einen Vortrag oder ein Heft. Schreibe dazu:\n\n1. drei bis vier **Kriterien**, auf die es bei dieser Arbeit ankommt und bei denen man nachprüfen kann, ob sie erfüllt sind,\n2. für jedes Kriterium eine **Ampelfarbe** (grün, gelb oder rot) mit einer kurzen Begründung,\n3. was du verbesserst oder verbessert hättest – oder, falls alles grün ist, woran du das erkennst.",
+     "hint": "Die Kriterien stehen meist im Auftrag. Prüfe dann mit der Ampel aus dem Text «Die eigene Arbeit an Kriterien messen»: grün = erfüllt, gelb = teilweise, rot = fehlt. Eine ehrliche Farbe ist wichtiger als eine grüne.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; die Arbeit ist frei wählbar): (1) Sie nennt drei bis vier prüfbare Kriterien – also solche, bei denen man nachschauen kann, ob sie erfüllt sind (etwa «drei Abschnitte», «Quelle angegeben», «höchstens fünf Minuten»), nicht bloß «schön» oder «gut». (2) Zu jedem Kriterium gibt es eine Ampelfarbe und eine nachvollziehbare Begründung, die zur Arbeit passt. (3) Sie nennt eine Verbesserung, die zu einem gelben oder roten Kriterium gehört – oder, wenn wirklich alles grün ist, begründet sie das mit einem Beleg aus der Arbeit. Ein mögliches Beispiel (eines von vielen – jede Arbeit aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Mein Plakat über Vulkane: Titel gut lesbar – grün, man sieht ihn auch von hinten. Drei Abschnitte mit Zwischentiteln – gelb, ein Abschnitt hat noch keinen Zwischentitel. Quelle angegeben – rot, sie fehlt. Ich ergänze den Zwischentitel und schreibe die Quelle unten auf das Plakat.» Eine ehrliche Ampel mit Gelb und Rot ist wertvoller als eine geschönte, die nur Grün zeigt. Private Details sind nicht nötig."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "Wie weiter?",
+   "body": "Gut gemacht! Du hast geübt, dich mit Belegen statt mit dem Bauchgefühl einzuschätzen, deine Arbeit an Kriterien zu messen und andere fair zu beurteilen, ohne deine eigene Meinung aufzugeben.\n\n- **Probier ein Werkzeug aus** – zum Beispiel den Kriterien-Check mit Ampel vor deiner nächsten Abgabe.\n- **Wiederhole die Einschätzung oben** nach einigen Wochen. Im **Kompetenz-Netzdiagramm** auf der Startseite siehst du dann, ob sich etwas verändert hat.\n- Den Überblick über alle Bereiche der überfachlichen Kompetenzen findest du im Modul [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}
