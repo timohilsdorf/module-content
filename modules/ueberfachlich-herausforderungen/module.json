@@ -1,0 +1,540 @@
+{
+ "schemaVersion": 3,
+ "id": "ueberfachlich-herausforderungen",
+ "title": "Wie ich mit Herausforderungen umgehe",
+ "description": "Wie reagierst du, wenn eine Aufgabe nicht klappt, du einen Fehler machst oder ein Test schlecht ausfällt? Nach einer kurzen Selbsteinschätzung lernst du Werkzeuge kennen, mit denen du in schwierigen Lernmomenten ruhig bleibst, aus Fehlern lernst und dranbleibst – du übst sie im Quiz, beim Zuordnen, in einem Lückentext und in einem Rollenspiel und denkst über deine eigenen Erfahrungen nach.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Resilienz",
+     "description": "Wie gehe ich mit Herausforderungen und Gefühlen um?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Überfachliche Kompetenzen",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    }
+   ]
+  }
+ ],
+ "einheit": "Überfachliche Kompetenzen",
+ "sequenz": 4,
+ "language": "de",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Überfachliche Kompetenzen",
+  "Resilienz",
+  "Frustration",
+  "Fehler",
+  "Rückschläge",
+  "Ausdauer",
+  "Ruhe bewahren",
+  "Nervosität",
+  "Selbsteinschätzung"
+ ],
+ "learningObjectives": [
+  "Ich kann beschreiben, wie ich in einem schwierigen Lernmoment mit «Stopp – atmen – benennen» ruhig werde.",
+  "Ich kann erklären, warum eine Pause mit fester Rückkehrzeit hilft, Frust auszuhalten, statt aufzugeben.",
+  "Ich kann einen Fehler mit den drei Fragen des Fehler-Detektivs untersuchen und einen Flüchtigkeitsfehler von einer Wissenslücke unterscheiden.",
+  "Ich kann nach einem Rückschlag herausfinden, was ich beeinflussen kann, und einen nächsten kleinen Schritt planen.",
+  "Ich kann Möglichkeiten nennen, an einer schwierigen Aufgabe dranzubleiben: einen anderen Weg probieren, gezielt um Hilfe bitten, «noch nicht» statt «nie» denken."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-herausforderungen",
+   "title": "Wie ich mit Herausforderungen umgehe",
+   "intro": "Schwierige Aufgaben, Fehler und Rückschläge gehören zum Lernen dazu. Hier schätzt du ein, wie du damit umgehst – ohne dich schlechtzumachen: Es geht um ehrliches Hinschauen.",
+   "teilkompetenzen": [
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.frustration-aushalten",
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.fehler-nutzen",
+    "uef.herausforderungen.ausdauer-zeigen"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-gefuehle",
+   "title": "Erst bemerken, dann entscheiden",
+   "body": "Mathetest, Aufgabe 3. Du liest sie zweimal – und verstehst nichts. Das Herz klopft, im Kopf wird es leer. Am liebsten würdest du das Blatt umdrehen und aufgeben.\n\nÄrger, Nervosität und Frust in schwierigen Momenten sind **normal**. Sie zeigen, dass dir etwas wichtig ist oder gerade schwerfällt. Das Ziel ist nicht, nichts zu fühlen. Ein Gefühl **regulieren** heißt: Du bemerkst es – und entscheidest dann **selbst**, wie du handelst.\n\nDabei hilft das Werkzeug **Stopp – atmen – benennen**:\n\n1. **Stopp:** Halte kurz inne und reagiere nicht sofort.\n2. **Atmen:** Atme zwei-, dreimal langsam ein und aus.\n3. **Benennen:** Sag dir in Gedanken, was los ist: «Ich bin gerade frustriert.» Was einen Namen hat, wird oft kleiner.\n\nDanach entscheidest du, zum Beispiel: Ich wechsle zu einer Aufgabe, die ich kann, und komme später zurück.\n\n**Frust aushalten** heißt nicht, ohne Pause weiterzukämpfen. Eine **Pause mit fester Rückkehrzeit** («fünf Minuten, dann mache ich weiter») ist etwas ganz anderes als Aufgeben. In der Pause wird dein Kopf wieder frei, und mit klarem Kopf findest du eher eine Lösung. Die feste Rückkehrzeit sorgt dafür, dass aus der Pause kein Aufhören wird.\n\nWenn dich etwas über längere Zeit stark belastet, sprich mit einer Vertrauensperson oder deiner Lehrperson.\n\n**Das Gefühl darf da sein – entscheiden tust du.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-fehler",
+   "title": "Fehler als Hinweise",
+   "body": "Der Test kommt zurück, überall rote Striche. Am liebsten würdest du ihn ganz unten in der Tasche verschwinden lassen – und nie wieder anschauen.\n\nDabei steckt in jedem Fehler eine wertvolle Information. Er zeigt dir genau, **wo** du noch lernen kannst. Ein Fehler ist ein **Hinweis**, kein Urteil über dich.\n\nWerde zum **Fehler-Detektiv** und stell drei Fragen:\n\n1. **Was genau ist falsch?** Nicht «alles», sondern die Stelle: welche Aufgabe, welcher Schritt.\n2. **Warum ist es passiert?**\n3. **Was mache ich nächstes Mal anders?**\n\nBei der zweiten Frage hilft es, zwei häufige Fehlerarten zu kennen:\n\n- **Flüchtigkeitsfehler:** Eigentlich weißt du, wie es geht, aber du warst zu schnell oder unkonzentriert. Was hilft: am Schluss kontrollieren, zum Beispiel eine Rechnung überschlagen oder jeden Satz noch einmal lesen.\n- **Wissenslücke:** Du wusstest nicht, wie es geht. Was hilft: nachfragen, dir den Weg erklären lassen und noch einmal üben.\n\nWer nur auf die Note schaut, verschenkt diese Hinweise. Besonders wertvoll sind Fehler in Übungen: Sie zählen nicht, zeigen dir aber genau dasselbe wie Fehler im Test.\n\n**Jeder Fehler beantwortet eine Frage: Was lerne ich als Nächstes?**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-dranbleiben",
+   "title": "Rückschläge – und wie du dranbleibst",
+   "body": "Zwei Wochen lang hast du für dein Keyboard-Vorspiel im Musikunterricht geübt – und dann verspielst du dich gleich am Anfang. Danach klappt gar nichts mehr. «Ich kann das einfach nicht», denkst du.\n\nEin **Rückschlag** fühlt sich oft größer an, als er ist. Statt «Ich kann das nie» hilft der Satz **«Ich kann das noch nicht»**. Das kleine Wort «noch» lässt die Tür offen.\n\nDanach hilft der **Rückschlag-Plan** mit drei Fragen:\n\n1. **Was kann ich beeinflussen?** Deine Vorbereitung kannst du ändern, die Aufgabe selbst meistens nicht.\n2. **Was ist mein nächster kleiner Schritt?** Zum Beispiel nur den Anfang des Stücks zehnmal langsam spielen.\n3. **Gibt es einen anderen Weg?** Wer denselben Weg ein drittes Mal geht, landet oft wieder am selben Ort.\n\n**Ausdauer** heißt, dranzubleiben, auch wenn es schwierig wird – mit Pausen, nicht ohne.\n\nHilfe holen gehört dazu. Versuch es **erst selbst, dann frag gezielt**: Sag genau, wo du hängst. «Ich verstehe gar nichts» hilft wenig. «Bis Schritt 2 komme ich, dann nicht mehr» zeigt, wo die Hilfe ansetzen kann.\n\n**Nicht «nie», sondern «noch nicht» – und dann der nächste kleine Schritt.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-was-hilft",
+   "title": "Quiz: Was hilft jetzt?",
+   "teilkompetenzen": [
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.frustration-aushalten"
+   ],
+   "intro": "Fünf Situationen aus dem Schulalltag. Wähle jeweils die Antwort, die am besten zu den Werkzeugen von oben passt. Du kannst das Quiz beliebig oft wiederholen – es zählt dein bestes Ergebnis.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Beim Hörverstehen in Französisch verpasst du gleich den ersten Satz. Jetzt verstehst du gar nichts mehr, und du merkst, wie du hektisch wirst. Was hilft dir am meisten?",
+     "options": [
+      {
+       "text": "Aufgeben und die Kopfhörer abnehmen – es hat sowieso keinen Sinn mehr."
+      },
+      {
+       "text": "Krampfhaft versuchen, den verpassten Satz im Kopf noch einmal zu hören."
+      },
+      {
+       "text": "Kurz innehalten, ruhig atmen und bei der nächsten Frage wieder einsteigen.",
+       "correct": true
+      },
+      {
+       "text": "Bei allen Fragen schnell irgendetwas ankreuzen, damit es endlich vorbei ist."
+      }
+     ],
+     "explanation": "Am meisten hilft: **kurz innehalten, ruhig atmen und bei der nächsten Frage wieder einsteigen**. Das ist **Stopp – atmen** und danach eine bewusste Entscheidung: Den verpassten Satz holst du nicht mehr zurück, die nächsten Fragen kannst du noch beantworten. Wer aufgibt, lässt das Gefühl entscheiden. Wer dem verpassten Satz nachhängt, verpasst auch den nächsten. Und wahllos anzukreuzen, bringt selten Punkte."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "Dein Lernvideo für Englisch ist zum dritten Mal nicht gespeichert worden. Du bist richtig wütend. Was ist der beste nächste Schritt?",
+     "options": [
+      {
+       "text": "Fünf Minuten Pause machen und danach in Ruhe herausfinden, woran es liegt.",
+       "correct": true
+      },
+      {
+       "text": "Das Tablet auf den Tisch knallen, damit der Ärger rausgeht."
+      },
+      {
+       "text": "Sofort ein viertes Mal aufnehmen, obwohl du immer noch richtig wütend bist."
+      },
+      {
+       "text": "Die Aufgabe ganz lassen und einfach sagen, das Tablet sei kaputt."
+      }
+     ],
+     "explanation": "Der beste Schritt ist: **fünf Minuten Pause machen und danach in Ruhe herausfinden, woran es liegt**. Das ist eine **Pause mit fester Rückkehrzeit**: Erst wirst du ruhig, dann löst du das Problem – mit klarem Kopf findest du eher heraus, warum das Speichern nicht klappt. Das Tablet hinzuknallen, lässt den Ärger entscheiden. Ein viertes Mal im selben Ärger aufzunehmen, ist derselbe Weg noch einmal – vermutlich mit demselben Ergebnis. Eine Ausrede verschiebt das Problem nur."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Beim Sporttag verliert eure Klasse die Stafette ganz knapp. Du spürst, wie der Ärger hochkommt, und willst der anderen Klasse etwas Lautes zurufen. Was hilft?",
+     "options": [
+      {
+       "text": "Sofort laut rufen, was du gerade denkst – Ärger muss einfach raus."
+      },
+      {
+       "text": "So tun, als wäre dir alles egal, und den Ärger runterschlucken."
+      },
+      {
+       "text": "Den Ärger an deinen Mitspielern auslassen, die beim Wechsel zu langsam waren."
+      },
+      {
+       "text": "Stoppen, durchatmen, dir sagen «Ich ärgere mich gerade» – dann entscheiden.",
+       "correct": true
+      }
+     ],
+     "explanation": "Am meisten hilft: **stoppen, durchatmen, dir sagen «Ich ärgere mich gerade» – und dann entscheiden**. Das ist **Stopp – atmen – benennen**: Der Ärger darf da sein, aber **du** entscheidest, was du tust. Wer sofort ruft, lässt den Ärger entscheiden und sagt vielleicht etwas, das einem nachher leidtut. Runterschlucken hilft auch nicht: Das Gefühl ist dann nur versteckt. Und wer den Ärger an den eigenen Mitspielern auslässt, trifft die Falschen."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "Im Werkunterricht sägst du seit zwanzig Minuten an derselben Rundung, und jedes Mal wird sie schief. Was hilft?",
+     "options": [
+      {
+       "text": "Aufhören und es lassen – du hast eben kein Geschick fürs Werken."
+      },
+      {
+       "text": "Fünf Minuten Pause, dann an einem Reststück langsam die Rundung üben.",
+       "correct": true
+      },
+      {
+       "text": "Ohne Pause weitersägen, bis es klappt, egal wie lange es dauert."
+      },
+      {
+       "text": "Die Rundung einfach weglassen und das Werkstück eckig abgeben."
+      }
+     ],
+     "explanation": "Am meisten hilft: **fünf Minuten Pause, dann an einem Reststück langsam die Rundung üben**. Die **Pause mit fester Rückkehrzeit** hilft dir, den Frust auszuhalten, ohne aufzugeben. Das Üben am Reststück ist ein anderer Weg als immer weiterzusägen. «Ich habe eben kein Geschick» ist ein «nie» statt «noch nicht». Ohne Pause weiterzusägen, macht oft nur müder und frustrierter. Und wer die Rundung weglässt, umgeht sie – lernen kann man sie so nicht."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Gleich hältst du deinen Vortrag vor der Klasse. Du bist sehr nervös. Was hilft am ehesten?",
+     "options": [
+      {
+       "text": "Dir fest einreden, dass du auf keinen Fall nervös sein darfst."
+      },
+      {
+       "text": "Den Vortrag kurzfristig absagen und ihn auf einen anderen Tag verschieben."
+      },
+      {
+       "text": "Nervosität als normal annehmen, ruhig atmen, den ersten Satz leise sagen.",
+       "correct": true
+      },
+      {
+       "text": "Möglichst schnell sprechen, damit alles ganz bald vorbei ist."
+      }
+     ],
+     "explanation": "Am ehesten hilft: **die Nervosität als normal annehmen, ruhig atmen und den ersten Satz leise sagen**. Nervosität zeigt, dass dir der Vortrag wichtig ist – du musst sie nicht wegmachen. Ruhiges Atmen hilft vielen, etwas ruhiger zu werden, und der erste Satz gibt dir einen festen Startpunkt. Dir die Nervosität zu verbieten, macht dich oft nur angespannter. Absagen verschiebt das Problem nur. Und wer zu schnell spricht, wird schlechter verstanden – und oft noch nervöser."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-nach-dem-rueckschlag",
+   "title": "Nach dem Rückschlag",
+   "teilkompetenzen": [
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.ausdauer-zeigen",
+    "uef.herausforderungen.frustration-aushalten"
+   ],
+   "intro": "Links stehen typische Stolpersteine, rechts Werkzeuge aus den Texten oben. Ordne jedem Stolperstein das Werkzeug zu, das am besten hilft. Tippe links und rechts je ein Element an.",
+   "paare": [
+    {
+     "links": {
+      "text": "«Der Test ist schlecht ausgefallen – ich bin einfach zu dumm für Französisch.»"
+     },
+     "rechts": {
+      "text": "«Noch nicht» statt «nie» denken: Ich kann es noch nicht, aber ich kann es lernen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich weiß gar nicht, warum es nicht geklappt hat.»"
+     },
+     "rechts": {
+      "text": "Mit dem Fehler-Detektiv nachschauen: Was genau war falsch, und warum?"
+     }
+    },
+    {
+     "links": {
+      "text": "«So vieles ist schiefgelaufen – ich weiß nicht, wo ich anfangen soll.»"
+     },
+     "rechts": {
+      "text": "Fragen, was ich beeinflussen kann, und einen nächsten kleinen Schritt wählen"
+     }
+    },
+    {
+     "links": {
+      "text": "«Nach einer Viertelstunde Üben will ich nur noch alles hinschmeißen.»"
+     },
+     "rechts": {
+      "text": "Eine kurze Pause mit fester Rückkehrzeit machen, statt aufzuhören"
+     }
+    },
+    {
+     "links": {
+      "text": "«Wenn etwas nicht klappt, werde ich so wütend, dass ich Dinge sage, die mir nachher leidtun.»"
+     },
+     "rechts": {
+      "text": "Erst stoppen und mir sagen «Ich bin wütend» – dann entscheiden, was ich sage"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich habe es zweimal genau gleich versucht, und zweimal ging es schief.»"
+     },
+     "rechts": {
+      "text": "Einen anderen Weg ausprobieren statt denselben noch einmal"
+     }
+    },
+    {
+     "links": {
+      "text": "«Ich hänge bei der Aufgabe fest und warte einfach, bis die Lehrperson zufällig vorbeikommt.»"
+     },
+     "rechts": {
+      "text": "Nach einem eigenen Versuch gezielt fragen und sagen, wo genau ich hänge"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-fehler-detektiv",
+   "title": "Der Fehler-Detektiv",
+   "teilkompetenzen": [
+    "uef.herausforderungen.fehler-nutzen"
+   ],
+   "intro": "Matteo bekommt seinen Mathetest zurück und untersucht seine Fehler. Setze die passenden Begriffe ein. Zwei Wörter in der Auswahl passen nirgends.",
+   "modus": "wortbank",
+   "text": "Matteo bekommt seinen Mathetest zurück. Statt ihn wegzulegen, wird er zum Fehler-Detektiv. Zuerst fragt er: Was genau ist {{1}}? Bei Aufgabe 4 steht das Komma eine Stelle zu weit links.\nDann fragt er: {{2}} ist das passiert? Er merkt, dass er zu schnell gerechnet hat, obwohl er es eigentlich kann – er ordnet den Fehler als {{3}} ein. Bei Aufgabe 6 dagegen wusste er nicht, wie man vorgeht: Diesen Fehler ordnet er als {{4}} ein.\nZum Schluss fragt er: Was mache ich {{5}} anders? Er will jede Rechnung am Ende überschlagen und lässt sich Aufgabe 6 noch einmal erklären.",
+   "luecken": [
+    {
+     "antworten": [
+      "falsch"
+     ]
+    },
+    {
+     "antworten": [
+      "Warum"
+     ]
+    },
+    {
+     "antworten": [
+      "Flüchtigkeitsfehler"
+     ]
+    },
+    {
+     "antworten": [
+      "Wissenslücke"
+     ]
+    },
+    {
+     "antworten": [
+      "nächstes Mal"
+     ]
+    }
+   ],
+   "ablenker": [
+    "Absicht",
+    "Strafe"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-bruecke",
+   "title": "Rollenspiel: Die Brücke hält nicht",
+   "teilkompetenzen": [
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.ausdauer-zeigen",
+    "uef.herausforderungen.fehler-nutzen"
+   ],
+   "intro": "Projektwoche, Freitag, 13.20 Uhr. Du und Ben habt den ganzen Morgen eine Brücke aus Zeitungspapier und Klebeband gebaut. Sie soll zwischen zwei Tischen ein Buch tragen. Beim ersten Test knickt sie in der Mitte ein. Um 14 Uhr stellen alle Gruppen ihre Brücken vor. Wähle bei jedem Schritt, wie du reagierst – verschiedene Wege führen zu verschiedenen Ausgängen. Ben ist eine simulierte Gesprächsfigur, keine echte Person.",
+   "figur": {
+    "name": "Ben (KI-Figur)",
+    "rolle": "Dein Teampartner in der Projektwoche, der nach dem Einsturz am liebsten aufgeben würde",
+    "rollenPrompt": "Du bist Ben, 14 Jahre alt, und gehst in dieselbe Klasse wie die Person, mit der du sprichst. Es ist Freitag in der Projektwoche, 13.20 Uhr. Ihr habt den ganzen Morgen zusammen eine Brücke aus Zeitungspapier und Klebeband gebaut, die zwischen zwei Tischen ein Buch tragen soll. Beim Test ist sie in der Mitte eingeknickt; um 14 Uhr stellen alle Gruppen ihre Brücken vor. Du bist frustriert und ein bisschen gekränkt und schlägst zuerst vor, aufzugeben oder einfach die kaputte Brücke zu zeigen, zum Beispiel mit «Der ganze Morgen für nichts» oder «Neu bauen schaffen wir nie». Wenn dir die Person die Schuld gibt, reagierst du mit einem Gegenvorwurf. Wenn sie ruhig bleibt und Vorschläge macht, wirst du Schritt für Schritt wieder motivierter. Du hast gesehen, dass Gruppe 3 mit gefalteten Papierstreifen baut, und kannst das erwähnen. Du breitest kein Fachwissen über Statik aus. Du bist nie gemein, beleidigst nicht, drohst nicht und machst niemanden lächerlich. Du gibst keine Ratschläge zum Umgang mit Gefühlen, Fehlern oder Rückschlägen und spielst keine Lehrperson. Du sprichst nicht über Familie, Gesundheit oder Privates; wenn jemand danach fragt, lenkst du freundlich auf die Brücke zurück. Du sprichst locker wie ein Jugendlicher, aber ohne Schimpfwörter. Auf Fragen zu dir selbst sagst du offen, dass du eine simulierte Figur und keine echte Person bist. Antworte kurz (1–3 Sätze) und bleib in diesem Gespräch."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Nein! Der ganze Morgen für nichts. Ich hab keine Lust mehr. Wir sagen einfach, sie ist kaputtgegangen, fertig.",
+     "antworten": [
+      {
+       "text": "Lass uns kurz durchatmen. Dann schauen wir, wo genau sie gebrochen ist.",
+       "weiter": "durchatmen"
+      },
+      {
+       "text": "Das ist deine Schuld, du hast die Mitte geklebt!",
+       "weiter": "vorwurf"
+      },
+      {
+       "text": "Ja, vergiss es. Wir zeigen einfach die kaputte Brücke.",
+       "weiter": "aufgeben"
+      }
+     ]
+    },
+    {
+     "id": "vorwurf",
+     "text": "Jetzt bin ich schuld? Du hast doch gesagt, die Mitte reicht so!",
+     "antworten": [
+      {
+       "text": "Stimmt, das haben wir zusammen entschieden. Sorry. Schauen wir lieber, was genau passiert ist.",
+       "weiter": "durchatmen"
+      },
+      {
+       "text": "Egal, dann mach ich das jetzt allein.",
+       "weiter": "ende-allein"
+      }
+     ]
+    },
+    {
+     "id": "aufgeben",
+     "text": "Hm … *Ben schaut zu den anderen Tischen.* Die anderen haben alle etwas zum Vorzeigen. Aber neu bauen schaffen wir nie.",
+     "antworten": [
+      {
+       "text": "Wir haben noch 40 Minuten. Wo genau ist sie denn gebrochen?",
+       "weiter": "durchatmen"
+      },
+      {
+       "text": "Ist halt so. Wir können das eben nicht.",
+       "weiter": "ende-aufgegeben"
+      }
+     ]
+    },
+    {
+     "id": "durchatmen",
+     "text": "Okay … Sie ist genau in der Mitte eingeknickt, da wo das Buch liegt. Alles neu bauen geht nicht mehr.",
+     "antworten": [
+      {
+       "text": "Müssen wir auch nicht. Das flache Papier biegt sich unter dem Buch einfach durch. Was, wenn wir nur die Mitte verstärken – zum Beispiel mit gefalteten Streifen?",
+       "weiter": "plan"
+      },
+      {
+       "text": "Dann kleben wir einfach ganz viel Klebeband drauf und hoffen.",
+       "weiter": "klebeband"
+      }
+     ]
+    },
+    {
+     "id": "klebeband",
+     "text": "*Ihr klebt fünf Lagen Klebeband um die Mitte und stellt das Buch drauf.* Sie hält kurz – und knickt wieder ein. Siehst du? Es bringt nichts!",
+     "antworten": [
+      {
+       "text": "Dann schauen wir genauer hin: Das Papier ist zu flach. Gefaltet wäre es vielleicht stabiler.",
+       "weiter": "plan"
+      },
+      {
+       "text": "Ich gebe auf.",
+       "weiter": "ende-aufgegeben"
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "text": "Gefaltet, wie ein Fächer? Gruppe 3 macht das so. Okay … aber was, wenn es wieder nicht hält?",
+     "antworten": [
+      {
+       "text": "Dann wissen wir wenigstens mehr als vorher. Wir bauen 15 Minuten und testen dann.",
+       "weiter": "zweiter-test"
+      },
+      {
+       "text": "Komm, wir fragen Gruppe 3, ob wir einfach mit ihrer Brücke vorstellen dürfen.",
+       "weiter": "ende-abkuerzung"
+      }
+     ]
+    },
+    {
+     "id": "zweiter-test",
+     "text": "*Ihr faltet Streifen und klebt sie unter die Mitte. Das Buch kommt drauf.* Sie biegt sich – aber sie hält! Noch zehn Minuten. Was sagen wir bei der Vorstellung über den ersten Versuch?",
+     "antworten": [
+      {
+       "text": "Die Wahrheit: Die erste Brücke ist gebrochen, und wir haben gemerkt, dass gefaltetes Papier mehr trägt.",
+       "weiter": "ende-gelernt"
+      },
+      {
+       "text": "Nichts. Wir tun so, als hätte es von Anfang an geklappt.",
+       "weiter": "ende-verschwiegen"
+      }
+     ]
+    },
+    {
+     "id": "ende-gelernt",
+     "text": "Stimmt, das war eigentlich der spannendste Teil! *Bei der Vorstellung erzählt ihr vom Einsturz und von eurer Lösung. Die Lehrperson fragt nach, und mehrere Gruppen notieren sich euren Trick.*",
+     "auswertung": "**Rückschlag genutzt und drangeblieben – sehr gut.** Ihr habt die Bruchstelle untersucht wie Fehler-Detektive (Was genau ist falsch? Warum?), einen anderen Weg ausprobiert und nach einem kleinen Schritt wieder getestet. Und ihr habt den Einsturz offen erzählt: So wird euer Fehler auch für die anderen Gruppen zum Hinweis. Falls du unterwegs zuerst einen Schuldigen gesucht, aufgeben wolltest oder auf mehr Klebeband gesetzt hast: gut, dass du umgesteuert hast – erst durchatmen und hinschauen spart diesen Umweg."
+    },
+    {
+     "id": "ende-verschwiegen",
+     "text": "Puh, geschafft! *Die Brücke hält bei der Vorstellung. Was ihr dabei herausgefunden habt, erfährt niemand.*",
+     "auswertung": "**Drangeblieben – aber den Fehler versteckt.** Am Ende habt ihr nicht aufgegeben, die Bruchstelle untersucht und mit gefalteten Streifen einen anderen Weg gefunden – das ist Ausdauer. Den Einsturz zu verschweigen, verschenkt aber den wertvollsten Teil eurer Arbeit: Er zeigt, warum gefaltetes Papier mehr trägt. Ein Fehler ist kein Urteil über euch, sondern ein Hinweis – auch für die anderen Gruppen. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-aufgegeben",
+     "text": "Na gut. *Ihr zeigt die eingeknickte Brücke. Später seht ihr, dass Gruppe 3 mit gefalteten Streifen gebaut hat – genau das hätte euch gefehlt.*",
+     "auswertung": "**Zu früh aufgegeben.** Ob gleich nach dem Einsturz («Wir können das eben nicht») oder nach dem Klebeband-Versuch («Ich gebe auf»): Hier habt ihr «nie» gedacht statt «noch nicht». Der Rückschlag-Plan hätte in der verbleibenden Zeit gereicht. Was können wir beeinflussen? Die Mitte der Brücke. Was ist der nächste kleine Schritt? Genau anschauen, warum sie dort nachgibt. Gibt es einen anderen Weg? Gefaltetes statt flaches Papier. Falls ihr es mit mehr Klebeband versucht habt: Das war derselbe Weg noch einmal, kein anderer. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-allein",
+     "text": "Bitte, mach doch. *Ben setzt sich weg. Du bastelst allein weiter, aber die Zeit reicht nicht.*",
+     "auswertung": "**Ärger statt Plan.** Die Frage, wer schuld ist, hat der Brücke nicht geholfen – und allein reicht die Zeit nicht. Geholfen hätte **Stopp – atmen – benennen**: kurz innehalten, dir sagen «Ich ärgere mich gerade» und dann entscheiden, was du tust. Danach hättet ihr gemeinsam die Bruchstelle untersuchen können – so wird aus dem Fehler ein Hinweis statt ein Streit. Probier im Rollenspiel einen anderen Weg aus."
+    },
+    {
+     "id": "ende-abkuerzung",
+     "text": "*Gruppe 3 schüttelt den Kopf: Sie stellen ihre Brücke selbst vor. Ihr habt nur eure eingeknickte Brücke zum Vorzeigen – und habt wertvolle Minuten verloren.*",
+     "auswertung": "**Abkürzung statt eigener Lösung.** Fremde Arbeit vorzuzeigen, ist kein Dranbleiben – und Gruppe 3 will ihre Brücke zu Recht selbst zeigen. Dabei wart ihr nah an der eigenen Lösung: Ihr hattet die Bruchstelle gefunden und eine Idee für einen anderen Weg. Die Sorge «Was, wenn es wieder nicht hält?» ist verständlich. Ein kurzer Test hätte es gezeigt – und auch ein zweiter Fehlschlag hätte euch mehr verraten als vorher. Probier im Rollenspiel einen anderen Weg aus."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-bruecke-frage",
+    "type": "single_choice",
+    "prompt": "Ben sagt: «Der ganze Morgen für nichts.» Welches Vorgehen hilft dir in so einem Moment am meisten?",
+    "options": [
+     {
+      "text": "Herausfinden, was schiefging und warum, dann einen kleinen nächsten Schritt planen.",
+      "correct": true
+     },
+     {
+      "text": "Aufhören, weil die Zeit für eine neue Brücke sowieso nicht mehr reicht."
+     },
+     {
+      "text": "Mehr vom Gleichen machen – mehr Klebeband drauf und hoffen, dass es hält."
+     },
+     {
+      "text": "Zuerst klären, wer schuld ist, damit so etwas beim nächsten Mal nicht wieder passiert."
+     }
+    ],
+    "explanation": "Nach einem Rückschlag helfen der **Fehler-Detektiv** und der **Rückschlag-Plan**: herausfinden, was genau schiefgegangen ist und warum, und dann einen nächsten kleinen Schritt wählen. Ein Rückschlag macht die Arbeit nicht wertlos – oft reicht es, die schwache Stelle anders zu lösen. Aufhören macht aus «noch nicht» ein «nie». Mehr vom Gleichen ist kein anderer Weg. Und die Schuldfrage hilft der Brücke nicht – sie kostet nur Zeit und Laune."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-schwierige-momente",
+   "title": "Deine Fehler, deine Notfallkarte",
+   "teilkompetenzen": [
+    "uef.herausforderungen.fehler-nutzen",
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.ausdauer-zeigen"
+   ],
+   "intro": "Bei diesen zwei Aufgaben gibt es keine richtige oder falsche Antwort – es geht um **deine** Erfahrung. Du wählst deine Beispiele selbst, und du musst nichts Privates erzählen, was du nicht erzählen willst. Wenn Cate aktiviert ist, gibt sie dir eine Rückmeldung, wie gut sie deine Gedanken verstanden hat. Es geht um Situationen beim **Lernen** und um Werkzeuge, nicht darum, wie es dir dabei ging.",
+   "tasks": [
+    {
+     "id": "aufgabe-fehler-detektiv",
+     "prompt": "Denk an einen Fehler aus einem Test, einer Hausaufgabe oder einer Übung. Untersuche ihn mit dem **Fehler-Detektiv** und beschreibe in 4–6 Sätzen:\n\n1. Was genau war falsch?\n2. Warum ist es passiert – zum Beispiel ein Flüchtigkeitsfehler, eine Wissenslücke oder ein anderer Grund?\n3. Was machst du nächstes Mal anders? Erkläre, warum das zu deinem Grund passt.",
+     "hint": "Denk an die drei Fragen aus dem Text «Fehler als Hinweise»: Was genau ist falsch? Warum ist es passiert? Was mache ich nächstes Mal anders? Bei einem Flüchtigkeitsfehler hilft eher eine Kontrolle am Schluss, bei einer Wissenslücke eher Nachfragen und Üben. Fach und Aufgabe wählst du frei.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie nennt einen konkreten Fehler, also die genaue Stelle oder den genauen Schritt, nicht «alles» oder «die ganze Aufgabe». (2) Sie nennt einen nachvollziehbaren Grund und ordnet den Fehler wenn möglich einer Fehlerart zu, etwa Flüchtigkeitsfehler (eigentlich gewusst, aber zu schnell oder unkonzentriert) oder Wissenslücke (nicht gewusst, wie es geht); ein anderer, nachvollziehbar begründeter Grund zählt ebenfalls, zum Beispiel Zeitnot oder eine falsch verstandene Aufgabe. (3) Die Maßnahme für das nächste Mal passt zum genannten Grund und wird begründet: bei einem Flüchtigkeitsfehler zum Beispiel eine Kontrolle am Schluss (überschlagen, noch einmal lesen, langsamer arbeiten), bei einer Wissenslücke zum Beispiel nachfragen, sich den Weg erklären lassen oder gezielt üben. Ein mögliches Beispiel (eines von vielen – jede Situation aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «In Englisch habe ich im Test bei den Verben oft das -s vergessen, zum Beispiel ‹he play›. Eigentlich kenne ich die Regel, ich war nur zu schnell – ein Flüchtigkeitsfehler. Nächstes Mal lese ich am Schluss jeden Satz mit ‹he›, ‹she› oder ‹it› noch einmal durch, weil ich die Regel ja kann und nur die Kontrolle gefehlt hat.» Ob der Fehler groß oder klein war, ist nicht entscheidend: Ein ehrlicher, genauer Blick auf den Fehler ist wertvoller als eine geschönte Geschichte. Private Details sind nicht nötig."
+    },
+    {
+     "id": "aufgabe-notfallkarte",
+     "prompt": "Stell dir eine **Notfallkarte** für schwierige Lernmomente zusammen – zum Beispiel, wenn eine Aufgabe einfach nicht klappt oder du vor einem Test sehr nervös bist. Schreibe dazu:\n\n1. eine Situation in der Schule, in der du die Karte brauchen könntest,\n2. drei Schritte, die du dann machst (Werkzeuge aus diesem Modul), und kurz, warum diese Reihenfolge sinnvoll ist,\n3. woran du merkst, dass du weitermachen kannst.",
+     "hint": "Werkzeuge aus dem Modul: Stopp – atmen – benennen, eine Pause mit fester Rückkehrzeit, «noch nicht» statt «nie», der nächste kleine Schritt, einen anderen Weg probieren, nach einem eigenen Versuch gezielt fragen.",
+     "solution": "Kriterien für eine gute Antwort (bewertet werden nur diese drei; Thema und Situation sind frei): (1) Sie beschreibt eine konkrete Schulsituation, in der die Karte gebraucht wird, zum Beispiel eine Aufgabe, die nicht klappt, ein Test, ein Vortrag oder eine Übung, bei der man festhängt. (2) Sie nennt drei Schritte mit Werkzeugen aus dem Modul in einer sinnvollen Reihenfolge und begründet sie, zum Beispiel: zuerst ruhig werden (Stopp – atmen – benennen oder eine Pause mit fester Rückkehrzeit), dann handeln (der nächste kleine Schritt, ein anderer Weg, «noch nicht» statt «nie», nach einem eigenen Versuch gezielt fragen). Jede begründete Reihenfolge zählt. (3) Sie nennt ein beobachtbares Zeichen dafür, dass man weitermachen kann, zum Beispiel «wenn ich wieder ruhig atme», «wenn die fünf Minuten Pause um sind» oder «wenn ich meinen nächsten Schritt aufgeschrieben habe». Ein mögliches Beispiel (eines von vielen – jede Situation aus der Schule ist gleich gut, die Ähnlichkeit zum Beispiel zählt nicht): «Situation: Bei den Mathe-Hausaufgaben komme ich bei einer Aufgabe nicht weiter. Schritt 1: Stopp – ich atme dreimal langsam und sage mir: Ich bin gerade frustriert. Schritt 2: Ich mache fünf Minuten Pause und stelle mir dafür einen Wecker. Schritt 3: Ich versuche einen anderen Weg, zum Beispiel eine Skizze, und wenn das nicht hilft, schreibe ich auf, bis wohin ich komme, und frage morgen gezielt nach. Erst ruhig werden, dann handeln, weil ich mit klarem Kopf bessere Ideen habe. Weitermachen kann ich, wenn der Wecker klingelt und ich meinen nächsten Schritt kenne.» Wie sich die Situation anfühlt, muss niemand beschreiben. Private Details sind nicht nötig."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "Wie weiter?",
+   "body": "Gut gemacht! Du hast Werkzeuge geübt, mit denen du in schwierigen Lernmomenten ruhig bleibst, aus Fehlern lernst und nach einem Rückschlag weitermachst.\n\n- **Probier ein Werkzeug aus** – zum Beispiel deine Notfallkarte aus der letzten Aufgabe beim nächsten Test.\n- **Wiederhole die Einschätzung oben** nach einigen Wochen. Im **Kompetenz-Netzdiagramm** auf der Startseite siehst du dann, ob sich etwas verändert hat.\n- Den Überblick über alle Bereiche der überfachlichen Kompetenzen findest du im Modul [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

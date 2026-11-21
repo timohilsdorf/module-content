@@ -874,6 +874,9 @@
    "type": "simulation",
    "id": "sim-redaktion",
    "title": "Der Simulations-Block: Gespräch mit der Redaktion",
+   "teilkompetenzen": [
+    "informatik.content.modul-erstellen"
+   ],
    "intro": "Simulationen sind **verzweigte Gespräche**: Die Figur spricht, du wählst aus 2–4 Antworten, und je nach Wahl geht es anders weiter. Probier es aus – hier erklärt dir Vera, wie ein Modul zu EveryCate kommt. Vera ist eine simulierte Gesprächspartnerin, keine echte Person.",
    "figur": {
     "name": "Vera (KI-Figur)",

@@ -1,0 +1,557 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-herausforderungen --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:54b22f81ec2047981780eb4cde1e2fb11b146719e89c8a8e567a925ba0cf5ca3",
+  "masterCommit": "6ad26fb",
+  "hintsHash": null,
+  "generatedAt": "2026-11-21",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten.json + speicher",
+  "selfHash": "sha256:f71d8d85fd34fc9e39a721e53f5618fab361248a19ec86363ea6a07cad53e15f"
+ },
+ "schemaVersion": 3,
+ "id": "ueberfachlich-herausforderungen",
+ "title": "How I deal with challenges",
+ "description": "How do you react when a task doesn't work out, you make a mistake or a test goes badly? After a short self-assessment you will get to know tools that help you stay calm in difficult learning moments, learn from mistakes and keep going – you practise them in a quiz, a matching task, a gap-fill text and a role play, and think about your own experiences.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Resilienz",
+     "description": "Wie gehe ich mit Herausforderungen und Gefühlen um?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Selbstreflexion",
+     "description": "Eigene Ressourcen kennen und nutzen."
+    },
+    {
+     "code": "Selbstständigkeit",
+     "description": "Schulalltag und Lernprozesse zunehmend selbstständig bewältigen, Ausdauer entwickeln."
+    }
+   ]
+  }
+ ],
+ "einheit": "Transversal competencies",
+ "sequenz": 4,
+ "language": "en",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Transversal competencies",
+  "Resilience",
+  "Frustration",
+  "Mistakes",
+  "Setbacks",
+  "Perseverance",
+  "Staying calm",
+  "Nervousness",
+  "Self-assessment"
+ ],
+ "learningObjectives": [
+  "I can describe how I calm down in a difficult learning moment with “Stop – breathe – name it”.",
+  "I can explain why a break with a fixed time to come back helps me cope with frustration instead of giving up.",
+  "I can examine a mistake with the three questions of the mistake detective and tell a careless mistake apart from a gap in knowledge.",
+  "After a setback, I can work out what I can influence and plan a next small step.",
+  "I can name ways of sticking with a difficult task: trying a different way, asking for help in a targeted way, thinking “not yet” instead of “never”."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-herausforderungen",
+   "title": "How I deal with challenges",
+   "intro": "Difficult tasks, mistakes and setbacks are part of learning. Here you assess how you deal with them – without putting yourself down: this is about looking honestly.",
+   "teilkompetenzen": [
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.frustration-aushalten",
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.fehler-nutzen",
+    "uef.herausforderungen.ausdauer-zeigen"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-gefuehle",
+   "title": "Notice first, then decide",
+   "body": "Maths test, question 3. You read it twice – and don't understand a thing. Your heart is pounding, your mind goes blank. What you'd really like to do is turn the sheet over and give up.\n\nAnger, nervousness and frustration in difficult moments are **normal**. They show that something matters to you or is hard for you right now. The aim is not to feel nothing. **Regulating** a feeling means: you notice it – and then decide **for yourself** how you act.\n\nThe tool **Stop – breathe – name it** helps with this:\n\n1. **Stop:** Pause for a moment and don't react straight away.\n2. **Breathe:** Breathe in and out slowly two or three times.\n3. **Name it:** Tell yourself in your head what is going on: “I'm frustrated right now.” Once something has a name, it often gets smaller.\n\nThen you decide, for example: I'll switch to a question I can do and come back later.\n\n**Coping with frustration** doesn't mean fighting on without a break. A **break with a fixed time to come back** (“five minutes, then I'll carry on”) is something completely different from giving up. During the break your head clears again, and with a clear head you are more likely to find a solution. The fixed time to come back makes sure that the break doesn't turn into stopping.\n\nIf something weighs heavily on you for a long time, talk to someone you trust or to your teacher.\n\n**The feeling is allowed to be there – but you decide.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-fehler",
+   "title": "Mistakes as clues",
+   "body": "The test comes back, with red marks everywhere. What you'd really like to do is make it disappear at the very bottom of your bag – and never look at it again.\n\nYet every mistake contains valuable information. It shows you exactly **where** you can still learn. A mistake is a **clue**, not a verdict on you.\n\nBecome a **mistake detective** and ask three questions:\n\n1. **What exactly is wrong?** Not “everything”, but the exact spot: which question, which step.\n2. **Why did it happen?**\n3. **What will I do differently next time?**\n\nFor the second question, it helps to know two common kinds of mistake:\n\n- **Careless mistake:** You actually know how to do it, but you were too fast or not concentrating. What helps: checking at the end, for example checking a calculation with a rough estimate or reading every sentence again.\n- **Gap in knowledge:** You didn't know how to do it. What helps: asking, getting someone to explain the method to you and practising again.\n\nIf you only look at the mark, you throw these clues away. Mistakes in practice exercises are especially valuable: they don't count, but they show you exactly the same things as mistakes in a test.\n\n**Every mistake answers a question: What do I learn next?**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-dranbleiben",
+   "title": "Setbacks – and how to keep going",
+   "body": "For two weeks you practised for your keyboard performance in music – and then you play a wrong note right at the start. After that, nothing works any more. “I just can't do this,” you think.\n\nA **setback** often feels bigger than it is. Instead of “I'll never be able to do this”, the sentence **“I can't do this yet”** helps. The little word “yet” keeps the door open.\n\nAfter that, the **setback plan** with three questions helps:\n\n1. **What can I influence?** You can change your preparation, but usually not the task itself.\n2. **What is my next small step?** For example, playing just the beginning of the piece slowly ten times.\n3. **Is there a different way?** If you take the same route a third time, you often end up in the same place again.\n\n**Perseverance** means sticking with something even when it gets difficult – with breaks, not without them.\n\nGetting help is part of it. Try **on your own first, then ask a specific question**: say exactly where you are stuck. “I don't understand anything” doesn't help much. “I get as far as step 2, then I'm stuck” shows where the help can start.\n\n**Not “never”, but “not yet” – and then the next small step.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-was-hilft",
+   "title": "Quiz: What helps now?",
+   "teilkompetenzen": [
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.frustration-aushalten"
+   ],
+   "intro": "Five situations from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "In a French listening exercise, you miss the very first sentence. Now you don't understand anything any more, and you notice yourself getting flustered. What helps you most?",
+     "options": [
+      {
+       "text": "Give up and take your headphones off – there's no point any more anyway."
+      },
+      {
+       "text": "Try desperately to replay the missed sentence in your head."
+      },
+      {
+       "text": "Pause for a moment, breathe calmly and pick up again at the next question.",
+       "correct": true
+      },
+      {
+       "text": "Quickly tick any answer for all the questions so that it's finally over."
+      }
+     ],
+     "explanation": "What helps most: **pausing for a moment, breathing calmly and picking up again at the next question**. That is **Stop – breathe** followed by a conscious decision: you can't get the missed sentence back, but you can still answer the next questions. If you give up, you let the feeling decide. If you keep dwelling on the missed sentence, you miss the next one too. And ticking answers at random rarely earns points."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "For the third time, the video you made for English hasn't saved. You are really angry. What is the best next step?",
+     "options": [
+      {
+       "text": "Take a five-minute break and then calmly work out what the problem is.",
+       "correct": true
+      },
+      {
+       "text": "Bang the tablet down on the table to let your anger out."
+      },
+      {
+       "text": "Record it a fourth time straight away, even though you're still really angry."
+      },
+      {
+       "text": "Drop the task completely and just say that the tablet is broken."
+      }
+     ],
+     "explanation": "The best step is: **taking a five-minute break and then calmly working out what the problem is**. That is a **break with a fixed time to come back**: first you calm down, then you solve the problem – with a clear head you are more likely to find out why saving doesn't work. Banging the tablet down lets the anger decide. Recording a fourth time while still just as angry is taking the same route again – probably with the same result. An excuse only puts the problem off."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "On sports day, your class loses the relay race by a whisker. You feel the anger rising and want to shout something loud at the other class. What helps?",
+     "options": [
+      {
+       "text": "Shout out what you're thinking straight away – anger just has to come out."
+      },
+      {
+       "text": "Act as if you don't care at all and swallow the anger."
+      },
+      {
+       "text": "Take your anger out on your teammates, who were too slow at the handover."
+      },
+      {
+       "text": "Stop, take a deep breath, tell yourself “I'm angry right now” – then decide.",
+       "correct": true
+      }
+     ],
+     "explanation": "What helps most: **stopping, taking a deep breath, telling yourself “I'm angry right now” – and then deciding**. That is **Stop – breathe – name it**: the anger is allowed to be there, but **you** decide what you do. If you shout straight away, you let the anger decide and might say something you regret afterwards. Swallowing it doesn't help either: then the feeling is just hidden. And if you take the anger out on your own teammates, you hit the wrong people."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "In woodwork, you have been sawing at the same curve for twenty minutes, and every time it comes out crooked. What helps?",
+     "options": [
+      {
+       "text": "Stop and leave it – you're just not any good at woodwork."
+      },
+      {
+       "text": "Take a five-minute break, then practise the curve slowly on a spare piece.",
+       "correct": true
+      },
+      {
+       "text": "Keep sawing without a break until it works, however long it takes."
+      },
+      {
+       "text": "Simply leave out the curve and hand in your piece with square corners."
+      }
+     ],
+     "explanation": "What helps most: **a five-minute break, then practising the curve slowly on a spare piece**. The **break with a fixed time to come back** helps you cope with the frustration without giving up. Practising on a spare piece is a different way from just sawing on and on. “I'm just not any good at it” is a “never” instead of a “not yet”. Sawing on without a break often only makes you more tired and frustrated. And if you leave out the curve, you avoid it – that way you can't learn it."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "You're about to give your presentation to the class. You are very nervous. What is most likely to help?",
+     "options": [
+      {
+       "text": "Keep telling yourself firmly that you mustn't be nervous under any circumstances."
+      },
+      {
+       "text": "Call off the presentation at short notice and move it to another day."
+      },
+      {
+       "text": "Accept nervousness as normal, breathe calmly, say the first sentence quietly.",
+       "correct": true
+      },
+      {
+       "text": "Speak as fast as possible so that it's all over really soon."
+      }
+     ],
+     "explanation": "Most likely to help: **accepting the nervousness as normal, breathing calmly and saying the first sentence quietly**. Nervousness shows that the presentation matters to you – you don't have to make it go away. Breathing calmly helps many people to become a little calmer, and the first sentence gives you a fixed starting point. Forbidding yourself to be nervous often only makes you more tense. Calling it off only puts the problem off. And if you speak too fast, people understand you less well – and you often get even more nervous."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-nach-dem-rueckschlag",
+   "title": "After the setback",
+   "teilkompetenzen": [
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.ausdauer-zeigen",
+    "uef.herausforderungen.frustration-aushalten"
+   ],
+   "intro": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "“The test went badly – I'm just too stupid for French.”"
+     },
+     "rechts": {
+      "text": "Think “not yet” instead of “never”: I can't do it yet, but I can learn it"
+     }
+    },
+    {
+     "links": {
+      "text": "“I've got no idea why it didn't work.”"
+     },
+     "rechts": {
+      "text": "Use the mistake detective to check: What exactly was wrong, and why?"
+     }
+    },
+    {
+     "links": {
+      "text": "“So much went wrong – I don't know where to start.”"
+     },
+     "rechts": {
+      "text": "Ask what I can influence and choose a next small step"
+     }
+    },
+    {
+     "links": {
+      "text": "“After a quarter of an hour of practising, I just want to throw it all in.”"
+     },
+     "rechts": {
+      "text": "Take a short break with a fixed time to come back instead of stopping"
+     }
+    },
+    {
+     "links": {
+      "text": "“When something doesn't work, I get so angry that I say things I regret afterwards.”"
+     },
+     "rechts": {
+      "text": "Stop first and tell myself “I'm angry” – then decide what I say"
+     }
+    },
+    {
+     "links": {
+      "text": "“I tried it exactly the same way twice, and it went wrong twice.”"
+     },
+     "rechts": {
+      "text": "Try out a different way instead of the same one again"
+     }
+    },
+    {
+     "links": {
+      "text": "“I'm stuck on the task and just wait until the teacher happens to come round.”"
+     },
+     "rechts": {
+      "text": "After trying it myself, ask in a targeted way and say exactly where I'm stuck"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-fehler-detektiv",
+   "title": "The mistake detective",
+   "teilkompetenzen": [
+    "uef.herausforderungen.fehler-nutzen"
+   ],
+   "intro": "Matteo gets his maths test back and examines his mistakes. Fill in the right words. Two of the words to choose from don't fit anywhere.",
+   "modus": "wortbank",
+   "text": "Matteo gets his maths test back. Instead of putting it away, he turns into a mistake detective. First he asks: What exactly is {{1}}? In question 4 the decimal point is one place too far to the left.\nThen he asks: {{2}} did it happen? He realises that he calculated too fast, even though he actually knows how to do it – so he files the mistake under {{3}}. In question 6, on the other hand, he didn't know how to go about it: he files this mistake under {{4}}.\nFinally he asks: What will I do differently {{5}}? He wants to check every calculation with a rough estimate at the end, and he asks for question 6 to be explained to him again.",
+   "luecken": [
+    {
+     "antworten": [
+      "wrong"
+     ]
+    },
+    {
+     "antworten": [
+      "Why"
+     ]
+    },
+    {
+     "antworten": [
+      "careless mistake",
+      "careless mistakes",
+      "careless error",
+      "slip"
+     ]
+    },
+    {
+     "antworten": [
+      "gap in knowledge",
+      "gaps in knowledge",
+      "knowledge gap",
+      "gap in his knowledge"
+     ]
+    },
+    {
+     "antworten": [
+      "next time"
+     ]
+    }
+   ],
+   "ablenker": [
+    "punishment",
+    "bad luck"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-bruecke",
+   "title": "Role play: The bridge won't hold",
+   "teilkompetenzen": [
+    "uef.herausforderungen.rueckschlaege-meistern",
+    "uef.herausforderungen.ausdauer-zeigen",
+    "uef.herausforderungen.fehler-nutzen"
+   ],
+   "intro": "Project week, Friday, 1.20 pm. You and Ben have spent the whole morning building a bridge out of newspaper and sticky tape. It is supposed to carry a book between two tables. At the first test, it buckles in the middle. At 2 pm all the groups present their bridges. At each step, choose how you react – different paths lead to different endings. Ben is a simulated conversation character, not a real person.",
+   "figur": {
+    "name": "Ben (AI character)",
+    "rolle": "Your teammate in project week, who would rather give up after the collapse",
+    "rollenPrompt": "You are Ben, 14 years old, and you are in the same class as the person you are talking to. It is Friday of project week, 1.20 pm. You have spent the whole morning together building a bridge out of newspaper and sticky tape that is supposed to carry a book between two tables. In the test it buckled in the middle; at 2 pm all the groups present their bridges. You are frustrated and a bit hurt, and at first you suggest giving up or just showing the broken bridge, for example with “The whole morning for nothing” or “We'll never manage to build a new one”. If the person blames you, you react by blaming them back. If they stay calm and make suggestions, you become more motivated again step by step. You have seen that group 3 is building with folded paper strips, and you can mention that. You don't show off expert knowledge about structural engineering. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. You don't give advice on dealing with feelings, mistakes or setbacks and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to the bridge in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "No! The whole morning for nothing. I can't be bothered any more. We'll just say it broke, end of story.",
+     "antworten": [
+      {
+       "text": "Let's take a deep breath first. Then we'll look at where exactly it broke.",
+       "weiter": "durchatmen"
+      },
+      {
+       "text": "This is your fault, you taped the middle!",
+       "weiter": "vorwurf"
+      },
+      {
+       "text": "Yeah, forget it. We'll just show the broken bridge.",
+       "weiter": "aufgeben"
+      }
+     ]
+    },
+    {
+     "id": "vorwurf",
+     "text": "So now it's my fault? You were the one who said the middle was fine like that!",
+     "antworten": [
+      {
+       "text": "True, we decided that together. Sorry. Let's look at what exactly happened instead.",
+       "weiter": "durchatmen"
+      },
+      {
+       "text": "Whatever, then I'll do it on my own.",
+       "weiter": "ende-allein"
+      }
+     ]
+    },
+    {
+     "id": "aufgeben",
+     "text": "Hmm … *Ben looks over at the other tables.* The others all have something to show. But we'll never manage to build a new one.",
+     "antworten": [
+      {
+       "text": "We've still got 40 minutes. Where exactly did it break, then?",
+       "weiter": "durchatmen"
+      },
+      {
+       "text": "That's just how it is. We just can't do it.",
+       "weiter": "ende-aufgegeben"
+      }
+     ]
+    },
+    {
+     "id": "durchatmen",
+     "text": "Okay … It buckled right in the middle, where the book goes. We can't build the whole thing again now.",
+     "antworten": [
+      {
+       "text": "We don't need to. The flat paper simply bends under the book. What if we only strengthen the middle – with folded strips, for example?",
+       "weiter": "plan"
+      },
+      {
+       "text": "Then we'll just stick loads of tape on it and hope.",
+       "weiter": "klebeband"
+      }
+     ]
+    },
+    {
+     "id": "klebeband",
+     "text": "*You wrap five layers of sticky tape around the middle and put the book on it.* It holds for a moment – and buckles again. See? It's no use!",
+     "antworten": [
+      {
+       "text": "Then let's look more closely: the paper is too flat. Folded, it might be more stable.",
+       "weiter": "plan"
+      },
+      {
+       "text": "I give up.",
+       "weiter": "ende-aufgegeben"
+      }
+     ]
+    },
+    {
+     "id": "plan",
+     "text": "Folded, like a fan? Group 3 is doing it like that. Okay … but what if it doesn't hold again?",
+     "antworten": [
+      {
+       "text": "Then at least we'll know more than before. We'll build for 15 minutes and then test it.",
+       "weiter": "zweiter-test"
+      },
+      {
+       "text": "Come on, let's ask group 3 if we can just present with their bridge.",
+       "weiter": "ende-abkuerzung"
+      }
+     ]
+    },
+    {
+     "id": "zweiter-test",
+     "text": "*You fold strips and tape them under the middle. The book goes on top.* It bends – but it holds! Ten minutes to go. What do we say about the first attempt in the presentation?",
+     "antworten": [
+      {
+       "text": "The truth: the first bridge broke, and we found out that folded paper carries more.",
+       "weiter": "ende-gelernt"
+      },
+      {
+       "text": "Nothing. We'll pretend it worked from the start.",
+       "weiter": "ende-verschwiegen"
+      }
+     ]
+    },
+    {
+     "id": "ende-gelernt",
+     "text": "True, that was actually the most interesting part! *In the presentation you talk about the collapse and your solution. The teacher asks questions, and several groups make a note of your trick.*",
+     "auswertung": "**Used the setback and kept going – very good.** You examined the break like mistake detectives (What exactly is wrong? Why?), tried a different way and tested again after a small step. And you talked openly about the collapse: that way your mistake becomes a clue for the other groups too. If along the way you first looked for someone to blame, wanted to give up or relied on more sticky tape: good that you changed course – taking a deep breath and looking closely first saves you that detour."
+    },
+    {
+     "id": "ende-verschwiegen",
+     "text": "Phew, done it! *The bridge holds during the presentation. Nobody finds out what you discovered along the way.*",
+     "auswertung": "**Kept going – but hid the mistake.** In the end you didn't give up, you examined the break and found a different way with folded strips – that is perseverance. But keeping quiet about the collapse throws away the most valuable part of your work: it shows why folded paper carries more. A mistake is not a verdict on you but a clue – for the other groups too. Try out a different path in the role play."
+    },
+    {
+     "id": "ende-aufgegeben",
+     "text": "Fine. *You show the buckled bridge. Later you see that group 3 built with folded strips – exactly what you were missing.*",
+     "auswertung": "**Gave up too early.** Whether right after the collapse (“We just can't do it”) or after the sticky tape attempt (“I give up”): here you thought “never” instead of “not yet”. The setback plan would have worked in the time that was left. What can we influence? The middle of the bridge. What is the next small step? Looking closely at why it gives way there. Is there a different way? Folded instead of flat paper. If you tried it with more sticky tape: that was the same way again, not a different one. Try out a different path in the role play."
+    },
+    {
+     "id": "ende-allein",
+     "text": "Go on then, do it. *Ben moves away and sits down. You carry on building on your own, but there isn't enough time.*",
+     "auswertung": "**Anger instead of a plan.** The question of whose fault it was didn't help the bridge – and on your own there isn't enough time. What would have helped is **Stop – breathe – name it**: pausing for a moment, telling yourself “I'm angry right now” and then deciding what you do. After that you could have examined the break together – that way the mistake becomes a clue instead of an argument. Try out a different path in the role play."
+    },
+    {
+     "id": "ende-abkuerzung",
+     "text": "*Group 3 shakes their heads: they are presenting their bridge themselves. All you have to show is your buckled bridge – and you have lost valuable minutes.*",
+     "auswertung": "**A shortcut instead of your own solution.** Showing someone else's work is not sticking with it – and group 3 rightly wants to show their bridge themselves. And you were so close to your own solution: you had found the break and had an idea for a different way. The worry “What if it doesn't hold again?” is understandable. A quick test would have shown it – and even a second failure would have told you more than before. Try out a different path in the role play."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-bruecke-frage",
+    "type": "single_choice",
+    "prompt": "Ben says: “The whole morning for nothing.” Which approach helps you most at a moment like this?",
+    "options": [
+     {
+      "text": "Work out what went wrong and why, then plan a small next step.",
+      "correct": true
+     },
+     {
+      "text": "Stop, because there isn't enough time for a new bridge anyway."
+     },
+     {
+      "text": "Do more of the same – put more tape on and hope that it holds."
+     },
+     {
+      "text": "First sort out whose fault it was, so that it doesn't happen again next time."
+     }
+    ],
+    "explanation": "After a setback, the **mistake detective** and the **setback plan** help: working out what exactly went wrong and why, and then choosing a next small step. A setback doesn't make the work worthless – often it is enough to solve the weak spot differently. Stopping turns “not yet” into “never”. More of the same is not a different way. And the question of blame doesn't help the bridge – it only costs time and puts everyone in a bad mood."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-schwierige-momente",
+   "title": "Your mistakes, your emergency card",
+   "teilkompetenzen": [
+    "uef.herausforderungen.fehler-nutzen",
+    "uef.herausforderungen.gefuehle-regulieren",
+    "uef.herausforderungen.ausdauer-zeigen"
+   ],
+   "intro": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts. It's about situations when you are **learning** and about tools, not about how you felt at the time.",
+   "tasks": [
+    {
+     "id": "aufgabe-fehler-detektiv",
+     "prompt": "Think of a mistake from a test, a piece of homework or a practice exercise. Examine it with the **mistake detective** and describe in 4–6 sentences:\n\n1. What exactly was wrong?\n2. Why did it happen – for example a careless mistake, a gap in knowledge or another reason?\n3. What will you do differently next time? Explain why this fits your reason.",
+     "hint": "Think of the three questions from the text “Mistakes as clues”: What exactly is wrong? Why did it happen? What will I do differently next time? With a careless mistake, checking at the end is more likely to help; with a gap in knowledge, asking and practising are more likely to help. You are free to choose the subject and the task.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names a specific mistake, that is the exact spot or the exact step, not “everything” or “the whole task”. (2) It gives an understandable reason and, where possible, assigns the mistake to a kind of mistake, such as careless mistake (actually known, but too fast or not concentrating) or gap in knowledge (didn't know how to do it); another reason that is explained understandably counts too, for example running out of time or misunderstanding the task. (3) The measure for next time fits the reason given and is explained: with a careless mistake, for example, checking at the end (doing a rough estimate, reading it again, working more slowly); with a gap in knowledge, for example, asking, getting someone to explain the method or practising in a targeted way. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “In English, in the test I often forgot the -s on verbs, for example ‘he play’. I actually know the rule, I was just too fast – a careless mistake. Next time I'll read every sentence with ‘he’, ‘she’ or ‘it’ through again at the end, because I do know the rule and only the check was missing.” Whether the mistake was big or small doesn't matter: an honest, precise look at the mistake is more valuable than a glossed-over story. Private details are not necessary."
+    },
+    {
+     "id": "aufgabe-notfallkarte",
+     "prompt": "Put together an **emergency card** for difficult learning moments – for example when a task just won't work out or you are very nervous before a test. For it, write:\n\n1. a situation at school in which you might need the card,\n2. three steps that you then take (tools from this module), and briefly why this order makes sense,\n3. how you can tell that you can carry on.",
+     "hint": "Tools from the module: Stop – breathe – name it, a break with a fixed time to come back, “not yet” instead of “never”, the next small step, trying a different way, asking in a targeted way after trying it yourself.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It describes a specific school situation in which the card is needed, for example a task that won't work out, a test, a presentation or an exercise you are stuck on. (2) It names three steps with tools from the module in a sensible order and explains them, for example: first calm down (Stop – breathe – name it or a break with a fixed time to come back), then act (the next small step, a different way, “not yet” instead of “never”, asking in a targeted way after trying it yourself). Any order that is explained counts. (3) It names an observable sign that you can carry on, for example “when I'm breathing calmly again”, “when the five-minute break is over” or “when I've written down my next step”. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “Situation: I can't get any further with one exercise in my maths homework. Step 1: Stop – I breathe slowly three times and tell myself: I'm frustrated right now. Step 2: I take a five-minute break and set an alarm for it. Step 3: I try a different way, for example a sketch, and if that doesn't help, I write down how far I get and ask about it in a targeted way tomorrow. First calm down, then act, because I have better ideas with a clear head. I can carry on when the alarm goes off and I know my next step.” Nobody has to describe how the situation feels. Private details are not necessary."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "What next?",
+   "body": "Well done! You have practised tools that help you stay calm in difficult learning moments, learn from mistakes and carry on after a setback.\n\n- **Try out a tool** – for example your emergency card from the last task at your next test.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}

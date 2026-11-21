@@ -1,0 +1,594 @@
+{
+ "_hinweis": "AUTOMATISCH ERZEUGT aus module.json (Deutsch). Nicht von Hand bearbeiten. Aenderungen am Master vornehmen und neu erzeugen: npm run uebersetze -- --modul ueberfachlich-zusammenarbeit --sprache en",
+ "derivedFrom": {
+  "language": "de",
+  "masterHash": "sha256:c46ffc4ac79f5be8db768d61935cc4e1e3397a39709c806f400bd23a08b07c3b",
+  "masterCommit": "6ad26fb",
+  "hintsHash": null,
+  "generatedAt": "2026-11-21",
+  "generator": "uebersetze.ts v1",
+  "model": "datei:antworten.json + speicher",
+  "selfHash": "sha256:f47879bdf9e91bb223e288c2236e3b45d481f97d7566c83c95373b2e7b3445f2"
+ },
+ "schemaVersion": 3,
+ "id": "ueberfachlich-zusammenarbeit",
+ "title": "How I work with others",
+ "description": "How do you listen, how do you contribute in a group, and how do you deal with arguments and with differences? After a short self-assessment you will get to know tools for working well together – from active listening and clear team agreements to resolving conflicts fairly. You practise them in a quiz, a matching task, a gap-fill text and a role play, and think about your own group work.",
+ "curricula": [
+  {
+   "curriculum": "li",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Miteinander",
+     "description": "Wie verhalte ich mich in der Gemeinschaft?"
+    }
+   ]
+  },
+  {
+   "curriculum": "ch",
+   "subject": "UEF",
+   "subjectName": "Transversal competencies",
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "competencies": [
+    {
+     "code": "Dialog- und Kooperationsfähigkeit",
+     "description": "Sich mit Menschen austauschen, zusammenarbeiten."
+    },
+    {
+     "code": "Konfliktfähigkeit",
+     "description": "Konflikte benennen, Lösungsvorschläge suchen, Konflikte lösen."
+    },
+    {
+     "code": "Umgang mit Vielfalt",
+     "description": "Vielfalt als Bereicherung erfahren, Gleichberechtigung mittragen."
+    },
+    {
+     "code": "Sprachfähigkeit",
+     "description": "Ein breites Repertoire sprachlicher Ausdrucksformen entwickeln."
+    }
+   ]
+  }
+ ],
+ "einheit": "Transversal competencies",
+ "sequenz": 6,
+ "language": "en",
+ "durationMinutes": 40,
+ "difficulty": "leicht",
+ "keywords": [
+  "Transversal competencies",
+  "Getting along",
+  "Cooperation",
+  "Group work",
+  "Listening",
+  "I-message",
+  "Conflicts",
+  "Rules",
+  "Diversity",
+  "Self-assessment"
+ ],
+ "learningObjectives": [
+  "I can listen actively: let others finish, ask questions and repeat what they said in my own words.",
+  "I can express myself so that others understand me: briefly, specifically and with an example.",
+  "I can agree on roles, tasks and rules with my group and do my part.",
+  "I can raise a conflict with an I-message and look for a solution in four steps.",
+  "I can explain how a group makes use of everyone's different strengths and leaves nobody out."
+ ],
+ "sources": [
+  {
+   "title": "LiLe – Liechtensteiner Lehrplan",
+   "url": "https://www.lile.li"
+  },
+  {
+   "title": "Lehrplan 21 – Überfachliche Kompetenzen",
+   "url": "https://www.lehrplan21.ch"
+  }
+ ],
+ "license": "CC BY-SA 4.0",
+ "authors": [
+  "EveryCate-Kernteam"
+ ],
+ "blocks": [
+  {
+   "type": "einschaetzung",
+   "id": "selbst-zusammenarbeit",
+   "title": "How I work with others",
+   "intro": "Learning rarely happens alone. Here you assess how you behave in a group: listening, contributing, keeping to rules, addressing conflicts and respecting everyone.",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.verstaendlich-kommunizieren",
+    "uef.zusammenarbeit.regeln-einhalten",
+    "uef.zusammenarbeit.konflikte-loesen",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ]
+  },
+  {
+   "type": "text",
+   "id": "theorie-zuhoeren",
+   "title": "Listening and speaking clearly",
+   "body": "Group work in geography: Amira is explaining her idea for the poster. Tim nods – but he is already thinking about what he wants to say next. In the end he has only taken in half of it.\n\nWorking well together starts with **active listening**. It works in three steps:\n\n1. **Let the other person finish:** You don't interrupt, and you only think about your answer afterwards. If something important occurs to you, you jot it down quickly.\n2. **Ask questions:** If something is unclear, you ask: “What exactly do you mean?”\n3. **Repeat it in your own words:** “So you mean we start with the map?” That way you both notice straight away whether you have understood correctly.\n\nA second tool is the **change-of-perspective question**: “What does the situation look like from the other person's point of view?” If someone is quiet or irritable, there is often a reason you can't see. So don't take it personally straight away – ask in a friendly way instead.\n\nAnd when you are the one speaking? Then **speaking clearly** helps: briefly, specifically and with an example. Instead of “We'll do it somehow with pictures”, you say: “I suggest three photos, one for each section.” At the end you ask: “Is that clear?”\n\nIn short: **First understand, then be understood.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-team",
+   "title": "Together instead of side by side",
+   "body": "Four people, one poster – and the day before the deadline it turns out that two of them have done the same thing and one part is missing completely. That happens when a group works side by side instead of together.\n\nWhat helps is a **team agreement** right at the start:\n\n- **Hand out roles:** for example timekeeper, note-taker or person in charge of materials.\n- **Write down the tasks:** **who – what – by when**. That way everyone knows what to do.\n- **Agree on rules:** for example “Anyone who gets stuck says so the day before at the latest” or “Nobody gets laughed at”.\n\n**Doing your part** also means **speaking up** in good time when you get stuck. Keeping quiet harms the group more than asking a question. Rules apply to everyone. If a rule no longer works, you change it **together** instead of quietly breaking it.\n\nA good group also **includes everyone**. Every group has different strengths: drawing, maths, languages, ideas, keeping things organised. Share out the tasks so that everyone can take part – including people who would rather draw than write, people who are new to the class and people who don't speak German well yet.\n\nSo: **A clear agreement is half the work – and everyone belongs.**"
+  },
+  {
+   "type": "text",
+   "id": "theorie-konflikte",
+   "title": "Resolving conflicts fairly",
+   "body": "In the group chat Zoe writes: “Typical, Luca's doing nothing again!” Luca stops replying. A problem has turned into an argument.\n\nConflicts are a normal part of working together. Things get difficult when people **keep quiet** about them or fight them out with **accusations**. If you wait for an argument to blow over by itself, it usually gets bigger. The tool **conflict in four steps** works better:\n\n1. **Raise it with an I-message:** Say what bothers you and what you would like. “I'm worried because your part is missing and the deadline is the day after tomorrow. I'd like us to find a solution.” An accusation starting with “you”, such as “You're so unreliable!”, shuts the conversation down instead.\n2. **Listen:** Ask how the other person sees it – maybe there is a reason you don't know about.\n3. **Collect solutions:** several options, not just your own.\n4. **Agree:** Choose a solution everyone can live with, and write down: who – what – by when.\n\nTreating each other fairly includes **respect**: you talk about **behaviour**, never about a person's background, appearance, language or accent. If someone makes a hurtful joke, you are allowed to say so: “I don't think that's funny.”\n\nThe most important thing: **Say what bothers you – and look for the solution together.**"
+  },
+  {
+   "type": "quiz",
+   "id": "quiz-fair-im-team",
+   "title": "Quiz: Playing fair in a team",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.regeln-einhalten",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ],
+   "intro": "Five situations from everyday school life. Each time, choose the answer that best fits the tools above. You can repeat the quiz as often as you like – your best result counts.",
+   "questions": [
+    {
+     "id": "q1",
+     "type": "single_choice",
+     "prompt": "Your group has agreed that everyone sends their part by Thursday evening. On Wednesday you realise you won't manage it. What do you do?",
+     "options": [
+      {
+       "text": "Say nothing and hope that nobody notices before Thursday."
+      },
+      {
+       "text": "Let the group know straight away and say when you will have it done.",
+       "correct": true
+      },
+      {
+       "text": "Just send your part on Friday – one day later doesn't really matter."
+      },
+      {
+       "text": "Change the agreement just for yourself – after all, you know why."
+      }
+     ],
+     "explanation": "**Speak up instead of keeping quiet:** if you let the group know early and give a new date, you are taking the agreement seriously – even if you can't keep it. Then the group can react. Hoping that nobody notices only pushes the problem back to Thursday evening. “One day later doesn't matter” isn't true, because the others are counting on your part. And an agreement applies to everyone – only the group together can change it."
+    },
+    {
+     "id": "q2",
+     "type": "single_choice",
+     "prompt": "A new classmate has only recently started learning German. When the groups are being put together, someone says: “It'll never work with her.” What is fair?",
+     "options": [
+      {
+       "text": "Say nothing – after all, who ends up in which group isn't your problem."
+      },
+      {
+       "text": "Put her in a separate group with the other new pupils in the class."
+      },
+      {
+       "text": "Let her join the group, but don't give her a proper task to do."
+      },
+      {
+       "text": "Invite her to join and find a task where she can use her strengths.",
+       "correct": true
+      }
+     ],
+     "explanation": "**Including everyone** means: each person gets a task where they can take part and show their strengths – for example drawing, maths or collecting ideas. If you say nothing, the hurtful remark goes unchallenged – and nobody invites her. A separate group for “the new ones” divides the class instead of bringing it together. And someone who is in the group but isn't allowed to do anything real is only part of the group in name."
+    },
+    {
+     "id": "q3",
+     "type": "single_choice",
+     "prompt": "Your class has a rule: whoever is speaking doesn't get interrupted. You have a good idea while someone else is still talking. What do you do?",
+     "options": [
+      {
+       "text": "Jot the idea down quickly and wait until it's your turn.",
+       "correct": true
+      },
+      {
+       "text": "Call it out straight away – otherwise you'll forget the good idea."
+      },
+      {
+       "text": "Keep the idea to yourself so that you don't disturb anyone."
+      },
+      {
+       "text": "Whisper to the person that they should hurry up and finish."
+      }
+     ],
+     "explanation": "**Jotting it down and waiting** combines both: you **keep to the rule** and still don't lose your idea. Calling out breaks the agreement, and the other person can't finish. Keeping the idea entirely to yourself is a shame – the group needs good ideas. And urging someone to hurry up is also interrupting, just more quietly."
+    },
+    {
+     "id": "q4",
+     "type": "single_choice",
+     "prompt": "In your group, someone makes a joke about a classmate's accent. Some people laugh. What is the best response?",
+     "options": [
+      {
+       "text": "Laugh along so that you don't stand out – the others are laughing too."
+      },
+      {
+       "text": "Shout at the person loudly and show them up in front of the whole group."
+      },
+      {
+       "text": "Say calmly that you don't think it's funny, and carry on with the topic.",
+       "correct": true
+      },
+      {
+       "text": "Do nothing – it was only a joke, and he might not even have heard it."
+      }
+     ],
+     "explanation": "**Respect** means: you don't make fun of a person's background, language or accent. If you **calmly say** that you don't think the joke is funny, you make that clear without showing anyone up – and the group can carry on working. Laughing along makes you part of the joke. Shouting turns the problem into a new argument. And for the person it's about, it often isn't “only a joke”, even if he says nothing. If something like this doesn't stop or really hurts someone, it is right to involve a teacher."
+    },
+    {
+     "id": "q5",
+     "type": "single_choice",
+     "prompt": "Your group has agreed not to use phones while working. One group member never sticks to it. What is the best way forward?",
+     "options": [
+      {
+       "text": "Start using your phone too – the rule obviously doesn't apply any more."
+      },
+      {
+       "text": "Tell the teacher secretly and wait to see what happens."
+      },
+      {
+       "text": "Say nothing, but get quietly annoyed with the person every time."
+      },
+      {
+       "text": "Bring up the agreement in a friendly way and decide together if it still works.",
+       "correct": true
+      }
+     ],
+     "explanation": "Rules apply to everyone – if one no longer works, it is **changed together**, not quietly broken. That's why it helps to **bring up the agreement in a friendly way** and decide together whether it stays. If you reach for your phone too, you get rid of the rule completely. Secretly bringing in the teacher before you have tried to sort it out in the group doesn't solve the problem. And quiet annoyance grows without anything changing."
+    }
+   ]
+  },
+  {
+   "type": "zuordnung",
+   "id": "zu-gespraechsfallen",
+   "title": "Conversation traps and better ways",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.verstaendlich-kommunizieren",
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.konflikte-loesen"
+   ],
+   "intro": "On the left are typical stumbling blocks, on the right tools from the texts above. Match each stumbling block with the tool that helps most. Tap one item on the left and one on the right.",
+   "paare": [
+    {
+     "links": {
+      "text": "“When something bothers me, I say straight away: ‘You always do everything wrong!’”"
+     },
+     "rechts": {
+      "text": "An I-message instead of an accusation: saying what bothers me and what I would like"
+     }
+    },
+    {
+     "links": {
+      "text": "“While the others are talking, I'm already thinking about what I want to say.”"
+     },
+     "rechts": {
+      "text": "Letting others finish and only then thinking about my answer"
+     }
+    },
+    {
+     "links": {
+      "text": "“I explain my idea – and everyone looks at me, confused.”"
+     },
+     "rechts": {
+      "text": "Speaking briefly and specifically and giving an example"
+     }
+    },
+    {
+     "links": {
+      "text": "“I'm not sure whether I've understood correctly what Zoe means.”"
+     },
+     "rechts": {
+      "text": "Repeating it in my own words: “So you mean …?”"
+     }
+    },
+    {
+     "links": {
+      "text": "“My team partner is quiet and irritable today – I immediately think it's about me.”"
+     },
+     "rechts": {
+      "text": "Asking myself how it looks from his point of view instead of taking it personally"
+     }
+    },
+    {
+     "links": {
+      "text": "“In an argument, I really want my solution to win.”"
+     },
+     "rechts": {
+      "text": "First collecting several solutions and choosing one everyone can live with"
+     }
+    },
+    {
+     "links": {
+      "text": "“When there's an argument in the group, I keep quiet and wait until it's over.”"
+     },
+     "rechts": {
+      "text": "Bringing up the conflict instead of waiting for it to blow over by itself"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lueckentext",
+   "id": "lt-team-abmachung",
+   "title": "The team agreement",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.regeln-einhalten"
+   ],
+   "intro": "Sara, Jakob, Amira and Tim are preparing a presentation. Fill in the right words. Two of the words to choose from don't fit anywhere.",
+   "modus": "wortbank",
+   "text": "Sara, Jakob, Amira and Tim are preparing a presentation on renewable energy. First they hand out {{1}}: Amira is the timekeeper, and Jakob writes everything down. Then they divide up the work and note down for each task: who, what and {{2}}.\nThey also agree on two {{3}}: anyone who gets stuck says so the day before at the latest, and nobody in the group gets laughed at.\nWhen Tim realises that he won't finish his chart in time, he {{4}} the others straight away. In the end everyone has done their {{5}}, and the presentation fits together.",
+   "luecken": [
+    {
+     "antworten": [
+      "roles",
+      "jobs",
+      "the roles"
+     ]
+    },
+    {
+     "antworten": [
+      "by when",
+      "when",
+      "until when",
+      "by what date",
+      "by what time"
+     ]
+    },
+    {
+     "antworten": [
+      "rules",
+      "ground rules"
+     ]
+    },
+    {
+     "antworten": [
+      "tells",
+      "informs",
+      "warns",
+      "contacts",
+      "messages",
+      "texts"
+     ]
+    },
+    {
+     "antworten": [
+      "part",
+      "share",
+      "bit"
+     ]
+    }
+   ],
+   "ablenker": [
+    "breaks",
+    "waits"
+   ]
+  },
+  {
+   "type": "simulation",
+   "id": "sim-fehlender-teil",
+   "title": "Role play: The missing part",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.konflikte-loesen",
+    "uef.zusammenarbeit.empathie-zeigen",
+    "uef.zusammenarbeit.verstaendlich-kommunizieren"
+   ],
+   "intro": "Monday, morning break. On Wednesday you have to hand in your group poster on water consumption. You, Zoe and Luca have divided up the work; Luca was supposed to make the chart – and it's still missing. Yesterday Zoe wrote in the group chat: “Typical, Luca's doing nothing again!” Now you bump into Luca in the corridor. At each step, choose how you react – different paths lead to different endings. Luca is a simulated conversation character, not a real person.",
+   "figur": {
+    "name": "Luca (AI character)",
+    "rolle": "Your group member, whose part of the poster is still missing",
+    "rollenPrompt": "You are Luca, 14 years old, and you are in the same class as the person you are talking to. The two of you and Zoe are making a group poster on water consumption, and it is due on Wednesday. Your task is the chart, and it is still missing. You haven't forgotten it: in class you didn't understand how to turn the table into a chart, and you didn't dare to ask. Zoe's message in the group chat (“Typical, Luca's doing nothing again!”) has made you feel unsure. You react defensively to accusations at first; if the person calmly says what bothers them and asks questions, you open up and explain what the problem is. You suggest yourself that someone quickly shows you how to do it with the table and that you let Zoe know. You don't mention any private or family reasons. You are never mean, you don't insult anyone, you don't make threats and you don't make fun of anyone. You don't give advice on resolving conflicts and you don't play a teacher. You don't talk about family, health or private matters; if someone asks about them, you steer the conversation back to the poster in a friendly way. You talk casually like a teenager, but without swear words. If asked about yourself, you say openly that you are a simulated character and not a real person. Answer briefly (1–3 sentences) and stay in this conversation."
+   },
+   "start": "start",
+   "knoten": [
+    {
+     "id": "start",
+     "text": "Hey … you look really serious. Is it about the poster?",
+     "antworten": [
+      {
+       "text": "Yes. Your chart is still missing, and I'm worried about it because the deadline is on Wednesday. I'd like us to sort it out together.",
+       "weiter": "ich-botschaft"
+      },
+      {
+       "text": "You're so unreliable! Because of you we're going to get a bad mark.",
+       "weiter": "vorwurf"
+      },
+      {
+       "text": "No, no, everything's fine.",
+       "weiter": "ausweichen"
+      }
+     ]
+    },
+    {
+     "id": "vorwurf",
+     "text": "Oh really? You didn't even ask me if I can actually do it!",
+     "antworten": [
+      {
+       "text": "Hang on – I didn't know that. What do you mean?",
+       "weiter": "zuhoeren"
+      },
+      {
+       "text": "Excuses! Zoe thinks so too.",
+       "weiter": "ende-eskaliert"
+      }
+     ]
+    },
+    {
+     "id": "ausweichen",
+     "text": "Okay … Zoe wrote in the chat that I'm doing nothing. Is it about me?",
+     "antworten": [
+      {
+       "text": "To be honest, yes. Your chart is still missing, and we're worried about the deadline. What's up?",
+       "weiter": "zuhoeren"
+      },
+      {
+       "text": "No idea, ask Zoe.",
+       "weiter": "ende-ausgewichen"
+      }
+     ]
+    },
+    {
+     "id": "ich-botschaft",
+     "text": "Yeah … sorry. I didn't forget. I just didn't get how to turn the table into a chart. I didn't want to ask a stupid question.",
+     "antworten": [
+      {
+       "text": "Ah. So you didn't know how to start, and you didn't dare to ask?",
+       "weiter": "verstanden"
+      },
+      {
+       "text": "Well, you should have said something earlier.",
+       "weiter": "rechtfertigen"
+      }
+     ]
+    },
+    {
+     "id": "zuhoeren",
+     "text": "In the lesson the stuff about charts went so fast. I didn't get how it works. I didn't want to ask a stupid question.",
+     "antworten": [
+      {
+       "text": "Ah. So you didn't know how to start, and you didn't dare to ask?",
+       "weiter": "verstanden"
+      },
+      {
+       "text": "Well, you should have said something earlier.",
+       "weiter": "rechtfertigen"
+      }
+     ]
+    },
+    {
+     "id": "rechtfertigen",
+     "text": "Yeah, I know … I was embarrassed. It's too late now anyway, isn't it?",
+     "antworten": [
+      {
+       "text": "No, it's not too late. Let's think about how we can get it done by Wednesday.",
+       "weiter": "loesungen"
+      },
+      {
+       "text": "Yes. I'll do your part myself tonight.",
+       "weiter": "ende-uebernommen"
+      }
+     ]
+    },
+    {
+     "id": "verstanden",
+     "text": "Exactly. And now I think you're all angry with me.",
+     "antworten": [
+      {
+       "text": "We were stressed, yes. But let's look for a solution instead. What would you need to get it done?",
+       "weiter": "loesungen"
+      },
+      {
+       "text": "You know what, I'll do the chart, and you write my text instead.",
+       "weiter": "ende-getauscht"
+      }
+     ]
+    },
+    {
+     "id": "loesungen",
+     "text": "If someone quickly shows me how to do it with the table, I'll make the chart today. And we should let Zoe know, right?",
+     "antworten": [
+      {
+       "text": "I'll show you at lunchtime. Then we'll write in the chat together what we've agreed: chart by Tuesday evening.",
+       "weiter": "ende-geloest"
+      },
+      {
+       "text": "Okay. But I'll only believe it when I see the chart – otherwise I'm going straight to the teacher.",
+       "weiter": "ende-drohung"
+      }
+     ]
+    },
+    {
+     "id": "ende-geloest",
+     "text": "Thanks, really. *You sit down together at lunchtime, and Luca quickly understands how it works. On Tuesday evening the chart is in the group chat. Zoe writes: “Looks good!”*",
+     "auswertung": "**Listened and solved it together – very good.** You found out Luca's reason and looked for a solution with him. You agreed clearly on **who – what – by when**: you show him how to turn the table into a chart, and he makes it by Tuesday evening. And you let Zoe know straight away instead of leaving her in the dark. If you started with an accusation, avoided the issue at first or answered with “Well, you should have said something earlier”: it's good that you changed course – an **I-message** at the start and a “So you mean …?” save you this detour."
+    },
+    {
+     "id": "ende-getauscht",
+     "text": "Oh, sure! *You swap. The chart gets finished, but Luca still doesn't know how to make one, and Zoe only finds out about the swap on Wednesday.*",
+     "auswertung": "**Solved – but without taking everyone along.** You listened, repeated Luca's reason in your own words and quickly found a solution – that's already a lot. But you decided it on your own: you didn't wait for Luca's own idea, and Zoe knew nothing about it. If you **collect solutions together** and tell everyone what has been agreed, you help the whole group – and Luca would have learned how to make a chart. Try a different path in the role play."
+    },
+    {
+     "id": "ende-uebernommen",
+     "text": "Okay … thanks. *You sit up late working on the chart. Luca feels bad, and Zoe is still angry with him.*",
+     "auswertung": "**Helpful – but the problem isn't solved.** Taking over the part on your own sounds generous, but it overloads you. Luca doesn't learn how to do it, and Zoe doesn't know what's going on. It's better to ask what he would need to manage it himself, and then to **agree together** who does what by when. Try a different path in the role play."
+    },
+    {
+     "id": "ende-drohung",
+     "text": "Okay … *Luca makes the chart, but the mood in the group chat is tense.*",
+     "auswertung": "**Solution found – spoilt by pressure.** You were almost there: Luca's reason was clear, and he had made a suggestion himself. Involving a teacher is a good idea when you can't get any further on your own – but used as a threat, it turns the agreement into a new conflict, and the trust is gone. A clear agreement with **who – what – by when** doesn't need a threat – it just needs everyone to say yes. Try a different path in the role play."
+    },
+    {
+     "id": "ende-eskaliert",
+     "text": "Great, now you're both against me. *Luca walks away. You don't speak to each other again until Wednesday.*",
+     "auswertung": "**Accusation instead of an I-message.** “You're so unreliable!” and “Zoe thinks so too” turn a problem into an argument – two against one. That way you never found out Luca's reason, and the chart is still missing. With an **I-message** (“I'm worried because …”) and an honest question, the conversation would have stayed open. Try a different path in the role play."
+    },
+    {
+     "id": "ende-ausgewichen",
+     "text": "Okay … *On Tuesday the chart is still missing.*",
+     "auswertung": "**Conflict avoided – problem still there.** If you don't raise a conflict, you don't solve it. Luca even opened a door for you when he asked about Zoe's message. Raising it honestly **before** it got bigger would have left time for a solution. Try a different path in the role play."
+    }
+   ],
+   "abschlussfrage": {
+    "id": "sim-fehlender-teil-frage",
+    "type": "single_choice",
+    "prompt": "Luca says: “I didn't want to ask a stupid question.” Which approach helps most at a moment like this?",
+    "options": [
+     {
+      "text": "Tell him clearly that this is no excuse – after all, the poster is due on Wednesday."
+     },
+     {
+      "text": "Repeat what you have understood and work out a solution together, with a clear agreement.",
+      "correct": true
+     },
+     {
+      "text": "Take over his part yourself tonight so that there is no trouble in the group."
+     },
+     {
+      "text": "Leave the matter to the teacher – they should decide what happens next with Luca."
+     }
+    ],
+    "explanation": "With “I didn't want to ask a stupid question”, Luca says what the real problem is. Now **active listening** helps: repeating in your own words what you have understood. After that you **collect solutions and agree** who does what by when. An accusation ends the conversation at exactly the moment Luca opens up. Taking over his part on your own doesn't solve the problem – Luca doesn't learn anything from it. And you only need the teacher if you can't get any further yourselves."
+   }
+  },
+  {
+   "type": "tasks",
+   "id": "aufgaben-zusammenarbeit",
+   "title": "Your group work, your plan",
+   "teilkompetenzen": [
+    "uef.zusammenarbeit.im-team-arbeiten",
+    "uef.zusammenarbeit.vielfalt-achten"
+   ],
+   "intro": "There is no right or wrong answer to these two tasks – it's about **your** experience. You choose your own examples, and you don't have to share anything private that you don't want to share. If Cate is activated, she gives you feedback on how well she has understood your thoughts. **Don't name any classmates** – just describe what happened and what you did.",
+   "tasks": [
+    {
+     "id": "aufgabe-gruppenarbeit",
+     "prompt": "Think of a piece of **group work** at school. Describe in 4–6 sentences:\n\n1. What went well, and what didn't?\n2. What task or role did you have, and how did you do your part?\n3. What agreement would have helped your group? Explain why it would have prevented exactly what went wrong.",
+     "hint": "Think of the tools from the text “Together instead of side by side”: handing out roles, writing down tasks with who – what – by when, agreeing on shared rules and speaking up in good time when you get stuck.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It describes a specific piece of group work with at least one thing that went well and one that was difficult. (2) It honestly describes the student's own role or task and their own contribution – even if not everything went well. (3) It names a suitable agreement from the module (handing out roles, writing down who – what – by when, a shared rule, speaking up in good time) and explains how it would have prevented exactly what went wrong. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “In our presentation on volcanoes the slides looked great, but two of us had prepared the same chapter. I was in charge of the pictures and sent them on time, but I didn't ask what the others were doing. What would have helped was writing down right at the start who does what by when – then we would have noticed the double work straight away.” Honest self-observation is more valuable than a prettified story. Names and blaming others are not necessary, and neither are private details."
+    },
+    {
+     "id": "aufgabe-alle-dabei",
+     "prompt": "Plan your next piece of group work so that **everyone** can take part. Describe in 4–6 sentences:\n\n1. Name at least three different strengths that there might be in a group.\n2. How will you share out the tasks so that nobody is left out?\n3. What rule for treating each other with respect do you suggest?",
+     "hint": "Think of “including everyone” from the text “Together instead of side by side” and of respect from “Resolving conflicts fairly”: you talk about behaviour, not about background, appearance or language.",
+     "solution": "Criteria for a good answer (only these three are assessed; the topic and situation are free to choose): (1) It names at least three different strengths that there might be in a group (for example drawing, maths, explaining things well, having ideas, keeping things organised, speaking languages). (2) It describes a specific way of sharing out the tasks that makes use of these different strengths and explicitly makes sure that nobody is left out or just watches. (3) It suggests a clearly worded rule for treating each other with respect that can be followed in everyday school life. A possible example (one of many – any situation from school is equally good, similarity to the example doesn't count): “In a group, one person might be good at drawing, one at maths and one at giving talks. For a poster on energy I would share out the tasks like this: whoever is good at drawing does the pictures, whoever is good at maths does the chart, and whoever likes speaking practises the talk – and at the start we ask everyone what they would like to do. Our rule: anyone who doesn't understand something can ask at any time, and nobody gets laughed at.” Names of classmates are not necessary, and neither are private details."
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "id": "wie-weiter",
+   "title": "What next?",
+   "body": "Well done! You have practised tools that help a group work well together: listening, agreeing clearly, resolving conflicts fairly and including everyone.\n\n- **Try out a tool** – for example the team agreement at the start of your next piece of group work.\n- **Repeat the assessment above** after a few weeks. In the **competency web chart** on the home page you will then see whether anything has changed.\n- You can find an overview of all areas of transversal competencies in the module [[modul:ueberfachlich-wie-lerne-ich]]."
+  }
+ ]
+}
